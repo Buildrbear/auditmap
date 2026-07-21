@@ -1,0 +1,59 @@
+[
+  {
+    "id": "atl-library-central",
+    "name": "Atlanta Central Library",
+    "type": "Library",
+    "city": "Atlanta",
+    "state": "GA",
+    "address": "1 Margaret Mitchell Sq NW",
+    "latitude": 33.7553,
+    "longitude": -84.39,
+    "rating": 4.4,
+    "summary": "Open atrium creates some echo, but staff support is strong and quiet reading areas are easier to navigate.",
+    "tags": ["quiet zone", "staff support", "echo risk"],
+    "comments": [
+      {
+        "author": "Community member",
+        "text": "Best experience was on the upper floors where ambient noise dropped a lot."
+      }
+    ]
+  },
+  {
+    "id": "chicago-city-hall",
+    "name": "Chicago City Hall",
+    "type": "City office",
+    "city": "Chicago",
+    "state": "IL",
+    "address": "121 N LaSalle St",
+    "latitude": 41.8839,
+    "longitude": -87.6324,
+    "rating": 3.6,
+    "summary": "Busy lobby traffic makes conversations harder to follow during peak hours, but service windows are clearly marked.",
+    "tags": ["loud lobby", "clear signage"],
+    "comments": [
+      {
+        "author": "OpenTask volunteer",
+        "text": "Mid-morning visits were much easier than late afternoon for spoken communication."
+      }
+    ]
+  },
+  {
+    "id": "portland-union-station",
+    "name": "Portland Union Station",
+    "type": "Transit hub",
+    "city": "Portland",
+    "state": "OR",
+    "address": "800 NW 6th Ave",
+    "latitude": 45.5281,
+    "longitude": -122.6765,
+    "rating": 4.1,
+    "summary": "Announcements are generally audible, though crowd noise near the waiting area can compete with platform updates.",
+    "tags": ["public announcements", "crowd noise"],
+    "comments": [
+      {
+        "author": "Transit rider",
+        "text": "Standing closer to the central display boards helped pair visual and audio information."
+      }
+    ]
+  }
+]

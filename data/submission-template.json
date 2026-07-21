@@ -1,0 +1,19 @@
+{
+  "id": "institution-city-state",
+  "name": "Institution Name",
+  "type": "Library",
+  "city": "City",
+  "state": "ST",
+  "address": "123 Main St",
+  "latitude": 0,
+  "longitude": 0,
+  "rating": 4.0,
+  "summary": "Short note about the listening environment and any access barriers or strengths.",
+  "tags": ["quiet zone", "assistive listening"],
+  "comments": [
+    {
+      "author": "Community member",
+      "text": "Helpful first-hand note for future visitors."
+    }
+  ]
+}
