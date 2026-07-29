@@ -1,0 +1,26 @@
+[
+  {
+    "id": "dix-park",
+    "name": "Dix Park",
+    "type": "Park",
+    "city": "Raleigh",
+    "state": "NC",
+    "country": "US",
+    "citySlug": "raleigh-nc",
+    "address": "1030 Richardson Drive",
+    "latitude": 35.7704,
+    "longitude": -78.6569,
+    "sourceLabel": "City of Raleigh",
+    "source": "https://raleighnc.gov/parks-and-recreation/places/dix-park",
+    "verifiedAt": "2026-07-27",
+    "cost": "General park access is free",
+    "accessibility": "Accessible features need community verification",
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Raleigh%20Dix%20Park.jpg?width=1400",
+      "source": "https://commons.wikimedia.org/wiki/File:Raleigh_Dix_Park.jpg",
+      "author": "Maria Kozmina",
+      "license": "CC BY-SA 4.0",
+      "alt": "Open lawn and skyline view at Dix Park"
+    }
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "id": "broken place",
+    "name": "Broken Place",
+    "type": "Park",
+    "city": "Raleigh",
+    "state": "NC",
+    "country": "US",
+    "citySlug": "wrong-city",
+    "address": "1 Broken Way",
+    "latitude": 95,
+    "longitude": -181,
+    "sourceLabel": "Missing citation",
+    "source": "",
+    "verifiedAt": "2020-01-01",
+    "phone": "call us",
+    "email": "not-an-email",
+    "website": "ftp://example.gov/place",
+    "cost": "Cost unknown; admission is free",
+    "access": "Open to the public; no public access",
+    "accessibility": "Wheelchair accessible but not wheelchair accessible",
+    "image": {
+      "url": "http://example.com/image.jpg",
+      "source": "https://example.com/image",
+      "alt": "Park"
+    }
+  },
+  {
+    "id": "duplicate-park",
+    "name": "Duplicate Park",
+    "type": "Park",
+    "city": "Durham",
+    "state": "NC",
+    "country": "US",
+    "citySlug": "durham-nc",
+    "address": "1 Main Street",
+    "latitude": 35.994,
+    "longitude": -78.8986,
+    "sourceLabel": "City of Durham",
+    "source": "https://www.durhamnc.gov/parks",
+    "verifiedAt": "2026-07-20"
+  },
+  {
+    "id": "duplicate-park",
+    "name": "Duplicate Park",
+    "type": "Park",
+    "city": "Durham",
+    "state": "NC",
+    "country": "US",
+    "citySlug": "durham-nc",
+    "address": "1 Main Street",
+    "latitude": 35.994,
+    "longitude": -78.8986,
+    "sourceLabel": "City of Durham",
+    "source": "https://www.durhamnc.gov/parks",
+    "verifiedAt": "2026-07-20"
+  },
+  {
+    "id": "missing-date",
+    "name": "Missing Date Green",
+    "type": "Park",
+    "city": "Cary",
+    "state": "NC",
+    "country": "US",
+    "citySlug": "cary-nc",
+    "address": "2 Main Street",
+    "latitude": 35.7915,
+    "longitude": -78.7811,
+    "sourceLabel": "Town of Cary",
+    "source": "https://www.carync.gov/recreation-enjoyment/parks-greenways-environment",
+    "verifiedAt": ""
+  }
+]
