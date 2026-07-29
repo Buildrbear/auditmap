@@ -1,0 +1,49 @@
+name: Development task
+description: A scoped implementation task for GitHub or OpenTask volunteers.
+title: "[Task] "
+labels:
+  - help wanted
+body:
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome
+      description: Describe what should be better for an AuditMap visitor.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: List the screens, files, or behavior included and excluded.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance checks
+      description: Provide observable checks that a reviewer can use on the Vercel preview.
+      placeholder: |
+        - [ ] Works on a phone-sized screen
+        - [ ] Existing place pages still load
+        - [ ] No secrets or personal data are exposed
+    validations:
+      required: true
+  - type: dropdown
+    id: risk
+    attributes:
+      label: Risk area
+      options:
+        - Frontend only
+        - Public data or sources
+        - Database
+        - Authentication or permissions
+        - AI, moderation, or paid API
+        - Privacy or security
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Useful context
+      description: Add source links, screenshots, related issues, or OpenTask details.

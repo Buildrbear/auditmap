@@ -1,50 +1,84 @@
 # Contributing to AuditMap
 
-Thanks for helping build a public resource for audio access across public institutions.
+AuditMap is a public-interest map for useful public-place information, local context, and visible
+sources. Contributions from people and software agents are welcome through reviewed pull requests.
 
-## Fastest way to contribute
+## Safe contribution path
 
-1. Open the site locally and fill out the contribution form
-2. If live mode is configured, sign in with GitHub and publish directly
-3. If you already published a live post, use the directory card action to load it back into the form and update it
-4. If the site is still in demo mode, copy the generated JSON preview
-5. Add a new entry to `data/institutions.json` or wire the missing Supabase config
-6. Open a pull request with a short note about what changed
+1. Pick an approved GitHub issue or OpenTask assignment.
+2. Fork `Buildrbear/auditmap`; do not request production credentials.
+3. Create a small branch for one task.
+4. Make and test the change locally.
+5. Open a pull request against `main`.
+6. Use the Vercel preview linked to the pull request for visual testing.
+7. Address review feedback. An AuditMap maintainer decides whether to merge.
 
-## Submission checklist
+Outside contributors never need the Supabase service-role key, OpenAI key, moderation token, Vercel
+token, or access to the production project.
 
-- Confirm the institution is a public-facing place or service
-- Include institution name, type, city, state, and street address
-- Use a `rating` from `1.0` to `5.0`
-- Keep `summary` focused on practical audio access conditions
-- Add tags that help others scan the record quickly
-- Keep comments factual, useful, and safe for public display
+## Local preview
 
-## Style guide for entries
+Serve the repository over HTTP instead of opening HTML files directly:
 
-- Prefer concise summaries over long narratives
-- Use state abbreviations like `GA`, `IL`, and `OR`
-- Reuse existing institution types when possible
-- Reuse existing tags when possible so filters stay useful
-
-## Example entry
-
-```json
-{
-  "id": "downtown-public-library-atlanta-ga",
-  "name": "Downtown Public Library",
-  "type": "Library",
-  "city": "Atlanta",
-  "state": "GA",
-  "address": "123 Civic Center Plaza",
-  "rating": 4.2,
-  "summary": "Front desk staff communicate clearly and the reading room stays quiet, but the lobby gets noisy during school pickup hours.",
-  "tags": ["quiet zone", "loud lobby", "staff support"],
-  "comments": [
-    {
-      "author": "Community member",
-      "text": "The side entrance had the shortest line and made conversations easier to follow."
-    }
-  ]
-}
+```bash
+python3 -m http.server 4173
 ```
+
+Then visit `http://localhost:4173`. Features requiring server APIs or private environment variables
+will use their safe fallback behavior.
+
+Before opening a pull request, check all JavaScript:
+
+```bash
+find . -type f -name '*.js' -not -path './node_modules/*' -print0 | xargs -0 -n1 node --check
+```
+
+GitHub repeats syntax, JSON, merge-marker, and secret checks automatically.
+
+## Pull request expectations
+
+- Keep one user-facing outcome per pull request.
+- Link the GitHub issue and OpenTask assignment when applicable.
+- Include screenshots for visual changes.
+- Test desktop and phone-sized layouts.
+- Describe privacy, security, database, moderation, accessibility, AI-cost, or API-cost implications.
+- Never include secrets, real private user information, or precise visitor-location logs.
+- Do not bypass moderation or promote community statements to verified facts.
+- Do not add analytics, advertising, tracking, or paid placement without explicit maintainer approval.
+
+Draft pull requests are encouraged for early feedback. A preview is not production and may use
+different or limited data.
+
+## Public-place information
+
+New or changed factual information should include:
+
+- A stable public source URL.
+- The date checked when practical.
+- Clear separation between official facts, community reports, and AI-generated summaries.
+- Image author, source, and license information for externally sourced media.
+
+Do not scrape or upload copyrighted images without permission. Prefer official public-domain media
+or properly licensed Wikimedia Commons files.
+
+## Agentic contributions
+
+AI agents and OpenTask volunteers should work from narrowly scoped issues with observable acceptance
+checks. The human submitting the pull request remains responsible for reviewing generated code,
+sources, licenses, security implications, and the Vercel preview.
+
+Agents must not:
+
+- Retrieve or expose private credentials.
+- make production database changes;
+- spend money through paid APIs without approval;
+- merge their own pull requests;
+- weaken moderation, rate limits, or authorization;
+- fabricate sources, test results, or place information.
+
+## Review and merge
+
+`main` is the production branch. Pull requests require passing checks and maintainer review. Changes
+to `api/`, `supabase/`, `.github/`, or `vercel.json` receive additional security scrutiny.
+
+Report vulnerabilities privately using the process in `SECURITY.md`.

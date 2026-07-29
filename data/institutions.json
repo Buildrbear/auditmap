@@ -1,58 +1,592 @@
 [
   {
-    "id": "atl-library-central",
-    "name": "Atlanta Central Library",
+    "id": "dix-park",
+    "name": "Dix Park",
+    "type": "Park",
+    "city": "Raleigh",
+    "state": "NC",
+    "country": "US",
+    "citySlug": "raleigh-nc",
+    "address": "1030 Richardson Drive",
+    "latitude": 35.7704,
+    "longitude": -78.6569,
+    "externalRating": {
+      "value": 4.7,
+      "count": 2281,
+      "source": "Google reviews via Wanderlog",
+      "url": "https://wanderlog.com/place/details/541286/dix-park",
+      "checkedAt": "2026-07-27"
+    },
+    "neighborhood": "Downtown South",
+    "status": "Destination park",
+    "hours": "Open daily from dawn to dusk.",
+    "sourceLabel": "City of Raleigh",
+    "source": "https://raleighnc.gov/parks-and-recreation/places/dix-park",
+    "verifiedAt": "2026-07-27",
+    "accessibility": "Accessible features need community verification",
+    "cost": "General park access is free",
+    "transit": "Transit and arrival details need documentation",
+    "amenities": ["Event lawns", "Play areas", "Trails", "Dog park"],
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Raleigh%20Dix%20Park.jpg?width=1400",
+      "source": "https://commons.wikimedia.org/wiki/File:Raleigh_Dix_Park.jpg",
+      "author": "Maria Kozmina",
+      "license": "CC BY-SA 4.0",
+      "alt": "Open lawn and skyline view at Dix Park"
+    },
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Orange_Sunflowers_Dix_Park_Raleigh_NC_20210722_133951777.jpg/1920px-Orange_Sunflowers_Dix_Park_Raleigh_NC_20210722_133951777.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Orange_Sunflowers_Dix_Park_Raleigh_NC_20210722_133951777.jpg",
+        "author": "bobistraveling",
+        "license": "CC BY 2.0",
+        "alt": "Orange sunflowers at Dix Park"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Sunflowers_Dix_Park_Raleigh_NC_20210722_133039665.jpg/1920px-Sunflowers_Dix_Park_Raleigh_NC_20210722_133039665.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Sunflowers_Dix_Park_Raleigh_NC_20210722_133039665.jpg",
+        "author": "bobistraveling",
+        "license": "CC BY 2.0",
+        "alt": "Sunflower field at Dix Park"
+      }
+    ],
+    "summary": "People often highlight the wide lawns, downtown skyline views, walking space, dog park, and seasonal events. It is especially popular for picnics, sunsets, and having room to spread out, though shade and amenities can vary across the large grounds.",
+    "tags": ["park", "events", "playgrounds", "dog park"],
+    "comments": [
+      {
+        "author": "AuditMap seed",
+        "text": "This is a strong flagship card for the Raleigh launch because it combines destination value, scale, and rich official metadata."
+      }
+    ]
+  },
+  {
+    "id": "pullen-park",
+    "name": "Pullen Park",
+    "type": "Park",
+    "city": "Raleigh",
+    "state": "NC",
+    "country": "US",
+    "citySlug": "raleigh-nc",
+    "address": "520 Ashe Ave",
+    "latitude": 35.7822,
+    "longitude": -78.6635,
+    "externalRating": {
+      "value": 4.7,
+      "count": 9574,
+      "source": "Google reviews via Wanderlog",
+      "url": "https://wanderlog.com/place/details/14415/pullen-park",
+      "checkedAt": "2026-07-27"
+    },
+    "neighborhood": "West Raleigh",
+    "status": "Historic park",
+    "hours": "Open daily; rides and amenities vary by season.",
+    "sourceLabel": "City of Raleigh",
+    "source": "https://raleighnc.gov/parks-and-recreation/places/pullen-park",
+    "verifiedAt": "2026-07-27",
+    "accessibility": "Accessible features need community verification",
+    "cost": "Park access is free; some attractions charge fees",
+    "transit": "Transit and arrival details need documentation",
+    "amenities": ["Carousel", "Playground", "Aquatic center", "Train"],
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pullen%20Park%20entrance%202011.jpg?width=1400",
+      "source": "https://commons.wikimedia.org/wiki/File:Pullen_Park_entrance_2011.jpg",
+      "author": "RadioFan",
+      "license": "CC BY-SA 3.0",
+      "alt": "Entrance sign and landscaping at Pullen Park"
+    },
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Pullen_Park_pond.jpg/1920px-Pullen_Park_pond.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Pullen_Park_pond.jpg",
+        "author": "RadioFan",
+        "license": "CC BY-SA 3.0",
+        "alt": "Pond and walking path at Pullen Park"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Theatre_in_Pullen_Park.jpg/1920px-Theatre_in_Pullen_Park.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Theatre_in_Pullen_Park.jpg",
+        "author": "Pithon314",
+        "license": "CC BY-SA 4.0",
+        "alt": "Theatre in Pullen Park"
+      }
+    ],
+    "summary": "Families consistently mention the carousel, miniature train, playgrounds, and easygoing atmosphere. Visitors value the mix of low-cost attractions and open park space, while weekends and special events can bring longer waits and crowded parking.",
+    "tags": ["park", "carousel", "playground", "aquatic center"],
+    "comments": [
+      {
+        "author": "AuditMap seed",
+        "text": "Pullen helps the launch feel broad right away because it reads as both neighborhood amenity and citywide attraction."
+      }
+    ]
+  },
+  {
+    "id": "john-chavis-memorial-park",
+    "name": "John Chavis Memorial Park",
+    "type": "Community center",
+    "city": "Raleigh",
+    "state": "NC",
+    "country": "US",
+    "citySlug": "raleigh-nc",
+    "address": "505 Martin Luther King Jr Blvd",
+    "latitude": 35.7751,
+    "longitude": -78.6316,
+    "externalRating": {
+      "value": 4.7,
+      "count": 1277,
+      "source": "Google reviews via Wanderlog",
+      "url": "https://wanderlog.com/place/details/163505/john-chavis-memorial-park",
+      "checkedAt": "2026-07-27"
+    },
+    "neighborhood": "East Downtown",
+    "status": "Historic park + community center",
+    "hours": "Center: Mon-Fri 10 a.m.-9 p.m.; Sat 9 a.m.-3 p.m.; Sun 1 p.m.-6 p.m.",
+    "sourceLabel": "City of Raleigh",
+    "source": "https://raleighnc.gov/parks-and-recreation/places/john-chavis-memorial-park",
+    "verifiedAt": "2026-07-27",
+    "accessibility": "Accessible features need community verification",
+    "cost": "General park access is free",
+    "transit": "Transit and arrival details need documentation",
+    "amenities": ["Community center", "Playground", "Track", "Historic site"],
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/John%20Chavis%20Memorial%20Park2.jpg?width=1400",
+      "source": "https://commons.wikimedia.org/wiki/File:John_Chavis_Memorial_Park2.jpg",
+      "author": "2BKNIGHT",
+      "license": "CC BY-SA 4.0",
+      "alt": "John Chavis Memorial Park in Raleigh"
+    },
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Chavis_Park_-_panoramio.jpg/1920px-Chavis_Park_-_panoramio.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Chavis_Park_-_panoramio.jpg",
+        "author": "James Willamor",
+        "license": "CC BY-SA 3.0",
+        "alt": "View across John Chavis Memorial Park"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Chavis_Park_-_panoramio_%281%29.jpg/1920px-Chavis_Park_-_panoramio_%281%29.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Chavis_Park_-_panoramio_(1).jpg",
+        "author": "James Willamor",
+        "license": "CC BY-SA 3.0",
+        "alt": "Park grounds at John Chavis Memorial Park"
+      }
+    ],
+    "summary": "Visitors commonly praise the modern community center, playground, splash pad, track, and restored historic carousel. The park is seen as a welcoming neighborhood gathering place with a strong connection to Raleigh's Black history.",
+    "tags": ["community center", "historic site", "playground", "track"],
+    "comments": [
+      {
+        "author": "AuditMap seed",
+        "text": "This listing shows how the product can spotlight places that are more than one thing at once: recreation, history, and community service."
+      }
+    ]
+  },
+  {
+    "id": "moore-square",
+    "name": "Moore Square",
+    "type": "Park",
+    "city": "Raleigh",
+    "state": "NC",
+    "country": "US",
+    "citySlug": "raleigh-nc",
+    "address": "201 S. Blount Street",
+    "latitude": 35.7774,
+    "longitude": -78.6362,
+    "externalRating": {
+      "value": 4.3,
+      "count": 1393,
+      "source": "Google reviews via Wanderlog",
+      "url": "https://wanderlog.com/place/details/560696/moore-square",
+      "checkedAt": "2026-07-27"
+    },
+    "neighborhood": "Downtown",
+    "status": "Civic gathering space",
+    "hours": "Public square with events and visitor-center programming.",
+    "sourceLabel": "City of Raleigh",
+    "source": "https://raleighnc.gov/parks-and-recreation/places/moore-square",
+    "verifiedAt": "2026-07-27",
+    "accessibility": "Accessible features need community verification",
+    "cost": "Public square access is free",
+    "transit": "Downtown transit options are nearby",
+    "amenities": ["Public lawn", "Events", "Visitor center", "Downtown access"],
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Moore_Square%2C_Raleigh_-_panoramio.jpg/1920px-Moore_Square%2C_Raleigh_-_panoramio.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Moore_Square,_Raleigh_-_panoramio.jpg",
+      "author": "James Willamor",
+      "license": "CC BY-SA 3.0",
+      "alt": "Trees and lawn at Moore Square"
+    },
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Blount_street_at_moore_square_-_panoramio.jpg/1920px-Blount_street_at_moore_square_-_panoramio.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Blount_street_at_moore_square_-_panoramio.jpg",
+        "author": "Scott Thompson",
+        "license": "CC BY 3.0",
+        "alt": "Blount Street beside Moore Square"
+      },
+      {
+        "url": "https://raleighnc.gov/sites/default/files/2024-07/moore-square-2024.jpg",
+        "source": "https://raleighnc.gov/parks-and-recreation/places/moore-square",
+        "author": "City of Raleigh",
+        "license": "Official site image",
+        "alt": "Aerial view of Moore Square during an event"
+      }
+    ],
+    "summary": "People appreciate the central downtown location, open lawn, mature trees, public events, and nearby food options. Experiences vary by time of day, with some visitors noting that the square can feel busy during events or quieter outside programmed hours.",
+    "tags": ["downtown", "events", "public square", "visitor center"],
+    "comments": [
+      {
+        "author": "AuditMap seed",
+        "text": "This card gives the launch a dense downtown node that should feel very clickable on the map."
+      }
+    ]
+  },
+  {
+    "id": "green-road-park",
+    "name": "Green Road Park",
+    "type": "Community center",
+    "city": "Raleigh",
+    "state": "NC",
+    "country": "US",
+    "citySlug": "raleigh-nc",
+    "address": "4201 Green Road",
+    "latitude": 35.8398,
+    "longitude": -78.5791,
+    "externalRating": {
+      "value": 3.9,
+      "count": 24,
+      "source": "Google reviews via Triangle for Parents",
+      "url": "https://triangleforparents.com/playgrounds-in-wake-forest",
+      "checkedAt": "2026-07-27"
+    },
+    "neighborhood": "Northeast Raleigh",
+    "status": "Neighborhood resource hub",
+    "hours": "Community center programs and rentals available; see source for schedules.",
+    "sourceLabel": "City of Raleigh",
+    "source": "https://raleighnc.gov/parks-and-recreation/places/green-road-park",
+    "verifiedAt": "2026-07-27",
+    "accessibility": "Accessible features need community verification",
+    "cost": "General park access is free",
+    "transit": "Transit and arrival details need documentation",
+    "amenities": ["Community programs", "Library access", "Rental space"],
+    "image": {
+      "url": "https://raleighnc.gov/sites/default/files/2020-03/green-road-park-exterior.jpg",
+      "source": "https://raleighnc.gov/parks-and-recreation/places/green-road-park",
+      "author": "City of Raleigh",
+      "license": "Official site image",
+      "alt": "Exterior of the Green Road Park community center"
+    },
+    "images": [
+      {
+        "url": "https://raleighnc.gov/sites/default/files/2020-03/pickleball_16_feb_2020_5.jpg",
+        "source": "https://raleighnc.gov/parks-and-recreation/places/green-road-park",
+        "author": "City of Raleigh",
+        "license": "Official site image",
+        "alt": "People playing pickleball at Green Road Park"
+      },
+      {
+        "url": "https://raleighnc.gov/sites/default/files/2020-02/green-road-park-fitness-room.jpg",
+        "source": "https://raleighnc.gov/parks-and-recreation/places/green-road-park",
+        "author": "City of Raleigh",
+        "license": "Official site image",
+        "alt": "Fitness room at Green Road Park"
+      }
+    ],
+    "summary": "Community members value the recreation center, playgrounds, sports areas, and convenient access to the neighboring library. It is generally described as a practical, family-oriented neighborhood park rather than a destination park.",
+    "tags": ["community center", "library access", "programs", "northeast"],
+    "comments": [
+      {
+        "author": "AuditMap seed",
+        "text": "This place helps balance the launch away from only destination spaces and toward routine neighborhood value."
+      }
+    ]
+  },
+  {
+    "id": "barwell-road-community-center",
+    "name": "Barwell Road Community Center",
+    "type": "Community center",
+    "city": "Raleigh",
+    "state": "NC",
+    "country": "US",
+    "citySlug": "raleigh-nc",
+    "address": "5857 Barwell Park Dr.",
+    "latitude": 35.7526,
+    "longitude": -78.5479,
+    "externalRating": {
+      "value": 4.5,
+      "count": 173,
+      "source": "Google reviews via Wanderlog",
+      "url": "https://wanderlog.com/place/details/1835490/barwell-road-community-center",
+      "checkedAt": "2026-07-27"
+    },
+    "neighborhood": "Southeast Raleigh",
+    "status": "Programming + rental space",
+    "hours": "Community center programming and rentals available.",
+    "sourceLabel": "City of Raleigh",
+    "source": "https://raleighnc.gov/parks-and-recreation/places/barwell-road-park",
+    "verifiedAt": "2026-07-27",
+    "accessibility": "Accessible features need community verification",
+    "cost": "Program and rental fees may vary",
+    "transit": "Transit and arrival details need documentation",
+    "amenities": ["Community programs", "Sports", "Rental space"],
+    "image": {
+      "url": "https://raleighnc.gov/sites/default/files/2019-11/community-center-front-barwell-road-parks.jpg",
+      "source": "https://raleighnc.gov/parks-and-recreation/places/barwell-road-park",
+      "author": "City of Raleigh",
+      "license": "Official site image",
+      "alt": "Front of Barwell Road Community Center"
+    },
+    "images": [
+      {
+        "url": "https://raleighnc.gov/sites/default/files/2020-02/barwell-road-park-gym.jpg",
+        "source": "https://raleighnc.gov/parks-and-recreation/places/barwell-road-park",
+        "author": "City of Raleigh",
+        "license": "Official site image",
+        "alt": "Gymnasium at Barwell Road Community Center"
+      },
+      {
+        "url": "https://raleighnc.gov/sites/default/files/2020-02/barwell-road-park-fitness-room.jpg",
+        "source": "https://raleighnc.gov/parks-and-recreation/places/barwell-road-park",
+        "author": "City of Raleigh",
+        "license": "Official site image",
+        "alt": "Fitness room at Barwell Road Community Center"
+      }
+    ],
+    "summary": "People use this center for youth programs, sports, classes, and community gatherings. Feedback tends to focus on the helpful neighborhood programming and indoor activity space, with schedules and facility availability depending on current programs.",
+    "tags": ["community center", "southeast", "sports", "rentals"],
+    "comments": [
+      {
+        "author": "AuditMap seed",
+        "text": "This gives the launch better geographic spread and keeps the map from feeling too downtown-heavy."
+      }
+    ]
+  },
+  {
+    "id": "oberlin-regional-library",
+    "name": "Oberlin Regional Library",
     "type": "Library",
-    "city": "Atlanta",
-    "state": "GA",
-    "address": "1 Margaret Mitchell Sq NW",
-    "latitude": 33.7553,
-    "longitude": -84.39,
-    "rating": 4.4,
-    "summary": "Open atrium creates some echo, but staff support is strong and quiet reading areas are easier to navigate.",
-    "tags": ["quiet zone", "staff support", "echo risk"],
+    "city": "Raleigh",
+    "state": "NC",
+    "country": "US",
+    "citySlug": "raleigh-nc",
+    "address": "1930 Clark Avenue",
+    "latitude": 35.7922,
+    "longitude": -78.6648,
+    "externalRating": {
+      "value": 4.3,
+      "count": 193,
+      "source": "Google reviews via Wanderlog",
+      "url": "https://wanderlog.com/place/details/5063164/oberlin-regional-library",
+      "checkedAt": "2026-07-27"
+    },
+    "neighborhood": "Village District",
+    "status": "Regional library branch",
+    "hours": "See branch page for current hours.",
+    "sourceLabel": "Wake County Public Libraries",
+    "source": "https://catalog.wake.gov/Library/38/Branch",
+    "verifiedAt": "2026-07-27",
+    "accessibility": "Accessible features need community verification",
+    "cost": "Library access is free",
+    "transit": "Transit and arrival details need documentation",
+    "amenities": ["Books and media", "Study space", "Public programs"],
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Cameron_Village_Regional_Library.jpg/1920px-Cameron_Village_Regional_Library.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Cameron_Village_Regional_Library.jpg",
+      "author": "Cgb628",
+      "license": "CC BY-SA 3.0",
+      "alt": "Exterior of Oberlin Regional Library under its former Cameron Village name"
+    },
+    "summary": "Visitors often mention the helpful staff, broad collection, study areas, children's resources, and convenient Village District location. Busy periods can make parking and quiet seating less predictable.",
+    "tags": ["library", "regional branch", "study space", "village district"],
     "comments": [
       {
-        "author": "Community member",
-        "text": "Best experience was on the upper floors where ambient noise dropped a lot."
+        "author": "AuditMap seed",
+        "text": "Library entries will make the platform feel meaningfully different from a parks-only map."
       }
     ]
   },
   {
-    "id": "chicago-city-hall",
-    "name": "Chicago City Hall",
+    "id": "raleigh-union-station",
+    "name": "Raleigh Union Station",
+    "type": "Transit",
+    "city": "Raleigh",
+    "state": "NC",
+    "country": "US",
+    "citySlug": "raleigh-nc",
+    "address": "510 W Martin St",
+    "latitude": 35.7727,
+    "longitude": -78.6468,
+    "externalRating": {
+      "value": 4.3,
+      "count": 387,
+      "source": "Google reviews via Wanderlog",
+      "url": "https://wanderlog.com/place/details/860269/raleigh-union-station",
+      "checkedAt": "2026-07-27"
+    },
+    "neighborhood": "Warehouse District",
+    "status": "Rail + bus connection",
+    "hours": "Station hours and train schedules vary by service.",
+    "sourceLabel": "City of Raleigh",
+    "source": "https://raleighnc.gov/transportation/places/raleigh-union-station",
+    "verifiedAt": "2026-07-27",
+    "accessibility": "Station accessibility should be checked against current carrier information",
+    "cost": "Station access is free; travel requires a fare",
+    "transit": "Intercity rail and connecting bus service",
+    "amenities": ["Rail service", "Bus connections", "Waiting area"],
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Raleigh%20Union%20Station%20Grand%20Opening%2004.jpg?width=1400",
+      "source": "https://commons.wikimedia.org/wiki/File:Raleigh_Union_Station_Grand_Opening_04.jpg",
+      "author": "NCDOTcommunications",
+      "license": "CC BY 2.0",
+      "alt": "Raleigh Union Station during its grand opening"
+    },
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Raleigh_Union_Station_10-17.jpg/1920px-Raleigh_Union_Station_10-17.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Raleigh_Union_Station_10-17.jpg",
+        "author": "Sjones26573",
+        "license": "CC BY-SA 4.0",
+        "alt": "Exterior of Raleigh Union Station"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Raleigh_Union_Station_waiting_room_4.jpg/1920px-Raleigh_Union_Station_waiting_room_4.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Raleigh_Union_Station_waiting_room_4.jpg",
+        "author": "HangingCurve",
+        "license": "CC BY-SA 4.0",
+        "alt": "Waiting room inside Raleigh Union Station"
+      }
+    ],
+    "summary": "Travelers commonly praise the station's bright modern design, central location, and connections to downtown Raleigh. Comments also mention that food options and seating can feel limited during longer waits, so checking current train information is useful.",
+    "tags": ["transit", "rail", "bus connection", "warehouse district"],
+    "comments": [
+      {
+        "author": "AuditMap seed",
+        "text": "Transit places are useful for showing that the platform can cover movement and access, not just destination sites."
+      }
+    ]
+  },
+  {
+    "id": "city-of-raleigh-museum",
+    "name": "City of Raleigh Museum",
+    "type": "Museum",
+    "city": "Raleigh",
+    "state": "NC",
+    "country": "US",
+    "citySlug": "raleigh-nc",
+    "address": "220 Fayetteville Street",
+    "latitude": 35.7779,
+    "longitude": -78.6394,
+    "externalRating": {
+      "value": 4.5,
+      "count": 276,
+      "source": "Google reviews via Wanderlog",
+      "url": "https://wanderlog.com/place/details/163489/city-of-raleigh-museum",
+      "checkedAt": "2026-07-27"
+    },
+    "neighborhood": "Downtown",
+    "status": "Free museum",
+    "hours": "Tue-Sat 9 a.m.-4 p.m.; Sun 1 p.m.-4 p.m.",
+    "sourceLabel": "City of Raleigh",
+    "source": "https://raleighnc.gov/parks-and-recreation/places/city-raleigh-museum",
+    "verifiedAt": "2026-07-27",
+    "accessibility": "Accessible features need community verification",
+    "cost": "General admission is free",
+    "transit": "Located in downtown Raleigh",
+    "amenities": ["Local history exhibits", "Public programs", "Downtown access"],
+    "image": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/City%20of%20Raleigh%20Museum%20Entrance.jpg?width=1400",
+      "source": "https://commons.wikimedia.org/wiki/File:City_of_Raleigh_Museum_Entrance.jpg",
+      "author": "Leo Suarez",
+      "license": "CC BY-SA 4.0",
+      "alt": "Entrance to the City of Raleigh Museum"
+    },
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/City_of_Raleigh_Museum_%28COR%29_--_28_November_2013.jpg/1920px-City_of_Raleigh_Museum_%28COR%29_--_28_November_2013.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:City_of_Raleigh_Museum_(COR)_--_28_November_2013.jpg",
+        "author": "Alexisrael",
+        "license": "CC BY-SA 3.0",
+        "alt": "City of Raleigh Museum on Fayetteville Street"
+      }
+    ],
+    "summary": "Visitors describe this as a small, free, and approachable introduction to Raleigh history. People appreciate the central location and focused exhibits, while noting that it is best suited to a shorter visit rather than a large museum experience.",
+    "tags": ["museum", "free", "history", "downtown"],
+    "comments": [
+      {
+        "author": "AuditMap seed",
+        "text": "This listing shows how cultural institutions can sit naturally beside parks and service buildings in the same map model."
+      }
+    ]
+  },
+  {
+    "id": "raleigh-pathways-center",
+    "name": "Raleigh Pathways Center",
+    "type": "Civic resource",
+    "city": "Raleigh",
+    "state": "NC",
+    "country": "US",
+    "citySlug": "raleigh-nc",
+    "address": "900 S. Wilmington Street",
+    "latitude": 35.7681,
+    "longitude": -78.6402,
+    "neighborhood": "South Downtown",
+    "status": "Community engagement + social resource hub",
+    "hours": "City service hours vary by department.",
+    "sourceLabel": "City of Raleigh",
+    "source": "https://raleighnc.gov/community/places/raleigh-pathways-center",
+    "verifiedAt": "2026-07-27",
+    "accessibility": "Accessible features need community verification",
+    "cost": "Service costs vary by program",
+    "transit": "Transit and arrival details need documentation",
+    "amenities": ["Community engagement", "City services", "Social resources"],
+    "image": {
+      "url": "https://raleighnc.gov/sites/default/files/2023-09/raleigh-pathways-center.jpg",
+      "source": "https://raleighnc.gov/community/places/raleigh-pathways-center",
+      "author": "City of Raleigh",
+      "license": "Official site image",
+      "alt": "Front of the Raleigh Pathways Center"
+    },
+    "summary": "People primarily visit for workforce support, training, and city-connected services. Experiences depend on the specific appointment or program, so visitors benefit from confirming eligibility, hours, and required documents before arriving.",
+    "tags": ["civic resource", "community engagement", "city services", "south downtown"],
+    "comments": [
+      {
+        "author": "AuditMap seed",
+        "text": "This place is important for the platform narrative because it pushes the catalog toward real support infrastructure."
+      }
+    ]
+  },
+  {
+    "id": "raleigh-municipal-building",
+    "name": "Raleigh Municipal Building",
     "type": "City office",
-    "city": "Chicago",
-    "state": "IL",
-    "address": "121 N LaSalle St",
-    "latitude": 41.8839,
-    "longitude": -87.6324,
-    "rating": 3.6,
-    "summary": "Busy lobby traffic makes conversations harder to follow during peak hours, but service windows are clearly marked.",
-    "tags": ["loud lobby", "clear signage"],
+    "city": "Raleigh",
+    "state": "NC",
+    "country": "US",
+    "citySlug": "raleigh-nc",
+    "address": "222 W. Hargett St.",
+    "latitude": 35.7805,
+    "longitude": -78.6433,
+    "neighborhood": "Downtown Core",
+    "status": "City service building",
+    "hours": "City office hours vary by floor and department.",
+    "sourceLabel": "City of Raleigh",
+    "source": "https://raleighnc.gov/government/places/raleigh-municipal-building-rmb",
+    "verifiedAt": "2026-07-27",
+    "accessibility": "Public-building accessibility needs community verification",
+    "cost": "Public building access is free",
+    "transit": "Located in downtown Raleigh",
+    "amenities": ["City services", "Government offices", "Public meetings"],
+    "image": {
+      "url": "https://raleighnc.gov/sites/default/files/2020-02/rmb-municipal-building-front-view.jpg",
+      "source": "https://raleighnc.gov/government/places/raleigh-municipal-building-rmb",
+      "author": "City of Raleigh",
+      "license": "Official site image",
+      "alt": "Front of the Raleigh Municipal Building"
+    },
+    "summary": "Visitors come here for municipal services, public meetings, and direct access to city government. Feedback is generally shaped by the department being visited, with preparation, appointment details, parking, and security procedures affecting the experience.",
+    "tags": ["city office", "government", "downtown", "payments and services"],
     "comments": [
       {
-        "author": "OpenTask volunteer",
-        "text": "Mid-morning visits were much easier than late afternoon for spoken communication."
-      }
-    ]
-  },
-  {
-    "id": "portland-union-station",
-    "name": "Portland Union Station",
-    "type": "Transit hub",
-    "city": "Portland",
-    "state": "OR",
-    "address": "800 NW 6th Ave",
-    "latitude": 45.5281,
-    "longitude": -122.6765,
-    "rating": 4.1,
-    "summary": "Announcements are generally audible, though crowd noise near the waiting area can compete with platform updates.",
-    "tags": ["public announcements", "crowd noise"],
-    "comments": [
-      {
-        "author": "Transit rider",
-        "text": "Standing closer to the central display boards helped pair visual and audio information."
+        "author": "AuditMap seed",
+        "text": "This makes the inventory feel closer to a full public-place graph instead of a leisure-only guide."
       }
     ]
   }

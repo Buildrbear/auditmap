@@ -3,334 +3,236 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AuditMap | Find audio access by city</title>
+    <title>AuditMap | Find useful public places</title>
     <meta
       name="description"
-      content="AuditMap is a simple public directory for finding audio access information at public institutions by city or nearby location."
+      content="Search parks, libraries, civic resources, and other useful public places by city or distance."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Sans+3:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
       rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"
     />
     <link rel="stylesheet" href="./styles.css" />
   </head>
-  <body>
-    <div class="page-shell">
-      <header class="site-header">
-        <a class="brand" href="#top">
-          <span class="brand-mark">AM</span>
-          <span class="brand-copy">
-            <strong>AuditMap</strong>
-            <span>Simple public audio access directory</span>
-          </span>
-        </a>
-        <nav class="site-nav">
-          <a href="#directory">Search</a>
-          <a href="#how-it-works">How it works</a>
-          <a href="#post">Post</a>
-        </nav>
-      </header>
+  <body data-page="map">
+    <header class="site-header">
+      <a class="brand" href="./index.html" aria-label="AuditMap home">
+        <img src="./logo.svg" alt="" />
+        <span>AuditMap</span>
+      </a>
+      <div class="header-actions">
+        <span class="state-label">North Carolina</span>
+        <button class="text-button" id="add-place-button" type="button">+ Add a place</button>
+      </div>
+    </header>
 
-      <section class="utility-bar" aria-label="Application status">
-        <div class="utility-copy">
-          <strong id="auth-status">Guest mode</strong>
-          <span id="auth-meta">Guests can search without logging in.</span>
-        </div>
-        <div class="utility-actions">
-          <button class="button button-secondary" id="sign-in-button" type="button">
-            Sign in with GitHub
+    <main class="map-page">
+      <div class="map-toolbar">
+        <button class="location-button" id="location-button" type="button">
+          <span class="location-target" aria-hidden="true"></span>
+          <span id="location-button-label">Near me</span>
+        </button>
+
+        <form class="search-field" id="state-search-form">
+          <label class="sr-only" for="search-input">Search North Carolina</label>
+          <span class="search-icon" aria-hidden="true"></span>
+          <input
+            id="search-input"
+            type="search"
+            placeholder="City, address, or public place"
+            autocomplete="off"
+            aria-autocomplete="list"
+            aria-controls="search-suggestions"
+            aria-expanded="false"
+          />
+          <button type="submit">Go</button>
+          <div
+            class="search-suggestions"
+            id="search-suggestions"
+            role="listbox"
+            aria-label="Suggested searches"
+            hidden
+          ></div>
+        </form>
+
+        <button
+          class="toolbar-filter-button"
+          id="toolbar-filter-button"
+          type="button"
+          aria-label="Filter places"
+        >
+          <span class="filter-icon" aria-hidden="true"></span>
+          <span class="filter-count" data-filter-count hidden></span>
+        </button>
+        <span class="location-status" id="location-status" role="status"></span>
+      </div>
+
+      <aside class="places-sidebar">
+        <button
+          class="sheet-handle"
+          id="sheet-handle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="place-list"
+        >
+          <span aria-hidden="true"></span>
+          <span class="sr-only">Expand place results</span>
+        </button>
+        <div class="mobile-place-preview" id="mobile-place-preview" hidden></div>
+        <div class="sidebar-heading">
+          <div>
+            <p class="kicker">Map area</p>
+            <h1 id="city-heading">Raleigh</h1>
+            <p id="area-summary">Public places in this view</p>
+          </div>
+          <button
+            class="card-filter-button"
+            id="card-filter-button"
+            type="button"
+            aria-label="Filter places"
+          >
+            <span class="filter-icon" aria-hidden="true"></span>
+            <span class="filter-count" data-filter-count hidden></span>
           </button>
-          <button class="button button-secondary" id="sign-out-button" type="button" hidden>
-            Sign out
-          </button>
         </div>
+
+        <div class="filter-row" id="filter-row" aria-label="Filter places"></div>
+
+        <p class="results-count" id="results-count">Loading places...</p>
+        <div class="place-list" id="place-list" aria-live="polite"></div>
+      </aside>
+
+      <section class="map-wrap" aria-label="Map of public places">
+        <div id="map" class="map-canvas" role="application" aria-label="Interactive map of public places"></div>
+        <button class="search-area-button" id="search-area-button" type="button" hidden>
+          Search this area
+        </button>
+        <div class="map-legend" aria-label="Map marker key">
+          <span><i class="legend-dot is-curated"></i> Established</span>
+          <span><i class="legend-dot is-seed"></i> Local info welcome</span>
+          <span><i class="legend-cluster">12</i> Grouped places</span>
+        </div>
+        <div class="map-note">Move the map to explore anywhere in NC</div>
       </section>
+    </main>
 
-      <p class="mode-banner" id="mode-banner">
-        Demo mode is active. Search works now, and live posting turns on after Supabase is configured.
-      </p>
-
-      <main id="top">
-        <section class="hero">
-          <div class="hero-copy">
-            <p class="eyebrow">Public search, simple publishing</p>
-            <h1>Search public institutions by city or nearby location.</h1>
-            <p class="hero-text">
-              AuditMap is a clean public directory for finding audio access
-              information at libraries, schools, courthouses, transit hubs, and
-              other public spaces. Anyone can search. Posting new institutions
-              and reviews requires a login.
-            </p>
-            <div class="hero-actions">
-              <a class="button button-primary" href="#directory">Start searching</a>
-              <a class="button button-secondary" href="#post">How posting works</a>
-            </div>
+    <dialog class="site-dialog" id="add-place-dialog">
+      <form class="dialog-form" id="add-place-form">
+        <div class="dialog-heading">
+          <div>
+            <p class="kicker">Community submission</p>
+            <h2>Add a public place</h2>
           </div>
+          <button class="icon-button" type="button" data-close-dialog aria-label="Close">×</button>
+        </div>
+        <p class="dialog-copy">
+          Start a local draft for a park, library, civic resource, transit stop, or other
+          publicly useful place.
+        </p>
+        <div class="form-grid">
+          <label>
+            Place name
+            <input name="name" required />
+          </label>
+          <label>
+            Type
+            <input name="type" placeholder="Park, library, resource..." required />
+          </label>
+          <label>
+            City
+            <input name="city" required />
+          </label>
+          <label>
+            State or region
+            <input name="state" required />
+          </label>
+          <label class="full-field">
+            Address
+            <input name="address" required />
+          </label>
+          <label class="full-field">
+            Why is this place useful?
+            <textarea name="summary" required></textarea>
+          </label>
+          <label class="full-field">
+            Public source URL
+            <input name="source" type="url" placeholder="https://..." required />
+          </label>
+        </div>
+        <p class="form-status" id="add-place-status" aria-live="polite"></p>
+        <button class="submit-button" type="submit">Save draft</button>
+        <p class="form-note">Drafts stay in this browser until shared publishing is connected.</p>
+      </form>
+    </dialog>
 
-          <aside class="hero-panel">
-            <div class="hero-panel-card">
-              <p class="panel-label">Public access</p>
-              <ul class="impact-list">
-                <li>No login required to search by city or browse listings.</li>
-                <li>Fast filtering for institution type, rating, and nearby places.</li>
-                <li>Simple data model that can stay inexpensive to operate.</li>
-              </ul>
-            </div>
-            <div class="hero-panel-card">
-              <p class="panel-label">Low-cost stack</p>
-              <p>
-                The product direction here is a static-first public site with a
-                lightweight database and auth layer added only for posting.
-              </p>
-            </div>
-          </aside>
-        </section>
-
-        <section class="stats" aria-label="Project statistics">
-          <article class="stat-card">
-            <p class="stat-value" id="stat-count">0</p>
-            <p class="stat-label">Institutions tracked</p>
-          </article>
-          <article class="stat-card">
-            <p class="stat-value" id="stat-cities">0</p>
-            <p class="stat-label">Cities represented</p>
-          </article>
-          <article class="stat-card">
-            <p class="stat-value" id="stat-rating">0.0</p>
-            <p class="stat-label">Average rating</p>
-          </article>
-        </section>
-
-        <section class="workflow" id="how-it-works">
-          <div class="section-heading">
-            <p class="eyebrow">How it works</p>
-            <h2>Designed to stay useful, lightweight, and easy to maintain</h2>
+    <dialog class="site-dialog filter-dialog" id="filter-dialog">
+      <form class="filter-dialog-form" id="filter-dialog-form">
+        <div class="dialog-heading">
+          <div>
+            <p class="kicker">More filters</p>
+            <h2>What works for this visit?</h2>
           </div>
-          <div class="workflow-grid">
-            <article class="workflow-card">
-              <span>01</span>
-              <h3>Search freely</h3>
-              <p>
-                Guests can search by institution name, city, tags, or use the
-                nearby search button without creating an account.
-              </p>
-            </article>
-            <article class="workflow-card">
-              <span>02</span>
-              <h3>Post with login</h3>
-              <p>
-                Only signed-in contributors can add institutions, ratings, and
-                comments, which keeps moderation and spam control simpler.
-              </p>
-            </article>
-            <article class="workflow-card">
-              <span>03</span>
-              <h3>Keep costs low</h3>
-              <p>
-                Start with a static front end and evolve to a small hosted
-                backend only where auth and submissions actually need it.
-              </p>
-            </article>
-          </div>
-        </section>
+          <button class="icon-button" type="button" data-close-filter-dialog aria-label="Close">×</button>
+        </div>
 
-        <section class="directory" id="directory">
-          <div class="section-heading split-heading">
-            <div>
-              <p class="eyebrow">Institution directory</p>
-              <h2>Search the directory in seconds</h2>
-            </div>
-            <p class="section-note">
-              Browse as a guest, search by city, or use your location to find
-              the closest records.
-            </p>
-          </div>
+        <fieldset class="filter-fieldset">
+          <legend>Good for</legend>
+          <div class="filter-option-grid" id="visit-filter-options"></div>
+        </fieldset>
 
-          <div class="controls">
-            <label class="control search-control">
-              <span>Search by city or institution</span>
-              <input
-                id="search-input"
-                type="search"
-                placeholder="Atlanta, Chicago, library, courthouse"
-              />
+        <fieldset class="filter-fieldset">
+          <legend>Place type</legend>
+          <div class="filter-option-grid" id="type-filter-options"></div>
+        </fieldset>
+
+        <fieldset class="filter-fieldset">
+          <legend>Minimum rating</legend>
+          <div class="filter-option-grid rating-filter-options">
+            <label class="filter-option">
+              <input type="radio" name="minimum-rating" value="0" checked />
+              <span>Any rating</span>
             </label>
-
-            <label class="control">
-              <span>Institution type</span>
-              <select id="type-filter">
-                <option value="all">All types</option>
-              </select>
+            <label class="filter-option">
+              <input type="radio" name="minimum-rating" value="4" />
+              <span>4.0+ stars</span>
             </label>
-
-            <label class="control">
-              <span>Minimum rating</span>
-              <select id="rating-filter">
-                <option value="0">Any rating</option>
-                <option value="3">3.0 and up</option>
-                <option value="4">4.0 and up</option>
-                <option value="4.5">4.5 and up</option>
-              </select>
+            <label class="filter-option">
+              <input type="radio" name="minimum-rating" value="4.5" />
+              <span>4.5+ stars</span>
             </label>
-
-            <div class="control action-control">
-              <span>Nearby search</span>
-              <button class="button button-secondary" id="location-button" type="button">
-                Use my location
-              </button>
-            </div>
           </div>
+        </fieldset>
 
-          <div class="results-bar">
-            <p id="results-count">Loading institutions...</p>
-            <div class="tag-legend">
-              <span id="location-status">Guests can search without logging in.</span>
-            </div>
-          </div>
+        <div class="filter-dialog-actions">
+          <button class="plain-button filter-clear-button" id="clear-all-filters" type="button">
+            Clear all
+          </button>
+          <button class="submit-button" type="submit">Show places</button>
+        </div>
+        <p class="filter-dialog-note">
+          Places with unknown details are not assumed to match.
+        </p>
+      </form>
+    </dialog>
 
-          <div id="directory-grid" class="directory-grid" aria-live="polite"></div>
-        </section>
-
-        <section class="contribute" id="post">
-          <div class="section-heading split-heading">
-            <div>
-              <p class="eyebrow">Posting flow</p>
-              <h2>Guests search. Members post.</h2>
-            </div>
-            <p class="section-note">
-              This preview keeps the product direction simple now: public search
-              for everyone, authenticated posting for contributors.
-            </p>
-          </div>
-
-          <div class="contribute-layout">
-            <form id="contribution-form" class="contribution-form">
-              <div class="auth-banner">
-                <strong id="auth-banner-title">Posting requires login.</strong>
-                <p id="auth-banner-copy">
-                  In the low-cost production version, this form would be shown
-                  only after sign-in using a lightweight auth provider.
-                </p>
-              </div>
-
-              <p class="form-mode-note" id="form-mode-note">
-                Start a new listing or load one of your existing live posts to edit.
-              </p>
-
-              <label>
-                <span>Institution name</span>
-                <input name="name" type="text" placeholder="Downtown Public Library" required />
-              </label>
-
-              <label>
-                <span>Institution type</span>
-                <input name="type" type="text" placeholder="Library, courthouse, school" required />
-              </label>
-
-              <div class="field-row">
-                <label>
-                  <span>City</span>
-                  <input name="city" type="text" placeholder="Atlanta" required />
-                </label>
-                <label>
-                  <span>State</span>
-                  <input name="state" type="text" placeholder="GA" required />
-                </label>
-              </div>
-
-              <label>
-                <span>Street address</span>
-                <input name="address" type="text" placeholder="123 Civic Center Plaza" required />
-              </label>
-
-              <div class="field-row">
-                <label>
-                  <span>Latitude (optional)</span>
-                  <input name="latitude" type="number" step="0.0001" placeholder="33.7553" />
-                </label>
-                <label>
-                  <span>Longitude (optional)</span>
-                  <input name="longitude" type="number" step="0.0001" placeholder="-84.3900" />
-                </label>
-              </div>
-
-              <div class="field-row">
-                <label>
-                  <span>Audio access score</span>
-                  <input name="rating" type="number" min="1" max="5" step="0.1" placeholder="4.2" required />
-                </label>
-                <label>
-                  <span>Tags</span>
-                  <input
-                    name="tags"
-                    type="text"
-                    placeholder="assistive listening, clear signage, quiet zone"
-                  />
-                </label>
-              </div>
-
-              <label>
-                <span>Short notes</span>
-                <textarea
-                  name="summary"
-                  rows="3"
-                  placeholder="Describe room acoustics, staff support, hearing loops, background noise, or barriers."
-                  required
-                ></textarea>
-              </label>
-
-              <label>
-                <span>Community comment</span>
-                <textarea
-                  name="comment"
-                  rows="4"
-                  placeholder="Share a more personal experience, suggestion, or warning for future visitors."
-                  required
-                ></textarea>
-              </label>
-
-              <button class="button button-primary" type="submit" data-submit-button>
-                Generate contribution preview
-              </button>
-            </form>
-
-            <aside class="preview-panel">
-              <p class="panel-label">Submission preview</p>
-              <p class="preview-copy">
-                The preview is still useful for shaping the submission schema and
-                future signed-in posting flow.
-              </p>
-              <pre id="submission-preview" class="preview-block">No submission generated yet.</pre>
-              <p class="post-notice" id="post-notice">
-                You can draft a post now, then sign in to publish it.
-              </p>
-              <div class="preview-actions">
-                <button class="button button-secondary" id="copy-preview" type="button">
-                  Copy preview
-                </button>
-                <button class="button button-secondary" id="cancel-edit-button" type="button" hidden>
-                  Cancel edit
-                </button>
-                <button
-                  class="button button-primary"
-                  id="submit-button"
-                  type="submit"
-                  form="contribution-form"
-                  data-submit-button
-                >
-                  Generate preview
-                </button>
-              </div>
-            </aside>
-          </div>
-        </section>
-      </main>
-    </div>
-
-    <script src="./config.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-    <script src="./app.js" type="module"></script>
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+    <script src="./app.js"></script>
   </body>
 </html>

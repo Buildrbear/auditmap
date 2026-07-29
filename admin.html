@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Review inbox | AuditMap</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="review-page">
+    <header class="review-header">
+      <a class="brand" href="./index.html" aria-label="AuditMap home">
+        <img src="./logo.svg" alt="" />
+        <span>AuditMap</span>
+      </a>
+      <span class="review-private-label">Private review</span>
+    </header>
+
+    <main class="review-shell">
+      <section class="review-intro">
+        <p class="kicker">Community moderation</p>
+        <h1>Review inbox</h1>
+        <p>Publish useful contributions and keep unsupported or unsafe material private.</p>
+      </section>
+
+      <section class="review-access" id="review-access">
+        <label for="review-token">Review access key</label>
+        <div class="review-access-row">
+          <input
+            id="review-token"
+            type="password"
+            autocomplete="current-password"
+            placeholder="Enter the private key"
+          />
+          <button class="submit-button" id="review-connect" type="button">Open inbox</button>
+        </div>
+        <p class="form-status" id="review-access-status" role="status"></p>
+      </section>
+
+      <section class="review-workspace" id="review-workspace" hidden>
+        <div class="review-toolbar">
+          <div>
+            <p class="kicker">Waiting for review</p>
+            <h2 id="review-count">Loading...</h2>
+          </div>
+          <button class="outline-button" id="review-refresh" type="button">Refresh</button>
+        </div>
+        <div class="review-tabs" role="tablist" aria-label="Contribution status">
+          <button class="is-active" type="button" data-review-filter="pending">Needs review</button>
+          <button type="button" data-review-filter="published">Published</button>
+          <button type="button" data-review-filter="rejected">Rejected</button>
+          <button type="button" data-review-filter="needs">Info gaps</button>
+        </div>
+        <p class="review-empty" id="review-empty" hidden>
+          The inbox is clear. New community contributions will appear here.
+        </p>
+        <div class="review-list" id="review-list" aria-live="polite"></div>
+      </section>
+    </main>
+    <script src="./admin.js" defer></script>
+  </body>
+</html>
