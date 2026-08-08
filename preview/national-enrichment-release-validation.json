@@ -5,11 +5,16 @@
   "target": "preview",
   "productionPublished": false,
   "gitLinkedDeployment": {
-    "id": "dpl_E3A6f3bjja8pzP2CdgNamSGPsjXu",
-    "scope": "michael-hobgoods-projects/auditmap",
-    "status": "failure",
-    "logsAccessibleFromCurrentCliScope": false,
-    "releaseGate": "Maintainer must inspect and resolve before production promotion."
+    "id": "dpl_CJqUPLgHVyLXTz1t81p6TUwG5Gm2",
+    "url": "https://auditmap-q8n3o8zdk-derrys-projects-f5a18cb6.vercel.app",
+    "scope": "derrys-projects-f5a18cb6/auditmap",
+    "status": "ready",
+    "githubStatus": "success",
+    "verifiedRoutes": [
+      "/us/ca/long-beach/parks/el-dorado-east-regional-park",
+      "/us/sd/sioux-falls/parks/falls-park/falls-park-viewing-tower",
+      "/sitemap.xml"
+    ]
   },
   "completedCampaigns": 49,
   "campaignVerifierFailures": 0,
@@ -68,5 +73,5 @@
     "fallsParkParentScrollWidth": 1440,
     "fallsParkPublishedSubsitesVisible": 4
   },
-  "result": "direct-preview-ready-git-linked-deployment-failed-maintainer-review-required"
+  "result": "git-linked-preview-ready-maintainer-review-required"
 }

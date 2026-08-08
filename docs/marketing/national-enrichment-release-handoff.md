@@ -2,8 +2,10 @@
 
 ## Candidate
 
-- Protected preview: `https://auditmap-74sk4oq7k-derrys-projects-f5a18cb6.vercel.app`
-- Deployment: `dpl_FANQuVgxhwdBKRwtetzKQ9QdFP4b`
+- Git-linked protected preview: `https://auditmap-q8n3o8zdk-derrys-projects-f5a18cb6.vercel.app`
+- Git-linked deployment: `dpl_CJqUPLgHVyLXTz1t81p6TUwG5Gm2`
+- Independently built protected preview: `https://auditmap-74sk4oq7k-derrys-projects-f5a18cb6.vercel.app`
+- Independent deployment: `dpl_FANQuVgxhwdBKRwtetzKQ9QdFP4b`
 - Scope: the current nationwide AuditMap runtime and all 49 completed super-enrichment campaigns
 - Production publication: not performed
 - Incomplete work excluded: Tucson and Tulsa anchor connector
@@ -22,6 +24,7 @@ The protected preview was then checked through authenticated Vercel requests:
 - Trailing-slash requests return 308 redirects to the configured clean canonical URLs.
 - At 390 pixels, the tested El Dorado parent and Falls Park Viewing Tower subsite had no horizontal overflow; the tower retained its exact navigation link.
 - At 1440 pixels, Falls Park had no horizontal overflow and displayed all four released subsites.
+- GitHub's automatic `Vercel - auditmap` check passed for commit `b1000d02`, and the Git-linked preview independently returned HTTP 200 for El Dorado East Regional Park, Falls Park Viewing Tower, and `sitemap.xml` with the expected raw content.
 
 Machine-readable evidence is in `preview/national-enrichment-release-validation.json`.
 
@@ -39,17 +42,15 @@ Tucson/Tulsa research stopped after licensed-image discovery and boundary discov
 
 ## Maintainer Release Sequence
 
-1. Resolve the Vercel project mismatch: GitHub's automatic check targets `michael-hobgoods-projects/auditmap`, while the verified protected preview belongs to `derrys-projects-f5a18cb6/auditmap`.
-2. Inspect the failed Git-linked deployment `dpl_E3A6f3bjja8pzP2CdgNamSGPsjXu` from an account with access to the `michael-hobgoods-projects` scope.
-3. Review the protected preview and the changed runtime, API, and database surface.
-4. Confirm representative desktop and 390-pixel layouts in the preview, including one parent and one subsite page.
-5. Review the source and image-rights records for newly completed clusters.
-6. Promote through the normal production process only after maintainer approval and a passing Git-linked check.
-7. Recheck representative public routes, sitemap entries, map visibility, and the Ask AuditMap flow after promotion.
+1. Review the Git-linked protected preview and the changed runtime, API, and database surface.
+2. Confirm representative desktop and 390-pixel layouts in the preview, including one parent and one subsite page.
+3. Review the source and image-rights records for newly completed clusters.
+4. Promote through the normal production process only after maintainer approval.
+5. Recheck representative public routes, sitemap entries, map visibility, and the Ask AuditMap flow after promotion.
 
 ## Risk And Rollback
 
 - The candidate is large and includes API, moderation, account, media, database-schema, and Vercel configuration changes in addition to generated park content. These areas require maintainer security review before production publication.
-- GitHub currently reports the automatic `Vercel - auditmap` check as failed. The available CLI session cannot inspect that deployment because it belongs to a different Vercel scope; the successful protected preview does not override this release gate.
+- An earlier automatic deployment reported a stale cross-project failure, but the follow-up Git-linked deployment completed successfully in the expected Derry project. Treat any recurrence as a project-linking issue and inspect it before production promotion.
 - No production database write or production deployment was performed.
 - If production promotion causes map, place-page, navigation, moderation, or API regressions, use the normal Vercel rollback process and pause further enrichment publication.
