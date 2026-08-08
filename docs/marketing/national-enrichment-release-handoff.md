@@ -2,29 +2,27 @@
 
 ## Candidate
 
-- Git-linked protected preview: `https://auditmap-q8n3o8zdk-derrys-projects-f5a18cb6.vercel.app`
-- Git-linked deployment: `dpl_CJqUPLgHVyLXTz1t81p6TUwG5Gm2`
-- Independently built protected preview: `https://auditmap-74sk4oq7k-derrys-projects-f5a18cb6.vercel.app`
-- Independent deployment: `dpl_FANQuVgxhwdBKRwtetzKQ9QdFP4b`
-- Scope: the current nationwide AuditMap runtime and all 49 completed super-enrichment campaigns
+- Git-linked protected preview: `https://auditmap-d35oxwyp9-derrys-projects-f5a18cb6.vercel.app`
+- Git-linked deployment: `dpl_5F4QU3FoNcyNLqZ4KCrJfc6cKqwU`
+- Scope: the current nationwide AuditMap runtime and all 50 completed super-enrichment campaigns
 - Production publication: not performed
-- Incomplete work excluded: Tucson and Tulsa anchor connector
+- Completed final cluster: Tucson and Tulsa anchor connector
 - Assignment: direct AuditMap owner request in the active Codex task; no separate OpenTask or GitHub issue URL was supplied
 
 ## Verified 2026-08-08
 
-The complete super-enrichment verifier suite passed `49/49` with zero failures before the preview build.
+The complete super-enrichment verifier suite passed `50/50` with zero failures after the Tucson/Tulsa map-answer merge check and before the preview build.
 
 The protected preview was then checked through authenticated Vercel requests:
 
-- El Dorado East Regional Park returned HTTP 200 with its canonical metadata, City of Long Beach source label, and El Dorado Nature Center Trails subsite in raw HTML.
-- Falls Park returned HTTP 200 with its canonical metadata, Experience Sioux Falls source label, and Queen Bee Mill Ruins subsite in raw HTML.
-- Falls Park Viewing Tower returned HTTP 200 with seasonal visitor guidance, elevator information, source attribution, and exact navigation coordinates in raw HTML.
-- `sitemap.xml` returned HTTP 200 and contains the tested parent and subsite canonical routes.
-- Trailing-slash requests return 308 redirects to the configured clean canonical URLs.
-- At 390 pixels, the tested El Dorado parent and Falls Park Viewing Tower subsite had no horizontal overflow; the tower retained its exact navigation link.
-- At 1440 pixels, Falls Park had no horizontal overflow and displayed all four released subsites.
-- GitHub's automatic `Vercel - auditmap` check passed for commit `b1000d02`, and the Git-linked preview independently returned HTTP 200 for El Dorado East Regional Park, Falls Park Viewing Tower, and `sitemap.xml` with the expected raw content.
+- Reid Park returned HTTP 200 with canonical metadata, full address, City of Tucson attribution, Cele Peterson Rose Garden, and Hi Corbett Field in raw HTML.
+- Rillito River Park Path returned HTTP 200 with sunrise-to-sunset guidance, Pima County attribution, current closure-check guidance, and exact navigation coordinates in raw HTML.
+- Gathering Place returned HTTP 200 with its full address, Chapman Adventure Playground, and Vista at the Boathouse in raw HTML.
+- Teaching Garden returned HTTP 200 with pay-as-you-wish guidance, the former Linnaeus-name context, Tulsa Garden Center attribution, and exact navigation coordinates in raw HTML.
+- `sitemap.xml` returned HTTP 200 and contains all tested Tucson/Tulsa parent and subsite canonical routes.
+- Vercel's optimizer rendered the new Reid Park hero at 828 by 526 pixels as a 77,352-byte image.
+- At 390 pixels, Reid Park and Rillito River Park Path had no horizontal overflow; exact trail navigation remained present.
+- At 1440 pixels, Gathering Place and Teaching Garden had no horizontal overflow; the Tulsa parent retained both released subsite links.
 
 Machine-readable evidence is in `preview/national-enrichment-release-validation.json`.
 
@@ -38,7 +36,7 @@ Machine-readable evidence is in `preview/national-enrichment-release-validation.
 
 ## Paused Research
 
-Tucson/Tulsa research stopped after licensed-image discovery and boundary discovery. Ninety-one image candidates are awaiting visual review, and nearby-feature research must be restarted. No Tucson/Tulsa campaign output was generated or represented as release-ready.
+Tucson and Tulsa are complete at the reviewed launch standard: four parent guides, 16 licensed photographs, 59 preserved parent answers, and eight evidence-complete subsite pages. No next cluster is active. Remaining uncertain amenities and missing destination-specific images are recorded in the per-place research queues rather than published as verified subsites.
 
 ## Maintainer Release Sequence
 
