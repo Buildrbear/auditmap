@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T11:35:29.429Z",
+  "generatedAt": "2026-08-08T12:31:57.295Z",
   "places": [
     {
       "id": "basic-osm-way-33060929",
@@ -114895,12 +114895,12 @@
       "type": "Park",
       "city": "Tulsa",
       "state": "OK",
-      "address": "Tulsa",
+      "address": "2650 S John Williams Way E, Tulsa, OK 74114",
       "officialSource": {
         "label": "Gathering Place",
         "url": "https://www.gatheringplace.org/visit"
       },
-      "verifiedAt": "2026-07-30",
+      "verifiedAt": "2026-08-08",
       "facts": [
         {
           "key": "hours",
@@ -114909,7 +114909,7 @@
           "scope": "place",
           "sourceLabel": "Gathering Place",
           "sourceUrl": "https://www.gatheringplace.org/visit",
-          "checkedAt": "2026-07-30",
+          "checkedAt": "2026-08-08",
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
@@ -114921,7 +114921,7 @@
           "scope": "place",
           "sourceLabel": "Gathering Place",
           "sourceUrl": "https://www.gatheringplace.org/visit",
-          "checkedAt": "2026-07-30",
+          "checkedAt": "2026-08-08",
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
@@ -114933,7 +114933,7 @@
           "scope": "place",
           "sourceLabel": "Gathering Place",
           "sourceUrl": "https://www.gatheringplace.org/visit",
-          "checkedAt": "2026-07-30",
+          "checkedAt": "2026-08-08",
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
@@ -114941,11 +114941,11 @@
         {
           "key": "address",
           "label": "Address",
-          "value": "Tulsa, OK",
+          "value": "2650 S John Williams Way E, Tulsa, OK 74114",
           "scope": "place",
           "sourceLabel": "Gathering Place",
           "sourceUrl": "https://www.gatheringplace.org/visit",
-          "checkedAt": "2026-07-30",
+          "checkedAt": "2026-08-08",
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
@@ -115117,9 +115117,39 @@
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
+        },
+        {
+          "key": "chapman-adventure-playground",
+          "label": "Chapman Adventure Playground",
+          "value": "Chapman Adventure Playground is the large, multi-zone children's play destination in the northern portion of Gathering Place, with towers, slides, climbing, sensory play, and nearby water features.",
+          "scope": "feature",
+          "featureId": "d5185426-38ba-409d-8783-f597bc7a127e",
+          "featureType": "destination",
+          "positionQuality": "reviewed-public-map-placement",
+          "sourceLabel": "Gathering Place",
+          "sourceUrl": "https://www.gatheringplace.org/attractions",
+          "checkedAt": "2026-08-08",
+          "expiresAt": null,
+          "sourceType": "official"
+        },
+        {
+          "key": "vista-at-the-boathouse",
+          "label": "Vista at the Boathouse",
+          "value": "Vista at the Boathouse is the glass-walled dining and event space inside ONEOK Boathouse, overlooking Peggy's Pond, downtown Tulsa, and the Arkansas River.",
+          "scope": "feature",
+          "featureId": "c4526466-7b5d-4402-b8f7-c8d5d1d6af86",
+          "featureType": "destination",
+          "positionQuality": "reviewed-public-map-placement",
+          "sourceLabel": "Gathering Place",
+          "sourceUrl": "https://www.gatheringplace.org/dine",
+          "checkedAt": "2026-08-08",
+          "expiresAt": null,
+          "sourceType": "official"
         }
       ],
-      "unresolved": []
+      "unresolved": [
+        "Secure exact reusable photographs before publishing Mist Mountain, Charlie's Water Mountain, Williams Lodge, Skate Park, BMX Pump Track, Swing Hill, Sensory Garden, sports courts, cafes, or individual gardens as separate pages; keep all weather-dependent schedules current."
+      ]
     },
     {
       "id": "launch-ok-tulsa-woodward-park",
@@ -115127,12 +115157,12 @@
       "type": "Park",
       "city": "Tulsa",
       "state": "OK",
-      "address": "Tulsa",
+      "address": "2435 S Peoria Ave, Tulsa, OK 74114",
       "officialSource": {
         "label": "Tulsa Garden Center",
         "url": "https://www.tulsagardencenter.org/park-rules-and-hours"
       },
-      "verifiedAt": "2026-07-30",
+      "verifiedAt": "2026-08-08",
       "facts": [
         {
           "key": "hours",
@@ -115141,7 +115171,7 @@
           "scope": "place",
           "sourceLabel": "Tulsa Garden Center",
           "sourceUrl": "https://www.tulsagardencenter.org/park-rules-and-hours",
-          "checkedAt": "2026-07-30",
+          "checkedAt": "2026-08-08",
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
@@ -115153,7 +115183,7 @@
           "scope": "place",
           "sourceLabel": "Tulsa Garden Center",
           "sourceUrl": "https://www.tulsagardencenter.org/park-rules-and-hours",
-          "checkedAt": "2026-07-30",
+          "checkedAt": "2026-08-08",
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
@@ -115165,7 +115195,7 @@
           "scope": "place",
           "sourceLabel": "Tulsa Garden Center",
           "sourceUrl": "https://www.tulsagardencenter.org/park-rules-and-hours",
-          "checkedAt": "2026-07-30",
+          "checkedAt": "2026-08-08",
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
@@ -115173,11 +115203,11 @@
         {
           "key": "address",
           "label": "Address",
-          "value": "Tulsa, OK",
+          "value": "2435 S Peoria Ave, Tulsa, OK 74114",
           "scope": "place",
           "sourceLabel": "Tulsa Garden Center",
           "sourceUrl": "https://www.tulsagardencenter.org/park-rules-and-hours",
-          "checkedAt": "2026-07-30",
+          "checkedAt": "2026-08-08",
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
@@ -115361,9 +115391,25 @@
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
+        },
+        {
+          "key": "teaching-garden",
+          "label": "Teaching Garden",
+          "value": "Teaching Garden is a 1.55-acre demonstration garden east of the Tulsa Rose Garden and Garden Center mansion, with themed plantings, small-space design examples, seating, a pond, waterfalls, and streams.",
+          "scope": "feature",
+          "featureId": "95e92927-8ac4-43e0-905b-1c37f611e750",
+          "featureType": "destination",
+          "positionQuality": "reviewed-public-map-placement",
+          "sourceLabel": "Tulsa Garden Center",
+          "sourceUrl": "https://www.tulsagardencenter.org/teaching-garden",
+          "checkedAt": "2026-08-08",
+          "expiresAt": null,
+          "sourceType": "official"
         }
       ],
-      "unresolved": []
+      "unresolved": [
+        "Secure exact reusable photographs and reviewed pins before publishing Tulsa Rose Garden, Arboretum, Conservatory, Garden Center Mansion, rock gardens, fountain, or other seasonal buildings as separate pages; preserve their shorter operating schedules rather than inheriting park hours."
+      ]
     },
     {
       "id": "launch-mo-st-louis-forest-park",
@@ -145502,12 +145548,12 @@
       "type": "Park",
       "city": "Tucson",
       "state": "AZ",
-      "address": "Tucson",
+      "address": "900 S Randolph Way, Tucson, AZ 85716",
       "officialSource": {
         "label": "City of Tucson",
         "url": "https://www.tucsonaz.gov/Departments/Parks-and-Recreation/Parks/Gene-C.-Reid-Park"
       },
-      "verifiedAt": "2026-07-30",
+      "verifiedAt": "2026-08-08",
       "facts": [
         {
           "key": "hours",
@@ -145516,7 +145562,7 @@
           "scope": "place",
           "sourceLabel": "City of Tucson",
           "sourceUrl": "https://www.tucsonaz.gov/Departments/Parks-and-Recreation/Parks/Gene-C.-Reid-Park",
-          "checkedAt": "2026-07-30",
+          "checkedAt": "2026-08-08",
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
@@ -145528,7 +145574,7 @@
           "scope": "place",
           "sourceLabel": "City of Tucson",
           "sourceUrl": "https://www.tucsonaz.gov/Departments/Parks-and-Recreation/Parks/Gene-C.-Reid-Park",
-          "checkedAt": "2026-07-30",
+          "checkedAt": "2026-08-08",
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
@@ -145540,7 +145586,7 @@
           "scope": "place",
           "sourceLabel": "City of Tucson",
           "sourceUrl": "https://www.tucsonaz.gov/Departments/Parks-and-Recreation/Parks/Gene-C.-Reid-Park",
-          "checkedAt": "2026-07-30",
+          "checkedAt": "2026-08-08",
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
@@ -145548,11 +145594,11 @@
         {
           "key": "address",
           "label": "Address",
-          "value": "Tucson, AZ",
+          "value": "900 S Randolph Way, Tucson, AZ 85716",
           "scope": "place",
           "sourceLabel": "City of Tucson",
           "sourceUrl": "https://www.tucsonaz.gov/Departments/Parks-and-Recreation/Parks/Gene-C.-Reid-Park",
-          "checkedAt": "2026-07-30",
+          "checkedAt": "2026-08-08",
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
@@ -145724,9 +145770,53 @@
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
+        },
+        {
+          "key": "cele-peterson-rose-garden",
+          "label": "Cele Peterson Rose Garden",
+          "value": "Cele Peterson Rose Garden is the formal rose garden and gazebo area on Concert Place inside Gene C. Reid Park, with seasonal displays and a separate reservation program.",
+          "scope": "feature",
+          "featureId": "a912c577-37dd-4c88-bffb-ff68918e6809",
+          "featureType": "destination",
+          "positionQuality": "reviewed-public-map-placement",
+          "sourceLabel": "City of Tucson Parks and Recreation",
+          "sourceUrl": "https://www.tucsonaz.gov/Departments/Parks-and-Recreation/Parks/Gene-C.-Reid-Park",
+          "checkedAt": "2026-08-08",
+          "expiresAt": null,
+          "sourceType": "official"
+        },
+        {
+          "key": "georges-demeester-outdoor-performance-center",
+          "label": "Georges DeMeester Outdoor Performance Center",
+          "value": "Georges DeMeester Outdoor Performance Center is Reid Park's outdoor bandshell and sloped lawn for concerts, festivals, and family events, with room for blankets and portable chairs.",
+          "scope": "feature",
+          "featureId": "91c59e16-fcf1-4390-b4f8-cffa37a324fd",
+          "featureType": "destination",
+          "positionQuality": "reviewed-public-map-placement",
+          "sourceLabel": "City of Tucson Parks and Recreation",
+          "sourceUrl": "https://www.tucsonaz.gov/Departments/Parks-and-Recreation/Parks/Gene-C.-Reid-Park",
+          "checkedAt": "2026-08-08",
+          "expiresAt": null,
+          "sourceType": "official"
+        },
+        {
+          "key": "hi-corbett-field",
+          "label": "Hi Corbett Field",
+          "value": "Hi Corbett Field is the historic baseball stadium on the east side of Gene C. Reid Park, reached from Camino Campestre rather than the park's main Randolph Way address.",
+          "scope": "feature",
+          "featureId": "85b4016e-f567-46c5-afcd-41e9c046350d",
+          "featureType": "destination",
+          "positionQuality": "reviewed-public-map-placement",
+          "sourceLabel": "City of Tucson Parks and Recreation",
+          "sourceUrl": "https://www.tucsonaz.gov/Departments/Parks-and-Recreation/Parks/Gene-C.-Reid-Park",
+          "checkedAt": "2026-08-08",
+          "expiresAt": null,
+          "sourceType": "official"
         }
       ],
-      "unresolved": []
+      "unresolved": [
+        "Secure exact reusable photographs and reviewed map placements before publishing Miko's Corner Dog Park, the general playground, ponds, Cancer Survivors Plaza, restrooms, ramadas, or the zoo connection as separate pages; keep current asphalt-repair notices visible while active."
+      ]
     },
     {
       "id": "launch-az-tucson-rillito-river-park",
@@ -145734,12 +145824,12 @@
       "type": "Park",
       "city": "Tucson",
       "state": "AZ",
-      "address": "1930 W Ruthrauff Rd",
+      "address": "1930 W Ruthrauff Rd, Tucson, AZ 85705",
       "officialSource": {
         "label": "Pima County",
         "url": "https://www.pima.gov/1269/Rillito-River-Park"
       },
-      "verifiedAt": "2026-07-30",
+      "verifiedAt": "2026-08-08",
       "facts": [
         {
           "key": "hours",
@@ -145748,7 +145838,7 @@
           "scope": "place",
           "sourceLabel": "Pima County",
           "sourceUrl": "https://www.pima.gov/1269/Rillito-River-Park",
-          "checkedAt": "2026-07-30",
+          "checkedAt": "2026-08-08",
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
@@ -145760,7 +145850,7 @@
           "scope": "place",
           "sourceLabel": "Pima County",
           "sourceUrl": "https://www.pima.gov/1269/Rillito-River-Park",
-          "checkedAt": "2026-07-30",
+          "checkedAt": "2026-08-08",
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
@@ -145772,7 +145862,7 @@
           "scope": "place",
           "sourceLabel": "Pima County",
           "sourceUrl": "https://www.pima.gov/1269/Rillito-River-Park",
-          "checkedAt": "2026-07-30",
+          "checkedAt": "2026-08-08",
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
@@ -145780,11 +145870,11 @@
         {
           "key": "address",
           "label": "Address",
-          "value": "1930 W Ruthrauff Rd, Tucson, AZ",
+          "value": "1930 W Ruthrauff Rd, Tucson, AZ 85705",
           "scope": "place",
           "sourceLabel": "Pima County",
           "sourceUrl": "https://www.pima.gov/1269/Rillito-River-Park",
-          "checkedAt": "2026-07-30",
+          "checkedAt": "2026-08-08",
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
@@ -145980,13 +146070,38 @@
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
+        },
+        {
+          "key": "rillito-river-park-path",
+          "label": "Rillito River Park Path",
+          "value": "Rillito River Park Path is a paved, shared-use segment following the Rillito River corridor and connecting into Pima County's larger Chuck Huckelberry Loop network.",
+          "scope": "feature",
+          "featureId": "a92d2df5-4f23-4c27-b2cd-73ba5544f490",
+          "featureType": "destination",
+          "positionQuality": "reviewed-official-campus-placement",
+          "sourceLabel": "Pima County Natural Resources, Parks and Recreation",
+          "sourceUrl": "https://www.pima.gov/1269/Rillito-River-Park",
+          "checkedAt": "2026-08-08",
+          "expiresAt": null,
+          "sourceType": "official"
+        },
+        {
+          "key": "chuck-huckelberry-loop-connection",
+          "label": "Chuck Huckelberry Loop Connection",
+          "value": "The Chuck Huckelberry Loop connection links the Rillito corridor to a countywide network of paved shared-use paths used by people walking, rolling, running, cycling, and riding horses on designated sections.",
+          "scope": "feature",
+          "featureId": "08c4b6c1-d042-4f6a-b288-eb1c4f2d02f1",
+          "featureType": "destination",
+          "positionQuality": "reviewed-official-campus-placement",
+          "sourceLabel": "Pima County The Loop",
+          "sourceUrl": "https://www.pima.gov/1625/The-Chuck-Huckelberry-Loop",
+          "checkedAt": "2026-08-08",
+          "expiresAt": null,
+          "sourceType": "official"
         }
       ],
       "unresolved": [
-        {
-          "intentKey": "photos",
-          "question": "Add 1 more real, reusable park photograph with credits."
-        }
+        "Review exact trailhead pins and secure destination-specific photographs before publishing La Cholla, Brandi Fenton, Rillito Racetrack, Craycroft, Shamrock, equestrian access, restrooms, or parking areas as separate pages; recheck the live closure notice before every freshness update."
       ]
     },
     {

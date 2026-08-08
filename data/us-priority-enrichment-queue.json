@@ -3,7 +3,7 @@
   "strategy": "Complete geographically connected clusters before opening isolated metros.",
   "completedBaseline": {
     "verifiedAt": "2026-08-08",
-    "campaignVerifierCount": 49,
+    "campaignVerifierCount": 50,
     "campaignVerifierFailures": 0,
     "note": "All existing super-enrichment campaign verifiers pass locally. Production publication remains a maintainer decision."
   },
@@ -109,23 +109,33 @@
       "parentAnswersPreserved": 57,
       "photoEvidenceDeferredParents": 3,
       "status": "partial-generated-and-verified"
+    },
+    {
+      "name": "Tucson and Tulsa anchor connector",
+      "parentGuides": 4,
+      "licensedPhotos": 16,
+      "evidenceCompleteSubsites": 8,
+      "parentAnswersPreserved": 59,
+      "status": "generated-and-verified"
     }
   ],
   "activeCluster": {
     "name": "Tucson and Tulsa anchor connector",
-    "reason": "Upgrade four existing launch records across Tucson and Tulsa, pairing two high-value Sun Belt metros with strong family, garden, river-trail, and flagship-park search demand.",
+    "reason": "Completed the requested four-record connector across Tucson and Tulsa, then paused before opening another geography.",
     "releaseStandard": "Four licensed destination-specific photos, preserved official visitor answers, full street addresses, static canonical pages, and only subsites with reviewed coordinates plus destination-specific licensed photography.",
-    "status": "paused-after-image-and-boundary-research",
+    "status": "paused-after-tucson-tulsa-completion",
     "metros": ["Tucson", "Tulsa"],
     "resumeCheckpoint": {
       "pausedAt": "2026-08-08",
       "completed": [
-        "Campaign definition and package commands validate.",
-        "Openverse research collected 91 reusable-license candidates: 21 for Gene C. Reid Park, 26 for Rillito River Park, 29 for Gathering Place, and 15 for Woodward Park.",
-        "Boundary research completed: one candidate for Gene C. Reid Park, none for the linear Rillito River Park, five for Gathering Place, and one for Woodward Park."
+        "Generated and verified Reid Park, Rillito River Park, Gathering Place, and Woodward Park.",
+        "Published 16 reviewed licensed photographs and eight evidence-complete subsite pages.",
+        "Preserved 59 current official parent answers, full addresses, canonical routes, source attribution, research queues, and exact-coordinate navigation.",
+        "All 50 super-enrichment campaign verifiers pass with zero failures."
       ],
-      "nextAction": "Restart nearby-feature research, then visually curate four destination-specific photos per releasable parent before selecting boundaries, coordinates, addresses, and subsites.",
-      "notReleased": true
+      "nextAction": "No next enrichment cluster is active. Resume only after a new owner priority is selected.",
+      "notReleased": false,
+      "productionPublished": false
     }
   },
   "deferredPhotoMissions": [
@@ -144,12 +154,5 @@
     "Swords Park in Billings needs two additional broad destination views beyond its existing trail and city-overlook photographs; park signs and interpretive panels are not substitutes.",
     "Lions Park in Cheyenne needs broad current views of Sloan's Lake, playgrounds, spray park, aquatic center, fields, shelters, and park circulation rather than Botanic Gardens close-ups alone."
   ],
-  "nextClusters": [
-    {
-      "priority": 1,
-      "name": "Tucson and Tulsa anchor connector",
-      "metros": ["Tucson", "Tulsa"],
-      "target": "Paused checkpoint: image and boundary research are complete; resume with nearby-feature research and visual curation."
-    }
-  ]
+  "nextClusters": []
 }

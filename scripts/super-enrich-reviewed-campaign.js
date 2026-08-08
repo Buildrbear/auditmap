@@ -183,10 +183,13 @@ function makeFeature(parent, selected, point, images) {
     };
     upsert(all, record);
     upsert(pilot, record);
+    const mergedParentProfile = {
+      ...(national.parks[scope.id] || {}),
+      ...(campaignParents.parks[scope.id] || {}),
+    };
     for (const parentData of [national, campaignParents]) {
-      const current = parentData.parks[scope.id] || {};
       parentData.parks[scope.id] = {
-        ...current,
+        ...mergedParentProfile,
         address: addresses[scope.id],
         image: images[0],
         additionalImages: images.slice(1),

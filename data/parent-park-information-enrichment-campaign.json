@@ -71938,6 +71938,804 @@
         }
       ],
       "verifiedAt": "2026-08-08"
+    },
+    "launch-az-tucson-reid-park": {
+      "operator": "City of Tucson Parks and Recreation",
+      "sourceLabel": "City of Tucson",
+      "source": "https://www.tucsonaz.gov/Departments/Parks-and-Recreation/Parks/Gene-C.-Reid-Park",
+      "hours": "Gene C. Reid Park is open daily from 6:00 a.m. to 10:30 p.m. Individual facilities, the dog park, rose garden, zoo, and events use separate schedules.",
+      "cost": "General park, playground, ponds, rose-garden grounds, picnic areas, paths, and ordinary recreation amenities are free. The zoo, aquatic center, reservations, events, and programs may charge.",
+      "summary": "Gene C. Reid Park is a 156-acre Tucson metro park with ponds, playground, picnic ramadas, restrooms, rose garden, public art, outdoor performance center, sports fields, Hi Corbett Field, and Miko's Corner fenced dog park. The adjacent Reid Park Zoo is a separately ticketed destination.",
+      "searchAnswers": [
+        {
+          "intentKey": "entrance",
+          "question": "Where should I enter Reid Park?",
+          "answer": "Use 900 South Randolph Way for the general park. Use 800 South Concert Place for the outdoor performance center, 920 South Concert Place for the rose garden, 910 South Concert Place for Miko's Corner dog park, and 3400 East Camino Campestre for Hi Corbett Field.",
+          "sourceLabel": "City of Tucson",
+          "source": "https://www.tucsonaz.gov/Departments/Parks-and-Recreation/Parks/Gene-C.-Reid-Park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "hours",
+          "question": "What hours is Reid Park open?",
+          "answer": "General park hours are 6:00 a.m.-10:30 p.m. Miko's Corner dog park is open 7:00 a.m.-10:00 p.m. and closes Thursdays from 9:00 a.m. to noon for maintenance; other facilities follow separate schedules.",
+          "sourceLabel": "City of Tucson",
+          "source": "https://www.tucsonaz.gov/Departments/Parks-and-Recreation/Parks/Gene-C.-Reid-Park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "playground",
+          "question": "Is there a playground at Reid Park?",
+          "answer": "Yes. The city lists a public playground, picnic tables and ramadas, restrooms, drinking fountains, ponds, and broad recreation grounds. The zoo is adjacent but is a separate paid attraction.",
+          "sourceLabel": "City of Tucson",
+          "source": "https://www.tucsonaz.gov/Departments/Parks-and-Recreation/Parks/Gene-C.-Reid-Park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "dog-area",
+          "question": "Where is the dog park at Reid Park?",
+          "answer": "Miko's Corner Playground Dog Park is at 910 South Concert Place, reached from Picnic Place or Concert Place off South Country Club Road. It has separate large- and small-dog areas, lights, water fountains, double-entry gates, and a ramada.",
+          "sourceLabel": "City of Tucson",
+          "source": "https://www.tucsonaz.gov/Departments/Parks-and-Recreation/Parks/Gene-C.-Reid-Park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "public-art",
+          "question": "When is the Reid Park Rose Garden open?",
+          "answer": "The Cele Peterson Rose Garden is at 920 South Concert Place. It closes annually from December 1 through March 31 for pruning and cleaning and can also close for reserved events.",
+          "sourceLabel": "City of Tucson",
+          "source": "https://www.tucsonaz.gov/Departments/Parks-and-Recreation/Parks/Gene-C.-Reid-Park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Are there restrooms at Reid Park?",
+          "answer": "Yes. Restrooms and drinking fountains are listed as general park amenities. Separate venues such as the zoo, stadium, performance center, and recreation facilities control their own building access.",
+          "sourceLabel": "City of Tucson",
+          "source": "https://www.tucsonaz.gov/Departments/Parks-and-Recreation/Parks/Gene-C.-Reid-Park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "parking",
+          "question": "Where should I park at Reid Park?",
+          "answer": "Choose parking near the exact facility address rather than the general park pin. Parking-lot maintenance, major games, zoo attendance, festivals, and performance events can restrict the closest sections.",
+          "sourceLabel": "City of Tucson",
+          "source": "https://www.tucsonaz.gov/Departments/Parks-and-Recreation/Parks/Gene-C.-Reid-Park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "fees",
+          "question": "Is Reid Park free?",
+          "answer": "General park entry, playground, ponds, picnic areas, paths, and rose-garden grounds are free. Reid Park Zoo, aquatic facilities, stadium events, reservations, classes, and special events may charge separately.",
+          "sourceLabel": "City of Tucson",
+          "source": "https://www.tucsonaz.gov/Departments/Parks-and-Recreation/Parks/Gene-C.-Reid-Park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "closures",
+          "question": "Are parking areas or facilities closed at Reid Park?",
+          "answer": "Targeted asphalt repairs are affecting selected high-priority sections of Reid Park parking lots in June 2026, with periodic limited access rather than full-lot closure. The Rose Garden also closes annually December 1-March 31, and Miko's Corner dog park closes Thursdays 9 a.m.-noon for maintenance.",
+          "sourceLabel": "City of Tucson",
+          "source": "https://www.tucsonaz.gov/Departments/Parks-and-Recreation/Parks/Gene-C.-Reid-Park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "picnic",
+          "question": "Can I reserve a picnic ramada at Reid Park?",
+          "answer": "Yes. Reid Park has picnic tables, grills, and reservable ramadas. Ramada reservations cover the full day from 8 a.m.-7 p.m.; nearby power and table placement are not guaranteed, open-pit fires and personal gas grills are prohibited, and large events follow a separate process.",
+          "sourceLabel": "City of Tucson",
+          "source": "https://www.tucsonaz.gov/Departments/Parks-and-Recreation/Reservations-and-Rentals",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "shade",
+          "question": "Is there shade at Reid Park?",
+          "answer": "Reid Park has trees, ramadas, and shaded seating in selected areas, including a ramada at Miko's Corner dog park, but broad lawns, sports areas, paths, and parking can be fully exposed. In Tucson heat, plan water, sun protection, and a shorter route between shaded destinations.",
+          "sourceLabel": "City of Tucson",
+          "source": "https://www.tucsonaz.gov/Departments/Parks-and-Recreation/Parks/Gene-C.-Reid-Park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "trail-surface",
+          "question": "What are the walking surfaces and routes at Reid Park?",
+          "answer": "The David Bell Path and principal park connectors are paved, shared recreation routes used by walkers, runners, bicycles, and wheelchair athletes; they can be crowded at popular times. Garden and activity-area routes vary between concrete, compacted dirt, turf, and older uneven surfaces, with ongoing work to stabilize Rose Garden paths. The former east-side path through Zoo Court to the Adaptive Recreation Center and zoo is permanently closed; use the alternate route from 22nd Street west of Lakeshore Drive and follow new signs.",
+          "sourceLabel": "City of Tucson",
+          "source": "https://www.tucsonaz.gov/Departments/Parks-and-Recreation/Parks/Gene-C.-Reid-Park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "splash-pad",
+          "question": "Is there a splash pad or pool at Reid Park?",
+          "answer": "Reid Park has accessible swimming at the Edith Ball Adaptive Recreation Center: its covered outdoor recreation pool includes a zero-depth area and play features, while the indoor therapy pool has separate eligibility and reservation rules. Both follow facility schedules rather than general park hours. A new interactive water feature or splash pad is planned near the north pond and playground, but current permit records extend into 2029 and Tucson's operating splash-pad list does not yet include Reid Park, so do not treat that future feature as open.",
+          "sourceLabel": "City of Tucson",
+          "source": "https://www.tucsonaz.gov/Departments/Parks-and-Recreation/Pools-and-Splash-Pads/Edith-Ball-Adaptive-Recreation-Center",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "transit",
+          "question": "Which Sun Tran routes serve Reid Park?",
+          "answer": "Sun Tran Route 7 on 22nd Street directly serves Reid Park, Reid Park Zoo, and Hi Corbett Field, with the Reid Park Park & Ride at 3215 East 22nd Street near Randolph Way. Route 17 also lists Reid Park and the zoo among its destinations. Because the park is large, choose Route 7 for the south side and Park & Ride area, then confirm the closest stop for the zoo, rose garden, ponds, or recreation center in Sun Tran's live planner.",
+          "sourceLabel": "Sun Tran",
+          "source": "https://www.suntran.com/routes-services/sun-tran-routes/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        }
+      ],
+      "address": "900 S Randolph Way, Tucson, AZ 85716",
+      "image": {
+        "url": "/assets/parks/tucson-tulsa-super/gene-c-reid-park/01-reid-park-rose-garden.webp",
+        "source": "https://www.flickr.com/photos/48804373@N07/7229205396",
+        "author": "bill85704",
+        "license": "BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "alt": "Cele Peterson Rose Garden in Gene C. Reid Park",
+        "width": 1024,
+        "height": 651
+      },
+      "additionalImages": [
+        {
+          "url": "/assets/parks/tucson-tulsa-super/gene-c-reid-park/02-hi-corbett-field.webp",
+          "source": "https://www.flickr.com/photos/48804373@N07/8616270649",
+          "author": "bill85704",
+          "license": "BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+          "alt": "Hi Corbett Field at Gene C. Reid Park",
+          "width": 1024,
+          "height": 683
+        },
+        {
+          "url": "/assets/parks/tucson-tulsa-super/gene-c-reid-park/03-georges-demeester-performance-center-landscape-zoomed-out-november-2014.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Georges_Demeester_Performance_Center,_Landscape_zoomed_out,_November_2014.JPG",
+          "author": "Ianmcorvidae",
+          "license": "CC0 1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "alt": "The lawn and stage at Georges DeMeester Outdoor Performance Center",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/tucson-tulsa-super/gene-c-reid-park/04-barnum-hill-stream.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Barnum_Hill_Stream.jpg",
+          "author": "Gatomasgordo",
+          "license": "BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "alt": "The landscaped stream on Barnum Hill in Gene C. Reid Park",
+          "width": 1600,
+          "height": 1000
+        }
+      ],
+      "replaceImages": true,
+      "sources": [
+        {
+          "label": "Wikipedia background",
+          "url": "https://en.wikipedia.org/wiki/Gene_C._Reid_Park",
+          "note": "Background reference"
+        },
+        {
+          "label": "City of Tucson Parks and Recreation",
+          "url": "https://www.tucsonaz.gov/Departments/Parks-and-Recreation/Parks/Gene-C.-Reid-Park"
+        }
+      ],
+      "verifiedAt": "2026-08-08"
+    },
+    "launch-az-tucson-rillito-river-park": {
+      "operator": "Pima County Natural Resources, Parks and Recreation",
+      "sourceLabel": "Pima County",
+      "source": "https://www.pima.gov/1269/Rillito-River-Park",
+      "hours": "Rillito River Park and the Chuck Huckelberry Loop are open from sunrise to sunset; nighttime use is prohibited. Trailheads, adjoining parks, construction zones, flood conditions, and emergency closures may further limit access.",
+      "cost": "Trail and ordinary trailhead access are free. Nearby special facilities and events may charge.",
+      "summary": "Rillito River Park is a roughly 12-mile linear corridor on the north and south banks of the Rillito River from Interstate 10 to Craycroft Road. It forms part of the Chuck Huckelberry Loop and supports walking, cycling, horseback riding, dog walking, exercise stations, wildlife viewing, drinking water, restrooms, and multiple trailheads.",
+      "searchAnswers": [
+        {
+          "intentKey": "entrance",
+          "question": "Where should I start on Rillito River Park?",
+          "answer": "There is no single main entrance. Choose a trailhead near the section you want to use. Rillito Racetrack and Rio Vista Park are practical starting points with parking and paved connections; consult the official interactive map for north- or south-bank access.",
+          "sourceLabel": "Pima County",
+          "source": "https://www.pima.gov/1269/Rillito-River-Park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "parking",
+          "question": "Where can I park for Rillito River Park?",
+          "answer": "Use a designated Loop or adjacent-park trailhead rather than neighborhood or business parking. The Rillito Racetrack area has substantial free parking with paved trail connections; Rio Vista Park also provides parking, water, restrooms, and playground access.",
+          "sourceLabel": "Tucson AccessTrails",
+          "source": "https://www.tucsonaccesstrails.com/rillito-location-and-arrival",
+          "sourceType": "reviewed-community",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "trail-surface",
+          "question": "Is Rillito River Park paved?",
+          "answer": "The principal Loop route is a paved shared-use path, with parallel or connecting natural-surface and equestrian routes in some sections. The corridor runs on both banks in many areas, but crossings and bank changes matter; follow the current Loop map.",
+          "sourceLabel": "Pima County",
+          "source": "https://www.pima.gov/1269/Rillito-River-Park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "accessibility",
+          "question": "Is Rillito River Park wheelchair accessible?",
+          "answer": "Many primary paved sections and trailheads are accessible. Rillito Racetrack has free accessible parking and paved links; accessible restrooms are available at selected trailheads, including the Rio Vista Park area. Conditions vary along the long corridor.",
+          "sourceLabel": "Tucson AccessTrails",
+          "source": "https://www.tucsonaccesstrails.com/rillito-location-and-arrival",
+          "sourceType": "reviewed-community",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Where are restrooms on Rillito River Park?",
+          "answer": "Restrooms and drinking water are available at selected trailheads and adjacent parks, not continuously along the corridor. Use the official interactive map and plan a known stop such as Rio Vista Park before beginning a long walk or ride.",
+          "sourceLabel": "Pima County",
+          "source": "https://www.pima.gov/1269/Rillito-River-Park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "transit",
+          "question": "How far does the Rillito River Park trail go?",
+          "answer": "The river-park path runs from Interstate 10 to Craycroft Road on the north and south banks and connects with the larger Chuck Huckelberry Loop network, including the Santa Cruz and Pantano river parks.",
+          "sourceLabel": "Pima County",
+          "source": "https://www.pima.gov/1269/Rillito-River-Park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "dog-area",
+          "question": "Can dogs use Rillito River Park?",
+          "answer": "Yes. Walking with dogs is an official listed activity. Keep dogs leashed, carry water in hot weather, clean up waste, yield on the shared path, and avoid hot pavement during extreme temperatures.",
+          "sourceLabel": "Pima County",
+          "source": "https://www.pima.gov/1269/Rillito-River-Park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "closures",
+          "question": "When should I avoid Rillito River Park?",
+          "answer": "Avoid the exposed corridor during extreme heat and do not enter the wash during storms or flooding. Construction, maintenance, high water, and emergency conditions can close individual segments; the regional map warns that trail conditions are subject to change.",
+          "sourceLabel": "City of Tucson and Pima County Loop Map",
+          "source": "https://www.tucsonaz.gov/files/sharedassets/public/v/1/government/departments/transportation-and-mobility/dtm/documents/divisions/planning/theloopmap.pdf",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "hours",
+          "question": "What hours is Rillito River Park open?",
+          "answer": "The Chuck Huckelberry Loop is open from sunrise to sunset, and nighttime use is prohibited. Adjacent parks and trailhead parking can have different posted closing times, so finish the route before the controlling facility closes.",
+          "sourceLabel": "Pima County",
+          "source": "https://www.pima.gov/3864/About-The-Loop",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "trail-surface",
+          "question": "Who has the right of way on the Rillito shared path?",
+          "answer": "Stay right and pass on the left, travel single file when passing, and do not block the path. Cyclists must slow around others and should stop and ask before passing a horse; all users yield to people with disabilities.",
+          "sourceLabel": "Pima County",
+          "source": "https://www.pima.gov/3864/About-The-Loop",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "closures",
+          "question": "Where do I check current Rillito River Park closures?",
+          "answer": "Use Pima County's Loop notices immediately before the trip. In July 2026, maintenance affects multiple Rillito segments and the Swan restrooms and Paradise Falls parking lot have posted closures, so a familiar route may require a bank change or detour.",
+          "sourceLabel": "Pima County",
+          "source": "https://www.pima.gov/250",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "shade",
+          "question": "Where can visitors find shade or weather shelter along Rillito River Park?",
+          "answer": "Most of the paved river corridor is exposed desert trail with limited dependable shade. At the Rillito Regional Park and racetrack access, four reservable ramadas and a shaded playground provide nearby cover; shade varies at other trailheads. Ramadas are useful for sun but are not safe in lightning, flash flooding, dust storms, or dangerous wind. Avoid the wash, leave exposed trail early, and use an open substantial building or vehicle during severe weather.",
+          "sourceLabel": "Pima County",
+          "source": "https://www.pima.gov/1394/Rillito-Regional-Park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "playground",
+          "question": "Where is the playground along Rillito River Park?",
+          "answer": "A shaded playground is at Pima County's Rillito Regional Park and racetrack complex, together with ramadas, restrooms, and trail access; playgrounds are not present at every Rillito River Park trailhead. Route to the regional park rather than a generic point on the long river corridor when equipment play is the priority. Pima County does not publish age ranges on the park page, so supervise for the child's ability and avoid exposed equipment during dangerous heat.",
+          "sourceLabel": "Pima County",
+          "source": "https://www.pima.gov/1394/Rillito-Regional-Park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "picnic",
+          "question": "Which picnic ramada should I reserve at Rillito Regional Park?",
+          "answer": "Ramada 1 or 2 costs $25 per day and has electricity, one table, and a grill. Ramada 3 costs $40 and has four tables, a grill, electricity, and nearby restrooms; Ramada 4 costs $40 and has the same setup beside the shaded playground. Holiday and premium dates add $20, and beer or wine requires a separate $25 permit tied to a valid rental.",
+          "sourceLabel": "Pima County",
+          "source": "https://www.pima.gov/1394/Rillito-Regional-Park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "splash-pad",
+          "question": "Can children swim or use a splash pad at Rillito River Park?",
+          "answer": "No pool, splash pad, or designated swimming area is listed at Rillito River Park or Rillito Regional Park. The river channel is normally a desert wash but can become a fast, dangerous floodway during storms, including when skies nearby appear clear. Never enter a flowing wash or cross barriers. Use a separately listed Tucson or Pima County pool or splash pad for water play rather than the Rillito channel.",
+          "sourceLabel": "Pima County",
+          "source": "https://www.pima.gov/1394/Rillito-Regional-Park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "public-art",
+          "question": "Where should I start on Rillito River Park?",
+          "answer": "Rillito River Park is a long corridor, not a central destination: paved Chuck Huckelberry Loop paths run on both banks from Interstate 10 to Craycroft Road and connect onward to other river parks. Choose a named trailhead, road crossing, restroom, or equestrian access in the interactive map before traveling. The river channel is a natural desert wash and floodway rather than a recreational landmark to enter; stay on the banks and never cross flowing water.",
+          "sourceLabel": "Pima County",
+          "source": "https://www.pima.gov/1269/Rillito-River-Park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        }
+      ],
+      "address": "1930 W Ruthrauff Rd, Tucson, AZ 85705",
+      "image": {
+        "url": "/assets/parks/tucson-tulsa-super/rillito-river-park/01-rillito-river-park-april-22-2018.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Rillito_River_Park,_April_22,_2018_(39824768570).jpg",
+        "author": "Robert Nunnally",
+        "license": "BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "alt": "Palo verde trees and the shared-use path at Rillito River Park",
+        "width": 1600,
+        "height": 1000
+      },
+      "additionalImages": [
+        {
+          "url": "/assets/parks/tucson-tulsa-super/rillito-river-park/02-a-short-connector-from-the-rillito-river-park-to-mountain-avenue.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:A_short_connector_from_the_Rillito_River_Park_to_Mountain_Avenue._(6147797130).jpg",
+          "author": "Nathan Johnson",
+          "license": "BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "alt": "The shared-use connector from Rillito River Park to Mountain Avenue",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/tucson-tulsa-super/rillito-river-park/03-crossing-the-river-park-gateway-bridge.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Crossing_the_River_Park_Gateway_Bridge._(6147796572).jpg",
+          "author": "Nathan Johnson",
+          "license": "BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "alt": "Crossing the River Park Gateway Bridge on the Rillito path network",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/tucson-tulsa-super/rillito-river-park/04-picnic-area-at-the-mountain-connection-and-river-park-path.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Picnic_area_where_the_Mountain_connection_meets_the_River_Park_multi-use_path._(6147853576).jpg",
+          "author": "Nathan Johnson",
+          "license": "BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "alt": "A picnic area where the Mountain Avenue connector meets the Rillito River Park path",
+          "width": 1600,
+          "height": 1000
+        }
+      ],
+      "replaceImages": true,
+      "sources": [
+        {
+          "label": "Pima County Natural Resources, Parks and Recreation",
+          "url": "https://www.pima.gov/1269/Rillito-River-Park"
+        },
+        {
+          "label": "Pima County The Loop",
+          "url": "https://www.pima.gov/1625/The-Chuck-Huckelberry-Loop"
+        }
+      ],
+      "verifiedAt": "2026-08-08"
+    },
+    "launch-ok-tulsa-gathering-place": {
+      "operator": "Gathering Place",
+      "sourceLabel": "Gathering Place",
+      "source": "https://www.gatheringplace.org/visit",
+      "hours": "Gathering Place is open daily from 7:00 a.m. to 9:00 p.m. Chapman Adventure Playground uses daylight hours, while water play, sports, cafes, boat rides, and other features have separate or weather-dependent schedules.",
+      "cost": "Admission and parking are free, as are the major playgrounds, gardens, paths, water-play areas, sports facilities during open public periods, and scheduled boat rides. Food, rentals, private events, and selected programs may charge.",
+      "summary": "Gathering Place is Tulsa's nationally recognized free riverfront park, with Chapman Adventure Playground, Mist Mountain and Charlie's Water Mountain, gardens, lawns, ponds and free boat rides, sports courts, skate park and pump track, indoor lodges and cafes, sensory supports, accessible paths, family restrooms, and River Parks trail connections.",
+      "searchAnswers": [
+        {
+          "intentKey": "entrance",
+          "question": "What address should I use for Gathering Place?",
+          "answer": "Use 2650 S. John Williams Way E., Tulsa, OK 74114. Walk-in gates also connect at the north and south ends through River Parks trails, so cyclists and walkers can arrive without entering the main parking circulation.",
+          "sourceLabel": "Gathering Place",
+          "source": "https://www.gatheringplace.org/visit",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "parking",
+          "question": "Is parking free at Gathering Place?",
+          "answer": "Yes. The park's visitor lots are free. Follow the official parking map and staff directions because family areas and events create peak demand; secure valuables out of sight and use only marked spaces.",
+          "sourceLabel": "Gathering Place",
+          "source": "https://www.gatheringplace.org/visit",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Where are restrooms at Gathering Place?",
+          "answer": "Restrooms are distributed around major destinations including Chapman Adventure Playground, Williams Lodge, ONEOK Boathouse, The Patio, and sports areas. Playground restroom 1 includes an adult changing table.",
+          "sourceLabel": "Gathering Place",
+          "source": "https://www.gatheringplace.org/accessibility",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "playground",
+          "question": "When is Chapman Adventure Playground open?",
+          "answer": "Chapman Adventure Playground is open during daylight hours. It is a large destination play environment rather than a single neighborhood structure, with varied age and ability zones; allow time for children to explore and establish a family meeting point.",
+          "sourceLabel": "Gathering Place",
+          "source": "https://www.gatheringplace.org/visit",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "splash-pad",
+          "question": "When are the Gathering Place water-play areas open?",
+          "answer": "Mist Mountain and Charlie's Water Mountain are scheduled daily from 10 a.m. to 7 p.m., weather permitting. Maintenance, temperature, storms, and water conditions can interrupt operation even while the broader park remains open.",
+          "sourceLabel": "Gathering Place",
+          "source": "https://www.gatheringplace.org/visit",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "dog-area",
+          "question": "Are dogs allowed at Gathering Place?",
+          "answer": "Leashed dogs are allowed on main park pathways and lawns only on Wednesdays, Saturdays, and Sundays. They are allowed daily on Tuckabache and riverfront trails, but not in buildings or play areas; service animals are permitted under applicable rules.",
+          "sourceLabel": "Gathering Place",
+          "source": "https://www.gatheringplace.org/visit",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "accessibility",
+          "question": "Is Gathering Place accessible?",
+          "answer": "The park was built to full ADA compliance, with accessible entrances, paths, bridges, lawns, gardens, parking, dining counters, water fountains, play features, and restrooms. Williams Lodge also offers a quiet room and free sensory-bag checkout with an ID.",
+          "sourceLabel": "Gathering Place",
+          "source": "https://www.gatheringplace.org/accessibility",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "picnic",
+          "question": "Can I bring food to Gathering Place?",
+          "answer": "Yes. Outside food and water are allowed, and refill stations are available. Glass bottles, outside grills, and outside alcohol are prohibited; food service is also available inside the park on separate schedules.",
+          "sourceLabel": "Gathering Place",
+          "source": "https://www.gatheringplace.org/visit",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "fees",
+          "question": "Is Gathering Place really free?",
+          "answer": "Yes. Admission, parking, playgrounds, gardens, paths, water play, and scheduled public boat rides are free. Restaurants, private rentals, merchandise, and selected programs or events can have separate costs.",
+          "sourceLabel": "Gathering Place",
+          "source": "https://www.gatheringplace.org/visit",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "closures",
+          "question": "What Gathering Place attractions are weather dependent?",
+          "answer": "Water mountains, free boat rides, sports facilities, playground areas, and outdoor programs can pause for rain, lightning, heat, wind, maintenance, or special events. Check the park's day-of visitor notices rather than assuming every feature follows general hours.",
+          "sourceLabel": "Gathering Place",
+          "source": "https://www.gatheringplace.org/visit",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "shade",
+          "question": "Where can I cool down or find weather shelter at Gathering Place?",
+          "answer": "More than 6,000 trees, canopy seating at The Patio, and designed play and garden areas provide substantial shade, though lawns, sports courts, water features, bridges, and some playground zones remain exposed. Williams Lodge has temperature-controlled lounges, restrooms, water, Guest Relations, and Redbud Cafe; ONEOK Boathouse is another indoor option during operating hours. Outdoor attractions are weather permitting. For lightning, severe wind, or dangerous heat, move promptly into an open lodge or boathouse rather than remaining under trees or outdoor canopies.",
+          "sourceLabel": "Gathering Place",
+          "source": "https://www.gatheringplace.org/attractions/attractions/williams-lodge",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "trail-surface",
+          "question": "What are the walking surfaces and slopes at Gathering Place?",
+          "answer": "Miles of paved pathways, bridges, and at-grade garden entrances form a fully ADA-compliant network throughout the 66.5-acre park. Chapman Adventure Playground uses barrier-free paths, gently sloped ramps, transfer systems, and boardwalk access to its play realms, while Ultra ADA pads mark key paths, parking, and building entrances. Lawns, sand play, water features, and climbing structures use different surfaces, and events can temporarily occupy destinations; use the official map and paved routes for the most predictable stroller or wheelchair trip.",
+          "sourceLabel": "Gathering Place",
+          "source": "https://www.gatheringplace.org/accessibility",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "transit",
+          "question": "Can I take public transit to Gathering Place?",
+          "answer": "Yes. MetroLink's AERO Route 700 runs on Peoria Avenue near Gathering Place, and the park is also an official destination for daytime MicroLink Zone 2 and nighttime or Sunday Zone 6 service. MicroLink is on demand rather than a scheduled bus: book through GoPass or by phone, allow pickup time, and confirm the correct curb point and return trip. Use the live planner for the park entrance or specific destination because the 66.5-acre grounds extend well beyond the nearest stop.",
+          "sourceLabel": "MetroLink Tulsa",
+          "source": "https://www.metrolinkok.org/plan-your-trip/microlink/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "public-art",
+          "question": "What are the must-see areas at Gathering Place?",
+          "answer": "For a first family visit, start near Williams Lodge and ONEOK Boathouse, then walk to the five-acre Chapman Adventure Playground with its seven Spiral Connector towers, River Giants, Skywalk Forest, sensory garden, and Charlie's Water Mountain. Other visual anchors include Mist Mountain, Garden Path Bridge, Four Seasons Garden, Peggy's Pond, QuikTrip Great Lawn, Swing Hill, and Slide Vale. Sports courts, skate park, and pump track form a separate activity district, so choose the closest parking area for your priority.",
+          "sourceLabel": "Gathering Place",
+          "source": "https://www.gatheringplace.org/attractions",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        }
+      ],
+      "address": "2650 S John Williams Way E, Tulsa, OK 74114",
+      "image": {
+        "url": "/assets/parks/tucson-tulsa-super/gathering-place/01-entering-the-gathering-place.webp",
+        "source": "https://www.flickr.com/photos/53301297@N00/45561725025",
+        "author": "pasa47",
+        "license": "BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "alt": "A visitor entrance into Gathering Place in Tulsa",
+        "width": 1024,
+        "height": 683
+      },
+      "additionalImages": [
+        {
+          "url": "/assets/parks/tucson-tulsa-super/gathering-place/02-chapman-adventure-playground-the-gathering-place.webp",
+          "source": "https://www.flickr.com/photos/53301297@N00/46474992231",
+          "author": "pasa47",
+          "license": "BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+          "alt": "Chapman Adventure Playground at Gathering Place",
+          "width": 1024,
+          "height": 683
+        },
+        {
+          "url": "/assets/parks/tucson-tulsa-super/gathering-place/03-peggy-s-pond-the-gathering-place.webp",
+          "source": "https://www.flickr.com/photos/53301297@N00/46474991311",
+          "author": "pasa47",
+          "license": "BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+          "alt": "Peggy's Pond at Gathering Place",
+          "width": 1024,
+          "height": 683
+        },
+        {
+          "url": "/assets/parks/tucson-tulsa-super/gathering-place/04-boathouse-the-gathering-place.webp",
+          "source": "https://www.flickr.com/photos/53301297@N00/46426789852",
+          "author": "pasa47",
+          "license": "BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+          "alt": "ONEOK Boathouse at Gathering Place",
+          "width": 1024,
+          "height": 683
+        }
+      ],
+      "replaceImages": true,
+      "sources": [
+        {
+          "label": "OpenStreetMap contributors",
+          "url": "https://www.openstreetmap.org/way/624094500",
+          "note": "Map location and address"
+        },
+        {
+          "label": "Wikipedia background",
+          "url": "https://en.wikipedia.org/wiki/Gathering_Place_(Tulsa_park)",
+          "note": "Background reference"
+        },
+        {
+          "label": "Gathering Place",
+          "url": "https://www.gatheringplace.org/attractions"
+        },
+        {
+          "label": "Gathering Place",
+          "url": "https://www.gatheringplace.org/dine"
+        }
+      ],
+      "verifiedAt": "2026-08-08"
+    },
+    "launch-ok-tulsa-woodward-park": {
+      "operator": "City of Tulsa with Tulsa Garden Center",
+      "sourceLabel": "Tulsa Garden Center",
+      "source": "https://www.tulsagardencenter.org/park-rules-and-hours",
+      "hours": "Woodward Park is open daily from 5:00 a.m. to 11:00 p.m. The Tulsa Garden Center mansion, Teaching Garden, Visitor Center, Conservatory Greenhouse, and private events use shorter and seasonally different schedules.",
+      "cost": "General Woodward Park, arboretum, Municipal Rose Garden, paths, lawns, and outdoor public areas are free. The Teaching Garden requests pay-as-you-wish support with a suggested $5 donation; classes, rentals, and private events may charge.",
+      "summary": "Woodward Park is Tulsa's historic public garden and arboretum campus, with the Tulsa Municipal Rose Garden, Tulsa Arboretum, seasonal Linnaeus Teaching Garden, Conservatory Greenhouse, Tulsa Garden Center mansion, fountains, pocket gardens, mature trees, walking paths, lawns, horticultural programs, and event spaces.",
+      "searchAnswers": [
+        {
+          "intentKey": "entrance",
+          "question": "What address should I use for Woodward Park?",
+          "answer": "Route to Tulsa Garden Center at 2435 S. Peoria Avenue for the mansion, Teaching Garden, rose garden, and central campus. The park extends around several garden areas, so use the official map when seeking the arboretum, greenhouse, or a private event entrance.",
+          "sourceLabel": "Tulsa Garden Center",
+          "source": "https://www.tulsagardencenter.org/park-overview",
+          "sourceType": "official-partner",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "parking",
+          "question": "Where should I park at Woodward Park?",
+          "answer": "Use designated roads and parking areas around the Tulsa Garden Center and garden campus. Motor vehicles are prohibited on lawns, garden paths, and other non-road areas; private events can reserve or redirect the closest spaces.",
+          "sourceLabel": "Tulsa Garden Center",
+          "source": "https://www.tulsagardencenter.org/park-rules-and-hours",
+          "sourceType": "official-partner",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "trail-surface",
+          "question": "What kind of walking is available at Woodward Park?",
+          "answer": "Short garden walks connect the rose garden, arboretum, mansion, Teaching Garden, greenhouse, fountains, and lawns. Expect a mix of paved paths, steps, slopes, and garden surfaces rather than a long-distance recreation trail.",
+          "sourceLabel": "Tulsa Garden Center",
+          "source": "https://www.tulsagardencenter.org/park-overview",
+          "sourceType": "official-partner",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "public-art",
+          "question": "What should I see at Woodward Park?",
+          "answer": "The principal destinations are the historic Tulsa Garden Center mansion, Tulsa Municipal Rose Garden, Arboretum, Linnaeus Teaching Garden, Conservatory Greenhouse, fountains, pocket gardens, and historic barn. Bloom and greenhouse conditions vary by season.",
+          "sourceLabel": "Tulsa Garden Center",
+          "source": "https://www.tulsagardencenter.org/park-overview",
+          "sourceType": "official-partner",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "dog-area",
+          "question": "Are dogs allowed at Woodward Park?",
+          "answer": "Leashed pets are allowed in general City park areas, but the Teaching Garden prohibits pets other than service animals. Keep animals out of planted beds and confirm building-specific policies before entering indoor facilities.",
+          "sourceLabel": "Tulsa Garden Center",
+          "source": "https://www.tulsagardencenter.org/teaching-garden",
+          "sourceType": "official-partner",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "accessibility",
+          "question": "Is Woodward Park accessible?",
+          "answer": "The developed garden campus includes road-accessible entrances and paths, but this historic landscape has varied slopes, surfaces, and building access. Contact Tulsa Garden Center before a mobility-specific visit or event to confirm the best entrance and currently accessible route.",
+          "sourceLabel": "Tulsa Garden Center",
+          "source": "https://www.tulsagardencenter.org/park-overview",
+          "sourceType": "official-partner",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "fees",
+          "question": "Is Woodward Park free?",
+          "answer": "General park, rose garden, arboretum, paths, lawns, and outdoor garden viewing are free. The Teaching Garden is pay-as-you-wish with a suggested $5 donation; classes, rentals, and private events may charge.",
+          "sourceLabel": "Tulsa Garden Center",
+          "source": "https://www.tulsagardencenter.org/teaching-garden",
+          "sourceType": "official-partner",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "closures",
+          "question": "When is the Teaching Garden at Woodward Park open?",
+          "answer": "The Teaching Garden generally runs from the first weekend in March through the second weekend in December, Tuesday-Saturday 9 a.m.-4 p.m., with weather-dependent March access and occasional private-event closures. The broader park remains open 5 a.m.-11 p.m.",
+          "sourceLabel": "Tulsa Garden Center",
+          "source": "https://www.tulsagardencenter.org/park-rules-and-hours",
+          "sourceType": "official-partner",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "hours",
+          "question": "What hours is Woodward Park open?",
+          "answer": "The outdoor park is open daily from 5 a.m.-11 p.m. The Mansion, Teaching Garden, visitor center, and conservatory have much shorter schedules and can close for private events or seasonal changes.",
+          "sourceLabel": "Tulsa Garden Center",
+          "source": "https://www.tulsagardencenter.org/park-rules-and-hours",
+          "sourceType": "official-partner",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Can I rely on restrooms at Woodward Park late at night?",
+          "answer": "Do not assume staffed-building restrooms follow the park's 5 a.m.-11 p.m. schedule. The Mansion, visitor center, Teaching Garden, and conservatory close much earlier; use facilities during their published hours when restroom access is essential.",
+          "sourceLabel": "Tulsa Garden Center",
+          "source": "https://www.tulsagardencenter.org/park-rules-and-hours",
+          "sourceType": "official-partner",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "picnic",
+          "question": "Can I hold a gathering at Woodward Park?",
+          "answer": "Casual park use is allowed, but the Tulsa Garden Center requires an event permit for gatherings of 10 or more people. Permitted venues and fees differ, and the Teaching Garden prohibits pets except service animals.",
+          "sourceLabel": "Tulsa Garden Center",
+          "source": "https://www.tulsagardencenter.org/outdoor-event-inquiry",
+          "sourceType": "official-partner",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "shade",
+          "question": "Where can I find shade or weather cover at Woodward Park?",
+          "answer": "Mature trees shade much of Woodward Park's garden landscape, and the park includes a modernist shelter and restroom building. The Conservatory provides indoor garden viewing only during posted seasonal hours, while the Tulsa Garden Center mansion and event spaces follow separate access rules. Gardens, lawns, rose beds, and paths can still be exposed. Use an open substantial building or enclosed vehicle rather than trees, glasshouses, or the open shelter during lightning, hail, or severe wind.",
+          "sourceLabel": "Tulsa Garden Center",
+          "source": "https://www.tulsagardencenter.org/the-mansion",
+          "sourceType": "official-partner",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "playground",
+          "question": "Is there a playground at Woodward Park?",
+          "answer": "Woodward Park's official visitor information does not list conventional playground equipment. This destination is centered on the rose garden, arboretum, conservatory, historic mansion, lawns, trees, and quiet garden walks rather than swings or slides. Choose another Tulsa park for equipment play. Families can still make a short nature-focused visit, but children should stay on paths and avoid climbing garden structures, entering planted beds, or disturbing conservatory displays; building access and programs use separate hours.",
+          "sourceLabel": "Tulsa Garden Center",
+          "source": "https://www.tulsagardencenter.org/the-mansion",
+          "sourceType": "official-partner",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "splash-pad",
+          "question": "Does Woodward Park have a splash pad or swimming pool?",
+          "answer": "No public pool or splash pad is listed at Woodward Park. Its stream, pond, and other garden water features are ornamental and are not places to wade, swim, or play. Tulsa operates pools and water playgrounds at separately named parks, and Woodward is not among the City's current aquatic locations; check the current aquatics list before choosing an alternative.",
+          "sourceLabel": "City of Tulsa",
+          "source": "https://cityoftulsa.org/government/departments/park-and-recreation/aquatics/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "transit",
+          "question": "Can I take Tulsa Transit to Woodward Park?",
+          "answer": "Use MetroLink Tulsa's trip planner with Woodward Park, the Tulsa Garden Center, or Linnaeus Teaching Gardens as the destination; the best final stop depends on which part of the grounds you need. Target the Peoria Avenue side for the main garden complex and allow for a walk through a sloped, multi-block landscape. Confirm live service and the return trip before leaving, particularly on weekends or for evening events when frequencies may be limited.",
+          "sourceLabel": "MetroLink Tulsa",
+          "source": "https://www.metro-link.org/routes/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        }
+      ],
+      "address": "2435 S Peoria Ave, Tulsa, OK 74114",
+      "image": {
+        "url": "/assets/parks/tucson-tulsa-super/woodward-park/01-fall-in-woodward-park-tulsa-ok.webp",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=110949781",
+        "author": "Lisagayelaue",
+        "license": "BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "alt": "Fall color across Woodward Park in Tulsa",
+        "width": 1600,
+        "height": 1000
+      },
+      "additionalImages": [
+        {
+          "url": "/assets/parks/tucson-tulsa-super/woodward-park/02-tulsa-victorian-conservatory-center-woodward-park-tulsa-oklahoma-june-26-2013-9257660995.webp",
+          "source": "https://commons.wikimedia.org/w/index.php?curid=105207221",
+          "author": "Mike Goad",
+          "license": "CC0 1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "alt": "The Victorian Conservatory at Woodward Park",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/tucson-tulsa-super/woodward-park/03-tulsa-oklahoma-woodward-park-linnaeus-teaching-gardens.webp",
+          "source": "https://commons.wikimedia.org/w/index.php?curid=2247011",
+          "author": "Tim Morgan",
+          "license": "BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "alt": "The Teaching Garden at Woodward Park",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/tucson-tulsa-super/woodward-park/04-reflecting-pool-woodward-park-tulsa.webp",
+          "source": "https://www.flickr.com/photos/99535234@N00/3470234556",
+          "author": "chad_k",
+          "license": "BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+          "alt": "A reflecting pool in Woodward Park",
+          "width": 1024,
+          "height": 683
+        }
+      ],
+      "replaceImages": true,
+      "sources": [
+        {
+          "label": "Tulsa Garden Center",
+          "url": "https://www.tulsagardencenter.org/teaching-garden"
+        }
+      ],
+      "verifiedAt": "2026-08-08"
     }
   }
 }

@@ -1,0 +1,112 @@
+{
+  "checkedAt": "2026-08-08",
+  "reviewMethod": "Exact named OpenStreetMap feature, current official operator guidance, and a destination-specific licensed campaign photograph. Other amenities remain parent-page guidance or research-queue items until all three elements are available.",
+  "places": {
+    "launch-az-tucson-reid-park": [
+      {
+        "name": "Cele Peterson Rose Garden",
+        "osm": "way/37916624",
+        "imageIndex": 0,
+        "sourceLabel": "City of Tucson Parks and Recreation",
+        "source": "https://www.tucsonaz.gov/Departments/Parks-and-Recreation/Parks/Gene-C.-Reid-Park",
+        "summary": "Cele Peterson Rose Garden is the formal rose garden and gazebo area on Concert Place inside Gene C. Reid Park, with seasonal displays and a separate reservation program.",
+        "cost": "Ordinary public garden access does not carry a listed admission fee. Private reservations, permitted events, food, transportation, and separately operated attractions can cost extra.",
+        "hours": "The garden follows posted access conditions and closes annually from December 1 through March 31 for pruning and cleaning. Event reservations or restoration work can also close it even while the larger park is open.",
+        "needToKnow": "Navigate to 920 S. Concert Place rather than the general Randolph Way park pin. Spring and fall are the typical bloom periods; verify seasonal and event closures before making the garden the purpose of a trip."
+      },
+      {
+        "name": "Georges DeMeester Outdoor Performance Center",
+        "osm": "way/37916620",
+        "imageIndex": 2,
+        "sourceLabel": "City of Tucson Parks and Recreation",
+        "source": "https://www.tucsonaz.gov/Departments/Parks-and-Recreation/Parks/Gene-C.-Reid-Park",
+        "summary": "Georges DeMeester Outdoor Performance Center is Reid Park's outdoor bandshell and sloped lawn for concerts, festivals, and family events, with room for blankets and portable chairs.",
+        "cost": "The venue lawn is part of the public park, but individual concerts, festivals, vendors, reserved uses, and permitted events may set their own prices or requirements.",
+        "hours": "The outdoor venue follows the park's 6:00 a.m.-10:30 p.m. framework when no event, construction, reservation, or maintenance closure applies. Event gates and programs use their own published times.",
+        "needToKnow": "Navigate to 800 S. Concert Place and check the same-day event listing. Bring a blanket or low portable chair for lawn seating; restrooms and food trucks are typical during events but should not be assumed on an ordinary non-event visit."
+      },
+      {
+        "name": "Hi Corbett Field",
+        "osm": "way/1489299720",
+        "imageIndex": 1,
+        "sourceLabel": "City of Tucson Parks and Recreation",
+        "source": "https://www.tucsonaz.gov/Departments/Parks-and-Recreation/Parks/Gene-C.-Reid-Park",
+        "summary": "Hi Corbett Field is the historic baseball stadium on the east side of Gene C. Reid Park, reached from Camino Campestre rather than the park's main Randolph Way address.",
+        "cost": "Seeing the exterior during a park visit is free; games, reserved events, concessions, and facility uses can require admission or separate payment.",
+        "hours": "The stadium is not an all-day walk-in park amenity. Public access follows scheduled games, events, rentals, and operating staff even though the surrounding park is open 6:00 a.m.-10:30 p.m.",
+        "needToKnow": "Use 3400 E. Camino Campestre and the event-specific arrival instructions. Do not rely on the general Reid Park pin or hours for stadium entry, parking availability, ticketing, concessions, or bag rules."
+      }
+    ],
+    "launch-az-tucson-rillito-river-park": [
+      {
+        "name": "Rillito River Park Path",
+        "osm": "way/568586244",
+        "imageIndex": 0,
+        "allowOutsideBoundary": true,
+        "boundaryExceptionReason": "Rillito River Park is a linear corridor without one reviewed parent polygon; this exact mapped path segment is part of the named river route.",
+        "sourceLabel": "Pima County Natural Resources, Parks and Recreation",
+        "source": "https://www.pima.gov/1269/Rillito-River-Park",
+        "summary": "Rillito River Park Path is a paved, shared-use segment following the Rillito River corridor and connecting into Pima County's larger Chuck Huckelberry Loop network.",
+        "cost": "The County does not list a general trail admission fee. Equipment, transit, reservations, events, and services at adjoining facilities can cost separately.",
+        "hours": "The river park and Loop are open from sunrise to sunset; nighttime use is prohibited. Flooding, maintenance, sealcoating, construction, wash conditions, and emergency work can close individual segments.",
+        "needToKnow": "Check the Pima County Notices and Closures page immediately before leaving because open and closed banks can change by segment. Carry water, expect limited shade, use lights only for visibility within legal hours, and never enter a flowing wash."
+      },
+      {
+        "name": "Chuck Huckelberry Loop Connection",
+        "osm": "way/263884539",
+        "imageIndex": 1,
+        "allowOutsideBoundary": true,
+        "boundaryExceptionReason": "The Loop connection is an exact mapped shared-use route within the linear Rillito corridor, which has no single reviewed parent polygon.",
+        "sourceLabel": "Pima County The Loop",
+        "source": "https://www.pima.gov/1625/The-Chuck-Huckelberry-Loop",
+        "summary": "The Chuck Huckelberry Loop connection links the Rillito corridor to a countywide network of paved shared-use paths used by people walking, rolling, running, cycling, and riding horses on designated sections.",
+        "cost": "Ordinary use of The Loop does not carry a listed admission fee. Rentals, transit, organized events, and services at adjacent destinations can cost separately.",
+        "hours": "The Loop is open from sunrise to sunset and closes at night. Temporary work, flooding, damaged pavement, special events, or route notices can override normal access.",
+        "needToKnow": "This is a transportation-scale trail network, not a short loop around one park. Confirm the bank, trailhead, distance, water plan, and return route before starting, and review live county closures because a detour may shift users to the opposite bank."
+      }
+    ],
+    "launch-ok-tulsa-gathering-place": [
+      {
+        "name": "Chapman Adventure Playground",
+        "osm": "way/692830730",
+        "imageIndex": 1,
+        "sourceLabel": "Gathering Place",
+        "source": "https://www.gatheringplace.org/attractions",
+        "summary": "Chapman Adventure Playground is the large, multi-zone children's play destination in the northern portion of Gathering Place, with towers, slides, climbing, sensory play, and nearby water features.",
+        "cost": "Gathering Place and Chapman Adventure Playground have no admission fee. Food, merchandise, private programs, rentals, and separately ticketed activities can cost extra.",
+        "hours": "The playground is open during daylight hours, which is shorter and seasonally different from Gathering Place's 7:00 a.m.-9:00 p.m. schedule. Weather or maintenance can close individual play zones.",
+        "needToKnow": "Use the exact playground pin after parking near Williams Lodge. For young children, get a contact wristband at Guest Services and take a current photo before entering; the playground is expansive and family members can separate quickly."
+      },
+      {
+        "name": "Vista at the Boathouse",
+        "osm": "node/12697424868",
+        "imageIndex": 3,
+        "sourceLabel": "Gathering Place",
+        "source": "https://www.gatheringplace.org/dine",
+        "summary": "Vista at the Boathouse is the glass-walled dining and event space inside ONEOK Boathouse, overlooking Peggy's Pond, downtown Tulsa, and the Arkansas River.",
+        "cost": "Park admission is free, while private-event bookings, dining, drinks, and other hosted services at Vista cost separately.",
+        "hours": "Gathering Place is open 7:00 a.m.-9:00 p.m., but Vista is currently advertised as available for private events rather than guaranteed public dining. A park-open status does not mean the room is open for walk-in service.",
+        "needToKnow": "Use the exact boathouse pin, but do not plan a walk-in meal without checking current service first. The main lot commonly fills early on busy days, so keep the Riverside Drive and west-bank overflow options in mind."
+      }
+    ],
+    "launch-ok-tulsa-woodward-park": [
+      {
+        "name": "Teaching Garden",
+        "osm": "relation/20658582",
+        "imageIndex": 2,
+        "sourceLabel": "Tulsa Garden Center",
+        "source": "https://www.tulsagardencenter.org/teaching-garden",
+        "summary": "Teaching Garden is a 1.55-acre demonstration garden east of the Tulsa Rose Garden and Garden Center mansion, with themed plantings, small-space design examples, seating, a pond, waterfalls, and streams.",
+        "cost": "The garden uses pay-as-you-wish admission, with a suggested $5 donation per guest. Classes, private events, and other programs can carry separate fees.",
+        "hours": "The garden is generally open spring through fall, Tuesday-Saturday, 9:00 a.m.-4:00 p.m.; exact opening dates depend on weather and private events can close it. Those hours are much shorter than Woodward Park's daily 5:00 a.m.-11:00 p.m. schedule.",
+        "needToKnow": "The operator removed 'Linnaeus' from the garden's current name in 2022, so search for Teaching Garden even if an older map or photo uses the former name. Pets are not allowed except service animals, and visitors should verify the seasonal opening before traveling specifically for the garden."
+      }
+    ]
+  },
+  "researchQueue": {
+    "launch-az-tucson-reid-park": "Secure exact reusable photographs and reviewed map placements before publishing Miko's Corner Dog Park, the general playground, ponds, Cancer Survivors Plaza, restrooms, ramadas, or the zoo connection as separate pages; keep current asphalt-repair notices visible while active.",
+    "launch-az-tucson-rillito-river-park": "Review exact trailhead pins and secure destination-specific photographs before publishing La Cholla, Brandi Fenton, Rillito Racetrack, Craycroft, Shamrock, equestrian access, restrooms, or parking areas as separate pages; recheck the live closure notice before every freshness update.",
+    "launch-ok-tulsa-gathering-place": "Secure exact reusable photographs before publishing Mist Mountain, Charlie's Water Mountain, Williams Lodge, Skate Park, BMX Pump Track, Swing Hill, Sensory Garden, sports courts, cafes, or individual gardens as separate pages; keep all weather-dependent schedules current.",
+    "launch-ok-tulsa-woodward-park": "Secure exact reusable photographs and reviewed pins before publishing Tulsa Rose Garden, Arboretum, Conservatory, Garden Center Mansion, rock gardens, fountain, or other seasonal buildings as separate pages; preserve their shorter operating schedules rather than inheriting park hours."
+  }
+}
