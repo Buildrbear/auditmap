@@ -39,14 +39,17 @@ Tucson/Tulsa research stopped after licensed-image discovery and boundary discov
 
 ## Maintainer Release Sequence
 
-1. Review the protected preview and the changed runtime, API, and database surface.
-2. Confirm representative desktop and 390-pixel layouts in the preview, including one parent and one subsite page.
-3. Review the source and image-rights records for newly completed clusters.
-4. Promote through the normal production process only after maintainer approval.
-5. Recheck representative public routes, sitemap entries, map visibility, and the Ask AuditMap flow after promotion.
+1. Resolve the Vercel project mismatch: GitHub's automatic check targets `michael-hobgoods-projects/auditmap`, while the verified protected preview belongs to `derrys-projects-f5a18cb6/auditmap`.
+2. Inspect the failed Git-linked deployment `dpl_E3A6f3bjja8pzP2CdgNamSGPsjXu` from an account with access to the `michael-hobgoods-projects` scope.
+3. Review the protected preview and the changed runtime, API, and database surface.
+4. Confirm representative desktop and 390-pixel layouts in the preview, including one parent and one subsite page.
+5. Review the source and image-rights records for newly completed clusters.
+6. Promote through the normal production process only after maintainer approval and a passing Git-linked check.
+7. Recheck representative public routes, sitemap entries, map visibility, and the Ask AuditMap flow after promotion.
 
 ## Risk And Rollback
 
 - The candidate is large and includes API, moderation, account, media, database-schema, and Vercel configuration changes in addition to generated park content. These areas require maintainer security review before production publication.
+- GitHub currently reports the automatic `Vercel - auditmap` check as failed. The available CLI session cannot inspect that deployment because it belongs to a different Vercel scope; the successful protected preview does not override this release gate.
 - No production database write or production deployment was performed.
 - If production promotion causes map, place-page, navigation, moderation, or API regressions, use the normal Vercel rollback process and pause further enrichment publication.

@@ -4,6 +4,13 @@
   "previewUrl": "https://auditmap-74sk4oq7k-derrys-projects-f5a18cb6.vercel.app",
   "target": "preview",
   "productionPublished": false,
+  "gitLinkedDeployment": {
+    "id": "dpl_E3A6f3bjja8pzP2CdgNamSGPsjXu",
+    "scope": "michael-hobgoods-projects/auditmap",
+    "status": "failure",
+    "logsAccessibleFromCurrentCliScope": false,
+    "releaseGate": "Maintainer must inspect and resolve before production promotion."
+  },
   "completedCampaigns": 49,
   "campaignVerifierFailures": 0,
   "excludedIncompleteCampaigns": [
@@ -61,5 +68,5 @@
     "fallsParkParentScrollWidth": 1440,
     "fallsParkPublishedSubsitesVisible": 4
   },
-  "result": "preview-ready-maintainer-review-required"
+  "result": "direct-preview-ready-git-linked-deployment-failed-maintainer-review-required"
 }
