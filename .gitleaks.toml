@@ -1,0 +1,18 @@
+title = "AuditMap secret-scanning configuration"
+
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "Public OpenStreetMap survey image references in generated research data"
+condition = "AND"
+regexTarget = "match"
+paths = ['''^data/generated/.*-nearby-map-features\.json$''']
+regexes = ['''"source_ref:access"\s*:\s*"AM[0-9]+_DSCV[0-9]+"''']
+
+[[allowlists]]
+description = "Lowercase destination slugs in the generated public catalog"
+condition = "AND"
+regexTarget = "match"
+paths = ['''^data/generated/official-catalog\.json$''']
+regexes = ['''"key"\s*:\s*"[a-z0-9]+(?:-[a-z0-9]+)+"''']
