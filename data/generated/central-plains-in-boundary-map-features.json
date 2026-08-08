@@ -1,0 +1,2551 @@
+{
+  "campaign": "Central Plains city connector",
+  "checkedAt": "2026-08-08",
+  "places": {
+    "launch-ia-des-moines-gray-s-lake-park": {
+      "name": "Gray's Lake Park",
+      "boundarySource": "https://www.openstreetmap.org/way/67057448",
+      "candidates": [
+        {
+          "name": "John R. Grubb Lane",
+          "latitude": 41.5719546,
+          "longitude": -93.6375515,
+          "osmType": "way",
+          "osmId": 16000448,
+          "sourceUrl": "https://www.openstreetmap.org/way/16000448",
+          "tags": {
+            "highway": "service",
+            "name": "John R. Grubb Lane"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Kruidenier Trail",
+          "latitude": 41.5704547,
+          "longitude": -93.6437936,
+          "osmType": "way",
+          "osmId": 36885223,
+          "sourceUrl": "https://www.openstreetmap.org/way/36885223",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Kruidenier Trail",
+            "segregated": "no",
+            "surface": "paved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Kruidenier Trail",
+          "latitude": 41.5686736,
+          "longitude": -93.6380188,
+          "osmType": "way",
+          "osmId": 36885277,
+          "sourceUrl": "https://www.openstreetmap.org/way/36885277",
+          "tags": {
+            "bicycle": "designated",
+            "bridge": "yes",
+            "bridge:structure": "beam",
+            "foot": "designated",
+            "highway": "cycleway",
+            "layer": "1",
+            "name": "Kruidenier Trail",
+            "segregated": "no",
+            "surface": "paved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Gray's Lake",
+          "latitude": 41.5701197,
+          "longitude": -93.6374899,
+          "osmType": "way",
+          "osmId": 51322771,
+          "sourceUrl": "https://www.openstreetmap.org/way/51322771",
+          "tags": {
+            "NHD:ComID": "137046695",
+            "NHD:FCode": "39004",
+            "NHD:FDate": "2005/07/15",
+            "NHD:FTYPE": "LakePond",
+            "NHD:RESOLUTION": "High",
+            "NHD:ReachCode": "07100006001739",
+            "boat": "permissive",
+            "fishing": "permissive",
+            "gnis:feature_id": "457091",
+            "intermittent": "no",
+            "motorboat": "electric",
+            "name": "Gray's Lake",
+            "natural": "water",
+            "salt": "no",
+            "source": "NHD",
+            "swimming": "yes",
+            "tidal": "no",
+            "water": "lake",
+            "wikidata": "Q31810541"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Meredith Trail",
+          "latitude": 41.5694131,
+          "longitude": -93.634275,
+          "osmType": "way",
+          "osmId": 51325643,
+          "sourceUrl": "https://www.openstreetmap.org/way/51325643",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Meredith Trail",
+            "segregated": "no",
+            "surface": "paved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Meredith to Bill Riley Trail",
+          "latitude": 41.5671964,
+          "longitude": -93.6440229,
+          "osmType": "way",
+          "osmId": 51325647,
+          "sourceUrl": "https://www.openstreetmap.org/way/51325647",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Meredith to Bill Riley Trail",
+            "segregated": "no",
+            "surface": "paved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Meredith to Bill Riley Trail",
+          "latitude": 41.5692389,
+          "longitude": -93.6342628,
+          "osmType": "way",
+          "osmId": 51325649,
+          "sourceUrl": "https://www.openstreetmap.org/way/51325649",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Meredith to Bill Riley Trail",
+            "segregated": "no",
+            "surface": "paved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Raccoon River",
+          "latitude": 41.5726202,
+          "longitude": -93.6434878,
+          "osmType": "way",
+          "osmId": 51334805,
+          "sourceUrl": "https://www.openstreetmap.org/way/51334805",
+          "tags": {
+            "NHD:ComID": "137043135",
+            "NHD:FCode": "55800",
+            "NHD:FDate": "2005/07/15",
+            "NHD:FLOWDIR": "With Digitized",
+            "NHD:FTYPE": "ArtificialPath",
+            "NHD:RESOLUTION": "High",
+            "NHD:ReachCode": "07100006001223",
+            "NHD:WBAreaComI": "137047480",
+            "gnis:feature_id": "460494",
+            "name": "Raccoon River",
+            "source": "NHD",
+            "waterway": "river",
+            "wikidata": "Q3415981",
+            "wikipedia": "en:Raccoon River"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Gray's Lake Park",
+          "latitude": 41.5701838,
+          "longitude": -93.634202,
+          "osmType": "way",
+          "osmId": 67057448,
+          "sourceUrl": "https://www.openstreetmap.org/way/67057448",
+          "tags": {
+            "access": "yes",
+            "addr:city": "Des Moines",
+            "addr:housenumber": "2101",
+            "addr:postcode": "50321",
+            "addr:state": "IA",
+            "addr:street": "Fleur Drive",
+            "dog": "leashed",
+            "leisure": "park",
+            "name": "Gray's Lake Park",
+            "opening_hours": "Apr-Oct: Mo-Su 05:00-22:00; Nov-Mar: Mo-Su 06:00-22:00",
+            "operator": "Des Moines Parks and Recereation",
+            "operator:type": "government",
+            "website": "https://www.dsm.city/business_detail_T6_R58.php"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Kruidenier Trail",
+          "latitude": 41.5729653,
+          "longitude": -93.6429924,
+          "osmType": "way",
+          "osmId": 71807957,
+          "sourceUrl": "https://www.openstreetmap.org/way/71807957",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Kruidenier Trail",
+            "segregated": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Kruidenier Trail",
+          "latitude": 41.5736359,
+          "longitude": -93.6445915,
+          "osmType": "way",
+          "osmId": 71820768,
+          "sourceUrl": "https://www.openstreetmap.org/way/71820768",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Kruidenier Trail",
+            "segregated": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Meredith Trail",
+          "latitude": 41.5696938,
+          "longitude": -93.6319601,
+          "osmType": "way",
+          "osmId": 163291823,
+          "sourceUrl": "https://www.openstreetmap.org/way/163291823",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Meredith Trail",
+            "segregated": "no",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Meredith Trail",
+          "latitude": 41.5710232,
+          "longitude": -93.6267475,
+          "osmType": "way",
+          "osmId": 171621968,
+          "sourceUrl": "https://www.openstreetmap.org/way/171621968",
+          "tags": {
+            "abandoned:railway": "rail",
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Meredith Trail",
+            "old_railway_operator": "CGW",
+            "oneway": "no",
+            "railway": "abandoned",
+            "segregated": "no",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Meredith to Bill Riley Trail",
+          "latitude": 41.5690537,
+          "longitude": -93.6342851,
+          "osmType": "way",
+          "osmId": 171621976,
+          "sourceUrl": "https://www.openstreetmap.org/way/171621976",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Meredith to Bill Riley Trail",
+            "segregated": "no",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Meredith to Bill Riley Trail",
+          "latitude": 41.567527,
+          "longitude": -93.6410442,
+          "osmType": "way",
+          "osmId": 299945246,
+          "sourceUrl": "https://www.openstreetmap.org/way/299945246",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Meredith to Bill Riley Trail",
+            "segregated": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Kruidenier Trail",
+          "latitude": 41.5714649,
+          "longitude": -93.6365605,
+          "osmType": "way",
+          "osmId": 410103852,
+          "sourceUrl": "https://www.openstreetmap.org/way/410103852",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Kruidenier Trail",
+            "segregated": "no",
+            "surface": "paved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Meredith to Bill Riley Trail",
+          "latitude": 41.5674487,
+          "longitude": -93.6397099,
+          "osmType": "way",
+          "osmId": 410643347,
+          "sourceUrl": "https://www.openstreetmap.org/way/410643347",
+          "tags": {
+            "abandoned:railway": "rail",
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Meredith to Bill Riley Trail",
+            "old_railway_operator": "CGW",
+            "railway": "abandoned",
+            "segregated": "no",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Gray's Station Trail",
+          "latitude": 41.5733837,
+          "longitude": -93.6366556,
+          "osmType": "way",
+          "osmId": 756342489,
+          "sourceUrl": "https://www.openstreetmap.org/way/756342489",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "incline": "up",
+            "name": "Gray's Station Trail",
+            "segregated": "no",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Kruidenier Trail",
+          "latitude": 41.5694184,
+          "longitude": -93.6350189,
+          "osmType": "way",
+          "osmId": 1259263338,
+          "sourceUrl": "https://www.openstreetmap.org/way/1259263338",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Kruidenier Trail",
+            "segregated": "no",
+            "surface": "paved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Kruidenier Trail",
+          "latitude": 41.5729117,
+          "longitude": -93.6428151,
+          "osmType": "way",
+          "osmId": 1259263339,
+          "sourceUrl": "https://www.openstreetmap.org/way/1259263339",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Kruidenier Trail",
+            "segregated": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Meredith Trail",
+          "latitude": 41.5729768,
+          "longitude": -93.6428714,
+          "osmType": "way",
+          "osmId": 1259263340,
+          "sourceUrl": "https://www.openstreetmap.org/way/1259263340",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Meredith Trail",
+            "oneway": "no",
+            "segregated": "no",
+            "surface": "paved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Meredith Trail",
+          "latitude": 41.5733801,
+          "longitude": -93.6435261,
+          "osmType": "way",
+          "osmId": 1328705613,
+          "sourceUrl": "https://www.openstreetmap.org/way/1328705613",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Meredith Trail",
+            "oneway": "no",
+            "segregated": "no",
+            "surface": "paved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Kruidenier Trail",
+          "latitude": 41.5679521,
+          "longitude": -93.640838,
+          "osmType": "way",
+          "osmId": 1367628436,
+          "sourceUrl": "https://www.openstreetmap.org/way/1367628436",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Kruidenier Trail",
+            "segregated": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Kruidenier Trail",
+          "latitude": 41.567756,
+          "longitude": -93.6424847,
+          "osmType": "way",
+          "osmId": 1367628437,
+          "sourceUrl": "https://www.openstreetmap.org/way/1367628437",
+          "tags": {
+            "access": "no",
+            "bicycle": "no",
+            "check_date": "2025-03-18",
+            "construction": "cycleway",
+            "description": "This portion closed until Spring 2026 due to Gray's Lake Marina Project construction. Detours signs are posted on the trail.",
+            "foot": "no",
+            "highway": "construction",
+            "name": "Kruidenier Trail",
+            "note": "This portion of Kruidenier Trail will be closed until Spring 2026 due to Gray's Lake Marina construction. Detour signs are posted on the trail.",
+            "oneway": "no",
+            "opening_date": "2026",
+            "segregated": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    },
+    "launch-ia-des-moines-water-works-park": {
+      "name": "Water Works Park",
+      "boundarySource": "https://www.openstreetmap.org/way/67058964",
+      "candidates": [
+        {
+          "name": "Raccoon River at Fleur Drive at Des Moines",
+          "latitude": 41.5815,
+          "longitude": -93.6426667,
+          "osmType": "node",
+          "osmId": 655115231,
+          "sourceUrl": "https://www.openstreetmap.org/node/655115231",
+          "tags": {
+            "ele": "237.893",
+            "ele:accuracy": "0.0396",
+            "ele:datum": "NAVD88",
+            "man_made": "monitoring_station",
+            "monitoring:flow_rate": "yes",
+            "monitoring:water_level": "yes",
+            "name": "Raccoon River at Fleur Drive at Des Moines",
+            "official_name": "Raccoon River at Fleur Drive at Des Moines, IA",
+            "operator": "United States Geological Survey",
+            "operator:short": "USGS",
+            "operator:type": "government",
+            "operator:wikidata": "Q193755",
+            "ref": "05484900",
+            "shef:location_id": "DEMI4",
+            "source": "NHD",
+            "start_date": "1984-06-05",
+            "website": "https://waterdata.usgs.gov/monitoring-location/05484900",
+            "website:1": "https://water.noaa.gov/gauges/demi4"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "River Constellation",
+          "latitude": 41.5701045,
+          "longitude": -93.6473865,
+          "osmType": "node",
+          "osmId": 7269500704,
+          "sourceUrl": "https://www.openstreetmap.org/node/7269500704",
+          "tags": {
+            "artist_name": "Natalia Zubko",
+            "artwork_type": "sculpture",
+            "name": "River Constellation",
+            "start_date": "2019",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "RAGBRAI: River to River",
+          "latitude": 41.5703816,
+          "longitude": -93.6483575,
+          "osmType": "node",
+          "osmId": 10792146017,
+          "sourceUrl": "https://www.openstreetmap.org/node/10792146017",
+          "tags": {
+            "artist_name": "Gail Folwell",
+            "artwork_type": "sculpture",
+            "name": "RAGBRAI: River to River",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "West Martin Luther King Junior Parkway",
+          "latitude": 41.5800292,
+          "longitude": -93.6443776,
+          "osmType": "way",
+          "osmId": 31536415,
+          "sourceUrl": "https://www.openstreetmap.org/way/31536415",
+          "tags": {
+            "hgv": "designated",
+            "highway": "primary",
+            "lanes": "2",
+            "maxspeed": "35 mph",
+            "name": "West Martin Luther King Junior Parkway",
+            "name:etymology:wikidata": "Q8027",
+            "oneway": "yes",
+            "sidewalk:both": "no",
+            "source:hgv": "https://library.municode.com/ia/des_moines/codes/code_of_ordinances?nodeId=MUCO_CH114TRVE_ARTXVISC_DIV8TRRO_S114-2548.05WEMALUKIJRPA",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "West Martin Luther King Junior Parkway",
+          "latitude": 41.5801419,
+          "longitude": -93.6445294,
+          "osmType": "way",
+          "osmId": 43583423,
+          "sourceUrl": "https://www.openstreetmap.org/way/43583423",
+          "tags": {
+            "hgv": "designated",
+            "highway": "primary",
+            "lanes": "2",
+            "maxspeed": "35 mph",
+            "name": "West Martin Luther King Junior Parkway",
+            "name:etymology:wikidata": "Q8027",
+            "oneway": "yes",
+            "sidewalk:both": "no",
+            "source:hgv": "https://library.municode.com/ia/des_moines/codes/code_of_ordinances?nodeId=MUCO_CH114TRVE_ARTXVISC_DIV8TRRO_S114-2548.05WEMALUKIJRPA",
+            "surface": "concrete",
+            "turn:lanes": "left|left"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "West Martin Luther King Junior Parkway",
+          "latitude": 41.5803764,
+          "longitude": -93.642716,
+          "osmType": "way",
+          "osmId": 43583425,
+          "sourceUrl": "https://www.openstreetmap.org/way/43583425",
+          "tags": {
+            "hgv": "designated",
+            "highway": "primary",
+            "lanes": "2",
+            "maxspeed": "35 mph",
+            "name": "West Martin Luther King Junior Parkway",
+            "name:etymology:wikidata": "Q8027",
+            "oneway": "yes",
+            "source:hgv": "https://library.municode.com/ia/des_moines/codes/code_of_ordinances?nodeId=MUCO_CH114TRVE_ARTXVISC_DIV8TRRO_S114-2548.05WEMALUKIJRPA",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "West Martin Luther King Junior Parkway",
+          "latitude": 41.5800797,
+          "longitude": -93.6435752,
+          "osmType": "way",
+          "osmId": 43583430,
+          "sourceUrl": "https://www.openstreetmap.org/way/43583430",
+          "tags": {
+            "bridge": "yes",
+            "hgv": "designated",
+            "highway": "primary",
+            "lanes": "2",
+            "layer": "1",
+            "maxspeed": "35 mph",
+            "name": "West Martin Luther King Junior Parkway",
+            "name:etymology:wikidata": "Q8027",
+            "oneway": "yes",
+            "sidewalk:both": "no",
+            "source:hgv": "https://library.municode.com/ia/des_moines/codes/code_of_ordinances?nodeId=MUCO_CH114TRVE_ARTXVISC_DIV8TRRO_S114-2548.05WEMALUKIJRPA",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "West Martin Luther King Junior Parkway",
+          "latitude": 41.580191,
+          "longitude": -93.6435693,
+          "osmType": "way",
+          "osmId": 43583431,
+          "sourceUrl": "https://www.openstreetmap.org/way/43583431",
+          "tags": {
+            "bridge": "yes",
+            "hgv": "designated",
+            "highway": "primary",
+            "lanes": "3",
+            "layer": "1",
+            "maxspeed": "35 mph",
+            "name": "West Martin Luther King Junior Parkway",
+            "name:etymology:wikidata": "Q8027",
+            "oneway": "yes",
+            "sidewalk:both": "no",
+            "source:hgv": "https://library.municode.com/ia/des_moines/codes/code_of_ordinances?nodeId=MUCO_CH114TRVE_ARTXVISC_DIV8TRRO_S114-2548.05WEMALUKIJRPA",
+            "surface": "concrete",
+            "turn:lanes": "none|none|right"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Martin Luther King Junior Parkway",
+          "latitude": 41.580353,
+          "longitude": -93.6449545,
+          "osmType": "way",
+          "osmId": 43583466,
+          "sourceUrl": "https://www.openstreetmap.org/way/43583466",
+          "tags": {
+            "hgv": "designated",
+            "highway": "primary",
+            "maxspeed": "35 mph",
+            "name": "Martin Luther King Junior Parkway",
+            "name:etymology:wikidata": "Q8027",
+            "oneway": "yes",
+            "sidewalk:both": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "West Martin Luther King Junior Parkway",
+          "latitude": 41.580516,
+          "longitude": -93.6426699,
+          "osmType": "way",
+          "osmId": 46112594,
+          "sourceUrl": "https://www.openstreetmap.org/way/46112594",
+          "tags": {
+            "hgv": "designated",
+            "highway": "primary",
+            "lanes": "3",
+            "maxspeed": "35 mph",
+            "name": "West Martin Luther King Junior Parkway",
+            "name:etymology:wikidata": "Q8027",
+            "oneway": "yes",
+            "sidewalk:both": "no",
+            "source:hgv": "https://library.municode.com/ia/des_moines/codes/code_of_ordinances?nodeId=MUCO_CH114TRVE_ARTXVISC_DIV8TRRO_S114-2548.05WEMALUKIJRPA",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Raccoon River",
+          "latitude": 41.5643396,
+          "longitude": -93.6881958,
+          "osmType": "way",
+          "osmId": 51325431,
+          "sourceUrl": "https://www.openstreetmap.org/way/51325431",
+          "tags": {
+            "NHD:ComID": "137043280",
+            "NHD:FCode": "55800",
+            "NHD:FDate": "2005/07/15",
+            "NHD:FLOWDIR": "With Digitized",
+            "NHD:FTYPE": "ArtificialPath",
+            "NHD:RESOLUTION": "High",
+            "NHD:ReachCode": "07100006002534",
+            "NHD:WBAreaComI": "137047480",
+            "gnis:feature_id": "460494",
+            "name": "Raccoon River",
+            "source": "NHD",
+            "waterway": "river",
+            "wikidata": "Q3415981",
+            "wikipedia": "en:Raccoon River"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Frink Creek",
+          "latitude": 41.562989,
+          "longitude": -93.6790602,
+          "osmType": "way",
+          "osmId": 51325470,
+          "sourceUrl": "https://www.openstreetmap.org/way/51325470",
+          "tags": {
+            "NHD:ComID": "137040837",
+            "NHD:FCode": "46006",
+            "NHD:FDate": "2005/07/15",
+            "NHD:FLOWDIR": "With Digitized",
+            "NHD:FTYPE": "StreamRiver",
+            "NHD:RESOLUTION": "High",
+            "NHD:ReachCode": "07100006000535",
+            "gnis:feature_id": "456789",
+            "name": "Frink Creek",
+            "source": "NHD",
+            "waterway": "stream"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Raccoon River",
+          "latitude": 41.5663059,
+          "longitude": -93.6765985,
+          "osmType": "way",
+          "osmId": 51325698,
+          "sourceUrl": "https://www.openstreetmap.org/way/51325698",
+          "tags": {
+            "NHD:ComID": "137042835",
+            "NHD:FCode": "55800",
+            "NHD:FDate": "2005/07/15",
+            "NHD:FLOWDIR": "With Digitized",
+            "NHD:FTYPE": "ArtificialPath",
+            "NHD:RESOLUTION": "High",
+            "NHD:ReachCode": "07100006000018",
+            "NHD:WBAreaComI": "137047480",
+            "gnis:feature_id": "460494",
+            "name": "Raccoon River",
+            "source": "NHD",
+            "waterway": "river",
+            "wikidata": "Q3415981",
+            "wikipedia": "en:Raccoon River"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Walnut Creek",
+          "latitude": 41.5677527,
+          "longitude": -93.6756295,
+          "osmType": "way",
+          "osmId": 51326809,
+          "sourceUrl": "https://www.openstreetmap.org/way/51326809",
+          "tags": {
+            "NHD:ComID": "137042833",
+            "NHD:FCode": "55800",
+            "NHD:FDate": "2005/07/15",
+            "NHD:FLOWDIR": "With Digitized",
+            "NHD:FTYPE": "ArtificialPath",
+            "NHD:RESOLUTION": "High",
+            "NHD:ReachCode": "07100006000002",
+            "NHD:WBAreaComI": "137047480",
+            "gnis:feature_id": "462639",
+            "name": "Walnut Creek",
+            "source": "NHD",
+            "waterway": "river",
+            "wikidata": "Q20709807",
+            "wikipedia": "en:Walnut Creek (Raccoon River tributary)"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Frink Creek",
+          "latitude": 41.5647702,
+          "longitude": -93.677831,
+          "osmType": "way",
+          "osmId": 51330447,
+          "sourceUrl": "https://www.openstreetmap.org/way/51330447",
+          "tags": {
+            "NHD:ComID": "137042989",
+            "NHD:FCode": "55800",
+            "NHD:FDate": "2005/07/15",
+            "NHD:FLOWDIR": "With Digitized",
+            "NHD:FTYPE": "ArtificialPath",
+            "NHD:RESOLUTION": "High",
+            "NHD:ReachCode": "07100006000535",
+            "NHD:WBAreaComI": "137047480",
+            "gnis:feature_id": "456789",
+            "name": "Frink Creek",
+            "source": "NHD",
+            "waterway": "river"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Water Works Park",
+          "latitude": 41.5689498,
+          "longitude": -93.6721203,
+          "osmType": "way",
+          "osmId": 67058964,
+          "sourceUrl": "https://www.openstreetmap.org/way/67058964",
+          "tags": {
+            "addr:city": "Des Moines",
+            "addr:housenumber": "2201",
+            "addr:postcode": "50321",
+            "addr:state": "IA",
+            "addr:street": "George Flagg Parkway",
+            "ele": "241",
+            "gnis:feature_id": "465294",
+            "leisure": "park",
+            "name": "Water Works Park",
+            "wikidata": "Q16888141",
+            "wikipedia": "en:Water Works Park (Des Moines)"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Frink Creek",
+          "latitude": 41.5585387,
+          "longitude": -93.6796795,
+          "osmType": "way",
+          "osmId": 71804048,
+          "sourceUrl": "https://www.openstreetmap.org/way/71804048",
+          "tags": {
+            "NHD:ComID": "137040839",
+            "NHD:FCode": "46006",
+            "NHD:FDate": "2005/07/15",
+            "NHD:FLOWDIR": "With Digitized",
+            "NHD:FTYPE": "StreamRiver",
+            "NHD:RESOLUTION": "High",
+            "NHD:ReachCode": "07100006000535",
+            "gnis:feature_id": "456789",
+            "name": "Frink Creek",
+            "source": "NHD",
+            "waterway": "stream"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Meredith Trail Service Spur",
+          "latitude": 41.5803138,
+          "longitude": -93.6433027,
+          "osmType": "way",
+          "osmId": 71820765,
+          "sourceUrl": "https://www.openstreetmap.org/way/71820765",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Meredith Trail Service Spur",
+            "oneway": "no",
+            "segregated": "no",
+            "surface": "paved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Great Western Trail",
+          "latitude": 41.5583581,
+          "longitude": -93.6766595,
+          "osmType": "way",
+          "osmId": 77851823,
+          "sourceUrl": "https://www.openstreetmap.org/way/77851823",
+          "tags": {
+            "bicycle": "designated",
+            "bridge": "yes",
+            "foot": "designated",
+            "highway": "cycleway",
+            "layer": "1",
+            "name": "Great Western Trail",
+            "segregated": "no",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Polk, IA"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Great Western Trail",
+          "latitude": 41.558773,
+          "longitude": -93.6766563,
+          "osmType": "way",
+          "osmId": 77851829,
+          "sourceUrl": "https://www.openstreetmap.org/way/77851829",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Great Western Trail",
+            "segregated": "no",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Polk, IA"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Martin Luther King Junior Parkway",
+          "latitude": 41.5803288,
+          "longitude": -93.6447438,
+          "osmType": "way",
+          "osmId": 92995062,
+          "sourceUrl": "https://www.openstreetmap.org/way/92995062",
+          "tags": {
+            "hgv": "designated",
+            "highway": "primary",
+            "lanes": "2",
+            "maxspeed": "35 mph",
+            "name": "Martin Luther King Junior Parkway",
+            "name:etymology:wikidata": "Q8027",
+            "oneway": "yes",
+            "sidewalk:both": "no",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Fleur Drive",
+          "latitude": 41.5787098,
+          "longitude": -93.6449561,
+          "osmType": "way",
+          "osmId": 92995073,
+          "sourceUrl": "https://www.openstreetmap.org/way/92995073",
+          "tags": {
+            "hgv": "designated",
+            "highway": "primary",
+            "maxspeed": "35 mph",
+            "name": "Fleur Drive",
+            "oneway": "yes",
+            "sidewalk:both": "no",
+            "tiger:cfcc": "A45",
+            "tiger:county": "Polk, IA",
+            "tiger:name_base": "Fleur",
+            "tiger:name_type": "Dr"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Des Moines Water Works Water Treatment Plant",
+          "latitude": 41.5773482,
+          "longitude": -93.6469816,
+          "osmType": "way",
+          "osmId": 155227245,
+          "sourceUrl": "https://www.openstreetmap.org/way/155227245",
+          "tags": {
+            "barrier": "fence",
+            "landuse": "industrial",
+            "man_made": "water_works",
+            "name": "Des Moines Water Works Water Treatment Plant"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Lime Basin",
+          "latitude": 41.5709296,
+          "longitude": -93.6567998,
+          "osmType": "way",
+          "osmId": 155227246,
+          "sourceUrl": "https://www.openstreetmap.org/way/155227246",
+          "tags": {
+            "intermittent": "yes",
+            "name": "Lime Basin",
+            "natural": "water",
+            "water": "basin"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Great Western Trail",
+          "latitude": 41.5576759,
+          "longitude": -93.676562,
+          "osmType": "way",
+          "osmId": 171621956,
+          "sourceUrl": "https://www.openstreetmap.org/way/171621956",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Great Western Trail",
+            "segregated": "no",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Polk, IA"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Fleur Drive",
+          "latitude": 41.5777836,
+          "longitude": -93.6447791,
+          "osmType": "way",
+          "osmId": 238754404,
+          "sourceUrl": "https://www.openstreetmap.org/way/238754404",
+          "tags": {
+            "hgv": "designated",
+            "highway": "primary",
+            "maxspeed": "35 mph",
+            "name": "Fleur Drive",
+            "oneway": "yes",
+            "sidewalk:both": "no",
+            "tiger:cfcc": "A45",
+            "tiger:county": "Polk, IA",
+            "tiger:name_base": "Fleur",
+            "tiger:name_type": "Dr",
+            "tiger:zip_left": "50321"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Bill Riley Trail",
+          "latitude": 41.5689147,
+          "longitude": -93.6731166,
+          "osmType": "way",
+          "osmId": 297818160,
+          "sourceUrl": "https://www.openstreetmap.org/way/297818160",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "horse": "no",
+            "incline": "0%",
+            "name": "Bill Riley Trail",
+            "segregated": "no",
+            "surface": "asphalt",
+            "trail_visibility": "intermediate"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Rhythm Mountain Bike Trail",
+          "latitude": 41.5669433,
+          "longitude": -93.6787257,
+          "osmType": "way",
+          "osmId": 298978727,
+          "sourceUrl": "https://www.openstreetmap.org/way/298978727",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "no",
+            "motor_vehicle": "no",
+            "mtb:scale": "1",
+            "name": "Rhythm Mountain Bike Trail",
+            "source": "gps",
+            "surface": "dirt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Squirrel's Nest Mountain Bike Trail",
+          "latitude": 41.5661833,
+          "longitude": -93.6867863,
+          "osmType": "way",
+          "osmId": 298978728,
+          "sourceUrl": "https://www.openstreetmap.org/way/298978728",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "no",
+            "motor_vehicle": "no",
+            "mtb:scale": "1",
+            "name": "Squirrel's Nest Mountain Bike Trail",
+            "source": "gps",
+            "surface": "dirt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Charles Sing Denman Memorial Fountain",
+          "latitude": 41.5753561,
+          "longitude": -93.6456481,
+          "osmType": "way",
+          "osmId": 352429308,
+          "sourceUrl": "https://www.openstreetmap.org/way/352429308",
+          "tags": {
+            "amenity": "fountain",
+            "name": "Charles Sing Denman Memorial Fountain"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Lime Basin",
+          "latitude": 41.5758772,
+          "longitude": -93.6532129,
+          "osmType": "way",
+          "osmId": 352429309,
+          "sourceUrl": "https://www.openstreetmap.org/way/352429309",
+          "tags": {
+            "intermittent": "yes",
+            "name": "Lime Basin",
+            "natural": "water",
+            "water": "basin"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Arie Den Boer Arboretum",
+          "latitude": 41.5722305,
+          "longitude": -93.645765,
+          "osmType": "way",
+          "osmId": 380521745,
+          "sourceUrl": "https://www.openstreetmap.org/way/380521745",
+          "tags": {
+            "access": "yes",
+            "leisure": "garden",
+            "name": "Arie Den Boer Arboretum",
+            "wikidata": "Q4790352"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Bill Riley Trail",
+          "latitude": 41.5660847,
+          "longitude": -93.6640591,
+          "osmType": "way",
+          "osmId": 405549874,
+          "sourceUrl": "https://www.openstreetmap.org/way/405549874",
+          "tags": {
+            "bicycle": "designated",
+            "bridge": "yes",
+            "foot": "designated",
+            "highway": "cycleway",
+            "horse": "no",
+            "incline": "flat",
+            "name": "Bill Riley Trail",
+            "segregated": "no",
+            "surface": "asphalt",
+            "trail_visibility": "intermediate"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Bill Riley Trail",
+          "latitude": 41.5665506,
+          "longitude": -93.664177,
+          "osmType": "way",
+          "osmId": 405550087,
+          "sourceUrl": "https://www.openstreetmap.org/way/405550087",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "horse": "no",
+            "incline": "flat",
+            "name": "Bill Riley Trail",
+            "segregated": "no",
+            "surface": "asphalt",
+            "trail_visibility": "intermediate"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Bill Riley Trail",
+          "latitude": 41.5645284,
+          "longitude": -93.6609835,
+          "osmType": "way",
+          "osmId": 405550088,
+          "sourceUrl": "https://www.openstreetmap.org/way/405550088",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "horse": "no",
+            "incline": "flat",
+            "name": "Bill Riley Trail",
+            "segregated": "no",
+            "surface": "asphalt",
+            "trail_visibility": "intermediate"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Killinger Family Stage",
+          "latitude": 41.5705038,
+          "longitude": -93.6475398,
+          "osmType": "way",
+          "osmId": 778681613,
+          "sourceUrl": "https://www.openstreetmap.org/way/778681613",
+          "tags": {
+            "amenity": "stage",
+            "name": "Killinger Family Stage"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Reichardt Natural Play Area",
+          "latitude": 41.5705262,
+          "longitude": -93.6480153,
+          "osmType": "way",
+          "osmId": 778681619,
+          "sourceUrl": "https://www.openstreetmap.org/way/778681619",
+          "tags": {
+            "access": "yes",
+            "leisure": "playground",
+            "name": "Reichardt Natural Play Area"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Purgatory Trail",
+          "latitude": 41.5666547,
+          "longitude": -93.6878813,
+          "osmType": "way",
+          "osmId": 818120279,
+          "sourceUrl": "https://www.openstreetmap.org/way/818120279",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "path",
+            "name": "Purgatory Trail",
+            "segregated": "no",
+            "surface": "dirt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Meredith Trail Service Spur",
+          "latitude": 41.5811314,
+          "longitude": -93.6431384,
+          "osmType": "way",
+          "osmId": 849846484,
+          "sourceUrl": "https://www.openstreetmap.org/way/849846484",
+          "tags": {
+            "bicycle": "designated",
+            "crossing": "marked",
+            "crossing:markings": "zebra:paired",
+            "cycleway": "crossing",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Meredith Trail Service Spur",
+            "segregated": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Meredith Trail Service Spur",
+          "latitude": 41.5813933,
+          "longitude": -93.6431283,
+          "osmType": "way",
+          "osmId": 849846485,
+          "sourceUrl": "https://www.openstreetmap.org/way/849846485",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Meredith Trail Service Spur",
+            "oneway": "no",
+            "segregated": "no",
+            "surface": "paved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Lauridsen Amphitheater",
+          "latitude": 41.5713795,
+          "longitude": -93.6474991,
+          "osmType": "way",
+          "osmId": 964783246,
+          "sourceUrl": "https://www.openstreetmap.org/way/964783246",
+          "tags": {
+            "amenity": "theatre",
+            "name": "Lauridsen Amphitheater",
+            "theatre:type": "open_air"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Meredith Trail Service Spur",
+          "latitude": 41.5812334,
+          "longitude": -93.6432387,
+          "osmType": "way",
+          "osmId": 970814832,
+          "sourceUrl": "https://www.openstreetmap.org/way/970814832",
+          "tags": {
+            "bicycle": "designated",
+            "crossing": "marked",
+            "crossing:markings": "zebra:paired",
+            "cycleway": "crossing",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Meredith Trail Service Spur",
+            "segregated": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Meredith Trail Service Spur",
+          "latitude": 41.5811833,
+          "longitude": -93.6431894,
+          "osmType": "way",
+          "osmId": 970814833,
+          "sourceUrl": "https://www.openstreetmap.org/way/970814833",
+          "tags": {
+            "bicycle": "designated",
+            "cycleway": "traffic_island",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Meredith Trail Service Spur",
+            "oneway": "no",
+            "segregated": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "West Martin Luther King Junior Parkway",
+          "latitude": 41.5801369,
+          "longitude": -93.6441427,
+          "osmType": "way",
+          "osmId": 1070768112,
+          "sourceUrl": "https://www.openstreetmap.org/way/1070768112",
+          "tags": {
+            "hgv": "designated",
+            "highway": "primary",
+            "lanes": "3",
+            "maxspeed": "35 mph",
+            "name": "West Martin Luther King Junior Parkway",
+            "name:etymology:wikidata": "Q8027",
+            "oneway": "yes",
+            "sidewalk:both": "no",
+            "source:hgv": "https://library.municode.com/ia/des_moines/codes/code_of_ordinances?nodeId=MUCO_CH114TRVE_ARTXVISC_DIV8TRRO_S114-2548.05WEMALUKIJRPA",
+            "surface": "concrete",
+            "turn:lanes": "left|left|right"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Martin Luther King Junior Parkway",
+          "latitude": 41.5806307,
+          "longitude": -93.644728,
+          "osmType": "way",
+          "osmId": 1070768113,
+          "sourceUrl": "https://www.openstreetmap.org/way/1070768113",
+          "tags": {
+            "hgv": "designated",
+            "highway": "primary",
+            "lanes": "3",
+            "maxspeed": "35 mph",
+            "name": "Martin Luther King Junior Parkway",
+            "name:etymology:wikidata": "Q8027",
+            "oneway": "yes",
+            "sidewalk:both": "no",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Squirrel's Nest Mountain Bike Trail",
+          "latitude": 41.5675522,
+          "longitude": -93.6898983,
+          "osmType": "way",
+          "osmId": 1259506879,
+          "sourceUrl": "https://www.openstreetmap.org/way/1259506879",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "no",
+            "motor_vehicle": "no",
+            "mtb:scale": "1",
+            "name": "Squirrel's Nest Mountain Bike Trail",
+            "source": "gps",
+            "surface": "dirt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Yard Sale",
+          "latitude": 41.5681592,
+          "longitude": -93.688685,
+          "osmType": "way",
+          "osmId": 1260432824,
+          "sourceUrl": "https://www.openstreetmap.org/way/1260432824",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "path",
+            "name": "Yard Sale",
+            "segregated": "no",
+            "surface": "dirt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "West Martin Luther King Junior Parkway",
+          "latitude": 41.5802661,
+          "longitude": -93.6432717,
+          "osmType": "way",
+          "osmId": 1409968168,
+          "sourceUrl": "https://www.openstreetmap.org/way/1409968168",
+          "tags": {
+            "hgv": "designated",
+            "highway": "primary",
+            "lanes": "3",
+            "maxspeed": "35 mph",
+            "name": "West Martin Luther King Junior Parkway",
+            "name:etymology:wikidata": "Q8027",
+            "oneway": "yes",
+            "sidewalk:both": "no",
+            "source:hgv": "https://library.municode.com/ia/des_moines/codes/code_of_ordinances?nodeId=MUCO_CH114TRVE_ARTXVISC_DIV8TRRO_S114-2548.05WEMALUKIJRPA",
+            "surface": "concrete",
+            "turn:lanes": "none|none|right"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "West Martin Luther King Junior Parkway",
+          "latitude": 41.580139,
+          "longitude": -93.6438824,
+          "osmType": "way",
+          "osmId": 1409968169,
+          "sourceUrl": "https://www.openstreetmap.org/way/1409968169",
+          "tags": {
+            "hgv": "designated",
+            "highway": "primary",
+            "lanes": "3",
+            "maxspeed": "35 mph",
+            "name": "West Martin Luther King Junior Parkway",
+            "name:etymology:wikidata": "Q8027",
+            "oneway": "yes",
+            "sidewalk:both": "no",
+            "source:hgv": "https://library.municode.com/ia/des_moines/codes/code_of_ordinances?nodeId=MUCO_CH114TRVE_ARTXVISC_DIV8TRRO_S114-2548.05WEMALUKIJRPA",
+            "surface": "concrete",
+            "turn:lanes": "none|none|right"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "West Martin Luther King Junior Parkway",
+          "latitude": 41.5801441,
+          "longitude": -93.644857,
+          "osmType": "way",
+          "osmId": 1409968170,
+          "sourceUrl": "https://www.openstreetmap.org/way/1409968170",
+          "tags": {
+            "hgv": "designated",
+            "highway": "primary",
+            "lanes": "2",
+            "maxspeed": "35 mph",
+            "name": "West Martin Luther King Junior Parkway",
+            "name:etymology:wikidata": "Q8027",
+            "oneway": "yes",
+            "sidewalk:both": "no",
+            "source:hgv": "https://library.municode.com/ia/des_moines/codes/code_of_ordinances?nodeId=MUCO_CH114TRVE_ARTXVISC_DIV8TRRO_S114-2548.05WEMALUKIJRPA",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Martin Luther King Junior Parkway",
+          "latitude": 41.580081,
+          "longitude": -93.6447531,
+          "osmType": "way",
+          "osmId": 1409968171,
+          "sourceUrl": "https://www.openstreetmap.org/way/1409968171",
+          "tags": {
+            "hgv": "designated",
+            "highway": "primary",
+            "lanes": "2",
+            "maxspeed": "35 mph",
+            "name": "Martin Luther King Junior Parkway",
+            "name:etymology:wikidata": "Q8027",
+            "oneway": "yes",
+            "sidewalk:both": "no",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    },
+    "launch-ia-des-moines-pappajohn-sculpture-park": {
+      "name": "Pappajohn Sculpture Park",
+      "boundarySource": "https://www.openstreetmap.org/way/1106728268",
+      "candidates": [
+        {
+          "name": "T8",
+          "latitude": 41.5847172,
+          "longitude": -93.6364095,
+          "osmType": "node",
+          "osmId": 2207717811,
+          "sourceUrl": "https://www.openstreetmap.org/node/2207717811",
+          "tags": {
+            "artist:wikipedia": "en:Mark di Suvero",
+            "artist_name": "Mark di Suvero",
+            "artwork_type": "sculpture",
+            "material": "steel",
+            "name": "T8",
+            "start_date": "1985",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Untitled (Three Dancing Figures, version C)",
+          "latitude": 41.5847874,
+          "longitude": -93.6355357,
+          "osmType": "node",
+          "osmId": 2207717813,
+          "sourceUrl": "https://www.openstreetmap.org/node/2207717813",
+          "tags": {
+            "artist:wikipedia": "en:Keith Haring",
+            "artist_name": "Keith Haring",
+            "artwork_type": "sculpture",
+            "material": "aluminium",
+            "name": "Untitled (Three Dancing Figures, version C)",
+            "start_date": "2009",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Nomade",
+          "latitude": 41.5849472,
+          "longitude": -93.6351859,
+          "osmType": "node",
+          "osmId": 2207717818,
+          "sourceUrl": "https://www.openstreetmap.org/node/2207717818",
+          "tags": {
+            "artist:wikipedia": "en:Jaume Plensa",
+            "artist_name": "Jaume Plensa",
+            "artwork_type": "sculpture",
+            "material": "steel",
+            "name": "Nomade",
+            "start_date": "2007",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Five Plate Pentagon",
+          "latitude": 41.585072,
+          "longitude": -93.6344243,
+          "osmType": "node",
+          "osmId": 2207717845,
+          "sourceUrl": "https://www.openstreetmap.org/node/2207717845",
+          "tags": {
+            "artist:wikipedia": "en:Richard Serra",
+            "artist_name": "Richard Sera",
+            "artwork_type": "sculpture",
+            "material": "steel",
+            "name": "Five Plate Pentagon",
+            "start_date": "1986",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Back of a Snowman (Black)",
+          "latitude": 41.5853764,
+          "longitude": -93.6353389,
+          "osmType": "node",
+          "osmId": 2207717872,
+          "sourceUrl": "https://www.openstreetmap.org/node/2207717872",
+          "tags": {
+            "artist:wikipedia": "en:Gary Hume",
+            "artist_name": "Gary Hume",
+            "artwork_type": "sculpture",
+            "material": "bronze",
+            "name": "Back of a Snowman (Black)",
+            "start_date": "2002",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Marriage",
+          "latitude": 41.5849456,
+          "longitude": -93.6357645,
+          "osmType": "node",
+          "osmId": 2207720152,
+          "sourceUrl": "https://www.openstreetmap.org/node/2207720152",
+          "tags": {
+            "artist:wikipedia": "en:Tony Smith (sculptor)",
+            "artist_name": "Tony Smith",
+            "artwork_type": "sculpture",
+            "material": "steel",
+            "name": "Marriage",
+            "start_date": "1989",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Willy",
+          "latitude": 41.5850368,
+          "longitude": -93.6363953,
+          "osmType": "node",
+          "osmId": 2207720155,
+          "sourceUrl": "https://www.openstreetmap.org/node/2207720155",
+          "tags": {
+            "artist:wikipedia": "en:Tony Smith (sculptor)",
+            "artist_name": "Tony Smith",
+            "artwork_type": "sculpture",
+            "material": "steel",
+            "name": "Willy",
+            "start_date": "2005",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "White Ghost",
+          "latitude": 41.5850883,
+          "longitude": -93.6366921,
+          "osmType": "node",
+          "osmId": 2207720158,
+          "sourceUrl": "https://www.openstreetmap.org/node/2207720158",
+          "tags": {
+            "artist:wikipedia": "en:Yoshitomo Nara",
+            "artist_name": "Yoshitomo Nara",
+            "artwork_type": "statue",
+            "material": "steel",
+            "name": "White Ghost",
+            "start_date": "2010",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Reclining Figure",
+          "latitude": 41.5852132,
+          "longitude": -93.6357936,
+          "osmType": "node",
+          "osmId": 2207720159,
+          "sourceUrl": "https://www.openstreetmap.org/node/2207720159",
+          "tags": {
+            "artist:wikipedia": "en:Willem de Kooning",
+            "artist_name": "Willem de Kooning",
+            "artwork_type": "sculpture",
+            "material": "bronze",
+            "name": "Reclining Figure",
+            "start_date": "1982",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Order",
+          "latitude": 41.5852547,
+          "longitude": -93.636096,
+          "osmType": "node",
+          "osmId": 2207720160,
+          "sourceUrl": "https://www.openstreetmap.org/node/2207720160",
+          "tags": {
+            "artist:wikipedia": "en:Tony Cragg",
+            "artist_name": "Tony Cragg",
+            "artwork_type": "sculpture",
+            "material": "bronze",
+            "name": "Order",
+            "start_date": "1989",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Gymnast III",
+          "latitude": 41.5852866,
+          "longitude": -93.6357247,
+          "osmType": "node",
+          "osmId": 2207720161,
+          "sourceUrl": "https://www.openstreetmap.org/node/2207720161",
+          "tags": {
+            "artist:wikipedia": "en:William G. Tucker",
+            "artist_name": "William Tucker",
+            "artwork_type": "sculpture",
+            "material": "bronze",
+            "name": "Gymnast III",
+            "start_date": "1985",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Untitled",
+          "latitude": 41.5853769,
+          "longitude": -93.6351045,
+          "osmType": "node",
+          "osmId": 2207720163,
+          "sourceUrl": "https://www.openstreetmap.org/node/2207720163",
+          "tags": {
+            "artist:wikipedia": "en:Joel Shapiro",
+            "artist_name": "Joel Shapiro",
+            "artwork_type": "sculpture",
+            "material": "bronze",
+            "name": "Untitled",
+            "start_date": "1985",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Ancient Forest",
+          "latitude": 41.5853698,
+          "longitude": -93.6348792,
+          "osmType": "node",
+          "osmId": 2207720165,
+          "sourceUrl": "https://www.openstreetmap.org/node/2207720165",
+          "tags": {
+            "artist:wikipedia": "en:Deborah Butterfield",
+            "artist_name": "Deborah Butterfield",
+            "artwork_type": "sculpture",
+            "material": "bronze",
+            "name": "Ancient Forest",
+            "start_date": "2009",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Juno",
+          "latitude": 41.5853738,
+          "longitude": -93.6347016,
+          "osmType": "node",
+          "osmId": 2207720168,
+          "sourceUrl": "https://www.openstreetmap.org/node/2207720168",
+          "tags": {
+            "artist:wikipedia": "en:Deborah Butterfield",
+            "artist_name": "Deborah Butterfield",
+            "artwork_type": "sculpture",
+            "material": "bronze",
+            "name": "Juno",
+            "start_date": "1989",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Spider",
+          "latitude": 41.5854805,
+          "longitude": -93.6347056,
+          "osmType": "node",
+          "osmId": 2207720170,
+          "sourceUrl": "https://www.openstreetmap.org/node/2207720170",
+          "tags": {
+            "artist:wikipedia": "en:Louise Bourgeois",
+            "artist_name": "Louise Bourgeois",
+            "artwork_type": "sculpture",
+            "material": "bronze",
+            "name": "Spider",
+            "start_date": "1997",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Thinker on a Rock",
+          "latitude": 41.5854888,
+          "longitude": -93.6348792,
+          "osmType": "node",
+          "osmId": 2207720173,
+          "sourceUrl": "https://www.openstreetmap.org/node/2207720173",
+          "tags": {
+            "artist:wikipedia": "en:Barry Flanagan",
+            "artist_name": "Barry Flanagan",
+            "artwork_type": "sculpture",
+            "material": "bronze",
+            "name": "Thinker on a Rock",
+            "start_date": "1997",
+            "tourism": "artwork",
+            "wikidata": "Q7784562"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "MOONRISE. east. august",
+          "latitude": 41.5855245,
+          "longitude": -93.6342934,
+          "osmType": "node",
+          "osmId": 2207720175,
+          "sourceUrl": "https://www.openstreetmap.org/node/2207720175",
+          "tags": {
+            "artist:wikipedia": "en:Ugo Rondinone",
+            "artist_name": "Ugo Rondinone",
+            "artwork_type": "sculpture",
+            "material": "aluminium",
+            "name": "MOONRISE. east. august",
+            "start_date": "2006",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "air gets into everything even nothing",
+          "latitude": 41.5855443,
+          "longitude": -93.6341423,
+          "osmType": "node",
+          "osmId": 2207720178,
+          "sourceUrl": "https://www.openstreetmap.org/node/2207720178",
+          "tags": {
+            "artist:wikipedia": "en:Ugo Rondinone",
+            "artist_name": "Ugo Rondinone",
+            "artwork_type": "sculpture",
+            "material": "aluminium",
+            "name": "air gets into everything even nothing",
+            "start_date": "2006",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "MOONRISE. east. january",
+          "latitude": 41.5856018,
+          "longitude": -93.6341768,
+          "osmType": "node",
+          "osmId": 2207720180,
+          "sourceUrl": "https://www.openstreetmap.org/node/2207720180",
+          "tags": {
+            "artist:wikipedia": "en:Ugo Rondinone",
+            "artist_name": "Ugo Rondinone",
+            "artwork_type": "sculpture",
+            "material": "aluminium",
+            "name": "MOONRISE. east. january",
+            "start_date": "2005",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Post Balzac",
+          "latitude": 41.5855878,
+          "longitude": -93.6345975,
+          "osmType": "node",
+          "osmId": 2696674367,
+          "sourceUrl": "https://www.openstreetmap.org/node/2696674367",
+          "tags": {
+            "artist:wikipedia": "en:Judith Shea",
+            "artist_name": "Judith Shea",
+            "artwork_type": "sculpture",
+            "material": "bronze;stone",
+            "name": "Post Balzac",
+            "start_date": "1990",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Modular Piece",
+          "latitude": 41.584834,
+          "longitude": -93.6366038,
+          "osmType": "node",
+          "osmId": 2696674388,
+          "sourceUrl": "https://www.openstreetmap.org/node/2696674388",
+          "tags": {
+            "artist:wikipedia": "en:Sol LeWitt",
+            "artist_name": "Sol LeWitt",
+            "artwork_type": "sculpture",
+            "material": "steel",
+            "name": "Modular Piece",
+            "start_date": "1969",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Decoy",
+          "latitude": 41.5852617,
+          "longitude": -93.6344329,
+          "osmType": "node",
+          "osmId": 2696674404,
+          "sourceUrl": "https://www.openstreetmap.org/node/2696674404",
+          "tags": {
+            "artist:wikipedia": "en:Martin Puryear",
+            "artist_name": "Martin Puryear",
+            "artwork_type": "sculpture",
+            "material": "cast_iron",
+            "name": "Decoy",
+            "start_date": "1990",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Untitled",
+          "latitude": 41.5852626,
+          "longitude": -93.6351599,
+          "osmType": "node",
+          "osmId": 2696674405,
+          "sourceUrl": "https://www.openstreetmap.org/node/2696674405",
+          "tags": {
+            "artist:wikipedia": "en:Ellsworth Kelly",
+            "artist_name": "Ellsworth Kelly",
+            "artwork_type": "sculpture",
+            "material": "steel",
+            "name": "Untitled",
+            "start_date": "1994",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "In the Morning",
+          "latitude": 41.5856011,
+          "longitude": -93.6344485,
+          "osmType": "node",
+          "osmId": 2696674421,
+          "sourceUrl": "https://www.openstreetmap.org/node/2696674421",
+          "tags": {
+            "artist:wikipedia": "en:Anthony Caro",
+            "artist_name": "Anthony Caro",
+            "artwork_type": "statue",
+            "material": "bronze",
+            "name": "In the Morning",
+            "start_date": "1986",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Seating for Eight",
+          "latitude": 41.5852253,
+          "longitude": -93.6354478,
+          "osmType": "node",
+          "osmId": 3011050292,
+          "sourceUrl": "https://www.openstreetmap.org/node/3011050292",
+          "tags": {
+            "artist:wikipedia": "en:Scott Burton",
+            "artist_name": "Scott Burton",
+            "artwork_type": "sculpture",
+            "material": "granite",
+            "name": "Seating for Eight",
+            "start_date": "1990",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Back of a Snowman (White)",
+          "latitude": 41.5853876,
+          "longitude": -93.6352813,
+          "osmType": "node",
+          "osmId": 3011050293,
+          "sourceUrl": "https://www.openstreetmap.org/node/3011050293",
+          "tags": {
+            "artist:wikipedia": "en:Gary Hume",
+            "artist_name": "Gary Hume",
+            "artwork_type": "sculpture",
+            "material": "bronze",
+            "name": "Back of a Snowman (White)",
+            "start_date": "2002",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Panoramic awareness pavilion",
+          "latitude": 41.5850983,
+          "longitude": -93.6347473,
+          "osmType": "node",
+          "osmId": 8851486429,
+          "sourceUrl": "https://www.openstreetmap.org/node/8851486429",
+          "tags": {
+            "artist_name": "Olafur Eliasson",
+            "artwork_type": "sculpture",
+            "material": "glass",
+            "name": "Panoramic awareness pavilion",
+            "start_date": "2013",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Iron Tree Trunk",
+          "latitude": 41.5851653,
+          "longitude": -93.6345794,
+          "osmType": "node",
+          "osmId": 8851486430,
+          "sourceUrl": "https://www.openstreetmap.org/node/8851486430",
+          "tags": {
+            "artist_name": "Ai Weiwei",
+            "artwork_type": "sculpture",
+            "material": "iron",
+            "name": "Iron Tree Trunk",
+            "start_date": "2015",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "LOVE",
+          "latitude": 41.5852435,
+          "longitude": -93.6359596,
+          "osmType": "node",
+          "osmId": 8851486450,
+          "sourceUrl": "https://www.openstreetmap.org/node/8851486450",
+          "tags": {
+            "artist_name": "Robert Indiana",
+            "artwork_type": "sculpture",
+            "material": "steel",
+            "name": "LOVE",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "John and Mary Pappajohn Sculpture Park",
+          "latitude": 41.5851299,
+          "longitude": -93.6353563,
+          "osmType": "way",
+          "osmId": 1106728268,
+          "sourceUrl": "https://www.openstreetmap.org/way/1106728268",
+          "tags": {
+            "leisure": "park",
+            "name": "John and Mary Pappajohn Sculpture Park",
+            "website": "https://desmoinesartcenter.org/visit/pappajohn-sculpture-park.aspx",
+            "wikidata": "Q49537497",
+            "wikipedia": "en:Pappajohn Sculpture Park"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    },
+    "launch-ne-omaha-the-riverfront": {
+      "name": "The RiverFront",
+      "boundarySource": "https://www.openstreetmap.org/relation/18712388",
+      "candidates": [
+        {
+          "name": "Omaha Riverfront Trail",
+          "latitude": 41.2572193,
+          "longitude": -95.9232191,
+          "osmType": "way",
+          "osmId": 1273888495,
+          "sourceUrl": "https://www.openstreetmap.org/way/1273888495",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "path",
+            "name": "Omaha Riverfront Trail",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Skate Ribbon",
+          "latitude": 41.2577217,
+          "longitude": -95.925351,
+          "osmType": "relation",
+          "osmId": 16224649,
+          "sourceUrl": "https://www.openstreetmap.org/relation/16224649",
+          "tags": {
+            "access": "permissive",
+            "leisure": "pitch",
+            "lit": "yes",
+            "name": "Skate Ribbon",
+            "sport": "roller_skating;ice_skating",
+            "surface": "concrete",
+            "type": "multipolygon"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Heartland of America Park",
+          "latitude": 41.2572257,
+          "longitude": -95.9243551,
+          "osmType": "relation",
+          "osmId": 18712388,
+          "sourceUrl": "https://www.openstreetmap.org/relation/18712388",
+          "tags": {
+            "check_date": "2023-06-02",
+            "ele": "299",
+            "leisure": "park",
+            "name": "Heartland of America Park",
+            "opening_date": "2023-08-18",
+            "opening_hours": "Mo-Su 05:00-23:00",
+            "type": "multipolygon",
+            "wikidata": "Q5692892"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    },
+    "launch-ks-wichita-riverside-park": {
+      "name": "Riverside Park",
+      "boundarySource": "https://www.openstreetmap.org/way/41888583",
+      "candidates": [
+        {
+          "name": "Central Riverside Park Spray Ground",
+          "latitude": 37.6965548,
+          "longitude": -97.3471467,
+          "osmType": "node",
+          "osmId": 504840130,
+          "sourceUrl": "https://www.openstreetmap.org/node/504840130",
+          "tags": {
+            "amenity": "fountain",
+            "name": "Central Riverside Park Spray Ground"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "North Spaulding Avenue",
+          "latitude": 37.6967321,
+          "longitude": -97.3515556,
+          "osmType": "way",
+          "osmId": 13267183,
+          "sourceUrl": "https://www.openstreetmap.org/way/13267183",
+          "tags": {
+            "highway": "residential",
+            "name": "North Spaulding Avenue",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Sedgwick, KS",
+            "tiger:name_base": "Spaulding",
+            "tiger:name_direction_prefix": "N",
+            "tiger:name_type": "Ave",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "West River Boulevard",
+          "latitude": 37.6979408,
+          "longitude": -97.3446865,
+          "osmType": "way",
+          "osmId": 13272025,
+          "sourceUrl": "https://www.openstreetmap.org/way/13272025",
+          "tags": {
+            "highway": "tertiary",
+            "name": "West River Boulevard",
+            "oneway": "yes",
+            "sidewalk:both": "no",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Sedgwick, KS",
+            "tiger:name_base": "River",
+            "tiger:name_direction_prefix": "W",
+            "tiger:name_type": "Blvd",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Nims Street",
+          "latitude": 37.6951561,
+          "longitude": -97.3489293,
+          "osmType": "way",
+          "osmId": 41285310,
+          "sourceUrl": "https://www.openstreetmap.org/way/41285310",
+          "tags": {
+            "hgv": "no",
+            "highway": "tertiary",
+            "name": "Nims Street",
+            "oneway": "yes",
+            "sidewalk:left": "no",
+            "sidewalk:right": "separate",
+            "tiger:cfcc": "A49",
+            "tiger:county": "Sedgwick, KS",
+            "tiger:name_base": "Nims",
+            "tiger:name_type": "St",
+            "tiger:reviewed": "aerial"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Nims Street",
+          "latitude": 37.6951549,
+          "longitude": -97.348861,
+          "osmType": "way",
+          "osmId": 41285311,
+          "sourceUrl": "https://www.openstreetmap.org/way/41285311",
+          "tags": {
+            "hgv": "no",
+            "highway": "tertiary",
+            "name": "Nims Street",
+            "oneway": "yes",
+            "sidewalk:left": "no",
+            "sidewalk:right": "separate",
+            "tiger:cfcc": "A49",
+            "tiger:county": "Sedgwick, KS",
+            "tiger:name_base": "Nims",
+            "tiger:name_type": "St",
+            "tiger:reviewed": "aerial"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "West Stackman Drive",
+          "latitude": 37.6954757,
+          "longitude": -97.3494276,
+          "osmType": "way",
+          "osmId": 41285312,
+          "sourceUrl": "https://www.openstreetmap.org/way/41285312",
+          "tags": {
+            "highway": "unclassified",
+            "name": "West Stackman Drive",
+            "oneway": "yes",
+            "sidewalk:left": "no",
+            "sidewalk:right": "separate",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Sedgwick, KS",
+            "tiger:name_base": "Stackman",
+            "tiger:name_direction_prefix": "W",
+            "tiger:name_type": "Dr",
+            "tiger:reviewed": "aerial"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Nims Street",
+          "latitude": 37.6957207,
+          "longitude": -97.3488525,
+          "osmType": "way",
+          "osmId": 41285313,
+          "sourceUrl": "https://www.openstreetmap.org/way/41285313",
+          "tags": {
+            "hgv": "no",
+            "highway": "tertiary",
+            "name": "Nims Street",
+            "oneway": "yes",
+            "sidewalk:left": "no",
+            "sidewalk:right": "separate",
+            "tiger:cfcc": "A49",
+            "tiger:county": "Sedgwick, KS",
+            "tiger:name_base": "Nims",
+            "tiger:name_type": "St",
+            "tiger:reviewed": "aerial"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "West Murdock Street",
+          "latitude": 37.6972171,
+          "longitude": -97.3493347,
+          "osmType": "way",
+          "osmId": 41285314,
+          "sourceUrl": "https://www.openstreetmap.org/way/41285314",
+          "tags": {
+            "highway": "residential",
+            "name": "West Murdock Street",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Sedgwick, KS",
+            "tiger:name_base": "Murdock",
+            "tiger:name_direction_prefix": "W",
+            "tiger:name_type": "St",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "West Stackman Drive",
+          "latitude": 37.6953933,
+          "longitude": -97.3484895,
+          "osmType": "way",
+          "osmId": 41285315,
+          "sourceUrl": "https://www.openstreetmap.org/way/41285315",
+          "tags": {
+            "highway": "unclassified",
+            "name": "West Stackman Drive",
+            "oneway": "yes",
+            "sidewalk:both": "no",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Sedgwick, KS",
+            "tiger:name_base": "Stackman",
+            "tiger:name_direction_prefix": "W",
+            "tiger:name_type": "Dr",
+            "tiger:reviewed": "aerial"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Nims Street",
+          "latitude": 37.6957237,
+          "longitude": -97.3489307,
+          "osmType": "way",
+          "osmId": 41285316,
+          "sourceUrl": "https://www.openstreetmap.org/way/41285316",
+          "tags": {
+            "hgv": "no",
+            "highway": "tertiary",
+            "name": "Nims Street",
+            "oneway": "yes",
+            "sidewalk:left": "no",
+            "sidewalk:right": "separate",
+            "tiger:cfcc": "A49",
+            "tiger:county": "Sedgwick, KS",
+            "tiger:name_base": "Nims",
+            "tiger:name_type": "St",
+            "tiger:reviewed": "aerial"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "West Stackman Drive",
+          "latitude": 37.6953357,
+          "longitude": -97.3484992,
+          "osmType": "way",
+          "osmId": 41285318,
+          "sourceUrl": "https://www.openstreetmap.org/way/41285318",
+          "tags": {
+            "highway": "unclassified",
+            "name": "West Stackman Drive",
+            "oneway": "yes",
+            "sidewalk:both": "no",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Sedgwick, KS",
+            "tiger:name_base": "Stackman",
+            "tiger:name_direction_prefix": "W",
+            "tiger:name_type": "Dr",
+            "tiger:reviewed": "aerial"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "West Stackman Drive",
+          "latitude": 37.6968654,
+          "longitude": -97.3444762,
+          "osmType": "way",
+          "osmId": 41285595,
+          "sourceUrl": "https://www.openstreetmap.org/way/41285595",
+          "tags": {
+            "highway": "unclassified",
+            "name": "West Stackman Drive",
+            "oneway": "yes",
+            "sidewalk:both": "no",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Sedgwick, KS",
+            "tiger:name_base": "Stackman",
+            "tiger:name_direction_prefix": "W",
+            "tiger:name_type": "Dr",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "West Murdock Street",
+          "latitude": 37.6974411,
+          "longitude": -97.3438232,
+          "osmType": "way",
+          "osmId": 41285596,
+          "sourceUrl": "https://www.openstreetmap.org/way/41285596",
+          "tags": {
+            "highway": "tertiary",
+            "name": "West Murdock Street",
+            "oneway": "yes",
+            "sidewalk:left": "no",
+            "sidewalk:right": "separate",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Sedgwick, KS",
+            "tiger:name_base": "Murdock",
+            "tiger:name_direction_prefix": "W",
+            "tiger:name_type": "St",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "West Murdock Street",
+          "latitude": 37.6975475,
+          "longitude": -97.3438163,
+          "osmType": "way",
+          "osmId": 41285597,
+          "sourceUrl": "https://www.openstreetmap.org/way/41285597",
+          "tags": {
+            "highway": "tertiary",
+            "name": "West Murdock Street",
+            "oneway": "yes",
+            "sidewalk:left": "no",
+            "sidewalk:right": "separate",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Sedgwick, KS",
+            "tiger:name_base": "Murdock",
+            "tiger:name_direction_prefix": "W",
+            "tiger:name_type": "St",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "West River Boulevard",
+          "latitude": 37.6979835,
+          "longitude": -97.3445765,
+          "osmType": "way",
+          "osmId": 41285599,
+          "sourceUrl": "https://www.openstreetmap.org/way/41285599",
+          "tags": {
+            "highway": "tertiary",
+            "name": "West River Boulevard",
+            "oneway": "yes",
+            "sidewalk:both": "no",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Sedgwick, KS",
+            "tiger:name_base": "River",
+            "tiger:name_direction_prefix": "W",
+            "tiger:name_type": "Blvd",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "West Murdock Street",
+          "latitude": 37.6975092,
+          "longitude": -97.3443158,
+          "osmType": "way",
+          "osmId": 41285600,
+          "sourceUrl": "https://www.openstreetmap.org/way/41285600",
+          "tags": {
+            "highway": "tertiary",
+            "junction": "roundabout",
+            "name": "West Murdock Street",
+            "oneway": "yes",
+            "sidewalk:left": "no",
+            "sidewalk:right": "separate",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Sedgwick, KS",
+            "tiger:name_base": "Murdock",
+            "tiger:name_direction_prefix": "W",
+            "tiger:name_type": "St",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Central Riverside Park",
+          "latitude": 37.6974807,
+          "longitude": -97.3485338,
+          "osmType": "way",
+          "osmId": 41888583,
+          "sourceUrl": "https://www.openstreetmap.org/way/41888583",
+          "tags": {
+            "addr:city": "Wichita",
+            "addr:housenumber": "720",
+            "addr:postcode": "67203",
+            "addr:state": "KS",
+            "addr:street": "Nims Street",
+            "ele": "397",
+            "gnis:feature_id": "474121",
+            "leisure": "park",
+            "name": "Central Riverside Park",
+            "operator": "City of Wichita",
+            "operator:type": "government",
+            "operator:wikidata": "Q49266",
+            "website": "https://www.wichita.gov/Facilities/Facility/Details/Central-Riverside-Park-43",
+            "wikidata": "Q34919618"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Little Arkansas River",
+          "latitude": 37.6962093,
+          "longitude": -97.3488062,
+          "osmType": "way",
+          "osmId": 51529045,
+          "sourceUrl": "https://www.openstreetmap.org/way/51529045",
+          "tags": {
+            "name": "Little Arkansas River",
+            "source": "Yahoo",
+            "waterway": "river"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "West Stackman Drive",
+          "latitude": 37.6957485,
+          "longitude": -97.346382,
+          "osmType": "way",
+          "osmId": 133195474,
+          "sourceUrl": "https://www.openstreetmap.org/way/133195474",
+          "tags": {
+            "highway": "unclassified",
+            "name": "West Stackman Drive",
+            "sidewalk:both": "no",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Sedgwick, KS",
+            "tiger:name_base": "Stackman",
+            "tiger:name_direction_prefix": "W",
+            "tiger:name_type": "Dr",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "West Stackman Drive",
+          "latitude": 37.6954404,
+          "longitude": -97.3494343,
+          "osmType": "way",
+          "osmId": 133195475,
+          "sourceUrl": "https://www.openstreetmap.org/way/133195475",
+          "tags": {
+            "highway": "unclassified",
+            "name": "West Stackman Drive",
+            "oneway": "yes",
+            "sidewalk:left": "no",
+            "sidewalk:right": "separate",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Sedgwick, KS",
+            "tiger:name_base": "Stackman",
+            "tiger:name_direction_prefix": "W",
+            "tiger:name_type": "Dr",
+            "tiger:reviewed": "aerial"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "West Stackman Drive",
+          "latitude": 37.6968469,
+          "longitude": -97.3443778,
+          "osmType": "way",
+          "osmId": 273289204,
+          "sourceUrl": "https://www.openstreetmap.org/way/273289204",
+          "tags": {
+            "highway": "unclassified",
+            "name": "West Stackman Drive",
+            "oneway": "yes",
+            "sidewalk:both": "no",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Sedgwick, KS",
+            "tiger:name_base": "Stackman",
+            "tiger:name_direction_prefix": "W",
+            "tiger:name_type": "Dr",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "West River Boulevard",
+          "latitude": 37.6998686,
+          "longitude": -97.3469289,
+          "osmType": "way",
+          "osmId": 1492816538,
+          "sourceUrl": "https://www.openstreetmap.org/way/1492816538",
+          "tags": {
+            "highway": "tertiary",
+            "lanes": "2",
+            "name": "West River Boulevard",
+            "sidewalk:left": "no",
+            "sidewalk:right": "separate",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Sedgwick, KS",
+            "tiger:name_base": "River",
+            "tiger:name_direction_prefix": "W",
+            "tiger:name_type": "Blvd"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "West River Boulevard",
+          "latitude": 37.6988974,
+          "longitude": -97.3455272,
+          "osmType": "way",
+          "osmId": 1492816539,
+          "sourceUrl": "https://www.openstreetmap.org/way/1492816539",
+          "tags": {
+            "highway": "tertiary",
+            "lanes": "2",
+            "name": "West River Boulevard",
+            "sidewalk:both": "no",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Sedgwick, KS",
+            "tiger:name_base": "River",
+            "tiger:name_direction_prefix": "W",
+            "tiger:name_type": "Blvd"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    }
+  }
+}

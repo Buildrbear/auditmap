@@ -1,0 +1,30 @@
+{
+  "id": "raleigh-passport-pilot",
+  "market": "Raleigh, NC",
+  "status": "awaiting-production",
+  "channel": "x",
+  "campaign": "raleigh_explorer_passport",
+  "destination": "https://www.auditmap.org/discover/raleigh/passport/",
+  "updatedAt": "2026-08-07",
+  "signature": "Find your way. Share what you find.",
+  "variants": [
+    {
+      "id": "progress-challenge",
+      "motivation": "curiosity",
+      "utmContent": "progress_challenge",
+      "copy": "Five Raleigh public places. How many have you explored?\n\nStart your free Raleigh Explorer Passport, mark the places you know, and find one you may have missed.\n\nFind your way. Share what you find."
+    },
+    {
+      "id": "exploring-person",
+      "motivation": "companionship",
+      "utmContent": "exploring_person",
+      "copy": "Who is your exploring person?\n\nOpen the Raleigh Explorer Passport, choose your next public place, and send your progress to the person you want beside you.\n\nFind your way. Share what you find."
+    },
+    {
+      "id": "leave-a-breadcrumb",
+      "motivation": "stewardship",
+      "utmContent": "leave_a_breadcrumb",
+      "copy": "Every public place has a detail the next visitor needs.\n\nExplore one Raleigh park, then leave one useful breadcrumb: the right entrance, a better parking tip, a current photo, or something a family should know.\n\nFind your way. Share what you find."
+    }
+  ]
+}

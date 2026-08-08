@@ -1,0 +1,778 @@
+place_type,id,name,legal_name,primary_county,all_counties,district,population_2024,rollout_wave,target_depth,status,existing_listing_count,latitude,longitude
+municipality,nc-raleigh,Raleigh,Raleigh city,Wake,Durham; Wake,6,498975,0,full-buildout-complete,full-buildout-complete,73,35.8323323576,-78.642941089
+municipality,nc-charlotte,Charlotte,Charlotte city,Mecklenburg,Mecklenburg,8,944742,1,full-buildout,seeded,6,35.2082992899,-80.8303105896
+municipality,nc-greensboro,Greensboro,Greensboro city,Guilford,Guilford,9,306749,1,full-buildout,seeded,9,36.0956163086,-79.8270882692
+municipality,nc-durham,Durham,Durham city,Durham,Durham; Orange; Wake,6,300467,1,full-buildout,seeded,7,35.9792246256,-78.9022502586
+municipality,nc-winston-salem,Winston-Salem,Winston-Salem city,Forsyth,Forsyth,9,259045,1,full-buildout,seeded,7,36.1029010504,-80.2610364877
+municipality,nc-fayetteville,Fayetteville,Fayetteville city,Cumberland,Cumberland,7,211756,1,full-buildout,seeded,5,35.0849049832,-78.9771910256
+municipality,nc-cary,Cary,Cary town,Wake,Chatham; Durham; Wake,6,182969,1,full-buildout,seeded,6,35.781789147,-78.8193495533
+municipality,nc-wilmington,Wilmington,Wilmington city,New hanover,New Hanover; New hanover,,126256,1,full-buildout,seeded,6,34.2099731978,-77.8866653293
+municipality,nc-concord,Concord,Concord city,Cabarrus,Cabarrus,8,115053,1,full-buildout,seeded,6,35.3932713953,-80.6367847026
+municipality,nc-high-point,High Point,High Point city,Guilford,Davidson; Forsyth; Guilford; Randolph,9,109941,1,full-buildout,seeded,5,35.9909275366,-79.9936840211
+municipality,nc-asheville,Asheville,Asheville city,Buncombe,Buncombe; Henderson,12,98270,2,major-and-intermediate-public-sites,seeded,1,35.5706235311,-82.5537151869
+municipality,nc-greenville,Greenville,Greenville city,Pitt,Pitt,4,96899,2,major-and-intermediate-public-sites,not-started,0,35.5942921259,-77.3760215623
+municipality,nc-gastonia,Gastonia,Gastonia city,Gaston,Gaston,11,85636,2,major-and-intermediate-public-sites,not-started,0,35.249337518,-81.1853589085
+municipality,nc-apex,Apex,Apex town,Wake,Chatham; Wake,6,75019,2,major-and-intermediate-public-sites,not-started,0,35.7237931805,-78.8743479865
+municipality,nc-jacksonville,Jacksonville,Jacksonville city,Onslow,Onslow,2,73494,2,major-and-intermediate-public-sites,not-started,0,34.7288481358,-77.3940729415
+municipality,nc-huntersville,Huntersville,Huntersville town,Mecklenburg,Mecklenburg,8,66955,2,major-and-intermediate-public-sites,not-started,0,35.4060457391,-80.8716071182
+municipality,nc-chapel-hill,Chapel Hill,Chapel Hill town,Orange,Durham; Orange,6,61827,2,major-and-intermediate-public-sites,not-started,0,35.9270610583,-79.0390575506
+municipality,nc-burlington,Burlington,Burlington city,Alamance,Alamance; Guilford,6,59504,2,major-and-intermediate-public-sites,not-started,0,36.0761114366,-79.4683963355
+municipality,nc-mooresville,Mooresville,Mooresville town,Iredell,Iredell,10,59494,2,major-and-intermediate-public-sites,not-started,0,35.5847912375,-80.8266847991
+municipality,nc-wake-forest,Wake Forest,Wake Forest town,Wake,Franklin; Wake,6,56540,2,major-and-intermediate-public-sites,not-started,0,35.9631601193,-78.51400121
+municipality,nc-wilson,Wilson,Wilson city,Wilson,Wilson,4,49666,2,major-and-intermediate-public-sites,not-started,0,35.7311136904,-77.9283790136
+municipality,nc-holly-springs,Holly Springs,Holly Springs town,Wake,Wake,6,49039,2,major-and-intermediate-public-sites,not-started,0,35.6525849523,-78.8400153596
+municipality,nc-kannapolis,Kannapolis,Kannapolis city,Cabarrus,Cabarrus; Rowan,8,47775,2,major-and-intermediate-public-sites,not-started,0,35.4763752882,-80.6407372095
+municipality,nc-hickory,Hickory,Hickory city,Catawba,Burke; Caldwell; Catawba,11,45900,2,major-and-intermediate-public-sites,not-started,0,35.7410521939,-81.3223546992
+municipality,nc-indian-trail,Indian Trail,Indian Trail town,Union,Union,8,45030,2,major-and-intermediate-public-sites,not-started,0,35.0698435558,-80.6452825468
+municipality,nc-fuquay-varina,Fuquay-Varina,Fuquay-Varina town,Wake,Harnett; Wake,6,44237,2,major-and-intermediate-public-sites,not-started,0,35.5954219622,-78.7777054421
+municipality,nc-rocky-mount,Rocky Mount,Rocky Mount city,Nash,Edgecombe; Nash,5,40655,2,major-and-intermediate-public-sites,not-started,0,35.9684709854,-77.8039534844
+municipality,nc-monroe,Monroe,Monroe city,Union,Union,8,39256,2,major-and-intermediate-public-sites,not-started,0,35.006238243,-80.559481372
+municipality,nc-garner,Garner,Garner town,Wake,Wake,6,38509,2,major-and-intermediate-public-sites,not-started,0,35.6936035245,-78.6181360214
+municipality,nc-salisbury,Salisbury,Salisbury city,Rowan,Rowan,9,38202,2,major-and-intermediate-public-sites,not-started,0,35.6657284468,-80.4903911413
+municipality,nc-new-bern,New Bern,New Bern city,Craven,Craven,2,35266,2,major-and-intermediate-public-sites,not-started,0,35.0958847117,-77.072118689
+municipality,nc-goldsboro,Goldsboro,Goldsboro city,Wayne,Wayne,4,35130,2,major-and-intermediate-public-sites,not-started,0,35.3777856204,-77.9718047408
+municipality,nc-morrisville,Morrisville,Morrisville town,Wake,Durham; Wake,6,33784,2,major-and-intermediate-public-sites,not-started,0,35.8367057698,-78.8347795016
+municipality,nc-leland,Leland,Leland town,Brunswick,Brunswick,3,33065,2,major-and-intermediate-public-sites,not-started,0,34.2042420821,-78.0279829345
+municipality,nc-sanford,Sanford,Sanford city,Lee,Lee,7,32813,2,major-and-intermediate-public-sites,not-started,0,35.4874721118,-79.1770603919
+municipality,nc-cornelius,Cornelius,Cornelius town,Mecklenburg,Mecklenburg,8,32632,2,major-and-intermediate-public-sites,not-started,0,35.4723998808,-80.8813488483
+municipality,nc-statesville,Statesville,Statesville city,Iredell,Iredell,10,31537,2,major-and-intermediate-public-sites,not-started,0,35.7841939624,-80.8711969184
+municipality,nc-clayton,Clayton,Clayton town,Johnston,Johnston; Wake,4,31312,2,major-and-intermediate-public-sites,not-started,0,35.6590646033,-78.4498289701
+municipality,nc-matthews,Matthews,Matthews town,Mecklenburg,Mecklenburg,8,30761,2,major-and-intermediate-public-sites,not-started,0,35.1195155643,-80.7100998027
+municipality,nc-mint-hill,Mint Hill,Mint Hill town,Mecklenburg,Mecklenburg; Union,8,28761,2,major-and-intermediate-public-sites,not-started,0,35.1782986515,-80.6527233335
+municipality,nc-asheboro,Asheboro,Asheboro city,Randolph,Randolph,9,28051,2,major-and-intermediate-public-sites,not-started,0,35.7157870325,-79.8127060642
+municipality,nc-kernersville,Kernersville,Kernersville town,Forsyth,Forsyth; Guilford,9,27759,2,major-and-intermediate-public-sites,not-started,0,36.1064102368,-80.0843068839
+municipality,nc-thomasville,Thomasville,Thomasville city,Davidson,Davidson; Randolph,9,27474,2,major-and-intermediate-public-sites,not-started,0,35.8812747571,-80.0806989675
+municipality,nc-waxhaw,Waxhaw,Waxhaw town,Union,Union,8,24135,3,major-local-destinations-first,not-started,0,34.9363948608,-80.7438741653
+municipality,nc-knightdale,Knightdale,Knightdale town,Wake,Wake,6,22680,3,major-local-destinations-first,not-started,0,35.7911245877,-78.4965467006
+municipality,nc-shelby,Shelby,Shelby city,Cleveland,Cleveland,11,22168,3,major-local-destinations-first,not-started,0,35.290361232,-81.5450609329
+municipality,nc-clemmons,Clemmons,Clemmons village,Forsyth,Forsyth,9,21857,3,major-local-destinations-first,seeded,1,36.0318826878,-80.3860997836
+municipality,nc-carrboro,Carrboro,Carrboro town,Orange,Orange,6,21494,3,major-local-destinations-first,not-started,0,35.9259734975,-79.0877758642
+municipality,nc-harrisburg,Harrisburg,Harrisburg town,Cabarrus,Cabarrus,8,21358,3,major-local-destinations-first,not-started,0,35.3124637385,-80.6485243849
+municipality,nc-graham,Graham,Graham city,Alamance,Alamance,6,20933,3,major-local-destinations-first,not-started,0,36.0589049509,-79.3895299715
+municipality,nc-boone,Boone,Boone town,Watauga,Watauga,10,20589,3,major-local-destinations-first,not-started,0,36.2111292565,-81.6669396752
+municipality,nc-lexington,Lexington,Lexington city,Davidson,Davidson,9,20256,3,major-local-destinations-first,not-started,0,35.8017585016,-80.268197558
+municipality,nc-mount-holly,Mount Holly,Mount Holly city,Gaston,Gaston,11,19812,3,major-local-destinations-first,not-started,0,35.313653664,-81.0072569375
+municipality,nc-elizabeth-city,Elizabeth City,Elizabeth City city,Pasquotank,Camden; Pasquotank,1,19766,3,major-local-destinations-first,not-started,0,36.2942731857,-76.2360904053
+municipality,nc-kinston,Kinston,Kinston city,Lenoir,Lenoir,4,19490,3,major-local-destinations-first,not-started,0,35.274723012,-77.5940574078
+municipality,nc-lumberton,Lumberton,Lumberton city,Robeson,Robeson,7,19451,3,major-local-destinations-first,not-started,0,34.6312045663,-79.0186132941
+municipality,nc-pinehurst,Pinehurst,Pinehurst village,Moore,Moore,7,19364,3,major-local-destinations-first,not-started,0,35.1922410497,-79.4683699252
+municipality,nc-lenoir,Lenoir,Lenoir city,Caldwell,Caldwell,10,18814,3,major-local-destinations-first,not-started,0,35.9094426683,-81.52485761
+municipality,nc-hope-mills,Hope Mills,Hope Mills town,Cumberland,Cumberland,7,18317,3,major-local-destinations-first,not-started,0,34.9708406855,-78.959495528
+municipality,nc-morganton,Morganton,Morganton city,Burke,Burke,11,18204,3,major-local-destinations-first,not-started,0,35.7408360925,-81.7003492631
+municipality,nc-havelock,Havelock,Havelock city,Craven,Craven,2,18193,3,major-local-destinations-first,not-started,0,34.9083634855,-76.898537828
+municipality,nc-belmont,Belmont,Belmont city,Gaston,Gaston,11,17824,3,major-local-destinations-first,not-started,0,35.2211039927,-81.0400811206
+municipality,nc-stallings,Stallings,Stallings town,Union,Mecklenburg; Union,8,17610,3,major-local-destinations-first,not-started,0,35.1088196288,-80.659806517
+municipality,nc-albemarle,Albemarle,Albemarle city,Stanly,Stanly,8,17414,3,major-local-destinations-first,not-started,0,35.3592850756,-80.1914617714
+municipality,nc-southern-pines,Southern Pines,Southern Pines town,Moore,Moore,7,17401,3,major-local-destinations-first,not-started,0,35.1927093395,-79.4039225699
+municipality,nc-hendersonville,Hendersonville,Hendersonville city,Henderson,Henderson,12,17149,3,major-local-destinations-first,not-started,0,35.324626972,-82.4572947492
+municipality,nc-wendell,Wendell,Wendell town,Wake,Wake,6,16996,3,major-local-destinations-first,not-started,0,35.7818163328,-78.3950307638
+municipality,nc-mebane,Mebane,Mebane city,Alamance,Alamance; Orange,6,16257,3,major-local-destinations-first,not-started,0,36.0852333679,-79.2736053639
+municipality,nc-davidson,Davidson,Davidson town,Mecklenburg,Iredell; Mecklenburg,8,15833,3,major-local-destinations-first,not-started,0,35.4840168787,-80.8247650044
+municipality,nc-eden,Eden,Eden city,Rockingham,Rockingham,9,15443,3,major-local-destinations-first,not-started,0,36.5027374689,-79.7412073923
+municipality,nc-reidsville,Reidsville,Reidsville city,Rockingham,Rockingham,9,14886,3,major-local-destinations-first,not-started,0,36.3376726316,-79.672429455
+municipality,nc-weddington,Weddington,Weddington town,Union,Mecklenburg; Union,8,14743,3,major-local-destinations-first,not-started,0,35.0227769244,-80.7383325421
+municipality,nc-henderson,Henderson,Henderson city,Vance,Vance,6,14703,3,major-local-destinations-first,not-started,0,36.3257515907,-78.4152222745
+municipality,nc-laurinburg,Laurinburg,Laurinburg city,Scotland,Scotland,7,14650,3,major-local-destinations-first,not-started,0,34.7601655572,-79.4772947969
+municipality,nc-roanoke-rapids,Roanoke Rapids,Roanoke Rapids city,Halifax,Halifax,5,14592,3,major-local-destinations-first,not-started,0,36.4452567613,-77.649078452
+municipality,nc-lewisville,Lewisville,Lewisville town,Forsyth,Forsyth,9,13851,3,major-local-destinations-first,not-started,0,36.1030625212,-80.4166350175
+municipality,nc-newton,Newton,Newton city,Catawba,Catawba,11,13465,3,major-local-destinations-first,not-started,0,35.6630195271,-81.2333925714
+municipality,nc-smithfield,Smithfield,Smithfield town,Johnston,Johnston,4,12373,3,major-local-destinations-first,not-started,0,35.5132176934,-78.3495680788
+municipality,nc-rolesville,Rolesville,Rolesville town,Wake,Wake,6,11933,3,major-local-destinations-first,not-started,0,35.9224362807,-78.4653777632
+municipality,nc-lincolnton,Lincolnton,Lincolnton city,Lincoln,Lincoln,11,11927,3,major-local-destinations-first,not-started,0,35.4748774373,-81.2385307737
+municipality,nc-archdale,Archdale,Archdale city,Randolph,Guilford; Randolph,9,11767,3,major-local-destinations-first,not-started,0,35.9032140569,-79.9590500203
+municipality,nc-spring-lake,Spring Lake,Spring Lake town,Cumberland,Cumberland; Harnett,7,11659,3,major-local-destinations-first,not-started,0,35.1843074075,-78.9960069823
+municipality,nc-elon,Elon,Elon town,Alamance,Alamance,6,11533,3,major-local-destinations-first,not-started,0,36.1015154593,-79.5086087813
+municipality,nc-winterville,Winterville,Winterville town,Pitt,Pitt,4,11393,3,major-local-destinations-first,not-started,0,35.5291547657,-77.3999946549
+municipality,nc-pineville,Pineville,Pineville town,Mecklenburg,Mecklenburg,8,11379,3,major-local-destinations-first,not-started,0,35.0863808652,-80.8914887665
+municipality,nc-summerfield,Summerfield,Summerfield town,Guilford,Guilford,9,11204,3,major-local-destinations-first,not-started,0,36.1973651836,-79.899720458
+municipality,nc-tarboro,Tarboro,Tarboro town,Edgecombe,Edgecombe,5,10695,3,major-local-destinations-first,not-started,0,35.904595153,-77.5562992585
+municipality,nc-mount-airy,Mount Airy,Mount Airy city,Surry,Surry,10,10638,3,major-local-destinations-first,not-started,0,36.5083860327,-80.6154004374
+municipality,nc-waynesville,Waynesville,Waynesville town,Haywood,Haywood,12,10633,3,major-local-destinations-first,not-started,0,35.4854781952,-82.9995028146
+municipality,nc-hillsborough,Hillsborough,Hillsborough town,Orange,Orange,6,10334,3,major-local-destinations-first,not-started,0,36.0679874345,-79.0991736394
+municipality,nc-kings-mountain,Kings Mountain,Kings Mountain city,Cleveland,Cleveland; Gaston,11,10249,3,major-local-destinations-first,not-started,0,35.2347662164,-81.3502589508
+municipality,nc-morehead-city,Morehead City,Morehead City town,Carteret,Carteret,2,10207,3,major-local-destinations-first,not-started,0,34.7301674477,-76.7389140316
+municipality,nc-oak-island,Oak Island,Oak Island town,Brunswick,Brunswick,3,9976,4,anchor-public-sites-first,not-started,0,33.9424911409,-78.1368656513
+municipality,nc-aberdeen,Aberdeen,Aberdeen town,Moore,Moore,7,9836,4,anchor-public-sites-first,not-started,0,35.1350178312,-79.432528229
+municipality,nc-washington,Washington,Washington city,Beaufort,Beaufort,2,9785,4,anchor-public-sites-first,not-started,0,35.5578813885,-77.0543312893
+municipality,nc-wesley-chapel,Wesley Chapel,Wesley Chapel village,Union,Union,8,9459,4,anchor-public-sites-first,not-started,0,34.9985120776,-80.6902683026
+municipality,nc-zebulon,Zebulon,Zebulon town,Wake,Johnston; Wake,6,9206,4,anchor-public-sites-first,not-started,0,35.8328707316,-78.3158557927
+municipality,nc-rockingham,Rockingham,Rockingham city,Richmond,Richmond,8,9074,4,anchor-public-sites-first,not-started,0,34.9385635379,-79.7608167967
+municipality,nc-conover,Conover,Conover city,Catawba,Catawba,11,8907,4,anchor-public-sites-first,not-started,0,35.7155113059,-81.2173944799
+municipality,nc-oxford,Oxford,Oxford city,Granville,Granville,6,8895,4,anchor-public-sites-first,not-started,0,36.31545431,-78.5848498143
+municipality,nc-black-mountain,Black Mountain,Black Mountain town,Buncombe,Buncombe,12,8678,4,anchor-public-sites-first,not-started,0,35.6142860463,-82.3273948926
+municipality,nc-dunn,Dunn,Dunn city,Harnett,Harnett,7,8642,4,anchor-public-sites-first,not-started,0,35.3114376722,-78.6128300756
+municipality,nc-clinton,Clinton,Clinton city,Sampson,Sampson,3,8488,4,anchor-public-sites-first,not-started,0,35.000437616,-78.3312636601
+municipality,nc-oak-ridge,Oak Ridge,Oak Ridge town,Guilford,Forsyth; Guilford,9,8423,4,anchor-public-sites-first,not-started,0,36.1740069219,-79.9916138931
+municipality,nc-fletcher,Fletcher,Fletcher town,Henderson,Henderson,12,8374,4,anchor-public-sites-first,not-started,0,35.4315761872,-82.5038101841
+municipality,nc-st-james,St. James,St. James town,Brunswick,Brunswick,3,8249,4,anchor-public-sites-first,not-started,0,33.9467649852,-78.1131642046
+municipality,nc-woodfin,Woodfin,Woodfin town,Buncombe,Buncombe,12,8157,4,anchor-public-sites-first,not-started,0,35.6456102391,-82.5914045752
+municipality,nc-roxboro,Roxboro,Roxboro city,Person,Person,6,8129,4,anchor-public-sites-first,not-started,0,36.3878679311,-78.9812000401
+municipality,nc-brevard,Brevard,Brevard city,Transylvania,Transylvania,12,8059,4,anchor-public-sites-first,not-started,0,35.2438671553,-82.7264582398
+municipality,nc-butner,Butner,Butner town,Granville,Granville,6,8012,4,anchor-public-sites-first,not-started,0,36.1285437603,-78.7500785266
+municipality,nc-kill-devil-hills,Kill Devil Hills,Kill Devil Hills town,Dare,Dare,1,7936,4,anchor-public-sites-first,not-started,0,36.0168075005,-75.669885397
+municipality,nc-siler-city,Siler City,Siler City town,Chatham,Chatham,6,7838,4,anchor-public-sites-first,not-started,0,35.7252122686,-79.4560406598
+municipality,nc-marion,Marion,Marion city,Mcdowell,McDowell; Mcdowell,,7662,4,anchor-public-sites-first,not-started,0,35.6776993315,-82.0016830177
+municipality,nc-mills-river,Mills River,Mills River town,Henderson,Buncombe; Henderson,12,7546,4,anchor-public-sites-first,not-started,0,35.3852999221,-82.5854148939
+municipality,nc-forest-city,Forest City,Forest City town,Rutherford,Rutherford,11,7373,4,anchor-public-sites-first,not-started,0,35.3338789811,-81.870148011
+municipality,nc-trinity,Trinity,Trinity city,Randolph,Randolph,9,7155,4,anchor-public-sites-first,not-started,0,35.8755955035,-80.0093181014
+municipality,nc-king,King,King city,Stokes,Forsyth; Stokes,9,7134,4,anchor-public-sites-first,not-started,0,36.2769297093,-80.3565629857
+municipality,nc-unionville,Unionville,Unionville town,Union,Union,8,7025,4,anchor-public-sites-first,not-started,0,35.0716583005,-80.5172930378
+municipality,nc-marvin,Marvin,Marvin village,Union,Union,8,6994,4,anchor-public-sites-first,not-started,0,34.98907329,-80.8033559612
+municipality,nc-boiling-spring-lakes,Boiling Spring Lakes,Boiling Spring Lakes city,Brunswick,Brunswick,3,6984,4,anchor-public-sites-first,not-started,0,34.0326877816,-78.0684831496
+municipality,nc-carolina-beach,Carolina Beach,Carolina Beach town,New hanover,New Hanover; New hanover,,6921,4,anchor-public-sites-first,not-started,0,34.0398486549,-77.896140367
+municipality,nc-selma,Selma,Selma town,Johnston,Johnston,4,6783,4,anchor-public-sites-first,not-started,0,35.5406932826,-78.2931589153
+municipality,nc-troutman,Troutman,Troutman town,Iredell,Iredell,10,6654,4,anchor-public-sites-first,not-started,0,35.6873585772,-80.8827531836
+municipality,nc-angier,Angier,Angier town,Harnett,Harnett; Wake,7,6586,4,anchor-public-sites-first,not-started,0,35.5117618316,-78.7403746381
+municipality,nc-mocksville,Mocksville,Mocksville town,Davie,Davie,9,6506,4,anchor-public-sites-first,not-started,0,35.9007727694,-80.563207242
+municipality,nc-cherryville,Cherryville,Cherryville city,Gaston,Gaston,11,6382,4,anchor-public-sites-first,not-started,0,35.3844061786,-81.3781764597
+municipality,nc-dallas,Dallas,Dallas town,Gaston,Gaston,11,6361,4,anchor-public-sites-first,not-started,0,35.3169436017,-81.1827607831
+municipality,nc-stokesdale,Stokesdale,Stokesdale town,Guilford,Guilford; Rockingham,9,6332,4,anchor-public-sites-first,not-started,0,36.2317774591,-79.9833705721
+municipality,nc-pittsboro,Pittsboro,Pittsboro town,Chatham,Chatham,6,5996,4,anchor-public-sites-first,not-started,0,35.725640449,-79.1712547823
+municipality,nc-walkertown,Walkertown,Walkertown town,Forsyth,Forsyth,9,5988,4,anchor-public-sites-first,not-started,0,36.1577734311,-80.1641197371
+municipality,nc-nashville,Nashville,Nashville town,Nash,Nash,5,5972,4,anchor-public-sites-first,not-started,0,35.9692631404,-77.9554433884
+municipality,nc-hamlet,Hamlet,Hamlet city,Richmond,Richmond,8,5910,4,anchor-public-sites-first,not-started,0,34.8892278883,-79.7099847151
+municipality,nc-cramerton,Cramerton,Cramerton town,Gaston,Gaston,11,5819,4,anchor-public-sites-first,not-started,0,35.2344104445,-81.0734711623
+municipality,nc-carolina-shores,Carolina Shores,Carolina Shores town,Brunswick,Brunswick,3,5805,4,anchor-public-sites-first,not-started,0,33.9076196161,-78.5740874205
+municipality,nc-bessemer-city,Bessemer City,Bessemer City city,Gaston,Gaston,11,5751,4,anchor-public-sites-first,not-started,0,35.2841168894,-81.2828238689
+municipality,nc-whispering-pines,Whispering Pines,Whispering Pines village,Moore,Moore,7,5615,4,anchor-public-sites-first,not-started,0,35.2536901638,-79.3754382059
+municipality,nc-ayden,Ayden,Ayden town,Pitt,Pitt,4,5573,4,anchor-public-sites-first,not-started,0,35.4693512259,-77.4166421858
+municipality,nc-archer-lodge,Archer Lodge,Archer Lodge town,Johnston,Johnston,4,5371,4,anchor-public-sites-first,not-started,0,35.690660505,-78.3749352396
+municipality,nc-midland,Midland,Midland town,Cabarrus,Cabarrus; Mecklenburg; Stanly,8,5330,4,anchor-public-sites-first,not-started,0,35.245066164,-80.5212164551
+municipality,nc-lillington,Lillington,Lillington town,Harnett,Harnett,7,5255,4,anchor-public-sites-first,not-started,0,35.4000961126,-78.8138239535
+municipality,nc-shallotte,Shallotte,Shallotte town,Brunswick,Brunswick,3,5174,4,anchor-public-sites-first,not-started,0,33.9767340137,-78.3803209161
+municipality,nc-granite-falls,Granite Falls,Granite Falls town,Caldwell,Caldwell,10,5146,4,anchor-public-sites-first,not-started,0,35.7969966327,-81.4238363117
+municipality,nc-weaverville,Weaverville,Weaverville town,Buncombe,Buncombe,12,5116,4,anchor-public-sites-first,not-started,0,35.6963344576,-82.5586058215
+municipality,nc-sawmills,Sawmills,Sawmills town,Caldwell,Caldwell,10,5081,4,anchor-public-sites-first,not-started,0,35.8163955568,-81.4780200182
+municipality,nc-pleasant-garden,Pleasant Garden,Pleasant Garden town,Guilford,Guilford,9,5076,4,anchor-public-sites-first,not-started,0,35.9594974402,-79.7599717274
+municipality,nc-williamston,Williamston,Williamston town,Martin,Martin,1,5067,4,anchor-public-sites-first,not-started,0,35.8465403393,-77.0660764242
+municipality,nc-holly-ridge,Holly Ridge,Holly Ridge town,Onslow,Onslow,2,5045,4,anchor-public-sites-first,not-started,0,34.4953176297,-77.5269928332
+municipality,nc-creedmoor,Creedmoor,Creedmoor city,Granville,Granville,6,5034,4,anchor-public-sites-first,not-started,0,36.122292691,-78.6757416904
+municipality,nc-wadesboro,Wadesboro,Wadesboro town,Anson,Anson,8,5018,4,anchor-public-sites-first,not-started,0,34.9646034404,-80.0746400316
+municipality,nc-valdese,Valdese,Valdese town,Burke,Burke,11,5003,4,anchor-public-sites-first,not-started,0,35.7565340185,-81.5633061609
+municipality,nc-china-grove,China Grove,China Grove town,Rowan,Rowan,9,4989,4,anchor-public-sites-first,not-started,0,35.5719665001,-80.5790573906
+municipality,nc-locust,Locust,Locust city,Stanly,Cabarrus; Stanly,8,4984,4,anchor-public-sites-first,not-started,0,35.2688138951,-80.4368618603
+municipality,nc-beaufort,Beaufort,Beaufort town,Carteret,Carteret,2,4980,4,anchor-public-sites-first,not-started,0,34.7226144994,-76.6502118708
+municipality,nc-mount-olive,Mount Olive,Mount Olive town,Wayne,Duplin; Wayne,4,4976,4,anchor-public-sites-first,not-started,0,35.1996475231,-78.0662578873
+municipality,nc-midway,Midway,Midway town,Davidson,Davidson,9,4973,4,anchor-public-sites-first,not-started,0,35.9751356917,-80.2204481567
+municipality,nc-gibsonville,Gibsonville,Gibsonville town,Guilford,Alamance; Guilford,9,4967,4,anchor-public-sites-first,not-started,0,36.0993853944,-79.541497715
+municipality,nc-sunset-beach,Sunset Beach,Sunset Beach town,Brunswick,Brunswick,3,4768,4,anchor-public-sites-first,not-started,0,33.8920453136,-78.5105804451
+municipality,nc-ranlo,Ranlo,Ranlo town,Gaston,Gaston,11,4767,4,anchor-public-sites-first,not-started,0,35.2888979538,-81.1292908625
+municipality,nc-boiling-springs,Boiling Springs,Boiling Springs town,Cleveland,Cleveland,11,4752,4,anchor-public-sites-first,not-started,0,35.2520536015,-81.6635942379
+municipality,nc-southport,Southport,Southport city,Brunswick,Brunswick,3,4739,4,anchor-public-sites-first,not-started,0,33.9412669585,-78.0204299547
+municipality,nc-raeford,Raeford,Raeford city,Hoke,Hoke,7,4738,4,anchor-public-sites-first,not-started,0,34.9809000977,-79.2290848221
+municipality,nc-randleman,Randleman,Randleman city,Randolph,Randolph,9,4711,4,anchor-public-sites-first,not-started,0,35.8164525217,-79.8066277308
+municipality,nc-whiteville,Whiteville,Whiteville city,Columbus,Columbus,3,4689,4,anchor-public-sites-first,not-started,0,34.3305781088,-78.7013604293
+municipality,nc-wingate,Wingate,Wingate town,Union,Union,8,4669,4,anchor-public-sites-first,not-started,0,34.9858425291,-80.4480311043
+municipality,nc-erwin,Erwin,Erwin town,Harnett,Harnett,7,4667,4,anchor-public-sites-first,not-started,0,35.3225276732,-78.6734086037
+municipality,nc-ahoskie,Ahoskie,Ahoskie town,Hertford,Hertford,1,4639,4,anchor-public-sites-first,not-started,0,36.2841269489,-76.9901050325
+municipality,nc-farmville,Farmville,Farmville town,Pitt,Pitt,4,4611,4,anchor-public-sites-first,not-started,0,35.5950262988,-77.5906180474
+municipality,nc-surf-city,Surf City,Surf City town,Pender,Onslow; Pender,3,4608,4,anchor-public-sites-first,not-started,0,34.4346657951,-77.5644480923
+municipality,nc-stanley,Stanley,Stanley town,Gaston,Gaston,11,4559,4,anchor-public-sites-first,not-started,0,35.355151232,-81.0936987089
+municipality,nc-newport,Newport,Newport town,Carteret,Carteret,2,4534,4,anchor-public-sites-first,not-started,0,34.7719933015,-76.8771562405
+municipality,nc-benson,Benson,Benson town,Johnston,Harnett; Johnston,4,4525,4,anchor-public-sites-first,not-started,0,35.3860877318,-78.5435439738
+municipality,nc-canton,Canton,Canton town,Haywood,Haywood,12,4520,4,anchor-public-sites-first,not-started,0,35.5516188944,-82.8405658051
+municipality,nc-edenton,Edenton,Edenton town,Chowan,Chowan,1,4479,4,anchor-public-sites-first,not-started,0,36.0580204232,-76.6009207614
+municipality,nc-long-view,Long View,Long View town,Catawba,Burke; Catawba,11,4459,4,anchor-public-sites-first,not-started,0,35.7216125453,-81.3857433627
+municipality,nc-north-wilkesboro,North Wilkesboro,North Wilkesboro town,Wilkes,Wilkes,10,4451,4,anchor-public-sites-first,not-started,0,36.1728314066,-81.1389260628
+municipality,nc-franklin,Franklin,Franklin town,Macon,Macon,12,4325,4,anchor-public-sites-first,not-started,0,35.1797796109,-83.3810139923
+municipality,nc-spindale,Spindale,Spindale town,Rutherford,Rutherford,11,4293,4,anchor-public-sites-first,not-started,0,35.3596919168,-81.9231898503
+municipality,nc-swansboro,Swansboro,Swansboro town,Onslow,Onslow,2,4179,4,anchor-public-sites-first,not-started,0,34.6951905446,-77.1358325574
+municipality,nc-trent-woods,Trent Woods,Trent Woods town,Craven,Craven,2,4155,4,anchor-public-sites-first,not-started,0,35.0810293708,-77.0943857052
+municipality,nc-elkin,Elkin,Elkin town,Surry,Surry; Wilkes,10,4151,4,anchor-public-sites-first,not-started,0,36.262050732,-80.844282302
+municipality,nc-emerald-isle,Emerald Isle,Emerald Isle town,Carteret,Carteret,2,4082,4,anchor-public-sites-first,not-started,0,34.6646684296,-77.0310779028
+municipality,nc-maiden,Maiden,Maiden town,Catawba,Catawba; Lincoln,11,3965,4,anchor-public-sites-first,not-started,0,35.5846024468,-81.2240340102
+municipality,nc-landis,Landis,Landis town,Rowan,Rowan,9,3947,4,anchor-public-sites-first,not-started,0,35.5479914698,-80.6114450421
+municipality,nc-lowell,Lowell,Lowell city,Gaston,Gaston,11,3947,4,anchor-public-sites-first,not-started,0,35.2688604402,-81.1012746095
+municipality,nc-hudson,Hudson,Hudson town,Caldwell,Caldwell,10,3886,4,anchor-public-sites-first,not-started,0,35.8477426386,-81.486712016
+municipality,nc-kitty-hawk,Kitty Hawk,Kitty Hawk town,Dare,Dare,1,3828,4,anchor-public-sites-first,not-started,0,36.0718339132,-75.7181748671
+municipality,nc-jamestown,Jamestown,Jamestown town,Guilford,Guilford,9,3804,4,anchor-public-sites-first,not-started,0,35.9984385012,-79.9346554027
+municipality,nc-tabor-city,Tabor City,Tabor City town,Columbus,Columbus,3,3772,4,anchor-public-sites-first,not-started,0,34.1537911437,-78.8737942061
+municipality,nc-burgaw,Burgaw,Burgaw town,071,071; Pender,,3752,4,anchor-public-sites-first,not-started,0,34.5508423326,-77.9223651296
+municipality,nc-eastover,Eastover,Eastover town,Cumberland,Cumberland,7,3735,4,anchor-public-sites-first,not-started,0,35.095890883,-78.7862162677
+municipality,nc-gamewell,Gamewell,Gamewell town,Caldwell,Caldwell,10,3722,4,anchor-public-sites-first,not-started,0,35.8639760174,-81.5978081084
+municipality,nc-rutherfordton,Rutherfordton,Rutherfordton town,Rutherford,Rutherford,11,3711,4,anchor-public-sites-first,not-started,0,35.3641802232,-81.9613060063
+municipality,nc-fairview,Fairview,Fairview town,Union,Union,8,3708,4,anchor-public-sites-first,not-started,0,35.1545393102,-80.5345310291
+municipality,nc-flat-rock,Flat Rock,Flat Rock village,Henderson,Henderson,12,3663,4,anchor-public-sites-first,not-started,0,35.2677760131,-82.4526370483
+municipality,nc-wilkesboro,Wilkesboro,Wilkesboro town,Wilkes,Wilkes,10,3625,4,anchor-public-sites-first,not-started,0,36.1424275691,-81.1742076383
+municipality,nc-red-oak,Red Oak,Red Oak town,Nash,Nash,5,3504,4,anchor-public-sites-first,not-started,0,36.0415324897,-77.9064320737
+municipality,nc-rural-hall,Rural Hall,Rural Hall town,Forsyth,Forsyth,9,3500,4,anchor-public-sites-first,not-started,0,36.2251038108,-80.2973433169
+municipality,nc-wallace,Wallace,Wallace town,Duplin,Duplin; Pender,3,3495,4,anchor-public-sites-first,not-started,0,34.7382131243,-77.9906770353
+municipality,nc-green-level,Green Level,Green Level town,Alamance,Alamance,6,3490,4,anchor-public-sites-first,not-started,0,36.1233279386,-79.3461021216
+municipality,nc-lake-park,Lake Park,Lake Park village,Union,Union,8,3485,4,anchor-public-sites-first,not-started,0,35.0848898155,-80.6348578232
+municipality,nc-windsor,Windsor,Windsor town,Bertie,Bertie,1,3479,4,anchor-public-sites-first,not-started,0,35.9930236912,-76.9399269906
+municipality,nc-spencer,Spencer,Spencer town,Rowan,Rowan,9,3420,4,anchor-public-sites-first,not-started,0,35.6986505796,-80.4251725413
+municipality,nc-mineral-springs,Mineral Springs,Mineral Springs town,Union,Union,8,3418,4,anchor-public-sites-first,not-started,0,34.9411374469,-80.6846257565
+municipality,nc-bermuda-run,Bermuda Run,Bermuda Run town,Davie,Davie,9,3416,4,anchor-public-sites-first,not-started,0,36.0041930079,-80.4306109753
+municipality,nc-louisburg,Louisburg,Louisburg town,Franklin,Franklin,5,3329,4,anchor-public-sites-first,not-started,0,36.0986172185,-78.3008695909
+municipality,nc-nags-head,Nags Head,Nags Head town,Dare,Dare,1,3294,4,anchor-public-sites-first,seeded,1,35.946508778,-75.6264275639
+municipality,nc-elizabethtown,Elizabethtown,Elizabethtown town,Bladen,Bladen,3,3282,4,anchor-public-sites-first,not-started,0,34.6218796283,-78.6073821164
+municipality,nc-wallburg,Wallburg,Wallburg town,Davidson,Davidson,9,3218,4,anchor-public-sites-first,not-started,0,36.0087701258,-80.1453054439
+municipality,nc-granite-quarry,Granite Quarry,Granite Quarry town,Rowan,Rowan,9,3205,4,anchor-public-sites-first,not-started,0,35.6129909587,-80.4487829157
+municipality,nc-southern-shores,Southern Shores,Southern Shores town,Dare,Dare,1,3205,4,anchor-public-sites-first,not-started,0,36.1202854563,-75.7325387199
+municipality,nc-pembroke,Pembroke,Pembroke town,Robeson,Robeson,7,3186,4,anchor-public-sites-first,not-started,0,34.6766247645,-79.1933984672
+municipality,nc-troy,Troy,Troy town,Montgomery,Montgomery,8,3145,4,anchor-public-sites-first,not-started,0,35.3648435308,-79.8919071894
+municipality,nc-plymouth,Plymouth,Plymouth town,Washington,Washington,1,3136,4,anchor-public-sites-first,not-started,0,35.8586778753,-76.7486536339
+municipality,nc-red-springs,Red Springs,Red Springs town,Robeson,Hoke; Robeson,7,3130,4,anchor-public-sites-first,not-started,0,34.8045986413,-79.1822857411
+municipality,nc-belville,Belville,Belville town,Brunswick,Brunswick,3,3105,4,anchor-public-sites-first,not-started,0,34.218950582,-77.9975367939
+municipality,nc-youngsville,Youngsville,Youngsville town,Franklin,Franklin,5,3088,4,anchor-public-sites-first,not-started,0,36.0242113871,-78.4815587852
+municipality,nc-yadkinville,Yadkinville,Yadkinville town,Yadkin,Yadkin,10,3063,4,anchor-public-sites-first,not-started,0,36.1314972931,-80.6593481644
+municipality,nc-franklinton,Franklinton,Franklinton town,Franklin,Franklin,5,3041,4,anchor-public-sites-first,not-started,0,36.101154856,-78.4550615175
+municipality,nc-carthage,Carthage,Carthage town,Moore,Moore,7,3017,4,anchor-public-sites-first,not-started,0,35.3225284504,-79.4114102405
+municipality,nc-river-bend,River Bend,River Bend town,Craven,Craven,2,2921,4,anchor-public-sites-first,not-started,0,35.0716881831,-77.1503851444
+municipality,nc-wilson-s-mills,Wilson's Mills,Wilson's Mills town,Johnston,Johnston,4,2891,4,anchor-public-sites-first,not-started,0,35.5863450631,-78.3642776652
+municipality,nc-swepsonville,Swepsonville,Swepsonville town,Alamance,Alamance,6,2825,4,anchor-public-sites-first,not-started,0,36.0284977246,-79.354919475
+municipality,nc-warsaw,Warsaw,Warsaw town,Duplin,Duplin,3,2769,4,anchor-public-sites-first,not-started,0,34.9993714291,-78.0929536268
+municipality,nc-cajah-s-mountain,Cajah's Mountain,Cajah's Mountain town,Caldwell,Caldwell,10,2731,4,anchor-public-sites-first,not-started,0,35.8507124821,-81.5361865736
+municipality,nc-wentworth,Wentworth,Wentworth town,Rockingham,Rockingham,9,2699,4,anchor-public-sites-first,not-started,0,36.3914346692,-79.7510116073
+municipality,nc-la-grange,La Grange,La Grange town,Lenoir,Lenoir,4,2695,4,anchor-public-sites-first,not-started,0,35.3064161541,-77.7888919688
+municipality,nc-liberty,Liberty,Liberty town,Randolph,Randolph,9,2679,4,anchor-public-sites-first,not-started,0,35.8555216793,-79.5681938021
+municipality,nc-tobaccoville,Tobaccoville,Tobaccoville village,Forsyth,Forsyth; Stokes,9,2669,4,anchor-public-sites-first,not-started,0,36.2255723114,-80.3590585968
+municipality,nc-calabash,Calabash,Calabash town,Brunswick,Brunswick,3,2639,4,anchor-public-sites-first,not-started,0,33.8957271273,-78.5513706214
+municipality,nc-marshville,Marshville,Marshville town,Union,Union,8,2629,4,anchor-public-sites-first,not-started,0,34.9864866403,-80.368453196
+municipality,nc-four-oaks,Four Oaks,Four Oaks town,Johnston,Johnston,4,2576,4,anchor-public-sites-first,not-started,0,35.4450896795,-78.415936393
+municipality,nc-haw-river,Haw River,Haw River town,Alamance,Alamance,6,2572,4,anchor-public-sites-first,not-started,0,36.0926791846,-79.361569111
+municipality,nc-sylva,Sylva,Sylva town,Jackson,Jackson,12,2543,4,anchor-public-sites-first,not-started,0,35.3754344607,-83.218480531
+municipality,nc-wrightsville-beach,Wrightsville Beach,Wrightsville Beach town,New hanover,New Hanover; New hanover,,2512,4,anchor-public-sites-first,not-started,0,34.2114636815,-77.7964257466
+municipality,nc-mayodan,Mayodan,Mayodan town,Rockingham,Rockingham,9,2493,5,discovery-first,not-started,0,36.4209717226,-79.9674583604
+municipality,nc-richlands,Richlands,Richlands town,Onslow,Onslow,2,2478,5,discovery-first,not-started,0,34.9002889215,-77.5427512793
+municipality,nc-norwood,Norwood,Norwood town,Stanly,Stanly,8,2477,5,discovery-first,not-started,0,35.2336678931,-80.1145152641
+municipality,nc-rockwell,Rockwell,Rockwell town,Rowan,Rowan,9,2460,5,discovery-first,not-started,0,35.5537734381,-80.4070350875
+municipality,nc-grifton,Grifton,Grifton town,Pitt,Lenoir; Pitt,4,2442,5,discovery-first,not-started,0,35.3795673053,-77.4280981658
+municipality,nc-oakboro,Oakboro,Oakboro town,Stanly,Stanly,8,2420,5,discovery-first,not-started,0,35.2283272062,-80.3339707925
+municipality,nc-cape-carteret,Cape Carteret,Cape Carteret town,Carteret,Carteret,2,2402,5,discovery-first,not-started,0,34.6973591508,-77.057225135
+municipality,nc-laurel-park,Laurel Park,Laurel Park town,Henderson,Henderson,12,2368,5,discovery-first,not-started,0,35.3117993259,-82.5039196294
+municipality,nc-taylorsville,Taylorsville,Taylorsville town,Alexander,Alexander,10,2359,5,discovery-first,not-started,0,35.917445299,-81.175457953
+municipality,nc-jonesville,Jonesville,Jonesville town,Yadkin,Yadkin,10,2354,5,discovery-first,not-started,0,36.2335435209,-80.8351578013
+municipality,nc-pine-level,Pine Level,Pine Level town,Johnston,Johnston,4,2354,5,discovery-first,not-started,0,35.5030143331,-78.2492752972
+municipality,nc-mars-hill,Mars Hill,Mars Hill town,Madison,Madison,12,2349,5,discovery-first,not-started,0,35.8281949949,-82.5488230443
+municipality,nc-kure-beach,Kure Beach,Kure Beach town,New hanover,New Hanover; New hanover,,2261,5,discovery-first,not-started,0,33.9988651332,-77.9077593652
+municipality,nc-coats,Coats,Coats town,Harnett,Harnett,7,2241,5,discovery-first,not-started,0,35.4069296866,-78.6684297696
+municipality,nc-murfreesboro,Murfreesboro,Murfreesboro town,Hertford,Hertford,1,2224,5,discovery-first,not-started,0,36.4419681411,-77.0967881041
+municipality,nc-fairmont,Fairmont,Fairmont town,Robeson,Robeson,7,2200,5,discovery-first,not-started,0,34.4947604282,-79.113624902
+municipality,nc-spruce-pine,Spruce Pine,Spruce Pine town,Mitchell,Mitchell,12,2192,5,discovery-first,not-started,0,35.910439199,-82.0729976167
+municipality,nc-madison,Madison,Madison town,Rockingham,Rockingham,9,2172,5,discovery-first,not-started,0,36.3868280644,-79.9749339512
+municipality,nc-st-pauls,St. Pauls,St. Pauls town,Robeson,Robeson,7,2057,5,discovery-first,not-started,0,34.8087138889,-78.9749144354
+municipality,nc-hertford,Hertford,Hertford town,Perquimans,Perquimans,1,2012,5,discovery-first,not-started,0,36.181335468,-76.4674996334
+municipality,nc-cedar-point,Cedar Point,Cedar Point town,Carteret,Carteret,2,1971,5,discovery-first,not-started,0,34.686303872,-77.0832775494
+municipality,nc-maggie-valley,Maggie Valley,Maggie Valley town,Haywood,Haywood,12,1943,5,discovery-first,not-started,0,35.5241328055,-83.0629431232
+municipality,nc-sparta,Sparta,Sparta town,Alleghany,Alleghany,10,1929,5,discovery-first,not-started,0,36.5033836332,-81.1217461149
+municipality,nc-badin,Badin,Badin town,Stanly,Stanly,8,1913,5,discovery-first,not-started,0,35.4071534165,-80.1183409519
+municipality,nc-maxton,Maxton,Maxton town,Robeson,Robeson; Scotland,7,1905,5,discovery-first,not-started,0,34.736500731,-79.3527302765
+municipality,nc-polkton,Polkton,Polkton town,Anson,Anson,8,1897,5,discovery-first,not-started,0,35.0030502955,-80.1963084023
+municipality,nc-biscoe,Biscoe,Biscoe town,Montgomery,Montgomery,8,1881,5,discovery-first,not-started,0,35.3585191775,-79.7815168408
+municipality,nc-yanceyville,Yanceyville,Yanceyville town,Caswell,Caswell,6,1843,5,discovery-first,not-started,0,36.4097000273,-79.3359959577
+municipality,nc-murphy,Murphy,Murphy town,Cherokee,Cherokee,12,1806,5,discovery-first,not-started,0,35.0932193825,-84.0279811651
+municipality,nc-drexel,Drexel,Drexel town,Burke,Burke,11,1785,5,discovery-first,not-started,0,35.7568434124,-81.6087569631
+municipality,nc-ramseur,Ramseur,Ramseur town,Randolph,Randolph,9,1784,5,discovery-first,not-started,0,35.737515975,-79.6545273505
+municipality,nc-claremont,Claremont,Claremont city,Catawba,Catawba,11,1774,5,discovery-first,not-started,0,35.7103360549,-81.1529595428
+municipality,nc-enfield,Enfield,Enfield town,Halifax,Halifax,5,1773,5,discovery-first,not-started,0,36.1799239385,-77.6690225501
+municipality,nc-hemby-bridge,Hemby Bridge,Hemby Bridge town,Union,Union,8,1766,5,discovery-first,not-started,0,35.10550834,-80.6258688717
+municipality,nc-mount-pleasant,Mount Pleasant,Mount Pleasant town,Cabarrus,Cabarrus,8,1756,5,discovery-first,not-started,0,35.3774223247,-80.4505519511
+municipality,nc-andrews,Andrews,Andrews town,Cherokee,Cherokee,12,1720,5,discovery-first,not-started,0,35.1993655944,-83.8258143071
+municipality,nc-hildebran,Hildebran,Hildebran town,Burke,Burke,11,1700,5,discovery-first,not-started,0,35.7182005966,-81.4210308059
+municipality,nc-navassa,Navassa,Navassa town,Brunswick,Brunswick,3,1693,5,discovery-first,not-started,0,34.2830998051,-78.0289959048
+municipality,nc-stanfield,Stanfield,Stanfield town,Stanly,Stanly,8,1688,5,discovery-first,not-started,0,35.2337272342,-80.4302252097
+municipality,nc-east-spencer,East Spencer,East Spencer town,Rowan,Rowan,9,1672,5,discovery-first,not-started,0,35.6815478882,-80.4227200381
+municipality,nc-manteo,Manteo,Manteo town,Dare,Dare,1,1650,5,discovery-first,not-started,0,35.9015167156,-75.6606150421
+municipality,nc-jefferson,Jefferson,Jefferson town,Ashe,Ashe,10,1638,5,discovery-first,not-started,0,36.4208385612,-81.468697405
+municipality,nc-scotland-neck,Scotland Neck,Scotland Neck town,Halifax,Halifax,5,1638,5,discovery-first,not-started,0,36.1307997224,-77.4213835332
+municipality,nc-burnsville,Burnsville,Burnsville town,Yancey,Yancey,12,1636,5,discovery-first,not-started,0,35.9163117821,-82.297696786
+municipality,nc-bladenboro,Bladenboro,Bladenboro town,Bladen,Bladen,3,1635,5,discovery-first,not-started,0,34.5408701459,-78.7946602318
+municipality,nc-walnut-cove,Walnut Cove,Walnut Cove town,Stokes,Stokes,9,1609,5,discovery-first,not-started,0,36.2939407553,-80.1407500738
+municipality,nc-denton,Denton,Denton town,Davidson,Davidson,9,1607,5,discovery-first,not-started,0,35.6374412112,-80.1106003364
+municipality,nc-pinebluff,Pinebluff,Pinebluff town,Moore,Moore,7,1586,5,discovery-first,not-started,0,35.1088274395,-79.4713913399
+municipality,nc-glen-alpine,Glen Alpine,Glen Alpine town,Burke,Burke,11,1574,5,discovery-first,not-started,0,35.7307401883,-81.782576424
+municipality,nc-snow-hill,Snow Hill,Snow Hill town,Greene,Greene,4,1574,5,discovery-first,not-started,0,35.450528579,-77.6767813249
+municipality,nc-connelly-springs,Connelly Springs,Connelly Springs town,Burke,Burke,11,1570,5,discovery-first,not-started,0,35.7549929081,-81.4970445069
+municipality,nc-tryon,Tryon,Tryon town,Polk,Polk,12,1565,5,discovery-first,not-started,0,35.2088077784,-82.2379005622
+municipality,nc-chadbourn,Chadbourn,Chadbourn town,Columbus,Columbus,3,1535,5,discovery-first,not-started,0,34.3251656622,-78.8249899564
+municipality,nc-dobson,Dobson,Dobson town,Surry,Surry,10,1530,5,discovery-first,not-started,0,36.3927461371,-80.7244556847
+municipality,nc-foxfire,Foxfire,Foxfire village,Moore,Moore,7,1521,5,discovery-first,not-started,0,35.1790008147,-79.5639507446
+municipality,nc-bryson-city,Bryson City,Bryson City town,Swain,Swain,12,1496,5,discovery-first,not-started,0,35.4261925881,-83.4473720643
+municipality,nc-princeton,Princeton,Princeton town,Johnston,Johnston,4,1480,5,discovery-first,not-started,0,35.4670463752,-78.1612762492
+municipality,nc-pine-knoll-shores,Pine Knoll Shores,Pine Knoll Shores town,Carteret,Carteret,2,1474,5,discovery-first,not-started,0,34.696953595,-76.8232772964
+municipality,nc-lake-lure,Lake Lure,Lake Lure town,Rutherford,Rutherford,11,1460,5,discovery-first,not-started,0,35.4403971676,-82.2064289828
+municipality,nc-kenly,Kenly,Kenly town,Johnston,Johnston; Wilson,4,1459,5,discovery-first,not-started,0,35.5885374247,-78.1369175782
+municipality,nc-pilot-mountain,Pilot Mountain,Pilot Mountain town,Surry,Surry,10,1435,5,discovery-first,not-started,0,36.3854189001,-80.4735735497
+municipality,nc-biltmore-forest,Biltmore Forest,Biltmore Forest town,Buncombe,Buncombe,12,1430,5,discovery-first,not-started,0,35.5348068093,-82.5403422093
+municipality,nc-spring-hope,Spring Hope,Spring Hope town,Nash,Nash,5,1420,5,discovery-first,not-started,0,35.9441259086,-78.1089655588
+municipality,nc-bethel,Bethel,Bethel town,Pitt,Pitt,4,1418,5,discovery-first,not-started,0,35.807222926,-77.3762503757
+municipality,nc-atlantic-beach,Atlantic Beach,Atlantic Beach town,Carteret,Carteret,2,1416,5,discovery-first,not-started,0,34.7015559256,-76.741497797
+municipality,nc-clyde,Clyde,Clyde town,Haywood,Haywood,12,1415,5,discovery-first,not-started,0,35.5330766975,-82.9108064765
+municipality,nc-weldon,Weldon,Weldon town,Halifax,Halifax,5,1393,5,discovery-first,not-started,0,36.4239976464,-77.6129857089
+municipality,nc-broadway,Broadway,Broadway town,Lee,Harnett; Lee,7,1392,5,discovery-first,not-started,0,35.4578925994,-79.0546913202
+municipality,nc-rose-hill,Rose Hill,Rose Hill town,Duplin,Duplin,3,1388,5,discovery-first,not-started,0,34.8260373688,-78.0259430418
+municipality,nc-belhaven,Belhaven,Belhaven town,Beaufort,Beaufort,2,1378,5,discovery-first,not-started,0,35.5424317523,-76.622865746
+municipality,nc-stoneville,Stoneville,Stoneville town,Rockingham,Rockingham,9,1373,5,discovery-first,not-started,0,36.465314531,-79.9063511213
+municipality,nc-west-jefferson,West Jefferson,West Jefferson town,Ashe,Ashe,10,1365,5,discovery-first,not-started,0,36.3937312821,-81.4898169157
+municipality,nc-stedman,Stedman,Stedman town,Cumberland,Cumberland,7,1344,5,discovery-first,not-started,0,35.0115300547,-78.699742899
+municipality,nc-blowing-rock,Blowing Rock,Blowing Rock town,Watauga,Caldwell; Watauga,10,1311,5,discovery-first,not-started,0,36.1298637809,-81.6705443693
+municipality,nc-walnut-creek,Walnut Creek,Walnut Creek village,Wayne,Wayne,4,1286,5,discovery-first,not-started,0,35.3049636732,-77.8713683448
+municipality,nc-rutherford-college,Rutherford College,Rutherford College town,Burke,Burke; Caldwell,11,1273,5,discovery-first,not-started,0,35.7515712272,-81.5270065906
+municipality,nc-princeville,Princeville,Princeville town,Edgecombe,Edgecombe,5,1265,5,discovery-first,not-started,0,35.886096136,-77.5194078898
+municipality,nc-lake-waccamaw,Lake Waccamaw,Lake Waccamaw town,Columbus,Columbus,3,1260,5,discovery-first,not-started,0,34.3140224764,-78.5116761126
+municipality,nc-robbins,Robbins,Robbins town,Moore,Moore,7,1260,5,discovery-first,not-started,0,35.4277232795,-79.5829284334
+municipality,nc-banner-elk,Banner Elk,Banner Elk town,Avery,Avery,10,1253,5,discovery-first,not-started,0,36.1586996378,-81.8675568971
+municipality,nc-bayboro,Bayboro,Bayboro town,Pamlico,Pamlico,2,1248,5,discovery-first,not-started,0,35.147521406,-76.7692215201
+municipality,nc-franklinville,Franklinville,Franklinville town,Randolph,Randolph,9,1229,5,discovery-first,not-started,0,35.7420718101,-79.6894451246
+municipality,nc-robersonville,Robersonville,Robersonville town,Martin,Martin,1,1226,5,discovery-first,not-started,0,35.8247007964,-77.2532913772
+municipality,nc-boonville,Boonville,Boonville town,Yadkin,Yadkin,10,1219,5,discovery-first,not-started,0,36.2339653334,-80.7093171222
+municipality,nc-elm-city,Elm City,Elm City town,Wilson,Nash; Wilson,4,1215,5,discovery-first,not-started,0,35.8042112473,-77.8560798433
+municipality,nc-pinetops,Pinetops,Pinetops town,Edgecombe,Edgecombe,5,1202,5,discovery-first,not-started,0,35.7912558785,-77.6378144496
+municipality,nc-fremont,Fremont,Fremont town,Wayne,Wayne,4,1196,5,discovery-first,not-started,0,35.5436852551,-77.9751317675
+municipality,nc-mount-gilead,Mount Gilead,Mount Gilead town,Montgomery,Montgomery,8,1180,5,discovery-first,not-started,0,35.2163624453,-80.0050072755
+municipality,nc-roseboro,Roseboro,Roseboro town,Sampson,Sampson,3,1173,5,discovery-first,not-started,0,34.9550388274,-78.5136501193
+municipality,nc-dortches,Dortches,Dortches town,Nash,Nash,5,1123,5,discovery-first,not-started,0,36.011422947,-77.8572285927
+municipality,nc-beulaville,Beulaville,Beulaville town,Duplin,Duplin,3,1120,5,discovery-first,not-started,0,34.922803778,-77.7723927167
+municipality,nc-highlands,Highlands,Highlands town,Macon,Jackson; Macon,12,1112,5,discovery-first,not-started,0,35.0538549393,-83.1975793637
+municipality,nc-sharpsburg,Sharpsburg,Sharpsburg town,Nash,Edgecombe; Nash; Wilson,5,1105,5,discovery-first,not-started,0,35.8663454751,-77.8305495515
+municipality,nc-holden-beach,Holden Beach,Holden Beach town,Brunswick,Brunswick,3,1094,5,discovery-first,not-started,0,33.9115664334,-78.3188562844
+municipality,nc-north-topsail-beach,North Topsail Beach,North Topsail Beach town,Onslow,Onslow,2,1086,5,discovery-first,not-started,0,34.4932732651,-77.4332476543
+municipality,nc-vass,Vass,Vass town,Moore,Moore,7,1059,5,discovery-first,not-started,0,35.2531742438,-79.2845443673
+municipality,nc-alamance,Alamance,Alamance village,Alamance,Alamance,6,1058,5,discovery-first,not-started,0,36.0284844125,-79.4890172495
+municipality,nc-stem,Stem,Stem town,Granville,Granville,6,1054,5,discovery-first,not-started,0,36.1962239823,-78.7202151975
+municipality,nc-ocean-isle-beach,Ocean Isle Beach,Ocean Isle Beach town,Brunswick,Brunswick,3,1052,5,discovery-first,not-started,0,33.900463838,-78.4371240484
+municipality,nc-montreat,Montreat,Montreat town,Buncombe,Buncombe,12,1049,5,discovery-first,not-started,0,35.6478051449,-82.3000188695
+municipality,nc-lucama,Lucama,Lucama town,Wilson,Wilson,4,1040,5,discovery-first,not-started,0,35.6448342636,-78.0074399144
+municipality,nc-columbus,Columbus,Columbus town,Polk,Polk,12,1018,5,discovery-first,not-started,0,35.2655721219,-82.1976256046
+municipality,nc-middlesex,Middlesex,Middlesex town,Nash,Nash,5,973,5,discovery-first,not-started,0,35.7893829513,-78.2048115839
+municipality,nc-mcadenville,McAdenville,McAdenville town,Gaston,Gaston,11,959,5,discovery-first,not-started,0,35.26517856,-81.0804007135
+municipality,nc-gaston,Gaston,Gaston town,Northampton,Northampton,5,958,5,discovery-first,not-started,0,36.4965175365,-77.6448323281
+municipality,nc-cooleemee,Cooleemee,Cooleemee town,Davie,Davie,9,953,5,discovery-first,not-started,0,35.8124981473,-80.5563615294
+municipality,nc-northwest,Northwest,Northwest city,Brunswick,Brunswick,3,952,5,discovery-first,not-started,0,34.3160273813,-78.1447923547
+municipality,nc-oriental,Oriental,Oriental town,Pamlico,Pamlico,2,943,5,discovery-first,not-started,0,35.0355126053,-76.6818603839
+municipality,nc-norlina,Norlina,Norlina town,Warren,Warren,5,938,5,discovery-first,not-started,0,36.4451642634,-78.1951800949
+municipality,nc-brunswick,Brunswick,Brunswick town,Columbus,Columbus,3,922,5,discovery-first,not-started,0,34.287805184,-78.7084705668
+municipality,nc-vanceboro,Vanceboro,Vanceboro town,Craven,Craven,2,902,5,discovery-first,not-started,0,35.3030569983,-77.1566998395
+municipality,nc-rowland,Rowland,Rowland town,Robeson,Robeson,7,888,5,discovery-first,not-started,0,34.5360680305,-79.2928503037
+municipality,nc-cleveland,Cleveland,Cleveland town,Rowan,Rowan,9,882,5,discovery-first,not-started,0,35.7330650848,-80.681678689
+municipality,nc-garysburg,Garysburg,Garysburg town,Northampton,Northampton,5,860,5,discovery-first,not-started,0,36.4478508815,-77.560382411
+municipality,nc-red-cross,Red Cross,Red Cross town,Stanly,Stanly,8,855,5,discovery-first,not-started,0,35.2659551618,-80.3621849377
+municipality,nc-belwood,Belwood,Belwood town,Cleveland,Cleveland; Lincoln,11,847,5,discovery-first,not-started,0,35.4793922693,-81.5227563309
+municipality,nc-white-lake,White Lake,White Lake town,Bladen,Bladen,3,844,5,discovery-first,not-started,0,34.6417681117,-78.4969230466
+municipality,nc-ellerbe,Ellerbe,Ellerbe town,Richmond,Richmond,8,843,5,discovery-first,not-started,0,35.0718535019,-79.759645637
+municipality,nc-magnolia,Magnolia,Magnolia town,Duplin,Duplin,3,843,5,discovery-first,not-started,0,34.8961464155,-78.0539106439
+municipality,nc-maysville,Maysville,Maysville town,Jones,067; Jones,2,839,5,discovery-first,not-started,0,34.9070806834,-77.2325088497
+municipality,nc-rich-square,Rich Square,Rich Square town,Northampton,Northampton,5,838,5,discovery-first,not-started,0,36.2739423161,-77.2839064316
+municipality,nc-faith,Faith,Faith town,Rowan,Rowan,9,837,5,discovery-first,not-started,0,35.5899881975,-80.4583041813
+municipality,nc-warrenton,Warrenton,Warrenton town,Warren,Warren,5,835,5,discovery-first,not-started,0,36.3994102137,-78.1574184351
+municipality,nc-peletier,Peletier,Peletier town,Carteret,Carteret,2,828,5,discovery-first,not-started,0,34.7269804229,-77.0757937698
+municipality,nc-star,Star,Star town,Montgomery,Montgomery,8,822,5,discovery-first,not-started,0,35.3990677211,-79.7833114595
+municipality,nc-candor,Candor,Candor town,Montgomery,Montgomery; Moore,8,821,5,discovery-first,not-started,0,35.2963891185,-79.7325189895
+municipality,nc-stantonsburg,Stantonsburg,Stantonsburg town,Wilson,Wilson,4,818,5,discovery-first,not-started,0,35.6052892762,-77.8197782056
+municipality,nc-kenansville,Kenansville,Kenansville town,Duplin,Duplin,3,813,5,discovery-first,not-started,0,34.9598273789,-77.9659290051
+municipality,nc-grover,Grover,Grover town,Cleveland,Cleveland,11,810,5,discovery-first,not-started,0,35.1734465351,-81.4519601199
+municipality,nc-old-fort,Old Fort,Old Fort town,Mcdowell,McDowell; Mcdowell,,805,5,discovery-first,not-started,0,35.630423946,-82.1777322602
+municipality,nc-faison,Faison,Faison town,Duplin,Duplin; Sampson,3,793,5,discovery-first,not-started,0,35.1164472511,-78.1359948656
+municipality,nc-duck,Duck,Duck town,Dare,Dare,1,791,5,discovery-first,not-started,0,36.1828604609,-75.7550386972
+municipality,nc-marshall,Marshall,Marshall town,Madison,Madison,12,786,5,discovery-first,not-started,0,35.7972777445,-82.6818040223
+municipality,nc-new-london,New London,New London town,Stanly,Stanly,8,776,5,discovery-first,not-started,0,35.4349161396,-80.2198130079
+municipality,nc-rosman,Rosman,Rosman town,Transylvania,Transylvania,12,762,5,discovery-first,not-started,0,35.1458264163,-82.8201542731
+municipality,nc-alliance,Alliance,Alliance town,Pamlico,Pamlico,2,759,5,discovery-first,not-started,0,35.1435081222,-76.8084609422
+municipality,nc-pikeville,Pikeville,Pikeville town,Wayne,Wayne,4,755,5,discovery-first,not-started,0,35.4972060548,-77.9877572198
+municipality,nc-chocowinity,Chocowinity,Chocowinity town,Beaufort,Beaufort,2,742,5,discovery-first,not-started,0,35.514715472,-77.1016695662
+municipality,nc-catawba,Catawba,Catawba town,Catawba,Catawba,11,739,5,discovery-first,not-started,0,35.7095047934,-81.0668454953
+municipality,nc-grantsboro,Grantsboro,Grantsboro town,Pamlico,Pamlico,2,729,5,discovery-first,not-started,0,35.144871302,-76.8446824114
+municipality,nc-ellenboro,Ellenboro,Ellenboro town,Rutherford,Rutherford,11,727,5,discovery-first,not-started,0,35.3308787443,-81.7612739508
+municipality,nc-bogue,Bogue,Bogue town,Carteret,Carteret,2,726,5,discovery-first,not-started,0,34.6980868861,-77.0311274499
+municipality,nc-newland,Newland,Newland town,Avery,Avery,10,717,5,discovery-first,not-started,0,36.0879704385,-81.927354825
+municipality,nc-conway,Conway,Conway town,Northampton,Northampton,5,704,5,discovery-first,not-started,0,36.4371193457,-77.228819516
+municipality,nc-aulander,Aulander,Aulander town,Bertie,Bertie,1,702,5,discovery-first,not-started,0,36.228009166,-77.1135988566
+municipality,nc-fair-bluff,Fair Bluff,Fair Bluff town,Columbus,Columbus,3,696,5,discovery-first,not-started,0,34.3125711677,-79.033261436
+municipality,nc-parkton,Parkton,Parkton town,Robeson,Robeson,7,694,5,discovery-first,not-started,0,34.9028375178,-79.0112868961
+municipality,nc-black-creek,Black Creek,Black Creek town,Wilson,Wilson,4,688,5,discovery-first,not-started,0,35.6365447291,-77.9326424067
+municipality,nc-dobbins-heights,Dobbins Heights,Dobbins Heights town,Richmond,Richmond,8,686,5,discovery-first,not-started,0,34.9068805341,-79.693299685
+municipality,nc-sedalia,Sedalia,Sedalia town,Guilford,Guilford,9,684,5,discovery-first,not-started,0,36.0759521092,-79.6207244717
+municipality,nc-taylortown,Taylortown,Taylortown town,Moore,Moore,7,675,5,discovery-first,not-started,0,35.2146218071,-79.4916449206
+municipality,nc-saluda,Saluda,Saluda city,Polk,Henderson; Polk,12,673,5,discovery-first,not-started,0,35.2375204162,-82.3469039201
+municipality,nc-high-shoals,High Shoals,High Shoals city,Gaston,Gaston; Lincoln,11,665,5,discovery-first,not-started,0,35.3957165154,-81.2046973465
+municipality,nc-wade,Wade,Wade town,Cumberland,Cumberland,7,659,5,discovery-first,not-started,0,35.1634917592,-78.7369620853
+municipality,nc-rhodhiss,Rhodhiss,Rhodhiss town,Burke,Burke; Caldwell,11,652,5,discovery-first,not-started,0,35.7683114645,-81.4311701126
+municipality,nc-beech-mountain,Beech Mountain,Beech Mountain town,Watauga,Avery; Watauga,10,651,5,discovery-first,not-started,0,36.2104510538,-81.8875319852
+municipality,nc-misenheimer,Misenheimer,Misenheimer village,Stanly,Stanly,8,650,5,discovery-first,not-started,0,35.4819240502,-80.2869733826
+municipality,nc-east-bend,East Bend,East Bend town,Yadkin,Yadkin,10,649,5,discovery-first,not-started,0,36.217752687,-80.5084219598
+municipality,nc-kingstown,Kingstown,Kingstown town,Cleveland,Cleveland,11,649,5,discovery-first,not-started,0,35.3621058803,-81.6200520892
+municipality,nc-winton,Winton,Winton town,Hertford,Hertford,1,628,5,discovery-first,not-started,0,36.3898709015,-76.9350101592
+municipality,nc-fallston,Fallston,Fallston town,Cleveland,Cleveland,11,625,5,discovery-first,not-started,0,35.4289225231,-81.50225554
+municipality,nc-minnesott-beach,Minnesott Beach,Minnesott Beach town,Pamlico,Pamlico,2,614,5,discovery-first,not-started,0,34.9861014757,-76.8241879831
+municipality,nc-richfield,Richfield,Richfield town,Stanly,Stanly,8,613,5,discovery-first,not-started,0,35.4715635711,-80.25852721
+municipality,nc-clarkton,Clarkton,Clarkton town,Bladen,Bladen,3,608,5,discovery-first,not-started,0,34.4890590776,-78.6559074484
+municipality,nc-garland,Garland,Garland town,Sampson,Sampson,3,605,5,discovery-first,not-started,0,34.785848731,-78.3947093028
+municipality,nc-newton-grove,Newton Grove,Newton Grove town,Sampson,Sampson,3,600,5,discovery-first,not-started,0,35.2522120646,-78.3552951199
+municipality,nc-wagram,Wagram,Wagram town,Scotland,Scotland,7,600,5,discovery-first,not-started,0,34.8890996198,-79.365207813
+municipality,nc-bailey,Bailey,Bailey town,Nash,Nash,5,597,5,discovery-first,not-started,0,35.7806138808,-78.1129235491
+municipality,nc-ossipee,Ossipee,Ossipee town,Alamance,Alamance,6,597,5,discovery-first,not-started,0,36.167935167,-79.5136810687
+municipality,nc-whitsett,Whitsett,Whitsett town,Guilford,Guilford,9,594,5,discovery-first,not-started,0,36.0783270103,-79.5720313303
+municipality,nc-columbia,Columbia,Columbia town,Tyrrell,Tyrrell,1,592,5,discovery-first,not-started,0,35.9199412194,-76.2422798193
+municipality,nc-varnamtown,Varnamtown,Varnamtown town,Brunswick,Brunswick,3,586,5,discovery-first,not-started,0,33.9429598827,-78.236478115
+municipality,nc-winfall,Winfall,Winfall town,Perquimans,Perquimans,1,581,5,discovery-first,not-started,0,36.2104774234,-76.4550645619
+municipality,nc-greenevers,Greenevers,Greenevers town,Duplin,Duplin,3,578,5,discovery-first,not-started,0,34.8271330914,-77.9251339612
+municipality,nc-harmony,Harmony,Harmony town,Iredell,Iredell,10,577,5,discovery-first,not-started,0,35.9590783814,-80.7734980084
+municipality,nc-simpson,Simpson,Simpson village,Pitt,Pitt,4,574,5,discovery-first,not-started,0,35.5752930635,-77.2789813653
+municipality,nc-robbinsville,Robbinsville,Robbinsville town,Graham,Graham,12,569,5,discovery-first,not-started,0,35.3216191018,-83.809340769
+municipality,nc-patterson-springs,Patterson Springs,Patterson Springs town,Cleveland,Cleveland,11,562,5,discovery-first,not-started,0,35.2334492222,-81.5158900877
+municipality,nc-lawndale,Lawndale,Lawndale town,Cleveland,Cleveland,11,559,5,discovery-first,not-started,0,35.4143275498,-81.5626862031
+municipality,nc-elk-park,Elk Park,Elk Park town,Avery,Avery,10,550,5,discovery-first,not-started,0,36.1582469249,-81.9808131454
+municipality,nc-salemburg,Salemburg,Salemburg town,Sampson,Sampson,3,536,5,discovery-first,not-started,0,35.015158095,-78.5027990874
+municipality,nc-littleton,Littleton,Littleton town,Halifax,Halifax,5,535,5,discovery-first,not-started,0,36.4343162639,-77.911002267
+municipality,nc-woodland,Woodland,Woodland town,Northampton,Northampton,5,526,5,discovery-first,not-started,0,36.3306149357,-77.2149101498
+municipality,nc-hot-springs,Hot Springs,Hot Springs town,Madison,Madison,12,525,5,discovery-first,not-started,0,35.8933873536,-82.8302713556
+municipality,nc-polkville,Polkville,Polkville city,Cleveland,Cleveland,11,525,5,discovery-first,not-started,0,35.4162749951,-81.6439866262
+municipality,nc-micro,Micro,Micro town,Johnston,Johnston,4,516,5,discovery-first,not-started,0,35.562379546,-78.2035168445
+municipality,nc-topsail-beach,Topsail Beach,Topsail Beach town,Pender,Pender,3,515,5,discovery-first,not-started,0,34.3740497244,-77.6325147176
+municipality,nc-teachey,Teachey,Teachey town,Duplin,Duplin,3,513,5,discovery-first,not-started,0,34.7705668548,-78.006526007
+municipality,nc-bolton,Bolton,Bolton town,Columbus,Columbus,3,510,5,discovery-first,not-started,0,34.3174248086,-78.3976850034
+municipality,nc-seaboard,Seaboard,Seaboard town,Northampton,Northampton,5,507,5,discovery-first,not-started,0,36.4906897653,-77.4419658053
+municipality,nc-hayesville,Hayesville,Hayesville town,Clay,Clay,12,483,5,discovery-first,not-started,0,35.0450181685,-83.8179349805
+municipality,nc-roper,Roper,Roper town,Washington,Washington,1,463,5,discovery-first,not-started,0,35.8786400431,-76.6170581737
+municipality,nc-brookford,Brookford,Brookford town,Catawba,Catawba,11,455,5,discovery-first,not-started,0,35.7029438953,-81.3453787413
+municipality,nc-pink-hill,Pink Hill,Pink Hill town,Lenoir,Lenoir,4,451,5,discovery-first,not-started,0,35.056213271,-77.7436315786
+municipality,nc-st-helena,St. Helena,St. Helena village,Pender,Pender,3,449,5,discovery-first,not-started,0,34.5166234027,-77.9173936848
+municipality,nc-aurora,Aurora,Aurora town,Beaufort,Beaufort,2,448,5,discovery-first,not-started,0,35.3029979505,-76.788914719
+municipality,nc-ansonville,Ansonville,Ansonville town,Anson,Anson,8,444,5,discovery-first,not-started,0,35.1041817951,-80.1096920807
+municipality,nc-gibson,Gibson,Gibson town,Scotland,Scotland,7,444,5,discovery-first,not-started,0,34.759488862,-79.6068814863
+municipality,nc-bakersville,Bakersville,Bakersville town,Mitchell,Mitchell,12,443,5,discovery-first,not-started,0,36.0153505656,-82.1582237856
+municipality,nc-arapahoe,Arapahoe,Arapahoe town,Pamlico,Pamlico,2,439,5,discovery-first,not-started,0,35.0214671804,-76.8259598096
+municipality,nc-lattimore,Lattimore,Lattimore town,Cleveland,Cleveland,11,439,5,discovery-first,not-started,0,35.3153880312,-81.6602039025
+municipality,nc-ronda,Ronda,Ronda town,Wilkes,Wilkes,10,439,5,discovery-first,not-started,0,36.2217178027,-80.943236744
+municipality,nc-sims,Sims,Sims town,Wilson,Wilson,4,434,5,discovery-first,not-started,0,35.7596625313,-78.0597263088
+municipality,nc-sandyfield,Sandyfield,Sandyfield town,Columbus,Columbus,3,430,5,discovery-first,not-started,0,34.3738528993,-78.3000099
+municipality,nc-grimesland,Grimesland,Grimesland town,Pitt,Pitt,4,429,5,discovery-first,not-started,0,35.5685682976,-77.2024537126
+municipality,nc-caswell-beach,Caswell Beach,Caswell Beach town,Brunswick,Brunswick,3,425,5,discovery-first,not-started,0,33.9074579069,-78.0471698031
+municipality,nc-hoffman,Hoffman,Hoffman town,Richmond,Richmond,8,419,5,discovery-first,not-started,0,35.0313227341,-79.5491348624
+municipality,nc-east-arcadia,East Arcadia,East Arcadia town,Bladen,Bladen,3,416,5,discovery-first,not-started,0,34.3816033787,-78.3231852291
+municipality,nc-hookerton,Hookerton,Hookerton town,Greene,Greene,4,413,5,discovery-first,not-started,0,35.4229760846,-77.5893714476
+municipality,nc-jamesville,Jamesville,Jamesville town,Martin,Martin,1,409,5,discovery-first,not-started,0,35.8121980803,-76.9001821203
+municipality,nc-macclesfield,Macclesfield,Macclesfield town,Edgecombe,Edgecombe,5,409,5,discovery-first,not-started,0,35.7522130756,-77.6703464788
+municipality,nc-jackson,Jackson,Jackson town,Northampton,Northampton,5,408,5,discovery-first,not-started,0,36.3900955052,-77.4193406596
+municipality,nc-lewiston-woodville,Lewiston Woodville,Lewiston Woodville town,Bertie,Bertie,1,408,5,discovery-first,not-started,0,36.1141201738,-77.1811740817
+municipality,nc-falcon,Falcon,Falcon town,Cumberland,Cumberland; Sampson,7,399,5,discovery-first,not-started,0,35.1935223235,-78.6511271146
+municipality,nc-peachland,Peachland,Peachland town,Anson,Anson,8,397,5,discovery-first,not-started,0,34.9931217451,-80.2659647636
+municipality,nc-sugar-mountain,Sugar Mountain,Sugar Mountain village,Avery,Avery,10,396,5,discovery-first,not-started,0,36.1263813684,-81.8647424242
+municipality,nc-cove-city,Cove City,Cove City town,Craven,Craven,2,395,5,discovery-first,not-started,0,35.1889683279,-77.3205236528
+municipality,nc-lilesville,Lilesville,Lilesville town,Anson,Anson,8,395,5,discovery-first,not-started,0,34.9674945346,-79.9845335153
+municipality,nc-staley,Staley,Staley town,Randolph,Randolph,9,393,5,discovery-first,not-started,0,35.7979362008,-79.5517515723
+municipality,nc-fountain,Fountain,Fountain town,Pitt,Pitt,4,387,5,discovery-first,not-started,0,35.6721115678,-77.6316727315
+municipality,nc-washington-park,Washington Park,Washington Park town,Beaufort,Beaufort,2,384,5,discovery-first,not-started,0,35.5328622899,-77.031579777
+municipality,nc-webster,Webster,Webster town,Jackson,Jackson,12,374,5,discovery-first,not-started,0,35.3499760878,-83.2189781875
+municipality,nc-bunn,Bunn,Bunn town,Franklin,Franklin,5,370,5,discovery-first,not-started,0,35.9590591224,-78.2518933693
+municipality,nc-bridgeton,Bridgeton,Bridgeton town,Craven,Craven,2,360,5,discovery-first,not-started,0,35.1346924383,-77.0159388566
+municipality,nc-dover,Dover,Dover town,Craven,Craven,2,358,5,discovery-first,not-started,0,35.2154766448,-77.4337788947
+municipality,nc-bostic,Bostic,Bostic town,Rutherford,Rutherford,11,357,5,discovery-first,not-started,0,35.3624561214,-81.8359880349
+municipality,nc-bethania,Bethania,Bethania town,Forsyth,Forsyth,9,353,5,discovery-first,not-started,0,36.1808299361,-80.3375804964
+municipality,nc-saratoga,Saratoga,Saratoga town,Wilson,Wilson,4,350,5,discovery-first,not-started,0,35.6536610655,-77.7756356421
+municipality,nc-ruth,Ruth,Ruth town,Rutherford,Rutherford,11,347,5,discovery-first,not-started,0,35.3823686299,-81.9448474164
+municipality,nc-whitakers,Whitakers,Whitakers town,Nash,Edgecombe; Nash,5,344,5,discovery-first,not-started,0,36.1057463297,-77.7130872495
+municipality,nc-stovall,Stovall,Stovall town,Granville,Granville,6,337,5,discovery-first,not-started,0,36.4475464494,-78.5688916764
+municipality,nc-atkinson,Atkinson,Atkinson town,Pender,Pender,3,332,5,discovery-first,not-started,0,34.5274581234,-78.1697085702
+municipality,nc-morven,Morven,Morven town,Anson,Anson,8,331,5,discovery-first,not-started,0,34.8643105977,-80.0000134436
+municipality,nc-calypso,Calypso,Calypso town,Duplin,Duplin,3,328,5,discovery-first,not-started,0,35.1545379255,-78.1045453256
+municipality,nc-bald-head-island,Bald Head Island,Bald Head Island village,Brunswick,Brunswick,3,318,5,discovery-first,not-started,0,33.863982292,-77.9866905059
+municipality,nc-waco,Waco,Waco town,Cleveland,Cleveland,11,310,5,discovery-first,not-started,0,35.3621802276,-81.4287543978
+municipality,nc-cedar-rock,Cedar Rock,Cedar Rock village,Caldwell,Caldwell,10,309,5,discovery-first,not-started,0,35.9434583207,-81.4583731947
+municipality,nc-trenton,Trenton,Trenton town,Jones,Jones,2,308,5,discovery-first,not-started,0,35.0639969151,-77.3552757168
+municipality,nc-casar,Casar,Casar town,Cleveland,Cleveland,11,304,5,discovery-first,not-started,0,35.5127080318,-81.6168441816
+municipality,nc-forest-hills,Forest Hills,Forest Hills village,Jackson,Jackson,12,302,5,discovery-first,not-started,0,35.2957589428,-83.1954226705
+municipality,nc-pollocksville,Pollocksville,Pollocksville town,Jones,Jones,2,298,5,discovery-first,not-started,0,35.0054388483,-77.2212515347
+municipality,nc-momeyer,Momeyer,Momeyer town,Nash,Nash,5,295,5,discovery-first,not-started,0,35.9591916656,-78.0511016942
+municipality,nc-hamilton,Hamilton,Hamilton town,Martin,Martin,1,294,5,discovery-first,not-started,0,35.944377934,-77.2067450702
+municipality,nc-mooresboro,Mooresboro,Mooresboro town,Cleveland,Cleveland,11,291,5,discovery-first,not-started,0,35.2992051538,-81.6985864559
+municipality,nc-sandy-creek,Sandy Creek,Sandy Creek town,Brunswick,Brunswick,3,289,5,discovery-first,not-started,0,34.2799603277,-78.1532159054
+municipality,nc-seven-devils,Seven Devils,Seven Devils town,Watauga,Avery; Watauga,10,288,5,discovery-first,not-started,0,36.149036963,-81.8120530578
+municipality,nc-rennert,Rennert,Rennert town,Robeson,Robeson,7,280,5,discovery-first,not-started,0,34.8140928912,-79.0791155848
+municipality,nc-castalia,Castalia,Castalia town,Nash,Nash,5,271,5,discovery-first,not-started,0,36.082279269,-78.0575969561
+municipality,nc-dublin,Dublin,Dublin town,Bladen,Bladen,3,262,5,discovery-first,not-started,0,34.6562485801,-78.7230940819
+municipality,nc-oak-city,Oak City,Oak City town,Martin,Martin,1,262,5,discovery-first,not-started,0,35.9625191494,-77.3050926619
+municipality,nc-crossnore,Crossnore,Crossnore town,Avery,Avery,10,260,5,discovery-first,not-started,0,36.0221980665,-81.930841475
+municipality,nc-cameron,Cameron,Cameron town,Moore,Moore,7,257,5,discovery-first,not-started,0,35.3258722786,-79.254178111
+municipality,nc-gatesville,Gatesville,Gatesville town,Gates,Gates,1,257,5,discovery-first,not-started,0,36.407355406,-76.7565916686
+municipality,nc-hobgood,Hobgood,Hobgood town,Halifax,Halifax,5,257,5,discovery-first,not-started,0,36.0267335397,-77.3939770795
+municipality,nc-cofield,Cofield,Cofield village,Hertford,Hertford,1,254,5,discovery-first,not-started,0,36.3566895908,-76.9105169757
+municipality,nc-indian-beach,Indian Beach,Indian Beach town,Carteret,Carteret,2,252,5,discovery-first,not-started,0,34.6882463068,-76.887588595
+municipality,nc-goldston,Goldston,Goldston town,Chatham,Chatham,6,249,5,discovery-first,not-started,0,35.5929370635,-79.3285967012
+municipality,nc-bath,Bath,Bath town,Beaufort,Beaufort,2,241,5,discovery-first,not-started,0,35.4701692784,-76.811983186
+municipality,nc-parmele,Parmele,Parmele town,Martin,Martin,1,240,5,discovery-first,not-started,0,35.8180859998,-77.3143139626
+municipality,nc-eureka,Eureka,Eureka town,Wayne,Wayne,4,239,5,discovery-first,not-started,0,35.5413887608,-77.8763254496
+municipality,nc-turkey,Turkey,Turkey town,Sampson,Sampson,3,239,5,discovery-first,not-started,0,34.9950347516,-78.1841516209
+municipality,nc-seagrove,Seagrove,Seagrove town,Randolph,Randolph,9,235,5,discovery-first,not-started,0,35.5389941228,-79.7801605415
+municipality,nc-stonewall,Stonewall,Stonewall town,Pamlico,Pamlico,2,222,5,discovery-first,not-started,0,35.1370909402,-76.7405825109
+municipality,nc-dillsboro,Dillsboro,Dillsboro town,Jackson,Jackson,12,207,5,discovery-first,not-started,0,35.3706058536,-83.2526204946
+municipality,nc-bolivia,Bolivia,Bolivia town,Brunswick,Brunswick,3,204,5,discovery-first,not-started,0,34.0699252897,-78.1473647693
+municipality,nc-colerain,Colerain,Colerain town,Bertie,Bertie,1,202,5,discovery-first,not-started,0,36.2015734844,-76.7664001488
+municipality,nc-creswell,Creswell,Creswell town,Washington,Washington,1,201,5,discovery-first,not-started,0,35.8744274324,-76.4035124255
+municipality,nc-vandemere,Vandemere,Vandemere town,Pamlico,Pamlico,2,201,5,discovery-first,not-started,0,35.188618358,-76.6650863673
+municipality,nc-earl,Earl,Earl town,Cleveland,Cleveland,11,200,5,discovery-first,not-started,0,35.1954241103,-81.5340098386
+municipality,nc-watha,Watha,Watha town,Pender,Pender,3,200,5,discovery-first,not-started,0,34.6511951786,-77.9575932029
+municipality,nc-conetoe,Conetoe,Conetoe town,Edgecombe,Edgecombe,5,199,5,discovery-first,not-started,0,35.8176272476,-77.4571318976
+municipality,nc-kelford,Kelford,Kelford town,Bertie,Bertie,1,197,5,discovery-first,not-started,0,36.1812478784,-77.2243032321
+municipality,nc-walstonburg,Walstonburg,Walstonburg town,Greene,Greene,4,196,5,discovery-first,not-started,0,35.5960922213,-77.6980054702
+municipality,nc-danbury,Danbury,Danbury town,Stokes,Stokes,9,186,5,discovery-first,seeded,1,36.4111535068,-80.212047024
+municipality,nc-severn,Severn,Severn town,Northampton,Northampton,5,177,5,discovery-first,not-started,0,36.5142034624,-77.1892877398
+municipality,nc-powellsville,Powellsville,Powellsville town,Bertie,Bertie,1,176,5,discovery-first,not-started,0,36.2252509231,-76.9315732065
+municipality,nc-love-valley,Love Valley,Love Valley town,Iredell,Iredell,10,175,5,discovery-first,not-started,0,35.9872534493,-80.9834643126
+municipality,nc-autryville,Autryville,Autryville town,Sampson,Sampson,3,172,5,discovery-first,not-started,0,34.9964804517,-78.6411872409
+municipality,nc-roxobel,Roxobel,Roxobel town,Bertie,Bertie,1,169,5,discovery-first,not-started,0,36.2015279593,-77.2398044263
+municipality,nc-askewville,Askewville,Askewville town,Bertie,Bertie,1,168,5,discovery-first,not-started,0,36.1115875911,-76.9412316877
+municipality,nc-boardman,Boardman,Boardman town,Columbus,Columbus,3,160,5,discovery-first,not-started,0,34.4364525322,-78.9467746348
+municipality,nc-godwin,Godwin,Godwin town,Cumberland,Cumberland,7,160,5,discovery-first,not-started,0,35.2134536424,-78.6770585496
+municipality,nc-harrells,Harrells,Harrells town,Sampson,Duplin; Sampson,3,160,5,discovery-first,not-started,0,34.7278350608,-78.2015141211
+municipality,nc-pantego,Pantego,Pantego town,Beaufort,Beaufort,2,160,5,discovery-first,not-started,0,35.5873729189,-76.659396591
+municipality,nc-halifax,Halifax,Halifax town,Halifax,Halifax,5,159,5,discovery-first,not-started,0,36.3254953756,-77.590095057
+municipality,nc-mcfarlan,McFarlan,McFarlan town,Anson,Anson,8,153,5,discovery-first,not-started,0,34.8148178087,-79.9766316527
+municipality,nc-milton,Milton,Milton town,Caswell,Caswell,6,149,5,discovery-first,not-started,0,36.5372420612,-79.2080974544
+municipality,nc-mesic,Mesic,Mesic town,Pamlico,Pamlico,2,148,5,discovery-first,not-started,0,35.2034126197,-76.644949699
+municipality,nc-chimney-rock-village,Chimney Rock Village,Chimney Rock Village village,Rutherford,Buncombe; Rutherford,11,146,5,discovery-first,not-started,0,35.4503119739,-82.2549922195
+municipality,nc-everetts,Everetts,Everetts town,Martin,Martin,1,143,5,discovery-first,not-started,0,35.8346076458,-77.1721196906
+municipality,nc-linden,Linden,Linden town,Cumberland,Cumberland,7,138,5,discovery-first,not-started,0,35.2546019923,-78.748372137
+municipality,nc-cerro-gordo,Cerro Gordo,Cerro Gordo town,Columbus,Columbus,3,134,5,discovery-first,not-started,0,34.3225671835,-78.928722177
+municipality,nc-lansing,Lansing,Lansing town,Ashe,Ashe,10,125,5,discovery-first,not-started,0,36.4992921792,-81.5105228946
+municipality,nc-kittrell,Kittrell,Kittrell town,Vance,Vance,6,122,5,discovery-first,not-started,0,36.2218068312,-78.4413339269
+municipality,nc-proctorville,Proctorville,Proctorville town,Robeson,Robeson,7,119,5,discovery-first,not-started,0,34.4751789042,-79.0370389924
+municipality,nc-grandfather-village,Grandfather Village,Grandfather Village village,Avery,Avery,10,107,5,discovery-first,not-started,0,36.0987673229,-81.8481481172
+municipality,nc-marietta,Marietta,Marietta town,Robeson,Robeson,7,107,5,discovery-first,not-started,0,34.3681984097,-79.1248578569
+municipality,nc-macon,Macon,Macon town,Warren,Warren,5,103,5,discovery-first,not-started,0,36.4395895919,-78.0839352709
+municipality,nc-middleburg,Middleburg,Middleburg town,Vance,Vance,6,99,5,discovery-first,not-started,0,36.3989413471,-78.323436017
+municipality,nc-norman,Norman,Norman town,Richmond,Richmond,8,98,5,discovery-first,not-started,0,35.1697611208,-79.723159055
+municipality,nc-mcdonald,McDonald,McDonald town,Robeson,Robeson,7,93,5,discovery-first,not-started,0,34.5537451559,-79.1762525544
+municipality,nc-tar-heel,Tar Heel,Tar Heel town,Bladen,Bladen,3,89,5,discovery-first,not-started,0,34.7339160966,-78.790937107
+municipality,nc-bear-grass,Bear Grass,Bear Grass town,Martin,Martin,1,85,5,discovery-first,not-started,0,35.766420425,-77.1288853853
+municipality,nc-lumber-bridge,Lumber Bridge,Lumber Bridge town,Robeson,Robeson,7,83,5,discovery-first,not-started,0,34.8898627204,-79.0723784361
+municipality,nc-harrellsville,Harrellsville,Harrellsville town,Hertford,Hertford,1,81,5,discovery-first,not-started,0,36.3016736078,-76.7917773489
+municipality,nc-seven-springs,Seven Springs,Seven Springs town,Wayne,Wayne,4,77,5,discovery-first,not-started,0,35.2248315414,-77.8451361711
+municipality,nc-como,Como,Como town,Hertford,Hertford,1,64,5,discovery-first,not-started,0,36.5010591634,-77.0073133836
+municipality,nc-speed,Speed,Speed town,Edgecombe,Edgecombe,5,63,5,discovery-first,not-started,0,35.9684649514,-77.4442689841
+municipality,nc-raynham,Raynham,Raynham town,Robeson,Robeson,7,61,5,discovery-first,not-started,0,34.5760887941,-79.190856152
+municipality,nc-orrum,Orrum,Orrum town,Robeson,Robeson,7,60,5,discovery-first,not-started,0,34.466726912,-79.0089451179
+municipality,nc-lasker,Lasker,Lasker town,Northampton,Northampton,5,57,5,discovery-first,not-started,0,36.3502214857,-77.3057467757
+municipality,nc-fontana-dam,Fontana Dam,Fontana Dam town,Graham,Graham,12,50,5,discovery-first,not-started,0,35.4327970609,-83.8247991218
+municipality,nc-falkland,Falkland,Falkland town,Pitt,Pitt,4,48,5,discovery-first,not-started,0,35.6985367747,-77.5128776049
+municipality,nc-hassell,Hassell,Hassell town,Martin,Martin,1,47,5,discovery-first,not-started,0,35.9085790407,-77.2763595219
+municipality,nc-lake-santeetlah,Lake Santeetlah,Lake Santeetlah town,Graham,Graham,12,40,5,discovery-first,not-started,0,35.3636107329,-83.8663153405
+municipality,nc-leggett,Leggett,Leggett town,Edgecombe,Edgecombe,5,35,5,discovery-first,not-started,0,35.9896195147,-77.5800519792
+municipality,nc-dellview,Dellview,Dellview town,Gaston,Gaston,11,,5,discovery-first,not-started,0,35.3865521188,-81.4127071524
+municipality,nc-east-laurinburg,East Laurinburg,East Laurinburg town,Scotland,Scotland,7,,5,discovery-first,not-started,0,34.769078831,-79.4450777177
+municipality,nc-spencer-mountain,Spencer Mountain,Spencer Mountain town,Gaston,Gaston,11,,5,discovery-first,not-started,0,35.3072674185,-81.110123943
+census-designated-place,nc-cdp-cherokee,Cherokee,Cherokee CDP,,,,,,,seeded,1,35.4859397,-83.3011066
+census-designated-place,nc-cdp-advance,Advance,Advance CDP,,,,,,,not-started,0,35.9458344,-80.3921738
+census-designated-place,nc-cdp-alexis,Alexis,Alexis CDP,,,,,,,not-started,0,35.3921294,-81.1227882
+census-designated-place,nc-cdp-altamahaw,Altamahaw,Altamahaw CDP,,,,,,,not-started,0,36.1938775,-79.5066461
+census-designated-place,nc-cdp-anderson-creek,Anderson Creek,Anderson Creek CDP,,,,,,,not-started,0,35.2766217,-78.957832
+census-designated-place,nc-cdp-aquadale,Aquadale,Aquadale CDP,,,,,,,not-started,0,35.2243928,-80.2235101
+census-designated-place,nc-cdp-arrowhead-beach,Arrowhead Beach,Arrowhead Beach CDP,,,,,,,not-started,0,36.2271418,-76.7028963
+census-designated-place,nc-cdp-ashley-heights,Ashley Heights,Ashley Heights CDP,,,,,,,not-started,0,35.089953,-79.3739175
+census-designated-place,nc-cdp-atlantic,Atlantic,Atlantic CDP,,,,,,,not-started,0,34.8813428,-76.3432568
+census-designated-place,nc-cdp-avery-creek,Avery Creek,Avery Creek CDP,,,,,,,not-started,0,35.4650806,-82.5718472
+census-designated-place,nc-cdp-avon,Avon,Avon CDP,,,,,,,not-started,0,35.337043,-75.5118205
+census-designated-place,nc-cdp-balfour,Balfour,Balfour CDP,,,,,,,not-started,0,35.3526347,-82.4886817
+census-designated-place,nc-cdp-barbecue,Barbecue,Barbecue CDP,,,,,,,not-started,0,35.3252109,-79.037939
+census-designated-place,nc-cdp-barker-heights,Barker Heights,Barker Heights CDP,,,,,,,not-started,0,35.3112136,-82.4411568
+census-designated-place,nc-cdp-barker-ten-mile,Barker Ten Mile,Barker Ten Mile CDP,,,,,,,not-started,0,34.6825234,-78.9888462
+census-designated-place,nc-cdp-barnardsville,Barnardsville,Barnardsville CDP,,,,,,,not-started,0,35.7819177,-82.4555362
+census-designated-place,nc-cdp-bayshore,Bayshore,Bayshore CDP,,,,,,,not-started,0,34.2886666,-77.8037963
+census-designated-place,nc-cdp-bayview,Bayview,Bayview CDP,,,,,,,not-started,0,35.4418185,-76.7934283
+census-designated-place,nc-cdp-bell-arthur,Bell Arthur,Bell Arthur CDP,,,,,,,not-started,0,35.5911764,-77.5127049
+census-designated-place,nc-cdp-belvoir,Belvoir,Belvoir CDP,,,,,,,not-started,0,35.7110753,-77.4699315
+census-designated-place,nc-cdp-bennett,Bennett,Bennett CDP,,,,,,,not-started,0,35.5752803,-79.5346115
+census-designated-place,nc-cdp-bent-creek,Bent Creek,Bent Creek CDP,,,,,,,not-started,0,35.5111085,-82.6169868
+census-designated-place,nc-cdp-bethlehem,Bethlehem,Bethlehem CDP,,,,,,,not-started,0,35.8175312,-81.3007573
+census-designated-place,nc-cdp-blue-clay-farms,Blue Clay Farms,Blue Clay Farms CDP,,,,,,,not-started,0,34.2985287,-77.8914135
+census-designated-place,nc-cdp-bonnetsville,Bonnetsville,Bonnetsville CDP,,,,,,,not-started,0,35.0056786,-78.4018568
+census-designated-place,nc-cdp-bowdens,Bowdens,Bowdens CDP,,,,,,,not-started,0,35.0618661,-78.1083673
+census-designated-place,nc-cdp-bowmore,Bowmore,Bowmore CDP,,,,,,,not-started,0,34.9358467,-79.2999594
+census-designated-place,nc-cdp-brandywine-bay,Brandywine Bay,Brandywine Bay CDP,,,,,,,not-started,0,34.7396796,-76.8302332
+census-designated-place,nc-cdp-briar-chapel,Briar Chapel,Briar Chapel CDP,,,,,,,not-started,0,35.8241607,-79.1168322
+census-designated-place,nc-cdp-brices-creek,Brices Creek,Brices Creek CDP,,,,,,,not-started,0,35.0369569,-77.081921
+census-designated-place,nc-cdp-broad-creek,Broad Creek,Broad Creek CDP,,,,,,,not-started,0,34.7341726,-76.9190971
+census-designated-place,nc-cdp-brogden,Brogden,Brogden CDP,,,,,,,not-started,0,35.2955448,-78.0294491
+census-designated-place,nc-cdp-buies-creek,Buies Creek,Buies Creek CDP,,,,,,,not-started,0,35.4078428,-78.7431477
+census-designated-place,nc-cdp-bunnlevel,Bunnlevel,Bunnlevel CDP,,,,,,,not-started,0,35.3065157,-78.759176
+census-designated-place,nc-cdp-butters,Butters,Butters CDP,,,,,,,not-started,0,34.5665139,-78.8511256
+census-designated-place,nc-cdp-buxton,Buxton,Buxton CDP,,,,,,,not-started,0,35.2427056,-75.5445534
+census-designated-place,nc-cdp-camden,Camden,Camden CDP,,,,,,,not-started,0,36.3251931,-76.1691894
+census-designated-place,nc-cdp-cape-colony,Cape Colony,Cape Colony CDP,,,,,,,not-started,0,36.020282,-76.5870043
+census-designated-place,nc-cdp-caroleen,Caroleen,Caroleen CDP,,,,,,,not-started,0,35.2810938,-81.791373
+census-designated-place,nc-cdp-carolina-meadows,Carolina Meadows,Carolina Meadows CDP,,,,,,,not-started,0,35.8596785,-79.0177234
+census-designated-place,nc-cdp-cashiers,Cashiers,Cashiers CDP,,,,,,,not-started,0,35.1086801,-83.0982006
+census-designated-place,nc-cdp-castle-hayne,Castle Hayne,Castle Hayne CDP,,,,,,,not-started,0,34.3550433,-77.9088655
+census-designated-place,nc-cdp-centerville,Centerville,Centerville CDP,,,,,,,not-started,0,36.1931744,-78.1124504
+census-designated-place,nc-cdp-cherry-branch,Cherry Branch,Cherry Branch CDP,,,,,,,not-started,0,34.9343159,-76.8111964
+census-designated-place,nc-cdp-chinquapin,Chinquapin,Chinquapin CDP,,,,,,,not-started,0,34.8292287,-77.8245958
+census-designated-place,nc-cdp-chowan-beach,Chowan Beach,Chowan Beach CDP,,,,,,,not-started,0,36.213926,-76.7124137
+census-designated-place,nc-cdp-cliffside,Cliffside,Cliffside CDP,,,,,,,not-started,0,35.2480027,-81.7652866
+census-designated-place,nc-cdp-coinjock,Coinjock,Coinjock CDP,,,,,,,not-started,0,36.3501227,-75.9520466
+census-designated-place,nc-cdp-cordova,Cordova,Cordova CDP,,,,,,,not-started,0,34.9140075,-79.8131635
+census-designated-place,nc-cdp-cove-creek,Cove Creek,Cove Creek CDP,,,,,,,not-started,0,36.2872928,-81.7864955
+census-designated-place,nc-cdp-cricket,Cricket,Cricket CDP,,,,,,,not-started,0,36.1688439,-81.1934008
+census-designated-place,nc-cdp-crouse,Crouse,Crouse CDP,,,,,,,not-started,0,35.424107,-81.3012296
+census-designated-place,nc-cdp-cullowhee,Cullowhee,Cullowhee CDP,,,,,,,not-started,0,35.3097258,-83.1815483
+census-designated-place,nc-cdp-cypress-landing,Cypress Landing,Cypress Landing CDP,,,,,,,not-started,0,35.4975735,-77.054678
+census-designated-place,nc-cdp-dana,Dana,Dana CDP,,,,,,,not-started,0,35.3206024,-82.3610945
+census-designated-place,nc-cdp-davis,Davis,Davis CDP,,,,,,,not-started,0,34.798141,-76.4638115
+census-designated-place,nc-cdp-deep-run,Deep Run,Deep Run CDP,,,,,,,not-started,0,35.1414287,-77.7161918
+census-designated-place,nc-cdp-deercroft,Deercroft,Deercroft CDP,,,,,,,not-started,0,34.9574599,-79.4312798
+census-designated-place,nc-cdp-delco,Delco,Delco CDP,,,,,,,not-started,0,34.318818,-78.2266605
+census-designated-place,nc-cdp-delway,Delway,Delway CDP,,,,,,,not-started,0,34.8190196,-78.2153344
+census-designated-place,nc-cdp-denver,Denver,Denver CDP,,,,,,,not-started,0,35.5455523,-81.0447055
+census-designated-place,nc-cdp-dudley,Dudley,Dudley CDP,,,,,,,not-started,0,35.2605463,-78.0415064
+census-designated-place,nc-cdp-dundarrach,Dundarrach,Dundarrach CDP,,,,,,,not-started,0,34.9246659,-79.1574608
+census-designated-place,nc-cdp-east-flat-rock,East Flat Rock,East Flat Rock CDP,,,,,,,not-started,0,35.2809252,-82.4166742
+census-designated-place,nc-cdp-east-rockingham,East Rockingham,East Rockingham CDP,,,,,,,not-started,0,34.9118806,-79.7648377
+census-designated-place,nc-cdp-edneyville,Edneyville,Edneyville CDP,,,,,,,not-started,0,35.4137857,-82.3259264
+census-designated-place,nc-cdp-efland,Efland,Efland CDP,,,,,,,not-started,0,36.0803859,-79.17134
+census-designated-place,nc-cdp-elrod,Elrod,Elrod CDP,,,,,,,not-started,0,34.6072431,-79.2307597
+census-designated-place,nc-cdp-elroy,Elroy,Elroy CDP,,,,,,,not-started,0,35.3307614,-77.9225663
+census-designated-place,nc-cdp-emma,Emma,Emma CDP,,,,,,,not-started,0,35.6019741,-82.5957704
+census-designated-place,nc-cdp-engelhard,Engelhard,Engelhard CDP,,,,,,,not-started,0,35.5092354,-76.0094597
+census-designated-place,nc-cdp-enochville,Enochville,Enochville CDP,,,,,,,not-started,0,35.5191849,-80.6685944
+census-designated-place,nc-cdp-etowah,Etowah,Etowah CDP,,,,,,,not-started,0,35.3044418,-82.5886794
+census-designated-place,nc-cdp-evergreen,Evergreen,Evergreen CDP,,,,,,,not-started,0,34.4148596,-78.911375
+census-designated-place,nc-cdp-fairfield,Fairfield,Fairfield CDP,,,,,,,not-started,0,35.5504003,-76.226508
+census-designated-place,nc-cdp-fairfield-harbour,Fairfield Harbour,Fairfield Harbour CDP,,,,,,,not-started,0,35.0698424,-76.9651604
+census-designated-place,nc-cdp-fairplains,Fairplains,Fairplains CDP,,,,,,,not-started,0,36.1929245,-81.151533
+census-designated-place,nc-cdp-fairview,Fairview,Fairview CDP,,,,,,,not-started,0,35.5225181,-82.4013077
+census-designated-place,nc-cdp-farmington,Farmington,Farmington CDP,,,,,,,not-started,0,36.0084929,-80.5356869
+census-designated-place,nc-cdp-fearrington-village,Fearrington Village,Fearrington Village CDP,,,,,,,not-started,0,35.7978916,-79.0789014
+census-designated-place,nc-cdp-five-points,Five Points,Five Points CDP,,,,,,,not-started,0,35.0154015,-79.3512668
+census-designated-place,nc-cdp-flat-rock,Flat Rock,Flat Rock CDP,,,,,,,not-started,0,36.5080046,-80.5821803
+census-designated-place,nc-cdp-forest-oaks,Forest Oaks,Forest Oaks CDP,,,,,,,not-started,0,35.9884607,-79.708028
+census-designated-place,nc-cdp-foscoe,Foscoe,Foscoe CDP,,,,,,,not-started,0,36.1535975,-81.77701
+census-designated-place,nc-cdp-frisco,Frisco,Frisco CDP,,,,,,,not-started,0,35.2469545,-75.5988219
+census-designated-place,nc-cdp-fruitland,Fruitland,Fruitland CDP,,,,,,,not-started,0,35.3980151,-82.4213723
+census-designated-place,nc-cdp-germanton,Germanton,Germanton CDP,,,,,,,not-started,0,36.2501448,-80.239041
+census-designated-place,nc-cdp-gerton,Gerton,Gerton CDP,,,,,,,not-started,0,35.4757846,-82.3504089
+census-designated-place,nc-cdp-glen-raven,Glen Raven,Glen Raven CDP,,,,,,,not-started,0,36.1240652,-79.4672683
+census-designated-place,nc-cdp-glenville,Glenville,Glenville CDP,,,,,,,not-started,0,35.1708679,-83.1216543
+census-designated-place,nc-cdp-glenwood,Glenwood,Glenwood CDP,,,,,,,not-started,0,35.6200955,-81.9827449
+census-designated-place,nc-cdp-gloucester,Gloucester,Gloucester CDP,,,,,,,not-started,0,34.7321096,-76.5386171
+census-designated-place,nc-cdp-gold-hill,Gold Hill,Gold Hill CDP,,,,,,,not-started,0,35.5185968,-80.3474909
+census-designated-place,nc-cdp-gorman,Gorman,Gorman CDP,,,,,,,not-started,0,36.0417805,-78.8068648
+census-designated-place,nc-cdp-governors-club,Governors Club,Governors Club CDP,,,,,,,not-started,0,35.8421546,-79.0475104
+census-designated-place,nc-cdp-governors-village,Governors Village,Governors Village CDP,,,,,,,not-started,0,35.8530155,-79.0255407
+census-designated-place,nc-cdp-graingers,Graingers,Graingers CDP,,,,,,,not-started,0,35.3163126,-77.506613
+census-designated-place,nc-cdp-grandy,Grandy,Grandy CDP,,,,,,,not-started,0,36.2352061,-75.8798166
+census-designated-place,nc-cdp-gulf,Gulf,Gulf CDP,,,,,,,not-started,0,35.557605,-79.2808242
+census-designated-place,nc-cdp-half-moon,Half Moon,Half Moon CDP,,,,,,,not-started,0,34.8298925,-77.4591444
+census-designated-place,nc-cdp-hallsboro,Hallsboro,Hallsboro CDP,,,,,,,not-started,0,34.3189152,-78.5933761
+census-designated-place,nc-cdp-hampstead,Hampstead,Hampstead CDP,,,,,,,not-started,0,34.3626896,-77.7544749
+census-designated-place,nc-cdp-harkers-island,Harkers Island,Harkers Island CDP,,,,,,,not-started,0,34.690658,-76.5294754
+census-designated-place,nc-cdp-hatteras,Hatteras,Hatteras CDP,,,,,,,not-started,0,35.2212378,-75.6849231
+census-designated-place,nc-cdp-hays,Hays,Hays CDP,,,,,,,not-started,0,36.2468924,-81.1141629
+census-designated-place,nc-cdp-henrietta,Henrietta,Henrietta CDP,,,,,,,not-started,0,35.2578266,-81.8044091
+census-designated-place,nc-cdp-hiddenite,Hiddenite,Hiddenite CDP,,,,,,,not-started,0,35.9077002,-81.081056
+census-designated-place,nc-cdp-hightsville,Hightsville,Hightsville CDP,,,,,,,not-started,0,34.2693531,-77.9374976
+census-designated-place,nc-cdp-hobucken,Hobucken,Hobucken CDP,,,,,,,not-started,0,35.2517581,-76.5730993
+census-designated-place,nc-cdp-hollister,Hollister,Hollister CDP,,,,,,,not-started,0,36.258282,-77.9356943
+census-designated-place,nc-cdp-hoopers-creek,Hoopers Creek,Hoopers Creek CDP,,,,,,,not-started,0,35.4451867,-82.4353178
+census-designated-place,nc-cdp-horse-shoe,Horse Shoe,Horse Shoe CDP,,,,,,,not-started,0,35.3323846,-82.562696
+census-designated-place,nc-cdp-icard,Icard,Icard CDP,,,,,,,not-started,0,35.725361,-81.4566805
+census-designated-place,nc-cdp-ingold,Ingold,Ingold CDP,,,,,,,not-started,0,34.8276535,-78.351773
+census-designated-place,nc-cdp-iron-station,Iron Station,Iron Station CDP,,,,,,,not-started,0,35.453943,-81.1547125
+census-designated-place,nc-cdp-ivanhoe,Ivanhoe,Ivanhoe CDP,,,,,,,not-started,0,34.5836252,-78.2516971
+census-designated-place,nc-cdp-jaars,JAARS,JAARS CDP,,,,,,,not-started,0,34.8644931,-80.7502614
+census-designated-place,nc-cdp-jackson-heights,Jackson Heights,Jackson Heights CDP,,,,,,,not-started,0,35.22362,-77.6332719
+census-designated-place,nc-cdp-jackson-springs,Jackson Springs,Jackson Springs CDP,,,,,,,not-started,0,35.2126751,-79.6297617
+census-designated-place,nc-cdp-james-city,James City,James City CDP,,,,,,,not-started,0,35.0453686,-76.9980974
+census-designated-place,nc-cdp-keener,Keener,Keener CDP,,,,,,,not-started,0,35.1210965,-78.2983718
+census-designated-place,nc-cdp-kelly,Kelly,Kelly CDP,,,,,,,not-started,0,34.4639632,-78.3109614
+census-designated-place,nc-cdp-kings-grant,Kings Grant,Kings Grant CDP,,,,,,,not-started,0,34.2659062,-77.8609982
+census-designated-place,nc-cdp-lake-junaluska,Lake Junaluska,Lake Junaluska CDP,,,,,,,not-started,0,35.5302063,-82.9727728
+census-designated-place,nc-cdp-lake-norman-of-catawba,Lake Norman of Catawba,Lake Norman of Catawba CDP,,,,,,,not-started,0,35.5983168,-80.987619
+census-designated-place,nc-cdp-lake-norman-of-iredell,Lake Norman of Iredell,Lake Norman of Iredell CDP,,,,,,,not-started,0,35.546984,-80.9389524
+census-designated-place,nc-cdp-lake-royale,Lake Royale,Lake Royale CDP,,,,,,,not-started,0,35.9564194,-78.184691
+census-designated-place,nc-cdp-laurel-hill,Laurel Hill,Laurel Hill CDP,,,,,,,not-started,0,34.8095257,-79.5454595
+census-designated-place,nc-cdp-light-oak,Light Oak,Light Oak CDP,,,,,,,not-started,0,35.2866922,-81.4773859
+census-designated-place,nc-cdp-linville,Linville,Linville CDP,,,,,,,not-started,0,36.0674736,-81.8714305
+census-designated-place,nc-cdp-long-creek,Long Creek,Long Creek CDP,,,,,,,not-started,0,34.4340439,-78.0171618
+census-designated-place,nc-cdp-lowesville,Lowesville,Lowesville CDP,,,,,,,not-started,0,35.4245205,-81.0051837
+census-designated-place,nc-cdp-lowgap,Lowgap,Lowgap CDP,,,,,,,not-started,0,36.5249575,-80.8712257
+census-designated-place,nc-cdp-mamers,Mamers,Mamers CDP,,,,,,,not-started,0,35.4113141,-78.9366141
+census-designated-place,nc-cdp-manns-harbor,Manns Harbor,Manns Harbor CDP,,,,,,,not-started,0,35.8984879,-75.7806869
+census-designated-place,nc-cdp-mar-mac,Mar-Mac,Mar-Mac CDP,,,,,,,not-started,0,35.3308382,-78.0569918
+census-designated-place,nc-cdp-marble,Marble,Marble CDP,,,,,,,not-started,0,35.1769542,-83.9265231
+census-designated-place,nc-cdp-marshallberg,Marshallberg,Marshallberg CDP,,,,,,,not-started,0,34.7260153,-76.5135564
+census-designated-place,nc-cdp-maury,Maury,Maury CDP,,,,,,,not-started,0,35.4792018,-77.5902239
+census-designated-place,nc-cdp-mcleansville,McLeansville,McLeansville CDP,,,,,,,not-started,0,36.0975554,-79.6547482
+census-designated-place,nc-cdp-millers-creek,Millers Creek,Millers Creek CDP,,,,,,,not-started,0,36.1908666,-81.2355529
+census-designated-place,nc-cdp-millingport,Millingport,Millingport CDP,,,,,,,not-started,0,35.3763539,-80.3113413
+census-designated-place,nc-cdp-milwaukee,Milwaukee,Milwaukee CDP,,,,,,,not-started,0,36.4025353,-77.2312133
+census-designated-place,nc-cdp-moncure,Moncure,Moncure CDP,,,,,,,not-started,0,35.6258203,-79.0746805
+census-designated-place,nc-cdp-moravian-falls,Moravian Falls,Moravian Falls CDP,,,,,,,not-started,0,36.1088001,-81.1864126
+census-designated-place,nc-cdp-mountain-home,Mountain Home,Mountain Home CDP,,,,,,,not-started,0,35.3703223,-82.5019718
+census-designated-place,nc-cdp-mountain-view,Mountain View,Mountain View CDP,,,,,,,not-started,0,35.6830973,-81.3689526
+census-designated-place,nc-cdp-moyock,Moyock,Moyock CDP,,,,,,,not-started,0,36.5011982,-76.1733303
+census-designated-place,nc-cdp-mulberry,Mulberry,Mulberry CDP,,,,,,,not-started,0,36.2257226,-81.1652362
+census-designated-place,nc-cdp-murraysville,Murraysville,Murraysville CDP,,,,,,,not-started,0,34.2916286,-77.8423372
+census-designated-place,nc-cdp-myrtle-grove,Myrtle Grove,Myrtle Grove CDP,,,,,,,not-started,0,34.1258546,-77.8880395
+census-designated-place,nc-cdp-nebo,Nebo,Nebo CDP,,,,,,,not-started,0,35.7163945,-81.9163008
+census-designated-place,nc-cdp-neuse-forest,Neuse Forest,Neuse Forest CDP,,,,,,,not-started,0,34.9649831,-76.9443602
+census-designated-place,nc-cdp-new-hope,New Hope,New Hope CDP,,,,,,,not-started,0,35.3782316,-77.8921977
+census-designated-place,nc-cdp-northchase,Northchase,Northchase CDP,,,,,,,not-started,0,34.307823,-77.8774878
+census-designated-place,nc-cdp-northlakes,Northlakes,Northlakes CDP,,,,,,,not-started,0,35.7807015,-81.3672632
+census-designated-place,nc-cdp-ocracoke,Ocracoke,Ocracoke CDP,,,,,,,not-started,0,35.0732314,-75.9985272
+census-designated-place,nc-cdp-ogden,Ogden,Ogden CDP,,,,,,,not-started,0,34.2634266,-77.7890052
+census-designated-place,nc-cdp-old-hundred,Old Hundred,Old Hundred CDP,,,,,,,not-started,0,34.8244908,-79.5921464
+census-designated-place,nc-cdp-pinetown,Pinetown,Pinetown CDP,,,,,,,not-started,0,35.6111004,-76.8557891
+census-designated-place,nc-cdp-piney-green,Piney Green,Piney Green CDP,,,,,,,not-started,0,34.7655424,-77.3010346
+census-designated-place,nc-cdp-pinnacle,Pinnacle,Pinnacle CDP,,,,,,,not-started,0,36.3227731,-80.4231668
+census-designated-place,nc-cdp-plain-view,Plain View,Plain View CDP,,,,,,,not-started,0,35.2439908,-78.5602251
+census-designated-place,nc-cdp-pleasant-hill,Pleasant Hill,Pleasant Hill CDP,,,,,,,not-started,0,36.2540373,-80.89462
+census-designated-place,nc-cdp-porters-neck,Porters Neck,Porters Neck CDP,,,,,,,not-started,0,34.293204,-77.7706166
+census-designated-place,nc-cdp-potters-hill,Potters Hill,Potters Hill CDP,,,,,,,not-started,0,34.9645469,-77.7031529
+census-designated-place,nc-cdp-prospect,Prospect,Prospect CDP,,,,,,,not-started,0,34.7358109,-79.2251554
+census-designated-place,nc-cdp-pumpkin-center,Pumpkin Center,Pumpkin Center CDP,,,,,,,not-started,0,34.7860338,-77.3641749
+census-designated-place,nc-cdp-raemon,Raemon,Raemon CDP,,,,,,,not-started,0,34.6171304,-79.3462746
+census-designated-place,nc-cdp-rex,Rex,Rex CDP,,,,,,,not-started,0,34.8507941,-79.0468524
+census-designated-place,nc-cdp-riegelwood,Riegelwood,Riegelwood CDP,,,,,,,not-started,0,34.3401073,-78.2203646
+census-designated-place,nc-cdp-river-road,River Road,River Road CDP,,,,,,,not-started,0,35.5083428,-76.9871189
+census-designated-place,nc-cdp-roberdel,Roberdel,Roberdel CDP,,,,,,,not-started,0,34.9790751,-79.7479492
+census-designated-place,nc-cdp-rockfish,Rockfish,Rockfish CDP,,,,,,,not-started,0,34.9905573,-79.0700603
+census-designated-place,nc-cdp-rocky-point,Rocky Point,Rocky Point CDP,,,,,,,not-started,0,34.4440481,-77.8909071
+census-designated-place,nc-cdp-rodanthe,Rodanthe,Rodanthe CDP,,,,,,,not-started,0,35.592476,-75.466355
+census-designated-place,nc-cdp-rougemont,Rougemont,Rougemont CDP,,,,,,,not-started,0,36.2125518,-78.9119157
+census-designated-place,nc-cdp-royal-pines,Royal Pines,Royal Pines CDP,,,,,,,not-started,0,35.4788219,-82.5023127
+census-designated-place,nc-cdp-ruffin,Ruffin,Ruffin CDP,,,,,,,not-started,0,36.4371895,-79.5345232
+census-designated-place,nc-cdp-salem,Salem,Salem CDP,,,,,,,not-started,0,35.699725,-81.7002985
+census-designated-place,nc-cdp-salvo,Salvo,Salvo CDP,,,,,,,not-started,0,35.5485357,-75.4681683
+census-designated-place,nc-cdp-saxapahaw,Saxapahaw,Saxapahaw CDP,,,,,,,not-started,0,35.9607512,-79.3161685
+census-designated-place,nc-cdp-scotch-meadows,Scotch Meadows,Scotch Meadows CDP,,,,,,,not-started,0,34.6889482,-79.5177161
+census-designated-place,nc-cdp-sea-breeze,Sea Breeze,Sea Breeze CDP,,,,,,,not-started,0,34.0663776,-77.8924602
+census-designated-place,nc-cdp-seven-lakes,Seven Lakes,Seven Lakes CDP,,,,,,,not-started,0,35.2642313,-79.5860198
+census-designated-place,nc-cdp-shannon,Shannon,Shannon CDP,,,,,,,not-started,0,34.8476682,-79.1395868
+census-designated-place,nc-cdp-silver-city,Silver City,Silver City CDP,,,,,,,not-started,0,34.9972411,-79.2291858
+census-designated-place,nc-cdp-silver-lake,Silver Lake,Silver Lake CDP,,,,,,,not-started,0,34.1425406,-77.9092836
+census-designated-place,nc-cdp-skippers-corner,Skippers Corner,Skippers Corner CDP,,,,,,,not-started,0,34.3267181,-77.9146245
+census-designated-place,nc-cdp-smithtown,Smithtown,Smithtown CDP,,,,,,,not-started,0,36.2326194,-80.5677043
+census-designated-place,nc-cdp-sneads-ferry,Sneads Ferry,Sneads Ferry CDP,,,,,,,not-started,0,34.5551701,-77.3776773
+census-designated-place,nc-cdp-south-henderson,South Henderson,South Henderson CDP,,,,,,,not-started,0,36.3033039,-78.4059451
+census-designated-place,nc-cdp-south-mills,South Mills,South Mills CDP,,,,,,,not-started,0,36.4378658,-76.3307403
+census-designated-place,nc-cdp-south-rosemary,South Rosemary,South Rosemary CDP,,,,,,,not-started,0,36.4533567,-77.7134208
+census-designated-place,nc-cdp-south-weldon,South Weldon,South Weldon CDP,,,,,,,not-started,0,36.4135525,-77.6024245
+census-designated-place,nc-cdp-southmont,Southmont,Southmont CDP,,,,,,,not-started,0,35.6504271,-80.2760236
+census-designated-place,nc-cdp-spivey-s-corner,Spivey's Corner,Spivey's Corner CDP,,,,,,,not-started,0,35.1982219,-78.4825621
+census-designated-place,nc-cdp-spout-springs,Spout Springs,Spout Springs CDP,,,,,,,not-started,0,35.2736166,-79.0456222
+census-designated-place,nc-cdp-springdale,Springdale,Springdale CDP,,,,,,,not-started,0,35.2902901,-81.1452926
+census-designated-place,nc-cdp-st-stephens,St. Stephens,St. Stephens CDP,,,,,,,not-started,0,35.7645558,-81.2729485
+census-designated-place,nc-cdp-stokes,Stokes,Stokes CDP,,,,,,,not-started,0,35.7105413,-77.2675975
+census-designated-place,nc-cdp-stony-point,Stony Point,Stony Point CDP,,,,,,,not-started,0,35.8678092,-81.0441212
+census-designated-place,nc-cdp-sunbury,Sunbury,Sunbury CDP,,,,,,,not-started,0,36.4468944,-76.6127323
+census-designated-place,nc-cdp-swan-quarter,Swan Quarter,Swan Quarter CDP,,,,,,,not-started,0,35.4130339,-76.3197112
+census-designated-place,nc-cdp-swannanoa,Swannanoa,Swannanoa CDP,,,,,,,not-started,0,35.600972,-82.3882697
+census-designated-place,nc-cdp-toast,Toast,Toast CDP,,,,,,,not-started,0,36.4966791,-80.6354534
+census-designated-place,nc-cdp-tyro,Tyro,Tyro CDP,,,,,,,not-started,0,35.7997119,-80.3764457
+census-designated-place,nc-cdp-valle-crucis,Valle Crucis,Valle Crucis CDP,,,,,,,not-started,0,36.2156261,-81.7966387
+census-designated-place,nc-cdp-valley-hill,Valley Hill,Valley Hill CDP,,,,,,,not-started,0,35.2939015,-82.492677
+census-designated-place,nc-cdp-vander,Vander,Vander CDP,,,,,,,not-started,0,35.0382736,-78.785383
+census-designated-place,nc-cdp-vann-crossroads,Vann Crossroads,Vann Crossroads CDP,,,,,,,not-started,0,35.1701289,-78.4041099
+census-designated-place,nc-cdp-wakulla,Wakulla,Wakulla CDP,,,,,,,not-started,0,34.7969605,-79.2559704
+census-designated-place,nc-cdp-wanchese,Wanchese,Wanchese CDP,,,,,,,not-started,0,35.840187,-75.6416574
+census-designated-place,nc-cdp-waves,Waves,Waves CDP,,,,,,,not-started,0,35.569385,-75.4652794
+census-designated-place,nc-cdp-welcome,Welcome,Welcome CDP,,,,,,,not-started,0,35.9066236,-80.2547733
+census-designated-place,nc-cdp-west-canton,West Canton,West Canton CDP,,,,,,,not-started,0,35.538745,-82.864725
+census-designated-place,nc-cdp-west-marion,West Marion,West Marion CDP,,,,,,,not-started,0,35.6525656,-82.01922
+census-designated-place,nc-cdp-westport,Westport,Westport CDP,,,,,,,not-started,0,35.5011205,-80.9693203
+census-designated-place,nc-cdp-white-oak,White Oak,White Oak CDP,,,,,,,not-started,0,34.7396612,-78.7185901
+census-designated-place,nc-cdp-white-plains,White Plains,White Plains CDP,,,,,,,not-started,0,36.4437667,-80.6490018
+census-designated-place,nc-cdp-whittier,Whittier,Whittier CDP,,,,,,,not-started,0,35.4346765,-83.3547579
+census-designated-place,nc-cdp-woodlawn,Woodlawn,Woodlawn CDP,,,,,,,not-started,0,36.1179574,-79.2959196
+census-designated-place,nc-cdp-wrightsboro,Wrightsboro,Wrightsboro CDP,,,,,,,not-started,0,34.2875606,-77.9301148
+census-designated-place,nc-cdp-yadkin-college,Yadkin College,Yadkin College CDP,,,,,,,not-started,0,35.8724658,-80.3871016

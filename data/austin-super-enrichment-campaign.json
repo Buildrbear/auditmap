@@ -1,0 +1,68 @@
+{
+  "campaign": "Austin high-impact public destinations",
+  "checkedAt": "2026-08-06",
+  "releaseStandard": {
+    "minimumParentImages": 4,
+    "minimumSubsites": 8,
+    "minimumParentQuestions": 11,
+    "minimumSubsiteQuestions": 9
+  },
+  "places": [
+    {
+      "id": "launch-tx-austin-zilker-metropolitan-park",
+      "name": "Zilker Metropolitan Park",
+      "operator": "Austin Parks and Recreation",
+      "source": "https://www.austintexas.gov/parks/locations/zilker-metropolitan-park",
+      "subsites": ["Barton Springs Pool", "Zilker Playscape", "Zilker Great Lawn", "Zilker Botanical Garden", "Austin Nature and Science Center", "Zilker Hillside Theater", "Zilker Eagle miniature train", "Barton Creek access"]
+    },
+    {
+      "id": "launch-tx-austin-mueller-lake-park",
+      "name": "Mueller Lake Park",
+      "operator": "Mueller Austin",
+      "source": "https://muelleraustin.com/parks/",
+      "subsites": ["Mueller Lake loop trail", "Mueller Lake Park playground", "Browning Hangar", "Mueller Lake picnic trellis", "Mueller Lake amphitheater", "Mueller Southwest Greenway", "Mueller Farmers Market area", "Aldrich Street and Mueller Central"]
+    },
+    {
+      "id": "launch-tx-austin-mckinney-falls-state-park",
+      "name": "McKinney Falls State Park",
+      "operator": "Texas Parks and Wildlife Department",
+      "source": "https://tpwd.texas.gov/state-parks/mckinney-falls",
+      "subsites": ["Upper Falls", "Lower Falls", "Old Baldy", "Smith Rock Shelter", "McKinney Homestead ruins", "Onion Creek Hike and Bike Trail", "Rock Shelter Trail", "McKinney Falls campground"]
+    },
+    {
+      "id": "launch-tx-austin-pease-district-park",
+      "name": "Pease District Park",
+      "operator": "Austin Parks and Recreation and Pease Park Conservancy",
+      "source": "https://peasepark.org/visit",
+      "subsites": ["Kingsbury Commons", "Pease Park Treehouse", "Pease Splash Pad", "Pease Park nature play area", "Tudor Cottage", "Pease Park basketball court", "Shoal Creek Trail", "Pease Park Great Lawn"]
+    },
+    {
+      "id": "launch-tx-austin-waterloo-park",
+      "name": "Waterloo Park",
+      "operator": "Waterloo Greenway Conservancy",
+      "source": "https://waterloogreenway.org/visit/",
+      "subsites": ["Moody Amphitheater", "Meredith Heritage Tree Deck", "Lebermann Plaza", "Waterloo Park playground", "Waller Creek trail", "Hill Country Garden", "Wetland Terrace", "Waterloo Park Great Lawn"]
+    },
+    {
+      "id": "launch-tx-austin-butler-metro-park",
+      "name": "Butler Metro Park",
+      "operator": "Austin Parks and Recreation",
+      "source": "https://www.austintexas.gov/parks/alliance-childrens-garden",
+      "subsites": ["Alliance Children's Garden", "Liz Carpenter Splash Pad", "Doug Sahm Hill", "Butler Park observation hill", "Butler Park pond", "Butler Park walking paths", "Palmer Events Center lawn", "Long Center terrace and skyline lawn"]
+    },
+    {
+      "id": "launch-tx-austin-ann-and-roy-butler-hike-and-bike-trail",
+      "name": "Ann and Roy Butler Hike-and-Bike Trail",
+      "operator": "Austin Parks and Recreation and The Trail Conservancy",
+      "source": "https://www.austintexas.gov/parks/locations/ann-and-roy-butler-hike-and-bike-trail-and-boardwalk-lady-bird-lake",
+      "subsites": ["Lady Bird Lake Boardwalk", "Auditorium Shores", "Congress Avenue Bridge trail crossing", "Festival Beach trailhead", "International Shores trailhead", "Pfluger Pedestrian Bridge", "Wishbone Bridge", "Lou Neff Point"]
+    },
+    {
+      "id": "launch-tx-austin-emma-long-metropolitan-park",
+      "name": "Emma Long Metropolitan Park",
+      "operator": "Austin Parks and Recreation",
+      "source": "https://www.austintexas.gov/parks/emma-long-metropolitan-park",
+      "subsites": ["Emma Long swimming beach", "Emma Long boat ramps", "Turkey Creek Trail", "Emma Long day-use picnic area", "Emma Long primitive campground", "Emma Long utility campground", "Emma Long reservable picnic sites", "Emma Long volleyball and play area"]
+    }
+  ]
+}

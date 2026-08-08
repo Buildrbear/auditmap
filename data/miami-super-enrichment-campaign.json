@@ -1,0 +1,122 @@
+{
+  "campaign": "Miami high-impact public destinations",
+  "checkedAt": "2026-08-05",
+  "releaseStandard": {
+    "minimumParentImages": 3,
+    "minimumSubsites": 3,
+    "minimumParentQuestions": 10,
+    "minimumSubsiteQuestions": 8,
+    "requiredIntents": ["hours", "parking", "entrance", "restroom", "fees", "accessibility", "family", "weather", "need-to-know"],
+    "coastalRequirements": ["swimming conditions", "lifeguard status", "storm and lightning guidance", "shade", "showers", "beach mobility", "capacity closures"]
+  },
+  "places": [
+    {
+      "id": "launch-fl-miami-maurice-a-ferre-park",
+      "name": "Maurice A. Ferré Park",
+      "city": "Miami",
+      "priority": "anchor",
+      "officialSource": "https://www.miamigov.com/Parks-Public-Places/Parks-Directory/Maurice-A.-Ferre-Park",
+      "address": "1075 Biscayne Boulevard, Miami, FL 33132",
+      "focus": "Downtown bayfront park linking museums, public art, waterfront paths, transit, and family lawn space.",
+      "subsites": ["Pérez Art Museum Miami", "Phillip and Patricia Frost Museum of Science", "Havana's Balcony and public art walk", "Biscayne Bay waterfront promenade"],
+      "photoQueries": ["Maurice A Ferre Park Miami waterfront", "Museum Park Miami public art", "Frost Science Museum Miami exterior"],
+      "existingReusableImages": 2
+    },
+    {
+      "id": "launch-fl-miami-bayfront-park",
+      "name": "Bayfront Park",
+      "city": "Miami",
+      "priority": "anchor",
+      "officialSource": "https://www.miamigov.com/Parks-Public-Places/Parks-Directory/Bayfront-Park",
+      "address": "301 Biscayne Boulevard, Miami, FL 33132",
+      "focus": "Downtown waterfront gathering park where events, Metromover access, playground use, monuments, and Bayside traffic change the practical visit.",
+      "subsites": ["Tina Hills Pavilion", "Isamu Noguchi monuments and fountain", "Bay Walk and waterfront", "Bayside Marketplace connection"],
+      "photoQueries": ["Bayfront Park Miami waterfront", "Bayfront Park Noguchi fountain", "Tina Hills Pavilion Miami"],
+      "existingReusableImages": 3
+    },
+    {
+      "id": "launch-fl-miami-matheson-hammock-park",
+      "name": "Matheson Hammock Park",
+      "city": "Miami",
+      "priority": "anchor",
+      "officialSource": "https://www.miamidade.gov/global/recreation/park/matheson-hammock-park.page",
+      "address": "9610 Old Cutler Road, Miami, FL 33156",
+      "focus": "Historic county park with a tidal atoll pool, marina, mangrove and hammock landscapes, shelters, restaurant, and separated west-side natural areas.",
+      "verifiedFacts": ["Open sunrise to sunset", "Office open daily 8 a.m.-5 p.m.", "Parking $7 plus tax weekdays and $10 plus tax weekends/holidays", "Pets prohibited in the main park", "Flotation devices prohibited at the beach"],
+      "subsites": ["Atoll Pool and beach", "Matheson Marina and boat ramps", "Red Fish restaurant and coral-rock shelter", "West Matheson natural area"],
+      "photoQueries": ["Matheson Hammock atoll pool", "Matheson Hammock marina", "Matheson Hammock mangrove trail"],
+      "existingReusableImages": 2,
+      "photoWarning": "Existing historic images are authentic but do not adequately represent the present-day visitor experience; acquire modern sourced images before release."
+    },
+    {
+      "id": "launch-fl-miami-beach-south-pointe-park",
+      "name": "South Pointe Park",
+      "city": "Miami Beach",
+      "priority": "anchor",
+      "officialSource": "https://www.miamibeachfl.gov/city-hall/parks-and-recreation/parks-facilities-directory/south-pointe-park/",
+      "address": "1 Washington Avenue, Miami Beach, FL 33139",
+      "focus": "Family-friendly waterfront park combining pier, beach, splash pad, playground, promenade, cruise-ship views, and beach mobility support.",
+      "subsites": ["South Pointe Pier", "South Pointe splash pad and playground", "Cutwalk and promenade", "South Pointe beach access"],
+      "officialImages": [
+        "https://www.miamibeachfl.gov/wp-content/uploads/2024/02/ParksSquare-SouthPointePark.jpeg",
+        "https://www.miamibeachfl.gov/wp-content/uploads/2024/03/Parks-Gallery-3-SouthPointePark-300x300.jpeg",
+        "https://www.miamibeachfl.gov/wp-content/uploads/2024/03/Parks-Gallery-5-SouthPointePark-300x300.jpeg",
+        "https://www.miamibeachfl.gov/wp-content/uploads/2024/03/Parks-Gallery-2-SouthPointePark-300x300.jpeg"
+      ],
+      "accessibilitySource": "https://www.miamibeachfl.gov/ada/beach-wheelchair-access/"
+    },
+    {
+      "id": "launch-fl-miami-beach-lummus-park",
+      "name": "Lummus Park",
+      "city": "Miami Beach",
+      "priority": "anchor",
+      "officialSource": "https://www.miamibeachfl.gov/city-hall/parks-and-recreation/parks-facilities-directory/lummus-park/",
+      "address": "Ocean Drive between 5 Street and 14 Place, Miami Beach, FL 33139",
+      "focus": "South Beach's linear beachfront park with distinct restroom stations, playground, Muscle Beach, volleyball, paths, beach access, and event impacts.",
+      "verifiedFacts": ["Open sunrise to midnight", "Public restrooms and water at 6th, 10th, and 14th Streets", "Outdoor fitness generally 7:30 a.m.-sunset", "Restricted parking along Ocean Drive"],
+      "subsites": ["Lummus playground", "Muscle Beach South Beach", "6th Street outdoor fitness", "Beachfront walking and cycling path"],
+      "officialImages": [
+        "https://www.miamibeachfl.gov/wp-content/uploads/2024/02/Parks-Square-40-LummusPark6Street.jpeg",
+        "https://www.miamibeachfl.gov/wp-content/uploads/bb-plugin/cache/Parks-Gallery-15-MuscleBeach-circle.jpeg",
+        "https://www.miamibeachfl.gov/wp-content/uploads/bb-plugin/cache/Parks-Square-42-LummusParkPlayground-circle.jpeg",
+        "https://www.miamibeachfl.gov/wp-content/uploads/bb-plugin/cache/Parks-Gallery-16-LummusWalkingTrail-circle.jpeg"
+      ],
+      "accessibilitySource": "https://www.miamibeachfl.gov/ada/beach-wheelchair-access/"
+    },
+    {
+      "id": "launch-fl-key-biscayne-crandon-park",
+      "name": "Crandon Park",
+      "city": "Key Biscayne",
+      "priority": "anchor",
+      "officialSource": "https://www.miamidade.gov/global/recreation/park/crandon-park.page",
+      "address": "6747 Crandon Boulevard, Key Biscayne, FL 33149",
+      "focus": "Two-mile county beach and nature destination with calm-water sandbar, concessions, family amusement area, nature center, preserve, cabanas, and extensive parking.",
+      "verifiedFacts": ["Main office open daily 8 a.m.-5 p.m.", "Parking $7 plus tax Monday-Thursday and $10 plus tax Friday-Sunday", "Pets prohibited except service animals", "Flotation devices prohibited", "Beach wheelchairs available without charge"],
+      "subsites": ["Crandon Beach north and south areas", "Family Amusement Center and carousel", "Visitor and Nature Center", "Bear Cut Preserve and fossil-reef overlook"],
+      "commonsImages": ["Crandon Park beach, FL.jpg", "Crandon Park Modified.jpg", "Crandon Beach.jpg"]
+    },
+    {
+      "id": "launch-fl-key-biscayne-bill-baggs-cape-florida-state-park",
+      "name": "Bill Baggs Cape Florida State Park",
+      "city": "Key Biscayne",
+      "priority": "anchor",
+      "officialSource": "https://www.floridastateparks.org/parks-and-trails/bill-baggs-cape-florida-state-park",
+      "address": "1200 S. Crandon Boulevard, Key Biscayne, FL 33149",
+      "focus": "State park combining beach, lighthouse history and tours, No Name Harbor, food, bikes and paddling, picnic shelters, fishing, and sunset views.",
+      "verifiedFacts": ["Open 8 a.m.-sundown every day", "$8 per vehicle for two-eight people", "Park closes at capacity and may not reopen for at least two hours", "Fishing piers closed for repair", "Restroom 2, beach access 3, and pavilions A8-A9 closed for renovations"],
+      "subsites": ["Cape Florida Lighthouse and keeper's cottage", "Cape Florida beach", "No Name Harbor", "Lighthouse Café and picnic pavilions"],
+      "commonsImages": ["Cape Florida Lighthouse (8).jpg", "Bill Baggs SP beach01.jpg", "Cape Florida Beach 2.jpg"]
+    },
+    {
+      "id": "launch-fl-miami-historic-virginia-key-beach-park",
+      "name": "Historic Virginia Key Beach Park",
+      "city": "Miami",
+      "priority": "anchor",
+      "officialSource": "https://virginiakeybeachpark.net/",
+      "address": "4020 Virginia Beach Drive, Miami, FL 33149",
+      "focus": "Historic Black beach and cultural landscape with shoreline, restored dance floor and carousel area, miniature train history, wetlands, picnic facilities, and event programming.",
+      "subsites": ["Historic beach and shoreline", "Dance floor and cultural landscape", "Mini train and station history", "Wetland boardwalk and nature areas"],
+      "commonsImages": ["Virginia Key, Miami, Florida.jpg", "Miami FL Virginia Key Beach Park dance floor01.jpg", "Miami FL Virginia Key Beach Park RR05.jpg", "Miami FL Virginia Key Beach Park marker01.jpg"]
+    }
+  ]
+}

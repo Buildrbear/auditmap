@@ -1,0 +1,43 @@
+const assert = require("node:assert/strict");
+const fs = require("node:fs");
+const path = require("node:path");
+const { execFileSync } = require("node:child_process");
+const { validateResults } = require("./lib/discovery-experiment");
+const { nationalDailyPostId } = require("./lib/national-daily-identifiers");
+
+const root = path.resolve(__dirname, "..");
+execFileSync(process.execPath, [path.join(root, "scripts/generate-national-daily-discovery.js")]);
+const queue = JSON.parse(fs.readFileSync(path.join(root, "data/generated/marketing/national-daily-discovery.json"), "utf8"));
+const results = JSON.parse(fs.readFileSync(path.join(root, "data/discovery-campaigns/national-daily-discovery-results.json"), "utf8"));
+const cohort = JSON.parse(fs.readFileSync(path.join(root, "data/discovery-campaigns/national-daily-discovery-cohort.json"), "utf8"));
+assert.equal(queue.status, "review");
+assert.equal(queue.cohortStatus, "approved-cohort");
+assert.equal(queue.market, "National rotation");
+assert.equal(queue.posts.length, 14);
+assert.equal(new Set(queue.posts.map(({ id }) => id)).size, 14);
+assert.equal(new Set(queue.posts.map(({ placeId }) => placeId)).size, 14);
+assert.equal(new Set(queue.posts.map(({ city, state }) => `${city}|${state}`)).size, 14);
+assert.equal(new Set(queue.posts.map(({ state }) => state)).size, 14);
+assert.equal(new Set(queue.posts.map(({ region }) => region)).size, 4);
+assert.deepEqual(queue.posts.map(({ placeId }) => placeId), cohort.placeIds);
+for (const post of queue.posts) {
+  assert.equal(post.series, "Daily public place");
+  assert.equal(post.id, nationalDailyPostId(post.placeId));
+  assert.equal(post.hook, "Daily reminder to explore somewhere public");
+  assert.ok(post.xLength <= 280);
+  assert.doesNotMatch(post.text, /…/);
+  assert.doesNotMatch(post.text, /Choose one latitude cluster|Check current|depends on|(?:vary|varies)\.?\n\n|Do not navigate only/i);
+  assert.match(post.url, /utm_campaign=national_daily_discovery/);
+  assert.equal(new URL(post.url).searchParams.get("utm_content"), post.id);
+  assert.ok(post.answerEvidence.source && post.answerEvidence.sourceLabel && post.answerEvidence.checkedAt);
+  assert.ok(post.image.source && post.image.author && post.image.license && post.image.alt);
+  assert.match(post.image.license, /public domain|cc0|cc by|cc-by|creative commons/i);
+  const route = new URL(post.url).pathname;
+  assert.ok(fs.existsSync(path.join(root, route, "index.html")), `Missing public page for ${post.placeId}`);
+}
+assert.equal(nationalDailyPostId("dix-park", 1), nationalDailyPostId("dix-park", 99));
+validateResults(queue, results);
+const brief = fs.readFileSync(path.join(root, "preview/national-daily-discovery-launch.md"), "utf8");
+assert.match(brief, /nothing is posted automatically/);
+assert.equal((brief.match(/^## Day /gm) || []).length, 14);
+console.log("National daily queue geography, freshness, evidence, image rights, links, and X-length contracts passed.");

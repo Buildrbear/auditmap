@@ -1,0 +1,65 @@
+{
+  "checkedAt": "2026-08-08",
+  "deploymentId": "dpl_FANQuVgxhwdBKRwtetzKQ9QdFP4b",
+  "previewUrl": "https://auditmap-74sk4oq7k-derrys-projects-f5a18cb6.vercel.app",
+  "target": "preview",
+  "productionPublished": false,
+  "completedCampaigns": 49,
+  "campaignVerifierFailures": 0,
+  "excludedIncompleteCampaigns": [
+    "Tucson and Tulsa anchor connector"
+  ],
+  "routeChecks": [
+    {
+      "path": "/us/ca/long-beach/parks/el-dorado-east-regional-park",
+      "status": 200,
+      "rawHtmlChecks": [
+        "El Dorado East Regional Park",
+        "El Dorado Nature Center Trails",
+        "City of Long Beach",
+        "canonical"
+      ]
+    },
+    {
+      "path": "/us/sd/sioux-falls/parks/falls-park",
+      "status": 200,
+      "rawHtmlChecks": [
+        "Falls Park",
+        "Queen Bee Mill Ruins",
+        "Experience Sioux Falls",
+        "canonical"
+      ]
+    },
+    {
+      "path": "/us/sd/sioux-falls/parks/falls-park/falls-park-viewing-tower",
+      "status": 200,
+      "rawHtmlChecks": [
+        "Falls Park Viewing Tower",
+        "elevator",
+        "seasonal",
+        "Experience Sioux Falls",
+        "43.5582604,-96.7224153"
+      ]
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "rawHtmlChecks": [
+        "https://www.auditmap.org/us/ca/long-beach/parks/el-dorado-east-regional-park",
+        "https://www.auditmap.org/us/ca/long-beach/parks/el-dorado-east-regional-park/el-dorado-nature-center-trails",
+        "https://www.auditmap.org/us/sd/sioux-falls/parks/falls-park",
+        "https://www.auditmap.org/us/sd/sioux-falls/parks/falls-park/falls-park-viewing-tower"
+      ]
+    }
+  ],
+  "layoutChecks": {
+    "mobileWidth": 390,
+    "elDoradoParentScrollWidth": 390,
+    "fallsParkViewingTowerScrollWidth": 390,
+    "fallsParkViewingTowerExactNavigation": true,
+    "desktopWidth": 1440,
+    "fallsParkParentScrollWidth": 1440,
+    "fallsParkPublishedSubsitesVisible": 4
+  },
+  "result": "preview-ready-maintainer-review-required"
+}

@@ -1,0 +1,105 @@
+{
+  "campaign": "New Jersey and Connecticut corridor",
+  "checkedAt": "2026-08-08",
+  "releaseStandard": "Four licensed destination-specific photos, preserved official visitor answers, full street addresses, and only named subsites with reviewed coordinates plus destination-specific photography.",
+  "places": [
+    {
+      "id": "launch-nj-newark-branch-brook-park",
+      "name": "Branch Brook Park",
+      "city": "Newark",
+      "state": "NJ",
+      "citySlug": "newark-nj",
+      "operator": "Essex County Parks",
+      "source": "https://essexcountyparks.org/parks/branch-brook-park",
+      "featureResearchRadiusMeters": 3500,
+      "imageQueries": ["Branch Brook Park Newark", "Branch Brook Park cherry blossoms", "Branch Brook Park Concert Grove", "Branch Brook Park lake"],
+      "subsites": ["Cherry Blossom Welcome Center", "Prudential Concert Grove", "Branch Brook Lake", "Branch Brook Park Roller Skating Center", "Children's Garden", "Park Avenue Bridge"]
+    },
+    {
+      "id": "launch-nj-newark-weequahic-park",
+      "name": "Weequahic Park",
+      "city": "Newark",
+      "state": "NJ",
+      "citySlug": "newark-nj",
+      "operator": "Essex County Parks",
+      "source": "https://essexcountyparks.org/parks/weequahic-park",
+      "minimumImages": 3,
+      "featureResearchRadiusMeters": 3000,
+      "imageQueries": ["Weequahic Park Newark", "Weequahic Lake Newark", "Weequahic Park track", "Weequahic Park playground"],
+      "subsites": ["Weequahic Lake", "Weequahic Park Track", "Weequahic Golf Course", "Weequahic Playground", "Divident Hill Pavilion"]
+    },
+    {
+      "id": "launch-nj-jersey-city-liberty-state-park",
+      "name": "Liberty State Park",
+      "city": "Jersey City",
+      "state": "NJ",
+      "citySlug": "jersey-city-nj",
+      "operator": "New Jersey State Park Service",
+      "source": "https://dep.nj.gov/parksandforests/state-park/liberty-state-park/",
+      "featureResearchRadiusMeters": 4200,
+      "imageQueries": ["Liberty State Park Jersey City", "Empty Sky Memorial", "Central Railroad of New Jersey Terminal", "Liberty State Park picnic area"],
+      "subsites": ["Empty Sky 9/11 Memorial", "Central Railroad of New Jersey Terminal", "Liberty State Park Nature Center", "Liberty Walk", "Green Park Playground", "Picnic Area", "Ferry Landing"]
+    },
+    {
+      "id": "launch-nj-jersey-city-lincoln-park",
+      "name": "Lincoln Park",
+      "city": "Jersey City",
+      "state": "NJ",
+      "citySlug": "jersey-city-nj",
+      "operator": "Hudson County Parks",
+      "source": "https://www.visithudson.org/lincoln-park/",
+      "featureResearchRadiusMeters": 2800,
+      "imageQueries": ["Lincoln Park Jersey City", "Lincoln Park Jersey City lake", "Lincoln Park Jersey City playground", "Lincoln Park West Jersey City"],
+      "subsites": ["Lincoln Park Fountain", "Lincoln Park West Nature Trail", "Lincoln Park Playground", "Joseph J. Jaroschak Field", "Lincoln Park Golf Course", "Lincoln Park Track"]
+    },
+    {
+      "id": "launch-ct-new-haven-east-rock-park",
+      "name": "East Rock Park",
+      "city": "New Haven",
+      "state": "CT",
+      "citySlug": "new-haven-ct",
+      "operator": "City of New Haven Parks",
+      "source": "https://www.newhavenct.gov/Home/Components/FacilityDirectory/FacilityDirectory/10/664",
+      "featureResearchRadiusMeters": 3500,
+      "imageQueries": ["East Rock Park New Haven", "East Rock summit New Haven", "Soldiers and Sailors Monument East Rock", "Trowbridge Environmental Center"],
+      "subsites": ["East Rock Summit", "Soldiers and Sailors Monument", "Trowbridge Environmental Center", "College Woods", "Rice Field", "Indian Head Vista", "English Drive"]
+    },
+    {
+      "id": "launch-ct-new-haven-lighthouse-point-park",
+      "name": "Lighthouse Point Park",
+      "city": "New Haven",
+      "state": "CT",
+      "citySlug": "new-haven-ct",
+      "operator": "City of New Haven Parks",
+      "source": "https://www.newhavenct.gov/Home/Components/FacilityDirectory/FacilityDirectory/16/664",
+      "featureResearchRadiusMeters": 2400,
+      "imageQueries": ["Lighthouse Point Park New Haven", "Five Mile Point Lighthouse", "Lighthouse Point carousel New Haven", "Lighthouse Point splash pad"],
+      "subsites": ["Five Mile Point Lighthouse", "Lighthouse Point Carousel", "Splash Pad", "Beach", "Hawk Watch", "Playground", "Bath House"]
+    },
+    {
+      "id": "launch-ct-hartford-bushnell-park",
+      "name": "Bushnell Park",
+      "city": "Hartford",
+      "state": "CT",
+      "citySlug": "hartford-ct",
+      "operator": "City of Hartford with Bushnell Park Conservancy",
+      "source": "https://bushnellpark.org/",
+      "featureResearchRadiusMeters": 1600,
+      "imageQueries": ["Bushnell Park Hartford", "Bushnell Park carousel", "Soldiers and Sailors Memorial Arch Hartford", "Corning Fountain Hartford"],
+      "subsites": ["Bushnell Park Carousel", "Soldiers and Sailors Memorial Arch", "Corning Fountain", "Pump House Gallery", "Horace Wells Monument", "Performance Pavilion"]
+    },
+    {
+      "id": "launch-ct-hartford-elizabeth-park",
+      "name": "Elizabeth Park",
+      "city": "Hartford",
+      "state": "CT",
+      "citySlug": "hartford-ct",
+      "operator": "City of Hartford with Elizabeth Park Conservancy",
+      "source": "https://www.hartfordct.gov/Government/Departments/Public-Works/Parks-Directory/Elizabeth",
+      "minimumImages": 3,
+      "featureResearchRadiusMeters": 2000,
+      "imageQueries": ["Elizabeth Park Hartford", "Elizabeth Park rose garden", "Pond House Elizabeth Park", "Elizabeth Park perennial garden"],
+      "subsites": ["Helen S Kaman Rose Garden", "Pond House", "Perennial Garden", "Heritage Rose Garden", "Greenhouse Showroom", "Sunrise Overlook", "Playground"]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "raleigh-planning-pilot",
+  "market": "Raleigh, NC",
+  "city": "Raleigh",
+  "state": "NC",
+  "channel": "x",
+  "campaign": "raleigh_planning_pilot",
+  "status": "review",
+  "checkedAt": "2026-08-07",
+  "headline": "Pick a few places. Explore one together.",
+  "summary": "Small Raleigh collections made for deciding, sharing, and getting outside.",
+  "hashtag": "#ExploreRaleigh",
+  "lists": [
+    {
+      "id": "raleigh-family-possibilities",
+      "title": "Three Raleigh family-day possibilities",
+      "hook": "Not every family outing needs a perfect plan. Start with three real possibilities and pick one together.",
+      "prompt": "Who would you send this list to?",
+      "placeIds": ["dix-park", "pullen-park", "john-chavis-memorial-park"],
+      "imagePlaceId": "john-chavis-memorial-park",
+      "imageIndex": 0
+    },
+    {
+      "id": "raleigh-art-open-space",
+      "title": "Art and open space around Raleigh",
+      "hook": "A museum park, a destination park, and a downtown square give you three very different ways to get outside.",
+      "prompt": "Which one fits your day?",
+      "placeIds": ["ncma-museum-park", "dix-park", "moore-square"],
+      "imagePlaceId": "dix-park",
+      "imageIndex": 0
+    },
+    {
+      "id": "raleigh-smaller-discoveries",
+      "title": "Three smaller Raleigh places worth noticing",
+      "hook": "The memorable place is not always the biggest one. Keep a few smaller public spaces ready for a different kind of day.",
+      "prompt": "What small Raleigh place should join the next list?",
+      "placeIds": ["basic-osm-way-33106145", "raleigh-rose-garden", "roberts-park"],
+      "imagePlaceId": "basic-osm-way-33106145",
+      "imageIndex": 0
+    }
+  ]
+}

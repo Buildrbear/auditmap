@@ -1,0 +1,11 @@
+{
+  "campaignId": "raleigh-passport-pilot",
+  "round": 1,
+  "updatedAt": null,
+  "notes": "Enter cumulative results at 24 hours and seven days. Keep an uncollected checkpoint null; never substitute zero for unknown.",
+  "variants": [
+    { "id": "progress-challenge", "checkpoints": { "24h": null, "7d": null } },
+    { "id": "exploring-person", "checkpoints": { "24h": null, "7d": null } },
+    { "id": "leave-a-breadcrumb", "checkpoints": { "24h": null, "7d": null } }
+  ]
+}

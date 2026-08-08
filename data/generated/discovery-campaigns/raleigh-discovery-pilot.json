@@ -1,0 +1,286 @@
+{
+  "campaign": {
+    "id": "raleigh-discovery-pilot",
+    "market": "Raleigh, NC",
+    "city": "Raleigh",
+    "state": "NC",
+    "status": "review",
+    "headline": "There’s more around Raleigh than you know.",
+    "summary": "Real public places, practical details, and discoveries worth sharing.",
+    "signature": "Find your way. Share what you find.",
+    "hashtag": "#FoundOnAuditMap",
+    "channel": "x",
+    "campaign": "raleigh_discovery_pilot",
+    "updatedAt": "2026-08-07"
+  },
+  "generatedAt": "2026-08-08T01:03:08.404Z",
+  "postCount": 7,
+  "posts": [
+    {
+      "id": "dix-park-arrival",
+      "day": 1,
+      "placeId": "dix-park",
+      "intentKey": "parking",
+      "imageIndex": 0,
+      "visualMatch": "The photograph shows the open Dix Park destination described by the arrival guidance.",
+      "series": "Know before you go",
+      "hook": "A day at Dix Park gets easier when you know where to arrive.",
+      "socialFact": "Use marked paved or gravel lots—not the grass or roadside.",
+      "prompt": "What should a first-time visitor know?",
+      "place": {
+        "id": "dix-park",
+        "name": "Dix Park",
+        "path": "/us/nc/raleigh/parks/dix-park",
+        "address": "1030 Richardson Drive"
+      },
+      "answer": {
+        "intentKey": "parking",
+        "question": "Where is parking for Dix Park?",
+        "answer": "Recommended parking lots for the trolls and other major destinations include Flowers Field, Big Field, Dog Park, Lot A, Lot C, and Lot F. Park only in marked spaces in paved or gravel lots, not on the grass or roadside.",
+        "source": "https://dixpark.org/trolls",
+        "sourceLabel": "Dix Park Trolls",
+        "checkedAt": "2026-07-30"
+      },
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Raleigh%20Dix%20Park.jpg?width=1400",
+        "source": "https://commons.wikimedia.org/wiki/File:Raleigh_Dix_Park.jpg",
+        "author": "Maria Kozmina",
+        "license": "CC BY-SA 4.0",
+        "alt": "Open lawn and skyline view at Dix Park"
+      },
+      "url": "https://www.auditmap.org/us/nc/raleigh/parks/dix-park?utm_source=x&utm_medium=organic_social&utm_campaign=raleigh_discovery_pilot&utm_content=dix-park-arrival",
+      "contributionUrl": "https://www.auditmap.org/us/nc/raleigh/parks/dix-park?contribute=note&utm_source=x&utm_medium=organic_social&utm_campaign=raleigh_discovery_pilot&utm_content=dix-park-arrival#discussion",
+      "caption": "A day at Dix Park gets easier when you know where to arrive.\n\nUse marked paved or gravel lots—not the grass or roadside.\n\nWhat should a first-time visitor know?\n\nhttps://www.auditmap.org/us/nc/raleigh/parks/dix-park?utm_source=x&utm_medium=organic_social&utm_campaign=raleigh_discovery_pilot&utm_content=dix-park-arrival\n\n#FoundOnAuditMap",
+      "captionLength": 338,
+      "estimatedXLength": 203
+    },
+    {
+      "id": "chavis-family-arrival",
+      "day": 2,
+      "placeId": "john-chavis-memorial-park",
+      "intentKey": "entrance",
+      "imageIndex": 0,
+      "visualMatch": "The photograph depicts John Chavis Memorial Park, the destination covered by the arrival guidance.",
+      "series": "Did you know this was here?",
+      "hook": "A downtown Raleigh park can hold a whole family day.",
+      "socialFact": "Use 505 Martin Luther King Jr. Boulevard for the main family amenities.",
+      "prompt": "What should a family know before arriving?",
+      "place": {
+        "id": "john-chavis-memorial-park",
+        "name": "John Chavis Memorial Park",
+        "path": "/us/nc/raleigh/parks/john-chavis-memorial-park",
+        "address": "505 Martin Luther King Jr Blvd"
+      },
+      "answer": {
+        "intentKey": "entrance",
+        "question": "Which entrance should I use at John Chavis Memorial Park?",
+        "answer": "Use 505 Martin Luther King Jr. Boulevard for the community center, indoor restrooms, carousel tickets, and the main family amenities. The approved site plan also labels north and south playground entrances. Because aquatic-center construction will reconfigure parts of the site and parking, follow current signs rather than relying on an older internal route.",
+        "source": "https://raleighnc.gov/content/PlanDev/Documents/DevServ/DevPlans/Approvals/2018/SiteReview/SR-015-18_AA.pdf",
+        "sourceLabel": "John Chavis Memorial Park Approved Site Plan",
+        "checkedAt": "2026-07-30"
+      },
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/John%20Chavis%20Memorial%20Park2.jpg?width=1400",
+        "source": "https://commons.wikimedia.org/wiki/File:John_Chavis_Memorial_Park2.jpg",
+        "author": "2BKNIGHT",
+        "license": "CC BY-SA 4.0",
+        "alt": "John Chavis Memorial Park in Raleigh"
+      },
+      "url": "https://www.auditmap.org/us/nc/raleigh/parks/john-chavis-memorial-park?utm_source=x&utm_medium=organic_social&utm_campaign=raleigh_discovery_pilot&utm_content=chavis-family-arrival",
+      "contributionUrl": "https://www.auditmap.org/us/nc/raleigh/parks/john-chavis-memorial-park?contribute=note&utm_source=x&utm_medium=organic_social&utm_campaign=raleigh_discovery_pilot&utm_content=chavis-family-arrival#discussion",
+      "caption": "A downtown Raleigh park can hold a whole family day.\n\nUse 505 Martin Luther King Jr. Boulevard for the main family amenities.\n\nWhat should a family know before arriving?\n\nhttps://www.auditmap.org/us/nc/raleigh/parks/john-chavis-memorial-park?utm_source=x&utm_medium=organic_social&utm_campaign=raleigh_discovery_pilot&utm_content=chavis-family-arrival\n\n#FoundOnAuditMap",
+      "captionLength": 369,
+      "estimatedXLength": 212
+    },
+    {
+      "id": "moore-square-arrival",
+      "day": 3,
+      "placeId": "moore-square",
+      "intentKey": "parking",
+      "imageIndex": 0,
+      "visualMatch": "The photograph shows Moore Square's trees and lawn, the downtown destination covered by the parking guidance.",
+      "series": "Know before you go",
+      "hook": "Moore Square is easy to notice and surprisingly easy to misunderstand before a visit.",
+      "socialFact": "The closest named city garage is Moore Square Deck on Wilmington Street.",
+      "prompt": "What is your best downtown arrival tip?",
+      "place": {
+        "id": "moore-square",
+        "name": "Moore Square",
+        "path": "/us/nc/raleigh/parks/moore-square",
+        "address": "201 S. Blount Street"
+      },
+      "answer": {
+        "intentKey": "parking",
+        "question": "Where should I park for Moore Square?",
+        "answer": "The closest named city garage is Moore Square Parking Deck at 233 S. Wilmington Street. The City also lists accessible street spaces around the square. Participating downtown city decks, including Moore Square Deck, currently offer up to two free hours on weekdays from 7:00 a.m. to 7:00 p.m. and free parking on nights and weekends, except when special-event rates apply.",
+        "source": "https://raleighnc.gov/parking/services/two-hour-parking-downtown-raleigh",
+        "sourceLabel": "Free Two-Hour Parking in Downtown Raleigh",
+        "checkedAt": "2026-07-30"
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Moore_Square%2C_Raleigh_-_panoramio.jpg/1920px-Moore_Square%2C_Raleigh_-_panoramio.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Moore_Square,_Raleigh_-_panoramio.jpg",
+        "author": "James Willamor",
+        "license": "CC BY-SA 3.0",
+        "alt": "Trees and lawn at Moore Square"
+      },
+      "url": "https://www.auditmap.org/us/nc/raleigh/parks/moore-square?utm_source=x&utm_medium=organic_social&utm_campaign=raleigh_discovery_pilot&utm_content=moore-square-arrival",
+      "contributionUrl": "https://www.auditmap.org/us/nc/raleigh/parks/moore-square?contribute=note&utm_source=x&utm_medium=organic_social&utm_campaign=raleigh_discovery_pilot&utm_content=moore-square-arrival#discussion",
+      "caption": "Moore Square is easy to notice and surprisingly easy to misunderstand before a visit.\n\nThe closest named city garage is Moore Square Deck on Wilmington Street.\n\nWhat is your best downtown arrival tip?\n\nhttps://www.auditmap.org/us/nc/raleigh/parks/moore-square?utm_source=x&utm_medium=organic_social&utm_campaign=raleigh_discovery_pilot&utm_content=moore-square-arrival\n\n#FoundOnAuditMap",
+      "captionLength": 386,
+      "estimatedXLength": 243
+    },
+    {
+      "id": "dix-park-sunflower-shade",
+      "day": 4,
+      "placeId": "dix-park",
+      "intentKey": "shade",
+      "imageIndex": 1,
+      "visualMatch": "The photograph depicts the open Sunflower Field where the cited shade guidance matters.",
+      "series": "Know before you go",
+      "hook": "Dix Park's sunflower views come with a very practical tradeoff.",
+      "socialFact": "Flowers Field is primarily open lawn, so bring sun protection for a daytime visit.",
+      "prompt": "Where do you find shade at Dix Park?",
+      "place": {
+        "id": "dix-park",
+        "name": "Dix Park",
+        "path": "/us/nc/raleigh/parks/dix-park",
+        "address": "1030 Richardson Drive"
+      },
+      "answer": {
+        "intentKey": "shade",
+        "question": "Where can I find shade at Dix Park?",
+        "answer": "Harvey Hill and the Grove have mature oak trees and are the strongest officially described natural-shade areas. Magnolia Room and Oak Room have shade structures over picnic tables, and Gipson Play Plaza's Picnic Grove uses umbrellas. Big Field and Flowers Field are primarily open lawns, so bring sun protection if those are your destination.",
+        "source": "https://dorotheadixpark.org/visit",
+        "sourceLabel": "Visit Dix Park",
+        "checkedAt": "2026-07-30"
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Orange_Sunflowers_Dix_Park_Raleigh_NC_20210722_133951777.jpg/1920px-Orange_Sunflowers_Dix_Park_Raleigh_NC_20210722_133951777.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Orange_Sunflowers_Dix_Park_Raleigh_NC_20210722_133951777.jpg",
+        "author": "bobistraveling",
+        "license": "CC BY 2.0",
+        "alt": "Orange sunflowers at Dix Park"
+      },
+      "url": "https://www.auditmap.org/us/nc/raleigh/parks/dix-park?utm_source=x&utm_medium=organic_social&utm_campaign=raleigh_discovery_pilot&utm_content=dix-park-sunflower-shade",
+      "contributionUrl": "https://www.auditmap.org/us/nc/raleigh/parks/dix-park?contribute=note&utm_source=x&utm_medium=organic_social&utm_campaign=raleigh_discovery_pilot&utm_content=dix-park-sunflower-shade#discussion",
+      "caption": "Dix Park's sunflower views come with a very practical tradeoff.\n\nFlowers Field is primarily open lawn, so bring sun protection for a daytime visit.\n\nWhere do you find shade at Dix Park?\n\nhttps://www.auditmap.org/us/nc/raleigh/parks/dix-park?utm_source=x&utm_medium=organic_social&utm_campaign=raleigh_discovery_pilot&utm_content=dix-park-sunflower-shade\n\n#FoundOnAuditMap",
+      "captionLength": 371,
+      "estimatedXLength": 228
+    },
+    {
+      "id": "john-winters-find",
+      "day": 5,
+      "placeId": "basic-osm-way-33106145",
+      "intentKey": "amenities",
+      "imageIndex": 0,
+      "visualMatch": "The photograph shows the paved path, lawn, benches, and trees named in the post.",
+      "series": "Did you know this was here?",
+      "hook": "Not every Raleigh discovery needs to be a major destination.",
+      "socialFact": "John Winters Park offers paved paths, benches, lawn, and shade near Chavis Way.",
+      "prompt": "What small public place near you deserves more attention?",
+      "place": {
+        "id": "basic-osm-way-33106145",
+        "name": "John Winters Park",
+        "path": "/us/nc/raleigh/parks/john-winters-park",
+        "address": "East Martin Street between East and Swain streets"
+      },
+      "answer": {
+        "intentKey": "amenities",
+        "question": "What can I do at John Winters Park?",
+        "answer": "Public records currently identify Paved walking paths, Benches, Open lawn, Shade trees, Chavis Way connection, South Park Heritage Trail point of interest. Check the official page for current availability.",
+        "source": "https://raleighnc.gov/projects/south-park-heritage-trail",
+        "sourceLabel": "Public map source",
+        "checkedAt": "2026-08-05"
+      },
+      "image": {
+        "url": "/assets/parks/nc/raleigh/john-winters-park/hero.jpg",
+        "source": "https://localwiki.org/raleigh/John_Winters_Park/_files/P1020670.jpg/_info/",
+        "author": "ScottReston",
+        "license": "CC BY 4.0",
+        "alt": "Lawn, paved paths, benches and trees at John Winters Park in Raleigh"
+      },
+      "url": "https://www.auditmap.org/us/nc/raleigh/parks/john-winters-park?utm_source=x&utm_medium=organic_social&utm_campaign=raleigh_discovery_pilot&utm_content=john-winters-find",
+      "contributionUrl": "https://www.auditmap.org/us/nc/raleigh/parks/john-winters-park?contribute=note&utm_source=x&utm_medium=organic_social&utm_campaign=raleigh_discovery_pilot&utm_content=john-winters-find#discussion",
+      "caption": "Not every Raleigh discovery needs to be a major destination.\n\nJohn Winters Park offers paved paths, benches, lawn, and shade near Chavis Way.\n\nWhat small public place near you deserves more attention?\n\nhttps://www.auditmap.org/us/nc/raleigh/parks/john-winters-park?utm_source=x&utm_medium=organic_social&utm_campaign=raleigh_discovery_pilot&utm_content=john-winters-find\n\n#FoundOnAuditMap",
+      "captionLength": 388,
+      "estimatedXLength": 243
+    },
+    {
+      "id": "chavis-access",
+      "day": 6,
+      "placeId": "john-chavis-memorial-park",
+      "intentKey": "accessibility",
+      "imageIndex": 1,
+      "visualMatch": "The photograph depicts John Chavis Memorial Park, whose documented access details are summarized in the post.",
+      "series": "Worth knowing",
+      "hook": "The details that make a park usable matter as much as the attractions.",
+      "socialFact": "Chavis Park documents accessible parking, restrooms, showers, and rubber playground surfacing.",
+      "prompt": "What access detail would help your next visit?",
+      "place": {
+        "id": "john-chavis-memorial-park",
+        "name": "John Chavis Memorial Park",
+        "path": "/us/nc/raleigh/parks/john-chavis-memorial-park",
+        "address": "505 Martin Luther King Jr Blvd"
+      },
+      "answer": {
+        "intentKey": "accessibility",
+        "question": "What accessibility details should visitors know at John Chavis Memorial Park?",
+        "answer": "The approved plan includes accessible parking serving the community center. Inside, accessible showers and restrooms are available. The main playground uses rubber safety surfacing, while natural-play areas use mulch. For a program modification or route-specific help, Raleigh Parks Inclusion Services is available at 919-996-2147.",
+        "source": "https://raleighnc.gov/parks-and-recreation/places/john-chavis-memorial-park",
+        "sourceLabel": "John Chavis Memorial Park",
+        "checkedAt": "2026-07-30"
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Chavis_Park_-_panoramio.jpg/1920px-Chavis_Park_-_panoramio.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Chavis_Park_-_panoramio.jpg",
+        "author": "James Willamor",
+        "license": "CC BY-SA 3.0",
+        "alt": "View across John Chavis Memorial Park"
+      },
+      "url": "https://www.auditmap.org/us/nc/raleigh/parks/john-chavis-memorial-park?utm_source=x&utm_medium=organic_social&utm_campaign=raleigh_discovery_pilot&utm_content=chavis-access",
+      "contributionUrl": "https://www.auditmap.org/us/nc/raleigh/parks/john-chavis-memorial-park?contribute=note&utm_source=x&utm_medium=organic_social&utm_campaign=raleigh_discovery_pilot&utm_content=chavis-access#discussion",
+      "caption": "The details that make a park usable matter as much as the attractions.\n\nChavis Park documents accessible parking, restrooms, showers, and rubber playground surfacing.\n\nWhat access detail would help your next visit?\n\nhttps://www.auditmap.org/us/nc/raleigh/parks/john-chavis-memorial-park?utm_source=x&utm_medium=organic_social&utm_campaign=raleigh_discovery_pilot&utm_content=chavis-access\n\n#FoundOnAuditMap",
+      "captionLength": 406,
+      "estimatedXLength": 257
+    },
+    {
+      "id": "moore-square-shade",
+      "day": 7,
+      "placeId": "moore-square",
+      "intentKey": "shade",
+      "imageIndex": 1,
+      "visualMatch": "The photograph shows the mature trees bordering Moore Square, which are the subject of the shade guidance.",
+      "series": "Worth knowing",
+      "hook": "On a hot downtown day, where you stop inside Moore Square matters.",
+      "socialFact": "The mature oak grove offers more reliable shade than the open central lawn.",
+      "prompt": "What is your favorite shaded corner downtown?",
+      "place": {
+        "id": "moore-square",
+        "name": "Moore Square",
+        "path": "/us/nc/raleigh/parks/moore-square",
+        "address": "201 S. Blount Street"
+      },
+      "answer": {
+        "intentKey": "shade",
+        "question": "Where is the best shade at Moore Square?",
+        "answer": "The most reliable shade is around the bordering grove of mature oak trees and the Grove Rooms beneath them. The central event lawn is much more open, so choose the tree-framed edges for a hot-weather stop and expect shade position to move during the day.",
+        "source": "https://raleighnc.gov/sites/default/files/migrated-files/MooreSquareRentalGuide.pdf",
+        "sourceLabel": "Moore Square Rental Guide",
+        "checkedAt": "2026-07-30"
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Blount_street_at_moore_square_-_panoramio.jpg/1920px-Blount_street_at_moore_square_-_panoramio.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Blount_street_at_moore_square_-_panoramio.jpg",
+        "author": "Scott Thompson",
+        "license": "CC BY 3.0",
+        "alt": "Blount Street beside Moore Square"
+      },
+      "url": "https://www.auditmap.org/us/nc/raleigh/parks/moore-square?utm_source=x&utm_medium=organic_social&utm_campaign=raleigh_discovery_pilot&utm_content=moore-square-shade",
+      "contributionUrl": "https://www.auditmap.org/us/nc/raleigh/parks/moore-square?contribute=note&utm_source=x&utm_medium=organic_social&utm_campaign=raleigh_discovery_pilot&utm_content=moore-square-shade#discussion",
+      "caption": "On a hot downtown day, where you stop inside Moore Square matters.\n\nThe mature oak grove offers more reliable shade than the open central lawn.\n\nWhat is your favorite shaded corner downtown?\n\nhttps://www.auditmap.org/us/nc/raleigh/parks/moore-square?utm_source=x&utm_medium=organic_social&utm_campaign=raleigh_discovery_pilot&utm_content=moore-square-shade\n\n#FoundOnAuditMap",
+      "captionLength": 374,
+      "estimatedXLength": 233
+    }
+  ]
+}

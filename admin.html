@@ -11,7 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./styles.css?v=20260730-6" />
   </head>
   <body class="review-page">
     <header class="review-header">
@@ -40,6 +40,7 @@
           />
           <button class="submit-button" id="review-connect" type="button">Open inbox</button>
         </div>
+        <button class="outline-button review-account-connect" id="review-account-connect" type="button" hidden>Continue with my super-user account</button>
         <p class="form-status" id="review-access-status" role="status"></p>
       </section>
 
@@ -56,6 +57,10 @@
           <button type="button" data-review-filter="published">Published</button>
           <button type="button" data-review-filter="rejected">Rejected</button>
           <button type="button" data-review-filter="needs">Info gaps</button>
+          <button type="button" data-review-filter="followups">Follow-ups</button>
+          <button type="button" data-review-filter="enrichment">AI facts</button>
+          <button type="button" data-review-filter="claims">Visitor evidence</button>
+          <button type="button" data-review-filter="reports">Reports</button>
         </div>
         <p class="review-empty" id="review-empty" hidden>
           The inbox is clear. New community contributions will appear here.
@@ -63,6 +68,6 @@
         <div class="review-list" id="review-list" aria-live="polite"></div>
       </section>
     </main>
-    <script src="./admin.js" defer></script>
+    <script src="./admin.js?v=20260805-4" defer></script>
   </body>
 </html>

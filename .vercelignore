@@ -1,0 +1,27 @@
+.auditmap-demo-*
+.env
+.env.*
+!.env.example
+credentials.json
+service-account*.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Development, research, and verification artifacts are not public runtime assets.
+.github
+docs
+preview
+scripts
+supabase
+assets/test-media
+
+# Keep only datasets requested by the browser or required by deployed APIs.
+data/**
+!data/institutions.json
+!data/generated
+data/generated/**
+!data/generated/launch-map-places.json
+!data/generated/official-catalog.json
+!data/generated/enrichment-queue.json

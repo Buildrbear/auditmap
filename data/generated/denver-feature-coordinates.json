@@ -1,0 +1,405 @@
+{
+  "checkedAt": "2026-08-06",
+  "places": {
+    "launch-co-denver-city-park": {
+      "ferril-lake-and-boathouse": {
+        "latitude": 39.7461059,
+        "longitude": -104.9491524,
+        "displayName": "Ferril Lake, Denver, Colorado, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "city-park-playground": {
+        "latitude": 39.74637,
+        "longitude": -104.95682,
+        "displayName": "Reviewed City Park playground placement",
+        "source": "AuditMap review of official and public park maps"
+      },
+      "denver-museum-of-nature-and-science": {
+        "latitude": 39.7475479,
+        "longitude": -104.9429113,
+        "displayName": "Denver Museum of Nature and Science, 2001, City Park Road, City Park, Denver, Colorado, 80205, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "denver-zoo-conservation-alliance": {
+        "latitude": 39.75082,
+        "longitude": -104.95073,
+        "displayName": "Denver Zoo Conservation Alliance entrance within City Park",
+        "source": "AuditMap review of official and public park maps"
+      },
+      "city-park-pavilion": {
+        "latitude": 39.7461498,
+        "longitude": -104.9523426,
+        "displayName": "City Park Pavilion, City Park Lake Loop, City Park, Denver, Colorado, 80205, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "martin-luther-king-jr-memorial": {
+        "latitude": 39.7460387,
+        "longitude": -104.9545382,
+        "displayName": "Martin Luther King Jr. Memorial, City Park Road, City Park, Denver, Colorado, 80205, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "city-park-esplanade": {
+        "latitude": 39.7405888,
+        "longitude": -104.9570725,
+        "displayName": "City Park Esplanade, Denver, Colorado, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "mile-high-loop": {
+        "latitude": 39.75024,
+        "longitude": -104.95516,
+        "displayName": "Reviewed point on City Park's Mile High Loop",
+        "source": "AuditMap review of official and public park maps"
+      }
+    },
+    "launch-co-denver-washington-park": {
+      "smith-lake-and-boathouse": {
+        "latitude": 39.7048421,
+        "longitude": -104.9710997,
+        "displayName": "Smith Lake, Denver, Colorado, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "grasmere-lake": {
+        "latitude": 39.6957627,
+        "longitude": -104.9718064,
+        "displayName": "Grasmere Lake, Denver, Colorado, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "washington-park-playground": {
+        "latitude": 39.69734,
+        "longitude": -104.97041,
+        "displayName": "Reviewed Washington Park playground placement",
+        "source": "AuditMap review of official and public park maps"
+      },
+      "washington-park-recreation-center": {
+        "latitude": 39.7026223,
+        "longitude": -104.9705739,
+        "displayName": "Washington Park Recreation Center, 701, South Franklin Street, Denver, Colorado, 80209, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "mount-vernon-garden": {
+        "latitude": 39.7031526,
+        "longitude": -104.972774,
+        "displayName": "Mount Vernon Garden, Denver, Colorado, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "washington-park-loop-road": {
+        "latitude": 39.70011,
+        "longitude": -104.97304,
+        "displayName": "Reviewed point on the Washington Park loop road",
+        "source": "AuditMap review of official and public park maps"
+      },
+      "washington-park-perennial-garden": {
+        "latitude": 39.69706,
+        "longitude": -104.97133,
+        "displayName": "Reviewed Washington Park perennial-garden placement",
+        "source": "AuditMap review of official and public park maps"
+      },
+      "washington-park-tennis-courts": {
+        "latitude": 39.70091,
+        "longitude": -104.96889,
+        "displayName": "Reviewed Washington Park tennis-court placement",
+        "source": "AuditMap review of official and public park maps"
+      }
+    },
+    "launch-co-denver-cheesman-park": {
+      "cheesman-memorial-pavilion": {
+        "latitude": 39.73164,
+        "longitude": -104.96635,
+        "displayName": "Cheesman Memorial Pavilion",
+        "source": "AuditMap review of official and public park maps"
+      },
+      "cheesman-park-great-lawn": {
+        "latitude": 39.73215,
+        "longitude": -104.96571,
+        "displayName": "Reviewed central great lawn in Cheesman Park",
+        "source": "AuditMap review of official and public park maps"
+      },
+      "cheesman-park-walking-loop": {
+        "latitude": 39.73446,
+        "longitude": -104.96614,
+        "displayName": "Reviewed point on the Cheesman Park walking loop",
+        "source": "AuditMap review of official and public park maps"
+      },
+      "denver-botanic-gardens-entrance": {
+        "latitude": 39.73218,
+        "longitude": -104.96011,
+        "displayName": "Denver Botanic Gardens York Street entrance",
+        "source": "AuditMap review of official and public park maps"
+      },
+      "ada-parking-south-of-pavilion": {
+        "latitude": 39.73092,
+        "longitude": -104.96625,
+        "displayName": "Reviewed accessible parking south of Cheesman Pavilion",
+        "source": "AuditMap review of official and public park maps"
+      },
+      "cheesman-park-north-lawn": {
+        "latitude": 39.73478,
+        "longitude": -104.96528,
+        "displayName": "Reviewed north lawn in Cheesman Park",
+        "source": "AuditMap review of official and public park maps"
+      },
+      "cheesman-park-west-grove": {
+        "latitude": 39.7323,
+        "longitude": -104.96879,
+        "displayName": "Reviewed west tree grove in Cheesman Park",
+        "source": "AuditMap review of official and public park maps"
+      },
+      "eighth-avenue-entrance": {
+        "latitude": 39.7295,
+        "longitude": -104.96614,
+        "displayName": "Reviewed East Eighth Avenue entrance to Cheesman Park",
+        "source": "AuditMap review of official and public park maps"
+      }
+    },
+    "launch-co-denver-civic-center-park": {
+      "greek-theater-and-colonnade": {
+        "latitude": 39.7383047,
+        "longitude": -104.9891919,
+        "displayName": "Greek Theater, 101, West 14th Avenue Parkway, Golden Triangle, Denver, Colorado, 80204, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "voorhies-memorial": {
+        "latitude": 39.7403109,
+        "longitude": -104.989064,
+        "displayName": "Voorhies Memorial, West Colfax Avenue, Golden Triangle, Denver, Colorado, 80274, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "mcnichols-civic-center-building": {
+        "latitude": 39.7397117,
+        "longitude": -104.9895472,
+        "displayName": "McNichols Civic Center Building, 144, West Colfax Avenue, Golden Triangle, Denver, Colorado, 80202, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "denver-central-library": {
+        "latitude": 39.7374252,
+        "longitude": -104.9882029,
+        "displayName": "Denver Central Library, 10, West 14th Avenue, Golden Triangle, Denver, Colorado, 80204, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "city-and-county-building": {
+        "latitude": 39.7391,
+        "longitude": -104.99034,
+        "displayName": "Denver City and County Building facing Civic Center Park",
+        "source": "AuditMap review of official and public civic maps"
+      },
+      "bannock-street-plaza": {
+        "latitude": 39.7392357,
+        "longitude": -104.9891142,
+        "displayName": "Civic Center Park, 101, Denver, Colorado, 80202, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "broadway-terrace-and-fountains": {
+        "latitude": 39.739,
+        "longitude": -104.98773,
+        "displayName": "Reviewed Broadway Terrace and fountain area in Civic Center Park",
+        "source": "AuditMap review of official and public civic maps"
+      },
+      "colorado-state-capitol-connection": {
+        "latitude": 39.73919,
+        "longitude": -104.98549,
+        "displayName": "Reviewed Civic Center connection toward the Colorado State Capitol",
+        "source": "AuditMap review of official and public civic maps"
+      }
+    },
+    "launch-co-denver-confluence-park": {
+      "south-platte-and-cherry-creek-confluence": {
+        "latitude": 39.75472,
+        "longitude": -105.00843,
+        "displayName": "South Platte River and Cherry Creek confluence",
+        "source": "AuditMap review of official and public river maps"
+      },
+      "confluence-park-beach": {
+        "latitude": 39.75386,
+        "longitude": -105.00864,
+        "displayName": "Reviewed Confluence Park beach placement",
+        "source": "AuditMap review of official and public river maps"
+      },
+      "shoemaker-plaza": {
+        "latitude": 39.7550605,
+        "longitude": -105.0082941,
+        "displayName": "Shoemaker Plaza, Highland, Denver, Colorado, 80217, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "south-platte-river-trail": {
+        "latitude": 39.75518,
+        "longitude": -105.00925,
+        "displayName": "South Platte River Trail at Confluence Park",
+        "source": "AuditMap review of official and public trail maps"
+      },
+      "cherry-creek-trail": {
+        "latitude": 39.75365,
+        "longitude": -105.00694,
+        "displayName": "Cherry Creek Trail at Confluence Park",
+        "source": "AuditMap review of official and public trail maps"
+      },
+      "denver-trolley-stop": {
+        "latitude": 39.75496,
+        "longitude": -105.00954,
+        "displayName": "Reviewed Denver Trolley stop near Confluence Park",
+        "source": "AuditMap review of official and public river maps"
+      },
+      "confluence-park-whitewater-chutes": {
+        "latitude": 39.75409,
+        "longitude": -105.00828,
+        "displayName": "Reviewed whitewater chutes at Confluence Park",
+        "source": "AuditMap review of official and public river maps"
+      },
+      "platte-street-and-rei-arrival": {
+        "latitude": 39.7589138,
+        "longitude": -105.0061102,
+        "displayName": "Platte Street, Highland, Denver, Colorado, 80202, United States",
+        "source": "OpenStreetMap Nominatim"
+      }
+    },
+    "launch-co-denver-sloans-lake-park": {
+      "sloan-lake-loop": {
+        "latitude": 39.75284,
+        "longitude": -105.0492,
+        "displayName": "Reviewed north point on the Sloan Lake loop",
+        "source": "AuditMap review of official and public park maps"
+      },
+      "sloan-s-lake-playground": {
+        "latitude": 39.7504,
+        "longitude": -105.05303,
+        "displayName": "Reviewed Sloan's Lake playground placement",
+        "source": "AuditMap review of official and public park maps"
+      },
+      "northwest-boat-ramp": {
+        "latitude": 39.75211,
+        "longitude": -105.05591,
+        "displayName": "Reviewed northwest boat-ramp area at Sloan's Lake",
+        "source": "AuditMap review of official and public park maps"
+      },
+      "south-shore-picnic-areas": {
+        "latitude": 39.74367,
+        "longitude": -105.05042,
+        "displayName": "Reviewed south-shore picnic area at Sloan's Lake",
+        "source": "AuditMap review of official and public park maps"
+      },
+      "sloan-s-lake-marina": {
+        "latitude": 39.75147,
+        "longitude": -105.05271,
+        "displayName": "Reviewed Sloan's Lake marina placement",
+        "source": "AuditMap review of official and public park maps"
+      },
+      "denver-skyline-viewpoint": {
+        "latitude": 39.74761,
+        "longitude": -105.04117,
+        "displayName": "Reviewed east-shore Denver skyline viewpoint",
+        "source": "AuditMap review of official and public park maps"
+      },
+      "sloan-s-lake-tennis-and-basketball-courts": {
+        "latitude": 39.74464,
+        "longitude": -105.04509,
+        "displayName": "Reviewed Sloan's Lake tennis and basketball court area",
+        "source": "AuditMap review of official and public park maps"
+      },
+      "west-shoreline-wetlands": {
+        "latitude": 39.74828,
+        "longitude": -105.05716,
+        "displayName": "Reviewed west-shore wetland area at Sloan's Lake",
+        "source": "AuditMap review of official and public park maps"
+      }
+    },
+    "launch-co-denver-ruby-hill-park": {
+      "ruby-hill-bike-park": {
+        "latitude": 39.68515,
+        "longitude": -105.00566,
+        "displayName": "Reviewed Ruby Hill Bike Park placement",
+        "source": "AuditMap review of official and public park maps"
+      },
+      "ruby-hill-rail-yard": {
+        "latitude": 39.6872,
+        "longitude": -105.00672,
+        "displayName": "Reviewed seasonal Ruby Hill Rail Yard placement",
+        "source": "AuditMap review of official and public park maps"
+      },
+      "ruby-hill-playground": {
+        "latitude": 39.68797,
+        "longitude": -105.00876,
+        "displayName": "Reviewed Ruby Hill playground placement",
+        "source": "AuditMap review of official and public park maps"
+      },
+      "levitt-pavilion-denver": {
+        "latitude": 39.6867297,
+        "longitude": -105.0035678,
+        "displayName": "Levitt Pavilion Denver, Ruby Hill Loop Trail, Ruby Hill, Denver, Colorado, 80223, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "ruby-hill-sledding-hill": {
+        "latitude": 39.68949,
+        "longitude": -105.00614,
+        "displayName": "Reviewed Ruby Hill sledding slope",
+        "source": "AuditMap review of official and public park maps"
+      },
+      "ruby-hill-picnic-areas": {
+        "latitude": 39.69012,
+        "longitude": -105.0081,
+        "displayName": "Reviewed Ruby Hill picnic area",
+        "source": "AuditMap review of official and public park maps"
+      },
+      "ruby-hill-community-garden": {
+        "latitude": 39.6853742,
+        "longitude": -105.0059942,
+        "displayName": "Ruby Hill Community Garden, Denver, Colorado, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "sanderson-gulch-trail-connection": {
+        "latitude": 39.68449,
+        "longitude": -105.00688,
+        "displayName": "Reviewed Sanderson Gulch Trail connection at Ruby Hill",
+        "source": "AuditMap review of official and public trail maps"
+      }
+    },
+    "launch-co-denver-commons-park": {
+      "little-raven-street-entrance": {
+        "latitude": 39.75825,
+        "longitude": -105.00394,
+        "displayName": "Reviewed Little Raven Street entrance to Commons Park",
+        "source": "AuditMap review of official and public park maps"
+      },
+      "commons-park-promenade": {
+        "latitude": 39.75845,
+        "longitude": -105.00531,
+        "displayName": "Reviewed Commons Park promenade",
+        "source": "AuditMap review of official and public park maps"
+      },
+      "south-platte-river-trail": {
+        "latitude": 39.75741,
+        "longitude": -105.0084,
+        "displayName": "South Platte River Trail beside Commons Park",
+        "source": "AuditMap review of official and public trail maps"
+      },
+      "millennium-bridge-connection": {
+        "latitude": 39.75654,
+        "longitude": -105.00337,
+        "displayName": "Reviewed Millennium Bridge connection to Commons Park",
+        "source": "AuditMap review of official and public park maps"
+      },
+      "commons-park-seasonal-restroom": {
+        "latitude": 39.75767,
+        "longitude": -105.00609,
+        "displayName": "Reviewed seasonal restroom placement in Commons Park",
+        "source": "AuditMap review of official and public park maps"
+      },
+      "commons-park-central-lawn": {
+        "latitude": 39.75773,
+        "longitude": -105.0054,
+        "displayName": "Reviewed Commons Park central lawn",
+        "source": "AuditMap review of official and public park maps"
+      },
+      "commons-park-wetlands": {
+        "latitude": 39.75825,
+        "longitude": -105.00753,
+        "displayName": "Reviewed Commons Park river-edge wetlands",
+        "source": "AuditMap review of official and public park maps"
+      },
+      "common-ground-sculpture": {
+        "latitude": 39.75682,
+        "longitude": -105.00668,
+        "displayName": "Reviewed Common Ground landscape sculpture in Commons Park",
+        "source": "AuditMap review of official and public park maps"
+      }
+    }
+  }
+}

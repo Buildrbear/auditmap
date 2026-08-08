@@ -27,7 +27,7 @@ module.exports = async function handler(request, response) {
       return;
     }
     const rows = await supabaseRequest(
-      `information_needs?institution_id=eq.${institution.id}&canonical_answer=not.is.null&status=neq.dismissed&select=id,sample_question,ask_count,canonical_answer,answer_status,answer_sources,answered_at,expires_at,last_asked_at&order=ask_count.desc,last_asked_at.desc&limit=30`,
+      `information_needs?institution_id=eq.${institution.id}&canonical_answer=not.is.null&answer_status=in.(answered,partial)&status=eq.answered&select=id,sample_question,ask_count,canonical_answer,answer_status,answer_sources,answered_at,expires_at,last_asked_at,intent_key,needs_enrichment,metadata&order=ask_count.desc,last_asked_at.desc&limit=30`,
       { method: "GET" },
     );
     response.setHeader("Cache-Control", "s-maxage=60, stale-while-revalidate=300");

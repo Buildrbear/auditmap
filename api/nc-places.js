@@ -21,7 +21,6 @@ const categorySearches = [
     label: "Community center",
   },
   { query: "museum", category: "tourism", types: ["museum"], label: "Museum" },
-  { query: "city hall", category: "amenity", types: ["townhall"], label: "City office" },
   {
     query: "train station",
     category: "railway",
@@ -109,12 +108,16 @@ function plainMetadata(value) {
     .trim();
 }
 
-async function searchCommonsImage(placeName) {
+async function searchCommonsImage(placeName, city) {
   try {
+    const distinctiveWords = normalizedName(placeName)
+      .split(" ")
+      .filter((word) => word.length > 3 && !["park", "dog", "field", "fields", "trail"].includes(word));
+    if (!distinctiveWords.length) return null;
     const params = new URLSearchParams({
       action: "query",
       generator: "search",
-      gsrsearch: `intitle:"${placeName}" Raleigh`,
+      gsrsearch: `intitle:"${placeName}" "${city}" "North Carolina"`,
       gsrnamespace: "6",
       gsrlimit: "4",
       prop: "imageinfo",
@@ -134,25 +137,24 @@ async function searchCommonsImage(placeName) {
     );
     if (!commonsResponse.ok) return null;
     const payload = await commonsResponse.json();
-    const placeWords = normalizedName(placeName)
-      .split(" ")
-      .filter((word) => word.length > 3);
+    const placeWords = normalizedName(placeName).split(" ").filter((word) => word.length > 3);
+    const normalizedCity = normalizedName(city);
     const pages = Object.values(payload.query?.pages || {}).sort((left, right) => {
       const score = (page) => {
-        const title = normalizedName(page.title);
+        const title = normalizedName(`${page.title} ${page.imageinfo?.[0]?.extmetadata?.ImageDescription?.value || ""} ${page.imageinfo?.[0]?.extmetadata?.Categories?.value || ""}`);
         return placeWords.reduce(
           (total, word) => total + (title.includes(word) ? 1 : 0),
-          title.includes("raleigh") ? 1 : 0,
+          title.includes(normalizedCity) ? 2 : title.includes("north carolina") ? 1 : 0,
         );
       };
       return score(right) - score(left);
     });
     const page = pages.find((candidate) => {
-      const title = normalizedName(candidate.title);
+      const title = normalizedName(`${candidate.title} ${candidate.imageinfo?.[0]?.extmetadata?.ImageDescription?.value || ""} ${candidate.imageinfo?.[0]?.extmetadata?.Categories?.value || ""}`);
       return (
         !/\b(logo|seal|icon|map|diagram)\b/.test(title) &&
-        placeWords.filter((word) => title.includes(word)).length >=
-          Math.min(2, placeWords.length)
+        distinctiveWords.every((word) => title.includes(word)) &&
+        (title.includes(normalizedCity) || title.includes("north carolina"))
       );
     });
     const info = page?.imageinfo?.[0];
@@ -173,7 +175,7 @@ async function searchCommonsImage(placeName) {
   }
 }
 
-async function reusableImage(tags, placeName) {
+async function reusableImage(tags, placeName, city) {
   const commonsTag = String(tags.wikimedia_commons || "");
   if (/^File:/i.test(commonsTag)) return commonsImage(commonsTag, placeName);
   const wikidataId = String(tags.wikidata || "");
@@ -199,7 +201,7 @@ async function reusableImage(tags, placeName) {
       // Exact-name Commons search below is the reusable-media fallback.
     }
   }
-  return searchCommonsImage(placeName);
+  return searchCommonsImage(placeName, city);
 }
 
 function publicAmenities(tags) {
@@ -220,6 +222,7 @@ module.exports = async function handler(request, response) {
   const longitude = Number(request.query.lon);
   const radius = Math.min(Math.max(Number(request.query.radius) || 12000, 1000), 30000);
   const fallbackCity = String(request.query.city || "North Carolina").trim().slice(0, 80);
+  const searches = request.query.scope === "parks" ? categorySearches.slice(0, 2) : categorySearches;
 
   if (
     !Number.isFinite(latitude) ||
@@ -242,7 +245,7 @@ module.exports = async function handler(request, response) {
 
   try {
     const results = [];
-    for (const [index, categorySearch] of categorySearches.entries()) {
+    for (const [index, categorySearch] of searches.entries()) {
       if (index) await pause(1050);
       const params = new URLSearchParams({
         q: categorySearch.query,
@@ -359,7 +362,7 @@ module.exports = async function handler(request, response) {
       .filter(Boolean);
     const places = await Promise.all(
       basePlaces.map(async (place) => {
-        const image = await reusableImage(place._sourceTags, place.name);
+        const image = await reusableImage(place._sourceTags, place.name, place.city);
         const { _sourceTags, ...publicPlace } = place;
         return image
           ? {

@@ -1,0 +1,155 @@
+{
+  "updatedAt": "2026-08-08",
+  "strategy": "Complete geographically connected clusters before opening isolated metros.",
+  "completedBaseline": {
+    "verifiedAt": "2026-08-08",
+    "campaignVerifierCount": 49,
+    "campaignVerifierFailures": 0,
+    "note": "All existing super-enrichment campaign verifiers pass locally. Production publication remains a maintainer decision."
+  },
+  "recentlyCompleted": [
+    {
+      "name": "Northern California connector",
+      "parentGuides": 9,
+      "licensedPhotos": 36,
+      "evidenceCompleteSubsites": 11,
+      "parentAnswersPreserved": 123,
+      "status": "generated-and-verified"
+    },
+    {
+      "name": "Upper Midwest lake corridor",
+      "parentGuides": 6,
+      "licensedPhotos": 24,
+      "evidenceCompleteSubsites": 7,
+      "parentAnswersPreserved": 84,
+      "status": "generated-and-verified"
+    },
+    {
+      "name": "Mid-South river corridor",
+      "parentGuides": 6,
+      "licensedPhotos": 24,
+      "evidenceCompleteSubsites": 11,
+      "parentAnswersPreserved": 84,
+      "status": "generated-and-verified"
+    },
+    {
+      "name": "Southern inland connector",
+      "parentGuides": 5,
+      "licensedPhotos": 17,
+      "evidenceCompleteSubsites": 2,
+      "parentAnswersPreserved": 72,
+      "photoEvidenceDeferredParents": 4,
+      "status": "partial-generated-and-verified"
+    },
+    {
+      "name": "Upstate New York corridor",
+      "parentGuides": 6,
+      "licensedPhotos": 23,
+      "evidenceCompleteSubsites": 12,
+      "parentAnswersPreserved": 85,
+      "status": "generated-and-verified"
+    },
+    {
+      "name": "New Jersey and Connecticut corridor",
+      "parentGuides": 8,
+      "licensedPhotos": 30,
+      "evidenceCompleteSubsites": 10,
+      "parentAnswersPreserved": 114,
+      "status": "generated-and-verified"
+    },
+    {
+      "name": "Northern New England connector",
+      "parentGuides": 6,
+      "licensedPhotos": 23,
+      "evidenceCompleteSubsites": 10,
+      "parentAnswersPreserved": 86,
+      "status": "generated-and-verified"
+    },
+    {
+      "name": "Central Plains city connector",
+      "parentGuides": 5,
+      "licensedPhotos": 18,
+      "evidenceCompleteSubsites": 5,
+      "parentAnswersPreserved": 70,
+      "photoEvidenceDeferredParents": 2,
+      "status": "partial-generated-and-verified"
+    },
+    {
+      "name": "Southwest interior city connector",
+      "parentGuides": 8,
+      "licensedPhotos": 30,
+      "evidenceCompleteSubsites": 3,
+      "parentAnswersPreserved": 116,
+      "photoEvidenceDeferredParents": 1,
+      "status": "partial-generated-and-verified"
+    },
+    {
+      "name": "Intermountain city connector",
+      "parentGuides": 6,
+      "licensedPhotos": 24,
+      "evidenceCompleteSubsites": 12,
+      "parentAnswersPreserved": 88,
+      "photoEvidenceDeferredParents": 3,
+      "status": "partial-generated-and-verified"
+    },
+    {
+      "name": "Southern California metro connector",
+      "parentGuides": 5,
+      "licensedPhotos": 17,
+      "evidenceCompleteSubsites": 3,
+      "parentAnswersPreserved": 73,
+      "photoEvidenceDeferredParents": 1,
+      "status": "partial-generated-and-verified"
+    },
+    {
+      "name": "Northern Plains city connector",
+      "parentGuides": 4,
+      "licensedPhotos": 16,
+      "evidenceCompleteSubsites": 5,
+      "parentAnswersPreserved": 57,
+      "photoEvidenceDeferredParents": 3,
+      "status": "partial-generated-and-verified"
+    }
+  ],
+  "activeCluster": {
+    "name": "Tucson and Tulsa anchor connector",
+    "reason": "Upgrade four existing launch records across Tucson and Tulsa, pairing two high-value Sun Belt metros with strong family, garden, river-trail, and flagship-park search demand.",
+    "releaseStandard": "Four licensed destination-specific photos, preserved official visitor answers, full street addresses, static canonical pages, and only subsites with reviewed coordinates plus destination-specific licensed photography.",
+    "status": "paused-after-image-and-boundary-research",
+    "metros": ["Tucson", "Tulsa"],
+    "resumeCheckpoint": {
+      "pausedAt": "2026-08-08",
+      "completed": [
+        "Campaign definition and package commands validate.",
+        "Openverse research collected 91 reusable-license candidates: 21 for Gene C. Reid Park, 26 for Rillito River Park, 29 for Gathering Place, and 15 for Woodward Park.",
+        "Boundary research completed: one candidate for Gene C. Reid Park, none for the linear Rillito River Park, five for Gathering Place, and one for Woodward Park."
+      ],
+      "nextAction": "Restart nearby-feature research, then visually curate four destination-specific photos per releasable parent before selecting boundaries, coordinates, addresses, and subsites.",
+      "notReleased": true
+    }
+  },
+  "deferredPhotoMissions": [
+    "Parham Bridges Park needs permission-cleared park, trail, playground, and tennis-center images.",
+    "Little Rock Riverfront Park needs south-bank destination photos; the existing North Little Rock images are not acceptable substitutes.",
+    "Columbia Riverfront Park needs ordinary current visitor images rather than 2015 flood-response documentation.",
+    "Finlay Park needs post-rebuild images; pre-rebuild galleries would misrepresent the current destination.",
+    "Zorinsky Lake Park needs three current, reusable views representing the lake, trail, and a visitor amenity.",
+    "Sedgwick County Park needs permission-cleared park, playscape, lake, trail, and shelter images; unrelated search results are not acceptable substitutes.",
+    "Gateway Park in Fort Worth needs three current reusable views representing its trails, sports areas, river access, or Fort Woof.",
+    "Kathryn Albertson Park needs three current reusable broad views representing its ponds, loop, shelters, wildlife habitat, and visitor experience.",
+    "Rancho San Rafael Regional Park needs ordinary park, trail, playground, arboretum, museum, and ranch views rather than balloon-race and wildlife close-ups.",
+    "Idlewild Park in Reno needs three representative reusable views of the park, rose garden, playland, pool, ponds, river path, or skatepark.",
+    "Great Park in Irvine needs current licensed views of its modern sports, play, arts, food, and visitor facilities; the available 2009-2013 balloon and hangar gallery no longer represents the destination.",
+    "Riverfront Park in Billings needs current lake, trail, picnic, shelter, and Yellowstone River access views rather than wildlife close-ups.",
+    "Swords Park in Billings needs two additional broad destination views beyond its existing trail and city-overlook photographs; park signs and interpretive panels are not substitutes.",
+    "Lions Park in Cheyenne needs broad current views of Sloan's Lake, playgrounds, spray park, aquatic center, fields, shelters, and park circulation rather than Botanic Gardens close-ups alone."
+  ],
+  "nextClusters": [
+    {
+      "priority": 1,
+      "name": "Tucson and Tulsa anchor connector",
+      "metros": ["Tucson", "Tulsa"],
+      "target": "Paused checkpoint: image and boundary research are complete; resume with nearby-feature research and visual curation."
+    }
+  ]
+}

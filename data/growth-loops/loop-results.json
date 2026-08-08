@@ -1,0 +1,14 @@
+{
+  "updatedAt": null,
+  "checkpoint": "7d",
+  "notes": "Enter cumulative event counts after each measurement window. Null means uncollected; zero means checked with no events.",
+  "loops": {
+    "place-discovery": null,
+    "shared-planning-list": null,
+    "verified-answer-sharing": null,
+    "directions-return": null,
+    "question-to-reviewed-answer": null,
+    "explorer-passport": null,
+    "community-question": null
+  }
+}

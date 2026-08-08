@@ -1,0 +1,175 @@
+{
+  "title": "North Carolina Wave 2 Rollout",
+  "generatedAt": "2026-08-03",
+  "scope": "Major and intermediate public destinations in the first ten Wave 2 municipalities",
+  "standards": {
+    "include": [
+      "major and intermediate municipal parks",
+      "public greenways and nature preserves",
+      "public lake, river, marina, and waterfront access",
+      "public gardens, dog parks, splash parks, and outdoor cultural destinations",
+      "county-managed destinations that materially serve the municipality"
+    ],
+    "defer": [
+      "ordinary city halls and municipal office buildings",
+      "small neighborhood parks without distinctive visitor value",
+      "private residential amenities",
+      "undeveloped future park sites",
+      "duplicate or superseded names"
+    ],
+    "anchorMinimum": "Canonical map page, accurate arrival point, essential visitor facts, at least ten sourced questions, official sources, and real attributed images when suitable images are available",
+    "supportingMinimum": "Verified identity, location, operator, basic visitor purpose, and enrichment queue status"
+  },
+  "cities": [
+    {
+      "name": "Asheville",
+      "status": "anchor-seeded",
+      "officialInventory": "https://www.ashevillenc.gov/department/parks-recreation/",
+      "destinations": [
+        { "name": "Blue Ridge Parkway", "tier": "anchor", "status": "seeded", "jurisdiction": "National Park Service" },
+        { "name": "Carrier Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued" },
+        { "name": "French Broad River Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued" },
+        { "name": "Richmond Hill Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued" },
+        { "name": "Pack Square Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued" },
+        { "name": "Western North Carolina Nature Center", "tier": "anchor", "status": "full-page", "imageStatus": "queued" },
+        { "name": "Botanical Gardens at Asheville", "tier": "supporting", "status": "not-started", "jurisdiction": "Independent public garden" },
+        { "name": "Beaver Lake Bird Sanctuary", "tier": "supporting", "status": "not-started", "jurisdiction": "Blue Ridge Audubon" },
+        { "name": "Azalea Park", "tier": "supporting", "status": "not-started" },
+        { "name": "Malvern Hills Park", "tier": "supporting", "status": "not-started" }
+      ]
+    },
+    {
+      "name": "Greenville",
+      "status": "anchor-seeded",
+      "officialInventory": "https://www.greenvillenc.gov/172/Recreation-Parks",
+      "destinations": [
+        { "name": "River Park North", "tier": "anchor", "status": "full-page", "imageStatus": "queued", "verifyAlert": true },
+        { "name": "Wildwood Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued" },
+        { "name": "Greenville Town Common", "tier": "anchor", "status": "full-page", "imageStatus": "queued", "verifyAlert": true },
+        { "name": "South Tar River Greenway", "tier": "anchor", "status": "full-page", "imageStatus": "queued", "verifyAlert": true },
+        { "name": "Elm Street Park", "tier": "supporting", "status": "not-started" },
+        { "name": "Boyd Lee Park", "tier": "supporting", "status": "not-started" },
+        { "name": "Greenville Extreme Park", "tier": "supporting", "status": "not-started" },
+        { "name": "Guy Smith Park", "tier": "supporting", "status": "not-started" }
+      ]
+    },
+    {
+      "name": "Gastonia",
+      "status": "anchor-seeded",
+      "officialInventory": "https://www.cityofgastonia.com/parks-and-recreation.html",
+      "destinations": [
+        { "name": "Rankin Lake Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued", "verifyAlert": true },
+        { "name": "Martha Rivers Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued" },
+        { "name": "Lineberger Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued", "verifyAlert": true },
+        { "name": "Avon and Catawba Creek Greenway", "tier": "anchor", "status": "full-page", "imageStatus": "queued", "verifyAlert": true },
+        { "name": "Sims Legion Park", "tier": "supporting", "status": "not-started" },
+        { "name": "Smyre Millennium Park", "tier": "supporting", "status": "not-started" },
+        { "name": "Erwin Park", "tier": "supporting", "status": "not-started" },
+        { "name": "Phillips Park", "tier": "supporting", "status": "not-started" }
+      ]
+    },
+    {
+      "name": "Apex",
+      "status": "anchor-seeded",
+      "officialInventory": "https://apexnc.org/710/Parks",
+      "destinations": [
+        { "name": "Pleasant Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued" },
+        { "name": "Apex Community Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued" },
+        { "name": "Apex Nature Park and Seymour Athletic Fields", "tier": "anchor", "status": "full-page", "imageStatus": "queued" },
+        { "name": "Kelly Road Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued" },
+        { "name": "Hunter Street Park", "tier": "supporting", "status": "not-started" },
+        { "name": "Seagroves Farm Park", "tier": "supporting", "status": "not-started" },
+        { "name": "Beaver Creek Greenway", "tier": "supporting", "status": "not-started" },
+        { "name": "Salem Pond Park", "tier": "supporting", "status": "not-started" }
+      ]
+    },
+    {
+      "name": "Jacksonville",
+      "status": "anchor-seeded",
+      "officialInventory": "https://www.jacksonvillenc.gov/203/Parks",
+      "destinations": [
+        { "name": "Jacksonville Commons Recreation Complex", "tier": "anchor", "status": "full-page", "imageStatus": "queued" },
+        { "name": "Riverwalk Crossing Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued" },
+        { "name": "Wilson Bay Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued" },
+        { "name": "Sturgeon City Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued" },
+        { "name": "Northeast Creek Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued" },
+        { "name": "L.P. Willingham Waterfront Park", "tier": "supporting", "status": "not-started" },
+        { "name": "Jacksonville Landing and Riverwalk Marina", "tier": "supporting", "status": "not-started" },
+        { "name": "Jack Amyette Park", "tier": "supporting", "status": "not-started" }
+      ]
+    },
+    {
+      "name": "Huntersville",
+      "status": "anchor-seeded",
+      "officialInventory": "https://www.huntersville.org/251/Parks-Recreation",
+      "destinations": [
+        { "name": "Latta Nature Preserve", "tier": "anchor", "status": "full-page", "imageStatus": "queued", "jurisdiction": "Mecklenburg County" },
+        { "name": "North Mecklenburg Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued", "jurisdiction": "Mecklenburg County-owned, Town-operated" },
+        { "name": "Holbrook Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued" },
+        { "name": "Torrence Creek Greenway", "tier": "anchor", "status": "full-page", "imageStatus": "queued", "jurisdiction": "Mecklenburg County" },
+        { "name": "Veterans Park", "tier": "supporting", "status": "not-started" },
+        { "name": "Bradford Park", "tier": "supporting", "status": "not-started", "jurisdiction": "Mecklenburg County" },
+        { "name": "Huntersville Athletic Park", "tier": "supporting", "status": "not-started" }
+      ]
+    },
+    {
+      "name": "Chapel Hill",
+      "status": "anchor-seeded",
+      "officialInventory": "https://www.chapelhillnc.gov/Events-and-Activities/Find-a-Park-or-Greenway",
+      "destinations": [
+        { "name": "Southern Community Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued" },
+        { "name": "Cedar Falls Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued", "verifyAlert": true },
+        { "name": "Homestead Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued" },
+        { "name": "Bolin Creek Trail", "tier": "anchor", "status": "full-page", "imageStatus": "queued" },
+        { "name": "Umstead Park", "tier": "supporting", "status": "not-started" },
+        { "name": "Chapel Hill Community Center Park", "tier": "supporting", "status": "not-started" },
+        { "name": "Hargraves Park", "tier": "supporting", "status": "not-started" },
+        { "name": "Battle Branch Trail", "tier": "supporting", "status": "not-started" }
+      ]
+    },
+    {
+      "name": "Burlington",
+      "status": "anchor-seeded",
+      "officialInventory": "https://www.burlingtonnc.gov/1316/Parks",
+      "destinations": [
+        { "name": "Burlington City Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued" },
+        { "name": "Arboretum at Willowbrook Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued" },
+        { "name": "Lake Mackintosh Park and Marina", "tier": "anchor", "status": "full-page", "imageStatus": "queued" },
+        { "name": "Lake Cammack Park and Marina", "tier": "anchor", "status": "full-page", "imageStatus": "queued" },
+        { "name": "Springwood Park", "tier": "supporting", "status": "not-started" },
+        { "name": "Town and Country Nature Park", "tier": "supporting", "status": "not-started" },
+        { "name": "Jiggs Askew Dog Park", "tier": "supporting", "status": "not-started" },
+        { "name": "Fairchild Park", "tier": "supporting", "status": "not-started" }
+      ]
+    },
+    {
+      "name": "Mooresville",
+      "status": "anchor-seeded",
+      "officialInventory": "https://www.mooresvillenc.gov/government/departments/parks___recreation/parks/index.php",
+      "destinations": [
+        { "name": "Liberty Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued" },
+        { "name": "Mazeppa Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued" },
+        { "name": "Cornelius Road Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued" },
+        { "name": "Magla Park", "tier": "supporting", "status": "not-started" },
+        { "name": "Bellingham Park", "tier": "supporting", "status": "not-started" },
+        { "name": "Selma Burke Recreation Center and Park", "tier": "supporting", "status": "not-started" },
+        { "name": "War Memorial Recreation Center and Park", "tier": "supporting", "status": "not-started" }
+      ]
+    },
+    {
+      "name": "Wake Forest",
+      "status": "anchor-seeded",
+      "officialInventory": "https://www.wakeforestnc.gov/parks-recreation-cultural-resources/parks-facilities",
+      "destinations": [
+        { "name": "E. Carroll Joyner Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued" },
+        { "name": "Holding Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued" },
+        { "name": "J.B. Flaherty Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued" },
+        { "name": "Smith Creek Greenway", "tier": "anchor", "status": "full-page", "imageStatus": "queued" },
+        { "name": "Tyler Run Park", "tier": "supporting", "status": "not-started" },
+        { "name": "Ailey Young Park", "tier": "supporting", "status": "not-started" },
+        { "name": "Taylor Street Park and Alston-Massenburg Center", "tier": "supporting", "status": "not-started" },
+        { "name": "Plummer Park", "tier": "supporting", "status": "not-started" }
+      ]
+    }
+  ]
+}

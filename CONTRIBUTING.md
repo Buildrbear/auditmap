@@ -3,6 +3,10 @@
 AuditMap is a public-interest map for useful public-place information, local context, and visible
 sources. Contributions from people and software agents are welcome through reviewed pull requests.
 
+Software agents must also follow [AGENTS.md](./AGENTS.md). Research and enrichment work uses the
+publication checklist in
+[docs/agent-data-contribution-standard.md](./docs/agent-data-contribution-standard.md).
+
 ## Safe contribution path
 
 1. Pick an approved GitHub issue or OpenTask assignment.

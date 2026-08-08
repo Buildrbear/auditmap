@@ -1,0 +1,3063 @@
+{
+  "generatedAt": "2026-07-30T18:46:10.517Z",
+  "parks": [
+    {
+      "id": "launch-ny-new-york-city-central-park",
+      "name": "Central Park",
+      "city": "New York City",
+      "state": "NY",
+      "sourceBoundary": "https://www.openstreetmap.org/way/427818536",
+      "features": [
+        {
+          "id": "launch-ny-new-york-city-central-park-the-dairy-visitor-center-and-gift-shop",
+          "slug": "the-dairy-visitor-center-and-gift-shop",
+          "name": "The Dairy (Visitor Center and Gift Shop)",
+          "feature_type": "visitor-center",
+          "description": "The Dairy (Visitor Center and Gift Shop) is a mapped visitor center (information) within the park. Visitor details still require official-source review.",
+          "latitude": 40.7691057,
+          "longitude": -73.9737037,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/427818536",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/265347588",
+          "verified_at": "2026-07-30",
+          "score": 110,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 265347588,
+            "wikidata": "Q67214585",
+            "wikipedia": "en:The Dairy",
+            "boundaryContained": true
+          }
+        },
+        {
+          "id": "launch-ny-new-york-city-central-park-central-park-zoo",
+          "slug": "central-park-zoo",
+          "name": "Central Park Zoo",
+          "feature_type": "museum",
+          "description": "Central Park Zoo is a mapped museum (zoo) within the park. Visitor details still require official-source review.",
+          "latitude": 40.7677015,
+          "longitude": -73.9716988,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/427818536",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Central_Park_td_%282019-07-11%29_064_-_Wien_Walk%2C_Central_Park_Zoo.jpg/1920px-Central_Park_td_%282019-07-11%29_064_-_Wien_Walk%2C_Central_Park_Zoo.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Central_Park_td_(2019-07-11)_064_-_Wien_Walk,_Central_Park_Zoo.jpg",
+            "imageAuthor": "Tdorante10",
+            "imageLicense": "CC BY-SA 4.0",
+            "imageAlt": "The entrance into the Central Park Zoo at the north end of the Wien Walk at the southeast corner of Central Park, at 5th Avenue and 62nd Street near Lenox Hill, Manhattan."
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/354587586",
+          "verified_at": "2026-07-30",
+          "score": 108,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 354587586,
+            "wikidata": "Q954207",
+            "wikipedia": "en:Central Park Zoo",
+            "boundaryContained": true,
+            "imageFileTitle": "File:Central Park td (2019-07-11) 064 - Wien Walk, Central Park Zoo.jpg"
+          }
+        },
+        {
+          "id": "launch-ny-new-york-city-central-park-the-metropolitan-museum-of-art",
+          "slug": "the-metropolitan-museum-of-art",
+          "name": "The Metropolitan Museum of Art",
+          "feature_type": "museum",
+          "description": "The Metropolitan Museum of Art is a mapped museum (museum) within the park. Visitor details still require official-source review.",
+          "latitude": 40.7793968,
+          "longitude": -73.9634178,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/427818536",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/relation/3698894",
+          "verified_at": "2026-07-30",
+          "score": 108,
+          "discovery": {
+            "osmType": "relation",
+            "osmId": 3698894,
+            "wikidata": "Q160236",
+            "wikipedia": "en:Metropolitan Museum of Art",
+            "boundaryContained": true
+          }
+        },
+        {
+          "id": "launch-ny-new-york-city-central-park-conservatory-garden",
+          "slug": "conservatory-garden",
+          "name": "Conservatory Garden",
+          "feature_type": "garden",
+          "description": "Conservatory Garden is a mapped garden (garden) within the park. Visitor details still require official-source review.",
+          "latitude": 40.793677,
+          "longitude": -73.9522832,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/427818536",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Central_Park_Jun_2026_41.jpg/1920px-Central_Park_Jun_2026_41.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Central_Park_Jun_2026_41.jpg",
+            "imageAuthor": "Epicgenius",
+            "imageLicense": "CC BY-SA 4.0",
+            "imageAlt": "Conservatory Garden at Central Park in Manhattan, New York, seen in June 2026"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/387351390",
+          "verified_at": "2026-07-30",
+          "score": 106,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 387351390,
+            "wikidata": "Q1060958",
+            "wikipedia": "en:Conservatory Garden",
+            "boundaryContained": true,
+            "imageFileTitle": "File:Central Park Jun 2026 41.jpg"
+          }
+        },
+        {
+          "id": "launch-ny-new-york-city-central-park-shakespeare-garden",
+          "slug": "shakespeare-garden",
+          "name": "Shakespeare Garden",
+          "feature_type": "garden",
+          "description": "Shakespeare Garden is a mapped garden (garden) within the park. Visitor details still require official-source review.",
+          "latitude": 40.7798173,
+          "longitude": -73.9699595,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/427818536",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/USA-NYC-Central_Park-Shakespeare_Garden.JPG/1920px-USA-NYC-Central_Park-Shakespeare_Garden.JPG",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:USA-NYC-Central_Park-Shakespeare_Garden.JPG",
+            "imageAuthor": "Ingfbruno",
+            "imageLicense": "CC BY-SA 3.0",
+            "imageAlt": "Shakespeare Garden"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/429887431",
+          "verified_at": "2026-07-30",
+          "score": 106,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 429887431,
+            "wikidata": "Q7462839",
+            "wikipedia": "en:Shakespeare garden#Central Park",
+            "boundaryContained": true,
+            "imageFileTitle": "File:USA-NYC-Central Park-Shakespeare Garden.JPG"
+          }
+        },
+        {
+          "id": "launch-ny-new-york-city-central-park-albert-bertel-thorvaldsen",
+          "slug": "albert-bertel-thorvaldsen",
+          "name": "Albert Bertel Thorvaldsen",
+          "feature_type": "art",
+          "description": "Albert Bertel Thorvaldsen is a mapped art (statue) within the park. Visitor details still require official-source review.",
+          "latitude": 40.7886205,
+          "longitude": -73.9559997,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/427818536"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/3053660725",
+          "verified_at": "2026-07-30",
+          "score": 104,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 3053660725,
+            "wikidata": "Q108824415",
+            "wikipedia": "en:Bertel Thorvaldsen with the Statue of Hope",
+            "boundaryContained": true,
+            "rejectedImageTitles": [
+              "File:Andreas Martin Petersen, Albert Bertel Thorvaldsen, 1839, KKS12390, Statens Museum for Kunst.jpg"
+            ]
+          }
+        },
+        {
+          "id": "launch-ny-new-york-city-central-park-alexander-hamilton",
+          "slug": "alexander-hamilton",
+          "name": "Alexander Hamilton",
+          "feature_type": "art",
+          "description": "Alexander Hamilton is a mapped art (statue) within the park. Visitor details still require official-source review.",
+          "latitude": 40.781033,
+          "longitude": -73.964572,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/427818536",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Alexander_Hamilton_Central_Park_New_York.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Alexander_Hamilton_Central_Park_New_York.jpg",
+            "imageAuthor": "Sirozha",
+            "imageLicense": "CC BY-SA 4.0",
+            "imageAlt": "Alexander Hamilton monument Central Park New York"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/2727025835",
+          "verified_at": "2026-07-30",
+          "score": 104,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 2727025835,
+            "wikidata": "Q19473784",
+            "wikipedia": "en:Statue of Alexander Hamilton (Central Park)",
+            "boundaryContained": true,
+            "imageFileTitle": "File:Alexander Hamilton Central Park New York.jpg"
+          }
+        },
+        {
+          "id": "launch-ny-new-york-city-central-park-alice-in-wonderland",
+          "slug": "alice-in-wonderland",
+          "name": "Alice in Wonderland",
+          "feature_type": "art",
+          "description": "Alice in Wonderland is a mapped art (statue) within the park. Visitor details still require official-source review.",
+          "latitude": 40.7750382,
+          "longitude": -73.9665337,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/427818536",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Alice_in_the_Wonderland.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Alice_in_the_Wonderland.jpg",
+            "imageAuthor": "Elisa.rolle",
+            "imageLicense": "CC BY-SA 3.0",
+            "imageAlt": "Central Park, Bounded by Central Park S., 5th Ave., Central Park W., 110th St. New York"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/561950603",
+          "verified_at": "2026-07-30",
+          "score": 104,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 561950603,
+            "wikidata": "Q93316612",
+            "wikipedia": "en:Alice in Wonderland sculpture",
+            "boundaryContained": true,
+            "imageFileTitle": "File:Alice in the Wonderland.jpg"
+          }
+        },
+        {
+          "id": "launch-ny-new-york-city-central-park-107th-infantry-memorial",
+          "slug": "107th-infantry-memorial",
+          "name": "107th Infantry Memorial",
+          "feature_type": "landmark",
+          "description": "107th Infantry Memorial is a mapped landmark (memorial) within the park. Visitor details still require official-source review.",
+          "latitude": 40.7693306,
+          "longitude": -73.969557,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/427818536",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/107th_Infantry_Memorial%2C_Central_Park%2C_NYC.JPG/1920px-107th_Infantry_Memorial%2C_Central_Park%2C_NYC.JPG",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:107th_Infantry_Memorial,_Central_Park,_NYC.JPG",
+            "imageAuthor": "Ahodges7",
+            "imageLicense": "CC BY-SA 3.0",
+            "imageAlt": "Memorial to the 7th Regiment (New York) of the 107th Infantry, Central Park & E67th St, Manhattan, NYC"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/2727025884",
+          "verified_at": "2026-07-30",
+          "score": 102,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 2727025884,
+            "wikidata": "Q17507904",
+            "wikipedia": "en:107th Infantry Memorial",
+            "boundaryContained": true,
+            "imageFileTitle": "File:107th Infantry Memorial, Central Park, NYC.JPG"
+          }
+        },
+        {
+          "id": "launch-ny-new-york-city-central-park-belvedere-castle",
+          "slug": "belvedere-castle",
+          "name": "Belvedere Castle",
+          "feature_type": "landmark",
+          "description": "Belvedere Castle is a mapped landmark (castle) within the park. Visitor details still require official-source review.",
+          "latitude": 40.7793216,
+          "longitude": -73.9688926,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/427818536",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Belvedere_Castle%2C_Central_Park.jpg/1920px-Belvedere_Castle%2C_Central_Park.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Belvedere_Castle,_Central_Park.jpg",
+            "imageAuthor": "Stig Nygaard from Copenhagen, Denmark",
+            "imageLicense": "CC BY 2.0",
+            "imageAlt": "Belvedere Castle"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/278363023",
+          "verified_at": "2026-07-30",
+          "score": 102,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 278363023,
+            "wikidata": "Q816268",
+            "wikipedia": "en:Belvedere Castle",
+            "boundaryContained": true,
+            "imageFileTitle": "File:Belvedere Castle, Central Park.jpg"
+          }
+        },
+        {
+          "id": "launch-ny-new-york-city-central-park-blockhouse-no-1",
+          "slug": "blockhouse-no-1",
+          "name": "Blockhouse No. 1",
+          "feature_type": "landmark",
+          "description": "Blockhouse No. 1 is a mapped landmark (fort) within the park. Visitor details still require official-source review.",
+          "latitude": 40.7986699,
+          "longitude": -73.9562876,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/427818536",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/New_York_City_Blockhouse_full_view.JPG",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:New_York_City_Blockhouse_full_view.JPG",
+            "imageAuthor": "Sylius",
+            "imageLicense": "Public domain",
+            "imageAlt": "Military Blockhouse, part of New York City fortifications system during the British-American War of 1812."
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/39243913",
+          "verified_at": "2026-07-30",
+          "score": 102,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 39243913,
+            "wikidata": "Q4927275",
+            "wikipedia": "en:Blockhouse No. 1",
+            "boundaryContained": true,
+            "imageFileTitle": "File:New York City Blockhouse full view.JPG"
+          }
+        },
+        {
+          "id": "launch-ny-new-york-city-central-park-cleopatra-s-needle",
+          "slug": "cleopatra-s-needle",
+          "name": "Cleopatra's Needle",
+          "feature_type": "landmark",
+          "description": "Cleopatra's Needle is a mapped landmark (monument) within the park. Visitor details still require official-source review.",
+          "latitude": 40.7796359,
+          "longitude": -73.9653965,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/427818536",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Central_Park_New_York_May_2017_004.jpg/1920px-Central_Park_New_York_May_2017_004.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Central_Park_New_York_May_2017_004.jpg",
+            "imageAuthor": "King of Hearts",
+            "imageLicense": "CC BY-SA 4.0",
+            "imageAlt": "Cleopatra's Needle , Central Park , Manhattan , New York City ."
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/179685272",
+          "verified_at": "2026-07-30",
+          "score": 102,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 179685272,
+            "wikidata": "Q23889472",
+            "wikipedia": "en:Cleopatra's Needle (New York City)",
+            "boundaryContained": true,
+            "imageFileTitle": "File:Central Park New York May 2017 004.jpg"
+          }
+        }
+      ],
+      "reviewCandidates": [],
+      "discoveryError": null
+    },
+    {
+      "id": "launch-ny-new-york-city-prospect-park",
+      "name": "Prospect Park",
+      "city": "New York City",
+      "state": "NY",
+      "sourceBoundary": "https://www.openstreetmap.org/relation/9760157",
+      "features": [
+        {
+          "id": "launch-ny-new-york-city-prospect-park-lefferts-historic-house",
+          "slug": "lefferts-historic-house",
+          "name": "Lefferts Historic House",
+          "feature_type": "museum",
+          "description": "Lefferts Historic House is a mapped museum (building) within the park. Visitor details still require official-source review.",
+          "latitude": 40.664375,
+          "longitude": -73.9637979,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/9760157",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Prospect_Park_Brooklyn_Feb_2019_110.jpg/1920px-Prospect_Park_Brooklyn_Feb_2019_110.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Prospect_Park_Brooklyn_Feb_2019_110.jpg",
+            "imageAuthor": "Epicgenius",
+            "imageLicense": "CC BY-SA 4.0",
+            "imageAlt": "Lefferts House at Prospect Park (Brooklyn) in Brooklyn, New York"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/241846626",
+          "verified_at": "2026-07-30",
+          "score": 108,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 241846626,
+            "wikidata": "Q6516654",
+            "wikipedia": "en:Lefferts Historic House",
+            "boundaryContained": true,
+            "imageFileTitle": "File:Prospect Park Brooklyn Feb 2019 110.jpg"
+          }
+        },
+        {
+          "id": "launch-ny-new-york-city-prospect-park-prospect-park-zoo",
+          "slug": "prospect-park-zoo",
+          "name": "Prospect Park Zoo",
+          "feature_type": "museum",
+          "description": "Prospect Park Zoo is a mapped museum (zoo) within the park. Visitor details still require official-source review.",
+          "latitude": 40.6652885,
+          "longitude": -73.9648904,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/9760157",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Prospect_Park_Zoo-21-Jan-2006.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Prospect_Park_Zoo-21-Jan-2006.jpg",
+            "imageAuthor": "Garry R. Osgood , with Sony Mavica FD-90 with f 2.8 lens",
+            "imageLicense": "CC BY-SA 3.0",
+            "imageAlt": "Entrance to Prospect Park Zoo looking southwest from Flatbush Avenue, Brooklyn , City of New York, 21-Jan-2006 at 7:40 AM EST. Sea Lion's Pool is in front of the main entrance. Old Elephant House, current Animal Lifestyles building is in the background."
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/60861746",
+          "verified_at": "2026-07-30",
+          "score": 108,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 60861746,
+            "wikidata": "Q1058899",
+            "wikipedia": "en:Prospect Park Zoo",
+            "boundaryContained": true,
+            "imageFileTitle": "File:Prospect Park Zoo-21-Jan-2006.jpg"
+          }
+        },
+        {
+          "id": "launch-ny-new-york-city-prospect-park-james-stranahan",
+          "slug": "james-stranahan",
+          "name": "James Stranahan",
+          "feature_type": "art",
+          "description": "James Stranahan is a mapped art (statue) within the park. Visitor details still require official-source review.",
+          "latitude": 40.6721354,
+          "longitude": -73.9695173,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/9760157",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Statue_of_James_Stranahan%2C_Statues_of_New_York.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Statue_of_James_Stranahan,_Statues_of_New_York.jpg",
+            "imageAuthor": "Unknown author Unknown author",
+            "imageLicense": "Public domain",
+            "imageAlt": "Statue of James S. T. Stranahan in Brooklyn's Prospect Park. Image taken here is from the book \"Statues of New York\", published in 1923."
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/6587419135",
+          "verified_at": "2026-07-30",
+          "score": 104,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 6587419135,
+            "wikidata": "Q211910",
+            "wikipedia": "en:Statue of James S. T. Stranahan",
+            "boundaryContained": true,
+            "imageFileTitle": "File:Statue of James Stranahan, Statues of New York.jpg"
+          }
+        },
+        {
+          "id": "launch-ny-new-york-city-prospect-park-litchfield-villa",
+          "slug": "litchfield-villa",
+          "name": "Litchfield Villa",
+          "feature_type": "landmark",
+          "description": "Litchfield Villa is a mapped landmark (manor) within the park. Visitor details still require official-source review.",
+          "latitude": 40.6668751,
+          "longitude": -73.9737048,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/9760157",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Litchfield_Villa_%2814034p%29.jpg/1920px-Litchfield_Villa_%2814034p%29.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Litchfield_Villa_(14034p).jpg",
+            "imageAuthor": "Rhododendrites",
+            "imageLicense": "CC BY-SA 4.0",
+            "imageAlt": "Litchfield Villa in Prospect Park"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/241846599",
+          "verified_at": "2026-07-30",
+          "score": 102,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 241846599,
+            "wikidata": "Q6647480",
+            "wikipedia": "en:Litchfield Villa",
+            "boundaryContained": true,
+            "imageFileTitle": "File:Litchfield Villa (14034p).jpg"
+          }
+        },
+        {
+          "id": "launch-ny-new-york-city-prospect-park-marquis-de-lafayette-monument",
+          "slug": "marquis-de-lafayette-monument",
+          "name": "Marquis de Lafayette Monument",
+          "feature_type": "landmark",
+          "description": "Marquis de Lafayette Monument is a mapped landmark (monument) within the park. Visitor details still require official-source review.",
+          "latitude": 40.6644754,
+          "longitude": -73.9765845,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/9760157",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Lafayette_Monument_20210216.jpg/1920px-Lafayette_Monument_20210216.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Lafayette_Monument_20210216.jpg",
+            "imageAuthor": "CaptJayRuffins",
+            "imageLicense": "CC BY-SA 4.0",
+            "imageAlt": "As depicted on the Lafayette monument - James Armistead Lafayette - Groom and friend of General, shying from horse behind Lafayette, at 9th st entrance to Prospect Park."
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/3477007193",
+          "verified_at": "2026-07-30",
+          "score": 102,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 3477007193,
+            "wikidata": "Q105616738",
+            "wikipedia": "en:Lafayette Memorial",
+            "boundaryContained": true,
+            "imageFileTitle": "File:Lafayette Monument 20210216.jpg"
+          }
+        },
+        {
+          "id": "launch-ny-new-york-city-prospect-park-garfield-tot-lot",
+          "slug": "garfield-tot-lot",
+          "name": "Garfield Tot Lot",
+          "feature_type": "playground",
+          "description": "Garfield Tot Lot is a mapped playground (playground) within the park. Visitor details still require official-source review.",
+          "latitude": 40.6697198,
+          "longitude": -73.9719464,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/9760157",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/60963591",
+          "verified_at": "2026-07-30",
+          "score": 100,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 60963591,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          }
+        },
+        {
+          "id": "launch-ny-new-york-city-prospect-park-harmony-playground",
+          "slug": "harmony-playground",
+          "name": "Harmony Playground",
+          "feature_type": "playground",
+          "description": "Harmony Playground is a mapped playground (playground) within the park. Visitor details still require official-source review.",
+          "latitude": 40.6634449,
+          "longitude": -73.9769761,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/9760157"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/517469266",
+          "verified_at": "2026-07-30",
+          "score": 100,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 517469266,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "rejectedImageTitles": [
+              "File:Day in the sun in Prospect Park.jpg"
+            ]
+          }
+        },
+        {
+          "id": "launch-ny-new-york-city-prospect-park-imagination-playground-children-s-play-area",
+          "slug": "imagination-playground-children-s-play-area",
+          "name": "Imagination Playground Children's Play Area",
+          "feature_type": "playground",
+          "description": "Imagination Playground Children's Play Area is a mapped playground (This playground has sprinklers!) within the park. Visitor details still require official-source review.",
+          "latitude": 40.6586424,
+          "longitude": -73.9630567,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/9760157",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/1121628687",
+          "verified_at": "2026-07-30",
+          "score": 100,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 1121628687,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          }
+        },
+        {
+          "id": "launch-ny-new-york-city-prospect-park-lincoln-road-playground",
+          "slug": "lincoln-road-playground",
+          "name": "Lincoln Road Playground",
+          "feature_type": "playground",
+          "description": "Lincoln Road Playground is a mapped playground (This playground has a sandbox and swings) within the park. Visitor details still require official-source review.",
+          "latitude": 40.6608783,
+          "longitude": -73.9634712,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/9760157",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/259194027",
+          "verified_at": "2026-07-30",
+          "score": 100,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 259194027,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          }
+        },
+        {
+          "id": "launch-ny-new-york-city-prospect-park-dog-beach",
+          "slug": "dog-beach",
+          "name": "Dog Beach",
+          "feature_type": "dog-area",
+          "description": "Dog Beach is a mapped dog area (dog park) within the park. Visitor details still require official-source review.",
+          "latitude": 40.6625431,
+          "longitude": -73.9718868,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/9760157",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/AT_THE_DOGGIE_BEACH.MAY.2021.jpg/1920px-AT_THE_DOGGIE_BEACH.MAY.2021.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:AT_THE_DOGGIE_BEACH.MAY.2021.jpg",
+            "imageAuthor": "RHeredia.817",
+            "imageLicense": "CC BY-SA 4.0",
+            "imageAlt": "Section of Prospect Park : Doggie Beach Prospect Park wildlife depicted : Dogs at the beach Date and time : 05/09/2016"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/374849577",
+          "verified_at": "2026-07-30",
+          "score": 98,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 374849577,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "imageFileTitle": "File:AT THE DOGGIE BEACH.MAY.2021.jpg"
+          }
+        },
+        {
+          "id": "launch-ny-new-york-city-prospect-park-abraham-lincoln",
+          "slug": "abraham-lincoln",
+          "name": "Abraham Lincoln",
+          "feature_type": "art",
+          "description": "Abraham Lincoln is a mapped art (statue) within the park. Visitor details still require official-source review.",
+          "latitude": 40.658384,
+          "longitude": -73.9649363,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/9760157",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/10_04_2020_Lincoln_Monument_Concert_Grove.jpg/1920px-10_04_2020_Lincoln_Monument_Concert_Grove.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:10_04_2020_Lincoln_Monument_Concert_Grove.jpg",
+            "imageAuthor": "Wil540 art",
+            "imageLicense": "CC BY-SA 4.0",
+            "imageAlt": "A rainy day at the Lincoln Monument in Concert Grove, Prospect Park - October 2021"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/6582459984",
+          "verified_at": "2026-07-30",
+          "score": 90,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 6582459984,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "imageFileTitle": "File:10 04 2020 Lincoln Monument Concert Grove.jpg"
+          }
+        },
+        {
+          "id": "launch-ny-new-york-city-prospect-park-dragon-fountain",
+          "slug": "dragon-fountain",
+          "name": "Dragon Fountain",
+          "feature_type": "art",
+          "description": "Dragon Fountain is a mapped art (sculpture) within the park. Visitor details still require official-source review.",
+          "latitude": 40.6586134,
+          "longitude": -73.963115,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/9760157"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/10258944760",
+          "verified_at": "2026-07-30",
+          "score": 90,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 10258944760,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "rejectedImageTitles": [
+              "File:Dragon Fountain, Eaton Hall 03.jpg"
+            ]
+          }
+        }
+      ],
+      "reviewCandidates": [],
+      "discoveryError": null
+    },
+    {
+      "id": "launch-ca-los-angeles-griffith-park",
+      "name": "Griffith Park",
+      "city": "Los Angeles",
+      "state": "CA",
+      "sourceBoundary": "https://www.openstreetmap.org/relation/7091174",
+      "features": [
+        {
+          "id": "launch-ca-los-angeles-griffith-park-autry-museum-of-the-american-west",
+          "slug": "autry-museum-of-the-american-west",
+          "name": "Autry Museum of the American West",
+          "feature_type": "museum",
+          "description": "Autry Museum of the American West is a mapped museum (museum) within the park. Visitor details still require official-source review.",
+          "latitude": 34.1485739,
+          "longitude": -118.281268,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/7091174",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Entrance_to_the_Autry_National_Center%2C_Griffith_Park%2C_CA_DSCN0091.JPG/1920px-Entrance_to_the_Autry_National_Center%2C_Griffith_Park%2C_CA_DSCN0091.JPG",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Entrance_to_the_Autry_National_Center,_Griffith_Park,_CA_DSCN0091.JPG",
+            "imageAuthor": "Billy Hathorn",
+            "imageLicense": "CC BY-SA 3.0",
+            "imageAlt": "I took photo to entrance of Autry Center in Griffith Park with Nikon camera."
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/422130703",
+          "verified_at": "2026-07-30",
+          "score": 108,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 422130703,
+            "wikidata": "Q4827110",
+            "wikipedia": "en:Autry Museum of the American West",
+            "boundaryContained": true,
+            "imageFileTitle": "File:Entrance to the Autry National Center, Griffith Park, CA DSCN0091.JPG"
+          }
+        },
+        {
+          "id": "launch-ca-los-angeles-griffith-park-la-live-steamers",
+          "slug": "la-live-steamers",
+          "name": "LA Live Steamers",
+          "feature_type": "museum",
+          "description": "LA Live Steamers is a mapped museum (museum) within the park. Visitor details still require official-source review.",
+          "latitude": 34.1548971,
+          "longitude": -118.3020299,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/7091174",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Livestreamers.JPG/1920px-Livestreamers.JPG",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Livestreamers.JPG",
+            "imageAuthor": "en:User:Jengod",
+            "imageLicense": "CC BY-SA 4.0",
+            "imageAlt": "Sign for LA Live Steamers at Griffith Park"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/27052942",
+          "verified_at": "2026-07-30",
+          "score": 108,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 27052942,
+            "wikidata": "Q6682258",
+            "wikipedia": "en:Los Angeles Live Steamers Railroad Museum",
+            "boundaryContained": true,
+            "imageFileTitle": "File:Livestreamers.JPG"
+          }
+        },
+        {
+          "id": "launch-ca-los-angeles-griffith-park-los-angeles-zoo",
+          "slug": "los-angeles-zoo",
+          "name": "Los Angeles Zoo",
+          "feature_type": "museum",
+          "description": "Los Angeles Zoo is a mapped museum (zoo) within the park. Visitor details still require official-source review.",
+          "latitude": 34.1483335,
+          "longitude": -118.289411,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/7091174"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/27052829",
+          "verified_at": "2026-07-30",
+          "score": 108,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 27052829,
+            "wikidata": "Q1370924",
+            "wikipedia": "en:Los Angeles Zoo",
+            "boundaryContained": true,
+            "rejectedImageTitles": [
+              "File:Los Angeles Zoo Magnet Campus.JPG"
+            ]
+          }
+        },
+        {
+          "id": "launch-ca-los-angeles-griffith-park-griffith-observatory",
+          "slug": "griffith-observatory",
+          "name": "Griffith Observatory",
+          "feature_type": "museum",
+          "description": "Griffith Observatory is a mapped museum (museum) within the park. Visitor details still require official-source review.",
+          "latitude": 34.1182134,
+          "longitude": -118.3003722,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/7091174",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/View_from_the_balcony_at_Griffith_Observatory_on_the_Hollywood_sign_and_Mt._Lee_20220509_141352_%281%29.jpg/1920px-View_from_the_balcony_at_Griffith_Observatory_on_the_Hollywood_sign_and_Mt._Lee_20220509_141352_%281%29.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:View_from_the_balcony_at_Griffith_Observatory_on_the_Hollywood_sign_and_Mt._Lee_20220509_141352_(1).jpg",
+            "imageAuthor": "Steveshelokhonov",
+            "imageLicense": "CC BY-SA 4.0",
+            "imageAlt": "View from the balcony at Griffith Observatory on the Hollywood sign and Mt. Lee at 2 PM 05/09/2022"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/422130705",
+          "verified_at": "2026-07-30",
+          "score": 102,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 422130705,
+            "wikidata": "Q575901",
+            "wikipedia": null,
+            "boundaryContained": true,
+            "rejectedImageTitles": [
+              "File:View of Griffith Park from Sunset Boulevard.jpg"
+            ],
+            "imageFileTitle": "File:View from the balcony at Griffith Observatory on the Hollywood sign and Mt. Lee 20220509 141352 (1).jpg"
+          }
+        },
+        {
+          "id": "launch-ca-los-angeles-griffith-park-hollywood-sign",
+          "slug": "hollywood-sign",
+          "name": "Hollywood Sign",
+          "feature_type": "landmark",
+          "description": "Hollywood Sign is a mapped landmark (monument) within the park. Visitor details still require official-source review.",
+          "latitude": 34.1340628,
+          "longitude": -118.3216464,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/7091174"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/relation/1706337",
+          "verified_at": "2026-07-30",
+          "score": 102,
+          "discovery": {
+            "osmType": "relation",
+            "osmId": 1706337,
+            "wikidata": "Q180376",
+            "wikipedia": "en:Hollywood Sign",
+            "boundaryContained": true,
+            "rejectedImageTitles": [
+              "File:Hollywood Hills view from Jefferson Park.jpg",
+              "File:View of Griffith Park from Sunset Boulevard 2.jpg",
+              "File:View of Griffith Park from Sunset Boulevard.jpg"
+            ]
+          }
+        },
+        {
+          "id": "launch-ca-los-angeles-griffith-park-travel-town-museum",
+          "slug": "travel-town-museum",
+          "name": "Travel Town Museum",
+          "feature_type": "museum",
+          "description": "Travel Town Museum is a mapped museum (museum) within the park. Visitor details still require official-source review.",
+          "latitude": 34.1546797,
+          "longitude": -118.3076242,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/7091174",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/%27Travel_Town_Museum%27_30.jpg/1920px-%27Travel_Town_Museum%27_30.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%27Travel_Town_Museum%27_30.jpg",
+            "imageAuthor": "NearEMPTiness",
+            "imageLicense": "CC BY-SA 4.0",
+            "imageAlt": "Travel Town Museum is a transport museum dedicated in the northwest corner of Los Angeles, California's Griffith Park. The history of railroad transportation in the western United States from 1880 to the 1930s is the primary focus of the museum's collection, with an emphasis on railroading in Southern California and the Los Angeles area."
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/167701343",
+          "verified_at": "2026-07-30",
+          "score": 102,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 167701343,
+            "wikidata": "Q7835942",
+            "wikipedia": null,
+            "boundaryContained": true,
+            "imageFileTitle": "File:'Travel Town Museum' 30.jpg"
+          }
+        },
+        {
+          "id": "launch-ca-los-angeles-griffith-park-greek-theatre",
+          "slug": "greek-theatre",
+          "name": "Greek Theatre",
+          "feature_type": "event-space",
+          "description": "Greek Theatre is a mapped event space (theatre) within the park. Visitor details still require official-source review.",
+          "latitude": 34.1195265,
+          "longitude": -118.2963418,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/7091174",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Know_Your_City_No.52_Park_grounds_and_back_wall_of_the_Greek_Theater.jpg/1920px-Know_Your_City_No.52_Park_grounds_and_back_wall_of_the_Greek_Theater.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Know_Your_City_No.52_Park_grounds_and_back_wall_of_the_Greek_Theater.jpg",
+            "imageAuthor": "Los Angeles Times",
+            "imageLicense": "CC BY 4.0",
+            "imageAlt": "KNOW YOUR CITY, NO. 52 -- It looks like a movie set, complete with phony buttermilk sky. But it isn't. It's all for real, including the sky. What's more, this is quite a popular spot in town and you've probably been there. ANSWER: Perhaps you didn’t recognize the place in the photo, back lighted by a late afternoon sun, but it is the front of the Greek Theater in Griffith Park. Pretty picture, huh?"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/relation/12153662",
+          "verified_at": "2026-07-30",
+          "score": 100,
+          "discovery": {
+            "osmType": "relation",
+            "osmId": 12153662,
+            "wikidata": "Q5601897",
+            "wikipedia": "en:Greek Theatre (Los Angeles)",
+            "boundaryContained": true,
+            "imageFileTitle": "File:Know Your City No.52 Park grounds and back wall of the Greek Theater.jpg"
+          }
+        },
+        {
+          "id": "launch-ca-los-angeles-griffith-park-shane-s-inspiration",
+          "slug": "shane-s-inspiration",
+          "name": "Shane's Inspiration",
+          "feature_type": "playground",
+          "description": "Shane's Inspiration is a mapped playground (playground) within the park. Visitor details still require official-source review.",
+          "latitude": 34.1350153,
+          "longitude": -118.2846529,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/7091174",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Shane%27s_Inspiration_Griffith_Park_west_structures_2015-08-25.jpg/1920px-Shane%27s_Inspiration_Griffith_Park_west_structures_2015-08-25.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Shane%27s_Inspiration_Griffith_Park_west_structures_2015-08-25.jpg",
+            "imageAuthor": "Junkyardsparkle",
+            "imageLicense": "CC0",
+            "imageAlt": "Rocket-themed playground equipment at Shane's Inspiration , Griffith Park."
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/912568541",
+          "verified_at": "2026-07-30",
+          "score": 100,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 912568541,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "imageFileTitle": "File:Shane's Inspiration Griffith Park west structures 2015-08-25.jpg"
+          }
+        },
+        {
+          "id": "launch-ca-los-angeles-griffith-park-rebel-without-a-cause-monument",
+          "slug": "rebel-without-a-cause-monument",
+          "name": "Rebel Without a Cause Monument",
+          "feature_type": "art",
+          "description": "Rebel Without a Cause Monument is a mapped art (bust) within the park. Visitor details still require official-source review.",
+          "latitude": 34.1187267,
+          "longitude": -118.3008493,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/7091174",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/James_Dean_-_Rebel_Without_a_Cause_Monument.jpg/1920px-James_Dean_-_Rebel_Without_a_Cause_Monument.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:James_Dean_-_Rebel_Without_a_Cause_Monument.jpg",
+            "imageAuthor": "Christian Düringer",
+            "imageLicense": "CC BY-SA 4.0",
+            "imageAlt": "James Dean \"Rebel Without a Cause Monument\" am Griffith Observatory in Los Angeles mit dem Hollywood Sign im Hintergrund."
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/6725257273",
+          "verified_at": "2026-07-30",
+          "score": 98,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 6725257273,
+            "wikidata": "Q138042602",
+            "wikipedia": null,
+            "boundaryContained": true,
+            "rejectedImageTitles": [
+              "File:Griffith Observatory front.jpg"
+            ],
+            "imageFileTitle": "File:James Dean - Rebel Without a Cause Monument.jpg"
+          }
+        }
+      ],
+      "reviewCandidates": [],
+      "discoveryError": null
+    },
+    {
+      "id": "launch-ca-san-diego-balboa-park",
+      "name": "Balboa Park",
+      "city": "San Diego",
+      "state": "CA",
+      "sourceBoundary": "https://www.openstreetmap.org/relation/15082953",
+      "features": [
+        {
+          "id": "launch-ca-san-diego-balboa-park-centro-cultural-de-la-raza",
+          "slug": "centro-cultural-de-la-raza",
+          "name": "Centro Cultural de la Raza",
+          "feature_type": "museum",
+          "description": "Centro Cultural de la Raza is a mapped museum (museum) within the park. Visitor details still require official-source review.",
+          "latitude": 32.727723,
+          "longitude": -117.148656,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/15082953",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/60194854",
+          "verified_at": "2026-07-30",
+          "score": 108,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 60194854,
+            "wikidata": "Q5062815",
+            "wikipedia": "en:Centro Cultural de la Raza",
+            "boundaryContained": true
+          }
+        },
+        {
+          "id": "launch-ca-san-diego-balboa-park-comic-con-museum",
+          "slug": "comic-con-museum",
+          "name": "Comic-Con Museum",
+          "feature_type": "museum",
+          "description": "Comic-Con Museum is a mapped museum (museum) within the park. Visitor details still require official-source review.",
+          "latitude": 32.727276,
+          "longitude": -117.1524062,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/15082953",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Balboa_Park_San_Diego_CA_USA_-_Near_Future_Comic_Con_Museum_-_man_with_walker.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Balboa_Park_San_Diego_CA_USA_-_Near_Future_Comic_Con_Museum_-_man_with_walker.jpg",
+            "imageAuthor": "Vid2vid",
+            "imageLicense": "CC BY-SA 4.0",
+            "imageAlt": "Steve L. is one of WikiSoCal's (Wikiians/Wikipedians) new recruits, arrived early to help with event setup. Picture shows elderly man walking with walker in front of Balboa Park’s Federal Building, future home of Comic-Con Museum."
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/28824920",
+          "verified_at": "2026-07-30",
+          "score": 108,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 28824920,
+            "wikidata": "Q65665941",
+            "wikipedia": "en:Comic-Con Museum",
+            "boundaryContained": true,
+            "imageFileTitle": "File:Balboa Park San Diego CA USA - Near Future Comic Con Museum - man with walker.jpg"
+          }
+        },
+        {
+          "id": "launch-ca-san-diego-balboa-park-mingei-international-museum",
+          "slug": "mingei-international-museum",
+          "name": "Mingei International Museum",
+          "feature_type": "museum",
+          "description": "Mingei International Museum is a mapped museum (museum) within the park. Visitor details still require official-source review.",
+          "latitude": 32.7310117,
+          "longitude": -117.1510312,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/15082953",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Mingei_International_Museum_2013-10-20_13-40.jpg/1920px-Mingei_International_Museum_2013-10-20_13-40.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Mingei_International_Museum_2013-10-20_13-40.jpg",
+            "imageAuthor": "Vgrigas",
+            "imageLicense": "CC BY-SA 3.0",
+            "imageAlt": "Mingei nternational museum"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/1713143030",
+          "verified_at": "2026-07-30",
+          "score": 108,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 1713143030,
+            "wikidata": "Q6864705",
+            "wikipedia": "en:Mingei International Museum",
+            "boundaryContained": true,
+            "imageFileTitle": "File:Mingei International Museum 2013-10-20 13-40.jpg"
+          }
+        },
+        {
+          "id": "launch-ca-san-diego-balboa-park-museum-of-photographic-arts",
+          "slug": "museum-of-photographic-arts",
+          "name": "Museum of Photographic Arts",
+          "feature_type": "museum",
+          "description": "Museum of Photographic Arts is a mapped museum (museum) within the park. Visitor details still require official-source review.",
+          "latitude": 32.7311633,
+          "longitude": -117.1488901,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/15082953",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Museum_of_Photographic_Arts.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Museum_of_Photographic_Arts.jpg",
+            "imageAuthor": "https://www.flickr.com/photos/osbornb/",
+            "imageLicense": "CC BY 2.0",
+            "imageAlt": "The Museum of Photographic Arts in Balboa Park, San Diego, California."
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/1458213374",
+          "verified_at": "2026-07-30",
+          "score": 108,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 1458213374,
+            "wikidata": "Q9046984",
+            "wikipedia": "en:Museum of Photographic Arts",
+            "boundaryContained": true,
+            "imageFileTitle": "File:Museum of Photographic Arts.jpg"
+          }
+        },
+        {
+          "id": "launch-ca-san-diego-balboa-park-museum-of-us",
+          "slug": "museum-of-us",
+          "name": "Museum of Us",
+          "feature_type": "museum",
+          "description": "Museum of Us is a mapped museum (museum) within the park. Visitor details still require official-source review.",
+          "latitude": 32.731484,
+          "longitude": -117.1525503,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/15082953",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/relation/19987739",
+          "verified_at": "2026-07-30",
+          "score": 108,
+          "discovery": {
+            "osmType": "relation",
+            "osmId": 19987739,
+            "wikidata": "Q676968",
+            "wikipedia": "en:Museum of Us",
+            "boundaryContained": true
+          }
+        },
+        {
+          "id": "launch-ca-san-diego-balboa-park-reuben-h-fleet-science-center",
+          "slug": "reuben-h-fleet-science-center",
+          "name": "Reuben H. Fleet Science Center",
+          "feature_type": "museum",
+          "description": "Reuben H. Fleet Science Center is a mapped museum (museum) within the park. Visitor details still require official-source review.",
+          "latitude": 32.7308234,
+          "longitude": -117.1470715,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/15082953",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Reuben_H._Fleet_Science_Center.jpg/1920px-Reuben_H._Fleet_Science_Center.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Reuben_H._Fleet_Science_Center.jpg",
+            "imageAuthor": "https://www.flickr.com/photos/michael-seljos/",
+            "imageLicense": "CC BY-SA 2.0",
+            "imageAlt": "Reuben H. Fleet Science Center fountain — Balboa Park, San Diego, California."
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/28824905",
+          "verified_at": "2026-07-30",
+          "score": 108,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 28824905,
+            "wikidata": "Q3428321",
+            "wikipedia": "en:Fleet Science Center",
+            "boundaryContained": true,
+            "imageFileTitle": "File:Reuben H. Fleet Science Center.jpg"
+          }
+        },
+        {
+          "id": "launch-ca-san-diego-balboa-park-san-diego-air-space-museum",
+          "slug": "san-diego-air-space-museum",
+          "name": "San Diego Air & Space Museum",
+          "feature_type": "museum",
+          "description": "San Diego Air & Space Museum is a mapped museum (museum) within the park. Visitor details still require official-source review.",
+          "latitude": 32.726241,
+          "longitude": -117.1544102,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/15082953",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/SanDiegoAirSpaceMuseumByPhilKonstantin.JPG/1920px-SanDiegoAirSpaceMuseumByPhilKonstantin.JPG",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:SanDiegoAirSpaceMuseumByPhilKonstantin.JPG",
+            "imageAuthor": "Phil Konstantin (Philkon)",
+            "imageLicense": "CC BY-SA 3.0",
+            "imageAlt": "The San Diego Air and Space Museum as seen from overhead."
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/31240535",
+          "verified_at": "2026-07-30",
+          "score": 108,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 31240535,
+            "wikidata": "Q3308955",
+            "wikipedia": "en:San Diego Air & Space Museum",
+            "boundaryContained": true,
+            "imageFileTitle": "File:SanDiegoAirSpaceMuseumByPhilKonstantin.JPG"
+          }
+        },
+        {
+          "id": "launch-ca-san-diego-balboa-park-san-diego-automotive-museum",
+          "slug": "san-diego-automotive-museum",
+          "name": "San Diego Automotive Museum",
+          "feature_type": "museum",
+          "description": "San Diego Automotive Museum is a mapped museum (museum) within the park. Visitor details still require official-source review.",
+          "latitude": 32.7274854,
+          "longitude": -117.1539073,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/15082953",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/USMC-101018-M-7753H-200.jpg/1920px-USMC-101018-M-7753H-200.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:USMC-101018-M-7753H-200.jpg",
+            "imageAuthor": "Lance Cpl. Alexandra M. Harris",
+            "imageLicense": "Public domain",
+            "imageAlt": "A Volkswagen van sits on display in the San Diego Automotive Museum in Balboa Park. The colorful vehicle is the only van on display in the museum."
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/60194724",
+          "verified_at": "2026-07-30",
+          "score": 108,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 60194724,
+            "wikidata": "Q7413596",
+            "wikipedia": "en:San Diego Automotive Museum",
+            "boundaryContained": true,
+            "imageFileTitle": "File:USMC-101018-M-7753H-200.jpg"
+          }
+        },
+        {
+          "id": "launch-ca-san-diego-balboa-park-alcazar-garden",
+          "slug": "alcazar-garden",
+          "name": "Alcazar Garden",
+          "feature_type": "garden",
+          "description": "Alcazar Garden is a mapped garden (garden) within the park. Visitor details still require official-source review.",
+          "latitude": 32.731125,
+          "longitude": -117.1515858,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/15082953",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Alcazar_Garden_-_Balboa_Park.JPG/1920px-Alcazar_Garden_-_Balboa_Park.JPG",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Alcazar_Garden_-_Balboa_Park.JPG",
+            "imageAuthor": "Captain-tucker",
+            "imageLicense": "CC BY-SA 3.0",
+            "imageAlt": "The Alcazar Garden at Balboa Park, San Diego, California"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/765786395",
+          "verified_at": "2026-07-30",
+          "score": 106,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 765786395,
+            "wikidata": "Q28649292",
+            "wikipedia": "en:Alcazar Garden",
+            "boundaryContained": true,
+            "imageFileTitle": "File:Alcazar Garden - Balboa Park.JPG"
+          }
+        },
+        {
+          "id": "launch-ca-san-diego-balboa-park-botanical-building",
+          "slug": "botanical-building",
+          "name": "Botanical Building",
+          "feature_type": "garden",
+          "description": "Botanical Building is a mapped garden (garden) within the park. Visitor details still require official-source review.",
+          "latitude": 32.7325111,
+          "longitude": -117.1492413,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/15082953",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Botanical_Building_in_Balboa_Park_2.jpg/1920px-Botanical_Building_in_Balboa_Park_2.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Botanical_Building_in_Balboa_Park_2.jpg",
+            "imageAuthor": "Rhododendrites",
+            "imageLicense": "CC BY-SA 4.0",
+            "imageAlt": "The Botanical Building in Balboa Park. Part of the El Prado Complex. Taken during the WikiConference North America 2016 Culture Crawl."
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/25775425",
+          "verified_at": "2026-07-30",
+          "score": 106,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 25775425,
+            "wikidata": "Q27704699",
+            "wikipedia": "en:Botanical Building",
+            "boundaryContained": true,
+            "imageFileTitle": "File:Botanical Building in Balboa Park 2.jpg"
+          }
+        },
+        {
+          "id": "launch-ca-san-diego-balboa-park-japanese-friendship-garden",
+          "slug": "japanese-friendship-garden",
+          "name": "Japanese Friendship Garden",
+          "feature_type": "garden",
+          "description": "Japanese Friendship Garden is a mapped garden (garden) within the park. Visitor details still require official-source review.",
+          "latitude": 32.7294311,
+          "longitude": -117.1491732,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/15082953",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Koi_Fish_from_the_San_Diego_Japanese_Friendship_Garden.jpg/1920px-Koi_Fish_from_the_San_Diego_Japanese_Friendship_Garden.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Koi_Fish_from_the_San_Diego_Japanese_Friendship_Garden.jpg",
+            "imageAuthor": "Greyson Tolliver",
+            "imageLicense": "CC0",
+            "imageAlt": "A photo of a Koi Fish Jumping out of the water at the San Diego Japenese Friendship Garden in Balboa park."
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/266757959",
+          "verified_at": "2026-07-30",
+          "score": 106,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 266757959,
+            "wikidata": "Q6158173",
+            "wikipedia": "en:Japanese Friendship Garden (Balboa Park)",
+            "boundaryContained": true,
+            "imageFileTitle": "File:Koi Fish from the San Diego Japanese Friendship Garden.jpg"
+          }
+        },
+        {
+          "id": "launch-ca-san-diego-balboa-park-may-s-marcy-sculpture-court-garden",
+          "slug": "may-s-marcy-sculpture-court-garden",
+          "name": "May S. Marcy Sculpture Court & Garden",
+          "feature_type": "garden",
+          "description": "May S. Marcy Sculpture Court & Garden is a mapped garden (garden) within the park. Visitor details still require official-source review.",
+          "latitude": 32.7318202,
+          "longitude": -117.1515279,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/15082953",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/710382192",
+          "verified_at": "2026-07-30",
+          "score": 106,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 710382192,
+            "wikidata": "Q27136983",
+            "wikipedia": "en:May S. Marcy Sculpture Garden",
+            "boundaryContained": true
+          }
+        }
+      ],
+      "reviewCandidates": [],
+      "discoveryError": null
+    },
+    {
+      "id": "launch-ca-san-francisco-golden-gate-park",
+      "name": "Golden Gate Park",
+      "city": "San Francisco",
+      "state": "CA",
+      "sourceBoundary": "https://www.openstreetmap.org/way/158602261",
+      "features": [
+        {
+          "id": "launch-ca-san-francisco-golden-gate-park-blue-playground",
+          "slug": "blue-playground",
+          "name": "Blue Playground",
+          "feature_type": "playground",
+          "description": "Blue Playground is a mapped playground (playground) within the park. Visitor details still require official-source review.",
+          "latitude": 37.7730647,
+          "longitude": -122.4672044,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/158602261",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/207667771",
+          "verified_at": "2026-07-30",
+          "score": 108,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 207667771,
+            "wikidata": "Q125872386",
+            "wikipedia": null,
+            "boundaryContained": true
+          }
+        },
+        {
+          "id": "launch-ca-san-francisco-golden-gate-park-de-young-museum",
+          "slug": "de-young-museum",
+          "name": "de Young Museum",
+          "feature_type": "museum",
+          "description": "de Young Museum is a mapped museum (museum) within the park. Visitor details still require official-source review.",
+          "latitude": 37.7714977,
+          "longitude": -122.4687203,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/158602261",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/M._H._de_Young_Memorial_Museum.jpg/1920px-M._H._de_Young_Memorial_Museum.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:M._H._de_Young_Memorial_Museum.jpg",
+            "imageAuthor": "Mark Miller",
+            "imageLicense": "Public domain",
+            "imageAlt": "De Young Museum, San Francisco, in 2009 during the Tutankhamun exhibition"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/relation/1652482",
+          "verified_at": "2026-07-30",
+          "score": 108,
+          "discovery": {
+            "osmType": "relation",
+            "osmId": 1652482,
+            "wikidata": "Q1470276",
+            "wikipedia": "en:De Young Museum",
+            "boundaryContained": true,
+            "imageFileTitle": "File:M. H. de Young Memorial Museum.jpg"
+          }
+        },
+        {
+          "id": "launch-ca-san-francisco-golden-gate-park-koret-children-s-quarter-playground",
+          "slug": "koret-children-s-quarter-playground",
+          "name": "Koret Children's Quarter Playground",
+          "feature_type": "playground",
+          "description": "Koret Children's Quarter Playground is a mapped playground (playground) within the park. Visitor details still require official-source review.",
+          "latitude": 37.7682945,
+          "longitude": -122.4572597,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/158602261",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/relation/17603390",
+          "verified_at": "2026-07-30",
+          "score": 108,
+          "discovery": {
+            "osmType": "relation",
+            "osmId": 17603390,
+            "wikidata": "Q125871905",
+            "wikipedia": null,
+            "boundaryContained": true
+          }
+        },
+        {
+          "id": "launch-ca-san-francisco-golden-gate-park-japanese-tea-garden",
+          "slug": "japanese-tea-garden",
+          "name": "Japanese Tea Garden",
+          "feature_type": "garden",
+          "description": "Japanese Tea Garden is a mapped garden (attraction) within the park. Visitor details still require official-source review.",
+          "latitude": 37.7703429,
+          "longitude": -122.4700521,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/158602261",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Japanese_Tea_Garden_San_Francisco_December_2016_005.jpg/1920px-Japanese_Tea_Garden_San_Francisco_December_2016_005.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_Tea_Garden_San_Francisco_December_2016_005.jpg",
+            "imageAuthor": "King of Hearts",
+            "imageLicense": "CC BY-SA 4.0",
+            "imageAlt": "Japanese Tea Garden , Golden Gate Park , San Francisco ."
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/30900516",
+          "verified_at": "2026-07-30",
+          "score": 106,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 30900516,
+            "wikidata": "Q3270367",
+            "wikipedia": "en:Japanese Tea Garden (San Francisco)",
+            "boundaryContained": true,
+            "imageFileTitle": "File:Japanese Tea Garden San Francisco December 2016 005.jpg"
+          }
+        },
+        {
+          "id": "launch-ca-san-francisco-golden-gate-park-san-francisco-botanical-garden",
+          "slug": "san-francisco-botanical-garden",
+          "name": "San Francisco Botanical Garden",
+          "feature_type": "garden",
+          "description": "San Francisco Botanical Garden is a mapped garden (attraction) within the park. Visitor details still require official-source review.",
+          "latitude": 37.7673689,
+          "longitude": -122.4716324,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/158602261",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Golden_Gate_Park_arboretum_-_stones_at_Rhododendron_pavilion.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Golden_Gate_Park_arboretum_-_stones_at_Rhododendron_pavilion.jpg",
+            "imageAuthor": "Binksternet",
+            "imageLicense": "CC BY-SA 3.0",
+            "imageAlt": "Photograph of stones bordering the Rhododendron pavilion at Golden Gate Park's Strybing Arboretum in San Francisco, California."
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/120480164",
+          "verified_at": "2026-07-30",
+          "score": 106,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 120480164,
+            "wikidata": "Q589884",
+            "wikipedia": "en:San Francisco Botanical Garden",
+            "boundaryContained": true,
+            "imageFileTitle": "File:Golden Gate Park arboretum - stones at Rhododendron pavilion.jpg"
+          }
+        },
+        {
+          "id": "launch-ca-san-francisco-golden-gate-park-california-academy-of-sciences",
+          "slug": "california-academy-of-sciences",
+          "name": "California Academy of Sciences",
+          "feature_type": "museum",
+          "description": "California Academy of Sciences is a mapped museum (museum) within the park. Visitor details still require official-source review.",
+          "latitude": 37.7698269,
+          "longitude": -122.4660916,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/158602261",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/CaliforniaAcademyofSciences.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:CaliforniaAcademyofSciences.jpg",
+            "imageAuthor": "Adamsofen at English Wikipedia",
+            "imageLicense": "Public domain",
+            "imageAlt": "The California Academy of Sciences building under construction in San Francisco's Golden Gate Park, August 2007."
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/28695389",
+          "verified_at": "2026-07-30",
+          "score": 102,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 28695389,
+            "wikidata": "Q134486471",
+            "wikipedia": null,
+            "boundaryContained": true,
+            "imageFileTitle": "File:CaliforniaAcademyofSciences.jpg"
+          }
+        },
+        {
+          "id": "launch-ca-san-francisco-golden-gate-park-conservatory-of-flowers",
+          "slug": "conservatory-of-flowers",
+          "name": "Conservatory of Flowers",
+          "feature_type": "landmark",
+          "description": "Conservatory of Flowers is a mapped landmark (building) within the park. Visitor details still require official-source review.",
+          "latitude": 37.7726146,
+          "longitude": -122.4602244,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/158602261",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/SF_Conservatory_of_Flowers_3.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:SF_Conservatory_of_Flowers_3.jpg",
+            "imageAuthor": "WolfmanSF",
+            "imageLicense": "CC BY-SA 3.0",
+            "imageAlt": "Conservatory of Flowers in Golden Gate Park , San Francisco"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/30675038",
+          "verified_at": "2026-07-30",
+          "score": 102,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 30675038,
+            "wikidata": "Q5163145",
+            "wikipedia": "en:Conservatory of Flowers",
+            "boundaryContained": true,
+            "imageFileTitle": "File:SF Conservatory of Flowers 3.jpg"
+          }
+        },
+        {
+          "id": "launch-ca-san-francisco-golden-gate-park-national-aids-memorial-grove",
+          "slug": "national-aids-memorial-grove",
+          "name": "National AIDS Memorial Grove",
+          "feature_type": "landmark",
+          "description": "National AIDS Memorial Grove is a mapped landmark (memorial) within the park. Visitor details still require official-source review.",
+          "latitude": 37.7696683,
+          "longitude": -122.4622238,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/158602261",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/San_Francisco_Lesbian_Gay_Freedom_Band_20181027-5591.jpg/1920px-San_Francisco_Lesbian_Gay_Freedom_Band_20181027-5591.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:San_Francisco_Lesbian_Gay_Freedom_Band_20181027-5591.jpg",
+            "imageAuthor": "Pax Ahimsa Gethen",
+            "imageLicense": "CC BY-SA 4.0",
+            "imageAlt": "Members of the San Francisco Pride Band perform at the National AIDS Memorial Grove in Golden Gate Park, San Francisco."
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/1065401157",
+          "verified_at": "2026-07-30",
+          "score": 102,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 1065401157,
+            "wikidata": "Q293541",
+            "wikipedia": "en:AIDS Memorial Grove",
+            "boundaryContained": true,
+            "imageFileTitle": "File:San Francisco Lesbian Gay Freedom Band 20181027-5591.jpg"
+          }
+        },
+        {
+          "id": "launch-ca-san-francisco-golden-gate-park-prayerbook-cross",
+          "slug": "prayerbook-cross",
+          "name": "Prayerbook Cross",
+          "feature_type": "landmark",
+          "description": "Prayerbook Cross is a mapped landmark (wayside cross) within the park. Visitor details still require official-source review.",
+          "latitude": 37.771739,
+          "longitude": -122.478348,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/158602261",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Prayerbook_Cross_in_Golden_Gate_Park_%2827052p%29.jpg/1920px-Prayerbook_Cross_in_Golden_Gate_Park_%2827052p%29.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Prayerbook_Cross_in_Golden_Gate_Park_(27052p).jpg",
+            "imageAuthor": "Rhododendrites",
+            "imageLicense": "CC BY-SA 4.0",
+            "imageAlt": "Prayerbook Cross Golden Gate Park, San Francisco, California"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/1736642828",
+          "verified_at": "2026-07-30",
+          "score": 102,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 1736642828,
+            "wikidata": "Q96609228",
+            "wikipedia": "en:Prayer Book Cross",
+            "boundaryContained": true,
+            "imageFileTitle": "File:Prayerbook Cross in Golden Gate Park (27052p).jpg"
+          }
+        },
+        {
+          "id": "launch-ca-san-francisco-golden-gate-park-steinhart-aquarium",
+          "slug": "steinhart-aquarium",
+          "name": "Steinhart Aquarium",
+          "feature_type": "museum",
+          "description": "Steinhart Aquarium is a mapped museum (aquarium) within the park. Visitor details still require official-source review.",
+          "latitude": 37.7694853,
+          "longitude": -122.465976,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/158602261",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/CaliforniaAcademyOfSciencesAquarium2.jpg/1920px-CaliforniaAcademyOfSciencesAquarium2.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:CaliforniaAcademyOfSciencesAquarium2.jpg",
+            "imageAuthor": "Buzzlovestravel",
+            "imageLicense": "CC BY-SA 4.0",
+            "imageAlt": "The aquarium at the California Academy of Sciences in San Francisco, CA"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/368173914",
+          "verified_at": "2026-07-30",
+          "score": 102,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 368173914,
+            "wikidata": "Q98594806",
+            "wikipedia": null,
+            "boundaryContained": true,
+            "imageFileTitle": "File:CaliforniaAcademyOfSciencesAquarium2.jpg"
+          }
+        },
+        {
+          "id": "launch-ca-san-francisco-golden-gate-park-45th-lincoln-blue-boat-playground",
+          "slug": "45th-lincoln-blue-boat-playground",
+          "name": "45th & Lincoln Blue Boat Playground",
+          "feature_type": "playground",
+          "description": "45th & Lincoln Blue Boat Playground is a mapped playground (playground) within the park. Visitor details still require official-source review.",
+          "latitude": 37.7647924,
+          "longitude": -122.5050231,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/158602261",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/207682975",
+          "verified_at": "2026-07-30",
+          "score": 100,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 207682975,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          }
+        },
+        {
+          "id": "launch-ca-san-francisco-golden-gate-park-beach-chalet-athletic-fields-playground",
+          "slug": "beach-chalet-athletic-fields-playground",
+          "name": "Beach Chalet Athletic Fields Playground",
+          "feature_type": "playground",
+          "description": "Beach Chalet Athletic Fields Playground is a mapped playground (playground) within the park. Visitor details still require official-source review.",
+          "latitude": 37.7669589,
+          "longitude": -122.5080269,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/158602261",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/1101599184",
+          "verified_at": "2026-07-30",
+          "score": 100,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 1101599184,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          }
+        }
+      ],
+      "reviewCandidates": [],
+      "discoveryError": null
+    },
+    {
+      "id": "launch-tx-austin-zilker-metropolitan-park",
+      "name": "Zilker Metropolitan Park",
+      "city": "Austin",
+      "state": "TX",
+      "sourceBoundary": "https://www.openstreetmap.org/relation/13307353",
+      "features": [
+        {
+          "id": "launch-tx-austin-zilker-metropolitan-park-hartman-prehistoric-garden",
+          "slug": "hartman-prehistoric-garden",
+          "name": "Hartman Prehistoric Garden",
+          "feature_type": "garden",
+          "description": "Hartman Prehistoric Garden is a mapped garden (garden) within the park. Visitor details still require official-source review.",
+          "latitude": 30.2701232,
+          "longitude": -97.7718022,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/13307353",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Ornithomimid_dinosaur_footprint_%28cast%29%2C_Cretaceous_Period_-_Hartman_Prehistoric_Garden_-_Zilker_Botanical_Garden_-_Austin%2C_Texas_-_DSC08943.jpg/1920px-Ornithomimid_dinosaur_footprint_%28cast%29%2C_Cretaceous_Period_-_Hartman_Prehistoric_Garden_-_Zilker_Botanical_Garden_-_Austin%2C_Texas_-_DSC08943.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Ornithomimid_dinosaur_footprint_(cast),_Cretaceous_Period_-_Hartman_Prehistoric_Garden_-_Zilker_Botanical_Garden_-_Austin,_Texas_-_DSC08943.jpg",
+            "imageAuthor": "Daderot",
+            "imageLicense": "CC0",
+            "imageAlt": "Ornithomimid dinosaur footprint (cast), Cretaceous Period - Hartman Prehistoric Garden - Zilker Botanical Garden - Austin, Texas, USA."
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/3194230017",
+          "verified_at": "2026-07-30",
+          "score": 100,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 3194230017,
+            "wikidata": "Q5675001",
+            "wikipedia": null,
+            "boundaryContained": true,
+            "imageFileTitle": "File:Ornithomimid dinosaur footprint (cast), Cretaceous Period - Hartman Prehistoric Garden - Zilker Botanical Garden - Austin, Texas - DSC08943.jpg"
+          }
+        },
+        {
+          "id": "launch-tx-austin-zilker-metropolitan-park-zilker-botanical-garden",
+          "slug": "zilker-botanical-garden",
+          "name": "Zilker Botanical Garden",
+          "feature_type": "garden",
+          "description": "Zilker Botanical Garden is a mapped garden (garden) within the park. Visitor details still require official-source review.",
+          "latitude": 30.2694954,
+          "longitude": -97.7730468,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/13307353",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Austin_TX_skyline_seen_from_Zilker_Botanical_Garden.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Austin_TX_skyline_seen_from_Zilker_Botanical_Garden.jpg",
+            "imageAuthor": "Jruizalvarez",
+            "imageLicense": "CC BY-SA 4.0",
+            "imageAlt": "Austin TX skyline seen from Zilker Botanical Garden."
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/313444169",
+          "verified_at": "2026-07-30",
+          "score": 100,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 313444169,
+            "wikidata": "Q8071897",
+            "wikipedia": null,
+            "boundaryContained": true,
+            "imageFileTitle": "File:Austin TX skyline seen from Zilker Botanical Garden.jpg"
+          }
+        },
+        {
+          "id": "launch-tx-austin-zilker-metropolitan-park-barton-springs-pool",
+          "slug": "barton-springs-pool",
+          "name": "Barton Springs Pool",
+          "feature_type": "sports",
+          "description": "Barton Springs Pool is a mapped sports (swimming) within the park. Visitor details still require official-source review.",
+          "latitude": 30.2638274,
+          "longitude": -97.7708383,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/13307353",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Aerial_image_of_Barton_springs_pool_in_Austin%2C_TX.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_Barton_springs_pool_in_Austin,_TX.jpg",
+            "imageAuthor": "Microbesandmuck27",
+            "imageLicense": "CC BY-SA 4.0",
+            "imageAlt": "Aerial image of Barton Springs Pool"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/27442711",
+          "verified_at": "2026-07-30",
+          "score": 96,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 27442711,
+            "wikidata": "Q4865688",
+            "wikipedia": "en:Barton Springs Pool",
+            "boundaryContained": true,
+            "imageFileTitle": "File:Aerial image of Barton springs pool in Austin, TX.jpg"
+          }
+        },
+        {
+          "id": "launch-tx-austin-zilker-metropolitan-park-austin-nature-science-center",
+          "slug": "austin-nature-science-center",
+          "name": "Austin Nature & Science Center",
+          "feature_type": "museum",
+          "description": "Austin Nature & Science Center is a mapped museum (museum) within the park. Visitor details still require official-source review.",
+          "latitude": 30.2719029,
+          "longitude": -97.7745475,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/13307353",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Austin_nature_center_entrance.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Austin_nature_center_entrance.jpg",
+            "imageAuthor": "Larry D. Moore",
+            "imageLicense": "CC BY 4.0",
+            "imageAlt": "The entrance to the Austin Nature & Science Center in Austin, Texas, United States."
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/313450672",
+          "verified_at": "2026-07-30",
+          "score": 94,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 313450672,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "imageFileTitle": "File:Austin nature center entrance.jpg"
+          }
+        },
+        {
+          "id": "launch-tx-austin-zilker-metropolitan-park-lady-bird-lake",
+          "slug": "lady-bird-lake",
+          "name": "Lady Bird Lake",
+          "feature_type": "water",
+          "description": "Lady Bird Lake is a mapped water within the park. Visitor details still require official-source review.",
+          "latitude": 30.2687822,
+          "longitude": -97.7508655,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/13307353",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Kayakers_on_Lady_Bird_Lake%2C_Austin%2C_TX_IMG_6368.JPG/1920px-Kayakers_on_Lady_Bird_Lake%2C_Austin%2C_TX_IMG_6368.JPG",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Kayakers_on_Lady_Bird_Lake,_Austin,_TX_IMG_6368.JPG",
+            "imageAuthor": "No machine-readable author provided. Billy Hathorn assumed (based on copyright claims).",
+            "imageLicense": "CC BY-SA 3.0",
+            "imageAlt": "Canon camera Kayakers on Lady Bird Lake in Austin, TX 1-19-2013"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/relation/32671",
+          "verified_at": "2026-07-30",
+          "score": 94,
+          "discovery": {
+            "osmType": "relation",
+            "osmId": 32671,
+            "wikidata": "Q1636067",
+            "wikipedia": "en:Lady Bird Lake",
+            "boundaryContained": true,
+            "imageFileTitle": "File:Kayakers on Lady Bird Lake, Austin, TX IMG 6368.JPG"
+          }
+        },
+        {
+          "id": "launch-tx-austin-zilker-metropolitan-park-butterfly-trail",
+          "slug": "butterfly-trail",
+          "name": "Butterfly Trail",
+          "feature_type": "garden",
+          "description": "Butterfly Trail is a mapped garden (garden) within the park. Visitor details still require official-source review.",
+          "latitude": 30.2700861,
+          "longitude": -97.7730092,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/13307353",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/3194230016",
+          "verified_at": "2026-07-30",
+          "score": 92,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 3194230016,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          }
+        },
+        {
+          "id": "launch-tx-austin-zilker-metropolitan-park-green-garden",
+          "slug": "green-garden",
+          "name": "Green Garden",
+          "feature_type": "garden",
+          "description": "Green Garden is a mapped garden (garden) within the park. Visitor details still require official-source review.",
+          "latitude": 30.2685109,
+          "longitude": -97.7713194,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/13307353"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/3194230021",
+          "verified_at": "2026-07-30",
+          "score": 92,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 3194230021,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "rejectedImageTitles": [
+              "File:Austin Rose Garden Green Man.jpg"
+            ]
+          }
+        },
+        {
+          "id": "launch-tx-austin-zilker-metropolitan-park-andrew-jackson-zilker",
+          "slug": "andrew-jackson-zilker",
+          "name": "Andrew Jackson Zilker",
+          "feature_type": "landmark",
+          "description": "Andrew Jackson Zilker is a mapped landmark (memorial) within the park. Visitor details still require official-source review.",
+          "latitude": 30.26417,
+          "longitude": -97.77091,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/13307353",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Andrew_Jackson_Zilker_TxHM_%283161557917%29.jpg/1920px-Andrew_Jackson_Zilker_TxHM_%283161557917%29.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Andrew_Jackson_Zilker_TxHM_(3161557917).jpg",
+            "imageAuthor": "QuesterMark from Where the West Begins, United States",
+            "imageLicense": "CC BY-SA 2.0",
+            "imageAlt": "This marker stands next to the Barton Springs marker on Barton Springs Drive in Zilker Park in front of the Pool House. WM5DXZ"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/12453821505",
+          "verified_at": "2026-07-30",
+          "score": 88,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 12453821505,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "imageFileTitle": "File:Andrew Jackson Zilker TxHM (3161557917).jpg"
+          }
+        },
+        {
+          "id": "launch-tx-austin-zilker-metropolitan-park-approximate-location-of-the-missions",
+          "slug": "approximate-location-of-the-missions",
+          "name": "Approximate Location of the Missions",
+          "feature_type": "landmark",
+          "description": "Approximate Location of the Missions is a mapped landmark (memorial) within the park. Visitor details still require official-source review.",
+          "latitude": 30.26303,
+          "longitude": -97.77018,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/13307353",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/12453821503",
+          "verified_at": "2026-07-30",
+          "score": 88,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 12453821503,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          }
+        },
+        {
+          "id": "launch-tx-austin-zilker-metropolitan-park-ashford-mcgill-house-zilker-park-refectory",
+          "slug": "ashford-mcgill-house-zilker-park-refectory",
+          "name": "Ashford McGill House (Zilker Park Refectory)",
+          "feature_type": "landmark",
+          "description": "Ashford McGill House (Zilker Park Refectory) is a mapped landmark (memorial) within the park. Visitor details still require official-source review.",
+          "latitude": 30.27243,
+          "longitude": -97.77497,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/13307353",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Ashford_McGill_House_Austin_Texas.jpg/1920px-Ashford_McGill_House_Austin_Texas.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Ashford_McGill_House_Austin_Texas.jpg",
+            "imageAuthor": "Larry D. Moore",
+            "imageLicense": "CC BY 4.0",
+            "imageAlt": "The Ashford McGill House, also known as the Zilker Park Refectory, was built in circa 1870 and designated a Recorded Texas Historic Landmark in 1990. The building was in disrepair until 1934 when architect Charles Henry Page with the help of the Civil Works Administration restored the house and built an addition."
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/12453821502",
+          "verified_at": "2026-07-30",
+          "score": 88,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 12453821502,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "imageFileTitle": "File:Ashford McGill House Austin Texas.jpg"
+          }
+        },
+        {
+          "id": "launch-tx-austin-zilker-metropolitan-park-barton-springs",
+          "slug": "barton-springs",
+          "name": "Barton Springs",
+          "feature_type": "landmark",
+          "description": "Barton Springs is a mapped landmark (memorial) within the park. Visitor details still require official-source review.",
+          "latitude": 30.26418,
+          "longitude": -97.77093,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/13307353",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Kayaking_in_Barton_Springs.JPG/1920px-Kayaking_in_Barton_Springs.JPG",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Kayaking_in_Barton_Springs.JPG",
+            "imageAuthor": "Airainix",
+            "imageLicense": "CC BY-SA 3.0",
+            "imageAlt": "Zilker Park Historic District"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/12453821488",
+          "verified_at": "2026-07-30",
+          "score": 88,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 12453821488,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "rejectedImageTitles": [
+              "File:Andrew Jackson Zilker TxHM (3161557917).jpg"
+            ],
+            "imageFileTitle": "File:Kayaking in Barton Springs.JPG"
+          }
+        },
+        {
+          "id": "launch-tx-austin-zilker-metropolitan-park-zilker-hillside-theater",
+          "slug": "zilker-hillside-theater",
+          "name": "Zilker Hillside Theater",
+          "feature_type": "event-space",
+          "description": "Zilker Hillside Theater is a mapped event space (theatre) within the park. Visitor details still require official-source review.",
+          "latitude": 30.2644399,
+          "longitude": -97.7724459,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/13307353",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Zilker_Hillside_Theater_Austin_Texas_2026.jpg/1920px-Zilker_Hillside_Theater_Austin_Texas_2026.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Zilker_Hillside_Theater_Austin_Texas_2026.jpg",
+            "imageAuthor": "Larry D. Moore",
+            "imageLicense": "CC BY 4.0",
+            "imageAlt": "Zilker Hillside Theater (officially the Beverly S. Sheffield Zilker Hillside Theater) in Zilker Park is a cultural landmark in Austin, Texas, United States. It is an open-air amphitheater that has served as a cornerstone of the local arts scene for over 60 years."
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/313444167",
+          "verified_at": "2026-07-30",
+          "score": 86,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 313444167,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "imageFileTitle": "File:Zilker Hillside Theater Austin Texas 2026.jpg"
+          }
+        }
+      ],
+      "reviewCandidates": [],
+      "discoveryError": null
+    },
+    {
+      "id": "launch-tx-houston-memorial-park",
+      "name": "Memorial Park",
+      "city": "Houston",
+      "state": "TX",
+      "sourceBoundary": "https://www.openstreetmap.org/way/88873795",
+      "features": [
+        {
+          "id": "launch-tx-houston-memorial-park-clay-family-eastern-glades",
+          "slug": "clay-family-eastern-glades",
+          "name": "Clay Family Eastern Glades",
+          "feature_type": "garden",
+          "description": "Clay Family Eastern Glades is a visitor destination identified by Memorial Park Conservancy within Memorial Park.",
+          "latitude": 29.7671268,
+          "longitude": -95.4299544,
+          "details": {
+            "positionQuality": "mapped-place",
+            "officialMapUrl": "https://www.memorialparkconservancy.org/wp-content/uploads/2020/03/Memorial-Park-Map.pdf",
+            "imageUrl": "https://www.memorialparkconservancy.org/wp-content/uploads/2025/03/MPC-Clay-Family-Eastern-Glades-Featured.jpg",
+            "imageSourceUrl": "https://www.memorialparkconservancy.org/visit/places_to_see/clay-family-eastern-glades/",
+            "imageAuthor": "Memorial Park Conservancy",
+            "imageLicense": "Official source image; rights retained by source",
+            "imageAlt": "Clay Family Eastern Glades at Memorial Park"
+          },
+          "source_label": "Memorial Park Conservancy",
+          "source_url": "https://www.memorialparkconservancy.org/wp-content/uploads/2020/03/Memorial-Park-Map.pdf",
+          "verified_at": "2026-07-30",
+          "discovery": {
+            "method": "official-map-name-plus-openstreetmap-coordinate",
+            "coordinateSource": "https://www.openstreetmap.org/way/848103075",
+            "mappedName": "Clay Family Eastern Glades",
+            "matchScore": 1,
+            "imageFileTitle": "MPC-Clay-Family-Eastern-Glades-Featured.jpg",
+            "imageMethod": "official-page-open-graph"
+          }
+        },
+        {
+          "id": "launch-tx-houston-memorial-park-cullen-running-trails-center",
+          "slug": "cullen-running-trails-center",
+          "name": "Cullen Running Trails Center",
+          "feature_type": "visitor-center",
+          "description": "Cullen Running Trails Center is a visitor destination identified by Memorial Park Conservancy within Memorial Park.",
+          "latitude": 29.7670628,
+          "longitude": -95.4478193,
+          "details": {
+            "positionQuality": "mapped-place",
+            "officialMapUrl": "https://www.memorialparkconservancy.org/wp-content/uploads/2020/03/Memorial-Park-Map.pdf",
+            "imageUrl": "https://www.memorialparkconservancy.org/wp-content/uploads/2026/01/MPC-Cullen-Running-Trail-Center-button.png",
+            "imageSourceUrl": "https://www.memorialparkconservancy.org/visit/places_to_see/cullen-running-trails-center-cafe/",
+            "imageAuthor": "Memorial Park Conservancy",
+            "imageLicense": "Official source image; rights retained by source",
+            "imageAlt": "Cullen Running Trails Center at Memorial Park"
+          },
+          "source_label": "Memorial Park Conservancy",
+          "source_url": "https://www.memorialparkconservancy.org/wp-content/uploads/2020/03/Memorial-Park-Map.pdf",
+          "verified_at": "2026-07-30",
+          "discovery": {
+            "method": "official-map-name-plus-openstreetmap-coordinate",
+            "coordinateSource": "https://www.openstreetmap.org/way/332284737",
+            "mappedName": "Cullen Running Trails Center",
+            "matchScore": 1,
+            "imageFileTitle": "MPC-Cullen-Running-Trail-Center-button.png",
+            "imageMethod": "official-page-open-graph"
+          }
+        },
+        {
+          "id": "launch-tx-houston-memorial-park-seymour-lieberman-trail",
+          "slug": "seymour-lieberman-trail",
+          "name": "Seymour Lieberman Trail",
+          "feature_type": "trailhead",
+          "description": "Seymour Lieberman Trail is a visitor destination identified by Memorial Park Conservancy within Memorial Park.",
+          "latitude": 29.7669744,
+          "longitude": -95.4287708,
+          "details": {
+            "positionQuality": "mapped-place",
+            "officialMapUrl": "https://www.memorialparkconservancy.org/wp-content/uploads/2020/03/Memorial-Park-Map.pdf",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Joggers_along_the_Seymour_Lieberman_Exer-Trail_at_Memorial_Park_in_Houston.NRCS_photo_by_Beverly_Moseley._%2825116673655%29.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Joggers_along_the_Seymour_Lieberman_Exer-Trail_at_Memorial_Park_in_Houston.NRCS_photo_by_Beverly_Moseley._(25116673655).jpg",
+            "imageAuthor": "USDA NRCS Texas",
+            "imageLicense": "Public domain",
+            "imageAlt": "This image or file is a work of a United States Department of Agriculture employee, taken or made as part of that person's official duties. As a work of the U.S. federal government , the image is in the public domain ."
+          },
+          "source_label": "Memorial Park Conservancy",
+          "source_url": "https://www.memorialparkconservancy.org/wp-content/uploads/2020/03/Memorial-Park-Map.pdf",
+          "verified_at": "2026-07-30",
+          "discovery": {
+            "method": "official-map-name-plus-openstreetmap-coordinate",
+            "coordinateSource": "https://www.openstreetmap.org/way/379737513",
+            "mappedName": "Seymour Lieberman Exercise Trail",
+            "matchScore": 0.75,
+            "imageFileTitle": "File:Joggers along the Seymour Lieberman Exer-Trail at Memorial Park in Houston.NRCS photo by Beverly Moseley. (25116673655).jpg"
+          }
+        },
+        {
+          "id": "launch-tx-houston-memorial-park-memorial-park-golf-course",
+          "slug": "memorial-park-golf-course",
+          "name": "Memorial Park Golf Course",
+          "feature_type": "sports",
+          "description": "Memorial Park Golf Course is a visitor destination identified by Memorial Park Conservancy within Memorial Park.",
+          "latitude": 29.7712695,
+          "longitude": -95.4370656,
+          "details": {
+            "positionQuality": "mapped-place",
+            "officialMapUrl": "https://www.memorialparkconservancy.org/wp-content/uploads/2020/03/Memorial-Park-Map.pdf",
+            "imageUrl": "https://www.memorialparkconservancy.org/wp-content/uploads/2024/05/MPC-Golf.jpg",
+            "imageSourceUrl": "https://www.memorialparkconservancy.org/visit/things_to_do/golf/",
+            "imageAuthor": "Memorial Park Conservancy",
+            "imageLicense": "Official source image; rights retained by source",
+            "imageAlt": "Memorial Park Golf Course at Memorial Park"
+          },
+          "source_label": "Memorial Park Conservancy",
+          "source_url": "https://www.memorialparkconservancy.org/wp-content/uploads/2020/03/Memorial-Park-Map.pdf",
+          "verified_at": "2026-07-30",
+          "discovery": {
+            "method": "official-map-name-plus-openstreetmap-coordinate",
+            "coordinateSource": "https://www.openstreetmap.org/relation/13729803",
+            "mappedName": "Memorial Park Golf Course",
+            "matchScore": 1,
+            "rejectedImageTitles": [
+              "File:Sunset around autumnal equinox, Campbell Hall, NY.jpg"
+            ],
+            "imageFileTitle": "MPC-Golf.jpg",
+            "imageMethod": "official-page-open-graph"
+          }
+        },
+        {
+          "id": "launch-tx-houston-memorial-park-memorial-park-tennis-center",
+          "slug": "memorial-park-tennis-center",
+          "name": "Memorial Park Tennis Center",
+          "feature_type": "sports",
+          "description": "Memorial Park Tennis Center is a visitor destination identified by Memorial Park Conservancy within Memorial Park.",
+          "latitude": 29.7763289,
+          "longitude": -95.4362313,
+          "details": {
+            "positionQuality": "mapped-place",
+            "officialMapUrl": "https://www.memorialparkconservancy.org/wp-content/uploads/2020/03/Memorial-Park-Map.pdf",
+            "imageUrl": "https://www.memorialparkconservancy.org/wp-content/uploads/2024/05/MPC-Sports-Complex-Tennis-Center.jpg",
+            "imageSourceUrl": "https://www.memorialparkconservancy.org/visit/things_to_do/tennis/",
+            "imageAuthor": "Memorial Park Conservancy",
+            "imageLicense": "Official source image; rights retained by source",
+            "imageAlt": "Memorial Park Tennis Center at Memorial Park"
+          },
+          "source_label": "Memorial Park Conservancy",
+          "source_url": "https://www.memorialparkconservancy.org/wp-content/uploads/2020/03/Memorial-Park-Map.pdf",
+          "verified_at": "2026-07-30",
+          "discovery": {
+            "method": "official-map-name-plus-openstreetmap-coordinate",
+            "coordinateSource": "https://www.openstreetmap.org/way/1100866600",
+            "mappedName": "Memorial Park Tennis Center",
+            "matchScore": 1,
+            "imageFileTitle": "MPC-Sports-Complex-Tennis-Center.jpg",
+            "imageMethod": "official-page-open-graph"
+          }
+        },
+        {
+          "id": "launch-tx-houston-memorial-park-houston-arboretum-and-nature-center",
+          "slug": "houston-arboretum-and-nature-center",
+          "name": "Houston Arboretum and Nature Center",
+          "feature_type": "nature",
+          "description": "Houston Arboretum and Nature Center is a visitor destination identified by Memorial Park Conservancy within Memorial Park.",
+          "latitude": 29.7622376,
+          "longitude": -95.4520198,
+          "details": {
+            "positionQuality": "mapped-place",
+            "officialMapUrl": "https://www.memorialparkconservancy.org/wp-content/uploads/2020/03/Memorial-Park-Map.pdf",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Houston_Arboretum_and_Nature_Center_-_panoramio_-_Idawriter_%282%29.jpg/1920px-Houston_Arboretum_and_Nature_Center_-_panoramio_-_Idawriter_%282%29.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Houston_Arboretum_and_Nature_Center_-_panoramio_-_Idawriter_(2).jpg",
+            "imageAuthor": "Idawriter",
+            "imageLicense": "CC BY-SA 3.0",
+            "imageAlt": "Houston Arboretum and Nature Center"
+          },
+          "source_label": "Memorial Park Conservancy",
+          "source_url": "https://www.memorialparkconservancy.org/wp-content/uploads/2020/03/Memorial-Park-Map.pdf",
+          "verified_at": "2026-07-30",
+          "discovery": {
+            "method": "official-map-name-plus-openstreetmap-coordinate",
+            "coordinateSource": "https://www.openstreetmap.org/way/128546001",
+            "mappedName": "Houston Arboretum & Nature Center",
+            "matchScore": 1,
+            "imageFileTitle": "File:Houston Arboretum and Nature Center - panoramio - Idawriter (2).jpg"
+          }
+        },
+        {
+          "id": "launch-tx-houston-memorial-park-memorial-park-fitness-center",
+          "slug": "memorial-park-fitness-center",
+          "name": "Memorial Park Fitness Center",
+          "feature_type": "sports",
+          "description": "Memorial Park Fitness Center is a visitor destination identified by Memorial Park Conservancy within Memorial Park.",
+          "latitude": 29.7700244,
+          "longitude": -95.4290035,
+          "details": {
+            "positionQuality": "mapped-place",
+            "officialMapUrl": "https://www.memorialparkconservancy.org/wp-content/uploads/2020/03/Memorial-Park-Map.pdf",
+            "imageUrl": "https://www.memorialparkconservancy.org/wp-content/uploads/2024/05/MPC-Swimming.jpg",
+            "imageSourceUrl": "https://www.memorialparkconservancy.org/visit/things_to_do/swimming/",
+            "imageAuthor": "Memorial Park Conservancy",
+            "imageLicense": "Official source image; rights retained by source",
+            "imageAlt": "Memorial Park Fitness Center at Memorial Park"
+          },
+          "source_label": "Memorial Park Conservancy",
+          "source_url": "https://www.memorialparkconservancy.org/wp-content/uploads/2020/03/Memorial-Park-Map.pdf",
+          "verified_at": "2026-07-30",
+          "discovery": {
+            "method": "official-map-name-plus-openstreetmap-coordinate",
+            "coordinateSource": "https://www.openstreetmap.org/way/203368994",
+            "mappedName": "Fitness Center",
+            "matchScore": 0.6666666666666666,
+            "imageFileTitle": "MPC-Swimming.jpg",
+            "imageMethod": "official-page-open-graph"
+          }
+        }
+      ],
+      "reviewCandidates": [
+        {
+          "name": "Kinder Land Bridge and Prairie",
+          "feature_type": "nature",
+          "reason": "Officially named destination did not resolve to a within-park mapped coordinate."
+        },
+        {
+          "name": "Picnic Loop",
+          "feature_type": "picnic",
+          "reason": "Officially named destination did not resolve to a within-park mapped coordinate.",
+          "closestMappedName": "Lake Picnic Area",
+          "matchScore": 0.3333333333333333
+        },
+        {
+          "name": "Memorial Park Running Complex",
+          "feature_type": "sports",
+          "reason": "Officially named destination did not resolve to a within-park mapped coordinate.",
+          "closestMappedName": "East Sports Complex Parking Lot",
+          "matchScore": 0.2
+        }
+      ],
+      "discoveryError": "OpenStreetMap boundary query timed out; use the official Memorial Park map."
+    },
+    {
+      "id": "launch-ga-atlanta-piedmont-park",
+      "name": "Piedmont Park",
+      "city": "Atlanta",
+      "state": "GA",
+      "sourceBoundary": "https://www.openstreetmap.org/way/208357832",
+      "features": [
+        {
+          "id": "launch-ga-atlanta-piedmont-park-active-oval",
+          "slug": "active-oval",
+          "name": "Active Oval",
+          "feature_type": "sports",
+          "description": "Active Oval is a visitor destination identified by Piedmont Park Conservancy within Piedmont Park.",
+          "latitude": 33.7861917,
+          "longitude": -84.3760653,
+          "details": {
+            "positionQuality": "mapped-place",
+            "officialMapUrl": "https://piedmontpark.org/maps/",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Sunday_morning_kickball_game_on_the_Active_Oval_at_Piedmont_Park.jpg/1920px-Sunday_morning_kickball_game_on_the_Active_Oval_at_Piedmont_Park.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Sunday_morning_kickball_game_on_the_Active_Oval_at_Piedmont_Park.jpg",
+            "imageAuthor": "Marc Merlin",
+            "imageLicense": "CC BY-SA 4.0",
+            "imageAlt": "Sunday morning kickball game on the Active Oval at Piedmont Park, Atlanta , with portions of the Midtown and downtown skyline visible in the background, including the Bank of America Plaza at center."
+          },
+          "source_label": "Piedmont Park Conservancy",
+          "source_url": "https://piedmontpark.org/maps/",
+          "verified_at": "2026-07-30",
+          "discovery": {
+            "method": "official-map-name-plus-openstreetmap-coordinate",
+            "coordinateSource": "https://www.openstreetmap.org/way/28798751",
+            "mappedName": "Active Oval",
+            "matchScore": 1,
+            "imageFileTitle": "File:Sunday morning kickball game on the Active Oval at Piedmont Park.jpg"
+          }
+        },
+        {
+          "id": "launch-ga-atlanta-piedmont-park-piedmont-park-aquatic-center-and-pool",
+          "slug": "piedmont-park-aquatic-center-and-pool",
+          "name": "Piedmont Park Aquatic Center and Pool",
+          "feature_type": "sports",
+          "description": "Piedmont Park Aquatic Center and Pool is a visitor destination identified by Piedmont Park Conservancy within Piedmont Park.",
+          "latitude": 33.7856246,
+          "longitude": -84.3739459,
+          "details": {
+            "positionQuality": "mapped-place",
+            "officialMapUrl": "https://piedmontpark.org/maps/",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/View_of_the_Piedmont_Park_Aquatic_Center_and_the_midtown_Atlanta_skyline_from_across_Lake_Clara_Meer.jpg/1920px-View_of_the_Piedmont_Park_Aquatic_Center_and_the_midtown_Atlanta_skyline_from_across_Lake_Clara_Meer.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:View_of_the_Piedmont_Park_Aquatic_Center_and_the_midtown_Atlanta_skyline_from_across_Lake_Clara_Meer.jpg",
+            "imageAuthor": "Marc Merlin",
+            "imageLicense": "CC BY-SA 4.0",
+            "imageAlt": "View of the Piedmont Park Aquatic Center and the midtown Atlanta skyline from across Lake Clara Meer on a cold, clear December morning"
+          },
+          "source_label": "Piedmont Park Conservancy",
+          "source_url": "https://piedmontpark.org/maps/",
+          "verified_at": "2026-07-30",
+          "discovery": {
+            "method": "official-map-name-plus-openstreetmap-coordinate",
+            "coordinateSource": "https://www.openstreetmap.org/way/182313887",
+            "mappedName": "Piedmont Park Aquatic Center",
+            "matchScore": 0.75,
+            "imageFileTitle": "File:View of the Piedmont Park Aquatic Center and the midtown Atlanta skyline from across Lake Clara Meer.jpg"
+          }
+        },
+        {
+          "id": "launch-ga-atlanta-piedmont-park-legacy-fountain-splash-pad",
+          "slug": "legacy-fountain-splash-pad",
+          "name": "Legacy Fountain Splash Pad",
+          "feature_type": "splash-pad",
+          "description": "Legacy Fountain Splash Pad is a visitor destination identified by Piedmont Park Conservancy within Piedmont Park.",
+          "latitude": 33.7912948,
+          "longitude": -84.3711969,
+          "details": {
+            "positionQuality": "mapped-place",
+            "officialMapUrl": "https://piedmontpark.org/maps/"
+          },
+          "source_label": "Piedmont Park Conservancy",
+          "source_url": "https://piedmontpark.org/maps/",
+          "verified_at": "2026-07-30",
+          "discovery": {
+            "method": "official-map-name-plus-openstreetmap-coordinate",
+            "coordinateSource": "https://www.openstreetmap.org/node/2266161948",
+            "mappedName": "Legacy Fountain Splash Pad",
+            "matchScore": 1
+          }
+        },
+        {
+          "id": "launch-ga-atlanta-piedmont-park-lake-clara-meer",
+          "slug": "lake-clara-meer",
+          "name": "Lake Clara Meer",
+          "feature_type": "water",
+          "description": "Lake Clara Meer is a visitor destination identified by Piedmont Park Conservancy within Piedmont Park.",
+          "latitude": 33.7850634,
+          "longitude": -84.3736135,
+          "details": {
+            "positionQuality": "mapped-place",
+            "officialMapUrl": "https://piedmontpark.org/maps/",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Piedmont_Park%E2%80%99s_Lake_Clara_Meer_with_Midtown_Atlanta_skyline_%282024%29-104A8428.jpg/1920px-Piedmont_Park%E2%80%99s_Lake_Clara_Meer_with_Midtown_Atlanta_skyline_%282024%29-104A8428.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Piedmont_Park%E2%80%99s_Lake_Clara_Meer_with_Midtown_Atlanta_skyline_(2024)-104A8428.jpg",
+            "imageAuthor": "Frank Schulenburg",
+            "imageLicense": "CC BY-SA 4.0",
+            "imageAlt": "Piedmont Park’s Lake Clara Meer in Atlanta, Georgia, with the Midtown skyline in the background on May 1, 2024"
+          },
+          "source_label": "Piedmont Park Conservancy",
+          "source_url": "https://piedmontpark.org/maps/",
+          "verified_at": "2026-07-30",
+          "discovery": {
+            "method": "official-map-name-plus-openstreetmap-coordinate",
+            "coordinateSource": "https://www.openstreetmap.org/relation/2474664",
+            "mappedName": "Lake Clara Meer",
+            "matchScore": 1,
+            "imageFileTitle": "File:Piedmont Park’s Lake Clara Meer with Midtown Atlanta skyline (2024)-104A8428.jpg"
+          }
+        },
+        {
+          "id": "launch-ga-atlanta-piedmont-park-noguchi-playscape",
+          "slug": "noguchi-playscape",
+          "name": "Noguchi Playscape",
+          "feature_type": "playground",
+          "description": "Noguchi Playscape is a visitor destination identified by Piedmont Park Conservancy within Piedmont Park.",
+          "latitude": 33.7848797,
+          "longitude": -84.3776832,
+          "details": {
+            "positionQuality": "mapped-place",
+            "officialMapUrl": "https://piedmontpark.org/maps/",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Noguchi_Playscape_cylindrical_slide_in_Piedmont_Park_with_the_Bank_of_America_Plaza_building_in_the_background.jpg/1920px-Noguchi_Playscape_cylindrical_slide_in_Piedmont_Park_with_the_Bank_of_America_Plaza_building_in_the_background.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Noguchi_Playscape_cylindrical_slide_in_Piedmont_Park_with_the_Bank_of_America_Plaza_building_in_the_background.jpg",
+            "imageAuthor": "Marc Merlin",
+            "imageLicense": "CC BY-SA 4.0",
+            "imageAlt": "Cylindrical spiral slide, one of the sculptural play elements of the Noguchi Playscape in Piedmont Park , Atlanta. Designed by Japanese-American artist Isamu Noguchi , the playground was commissioned by the High Museum of Art and gifted to the City of Atlanta in 1976. It was Noguchi’s only realized playscape design during his lifetime and was fully restored in 2005 after years of disrepair. Midtown’s Bank of America Plaza —the tallest building in the Southeast—rises in the background."
+          },
+          "source_label": "Piedmont Park Conservancy",
+          "source_url": "https://piedmontpark.org/maps/",
+          "verified_at": "2026-07-30",
+          "discovery": {
+            "method": "official-map-name-plus-openstreetmap-coordinate",
+            "coordinateSource": "https://www.openstreetmap.org/way/182398388",
+            "mappedName": "Noguchi Playscape",
+            "matchScore": 1,
+            "imageFileTitle": "File:Noguchi Playscape cylindrical slide in Piedmont Park with the Bank of America Plaza building in the background.jpg"
+          }
+        },
+        {
+          "id": "launch-ga-atlanta-piedmont-park-mayor-s-grove-playground",
+          "slug": "mayor-s-grove-playground",
+          "name": "Mayor's Grove Playground",
+          "feature_type": "playground",
+          "description": "Mayor's Grove Playground is a visitor destination identified by Piedmont Park Conservancy within Piedmont Park.",
+          "latitude": 33.7853389,
+          "longitude": -84.3744317,
+          "details": {
+            "positionQuality": "mapped-place",
+            "officialMapUrl": "https://piedmontpark.org/maps/"
+          },
+          "source_label": "Piedmont Park Conservancy",
+          "source_url": "https://piedmontpark.org/maps/",
+          "verified_at": "2026-07-30",
+          "discovery": {
+            "method": "official-map-name-plus-openstreetmap-coordinate",
+            "coordinateSource": "https://www.openstreetmap.org/way/182398387",
+            "mappedName": "Mayor’s Grove Playground",
+            "matchScore": 1
+          }
+        },
+        {
+          "id": "launch-ga-atlanta-piedmont-park-piedmont-park-dog-park",
+          "slug": "piedmont-park-dog-park",
+          "name": "Piedmont Park Dog Park",
+          "feature_type": "dog-area",
+          "description": "Piedmont Park Dog Park is a visitor destination identified by Piedmont Park Conservancy within Piedmont Park.",
+          "latitude": 33.7890478,
+          "longitude": -84.3718862,
+          "details": {
+            "positionQuality": "mapped-place",
+            "officialMapUrl": "https://piedmontpark.org/maps/",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Dog_park_in_Piedmont_Park.JPG/1920px-Dog_park_in_Piedmont_Park.JPG",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Dog_park_in_Piedmont_Park.JPG",
+            "imageAuthor": "Daniel Mayer",
+            "imageLicense": "CC BY-SA 3.0",
+            "imageAlt": "Photo taken in Atlanta area"
+          },
+          "source_label": "Piedmont Park Conservancy",
+          "source_url": "https://piedmontpark.org/maps/",
+          "verified_at": "2026-07-30",
+          "discovery": {
+            "method": "official-map-name-plus-openstreetmap-coordinate",
+            "coordinateSource": "https://www.openstreetmap.org/way/208357832",
+            "mappedName": "Piedmont Park",
+            "matchScore": 0.5,
+            "imageFileTitle": "File:Dog park in Piedmont Park.JPG"
+          }
+        },
+        {
+          "id": "launch-ga-atlanta-piedmont-park-six-springs-wetlands",
+          "slug": "six-springs-wetlands",
+          "name": "Six Springs Wetlands",
+          "feature_type": "nature",
+          "description": "Six Springs Wetlands is a visitor destination identified by Piedmont Park Conservancy within Piedmont Park.",
+          "latitude": 33.787655,
+          "longitude": -84.3720521,
+          "details": {
+            "positionQuality": "mapped-place",
+            "officialMapUrl": "https://piedmontpark.org/maps/"
+          },
+          "source_label": "Piedmont Park Conservancy",
+          "source_url": "https://piedmontpark.org/maps/",
+          "verified_at": "2026-07-30",
+          "discovery": {
+            "method": "official-map-name-plus-openstreetmap-coordinate",
+            "coordinateSource": "https://www.openstreetmap.org/way/185608496",
+            "mappedName": "Six Springs Wetlands",
+            "matchScore": 1
+          }
+        },
+        {
+          "id": "launch-ga-atlanta-piedmont-park-piedmont-park-tennis-center",
+          "slug": "piedmont-park-tennis-center",
+          "name": "Piedmont Park Tennis Center",
+          "feature_type": "sports",
+          "description": "Piedmont Park Tennis Center is a visitor destination identified by Piedmont Park Conservancy within Piedmont Park.",
+          "latitude": 33.7856246,
+          "longitude": -84.3739459,
+          "details": {
+            "positionQuality": "mapped-place",
+            "officialMapUrl": "https://piedmontpark.org/maps/"
+          },
+          "source_label": "Piedmont Park Conservancy",
+          "source_url": "https://piedmontpark.org/maps/",
+          "verified_at": "2026-07-30",
+          "discovery": {
+            "method": "official-map-name-plus-openstreetmap-coordinate",
+            "coordinateSource": "https://www.openstreetmap.org/way/182313887",
+            "mappedName": "Piedmont Park Aquatic Center",
+            "matchScore": 0.6666666666666666
+          }
+        },
+        {
+          "id": "launch-ga-atlanta-piedmont-park-clara-meer-gazebo",
+          "slug": "clara-meer-gazebo",
+          "name": "Clara Meer Gazebo",
+          "feature_type": "landmark",
+          "description": "Clara Meer Gazebo is a visitor destination identified by Piedmont Park Conservancy within Piedmont Park.",
+          "latitude": 33.7850464,
+          "longitude": -84.373654,
+          "details": {
+            "positionQuality": "mapped-place",
+            "officialMapUrl": "https://piedmontpark.org/maps/",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Piedmont_Park%27s_Lake_Clara_Meer_gazebo_in_fall_colors.jpg/1920px-Piedmont_Park%27s_Lake_Clara_Meer_gazebo_in_fall_colors.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Piedmont_Park%27s_Lake_Clara_Meer_gazebo_in_fall_colors.jpg",
+            "imageAuthor": "Marc Merlin",
+            "imageLicense": "CC BY-SA 4.0",
+            "imageAlt": "Gazebo on the bridge spanning the northern end of Lake Clara Meer in Piedmont Park, Atlanta, surrounded by autumn foliage."
+          },
+          "source_label": "Piedmont Park Conservancy",
+          "source_url": "https://piedmontpark.org/maps/",
+          "verified_at": "2026-07-30",
+          "discovery": {
+            "method": "official-map-name-plus-openstreetmap-coordinate",
+            "coordinateSource": "https://www.openstreetmap.org/way/269747513",
+            "mappedName": "Clara Meer Gazebo",
+            "matchScore": 1,
+            "imageFileTitle": "File:Piedmont Park's Lake Clara Meer gazebo in fall colors.jpg"
+          }
+        },
+        {
+          "id": "launch-ga-atlanta-piedmont-park-welcome-plaza",
+          "slug": "welcome-plaza",
+          "name": "Welcome Plaza",
+          "feature_type": "entrance",
+          "description": "Welcome Plaza is a visitor destination identified by Piedmont Park Conservancy within Piedmont Park.",
+          "latitude": 33.7886625,
+          "longitude": -84.3727056,
+          "details": {
+            "positionQuality": "mapped-place",
+            "officialMapUrl": "https://piedmontpark.org/maps/"
+          },
+          "source_label": "Piedmont Park Conservancy",
+          "source_url": "https://piedmontpark.org/maps/",
+          "verified_at": "2026-07-30",
+          "discovery": {
+            "method": "official-map-name-plus-openstreetmap-coordinate",
+            "coordinateSource": "https://www.openstreetmap.org/way/1089185052",
+            "mappedName": "Welcome Plaza",
+            "matchScore": 1,
+            "rejectedImageTitles": [
+              "File:Honda HR412E engine front-right 2013 Honda Welcome Plaza.jpg"
+            ]
+          }
+        }
+      ],
+      "reviewCandidates": [
+        {
+          "name": "Skyline Picture Point",
+          "feature_type": "landmark",
+          "reason": "Officially named destination did not resolve to a within-park mapped coordinate."
+        }
+      ],
+      "discoveryError": null
+    },
+    {
+      "id": "launch-mo-st-louis-forest-park",
+      "name": "Forest Park",
+      "city": "St. Louis",
+      "state": "MO",
+      "sourceBoundary": "https://www.openstreetmap.org/relation/18497650",
+      "features": [
+        {
+          "id": "launch-mo-st-louis-forest-park-saint-louis-zoo",
+          "slug": "saint-louis-zoo",
+          "name": "Saint Louis Zoo",
+          "feature_type": "museum",
+          "description": "Saint Louis Zoo is a visitor destination identified by Forest Park Forever within Forest Park.",
+          "latitude": 38.6351829,
+          "longitude": -90.2908689,
+          "details": {
+            "positionQuality": "mapped-place",
+            "officialMapUrl": "https://www.forestparkforever.org/park-attractions",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Bear_Pits%2C_Forest_Park%2C_St._Louis%2C_Mo_%2863233%29.jpg/1920px-Bear_Pits%2C_Forest_Park%2C_St._Louis%2C_Mo_%2863233%29.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Bear_Pits,_Forest_Park,_St._Louis,_Mo_(63233).jpg",
+            "imageAuthor": "\"Tichnor Quality Views,\" Reg. U. S. Pat. Off. Made Only by Tichnor Bros., Inc., Boston, Mass.",
+            "imageLicense": "Public domain",
+            "imageAlt": "Title: Bear Pits, Forest Park, St. Louis, Mo. Subjects: Parks Places: Missouri &gt; Saint Louis Notes: Title from item. Extent: 1 print (postcard) : linen texture, color ; 3 1/2 x 5 1/2 in. Accession #: 06_10_015182"
+          },
+          "source_label": "Forest Park Forever",
+          "source_url": "https://www.forestparkforever.org/park-attractions",
+          "verified_at": "2026-07-30",
+          "discovery": {
+            "method": "official-map-name-plus-openstreetmap-coordinate",
+            "coordinateSource": "https://www.openstreetmap.org/relation/20254181",
+            "mappedName": "Saint Louis Zoo",
+            "matchScore": 1,
+            "imageFileTitle": "File:Bear Pits, Forest Park, St. Louis, Mo (63233).jpg"
+          }
+        },
+        {
+          "id": "launch-mo-st-louis-forest-park-saint-louis-art-museum",
+          "slug": "saint-louis-art-museum",
+          "name": "Saint Louis Art Museum",
+          "feature_type": "museum",
+          "description": "Saint Louis Art Museum is a visitor destination identified by Forest Park Forever within Forest Park.",
+          "latitude": 38.6394679,
+          "longitude": -90.2944031,
+          "details": {
+            "positionQuality": "mapped-place",
+            "officialMapUrl": "https://www.forestparkforever.org/park-attractions",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Forest_Park_Panorama.jpg/1920px-Forest_Park_Panorama.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Forest_Park_Panorama.jpg",
+            "imageAuthor": "Teeks99",
+            "imageLicense": "CC BY-SA 4.0",
+            "imageAlt": "Panorama stitched together from multiple photos taken by a drone 100m above the Missouri History Museum. The image covers much of Forest Park as well as the Debaliviere Neighborhood, Washington University, and high-rises in Clayton, the Central West End, and Downtown St. Louis, including the Arch."
+          },
+          "source_label": "Forest Park Forever",
+          "source_url": "https://www.forestparkforever.org/park-attractions",
+          "verified_at": "2026-07-30",
+          "discovery": {
+            "method": "official-map-name-plus-openstreetmap-coordinate",
+            "coordinateSource": "https://www.openstreetmap.org/node/265978495",
+            "mappedName": "Saint Louis Art Museum",
+            "matchScore": 1,
+            "imageFileTitle": "File:Forest Park Panorama.jpg"
+          }
+        },
+        {
+          "id": "launch-mo-st-louis-forest-park-missouri-history-museum",
+          "slug": "missouri-history-museum",
+          "name": "Missouri History Museum",
+          "feature_type": "museum",
+          "description": "Missouri History Museum is a visitor destination identified by Forest Park Forever within Forest Park.",
+          "latitude": 38.6451633,
+          "longitude": -90.2860599,
+          "details": {
+            "positionQuality": "mapped-place",
+            "officialMapUrl": "https://www.forestparkforever.org/park-attractions",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Missouri-history-museum-st-louis-forest-park.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Missouri-history-museum-st-louis-forest-park.jpg",
+            "imageAuthor": "en:User:Colin.faulkingham",
+            "imageLicense": "Public domain",
+            "imageAlt": "Missouri History Museum"
+          },
+          "source_label": "Forest Park Forever",
+          "source_url": "https://www.forestparkforever.org/park-attractions",
+          "verified_at": "2026-07-30",
+          "discovery": {
+            "method": "official-map-name-plus-openstreetmap-coordinate",
+            "coordinateSource": "https://www.openstreetmap.org/relation/20071806",
+            "mappedName": "Missouri History Museum",
+            "matchScore": 1,
+            "imageFileTitle": "File:Missouri-history-museum-st-louis-forest-park.jpg"
+          }
+        },
+        {
+          "id": "launch-mo-st-louis-forest-park-saint-louis-science-center-and-planetarium",
+          "slug": "saint-louis-science-center-and-planetarium",
+          "name": "Saint Louis Science Center and Planetarium",
+          "feature_type": "museum",
+          "description": "Saint Louis Science Center and Planetarium is a visitor destination identified by Forest Park Forever within Forest Park.",
+          "latitude": 38.6287326,
+          "longitude": -90.2703912,
+          "details": {
+            "positionQuality": "mapped-place",
+            "officialMapUrl": "https://www.forestparkforever.org/park-attractions"
+          },
+          "source_label": "Forest Park Forever",
+          "source_url": "https://www.forestparkforever.org/park-attractions",
+          "verified_at": "2026-07-30",
+          "discovery": {
+            "method": "official-map-name-plus-openstreetmap-coordinate",
+            "coordinateSource": "https://www.openstreetmap.org/way/120129615",
+            "mappedName": "Saint Louis Science Center",
+            "matchScore": 0.8
+          }
+        },
+        {
+          "id": "launch-mo-st-louis-forest-park-the-muny",
+          "slug": "the-muny",
+          "name": "The Muny",
+          "feature_type": "event-space",
+          "description": "The Muny is a visitor destination identified by Forest Park Forever within Forest Park.",
+          "latitude": 38.6401708,
+          "longitude": -90.2802292,
+          "details": {
+            "positionQuality": "mapped-place",
+            "officialMapUrl": "https://www.forestparkforever.org/park-attractions",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/STL_Muny_01.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:STL_Muny_01.jpg",
+            "imageAuthor": "Onegentlemanofverona",
+            "imageLicense": "CC BY-SA 3.0",
+            "imageAlt": "Front of the Muny Theatre in Forest Park, St. Louis, Mo"
+          },
+          "source_label": "Forest Park Forever",
+          "source_url": "https://www.forestparkforever.org/park-attractions",
+          "verified_at": "2026-07-30",
+          "discovery": {
+            "method": "official-map-name-plus-openstreetmap-coordinate",
+            "coordinateSource": "https://www.openstreetmap.org/way/40700258",
+            "mappedName": "The Muny",
+            "matchScore": 1,
+            "imageFileTitle": "File:STL Muny 01.jpg"
+          }
+        },
+        {
+          "id": "launch-mo-st-louis-forest-park-boathouse-at-forest-park",
+          "slug": "boathouse-at-forest-park",
+          "name": "Boathouse at Forest Park",
+          "feature_type": "landmark",
+          "description": "Boathouse at Forest Park is a visitor destination identified by Forest Park Forever within Forest Park.",
+          "latitude": 38.6414387,
+          "longitude": -90.2628157,
+          "details": {
+            "positionQuality": "mapped-place",
+            "officialMapUrl": "https://www.forestparkforever.org/park-attractions"
+          },
+          "source_label": "Forest Park Forever",
+          "source_url": "https://www.forestparkforever.org/park-attractions",
+          "verified_at": "2026-07-30",
+          "discovery": {
+            "method": "official-map-name-plus-openstreetmap-coordinate",
+            "coordinateSource": "https://www.openstreetmap.org/way/303553443",
+            "mappedName": "The Residences at Forest Park",
+            "matchScore": 0.5,
+            "rejectedImageTitles": [
+              "File:Sylvan Lake, Forest Park (NBY 437323).jpg"
+            ]
+          }
+        },
+        {
+          "id": "launch-mo-st-louis-forest-park-the-jewel-box",
+          "slug": "the-jewel-box",
+          "name": "The Jewel Box",
+          "feature_type": "garden",
+          "description": "The Jewel Box is a visitor destination identified by Forest Park Forever within Forest Park.",
+          "latitude": 38.6352986,
+          "longitude": -90.2802744,
+          "details": {
+            "positionQuality": "mapped-place",
+            "officialMapUrl": "https://www.forestparkforever.org/park-attractions",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Jewel_Box%2C_Forest_Park_%28NBY_434012%29.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Jewel_Box,_Forest_Park_(NBY_434012).jpg",
+            "imageAuthor": "Unknown author Unknown author",
+            "imageLicense": "Public domain",
+            "imageAlt": "Postcard view of a floral display in the Jewel Box in Forest Park."
+          },
+          "source_label": "Forest Park Forever",
+          "source_url": "https://www.forestparkforever.org/park-attractions",
+          "verified_at": "2026-07-30",
+          "discovery": {
+            "method": "official-map-name-plus-openstreetmap-coordinate",
+            "coordinateSource": "https://www.openstreetmap.org/way/28533273",
+            "mappedName": "Jewel Box",
+            "matchScore": 1,
+            "imageFileTitle": "File:Jewel Box, Forest Park (NBY 434012).jpg"
+          }
+        },
+        {
+          "id": "launch-mo-st-louis-forest-park-world-s-fair-pavilion",
+          "slug": "world-s-fair-pavilion",
+          "name": "World's Fair Pavilion",
+          "feature_type": "landmark",
+          "description": "World's Fair Pavilion is a visitor destination identified by Forest Park Forever within Forest Park.",
+          "latitude": 38.6364681,
+          "longitude": -90.2855551,
+          "details": {
+            "positionQuality": "mapped-place",
+            "officialMapUrl": "https://www.forestparkforever.org/park-attractions",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Forest_Park%2C_St_Louis.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Forest_Park,_St_Louis.jpg",
+            "imageAuthor": "Kris from Seattle, USA",
+            "imageLicense": "CC BY 2.0",
+            "imageAlt": "Government Hill in Forest Park in St. Louis, Missouri as it once appeared, with the World's Fair Pavilion at the top of the hill. The hill has changed and the fountain replaced with a different fountain since this picture was taken. Forest Park, St. Louis"
+          },
+          "source_label": "Forest Park Forever",
+          "source_url": "https://www.forestparkforever.org/park-attractions",
+          "verified_at": "2026-07-30",
+          "discovery": {
+            "method": "official-map-name-plus-openstreetmap-coordinate",
+            "coordinateSource": "https://www.openstreetmap.org/way/561781211",
+            "mappedName": "World's Fair Pavilion",
+            "matchScore": 1,
+            "imageFileTitle": "File:Forest Park, St Louis.jpg"
+          }
+        },
+        {
+          "id": "launch-mo-st-louis-forest-park-emerson-grand-basin",
+          "slug": "emerson-grand-basin",
+          "name": "Emerson Grand Basin",
+          "feature_type": "water",
+          "description": "Emerson Grand Basin is a visitor destination identified by Forest Park Forever within Forest Park.",
+          "latitude": 38.6419815,
+          "longitude": -90.2923356,
+          "details": {
+            "positionQuality": "mapped-place",
+            "officialMapUrl": "https://www.forestparkforever.org/park-attractions"
+          },
+          "source_label": "Forest Park Forever",
+          "source_url": "https://www.forestparkforever.org/park-attractions",
+          "verified_at": "2026-07-30",
+          "discovery": {
+            "method": "official-map-name-plus-openstreetmap-coordinate",
+            "coordinateSource": "https://www.openstreetmap.org/relation/19821119",
+            "mappedName": "Emerson Grand Basin",
+            "matchScore": 1
+          }
+        },
+        {
+          "id": "launch-mo-st-louis-forest-park-kennedy-forest",
+          "slug": "kennedy-forest",
+          "name": "Kennedy Forest",
+          "feature_type": "nature",
+          "description": "Kennedy Forest is a visitor destination identified by Forest Park Forever within Forest Park.",
+          "latitude": 38.6335364,
+          "longitude": -90.3013943,
+          "details": {
+            "positionQuality": "mapped-place",
+            "officialMapUrl": "https://www.forestparkforever.org/park-attractions"
+          },
+          "source_label": "Forest Park Forever",
+          "source_url": "https://www.forestparkforever.org/park-attractions",
+          "verified_at": "2026-07-30",
+          "discovery": {
+            "method": "official-map-name-plus-openstreetmap-coordinate",
+            "coordinateSource": "https://www.openstreetmap.org/relation/19733086",
+            "mappedName": "Kennedy Forest",
+            "matchScore": 1
+          }
+        }
+      ],
+      "reviewCandidates": [
+        {
+          "name": "Dennis and Judith Jones Visitor and Education Center",
+          "feature_type": "visitor-center",
+          "reason": "Officially named destination did not resolve to a within-park mapped coordinate."
+        },
+        {
+          "name": "The Cascades",
+          "feature_type": "water",
+          "reason": "Officially named destination did not resolve to a within-park mapped coordinate."
+        }
+      ],
+      "discoveryError": "Overpass fallback returned 504"
+    },
+    {
+      "id": "launch-fl-orlando-lake-eola-park",
+      "name": "Lake Eola Park",
+      "city": "Orlando",
+      "state": "FL",
+      "sourceBoundary": "https://www.openstreetmap.org/relation/16755658",
+      "features": [
+        {
+          "id": "launch-fl-orlando-lake-eola-park-walt-disney-amphitheater",
+          "slug": "walt-disney-amphitheater",
+          "name": "Walt Disney Amphitheater",
+          "feature_type": "event-space",
+          "description": "Walt Disney Amphitheater is a mapped event space (theatre) within the park. Visitor details still require official-source review.",
+          "latitude": 28.5439394,
+          "longitude": -81.375342,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/16755658",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Walt_Disney_Amphitheater-3.jpg/1920px-Walt_Disney_Amphitheater-3.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Walt_Disney_Amphitheater-3.jpg",
+            "imageAuthor": "Visitor7",
+            "imageLicense": "CC BY-SA 3.0",
+            "imageAlt": "Walt Disney Amphitheater Lake Eola Park in Orlando, Florida"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/1473263559",
+          "verified_at": "2026-07-30",
+          "score": 94,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 1473263559,
+            "wikidata": "Q118368998",
+            "wikipedia": null,
+            "boundaryContained": true,
+            "imageFileTitle": "File:Walt Disney Amphitheater-3.jpg"
+          }
+        },
+        {
+          "id": "launch-fl-orlando-lake-eola-park-battle-of-the-bulge-memorial",
+          "slug": "battle-of-the-bulge-memorial",
+          "name": "Battle of the Bulge Memorial",
+          "feature_type": "art",
+          "description": "Battle of the Bulge Memorial is a mapped art (statue) within the park. Visitor details still require official-source review.",
+          "latitude": 28.5452233,
+          "longitude": -81.3707178,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/16755658",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Veterans_of_the_Battle_of_the_Bulge_statue_at_Lake_Eola_park.jpg/1920px-Veterans_of_the_Battle_of_the_Bulge_statue_at_Lake_Eola_park.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Veterans_of_the_Battle_of_the_Bulge_statue_at_Lake_Eola_park.jpg",
+            "imageAuthor": "Michael Rivera",
+            "imageLicense": "CC BY-SA 4.0",
+            "imageAlt": "Veterans of the Battle of the Bulge statue at Lake Eola park, Orlando, Orange County, Florida"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/10896595599",
+          "verified_at": "2026-07-30",
+          "score": 90,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 10896595599,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "imageFileTitle": "File:Veterans of the Battle of the Bulge statue at Lake Eola park.jpg"
+          }
+        },
+        {
+          "id": "launch-fl-orlando-lake-eola-park-centered",
+          "slug": "centered",
+          "name": "Centered",
+          "feature_type": "art",
+          "description": "Centered is a mapped art (sculpture) within the park. Visitor details still require official-source review.",
+          "latitude": 28.5423522,
+          "longitude": -81.373492,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/16755658",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/5586711220",
+          "verified_at": "2026-07-30",
+          "score": 90,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 5586711220,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          }
+        },
+        {
+          "id": "launch-fl-orlando-lake-eola-park-discovery-muse",
+          "slug": "discovery-muse",
+          "name": "Discovery Muse",
+          "feature_type": "art",
+          "description": "Discovery Muse is a mapped art (sculpture) within the park. Visitor details still require official-source review.",
+          "latitude": 28.5444396,
+          "longitude": -81.3753919,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/16755658",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/10895921807",
+          "verified_at": "2026-07-30",
+          "score": 90,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 10895921807,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          }
+        }
+      ],
+      "reviewCandidates": [],
+      "discoveryError": null
+    }
+  ]
+}

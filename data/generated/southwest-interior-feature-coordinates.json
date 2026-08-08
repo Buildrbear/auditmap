@@ -1,0 +1,75 @@
+{
+  "checkedAt": "2026-08-08",
+  "reviewMethod": "Exact named OpenStreetMap feature, official operator guidance, and a destination-specific licensed campaign photograph. Features without all three were retained in the research queue rather than published.",
+  "places": {
+    "launch-nm-albuquerque-balloon-fiesta-park": {},
+    "launch-nm-albuquerque-elena-gallegos-open-space": {},
+    "launch-nm-albuquerque-tingley-beach-and-bosque": {},
+    "launch-ok-oklahoma-city-scissortail-park": {
+      "skydance-bridge": {
+        "name": "Skydance Bridge",
+        "osm": "way/275293384",
+        "imageIndex": 2,
+        "allowOutsideBoundary": true,
+        "boundaryExceptionReason": "Skydance Bridge is the official pedestrian connection between Scissortail Park's Upper and Lower parks and crosses Interstate 40 immediately beyond the reviewed Upper Park polygon.",
+        "sourceLabel": "City of Oklahoma City",
+        "source": "https://www.okc.gov/departments/public-works/resident-community-resources/skydance-bridge",
+        "summary": "Skydance Bridge is a 380-foot pedestrian bridge and illuminated landmark inspired by Oklahoma's state bird; it links Scissortail Park's Upper and Lower parks across Interstate 40.",
+        "cost": "Walking across Skydance Bridge is free; nearby parking, food, rentals, and ticketed park events can cost separately.",
+        "hours": "The bridge is an outdoor pedestrian connection within the Scissortail Park campus. Plan around the park's daily 6:00 a.m.-11:00 p.m. hours and obey any closure or event-control signs at the approaches.",
+        "needToKnow": "This is a through-route shared by people walking, running, and bicycling, not a roadside overlook. Stay on the pedestrian path, supervise children, keep the route clear when taking photos, and use the exact pin to find the Interstate 40 crossing between the Upper and Lower parks.",
+        "latitude": 35.4564656,
+        "longitude": -97.5174268,
+        "displayName": "Skydance Bridge",
+        "coordinateSource": "https://www.openstreetmap.org/way/275293384",
+        "boundarySource": "https://www.openstreetmap.org/way/176390181",
+        "positionQuality": "reviewed-official-campus-placement",
+        "reviewStatus": "approved-official-campus-extension",
+        "reviewedAt": "2026-08-08"
+      }
+    },
+    "launch-ok-oklahoma-city-myriad-botanical-gardens": {},
+    "launch-ok-oklahoma-city-lake-hefner-park": {},
+    "launch-tx-fort-worth-trinity-park": {},
+    "launch-tx-fort-worth-fort-worth-water-gardens": {
+      "active-pool": {
+        "name": "Active Pool",
+        "osm": "way/178593520",
+        "imageIndex": 0,
+        "sourceLabel": "Fort Worth Park and Recreation Department",
+        "source": "https://www.fortworthtexas.gov/departments/parks/parks-and-trails/water-gardens",
+        "summary": "The Active Pool is the Water Gardens' dramatic 38-foot-deep architectural basin, reached visually by descending table-topped steps beside rushing water.",
+        "cost": "General admission to Fort Worth Water Gardens and viewing the Active Pool are free; permitted private events and nearby parking can cost separately.",
+        "hours": "The Active Pool follows the Water Gardens' daily 6:00 a.m.-10:00 p.m. schedule unless maintenance, weather, a permitted event, or a safety closure restricts access.",
+        "needToKnow": "Swimming and wading are prohibited throughout the Water Gardens. The Active Pool approach is steep, wet, noisy, and visually disorienting for some visitors; use the upper viewpoints if stairs, balance, spray, or close supervision are concerns, and never cross barriers or enter the water.",
+        "latitude": 32.7480236,
+        "longitude": -97.3260485,
+        "displayName": "Active Pool",
+        "coordinateSource": "https://www.openstreetmap.org/way/178593520",
+        "boundarySource": "https://www.openstreetmap.org/way/39823491",
+        "positionQuality": "reviewed-public-map-placement",
+        "reviewStatus": "approved-feature-and-boundary-match",
+        "reviewedAt": "2026-08-08"
+      },
+      "quiet-pool": {
+        "name": "Quiet Pool",
+        "osm": "way/178593522",
+        "imageIndex": 2,
+        "sourceLabel": "Fort Worth Park and Recreation Department",
+        "source": "https://www.fortworthtexas.gov/departments/parks/parks-and-trails/water-gardens",
+        "summary": "The Quiet Pool is a shaded, recessed reflecting pool framed by tall cypress trees and water walls near the Water Gardens' northwest entrance.",
+        "cost": "General admission to Fort Worth Water Gardens and viewing the Quiet Pool are free; permitted private events and nearby parking can cost separately.",
+        "hours": "The Quiet Pool follows the Water Gardens' daily 6:00 a.m.-10:00 p.m. schedule unless maintenance, weather, a permitted event, or a safety closure restricts access.",
+        "needToKnow": "Swimming and wading are prohibited, even though the setting is calm. Expect hard surfaces, steps, damp areas, and limited sightlines below street level; use the exact pin, keep children close, and follow posted barriers or maintenance closures.",
+        "latitude": 32.7477171,
+        "longitude": -97.3270352,
+        "displayName": "Quiet Pool",
+        "coordinateSource": "https://www.openstreetmap.org/way/178593522",
+        "boundarySource": "https://www.openstreetmap.org/way/39823491",
+        "positionQuality": "reviewed-public-map-placement",
+        "reviewStatus": "approved-feature-and-boundary-match",
+        "reviewedAt": "2026-08-08"
+      }
+    }
+  }
+}

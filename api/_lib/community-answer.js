@@ -1,4 +1,5 @@
 const { supabaseRequest } = require("./supabase");
+const { resolveAiConnection } = require("./ai-connection");
 
 function cleanText(value, limit = 1200) {
   return String(value || "").replace(/\s+/g, " ").trim().slice(0, limit);
@@ -23,7 +24,10 @@ function cleanUrl(value) {
 }
 
 async function generateCommunityAnswer({ contribution, institution }) {
-  if (!process.env.OPENAI_API_KEY) return null;
+  const connection = await resolveAiConnection({
+    model: process.env.OPENAI_MODEL || "gpt-4.1-mini",
+  });
+  if (!connection) return null;
 
   const [sources, discussion, features] = await Promise.all([
     supabaseRequest(
@@ -40,14 +44,14 @@ async function generateCommunityAnswer({ contribution, institution }) {
     ),
   ]);
 
-  const aiResponse = await fetch("https://api.openai.com/v1/responses", {
+  const aiResponse = await fetch(connection.apiUrl, {
     method: "POST",
     headers: {
-      Authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
+      Authorization: `Bearer ${connection.token}`,
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      model: process.env.OPENAI_MODEL || "gpt-4.1-mini",
+      model: connection.model,
       max_output_tokens: 500,
       tools: [
         {
@@ -129,7 +133,7 @@ async function generateCommunityAnswer({ contribution, institution }) {
   return {
     answer,
     status: result.status,
-    model: process.env.OPENAI_MODEL || "gpt-4.1-mini",
+    model: connection.model,
     sources: (result.sources || [])
       .map((source) => ({
         title: cleanText(source.title, 160),

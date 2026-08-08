@@ -1,0 +1,50 @@
+{
+  "checkedAt": "2026-08-08",
+  "reviewMethod": "Exact named OpenStreetMap feature, official operator page, and a destination-specific licensed campaign photograph.",
+  "places": {
+    "launch-ms-jackson-lefleur-s-bluff-state-park": {
+      "mayes-lake": {
+        "name": "Mayes Lake",
+        "osm": "way/638368342",
+        "imageIndex": 2,
+        "sourceLabel": "Mississippi Department of Wildlife, Fisheries, and Parks",
+        "source": "https://www.mdwfp.com/parks-destinations/park/lefleurs-bluff-state-park",
+        "summary": "Mayes Lake is the fishing, non-motorized paddling, and electric-trolling-motor water destination inside LeFleur's Bluff State Park.",
+        "cost": "The state park lists general entrance at $2 per person, with children age five and under free; camping, rentals, reservations, and other activities can charge separately.",
+        "hours": "Lake access follows the state park's general day-use hours of 8:00 a.m.-5:00 p.m.; weather, high water, maintenance, and park closures override normal access.",
+        "needToKnow": "Navigate to the Lakeland Terrace state-park entrance, not the museum campus. Bring required fishing credentials, use only permitted watercraft and electric trolling motors, and do not treat the lake as a designated swimming beach.",
+        "latitude": 32.3289033,
+        "longitude": -90.1446497,
+        "displayName": "Mayes Lake",
+        "coordinateSource": "https://www.openstreetmap.org/way/638368342",
+        "boundarySource": "https://www.openstreetmap.org/relation/12893310",
+        "positionQuality": "reviewed-public-map-placement",
+        "reviewStatus": "approved-feature-and-boundary-match",
+        "reviewedAt": "2026-08-08"
+      }
+    },
+    "launch-ar-little-rock-two-rivers-park": {
+      "two-rivers-park-bridge": {
+        "name": "Two Rivers Park Bridge",
+        "osm": "way/122683681",
+        "imageIndex": 0,
+        "allowOutsideBoundary": true,
+        "boundaryExceptionReason": "The official park connection extends from the park-side approach across the Little Maumelle River beyond the mapped land polygon.",
+        "sourceLabel": "City of Little Rock Parks and Recreation",
+        "source": "https://www.littlerock.gov/!userfiles/editor/docs/parks/Trail%20Maps%2011%2013%2012_Two%20Rivers%20Park.pdf",
+        "summary": "Two Rivers Park Bridge is the 1,162-foot pedestrian and bicycle connection from River Mountain and the Arkansas River Trail into Two Rivers Park.",
+        "cost": "Bridge, trail, park, playground, and general parking access are free; organized events, permits, and rentals can charge separately.",
+        "hours": "Use the bridge only while the park and connecting trail are open and conditions are safe; flooding, severe weather, construction, or maintenance can interrupt through access.",
+        "needToKnow": "The bridge is exposed and adds distance before reaching the park's playground, pavilion, and fields. Check river and trail conditions, share the path predictably, carry water, and plan the return distance before crossing.",
+        "latitude": 34.8011522,
+        "longitude": -92.382588,
+        "displayName": "Two Rivers Park Bridge",
+        "coordinateSource": "https://www.openstreetmap.org/way/122683681",
+        "boundarySource": "https://www.openstreetmap.org/way/178172073",
+        "positionQuality": "reviewed-official-campus-placement",
+        "reviewStatus": "approved-official-campus-extension",
+        "reviewedAt": "2026-08-08"
+      }
+    }
+  }
+}

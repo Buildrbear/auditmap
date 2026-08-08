@@ -1,0 +1,405 @@
+{
+  "checkedAt": "2026-08-06",
+  "places": {
+    "launch-mo-kansas-city-swope-park": {
+      "kansas-city-zoo-and-aquarium": {
+        "latitude": 39.0073883,
+        "longitude": -94.5293298,
+        "displayName": "Kansas City Zoo and Aquarium, Yates Drive Turnoff, Kansas City, Jackson County, Missouri, 64132, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "starlight-theatre": {
+        "latitude": 39.0075805,
+        "longitude": -94.5328099,
+        "displayName": "Starlight Theatre, 4600, Starlight Road, Kansas City, Jackson County, Missouri, 64132, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "lakeside-nature-center": {
+        "latitude": 38.9951769,
+        "longitude": -94.5321094,
+        "displayName": "Lakeside Nature Center, 4701, East Gregory Boulevard, Kansas City, Jackson County, Missouri, 64132, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "swope-park-trails": {
+        "latitude": 38.9870816,
+        "longitude": -94.5139095,
+        "displayName": "Swope Park Trails Trailhead, A2B Connection, Kansas City, Jackson County, Missouri, 64132, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "fox-hollow-trail": {
+        "latitude": 38.9935226,
+        "longitude": -94.5324507,
+        "displayName": "Lakeside Nature Center - Fox Hollow Nature Trail (red trail), Kansas City, Jackson County, Missouri, 64132, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "swope-park-off-leash-dog-park": {
+        "latitude": 38.9970388,
+        "longitude": -94.5261147,
+        "displayName": "Swope Park Off Leash Dog Park, 5051, East Gregory Boulevard, Kansas City, Jackson County, Missouri, 64132, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "lake-of-the-woods": {
+        "latitude": 38.9951439,
+        "longitude": -94.5197393,
+        "displayName": "Lake of the Woods, Kansas City, Jackson County, Missouri, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "swope-soccer-village": {
+        "latitude": 39.0110047,
+        "longitude": -94.5194114,
+        "displayName": "Swope Soccer Village, Kansas City, Jackson County, Missouri, United States",
+        "source": "OpenStreetMap Nominatim"
+      }
+    },
+    "launch-mo-kansas-city-jacob-l-loose-park": {
+      "laura-conyers-smith-municipal-rose-garden": {
+        "latitude": 39.03385,
+        "longitude": -94.5928,
+        "displayName": "Approximate position within Jacob L. Loose Park",
+        "source": "AuditMap official-map placement"
+      },
+      "loose-park-pond": {
+        "latitude": 39.033831335136526,
+        "longitude": -94.59236866486347,
+        "displayName": "Approximate position within Jacob L. Loose Park",
+        "source": "AuditMap official-map placement"
+      },
+      "loose-park-sprayground": {
+        "latitude": 39.0334,
+        "longitude": -94.59203,
+        "displayName": "Approximate position within Jacob L. Loose Park",
+        "source": "AuditMap official-map placement"
+      },
+      "loose-park-playground": {
+        "latitude": 39.03308180194847,
+        "longitude": -94.59248180194847,
+        "displayName": "Approximate position within Jacob L. Loose Park",
+        "source": "AuditMap official-map placement"
+      },
+      "loose-park-japanese-garden": {
+        "latitude": 39.03279,
+        "longitude": -94.5928,
+        "displayName": "Approximate position within Jacob L. Loose Park",
+        "source": "AuditMap official-map placement"
+      },
+      "loose-park-garden-center": {
+        "latitude": 39.03285552777849,
+        "longitude": -94.59334447222152,
+        "displayName": "Approximate position within Jacob L. Loose Park",
+        "source": "AuditMap official-map placement"
+      },
+      "loose-park-tennis-courts": {
+        "latitude": 39.0334,
+        "longitude": -94.59325,
+        "displayName": "Approximate position within Jacob L. Loose Park",
+        "source": "AuditMap official-map placement"
+      },
+      "jacob-l-loose-park-trail": {
+        "latitude": 39.033831335136526,
+        "longitude": -94.59323133513652,
+        "displayName": "Approximate position within Jacob L. Loose Park",
+        "source": "AuditMap official-map placement"
+      }
+    },
+    "launch-mo-kansas-city-penn-valley-park": {
+      "national-wwi-museum-and-memorial-grounds": {
+        "latitude": 39.07125,
+        "longitude": -94.5889,
+        "displayName": "Approximate position within Penn Valley Park",
+        "source": "AuditMap official-map placement"
+      },
+      "liberty-memorial-tower": {
+        "latitude": 39.071231335136524,
+        "longitude": -94.58846866486347,
+        "displayName": "Approximate position within Penn Valley Park",
+        "source": "AuditMap official-map placement"
+      },
+      "the-scout": {
+        "latitude": 39.0708,
+        "longitude": -94.58812999999999,
+        "displayName": "Approximate position within Penn Valley Park",
+        "source": "AuditMap official-map placement"
+      },
+      "penn-valley-lake": {
+        "latitude": 39.07048180194847,
+        "longitude": -94.58858180194846,
+        "displayName": "Approximate position within Penn Valley Park",
+        "source": "AuditMap official-map placement"
+      },
+      "penn-valley-off-leash-dog-park": {
+        "latitude": 39.07019,
+        "longitude": -94.5889,
+        "displayName": "Approximate position within Penn Valley Park",
+        "source": "AuditMap official-map placement"
+      },
+      "penn-valley-skate-park": {
+        "latitude": 39.070255527778485,
+        "longitude": -94.58944447222152,
+        "displayName": "Approximate position within Penn Valley Park",
+        "source": "AuditMap official-map placement"
+      },
+      "firefighters-fountain-and-memorial": {
+        "latitude": 39.0708,
+        "longitude": -94.58935,
+        "displayName": "Approximate position within Penn Valley Park",
+        "source": "AuditMap official-map placement"
+      },
+      "penn-valley-park-trail": {
+        "latitude": 39.071231335136524,
+        "longitude": -94.58933133513652,
+        "displayName": "Approximate position within Penn Valley Park",
+        "source": "AuditMap official-map placement"
+      }
+    },
+    "launch-mo-kansas-city-kessler-park": {
+      "cliff-drive-scenic-byway": {
+        "latitude": 39.11395,
+        "longitude": -94.5472,
+        "displayName": "Approximate position within Kessler Park",
+        "source": "AuditMap official-map placement"
+      },
+      "the-concourse": {
+        "latitude": 39.11393133513653,
+        "longitude": -94.54676866486348,
+        "displayName": "Approximate position within Kessler Park",
+        "source": "AuditMap official-map placement"
+      },
+      "concourse-fountain": {
+        "latitude": 39.1135,
+        "longitude": -94.54643,
+        "displayName": "Approximate position within Kessler Park",
+        "source": "AuditMap official-map placement"
+      },
+      "north-terrace-lake": {
+        "latitude": 39.11318180194847,
+        "longitude": -94.54688180194847,
+        "displayName": "Approximate position within Kessler Park",
+        "source": "AuditMap official-map placement"
+      },
+      "lookout-point": {
+        "latitude": 39.11289,
+        "longitude": -94.5472,
+        "displayName": "Approximate position within Kessler Park",
+        "source": "AuditMap official-map placement"
+      },
+      "scarritt-point": {
+        "latitude": 39.11295552777849,
+        "longitude": -94.54774447222152,
+        "displayName": "Approximate position within Kessler Park",
+        "source": "AuditMap official-map placement"
+      },
+      "kessler-park-trail": {
+        "latitude": 39.1135,
+        "longitude": -94.54765,
+        "displayName": "Approximate position within Kessler Park",
+        "source": "AuditMap official-map placement"
+      },
+      "kansas-city-museum": {
+        "latitude": 39.11393133513653,
+        "longitude": -94.54763133513653,
+        "displayName": "Approximate position within Kessler Park",
+        "source": "AuditMap official-map placement"
+      }
+    },
+    "launch-mo-kansas-city-berkley-riverfront-park": {
+      "berkley-riverfront-esplanade": {
+        "latitude": 39.12115,
+        "longitude": -94.5706,
+        "displayName": "Approximate position within Berkley Riverfront Park",
+        "source": "AuditMap official-map placement"
+      },
+      "riverfront-heritage-trail": {
+        "latitude": 39.121131335136525,
+        "longitude": -94.57016866486347,
+        "displayName": "Approximate position within Berkley Riverfront Park",
+        "source": "AuditMap official-map placement"
+      },
+      "town-of-kansas-bridge": {
+        "latitude": 39.1207,
+        "longitude": -94.56983,
+        "displayName": "Approximate position within Berkley Riverfront Park",
+        "source": "AuditMap official-map placement"
+      },
+      "cpkc-stadium-riverfront-plaza": {
+        "latitude": 39.12038180194847,
+        "longitude": -94.57028180194847,
+        "displayName": "Approximate position within Berkley Riverfront Park",
+        "source": "AuditMap official-map placement"
+      },
+      "two-birds-one-stone": {
+        "latitude": 39.12009,
+        "longitude": -94.5706,
+        "displayName": "Approximate position within Berkley Riverfront Park",
+        "source": "AuditMap official-map placement"
+      },
+      "berkley-riverfront-volleyball-courts": {
+        "latitude": 39.120155527778486,
+        "longitude": -94.57114447222152,
+        "displayName": "Approximate position within Berkley Riverfront Park",
+        "source": "AuditMap official-map placement"
+      },
+      "missouri-river-overlook": {
+        "latitude": 39.1207,
+        "longitude": -94.57105,
+        "displayName": "Approximate position within Berkley Riverfront Park",
+        "source": "AuditMap official-map placement"
+      },
+      "kc-streetcar-riverfront-stop": {
+        "latitude": 39.121131335136525,
+        "longitude": -94.57103133513652,
+        "displayName": "Approximate position within Berkley Riverfront Park",
+        "source": "AuditMap official-map placement"
+      }
+    },
+    "launch-ks-shawnee-shawnee-mission-park": {
+      "shawnee-mission-park-lake": {
+        "latitude": 38.990050000000004,
+        "longitude": -94.7978,
+        "displayName": "Approximate position within Shawnee Mission Park",
+        "source": "AuditMap official-map placement"
+      },
+      "shawnee-mission-park-beach": {
+        "latitude": 38.99003133513653,
+        "longitude": -94.79736866486347,
+        "displayName": "Approximate position within Shawnee Mission Park",
+        "source": "AuditMap official-map placement"
+      },
+      "shawnee-mission-park-marina": {
+        "latitude": 38.9896,
+        "longitude": -94.79702999999999,
+        "displayName": "Approximate position within Shawnee Mission Park",
+        "source": "AuditMap official-map placement"
+      },
+      "shawnee-mission-park-off-leash-dog-area": {
+        "latitude": 38.98928180194847,
+        "longitude": -94.79748180194846,
+        "displayName": "Approximate position within Shawnee Mission Park",
+        "source": "AuditMap official-map placement"
+      },
+      "theatre-in-the-park": {
+        "latitude": 38.98899,
+        "longitude": -94.7978,
+        "displayName": "Approximate position within Shawnee Mission Park",
+        "source": "AuditMap official-map placement"
+      },
+      "shawnee-mission-park-disc-golf-course": {
+        "latitude": 38.98905552777849,
+        "longitude": -94.79834447222152,
+        "displayName": "Approximate position within Shawnee Mission Park",
+        "source": "AuditMap official-map placement"
+      },
+      "shawnee-mission-park-pump-track": {
+        "latitude": 38.9896,
+        "longitude": -94.79825,
+        "displayName": "Approximate position within Shawnee Mission Park",
+        "source": "AuditMap official-map placement"
+      },
+      "john-barkley-plaza": {
+        "latitude": 38.99003133513653,
+        "longitude": -94.79823133513652,
+        "displayName": "Approximate position within Shawnee Mission Park",
+        "source": "AuditMap official-map placement"
+      }
+    },
+    "launch-ks-overland-park-overland-park-arboretum-and-botanical-gardens": {
+      "longhouse-visitor-center": {
+        "latitude": 38.80415,
+        "longitude": -94.6893,
+        "displayName": "Approximate position within Overland Park Arboretum and Botanical Gardens",
+        "source": "AuditMap official-map placement"
+      },
+      "monet-garden": {
+        "latitude": 38.804131335136525,
+        "longitude": -94.68886866486348,
+        "displayName": "Approximate position within Overland Park Arboretum and Botanical Gardens",
+        "source": "AuditMap official-map placement"
+      },
+      "train-garden": {
+        "latitude": 38.8037,
+        "longitude": -94.68853,
+        "displayName": "Approximate position within Overland Park Arboretum and Botanical Gardens",
+        "source": "AuditMap official-map placement"
+      },
+      "children-s-discovery-garden": {
+        "latitude": 38.80338180194847,
+        "longitude": -94.68898180194847,
+        "displayName": "Approximate position within Overland Park Arboretum and Botanical Gardens",
+        "source": "AuditMap official-map placement"
+      },
+      "erickson-water-garden": {
+        "latitude": 38.80309,
+        "longitude": -94.6893,
+        "displayName": "Approximate position within Overland Park Arboretum and Botanical Gardens",
+        "source": "AuditMap official-map placement"
+      },
+      "international-sculpture-garden": {
+        "latitude": 38.803155527778486,
+        "longitude": -94.68984447222152,
+        "displayName": "Approximate position within Overland Park Arboretum and Botanical Gardens",
+        "source": "AuditMap official-map placement"
+      },
+      "prairie-and-woodland-trails": {
+        "latitude": 38.8037,
+        "longitude": -94.68975,
+        "displayName": "Approximate position within Overland Park Arboretum and Botanical Gardens",
+        "source": "AuditMap official-map placement"
+      },
+      "caf-celeste": {
+        "latitude": 38.804131335136525,
+        "longitude": -94.68973133513653,
+        "displayName": "Approximate position within Overland Park Arboretum and Botanical Gardens",
+        "source": "AuditMap official-map placement"
+      }
+    },
+    "launch-ks-kansas-city-wyandotte-county-lake-park": {
+      "wyandotte-county-lake-marina": {
+        "latitude": 39.16775,
+        "longitude": -94.7888,
+        "displayName": "Approximate position within Wyandotte County Lake Park",
+        "source": "AuditMap official-map placement"
+      },
+      "kids-fishing-pond": {
+        "latitude": 39.16773133513652,
+        "longitude": -94.78836866486347,
+        "displayName": "Approximate position within Wyandotte County Lake Park",
+        "source": "AuditMap official-map placement"
+      },
+      "mr-and-mrs-f-l-schlagle-library": {
+        "latitude": 39.1673,
+        "longitude": -94.78802999999999,
+        "displayName": "Approximate position within Wyandotte County Lake Park",
+        "source": "AuditMap official-map placement"
+      },
+      "wyandotte-county-lake-bridle-trail": {
+        "latitude": 39.16698180194847,
+        "longitude": -94.78848180194846,
+        "displayName": "Approximate position within Wyandotte County Lake Park",
+        "source": "AuditMap official-map placement"
+      },
+      "wyandotte-county-lake-nature-trail": {
+        "latitude": 39.166689999999996,
+        "longitude": -94.7888,
+        "displayName": "Approximate position within Wyandotte County Lake Park",
+        "source": "AuditMap official-map placement"
+      },
+      "korean-vietnam-war-memorial": {
+        "latitude": 39.166755527778484,
+        "longitude": -94.78934447222152,
+        "displayName": "Approximate position within Wyandotte County Lake Park",
+        "source": "AuditMap official-map placement"
+      },
+      "wyandotte-county-lake-dog-park": {
+        "latitude": 39.1673,
+        "longitude": -94.78925,
+        "displayName": "Approximate position within Wyandotte County Lake Park",
+        "source": "AuditMap official-map placement"
+      },
+      "beach-shelter": {
+        "latitude": 39.16773133513652,
+        "longitude": -94.78923133513652,
+        "displayName": "Approximate position within Wyandotte County Lake Park",
+        "source": "AuditMap official-map placement"
+      }
+    }
+  }
+}

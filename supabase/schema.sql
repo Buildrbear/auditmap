@@ -113,6 +113,13 @@ create table if not exists public.reports (
   resolved_at timestamptz
 );
 
+create table if not exists public.user_saved_places (
+  user_id uuid not null default auth.uid() references auth.users(id) on delete cascade,
+  place_id text not null check (char_length(place_id) between 1 and 160),
+  created_at timestamptz not null default timezone('utc', now()),
+  primary key (user_id, place_id)
+);
+
 create table if not exists public.briefs (
   id uuid primary key default gen_random_uuid(),
   institution_id uuid not null references public.institutions(id) on delete cascade,
@@ -176,6 +183,7 @@ alter table public.media enable row level security;
 alter table public.change_suggestions enable row level security;
 alter table public.reports enable row level security;
 alter table public.briefs enable row level security;
+alter table public.user_saved_places enable row level security;
 
 drop policy if exists "Public reads active cities" on public.cities;
 create policy "Public reads active cities" on public.cities
@@ -220,6 +228,60 @@ for insert to authenticated with check (auth.uid() = user_id);
 drop policy if exists "Authenticated users submit reports" on public.reports;
 create policy "Authenticated users submit reports" on public.reports
 for insert to authenticated with check (auth.uid() = user_id);
+
+drop policy if exists "Users read their saved places" on public.user_saved_places;
+create policy "Users read their saved places" on public.user_saved_places
+for select to authenticated using (
+  (select auth.uid()) is not null and (select auth.uid()) = user_id
+);
+
+drop policy if exists "Users save places" on public.user_saved_places;
+create policy "Users save places" on public.user_saved_places
+for insert to authenticated with check (
+  (select auth.uid()) is not null and (select auth.uid()) = user_id
+);
+
+drop policy if exists "Users remove their saved places" on public.user_saved_places;
+create policy "Users remove their saved places" on public.user_saved_places
+for delete to authenticated using (
+  (select auth.uid()) is not null and (select auth.uid()) = user_id
+);
+
+create or replace function public.replace_user_saved_places(saved_place_ids text[])
+returns table (place_id text)
+language plpgsql
+security invoker
+set search_path = ''
+as $$
+declare
+  account_user_id uuid := (select auth.uid());
+begin
+  if account_user_id is null then
+    raise exception 'An authenticated account is required.';
+  end if;
+  if coalesce(array_length(saved_place_ids, 1), 0) > 1000 then
+    raise exception 'Saved place limit exceeded.';
+  end if;
+
+  delete from public.user_saved_places saved
+  where saved.user_id = account_user_id;
+
+  insert into public.user_saved_places (user_id, place_id)
+  select account_user_id, candidate.place_id
+  from (
+    select distinct btrim(value) as place_id
+    from unnest(coalesce(saved_place_ids, '{}'::text[])) as value
+  ) candidate
+  where candidate.place_id ~ '^[A-Za-z0-9][A-Za-z0-9:_./-]{0,159}$'
+  on conflict (user_id, place_id) do nothing;
+
+  return query
+  select saved.place_id
+  from public.user_saved_places saved
+  where saved.user_id = account_user_id
+  order by saved.created_at asc;
+end;
+$$;
 
 drop policy if exists "Public reads published briefs" on public.briefs;
 create policy "Public reads published briefs" on public.briefs
@@ -432,6 +494,12 @@ alter table public.information_needs
 add column if not exists answered_at timestamptz;
 alter table public.information_needs
 add column if not exists expires_at timestamptz;
+alter table public.information_needs
+add column if not exists intent_key text;
+alter table public.information_needs
+add column if not exists needs_enrichment boolean not null default false;
+alter table public.information_needs
+add column if not exists enrichment_queued_at timestamptz;
 
 create table if not exists public.place_features (
   id uuid primary key default gen_random_uuid(),
@@ -454,6 +522,82 @@ create table if not exists public.place_features (
   created_at timestamptz not null default timezone('utc', now()),
   updated_at timestamptz not null default timezone('utc', now()),
   unique (institution_id, slug)
+);
+
+-- Community funding starts with place-level campaigns. Payment records are written
+-- only by trusted server-side code after provider confirmation.
+create table if not exists public.funding_campaigns (
+  id uuid primary key default gen_random_uuid(),
+  institution_id uuid not null references public.institutions(id) on delete cascade,
+  title text not null,
+  summary text not null,
+  status text not null default 'draft'
+    check (status in ('draft', 'interest_test', 'active', 'paused', 'completed', 'canceled')),
+  currency text not null default 'usd' check (currency = lower(currency)),
+  reallocation_policy text,
+  refund_policy text,
+  metadata jsonb not null default '{}'::jsonb,
+  created_at timestamptz not null default timezone('utc', now()),
+  updated_at timestamptz not null default timezone('utc', now())
+);
+
+create table if not exists public.funding_milestones (
+  id uuid primary key default gen_random_uuid(),
+  campaign_id uuid not null references public.funding_campaigns(id) on delete cascade,
+  milestone_type text not null
+    check (milestone_type in ('photo_pack', 'question_sprint', 'subsite_mapping', 'accessibility_audit')),
+  title text not null,
+  description text not null,
+  public_deliverable text not null,
+  target_amount_cents integer not null check (target_amount_cents > 0),
+  funded_amount_cents integer not null default 0 check (funded_amount_cents >= 0),
+  status text not null default 'draft'
+    check (status in ('draft', 'active', 'funded', 'in_progress', 'review', 'completed', 'canceled')),
+  sort_order integer not null default 0,
+  completed_at timestamptz,
+  created_at timestamptz not null default timezone('utc', now()),
+  updated_at timestamptz not null default timezone('utc', now())
+);
+
+create table if not exists public.funding_interest (
+  id uuid primary key default gen_random_uuid(),
+  campaign_id uuid not null references public.funding_campaigns(id) on delete cascade,
+  milestone_id uuid references public.funding_milestones(id) on delete set null,
+  supporter_user_id uuid references auth.users(id) on delete set null,
+  amount_cents integer not null check (amount_cents > 0),
+  email text,
+  note text,
+  created_at timestamptz not null default timezone('utc', now())
+);
+
+create table if not exists public.funding_contributions (
+  id uuid primary key default gen_random_uuid(),
+  campaign_id uuid not null references public.funding_campaigns(id) on delete restrict,
+  milestone_id uuid references public.funding_milestones(id) on delete restrict,
+  supporter_user_id uuid references auth.users(id) on delete set null,
+  provider text not null,
+  provider_payment_id text not null unique,
+  amount_cents integer not null check (amount_cents > 0),
+  fee_amount_cents integer check (fee_amount_cents >= 0),
+  status text not null
+    check (status in ('pending', 'succeeded', 'refunded', 'disputed', 'failed')),
+  donor_visibility text not null default 'anonymous'
+    check (donor_visibility in ('anonymous', 'public', 'private')),
+  donor_name text,
+  note text,
+  created_at timestamptz not null default timezone('utc', now())
+);
+
+create table if not exists public.funding_updates (
+  id uuid primary key default gen_random_uuid(),
+  campaign_id uuid not null references public.funding_campaigns(id) on delete cascade,
+  milestone_id uuid references public.funding_milestones(id) on delete set null,
+  title text not null,
+  body text not null,
+  update_type text not null default 'progress'
+    check (update_type in ('progress', 'funded', 'in_progress', 'completed', 'delay', 'canceled')),
+  published_at timestamptz,
+  created_at timestamptz not null default timezone('utc', now())
 );
 
 alter table public.contributions
@@ -493,6 +637,7 @@ begin
     status = case
       when public.information_needs.status = 'dismissed' then 'dismissed'
       when public.information_needs.canonical_answer is not null
+        and public.information_needs.answer_status in ('answered', 'partial')
         and (
           public.information_needs.expires_at is null
           or public.information_needs.expires_at > timezone('utc', now())
@@ -519,10 +664,31 @@ create index if not exists steward_applications_status_idx
 on public.place_steward_applications (institution_id, status, created_at);
 create index if not exists information_needs_priority_idx
 on public.information_needs (status, ask_count desc, last_asked_at desc);
+create index if not exists information_needs_intent_idx
+on public.information_needs (institution_id, intent_key, status, ask_count desc);
 create index if not exists enrichment_jobs_place_created_idx
 on public.enrichment_jobs (public_id, created_at desc);
 create index if not exists enrichment_jobs_status_created_idx
 on public.enrichment_jobs (status, created_at);
+create index if not exists funding_campaigns_institution_idx
+on public.funding_campaigns (institution_id, status);
+create unique index if not exists funding_campaigns_one_current_idx
+on public.funding_campaigns (institution_id)
+where status in ('draft', 'interest_test', 'active', 'paused');
+create index if not exists funding_milestones_campaign_idx
+on public.funding_milestones (campaign_id, sort_order);
+create index if not exists funding_interest_campaign_idx
+on public.funding_interest (campaign_id, created_at desc);
+create index if not exists funding_interest_supporter_idx
+on public.funding_interest (supporter_user_id, created_at desc)
+where supporter_user_id is not null;
+create index if not exists funding_contributions_campaign_idx
+on public.funding_contributions (campaign_id, status, created_at desc);
+create index if not exists funding_contributions_supporter_idx
+on public.funding_contributions (supporter_user_id, created_at desc)
+where supporter_user_id is not null;
+create index if not exists funding_updates_campaign_idx
+on public.funding_updates (campaign_id, published_at desc);
 
 drop trigger if exists set_place_facts_updated_at on public.place_facts;
 create trigger set_place_facts_updated_at
@@ -548,6 +714,29 @@ alter table public.place_steward_applications enable row level security;
 alter table public.place_stewards enable row level security;
 alter table public.information_needs enable row level security;
 alter table public.enrichment_jobs enable row level security;
+alter table public.funding_campaigns enable row level security;
+alter table public.funding_milestones enable row level security;
+alter table public.funding_interest enable row level security;
+alter table public.funding_contributions enable row level security;
+alter table public.funding_updates enable row level security;
+
+drop policy if exists "Public reads visible funding campaigns" on public.funding_campaigns;
+create policy "Public reads visible funding campaigns" on public.funding_campaigns
+for select to anon, authenticated using (status in ('interest_test', 'active', 'completed'));
+
+drop policy if exists "Public reads visible funding milestones" on public.funding_milestones;
+create policy "Public reads visible funding milestones" on public.funding_milestones
+for select to anon, authenticated using (
+  exists (
+    select 1 from public.funding_campaigns campaign
+    where campaign.id = campaign_id
+      and campaign.status in ('interest_test', 'active', 'completed')
+  )
+);
+
+drop policy if exists "Public reads published funding updates" on public.funding_updates;
+create policy "Public reads published funding updates" on public.funding_updates
+for select to anon, authenticated using (published_at is not null);
 
 drop policy if exists "Public reads accepted place facts" on public.place_facts;
 create policy "Public reads accepted place facts" on public.place_facts
@@ -662,14 +851,172 @@ grant execute on all functions in schema public to service_role;
 grant select on public.cities, public.institutions, public.sources,
   public.external_ratings, public.comments, public.media, public.briefs,
   public.place_facts, public.contributions, public.claims,
-  public.claim_evidence, public.contribution_reactions, public.place_stewards
+  public.claim_evidence, public.contribution_reactions, public.place_stewards,
+  public.funding_campaigns, public.funding_milestones, public.funding_updates
 to anon, authenticated;
 
 grant insert on public.institutions, public.comments, public.media,
   public.change_suggestions, public.reports, public.contributions,
-  public.contribution_reactions, public.place_steward_applications
+  public.contribution_reactions, public.place_steward_applications,
+  public.user_saved_places
 to authenticated;
+
+grant select, delete on public.user_saved_places to authenticated;
 
 grant execute on function public.nearby_places(
   double precision, double precision, integer, integer
 ) to anon, authenticated;
+
+grant execute on function public.replace_user_saved_places(text[]) to authenticated;
+
+-- AuditMap Crumbs: location-aware contributions, moderated media, and recognition.
+alter table public.reports add column if not exists target_type text not null default 'place';
+alter table public.reports add column if not exists contribution_id uuid references public.contributions(id) on delete set null;
+alter table public.reports add column if not exists reported_user_id uuid references auth.users(id) on delete set null;
+alter table public.reports add column if not exists details text;
+alter table public.reports add column if not exists reporter_hash text;
+alter table public.reports add column if not exists metadata jsonb not null default '{}'::jsonb;
+alter table public.reports add column if not exists reviewed_by uuid references auth.users(id) on delete set null;
+
+alter table public.contributions add column if not exists latitude double precision;
+alter table public.contributions add column if not exists longitude double precision;
+alter table public.contributions add column if not exists location_scope text not null default 'place';
+alter table public.contributions add column if not exists location_accuracy_meters numeric(10, 2);
+alter table public.contributions add column if not exists observed_at timestamptz;
+alter table public.contributions add column if not exists fresh_until timestamptz;
+alter table public.contributions add column if not exists verification_status text not null default 'unverified';
+
+do $$
+begin
+  if not exists (select 1 from pg_constraint where conname = 'contributions_location_scope_check') then
+    alter table public.contributions add constraint contributions_location_scope_check
+      check (location_scope in ('place', 'feature', 'pin'));
+  end if;
+  if not exists (select 1 from pg_constraint where conname = 'contributions_coordinates_check') then
+    alter table public.contributions add constraint contributions_coordinates_check
+      check ((latitude is null and longitude is null) or
+        (latitude between -90 and 90 and longitude between -180 and 180));
+  end if;
+  if not exists (select 1 from pg_constraint where conname = 'contributions_verification_status_check') then
+    alter table public.contributions add constraint contributions_verification_status_check
+      check (verification_status in ('unverified', 'supported', 'verified', 'outdated'));
+  end if;
+end $$;
+
+alter table public.media add column if not exists contribution_id uuid references public.contributions(id) on delete cascade;
+alter table public.media add column if not exists feature_id uuid references public.place_features(id) on delete set null;
+alter table public.media add column if not exists media_kind text not null default 'photo';
+alter table public.media add column if not exists mime_type text;
+alter table public.media add column if not exists width integer;
+alter table public.media add column if not exists height integer;
+alter table public.media add column if not exists byte_size bigint;
+alter table public.media add column if not exists checksum text;
+alter table public.media add column if not exists storage_state text not null default 'intent';
+alter table public.media add column if not exists captured_at timestamptz;
+alter table public.media add column if not exists preview_path text;
+alter table public.media add column if not exists derivative_path text;
+alter table public.media add column if not exists expires_at timestamptz not null default (timezone('utc', now()) + interval '24 hours');
+alter table public.media add column if not exists metadata jsonb not null default '{}'::jsonb;
+
+do $$
+begin
+  if not exists (select 1 from pg_constraint where conname = 'media_kind_check') then
+    alter table public.media add constraint media_kind_check
+      check (media_kind in ('photo', 'panorama', 'photo_360'));
+  end if;
+  if not exists (select 1 from pg_constraint where conname = 'media_storage_state_check') then
+    alter table public.media add constraint media_storage_state_check
+      check (storage_state in ('intent', 'uploaded', 'processing', 'ready', 'published', 'rejected', 'abandoned'));
+  end if;
+end $$;
+
+create table if not exists public.community_profiles (
+  user_id uuid primary key references auth.users(id) on delete cascade,
+  public_slug text not null unique,
+  display_name text not null check (char_length(display_name) between 2 and 40),
+  avatar_url text,
+  profile_status text not null default 'public' check (profile_status in ('public', 'private', 'suspended')),
+  created_at timestamptz not null default timezone('utc', now()),
+  updated_at timestamptz not null default timezone('utc', now())
+);
+
+create table if not exists public.contribution_impact_events (
+  id uuid primary key default gen_random_uuid(),
+  user_id uuid not null references auth.users(id) on delete cascade,
+  contribution_id uuid references public.contributions(id) on delete cascade,
+  event_type text not null check (event_type in (
+    'approved_text', 'useful_location', 'approved_photo', 'approved_panorama',
+    'approved_360', 'accepted_verification', 'accepted_correction', 'unique_thank'
+  )),
+  points integer not null check (points between 0 and 20),
+  source_key text not null unique,
+  metadata jsonb not null default '{}'::jsonb,
+  created_at timestamptz not null default timezone('utc', now())
+);
+
+create table if not exists public.contributor_badges (
+  user_id uuid not null references auth.users(id) on delete cascade,
+  badge_key text not null check (badge_key in (
+    'first_crumb', 'eyes_on_the_trail', 'full_circle', 'detail_detective',
+    'park_friend', 'neighborly', 'fresh_tracks'
+  )),
+  awarded_at timestamptz not null default timezone('utc', now()),
+  metadata jsonb not null default '{}'::jsonb,
+  primary key (user_id, badge_key)
+);
+
+create index if not exists contributions_place_location_idx
+on public.contributions (institution_id, latitude, longitude)
+where moderation_status = 'published' and latitude is not null;
+create index if not exists contributions_freshness_idx
+on public.contributions (institution_id, fresh_until)
+where moderation_status = 'published';
+create index if not exists media_contribution_idx on public.media (contribution_id, status);
+create index if not exists media_cleanup_idx on public.media (storage_state, expires_at);
+create index if not exists impact_user_idx on public.contribution_impact_events (user_id, created_at desc);
+
+drop trigger if exists set_community_profiles_updated_at on public.community_profiles;
+create trigger set_community_profiles_updated_at before update on public.community_profiles
+for each row execute function public.set_updated_at();
+
+alter table public.community_profiles enable row level security;
+alter table public.contribution_impact_events enable row level security;
+alter table public.contributor_badges enable row level security;
+
+drop policy if exists "Public reads community profiles" on public.community_profiles;
+create policy "Public reads community profiles" on public.community_profiles
+for select to anon, authenticated using (profile_status = 'public');
+drop policy if exists "Users create their community profile" on public.community_profiles;
+create policy "Users create their community profile" on public.community_profiles
+for insert to authenticated with check ((select auth.uid()) = user_id);
+drop policy if exists "Users update their community profile" on public.community_profiles;
+create policy "Users update their community profile" on public.community_profiles
+for update to authenticated using ((select auth.uid()) = user_id)
+with check ((select auth.uid()) = user_id);
+drop policy if exists "Users read their impact events" on public.contribution_impact_events;
+create policy "Users read their impact events" on public.contribution_impact_events
+for select to authenticated using ((select auth.uid()) = user_id);
+drop policy if exists "Public reads contributor badges" on public.contributor_badges;
+create policy "Public reads contributor badges" on public.contributor_badges
+for select to anon, authenticated using (true);
+drop policy if exists "Users read their pending media" on public.media;
+create policy "Users read their pending media" on public.media
+for select to authenticated using ((select auth.uid()) = user_id or status = 'published');
+
+grant select on public.community_profiles, public.contributor_badges to anon, authenticated;
+grant select, insert, update on public.community_profiles to authenticated;
+grant select on public.contribution_impact_events to authenticated;
+
+insert into storage.buckets (id, name, public, file_size_limit, allowed_mime_types)
+values ('community-media-inbox', 'community-media-inbox', false, 52428800,
+  array['image/jpeg', 'image/png', 'image/webp', 'image/heic', 'image/heif'])
+on conflict (id) do update set public = excluded.public,
+  file_size_limit = excluded.file_size_limit,
+  allowed_mime_types = excluded.allowed_mime_types;
+
+insert into storage.buckets (id, name, public, file_size_limit, allowed_mime_types)
+values ('community-profile-avatars', 'community-profile-avatars', true, 768000,
+  array['image/jpeg', 'image/webp'])
+on conflict (id) do update set public = excluded.public,
+  file_size_limit = excluded.file_size_limit,
+  allowed_mime_types = excluded.allowed_mime_types;

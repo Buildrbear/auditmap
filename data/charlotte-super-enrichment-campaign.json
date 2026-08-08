@@ -1,0 +1,87 @@
+{
+  "campaign": "Charlotte and Mecklenburg high-impact public destinations",
+  "checkedAt": "2026-08-06",
+  "releaseStandard": "Four sourced photos, eight mapped subsites, current visitor answers, static canonical pages, and live verification.",
+  "places": [
+    {
+      "id": "launch-nc-charlotte-freedom-park",
+      "name": "Freedom Park",
+      "city": "Charlotte",
+      "state": "NC",
+      "citySlug": "charlotte-nc",
+      "operator": "Mecklenburg County Park and Recreation",
+      "source": "https://parkandrec.mecknc.gov/Places-to-Visit/Parks/freedom-park",
+      "subsites": ["Freedom Park Lake", "Freedom Park Main Playground", "NFL Play 60 KidZone", "Freedom Park Amphitheater", "Mahlon Adams Pavilion", "Freedom Park Tennis and Pickleball Courts", "Freedom Park Baseball Fields", "Little Sugar Creek Greenway Connection"]
+    },
+    {
+      "id": "launch-nc-charlotte-romare-bearden-park",
+      "name": "Romare Bearden Park",
+      "city": "Charlotte",
+      "state": "NC",
+      "citySlug": "charlotte-nc",
+      "operator": "Mecklenburg County Park and Recreation",
+      "source": "https://parkandrec.mecknc.gov/Places-to-Visit/Parks/romare-bearden-park",
+      "subsites": ["Romare Bearden Event Lawn", "Spiral Odyssey", "Childhood Muse Plaza", "Romare Bearden Waterfall", "Romare Bearden Sprayground", "Interactive Chimes", "Truist Field Overlook", "Romare Bearden Dining Courtyard"]
+    },
+    {
+      "id": "launch-nc-charlotte-reedy-creek-park-and-nature-center",
+      "name": "Reedy Creek Park and Nature Center",
+      "city": "Charlotte",
+      "state": "NC",
+      "citySlug": "charlotte-nc",
+      "operator": "Mecklenburg County Park and Recreation",
+      "source": "https://parkandrec.mecknc.gov/Places-to-Visit/Nature/reedy-creek-nature-center",
+      "subsites": ["Reedy Creek Nature Center", "Robinson Rockhouse Ruins", "Panthers Play 60 Course", "Reedy Creek Dog Park", "Reedy Creek Disc Golf Course", "Reedy Creek Community Garden", "Laine Clontz Pavilion", "Dragonfly Pond Trail"]
+    },
+    {
+      "id": "launch-nc-charlotte-mcalpine-creek-community-park",
+      "name": "McAlpine Creek Community Park",
+      "city": "Charlotte",
+      "state": "NC",
+      "citySlug": "charlotte-nc",
+      "operator": "Mecklenburg County Park and Recreation",
+      "source": "https://parkandrec.mecknc.gov/Places-to-Visit/Parks/mcalpine-creek-community-park",
+      "subsites": ["Ray's Fetching Meadow Dog Park", "Larry McAfee Cross Country Course", "McAlpine Creek Fishing Lake", "McAlpine Creek Fishing Pier", "McAlpine Creek Greenway", "McAlpine Creek Community Garden", "McAlpine Creek Wetlands", "Monroe Road Trailhead"]
+    },
+    {
+      "id": "launch-nc-charlotte-park-road-park",
+      "name": "Park Road Park",
+      "city": "Charlotte",
+      "state": "NC",
+      "citySlug": "charlotte-nc",
+      "operator": "Mecklenburg County Park and Recreation",
+      "source": "https://parkandrec.mecknc.gov/Places-to-Visit/Parks/park-road-park",
+      "subsites": ["Park Road Park Playground", "Park Road Park Pond", "Park Road Park Pavilion", "Park Road Park Basketball Courts", "Park Road Park Baseball Fields", "Park Road Park Volleyball Courts", "Park Road Park Picnic Shelters", "Little Sugar Creek Greenway Access"]
+    },
+    {
+      "id": "launch-nc-charlotte-little-sugar-creek-greenway",
+      "name": "Little Sugar Creek Greenway",
+      "city": "Charlotte",
+      "state": "NC",
+      "citySlug": "charlotte-nc",
+      "operator": "Mecklenburg County Park and Recreation",
+      "source": "https://parkandrec.mecknc.gov/Places-to-Visit/greenways",
+      "subsites": ["Trail of History", "Captain James Jack Statue", "Midtown Park", "Freedom Park Greenway Connection", "Park Road Park Greenway Access", "Tyvola Road Greenway Access", "Huntingtowne Farms Park Segment", "Cordelia Park Greenway Connection"]
+    },
+    {
+      "id": "launch-nc-huntersville-latta-nature-preserve",
+      "name": "Latta Nature Preserve",
+      "city": "Huntersville",
+      "state": "NC",
+      "citySlug": "huntersville-nc",
+      "operator": "Mecklenburg County Park and Recreation",
+      "source": "https://parkandrec.mecknc.gov/Places-to-Visit/Nature/quest-latta-nature-preserve",
+      "subsites": ["Quest Nature Center", "Quest Aquarium", "Mountain Island Lake Shoreline", "Latta Nature Preserve Trailhead", "Buzzard Rock Trail", "Gar Creek Canoe Launch", "Latta Equestrian Trailhead", "Carolina Raptor Center"]
+    },
+    {
+      "id": "launch-nc-charlotte-mcdowell-nature-preserve",
+      "name": "McDowell Nature Preserve",
+      "city": "Charlotte",
+      "state": "NC",
+      "citySlug": "charlotte-nc",
+      "operator": "Mecklenburg County Park and Recreation",
+      "source": "https://parkandrec.mecknc.gov/Places-to-Visit/Nature/mcdowell-nature-center-and-preserve",
+      "subsites": ["McDowell Nature Center", "McDowell Discovery Hall", "Copperhead Island", "McDowell Campground", "Lake Wylie Waterfront", "Four Seasons Trail", "Cove Trail", "McDowell Canoe and Kayak Launch"]
+    }
+  ]
+}

@@ -1,0 +1,3674 @@
+{
+  "campaign": "Northern New England connector",
+  "checkedAt": "2026-08-08",
+  "places": {
+    "launch-ri-providence-roger-williams-park": {
+      "name": "Roger Williams Park",
+      "boundarySource": "https://www.openstreetmap.org/way/141547611",
+      "candidates": [
+        {
+          "name": "Cunliff Pond Dam",
+          "latitude": 41.7739143,
+          "longitude": -71.41309,
+          "osmType": "node",
+          "osmId": 357257375,
+          "sourceUrl": "https://www.openstreetmap.org/node/357257375",
+          "tags": {
+            "ele": "9",
+            "gnis:feature_id": "1219158",
+            "name": "Cunliff Pond Dam",
+            "ref:US:NID": "RI02802",
+            "waterway": "dam",
+            "wikidata": "Q35699831"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Roger Williams Park Historic District",
+          "latitude": 41.7839895,
+          "longitude": -71.4108894,
+          "osmType": "node",
+          "osmId": 357266627,
+          "sourceUrl": "https://www.openstreetmap.org/node/357266627",
+          "tags": {
+            "ele": "10",
+            "gnis:feature_id": "1904108",
+            "historic": "district",
+            "name": "Roger Williams Park Historic District"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Roger Williams Park Zoo",
+          "latitude": 41.7903937,
+          "longitude": -71.4145156,
+          "osmType": "node",
+          "osmId": 357266630,
+          "sourceUrl": "https://www.openstreetmap.org/node/357266630",
+          "tags": {
+            "ele": "15",
+            "gnis:feature_id": "1904110",
+            "name": "Roger Williams Park Zoo",
+            "tourism": "zoo"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Roger Williams Statue",
+          "latitude": 41.7851906,
+          "longitude": -71.4165466,
+          "osmType": "node",
+          "osmId": 2401060506,
+          "sourceUrl": "https://www.openstreetmap.org/node/2401060506",
+          "tags": {
+            "historic": "monument",
+            "name": "Roger Williams Statue"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Hasbro Boundless Playground",
+          "latitude": 41.7828802,
+          "longitude": -71.4153678,
+          "osmType": "node",
+          "osmId": 2401069713,
+          "sourceUrl": "https://www.openstreetmap.org/node/2401069713",
+          "tags": {
+            "leisure": "playground",
+            "name": "Hasbro Boundless Playground"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Providence Police Mounted Command",
+          "latitude": 41.7838761,
+          "longitude": -71.4084852,
+          "osmType": "node",
+          "osmId": 2406476086,
+          "sourceUrl": "https://www.openstreetmap.org/node/2406476086",
+          "tags": {
+            "addr:city": "Providence",
+            "addr:postcode": "02905",
+            "addr:state": "RI",
+            "addr:street": "Cladrash's Avenue",
+            "amenity": "police",
+            "name": "Providence Police Mounted Command"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Pump Track",
+          "latitude": 41.7795662,
+          "longitude": -71.4157207,
+          "osmType": "node",
+          "osmId": 9123072730,
+          "sourceUrl": "https://www.openstreetmap.org/node/9123072730",
+          "tags": {
+            "description": "Dirt pump track",
+            "leisure": "pitch",
+            "name": "Pump Track",
+            "sport": "bmx"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "The Falconer",
+          "latitude": 41.78574,
+          "longitude": -71.4061619,
+          "osmType": "node",
+          "osmId": 9476493904,
+          "sourceUrl": "https://www.openstreetmap.org/node/9476493904",
+          "tags": {
+            "historic": "monument",
+            "name": "The Falconer"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "The Union Soldier",
+          "latitude": 41.7888854,
+          "longitude": -71.4132695,
+          "osmType": "node",
+          "osmId": 9476493905,
+          "sourceUrl": "https://www.openstreetmap.org/node/9476493905",
+          "tags": {
+            "historic": "monument",
+            "name": "The Union Soldier"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "The Eagle",
+          "latitude": 41.7856342,
+          "longitude": -71.4054059,
+          "osmType": "node",
+          "osmId": 9476493907,
+          "sourceUrl": "https://www.openstreetmap.org/node/9476493907",
+          "tags": {
+            "artwork_type": "sculpture",
+            "name": "The Eagle",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "The Fighting Gladiator",
+          "latitude": 41.7867834,
+          "longitude": -71.4138194,
+          "osmType": "node",
+          "osmId": 9476493908,
+          "sourceUrl": "https://www.openstreetmap.org/node/9476493908",
+          "tags": {
+            "historic": "monument",
+            "name": "The Fighting Gladiator"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Picnic Area",
+          "latitude": 41.7823278,
+          "longitude": -71.4120808,
+          "osmType": "node",
+          "osmId": 9476501423,
+          "sourceUrl": "https://www.openstreetmap.org/node/9476501423",
+          "tags": {
+            "leisure": "picnic_table",
+            "name": "Picnic Area"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Swan Boats",
+          "latitude": 41.7837533,
+          "longitude": -71.4139485,
+          "osmType": "node",
+          "osmId": 9476501425,
+          "sourceUrl": "https://www.openstreetmap.org/node/9476501425",
+          "tags": {
+            "amenity": "boat_rental",
+            "name": "Swan Boats"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Haitian Independence Memorial",
+          "latitude": 41.7891699,
+          "longitude": -71.4124779,
+          "osmType": "node",
+          "osmId": 9496767444,
+          "sourceUrl": "https://www.openstreetmap.org/node/9496767444",
+          "tags": {
+            "historic": "memorial",
+            "name": "Haitian Independence Memorial"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Juan Pablo Duarte",
+          "latitude": 41.7911043,
+          "longitude": -71.4096235,
+          "osmType": "node",
+          "osmId": 9496767447,
+          "sourceUrl": "https://www.openstreetmap.org/node/9496767447",
+          "tags": {
+            "artwork_type": "statue",
+            "name": "Juan Pablo Duarte",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Abraham Lincoln",
+          "latitude": 41.7887228,
+          "longitude": -71.4134176,
+          "osmType": "node",
+          "osmId": 9496767448,
+          "sourceUrl": "https://www.openstreetmap.org/node/9496767448",
+          "tags": {
+            "artwork_type": "statue",
+            "name": "Abraham Lincoln",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Museum of Natural History Planetarium",
+          "latitude": 41.7870339,
+          "longitude": -71.4131813,
+          "osmType": "node",
+          "osmId": 9496767466,
+          "sourceUrl": "https://www.openstreetmap.org/node/9496767466",
+          "tags": {
+            "amenity": "planetarium",
+            "name": "Museum of Natural History Planetarium",
+            "operator": "Museum of Natural History and Planetarium"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Marconi Memorial",
+          "latitude": 41.7867534,
+          "longitude": -71.4084228,
+          "osmType": "node",
+          "osmId": 9496767471,
+          "sourceUrl": "https://www.openstreetmap.org/node/9496767471",
+          "tags": {
+            "historic": "memorial",
+            "name": "Marconi Memorial"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Sri Chinmoy",
+          "latitude": 41.7737398,
+          "longitude": -71.4122603,
+          "osmType": "node",
+          "osmId": 9496767472,
+          "sourceUrl": "https://www.openstreetmap.org/node/9496767472",
+          "tags": {
+            "artwork_type": "statue",
+            "name": "Sri Chinmoy",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Ferdinand II",
+          "latitude": 41.7823543,
+          "longitude": -71.416562,
+          "osmType": "node",
+          "osmId": 9496772554,
+          "sourceUrl": "https://www.openstreetmap.org/node/9496772554",
+          "tags": {
+            "artwork_type": "statue",
+            "name": "Ferdinand II",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Lions Memorial",
+          "latitude": 41.7820423,
+          "longitude": -71.4150439,
+          "osmType": "node",
+          "osmId": 9496772555,
+          "sourceUrl": "https://www.openstreetmap.org/node/9496772555",
+          "tags": {
+            "historic": "memorial",
+            "name": "Lions Memorial"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "The Pancratiast",
+          "latitude": 41.783336,
+          "longitude": -71.4123003,
+          "osmType": "node",
+          "osmId": 9496772588,
+          "sourceUrl": "https://www.openstreetmap.org/node/9496772588",
+          "tags": {
+            "artwork_type": "statue",
+            "name": "The Pancratiast",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "General Pulaski",
+          "latitude": 41.7856567,
+          "longitude": -71.4154295,
+          "osmType": "node",
+          "osmId": 9496772589,
+          "sourceUrl": "https://www.openstreetmap.org/node/9496772589",
+          "tags": {
+            "artwork_type": "statue",
+            "name": "General Pulaski",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Brown R. Church",
+          "latitude": 41.7850067,
+          "longitude": -71.4157761,
+          "osmType": "node",
+          "osmId": 9496772590,
+          "sourceUrl": "https://www.openstreetmap.org/node/9496772590",
+          "tags": {
+            "artwork_type": "statue",
+            "material": "bronze",
+            "name": "Brown R. Church",
+            "tourism": "artwork",
+            "wikimedia_commons": "File:Bowen R. Church statue, Roger Williams Park, Providence, Rhode Island.jpg"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Soaring Eagle Zip Ride",
+          "latitude": 41.7878953,
+          "longitude": -71.4147829,
+          "osmType": "node",
+          "osmId": 9497339665,
+          "sourceUrl": "https://www.openstreetmap.org/node/9497339665",
+          "tags": {
+            "name": "Soaring Eagle Zip Ride",
+            "tourism": "attraction"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Treehouse For All",
+          "latitude": 41.7887801,
+          "longitude": -71.4148359,
+          "osmType": "node",
+          "osmId": 9497339715,
+          "sourceUrl": "https://www.openstreetmap.org/node/9497339715",
+          "tags": {
+            "name": "Treehouse For All",
+            "tourism": "attraction"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Naturescape",
+          "latitude": 41.788842,
+          "longitude": -71.4146213,
+          "osmType": "node",
+          "osmId": 9497339716,
+          "sourceUrl": "https://www.openstreetmap.org/node/9497339716",
+          "tags": {
+            "name": "Naturescape",
+            "tourism": "attraction"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Hasbro's Our Big Backyard",
+          "latitude": 41.789121,
+          "longitude": -71.4153508,
+          "osmType": "node",
+          "osmId": 9497341717,
+          "sourceUrl": "https://www.openstreetmap.org/node/9497341717",
+          "tags": {
+            "name": "Hasbro's Our Big Backyard",
+            "tourism": "attraction"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Woodlands Express! Train Ride (Seasonal)",
+          "latitude": 41.7879039,
+          "longitude": -71.4149422,
+          "osmType": "node",
+          "osmId": 9497341735,
+          "sourceUrl": "https://www.openstreetmap.org/node/9497341735",
+          "tags": {
+            "name": "Woodlands Express! Train Ride (Seasonal)",
+            "tourism": "attraction"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Sea Lion sculpture",
+          "latitude": 41.7847542,
+          "longitude": -71.415636,
+          "osmType": "node",
+          "osmId": 10114847229,
+          "sourceUrl": "https://www.openstreetmap.org/node/10114847229",
+          "tags": {
+            "artwork_type": "sculpture",
+            "name": "Sea Lion sculpture",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Pineapple",
+          "latitude": 41.7840807,
+          "longitude": -71.4172534,
+          "osmType": "node",
+          "osmId": 10115253090,
+          "sourceUrl": "https://www.openstreetmap.org/node/10115253090",
+          "tags": {
+            "artwork_type": "sculpture",
+            "name": "Pineapple",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Hawthorne opposite Tennis Courts",
+          "latitude": 41.789423,
+          "longitude": -71.412454,
+          "osmType": "node",
+          "osmId": 11507595407,
+          "sourceUrl": "https://www.openstreetmap.org/node/11507595407",
+          "tags": {
+            "bus": "yes",
+            "gtfs:feed": "US-RI-RIPTA",
+            "gtfs:stop_id": "058995",
+            "highway": "bus_stop",
+            "name": "Hawthorne opposite Tennis Courts",
+            "network": "RIPTA",
+            "network:short": "RIPTA",
+            "network:wikidata": "Q7320944",
+            "network:wikipedia": "en:Rhode Island Public Transit Authority",
+            "operator": "Rhode Island Public Transit Authority",
+            "operator:short": "RIPTA",
+            "operator:wikidata": "Q7320944",
+            "public_transport": "platform",
+            "ref": "058995",
+            "route_ref": "6"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Roger Williams Park Zoo",
+          "latitude": 41.789968,
+          "longitude": -71.415001,
+          "osmType": "node",
+          "osmId": 11507595415,
+          "sourceUrl": "https://www.openstreetmap.org/node/11507595415",
+          "tags": {
+            "bus": "yes",
+            "gtfs:feed": "US-RI-RIPTA",
+            "gtfs:stop_id": "058990",
+            "gtfs_stop_associated_place": "rwzo",
+            "highway": "bus_stop",
+            "name": "Roger Williams Park Zoo",
+            "network": "RIPTA",
+            "network:short": "RIPTA",
+            "network:wikidata": "Q7320944",
+            "network:wikipedia": "en:Rhode Island Public Transit Authority",
+            "operator": "Rhode Island Public Transit Authority",
+            "operator:short": "RIPTA",
+            "operator:wikidata": "Q7320944",
+            "public_transport": "platform",
+            "ref": "058990",
+            "route_ref": "6"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Hawthore after Tennis Courts",
+          "latitude": 41.789273,
+          "longitude": -71.412814,
+          "osmType": "node",
+          "osmId": 11507595493,
+          "sourceUrl": "https://www.openstreetmap.org/node/11507595493",
+          "tags": {
+            "bus": "yes",
+            "gtfs:feed": "US-RI-RIPTA",
+            "gtfs:stop_id": "058985",
+            "highway": "bus_stop",
+            "name": "Hawthore after Tennis Courts",
+            "network": "RIPTA",
+            "network:short": "RIPTA",
+            "network:wikidata": "Q7320944",
+            "network:wikipedia": "en:Rhode Island Public Transit Authority",
+            "operator": "Rhode Island Public Transit Authority",
+            "operator:short": "RIPTA",
+            "operator:wikidata": "Q7320944",
+            "public_transport": "platform",
+            "ref": "058985",
+            "route_ref": "6"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Cladrash's Avenue",
+          "latitude": 41.7855335,
+          "longitude": -71.4156878,
+          "osmType": "way",
+          "osmId": 19356426,
+          "sourceUrl": "https://www.openstreetmap.org/way/19356426",
+          "tags": {
+            "alt_name": "Cladrastis Avenue",
+            "highway": "unclassified",
+            "maxspeed": "15 mph",
+            "name": "Cladrash's Avenue",
+            "oneway": "yes",
+            "sidewalk:left": "no",
+            "sidewalk:right": "separate"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Natural History Avenue",
+          "latitude": 41.7872762,
+          "longitude": -71.4134236,
+          "osmType": "way",
+          "osmId": 19365283,
+          "sourceUrl": "https://www.openstreetmap.org/way/19365283",
+          "tags": {
+            "highway": "unclassified",
+            "maxspeed": "15 mph",
+            "name": "Natural History Avenue",
+            "tiger:cfcc": "A41",
+            "tiger:name_base": "Natural History",
+            "tiger:name_type": "Ave",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Pine Hill Avenue",
+          "latitude": 41.7827214,
+          "longitude": -71.4138533,
+          "osmType": "way",
+          "osmId": 19366155,
+          "sourceUrl": "https://www.openstreetmap.org/way/19366155",
+          "tags": {
+            "highway": "unclassified",
+            "lane_markings": "no",
+            "maxspeed": "15 mph",
+            "name": "Pine Hill Avenue",
+            "oneway": "yes",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Temple Avenue",
+          "latitude": 41.7804265,
+          "longitude": -71.4166377,
+          "osmType": "way",
+          "osmId": 19369110,
+          "sourceUrl": "https://www.openstreetmap.org/way/19369110",
+          "tags": {
+            "highway": "unclassified",
+            "name": "Temple Avenue",
+            "sidewalk:both": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Rose Avenue",
+          "latitude": 41.7843154,
+          "longitude": -71.4184818,
+          "osmType": "way",
+          "osmId": 19372049,
+          "sourceUrl": "https://www.openstreetmap.org/way/19372049",
+          "tags": {
+            "highway": "unclassified",
+            "maxspeed": "15 mph",
+            "name": "Rose Avenue",
+            "tiger:cfcc": "A41",
+            "tiger:name_base": "Rose",
+            "tiger:name_type": "Ave",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Linden Avenue",
+          "latitude": 41.786119,
+          "longitude": -71.4191046,
+          "osmType": "way",
+          "osmId": 19378655,
+          "sourceUrl": "https://www.openstreetmap.org/way/19378655",
+          "tags": {
+            "highway": "unclassified",
+            "maxspeed": "15 mph",
+            "name": "Linden Avenue",
+            "tiger:cfcc": "A41",
+            "tiger:name_base": "Linden",
+            "tiger:name_type": "Ave",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Maple Avenue",
+          "latitude": 41.7839168,
+          "longitude": -71.4122452,
+          "osmType": "way",
+          "osmId": 19383289,
+          "sourceUrl": "https://www.openstreetmap.org/way/19383289",
+          "tags": {
+            "highway": "unclassified",
+            "maxspeed": "15 mph",
+            "name": "Maple Avenue",
+            "oneway": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Hawthorne Avenue",
+          "latitude": 41.7908543,
+          "longitude": -71.410716,
+          "osmType": "way",
+          "osmId": 19383587,
+          "sourceUrl": "https://www.openstreetmap.org/way/19383587",
+          "tags": {
+            "highway": "unclassified",
+            "maxspeed": "15 mph",
+            "name": "Hawthorne Avenue",
+            "tiger:cfcc": "A45",
+            "tiger:name_base": "Hawthorne",
+            "tiger:name_type": "Ave",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Hawthorne Avenue",
+          "latitude": 41.7927201,
+          "longitude": -71.4083251,
+          "osmType": "way",
+          "osmId": 19383590,
+          "sourceUrl": "https://www.openstreetmap.org/way/19383590",
+          "tags": {
+            "highway": "unclassified",
+            "maxspeed": "15 mph",
+            "name": "Hawthorne Avenue",
+            "oneway": "yes",
+            "tiger:cfcc": "A45",
+            "tiger:name_base": "Hawthorne",
+            "tiger:name_type": "Ave",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Frederick C Greene Memorial Boulevard",
+          "latitude": 41.7857841,
+          "longitude": -71.4159579,
+          "osmType": "way",
+          "osmId": 19387554,
+          "sourceUrl": "https://www.openstreetmap.org/way/19387554",
+          "tags": {
+            "highway": "unclassified",
+            "name": "Frederick C Greene Memorial Boulevard",
+            "oneway": "yes",
+            "sidewalk:left": "no",
+            "sidewalk:right": "separate",
+            "tiger:cfcc": "A41",
+            "tiger:name_base": "Green Memorial",
+            "tiger:name_type": "Blvd",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Frederick C Greene Memorial Boulevard",
+          "latitude": 41.7860461,
+          "longitude": -71.4167368,
+          "osmType": "way",
+          "osmId": 19387559,
+          "sourceUrl": "https://www.openstreetmap.org/way/19387559",
+          "tags": {
+            "highway": "unclassified",
+            "maxspeed": "15 mph",
+            "name": "Frederick C Greene Memorial Boulevard",
+            "sidewalk:left": "separate",
+            "sidewalk:right": "no",
+            "tiger:cfcc": "A41",
+            "tiger:name_base": "Green Memorial",
+            "tiger:name_type": "Blvd",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Babcock Street",
+          "latitude": 41.7877115,
+          "longitude": -71.4122598,
+          "osmType": "way",
+          "osmId": 19392050,
+          "sourceUrl": "https://www.openstreetmap.org/way/19392050",
+          "tags": {
+            "highway": "unclassified",
+            "name": "Babcock Street"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Montgomery Avenue",
+          "latitude": 41.785789,
+          "longitude": -71.4058375,
+          "osmType": "way",
+          "osmId": 19392297,
+          "sourceUrl": "https://www.openstreetmap.org/way/19392297",
+          "tags": {
+            "bicycle": "yes",
+            "highway": "unclassified",
+            "name": "Montgomery Avenue",
+            "oneway": "yes",
+            "sidewalk:left": "no",
+            "sidewalk:right": "separate",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Frederick C Greene Memorial Boulevard",
+          "latitude": 41.7887917,
+          "longitude": -71.4136688,
+          "osmType": "way",
+          "osmId": 19392375,
+          "sourceUrl": "https://www.openstreetmap.org/way/19392375",
+          "tags": {
+            "highway": "unclassified",
+            "maxspeed": "15 mph",
+            "name": "Frederick C Greene Memorial Boulevard",
+            "oneway": "yes",
+            "tiger:cfcc": "A41",
+            "tiger:name_base": "F C Greene Memorial",
+            "tiger:name_type": "Blvd",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Park View Boulevard",
+          "latitude": 41.7735647,
+          "longitude": -71.4143744,
+          "osmType": "way",
+          "osmId": 19392377,
+          "sourceUrl": "https://www.openstreetmap.org/way/19392377",
+          "tags": {
+            "highway": "unclassified",
+            "maxspeed": "25 mph",
+            "name": "Park View Boulevard",
+            "oneway": "yes"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Park View Boulevard",
+          "latitude": 41.773613,
+          "longitude": -71.4144319,
+          "osmType": "way",
+          "osmId": 19392379,
+          "sourceUrl": "https://www.openstreetmap.org/way/19392379",
+          "tags": {
+            "highway": "unclassified",
+            "maxspeed": "25 mph",
+            "name": "Park View Boulevard",
+            "oneway": "yes"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Frederick C Greene Memorial Boulevard",
+          "latitude": 41.7859794,
+          "longitude": -71.4064918,
+          "osmType": "way",
+          "osmId": 19392385,
+          "sourceUrl": "https://www.openstreetmap.org/way/19392385",
+          "tags": {
+            "bicycle": "yes",
+            "highway": "unclassified",
+            "lanes": "1",
+            "maxspeed": "15 mph",
+            "name": "Frederick C Greene Memorial Boulevard",
+            "oneway": "yes",
+            "sidewalk:left": "no",
+            "sidewalk:right": "separate",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:name_base": "F C Greene Memorial",
+            "tiger:name_type": "Blvd",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Hawthorne Avenue",
+          "latitude": 41.7890287,
+          "longitude": -71.4129832,
+          "osmType": "way",
+          "osmId": 19392386,
+          "sourceUrl": "https://www.openstreetmap.org/way/19392386",
+          "tags": {
+            "highway": "unclassified",
+            "maxspeed": "15 mph",
+            "name": "Hawthorne Avenue",
+            "oneway": "yes",
+            "tiger:cfcc": "A41",
+            "tiger:name_base": "F C Greene Memorial",
+            "tiger:name_type": "Blvd",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Frederick C Greene Memorial Boulevard",
+          "latitude": 41.7877457,
+          "longitude": -71.41444,
+          "osmType": "way",
+          "osmId": 19392399,
+          "sourceUrl": "https://www.openstreetmap.org/way/19392399",
+          "tags": {
+            "highway": "unclassified",
+            "maxspeed": "15 mph",
+            "name": "Frederick C Greene Memorial Boulevard",
+            "sidewalk:left": "no",
+            "sidewalk:right": "separate",
+            "tiger:cfcc": "A41",
+            "tiger:name_base": "F C Greene Memorial",
+            "tiger:name_type": "Blvd",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Cladrash's Avenue",
+          "latitude": 41.7842848,
+          "longitude": -71.4149417,
+          "osmType": "way",
+          "osmId": 19392416,
+          "sourceUrl": "https://www.openstreetmap.org/way/19392416",
+          "tags": {
+            "alt_name": "Cladrastis Avenue",
+            "highway": "unclassified",
+            "maxspeed": "15 mph",
+            "name": "Cladrash's Avenue",
+            "sidewalk:both": "separate"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Rose Avenue",
+          "latitude": 41.7862224,
+          "longitude": -71.4179779,
+          "osmType": "way",
+          "osmId": 19392418,
+          "sourceUrl": "https://www.openstreetmap.org/way/19392418",
+          "tags": {
+            "highway": "unclassified",
+            "maxspeed": "15 mph",
+            "name": "Rose Avenue",
+            "oneway": "yes",
+            "tiger:cfcc": "A41",
+            "tiger:name_base": "Rose",
+            "tiger:name_type": "Ave",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Cladrash's Avenue",
+          "latitude": 41.7838798,
+          "longitude": -71.4145396,
+          "osmType": "way",
+          "osmId": 19398147,
+          "sourceUrl": "https://www.openstreetmap.org/way/19398147",
+          "tags": {
+            "alt_name": "Cladrastis Avenue",
+            "bridge": "yes",
+            "highway": "unclassified",
+            "layer": "1",
+            "maxspeed": "15 mph",
+            "name": "Cladrash's Avenue",
+            "sidewalk:both": "separate"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Cladrash's Avenue",
+          "latitude": 41.7854006,
+          "longitude": -71.4063213,
+          "osmType": "way",
+          "osmId": 19398152,
+          "sourceUrl": "https://www.openstreetmap.org/way/19398152",
+          "tags": {
+            "alt_name": "Cladrastis Avenue",
+            "bicycle": "yes",
+            "cycleway:right": "lane",
+            "cycleway:right:buffer": "no",
+            "highway": "unclassified",
+            "maxspeed": "15 mph",
+            "name": "Cladrash's Avenue",
+            "oneway": "yes",
+            "sidewalk:left": "no",
+            "sidewalk:right": "separate",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Deep Spring Lake",
+          "latitude": 41.7767702,
+          "longitude": -71.4158506,
+          "osmType": "way",
+          "osmId": 49139466,
+          "sourceUrl": "https://www.openstreetmap.org/way/49139466",
+          "tags": {
+            "name": "Deep Spring Lake",
+            "natural": "water"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Polo Lake",
+          "latitude": 41.7869487,
+          "longitude": -71.4154694,
+          "osmType": "way",
+          "osmId": 141119838,
+          "sourceUrl": "https://www.openstreetmap.org/way/141119838",
+          "tags": {
+            "name": "Polo Lake",
+            "natural": "water",
+            "wikidata": "Q49308442"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Zoo Lake and Wetlands",
+          "latitude": 41.7884004,
+          "longitude": -71.4164283,
+          "osmType": "way",
+          "osmId": 141119867,
+          "sourceUrl": "https://www.openstreetmap.org/way/141119867",
+          "tags": {
+            "name": "Zoo Lake and Wetlands",
+            "natural": "water"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Willow Lake",
+          "latitude": 41.7850031,
+          "longitude": -71.4145709,
+          "osmType": "way",
+          "osmId": 141119879,
+          "sourceUrl": "https://www.openstreetmap.org/way/141119879",
+          "tags": {
+            "name": "Willow Lake",
+            "natural": "water"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Roger Williams Park",
+          "latitude": 41.7829446,
+          "longitude": -71.4117648,
+          "osmType": "way",
+          "osmId": 141547611,
+          "sourceUrl": "https://www.openstreetmap.org/way/141547611",
+          "tags": {
+            "ele": "9",
+            "email": "lesley_lambert@live.com",
+            "gnis:feature_id": "1219665",
+            "leisure": "park",
+            "name": "Roger Williams Park",
+            "note": "Roger Williams Park Conservancy Contact: Lesley Lambert email: lesley_lambert@live.com https://www.facebook.com/pages/Roger-Williams-Park-Conservancy/134680426633534",
+            "wikidata": "Q7359134"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Maple Avenue",
+          "latitude": 41.7826515,
+          "longitude": -71.4140595,
+          "osmType": "way",
+          "osmId": 162971763,
+          "sourceUrl": "https://www.openstreetmap.org/way/162971763",
+          "tags": {
+            "cycleway:left": "lane",
+            "cycleway:left:oneway": "no",
+            "highway": "unclassified",
+            "lanes": "1",
+            "maxspeed": "15 mph",
+            "name": "Maple Avenue",
+            "oneway": "yes",
+            "oneway:bicycle": "no",
+            "sidewalk:left": "separate",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Rose Avenue",
+          "latitude": 41.7852077,
+          "longitude": -71.4174078,
+          "osmType": "way",
+          "osmId": 162971764,
+          "sourceUrl": "https://www.openstreetmap.org/way/162971764",
+          "tags": {
+            "highway": "unclassified",
+            "maxspeed": "15 mph",
+            "name": "Rose Avenue",
+            "oneway": "yes",
+            "tiger:cfcc": "A41",
+            "tiger:name_base": "Rose",
+            "tiger:name_type": "Ave",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Linden Avenue",
+          "latitude": 41.7851628,
+          "longitude": -71.4183599,
+          "osmType": "way",
+          "osmId": 162971768,
+          "sourceUrl": "https://www.openstreetmap.org/way/162971768",
+          "tags": {
+            "highway": "unclassified",
+            "maxspeed": "15 mph",
+            "name": "Linden Avenue",
+            "oneway": "yes",
+            "tiger:cfcc": "A41",
+            "tiger:name_base": "Linden",
+            "tiger:name_type": "Ave",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Frederick C Greene Memorial Boulevard",
+          "latitude": 41.7886345,
+          "longitude": -71.4140955,
+          "osmType": "way",
+          "osmId": 162972918,
+          "sourceUrl": "https://www.openstreetmap.org/way/162972918",
+          "tags": {
+            "highway": "unclassified",
+            "maxspeed": "15 mph",
+            "name": "Frederick C Greene Memorial Boulevard",
+            "tiger:cfcc": "A45",
+            "tiger:name_base": "Hawthorne",
+            "tiger:name_type": "Ave",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Frederick C Greene Memorial Boulevard",
+          "latitude": 41.7888796,
+          "longitude": -71.4136336,
+          "osmType": "way",
+          "osmId": 162972920,
+          "sourceUrl": "https://www.openstreetmap.org/way/162972920",
+          "tags": {
+            "highway": "unclassified",
+            "maxspeed": "15 mph",
+            "name": "Frederick C Greene Memorial Boulevard",
+            "oneway": "yes",
+            "tiger:cfcc": "A45",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Frederick C Greene Memorial Boulevard",
+          "latitude": 41.7858388,
+          "longitude": -71.4153737,
+          "osmType": "way",
+          "osmId": 162972924,
+          "sourceUrl": "https://www.openstreetmap.org/way/162972924",
+          "tags": {
+            "highway": "unclassified",
+            "maxspeed": "15 mph",
+            "name": "Frederick C Greene Memorial Boulevard",
+            "oneway": "yes",
+            "tiger:cfcc": "A41",
+            "tiger:name_base": "F C Greene Memorial",
+            "tiger:name_type": "Blvd",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Frederick C Greene Memorial Boulevard",
+          "latitude": 41.7860497,
+          "longitude": -71.4151117,
+          "osmType": "way",
+          "osmId": 162972926,
+          "sourceUrl": "https://www.openstreetmap.org/way/162972926",
+          "tags": {
+            "highway": "unclassified",
+            "maxspeed": "15 mph",
+            "name": "Frederick C Greene Memorial Boulevard",
+            "sidewalk:both": "separate",
+            "tiger:cfcc": "A41",
+            "tiger:name_base": "Green Memorial",
+            "tiger:name_type": "Blvd",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Frederick C Greene Memorial Boulevard",
+          "latitude": 41.7866446,
+          "longitude": -71.4091601,
+          "osmType": "way",
+          "osmId": 162972928,
+          "sourceUrl": "https://www.openstreetmap.org/way/162972928",
+          "tags": {
+            "bicycle": "yes",
+            "highway": "unclassified",
+            "lanes": "2",
+            "maxspeed": "15 mph",
+            "name": "Frederick C Greene Memorial Boulevard",
+            "sidewalk:left": "separate",
+            "sidewalk:right": "no",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:name_base": "F C Greene Memorial",
+            "tiger:name_type": "Blvd",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Frederick C Greene Memorial Boulevard",
+          "latitude": 41.7860336,
+          "longitude": -71.4063834,
+          "osmType": "way",
+          "osmId": 162972930,
+          "sourceUrl": "https://www.openstreetmap.org/way/162972930",
+          "tags": {
+            "bicycle": "yes",
+            "highway": "unclassified",
+            "lanes": "1",
+            "maxspeed": "15 mph",
+            "name": "Frederick C Greene Memorial Boulevard",
+            "oneway": "yes",
+            "sidewalk:left": "no",
+            "sidewalk:right": "separate",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:name_base": "F C Greene Memorial",
+            "tiger:name_type": "Blvd",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Montgomery Avenue",
+          "latitude": 41.7858635,
+          "longitude": -71.4058919,
+          "osmType": "way",
+          "osmId": 162972931,
+          "sourceUrl": "https://www.openstreetmap.org/way/162972931",
+          "tags": {
+            "bicycle": "yes",
+            "highway": "unclassified",
+            "name": "Montgomery Avenue",
+            "oneway": "yes",
+            "sidewalk:left": "no",
+            "sidewalk:right": "separate",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Frederick C Greene Memorial Boulevard",
+          "latitude": 41.7858702,
+          "longitude": -71.415934,
+          "osmType": "way",
+          "osmId": 162972934,
+          "sourceUrl": "https://www.openstreetmap.org/way/162972934",
+          "tags": {
+            "highway": "unclassified",
+            "name": "Frederick C Greene Memorial Boulevard",
+            "oneway": "yes",
+            "sidewalk:left": "no",
+            "sidewalk:right": "separate",
+            "tiger:cfcc": "A41",
+            "tiger:name_base": "Green Memorial",
+            "tiger:name_type": "Blvd",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Cladrash's Avenue",
+          "latitude": 41.785527,
+          "longitude": -71.4065166,
+          "osmType": "way",
+          "osmId": 162972935,
+          "sourceUrl": "https://www.openstreetmap.org/way/162972935",
+          "tags": {
+            "alt_name": "Cladrastis Avenue",
+            "bicycle": "yes",
+            "cycleway:right": "lane",
+            "cycleway:right:buffer": "no",
+            "highway": "unclassified",
+            "maxspeed": "15 mph",
+            "name": "Cladrash's Avenue",
+            "oneway": "yes",
+            "sidewalk:left": "no",
+            "sidewalk:right": "separate",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Casino",
+          "latitude": 41.7839139,
+          "longitude": -71.4170112,
+          "osmType": "way",
+          "osmId": 231773861,
+          "sourceUrl": "https://www.openstreetmap.org/way/231773861",
+          "tags": {
+            "amenity": "events_venue",
+            "building": "yes",
+            "name": "Casino"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Roger Williams Park Carousel",
+          "latitude": 41.7833858,
+          "longitude": -71.4146227,
+          "osmType": "way",
+          "osmId": 231773863,
+          "sourceUrl": "https://www.openstreetmap.org/way/231773863",
+          "tags": {
+            "attraction": "carousel",
+            "building": "yes",
+            "name": "Roger Williams Park Carousel",
+            "tourism": "attraction"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Cladrash's Avenue",
+          "latitude": 41.7850758,
+          "longitude": -71.4154854,
+          "osmType": "way",
+          "osmId": 231774712,
+          "sourceUrl": "https://www.openstreetmap.org/way/231774712",
+          "tags": {
+            "alt_name": "Cladrastis Avenue",
+            "highway": "unclassified",
+            "maxspeed": "15 mph",
+            "name": "Cladrash's Avenue",
+            "sidewalk:left": "no",
+            "sidewalk:right": "separate"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Cladrash's Avenue",
+          "latitude": 41.7837443,
+          "longitude": -71.4133137,
+          "osmType": "way",
+          "osmId": 231774714,
+          "sourceUrl": "https://www.openstreetmap.org/way/231774714",
+          "tags": {
+            "alt_name": "Cladrastis Avenue",
+            "highway": "unclassified",
+            "maxspeed": "15 mph",
+            "name": "Cladrash's Avenue",
+            "sidewalk:left": "separate",
+            "sidewalk:right": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Cladrash's Avenue",
+          "latitude": 41.7846925,
+          "longitude": -71.4153314,
+          "osmType": "way",
+          "osmId": 231774718,
+          "sourceUrl": "https://www.openstreetmap.org/way/231774718",
+          "tags": {
+            "alt_name": "Cladrastis Avenue",
+            "bridge": "yes",
+            "highway": "unclassified",
+            "layer": "1",
+            "maxspeed": "15 mph",
+            "name": "Cladrash's Avenue",
+            "sidewalk:both": "separate"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Museum of Natural History and Planetarium",
+          "latitude": 41.7868375,
+          "longitude": -71.4131947,
+          "osmType": "way",
+          "osmId": 231819203,
+          "sourceUrl": "https://www.openstreetmap.org/way/231819203",
+          "tags": {
+            "alt_name": "Roger Williams Park Museum of Natural History and Planetarium",
+            "building": "yes",
+            "fee": "yes",
+            "fee:conditional": "no @ age < 3",
+            "museum": "nature",
+            "name": "Museum of Natural History and Planetarium",
+            "opening_hours": "Mo-Su 09:30-15:30; PH off",
+            "tourism": "museum",
+            "website": "https://www.providenceri.gov/museum/",
+            "wheelchair": "no",
+            "wikidata": "Q7359135"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Roger Williams Botanical Center",
+          "latitude": 41.7824764,
+          "longitude": -71.4070545,
+          "osmType": "way",
+          "osmId": 231819596,
+          "sourceUrl": "https://www.openstreetmap.org/way/231819596",
+          "tags": {
+            "addr:city": "Providence",
+            "addr:housenumber": "1000",
+            "addr:street": "Elmwood Ave",
+            "garden:type": "botanical",
+            "leisure": "garden",
+            "name": "Roger Williams Botanical Center",
+            "note": "Roger Williams Botanical Center Contact: Judy Knight Email: info@bccrwp.org",
+            "tourism": "attraction",
+            "website": "http://bccrwp.org"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Cladrash's Avenue",
+          "latitude": 41.7840224,
+          "longitude": -71.4077073,
+          "osmType": "way",
+          "osmId": 231819599,
+          "sourceUrl": "https://www.openstreetmap.org/way/231819599",
+          "tags": {
+            "alt_name": "Cladrastis Avenue",
+            "cycleway:both": "lane",
+            "highway": "unclassified",
+            "lanes": "2",
+            "maxspeed": "15 mph",
+            "name": "Cladrash's Avenue",
+            "oneway": "no",
+            "sidewalk:both": "separate",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Cladrash's Avenue",
+          "latitude": 41.7842751,
+          "longitude": -71.4113158,
+          "osmType": "way",
+          "osmId": 231819601,
+          "sourceUrl": "https://www.openstreetmap.org/way/231819601",
+          "tags": {
+            "alt_name": "Cladrastis Avenue",
+            "bridge": "yes",
+            "cycleway:both": "lane",
+            "highway": "unclassified",
+            "layer": "1",
+            "maxspeed": "15 mph",
+            "name": "Cladrash's Avenue",
+            "oneway": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Lovers Retreat Bridge",
+          "latitude": 41.7845651,
+          "longitude": -71.4165938,
+          "osmType": "way",
+          "osmId": 231820205,
+          "sourceUrl": "https://www.openstreetmap.org/way/231820205",
+          "tags": {
+            "bridge": "yes",
+            "highway": "footway",
+            "name": "Lovers Retreat Bridge"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Victorian Rose Garden",
+          "latitude": 41.7858288,
+          "longitude": -71.4178986,
+          "osmType": "way",
+          "osmId": 231821819,
+          "sourceUrl": "https://www.openstreetmap.org/way/231821819",
+          "tags": {
+            "garden:type": "rosegarden",
+            "leisure": "garden",
+            "name": "Victorian Rose Garden",
+            "tourism": "attraction"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Roger Williams Park Zoo Parking",
+          "latitude": 41.7896458,
+          "longitude": -71.4146825,
+          "osmType": "way",
+          "osmId": 231842793,
+          "sourceUrl": "https://www.openstreetmap.org/way/231842793",
+          "tags": {
+            "amenity": "parking",
+            "name": "Roger Williams Park Zoo Parking"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Roger Williams Park Zoo Parking",
+          "latitude": 41.7922014,
+          "longitude": -71.411241,
+          "osmType": "way",
+          "osmId": 231842795,
+          "sourceUrl": "https://www.openstreetmap.org/way/231842795",
+          "tags": {
+            "amenity": "parking",
+            "name": "Roger Williams Park Zoo Parking",
+            "parking": "surface"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Feinstein Junior Scholar Wetlands Trail",
+          "latitude": 41.787848,
+          "longitude": -71.4157853,
+          "osmType": "way",
+          "osmId": 231874057,
+          "sourceUrl": "https://www.openstreetmap.org/way/231874057",
+          "tags": {
+            "highway": "footway",
+            "name": "Feinstein Junior Scholar Wetlands Trail"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Feinstein Junior Scholar Wetlands Trail",
+          "latitude": 41.7885909,
+          "longitude": -71.4153365,
+          "osmType": "way",
+          "osmId": 231874059,
+          "sourceUrl": "https://www.openstreetmap.org/way/231874059",
+          "tags": {
+            "bridge": "yes",
+            "highway": "footway",
+            "layer": "1",
+            "name": "Feinstein Junior Scholar Wetlands Trail"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Feinstein Junior Scholar Wetlands Trail",
+          "latitude": 41.7880889,
+          "longitude": -71.4156651,
+          "osmType": "way",
+          "osmId": 231874061,
+          "sourceUrl": "https://www.openstreetmap.org/way/231874061",
+          "tags": {
+            "bridge": "yes",
+            "highway": "footway",
+            "layer": "1",
+            "name": "Feinstein Junior Scholar Wetlands Trail"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Feinstein Junior Scholar Wetlands Trail",
+          "latitude": 41.7883559,
+          "longitude": -71.4154974,
+          "osmType": "way",
+          "osmId": 231874063,
+          "sourceUrl": "https://www.openstreetmap.org/way/231874063",
+          "tags": {
+            "highway": "footway",
+            "name": "Feinstein Junior Scholar Wetlands Trail"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Feinstein Junior Scholar Wetlands Trail",
+          "latitude": 41.7876722,
+          "longitude": -71.4159293,
+          "osmType": "way",
+          "osmId": 231874065,
+          "sourceUrl": "https://www.openstreetmap.org/way/231874065",
+          "tags": {
+            "bridge": "yes",
+            "highway": "footway",
+            "layer": "1",
+            "name": "Feinstein Junior Scholar Wetlands Trail"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Nourish 401 Cafe",
+          "latitude": 41.7868285,
+          "longitude": -71.4178119,
+          "osmType": "way",
+          "osmId": 231877212,
+          "sourceUrl": "https://www.openstreetmap.org/way/231877212",
+          "tags": {
+            "amenity": "cafe",
+            "building": "yes",
+            "name": "Nourish 401 Cafe"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "A World of Adaptations",
+          "latitude": 41.7873826,
+          "longitude": -71.4182606,
+          "osmType": "way",
+          "osmId": 231877213,
+          "sourceUrl": "https://www.openstreetmap.org/way/231877213",
+          "tags": {
+            "building": "yes",
+            "name": "A World of Adaptations",
+            "tourism": "attraction"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Frederick C Greene Memorial Boulevard",
+          "latitude": 41.7862048,
+          "longitude": -71.4149203,
+          "osmType": "way",
+          "osmId": 231877281,
+          "sourceUrl": "https://www.openstreetmap.org/way/231877281",
+          "tags": {
+            "bridge": "yes",
+            "highway": "unclassified",
+            "layer": "1",
+            "maxspeed": "15 mph",
+            "maxweight": "15 st",
+            "name": "Frederick C Greene Memorial Boulevard",
+            "sidewalk:both": "separate",
+            "tiger:cfcc": "A41",
+            "tiger:name_base": "Green Memorial",
+            "tiger:name_type": "Blvd",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Frederick C Greene Memorial Boulevard",
+          "latitude": 41.7866593,
+          "longitude": -71.414689,
+          "osmType": "way",
+          "osmId": 231877282,
+          "sourceUrl": "https://www.openstreetmap.org/way/231877282",
+          "tags": {
+            "highway": "unclassified",
+            "maxspeed": "15 mph",
+            "name": "Frederick C Greene Memorial Boulevard",
+            "sidewalk:both": "separate",
+            "tiger:cfcc": "A41",
+            "tiger:name_base": "Green Memorial",
+            "tiger:name_type": "Blvd",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Williams Family Cemetery",
+          "latitude": 41.7833947,
+          "longitude": -71.4183849,
+          "osmType": "way",
+          "osmId": 231915233,
+          "sourceUrl": "https://www.openstreetmap.org/way/231915233",
+          "tags": {
+            "amenity": "grave_yard",
+            "name": "Williams Family Cemetery"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Betsey Williams Cottage",
+          "latitude": 41.7855992,
+          "longitude": -71.4163694,
+          "osmType": "way",
+          "osmId": 231916457,
+          "sourceUrl": "https://www.openstreetmap.org/way/231916457",
+          "tags": {
+            "building": "yes",
+            "historic": "building",
+            "name": "Betsey Williams Cottage",
+            "tourism": "museum"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Depot Cafe",
+          "latitude": 41.7830652,
+          "longitude": -71.4151897,
+          "osmType": "way",
+          "osmId": 231916903,
+          "sourceUrl": "https://www.openstreetmap.org/way/231916903",
+          "tags": {
+            "amenity": "cafe",
+            "building": "yes",
+            "name": "Depot Cafe"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Temple to Music",
+          "latitude": 41.7806639,
+          "longitude": -71.4135309,
+          "osmType": "way",
+          "osmId": 231917241,
+          "sourceUrl": "https://www.openstreetmap.org/way/231917241",
+          "tags": {
+            "area": "yes",
+            "name": "Temple to Music",
+            "tourism": "attraction"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Elm Lake",
+          "latitude": 41.7767478,
+          "longitude": -71.4118528,
+          "osmType": "way",
+          "osmId": 232286715,
+          "sourceUrl": "https://www.openstreetmap.org/way/232286715",
+          "tags": {
+            "name": "Elm Lake",
+            "natural": "water"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Roger Williams Park Garden",
+          "latitude": 41.7843846,
+          "longitude": -71.4063942,
+          "osmType": "way",
+          "osmId": 295190347,
+          "sourceUrl": "https://www.openstreetmap.org/way/295190347",
+          "tags": {
+            "leisure": "garden",
+            "name": "Roger Williams Park Garden",
+            "website": "https://www.facebook.com/RWPCommunityGarden/timeline"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Roger Williams Park Zoo",
+          "latitude": 41.7885612,
+          "longitude": -71.4171877,
+          "osmType": "way",
+          "osmId": 295190363,
+          "sourceUrl": "https://www.openstreetmap.org/way/295190363",
+          "tags": {
+            "addr:city": "Providence",
+            "addr:housenumber": "1000",
+            "addr:street": "Elmwood Ave",
+            "name": "Roger Williams Park Zoo",
+            "tourism": "zoo",
+            "wikidata": "Q7359136",
+            "wikipedia": "en:Roger Williams Park Zoo"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Big Lakes Trail",
+          "latitude": 41.7793706,
+          "longitude": -71.4080203,
+          "osmType": "way",
+          "osmId": 295190368,
+          "sourceUrl": "https://www.openstreetmap.org/way/295190368",
+          "tags": {
+            "highway": "path",
+            "name": "Big Lakes Trail",
+            "surface": "ground"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Cladrash's Avenue",
+          "latitude": 41.7841481,
+          "longitude": -71.4120883,
+          "osmType": "way",
+          "osmId": 544201663,
+          "sourceUrl": "https://www.openstreetmap.org/way/544201663",
+          "tags": {
+            "alt_name": "Cladrastis Avenue",
+            "highway": "unclassified",
+            "maxspeed": "15 mph",
+            "name": "Cladrash's Avenue",
+            "oneway": "no",
+            "sidewalk:left": "separate",
+            "sidewalk:right": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Cladrash's Avenue",
+          "latitude": 41.7855471,
+          "longitude": -71.4155842,
+          "osmType": "way",
+          "osmId": 549989855,
+          "sourceUrl": "https://www.openstreetmap.org/way/549989855",
+          "tags": {
+            "alt_name": "Cladrastis Avenue",
+            "highway": "unclassified",
+            "maxspeed": "15 mph",
+            "name": "Cladrash's Avenue",
+            "oneway": "yes"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Frederick C Greene Memorial Boulevard",
+          "latitude": 41.7859084,
+          "longitude": -71.415453,
+          "osmType": "way",
+          "osmId": 549989856,
+          "sourceUrl": "https://www.openstreetmap.org/way/549989856",
+          "tags": {
+            "highway": "unclassified",
+            "maxspeed": "15 mph",
+            "name": "Frederick C Greene Memorial Boulevard",
+            "oneway": "yes",
+            "sidewalk:left": "no",
+            "sidewalk:right": "separate",
+            "tiger:cfcc": "A41",
+            "tiger:name_base": "Green Memorial",
+            "tiger:name_type": "Blvd",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Natural History Avenue",
+          "latitude": 41.7886122,
+          "longitude": -71.4132643,
+          "osmType": "way",
+          "osmId": 602570224,
+          "sourceUrl": "https://www.openstreetmap.org/way/602570224",
+          "tags": {
+            "highway": "unclassified",
+            "maxspeed": "15 mph",
+            "name": "Natural History Avenue",
+            "oneway": "yes",
+            "tiger:cfcc": "A41",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Natural History Avenue",
+          "latitude": 41.7886352,
+          "longitude": -71.4131342,
+          "osmType": "way",
+          "osmId": 602570225,
+          "sourceUrl": "https://www.openstreetmap.org/way/602570225",
+          "tags": {
+            "highway": "unclassified",
+            "maxspeed": "15 mph",
+            "name": "Natural History Avenue",
+            "oneway": "yes",
+            "tiger:cfcc": "A41",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Hawthorne Avenue",
+          "latitude": 41.7891043,
+          "longitude": -71.4130642,
+          "osmType": "way",
+          "osmId": 602570226,
+          "sourceUrl": "https://www.openstreetmap.org/way/602570226",
+          "tags": {
+            "highway": "unclassified",
+            "maxspeed": "15 mph",
+            "name": "Hawthorne Avenue",
+            "oneway": "yes",
+            "tiger:cfcc": "A45",
+            "tiger:name_base": "Hawthorne",
+            "tiger:name_type": "Ave",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "F C Greene Memorial Boulevard",
+          "latitude": 41.7887525,
+          "longitude": -71.4139405,
+          "osmType": "way",
+          "osmId": 660831934,
+          "sourceUrl": "https://www.openstreetmap.org/way/660831934",
+          "tags": {
+            "highway": "unclassified",
+            "name": "F C Greene Memorial Boulevard",
+            "tiger:cfcc": "A45",
+            "tiger:name_base": "Hawthorne",
+            "tiger:name_type": "Ave",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Frederick C Greene Memorial Boulevard",
+          "latitude": 41.788488,
+          "longitude": -71.4142663,
+          "osmType": "way",
+          "osmId": 660831935,
+          "sourceUrl": "https://www.openstreetmap.org/way/660831935",
+          "tags": {
+            "highway": "unclassified",
+            "maxspeed": "15 mph",
+            "name": "Frederick C Greene Memorial Boulevard",
+            "tiger:cfcc": "A45",
+            "tiger:name_base": "Hawthorne",
+            "tiger:name_type": "Ave",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Hawthorne Avenue",
+          "latitude": 41.7926887,
+          "longitude": -71.4082925,
+          "osmType": "way",
+          "osmId": 660831936,
+          "sourceUrl": "https://www.openstreetmap.org/way/660831936",
+          "tags": {
+            "highway": "unclassified",
+            "maxspeed": "15 mph",
+            "name": "Hawthorne Avenue",
+            "oneway": "yes",
+            "tiger:cfcc": "A45",
+            "tiger:name_base": "Hawthorne",
+            "tiger:name_type": "Ave",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Tuskers Cafe",
+          "latitude": 41.7888305,
+          "longitude": -71.4171189,
+          "osmType": "way",
+          "osmId": 771420457,
+          "sourceUrl": "https://www.openstreetmap.org/way/771420457",
+          "tags": {
+            "amenity": "cafe",
+            "building": "yes",
+            "name": "Tuskers Cafe"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Suce Pizza cafe",
+          "latitude": 41.7886922,
+          "longitude": -71.4173507,
+          "osmType": "way",
+          "osmId": 771436676,
+          "sourceUrl": "https://www.openstreetmap.org/way/771436676",
+          "tags": {
+            "amenity": "fast_food",
+            "building": "yes",
+            "cuisine": "pizza",
+            "name": "Suce Pizza cafe"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Wild Bites Snacks",
+          "latitude": 41.7896053,
+          "longitude": -71.4157695,
+          "osmType": "way",
+          "osmId": 771440822,
+          "sourceUrl": "https://www.openstreetmap.org/way/771440822",
+          "tags": {
+            "amenity": "restaurant",
+            "building": "yes",
+            "name": "Wild Bites Snacks"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "John J. Palumbo Veterinary Hospital",
+          "latitude": 41.7874906,
+          "longitude": -71.4163665,
+          "osmType": "way",
+          "osmId": 856562969,
+          "sourceUrl": "https://www.openstreetmap.org/way/856562969",
+          "tags": {
+            "access": "private",
+            "amenity": "veterinary",
+            "building": "yes",
+            "name": "John J. Palumbo Veterinary Hospital"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Cones Ice Cream",
+          "latitude": 41.7884666,
+          "longitude": -71.4146245,
+          "osmType": "way",
+          "osmId": 856958946,
+          "sourceUrl": "https://www.openstreetmap.org/way/856958946",
+          "tags": {
+            "addr:city": "Providence",
+            "addr:state": "RI",
+            "amenity": "ice_cream",
+            "building": "yes",
+            "name": "Cones Ice Cream"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Rose Island",
+          "latitude": 41.7802328,
+          "longitude": -71.4087573,
+          "osmType": "way",
+          "osmId": 864861802,
+          "sourceUrl": "https://www.openstreetmap.org/way/864861802",
+          "tags": {
+            "leaf_type": "broadleaved",
+            "name": "Rose Island",
+            "natural": "wood",
+            "source": "RIGIS"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Star Island",
+          "latitude": 41.7811593,
+          "longitude": -71.4102103,
+          "osmType": "way",
+          "osmId": 864862789,
+          "sourceUrl": "https://www.openstreetmap.org/way/864862789",
+          "tags": {
+            "leaf_type": "broadleaved",
+            "name": "Star Island",
+            "natural": "wood",
+            "source": "RIGIS"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Verndale Avenue",
+          "latitude": 41.7872492,
+          "longitude": -71.4121488,
+          "osmType": "way",
+          "osmId": 1027275739,
+          "sourceUrl": "https://www.openstreetmap.org/way/1027275739",
+          "tags": {
+            "highway": "unclassified",
+            "name": "Verndale Avenue"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Carr Street",
+          "latitude": 41.7872367,
+          "longitude": -71.410022,
+          "osmType": "way",
+          "osmId": 1027449961,
+          "sourceUrl": "https://www.openstreetmap.org/way/1027449961",
+          "tags": {
+            "highway": "unclassified",
+            "name": "Carr Street"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Marion Avenue North",
+          "latitude": 41.7867433,
+          "longitude": -71.4065044,
+          "osmType": "way",
+          "osmId": 1027449962,
+          "sourceUrl": "https://www.openstreetmap.org/way/1027449962",
+          "tags": {
+            "highway": "residential",
+            "maxspeed": "20 mph",
+            "name": "Marion Avenue North",
+            "tiger:cfcc": "A41",
+            "tiger:name_base": "Marion",
+            "tiger:name_direction_suffix": "N",
+            "tiger:name_type": "Ave",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Farragut Avenue",
+          "latitude": 41.7862175,
+          "longitude": -71.4062687,
+          "osmType": "way",
+          "osmId": 1027449964,
+          "sourceUrl": "https://www.openstreetmap.org/way/1027449964",
+          "tags": {
+            "cycleway": "shared_lane",
+            "highway": "residential",
+            "maxspeed": "20 mph",
+            "name": "Farragut Avenue"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Miller Avenue",
+          "latitude": 41.7880395,
+          "longitude": -71.4126846,
+          "osmType": "way",
+          "osmId": 1027449965,
+          "sourceUrl": "https://www.openstreetmap.org/way/1027449965",
+          "tags": {
+            "highway": "unclassified",
+            "name": "Miller Avenue"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Temple to Music",
+          "latitude": 41.7806681,
+          "longitude": -71.4135079,
+          "osmType": "way",
+          "osmId": 1027465749,
+          "sourceUrl": "https://www.openstreetmap.org/way/1027465749",
+          "tags": {
+            "building": "yes",
+            "fee": "no",
+            "name": "Temple to Music",
+            "tourism": "museum"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Bartlett Avenue",
+          "latitude": 41.7791944,
+          "longitude": -71.4069369,
+          "osmType": "way",
+          "osmId": 1027489676,
+          "sourceUrl": "https://www.openstreetmap.org/way/1027489676",
+          "tags": {
+            "hgv": "no",
+            "highway": "unclassified",
+            "name": "Bartlett Avenue"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Norwood Avenue",
+          "latitude": 41.7798148,
+          "longitude": -71.4059865,
+          "osmType": "way",
+          "osmId": 1027489677,
+          "sourceUrl": "https://www.openstreetmap.org/way/1027489677",
+          "tags": {
+            "highway": "unclassified",
+            "name": "Norwood Avenue"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Haddon Hill Road",
+          "latitude": 41.7741001,
+          "longitude": -71.4106852,
+          "osmType": "way",
+          "osmId": 1027494203,
+          "sourceUrl": "https://www.openstreetmap.org/way/1027494203",
+          "tags": {
+            "highway": "unclassified",
+            "maxspeed": "25 mph",
+            "name": "Haddon Hill Road",
+            "oneway": "yes"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Haddon Hill Road",
+          "latitude": 41.773908,
+          "longitude": -71.4104923,
+          "osmType": "way",
+          "osmId": 1027494204,
+          "sourceUrl": "https://www.openstreetmap.org/way/1027494204",
+          "tags": {
+            "highway": "unclassified",
+            "maxspeed": "25 mph",
+            "name": "Haddon Hill Road"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Haddon Hill Road",
+          "latitude": 41.7742218,
+          "longitude": -71.4105883,
+          "osmType": "way",
+          "osmId": 1027494205,
+          "sourceUrl": "https://www.openstreetmap.org/way/1027494205",
+          "tags": {
+            "highway": "unclassified",
+            "maxspeed": "25 mph",
+            "name": "Haddon Hill Road",
+            "oneway": "yes"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Beachmont Avenue",
+          "latitude": 41.7786783,
+          "longitude": -71.4081724,
+          "osmType": "way",
+          "osmId": 1027496957,
+          "sourceUrl": "https://www.openstreetmap.org/way/1027496957",
+          "tags": {
+            "highway": "unclassified",
+            "maxspeed": "25 mph",
+            "name": "Beachmont Avenue"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Edgewood Avenue",
+          "latitude": 41.7786969,
+          "longitude": -71.407915,
+          "osmType": "way",
+          "osmId": 1027496958,
+          "sourceUrl": "https://www.openstreetmap.org/way/1027496958",
+          "tags": {
+            "hgv": "no",
+            "highway": "unclassified",
+            "name": "Edgewood Avenue",
+            "source:hgv": "https://ecode360.com/46507787?highlight=truck&highlight=trucking&highlight=trucks&searchId=11357218909419563#46507784",
+            "tiger:cfcc": "A41",
+            "tiger:name_base": "Edgewood",
+            "tiger:name_type": "Ave",
+            "tiger:reviewed": "name"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Montgomery Avenue",
+          "latitude": 41.7858546,
+          "longitude": -71.4057335,
+          "osmType": "way",
+          "osmId": 1027497144,
+          "sourceUrl": "https://www.openstreetmap.org/way/1027497144",
+          "tags": {
+            "bicycle": "yes",
+            "highway": "unclassified",
+            "name": "Montgomery Avenue",
+            "oneway": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Cladrash's Avenue",
+          "latitude": 41.7849063,
+          "longitude": -71.4067633,
+          "osmType": "way",
+          "osmId": 1027522976,
+          "sourceUrl": "https://www.openstreetmap.org/way/1027522976",
+          "tags": {
+            "alt_name": "Cladrastis Avenue",
+            "bridge": "yes",
+            "cycleway:both": "lane",
+            "highway": "unclassified",
+            "lanes": "2",
+            "layer": "1",
+            "maxaxleload": "8 st",
+            "maxspeed": "15 mph",
+            "name": "Cladrash's Avenue",
+            "oneway": "no",
+            "sidewalk:both": "separate"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Cladrash's Avenue",
+          "latitude": 41.7851352,
+          "longitude": -71.4066531,
+          "osmType": "way",
+          "osmId": 1027522977,
+          "sourceUrl": "https://www.openstreetmap.org/way/1027522977",
+          "tags": {
+            "alt_name": "Cladrastis Avenue",
+            "cycleway:both": "lane",
+            "highway": "unclassified",
+            "lanes": "2",
+            "maxspeed": "15 mph",
+            "name": "Cladrash's Avenue",
+            "oneway": "no",
+            "sidewalk:both": "separate"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Frederick C Greene Memorial Boulevard",
+          "latitude": 41.7782208,
+          "longitude": -71.4144357,
+          "osmType": "way",
+          "osmId": 1027522979,
+          "sourceUrl": "https://www.openstreetmap.org/way/1027522979",
+          "tags": {
+            "bicycle": "yes",
+            "cycleway:left": "lane",
+            "cycleway:left:oneway": "-1",
+            "cycleway:right": "shared_lane",
+            "footway:left": "lane",
+            "highway": "unclassified",
+            "lanes": "1",
+            "maxspeed": "15 mph",
+            "name": "Frederick C Greene Memorial Boulevard",
+            "oneway": "yes",
+            "oneway:bicycle": "no",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Frederick C Greene Memorial Boulevard",
+          "latitude": 41.7797288,
+          "longitude": -71.4153385,
+          "osmType": "way",
+          "osmId": 1027522980,
+          "sourceUrl": "https://www.openstreetmap.org/way/1027522980",
+          "tags": {
+            "cycleway:left": "lane",
+            "cycleway:left:oneway": "no",
+            "highway": "unclassified",
+            "lanes": "1",
+            "maxspeed": "15 mph",
+            "name": "Frederick C Greene Memorial Boulevard",
+            "oneway": "yes",
+            "oneway:bicycle": "no",
+            "sidewalk:left": "separate",
+            "sidewalk:right": "no",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Frederick C Greene Memorial Boulevard",
+          "latitude": 41.7793827,
+          "longitude": -71.4080219,
+          "osmType": "way",
+          "osmId": 1027522982,
+          "sourceUrl": "https://www.openstreetmap.org/way/1027522982",
+          "tags": {
+            "cycleway:left": "lane",
+            "cycleway:left:oneway": "no",
+            "footway:left": "lane",
+            "highway": "unclassified",
+            "lanes": "1",
+            "maxspeed": "15 mph",
+            "name": "Frederick C Greene Memorial Boulevard",
+            "oneway": "yes",
+            "oneway:bicycle": "no",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Frederick C Greene Memorial Boulevard",
+          "latitude": 41.7811957,
+          "longitude": -71.4161631,
+          "osmType": "way",
+          "osmId": 1027522986,
+          "sourceUrl": "https://www.openstreetmap.org/way/1027522986",
+          "tags": {
+            "cycleway:left": "lane",
+            "cycleway:left:oneway": "no",
+            "highway": "unclassified",
+            "lanes": "1",
+            "maxspeed": "15 mph",
+            "name": "Frederick C Greene Memorial Boulevard",
+            "oneway": "yes",
+            "oneway:bicycle": "no",
+            "sidewalk:left": "separate",
+            "sidewalk:right": "no",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Frederick C Greene Memorial Boulevard",
+          "latitude": 41.7855258,
+          "longitude": -71.4056298,
+          "osmType": "way",
+          "osmId": 1027525914,
+          "sourceUrl": "https://www.openstreetmap.org/way/1027525914",
+          "tags": {
+            "bicycle": "yes",
+            "highway": "unclassified",
+            "lanes": "1",
+            "maxspeed": "15 mph",
+            "name": "Frederick C Greene Memorial Boulevard",
+            "oneway": "yes",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Floral Avenue",
+          "latitude": 41.7835641,
+          "longitude": -71.4068324,
+          "osmType": "way",
+          "osmId": 1027526029,
+          "sourceUrl": "https://www.openstreetmap.org/way/1027526029",
+          "tags": {
+            "highway": "unclassified",
+            "lane_markings": "no",
+            "name": "Floral Avenue",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:name_base": "Floral",
+            "tiger:name_type": "Ave",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Roger Williams Park Zoo Parking",
+          "latitude": 41.791134,
+          "longitude": -71.4139783,
+          "osmType": "way",
+          "osmId": 1027625675,
+          "sourceUrl": "https://www.openstreetmap.org/way/1027625675",
+          "tags": {
+            "amenity": "parking",
+            "name": "Roger Williams Park Zoo Parking"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Flower Island",
+          "latitude": 41.7853908,
+          "longitude": -71.4094823,
+          "osmType": "way",
+          "osmId": 1028115511,
+          "sourceUrl": "https://www.openstreetmap.org/way/1028115511",
+          "tags": {
+            "leaf_type": "broadleaved",
+            "name": "Flower Island",
+            "natural": "wood",
+            "source": "RIGIS"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Japanese Garden",
+          "latitude": 41.7837854,
+          "longitude": -71.4152316,
+          "osmType": "way",
+          "osmId": 1030209881,
+          "sourceUrl": "https://www.openstreetmap.org/way/1030209881",
+          "tags": {
+            "garden:style": "japanese",
+            "leisure": "garden",
+            "name": "Japanese Garden",
+            "tourism": "attraction"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Feinstein Junior Scholar Wetlands Trail",
+          "latitude": 41.7876567,
+          "longitude": -71.4163355,
+          "osmType": "way",
+          "osmId": 1030282843,
+          "sourceUrl": "https://www.openstreetmap.org/way/1030282843",
+          "tags": {
+            "highway": "footway",
+            "name": "Feinstein Junior Scholar Wetlands Trail"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Feinstein Junior Scholar Wetlands Trail",
+          "latitude": 41.7887779,
+          "longitude": -71.4153043,
+          "osmType": "way",
+          "osmId": 1030282844,
+          "sourceUrl": "https://www.openstreetmap.org/way/1030282844",
+          "tags": {
+            "highway": "footway",
+            "name": "Feinstein Junior Scholar Wetlands Trail"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Nourish Plaza",
+          "latitude": 41.786993,
+          "longitude": -71.4178041,
+          "osmType": "way",
+          "osmId": 1030282846,
+          "sourceUrl": "https://www.openstreetmap.org/way/1030282846",
+          "tags": {
+            "highway": "footway",
+            "name": "Nourish Plaza"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Jambo Junction",
+          "latitude": 41.7889109,
+          "longitude": -71.4171631,
+          "osmType": "way",
+          "osmId": 1030282849,
+          "sourceUrl": "https://www.openstreetmap.org/way/1030282849",
+          "tags": {
+            "highway": "footway",
+            "name": "Jambo Junction"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Cladrash's Avenue",
+          "latitude": 41.7842407,
+          "longitude": -71.4116989,
+          "osmType": "way",
+          "osmId": 1123424047,
+          "sourceUrl": "https://www.openstreetmap.org/way/1123424047",
+          "tags": {
+            "alt_name": "Cladrastis Avenue",
+            "cycleway:both": "lane",
+            "highway": "unclassified",
+            "maxspeed": "15 mph",
+            "name": "Cladrash's Avenue",
+            "oneway": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Floral Avenue",
+          "latitude": 41.7828681,
+          "longitude": -71.4086391,
+          "osmType": "way",
+          "osmId": 1345157244,
+          "sourceUrl": "https://www.openstreetmap.org/way/1345157244",
+          "tags": {
+            "highway": "unclassified",
+            "name": "Floral Avenue",
+            "tiger:cfcc": "A41",
+            "tiger:name_base": "Floral",
+            "tiger:name_type": "Ave",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Maple Avenue",
+          "latitude": 41.7835983,
+          "longitude": -71.4123108,
+          "osmType": "way",
+          "osmId": 1366701426,
+          "sourceUrl": "https://www.openstreetmap.org/way/1366701426",
+          "tags": {
+            "highway": "unclassified",
+            "lanes": "1",
+            "maxspeed": "15 mph",
+            "name": "Maple Avenue",
+            "oneway": "yes",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Maple Avenue",
+          "latitude": 41.7834182,
+          "longitude": -71.4124433,
+          "osmType": "way",
+          "osmId": 1366701427,
+          "sourceUrl": "https://www.openstreetmap.org/way/1366701427",
+          "tags": {
+            "cycleway:left": "lane",
+            "cycleway:left:oneway": "no",
+            "footway:left": "lane",
+            "highway": "unclassified",
+            "lanes": "1",
+            "maxspeed": "15 mph",
+            "name": "Maple Avenue",
+            "oneway": "yes",
+            "oneway:bicycle": "no",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Frederick C Greene Memorial Boulevard",
+          "latitude": 41.7754601,
+          "longitude": -71.413725,
+          "osmType": "way",
+          "osmId": 1487776597,
+          "sourceUrl": "https://www.openstreetmap.org/way/1487776597",
+          "tags": {
+            "cycleway:left": "lane",
+            "cycleway:left:oneway": "no",
+            "footway:left": "lane",
+            "highway": "unclassified",
+            "lanes": "1",
+            "maxspeed": "15 mph",
+            "name": "Frederick C Greene Memorial Boulevard",
+            "oneway": "yes",
+            "oneway:bicycle": "no",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Frederick C Greene Memorial Boulevard",
+          "latitude": 41.7734253,
+          "longitude": -71.4124245,
+          "osmType": "way",
+          "osmId": 1487776598,
+          "sourceUrl": "https://www.openstreetmap.org/way/1487776598",
+          "tags": {
+            "cycleway:left": "lane",
+            "cycleway:left:oneway": "no",
+            "footway:left": "lane",
+            "highway": "unclassified",
+            "lanes": "1",
+            "maxspeed": "15 mph",
+            "maxweight:hgv:conditional": "13 st @ (axles=2)",
+            "name": "Frederick C Greene Memorial Boulevard",
+            "oneway": "yes",
+            "oneway:bicycle": "no",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Cladrash's Avenue",
+          "latitude": 41.7836896,
+          "longitude": -71.4144285,
+          "osmType": "way",
+          "osmId": 1499199609,
+          "sourceUrl": "https://www.openstreetmap.org/way/1499199609",
+          "tags": {
+            "alt_name": "Cladrastis Avenue",
+            "highway": "unclassified",
+            "maxspeed": "15 mph",
+            "name": "Cladrash's Avenue",
+            "sidewalk:both": "separate"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Cladrash's Avenue",
+          "latitude": 41.7837921,
+          "longitude": -71.4098607,
+          "osmType": "way",
+          "osmId": 1499201243,
+          "sourceUrl": "https://www.openstreetmap.org/way/1499201243",
+          "tags": {
+            "alt_name": "Cladrastis Avenue",
+            "cycleway:both": "lane",
+            "highway": "unclassified",
+            "lanes": "2",
+            "maxspeed": "15 mph",
+            "name": "Cladrash's Avenue",
+            "oneway": "no",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Natural History Avenue",
+          "latitude": 41.7863172,
+          "longitude": -71.4125332,
+          "osmType": "way",
+          "osmId": 1499201244,
+          "sourceUrl": "https://www.openstreetmap.org/way/1499201244",
+          "tags": {
+            "highway": "unclassified",
+            "maxspeed": "15 mph",
+            "name": "Natural History Avenue",
+            "sidewalk:left": "no",
+            "sidewalk:right": "separate",
+            "tiger:cfcc": "A41",
+            "tiger:name_base": "Natural History",
+            "tiger:name_type": "Ave",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Japanese Garden",
+          "latitude": 41.7836452,
+          "longitude": -71.4151572,
+          "osmType": "relation",
+          "osmId": 3110994,
+          "sourceUrl": "https://www.openstreetmap.org/relation/3110994",
+          "tags": {
+            "name": "Japanese Garden",
+            "natural": "water",
+            "type": "multipolygon"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Roosevelt Lake",
+          "latitude": 41.783708,
+          "longitude": -71.4169108,
+          "osmType": "relation",
+          "osmId": 3111045,
+          "sourceUrl": "https://www.openstreetmap.org/relation/3111045",
+          "tags": {
+            "name": "Roosevelt Lake",
+            "natural": "water",
+            "type": "multipolygon",
+            "wikidata": "Q7357805"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Cunliff Lake",
+          "latitude": 41.7808092,
+          "longitude": -71.4114939,
+          "osmType": "relation",
+          "osmId": 13760409,
+          "sourceUrl": "https://www.openstreetmap.org/relation/13760409",
+          "tags": {
+            "name": "Cunliff Lake",
+            "natural": "water",
+            "type": "multipolygon"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Edgewood Lake",
+          "latitude": 41.7821211,
+          "longitude": -71.4071589,
+          "osmType": "relation",
+          "osmId": 13760410,
+          "sourceUrl": "https://www.openstreetmap.org/relation/13760410",
+          "tags": {
+            "name": "Edgewood Lake",
+            "natural": "water",
+            "type": "multipolygon",
+            "wikidata": "Q5337910"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Pleasure Lake",
+          "latitude": 41.7853015,
+          "longitude": -71.4103394,
+          "osmType": "relation",
+          "osmId": 13760411,
+          "sourceUrl": "https://www.openstreetmap.org/relation/13760411",
+          "tags": {
+            "name": "Pleasure Lake",
+            "natural": "water",
+            "type": "multipolygon"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Tim O'Neil Baseball Fields",
+          "latitude": 41.7908923,
+          "longitude": -71.4122948,
+          "osmType": "relation",
+          "osmId": 13760514,
+          "sourceUrl": "https://www.openstreetmap.org/relation/13760514",
+          "tags": {
+            "leisure": "pitch",
+            "name": "Tim O'Neil Baseball Fields",
+            "sport": "baseball",
+            "type": "multipolygon"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    },
+    "launch-ri-providence-india-point-park": {
+      "name": "India Point Park",
+      "boundarySource": "https://www.openstreetmap.org/way/130668336",
+      "candidates": [
+        {
+          "name": "India Point",
+          "latitude": 41.816921,
+          "longitude": -71.3902331,
+          "osmType": "node",
+          "osmId": 7516188753,
+          "sourceUrl": "https://www.openstreetmap.org/node/7516188753",
+          "tags": {
+            "name": "India Point",
+            "natural": "cape",
+            "source": "USGS Topographic Maps"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Community Boating Center",
+          "latitude": 41.817028,
+          "longitude": -71.3971655,
+          "osmType": "way",
+          "osmId": 171476120,
+          "sourceUrl": "https://www.openstreetmap.org/way/171476120",
+          "tags": {
+            "building": "yes",
+            "leisure": "sports_centre",
+            "name": "Community Boating Center",
+            "sport": "sailing;canoe"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Portugal Parkway",
+          "latitude": 41.8177408,
+          "longitude": -71.3957865,
+          "osmType": "way",
+          "osmId": 310545410,
+          "sourceUrl": "https://www.openstreetmap.org/way/310545410",
+          "tags": {
+            "alt_name": "India Street",
+            "highway": "tertiary",
+            "lanes": "2",
+            "maxspeed": "25 mph",
+            "name": "Portugal Parkway",
+            "name:etymology:wikidata": "Q45",
+            "sidewalk": "right",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:name_base": "Gano:India",
+            "tiger:name_type": "St",
+            "tiger:reviewed": "yes"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    },
+    "launch-me-portland-eastern-promenade": {
+      "name": "Eastern Promenade",
+      "boundarySource": "https://www.openstreetmap.org/way/29986879",
+      "candidates": [
+        {
+          "name": "First Civic Monument",
+          "latitude": 43.6689726,
+          "longitude": -70.2441314,
+          "osmType": "node",
+          "osmId": 358231891,
+          "sourceUrl": "https://www.openstreetmap.org/node/358231891",
+          "tags": {
+            "historic": "monument",
+            "name": "First Civic Monument"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Fish Point",
+          "latitude": 43.666194,
+          "longitude": -70.2387903,
+          "osmType": "node",
+          "osmId": 1614368121,
+          "sourceUrl": "https://www.openstreetmap.org/node/1614368121",
+          "tags": {
+            "gnis:feature_id": "566208",
+            "name": "Fish Point",
+            "natural": "cape"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Mast of the USS Portland",
+          "latitude": 43.665781,
+          "longitude": -70.2400432,
+          "osmType": "node",
+          "osmId": 5196897404,
+          "sourceUrl": "https://www.openstreetmap.org/node/5196897404",
+          "tags": {
+            "description": "https://en.wikipedia.org/wiki/USS_Portland_(CA-33)",
+            "historic": "monument",
+            "name": "Mast of the USS Portland",
+            "wikidata": "Q2448527",
+            "wikimedia_commons": "File:USSPortlandFortAllenPk01.jpg",
+            "wikipedia": "en:USS Portland (CA-33)"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "East End Boat Launch",
+          "latitude": 43.6707086,
+          "longitude": -70.2418653,
+          "osmType": "node",
+          "osmId": 7975116546,
+          "sourceUrl": "https://www.openstreetmap.org/node/7975116546",
+          "tags": {
+            "fee": "yes",
+            "intermittent": "no",
+            "leisure": "slipway",
+            "name": "East End Boat Launch",
+            "tidal": "yes",
+            "waterbody:name": "Casco Bay"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "East End Boat Launch",
+          "latitude": 43.6707221,
+          "longitude": -70.2417508,
+          "osmType": "node",
+          "osmId": 7975116626,
+          "sourceUrl": "https://www.openstreetmap.org/node/7975116626",
+          "tags": {
+            "fee": "yes",
+            "intermittent": "no",
+            "leisure": "slipway",
+            "name": "East End Boat Launch",
+            "tidal": "yes",
+            "waterbody:name": "Casco Bay"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Fort Allen Park",
+          "latitude": 43.6655561,
+          "longitude": -70.2407517,
+          "osmType": "way",
+          "osmId": 11386520,
+          "sourceUrl": "https://www.openstreetmap.org/way/11386520",
+          "tags": {
+            "highway": "service",
+            "name": "Fort Allen Park",
+            "oneway": "yes"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Cutter Street",
+          "latitude": 43.6686073,
+          "longitude": -70.2421746,
+          "osmType": "way",
+          "osmId": 11405675,
+          "sourceUrl": "https://www.openstreetmap.org/way/11405675",
+          "tags": {
+            "highway": "residential",
+            "maxspeed": "15 mph",
+            "name": "Cutter Street",
+            "sidewalk": "right",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Kiley Softball Field",
+          "latitude": 43.6711335,
+          "longitude": -70.248892,
+          "osmType": "way",
+          "osmId": 30105000,
+          "sourceUrl": "https://www.openstreetmap.org/way/30105000",
+          "tags": {
+            "leisure": "pitch",
+            "lit": "no",
+            "name": "Kiley Softball Field",
+            "sport": "softball",
+            "surface": "grass"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Eastern Promenade Midslope Trail",
+          "latitude": 43.6670699,
+          "longitude": -70.2407882,
+          "osmType": "way",
+          "osmId": 44734265,
+          "sourceUrl": "https://www.openstreetmap.org/way/44734265",
+          "tags": {
+            "highway": "footway",
+            "name": "Eastern Promenade Midslope Trail",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Carter Field",
+          "latitude": 43.6700461,
+          "longitude": -70.2457468,
+          "osmType": "way",
+          "osmId": 134475089,
+          "sourceUrl": "https://www.openstreetmap.org/way/134475089",
+          "tags": {
+            "leisure": "pitch",
+            "lit": "no",
+            "name": "Carter Field",
+            "sport": "baseball",
+            "surface": "grass"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Eastern Promenode Midslope Trail",
+          "latitude": 43.6711892,
+          "longitude": -70.2460492,
+          "osmType": "way",
+          "osmId": 268221691,
+          "sourceUrl": "https://www.openstreetmap.org/way/268221691",
+          "tags": {
+            "highway": "path",
+            "name": "Eastern Promenode Midslope Trail"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Major Charles Loring Memorial Park",
+          "latitude": 43.6724995,
+          "longitude": -70.2552699,
+          "osmType": "way",
+          "osmId": 342989652,
+          "sourceUrl": "https://www.openstreetmap.org/way/342989652",
+          "tags": {
+            "historic": "memorial",
+            "material": "stone",
+            "memorial": "war_memorial",
+            "name": "Major Charles Loring Memorial Park"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Eastern Promenade",
+          "latitude": 43.6713574,
+          "longitude": -70.2552452,
+          "osmType": "way",
+          "osmId": 461904900,
+          "sourceUrl": "https://www.openstreetmap.org/way/461904900",
+          "tags": {
+            "highway": "tertiary",
+            "maxspeed": "25 mph",
+            "name": "Eastern Promenade",
+            "route": "bicycle",
+            "sidewalk:left": "separate",
+            "sidewalk:right": "no",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Cumberland, ME",
+            "tiger:name_base": "Eastern Promenade",
+            "tiger:reviewed": "no",
+            "tiger:zip_left": "04101",
+            "tiger:zip_left_1": "04101",
+            "tiger:zip_right": "04101"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Eastern Promenade Bandstand",
+          "latitude": 43.6652053,
+          "longitude": -70.2403626,
+          "osmType": "way",
+          "osmId": 845530712,
+          "sourceUrl": "https://www.openstreetmap.org/way/845530712",
+          "tags": {
+            "amenity": "shelter",
+            "bench": "no",
+            "building": "yes",
+            "lit": "no",
+            "name": "Eastern Promenade Bandstand",
+            "shelter_type": "gazebo"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Casco Bay Community Garden",
+          "latitude": 43.6709252,
+          "longitude": -70.2475955,
+          "osmType": "way",
+          "osmId": 893973154,
+          "sourceUrl": "https://www.openstreetmap.org/way/893973154",
+          "tags": {
+            "description": "Casco Bay Community Garden was built in 2015 through a series of volunteer workdays. Gardeners tend their plots overlooking Casco Bay, and named this garden in honor of the beautiful view. The garden was constructed using a permaculture technique called “",
+            "garden:type": "community",
+            "leisure": "garden",
+            "name": "Casco Bay Community Garden",
+            "operator": "Cultivating Community",
+            "website": "https://www.cultivatingcommunity.org/"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Eastern Promenade Midslope Trail",
+          "latitude": 43.6645253,
+          "longitude": -70.2403985,
+          "osmType": "way",
+          "osmId": 977020504,
+          "sourceUrl": "https://www.openstreetmap.org/way/977020504",
+          "tags": {
+            "handrail": "no",
+            "highway": "steps",
+            "incline": "down",
+            "name": "Eastern Promenade Midslope Trail",
+            "ramp": "no",
+            "surface": "rock"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Eastern Promenade Midslope Trail",
+          "latitude": 43.6647029,
+          "longitude": -70.2403327,
+          "osmType": "way",
+          "osmId": 977020505,
+          "sourceUrl": "https://www.openstreetmap.org/way/977020505",
+          "tags": {
+            "access": "yes",
+            "handrail": "no",
+            "highway": "steps",
+            "name": "Eastern Promenade Midslope Trail",
+            "ramp": "no",
+            "step_count": "6"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Cutter Street",
+          "latitude": 43.6704579,
+          "longitude": -70.2417131,
+          "osmType": "way",
+          "osmId": 977020515,
+          "sourceUrl": "https://www.openstreetmap.org/way/977020515",
+          "tags": {
+            "highway": "residential",
+            "maxspeed": "15 mph",
+            "name": "Cutter Street"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Eastern Promenade Trail",
+          "latitude": 43.6717301,
+          "longitude": -70.2488521,
+          "osmType": "way",
+          "osmId": 1224805928,
+          "sourceUrl": "https://www.openstreetmap.org/way/1224805928",
+          "tags": {
+            "bicycle": "yes",
+            "foot": "yes",
+            "highway": "cycleway",
+            "horse": "no",
+            "name": "Eastern Promenade Trail",
+            "segregated": "no",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Eastern Promenade Trail",
+          "latitude": 43.6695674,
+          "longitude": -70.2417949,
+          "osmType": "way",
+          "osmId": 1224805929,
+          "sourceUrl": "https://www.openstreetmap.org/way/1224805929",
+          "tags": {
+            "bicycle": "designated",
+            "crossing": "uncontrolled",
+            "crossing:markings": "zebra",
+            "cycleway": "crossing",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Eastern Promenade Trail",
+            "segregated": "no",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "North Street Community Garden",
+          "latitude": 43.6705214,
+          "longitude": -70.253742,
+          "osmType": "relation",
+          "osmId": 11558195,
+          "sourceUrl": "https://www.openstreetmap.org/relation/11558195",
+          "tags": {
+            "charge": "$40",
+            "description": "North Street was built in 1998 and has 52 plots. Located across the street from the East End Elementary School, this community garden is adjacent to the school garden and overlooks Back Bay Cove. On clear days, gardeners have spectacular views of Mount Wa",
+            "fee": "yes",
+            "garden:type": "community",
+            "leisure": "garden",
+            "name": "North Street Community Garden",
+            "operator": "City of Portland",
+            "operator:type": "government",
+            "type": "multipolygon",
+            "website": "https://www.cultivatingcommunity.org/programs/urban-ag-community-gardens/city-of-portland-community-gardens/"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    },
+    "launch-me-portland-deering-oaks-park": {
+      "name": "Deering Oaks Park",
+      "boundarySource": "https://www.openstreetmap.org/relation/16811229",
+      "candidates": [
+        {
+          "name": "Deering Oaks Fountain",
+          "latitude": 43.6583842,
+          "longitude": -70.269762,
+          "osmType": "node",
+          "osmId": 2924983101,
+          "sourceUrl": "https://www.openstreetmap.org/node/2924983101",
+          "tags": {
+            "amenity": "fountain",
+            "name": "Deering Oaks Fountain"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Pinecone",
+          "latitude": 43.6576255,
+          "longitude": -70.2728229,
+          "osmType": "node",
+          "osmId": 8997309926,
+          "sourceUrl": "https://www.openstreetmap.org/node/8997309926",
+          "tags": {
+            "artist_name": "Patrick Plourde",
+            "artwork_type": "sculpture",
+            "material": "metal",
+            "name": "Pinecone",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Candelabra Tree",
+          "latitude": 43.658786,
+          "longitude": -70.2679826,
+          "osmType": "node",
+          "osmId": 9021351304,
+          "sourceUrl": "https://www.openstreetmap.org/node/9021351304",
+          "tags": {
+            "name": "Candelabra Tree",
+            "natural": "tree",
+            "source": "Mapbox",
+            "source:name": "https://www.pressherald.com/2021/06/23/portlands-candelabra-tree-suffers-from-browntail-moth-caterpillar-infestation/"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Pickle Ball Courts at Deering Oaks Park",
+          "latitude": 43.6603479,
+          "longitude": -70.2714995,
+          "osmType": "node",
+          "osmId": 13192543941,
+          "sourceUrl": "https://www.openstreetmap.org/node/13192543941",
+          "tags": {
+            "board_type": "welcome_sign",
+            "information": "board",
+            "name": "Pickle Ball Courts at Deering Oaks Park",
+            "operator": "Deering Oaks Park",
+            "tourism": "information"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Field Goal Post",
+          "latitude": 43.6598314,
+          "longitude": -70.2741583,
+          "osmType": "node",
+          "osmId": 13192849408,
+          "sourceUrl": "https://www.openstreetmap.org/node/13192849408",
+          "tags": {
+            "access": "yes",
+            "leisure": "pitch",
+            "name": "Field Goal Post",
+            "sport": "american_football",
+            "surface": "metal"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Duck House",
+          "latitude": 43.6581586,
+          "longitude": -70.2701829,
+          "osmType": "node",
+          "osmId": 13320061806,
+          "sourceUrl": "https://www.openstreetmap.org/node/13320061806",
+          "tags": {
+            "artwork_type": "sculpture",
+            "material": "wood",
+            "name": "Duck House",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "State Street",
+          "latitude": 43.6587294,
+          "longitude": -70.2687866,
+          "osmType": "way",
+          "osmId": 11412221,
+          "sourceUrl": "https://www.openstreetmap.org/way/11412221",
+          "tags": {
+            "cycleway:left": "no",
+            "cycleway:right": "lane",
+            "highway": "primary",
+            "lanes": "2",
+            "name": "State Street",
+            "oneway": "yes",
+            "sidewalk:both": "separate",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Deering Oaks Baseball Field",
+          "latitude": 43.6601187,
+          "longitude": -70.2703087,
+          "osmType": "way",
+          "osmId": 29194113,
+          "sourceUrl": "https://www.openstreetmap.org/way/29194113",
+          "tags": {
+            "leisure": "pitch",
+            "name": "Deering Oaks Baseball Field",
+            "sport": "baseball"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "High Street",
+          "latitude": 43.6584494,
+          "longitude": -70.2672831,
+          "osmType": "way",
+          "osmId": 50090009,
+          "sourceUrl": "https://www.openstreetmap.org/way/50090009",
+          "tags": {
+            "highway": "primary",
+            "lanes": "2",
+            "name": "High Street",
+            "oneway": "yes",
+            "surface": "asphalt",
+            "tiger:cfcc": "A31",
+            "tiger:county": "Cumberland, ME",
+            "tiger:name_base": "High",
+            "tiger:name_base_1": "State Route 77",
+            "tiger:name_type": "St",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Rose Circle",
+          "latitude": 43.6588011,
+          "longitude": -70.2683586,
+          "osmType": "way",
+          "osmId": 370661224,
+          "sourceUrl": "https://www.openstreetmap.org/way/370661224",
+          "tags": {
+            "leisure": "garden",
+            "name": "Rose Circle"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Deering Oaks Volleyball Court",
+          "latitude": 43.6602093,
+          "longitude": -70.2733119,
+          "osmType": "way",
+          "osmId": 460918278,
+          "sourceUrl": "https://www.openstreetmap.org/way/460918278",
+          "tags": {
+            "leisure": "pitch",
+            "name": "Deering Oaks Volleyball Court",
+            "sport": "beachvolleyball",
+            "surface": "sand"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Deering Oaks Bandshell",
+          "latitude": 43.6587188,
+          "longitude": -70.2706162,
+          "osmType": "way",
+          "osmId": 552478086,
+          "sourceUrl": "https://www.openstreetmap.org/way/552478086",
+          "tags": {
+            "addr:city": "Portland",
+            "addr:housenumber": "61",
+            "addr:postcode": "04101",
+            "addr:state": "ME",
+            "addr:street": "Park Avenue",
+            "building": "yes",
+            "leisure": "bandstand",
+            "name": "Deering Oaks Bandshell"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Deering Oaks Ravine",
+          "latitude": 43.6579879,
+          "longitude": -70.2723718,
+          "osmType": "way",
+          "osmId": 706783605,
+          "sourceUrl": "https://www.openstreetmap.org/way/706783605",
+          "tags": {
+            "access": "yes",
+            "description": "A place for children to play in shallow water.",
+            "leisure": "swimming_pool",
+            "name": "Deering Oaks Ravine"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Deering Oaks Football Field",
+          "latitude": 43.6595366,
+          "longitude": -70.2746198,
+          "osmType": "way",
+          "osmId": 1230318062,
+          "sourceUrl": "https://www.openstreetmap.org/way/1230318062",
+          "tags": {
+            "leisure": "pitch",
+            "name": "Deering Oaks Football Field",
+            "sport": "american_football"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Deering Oaks Pond",
+          "latitude": 43.6584726,
+          "longitude": -70.2706025,
+          "osmType": "relation",
+          "osmId": 16810565,
+          "sourceUrl": "https://www.openstreetmap.org/relation/16810565",
+          "tags": {
+            "name": "Deering Oaks Pond",
+            "natural": "water",
+            "type": "multipolygon",
+            "water": "pond"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Deering Oaks Park",
+          "latitude": 43.6586254,
+          "longitude": -70.2711284,
+          "osmType": "relation",
+          "osmId": 16811229,
+          "sourceUrl": "https://www.openstreetmap.org/relation/16811229",
+          "tags": {
+            "addr:city": "Portland",
+            "gnis:feature_id": "565010",
+            "leisure": "park",
+            "name": "Deering Oaks Park",
+            "operator": "City of Portland",
+            "operator:type": "government",
+            "operator:wikidata": "Q49201",
+            "type": "multipolygon",
+            "wikidata": "Q5250967",
+            "wikipedia": "en:Deering Oaks Park"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Goodwin Playspace",
+          "latitude": 43.6599394,
+          "longitude": -70.2716725,
+          "osmType": "relation",
+          "osmId": 16816642,
+          "sourceUrl": "https://www.openstreetmap.org/relation/16816642",
+          "tags": {
+            "leisure": "playground",
+            "name": "Goodwin Playspace",
+            "operator": "City of Portland",
+            "type": "multipolygon"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    },
+    "launch-vt-burlington-waterfront-park": {
+      "name": "Waterfront Park",
+      "boundarySource": "https://www.openstreetmap.org/relation/11496519",
+      "candidates": [
+        {
+          "name": "A Water Playground",
+          "latitude": 44.4778405,
+          "longitude": -73.2215937,
+          "osmType": "node",
+          "osmId": 10005411963,
+          "sourceUrl": "https://www.openstreetmap.org/node/10005411963",
+          "tags": {
+            "board_type": "history",
+            "information": "board",
+            "name": "A Water Playground",
+            "tourism": "information"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "College Street",
+          "latitude": 44.4768862,
+          "longitude": -73.2210221,
+          "osmType": "way",
+          "osmId": 19693709,
+          "sourceUrl": "https://www.openstreetmap.org/way/19693709",
+          "tags": {
+            "highway": "unclassified",
+            "lane_markings": "no",
+            "maxspeed": "25 mph",
+            "name": "College Street",
+            "oneway": "yes",
+            "paving_stones:material": "brick",
+            "sidewalk": "separate",
+            "surface": "paving_stones"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Burlington Greenway",
+          "latitude": 44.480114,
+          "longitude": -73.2219415,
+          "osmType": "way",
+          "osmId": 25402177,
+          "sourceUrl": "https://www.openstreetmap.org/way/25402177",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "lit": "no",
+            "motor_vehicle": "no",
+            "name": "Burlington Greenway",
+            "oneway": "no",
+            "segregated": "no",
+            "surface": "asphalt",
+            "width": "10'"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Burlington Greenway",
+          "latitude": 44.4779614,
+          "longitude": -73.2209704,
+          "osmType": "way",
+          "osmId": 492431218,
+          "sourceUrl": "https://www.openstreetmap.org/way/492431218",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "lit": "no",
+            "motor_vehicle": "no",
+            "name": "Burlington Greenway",
+            "oneway": "no",
+            "segregated": "no",
+            "surface": "asphalt",
+            "width": "10'"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Burlington Greenway",
+          "latitude": 44.4811749,
+          "longitude": -73.222665,
+          "osmType": "way",
+          "osmId": 1092768895,
+          "sourceUrl": "https://www.openstreetmap.org/way/1092768895",
+          "tags": {
+            "bicycle": "designated",
+            "cycleway": "crossing",
+            "foot": "designated",
+            "highway": "cycleway",
+            "lit": "yes",
+            "motor_vehicle": "no",
+            "name": "Burlington Greenway",
+            "oneway": "no",
+            "segregated": "no",
+            "surface": "concrete",
+            "width": "3.5"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    },
+    "launch-vt-burlington-oakledge-park": {
+      "name": "Oakledge Park",
+      "boundarySource": "https://www.openstreetmap.org/way/26251093",
+      "candidates": [
+        {
+          "name": "Burlington Earth Clock",
+          "latitude": 44.4577879,
+          "longitude": -73.2235138,
+          "osmType": "node",
+          "osmId": 5272802252,
+          "sourceUrl": "https://www.openstreetmap.org/node/5272802252",
+          "tags": {
+            "addr:city": "Burlington",
+            "addr:housenumber": "1",
+            "addr:state": "VT",
+            "addr:street": "Proctor Place",
+            "amenity": "clock",
+            "display": "sundial",
+            "name": "Burlington Earth Clock",
+            "ref:vcgi:esiteid": "327283",
+            "support": "none"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Oakledge Park",
+          "latitude": 44.454471,
+          "longitude": -73.2265666,
+          "osmType": "way",
+          "osmId": 26251093,
+          "sourceUrl": "https://www.openstreetmap.org/way/26251093",
+          "tags": {
+            "leisure": "park",
+            "name": "Oakledge Park"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Burlington Greenway",
+          "latitude": 44.4550531,
+          "longitude": -73.2264473,
+          "osmType": "way",
+          "osmId": 26273845,
+          "sourceUrl": "https://www.openstreetmap.org/way/26273845",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Burlington Greenway",
+            "segregated": "no",
+            "smoothness": "excellent",
+            "surface": "asphalt",
+            "width": "10'"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Oakledge Pavilion",
+          "latitude": 44.4534703,
+          "longitude": -73.2276232,
+          "osmType": "way",
+          "osmId": 201646682,
+          "sourceUrl": "https://www.openstreetmap.org/way/201646682",
+          "tags": {
+            "amenity": "shelter",
+            "bin": "yes",
+            "building": "yes",
+            "height": "5",
+            "name": "Oakledge Pavilion",
+            "shelter_type": "picnic_shelter"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Oakledge Cove",
+          "latitude": 44.454194,
+          "longitude": -73.2293274,
+          "osmType": "way",
+          "osmId": 283825759,
+          "sourceUrl": "https://www.openstreetmap.org/way/283825759",
+          "tags": {
+            "name": "Oakledge Cove",
+            "natural": "beach"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Burlington Greenway",
+          "latitude": 44.4570784,
+          "longitude": -73.2239202,
+          "osmType": "way",
+          "osmId": 367066035,
+          "sourceUrl": "https://www.openstreetmap.org/way/367066035",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Burlington Greenway",
+            "segregated": "no",
+            "surface": "asphalt",
+            "width": "10'"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Forever Young Treehouse",
+          "latitude": 44.4526969,
+          "longitude": -73.2279833,
+          "osmType": "way",
+          "osmId": 1173766359,
+          "sourceUrl": "https://www.openstreetmap.org/way/1173766359",
+          "tags": {
+            "access": "yes",
+            "leisure": "playground",
+            "name": "Forever Young Treehouse"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Burlington Greenway",
+          "latitude": 44.4522295,
+          "longitude": -73.2270235,
+          "osmType": "way",
+          "osmId": 1270549189,
+          "sourceUrl": "https://www.openstreetmap.org/way/1270549189",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Burlington Greenway",
+            "segregated": "no",
+            "smoothness": "excellent",
+            "surface": "asphalt",
+            "width": "10'"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Burlington Greenway",
+          "latitude": 44.4535602,
+          "longitude": -73.2273182,
+          "osmType": "way",
+          "osmId": 1270549190,
+          "sourceUrl": "https://www.openstreetmap.org/way/1270549190",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Burlington Greenway",
+            "segregated": "no",
+            "smoothness": "excellent",
+            "surface": "asphalt",
+            "width": "10'"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Oakledge Park Playground",
+          "latitude": 44.4557777,
+          "longitude": -73.2265232,
+          "osmType": "way",
+          "osmId": 1375583771,
+          "sourceUrl": "https://www.openstreetmap.org/way/1375583771",
+          "tags": {
+            "access": "yes",
+            "leisure": "playground",
+            "name": "Oakledge Park Playground"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    }
+  }
+}

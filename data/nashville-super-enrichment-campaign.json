@@ -1,0 +1,81 @@
+{
+  "campaign": "Nashville high-impact public destinations",
+  "checkedAt": "2026-08-06",
+  "releaseStandard": "Four sourced photos, eight mapped subsites, current visitor answers, static canonical pages, and live verification.",
+  "places": [
+    {
+      "id": "launch-tn-nashville-centennial-park",
+      "name": "Centennial Park",
+      "city": "Nashville",
+      "citySlug": "nashville-tn",
+      "operator": "Metro Nashville Parks and Recreation",
+      "source": "https://www.nashville.gov/departments/parks/parks/centennial-park",
+      "subsites": ["The Parthenon", "Athena Statue", "Lake Watauga", "Sunken Garden", "Musicians Corner", "Centennial Dog Park", "Centennial Art Center", "Centennial Sportsplex"]
+    },
+    {
+      "id": "launch-tn-nashville-shelby-bottoms-and-shelby-park",
+      "name": "Shelby Bottoms and Shelby Park",
+      "city": "Nashville",
+      "citySlug": "nashville-tn",
+      "operator": "Metro Nashville Parks and Recreation",
+      "source": "https://www.nashville.gov/departments/parks/nature-centers-and-natural-areas/shelby-bottoms-nature-center/shelby-bottoms-park",
+      "subsites": ["Shelby Bottoms Nature Center", "Cornelia Fort Airpark", "Cumberland River Pedestrian Bridge", "Shelby Bottoms Main Trailhead", "Sevier Lake", "Shelby Park Playground", "Shelby Golf Course", "Shelby Bottoms Observation Deck"]
+    },
+    {
+      "id": "launch-tn-nashville-warner-parks",
+      "name": "Warner Parks",
+      "city": "Nashville",
+      "citySlug": "nashville-tn",
+      "operator": "Metro Nashville Parks and Recreation",
+      "source": "https://www.nashville.gov/departments/parks/parks/warner-parks",
+      "subsites": ["Warner Park Nature Center", "Mossy Ridge Trail", "Harpeth Woods Trail", "Percy Warner Allée", "Luke Lea Heights Overlook", "Warner Dog Park", "Warner Mountain Bike Trail", "Iroquois Steeplechase Course"]
+    },
+    {
+      "id": "launch-tn-nashville-bicentennial-capitol-mall-state-park",
+      "name": "Bicentennial Capitol Mall State Park",
+      "city": "Nashville",
+      "citySlug": "nashville-tn",
+      "operator": "Tennessee State Parks",
+      "source": "https://tnstateparks.com/parks/bicentennial-capitol-mall",
+      "subsites": ["Tennessee Map Plaza", "Pathway of History", "Rivers of Tennessee Fountains", "95-Bell Carillon", "Court of 3 Stars", "Bicentennial Amphitheater", "Nashville Farmers Market", "Tennessee State Capitol View"]
+    },
+    {
+      "id": "launch-tn-nashville-wasioto-park",
+      "name": "Wasioto Park",
+      "alternateNames": ["Cumberland Park"],
+      "city": "Nashville",
+      "citySlug": "nashville-tn",
+      "operator": "Metro Nashville Parks and Recreation",
+      "source": "https://www.nashville.gov/departments/parks/parks/wasioto-park",
+      "subsites": ["The Hollow", "The Scoops", "The Gorge", "Explorer Trail", "Wasioto Park Spray Ground", "Wasioto Park Amphitheater", "Shelby Street Bridge Elevator", "The Lawn at Wasioto Park"]
+    },
+    {
+      "id": "launch-tn-nashville-radnor-lake-state-natural-area",
+      "name": "Radnor Lake State Natural Area",
+      "alternateNames": ["Radnor Lake State Park"],
+      "city": "Nashville",
+      "citySlug": "nashville-tn",
+      "operator": "Tennessee State Parks",
+      "source": "https://tnstateparks.com/parks/radnor-lake",
+      "subsites": ["Walter Criley Visitor Center", "Lake Trail", "Ganier Ridge Trail", "South Cove Trail", "Otter Creek Road", "Barbara J. Mapp Aviary Education Center", "East Lake Trail", "Radnor Lake West Parking Area"]
+    },
+    {
+      "id": "launch-tn-nashville-fort-negley-park",
+      "name": "Fort Negley Park",
+      "city": "Nashville",
+      "citySlug": "nashville-tn",
+      "operator": "Metro Nashville Parks and Recreation",
+      "source": "https://www.nashville.gov/departments/parks/historic-sites/fort-negley",
+      "subsites": ["Fort Negley Visitors Center", "Historic Fort Structure", "Fort Negley Walking Trail", "Nashville Skyline Overlook", "Fort Negley Interpretive Panels", "Fort Negley Native Meadow", "Chestnut Street Entrance", "Fort Negley Memorial Landscape"]
+    },
+    {
+      "id": "launch-tn-nashville-two-rivers-park",
+      "name": "Two Rivers Park",
+      "city": "Nashville",
+      "citySlug": "nashville-tn",
+      "operator": "Metro Nashville Parks and Recreation",
+      "source": "https://www.nashville.gov/departments/parks/parks/two-rivers-park",
+      "subsites": ["Wave Country", "Two Rivers Golf Course", "Two Rivers Mansion", "Two Rivers Skatepark", "Two Rivers Disc Golf Course", "Two Rivers Dog Park", "Cumberland River Pedestrian Bridge", "Stones River Greenway Trailhead"]
+    }
+  ]
+}

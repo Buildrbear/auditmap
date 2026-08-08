@@ -1,0 +1,745 @@
+{
+  "generatedAt": "2026-08-05T01:31:31.774Z",
+  "lightEnriched": 274,
+  "withImages": 225,
+  "withoutImages": 49,
+  "averageCompleteness": 90,
+  "unresolved": {
+    "parking": 109,
+    "hours": 26,
+    "amenities": 27,
+    "accessibility": 41,
+    "image": 52
+  },
+  "byCity": [
+    {
+      "city": "Fayetteville",
+      "candidates": 10,
+      "withoutImages": 4,
+      "averageCompleteness": 92
+    },
+    {
+      "city": "Sanford",
+      "candidates": 7,
+      "withoutImages": 3,
+      "averageCompleteness": 87
+    },
+    {
+      "city": "Boiling Spring Lakes",
+      "candidates": 6,
+      "withoutImages": 2,
+      "averageCompleteness": 95
+    },
+    {
+      "city": "Charlotte",
+      "candidates": 25,
+      "withoutImages": 2,
+      "averageCompleteness": 98
+    },
+    {
+      "city": "Greensboro",
+      "candidates": 9,
+      "withoutImages": 2,
+      "averageCompleteness": 89
+    },
+    {
+      "city": "Mount Pleasant",
+      "candidates": 2,
+      "withoutImages": 2,
+      "averageCompleteness": 48
+    },
+    {
+      "city": "Statesville",
+      "candidates": 6,
+      "withoutImages": 2,
+      "averageCompleteness": 80
+    },
+    {
+      "city": "Swannanoa",
+      "candidates": 2,
+      "withoutImages": 2,
+      "averageCompleteness": 40
+    },
+    {
+      "city": "Waxhaw",
+      "candidates": 3,
+      "withoutImages": 2,
+      "averageCompleteness": 90
+    },
+    {
+      "city": "Winston-Salem",
+      "candidates": 10,
+      "withoutImages": 2,
+      "averageCompleteness": 96
+    },
+    {
+      "city": "Asheboro",
+      "candidates": 7,
+      "withoutImages": 1,
+      "averageCompleteness": 87
+    },
+    {
+      "city": "Bear Creek",
+      "candidates": 1,
+      "withoutImages": 1,
+      "averageCompleteness": 90
+    },
+    {
+      "city": "Burlington",
+      "candidates": 6,
+      "withoutImages": 1,
+      "averageCompleteness": 93
+    },
+    {
+      "city": "Chapel Hill",
+      "candidates": 4,
+      "withoutImages": 1,
+      "averageCompleteness": 98
+    },
+    {
+      "city": "China Grove",
+      "candidates": 3,
+      "withoutImages": 1,
+      "averageCompleteness": 87
+    },
+    {
+      "city": "Cleveland",
+      "candidates": 1,
+      "withoutImages": 1,
+      "averageCompleteness": 40
+    },
+    {
+      "city": "Cornelius",
+      "candidates": 1,
+      "withoutImages": 1,
+      "averageCompleteness": 40
+    },
+    {
+      "city": "Elm City",
+      "candidates": 1,
+      "withoutImages": 1,
+      "averageCompleteness": 40
+    },
+    {
+      "city": "Gastonia",
+      "candidates": 1,
+      "withoutImages": 1,
+      "averageCompleteness": 40
+    },
+    {
+      "city": "Goldston",
+      "candidates": 1,
+      "withoutImages": 1,
+      "averageCompleteness": 40
+    },
+    {
+      "city": "Greenville",
+      "candidates": 8,
+      "withoutImages": 1,
+      "averageCompleteness": 96
+    },
+    {
+      "city": "Harrisburg",
+      "candidates": 2,
+      "withoutImages": 1,
+      "averageCompleteness": 70
+    },
+    {
+      "city": "Hudson",
+      "candidates": 1,
+      "withoutImages": 1,
+      "averageCompleteness": 40
+    },
+    {
+      "city": "Jacksonville",
+      "candidates": 3,
+      "withoutImages": 1,
+      "averageCompleteness": 97
+    },
+    {
+      "city": "Jamestown",
+      "candidates": 1,
+      "withoutImages": 1,
+      "averageCompleteness": 40
+    },
+    {
+      "city": "Knightdale",
+      "candidates": 1,
+      "withoutImages": 1,
+      "averageCompleteness": 40
+    },
+    {
+      "city": "Marine Corps Base Camp Lejeune",
+      "candidates": 1,
+      "withoutImages": 1,
+      "averageCompleteness": 40
+    },
+    {
+      "city": "Matthews",
+      "candidates": 1,
+      "withoutImages": 1,
+      "averageCompleteness": 40
+    },
+    {
+      "city": "Monroe",
+      "candidates": 4,
+      "withoutImages": 1,
+      "averageCompleteness": 93
+    },
+    {
+      "city": "Mount Holly",
+      "candidates": 1,
+      "withoutImages": 1,
+      "averageCompleteness": 55
+    },
+    {
+      "city": "New Bern",
+      "candidates": 8,
+      "withoutImages": 1,
+      "averageCompleteness": 98
+    },
+    {
+      "city": "Piney Green",
+      "candidates": 1,
+      "withoutImages": 1,
+      "averageCompleteness": 40
+    },
+    {
+      "city": "River Bend",
+      "candidates": 1,
+      "withoutImages": 1,
+      "averageCompleteness": 40
+    },
+    {
+      "city": "Rocky Mount",
+      "candidates": 10,
+      "withoutImages": 1,
+      "averageCompleteness": 96
+    },
+    {
+      "city": "Rolesville",
+      "candidates": 1,
+      "withoutImages": 1,
+      "averageCompleteness": 40
+    },
+    {
+      "city": "Smithfield",
+      "candidates": 1,
+      "withoutImages": 1,
+      "averageCompleteness": 40
+    },
+    {
+      "city": "Apex",
+      "candidates": 2,
+      "withoutImages": 0,
+      "averageCompleteness": 95
+    },
+    {
+      "city": "Asheville",
+      "candidates": 6,
+      "withoutImages": 0,
+      "averageCompleteness": 92
+    },
+    {
+      "city": "Biltmore Forest",
+      "candidates": 2,
+      "withoutImages": 0,
+      "averageCompleteness": 100
+    },
+    {
+      "city": "Black Mountain",
+      "candidates": 1,
+      "withoutImages": 0,
+      "averageCompleteness": 100
+    },
+    {
+      "city": "Cameron",
+      "candidates": 1,
+      "withoutImages": 0,
+      "averageCompleteness": 60
+    },
+    {
+      "city": "Carolina Beach",
+      "candidates": 3,
+      "withoutImages": 0,
+      "averageCompleteness": 97
+    },
+    {
+      "city": "Cary",
+      "candidates": 2,
+      "withoutImages": 0,
+      "averageCompleteness": 90
+    },
+    {
+      "city": "Clayton",
+      "candidates": 4,
+      "withoutImages": 0,
+      "averageCompleteness": 98
+    },
+    {
+      "city": "Concord",
+      "candidates": 3,
+      "withoutImages": 0,
+      "averageCompleteness": 93
+    },
+    {
+      "city": "Conover",
+      "candidates": 7,
+      "withoutImages": 0,
+      "averageCompleteness": 96
+    },
+    {
+      "city": "Durham",
+      "candidates": 8,
+      "withoutImages": 0,
+      "averageCompleteness": 95
+    },
+    {
+      "city": "Elon",
+      "candidates": 2,
+      "withoutImages": 0,
+      "averageCompleteness": 95
+    },
+    {
+      "city": "Fairview",
+      "candidates": 1,
+      "withoutImages": 0,
+      "averageCompleteness": 100
+    },
+    {
+      "city": "Garner",
+      "candidates": 3,
+      "withoutImages": 0,
+      "averageCompleteness": 87
+    },
+    {
+      "city": "Goldsboro",
+      "candidates": 2,
+      "withoutImages": 0,
+      "averageCompleteness": 100
+    },
+    {
+      "city": "High Point",
+      "candidates": 12,
+      "withoutImages": 0,
+      "averageCompleteness": 98
+    },
+    {
+      "city": "Hillsborough",
+      "candidates": 9,
+      "withoutImages": 0,
+      "averageCompleteness": 93
+    },
+    {
+      "city": "Holly Springs",
+      "candidates": 3,
+      "withoutImages": 0,
+      "averageCompleteness": 97
+    },
+    {
+      "city": "Huntersville",
+      "candidates": 5,
+      "withoutImages": 0,
+      "averageCompleteness": 94
+    },
+    {
+      "city": "Kannapolis",
+      "candidates": 5,
+      "withoutImages": 0,
+      "averageCompleteness": 96
+    },
+    {
+      "city": "Leland",
+      "candidates": 2,
+      "withoutImages": 0,
+      "averageCompleteness": 85
+    },
+    {
+      "city": "Mint Hill",
+      "candidates": 2,
+      "withoutImages": 0,
+      "averageCompleteness": 95
+    },
+    {
+      "city": "Newton",
+      "candidates": 3,
+      "withoutImages": 0,
+      "averageCompleteness": 93
+    },
+    {
+      "city": "Raleigh",
+      "candidates": 16,
+      "withoutImages": 0,
+      "averageCompleteness": 88
+    },
+    {
+      "city": "Salisbury",
+      "candidates": 3,
+      "withoutImages": 0,
+      "averageCompleteness": 100
+    },
+    {
+      "city": "Wake Forest",
+      "candidates": 2,
+      "withoutImages": 0,
+      "averageCompleteness": 95
+    },
+    {
+      "city": "Wilmington",
+      "candidates": 5,
+      "withoutImages": 0,
+      "averageCompleteness": 96
+    },
+    {
+      "city": "Wilson",
+      "candidates": 9,
+      "withoutImages": 0,
+      "averageCompleteness": 96
+    }
+  ],
+  "imageQueue": [
+    {
+      "id": "osm-way-545284411",
+      "name": "Mccray Park",
+      "city": "Asheboro",
+      "source": "https://www.openstreetmap.org/way/545284411",
+      "completenessScore": 40
+    },
+    {
+      "id": "osm-way-966316383",
+      "name": "Southwest District Park",
+      "city": "Bear Creek",
+      "source": "https://www.chathamcountync.gov/government/departments-programs-i-z/parks-recreation-cultural-resources/county-parks-facilities-trails",
+      "completenessScore": 90
+    },
+    {
+      "id": "osm-way-475536394",
+      "name": "Robert Muse Memorial Park",
+      "city": "Boiling Spring Lakes",
+      "source": "https://www.cityofbsl.org/parks-recreation/parks",
+      "completenessScore": 90
+    },
+    {
+      "id": "osm-way-921457340",
+      "name": "Tate Lake Park",
+      "city": "Boiling Spring Lakes",
+      "source": "https://www.cityofbsl.org/parks-recreation/swimming-lakes",
+      "completenessScore": 80
+    },
+    {
+      "id": "osm-way-32920544",
+      "name": "Glen Raven Park",
+      "city": "Burlington",
+      "source": "https://www.alamance-nc.com/planning/wp-content/uploads/sites/21/2013/10/Destination-2020-Plan.pdf",
+      "completenessScore": 90
+    },
+    {
+      "id": "osm-way-33078209",
+      "name": "Jones Park",
+      "city": "Chapel Hill",
+      "source": "https://www.chapelhillnc.gov/Town-Government/Financials/Fee-Schedules/Parking-Fee-Schedule",
+      "completenessScore": 90
+    },
+    {
+      "id": "osm-way-564354806",
+      "name": "Double Oaks Park",
+      "city": "Charlotte",
+      "source": "https://parkandrec.mecknc.gov/Places-to-Visit/Parks",
+      "completenessScore": 90
+    },
+    {
+      "id": "osm-way-1173739241",
+      "name": "University Meadows Park",
+      "city": "Charlotte",
+      "source": "https://parkandrec.mecknc.gov/Places-to-Visit/Parks",
+      "completenessScore": 90
+    },
+    {
+      "id": "osm-way-584753986",
+      "name": "Cannon Park",
+      "city": "China Grove",
+      "source": "https://www.visitrowancountync.com/event/china-grove-farmers-market/11697/",
+      "completenessScore": 80
+    },
+    {
+      "id": "osm-way-33109808",
+      "name": "Cleveland Recreation Park",
+      "city": "Cleveland",
+      "source": "https://www.openstreetmap.org/way/33109808",
+      "completenessScore": 40
+    },
+    {
+      "id": "osm-way-503786389",
+      "name": "Back Creek Neighborhood Park",
+      "city": "Cornelius",
+      "source": "https://www.openstreetmap.org/way/503786389",
+      "completenessScore": 40
+    },
+    {
+      "id": "osm-way-1289526529",
+      "name": "Lake Wilson Reservoir Park",
+      "city": "Elm City",
+      "source": "https://www.wilsonnc.org/Home/Components/FacilityDirectory/FacilityDirectory/46/322",
+      "completenessScore": 40
+    },
+    {
+      "id": "osm-way-575812916",
+      "name": "Hollywood Heights Park",
+      "city": "Fayetteville",
+      "source": "https://www.fayettevillenc.gov/files/sharedassets/main/v/1/finance/documents/budget-and-evaluation/fy-2022-2023-budget-process/fy-202223-adopted-budget.pdf",
+      "completenessScore": 90
+    },
+    {
+      "id": "osm-way-654863691",
+      "name": "Person Street Park",
+      "city": "Fayetteville",
+      "source": "https://www.fayettevillenc.gov/files/sharedassets/main/v/1/development-services/documents/studies-and-plans/central-campbellton-plan-f.pdf",
+      "completenessScore": 90
+    },
+    {
+      "id": "osm-way-589115550",
+      "name": "Sherwood Park",
+      "city": "Fayetteville",
+      "source": "https://www.fayettevillenc.gov/Parks-and-Recreation/About-FCPR",
+      "completenessScore": 80
+    },
+    {
+      "id": "osm-way-589114305",
+      "name": "Woodland Park",
+      "city": "Fayetteville",
+      "source": "https://www.fayettevillenc.gov/Parks-and-Recreation/About-FCPR",
+      "completenessScore": 80
+    },
+    {
+      "id": "osm-relation-16528241",
+      "name": "Lake Drive Park",
+      "city": "Gastonia",
+      "source": "https://www.openstreetmap.org/relation/16528241",
+      "completenessScore": 40
+    },
+    {
+      "id": "osm-node-7154514597",
+      "name": "Goldston Recreational Park",
+      "city": "Goldston",
+      "source": "https://www.openstreetmap.org/node/7154514597",
+      "completenessScore": 40
+    },
+    {
+      "id": "osm-way-569482828",
+      "name": "Amber Park",
+      "city": "Greensboro",
+      "source": "https://recplanet.com/nc/greensboro/amber-park",
+      "completenessScore": 90
+    },
+    {
+      "id": "osm-way-570392318",
+      "name": "Lipscomb Park",
+      "city": "Greensboro",
+      "source": "https://www.greensboro-nc.gov/Home/Components/FacilityDirectory/FacilityDirectory/401/1204",
+      "completenessScore": 80
+    },
+    {
+      "id": "osm-node-357799873",
+      "name": "Woodlawn Park",
+      "city": "Greenville",
+      "source": "https://www.greenvillenc.gov/478/Project-Management",
+      "completenessScore": 90
+    },
+    {
+      "id": "osm-way-385196295",
+      "name": "Harrisburg Municipal Park",
+      "city": "Harrisburg",
+      "source": "https://www.openstreetmap.org/way/385196295",
+      "completenessScore": 40
+    },
+    {
+      "id": "osm-way-770912987",
+      "name": "Hudson Dog Park",
+      "city": "Hudson",
+      "source": "https://www.openstreetmap.org/way/770912987",
+      "completenessScore": 40
+    },
+    {
+      "id": "osm-way-626695360",
+      "name": "L.P. Willingham Park",
+      "city": "Jacksonville",
+      "source": "https://www.jacksonvillenc.gov/111/Places-of-Interest",
+      "completenessScore": 90
+    },
+    {
+      "id": "osm-way-584321603",
+      "name": "Wrenn Miller Park",
+      "city": "Jamestown",
+      "source": "https://www.openstreetmap.org/way/584321603",
+      "completenessScore": 40
+    },
+    {
+      "id": "osm-way-544275754",
+      "name": "Ashley Wilder Dog Park",
+      "city": "Knightdale",
+      "source": "https://www.openstreetmap.org/way/544275754",
+      "completenessScore": 40
+    },
+    {
+      "id": "osm-way-1347165171",
+      "name": "New River Aviation Memorial Park",
+      "city": "Marine Corps Base Camp Lejeune",
+      "source": "https://www.openstreetmap.org/way/1347165171",
+      "completenessScore": 40
+    },
+    {
+      "id": "osm-way-469113294",
+      "name": "Ildewild Road Park",
+      "city": "Matthews",
+      "source": "https://www.openstreetmap.org/way/469113294",
+      "completenessScore": 40
+    },
+    {
+      "id": "osm-way-38619701",
+      "name": "Dickerson Recreation Complex",
+      "city": "Monroe",
+      "source": "https://www.monroenc.org/Facilities/Facility/Details/Dickerson-Community-Center-2",
+      "completenessScore": 80
+    },
+    {
+      "id": "osm-relation-9843543",
+      "name": "Mountain Island Park",
+      "city": "Mount Holly",
+      "source": "https://www.openstreetmap.org/relation/9843543",
+      "completenessScore": 55
+    },
+    {
+      "id": "osm-way-923506106",
+      "name": "Mount Pleasant Municipal Park",
+      "city": "Mount Pleasant",
+      "source": "https://www.openstreetmap.org/way/923506106",
+      "completenessScore": 55
+    },
+    {
+      "id": "osm-way-1369364555",
+      "name": "Virginia Foil Park",
+      "city": "Mount Pleasant",
+      "source": "https://www.openstreetmap.org/way/1369364555",
+      "completenessScore": 40
+    },
+    {
+      "id": "osm-way-1315374092",
+      "name": "West Craven Park",
+      "city": "New Bern",
+      "source": "https://www.cravencountync.gov/DocumentCenter/View/16022/Coast-Area-Management-Act--CAMA-Land-Use-Plan-Adopted-112025-PDF",
+      "completenessScore": 90
+    },
+    {
+      "id": "osm-way-534272015",
+      "name": "Liberty Pointe Dog Park",
+      "city": "Piney Green",
+      "source": "https://www.openstreetmap.org/way/534272015",
+      "completenessScore": 40
+    },
+    {
+      "id": "osm-way-38619638",
+      "name": "River Bend Town Park",
+      "city": "River Bend",
+      "source": "https://www.openstreetmap.org/way/38619638",
+      "completenessScore": 40
+    },
+    {
+      "id": "osm-way-216263192",
+      "name": "Oakwood Drive Park",
+      "city": "Rocky Mount",
+      "source": "https://www.rockymountnc.gov/DocumentCenter/View/400/Program-and-Facility-Guide---2025-Fall-and-Winter-PDF",
+      "completenessScore": 80
+    },
+    {
+      "id": "osm-relation-17131161",
+      "name": "Millbridge Nature Park",
+      "city": "Rolesville",
+      "source": "https://www.openstreetmap.org/relation/17131161",
+      "completenessScore": 40
+    },
+    {
+      "id": "osm-way-33178883",
+      "name": "Buchanan Park",
+      "city": "Sanford",
+      "source": "https://lcncpr.recdesk.com/Community/Facility/Detail?facilityId=16",
+      "completenessScore": 80
+    },
+    {
+      "id": "osm-way-33178239",
+      "name": "Dalrymple Park",
+      "city": "Sanford",
+      "source": "https://lcncpr.recdesk.com/Community/Facility/Detail?facilityId=19",
+      "completenessScore": 90
+    },
+    {
+      "id": "osm-way-33178110",
+      "name": "Horton Community Park",
+      "city": "Sanford",
+      "source": "https://lcncpr.recdesk.com/Community/Facility/Detail?facilityId=18",
+      "completenessScore": 80
+    },
+    {
+      "id": "osm-way-1460332352",
+      "name": "Smithfield Dog Park",
+      "city": "Smithfield",
+      "source": "https://www.openstreetmap.org/way/1460332352",
+      "completenessScore": 40
+    },
+    {
+      "id": "osm-way-1186917407",
+      "name": "Jordan H Shelton Memorial Dog Park (Large Dog)",
+      "city": "Statesville",
+      "source": "https://www.openstreetmap.org/way/1186917407",
+      "completenessScore": 50
+    },
+    {
+      "id": "osm-way-561306978",
+      "name": "McClure Park",
+      "city": "Statesville",
+      "source": "https://www.openstreetmap.org/way/561306978",
+      "completenessScore": 40
+    },
+    {
+      "id": "osm-way-33112463",
+      "name": "Charles D. Owen District Park",
+      "city": "Swannanoa",
+      "source": "https://www.openstreetmap.org/way/33112463",
+      "completenessScore": 40
+    },
+    {
+      "id": "osm-way-996728816",
+      "name": "Grovemont Park",
+      "city": "Swannanoa",
+      "source": "https://www.openstreetmap.org/way/996728816",
+      "completenessScore": 40
+    },
+    {
+      "id": "osm-way-468431261",
+      "name": "Dogwood Park at Wesley Chapel",
+      "city": "Waxhaw",
+      "source": "https://www.wesleychapelnc.com/parks-recreation/page/dogwood-park",
+      "completenessScore": 80
+    },
+    {
+      "id": "osm-way-825199515",
+      "name": "Harvey Clay Nesbit Park",
+      "city": "Waxhaw",
+      "source": "https://www.waxhaw.com/residents/new-residents/things-to-do",
+      "completenessScore": 90
+    },
+    {
+      "id": "osm-way-1276361884",
+      "name": "Easton Park",
+      "city": "Winston-Salem",
+      "source": "https://www.cityofws.org/3576/About-the-Southeast-Ward",
+      "completenessScore": 90
+    },
+    {
+      "id": "osm-way-626322481",
+      "name": "Jamison Park Dog Park",
+      "city": "Winston-Salem",
+      "source": "https://www.cityofws.org/facilities/facility/details/Jamison-Park-142",
+      "completenessScore": 80
+    }
+  ]
+}

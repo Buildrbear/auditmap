@@ -19,3 +19,14 @@ available.
 - Pull requests that change `api/`, `supabase/`, authentication, moderation, or AI spending require
   an AuditMap maintainer's review.
 - Test unfamiliar contributions only through their isolated Vercel preview.
+
+## Launch controls
+
+AuditMap rate-limits costly and trust-sensitive actions in both the Vercel Firewall and the API.
+Anonymous contributions always wait for human review, and newly created accounts earn automatic
+publication only after account age and approved-contribution thresholds are met. Demo accounts can
+never receive moderator privileges.
+
+Production operators can immediately pause community writes, guest notes, reports, media uploads,
+profile photos, or Ask AuditMap with the feature switches documented in `.env.example`. Account
+suspension is enforced server-side across every contribution and upload route.

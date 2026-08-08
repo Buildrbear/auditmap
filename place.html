@@ -3,10 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex,follow" />
     <title>Place | AuditMap</title>
     <meta
       name="description"
-      content="Community details, comments, and photos for a Raleigh public place."
+      content="Sourced visitor details, local knowledge, comments, and photos for a public place in AuditMap's nationwide directory."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,19 +15,26 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="/styles.css?v=20260808-61" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.7/build/pannellum.css" />
   </head>
   <body class="detail-body" data-page="place">
     <header class="site-header">
-      <a class="brand" href="./index.html" aria-label="AuditMap home">
-        <img src="./logo.svg" alt="" />
-        <span>AuditMap</span>
-      </a>
-      <p>Public facts. Local knowledge. Visible sources.</p>
+      <div class="brand-lockup">
+        <a class="brand" href="/index.html" aria-label="AuditMap home">
+          <img src="/logo.svg" alt="" />
+          <span>AuditMap</span>
+        </a>
+        <p>The public's guide to public places.</p>
+      </div>
+      <p class="header-community-note">Built by explorers. Useful to everyone.</p>
     </header>
+    <div class="mobile-brand-path" aria-label="How AuditMap works">
+      <span>Browse</span><i></i><span>Explore</span><i></i><strong>Leave a note</strong>
+    </div>
 
     <main id="place-content" class="detail-shell">
-      <a class="back-link" href="./index.html">← Back to the map</a>
+      <a class="back-link" href="/index.html">← Back to the map</a>
 
       <section class="place-gallery" id="place-gallery" aria-label="Place photos" hidden>
         <div class="gallery-frame">
@@ -34,6 +42,9 @@
           <button class="gallery-arrow gallery-arrow-left" id="gallery-previous" type="button" aria-label="Previous photo">←</button>
           <button class="gallery-arrow gallery-arrow-right" id="gallery-next" type="button" aria-label="Next photo">→</button>
           <p class="gallery-credit" id="gallery-credit"></p>
+          <button class="gallery-360-launch" id="gallery-360-launch" type="button" hidden>
+            <span>360°</span><strong>Look around</strong><small>Community tour</small>
+          </button>
         </div>
         <div class="gallery-dots" id="gallery-dots" aria-label="Choose a photo"></div>
       </section>
@@ -42,7 +53,27 @@
         <div>
           <p class="kicker" id="place-type">Public place</p>
           <h1 id="place-name">Loading...</h1>
+          <p class="place-official-name" id="place-official-name" hidden></p>
           <div class="place-rating" id="place-rating"></div>
+          <div class="place-essentials">
+            <a class="place-address-line" id="place-address-link" href="#" target="_blank" rel="noreferrer" aria-label="Navigate to this address">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.1 7-12A7 7 0 1 0 5 9c0 5.9 7 12 7 12Z"/><circle cx="12" cy="9" r="2.3"/></svg>
+              <span id="place-address"></span>
+            </a>
+            <details class="place-hours-details" id="place-hours-details">
+              <summary>
+                <strong id="place-hours-status">Hours</strong>
+                <span id="place-hours-summary"></span>
+                <span class="hours-carrot" aria-hidden="true">⌄</span>
+              </summary>
+              <div class="place-hours-expanded">
+                <span>Published schedule</span>
+                <strong id="place-hours"></strong>
+                <small id="place-hours-time-zone"></small>
+              </div>
+            </details>
+            <details class="place-weather-details" id="place-weather-card" hidden></details>
+          </div>
           <div class="place-actions" aria-label="Place actions">
             <button type="button" id="share-place-button">
               <svg class="place-action-icon" aria-hidden="true" viewBox="0 0 24 24">
@@ -62,39 +93,31 @@
               </svg>
               <span>Favorite</span>
             </button>
+            <button class="is-explorer-action" type="button" id="open-site-map-button" hidden>
+              <svg class="place-action-icon" aria-hidden="true" viewBox="0 0 24 24">
+                <path d="m4 6 5-2 6 2 5-2v14l-5 2-6-2-5 2V6Z" />
+                <path d="M9 4v14M15 6v14" />
+              </svg>
+              <span>Explore</span>
+            </button>
           </div>
           <p class="place-action-status" id="place-action-status" role="status"></p>
           <p class="synopsis-label" id="synopsis-label">What people say</p>
           <p class="place-summary brief-copy" id="living-brief"></p>
-          <div class="brief-meta">
-            <span class="status-pill" id="record-status">Public record</span>
-            <span id="brief-updated"></span>
-            <span id="brief-completeness"></span>
-          </div>
           <p class="brief-disclosure" id="brief-disclosure"></p>
         </div>
+      </section>
 
-        <div class="place-meta">
-          <div class="meta-row">
-            <span>Area</span>
-            <strong id="place-neighborhood"></strong>
+      <section class="place-live" id="place-live" aria-live="polite" hidden>
+        <div class="place-live-heading">
+          <div>
+            <p class="kicker">At this place</p>
+            <h2>Upcoming events</h2>
           </div>
-          <div class="meta-row">
-            <span>Address</span>
-            <strong id="place-address"></strong>
-          </div>
-          <div class="meta-row">
-            <span>Hours</span>
-            <strong id="place-hours"></strong>
-          </div>
-          <div class="meta-row">
-            <span>About</span>
-            <strong id="place-status"></strong>
-          </div>
-          <div class="meta-row">
-            <span>Source</span>
-            <strong><a id="place-source" href="#" target="_blank" rel="noreferrer"></a></strong>
-          </div>
+          <span id="place-live-updated"></span>
+        </div>
+        <div class="place-live-grid">
+          <div class="place-event-list" id="place-event-list"></div>
         </div>
       </section>
 
@@ -102,10 +125,15 @@
         <div class="place-explorer-heading">
           <div>
             <p class="kicker" id="explorer-kicker">Inside this place</p>
-            <h2>Areas and useful features</h2>
-            <p>Explore destinations, services, entrances, and details before you arrive.</p>
+            <h2 id="explorer-title">Explore the grounds</h2>
+            <p>Choose a destination, preview what it looks like, then open Explorer for live on-site guidance.</p>
           </div>
-          <a id="explorer-source" href="#" target="_blank" rel="noreferrer">View official map ↗</a>
+          <div class="site-map-heading-actions">
+            <span id="site-map-summary"></span>
+            <a id="launch-place-explorer" class="launch-place-explorer" href="#" hidden>Open Explorer</a>
+            <button id="expand-site-map-button" type="button" aria-expanded="false">Open full map</button>
+            <a id="explorer-source" href="#" target="_blank" rel="noreferrer">Official map ↗</a>
+          </div>
         </div>
         <div class="feature-filters" id="feature-filters" aria-label="Filter place features"></div>
         <div class="place-explorer-layout">
@@ -119,18 +147,49 @@
 
       <div class="detail-grid">
         <div>
-          <section class="community-section">
+          <section class="community-section verified-information-section">
             <div class="section-heading-row">
               <div>
                 <p class="kicker">Public record</p>
                 <h2 class="section-title">Verified information</h2>
               </div>
-              <span class="source-count" id="verified-count"></span>
+              <div class="verified-heading-actions">
+                <button class="verified-help-toggle" id="verified-help-toggle" type="button" aria-expanded="false">
+                  <span>Help us verify</span>
+                </button>
+                <button class="verified-source-toggle" id="verified-sources-toggle" type="button" aria-expanded="false">
+                  <span>Sources</span>
+                </button>
+              </div>
             </div>
             <div class="fact-grid" id="fact-grid"></div>
+            <div class="brief-meta verified-record-meta" id="verified-record-meta" hidden>
+              <span class="status-pill" id="record-status">Public record</span>
+              <span id="brief-updated"></span>
+              <span id="brief-completeness"></span>
+            </div>
           </section>
 
-          <section class="community-section">
+          <section class="community-section knowledge-section" id="place-knowledge" hidden>
+            <div class="section-heading-row">
+              <div>
+                <p class="kicker">What people ask</p>
+                <h2 class="section-title">Useful answers about this place</h2>
+              </div>
+              <div class="knowledge-heading-actions">
+                <span class="source-count" id="knowledge-count"></span>
+                <button class="knowledge-source-toggle" id="knowledge-source-toggle" type="button" aria-pressed="false">
+                  Show sources
+                </button>
+              </div>
+            </div>
+            <p class="section-intro">
+              Frequently requested details, researched and kept current by AuditMap.
+            </p>
+            <div class="knowledge-list" id="knowledge-list"></div>
+          </section>
+
+          <section class="community-section" id="quick-community-check">
             <div class="section-heading-row">
               <div>
                 <p class="kicker">Quick community check</p>
@@ -147,79 +206,144 @@
             </p>
           </section>
 
-          <section class="community-section knowledge-section" id="place-knowledge" hidden>
-            <div class="section-heading-row">
-              <div>
-                <p class="kicker">What people ask</p>
-                <h2 class="section-title">Useful answers about this place</h2>
-              </div>
-              <span class="source-count" id="knowledge-count"></span>
-            </div>
-            <p class="section-intro">
-              Frequently requested details, researched and kept current by AuditMap.
-            </p>
-            <div class="knowledge-list" id="knowledge-list"></div>
-          </section>
-
           <section class="community-section" id="discussion">
             <div class="section-heading-row">
               <div>
-                <p class="kicker">Community board</p>
-                <h2 class="section-title">Questions and local knowledge</h2>
+                <p class="kicker">Community for this place</p>
+                <h2 class="section-title">What people are noticing</h2>
               </div>
               <span class="source-count" id="review-count"></span>
             </div>
             <p class="section-intro">
-              Ask a question, share a visit update, or add context that a standard listing misses.
+              Ask a question, share what changed, or help make a detail more reliable.
             </p>
-            <div class="discussion-invite">
-              <div>
-                <span class="discussion-invite-icon" aria-hidden="true">+</span>
-                <div>
-                  <strong>What do you know about this place?</strong>
-                  <span>A small detail can make someone’s visit easier.</span>
-                </div>
-              </div>
-              <div class="discussion-starters" aria-label="Start a contribution">
-                <button type="button" data-discussion-type="question">Ask a question</button>
-                <button type="button" data-discussion-type="observation">Share an update</button>
-                <button type="button" data-discussion-type="confirmation">Add a tip</button>
-              </div>
-            </div>
-            <div class="comment-list" id="comment-list"></div>
+            <div class="community-crumb-cta"></div>
+            <details class="community-feed" id="community-feed" open>
+              <summary>
+                <span><strong>The place log</strong><small>Useful questions, updates, and confirmations from this community.</small></span>
+                <span class="community-feed-count" id="community-feed-count"></span>
+              </summary>
+              <div class="community-feed-toolbar" id="community-feed-toolbar" aria-label="Filter the place log"></div>
+              <div class="comment-list" id="comment-list"></div>
+            </details>
           </section>
 
-          <section class="community-section">
-            <details class="source-disclosure">
-              <summary>
-                <span>Sources and record history</span>
-                <span class="source-count" id="source-count"></span>
-              </summary>
-              <p>See where the information came from and when it was last checked.</p>
-              <div class="source-list" id="source-list"></div>
-            </details>
+          <section class="community-section nearby-discovery" id="nearby-discovery" aria-labelledby="nearby-discovery-title" hidden>
+            <div class="nearby-discovery-heading">
+              <div>
+                <p class="kicker">Keep exploring</p>
+                <h2 class="section-title" id="nearby-discovery-title">Nearby public places</h2>
+                <p class="section-intro" id="nearby-discovery-intro"></p>
+              </div>
+              <a class="nearby-map-link" id="nearby-map-link" href="/index.html">See this area on the map <span aria-hidden="true">→</span></a>
+            </div>
+            <div class="nearby-discovery-toolbar">
+              <div class="nearby-mode-switch" aria-label="Choose recommendation type">
+                <button type="button" data-nearby-mode="nearby" aria-pressed="true">Nearby</button>
+                <button type="button" data-nearby-mode="similar" aria-pressed="false">Similar</button>
+              </div>
+              <div class="nearby-scroll-actions" aria-label="Scroll recommendations">
+                <button type="button" data-nearby-scroll="previous" aria-label="Previous recommendations">←</button>
+                <button type="button" data-nearby-scroll="next" aria-label="Next recommendations">→</button>
+              </div>
+            </div>
+            <div class="nearby-place-track" id="nearby-place-track" role="list" tabindex="0" aria-label="Recommended public places"></div>
+            <p class="nearby-discovery-note">Based on this place's location and public details, not your activity.</p>
           </section>
         </div>
 
         <aside>
+          <section class="funding-card" id="place-funding" aria-labelledby="funding-title">
+            <p class="kicker">Let's build this together</p>
+            <h2 id="funding-title">Help make this place easier to explore.</h2>
+            <p class="funding-mission">
+              Every contribution moves this guide toward its next useful upgrade.
+            </p>
+            <div class="funding-progress-copy">
+              <strong id="funding-progress-label">$0 of $75</strong>
+              <span id="funding-progress-amount">$0 of $75</span>
+            </div>
+            <div
+              class="funding-progress"
+              role="progressbar"
+              aria-label="Funding progress"
+              aria-valuemin="0"
+              aria-valuemax="75"
+              aria-valuenow="0"
+            >
+              <span id="funding-progress-bar"></span>
+            </div>
+            <p class="funding-community-line" id="funding-community-line">
+              Be the first to get this upgrade moving
+            </p>
+            <div class="funding-next-work">
+              <span>Next upgrade</span>
+              <strong id="funding-milestone-title">Six answers visitors should not have to hunt for</strong>
+              <p id="funding-milestone-description">
+                We will track down the practical details, check the sources, and add clear answers right here.
+              </p>
+            </div>
+            <div class="funding-quick-amounts" aria-label="Choose a backing amount">
+              <button type="button" data-funding-amount="5">$5</button>
+              <button type="button" data-funding-amount="15" class="is-recommended">
+                <span>Popular</span>$15
+              </button>
+              <button type="button" data-funding-amount="25">$25</button>
+              <button type="button" data-funding-amount="custom">Other</button>
+            </div>
+            <button class="funding-button" id="open-funding-panel" type="button">
+              Help make it happen
+            </button>
+            <ol class="funding-path" aria-label="Project milestones">
+              <li class="is-complete">
+                <i aria-hidden="true">✓</i>
+                <span><strong>The guide is live</strong><small>We built the foundation</small></span>
+              </li>
+              <li class="is-active">
+                <i aria-hidden="true"></i>
+                <span><strong id="funding-active-step">Six must-know answers</strong><small>Let's unlock this next</small></span>
+              </li>
+              <li>
+                <i aria-hidden="true"></i>
+                <span><strong>On-the-ground check</strong><small>The next big upgrade</small></span>
+              </li>
+            </ol>
+            <div class="funding-update">
+              <span>Latest update</span>
+              <p id="funding-latest-update">This upgrade came directly from the questions visitors ask most.</p>
+            </div>
+            <p class="funding-disclosure">
+              What we build stays free for everyone. Support moves the work forward, never the facts.
+            </p>
+          </section>
+
           <div class="contact-card">
-            <p class="kicker">Contact</p>
-            <h2>Plan your visit.</h2>
-            <a class="contact-link" id="contact-website" href="#" target="_blank" rel="noreferrer">
-              Official website ↗
-            </a>
-            <p id="contact-address"></p>
-            <p id="contact-detail" hidden></p>
+            <div class="contact-card-heading">
+              <div><p class="kicker">Official details</p><h2>Contact and sources</h2></div>
+              <a class="contact-link" id="contact-website" href="#" target="_blank" rel="noreferrer">Official website ↗</a>
+            </div>
+            <div class="contact-card-details">
+              <p id="contact-address"></p>
+              <p id="contact-detail" hidden></p>
+            </div>
+            <details class="source-disclosure contact-source-disclosure">
+              <summary>
+                <span>Sources and record history</span>
+                <span class="source-count" id="source-count"></span>
+              </summary>
+              <p>See where this guide's information came from and when it was last checked.</p>
+              <div class="source-list" id="source-list"></div>
+            </details>
           </div>
 
           <details class="contribution-disclosure">
             <summary>
-              <span>Join the conversation</span>
-              <small>Ask, answer, or share what changed.</small>
+              <span>Leave a note</span>
+              <small>Share what you found or what changed.</small>
             </summary>
           <div class="contribute-card">
-            <h2>Add local knowledge.</h2>
-            <p>Your post stays visible as community context and may help improve the public record.</p>
+            <h2>Share what you found.</h2>
+            <p>A tip, question, correction, or photo can make the next visit easier.</p>
 
             <form class="contribution-form" id="contribution-form">
               <label>
@@ -300,6 +424,50 @@
         </aside>
       </div>
 
+      <dialog class="site-dialog funding-dialog" id="funding-panel">
+        <form class="dialog-form" id="funding-interest-form">
+          <div class="dialog-heading">
+            <div>
+              <p class="kicker">Give this guide a boost</p>
+              <h2>Help make <span id="funding-place-name">this place</span> easier to explore.</h2>
+            </div>
+            <button class="icon-button" type="button" data-close-dialog aria-label="Close">×</button>
+          </div>
+          <p class="dialog-copy">
+            Pick an amount you would chip in. No charge today; your response helps us choose which public upgrades to launch first.
+          </p>
+          <fieldset class="funding-cadence">
+            <legend>How would you like to help?</legend>
+            <label><input type="radio" name="cadence" value="one_time" checked /><span>One time</span></label>
+            <label><input type="radio" name="cadence" value="monthly" /><span>Monthly</span></label>
+          </fieldset>
+          <fieldset class="funding-amounts">
+            <legend id="funding-amount-legend">What would you contribute?</legend>
+            <label><input type="radio" name="amount" value="5" checked /><span>$5</span></label>
+            <label><input type="radio" name="amount" value="15" /><span>$15</span></label>
+            <label><input type="radio" name="amount" value="25" /><span>$25</span></label>
+            <label><input type="radio" name="amount" value="custom" /><span>Other</span></label>
+          </fieldset>
+          <label class="funding-custom-amount" id="funding-custom-amount" hidden>
+            Custom amount
+            <span><b>$</b><input name="customAmount" type="number" min="1" step="1" inputmode="numeric" /></span>
+          </label>
+          <label class="funding-email">
+            Email <span class="optional-label">Optional</span>
+            <input name="email" type="email" placeholder="you@example.com" />
+          </label>
+          <label class="funding-note">
+            What should we improve? <span class="optional-label">Optional</span>
+            <textarea name="note" placeholder="Photos, access, trailheads, hours..."></textarea>
+          </label>
+          <button class="submit-button" type="submit">Count me in</button>
+          <p class="form-status" id="funding-form-status" aria-live="polite"></p>
+          <p class="funding-dialog-disclosure">
+            No payment will be collected. AuditMap is operated by Compatably, LLC.
+          </p>
+        </form>
+      </dialog>
+
       <dialog class="site-dialog" id="edit-panel">
         <form class="dialog-form feedback-form" data-feedback-type="edit">
           <div class="dialog-heading">
@@ -332,10 +500,21 @@
             <button class="icon-button" type="button" data-close-dialog aria-label="Close">×</button>
           </div>
           <label>
-            What is wrong?
-            <textarea name="message" required placeholder="Outdated, duplicate, unsafe, misleading..."></textarea>
+            What best describes the problem?
+            <select name="reason" required>
+              <option value="inaccurate">Inaccurate or misleading</option>
+              <option value="unsafe">Unsafe content</option>
+              <option value="harassment">Harassment or hate</option>
+              <option value="spam">Spam or promotion</option>
+              <option value="privacy">Privacy concern</option>
+              <option value="other">Something else</option>
+            </select>
           </label>
-          <button class="submit-button" type="submit">Save report</button>
+          <label>
+            What should our reviewer know?
+            <textarea name="message" maxlength="1200" required placeholder="Briefly describe the issue. Reports stay private."></textarea>
+          </label>
+          <button class="submit-button" type="submit">Send private report</button>
           <p class="form-status" aria-live="polite"></p>
         </form>
       </dialog>
@@ -382,6 +561,9 @@
       </dialog>
     </main>
 
-    <script src="./app.js"></script>
+    <script src="/config.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tus-js-client@4.3.1/dist/tus.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pannellum@2.5.7/build/pannellum.js"></script>
+    <script src="/app.js?v=20260808-61"></script>
   </body>
 </html>

@@ -1,0 +1,97 @@
+{
+  "campaign": "Central Plains city connector",
+  "checkedAt": "2026-08-08",
+  "releaseStandard": "Three to four licensed destination-specific photos, preserved official visitor answers, full street addresses, and only named subsites with reviewed coordinates plus destination-specific photography.",
+  "places": [
+    {
+      "id": "launch-ia-des-moines-gray-s-lake-park",
+      "name": "Gray's Lake Park",
+      "city": "Des Moines",
+      "state": "IA",
+      "citySlug": "des-moines-ia",
+      "operator": "City of Des Moines Parks and Recreation",
+      "source": "https://www.dsm.city/Gray_s_Lake_Park514.php",
+      "featureResearchRadiusMeters": 1400,
+      "imageQueries": ["Gray's Lake Park Des Moines", "Gray's Lake bridge Des Moines", "Gray's Lake playground sprayground", "Gray's Lake beach"],
+      "subsites": ["Kruidenier Trail Bridge", "Gray's Lake Beach", "Gray's Lake Playground", "Sprayground", "Terrace", "Boat Rental", "Gray's Lake Trail"]
+    },
+    {
+      "id": "launch-ia-des-moines-water-works-park",
+      "name": "Water Works Park",
+      "city": "Des Moines",
+      "state": "IA",
+      "citySlug": "des-moines-ia",
+      "operator": "Des Moines Water Works Park Foundation",
+      "source": "https://www.waterworkspark.org/visit/",
+      "featureResearchRadiusMeters": 3000,
+      "imageQueries": ["Water Works Park Des Moines", "Lauridsen Amphitheater Des Moines", "Reichardt Natural Play Area", "Des Moines Water Works Park trails"],
+      "subsites": ["Lauridsen Amphitheater", "Reichardt Family Natural Play Area", "Killinger Family Stage", "Des Moines Biergarten", "Raccoon River", "Water Works Park Trail"]
+    },
+    {
+      "id": "launch-ia-des-moines-pappajohn-sculpture-park",
+      "name": "Pappajohn Sculpture Park",
+      "city": "Des Moines",
+      "state": "IA",
+      "citySlug": "des-moines-ia",
+      "operator": "Des Moines Art Center",
+      "source": "https://desmoinesartcenter.org/visit/pappajohn-sculpture-park/",
+      "featureResearchRadiusMeters": 1300,
+      "imageQueries": ["Pappajohn Sculpture Park Des Moines", "Nomade Pappajohn Sculpture Park", "Pumpkin Large Pappajohn", "Pappajohn Sculpture Park artwork"],
+      "subsites": ["Nomade", "Pumpkin Large", "Three Dancing Figures", "T8", "White Ghost", "Spider", "Kusama Pumpkin"]
+    },
+    {
+      "id": "launch-ne-omaha-the-riverfront",
+      "name": "The RiverFront",
+      "city": "Omaha",
+      "state": "NE",
+      "citySlug": "omaha-ne",
+      "operator": "Omaha's The RiverFront",
+      "source": "https://theriverfrontomaha.com/visit-the-riverfront/",
+      "minimumImages": 3,
+      "featureResearchRadiusMeters": 2200,
+      "imageQueries": ["The RiverFront Omaha 2024", "Gene Leahy Mall Omaha 2024", "Heartland of America Park Omaha 2024", "Lewis and Clark Landing Omaha 2024", "RiverFront Playground Omaha", "Skate Ribbon Omaha RiverFront"],
+      "subsites": ["Gene Leahy Mall", "Heartland of America Park", "Lewis and Clark Landing", "RiverFront Playground", "Skate Ribbon", "Cascades", "Urban Beach", "Dog Park"]
+    },
+    {
+      "id": "launch-ne-omaha-zorinsky-lake-park",
+      "name": "Zorinsky Lake Park",
+      "city": "Omaha",
+      "state": "NE",
+      "citySlug": "omaha-ne",
+      "operator": "City of Omaha Parks and Recreation",
+      "source": "https://parks.cityofomaha.org/",
+      "deferRelease": true,
+      "deferReason": "Only one reusable destination-specific photograph was found. Hold publication until three current, licensed views can represent the lake, trail, and a visitor amenity.",
+      "featureResearchRadiusMeters": 3500,
+      "imageQueries": ["Lake Zorinsky Omaha", "Ed Zorinsky Lake Omaha", "Zorinsky Omaha Nebraska", "Zorinsky lake trail Omaha"],
+      "subsites": ["Zorinsky Lake Trail", "Boat Ramp", "Playground", "Fisherman's Point", "Soccer Fields", "Picnic Shelter"]
+    },
+    {
+      "id": "launch-ks-wichita-sedgwick-county-park",
+      "name": "Sedgwick County Park",
+      "city": "Wichita",
+      "state": "KS",
+      "citySlug": "wichita-ks",
+      "operator": "Sedgwick County Parks",
+      "source": "https://www.sedgwickcounty.org/parks/sedgwick-county-park/",
+      "deferRelease": true,
+      "deferReason": "No trustworthy reusable park photographs were found; search results were unrelated or lacked reuse rights. Hold publication for an official-media permission request or community photo mission.",
+      "featureResearchRadiusMeters": 2600,
+      "imageQueries": ["Sedgwick County Park", "Sedgwick County Park Wichita Kansas", "Sunrise Boundless Playscape", "Sedgwick County Park lake Wichita"],
+      "subsites": ["Sunrise Boundless Playscape", "Environmental Art Park", "Fishing Lakes", "Model Boat Pond", "Plum Shelter", "Horseshoe Shelter", "Sedgwick County Park Trail"]
+    },
+    {
+      "id": "launch-ks-wichita-riverside-park",
+      "name": "Riverside Park",
+      "city": "Wichita",
+      "state": "KS",
+      "citySlug": "wichita-ks",
+      "operator": "City of Wichita Parks and Recreation",
+      "source": "https://www.wichita.gov/Facilities/Facility/Details/Riverside-Central-Park-43",
+      "minimumImages": 3,
+      "featureResearchRadiusMeters": 1200,
+      "imageQueries": ["Central Riverside Park Wichita", "Riverside Park Wichita", "Kansas Wildlife Exhibit Wichita", "Wichita Riverside Park Kansas"],
+      "subsites": ["Kansas Wildlife Exhibit", "Celebration Plaza Splash Pad", "Riverside Park Playground", "Lily Pond", "Riverside Park Gazebo", "Historic Walking Loop"]
+    }
+  ]
+}

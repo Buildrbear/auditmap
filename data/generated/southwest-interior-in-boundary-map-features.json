@@ -1,0 +1,4442 @@
+{
+  "campaign": "Southwest interior city connector",
+  "checkedAt": "2026-08-08",
+  "places": {
+    "launch-nm-albuquerque-balloon-fiesta-park": {
+      "name": "Balloon Fiesta Park",
+      "boundarySource": "https://www.openstreetmap.org/way/167527887",
+      "candidates": [
+        {
+          "name": "Jefferson Street Northeast",
+          "latitude": 35.1890514,
+          "longitude": -106.5925524,
+          "osmType": "way",
+          "osmId": 14410638,
+          "sourceUrl": "https://www.openstreetmap.org/way/14410638",
+          "tags": {
+            "highway": "tertiary",
+            "maxspeed": "30 mph",
+            "name": "Jefferson Street Northeast",
+            "oneway": "yes",
+            "source:maxspeed": "survey",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Bernalillo, NM",
+            "tiger:name_base": "Jefferson",
+            "tiger:name_type": "St",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Northern Diversion Trail",
+          "latitude": 35.192097,
+          "longitude": -106.5980667,
+          "osmType": "way",
+          "osmId": 165266611,
+          "sourceUrl": "https://www.openstreetmap.org/way/165266611",
+          "tags": {
+            "foot": "yes",
+            "highway": "cycleway",
+            "name": "Northern Diversion Trail",
+            "source": "survey",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Balloon Fiesta Park",
+          "latitude": 35.1896626,
+          "longitude": -106.5969932,
+          "osmType": "way",
+          "osmId": 167527887,
+          "sourceUrl": "https://www.openstreetmap.org/way/167527887",
+          "tags": {
+            "addr:city": "Albuquerque",
+            "addr:housenumber": "4900",
+            "addr:postcode": "87113",
+            "addr:state": "NM",
+            "addr:street": "Balloon Fiesta Parkway Northeast",
+            "leisure": "park",
+            "name": "Balloon Fiesta Park",
+            "source": "https://cabq.gov/parksandrecreation/parks/balloon-fiesta-park/balloon-fiesta-park",
+            "wikidata": "Q49478263"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "La Cueva Channel",
+          "latitude": 35.1926443,
+          "longitude": -106.5984785,
+          "osmType": "way",
+          "osmId": 168784683,
+          "sourceUrl": "https://www.openstreetmap.org/way/168784683",
+          "tags": {
+            "intermittent": "yes",
+            "name": "La Cueva Channel",
+            "waterway": "drain"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Cutter Road",
+          "latitude": 35.1994414,
+          "longitude": -106.5952702,
+          "osmType": "way",
+          "osmId": 168792220,
+          "sourceUrl": "https://www.openstreetmap.org/way/168792220",
+          "tags": {
+            "access": "permissive",
+            "highway": "residential",
+            "lanes": "2",
+            "maxspeed": "15 mph",
+            "motor_vehicle": "permissive",
+            "name": "Cutter Road",
+            "oneway": "no",
+            "surface": "paved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "North Camino Arroyo",
+          "latitude": 35.2006486,
+          "longitude": -106.5927591,
+          "osmType": "way",
+          "osmId": 174197102,
+          "sourceUrl": "https://www.openstreetmap.org/way/174197102",
+          "tags": {
+            "intermittent": "yes",
+            "name": "North Camino Arroyo",
+            "waterway": "drain"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Anderson Abruzzo Balloon Museum",
+          "latitude": 35.1897997,
+          "longitude": -106.5980731,
+          "osmType": "way",
+          "osmId": 174831043,
+          "sourceUrl": "https://www.openstreetmap.org/way/174831043",
+          "tags": {
+            "addr:city": "Albuquerque",
+            "addr:housenumber": "9201",
+            "addr:postcode": "87113",
+            "addr:state": "NM",
+            "addr:street": "Balloon Museum Drive Northeast",
+            "building": "yes",
+            "museum": "aviation",
+            "name": "Anderson Abruzzo Balloon Museum",
+            "source": "www.cabq.gov",
+            "tourism": "museum",
+            "wikidata": "Q4754005",
+            "wikipedia": "en:Anderson-Abruzzo Albuquerque International Balloon Museum"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Jefferson Street Northeast",
+          "latitude": 35.1890515,
+          "longitude": -106.5926203,
+          "osmType": "way",
+          "osmId": 193114094,
+          "sourceUrl": "https://www.openstreetmap.org/way/193114094",
+          "tags": {
+            "highway": "tertiary",
+            "maxspeed": "30 mph",
+            "name": "Jefferson Street Northeast",
+            "oneway": "yes",
+            "source:maxspeed": "survey",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Bernalillo, NM",
+            "tiger:name_base": "Jefferson",
+            "tiger:name_type": "St",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "North Camino Inlet",
+          "latitude": 35.2011394,
+          "longitude": -106.5975588,
+          "osmType": "way",
+          "osmId": 199438166,
+          "sourceUrl": "https://www.openstreetmap.org/way/199438166",
+          "tags": {
+            "intermittent": "yes",
+            "name": "North Camino Inlet",
+            "waterway": "drain"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Balloon Museum Drive Northeast",
+          "latitude": 35.1919882,
+          "longitude": -106.5951163,
+          "osmType": "way",
+          "osmId": 206445088,
+          "sourceUrl": "https://www.openstreetmap.org/way/206445088",
+          "tags": {
+            "highway": "residential",
+            "maxspeed": "15 mph",
+            "name": "Balloon Museum Drive Northeast",
+            "oneway": "yes",
+            "source:maxspeed": "survey"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Balloon Museum Drive Northeast",
+          "latitude": 35.1919529,
+          "longitude": -106.5951685,
+          "osmType": "way",
+          "osmId": 206445091,
+          "sourceUrl": "https://www.openstreetmap.org/way/206445091",
+          "tags": {
+            "highway": "residential",
+            "name": "Balloon Museum Drive Northeast",
+            "oneway": "yes"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Balloon Fiesta Parkway Northeast",
+          "latitude": 35.1988859,
+          "longitude": -106.5900282,
+          "osmType": "way",
+          "osmId": 206525040,
+          "sourceUrl": "https://www.openstreetmap.org/way/206525040",
+          "tags": {
+            "highway": "tertiary",
+            "maxspeed": "10 mph",
+            "name": "Balloon Fiesta Parkway Northeast",
+            "oneway": "yes",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Bernalillo, NM",
+            "tiger:name_base": "Balloon Fiesta",
+            "tiger:name_direction_suffix": "NE",
+            "tiger:name_type": "Pky",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Balloon Museum Drive Northeast",
+          "latitude": 35.1923855,
+          "longitude": -106.5987823,
+          "osmType": "way",
+          "osmId": 229950746,
+          "sourceUrl": "https://www.openstreetmap.org/way/229950746",
+          "tags": {
+            "access": "permissive",
+            "highway": "residential",
+            "lanes": "2",
+            "maxspeed": "15 mph",
+            "motor_vehicle": "permissive",
+            "name": "Balloon Museum Drive Northeast"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "West Wind",
+          "latitude": 35.1963783,
+          "longitude": -106.5993992,
+          "osmType": "way",
+          "osmId": 229950747,
+          "sourceUrl": "https://www.openstreetmap.org/way/229950747",
+          "tags": {
+            "access": "permissive",
+            "highway": "residential",
+            "lanes": "2",
+            "maxspeed": "15 mph",
+            "motor_vehicle": "permissive",
+            "name": "West Wind",
+            "surface": "paved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Balloon Museum Drive Northeast",
+          "latitude": 35.1923705,
+          "longitude": -106.5968943,
+          "osmType": "way",
+          "osmId": 229952342,
+          "sourceUrl": "https://www.openstreetmap.org/way/229952342",
+          "tags": {
+            "access": "permissive",
+            "highway": "residential",
+            "maxspeed": "10 mph",
+            "name": "Balloon Museum Drive Northeast",
+            "oneway": "-1",
+            "source": "Bing, Local Knowledge",
+            "surface": "paved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Pilot's Parkway",
+          "latitude": 35.1978783,
+          "longitude": -106.597498,
+          "osmType": "way",
+          "osmId": 229952343,
+          "sourceUrl": "https://www.openstreetmap.org/way/229952343",
+          "tags": {
+            "access": "permissive",
+            "highway": "unclassified",
+            "lanes": "2",
+            "maxspeed": "15 mph",
+            "motor_vehicle": "permissive",
+            "name": "Pilot's Parkway",
+            "oneway": "no",
+            "surface": "paved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Pilot's Parkway",
+          "latitude": 35.1944565,
+          "longitude": -106.5989794,
+          "osmType": "way",
+          "osmId": 229952344,
+          "sourceUrl": "https://www.openstreetmap.org/way/229952344",
+          "tags": {
+            "access": "permissive",
+            "highway": "unclassified",
+            "lanes": "2",
+            "maxspeed": "10 mph",
+            "motor_vehicle": "permissive",
+            "name": "Pilot's Parkway",
+            "oneway": "no",
+            "source": "Local Knowledge, Bing",
+            "surface": "gravel"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Balloon Museum Drive Northeast",
+          "latitude": 35.1923201,
+          "longitude": -106.5959131,
+          "osmType": "way",
+          "osmId": 229952345,
+          "sourceUrl": "https://www.openstreetmap.org/way/229952345",
+          "tags": {
+            "access": "permissive",
+            "highway": "residential",
+            "lanes": "2",
+            "maxspeed": "15 mph",
+            "name": "Balloon Museum Drive Northeast",
+            "source:maxspeed": "survey",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Short Hop Road",
+          "latitude": 35.1922689,
+          "longitude": -106.6004209,
+          "osmType": "way",
+          "osmId": 229952346,
+          "sourceUrl": "https://www.openstreetmap.org/way/229952346",
+          "tags": {
+            "access": "permissive",
+            "bridge": "yes",
+            "highway": "unclassified",
+            "lanes": "2",
+            "layer": "1",
+            "name": "Short Hop Road",
+            "source": "Local Knowledge, Bing",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Pilot's Parkway",
+          "latitude": 35.1927402,
+          "longitude": -106.5999501,
+          "osmType": "way",
+          "osmId": 229952348,
+          "sourceUrl": "https://www.openstreetmap.org/way/229952348",
+          "tags": {
+            "access": "permissive",
+            "highway": "unclassified",
+            "maxspeed": "10 mph",
+            "motor_vehicle": "permissive",
+            "name": "Pilot's Parkway",
+            "oneway": "no",
+            "surface": "paved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Balloon Museum Drive Northeast",
+          "latitude": 35.1923705,
+          "longitude": -106.5968943,
+          "osmType": "way",
+          "osmId": 229952349,
+          "sourceUrl": "https://www.openstreetmap.org/way/229952349",
+          "tags": {
+            "access": "permissive",
+            "highway": "residential",
+            "maxspeed": "10 mph",
+            "name": "Balloon Museum Drive Northeast",
+            "oneway": "-1",
+            "surface": "paved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "President's Compound",
+          "latitude": 35.1938995,
+          "longitude": -106.5934457,
+          "osmType": "way",
+          "osmId": 229955903,
+          "sourceUrl": "https://www.openstreetmap.org/way/229955903",
+          "tags": {
+            "amenity": "parking",
+            "name": "President's Compound",
+            "parking": "surface"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Magic Avenue",
+          "latitude": 35.1956152,
+          "longitude": -106.5941081,
+          "osmType": "way",
+          "osmId": 230163818,
+          "sourceUrl": "https://www.openstreetmap.org/way/230163818",
+          "tags": {
+            "access": "permissive",
+            "highway": "unclassified",
+            "lanes": "2",
+            "maxspeed": "15 mph",
+            "name": "Magic Avenue",
+            "source": "Bing, Local Knowledge",
+            "surface": "paved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Lift-Off Lane",
+          "latitude": 35.1960907,
+          "longitude": -106.595964,
+          "osmType": "way",
+          "osmId": 230164058,
+          "sourceUrl": "https://www.openstreetmap.org/way/230164058",
+          "tags": {
+            "access": "permissive",
+            "highway": "unclassified",
+            "lanes": "2",
+            "maxspeed": "15 mph",
+            "motor_vehicle": "permissive",
+            "name": "Lift-Off Lane",
+            "oneway": "no",
+            "source": "Bing, Local Knowledge",
+            "surface": "paved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Key Grab",
+          "latitude": 35.1976277,
+          "longitude": -106.5968372,
+          "osmType": "way",
+          "osmId": 230164219,
+          "sourceUrl": "https://www.openstreetmap.org/way/230164219",
+          "tags": {
+            "access": "permissive",
+            "highway": "unclassified",
+            "lanes": "2",
+            "maxspeed": "15 mph",
+            "motor_vehicle": "permissive",
+            "name": "Key Grab",
+            "oneway": "no",
+            "source": "Bing, Local Knowledge",
+            "surface": "paved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Key Grab",
+          "latitude": 35.196995,
+          "longitude": -106.594656,
+          "osmType": "way",
+          "osmId": 230164232,
+          "sourceUrl": "https://www.openstreetmap.org/way/230164232",
+          "tags": {
+            "access": "permissive",
+            "highway": "unclassified",
+            "lanes": "2",
+            "maxspeed": "10 mph",
+            "name": "Key Grab",
+            "source": "Bing, Local Knowledge",
+            "surface": "paved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Key Grab",
+          "latitude": 35.1968041,
+          "longitude": -106.5939927,
+          "osmType": "way",
+          "osmId": 230164233,
+          "sourceUrl": "https://www.openstreetmap.org/way/230164233",
+          "tags": {
+            "access": "permissive",
+            "highway": "unclassified",
+            "lanes": "2",
+            "maxspeed": "10 mph",
+            "name": "Key Grab",
+            "source": "Bing, Local Knowledge",
+            "surface": "paving_stones"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Baggie Drop",
+          "latitude": 35.1955376,
+          "longitude": -106.597628,
+          "osmType": "way",
+          "osmId": 230164455,
+          "sourceUrl": "https://www.openstreetmap.org/way/230164455",
+          "tags": {
+            "access": "permissive",
+            "highway": "unclassified",
+            "lanes": "2",
+            "maxspeed": "15 mph",
+            "name": "Baggie Drop",
+            "oneway": "no",
+            "source": "Bing, Local Knowledge",
+            "surface": "paved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Gondola Gulch",
+          "latitude": 35.194715,
+          "longitude": -106.593254,
+          "osmType": "way",
+          "osmId": 230165002,
+          "sourceUrl": "https://www.openstreetmap.org/way/230165002",
+          "tags": {
+            "access": "permissive",
+            "foot": "yes",
+            "highway": "unclassified",
+            "lanes": "2",
+            "maxspeed": "15 mph",
+            "motor_vehicle": "designated",
+            "name": "Gondola Gulch",
+            "oneway": "no",
+            "source": "Bing, Local Knowledge",
+            "surface": "unpaved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Propane Road",
+          "latitude": 35.2008688,
+          "longitude": -106.5964361,
+          "osmType": "way",
+          "osmId": 230165665,
+          "sourceUrl": "https://www.openstreetmap.org/way/230165665",
+          "tags": {
+            "access": "private",
+            "highway": "unclassified",
+            "lanes": "1",
+            "maxspeed": "15 mph",
+            "motor_vehicle": "private",
+            "name": "Propane Road",
+            "oneway": "yes",
+            "source": "Bing, Local Knowledge",
+            "surface": "paved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Propane Road",
+          "latitude": 35.2019993,
+          "longitude": -106.5968152,
+          "osmType": "way",
+          "osmId": 230165937,
+          "sourceUrl": "https://www.openstreetmap.org/way/230165937",
+          "tags": {
+            "access": "private",
+            "highway": "unclassified",
+            "lanes": "2",
+            "maxspeed": "15 mph",
+            "motor_vehicle": "private",
+            "name": "Propane Road",
+            "oneway": "yes",
+            "source": "Bing, Local Knowledge",
+            "surface": "paved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Main Street",
+          "latitude": 35.1970605,
+          "longitude": -106.5945129,
+          "osmType": "way",
+          "osmId": 230280413,
+          "sourceUrl": "https://www.openstreetmap.org/way/230280413",
+          "tags": {
+            "access": "permissive",
+            "foot": "yes",
+            "highway": "pedestrian",
+            "motor_vehicle": "permissive",
+            "name": "Main Street",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Balloon Fiesta Parkway",
+          "latitude": 35.1988911,
+          "longitude": -106.5915731,
+          "osmType": "way",
+          "osmId": 699007099,
+          "sourceUrl": "https://www.openstreetmap.org/way/699007099",
+          "tags": {
+            "highway": "tertiary",
+            "lanes": "4",
+            "maxspeed": "10 mph",
+            "name": "Balloon Fiesta Parkway"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Domingo Baca Inlet",
+          "latitude": 35.1775131,
+          "longitude": -106.6041721,
+          "osmType": "way",
+          "osmId": 717610839,
+          "sourceUrl": "https://www.openstreetmap.org/way/717610839",
+          "tags": {
+            "intermittent": "yes",
+            "name": "Domingo Baca Inlet",
+            "waterway": "drain"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "South La Cueva Channel",
+          "latitude": 35.1913999,
+          "longitude": -106.5953416,
+          "osmType": "way",
+          "osmId": 1120232983,
+          "sourceUrl": "https://www.openstreetmap.org/way/1120232983",
+          "tags": {
+            "intermittent": "yes",
+            "name": "South La Cueva Channel",
+            "waterway": "ditch"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "North Camino Arroyo",
+          "latitude": 35.2005992,
+          "longitude": -106.5969326,
+          "osmType": "way",
+          "osmId": 1125706864,
+          "sourceUrl": "https://www.openstreetmap.org/way/1125706864",
+          "tags": {
+            "intermittent": "yes",
+            "name": "North Camino Arroyo",
+            "waterway": "river"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Baggie Drop",
+          "latitude": 35.1947851,
+          "longitude": -106.5951448,
+          "osmType": "way",
+          "osmId": 1203048162,
+          "sourceUrl": "https://www.openstreetmap.org/way/1203048162",
+          "tags": {
+            "access": "permissive",
+            "highway": "unclassified",
+            "lanes": "2",
+            "maxspeed": "15 mph",
+            "name": "Baggie Drop",
+            "oneway": "no",
+            "source": "Bing, Local Knowledge",
+            "surface": "paved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Balloon Museum Drive Northeast",
+          "latitude": 35.1810163,
+          "longitude": -106.6000426,
+          "osmType": "way",
+          "osmId": 1315000580,
+          "sourceUrl": "https://www.openstreetmap.org/way/1315000580",
+          "tags": {
+            "highway": "residential",
+            "maxspeed": "25 mph",
+            "name": "Balloon Museum Drive Northeast",
+            "source:maxspeed": "survey",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Bernalillo, NM",
+            "tiger:name_base": "Balloon Fiesta Park",
+            "tiger:name_type": "Blvd",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Alameda Boulevard Northeast",
+          "latitude": 35.1846385,
+          "longitude": -106.5996877,
+          "osmType": "way",
+          "osmId": 1315000583,
+          "sourceUrl": "https://www.openstreetmap.org/way/1315000583",
+          "tags": {
+            "highway": "primary",
+            "maxspeed": "45 mph",
+            "name": "Alameda Boulevard Northeast",
+            "oneway": "yes",
+            "ref": "NM 528",
+            "source:maxspeed": "survey",
+            "tiger:cfcc": "A31",
+            "tiger:county": "Bernalillo, NM",
+            "tiger:name_base": "Alameda",
+            "tiger:name_base_1": "State Highway 528",
+            "tiger:name_direction_suffix": "NE",
+            "tiger:name_type": "Blvd"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Alameda Boulevard Northeast",
+          "latitude": 35.1844928,
+          "longitude": -106.5993063,
+          "osmType": "way",
+          "osmId": 1315000586,
+          "sourceUrl": "https://www.openstreetmap.org/way/1315000586",
+          "tags": {
+            "highway": "primary",
+            "lanes": "3",
+            "maxspeed": "45 mph",
+            "name": "Alameda Boulevard Northeast",
+            "oneway": "yes",
+            "ref": "NM 528",
+            "source:maxspeed": "survey",
+            "tiger:cfcc": "A31",
+            "tiger:county": "Bernalillo, NM",
+            "tiger:name_base": "Alameda",
+            "tiger:name_base_1": "State Highway 528",
+            "tiger:name_direction_suffix": "NE",
+            "tiger:name_type": "Blvd",
+            "turn:lanes": "left|none|none"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Alameda Boulevard Northeast",
+          "latitude": 35.1845089,
+          "longitude": -106.6004148,
+          "osmType": "way",
+          "osmId": 1315000587,
+          "sourceUrl": "https://www.openstreetmap.org/way/1315000587",
+          "tags": {
+            "highway": "primary",
+            "lanes": "2",
+            "maxspeed": "45 mph",
+            "name": "Alameda Boulevard Northeast",
+            "oneway": "yes",
+            "ref": "NM 528",
+            "source:maxspeed": "survey",
+            "tiger:cfcc": "A31",
+            "tiger:county": "Bernalillo, NM",
+            "tiger:name_base": "Alameda",
+            "tiger:name_base_1": "State Highway 528",
+            "tiger:name_direction_suffix": "NE",
+            "tiger:name_type": "Blvd"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Balloon Fiesta Parkway Northeast",
+          "latitude": 35.198944,
+          "longitude": -106.5900268,
+          "osmType": "way",
+          "osmId": 1383593344,
+          "sourceUrl": "https://www.openstreetmap.org/way/1383593344",
+          "tags": {
+            "highway": "tertiary",
+            "maxspeed": "10 mph",
+            "name": "Balloon Fiesta Parkway Northeast",
+            "oneway": "yes",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Bernalillo, NM",
+            "tiger:name_base": "Balloon Fiesta",
+            "tiger:name_direction_suffix": "NE",
+            "tiger:name_type": "Pky",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Cutter Pavilion",
+          "latitude": 35.1934496,
+          "longitude": -106.596706,
+          "osmType": "way",
+          "osmId": 1506511533,
+          "sourceUrl": "https://www.openstreetmap.org/way/1506511533",
+          "tags": {
+            "addr:housenumber": "4900",
+            "addr:street": "Balloon Fiesta Parkway",
+            "amenity": "events_venue",
+            "building": "yes",
+            "name": "Cutter Pavilion"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    },
+    "launch-nm-albuquerque-elena-gallegos-open-space": {
+      "name": "Elena Gallegos Open Space",
+      "boundarySource": "https://www.openstreetmap.org/relation/5951128",
+      "candidates": [
+        {
+          "name": "Embudo Trailhead",
+          "latitude": 35.0989972,
+          "longitude": -106.4800619,
+          "osmType": "node",
+          "osmId": 140745356,
+          "sourceUrl": "https://www.openstreetmap.org/node/140745356",
+          "tags": {
+            "access": "yes",
+            "addr:city": "Albuquerque",
+            "addr:housenumber": "14000",
+            "addr:postcode": "87112",
+            "addr:state": "NM",
+            "addr:street": "Indian School Road Northeast",
+            "check_date": "2025-01-29",
+            "ele": "1882",
+            "fee": "no",
+            "highway": "trailhead",
+            "name": "Embudo Trailhead",
+            "operator": "USFS"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Juan Tabo Detention Dam",
+          "latitude": 35.1019062,
+          "longitude": -106.4855708,
+          "osmType": "node",
+          "osmId": 357610245,
+          "sourceUrl": "https://www.openstreetmap.org/node/357610245",
+          "tags": {
+            "ele": "1736",
+            "gnis:feature_id": "924168",
+            "name": "Juan Tabo Detention Dam",
+            "waterway": "dam",
+            "wikidata": "Q48990995"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Cadestral Survey Monument Medallion",
+          "latitude": 35.0720396,
+          "longitude": -106.4801003,
+          "osmType": "node",
+          "osmId": 440387531,
+          "sourceUrl": "https://www.openstreetmap.org/node/440387531",
+          "tags": {
+            "check_date": "2025-03-21",
+            "information": "marker",
+            "man_made": "survey_point",
+            "managed": "U.S. Dept. of the Interior, BLM",
+            "name": "Cadestral Survey Monument Medallion",
+            "note": "Cibola Natoinal Forest Boundary Fenceline Corner",
+            "note:en": "Cadastral Survey 1972, T10N R4E, 23|S24 / 26|S25",
+            "survey:date": "1972",
+            "survey_point:purpose": "horizontal",
+            "survey_point:structure": "medallion",
+            "survey_point:type": "Cadastral",
+            "tourism": "information"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Cadestral Survey Monument Medallion",
+          "latitude": 35.0721749,
+          "longitude": -106.4756881,
+          "osmType": "node",
+          "osmId": 440446397,
+          "sourceUrl": "https://www.openstreetmap.org/node/440446397",
+          "tags": {
+            "check_date": "2025-04-07",
+            "information": "marker",
+            "man_made": "survey_point",
+            "managed": "U.S. Dept. of the Interior, BLM",
+            "name": "Cadestral Survey Monument Medallion",
+            "note": "Wilderness Boundary Fenceline Corner",
+            "note:en": "Cadastral Survey 1972, W 1/16 S24/S25",
+            "survey:date": "1972",
+            "survey_point:purpose": "horizontal",
+            "survey_point:structure": "medallion",
+            "survey_point:type": "Cadastral",
+            "tourism": "information"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "U Mound",
+          "latitude": 35.0812851,
+          "longitude": -106.4807918,
+          "osmType": "node",
+          "osmId": 1004077539,
+          "sourceUrl": "https://www.openstreetmap.org/node/1004077539",
+          "tags": {
+            "ele": "1922",
+            "name": "U Mound",
+            "natural": "peak"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Menual Trailhead",
+          "latitude": 35.1050014,
+          "longitude": -106.4883197,
+          "osmType": "node",
+          "osmId": 6566582077,
+          "sourceUrl": "https://www.openstreetmap.org/node/6566582077",
+          "tags": {
+            "highway": "trailhead",
+            "name": "Menual Trailhead",
+            "operator": "Albuquerque Parks and Recreation, Open Space Division",
+            "operator:website": "https://www.cabq.gov/parksandrecreation/open-space"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Embudo Arroyo at Albuquerque",
+          "latitude": 35.1022222,
+          "longitude": -106.4925,
+          "osmType": "node",
+          "osmId": 12092340668,
+          "sourceUrl": "https://www.openstreetmap.org/node/12092340668",
+          "tags": {
+            "ele": "1807.47",
+            "ele:accuracy": "0.0274",
+            "ele:datum": "NAVD88",
+            "man_made": "monitoring_station",
+            "monitoring:flow_rate": "yes",
+            "monitoring:water_level": "yes",
+            "name": "Embudo Arroyo at Albuquerque",
+            "official_name": "EMBUDO ARROYO AT ALBUQUERQUE, NM",
+            "operator": "United States Geological Survey",
+            "operator:short": "USGS",
+            "operator:type": "government",
+            "operator:wikidata": "Q193755",
+            "ref": "08329720",
+            "website": "https://waterdata.usgs.gov/monitoring-location/08329720"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Piedra Lisa Canyon Trailhead",
+          "latitude": 35.1123316,
+          "longitude": -106.4882071,
+          "osmType": "node",
+          "osmId": 12639980025,
+          "sourceUrl": "https://www.openstreetmap.org/node/12639980025",
+          "tags": {
+            "highway": "trailhead",
+            "name": "Piedra Lisa Canyon Trailhead",
+            "operator": "Albuquerque Parks and Recreation, Open Space Division",
+            "operator:website": "https://www.cabq.gov/parksandrecreation/open-space"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Cadestral Survey Monument Medallion",
+          "latitude": 35.1006924,
+          "longitude": -106.4801156,
+          "osmType": "node",
+          "osmId": 12646494494,
+          "sourceUrl": "https://www.openstreetmap.org/node/12646494494",
+          "tags": {
+            "check_date": "2025-03-07",
+            "information": "marker",
+            "man_made": "survey_point",
+            "managed": "U.S. Dept. of the Interior, BLM",
+            "name": "Cadestral Survey Monument Medallion",
+            "note": "Wilderness Boundary Fenceline Corner",
+            "note:en": "Cadastral Survey, T10NR4E S11|S12 / S14|S13",
+            "source": "survey;gnss",
+            "survey:date": "1972",
+            "survey_point:purpose": "horizontal",
+            "survey_point:structure": "medallion",
+            "survey_point:type": "Cadastral",
+            "tourism": "information"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Cadestral Survey Monument Medallion",
+          "latitude": 35.0934815,
+          "longitude": -106.4755485,
+          "osmType": "node",
+          "osmId": 12650939802,
+          "sourceUrl": "https://www.openstreetmap.org/node/12650939802",
+          "tags": {
+            "check_date": "2025-03-010",
+            "information": "marker",
+            "man_made": "survey_point",
+            "managed": "U.S. Dept. of the Interior, BLM",
+            "name": "Cadestral Survey Monument Medallion",
+            "note": "Cibola National Forest Boundary Fenceline Corner",
+            "note:en": "Cadastral Survey 1972, C W 1/16 / S13 C",
+            "source": "survey;gnss",
+            "survey:date": "1972",
+            "survey_point:purpose": "horizontal",
+            "survey_point:structure": "medallion",
+            "survey_point:type": "Cadastral",
+            "tourism": "information"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "USFS Wilderness Boundary Sign",
+          "latitude": 35.0891649,
+          "longitude": -106.4797819,
+          "osmType": "node",
+          "osmId": 12723964719,
+          "sourceUrl": "https://www.openstreetmap.org/node/12723964719",
+          "tags": {
+            "description": "Wilderness Boundary Post",
+            "information": "route_marker",
+            "name": "USFS Wilderness Boundary Sign",
+            "source": "survey;gnss",
+            "tourism": "information"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Embudo Trailhead",
+          "latitude": 35.0989966,
+          "longitude": -106.4800154,
+          "osmType": "node",
+          "osmId": 13248724540,
+          "sourceUrl": "https://www.openstreetmap.org/node/13248724540",
+          "tags": {
+            "highway": "trailhead",
+            "name": "Embudo Trailhead",
+            "operator": "Albuquerque Parks and Recreation, Open Space Division",
+            "operator:website": "https://www.cabq.gov/parksandrecreation/open-space"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Indian School Road Northeast",
+          "latitude": 35.0989044,
+          "longitude": -106.4801206,
+          "osmType": "way",
+          "osmId": 14403446,
+          "sourceUrl": "https://www.openstreetmap.org/way/14403446",
+          "tags": {
+            "highway": "tertiary",
+            "name": "Indian School Road Northeast",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Bernalillo, NM",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Embudo Trail",
+          "latitude": 35.0989375,
+          "longitude": -106.4758514,
+          "osmType": "way",
+          "osmId": 14403688,
+          "sourceUrl": "https://www.openstreetmap.org/way/14403688",
+          "tags": {
+            "bicycle": "designated",
+            "check_date": "2025-01-29",
+            "dog": "yes",
+            "electric_bicycle": "yes",
+            "foot": "designated",
+            "highway": "path",
+            "horse": "designated",
+            "motor_vehicle": "no",
+            "name": "Embudo Trail",
+            "operator": "Albuquerque Parks and Recreation, Open Space Division",
+            "operator:website": "https://www.cabq.gov/parksandrecreation/open-space",
+            "ref": "193",
+            "sac_scale": "hiking",
+            "source": "Albuquerque Open Space Map;survey;gps",
+            "surface": "dirt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Bernalillo, NM",
+            "tiger:reviewed": "no",
+            "trail_visibility": "excellent"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Haines Avenue Northeast",
+          "latitude": 35.0999628,
+          "longitude": -106.4839694,
+          "osmType": "way",
+          "osmId": 14415519,
+          "sourceUrl": "https://www.openstreetmap.org/way/14415519",
+          "tags": {
+            "highway": "residential",
+            "name": "Haines Avenue Northeast",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Bernalillo, NM",
+            "tiger:name_base": "Haines",
+            "tiger:name_direction_suffix": "NE",
+            "tiger:name_type": "Ave",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Central Avenue Southeast",
+          "latitude": 35.064189,
+          "longitude": -106.4804577,
+          "osmType": "way",
+          "osmId": 14419510,
+          "sourceUrl": "https://www.openstreetmap.org/way/14419510",
+          "tags": {
+            "highway": "secondary",
+            "maxspeed": "55 mph",
+            "name": "Central Avenue Southeast",
+            "old_ref": "US 66",
+            "rcn_ref": "66",
+            "ref": "NM 333;US 66 Hist",
+            "shoulder": "both",
+            "source:maxspeed": "sign",
+            "tiger:cfcc": "A64",
+            "tiger:county": "Bernalillo, NM",
+            "tiger:name_base": "I- 40 Frontage",
+            "tiger:name_base_1": "State Highway 333",
+            "tiger:name_base_2": "United States Highway 66",
+            "tiger:name_direction_suffix": "E",
+            "tiger:name_type": "Rd",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trail 400",
+          "latitude": 35.0791619,
+          "longitude": -106.4810597,
+          "osmType": "way",
+          "osmId": 86415664,
+          "sourceUrl": "https://www.openstreetmap.org/way/86415664",
+          "tags": {
+            "bicycle": "designated",
+            "check_date": "2024-01-18",
+            "dog": "leashed",
+            "electric_bicycle": "no",
+            "foot": "designated",
+            "highway": "path",
+            "horse": "designated",
+            "motor_vehicle": "no",
+            "name": "Trail 400",
+            "operator": "Albuquerque Parks and Recreation, Open Space Division",
+            "operator:website": "https://www.cabq.gov/parksandrecreation/open-space",
+            "ref": "400",
+            "sac_scale": "hiking",
+            "source": "Albuquerque Open Space Map;survey,gnss",
+            "surface": "ground",
+            "trail_visibility": "excellent"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Water Tank",
+          "latitude": 35.0989695,
+          "longitude": -106.4757792,
+          "osmType": "way",
+          "osmId": 167920153,
+          "sourceUrl": "https://www.openstreetmap.org/way/167920153",
+          "tags": {
+            "building": "yes",
+            "content": "water",
+            "man_made": "storage_tank",
+            "name": "Water Tank"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Embudo Arroyo",
+          "latitude": 35.1019874,
+          "longitude": -106.4879331,
+          "osmType": "way",
+          "osmId": 168652811,
+          "sourceUrl": "https://www.openstreetmap.org/way/168652811",
+          "tags": {
+            "intermittent": "yes",
+            "name": "Embudo Arroyo",
+            "waterway": "river"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Mano Trail",
+          "latitude": 35.0959668,
+          "longitude": -106.4722932,
+          "osmType": "way",
+          "osmId": 233125214,
+          "sourceUrl": "https://www.openstreetmap.org/way/233125214",
+          "tags": {
+            "bicycle": "no",
+            "dog": "yes",
+            "electric_bicycle": "yes",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "yes",
+            "informal": "yes",
+            "motor_vehicle": "no",
+            "name": "Mano Trail",
+            "sac_scale": "mountain_hiking",
+            "source": "survey;gps",
+            "surface": "ground",
+            "trail_visibility": "good",
+            "trailblazed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Foothills Trail",
+          "latitude": 35.0695734,
+          "longitude": -106.4830716,
+          "osmType": "way",
+          "osmId": 319149525,
+          "sourceUrl": "https://www.openstreetmap.org/way/319149525",
+          "tags": {
+            "bicycle": "designated",
+            "dog": "yes",
+            "electric_bicycle": "yes",
+            "foot": "designated",
+            "highway": "path",
+            "horse": "designated",
+            "motor_vehicle": "no",
+            "name": "Foothills Trail",
+            "operator": "Albuquerque Parks and Recreation, Open Space Division",
+            "operator:website": "https://www.cabq.gov/parksandrecreation/open-space",
+            "ref": "365",
+            "sac_scale": "hiking",
+            "source": "survey;GPS;Albuquerque Open Space Map",
+            "surface": "dirt",
+            "trail_visibility": "excellent"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trail 401",
+          "latitude": 35.0861866,
+          "longitude": -106.4806163,
+          "osmType": "way",
+          "osmId": 319150391,
+          "sourceUrl": "https://www.openstreetmap.org/way/319150391",
+          "tags": {
+            "bicycle": "designated",
+            "dog": "yes",
+            "electric_bicycle": "no",
+            "foot": "designated",
+            "highway": "path",
+            "horse": "designated",
+            "motor_vehicle": "no",
+            "name": "Trail 401",
+            "operator": "Albuquerque Parks and Recreation, Open Space Division",
+            "operator:website": "https://www.cabq.gov/parksandrecreation/open-space",
+            "ref": "401",
+            "ref:bag": "401",
+            "sac_scale": "hiking",
+            "source": "Albuquerque OpenSpace Foothills Trail Map, survey, GNSS",
+            "surface": "dirt",
+            "trail_visibility": "excellent"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Hilldale Trail",
+          "latitude": 35.0737278,
+          "longitude": -106.4837262,
+          "osmType": "way",
+          "osmId": 319150392,
+          "sourceUrl": "https://www.openstreetmap.org/way/319150392",
+          "tags": {
+            "bicycle": "designated",
+            "dog": "yes",
+            "electric_bicycle": "yes",
+            "foot": "designated",
+            "highway": "path",
+            "horse": "designated",
+            "motor_vehicle": "no",
+            "name": "Hilldale Trail",
+            "operator": "Albuquerque Parks and Recreation, Open Space Division",
+            "operator:website": "https://www.cabq.gov/parksandrecreation/open-space",
+            "sac_scale": "hiking",
+            "source": "Albuquerque Open Space Map",
+            "surface": "dirt",
+            "trail_visibility": "excellent"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Hilldale Loop",
+          "latitude": 35.0723113,
+          "longitude": -106.4835351,
+          "osmType": "way",
+          "osmId": 319150394,
+          "sourceUrl": "https://www.openstreetmap.org/way/319150394",
+          "tags": {
+            "bicycle": "designated",
+            "dog": "yes",
+            "electric_bicycle": "yes",
+            "foot": "designated",
+            "highway": "path",
+            "horse": "designated",
+            "motor_vehicle": "no",
+            "name": "Hilldale Loop",
+            "operator": "Albuquerque Parks and Recreation, Open Space Division",
+            "operator:website": "https://www.cabq.gov/parksandrecreation/open-space",
+            "sac_scale": "hiking",
+            "source": "Albuquerque Open Space Map;survey,gnss",
+            "surface": "ground",
+            "trail_visibility": "excellent"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trail 401 Access",
+          "latitude": 35.0790353,
+          "longitude": -106.4836839,
+          "osmType": "way",
+          "osmId": 319150395,
+          "sourceUrl": "https://www.openstreetmap.org/way/319150395",
+          "tags": {
+            "bicycle": "yes",
+            "dog": "leashed",
+            "electric_bicycle": "yes",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "yes",
+            "motor_vehicle": "no",
+            "name": "Trail 401 Access",
+            "sac_scale": "hiking",
+            "source": "survey;GNSS",
+            "surface": "ground"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trail 66",
+          "latitude": 35.0659225,
+          "longitude": -106.4823727,
+          "osmType": "way",
+          "osmId": 319151310,
+          "sourceUrl": "https://www.openstreetmap.org/way/319151310",
+          "tags": {
+            "bicycle": "designated",
+            "dog": "yes",
+            "electric_bicycle": "yes",
+            "foot": "designated",
+            "highway": "path",
+            "horse": "designated",
+            "motor_vehicle": "no",
+            "name": "Trail 66",
+            "operator": "Albuquerque Parks and Recreation, Open Space Division",
+            "operator:website": "https://www.cabq.gov/parksandrecreation/open-space",
+            "ref": "66",
+            "sac_scale": "hiking",
+            "source": "Albuquerque Open Space Map,survey,gnss",
+            "surface": "dirt",
+            "trail_visibility": "excellent"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trail 344",
+          "latitude": 35.0666673,
+          "longitude": -106.481375,
+          "osmType": "way",
+          "osmId": 319151312,
+          "sourceUrl": "https://www.openstreetmap.org/way/319151312",
+          "tags": {
+            "bicycle": "designated",
+            "dog": "yes",
+            "electric_bicycle": "yes",
+            "foot": "designated",
+            "highway": "path",
+            "horse": "designated",
+            "motor_vehicle": "no",
+            "name": "Trail 344",
+            "operator": "Albuquerque Parks and Recreation, Open Space Division",
+            "operator:website": "https://www.cabq.gov/parksandrecreation/open-space",
+            "ref": "344",
+            "sac_scale": "hiking",
+            "source": "Albuquerque Open Space Map,survey,gnss",
+            "surface": "dirt",
+            "trail_visibility": "excellent"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trail 66",
+          "latitude": 35.0662065,
+          "longitude": -106.4856926,
+          "osmType": "way",
+          "osmId": 319152288,
+          "sourceUrl": "https://www.openstreetmap.org/way/319152288",
+          "tags": {
+            "bicycle": "designated",
+            "dog": "yes",
+            "electric_bicycle": "yes",
+            "foot": "designated",
+            "highway": "path",
+            "horse": "designated",
+            "motor_vehicle": "no",
+            "name": "Trail 66",
+            "operator": "Albuquerque Parks and Recreation, Open Space Division",
+            "operator:website": "https://www.cabq.gov/parksandrecreation/open-space",
+            "ref": "66",
+            "sac_scale": "hiking",
+            "source": "Albuquerque Open Space Map",
+            "surface": "dirt",
+            "trail_visibility": "excellent"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trail 375",
+          "latitude": 35.076433,
+          "longitude": -106.4820007,
+          "osmType": "way",
+          "osmId": 319152489,
+          "sourceUrl": "https://www.openstreetmap.org/way/319152489",
+          "tags": {
+            "bicycle": "designated",
+            "dog": "yes",
+            "electric_bicycle": "yes",
+            "foot": "designated",
+            "highway": "path",
+            "horse": "designated",
+            "motor_vehicle": "no",
+            "name": "Trail 375",
+            "operator": "Albuquerque Parks and Recreation, Open Space Division",
+            "operator:website": "https://www.cabq.gov/parksandrecreation/open-space",
+            "ref": "375",
+            "sac_scale": "hiking",
+            "source": "Albuquerque Open Space Map;survey,gnss",
+            "surface": "ground",
+            "trail_visibility": "excellent"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trail 285",
+          "latitude": 35.0860267,
+          "longitude": -106.480312,
+          "osmType": "way",
+          "osmId": 319171599,
+          "sourceUrl": "https://www.openstreetmap.org/way/319171599",
+          "tags": {
+            "bicycle": "designated",
+            "dog": "yes",
+            "electric_bicycle": "no",
+            "foot": "designated",
+            "highway": "path",
+            "horse": "designated",
+            "motor_vehicle": "no",
+            "name": "Trail 285",
+            "operator": "Albuquerque Parks and Recreation, Open Space Division",
+            "operator:website": "https://www.cabq.gov/parksandrecreation/open-space",
+            "ref": "285",
+            "sac_scale": "hiking",
+            "source": "Albuquerque Open Space Map,survey,GNSS",
+            "surface": "dirt",
+            "trail_visibility": "excellent"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Foothills Trail",
+          "latitude": 35.105314,
+          "longitude": -106.484538,
+          "osmType": "way",
+          "osmId": 319173473,
+          "sourceUrl": "https://www.openstreetmap.org/way/319173473",
+          "tags": {
+            "bicycle": "designated",
+            "dog": "yes",
+            "electric_bicycle": "yes",
+            "foot": "designated",
+            "highway": "path",
+            "horse": "designated",
+            "motor_vehicle": "no",
+            "name": "Foothills Trail",
+            "operator": "Albuquerque Parks and Recreation, Open Space Division",
+            "operator:website": "https://www.cabq.gov/parksandrecreation/open-space",
+            "ref": "365",
+            "sac_scale": "hiking",
+            "source": "survey;gnss;Albuquerque Open Space Map",
+            "surface": "ground",
+            "trail_visibility": "excellent"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trail 288",
+          "latitude": 35.1060447,
+          "longitude": -106.4886409,
+          "osmType": "way",
+          "osmId": 319179516,
+          "sourceUrl": "https://www.openstreetmap.org/way/319179516",
+          "tags": {
+            "bicycle": "designated",
+            "dog": "yes",
+            "electric_bicycle": "yes",
+            "foot": "designated",
+            "highway": "path",
+            "horse": "designated",
+            "motor_vehicle": "no",
+            "name": "Trail 288",
+            "operator": "Albuquerque Parks and Recreation, Open Space Division",
+            "operator:website": "https://www.cabq.gov/parksandrecreation/open-space",
+            "ref": "288",
+            "sac_scale": "hiking",
+            "source": "Albuquerque OpenSpace Foothills Trail Map",
+            "surface": "dirt",
+            "trail_visibility": "excellent"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trail 401",
+          "latitude": 35.1068126,
+          "longitude": -106.4845601,
+          "osmType": "way",
+          "osmId": 319179518,
+          "sourceUrl": "https://www.openstreetmap.org/way/319179518",
+          "tags": {
+            "bicycle": "designated",
+            "dog": "yes",
+            "electric_bicycle": "yes",
+            "foot": "designated",
+            "highway": "path",
+            "horse": "designated",
+            "motor_vehicle": "no",
+            "name": "Trail 401",
+            "operator": "Albuquerque Parks and Recreation, Open Space Division",
+            "operator:website": "https://www.cabq.gov/parksandrecreation/open-space",
+            "ref": "401",
+            "sac_scale": "hiking",
+            "source": "survey;gnss;Albuquerque Open Space Map",
+            "surface": "ground",
+            "trail_visibility": "excellent"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Foothills Trail South",
+          "latitude": 35.1164114,
+          "longitude": -106.4886286,
+          "osmType": "way",
+          "osmId": 319179586,
+          "sourceUrl": "https://www.openstreetmap.org/way/319179586",
+          "tags": {
+            "bicycle": "designated",
+            "dog": "yes",
+            "electric_bicycle": "yes",
+            "foot": "designated",
+            "highway": "path",
+            "horse": "designated",
+            "motor_vehicle": "no",
+            "name": "Foothills Trail South",
+            "operator": "Albuquerque Parks and Recreation, Open Space Division",
+            "operator:website": "https://www.cabq.gov/parksandrecreation/open-space",
+            "ref": "365",
+            "sac_scale": "hiking",
+            "source": "Albuquerque Open Space Map",
+            "surface": "dirt",
+            "trail_visibility": "excellent"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Camino de la Sierra Trail",
+          "latitude": 35.1017089,
+          "longitude": -106.4865047,
+          "osmType": "way",
+          "osmId": 319181610,
+          "sourceUrl": "https://www.openstreetmap.org/way/319181610",
+          "tags": {
+            "bicycle": "designated",
+            "dog": "yes",
+            "electric_bicycle": "yes",
+            "foot": "designated",
+            "highway": "path",
+            "horse": "designated",
+            "motor_vehicle": "no",
+            "name": "Camino de la Sierra Trail",
+            "operator": "Albuquerque Parks and Recreation, Open Space Division",
+            "operator:website": "https://www.cabq.gov/parksandrecreation/open-space",
+            "ref": "277"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Picnic Site Trail",
+          "latitude": 35.1050071,
+          "longitude": -106.487397,
+          "osmType": "way",
+          "osmId": 319181937,
+          "sourceUrl": "https://www.openstreetmap.org/way/319181937",
+          "tags": {
+            "bicycle": "designated",
+            "dog": "yes",
+            "electric_bicycle": "yes",
+            "foot": "designated",
+            "highway": "path",
+            "horse": "designated",
+            "motor_vehicle": "no",
+            "name": "Picnic Site Trail",
+            "operator": "Albuquerque Parks and Recreation, Open Space Division",
+            "operator:website": "https://www.cabq.gov/parksandrecreation/open-space",
+            "ref": "365",
+            "sac_scale": "hiking",
+            "source": "survey;gnss;Albuquerque Open Space Map",
+            "surface": "ground",
+            "trail_visibility": "excellent"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Loop Trail 402",
+          "latitude": 35.1119005,
+          "longitude": -106.4869076,
+          "osmType": "way",
+          "osmId": 319337791,
+          "sourceUrl": "https://www.openstreetmap.org/way/319337791",
+          "tags": {
+            "bicycle": "designated",
+            "dog": "yes",
+            "electric_bicycle": "yes",
+            "foot": "designated",
+            "highway": "path",
+            "horse": "yes",
+            "motor_vehicle": "no",
+            "name": "Loop Trail 402",
+            "operator": "Albuquerque Parks and Recreation, Open Space Division",
+            "operator:website": "https://www.cabq.gov/parksandrecreation/open-space",
+            "ref": "402",
+            "sac_scale": "hiking",
+            "source": "survey;gnss;Albuquerque Open Space Map",
+            "surface": "dirt",
+            "trail_visibility": "excellent"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Open Space Trail",
+          "latitude": 35.1114786,
+          "longitude": -106.4870566,
+          "osmType": "way",
+          "osmId": 319337817,
+          "sourceUrl": "https://www.openstreetmap.org/way/319337817",
+          "tags": {
+            "bicycle": "designated",
+            "dog": "yes",
+            "electric_bicycle": "yes",
+            "foot": "designated",
+            "highway": "path",
+            "horse": "yes",
+            "motor_vehicle": "no",
+            "name": "Open Space Trail",
+            "operator": "Albuquerque Parks and Recreation, Open Space Division",
+            "operator:website": "https://www.cabq.gov/parksandrecreation/open-space",
+            "sac_scale": "hiking",
+            "source": "Albuquerque Open Space Foothills Trail Map - Piedra Lisa",
+            "surface": "dirt",
+            "trail_visibility": "excellent"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Piedra Lisa Canyon Trailhead Parking",
+          "latitude": 35.1124928,
+          "longitude": -106.4882992,
+          "osmType": "way",
+          "osmId": 323465537,
+          "sourceUrl": "https://www.openstreetmap.org/way/323465537",
+          "tags": {
+            "access": "yes",
+            "amenity": "parking",
+            "fee": "no",
+            "name": "Piedra Lisa Canyon Trailhead Parking",
+            "parking": "surface"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "U Mound Trail",
+          "latitude": 35.0809709,
+          "longitude": -106.4801827,
+          "osmType": "way",
+          "osmId": 565554929,
+          "sourceUrl": "https://www.openstreetmap.org/way/565554929",
+          "tags": {
+            "bicycle": "yes",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "no",
+            "motor_vehicle": "no",
+            "name": "U Mound Trail",
+            "operator": "Albuquerque Parks and Recreation, Open Space Division",
+            "operator:website": "https://www.cabq.gov/parksandrecreation/open-space",
+            "source": "GPS",
+            "surface": "ground"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trail 365A",
+          "latitude": 35.0966668,
+          "longitude": -106.4790062,
+          "osmType": "way",
+          "osmId": 775403494,
+          "sourceUrl": "https://www.openstreetmap.org/way/775403494",
+          "tags": {
+            "bicycle": "designated",
+            "check_date": "2025-01-29",
+            "dog": "yes",
+            "electric_bicycle": "yes",
+            "foot": "designated",
+            "highway": "path",
+            "horse": "designated",
+            "motor_vehicle": "no",
+            "name": "Trail 365A",
+            "operator": "Albuquerque Parks and Recreation, Open Space Division",
+            "operator:website": "https://www.cabq.gov/parksandrecreation/open-space",
+            "ref": "365A",
+            "sac_scale": "hiking",
+            "source": "Albuquerque Open Space Map;Albuquerque OpenSpace Foothills Trail Map;survey;GNSS",
+            "surface": "ground",
+            "trail_visibility": "excellent"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Rover Access Trail South",
+          "latitude": 35.1022831,
+          "longitude": -106.48851,
+          "osmType": "way",
+          "osmId": 775403497,
+          "sourceUrl": "https://www.openstreetmap.org/way/775403497",
+          "tags": {
+            "bicycle": "yes",
+            "electric_bicycle": "yes",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "yes",
+            "informal": "yes",
+            "motor_vehicle": "no",
+            "name": "Rover Access Trail South",
+            "tracktype": "grade2"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Rover Access Trail North",
+          "latitude": 35.1028601,
+          "longitude": -106.4897436,
+          "osmType": "way",
+          "osmId": 775431553,
+          "sourceUrl": "https://www.openstreetmap.org/way/775431553",
+          "tags": {
+            "bicycle": "yes",
+            "electric_bicycle": "yes",
+            "foot": "yes",
+            "highway": "path",
+            "motor_vehicle": "no",
+            "name": "Rover Access Trail North",
+            "operator": "Albuquerque Parks and Recreation, Open Space Division",
+            "operator:website": "https://www.cabq.gov/parksandrecreation/open-space",
+            "source": "survey;gnss;Albuquerque Open Space Map",
+            "tracktype": "grade2"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trail 344",
+          "latitude": 35.0682438,
+          "longitude": -106.4838065,
+          "osmType": "way",
+          "osmId": 1118687177,
+          "sourceUrl": "https://www.openstreetmap.org/way/1118687177",
+          "tags": {
+            "bicycle": "designated",
+            "dog": "yes",
+            "foot": "designated",
+            "highway": "path",
+            "horse": "designated",
+            "motor_vehicle": "no",
+            "name": "Trail 344",
+            "operator": "Albuquerque Parks and Recreation, Open Space Division",
+            "operator:website": "https://www.cabq.gov/parksandrecreation/open-space",
+            "ref": "344",
+            "sac_scale": "hiking",
+            "source": "Albuquerque Open Space Map,survey,gnss",
+            "surface": "dirt",
+            "trail_visibility": "excellent"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Piedra Lisa Arroyo",
+          "latitude": 35.1119263,
+          "longitude": -106.4818859,
+          "osmType": "way",
+          "osmId": 1127917396,
+          "sourceUrl": "https://www.openstreetmap.org/way/1127917396",
+          "tags": {
+            "intermittent": "yes",
+            "name": "Piedra Lisa Arroyo",
+            "waterway": "river"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Embudo Arroyo",
+          "latitude": 35.0993661,
+          "longitude": -106.479334,
+          "osmType": "way",
+          "osmId": 1127917408,
+          "sourceUrl": "https://www.openstreetmap.org/way/1127917408",
+          "tags": {
+            "intermittent": "yes",
+            "name": "Embudo Arroyo",
+            "waterway": "river"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Embudo Arroyo",
+          "latitude": 35.0975232,
+          "longitude": -106.4747426,
+          "osmType": "way",
+          "osmId": 1127917409,
+          "sourceUrl": "https://www.openstreetmap.org/way/1127917409",
+          "tags": {
+            "intermittent": "yes",
+            "name": "Embudo Arroyo",
+            "waterway": "river"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Hidden Valley Route",
+          "latitude": 35.1196991,
+          "longitude": -106.4827287,
+          "osmType": "way",
+          "osmId": 1132086878,
+          "sourceUrl": "https://www.openstreetmap.org/way/1132086878",
+          "tags": {
+            "electric_bicycle": "no",
+            "foot": "yes",
+            "highway": "path",
+            "informal": "yes",
+            "name": "Hidden Valley Route"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Embudo Horse Bypass",
+          "latitude": 35.094374,
+          "longitude": -106.4729345,
+          "osmType": "way",
+          "osmId": 1160948107,
+          "sourceUrl": "https://www.openstreetmap.org/way/1160948107",
+          "tags": {
+            "bicycle": "yes",
+            "check_date": "2025-11-31",
+            "dog": "leashed",
+            "electric_bicycle": "yes",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "yes",
+            "name": "Embudo Horse Bypass",
+            "operator": "Albuquerque Parks and Recreation, Open Space Division",
+            "operator:website": "https://www.cabq.gov/parksandrecreation/open-space",
+            "ref": "193A",
+            "sac_scale": "hiking",
+            "source": "survey;GNSS",
+            "surface": "ground",
+            "trail_visibility": "good"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Open Space Trail",
+          "latitude": 35.1124879,
+          "longitude": -106.4875042,
+          "osmType": "way",
+          "osmId": 1160969239,
+          "sourceUrl": "https://www.openstreetmap.org/way/1160969239",
+          "tags": {
+            "bicycle": "designated",
+            "dog": "yes",
+            "electric_bicycle": "yes",
+            "foot": "designated",
+            "highway": "path",
+            "horse": "yes",
+            "motor_vehicle": "no",
+            "name": "Open Space Trail",
+            "operator": "Albuquerque Parks and Recreation, Open Space Division",
+            "operator:website": "https://www.cabq.gov/parksandrecreation/open-space",
+            "sac_scale": "hiking",
+            "source": "Albuquerque Open Space Foothills Trail Map - Piedra Lisa",
+            "surface": "dirt",
+            "trail_visibility": "excellent"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Piedra Lisa Canyon Trail",
+          "latitude": 35.1120365,
+          "longitude": -106.4823371,
+          "osmType": "way",
+          "osmId": 1160969242,
+          "sourceUrl": "https://www.openstreetmap.org/way/1160969242",
+          "tags": {
+            "bicycle": "no",
+            "dog": "yes",
+            "electric_bicycle": "no",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "no",
+            "informal": "yes",
+            "name": "Piedra Lisa Canyon Trail",
+            "sac_scale": "demanding_mountain_hiking",
+            "surface": "rocky",
+            "visibility": "intermediate"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trail 401a",
+          "latitude": 35.0916723,
+          "longitude": -106.4809525,
+          "osmType": "way",
+          "osmId": 1161785841,
+          "sourceUrl": "https://www.openstreetmap.org/way/1161785841",
+          "tags": {
+            "bicycle": "designated",
+            "dog": "yes",
+            "electric_bicycle": "yes",
+            "foot": "designated",
+            "highway": "path",
+            "horse": "designated",
+            "motor_vehicle": "no",
+            "name": "Trail 401a",
+            "operator": "Albuquerque Parks and Recreation, Open Space Division",
+            "operator:website": "https://www.cabq.gov/parksandrecreation/open-space",
+            "ref": "401A",
+            "sac_scale": "hiking",
+            "source": "Albuquerque Open Space Map,GNSS,survey",
+            "surface": "dirt",
+            "trail_visibility": "excellent"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trail 400",
+          "latitude": 35.0793114,
+          "longitude": -106.483434,
+          "osmType": "way",
+          "osmId": 1317950942,
+          "sourceUrl": "https://www.openstreetmap.org/way/1317950942",
+          "tags": {
+            "bicycle": "designated",
+            "check_date": "2024-01-18",
+            "dog": "leashed",
+            "electric_bicycle": "yes",
+            "foot": "designated",
+            "highway": "path",
+            "horse": "designated",
+            "motor_vehicle": "no",
+            "name": "Trail 400",
+            "operator": "Albuquerque Parks and Recreation, Open Space Division",
+            "operator:website": "https://www.cabq.gov/parksandrecreation/open-space",
+            "ref": "400",
+            "sac_scale": "hiking",
+            "source": "Albuquerque Open Space Map;survey,gnss",
+            "surface": "dirt",
+            "trail_visibility": "excellent"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trail 401",
+          "latitude": 35.0956991,
+          "longitude": -106.4804893,
+          "osmType": "way",
+          "osmId": 1317950943,
+          "sourceUrl": "https://www.openstreetmap.org/way/1317950943",
+          "tags": {
+            "bicycle": "designated",
+            "dog": "yes",
+            "electric_bicycle": "yes",
+            "foot": "designated",
+            "highway": "path",
+            "horse": "designated",
+            "motor_vehicle": "no",
+            "name": "Trail 401",
+            "operator": "Albuquerque Parks and Recreation, Open Space Division",
+            "operator:website": "https://www.cabq.gov/parksandrecreation/open-space",
+            "ref": "401",
+            "ref:bag": "401",
+            "sac_scale": "hiking",
+            "source": "Albuquerque Open Space Map;Albuquerque OpenSpace Foothills Trail Map",
+            "surface": "dirt",
+            "trail_visibility": "excellent"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Foothills Trail",
+          "latitude": 35.0931352,
+          "longitude": -106.475653,
+          "osmType": "way",
+          "osmId": 1317950944,
+          "sourceUrl": "https://www.openstreetmap.org/way/1317950944",
+          "tags": {
+            "bicycle": "designated",
+            "dog": "yes",
+            "electric_bicycle": "no",
+            "foot": "designated",
+            "highway": "path",
+            "horse": "designated",
+            "motor_vehicle": "no",
+            "name": "Foothills Trail",
+            "operator": "Albuquerque Parks and Recreation, Open Space Division",
+            "operator:website": "https://www.cabq.gov/parksandrecreation/open-space",
+            "ref": "365",
+            "sac_scale": "hiking",
+            "source": "Albuquerque Open Space Map",
+            "surface": "dirt",
+            "trail_visibility": "excellent"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Foothills Trail",
+          "latitude": 35.094193,
+          "longitude": -106.4748391,
+          "osmType": "way",
+          "osmId": 1317950945,
+          "sourceUrl": "https://www.openstreetmap.org/way/1317950945",
+          "tags": {
+            "bicycle": "designated",
+            "dog": "yes",
+            "electric_bicycle": "yes",
+            "foot": "designated",
+            "highway": "path",
+            "horse": "designated",
+            "motor_vehicle": "no",
+            "name": "Foothills Trail",
+            "operator": "Albuquerque Parks and Recreation, Open Space Division",
+            "operator:website": "https://www.cabq.gov/parksandrecreation/open-space",
+            "ref": "365",
+            "sac_scale": "hiking",
+            "source": "Albuquerque Open Space Map",
+            "surface": "dirt",
+            "trail_visibility": "excellent"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Foothills Trail",
+          "latitude": 35.0942517,
+          "longitude": -106.4748982,
+          "osmType": "way",
+          "osmId": 1317950946,
+          "sourceUrl": "https://www.openstreetmap.org/way/1317950946",
+          "tags": {
+            "bicycle": "designated",
+            "dog": "yes",
+            "electric_bicycle": "no",
+            "foot": "designated",
+            "highway": "path",
+            "horse": "designated",
+            "motor_vehicle": "no",
+            "name": "Foothills Trail",
+            "operator": "Albuquerque Parks and Recreation, Open Space Division",
+            "operator:website": "https://www.cabq.gov/parksandrecreation/open-space",
+            "ref": "365",
+            "sac_scale": "hiking",
+            "source": "Albuquerque Open Space Map",
+            "surface": "dirt",
+            "trail_visibility": "excellent"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Embudo Horse Bypass",
+          "latitude": 35.0945107,
+          "longitude": -106.4718869,
+          "osmType": "way",
+          "osmId": 1317950947,
+          "sourceUrl": "https://www.openstreetmap.org/way/1317950947",
+          "tags": {
+            "bicycle": "no",
+            "check_date": "2025-11-31",
+            "dog": "yes",
+            "electric_bicycle": "no",
+            "foot": "designated",
+            "highway": "path",
+            "horse": "designated",
+            "motor_vehicle": "no",
+            "name": "Embudo Horse Bypass",
+            "operator": "Albuquerque Parks and Recreation, Open Space Division",
+            "ref": "193A",
+            "sac_scale": "mountain_hiking",
+            "source": "survey;gnss;USFS",
+            "surface": "ground",
+            "trail_visibility": "good"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Foothills Trail",
+          "latitude": 35.0957841,
+          "longitude": -106.4733577,
+          "osmType": "way",
+          "osmId": 1317950948,
+          "sourceUrl": "https://www.openstreetmap.org/way/1317950948",
+          "tags": {
+            "bicycle": "designated",
+            "dog": "yes",
+            "electric_bicycle": "yes",
+            "foot": "designated",
+            "highway": "path",
+            "horse": "designated",
+            "motor_vehicle": "no",
+            "name": "Foothills Trail",
+            "operator": "Albuquerque Parks and Recreation, Open Space Division",
+            "operator:website": "https://www.cabq.gov/parksandrecreation/open-space",
+            "ref": "365",
+            "sac_scale": "hiking",
+            "source": "Albuquerque Open Space Map",
+            "surface": "dirt",
+            "trail_visibility": "excellent"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Embudo Trail",
+          "latitude": 35.0990613,
+          "longitude": -106.4715403,
+          "osmType": "way",
+          "osmId": 1317950949,
+          "sourceUrl": "https://www.openstreetmap.org/way/1317950949",
+          "tags": {
+            "bicycle": "designated",
+            "check_date": "2025-01-29",
+            "dog": "yes",
+            "electric_bicycle": "yes",
+            "foot": "designated",
+            "highway": "path",
+            "horse": "designated",
+            "motor_vehicle": "no",
+            "name": "Embudo Trail",
+            "operator": "Albuquerque Parks and Recreation, Open Space Division",
+            "operator:website": "https://www.cabq.gov/parksandrecreation/open-space",
+            "ref": "193",
+            "sac_scale": "hiking",
+            "source": "Albuquerque Open Space Map;survey;gps",
+            "surface": "dirt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Bernalillo, NM",
+            "tiger:reviewed": "no",
+            "trail_visibility": "excellent"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Foothills Trail",
+          "latitude": 35.1002632,
+          "longitude": -106.47587,
+          "osmType": "way",
+          "osmId": 1317950950,
+          "sourceUrl": "https://www.openstreetmap.org/way/1317950950",
+          "tags": {
+            "bicycle": "designated",
+            "dog": "yes",
+            "electric_bicycle": "no",
+            "foot": "designated",
+            "highway": "path",
+            "horse": "designated",
+            "motor_vehicle": "no",
+            "name": "Foothills Trail",
+            "operator": "Albuquerque Parks and Recreation, Open Space Division",
+            "operator:website": "https://www.cabq.gov/parksandrecreation/open-space",
+            "ref": "365",
+            "sac_scale": "hiking",
+            "source": "Albuquerque Open Space Map",
+            "surface": "dirt",
+            "trail_visibility": "excellent"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trail 401",
+          "latitude": 35.0778049,
+          "longitude": -106.4827392,
+          "osmType": "way",
+          "osmId": 1351292043,
+          "sourceUrl": "https://www.openstreetmap.org/way/1351292043",
+          "tags": {
+            "bicycle": "designated",
+            "dog": "yes",
+            "electric_bicycle": "yes",
+            "foot": "designated",
+            "highway": "path",
+            "horse": "designated",
+            "motor_vehicle": "no",
+            "name": "Trail 401",
+            "operator": "Albuquerque Parks and Recreation, Open Space Division",
+            "operator:website": "https://www.cabq.gov/parksandrecreation/open-space",
+            "ref": "401",
+            "ref:bag": "401",
+            "sac_scale": "hiking",
+            "source": "Albuquerque Open Space Map;survey,gnss",
+            "surface": "ground",
+            "trail_visibility": "excellent"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Foothills Trail",
+          "latitude": 35.0742197,
+          "longitude": -106.4809839,
+          "osmType": "way",
+          "osmId": 1351292044,
+          "sourceUrl": "https://www.openstreetmap.org/way/1351292044",
+          "tags": {
+            "bicycle": "designated",
+            "dog": "yes",
+            "electric_bicycle": "no",
+            "foot": "designated",
+            "highway": "path",
+            "horse": "designated",
+            "motor_vehicle": "no",
+            "name": "Foothills Trail",
+            "operator": "Albuquerque Parks and Recreation, Open Space Division",
+            "operator:website": "https://www.cabq.gov/parksandrecreation/open-space",
+            "ref": "365",
+            "sac_scale": "hiking",
+            "source": "Albuquerque Open Space Map;survey,gnss",
+            "surface": "ground",
+            "trail_visibility": "excellent"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Foothills Trail",
+          "latitude": 35.0941371,
+          "longitude": -106.4746267,
+          "osmType": "way",
+          "osmId": 1355280454,
+          "sourceUrl": "https://www.openstreetmap.org/way/1355280454",
+          "tags": {
+            "bicycle": "designated",
+            "check_date": "2025-01-29",
+            "dog": "yes",
+            "electric_bicycle": "yes",
+            "foot": "designated",
+            "highway": "path",
+            "horse": "designated",
+            "motor_vehicle": "no",
+            "name": "Foothills Trail",
+            "operator": "Albuquerque Parks and Recreation, Open Space Division",
+            "operator:website": "https://www.cabq.gov/parksandrecreation/open-space",
+            "ref": "365",
+            "sac_scale": "hiking",
+            "source": "Albuquerque Open Space Map;survey;GNSS",
+            "surface": "dirt",
+            "trail_visibility": "excellent"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Foothills Trail",
+          "latitude": 35.0941184,
+          "longitude": -106.4744347,
+          "osmType": "way",
+          "osmId": 1355280455,
+          "sourceUrl": "https://www.openstreetmap.org/way/1355280455",
+          "tags": {
+            "bicycle": "designated",
+            "bridge": "yes",
+            "check_date": "2025-01-29",
+            "dog": "yes",
+            "electric_bicycle": "yes",
+            "foot": "designated",
+            "highway": "path",
+            "horse": "designated",
+            "layer": "1",
+            "motor_vehicle": "no",
+            "name": "Foothills Trail",
+            "operator": "Albuquerque Parks and Recreation, Open Space Division",
+            "operator:website": "https://www.cabq.gov/parksandrecreation/open-space",
+            "ref": "365",
+            "sac_scale": "hiking",
+            "source": "Albuquerque Open Space Map;survey;GNSS",
+            "surface": "wood",
+            "trail_visibility": "excellent",
+            "width": "1"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trail 365A",
+          "latitude": 35.0944721,
+          "longitude": -106.4760119,
+          "osmType": "way",
+          "osmId": 1355280456,
+          "sourceUrl": "https://www.openstreetmap.org/way/1355280456",
+          "tags": {
+            "bicycle": "designated",
+            "check_date": "2025-01-29",
+            "dog": "yes",
+            "electric_bicycle": "yes",
+            "foot": "designated",
+            "highway": "path",
+            "horse": "designated",
+            "motor_vehicle": "no",
+            "name": "Trail 365A",
+            "operator": "Albuquerque Parks and Recreation, Open Space Division",
+            "operator:website": "https://www.cabq.gov/parksandrecreation/open-space",
+            "ref": "365A",
+            "sac_scale": "hiking",
+            "source": "Albuquerque Open Space Map;Albuquerque OpenSpace Foothills Trail Map;survey;GNSS",
+            "surface": "dirt",
+            "trail_visibility": "excellent"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trail 365A",
+          "latitude": 35.0947045,
+          "longitude": -106.4771622,
+          "osmType": "way",
+          "osmId": 1355280457,
+          "sourceUrl": "https://www.openstreetmap.org/way/1355280457",
+          "tags": {
+            "bicycle": "designated",
+            "bridge": "yes",
+            "check_date": "2025-01-29",
+            "dog": "yes",
+            "electric_bicycle": "yes",
+            "foot": "designated",
+            "highway": "path",
+            "horse": "designated",
+            "layer": "1",
+            "motor_vehicle": "no",
+            "name": "Trail 365A",
+            "operator": "Albuquerque Parks and Recreation, Open Space Division",
+            "operator:website": "https://www.cabq.gov/parksandrecreation/open-space",
+            "ref": "365A",
+            "sac_scale": "hiking",
+            "source": "Albuquerque Open Space Map;Albuquerque OpenSpace Foothills Trail Map;survey;GNSS",
+            "surface": "wood",
+            "trail_visibility": "excellent",
+            "width": "1"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Loop Trail 402",
+          "latitude": 35.1113557,
+          "longitude": -106.4868348,
+          "osmType": "way",
+          "osmId": 1367963614,
+          "sourceUrl": "https://www.openstreetmap.org/way/1367963614",
+          "tags": {
+            "bicycle": "designated",
+            "dog": "yes",
+            "electric_bicycle": "yes",
+            "foot": "designated",
+            "highway": "path",
+            "horse": "yes",
+            "motor_vehicle": "no",
+            "name": "Loop Trail 402",
+            "operator": "Albuquerque Parks and Recreation, Open Space Division",
+            "operator:website": "https://www.cabq.gov/parksandrecreation/open-space",
+            "ref": "402",
+            "sac_scale": "hiking",
+            "source": "survey;gnss;Albuquerque Open Space Map",
+            "surface": "dirt",
+            "trail_visibility": "excellent"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Foothills Trail",
+          "latitude": 35.0982695,
+          "longitude": -106.4719076,
+          "osmType": "way",
+          "osmId": 1370476952,
+          "sourceUrl": "https://www.openstreetmap.org/way/1370476952",
+          "tags": {
+            "bicycle": "designated",
+            "dog": "yes",
+            "electric_bicycle": "yes",
+            "foot": "designated",
+            "highway": "path",
+            "horse": "designated",
+            "motor_vehicle": "no",
+            "name": "Foothills Trail",
+            "operator": "Albuquerque Parks and Recreation, Open Space Division",
+            "operator:website": "https://www.cabq.gov/parksandrecreation/open-space",
+            "ref": "365",
+            "sac_scale": "hiking",
+            "source": "Albuquerque Open Space Map",
+            "surface": "dirt",
+            "trail_visibility": "excellent"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Foothills Trail",
+          "latitude": 35.0919065,
+          "longitude": -106.4762378,
+          "osmType": "way",
+          "osmId": 1376175629,
+          "sourceUrl": "https://www.openstreetmap.org/way/1376175629",
+          "tags": {
+            "bicycle": "designated",
+            "dog": "yes",
+            "electric_bicycle": "no",
+            "foot": "designated",
+            "highway": "path",
+            "horse": "yes",
+            "motor_vehicle": "no",
+            "name": "Foothills Trail",
+            "operator": "United States Forest Service",
+            "operator:website": "https://www.fs.usda.gov/recarea/cibola/null/recarea/?recid=64568&actid=51",
+            "ref": "365",
+            "sac_scale": "hiking",
+            "source": "USDA Southwestern Region GIS Data,survey,GNSS",
+            "surface": "ground",
+            "trail_visibility": "excellent",
+            "trailblazed": "yes"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Foothills Trail",
+          "latitude": 35.0918032,
+          "longitude": -106.4760363,
+          "osmType": "way",
+          "osmId": 1376175630,
+          "sourceUrl": "https://www.openstreetmap.org/way/1376175630",
+          "tags": {
+            "bicycle": "designated",
+            "bridge": "yes",
+            "dog": "yes",
+            "electric_bicycle": "no",
+            "foot": "designated",
+            "highway": "path",
+            "horse": "yes",
+            "layer": "1",
+            "motor_vehicle": "no",
+            "name": "Foothills Trail",
+            "operator": "United States Forest Service",
+            "operator:website": "https://www.fs.usda.gov/recarea/cibola/null/recarea/?recid=64568&actid=51",
+            "ref": "365",
+            "sac_scale": "hiking",
+            "source": "USDA Southwestern Region GIS Data,survey,GNSS",
+            "surface": "ground",
+            "trail_visibility": "excellent",
+            "trailblazed": "yes"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Sandia Foothills Open Space",
+          "latitude": 35.0967527,
+          "longitude": -106.477058,
+          "osmType": "relation",
+          "osmId": 5951128,
+          "sourceUrl": "https://www.openstreetmap.org/relation/5951128",
+          "tags": {
+            "gnis:feature_id": "1986213",
+            "leisure": "park",
+            "name": "Sandia Foothills Open Space",
+            "operator": "Albuquerque Parks and Recreation, Open Space Division",
+            "operator:website": "https://www.cabq.gov/parksandrecreation/open-space",
+            "type": "multipolygon",
+            "wikidata": "Q49557354"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Embudo Trailhead",
+          "latitude": 35.0992196,
+          "longitude": -106.4802781,
+          "osmType": "relation",
+          "osmId": 17467227,
+          "sourceUrl": "https://www.openstreetmap.org/relation/17467227",
+          "tags": {
+            "access": "yes",
+            "amenity": "parking",
+            "fee": "no",
+            "name": "Embudo Trailhead",
+            "parking": "surface",
+            "surface": "asphalt",
+            "type": "multipolygon"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Embudo Dam",
+          "latitude": 35.0981101,
+          "longitude": -106.4741534,
+          "osmType": "relation",
+          "osmId": 17471891,
+          "sourceUrl": "https://www.openstreetmap.org/relation/17471891",
+          "tags": {
+            "gnis:feature_id": "924180",
+            "name": "Embudo Dam",
+            "ref:US:NID": "NM00416",
+            "type": "multipolygon",
+            "waterway": "dam",
+            "wikidata": "Q48985766"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    },
+    "launch-nm-albuquerque-tingley-beach-and-bosque": {
+      "name": "Tingley Beach and Bosque",
+      "boundarySource": "https://www.openstreetmap.org/way/168469046",
+      "candidates": [
+        {
+          "name": "Clyde & Carrie Tingley",
+          "latitude": 35.0857888,
+          "longitude": -106.6740562,
+          "osmType": "node",
+          "osmId": 4730000561,
+          "sourceUrl": "https://www.openstreetmap.org/node/4730000561",
+          "tags": {
+            "artist": "Betty Sabo",
+            "artwork_type": "statue",
+            "name": "Clyde & Carrie Tingley",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Rio Grande Cutthroat Trout",
+          "latitude": 35.0840805,
+          "longitude": -106.6718059,
+          "osmType": "node",
+          "osmId": 4730628366,
+          "sourceUrl": "https://www.openstreetmap.org/node/4730628366",
+          "tags": {
+            "artist_name": "Colette Hosmer",
+            "artwork_type": "sculpture",
+            "name": "Rio Grande Cutthroat Trout",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "ABQ BioPark (Tingley Beach)",
+          "latitude": 35.0861609,
+          "longitude": -106.6744303,
+          "osmType": "way",
+          "osmId": 168469046,
+          "sourceUrl": "https://www.openstreetmap.org/way/168469046",
+          "tags": {
+            "name": "ABQ BioPark (Tingley Beach)",
+            "source": "www.cabq.gov/biopark",
+            "tourism": "zoo"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Children's Pond (Tingley Beach)",
+          "latitude": 35.0880532,
+          "longitude": -106.6763321,
+          "osmType": "way",
+          "osmId": 168476663,
+          "sourceUrl": "https://www.openstreetmap.org/way/168476663",
+          "tags": {
+            "leisure": "fishing",
+            "name": "Children's Pond (Tingley Beach)",
+            "natural": "water",
+            "water": "pond"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Catch & Release Pond (Tingley Beach)",
+          "latitude": 35.0833338,
+          "longitude": -106.6712063,
+          "osmType": "way",
+          "osmId": 168476664,
+          "sourceUrl": "https://www.openstreetmap.org/way/168476664",
+          "tags": {
+            "leisure": "fishing",
+            "name": "Catch & Release Pond (Tingley Beach)",
+            "natural": "water",
+            "water": "pond"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Youth Pond",
+          "latitude": 35.0870923,
+          "longitude": -106.675311,
+          "osmType": "way",
+          "osmId": 168476673,
+          "sourceUrl": "https://www.openstreetmap.org/way/168476673",
+          "tags": {
+            "name": "Youth Pond",
+            "natural": "water",
+            "water": "pond"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Tingley Drive Southwest",
+          "latitude": 35.0852591,
+          "longitude": -106.6725689,
+          "osmType": "way",
+          "osmId": 176074166,
+          "sourceUrl": "https://www.openstreetmap.org/way/176074166",
+          "tags": {
+            "cycleway": "lane",
+            "highway": "tertiary",
+            "lanes": "2",
+            "maxspeed": "25 mph",
+            "name": "Tingley Drive Southwest",
+            "source:cycleway": "Bing",
+            "source:maxspeed": "survey",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Bernalillo, NM",
+            "tiger:name_base": "Tingley",
+            "tiger:name_direction_suffix": "SW",
+            "tiger:name_type": "Dr",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Tingley Station",
+          "latitude": 35.0856572,
+          "longitude": -106.6741652,
+          "osmType": "way",
+          "osmId": 995748041,
+          "sourceUrl": "https://www.openstreetmap.org/way/995748041",
+          "tags": {
+            "amenity": "bus_station",
+            "building": "yes",
+            "bus": "yes",
+            "image": "https://cabq.gov/artsculture/biopark/images/tingley-banner.jpg",
+            "name": "Tingley Station",
+            "name:es": "Estación Tingley",
+            "operator": "City of Albuquerque",
+            "public_transport": "station",
+            "usage": "tourism",
+            "website": "https://www.cabq.gov/artsculture/biopark/tingley/restaurants-amenities#Tingley-Station"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Paseo del Bosque Trail",
+          "latitude": 35.0855097,
+          "longitude": -106.6740432,
+          "osmType": "way",
+          "osmId": 1350665686,
+          "sourceUrl": "https://www.openstreetmap.org/way/1350665686",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "yes",
+            "highway": "cycleway",
+            "horse": "yes",
+            "lcn": "yes",
+            "lit": "no",
+            "name": "Paseo del Bosque Trail",
+            "oneway": "no",
+            "source": "survey",
+            "source:lcn": "survey",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Central Pond (Tingley Beach)",
+          "latitude": 35.085775,
+          "longitude": -106.6737399,
+          "osmType": "relation",
+          "osmId": 3687197,
+          "sourceUrl": "https://www.openstreetmap.org/relation/3687197",
+          "tags": {
+            "leisure": "fishing",
+            "name": "Central Pond (Tingley Beach)",
+            "natural": "water",
+            "type": "multipolygon",
+            "water": "pond",
+            "wikidata": "Q7808157",
+            "wikipedia": "en:Tingley Beach"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    },
+    "launch-ok-oklahoma-city-scissortail-park": {
+      "name": "Scissortail Park",
+      "boundarySource": "https://www.openstreetmap.org/way/176390181",
+      "candidates": [
+        {
+          "name": "Little Free Library",
+          "latitude": 35.4588745,
+          "longitude": -97.5169978,
+          "osmType": "node",
+          "osmId": 10805573925,
+          "sourceUrl": "https://www.openstreetmap.org/node/10805573925",
+          "tags": {
+            "amenity": "public_bookcase",
+            "brand": "Little Free Library",
+            "brand:wikidata": "Q6650101",
+            "check_date": "2025-10-23",
+            "name": "Little Free Library"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Rain Garden",
+          "latitude": 35.4601256,
+          "longitude": -97.516784,
+          "osmType": "node",
+          "osmId": 10805637149,
+          "sourceUrl": "https://www.openstreetmap.org/node/10805637149",
+          "tags": {
+            "leisure": "garden",
+            "name": "Rain Garden"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Unexpected Us",
+          "latitude": 35.4596016,
+          "longitude": -97.518274,
+          "osmType": "node",
+          "osmId": 13252829937,
+          "sourceUrl": "https://www.openstreetmap.org/node/13252829937",
+          "tags": {
+            "artist_name": "Gabriel Feldman, Denise Duong",
+            "artwork_type": "sculpture",
+            "material": "metal,vegetation",
+            "name": "Unexpected Us",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Woodland",
+          "latitude": 35.4596302,
+          "longitude": -97.5180747,
+          "osmType": "node",
+          "osmId": 13252839590,
+          "sourceUrl": "https://www.openstreetmap.org/node/13252839590",
+          "tags": {
+            "board_type": "plants",
+            "information": "board",
+            "name": "Woodland",
+            "tourism": "information"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Prairie Birds, Grassland Specialists",
+          "latitude": 35.4603704,
+          "longitude": -97.5186287,
+          "osmType": "node",
+          "osmId": 13252849288,
+          "sourceUrl": "https://www.openstreetmap.org/node/13252849288",
+          "tags": {
+            "board_type": "wildlife",
+            "information": "board",
+            "name": "Prairie Birds, Grassland Specialists",
+            "tourism": "information"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Scissortail Park",
+          "latitude": 35.4595624,
+          "longitude": -97.5177656,
+          "osmType": "way",
+          "osmId": 176390181,
+          "sourceUrl": "https://www.openstreetmap.org/way/176390181",
+          "tags": {
+            "addr:city": "Oklahoma City",
+            "addr:housenumber": "300",
+            "addr:state": "OK",
+            "addr:street": "Southwest 7th Street",
+            "leisure": "park",
+            "name": "Scissortail Park",
+            "opening_hours": "Mo-Su 06:00-23:00",
+            "operator": "City of Oklahoma City",
+            "operator:type": "government",
+            "operator:wikidata": "Q34863"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Love's Travel Stops Stage",
+          "latitude": 35.4614292,
+          "longitude": -97.517072,
+          "osmType": "way",
+          "osmId": 730055889,
+          "sourceUrl": "https://www.openstreetmap.org/way/730055889",
+          "tags": {
+            "amenity": "stage",
+            "building": "roof",
+            "building:levels": "1",
+            "covered": "yes",
+            "name": "Love's Travel Stops Stage"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "The Promenade",
+          "latitude": 35.4595505,
+          "longitude": -97.5169598,
+          "osmType": "way",
+          "osmId": 730055901,
+          "sourceUrl": "https://www.openstreetmap.org/way/730055901",
+          "tags": {
+            "highway": "pedestrian",
+            "lit": "yes",
+            "name": "The Promenade",
+            "surface": "paving_stones"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "South Hudson Avenue",
+          "latitude": 35.4599737,
+          "longitude": -97.5189417,
+          "osmType": "way",
+          "osmId": 730953300,
+          "sourceUrl": "https://www.openstreetmap.org/way/730953300",
+          "tags": {
+            "footway": "sidewalk",
+            "highway": "footway",
+            "name": "South Hudson Avenue",
+            "surface": "paving_stones"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Spark",
+          "latitude": 35.4619424,
+          "longitude": -97.5178601,
+          "osmType": "way",
+          "osmId": 732397645,
+          "sourceUrl": "https://www.openstreetmap.org/way/732397645",
+          "tags": {
+            "addr:housenumber": "300",
+            "addr:street": "Oklahoma City Boulevard",
+            "amenity": "fast_food",
+            "building": "yes",
+            "cuisine": "burger",
+            "indoor_seating": "yes",
+            "name": "Spark",
+            "outdoor_seating": "veranda",
+            "takeaway": "yes"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "American Fidelity Picnic Grove Trellis",
+          "latitude": 35.4593999,
+          "longitude": -97.5164996,
+          "osmType": "way",
+          "osmId": 732726782,
+          "sourceUrl": "https://www.openstreetmap.org/way/732726782",
+          "tags": {
+            "amenity": "shelter",
+            "building": "roof",
+            "name": "American Fidelity Picnic Grove Trellis",
+            "shelter_type": "picnic_shelter"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Gaylord Family Parterre Gardens",
+          "latitude": 35.4613977,
+          "longitude": -97.517544,
+          "osmType": "way",
+          "osmId": 1161787476,
+          "sourceUrl": "https://www.openstreetmap.org/way/1161787476",
+          "tags": {
+            "access": "yes",
+            "garden:type": "landscaping",
+            "leisure": "garden",
+            "name": "Gaylord Family Parterre Gardens"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "American Fidelity Picnic Grove Trellis",
+          "latitude": 35.459765,
+          "longitude": -97.5165046,
+          "osmType": "way",
+          "osmId": 1233614428,
+          "sourceUrl": "https://www.openstreetmap.org/way/1233614428",
+          "tags": {
+            "amenity": "shelter",
+            "building": "roof",
+            "name": "American Fidelity Picnic Grove Trellis",
+            "shelter_type": "picnic_shelter"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "American Fidelity Picnic Grove Trellis",
+          "latitude": 35.4595864,
+          "longitude": -97.5165018,
+          "osmType": "way",
+          "osmId": 1233614429,
+          "sourceUrl": "https://www.openstreetmap.org/way/1233614429",
+          "tags": {
+            "amenity": "shelter",
+            "building": "roof",
+            "name": "American Fidelity Picnic Grove Trellis",
+            "shelter_type": "picnic_shelter"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    },
+    "launch-ok-oklahoma-city-myriad-botanical-gardens": {
+      "name": "Myriad Botanical Gardens",
+      "boundarySource": "https://www.openstreetmap.org/way/142226336",
+      "candidates": [
+        {
+          "name": "Myriad Botanical Gardens",
+          "latitude": 35.4653532,
+          "longitude": -97.5179475,
+          "osmType": "way",
+          "osmId": 142226336,
+          "sourceUrl": "https://www.openstreetmap.org/way/142226336",
+          "tags": {
+            "ele": "358",
+            "gnis:feature_id": "1777729",
+            "leisure": "park",
+            "name": "Myriad Botanical Gardens",
+            "operator": "Oklahoma City Urban Renewal Authority"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Oklahoma Gas Electric",
+          "latitude": 35.4648255,
+          "longitude": -97.5192304,
+          "osmType": "way",
+          "osmId": 142408192,
+          "sourceUrl": "https://www.openstreetmap.org/way/142408192",
+          "tags": {
+            "man_made": "street_cabinet",
+            "name": "Oklahoma Gas Electric",
+            "utility": "power"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Water Stage",
+          "latitude": 35.4651398,
+          "longitude": -97.5183278,
+          "osmType": "way",
+          "osmId": 426194293,
+          "sourceUrl": "https://www.openstreetmap.org/way/426194293",
+          "tags": {
+            "amenity": "theatre",
+            "check_date": "2023-12-13",
+            "name": "Water Stage",
+            "theatre:type": "amphi",
+            "website": "https://myriadgardens.org/visit-us/rentals/water-stage-and-plaza/"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Ron Norick Boulevard",
+          "latitude": 35.465885,
+          "longitude": -97.5165393,
+          "osmType": "way",
+          "osmId": 546957620,
+          "sourceUrl": "https://www.openstreetmap.org/way/546957620",
+          "tags": {
+            "footway": "sidewalk",
+            "highway": "footway",
+            "name": "Ron Norick Boulevard"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Myriad Gardens Dog Park",
+          "latitude": 35.4646641,
+          "longitude": -97.5172483,
+          "osmType": "way",
+          "osmId": 546957664,
+          "sourceUrl": "https://www.openstreetmap.org/way/546957664",
+          "tags": {
+            "leisure": "dog_park",
+            "name": "Myriad Gardens Dog Park"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Children's Gardens",
+          "latitude": 35.4646218,
+          "longitude": -97.518625,
+          "osmType": "way",
+          "osmId": 546957665,
+          "sourceUrl": "https://www.openstreetmap.org/way/546957665",
+          "tags": {
+            "leisure": "playground",
+            "name": "Children's Gardens"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Park House Event Center",
+          "latitude": 35.4652879,
+          "longitude": -97.5167757,
+          "osmType": "way",
+          "osmId": 559220707,
+          "sourceUrl": "https://www.openstreetmap.org/way/559220707",
+          "tags": {
+            "amenity": "events_venue",
+            "building": "yes",
+            "check_date": "2023-12-13",
+            "name": "Park House Event Center",
+            "phone": "+1 405-445-7092",
+            "website": "https://myriadgardens.org/visit-us/rentals/park-house-event-center/",
+            "wheelchair": "yes"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Ron Norick Boulevard",
+          "latitude": 35.4647705,
+          "longitude": -97.5164916,
+          "osmType": "way",
+          "osmId": 733333591,
+          "sourceUrl": "https://www.openstreetmap.org/way/733333591",
+          "tags": {
+            "footway": "sidewalk",
+            "highway": "footway",
+            "name": "Ron Norick Boulevard"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "West Reno Avenue",
+          "latitude": 35.464391,
+          "longitude": -97.5170852,
+          "osmType": "way",
+          "osmId": 1162367292,
+          "sourceUrl": "https://www.openstreetmap.org/way/1162367292",
+          "tags": {
+            "footway": "sidewalk",
+            "highway": "footway",
+            "name": "West Reno Avenue"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "West Reno Avenue",
+          "latitude": 35.4643661,
+          "longitude": -97.5185787,
+          "osmType": "way",
+          "osmId": 1424639490,
+          "sourceUrl": "https://www.openstreetmap.org/way/1424639490",
+          "tags": {
+            "footway": "sidewalk",
+            "highway": "footway",
+            "name": "West Reno Avenue"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    },
+    "launch-ok-oklahoma-city-lake-hefner-park": {
+      "name": "Lake Hefner Park",
+      "boundarySource": "https://www.openstreetmap.org/way/558576490",
+      "candidates": [
+        {
+          "name": "Dry Creek",
+          "latitude": 35.5509581,
+          "longitude": -97.5759023,
+          "osmType": "way",
+          "osmId": 61856571,
+          "sourceUrl": "https://www.openstreetmap.org/way/61856571",
+          "tags": {
+            "NHD:ComID": "107562547",
+            "NHD:FCode": "46003",
+            "NHD:FType": "StreamRiver",
+            "NHD:RESOLUTION": "High",
+            "NHD:ReachCode": "11050002007202",
+            "NHD:way_id": "107562547",
+            "attribution": "NHD",
+            "gnis:feature_id": "1092217",
+            "intermittent": "yes",
+            "name": "Dry Creek",
+            "source": "NHD_import_v0.4_20100611200746",
+            "waterway": "stream"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "OKC Broncos Baseball Field",
+          "latitude": 35.5469871,
+          "longitude": -97.5740449,
+          "osmType": "way",
+          "osmId": 181218193,
+          "sourceUrl": "https://www.openstreetmap.org/way/181218193",
+          "tags": {
+            "leisure": "pitch",
+            "name": "OKC Broncos Baseball Field",
+            "sport": "baseball"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Northwest Grand Boulevard",
+          "latitude": 35.5443385,
+          "longitude": -97.573161,
+          "osmType": "way",
+          "osmId": 182651030,
+          "sourceUrl": "https://www.openstreetmap.org/way/182651030",
+          "tags": {
+            "bicycle:lanes": "designated|designated",
+            "cycleway": "shared_lane",
+            "hazard": "cyclists",
+            "highway": "tertiary",
+            "lanes": "2",
+            "maxspeed": "35 mph",
+            "name": "Northwest Grand Boulevard",
+            "noref": "yes",
+            "oneway": "yes",
+            "source:maxspeed": "Unless otherwise posted speed limit 25 MPH in Oklahoma City;OKC code § 32-166.",
+            "turn:lanes": "left;through|through;right"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "OK PAW Park",
+          "latitude": 35.5472185,
+          "longitude": -97.5753759,
+          "osmType": "way",
+          "osmId": 317951695,
+          "sourceUrl": "https://www.openstreetmap.org/way/317951695",
+          "tags": {
+            "leisure": "dog_park",
+            "name": "OK PAW Park"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Lake Hefner/Grand Boulevard Trail",
+          "latitude": 35.544783,
+          "longitude": -97.5725817,
+          "osmType": "way",
+          "osmId": 491015570,
+          "sourceUrl": "https://www.openstreetmap.org/way/491015570",
+          "tags": {
+            "footway": "sidewalk",
+            "highway": "footway",
+            "horse": "no",
+            "name": "Lake Hefner/Grand Boulevard Trail",
+            "source": "Bing",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "North Grand Boulevard",
+          "latitude": 35.5458393,
+          "longitude": -97.5748384,
+          "osmType": "way",
+          "osmId": 547532779,
+          "sourceUrl": "https://www.openstreetmap.org/way/547532779",
+          "tags": {
+            "highway": "unclassified",
+            "lanes": "2",
+            "lanes:backward": "1",
+            "lanes:forward": "1",
+            "maxspeed": "25 mph",
+            "name": "North Grand Boulevard",
+            "source:maxspeed": "Unless otherwise posted speed limit 25 MPH in Oklahoma City; OKC code § 32-166.",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Oklahoma, OK",
+            "tiger:name_base": "Grand",
+            "tiger:name_direction_prefix": "N",
+            "tiger:name_type": "Blvd",
+            "tiger:reviewed": "no",
+            "tiger:zip_left": "73116",
+            "turn:lanes:backward": "left;through;right"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "North Grand Boulevard",
+          "latitude": 35.5447826,
+          "longitude": -97.574156,
+          "osmType": "way",
+          "osmId": 547532781,
+          "sourceUrl": "https://www.openstreetmap.org/way/547532781",
+          "tags": {
+            "highway": "unclassified",
+            "lanes": "2",
+            "lanes:backward": "1",
+            "lanes:forward": "1",
+            "maxspeed": "25 mph",
+            "name": "North Grand Boulevard",
+            "source:maxspeed": "Unless otherwise posted speed limit 25 MPH in Oklahoma City; OKC code § 32-166.",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Oklahoma, OK",
+            "tiger:name_base": "Grand",
+            "tiger:name_direction_prefix": "N",
+            "tiger:name_type": "Blvd",
+            "tiger:reviewed": "no",
+            "tiger:zip_left": "73116",
+            "turn:lanes:backward": "left;through;right"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Lake Hefner Park",
+          "latitude": 35.5475762,
+          "longitude": -97.5739145,
+          "osmType": "way",
+          "osmId": 558576490,
+          "sourceUrl": "https://www.openstreetmap.org/way/558576490",
+          "tags": {
+            "ele": "369",
+            "gnis:feature_id": "1094469",
+            "leisure": "park",
+            "name": "Lake Hefner Park",
+            "wikidata": "Q49513296"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    },
+    "launch-tx-fort-worth-trinity-park": {
+      "name": "Trinity Park",
+      "boundarySource": "https://www.openstreetmap.org/relation/6934702",
+      "candidates": [
+        {
+          "name": "Trinity Metro Bikes : Trinity Park -32-",
+          "latitude": 32.7451164,
+          "longitude": -97.351787,
+          "osmType": "node",
+          "osmId": 4926963578,
+          "sourceUrl": "https://www.openstreetmap.org/node/4926963578",
+          "tags": {
+            "addr:city": "Fort Worth",
+            "addr:housenumber": "2500",
+            "addr:postcode": "76107",
+            "addr:state": "TX",
+            "addr:street": "River Drive",
+            "amenity": "bicycle_rental",
+            "capacity": "17",
+            "description": "Bicycle rental kiosk at north end of Trinity Park",
+            "designation": "Bike share",
+            "fee": "yes",
+            "name": "Trinity Metro Bikes : Trinity Park -32-",
+            "network": "Trinity Metro Bikes",
+            "operator": "Trinity Metro Bikes",
+            "operator:type": "public",
+            "payment:credit_cards": "yes",
+            "url": "https://fortworthbikesharing.com"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Van Zandt Cottage",
+          "latitude": 32.7439846,
+          "longitude": -97.3587483,
+          "osmType": "node",
+          "osmId": 6818241636,
+          "sourceUrl": "https://www.openstreetmap.org/node/6818241636",
+          "tags": {
+            "addr:city": "Fort Worth",
+            "addr:housenumber": "2933",
+            "addr:postcode": "76107",
+            "addr:state": "TX",
+            "addr:street": "Farm House Way",
+            "name": "Van Zandt Cottage",
+            "opening_hours": "Tu-Sa 09:30-16:00",
+            "operator": "Fort Worth Park and Recreation",
+            "tourism": "museum",
+            "website": "https://www.logcabinvillage.org/vanzandtcottage"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Police & Firefighters Memorial",
+          "latitude": 32.7505002,
+          "longitude": -97.3493642,
+          "osmType": "node",
+          "osmId": 6819007068,
+          "sourceUrl": "https://www.openstreetmap.org/node/6819007068",
+          "tags": {
+            "historic": "memorial",
+            "memorial": "memorial",
+            "name": "Police & Firefighters Memorial"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trinity Metro Bikes : Dream Park -33-",
+          "latitude": 32.7368092,
+          "longitude": -97.3595889,
+          "osmType": "node",
+          "osmId": 8050765918,
+          "sourceUrl": "https://www.openstreetmap.org/node/8050765918",
+          "tags": {
+            "addr:city": "Fort Worth",
+            "addr:postcode": "76107",
+            "addr:state": "TX",
+            "addr:street": "Trinity Park Drive",
+            "amenity": "bicycle_rental",
+            "capacity": "17",
+            "description": "Bicycle rental kiosk at south end of Trinity Park",
+            "designation": "Bike share",
+            "fee": "yes",
+            "name": "Trinity Metro Bikes : Dream Park -33-",
+            "network": "Trinity Metro Bikes",
+            "operator": "Trinity Metro Bikes",
+            "operator:type": "public",
+            "payment:credit_cards": "yes",
+            "url": "https://fortworthbikesharing.com"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trinity Park Shelter #7",
+          "latitude": 32.7407151,
+          "longitude": -97.3567119,
+          "osmType": "node",
+          "osmId": 8258810187,
+          "sourceUrl": "https://www.openstreetmap.org/node/8258810187",
+          "tags": {
+            "amenity": "shelter",
+            "bin": "yes",
+            "lit": "yes",
+            "name": "Trinity Park Shelter #7",
+            "shelter_type": "picnic_shelter",
+            "source": "GPS"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trinity Metro Bikes : W. 7th St. & Stayton -34-",
+          "latitude": 32.7509213,
+          "longitude": -97.3507494,
+          "osmType": "node",
+          "osmId": 8336458642,
+          "sourceUrl": "https://www.openstreetmap.org/node/8336458642",
+          "tags": {
+            "addr:city": "Fort Worth",
+            "addr:housenumber": "2352",
+            "addr:postcode": "76107",
+            "addr:state": "TX",
+            "addr:street": "West 7th Street",
+            "amenity": "bicycle_rental",
+            "capacity": "15",
+            "comment": "This kiosk has been removed for renovation at this location",
+            "description": "Bicycle rental kiosk at West 7th Street & Stayton Street",
+            "fee": "yes",
+            "name": "Trinity Metro Bikes : W. 7th St. & Stayton -34-",
+            "network": "Trinity Metro Bikes",
+            "operator": "Trinity Metro Bikes",
+            "operator:type": "public",
+            "payment:credit_cards": "yes",
+            "url": "https://fortworthbikesharing.com"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "University & Botanic Gardens",
+          "latitude": 32.74074,
+          "longitude": -97.36132,
+          "osmType": "node",
+          "osmId": 10722448295,
+          "sourceUrl": "https://www.openstreetmap.org/node/10722448295",
+          "tags": {
+            "bus": "yes",
+            "description": "Northbound - Far Side",
+            "highway": "bus_stop",
+            "name": "University & Botanic Gardens",
+            "network": "Trinity Metro",
+            "public_transport": "platform"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "University & Trinity Park",
+          "latitude": 32.736601,
+          "longitude": -97.361216,
+          "osmType": "node",
+          "osmId": 10722448296,
+          "sourceUrl": "https://www.openstreetmap.org/node/10722448296",
+          "tags": {
+            "bench": "yes",
+            "bus": "yes",
+            "covered": "no",
+            "description": "Northbound - Near Side",
+            "highway": "bus_stop",
+            "name": "University & Trinity Park",
+            "network": "Trinity Metro",
+            "public_transport": "platform",
+            "shelter": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "7th & Harrold",
+          "latitude": 32.750894,
+          "longitude": -97.349315,
+          "osmType": "node",
+          "osmId": 10776213843,
+          "sourceUrl": "https://www.openstreetmap.org/node/10776213843",
+          "tags": {
+            "bus": "yes",
+            "description": "Eastbound - Near Side",
+            "highway": "bus_stop",
+            "name": "7th & Harrold",
+            "network": "Trinity Metro",
+            "network:wikidata": "Q5472408",
+            "public_transport": "platform"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "The Van Zandt Cottage",
+          "latitude": 32.74397,
+          "longitude": -97.35876,
+          "osmType": "node",
+          "osmId": 13971399381,
+          "sourceUrl": "https://www.openstreetmap.org/node/13971399381",
+          "tags": {
+            "addr:city": "Fort Worth",
+            "addr:county": "Tarrant",
+            "addr:full": "2933 Farmhouse Way",
+            "historic": "memorial",
+            "material": "aluminium",
+            "memorial": "plaque",
+            "memorial:website": "https://www.hmdb.org/m.asp?m=263616",
+            "name": "The Van Zandt Cottage",
+            "operator": "Texas Historical Commission",
+            "operator:wikidata": "Q2397965",
+            "ref:US-TX:thc": "5635",
+            "ref:hmdb": "263616",
+            "start_date": "1962",
+            "thc:designation": "Recorded Texas Historic Landmark",
+            "website": "https://atlas.thc.texas.gov/Details/5439005635"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trinity Park Court",
+          "latitude": 32.742851,
+          "longitude": -97.3580956,
+          "osmType": "way",
+          "osmId": 10028121,
+          "sourceUrl": "https://www.openstreetmap.org/way/10028121",
+          "tags": {
+            "bicycle": "yes",
+            "highway": "service",
+            "name": "Trinity Park Court",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Tarrant, TX",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trinity Park Drive",
+          "latitude": 32.7399389,
+          "longitude": -97.3574917,
+          "osmType": "way",
+          "osmId": 10028128,
+          "sourceUrl": "https://www.openstreetmap.org/way/10028128",
+          "tags": {
+            "bicycle": "yes",
+            "highway": "service",
+            "maxspeed": "20 mph",
+            "name": "Trinity Park Drive",
+            "oneway": "yes",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Tarrant, TX",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trinity Park Drive",
+          "latitude": 32.7496191,
+          "longitude": -97.35099,
+          "osmType": "way",
+          "osmId": 10033149,
+          "sourceUrl": "https://www.openstreetmap.org/way/10033149",
+          "tags": {
+            "bicycle": "yes",
+            "highway": "service",
+            "maxspeed": "20 mph",
+            "name": "Trinity Park Drive",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Tarrant, TX",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trinity Trail",
+          "latitude": 32.7489973,
+          "longitude": -97.3493481,
+          "osmType": "way",
+          "osmId": 10033283,
+          "sourceUrl": "https://www.openstreetmap.org/way/10033283",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "path",
+            "name": "Trinity Trail",
+            "segregated": "no",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trinity Trail",
+          "latitude": 32.7504463,
+          "longitude": -97.3479149,
+          "osmType": "way",
+          "osmId": 10034278,
+          "sourceUrl": "https://www.openstreetmap.org/way/10034278",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "path",
+            "name": "Trinity Trail",
+            "segregated": "no",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "River Drive",
+          "latitude": 32.7436524,
+          "longitude": -97.3543065,
+          "osmType": "way",
+          "osmId": 10035663,
+          "sourceUrl": "https://www.openstreetmap.org/way/10035663",
+          "tags": {
+            "bicycle": "yes",
+            "highway": "service",
+            "maxspeed": "20 mph",
+            "name": "River Drive",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Tarrant, TX"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trinity Park Drive",
+          "latitude": 32.7445638,
+          "longitude": -97.3552959,
+          "osmType": "way",
+          "osmId": 10045723,
+          "sourceUrl": "https://www.openstreetmap.org/way/10045723",
+          "tags": {
+            "bicycle": "yes",
+            "highway": "service",
+            "maxspeed": "20 mph",
+            "name": "Trinity Park Drive",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Tarrant, TX",
+            "tiger:name_base": "Trinity Park",
+            "tiger:name_type": "Dr",
+            "tiger:zip_left": "76107",
+            "tiger:zip_right": "76107"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Rock Springs Road",
+          "latitude": 32.7366267,
+          "longitude": -97.3607967,
+          "osmType": "way",
+          "osmId": 10046428,
+          "sourceUrl": "https://www.openstreetmap.org/way/10046428",
+          "tags": {
+            "bicycle": "yes",
+            "highway": "service",
+            "name": "Rock Springs Road",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Tarrant, TX",
+            "tiger:name_base": "Rock Springs",
+            "tiger:name_type": "Rd",
+            "tiger:reviewed": "no",
+            "tiger:zip_left": "76106",
+            "tiger:zip_right": "76106"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "West Lancaster Avenue",
+          "latitude": 32.7470274,
+          "longitude": -97.3514871,
+          "osmType": "way",
+          "osmId": 25997008,
+          "sourceUrl": "https://www.openstreetmap.org/way/25997008",
+          "tags": {
+            "bridge": "yes",
+            "commercial": "designated",
+            "goods": "yes",
+            "hgv": "local",
+            "highway": "secondary",
+            "lanes": "4",
+            "layer": "1",
+            "maxaxleload": "10000 lbs",
+            "maxbogieweight": "10000 lbs",
+            "maxweight": "24000 lbs",
+            "name": "West Lancaster Avenue",
+            "surface": "concrete:plates",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Tarrant, TX",
+            "tiger:name_base": "Lancaster",
+            "tiger:name_direction_prefix": "W",
+            "tiger:name_type": "Ave",
+            "tiger:zip_left": "76107",
+            "tiger:zip_left_1": "76102",
+            "tiger:zip_right": "76102"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Cedar Elm Road",
+          "latitude": 32.7446812,
+          "longitude": -97.3534418,
+          "osmType": "way",
+          "osmId": 200335335,
+          "sourceUrl": "https://www.openstreetmap.org/way/200335335",
+          "tags": {
+            "bicycle": "yes",
+            "highway": "service",
+            "maxspeed": "20 mph",
+            "name": "Cedar Elm Road",
+            "oneway": "yes"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trinity Park Drive",
+          "latitude": 32.7470773,
+          "longitude": -97.3525804,
+          "osmType": "way",
+          "osmId": 296597990,
+          "sourceUrl": "https://www.openstreetmap.org/way/296597990",
+          "tags": {
+            "bicycle": "yes",
+            "highway": "service",
+            "maxspeed": "20 mph",
+            "name": "Trinity Park Drive"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "River Drive",
+          "latitude": 32.74695,
+          "longitude": -97.3505725,
+          "osmType": "way",
+          "osmId": 296597991,
+          "sourceUrl": "https://www.openstreetmap.org/way/296597991",
+          "tags": {
+            "bicycle": "yes",
+            "highway": "service",
+            "maxspeed": "20 mph",
+            "name": "River Drive"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Cottonwood Drive",
+          "latitude": 32.746528,
+          "longitude": -97.3521752,
+          "osmType": "way",
+          "osmId": 296597992,
+          "sourceUrl": "https://www.openstreetmap.org/way/296597992",
+          "tags": {
+            "highway": "service",
+            "maxspeed": "20 mph",
+            "name": "Cottonwood Drive",
+            "oneway": "yes"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Cottonwood Drive",
+          "latitude": 32.7462099,
+          "longitude": -97.351224,
+          "osmType": "way",
+          "osmId": 296597993,
+          "sourceUrl": "https://www.openstreetmap.org/way/296597993",
+          "tags": {
+            "bicycle": "yes",
+            "highway": "service",
+            "maxspeed": "20 mph",
+            "name": "Cottonwood Drive",
+            "oneway": "yes"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trinity Trail",
+          "latitude": 32.7452259,
+          "longitude": -97.3534319,
+          "osmType": "way",
+          "osmId": 296597994,
+          "sourceUrl": "https://www.openstreetmap.org/way/296597994",
+          "tags": {
+            "bicycle": "yes",
+            "foot": "designated",
+            "highway": "path",
+            "name": "Trinity Trail",
+            "segregated": "no",
+            "surface": "gravel"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trinity Trail",
+          "latitude": 32.7401031,
+          "longitude": -97.3566163,
+          "osmType": "way",
+          "osmId": 296597999,
+          "sourceUrl": "https://www.openstreetmap.org/way/296597999",
+          "tags": {
+            "foot": "designated",
+            "highway": "path",
+            "name": "Trinity Trail",
+            "surface": "paved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trinity Trail",
+          "latitude": 32.7427542,
+          "longitude": -97.3580622,
+          "osmType": "way",
+          "osmId": 296598000,
+          "sourceUrl": "https://www.openstreetmap.org/way/296598000",
+          "tags": {
+            "bicycle": "yes",
+            "foot": "designated",
+            "highway": "path",
+            "name": "Trinity Trail",
+            "segregated": "no",
+            "surface": "paved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trinity Trail",
+          "latitude": 32.7404985,
+          "longitude": -97.3574961,
+          "osmType": "way",
+          "osmId": 296598001,
+          "sourceUrl": "https://www.openstreetmap.org/way/296598001",
+          "tags": {
+            "foot": "designated",
+            "highway": "path",
+            "name": "Trinity Trail",
+            "surface": "dirt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trinity Trail",
+          "latitude": 32.7385538,
+          "longitude": -97.3605405,
+          "osmType": "way",
+          "osmId": 296598003,
+          "sourceUrl": "https://www.openstreetmap.org/way/296598003",
+          "tags": {
+            "bicycle": "yes",
+            "foot": "designated",
+            "highway": "path",
+            "name": "Trinity Trail",
+            "segregated": "no",
+            "surface": "paved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trinity Park Pavillion #3",
+          "latitude": 32.7429502,
+          "longitude": -97.3543504,
+          "osmType": "way",
+          "osmId": 496981522,
+          "sourceUrl": "https://www.openstreetmap.org/way/496981522",
+          "tags": {
+            "addr:housenumber": "2001",
+            "addr:street": "University Drive",
+            "amenity": "shelter",
+            "bin": "yes",
+            "building": "roof",
+            "description": "Picnic pavilion with eight green metal tables, trash barrel, and adjacent wood/charcoal barbecue",
+            "lit": "yes",
+            "name": "Trinity Park Pavillion #3",
+            "shelter_type": "picnic_shelter"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trinity Park Pavillion #1",
+          "latitude": 32.7499343,
+          "longitude": -97.3497338,
+          "osmType": "way",
+          "osmId": 497510750,
+          "sourceUrl": "https://www.openstreetmap.org/way/497510750",
+          "tags": {
+            "addr:housenumber": "2301",
+            "addr:street": "West 7th Street",
+            "amenity": "shelter",
+            "bin": "yes",
+            "building": "yes",
+            "description": "This pavilion is not a picnic shelter",
+            "lit": "yes",
+            "name": "Trinity Park Pavillion #1",
+            "shelter_type": "pavilion",
+            "toilets:wheelchair": "yes"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trinity Park Duck Pond",
+          "latitude": 32.748247,
+          "longitude": -97.3507014,
+          "osmType": "way",
+          "osmId": 595204446,
+          "sourceUrl": "https://www.openstreetmap.org/way/595204446",
+          "tags": {
+            "name": "Trinity Park Duck Pond",
+            "natural": "water",
+            "water": "pond"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trinity Park Drive",
+          "latitude": 32.7503509,
+          "longitude": -97.3509873,
+          "osmType": "way",
+          "osmId": 655760601,
+          "sourceUrl": "https://www.openstreetmap.org/way/655760601",
+          "tags": {
+            "bicycle": "yes",
+            "highway": "service",
+            "maxspeed": "20 mph",
+            "name": "Trinity Park Drive",
+            "oneway": "yes"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trinity Park Drive",
+          "latitude": 32.7504041,
+          "longitude": -97.3509758,
+          "osmType": "way",
+          "osmId": 655760602,
+          "sourceUrl": "https://www.openstreetmap.org/way/655760602",
+          "tags": {
+            "bicycle": "yes",
+            "highway": "service",
+            "maxspeed": "20 mph",
+            "name": "Trinity Park Drive",
+            "oneway": "yes",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Tarrant, TX",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trinity Park Shelter #5",
+          "latitude": 32.7383325,
+          "longitude": -97.359094,
+          "osmType": "way",
+          "osmId": 655760616,
+          "sourceUrl": "https://www.openstreetmap.org/way/655760616",
+          "tags": {
+            "amenity": "shelter",
+            "bin": "yes",
+            "building": "yes",
+            "lit": "yes",
+            "name": "Trinity Park Shelter #5",
+            "shelter_type": "picnic_shelter"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Dream Park Fort Worth",
+          "latitude": 32.7408712,
+          "longitude": -97.3568482,
+          "osmType": "way",
+          "osmId": 655760622,
+          "sourceUrl": "https://www.openstreetmap.org/way/655760622",
+          "tags": {
+            "leisure": "playground",
+            "name": "Dream Park Fort Worth"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trinity Park Shelter #4",
+          "latitude": 32.7401806,
+          "longitude": -97.3579461,
+          "osmType": "way",
+          "osmId": 655760623,
+          "sourceUrl": "https://www.openstreetmap.org/way/655760623",
+          "tags": {
+            "amenity": "shelter",
+            "bin": "yes",
+            "building": "roof",
+            "lit": "yes",
+            "name": "Trinity Park Shelter #4",
+            "shelter_type": "picnic_shelter"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trinity Trail",
+          "latitude": 32.7407326,
+          "longitude": -97.3608412,
+          "osmType": "way",
+          "osmId": 670103924,
+          "sourceUrl": "https://www.openstreetmap.org/way/670103924",
+          "tags": {
+            "bicycle": "yes",
+            "bridge": "yes",
+            "foot": "designated",
+            "highway": "path",
+            "layer": "1",
+            "name": "Trinity Trail",
+            "segregated": "no",
+            "surface": "paved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trinity Trail",
+          "latitude": 32.7414687,
+          "longitude": -97.3609363,
+          "osmType": "way",
+          "osmId": 670103925,
+          "sourceUrl": "https://www.openstreetmap.org/way/670103925",
+          "tags": {
+            "bicycle": "yes",
+            "foot": "designated",
+            "highway": "path",
+            "name": "Trinity Trail",
+            "segregated": "no",
+            "surface": "paved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trinity Park Drive",
+          "latitude": 32.7437557,
+          "longitude": -97.3566646,
+          "osmType": "way",
+          "osmId": 727576576,
+          "sourceUrl": "https://www.openstreetmap.org/way/727576576",
+          "tags": {
+            "bicycle": "yes",
+            "highway": "service",
+            "maxspeed": "20 mph",
+            "name": "Trinity Park Drive"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trail Drive",
+          "latitude": 32.7439123,
+          "longitude": -97.3598042,
+          "osmType": "way",
+          "osmId": 727579353,
+          "sourceUrl": "https://www.openstreetmap.org/way/727579353",
+          "tags": {
+            "highway": "tertiary",
+            "name": "Trail Drive"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trail Drive",
+          "latitude": 32.7430814,
+          "longitude": -97.36112,
+          "osmType": "way",
+          "osmId": 727579354,
+          "sourceUrl": "https://www.openstreetmap.org/way/727579354",
+          "tags": {
+            "highway": "tertiary",
+            "lanes": "3",
+            "name": "Trail Drive",
+            "oneway": "yes",
+            "turn:lanes": "left||"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trinity Park Court",
+          "latitude": 32.7417029,
+          "longitude": -97.3588824,
+          "osmType": "way",
+          "osmId": 727582104,
+          "sourceUrl": "https://www.openstreetmap.org/way/727582104",
+          "tags": {
+            "bicycle": "yes",
+            "highway": "service",
+            "name": "Trinity Park Court"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trinity Park Drive",
+          "latitude": 32.7435572,
+          "longitude": -97.3566747,
+          "osmType": "way",
+          "osmId": 738293721,
+          "sourceUrl": "https://www.openstreetmap.org/way/738293721",
+          "tags": {
+            "highway": "service",
+            "maxspeed": "20 mph",
+            "name": "Trinity Park Drive",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Tarrant, TX",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Fort Worth Police and Firefighters Memorial Dedication 2009",
+          "latitude": 32.7504724,
+          "longitude": -97.3504721,
+          "osmType": "way",
+          "osmId": 887711023,
+          "sourceUrl": "https://www.openstreetmap.org/way/887711023",
+          "tags": {
+            "historic": "memorial",
+            "memorial": "memorial",
+            "name": "Fort Worth Police and Firefighters Memorial Dedication 2009"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trinity Park Drive",
+          "latitude": 32.7503552,
+          "longitude": -97.3507936,
+          "osmType": "way",
+          "osmId": 1020230833,
+          "sourceUrl": "https://www.openstreetmap.org/way/1020230833",
+          "tags": {
+            "highway": "service",
+            "maxspeed": "20 mph",
+            "name": "Trinity Park Drive",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Tarrant, TX",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trinity Park Court",
+          "latitude": 32.7414555,
+          "longitude": -97.3576846,
+          "osmType": "way",
+          "osmId": 1041501682,
+          "sourceUrl": "https://www.openstreetmap.org/way/1041501682",
+          "tags": {
+            "bicycle": "yes",
+            "highway": "service",
+            "name": "Trinity Park Court"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trinity Park Court",
+          "latitude": 32.7412389,
+          "longitude": -97.3578922,
+          "osmType": "way",
+          "osmId": 1041501683,
+          "sourceUrl": "https://www.openstreetmap.org/way/1041501683",
+          "tags": {
+            "bicycle": "yes",
+            "foot": "yes",
+            "highway": "service",
+            "name": "Trinity Park Court"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Museum Way",
+          "latitude": 32.7507303,
+          "longitude": -97.35095,
+          "osmType": "way",
+          "osmId": 1042873072,
+          "sourceUrl": "https://www.openstreetmap.org/way/1042873072",
+          "tags": {
+            "highway": "residential",
+            "lanes": "3",
+            "lanes:backward": "1",
+            "lanes:forward": "2",
+            "name": "Museum Way",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Tarrant, TX",
+            "tiger:name_base": "Stayton",
+            "tiger:name_type": "St",
+            "tiger:reviewed": "no",
+            "tiger:zip_left": "76107",
+            "tiger:zip_right": "76107",
+            "turn:lanes:forward": "left|through;right"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trail Drive",
+          "latitude": 32.7429662,
+          "longitude": -97.3609334,
+          "osmType": "way",
+          "osmId": 1060147248,
+          "sourceUrl": "https://www.openstreetmap.org/way/1060147248",
+          "tags": {
+            "highway": "tertiary",
+            "lanes": "1",
+            "name": "Trail Drive",
+            "oneway": "yes"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trinity Trail",
+          "latitude": 32.7421,
+          "longitude": -97.3601023,
+          "osmType": "way",
+          "osmId": 1099409155,
+          "sourceUrl": "https://www.openstreetmap.org/way/1099409155",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "path",
+            "name": "Trinity Trail",
+            "segregated": "no",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trinity Trail",
+          "latitude": 32.7436897,
+          "longitude": -97.358249,
+          "osmType": "way",
+          "osmId": 1135461995,
+          "sourceUrl": "https://www.openstreetmap.org/way/1135461995",
+          "tags": {
+            "bicycle": "yes",
+            "foot": "designated",
+            "highway": "path",
+            "name": "Trinity Trail",
+            "segregated": "no",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trail Drive",
+          "latitude": 32.7430721,
+          "longitude": -97.3605534,
+          "osmType": "way",
+          "osmId": 1148035692,
+          "sourceUrl": "https://www.openstreetmap.org/way/1148035692",
+          "tags": {
+            "highway": "tertiary",
+            "name": "Trail Drive",
+            "oneway": "yes"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Cottonwood Drive",
+          "latitude": 32.7464915,
+          "longitude": -97.3511719,
+          "osmType": "way",
+          "osmId": 1182174733,
+          "sourceUrl": "https://www.openstreetmap.org/way/1182174733",
+          "tags": {
+            "highway": "service",
+            "maxspeed": "20 mph",
+            "name": "Cottonwood Drive",
+            "oneway": "yes"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Old University Drive",
+          "latitude": 32.7352747,
+          "longitude": -97.3607147,
+          "osmType": "way",
+          "osmId": 1335929232,
+          "sourceUrl": "https://www.openstreetmap.org/way/1335929232",
+          "tags": {
+            "bicycle": "yes",
+            "highway": "service",
+            "name": "Old University Drive",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Tarrant, TX",
+            "tiger:name_base": "Old University",
+            "tiger:name_type": "Dr",
+            "tiger:reviewed": "no",
+            "tiger:zip_left": "76107",
+            "tiger:zip_right": "76107"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trinity Trail",
+          "latitude": 32.7421837,
+          "longitude": -97.3608836,
+          "osmType": "way",
+          "osmId": 1515709431,
+          "sourceUrl": "https://www.openstreetmap.org/way/1515709431",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "path",
+            "name": "Trinity Trail",
+            "segregated": "no",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trinity Trail",
+          "latitude": 32.7421956,
+          "longitude": -97.3607688,
+          "osmType": "way",
+          "osmId": 1515709432,
+          "sourceUrl": "https://www.openstreetmap.org/way/1515709432",
+          "tags": {
+            "bicycle": "designated",
+            "bridge": "yes",
+            "foot": "designated",
+            "highway": "path",
+            "layer": "-1",
+            "name": "Trinity Trail",
+            "segregated": "no",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trinity Trail",
+          "latitude": 32.7440507,
+          "longitude": -97.351793,
+          "osmType": "way",
+          "osmId": 1515709436,
+          "sourceUrl": "https://www.openstreetmap.org/way/1515709436",
+          "tags": {
+            "bicycle": "designated",
+            "bridge": "yes",
+            "foot": "designated",
+            "highway": "path",
+            "layer": "1",
+            "name": "Trinity Trail",
+            "segregated": "no",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trinity Park",
+          "latitude": 32.7424823,
+          "longitude": -97.3540414,
+          "osmType": "relation",
+          "osmId": 6934702,
+          "sourceUrl": "https://www.openstreetmap.org/relation/6934702",
+          "tags": {
+            "ele": "166",
+            "gnis:feature_id": "1376506",
+            "leisure": "park",
+            "name": "Trinity Park",
+            "operator": "City of Fort Worth",
+            "type": "multipolygon",
+            "wikidata": "Q31561344"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    },
+    "launch-tx-fort-worth-fort-worth-water-gardens": {
+      "name": "Fort Worth Water Gardens",
+      "boundarySource": "https://www.openstreetmap.org/way/39823491",
+      "candidates": [
+        {
+          "name": "Hell's Half Acre",
+          "latitude": 32.74827,
+          "longitude": -97.32775,
+          "osmType": "node",
+          "osmId": 12423678212,
+          "sourceUrl": "https://www.openstreetmap.org/node/12423678212",
+          "tags": {
+            "historic": "memorial",
+            "material": "aluminium",
+            "memorial": "plaque",
+            "memorial:website": "https://www.hmdb.org/m.asp?m=52502",
+            "name": "Hell's Half Acre",
+            "operator": "Texas Historical Commission",
+            "operator:wikidata": "Q2397965",
+            "ref:US-TX:thc": "2431",
+            "ref:hmdb": "52502",
+            "source:website": "https://atlas.thc.texas.gov/Details/5439002431",
+            "start_date": "1993",
+            "support": "pole",
+            "thc:designation": "Historical Marker"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Fort Worth Water Gardens",
+          "latitude": 32.7479593,
+          "longitude": -97.3268241,
+          "osmType": "way",
+          "osmId": 39823491,
+          "sourceUrl": "https://www.openstreetmap.org/way/39823491",
+          "tags": {
+            "ele": "187",
+            "gnis:feature_id": "2028319",
+            "leisure": "park",
+            "name": "Fort Worth Water Gardens",
+            "wikidata": "Q2035884"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Active Pool",
+          "latitude": 32.7480236,
+          "longitude": -97.3260485,
+          "osmType": "way",
+          "osmId": 178593520,
+          "sourceUrl": "https://www.openstreetmap.org/way/178593520",
+          "tags": {
+            "layer": "1",
+            "name": "Active Pool",
+            "natural": "water",
+            "water": "pond"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Quiet Pool",
+          "latitude": 32.7477171,
+          "longitude": -97.3270352,
+          "osmType": "way",
+          "osmId": 178593522,
+          "sourceUrl": "https://www.openstreetmap.org/way/178593522",
+          "tags": {
+            "layer": "2",
+            "name": "Quiet Pool",
+            "natural": "water",
+            "water": "pond"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Aerated Water Pool",
+          "latitude": 32.7480409,
+          "longitude": -97.3268267,
+          "osmType": "way",
+          "osmId": 497013383,
+          "sourceUrl": "https://www.openstreetmap.org/way/497013383",
+          "tags": {
+            "amenity": "fountain",
+            "name": "Aerated Water Pool",
+            "natural": "water",
+            "water": "pond"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Central Square",
+          "latitude": 32.7477113,
+          "longitude": -97.3266335,
+          "osmType": "way",
+          "osmId": 724371937,
+          "sourceUrl": "https://www.openstreetmap.org/way/724371937",
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian",
+            "name": "Central Square"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Mountain",
+          "latitude": 32.747462,
+          "longitude": -97.3266358,
+          "osmType": "way",
+          "osmId": 1219106052,
+          "sourceUrl": "https://www.openstreetmap.org/way/1219106052",
+          "tags": {
+            "area": "yes",
+            "artwork_type": "architecture",
+            "name": "Mountain",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Stage",
+          "latitude": 32.7472382,
+          "longitude": -97.3266766,
+          "osmType": "way",
+          "osmId": 1219106053,
+          "sourceUrl": "https://www.openstreetmap.org/way/1219106053",
+          "tags": {
+            "area": "yes",
+            "artwork_type": "architecture",
+            "fixme": "geometry is not exact",
+            "name": "Stage",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    }
+  }
+}

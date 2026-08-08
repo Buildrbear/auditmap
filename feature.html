@@ -3,33 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex,follow" />
     <title>Area | AuditMap</title>
-    <meta name="description" content="Local context, photos, and discussion for an area within a public place." />
+    <meta name="description" content="Sourced local context, photos, visitor questions, and discussion for an area within a public place in AuditMap's nationwide directory." />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="/styles.css?v=20260808-61" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.7/build/pannellum.css" />
   </head>
   <body class="detail-body" data-page="feature">
     <header class="site-header">
-      <a class="brand" href="./index.html" aria-label="AuditMap home">
-        <img src="./logo.svg" alt="" />
-        <span>AuditMap</span>
-      </a>
-      <p>Public facts. Local knowledge. Visible sources.</p>
+      <div class="brand-lockup">
+        <a class="brand" href="/index.html" aria-label="AuditMap home">
+          <img src="/logo.svg" alt="" />
+          <span>AuditMap</span>
+        </a>
+        <p>The public's guide to public places.</p>
+      </div>
+      <p class="header-community-note">Built by explorers. Useful to everyone.</p>
     </header>
+    <div class="mobile-brand-path" aria-label="How AuditMap works">
+      <span>Browse</span><i></i><span>Explore</span><i></i><strong>Leave a note</strong>
+    </div>
 
     <main class="feature-detail-shell" id="feature-content">
-      <a class="back-link feature-parent-link" id="feature-parent-link" href="./index.html">
+      <a class="back-link feature-parent-link" id="feature-parent-link" href="/index.html">
         ← Back to place
       </a>
 
       <section class="feature-detail-hero">
         <div class="feature-detail-media" id="feature-detail-media">
-          <span class="feature-detail-media-placeholder">Add the first picture</span>
+          <span class="feature-detail-media-placeholder">Picture this place</span>
         </div>
         <div class="feature-detail-intro">
           <p class="kicker" id="feature-parent-name">Part of a public place</p>
@@ -53,6 +61,8 @@
           <p class="kicker">Local context</p>
           <h2>What to know</h2>
           <p id="feature-context"></p>
+          <p class="feature-guidance"><strong>Where:</strong> <span id="feature-location-context"></span></p>
+          <p class="feature-guidance"><strong>Need to know:</strong> <span id="feature-need-to-know"></span></p>
         </div>
         <dl>
           <div>
@@ -70,7 +80,16 @@
         </dl>
       </section>
 
-      <section class="feature-discussion">
+      <section class="feature-question-section" aria-labelledby="feature-question-heading">
+        <div>
+          <p class="kicker">Plan your visit</p>
+          <h2 id="feature-question-heading">Common questions about this exact area</h2>
+          <p>Choose a question to ask AuditMap using information for this subsite and its parent park.</p>
+        </div>
+        <div class="feature-question-list" id="feature-question-list"></div>
+      </section>
+
+      <section class="feature-discussion" id="discussion">
         <div class="feature-discussion-heading">
           <div>
             <p class="kicker">Community board</p>
@@ -104,7 +123,9 @@
       </section>
     </main>
 
-    <script src="./config.js"></script>
-    <script src="./app.js"></script>
+    <script src="/config.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tus-js-client@4.3.1/dist/tus.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pannellum@2.5.7/build/pannellum.js"></script>
+    <script src="/app.js?v=20260808-61"></script>
   </body>
 </html>

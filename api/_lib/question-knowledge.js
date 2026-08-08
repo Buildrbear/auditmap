@@ -1,4 +1,5 @@
 const { createHash } = require("node:crypto");
+const { detectIntent, topicWords } = require("./park-intents");
 
 function cleanText(value, limit = 500) {
   return String(value || "").replace(/\s+/g, " ").trim().slice(0, limit);
@@ -13,51 +14,25 @@ function questionKey(question) {
   return createHash("sha256").update(normalized).digest("hex");
 }
 
-function topicWords(question) {
-  const ignored = new Set([
-    "a", "about", "and", "are", "at", "can", "do", "does", "for", "how", "i",
-    "in", "is", "it", "know", "me", "my", "of", "on", "should", "the", "there",
-    "this", "to", "what", "when", "where", "which", "who", "with", "you",
-  ]);
-  const synonyms = {
-    allowed: "allow",
-    allowing: "allow",
-    permitted: "allow",
-    permitting: "allow",
-    fly: "allow",
-    flying: "allow",
-    drones: "drone",
-    bathrooms: "restroom",
-    bathroom: "restroom",
-    restrooms: "restroom",
-    toilets: "restroom",
-    dogs: "dog",
-    pets: "pet",
-  };
-  return new Set(
-    cleanText(question, 500)
-      .toLowerCase()
-      .split(/[^a-z0-9]+/)
-      .filter(Boolean)
-      .map((word) => synonyms[word] || word.replace(/s$/, ""))
-      .filter((word) => word.length > 2 && !ignored.has(word)),
-  );
-}
-
 function matchingQuestionKey(question, candidates) {
   const incoming = topicWords(question);
+  const incomingIntent = detectIntent(question)?.key || null;
   let best = null;
   for (const candidate of candidates || []) {
+    if (incomingIntent && candidate.intent_key && incomingIntent !== candidate.intent_key) {
+      continue;
+    }
     const existing = topicWords(candidate.sample_question);
     const intersection = [...incoming].filter((word) => existing.has(word)).length;
     const union = new Set([...incoming, ...existing]).size;
     const score = union ? intersection / union : 0;
+    const sameIntent = incomingIntent && candidate.intent_key === incomingIntent ? 0.6 : 0;
     const knowledgeBoost =
       candidate.canonical_answer &&
       (!candidate.expires_at || new Date(candidate.expires_at) > new Date())
         ? 0.5
         : 0;
-    const rank = score + knowledgeBoost;
+    const rank = score + sameIntent + knowledgeBoost;
     if (score >= 0.45 && (!best || rank > best.rank)) {
       best = { key: candidate.question_key, rank };
     }
@@ -68,18 +43,28 @@ function matchingQuestionKey(question, candidates) {
 function currentKnowledge(record) {
   if (!record?.canonical_answer || record.answer_status === "needs_verification") return null;
   if (record.expires_at && new Date(record.expires_at) <= new Date()) return null;
+  const sources = Array.isArray(record.answer_sources)
+    ? record.answer_sources.filter((source) => source?.url)
+    : [];
+  const referralOnly =
+    /\bclosest matches?\b|\bopen (?:a|the) result\b|\bopen the .* record\b|\brefer(?:ring)? you to\b/i.test(
+      record.canonical_answer,
+    );
+  if (!sources.length || referralOnly) return null;
   return {
     answer: record.canonical_answer,
     status: record.answer_status,
-    sources: Array.isArray(record.answer_sources) ? record.answer_sources : [],
+    sources,
     answeredAt: record.answered_at,
     expiresAt: record.expires_at,
   };
 }
 
 function freshnessWindow(question, status) {
+  const intent = detectIntent(question);
   const timeSensitive =
-    /\b(today|tonight|now|currently|open|closed|bloom|available|crowd|parking|weather)\b/i.test(
+    intent?.timeSensitive ||
+    /\b(today|tonight|now|currently|open|closed|bloom|available|crowd|weather)\b/i.test(
       question,
     );
   const days = timeSensitive ? 7 : status === "answered" ? 180 : 30;

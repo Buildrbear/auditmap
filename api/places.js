@@ -40,6 +40,14 @@ function normalizePlace(row) {
   };
 }
 
+function isPublishablePlace(row) {
+  const identity = `${row.name || ""} ${row.type || ""}`;
+  const ordinaryMunicipalBuilding = /\b(city|town|municipal|county)\s+(hall|office|offices|building|administration|administrative center)|\bgovernment\s+(center|office|offices|building)\b/i.test(identity);
+  const administrativeType = /\b(city office|municipal office|government office|civic resource)\b/i.test(identity);
+  const publicDestination = /\b(park|plaza|garden|museum|gallery|historic|landmark|memorial|trail|greenway|library|playground|recreation)\b/i.test(identity);
+  return (!ordinaryMunicipalBuilding && !administrativeType) || publicDestination;
+}
+
 async function attachMedia(rows) {
   const publicIds = [...new Set((rows || []).map((row) => row.public_id).filter(Boolean))];
   if (!publicIds.length) return rows || [];
@@ -107,7 +115,7 @@ module.exports = async function handler(request, response) {
     rows = await attachMedia(rows);
     response.setHeader("Cache-Control", "s-maxage=60, stale-while-revalidate=300");
     response.status(200).json({
-      places: (rows || []).map(normalizePlace),
+      places: (rows || []).filter(isPublishablePlace).map(normalizePlace),
       source: "AuditMap shared database",
     });
   } catch {

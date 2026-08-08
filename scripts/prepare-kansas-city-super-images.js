@@ -1,0 +1,117 @@
+#!/usr/bin/env node
+const fs = require("node:fs"),
+  path = require("node:path"),
+  sharp = require("sharp"),
+  root = path.resolve(__dirname, ".."),
+  campaign = require("../data/kansas-city-super-enrichment-campaign.json"),
+  research = require("../data/kansas-city-photo-research.json"),
+  names = new Map(campaign.places.map((p) => [p.id, p.name])),
+  slug = (v) =>
+    String(v)
+      .toLowerCase()
+      .replace(/&/g, " and ")
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-|-$/g, ""),
+  wait = (ms) => new Promise((r) => setTimeout(r, ms));
+async function commons(file) {
+  if (typeof file === "object") return file;
+  const q = new URLSearchParams({
+      action: "query",
+      titles: `File:${file}`,
+      prop: "imageinfo",
+      iiprop: "url|extmetadata",
+      iiurlwidth: "2000",
+      format: "json",
+      origin: "*",
+    }),
+    r = await fetch(`https://commons.wikimedia.org/w/api.php?${q}`, {
+      headers: { "User-Agent": "AuditMap/1.0 contact@auditmap.org" },
+    }),
+    payload = await r.json(),
+    p = Object.values(payload.query?.pages || {})[0],
+    i = p?.imageinfo?.[0];
+  if (!r.ok || !i) throw new Error(`${file}: not found`);
+  const strip = (v) =>
+    String(v || "")
+      .replace(/<[^>]+>/g, " ")
+      .replace(/&[^;]+;/g, " ")
+      .replace(/\s+/g, " ")
+      .trim();
+  return {
+    url: i.thumburl || i.url,
+    source: `https://commons.wikimedia.org/wiki/${encodeURIComponent(p.title.replaceAll(" ", "_"))}`,
+    author:
+      strip(i.extmetadata?.Artist?.value) || "Wikimedia Commons contributor",
+    license:
+      strip(i.extmetadata?.LicenseShortName?.value) ||
+      "Wikimedia Commons source license",
+    label: file,
+  };
+}
+async function bytes(url, label) {
+  for (let n = 0; n < 6; n++) {
+    const official = url.includes("portofkansas-city.com"),
+      r = await fetch(url, {
+        headers: {
+          "User-Agent": official
+            ? "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Safari/537.36"
+            : "AuditMap/1.0 contact@auditmap.org",
+          ...(official ? { Referer: "https://www.portofkansas-city.com/" } : {}),
+        },
+      });
+    if (r.ok) return Buffer.from(await r.arrayBuffer());
+    if ((r.status !== 429 && r.status !== 404) || n === 5)
+      throw new Error(`${label}: ${r.status}`);
+    await wait(1500 * (n + 1));
+  }
+}
+(async () => {
+  const out = { checkedAt: research.checkedAt, places: {} };
+  for (const [id, e] of Object.entries(research.places)) {
+    const name = names.get(id),
+      dir = path.join(root, "assets/parks/kansas-city-super", slug(name));
+    fs.mkdirSync(dir, { recursive: true });
+    const images = [];
+    for (const [candidate, index] of e.candidates.map((x, i) => [x, i])) {
+      const rec = await commons(candidate),
+        target = path.join(
+          dir,
+          `${String(index + 1).padStart(2, "0")}-${slug(rec.label)}.webp`,
+        );
+      if (!fs.existsSync(target)) {
+        await sharp(await bytes(rec.url, rec.label))
+          .rotate()
+          .resize(1600, 1000, {
+            fit: "cover",
+            position: "attention",
+            withoutEnlargement: true,
+          })
+          .webp({ quality: 83 })
+          .toFile(target);
+        await wait(400);
+      }
+      const m = await sharp(target).metadata();
+      images.push({
+        url: `/${path.relative(root, target)}`,
+        source: rec.source,
+        author: rec.author,
+        license: rec.license,
+        alt: `${name} in the Kansas City area`,
+        width: m.width,
+        height: m.height,
+      });
+    }
+    if (images.length < 4) throw new Error(`${name}: fewer than 4 images`);
+    out.places[id] = { name, images };
+    console.log(`${name}: ${images.length} images`);
+  }
+  fs.mkdirSync(path.join(root, "data/generated"), { recursive: true });
+  fs.writeFileSync(
+    path.join(root, "data/generated/kansas-city-super-images.json"),
+    `${JSON.stringify(out, null, 2)}\n`,
+  );
+})().catch((e) => {
+  console.error(e.stack || e);
+  process.exit(1);
+});
+

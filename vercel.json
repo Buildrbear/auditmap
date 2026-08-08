@@ -1,6 +1,142 @@
 {
   "cleanUrls": true,
   "trailingSlash": false,
+  "redirects": [
+    { "source": "/us/ma/boston/parks/boston-common-and-public-garden", "destination": "/us/ma/boston/parks/boston-common", "permanent": true },
+    { "source": "/us/ny/new-york-city/parks/central-park/107th-infantry-memorial", "destination": "/us/ny/new-york-city/parks/central-park", "permanent": true },
+    { "source": "/us/ny/new-york-city/parks/central-park/alexander-hamilton", "destination": "/us/ny/new-york-city/parks/central-park/obelisk-metropolitan-museum", "permanent": true },
+    { "source": "/us/ny/new-york-city/parks/central-park/alice-in-wonderland", "destination": "/us/ny/new-york-city/parks/central-park/conservatory-water-alice", "permanent": true },
+    { "source": "/us/ny/new-york-city/parks/central-park/belvedere-castle", "destination": "/us/ny/new-york-city/parks/central-park/belvedere-shakespeare-turtle-pond", "permanent": true },
+    { "source": "/us/ny/new-york-city/parks/central-park/blockhouse-no-1", "destination": "/us/ny/new-york-city/parks/central-park/north-woods-blockhouse", "permanent": true },
+    { "source": "/us/ny/new-york-city/parks/central-park/cleopatra-s-needle", "destination": "/us/ny/new-york-city/parks/central-park/obelisk-metropolitan-museum", "permanent": true },
+    { "source": "/us/ny/new-york-city/parks/central-park/shakespeare-garden", "destination": "/us/ny/new-york-city/parks/central-park/belvedere-shakespeare-turtle-pond", "permanent": true }
+  ],
+  "functions": {
+    "api/moderation.js": { "maxDuration": 60 }
+  },
+  "images": {
+    "sizes": [320, 480, 640, 828, 1080, 1400, 1600],
+    "qualities": [70, 78],
+    "formats": ["image/avif", "image/webp"],
+    "minimumCacheTTL": 86400,
+    "domains": [
+      "upload.wikimedia.org",
+      "commons.wikimedia.org",
+      "raleighnc.gov",
+      "ncartmuseum.org",
+      "www.carync.gov",
+      "www.nps.gov",
+      "www.ncparks.gov",
+      "assets.simpleviewinc.com",
+      "www.manchesternh.gov",
+      "www.parks.fortlauderdale.gov",
+      "www.ocparks.com",
+      "kcparks.org",
+      "discover.pbcgov.org",
+      "www.billingsparks.org",
+      "www.visitjackson.com",
+      "dorotheadixpark.org",
+      "downtowncarypark.com",
+      "www.flickr.com",
+      "www.memorialparkconservancy.org"
+      ,"www.dprplaymore.org"
+      ,"www.cityofws.org"
+      ,"www.fayettevillenc.gov"
+      ,"www.wilmingtonnc.gov"
+      ,"jacksonvillenc.gov"
+      ,"www.jacksonvillenc.gov"
+      ,"www.chapelhillnc.gov"
+      ,"cms5.revize.com"
+      ,"www.wakeforestnc.gov"
+      ,"www.ashevillenc.gov"
+      ,"www.apexnc.org"
+      ,"www.burlingtonnc.gov"
+      ,"burlingtonnc.gov"
+      ,"concordnc.gov"
+      ,"www.gastonianc.gov"
+      ,"www.greenvillenc.gov"
+      ,"www.highpointnc.gov"
+      ,"mecknc.widen.net"
+      ,"forsyth.cc"
+      ,"www.kidstogethercary.org"
+      ,"live.staticflickr.com"
+      ,"files.aptuitivcdn.com"
+      ,"www.visitgreensboronc.com"
+      ,"cloudfront.traillink.com"
+      ,"img.barkparkfinder.com"
+      ,"durhamcentralpark.org"
+      ,"exploreapexnc.com"
+      ,"e1.nmcdn.io"
+      ,"www.nctripping.com"
+      ,"thecaryreport.com"
+      ,"admin.onlyinyourstate.com"
+    ],
+    "localPatterns": [
+      { "pathname": "^/assets/.*$", "search": "" }
+    ],
+      "remotePatterns": [
+      { "protocol": "https", "hostname": "^upload\\.wikimedia\\.org$", "pathname": ".*" },
+      { "protocol": "https", "hostname": "^commons\\.wikimedia\\.org$", "pathname": ".*" },
+      { "protocol": "https", "hostname": "^raleighnc\\.gov$", "pathname": ".*" },
+      { "protocol": "https", "hostname": "^ncartmuseum\\.org$", "pathname": ".*" },
+      { "protocol": "https", "hostname": "^www\\.carync\\.gov$", "pathname": ".*" },
+      { "protocol": "https", "hostname": "^www\\.nps\\.gov$", "pathname": ".*" },
+      { "protocol": "https", "hostname": "^www\\.ncparks\\.gov$", "pathname": ".*" },
+      { "protocol": "https", "hostname": "^assets\\.simpleviewinc\\.com$", "pathname": ".*" },
+      { "protocol": "https", "hostname": "^www\\.manchesternh\\.gov$", "pathname": ".*" },
+      { "protocol": "https", "hostname": "^www\\.parks\\.fortlauderdale\\.gov$", "pathname": ".*" },
+      { "protocol": "https", "hostname": "^www\\.ocparks\\.com$", "pathname": ".*" },
+      { "protocol": "https", "hostname": "^kcparks\\.org$", "pathname": ".*" },
+      { "protocol": "https", "hostname": "^discover\\.pbcgov\\.org$", "pathname": ".*" },
+      { "protocol": "https", "hostname": "^www\\.billingsparks\\.org$", "pathname": ".*" },
+      { "protocol": "https", "hostname": "^www\\.visitjackson\\.com$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^dorotheadixpark\\.org$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^downtowncarypark\\.com$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^www\\.flickr\\.com$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^www\\.memorialparkconservancy\\.org$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^www\\.dprplaymore\\.org$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^www\\.cityofws\\.org$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^www\\.fayettevillenc\\.gov$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^www\\.wilmingtonnc\\.gov$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^jacksonvillenc\\.gov$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^www\\.jacksonvillenc\\.gov$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^www\\.chapelhillnc\\.gov$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^cms5\\.revize\\.com$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^www\\.wakeforestnc\\.gov$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^www\\.ashevillenc\\.gov$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^www\\.apexnc\\.org$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^www\\.burlingtonnc\\.gov$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^burlingtonnc\\.gov$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^concordnc\\.gov$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^www\\.gastonianc\\.gov$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^www\\.greenvillenc\\.gov$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^www\\.highpointnc\\.gov$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^mecknc\\.widen\\.net$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^forsyth\\.cc$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^www\\.kidstogethercary\\.org$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^live\\.staticflickr\\.com$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^files\\.aptuitivcdn\\.com$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^www\\.visitgreensboronc\\.com$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^cloudfront\\.traillink\\.com$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^img\\.barkparkfinder\\.com$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^durhamcentralpark\\.org$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^exploreapexnc\\.com$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^e1\\.nmcdn\\.io$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^www\\.nctripping\\.com$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^thecaryreport\\.com$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^admin\\.onlyinyourstate\\.com$", "pathname": ".*" }
+    ]
+  },
+  "crons": [
+    {
+      "path": "/api/enrichment-cycle",
+      "schedule": "0 10 * * *"
+    },
+    {
+      "path": "/api/media?action=cleanup",
+      "schedule": "30 10 * * *"
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
@@ -20,6 +156,22 @@
         {
           "key": "X-Frame-Options",
           "value": "SAMEORIGIN"
+        },
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=31536000; includeSubDomains"
+        },
+        {
+          "key": "Cross-Origin-Opener-Policy",
+          "value": "same-origin-allow-popups"
+        },
+        {
+          "key": "X-Permitted-Cross-Domain-Policies",
+          "value": "none"
+        },
+        {
+          "key": "Content-Security-Policy-Report-Only",
+          "value": "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; form-action 'self' https://*.supabase.co; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://unpkg.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net https://unpkg.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: blob: https:; media-src 'self' blob: https:; connect-src 'self' https://*.supabase.co wss://*.supabase.co https://*.storage.supabase.co https://tile.openstreetmap.org https://*.tile.openstreetmap.org; worker-src 'self' blob:; frame-src 'self' https://*.supabase.co"
         }
       ]
     }

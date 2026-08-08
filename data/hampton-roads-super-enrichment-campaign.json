@@ -1,0 +1,87 @@
+{
+  "campaign": "Hampton Roads high-impact public destinations",
+  "checkedAt": "2026-08-06",
+  "releaseStandard": "Four sourced photos, eight mapped subsites, current visitor answers, static canonical pages, and live verification.",
+  "places": [
+    {
+      "id": "launch-va-virginia-beach-first-landing-state-park",
+      "name": "First Landing State Park",
+      "city": "Virginia Beach",
+      "state": "VA",
+      "citySlug": "virginia-beach-va",
+      "operator": "Virginia State Parks",
+      "source": "https://www.dcr.virginia.gov/state-parks/first-landing",
+      "subsites": ["Chesapeake Bay Center", "First Landing Beach", "Cape Henry Trail", "Bald Cypress Trail", "Osmanthus Trail", "Long Creek Trail", "First Landing Trail Center", "The Narrows Boat Ramp"]
+    },
+    {
+      "id": "launch-va-virginia-beach-mount-trashmore-park",
+      "name": "Mount Trashmore Park",
+      "city": "Virginia Beach",
+      "state": "VA",
+      "citySlug": "virginia-beach-va",
+      "operator": "Virginia Beach Parks and Recreation",
+      "source": "https://parks.virginiabeach.gov/outdoors/city-parks/mount-trashmore-park",
+      "subsites": ["Mount Trashmore Summit", "Kids Cove Playground", "Mount Trashmore Skate Park", "Lake Trashmore", "Lake Windsor", "Encore Hill", "Mount Trashmore Fitness Trail", "Mount Trashmore Picnic Shelters"]
+    },
+    {
+      "id": "launch-va-virginia-beach-virginia-beach-oceanfront-and-boardwalk",
+      "name": "Virginia Beach Oceanfront and Boardwalk",
+      "city": "Virginia Beach",
+      "state": "VA",
+      "citySlug": "virginia-beach-va",
+      "operator": "City of Virginia Beach Resort Management",
+      "source": "https://cvb.virginiabeach.gov/resort-management/beach-rules",
+      "subsites": ["King Neptune Statue", "Grommet Island Park", "Virginia Beach Boardwalk Bike Path", "17th Street Park", "24th Street Park", "31st Street Park", "Rudee Inlet", "Naval Aviation Monument"]
+    },
+    {
+      "id": "launch-va-virginia-beach-virginia-aquarium-and-marine-science-center",
+      "name": "Virginia Aquarium and Marine Science Center",
+      "city": "Virginia Beach",
+      "state": "VA",
+      "citySlug": "virginia-beach-va",
+      "operator": "Virginia Aquarium and Marine Science Center",
+      "source": "https://virginiaaquarium.com/visitor-guide",
+      "subsites": ["Virginia Aquarium Main Entrance", "Red Sea Aquarium Tunnel", "Chesapeake Bay Aquarium", "Light Tower Aquarium", "Virginia Aquarium Harbor Seals", "Virginia Aquarium Nature Trail", "Virginia Aquarium Boat Dock", "Adventure Park at Virginia Aquarium"]
+    },
+    {
+      "id": "launch-va-virginia-beach-back-bay-national-wildlife-refuge-and-false-cape-state-park",
+      "name": "Back Bay National Wildlife Refuge and False Cape State Park",
+      "city": "Virginia Beach",
+      "state": "VA",
+      "citySlug": "virginia-beach-va",
+      "operator": "U.S. Fish and Wildlife Service and Virginia State Parks",
+      "source": "https://www.fws.gov/refuge/back-bay/visit-us",
+      "subsites": ["Back Bay Visitor Center", "Back Bay Dune Trail", "Back Bay East Dike Trail", "Back Bay West Dike Trail", "Back Bay Refuge Beach", "False Cape Visitor Center", "Wash Woods Historic Site", "False Cape Beach"]
+    },
+    {
+      "id": "launch-va-norfolk-norfolk-botanical-garden",
+      "name": "Norfolk Botanical Garden",
+      "city": "Norfolk",
+      "state": "VA",
+      "citySlug": "norfolk-va",
+      "operator": "Norfolk Botanical Garden",
+      "source": "https://norfolkbotanicalgarden.org/visit/",
+      "subsites": ["Baker Hall Visitor Center", "World of Wonders Children's Adventure Garden", "Bicentennial Rose Garden", "Japanese Garden", "NATO Tower", "Butterfly House", "Mirror Lake", "Virginia Native Plant Garden"]
+    },
+    {
+      "id": "launch-va-norfolk-town-point-park",
+      "name": "Town Point Park",
+      "city": "Norfolk",
+      "state": "VA",
+      "citySlug": "norfolk-va",
+      "operator": "Norfolk Festevents and City of Norfolk",
+      "source": "https://festevents.org/venues/town-point-park/",
+      "subsites": ["Town Point Park Promenade", "TowneBank Fountain Park", "Armed Forces Memorial", "Town Point Park Event Lawn", "Waterside District", "Elizabeth River Trail at Town Point", "Nauticus Waterfront", "Norfolk Cruise Terminal Overlook"]
+    },
+    {
+      "id": "launch-va-norfolk-nauticus-and-battleship-wisconsin",
+      "name": "Nauticus and Battleship Wisconsin",
+      "city": "Norfolk",
+      "state": "VA",
+      "citySlug": "norfolk-va",
+      "operator": "Nauticus",
+      "source": "https://nauticus.org/visit/hours-tickets/",
+      "subsites": ["Nauticus Main Entrance", "Battleship Wisconsin Main Deck", "Battleship Wisconsin Wardroom", "Battleship Wisconsin Ship Experience Access Room", "Hampton Roads Naval Museum", "Sail Nauticus", "Nauticus Elizabeth River Overlook", "Victory Rover Naval Base Cruise Dock"]
+    }
+  ]
+}

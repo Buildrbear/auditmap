@@ -1,0 +1,75 @@
+{
+  "campaign": "New York City high-impact public destinations",
+  "checkedAt": "2026-08-06",
+  "releaseStandard": {
+    "minimumParentImages": 4,
+    "minimumSubsites": 8,
+    "minimumParentQuestions": 11,
+    "minimumSubsiteQuestions": 9
+  },
+  "places": [
+    {
+      "id": "launch-ny-new-york-city-prospect-park",
+      "name": "Prospect Park",
+      "operator": "Prospect Park Alliance and NYC Parks",
+      "source": "https://www.prospectpark.org/visit-the-park/",
+      "subsites": ["Long Meadow and Picnic House", "Prospect Park Lake and Boathouse", "Children's Corner and Carousel", "Prospect Park Zoo", "LeFrak Center at Lakeside", "Nethermead and Dog Beach", "Grand Army Plaza entrance", "Prospect Park Ravine and Waterfall"]
+    },
+    {
+      "id": "launch-ny-new-york-city-flushing-meadows-corona-park",
+      "name": "Flushing Meadows Corona Park",
+      "operator": "NYC Parks",
+      "source": "https://www.nycgovparks.org/parks/flushing-meadows-corona-park/",
+      "subsites": ["Unisphere and Fountain of the Planets", "Queens Museum and New York State Pavilion", "Playground for All Children", "Meadow Lake and boathouse", "Queens Zoo", "USTA Billie Jean King National Tennis Center", "New York Hall of Science and Rocket Park", "Flushing Meadows Aquatic Center"]
+    },
+    {
+      "id": "launch-ny-new-york-city-the-high-line",
+      "name": "The High Line",
+      "operator": "Friends of the High Line and NYC Parks",
+      "source": "https://www.nycgovparks.org/parks/M360",
+      "subsites": ["Gansevoort entrance and Whitney end", "Chelsea Market Passage", "10th Avenue Square and Overlook", "23rd Street Lawn", "Hudson Yards and the Spur", "Diller-von Furstenberg Sundeck and Water Feature", "Chelsea Thicket", "Pershing Square Beams"]
+    },
+    {
+      "id": "launch-ny-new-york-city-brooklyn-bridge-park",
+      "name": "Brooklyn Bridge Park",
+      "operator": "Brooklyn Bridge Park Corporation",
+      "source": "https://brooklynbridgepark.org/about/",
+      "subsites": ["Pier 1 and Harbor View Lawn", "Empire Fulton Ferry and Jane's Carousel", "Main Street and Pebble Beach", "Pier 2 sports courts", "Pier 5 Picnic Peninsula", "Pier 6 playgrounds and Water Lab", "Pier 3 Greenway Terrace and labyrinth", "Pier 4 Beach"]
+    },
+    {
+      "id": "launch-ny-new-york-city-hudson-river-park",
+      "name": "Hudson River Park",
+      "operator": "Hudson River Park Trust",
+      "source": "https://hudsonriverpark.org/visit/plan-your-visit/",
+      "subsites": ["Pier 25", "Pier 40", "Gansevoort Peninsula", "Little Island", "Pier 57 rooftop", "Chelsea Waterside Park", "Pier 97", "Pier 26 and Science Playground"]
+    },
+    {
+      "id": "launch-ny-new-york-city-the-battery",
+      "name": "The Battery",
+      "operator": "The Battery Conservancy and NYC Parks",
+      "source": "https://www.thebattery.org/",
+      "subsites": ["Battery Playscape", "SeaGlass Carousel", "Castle Clinton National Monument", "Battery Gardens and Oval", "Statue of Liberty ferry departure area", "Bosque Fountain and gardens", "Battery Urban Farm", "Peter Minuit Plaza"]
+    },
+    {
+      "id": "launch-ny-new-york-city-bryant-park",
+      "name": "Bryant Park",
+      "operator": "Bryant Park Corporation",
+      "source": "https://bryantpark.org/the-park/hours-and-directions",
+      "subsites": ["Bryant Park Lawn", "Le Carrousel", "Reading Room", "Games area and ping pong", "Winter Village and skating rink", "Bryant Park public restroom", "Fountain Terrace", "Petanque courts"]
+    },
+    {
+      "id": "launch-ny-new-york-city-governors-island",
+      "name": "Governors Island",
+      "operator": "Trust for Governors Island",
+      "source": "https://www.govisland.com/plan-your-visit",
+      "subsites": ["The Hills and Slide Hill", "Hammock Grove", "Liggett Terrace", "Picnic Point", "Nolan Park", "Soissons Landing and ferry", "Outlook Hill", "Colonels Row"]
+    },
+    {
+      "id": "launch-ny-new-york-city-riverside-park",
+      "name": "Riverside Park",
+      "operator": "Riverside Park Conservancy and NYC Parks",
+      "source": "https://riversideparknyc.org/park-faqs/",
+      "subsites": ["Pier I and Riverside Park South", "Hippo Playground", "96th Street red clay tennis courts", "91st Street Garden", "Dinosaur Playground", "Ellington in the Park and 105th Street fields", "Soldiers and Sailors Monument", "Riverside Skate Park"]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "campaign": "Tucson and Tulsa anchor connector",
+  "checkedAt": "2026-08-08",
+  "releaseStandard": "Four licensed destination-specific photos, preserved official visitor answers, full street addresses, and only named subsites with reviewed coordinates plus destination-specific photography.",
+  "places": [
+    {
+      "id": "launch-az-tucson-reid-park",
+      "name": "Gene C. Reid Park",
+      "city": "Tucson",
+      "state": "AZ",
+      "citySlug": "tucson-az",
+      "operator": "City of Tucson Parks and Recreation",
+      "source": "https://www.tucsonaz.gov/Departments/Parks-and-Recreation/Parks/Gene-C.-Reid-Park",
+      "featureResearchRadiusMeters": 2200,
+      "imageQueries": ["Gene C Reid Park Tucson", "Reid Park Rose Garden Tucson", "Reid Park playground Tucson", "Miko's Corner dog park Tucson"],
+      "subsites": ["Reid Park Rose Garden", "Miko's Corner Playground Dog Park", "DeMeester Outdoor Performance Center", "Reid Park Playground", "Reid Park Ponds", "Hi Corbett Field", "Reid Park Zoo Connection"]
+    },
+    {
+      "id": "launch-az-tucson-rillito-river-park",
+      "name": "Rillito River Park",
+      "city": "Tucson",
+      "state": "AZ",
+      "citySlug": "tucson-az",
+      "operator": "Pima County Natural Resources, Parks and Recreation",
+      "source": "https://www.pima.gov/1269/Rillito-River-Park",
+      "featureResearchRadiusMeters": 3200,
+      "imageQueries": ["Rillito River Park Tucson", "Rillito River Park trail Tucson", "Chuck Huckelberry Loop Rillito", "Rillito River Park trailhead"],
+      "subsites": ["Rillito River Park Trail", "Chuck Huckelberry Loop Connection", "La Cholla Trailhead", "Brandi Fenton Trailhead", "Rillito Racetrack Trailhead", "Craycroft Trailhead", "Rillito River Equestrian Access"]
+    },
+    {
+      "id": "launch-ok-tulsa-gathering-place",
+      "name": "Gathering Place",
+      "city": "Tulsa",
+      "state": "OK",
+      "citySlug": "tulsa-ok",
+      "operator": "Gathering Place",
+      "source": "https://www.gatheringplace.org/visit",
+      "featureResearchRadiusMeters": 2200,
+      "imageQueries": ["Gathering Place Tulsa", "Chapman Adventure Playground Gathering Place", "Mist Mountain Gathering Place Tulsa", "Gathering Place Tulsa boathouse"],
+      "subsites": ["Chapman Adventure Playground", "Mist Mountain", "Charlie's Water Mountain", "Williams Lodge", "ONEOK Boathouse", "Gathering Place Skate Park", "Gathering Place BMX Pump Track", "Swing Hill", "Sensory Garden"]
+    },
+    {
+      "id": "launch-ok-tulsa-woodward-park",
+      "name": "Woodward Park",
+      "city": "Tulsa",
+      "state": "OK",
+      "citySlug": "tulsa-ok",
+      "operator": "City of Tulsa with Tulsa Garden Center",
+      "source": "https://www.tulsagardencenter.org/park-rules-and-hours",
+      "featureResearchRadiusMeters": 1800,
+      "imageQueries": ["Woodward Park Tulsa", "Tulsa Municipal Rose Garden", "Tulsa Arboretum Woodward Park", "Linnaeus Teaching Garden Tulsa"],
+      "subsites": ["Tulsa Municipal Rose Garden", "Tulsa Arboretum", "Linnaeus Teaching Garden", "Woodward Park Conservatory", "Tulsa Garden Center Mansion", "Upper and Lower Rock Gardens", "Woodward Park Fountain"]
+    }
+  ]
+}

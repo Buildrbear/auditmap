@@ -68,30 +68,41 @@ If the database environment variables are absent, the site continues using local
 browser-local contributions. This fallback is intentional so public browsing does not fail during
 database maintenance.
 
+Saved places follow the same guest-first model. They are stored on the device immediately, then
+merged into `user_saved_places` after sign-in so an existing guest list is never discarded.
+
 ## Supabase setup
 
 1. Create a Supabase project.
 2. Open the SQL editor and run [supabase/schema.sql](/Users/michaelhobgood/Developer/auditmap/supabase/schema.sql).
-3. In Supabase Authentication, enable the GitHub provider.
-4. In GitHub OAuth app settings, use Supabase’s callback URL:
+   For an existing AuditMap database, the focused account migration is
+   [20260804000000_account_saved_places.sql](/Users/michaelhobgood/Developer/auditmap/supabase/migrations/20260804000000_account_saved_places.sql).
+3. In Supabase Authentication, enable Google and GitHub. Keep email-link sign-in enabled as the
+   account-recovery and provider-independent option.
+4. In each provider's OAuth app settings, use Supabase’s callback URL:
    `https://<your-project-ref>.supabase.co/auth/v1/callback`
 5. In Supabase Authentication URL settings, add your local and production site URLs to the redirect allow list.
-6. Fill in [config.js](/Users/michaelhobgood/Developer/auditmap/config.js) with:
+6. For the recommended server-mediated setup, leave [config.js](/Users/michaelhobgood/Developer/auditmap/config.js)
+   blank and add these variables to Vercel for Production, Preview, and Development:
+
+```text
+SUPABASE_URL
+SUPABASE_SERVICE_ROLE_KEY
+SUPABASE_AUTH_PROVIDERS=google,github
+CONTRIBUTION_HASH_SALT
+```
+
+7. Redeploy, then confirm `/api/auth?action=config` returns `configured: true`. The account dialog
+   will enable Google, GitHub, and email-link sign-in automatically.
+
+For a browser-direct local setup instead, fill in `config.js` with browser-safe project values:
 
 ```js
 window.AUDITMAP_CONFIG = {
   supabaseUrl: "https://your-project-ref.supabase.co",
   supabasePublishableKey: "your-publishable-key",
-  authProvider: "github",
+  authProviders: ["google", "github"],
 };
-```
-
-7. Add these server-side environment variables in Vercel:
-
-```text
-SUPABASE_URL
-SUPABASE_SERVICE_ROLE_KEY
-CONTRIBUTION_HASH_SALT
 ```
 
 The service-role key is used only inside Vercel Functions and must never be added to `config.js` or
@@ -192,6 +203,36 @@ curl -X POST https://www.auditmap.org/api/enrich-place \
 Without Supabase, the worker can return a draft but cannot save it. Without
 `ENRICHMENT_ADMIN_TOKEN`, it stays disabled rather than exposing a paid public endpoint.
 
+### Continuous demand and opportunity enrichment
+
+The search-page build also writes `data/generated/enrichment-queue.json`. Each public-space type has
+an explicit daily-use intent profile, and every listing is scored against current, sourced answers
+for parking, entrances, restrooms, accessibility, closures, fees, transit, and relevant amenities.
+Missing answers become research tasks; expired answers become refresh tasks.
+Each full place audit also identifies one reviewable search opportunity: a useful visitor question
+or angle that official sources cover poorly, plus the evidence still needed before AuditMap can
+publish a distinctive answer. High-demand questions protect utility; search opportunities create a
+reason for the page to earn attention beyond restating the official record. See
+`docs/search-opportunity-guidance.md`.
+
+Vercel calls `GET /api/enrichment-cycle` once daily. The signed cycle:
+
+1. Selects the highest-priority task that is not already answered or waiting for review.
+2. Searches official and public sources for that specific visitor question.
+3. Saves supported answers as `proposed` facts with a source and recheck date.
+4. Stops on that listing until a human accepts or rejects its pending facts.
+5. Makes accepted, unexpired facts available to Ask AuditMap immediately.
+
+Configure `CRON_SECRET` as a sensitive production variable. A signed
+`GET /api/enrichment-cycle?dryRun=true` checks the live queue and database without calling AI or
+writing records. On Vercel, AuditMap uses the project's short-lived OIDC identity with AI Gateway
+when `OPENAI_API_KEY` is absent. The Vercel team must have AI Gateway billing activated; otherwise
+leave `AI_GATEWAY_ENABLED=false` so Ask uses sourced record answers and the cycle performs no writes.
+After billing is active, set `AI_GATEWAY_ENABLED=true` and redeploy to use OIDC.
+`AI_GATEWAY_API_KEY` remains an optional non-OIDC fallback. The private review inbox's **AI facts**
+tab is the publication gate; unsupported drafts and drafts without source evidence cannot be
+accepted.
+
 ## Community-audited place model
 
 Each place is organized as a living public record:
@@ -217,8 +258,9 @@ access private visitor location data. Platform moderation and appeals remain ind
 - `GET /api/places?lat=...&lon=...&radius=...` uses PostGIS to rank nearby records.
 - `GET /api/feed?placeId=...` returns published contributions for a place.
 - `POST /api/feed` stores a contribution for moderation and claim analysis.
-- `GET /api/moderation` returns pending contributions to an authorized reviewer.
-- `POST /api/moderation` publishes or rejects one pending contribution.
+- `GET /api/moderation` returns pending contributions, information gaps, or proposed AI facts to an
+  authorized reviewer.
+- `POST /api/moderation` reviews contributions, information gaps, and sourced AI facts.
 
 The private review inbox is available at `/admin.html`. It accepts `MODERATION_ADMIN_TOKEN`,
 falling back to `ENRICHMENT_ADMIN_TOKEN` while the dedicated moderation key is not configured.
@@ -241,6 +283,24 @@ configured. Replies use only the place record, cited sources, and published disc
 visibly labeled as AI-generated and classified as sourced, partial, or needing verification. The
 question still enters the information-gap queue, and the AI reply never promotes community text into
 a verified fact.
+
+## Crumbs pilot
+
+Crumbs are AuditMap's guided community contributions. Guests can leave park-level text notes, while
+signed-in contributors can attach a mapped feature or public pin and upload photos, panoramas, and
+validated 2:1 equirectangular 360 images. Set `CRUMB_PILOT_PLACE_IDS=dix-park` to keep the launch
+limited to Dix Park, or use a comma-separated allowlist. `CRUMB_MEDIA_BUCKET` defaults to the private
+`community-media-inbox` bucket created by the Crumbs migration.
+
+The upload API uses signed resumable TUS intents through `POST /api/media?action=intent` and marks a
+finished upload with `POST /api/media?action=complete`. Publishing runs a second server-side decode,
+checksum validation, EXIF/GPS removal, normalization, and preview generation. The public feed only
+returns signed URLs for approved derivatives. A daily cleanup removes abandoned and expired rejected
+uploads and marks time-sensitive contributions outdated.
+
+Recognition uses append-only impact events so retries cannot award the same contribution twice.
+Public profiles expose levels, badges, approved and verified crumbs, places helped, and thanks, but
+not the scoring formula or private visit history. There is intentionally no public leaderboard.
 
 The map tries the shared geographic database first and falls back to the current public-data
 discovery path when the database is unavailable or has no nearby records.

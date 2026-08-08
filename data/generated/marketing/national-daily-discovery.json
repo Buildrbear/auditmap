@@ -1,0 +1,420 @@
+{
+  "id": "national-daily-discovery-v1",
+  "market": "National rotation",
+  "status": "review",
+  "cohortStatus": "approved-cohort",
+  "campaign": "national_daily_discovery",
+  "generatedAt": "2026-08-08T02:45:48.616Z",
+  "postCount": 14,
+  "states": 14,
+  "cities": 14,
+  "eligiblePlaces": 409,
+  "posts": [
+    {
+      "id": "daily_dix-park",
+      "series": "Daily public place",
+      "hook": "Daily reminder to explore somewhere public",
+      "day": 1,
+      "date": "2026-08-10",
+      "region": "south",
+      "placeId": "dix-park",
+      "placeName": "Dix Park",
+      "city": "Raleigh",
+      "state": "NC",
+      "intentKey": "public-art",
+      "url": "https://www.auditmap.org/us/nc/raleigh/parks/dix-park?utm_source=x&utm_medium=organic_social&utm_campaign=national_daily_discovery&utm_content=daily_dix-park",
+      "text": "Daily reminder to explore somewhere public:\n\nDix Park in Raleigh, NC. Mother Strong Tail and Dix are along the Pine Loop Trail.\n\nWhat would help you plan a visit?\n\nhttps://www.auditmap.org/us/nc/raleigh/parks/dix-park?utm_source=x&utm_medium=organic_social&utm_campaign=national_daily_discovery&utm_content=daily_dix-park\n\n#FoundOnAuditMap",
+      "xLength": 205,
+      "answerEvidence": {
+        "sourceLabel": "Dix Park Trolls",
+        "source": "https://dixpark.org/trolls",
+        "checkedAt": "2026-07-29",
+        "expiresAt": "2027-01-25"
+      },
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Raleigh%20Dix%20Park.jpg?width=1400",
+        "source": "https://commons.wikimedia.org/wiki/File:Raleigh_Dix_Park.jpg",
+        "author": "Maria Kozmina",
+        "license": "CC BY-SA 4.0",
+        "alt": "Open lawn and skyline view at Dix Park"
+      }
+    },
+    {
+      "id": "daily_launch-ny-new-york-city-central-park",
+      "series": "Daily public place",
+      "hook": "Daily reminder to explore somewhere public",
+      "day": 2,
+      "date": "2026-08-11",
+      "region": "northeast",
+      "placeId": "launch-ny-new-york-city-central-park",
+      "placeName": "Central Park",
+      "city": "New York City",
+      "state": "NY",
+      "intentKey": "restroom",
+      "url": "https://www.auditmap.org/us/ny/new-york-city/parks/central-park?utm_source=x&utm_medium=organic_social&utm_campaign=national_daily_discovery&utm_content=daily_launch-ny-new-york-city-central-park",
+      "text": "Daily reminder to explore somewhere public:\n\nCentral Park in New York City, NY. Restrooms are distributed across the park, and some close in winter or follow facility hours.\n\nWhat would help you plan a visit?\n\nhttps://www.auditmap.org/us/ny/new-york-city/parks/central-park?utm_source=x&utm_medium=organic_social&utm_campaign=national_daily_discovery&utm_content=daily_launch-ny-new-york-city-central-park\n\n#FoundOnAuditMap",
+      "xLength": 251,
+      "answerEvidence": {
+        "sourceLabel": "Central Park Conservancy",
+        "source": "https://www.centralparknyc.org/locations/heckscher-playground",
+        "checkedAt": "2026-07-31",
+        "expiresAt": null
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/New_York_City_%28New_York%2C_USA%29%2C_Central_Park_--_2012_--_6731.jpg/1920px-New_York_City_%28New_York%2C_USA%29%2C_Central_Park_--_2012_--_6731.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:New_York_City_(New_York,_USA),_Central_Park_--_2012_--_6731.jpg",
+        "author": "Dietmar Rabich",
+        "license": "CC BY-SA 4.0",
+        "alt": "Central Park in New York City , New York, USA"
+      }
+    },
+    {
+      "id": "daily_launch-il-chicago-lincoln-park",
+      "series": "Daily public place",
+      "hook": "Daily reminder to explore somewhere public",
+      "day": 3,
+      "date": "2026-08-12",
+      "region": "midwest",
+      "placeId": "launch-il-chicago-lincoln-park",
+      "placeName": "Lincoln Park",
+      "city": "Chicago",
+      "state": "IL",
+      "intentKey": "parking",
+      "url": "https://www.auditmap.org/us/il/chicago/parks/lincoln-park?utm_source=x&utm_medium=organic_social&utm_campaign=national_daily_discovery&utm_content=daily_launch-il-chicago-lincoln-park",
+      "text": "Daily reminder to explore somewhere public:\n\nLincoln Park in Chicago, IL. Paid lots serve the zoo and North Avenue Beach, with metered or restricted neighborhood parking elsewhere.\n\nWhat would help you plan a visit?\n\nhttps://www.auditmap.org/us/il/chicago/parks/lincoln-park?utm_source=x&utm_medium=organic_social&utm_campaign=national_daily_discovery&utm_content=daily_launch-il-chicago-lincoln-park\n\n#FoundOnAuditMap",
+      "xLength": 258,
+      "answerEvidence": {
+        "sourceLabel": "Chicago Park District",
+        "source": "https://www.chicagoparkdistrict.com/parks-facilities/lincoln-abraham-park",
+        "checkedAt": "2026-08-05",
+        "expiresAt": null
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Chicago_Skyline_from_North_Avenue_Beach%2C_Lincoln_Park%2C_Chicago%2C_IL_-_54194724957.jpg/1920px-Chicago_Skyline_from_North_Avenue_Beach%2C_Lincoln_Park%2C_Chicago%2C_IL_-_54194724957.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Chicago_Skyline_from_North_Avenue_Beach,_Lincoln_Park,_Chicago,_IL_-_54194724957.jpg",
+        "author": "w_lemay",
+        "license": "CC BY-SA 2.0",
+        "alt": "St. Regis Chicago (Studio Gang Architects, 2016-2020), Water Tower Place (Loebl Schlossman Bennett and Dart, 1974-1976), John Hancock Center (Skidmore, Owings and Merrill, 1965-1969), Palmolive Building (Holabird and Root, 1929), Drake Hotel (Benjamin H. Marshall and Charles Eli Fox, 1916-1920), and Trump International Hotel and Tower (Skidmore, Owings and Merrill, 2005-2009) visible in the background."
+      }
+    },
+    {
+      "id": "daily_launch-ca-san-diego-balboa-park",
+      "series": "Daily public place",
+      "hook": "Daily reminder to explore somewhere public",
+      "day": 4,
+      "date": "2026-08-13",
+      "region": "west",
+      "placeId": "launch-ca-san-diego-balboa-park",
+      "placeName": "Balboa Park",
+      "city": "San Diego",
+      "state": "CA",
+      "intentKey": "public-art",
+      "url": "https://www.auditmap.org/us/ca/san-diego/parks/balboa-park?utm_source=x&utm_medium=organic_social&utm_campaign=national_daily_discovery&utm_content=daily_launch-ca-san-diego-balboa-park",
+      "text": "Daily reminder to explore somewhere public:\n\nBalboa Park in San Diego, CA. Start at Cabrillo Bridge on the west side and walk east through the historic El Prado cultural district.\n\nWhat would help you plan a visit?\n\nhttps://www.auditmap.org/us/ca/san-diego/parks/balboa-park?utm_source=x&utm_medium=organic_social&utm_campaign=national_daily_discovery&utm_content=daily_launch-ca-san-diego-balboa-park\n\n#FoundOnAuditMap",
+      "xLength": 257,
+      "answerEvidence": {
+        "sourceLabel": "Balboa Park",
+        "source": "https://balboapark.org/balboa-park-attractions-experiences/",
+        "checkedAt": "2026-07-31",
+        "expiresAt": null
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Balboa_Park%2C_San_Diego%2C_CA%2C_USA_-_panoramio_%2849%29.jpg/1920px-Balboa_Park%2C_San_Diego%2C_CA%2C_USA_-_panoramio_%2849%29.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Balboa_Park,_San_Diego,_CA,_USA_-_panoramio_(49).jpg",
+        "author": "Roman Eugeniusz",
+        "license": "CC BY-SA 3.0",
+        "alt": "Balboa Park, San Diego, CA, USA"
+      }
+    },
+    {
+      "id": "daily_launch-pa-philadelphia-dilworth-park",
+      "series": "Daily public place",
+      "hook": "Daily reminder to explore somewhere public",
+      "day": 5,
+      "date": "2026-08-14",
+      "region": "northeast",
+      "placeId": "launch-pa-philadelphia-dilworth-park",
+      "placeName": "Dilworth Park",
+      "city": "Philadelphia",
+      "state": "PA",
+      "intentKey": "public-art",
+      "url": "https://www.auditmap.org/us/pa/philadelphia/parks/dilworth-park?utm_source=x&utm_medium=organic_social&utm_campaign=national_daily_discovery&utm_content=daily_launch-pa-philadelphia-dilworth-park",
+      "text": "Daily reminder to explore somewhere public:\n\nDilworth Park in Philadelphia, PA. Janet Echelman's Pulse is integrated with the fountain and uses colored mist to evoke the subway routes below.\n\nWhat would help you plan a visit?\n\nhttps://www.auditmap.org/us/pa/philadelphia/parks/dilworth-park?utm_source=x&utm_medium=organic_social&utm_campaign=national_daily_discovery&utm_content=daily_launch-pa-philadelphia-dilworth-park\n\n#FoundOnAuditMap",
+      "xLength": 268,
+      "answerEvidence": {
+        "sourceLabel": "Center City District",
+        "source": "https://centercityphila.org/press-release/spring-and-summer-happenings-in-dilworth-park/",
+        "checkedAt": "2026-07-31",
+        "expiresAt": null
+      },
+      "image": {
+        "url": "/assets/parks/philadelphia-super/dilworth-park/03-dilworth-park-ice-skating-jpg.webp",
+        "source": "https://commons.wikimedia.org/wiki/File%3ADilworth_Park_ice_skating.jpg",
+        "author": "Ii2nmd",
+        "license": "CC BY-SA 4.0",
+        "alt": "Dilworth Park in Philadelphia"
+      }
+    },
+    {
+      "id": "daily_launch-dc-washington-national-mall",
+      "series": "Daily public place",
+      "hook": "Daily reminder to explore somewhere public",
+      "day": 6,
+      "date": "2026-08-15",
+      "region": "south",
+      "placeId": "launch-dc-washington-national-mall",
+      "placeName": "National Mall",
+      "city": "Washington",
+      "state": "DC",
+      "intentKey": "entrance",
+      "url": "https://www.auditmap.org/us/dc/washington/parks/national-mall?utm_source=x&utm_medium=organic_social&utm_campaign=national_daily_discovery&utm_content=daily_launch-dc-washington-national-mall",
+      "text": "Daily reminder to explore somewhere public:\n\nNational Mall in Washington, DC. Choose the exact memorial or museum before navigating.\n\nWhat would help you plan a visit?\n\nhttps://www.auditmap.org/us/dc/washington/parks/national-mall?utm_source=x&utm_medium=organic_social&utm_campaign=national_daily_discovery&utm_content=daily_launch-dc-washington-national-mall\n\n#FoundOnAuditMap",
+      "xLength": 210,
+      "answerEvidence": {
+        "sourceLabel": "National Park Service",
+        "source": "https://www.nps.gov/nama/planyourvisit/index.htm",
+        "checkedAt": "2026-08-05",
+        "expiresAt": null
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Washington_DC_August_1975_View_from_Washington_Monument_-_Mall_and_Capitol.jpg/1920px-Washington_DC_August_1975_View_from_Washington_Monument_-_Mall_and_Capitol.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Washington_DC_August_1975_View_from_Washington_Monument_-_Mall_and_Capitol.jpg",
+        "author": "Infrogmation",
+        "license": "CC BY-SA 4.0",
+        "alt": "Washington DC August 1975 View from Washington Monument"
+      }
+    },
+    {
+      "id": "daily_launch-oh-columbus-battelle-darby-creek-metro-park",
+      "series": "Daily public place",
+      "hook": "Daily reminder to explore somewhere public",
+      "day": 7,
+      "date": "2026-08-16",
+      "region": "midwest",
+      "placeId": "launch-oh-columbus-battelle-darby-creek-metro-park",
+      "placeName": "Battelle Darby Creek Metro Park",
+      "city": "Columbus",
+      "state": "OH",
+      "intentKey": "entrance",
+      "url": "https://www.auditmap.org/us/oh/columbus/parks/battelle-darby-creek-metro-park?utm_source=x&utm_medium=organic_social&utm_campaign=national_daily_discovery&utm_content=daily_launch-oh-columbus-battelle-darby-creek-metro-park",
+      "text": "Daily reminder to explore somewhere public:\n\nBattelle Darby Creek Metro Park in Columbus, OH. The Nature Center and bison pastures are the simplest first visit.\n\nWhat would help you plan a visit?\n\nhttps://www.auditmap.org/us/oh/columbus/parks/battelle-darby-creek-metro-park?utm_source=x&utm_medium=organic_social&utm_campaign=national_daily_discovery&utm_content=daily_launch-oh-columbus-battelle-darby-creek-metro-park\n\n#FoundOnAuditMap",
+      "xLength": 238,
+      "answerEvidence": {
+        "sourceLabel": "Columbus and Franklin County Metro Parks",
+        "source": "https://www.metroparks.net/parks-and-trails/battelle-darby-creek/",
+        "checkedAt": "2026-08-06",
+        "expiresAt": null
+      },
+      "image": {
+        "url": "/assets/parks/columbus-super/battelle-darby-creek-metro-park/01-battelle-darby-creek-nature-center-1-jpg.webp",
+        "source": "https://commons.wikimedia.org/wiki/File%3ABattelle_Darby_Creek_Nature_Center_1.jpg",
+        "author": "Sixflashphoto",
+        "license": "CC BY-SA 4.0",
+        "alt": "Battelle Darby Creek Metro Park in the Columbus area"
+      }
+    },
+    {
+      "id": "daily_launch-ut-syracuse-antelope-island-state-park",
+      "series": "Daily public place",
+      "hook": "Daily reminder to explore somewhere public",
+      "day": 8,
+      "date": "2026-08-17",
+      "region": "west",
+      "placeId": "launch-ut-syracuse-antelope-island-state-park",
+      "placeName": "Antelope Island State Park",
+      "city": "Syracuse",
+      "state": "UT",
+      "intentKey": "accessibility",
+      "url": "https://www.auditmap.org/us/ut/syracuse/parks/antelope-island-state-park?utm_source=x&utm_medium=organic_social&utm_campaign=national_daily_discovery&utm_content=daily_launch-ut-syracuse-antelope-island-state-park",
+      "text": "Daily reminder to explore somewhere public:\n\nAntelope Island State Park in Syracuse, UT. The marina information area, developed beach facilities and ranch provide the firmest access.\n\nWhat would help you plan a visit?\n\nhttps://www.auditmap.org/us/ut/syracuse/parks/antelope-island-state-park?utm_source=x&utm_medium=organic_social&utm_campaign=national_daily_discovery&utm_content=daily_launch-ut-syracuse-antelope-island-state-park\n\n#FoundOnAuditMap",
+      "xLength": 260,
+      "answerEvidence": {
+        "sourceLabel": "Utah State Parks",
+        "source": "https://stateparks.utah.gov/parks/antelope-island/",
+        "checkedAt": "2026-08-06",
+        "expiresAt": null
+      },
+      "image": {
+        "url": "/assets/parks/salt-lake-super/antelope-island-state-park/01-antelope-island-state-park-utah48-jpg.webp",
+        "source": "https://commons.wikimedia.org/wiki/File%3AAntelope_Island_State_Park%2C_Utah48.jpg",
+        "author": "dconvertini",
+        "license": "CC BY-SA 2.0",
+        "alt": "Antelope Island State Park in the Salt Lake City and Wasatch Front area"
+      }
+    },
+    {
+      "id": "daily_launch-ri-providence-roger-williams-park",
+      "series": "Daily public place",
+      "hook": "Daily reminder to explore somewhere public",
+      "day": 9,
+      "date": "2026-08-18",
+      "region": "northeast",
+      "placeId": "launch-ri-providence-roger-williams-park",
+      "placeName": "Roger Williams Park",
+      "city": "Providence",
+      "state": "RI",
+      "intentKey": "playground",
+      "url": "https://www.auditmap.org/us/ri/providence/parks/roger-williams-park?utm_source=x&utm_medium=organic_social&utm_campaign=national_daily_discovery&utm_content=daily_launch-ri-providence-roger-williams-park",
+      "text": "Daily reminder to explore somewhere public:\n\nRoger Williams Park in Providence, RI. Roger Williams Park has two public playground destinations.\n\nWhat would help you plan a visit?\n\nhttps://www.auditmap.org/us/ri/providence/parks/roger-williams-park?utm_source=x&utm_medium=organic_social&utm_campaign=national_daily_discovery&utm_content=daily_launch-ri-providence-roger-williams-park\n\n#FoundOnAuditMap",
+      "xLength": 221,
+      "answerEvidence": {
+        "sourceLabel": "Roger Williams Park Conservancy",
+        "source": "https://www.rwpconservancy.org/explore/things-to-do/playgrounds/",
+        "checkedAt": "2026-07-31",
+        "expiresAt": null
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Boat_house_and_lake%2C_Roger_Williams_Park%2C_Providence%2C_R.I_%2861973%29.jpg/1920px-Boat_house_and_lake%2C_Roger_Williams_Park%2C_Providence%2C_R.I_%2861973%29.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Boat_house_and_lake,_Roger_Williams_Park,_Providence,_R.I_(61973).jpg",
+        "author": "Pub. by Berger Bros., Providence, R.I.",
+        "license": "Public domain",
+        "alt": "Title: Boat house and lake, Roger Williams Park, Providence, R.I. Subjects: Boats; Parks; Lakes & ponds Places: Rhode Island &gt; Providence (county) &gt; Providence Notes: Title from item. Extent: 1 print (postcard) : linen texture, color ; 3 1/2 x 5 1/2 in. Accession #: 06_10_002022"
+      }
+    },
+    {
+      "id": "daily_launch-fl-miami-bayfront-park",
+      "series": "Daily public place",
+      "hook": "Daily reminder to explore somewhere public",
+      "day": 10,
+      "date": "2026-08-19",
+      "region": "south",
+      "placeId": "launch-fl-miami-bayfront-park",
+      "placeName": "Bayfront Park",
+      "city": "Miami",
+      "state": "FL",
+      "intentKey": "fees",
+      "url": "https://www.auditmap.org/us/fl/miami/parks/bayfront-park?utm_source=x&utm_medium=organic_social&utm_campaign=national_daily_discovery&utm_content=daily_launch-fl-miami-bayfront-park",
+      "text": "Daily reminder to explore somewhere public:\n\nBayfront Park in Miami, FL. General park, monuments, paths, lawns, and waterfront access are free.\n\nWhat would help you plan a visit?\n\nhttps://www.auditmap.org/us/fl/miami/parks/bayfront-park?utm_source=x&utm_medium=organic_social&utm_campaign=national_daily_discovery&utm_content=daily_launch-fl-miami-bayfront-park\n\n#FoundOnAuditMap",
+      "xLength": 221,
+      "answerEvidence": {
+        "sourceLabel": "Bayfront Park Management Trust",
+        "source": "https://www.bayfrontparkmiami.com/bayfront-park",
+        "checkedAt": "2026-08-05",
+        "expiresAt": null
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Laser_Light_Tower_Bayfront_Park_Isamu_Noguchi%2C_Miami_FL_October_2022.jpg/1920px-Laser_Light_Tower_Bayfront_Park_Isamu_Noguchi%2C_Miami_FL_October_2022.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Laser_Light_Tower_Bayfront_Park_Isamu_Noguchi,_Miami_FL_October_2022.jpg",
+        "author": "Phillip Pessar",
+        "license": "CC BY 2.0",
+        "alt": "Laser Light Tower Bayfront Park Isamu Noguchi, Miami FL October 2022"
+      }
+    },
+    {
+      "id": "daily_launch-mi-detroit-belle-isle-park",
+      "series": "Daily public place",
+      "hook": "Daily reminder to explore somewhere public",
+      "day": 11,
+      "date": "2026-08-20",
+      "region": "midwest",
+      "placeId": "launch-mi-detroit-belle-isle-park",
+      "placeName": "Belle Isle Park",
+      "city": "Detroit",
+      "state": "MI",
+      "intentKey": "accessibility",
+      "url": "https://www.auditmap.org/us/mi/detroit/parks/belle-isle-park?utm_source=x&utm_medium=organic_social&utm_campaign=national_daily_discovery&utm_content=daily_launch-mi-detroit-belle-isle-park",
+      "text": "Daily reminder to explore somewhere public:\n\nBelle Isle Park in Detroit, MI. Accessible parking, ramps, fishing piers, kayak launches and a rubber-surface playground are available at selected locations.\n\nWhat would help you plan a visit?\n\nhttps://www.auditmap.org/us/mi/detroit/parks/belle-isle-park?utm_source=x&utm_medium=organic_social&utm_campaign=national_daily_discovery&utm_content=daily_launch-mi-detroit-belle-isle-park\n\n#FoundOnAuditMap",
+      "xLength": 280,
+      "answerEvidence": {
+        "sourceLabel": "Michigan Department of Natural Resources",
+        "source": "https://www.michigan.gov/recsearch/parks/BelleIsle",
+        "checkedAt": "2026-08-06",
+        "expiresAt": null
+      },
+      "image": {
+        "url": "/assets/parks/detroit-super/belle-isle-park/01-belle-isle-casino-and-fountain-detroit-michigan-jpg.webp",
+        "source": "https://commons.wikimedia.org/wiki/File%3ABelle_Isle_casino_and_fountain_-_Detroit_Michigan.jpg",
+        "author": "Mike Russell , Mikerussell at en.wikipedia",
+        "license": "CC BY-SA 3.0",
+        "alt": "Belle Isle Park in Detroit"
+      }
+    },
+    {
+      "id": "daily_launch-az-phoenix-camelback-mountain",
+      "series": "Daily public place",
+      "hook": "Daily reminder to explore somewhere public",
+      "day": 12,
+      "date": "2026-08-21",
+      "region": "west",
+      "placeId": "launch-az-phoenix-camelback-mountain",
+      "placeName": "Camelback Mountain",
+      "city": "Phoenix",
+      "state": "AZ",
+      "intentKey": "restroom",
+      "url": "https://www.auditmap.org/us/az/phoenix/parks/camelback-mountain?utm_source=x&utm_medium=organic_social&utm_campaign=national_daily_discovery&utm_content=daily_launch-az-phoenix-camelback-mountain",
+      "text": "Daily reminder to explore somewhere public:\n\nCamelback Mountain in Phoenix, AZ. Echo Canyon has restrooms and potable water at the trailhead.\n\nWhat would help you plan a visit?\n\nhttps://www.auditmap.org/us/az/phoenix/parks/camelback-mountain?utm_source=x&utm_medium=organic_social&utm_campaign=national_daily_discovery&utm_content=daily_launch-az-phoenix-camelback-mountain\n\n#FoundOnAuditMap",
+      "xLength": 219,
+      "answerEvidence": {
+        "sourceLabel": "City of Phoenix Parks and Recreation",
+        "source": "https://www.phoenix.gov/administration/departments/parks/activities-facilities/trails/camelback-mountain.html",
+        "checkedAt": "2026-08-06",
+        "expiresAt": null
+      },
+      "image": {
+        "url": "/assets/parks/phoenix-super/camelback-mountain/01-camelback-mountain-2-jpg.webp",
+        "source": "https://commons.wikimedia.org/wiki/File%3ACamelback_Mountain_2.jpg",
+        "author": "Dru Bloomfield from Scottsdale, Arizona, USA",
+        "license": "CC BY 2.0",
+        "alt": "Camelback Mountain in Phoenix"
+      }
+    },
+    {
+      "id": "daily_launch-ma-boston-arnold-arboretum",
+      "series": "Daily public place",
+      "hook": "Daily reminder to explore somewhere public",
+      "day": 13,
+      "date": "2026-08-22",
+      "region": "northeast",
+      "placeId": "launch-ma-boston-arnold-arboretum",
+      "placeName": "Arnold Arboretum",
+      "city": "Boston",
+      "state": "MA",
+      "intentKey": "parking",
+      "url": "https://www.auditmap.org/us/ma/boston/parks/arnold-arboretum?utm_source=x&utm_medium=organic_social&utm_campaign=national_daily_discovery&utm_content=daily_launch-ma-boston-arnold-arboretum",
+      "text": "Daily reminder to explore somewhere public:\n\nArnold Arboretum in Boston, MA. Free street parking is available along Arborway, Flora Way, and Walter Street.\n\nWhat would help you plan a visit?\n\nhttps://www.auditmap.org/us/ma/boston/parks/arnold-arboretum?utm_source=x&utm_medium=organic_social&utm_campaign=national_daily_discovery&utm_content=daily_launch-ma-boston-arnold-arboretum\n\n#FoundOnAuditMap",
+      "xLength": 233,
+      "answerEvidence": {
+        "sourceLabel": "Arnold Arboretum of Harvard University",
+        "source": "https://arboretum.harvard.edu/visit/",
+        "checkedAt": "2026-08-06",
+        "expiresAt": null
+      },
+      "image": {
+        "url": "/assets/parks/boston-super/arnold-arboretum/04-general-view-arnold-arboretum-dsc06724-jpg.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:General_view_-_Arnold_Arboretum_-_DSC06724.JPG",
+        "author": "Daderot",
+        "license": "CC0",
+        "alt": "Arnold Arboretum in Boston"
+      }
+    },
+    {
+      "id": "daily_launch-tx-austin-ann-and-roy-butler-hike-and-bike-trail",
+      "series": "Daily public place",
+      "hook": "Daily reminder to explore somewhere public",
+      "day": 14,
+      "date": "2026-08-23",
+      "region": "south",
+      "placeId": "launch-tx-austin-ann-and-roy-butler-hike-and-bike-trail",
+      "placeName": "Ann and Roy Butler Hike-and-Bike Trail",
+      "city": "Austin",
+      "state": "TX",
+      "intentKey": "transit",
+      "url": "https://www.auditmap.org/us/tx/austin/parks/ann-and-roy-butler-hike-and-bike-trail?utm_source=x&utm_medium=organic_social&utm_campaign=national_daily_discovery&utm_content=daily_launch-tx-austin-ann-and-roy-butler-hike-and-bike-trail",
+      "text": "Daily reminder to explore somewhere public:\n\nAnn and Roy Butler Hike-and-Bike Trail in Austin, TX. Downtown transit, bikeshare, neighborhood paths, and pedestrian bridges reach many trailheads.\n\nWhat would help you plan a visit?\n\nhttps://www.auditmap.org/us/tx/austin/parks/ann-and-roy-butler-hike-and-bike-trail?utm_source=x&utm_medium=organic_social&utm_campaign=national_daily_discovery&utm_content=daily_launch-tx-austin-ann-and-roy-butler-hike-and-bike-trail\n\n#FoundOnAuditMap",
+      "xLength": 271,
+      "answerEvidence": {
+        "sourceLabel": "Austin Parks and Recreation and The Trail Conservancy",
+        "source": "https://www.austintexas.gov/parks/locations/ann-and-roy-butler-hike-and-bike-trail-and-boardwalk-lady-bird-lake",
+        "checkedAt": "2026-08-06",
+        "expiresAt": null
+      },
+      "image": {
+        "url": "/assets/parks/austin-super/ann-and-roy-butler-hike-and-bike-trail/01-butler-hike-and-bike-trail-boardwalk-jpg.webp",
+        "source": "https://commons.wikimedia.org/wiki/File%3AButler_Hike_and_Bike_Trail_Boardwalk.jpg",
+        "author": "Larry D. Moore",
+        "license": "CC BY 4.0",
+        "alt": "Ann and Roy Butler Hike-and-Bike Trail in Austin"
+      }
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "checkedAt": "2026-08-08",
+  "reviewMethod": "Exact named OpenStreetMap feature, official operator guidance, and a destination-specific licensed campaign photograph. Features without all three remain parent-page amenities or research-queue items rather than separate pages.",
+  "places": {
+    "launch-ca-long-beach-el-dorado-east-regional-park": {
+      "el-dorado-nature-center-trails": {
+        "name": "El Dorado Nature Center Trails",
+        "osm": "way/225111583",
+        "imageIndex": 2,
+        "sourceLabel": "City of Long Beach Parks, Recreation and Marine",
+        "source": "https://www.longbeach.gov/park/park-and-facilities/parks-centers-pier/el-dorado-nature-center/general-information/",
+        "summary": "El Dorado Nature Center Trails wind through a 105-acre habitat around two lakes, a stream, meadows, and forest, with two miles of dirt trail plus a shorter paved access trail near the visitor center.",
+        "cost": "Walking or bicycling into the Nature Center does not carry a vehicle fee. Vehicle entry is cashless at the booth and currently costs $6 on weekdays, $7 on Fridays, $8 on weekends, and $9 on listed holidays; larger vehicles cost more.",
+        "hours": "Trails are open Tuesday-Sunday from 8:00 a.m. to 5:00 p.m., with no trail entry after 4:30 p.m. The visitor center is open Tuesday-Sunday from 8:30 a.m. to 4:00 p.m. The site is closed Mondays and on the holidays listed by the City.",
+        "needToKnow": "Pets and bicycles must stay outside the Nature Center grounds. Walk rather than jog, remain on the marked trails, do not feed wildlife, collect natural objects, fish, smoke, or stage posed photography, and arrive before the 4:30 p.m. trail-entry cutoff.",
+        "latitude": 33.8090068,
+        "longitude": -118.0879967,
+        "displayName": "Nature Center trail (combined)",
+        "coordinateSource": "https://www.openstreetmap.org/way/225111583",
+        "boundarySource": "https://www.openstreetmap.org/relation/12450122",
+        "positionQuality": "reviewed-public-map-placement",
+        "reviewStatus": "approved-feature-and-boundary-match",
+        "reviewedAt": "2026-08-08"
+      }
+    },
+    "launch-ca-long-beach-shoreline-aquatic-park": {
+      "lions-lighthouse": {
+        "name": "Lions Lighthouse",
+        "osm": "way/1054968664",
+        "imageIndex": 1,
+        "sourceLabel": "City of Long Beach",
+        "source": "https://www.longbeach.gov/globalassets/lbcd/media-library/documents/planning/downtown-shoreline-pd-6/downtown-shoreline-opportunities-lookbook-english",
+        "summary": "Lions Lighthouse for Sight is the prominent white lighthouse landmark on the grassy hill at Shoreline Aquatic Park, overlooking Rainbow Harbor and the Downtown Shoreline waterfront.",
+        "cost": "The City lists the lighthouse as an outdoor Shoreline Aquatic Park landmark and does not list an admission charge. Nearby parking, the Aquarium, harbor excursions, restaurants, and special events can cost separately.",
+        "hours": "The City does not publish separate walk-in hours for the lighthouse, which functions as an outdoor landmark rather than a general interior attraction. Follow posted park, event, maintenance, and waterfront access restrictions when visiting the hill.",
+        "needToKnow": "Navigate to the exact lighthouse pin rather than the Aquarium or marina. The approach crosses open waterfront park space and climbs the lighthouse hill; expect sun, wind, event crowds, and limited shade, and do not assume the lighthouse interior is open.",
+        "latitude": 33.7602383,
+        "longitude": -118.1941072,
+        "displayName": "Lions Lighthouse",
+        "coordinateSource": "https://www.openstreetmap.org/way/1054968664",
+        "boundarySource": "https://www.openstreetmap.org/way/27250981",
+        "positionQuality": "reviewed-public-map-placement",
+        "reviewStatus": "approved-feature-and-boundary-match",
+        "reviewedAt": "2026-08-08"
+      }
+    },
+    "launch-ca-anaheim-yorba-regional-park": {},
+    "launch-ca-anaheim-pearson-park": {
+      "pearson-park-amphitheatre": {
+        "name": "Pearson Park Amphitheatre",
+        "osm": "way/172547232",
+        "imageIndex": 1,
+        "sourceLabel": "City of Anaheim Community Services",
+        "source": "https://www.anaheim.net/1432/Pearson-Park-Amphitheatre",
+        "summary": "Pearson Park Amphitheatre is Anaheim's historic open-air, Spanish-style performance venue, built in 1927 and arranged for just over 2,000 seated guests beside Pearson Park.",
+        "cost": "Admission depends on the scheduled performance or community program; some events are ticketed while ordinary use of the surrounding Pearson Park is separate. Check the current event listing before leaving.",
+        "hours": "The gated amphitheatre opens for scheduled performances, programs, and approved rentals rather than following the surrounding park's general hours. Confirm the event date, gate time, and ticket requirements on the current City schedule.",
+        "needToKnow": "Seating is first come, first served unless the event says otherwise. Pets are not permitted except service animals; concessions are available during applicable events, and designated accessible parking is on Lemon Street in front of the theatre. Request special accommodations from the City at least 72 hours ahead when possible.",
+        "latitude": 33.8381172,
+        "longitude": -117.9178651,
+        "displayName": "Pearson Park Amphitheatre",
+        "coordinateSource": "https://www.openstreetmap.org/way/172547232",
+        "boundarySource": "https://www.openstreetmap.org/way/182016453",
+        "positionQuality": "reviewed-public-map-placement",
+        "reviewStatus": "approved-feature-and-boundary-match",
+        "reviewedAt": "2026-08-08"
+      }
+    },
+    "launch-ca-irvine-great-park": {},
+    "launch-ca-irvine-william-r-mason-regional-park": {}
+  }
+}

@@ -1,4 +1,5 @@
 const PROMPT_VERSION = "community-moderation-v1";
+const { resolveAiConnection } = require("./ai-connection");
 
 const moderationSchema = {
   type: "object",
@@ -60,16 +61,19 @@ function safeFallback(reason) {
 }
 
 async function reviewContribution(contribution, place = {}) {
-  if (!process.env.OPENAI_API_KEY) {
+  const connection = await resolveAiConnection({
+    model: process.env.OPENAI_MODERATION_MODEL || "gpt-4.1-mini",
+  });
+  if (!connection) {
     return safeFallback("AI review is not configured, so a person must review this.");
   }
 
-  const model = process.env.OPENAI_MODERATION_MODEL || "gpt-4.1-mini";
+  const model = connection.model;
   try {
-    const apiResponse = await fetch("https://api.openai.com/v1/responses", {
+    const apiResponse = await fetch(connection.apiUrl, {
       method: "POST",
       headers: {
-        Authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
+        Authorization: `Bearer ${connection.token}`,
         "Content-Type": "application/json",
       },
       body: JSON.stringify({

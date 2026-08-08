@@ -1,0 +1,140 @@
+{
+  "campaign": "Houston high-impact public destinations",
+  "checkedAt": "2026-08-06",
+  "releaseStandard": {
+    "minimumParentImages": 4,
+    "minimumSubsites": 8,
+    "minimumParentQuestions": 11,
+    "minimumSubsiteQuestions": 9
+  },
+  "places": [
+    {
+      "id": "launch-tx-houston-memorial-park",
+      "name": "Memorial Park",
+      "operator": "City of Houston and Memorial Park Conservancy",
+      "source": "https://www.memorialparkconservancy.org/visit/",
+      "subsites": [
+        "Clay Family Eastern Glades",
+        "Cullen Running Trails Center",
+        "Seymour Lieberman Trail",
+        "Memorial Park Golf Course",
+        "Memorial Park Tennis Center",
+        "Houston Arboretum and Nature Center",
+        "Memorial Park Fitness Center",
+        "Land Bridge and Prairie"
+      ]
+    },
+    {
+      "id": "launch-tx-houston-hermann-park",
+      "name": "Hermann Park",
+      "operator": "City of Houston and Hermann Park Conservancy",
+      "source": "https://hermannpark.org/visit/",
+      "subsites": [
+        "The Commons Play Gardens",
+        "Molly Ann Smith Plaza splash pad",
+        "McGovern Centennial Gardens",
+        "Japanese Garden",
+        "McGovern Lake and pedal boats",
+        "Miller Outdoor Theatre",
+        "Hermann Park Railroad",
+        "McWilliams Dog Park"
+      ]
+    },
+    {
+      "id": "launch-tx-houston-buffalo-bayou-park",
+      "name": "Buffalo Bayou Park",
+      "operator": "City of Houston and Buffalo Bayou Partnership",
+      "source": "https://www.buffalobayou.org/location/buffalo-bayou-park/",
+      "subsites": [
+        "The Water Works and Cistern",
+        "Barbara Fish Daniel Nature Play Area",
+        "Johnny Steele Dog Park",
+        "Lost Lake",
+        "Eleanor Tinsley Park",
+        "Lee and Joe Jamail Skatepark",
+        "Waugh Bridge Bat Colony",
+        "Sandy Reed Memorial Trail"
+      ]
+    },
+    {
+      "id": "launch-tx-houston-discovery-green",
+      "name": "Discovery Green",
+      "operator": "Discovery Green Conservancy",
+      "source": "https://www.discoverygreen.com/visit/",
+      "subsites": [
+        "John P. McGovern Playground",
+        "Gateway Fountain",
+        "Kinder Lake",
+        "Kinder Large Dog Run",
+        "Harriet and Joe Foster Small Dog Run",
+        "Anheuser-Busch Stage and Fondren Performance Space",
+        "Synchronicity of Color",
+        "Hess Patio Deck"
+      ]
+    },
+    {
+      "id": "launch-tx-houston-levy-park",
+      "name": "Levy Park",
+      "operator": "Upper Kirby Redevelopment Authority",
+      "source": "https://www.levyparkhouston.org/visit/",
+      "subsites": [
+        "Levy Park Children's Park",
+        "Treehouse Overlook",
+        "Children's water feature",
+        "Levy Park Dog Park",
+        "Activity Lawn and game carts",
+        "Levy Park Reading Room",
+        "Levy Park Event Lawn",
+        "Pavilion and East Plaza"
+      ]
+    },
+    {
+      "id": "launch-tx-houston-emancipation-park",
+      "name": "Emancipation Park",
+      "operator": "City of Houston and Emancipation Park Conservancy",
+      "source": "https://epconservancy.org/visit/",
+      "subsites": [
+        "Emancipation Park Aquatics Center",
+        "Emancipation Park spraygrounds",
+        "Emancipation Park playground",
+        "Emancipation Park Cultural Center",
+        "Blessing Theater",
+        "Recreation Center and gymnasium",
+        "Emancipation Park baseball field",
+        "Emancipation Park tennis courts"
+      ]
+    },
+    {
+      "id": "launch-tx-houston-gerald-d-hines-waterwall-park",
+      "name": "Gerald D. Hines Waterwall Park",
+      "operator": "Uptown Houston",
+      "source": "https://uptown-houston.com/experience/parks/waterwall-park/",
+      "subsites": [
+        "Waterwall viewing arch",
+        "Waterwall mist zone",
+        "Live oak allée",
+        "Waterwall south lawn",
+        "Williams Tower pedestrian approach",
+        "Waterwall north lawn and picnic area",
+        "Westheimer Road pedestrian entrance",
+        "Post Oak Boulevard transit approach"
+      ]
+    },
+    {
+      "id": "launch-tx-houston-smither-park",
+      "name": "Smither Park",
+      "operator": "Orange Show Center for Visionary Art",
+      "source": "https://www.orangeshow.org/smither-park",
+      "subsites": [
+        "Lindley Fish Amphitheater",
+        "The Memory Wall",
+        "Vinson and Elkins Pavilion",
+        "Burguieres Hinton and Mathre Swings",
+        "Shell Plaza and Walkways",
+        "Oshman Meditation Wall",
+        "Johnson Marble Tower",
+        "Smither Park mosaic entry tunnel"
+      ]
+    }
+  ]
+}

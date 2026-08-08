@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-08-08",
+  "reviewMethod": "Exact named OpenStreetMap feature, official operator page, and a destination-specific licensed campaign photograph.",
+  "places": {
+    "launch-ms-jackson-lefleur-s-bluff-state-park": [
+      {
+        "name": "Mayes Lake",
+        "osm": "way/638368342",
+        "imageIndex": 2,
+        "sourceLabel": "Mississippi Department of Wildlife, Fisheries, and Parks",
+        "source": "https://www.mdwfp.com/parks-destinations/park/lefleurs-bluff-state-park",
+        "summary": "Mayes Lake is the fishing, non-motorized paddling, and electric-trolling-motor water destination inside LeFleur's Bluff State Park.",
+        "cost": "The state park lists general entrance at $2 per person, with children age five and under free; camping, rentals, reservations, and other activities can charge separately.",
+        "hours": "Lake access follows the state park's general day-use hours of 8:00 a.m.-5:00 p.m.; weather, high water, maintenance, and park closures override normal access.",
+        "needToKnow": "Navigate to the Lakeland Terrace state-park entrance, not the museum campus. Bring required fishing credentials, use only permitted watercraft and electric trolling motors, and do not treat the lake as a designated swimming beach."
+      }
+    ],
+    "launch-ar-little-rock-two-rivers-park": [
+      {
+        "name": "Two Rivers Park Bridge",
+        "osm": "way/122683681",
+        "imageIndex": 0,
+        "allowOutsideBoundary": true,
+        "boundaryExceptionReason": "The official park connection extends from the park-side approach across the Little Maumelle River beyond the mapped land polygon.",
+        "sourceLabel": "City of Little Rock Parks and Recreation",
+        "source": "https://www.littlerock.gov/!userfiles/editor/docs/parks/Trail%20Maps%2011%2013%2012_Two%20Rivers%20Park.pdf",
+        "summary": "Two Rivers Park Bridge is the 1,162-foot pedestrian and bicycle connection from River Mountain and the Arkansas River Trail into Two Rivers Park.",
+        "cost": "Bridge, trail, park, playground, and general parking access are free; organized events, permits, and rentals can charge separately.",
+        "hours": "Use the bridge only while the park and connecting trail are open and conditions are safe; flooding, severe weather, construction, or maintenance can interrupt through access.",
+        "needToKnow": "The bridge is exposed and adds distance before reaching the park's playground, pavilion, and fields. Check river and trail conditions, share the path predictably, carry water, and plan the return distance before crossing."
+      }
+    ]
+  },
+  "researchQueue": {
+    "launch-al-birmingham-railroad-park": "Four-photo parent gallery is ready; secure exact reusable photographs and reviewed pins for the Rail Trail, 17th Street Plaza, playgrounds, Powell Avenue Promenade, and West Green before publishing subsites.",
+    "launch-al-birmingham-red-mountain-park": "Parent guide has two exact photos; secure two more park-wide views plus destination-specific photo-and-pin pairs for the Sensory Trail, Remy's Dog Park, mine sites, treehouses, quarry, and overlooks.",
+    "launch-al-birmingham-ruffner-mountain": "Four-photo parent gallery is ready; secure exact mapped pins and destination-specific photographs for the Nature Center, quarry, Quarry Overlook, Cambrian Overlook, eastern trailhead, and pavilion.",
+    "launch-ms-jackson-lefleur-s-bluff-state-park": "Add subsites after exact reusable photographs are secured for the playground complex, Museum of Natural Science, disc golf, boat launch, campground, pavilions, and nature-trail gateways.",
+    "launch-ms-jackson-parham-bridges-park": "Deferred: indexed tennis-player images do not prove the park destination, and the official website image lacks a documented reuse license. Seek permission-cleared park, playground, trail, and tennis-center photography.",
+    "launch-ar-little-rock-riverfront-park": "Deferred: current images depict North Little Rock's separate riverfront. Secure licensed south-bank photos of Peabody Playground, splash pads, sculpture garden, Junction Bridge approach, La Petite Roche, and pavilions.",
+    "launch-ar-little-rock-two-rivers-park": "Bridge photo is exact; secure broader park, playground, pavilion, community-garden, river-confluence, and trail photographs to replace ecology close-ups with stronger visitor context.",
+    "launch-sc-columbia-riverfront-park": "Deferred: available reusable photos document 2015 flood response rather than ordinary visits. Seek current licensed photos of the open Laurel Street section, canal trail, overlook, lawn, and fitness area.",
+    "launch-sc-columbia-finlay-park": "Deferred: available reusable photos predate the major rebuild and would misrepresent the current park. Seek current permission-cleared images of Cola Summit, splash pad, Landing, Fountain Falls, Oval, gardens, and overlooks."
+  }
+}

@@ -1,0 +1,411 @@
+{
+  "checkedAt": "2026-08-06",
+  "places": {
+    "launch-va-richmond-james-river-park-system": {
+      "belle-isle": {
+        "latitude": 37.5291967,
+        "longitude": -77.452844,
+        "displayName": "Belle Isle, Richmond, Virginia, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "pony-pasture-rapids": {
+        "latitude": 37.552653,
+        "longitude": -77.5219536,
+        "displayName": "Pony Pasture, Richmond, Virginia, 23173, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "reedy-creek-trailhead": {
+        "latitude": 37.523048,
+        "longitude": -77.4703757,
+        "displayName": "Reviewed placement",
+        "source": "AuditMap reviewed public-map placement"
+      },
+      "texas-beach": {
+        "latitude": 37.532671,
+        "longitude": -77.4805658,
+        "displayName": "JRPS Texas Beach Park, Richmond, Virginia, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "pipeline-walkway": {
+        "latitude": 37.5328704,
+        "longitude": -77.4383416,
+        "displayName": "Reviewed placement",
+        "source": "AuditMap reviewed public-map placement"
+      },
+      "huguenot-flatwater": {
+        "latitude": 37.558348,
+        "longitude": -77.5417903,
+        "displayName": "Huguenot Flatwater, Riverside Drive, Oxford on the James, Richmond, Virginia, 23173, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "pump-house-park": {
+        "latitude": 37.5376598,
+        "longitude": -77.4881836,
+        "displayName": "Pump House Park, Richmond, Virginia, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "richmond-floodwall-walk": {
+        "latitude": 37.5268315,
+        "longitude": -77.4379468,
+        "displayName": "Reviewed placement",
+        "source": "AuditMap reviewed public-map placement"
+      }
+    },
+    "launch-va-richmond-maymont": {
+      "maymont-mansion": {
+        "latitude": 37.5344386,
+        "longitude": -77.478257,
+        "displayName": "Maymont Mansion, North Bank Trail, Maymont, Richmond, Virginia, 23220, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "italian-garden": {
+        "latitude": 37.5337105,
+        "longitude": -77.4766264,
+        "displayName": "Italian Garden, Richmond, Virginia, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "japanese-garden": {
+        "latitude": 37.5325644,
+        "longitude": -77.4762475,
+        "displayName": "Japanese Garden, Richmond, Virginia, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "robins-nature-center": {
+        "latitude": 37.5374629,
+        "longitude": -77.4755358,
+        "displayName": "Robins Nature and Visitor Center, Lake Road, Maymont, Richmond, Virginia, 23220, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "maymont-farm": {
+        "latitude": 37.5375718,
+        "longitude": -77.4800277,
+        "displayName": "Maymont Farm, Park Drive, Richmond, Virginia, 23221, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "maymont-wildlife-habitats": {
+        "latitude": 37.533455527778486,
+        "longitude": -77.47504447222153,
+        "displayName": "Approximate position within Maymont",
+        "source": "AuditMap official-map placement"
+      },
+      "stone-barn": {
+        "latitude": 37.53397,
+        "longitude": -77.4753814,
+        "displayName": "Stone Barn, Hampton Street, Maymont, Richmond, Virginia, 23220, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "maymont-cascade-and-grotto": {
+        "latitude": 37.534431335136524,
+        "longitude": -77.47493133513653,
+        "displayName": "Approximate position within Maymont",
+        "source": "AuditMap official-map placement"
+      }
+    },
+    "launch-va-richmond-byrd-park": {
+      "fountain-lake": {
+        "latitude": 37.5467837,
+        "longitude": -77.4744842,
+        "displayName": "Fountain Lake Condominiums, Richmond, Virginia, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "swan-lake": {
+        "latitude": 37.5423258,
+        "longitude": -77.4734776,
+        "displayName": "Swan Lake, Richmond, Virginia, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "shields-lake": {
+        "latitude": 37.5397217,
+        "longitude": -77.4752043,
+        "displayName": "Shields Lake, Richmond, Virginia, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "dogwood-dell-amphitheater": {
+        "latitude": 37.5406111,
+        "longitude": -77.4826258,
+        "displayName": "Dogwood Dell Amphitheater, Dogwood Dell bike trail, Richmond, Virginia, 23221, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "barker-field-dog-park": {
+        "latitude": 37.5391144,
+        "longitude": -77.4820449,
+        "displayName": "Reviewed placement",
+        "source": "AuditMap reviewed public-map placement"
+      },
+      "byrd-park-round-house": {
+        "latitude": 37.548655527778486,
+        "longitude": -77.47454447222152,
+        "displayName": "Approximate position within Byrd Park",
+        "source": "AuditMap official-map placement"
+      },
+      "byrd-park-vita-course": {
+        "latitude": 37.5492,
+        "longitude": -77.47445,
+        "displayName": "Approximate position within Byrd Park",
+        "source": "AuditMap official-map placement"
+      },
+      "byrd-park-playground": {
+        "latitude": 37.549631335136525,
+        "longitude": -77.47443133513653,
+        "displayName": "Approximate position within Byrd Park",
+        "source": "AuditMap official-map placement"
+      }
+    },
+    "launch-va-richmond-forest-hill-park": {
+      "forest-hill-park-lake": {
+        "latitude": 37.5191961,
+        "longitude": -77.47214,
+        "displayName": "Forest Hill Park Lake, Richmond, Virginia, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "forest-hill-stone-house": {
+        "latitude": 37.520131335136526,
+        "longitude": -77.47636866486347,
+        "displayName": "Approximate position within Forest Hill Park",
+        "source": "AuditMap official-map placement"
+      },
+      "forest-hill-playground": {
+        "latitude": 37.5197,
+        "longitude": -77.47603,
+        "displayName": "Approximate position within Forest Hill Park",
+        "source": "AuditMap official-map placement"
+      },
+      "forest-hill-pickleball-courts": {
+        "latitude": 37.51938180194847,
+        "longitude": -77.47648180194847,
+        "displayName": "Approximate position within Forest Hill Park",
+        "source": "AuditMap official-map placement"
+      },
+      "south-of-the-james-farmers-market": {
+        "latitude": 37.5208409,
+        "longitude": -77.4733259,
+        "displayName": "South of the James Farmers Market, 4021, Forest Hill Avenue, Forest Hill Terrace, Richmond, Virginia, 23225, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "forest-hill-mountain-bike-trails": {
+        "latitude": 37.51915552777849,
+        "longitude": -77.47734447222152,
+        "displayName": "Approximate position within Forest Hill Park",
+        "source": "AuditMap official-map placement"
+      },
+      "reedy-creek": {
+        "latitude": 37.5151391,
+        "longitude": -77.4759212,
+        "displayName": "Reedy Creek, Richmond, Virginia, 23224, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "forest-hill-picnic-shelter": {
+        "latitude": 37.520131335136526,
+        "longitude": -77.47723133513652,
+        "displayName": "Approximate position within Forest Hill Park",
+        "source": "AuditMap official-map placement"
+      }
+    },
+    "launch-va-richmond-libby-hill-park": {
+      "libby-hill-overlook": {
+        "latitude": 37.52925,
+        "longitude": -77.4187,
+        "displayName": "Approximate position within Libby Hill Park",
+        "source": "AuditMap official-map placement"
+      },
+      "libby-hill-monument": {
+        "latitude": 37.52923133513652,
+        "longitude": -77.41826866486348,
+        "displayName": "Approximate position within Libby Hill Park",
+        "source": "AuditMap official-map placement"
+      },
+      "libby-hill-fountain": {
+        "latitude": 37.5263735,
+        "longitude": -77.4175124,
+        "displayName": "Libby Hill Fountain, Church Hill, East End, Richmond, Virginia, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "libby-hill-playground": {
+        "latitude": 37.528481801948466,
+        "longitude": -77.41838180194847,
+        "displayName": "Approximate position within Libby Hill Park",
+        "source": "AuditMap official-map placement"
+      },
+      "libby-hill-park-house": {
+        "latitude": 37.5280477,
+        "longitude": -77.4179393,
+        "displayName": "Libby Hill Park House, Mongo's Way, Church Hill, East End, Richmond, Virginia, 23298, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "libby-terrace": {
+        "latitude": 37.5263298,
+        "longitude": -77.4168674,
+        "displayName": "Libby Terrace, Church Hill, East End, Richmond, Virginia, 23298, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "libby-hill-steps": {
+        "latitude": 37.5288,
+        "longitude": -77.41915,
+        "displayName": "Approximate position within Libby Hill Park",
+        "source": "AuditMap official-map placement"
+      },
+      "libby-hill-nature-walk": {
+        "latitude": 37.52923133513652,
+        "longitude": -77.41913133513653,
+        "displayName": "Approximate position within Libby Hill Park",
+        "source": "AuditMap official-map placement"
+      }
+    },
+    "launch-va-richmond-virginia-museum-of-fine-arts": {
+      "e-claiborne-and-lora-robins-sculpture-garden": {
+        "latitude": 37.5567287,
+        "longitude": -77.4755027,
+        "displayName": "Reviewed placement",
+        "source": "AuditMap reviewed public-map placement"
+      },
+      "vmfa-main-entrance": {
+        "latitude": 37.5560585,
+        "longitude": -77.4748952,
+        "displayName": "Reviewed placement",
+        "source": "AuditMap reviewed public-map placement"
+      },
+      "vmfa-parking-garage": {
+        "latitude": 37.5781,
+        "longitude": -77.47363,
+        "displayName": "Approximate position within Virginia Museum of Fine Arts",
+        "source": "AuditMap official-map placement"
+      },
+      "best-cafe": {
+        "latitude": 37.556533,
+        "longitude": -77.4751764,
+        "displayName": "Best Café, 200, North Arthur Ashe Boulevard, Museum District, Richmond, Virginia, 23220, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "amuse-restaurant": {
+        "latitude": 37.556592,
+        "longitude": -77.4751383,
+        "displayName": "Amuse, 200, North Arthur Ashe Boulevard, Museum District, Richmond, Virginia, 23220, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "cochrane-court": {
+        "latitude": 37.577555527778486,
+        "longitude": -77.47494447222152,
+        "displayName": "Approximate position within Virginia Museum of Fine Arts",
+        "source": "AuditMap official-map placement"
+      },
+      "vmfa-art-education-center": {
+        "latitude": 37.5781,
+        "longitude": -77.47485,
+        "displayName": "Approximate position within Virginia Museum of Fine Arts",
+        "source": "AuditMap official-map placement"
+      },
+      "pauley-center": {
+        "latitude": 37.5568555,
+        "longitude": -77.4760095,
+        "displayName": "Pauley Center, 301, North Sheppard Street, Museum District, Richmond, Virginia, 23221, United States",
+        "source": "OpenStreetMap Nominatim"
+      }
+    },
+    "launch-va-richmond-richmond-national-battlefield-park": {
+      "chimborazo-medical-museum": {
+        "latitude": 37.5268268,
+        "longitude": -77.4121995,
+        "displayName": "Chimborazo Medical Museum, 3215, East Broad Street, Chimborazo, Church Hill, East End, Richmond, Virginia, 23223, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "cold-harbor-battlefield": {
+        "latitude": 37.5853511,
+        "longitude": -77.2868682,
+        "displayName": "Reviewed placement",
+        "source": "AuditMap reviewed public-map placement"
+      },
+      "gaines-mill-battlefield": {
+        "latitude": 37.5736632,
+        "longitude": -77.2906178,
+        "displayName": "Reviewed placement",
+        "source": "AuditMap reviewed public-map placement"
+      },
+      "malvern-hill-battlefield": {
+        "latitude": 37.4130505,
+        "longitude": -77.25019,
+        "displayName": "Reviewed placement",
+        "source": "AuditMap reviewed public-map placement"
+      },
+      "fort-harrison-battlefield": {
+        "latitude": 37.4281539,
+        "longitude": -77.3722744,
+        "displayName": "Reviewed placement",
+        "source": "AuditMap reviewed public-map placement"
+      },
+      "glendale-battlefield": {
+        "latitude": 37.4445991,
+        "longitude": -77.2410365,
+        "displayName": "Reviewed placement",
+        "source": "AuditMap reviewed public-map placement"
+      },
+      "beaver-dam-creek-battlefield": {
+        "latitude": 37.5961817,
+        "longitude": -77.3591545,
+        "displayName": "Reviewed placement",
+        "source": "AuditMap reviewed public-map placement"
+      },
+      "totopotomoy-creek-battlefield": {
+        "latitude": 37.6578961,
+        "longitude": -77.2671093,
+        "displayName": "Reviewed placement",
+        "source": "AuditMap reviewed public-map placement"
+      }
+    },
+    "launch-va-richmond-brown-s-island": {
+      "t-tyler-potterfield-memorial-bridge": {
+        "latitude": 37.5319149,
+        "longitude": -77.4452247,
+        "displayName": "T. Tyler Potterfield Memorial Bridge, Manchester, Richmond, Virginia, 23284, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "richmond-canal-walk": {
+        "latitude": 37.5329443,
+        "longitude": -77.4325184,
+        "displayName": "Reviewed placement",
+        "source": "AuditMap reviewed public-map placement"
+      },
+      "tredegar-iron-works": {
+        "latitude": 37.5353721,
+        "longitude": -77.4458134,
+        "displayName": "Tredegar Iron Works, Tredegar Street, Oregon Hill, Richmond, Virginia, 23284, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "american-civil-war-museum": {
+        "latitude": 37.5356232,
+        "longitude": -77.4454836,
+        "displayName": "American Civil War Museum, 480, Tredegar Street, Oregon Hill, Richmond, Virginia, 23219, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "virginia-dr-martin-luther-king-jr-memorial-commission-emancipation-and-freedom-monument": {
+        "latitude": 37.533789999999996,
+        "longitude": -77.4467,
+        "displayName": "Approximate position within Brown's Island",
+        "source": "AuditMap official-map placement"
+      },
+      "brown-s-island-dam-walk": {
+        "latitude": 37.5344396,
+        "longitude": -77.4438865,
+        "displayName": "Brown's Island Helipad, T. Tyler Potterfield Memorial Bridge, Manchester, Richmond, Virginia, 23284, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "kanawha-canal": {
+        "latitude": 37.5542708,
+        "longitude": -77.5155585,
+        "displayName": "Kanawha Canal, Richmond, Henrico County, Virginia, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "brown-s-island-event-lawn": {
+        "latitude": 37.53483133513652,
+        "longitude": -77.44713133513653,
+        "displayName": "Approximate position within Brown's Island",
+        "source": "AuditMap official-map placement"
+      },
+      "browns-island-event-lawn": {
+        "latitude": 37.5340225,
+        "longitude": -77.4423412,
+        "displayName": "Reviewed placement",
+        "source": "AuditMap reviewed public-map placement"
+      }
+    }
+  }
+}

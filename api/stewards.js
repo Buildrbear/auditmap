@@ -1,7 +1,24 @@
 const { databaseReady, supabaseRequest } = require("./_lib/supabase");
+const {
+  assertSameOrigin,
+  enforceRateLimit,
+  requestFingerprint,
+  requireFeature,
+} = require("./_lib/abuse-controls");
 
 function cleanText(value, maxLength) {
   return String(value || "").trim().slice(0, maxLength);
+}
+
+function cleanHttpUrl(value) {
+  const candidate = cleanText(value, 1000);
+  if (!candidate) return null;
+  try {
+    const url = new URL(candidate);
+    return ["http:", "https:"].includes(url.protocol) ? url.toString() : null;
+  } catch {
+    return null;
+  }
 }
 
 async function findInstitution(publicId) {
@@ -20,6 +37,20 @@ module.exports = async function handler(request, response) {
   }
   if (!databaseReady()) {
     response.status(503).json({ error: "Shared database not configured." });
+    return;
+  }
+
+  try {
+    assertSameOrigin(request);
+    requireFeature("COMMUNITY_WRITES_ENABLED", "Steward applications are briefly paused.");
+    enforceRateLimit(request, response, {
+      name: "steward-application",
+      subject: requestFingerprint(request, "steward-application"),
+      limit: 3,
+      windowMs: 24 * 60 * 60 * 1000,
+    });
+  } catch (error) {
+    response.status(error.status || 403).json({ error: error.message, code: error.code });
     return;
   }
 
@@ -50,7 +81,7 @@ module.exports = async function handler(request, response) {
         applicant_name: name,
         relationship,
         message,
-        verification_url: cleanText(body.sourceUrl, 1000) || null,
+        verification_url: cleanHttpUrl(body.sourceUrl),
         status: "pending",
       }),
     });

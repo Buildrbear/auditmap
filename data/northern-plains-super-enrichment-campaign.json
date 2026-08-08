@@ -1,0 +1,103 @@
+{
+  "campaign": "Northern Plains city connector",
+  "checkedAt": "2026-08-08",
+  "releaseStandard": "Three to four licensed destination-specific photos, preserved official visitor answers, full street addresses, and only named subsites with reviewed coordinates plus destination-specific photography.",
+  "places": [
+    {
+      "id": "launch-mt-billings-riverfront-park",
+      "name": "Riverfront Park",
+      "city": "Billings",
+      "state": "MT",
+      "citySlug": "billings-mt",
+      "operator": "Billings Parks, Recreation and Public Lands",
+      "source": "https://www.billingsparks.org/parks-trails/",
+      "deferRelease": true,
+      "deferReason": "The reusable search pool is dominated by wildlife close-ups and unrelated Oregon river images. Current representative photographs of the lakes, trails, picnic areas, and Yellowstone River access are required before release.",
+      "featureResearchRadiusMeters": 4200,
+      "imageQueries": ["Riverfront Park Billings Montana", "Lake Josephine Billings Riverfront Park", "Riverfront Park Billings trail", "Riverfront Park Billings Yellowstone River"],
+      "subsites": ["Lake Josephine", "Lake Cochran", "Yellowstone River Access", "Dutcher Trail", "Norm's Island Connection", "Riverfront Park Playground", "Riverfront Park Shelters"]
+    },
+    {
+      "id": "launch-mt-billings-swords-park",
+      "name": "Swords Park",
+      "city": "Billings",
+      "state": "MT",
+      "citySlug": "billings-mt",
+      "operator": "Billings Parks, Recreation and Public Lands",
+      "source": "https://www.billingsparks.org/location/swords/",
+      "deferRelease": true,
+      "deferReason": "Only two reusable files show the actual trail and overlook; the remaining pool consists of park signs and Yellowstone Kelly interpretive-panel close-ups rather than representative destination photography.",
+      "minimumImages": 4,
+      "featureResearchRadiusMeters": 1400,
+      "imageQueries": ["Swords Park Billings Montana", "Swords Park Rimrocks trail", "Boothill Cemetery Billings Swords Park", "Black Otter Trail Billings"],
+      "subsites": ["Rimrocks Overlook", "Boothill Cemetery", "Black Otter Trail", "Swords Park Trail", "Picnic Area", "Restrooms"]
+    },
+    {
+      "id": "launch-wy-cheyenne-lions-park",
+      "name": "Lions Park",
+      "city": "Cheyenne",
+      "state": "WY",
+      "citySlug": "cheyenne-wy",
+      "operator": "City of Cheyenne Community Recreation and Events",
+      "source": "https://www.cheyennecity.org/Your-Government/Departments/City-Treasurer/Grants/South-Lions-Park",
+      "deferRelease": true,
+      "deferReason": "The reusable pool depicts only close-up Botanic Gardens details and does not represent Sloan's Lake, playgrounds, spray park, aquatic center, fields, shelters, or the larger Lions Park visit.",
+      "minimumImages": 4,
+      "featureResearchRadiusMeters": 2000,
+      "imageQueries": ["Lions Park Cheyenne Wyoming", "Sloan's Lake Cheyenne", "Cheyenne Botanic Gardens", "Paul Smith Children's Village Cheyenne"],
+      "subsites": ["Sloan's Lake", "Cheyenne Botanic Gardens", "Paul Smith Children's Village", "Cheyenne Aquatic Center", "Lions Park Spray Park", "Dunbar Field", "Lions Park Playground", "Lions Park Beach"]
+    },
+    {
+      "id": "launch-nd-fargo-lindenwood-park",
+      "name": "Lindenwood Park",
+      "city": "Fargo",
+      "state": "ND",
+      "citySlug": "fargo-nd",
+      "operator": "Fargo Park District",
+      "source": "https://www.fargoparks.com/parks-and-facilities/lindenwood-park",
+      "minimumImages": 4,
+      "featureResearchRadiusMeters": 2000,
+      "imageQueries": ["Lindenwood Park Fargo", "Lindenwood Park universal playground", "Lindenwood Park Red River bridge", "Lindenwood Park campground"],
+      "subsites": ["Lindenwood Universal Playground", "Adaptive Kayak Launch", "Red River Boat Ramp", "Gooseberry Park Pedestrian Bridge", "Lindenwood Campground", "Lindenwood Shelter", "Recreation Trail"]
+    },
+    {
+      "id": "launch-nd-fargo-island-park",
+      "name": "Island Park",
+      "city": "Fargo",
+      "state": "ND",
+      "citySlug": "fargo-nd",
+      "operator": "Fargo Park District",
+      "source": "https://www.fargoparks.com/parks-and-facilities/island-park",
+      "minimumImages": 4,
+      "featureResearchRadiusMeters": 1600,
+      "imageQueries": ["Island Park Fargo North Dakota", "Island Park Pool Fargo", "Island Park playground Fargo", "Island Park Fargo gazebo"],
+      "subsites": ["Island Park Pool", "Island Park Playground", "Island Park Gazebo", "Henrik Wergeland Statue", "Island Park Tennis Courts", "Island Park Basketball Courts"]
+    },
+    {
+      "id": "launch-sd-sioux-falls-falls-park",
+      "name": "Falls Park",
+      "city": "Sioux Falls",
+      "state": "SD",
+      "citySlug": "sioux-falls-sd",
+      "operator": "City of Sioux Falls Parks and Recreation",
+      "source": "https://www.siouxfalls.gov/activities-recreation/parks-trails/directory/parks/falls",
+      "minimumImages": 4,
+      "featureResearchRadiusMeters": 1400,
+      "imageQueries": ["Falls Park Sioux Falls South Dakota", "Falls Park Visitor Center tower", "Queen Bee Mill Falls Park", "Falls Overlook Cafe Sioux Falls"],
+      "subsites": ["Falls Park Visitor Information Center", "Observation Tower", "Main Falls Overlook", "Queen Bee Mill Ruins", "Falls Overlook Cafe", "Stockyards Ag Experience", "Falls Park Farmers Market", "Big Sioux River Recreation Trail"]
+    },
+    {
+      "id": "launch-sd-sioux-falls-terrace-park",
+      "name": "Terrace Park",
+      "city": "Sioux Falls",
+      "state": "SD",
+      "citySlug": "sioux-falls-sd",
+      "operator": "City of Sioux Falls Parks and Recreation",
+      "source": "https://www.siouxfalls.gov/activities-recreation/parks-trails/directory",
+      "minimumImages": 4,
+      "featureResearchRadiusMeters": 1200,
+      "imageQueries": ["Terrace Park Sioux Falls", "Japanese Garden Terrace Park Sioux Falls", "Covell Lake Sioux Falls", "Terrace Park Family Aquatic Center"],
+      "subsites": ["Japanese Garden", "Covell Lake", "Terrace Park Family Aquatic Center", "Terrace Park Playground", "Terrace Park Bandshell", "Wedding Garden", "Terrace Park Shelters"]
+    }
+  ]
+}

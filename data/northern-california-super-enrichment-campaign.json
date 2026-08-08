@@ -1,0 +1,61 @@
+{
+  "campaign": "Northern California connector",
+  "checkedAt": "2026-08-08",
+  "releaseStandard": "Four licensed destination-specific photos, preserved official visitor answers, and only named or clearly mapped subsites with reviewed coordinate provenance.",
+  "places": [
+    {
+      "id": "launch-ca-oakland-lake-merritt", "name": "Lake Merritt", "city": "Oakland", "state": "CA", "citySlug": "oakland-ca",
+      "operator": "City of Oakland", "source": "https://www.oaklandca.gov/Community/Parks-Facilities/Parks/Lakeside-Park", "featureResearchRadiusMeters": 1800,
+      "imageQueries": ["Lake Merritt Oakland", "Gardens at Lake Merritt", "Lake Merritt boating center"],
+      "subsites": ["Gardens at Lake Merritt", "Bonsai Garden at Lake Merritt", "Japanese Garden and Koi Pond", "Edoff Memorial Bandstand", "Rotary Nature Center", "Lake Merritt Boating Center", "Lake Merritt Sailboat House", "Lake Merritt Wildlife Sanctuary"]
+    },
+    {
+      "id": "launch-ca-oakland-joaquin-miller-park", "name": "Joaquin Miller Park", "city": "Oakland", "state": "CA", "citySlug": "oakland-ca",
+      "operator": "City of Oakland", "source": "https://www.oaklandca.gov/Community/Parks-Facilities/Parks/Joaquin-Miller-Park", "featureResearchRadiusMeters": 1800,
+      "imageQueries": ["Joaquin Miller Park Oakland redwoods", "Woodminster Amphitheater", "Joaquin Miller Park trails"],
+      "subsites": ["Woodminster Amphitheater", "Woodminster Cascade", "Joaquin Miller Ranger Station", "Joaquin Miller Dog Park", "Palos Colorados Trail", "Sequoia Bayview Trail", "Cinderella Trail", "Joaquin Miller Park Meadow"]
+    },
+    {
+      "id": "launch-ca-oakland-redwood-regional-park", "name": "Redwood Regional Park", "city": "Oakland", "state": "CA", "citySlug": "oakland-ca",
+      "operator": "East Bay Regional Park District", "source": "https://www.ebparks.org/parks/reinhardt-redwood", "featureResearchRadiusMeters": 3200,
+      "imageQueries": ["Reinhardt Redwood Regional Park", "Redwood Regional Park Stream Trail", "Redwood Regional Park Canyon Meadow"],
+      "subsites": ["Redwood Gate", "Canyon Meadow Staging Area", "Stream Trail Play Structure", "Skyline Gate", "Old Church Picnic Area", "Owl Picnic Area", "Redwood Creek Fishway", "French Trail"]
+    },
+    {
+      "id": "launch-ca-san-jose-alum-rock-park", "name": "Alum Rock Park", "city": "San Jose", "state": "CA", "citySlug": "san-jose-ca",
+      "operator": "City of San Jose", "source": "https://www.sanjoseca.gov/Home/Components/FacilityDirectory/FacilityDirectory/2088/2058", "featureResearchRadiusMeters": 3500,
+      "imageQueries": ["Alum Rock Park San Jose", "Alum Rock Park Penitencia Creek Trail", "Alum Rock Park mineral springs"],
+      "subsites": ["Alum Rock Park Visitor Center", "Youth Science Institute", "Alum Rock Park Playground", "Penitencia Creek Trail", "Eagle Rock Picnic Area", "Mineral Springs Grotto", "Rustic Lands Picnic Area", "Sycamore Grove Picnic Area"]
+    },
+    {
+      "id": "launch-ca-san-jose-kelley-park", "name": "Kelley Park", "city": "San Jose", "state": "CA", "citySlug": "san-jose-ca",
+      "operator": "City of San Jose", "source": "https://www.sanjoseca.gov/home/components/facilitydirectory/facilitydirectory/2245/2028", "featureResearchRadiusMeters": 1400,
+      "imageQueries": ["Kelley Park San Jose", "Japanese Friendship Garden San Jose", "History Park San Jose"],
+      "subsites": ["Happy Hollow Park and Zoo", "Japanese Friendship Garden", "History Park", "Leininger Center", "Kelley Park Disc Golf Course", "Vietnamese Heritage Garden", "Kelley Park Picnic Area 1", "Kelley Park Picnic Area 2"]
+    },
+    {
+      "id": "launch-ca-san-jose-guadalupe-river-park", "name": "Guadalupe River Park", "city": "San Jose", "state": "CA", "citySlug": "san-jose-ca",
+      "operator": "City of San Jose", "source": "https://www.sanjoseca.gov/Home/Components/FacilityDirectory/FacilityDirectory/2218/2028", "featureResearchRadiusMeters": 2600,
+      "imageQueries": ["Guadalupe River Park San Jose", "Rotary PlayGarden San Jose", "Heritage Rose Garden San Jose"],
+      "subsites": ["Rotary PlayGarden", "Heritage Rose Garden", "Historic Orchard", "Guadalupe River Park Visitor Center", "Arena Green", "Discovery Meadow", "Guadalupe River Trail", "Guadalupe River Confluence"]
+    },
+    {
+      "id": "launch-ca-sacramento-william-land-regional-park", "name": "William Land Regional Park", "city": "Sacramento", "state": "CA", "citySlug": "sacramento-ca",
+      "operator": "City of Sacramento", "source": "https://www.cityofsacramento.gov/ypce/parks/park-directory/w-x/william-land-regional-park", "featureResearchRadiusMeters": 1400,
+      "imageQueries": ["William Land Park Sacramento", "William Land Park Rock Garden", "William Land Park wading pool"],
+      "subsites": ["Sacramento Zoo", "Fairytale Town", "Funderland Amusement Park", "William Land Park Adventure Play Area", "William Land Park Wading Pool", "WPA Rock Garden", "William A. Carroll Amphitheater", "William Land Park Village Green"]
+    },
+    {
+      "id": "launch-ca-sacramento-discovery-park", "name": "Discovery Park", "city": "Sacramento", "state": "CA", "citySlug": "sacramento-ca",
+      "operator": "Sacramento County Regional Parks", "source": "https://regionalparks.saccounty.gov/us/en/parks/american-river-parkway/discovery-park.html", "featureResearchRadiusMeters": 1800,
+      "imageQueries": ["Discovery Park Sacramento confluence", "Discovery Park Sacramento river", "Discovery Park Sacramento boat ramp"],
+      "subsites": ["American and Sacramento Rivers Confluence", "Discovery Park Boat Ramp", "Discovery Park Archery Range", "Jedediah Smith Memorial Trail", "Alder Picnic Area", "Redbud Picnic Area", "Sycamore Picnic Area", "Discovery Park Life Jacket Station"]
+    },
+    {
+      "id": "launch-ca-sacramento-capitol-park", "name": "Capitol Park", "city": "Sacramento", "state": "CA", "citySlug": "sacramento-ca",
+      "operator": "California State Capitol Museum", "source": "https://capitolmuseum.ca.gov/experiences/tours/capitol-park-tours/", "featureResearchRadiusMeters": 800,
+      "imageQueries": ["California Capitol Park Sacramento", "World Peace Rose Garden Sacramento", "Capitol Park Sacramento memorial"],
+      "subsites": ["World Peace Rose Garden", "California Veterans Memorial", "Vietnam Veterans Memorial", "California Firefighters Memorial", "Civil War Memorial Grove", "Capitol Park Tour Meeting Point", "Capitol Park Camellia Grove", "California State Capitol Museum"]
+    }
+  ]
+}

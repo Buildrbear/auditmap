@@ -1,0 +1,5017 @@
+{
+  "campaign": "Upper Midwest lake corridor",
+  "checkedAt": "2026-08-08",
+  "places": {
+    "launch-wi-milwaukee-lake-park": {
+      "name": "Lake Park",
+      "boundarySource": "https://www.openstreetmap.org/relation/6044259",
+      "candidates": [
+        {
+          "name": "Eight Stone Lions",
+          "latitude": 43.0654826,
+          "longitude": -87.8707213,
+          "osmType": "node",
+          "osmId": 4060324954,
+          "sourceUrl": "https://www.openstreetmap.org/node/4060324954",
+          "tags": {
+            "artist_name": "Paul Kupper",
+            "artwork_type": "sculpture",
+            "material": "sandstone",
+            "name": "Eight Stone Lions",
+            "start_date": "1897",
+            "tourism": "artwork",
+            "wikidata": "Q5349019",
+            "wikipedia": "en:Eight Stone Lions"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "On Land and On Water",
+          "latitude": 43.0706374,
+          "longitude": -87.8678186,
+          "osmType": "node",
+          "osmId": 4067090338,
+          "sourceUrl": "https://www.openstreetmap.org/node/4067090338",
+          "tags": {
+            "historic": "memorial",
+            "inscription": "IN MEMORIAM/ TO OUR HEROES OF THE WORLD WAR/ WHO DIED/ ON LAND AND ON WATER/ THESE TREES WERE DEDICATED BY THE/ MILWAUKEE COUNTY CHAPTER OF/ AMERICAN WAR MOTHERS/ MAY 20, 1921",
+            "memorial": "plaque",
+            "name": "On Land and On Water",
+            "source": "http://lakeparkfriends.com/explore/war_mothers1921.shtml",
+            "start_date": "1921"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Picnic Area 4",
+          "latitude": 43.0704179,
+          "longitude": -87.869195,
+          "osmType": "node",
+          "osmId": 4067090339,
+          "sourceUrl": "https://www.openstreetmap.org/node/4067090339",
+          "tags": {
+            "information": "guidepost",
+            "name": "Picnic Area 4",
+            "tourism": "information"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Lake Park Mound",
+          "latitude": 43.0705919,
+          "longitude": -87.8712215,
+          "osmType": "node",
+          "osmId": 4067090340,
+          "sourceUrl": "https://www.openstreetmap.org/node/4067090340",
+          "tags": {
+            "archaeological_site": "tumulus",
+            "historic": "archaeological_site",
+            "name": "Lake Park Mound"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Picnic Area 3",
+          "latitude": 43.0734902,
+          "longitude": -87.8696985,
+          "osmType": "node",
+          "osmId": 4067298140,
+          "sourceUrl": "https://www.openstreetmap.org/node/4067298140",
+          "tags": {
+            "information": "guidepost",
+            "name": "Picnic Area 3",
+            "tourism": "information"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Picnic Area 6",
+          "latitude": 43.0730028,
+          "longitude": -87.8696093,
+          "osmType": "node",
+          "osmId": 4067298141,
+          "sourceUrl": "https://www.openstreetmap.org/node/4067298141",
+          "tags": {
+            "information": "guidepost",
+            "name": "Picnic Area 6",
+            "tourism": "information"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Mary E. Spence Memorial",
+          "latitude": 43.0731835,
+          "longitude": -87.8683388,
+          "osmType": "node",
+          "osmId": 4067843537,
+          "sourceUrl": "https://www.openstreetmap.org/node/4067843537",
+          "tags": {
+            "historic": "memorial",
+            "inscription": "DEDICATED TO/ THE MEMORY OF/ MARY E. SPENCE/ PAST NATIONAL PRESIDENT/ THE AMERICAN WAR MOTHERS/ THE MILWAUKEE CHAPTER/ GEN. PERSHING CHAPTER/ KOSCIUSZKO CHAPTER/ 1932",
+            "memorial": "plaque",
+            "name": "Mary E. Spence Memorial",
+            "source": "http://lakeparkfriends.com/explore/war_mothers1932.shtml",
+            "start_date": "1932"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "National Register Plaque",
+          "latitude": 43.0739731,
+          "longitude": -87.8715601,
+          "osmType": "node",
+          "osmId": 4067843538,
+          "sourceUrl": "https://www.openstreetmap.org/node/4067843538",
+          "tags": {
+            "information": "board",
+            "name": "National Register Plaque",
+            "source": "http://lakeparkfriends.com/explore/national_register.shtml",
+            "start_date": "1993",
+            "tourism": "information"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Picnic Area 2",
+          "latitude": 43.072817,
+          "longitude": -87.8698022,
+          "osmType": "node",
+          "osmId": 4067843539,
+          "sourceUrl": "https://www.openstreetmap.org/node/4067843539",
+          "tags": {
+            "information": "guidepost",
+            "name": "Picnic Area 2",
+            "tourism": "information"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "North Point Light Station",
+          "latitude": 43.0654763,
+          "longitude": -87.8709191,
+          "osmType": "node",
+          "osmId": 9862062878,
+          "sourceUrl": "https://www.openstreetmap.org/node/9862062878",
+          "tags": {
+            "direction": "125",
+            "historic": "memorial",
+            "image": "https://www.hmdb.org/PhotoFullSize.asp?PhotoID=177314",
+            "inscription": "The North Point Light Station has a long history of guiding mariners to Milwaukee. Its location was chosen to mark the north point of Milwaukee Bay. Erected in 1887...",
+            "memorial": "plaque",
+            "name": "North Point Light Station",
+            "source_ref": "https://www.hmdb.org/m.asp?m=48408"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Picnic Area 5",
+          "latitude": 43.0699415,
+          "longitude": -87.8700571,
+          "osmType": "node",
+          "osmId": 11065085709,
+          "sourceUrl": "https://www.openstreetmap.org/node/11065085709",
+          "tags": {
+            "name": "Picnic Area 5",
+            "tourism": "picnic_site"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "East Ravine Road",
+          "latitude": 43.0691911,
+          "longitude": -87.8698454,
+          "osmType": "way",
+          "osmId": 18989099,
+          "sourceUrl": "https://www.openstreetmap.org/way/18989099",
+          "tags": {
+            "bicycle": "yes",
+            "foot": "designated",
+            "hgv": "no",
+            "highway": "unclassified",
+            "horse": "no",
+            "lit": "yes",
+            "maxspeed": "25 mph",
+            "maxspeed:advisory": "10 mph",
+            "maxweight:hgv": "3 st",
+            "motor_vehicle": "no",
+            "name": "East Ravine Road",
+            "oneway": "no",
+            "sidewalk": "no",
+            "source:maxspeed": "US:WI:urban",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Lake Park Road",
+          "latitude": 43.0687097,
+          "longitude": -87.8711191,
+          "osmType": "way",
+          "osmId": 18996135,
+          "sourceUrl": "https://www.openstreetmap.org/way/18996135",
+          "tags": {
+            "bicycle": "designated",
+            "hgv": "no",
+            "highway": "unclassified",
+            "lit": "yes",
+            "maxspeed": "25 mph",
+            "maxweight:hgv": "3 st",
+            "name": "Lake Park Road",
+            "parking:both:restriction": "no_parking",
+            "source:maxspeed": "US:WI:urban",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Lake Park Road",
+          "latitude": 43.0700739,
+          "longitude": -87.8702865,
+          "osmType": "way",
+          "osmId": 18996136,
+          "sourceUrl": "https://www.openstreetmap.org/way/18996136",
+          "tags": {
+            "hgv": "no",
+            "highway": "unclassified",
+            "lit": "yes",
+            "maxspeed": "25 mph",
+            "maxweight:hgv": "3 st",
+            "name": "Lake Park Road",
+            "name_1": "East Newberry Boulevard",
+            "source:maxspeed": "US:WI:urban",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Lake Park Road",
+          "latitude": 43.072769,
+          "longitude": -87.8691644,
+          "osmType": "way",
+          "osmId": 29287174,
+          "sourceUrl": "https://www.openstreetmap.org/way/29287174",
+          "tags": {
+            "highway": "unclassified",
+            "name": "Lake Park Road"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "North Lincoln Memorial Drive",
+          "latitude": 43.0662193,
+          "longitude": -87.8689513,
+          "osmType": "way",
+          "osmId": 49242148,
+          "sourceUrl": "https://www.openstreetmap.org/way/49242148",
+          "tags": {
+            "architect": "Alfred C. Clas",
+            "highway": "primary",
+            "lanes": "2",
+            "lit": "yes",
+            "maxspeed": "30 mph",
+            "maxweight:hgv": "3 st",
+            "name": "North Lincoln Memorial Drive",
+            "name:etymology:wikidata": "Q91",
+            "oneway": "yes",
+            "parking:right": "street_side",
+            "sidewalk:right": "separate",
+            "source:maxspeed": "sign",
+            "start_date": "1929-09-28",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Bartolotta's Lake Park Bistro",
+          "latitude": 43.0685037,
+          "longitude": -87.8690961,
+          "osmType": "way",
+          "osmId": 86776305,
+          "sourceUrl": "https://www.openstreetmap.org/way/86776305",
+          "tags": {
+            "addr:city": "Milwaukee",
+            "addr:housenumber": "3133",
+            "addr:postcode": "53211-3473",
+            "addr:state": "WI",
+            "addr:street": "East Newberry Boulevard",
+            "amenity": "restaurant",
+            "building": "retail",
+            "building:architect": "Alfred C. Clas",
+            "building:levels": "2",
+            "building:material": "wood",
+            "contact:email": "info@lakeparkbistro.com",
+            "contact:phone": "+1 414 962 6300",
+            "contact:website": "http://www.lakeparkbistro.com",
+            "cuisine": "french",
+            "name": "Bartolotta's Lake Park Bistro",
+            "name:1903-1995": "Lake Park Pavilion",
+            "name:historic": "Lake Park Pavilion",
+            "opening_hours": "Mo-Th 11:30-14:00, 17:30-21:00; Fr 11:30-14:00, 17:30-22:00; Sa 17:00-22:00; Su 10:00-14:00, 17:00-20:30",
+            "operator": "The Bartolotta Restaurants",
+            "source": "http://www.wisconsinhistory.org ref=211741",
+            "start_date": "1903"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Grand Staircase",
+          "latitude": 43.0684759,
+          "longitude": -87.8682858,
+          "osmType": "way",
+          "osmId": 106361036,
+          "sourceUrl": "https://www.openstreetmap.org/way/106361036",
+          "tags": {
+            "foot": "yes",
+            "highway": "steps",
+            "incline": "up",
+            "name": "Grand Staircase"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Grand Staircase",
+          "latitude": 43.068476,
+          "longitude": -87.8684064,
+          "osmType": "way",
+          "osmId": 106361048,
+          "sourceUrl": "https://www.openstreetmap.org/way/106361048",
+          "tags": {
+            "foot": "yes",
+            "highway": "steps",
+            "incline": "up",
+            "name": "Grand Staircase"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Bradford Beach Trail",
+          "latitude": 43.0605604,
+          "longitude": -87.8765143,
+          "osmType": "way",
+          "osmId": 106607807,
+          "sourceUrl": "https://www.openstreetmap.org/way/106607807",
+          "tags": {
+            "highway": "footway",
+            "incline": "up",
+            "name": "Bradford Beach Trail",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Lake Park Road",
+          "latitude": 43.0694656,
+          "longitude": -87.8718308,
+          "osmType": "way",
+          "osmId": 118783731,
+          "sourceUrl": "https://www.openstreetmap.org/way/118783731",
+          "tags": {
+            "bicycle": "designated",
+            "hgv": "no",
+            "highway": "unclassified",
+            "lit": "yes",
+            "maxspeed": "25 mph",
+            "maxweight:hgv": "3 st",
+            "name": "Lake Park Road",
+            "name_1": "East Newberry Boulevard",
+            "source:maxspeed": "US:WI:urban",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Lake Park Golf Course",
+          "latitude": 43.0677392,
+          "longitude": -87.8716725,
+          "osmType": "way",
+          "osmId": 180824771,
+          "sourceUrl": "https://www.openstreetmap.org/way/180824771",
+          "tags": {
+            "contact:phone": "+1 414 961 3206",
+            "contact:website": "http://milwaukeecountygolfcourses.com/lake_details/",
+            "leisure": "golf_course",
+            "name": "Lake Park Golf Course",
+            "source": "http://www.wisconsinhistory.org ref=211861",
+            "start_date": "1903"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "South Lighthouse Ravine Trail",
+          "latitude": 43.0650363,
+          "longitude": -87.8716576,
+          "osmType": "way",
+          "osmId": 403345565,
+          "sourceUrl": "https://www.openstreetmap.org/way/403345565",
+          "tags": {
+            "bicycle": "no",
+            "foot": "designated",
+            "highway": "footway",
+            "name": "South Lighthouse Ravine Trail"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "South Lighthouse Ravine Trail",
+          "latitude": 43.0652926,
+          "longitude": -87.8711473,
+          "osmType": "way",
+          "osmId": 403345566,
+          "sourceUrl": "https://www.openstreetmap.org/way/403345566",
+          "tags": {
+            "bicycle": "no",
+            "foot": "designated",
+            "highway": "footway",
+            "name": "South Lighthouse Ravine Trail"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "North Lighthouse Ravine Trail",
+          "latitude": 43.0657091,
+          "longitude": -87.871413,
+          "osmType": "way",
+          "osmId": 403345567,
+          "sourceUrl": "https://www.openstreetmap.org/way/403345567",
+          "tags": {
+            "bicycle": "no",
+            "foot": "designated",
+            "highway": "footway",
+            "name": "North Lighthouse Ravine Trail"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "North Point Lighthouse",
+          "latitude": 43.0655738,
+          "longitude": -87.8713923,
+          "osmType": "way",
+          "osmId": 403385102,
+          "sourceUrl": "https://www.openstreetmap.org/way/403385102",
+          "tags": {
+            "building": "yes",
+            "building:part": "yes",
+            "height": "22.5",
+            "heritage": "2",
+            "heritage:operator": "nrhp",
+            "heritage:website": "https://www.nps.gov/subjects/nationalregister/index.htm",
+            "historic": "lighthouse",
+            "man_made": "lighthouse",
+            "name": "North Point Lighthouse",
+            "nrhp:criteria": "(C), (D)",
+            "nrhp:inscription_date": "1993-04-22",
+            "protection_title": "North Point Lighthouse Museum",
+            "ref:nrhp": "93000339",
+            "source_ref": "https://catalog.archives.gov/id/106781700",
+            "start_date": "1855",
+            "wikimedia_commons": "Category:North Point light"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Lion Bridge",
+          "latitude": 43.0651507,
+          "longitude": -87.8712087,
+          "osmType": "way",
+          "osmId": 403385109,
+          "sourceUrl": "https://www.openstreetmap.org/way/403385109",
+          "tags": {
+            "architect": "Oscar Sanne",
+            "bridge": "cantilever",
+            "contact:website": "http://lakeparkfriends.com/explore/lion_bridges.shtml",
+            "layer": "1",
+            "man_made": "bridge",
+            "name": "Lion Bridge",
+            "source": "http://www.wisconsinhistory.org ref=212021",
+            "start_date": "1896"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "North Point Lighthouse",
+          "latitude": 43.0656774,
+          "longitude": -87.8714176,
+          "osmType": "way",
+          "osmId": 403385111,
+          "sourceUrl": "https://www.openstreetmap.org/way/403385111",
+          "tags": {
+            "addr:city": "Milwaukee",
+            "addr:housenumber": "2650",
+            "addr:postcode": "53211",
+            "addr:state": "WI",
+            "addr:street": "North Wahl Avenue",
+            "alt_name": "North Point Lighthouse and Keeper's Quarters",
+            "building": "yes",
+            "building:levels": "2",
+            "building:part": "yes",
+            "building:use": "retail",
+            "contact:phone": "+1 414 332 6754",
+            "contact:website": "http://northpointlighthouse.org",
+            "height": "74 ft",
+            "heritage": "2",
+            "heritage:operator": "nrhp",
+            "heritage:website": "https://www.nps.gov/subjects/nationalregister/index.htm",
+            "historic": "lighthouse",
+            "museum": "history",
+            "name": "North Point Lighthouse",
+            "nrhp:criteria": "(C), (D)",
+            "nrhp:inscription_date": "1993-04-22",
+            "opening_hours": "Sa-Su 13:00-16:00",
+            "operator": "North Point Lighthouse Museum",
+            "protection_title": "North Point Lighthouse Museum",
+            "ref:nrhp": "93000339",
+            "roof:levels": "1",
+            "source:housenumber": "Note 91282",
+            "source_ref": "https://catalog.archives.gov/id/106781700",
+            "start_date": "1879",
+            "tourism": "museum",
+            "wikidata": "Q7056375",
+            "wikipedia": "en:North Point Light"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Lion Bridge",
+          "latitude": 43.0656903,
+          "longitude": -87.8705755,
+          "osmType": "way",
+          "osmId": 403666565,
+          "sourceUrl": "https://www.openstreetmap.org/way/403666565",
+          "tags": {
+            "architect": "Oscar Sanne",
+            "bridge": "cantilever",
+            "contact:website": "http://lakeparkfriends.com/explore/lion_bridges.shtml",
+            "layer": "1",
+            "man_made": "bridge",
+            "name": "Lion Bridge",
+            "source": "http://www.wisconsinhistory.org ref=212001",
+            "start_date": "1896"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Brigadier General Erastus B. Wolcott",
+          "latitude": 43.0663717,
+          "longitude": -87.8704924,
+          "osmType": "way",
+          "osmId": 403696420,
+          "sourceUrl": "https://www.openstreetmap.org/way/403696420",
+          "tags": {
+            "artist:wikidata": "Q21129948",
+            "artist_name": "Francis Herman Packer",
+            "historic": "memorial",
+            "inscription": "BRIG. GENERAL E. B. WOLCOTT/SURGEON GENERAL OF WISCONSIN IN THE CIVIL/WAR AND FOR THIRTEEN YEARS AFTERWARD./HE LIVED A BLAMELESS LIFE, EMINENT IN HIS/PROFESSION A LOVER OF HUMANITY, WHO/DELIGHTED TO SERVE HIS FELLOWMEN;HIS CITY,/STATE AND NATION.",
+            "inscription_1": "FRATERNITY - CHARITY - EQUALITY - DEVOTION TO COUNTRY",
+            "material": "bronze",
+            "memorial": "statue",
+            "name": "Brigadier General Erastus B. Wolcott",
+            "source": "http://www.wisconsinhistory.org ref=211922",
+            "start_date": "1919",
+            "statue": "equestrian",
+            "subject:wikidata": "Q64349066",
+            "surface": "stone",
+            "wikidata": "Q5385000"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Lake Park Bowling Greens",
+          "latitude": 43.0687535,
+          "longitude": -87.8702228,
+          "osmType": "way",
+          "osmId": 403993554,
+          "sourceUrl": "https://www.openstreetmap.org/way/403993554",
+          "tags": {
+            "barrier": "fence",
+            "fence_type": "wood",
+            "leisure": "pitch",
+            "name": "Lake Park Bowling Greens",
+            "source": "http://www.wisconsinhistory.org ref=211782",
+            "start_date": "1961"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Grand Staircase",
+          "latitude": 43.0684821,
+          "longitude": -87.8684813,
+          "osmType": "way",
+          "osmId": 404180634,
+          "sourceUrl": "https://www.openstreetmap.org/way/404180634",
+          "tags": {
+            "architect": "Alfred C. Clas",
+            "layer": "1",
+            "man_made": "bridge",
+            "name": "Grand Staircase",
+            "start_date": "1908",
+            "website": "https://lakeparkfriends.com/explore/grand_staircase.shtml"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Locust Street Ravine Trail",
+          "latitude": 43.0689821,
+          "longitude": -87.8682996,
+          "osmType": "way",
+          "osmId": 404323984,
+          "sourceUrl": "https://www.openstreetmap.org/way/404323984",
+          "tags": {
+            "highway": "footway",
+            "name": "Locust Street Ravine Trail",
+            "surface": "unpaved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Locust Street Ravine Trail",
+          "latitude": 43.069492,
+          "longitude": -87.8689935,
+          "osmType": "way",
+          "osmId": 404324894,
+          "sourceUrl": "https://www.openstreetmap.org/way/404324894",
+          "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "name": "Locust Street Ravine Trail",
+            "surface": "unpaved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Locust Street Ravine Trail",
+          "latitude": 43.0705938,
+          "longitude": -87.868792,
+          "osmType": "way",
+          "osmId": 404433835,
+          "sourceUrl": "https://www.openstreetmap.org/way/404433835",
+          "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "name": "Locust Street Ravine Trail",
+            "surface": "unpaved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Lake Park Summer Stage",
+          "latitude": 43.0713838,
+          "longitude": -87.8687001,
+          "osmType": "way",
+          "osmId": 404433836,
+          "sourceUrl": "https://www.openstreetmap.org/way/404433836",
+          "tags": {
+            "amenity": "theatre",
+            "building": "roof",
+            "check_date": "2025-09-24",
+            "name": "Lake Park Summer Stage"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Lake Park Road",
+          "latitude": 43.0739104,
+          "longitude": -87.8697918,
+          "osmType": "way",
+          "osmId": 404458192,
+          "sourceUrl": "https://www.openstreetmap.org/way/404458192",
+          "tags": {
+            "bridge": "yes",
+            "highway": "unclassified",
+            "layer": "1",
+            "name": "Lake Park Road"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Lake Park Road",
+          "latitude": 43.0745163,
+          "longitude": -87.8696894,
+          "osmType": "way",
+          "osmId": 404458193,
+          "sourceUrl": "https://www.openstreetmap.org/way/404458193",
+          "tags": {
+            "highway": "residential",
+            "lit": "yes",
+            "maxspeed": "25 mph",
+            "name": "Lake Park Road",
+            "sidewalk:left": "separate",
+            "sidewalk:right": "no",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "North Lincoln Memorial Drive",
+          "latitude": 43.0744028,
+          "longitude": -87.8703414,
+          "osmType": "way",
+          "osmId": 404467994,
+          "sourceUrl": "https://www.openstreetmap.org/way/404467994",
+          "tags": {
+            "architect": "Alfred C. Clas",
+            "highway": "primary",
+            "lanes": "2",
+            "lit": "yes",
+            "maxspeed": "30 mph",
+            "maxweight:hgv": "3 st",
+            "name": "North Lincoln Memorial Drive",
+            "name:etymology:wikidata": "Q91",
+            "oneway": "yes",
+            "sidewalk": "no",
+            "source:maxspeed": "sign",
+            "start_date": "1929-09-28",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "East Ravine Road",
+          "latitude": 43.0687035,
+          "longitude": -87.8678912,
+          "osmType": "way",
+          "osmId": 426258648,
+          "sourceUrl": "https://www.openstreetmap.org/way/426258648",
+          "tags": {
+            "highway": "unclassified",
+            "lit": "yes",
+            "maxweight": "3",
+            "name": "East Ravine Road",
+            "sidewalk:both": "separate",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Lake Park Road",
+          "latitude": 43.0692094,
+          "longitude": -87.8719273,
+          "osmType": "way",
+          "osmId": 680475116,
+          "sourceUrl": "https://www.openstreetmap.org/way/680475116",
+          "tags": {
+            "bicycle": "designated",
+            "hgv": "no",
+            "highway": "unclassified",
+            "lit": "yes",
+            "maxspeed": "25 mph",
+            "maxweight:hgv": "3 st",
+            "name": "Lake Park Road",
+            "name_1": "East Newberry Boulevard",
+            "source:maxspeed": "US:WI:urban",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Lake Park Road",
+          "latitude": 43.0697036,
+          "longitude": -87.8716737,
+          "osmType": "way",
+          "osmId": 680475117,
+          "sourceUrl": "https://www.openstreetmap.org/way/680475117",
+          "tags": {
+            "bicycle": "designated",
+            "hgv": "no",
+            "highway": "unclassified",
+            "lit": "yes",
+            "maxspeed": "25 mph",
+            "maxweight:hgv": "3 st",
+            "name": "Lake Park Road",
+            "name_1": "East Newberry Boulevard",
+            "source:maxspeed": "US:WI:urban",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "North Lincoln Memorial Drive",
+          "latitude": 43.0743636,
+          "longitude": -87.8698065,
+          "osmType": "way",
+          "osmId": 713680232,
+          "sourceUrl": "https://www.openstreetmap.org/way/713680232",
+          "tags": {
+            "architect": "Alfred C. Clas",
+            "highway": "primary",
+            "lanes": "2",
+            "lit": "yes",
+            "maxspeed": "30 mph",
+            "maxweight:hgv": "3 st",
+            "name": "North Lincoln Memorial Drive",
+            "name:etymology:wikidata": "Q91",
+            "oneway": "yes",
+            "sidewalk": "no",
+            "source:maxspeed": "sign",
+            "start_date": "1929-09-28",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Lake Park Road",
+          "latitude": 43.0743046,
+          "longitude": -87.8697149,
+          "osmType": "way",
+          "osmId": 713680233,
+          "sourceUrl": "https://www.openstreetmap.org/way/713680233",
+          "tags": {
+            "highway": "unclassified",
+            "name": "Lake Park Road",
+            "sidewalk:left": "separate",
+            "sidewalk:right": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "North Lincoln Memorial Drive",
+          "latitude": 43.0706384,
+          "longitude": -87.8675293,
+          "osmType": "way",
+          "osmId": 713680234,
+          "sourceUrl": "https://www.openstreetmap.org/way/713680234",
+          "tags": {
+            "architect": "Alfred C. Clas",
+            "highway": "primary",
+            "lanes": "2",
+            "lit": "yes",
+            "maxspeed": "30 mph",
+            "maxweight:hgv": "3 st",
+            "name": "North Lincoln Memorial Drive",
+            "name:etymology:wikidata": "Q91",
+            "oneway": "yes",
+            "sidewalk:right": "separate",
+            "source:maxspeed": "sign",
+            "start_date": "1929-09-28",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Lake Park Road",
+          "latitude": 43.0741526,
+          "longitude": -87.8697484,
+          "osmType": "way",
+          "osmId": 713680235,
+          "sourceUrl": "https://www.openstreetmap.org/way/713680235",
+          "tags": {
+            "highway": "unclassified",
+            "name": "Lake Park Road"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "North Lincoln Memorial Drive",
+          "latitude": 43.0744461,
+          "longitude": -87.8709812,
+          "osmType": "way",
+          "osmId": 1031047957,
+          "sourceUrl": "https://www.openstreetmap.org/way/1031047957",
+          "tags": {
+            "architect": "Alfred C. Clas",
+            "highway": "primary",
+            "lanes": "2",
+            "lit": "yes",
+            "maxspeed": "30 mph",
+            "maxweight:hgv": "3 st",
+            "name": "North Lincoln Memorial Drive",
+            "name:etymology:wikidata": "Q91",
+            "oneway": "yes",
+            "sidewalk:right": "separate",
+            "source:maxspeed": "sign",
+            "start_date": "1929-09-28",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "North Lincoln Memorial Drive",
+          "latitude": 43.072991,
+          "longitude": -87.8677517,
+          "osmType": "way",
+          "osmId": 1081402266,
+          "sourceUrl": "https://www.openstreetmap.org/way/1081402266",
+          "tags": {
+            "architect": "Alfred C. Clas",
+            "highway": "primary",
+            "lanes": "2",
+            "lit": "yes",
+            "maxspeed": "30 mph",
+            "maxweight:hgv": "3 st",
+            "name": "North Lincoln Memorial Drive",
+            "name:etymology:wikidata": "Q91",
+            "oneway": "yes",
+            "parking:right": "street_side",
+            "sidewalk:right": "separate",
+            "source:maxspeed": "sign",
+            "start_date": "1929-09-28",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "East Newberry Boulevard",
+          "latitude": 43.0691578,
+          "longitude": -87.8723911,
+          "osmType": "way",
+          "osmId": 1122404835,
+          "sourceUrl": "https://www.openstreetmap.org/way/1122404835",
+          "tags": {
+            "highway": "residential",
+            "name": "East Newberry Boulevard",
+            "oneway": "yes",
+            "parking:right": "no",
+            "parking:right:restriction": "no_parking",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "East Newberry Boulevard",
+          "latitude": 43.0693773,
+          "longitude": -87.8723566,
+          "osmType": "way",
+          "osmId": 1122404836,
+          "sourceUrl": "https://www.openstreetmap.org/way/1122404836",
+          "tags": {
+            "highway": "residential",
+            "name": "East Newberry Boulevard",
+            "oneway": "yes",
+            "parking:right": "no",
+            "parking:right:restriction": "no_parking",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Locust Street Ravine Trail",
+          "latitude": 43.0702418,
+          "longitude": -87.8687787,
+          "osmType": "way",
+          "osmId": 1165965110,
+          "sourceUrl": "https://www.openstreetmap.org/way/1165965110",
+          "tags": {
+            "bicycle": "no",
+            "highway": "steps",
+            "incline": "down",
+            "name": "Locust Street Ravine Trail"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Locust Street Ravine Trail",
+          "latitude": 43.0703044,
+          "longitude": -87.8688782,
+          "osmType": "way",
+          "osmId": 1165965111,
+          "sourceUrl": "https://www.openstreetmap.org/way/1165965111",
+          "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "name": "Locust Street Ravine Trail",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Locust Street Ravine Trail",
+          "latitude": 43.0700975,
+          "longitude": -87.8686624,
+          "osmType": "way",
+          "osmId": 1165965112,
+          "sourceUrl": "https://www.openstreetmap.org/way/1165965112",
+          "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "name": "Locust Street Ravine Trail",
+            "surface": "unpaved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Locust Street Ravine Trail",
+          "latitude": 43.0700111,
+          "longitude": -87.8686568,
+          "osmType": "way",
+          "osmId": 1165965113,
+          "sourceUrl": "https://www.openstreetmap.org/way/1165965113",
+          "tags": {
+            "bicycle": "no",
+            "bridge": "yes",
+            "highway": "path",
+            "layer": "1",
+            "name": "Locust Street Ravine Trail"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "North Lincoln Memorial Drive",
+          "latitude": 43.0679192,
+          "longitude": -87.8678793,
+          "osmType": "way",
+          "osmId": 1199659763,
+          "sourceUrl": "https://www.openstreetmap.org/way/1199659763",
+          "tags": {
+            "architect": "Alfred C. Clas",
+            "highway": "primary",
+            "lanes": "2",
+            "lit": "yes",
+            "maxspeed": "30 mph",
+            "maxweight:hgv": "3 st",
+            "name": "North Lincoln Memorial Drive",
+            "name:etymology:wikidata": "Q91",
+            "oneway": "yes",
+            "sidewalk:right": "separate",
+            "source:maxspeed": "sign",
+            "start_date": "1929-09-28",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "North Lincoln Memorial Drive",
+          "latitude": 43.0745515,
+          "longitude": -87.8713369,
+          "osmType": "way",
+          "osmId": 1200809651,
+          "sourceUrl": "https://www.openstreetmap.org/way/1200809651",
+          "tags": {
+            "architect": "Alfred C. Clas",
+            "highway": "primary",
+            "lanes": "3",
+            "lit": "yes",
+            "maxspeed": "30 mph",
+            "maxweight:hgv": "3 st",
+            "name": "North Lincoln Memorial Drive",
+            "name:etymology:wikidata": "Q91",
+            "oneway": "yes",
+            "sidewalk": "no",
+            "source:maxspeed": "sign",
+            "start_date": "1929-09-28",
+            "surface": "concrete",
+            "turn:lanes": "left;through|right|right"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "North Lincoln Memorial Drive",
+          "latitude": 43.0684884,
+          "longitude": -87.8678351,
+          "osmType": "way",
+          "osmId": 1222862641,
+          "sourceUrl": "https://www.openstreetmap.org/way/1222862641",
+          "tags": {
+            "architect": "Alfred C. Clas",
+            "highway": "primary",
+            "lanes": "3",
+            "lit": "yes",
+            "maxspeed": "30 mph",
+            "maxweight:hgv": "3 st",
+            "name": "North Lincoln Memorial Drive",
+            "name:etymology:wikidata": "Q91",
+            "oneway": "yes",
+            "sidewalk:right": "separate",
+            "source:maxspeed": "sign",
+            "start_date": "1929-09-28",
+            "surface": "concrete",
+            "turn:lanes": "left||"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "North Lincoln Memorial Drive",
+          "latitude": 43.0742745,
+          "longitude": -87.8698878,
+          "osmType": "way",
+          "osmId": 1222862642,
+          "sourceUrl": "https://www.openstreetmap.org/way/1222862642",
+          "tags": {
+            "architect": "Alfred C. Clas",
+            "highway": "primary",
+            "lanes": "3",
+            "lit": "yes",
+            "maxspeed": "30 mph",
+            "maxweight:hgv": "3 st",
+            "name": "North Lincoln Memorial Drive",
+            "name:etymology:wikidata": "Q91",
+            "oneway": "yes",
+            "sidewalk:right": "separate",
+            "source:maxspeed": "sign",
+            "start_date": "1929-09-28",
+            "surface": "concrete",
+            "turn:lanes:forward": "left||"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "North Lincoln Memorial Drive",
+          "latitude": 43.0743344,
+          "longitude": -87.8695589,
+          "osmType": "way",
+          "osmId": 1222862643,
+          "sourceUrl": "https://www.openstreetmap.org/way/1222862643",
+          "tags": {
+            "architect": "Alfred C. Clas",
+            "highway": "primary",
+            "lanes": "3",
+            "lit": "yes",
+            "maxspeed": "30 mph",
+            "maxweight:hgv": "3 st",
+            "name": "North Lincoln Memorial Drive",
+            "name:etymology:wikidata": "Q91",
+            "oneway": "yes",
+            "sidewalk:right": "separate",
+            "source:maxspeed": "sign",
+            "start_date": "1929-09-28",
+            "surface": "concrete",
+            "turn:lanes": "left||"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "North Lincoln Memorial Drive",
+          "latitude": 43.0688213,
+          "longitude": -87.8677928,
+          "osmType": "way",
+          "osmId": 1274509910,
+          "sourceUrl": "https://www.openstreetmap.org/way/1274509910",
+          "tags": {
+            "architect": "Alfred C. Clas",
+            "highway": "primary",
+            "lanes": "2",
+            "lit": "yes",
+            "maxspeed": "30 mph",
+            "maxweight:hgv": "3 st",
+            "name": "North Lincoln Memorial Drive",
+            "name:etymology:wikidata": "Q91",
+            "oneway": "yes",
+            "sidewalk:right": "separate",
+            "source:maxspeed": "sign",
+            "start_date": "1929-09-28",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "North Lincoln Memorial Drive",
+          "latitude": 43.0701344,
+          "longitude": -87.8674337,
+          "osmType": "way",
+          "osmId": 1274509911,
+          "sourceUrl": "https://www.openstreetmap.org/way/1274509911",
+          "tags": {
+            "architect": "Alfred C. Clas",
+            "highway": "primary",
+            "lanes": "2",
+            "lit": "yes",
+            "maxspeed": "30 mph",
+            "maxweight:hgv": "3 st",
+            "name": "North Lincoln Memorial Drive",
+            "name:etymology:wikidata": "Q91",
+            "oneway": "yes",
+            "parking:right": "street_side",
+            "sidewalk:right": "separate",
+            "source:maxspeed": "sign",
+            "start_date": "1929-09-28",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "North Lincoln Memorial Drive",
+          "latitude": 43.0718626,
+          "longitude": -87.8673447,
+          "osmType": "way",
+          "osmId": 1274509912,
+          "sourceUrl": "https://www.openstreetmap.org/way/1274509912",
+          "tags": {
+            "architect": "Alfred C. Clas",
+            "highway": "primary",
+            "lanes": "2",
+            "lit": "yes",
+            "maxspeed": "30 mph",
+            "maxweight:hgv": "3 st",
+            "name": "North Lincoln Memorial Drive",
+            "name:etymology:wikidata": "Q91",
+            "oneway": "yes",
+            "sidewalk:right": "separate",
+            "source:maxspeed": "sign",
+            "start_date": "1929-09-28",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "North Lincoln Memorial Drive",
+          "latitude": 43.0739455,
+          "longitude": -87.8686954,
+          "osmType": "way",
+          "osmId": 1274509913,
+          "sourceUrl": "https://www.openstreetmap.org/way/1274509913",
+          "tags": {
+            "architect": "Alfred C. Clas",
+            "highway": "primary",
+            "lanes": "2",
+            "lit": "yes",
+            "maxspeed": "30 mph",
+            "maxweight:hgv": "3 st",
+            "name": "North Lincoln Memorial Drive",
+            "name:etymology:wikidata": "Q91",
+            "oneway": "yes",
+            "sidewalk:right": "separate",
+            "source:maxspeed": "sign",
+            "start_date": "1929-09-28",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "North Lincoln Memorial Drive",
+          "latitude": 43.073899,
+          "longitude": -87.8689067,
+          "osmType": "way",
+          "osmId": 1274509914,
+          "sourceUrl": "https://www.openstreetmap.org/way/1274509914",
+          "tags": {
+            "architect": "Alfred C. Clas",
+            "highway": "primary",
+            "lanes": "2",
+            "lit": "yes",
+            "maxspeed": "30 mph",
+            "maxweight:hgv": "3 st",
+            "name": "North Lincoln Memorial Drive",
+            "name:etymology:wikidata": "Q91",
+            "oneway": "yes",
+            "sidewalk:right": "separate",
+            "source:maxspeed": "sign",
+            "start_date": "1929-09-28",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "North Lincoln Memorial Drive",
+          "latitude": 43.0728478,
+          "longitude": -87.8678225,
+          "osmType": "way",
+          "osmId": 1274509915,
+          "sourceUrl": "https://www.openstreetmap.org/way/1274509915",
+          "tags": {
+            "architect": "Alfred C. Clas",
+            "highway": "primary",
+            "lanes": "2",
+            "lit": "yes",
+            "maxspeed": "30 mph",
+            "maxweight:hgv": "3 st",
+            "name": "North Lincoln Memorial Drive",
+            "name:etymology:wikidata": "Q91",
+            "oneway": "yes",
+            "parking:right": "street_side",
+            "sidewalk:right": "separate",
+            "source:maxspeed": "sign",
+            "start_date": "1929-09-28",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "North Lincoln Memorial Drive",
+          "latitude": 43.068919,
+          "longitude": -87.8678982,
+          "osmType": "way",
+          "osmId": 1274509916,
+          "sourceUrl": "https://www.openstreetmap.org/way/1274509916",
+          "tags": {
+            "architect": "Alfred C. Clas",
+            "highway": "primary",
+            "lanes": "3",
+            "lit": "yes",
+            "maxspeed": "30 mph",
+            "maxweight:hgv": "3 st",
+            "name": "North Lincoln Memorial Drive",
+            "name:etymology:wikidata": "Q91",
+            "oneway": "yes",
+            "sidewalk:right": "separate",
+            "source:maxspeed": "sign",
+            "start_date": "1929-09-28",
+            "surface": "concrete",
+            "turn:lanes": "left||"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "North Lincoln Memorial Drive",
+          "latitude": 43.0681362,
+          "longitude": -87.8680011,
+          "osmType": "way",
+          "osmId": 1274509917,
+          "sourceUrl": "https://www.openstreetmap.org/way/1274509917",
+          "tags": {
+            "architect": "Alfred C. Clas",
+            "highway": "primary",
+            "lanes": "2",
+            "lit": "yes",
+            "maxspeed": "30 mph",
+            "maxweight:hgv": "3 st",
+            "name": "North Lincoln Memorial Drive",
+            "name:etymology:wikidata": "Q91",
+            "oneway": "yes",
+            "shoulder": "no",
+            "sidewalk:right": "separate",
+            "source:maxspeed": "sign",
+            "start_date": "1929-09-28",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "North Lincoln Memorial Drive",
+          "latitude": 43.0659211,
+          "longitude": -87.8696469,
+          "osmType": "way",
+          "osmId": 1274509918,
+          "sourceUrl": "https://www.openstreetmap.org/way/1274509918",
+          "tags": {
+            "architect": "Alfred C. Clas",
+            "highway": "primary",
+            "lanes": "2",
+            "lit": "yes",
+            "maxspeed": "30 mph",
+            "maxweight:hgv": "3 st",
+            "name": "North Lincoln Memorial Drive",
+            "name:etymology:wikidata": "Q91",
+            "oneway": "yes",
+            "parking:right": "street_side",
+            "shoulder": "no",
+            "sidewalk:right": "separate",
+            "source:maxspeed": "sign",
+            "start_date": "1929-09-28",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Locust Street Ravine Trail",
+          "latitude": 43.0693214,
+          "longitude": -87.8689706,
+          "osmType": "way",
+          "osmId": 1370432453,
+          "sourceUrl": "https://www.openstreetmap.org/way/1370432453",
+          "tags": {
+            "highway": "steps",
+            "incline": "up",
+            "name": "Locust Street Ravine Trail",
+            "surface": "wood"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Locust Street Ravine Trail",
+          "latitude": 43.0697825,
+          "longitude": -87.8689446,
+          "osmType": "way",
+          "osmId": 1370432455,
+          "sourceUrl": "https://www.openstreetmap.org/way/1370432455",
+          "tags": {
+            "bicycle": "no",
+            "bridge": "yes",
+            "highway": "footway",
+            "layer": "1",
+            "name": "Locust Street Ravine Trail"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Locust Street Ravine Trail",
+          "latitude": 43.0692303,
+          "longitude": -87.8687647,
+          "osmType": "way",
+          "osmId": 1412640355,
+          "sourceUrl": "https://www.openstreetmap.org/way/1412640355",
+          "tags": {
+            "highway": "footway",
+            "name": "Locust Street Ravine Trail",
+            "surface": "unpaved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Locust Street Ravine Trail",
+          "latitude": 43.0691246,
+          "longitude": -87.8685538,
+          "osmType": "way",
+          "osmId": 1412640356,
+          "sourceUrl": "https://www.openstreetmap.org/way/1412640356",
+          "tags": {
+            "highway": "steps",
+            "name": "Locust Street Ravine Trail",
+            "surface": "wood"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Locust Street Ravine Trail",
+          "latitude": 43.0701775,
+          "longitude": -87.868658,
+          "osmType": "way",
+          "osmId": 1412640369,
+          "sourceUrl": "https://www.openstreetmap.org/way/1412640369",
+          "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "name": "Locust Street Ravine Trail",
+            "surface": "unpaved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Locust Street Ravine Trail",
+          "latitude": 43.0697314,
+          "longitude": -87.8689901,
+          "osmType": "way",
+          "osmId": 1412640370,
+          "sourceUrl": "https://www.openstreetmap.org/way/1412640370",
+          "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "name": "Locust Street Ravine Trail"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Locust Street Ravine Trail",
+          "latitude": 43.0696679,
+          "longitude": -87.869003,
+          "osmType": "way",
+          "osmId": 1412640371,
+          "sourceUrl": "https://www.openstreetmap.org/way/1412640371",
+          "tags": {
+            "bicycle": "no",
+            "bridge": "yes",
+            "highway": "footway",
+            "layer": "1",
+            "name": "Locust Street Ravine Trail",
+            "surface": "wood"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Locust Street Ravine Trail",
+          "latitude": 43.0714142,
+          "longitude": -87.869326,
+          "osmType": "way",
+          "osmId": 1427214927,
+          "sourceUrl": "https://www.openstreetmap.org/way/1427214927",
+          "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "name": "Locust Street Ravine Trail",
+            "surface": "unpaved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Locust Street Ravine Trail",
+          "latitude": 43.0714127,
+          "longitude": -87.8690807,
+          "osmType": "way",
+          "osmId": 1427214928,
+          "sourceUrl": "https://www.openstreetmap.org/way/1427214928",
+          "tags": {
+            "bicycle": "no",
+            "bridge": "yes",
+            "highway": "footway",
+            "layer": "1",
+            "name": "Locust Street Ravine Trail",
+            "surface": "wood"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Locust Street Ravine Trail",
+          "latitude": 43.0699812,
+          "longitude": -87.868639,
+          "osmType": "way",
+          "osmId": 1540053460,
+          "sourceUrl": "https://www.openstreetmap.org/way/1540053460",
+          "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "name": "Locust Street Ravine Trail",
+            "surface": "unpaved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Lake Park",
+          "latitude": 43.067387,
+          "longitude": -87.871303,
+          "osmType": "relation",
+          "osmId": 6044259,
+          "sourceUrl": "https://www.openstreetmap.org/relation/6044259",
+          "tags": {
+            "addr:city": "Milwaukee",
+            "addr:housenumber": "3233",
+            "addr:postcode": "53211",
+            "addr:state": "WI",
+            "addr:street": "East Kenwood Boulevard",
+            "architect": "Frederick Law Olmsted",
+            "contact:phone": "+1 414 962 8809",
+            "contact:website": "https://lakeparkfriends.org/",
+            "heritage": "2",
+            "heritage:operator": "nrhp",
+            "heritage:website": "https://npgallery.nps.gov/AssetDetail/NRIS/93000339",
+            "historic": "yes",
+            "leisure": "park",
+            "name": "Lake Park",
+            "nrhp:criteria": "(C),(D)",
+            "nrhp:inscription_date": "1993-04-22",
+            "operator": "Milwaukee County Parks",
+            "operator:type": "public",
+            "operator:wikidata": "Q110072573",
+            "ref:nrhp": "93000339",
+            "source": "http://www.wisconsinhistory.org ref=27222;http://county.milwaukee.gov/ImageLibrary/Groups/cntyParks/maps/Lake1.pdf",
+            "start_date": "1891",
+            "type": "multipolygon",
+            "wikidata": "Q6477298",
+            "wikimedia_commons": "Category:Lake Park (Milwaukee, Wisconsin)",
+            "wikipedia": "en:Lake Park, Milwaukee"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    },
+    "launch-wi-milwaukee-veterans-park": {
+      "name": "Veterans Park",
+      "boundarySource": "https://www.openstreetmap.org/relation/6028206",
+      "candidates": [
+        {
+          "name": "General Douglas MacArthur",
+          "latitude": 43.0426189,
+          "longitude": -87.8950206,
+          "osmType": "node",
+          "osmId": 4086934118,
+          "sourceUrl": "https://www.openstreetmap.org/node/4086934118",
+          "tags": {
+            "artist_name": "Robert L. Dean",
+            "description": "Originally in MacArthur Square in the Milwaukee Civic Center Plaza",
+            "historic": "memorial",
+            "inscription": "Douglas MacArthur 1880-1964; MacARTHUR SQUARE: MacArthur Square was designated on September 17, 1945 to honor General of the Army Douglas MacArthur for his leadership of the Allied forces in the Pacific during World War II.",
+            "material": "bronze",
+            "memorial": "statue",
+            "name": "General Douglas MacArthur",
+            "start_date": "1979",
+            "wikidata": "Q5531839",
+            "wikipedia": "en:Statue of Douglas MacArthur (Milwaukee)"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "East Lagoon Drive",
+          "latitude": 43.0510571,
+          "longitude": -87.8901453,
+          "osmType": "way",
+          "osmId": 18993621,
+          "sourceUrl": "https://www.openstreetmap.org/way/18993621",
+          "tags": {
+            "highway": "unclassified",
+            "maxspeed": "20 mph",
+            "name": "East Lagoon Drive",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Veterans Park Lagoon",
+          "latitude": 43.0470171,
+          "longitude": -87.8924918,
+          "osmType": "way",
+          "osmId": 25354099,
+          "sourceUrl": "https://www.openstreetmap.org/way/25354099",
+          "tags": {
+            "alt_name": "Juneau Park Lagoon",
+            "fishing": "yes",
+            "leisure": "fishing",
+            "name": "Veterans Park Lagoon",
+            "natural": "water",
+            "salt": "no",
+            "water": "lagoon"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "North Lincoln Memorial Drive",
+          "latitude": 43.0475972,
+          "longitude": -87.8932659,
+          "osmType": "way",
+          "osmId": 401834606,
+          "sourceUrl": "https://www.openstreetmap.org/way/401834606",
+          "tags": {
+            "architect": "Alfred C. Clas",
+            "highway": "primary",
+            "lanes": "2",
+            "lit": "yes",
+            "maxspeed": "30 mph",
+            "maxweight:hgv": "3 st",
+            "name": "North Lincoln Memorial Drive",
+            "name:etymology:wikidata": "Q91",
+            "oneway": "yes",
+            "sidewalk:right": "separate",
+            "source:maxspeed": "sign",
+            "start_date": "1929-09-28",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "North Lincoln Memorial Drive",
+          "latitude": 43.0442138,
+          "longitude": -87.8960249,
+          "osmType": "way",
+          "osmId": 401834613,
+          "sourceUrl": "https://www.openstreetmap.org/way/401834613",
+          "tags": {
+            "architect": "Alfred C. Clas",
+            "highway": "primary",
+            "lanes": "2",
+            "lit": "yes",
+            "maxspeed": "30 mph",
+            "maxweight:hgv": "3 st",
+            "name": "North Lincoln Memorial Drive",
+            "name:etymology:wikidata": "Q91",
+            "oneway": "yes",
+            "sidewalk:right": "separate",
+            "source:maxspeed": "sign",
+            "start_date": "1929-09-28",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Wheel Fun Rentals",
+          "latitude": 43.0486839,
+          "longitude": -87.8911133,
+          "osmType": "way",
+          "osmId": 401851754,
+          "sourceUrl": "https://www.openstreetmap.org/way/401851754",
+          "tags": {
+            "addr:city": "Milwaukee",
+            "addr:housenumber": "1400",
+            "addr:postcode": "53202",
+            "addr:street": "North Lincoln Memorial Drive",
+            "amenity": "boat_rental",
+            "canoe_rental": "yes",
+            "contact:phone": "+1 414 232 5027",
+            "contact:website": "http://www.wheelfunrentals.com/Locations/Milwaukee-2",
+            "kayak_rental": "yes",
+            "leisure": "marina",
+            "name": "Wheel Fun Rentals",
+            "pedalboat_rental": "yes"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "North Lincoln Memorial Drive",
+          "latitude": 43.0474974,
+          "longitude": -87.8933428,
+          "osmType": "way",
+          "osmId": 402293994,
+          "sourceUrl": "https://www.openstreetmap.org/way/402293994",
+          "tags": {
+            "architect": "Alfred C. Clas",
+            "highway": "primary",
+            "lanes": "2",
+            "lit": "yes",
+            "maxspeed": "30 mph",
+            "maxweight:hgv": "3 st",
+            "name": "North Lincoln Memorial Drive",
+            "name:etymology:wikidata": "Q91",
+            "oneway": "yes",
+            "parking:right": "street_side",
+            "sidewalk:right": "separate",
+            "source:maxspeed": "sign",
+            "start_date": "1929-09-28",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "North Lincoln Memorial Drive",
+          "latitude": 43.0447427,
+          "longitude": -87.8956788,
+          "osmType": "way",
+          "osmId": 1199659753,
+          "sourceUrl": "https://www.openstreetmap.org/way/1199659753",
+          "tags": {
+            "architect": "Alfred C. Clas",
+            "highway": "primary",
+            "lanes": "2",
+            "lit": "yes",
+            "maxspeed": "30 mph",
+            "maxweight:hgv": "3 st",
+            "name": "North Lincoln Memorial Drive",
+            "name:etymology:wikidata": "Q91",
+            "oneway": "yes",
+            "sidewalk:right": "separate",
+            "source:maxspeed": "sign",
+            "start_date": "1929-09-28",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "North Lincoln Memorial Drive",
+          "latitude": 43.0504587,
+          "longitude": -87.8906732,
+          "osmType": "way",
+          "osmId": 1199659754,
+          "sourceUrl": "https://www.openstreetmap.org/way/1199659754",
+          "tags": {
+            "architect": "Alfred C. Clas",
+            "highway": "primary",
+            "lanes": "2",
+            "lit": "yes",
+            "maxspeed": "30 mph",
+            "maxweight:hgv": "3 st",
+            "name": "North Lincoln Memorial Drive",
+            "name:etymology:wikidata": "Q91",
+            "oneway": "yes",
+            "sidewalk:right": "separate",
+            "source:maxspeed": "sign",
+            "start_date": "1929-09-28",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Southeastern Wisconsin Vietnam Veterans Memorial",
+          "latitude": 43.0434101,
+          "longitude": -87.8953613,
+          "osmType": "relation",
+          "osmId": 6028205,
+          "sourceUrl": "https://www.openstreetmap.org/relation/6028205",
+          "tags": {
+            "contact:website": "http://warmemorialcenter.org/tours-exhibits/memorials/southeastern-wisconsin-vietnam-veterans-memorial/",
+            "historic": "memorial",
+            "name": "Southeastern Wisconsin Vietnam Veterans Memorial",
+            "start_date": "1991",
+            "type": "multipolygon"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    },
+    "launch-wi-madison-olbrich-park": {
+      "name": "Olbrich Park",
+      "boundarySource": "https://www.openstreetmap.org/way/28725841",
+      "candidates": [
+        {
+          "name": "Olbrich Gardens",
+          "latitude": 43.0929787,
+          "longitude": -89.3367328,
+          "osmType": "node",
+          "osmId": 4081776340,
+          "sourceUrl": "https://www.openstreetmap.org/node/4081776340",
+          "tags": {
+            "addr:housenumber": "3330",
+            "addr:street": "Atwood Avenue",
+            "amenity": "bicycle_rental",
+            "bicycle_rental": "docking_station",
+            "brand": "BCycle",
+            "brand:wikidata": "Q4833723",
+            "capacity": "11",
+            "name": "Olbrich Gardens",
+            "network": "Madison BCycle",
+            "opening_hours": "Mar 15-Dec 15",
+            "operator": "BCycle",
+            "operator:type": "private",
+            "operator:wikidata": "Q4833723",
+            "phone": "+1-800-473-4758",
+            "ref": "1903",
+            "website": "https://madison.bcycle.com/"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Atwood & Walter (SB)",
+          "latitude": 43.0891708,
+          "longitude": -89.3292572,
+          "osmType": "node",
+          "osmId": 4505435108,
+          "sourceUrl": "https://www.openstreetmap.org/node/4505435108",
+          "tags": {
+            "bench": "no",
+            "bin": "no",
+            "bus": "yes",
+            "highway": "bus_stop",
+            "lit": "yes",
+            "name": "Atwood & Walter (SB)",
+            "network": "Madison Metro Transit",
+            "network:wikidata": "Q6728045",
+            "operator": "City of Madison",
+            "operator:wikidata": "Q43788",
+            "public_transport": "platform",
+            "ref": "7888",
+            "shelter": "no",
+            "tactile_paving": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Sunken Garden",
+          "latitude": 43.0920219,
+          "longitude": -89.3349739,
+          "osmType": "node",
+          "osmId": 4991028015,
+          "sourceUrl": "https://www.openstreetmap.org/node/4991028015",
+          "tags": {
+            "garden:style": "english",
+            "garden:type": "botanical",
+            "leisure": "garden",
+            "name": "Sunken Garden"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Herb Garden",
+          "latitude": 43.0920252,
+          "longitude": -89.334226,
+          "osmType": "node",
+          "osmId": 4991028016,
+          "sourceUrl": "https://www.openstreetmap.org/node/4991028016",
+          "tags": {
+            "garden:style": "herb_garden",
+            "garden:type": "botanical",
+            "leisure": "garden",
+            "name": "Herb Garden"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Rock Garden",
+          "latitude": 43.0914309,
+          "longitude": -89.3344434,
+          "osmType": "node",
+          "osmId": 4991028017,
+          "sourceUrl": "https://www.openstreetmap.org/node/4991028017",
+          "tags": {
+            "garden:style": "mountain",
+            "garden:type": "botanical",
+            "leisure": "garden",
+            "name": "Rock Garden"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Perennial Garden",
+          "latitude": 43.0923391,
+          "longitude": -89.3338989,
+          "osmType": "node",
+          "osmId": 4991028018,
+          "sourceUrl": "https://www.openstreetmap.org/node/4991028018",
+          "tags": {
+            "garden:type": "botanical",
+            "leisure": "garden",
+            "name": "Perennial Garden"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Event Garden",
+          "latitude": 43.0923365,
+          "longitude": -89.3347986,
+          "osmType": "node",
+          "osmId": 4991028019,
+          "sourceUrl": "https://www.openstreetmap.org/node/4991028019",
+          "tags": {
+            "alt_name": "Great Lawn",
+            "garden:type": "botanical",
+            "leisure": "garden",
+            "name": "Event Garden"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Rose Garden",
+          "latitude": 43.0931754,
+          "longitude": -89.335046,
+          "osmType": "node",
+          "osmId": 4991028020,
+          "sourceUrl": "https://www.openstreetmap.org/node/4991028020",
+          "tags": {
+            "garden:style": "rosarium",
+            "garden:type": "botanical",
+            "leisure": "garden",
+            "name": "Rose Garden"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Atwood & Lakeland (EB)",
+          "latitude": 43.0916442,
+          "longitude": -89.3360321,
+          "osmType": "node",
+          "osmId": 5027187871,
+          "sourceUrl": "https://www.openstreetmap.org/node/5027187871",
+          "tags": {
+            "bench": "no",
+            "bin": "no",
+            "bus": "yes",
+            "highway": "bus_stop",
+            "lit": "no",
+            "name": "Atwood & Lakeland (EB)",
+            "network": "Madison Metro Transit",
+            "network:wikidata": "Q6728045",
+            "operator": "City of Madison",
+            "operator:wikidata": "Q43788",
+            "public_transport": "platform",
+            "ref": "1905",
+            "shelter": "no",
+            "tactile_paving": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Act",
+          "latitude": 43.0903007,
+          "longitude": -89.3349161,
+          "osmType": "node",
+          "osmId": 5027225302,
+          "sourceUrl": "https://www.openstreetmap.org/node/5027225302",
+          "tags": {
+            "artist_name": "William King",
+            "artwork_type": "sculpture",
+            "height": "8",
+            "material": "metal",
+            "name": "Act",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Olbrich Biergarten",
+          "latitude": 43.088073,
+          "longitude": -89.3301532,
+          "osmType": "node",
+          "osmId": 5696806436,
+          "sourceUrl": "https://www.openstreetmap.org/node/5696806436",
+          "tags": {
+            "addr:housenumber": "3527",
+            "addr:street": "Atwood Avenue",
+            "amenity": "bicycle_rental",
+            "bicycle_rental": "docking_station",
+            "brand": "BCycle",
+            "brand:wikidata": "Q4833723",
+            "capacity": "7",
+            "name": "Olbrich Biergarten",
+            "network": "Madison BCycle",
+            "opening_hours": "Mar 15-Dec 15",
+            "operator": "BCycle",
+            "operator:type": "private",
+            "operator:wikidata": "Q4833723",
+            "phone": "+1-800-473-4783",
+            "ref": "3725",
+            "website": "https://madison.bcycle.com/"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Sid Boyum Multi-Layered Pyramid",
+          "latitude": 43.0918667,
+          "longitude": -89.3368717,
+          "osmType": "node",
+          "osmId": 6899043706,
+          "sourceUrl": "https://www.openstreetmap.org/node/6899043706",
+          "tags": {
+            "artist_name": "Sid Boyum",
+            "artwork_type": "sculpture",
+            "material": "concrete",
+            "name": "Sid Boyum Multi-Layered Pyramid",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Ian's Pizza",
+          "latitude": 43.0946618,
+          "longitude": -89.3345576,
+          "osmType": "node",
+          "osmId": 8505240524,
+          "sourceUrl": "https://www.openstreetmap.org/node/8505240524",
+          "tags": {
+            "amenity": "fast_food",
+            "cuisine": "pizza",
+            "diet:halal": "no",
+            "diet:kosher": "no",
+            "diet:vegan": "yes",
+            "diet:vegetarian": "yes",
+            "name": "Ian's Pizza",
+            "opening_hours": "Mo-Su 11:00-21:00",
+            "wheelchair": "yes"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Capital City Trail at Garver Feed Mill",
+          "latitude": 43.0945001,
+          "longitude": -89.3349972,
+          "osmType": "node",
+          "osmId": 8521505736,
+          "sourceUrl": "https://www.openstreetmap.org/node/8521505736",
+          "tags": {
+            "amenity": "bicycle_rental",
+            "bicycle_rental": "docking_station",
+            "brand": "BCycle",
+            "brand:wikidata": "Q4833723",
+            "capacity": "11",
+            "name": "Capital City Trail at Garver Feed Mill",
+            "network": "Madison BCycle",
+            "opening_hours": "Mar 15-Dec 15",
+            "operator": "BCycle",
+            "operator:type": "private",
+            "operator:wikidata": "Q4833723",
+            "website": "https://madison.bcycle.com/"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Ledger Coffee Roasters",
+          "latitude": 43.0946774,
+          "longitude": -89.3343709,
+          "osmType": "node",
+          "osmId": 9396823242,
+          "sourceUrl": "https://www.openstreetmap.org/node/9396823242",
+          "tags": {
+            "addr:city": "Madison",
+            "addr:housenumber": "3241",
+            "addr:postcode": "53704",
+            "addr:state": "WI",
+            "addr:street": "Garver Green",
+            "addr:unit": "Suite 140",
+            "amenity": "cafe",
+            "cuisine": "coffee_shop",
+            "internet_access": "wlan",
+            "internet_access:fee": "no",
+            "internet_access:ssid": "GFM_Public",
+            "name": "Ledger Coffee Roasters",
+            "opening_hours": "Mo-Fr 07:30-16:00; Sa-Su 08:00-16:00",
+            "outdoor_seating": "yes",
+            "phone": "+1-608-609-8054",
+            "takeaway": "yes",
+            "website": "https://www.ledgercoffee.com/"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Dane County Farmers' Market - Late Winter Market",
+          "latitude": 43.0945392,
+          "longitude": -89.3343968,
+          "osmType": "node",
+          "osmId": 10180882663,
+          "sourceUrl": "https://www.openstreetmap.org/node/10180882663",
+          "tags": {
+            "addr:city": "Madison",
+            "addr:housenumber": "3241",
+            "addr:postcode": "53704",
+            "addr:state": "WI",
+            "addr:street": "Garver Green",
+            "amenity": "marketplace",
+            "indoor": "yes",
+            "name": "Dane County Farmers' Market - Late Winter Market",
+            "opening_hours": "Jan-Apr Sa 08:00-12:00",
+            "operator": "Dane County Farmers' Market",
+            "payment:ebt": "yes",
+            "phone": "+1-608-455-1999"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Atwood & Oakridge (WB)",
+          "latitude": 43.0921143,
+          "longitude": -89.336744,
+          "osmType": "node",
+          "osmId": 10981191150,
+          "sourceUrl": "https://www.openstreetmap.org/node/10981191150",
+          "tags": {
+            "bench": "no",
+            "bin": "no",
+            "bus": "yes",
+            "highway": "bus_stop",
+            "lit": "no",
+            "name": "Atwood & Oakridge (WB)",
+            "network": "Madison Metro Transit",
+            "network:wikidata": "Q6728045",
+            "operator": "City of Madison",
+            "operator:wikidata": "Q43788",
+            "public_transport": "platform",
+            "ref": "1622",
+            "shelter": "no",
+            "tactile_paving": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Atwood & Walter (NB)",
+          "latitude": 43.0897545,
+          "longitude": -89.3298815,
+          "osmType": "node",
+          "osmId": 10981191151,
+          "sourceUrl": "https://www.openstreetmap.org/node/10981191151",
+          "tags": {
+            "bench": "yes",
+            "bin": "yes",
+            "bus": "yes",
+            "highway": "bus_stop",
+            "lit": "yes",
+            "name": "Atwood & Walter (NB)",
+            "network": "Madison Metro Transit",
+            "network:wikidata": "Q6728045",
+            "operator": "City of Madison",
+            "operator:wikidata": "Q43788",
+            "public_transport": "platform",
+            "ref": "7888",
+            "shelter": "yes",
+            "tactile_paving": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Atwood & Margaret (SB)",
+          "latitude": 43.087553,
+          "longitude": -89.3274014,
+          "osmType": "node",
+          "osmId": 10981191152,
+          "sourceUrl": "https://www.openstreetmap.org/node/10981191152",
+          "tags": {
+            "bench": "no",
+            "bin": "no",
+            "bus": "yes",
+            "highway": "bus_stop",
+            "name": "Atwood & Margaret (SB)",
+            "network": "Madison Metro Transit",
+            "network:wikidata": "Q6728045",
+            "operator": "City of Madison",
+            "operator:wikidata": "Q43788",
+            "public_transport": "platform",
+            "shelter": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Roll Play",
+          "latitude": 43.0948429,
+          "longitude": -89.3351492,
+          "osmType": "node",
+          "osmId": 12532295503,
+          "sourceUrl": "https://www.openstreetmap.org/node/12532295503",
+          "tags": {
+            "amenity": "cafe",
+            "name": "Roll Play",
+            "opening_hours": "Tu-Th 15:00-21:00; Fr 12:00-22:00; Sa 11:00-22:00; Su 11:00-19:00; Mo off"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Atrium Shade Garden",
+          "latitude": 43.0919827,
+          "longitude": -89.3352103,
+          "osmType": "node",
+          "osmId": 13004627179,
+          "sourceUrl": "https://www.openstreetmap.org/node/13004627179",
+          "tags": {
+            "garden:type": "botanical",
+            "leisure": "garden",
+            "name": "Atrium Shade Garden"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Prairie Dropseed Meadow",
+          "latitude": 43.0916165,
+          "longitude": -89.3352217,
+          "osmType": "node",
+          "osmId": 13004627180,
+          "sourceUrl": "https://www.openstreetmap.org/node/13004627180",
+          "tags": {
+            "garden:type": "botanical",
+            "leisure": "garden",
+            "name": "Prairie Dropseed Meadow"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Meadow Garden",
+          "latitude": 43.0916885,
+          "longitude": -89.3347836,
+          "osmType": "node",
+          "osmId": 13004627184,
+          "sourceUrl": "https://www.openstreetmap.org/node/13004627184",
+          "tags": {
+            "garden:type": "botanical",
+            "leisure": "garden",
+            "name": "Meadow Garden"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Birch Walk",
+          "latitude": 43.092233,
+          "longitude": -89.3336441,
+          "osmType": "node",
+          "osmId": 13004627185,
+          "sourceUrl": "https://www.openstreetmap.org/node/13004627185",
+          "tags": {
+            "garden:type": "botanical",
+            "leisure": "garden",
+            "name": "Birch Walk"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Walter Street",
+          "latitude": 43.0893565,
+          "longitude": -89.3295468,
+          "osmType": "way",
+          "osmId": 6586135,
+          "sourceUrl": "https://www.openstreetmap.org/way/6586135",
+          "tags": {
+            "cycleway:both": "no",
+            "highway": "residential",
+            "lane_markings": "yes",
+            "lanes": "2",
+            "name": "Walter Street",
+            "sidewalk:both": "separate",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Dane, WI",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Sugar Avenue",
+          "latitude": 43.0935965,
+          "longitude": -89.3355983,
+          "osmType": "way",
+          "osmId": 6671142,
+          "sourceUrl": "https://www.openstreetmap.org/way/6671142",
+          "tags": {
+            "bicycle": "yes",
+            "highway": "service",
+            "motor_vehicle": "private",
+            "name": "Sugar Avenue",
+            "surface": "compacted"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Olbrich Park",
+          "latitude": 43.0916982,
+          "longitude": -89.3326815,
+          "osmType": "way",
+          "osmId": 28725841,
+          "sourceUrl": "https://www.openstreetmap.org/way/28725841",
+          "tags": {
+            "alt_name": "Olbrich Botanical Complex",
+            "ele": "259",
+            "gnis:feature_id": "1570765",
+            "leisure": "park",
+            "name": "Olbrich Park",
+            "operator": "City of Madison",
+            "operator:type": "government",
+            "operator:wikidata": "Q43788",
+            "wikidata": "Q49534875"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Garver Green",
+          "latitude": 43.0962001,
+          "longitude": -89.3358103,
+          "osmType": "way",
+          "osmId": 41692978,
+          "sourceUrl": "https://www.openstreetmap.org/way/41692978",
+          "tags": {
+            "cycleway:both": "no",
+            "highway": "residential",
+            "lane_markings": "no",
+            "lit": "yes",
+            "name": "Garver Green",
+            "sidewalk": "left",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Atwood Avenue",
+          "latitude": 43.0910705,
+          "longitude": -89.3341028,
+          "osmType": "way",
+          "osmId": 158460415,
+          "sourceUrl": "https://www.openstreetmap.org/way/158460415",
+          "tags": {
+            "bridge": "yes",
+            "cycleway:left": "no",
+            "cycleway:right": "separate",
+            "hgv": "designated",
+            "highway": "tertiary",
+            "lanes": "4",
+            "layer": "1",
+            "maxspeed": "25 mph",
+            "name": "Atwood Avenue",
+            "name:etymology:wikidata": "Q1173603",
+            "sidewalk:both": "separate",
+            "source:hgv": "https://library.municode.com/wi/madison/codes/code_of_ordinances?nodeId=COORMAWIVOIICH11--19_CH12VECO_CLTRCEHI_12.89HETRRO",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Dane, WI",
+            "tiger:name_base": "Atwood",
+            "tiger:name_type": "Ave",
+            "tiger:reviewed": "no",
+            "tiger:zip_left": "53714",
+            "tiger:zip_right": "53704"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Atwood Avenue",
+          "latitude": 43.0904341,
+          "longitude": -89.3322091,
+          "osmType": "way",
+          "osmId": 158460416,
+          "sourceUrl": "https://www.openstreetmap.org/way/158460416",
+          "tags": {
+            "cycleway:left": "no",
+            "cycleway:right": "separate",
+            "hgv": "designated",
+            "highway": "tertiary",
+            "lanes": "4",
+            "lanes:backward": "3",
+            "lanes:forward": "1",
+            "maxspeed": "25 mph",
+            "name": "Atwood Avenue",
+            "name:etymology:wikidata": "Q1173603",
+            "sidewalk:both": "separate",
+            "source:hgv": "https://library.municode.com/wi/madison/codes/code_of_ordinances?nodeId=COORMAWIVOIICH11--19_CH12VECO_CLTRCEHI_12.89HETRRO",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Dane, WI",
+            "tiger:name_base": "Atwood",
+            "tiger:name_type": "Ave",
+            "tiger:reviewed": "no",
+            "tiger:zip_left": "53714",
+            "tiger:zip_right": "53704",
+            "turn:lanes:backward": "left|none|none"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Starkweather Creek",
+          "latitude": 43.0935125,
+          "longitude": -89.3332361,
+          "osmType": "way",
+          "osmId": 158460536,
+          "sourceUrl": "https://www.openstreetmap.org/way/158460536",
+          "tags": {
+            "boat": "no",
+            "name": "Starkweather Creek",
+            "waterway": "stream"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Capital City State Trail",
+          "latitude": 43.0931535,
+          "longitude": -89.3326837,
+          "osmType": "way",
+          "osmId": 158460538,
+          "sourceUrl": "https://www.openstreetmap.org/way/158460538",
+          "tags": {
+            "bicycle": "designated",
+            "bridge": "yes",
+            "foot": "designated",
+            "highway": "cycleway",
+            "layer": "1",
+            "name": "Capital City State Trail",
+            "railway": "abandoned",
+            "segregated": "no",
+            "surface": "asphalt",
+            "tiger:cfcc": "B11",
+            "tiger:county": "Dane, WI"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Capital City State Trail",
+          "latitude": 43.092112,
+          "longitude": -89.3303015,
+          "osmType": "way",
+          "osmId": 158460542,
+          "sourceUrl": "https://www.openstreetmap.org/way/158460542",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "lit": "yes",
+            "name": "Capital City State Trail",
+            "railway": "abandoned",
+            "segregated": "no",
+            "surface": "asphalt",
+            "tiger:cfcc": "B11",
+            "tiger:county": "Dane, WI",
+            "width": "8'"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Olbrich Beach",
+          "latitude": 43.0875948,
+          "longitude": -89.3301488,
+          "osmType": "way",
+          "osmId": 158462314,
+          "sourceUrl": "https://www.openstreetmap.org/way/158462314",
+          "tags": {
+            "name": "Olbrich Beach",
+            "natural": "beach",
+            "surface": "sand"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Atwood Avenue",
+          "latitude": 43.0878438,
+          "longitude": -89.3275948,
+          "osmType": "way",
+          "osmId": 230280937,
+          "sourceUrl": "https://www.openstreetmap.org/way/230280937",
+          "tags": {
+            "cycleway:both": "separate",
+            "hgv": "designated",
+            "highway": "tertiary",
+            "lanes": "3",
+            "maxspeed": "25 mph",
+            "name": "Atwood Avenue",
+            "name:etymology:wikidata": "Q1173603",
+            "sidewalk:both": "separate",
+            "source:hgv": "https://library.municode.com/wi/madison/codes/code_of_ordinances?nodeId=COORMAWIVOIICH11--19_CH12VECO_CLTRCEHI_12.89HETRRO",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Dane, WI",
+            "tiger:name_base": "Atwood",
+            "tiger:name_type": "Ave",
+            "tiger:reviewed": "no",
+            "tiger:zip_left": "53714",
+            "tiger:zip_right": "53704"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Atwood Avenue",
+          "latitude": 43.0898382,
+          "longitude": -89.3306312,
+          "osmType": "way",
+          "osmId": 230280938,
+          "sourceUrl": "https://www.openstreetmap.org/way/230280938",
+          "tags": {
+            "cycleway:right": "separate",
+            "hgv": "designated",
+            "highway": "tertiary",
+            "lanes": "1",
+            "maxspeed": "25 mph",
+            "name": "Atwood Avenue",
+            "name:etymology:wikidata": "Q1173603",
+            "oneway": "yes",
+            "sidewalk:left": "no",
+            "sidewalk:right": "separate",
+            "source:hgv": "https://library.municode.com/wi/madison/codes/code_of_ordinances?nodeId=COORMAWIVOIICH11--19_CH12VECO_CLTRCEHI_12.89HETRRO",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Dane, WI",
+            "tiger:name_base": "Atwood",
+            "tiger:name_type": "Ave",
+            "tiger:reviewed": "no",
+            "tiger:zip_left": "53714",
+            "tiger:zip_right": "53704"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Olbrich Botanical Gardens",
+          "latitude": 43.092702,
+          "longitude": -89.3349781,
+          "osmType": "way",
+          "osmId": 265881695,
+          "sourceUrl": "https://www.openstreetmap.org/way/265881695",
+          "tags": {
+            "access": "customers",
+            "addr:city": "Madison",
+            "addr:housenumber": "3330",
+            "addr:postcode": "53704",
+            "addr:state": "WI",
+            "addr:street": "Atwood Avenue",
+            "garden:type": "botanical",
+            "leisure": "garden",
+            "name": "Olbrich Botanical Gardens",
+            "opening_hours": "Apr-Aug 09:00-20:00; Sep-Oct 09:00-18:00; Nov-Mar 09:00-16:00; PH closed",
+            "tourism": "attraction",
+            "website": "https://www.olbrich.org/",
+            "wheelchair": "yes",
+            "wikidata": "Q9010914",
+            "wikipedia": "en:Olbrich Botanical Gardens"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Welch Avenue",
+          "latitude": 43.090598,
+          "longitude": -89.3387086,
+          "osmType": "way",
+          "osmId": 293253882,
+          "sourceUrl": "https://www.openstreetmap.org/way/293253882",
+          "tags": {
+            "cycleway:both": "no",
+            "highway": "residential",
+            "lane_markings": "no",
+            "name": "Welch Avenue",
+            "sidewalk": "right",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Dane, WI",
+            "tiger:name_base": "Welch",
+            "tiger:name_type": "Ave",
+            "tiger:reviewed": "no",
+            "tiger:zip_left": "53704",
+            "tiger:zip_right": "53704"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Lake Loop",
+          "latitude": 43.0912587,
+          "longitude": -89.3351674,
+          "osmType": "way",
+          "osmId": 293253890,
+          "sourceUrl": "https://www.openstreetmap.org/way/293253890",
+          "tags": {
+            "bicycle": "designated",
+            "cycleway:surface": "asphalt",
+            "foot": "designated",
+            "footway:surface": "asphalt",
+            "highway": "cycleway",
+            "name": "Lake Loop",
+            "oneway": "no",
+            "segregated": "yes",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Lake Loop",
+          "latitude": 43.0901543,
+          "longitude": -89.3319013,
+          "osmType": "way",
+          "osmId": 293253891,
+          "sourceUrl": "https://www.openstreetmap.org/way/293253891",
+          "tags": {
+            "bicycle": "designated",
+            "cycleway:surface": "asphalt",
+            "foot": "designated",
+            "footway:surface": "asphalt",
+            "highway": "cycleway",
+            "name": "Lake Loop",
+            "segregated": "yes",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Lake Loop",
+          "latitude": 43.0909533,
+          "longitude": -89.3341823,
+          "osmType": "way",
+          "osmId": 293253892,
+          "sourceUrl": "https://www.openstreetmap.org/way/293253892",
+          "tags": {
+            "bicycle": "designated",
+            "bridge": "yes",
+            "cycleway:surface": "concrete",
+            "foot": "designated",
+            "footway:surface": "concrete",
+            "highway": "cycleway",
+            "name": "Lake Loop",
+            "segregated": "yes",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Sugar Avenue",
+          "latitude": 43.0928264,
+          "longitude": -89.336402,
+          "osmType": "way",
+          "osmId": 509998952,
+          "sourceUrl": "https://www.openstreetmap.org/way/509998952",
+          "tags": {
+            "bicycle": "yes",
+            "highway": "service",
+            "name": "Sugar Avenue",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Garver Feed Mill",
+          "latitude": 43.0947314,
+          "longitude": -89.3346234,
+          "osmType": "way",
+          "osmId": 510000656,
+          "sourceUrl": "https://www.openstreetmap.org/way/510000656",
+          "tags": {
+            "building": "commercial",
+            "building:levels": "3",
+            "historic": "mill",
+            "name": "Garver Feed Mill",
+            "wikidata": "Q54952858",
+            "wikipedia": "en:Garver Feed Mill"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Madison Water Utility Well 8",
+          "latitude": 43.0909469,
+          "longitude": -89.3384142,
+          "osmType": "way",
+          "osmId": 514607322,
+          "sourceUrl": "https://www.openstreetmap.org/way/514607322",
+          "tags": {
+            "access": "private",
+            "building": "service",
+            "man_made": "reservoir_covered",
+            "name": "Madison Water Utility Well 8",
+            "note": "Not sure how exactly this should be mapped, since it is a building, but partially buried. This is the City of Madison's Madison Water Utility Well 8.",
+            "operator": "City of Madison"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Olbrich Biergarten",
+          "latitude": 43.0880005,
+          "longitude": -89.3308322,
+          "osmType": "way",
+          "osmId": 572764803,
+          "sourceUrl": "https://www.openstreetmap.org/way/572764803",
+          "tags": {
+            "amenity": "biergarten",
+            "name": "Olbrich Biergarten",
+            "opening_hours": "Apr-Oct: Mo-Th 16:00-22:00; Apr-Oct: Fr 15:00-22:00; Apr-Oct: Sa,Su,PH 12:00-22:00",
+            "outdoor_seating": "yes"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Royal Thai Pavillion",
+          "latitude": 43.0926154,
+          "longitude": -89.33253,
+          "osmType": "way",
+          "osmId": 678319071,
+          "sourceUrl": "https://www.openstreetmap.org/way/678319071",
+          "tags": {
+            "amenity": "shelter",
+            "building": "roof",
+            "name": "Royal Thai Pavillion"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Atwood Avenue",
+          "latitude": 43.0899342,
+          "longitude": -89.330723,
+          "osmType": "way",
+          "osmId": 700376910,
+          "sourceUrl": "https://www.openstreetmap.org/way/700376910",
+          "tags": {
+            "cycleway:right": "no",
+            "hgv": "designated",
+            "highway": "tertiary",
+            "lanes": "2",
+            "maxspeed": "25 mph",
+            "name": "Atwood Avenue",
+            "name:etymology:wikidata": "Q1173603",
+            "oneway": "yes",
+            "sidewalk:left": "no",
+            "sidewalk:right": "separate",
+            "source:hgv": "https://library.municode.com/wi/madison/codes/code_of_ordinances?nodeId=COORMAWIVOIICH11--19_CH12VECO_CLTRCEHI_12.89HETRRO",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Dane, WI",
+            "tiger:name_base": "Atwood",
+            "tiger:name_type": "Ave",
+            "tiger:reviewed": "no",
+            "tiger:zip_left": "53714",
+            "tiger:zip_right": "53704"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Sugar Avenue",
+          "latitude": 43.092273,
+          "longitude": -89.3367515,
+          "osmType": "way",
+          "osmId": 751138210,
+          "sourceUrl": "https://www.openstreetmap.org/way/751138210",
+          "tags": {
+            "cycleway:both": "no",
+            "highway": "residential",
+            "lane_markings": "no",
+            "name": "Sugar Avenue",
+            "sidewalk": "no",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Dane, WI",
+            "tiger:name_base": "Sugar",
+            "tiger:name_type": "Ave",
+            "tiger:reviewed": "no",
+            "tiger:zip_left": "53593",
+            "tiger:zip_right": "53593"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Garver Path",
+          "latitude": 43.0939806,
+          "longitude": -89.3332066,
+          "osmType": "way",
+          "osmId": 1018789263,
+          "sourceUrl": "https://www.openstreetmap.org/way/1018789263",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "lit": "yes",
+            "name": "Garver Path",
+            "segregated": "no",
+            "surface": "asphalt",
+            "width": "10'"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Atwood Avenue",
+          "latitude": 43.0914061,
+          "longitude": -89.3350941,
+          "osmType": "way",
+          "osmId": 1186706010,
+          "sourceUrl": "https://www.openstreetmap.org/way/1186706010",
+          "tags": {
+            "cycleway:right": "no",
+            "hgv": "designated",
+            "highway": "tertiary",
+            "lanes": "2",
+            "maxspeed": "25 mph",
+            "name": "Atwood Avenue",
+            "name:etymology:wikidata": "Q1173603",
+            "oneway": "yes",
+            "sidewalk:left": "no",
+            "sidewalk:right": "separate",
+            "source:hgv": "https://library.municode.com/wi/madison/codes/code_of_ordinances?nodeId=COORMAWIVOIICH11--19_CH12VECO_CLTRCEHI_12.89HETRRO",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Dane, WI",
+            "tiger:name_base": "Atwood",
+            "tiger:name_type": "Ave",
+            "tiger:reviewed": "no",
+            "tiger:zip_left": "53714",
+            "tiger:zip_right": "53704"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Lake Loop",
+          "latitude": 43.0910611,
+          "longitude": -89.337218,
+          "osmType": "way",
+          "osmId": 1197554124,
+          "sourceUrl": "https://www.openstreetmap.org/way/1197554124",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Lake Loop",
+            "oneway": "no",
+            "segregated": "no",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Lake Loop",
+          "latitude": 43.0906803,
+          "longitude": -89.3385581,
+          "osmType": "way",
+          "osmId": 1201228297,
+          "sourceUrl": "https://www.openstreetmap.org/way/1201228297",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Lake Loop",
+            "segregated": "no",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Olbrich Park - Hockey Rink",
+          "latitude": 43.0936251,
+          "longitude": -89.3373152,
+          "osmType": "way",
+          "osmId": 1348623701,
+          "sourceUrl": "https://www.openstreetmap.org/way/1348623701",
+          "tags": {
+            "addr:city": "Madison",
+            "addr:housenumber": "201",
+            "addr:postcode": "53704",
+            "addr:state": "WI",
+            "addr:street": "Garrison Street",
+            "leisure": "ice_rink",
+            "name": "Olbrich Park - Hockey Rink",
+            "opening_hours": "Mo-Fr 11:00-20:00; Sa 12:00-20:00; Su 12:00-18:00",
+            "operator": "Adopt Ice Partnership and City of Madison Parks Division",
+            "seasonal": "yes",
+            "sport": "ice_hockey",
+            "website": "https://www.cityofmadison.com/parks/find-a-park/facilities/iceRink.cfm?id=9"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Olbrich Park Ice Rink",
+          "latitude": 43.0942421,
+          "longitude": -89.3364312,
+          "osmType": "way",
+          "osmId": 1354490382,
+          "sourceUrl": "https://www.openstreetmap.org/way/1354490382",
+          "tags": {
+            "addr:housenumber": "201",
+            "addr:street": "Garrison Street",
+            "leisure": "ice_rink",
+            "name": "Olbrich Park Ice Rink",
+            "opening_hours": "Mo-Fr 11:00-20:00; Sa 12:00-20:00; Su 12:00-18:00",
+            "operator": "City of Madison Parks Division",
+            "seasonal": "yes",
+            "sport": "ice_skating",
+            "website": "https://www.cityofmadison.com/parks/find-a-park/facilities/iceRink.cfm?id=8"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Atwood Avenue",
+          "latitude": 43.0919052,
+          "longitude": -89.3364443,
+          "osmType": "way",
+          "osmId": 1372759022,
+          "sourceUrl": "https://www.openstreetmap.org/way/1372759022",
+          "tags": {
+            "cycleway:left": "no",
+            "cycleway:right": "separate",
+            "hgv": "designated",
+            "highway": "tertiary",
+            "lanes": "4",
+            "maxspeed": "25 mph",
+            "name": "Atwood Avenue",
+            "name:etymology:wikidata": "Q1173603",
+            "sidewalk:both": "separate",
+            "source:hgv": "https://library.municode.com/wi/madison/codes/code_of_ordinances?nodeId=COORMAWIVOIICH11--19_CH12VECO_CLTRCEHI_12.89HETRRO",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Dane, WI",
+            "tiger:name_base": "Atwood",
+            "tiger:name_type": "Ave",
+            "tiger:reviewed": "no",
+            "tiger:zip_left": "53714",
+            "tiger:zip_right": "53704"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Atwood Avenue",
+          "latitude": 43.0914061,
+          "longitude": -89.3350941,
+          "osmType": "way",
+          "osmId": 1372759023,
+          "sourceUrl": "https://www.openstreetmap.org/way/1372759023",
+          "tags": {
+            "cycleway:right": "separate",
+            "hgv": "designated",
+            "highway": "tertiary",
+            "lanes": "1",
+            "maxspeed": "25 mph",
+            "name": "Atwood Avenue",
+            "name:etymology:wikidata": "Q1173603",
+            "oneway": "yes",
+            "sidewalk:left": "no",
+            "sidewalk:right": "separate",
+            "source:hgv": "https://library.municode.com/wi/madison/codes/code_of_ordinances?nodeId=COORMAWIVOIICH11--19_CH12VECO_CLTRCEHI_12.89HETRRO",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Dane, WI",
+            "tiger:name_base": "Atwood",
+            "tiger:name_type": "Ave",
+            "tiger:reviewed": "no",
+            "tiger:zip_left": "53714",
+            "tiger:zip_right": "53704"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Atwood Avenue",
+          "latitude": 43.0909546,
+          "longitude": -89.3337515,
+          "osmType": "way",
+          "osmId": 1372759024,
+          "sourceUrl": "https://www.openstreetmap.org/way/1372759024",
+          "tags": {
+            "cycleway:left": "no",
+            "cycleway:right": "separate",
+            "hgv": "designated",
+            "highway": "tertiary",
+            "lanes": "4",
+            "maxspeed": "25 mph",
+            "name": "Atwood Avenue",
+            "name:etymology:wikidata": "Q1173603",
+            "sidewalk:both": "separate",
+            "source:hgv": "https://library.municode.com/wi/madison/codes/code_of_ordinances?nodeId=COORMAWIVOIICH11--19_CH12VECO_CLTRCEHI_12.89HETRRO",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Dane, WI",
+            "tiger:name_base": "Atwood",
+            "tiger:name_type": "Ave",
+            "tiger:reviewed": "no",
+            "tiger:zip_left": "53714",
+            "tiger:zip_right": "53704"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Atwood Avenue",
+          "latitude": 43.0907064,
+          "longitude": -89.3330131,
+          "osmType": "way",
+          "osmId": 1372759025,
+          "sourceUrl": "https://www.openstreetmap.org/way/1372759025",
+          "tags": {
+            "cycleway:right": "no",
+            "hgv": "designated",
+            "highway": "tertiary",
+            "lanes": "2",
+            "maxspeed": "25 mph",
+            "name": "Atwood Avenue",
+            "name:etymology:wikidata": "Q1173603",
+            "oneway": "yes",
+            "sidewalk:left": "no",
+            "sidewalk:right": "separate",
+            "source:hgv": "https://library.municode.com/wi/madison/codes/code_of_ordinances?nodeId=COORMAWIVOIICH11--19_CH12VECO_CLTRCEHI_12.89HETRRO",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Dane, WI",
+            "tiger:name_base": "Atwood",
+            "tiger:name_type": "Ave",
+            "tiger:reviewed": "no",
+            "tiger:zip_left": "53714",
+            "tiger:zip_right": "53704"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Atwood Avenue",
+          "latitude": 43.0907064,
+          "longitude": -89.3330131,
+          "osmType": "way",
+          "osmId": 1372759026,
+          "sourceUrl": "https://www.openstreetmap.org/way/1372759026",
+          "tags": {
+            "cycleway:right": "separate",
+            "hgv": "designated",
+            "highway": "tertiary",
+            "lanes": "1",
+            "maxspeed": "25 mph",
+            "name": "Atwood Avenue",
+            "name:etymology:wikidata": "Q1173603",
+            "oneway": "yes",
+            "sidewalk:left": "no",
+            "sidewalk:right": "separate",
+            "source:hgv": "https://library.municode.com/wi/madison/codes/code_of_ordinances?nodeId=COORMAWIVOIICH11--19_CH12VECO_CLTRCEHI_12.89HETRRO",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Dane, WI",
+            "tiger:name_base": "Atwood",
+            "tiger:name_type": "Ave",
+            "tiger:reviewed": "no",
+            "tiger:zip_left": "53714",
+            "tiger:zip_right": "53704"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Atwood Avenue",
+          "latitude": 43.0903075,
+          "longitude": -89.3318362,
+          "osmType": "way",
+          "osmId": 1456169623,
+          "sourceUrl": "https://www.openstreetmap.org/way/1456169623",
+          "tags": {
+            "cycleway:left": "no",
+            "cycleway:right": "separate",
+            "hgv": "designated",
+            "highway": "tertiary",
+            "lanes": "4",
+            "maxspeed": "25 mph",
+            "name": "Atwood Avenue",
+            "name:etymology:wikidata": "Q1173603",
+            "sidewalk:both": "separate",
+            "source:hgv": "https://library.municode.com/wi/madison/codes/code_of_ordinances?nodeId=COORMAWIVOIICH11--19_CH12VECO_CLTRCEHI_12.89HETRRO",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Dane, WI",
+            "tiger:name_base": "Atwood",
+            "tiger:name_type": "Ave",
+            "tiger:reviewed": "no",
+            "tiger:zip_left": "53714",
+            "tiger:zip_right": "53704"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    },
+    "launch-wi-madison-vilas-park": {
+      "name": "Vilas Park",
+      "boundarySource": "https://www.openstreetmap.org/relation/14645861",
+      "candidates": [
+        {
+          "name": "Vilas Park @ Arboretum",
+          "latitude": 43.0571816,
+          "longitude": -89.4042559,
+          "osmType": "node",
+          "osmId": 3413426761,
+          "sourceUrl": "https://www.openstreetmap.org/node/3413426761",
+          "tags": {
+            "addr:housenumber": "850",
+            "addr:street": "South Mills Street",
+            "amenity": "bicycle_rental",
+            "brand": "BCycle",
+            "brand:wikidata": "Q4833723",
+            "capacity": "15",
+            "name": "Vilas Park @ Arboretum",
+            "network": "Madison BCycle",
+            "opening_hours": "Mar 15-Dec 15",
+            "operator": "BCycle",
+            "operator:type": "private",
+            "operator:wikidata": "Q4833723",
+            "phone": "+1-800-473-4757",
+            "ref": "1898",
+            "website": "https://madison.bcycle.com/"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Annie C. Stewart Memorial Fountain",
+          "latitude": 43.0598866,
+          "longitude": -89.4085947,
+          "osmType": "node",
+          "osmId": 5100047818,
+          "sourceUrl": "https://www.openstreetmap.org/node/5100047818",
+          "tags": {
+            "artist_name": "Frederick Clasgens",
+            "artwork_type": "sculpture",
+            "name": "Annie C. Stewart Memorial Fountain",
+            "note": "Not marking as a fountain since it hasn't had water in it for decades.",
+            "tourism": "artwork",
+            "wikidata": "Q30629545",
+            "wikipedia": "en:Annie C. Stewart Memorial Fountain"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Vilas Park Entrance",
+          "latitude": 43.0615028,
+          "longitude": -89.4095714,
+          "osmType": "way",
+          "osmId": 6725728,
+          "sourceUrl": "https://www.openstreetmap.org/way/6725728",
+          "tags": {
+            "highway": "service",
+            "name": "Vilas Park Entrance",
+            "oneway": "yes",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Dane, WI",
+            "tiger:name_base": "Vilas Park Entrance",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Vilas Park Drive",
+          "latitude": 43.0581571,
+          "longitude": -89.4097048,
+          "osmType": "way",
+          "osmId": 38239298,
+          "sourceUrl": "https://www.openstreetmap.org/way/38239298",
+          "tags": {
+            "bicycle": "designated",
+            "cycleway": "shared_lane",
+            "cycleway:both": "shared_lane",
+            "highway": "unclassified",
+            "maxspeed": "20 mph",
+            "name": "Vilas Park Drive",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Dane, WI",
+            "tiger:name_base": "Vilas Park",
+            "tiger:name_type": "Dr",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Vilas Park Drive",
+          "latitude": 43.0593095,
+          "longitude": -89.4170888,
+          "osmType": "way",
+          "osmId": 38239302,
+          "sourceUrl": "https://www.openstreetmap.org/way/38239302",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Vilas Park Drive",
+            "segregated": "yes",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Dane, WI",
+            "tiger:name_base": "Vilas Park",
+            "tiger:name_type": "Dr",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Vilas Park Path",
+          "latitude": 43.0614721,
+          "longitude": -89.4137751,
+          "osmType": "way",
+          "osmId": 107665556,
+          "sourceUrl": "https://www.openstreetmap.org/way/107665556",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Vilas Park Path",
+            "segregated": "no",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Vilas Shelter",
+          "latitude": 43.0589494,
+          "longitude": -89.413919,
+          "osmType": "way",
+          "osmId": 107665562,
+          "sourceUrl": "https://www.openstreetmap.org/way/107665562",
+          "tags": {
+            "amenity": "shelter",
+            "building": "yes",
+            "name": "Vilas Shelter",
+            "shelter_type": "picnic_shelter"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Vilas Park Drive",
+          "latitude": 43.0591423,
+          "longitude": -89.4170676,
+          "osmType": "way",
+          "osmId": 120435573,
+          "sourceUrl": "https://www.openstreetmap.org/way/120435573",
+          "tags": {
+            "bicycle": "designated",
+            "bridge": "yes",
+            "foot": "designated",
+            "highway": "cycleway",
+            "layer": "1",
+            "maxweight": "4 st",
+            "name": "Vilas Park Drive",
+            "segregated": "yes",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Dane, WI",
+            "tiger:name_base": "Vilas Park",
+            "tiger:name_type": "Dr",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Vilas Park Drive",
+          "latitude": 43.0582127,
+          "longitude": -89.4125994,
+          "osmType": "way",
+          "osmId": 120435576,
+          "sourceUrl": "https://www.openstreetmap.org/way/120435576",
+          "tags": {
+            "bicycle": "designated",
+            "cycleway": "shared_lane",
+            "cycleway:both": "shared_lane",
+            "highway": "unclassified",
+            "maxspeed": "20 mph",
+            "name": "Vilas Park Drive",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Dane, WI",
+            "tiger:name_base": "Vilas Park",
+            "tiger:name_type": "Dr",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Vilas Park Beach",
+          "latitude": 43.0580299,
+          "longitude": -89.4111501,
+          "osmType": "way",
+          "osmId": 158911023,
+          "sourceUrl": "https://www.openstreetmap.org/way/158911023",
+          "tags": {
+            "fee": "no",
+            "fee:parking": "no",
+            "name": "Vilas Park Beach",
+            "natural": "beach",
+            "surface": "sand"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Wingra Creek Path",
+          "latitude": 43.0576286,
+          "longitude": -89.4054856,
+          "osmType": "way",
+          "osmId": 266750272,
+          "sourceUrl": "https://www.openstreetmap.org/way/266750272",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Wingra Creek Path",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Vilas Park Drive",
+          "latitude": 43.061972,
+          "longitude": -89.4122823,
+          "osmType": "way",
+          "osmId": 347428521,
+          "sourceUrl": "https://www.openstreetmap.org/way/347428521",
+          "tags": {
+            "highway": "residential",
+            "name": "Vilas Park Drive",
+            "oneway": "yes",
+            "oneway:bicycle": "no",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Dane, WI",
+            "tiger:name_base": "Vilas Park",
+            "tiger:name_type": "Dr",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "South Randall Avenue",
+          "latitude": 43.0610238,
+          "longitude": -89.4090475,
+          "osmType": "way",
+          "osmId": 407510626,
+          "sourceUrl": "https://www.openstreetmap.org/way/407510626",
+          "tags": {
+            "highway": "residential",
+            "name": "South Randall Avenue",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Vilas Park Path",
+          "latitude": 43.0602921,
+          "longitude": -89.4164056,
+          "osmType": "way",
+          "osmId": 646178486,
+          "sourceUrl": "https://www.openstreetmap.org/way/646178486",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Vilas Park Path",
+            "segregated": "no",
+            "surface": "paved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Vilas Park Drive",
+          "latitude": 43.058576,
+          "longitude": -89.415984,
+          "osmType": "way",
+          "osmId": 1074597045,
+          "sourceUrl": "https://www.openstreetmap.org/way/1074597045",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "motor_vehicle": "no",
+            "name": "Vilas Park Drive",
+            "segregated": "yes",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Dane, WI",
+            "tiger:name_base": "Vilas Park",
+            "tiger:name_type": "Dr",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Vilas Park Mound Group",
+          "latitude": 43.0594717,
+          "longitude": -89.4079677,
+          "osmType": "way",
+          "osmId": 1186039053,
+          "sourceUrl": "https://www.openstreetmap.org/way/1186039053",
+          "tags": {
+            "historic": "archaeological_site",
+            "historic:civilization": "prehistoric",
+            "name": "Vilas Park Mound Group",
+            "ref:nrhp": "91000357",
+            "website": "https://www.cityofmadison.com/planning/landmark/nominations/95_702SRandallAvenue.pdf"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Bird Effigy Mound",
+          "latitude": 43.0595594,
+          "longitude": -89.4081072,
+          "osmType": "way",
+          "osmId": 1186039054,
+          "sourceUrl": "https://www.openstreetmap.org/way/1186039054",
+          "tags": {
+            "archaeological_site": "earthwork",
+            "historic": "archaeological_site",
+            "name": "Bird Effigy Mound"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Vilas Lagoon",
+          "latitude": 43.0593184,
+          "longitude": -89.4140962,
+          "osmType": "relation",
+          "osmId": 1651958,
+          "sourceUrl": "https://www.openstreetmap.org/relation/1651958",
+          "tags": {
+            "name": "Vilas Lagoon",
+            "natural": "water",
+            "type": "multipolygon",
+            "water": "lagoon"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    },
+    "launch-mi-grand-rapids-millennium-park": {
+      "name": "Millennium Park",
+      "boundarySource": "https://www.openstreetmap.org/relation/17576900",
+      "candidates": [
+        {
+          "name": "Millenium Park",
+          "latitude": 42.9361008,
+          "longitude": -85.7496366,
+          "osmType": "node",
+          "osmId": 12096744632,
+          "sourceUrl": "https://www.openstreetmap.org/node/12096744632",
+          "tags": {
+            "addr:city": "Grand Rapids",
+            "addr:housenumber": "1415",
+            "addr:postcode": "49534",
+            "addr:state": "MI",
+            "addr:street": "Maynard Ave SW",
+            "leisure": "park",
+            "name": "Millenium Park"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Indian Mounds Drive Southwest",
+          "latitude": 42.9236391,
+          "longitude": -85.7539228,
+          "osmType": "way",
+          "osmId": 17832031,
+          "sourceUrl": "https://www.openstreetmap.org/way/17832031",
+          "tags": {
+            "cycleway:left": "lane",
+            "cycleway:right": "no",
+            "flood_prone": "yes",
+            "highway": "unclassified",
+            "lanes": "1",
+            "maxspeed": "25 mph",
+            "name": "Indian Mounds Drive Southwest",
+            "oneway": "yes",
+            "oneway:bicycle": "no",
+            "sidewalk:both": "no",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Kent Trails",
+          "latitude": 42.9527646,
+          "longitude": -85.7085966,
+          "osmType": "way",
+          "osmId": 17832095,
+          "sourceUrl": "https://www.openstreetmap.org/way/17832095",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Kent Trails",
+            "segregated": "no",
+            "smoothness": "excellent",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Kent Trails",
+          "latitude": 42.9433286,
+          "longitude": -85.7180214,
+          "osmType": "way",
+          "osmId": 17839232,
+          "sourceUrl": "https://www.openstreetmap.org/way/17839232",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "horse": "no",
+            "motor_vehicle": "no",
+            "name": "Kent Trails",
+            "oneway": "no",
+            "segregated": "no",
+            "smoothness": "excellent",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Maynard Avenue Southwest",
+          "latitude": 42.944795,
+          "longitude": -85.7427579,
+          "osmType": "way",
+          "osmId": 17854213,
+          "sourceUrl": "https://www.openstreetmap.org/way/17854213",
+          "tags": {
+            "highway": "residential",
+            "maxspeed": "45 mph",
+            "name": "Maynard Avenue Southwest",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Kent, MI",
+            "tiger:name_base": "Maynard",
+            "tiger:name_direction_suffix": "SW",
+            "tiger:name_type": "Ave",
+            "tiger:reviewed": "no",
+            "tiger:zip_left": "49534",
+            "tiger:zip_right": "49534"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Gerald R Ford Freeway",
+          "latitude": 42.9520005,
+          "longitude": -85.707938,
+          "osmType": "way",
+          "osmId": 38893850,
+          "sourceUrl": "https://www.openstreetmap.org/way/38893850",
+          "tags": {
+            "bicycle": "no",
+            "foot": "no",
+            "hgv": "designated",
+            "hgv:national_network": "yes",
+            "highway": "motorway",
+            "horse": "no",
+            "lanes": "2",
+            "maxspeed": "70 mph",
+            "maxspeed:hgv": "65 mph",
+            "maxspeed:type": "sign",
+            "minspeed": "55 mph",
+            "name": "Gerald R Ford Freeway",
+            "name:etymology:wikidata": "Q9582",
+            "oneway": "yes",
+            "ref": "I 196",
+            "source:hgv:national_network": "https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map/explore",
+            "source:maxspeed": "sign",
+            "tiger:cfcc": "A15",
+            "tiger:county": "Kent, MI",
+            "tiger:name_base": "I-196",
+            "tiger:name_base_1": "Gerald R Ford",
+            "tiger:name_direction_suffix_1": "SW",
+            "tiger:name_type_1": "Fwy"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Gerald R Ford Freeway",
+          "latitude": 42.9521742,
+          "longitude": -85.7075148,
+          "osmType": "way",
+          "osmId": 38893988,
+          "sourceUrl": "https://www.openstreetmap.org/way/38893988",
+          "tags": {
+            "bicycle": "no",
+            "foot": "no",
+            "hgv": "designated",
+            "hgv:national_network": "yes",
+            "highway": "motorway",
+            "horse": "no",
+            "lanes": "2",
+            "maxspeed": "70 mph",
+            "maxspeed:hgv": "65 mph",
+            "maxspeed:type": "sign",
+            "minspeed": "55 mph",
+            "name": "Gerald R Ford Freeway",
+            "name:etymology:wikidata": "Q9582",
+            "oneway": "yes",
+            "ref": "I 196",
+            "source:hgv:national_network": "https://hepgis-usdot.hub.arcgis.com/apps/usdot::national-network-conventional-combination-trucks-map/explore",
+            "source:maxspeed": "sign",
+            "tiger:cfcc": "A15",
+            "tiger:county": "Kent, MI",
+            "tiger:name_base": "I-196"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Kent Trails",
+          "latitude": 42.9386511,
+          "longitude": -85.7232359,
+          "osmType": "way",
+          "osmId": 131452245,
+          "sourceUrl": "https://www.openstreetmap.org/way/131452245",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "motor_vehicle": "no",
+            "name": "Kent Trails",
+            "oneway": "no",
+            "segregated": "no",
+            "surface": "paved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Kent Trails - Johnson Park Connector",
+          "latitude": 42.9248553,
+          "longitude": -85.7615124,
+          "osmType": "way",
+          "osmId": 158973598,
+          "sourceUrl": "https://www.openstreetmap.org/way/158973598",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "horse": "no",
+            "motor_vehicle": "no",
+            "name": "Kent Trails - Johnson Park Connector",
+            "oneway": "no",
+            "segregated": "no",
+            "surface": "paved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Lake Leota",
+          "latitude": 42.9439408,
+          "longitude": -85.7471216,
+          "osmType": "way",
+          "osmId": 162280899,
+          "sourceUrl": "https://www.openstreetmap.org/way/162280899",
+          "tags": {
+            "name": "Lake Leota",
+            "natural": "water",
+            "water": "lake",
+            "wikidata": "Q34899641"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Veterans Memorial Drive Southwest",
+          "latitude": 42.9331012,
+          "longitude": -85.7466516,
+          "osmType": "way",
+          "osmId": 162451976,
+          "sourceUrl": "https://www.openstreetmap.org/way/162451976",
+          "tags": {
+            "highway": "residential",
+            "maxspeed": "45 mph",
+            "name": "Veterans Memorial Drive Southwest",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Kent, MI",
+            "tiger:name_base": "Veterans Memorial",
+            "tiger:name_direction_suffix": "SW",
+            "tiger:name_type": "Dr",
+            "tiger:reviewed": "no",
+            "tiger:zip_left": "49504",
+            "tiger:zip_right": "49504"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Kent Trails",
+          "latitude": 42.9381775,
+          "longitude": -85.723016,
+          "osmType": "way",
+          "osmId": 166135286,
+          "sourceUrl": "https://www.openstreetmap.org/way/166135286",
+          "tags": {
+            "bicycle": "designated",
+            "bridge": "yes",
+            "foot": "designated",
+            "highway": "cycleway",
+            "layer": "1",
+            "name": "Kent Trails",
+            "oneway": "no",
+            "segregated": "no",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Butterworth Street Southwest",
+          "latitude": 42.9325353,
+          "longitude": -85.7450248,
+          "osmType": "way",
+          "osmId": 183521585,
+          "sourceUrl": "https://www.openstreetmap.org/way/183521585",
+          "tags": {
+            "highway": "tertiary",
+            "maxspeed": "45 mph",
+            "name": "Butterworth Street Southwest",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Kent, MI",
+            "tiger:name_base": "Butterworth",
+            "tiger:name_direction_suffix": "SW",
+            "tiger:name_type": "St",
+            "tiger:reviewed": "no",
+            "tiger:zip_left": "49418",
+            "tiger:zip_right": "49418"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trestle Trail",
+          "latitude": 42.9460835,
+          "longitude": -85.7156291,
+          "osmType": "way",
+          "osmId": 226019745,
+          "sourceUrl": "https://www.openstreetmap.org/way/226019745",
+          "tags": {
+            "bicycle": "yes",
+            "foot": "designated",
+            "highway": "path",
+            "horse": "no",
+            "motor_vehicle": "no",
+            "name": "Trestle Trail",
+            "surface": "unpaved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "South Standale Trail",
+          "latitude": 42.9391947,
+          "longitude": -85.7232767,
+          "osmType": "way",
+          "osmId": 226019747,
+          "sourceUrl": "https://www.openstreetmap.org/way/226019747",
+          "tags": {
+            "bicycle": "designated",
+            "bridge": "yes",
+            "foot": "designated",
+            "highway": "cycleway",
+            "horse": "no",
+            "layer": "1",
+            "motor_vehicle": "no",
+            "name": "South Standale Trail",
+            "oneway": "no",
+            "segregated": "no",
+            "smoothness": "excellent",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "South Standale Trail",
+          "latitude": 42.9412403,
+          "longitude": -85.725206,
+          "osmType": "way",
+          "osmId": 226019749,
+          "sourceUrl": "https://www.openstreetmap.org/way/226019749",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "horse": "no",
+            "lit": "no",
+            "motor_vehicle": "no",
+            "name": "South Standale Trail",
+            "oneway": "no",
+            "segregated": "no",
+            "smoothness": "excellent",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trestle Trail",
+          "latitude": 42.9428609,
+          "longitude": -85.7197173,
+          "osmType": "way",
+          "osmId": 226019751,
+          "sourceUrl": "https://www.openstreetmap.org/way/226019751",
+          "tags": {
+            "bicycle": "yes",
+            "foot": "designated",
+            "highway": "path",
+            "horse": "no",
+            "motor_vehicle": "no",
+            "name": "Trestle Trail",
+            "surface": "unpaved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Trestle Trail",
+          "latitude": 42.9456639,
+          "longitude": -85.7177179,
+          "osmType": "way",
+          "osmId": 226019753,
+          "sourceUrl": "https://www.openstreetmap.org/way/226019753",
+          "tags": {
+            "bicycle": "yes",
+            "foot": "designated",
+            "highway": "path",
+            "horse": "no",
+            "motor_vehicle": "no",
+            "name": "Trestle Trail",
+            "surface": "unpaved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "South Standale Trail",
+          "latitude": 42.9468877,
+          "longitude": -85.7356296,
+          "osmType": "way",
+          "osmId": 226019757,
+          "sourceUrl": "https://www.openstreetmap.org/way/226019757",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "horse": "no",
+            "motor_vehicle": "no",
+            "name": "South Standale Trail",
+            "oneway": "no",
+            "segregated": "no",
+            "smoothness": "excellent",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Kent Trails - Johnson Park Connector",
+          "latitude": 42.9371268,
+          "longitude": -85.7305174,
+          "osmType": "way",
+          "osmId": 226019765,
+          "sourceUrl": "https://www.openstreetmap.org/way/226019765",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "horse": "no",
+            "motor_vehicle": "no",
+            "name": "Kent Trails - Johnson Park Connector",
+            "oneway": "no",
+            "segregated": "no",
+            "smoothness": "excellent",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Hansen Nature Trail",
+          "latitude": 42.9336746,
+          "longitude": -85.757705,
+          "osmType": "way",
+          "osmId": 231102523,
+          "sourceUrl": "https://www.openstreetmap.org/way/231102523",
+          "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "horse": "no",
+            "name": "Hansen Nature Trail",
+            "surface": "compacted"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Millennium Park Beach",
+          "latitude": 42.936752,
+          "longitude": -85.7503979,
+          "osmType": "way",
+          "osmId": 231125297,
+          "sourceUrl": "https://www.openstreetmap.org/way/231125297",
+          "tags": {
+            "name": "Millennium Park Beach",
+            "natural": "beach"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Kent Trails - Johnson Park Connector",
+          "latitude": 42.9342089,
+          "longitude": -85.74136,
+          "osmType": "way",
+          "osmId": 238550126,
+          "sourceUrl": "https://www.openstreetmap.org/way/238550126",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "horse": "no",
+            "motor_vehicle": "no",
+            "name": "Kent Trails - Johnson Park Connector",
+            "oneway": "no",
+            "segregated": "no",
+            "smoothness": "excellent",
+            "surface": "paved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Kent Trails - Johnson Park Connector",
+          "latitude": 42.932339,
+          "longitude": -85.7447819,
+          "osmType": "way",
+          "osmId": 239023173,
+          "sourceUrl": "https://www.openstreetmap.org/way/239023173",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "horse": "no",
+            "motor_vehicle": "no",
+            "name": "Kent Trails - Johnson Park Connector",
+            "oneway": "no",
+            "segregated": "no",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Lot A",
+          "latitude": 42.9381175,
+          "longitude": -85.7465411,
+          "osmType": "way",
+          "osmId": 438080739,
+          "sourceUrl": "https://www.openstreetmap.org/way/438080739",
+          "tags": {
+            "access": "yes",
+            "amenity": "parking",
+            "fee": "no",
+            "name": "Lot A",
+            "parking": "surface"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Lot B",
+          "latitude": 42.9369363,
+          "longitude": -85.7479819,
+          "osmType": "way",
+          "osmId": 438080740,
+          "sourceUrl": "https://www.openstreetmap.org/way/438080740",
+          "tags": {
+            "access": "yes",
+            "amenity": "parking",
+            "fee": "no",
+            "name": "Lot B",
+            "parking": "surface"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Grant Pavilion",
+          "latitude": 42.9388767,
+          "longitude": -85.7410674,
+          "osmType": "way",
+          "osmId": 558155023,
+          "sourceUrl": "https://www.openstreetmap.org/way/558155023",
+          "tags": {
+            "amenity": "shelter",
+            "building": "roof",
+            "layer": "1",
+            "name": "Grant Pavilion",
+            "shelter_type": "pavilion"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "The Universal Boardwalk",
+          "latitude": 42.9370673,
+          "longitude": -85.7397251,
+          "osmType": "way",
+          "osmId": 558397779,
+          "sourceUrl": "https://www.openstreetmap.org/way/558397779",
+          "tags": {
+            "bicycle": "designated",
+            "bridge": "yes",
+            "foot": "designated",
+            "highway": "cycleway",
+            "layer": "1",
+            "name": "The Universal Boardwalk",
+            "oneway": "no",
+            "segregated": "no",
+            "surface": "wood"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Shelter A",
+          "latitude": 42.9384965,
+          "longitude": -85.7476091,
+          "osmType": "way",
+          "osmId": 565582925,
+          "sourceUrl": "https://www.openstreetmap.org/way/565582925",
+          "tags": {
+            "amenity": "shelter",
+            "building": "roof",
+            "name": "Shelter A"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Family Shelter",
+          "latitude": 42.9395193,
+          "longitude": -85.7473908,
+          "osmType": "way",
+          "osmId": 565582928,
+          "sourceUrl": "https://www.openstreetmap.org/way/565582928",
+          "tags": {
+            "amenity": "shelter",
+            "name": "Family Shelter"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Hansen Nature Trail",
+          "latitude": 42.9351576,
+          "longitude": -85.7548194,
+          "osmType": "way",
+          "osmId": 570136588,
+          "sourceUrl": "https://www.openstreetmap.org/way/570136588",
+          "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "horse": "no",
+            "name": "Hansen Nature Trail",
+            "surface": "wood"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Hansen Nature Trail",
+          "latitude": 42.9344939,
+          "longitude": -85.7568086,
+          "osmType": "way",
+          "osmId": 570136589,
+          "sourceUrl": "https://www.openstreetmap.org/way/570136589",
+          "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "horse": "no",
+            "name": "Hansen Nature Trail",
+            "surface": "compacted"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Hansen Nature Trail",
+          "latitude": 42.9341546,
+          "longitude": -85.7571726,
+          "osmType": "way",
+          "osmId": 570136593,
+          "sourceUrl": "https://www.openstreetmap.org/way/570136593",
+          "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "horse": "no",
+            "name": "Hansen Nature Trail",
+            "surface": "compacted"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Hansen Nature Trail",
+          "latitude": 42.9341259,
+          "longitude": -85.7571272,
+          "osmType": "way",
+          "osmId": 570136594,
+          "sourceUrl": "https://www.openstreetmap.org/way/570136594",
+          "tags": {
+            "bicycle": "no",
+            "bridge": "yes",
+            "highway": "footway",
+            "horse": "no",
+            "layer": "1",
+            "name": "Hansen Nature Trail",
+            "surface": "wood"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Hansen Nature Trail",
+          "latitude": 42.9341065,
+          "longitude": -85.7571006,
+          "osmType": "way",
+          "osmId": 570136595,
+          "sourceUrl": "https://www.openstreetmap.org/way/570136595",
+          "tags": {
+            "bicycle": "no",
+            "bridge": "yes",
+            "highway": "footway",
+            "horse": "no",
+            "layer": "1",
+            "name": "Hansen Nature Trail",
+            "surface": "wood"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Hansen Nature Trail",
+          "latitude": 42.9345711,
+          "longitude": -85.7558822,
+          "osmType": "way",
+          "osmId": 570136596,
+          "sourceUrl": "https://www.openstreetmap.org/way/570136596",
+          "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "horse": "no",
+            "name": "Hansen Nature Trail"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Heron Lake Trails",
+          "latitude": 42.9380632,
+          "longitude": -85.7345666,
+          "osmType": "way",
+          "osmId": 570136599,
+          "sourceUrl": "https://www.openstreetmap.org/way/570136599",
+          "tags": {
+            "bicycle": "yes",
+            "foot": "designated",
+            "highway": "path",
+            "horse": "no",
+            "motor_vehicle": "no",
+            "name": "Heron Lake Trails",
+            "surface": "unpaved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Heron Lake Trails",
+          "latitude": 42.9371019,
+          "longitude": -85.735484,
+          "osmType": "way",
+          "osmId": 570136600,
+          "sourceUrl": "https://www.openstreetmap.org/way/570136600",
+          "tags": {
+            "bicycle": "yes",
+            "foot": "designated",
+            "highway": "path",
+            "horse": "no",
+            "motor_vehicle": "no",
+            "name": "Heron Lake Trails",
+            "surface": "unpaved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Heron Lake Trails",
+          "latitude": 42.9391871,
+          "longitude": -85.7330904,
+          "osmType": "way",
+          "osmId": 570136601,
+          "sourceUrl": "https://www.openstreetmap.org/way/570136601",
+          "tags": {
+            "bicycle": "yes",
+            "foot": "designated",
+            "highway": "path",
+            "horse": "no",
+            "motor_vehicle": "no",
+            "name": "Heron Lake Trails",
+            "surface": "unpaved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Heron Lake Trails",
+          "latitude": 42.9390048,
+          "longitude": -85.7335274,
+          "osmType": "way",
+          "osmId": 570136602,
+          "sourceUrl": "https://www.openstreetmap.org/way/570136602",
+          "tags": {
+            "bicycle": "yes",
+            "bridge": "yes",
+            "foot": "designated",
+            "highway": "path",
+            "horse": "no",
+            "layer": "1",
+            "motor_vehicle": "no",
+            "name": "Heron Lake Trails",
+            "surface": "unpaved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Heron Lake Trails",
+          "latitude": 42.9381697,
+          "longitude": -85.7337329,
+          "osmType": "way",
+          "osmId": 570136603,
+          "sourceUrl": "https://www.openstreetmap.org/way/570136603",
+          "tags": {
+            "bicycle": "yes",
+            "foot": "designated",
+            "highway": "path",
+            "horse": "no",
+            "motor_vehicle": "no",
+            "name": "Heron Lake Trails",
+            "surface": "unpaved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Heron Lake Trails",
+          "latitude": 42.9372934,
+          "longitude": -85.7338032,
+          "osmType": "way",
+          "osmId": 570136604,
+          "sourceUrl": "https://www.openstreetmap.org/way/570136604",
+          "tags": {
+            "bicycle": "yes",
+            "bridge": "yes",
+            "foot": "designated",
+            "highway": "path",
+            "horse": "no",
+            "layer": "1",
+            "motor_vehicle": "no",
+            "name": "Heron Lake Trails",
+            "surface": "unpaved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Heron Lake Trails",
+          "latitude": 42.9364458,
+          "longitude": -85.7339955,
+          "osmType": "way",
+          "osmId": 570136605,
+          "sourceUrl": "https://www.openstreetmap.org/way/570136605",
+          "tags": {
+            "bicycle": "yes",
+            "foot": "designated",
+            "highway": "path",
+            "horse": "no",
+            "motor_vehicle": "no",
+            "name": "Heron Lake Trails",
+            "surface": "unpaved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Heron Lake Trails",
+          "latitude": 42.9385498,
+          "longitude": -85.7323808,
+          "osmType": "way",
+          "osmId": 570136611,
+          "sourceUrl": "https://www.openstreetmap.org/way/570136611",
+          "tags": {
+            "highway": "path",
+            "name": "Heron Lake Trails"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Beach Shelter",
+          "latitude": 42.937356,
+          "longitude": -85.7490633,
+          "osmType": "way",
+          "osmId": 570529598,
+          "sourceUrl": "https://www.openstreetmap.org/way/570529598",
+          "tags": {
+            "amenity": "shelter",
+            "building": "roof",
+            "name": "Beach Shelter"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Shelter B",
+          "latitude": 42.9374047,
+          "longitude": -85.7484441,
+          "osmType": "way",
+          "osmId": 570529599,
+          "sourceUrl": "https://www.openstreetmap.org/way/570529599",
+          "tags": {
+            "amenity": "shelter",
+            "building": "roof",
+            "name": "Shelter B"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Kent Trails - Johnson Park Connector",
+          "latitude": 42.9320089,
+          "longitude": -85.7494875,
+          "osmType": "way",
+          "osmId": 702685579,
+          "sourceUrl": "https://www.openstreetmap.org/way/702685579",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "horse": "no",
+            "lit": "no",
+            "motor_vehicle": "no",
+            "name": "Kent Trails - Johnson Park Connector",
+            "oneway": "no",
+            "segregated": "no",
+            "smoothness": "excellent",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "South Standale Trail",
+          "latitude": 42.9491424,
+          "longitude": -85.740765,
+          "osmType": "way",
+          "osmId": 1051877717,
+          "sourceUrl": "https://www.openstreetmap.org/way/1051877717",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "South Standale Trail",
+            "oneway": "no",
+            "segregated": "no",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Kent Trails",
+          "latitude": 42.9404882,
+          "longitude": -85.7378504,
+          "osmType": "way",
+          "osmId": 1051877720,
+          "sourceUrl": "https://www.openstreetmap.org/way/1051877720",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "horse": "no",
+            "motor_vehicle": "no",
+            "name": "Kent Trails",
+            "oneway": "no",
+            "segregated": "no",
+            "smoothness": "excellent",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "South Standale Trail",
+          "latitude": 42.9435369,
+          "longitude": -85.7289114,
+          "osmType": "way",
+          "osmId": 1051877721,
+          "sourceUrl": "https://www.openstreetmap.org/way/1051877721",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "horse": "no",
+            "name": "South Standale Trail",
+            "oneway": "no",
+            "segregated": "no",
+            "smoothness": "excellent",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Kent Trails - Johnson Park Connector",
+          "latitude": 42.9361394,
+          "longitude": -85.7379623,
+          "osmType": "way",
+          "osmId": 1051877725,
+          "sourceUrl": "https://www.openstreetmap.org/way/1051877725",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "horse": "no",
+            "motor_vehicle": "no",
+            "name": "Kent Trails - Johnson Park Connector",
+            "oneway": "no",
+            "segregated": "no",
+            "smoothness": "excellent",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "South Standale Trail",
+          "latitude": 42.9490712,
+          "longitude": -85.7408758,
+          "osmType": "way",
+          "osmId": 1112658531,
+          "sourceUrl": "https://www.openstreetmap.org/way/1112658531",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "lcn": "yes",
+            "name": "South Standale Trail",
+            "oneway": "no",
+            "segregated": "no",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "South Standale Trail",
+          "latitude": 42.938789,
+          "longitude": -85.7232794,
+          "osmType": "way",
+          "osmId": 1206755819,
+          "sourceUrl": "https://www.openstreetmap.org/way/1206755819",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "horse": "no",
+            "motor_vehicle": "no",
+            "name": "South Standale Trail",
+            "oneway": "no",
+            "segregated": "no",
+            "smoothness": "excellent",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "South Standale Trail",
+          "latitude": 42.9492168,
+          "longitude": -85.7409141,
+          "osmType": "way",
+          "osmId": 1286713714,
+          "sourceUrl": "https://www.openstreetmap.org/way/1286713714",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "lcn": "yes",
+            "name": "South Standale Trail",
+            "oneway": "no",
+            "segregated": "no",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Hansen Nature Trail",
+          "latitude": 42.935025,
+          "longitude": -85.753885,
+          "osmType": "way",
+          "osmId": 1307275290,
+          "sourceUrl": "https://www.openstreetmap.org/way/1307275290",
+          "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "horse": "no",
+            "name": "Hansen Nature Trail",
+            "surface": "wood"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Hansen Nature Trail",
+          "latitude": 42.9351077,
+          "longitude": -85.7542217,
+          "osmType": "way",
+          "osmId": 1307275291,
+          "sourceUrl": "https://www.openstreetmap.org/way/1307275291",
+          "tags": {
+            "bicycle": "no",
+            "bridge": "yes",
+            "highway": "footway",
+            "horse": "no",
+            "layer": "1",
+            "name": "Hansen Nature Trail",
+            "surface": "wood"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Millennium Park Lake",
+          "latitude": 42.9373716,
+          "longitude": -85.7493301,
+          "osmType": "relation",
+          "osmId": 17207175,
+          "sourceUrl": "https://www.openstreetmap.org/relation/17207175",
+          "tags": {
+            "name": "Millennium Park Lake",
+            "natural": "water",
+            "type": "multipolygon",
+            "water": "lake"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Millennium Park",
+          "latitude": 42.9356903,
+          "longitude": -85.7359717,
+          "osmType": "relation",
+          "osmId": 17576900,
+          "sourceUrl": "https://www.openstreetmap.org/relation/17576900",
+          "tags": {
+            "access": "yes",
+            "addr:state": "MI",
+            "leisure": "park",
+            "name": "Millennium Park",
+            "operator": "Kent County",
+            "operator:type": "public",
+            "operator:wikidata": "Q82499",
+            "type": "multipolygon",
+            "website": "https://kentcountyparks.org/parks-trails/millennium-park/",
+            "wikidata": "Q6858905",
+            "wikipedia": "en:Millennium Park (Grand Rapids)"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Johnson Park",
+          "latitude": 42.9245835,
+          "longitude": -85.7637429,
+          "osmType": "relation",
+          "osmId": 17576901,
+          "sourceUrl": "https://www.openstreetmap.org/relation/17576901",
+          "tags": {
+            "access": "yes",
+            "alt_name": "Henry Johnson Park",
+            "leisure": "park",
+            "name": "Johnson Park",
+            "operator": "Kent County",
+            "operator:type": "public",
+            "operator:wikidata": "Q82499",
+            "type": "multipolygon",
+            "website": "https://kentcountyparks.org/parks-trails/johnson-park/",
+            "wikidata": "Q49508571"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    },
+    "launch-mi-grand-rapids-riverside-park": {
+      "name": "Riverside Park",
+      "boundarySource": "https://www.openstreetmap.org/way/53332627",
+      "candidates": [
+        {
+          "name": "Riverside Park Boat Launch",
+          "latitude": 42.9995047,
+          "longitude": -85.6718573,
+          "osmType": "node",
+          "osmId": 4939632293,
+          "sourceUrl": "https://www.openstreetmap.org/node/4939632293",
+          "tags": {
+            "leisure": "slipway",
+            "name": "Riverside Park Boat Launch"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Guild Street Northwest",
+          "latitude": 43.0063234,
+          "longitude": -85.6697932,
+          "osmType": "way",
+          "osmId": 17867521,
+          "sourceUrl": "https://www.openstreetmap.org/way/17867521",
+          "tags": {
+            "highway": "service",
+            "name": "Guild Street Northwest",
+            "sidewalk:both": "no",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Kent, MI",
+            "tiger:name_base": "Guild",
+            "tiger:name_direction_suffix": "NW",
+            "tiger:name_type": "St"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverside Park Drive Northeast",
+          "latitude": 43.0164021,
+          "longitude": -85.6650903,
+          "osmType": "way",
+          "osmId": 17870849,
+          "sourceUrl": "https://www.openstreetmap.org/way/17870849",
+          "tags": {
+            "highway": "service",
+            "name": "Riverside Park Drive Northeast",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Kent, MI",
+            "tiger:name_base": "Riverside Park",
+            "tiger:name_direction_suffix": "NE",
+            "tiger:name_type": "Dr"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverside Park Drive Northwest",
+          "latitude": 42.9992313,
+          "longitude": -85.6706296,
+          "osmType": "way",
+          "osmId": 17871376,
+          "sourceUrl": "https://www.openstreetmap.org/way/17871376",
+          "tags": {
+            "highway": "service",
+            "name": "Riverside Park Drive Northwest",
+            "oneway": "yes",
+            "surface": "asphalt",
+            "tiger:cfcc": "A49",
+            "tiger:county": "Kent, MI",
+            "tiger:name_base": "Riverside Park",
+            "tiger:name_direction_suffix": "NW",
+            "tiger:name_type": "Dr"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Guild Riverside Cutoff",
+          "latitude": 43.0062471,
+          "longitude": -85.6710149,
+          "osmType": "way",
+          "osmId": 17875532,
+          "sourceUrl": "https://www.openstreetmap.org/way/17875532",
+          "tags": {
+            "highway": "service",
+            "name": "Guild Riverside Cutoff",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Kent, MI",
+            "tiger:name_base": "Guild Riverside Cutoff"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverside Park Drive Northwest",
+          "latitude": 43.0069043,
+          "longitude": -85.6713366,
+          "osmType": "way",
+          "osmId": 255862070,
+          "sourceUrl": "https://www.openstreetmap.org/way/255862070",
+          "tags": {
+            "bridge": "yes",
+            "highway": "service",
+            "layer": "1",
+            "name": "Riverside Park Drive Northwest",
+            "surface": "paved",
+            "tiger:cfcc": "A49",
+            "tiger:county": "Kent, MI",
+            "tiger:name_base": "Riverside Park",
+            "tiger:name_direction_suffix": "NW",
+            "tiger:name_type": "Dr"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverside Park Drive Northwest",
+          "latitude": 43.0084641,
+          "longitude": -85.6715473,
+          "osmType": "way",
+          "osmId": 255862071,
+          "sourceUrl": "https://www.openstreetmap.org/way/255862071",
+          "tags": {
+            "highway": "service",
+            "motor_vehicle": "yes",
+            "name": "Riverside Park Drive Northwest",
+            "smoothness": "good",
+            "surface": "asphalt",
+            "tiger:cfcc": "A49",
+            "tiger:county": "Kent, MI",
+            "tiger:name_base": "Riverside Park",
+            "tiger:name_direction_suffix": "NW",
+            "tiger:name_type": "Dr"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverside Park Drive Northwest",
+          "latitude": 43.0131686,
+          "longitude": -85.6709721,
+          "osmType": "way",
+          "osmId": 255862072,
+          "sourceUrl": "https://www.openstreetmap.org/way/255862072",
+          "tags": {
+            "bicycle": "designated",
+            "bridge": "yes",
+            "foot": "designated",
+            "highway": "cycleway",
+            "layer": "1",
+            "motor_vehicle": "no",
+            "name": "Riverside Park Drive Northwest",
+            "segregated": "no",
+            "surface": "wood",
+            "tiger:cfcc": "A49",
+            "tiger:county": "Kent, MI",
+            "tiger:name_base": "Riverside Park",
+            "tiger:name_direction_suffix": "NW",
+            "tiger:name_type": "Dr"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverside Park Drive Northwest",
+          "latitude": 43.0137716,
+          "longitude": -85.6698176,
+          "osmType": "way",
+          "osmId": 255862073,
+          "sourceUrl": "https://www.openstreetmap.org/way/255862073",
+          "tags": {
+            "highway": "path",
+            "motor_vehicle": "no",
+            "name": "Riverside Park Drive Northwest",
+            "surface": "asphalt",
+            "tiger:cfcc": "A49",
+            "tiger:county": "Kent, MI",
+            "tiger:name_base": "Riverside Park",
+            "tiger:name_direction_suffix": "NW",
+            "tiger:name_type": "Dr"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Lamberton Creek",
+          "latitude": 43.0193783,
+          "longitude": -85.6623642,
+          "osmType": "way",
+          "osmId": 478236476,
+          "sourceUrl": "https://www.openstreetmap.org/way/478236476",
+          "tags": {
+            "name": "Lamberton Creek",
+            "source": "bing",
+            "waterway": "stream"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverside Park Drive Northwest",
+          "latitude": 43.0026051,
+          "longitude": -85.6709506,
+          "osmType": "way",
+          "osmId": 489641143,
+          "sourceUrl": "https://www.openstreetmap.org/way/489641143",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "motor_vehicle": "no",
+            "name": "Riverside Park Drive Northwest",
+            "segregated": "no",
+            "surface": "asphalt",
+            "tiger:cfcc": "A49",
+            "tiger:county": "Kent, MI",
+            "tiger:name_base": "Riverside Park",
+            "tiger:name_direction_suffix": "NW",
+            "tiger:name_type": "Dr"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverside Park Drive Northwest",
+          "latitude": 43.0115611,
+          "longitude": -85.671409,
+          "osmType": "way",
+          "osmId": 489655354,
+          "sourceUrl": "https://www.openstreetmap.org/way/489655354",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "motor_vehicle": "no",
+            "name": "Riverside Park Drive Northwest",
+            "segregated": "no",
+            "surface": "asphalt",
+            "tiger:cfcc": "A49",
+            "tiger:county": "Kent, MI",
+            "tiger:name_base": "Riverside Park",
+            "tiger:name_direction_suffix": "NW",
+            "tiger:name_type": "Dr"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverside Park Drive Northwest",
+          "latitude": 43.0063909,
+          "longitude": -85.6712079,
+          "osmType": "way",
+          "osmId": 489655355,
+          "sourceUrl": "https://www.openstreetmap.org/way/489655355",
+          "tags": {
+            "highway": "service",
+            "name": "Riverside Park Drive Northwest",
+            "tiger:cfcc": "A49",
+            "tiger:county": "Kent, MI",
+            "tiger:name_base": "Riverside Park",
+            "tiger:name_direction_suffix": "NW",
+            "tiger:name_type": "Dr"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverside Park Drive Northwest",
+          "latitude": 43.0141176,
+          "longitude": -85.6688606,
+          "osmType": "way",
+          "osmId": 524551383,
+          "sourceUrl": "https://www.openstreetmap.org/way/524551383",
+          "tags": {
+            "highway": "service",
+            "name": "Riverside Park Drive Northwest",
+            "tiger:cfcc": "A49",
+            "tiger:county": "Kent, MI",
+            "tiger:name_base": "Riverside Park",
+            "tiger:name_direction_suffix": "NW",
+            "tiger:name_type": "Dr"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverside Park Drive Northwest",
+          "latitude": 42.9994572,
+          "longitude": -85.6709717,
+          "osmType": "way",
+          "osmId": 587075249,
+          "sourceUrl": "https://www.openstreetmap.org/way/587075249",
+          "tags": {
+            "highway": "service",
+            "name": "Riverside Park Drive Northwest",
+            "surface": "asphalt",
+            "tiger:cfcc": "A49",
+            "tiger:county": "Kent, MI",
+            "tiger:name_base": "Riverside Park",
+            "tiger:name_direction_suffix": "NW",
+            "tiger:name_type": "Dr"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverside Park Drive Northwest",
+          "latitude": 42.9992889,
+          "longitude": -85.6706174,
+          "osmType": "way",
+          "osmId": 587075250,
+          "sourceUrl": "https://www.openstreetmap.org/way/587075250",
+          "tags": {
+            "highway": "service",
+            "name": "Riverside Park Drive Northwest",
+            "oneway": "yes",
+            "surface": "asphalt",
+            "tiger:cfcc": "A49",
+            "tiger:county": "Kent, MI",
+            "tiger:name_base": "Riverside Park",
+            "tiger:name_direction_suffix": "NW",
+            "tiger:name_type": "Dr"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Guild Street Northwest",
+          "latitude": 43.006395,
+          "longitude": -85.6686158,
+          "osmType": "way",
+          "osmId": 647590990,
+          "sourceUrl": "https://www.openstreetmap.org/way/647590990",
+          "tags": {
+            "highway": "service",
+            "name": "Guild Street Northwest",
+            "oneway": "yes",
+            "sidewalk:both": "no",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Kent, MI",
+            "tiger:name_base": "Guild",
+            "tiger:name_direction_suffix": "NW",
+            "tiger:name_type": "St"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Guild Street Northwest",
+          "latitude": 43.0064298,
+          "longitude": -85.6686213,
+          "osmType": "way",
+          "osmId": 647590991,
+          "sourceUrl": "https://www.openstreetmap.org/way/647590991",
+          "tags": {
+            "highway": "service",
+            "name": "Guild Street Northwest",
+            "oneway": "yes",
+            "sidewalk:both": "no",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Kent, MI",
+            "tiger:name_base": "Guild",
+            "tiger:name_direction_suffix": "NW",
+            "tiger:name_type": "St"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Monroe Avenue Northwest",
+          "latitude": 43.0061994,
+          "longitude": -85.6683727,
+          "osmType": "way",
+          "osmId": 647590996,
+          "sourceUrl": "https://www.openstreetmap.org/way/647590996",
+          "tags": {
+            "highway": "secondary",
+            "maxspeed": "30 mph",
+            "name": "Monroe Avenue Northwest",
+            "oneway": "yes",
+            "sidewalk:left": "no",
+            "sidewalk:right": "separate",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Kent, MI",
+            "tiger:name_base": "Monroe",
+            "tiger:name_direction_suffix": "NW",
+            "tiger:name_type": "Ave",
+            "tiger:zip_left": "49505",
+            "tiger:zip_right": "49505"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverside Park Drive Northwest",
+          "latitude": 43.0057789,
+          "longitude": -85.6710473,
+          "osmType": "way",
+          "osmId": 1058209056,
+          "sourceUrl": "https://www.openstreetmap.org/way/1058209056",
+          "tags": {
+            "highway": "path",
+            "motor_vehicle": "no",
+            "name": "Riverside Park Drive Northwest",
+            "surface": "asphalt",
+            "tiger:cfcc": "A49",
+            "tiger:county": "Kent, MI",
+            "tiger:name_base": "Riverside Park",
+            "tiger:name_direction_suffix": "NW",
+            "tiger:name_type": "Dr"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverside Park Drive Northwest",
+          "latitude": 43.0100066,
+          "longitude": -85.6717367,
+          "osmType": "way",
+          "osmId": 1058209057,
+          "sourceUrl": "https://www.openstreetmap.org/way/1058209057",
+          "tags": {
+            "highway": "path",
+            "motor_vehicle": "no",
+            "name": "Riverside Park Drive Northwest",
+            "surface": "asphalt",
+            "tiger:cfcc": "A49",
+            "tiger:county": "Kent, MI",
+            "tiger:name_base": "Riverside Park",
+            "tiger:name_direction_suffix": "NW",
+            "tiger:name_type": "Dr"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverside Park Drive Northwest",
+          "latitude": 43.0133862,
+          "longitude": -85.6707847,
+          "osmType": "way",
+          "osmId": 1058209058,
+          "sourceUrl": "https://www.openstreetmap.org/way/1058209058",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "motor_vehicle": "no",
+            "name": "Riverside Park Drive Northwest",
+            "segregated": "no",
+            "surface": "asphalt",
+            "tiger:cfcc": "A49",
+            "tiger:county": "Kent, MI",
+            "tiger:name_base": "Riverside Park",
+            "tiger:name_direction_suffix": "NW",
+            "tiger:name_type": "Dr"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverside Park Drive Northwest",
+          "latitude": 43.005572,
+          "longitude": -85.6709918,
+          "osmType": "way",
+          "osmId": 1151356255,
+          "sourceUrl": "https://www.openstreetmap.org/way/1151356255",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "motor_vehicle": "no",
+            "name": "Riverside Park Drive Northwest",
+            "segregated": "no",
+            "surface": "asphalt",
+            "tiger:cfcc": "A49",
+            "tiger:county": "Kent, MI",
+            "tiger:name_base": "Riverside Park",
+            "tiger:name_direction_suffix": "NW",
+            "tiger:name_type": "Dr"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Guild Street Northwest",
+          "latitude": 43.0064821,
+          "longitude": -85.6684286,
+          "osmType": "way",
+          "osmId": 1488713121,
+          "sourceUrl": "https://www.openstreetmap.org/way/1488713121",
+          "tags": {
+            "highway": "service",
+            "name": "Guild Street Northwest",
+            "oneway": "yes",
+            "sidewalk:left": "no",
+            "sidewalk:right": "separate",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Kent, MI",
+            "tiger:name_base": "Guild",
+            "tiger:name_direction_suffix": "NW",
+            "tiger:name_type": "St"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Guild Street Northwest",
+          "latitude": 43.0063768,
+          "longitude": -85.6684422,
+          "osmType": "way",
+          "osmId": 1488713122,
+          "sourceUrl": "https://www.openstreetmap.org/way/1488713122",
+          "tags": {
+            "highway": "service",
+            "name": "Guild Street Northwest",
+            "oneway": "yes",
+            "sidewalk:left": "no",
+            "sidewalk:right": "separate",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Kent, MI",
+            "tiger:name_base": "Guild",
+            "tiger:name_direction_suffix": "NW",
+            "tiger:name_type": "St"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    }
+  }
+}

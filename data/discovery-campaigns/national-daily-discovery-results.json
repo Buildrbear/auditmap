@@ -1,0 +1,22 @@
+{
+  "campaignId": "national-daily-discovery-v1",
+  "round": 1,
+  "updatedAt": null,
+  "notes": "Enter cumulative results at 24 hours and seven days. Keep uncollected checkpoints null; zero means the metric was checked and no event occurred.",
+  "posts": [
+    { "id": "daily_launch-ny-new-york-city-central-park", "checkpoints": { "24h": null, "7d": null } },
+    { "id": "daily_dix-park", "checkpoints": { "24h": null, "7d": null } },
+    { "id": "daily_launch-il-chicago-lincoln-park", "checkpoints": { "24h": null, "7d": null } },
+    { "id": "daily_launch-ca-san-diego-balboa-park", "checkpoints": { "24h": null, "7d": null } },
+    { "id": "daily_launch-pa-philadelphia-dilworth-park", "checkpoints": { "24h": null, "7d": null } },
+    { "id": "daily_launch-dc-washington-national-mall", "checkpoints": { "24h": null, "7d": null } },
+    { "id": "daily_launch-oh-columbus-battelle-darby-creek-metro-park", "checkpoints": { "24h": null, "7d": null } },
+    { "id": "daily_launch-ut-syracuse-antelope-island-state-park", "checkpoints": { "24h": null, "7d": null } },
+    { "id": "daily_launch-ri-providence-roger-williams-park", "checkpoints": { "24h": null, "7d": null } },
+    { "id": "daily_launch-fl-miami-bayfront-park", "checkpoints": { "24h": null, "7d": null } },
+    { "id": "daily_launch-mi-detroit-belle-isle-park", "checkpoints": { "24h": null, "7d": null } },
+    { "id": "daily_launch-az-phoenix-camelback-mountain", "checkpoints": { "24h": null, "7d": null } },
+    { "id": "daily_launch-ma-boston-arnold-arboretum", "checkpoints": { "24h": null, "7d": null } },
+    { "id": "daily_launch-tx-austin-ann-and-roy-butler-hike-and-bike-trail", "checkpoints": { "24h": null, "7d": null } }
+  ]
+}

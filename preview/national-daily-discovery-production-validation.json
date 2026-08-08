@@ -1,0 +1,18 @@
+{
+  "ready": false,
+  "contentReady": true,
+  "measurementReady": false,
+  "baseUrl": "https://www.auditmap.org",
+  "checkedAt": "2026-08-08T02:39:03.369Z",
+  "posts": 14,
+  "passed": 14,
+  "failures": [],
+  "measurementErrors": [
+    "production app.js is missing trackAuditMapEvent",
+    "production app.js is missing Campaign landing",
+    "production app.js is missing Crumb submitted",
+    "production app.js is missing Directions opened",
+    "production app.js is missing Place saved",
+    "production app.js is missing Place shared"
+  ]
+}

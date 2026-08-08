@@ -1,24 +1,15 @@
-const NC_BOUNDS = {
-  south: 33.75,
-  west: -84.33,
-  north: 36.59,
-  east: -75.4,
-};
-
 module.exports = async function handler(request, response) {
   const query = String(request.query.q || "").trim().slice(0, 120);
   if (query.length < 2) {
-    response.status(400).json({ error: "Enter a North Carolina city or address." });
+    response.status(400).json({ error: "Enter a U.S. city, address, or public place." });
     return;
   }
 
   const params = new URLSearchParams({
-    q: `${query}, North Carolina`,
+    q: query,
     format: "jsonv2",
     limit: "1",
     countrycodes: "us",
-    bounded: "1",
-    viewbox: `${NC_BOUNDS.west},${NC_BOUNDS.north},${NC_BOUNDS.east},${NC_BOUNDS.south}`,
     addressdetails: "1",
   });
 
@@ -35,9 +26,16 @@ module.exports = async function handler(request, response) {
     if (!geocodeResponse.ok) throw new Error("Geocoder request failed.");
     const [result] = await geocodeResponse.json();
     if (!result) {
-      response.status(404).json({ error: "No North Carolina location matched that search." });
+      response.status(404).json({ error: "No U.S. location matched that search." });
       return;
     }
+
+    const stateCode = String(
+      result.address?.["ISO3166-2-lvl4"] || result.address?.state_code || "",
+    )
+      .split("-")
+      .pop()
+      .toUpperCase();
 
     response.setHeader("Cache-Control", "s-maxage=86400, stale-while-revalidate=604800");
     response.status(200).json({
@@ -47,7 +45,7 @@ module.exports = async function handler(request, response) {
         result.address?.village ||
         result.address?.county ||
         query,
-      state: "NC",
+      state: stateCode,
       latitude: Number(result.lat),
       longitude: Number(result.lon),
       label: result.display_name,
@@ -55,6 +53,6 @@ module.exports = async function handler(request, response) {
       boundingBox: result.boundingbox?.map(Number) || null,
     });
   } catch {
-    response.status(502).json({ error: "North Carolina location search is temporarily unavailable." });
+    response.status(502).json({ error: "U.S. location search is temporarily unavailable." });
   }
 };

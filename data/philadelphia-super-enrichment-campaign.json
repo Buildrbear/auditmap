@@ -1,0 +1,94 @@
+{
+  "campaign": "Philadelphia high-impact public destinations",
+  "checkedAt": "2026-08-06",
+  "releaseStandard": {
+    "minimumParentImages": 4,
+    "minimumSubsites": 8,
+    "minimumParentQuestions": 11,
+    "minimumSubsiteQuestions": 9,
+    "fastExpiringFacts": ["hours", "parking", "closures", "ticketing", "seasonal water play", "concessions", "events"]
+  },
+  "places": [
+    {
+      "id": "launch-pa-philadelphia-fairmount-park",
+      "name": "Fairmount Park",
+      "operator": "Philadelphia Parks & Recreation",
+      "source": "https://www.phila.gov/parks-rec-finder/#/location/fairmount-park/",
+      "priority": "anchor",
+      "focus": "Separate East and West Fairmount Park arrival, river paths, playgrounds, picnic areas, museums, gardens, events, and construction.",
+      "subsites": ["Lemon Hill and East Fairmount Park", "Belmont Plateau", "Fairmount Water Works and Boathouse Row", "Centennial District and Horticulture Center", "Smith Memorial Playground and Playhouse", "Shofuso Japanese Cultural Center", "Please Touch Museum and Memorial Hall", "Philadelphia Museum of Art and Rocky Steps"]
+    },
+    {
+      "id": "launch-pa-philadelphia-wissahickon-valley-park",
+      "name": "Wissahickon Valley Park",
+      "operator": "Philadelphia Parks & Recreation / Friends of the Wissahickon",
+      "source": "https://fow.org/visit-the-park/",
+      "priority": "anchor",
+      "focus": "Trailhead-specific parking, Forbidden Drive, natural trails, creek safety, Valley Green Inn, accessibility, closures, and no-swimming rules.",
+      "subsites": ["Valley Green Inn and trailhead", "Forbidden Drive", "Devil's Pool and Livezey Lane", "Wissahickon Environmental Center and Andorra Meadow", "Thomas Mill Covered Bridge", "Fingerspan Bridge", "Blue Bell Park trailhead", "Rex Avenue trailhead"]
+    },
+    {
+      "id": "launch-pa-philadelphia-dilworth-park",
+      "name": "Dilworth Park",
+      "operator": "Center City District",
+      "source": "https://centercityphila.org/parks/dilworth-park",
+      "priority": "anchor",
+      "focus": "Transit-first City Hall arrival, seasonal fountain and ice rink, lawn, cafe, markets, accessibility, and event occupation.",
+      "subsites": ["Dilworth Park fountain", "Rothman Orthopaedics Ice Rink", "Greenfield Lawn and Wintergarden", "City Hall transit concourse", "Dilworth Park Cafe and terrace", "Pulse public art", "City Hall west portal", "Market Street plaza and elevators"]
+    },
+    {
+      "id": "launch-pa-philadelphia-fdr-park",
+      "name": "FDR Park",
+      "operator": "Philadelphia Parks & Recreation",
+      "source": "https://www.phila.gov/parks-rec-finder/#/location/fdr-park/",
+      "priority": "anchor",
+      "focus": "Anna C. Verna Playground, Swedish Museum, lakes, sports, skatepark, picnic areas, fishing, parking, and major transformation work.",
+      "subsites": ["Anna C. Verna Playground", "FDR Park skatepark", "Meadow Lake and fishing", "American Swedish Historical Museum and picnic areas", "Pattison Lagoon and boathouse", "South Philadelphia Meadow", "FDR Park picnic groves", "FDR Park athletic fields and courts"]
+    },
+    {
+      "id": "launch-pa-philadelphia-rittenhouse-square",
+      "name": "Rittenhouse Square",
+      "operator": "Philadelphia Parks & Recreation",
+      "source": "https://www.phila.gov/parks-rec-finder/#/location/rittenhouse-square/",
+      "priority": "anchor",
+      "focus": "Central entrances, seating, fountain, public art, farmers market, nearby food, dogs, transit, and event impacts.",
+      "subsites": ["Rittenhouse Square fountain", "Lion Crushing a Serpent", "Farmers market edge", "Family lawn and central plaza", "Duck Girl fountain", "Billy the Goat sculpture", "Sundial and southwest lawn", "Walnut Street cafe edge"]
+    },
+    {
+      "id": "launch-pa-philadelphia-franklin-square",
+      "name": "Franklin Square",
+      "operator": "Historic Philadelphia",
+      "source": "https://historicphiladelphia.org/franklin-square/",
+      "priority": "anchor",
+      "focus": "Free square access with ticketed carousel and mini golf, playground, fountain, food, seasonal events, restrooms, and accessibility.",
+      "subsites": ["Parx Liberty Carousel", "Philly Mini Golf", "Franklin Square playground", "Franklin Square fountain and SquareBurger", "Living Flame Memorial", "Chinese Lantern Festival grounds", "Race Street lawn and picnic tables", "Lightning Bolt sculpture"]
+    },
+    {
+      "id": "launch-pa-philadelphia-schuylkill-banks",
+      "name": "Schuylkill Banks",
+      "operator": "Schuylkill River Development Corporation",
+      "source": "https://www.schuylkillbanks.org/",
+      "priority": "anchor",
+      "focus": "River trail access, boardwalk, dog park, kayak and boat activities, fishing, bridge connections, flood closures, and limited restrooms.",
+      "subsites": ["Schuylkill Banks Boardwalk", "Schuylkill River Park and dog run", "Walnut Street trailhead and kayak dock", "Fairmount Water Works trail connection", "Locust Street access and overlook", "South Street Bridge trail ramp", "Paine's Park", "Bartram's Mile connection"]
+    },
+    {
+      "id": "launch-pa-philadelphia-spruce-street-harbor-park",
+      "name": "Spruce Street Harbor Park",
+      "operator": "Delaware River Waterfront Corporation",
+      "source": "https://www.delawareriverwaterfront.com/places/spruce-street-harbor-park",
+      "priority": "anchor",
+      "focus": "Seasonal opening, hammocks, floating gardens, food and drinks, games, accessible riverfront routes, transit, and event crowds.",
+      "subsites": ["Spruce Street hammocks", "Floating gardens and boardwalk", "Harbor Park food and drink vendors", "Penn's Landing riverfront games", "Barge Oasis", "Independence Blue Cross RiverRink connection", "Penn's Landing marina edge", "South Street pedestrian entrance"]
+    },
+    {
+      "id": "launch-pa-philadelphia-independence-national-historical-park",
+      "name": "Independence National Historical Park",
+      "operator": "National Park Service",
+      "source": "https://www.nps.gov/inde/planyourvisit/index.htm",
+      "priority": "anchor",
+      "focus": "Free historic sites, Independence Hall ticketing and security, Liberty Bell, Visitor Center services, families, accessibility, restrooms, transit, and garage parking.",
+      "subsites": ["Independence Visitor Center", "Liberty Bell Center", "Independence Hall and Independence Square", "Franklin Court and Benjamin Franklin Museum", "President's House Site", "Congress Hall", "Old City Hall", "Washington Square and Tomb of the Unknown Soldier"]
+    }
+  ]
+}

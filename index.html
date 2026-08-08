@@ -3,13 +3,53 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AuditMap | Find useful public places</title>
+    <title>AuditMap | The public's guide to public places</title>
     <meta
       name="description"
-      content="Search parks, libraries, civic resources, and other useful public places by city or distance."
+      content="Explore people-powered, sourced guides to parks and public places, including parking, hours, restrooms, accessibility, trails, and family amenities."
     />
+    <link rel="canonical" href="https://www.auditmap.org/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="AuditMap" />
+    <meta property="og:title" content="AuditMap | The public's guide to public places" />
+    <meta
+      property="og:description"
+      content="Browse. Explore. Leave a note. Help build richer public-place guides for everyone who comes after."
+    />
+    <meta property="og:url" content="https://www.auditmap.org/" />
+    <meta property="og:image" content="https://www.auditmap.org/logo.svg" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="AuditMap | The public's guide to public places" />
+    <meta
+      name="twitter:description"
+      content="Browse. Explore. Leave a note. Help build richer public-place guides for everyone who comes after."
+    />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://www.auditmap.org/#organization",
+            "name": "AuditMap",
+            "url": "https://www.auditmap.org/",
+            "logo": "https://www.auditmap.org/logo.svg"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.auditmap.org/#website",
+            "name": "AuditMap",
+            "url": "https://www.auditmap.org/",
+            "description": "A people-powered public guide to parks and public places, built by explorers and useful to everyone.",
+            "publisher": { "@id": "https://www.auditmap.org/#organization" },
+            "inLanguage": "en-US"
+          }
+        ]
+      }
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://tile.openstreetmap.org" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
       rel="stylesheet"
@@ -24,40 +64,58 @@
       rel="stylesheet"
       href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"
     />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="/styles.css?v=20260808-61" />
   </head>
   <body data-page="map">
     <header class="site-header">
-      <a class="brand" href="./index.html" aria-label="AuditMap home">
-        <img src="./logo.svg" alt="" />
-        <span>AuditMap</span>
-      </a>
+      <div class="brand-lockup">
+        <a class="brand" href="/index.html" aria-label="AuditMap home">
+          <img src="/logo.svg" alt="" />
+          <span>AuditMap</span>
+        </a>
+        <p>The public's guide to public places.</p>
+      </div>
       <div class="header-actions">
-        <span class="state-label">North Carolina</span>
+        <a class="state-label park-directory-link" id="park-directory-link" href="/us" aria-label="Browse the nationwide major parks directory">Browse nationwide parks</a>
         <button class="text-button" id="add-place-button" type="button">+ Add a place</button>
       </div>
     </header>
 
     <main class="map-page">
       <div class="map-toolbar">
+        <div class="mobile-search-heading">
+          <div>
+            <p class="kicker">Find your next place</p>
+            <strong>Search a city, park, address, or need.</strong>
+          </div>
+          <button type="button" data-close-mobile-search aria-label="Close search">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6.5 6.5 11 11M17.5 6.5l-11 11"/></svg>
+          </button>
+        </div>
         <button class="location-button" id="location-button" type="button">
           <span class="location-target" aria-hidden="true"></span>
           <span id="location-button-label">Near me</span>
         </button>
 
         <form class="search-field" id="state-search-form">
-          <label class="sr-only" for="search-input">Search North Carolina</label>
+          <label class="sr-only" for="search-input">Search public places</label>
           <span class="search-icon" aria-hidden="true"></span>
           <input
             id="search-input"
             type="search"
-            placeholder="City, address, or public place"
+            placeholder="Search cities, parks, or addresses"
             autocomplete="off"
+            role="combobox"
             aria-autocomplete="list"
             aria-controls="search-suggestions"
             aria-expanded="false"
           />
-          <button type="submit">Go</button>
+          <button type="submit" aria-label="Search">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="m9 6 6 6-6 6" />
+            </svg>
+            <span class="sr-only">Search</span>
+          </button>
           <div
             class="search-suggestions"
             id="search-suggestions"
@@ -67,35 +125,44 @@
           ></div>
         </form>
 
-        <button
-          class="toolbar-filter-button"
-          id="toolbar-filter-button"
-          type="button"
-          aria-label="Filter places"
-        >
-          <span class="filter-icon" aria-hidden="true"></span>
-          <span class="filter-count" data-filter-count hidden></span>
-        </button>
         <span class="location-status" id="location-status" role="status"></span>
       </div>
 
-      <aside class="places-sidebar">
-        <button
-          class="sheet-handle"
-          id="sheet-handle"
-          type="button"
-          aria-expanded="false"
-          aria-controls="place-list"
-        >
-          <span aria-hidden="true"></span>
-          <span class="sr-only">Expand place results</span>
-        </button>
+      <aside class="places-sidebar" data-sheet-state="peek">
+        <div class="sheet-header">
+          <span class="sheet-grabber" aria-hidden="true"></span>
+          <button
+            class="sheet-handle"
+            id="sheet-handle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="place-list"
+          >
+            <span class="sheet-handle-copy" aria-hidden="true"><strong>Explore this area</strong><small>Pull up for places</small></span>
+            <span class="sheet-handle-action" aria-hidden="true">Places ↑</span>
+            <span class="sr-only">Expand place results</span>
+          </button>
+          <button class="sheet-map-return" id="sheet-map-return" type="button">Map ↓</button>
+        </div>
         <div class="mobile-place-preview" id="mobile-place-preview" hidden></div>
+        <section class="map-mission" aria-labelledby="map-mission-title">
+          <p class="kicker">The public's guide to public places</p>
+          <h2 id="map-mission-title">Browse. Explore. Leave a note.</h2>
+          <p>
+            Public places deserve more than a pin on a map. Together, we are building richer guides
+            with verified information, community notes, photos, video, and 360° tours.
+          </p>
+          <ol class="map-mission-steps" aria-label="How AuditMap works">
+            <li><i>1</i><span><strong>Browse</strong><small>Find a place that feels right</small></span></li>
+            <li><i>2</i><span><strong>Explore</strong><small>Know what to expect before you go</small></span></li>
+            <li><i>3</i><span><strong>Leave a note</strong><small>Help everyone who comes after</small></span></li>
+          </ol>
+        </section>
         <div class="sidebar-heading">
           <div>
             <p class="kicker">Map area</p>
-            <h1 id="city-heading">Raleigh</h1>
-            <p id="area-summary">Public places in this view</p>
+            <h1 id="city-heading">United States</h1>
+            <p id="area-summary">Major public parks across all 50 states</p>
           </div>
           <button
             class="card-filter-button"
@@ -116,17 +183,95 @@
 
       <section class="map-wrap" aria-label="Map of public places">
         <div id="map" class="map-canvas" role="application" aria-label="Interactive map of public places"></div>
-        <button class="search-area-button" id="search-area-button" type="button" hidden>
-          Search this area
-        </button>
-        <div class="map-legend" aria-label="Map marker key">
-          <span><i class="legend-dot is-curated"></i> Established</span>
-          <span><i class="legend-dot is-seed"></i> Local info welcome</span>
-          <span><i class="legend-cluster">12</i> Grouped places</span>
+        <div class="map-gesture-hint" id="map-gesture-hint">Drag to move · Pinch to zoom</div>
+        <div class="map-guide-status" id="map-guide-status" role="status" hidden>
+          <span class="map-guide-compass" id="map-guide-compass" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="m12 3 5 16-5-3-5 3 5-16Z"/></svg>
+          </span>
+          <span class="map-guide-copy">
+            <small id="map-guide-kicker">Guiding on the map</small>
+            <strong id="map-guide-copy"></strong>
+            <em id="map-guide-feedback"></em>
+            <i class="map-guide-progress" aria-hidden="true"><b id="map-guide-progress"></b></i>
+            <span class="map-guide-mode">Tracking both points · Choose the safest nearby public path</span>
+          </span>
+          <span class="map-guide-actions">
+            <button type="button" id="map-guide-recenter" aria-pressed="false">Track</button>
+            <button type="button" id="map-guide-step" hidden>Step closer</button>
+            <button type="button" id="map-guide-stop">Stop</button>
+          </span>
         </div>
-        <div class="map-note">Move the map to explore anywhere in NC</div>
+        <section class="map-explorer-panel" id="map-explorer-panel" aria-labelledby="map-explorer-title" hidden>
+          <header class="map-explorer-heading">
+            <span>
+              <small>Exploring inside</small>
+              <strong id="map-explorer-title"></strong>
+            </span>
+            <span class="map-explorer-heading-actions">
+              <a id="map-explorer-directions" href="#" target="_blank" rel="noreferrer">Directions</a>
+              <button type="button" id="map-explorer-exit">Area map</button>
+            </span>
+          </header>
+          <p class="map-explorer-summary" id="map-explorer-summary"></p>
+          <div class="map-explorer-arrival" id="map-explorer-arrival" aria-live="polite" hidden></div>
+          <div class="map-explorer-destinations" id="map-explorer-destinations" role="list"></div>
+          <div class="map-explorer-selection" id="map-explorer-selection" hidden></div>
+        </section>
+        <button class="search-area-button" id="search-area-button" type="button" hidden>Update places here</button>
+        <div class="map-note" id="map-zoom-note" aria-live="polite">Country view · Choose a city</div>
       </section>
     </main>
+
+    <section class="map-start-overlay" id="map-start-overlay" aria-labelledby="map-start-title" hidden>
+      <div class="map-start-card">
+        <div class="map-start-intro">
+          <span class="map-start-mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M12 21s6-5.3 6-11a6 6 0 1 0-12 0c0 5.7 6 11 6 11Z"/><circle cx="12" cy="10" r="2.2"/></svg>
+          </span>
+          <p class="kicker">Start somewhere nearby</p>
+          <h1 id="map-start-title">Where should we explore?</h1>
+          <p>Find public places near you, or choose another city, neighborhood, or park.</p>
+        </div>
+
+        <button class="map-start-nearby" id="map-start-nearby" type="button">
+          <span class="map-start-action-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg>
+          </span>
+          <span>
+            <strong>Use my location</strong>
+            <small>Show public places close to me</small>
+          </span>
+          <svg class="map-start-chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg>
+        </button>
+
+        <div class="map-start-divider"><span>or choose an area</span></div>
+
+        <form class="map-start-search" id="map-start-search-form">
+          <label class="sr-only" for="map-start-search-input">Search a city, neighborhood, park, or address</label>
+          <span class="search-icon" aria-hidden="true"></span>
+          <input
+            id="map-start-search-input"
+            type="search"
+            placeholder="City, neighborhood, park, or address"
+            autocomplete="off"
+            role="combobox"
+            aria-autocomplete="list"
+            aria-controls="map-start-suggestions"
+            aria-expanded="false"
+          />
+          <button type="submit" aria-label="Search this area">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg>
+          </button>
+        </form>
+        <div class="map-start-suggestions" id="map-start-suggestions" role="listbox" aria-label="Suggested areas"></div>
+        <p class="map-start-status" id="map-start-status" role="status"></p>
+
+        <button class="map-start-browse" id="map-start-browse" type="button">
+          Browse the whole map
+        </button>
+        <p class="map-start-privacy">Your location is only requested after you choose it.</p>
+      </div>
+    </section>
 
     <dialog class="site-dialog" id="add-place-dialog">
       <form class="dialog-form" id="add-place-form">
@@ -181,49 +326,40 @@
       <form class="filter-dialog-form" id="filter-dialog-form">
         <div class="dialog-heading">
           <div>
-            <p class="kicker">More filters</p>
-            <h2>What works for this visit?</h2>
+            <p class="kicker">Refine this map</p>
+            <h2>Find what works for your visit</h2>
+            <p class="filter-dialog-intro">Choose only what matters. Unknown details never count as a match.</p>
           </div>
           <button class="icon-button" type="button" data-close-filter-dialog aria-label="Close">×</button>
         </div>
 
-        <fieldset class="filter-fieldset">
-          <legend>Good for</legend>
-          <div class="filter-option-grid" id="visit-filter-options"></div>
-        </fieldset>
+        <div class="filter-dialog-body">
+          <fieldset class="filter-fieldset">
+            <legend>Visit needs</legend>
+            <p>Select as many as you need. A place must match every selected need.</p>
+            <div class="filter-option-grid" id="visit-filter-options"></div>
+          </fieldset>
 
-        <fieldset class="filter-fieldset">
-          <legend>Place type</legend>
-          <div class="filter-option-grid" id="type-filter-options"></div>
-        </fieldset>
+          <fieldset class="filter-fieldset">
+            <legend>Kind of place</legend>
+            <p>Selecting multiple categories broadens these results.</p>
+            <div class="filter-option-grid type-filter-option-grid" id="type-filter-options"></div>
+          </fieldset>
 
-        <fieldset class="filter-fieldset">
-          <legend>Minimum rating</legend>
-          <div class="filter-option-grid rating-filter-options">
-            <label class="filter-option">
-              <input type="radio" name="minimum-rating" value="0" checked />
-              <span>Any rating</span>
-            </label>
-            <label class="filter-option">
-              <input type="radio" name="minimum-rating" value="4" />
-              <span>4.0+ stars</span>
-            </label>
-            <label class="filter-option">
-              <input type="radio" name="minimum-rating" value="4.5" />
-              <span>4.5+ stars</span>
-            </label>
-          </div>
-        </fieldset>
+          <p class="filter-dialog-note">
+            AuditMap only includes places whose documented information supports your choices.
+          </p>
+        </div>
 
         <div class="filter-dialog-actions">
           <button class="plain-button filter-clear-button" id="clear-all-filters" type="button">
             Clear all
           </button>
-          <button class="submit-button" type="submit">Show places</button>
+          <div class="filter-result-action">
+            <span id="filter-results-preview" aria-live="polite">Checking this map…</span>
+            <button class="submit-button" id="apply-filter-button" type="submit">Show places</button>
+          </div>
         </div>
-        <p class="filter-dialog-note">
-          Places with unknown details are not assumed to match.
-        </p>
       </form>
     </dialog>
 
@@ -233,6 +369,7 @@
       crossorigin=""
     ></script>
     <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
-    <script src="./app.js"></script>
+    <script src="/config.js"></script>
+    <script src="/app.js?v=20260808-61"></script>
   </body>
 </html>

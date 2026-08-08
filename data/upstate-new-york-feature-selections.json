@@ -1,0 +1,162 @@
+{
+  "checkedAt": "2026-08-08",
+  "reviewMethod": "Exact named OpenStreetMap feature, official operator page, and a destination-specific licensed campaign photograph.",
+  "places": {
+    "launch-ny-buffalo-delaware-park": [
+      {
+        "name": "Delaware Park Rose Garden",
+        "osm": "way/174372327",
+        "imageIndex": 1,
+        "sourceLabel": "Buffalo Olmsted Parks Conservancy",
+        "source": "https://www.bfloparks.org/parks/delaware-park/",
+        "summary": "The Rose Garden is the formal garden on Delaware Park's west side near Hoyt Lake, Marcy Casino, and the Ivy Bridge.",
+        "cost": "Walking through the public garden is free; weddings, exclusive use, food, and nearby rentals follow separate prices and permits.",
+        "hours": "Outdoor access follows current Delaware Park hours and posted garden conditions; booked ceremonies, maintenance, snow, or special events can limit access.",
+        "needToKnow": "Navigate to the Rose Garden rather than the broad park pin. Parking is limited along nearby park roads and Lincoln Parkway, flowers are seasonal, and a reservation may give a ceremony priority in part of the garden."
+      },
+      {
+        "name": "Delaware Park Japanese Gardens",
+        "osm": "node/256127867",
+        "imageIndex": 2,
+        "sourceLabel": "Buffalo Olmsted Parks Conservancy",
+        "source": "https://www.bfloparks.org/parks/delaware-park/",
+        "summary": "The Japanese Garden is a named garden between Mirror Lake, Hoyt Lake, and the Buffalo History Museum on Delaware Park's west side.",
+        "cost": "Ordinary garden access is free; reserved ceremonies or organized use can require a permit and fee.",
+        "hours": "Use the outdoor garden during current Delaware Park hours and obey posted maintenance, weather, event, and reservation restrictions.",
+        "needToKnow": "The most direct approach is from the west side near the Buffalo History Museum, not the golf-course side of the park. Expect slopes, steps, bridges, water edges, and seasonal bloom conditions."
+      },
+      {
+        "name": "Marcy Casino and The Terrace",
+        "osm": "node/7464391366",
+        "imageIndex": 3,
+        "sourceLabel": "Buffalo Olmsted Parks Conservancy",
+        "source": "https://www.bfloparks.org/parks/delaware-park/",
+        "summary": "The historic Marcy Casino is the Hoyt Lake landmark now occupied by The Terrace restaurant and seasonal boat-rental operations.",
+        "cost": "Viewing the exterior and walking the lakefront are free; restaurant service, boat rentals, private events, and reserved spaces charge separately.",
+        "hours": "The surrounding park follows park hours, while The Terrace, restrooms, boats, private events, and indoor access follow separate live schedules.",
+        "needToKnow": "Use 199 Lincoln Parkway for this side of the park. Do not rely on the building for an open restroom or weather shelter outside business or event hours, and confirm seasonal boat operation before traveling specifically to rent one."
+      }
+    ],
+    "launch-ny-buffalo-outer-harbor-and-lakeside-complex": [
+      {
+        "name": "Wilkeson Pointe",
+        "osm": "way/224318608",
+        "imageIndex": 3,
+        "sourceLabel": "Buffalo Waterfront",
+        "source": "https://buffalowaterfront.com/venue/wilkeson-pointe",
+        "summary": "Wilkeson Pointe is a landscaped Outer Harbor destination with Lake Erie views, paths, open space, public art, and its own parking area.",
+        "cost": "General access and parking are free; programmed activities, vendors, rentals, and special events can charge separately.",
+        "hours": "Wilkeson Pointe generally follows the Outer Harbor dawn-to-dusk schedule; events, weather, maintenance, and waterfront work can change access.",
+        "needToKnow": "Navigate to 225 Fuhrmann Boulevard rather than the Lakeside Complex address. The site is exposed to sun, wind, lake-effect weather, and changing shoreline conditions, and the nearest dependable public restroom may be at Bell Slip."
+      }
+    ],
+    "launch-ny-rochester-highland-park": [
+      {
+        "name": "Lilac Arches",
+        "osm": "node/7996137168",
+        "imageIndex": 2,
+        "sourceLabel": "Monroe County Parks",
+        "source": "https://www.monroecounty.gov/parks-highland",
+        "summary": "The Lilac Arches are a brick-patio garden destination near Highland and South avenues, with benches and flowering trees.",
+        "cost": "Casual public viewing is free; reserved wedding, reception, or photography use has a separate County fee.",
+        "hours": "Outdoor access follows Highland Park's 6:00 a.m.-11:00 p.m. hours, subject to reservations, festival controls, maintenance, and weather.",
+        "needToKnow": "Use the exact arches pin near Highland and South avenues. Some street parking and a Highland Avenue lot serve the area, while Lilac Festival closures can completely change the normal approach."
+      },
+      {
+        "name": "Frederick Douglass Statue",
+        "osm": "node/4955980723",
+        "imageIndex": 3,
+        "sourceLabel": "City of Rochester",
+        "source": "https://www.cityofrochester.gov/departments/department-recreation-and-human-services-drhs/frederick-douglass-monuments",
+        "summary": "This Frederick Douglass statue is the Highland Park monument near South Avenue and Robinson Drive, one of Rochester's relocated Douglass monuments.",
+        "cost": "There is no separate admission for viewing the outdoor monument.",
+        "hours": "Outdoor viewing follows Highland Park's 6:00 a.m.-11:00 p.m. hours unless events, weather, maintenance, or a temporary closure restrict the area.",
+        "needToKnow": "Navigate to the exact statue pin rather than Mount Hope Cemetery or another Douglass monument in Rochester. Treat the monument and surrounding commemorative space respectfully and keep paths clear."
+      }
+    ],
+    "launch-ny-rochester-genesee-valley-park": [
+      {
+        "name": "Genesee River and Erie Canal Junction",
+        "osm": "way/23730485",
+        "imageIndex": 0,
+        "allowOutsideBoundary": true,
+        "boundaryExceptionReason": "The City identifies the Erie Canal and Genesee River water crossroads as a defining Genesee Valley Park destination, while the mapped canal geometry extends beyond the park land polygon.",
+        "sourceLabel": "City of Rochester",
+        "source": "https://www.cityofrochester.gov/locations/genesee-valley-park",
+        "summary": "The water crossroads where the Erie Canal crosses the Genesee River is Genesee Valley Park's defining landscape and a major trail, paddling, and bridge destination.",
+        "cost": "Viewing the junction and using public park paths are free; rentals, lessons, golf, pools, shelters, and organized programs charge separately.",
+        "hours": "Public access follows current park and trail hours; navigation seasons, flood conditions, bridge work, ice, and events can alter waterfront access.",
+        "needToKnow": "Use the exact junction pin or a named nearby trail access rather than the broad 800-acre park marker. Waterways are active navigation corridors, not swimming areas; stay behind barriers and supervise children at bridges and banks."
+      }
+    ],
+    "launch-ny-albany-washington-park": [
+      {
+        "name": "Washington Park Lake",
+        "osm": "way/89699541",
+        "imageIndex": 0,
+        "sourceLabel": "Washington Park Conservancy",
+        "source": "https://www.washingtonparkconservancy.org/general-park-information/",
+        "summary": "Washington Park Lake is the park's central water landscape, encircled by paths and anchored by the Lake House.",
+        "cost": "Walking around and viewing the lake are free; permitted events and separately organized activities can charge.",
+        "hours": "Lake-area access follows seasonal park hours: sunrise-11:00 p.m. May-October and sunrise-10:00 p.m. November-April, subject to closures.",
+        "needToKnow": "The lake is not a supervised swimming area. Use the exact lake or Lake House pin, keep children back from the edge, and expect event controls or winter conditions to change paths and parking."
+      },
+      {
+        "name": "Washington Park Lake House",
+        "osm": "way/89699535",
+        "imageIndex": 1,
+        "sourceLabel": "Washington Park Conservancy",
+        "source": "https://www.washingtonparkconservancy.org/general-park-information/",
+        "summary": "The Lake House is the historic building beside Washington Park Lake and the location identified for public restrooms.",
+        "cost": "Viewing the exterior and using the surrounding public park are free; permitted events and facility uses follow separate rules and fees.",
+        "hours": "The surrounding park follows seasonal park hours, but restroom and building access depend on current staffing, maintenance, season, and events.",
+        "needToKnow": "Do not assume the interior is open whenever the park is open. The City does not allow private weddings or private events in the Lake House, and large public events can change nearby parking and access."
+      },
+      {
+        "name": "King Memorial Fountain",
+        "osm": "node/1039462878",
+        "imageIndex": 3,
+        "sourceLabel": "Washington Park Conservancy",
+        "source": "https://www.washingtonparkconservancy.org/monuments-and-memorials/",
+        "summary": "King Memorial Fountain, also known as Moses Smiting the Rock, is the major sculptural fountain near Washington Park's Madison Avenue side.",
+        "cost": "There is no separate admission for viewing the outdoor fountain.",
+        "hours": "Outdoor viewing follows seasonal park hours; water operation is seasonal and can pause for maintenance or weather.",
+        "needToKnow": "The fountain is an ornamental landmark, not a splash pad. Navigate to the exact pin, stay out of the basin, and do not assume the water is operating outside the warm season."
+      }
+    ],
+    "launch-ny-albany-corning-preserve": [
+      {
+        "name": "Corning Preserve Boat Launch",
+        "osm": "node/745778122",
+        "imageIndex": 1,
+        "sourceLabel": "City of Albany",
+        "source": "https://www.albanyny.gov/DocumentCenter/View/10369",
+        "summary": "Corning Preserve Boat Launch is the public Hudson River launch north of Jennings Landing, reached separately from the main amphitheater area.",
+        "cost": "The public launch is listed as a park amenity; boat registration, equipment, permits, parking, or organized use may create separate costs.",
+        "hours": "Launch access follows seasonal Albany park hours and posted river, ramp, construction, and emergency conditions.",
+        "needToKnow": "Navigate to the boat-launch pin near Colonie Street and I-787 Exit 4A, not Jennings Landing. Check river level, current, weather, ramp condition, and required safety equipment before launching; this is not a swimming beach."
+      },
+      {
+        "name": "Hudson River Way Pedestrian Bridge",
+        "osm": "way/986712177",
+        "imageIndex": 3,
+        "allowOutsideBoundary": true,
+        "boundaryExceptionReason": "The official downtown pedestrian connection extends from Corning Preserve across I-787 beyond the mapped riverfront park polygon.",
+        "sourceLabel": "City of Albany",
+        "source": "https://www.albanyny.gov/DocumentCenter/View/10369",
+        "summary": "Hudson River Way is the pedestrian bridge linking downtown Albany near Broadway and Clinton Avenue directly to Jennings Landing and Corning Preserve.",
+        "cost": "Walking across the public bridge is free.",
+        "hours": "Use the bridge during current park access hours and obey temporary event, maintenance, construction, ice, and emergency closures.",
+        "needToKnow": "The bridge is a practical car-free arrival route but is exposed to sun, wind, ice, and severe weather. It is distinct from the Albany Skyway farther north, so choose the connection nearest your downtown starting point."
+      }
+    ]
+  },
+  "researchQueue": {
+    "launch-ny-buffalo-delaware-park": "Secure exact reusable photographs before publishing Hoyt Lake, Ivy Bridge, Parkside Lodge, the Mighty Oak, playgrounds, shelters, golf, or adjacent cultural institutions as subsites.",
+    "launch-ny-buffalo-outer-harbor-and-lakeside-complex": "Secure exact reusable photographs before publishing Lakeside Bike Park, Bell Slip, Terminal B, event space, RC crawler course, Shoreline Trail access points, or Buffalo Harbor State Park facilities.",
+    "launch-ny-rochester-highland-park": "Secure exact reusable photographs and reviewed pins before publishing Warner Castle and Sunken Garden, Highland Bowl, Lily Pond, Lamberton Conservatory, Highland Reservoir, playgrounds, memorial gardens, or Olmsted Lodge.",
+    "launch-ny-rochester-genesee-valley-park": "Secure exact reusable photographs before publishing the Sports Complex pool and rink, Genesee Waterways Center, Roundhouse playground, named shelters, golf courses, trailheads, ball fields, and boat launches.",
+    "launch-ny-albany-washington-park": "Secure current reusable photographs before publishing the newly rebuilt playground, Park Playhouse, Armsby Memorial, tulip beds, courts, parade grounds, or additional monuments.",
+    "launch-ny-albany-corning-preserve": "Secure exact reusable photographs before publishing Jennings Landing, Albany Skyway, playground, amphitheater, trail segments, docks, and picnic areas as separate subsites."
+  }
+}

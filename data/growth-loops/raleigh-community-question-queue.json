@@ -1,0 +1,33 @@
+{
+  "campaignId": "raleigh-community-prompt-pilot",
+  "generatedAt": "2026-08-08T02:22:31.446Z",
+  "privacy": "No social identity or copied reply text retained; questions are reviewer paraphrases.",
+  "metrics": {
+    "reviewedResponses": 0,
+    "nonTeamReplies": 0,
+    "qualifiedNeeds": 0,
+    "duplicateNeeds": 0,
+    "outOfScope": 0,
+    "answerReady": 0,
+    "recheckRequired": 0,
+    "researchNeeded": 0
+  },
+  "promptMetrics": {
+    "missing-detail": {
+      "nonTeamReplies": 0,
+      "qualifiedNeeds": 0,
+      "resolvedNeeds": 0
+    },
+    "overlooked-place": {
+      "nonTeamReplies": 0,
+      "qualifiedNeeds": 0,
+      "resolvedNeeds": 0
+    },
+    "family-friction": {
+      "nonTeamReplies": 0,
+      "qualifiedNeeds": 0,
+      "resolvedNeeds": 0
+    }
+  },
+  "needs": []
+}

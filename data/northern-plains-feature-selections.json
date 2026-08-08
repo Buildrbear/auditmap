@@ -1,0 +1,79 @@
+{
+  "checkedAt": "2026-08-08",
+  "reviewMethod": "Exact named OpenStreetMap feature, official operator guidance, and a destination-specific licensed campaign photograph. Features without all three remain parent-page amenities or research-queue items rather than separate pages.",
+  "places": {
+    "launch-mt-billings-riverfront-park": [],
+    "launch-mt-billings-swords-park": [],
+    "launch-wy-cheyenne-lions-park": [],
+    "launch-nd-fargo-lindenwood-park": [],
+    "launch-nd-fargo-island-park": [],
+    "launch-sd-sioux-falls-falls-park": [
+      {
+        "name": "Middle Sioux Falls",
+        "osm": "node/707421993",
+        "imageIndex": 0,
+        "sourceLabel": "City of Sioux Falls Parks and Recreation",
+        "source": "https://www.siouxfalls.gov/activities-recreation/parks-trails/directory/parks/falls",
+        "summary": "Middle Sioux Falls is the central mapped waterfall within Falls Park, where the Big Sioux River descends across exposed pink Sioux Quartzite beside the park's paved walking routes and overlooks.",
+        "cost": "The City does not list a general admission charge for Falls Park or its public waterfall overlooks. Food, shopping, reserved shelters, tours, and ticketed or permitted activities can cost separately.",
+        "hours": "The outdoor waterfall viewpoints follow Falls Park's daily 5:00 a.m.-11:59 p.m. schedule unless flooding, ice, severe weather, construction, an event, or a safety closure restricts a route or overlook.",
+        "needToKnow": "Stay on designated paths and behind barriers. The City warns that the quartzite is slippery when wet and that people have died after entering the rocks and water during flood events; keep children close and never climb down for a photograph or rescue attempt."
+      },
+      {
+        "name": "Falls Park Viewing Tower",
+        "osm": "way/404831404",
+        "imageIndex": 1,
+        "sourceLabel": "Experience Sioux Falls",
+        "source": "https://www.experiencesiouxfalls.com/listing/falls-park-visitor-information-center-gift-shop-and-viewing-tower",
+        "summary": "Falls Park Viewing Tower is a five-story enclosed tower attached to the Visitor Information Center, with an elevator and an outdoor observation deck overlooking the falls and downtown skyline.",
+        "cost": "Public access to the visitor center and viewing tower is free; purchases, tours, food, parking outside the park, and special activities can cost separately.",
+        "hours": "The tower follows the Visitor Information Center's seasonal schedule and closes 10 minutes before the center. Current published hours vary between summer, fall, early winter, and Winter Wonderland dates, so verify the same-day schedule before making the tower your sole destination.",
+        "needToKnow": "Do not use the parent park's near-midnight closing time for the tower. The elevator provides the accessible route, but weather, maintenance, holidays, or staffing can affect the deck; the center lists Easter, Thanksgiving, Christmas Eve, and Christmas Day closures."
+      },
+      {
+        "name": "Queen Bee Mill Ruins",
+        "osm": "way/405054032",
+        "imageIndex": 2,
+        "sourceLabel": "City of Sioux Falls",
+        "source": "https://www.siouxfalls.gov/files/assets/public/v/1/business-and-permits/planning-amp-development/future-planning/stockwells-phase-2.pdf",
+        "summary": "Queen Bee Mill Ruins preserve the visible remains of the seven-story flour mill that opened beside the falls in 1881 and was later damaged by fire, leaving historic stonework on the river's east bank.",
+        "cost": "Viewing the ruins during an ordinary Falls Park visit is free. Reserved performances, private uses, food, tours, and special events can have separate requirements even when an event itself is advertised as free.",
+        "hours": "The exterior ruin area generally follows Falls Park's daily 5:00 a.m.-11:59 p.m. schedule, but gates, performances, preservation work, snow, ice, flooding, or events can restrict closer access.",
+        "needToKnow": "Treat the ruins as a historic site, not a climbing structure. Stay on the public route and outside closed masonry areas; some summer performances use the ruins and require visitors to bring a lawn chair or blanket because permanent seating is not provided."
+      },
+      {
+        "name": "Falls Overlook Cafe",
+        "osm": "way/405054021",
+        "imageIndex": 3,
+        "sourceLabel": "Falls Overlook Cafe",
+        "source": "https://fallsoverlook.com/about-us",
+        "summary": "Falls Overlook Cafe occupies a restored 1908 hydroelectric plant on the east bank of the Big Sioux River, with indoor and outdoor dining, historic exhibits, local ice cream, gifts, and views of the falls.",
+        "cost": "Entering Falls Park is free, while food, beverages, merchandise, and private-event bookings at the cafe cost separately. Groups of ten or more are asked to arrange meals in advance.",
+        "hours": "The cafe keeps seasonal business hours that are much shorter than Falls Park's schedule and may close for severe weather or private events. Check the cafe's current same-day listing before relying on food, indoor seating, or restrooms there.",
+        "needToKnow": "Navigate to the east-bank cafe pin rather than the Visitor Information Center. The building is a working restaurant and event venue, not a guaranteed public restroom after cafe hours; keep a backup food and facility plan during winter, storms, and private bookings."
+      }
+    ],
+    "launch-sd-sioux-falls-terrace-park": [
+      {
+        "name": "Covell Lake",
+        "osm": "relation/4020941",
+        "imageIndex": 0,
+        "sourceLabel": "City of Sioux Falls Parks and Recreation",
+        "source": "https://www.siouxfalls.gov/activities-recreation/parks-trails/directory/parks/terrace",
+        "summary": "Covell Lake is the oxbow lake at the center of Terrace Park, bordered by walking routes, fishing and paddle access, the historic Japanese Garden, athletic areas, and the park's upper and west-side destinations.",
+        "cost": "The City does not list a general admission charge for Terrace Park or ordinary lake-edge access. Fishing requirements, reservations, aquatic-center admission, equipment, programs, and events can cost separately.",
+        "hours": "The lake and surrounding outdoor park routes follow Terrace Park's daily 5:00 a.m.-10:00 p.m. schedule unless weather, water conditions, maintenance, an event, or a seasonal closure restricts access.",
+        "needToKnow": "Use Covell Lake for fishing, shoreline walking, and permitted paddle access, not as a promised swim beach. The park's slopes and terraces separate the lake, Japanese Garden, aquatic center, ballfields, and upper shelters, so navigate to the exact side needed and supervise children at the water's edge."
+      }
+    ]
+  },
+  "researchQueue": {
+    "launch-mt-billings-riverfront-park": "Secure current representative photographs of Lake Josephine, Lake Cochran, developed trails, picnic areas, shelters, and Yellowstone River access before release; wildlife close-ups and unrelated Oregon river images are not substitutes.",
+    "launch-mt-billings-swords-park": "Secure two additional broad destination photographs beyond the existing city overlook and trail views; park signs and Yellowstone Kelly interpretive-panel close-ups do not complete a visitor gallery.",
+    "launch-wy-cheyenne-lions-park": "Secure broad current photographs of Sloan's Lake, playgrounds, spray park, aquatic center, fields, shelters, and park circulation; close-up Botanic Gardens images alone misrepresent the parent destination.",
+    "launch-nd-fargo-lindenwood-park": "Secure exact destination-specific photographs and reviewed pins before publishing the universal playground, adaptive kayak launch, boat ramp, Gooseberry bridge, campground, shelters, or individual Red River trails as separate pages.",
+    "launch-nd-fargo-island-park": "Secure current exact photographs and reviewed pins for the rebuilt Island Park Pool, playgrounds, gazebo, Henrik Wergeland statue, courts, restrooms, and winter routes. Do not reuse the pre-rebuild 2008 pool image.",
+    "launch-sd-sioux-falls-falls-park": "Secure exact reusable photographs before publishing Stockyards Ag Experience, farmers market, shelters, playground, Jacobson Plaza, splash pad, dog park, skate ribbon, greenway access points, restrooms, or additional waterfalls and overlooks as separate pages.",
+    "launch-sd-sioux-falls-terrace-park": "Secure an exact reviewed Japanese Garden map object plus current photographs of the aquatic center, playground, bandshell, wedding garden, shelters, ballfields, restrooms, and accessible routes before publishing those destinations separately."
+  }
+}

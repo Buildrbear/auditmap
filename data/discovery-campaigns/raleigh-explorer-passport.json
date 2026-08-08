@@ -1,0 +1,22 @@
+{
+  "id": "raleigh-explorer-passport",
+  "campaign": "raleigh_explorer_passport",
+  "city": "Raleigh",
+  "state": "NC",
+  "title": "Your Raleigh explorer passport",
+  "summary": "Five different public places. Explore at your pace, keep your progress on this device, and leave something useful for the next person.",
+  "descriptions": {
+    "dix-park": "A large destination park with skyline lawns, play areas, public art, trails, a dog park, and widely separated destinations that reward planning.",
+    "pullen-park": "A family-centered park combining a historic carousel, miniature train, playgrounds, arts, sports, and other facilities with separate schedules.",
+    "john-chavis-memorial-park": "A historic community park with a restored carousel, playground, splash pad, track, community center, and connections to Raleigh's Black history.",
+    "moore-square": "A compact downtown square with open lawn, mature oaks, seating, events, and easy walking connections to surrounding destinations.",
+    "basic-osm-way-33106145": "A smaller downtown green space with lawns, paved paths, shade trees, benches, and a significant civic namesake."
+  },
+  "placeIds": [
+    "dix-park",
+    "pullen-park",
+    "john-chavis-memorial-park",
+    "moore-square",
+    "basic-osm-way-33106145"
+  ]
+}

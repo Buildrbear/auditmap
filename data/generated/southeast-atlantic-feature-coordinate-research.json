@@ -1,0 +1,376 @@
+{
+  "checkedAt": "2026-08-08",
+  "source": "OpenStreetMap Nominatim",
+  "places": {
+    "launch-sc-charleston-waterfront-park": {
+      "pineapple-fountain": {
+        "name": "Pineapple Fountain",
+        "candidates": [
+          {
+            "latitude": 32.7780918,
+            "longitude": -79.9251912,
+            "displayName": "Pineapple Fountain, French Quarter, Charleston, Charleston County, South Carolina, United States",
+            "osmType": "way",
+            "osmId": 1356302855,
+            "category": "natural",
+            "type": "water",
+            "source": "OpenStreetMap Nominatim",
+            "sourceUrl": "https://www.openstreetmap.org/way/1356302855",
+            "query": "Pineapple Fountain, Charleston, SC",
+            "reviewStatus": "pending-name-and-boundary-review"
+          }
+        ]
+      },
+      "waterfront-park-splash-fountain": {
+        "name": "Waterfront Park Splash Fountain",
+        "candidates": []
+      },
+      "vendue-wharf-and-pier": {
+        "name": "Vendue Wharf and Pier",
+        "candidates": []
+      },
+      "waterfront-park-swings": {
+        "name": "Waterfront Park Swings",
+        "candidates": []
+      },
+      "cooper-river-promenade": {
+        "name": "Cooper River Promenade",
+        "candidates": []
+      },
+      "waterfront-park-great-lawn": {
+        "name": "Waterfront Park Great Lawn",
+        "candidates": []
+      },
+      "waterfront-park-garden-rooms": {
+        "name": "Waterfront Park Garden Rooms",
+        "candidates": []
+      },
+      "city-gallery-at-waterfront-park": {
+        "name": "City Gallery at Waterfront Park",
+        "candidates": []
+      }
+    },
+    "launch-sc-charleston-hampton-park": {
+      "hampton-park-lagoon": {
+        "name": "Hampton Park Lagoon",
+        "candidates": []
+      },
+      "hampton-park-gazebo": {
+        "name": "Hampton Park Gazebo",
+        "candidates": []
+      },
+      "hampton-park-rose-collection": {
+        "name": "Hampton Park Rose Collection",
+        "candidates": []
+      },
+      "hampton-park-fitness-trail": {
+        "name": "Hampton Park Fitness Trail",
+        "candidates": []
+      },
+      "hampton-park-arboretum-loop": {
+        "name": "Hampton Park Arboretum Loop",
+        "candidates": []
+      },
+      "mary-murray-drive-car-free-loop": {
+        "name": "Mary Murray Drive Car-Free Loop",
+        "candidates": []
+      },
+      "hampton-park-playground": {
+        "name": "Hampton Park Playground",
+        "candidates": []
+      },
+      "hampton-park-ball-field": {
+        "name": "Hampton Park Ball Field",
+        "candidates": []
+      }
+    },
+    "launch-sc-charleston-white-point-garden": {
+      "white-point-garden-pavilion": {
+        "name": "White Point Garden Pavilion",
+        "candidates": []
+      },
+      "white-point-garden-harbor-walk": {
+        "name": "White Point Garden Harbor Walk",
+        "candidates": []
+      },
+      "white-point-garden-cannons": {
+        "name": "White Point Garden Cannons",
+        "candidates": []
+      },
+      "william-moultrie-statue": {
+        "name": "William Moultrie Statue",
+        "candidates": [
+          {
+            "latitude": 32.7697155,
+            "longitude": -79.9289144,
+            "displayName": "William Moultrie Statue, East Battery, South of Broad, Charleston, Charleston County, South Carolina, 29401, United States",
+            "osmType": "node",
+            "osmId": 4820414608,
+            "category": "historic",
+            "type": "memorial",
+            "source": "OpenStreetMap Nominatim",
+            "sourceUrl": "https://www.openstreetmap.org/node/4820414608",
+            "query": "William Moultrie Statue, Charleston, SC",
+            "reviewStatus": "pending-name-and-boundary-review"
+          }
+        ]
+      },
+      "defenders-of-fort-moultrie-monument": {
+        "name": "Defenders of Fort Moultrie Monument",
+        "candidates": []
+      },
+      "confederate-defenders-monument": {
+        "name": "Confederate Defenders Monument",
+        "candidates": [
+          {
+            "latitude": 32.7694752,
+            "longitude": -79.9290835,
+            "displayName": "Confederate Defenders of Charleston, Murray Boulevard, South of Broad, Charleston, Charleston County, South Carolina, 29401, United States",
+            "osmType": "node",
+            "osmId": 5895553785,
+            "category": "historic",
+            "type": "monument",
+            "source": "OpenStreetMap Nominatim",
+            "sourceUrl": "https://www.openstreetmap.org/node/5895553785",
+            "query": "Confederate Defenders Monument, Charleston, SC",
+            "reviewStatus": "pending-name-and-boundary-review"
+          }
+        ]
+      },
+      "uss-amberjack-memorial": {
+        "name": "USS Amberjack Memorial",
+        "candidates": [
+          {
+            "latitude": 32.7696502,
+            "longitude": -79.9313694,
+            "displayName": "USS Amberjack (SS-219) Memorial, Murray Boulevard, South of Broad, Charleston, Charleston County, South Carolina, 29401, United States",
+            "osmType": "node",
+            "osmId": 12520802399,
+            "category": "historic",
+            "type": "memorial",
+            "source": "OpenStreetMap Nominatim",
+            "sourceUrl": "https://www.openstreetmap.org/node/12520802399",
+            "query": "USS Amberjack Memorial, Charleston, SC",
+            "reviewStatus": "pending-name-and-boundary-review"
+          }
+        ]
+      },
+      "white-point-garden-off-leash-area": {
+        "name": "White Point Garden Off-Leash Area",
+        "candidates": []
+      }
+    },
+    "launch-ga-savannah-forsyth-park": {
+      "forsyth-park-fountain": {
+        "name": "Forsyth Park Fountain",
+        "candidates": [
+          {
+            "latitude": 32.069234,
+            "longitude": -81.095591,
+            "displayName": "Forsyth Park Fountain, Savannah Historic District, Savannah, Chatham County, Georgia, United States",
+            "osmType": "way",
+            "osmId": 334561390,
+            "category": "natural",
+            "type": "water",
+            "source": "OpenStreetMap Nominatim",
+            "sourceUrl": "https://www.openstreetmap.org/way/334561390",
+            "query": "Forsyth Park Fountain, Savannah, GA",
+            "reviewStatus": "pending-name-and-boundary-review"
+          }
+        ]
+      },
+      "forsyth-park-playground": {
+        "name": "Forsyth Park Playground",
+        "candidates": []
+      },
+      "forsyth-park-splash-pad": {
+        "name": "Forsyth Park Splash Pad",
+        "candidates": []
+      },
+      "fragrant-garden-for-the-blind": {
+        "name": "Fragrant Garden for the Blind",
+        "candidates": []
+      },
+      "forsyth-park-bandshell": {
+        "name": "Forsyth Park Bandshell",
+        "candidates": []
+      },
+      "forsyth-park-tennis-courts": {
+        "name": "Forsyth Park Tennis Courts",
+        "candidates": []
+      },
+      "forsyth-park-basketball-courts": {
+        "name": "Forsyth Park Basketball Courts",
+        "candidates": []
+      },
+      "forsyth-park-monument": {
+        "name": "Forsyth Park Monument",
+        "candidates": []
+      }
+    },
+    "launch-ga-savannah-skidaway-island-state-park": {
+      "jane-hurt-yarn-interpretive-center": {
+        "name": "Jane Hurt Yarn Interpretive Center",
+        "candidates": []
+      },
+      "sandpiper-trail-loop": {
+        "name": "Sandpiper Trail Loop",
+        "candidates": []
+      },
+      "big-ferry-trail": {
+        "name": "Big Ferry Trail",
+        "candidates": []
+      },
+      "avian-loop-trail": {
+        "name": "Avian Loop Trail",
+        "candidates": []
+      },
+      "skidaway-narrows-boardwalk": {
+        "name": "Skidaway Narrows Boardwalk",
+        "candidates": []
+      },
+      "skidaway-observation-tower": {
+        "name": "Skidaway Observation Tower",
+        "candidates": []
+      },
+      "skidaway-island-campground": {
+        "name": "Skidaway Island Campground",
+        "candidates": []
+      },
+      "skidaway-island-playground": {
+        "name": "Skidaway Island Playground",
+        "candidates": []
+      }
+    },
+    "launch-ga-savannah-bonaventure-cemetery": {
+      "bonaventure-cemetery-main-entrance": {
+        "name": "Bonaventure Cemetery Main Entrance",
+        "candidates": []
+      },
+      "bonaventure-administrative-building": {
+        "name": "Bonaventure Administrative Building",
+        "candidates": []
+      },
+      "live-oak-avenue": {
+        "name": "Live Oak Avenue",
+        "candidates": []
+      },
+      "johnny-mercer-gravesite": {
+        "name": "Johnny Mercer Gravesite",
+        "candidates": []
+      },
+      "conrad-aiken-gravesite": {
+        "name": "Conrad Aiken Gravesite",
+        "candidates": []
+      },
+      "little-gracie-watson-gravesite": {
+        "name": "Little Gracie Watson Gravesite",
+        "candidates": []
+      },
+      "wilmington-river-bluff": {
+        "name": "Wilmington River Bluff",
+        "candidates": []
+      },
+      "bonaventure-historical-society-visitor-center": {
+        "name": "Bonaventure Historical Society Visitor Center",
+        "candidates": []
+      }
+    },
+    "launch-fl-jacksonville-kathryn-abbey-hanna-park": {
+      "the-poles-surf-break": {
+        "name": "The Poles Surf Break",
+        "candidates": []
+      },
+      "hanna-park-splash-park": {
+        "name": "Hanna Park Splash Park",
+        "candidates": []
+      },
+      "hanna-park-freshwater-lake": {
+        "name": "Hanna Park Freshwater Lake",
+        "candidates": []
+      },
+      "hanna-park-campground": {
+        "name": "Hanna Park Campground",
+        "candidates": []
+      },
+      "hanna-park-mountain-bike-trails": {
+        "name": "Hanna Park Mountain Bike Trails",
+        "candidates": []
+      },
+      "dolphin-plaza": {
+        "name": "Dolphin Plaza",
+        "candidates": [
+          {
+            "latitude": 30.3761766,
+            "longitude": -81.3982598,
+            "displayName": "Dolphin Plaza, Seminole Road, Manhattan Beach, Jacksonville, Duval County, Florida, 32227, United States",
+            "osmType": "way",
+            "osmId": 457241387,
+            "category": "building",
+            "type": "yes",
+            "source": "OpenStreetMap Nominatim",
+            "sourceUrl": "https://www.openstreetmap.org/way/457241387",
+            "query": "Dolphin Plaza, Jacksonville, FL",
+            "reviewStatus": "pending-name-and-boundary-review"
+          }
+        ]
+      },
+      "loggerhead-plaza": {
+        "name": "Loggerhead Plaza",
+        "candidates": []
+      },
+      "hanna-park-campground-store-and-concession": {
+        "name": "Hanna Park Campground Store and Concession",
+        "candidates": []
+      }
+    },
+    "launch-fl-jacksonville-jessie-ball-dupont-park": {
+      "treaty-oak": {
+        "name": "Treaty Oak",
+        "candidates": [
+          {
+            "latitude": 30.3169851,
+            "longitude": -81.6581206,
+            "displayName": "Treaty Oak, Prudential Drive, South Jacksonville, Jacksonville, Duval County, Florida, 32202, United States",
+            "osmType": "node",
+            "osmId": 5637868194,
+            "category": "natural",
+            "type": "tree",
+            "source": "OpenStreetMap Nominatim",
+            "sourceUrl": "https://www.openstreetmap.org/node/5637868194",
+            "query": "Treaty Oak, Jacksonville, FL",
+            "reviewStatus": "pending-name-and-boundary-review"
+          }
+        ]
+      },
+      "treaty-oak-north-lawn": {
+        "name": "Treaty Oak North Lawn",
+        "candidates": []
+      },
+      "treaty-oak-south-lawn": {
+        "name": "Treaty Oak South Lawn",
+        "candidates": []
+      },
+      "jessie-ball-dupont-park-picnic-area": {
+        "name": "Jessie Ball duPont Park Picnic Area",
+        "candidates": []
+      },
+      "jessie-ball-dupont-park-prudential-drive-entrance": {
+        "name": "Jessie Ball duPont Park Prudential Drive Entrance",
+        "candidates": []
+      },
+      "treaty-oak-interpretive-marker": {
+        "name": "Treaty Oak Interpretive Marker",
+        "candidates": []
+      },
+      "treaty-oak-branch-canopy": {
+        "name": "Treaty Oak Branch Canopy",
+        "candidates": []
+      },
+      "southbank-riverwalk-connection": {
+        "name": "Southbank Riverwalk Connection",
+        "candidates": []
+      }
+    }
+  }
+}

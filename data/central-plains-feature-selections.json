@@ -1,0 +1,81 @@
+{
+  "checkedAt": "2026-08-08",
+  "reviewMethod": "Exact named OpenStreetMap feature, official operator guidance, and a destination-specific licensed campaign photograph.",
+  "places": {
+    "launch-ia-des-moines-gray-s-lake-park": [
+      {
+        "name": "Kruidenier Trail Bridge",
+        "osm": "way/36885277",
+        "imageIndex": 3,
+        "sourceLabel": "City of Des Moines Parks and Recreation",
+        "source": "https://www.dsm.city/Gray_s_Lake_Park514.php",
+        "summary": "Kruidenier Trail Bridge is the illuminated pedestrian and bicycle bridge crossing Gray's Lake and the park's signature after-dark landmark.",
+        "cost": "Walking or bicycling across the bridge is free; rentals, concessions, reserved spaces, and special events can cost separately.",
+        "hours": "The bridge follows current Gray's Lake Park access hours and can be affected by maintenance, ice, severe weather, events, or temporary trail closures.",
+        "needToKnow": "The bridge is a shared paved route, not a viewing platform reserved for photos. Keep right, expect cyclists and runners, supervise children near the water, and check park alerts during snow, storms, flooding, or major events."
+      }
+    ],
+    "launch-ia-des-moines-water-works-park": [
+      {
+        "name": "Lauridsen Amphitheater",
+        "osm": "way/964783246",
+        "imageIndex": 1,
+        "sourceLabel": "Des Moines Water Works Park Foundation",
+        "source": "https://www.waterworkspark.org/visit/",
+        "summary": "Lauridsen Amphitheater is Water Works Park's principal open-air concert venue on the Manatt Great Lawn, with general-admission, reserved, VIP, and accessible seating configurations that vary by event.",
+        "cost": "Seeing the outdoor venue during ordinary park access is free, but concerts and reserved events use event-specific tickets and parking rates.",
+        "hours": "The park is open 6:00 a.m.-10:00 p.m.; ticketed gates typically open about one hour before showtime, but event communications control the actual gate, lot, and closing schedule.",
+        "needToKnow": "For concerts, use 2251 George Flagg Parkway, check the day-of-show notice, and do not assume ordinary park rules apply inside the gates. Event parking opens about two hours before and closes about one hour after; the venue is cashless and bag, chair, stroller, food, animal, and weather rules can change by artist."
+      }
+    ],
+    "launch-ia-des-moines-pappajohn-sculpture-park": [
+      {
+        "name": "Nomade",
+        "osm": "node/2207717818",
+        "imageIndex": 0,
+        "sourceLabel": "Des Moines Art Center",
+        "source": "https://desmoinesartcenter.org/news/jaume-plensas-nomade-returns-to-the-john-and-mary-pappajohn-sculpture-park/",
+        "summary": "Nomade is Jaume Plensa's monumental seated figure built from white steel letters and one of Pappajohn Sculpture Park's most recognizable works.",
+        "cost": "Viewing Nomade and entering Pappajohn Sculpture Park are free.",
+        "hours": "Nomade follows the sculpture park's sunrise-to-midnight city-park hours unless conservation, events, maintenance, or severe weather restricts the surrounding lawn.",
+        "needToKnow": "Nomade returned to the park in May 2026 after scheduled conservation. Do not touch, climb, or sit on the artwork; use the exact pin and the official visitor guide to find it without crossing planted or protected areas."
+      }
+    ],
+    "launch-ne-omaha-the-riverfront": [
+      {
+        "name": "Gene Leahy Mall",
+        "osm": "way/693662659",
+        "imageIndex": 0,
+        "allowOutsideBoundary": true,
+        "boundaryExceptionReason": "The RiverFront is a three-park campus; Gene Leahy Mall is an official component west of the reviewed Heartland of America Park polygon.",
+        "sourceLabel": "The RiverFront",
+        "source": "https://theriverfrontomaha.com/visit-the-riverfront/gene-leahy-mall/",
+        "summary": "Gene Leahy Mall is The RiverFront's downtown component between 13th and 8th streets, with the Arches Playground, Cascades water feature, performance pavilion, sculpture garden, slides, lawns, and a divided dog park.",
+        "cost": "General park, playground, lawn, and dog-park access are free; food, rentals, ticketed programs, parking, and permitted events can cost separately.",
+        "hours": "Gene Leahy Mall follows The RiverFront's daily 5:00 a.m.-11:00 p.m. hours. Cascades is seasonal, normally 10:00 a.m.-9:00 p.m., and closed Tuesdays; events and individual amenities can use different schedules.",
+        "needToKnow": "Restrooms are near Arches Playground along the 11th Street Promenade. Dogs may be off leash only inside the divided dog park; elsewhere they must be leashed. Use metered street spaces or nearby garages and check the live calendar before expecting a program, food vendor, or water feature."
+      },
+      {
+        "name": "Lewis and Clark Landing",
+        "osm": "way/165788677",
+        "imageIndex": 2,
+        "allowOutsideBoundary": true,
+        "boundaryExceptionReason": "The RiverFront is a three-park campus; Lewis and Clark Landing is an official component north of the reviewed Heartland of America Park polygon.",
+        "sourceLabel": "The RiverFront",
+        "source": "https://theriverfrontomaha.com/visit-the-riverfront/lewis-and-clark-landing/",
+        "summary": "Lewis and Clark Landing is The RiverFront's Missouri River component with prairie gardens, a sandy urban beach and firepits, volleyball courts, Discovery Playground, open lawn, and links toward the Bob Kerrey Pedestrian Bridge.",
+        "cost": "General park, playground, garden, and urban-beach access are free; parking, food, rentals, programs, and permitted events can cost separately.",
+        "hours": "Lewis and Clark Landing follows The RiverFront's daily 5:00 a.m.-11:00 p.m. hours, while firepits, programs, vendors, playground maintenance, and event zones can operate on narrower schedules.",
+        "needToKnow": "Restrooms are beside Discovery Playground near the Kiewit Luminarium. The urban beach is a designed sand and firepit area, not permission to swim in the Missouri River. The site is long and open, so use the exact pin, plan for sun and wind, and check event impacts before choosing parking."
+      }
+    ],
+    "launch-ks-wichita-riverside-park": []
+  },
+  "researchQueue": {
+    "launch-ia-des-moines-gray-s-lake-park": "Secure exact reusable photographs before publishing Gray's Lake Beach, the accessible playground and sprayground, Christine Hensley Terrace, boat rental, concessions, boat ramp, restrooms, or additional trail segments as separate pages.",
+    "launch-ia-des-moines-water-works-park": "Secure exact reusable photographs before publishing Reichardt Family Natural Play Area, Killinger Family Stage, Des Moines Biergarten, shelters, restrooms, river access, mountain-bike trails, or additional trailheads as separate pages.",
+    "launch-ia-des-moines-pappajohn-sculpture-park": "Secure exact current photographs and collection-record links before publishing Pumpkin Large, Three Dancing Figures, T8, White Ghost, Spider, LOVE, or additional individual artworks as separate pages.",
+    "launch-ne-omaha-the-riverfront": "Secure current reusable photographs before publishing Heartland of America Park, Arches Playground, Discovery Playground, Skate Ribbon, Cascades, urban beach, dog park, performance pavilion, restrooms, firepits, or additional RiverFront landmarks as separate pages.",
+    "launch-ks-wichita-riverside-park": "Secure exact reusable photographs and reviewed pins before publishing the Kansas Wildlife Exhibit, Celebration Plaza Splash Pad, playground, gazebo and lily-pad sculptures, assembly area, pagoda, Murdock Street Bridge, Solar Calendar, memorials, or walking loop as separate pages."
+  }
+}

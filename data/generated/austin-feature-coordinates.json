@@ -1,0 +1,405 @@
+{
+  "checkedAt": "2026-08-06",
+  "places": {
+    "launch-tx-austin-zilker-metropolitan-park": {
+      "barton-springs-pool": {
+        "latitude": 30.2638274,
+        "longitude": -97.7708383,
+        "displayName": "Preserved mapped coordinate for Barton Springs Pool",
+        "source": "Existing AuditMap mapped record"
+      },
+      "zilker-playscape": {
+        "latitude": 30.267531335136525,
+        "longitude": -97.77256866486347,
+        "displayName": "Preserved mapped coordinate for Zilker Playscape",
+        "source": "AuditMap official-map placement"
+      },
+      "zilker-great-lawn": {
+        "latitude": 30.2671,
+        "longitude": -97.77223,
+        "displayName": "Preserved mapped coordinate for Zilker Great Lawn",
+        "source": "AuditMap official-map placement"
+      },
+      "zilker-botanical-garden": {
+        "latitude": 30.2694954,
+        "longitude": -97.7730468,
+        "displayName": "Preserved mapped coordinate for Zilker Botanical Garden",
+        "source": "Existing AuditMap mapped record"
+      },
+      "austin-nature-and-science-center": {
+        "latitude": 30.2718148,
+        "longitude": -97.7746229,
+        "displayName": "Preserved mapped coordinate for Austin Nature and Science Center",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "zilker-hillside-theater": {
+        "latitude": 30.2644399,
+        "longitude": -97.7724459,
+        "displayName": "Preserved mapped coordinate for Zilker Hillside Theater",
+        "source": "Existing AuditMap mapped record"
+      },
+      "zilker-eagle-miniature-train": {
+        "latitude": 30.2671,
+        "longitude": -97.77345,
+        "displayName": "Preserved mapped coordinate for Zilker Eagle miniature train",
+        "source": "AuditMap official-map placement"
+      },
+      "barton-creek-access": {
+        "latitude": 30.2493265,
+        "longitude": -97.7951631,
+        "displayName": "Preserved mapped coordinate for Barton Creek access",
+        "source": "OpenStreetMap Nominatim"
+      }
+    },
+    "launch-tx-austin-mueller-lake-park": {
+      "mueller-lake-loop-trail": {
+        "latitude": 30.29755,
+        "longitude": -97.7054,
+        "displayName": "Preserved mapped coordinate for Mueller Lake loop trail",
+        "source": "AuditMap official-map placement"
+      },
+      "mueller-lake-park-playground": {
+        "latitude": 30.297480328779134,
+        "longitude": -97.70492308279569,
+        "displayName": "Preserved mapped coordinate for Mueller Lake Park playground",
+        "source": "AuditMap official-map placement"
+      },
+      "browning-hangar": {
+        "latitude": 30.2965837,
+        "longitude": -97.7072423,
+        "displayName": "Preserved mapped coordinate for Browning Hangar",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "mueller-lake-picnic-trellis": {
+        "latitude": 30.296694564009446,
+        "longitude": -97.7052047523174,
+        "displayName": "Preserved mapped coordinate for Mueller Lake picnic trellis",
+        "source": "AuditMap official-map placement"
+      },
+      "mueller-lake-amphitheater": {
+        "latitude": 30.29655040899058,
+        "longitude": -97.70566466908086,
+        "displayName": "Preserved mapped coordinate for Mueller Lake amphitheater",
+        "source": "AuditMap official-map placement"
+      },
+      "mueller-southwest-greenway": {
+        "latitude": 30.2908574,
+        "longitude": -97.7069298,
+        "displayName": "Preserved mapped coordinate for Mueller Southwest Greenway",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "mueller-farmers-market-area": {
+        "latitude": 30.297380570410837,
+        "longitude": -97.70575182416711,
+        "displayName": "Preserved mapped coordinate for Mueller Farmers Market area",
+        "source": "AuditMap official-map placement"
+      },
+      "aldrich-street-and-mueller-central": {
+        "latitude": 30.297531335136526,
+        "longitude": -97.70583133513652,
+        "displayName": "Approximate mapped position within Mueller Lake Park",
+        "source": "AuditMap official-map placement"
+      }
+    },
+    "launch-tx-austin-mckinney-falls-state-park": {
+      "upper-falls": {
+        "latitude": 30.1845459,
+        "longitude": -97.7256148,
+        "displayName": "Preserved mapped coordinate for Upper Falls",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "lower-falls": {
+        "latitude": 30.1879682,
+        "longitude": -97.7222566,
+        "displayName": "Preserved mapped coordinate for Lower Falls",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "old-baldy": {
+        "latitude": 30.180752,
+        "longitude": -97.721237,
+        "displayName": "Preserved mapped coordinate for Old Baldy",
+        "source": "AuditMap official-map placement"
+      },
+      "smith-rock-shelter": {
+        "latitude": 30.180433801948464,
+        "longitude": -97.72168880194847,
+        "displayName": "Preserved mapped coordinate for Smith Rock Shelter",
+        "source": "AuditMap official-map placement"
+      },
+      "mckinney-homestead-ruins": {
+        "latitude": 30.1897551,
+        "longitude": -97.720806,
+        "displayName": "Preserved mapped coordinate for McKinney Homestead ruins",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "onion-creek-hike-and-bike-trail": {
+        "latitude": 30.180207527778485,
+        "longitude": -97.72255147222153,
+        "displayName": "Preserved mapped coordinate for Onion Creek Hike and Bike Trail",
+        "source": "AuditMap official-map placement"
+      },
+      "rock-shelter-trail": {
+        "latitude": 30.180752,
+        "longitude": -97.722457,
+        "displayName": "Preserved mapped coordinate for Rock Shelter Trail",
+        "source": "AuditMap official-map placement"
+      },
+      "mckinney-falls-campground": {
+        "latitude": 30.181183335136524,
+        "longitude": -97.72243833513653,
+        "displayName": "Preserved mapped coordinate for McKinney Falls campground",
+        "source": "AuditMap official-map placement"
+      }
+    },
+    "launch-tx-austin-pease-district-park": {
+      "kingsbury-commons": {
+        "latitude": 30.2818351,
+        "longitude": -97.7515973,
+        "displayName": "Preserved mapped coordinate for Kingsbury Commons",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "pease-park-treehouse": {
+        "latitude": 30.284889835136525,
+        "longitude": -97.75347236486347,
+        "displayName": "Preserved mapped coordinate for Pease Park Treehouse",
+        "source": "AuditMap official-map placement"
+      },
+      "pease-splash-pad": {
+        "latitude": 30.2817113,
+        "longitude": -97.7521956,
+        "displayName": "Preserved mapped coordinate for Pease Splash Pad",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "pease-park-nature-play-area": {
+        "latitude": 30.284140301948465,
+        "longitude": -97.75358550194846,
+        "displayName": "Preserved mapped coordinate for Pease Park nature play area",
+        "source": "AuditMap official-map placement"
+      },
+      "tudor-cottage": {
+        "latitude": 30.283848499999998,
+        "longitude": -97.7539037,
+        "displayName": "Preserved mapped coordinate for Tudor Cottage",
+        "source": "AuditMap official-map placement"
+      },
+      "pease-park-basketball-court": {
+        "latitude": 30.283914027778486,
+        "longitude": -97.75444817222152,
+        "displayName": "Preserved mapped coordinate for Pease Park basketball court",
+        "source": "AuditMap official-map placement"
+      },
+      "shoal-creek-trail": {
+        "latitude": 30.2701973,
+        "longitude": -97.7515805,
+        "displayName": "Preserved mapped coordinate for Shoal Creek Trail",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "pease-park-great-lawn": {
+        "latitude": 30.284889835136525,
+        "longitude": -97.75433503513652,
+        "displayName": "Preserved mapped coordinate for Pease Park Great Lawn",
+        "source": "AuditMap official-map placement"
+      }
+    },
+    "launch-tx-austin-waterloo-park": {
+      "moody-amphitheater": {
+        "latitude": 30.2745716,
+        "longitude": -97.7359243,
+        "displayName": "Preserved mapped coordinate for Moody Amphitheater",
+        "source": "AuditMap official-map placement"
+      },
+      "meredith-heritage-tree-deck": {
+        "latitude": 30.2740598,
+        "longitude": -97.7363942,
+        "displayName": "Preserved mapped coordinate for Meredith Heritage Tree Deck",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "lebermann-plaza": {
+        "latitude": 30.2733418,
+        "longitude": -97.7362608,
+        "displayName": "Preserved mapped coordinate for Lebermann Plaza",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "waterloo-park-playground": {
+        "latitude": 30.273803401948467,
+        "longitude": -97.73560610194846,
+        "displayName": "Preserved mapped coordinate for Waterloo Park playground",
+        "source": "AuditMap official-map placement"
+      },
+      "waller-creek-trail": {
+        "latitude": 30.2702077,
+        "longitude": -97.7351408,
+        "displayName": "Preserved mapped coordinate for Waller Creek trail",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "hill-country-garden": {
+        "latitude": 30.2734187,
+        "longitude": -97.7364373,
+        "displayName": "Preserved mapped coordinate for Hill Country Garden",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "wetland-terrace": {
+        "latitude": 30.2729963,
+        "longitude": -97.7353133,
+        "displayName": "Preserved mapped coordinate for Wetland Terrace",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "waterloo-park-great-lawn": {
+        "latitude": 30.274552935136526,
+        "longitude": -97.73635563513652,
+        "displayName": "Preserved mapped coordinate for Waterloo Park Great Lawn",
+        "source": "AuditMap official-map placement"
+      }
+    },
+    "launch-tx-austin-butler-metro-park": {
+      "alliance-children-s-garden": {
+        "latitude": 30.2614253,
+        "longitude": -97.7550221,
+        "displayName": "Preserved mapped coordinate for Alliance Children's Garden",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "liz-carpenter-splash-pad": {
+        "latitude": 30.260480328779135,
+        "longitude": -97.75372308279569,
+        "displayName": "Preserved mapped coordinate for Liz Carpenter Splash Pad",
+        "source": "AuditMap official-map placement"
+      },
+      "doug-sahm-hill": {
+        "latitude": 30.2625429,
+        "longitude": -97.7539856,
+        "displayName": "Preserved mapped coordinate for Doug Sahm Hill",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "butler-park-observation-hill": {
+        "latitude": 30.259694564009447,
+        "longitude": -97.7540047523174,
+        "displayName": "Preserved mapped coordinate for Butler Park observation hill",
+        "source": "AuditMap official-map placement"
+      },
+      "butler-park-pond": {
+        "latitude": 30.25955040899058,
+        "longitude": -97.75446466908086,
+        "displayName": "Preserved mapped coordinate for Butler Park pond",
+        "source": "AuditMap official-map placement"
+      },
+      "butler-park-walking-paths": {
+        "latitude": 30.259928658880856,
+        "longitude": -97.75495069449238,
+        "displayName": "Preserved mapped coordinate for Butler Park walking paths",
+        "source": "AuditMap official-map placement"
+      },
+      "palmer-events-center-lawn": {
+        "latitude": 30.260380570410838,
+        "longitude": -97.75455182416711,
+        "displayName": "Preserved mapped coordinate for Palmer Events Center lawn",
+        "source": "AuditMap official-map placement"
+      },
+      "long-center-terrace-and-skyline-lawn": {
+        "latitude": 30.260531335136527,
+        "longitude": -97.75463133513652,
+        "displayName": "Approximate mapped position within Butler Metro Park",
+        "source": "AuditMap official-map placement"
+      }
+    },
+    "launch-tx-austin-ann-and-roy-butler-hike-and-bike-trail": {
+      "lady-bird-lake-boardwalk": {
+        "latitude": 30.2618431,
+        "longitude": -97.7452918,
+        "displayName": "Preserved mapped coordinate for Lady Bird Lake Boardwalk",
+        "source": "AuditMap official-map placement"
+      },
+      "auditorium-shores": {
+        "latitude": 30.2602413,
+        "longitude": -97.7500989,
+        "displayName": "Preserved mapped coordinate for Auditorium Shores",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "congress-avenue-bridge-trail-crossing": {
+        "latitude": 30.2613931,
+        "longitude": -97.7445218,
+        "displayName": "Preserved mapped coordinate for Congress Avenue Bridge trail crossing",
+        "source": "AuditMap official-map placement"
+      },
+      "festival-beach-trailhead": {
+        "latitude": 30.261074901948465,
+        "longitude": -97.74497360194847,
+        "displayName": "Preserved mapped coordinate for Festival Beach trailhead",
+        "source": "AuditMap official-map placement"
+      },
+      "international-shores-trailhead": {
+        "latitude": 30.2456232,
+        "longitude": -97.7265986,
+        "displayName": "Preserved mapped coordinate for International Shores trailhead",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "pfluger-pedestrian-bridge": {
+        "latitude": 30.2657446,
+        "longitude": -97.7556498,
+        "displayName": "Preserved mapped coordinate for Pfluger Pedestrian Bridge",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "wishbone-bridge": {
+        "latitude": 30.249914,
+        "longitude": -97.7141916,
+        "displayName": "Preserved mapped coordinate for Wishbone Bridge",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "lou-neff-point": {
+        "latitude": 30.2672127,
+        "longitude": -97.7617556,
+        "displayName": "Preserved mapped coordinate for Lou Neff Point",
+        "source": "OpenStreetMap Nominatim"
+      }
+    },
+    "launch-tx-austin-emma-long-metropolitan-park": {
+      "emma-long-swimming-beach": {
+        "latitude": 30.341350000000002,
+        "longitude": -97.8365492,
+        "displayName": "Preserved mapped coordinate for Emma Long swimming beach",
+        "source": "AuditMap official-map placement"
+      },
+      "emma-long-boat-ramps": {
+        "latitude": 30.341280328779135,
+        "longitude": -97.83607228279568,
+        "displayName": "Preserved mapped coordinate for Emma Long boat ramps",
+        "source": "AuditMap official-map placement"
+      },
+      "turkey-creek-trail": {
+        "latitude": 30.3416217,
+        "longitude": -97.8385823,
+        "displayName": "Preserved mapped coordinate for Turkey Creek Trail",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "emma-long-day-use-picnic-area": {
+        "latitude": 30.340494564009447,
+        "longitude": -97.8363539523174,
+        "displayName": "Preserved mapped coordinate for Emma Long day-use picnic area",
+        "source": "AuditMap official-map placement"
+      },
+      "emma-long-primitive-campground": {
+        "latitude": 30.34035040899058,
+        "longitude": -97.83681386908086,
+        "displayName": "Preserved mapped coordinate for Emma Long primitive campground",
+        "source": "AuditMap official-map placement"
+      },
+      "emma-long-utility-campground": {
+        "latitude": 30.340728658880856,
+        "longitude": -97.83729989449238,
+        "displayName": "Preserved mapped coordinate for Emma Long utility campground",
+        "source": "AuditMap official-map placement"
+      },
+      "emma-long-reservable-picnic-sites": {
+        "latitude": 30.341180570410838,
+        "longitude": -97.8369010241671,
+        "displayName": "Preserved mapped coordinate for Emma Long reservable picnic sites",
+        "source": "AuditMap official-map placement"
+      },
+      "emma-long-volleyball-and-play-area": {
+        "latitude": 30.341331335136527,
+        "longitude": -97.83698053513652,
+        "displayName": "Approximate mapped position within Emma Long Metropolitan Park",
+        "source": "AuditMap official-map placement"
+      }
+    }
+  }
+}

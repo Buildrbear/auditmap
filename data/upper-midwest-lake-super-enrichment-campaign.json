@@ -1,0 +1,43 @@
+{
+  "campaign": "Upper Midwest lake corridor",
+  "checkedAt": "2026-08-08",
+  "releaseStandard": "Four licensed destination-specific photos, preserved official visitor answers, full street addresses, and only named subsites with reviewed coordinates plus destination-specific photography.",
+  "places": [
+    {
+      "id": "launch-wi-milwaukee-lake-park", "name": "Lake Park", "city": "Milwaukee", "state": "WI", "citySlug": "milwaukee-wi",
+      "operator": "Milwaukee County Parks", "source": "https://county.milwaukee.gov/EN/Parks/Explore/Lakefront", "featureResearchRadiusMeters": 1400,
+      "imageQueries": ["Lake Park Milwaukee Wisconsin", "North Point Lighthouse Milwaukee", "Lake Park Milwaukee Lion Bridges"],
+      "subsites": ["North Point Lighthouse", "Lion Bridges", "Lake Park Grand Staircase", "Lake Park Ravine Trail", "Lake Park Playground", "Lake Park Golf Course"]
+    },
+    {
+      "id": "launch-wi-milwaukee-veterans-park", "name": "Veterans Park", "city": "Milwaukee", "state": "WI", "citySlug": "milwaukee-wi",
+      "operator": "Milwaukee County Parks", "source": "https://county.milwaukee.gov/EN/Parks/Explore/Lakefront/VeteransPark", "featureResearchRadiusMeters": 1400,
+      "imageQueries": ["Veterans Park Milwaukee Wisconsin", "Veterans Park Milwaukee lagoon", "Veterans Park Milwaukee kite festival"],
+      "subsites": ["Veterans Park Lagoon", "Veterans Park Court of Honor", "Oak Leaf Trail", "Veterans Park Kite Lawn", "Veterans Park Boat Rental"]
+    },
+    {
+      "id": "launch-wi-madison-olbrich-park", "name": "Olbrich Park", "city": "Madison", "state": "WI", "citySlug": "madison-wi",
+      "operator": "City of Madison Parks Division", "source": "https://www.cityofmadison.com/parks/find-a-park/olbrich", "featureResearchRadiusMeters": 1200,
+      "imageQueries": ["Olbrich Park Madison Wisconsin", "Olbrich Park beach Madison", "Olbrich Biergarten Madison"],
+      "subsites": ["Olbrich Park Beach", "Olbrich Park Biergarten", "Olbrich Park Boat Launch", "Olbrich Park Playground", "Olbrich Botanical Gardens"]
+    },
+    {
+      "id": "launch-wi-madison-vilas-park", "name": "Vilas Park", "city": "Madison", "state": "WI", "citySlug": "madison-wi",
+      "operator": "City of Madison Parks Division", "source": "https://www.cityofmadison.com/parks/find-a-park/vilas", "featureResearchRadiusMeters": 1000,
+      "imageQueries": ["Vilas Park Madison Wisconsin", "Vilas Park beach Madison", "Vilas Park Old Woman in a Shoe slide"],
+      "subsites": ["Vilas Park Beach", "Old Woman in a Shoe Slide", "Vilas Park Lagoon", "Vilas Park Fishing Pier", "Henry Vilas Zoo"]
+    },
+    {
+      "id": "launch-mi-grand-rapids-millennium-park", "name": "Millennium Park", "city": "Grand Rapids", "state": "MI", "citySlug": "grand-rapids-mi",
+      "operator": "Kent County Parks", "source": "https://www.kentcountymi.gov/1765/Millennium-Park", "featureResearchRadiusMeters": 4000,
+      "imageQueries": ["Millennium Park Grand Rapids Michigan", "Millennium Park Grand Rapids beach", "Millennium Park Grand Rapids splash pad"],
+      "subsites": ["Millennium Park Beach", "Millennium Park Splashpad", "Kids' City Playground", "Millennium Park Boat Rental", "Millennium Park Trails"]
+    },
+    {
+      "id": "launch-mi-grand-rapids-riverside-park", "name": "Riverside Park", "city": "Grand Rapids", "state": "MI", "citySlug": "grand-rapids-mi",
+      "operator": "City of Grand Rapids Parks and Recreation", "source": "https://www.grandrapidsmi.gov/parks-and-facilities/", "featureResearchRadiusMeters": 2200,
+      "imageQueries": ["Riverside Park Grand Rapids Michigan", "Riverside Park Grand Rapids river", "Riverside Park Grand Rapids disc golf"],
+      "subsites": ["Riverside Park Boat Launch", "Riverside Park Disc Golf Course", "Riverside Park Playground", "Riverside Park Lagoon", "Riverside Park Shelter"]
+    }
+  ]
+}

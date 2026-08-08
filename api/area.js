@@ -1,29 +1,10 @@
-const NC_BOUNDS = {
-  south: 33.75,
-  west: -84.33,
-  north: 36.59,
-  east: -75.4,
-};
-
-function insideNorthCarolina(latitude, longitude) {
-  return (
-    latitude >= NC_BOUNDS.south &&
-    latitude <= NC_BOUNDS.north &&
-    longitude >= NC_BOUNDS.west &&
-    longitude <= NC_BOUNDS.east
-  );
-}
-
 module.exports = async function handler(request, response) {
   const latitude = Number(request.query.lat);
   const longitude = Number(request.query.lon);
+  const mapZoom = Math.min(Math.max(Number(request.query.zoom) || 10, 3), 18);
 
-  if (
-    !Number.isFinite(latitude) ||
-    !Number.isFinite(longitude) ||
-    !insideNorthCarolina(latitude, longitude)
-  ) {
-    response.status(400).json({ error: "Move the map within North Carolina." });
+  if (!Number.isFinite(latitude) || !Number.isFinite(longitude)) {
+    response.status(400).json({ error: "A valid map location is required." });
     return;
   }
 
@@ -31,7 +12,7 @@ module.exports = async function handler(request, response) {
     lat: String(latitude),
     lon: String(longitude),
     format: "jsonv2",
-    zoom: "12",
+    zoom: mapZoom <= 7 ? "5" : mapZoom <= 9 ? "8" : "12",
     addressdetails: "1",
   });
 
@@ -54,14 +35,19 @@ module.exports = async function handler(request, response) {
       address.village ||
       address.municipality ||
       address.county ||
-      "North Carolina";
+      address.state ||
+      address.country ||
+      "Current map area";
+    const stateCode = String(address["ISO3166-2-lvl4"] || "").split("-").pop();
 
     response.setHeader("Cache-Control", "s-maxage=86400, stale-while-revalidate=604800");
     response.status(200).json({
       name,
-      state: "NC",
+      state: stateCode || address.state || "",
+      stateName: address.state || "",
       county: address.county || "",
-      label: [name, address.county].filter((value, index, values) =>
+      country: address.country_code?.toUpperCase() || "",
+      label: [name, address.state].filter((value, index, values) =>
         value && values.indexOf(value) === index,
       ).join(", "),
     });

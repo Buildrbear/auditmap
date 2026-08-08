@@ -1,0 +1,112 @@
+{
+  "placeId": "downtown-cary-park",
+  "placeName": "Downtown Cary Park",
+  "researchedAt": "2026-07-29",
+  "policy": "Only real, location-specific photographs may be published. A source page alone does not grant reuse rights.",
+  "photos": [
+    {
+      "featureId": "dcp-the-nest",
+      "featureName": "The Nest",
+      "status": "publishable",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Splash%20Pad%20%28The%20Nest%29.jpg?width=1600",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Splash_Pad_(The_Nest).jpg",
+      "creator": "Gregorywpower",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "alt": "Splash pad in The Nest play area at Downtown Cary Park",
+      "selectionReason": "A real, precisely geotagged image of The Nest that clearly shows the water-play experience.",
+      "alternateCandidateUrl": "https://downtowncarypark.com/wp-content/uploads/2023/06/Cary-DTP-Park-22-1-1024x576.jpg",
+      "alternateSourceUrl": "https://downtowncarypark.com/locations/the-nest"
+    },
+    {
+      "featureId": "dcp-academy-plaza",
+      "featureName": "Academy Pavilion & Plaza",
+      "status": "publishable",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sprayground%20at%20The%20Plaza%20at%20Cary%27s%20Downtown%20Park.jpg?width=1600",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sprayground_at_The_Plaza_at_Cary%27s_Downtown_Park.jpg",
+      "creator": "Gregorywpower",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "alt": "Sprayground at Academy Plaza in Downtown Cary Park",
+      "selectionReason": "A real, geotagged image that shows the defining seasonal sprayground rather than a generic pavilion exterior."
+    },
+    {
+      "featureId": "dcp-barkyard",
+      "featureName": "Barkyard",
+      "status": "selected-public-municipal-source",
+      "imageUrl": "/assets/parks/downtown-cary-park/barkyard.jpg",
+      "originalAssetUrl": "https://downtowncarypark.com/wp-content/uploads/2023/07/BarkyardNEW-scaled.jpg",
+      "sourceUrl": "https://downtowncarypark.com/locations/barkyard",
+      "creator": "Town of Cary",
+      "license": "Municipal source; reuse terms not stated",
+      "alt": "Dogs playing among tunnels, logs, turf, and water features in the Barkyard",
+      "selectionReason": "The official destination photography shows the unusual play terrain and dogs using the space, which is more informative than an empty dog-run image.",
+      "candidateAssetUrls": [
+        "https://downtowncarypark.com/wp-content/uploads/2023/08/tunnels.png",
+        "https://downtowncarypark.com/wp-content/uploads/2023/08/interactive-water.png",
+        "https://downtowncarypark.com/wp-content/uploads/2023/08/small-hills.png"
+      ]
+    },
+    {
+      "featureId": "dcp-great-lawn",
+      "featureName": "Great Lawn & Pavilion",
+      "status": "publishable",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Downtown%20Cary%20Park.jpg?width=1600",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Downtown_Cary_Park.jpg",
+      "creator": "DowntownCaryPark / Town of Cary",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "alt": "Families gathered for movie night on the Great Lawn at Downtown Cary Park",
+      "selectionReason": "It shows the lawn doing what it was built to do: holding a memorable community gathering, not merely sitting empty."
+    },
+    {
+      "featureId": "dcp-gathering-house",
+      "featureName": "Gathering House & Garden",
+      "status": "selected-public-municipal-source",
+      "imageUrl": "/assets/parks/downtown-cary-park/gathering-house.png",
+      "sourceUrl": "https://downtowncarypark.com/wp-content/uploads/2025/08/DCP_Rental-Guide-Aug1_GatherHouseandGarden.pdf",
+      "creator": "Town of Cary",
+      "license": "Municipal source; reuse terms not stated",
+      "alt": "Gathering House opening through tall glass doors into the surrounding garden",
+      "selectionReason": "The official rental guide contains a clear exterior photograph that communicates the indoor-outdoor design and garden setting.",
+      "alternateSourceUrl": "https://downtowncarypark.com/locations/gathering-house"
+    },
+    {
+      "featureId": "dcp-park-street-courts",
+      "featureName": "Park Street Courts",
+      "status": "selected-public-municipal-source",
+      "imageUrl": "/assets/parks/downtown-cary-park/park-street-courts.jpg",
+      "originalAssetUrl": "https://downtowncarypark.com/wp-content/uploads/2024/07/Park-Street-Courts-1-scaled.jpg",
+      "sourceUrl": "https://downtowncarypark.com/locations/park-street-courts",
+      "creator": "Town of Cary",
+      "license": "Municipal source; reuse terms not stated",
+      "alt": "Visitors playing table tennis and lawn games along Park Street Courts",
+      "selectionReason": "The official image best explains that this is a flexible active-recreation zone, not a conventional fenced basketball or tennis court."
+    },
+    {
+      "featureId": "dcp-skywalk",
+      "featureName": "Skywalk & Light Passage",
+      "status": "selected-public-municipal-source",
+      "imageUrl": "/assets/parks/downtown-cary-park/skywalk.jpg",
+      "originalAssetUrl": "https://downtowncarypark.com/wp-content/uploads/2023/06/Skywalk-scaled.jpg",
+      "sourceUrl": "https://downtowncarypark.com/locations/skywalk",
+      "creator": "Town of Cary",
+      "license": "Municipal source; reuse terms not stated",
+      "alt": "Illuminated Light Passage rings surrounding visitors on the elevated Skywalk",
+      "selectionReason": "The official nighttime image captures both defining qualities: the elevated tree-canopy perspective and the illuminated public artwork."
+    },
+    {
+      "featureId": "dcp-frantz-square",
+      "featureName": "Frantz Square",
+      "status": "publishable",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/DCP%20Frantz%20Fountain%20at%20night.%20Thanksgiving%202023.jpg?width=1600",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:DCP_Frantz_Fountain_at_night._Thanksgiving_2023.jpg",
+      "creator": "Progress P",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "alt": "Frantz Square fountain illuminated at night in Downtown Cary Park",
+      "selectionReason": "A real, geotagged image centered on the square's recognizable fountain, with warm evening atmosphere.",
+      "notes": "The source photo includes Thanksgiving-season context; use a tighter crop if evergreen decorations distract from the year-round landmark."
+    }
+  ]
+}

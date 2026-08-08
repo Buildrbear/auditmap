@@ -1,0 +1,101 @@
+{
+  "checkedAt": "2026-08-08",
+  "reviewMethod": "Exact named OpenStreetMap feature, official operator or destination page, and a destination-specific licensed campaign photograph.",
+  "places": {
+    "launch-wi-milwaukee-lake-park": [
+      {
+        "name": "North Point Lighthouse",
+        "osm": "way/403385102",
+        "imageIndex": 2,
+        "sourceLabel": "North Point Lighthouse",
+        "source": "https://northpointlighthouse.org/visit/admission/",
+        "summary": "North Point Lighthouse is the separately operated museum and historic tower within Lake Park, reached from Wahl Avenue on the park's east side.",
+        "cost": "Current admission is $8 for ages 12 and older, $5 for seniors, college students, and children ages 5-11, and free for children 4 and under, active military, and members; recheck before visiting.",
+        "hours": "The museum and tower are normally open Saturday and Sunday from 1:00-4:00 p.m.; scheduled closures, private events, and seasonal changes can override those hours.",
+        "needToKnow": "The museum is accessible, but the tower is not: the climb includes 84 steps and a ladder. Tower climbers must be at least five years old and 38 inches tall. Admission is separate from general park access."
+      },
+      {
+        "name": "Lion Bridge",
+        "osm": "way/403385109",
+        "imageIndex": 1,
+        "sourceLabel": "Milwaukee County Parks",
+        "source": "https://county.milwaukee.gov/files/county/parks-department/Park-Maps/Lake1.pdf",
+        "summary": "Lion Bridge is one of Lake Park's historic stone pedestrian bridges near North Point Lighthouse and the ravine trail network.",
+        "cost": "No separate admission is listed for this outdoor park landmark.",
+        "hours": "Outdoor access follows posted Lake Park hours and any temporary bridge, ravine, storm, or maintenance closure.",
+        "needToKnow": "Use the exact bridge pin or the official park map; the wooded ravines and multiple paths make the landmark easy to miss from the general park marker. Expect slopes and stairs on nearby routes."
+      }
+    ],
+    "launch-wi-milwaukee-veterans-park": [
+      {
+        "name": "Veterans Park Lagoon",
+        "osm": "way/25354099",
+        "imageIndex": 2,
+        "sourceLabel": "Milwaukee County Parks",
+        "source": "https://county.milwaukee.gov/EN/Parks/Explore/Lakefront/VeteransPark",
+        "summary": "Veterans Park Lagoon is the sheltered water feature beside the lakefront lawn and the park's seasonal boat-rental operation.",
+        "cost": "Viewing and general park access are free; seasonal boat rentals are separately priced by the operator.",
+        "hours": "The lagoon is visible during park hours; boat rentals follow the seasonal operator schedule and can close for weather, water conditions, or low demand.",
+        "needToKnow": "Do not assume rentals are operating because the park is open. Check the current operator schedule before traveling specifically for a pedal boat, kayak, or other rental, and supervise children closely beside the water."
+      }
+    ],
+    "launch-wi-madison-olbrich-park": [
+      {
+        "name": "Olbrich Botanical Gardens",
+        "osm": "way/265881695",
+        "imageIndex": 3,
+        "sourceLabel": "Olbrich Botanical Gardens",
+        "source": "https://www.olbrich.org/visit/",
+        "summary": "Olbrich Botanical Gardens is a separately operated garden destination beside Olbrich Park, with free outdoor gardens and the ticketed Bolz Conservatory.",
+        "cost": "Outdoor gardens are free. Current Bolz Conservatory admission is $6 for the public, $3 for ages 6-12, and free for ages 5 and under, with posted free periods and access programs; recheck before visiting.",
+        "hours": "Outdoor gardens, the conservatory, lobby, and gift shop are listed 10:00 a.m.-6:00 p.m. daily April through September and 10:00 a.m.-4:00 p.m. daily October through March, subject to holiday and event changes.",
+        "needToKnow": "Outdoor garden admission is free, while the Bolz Conservatory has separate admission and periodic free windows. Most routes are brick or concrete, with some gravel, bark, and flagstone; wheelchairs and mobility scooters are available."
+      }
+    ],
+    "launch-wi-madison-vilas-park": [
+      {
+        "name": "Vilas Park Beach",
+        "osm": "way/158911023",
+        "imageIndex": 2,
+        "sourceLabel": "City of Madison Parks Division",
+        "source": "https://www.cityofmadison.com/parks/find-a-park/vilas",
+        "summary": "Vilas Park Beach is the park's designated Lake Wingra swimming area at 1501 Vilas Park Drive, with seasonal restrooms and an accessible beach mat.",
+        "cost": "No separate beach admission is listed; parking limits and reservable facilities have separate rules.",
+        "hours": "The beach is unstaffed and has no lifeguard. Water quality is monitored during the maintained beach season, generally Memorial Day through Labor Day; restroom hours and services are seasonal.",
+        "needToKnow": "Check the city's beach status before swimming. The beach has no lifeguard, water conditions can change quickly, and nearby parking has a three-hour limit. The accessible mat is seasonal."
+      },
+      {
+        "name": "Vilas Park Mound Group",
+        "osm": "way/1186039053",
+        "imageIndex": 3,
+        "sourceLabel": "City of Madison Parks Division",
+        "source": "https://www.cityofmadison.com/parks/find-a-park/vilas",
+        "summary": "Vilas Park Mound Group is a protected Indigenous burial-mound area within the park rather than a recreation surface or playground.",
+        "cost": "No separate admission is listed for respectful outdoor viewing from established paths.",
+        "hours": "The mound area can be viewed during open park hours unless a posted closure, restoration project, event, or weather condition restricts access.",
+        "needToKnow": "Remain on established paths and do not walk, sit, play, climb, bike, or place objects on the mounds. Treat the area as a protected burial site and follow all posted City of Madison rules."
+      }
+    ],
+    "launch-mi-grand-rapids-millennium-park": [
+      {
+        "name": "Millennium Park Beach",
+        "osm": "way/231125297",
+        "imageIndex": 0,
+        "sourceLabel": "Kent County Parks",
+        "source": "https://www.kentcountymi.gov/1765/Millennium-Park",
+        "summary": "Millennium Park Beach is the staffed-season recreation area beside the six-acre beach and splashpad complex, separate from the park's free trails and open space.",
+        "cost": "Daily beach and splashpad admission or a season pass is required during the operating season; verify current Kent County rates before visiting.",
+        "hours": "The main park operates May 1 through October 31 from 7:00 a.m. to sunset. Beach and splashpad access follows a separate seasonal schedule; the main recreation area and restrooms close for winter.",
+        "needToKnow": "Beach and splashpad admission is charged even though general park and trail access is free. Use Lots A or B for the main recreation area and verify the current swim season, admission, weather status, and water rules before leaving."
+      }
+    ]
+  },
+  "researchQueue": {
+    "launch-wi-milwaukee-lake-park": "Secure destination-specific licensed photographs before publishing the Grand Staircase, ravine trails, playground, golf course, pavilion, or additional bridges.",
+    "launch-wi-milwaukee-veterans-park": "Secure exact reusable photographs and reviewed pins for the Court of Honor, kite lawn, Oak Leaf Trail access, and seasonal boat-rental station.",
+    "launch-wi-madison-olbrich-park": "Secure exact reusable photographs before publishing the beach, biergarten, boat launch, playground, or other park facilities as subsites.",
+    "launch-wi-madison-vilas-park": "Secure exact reusable photographs before publishing the lagoon, fishing pier, playground landmarks, shelter, or separately operated Henry Vilas Zoo.",
+    "launch-mi-grand-rapids-millennium-park": "Secure exact reusable photographs before publishing the splashpad, Kids' City playground, boat rental, trailheads, shelters, or additional beach facilities.",
+    "launch-mi-grand-rapids-riverside-park": "Parent gallery is ready; publish subsites only after exact licensed photographs and reviewed pins are secured for boat launches, disc golf, playgrounds, lagoon, shelters, and trail access."
+  }
+}

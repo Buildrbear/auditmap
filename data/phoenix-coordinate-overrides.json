@@ -1,0 +1,56 @@
+{
+  "launch-az-phoenix-papago-park": {
+    "papago-park-fishing-lagoons": {"latitude": 33.45339, "longitude": -111.94688, "displayName": "Papago Ponds fishing lagoons", "source": "OpenStreetMap and AuditMap review of the official Papago Park map"},
+    "papago-park-west-trails": {"latitude": 33.45518, "longitude": -111.95772, "displayName": "Reviewed point on the west-side Papago Park trail network", "source": "AuditMap review of the official Papago Park map"},
+    "arizona-heritage-center": {"latitude": 33.44877, "longitude": -111.95593, "displayName": "Reviewed Arizona Heritage Center placement", "source": "AuditMap review of official and public park maps"}
+  },
+  "launch-az-phoenix-south-mountain-park-and-preserve": {
+    "south-mountain-visitor-center": {"latitude": 33.35082, "longitude": -112.07616, "displayName": "South Mountain Environmental Education Center, 10409 South Central Avenue", "source": "City of Phoenix official address and OpenStreetMap geocoding"},
+    "holbert-trailhead": {"latitude": 33.34703, "longitude": -112.08445, "displayName": "Holbert Trailhead near 10919 South Central Avenue", "source": "City of Phoenix official address and OpenStreetMap geocoding"},
+    "pima-canyon-trailhead": {"latitude": 33.35572, "longitude": -111.97922, "displayName": "Pima Canyon Trailhead near 9904 South 48th Street", "source": "City of Phoenix official address and OpenStreetMap geocoding"},
+    "mormon-trailhead": {"latitude": 33.36771, "longitude": -112.03171, "displayName": "Mormon Trailhead near 8610 South 24th Street", "source": "City of Phoenix official address and OpenStreetMap geocoding"}
+  },
+  "launch-az-phoenix-encanto-park": {
+    "encanto-park-lagoon-and-boathouse": {"latitude": 33.47618, "longitude": -112.08905, "displayName": "Reviewed Encanto Park lagoon and boathouse placement", "source": "AuditMap review of official and public park maps"},
+    "encanto-park-playground": {"latitude": 33.47544, "longitude": -112.08597, "displayName": "Reviewed Encanto Park playground placement", "source": "AuditMap review of official and public park maps"},
+    "encanto-18-golf-course": {"latitude": 33.47963, "longitude": -112.09386, "displayName": "Reviewed Encanto 18 golf course placement", "source": "AuditMap review of official and public park maps"}
+  },
+  "launch-az-phoenix-phoenix-mountains-preserve": {
+    "piestewa-peak-summit-trail": {"latitude": 33.54512, "longitude": -112.02469, "displayName": "Reviewed point on the Piestewa Peak Summit Trail", "source": "AuditMap review of the official City of Phoenix trail map"},
+    "piestewa-peak-freedom-trail": {"latitude": 33.54086, "longitude": -112.02942, "displayName": "Reviewed point on the Piestewa Peak Freedom Trail", "source": "AuditMap review of the official City of Phoenix trail map"},
+    "piestewa-peak-nature-trail": {"latitude": 33.53908, "longitude": -112.03114, "displayName": "Reviewed point on the Piestewa Peak Nature Trail", "source": "AuditMap review of the official City of Phoenix trail map"},
+    "302-trailhead": {"latitude": 33.53688, "longitude": -112.03216, "displayName": "Mesquite Trailhead (302), 2701 East Piestewa Peak Drive", "source": "City of Phoenix official address and OpenStreetMap geocoding"},
+    "304-trailhead": {"latitude": 33.53942, "longitude": -112.03120, "displayName": "Reviewed 304 Trailhead placement", "source": "AuditMap review of the official City of Phoenix trail map"},
+    "40th-street-trailhead": {"latitude": 33.56995, "longitude": -111.99573, "displayName": "40th Street Trailhead, 9200 North 40th Street", "source": "City of Phoenix official address and OpenStreetMap geocoding"},
+    "charles-m-christiansen-memorial-trail": {"latitude": 33.55782, "longitude": -112.01244, "displayName": "Reviewed point on the Charles M. Christiansen Memorial Trail", "source": "AuditMap review of the official City of Phoenix trail map"}
+  },
+  "launch-az-phoenix-camelback-mountain": {
+    "echo-canyon-trailhead": {"latitude": 33.52327, "longitude": -111.97459, "displayName": "Echo Canyon Recreation Area, 4925 East McDonald Drive", "source": "City of Phoenix official address and OpenStreetMap geocoding"},
+    "cholla-trailhead": {"latitude": 33.51076, "longitude": -111.94338, "displayName": "Cholla Trailhead approach, 5150 North Invergordon Road", "source": "City of Phoenix official address and OpenStreetMap geocoding"},
+    "camelback-mountain-summit": {"latitude": 33.51406, "longitude": -111.96132, "displayName": "Reviewed Camelback Mountain summit placement", "source": "AuditMap review of the official City of Phoenix Camelback Mountain map"},
+    "echo-canyon-restrooms-and-water": {"latitude": 33.52318, "longitude": -111.97442, "displayName": "Restrooms and potable water at Echo Canyon Trailhead", "source": "City of Phoenix official trailhead information and map review"},
+    "cholla-rideshare-drop-off": {"latitude": 33.51067, "longitude": -111.94385, "displayName": "Reviewed Cholla Trail rideshare drop-off approach", "source": "City of Phoenix official trailhead information and map review"},
+    "camelback-rescue-access-points": {"latitude": 33.51810, "longitude": -111.96815, "displayName": "Reviewed central reference point between Camelback's primary approaches", "source": "AuditMap review of the official City of Phoenix Camelback Mountain map"}
+  },
+  "launch-az-phoenix-rio-salado-habitat-restoration-area": {
+    "northeast-central-avenue-trailhead": {"latitude": 33.42441, "longitude": -112.07316, "displayName": "Northeast Central Avenue Trailhead, 2439 South Central Avenue", "source": "City of Phoenix official address and OpenStreetMap geocoding"},
+    "southeast-7th-street-trailhead": {"latitude": 33.41928, "longitude": -112.06456, "displayName": "Southeast 7th Street Trailhead, 2875 South 7th Street", "source": "City of Phoenix official address and OpenStreetMap geocoding"},
+    "7th-avenue-north-bank-trailhead": {"latitude": 33.42145, "longitude": -112.08203, "displayName": "7th Avenue north-bank trailhead, 2801 South 7th Avenue", "source": "City of Phoenix official address and OpenStreetMap geocoding"},
+    "16th-street-trailhead": {"latitude": 33.41593, "longitude": -112.04702, "displayName": "16th Street Trailhead, 3203 South 16th Street", "source": "City of Phoenix official address and OpenStreetMap geocoding"},
+    "rio-salado-birding-habitat": {"latitude": 33.41984, "longitude": -112.07055, "displayName": "Reviewed birding habitat near the Audubon Center", "source": "AuditMap review of the official Rio Salado trail map"}
+  },
+  "launch-az-phoenix-steele-indian-school-park": {
+    "circle-of-life": {"latitude": 33.49701, "longitude": -112.07073, "displayName": "Reviewed Circle of Life placement", "source": "AuditMap review of official and public park maps"},
+    "american-indian-veterans-memorial": {"latitude": 33.49638, "longitude": -112.06932, "displayName": "Reviewed American Indian Veterans Memorial placement", "source": "AuditMap review of official and public park maps"},
+    "steele-indian-school-park-lake": {"latitude": 33.49655, "longitude": -112.06722, "displayName": "Reviewed Steele Indian School Park lake placement", "source": "AuditMap review of official and public park maps"},
+    "steele-indian-school-playground": {"latitude": 33.49502, "longitude": -112.06777, "displayName": "Reviewed Steele Indian School Park playground placement", "source": "AuditMap review of official and public park maps"},
+    "steele-indian-school-event-lawns": {"latitude": 33.49484, "longitude": -112.07045, "displayName": "Reviewed Steele Indian School Park event lawn placement", "source": "AuditMap review of official and public park maps"}
+  },
+  "launch-az-phoenix-margaret-t-hance-park": {
+    "hance-park-playground-and-splash-pad": {"latitude": 33.46220, "longitude": -112.06915, "displayName": "Reviewed Hance Park playground and splash pad placement", "source": "AuditMap review of official and public park maps"},
+    "margaret-t-hance-dog-park": {"latitude": 33.46186, "longitude": -112.07808, "displayName": "Reviewed Margaret T. Hance dog park placement", "source": "AuditMap review of official and public park maps"},
+    "irish-cultural-center-and-mcclelland-library": {"latitude": 33.46095, "longitude": -112.07444, "displayName": "Irish Cultural Center, 1106 North Central Avenue", "source": "OpenStreetMap Nominatim"},
+    "hance-park-festival-lawns": {"latitude": 33.46268, "longitude": -112.07160, "displayName": "Reviewed central festival lawn in Hance Park", "source": "AuditMap review of official and public park maps"},
+    "winship-house": {"latitude": 33.46134, "longitude": -112.07513, "displayName": "Reviewed Winship House placement", "source": "AuditMap review of official and public park maps"}
+  }
+}

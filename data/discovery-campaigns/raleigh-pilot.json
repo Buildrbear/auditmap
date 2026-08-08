@@ -1,0 +1,100 @@
+{
+  "id": "raleigh-discovery-pilot",
+  "market": "Raleigh, NC",
+  "city": "Raleigh",
+  "state": "NC",
+  "status": "review",
+  "headline": "There’s more around Raleigh than you know.",
+  "summary": "Real public places, practical details, and discoveries worth sharing.",
+  "signature": "Find your way. Share what you find.",
+  "hashtag": "#FoundOnAuditMap",
+  "channel": "x",
+  "campaign": "raleigh_discovery_pilot",
+  "updatedAt": "2026-08-07",
+  "posts": [
+    {
+      "id": "dix-park-arrival",
+      "day": 1,
+      "placeId": "dix-park",
+      "intentKey": "parking",
+      "imageIndex": 0,
+      "visualMatch": "The photograph shows the open Dix Park destination described by the arrival guidance.",
+      "series": "Know before you go",
+      "hook": "A day at Dix Park gets easier when you know where to arrive.",
+      "socialFact": "Use marked paved or gravel lots—not the grass or roadside.",
+      "prompt": "What should a first-time visitor know?"
+    },
+    {
+      "id": "chavis-family-arrival",
+      "day": 2,
+      "placeId": "john-chavis-memorial-park",
+      "intentKey": "entrance",
+      "imageIndex": 0,
+      "visualMatch": "The photograph depicts John Chavis Memorial Park, the destination covered by the arrival guidance.",
+      "series": "Did you know this was here?",
+      "hook": "A downtown Raleigh park can hold a whole family day.",
+      "socialFact": "Use 505 Martin Luther King Jr. Boulevard for the main family amenities.",
+      "prompt": "What should a family know before arriving?"
+    },
+    {
+      "id": "moore-square-arrival",
+      "day": 3,
+      "placeId": "moore-square",
+      "intentKey": "parking",
+      "imageIndex": 0,
+      "visualMatch": "The photograph shows Moore Square's trees and lawn, the downtown destination covered by the parking guidance.",
+      "series": "Know before you go",
+      "hook": "Moore Square is easy to notice and surprisingly easy to misunderstand before a visit.",
+      "socialFact": "The closest named city garage is Moore Square Deck on Wilmington Street.",
+      "prompt": "What is your best downtown arrival tip?"
+    },
+    {
+      "id": "dix-park-sunflower-shade",
+      "day": 4,
+      "placeId": "dix-park",
+      "intentKey": "shade",
+      "imageIndex": 1,
+      "visualMatch": "The photograph depicts the open Sunflower Field where the cited shade guidance matters.",
+      "series": "Know before you go",
+      "hook": "Dix Park's sunflower views come with a very practical tradeoff.",
+      "socialFact": "Flowers Field is primarily open lawn, so bring sun protection for a daytime visit.",
+      "prompt": "Where do you find shade at Dix Park?"
+    },
+    {
+      "id": "john-winters-find",
+      "day": 5,
+      "placeId": "basic-osm-way-33106145",
+      "intentKey": "amenities",
+      "imageIndex": 0,
+      "visualMatch": "The photograph shows the paved path, lawn, benches, and trees named in the post.",
+      "series": "Did you know this was here?",
+      "hook": "Not every Raleigh discovery needs to be a major destination.",
+      "socialFact": "John Winters Park offers paved paths, benches, lawn, and shade near Chavis Way.",
+      "prompt": "What small public place near you deserves more attention?"
+    },
+    {
+      "id": "chavis-access",
+      "day": 6,
+      "placeId": "john-chavis-memorial-park",
+      "intentKey": "accessibility",
+      "imageIndex": 1,
+      "visualMatch": "The photograph depicts John Chavis Memorial Park, whose documented access details are summarized in the post.",
+      "series": "Worth knowing",
+      "hook": "The details that make a park usable matter as much as the attractions.",
+      "socialFact": "Chavis Park documents accessible parking, restrooms, showers, and rubber playground surfacing.",
+      "prompt": "What access detail would help your next visit?"
+    },
+    {
+      "id": "moore-square-shade",
+      "day": 7,
+      "placeId": "moore-square",
+      "intentKey": "shade",
+      "imageIndex": 1,
+      "visualMatch": "The photograph shows the mature trees bordering Moore Square, which are the subject of the shade guidance.",
+      "series": "Worth knowing",
+      "hook": "On a hot downtown day, where you stop inside Moore Square matters.",
+      "socialFact": "The mature oak grove offers more reliable shade than the open central lawn.",
+      "prompt": "What is your favorite shaded corner downtown?"
+    }
+  ]
+}

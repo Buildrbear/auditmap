@@ -18,6 +18,21 @@ body:
       description: List the screens, files, or behavior included and excluded.
     validations:
       required: true
+  - type: dropdown
+    id: contribution_tier
+    attributes:
+      label: Contribution tier
+      description: Choose the smallest tier that produces the requested visitor outcome.
+      options:
+        - Inventory
+        - Launch guide
+        - Super enrichment
+        - Image sourcing
+        - Coordinate verification
+        - Quality assurance
+        - Code or product work
+    validations:
+      required: true
   - type: textarea
     id: acceptance
     attributes:
@@ -26,6 +41,9 @@ body:
       placeholder: |
         - [ ] Works on a phone-sized screen
         - [ ] Existing place pages still load
+        - [ ] Factual claims include a source URL and checked date
+        - [ ] Images have documented reuse rights and attribution
+        - [ ] Conflicts and unknowns remain in a review queue
         - [ ] No secrets or personal data are exposed
     validations:
       required: true
