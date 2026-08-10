@@ -90,8 +90,14 @@ Run the checks appropriate to the assignment:
 
 ```bash
 node --check path/to/changed-script.js
-npm run generate
+npm run generate:scope -- --campaign data/example-super-enrichment-campaign.json
 npm run verify:<campaign>:super
+```
+
+Use scoped generation while iterating so unrelated national pages are not rewritten. Before delivery, run the complete release gate:
+
+```bash
+npm run release:enrichment:check
 ```
 
 Also verify:

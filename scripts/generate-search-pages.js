@@ -28,6 +28,49 @@ function readJsonFile(filePath, fallback = null) {
   return JSON.parse(fs.readFileSync(filePath, "utf8"));
 }
 
+function parseGenerationScope(argv) {
+  const parkIds = new Set();
+  const campaignPaths = [];
+  const scopeRequested = argv.length > 0;
+
+  for (let index = 0; index < argv.length; index += 1) {
+    const argument = argv[index];
+    if (!["--parks", "--campaign"].includes(argument)) {
+      throw new Error(`Unknown generator option: ${argument}`);
+    }
+    const value = argv[index + 1];
+    if (!value || value.startsWith("--")) {
+      throw new Error(`${argument} requires a value`);
+    }
+    index += 1;
+    if (argument === "--parks") {
+      value.split(",").map((item) => item.trim()).filter(Boolean).forEach((id) => parkIds.add(id));
+    } else {
+      campaignPaths.push(value);
+    }
+  }
+
+  for (const campaignPath of campaignPaths) {
+    const absolutePath = path.resolve(projectRoot, campaignPath);
+    const campaign = readJsonFile(absolutePath);
+    if (!campaign || !Array.isArray(campaign.places)) {
+      throw new Error(`${campaignPath} must contain a places array`);
+    }
+    campaign.places
+      .filter((place) => !place.deferRelease)
+      .forEach((place) => parkIds.add(place.id));
+  }
+
+  if (scopeRequested && parkIds.size === 0) {
+    throw new Error("Scoped generation did not select any publishable places");
+  }
+
+  return {
+    parkIds,
+    scoped: scopeRequested,
+  };
+}
+
 function readCsv(relativePath) {
   const filePath = path.join(projectRoot, relativePath);
   if (!fs.existsSync(filePath)) return [];
@@ -1823,6 +1866,7 @@ function renderDixBetaPage() {
 }
 
 function build() {
+  const generationScope = parseGenerationScope(process.argv.slice(2));
   const generatedAt = new Date().toISOString();
   const seed = readJson("data/institutions.json", []);
   const shared = readJson("data/shared-records.json", []);
@@ -1947,6 +1991,13 @@ function build() {
     [...researchedPlaces, ...launchCandidates],
     reviewedAnswers,
   ).map(withFeatureGalleryImages);
+  if (generationScope.scoped) {
+    const availableIds = new Set(allPlaces.map((place) => place.id));
+    const unknownIds = [...generationScope.parkIds].filter((id) => !availableIds.has(id));
+    if (unknownIds.length) {
+      throw new Error(`Unknown park IDs: ${unknownIds.join(", ")}`);
+    }
+  }
   const places = allPlaces.filter(isSearchPark);
   const standalonePlaces = allPlaces.filter(
     (place) => place.searchCategory && place.searchCategory !== "park",
@@ -1955,6 +2006,11 @@ function build() {
     (place.features || []).map((feature) => asSubsitePlace(place, feature)),
   );
   const byState = new Map();
+  const selectedPlaces = generationScope.scoped
+    ? allPlaces.filter((place) => generationScope.parkIds.has(place.id))
+    : allPlaces;
+  const selectedStates = new Set(selectedPlaces.map((place) => place.state));
+  const selectedCities = new Set(selectedPlaces.map((place) => `${place.state}\u0000${place.city}`));
   const sitemapEntries = [];
   const addSitemapEntry = (url, lastmod) => {
     const nextLastmod = lastmod || generatedAt.slice(0, 10);
@@ -1986,20 +2042,25 @@ function build() {
       parks: cityGroups.flatMap((group) => group.parks),
     });
 
-    writeFile(`${stateHubPath(state).slice(1)}/index.html`, renderStateHubPage(state, cityGroups));
+    if (!generationScope.scoped || selectedStates.has(state)) {
+      writeFile(`${stateHubPath(state).slice(1)}/index.html`, renderStateHubPage(state, cityGroups));
+    }
     addSitemapEntry(
       stateHubPath(state),
       latestDate(cityGroups.flatMap((group) => group.parks.map((park) => placeLastModified(park)))),
     );
 
     for (const group of cityGroups) {
-      writeFile(`${cityHubPath(group.parks[0]).slice(1)}/index.html`, renderCityHubPage(state, group.name, group.parks));
+      if (!generationScope.scoped || selectedCities.has(`${state}\u0000${group.name}`)) {
+        writeFile(`${cityHubPath(group.parks[0]).slice(1)}/index.html`, renderCityHubPage(state, group.name, group.parks));
+      }
       addSitemapEntry(
         cityHubPath(group.parks[0]),
         latestDate(group.parks.map((park) => placeLastModified(park))),
       );
 
       for (const park of group.parks) {
+        if (generationScope.scoped && !generationScope.parkIds.has(park.id)) continue;
         const related = group.parks.filter((candidate) => candidate.id !== park.id).slice(0, 4);
         writeFile(`${placePath(park).slice(1)}/index.html`, renderParkPage(park, related));
         if ((park.features || []).length) {
@@ -2021,8 +2082,16 @@ function build() {
   }
 
   for (const place of standalonePlaces) {
+    if (generationScope.scoped && !generationScope.parkIds.has(place.id)) continue;
     writeFile(`${placePath(place).slice(1)}/index.html`, renderParkPage(place));
     addSitemapEntry(placePath(place), placeLastModified(place));
+  }
+
+  if (generationScope.scoped) {
+    console.log(
+      `Scoped generation complete: ${generationScope.parkIds.size} parent place(s), ${selectedCities.size} city hub(s), ${selectedStates.size} state hub(s).`,
+    );
+    return;
   }
 
   writeFile("us/index.html", renderNationalHubPage(nationalStates));
