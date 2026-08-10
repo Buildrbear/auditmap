@@ -1,165 +1,117 @@
 {
-  "checkedAt": "2026-08-06",
+  "checkedAt": "2026-08-10",
   "places": {
     "launch-md-baltimore-druid-hill-park": {
-  "druid-lake": {
-    "latitude": 39.316624,
-    "longitude": -76.63165,
-    "displayName": "Reviewed public lake-loop arrival on Druid Park Lake Drive",
-    "source": "Baltimore City DPW reopening notice cross-checked with OpenStreetMap"
-  },
-  "howard-peters-rawlings-conservatory": {
-    "latitude": 39.318378762300675,
-    "longitude": -76.64607869486336,
-    "displayName": "Exact Baltimore City Recreation and Parks specialty-facility point",
-    "source": "Baltimore City BCRP Services GIS SpecialtyFacilities layer"
+      "druid-lake": {
+        "latitude": 39.316624,
+        "longitude": -76.63165,
+        "displayName": "Preserved coordinate for Druid Lake",
+        "source": "Baltimore City DPW reopening notice cross-checked with OpenStreetMap"
+      },
+      "howard-peters-rawlings-conservatory": {
+        "latitude": 39.318378762300675,
+        "longitude": -76.64607869486336,
+        "displayName": "Preserved coordinate for Howard Peters Rawlings Conservatory",
+        "source": "Baltimore City BCRP Services GIS SpecialtyFacilities layer"
       },
       "maryland-zoo-in-baltimore": {
         "latitude": 39.3244531,
         "longitude": -76.6480853,
-        "displayName": "The Maryland Zoo in Baltimore, 1, Safari Place, Park Heights, Baltimore, Maryland, 21217, United States",
+        "displayName": "Preserved coordinate for Maryland Zoo in Baltimore",
         "source": "OpenStreetMap Nominatim"
       },
-      "druid-hill-park-pool": {
-        "latitude": 39.32313840194847,
-        "longitude": -76.64420030194847,
-        "displayName": "Approximate position within Druid Hill Park",
-        "source": "AuditMap official-map placement"
+      "chinese-pavilion": {
+        "latitude": 39.316708,
+        "longitude": -76.64267,
+        "displayName": "Preserved coordinate for Chinese Pavilion",
+        "source": "Wikimedia Commons image camera coordinates cross-checked with OpenStreetMap"
       },
-      "disc-golf-course": {
-        "latitude": 39.3266055,
-        "longitude": -76.6534245,
-        "displayName": "Druid Hill Park Disc Golf Course, Crows Nest Road",
-        "source": "OpenStreetMap Nominatim, bounded review"
-      },
-  "chinese-pavilion": {
-    "latitude": 39.316708,
-    "longitude": -76.64267,
-    "displayName": "Destination-geotagged CC0 photograph on Swann Drive",
-    "source": "Wikimedia Commons image camera coordinates cross-checked with OpenStreetMap"
-  },
       "mansion-house-lawn": {
         "latitude": 39.3234566,
         "longitude": -76.6449685,
-    "displayName": "Reviewed center of the named photographed lawn on Mansion House Drive",
-    "source": "Baltimore City Druid Hill Park master plan cross-checked with exact Wikimedia destination image"
-      },
-      "jones-falls-trail-connection": {
-        "latitude": 39.323887935136526,
-        "longitude": -76.64494983513653,
-        "displayName": "Approximate position within Druid Hill Park",
-        "source": "AuditMap official-map placement"
+        "displayName": "Preserved coordinate for Mansion House Lawn",
+        "source": "Baltimore City Druid Hill Park master plan cross-checked with exact Wikimedia destination image"
       }
     },
     "launch-md-baltimore-patterson-park": {
       "patterson-park-observatory": {
         "latitude": 39.2899829,
         "longitude": -76.5837091,
-        "displayName": "Patterson Park Observatory, The Drive, Baltimore, Maryland, 21231, United States",
+        "displayName": "Preserved coordinate for Patterson Park Observatory",
         "source": "OpenStreetMap Nominatim"
       },
-  "boat-lake": {
+      "boat-lake": {
         "latitude": 39.2869,
         "longitude": -76.5807,
-        "displayName": "Patterson Park Boat Lake near Eastern and Milton avenues",
+        "displayName": "Preserved coordinate for Boat Lake",
         "source": "AuditMap reviewed placement from park and visitor maps"
-  },
-  "marble-fountain": {
-    "latitude": 39.290711,
-    "longitude": -76.584123,
-    "displayName": "Exact destination-geotagged CC0 photograph near Lombard Street",
-    "source": "Wikimedia Commons image camera coordinates cross-checked with Friends of Patterson Park"
-  },
-  "war-of-1812-memorial-cannons": {
-    "latitude": 39.2901333,
-    "longitude": -76.5838694,
-    "displayName": "Exact destination-geotagged CC0 photograph beside the Observatory",
-    "source": "Wikimedia Commons image camera coordinates cross-checked with Patterson Park heritage mapping"
-  },
-      "patterson-park-playground": {
-        "latitude": 39.2889335,
-        "longitude": -76.5780348,
-        "displayName": "Approximate position within Patterson Park",
-        "source": "AuditMap official-map placement"
       },
-      "patterson-park-dog-park": {
-        "latitude": 39.288184,
-        "longitude": -76.5762322,
-        "displayName": "Patterson Park Dog Park, The Drive, Baltimore, Maryland, 21205, United States",
-        "source": "OpenStreetMap Nominatim"
+      "marble-fountain": {
+        "latitude": 39.290711,
+        "longitude": -76.584123,
+        "displayName": "Preserved coordinate for Marble Fountain",
+        "source": "Wikimedia Commons image camera coordinates cross-checked with Friends of Patterson Park"
       },
-      "patterson-park-pool": {
-        "latitude": 39.2883235,
-        "longitude": -76.5788048,
-        "displayName": "Approximate position within Patterson Park",
-        "source": "AuditMap official-map placement"
+      "war-of-1812-memorial-cannons": {
+        "latitude": 39.2901333,
+        "longitude": -76.5838694,
+        "displayName": "Preserved coordinate for War of 1812 Memorial Cannons",
+        "source": "Wikimedia Commons image camera coordinates cross-checked with Patterson Park heritage mapping"
       },
-      "patterson-park-ice-rink": {
-        "latitude": 39.288389027778486,
-        "longitude": -76.57934927222152,
-        "displayName": "Approximate position within Patterson Park",
-        "source": "AuditMap official-map placement"
-      },
-  "virginia-s-baker-recreation-center": {
-    "latitude": 39.291310024969796,
-    "longitude": -76.58025873320491,
-    "displayName": "Exact Baltimore City Recreation and Parks recreation-center point",
-    "source": "Baltimore City BCRP Services GIS RecreationCenters layer"
-      },
-      "patterson-park-athletic-fields": {
-        "latitude": 39.289364835136524,
-        "longitude": -76.57923613513653,
-        "displayName": "Approximate position within Patterson Park",
-        "source": "AuditMap official-map placement"
+      "virginia-s-baker-recreation-center": {
+        "latitude": 39.291310024969796,
+        "longitude": -76.58025873320491,
+        "displayName": "Preserved coordinate for Virginia S. Baker Recreation Center",
+        "source": "Baltimore City BCRP Services GIS RecreationCenters layer"
       }
     },
     "launch-md-baltimore-federal-hill-park": {
       "federal-hill-harbor-overlook": {
         "latitude": 39.2800648,
         "longitude": -76.6084642,
-        "displayName": "Approximate position within Federal Hill Park",
+        "displayName": "Preserved coordinate for Federal Hill Harbor Overlook",
         "source": "AuditMap official-map placement"
       },
       "federal-hill-park-playground": {
         "latitude": 39.28004613513652,
         "longitude": -76.60803286486347,
-        "displayName": "Approximate position within Federal Hill Park",
+        "displayName": "Preserved coordinate for Federal Hill Park Playground",
         "source": "AuditMap official-map placement"
       },
       "federalist-ship-play-structure": {
         "latitude": 39.2796148,
         "longitude": -76.6076942,
-        "displayName": "Approximate position within Federal Hill Park",
+        "displayName": "Preserved coordinate for Federalist Ship Play Structure",
         "source": "AuditMap official-map placement"
       },
       "signal-hill-tower-play-structure": {
         "latitude": 39.27929660194847,
         "longitude": -76.60814600194847,
-        "displayName": "Approximate position within Federal Hill Park",
+        "displayName": "Preserved coordinate for Signal Hill Tower Play Structure",
         "source": "AuditMap official-map placement"
       },
       "flag-staff-plaza": {
         "latitude": 39.279004799999996,
         "longitude": -76.6084642,
-        "displayName": "Approximate position within Federal Hill Park",
+        "displayName": "Preserved coordinate for Flag Staff Plaza",
         "source": "AuditMap official-map placement"
       },
       "colonel-george-armistead-monument": {
         "latitude": 39.279070327778484,
         "longitude": -76.60900867222152,
-        "displayName": "Approximate position within Federal Hill Park",
+        "displayName": "Preserved coordinate for Colonel George Armistead Monument",
         "source": "AuditMap official-map placement"
       },
       "general-samuel-smith-monument": {
         "latitude": 39.2796148,
         "longitude": -76.6089142,
-        "displayName": "Approximate position within Federal Hill Park",
+        "displayName": "Preserved coordinate for General Samuel Smith Monument",
         "source": "AuditMap official-map placement"
       },
       "federal-hill-basketball-court": {
         "latitude": 39.28004613513652,
         "longitude": -76.60889553513653,
-        "displayName": "Approximate position within Federal Hill Park",
+        "displayName": "Preserved coordinate for Federal Hill Basketball Court",
         "source": "AuditMap official-map placement"
       }
     },
@@ -167,199 +119,139 @@
       "fort-mchenry-visitor-center": {
         "latitude": 39.2653236,
         "longitude": -76.5796144,
-        "displayName": "Fort McHenry Visitor Center, 2400, East Fort Avenue, Baltimore, Maryland, 21230, United States",
+        "displayName": "Preserved coordinate for Fort McHenry Visitor Center",
         "source": "OpenStreetMap Nominatim"
       },
       "star-fort": {
         "latitude": 39.263397,
         "longitude": -76.5783075,
-        "displayName": "Star Fort Connector Trail, Baltimore, Maryland, 21052, United States",
+        "displayName": "Preserved coordinate for Star Fort",
         "source": "OpenStreetMap Nominatim"
       },
       "fort-mchenry-seawall-trail": {
         "latitude": 39.2639092,
         "longitude": -76.5777097,
-        "displayName": "Fort McHenry Channel Range Front Light, Seawall Trail, Baltimore, Maryland, 21052, United States",
+        "displayName": "Preserved coordinate for Fort McHenry Seawall Trail",
         "source": "OpenStreetMap Nominatim"
       },
       "orpheus-statue": {
         "latitude": 39.26288180194847,
         "longitude": -76.58018180194847,
-        "displayName": "Approximate position within Fort McHenry National Monument and Historic Shrine",
+        "displayName": "Preserved coordinate for Orpheus Statue",
         "source": "AuditMap official-map placement"
       },
       "flag-change-program": {
         "latitude": 39.262589999999996,
         "longitude": -76.5805,
-        "displayName": "Approximate position within Fort McHenry National Monument and Historic Shrine",
+        "displayName": "Preserved coordinate for Flag Change Program",
         "source": "AuditMap official-map placement"
       },
       "fort-mchenry-wetland": {
         "latitude": 39.262655527778485,
         "longitude": -76.58104447222152,
-        "displayName": "Approximate position within Fort McHenry National Monument and Historic Shrine",
+        "displayName": "Preserved coordinate for Fort McHenry Wetland",
         "source": "AuditMap official-map placement"
       },
       "water-battery": {
         "latitude": 39.263591,
         "longitude": -76.5783789,
-        "displayName": "Water Battery, Star Fort Connector Trail, Baltimore, Maryland, 21231, United States",
+        "displayName": "Preserved coordinate for Water Battery",
         "source": "OpenStreetMap Nominatim"
       },
       "fort-mchenry-picnic-area": {
         "latitude": 39.26363133513652,
         "longitude": -76.58093133513653,
-        "displayName": "Approximate position within Fort McHenry National Monument and Historic Shrine",
+        "displayName": "Preserved coordinate for Fort McHenry Picnic Area",
         "source": "AuditMap official-map placement"
       }
     },
     "launch-md-baltimore-cylburn-arboretum": {
-      "vollmer-center": {
-        "latitude": 39.3516504,
-        "longitude": -76.6546783,
-        "displayName": "Vollmer Center, Circle Trail, Coldspring, Greater Roland Park, Baltimore, Maryland, 21210, United States",
-        "source": "OpenStreetMap Nominatim"
-      },
       "cylburn-mansion": {
         "latitude": 39.3535065,
         "longitude": -76.6526221,
-        "displayName": "Cylburn Mansion, 4955, Greenspring Avenue, Coldspring, Park Heights, Baltimore, Maryland, 21209, United States",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "nature-education-center": {
-        "latitude": 39.3544716,
-        "longitude": -76.6531799,
-        "displayName": "Nature Education Center, Woodland Trail, Coldspring, Greater Roland Park, Baltimore, Maryland, 21210, United States",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "japanese-maple-collection": {
-        "latitude": 39.35128180194847,
-        "longitude": -76.65618180194846,
-        "displayName": "Approximate position within Cylburn Arboretum",
-        "source": "AuditMap official-map placement"
-      },
-      "dahlia-garden": {
-        "latitude": 39.350989999999996,
-        "longitude": -76.6565,
-        "displayName": "Approximate position within Cylburn Arboretum",
-        "source": "AuditMap official-map placement"
-      },
-      "cylburn-woodland-trails": {
-        "latitude": 39.351055527778485,
-        "longitude": -76.65704447222151,
-        "displayName": "Approximate position within Cylburn Arboretum",
-        "source": "AuditMap official-map placement"
-      },
-      "cylburn-arboretum-greenhouses": {
-        "latitude": 39.3516,
-        "longitude": -76.65695,
-        "displayName": "Approximate position within Cylburn Arboretum",
-        "source": "AuditMap official-map placement"
-      },
-      "cylburn-children-s-garden": {
-        "latitude": 39.35203133513652,
-        "longitude": -76.65693133513652,
-        "displayName": "Approximate position within Cylburn Arboretum",
-        "source": "AuditMap official-map placement"
+        "displayName": "Cylburn Mansion, 4955 Greenspring Avenue, Baltimore, Maryland",
+        "source": "OpenStreetMap named building reviewed against the official Cylburn visitor page"
       }
     },
     "launch-md-baltimore-gwynns-falls-leakin-park": {
       "carrie-murray-nature-center": {
         "latitude": 39.307149,
         "longitude": -76.6954484,
-        "displayName": "Carrie Murray Nature Center, 1901, Ridgetop Road, Franklintown, Baltimore, Maryland, 21207, United States",
-        "source": "OpenStreetMap Nominatim"
+        "displayName": "Carrie Murray Nature Center, 1901 Ridgetop Road, Baltimore, Maryland",
+        "source": "OpenStreetMap named facility reviewed against Baltimore City address"
       },
       "orianda-mansion": {
         "latitude": 39.3051324,
         "longitude": -76.6989409,
-        "displayName": "Crimea Mansion, Eagle Drive, Franklintown, Baltimore, Maryland, 21229, United States",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "winans-meadow": {
-        "latitude": 39.3044944,
-        "longitude": -76.6950458,
-        "displayName": "Winans Meadow, Baltimore, Maryland, United States",
-        "source": "OpenStreetMap Nominatim"
+        "displayName": "Orianda Mansion in the Crimea Estate area",
+        "source": "OpenStreetMap named building reviewed against the official Friends park map"
       },
       "gwynns-falls-trail": {
-        "latitude": 39.3046,
-        "longitude": -76.6962,
-        "displayName": "Gwynns Falls Trail access in the Winans Meadow and Crimea section",
-        "source": "AuditMap reviewed placement from official trail map"
+        "latitude": 39.30538,
+        "longitude": -76.68706,
+        "displayName": "Photographed Gwynns Falls Trail segment within Leakin Park",
+        "source": "Wikimedia Commons photograph GPS reviewed against the official Friends trail map"
       },
-      "crimea-estate": {
-        "latitude": 39.3040595,
-        "longitude": -76.6952961,
-        "displayName": "Crimea Estate, Gwynns Falls Trail, Franklintown, Baltimore, Maryland, 21229, United States",
-        "source": "OpenStreetMap Nominatim"
+      "magnolia-grove": {
+        "latitude": 39.306197,
+        "longitude": -76.698383,
+        "displayName": "Magnolia Grove near Orianda Mansion in the Crimea section",
+        "source": "Wikimedia Commons photograph GPS and destination description"
       },
-      "thomas-jefferson-grove-of-trees": {
-        "latitude": 39.305255527778485,
-        "longitude": -76.70134447222152,
-        "displayName": "Approximate position within Gwynns Falls Leakin Park",
-        "source": "AuditMap official-map placement"
-      },
-      "dead-run-trailhead": {
-        "latitude": 39.3058,
-        "longitude": -76.70125,
-        "displayName": "Approximate position within Gwynns Falls Leakin Park",
-        "source": "AuditMap official-map placement"
-      },
-      "leakin-park-eagle-drive-entrance": {
-        "latitude": 39.30623133513652,
-        "longitude": -76.70123133513653,
-        "displayName": "Approximate position within Gwynns Falls Leakin Park",
-        "source": "AuditMap official-map placement"
+      "i-70-park-and-ride-trailhead": {
+        "latitude": 39.3029,
+        "longitude": -76.70648,
+        "displayName": "I-70 Park and Ride, designated Trail Head 1",
+        "source": "Wikimedia Commons photograph GPS reviewed against the official Friends park map"
       }
     },
     "launch-md-baltimore-baltimore-waterfront-promenade": {
       "inner-harbor-amphitheater": {
         "latitude": 39.28515,
         "longitude": -76.6107,
-        "displayName": "Approximate position within Baltimore Waterfront Promenade",
+        "displayName": "Preserved coordinate for Inner Harbor Amphitheater",
         "source": "AuditMap official-map placement"
       },
       "west-shore-park": {
         "latitude": 39.2829564,
         "longitude": -76.6121882,
-        "displayName": "West Shore Park, Baltimore, Maryland, United States",
+        "displayName": "Preserved coordinate for West Shore Park",
         "source": "OpenStreetMap Nominatim"
       },
       "rash-field-park": {
         "latitude": 39.2813356,
         "longitude": -76.6107103,
-        "displayName": "Rash Field Park, Baltimore, Maryland, United States",
+        "displayName": "Preserved coordinate for Rash Field Park",
         "source": "OpenStreetMap Nominatim"
       },
       "harbor-point-central-plaza": {
         "latitude": 39.2805687,
         "longitude": -76.5984279,
-        "displayName": "Harbor Point Central Plaza, Baltimore, Maryland, United States",
+        "displayName": "Preserved coordinate for Harbor Point Central Plaza",
         "source": "OpenStreetMap Nominatim"
       },
       "pierces-park": {
         "latitude": 39.28409,
         "longitude": -76.6107,
-        "displayName": "Approximate position within Baltimore Waterfront Promenade",
+        "displayName": "Preserved coordinate for Pierces Park",
         "source": "AuditMap official-map placement"
       },
       "canton-waterfront-park": {
         "latitude": 39.2771962,
         "longitude": -76.5727014,
-        "displayName": "Canton Waterfront Park, Baltimore, Maryland, United States",
+        "displayName": "Preserved coordinate for Canton Waterfront Park",
         "source": "OpenStreetMap Nominatim"
       },
       "fells-point-broadway-pier": {
         "latitude": 39.2809405,
         "longitude": -76.5921884,
-        "displayName": "Broadway Recreational Pier, Fells Point",
+        "displayName": "Preserved coordinate for Fells Point Broadway Pier",
         "source": "USGS and GeoNames reviewed placement"
       },
       "harbor-east-promenade": {
         "latitude": 39.2829988,
         "longitude": -76.6033267,
-        "displayName": "Harbor East, Baltimore Waterfront Promenade, Inner Harbor, Baltimore, Maryland, 21202, United States",
+        "displayName": "Preserved coordinate for Harbor East Promenade",
         "source": "OpenStreetMap Nominatim"
       }
     },
@@ -367,49 +259,49 @@
       "lake-roland-nature-center": {
         "latitude": 39.3784642,
         "longitude": -76.6446982,
-        "displayName": "Lake Roland Nature Center, Paved Loop, Towson, Baltimore County, Maryland, 21210, United States",
+        "displayName": "Preserved coordinate for Lake Roland Nature Center",
         "source": "OpenStreetMap Nominatim"
       },
       "lake-roland-boardwalk": {
         "latitude": 39.3775096,
         "longitude": -76.6476885,
-        "displayName": "Amphibians of Lake Roland, Light Rail Boardwalk, Bare Hills, Towson, Baltimore County, Maryland, 21209, United States",
+        "displayName": "Preserved coordinate for Lake Roland Boardwalk",
         "source": "OpenStreetMap Nominatim"
       },
       "lake-roland-dog-park": {
         "latitude": 39.3872,
         "longitude": -76.64563,
-        "displayName": "Approximate position within Lake Roland Park",
+        "displayName": "Preserved coordinate for Lake Roland Dog Park",
         "source": "AuditMap official-map placement"
       },
       "red-trail": {
         "latitude": 39.396298,
         "longitude": -76.663565,
-        "displayName": "Red Trail access near 7329 Falls Road",
+        "displayName": "Preserved coordinate for Red Trail",
         "source": "Baltimore Bird Club and official Lake Roland trail-map review"
       },
       "yellow-trail": {
         "latitude": 39.3912,
         "longitude": -76.6572,
-        "displayName": "Yellow Trail within Lake Roland Park's northern trail network",
+        "displayName": "Preserved coordinate for Yellow Trail",
         "source": "AuditMap reviewed placement from official Lake Roland trail map"
       },
       "lake-roland-dam": {
         "latitude": 39.3786152,
         "longitude": -76.6434222,
-        "displayName": "Lake Roland Dam, Towson, Baltimore County, Maryland, United States",
+        "displayName": "Preserved coordinate for Lake Roland Dam",
         "source": "OpenStreetMap Nominatim"
       },
       "falls-road-light-rail-entrance": {
         "latitude": 39.3872,
         "longitude": -76.64685,
-        "displayName": "Approximate position within Lake Roland Park",
+        "displayName": "Preserved coordinate for Falls Road Light Rail Entrance",
         "source": "AuditMap official-map placement"
       },
       "paw-point-dog-park-beach": {
         "latitude": 39.387631335136525,
         "longitude": -76.64683133513653,
-        "displayName": "Approximate position within Lake Roland Park",
+        "displayName": "Preserved coordinate for Paw Point Dog Park Beach",
         "source": "AuditMap official-map placement"
       }
     }

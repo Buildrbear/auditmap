@@ -174,6 +174,112 @@
         "family": "The center supports youth and adult programs year-round, but drop-in availability cannot be inferred from the park being open. Confirm the exact activity, age range, and registration first.",
         "need": "This is a scheduled, staffed facility rather than an always-open park amenity. Call or check the current program listing before crossing the park for indoor access."
       }
+    },
+    "launch-md-baltimore-cylburn-arboretum": {
+      "cylburn-mansion": {
+        "name": "Cylburn Mansion",
+        "description": "Cylburn Mansion is the arboretum's 1863 stone centerpiece, with public interior access limited to a seasonal building schedule rather than the full grounds day.",
+        "address": "4955 Greenspring Avenue, Baltimore, MD 21209",
+        "sourceLabel": "Cylburn Arboretum Friends",
+        "source": "https://cylburn.org/visit/",
+        "imageIndex": 3,
+        "location": "Follow the paved internal route north from the main parking area to the named Mansion building. It is beyond the Vollmer Center circle and should not be confused with the Nature Education Center or Greenhouse Classroom.",
+        "parking": "Use free arboretum parking near the main entrance and Vollmer Center, then walk to the Mansion. Accessible spaces are in the upper lot; events can change the closest available route.",
+        "hours": "The current August 2026 facilities schedule lists Mansion hours Wednesday, Friday, Saturday and Sunday from 10:00 a.m.-2:00 p.m., with tours and activities on the second Saturday and Sunday. Recheck before visiting because building hours change separately from outdoor grounds.",
+        "restrooms": "Do not rely on Mansion restrooms outside staffed hours. The Greenhouse Classroom is the documented restroom location during general arboretum hours, with other building facilities available only when those buildings are open.",
+        "fees": "Viewing the Mansion exterior and ordinary arboretum grounds is free. Guided tours, rentals, programs, events and permitted photography can have separate arrangements or charges.",
+        "accessibility": "A paved route connects the upper parking area and Mansion zone, but historic thresholds, room access and event layouts can vary. Contact the operator before relying on a specific interior accommodation.",
+        "dogs": "Leashed dogs may use the outdoor grounds but should not be expected inside the Mansion. Service-animal access follows current building rules.",
+        "family": "The exterior and limited public hours can make a short history stop, but children must remain supervised around historic interiors, steps, furnishings and event setups.",
+        "need": "The Mansion and arboretum do not share one schedule. Build the visit around current posted Mansion hours if going inside matters; the exterior landscape remains useful during ordinary grounds hours."
+      }
+    },
+    "launch-md-baltimore-gwynns-falls-leakin-park": {
+      "carrie-murray-nature-center": {
+        "name": "Carrie Murray Nature Center",
+        "description": "Carrie Murray Nature Center is the park's year-round environmental-education hub, offering scheduled live-animal, preschool, camp, school, public and volunteer programs.",
+        "address": "1901 Ridgetop Road, Baltimore, MD 21207",
+        "sourceLabel": "Baltimore City Recreation and Parks",
+        "source": "https://www.baltimorecity.gov/bcrp/carrie-murray-nature-center",
+        "imageIndex": 4,
+        "location": "Navigate to 1901 Ridgetop Road and the named Nature Center, not the broad Windsor Mill Road park address. The building is a distinct destination within the wooded park.",
+        "parking": "Use the small Nature Center arrival area on Ridgetop Road. Capacity and group-program traffic can vary, so confirm arrangements for a class, camp or large group before driving in.",
+        "hours": "The City describes year-round programs but does not publish dependable daily drop-in hours on the current page. Call 410-396-0808 or check the current program catalog before making building entry or a live-animal visit the purpose of the trip.",
+        "restrooms": "Building restroom access depends on the Nature Center being open for a program or public visit. Remote park trails do not provide a dependable substitute.",
+        "fees": "The park is free to enter, while camps, field trips, preschool, registered programs and special activities may require registration or a fee.",
+        "accessibility": "Use the exact Ridgetop Road facility address for the shortest developed approach. Contact the center for program-specific mobility, sensory or communication accommodations.",
+        "dogs": "Do not bring pets into a live-animal education facility unless current rules explicitly allow them. Leashed-dog park access remains separate outside the center, and service animals follow applicable rules.",
+        "family": "This is the strongest staffed family anchor in the park when a suitable program is running. Check age, registration, start time and indoor availability rather than assuming continuous drop-in exhibits.",
+        "need": "The Nature Center is program-led, not an always-open visitor center. Confirm the exact activity before crossing the park, especially for live animals, restrooms or indoor shelter."
+      },
+      "orianda-mansion": {
+        "name": "Orianda Mansion",
+        "description": "Orianda Mansion, also mapped as Crimea Mansion, is the historic stone house at the center of the Crimea Estate landscape near Eagle Drive.",
+        "address": "Eagle Drive, Gwynns Falls Leakin Park, Baltimore, MD 21229",
+        "sourceLabel": "Friends of Gwynns Falls/Leakin Park",
+        "source": "https://friendsofgwynnsfallsleakinpark.org/Maps",
+        "imageIndex": 5,
+        "location": "Use the Eagle Drive/Crimea Estate entrance identified on the official Friends map. Orianda and the nearby Magnolia Grove are west of Winans Meadow and are not served by the I-70 trailhead approach.",
+        "parking": "Follow current Eagle Drive signs and use only open legal spaces serving the Crimea Estate area. Do not block mansion, maintenance or event access, and do not assume the building has public drop-in parking.",
+        "hours": "The exterior landscape follows ordinary daylight park use unless an event, maintenance activity or posted closure controls the estate. The historic building does not publish regular drop-in interior hours on the park map.",
+        "restrooms": "There is no dependable public restroom at the Mansion. Plan around Carrie Murray Nature Center only when it is confirmed open, or use facilities before entering the park.",
+        "fees": "Viewing the Mansion exterior during ordinary park access is free. Private events, programs, rentals or interior access are separate and may not be available to casual visitors.",
+        "accessibility": "Eagle Drive provides a developed approach, while historic walks, grass, grades and building thresholds vary. Confirm event or interior access directly rather than inferring it from the outdoor route.",
+        "dogs": "Leashed dogs may use ordinary outdoor park routes but should not enter the Mansion or a private event. Remove waste and keep pets away from planted areas.",
+        "family": "The Mansion and Magnolia Grove make a compact outdoor history-and-landscape stop, but there is no guaranteed staffed interpretation, restroom or indoor shelter.",
+        "need": "Treat Orianda as an exterior landmark unless an announced program specifically includes the building. Save the exact Eagle Drive route before entering the wooded park."
+      },
+      "gwynns-falls-trail": {
+        "name": "Gwynns Falls Trail",
+        "description": "The Gwynns Falls Trail is the park's principal shared walking and bicycling route, linking wooded Leakin Park segments to the larger Baltimore trail system.",
+        "address": "Gwynns Falls Trail, Baltimore, MD 21207",
+        "sourceLabel": "Friends of Gwynns Falls/Leakin Park",
+        "source": "https://friendsofgwynnsfallsleakinpark.org/Maps",
+        "imageIndex": 2,
+        "location": "This pin marks the geotagged photographed trail segment east of the Crimea and Winans Meadow area. Download the full 2024 trail map because the route continues well beyond this one point.",
+        "parking": "Choose an official trailhead based on the planned segment: I-70 Park and Ride is Trail Head 1, Winans Meadow is Trail Head 2 and Windsor Mill is Trail Head 3. Do not leave a vehicle at an unrelated estate or facility after its access closes.",
+        "hours": "Use the trail during daylight park hours. Flooding, fallen trees, ice, maintenance and events can affect individual segments even when another trailhead remains open.",
+        "restrooms": "There is no continuous restroom service along the trail. Confirm a staffed facility before relying on it and plan remote segments as having no facilities.",
+        "fees": "Walking and bicycling the public trail are free. Programs, rentals, transit and events are separate.",
+        "accessibility": "The main trail provides the park's most predictable firm route, but crossings, grades, debris, detours and connections vary. Review the selected segment rather than assuming the entire corridor is level.",
+        "dogs": "Leashed dogs may use the trail. Keep to one side, yield to other users, control dogs near cyclists and wildlife and remove waste.",
+        "family": "A short out-and-back from a named trailhead is easier to manage than an open-ended route. Carry water, keep children out of streams and roadways and set a turnaround time.",
+        "need": "This is a long connected route, not a short loop around the parent pin. Download the official map, choose a trailhead and save enough daylight and energy for the return."
+      },
+      "magnolia-grove": {
+        "name": "Magnolia Grove",
+        "description": "Magnolia Grove is a seasonal collection of saucer magnolias in the Crimea section near Orianda Mansion, most visually distinctive during its brief spring bloom.",
+        "address": "Crimea Estate, Gwynns Falls Leakin Park, Baltimore, MD 21229",
+        "sourceLabel": "Friends of Gwynns Falls/Leakin Park",
+        "source": "https://friendsofgwynnsfallsleakinpark.org/Maps",
+        "imageIndex": 3,
+        "location": "Use the geotagged grove point near Orianda Mansion and approach through the Eagle Drive/Crimea Estate area. The official park map is still useful for the final walk.",
+        "parking": "Use an open legal space serving the Eagle Drive/Crimea Estate area, then walk. Keep vehicles off lawns and planted areas and leave event and maintenance access clear.",
+        "hours": "The outdoor grove follows daylight park access unless an event or posted closure controls the area. Bloom timing depends on winter and spring weather and cannot be guaranteed for a calendar date.",
+        "restrooms": "There is no dependable public restroom at the grove or Mansion. Use facilities before arriving or confirm a staffed park building separately.",
+        "fees": "Ordinary outdoor access is free. Permitted events or programs are separate.",
+        "accessibility": "The final approach includes an outdoor estate landscape with grass, natural grades and weather-sensitive footing. The geotag reduces searching but does not guarantee a fully paved route.",
+        "dogs": "Leashed dogs may accompany visitors outdoors. Keep them out of flower beds and away from private events, and remove waste.",
+        "family": "The grove can be a memorable short seasonal stop paired with the Mansion exterior, but it has no play equipment, staffed interpretation or dependable facilities.",
+        "need": "The published photograph shows full bloom in early April 2025, not a permanent year-round condition. Check recent local updates before making flowers the sole reason for the trip."
+      },
+      "i-70-park-and-ride-trailhead": {
+        "name": "I-70 Park and Ride Trailhead",
+        "description": "The former I-70 park-and-ride at the highway's eastern end is the official Friends map's Trail Head 1 and a practical western start for the park trail network.",
+        "address": "I-70 Park and Ride, Baltimore, MD 21229",
+        "sourceLabel": "Friends of Gwynns Falls/Leakin Park",
+        "source": "https://friendsofgwynnsfallsleakinpark.org/Maps",
+        "imageIndex": 6,
+        "location": "Navigate to the geotagged I-70 Park and Ride at the eastern highway terminus. This is Trail Head 1; it is west of the Eagle Drive estate area and far from Carrie Murray Nature Center.",
+        "parking": "Use only the designated open park-and-ride area and obey current roadway, lot and overnight-parking signs. Secure the vehicle, take valuables and do not use highway shoulders as overflow parking.",
+        "hours": "Begin and finish during daylight park hours. Lot restrictions, construction, police activity, events, snow or maintenance can affect access independently from the trail network.",
+        "restrooms": "Do not expect a public restroom or water source at the park-and-ride. Prepare before arrival and carry water for the planned route.",
+        "fees": "Ordinary trailhead parking and park access are free unless current signs state otherwise. Transit, events and programs are separate.",
+        "accessibility": "The large paved arrival area is easier than many woodland entrances, but the onward trail surface, crossings, grades and current barriers must be assessed for the selected route.",
+        "dogs": "Leashed dogs may start here for park trails. Keep them controlled in the parking area and near cyclists, and carry out waste.",
+        "family": "The spacious arrival can simplify a short family trail outing, but there are no staffed facilities. Set a turnaround point, carry water and keep children close around vehicles and trail crossings.",
+        "need": "This is an arrival point, not a full-service visitor center. Download the 2024 park map before leaving signal coverage and confirm that Trail Head 1 serves the route you actually want."
+      }
     }
   }
 }

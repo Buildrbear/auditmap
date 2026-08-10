@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-08-10",
+  "places": {
+    "launch-md-baltimore-cylburn-arboretum": {
+      "cylburn-mansion": {
+        "latitude": 39.3535065,
+        "longitude": -76.6526221,
+        "displayName": "Cylburn Mansion, 4955 Greenspring Avenue, Baltimore, Maryland",
+        "source": "OpenStreetMap named building reviewed against the official Cylburn visitor page"
+      }
+    },
+    "launch-md-baltimore-gwynns-falls-leakin-park": {
+      "carrie-murray-nature-center": {
+        "latitude": 39.307149,
+        "longitude": -76.6954484,
+        "displayName": "Carrie Murray Nature Center, 1901 Ridgetop Road, Baltimore, Maryland",
+        "source": "OpenStreetMap named facility reviewed against Baltimore City address"
+      },
+      "orianda-mansion": {
+        "latitude": 39.3051324,
+        "longitude": -76.6989409,
+        "displayName": "Orianda Mansion in the Crimea Estate area",
+        "source": "OpenStreetMap named building reviewed against the official Friends park map"
+      },
+      "gwynns-falls-trail": {
+        "latitude": 39.30538,
+        "longitude": -76.68706,
+        "displayName": "Photographed Gwynns Falls Trail segment within Leakin Park",
+        "source": "Wikimedia Commons photograph GPS reviewed against the official Friends trail map"
+      },
+      "magnolia-grove": {
+        "latitude": 39.306197,
+        "longitude": -76.698383,
+        "displayName": "Magnolia Grove near Orianda Mansion in the Crimea section",
+        "source": "Wikimedia Commons photograph GPS and destination description"
+      },
+      "i-70-park-and-ride-trailhead": {
+        "latitude": 39.3029,
+        "longitude": -76.70648,
+        "displayName": "I-70 Park and Ride, designated Trail Head 1",
+        "source": "Wikimedia Commons photograph GPS reviewed against the official Friends park map"
+      }
+    }
+  }
+}

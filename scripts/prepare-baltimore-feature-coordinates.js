@@ -4,6 +4,7 @@ const fs = require("node:fs"),
   root = path.resolve(__dirname, ".."),
   campaign = require("../data/baltimore-super-enrichment-campaign.json"),
   facts = require("../data/baltimore-visitor-facts.json").places,
+  overrides = require("../data/baltimore-feature-coordinate-overrides.json").places,
   existing = require("../data/generated/launch-map-places.json"),
   slug = (v) =>
     String(v)
@@ -56,14 +57,14 @@ async function locate(name, parent, place, base) {
             Number.isFinite(f.latitude) &&
             Number.isFinite(f.longitude),
         );
-      let hit = old
+      let hit = overrides[p.id]?.[key] || (old
         ? {
             latitude: old.latitude,
             longitude: old.longitude,
             displayName: `Preserved coordinate for ${name}`,
             source: old.details?.coordinateSource || "Existing AuditMap record",
           }
-        : null;
+        : null);
       if (!hit)
         try {
           hit = await locate(name, p.name, p, base);

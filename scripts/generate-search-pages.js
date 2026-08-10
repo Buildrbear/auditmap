@@ -2061,6 +2061,12 @@ function build() {
 
       for (const park of group.parks) {
         if (generationScope.scoped && !generationScope.parkIds.has(park.id)) continue;
+        if (generationScope.scoped) {
+          fs.rmSync(path.join(outputRoot, placePath(park).slice(1)), {
+            recursive: true,
+            force: true,
+          });
+        }
         const related = group.parks.filter((candidate) => candidate.id !== park.id).slice(0, 4);
         writeFile(`${placePath(park).slice(1)}/index.html`, renderParkPage(park, related));
         if ((park.features || []).length) {

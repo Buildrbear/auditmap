@@ -103,7 +103,7 @@ function answers(p) {
     [
       "weather",
       `What weather should I check before visiting ${p.name}?`,
-      `Check current Baltimore weather and operator alerts. Harbor wind, thunderstorms, flash flooding, stream and lake conditions, heat, snow and ice can close trails, water access or facilities independently.`,
+      p.weather || `Check current Baltimore weather and operator alerts. Harbor wind, thunderstorms, flash flooding, stream and lake conditions, heat, snow and ice can close trails, water access or facilities independently.`,
     ],
   ].map((v) => ans(p, ...v));
   const extra = (p.extraAnswers || []).map((entry) =>

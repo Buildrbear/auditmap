@@ -19,6 +19,13 @@ function run(args) {
 }
 
 try {
+  const staleSubsite = path.join(
+    outputRoot,
+    "us/md/baltimore/parks/druid-hill-park/obsolete-subsite/index.html",
+  );
+  fs.mkdirSync(path.dirname(staleSubsite), { recursive: true });
+  fs.writeFileSync(staleSubsite, "stale generated page");
+
   const result = run(["--parks", "launch-md-baltimore-druid-hill-park"]);
   assert.equal(result.status, 0, result.stderr || result.stdout);
   assert.match(result.stdout, /Scoped generation complete: 1 parent place/);
@@ -44,6 +51,7 @@ try {
   for (const relativePath of forbidden) {
     assert.equal(fs.existsSync(path.join(outputRoot, relativePath)), false, `${relativePath} should not be generated in scoped mode`);
   }
+  assert.equal(fs.existsSync(staleSubsite), false, "obsolete scoped subsite page was not removed");
 
   const invalid = run(["--parks", "not-a-real-auditmap-place"]);
   assert.notEqual(invalid.status, 0, "unknown IDs must fail closed");

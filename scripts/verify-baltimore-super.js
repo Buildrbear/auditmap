@@ -3,10 +3,12 @@ const fs = require("node:fs"),
   path = require("node:path"),
   root = path.resolve(__dirname, ".."),
   campaign = require("../data/baltimore-super-enrichment-campaign.json"),
-  places = require("../data/generated/launch-map-places.json"),
+  places = require("../data/generated/all-subsites-ready.json").parks,
   expectedFeatureCounts = {
     "launch-md-baltimore-druid-hill-park": 5,
     "launch-md-baltimore-patterson-park": 5,
+    "launch-md-baltimore-cylburn-arboretum": 1,
+    "launch-md-baltimore-gwynns-falls-leakin-park": 5,
   },
   fail = [],
   slug = (v) =>
@@ -114,6 +116,16 @@ const featureRequirements = {
     "War of 1812 Memorial Cannons": "War_of_1812_Memorial_Cannons",
     "Virginia S. Baker Recreation Center": "Virginia_S._Baker_Recreation_Center",
   },
+  "launch-md-baltimore-cylburn-arboretum": {
+    "Cylburn Mansion": "Clear_Skies_and_Mansion",
+  },
+  "launch-md-baltimore-gwynns-falls-leakin-park": {
+    "Carrie Murray Nature Center": "Carrie_Murray_Nature_Center",
+    "Orianda Mansion": "Orianda-Mansion",
+    "Gwynns Falls Trail": "People_walking_the_Gwynns_Falls_Trail",
+    "Magnolia Grove": "Magnolia_Grove",
+    "I-70 Park and Ride Trailhead": "I-70_Park_%26_Ride",
+  },
 };
 for (const [placeId, requirements] of Object.entries(featureRequirements)) {
   const place = places.find((candidate) => candidate.id === placeId);
@@ -140,6 +152,18 @@ for (const name of [
   "Patterson Park Pool",
   "Patterson Park Ice Rink",
   "Patterson Park Athletic Fields",
+  "Vollmer Center",
+  "Nature Education Center",
+  "Japanese Maple Collection",
+  "Dahlia Garden",
+  "Cylburn Woodland Trails",
+  "Cylburn Arboretum Greenhouses",
+  "Cylburn Children's Garden",
+  "Winans Meadow",
+  "Crimea Estate",
+  "Thomas Jefferson Grove of Trees",
+  "Dead Run Trailhead",
+  "Leakin Park Eagle Drive Entrance",
 ])
   need(
     !campaign.places
