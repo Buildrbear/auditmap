@@ -1837,11 +1837,21 @@ function build() {
     "data/parent-park-information-enrichment-campaign.json",
     { parks: {} },
   );
-  const parentInformationById = {
-    ...parentInformationDocument.parks,
-    ...nationalParentInformationDocument.parks,
-    ...campaignParentInformationDocument.parks,
-  };
+  const parentInformationIds = new Set([
+    ...Object.keys(parentInformationDocument.parks),
+    ...Object.keys(nationalParentInformationDocument.parks),
+    ...Object.keys(campaignParentInformationDocument.parks),
+  ]);
+  const parentInformationById = Object.fromEntries(
+    [...parentInformationIds].map((id) => [
+      id,
+      {
+        ...(parentInformationDocument.parks[id] || {}),
+        ...(nationalParentInformationDocument.parks[id] || {}),
+        ...(campaignParentInformationDocument.parks[id] || {}),
+      },
+    ]),
+  );
   const launchCandidateBase = launchCandidatePlaces(
     readCsv("data/nationwide-major-parks-launch.csv"),
     researchedPlaces,
@@ -1896,8 +1906,15 @@ function build() {
       ...(enrichedParent.images || []).map((image) => image.url),
       ...pilot.features.map((feature) => feature.details?.imageUrl),
     ].filter(Boolean)).size;
+    const richerSearchAnswers = [
+      enrichedParent.searchAnswers,
+      pilot.searchAnswers,
+    ]
+      .filter(Array.isArray)
+      .sort((left, right) => right.length - left.length)[0] || [];
     return {
       ...enrichedParent,
+      searchAnswers: richerSearchAnswers,
       features: pilot.features,
       researchQueue: [
         ...(enrichedParent.researchQueue || []),

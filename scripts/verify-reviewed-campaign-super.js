@@ -39,6 +39,7 @@ for (const scope of campaign.places) {
   const approved = selections.places[scope.id] || [];
   need((place.features || []).length === approved.length, `${scope.name}: publishable subsite count differs from reviewed selections`);
   need((sourcePlace.searchAnswers || []).length >= minAnswers, `${scope.name}: official parent answer set was lost`);
+  need((place.searchAnswers || []).length >= minAnswers, `${scope.name}: public parent answer set was lost during generation`);
   need(place.address?.includes(`, ${scope.state} `), `${scope.name}: full reviewed address missing`);
   need((place.researchQueue || []).includes(selections.researchQueue[scope.id]), `${scope.name}: unresolved research queue missing`);
   const parentFile = path.join(directory, "index.html");
