@@ -3730,7 +3730,66 @@
           "sourceType": "official",
           "checkedAt": "2026-07-31"
         }
-      ]
+      ],
+      "address": "8000 Great Park Boulevard, Irvine, CA 92618",
+      "image": {
+        "url": "/assets/parks/southern-california-metro-super/great-park/01-championship-soccer-stadium-nw-view-2024-08-03.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Championship_Soccer_Stadium_NW_View_2024-08-03.jpg",
+        "author": "Haruhi8",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "alt": "Championship Soccer Stadium during a match with the Great Park Balloon overhead",
+        "width": 1600,
+        "height": 1000
+      },
+      "additionalImages": [
+        {
+          "url": "/assets/parks/southern-california-metro-super/great-park/02-wild-rivers-orange-county-great-park-entrance.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Wild_Rivers_(Orange_County_Great_Park)_entrance.jpg",
+          "author": "Bluesnote",
+          "license": "BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "alt": "Entrance to Wild Rivers Waterpark at Great Park in Irvine",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/southern-california-metro-super/great-park/03-great-park-aerial-view.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Great_Park_Aerial_View.jpg",
+          "author": "CanO27sprite",
+          "license": "BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "alt": "Aerial view of Great Park sports fields, play areas, Carousel, paths, and parking",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/southern-california-metro-super/great-park/04-orange-balloon-at-orange-county-great-park.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Orange_Balloon_at_Orange_County_Great_Park.jpg",
+          "author": "Azusa Tarn",
+          "license": "BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "alt": "The illuminated Great Park Balloon at night",
+          "width": 1600,
+          "height": 1000
+        }
+      ],
+      "replaceImages": true,
+      "sources": [
+        {
+          "label": "City of Irvine",
+          "url": "https://www.cityofirvine.gov/great-park/great-park-balloon-carousel"
+        },
+        {
+          "label": "Orange County SC",
+          "url": "https://www.orangecountysoccer.com/a-z/"
+        },
+        {
+          "label": "Wild Rivers Waterpark",
+          "url": "https://wildrivers.com/plan/faq/"
+        }
+      ],
+      "verifiedAt": "2026-08-08"
     },
     "launch-ca-irvine-william-r-mason-regional-park": {
       "operator": "OC Parks",

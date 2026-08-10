@@ -61,12 +61,11 @@
       "state": "CA",
       "citySlug": "irvine-ca",
       "operator": "City of Irvine",
-      "source": "https://www.cityofirvine.org/great-park/current-great-park-features",
-      "deferRelease": true,
-      "deferReason": "The reusable image pool is dominated by 2009-2013 balloon and hangar views that predate much of the current sports, play, arts, and visitor infrastructure. Current licensed photography is required before release.",
+      "source": "https://www.cityofirvine.gov/great-park/current-great-park-features",
+      "minimumImages": 4,
       "featureResearchRadiusMeters": 4200,
       "imageQueries": ["Great Park Irvine", "Great Park Balloon Irvine", "Kids Rock Playground Irvine", "Great Park Sports Complex Irvine"],
-      "subsites": ["Great Park Balloon", "Great Park Carousel", "Kids Rock Playground", "Great Park Sports Complex", "Great Park Sports Complex Playground", "Palm Court Arts Complex", "Farm + Food Lab", "Great Park Hangar 244"]
+      "subsites": ["Great Park Balloon", "Championship Soccer Stadium", "Wild Rivers", "Great Park Carousel", "Kids Rock Playground", "Great Park Sports Complex", "Great Park Sports Complex Playground", "Palm Court Arts Complex", "Farm + Food Lab", "Great Park Hangar 244"]
     },
     {
       "id": "launch-ca-irvine-william-r-mason-regional-park",

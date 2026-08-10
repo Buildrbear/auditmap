@@ -1,7 +1,7 @@
 {
   "campaign": "Southern California metro connector",
-  "reviewedAt": "2026-08-08",
-  "reviewMethod": "Exact title/source match, reusable-rights check, freshness review, and visual-purpose review; unrelated Bahamas beach results and outdated Great Park development views were excluded.",
+  "reviewedAt": "2026-08-10",
+  "reviewMethod": "Exact title/source match, reusable-rights check, freshness review, and visual-purpose review; unrelated results and unlicensed official-site media were excluded, while older Great Park images were retained only when they clearly depict stable signature features.",
   "places": {
     "launch-ca-long-beach-el-dorado-east-regional-park": {
       "name": "El Dorado East Regional Park",
@@ -316,6 +316,87 @@
           "query": "Pearson Park Anaheim",
           "alt": "Pearson Park's historic Anaheim setting",
           "reviewedAt": "2026-08-08"
+        }
+      ]
+    },
+    "launch-ca-irvine-great-park": {
+      "name": "Great Park",
+      "candidates": [
+        {
+          "title": "Championship Soccer Stadium NW View 2024-08-03",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Championship_Soccer_Stadium_NW_View_2024-08-03.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Championship_Soccer_Stadium_NW_View_2024-08-03.jpg",
+          "creator": "Haruhi8",
+          "creatorUrl": "https://commons.wikimedia.org/wiki/User:Haruhi8",
+          "license": "CC0",
+          "licenseVersion": "1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "width": 4272,
+          "height": 2848,
+          "provider": "wikimedia",
+          "matchedTerms": ["great", "park", "championship", "soccer", "stadium"],
+          "reviewStatus": "approved-destination-match",
+          "reviewNote": "Destination-geotagged August 2024 view of Championship Soccer Stadium at Great Park, with the Balloon visible above the active sports campus; CC0 reuse verified on the Commons file page.",
+          "query": "Championship Soccer Stadium Great Park Irvine",
+          "alt": "Championship Soccer Stadium during a match with the Great Park Balloon overhead",
+          "reviewedAt": "2026-08-10"
+        },
+        {
+          "title": "Wild Rivers Orange County Great Park entrance",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Wild_Rivers_%28Orange_County_Great_Park%29_entrance.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Wild_Rivers_(Orange_County_Great_Park)_entrance.jpg",
+          "creator": "Bluesnote",
+          "creatorUrl": "https://commons.wikimedia.org/wiki/User:Bluesnote",
+          "license": "BY-SA",
+          "licenseVersion": "4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "width": 4032,
+          "height": 3024,
+          "provider": "wikimedia",
+          "matchedTerms": ["wild", "rivers", "great", "park", "irvine"],
+          "reviewStatus": "approved-destination-match",
+          "reviewNote": "Destination-geotagged March 2023 photograph of the current Wild Rivers entrance at Great Park; CC BY-SA 4.0 reuse verified on the Commons file page.",
+          "query": "Wild Rivers Great Park Irvine entrance",
+          "alt": "Entrance to Wild Rivers Waterpark at Great Park in Irvine",
+          "reviewedAt": "2026-08-10"
+        },
+        {
+          "title": "Great Park Aerial View",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Great_Park_Aerial_View.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Great_Park_Aerial_View.jpg",
+          "creator": "CanO27sprite",
+          "creatorUrl": "https://commons.wikimedia.org/wiki/User:CanO27sprite",
+          "license": "BY-SA",
+          "licenseVersion": "4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "width": 1886,
+          "height": 1414,
+          "provider": "wikimedia",
+          "matchedTerms": ["great", "park", "aerial", "sports", "play"],
+          "reviewStatus": "approved-destination-context",
+          "reviewNote": "January 2018 Balloon view documents the developed sports fields, play area, Carousel, paths, parking, and visitor circulation; retained as dated broad context rather than a current construction record. CC BY-SA 4.0 verified.",
+          "query": "Great Park Irvine aerial sports playground",
+          "alt": "Aerial view of Great Park sports fields, play areas, Carousel, paths, and parking",
+          "reviewedAt": "2026-08-10"
+        },
+        {
+          "title": "Orange Balloon at Orange County Great Park",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Orange_Balloon_at_Orange_County_Great_Park.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Orange_Balloon_at_Orange_County_Great_Park.jpg",
+          "creator": "Azusa Tarn",
+          "creatorUrl": "https://commons.wikimedia.org/wiki/User:Azusa_Tarn",
+          "license": "BY-SA",
+          "licenseVersion": "4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "width": 1987,
+          "height": 1987,
+          "provider": "wikimedia",
+          "matchedTerms": ["great", "park", "balloon", "irvine"],
+          "reviewStatus": "approved-destination-match",
+          "reviewNote": "Destination-geotagged night photograph of the still-operating signature Great Park Balloon; CC BY-SA 4.0 reuse verified on the Commons file page.",
+          "query": "Great Park Balloon Irvine",
+          "alt": "The illuminated Great Park Balloon at night",
+          "reviewedAt": "2026-08-10"
         }
       ]
     },

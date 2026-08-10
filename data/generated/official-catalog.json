@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T04:13:34.550Z",
+  "generatedAt": "2026-08-10T06:27:28.516Z",
   "places": [
     {
       "id": "basic-osm-way-33060929",
@@ -101267,12 +101267,12 @@
       "type": "Park",
       "city": "West Palm Beach",
       "state": "FL",
-      "address": "7715",
+      "address": "7715 Forest Hill Blvd, West Palm Beach, FL 33413",
       "officialSource": {
         "label": "Palm Beach County",
         "url": "https://discover.pbcgov.org/parks/Locations/Okeeheelee.aspx"
       },
-      "verifiedAt": "2026-07-30",
+      "verifiedAt": "2026-08-09",
       "facts": [
         {
           "key": "hours",
@@ -101281,7 +101281,7 @@
           "scope": "place",
           "sourceLabel": "Palm Beach County",
           "sourceUrl": "https://discover.pbcgov.org/parks/Locations/Okeeheelee.aspx",
-          "checkedAt": "2026-07-30",
+          "checkedAt": "2026-08-09",
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
@@ -101293,7 +101293,7 @@
           "scope": "place",
           "sourceLabel": "Palm Beach County",
           "sourceUrl": "https://discover.pbcgov.org/parks/Locations/Okeeheelee.aspx",
-          "checkedAt": "2026-07-30",
+          "checkedAt": "2026-08-09",
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
@@ -101305,7 +101305,7 @@
           "scope": "place",
           "sourceLabel": "Palm Beach County",
           "sourceUrl": "https://discover.pbcgov.org/parks/Locations/Okeeheelee.aspx",
-          "checkedAt": "2026-07-30",
+          "checkedAt": "2026-08-09",
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
@@ -101313,11 +101313,11 @@
         {
           "key": "address",
           "label": "Address",
-          "value": "7715, West Palm Beach, FL",
+          "value": "7715 Forest Hill Blvd, West Palm Beach, FL 33413",
           "scope": "place",
           "sourceLabel": "Palm Beach County",
           "sourceUrl": "https://discover.pbcgov.org/parks/Locations/Okeeheelee.aspx",
-          "checkedAt": "2026-07-30",
+          "checkedAt": "2026-08-09",
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
@@ -101501,13 +101501,38 @@
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
+        },
+        {
+          "key": "okeeheelee-disc-golf-course",
+          "label": "Okeeheelee Disc Golf Course",
+          "value": "Okeeheelee Disc Golf Course is the park's 18-hole public course, laid out around the Pooch Pines activity area with open fairways, mature trees, paved park paths, lakes, and water-edge holes.",
+          "scope": "feature",
+          "featureId": "074a04c5-88f3-461b-bfe5-995ea23845c5",
+          "featureType": "destination",
+          "positionQuality": "reviewed-named-public-map-destination-point",
+          "sourceLabel": "Palm Beach County Parks and Recreation",
+          "sourceUrl": "https://discover.pbc.gov/parks/Amenities/Disc-Golf.aspx",
+          "checkedAt": "2026-08-10",
+          "expiresAt": null,
+          "sourceType": "official"
+        },
+        {
+          "key": "okeeheelee-golf-course",
+          "label": "Okeeheelee Golf Course",
+          "value": "Okeeheelee Golf Course is Palm Beach County's 27-hole public golf facility, arranged as three nine-hole courses with a driving range, practice areas, Golf Shop, and Okee Grill on a lake-and-palm landscape inside Okeeheelee Park.",
+          "scope": "feature",
+          "featureId": "ec654f07-a20a-4a0d-803e-48a682022885",
+          "featureType": "destination",
+          "positionQuality": "reviewed-named-public-map-destination-centroid",
+          "sourceLabel": "Okeeheelee Golf Course",
+          "sourceUrl": "https://pbcokeeheeleegolf.com/rates-and-hours/",
+          "checkedAt": "2026-08-10",
+          "expiresAt": null,
+          "sourceType": "official"
         }
       ],
       "unresolved": [
-        {
-          "intentKey": "photos",
-          "question": "Add 2 more real, reusable park photographs with credits."
-        }
+        "Published Okeeheelee Disc Golf Course and Okeeheelee Golf Course from exact OpenStreetMap records, current official guidance, the county's April 2026 ADA map, and destination-specific reusable photographs. Secure exact photo-and-pin pairs before adding the Nature Center, Pooch Pines Dog Park, BMX track, wake park, mountain-bike trailhead, equestrian center, fishing areas, playground, pavilions, or separate entrances."
       ]
     },
     {
@@ -101516,12 +101541,12 @@
       "type": "Park",
       "city": "West Palm Beach",
       "state": "FL",
-      "address": "West Palm Beach",
+      "address": "5701 Dreher Trail S, West Palm Beach, FL 33405",
       "officialSource": {
         "label": "City of West Palm Beach",
         "url": "https://www.wpb.org/Parks"
       },
-      "verifiedAt": "2026-07-30",
+      "verifiedAt": "2026-08-09",
       "facts": [
         {
           "key": "hours",
@@ -101530,7 +101555,7 @@
           "scope": "place",
           "sourceLabel": "City of West Palm Beach",
           "sourceUrl": "https://www.wpb.org/Parks",
-          "checkedAt": "2026-07-30",
+          "checkedAt": "2026-08-09",
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
@@ -101542,7 +101567,7 @@
           "scope": "place",
           "sourceLabel": "City of West Palm Beach",
           "sourceUrl": "https://www.wpb.org/Parks",
-          "checkedAt": "2026-07-30",
+          "checkedAt": "2026-08-09",
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
@@ -101554,7 +101579,7 @@
           "scope": "place",
           "sourceLabel": "City of West Palm Beach",
           "sourceUrl": "https://www.wpb.org/Parks",
-          "checkedAt": "2026-07-30",
+          "checkedAt": "2026-08-09",
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
@@ -101562,11 +101587,11 @@
         {
           "key": "address",
           "label": "Address",
-          "value": "West Palm Beach, FL",
+          "value": "5701 Dreher Trail S, West Palm Beach, FL 33405",
           "scope": "place",
           "sourceLabel": "City of West Palm Beach",
           "sourceUrl": "https://www.wpb.org/Parks",
-          "checkedAt": "2026-07-30",
+          "checkedAt": "2026-08-09",
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
@@ -101738,13 +101763,38 @@
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
+        },
+        {
+          "key": "palm-beach-zoo-and-conservation-society",
+          "label": "Palm Beach Zoo and Conservation Society",
+          "value": "Palm Beach Zoo and Conservation Society is Dreher Park's 23-acre ticketed zoo, with shaded tropical paths, hundreds of animals, family amenities, dining, and separately reserved animal experiences.",
+          "scope": "feature",
+          "featureId": "4a39cc7b-7cd4-4767-9659-c4bb76cfce98",
+          "featureType": "destination",
+          "positionQuality": "reviewed-named-public-map-destination-centroid",
+          "sourceLabel": "Palm Beach Zoo and Conservation Society",
+          "sourceUrl": "https://www.palmbeachzoo.org/plan-your-visit",
+          "checkedAt": "2026-08-10",
+          "expiresAt": null,
+          "sourceType": "official"
+        },
+        {
+          "key": "cox-science-center-and-aquarium",
+          "label": "Cox Science Center and Aquarium",
+          "value": "Cox Science Center and Aquarium is Dreher Park's ticketed science museum and aquarium, with hands-on exhibits, aquarium programs, planetarium and observatory experiences, outdoor science areas, and sensory-access resources.",
+          "scope": "feature",
+          "featureId": "68f45ee6-98d5-4383-8bb3-ff46899bfc48",
+          "featureType": "destination",
+          "positionQuality": "reviewed-named-public-map-destination-centroid",
+          "sourceLabel": "Cox Science Center and Aquarium",
+          "sourceUrl": "https://www.coxsciencecenter.org/plan-your-visit",
+          "checkedAt": "2026-08-10",
+          "expiresAt": null,
+          "sourceType": "official"
         }
       ],
       "unresolved": [
-        {
-          "intentKey": "photos",
-          "question": "Add 2 more real, reusable park photographs with credits."
-        }
+        "Published Palm Beach Zoo and Conservation Society plus Cox Science Center and Aquarium from exact named public-map records, current operator guidance, and destination-specific reusable photographs. Secure exact photo-and-pin pairs before adding the dog park, playgrounds, disc-golf course, fishing dock, public art, pavilions, or separate park entrances."
       ]
     },
     {
@@ -115514,10 +115564,38 @@
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
+        },
+        {
+          "key": "forest-park-miniature-railroad-trinity-park-depot",
+          "label": "Forest Park Miniature Railroad Trinity Park Depot",
+          "value": "The Trinity Park Depot is the north boarding platform for the Forest Park Miniature Railroad, a weather-dependent five-mile family train ride that crosses the Trinity River, follows the park corridor, and includes a midway snack stop.",
+          "scope": "feature",
+          "featureId": "d3a57627-f194-4349-8bef-1a4cb182211a",
+          "featureType": "destination",
+          "positionQuality": "reviewed-named-public-map-depot-centroid",
+          "sourceLabel": "Forest Park Miniature Railroad",
+          "sourceUrl": "https://forestparktrains.com/hours-admission",
+          "checkedAt": "2026-08-10",
+          "expiresAt": null,
+          "sourceType": "official"
+        },
+        {
+          "key": "trinity-park-duck-pond",
+          "label": "Trinity Park Duck Pond",
+          "value": "Trinity Park Duck Pond is the park's named two-acre pond and wildlife-viewing stop, bordered by a walking path, mature trees, nearby parking, and the miniature railroad route.",
+          "scope": "feature",
+          "featureId": "de5b340b-794d-4b2c-a6c2-e7a377e490d3",
+          "featureType": "destination",
+          "positionQuality": "reviewed-public-map-placement",
+          "sourceLabel": "Fort Worth Park and Recreation Department",
+          "sourceUrl": "https://www.fortworthtexas.gov/departments/parks/parks-and-trails/trinity-park",
+          "checkedAt": "2026-08-10",
+          "expiresAt": null,
+          "sourceType": "official"
         }
       ],
       "unresolved": [
-        "Secure exact destination-specific reusable photographs and reviewed pins before publishing Dream Park, Forest Park Miniature Railroad, Trinity Trails access points, Duck Pond, playground, shelters, restrooms, or parking areas as separate pages."
+        "Published Forest Park Miniature Railroad Trinity Park Depot and Trinity Park Duck Pond from exact named map records, current operator or City guidance, and destination-matched geotagged licensed photographs. Secure an exact reusable Dream Park photograph before publishing the inclusive playground, and exact photo-and-pin pairs before adding Trinity Trails access points, the north playground, shelters, restrooms, or parking areas as separate pages."
       ]
     },
     {
@@ -116025,10 +116103,24 @@
           "checkedAt": "2026-08-08",
           "expiresAt": null,
           "sourceType": "official"
+        },
+        {
+          "key": "aerated-pool",
+          "label": "Aerated Pool",
+          "value": "The Aerated Pool is the Water Gardens' misting fountain basin, where forty nozzles send spray upward from ground level near the park's north side.",
+          "scope": "feature",
+          "featureId": "5be13610-9856-4056-8f18-c07ca6c23b0b",
+          "featureType": "destination",
+          "positionQuality": "reviewed-geotagged-destination-photo",
+          "sourceLabel": "Fort Worth Park and Recreation Department",
+          "sourceUrl": "https://www.fortworthtexas.gov/departments/parks/parks-and-trails/water-gardens",
+          "checkedAt": "2026-08-10",
+          "expiresAt": null,
+          "sourceType": "official"
         }
       ],
       "unresolved": [
-        "Secure an exact reviewed map feature before publishing the Aerating Pool, Mountain, Central Square, Stage and Lawn, Wet Wall, entrances, or accessible viewing routes as separate pages."
+        "Published the Aerated Pool, Active Pool, and Quiet Pool from exact mapped or geotagged locations, current City guidance, and destination-specific licensed photographs. Secure exact reusable photo-and-pin pairs before publishing the Mountain, Central Square, Stage and Lawn, Wet Wall, entrances, or accessible viewing routes as separate pages."
       ]
     },
     {
@@ -153140,10 +153232,24 @@
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
+        },
+        {
+          "key": "north-launch-field",
+          "label": "North Launch Field",
+          "value": "The North Launch Field is Balloon Fiesta Park's immense grass event field, divided into lettered and numbered panels and used for ballooning, field sports, remote-control flying, races, festivals, and reserved events.",
+          "scope": "feature",
+          "featureId": "c548fe83-b28b-42a5-a7c6-bca81dc63b6b",
+          "featureType": "destination",
+          "positionQuality": "reviewed-official-map-and-osm-field-centroid",
+          "sourceLabel": "City of Albuquerque Parks and Recreation",
+          "sourceUrl": "https://www.cabq.gov/parksandrecreation/parks/balloon-fiesta-park/accessing-balloon-fiesta-park",
+          "checkedAt": "2026-08-10",
+          "expiresAt": null,
+          "sourceType": "official"
         }
       ],
       "unresolved": [
-        "Secure exact off-event photographs and reviewed pins before publishing Launch Field, North Diversion Channel Trail, Balloon Museum, Sid Cutter Pilots Pavilion, Golf Training Center, parking areas, gates, or restrooms as separate pages."
+        "Published North Launch Field from the official field map, current City access rules, and a destination-specific licensed field photograph. Secure exact off-event photo-and-pin pairs before publishing the North Diversion Channel Trail, Balloon Museum, Sid Cutter Pilots Pavilion, Golf Training Center, parking areas, gates, or restrooms as separate pages."
       ]
     },
     {
@@ -153386,10 +153492,24 @@
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
+        },
+        {
+          "key": "kiwanis-reservation-area",
+          "label": "Kiwanis Reservation Area",
+          "value": "Kiwanis Reservation Area is Elena Gallegos' large sheltered group-picnic destination, with room for up to 250 people, three coal grills, a volleyball net, horseshoes, running water, electricity, restrooms, and direct trail access.",
+          "scope": "feature",
+          "featureId": "4def100a-1486-4761-ba2b-55537a538890",
+          "featureType": "destination",
+          "positionQuality": "reviewed-geotagged-destination-photo",
+          "sourceLabel": "City of Albuquerque Open Space Division",
+          "sourceUrl": "https://www.cabq.gov/parksandrecreation/open-space/lands/go-beyond-about-open-space-lands/reservation-areas",
+          "checkedAt": "2026-08-10",
+          "expiresAt": null,
+          "sourceType": "official"
         }
       ],
       "unresolved": [
-        "Secure exact reusable photographs and reviewed pins before publishing Pino Trailhead, Cottonwood Springs Trail, Kiwanis Picnic Area, reservation areas, restrooms, or overlooks as separate pages."
+        "Published Kiwanis Reservation Area from the official reservation map and rules plus an exactly geotagged licensed shelter photograph. Secure exact reusable photo-and-pin pairs before publishing Pino Trailhead, Cottonwood Springs Trail, the general picnic area, Double Shelter, restrooms, or overlooks as separate pages."
       ]
     },
     {
@@ -153632,10 +153752,24 @@
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
+        },
+        {
+          "key": "central-pond",
+          "label": "Central Pond",
+          "value": "Central Pond is Tingley Beach's largest fishing pond, open to anglers of all ages and bordered by walking paths, a fitness course, a grassy picnic peninsula, and a wheelchair-accessible fishing ramp in front of Tingley Station.",
+          "scope": "feature",
+          "featureId": "603db490-faed-4bba-b342-1e134bbf93bd",
+          "featureType": "destination",
+          "positionQuality": "reviewed-public-map-placement",
+          "sourceLabel": "ABQ BioPark",
+          "sourceUrl": "https://www.cabq.gov/artsculture/biopark/tingley/fishing/central-pond",
+          "checkedAt": "2026-08-10",
+          "expiresAt": null,
+          "sourceType": "official"
         }
       ],
       "unresolved": [
-        "Secure exact reusable photographs and reviewed pins before publishing Central Pond, Children's Pond, Model Boat Pond, Bosque Trail, Tingley Beach Station, parking lots, or restrooms as separate pages."
+        "Published Central Pond from the exact mapped pond, current ABQ BioPark fishing guidance, and a licensed visitor photograph of the large pond. Secure exact reusable photo-and-pin pairs before publishing Children's Pond, Model Boat Pond, Bosque Trail, Tingley Beach Station, parking lots, or restrooms as separate pages."
       ]
     },
     {
@@ -176765,12 +176899,12 @@
       "type": "Park",
       "city": "Irvine",
       "state": "CA",
-      "address": "Great Park",
+      "address": "8000 Great Park Boulevard, Irvine, CA 92618",
       "officialSource": {
         "label": "City of Irvine",
         "url": "https://www.cityofirvine.gov/great-park/current-great-park-features"
       },
-      "verifiedAt": "2026-07-30",
+      "verifiedAt": "2026-08-08",
       "facts": [
         {
           "key": "hours",
@@ -176779,7 +176913,7 @@
           "scope": "place",
           "sourceLabel": "City of Irvine",
           "sourceUrl": "https://www.cityofirvine.gov/great-park/current-great-park-features",
-          "checkedAt": "2026-07-30",
+          "checkedAt": "2026-08-08",
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
@@ -176791,7 +176925,7 @@
           "scope": "place",
           "sourceLabel": "City of Irvine",
           "sourceUrl": "https://www.cityofirvine.gov/great-park/current-great-park-features",
-          "checkedAt": "2026-07-30",
+          "checkedAt": "2026-08-08",
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
@@ -176803,7 +176937,7 @@
           "scope": "place",
           "sourceLabel": "City of Irvine",
           "sourceUrl": "https://www.cityofirvine.gov/great-park/current-great-park-features",
-          "checkedAt": "2026-07-30",
+          "checkedAt": "2026-08-08",
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
@@ -176811,11 +176945,11 @@
         {
           "key": "address",
           "label": "Address",
-          "value": "Great Park, Irvine, CA",
+          "value": "8000 Great Park Boulevard, Irvine, CA 92618",
           "scope": "place",
           "sourceLabel": "City of Irvine",
           "sourceUrl": "https://www.cityofirvine.gov/great-park/current-great-park-features",
-          "checkedAt": "2026-07-30",
+          "checkedAt": "2026-08-08",
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
@@ -176999,9 +177133,53 @@
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
+        },
+        {
+          "key": "great-park-balloon",
+          "label": "Great Park Balloon",
+          "value": "The Great Park Balloon is Irvine's tethered helium observation balloon, rising as high as 400 feet above the park for a weather-dependent panoramic ride near the Visitors Center and Carousel.",
+          "scope": "feature",
+          "featureId": "f19d82a5-c488-4af5-8146-3de949932f94",
+          "featureType": "destination",
+          "positionQuality": "reviewed-official-campus-placement",
+          "sourceLabel": "City of Irvine",
+          "sourceUrl": "https://www.cityofirvine.gov/great-park/great-park-balloon-carousel",
+          "checkedAt": "2026-08-10",
+          "expiresAt": null,
+          "sourceType": "official"
+        },
+        {
+          "key": "championship-soccer-stadium",
+          "label": "Championship Soccer Stadium",
+          "value": "Championship Soccer Stadium is the ticketed match venue inside Great Park used by Orange County SC, with a west-side main entrance, concourse concessions and restrooms, family facilities, accessible seating, and a matchday Fan Zone.",
+          "scope": "feature",
+          "featureId": "8c3b2c0a-fcdc-4023-b829-90110a5c416c",
+          "featureType": "destination",
+          "positionQuality": "reviewed-official-campus-placement",
+          "sourceLabel": "Orange County SC",
+          "sourceUrl": "https://www.orangecountysoccer.com/a-z/",
+          "checkedAt": "2026-08-10",
+          "expiresAt": null,
+          "sourceType": "official"
+        },
+        {
+          "key": "wild-rivers",
+          "label": "Wild Rivers",
+          "value": "Wild Rivers is a separately operated, seasonal, ticketed waterpark on Great Park land, with more than 20 slides and attractions, a lazy river, wave pool, children's play structures, food service, cabanas, and its own entrance and parking operation.",
+          "scope": "feature",
+          "featureId": "cfb99765-23f4-4067-878c-20feeb6a9216",
+          "featureType": "destination",
+          "positionQuality": "reviewed-official-campus-placement",
+          "sourceLabel": "Wild Rivers Waterpark",
+          "sourceUrl": "https://wildrivers.com/plan/faq/",
+          "checkedAt": "2026-08-10",
+          "expiresAt": null,
+          "sourceType": "official"
         }
       ],
-      "unresolved": []
+      "unresolved": [
+        "The parent and three exact destinations now have reviewed licensed photography. Secure destination-specific reusable photographs before publishing the Carousel, Kids Rock, Sports Complex play area, Palm Court Arts Complex, Farm + Food Lab, Hangar 244, trails, gardens, ice facility, Great Park Live, individual fields, lots, or restrooms as separate pages."
+      ]
     },
     {
       "id": "launch-ca-irvine-william-r-mason-regional-park",

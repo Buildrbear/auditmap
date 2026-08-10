@@ -118,7 +118,7 @@ function makeFeature(parent, selected, point, images) {
     details: {
       category: "destination",
       includeInParentGallery: true,
-      address: parent.address,
+      address: selected.address || parent.address,
       hours: selected.hours,
       cost: selected.cost,
       accessibility: selected.answers?.accessibility || parent.accessibility,

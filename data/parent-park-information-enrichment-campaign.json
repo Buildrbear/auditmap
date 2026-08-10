@@ -73331,6 +73331,149 @@
       "verifiedAt": "2026-08-08"
     },
     "launch-ca-long-beach-el-dorado-east-regional-park": {
+      "operator": "City of Long Beach Parks, Recreation and Marine",
+      "sourceLabel": "City of Long Beach",
+      "source": "https://source.www.longbeach.gov/park/park-and-facilities/directory/el-dorado-east-regional-park/",
+      "hours": "El Dorado East Regional Park is open 7:00 a.m.-8:00 p.m. March 1 through October 31 and 7:00 a.m.-5:00 p.m. November 1 through February 29. Last vehicle entry is 30 minutes before closing.",
+      "cost": "Pedestrians and bicyclists enter without a vehicle fee. Vehicle entry is $6 weekdays, $7 Fridays, $8 weekends, and $9 on listed holidays; trailers, RVs, and buses cost more.",
+      "summary": "El Dorado East Regional Park is a 388-acre Long Beach destination with lakes, trails, playgrounds, picnic and group areas, sports and open turf, bicycle access, and the adjacent 105-acre El Dorado Nature Center with two miles of dirt trails and a quarter-mile paved loop.",
+      "searchAnswers": [
+        {
+          "intentKey": "entrance",
+          "question": "What address should I use for El Dorado East Regional Park?",
+          "answer": "Use 7550 East Spring Street, Long Beach, CA 90815. Select the exact park section, picnic area, playground, lake, or Nature Center before arrival because the regional park is large.",
+          "sourceLabel": "City of Long Beach",
+          "source": "https://source.www.longbeach.gov/park/park-and-facilities/directory/el-dorado-east-regional-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "hours",
+          "question": "What hours is El Dorado East Regional Park open?",
+          "answer": "The park is open 7 a.m.-8 p.m. March 1-October 31 and 7 a.m.-5 p.m. November 1-February 29. The last vehicle may enter 30 minutes before closing.",
+          "sourceLabel": "City of Long Beach",
+          "source": "https://source.www.longbeach.gov/park/park-and-facilities/directory/el-dorado-east-regional-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "parking",
+          "question": "How much is vehicle entry at El Dorado East Regional Park?",
+          "answer": "Entry is $6 Monday-Thursday, $7 Friday, $8 Saturday-Sunday, and $9 on listed holidays. Payment is cashless by credit, debit, or smart pay; pedestrians and bicyclists do not pay a vehicle fee.",
+          "sourceLabel": "City of Long Beach",
+          "source": "https://source.www.longbeach.gov/park/park-and-facilities/directory/el-dorado-east-regional-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "trail-surface",
+          "question": "What trails are at El Dorado Nature Center?",
+          "answer": "The Nature Center preserves 105 acres with two miles of dirt trails and a quarter-mile paved trail around lakes, stream, and woodland. Trails are open Tuesday-Sunday 8 a.m.-5 p.m., with no entry after 4:30 p.m.; the center is closed Mondays and specified holidays.",
+          "sourceLabel": "City of Long Beach",
+          "source": "https://longbeach.gov/Park/Park-and-Facilities/Parks-Centers-Pier/El-Dorado-Nature-Center/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "playground",
+          "question": "Are there playgrounds at El Dorado East Regional Park?",
+          "answer": "Yes. Developed family and group-picnic zones include playgrounds, including the improved Sycamore Grove area. Use the official park map to choose the closest entrance and parking section.",
+          "sourceLabel": "City of Long Beach",
+          "source": "https://source.www.longbeach.gov/park/park-and-facilities/directory/el-dorado-east-regional-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "picnic",
+          "question": "Can I reserve a picnic area at El Dorado East Regional Park?",
+          "answer": "Yes. Group picnic and facility reservations are available through Long Beach Parks, Recreation and Marine. Moon bounces, vendors, and organized uses must follow the city's permit and approved-provider rules.",
+          "sourceLabel": "City of Long Beach",
+          "source": "https://source.www.longbeach.gov/park/park-and-facilities/directory/el-dorado-east-regional-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "fees",
+          "question": "Can I enter El Dorado East Regional Park for free?",
+          "answer": "Yes, if you walk or bicycle in. The published charge is a vehicle entrance fee rather than a per-person admission. Activities, reservations, rentals, and special programs may charge separately.",
+          "sourceLabel": "City of Long Beach",
+          "source": "https://source.www.longbeach.gov/park/park-and-facilities/directory/el-dorado-east-regional-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "closures",
+          "question": "Does the El Dorado Nature Center follow the regional park hours?",
+          "answer": "No. Nature Center trails are normally open Tuesday-Sunday 8 a.m.-5 p.m., with last entry at 4:30 p.m., and are closed Mondays and specified holidays. The visitor center normally closes earlier than the trails.",
+          "sourceLabel": "City of Long Beach",
+          "source": "https://longbeach.gov/Park/Park-and-Facilities/Parks-Centers-Pier/El-Dorado-Nature-Center/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "dog-area",
+          "question": "Is there an off-leash dog park at El Dorado East?",
+          "answer": "Yes. The 1.5-acre dog park is in Area II near the southeast corner and is reached through the Spring Street entrance. It has separate large- and small-dog areas, double gates, benches, a drinking fountain, waste bags, and accessible features. It closes Tuesdays from 7:00-11:00 a.m. for maintenance.",
+          "sourceLabel": "City of Long Beach",
+          "source": "https://longbeach.gov/park/park-and-facilities/directory/el-dorado-park-dog-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Are there accessible restrooms at El Dorado East Regional Park?",
+          "answer": "Yes. The City renovated gender-neutral, individually accessible restroom stalls and upgraded accessible parking, paths, and walkways. Restrooms are distributed by activity area, so use the park map and choose the closest facility before settling at a lake, field, playground, or picnic grove.",
+          "sourceLabel": "City of Long Beach",
+          "source": "https://www.longbeach.gov/press-releases/city-of-long-beach-to-celebrate-improvements-at-el-dorado-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "accessibility",
+          "question": "What accessibility improvements are at El Dorado East?",
+          "answer": "Recent work added or upgraded accessible parking stalls, repaved paths of travel, improved walkways, renovated accessible restroom stalls, restriped lots, clearer directional signs, and replacement hydration stations. Conditions still vary among nature trails, lawns, lakeshores, and older recreation areas.",
+          "sourceLabel": "City of Long Beach",
+          "source": "https://www.longbeach.gov/press-releases/city-of-long-beach-to-celebrate-improvements-at-el-dorado-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "shade",
+          "question": "Where can I find shade or covered picnic space at El Dorado East?",
+          "answer": "The current park map identifies Shelters A and B, and mature trees shade parts of Arbor Day, Sycamore, Lakeview, and other picnic groves. Lakeshores, playgrounds, archery and model-aircraft areas, parking, and open lawns can still be exposed. The Nature Center and park office follow separate hours and should not be treated as always-open refuge. Picnic shelters and trees are unsafe in lightning or severe wind; use an open substantial building or enclosed vehicle.",
+          "sourceLabel": "City of Long Beach",
+          "source": "https://www.longbeach.gov/globalassets/park/media-library/documents/parks---centers---pier/el-dorado-nature-center/general-information/el-do-east-brochure-both-sided-25-updated",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "transit",
+          "question": "Can I take a bus to El Dorado East Regional Park?",
+          "answer": "Yes. Long Beach Transit Route 104 stops on Spring Street at El Dorado Park, near the park's north edge. The regional park is 388 acres, so the bus stop may still leave a substantial walk to a particular lake, picnic grove, playground, dog park, or Nature Center; verify the destination and return schedule in the live LBT planner before traveling.",
+          "sourceLabel": "Long Beach Transit",
+          "source": "https://ridelbt.com/wp-content/uploads/routes/html/104.html",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "splash-pad",
+          "question": "Can children swim or use a splash pad at El Dorado East Regional Park?",
+          "answer": "No. El Dorado East has playgrounds and stocked fishing lakes but no listed splash pad or public swimming pool. Long Beach explicitly prohibits swimming in the park's lakes and streams, as well as personal boats and flotation devices. Treat every lake as a fishing, wildlife, or model-boating feature rather than water play. Use a separately operated Long Beach pool or beach for swimming and check its schedule and conditions.",
+          "sourceLabel": "City of Long Beach",
+          "source": "https://www.longbeach.gov/globalassets/park/media-library/documents/park-and-facilities/parks-and-facilities-directory/el-dorado-east-regional-park/el-do-east-brochure-sd1---feb--21",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "public-art",
+          "question": "What is the main nature destination at El Dorado East Regional Park?",
+          "answer": "El Dorado Nature Center is the park district's clearest interpretive landmark. Cross the wooden bridge over the lake to the small island Visitor Center, then choose a quarter-mile paved trail or up to two miles of dirt trails through lakes, stream, and forest habitat. The Nature Center is a distinct destination with separate hours and rules from the regional park's fishing lakes, playgrounds, picnic areas, archery range, and model-aircraft field.",
+          "sourceLabel": "City of Long Beach",
+          "source": "https://www.longbeach.gov/Park/Park-and-Facilities/Parks-Centers-Pier/El-Dorado-Nature-Center/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        }
+      ],
       "address": "7550 E Spring Street, Long Beach, CA 90815",
       "image": {
         "url": "/assets/parks/southern-california-metro-super/el-dorado-east-regional-park/01-el-dorado-park.webp",
@@ -73379,6 +73522,140 @@
       "verifiedAt": "2026-08-08"
     },
     "launch-ca-long-beach-shoreline-aquatic-park": {
+      "operator": "City of Long Beach Parks, Recreation and Marine",
+      "sourceLabel": "City of Long Beach",
+      "source": "https://www.longbeach.gov/park/park-and-facilities/directory/shoreline-aquatic-park/",
+      "hours": "Shoreline Aquatic Park follows posted Long Beach park hours and may be partly reserved or restricted for permitted waterfront events. Nearby Aquarium, marina, parking, and businesses use separate schedules.",
+      "cost": "General park, lawn, walking, lighthouse, beach-edge, and harbor-view access are free. Nearby parking, Aquarium admission, marina services, concessions, and permitted events charge separately.",
+      "summary": "Shoreline Aquatic Park is a waterfront green space on Aquarium Way between the Long Beach Arena and Downtown Shoreline Marina, with picnic lawns, a small sandy beach, Lions Lighthouse, Shoreline walking and bicycle paths, and views of Rainbow Harbor, Shoreline Village, Queen Mary, and the downtown skyline.",
+      "searchAnswers": [
+        {
+          "intentKey": "entrance",
+          "question": "What address should I use for Shoreline Aquatic Park?",
+          "answer": "Use 200 Aquarium Way, Long Beach, CA 90802 for the waterfront park near the Aquarium of the Pacific. Navigate to Lions Lighthouse or the Aquarium parking structure when that is your exact destination.",
+          "sourceLabel": "City of Long Beach",
+          "source": "https://longbeach.gov/special-events-filming/special-events/event-parks/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "public-art",
+          "question": "What can I see at Shoreline Aquatic Park?",
+          "answer": "The peninsula offers Lions Lighthouse, grassy lawns, a small sandy beach, Shoreline walking and bicycle paths, and views of Rainbow Harbor, Shoreline Village, Queen Mary, and the downtown Long Beach skyline.",
+          "sourceLabel": "City of Long Beach",
+          "source": "https://www.longbeach.gov/globalassets/lbcd/media-library/documents/planning/downtown-shoreline-pd-6/downtown-shoreline-opportunities-lookbook-english",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "picnic",
+          "question": "Can I picnic at Shoreline Aquatic Park?",
+          "answer": "Yes. The city describes it as a broad open green area used for picnics and special events. A permitted event may occupy or restrict part of the lawn, so check the waterfront event calendar before a major visit.",
+          "sourceLabel": "City of Long Beach",
+          "source": "https://www.longbeach.gov/park/park-and-facilities/directory/shoreline-aquatic-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "trail-surface",
+          "question": "Can I walk or bike at Shoreline Aquatic Park?",
+          "answer": "Yes. The park connects with the paved Shoreline Park walking and bicycle route around the harbor. Expect shared paths, event detours, marina activity, and exposed waterfront conditions.",
+          "sourceLabel": "City of Long Beach",
+          "source": "https://www.longbeach.gov/globalassets/lbcd/media-library/documents/planning/downtown-shoreline-pd-6/downtown-shoreline-opportunities-lookbook-english",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "parking",
+          "question": "Where should I park for Shoreline Aquatic Park?",
+          "answer": "Use the public parking serving the Aquarium of the Pacific and Aquarium Way area, then walk onto the peninsula. Rates, access, and available lots can change during conventions, festivals, races, and waterfront events.",
+          "sourceLabel": "City of Long Beach",
+          "source": "https://longbeach.gov/special-events-filming/special-events/event-parks/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "playground",
+          "question": "Is there a playground at Shoreline Aquatic Park?",
+          "answer": "The official park description does not list a children's playground or splash pad. This is primarily an open lawn, picnic, harbor-view, lighthouse, beach-edge, walking, and event destination.",
+          "sourceLabel": "City of Long Beach",
+          "source": "https://www.longbeach.gov/park/park-and-facilities/directory/shoreline-aquatic-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "fees",
+          "question": "Is Shoreline Aquatic Park free?",
+          "answer": "Yes. General access to the park, lighthouse area, lawns, and paths is free. Parking, Aquarium admission, marina services, food, and ticketed or permitted events are separate.",
+          "sourceLabel": "City of Long Beach",
+          "source": "https://www.longbeach.gov/park/park-and-facilities/directory/shoreline-aquatic-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "closures",
+          "question": "Do events close Shoreline Aquatic Park?",
+          "answer": "The park is a major permitted-event site and can accommodate several thousand people, so festivals and private setups may restrict lawns, paths, parking, or lighthouse access. Check City of Long Beach event notices before traveling for a quiet visit.",
+          "sourceLabel": "City of Long Beach",
+          "source": "https://longbeach.gov/special-events-filming/special-events/event-parks/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Are there public restrooms at Shoreline Aquatic Park?",
+          "answer": "Do not rely on a restroom within the open lawn or surface parking area. City planning documents identify a lack of public restrooms at the Shoreline Aquatic Park surface lot; nearby Aquarium, marina, restaurant, and event facilities have their own access and hours.",
+          "sourceLabel": "City of Long Beach",
+          "source": "https://www.longbeach.gov/globalassets/city-manager/media-library/documents/memos-to-the-mayor-tabbed-file-list-folders/2025/august-20--2025---update-on-proposed-food-truck-regulations",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "accessibility",
+          "question": "What is the easiest accessible route into Shoreline Aquatic Park?",
+          "answer": "Use the paved Aquarium Way side and choose legal waterfront parking closest to your destination. The park is an open lawn bordered by paved harbor promenades, but event fencing and marina activity can alter the most direct route.",
+          "sourceLabel": "City of Long Beach",
+          "source": "https://www.longbeach.gov/park/park-and-facilities/directory/shoreline-aquatic-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "shade",
+          "question": "Is there shade or weather shelter at Shoreline Aquatic Park?",
+          "answer": "Plan for a mostly exposed visit. Long Beach describes Shoreline Aquatic Park as a wide-open green event and picnic area, and the lighthouse hill, harbor promenade, lawn, and beach edge receive direct sun and wind. Nearby Aquarium, marina, restaurant, and convention buildings have their own admission or hours and are not park shelters. Bring portable sun protection where permitted, and use an open substantial building or enclosed vehicle during lightning, strong coastal wind, or dangerous heat.",
+          "sourceLabel": "City of Long Beach",
+          "source": "https://www.longbeach.gov/park/park-and-facilities/directory/shoreline-aquatic-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "dog-area",
+          "question": "Can I bring a dog to Shoreline Aquatic Park?",
+          "answer": "Yes, on a secure leash no longer than 6 feet and held continuously by someone able to control the dog. Shoreline Aquatic Park is not a designated off-leash exercise area, so keep the leash attached throughout the lawn, promenade, lighthouse, and beach-edge visit and remove all waste. Use a specifically designated Long Beach dog park or dog beach for off-leash time.",
+          "sourceLabel": "City of Long Beach Animal Care Services",
+          "source": "https://www.longbeach.gov/acs/laws-enforcement/animal-laws/dog-leash-required/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "splash-pad",
+          "question": "Can visitors swim at Shoreline Aquatic Park?",
+          "answer": "Shoreline Aquatic Park is a lawn and event space between the arena and Downtown Shoreline Marina; the City does not list a pool, splash pad, or designated swimming area there. Do not enter Rainbow Harbor or the marina from the park. For supervised seasonal water play, use a currently operating Long Beach beach or aquatic playground such as Alamitos Beach or Bayshore Beach and follow posted lifeguard rules, swim tests, and water-quality advisories.",
+          "sourceLabel": "City of Long Beach Parks, Recreation and Marine",
+          "source": "https://www.longbeach.gov/Park/Park-and-Facilities/Directory/ShoreLine-Aquatic-Park/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "transit",
+          "question": "How do I reach Shoreline Aquatic Park without parking?",
+          "answer": "Long Beach Transit's free Passport service connects downtown waterfront destinations and stops near the Shoreline area; check its operating hours because return service may end before a late event finishes. Metro A Line riders can transfer or walk from Downtown Long Beach, while seasonal AquaLink or AquaBus service reaches nearby Rainbow Harbor docks. Use the park or marina entrance as the destination because Shoreline Aquatic Park, the arena, Aquarium, and Shoreline Village use different final approaches.",
+          "sourceLabel": "City of Long Beach",
+          "source": "https://www.longbeach.gov/pages/city-news/long-beach-amphitheater-transportation/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        }
+      ],
       "address": "Aquarium Way, Long Beach, CA 90802",
       "image": {
         "url": "/assets/parks/southern-california-metro-super/shoreline-aquatic-park/01-shoreline-aquatic-park-long-beach-california-july-2023.webp",
@@ -73422,6 +73699,149 @@
       "verifiedAt": "2026-08-08"
     },
     "launch-ca-anaheim-yorba-regional-park": {
+      "operator": "OC Parks",
+      "sourceLabel": "OC Parks",
+      "source": "https://www.ocparks.com/yorbapark",
+      "hours": "Yorba Regional Park is open daily 7:00 a.m.-9:00 p.m. in spring and summer and 7:00 a.m.-6:00 p.m. in fall and winter. Rental and office hours are shorter.",
+      "cost": "Vehicle parking is $3 Monday-Friday and $5 Saturday-Sunday, with higher rates on some holidays and event days. General park use is otherwise free; rentals and reservations charge separately.",
+      "summary": "Yorba Regional Park is a 140-acre linear park with four lakes and streams, more than 400 picnic tables, shade shelters, playgrounds and restrooms throughout, seven reservable group shelters, fishing, bicycle and walking trails, Santa Ana River Trail access, sports courts and fields, fitness course, barbecues, and seasonal bike and paddleboat rentals.",
+      "searchAnswers": [
+        {
+          "intentKey": "entrance",
+          "question": "What address should I use for Yorba Regional Park?",
+          "answer": "Use 7600 East La Palma Avenue, Anaheim, CA 92807. The park stretches more than a mile, so use the official map to select the closest numbered parking, playground, shelter, lake, or trail connection.",
+          "sourceLabel": "OC Parks",
+          "source": "https://www.ocparks.com/yorbapark",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "hours",
+          "question": "What hours is Yorba Regional Park open?",
+          "answer": "The park opens daily at 7 a.m. and closes at 9 p.m. in spring and summer or 6 p.m. in fall and winter. The office and bike or paddleboat rental counter close earlier.",
+          "sourceLabel": "OC Parks",
+          "source": "https://www.ocparks.com/yorbapark",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "parking",
+          "question": "How much is parking at Yorba Regional Park?",
+          "answer": "Vehicle entry is $3 Monday-Friday and $5 Saturday-Sunday. Some holidays and events have higher rates. Park in the numbered area nearest your selected playground, picnic shelter, lake, or trail.",
+          "sourceLabel": "OC Parks",
+          "source": "https://www.ocparks.com/yorbapark",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "playground",
+          "question": "Are there playgrounds at Yorba Regional Park?",
+          "answer": "Yes. Playgrounds and restrooms are distributed throughout the long park. Check the official map before arriving so families can choose the closest entrance and parking area.",
+          "sourceLabel": "OC Parks",
+          "source": "https://www.ocparks.com/yorbapark",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "picnic",
+          "question": "Can I reserve a picnic shelter at Yorba Regional Park?",
+          "answer": "Yes. The park has seven reservable group shelters, more than 400 picnic tables, many permanent shade structures, and about 200 barbecues. Unreserved facilities may be first come, first served under posted rules.",
+          "sourceLabel": "OC Parks",
+          "source": "https://www.ocparks.com/yorbapark",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "trail-surface",
+          "question": "Can I bike from Yorba Regional Park to the Santa Ana River Trail?",
+          "answer": "Yes. Paved bicycle routes meander through the park and connect directly with the Santa Ana River Trail. Walking, multi-use, fitness, and equestrian routes are also mapped, with different permitted uses.",
+          "sourceLabel": "OC Parks",
+          "source": "https://www.ocparks.com/sites/ocparks/files/2021-04/Yorba%20Regional%20Park%20Map.pdf",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "dog-area",
+          "question": "Are dogs allowed at Yorba Regional Park?",
+          "answer": "Yes, dogs are permitted on leash. Owners must follow OC Parks rules and keep dogs out of any signed restricted activity or facility area.",
+          "sourceLabel": "OC Parks",
+          "source": "https://www.ocparks.com/yorbapark",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "fees",
+          "question": "Can I rent a bike or paddleboat at Yorba Regional Park?",
+          "answer": "Bike and paddleboat rentals operate on their own schedule. The last bike rental goes out one hour before sunset and the last boat rental two hours before sunset on operating days; check the vendor's current hours before visiting.",
+          "sourceLabel": "OC Parks",
+          "source": "https://www.ocparks.com/yorbapark",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Where are the restrooms at Yorba Regional Park?",
+          "answer": "Restrooms are located throughout the park rather than at one central building. Because Yorba Regional Park is more than a mile long, check the official map and park in the numbered area closest to the restroom, playground, shelter, or lake you plan to use.",
+          "sourceLabel": "OC Parks",
+          "source": "https://www.ocparks.com/sites/ocparks/files/2021-04/Yorba%20Regional%20Park%20Map.pdf",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "fishing",
+          "question": "Can I fish or swim in the lakes at Yorba Regional Park?",
+          "answer": "Fishing is allowed, but California requires a state fishing license for visitors age 16 and older. Swimming and wading are prohibited, and visitors may not launch personal watercraft; model sailboats are limited to the designated lake.",
+          "sourceLabel": "OC Parks",
+          "source": "https://www.ocparks.com/parks-trails/yorba-regional-park/park-rules",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "closures",
+          "question": "What can be closed or seasonal at Yorba Regional Park?",
+          "answer": "Park closing time changes seasonally: 9 p.m. during spring and summer daylight-saving months and 6 p.m. in fall and winter. Bike and paddleboat rentals keep separate operating days and stop rentals before sunset; storms, flooding, maintenance, events, or fire restrictions can also affect trails, lakes, shelters, roads, and barbecues. Check the OC Parks alerts page before a feature-specific trip.",
+          "sourceLabel": "OC Parks",
+          "source": "https://www.ocparks.com/yorbapark",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "shade",
+          "question": "Where can I find shade or shelter at Yorba Regional Park?",
+          "answer": "Many of the park's 400-plus picnic tables have permanent shade structures, and seven group shelters can be reserved. Trees also shade portions of the stream and lake corridor, while ballfields, playgrounds, volleyball areas, open lawns, fishing edges, and long trail sections can be exposed. The park office has limited weekday hours, and picnic roofs are not severe-weather shelters; during lightning, flooding, or high wind, use an open substantial building or vehicle.",
+          "sourceLabel": "OC Parks",
+          "source": "https://www.ocparks.com/yorbapark",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "splash-pad",
+          "question": "Can visitors swim or use a splash pad at Yorba Regional Park?",
+          "answer": "No. Yorba Regional Park has no listed splash pad, and OC Parks prohibits swimming or wading in its lakes and connecting streams. Fishing, designated model sailboats, and concession-operated paddleboats are different activities and do not permit entering the water. Keep children and pets out of the lakes and use a separately listed aquatic facility for swimming or splash play.",
+          "sourceLabel": "OC Parks",
+          "source": "https://www.ocparks.com/parks-trails/yorba-regional-park/park-rules",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "transit",
+          "question": "Can I take a bus to Yorba Regional Park?",
+          "answer": "OCTA Route 38 runs along La Palma Avenue toward Anaheim Hills and Yorba Linda. The park is long, so confirm the stop closest to your intended lake, playground, shelter, or trail access and expect a final walk; use OCTA's current trip planner because service times and stop patterns can change.",
+          "sourceLabel": "Orange County Transportation Authority",
+          "source": "https://octa.net/ebusbook/RoutePDF/route038.pdf",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "public-art",
+          "question": "What are the main landmarks in Yorba Regional Park?",
+          "answer": "Four connected lakes and streams form the park's visual spine and support fishing, model boats, and seasonal paddleboat rentals. The park stretches for more than a mile beside the Santa Ana River, with playgrounds, restrooms, picnic tables, and seven reservable group shelters distributed along its length. Choose a lake, shelter, playground, or trail connection before parking rather than treating the first entrance as the whole park.",
+          "sourceLabel": "OC Parks",
+          "source": "https://www.ocparks.com/yorbapark",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        }
+      ],
       "address": "7600 E La Palma Avenue, Anaheim, CA 92807",
       "image": {
         "url": "/assets/parks/southern-california-metro-super/yorba-regional-park/01-01-yorba-regional-park-anaheim-orange-county.webp",
@@ -73470,6 +73890,149 @@
       "verifiedAt": "2026-08-08"
     },
     "launch-ca-anaheim-pearson-park": {
+      "operator": "City of Anaheim Community Services",
+      "sourceLabel": "City of Anaheim",
+      "source": "https://www.anaheim.net/facilities/facility/details/pearsonpark-48",
+      "hours": "Pearson Park is open daily from 5:00 a.m. to 10:30 p.m. The swimming pool, amphitheater, recreation center, concessions, sports fields, and programs use separate schedules.",
+      "cost": "General park, playground, picnic, and ordinary open-space access are free. Pool admission, amphitheater events, recreation programs, concessions, reservations, and permitted sports use may charge separately.",
+      "summary": "Pearson Park is Anaheim's historic 19-acre first city park, with a children's play area, Pearson Park Amphitheatre, swimming pool, recreation center, restrooms, picnic shelters and tables, lighted soccer, softball and tennis facilities, stadium, volleyball, concessions, and mature landscaping.",
+      "searchAnswers": [
+        {
+          "intentKey": "entrance",
+          "question": "What address should I use for Pearson Park?",
+          "answer": "Use 400 North Harbor Boulevard, Anaheim, CA 92802. Navigate directly to the amphitheater, pool, recreation center, playground, or sports facility when one is your primary destination.",
+          "sourceLabel": "City of Anaheim",
+          "source": "https://www.anaheim.net/facilities/facility/details/pearsonpark-48",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "hours",
+          "question": "What hours is Pearson Park open?",
+          "answer": "The general park is open every day from 5:00 a.m. to 10:30 p.m. The pool, amphitheater, recreation center, concessions, and organized sports have separate schedules.",
+          "sourceLabel": "City of Anaheim",
+          "source": "https://www.anaheim.net/facilities/facility/details/pearsonpark-48",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "playground",
+          "question": "Is there a playground at Pearson Park?",
+          "answer": "Yes. Anaheim lists a children's play area as a park feature, together with picnic facilities and public restrooms.",
+          "sourceLabel": "City of Anaheim",
+          "source": "https://www.anaheim.net/facilities/facility/details/pearsonpark-48",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Are there restrooms at Pearson Park?",
+          "answer": "Yes. Public restrooms are listed among the park's amenities. Availability around the pool, recreation center, amphitheater, and events may follow those facilities' operating schedules.",
+          "sourceLabel": "City of Anaheim",
+          "source": "https://www.anaheim.net/facilities/facility/details/pearsonpark-48",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "splash-pad",
+          "question": "Is there a pool at Pearson Park?",
+          "answer": "Yes. Pearson Park has a municipal swimming pool, but it is not open continuously with the park. Check Anaheim Aquatics for the current seasonal schedule, programs, admission, and closures before traveling to swim.",
+          "sourceLabel": "City of Anaheim",
+          "source": "https://www.anaheim.net/facilities/facility/details/pearsonpark-48",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "public-art",
+          "question": "What is Pearson Park Amphitheatre?",
+          "answer": "The park includes a historic outdoor amphitheater used for scheduled performances and community events. Admission, seating, entrances, and parking depend on the specific event rather than general park hours.",
+          "sourceLabel": "City of Anaheim",
+          "source": "https://www.anaheim.net/facilities/facility/details/pearsonpark-48",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "picnic",
+          "question": "Can I have a picnic at Pearson Park?",
+          "answer": "Yes. Picnic shelters and picnic tables are official amenities. Rentals, large groups, vendors, or organized events may require a city application or reservation.",
+          "sourceLabel": "City of Anaheim",
+          "source": "https://www.anaheim.net/facilities/facility/details/pearsonpark-48",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "fees",
+          "question": "Is Pearson Park free?",
+          "answer": "General park, playground, and ordinary picnic access are free. Pool use, recreation programs, amphitheater events, concessions, reservations, and permitted sports activities may have separate fees.",
+          "sourceLabel": "City of Anaheim",
+          "source": "https://www.anaheim.net/facilities/facility/details/pearsonpark-48",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "parking",
+          "question": "Where should I park for Pearson Park?",
+          "answer": "Free parking spaces surround the park on Harbor Boulevard and Cypress, Lemon, and Sycamore streets. Designated accessible spaces are on Lemon Street in front of the amphitheater; choose the side nearest the pool, playground, recreation center, or sports facility.",
+          "sourceLabel": "City of Anaheim",
+          "source": "https://www.anaheim.net/1435/Parking-Directions",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "accessibility",
+          "question": "Where is accessible parking at Pearson Park?",
+          "answer": "Designated accessible parking is on Lemon Street directly in front of Pearson Park Amphitheatre. Accessibility inside the pool, recreation center, historic amphitheater, playground, and sports areas varies, so contact Anaheim for a destination-specific route.",
+          "sourceLabel": "City of Anaheim",
+          "source": "https://www.anaheim.net/1435/Parking-Directions",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "closures",
+          "question": "What Pearson Park facilities use separate hours?",
+          "answer": "The municipal pool, amphitheater, recreation center, concessions, and organized sports do not remain open for the full 5 a.m.-10:30 p.m. park day. Check the activity or event schedule before making one of these facilities the purpose of your visit.",
+          "sourceLabel": "City of Anaheim",
+          "source": "https://www.anaheim.net/facilities/facility/details/pearsonpark-48",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "shade",
+          "question": "Where can I find shade or covered space at Pearson Park?",
+          "answer": "Anaheim lists two reservable picnic shelters, and mature landscaping shades portions of this historic park. The sports fields, pool deck, playground, parking edges, and amphitheater seating can still be exposed. The recreation center, pool buildings, concessions, and amphitheater spaces open only for their own programs or events. Use the shelters for ordinary sun or light rain, but move to an open substantial building or enclosed vehicle for lightning, strong wind, or dangerous heat.",
+          "sourceLabel": "City of Anaheim",
+          "source": "https://www.anaheim.net/1452/Picnic-Shelters-Open-Areas",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "trail-surface",
+          "question": "What are the walking surfaces and routes at Pearson Park?",
+          "answer": "Pearson Park is a compact 19-acre historic city park with developed sidewalks and paved internal walks connecting the Harbor Boulevard entrance, playground, recreation center, pool, picnic shelters, courts, ballfields, amphitheater, cactus garden, lagoons, and restrooms. It is not promoted as a long-distance trail park. Historic garden edges, amphitheater seating, turf, roots, and wet areas near lagoons can be less even than the main walks, while games and events may temporarily redirect access.",
+          "sourceLabel": "City of Anaheim",
+          "source": "https://www.anaheim.net/facilities/facility/details/pearsonpark-48",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "dog-area",
+          "question": "Are dogs allowed at Pearson Park?",
+          "answer": "Yes, when restrained by a leash, chain, or other restraint no longer than six feet. Pearson Park is not an Anaheim dog park, so off-leash use is prohibited throughout its lawns and paths. Remove waste and follow facility exclusions around the pool, playground, recreation center, amphitheater, sports in progress, events, and planted garden or lagoon edges.",
+          "sourceLabel": "City of Anaheim",
+          "source": "https://www.anaheim.net/2096/Park-Rules-Regulations",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "transit",
+          "question": "What bus should I take to Pearson Park?",
+          "answer": "OCTA Route 43 runs daily on Harbor Boulevard through central Anaheim. For Pearson Park, use a stop near Harbor Boulevard and Lincoln Avenue, then walk east toward the park at 400 North Harbor Boulevard; confirm the safest final crossing and exact stop in OCTA's trip planner. Route 43 also connects with the Fullerton Transportation Center and Anaheim-area routes, but service patterns can change, so check the current schedule before traveling.",
+          "sourceLabel": "Orange County Transportation Authority",
+          "source": "https://octa.net/ebusbook/RoutePDF/route043.pdf",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        }
+      ],
       "address": "400 N Harbor Boulevard, Anaheim, CA 92805",
       "image": {
         "url": "/assets/parks/southern-california-metro-super/pearson-park/01-pearson-park-near-downtown-anaheim-california.webp",
@@ -73513,6 +74076,140 @@
       "verifiedAt": "2026-08-08"
     },
     "launch-ca-irvine-william-r-mason-regional-park": {
+      "operator": "OC Parks",
+      "sourceLabel": "OC Parks",
+      "source": "https://ocparks.com/masonpark",
+      "hours": "William R. Mason Regional Park is open daily 7:00 a.m.-9:00 p.m. in spring and summer and 7:00 a.m.-6:00 p.m. in fall and winter. Office, programs, rentals, and events use separate schedules.",
+      "cost": "Vehicle entry is $3 Monday-Friday and $5 Saturday-Sunday, with higher rates on some holidays and event days. General park use is otherwise free; reservations and programs may charge.",
+      "summary": "William R. Mason Regional Park is a 339-acre Irvine park with a 9-acre lake, rows of shade trees, concrete walking and bicycling routes, 123-acre natural area, three tot-lot playgrounds, restrooms, picnic areas and reservable group shelter, amphitheater, fitness course, volleyball, sports lawns, model sailing, and adjacent golf.",
+      "searchAnswers": [
+        {
+          "intentKey": "entrance",
+          "question": "What address should I use for Mason Regional Park?",
+          "answer": "Use 18712 University Drive, Irvine, CA 92612. Check the official map for the closest parking area to the lake, one of three tot lots, picnic shelter, amphitheater, trails, or natural area.",
+          "sourceLabel": "OC Parks",
+          "source": "https://ocparks.com/masonpark",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "hours",
+          "question": "What hours is Mason Regional Park open?",
+          "answer": "The park is open daily from 7 a.m.-9 p.m. during spring and summer and 7 a.m.-6 p.m. during fall and winter. Event and office schedules are separate.",
+          "sourceLabel": "OC Parks",
+          "source": "https://ocparks.com/masonpark",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "parking",
+          "question": "How much is parking at Mason Regional Park?",
+          "answer": "Vehicle entry is $3 Monday-Friday and $5 Saturday-Sunday, with higher rates possible on holidays and event days. Park near the exact playground, lake, shelter, or trail you plan to use.",
+          "sourceLabel": "OC Parks",
+          "source": "https://ocparks.com/masonpark",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "playground",
+          "question": "How many playgrounds are at Mason Regional Park?",
+          "answer": "The park has three separate tot-lot playground areas. They are spread across the developed park, so use the official map to choose the most convenient parking and picnic zone.",
+          "sourceLabel": "OC Parks",
+          "source": "https://ocparks.com/masonpark",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "trail-surface",
+          "question": "Are Mason Regional Park paths stroller-friendly?",
+          "answer": "OC Parks identifies concrete pathways throughout the developed park, supporting walking, jogging, wheelchairs, strollers, and bicycles. The separate 123-acre wilderness area has more natural conditions.",
+          "sourceLabel": "OC Parks",
+          "source": "https://www.ocparks.com/parks-trails/william-r-mason-regional-park/park-amenities",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "picnic",
+          "question": "Can I reserve a picnic shelter at Mason Regional Park?",
+          "answer": "Yes. A large-group shelter can be reserved, and additional family picnic areas, tables, restrooms, lawns, and shade trees are available. Organized uses must follow OC Parks reservation and vendor rules.",
+          "sourceLabel": "OC Parks",
+          "source": "https://ocparks.com/masonpark",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "dog-area",
+          "question": "Are dogs allowed at Mason Regional Park?",
+          "answer": "Yes, dogs are permitted on leash. Keep them restrained and out of any signed restricted facility, sports, habitat, or event area.",
+          "sourceLabel": "OC Parks",
+          "source": "https://ocparks.com/masonpark",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Are there restrooms at Mason Regional Park?",
+          "answer": "Yes. Restrooms are listed with developed picnic and recreation areas. Use the park map to identify the facility closest to your playground, shelter, lake, or trail route.",
+          "sourceLabel": "OC Parks",
+          "source": "https://www.ocparks.com/parks-trails/william-r-mason-regional-park/park-amenities",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "accessibility",
+          "question": "Is Mason Regional Park accessible for wheelchairs?",
+          "answer": "The developed park has concrete pathways, accessible parking and curb ramps, and picnic tables with wheelchair overhangs. The separate 123-acre natural area has less predictable terrain, so use the developed lake, playground, and picnic zones when a paved route is important.",
+          "sourceLabel": "OC Parks",
+          "source": "https://www.ocparks.com/parks-trails/william-r-mason-regional-park/park-amenities",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "closures",
+          "question": "Can I swim or wade in the lake at Mason Regional Park?",
+          "answer": "No. Swimming and wading are prohibited, and visitors may not launch personal watercraft. The lake is used for viewing and organized model sail boating; follow all posted shoreline barriers and event controls.",
+          "sourceLabel": "OC Parks",
+          "source": "https://ocparks.com/parks-trails/william-r-mason-regional-park/park-rules",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "shade",
+          "question": "Is there shade at Mason Regional Park?",
+          "answer": "Yes. OC Parks describes rows of mature shade trees throughout the developed park, especially around lawns and picnic areas. Playgrounds, trails, and the lake edge can still be exposed, so select a shelter or tree-lined picnic zone when guaranteed shade matters.",
+          "sourceLabel": "OC Parks",
+          "source": "https://ocparks.com/masonpark",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "splash-pad",
+          "question": "Can visitors swim or use a splash pad at William R. Mason Regional Park?",
+          "answer": "No. Mason Regional Park has no listed splash pad, and OC Parks explicitly prohibits swimming or wading in its lake or creek. Watercraft are also prohibited. Treat the 9.2-acre lake as scenery and wildlife habitat, keep children and pets out of the water, and choose a separately operated Orange County aquatic facility for managed swimming or water play.",
+          "sourceLabel": "OC Parks",
+          "source": "https://ocparks.com/parks-trails/william-r-mason-regional-park/park-rules",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "transit",
+          "question": "Can I take OC Bus to William R. Mason Regional Park?",
+          "answer": "OC Bus serves the Irvine and UC Irvine area, but OC Parks does not identify one guaranteed park-front route. Use OCTA's current trip planner with 18712 University Drive and verify the stop, final crossing, and return service before leaving; the lake, playgrounds, shelters, amphitheater, and sports fields are spread through the property. Do not rely on an older route number because OCTA schedules change quarterly.",
+          "sourceLabel": "Orange County Transportation Authority",
+          "source": "https://octa.net/getting-around/bus/oc-bus/routes-and-schedules/routes-and-schedules/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "public-art",
+          "question": "What are the main landmarks in William R. Mason Regional Park?",
+          "answer": "The developed park centers on a 9-acre lake used for scenery and model boats, with nearby picnic areas, playgrounds, paths, and an amphitheater. A separate 123-acre wilderness and natural area occupies another part of the property. Choose the lake, amphitheater, reservable shelter, playground, or wilderness area before parking because this 339-acre park is much larger than a single lawn or lakefront stop.",
+          "sourceLabel": "OC Parks",
+          "source": "https://ocparks.com/masonpark",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        }
+      ],
       "address": "18712 University Drive, Irvine, CA 92612",
       "image": {
         "url": "/assets/parks/southern-california-metro-super/william-r-mason-regional-park/01-william-mason-regional-park-march-16-2014.webp",
@@ -75183,6 +75880,210 @@
         }
       ],
       "verifiedAt": "2026-08-09"
+    },
+    "launch-ca-irvine-great-park": {
+      "operator": "City of Irvine",
+      "sourceLabel": "City of Irvine",
+      "source": "https://www.cityofirvine.gov/great-park/current-great-park-features",
+      "hours": "Great Park attractions and facilities use separate schedules. The Balloon and Carousel currently operate Thursday through Sunday, while sports fields, playgrounds, arts spaces, gardens, events, and leased attractions may have different hours.",
+      "cost": "General park access, parking, playgrounds, Carousel, gardens, and many public spaces are free. Balloon rides are $10 for adults and free for children; sports, programs, events, leased attractions, and reservations may charge.",
+      "summary": "Great Park is Irvine's evolving 1,300-acre destination on the former Marine Corps Air Station El Toro, with the tethered Great Park Balloon, free Carousel, Kids Rock Playground, Sports Complex and children's play area, Palm Court Arts Complex, Farm + Food Lab, walking and fitness routes, lawns, historic aviation exhibits, events, and extensive parking.",
+      "searchAnswers": [
+        {
+          "intentKey": "entrance",
+          "question": "What address should I use for Great Park?",
+          "answer": "Use 8000 Great Park Boulevard, Irvine, CA 92618 as the general destination, then follow the current map to your named attraction or sports field. The campus is very large and has several entry roads and parking lots.",
+          "sourceLabel": "City of Irvine",
+          "source": "https://www.cityofirvine.org/great-park/current-great-park-features",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "parking",
+          "question": "Where should I park at Great Park?",
+          "answer": "Parking is free in the general Great Park lots. Use Lot 3 for the Balloon and follow the official map for the Sports Complex, playgrounds, arts campus, gardens, ice facility, or event venue; tournaments and concerts can change traffic patterns.",
+          "sourceLabel": "City of Irvine",
+          "source": "https://cityofirvine.gov/great-park/great-park-balloon-carousel",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "fees",
+          "question": "How much is the Great Park Balloon?",
+          "answer": "Balloon rides are $10 for adults and free for children. Flights are first come, first served, require same-day check-in and waiver, can fill quickly, and are never guaranteed because wind and weather control operation.",
+          "sourceLabel": "City of Irvine",
+          "source": "https://cityofirvine.gov/great-park/great-park-balloon-carousel",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "hours",
+          "question": "When does the Great Park Balloon operate?",
+          "answer": "Current regular sessions are Thursday-Friday 10 a.m.-3 p.m. and 7-10 p.m., and Saturday-Sunday 9 a.m.-3 p.m. and 7-10 p.m.; it is closed Monday-Wednesday. Holiday hours and weather can change operation.",
+          "sourceLabel": "City of Irvine",
+          "source": "https://cityofirvine.gov/great-park/great-park-balloon-carousel",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "playground",
+          "question": "What playgrounds are at Great Park?",
+          "answer": "Kids Rock near the Balloon uses climbing rocks, tunnels, misting shade structures, and water-cycle play themes. A separate Sports Complex play area has slides, swings, climbing equipment, ropes, and open space near the athletic fields.",
+          "sourceLabel": "City of Irvine",
+          "source": "https://www.cityofirvine.gov/great-park/current-great-park-features",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "public-art",
+          "question": "What can I do at Great Park besides sports?",
+          "answer": "Visit the Balloon and free Carousel, Palm Court Arts Complex, historic aircraft and military-base exhibits, Farm + Food Lab, Giving Grove, Terraced Lawn, Kids Rock Playground, and scheduled cultural events.",
+          "sourceLabel": "City of Irvine",
+          "source": "https://www.cityofirvine.gov/great-park/current-great-park-features",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Are there restrooms at Great Park?",
+          "answer": "Yes. The Visitors Center near the Balloon and Carousel includes restrooms, and additional facilities serve the Sports Complex and other developed zones. Choose the closest destination before arriving because facilities are widely separated.",
+          "sourceLabel": "City of Irvine",
+          "source": "https://www.cityofirvine.gov/great-park/current-great-park-features",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "closures",
+          "question": "Will the Great Park Balloon fly today?",
+          "answer": "Call the Visitors Center at 949-724-6247 for current flight status. Flights depend on weather, may stop without notice, and often reach capacity; completing a waiver does not reserve a ride.",
+          "sourceLabel": "City of Irvine",
+          "source": "https://cityofirvine.gov/great-park/great-park-balloon-carousel",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "picnic",
+          "question": "Are there picnic areas at Irvine Great Park?",
+          "answer": "Yes. The City's current park inventory lists four picnic areas with approximately 78 tables across Great Park. The site is very large, so choose the picnic area nearest your playground, sports field, arts complex, or event rather than navigating only to the park address.",
+          "sourceLabel": "City of Irvine",
+          "source": "https://webadmin.cityofirvine.org/civica/filebank/blobdload.asp?BlobID=14455",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "accessibility",
+          "question": "What accessible facilities are at Great Park?",
+          "answer": "Great Park has accessible parking and developed paths near major public facilities, while individual sports fields, playgrounds, arts spaces, leased attractions, and construction zones have destination-specific routes. Contact the Visitors Center when a particular mobility need depends on exact access.",
+          "sourceLabel": "City of Irvine",
+          "source": "https://cityofirvine.org/great-park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "trail-surface",
+          "question": "Can I walk or bike around Irvine Great Park?",
+          "answer": "Yes. Developed walking and fitness routes connect major public areas, but the 1,300-acre property remains under phased construction and not every district is continuously connected. Use the current Great Park map and follow detours rather than relying on a straight-line route.",
+          "sourceLabel": "City of Irvine",
+          "source": "https://cityofirvine.org/great-park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "shade",
+          "question": "Where can visitors find shade or weather shelter at Irvine Great Park?",
+          "answer": "Palm Court Arts Complex has a shaded outdoor plaza beneath 54 palms, and Kids Rock Playground includes misting shade structures. Picnic areas, the Sports Complex, lawns, Balloon zone, and long walking connections can otherwise be exposed. The Visitors Center, Great Park Gallery, Hangar 244, and other buildings follow their own program hours and are not guaranteed refuge. During extreme heat, lightning, or dangerous wind, use an open substantial building or vehicle; Balloon flights stop when weather is unsafe.",
+          "sourceLabel": "City of Irvine",
+          "source": "https://cityofirvine.org/arts-irvine/great-park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "dog-area",
+          "question": "Where can dogs go at Great Park, and what rules apply?",
+          "answer": "Dogs may accompany visitors in ordinary Great Park outdoor areas when controlled on a leash no longer than 6 feet, and owners must remove waste. Great Park is not Irvine's off-leash dog park; Central Bark at 6405 Oak Canyon is the City's designated facility for off-leash exercise. Sports fields, playgrounds, buildings, shuttles, and major events may prohibit pets or limit access, including events that admit only service animals.",
+          "sourceLabel": "City of Irvine",
+          "source": "https://webadmin.cityofirvine.org/civica/filebank/blobdload.asp?BlobID=14455",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "splash-pad",
+          "question": "Is there water play at Great Park in Irvine?",
+          "answer": "Yes. The Kids Rock children's play area includes water-play features and shaded misting structures, but it is not a swimming pool. Operation can be affected by maintenance, weather, and programming, so confirm the feature's status with Great Park before making water play the main purpose of a visit. Bring sun protection and a change of clothes; the surrounding Great Park campus is large and many other attractions are exposed.",
+          "sourceLabel": "City of Irvine",
+          "source": "https://legacy.cityofirvine.org/civica/filebank/blobdload.asp?BlobID=29827",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "transit",
+          "question": "Can I take a bus to Irvine Great Park?",
+          "answer": "OCTA Route 90 provides the closest regular bus approach, with a stop near Irvine Center Drive and Hubble. Great Park is a very large campus, so this may still leave a substantial walk to the balloon, sports complex, Kids Rock, ice facility, or cultural terrace. Check OCTA's live planner and consider a rideshare connection from Irvine or Tustin station when the final distance is impractical.",
+          "sourceLabel": "Orange County Transportation Authority",
+          "source": "https://www.octa.net/getting-around/rail/metrolink/metrolink-weekends/overview/irvine-daycation/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        }
+      ],
+      "address": "8000 Great Park Boulevard, Irvine, CA 92618",
+      "image": {
+        "url": "/assets/parks/southern-california-metro-super/great-park/01-championship-soccer-stadium-nw-view-2024-08-03.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Championship_Soccer_Stadium_NW_View_2024-08-03.jpg",
+        "author": "Haruhi8",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "alt": "Championship Soccer Stadium during a match with the Great Park Balloon overhead",
+        "width": 1600,
+        "height": 1000
+      },
+      "additionalImages": [
+        {
+          "url": "/assets/parks/southern-california-metro-super/great-park/02-wild-rivers-orange-county-great-park-entrance.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Wild_Rivers_(Orange_County_Great_Park)_entrance.jpg",
+          "author": "Bluesnote",
+          "license": "BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "alt": "Entrance to Wild Rivers Waterpark at Great Park in Irvine",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/southern-california-metro-super/great-park/03-great-park-aerial-view.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Great_Park_Aerial_View.jpg",
+          "author": "CanO27sprite",
+          "license": "BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "alt": "Aerial view of Great Park sports fields, play areas, Carousel, paths, and parking",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/southern-california-metro-super/great-park/04-orange-balloon-at-orange-county-great-park.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Orange_Balloon_at_Orange_County_Great_Park.jpg",
+          "author": "Azusa Tarn",
+          "license": "BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "alt": "The illuminated Great Park Balloon at night",
+          "width": 1600,
+          "height": 1000
+        }
+      ],
+      "replaceImages": true,
+      "sources": [
+        {
+          "label": "City of Irvine",
+          "url": "https://www.cityofirvine.gov/great-park/great-park-balloon-carousel"
+        },
+        {
+          "label": "Orange County SC",
+          "url": "https://www.orangecountysoccer.com/a-z/"
+        },
+        {
+          "label": "Wild Rivers Waterpark",
+          "url": "https://wildrivers.com/plan/faq/"
+        }
+      ],
+      "verifiedAt": "2026-08-08"
     }
   }
 }

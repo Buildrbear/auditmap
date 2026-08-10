@@ -42,7 +42,99 @@
         "needToKnow": "Seating is first come, first served unless the event says otherwise. Pets are not permitted except service animals; concessions are available during applicable events, and designated accessible parking is on Lemon Street in front of the theatre. Request special accommodations from the City at least 72 hours ahead when possible."
       }
     ],
-    "launch-ca-irvine-great-park": [],
+    "launch-ca-irvine-great-park": [
+      {
+        "name": "Great Park Balloon",
+        "osm": "way/106818650",
+        "allowOutsideBoundary": true,
+        "boundaryExceptionReason": "The available same-name Great Park polygon covers only one evolving district; the Balloon is identified by its exact OpenStreetMap object and the official City map.",
+        "imageIndex": 3,
+        "sourceLabel": "City of Irvine",
+        "source": "https://www.cityofirvine.gov/great-park/great-park-balloon-carousel",
+        "checkedAt": "2026-08-10",
+        "summary": "The Great Park Balloon is Irvine's tethered helium observation balloon, rising as high as 400 feet above the park for a weather-dependent panoramic ride near the Visitors Center and Carousel.",
+        "cost": "Balloon rides are $10 for adults and free for children. Parking is free, payment is cashless, and completing the same-day waiver does not reserve a place or guarantee a flight.",
+        "hours": "Regular sessions are Thursday-Friday 10 a.m.-3 p.m. and 7-10 p.m., and Saturday-Sunday 9 a.m.-3 p.m. and 7-10 p.m.; the Balloon is closed Monday-Wednesday. Holiday hours and weather can change operation.",
+        "needToKnow": "Use Great Park Lot 3 and check in when registration opens 30 minutes before the session. Rides are first come, first served, waits can reach three hours, flights last about 10-12 minutes, and wind or other conditions can stop operation at any time. Call the Visitors Center at 949-724-6247 for current flight status.",
+        "answers": {
+          "parking": "Parking is free. Use Great Park Lot 3 and follow signs to the Balloon Line near the Visitors Center; do not navigate only to the park's general address.",
+          "restroom": "The Great Park Visitors Center beside the Balloon and Carousel includes public restrooms. Its operating schedule differs from the surrounding general park areas.",
+          "family": "Children may ride, but children younger than 13 must be accompanied by an adult and a parent or guardian must sign for riders younger than 18. Capacity and wait times vary with flight conditions."
+        }
+      },
+      {
+        "name": "Championship Soccer Stadium",
+        "osm": "way/1207836234",
+        "allowOutsideBoundary": true,
+        "boundaryExceptionReason": "The available same-name Great Park polygon covers only one evolving district; the Stadium is identified by its exact OpenStreetMap object and official Great Park and Orange County SC maps.",
+        "imageIndex": 0,
+        "sourceLabel": "Orange County SC",
+        "source": "https://www.orangecountysoccer.com/a-z/",
+        "address": "8272 Great Park Boulevard, Irvine, CA 92618",
+        "checkedAt": "2026-08-10",
+        "summary": "Championship Soccer Stadium is the ticketed match venue inside Great Park used by Orange County SC, with a west-side main entrance, concourse concessions and restrooms, family facilities, accessible seating, and a matchday Fan Zone.",
+        "cost": "Admission depends on the scheduled match or event and selected seat. Children age 3 or younger do not need a ticket when seated on an adult's lap in a reserved area; other visitors need the ticket required for that event.",
+        "hours": "The Stadium opens for scheduled matches and events rather than following Great Park's general hours. For Orange County SC matches, public gates and the ticket office open one hour before kickoff; confirm the event schedule before leaving.",
+        "needToKnow": "Use the west-side match entrance and arrive early for screening. The Stadium is cashless, restricts bags to approved clear bags under 14 by 14 by 6 inches or small clutches, does not provide bag check, and permits only service animals. One sealed plastic water bottle per person is allowed; outside food, coolers, umbrellas, and many other items are prohibited.",
+        "answers": {
+          "parking": "Free Great Park parking is available first come, first served. Orange County SC recommends Lots 2, 4, and 5; accessible parking is in Lots 4 and 5, oversized vehicles should use Lot 2, and current construction or event traffic can change the approach.",
+          "restroom": "Restrooms are on the stadium concourses, with men's facilities near Sections 6 and 10, women's and family restrooms near Sections 2 and 12, accessible fixtures, and diaper-changing stations in all public restrooms.",
+          "accessibility": "Wheelchair, semi-ambulatory, and companion seating is available across multiple sections and price levels. Accessible parking is in Great Park Lots 4 and 5; contact the ticket office before the match when a seating exchange or accommodation is needed.",
+          "dogs": "Only service animals required because of a disability are allowed inside Championship Soccer Stadium.",
+          "family": "Orange County SC matchdays include family restrooms, diaper-changing stations, and a weather-dependent Fan Zone with soccer activities, lawn games, and face painting. Children age 4 and older need a ticket."
+        },
+        "answerSources": {
+          "location": {
+            "source": "https://www.orangecountysoccer.com/parking/",
+            "sourceLabel": "Orange County SC"
+          },
+          "parking": {
+            "source": "https://www.orangecountysoccer.com/parking/",
+            "sourceLabel": "Orange County SC"
+          }
+        }
+      },
+      {
+        "name": "Wild Rivers",
+        "osm": "way/1067059654",
+        "allowOutsideBoundary": true,
+        "boundaryExceptionReason": "The available same-name Great Park polygon covers only one evolving district; Wild Rivers is identified by its exact mapped waterpark object, official address, and destination-geotagged photograph.",
+        "imageIndex": 1,
+        "sourceLabel": "Wild Rivers Waterpark",
+        "source": "https://wildrivers.com/plan/faq/",
+        "address": "10000 Great Park Boulevard, Irvine, CA 92618",
+        "checkedAt": "2026-08-10",
+        "summary": "Wild Rivers is a separately operated, seasonal, ticketed waterpark on Great Park land, with more than 20 slides and attractions, a lazy river, wave pool, children's play structures, food service, cabanas, and its own entrance and parking operation.",
+        "cost": "Every visitor entering Wild Rivers needs admission, even when not riding. The current 2026 ticket page lists $59.99 online any-day admission and $79.99 walk-up general admission, with lower age- or height-based categories and changing promotions; general parking is $25. Verify current prices before purchase.",
+        "hours": "Wild Rivers follows a date-specific seasonal calendar rather than Great Park's general schedule. Its 2026 season uses varying hours, commonly 10:30 a.m.-5, 6, or 7 p.m., with selected later-season schedules; dates, hours, attractions, and weather operations can change without notice.",
+        "needToKnow": "Navigate to 10000 Great Park Boulevard and use the dedicated Wild Rivers parking entrance. Do not leave a vehicle in another Great Park lot to avoid the fee because the operator warns it may be towed. Children under 14 must have an adult or guardian, tickets are generally nonrefundable, pets should remain home, and outside-food rules are limited; review the current FAQ before packing.",
+        "answers": {
+          "parking": "Wild Rivers guests must use the dedicated Wild Rivers lot rather than ordinary Great Park parking. General parking is currently $25; the entrance is on Great Park Boulevard after the Skyhawk roundabout, and vehicles left elsewhere in Great Park may be towed.",
+          "restroom": "Restrooms are within the ticketed waterpark. Guest Services is in the Main Entry building and can direct visitors; restroom access should not be assumed before admission.",
+          "accessibility": "Attraction access and transfer requirements vary. Contact Wild Rivers Guest Services before buying when mobility, sensory, medical, or ride-access needs determine whether the visit will work, and confirm the current accommodation process on arrival.",
+          "dogs": "Wild Rivers asks visitors to leave pets at home and never leave them in a vehicle. Contact Guest Services in advance about a disability-related service-animal need because water attractions and guest areas can have separate safety rules.",
+          "family": "The park includes children's slides, interactive water play, and a large play structure, but children under 14 must remain with an adult or guardian and every person entering needs admission even if they do not plan to ride."
+        },
+        "answerSources": {
+          "parking": {
+            "source": "https://wildrivers.com/plan/parking-directions/",
+            "sourceLabel": "Wild Rivers Waterpark"
+          },
+          "hours": {
+            "source": "https://wildrivers.com/plan/hours-events/",
+            "sourceLabel": "Wild Rivers Waterpark"
+          },
+          "fees": {
+            "source": "https://wildrivers.com/tickets/buy-tickets/",
+            "sourceLabel": "Wild Rivers Waterpark"
+          },
+          "family": {
+            "source": "https://wildrivers.com/play/about-the-park/",
+            "sourceLabel": "Wild Rivers Waterpark"
+          }
+        }
+      }
+    ],
     "launch-ca-irvine-william-r-mason-regional-park": []
   },
   "researchQueue": {
@@ -50,7 +142,7 @@
     "launch-ca-long-beach-shoreline-aquatic-park": "Secure exact destination-specific photographs and public-access evidence before publishing the beach edge, Rainbow Harbor promenade, marina, bike path, viewpoints, entrances, parking, or restrooms as separate pages; the Aquarium is a separately operated ticketed destination.",
     "launch-ca-anaheim-yorba-regional-park": "The parent guide documents the four lakes, six playgrounds, rentals, picnic shelters, fishing, model boats, Santa Ana River Trail connection, fields, fitness course, parking, and restrooms. Publish separate pages only after exact named pins and matching reusable photographs are secured.",
     "launch-ca-anaheim-pearson-park": "Secure exact reusable photographs and reviewed pins before publishing the pool, playground, recreation center, tennis courts, stadium, parking, or restrooms as separate pages.",
-    "launch-ca-irvine-great-park": "Keep the parent release deferred until current licensed photography represents the modern sports, play, arts, food, and visitor facilities; then recheck all feature coordinates and operator schedules.",
+    "launch-ca-irvine-great-park": "The parent and three exact destinations now have reviewed licensed photography. Secure destination-specific reusable photographs before publishing the Carousel, Kids Rock, Sports Complex play area, Palm Court Arts Complex, Farm + Food Lab, Hangar 244, trails, gardens, ice facility, Great Park Live, individual fields, lots, or restrooms as separate pages.",
     "launch-ca-irvine-william-r-mason-regional-park": "The parent guide documents the lake, three tot lots, amphitheatre, natural area, model sailing, shelters, trails, fitness course, parking, and restrooms. Secure exact named pins and destination-specific photographs before publishing them separately."
   }
 }
