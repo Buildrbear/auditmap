@@ -248,6 +248,30 @@
         "positionQuality": "reviewed-public-map-placement",
         "reviewStatus": "approved-feature-and-boundary-match",
         "reviewedAt": "2026-08-08"
+      },
+      "aerated-pool": {
+        "name": "Aerated Pool",
+        "latitude": 32.74809722,
+        "longitude": -97.32665833,
+        "coordinateSource": "https://commons.wikimedia.org/w/index.php?curid=49439979",
+        "officialMapSource": "https://www.fortworthtexas.gov/departments/parks/parks-and-trails/water-gardens",
+        "positionQuality": "reviewed-geotagged-destination-photo",
+        "checkedAt": "2026-08-10",
+        "imageIndex": 1,
+        "sourceLabel": "Fort Worth Park and Recreation Department",
+        "source": "https://www.fortworthtexas.gov/departments/parks/parks-and-trails/water-gardens",
+        "summary": "The Aerated Pool is the Water Gardens' misting fountain basin, where forty nozzles send spray upward from ground level near the park's north side.",
+        "cost": "General admission to Fort Worth Water Gardens and viewing the Aerated Pool are free. Downtown parking, permitted private events, and nearby attractions can cost separately.",
+        "hours": "The Aerated Pool follows the Water Gardens' daily 6:00 a.m.-10:00 p.m. schedule unless maintenance, weather, a permitted event, or a safety closure restricts access. The posted park schedule does not guarantee that every fountain is operating throughout the day.",
+        "needToKnow": "This is an architectural fountain for viewing, not a splash pad or swimming pool. Fort Worth prohibits swimming and wading throughout the Water Gardens. Spray and wind can make the surrounding hardscape damp, and maintenance can leave a water feature temporarily inactive, so use the exact pin, remain on designated dry walkways, and follow barriers or on-site instructions.",
+        "answers": {
+          "accessibility": "The City offers disability accommodations on request but does not publish a destination-specific step-free route, surface, slope, or viewing-area description for the Aerated Pool. Contact the City before an accommodation-sensitive visit and use the surrounding designated viewpoints rather than entering the fountain basin.",
+          "family": "The forty-nozzle fountain can be visually engaging, but it is not a splash pad and children may not enter the water. Expect spray, wet hardscape, fountain noise, and open architectural water nearby. Keep children close, choose a comfortable viewing distance, and do not promise that the fountain will be operating during maintenance or severe weather."
+        },
+        "displayName": "Aerated Pool",
+        "boundarySource": "https://www.openstreetmap.org/way/39823491",
+        "reviewStatus": "approved-official-map-and-geotag-match",
+        "reviewedAt": "2026-08-08"
       }
     }
   }
