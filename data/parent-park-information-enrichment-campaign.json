@@ -78043,6 +78043,213 @@
         }
       ],
       "replaceImages": true
+    },
+    "launch-md-baltimore-carroll-park": {
+      "name": "Carroll Park",
+      "city": "Baltimore",
+      "citySlug": "baltimore-md",
+      "operator": "Baltimore City Recreation and Parks",
+      "sourceLabel": "Baltimore City Recreation and Parks",
+      "source": "https://bcrp.baltimorecity.gov/sites/default/files/Carroll%20Park%20Masterplan.pdf",
+      "address": "1500 Washington Boulevard, Baltimore, MD 21230",
+      "summary": "A 155-acre citywide park combining active recreation, a nine-hole public golf course, the rebuilt Carroll Park Recreation Center, playground and field areas, and the historic Mount Clare landscape.",
+      "hours": "Ordinary outdoor park areas are open from sunrise to sunset under Baltimore City park rules. Carroll Park Recreation Center, the golf course, Mount Clare Museum House, programs and permitted events keep separate schedules.",
+      "hoursSchedule": false,
+      "cost": "Ordinary park, playground, path and field access is free. Golf and FootGolf require paid tee times; recreation programs, permits and future Mount Clare admission or tours may charge separately.",
+      "accessibility": "Developed roads and paved paths serve the recreation center, sports areas and historic grounds, but distances, slopes and older surfaces vary. Navigate to the exact destination and contact its operator for a specific step-free route or program accommodation.",
+      "transit": "MTA bus service runs along Washington Boulevard and nearby streets. Confirm the stop closest to the recreation center, Mount Clare or golf entrance because the park is much longer than a single transit stop.",
+      "searchAnswers": [
+        {
+          "intentKey": "hours",
+          "question": "When is Carroll Park open?",
+          "answer": "Ordinary outdoor park areas are open from sunrise to sunset under Baltimore City park rules. Carroll Park Recreation Center, the golf course, Mount Clare Museum House, programs and permitted events keep separate schedules.",
+          "sourceLabel": "Baltimore City Recreation and Parks",
+          "source": "https://bcrp.baltimorecity.gov/sites/default/files/Carroll%20Park%20Masterplan.pdf",
+          "verifiedAt": "2026-08-10",
+          "freshnessClass": "fast",
+          "status": "verified"
+        },
+        {
+          "intentKey": "parking",
+          "question": "Where should I park for Carroll Park?",
+          "answer": "Carroll Park stretches along Washington Boulevard and has different arrival points for the recreation center, athletic areas, golf course and Mount Clare. Navigate to the exact destination rather than relying on the general park pin, and obey current lot and street signs.",
+          "sourceLabel": "Baltimore City Recreation and Parks",
+          "source": "https://bcrp.baltimorecity.gov/sites/default/files/Carroll%20Park%20Masterplan.pdf",
+          "verifiedAt": "2026-08-10",
+          "freshnessClass": "fast",
+          "status": "verified"
+        },
+        {
+          "intentKey": "entrance",
+          "question": "What is the best entrance for Carroll Park?",
+          "answer": "Use Washington Boulevard for the park's main destinations. The golf-course entrance is at 2100 Washington Boulevard between stone pillars, while Mount Clare and the recreation side use different approaches within the long park footprint.",
+          "sourceLabel": "Baltimore City Recreation and Parks",
+          "source": "https://bcrp.baltimorecity.gov/sites/default/files/Carroll%20Park%20Masterplan.pdf",
+          "verifiedAt": "2026-08-10",
+          "freshnessClass": "slow",
+          "status": "verified"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Are there restrooms at Carroll Park?",
+          "answer": "The most dependable restrooms are inside the recreation center or golf facilities while those buildings are staffed. Mount Clare does not currently publish regular opening hours, and open fields do not guarantee an unlocked restroom nearby.",
+          "sourceLabel": "Baltimore City Recreation and Parks",
+          "source": "https://bcrp.baltimorecity.gov/sites/default/files/Carroll%20Park%20Masterplan.pdf",
+          "verifiedAt": "2026-08-10",
+          "freshnessClass": "slow",
+          "status": "verified"
+        },
+        {
+          "intentKey": "fees",
+          "question": "Is Carroll Park free?",
+          "answer": "Ordinary park, playground, path and field access is free. Golf and FootGolf require paid tee times; recreation programs, permits and future Mount Clare admission or tours may charge separately.",
+          "sourceLabel": "Baltimore City Recreation and Parks",
+          "source": "https://bcrp.baltimorecity.gov/sites/default/files/Carroll%20Park%20Masterplan.pdf",
+          "verifiedAt": "2026-08-10",
+          "freshnessClass": "slow",
+          "status": "verified"
+        },
+        {
+          "intentKey": "accessibility",
+          "question": "How accessible is Carroll Park?",
+          "answer": "Developed roads and paved paths serve the recreation center, sports areas and historic grounds, but distances, slopes and older surfaces vary. Navigate to the exact destination and contact its operator for a specific step-free route or program accommodation.",
+          "sourceLabel": "Baltimore City Recreation and Parks",
+          "source": "https://bcrp.baltimorecity.gov/sites/default/files/Carroll%20Park%20Masterplan.pdf",
+          "verifiedAt": "2026-08-10",
+          "freshnessClass": "slow",
+          "status": "verified"
+        },
+        {
+          "intentKey": "dogs",
+          "question": "Are dogs allowed at Carroll Park?",
+          "answer": "Leashed dogs are allowed in ordinary outdoor park areas under Baltimore's six-foot leash rule. Pets should stay out of staffed buildings, golf play and posted athletic areas unless the operator permits them; service animals follow applicable facility rules.",
+          "sourceLabel": "Baltimore City Recreation and Parks",
+          "source": "https://bcrp.baltimorecity.gov/sites/default/files/Carroll%20Park%20Masterplan.pdf",
+          "verifiedAt": "2026-08-10",
+          "freshnessClass": "slow",
+          "status": "verified"
+        },
+        {
+          "intentKey": "family",
+          "question": "Is Carroll Park good for children?",
+          "answer": "The playground, fields and rebuilt recreation center support family visits, while Mount Clare adds an outdoor history stop. Confirm the exact program, building schedule or tee time before crossing this large park for a single facility.",
+          "sourceLabel": "Baltimore City Recreation and Parks",
+          "source": "https://bcrp.baltimorecity.gov/sites/default/files/Carroll%20Park%20Masterplan.pdf",
+          "verifiedAt": "2026-08-10",
+          "freshnessClass": "slow",
+          "status": "verified"
+        },
+        {
+          "intentKey": "transit",
+          "question": "How do I reach Carroll Park without a car?",
+          "answer": "MTA bus service runs along Washington Boulevard and nearby streets. Confirm the stop closest to the recreation center, Mount Clare or golf entrance because the park is much longer than a single transit stop.",
+          "sourceLabel": "Baltimore City Recreation and Parks",
+          "source": "https://bcrp.baltimorecity.gov/sites/default/files/Carroll%20Park%20Masterplan.pdf",
+          "verifiedAt": "2026-08-10",
+          "freshnessClass": "slow",
+          "status": "verified"
+        },
+        {
+          "intentKey": "need-to-know",
+          "question": "What should I know before visiting Carroll Park?",
+          "answer": "Do not assume every facility follows daylight park hours. Athletic fields can close for weather, golf requires a current tee time, Mount Clare currently lists regular opening times as coming soon, and permitted projects or events can redirect internal access.",
+          "sourceLabel": "Baltimore City Recreation and Parks",
+          "source": "https://bcrp.baltimorecity.gov/sites/default/files/Carroll%20Park%20Masterplan.pdf",
+          "verifiedAt": "2026-08-10",
+          "freshnessClass": "fast",
+          "status": "verified"
+        },
+        {
+          "intentKey": "weather",
+          "question": "What weather should I check before visiting Carroll Park?",
+          "answer": "Check Baltimore weather and BCRP notices before using fields, courts or the playground. Heat and limited shade matter across open recreation areas, while rain can close athletic surfaces and interrupt golf independently from general park access.",
+          "sourceLabel": "Baltimore City Recreation and Parks",
+          "source": "https://bcrp.baltimorecity.gov/sites/default/files/Carroll%20Park%20Masterplan.pdf",
+          "verifiedAt": "2026-08-10",
+          "freshnessClass": "fast",
+          "status": "verified"
+        },
+        {
+          "intentKey": "recreation-center",
+          "question": "What is inside Carroll Park Recreation Center?",
+          "answer": "Baltimore reopened the renovated center in August 2024 with a large divisible multipurpose room that can function as a gymnasium, a lounge, classrooms, offices and restrooms. A current public drop-in schedule is not posted on the project announcement, so verify the program and staffed hours before going specifically for indoor access.",
+          "sourceLabel": "City of Baltimore",
+          "source": "https://www.baltimorecity.gov/news/press-releases/2024-08-13-mayor-scott-city-leaders-south-baltimore-gateway-partnership",
+          "verifiedAt": "2026-08-10",
+          "freshnessClass": "fast",
+          "status": "verified"
+        },
+        {
+          "intentKey": "golf-course",
+          "question": "Can I play golf at Carroll Park?",
+          "answer": "Yes. Carroll Park Golf Course is a separately operated nine-hole public course at 2100 Washington Boulevard, and FootGolf is also offered. Book a tee time and check same-day course conditions, green fees and operating hours through Baltimore Classic Five rather than arriving under general park hours.",
+          "sourceLabel": "Baltimore Classic Five",
+          "source": "https://classic5golf.com/carroll-park/",
+          "verifiedAt": "2026-08-10",
+          "freshnessClass": "fast",
+          "status": "verified"
+        },
+        {
+          "intentKey": "mount-clare-hours",
+          "question": "Is Mount Clare Museum House open for tours?",
+          "answer": "Do not plan on regular drop-in interior access yet. Mount Clare's official visitor page currently says opening times are coming soon, while group tours are available by special request. The exterior historic grounds can be viewed during open park access unless posted work or an event restricts them.",
+          "sourceLabel": "Mount Clare Museum",
+          "source": "https://www.mountclare.org/historic-site/museum-house",
+          "verifiedAt": "2026-08-10",
+          "freshnessClass": "fast",
+          "status": "verified"
+        },
+        {
+          "intentKey": "park-size-amenities",
+          "question": "How large is Carroll Park and what is there?",
+          "answer": "Baltimore City's current GIS classifies Carroll Park as a 155.13-acre citywide park. Official park planning and recreation maps document active fields, playground and court areas, the golf course, skateboarding, Mount Clare and passive park space; individual facilities should still be checked for current condition and programming.",
+          "sourceLabel": "Baltimore City Recreation and Parks GIS",
+          "source": "https://geodata.baltimorecity.gov/egis/rest/services/CityView/BCRPServices/FeatureServer/4",
+          "verifiedAt": "2026-08-10",
+          "freshnessClass": "slow",
+          "status": "verified"
+        }
+      ],
+      "image": {
+        "url": "/assets/parks/baltimore-super/carroll-park/01-playing-fields-at-carroll-park-jpg.webp",
+        "source": "https://www.flickr.com/photos/7289631@N02/1414794135",
+        "author": "japedi",
+        "license": "CC BY 2.0",
+        "alt": "Playing fields at Carroll Park",
+        "width": 1024,
+        "height": 768
+      },
+      "additionalImages": [
+        {
+          "url": "/assets/parks/baltimore-super/carroll-park/02-carroll-park-interpretive-marker-jpg.webp",
+          "source": "https://www.flickr.com/photos/36521980095@N01/38267946502",
+          "author": "Dan O'Neil",
+          "license": "CC BY 2.0",
+          "alt": "Carroll Park interpretive marker",
+          "width": 1024,
+          "height": 768
+        },
+        {
+          "url": "/assets/parks/baltimore-super/carroll-park/03-mount-clare-mansion-front-angle-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3AMount_Clare_Mansion_-_Front_angle.jpg",
+          "author": "Phaneros",
+          "license": "CC BY-SA 3.0",
+          "alt": "Mount Clare Mansion Front angle at Carroll Park",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "url": "/assets/parks/baltimore-super/carroll-park/04-carrollton-viaduct-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3ACarrollton-viaduct.jpg",
+          "author": "William Edmund Barrett, Historic American Engineering Record",
+          "license": "Public domain",
+          "alt": "Carrollton viaduct at Carroll Park",
+          "width": 1600,
+          "height": 1000
+        }
+      ],
+      "replaceImages": true,
+      "verifiedAt": "2026-08-10"
     }
   }
 }

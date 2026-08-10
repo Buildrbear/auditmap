@@ -13,6 +13,7 @@ const fs = require("node:fs"),
     "launch-md-baltimore-gwynns-falls-leakin-park": 5,
     "launch-md-baltimore-baltimore-waterfront-promenade": 3,
     "launch-md-baltimore-lake-roland-park": 3,
+    "launch-md-baltimore-carroll-park": 1,
   },
   fail = [],
   slug = (v) =>
@@ -153,6 +154,9 @@ const featureRequirements = {
     "Lake Roland Dam": "Lake_Roland_Dam",
     "Lake Roland Waterworks": "Pump_Station_in_Robert_E._Lee_Park",
     "White Trail": "Rocky_trail_at_Lake_Roland",
+  },
+  "launch-md-baltimore-carroll-park": {
+    "Mount Clare Museum House": "Mount_Clare_Mansion_-_Front_angle",
   },
 };
 for (const [placeId, requirements] of Object.entries(featureRequirements)) {

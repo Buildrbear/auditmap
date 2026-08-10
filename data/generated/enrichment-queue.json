@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T18:24:49.665Z",
+  "generatedAt": "2026-08-10T18:59:46.765Z",
   "policy": {
     "publication": "AI findings remain proposed until a human accepts the fact and its sources.",
     "prioritization": "Daily-use and safety-sensitive gaps rank above descriptive content.",
@@ -7,10 +7,10 @@
     "partialAnswers": "Useful but incomplete answers remain visible and stay queued until verified."
   },
   "summary": {
-    "places": 911,
+    "places": 912,
     "averageCoverageScore": 55,
-    "openTasks": 5996,
-    "urgentTasks": 961
+    "openTasks": 6004,
+    "urgentTasks": 962
   },
   "coverage": [
     {
@@ -2900,6 +2900,13 @@
     {
       "placeId": "launch-md-baltimore-lake-roland-park",
       "placeName": "Lake Roland Park",
+      "expectedIntentCount": 14,
+      "coveredIntentCount": 6,
+      "coverageScore": 48
+    },
+    {
+      "placeId": "launch-md-baltimore-carroll-park",
+      "placeName": "Carroll Park",
       "expectedIntentCount": 14,
       "coveredIntentCount": 6,
       "coverageScore": 48
@@ -22602,6 +22609,51 @@
         {
           "label": "Downtown Detroit Partnership",
           "url": "https://downtowndetroit.org/experience-downtown/downtown-detroit-parks/campus-martius/",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
+      "id": "launch-md-baltimore-carroll-park:closures",
+      "placeId": "launch-md-baltimore-carroll-park",
+      "placeName": "Carroll Park",
+      "placeType": "Park",
+      "city": "Baltimore",
+      "state": "MD",
+      "intentKey": "closures",
+      "intentLabel": "Closures and availability",
+      "question": "Is anything at Carroll Park closed, seasonal, or temporarily unavailable?",
+      "reason": "No current, source-backed closures and availability answer is cataloged.",
+      "action": "research",
+      "priority": 96,
+      "freshnessDays": 3,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Baltimore City Recreation and Parks",
+          "url": "https://bcrp.baltimorecity.gov/sites/default/files/Carroll%20Park%20Masterplan.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Baltimore",
+          "url": "https://www.baltimorecity.gov/news/press-releases/2024-08-13-mayor-scott-city-leaders-south-baltimore-gateway-partnership",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore Classic Five",
+          "url": "https://classic5golf.com/carroll-park/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Mount Clare Museum",
+          "url": "https://www.mountclare.org/historic-site/museum-house",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore City Recreation and Parks GIS",
+          "url": "https://geodata.baltimorecity.gov/egis/rest/services/CityView/BCRPServices/FeatureServer/4",
           "sourceType": "official"
         }
       ],
@@ -59635,6 +59687,51 @@
       "placeCoverageScore": 48
     },
     {
+      "id": "launch-md-baltimore-carroll-park:trail-surface",
+      "placeId": "launch-md-baltimore-carroll-park",
+      "placeName": "Carroll Park",
+      "placeType": "Park",
+      "city": "Baltimore",
+      "state": "MD",
+      "intentKey": "trail-surface",
+      "intentLabel": "Walking surfaces and terrain",
+      "question": "What are the walking surfaces, slopes, and trail conditions at Carroll Park?",
+      "reason": "No current, source-backed walking surfaces and terrain answer is cataloged.",
+      "action": "research",
+      "priority": 80,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Baltimore City Recreation and Parks",
+          "url": "https://bcrp.baltimorecity.gov/sites/default/files/Carroll%20Park%20Masterplan.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Baltimore",
+          "url": "https://www.baltimorecity.gov/news/press-releases/2024-08-13-mayor-scott-city-leaders-south-baltimore-gateway-partnership",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore Classic Five",
+          "url": "https://classic5golf.com/carroll-park/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Mount Clare Museum",
+          "url": "https://www.mountclare.org/historic-site/museum-house",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore City Recreation and Parks GIS",
+          "url": "https://geodata.baltimorecity.gov/egis/rest/services/CityView/BCRPServices/FeatureServer/4",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
       "id": "launch-ga-atlanta-cascade-springs-nature-preserve:trail-surface",
       "placeId": "launch-ga-atlanta-cascade-springs-nature-preserve",
       "placeName": "Cascade Springs Nature Preserve",
@@ -74937,6 +75034,51 @@
         {
           "label": "Downtown Detroit Partnership",
           "url": "https://downtowndetroit.org/experience-downtown/downtown-detroit-parks/campus-martius/",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
+      "id": "launch-md-baltimore-carroll-park:playground",
+      "placeId": "launch-md-baltimore-carroll-park",
+      "placeName": "Carroll Park",
+      "placeType": "Park",
+      "city": "Baltimore",
+      "state": "MD",
+      "intentKey": "playground",
+      "intentLabel": "Playgrounds",
+      "question": "What playgrounds are at Carroll Park, and what ages or abilities do they serve?",
+      "reason": "No current, source-backed playgrounds answer is cataloged.",
+      "action": "research",
+      "priority": 79,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Baltimore City Recreation and Parks",
+          "url": "https://bcrp.baltimorecity.gov/sites/default/files/Carroll%20Park%20Masterplan.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Baltimore",
+          "url": "https://www.baltimorecity.gov/news/press-releases/2024-08-13-mayor-scott-city-leaders-south-baltimore-gateway-partnership",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore Classic Five",
+          "url": "https://classic5golf.com/carroll-park/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Mount Clare Museum",
+          "url": "https://www.mountclare.org/historic-site/museum-house",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore City Recreation and Parks GIS",
+          "url": "https://geodata.baltimorecity.gov/egis/rest/services/CityView/BCRPServices/FeatureServer/4",
           "sourceType": "official"
         }
       ],
@@ -90501,6 +90643,51 @@
         {
           "label": "Downtown Detroit Partnership",
           "url": "https://downtowndetroit.org/experience-downtown/downtown-detroit-parks/campus-martius/",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
+      "id": "launch-md-baltimore-carroll-park:splash-pad",
+      "placeId": "launch-md-baltimore-carroll-park",
+      "placeName": "Carroll Park",
+      "placeType": "Park",
+      "city": "Baltimore",
+      "state": "MD",
+      "intentKey": "splash-pad",
+      "intentLabel": "Water play",
+      "question": "Is there a splash pad or water play at Carroll Park, and when does it operate?",
+      "reason": "No current, source-backed water play answer is cataloged.",
+      "action": "research",
+      "priority": 78,
+      "freshnessDays": 14,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Baltimore City Recreation and Parks",
+          "url": "https://bcrp.baltimorecity.gov/sites/default/files/Carroll%20Park%20Masterplan.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Baltimore",
+          "url": "https://www.baltimorecity.gov/news/press-releases/2024-08-13-mayor-scott-city-leaders-south-baltimore-gateway-partnership",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore Classic Five",
+          "url": "https://classic5golf.com/carroll-park/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Mount Clare Museum",
+          "url": "https://www.mountclare.org/historic-site/museum-house",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore City Recreation and Parks GIS",
+          "url": "https://geodata.baltimorecity.gov/egis/rest/services/CityView/BCRPServices/FeatureServer/4",
           "sourceType": "official"
         }
       ],
@@ -109192,6 +109379,51 @@
       "placeCoverageScore": 48
     },
     {
+      "id": "launch-md-baltimore-carroll-park:dog-area",
+      "placeId": "launch-md-baltimore-carroll-park",
+      "placeName": "Carroll Park",
+      "placeType": "Park",
+      "city": "Baltimore",
+      "state": "MD",
+      "intentKey": "dog-area",
+      "intentLabel": "Dog areas and rules",
+      "question": "Where can dogs go at Carroll Park, and what rules apply?",
+      "reason": "No current, source-backed dog areas and rules answer is cataloged.",
+      "action": "research",
+      "priority": 72,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Baltimore City Recreation and Parks",
+          "url": "https://bcrp.baltimorecity.gov/sites/default/files/Carroll%20Park%20Masterplan.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Baltimore",
+          "url": "https://www.baltimorecity.gov/news/press-releases/2024-08-13-mayor-scott-city-leaders-south-baltimore-gateway-partnership",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore Classic Five",
+          "url": "https://classic5golf.com/carroll-park/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Mount Clare Museum",
+          "url": "https://www.mountclare.org/historic-site/museum-house",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore City Recreation and Parks GIS",
+          "url": "https://geodata.baltimorecity.gov/egis/rest/services/CityView/BCRPServices/FeatureServer/4",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
       "id": "launch-ga-atlanta-cascade-springs-nature-preserve:dog-area",
       "placeId": "launch-ga-atlanta-cascade-springs-nature-preserve",
       "placeName": "Cascade Springs Nature Preserve",
@@ -124966,6 +125198,51 @@
       "placeCoverageScore": 48
     },
     {
+      "id": "launch-md-baltimore-carroll-park:picnic",
+      "placeId": "launch-md-baltimore-carroll-park",
+      "placeName": "Carroll Park",
+      "placeType": "Park",
+      "city": "Baltimore",
+      "state": "MD",
+      "intentKey": "picnic",
+      "intentLabel": "Picnic areas",
+      "question": "Where are picnic areas at Carroll Park, and do any require reservations?",
+      "reason": "No current, source-backed picnic areas answer is cataloged.",
+      "action": "research",
+      "priority": 68,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Baltimore City Recreation and Parks",
+          "url": "https://bcrp.baltimorecity.gov/sites/default/files/Carroll%20Park%20Masterplan.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Baltimore",
+          "url": "https://www.baltimorecity.gov/news/press-releases/2024-08-13-mayor-scott-city-leaders-south-baltimore-gateway-partnership",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore Classic Five",
+          "url": "https://classic5golf.com/carroll-park/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Mount Clare Museum",
+          "url": "https://www.mountclare.org/historic-site/museum-house",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore City Recreation and Parks GIS",
+          "url": "https://geodata.baltimorecity.gov/egis/rest/services/CityView/BCRPServices/FeatureServer/4",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
       "id": "launch-ga-atlanta-cascade-springs-nature-preserve:picnic",
       "placeId": "launch-ga-atlanta-cascade-springs-nature-preserve",
       "placeName": "Cascade Springs Nature Preserve",
@@ -140548,6 +140825,51 @@
         {
           "label": "Downtown Detroit Partnership",
           "url": "https://downtowndetroit.org/experience-downtown/downtown-detroit-parks/campus-martius/",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
+      "id": "launch-md-baltimore-carroll-park:shade",
+      "placeId": "launch-md-baltimore-carroll-park",
+      "placeName": "Carroll Park",
+      "placeType": "Park",
+      "city": "Baltimore",
+      "state": "MD",
+      "intentKey": "shade",
+      "intentLabel": "Shade and weather comfort",
+      "question": "Where can visitors find shade or weather shelter at Carroll Park?",
+      "reason": "No current, source-backed shade and weather comfort answer is cataloged.",
+      "action": "research",
+      "priority": 64,
+      "freshnessDays": 180,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Baltimore City Recreation and Parks",
+          "url": "https://bcrp.baltimorecity.gov/sites/default/files/Carroll%20Park%20Masterplan.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Baltimore",
+          "url": "https://www.baltimorecity.gov/news/press-releases/2024-08-13-mayor-scott-city-leaders-south-baltimore-gateway-partnership",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore Classic Five",
+          "url": "https://classic5golf.com/carroll-park/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Mount Clare Museum",
+          "url": "https://www.mountclare.org/historic-site/museum-house",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore City Recreation and Parks GIS",
+          "url": "https://geodata.baltimorecity.gov/egis/rest/services/CityView/BCRPServices/FeatureServer/4",
           "sourceType": "official"
         }
       ],
@@ -158667,6 +158989,51 @@
         {
           "label": "Downtown Detroit Partnership",
           "url": "https://downtowndetroit.org/experience-downtown/downtown-detroit-parks/campus-martius/",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
+      "id": "launch-md-baltimore-carroll-park:public-art",
+      "placeId": "launch-md-baltimore-carroll-park",
+      "placeName": "Carroll Park",
+      "placeType": "Park",
+      "city": "Baltimore",
+      "state": "MD",
+      "intentKey": "public-art",
+      "intentLabel": "Landmarks and public art",
+      "question": "Where are the landmarks or public art at Carroll Park, and how do visitors find them?",
+      "reason": "No current, source-backed landmarks and public art answer is cataloged.",
+      "action": "research",
+      "priority": 60,
+      "freshnessDays": 180,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Baltimore City Recreation and Parks",
+          "url": "https://bcrp.baltimorecity.gov/sites/default/files/Carroll%20Park%20Masterplan.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Baltimore",
+          "url": "https://www.baltimorecity.gov/news/press-releases/2024-08-13-mayor-scott-city-leaders-south-baltimore-gateway-partnership",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore Classic Five",
+          "url": "https://classic5golf.com/carroll-park/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Mount Clare Museum",
+          "url": "https://www.mountclare.org/historic-site/museum-house",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore City Recreation and Parks GIS",
+          "url": "https://geodata.baltimorecity.gov/egis/rest/services/CityView/BCRPServices/FeatureServer/4",
           "sourceType": "official"
         }
       ],
