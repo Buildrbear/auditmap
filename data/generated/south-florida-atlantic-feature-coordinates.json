@@ -1,6 +1,6 @@
 {
   "checkedAt": "2026-08-09",
-  "reviewMethod": "Official destination guidance, exact destination-specific photography, embedded WGS-84 coordinates, and reviewed park-boundary placement. Terramar is retained as an official campus exception because its mapped photo point falls just outside the current OpenStreetMap leisure polygon while the state park identifies it as the park visitor center.",
+  "reviewMethod": "Official destination guidance, exact destination-specific photography, embedded WGS-84 or named public-map coordinates, and reviewed park-campus placement. Terramar is retained as an official campus exception because its mapped photo point falls just outside the current OpenStreetMap leisure polygon while the state park identifies it as the park visitor center.",
   "places": {
     "launch-fl-fort-lauderdale-hugh-taylor-birch-state-park": {
       "terramar-visitor-center": {
@@ -41,6 +41,80 @@
         "boundarySource": "https://www.openstreetmap.org/way/49508471",
         "positionQuality": "reviewed-public-map-placement",
         "reviewStatus": "approved-feature-and-boundary-match",
+        "reviewedAt": "2026-08-09"
+      }
+    },
+    "launch-fl-west-palm-beach-dreher-park": {
+      "palm-beach-zoo-and-conservation-society": {
+        "name": "Palm Beach Zoo and Conservation Society",
+        "latitude": 26.6677514,
+        "longitude": -80.0687074,
+        "coordinateSource": "https://www.openstreetmap.org/way/549263102",
+        "officialMapSource": "https://www.wpb.org/Departments/Parks-Recreation/Parks/Dreher-Park",
+        "positionQuality": "reviewed-named-public-map-destination-centroid",
+        "checkedAt": "2026-08-10",
+        "imageIndex": 2,
+        "sourceLabel": "Palm Beach Zoo and Conservation Society",
+        "source": "https://www.palmbeachzoo.org/plan-your-visit",
+        "summary": "Palm Beach Zoo and Conservation Society is Dreher Park's 23-acre ticketed zoo, with shaded tropical paths, hundreds of animals, family amenities, dining, and separately reserved animal experiences.",
+        "cost": "Daytime admission uses variable pricing. Current online starting prices are $29.95 for adults age 13 and older, $27.95 for seniors age 60 and older, and $23.95 for children ages 3-12; children age 2 and younger enter free. Animal experiences, carousel rides, food, rentals, events, and other add-ons cost separately, and the live ticket page controls the final price.",
+        "hours": "The zoo is open daily from 9:00 a.m.-5:00 p.m., with last entry at 4:15 p.m. It is closed on Thanksgiving and Christmas Day. The zoo normally remains open in rain, but severe weather can change operations and separately scheduled experiences or amenities keep their own hours.",
+        "needToKnow": "Use the exact zoo pin and 1301 Summit Boulevard entrance rather than Dreher Park's south address. Parking is free and close to the entrance. Daytime tickets are nonrefundable and nontransferable, outside food and beverages are not permitted, most visits take two to four hours, and severe-weather updates appear on the zoo's live channels. Download the current digital zoo map before entering because printed maps are no longer provided.",
+        "answerSources": {
+          "fees": {
+            "source": "https://www.palmbeachzoo.org/buy-tickets-1",
+            "sourceLabel": "Palm Beach Zoo and Conservation Society"
+          },
+          "accessibility": {
+            "source": "https://www.palmbeachzoo.org/zoo-amenities",
+            "sourceLabel": "Palm Beach Zoo and Conservation Society"
+          }
+        },
+        "answers": {
+          "parking": "Palm Beach Zoo provides free parking steps from its 1301 Summit Boulevard entrance. Navigate to the exact zoo pin rather than Dreher Park's south address, and follow zoo signs because Dreher Park also serves the separately ticketed science center and public recreation areas.",
+          "restroom": "The zoo's current visitor page directs guests to a digital zoo map rather than publishing restroom locations in the general arrival text. Download the current map and ask Guest Services for the nearest restroom, family facility, or accessible route after entry rather than relying on an old printed map.",
+          "accessibility": "The zoo describes its paths as stroller-friendly and asks visitors who need accommodations to contact staff in advance. Wheelchairs and safari wagons are available for $10 on a first-come basis. Confirm a specific route or animal-experience accommodation before buying because behind-the-scenes experiences can have separate limitations.",
+          "dogs": "Pets are not permitted inside Palm Beach Zoo. Trained service animals are allowed under ADA guidelines; contact the zoo in advance when animal proximity or a specific accommodation may affect the visit.",
+          "family": "Most visitors spend two to four hours, and the shaded paths are stroller-friendly. Plan around the 4:15 p.m. last-entry cutoff, South Florida heat and storms, the outside-food prohibition, and the child's stamina. Animal experiences require separate admission and advance planning; do not promise a particular animal will be visible or participating."
+        },
+        "displayName": "Palm Beach Zoo and Conservation Society",
+        "reviewStatus": "approved-official-map-and-geotag-match",
+        "reviewedAt": "2026-08-09"
+      },
+      "cox-science-center-and-aquarium": {
+        "name": "Cox Science Center and Aquarium",
+        "latitude": 26.6693105,
+        "longitude": -80.069454,
+        "coordinateSource": "https://www.openstreetmap.org/way/628890641",
+        "officialMapSource": "https://www.wpb.org/Departments/Parks-Recreation/Parks/Dreher-Park",
+        "positionQuality": "reviewed-named-public-map-destination-centroid",
+        "checkedAt": "2026-08-10",
+        "imageIndex": 1,
+        "sourceLabel": "Cox Science Center and Aquarium",
+        "source": "https://www.coxsciencecenter.org/plan-your-visit",
+        "summary": "Cox Science Center and Aquarium is Dreher Park's ticketed science museum and aquarium, with hands-on exhibits, aquarium programs, planetarium and observatory experiences, outdoor science areas, and sensory-access resources.",
+        "cost": "Current general admission is $26 for adults, $22 for children ages 3-12, $24 for teens ages 13-17, and $24 for seniors age 60 and older; members enter free. Discounts, special programs, planetarium access, events, and future price changes can follow separate rules, so the live ticket page controls.",
+        "hours": "The center is open Monday-Friday from 9:00 a.m.-5:00 p.m. and Saturday-Sunday from 10:00 a.m.-6:00 p.m. It is closed on Thanksgiving and Christmas Day. Shows, the observatory, outdoor demonstrations, splash-pad use, construction areas, and special programs can operate on narrower or weather-dependent schedules.",
+        "needToKnow": "Enter Dreher Park from Southern Boulevard, turn onto Dreher Trail North, and continue to the exact science-center pin. Parking throughout Dreher Park is free. The operator is expanding the campus, so use its current construction link before visiting and expect route, exhibit, or bag-storage changes. Average exhibit time is about two hours; weekday field trips commonly leave by 1:30 p.m., and children under 13 must remain with an adult age 18 or older.",
+        "answerSources": {
+          "restroom": {
+            "source": "https://www.coxsciencecenter.org/community-engagement-accessibility",
+            "sourceLabel": "Cox Science Center and Aquarium"
+          },
+          "accessibility": {
+            "source": "https://www.coxsciencecenter.org/community-engagement-accessibility",
+            "sourceLabel": "Cox Science Center and Aquarium"
+          }
+        },
+        "answers": {
+          "parking": "Parking is free throughout Dreher Park. From Southern Boulevard, turn onto Dreher Trail North and continue to the science-center entrance and exact pin. Event days can make parking limited, so follow current signs and do not assume the adjacent zoo lot is the correct arrival point.",
+          "restroom": "Wheelchair-accessible, sensory-friendly restrooms are located throughout the science-center building; they do not use hand dryers or automatic flush mechanisms. Ask Guest Services for the nearest facility after entry because construction can change circulation.",
+          "accessibility": "The operator states that all exhibits and spaces are wheelchair accessible except the Observatory, where alternative accommodations are available. Complimentary wheelchairs are available by request in limited quantity. Sensory resources include quieter-time guidance, sensory-friendly restrooms, monthly Sensory Saturdays, and advice to bring noise-reducing headphones for the Planetarium or Theater.",
+          "dogs": "Non-service animals are not permitted inside the science center. Trained service dogs are welcome when controlled under the operator's ADA policy; review the detailed animal policy or contact Guest Services before a visit involving specific access needs.",
+          "family": "The average visit is about two hours, and children under 13 must remain with an adult age 18 or older. Check the live program schedule because aquarium interactions, demonstrations, observatory access, outdoor activities, and the splash pad can be weather-, event-, or construction-dependent. Weekday afternoons after 2:00 p.m. and weekend mornings from 10:00-11:00 a.m. are often quieter during the school year, but crowd levels are never guaranteed."
+        },
+        "displayName": "Cox Science Center and Aquarium",
+        "reviewStatus": "approved-official-map-and-geotag-match",
         "reviewedAt": "2026-08-09"
       }
     }

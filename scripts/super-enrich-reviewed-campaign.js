@@ -59,6 +59,12 @@ function featureAnswers(parent, feature) {
   const source = feature.source;
   const sourceLabel = feature.sourceLabel;
   const verifiedAt = feature.checkedAt || checkedAt;
+  const featureSource = (intent) => {
+    const selected = feature.answerSources?.[intent];
+    if (!selected) return { source, sourceLabel };
+    if (typeof selected === "string") return { source: selected, sourceLabel };
+    return { source: selected.source || source, sourceLabel: selected.sourceLabel || sourceLabel };
+  };
   const arrival = `Navigate to the exact ${feature.name} pin rather than the general ${parent.name} marker. ${feature.needToKnow}`;
   const parkingSource = inheritedSource(parent, "parking", "entrance", source, sourceLabel);
   const restroomSource = inheritedSource(parent, "restroom", null, source, sourceLabel);
@@ -67,7 +73,7 @@ function featureAnswers(parent, feature) {
   const familySource = inheritedSource(parent, "playground", null, source, sourceLabel);
   const override = (intent, fallback) => feature.answers?.[intent] || fallback;
   const answerSource = (intent, fallback) => feature.answers?.[intent]
-    ? { source, sourceLabel }
+    ? featureSource(intent)
     : fallback;
   const parking = override("parking", `${inherited(parent, "parking", "entrance", "Use the closest legal destination-specific parking or transit access.")} ${arrival}`);
   const restroom = override("restroom", inherited(parent, "restroom", null, "Restroom availability varies; identify an open staffed facility before arriving."));
@@ -75,15 +81,15 @@ function featureAnswers(parent, feature) {
   const dogs = override("dogs", `${inherited(parent, "dog-area", null, "Follow posted pet rules.")} Separately operated buildings, beaches, gardens, and attractions can set stricter rules.`);
   const family = override("family", `${feature.summary} ${inherited(parent, "playground", null, "Match the visit to the child's needs and supervise around roads, water, trails, and structures.")}`);
   return [
-    answer("location", `Where exactly is ${feature.name}?`, `${feature.summary} ${arrival}`, source, sourceLabel, verifiedAt),
+    answer("location", `Where exactly is ${feature.name}?`, `${feature.summary} ${arrival}`, featureSource("location").source, featureSource("location").sourceLabel, verifiedAt),
     answer("parking", `Where should I park for ${feature.name}?`, parking, answerSource("parking", parkingSource).source, answerSource("parking", parkingSource).sourceLabel, verifiedAt),
-    answer("hours", `When is ${feature.name} open?`, feature.hours, source, sourceLabel, verifiedAt),
+    answer("hours", `When is ${feature.name} open?`, feature.hours, featureSource("hours").source, featureSource("hours").sourceLabel, verifiedAt),
     answer("restroom", `Are there restrooms near ${feature.name}?`, restroom, answerSource("restroom", restroomSource).source, answerSource("restroom", restroomSource).sourceLabel, verifiedAt),
-    answer("fees", `What fees apply at ${feature.name}?`, feature.cost, source, sourceLabel, verifiedAt),
+    answer("fees", `What fees apply at ${feature.name}?`, feature.cost, featureSource("fees").source, featureSource("fees").sourceLabel, verifiedAt),
     answer("accessibility", `How accessible is ${feature.name}?`, accessibility, answerSource("accessibility", accessibilitySource).source, answerSource("accessibility", accessibilitySource).sourceLabel, verifiedAt),
     answer("dogs", `Are dogs allowed at ${feature.name}?`, dogs, answerSource("dogs", dogSource).source, answerSource("dogs", dogSource).sourceLabel, verifiedAt),
     answer("family", `Is ${feature.name} useful for a family visit?`, family, answerSource("family", familySource).source, answerSource("family", familySource).sourceLabel, verifiedAt),
-    answer("need-to-know", `What should I know before visiting ${feature.name}?`, feature.needToKnow, source, sourceLabel, verifiedAt),
+    answer("need-to-know", `What should I know before visiting ${feature.name}?`, feature.needToKnow, featureSource("need-to-know").source, featureSource("need-to-know").sourceLabel, verifiedAt),
   ];
 }
 

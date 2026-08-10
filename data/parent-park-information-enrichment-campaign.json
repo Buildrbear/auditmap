@@ -74792,6 +74792,197 @@
         }
       ],
       "verifiedAt": "2026-08-09"
+    },
+    "launch-fl-west-palm-beach-dreher-park": {
+      "operator": "City of West Palm Beach Parks and Recreation",
+      "sourceLabel": "City of West Palm Beach",
+      "source": "https://www.wpb.org/Parks",
+      "hours": "Outdoor park and pavilion use is generally available from sunrise to sunset; Palm Beach Zoo, Cox Science Center and Aquarium, rentals, and special facilities use separate hours.",
+      "cost": "General outdoor park, playground, trail, dog-park, disc-golf, fishing-dock, and open-field access is free; the zoo, science center, pavilion reservations, programs, and special activities charge separately.",
+      "summary": "Dreher Park is a large West Palm Beach cultural and recreation campus surrounding Palm Beach Zoo and Cox Science Center and Aquarium, with walking and biking trails, fitness stations, dog park, fishing dock, playgrounds, restrooms, disc golf, sand volleyball, open fields, grills, public art, and ten reservable picnic shelters.",
+      "searchAnswers": [
+        {
+          "intentKey": "hours",
+          "question": "What hours is Dreher Park open?",
+          "answer": "Outdoor park and pavilion use is generally sunrise to sunset. Palm Beach Zoo, Cox Science Center and Aquarium, reserved shelters, and special programs use their own admission hours and holiday schedules.",
+          "sourceLabel": "City of West Palm Beach",
+          "source": "https://www.wpb.org/Departments/Parks-Recreation/Facility-Pavilion-Rentals",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "entrance",
+          "question": "What address should I use for Dreher Park?",
+          "answer": "Use 5701 Dreher Trail South, West Palm Beach, FL 33405 for the general park. Route directly to Palm Beach Zoo or Cox Science Center when either ticketed attraction is your destination because each has its own entrance and parking flow.",
+          "sourceLabel": "City of West Palm Beach",
+          "source": "https://www.wpb.org/Parks",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "parking",
+          "question": "Where should I park at Dreher Park?",
+          "answer": "Parking is distributed among the general park, Palm Beach Zoo, Cox Science Center, playgrounds, shelters, and recreation areas. Follow destination signs and do not assume a museum or zoo lot is the closest choice for a free park feature.",
+          "sourceLabel": "City of West Palm Beach",
+          "source": "https://www.wpb.org/Departments/Parks-Recreation/Facility-Pavilion-Rentals",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Are there restrooms at Dreher Park?",
+          "answer": "Yes. The City lists restrooms among the outdoor park amenities. Zoo and science-center restrooms are within ticketed facilities and follow their operating hours, so use a confirmed park facility for a free visit.",
+          "sourceLabel": "City of West Palm Beach",
+          "source": "https://www.wpb.org/Parks",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "playground",
+          "question": "Are there playgrounds at Dreher Park?",
+          "answer": "Yes. The park has multiple playground areas among its free outdoor amenities, along with picnic shelters, grills, open fields, trails, fishing, volleyball, and disc golf.",
+          "sourceLabel": "City of West Palm Beach",
+          "source": "https://www.wpb.org/Departments/Parks-Recreation/Facility-Pavilion-Rentals",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "dog-area",
+          "question": "Is there a dog park at Dreher Park?",
+          "answer": "Yes. Dreher Park is one of West Palm Beach's designated dog-park locations. Dogs should remain leashed outside the off-leash enclosure and are subject to separate rules at the zoo and science-center properties.",
+          "sourceLabel": "City of West Palm Beach",
+          "source": "https://www.wpb.org/Departments/Parks-Recreation/Facility-Pavilion-Rentals",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "trail-surface",
+          "question": "Can I walk or bike at Dreher Park?",
+          "answer": "Yes. The City lists walking and biking trails plus outdoor fitness stations. The campus is spread around major ticketed attractions, roads, ponds, and recreation areas, so a park map is useful for choosing a loop.",
+          "sourceLabel": "City of West Palm Beach",
+          "source": "https://www.wpb.org/Parks",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "picnic",
+          "question": "Can I reserve a picnic shelter at Dreher Park?",
+          "answer": "Yes. Dreher Park has ten shelters of different sizes, with grills and nearby recreation. Reservation prices vary by shelter size and residency; unreserved use is subject to City rules and availability.",
+          "sourceLabel": "City of West Palm Beach",
+          "source": "https://www.wpb.org/Departments/Parks-Recreation/Facility-Pavilion-Rentals",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "fees",
+          "question": "Is Dreher Park free?",
+          "answer": "The outdoor park, trails, playgrounds, dog park, fishing dock, disc golf, and open fields are generally free. Palm Beach Zoo, Cox Science Center, shelter reservations, programs, and special events charge separately.",
+          "sourceLabel": "City of West Palm Beach",
+          "source": "https://www.wpb.org/Parks",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "closures",
+          "question": "What can affect Dreher Park access?",
+          "answer": "Zoo and science-center events, shelter reservations, field use, storms, maintenance, and special events can affect lots or individual areas. Check the City park page and the ticketed attraction's own notice before a feature-specific visit.",
+          "sourceLabel": "City of West Palm Beach",
+          "source": "https://www.wpb.org/Parks",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "shade",
+          "question": "Where can I find shade or weather shelter at Dreher Park?",
+          "answer": "Dreher Park has ten reservable picnic shelters in large, medium, and small sizes, with additional tree shade along portions of its trails, lakes, and picnic landscape. Open fields, playgrounds, fishing docks, disc-golf areas, and parking can be exposed. Palm Beach Zoo and Cox Science Center are separately ticketed destinations and should not be treated as free park shelter. Picnic roofs are not safe during lightning or hurricane-strength wind; use an open substantial building or enclosed vehicle.",
+          "sourceLabel": "City of West Palm Beach",
+          "source": "https://www.wpb.org/Departments/Parks-Recreation/Facility-Pavilion-Rentals",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "transit",
+          "question": "Can I take public transit to Dreher Park?",
+          "answer": "Yes, but expect a walk within the large campus. Palm Tran Route 60 stops at Summit Boulevard and Dreher Trail North near the park's north edge. Use Palm Tran's live planner for 5701 Dreher Trail South, Palm Beach Zoo, or Cox Science Center because each destination has a different best approach, and confirm the return trip before entering the park.",
+          "sourceLabel": "Palm Tran",
+          "source": "https://www.palmtran.org/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "splash-pad",
+          "question": "Is there a splash pad or swimming at Dreher Park?",
+          "answer": "No. West Palm Beach lists a decorative fountain, fishing pier, playgrounds, trails, fields, pavilions, and other dry recreation at Dreher Park, but it does not list a splash pad or public pool. The fountain and ponds are not water-play or swimming facilities. For splash play, use a separately designated City site such as Bill Moss Hillcrest Paseo, Coleman Park, or South Olive Park and verify its current operating or construction status first.",
+          "sourceLabel": "City of West Palm Beach",
+          "source": "https://www.wpb.org/Parks",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "public-art",
+          "question": "What are the main attractions and landmarks in Dreher Park?",
+          "answer": "Palm Beach Zoo and the Cox Science Center and Aquarium are the park's two major destination anchors, each with its own entrance, hours, admission, and parking guidance. The free municipal park around them includes a decorative fountain, listed public art, fishing dock, disc golf, dog park, trails, playgrounds, and picnic pavilions. Navigate directly to the zoo or science center for a ticketed visit; use 5701 Dreher Trail South for the general park and pavilion area.",
+          "sourceLabel": "City of West Palm Beach",
+          "source": "https://www.wpb.org/Departments/Parks-Recreation/Facility-Pavilion-Rentals",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        }
+      ],
+      "address": "5701 Dreher Trail S, West Palm Beach, FL 33405",
+      "image": {
+        "url": "/assets/parks/south-florida-atlantic-super/dreher-park/01-palm-beach-zoo.webp",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=147643680",
+        "author": "airwaves1",
+        "license": "BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "alt": "Tropical habitat and visitor landscape at Palm Beach Zoo in Dreher Park",
+        "width": 1600,
+        "height": 1000
+      },
+      "additionalImages": [
+        {
+          "url": "/assets/parks/south-florida-atlantic-super/dreher-park/02-south-florida-science-center-and-aquarium.webp",
+          "source": "https://commons.wikimedia.org/w/index.php?curid=29000170",
+          "author": "Joe",
+          "license": "BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "alt": "Exterior of the Dreher Park science-center campus now named Cox Science Center and Aquarium",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/south-florida-atlantic-super/dreher-park/03-palm-beach-zoo-at-dreher-park-11.webp",
+          "source": "https://commons.wikimedia.org/w/index.php?curid=22790989",
+          "author": "(WT-de) Mistoffeles",
+          "license": "BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "alt": "Visitor fountain plaza at Palm Beach Zoo in Dreher Park",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/south-florida-atlantic-super/dreher-park/04-palm-beach-zoo-2009.webp",
+          "source": "https://commons.wikimedia.org/w/index.php?curid=147643666",
+          "author": "airwaves1",
+          "license": "BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+          "alt": "Palm Beach Zoo entrance identity sign at Dreher Park",
+          "width": 1600,
+          "height": 1000
+        }
+      ],
+      "replaceImages": true,
+      "sources": [
+        {
+          "label": "Palm Beach Zoo and Conservation Society",
+          "url": "https://www.palmbeachzoo.org/plan-your-visit"
+        },
+        {
+          "label": "Cox Science Center and Aquarium",
+          "url": "https://www.coxsciencecenter.org/plan-your-visit"
+        }
+      ],
+      "verifiedAt": "2026-08-09"
     }
   }
 }

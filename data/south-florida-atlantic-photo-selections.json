@@ -1,6 +1,6 @@
 {
   "campaign": "South Florida Atlantic anchor connector",
-  "reviewedAt": "2026-08-09",
+  "reviewedAt": "2026-08-10",
   "reviewMethod": "Exact title and source match, reusable-rights check, destination review, and visitor-value review. Wildlife close-ups, unrelated places, proprietary images, and official images without explicit reuse rights were excluded.",
   "places": {
     "launch-fl-fort-lauderdale-hugh-taylor-birch-state-park": {
@@ -77,6 +77,82 @@
           "reviewNote": "The Commons file page identifies the named park, and visual review confirms The Grove's shaded café patio and visitor seating.",
           "alt": "The Grove café patio and shaded visitor seating at Hugh Taylor Birch State Park",
           "reviewedAt": "2026-08-09"
+        }
+      ]
+    },
+    "launch-fl-west-palm-beach-dreher-park": {
+      "name": "Dreher Park",
+      "candidates": [
+        {
+          "title": "Palm Beach Zoo",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Palm_Beach_Zoo.jpg",
+          "source": "https://commons.wikimedia.org/w/index.php?curid=147643680",
+          "creator": "airwaves1",
+          "creatorUrl": "https://www.flickr.com/photos/airwaves1/",
+          "license": "BY",
+          "licenseVersion": "2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+          "width": 3424,
+          "height": 1920,
+          "provider": "wikimedia",
+          "query": "Palm Beach Zoo Dreher Park",
+          "reviewStatus": "approved-destination-match",
+          "reviewNote": "The Commons file identifies Palm Beach Zoo, and visual review confirms a broad tropical habitat and visitor-path landscape at Dreher Park's major zoo destination.",
+          "alt": "Tropical habitat and visitor landscape at Palm Beach Zoo in Dreher Park",
+          "reviewedAt": "2026-08-10"
+        },
+        {
+          "title": "South Florida Science Center and Aquarium",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/South_Florida_Science_Center_and_Aquarium.jpg",
+          "source": "https://commons.wikimedia.org/w/index.php?curid=29000170",
+          "creator": "Joe",
+          "license": "BY-SA",
+          "licenseVersion": "3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "width": 3264,
+          "height": 2448,
+          "provider": "wikimedia",
+          "query": "Cox Science Center Dreher Park",
+          "reviewStatus": "approved-destination-match",
+          "reviewNote": "The Commons file identifies and geotags the science-center building at Dreher Park; the attraction is now named Cox Science Center and Aquarium.",
+          "alt": "Exterior of the Dreher Park science-center campus now named Cox Science Center and Aquarium",
+          "reviewedAt": "2026-08-10"
+        },
+        {
+          "title": "Palm Beach Zoo At Dreher Park-11",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Palm_Beach_Zoo_At_Dreher_Park-11.jpg",
+          "source": "https://commons.wikimedia.org/w/index.php?curid=22790989",
+          "creator": "(WT-de) Mistoffeles",
+          "creatorUrl": "https://en.wikivoyage.org/wiki/de:Benutzer:(WT-de)_Mistoffeles",
+          "license": "BY-SA",
+          "licenseVersion": "4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "width": 2048,
+          "height": 1536,
+          "provider": "wikimedia",
+          "query": "Palm Beach Zoo Dreher Park",
+          "reviewStatus": "approved-destination-match",
+          "reviewNote": "The Commons file explicitly identifies Palm Beach Zoo at Dreher Park, and visual review confirms the zoo's visitor fountain plaza.",
+          "alt": "Visitor fountain plaza at Palm Beach Zoo in Dreher Park",
+          "reviewedAt": "2026-08-10"
+        },
+        {
+          "title": "Palm Beach Zoo 2009",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Palm_Beach_Zoo_2009.jpg",
+          "source": "https://commons.wikimedia.org/w/index.php?curid=147643666",
+          "creator": "airwaves1",
+          "creatorUrl": "https://www.flickr.com/photos/airwaves1/",
+          "license": "BY",
+          "licenseVersion": "2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+          "width": 3456,
+          "height": 2592,
+          "provider": "wikimedia",
+          "query": "Palm Beach Zoo Dreher Park",
+          "reviewStatus": "approved-destination-match",
+          "reviewNote": "The Commons file identifies Palm Beach Zoo, and visual review confirms the destination's entrance identity sign rather than an animal close-up.",
+          "alt": "Palm Beach Zoo entrance identity sign at Dreher Park",
+          "reviewedAt": "2026-08-10"
         }
       ]
     }
