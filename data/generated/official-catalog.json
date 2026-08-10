@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T03:59:21.798Z",
+  "generatedAt": "2026-08-10T04:13:34.550Z",
   "places": [
     {
       "id": "basic-osm-way-33060929",
@@ -121627,10 +121627,52 @@
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
+        },
+        {
+          "key": "inasmuch-foundation-crystal-bridge-conservatory",
+          "label": "Inasmuch Foundation Crystal Bridge Conservatory",
+          "value": "The Inasmuch Foundation Crystal Bridge Conservatory is Myriad Botanical Gardens' ticketed indoor centerpiece, with tropical plant collections inside the cylindrical glass conservatory.",
+          "scope": "feature",
+          "featureId": "3551a23b-17dc-4168-8f07-f0b542170829",
+          "featureType": "destination",
+          "positionQuality": "reviewed-geotagged-destination-photo",
+          "sourceLabel": "Myriad Botanical Gardens",
+          "sourceUrl": "https://myriadgardens.org/visit-us/",
+          "checkedAt": "2026-08-10",
+          "expiresAt": null,
+          "sourceType": "official"
+        },
+        {
+          "key": "children-s-garden",
+          "label": "Children's Garden",
+          "value": "The Children's Garden is the family play area on the southwest side of Myriad Botanical Gardens, including imaginative outdoor spaces and the seasonal Thunder Fountain water-play area.",
+          "scope": "feature",
+          "featureId": "ed501177-6bd4-478d-bf68-a779080022d5",
+          "featureType": "destination",
+          "positionQuality": "reviewed-public-map-placement",
+          "sourceLabel": "Myriad Botanical Gardens",
+          "sourceUrl": "https://myriadgardens.org/visit-us/",
+          "checkedAt": "2026-08-10",
+          "expiresAt": null,
+          "sourceType": "official"
+        },
+        {
+          "key": "water-stage",
+          "label": "Water Stage",
+          "value": "Water Stage is Myriad Botanical Gardens' outdoor amphitheater and floating-looking stage on the lagoon, paired with the West Plaza for performances, ceremonies, and gatherings.",
+          "scope": "feature",
+          "featureId": "20091eb7-730a-423a-b5f4-a53b7ed8d5c6",
+          "featureType": "destination",
+          "positionQuality": "reviewed-public-map-placement",
+          "sourceLabel": "Myriad Botanical Gardens",
+          "sourceUrl": "https://myriadgardens.org/visit-us/rentals/water-stage-and-plaza/",
+          "checkedAt": "2026-08-10",
+          "expiresAt": null,
+          "sourceType": "official"
         }
       ],
       "unresolved": [
-        "Secure exact reviewed pins for the Crystal Bridge Conservatory, Thunder Fountain, Children's Garden, carousel, lawns, dog park, restrooms, and entrances before publishing separate pages."
+        "Published the Inasmuch Foundation Crystal Bridge Conservatory, Children's Garden, and Water Stage from exact named or geotagged locations, official visitor guidance, and destination-specific licensed photographs. Secure exact photo-and-pin pairs before adding Thunder Fountain separately, Mo's Carousel, Great Lawn, dog park, restrooms, or entrances."
       ]
     },
     {

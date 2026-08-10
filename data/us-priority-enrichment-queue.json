@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09",
+  "updatedAt": "2026-08-10",
   "strategy": "Complete geographically connected clusters before opening isolated metros.",
   "completedBaseline": {
     "verifiedAt": "2026-08-09",
@@ -45,7 +45,7 @@
       "name": "Southern inland connector",
       "parentGuides": 5,
       "licensedPhotos": 17,
-      "evidenceCompleteSubsites": 2,
+      "evidenceCompleteSubsites": 7,
       "parentAnswersPreserved": 72,
       "photoEvidenceDeferredParents": 4,
       "status": "partial-generated-and-verified"
@@ -87,7 +87,7 @@
       "name": "Southwest interior city connector",
       "parentGuides": 8,
       "licensedPhotos": 30,
-      "evidenceCompleteSubsites": 3,
+      "evidenceCompleteSubsites": 6,
       "parentAnswersPreserved": 116,
       "photoEvidenceDeferredParents": 1,
       "status": "partial-generated-and-verified"
@@ -129,11 +129,11 @@
     }
   ],
   "activeCluster": {
-    "name": "Birmingham city completion",
-    "reason": "Birmingham is the largest coherent city-level visitor-information gap remaining after the South Florida connector, with three existing parent guides ready for destination-level completion.",
-    "releaseStandard": "Keep the restored official parent answers visible, retain three to four licensed parent photos, and publish only Birmingham subsites with exact reviewed coordinates, destination-specific licensed photography, and complete visitor answers.",
-    "status": "birmingham-evidence-complete-subsites-generated-photo-gaps-deferred",
-    "metros": ["Birmingham"],
+    "name": "Oklahoma City completion",
+    "reason": "Oklahoma City is the next compact, high-impact metro with three existing parent guides, complete licensed parent galleries, and several destination-level photo-and-coordinate matches ready for release.",
+    "releaseStandard": "Keep official parent answers visible, retain four licensed parent photos, and publish only Oklahoma City subsites with exact reviewed coordinates, destination-specific licensed photography, and complete visitor answers.",
+    "status": "myriad-evidence-complete-subsites-in-progress",
+    "metros": ["Oklahoma City"],
     "resumeCheckpoint": {
       "pausedAt": "2026-08-10",
       "completed": [
@@ -147,7 +147,7 @@
         "Published Red Mountain Park's Frankfurt Drive Entrance from current operator guidance, an official trail map, and a geotagged licensed entrance photograph.",
         "Deferred Red Mountain Park's remaining subsites rather than publishing unmatched photos or uncertain destination coordinates."
       ],
-      "nextAction": "Carry the unresolved Red Mountain photo missions forward, then begin the next high-impact cluster selected from the nationwide coverage gaps; return when exact reusable photo-and-coordinate pairs surface for the Sensory Trail, Remy's Dog Park, mine portals, treehouses, quarry, and overlooks.",
+      "nextAction": "Publish the three evidence-complete Myriad Botanical Gardens destinations, verify the Oklahoma City cluster, and retain Scissortail Park and Lake Hefner photo missions until exact reusable destination-photo pairs surface.",
       "notReleased": true,
       "productionPublished": false
     }
@@ -169,7 +169,7 @@
     "Lions Park in Cheyenne needs broad current views of Sloan's Lake, playgrounds, spray park, aquatic center, fields, shelters, and park circulation rather than Botanic Gardens close-ups alone."
   ],
   "nextClusters": [
-    "Complete Birmingham's evidence-backed subsite pages after the nationwide parent-answer recovery is deployed.",
+    "Complete Oklahoma City's evidence-backed Myriad Botanical Gardens subsite pages after the nationwide parent-answer recovery is deployed.",
     "Revisit the deferred South Florida parents only when representative reusable photography clears review."
   ]
 }

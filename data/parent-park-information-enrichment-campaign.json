@@ -71522,6 +71522,149 @@
       "verifiedAt": "2026-08-08"
     },
     "launch-nm-albuquerque-balloon-fiesta-park": {
+      "operator": "City of Albuquerque Parks and Recreation",
+      "sourceLabel": "City of Albuquerque",
+      "source": "https://www.cabq.gov/parksandrecreation/parks/balloon-fiesta-park/accessing-balloon-fiesta-park",
+      "hours": "General public access varies by day and can be restricted for balloon operations, field users, and special events. City park-use materials list 7:00 a.m. to 9:00 p.m. as the general operating window, but visitors should confirm same-day access.",
+      "cost": "Ordinary public access is generally free. Major events, parking, field reservations, automated vehicle gate cards, museum admission, golf, and other facilities may charge separately.",
+      "summary": "Balloon Fiesta Park is Albuquerque's large ballooning and event campus, centered on the North Launch Field and connected to the Anderson-Abruzzo Albuquerque International Balloon Museum, Golf and Event Center, Sid Cutter Pilots' Pavilion, large parking fields, and the North Diversion Channel Trail. Ordinary recreation access is secondary to scheduled operations and events.",
+      "searchAnswers": [
+        {
+          "intentKey": "entrance",
+          "question": "Which entrance should I use for Balloon Fiesta Park?",
+          "answer": "Use the northern entrance from I-25 Exit 234 and Balloon Fiesta Parkway for special events and field activities. Use the southern entrance from I-25 Exit 233, Alameda Road, and Balloon Museum Drive for the Golf and Event Center, Sid Cutter Pilots' Pavilion, and Balloon Museum.",
+          "sourceLabel": "City of Albuquerque",
+          "source": "https://www.cabq.gov/parksandrecreation/parks/balloon-fiesta-park/accessing-balloon-fiesta-park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "hours",
+          "question": "Can I visit Balloon Fiesta Park on an ordinary day?",
+          "answer": "Usually, but access varies. Remote-control flyers typically have exclusive field use until noon, and events can limit daily users, roads, parking, pedestrian gates, or the launch field. City use rules identify 7:00 a.m. to 9:00 p.m. as the general window; call the Golf and Event Center for same-day field access.",
+          "sourceLabel": "City of Albuquerque",
+          "source": "https://www.cabq.gov/parksandrecreation/parks/balloon-fiesta-park/accessing-balloon-fiesta-park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "parking",
+          "question": "Where should I park at Balloon Fiesta Park?",
+          "answer": "Parking depends on the destination and event. The southern entrance serves Balloon Museum, Golf and Event Center, and pavilion lots; the northern entrance serves launch-field activities and event parking. Never assume a major-event traffic plan, parking price, or gate is the same as ordinary access.",
+          "sourceLabel": "City of Albuquerque",
+          "source": "https://www.cabq.gov/parksandrecreation/parks/balloon-fiesta-park/accessing-balloon-fiesta-park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "transit",
+          "question": "Can I walk or bike to Balloon Fiesta Park?",
+          "answer": "Yes, when event restrictions allow. Pedestrians can approach from the north and south. Walkers and cyclists can connect from the North Diversion Channel Trail through Alameda Boulevard Trail East to Balloon Museum Drive or through gate 21 during Golf and Event Center public hours.",
+          "sourceLabel": "City of Albuquerque",
+          "source": "https://www.cabq.gov/parksandrecreation/parks/balloon-fiesta-park/accessing-balloon-fiesta-park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "fees",
+          "question": "Is Balloon Fiesta Park free?",
+          "answer": "Ordinary public use is generally free, but major festivals and events may charge admission or parking. Museum admission, golf, reservations, special activities, and a $25 annual automated vehicle gate card are separate.",
+          "sourceLabel": "City of Albuquerque",
+          "source": "https://www.cabq.gov/parksandrecreation/parks/balloon-fiesta-park/accessing-balloon-fiesta-park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "accessibility",
+          "question": "Is accessible parking available at Balloon Fiesta Park?",
+          "answer": "Accessible parking is provided for major city events in designated north and south lots, but the exact traffic plan and closest accessible route change by event. Check the event-specific access page rather than relying on a general park map.",
+          "sourceLabel": "City of Albuquerque",
+          "source": "https://www.cabq.gov/artsculture/things-to-do/annual-events/freedom-4th",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "dog-area",
+          "question": "Can dogs visit Balloon Fiesta Park?",
+          "answer": "Do not assume pets are allowed. City park-use rules state that dogs other than service animals require advance permission and must remain leashed; individual events may prohibit pets entirely.",
+          "sourceLabel": "City of Albuquerque",
+          "source": "https://www.cabq.gov/parksandrecreation/documents/bfp-user-event-2019-application-1.pdf/@@download/file/BFP%20User%20Event%202019%20Application%20fillable.pdf",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "closures",
+          "question": "Why might Balloon Fiesta Park be unavailable?",
+          "answer": "Balloon operations, remote-control flying, field practice, festivals, private reservations, temporary road plans, and weather can restrict ordinary access. The North Launch Field, pavilion, and Golf and Event Center are reserved for the annual Balloon Fiesta during September and October. Confirm current availability before making a dedicated trip.",
+          "sourceLabel": "City of Albuquerque",
+          "source": "https://www.cabq.gov/parksandrecreation/parks/balloon-fiesta-park/reserving-balloon-fiesta-park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Are public restrooms available at Balloon Fiesta Park?",
+          "answer": "Yes. Albuquerque lists public restrooms at the field, Event Center, Pilots' Pavilion, and Public Safety Building, normally available daily from 6 a.m. to 10 p.m. Event controls or facility reservations can still limit the closest route.",
+          "sourceLabel": "City of Albuquerque",
+          "source": "https://www.cabq.gov/public-restrooms",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "public-art",
+          "question": "Is the Balloon Museum part of Balloon Fiesta Park?",
+          "answer": "The Anderson-Abruzzo Albuquerque International Balloon Museum is on the park's southern side at 9201 Balloon Museum Drive. It is a separately operated museum with its own admission and schedule, normally Tuesday through Sunday, and expanded hours during Balloon Fiesta.",
+          "sourceLabel": "City of Albuquerque",
+          "source": "https://www.cabq.gov/artsculture/balloonmuseum/about/visitor-info/balloon-museum-hours",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "shade",
+          "question": "Where can visitors find shade or weather shelter at Balloon Fiesta Park?",
+          "answer": "The launch field is a broad, high-desert event space with very little dependable natural shade. The Event Center, Sid Cutter Pilots' Pavilion, Public Safety Building, and Balloon Museum are not general-purpose shelters and may be closed, reserved, ticketed, or restricted by an event. Bring water and sun protection for ordinary visits; during lightning, high wind, dust, or dangerous heat, return to an open substantial building or vehicle rather than remaining on the field.",
+          "sourceLabel": "City of Albuquerque",
+          "source": "https://www.cabq.gov/parksandrecreation/parks/balloon-fiesta-park/accessing-balloon-fiesta-park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "trail-surface",
+          "question": "What are the walking and rolling surfaces at Balloon Fiesta Park?",
+          "answer": "Paved multi-use routes connect Balloon Museum Drive, the North Diversion Channel Trail, Alameda Trail, museum area, and major park entrances. Inside the park, the 86-acre launch field is mostly broad turf with paved roads and paths around it; grass can be uneven, soft, dusty, muddy, or covered by temporary event flooring and barriers. Balloon Fiesta and other large events create long walks and event-specific accessible routes, so use that event's current map rather than the ordinary daily-use layout.",
+          "sourceLabel": "City of Albuquerque",
+          "source": "https://www.cabq.gov/planning/documents/BalloonFiestaMasterPlan2012Update.pdf",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "playground",
+          "question": "Is there a playground at Balloon Fiesta Park?",
+          "answer": "Balloon Fiesta Park does not advertise a conventional daily-use playground. During the ticketed Albuquerque International Balloon Fiesta, family activities include the hands-on Balloon Discovery Center, entertainment, and an event Kids Zone shown on the current guest map; these are temporary event features, not year-round park amenities. Outside major events, use the park for scheduled recreation, trails, fields, and museum-area visits, and choose another Albuquerque park for swings or slides. During Fiesta, follow the current map and keep children close on the active launch field.",
+          "sourceLabel": "Albuquerque International Balloon Fiesta",
+          "source": "https://www.balloonfiesta.com/plan-your-visit/faqs/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "picnic",
+          "question": "Can I bring a picnic to Balloon Fiesta Park?",
+          "answer": "During Balloon Fiesta sessions, guests may bring food, folding chairs, blankets, and a soft-sided cooler or bag, but security will inspect belongings. Glass, alcohol, hard-sided coolers, smoking, and pets other than service animals are prohibited. A limited number of picnic tables and benches are on the east side of the Launch Field along Main Street, so bring a chair or blanket rather than relying on a table. Rules for ordinary non-event park use can differ by scheduled activity.",
+          "sourceLabel": "Albuquerque International Balloon Fiesta",
+          "source": "https://balloonfiesta.com/Allowed",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "splash-pad",
+          "question": "Does Balloon Fiesta Park have a splash pad or swimming pool?",
+          "answer": "No splash pad or public swimming pool is listed at Balloon Fiesta Park. The site is a large launch field and event venue, and temporary event installations should not be mistaken for permanent water play. Albuquerque's operating spray pads are at separately named locations such as Alamosa, Phil Chacon Park, and Civic Plaza, each with seasonal hours and maintenance closures; check the live City list before visiting.",
+          "sourceLabel": "City of Albuquerque",
+          "source": "https://www.cabq.gov/parksandrecreation/recreation/swimming/spray-pads",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        }
+      ],
       "address": "5500 Balloon Fiesta Parkway NE, Albuquerque, NM 87113",
       "image": {
         "url": "/assets/parks/southwest-interior-super/balloon-fiesta-park/01-balloon-fiesta-fiesta-park-albuquerque-new-mexico.webp",
@@ -71570,6 +71713,149 @@
       "verifiedAt": "2026-08-08"
     },
     "launch-nm-albuquerque-elena-gallegos-open-space": {
+      "operator": "City of Albuquerque Open Space Division",
+      "sourceLabel": "City of Albuquerque",
+      "source": "https://www.cabq.gov/parksandrecreation/open-space/lands/elena-gallegos-open-space",
+      "hours": "Elena Gallegos Open Space is open 7:00 a.m. to 7:00 p.m. from November 1 through March 30 and 7:00 a.m. to 9:00 p.m. from April 1 through October 31.",
+      "cost": "Vehicle admission is $1 Monday through Friday and $2 Saturday and Sunday. Group reservation areas have separate fees.",
+      "summary": "Elena Gallegos Open Space is a 640-acre Sandia foothills park and picnic area at about 6,500 feet, with seven covered picnic areas, reservable shelters, multi-use hiking, biking, and equestrian trails, wilderness connections, an information center, and the half-mile paved Cottonwood Springs accessible trail to a wildlife blind.",
+      "searchAnswers": [
+        {
+          "intentKey": "entrance",
+          "question": "How do I enter Elena Gallegos Open Space?",
+          "answer": "From Tramway Boulevard, turn east onto Simms Park Road after the Academy Road traffic light and continue to the information center and one-way picnic-area road. The official address is 7100 Tramway Boulevard NE.",
+          "sourceLabel": "City of Albuquerque",
+          "source": "https://www.cabq.gov/parksandrecreation/open-space/lands/elena-gallegos-open-space",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "parking",
+          "question": "Where do I park at Elena Gallegos Open Space?",
+          "answer": "Continue past the former envelope booth and pay at one of the three trailhead pay stations, then park in the lot serving your trailhead or picnic area. Reserved Kiwanis and Double Shelter areas have their own directed approaches and limited designated parking.",
+          "sourceLabel": "City of Albuquerque",
+          "source": "https://www.cabq.gov/parksandrecreation/open-space/lands/elena-gallegos-open-space",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "hours",
+          "question": "What hours is Elena Gallegos Open Space open?",
+          "answer": "Winter hours are 7:00 a.m. to 7:00 p.m. from November 1-March 30. Summer hours are 7:00 a.m. to 9:00 p.m. from April 1-October 31. Leave before the gate closes to avoid a vehicle lock-in.",
+          "sourceLabel": "City of Albuquerque",
+          "source": "https://www.cabq.gov/parksandrecreation/open-space/lands/elena-gallegos-open-space",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "fees",
+          "question": "How much does Elena Gallegos Open Space cost?",
+          "answer": "Vehicle admission is $1 Monday-Friday and $2 Saturday-Sunday. Pay at a trailhead pay station. Reservable group areas use separate rates based on area, day, and group size.",
+          "sourceLabel": "City of Albuquerque",
+          "source": "https://www.cabq.gov/parksandrecreation/open-space/lands/elena-gallegos-open-space",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "accessibility",
+          "question": "Is there an accessible trail at Elena Gallegos?",
+          "answer": "Yes. The half-mile paved Cottonwood Springs Trail starts at a designated trailhead and leads to a pond and wildlife blind, with shaded rest stops and interpretive artwork. Other foothill and wilderness trails have natural surfaces, elevation change, and rocky terrain.",
+          "sourceLabel": "City of Albuquerque",
+          "source": "https://www.cabq.gov/parksandrecreation/open-space/go-beyond-about-open-space-lands/special-interest-places",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "picnic",
+          "question": "Can I picnic or reserve a shelter at Elena Gallegos?",
+          "answer": "Yes. Seven covered picnic areas are available, and the Kiwanis and Double Shelter areas can be reserved for groups. Kiwanis accommodates up to 250 people; Double Shelter is intended for groups up to 50. Reserve early because demand is high.",
+          "sourceLabel": "City of Albuquerque",
+          "source": "https://www.cabq.gov/parksandrecreation/open-space/facilities/rental-facilities",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Are there restrooms at Elena Gallegos?",
+          "answer": "Restroom facilities serve the developed picnic and reservation areas; the Kiwanis area specifically lists pit toilets. Trail users should use developed facilities before continuing toward remote foothill or wilderness routes.",
+          "sourceLabel": "City of Albuquerque",
+          "source": "https://www.cabq.gov/parksandrecreation/open-space/facilities/rental-facilities",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "closures",
+          "question": "What should I check before visiting Elena Gallegos?",
+          "answer": "Check current fire restrictions, grill rules, weather, trail conditions, and posted notices. At roughly 6,500 feet the area is exposed to heat, sun, wind, storms, and winter conditions; wildlife and wilderness access require normal backcountry awareness.",
+          "sourceLabel": "City of Albuquerque",
+          "source": "https://www.cabq.gov/parksandrecreation/open-space/lands/elena-gallegos-open-space",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "shade",
+          "question": "Where can I find shade at Elena Gallegos Open Space?",
+          "answer": "Seven covered picnic areas provide the most dependable shade, and the reservable Kiwanis and Double Shelter areas offer larger roofs near restrooms and trailheads. Cottonwood Springs Trail also has shaded rest stops. Most trails cross exposed high-desert terrain with sparse piñon and juniper cover, so carry water and sun protection and leave ridges or open ground when thunderstorms approach.",
+          "sourceLabel": "City of Albuquerque",
+          "source": "https://www.cabq.gov/parksandrecreation/open-space/lands/elena-gallegos-open-space",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "trail-surface",
+          "question": "What are the walking surfaces and slopes at Elena Gallegos Open Space?",
+          "answer": "Cottonwood Springs Trail is the easiest option: a roughly quarter-mile, ten-foot-wide concrete accessible trail with shaded rest stops leading to a pond and wildlife blind. The broader network is very different, using natural high-desert surfaces with rocks, loose gravel, roots, drainage crossings, and sustained climbs toward Sandia Mountain Wilderness. Multi-use routes also carry mountain bikes and horses, while two trails are foot-traffic only; use the official trail map and choose a route that matches mobility, footwear, heat, and weather conditions.",
+          "sourceLabel": "City of Albuquerque",
+          "source": "https://www.cabq.gov/parksandrecreation/open-space/lands/elena-gallegos-open-space",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "playground",
+          "question": "Is there a playground at Elena Gallegos Open Space?",
+          "answer": "The City does not list a conventional playground at Elena Gallegos. This is a mountain open-space and picnic destination centered on trails, wildlife viewing, outdoor education, reservable picnic areas, and natural terrain; the Kiwanis reservation area adds a volleyball net and horseshoe pit rather than children's play equipment. For the easiest family outing, use the short concrete Cottonwood Springs Trail and a developed picnic area, while supervising children closely around cactus, wildlife, heat, loose rock, and trail traffic.",
+          "sourceLabel": "City of Albuquerque Open Space",
+          "source": "https://www.cabq.gov/parksandrecreation/open-space/lands/elena-gallegos-open-space",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "dog-area",
+          "question": "Can dogs hike at Elena Gallegos Open Space?",
+          "answer": "Yes, but all pets must remain under direct supervision on a leash no longer than eight feet throughout Elena Gallegos and other Albuquerque Open Space lands. There is no off-leash exception on the trails or in picnic areas. Carry out waste, keep dogs away from wildlife, horses, cactus, and cliff or drainage edges, and note that guided wildlife programs may ask participants to leave pets at home even though ordinary leashed access is allowed.",
+          "sourceLabel": "City of Albuquerque",
+          "source": "https://www.cabq.gov/parksandrecreation/resources-rules/open-space-rules-etiquette/open-space-rules-regulations-etiquette",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "transit",
+          "question": "Can I take public transit to Elena Gallegos Open Space?",
+          "answer": "No fixed-route bus enters Elena Gallegos Open Space. Albuquerque's official planning record identifies the nearest Route 1 stop at Academy Road and Lowell Street, about 2.5 miles away and roughly a 50-minute uphill walk from the recreation area. Do not plan this as an ordinary bus trip, especially in heat or after hiking; arrange a car, taxi, rideshare, bicycle approach, or pickup and confirm your return before entering the trails.",
+          "sourceLabel": "City of Albuquerque",
+          "source": "https://documents.cabq.gov/planning/environmental-planning-commission/2024/12-December/Agenda_1_PR-2024-011178_SI-2024-01578_ElenaGallegosExtraordinaryFacility.pdf",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "splash-pad",
+          "question": "Is there a splash pad or swimming at Elena Gallegos Open Space?",
+          "answer": "No. Elena Gallegos is a high-desert trail and picnic area with covered shelters, restrooms, drinking water at developed facilities, and a small wildlife pond reached by the accessible Cottonwood Springs Trail, but it has no splash pad or public pool. The pond is for habitat observation and education, not swimming or wading. Carry more drinking water than expected and use a separately listed Albuquerque aquatic center for water play.",
+          "sourceLabel": "City of Albuquerque",
+          "source": "https://www.cabq.gov/parksandrecreation/open-space/lands/elena-gallegos-open-space",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "public-art",
+          "question": "What is the best short interpretive walk at Elena Gallegos Open Space?",
+          "answer": "Use the accessible Cottonwood Springs Trail on the north side of the picnic area. It leads to a wildlife pond and blind, with shaded rest stops featuring original interpretive artwork by Margie O'Brien. For broad Sandia and city views, continue through the developed picnic loop or choose a longer signed trail. The Kiwanis and Double Shelter reservation areas are separate group facilities, not trailhead landmarks.",
+          "sourceLabel": "City of Albuquerque",
+          "source": "https://www.cabq.gov/parksandrecreation/open-space/lands/elena-gallegos-open-space",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        }
+      ],
       "address": "7100 Tramway Boulevard NE, Albuquerque, NM 87122",
       "image": {
         "url": "/assets/parks/southwest-interior-super/elena-gallegos-open-space/01-trail-in-elena-gallegos-open-space.webp",
@@ -71618,6 +71904,149 @@
       "verifiedAt": "2026-08-08"
     },
     "launch-nm-albuquerque-tingley-beach-and-bosque": {
+      "operator": "City of Albuquerque ABQ BioPark",
+      "sourceLabel": "City of Albuquerque",
+      "source": "https://www.cabq.gov/artsculture/biopark/tingley/tingley-beach/",
+      "hours": "The fishing ponds, public restrooms, and trails are open daily from sunrise to sunset. The train station and cafe are currently closed.",
+      "cost": "General access, parking, trails, and pond use are free. Anglers age 12 and older need a current New Mexico fishing license.",
+      "summary": "Tingley Beach is a free ABQ BioPark recreation area beside the Rio Grande bosque, with three fishing ponds, picnic lawns, accessible fishing ramps, restrooms, walking and fitness paths, and direct access to the Paseo del Bosque Trail. Swimming is not allowed.",
+      "searchAnswers": [
+        {
+          "intentKey": "entrance",
+          "question": "Where is the entrance to Tingley Beach?",
+          "answer": "Navigate to 1800 Tingley Drive, just south of Central Avenue. Gated vehicle entrances from Tingley Drive serve lots north of the train station and between the Central and South ponds.",
+          "sourceLabel": "City of Albuquerque",
+          "source": "https://www.cabq.gov/artsculture/biopark/about-the-biopark/biopark-faq",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "parking",
+          "question": "Where should I park at Tingley Beach?",
+          "answer": "Use either of the two lots entered from Tingley Drive or legal parallel spaces along the gravel road west of the ponds. Do not park on cement paths, landscaping, or the ditch maintenance road west of Tingley Drive.",
+          "sourceLabel": "City of Albuquerque",
+          "source": "https://www.cabq.gov/artsculture/biopark/about-the-biopark/biopark-faq",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "hours",
+          "question": "What hours is Tingley Beach open?",
+          "answer": "The ponds, public restrooms, and trails are open every day from sunrise to sunset. The train station and cafe are currently closed, so bring water and food rather than relying on concessions.",
+          "sourceLabel": "City of Albuquerque",
+          "source": "https://www.cabq.gov/artsculture/biopark/tingley/tingley-beach/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "fees",
+          "question": "Is Tingley Beach free?",
+          "answer": "Yes. Admission, parking, trails, and pond access are free and first-come, first-served. Anglers age 12 and older must separately obtain a current New Mexico fishing license; licenses are not sold on site.",
+          "sourceLabel": "City of Albuquerque",
+          "source": "https://www.cabq.gov/artsculture/biopark/tingley/rules-and-regulations",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "accessibility",
+          "question": "Where can a wheelchair user fish at Tingley Beach?",
+          "answer": "The Children's Pond has an accessible ramp, the Central Pond has a wheelchair-accessible ramp in front of the train station, and the Model Boat Pond has a ramp to the water's edge. Fishing users with mobility disabilities receive preference at designated ramps.",
+          "sourceLabel": "City of Albuquerque",
+          "source": "https://www.cabq.gov/artsculture/biopark/about-the-biopark/biopark-faq",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "trail-surface",
+          "question": "Can I reach the bosque trail from Tingley Beach?",
+          "answer": "Yes. Paved walking and fitness paths around the ponds connect to the Paseo del Bosque Trail, with additional unpaved multi-use paths in the Rio Grande bosque. Use the official map to choose the pond or trail connection you need.",
+          "sourceLabel": "City of Albuquerque",
+          "source": "https://www.cabq.gov/artsculture/biopark/documents/tingley-map.pdf",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Are restrooms open at Tingley Beach?",
+          "answer": "Public restrooms are available during the posted sunrise-to-sunset park hours. Concession and train-station closures do not mean the outdoor park and public restrooms are closed.",
+          "sourceLabel": "City of Albuquerque",
+          "source": "https://www.cabq.gov/artsculture/biopark/about-the-biopark/biopark-faq",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "closures",
+          "question": "Can I swim or boat at Tingley Beach?",
+          "answer": "No swimming or wading is allowed. Rafts and ordinary boats are prohibited; only designated model boats may use their specified pond. The Train Station and cafe are currently closed, and grills can close during fire restrictions.",
+          "sourceLabel": "City of Albuquerque",
+          "source": "https://www.cabq.gov/artsculture/biopark/tingley",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "dog-area",
+          "question": "Are dogs allowed at Tingley Beach?",
+          "answer": "Yes. Dogs are welcome but must remain leashed, and owners must remove all waste. Keep pets out of every pond and respect wildlife and anglers around narrow shoreline paths.",
+          "sourceLabel": "City of Albuquerque",
+          "source": "https://www.cabq.gov/artsculture/biopark/tingley/rules-and-regulations",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "picnic",
+          "question": "Can I picnic or grill at Tingley Beach?",
+          "answer": "Yes. Picnic tables, covered picnic areas, and charcoal grills are located around the ponds, and visitors may bring their own food. Grilling can be prohibited during fire season, no alcohol is allowed, and events over 50 people require permits.",
+          "sourceLabel": "City of Albuquerque",
+          "source": "https://www.cabq.gov/artsculture/biopark/about-the-biopark/biopark-faq",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "public-art",
+          "question": "Which pond should I use at Tingley Beach?",
+          "answer": "Central Pond allows anglers of all ages; Children's Pond is for anglers age 12 and under; Bob Gerding Pond is catch-and-release fly and lure fishing with single barbless hooks; and the separate Model Boat Pond is for qualifying model craft. Everyone age 12 or older needs a New Mexico fishing license to fish.",
+          "sourceLabel": "City of Albuquerque",
+          "source": "https://www.cabq.gov/artsculture/biopark/tingley/fishing",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "shade",
+          "question": "Where can I find shade at Tingley Beach and in the Bosque?",
+          "answer": "Tingley Beach has five shade structures: covered picnic tables on the Central Pond peninsula and at the Boat Pond, plus covered benches at the Boat Pond. Cottonwoods provide intermittent shade on bosque routes, but pond edges, parking, and long trail stretches remain exposed to high-desert sun. The seasonal cafe and train-station facilities are not dependable all-day refuges. Carry water and use an open substantial building or enclosed vehicle for lightning, high wind, dust, or dangerous heat.",
+          "sourceLabel": "City of Albuquerque",
+          "source": "https://www.cabq.gov/artsculture/biopark/news/renovations-to-seating-and-shade-at-tingley-beach",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "playground",
+          "question": "Is there a playground at Tingley Beach?",
+          "answer": "The City classifies Tingley Beach as open space and does not list playground equipment there. It is intended for fishing ponds, model boats, walking, wildlife, picnics, and Bosque access; swimming and wading are prohibited. Do not confuse it with the separate Tingley Park near Coal Avenue and 10th Street, which the City lists with shaded playgrounds, fields, picnic space, and restrooms. Use the exact destination name and address before navigating, and supervise children continuously beside every pond.",
+          "sourceLabel": "City of Albuquerque",
+          "source": "https://www.cabq.gov/parksandrecreation/accessible-city-park-recreation-facilities",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "splash-pad",
+          "question": "Can visitors swim at Tingley Beach?",
+          "answer": "No. Despite the name, Tingley Beach's ponds are for regulated fishing and designated model or rental boats; Albuquerque prohibits swimming and wading. The lakes, restrooms, and trails are free and open sunrise to sunset, but every child should remain supervised at the water's edge. Rio Grande Outdoor Pool is a separate seasonal City pool just east of Tingley Beach with admission, wristbands, and scheduled swim sessions.",
+          "sourceLabel": "City of Albuquerque BioPark",
+          "source": "https://www.cabq.gov/artsculture/biopark/tingley/rules-and-regulations",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "transit",
+          "question": "Which bus goes to Tingley Beach?",
+          "answer": "ABQ RIDE Route 66 and ART Route 766 stop at Central Avenue and Tingley Drive, the official transit approach for Tingley Beach and the nearby Botanic Garden and Aquarium. From Central, walk south on Tingley Drive toward the fishing ponds; do not confuse Tingley Beach with Tingley Park near the Zoo. ABQ RIDE is zero-fare, and the City recommends its Transit app for live arrivals and construction-related changes.",
+          "sourceLabel": "City of Albuquerque",
+          "source": "https://www.cabq.gov/transit/rider-resources/albuquerque-destinations",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        }
+      ],
       "address": "1800 Tingley Drive SW, Albuquerque, NM 87102",
       "image": {
         "url": "/assets/parks/southwest-interior-super/tingley-beach-and-bosque/01-this-is-a-photo-of-the-water-at-tingley-beach-in-albuquerque-new-mexico.webp",
@@ -71672,6 +72101,140 @@
       "verifiedAt": "2026-08-08"
     },
     "launch-ok-oklahoma-city-scissortail-park": {
+      "operator": "Scissortail Park Foundation",
+      "sourceLabel": "Scissortail Park",
+      "source": "https://www.scissortailpark.org/faqs/",
+      "hours": "Scissortail Park is open daily from 6:00 a.m. to 11:00 p.m. The children's playground is open from dawn to dusk; sprayground, boating, restaurants, sports, events, and offices use separate schedules.",
+      "cost": "General park admission, playground, sprayground, dog park, gardens, lawns, paths, and most open recreation are free. Metered or garage parking, boat rentals, food, private events, reserved sports facilities, and occasional ticketed programming charge separately.",
+      "summary": "Scissortail Park is Oklahoma City's 70-acre downtown park, joining Upper and Lower Park across the Skydance Bridge with a lake and boathouse, playground and seasonal sprayground, fenced dog park, gardens, Great Lawn and stage, sports pavilion and courts, picnic areas, restaurants, public art, accessible paths, and an OKC Streetcar stop.",
+      "searchAnswers": [
+        {
+          "intentKey": "entrance",
+          "question": "What address should I use for Scissortail Park?",
+          "answer": "Use 300 SW 7th Street, Oklahoma City, OK 73109 for the general Upper Park. Route to 650 S. Hudson Avenue for the Boathouse, 655 S. Robinson Avenue for the playground, or 403 SW 10th Street for Lower Park's Sports Pavilion.",
+          "sourceLabel": "Scissortail Park",
+          "source": "https://www.scissortailpark.org/about-scissortail-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "parking",
+          "question": "Where should I park for Scissortail Park?",
+          "answer": "Metered two-hour street spaces line S. Hudson, Oklahoma City Boulevard, and S. Robinson. Nearby Convention Center, Sheridan Walker, Arts District, and Century Center garages are listed at $2 per hour or $10 per day; event pricing can vary.",
+          "sourceLabel": "Scissortail Park",
+          "source": "https://www.scissortailpark.org/getting-here/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "transit",
+          "question": "Does the OKC Streetcar stop at Scissortail Park?",
+          "answer": "Yes. The Scissortail Park stop is at Oklahoma City Boulevard and S. Robinson Avenue on the northeast corner. EMBARK buses and downtown circulation also connect the park, making transit useful during events when nearby parking fills.",
+          "sourceLabel": "Scissortail Park",
+          "source": "https://www.scissortailpark.org/faqs/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Are there public bathrooms at Scissortail Park?",
+          "answer": "Yes. Public restrooms are available near major destinations, including the playground and Scissortail Boathouse. The Boathouse also has a shaded patio and cafe; Lower Park facilities may follow sports or event operations.",
+          "sourceLabel": "Scissortail Park",
+          "source": "https://www.scissortailpark.org/faqs/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "playground",
+          "question": "What are the playground hours at Scissortail Park?",
+          "answer": "The children's playground is open from dawn to dusk. It includes climbing walls, geometric dome climbers, children's gardens, a large fort with tower and slides, shade, nearby public restrooms, and adjacent interactive fountains.",
+          "sourceLabel": "Scissortail Park",
+          "source": "https://www.scissortailpark.org/faqs/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "splash-pad",
+          "question": "Is the Scissortail Sprayground open?",
+          "answer": "The sprayground opened for the 2026 season on May 22 and is listed for daily operation from 6 a.m. to 11 p.m. Jets can shut down for wind, lightning within eight miles, weather, water-quality work, or maintenance; water shoes are recommended.",
+          "sourceLabel": "Scissortail Park",
+          "source": "https://www.scissortailpark.org/scissortail-sprayground/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "dog-area",
+          "question": "Where is the dog park at Scissortail Park?",
+          "answer": "The park has a half-acre fenced dog park with separate areas for large and small dogs, drinking fountains, and boulders. Dogs must remain leashed everywhere outside the enclosure and are not permitted in the sprayground water.",
+          "sourceLabel": "Scissortail Park",
+          "source": "https://www.scissortailpark.org/faqs/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "accessibility",
+          "question": "Is Scissortail Park accessible?",
+          "answer": "The park provides accessible perimeter parking, restrooms, ground-level paths, ramps to the stage and boathouse, accessible playground and workout equipment, Braille entry and restroom signs, an accessible pedal boat, and Silver Flyer mobility tours.",
+          "sourceLabel": "Scissortail Park",
+          "source": "https://www.scissortailpark.org/faqs/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "fees",
+          "question": "Is Scissortail Park free?",
+          "answer": "General park entry, playground, sprayground, dog park, paths, gardens, lawns, and open recreation are free. Parking, boat rentals, food, reserved courts or fields, private events, and occasional ticketed programs charge separately.",
+          "sourceLabel": "Scissortail Park",
+          "source": "https://www.scissortailpark.org/faqs/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "closures",
+          "question": "What Scissortail Park features are weather dependent?",
+          "answer": "Sprayground jets stop for high wind or lightning, boating is seasonal and weather dependent, the playground closes after dusk, and large events can change lawn, road, parking, or bag access. Follow current park notices before a feature-specific visit.",
+          "sourceLabel": "Scissortail Park",
+          "source": "https://www.scissortailpark.org/scissortail-sprayground/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "shade",
+          "question": "Where can I find shade or weather shelter at Scissortail Park?",
+          "answer": "Useful shade is available at the playground and Play Pavilion, Boathouse patio, Picnic Grove trellises, Event Pavilion, Sports Pavilion patio, and wooded lakeside areas. The great lawns, lake bridge, sprayground, sports fields, courts, promenade, and much of the Lower Park remain exposed. These covered outdoor structures are not severe-weather shelters; when lightning, high wind, or dangerous heat develops, follow Park Ambassador directions and use a confirmed-open substantial building or enclosed vehicle.",
+          "sourceLabel": "Scissortail Park",
+          "source": "https://www.scissortailpark.org/faqs/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "trail-surface",
+          "question": "What are the walking surfaces and accessible routes at Scissortail Park?",
+          "answer": "Multiple paved walking and jogging paths connect the Upper and Lower Park, lake, gardens, playground, sprayground, lawns, sports areas, and Skydance Bridge. The park and visitor bureau describe ADA-accessible pathways and facilities, but lawns, native prairie plantings, play surfacing, bridge approaches, and event layouts differ from the primary hard-surface loops. Use the paved paths for a stroller or mobility device, and watch for fountain overspray, Oklahoma heat, ice, construction, and festival barriers.",
+          "sourceLabel": "Scissortail Park",
+          "source": "https://www.scissortailpark.org/about-scissortail-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "picnic",
+          "question": "Where can I picnic at Scissortail Park?",
+          "answer": "Use an available table, lawn area, or the covered picnic area at the 6,400-square-foot Event Pavilion in the southeast Upper Park. Food is also sold at SPARK, the Perch, and scheduled food trucks. Personal grills are not allowed anywhere in Scissortail Park. The pavilion and major lawns may be programmed, private, or ticketed for events, so check the calendar and contact the events team before planning a group gathering that needs guaranteed space.",
+          "sourceLabel": "Scissortail Park",
+          "source": "https://www.scissortailpark.org/faqs/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "public-art",
+          "question": "What are the main landmarks at Scissortail Park?",
+          "answer": "In the Upper Park, the main anchors are Scissortail Lake and Boathouse, the 240-foot Lake Bridge, Love's Travel Stops Stage and Great Lawn, playground and fountains, gardens, and Promenade. The Lake Bridge frames views of the Oklahoma City skyline, Skydance Bridge, and historic Union Station. Lower Park contains a separate sports and recreation district, so use the official map and route to the named feature rather than the general park address.",
+          "sourceLabel": "Scissortail Park",
+          "source": "https://www.scissortailpark.org/faqs/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        }
+      ],
       "address": "300 SW 7th Street, Oklahoma City, OK 73109",
       "image": {
         "url": "/assets/parks/southwest-interior-super/scissortail-park/01-leap-day-2020-scissortail-park-oklahoma-city-ok.webp",
@@ -71715,6 +72278,140 @@
       "verifiedAt": "2026-08-08"
     },
     "launch-ok-oklahoma-city-myriad-botanical-gardens": {
+      "operator": "Myriad Gardens Foundation",
+      "sourceLabel": "Myriad Botanical Gardens",
+      "source": "https://myriadgardens.org/visit-us/",
+      "hours": "Outdoor grounds are open daily from 6:00 a.m. to 11:00 p.m. Crystal Bridge Conservatory is open Monday-Saturday 9:00 a.m.-5:00 p.m. and Sunday 11:00 a.m.-5:00 p.m., closed Thanksgiving and Christmas.",
+      "cost": "The 15-acre outdoor grounds, gardens, Children's Garden, playground, water features, dog park, paths, and public art are free. Crystal Bridge admission is ticketed; carousel, ice rink, classes, food, parking, events, and rentals can charge separately.",
+      "summary": "Myriad Botanical Gardens is Oklahoma City's free 15-acre downtown garden and family space, with the ticketed Crystal Bridge Conservatory, Children's Garden and adaptive playground, seasonal Thunder Fountain and water features, off-leash dog park, Mo's Carousel, ornamental collections, lake, public art, lawns, event spaces, and winter ice rink.",
+      "searchAnswers": [
+        {
+          "intentKey": "entrance",
+          "question": "What address should I use for Myriad Botanical Gardens?",
+          "answer": "Use 301 W. Reno Avenue, Oklahoma City, OK 73102 for the main gardens and Crystal Bridge Conservatory. The grounds fill a downtown block, so approach from the side closest to the Children's Garden, dog park, carousel, or event destination.",
+          "sourceLabel": "Myriad Botanical Gardens",
+          "source": "https://myriadgardens.org/visit-us/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "parking",
+          "question": "Where should I park for Myriad Botanical Gardens?",
+          "answer": "Use legal metered street parking around the gardens or a nearby downtown garage. Myriad's parking guidance notes that vehicles with a valid disability placard or plate may use downtown meters free for the posted time limit; event demand can fill nearby spaces.",
+          "sourceLabel": "Myriad Botanical Gardens",
+          "source": "https://myriadgardens.org/visit-us/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Are there public restrooms at Myriad Botanical Gardens?",
+          "answer": "Yes. Visitor restrooms are available in developed garden facilities around the Crystal Bridge and public-use areas. Conservatory access, events, and late-evening grounds hours can affect which indoor facilities are open, so use restrooms before facilities close.",
+          "sourceLabel": "Myriad Botanical Gardens",
+          "source": "https://myriadgardens.org/visit-us/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "playground",
+          "question": "Is there a children's playground at Myriad Gardens?",
+          "answer": "Yes. The Children's Garden includes a playground with adaptive equipment, nature and story areas, and nearby seasonal water play. Pets are not permitted inside the Children's Garden, though service animals are allowed.",
+          "sourceLabel": "Myriad Botanical Gardens",
+          "source": "https://myriadgardens.org/about-us",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "splash-pad",
+          "question": "Is the Thunder Fountain open at Myriad Gardens?",
+          "answer": "The outdoor water features, including the family-favorite Thunder Fountain area, are listed daily through Labor Day from 9 a.m. to 9 p.m. Weather, water quality, maintenance, and seasonal changes can interrupt operation.",
+          "sourceLabel": "Myriad Botanical Gardens",
+          "source": "https://myriadgardens.org/visit-us/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "dog-area",
+          "question": "Where is the dog park at Myriad Botanical Gardens?",
+          "answer": "The fenced off-leash dog park is east of the Crystal Bridge Conservatory. Leashed pets are welcome on most exterior grounds but not inside the conservatory, Children's Garden, or water features; only service animals may enter the conservatory.",
+          "sourceLabel": "Myriad Botanical Gardens",
+          "source": "https://myriadgardens.org/visit-us/petpolicy/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "accessibility",
+          "question": "Is Myriad Botanical Gardens wheelchair accessible?",
+          "answer": "The renovated Crystal Bridge includes an elevator, and a complimentary wheelchair is available first come with a driver's license held by guest services. Outdoor paths and adaptive playground features support accessible visits, though event layouts can alter routes.",
+          "sourceLabel": "Myriad Botanical Gardens",
+          "source": "https://myriadgardens.org/visit-us/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "public-art",
+          "question": "What art can I see at Myriad Botanical Gardens?",
+          "answer": "Outdoor works include Hans Van de Bovenkamp's red Gateway sculpture, Kendall Howerton's limestone Goldfish, Don Narcomey's Storyteller's Chair, and Nancy Schön's Friendship prairie-dog sculpture. These pieces are on the free exterior grounds.",
+          "sourceLabel": "Myriad Botanical Gardens",
+          "source": "https://myriadgardens.org/visit-us/map/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "fees",
+          "question": "Is Myriad Botanical Gardens free?",
+          "answer": "The outdoor grounds, ornamental gardens, Children's Garden, playground, water features, dog park, paths, and public art are free. Crystal Bridge Conservatory requires admission; carousel, ice rink, classes, food, parking, and some events have separate costs.",
+          "sourceLabel": "Myriad Botanical Gardens",
+          "source": "https://myriadgardens.org/visit-us/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "closures",
+          "question": "What has separate hours at Myriad Gardens?",
+          "answer": "The outdoor grounds stay open 6 a.m.-11 p.m., but Crystal Bridge, water features, carousel, ice rink, shops, classes, and events use separate or seasonal schedules. Crystal Bridge closes on Thanksgiving and Christmas, and water features are seasonal through Labor Day.",
+          "sourceLabel": "Myriad Botanical Gardens",
+          "source": "https://myriadgardens.org/visit-us/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "shade",
+          "question": "Where can I cool off or find shade at Myriad Botanical Gardens?",
+          "answer": "Tanenbaum Reflection Garden is the most clearly designated shady outdoor respite, and the Children's Garden has a covered pavilion. Crystal Bridge Conservatory is climate controlled but ticketed and only available during its posted hours. Devon Lawn, Seasonal Plaza, and other event spaces can be exposed; in severe weather use an open substantial building rather than relying on a garden pavilion.",
+          "sourceLabel": "Myriad Botanical Gardens",
+          "source": "https://myriadgardens.org/visit-us/map/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "trail-surface",
+          "question": "What are the walking surfaces and slopes at Myriad Botanical Gardens?",
+          "answer": "The 15-acre outdoor garden combines paved accessible perimeter routes with winding stone paths, meandering children's-garden walks, terraces, lawns, bridges, and stairways around the lake. Accessible paths reach the water's edge without using the stair fountain, while Meinders Terrace and planted slopes can involve grades and less direct routes. Seasonal ice-rink construction, fountains, wet stone, events, and dense plantings can narrow circulation; use the official map and select the accessible perimeter route when avoiding stairs.",
+          "sourceLabel": "Myriad Botanical Gardens",
+          "source": "https://myriadgardens.org/visit-us/map/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "picnic",
+          "question": "Where can I picnic at Myriad Botanical Gardens?",
+          "answer": "Sheridan Lawn is the most practical casual picnic area, and visitors may bring a blanket, chairs, and prepared food for open-lawn programs; glass is prohibited. Keep all food and drinks out of Thunder Fountain and the seasonal splash plaza, and do not take food into the Crystal Bridge Conservatory. Tables can be limited or added only for events, so bring a blanket. Reserve a Gardens venue or the Children's Garden Pavilion for a birthday, guaranteed seating, or organized group setup.",
+          "sourceLabel": "Myriad Botanical Gardens",
+          "source": "https://myriadgardens.org/newsroom/photo-gallery/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "transit",
+          "question": "How do I reach Myriad Botanical Gardens without a car?",
+          "answer": "The Gardens sit in the walkable downtown transit area between Reno Avenue, Hudson Avenue, Sheridan Avenue, and Robinson Avenue. Use EMBARK's live planner for the nearest bus or OKC Streetcar stop to your starting point, then walk to the garden entrance that best matches the Crystal Bridge, Children's Garden, or event lawn. Downtown construction and event closures can shift stops, so verify the final block before leaving.",
+          "sourceLabel": "EMBARK",
+          "source": "https://www.embarkok.com/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        }
+      ],
       "address": "301 W Reno Avenue, Oklahoma City, OK 73102",
       "image": {
         "url": "/assets/parks/southwest-interior-super/myriad-botanical-gardens/01-crystal-bridge-tropical-conservatory-myriad-botanical-gardens-reno-avenue-and-ron-norick-bouleva.webp",
@@ -71759,10 +72456,153 @@
         }
       ],
       "replaceImages": true,
-      "sources": [],
+      "sources": [
+        {
+          "label": "Myriad Botanical Gardens",
+          "url": "https://myriadgardens.org/visit-us/"
+        },
+        {
+          "label": "Myriad Botanical Gardens",
+          "url": "https://myriadgardens.org/visit-us/rentals/water-stage-and-plaza/"
+        }
+      ],
       "verifiedAt": "2026-08-08"
     },
     "launch-ok-oklahoma-city-lake-hefner-park": {
+      "operator": "Oklahoma City Parks and Recreation",
+      "sourceLabel": "City of Oklahoma City",
+      "source": "https://www.okc.gov/Community-Recreation/OKC-Parks/Lakes-Camping",
+      "hours": "Lake Hefner public areas are open daily from 5:00 a.m. to 11:00 p.m. Permitted boating and fishing may occur outside those hours; golf, restaurants, marina services, fields, and other facilities use separate schedules.",
+      "cost": "General lakeside park, trail, playground, picnic, and parking access is free. Fishing, boating, boat storage, golf, shelter reservations, organized sports, food, and certain activities require permits or separate fees.",
+      "summary": "Lake Hefner is Oklahoma City's 2,500-acre urban reservoir and recreation district, with the 9.8-mile Bert Cooper paved loop, multiple trailhead lots, Stars and Stripes Park, Lions Children's Park, picnic areas, fishing docks, boat ramps and marina, lighthouse views, restaurants, golf, sports fields, restrooms, and connections toward Lake Overholser.",
+      "searchAnswers": [
+        {
+          "intentKey": "entrance",
+          "question": "Where should I start at Lake Hefner?",
+          "answer": "Choose a destination before routing: Stars and Stripes Park for south-side recreation and views, Lions Children's Park for the playground, East Wharf for restaurants, the north lot off Hefner Road for north trail access, or a named marina, fishing dock, or golf facility.",
+          "sourceLabel": "City of Oklahoma City",
+          "source": "https://www.okc.gov/Community-Recreation/OKC-Parks/Trails",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "parking",
+          "question": "Where can I park for the Lake Hefner trail?",
+          "answer": "Official trail parking is available at Stars and Stripes Park, Lions Children's Park, East Wharf off Britton Road, and the north lot off Hefner Road. Use only lake roads and designated lots; do not park on grass, trail shoulders, or service roads.",
+          "sourceLabel": "City of Oklahoma City",
+          "source": "https://www.okc.gov/Community-Recreation/OKC-Parks/Trails",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "trail-surface",
+          "question": "How long is the trail around Lake Hefner?",
+          "answer": "The Bert Cooper Trail loop is about 9.8 miles of asphalt and concrete for walking, running, and cycling. A portion crosses the dam road shared with vehicles, and the route connects toward the Hefner-Overholser Trail.",
+          "sourceLabel": "City of Oklahoma City",
+          "source": "https://www.okc.gov/Community-Recreation/OKC-Parks/Trails",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Are there restrooms around Lake Hefner?",
+          "answer": "Yes. The lake has restrooms, and portable toilets and water fountains are distributed around the trail near developed recreation areas. They are not present at every mile or informal viewpoint, so plan around a named park or trailhead.",
+          "sourceLabel": "City of Oklahoma City",
+          "source": "https://www.okc.gov/Community-Recreation/OKC-Parks/Lakes-Camping",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "playground",
+          "question": "Where are playgrounds at Lake Hefner?",
+          "answer": "Lions Children's Park and Stars and Stripes Park are the primary family destinations along the lake, and the City lists multiple playgrounds among Lake Hefner amenities. Route to the named park rather than the lake center.",
+          "sourceLabel": "City of Oklahoma City",
+          "source": "https://www.okc.gov/Community-Recreation/OKC-Parks/Trails",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "picnic",
+          "question": "Can I picnic at Lake Hefner?",
+          "answer": "Yes. Picnic areas, grills, and group shelters are available around the lake. Open picnic areas are generally first come, while group shelters and organized events may require reservations or permits.",
+          "sourceLabel": "City of Oklahoma City",
+          "source": "https://www.okc.gov/Community-Recreation/OKC-Parks/Lakes-Camping",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "fees",
+          "question": "Is Lake Hefner Park free?",
+          "answer": "General park entry, designated parking, the paved loop, playgrounds, picnic areas, and shoreline viewing are free. Fishing, boating, storage, golf, shelter reservations, organized sports, and food require permits or separate payment.",
+          "sourceLabel": "City of Oklahoma City",
+          "source": "https://www.okc.gov/Community-Recreation/OKC-Parks/Lakes-Camping",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "accessibility",
+          "question": "What accessible facilities are at Lake Hefner?",
+          "answer": "The paved multi-use loop and developed parks provide step-free recreation options, with parking and restrooms at major areas. Conditions vary around the full 9.8-mile route, especially where it shares the dam road, so select a shorter named segment when needed.",
+          "sourceLabel": "City of Oklahoma City",
+          "source": "https://www.okc.gov/Community-Recreation/OKC-Parks/Trails",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "closures",
+          "question": "What can close the Lake Hefner trail or lake areas?",
+          "answer": "Trail resurfacing, severe weather, high wind, ice, maintenance, water operations, races, and permitted events can affect individual segments or lots. The City directs trail-closure questions to OKC Parks, and all posted gates or barriers should be followed.",
+          "sourceLabel": "City of Oklahoma City",
+          "source": "https://www.okc.gov/Community-Recreation/OKC-Parks/Trails",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "shade",
+          "question": "Where can visitors find shade or weather shelter at Lake Hefner Park?",
+          "answer": "The Bob Hope Pavilion at Stars and Stripes Park is the main covered gathering space, with seating for more than 100, lights, picnic tables, nearby restrooms, and lake views. Smaller trees provide intermittent shade elsewhere, but the shoreline, trails, docks, fields, and open water are highly exposed to Oklahoma sun and wind. Leave the lake during lightning or dangerous wind and use a substantial building or vehicle rather than the pavilion or a tree.",
+          "sourceLabel": "City of Oklahoma City",
+          "source": "https://www.okc.gov/Home/Components/FacilityDirectory/FacilityDirectory/34/2846",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "dog-area",
+          "question": "Where can dogs go at Lake Hefner Park, and what rules apply?",
+          "answer": "Pets are welcome in Lake Hefner's public lake areas, including paths and picnic areas, but they must remain on a leash at all times. Dogs may not swim or wade in the reservoir, and Lake Hefner does not function as an off-leash dog park. Keep pets away from the waterline where necessary and remove their waste.",
+          "sourceLabel": "City of Oklahoma City",
+          "source": "https://www.okc.gov/Community-Recreation/OKC-Parks/Lakes-Camping",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "transit",
+          "question": "Can I take EMBARK to Lake Hefner?",
+          "answer": "EMBARK's NW Rapid connects downtown Oklahoma City with the Lake Hefner area along Northwest Expressway, but it does not circle the reservoir or deliver visitors to every trailhead, marina, golf course, restaurant, or Stars and Stripes Park. Enter the exact destination in the live planner and inspect the final walking route before leaving; several lake edges are separated from transit by wide roads and long distances.",
+          "sourceLabel": "EMBARK",
+          "source": "https://www.embarkok.com/assets/documents/PROGRAMS-MMPLUSHP/EMBARK_TitleVI_ProgramUpdate_2025-12.24.24.pdf",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "splash-pad",
+          "question": "Can visitors swim or use a splash pad at Lake Hefner?",
+          "answer": "No. Oklahoma City prohibits swimming in Lake Hefner, and the lake district does not list a splash pad. The reservoir supports permitted boating and fishing, but people and pets may not swim or wade. For family water play, choose a separately listed Oklahoma City aquatic center or sprayground rather than entering the reservoir from a trail, picnic area, dock, or boat ramp.",
+          "sourceLabel": "City of Oklahoma City",
+          "source": "https://www.okc.gov/Community-Recreation/Recreation-Activities/Boating-Kayaking",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "public-art",
+          "question": "What are the main landmarks around Lake Hefner?",
+          "answer": "Lake Hefner has no single central arrival point. Stars and Stripes Park on the south side is a strong family landmark with the Bob Hope Pavilion, Eisenhower Plaza, a patriotic flag-and-five-star design, and a modern rocket slide. The recognizable lighthouse is on the east shore but is not managed by Oklahoma City. The 9.8-mile Bert Cooper Trail links these areas with marinas, docks, restaurants, golf, and north-side trail access, so route to the exact landmark rather than the lake center.",
+          "sourceLabel": "City of Oklahoma City",
+          "source": "https://www.okc.gov/departments/parks-recreation/parks-trails/ward-8-parks/stars-and-stripes-park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        }
+      ],
       "address": "3301 NW Grand Boulevard, Oklahoma City, OK 73116",
       "image": {
         "url": "/assets/parks/southwest-interior-super/lake-hefner-park/01-east-wharf-lake-hefner-oklahoma-city.webp",
@@ -71811,6 +72651,140 @@
       "verifiedAt": "2026-08-08"
     },
     "launch-tx-fort-worth-trinity-park": {
+      "operator": "City of Fort Worth Park and Recreation",
+      "sourceLabel": "City of Fort Worth",
+      "source": "https://www.fortworthtexas.gov/departments/parks/parks-and-trails/trinity-park",
+      "hours": "Trinity Park is open daily from 5:00 a.m. to 10:00 p.m. Dream Park, restrooms, miniature railroad, reservations, public events, nearby attractions, and construction areas may follow separate schedules.",
+      "cost": "General park, trail, Dream Park playground, duck pond, picnic, shelter, basketball, and open-space access is free; miniature railroad, reservations, events, nearby attractions, food, and rentals may charge separately.",
+      "summary": "Trinity Park is Fort Worth's 252-acre river and cultural-district park, with accessible Dream Park playground, duck pond, WPA shelter, picnic tables and grills, basketball, observation areas, parking, water features, Forest Park Miniature Railroad station, and direct connections to the 100-plus-mile Trinity Trails network.",
+      "searchAnswers": [
+        {
+          "intentKey": "entrance",
+          "question": "Where should I start at Trinity Park?",
+          "answer": "Route to Dream Park for the all-abilities playground, Trinity Park Duck Pond for waterfowl and nearby parking, or Forest Park Miniature Railroad for the train station. The park stretches along the river beside the zoo and cultural district.",
+          "sourceLabel": "City of Fort Worth",
+          "source": "https://www.fortworthtexas.gov/departments/parks/parks-and-trails/trinity-park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "parking",
+          "question": "Where should I park at Trinity Park?",
+          "answer": "Parking lots and roadside spaces are distributed near Dream Park, the duck pond, train station, shelters, and trail access. Choose a destination before entering because the 252-acre park is long and major events can close sections.",
+          "sourceLabel": "City of Fort Worth",
+          "source": "https://www.fortworthtexas.gov/departments/parks/parks-and-trails/trinity-park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Are there restrooms at Trinity Park?",
+          "answer": "Restrooms and water fountains are available in selected developed areas and near major family or picnic destinations, not along every trail segment. Train, zoo, and nearby attraction facilities follow separate admission hours.",
+          "sourceLabel": "Visit Fort Worth",
+          "source": "https://www.fortworth.com/listing/trinity-park/8624/",
+          "sourceType": "official-partner",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "trail-surface",
+          "question": "Can I bike from Trinity Park onto Trinity Trails?",
+          "answer": "Yes. Paved walking and cycling paths through the park connect directly to the regional Trinity Trails network, which extends more than 100 miles. Watch for event detours, river flooding, and shared-use traffic.",
+          "sourceLabel": "City of Fort Worth",
+          "source": "https://www.fortworthtexas.gov/departments/parks/parks-and-trails/trinity-park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "playground",
+          "question": "What is Dream Park at Trinity Park?",
+          "answer": "Dream Park is an inclusive playground designed for children with varied needs, mobility, and abilities. It is a destination within Trinity Park rather than a small neighborhood play area, so route directly to Dream Park parking.",
+          "sourceLabel": "City of Fort Worth",
+          "source": "https://www.fortworthtexas.gov/departments/parks/parks-and-trails/trinity-park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "fees",
+          "question": "Is Trinity Park free?",
+          "answer": "General park access, parking, Dream Park, duck pond, trails, picnic areas, and open space are free. The miniature railroad, reserved shelters, vendors, special events, zoo, gardens, and nearby museums may charge.",
+          "sourceLabel": "City of Fort Worth",
+          "source": "https://www.fortworthtexas.gov/departments/parks/parks-and-trails/trinity-park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "closures",
+          "question": "What can close parts of Trinity Park?",
+          "answer": "Mayfest and other major events, river flooding, trail construction, railroad operations, maintenance, and severe weather can close roads, lots, lawns, or paths independently. Check Fort Worth park notices before a feature-specific visit.",
+          "sourceLabel": "City of Fort Worth",
+          "source": "https://www.fortworthtexas.gov/departments/parks",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "hours",
+          "question": "What time does Trinity Park open and close?",
+          "answer": "Trinity Park is open every day from 5:00 a.m. to 10:00 p.m. The miniature railroad, restrooms, reserved pavilions, events, and nearby attractions have separate schedules, so park hours do not guarantee every feature is operating.",
+          "sourceLabel": "City of Fort Worth",
+          "source": "https://www.fortworthtexas.gov/departments/parks/parks-and-trails/trinity-park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "dog-area",
+          "question": "Are dogs allowed at Trinity Park?",
+          "answer": "Yes, but dogs must remain on a leash and visitors must remove pet waste. Trinity Park is not an off-leash dog park; use a designated Fort Worth dog park when off-leash recreation is the goal.",
+          "sourceLabel": "City of Fort Worth",
+          "source": "https://www.fortworthtexas.gov/departments/parks/parks-and-trails/park-rules",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "picnic",
+          "question": "Can I picnic or reserve a pavilion at Trinity Park?",
+          "answer": "Yes. The park has tables, grills, shelters, and pavilions, and reservable spaces are available through Fort Worth. Public events, runs, and exclusive gatherings require advance approval; alcohol is prohibited and bounce houses are specifically prohibited at Trinity Park.",
+          "sourceLabel": "City of Fort Worth",
+          "source": "https://www.fortworthtexas.gov/departments/parks/services/park-reservation/park-reservation-faq",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "shade",
+          "question": "Where can I find shade or weather shelter at Trinity Park?",
+          "answer": "Trinity Park has pavilions and mature trees along portions of the river corridor, but Dream Park, lawns, trails, the duck pond, event areas, and many river-edge sections are exposed. Pavilion 1 is the only reservable pavilion where restrooms are offered as an added reservation service. Covered picnic structures are not severe-weather shelters; during lightning, flooding, extreme heat, or high wind, leave the river and use an open substantial building or vehicle.",
+          "sourceLabel": "City of Fort Worth",
+          "source": "https://www.fortworthtexas.gov/departments/parks/services/walks-runs-public-events-trinity",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "splash-pad",
+          "question": "Is there a splash pad or swimming at Trinity Park?",
+          "answer": "No operating public pool or splash pad is listed at Trinity Park. The City's park page lists a water feature, duck pond, and the Trinity River, but none is identified as a designated swimming facility. Do not use the pond or river as family water play. Forest Park Pool is a separate seasonal aquatic facility nearby, and Fort Worth also lists Marine Park Pool and Sycamore Spray Ground; confirm the chosen facility's current schedule and admission before going.",
+          "sourceLabel": "City of Fort Worth",
+          "source": "https://www.fortworthtexas.gov/departments/parks/parks-and-trails/trinity-park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "transit",
+          "question": "Which bus goes to Trinity Park in Fort Worth?",
+          "answer": "Trinity Metro Routes 2 and 4 serve the Cultural District and University Drive area beside Trinity Park, and the former DASH corridor also connected downtown with 7th and University near the park. Use Trinity Metro's live planner for Dream Park, the duck pond, Forest Park Pool, the miniature train, trail access, or a specific event because Trinity Park is long and road closures frequently affect the University Drive side.",
+          "sourceLabel": "Trinity Metro",
+          "source": "https://ridetrinitymetro.org/thecup-culturaldistrict/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "public-art",
+          "question": "What are the main landmarks inside Trinity Park?",
+          "answer": "Trinity Park's clearest family anchors are Frank Kent's Dream Park, the duck pond, the historic WPA shelter, and the station for the Forest Park Miniature Railroad. Paved paths also connect directly to the extensive Trinity Trails river network. These destinations are spread through the 252-acre park, and the zoo, Botanic Garden, and Cultural District museums are nearby but separately operated, so route to the exact park feature you want rather than a neighboring attraction.",
+          "sourceLabel": "City of Fort Worth",
+          "source": "https://www.fortworthtexas.gov/departments/parks/parks-and-trails/trinity-park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        }
+      ],
       "address": "2401 University Drive, Fort Worth, TX 76107",
       "image": {
         "url": "/assets/parks/southwest-interior-super/trinity-park/01-trinity-park-fort-worth-texas-usa-panoramio-dameon-hudson.webp",
@@ -71849,6 +72823,149 @@
       "verifiedAt": "2026-08-08"
     },
     "launch-tx-fort-worth-fort-worth-water-gardens": {
+      "operator": "City of Fort Worth Park and Recreation",
+      "sourceLabel": "City of Fort Worth",
+      "source": "https://www.fortworthtexas.gov/departments/parks/parks-and-trails/water-gardens",
+      "hours": "Fort Worth Water Gardens is open daily from 6:00 a.m. to 10:00 p.m.",
+      "cost": "General admission is free; nearby parking, events, professional permits, and downtown attractions may charge separately.",
+      "summary": "Fort Worth Water Gardens is a free downtown architectural park designed around the Active Pool, Quiet Pool, Aerated Pool, Wet Wall, cascading entrance, Central Square, Mountain, stage, lawn, and dramatic night lighting. It is a viewing and meditation space, not a swimming or splash-play facility.",
+      "searchAnswers": [
+        {
+          "intentKey": "hours",
+          "question": "What hours are the Fort Worth Water Gardens open?",
+          "answer": "The Water Gardens are open daily from 6 a.m. to 10 p.m. Water features, lighting, rentals, and individual areas can be interrupted by maintenance, freezing weather, events, or safety operations.",
+          "sourceLabel": "City of Fort Worth",
+          "source": "https://www.fortworthtexas.gov/departments/parks/parks-and-trails/water-gardens",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "entrance",
+          "question": "Where is the main entrance to the Water Gardens?",
+          "answer": "Use 1502 Commerce Street, Fort Worth, TX 76102. The main entrance is at the northwest corner, where cascading water leads toward the central pools and square.",
+          "sourceLabel": "City of Fort Worth",
+          "source": "https://www.fortworthtexas.gov/departments/parks/parks-and-trails/water-gardens",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "parking",
+          "question": "Where should I park for the Fort Worth Water Gardens?",
+          "answer": "The park does not advertise a dedicated free visitor lot. Use a signed downtown garage, paid lot, or legal metered space near Commerce Street, or arrive via Fort Worth Central or T&P transit stations and walk.",
+          "sourceLabel": "City of Fort Worth",
+          "source": "https://www.fortworthtexas.gov/departments/parks/parks-and-trails/water-gardens",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "transit",
+          "question": "Can I reach the Water Gardens by transit?",
+          "answer": "Yes. The downtown location is walkable from Fort Worth Central Station and T&P Station, making TEXRail, Trinity Railway Express, and local transit useful alternatives to paid downtown parking.",
+          "sourceLabel": "City of Fort Worth",
+          "source": "https://www.fortworthtexas.gov/departments/parks/parks-and-trails/water-gardens",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "accessibility",
+          "question": "Is the Fort Worth Water Gardens accessible?",
+          "answer": "Level plaza areas provide views of several features, and the City offers accessibility accommodations on request. The Active Pool's descent uses steep table-topped stairs and is not an appropriate route for every visitor; enjoy it from upper viewpoints when needed.",
+          "sourceLabel": "City of Fort Worth",
+          "source": "https://www.fortworthtexas.gov/departments/parks/parks-and-trails/water-gardens",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "splash-pad",
+          "question": "Can children play in the water at Fort Worth Water Gardens?",
+          "answer": "No. Swimming and wading are strictly prohibited in every pool and water feature. The Water Gardens is an architectural viewing and quiet-meditation space, not a splash pad or interactive water-play park.",
+          "sourceLabel": "City of Fort Worth",
+          "source": "https://www.fortworthtexas.gov/departments/parks/parks-and-trails/water-gardens",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "fees",
+          "question": "Are the Fort Worth Water Gardens free?",
+          "answer": "Yes. General admission is free. Downtown parking, private events, professional permits, and nearby attractions can have separate charges.",
+          "sourceLabel": "City of Fort Worth",
+          "source": "https://www.fortworthtexas.gov/departments/parks/parks-and-trails/water-gardens",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "closures",
+          "question": "Why might a Water Gardens feature be off?",
+          "answer": "Freezing temperatures, mechanical service, water conservation, cleaning, private rentals, weather, and safety work can shut down one or more pools while the surrounding park remains accessible. Obey all barriers and posted notices.",
+          "sourceLabel": "City of Fort Worth",
+          "source": "https://www.fortworthtexas.gov/departments/parks/parks-and-trails/water-gardens",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Are public restrooms available at the Fort Worth Water Gardens?",
+          "answer": "Do not assume restrooms are open for an ordinary walk-in visit. The City lists restroom access as an added amenity for approved reservations, so use a nearby public facility before entering if restroom access is essential.",
+          "sourceLabel": "City of Fort Worth",
+          "source": "https://www.fortworthtexas.gov/departments/parks/services/water-gardens-rental-fees",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "public-art",
+          "question": "What should I see at the Fort Worth Water Gardens?",
+          "answer": "The main features are the 38-foot-deep Active Pool, misting Aerated Pool, reflective Quiet Pool, Wet Wall, entry cascades, Central Square, Mountain, stage, and lawn. View every water feature from designated paths and never enter the water.",
+          "sourceLabel": "City of Fort Worth",
+          "source": "https://www.fortworthtexas.gov/departments/parks/parks-and-trails/water-gardens",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "shade",
+          "question": "Where can visitors find shade or weather shelter at the Fort Worth Water Gardens?",
+          "answer": "Trees around Central Square and the Quiet Pool provide intermittent shade, but most of the 5.4-acre site is exposed concrete, steps, plazas, and water-feature edges. The City lists no general visitor center or always-open pavilion, and reservable restrooms are event amenities rather than public shelter. In extreme heat or severe weather, leave the garden and use a nearby open downtown building or vehicle; never enter a water feature to cool off.",
+          "sourceLabel": "City of Fort Worth",
+          "source": "https://www.fortworthtexas.gov/departments/parks/parks-and-trails/water-gardens",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "trail-surface",
+          "question": "Which parts of the Fort Worth Water Gardens require stairs?",
+          "answer": "The garden is primarily concrete plaza, ramps, terraces, and many steps. Central Square and perimeter viewpoints provide the most manageable developed surfaces, while the Active Pool descends 38 feet on table-topped stairs and the Mountain rises about 20 feet through tiered concrete; neither should be treated as the accessible route. Wet spray, algae, heat, crowds, and worn edges can make surfaces slippery, so remain on designated dry walkways and never enter or wade in any pool.",
+          "sourceLabel": "City of Fort Worth",
+          "source": "https://www.fortworthtexas.gov/departments/parks/parks-and-trails/water-gardens",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "playground",
+          "question": "Is there a playground or splash area at the Fort Worth Water Gardens?",
+          "answer": "The City does not list a playground at the Water Gardens, and its fountains are architectural water features rather than a splash pad. Swimming and wading are prohibited in every pool. Families may view the cascades, Aerated Pool, Quiet Pool, central plaza, lawn, and nighttime lighting, but children need continuous close supervision around deep water, spray, ledges, and the Active Pool's steep 38-foot stair descent. Choose another Fort Worth park for equipment or water play and remain on designated dry walkways here.",
+          "sourceLabel": "City of Fort Worth",
+          "source": "https://www.fortworthtexas.gov/departments/parks/parks-and-trails/water-gardens",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "dog-area",
+          "question": "Are dogs allowed at the Fort Worth Water Gardens?",
+          "answer": "Fort Worth requires a dog away from its owner's property to remain accompanied and on a leash. The Water Gardens is not a dog park, and its deep pools, spray, narrow ledges, and steep Active Pool stairs make close control essential. Keep pets on designated dry walkways, never allow them into any fountain or pool, remove waste, and follow event or lawn restrictions.",
+          "sourceLabel": "City of Fort Worth Animal Care and Control",
+          "source": "https://www.fortworthtexas.gov/departments/code-compliance/animals/pet-resources/animal-control-laws",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "picnic",
+          "question": "Can I have a picnic at the Fort Worth Water Gardens?",
+          "answer": "A short carried meal is possible on an available dry seat or at the Stage and Lawn, the complex's only grassy area, but this 5.4-acre architectural site is not a conventional picnic park and the City lists no public picnic tables, shelters, or grills. Keep all food and belongings well away from pool edges, supervise children continuously, and never enter the water. Reserve the Amphitheatre/Lawn or another named zone for an organized gathering; private events require at least two weeks' notice and departmental approval.",
+          "sourceLabel": "City of Fort Worth",
+          "source": "https://www.fortworthtexas.gov/departments/parks/parks-and-trails/water-gardens",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        }
+      ],
       "address": "1502 Commerce Street, Fort Worth, TX 76102",
       "image": {
         "url": "/assets/parks/southwest-interior-super/fort-worth-water-gardens/01-fort-worth-water-gardens-june-2016-6-active-pool.webp",

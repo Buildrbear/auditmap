@@ -20,7 +20,48 @@
         "needToKnow": "This is a through-route shared by people walking, running, and bicycling, not a roadside overlook. Stay on the pedestrian path, supervise children, keep the route clear when taking photos, and use the exact pin to find the Interstate 40 crossing between the Upper and Lower parks."
       }
     ],
-    "launch-ok-oklahoma-city-myriad-botanical-gardens": [],
+    "launch-ok-oklahoma-city-myriad-botanical-gardens": [
+      {
+        "name": "Inasmuch Foundation Crystal Bridge Conservatory",
+        "latitude": 35.465872,
+        "longitude": -97.517967,
+        "coordinateSource": "https://www.flickr.com/photos/59081381@N03/54010022233",
+        "officialMapSource": "https://myriadgardens.org/visit-us/",
+        "positionQuality": "reviewed-geotagged-destination-photo",
+        "checkedAt": "2026-08-10",
+        "imageIndex": 0,
+        "sourceLabel": "Myriad Botanical Gardens",
+        "source": "https://myriadgardens.org/visit-us/",
+        "summary": "The Inasmuch Foundation Crystal Bridge Conservatory is Myriad Botanical Gardens' ticketed indoor centerpiece, with tropical plant collections inside the cylindrical glass conservatory.",
+        "cost": "Conservatory admission is $10.50 for adults, $9 for seniors age 62 and older and military or veterans, $7 for students, and $5.50 for youth ages 5-17. Children age 4 and under and Myriad Gardens members enter free; group rates require advance reservations.",
+        "hours": "The Crystal Bridge is open Monday-Saturday 9:00 a.m.-5:00 p.m. and Sunday 11:00 a.m.-5:00 p.m. It is closed on Thanksgiving Day and Christmas Day; programs or maintenance can change access.",
+        "needToKnow": "This indoor attraction has its own ticket and schedule even though the exterior gardens are free and remain open later. Individual visitors can buy admission on arrival. A loaner wheelchair is available free on a first-come basis with a driver's license, and only service animals are allowed inside the conservatory. Use the exact pin for the Crystal Bridge entrance rather than a general garden pin."
+      },
+      {
+        "name": "Children's Garden",
+        "osm": "way/546957665",
+        "checkedAt": "2026-08-10",
+        "imageIndex": 1,
+        "sourceLabel": "Myriad Botanical Gardens",
+        "source": "https://myriadgardens.org/visit-us/",
+        "summary": "The Children's Garden is the family play area on the southwest side of Myriad Botanical Gardens, including imaginative outdoor spaces and the seasonal Thunder Fountain water-play area.",
+        "cost": "The outdoor Children's Garden and water features are free. The separate Crystal Bridge Conservatory, carousel rides, programs, parking, food, and special events can cost separately.",
+        "hours": "The Children's Garden follows the exterior grounds' daily 6:00 a.m.-11:00 p.m. schedule. The water features operate on a shorter seasonal schedule, listed by the Gardens as daily through Labor Day from 9:00 a.m.-9:00 p.m.; weather, maintenance, and seasonal shutdowns can interrupt water play.",
+        "needToKnow": "Bring a change of clothes and water shoes if Thunder Fountain is part of the plan, but confirm the water feature is operating before promising it to children. The splash area is seasonal and is not proof that every play feature is running. Leashed pets are allowed on the exterior grounds, recreational scooters cannot be ridden inside the Gardens, and mobility scooters are welcome."
+      },
+      {
+        "name": "Water Stage",
+        "osm": "way/426194293",
+        "checkedAt": "2026-08-10",
+        "imageIndex": 2,
+        "sourceLabel": "Myriad Botanical Gardens",
+        "source": "https://myriadgardens.org/visit-us/rentals/water-stage-and-plaza/",
+        "summary": "Water Stage is Myriad Botanical Gardens' outdoor amphitheater and floating-looking stage on the lagoon, paired with the West Plaza for performances, ceremonies, and gatherings.",
+        "cost": "Viewing the Water Stage during ordinary garden access is free. Reserving the venue, attending a ticketed event, nearby parking, food, and other services can cost separately.",
+        "hours": "The surrounding exterior grounds are normally open daily 6:00 a.m.-11:00 p.m. Event setup, private rentals, maintenance, weather, or crowd controls can restrict access to the stage and plaza even while the rest of the Gardens remains open.",
+        "needToKnow": "This is an active event venue beside open water, not a guaranteed public seating area at all times. Check the Gardens calendar and on-site signs before planning a quiet stop, keep children back from the lagoon edge, and use the exact pin to distinguish Water Stage from other lawns and performance spaces."
+      }
+    ],
     "launch-ok-oklahoma-city-lake-hefner-park": [],
     "launch-tx-fort-worth-trinity-park": [],
     "launch-tx-fort-worth-fort-worth-water-gardens": [
@@ -53,7 +94,7 @@
     "launch-nm-albuquerque-elena-gallegos-open-space": "Secure exact reusable photographs and reviewed pins before publishing Pino Trailhead, Cottonwood Springs Trail, Kiwanis Picnic Area, reservation areas, restrooms, or overlooks as separate pages.",
     "launch-nm-albuquerque-tingley-beach-and-bosque": "Secure exact reusable photographs and reviewed pins before publishing Central Pond, Children's Pond, Model Boat Pond, Bosque Trail, Tingley Beach Station, parking lots, or restrooms as separate pages.",
     "launch-ok-oklahoma-city-scissortail-park": "Secure exact reusable photographs before publishing Scissortail Lake, playground, sprayground, Love's Stage, Sports Pavilion, dog park, Boathouse, restrooms, or additional gardens and event areas as separate pages.",
-    "launch-ok-oklahoma-city-myriad-botanical-gardens": "Secure exact reviewed pins for the Crystal Bridge Conservatory, Thunder Fountain, Children's Garden, carousel, lawns, dog park, restrooms, and entrances before publishing separate pages.",
+    "launch-ok-oklahoma-city-myriad-botanical-gardens": "Published the Inasmuch Foundation Crystal Bridge Conservatory, Children's Garden, and Water Stage from exact named or geotagged locations, official visitor guidance, and destination-specific licensed photographs. Secure exact photo-and-pin pairs before adding Thunder Fountain separately, Mo's Carousel, Great Lawn, dog park, restrooms, or entrances.",
     "launch-ok-oklahoma-city-lake-hefner-park": "Do not publish the East Wharf lighthouse as a Lake Hefner Park subsite: Oklahoma City states that it does not manage the lighthouse and the pin lies outside the reviewed park polygon. Secure exact public-access evidence, photographs, and pins before publishing trails, Stars and Stripes Park, marina, Hobie Point, Bluff Creek Park, playgrounds, dog areas, or restrooms.",
     "launch-tx-fort-worth-trinity-park": "Secure exact destination-specific reusable photographs and reviewed pins before publishing Dream Park, Forest Park Miniature Railroad, Trinity Trails access points, Duck Pond, playground, shelters, restrooms, or parking areas as separate pages.",
     "launch-tx-fort-worth-fort-worth-water-gardens": "Secure an exact reviewed map feature before publishing the Aerating Pool, Mountain, Central Square, Stage and Lawn, Wet Wall, entrances, or accessible viewing routes as separate pages."

@@ -28,14 +28,14 @@ const stable = (parent, child) => {
   return `${hex.slice(0, 8)}-${hex.slice(8, 12)}-${hex.slice(12, 16)}-${hex.slice(16, 20)}-${hex.slice(20)}`;
 };
 
-function answer(intentKey, question, text, source, sourceLabel) {
+function answer(intentKey, question, text, source, sourceLabel, verifiedAt = checkedAt) {
   return {
     intentKey,
     question,
     answer: text,
     source,
     sourceLabel,
-    verifiedAt: checkedAt,
+    verifiedAt,
     freshnessClass: ["hours", "parking", "need-to-know"].includes(intentKey) ? "fast" : "slow",
     status: "verified",
   };
@@ -58,6 +58,7 @@ function inheritedSource(parent, intent, alternate, source, sourceLabel) {
 function featureAnswers(parent, feature) {
   const source = feature.source;
   const sourceLabel = feature.sourceLabel;
+  const verifiedAt = feature.checkedAt || checkedAt;
   const arrival = `Navigate to the exact ${feature.name} pin rather than the general ${parent.name} marker. ${feature.needToKnow}`;
   const parkingSource = inheritedSource(parent, "parking", "entrance", source, sourceLabel);
   const restroomSource = inheritedSource(parent, "restroom", null, source, sourceLabel);
@@ -65,15 +66,15 @@ function featureAnswers(parent, feature) {
   const dogSource = inheritedSource(parent, "dog-area", null, source, sourceLabel);
   const familySource = inheritedSource(parent, "playground", null, source, sourceLabel);
   return [
-    answer("location", `Where exactly is ${feature.name}?`, `${feature.summary} ${arrival}`, source, sourceLabel),
-    answer("parking", `Where should I park for ${feature.name}?`, `${inherited(parent, "parking", "entrance", "Use the closest legal destination-specific parking or transit access.")} ${arrival}`, parkingSource.source, parkingSource.sourceLabel),
-    answer("hours", `When is ${feature.name} open?`, feature.hours, source, sourceLabel),
-    answer("restroom", `Are there restrooms near ${feature.name}?`, inherited(parent, "restroom", null, "Restroom availability varies; identify an open staffed facility before arriving."), restroomSource.source, restroomSource.sourceLabel),
-    answer("fees", `What fees apply at ${feature.name}?`, feature.cost, source, sourceLabel),
-    answer("accessibility", `How accessible is ${feature.name}?`, inherited(parent, "accessibility", "trail-surface", "Check the official destination page for current accessible routes and services."), accessibilitySource.source, accessibilitySource.sourceLabel),
-    answer("dogs", `Are dogs allowed at ${feature.name}?`, `${inherited(parent, "dog-area", null, "Follow posted pet rules.")} Separately operated buildings, beaches, gardens, and attractions can set stricter rules.`, dogSource.source, dogSource.sourceLabel),
-    answer("family", `Is ${feature.name} useful for a family visit?`, `${feature.summary} ${inherited(parent, "playground", null, "Match the visit to the child's needs and supervise around roads, water, trails, and structures.")}`, familySource.source, familySource.sourceLabel),
-    answer("need-to-know", `What should I know before visiting ${feature.name}?`, feature.needToKnow, source, sourceLabel),
+    answer("location", `Where exactly is ${feature.name}?`, `${feature.summary} ${arrival}`, source, sourceLabel, verifiedAt),
+    answer("parking", `Where should I park for ${feature.name}?`, `${inherited(parent, "parking", "entrance", "Use the closest legal destination-specific parking or transit access.")} ${arrival}`, parkingSource.source, parkingSource.sourceLabel, verifiedAt),
+    answer("hours", `When is ${feature.name} open?`, feature.hours, source, sourceLabel, verifiedAt),
+    answer("restroom", `Are there restrooms near ${feature.name}?`, inherited(parent, "restroom", null, "Restroom availability varies; identify an open staffed facility before arriving."), restroomSource.source, restroomSource.sourceLabel, verifiedAt),
+    answer("fees", `What fees apply at ${feature.name}?`, feature.cost, source, sourceLabel, verifiedAt),
+    answer("accessibility", `How accessible is ${feature.name}?`, inherited(parent, "accessibility", "trail-surface", "Check the official destination page for current accessible routes and services."), accessibilitySource.source, accessibilitySource.sourceLabel, verifiedAt),
+    answer("dogs", `Are dogs allowed at ${feature.name}?`, `${inherited(parent, "dog-area", null, "Follow posted pet rules.")} Separately operated buildings, beaches, gardens, and attractions can set stricter rules.`, dogSource.source, dogSource.sourceLabel, verifiedAt),
+    answer("family", `Is ${feature.name} useful for a family visit?`, `${feature.summary} ${inherited(parent, "playground", null, "Match the visit to the child's needs and supervise around roads, water, trails, and structures.")}`, familySource.source, familySource.sourceLabel, verifiedAt),
+    answer("need-to-know", `What should I know before visiting ${feature.name}?`, feature.needToKnow, source, sourceLabel, verifiedAt),
   ];
 }
 
@@ -90,6 +91,7 @@ function makeFeature(parent, selected, point, images) {
     positionQuality: point.positionQuality,
     alt: `${selected.name} at ${parent.name}`,
   };
+  const informationCheckedAt = selected.checkedAt || checkedAt;
   return {
     id,
     slug: featureSlug,
@@ -109,7 +111,7 @@ function makeFeature(parent, selected, point, images) {
       needToKnow: selected.needToKnow,
       informationSourceLabel: selected.sourceLabel,
       informationSourceUrl: selected.source,
-      informationCheckedAt: checkedAt,
+      informationCheckedAt,
       coordinateSource: point.coordinateSource,
       positionQuality: point.positionQuality,
       boundaryExceptionReason: point.boundaryExceptionReason,
@@ -123,7 +125,7 @@ function makeFeature(parent, selected, point, images) {
     },
     source_label: selected.sourceLabel,
     source_url: selected.source,
-    verified_at: checkedAt,
+    verified_at: informationCheckedAt,
   };
 }
 

@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-08",
+  "checkedAt": "2026-08-10",
   "reviewMethod": "Exact named OpenStreetMap feature, official operator guidance, and a destination-specific licensed campaign photograph. Features without all three were retained in the research queue rather than published.",
   "places": {
     "launch-nm-albuquerque-balloon-fiesta-park": {},
@@ -25,10 +25,68 @@
         "boundarySource": "https://www.openstreetmap.org/way/176390181",
         "positionQuality": "reviewed-official-campus-placement",
         "reviewStatus": "approved-official-campus-extension",
-        "reviewedAt": "2026-08-08"
+        "reviewedAt": "2026-08-10"
       }
     },
-    "launch-ok-oklahoma-city-myriad-botanical-gardens": {},
+    "launch-ok-oklahoma-city-myriad-botanical-gardens": {
+      "inasmuch-foundation-crystal-bridge-conservatory": {
+        "name": "Inasmuch Foundation Crystal Bridge Conservatory",
+        "latitude": 35.465872,
+        "longitude": -97.517967,
+        "coordinateSource": "https://www.flickr.com/photos/59081381@N03/54010022233",
+        "officialMapSource": "https://myriadgardens.org/visit-us/",
+        "positionQuality": "reviewed-geotagged-destination-photo",
+        "imageIndex": 0,
+        "sourceLabel": "Myriad Botanical Gardens",
+        "source": "https://myriadgardens.org/visit-us/",
+        "summary": "The Inasmuch Foundation Crystal Bridge Conservatory is Myriad Botanical Gardens' ticketed indoor centerpiece, with tropical plant collections inside the cylindrical glass conservatory.",
+        "cost": "Conservatory admission is $10.50 for adults, $9 for seniors age 62 and older and military or veterans, $7 for students, and $5.50 for youth ages 5-17. Children age 4 and under and Myriad Gardens members enter free; group rates require advance reservations.",
+        "hours": "The Crystal Bridge is open Monday-Saturday 9:00 a.m.-5:00 p.m. and Sunday 11:00 a.m.-5:00 p.m. It is closed on Thanksgiving Day and Christmas Day; programs or maintenance can change access.",
+        "needToKnow": "This indoor attraction has its own ticket and schedule even though the exterior gardens are free and remain open later. Individual visitors can buy admission on arrival. A loaner wheelchair is available free on a first-come basis with a driver's license, and only service animals are allowed inside the conservatory. Use the exact pin for the Crystal Bridge entrance rather than a general garden pin.",
+        "displayName": "Inasmuch Foundation Crystal Bridge Conservatory",
+        "boundarySource": "https://www.openstreetmap.org/way/142226336",
+        "reviewStatus": "approved-official-map-and-geotag-match",
+        "reviewedAt": "2026-08-10"
+      },
+      "children-s-garden": {
+        "name": "Children's Garden",
+        "osm": "way/546957665",
+        "imageIndex": 1,
+        "sourceLabel": "Myriad Botanical Gardens",
+        "source": "https://myriadgardens.org/visit-us/",
+        "summary": "The Children's Garden is the family play area on the southwest side of Myriad Botanical Gardens, including imaginative outdoor spaces and the seasonal Thunder Fountain water-play area.",
+        "cost": "The outdoor Children's Garden and water features are free. The separate Crystal Bridge Conservatory, carousel rides, programs, parking, food, and special events can cost separately.",
+        "hours": "The Children's Garden follows the exterior grounds' daily 6:00 a.m.-11:00 p.m. schedule. The water features operate on a shorter seasonal schedule, listed by the Gardens as daily through Labor Day from 9:00 a.m.-9:00 p.m.; weather, maintenance, and seasonal shutdowns can interrupt water play.",
+        "needToKnow": "Bring a change of clothes and water shoes if Thunder Fountain is part of the plan, but confirm the water feature is operating before promising it to children. The splash area is seasonal and is not proof that every play feature is running. Leashed pets are allowed on the exterior grounds, recreational scooters cannot be ridden inside the Gardens, and mobility scooters are welcome.",
+        "latitude": 35.4646218,
+        "longitude": -97.518625,
+        "displayName": "Children's Gardens",
+        "coordinateSource": "https://www.openstreetmap.org/way/546957665",
+        "boundarySource": "https://www.openstreetmap.org/way/142226336",
+        "positionQuality": "reviewed-public-map-placement",
+        "reviewStatus": "approved-feature-and-boundary-match",
+        "reviewedAt": "2026-08-10"
+      },
+      "water-stage": {
+        "name": "Water Stage",
+        "osm": "way/426194293",
+        "imageIndex": 2,
+        "sourceLabel": "Myriad Botanical Gardens",
+        "source": "https://myriadgardens.org/visit-us/rentals/water-stage-and-plaza/",
+        "summary": "Water Stage is Myriad Botanical Gardens' outdoor amphitheater and floating-looking stage on the lagoon, paired with the West Plaza for performances, ceremonies, and gatherings.",
+        "cost": "Viewing the Water Stage during ordinary garden access is free. Reserving the venue, attending a ticketed event, nearby parking, food, and other services can cost separately.",
+        "hours": "The surrounding exterior grounds are normally open daily 6:00 a.m.-11:00 p.m. Event setup, private rentals, maintenance, weather, or crowd controls can restrict access to the stage and plaza even while the rest of the Gardens remains open.",
+        "needToKnow": "This is an active event venue beside open water, not a guaranteed public seating area at all times. Check the Gardens calendar and on-site signs before planning a quiet stop, keep children back from the lagoon edge, and use the exact pin to distinguish Water Stage from other lawns and performance spaces.",
+        "latitude": 35.4651398,
+        "longitude": -97.5183278,
+        "displayName": "Water Stage",
+        "coordinateSource": "https://www.openstreetmap.org/way/426194293",
+        "boundarySource": "https://www.openstreetmap.org/way/142226336",
+        "positionQuality": "reviewed-public-map-placement",
+        "reviewStatus": "approved-feature-and-boundary-match",
+        "reviewedAt": "2026-08-10"
+      }
+    },
     "launch-ok-oklahoma-city-lake-hefner-park": {},
     "launch-tx-fort-worth-trinity-park": {},
     "launch-tx-fort-worth-fort-worth-water-gardens": {
@@ -49,7 +107,7 @@
         "boundarySource": "https://www.openstreetmap.org/way/39823491",
         "positionQuality": "reviewed-public-map-placement",
         "reviewStatus": "approved-feature-and-boundary-match",
-        "reviewedAt": "2026-08-08"
+        "reviewedAt": "2026-08-10"
       },
       "quiet-pool": {
         "name": "Quiet Pool",
@@ -68,7 +126,7 @@
         "boundarySource": "https://www.openstreetmap.org/way/39823491",
         "positionQuality": "reviewed-public-map-placement",
         "reviewStatus": "approved-feature-and-boundary-match",
-        "reviewedAt": "2026-08-08"
+        "reviewedAt": "2026-08-10"
       }
     }
   }
