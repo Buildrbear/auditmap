@@ -13,6 +13,17 @@ const fs = require("node:fs"),
       .replace(/[^a-z0-9]+/g, "-")
       .replace(/^-|-$/g, ""),
   wait = (ms) => new Promise((r) => setTimeout(r, ms));
+const imageAlt = (place, label) => {
+  const subject = String(label)
+    .replace(/\.[a-z0-9]+$/i, "")
+    .replace(/\s*\([^)]*\)\s*$/, "")
+    .replace(/[-_]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  return subject.toLowerCase().includes(place.toLowerCase())
+    ? subject
+    : `${subject} at ${place}`;
+};
 async function commons(file) {
   if (typeof file === "object") return file;
   const q = new URLSearchParams({
@@ -96,7 +107,7 @@ async function bytes(url, label) {
         source: rec.source,
         author: rec.author,
         license: rec.license,
-        alt: `${name} in the Baltimore area`,
+        alt: imageAlt(name, rec.label),
         width: m.width,
         height: m.height,
       });
@@ -114,4 +125,3 @@ async function bytes(url, label) {
   console.error(e.stack || e);
   process.exit(1);
 });
-

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T11:09:34.888Z",
+  "generatedAt": "2026-08-10T11:39:54.120Z",
   "policy": {
     "publication": "AI findings remain proposed until a human accepts the fact and its sources.",
     "prioritization": "Daily-use and safety-sensitive gaps rank above descriptive content.",
@@ -9,7 +9,7 @@
   "summary": {
     "places": 911,
     "averageCoverageScore": 55,
-    "openTasks": 5999,
+    "openTasks": 5998,
     "urgentTasks": 961
   },
   "coverage": [
@@ -2859,8 +2859,8 @@
       "placeId": "launch-md-baltimore-patterson-park",
       "placeName": "Patterson Park",
       "expectedIntentCount": 14,
-      "coveredIntentCount": 6,
-      "coverageScore": 48
+      "coveredIntentCount": 7,
+      "coverageScore": 55
     },
     {
       "placeId": "launch-md-baltimore-federal-hill-park",
@@ -23516,7 +23516,32 @@
       "suggestedSources": [
         {
           "label": "Baltimore City Recreation and Parks",
-          "url": "https://www.baltimorecity.gov/bcrp/our-work/parks-trails/druid-hill",
+          "url": "https://bcrp.baltimorecity.gov/sites/default/files/DruidHillmaster.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore City Department of Public Works",
+          "url": "https://content.govdelivery.com/accounts/MDBALT/bulletins/3e15440",
+          "sourceType": "official"
+        },
+        {
+          "label": "H.P. Rawlings Conservatory & Botanic Gardens",
+          "url": "https://rawlingsconservatory.org/visit-us/",
+          "sourceType": "official"
+        },
+        {
+          "label": "The Maryland Zoo in Baltimore",
+          "url": "https://www.marylandzoo.org/visit/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore City Recreation and Parks GIS",
+          "url": "https://geodata.baltimorecity.gov/egis/rest/services/CityView/BCRPServices/MapServer/2",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore City Department of Transportation",
+          "url": "https://streetsofbaltimore.com/bigjump",
           "sourceType": "official"
         }
       ],
@@ -27634,31 +27659,6 @@
       "placeCoverageScore": 48
     },
     {
-      "id": "launch-md-baltimore-patterson-park:closures",
-      "placeId": "launch-md-baltimore-patterson-park",
-      "placeName": "Patterson Park",
-      "placeType": "Park",
-      "city": "Baltimore",
-      "state": "MD",
-      "intentKey": "closures",
-      "intentLabel": "Closures and availability",
-      "question": "Is anything at Patterson Park closed, seasonal, or temporarily unavailable?",
-      "reason": "No current, source-backed closures and availability answer is cataloged.",
-      "action": "research",
-      "priority": 96,
-      "freshnessDays": 3,
-      "previousAnswer": null,
-      "suggestedSources": [
-        {
-          "label": "Baltimore City Recreation and Parks",
-          "url": "https://pattersonpark.com/parkfaq",
-          "sourceType": "official"
-        }
-      ],
-      "requiresHumanReview": true,
-      "placeCoverageScore": 48
-    },
-    {
       "id": "launch-hi-honolulu-pearl-harbor-national-memorial:closures",
       "placeId": "launch-hi-honolulu-pearl-harbor-national-memorial",
       "placeName": "Pearl Harbor National Memorial",
@@ -30587,6 +30587,46 @@
       ],
       "requiresHumanReview": true,
       "placeCoverageScore": 51
+    },
+    {
+      "id": "launch-md-baltimore-patterson-park:closures",
+      "placeId": "launch-md-baltimore-patterson-park",
+      "placeName": "Patterson Park",
+      "placeType": "Park",
+      "city": "Baltimore",
+      "state": "MD",
+      "intentKey": "closures",
+      "intentLabel": "Closures and availability",
+      "question": "Is anything at Patterson Park closed, seasonal, or temporarily unavailable?",
+      "reason": "No current, source-backed closures and availability answer is cataloged.",
+      "action": "research",
+      "priority": 96,
+      "freshnessDays": 3,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Baltimore City Recreation and Parks",
+          "url": "https://pattersonpark.com/parkfaq",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of Patterson Park",
+          "url": "https://pattersonpark.com/park-landmarks",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of Patterson Park and Baltimore City Recreation and Parks GIS",
+          "url": "https://geodata.baltimorecity.gov/egis/rest/services/CityView/BCRPServices/MapServer/2",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore National Heritage Area",
+          "url": "https://www.nps.gov/subjects/heritageareas/upload/BNHA-2013-CMP.pdf",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 55
     },
     {
       "id": "carteret-morehead-city-conchs-point:closures",
@@ -60427,7 +60467,32 @@
       "suggestedSources": [
         {
           "label": "Baltimore City Recreation and Parks",
-          "url": "https://www.baltimorecity.gov/bcrp/our-work/parks-trails/druid-hill",
+          "url": "https://bcrp.baltimorecity.gov/sites/default/files/DruidHillmaster.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore City Department of Public Works",
+          "url": "https://content.govdelivery.com/accounts/MDBALT/bulletins/3e15440",
+          "sourceType": "official"
+        },
+        {
+          "label": "H.P. Rawlings Conservatory & Botanic Gardens",
+          "url": "https://rawlingsconservatory.org/visit-us/",
+          "sourceType": "official"
+        },
+        {
+          "label": "The Maryland Zoo in Baltimore",
+          "url": "https://www.marylandzoo.org/visit/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore City Recreation and Parks GIS",
+          "url": "https://geodata.baltimorecity.gov/egis/rest/services/CityView/BCRPServices/MapServer/2",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore City Department of Transportation",
+          "url": "https://streetsofbaltimore.com/bigjump",
           "sourceType": "official"
         }
       ],
@@ -64545,31 +64610,6 @@
       "placeCoverageScore": 48
     },
     {
-      "id": "launch-md-baltimore-patterson-park:trail-surface",
-      "placeId": "launch-md-baltimore-patterson-park",
-      "placeName": "Patterson Park",
-      "placeType": "Park",
-      "city": "Baltimore",
-      "state": "MD",
-      "intentKey": "trail-surface",
-      "intentLabel": "Walking surfaces and terrain",
-      "question": "What are the walking surfaces, slopes, and trail conditions at Patterson Park?",
-      "reason": "No current, source-backed walking surfaces and terrain answer is cataloged.",
-      "action": "research",
-      "priority": 80,
-      "freshnessDays": 90,
-      "previousAnswer": null,
-      "suggestedSources": [
-        {
-          "label": "Baltimore City Recreation and Parks",
-          "url": "https://pattersonpark.com/parkfaq",
-          "sourceType": "official"
-        }
-      ],
-      "requiresHumanReview": true,
-      "placeCoverageScore": 48
-    },
-    {
       "id": "launch-hi-honolulu-pearl-harbor-national-memorial:trail-surface",
       "placeId": "launch-hi-honolulu-pearl-harbor-national-memorial",
       "placeName": "Pearl Harbor National Memorial",
@@ -67498,6 +67538,46 @@
       ],
       "requiresHumanReview": true,
       "placeCoverageScore": 51
+    },
+    {
+      "id": "launch-md-baltimore-patterson-park:trail-surface",
+      "placeId": "launch-md-baltimore-patterson-park",
+      "placeName": "Patterson Park",
+      "placeType": "Park",
+      "city": "Baltimore",
+      "state": "MD",
+      "intentKey": "trail-surface",
+      "intentLabel": "Walking surfaces and terrain",
+      "question": "What are the walking surfaces, slopes, and trail conditions at Patterson Park?",
+      "reason": "No current, source-backed walking surfaces and terrain answer is cataloged.",
+      "action": "research",
+      "priority": 80,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Baltimore City Recreation and Parks",
+          "url": "https://pattersonpark.com/parkfaq",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of Patterson Park",
+          "url": "https://pattersonpark.com/park-landmarks",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of Patterson Park and Baltimore City Recreation and Parks GIS",
+          "url": "https://geodata.baltimorecity.gov/egis/rest/services/CityView/BCRPServices/MapServer/2",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore National Heritage Area",
+          "url": "https://www.nps.gov/subjects/heritageareas/upload/BNHA-2013-CMP.pdf",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 55
     },
     {
       "id": "launch-fl-cooper-city-brian-piccolo-sports-park-velodrome:trail-surface",
@@ -75621,7 +75701,32 @@
       "suggestedSources": [
         {
           "label": "Baltimore City Recreation and Parks",
-          "url": "https://www.baltimorecity.gov/bcrp/our-work/parks-trails/druid-hill",
+          "url": "https://bcrp.baltimorecity.gov/sites/default/files/DruidHillmaster.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore City Department of Public Works",
+          "url": "https://content.govdelivery.com/accounts/MDBALT/bulletins/3e15440",
+          "sourceType": "official"
+        },
+        {
+          "label": "H.P. Rawlings Conservatory & Botanic Gardens",
+          "url": "https://rawlingsconservatory.org/visit-us/",
+          "sourceType": "official"
+        },
+        {
+          "label": "The Maryland Zoo in Baltimore",
+          "url": "https://www.marylandzoo.org/visit/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore City Recreation and Parks GIS",
+          "url": "https://geodata.baltimorecity.gov/egis/rest/services/CityView/BCRPServices/MapServer/2",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore City Department of Transportation",
+          "url": "https://streetsofbaltimore.com/bigjump",
           "sourceType": "official"
         }
       ],
@@ -79739,31 +79844,6 @@
       "placeCoverageScore": 48
     },
     {
-      "id": "launch-md-baltimore-patterson-park:playground",
-      "placeId": "launch-md-baltimore-patterson-park",
-      "placeName": "Patterson Park",
-      "placeType": "Park",
-      "city": "Baltimore",
-      "state": "MD",
-      "intentKey": "playground",
-      "intentLabel": "Playgrounds",
-      "question": "What playgrounds are at Patterson Park, and what ages or abilities do they serve?",
-      "reason": "No current, source-backed playgrounds answer is cataloged.",
-      "action": "research",
-      "priority": 79,
-      "freshnessDays": 90,
-      "previousAnswer": null,
-      "suggestedSources": [
-        {
-          "label": "Baltimore City Recreation and Parks",
-          "url": "https://pattersonpark.com/parkfaq",
-          "sourceType": "official"
-        }
-      ],
-      "requiresHumanReview": true,
-      "placeCoverageScore": 48
-    },
-    {
       "id": "launch-hi-honolulu-pearl-harbor-national-memorial:playground",
       "placeId": "launch-hi-honolulu-pearl-harbor-national-memorial",
       "placeName": "Pearl Harbor National Memorial",
@@ -82632,6 +82712,46 @@
       ],
       "requiresHumanReview": true,
       "placeCoverageScore": 48
+    },
+    {
+      "id": "launch-md-baltimore-patterson-park:playground",
+      "placeId": "launch-md-baltimore-patterson-park",
+      "placeName": "Patterson Park",
+      "placeType": "Park",
+      "city": "Baltimore",
+      "state": "MD",
+      "intentKey": "playground",
+      "intentLabel": "Playgrounds",
+      "question": "What playgrounds are at Patterson Park, and what ages or abilities do they serve?",
+      "reason": "No current, source-backed playgrounds answer is cataloged.",
+      "action": "research",
+      "priority": 79,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Baltimore City Recreation and Parks",
+          "url": "https://pattersonpark.com/parkfaq",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of Patterson Park",
+          "url": "https://pattersonpark.com/park-landmarks",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of Patterson Park and Baltimore City Recreation and Parks GIS",
+          "url": "https://geodata.baltimorecity.gov/egis/rest/services/CityView/BCRPServices/MapServer/2",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore National Heritage Area",
+          "url": "https://www.nps.gov/subjects/heritageareas/upload/BNHA-2013-CMP.pdf",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 55
     },
     {
       "id": "launch-fl-hollywood-hollywood-north-beach-park:playground",
@@ -91110,7 +91230,32 @@
       "suggestedSources": [
         {
           "label": "Baltimore City Recreation and Parks",
-          "url": "https://www.baltimorecity.gov/bcrp/our-work/parks-trails/druid-hill",
+          "url": "https://bcrp.baltimorecity.gov/sites/default/files/DruidHillmaster.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore City Department of Public Works",
+          "url": "https://content.govdelivery.com/accounts/MDBALT/bulletins/3e15440",
+          "sourceType": "official"
+        },
+        {
+          "label": "H.P. Rawlings Conservatory & Botanic Gardens",
+          "url": "https://rawlingsconservatory.org/visit-us/",
+          "sourceType": "official"
+        },
+        {
+          "label": "The Maryland Zoo in Baltimore",
+          "url": "https://www.marylandzoo.org/visit/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore City Recreation and Parks GIS",
+          "url": "https://geodata.baltimorecity.gov/egis/rest/services/CityView/BCRPServices/MapServer/2",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore City Department of Transportation",
+          "url": "https://streetsofbaltimore.com/bigjump",
           "sourceType": "official"
         }
       ],
@@ -95228,31 +95373,6 @@
       "placeCoverageScore": 48
     },
     {
-      "id": "launch-md-baltimore-patterson-park:splash-pad",
-      "placeId": "launch-md-baltimore-patterson-park",
-      "placeName": "Patterson Park",
-      "placeType": "Park",
-      "city": "Baltimore",
-      "state": "MD",
-      "intentKey": "splash-pad",
-      "intentLabel": "Water play",
-      "question": "Is there a splash pad or water play at Patterson Park, and when does it operate?",
-      "reason": "No current, source-backed water play answer is cataloged.",
-      "action": "research",
-      "priority": 78,
-      "freshnessDays": 14,
-      "previousAnswer": null,
-      "suggestedSources": [
-        {
-          "label": "Baltimore City Recreation and Parks",
-          "url": "https://pattersonpark.com/parkfaq",
-          "sourceType": "official"
-        }
-      ],
-      "requiresHumanReview": true,
-      "placeCoverageScore": 48
-    },
-    {
       "id": "launch-hi-honolulu-pearl-harbor-national-memorial:splash-pad",
       "placeId": "launch-hi-honolulu-pearl-harbor-national-memorial",
       "placeName": "Pearl Harbor National Memorial",
@@ -98121,6 +98241,46 @@
       ],
       "requiresHumanReview": true,
       "placeCoverageScore": 48
+    },
+    {
+      "id": "launch-md-baltimore-patterson-park:splash-pad",
+      "placeId": "launch-md-baltimore-patterson-park",
+      "placeName": "Patterson Park",
+      "placeType": "Park",
+      "city": "Baltimore",
+      "state": "MD",
+      "intentKey": "splash-pad",
+      "intentLabel": "Water play",
+      "question": "Is there a splash pad or water play at Patterson Park, and when does it operate?",
+      "reason": "No current, source-backed water play answer is cataloged.",
+      "action": "research",
+      "priority": 78,
+      "freshnessDays": 14,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Baltimore City Recreation and Parks",
+          "url": "https://pattersonpark.com/parkfaq",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of Patterson Park",
+          "url": "https://pattersonpark.com/park-landmarks",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of Patterson Park and Baltimore City Recreation and Parks GIS",
+          "url": "https://geodata.baltimorecity.gov/egis/rest/services/CityView/BCRPServices/MapServer/2",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore National Heritage Area",
+          "url": "https://www.nps.gov/subjects/heritageareas/upload/BNHA-2013-CMP.pdf",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 55
     },
     {
       "id": "carteret-morehead-city-rotary-park:splash-pad",
@@ -109714,7 +109874,32 @@
       "suggestedSources": [
         {
           "label": "Baltimore City Recreation and Parks",
-          "url": "https://www.baltimorecity.gov/bcrp/our-work/parks-trails/druid-hill",
+          "url": "https://bcrp.baltimorecity.gov/sites/default/files/DruidHillmaster.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore City Department of Public Works",
+          "url": "https://content.govdelivery.com/accounts/MDBALT/bulletins/3e15440",
+          "sourceType": "official"
+        },
+        {
+          "label": "H.P. Rawlings Conservatory & Botanic Gardens",
+          "url": "https://rawlingsconservatory.org/visit-us/",
+          "sourceType": "official"
+        },
+        {
+          "label": "The Maryland Zoo in Baltimore",
+          "url": "https://www.marylandzoo.org/visit/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore City Recreation and Parks GIS",
+          "url": "https://geodata.baltimorecity.gov/egis/rest/services/CityView/BCRPServices/MapServer/2",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore City Department of Transportation",
+          "url": "https://streetsofbaltimore.com/bigjump",
           "sourceType": "official"
         }
       ],
@@ -113825,31 +114010,6 @@
         {
           "label": "Maryland Department of Natural Resources",
           "url": "https://dnr.maryland.gov/publiclands/Pages/central/PatapscoValley/McKeldin/McKeldin-Area.aspx",
-          "sourceType": "official"
-        }
-      ],
-      "requiresHumanReview": true,
-      "placeCoverageScore": 48
-    },
-    {
-      "id": "launch-md-baltimore-patterson-park:dog-area",
-      "placeId": "launch-md-baltimore-patterson-park",
-      "placeName": "Patterson Park",
-      "placeType": "Park",
-      "city": "Baltimore",
-      "state": "MD",
-      "intentKey": "dog-area",
-      "intentLabel": "Dog areas and rules",
-      "question": "Where can dogs go at Patterson Park, and what rules apply?",
-      "reason": "No current, source-backed dog areas and rules answer is cataloged.",
-      "action": "research",
-      "priority": 72,
-      "freshnessDays": 90,
-      "previousAnswer": null,
-      "suggestedSources": [
-        {
-          "label": "Baltimore City Recreation and Parks",
-          "url": "https://pattersonpark.com/parkfaq",
           "sourceType": "official"
         }
       ],
@@ -125413,7 +125573,32 @@
       "suggestedSources": [
         {
           "label": "Baltimore City Recreation and Parks",
-          "url": "https://www.baltimorecity.gov/bcrp/our-work/parks-trails/druid-hill",
+          "url": "https://bcrp.baltimorecity.gov/sites/default/files/DruidHillmaster.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore City Department of Public Works",
+          "url": "https://content.govdelivery.com/accounts/MDBALT/bulletins/3e15440",
+          "sourceType": "official"
+        },
+        {
+          "label": "H.P. Rawlings Conservatory & Botanic Gardens",
+          "url": "https://rawlingsconservatory.org/visit-us/",
+          "sourceType": "official"
+        },
+        {
+          "label": "The Maryland Zoo in Baltimore",
+          "url": "https://www.marylandzoo.org/visit/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore City Recreation and Parks GIS",
+          "url": "https://geodata.baltimorecity.gov/egis/rest/services/CityView/BCRPServices/MapServer/2",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore City Department of Transportation",
+          "url": "https://streetsofbaltimore.com/bigjump",
           "sourceType": "official"
         }
       ],
@@ -129531,31 +129716,6 @@
       "placeCoverageScore": 48
     },
     {
-      "id": "launch-md-baltimore-patterson-park:picnic",
-      "placeId": "launch-md-baltimore-patterson-park",
-      "placeName": "Patterson Park",
-      "placeType": "Park",
-      "city": "Baltimore",
-      "state": "MD",
-      "intentKey": "picnic",
-      "intentLabel": "Picnic areas",
-      "question": "Where are picnic areas at Patterson Park, and do any require reservations?",
-      "reason": "No current, source-backed picnic areas answer is cataloged.",
-      "action": "research",
-      "priority": 68,
-      "freshnessDays": 90,
-      "previousAnswer": null,
-      "suggestedSources": [
-        {
-          "label": "Baltimore City Recreation and Parks",
-          "url": "https://pattersonpark.com/parkfaq",
-          "sourceType": "official"
-        }
-      ],
-      "requiresHumanReview": true,
-      "placeCoverageScore": 48
-    },
-    {
       "id": "launch-hi-honolulu-pearl-harbor-national-memorial:picnic",
       "placeId": "launch-hi-honolulu-pearl-harbor-national-memorial",
       "placeName": "Pearl Harbor National Memorial",
@@ -132424,6 +132584,46 @@
       ],
       "requiresHumanReview": true,
       "placeCoverageScore": 48
+    },
+    {
+      "id": "launch-md-baltimore-patterson-park:picnic",
+      "placeId": "launch-md-baltimore-patterson-park",
+      "placeName": "Patterson Park",
+      "placeType": "Park",
+      "city": "Baltimore",
+      "state": "MD",
+      "intentKey": "picnic",
+      "intentLabel": "Picnic areas",
+      "question": "Where are picnic areas at Patterson Park, and do any require reservations?",
+      "reason": "No current, source-backed picnic areas answer is cataloged.",
+      "action": "research",
+      "priority": 68,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Baltimore City Recreation and Parks",
+          "url": "https://pattersonpark.com/parkfaq",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of Patterson Park",
+          "url": "https://pattersonpark.com/park-landmarks",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of Patterson Park and Baltimore City Recreation and Parks GIS",
+          "url": "https://geodata.baltimorecity.gov/egis/rest/services/CityView/BCRPServices/MapServer/2",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore National Heritage Area",
+          "url": "https://www.nps.gov/subjects/heritageareas/upload/BNHA-2013-CMP.pdf",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 55
     },
     {
       "id": "launch-fl-cooper-city-brian-piccolo-sports-park-velodrome:picnic",
@@ -140887,7 +141087,32 @@
       "suggestedSources": [
         {
           "label": "Baltimore City Recreation and Parks",
-          "url": "https://www.baltimorecity.gov/bcrp/our-work/parks-trails/druid-hill",
+          "url": "https://bcrp.baltimorecity.gov/sites/default/files/DruidHillmaster.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore City Department of Public Works",
+          "url": "https://content.govdelivery.com/accounts/MDBALT/bulletins/3e15440",
+          "sourceType": "official"
+        },
+        {
+          "label": "H.P. Rawlings Conservatory & Botanic Gardens",
+          "url": "https://rawlingsconservatory.org/visit-us/",
+          "sourceType": "official"
+        },
+        {
+          "label": "The Maryland Zoo in Baltimore",
+          "url": "https://www.marylandzoo.org/visit/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore City Recreation and Parks GIS",
+          "url": "https://geodata.baltimorecity.gov/egis/rest/services/CityView/BCRPServices/MapServer/2",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore City Department of Transportation",
+          "url": "https://streetsofbaltimore.com/bigjump",
           "sourceType": "official"
         }
       ],
@@ -145005,31 +145230,6 @@
       "placeCoverageScore": 48
     },
     {
-      "id": "launch-md-baltimore-patterson-park:shade",
-      "placeId": "launch-md-baltimore-patterson-park",
-      "placeName": "Patterson Park",
-      "placeType": "Park",
-      "city": "Baltimore",
-      "state": "MD",
-      "intentKey": "shade",
-      "intentLabel": "Shade and weather comfort",
-      "question": "Where can visitors find shade or weather shelter at Patterson Park?",
-      "reason": "No current, source-backed shade and weather comfort answer is cataloged.",
-      "action": "research",
-      "priority": 64,
-      "freshnessDays": 180,
-      "previousAnswer": null,
-      "suggestedSources": [
-        {
-          "label": "Baltimore City Recreation and Parks",
-          "url": "https://pattersonpark.com/parkfaq",
-          "sourceType": "official"
-        }
-      ],
-      "requiresHumanReview": true,
-      "placeCoverageScore": 48
-    },
-    {
       "id": "launch-hi-honolulu-pearl-harbor-national-memorial:shade",
       "placeId": "launch-hi-honolulu-pearl-harbor-national-memorial",
       "placeName": "Pearl Harbor National Memorial",
@@ -147958,6 +148158,46 @@
       ],
       "requiresHumanReview": true,
       "placeCoverageScore": 51
+    },
+    {
+      "id": "launch-md-baltimore-patterson-park:shade",
+      "placeId": "launch-md-baltimore-patterson-park",
+      "placeName": "Patterson Park",
+      "placeType": "Park",
+      "city": "Baltimore",
+      "state": "MD",
+      "intentKey": "shade",
+      "intentLabel": "Shade and weather comfort",
+      "question": "Where can visitors find shade or weather shelter at Patterson Park?",
+      "reason": "No current, source-backed shade and weather comfort answer is cataloged.",
+      "action": "research",
+      "priority": 64,
+      "freshnessDays": 180,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Baltimore City Recreation and Parks",
+          "url": "https://pattersonpark.com/parkfaq",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of Patterson Park",
+          "url": "https://pattersonpark.com/park-landmarks",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of Patterson Park and Baltimore City Recreation and Parks GIS",
+          "url": "https://geodata.baltimorecity.gov/egis/rest/services/CityView/BCRPServices/MapServer/2",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore National Heritage Area",
+          "url": "https://www.nps.gov/subjects/heritageareas/upload/BNHA-2013-CMP.pdf",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 55
     },
     {
       "id": "carteret-morehead-city-rotary-park:shade",
@@ -158891,7 +159131,32 @@
       "suggestedSources": [
         {
           "label": "Baltimore City Recreation and Parks",
-          "url": "https://www.baltimorecity.gov/bcrp/our-work/parks-trails/druid-hill",
+          "url": "https://bcrp.baltimorecity.gov/sites/default/files/DruidHillmaster.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore City Department of Public Works",
+          "url": "https://content.govdelivery.com/accounts/MDBALT/bulletins/3e15440",
+          "sourceType": "official"
+        },
+        {
+          "label": "H.P. Rawlings Conservatory & Botanic Gardens",
+          "url": "https://rawlingsconservatory.org/visit-us/",
+          "sourceType": "official"
+        },
+        {
+          "label": "The Maryland Zoo in Baltimore",
+          "url": "https://www.marylandzoo.org/visit/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore City Recreation and Parks GIS",
+          "url": "https://geodata.baltimorecity.gov/egis/rest/services/CityView/BCRPServices/MapServer/2",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore City Department of Transportation",
+          "url": "https://streetsofbaltimore.com/bigjump",
           "sourceType": "official"
         }
       ],
@@ -163009,31 +163274,6 @@
       "placeCoverageScore": 48
     },
     {
-      "id": "launch-md-baltimore-patterson-park:public-art",
-      "placeId": "launch-md-baltimore-patterson-park",
-      "placeName": "Patterson Park",
-      "placeType": "Park",
-      "city": "Baltimore",
-      "state": "MD",
-      "intentKey": "public-art",
-      "intentLabel": "Landmarks and public art",
-      "question": "Where are the landmarks or public art at Patterson Park, and how do visitors find them?",
-      "reason": "No current, source-backed landmarks and public art answer is cataloged.",
-      "action": "research",
-      "priority": 60,
-      "freshnessDays": 180,
-      "previousAnswer": null,
-      "suggestedSources": [
-        {
-          "label": "Baltimore City Recreation and Parks",
-          "url": "https://pattersonpark.com/parkfaq",
-          "sourceType": "official"
-        }
-      ],
-      "requiresHumanReview": true,
-      "placeCoverageScore": 48
-    },
-    {
       "id": "launch-hi-honolulu-pearl-harbor-national-memorial:public-art",
       "placeId": "launch-hi-honolulu-pearl-harbor-national-memorial",
       "placeName": "Pearl Harbor National Memorial",
@@ -165962,6 +166202,46 @@
       ],
       "requiresHumanReview": true,
       "placeCoverageScore": 51
+    },
+    {
+      "id": "launch-md-baltimore-patterson-park:public-art",
+      "placeId": "launch-md-baltimore-patterson-park",
+      "placeName": "Patterson Park",
+      "placeType": "Park",
+      "city": "Baltimore",
+      "state": "MD",
+      "intentKey": "public-art",
+      "intentLabel": "Landmarks and public art",
+      "question": "Where are the landmarks or public art at Patterson Park, and how do visitors find them?",
+      "reason": "No current, source-backed landmarks and public art answer is cataloged.",
+      "action": "research",
+      "priority": 60,
+      "freshnessDays": 180,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Baltimore City Recreation and Parks",
+          "url": "https://pattersonpark.com/parkfaq",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of Patterson Park",
+          "url": "https://pattersonpark.com/park-landmarks",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of Patterson Park and Baltimore City Recreation and Parks GIS",
+          "url": "https://geodata.baltimorecity.gov/egis/rest/services/CityView/BCRPServices/MapServer/2",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore National Heritage Area",
+          "url": "https://www.nps.gov/subjects/heritageareas/upload/BNHA-2013-CMP.pdf",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 55
     },
     {
       "id": "carteret-morehead-city-rotary-park:public-art",

@@ -5,6 +5,8 @@ const fs = require("node:fs"),
   root = path.resolve(__dirname, ".."),
   campaign = require("../data/baltimore-super-enrichment-campaign.json"),
   facts = require("../data/baltimore-visitor-facts.json").places,
+  featureFactsDocument = require("../data/baltimore-feature-visitor-facts.json"),
+  featureFacts = featureFactsDocument.places,
   galleries = require("../data/generated/baltimore-super-images.json"),
   coordinates =
     require("../data/generated/baltimore-feature-coordinates.json").places,
@@ -43,6 +45,20 @@ const slug = (v) =>
     const i = d.parks.findIndex((x) => x.id === p.id);
     i >= 0 ? (d.parks[i] = p) : d.parks.push(p);
   };
+const obsoleteFeatureSlugs = {
+  "launch-md-baltimore-druid-hill-park": [
+    "druid-hill-park-pool",
+    "disc-golf-course",
+    "jones-falls-trail-connection",
+  ],
+  "launch-md-baltimore-patterson-park": [
+    "patterson-park-playground",
+    "patterson-park-dog-park",
+    "patterson-park-pool",
+    "patterson-park-ice-rink",
+    "patterson-park-athletic-fields",
+  ],
+};
 function schedule(p) {
   if (p.id.endsWith("cylburn-arboretum"))
     return {
@@ -56,22 +72,24 @@ function schedule(p) {
     };
   return false;
 }
-function ans(p, k, q, a) {
+function ans(p, k, q, a, meta = {}) {
   return {
     intentKey: k,
     question: q,
     answer: a,
-    sourceLabel: p.operator,
-    source: p.source,
-    verifiedAt: checkedAt,
-    freshnessClass: ["hours", "parking", "need-to-know", "weather"].includes(k)
-      ? "fast"
-      : "slow",
+    sourceLabel: meta.sourceLabel || p.operator,
+    source: meta.source || p.source,
+    verifiedAt: p.verifiedAt || checkedAt,
+    freshnessClass:
+      meta.freshnessClass ||
+      (["hours", "parking", "need-to-know", "weather"].includes(k)
+        ? "fast"
+        : "slow"),
     status: "verified",
   };
 }
 function answers(p) {
-  return [
+  const core = [
     ["hours", `When is ${p.name} open?`, p.hours],
     ["parking", `Where should I park for ${p.name}?`, p.parking],
     ["entrance", `What is the best entrance for ${p.name}?`, p.arrival],
@@ -88,6 +106,10 @@ function answers(p) {
       `Check current Baltimore weather and operator alerts. Harbor wind, thunderstorms, flash flooding, stream and lake conditions, heat, snow and ice can close trails, water access or facilities independently.`,
     ],
   ].map((v) => ans(p, ...v));
+  const extra = (p.extraAnswers || []).map((entry) =>
+    ans(p, entry.intentKey, entry.question, entry.answer, entry),
+  );
+  return core.concat(extra);
 }
 function note(name, parent) {
   const n = name.toLowerCase();
@@ -140,9 +162,14 @@ function feature(p, name, i, images) {
   const s = slug(name),
     id = stable(p.id, s),
     point = coordinates[p.id]?.[s],
-    description = note(name, p.name);
+    factsForPlace = featureFacts[p.id],
+    specific = factsForPlace?.[s],
+    description = specific?.description || note(name, p.name);
   if (!point) throw new Error(`${p.name}/${name}: coordinate missing`);
-  const base = images[featureImageIndex(p, name, i) % images.length],
+  if (factsForPlace && !specific)
+    throw new Error(`${p.name}/${name}: destination-specific facts missing`);
+  const imageIndex = specific?.imageIndex ?? featureImageIndex(p, name, i),
+    base = images[imageIndex % images.length],
     image = {
       ...base,
       featureId: id,
@@ -151,28 +178,31 @@ function feature(p, name, i, images) {
       alt: `${name} at ${p.name}`,
     },
     separateHours = /(conservatory|zoo|pool|observatory|dog park|ice rink|recreation center|visitor center|star fort|flag change|mansion|nature education center|greenhouse|children's garden|nature center|pier|amphitheater|park|plaza|paw point)/i.test(name),
-    featureHours = separateHours
+    featureHours = specific?.hours || (separateHours
       ? `${name} keeps its own admission, operating, seasonal, staffing, program, construction, maintenance, or weather schedule. Check the cited official source and current operator notices before leaving.`
-      : p.hours,
+      : p.hours),
+    sourceMeta = specific
+      ? { sourceLabel: specific.sourceLabel, source: specific.source }
+      : {},
     qs = [
-      ["location", `Where exactly is ${name}?`, description],
-      ["parking", `Where should I park for ${name}?`, p.parking],
+      ["location", `Where exactly is ${name}?`, specific?.location || description],
+      ["parking", `Where should I park for ${name}?`, specific?.parking || p.parking],
       [
         "hours",
         `When is ${name} open?`,
         featureHours,
       ],
-      ["restroom", `Are there restrooms near ${name}?`, p.restrooms],
-      ["fees", `Is ${name} free?`, p.cost],
-      ["accessibility", `How accessible is ${name}?`, p.accessibility],
-      ["dogs", `Are dogs allowed at ${name}?`, p.dogs],
-      ["family", `Is ${name} good for children?`, p.family],
+      ["restroom", `Are there restrooms near ${name}?`, specific?.restrooms || p.restrooms],
+      ["fees", `Is ${name} free?`, specific?.fees || p.cost],
+      ["accessibility", `How accessible is ${name}?`, specific?.accessibility || p.accessibility],
+      ["dogs", `Are dogs allowed at ${name}?`, specific?.dogs || p.dogs],
+      ["family", `Is ${name} good for children?`, specific?.family || p.family],
       [
         "need-to-know",
         `What should I know before visiting ${name}?`,
-        `${description} ${p.need}`,
+        specific?.need || `${description} ${p.need}`,
       ],
-    ].map((v) => ans(p, ...v));
+    ].map((v) => ans(p, ...v, sourceMeta));
   return {
     id,
     slug: s,
@@ -184,16 +214,16 @@ function feature(p, name, i, images) {
     details: {
       category: "destination",
       includeInParentGallery: true,
-      address: p.address,
+      address: specific?.address || p.address,
       hours: featureHours,
       hoursSchedule: separateHours ? false : schedule(p),
-      cost: p.cost,
-      accessibility: p.accessibility,
+      cost: specific?.fees || p.cost,
+      accessibility: specific?.accessibility || p.accessibility,
       locationContext: description,
-      needToKnow: p.need,
-      informationSourceLabel: p.operator,
-      informationSourceUrl: p.source,
-      informationCheckedAt: checkedAt,
+      needToKnow: specific?.need || p.need,
+      informationSourceLabel: specific?.sourceLabel || p.operator,
+      informationSourceUrl: specific?.source || p.source,
+      informationCheckedAt: specific ? featureFactsDocument.checkedAt : p.verifiedAt || checkedAt,
       coordinateSource: point.source,
       positionQuality: point.displayName || `Reviewed placement within ${p.name}`,
       imageUrl: image.url,
@@ -204,9 +234,9 @@ function feature(p, name, i, images) {
       images: [image],
       searchAnswers: qs,
     },
-    source_label: p.operator,
-    source_url: p.source,
-    verified_at: checkedAt,
+    source_label: specific?.sourceLabel || p.operator,
+    source_url: specific?.source || p.source,
+    verified_at: specific ? featureFactsDocument.checkedAt : p.verifiedAt || checkedAt,
   };
 }
 (() => {
@@ -219,7 +249,18 @@ function feature(p, name, i, images) {
     locations = read("data/launch-location-overrides.json");
   for (const scope of campaign.places) {
     const p = { ...scope, ...facts[scope.id] },
-      images = galleries.places[p.id]?.images || [];
+      images = galleries.places[p.id]?.images || [],
+      parentAnswers = answers(p),
+      sourceMap = new Map(
+        [
+          { label: p.operator, url: p.source },
+          ...parentAnswers.map((answer) => ({
+            label: answer.sourceLabel,
+            url: answer.source,
+          })),
+        ].map((source) => [source.url, source]),
+      ),
+      parentSources = [...sourceMap.values()];
     if (images.length < 4) throw new Error(`${p.name}: gallery missing`);
     const record = {
       id: p.id,
@@ -244,17 +285,17 @@ function feature(p, name, i, images) {
       accessibility: p.accessibility,
       sourceLabel: p.operator,
       source: p.source,
-      verifiedAt: checkedAt,
+      verifiedAt: p.verifiedAt || checkedAt,
       operator: p.operator,
       image: images[0],
       images: images.slice(1),
-      sources: [{ label: p.operator, url: p.source }],
+      sources: parentSources,
       launchTier: "anchor",
       likelySubsites: true,
       publishStatus: "super-enriched",
       researchQueue: [],
       transit: p.transit,
-      searchAnswers: answers(p),
+      searchAnswers: parentAnswers,
       features: p.subsites.map((n, i) => feature(p, n, i, images)),
       amenities: [],
       comments: [],
@@ -279,7 +320,7 @@ function feature(p, name, i, images) {
       image: images[0],
       additionalImages: images.slice(1),
       replaceImages: true,
-      verifiedAt: checkedAt,
+      verifiedAt: p.verifiedAt || checkedAt,
     };
     national.parks[p.id] = parent;
     campaignParents.parks[p.id] = parent;
@@ -294,10 +335,24 @@ function feature(p, name, i, images) {
       displayName: `${p.name}, ${p.city}, ${p.state}`,
       source: p.operator,
       sourceUrl: p.source,
-      checkedAt,
+      checkedAt: p.verifiedAt || checkedAt,
     };
     const li = locations.findIndex((x) => x.id === p.id);
     li >= 0 ? (locations[li] = loc) : locations.push(loc);
+    for (const featureSlug of obsoleteFeatureSlugs[p.id] || []) {
+      fs.rmSync(
+        path.join(
+          root,
+          "us",
+          p.state.toLowerCase(),
+          slug(p.city),
+          "parks",
+          slug(p.name),
+          featureSlug,
+        ),
+        { recursive: true, force: true },
+      );
+    }
   }
   write("data/generated/all-subsites-ready.json", all);
   write("data/generated/pilot-subsites-ready.json", pilot);

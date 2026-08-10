@@ -2,6 +2,7 @@
   "checkedAt": "2026-08-06",
   "places": {
     "launch-md-baltimore-druid-hill-park": {
+      "verifiedAt": "2026-08-10",
       "address": "900 Druid Park Lake Drive, Baltimore, MD 21217",
       "latitude": 39.3234566,
       "longitude": -76.6445185,
@@ -15,23 +16,124 @@
       "dogs": "Leashed dogs are welcome in ordinary outdoor park areas. Dogs are not permitted inside the zoo, conservatory, pool or other posted facilities except qualified service animals.",
       "family": "The zoo, conservatory, playgrounds and seasonal pool are strong family destinations, but they are spread apart. Choose a primary stop and confirm that facility's tickets, hours and weather status.",
       "transit": "MTA bus routes serve different edges of Druid Hill Park, and the Jones Falls Trail reaches the park by bike and foot. The nearest stop may still be a long walk from the attraction you selected.",
-      "need": "Do not swim in Druid Lake. Large events and construction can redirect traffic, while zoo, conservatory and pool operations do not match general park access; follow current signs and operator alerts."
+  "need": "Do not treat Druid Lake as a swimming facility. Large events and construction can redirect traffic, while the zoo, conservatory and pool do not match general park access. Rawlings Conservatory currently lists a full park vehicle closure for AFRAM June 19-21, 2026 and a conservatory closure for the Caribbean Fest parade July 11, 2026.",
+  "extraAnswers": [
+    {
+      "intentKey": "lake-loop",
+      "question": "Is the Druid Lake walking loop open?",
+      "answer": "Yes. Baltimore City DPW reopened a modified continuous loop in May 2025 after the underground tank project. The route differs from the old loop, and current fencing, restoration work, storms, maintenance, or events can still redirect access, so follow posted signs rather than an old map.",
+      "sourceLabel": "Baltimore City Department of Public Works",
+      "source": "https://content.govdelivery.com/accounts/MDBALT/bulletins/3e15440",
+      "freshnessClass": "fast"
+    },
+    {
+      "intentKey": "conservatory-hours",
+      "question": "What days is Rawlings Conservatory open?",
+      "answer": "Rawlings Conservatory lists Wednesday-Friday 11 a.m.-3 p.m. and Saturday-Sunday 10 a.m.-4 p.m.; it is closed Monday, Tuesday, Thanksgiving, and Christmas. It also posts event-specific park and building closures, so check the official visit page before driving in.",
+      "sourceLabel": "H.P. Rawlings Conservatory & Botanic Gardens",
+      "source": "https://rawlingsconservatory.org/visit-us/",
+      "freshnessClass": "fast"
+    },
+    {
+      "intentKey": "zoo-hours-tickets",
+      "question": "Does the Maryland Zoo use Druid Hill Park hours?",
+      "answer": "No. The Maryland Zoo is a separately ticketed outdoor attraction with its own daily schedule, front gate, parking, rules, food, and restrooms. Check zoo hours, alerts, tickets, and weather for the selected date rather than relying on the park's daylight access.",
+      "sourceLabel": "The Maryland Zoo in Baltimore",
+      "source": "https://www.marylandzoo.org/visit/",
+      "freshnessClass": "fast"
+    },
+    {
+      "intentKey": "pool",
+      "question": "Where is the Druid Hill Park pool and is it open?",
+      "answer": "The city maps Druid Hill Park Pool at 800 Wyman Park Drive. It is a seasonal staffed facility with a schedule that can change for weather, staffing, maintenance, and summer programming; verify the current Aquatics schedule before leaving rather than inheriting park hours.",
+      "sourceLabel": "Baltimore City Recreation and Parks GIS",
+      "source": "https://geodata.baltimorecity.gov/egis/rest/services/CityView/BCRPServices/MapServer/2",
+      "freshnessClass": "fast"
+    },
+    {
+      "intentKey": "bike-arrival",
+      "question": "How do I reach Druid Hill Park by bike or on foot?",
+      "answer": "The one-mile Big Jump provides a protected shared route along Druid Park Lake Drive and Auchentoroly Terrace, while the Jones Falls Trail serves the park corridor. Concrete-barrier maintenance is in progress, and the proposed greenway toward Lake Montebello is still a design project rather than a completed through-route.",
+      "sourceLabel": "Baltimore City Department of Transportation",
+      "source": "https://streetsofbaltimore.com/bigjump",
+      "freshnessClass": "fast"
+    }
+  ]
     },
     "launch-md-baltimore-patterson-park": {
+      "verifiedAt": "2026-08-10",
       "address": "2601 East Baltimore Street, Baltimore, MD 21224",
       "latitude": 39.2889335,
       "longitude": -76.5788048,
       "summary": "A 137-acre East Baltimore destination park with nearly three miles of paths, the Observatory, Boat Lake, two playgrounds, dog park, pool, ice rink, courts and athletic fields.",
-      "hours": "Park grounds are open daily from dawn to dusk. The Observatory is typically open Sundays from 11:00 a.m.-3:00 p.m. from mid-April through mid-October; pool, rink and recreation facilities keep separate seasonal hours.",
+  "hours": "Park grounds are open daily from dawn to dusk. The Observatory's interior is currently closed for maintenance indefinitely, despite older typical Sunday schedules. The pool, rink and recreation center keep separate seasonal or staffed hours.",
       "parking": "There is no general visitor parking inside the park. Use legal street parking around the perimeter and read residential restrictions carefully; event days and pool season increase demand.",
       "arrival": "Choose the Observatory and Boat Lake, playground, dog park, pool, rink or athletic fields before arriving. Baltimore Street, Linwood Avenue and Eastern Avenue serve different sides of the park.",
       "restrooms": "Restrooms are most dependable at staffed or seasonal facilities such as the recreation center, pool and rink. Do not assume an outdoor restroom will be open early, late or off-season.",
       "cost": "General park paths, playgrounds, dog park and outdoor landmarks are free. Pool, rink, classes, rentals and permitted activities may charge.",
       "accessibility": "Many primary paths are paved and the park is relatively compact, but slopes, curb transitions and historic structures vary. Select the closest perimeter entrance for the feature you want.",
       "dogs": "Dogs must be leashed outside the fenced dog park, with leashes no longer than six feet under posted rules. Dogs are excluded from pools, playgrounds and other posted facilities.",
-      "family": "Two playgrounds, Boat Lake, the Observatory and seasonal pool make a strong family circuit. Check the Observatory and pool schedule before promising entry.",
+  "family": "Two playgrounds, Boat Lake, the Observatory exterior and seasonal pool make a strong family circuit. The Linwood/Pratt playground has swings and age zones; the fenced Castle playground near Eastern Avenue between Milton and Montford has separate toddler and older-child areas. Check the pool schedule and do not promise Observatory interior entry while it is closed.",
       "transit": "MTA bus service runs along multiple park edges, including Baltimore Street and Eastern Avenue. Select the stop nearest your destination rather than the center of the park.",
-      "need": "The Observatory is volunteer-staffed and weather-dependent, and seasonal facilities can close independently. Unauthorized motor vehicles are not permitted on park paths."
+  "need": "The Observatory interior is closed for maintenance indefinitely, and the pool, rink and recreation center can close independently. Unauthorized motor vehicles are not permitted on park paths; use legal perimeter parking and verify the exact staffed destination before crossing the park.",
+  "extraAnswers": [
+    {
+      "intentKey": "observatory-closure",
+      "question": "Can I go inside the Patterson Park Observatory or Pagoda?",
+      "answer": "Not currently. Friends of Patterson Park says the Observatory is closed for maintenance indefinitely. Older typical Sunday schedules should not be treated as current availability; the exterior, gardens, and hilltop setting remain the appropriate visit until an official reopening is posted.",
+      "sourceLabel": "Friends of Patterson Park",
+      "source": "https://pattersonpark.com/park-landmarks",
+      "freshnessClass": "fast"
+    },
+    {
+      "intentKey": "playgrounds",
+      "question": "Where are the playgrounds in Patterson Park?",
+      "answer": "There are two. One is inside the park near Linwood Avenue and East Pratt Street with infant and big-kid swings and two age-oriented play areas. The fenced Castle playground is near Eastern Avenue between Milton and Montford avenues, with separate toddler and older-child spaces plus accessible slides and climbing elements built into the wall.",
+      "sourceLabel": "Friends of Patterson Park",
+      "source": "https://pattersonpark.com/park-landmarks",
+      "freshnessClass": "slow"
+    },
+    {
+      "intentKey": "dog-park",
+      "question": "Where is the Patterson Park dog park?",
+      "answer": "The dog park is south of the tennis courts on Linwood Avenue and has two fenced areas. Outside those enclosures, dogs must remain on a leash no longer than six feet, and owners must remove waste.",
+      "sourceLabel": "Friends of Patterson Park",
+      "source": "https://pattersonpark.com/park-landmarks",
+      "freshnessClass": "slow"
+    },
+    {
+      "intentKey": "pool",
+      "question": "Where is Patterson Park Pool and when does it open?",
+      "answer": "The pool is at 148 South Linwood Avenue and usually operates as a seasonal public pool beginning around mid-June. Hours, admission, staffing, and weather closures change by season, so use the current Baltimore City Aquatics schedule rather than older prices shown on community pages.",
+      "sourceLabel": "Friends of Patterson Park and Baltimore City Recreation and Parks GIS",
+      "source": "https://geodata.baltimorecity.gov/egis/rest/services/CityView/BCRPServices/MapServer/2",
+      "freshnessClass": "fast"
+    },
+    {
+      "intentKey": "ice-rink",
+      "question": "When is the Patterson Park ice rink open?",
+      "answer": "The Dominic Mimi DiPietro Family Skating Center at 200 South Linwood Avenue is a seasonal facility generally associated with October through late March programming. Public sessions, hockey, rentals, concessions, and fees vary; call the rink or check the current city schedule before arriving.",
+      "sourceLabel": "Friends of Patterson Park",
+      "source": "https://pattersonpark.com/park-landmarks",
+      "freshnessClass": "fast"
+    },
+    {
+      "intentKey": "boat-lake",
+      "question": "Can I boat or swim in Patterson Park Boat Lake?",
+      "answer": "Do not infer current boating from the historic name. Friends of Patterson Park describes the restored lake as open water and wetland habitat used for fishing, wildlife viewing, and educational programming, not as a public swimming or boat-rental facility.",
+      "sourceLabel": "Friends of Patterson Park",
+      "source": "https://pattersonpark.com/park-landmarks",
+      "freshnessClass": "slow"
+    },
+    {
+      "intentKey": "recreation-center",
+      "question": "What is inside Virginia S. Baker Recreation Center?",
+      "answer": "The center at 2601 East Baltimore Street includes a gym, multipurpose room, game room, meeting room, kitchen, and computer lab with year-round programming. Building and activity hours do not match park hours; call 410-396-9156 or check the current program schedule first.",
+      "sourceLabel": "Friends of Patterson Park",
+      "source": "https://pattersonpark.com/park-landmarks",
+      "freshnessClass": "fast"
+    }
+  ]
     },
     "launch-md-baltimore-federal-hill-park": {
       "address": "300 Warren Avenue, Baltimore, MD 21230",

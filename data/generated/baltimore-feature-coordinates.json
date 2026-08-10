@@ -2,17 +2,17 @@
   "checkedAt": "2026-08-06",
   "places": {
     "launch-md-baltimore-druid-hill-park": {
-      "druid-lake": {
-        "latitude": 39.316624,
-        "longitude": -76.63165,
-        "displayName": "Druid Park Lake Drive & Callow Avenue, Druid Park Lake Drive, Reservoir Hill, Baltimore, Maryland, 21217, United States",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "howard-peters-rawlings-conservatory": {
-        "latitude": 39.323887935136526,
-        "longitude": -76.64408716486348,
-        "displayName": "Approximate position within Druid Hill Park",
-        "source": "AuditMap official-map placement"
+  "druid-lake": {
+    "latitude": 39.316624,
+    "longitude": -76.63165,
+    "displayName": "Reviewed public lake-loop arrival on Druid Park Lake Drive",
+    "source": "Baltimore City DPW reopening notice cross-checked with OpenStreetMap"
+  },
+  "howard-peters-rawlings-conservatory": {
+    "latitude": 39.318378762300675,
+    "longitude": -76.64607869486336,
+    "displayName": "Exact Baltimore City Recreation and Parks specialty-facility point",
+    "source": "Baltimore City BCRP Services GIS SpecialtyFacilities layer"
       },
       "maryland-zoo-in-baltimore": {
         "latitude": 39.3244531,
@@ -32,17 +32,17 @@
         "displayName": "Druid Hill Park Disc Golf Course, Crows Nest Road",
         "source": "OpenStreetMap Nominatim, bounded review"
       },
-      "chinese-pavilion": {
-        "latitude": 39.3169367,
-        "longitude": -76.6425604,
-        "displayName": "Chinese Pavilion, Swann Drive, Auchentoroly Terrace, Park Heights, Baltimore, Maryland, 21217, United States",
-        "source": "OpenStreetMap Nominatim"
-      },
+  "chinese-pavilion": {
+    "latitude": 39.316708,
+    "longitude": -76.64267,
+    "displayName": "Destination-geotagged CC0 photograph on Swann Drive",
+    "source": "Wikimedia Commons image camera coordinates cross-checked with OpenStreetMap"
+  },
       "mansion-house-lawn": {
         "latitude": 39.3234566,
         "longitude": -76.6449685,
-        "displayName": "Approximate position within Druid Hill Park",
-        "source": "AuditMap official-map placement"
+    "displayName": "Reviewed center of the named photographed lawn on Mansion House Drive",
+    "source": "Baltimore City Druid Hill Park master plan cross-checked with exact Wikimedia destination image"
       },
       "jones-falls-trail-connection": {
         "latitude": 39.323887935136526,
@@ -58,12 +58,24 @@
         "displayName": "Patterson Park Observatory, The Drive, Baltimore, Maryland, 21231, United States",
         "source": "OpenStreetMap Nominatim"
       },
-      "boat-lake": {
+  "boat-lake": {
         "latitude": 39.2869,
         "longitude": -76.5807,
         "displayName": "Patterson Park Boat Lake near Eastern and Milton avenues",
         "source": "AuditMap reviewed placement from park and visitor maps"
-      },
+  },
+  "marble-fountain": {
+    "latitude": 39.290711,
+    "longitude": -76.584123,
+    "displayName": "Exact destination-geotagged CC0 photograph near Lombard Street",
+    "source": "Wikimedia Commons image camera coordinates cross-checked with Friends of Patterson Park"
+  },
+  "war-of-1812-memorial-cannons": {
+    "latitude": 39.2901333,
+    "longitude": -76.5838694,
+    "displayName": "Exact destination-geotagged CC0 photograph beside the Observatory",
+    "source": "Wikimedia Commons image camera coordinates cross-checked with Patterson Park heritage mapping"
+  },
       "patterson-park-playground": {
         "latitude": 39.2889335,
         "longitude": -76.5780348,
@@ -88,11 +100,11 @@
         "displayName": "Approximate position within Patterson Park",
         "source": "AuditMap official-map placement"
       },
-      "virginia-s-baker-recreation-center": {
-        "latitude": 39.2889335,
-        "longitude": -76.5792548,
-        "displayName": "Approximate position within Patterson Park",
-        "source": "AuditMap official-map placement"
+  "virginia-s-baker-recreation-center": {
+    "latitude": 39.291310024969796,
+    "longitude": -76.58025873320491,
+    "displayName": "Exact Baltimore City Recreation and Parks recreation-center point",
+    "source": "Baltimore City BCRP Services GIS RecreationCenters layer"
       },
       "patterson-park-athletic-fields": {
         "latitude": 39.289364835136524,

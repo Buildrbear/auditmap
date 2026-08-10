@@ -4,6 +4,10 @@ const fs = require("node:fs"),
   root = path.resolve(__dirname, ".."),
   campaign = require("../data/baltimore-super-enrichment-campaign.json"),
   places = require("../data/generated/launch-map-places.json"),
+  expectedFeatureCounts = {
+    "launch-md-baltimore-druid-hill-park": 5,
+    "launch-md-baltimore-patterson-park": 5,
+  },
   fail = [],
   slug = (v) =>
     String(v)
@@ -31,7 +35,11 @@ for (const scope of campaign.places) {
     1 + (p.images?.length || 0) >= 4,
     `${scope.name}: fewer than four photos`,
   );
-  need(p.features?.length === 8, `${scope.name}: expected eight subsites`);
+  const expectedFeatures = expectedFeatureCounts[scope.id] || 8;
+  need(
+    p.features?.length === expectedFeatures,
+    `${scope.name}: expected ${expectedFeatures} evidence-complete subsites`,
+  );
   need(p.searchAnswers?.length >= 11, `${scope.name}: parent answers missing`);
   const parentFile = path.join(dir, "index.html");
   need(fs.existsSync(parentFile), `${scope.name}: parent page missing`);
@@ -74,7 +82,13 @@ const joined = campaign.places
   .map((s) => JSON.stringify(places.find((p) => p.id === s.id) || {}))
   .join("\n");
 for (const phrase of [
-  "Do not swim in Druid Lake",
+  "modified continuous loop in May 2025",
+  "AFRAM June 19-21, 2026",
+  "proposed greenway toward Lake Montebello is still a design project",
+  "closed for maintenance indefinitely",
+  "near Linwood Avenue and East Pratt Street",
+  "south of the tennis courts on Linwood Avenue",
+  "148 South Linwood Avenue",
   "no general visitor parking inside the park",
   "There is no dependable public restroom in the park",
   "historic zone and Star Fort is $15",
@@ -85,6 +99,54 @@ for (const phrase of [
   "Paw Point is a fenced membership-only",
 ])
   need(joined.includes(phrase), `Missing Baltimore guidance: ${phrase}`);
+const featureRequirements = {
+  "launch-md-baltimore-druid-hill-park": {
+    "Druid Lake": "Druid_Hill_Park_Lake",
+    "Howard Peters Rawlings Conservatory": "Baltimore_Conservatory_Druid_Hill_Park",
+    "Maryland Zoo in Baltimore": "Penguin_Coast",
+    "Chinese Pavilion": "Chinese_Pavilion",
+    "Mansion House Lawn": "Mansion_House_Lawn",
+  },
+  "launch-md-baltimore-patterson-park": {
+    "Patterson Park Observatory": "Patterson_Park_Observatory",
+    "Boat Lake": "Patterson_Park_October_Aerial",
+    "Marble Fountain": "Fountain%2C_Patterson_Park",
+    "War of 1812 Memorial Cannons": "War_of_1812_Memorial_Cannons",
+    "Virginia S. Baker Recreation Center": "Virginia_S._Baker_Recreation_Center",
+  },
+};
+for (const [placeId, requirements] of Object.entries(featureRequirements)) {
+  const place = places.find((candidate) => candidate.id === placeId);
+  for (const [name, sourceFragment] of Object.entries(requirements)) {
+    const feature = place?.features?.find((candidate) => candidate.name === name);
+    need(feature, `${placeId}: missing evidence-complete ${name}`);
+    if (!feature) continue;
+    need(
+      feature.details?.imageSourceUrl?.includes(sourceFragment),
+      `${placeId}/${name}: destination image is not specific`,
+    );
+    need(
+      !/Approximate position/i.test(feature.details?.positionQuality || ""),
+      `${placeId}/${name}: approximate position still published`,
+    );
+  }
+}
+for (const name of [
+  "Druid Hill Park Pool",
+  "Disc Golf Course",
+  "Jones Falls Trail Connection",
+  "Patterson Park Playground",
+  "Patterson Park Dog Park",
+  "Patterson Park Pool",
+  "Patterson Park Ice Rink",
+  "Patterson Park Athletic Fields",
+])
+  need(
+    !campaign.places
+      .flatMap((scope) => places.find((place) => place.id === scope.id)?.features || [])
+      .some((feature) => feature.name === name),
+    `${name}: unsupported standalone page still published`,
+  );
 const app = fs.readFileSync(path.join(root, "app.js"), "utf8");
 need(app.includes("daylightMatch"), "Opening-to-dark hours support missing");
 need(app.includes('label: "Hours vary"'), "Independent-hours support missing");
@@ -93,5 +155,5 @@ if (fail.length) {
   process.exit(1);
 }
 console.log(
-  `Verified ${campaign.places.length} Baltimore guides with four photos, eight mapped subsites and practical visitor answers.`,
+  `Verified ${campaign.places.length} Baltimore guides with four or more photos, evidence-complete mapped destinations and practical visitor answers.`,
 );

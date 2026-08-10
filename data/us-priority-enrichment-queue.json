@@ -9,6 +9,14 @@
   },
   "recentlyCompleted": [
     {
+      "name": "Baltimore flagship parks evidence-gate pass",
+      "parentGuides": 2,
+      "licensedPhotos": 12,
+      "evidenceCompleteSubsites": 10,
+      "parentAnswersPreserved": 34,
+      "status": "generated-and-verified"
+    },
+    {
       "name": "Patapsco Valley Maryland connector",
       "parentGuides": 21,
       "licensedPhotos": 93,
@@ -143,9 +151,9 @@
   ],
   "activeCluster": {
     "name": "Baltimore-Annapolis Maryland connector",
-    "reason": "The current release extends the Washington and Potomac corridor northeast through Patapsco Valley State Park. The parent guide adds area-by-area arrival, seasonal facility, fee, accessibility, dog, family, closure, rail, and water-safety guidance plus four exact destination pages and six reusable photographs.",
+    "reason": "The current release continues the Washington and Potomac corridor through Baltimore with current, destination-specific guidance for Druid Hill Park and Patterson Park. It retains frequently requested pool, playground, dog, rink, trail, zoo, conservatory, and closure information on the parent guides while limiting standalone destinations to exact reviewed pins with licensed matching photographs.",
     "releaseStandard": "Retain official parent answers, require three to four current representative reusable photographs per released parent, and publish only named subsites with exact reviewed coordinates, destination-specific photography, and current operator guidance.",
-    "status": "patapsco-valley-generated-and-verified",
+    "status": "baltimore-flagships-generated-and-verified",
     "metros": ["Bethesda", "Ellicott City", "Fairfax Station", "Gaithersburg", "Rockville", "Upper Marlboro", "Washington", "Wheaton"],
     "resumeCheckpoint": {
       "pausedAt": "2026-08-10",
@@ -165,6 +173,10 @@
         "Added Seneca Creek State Park with five licensed photographs, seasonal fees and hours, lake water-safety rules, current trail and parking alerts, and exact Boat Center, Tire Playground, and Black Rock Mill pages.",
         "Added Patapsco Valley State Park with six licensed photographs, separate recreation-area arrival guidance, seasonal fees and restrooms, capacity-closure guidance, and current water and railroad safety context.",
         "Published exact Cascade Falls, Orange Grove Swinging Bridge, McKeldin Rapids, and Thomas Viaduct Viewpoint pages with reviewed coordinates, destination-matched photographs, and destination-specific visitor answers.",
+        "Expanded Druid Hill Park to seven licensed photographs, 16 sourced parent answers, and exact destination pages for Druid Lake, Rawlings Conservatory, the Maryland Zoo, Chinese Pavilion, and Mansion House Lawn.",
+        "Expanded Patterson Park to five licensed photographs, 18 sourced parent answers, and exact destination pages for the Observatory, Boat Lake, Marble Fountain, War of 1812 Memorial Cannons, and Virginia S. Baker Recreation Center.",
+        "Moved pools, playgrounds, the dog park, ice rink, disc golf, athletic fields, and trail connections back to detailed parent guidance when a destination-specific licensed photograph was not available, avoiding generic or misleading standalone pages.",
+        "Verified all 51 campaign suites, national discovery, North Carolina image and generated-page safeguards, raw Baltimore HTML, and 390-pixel parent and destination layouts after the Baltimore flagship release.",
         "Verified 21 Potomac and Maryland connector guides, 100 evidence-complete destinations, 93 licensed photographs, all 51 national campaign suites, national discovery, North Carolina image rights, generated galleries, performance, SEO, and raw HTML for all five new Patapsco routes.",
         "Corrected state-hub structured data so city collection items use real city names instead of undefined labels, and added a Maryland regression assertion.",
         "Verified 20 Potomac-area guides, 96 evidence-complete destinations, 87 licensed photographs, all 51 national campaign suites, national discovery, North Carolina image rights, generated galleries, performance, SEO, and 390-pixel parent-page layouts.",
@@ -202,7 +214,7 @@
         "Published the Brian Piccolo Park Velodrome subsite with exact navigation, current track and road-course schedules, waiver and equipment guidance, fees, family safety context, and per-intent sources.",
         "Aligned the shared campaign verifier with the generator's canonical ampersand slug rule, then verified 10 South Florida guides, 39 licensed photos, 15 evidence-complete subsites, raw HTML, exact navigation, and sitemap routes."
       ],
-      "nextAction": "Continue into Baltimore with an evidence-gate review of Druid Hill Park and Patterson Park. Keep Centennial Park and Quiet Waters Park in Annapolis deferred until each has enough representative, commercially reusable destination photography.",
+      "nextAction": "Continue the same evidence-gate audit across Baltimore's remaining campaign guides, beginning with Cylburn Arboretum and Gwynns Falls/Leakin Park. Keep Centennial Park and Quiet Waters Park in Annapolis deferred until each has enough representative, commercially reusable destination photography.",
       "notReleased": true,
       "productionPublished": false
     }
@@ -229,7 +241,7 @@
     "Quiet Waters Park in Annapolis has official visitor facts and one reusable dog-beach image, but still needs three representative commercially reusable parent or destination views; Florida Quiet Waters media and noncommercial images are not acceptable substitutes."
   ],
   "nextClusters": [
-    "Continue into Baltimore with Druid Hill Park and Patterson Park, publishing only exact licensed photo-and-position pairs and current official visitor guidance.",
+    "Continue the Baltimore evidence-gate audit with Cylburn Arboretum and Gwynns Falls/Leakin Park, publishing only exact licensed photo-and-position pairs and current official visitor guidance.",
     "Continue the connected inland Broward corridor with T.Y. Park, Tree Tops Park, or Vista View Park only when each parent clears the official-information and three-to-four-image gates.",
     "Restore Snyder Park only after permission-cleared broad park, trail, dog-lake, playground, disc-golf, or butterfly-garden images replace the current no-derivatives results.",
     "Expand Okeeheelee Park only when exact reusable photo-and-pin pairs clear review for its Nature Center, Pooch Pines, BMX track, wake park, mountain-bike trailhead, equestrian center, fishing areas, pavilions, or entrances."
