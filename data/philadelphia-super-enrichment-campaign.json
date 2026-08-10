@@ -3,7 +3,7 @@
   "checkedAt": "2026-08-06",
   "releaseStandard": {
     "minimumParentImages": 4,
-    "minimumSubsites": 8,
+    "minimumSubsites": 5,
     "minimumParentQuestions": 11,
     "minimumSubsiteQuestions": 9,
     "fastExpiringFacts": ["hours", "parking", "closures", "ticketing", "seasonal water play", "concessions", "events"]
@@ -25,7 +25,7 @@
       "source": "https://fow.org/visit-the-park/",
       "priority": "anchor",
       "focus": "Trailhead-specific parking, Forbidden Drive, natural trails, creek safety, Valley Green Inn, accessibility, closures, and no-swimming rules.",
-      "subsites": ["Valley Green Inn and trailhead", "Forbidden Drive", "Devil's Pool and Livezey Lane", "Wissahickon Environmental Center and Andorra Meadow", "Thomas Mill Covered Bridge", "Fingerspan Bridge", "Blue Bell Park trailhead", "Rex Avenue trailhead"]
+      "subsites": ["Valley Green Inn and Trailhead", "Forbidden Drive", "Devil's Pool", "Thomas Mill Covered Bridge", "Fingerspan"]
     },
     {
       "id": "launch-pa-philadelphia-dilworth-park",

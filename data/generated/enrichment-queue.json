@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T19:23:57.345Z",
+  "generatedAt": "2026-08-10T19:40:18.580Z",
   "policy": {
     "publication": "AI findings remain proposed until a human accepts the fact and its sources.",
     "prioritization": "Daily-use and safety-sensitive gaps rank above descriptive content.",
@@ -9,7 +9,7 @@
   "summary": {
     "places": 912,
     "averageCoverageScore": 55,
-    "openTasks": 6009,
+    "openTasks": 6013,
     "urgentTasks": 962
   },
   "coverage": [
@@ -2726,8 +2726,8 @@
       "placeId": "launch-pa-philadelphia-wissahickon-valley-park",
       "placeName": "Wissahickon Valley Park",
       "expectedIntentCount": 14,
-      "coveredIntentCount": 13,
-      "coverageScore": 95
+      "coveredIntentCount": 9,
+      "coverageScore": 70
     },
     {
       "placeId": "launch-pa-philadelphia-dilworth-park",
@@ -83246,6 +83246,61 @@
       "placeCoverageScore": 67
     },
     {
+      "id": "launch-pa-philadelphia-wissahickon-valley-park:playground",
+      "placeId": "launch-pa-philadelphia-wissahickon-valley-park",
+      "placeName": "Wissahickon Valley Park",
+      "placeType": "Park",
+      "city": "Philadelphia",
+      "state": "PA",
+      "intentKey": "playground",
+      "intentLabel": "Playgrounds",
+      "question": "What playgrounds are at Wissahickon Valley Park, and what ages or abilities do they serve?",
+      "reason": "No current, source-backed playgrounds answer is cataloged.",
+      "action": "research",
+      "priority": 79,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Philadelphia Parks & Recreation / Friends of the Wissahickon",
+          "url": "https://fow.org/visit-the-park/",
+          "sourceType": "official"
+        },
+        {
+          "label": "OpenStreetMap park record",
+          "url": "https://www.openstreetmap.org/relation/7140587",
+          "sourceType": "official"
+        },
+        {
+          "label": "Philadelphia Parks & Recreation trail regulations",
+          "url": "https://www.phila.gov/departments/philadelphia-parks-recreation/about/trail-regulations/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of the Wissahickon visitor information",
+          "url": "https://fow.org/visit-the-park/information/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of the Wissahickon maps and directions",
+          "url": "https://fow.org/visit-the-park/maps/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of the Wissahickon",
+          "url": "https://fow.org/virtual-valley/trails-to-the-past/thomas-mill-covered-bridge/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of the Wissahickon",
+          "url": "https://fow.org/virtual-valley/trails-to-the-past/fingerspan-bridge/",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 70
+    },
+    {
       "id": "launch-fl-hollywood-hollywood-beach-and-broadwalk:playground",
       "placeId": "launch-fl-hollywood-hollywood-beach-and-broadwalk",
       "placeName": "Hollywood Beach and Broadwalk",
@@ -99013,6 +99068,61 @@
       ],
       "requiresHumanReview": true,
       "placeCoverageScore": 69
+    },
+    {
+      "id": "launch-pa-philadelphia-wissahickon-valley-park:splash-pad",
+      "placeId": "launch-pa-philadelphia-wissahickon-valley-park",
+      "placeName": "Wissahickon Valley Park",
+      "placeType": "Park",
+      "city": "Philadelphia",
+      "state": "PA",
+      "intentKey": "splash-pad",
+      "intentLabel": "Water play",
+      "question": "Is there a splash pad or water play at Wissahickon Valley Park, and when does it operate?",
+      "reason": "No current, source-backed water play answer is cataloged.",
+      "action": "research",
+      "priority": 78,
+      "freshnessDays": 14,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Philadelphia Parks & Recreation / Friends of the Wissahickon",
+          "url": "https://fow.org/visit-the-park/",
+          "sourceType": "official"
+        },
+        {
+          "label": "OpenStreetMap park record",
+          "url": "https://www.openstreetmap.org/relation/7140587",
+          "sourceType": "official"
+        },
+        {
+          "label": "Philadelphia Parks & Recreation trail regulations",
+          "url": "https://www.phila.gov/departments/philadelphia-parks-recreation/about/trail-regulations/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of the Wissahickon visitor information",
+          "url": "https://fow.org/visit-the-park/information/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of the Wissahickon maps and directions",
+          "url": "https://fow.org/visit-the-park/maps/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of the Wissahickon",
+          "url": "https://fow.org/virtual-valley/trails-to-the-past/thomas-mill-covered-bridge/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of the Wissahickon",
+          "url": "https://fow.org/virtual-valley/trails-to-the-past/fingerspan-bridge/",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 70
     },
     {
       "id": "launch-fl-fort-lauderdale-fort-lauderdale-beach-park:splash-pad",
@@ -117657,6 +117767,61 @@
       ],
       "requiresHumanReview": true,
       "placeCoverageScore": 69
+    },
+    {
+      "id": "launch-pa-philadelphia-wissahickon-valley-park:dog-area",
+      "placeId": "launch-pa-philadelphia-wissahickon-valley-park",
+      "placeName": "Wissahickon Valley Park",
+      "placeType": "Park",
+      "city": "Philadelphia",
+      "state": "PA",
+      "intentKey": "dog-area",
+      "intentLabel": "Dog areas and rules",
+      "question": "Where can dogs go at Wissahickon Valley Park, and what rules apply?",
+      "reason": "No current, source-backed dog areas and rules answer is cataloged.",
+      "action": "research",
+      "priority": 72,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Philadelphia Parks & Recreation / Friends of the Wissahickon",
+          "url": "https://fow.org/visit-the-park/",
+          "sourceType": "official"
+        },
+        {
+          "label": "OpenStreetMap park record",
+          "url": "https://www.openstreetmap.org/relation/7140587",
+          "sourceType": "official"
+        },
+        {
+          "label": "Philadelphia Parks & Recreation trail regulations",
+          "url": "https://www.phila.gov/departments/philadelphia-parks-recreation/about/trail-regulations/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of the Wissahickon visitor information",
+          "url": "https://fow.org/visit-the-park/information/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of the Wissahickon maps and directions",
+          "url": "https://fow.org/visit-the-park/maps/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of the Wissahickon",
+          "url": "https://fow.org/virtual-valley/trails-to-the-past/thomas-mill-covered-bridge/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of the Wissahickon",
+          "url": "https://fow.org/virtual-valley/trails-to-the-past/fingerspan-bridge/",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 70
     },
     {
       "id": "launch-ca-carlsbad-agua-hedionda-lagoon-discovery-center:dog-area",
@@ -149472,6 +149637,61 @@
       "placeCoverageScore": 69
     },
     {
+      "id": "launch-pa-philadelphia-wissahickon-valley-park:shade",
+      "placeId": "launch-pa-philadelphia-wissahickon-valley-park",
+      "placeName": "Wissahickon Valley Park",
+      "placeType": "Park",
+      "city": "Philadelphia",
+      "state": "PA",
+      "intentKey": "shade",
+      "intentLabel": "Shade and weather comfort",
+      "question": "Where can visitors find shade or weather shelter at Wissahickon Valley Park?",
+      "reason": "No current, source-backed shade and weather comfort answer is cataloged.",
+      "action": "research",
+      "priority": 64,
+      "freshnessDays": 180,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Philadelphia Parks & Recreation / Friends of the Wissahickon",
+          "url": "https://fow.org/visit-the-park/",
+          "sourceType": "official"
+        },
+        {
+          "label": "OpenStreetMap park record",
+          "url": "https://www.openstreetmap.org/relation/7140587",
+          "sourceType": "official"
+        },
+        {
+          "label": "Philadelphia Parks & Recreation trail regulations",
+          "url": "https://www.phila.gov/departments/philadelphia-parks-recreation/about/trail-regulations/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of the Wissahickon visitor information",
+          "url": "https://fow.org/visit-the-park/information/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of the Wissahickon maps and directions",
+          "url": "https://fow.org/visit-the-park/maps/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of the Wissahickon",
+          "url": "https://fow.org/virtual-valley/trails-to-the-past/thomas-mill-covered-bridge/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of the Wissahickon",
+          "url": "https://fow.org/virtual-valley/trails-to-the-past/fingerspan-bridge/",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 70
+    },
+    {
       "id": "launch-fl-fort-lauderdale-fort-lauderdale-beach-park:shade",
       "placeId": "launch-fl-fort-lauderdale-fort-lauderdale-beach-park",
       "placeName": "Fort Lauderdale Beach Park",
@@ -167651,6 +167871,61 @@
       "placeCoverageScore": 69
     },
     {
+      "id": "launch-pa-philadelphia-wissahickon-valley-park:public-art",
+      "placeId": "launch-pa-philadelphia-wissahickon-valley-park",
+      "placeName": "Wissahickon Valley Park",
+      "placeType": "Park",
+      "city": "Philadelphia",
+      "state": "PA",
+      "intentKey": "public-art",
+      "intentLabel": "Landmarks and public art",
+      "question": "Where are the landmarks or public art at Wissahickon Valley Park, and how do visitors find them?",
+      "reason": "No current, source-backed landmarks and public art answer is cataloged.",
+      "action": "research",
+      "priority": 60,
+      "freshnessDays": 180,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Philadelphia Parks & Recreation / Friends of the Wissahickon",
+          "url": "https://fow.org/visit-the-park/",
+          "sourceType": "official"
+        },
+        {
+          "label": "OpenStreetMap park record",
+          "url": "https://www.openstreetmap.org/relation/7140587",
+          "sourceType": "official"
+        },
+        {
+          "label": "Philadelphia Parks & Recreation trail regulations",
+          "url": "https://www.phila.gov/departments/philadelphia-parks-recreation/about/trail-regulations/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of the Wissahickon visitor information",
+          "url": "https://fow.org/visit-the-park/information/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of the Wissahickon maps and directions",
+          "url": "https://fow.org/visit-the-park/maps/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of the Wissahickon",
+          "url": "https://fow.org/virtual-valley/trails-to-the-past/thomas-mill-covered-bridge/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of the Wissahickon",
+          "url": "https://fow.org/virtual-valley/trails-to-the-past/fingerspan-bridge/",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 70
+    },
+    {
       "id": "launch-ca-carlsbad-agua-hedionda-lagoon-discovery-center:public-art",
       "placeId": "launch-ca-carlsbad-agua-hedionda-lagoon-discovery-center",
       "placeName": "Agua Hedionda Lagoon Discovery Center",
@@ -168639,61 +168914,6 @@
         {
           "label": "NC State Parks",
           "url": "https://www.ncparks.gov/maps/william-b-umstead-state-park-map/open",
-          "sourceType": "official"
-        }
-      ],
-      "requiresHumanReview": true,
-      "placeCoverageScore": 95
-    },
-    {
-      "id": "launch-pa-philadelphia-wissahickon-valley-park:public-art",
-      "placeId": "launch-pa-philadelphia-wissahickon-valley-park",
-      "placeName": "Wissahickon Valley Park",
-      "placeType": "Park",
-      "city": "Philadelphia",
-      "state": "PA",
-      "intentKey": "public-art",
-      "intentLabel": "Landmarks and public art",
-      "question": "Where are the landmarks or public art at Wissahickon Valley Park, and how do visitors find them?",
-      "reason": "No current, source-backed landmarks and public art answer is cataloged.",
-      "action": "research",
-      "priority": 60,
-      "freshnessDays": 180,
-      "previousAnswer": null,
-      "suggestedSources": [
-        {
-          "label": "Philadelphia Parks & Recreation / Friends of the Wissahickon",
-          "url": "https://fow.org/visit-the-park/",
-          "sourceType": "official"
-        },
-        {
-          "label": "OpenStreetMap park record",
-          "url": "https://www.openstreetmap.org/relation/7140587",
-          "sourceType": "official"
-        },
-        {
-          "label": "Philadelphia Parks & Recreation",
-          "url": "https://www.phila.gov/2022-11-25-expanded-curfew-hours-for-park-areas/",
-          "sourceType": "official"
-        },
-        {
-          "label": "Friends of the Wissahickon",
-          "url": "https://fow.org/visit-the-park/maps/",
-          "sourceType": "official-partner"
-        },
-        {
-          "label": "Friends of the Wissahickon",
-          "url": "https://fow.org/visit-the-park/information/",
-          "sourceType": "official-partner"
-        },
-        {
-          "label": "Friends of the Wissahickon",
-          "url": "https://fow.org/visit-the-park/rules-hours-permits/",
-          "sourceType": "official-partner"
-        },
-        {
-          "label": "Philadelphia Parks and Recreation",
-          "url": "https://www.phila.gov/departments/philadelphia-parks-recreation/about/rules-and-regulations/",
           "sourceType": "official"
         }
       ],

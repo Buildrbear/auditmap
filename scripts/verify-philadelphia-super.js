@@ -54,5 +54,12 @@ for (const [name, sourceToken] of [["Lemon Hill", "Lemon_Hill_Mansion"], ["Belmo
   if (!feature) failures.push(`Fairmount Park: missing ${name}`);
   else if (!(feature.details?.imageSourceUrl || "").includes(sourceToken)) failures.push(`Fairmount Park/${name}: destination image does not match`);
 }
+const wissahickon = places.find((place) => place.id === "launch-pa-philadelphia-wissahickon-valley-park");
+for (const phrase of ["three permanent public restroom locations", "parking or drop-off is prohibited on Livezey Lane", "5.35-mile, broad gravel path", "Swimming and wading are prohibited", "cell service can be limited"]) if (!JSON.stringify(wissahickon).includes(phrase)) failures.push(`Wissahickon Valley Park: missing ${phrase}`);
+for (const [name, sourceToken] of [["Valley Green Inn and Trailhead", "Valley_Green_Inn_on_Forbidden_Drive"], ["Forbidden Drive", "Forbidden_Drive_trail_NB"], ["Devil's Pool", "Devil's_Pool"], ["Thomas Mill Covered Bridge", "Thomas_Mill_Covered_Bridge"], ["Fingerspan", "Fingerspan_bridge_fall"]]) {
+  const feature = wissahickon?.features?.find((item) => item.name === name);
+  if (!feature) failures.push(`Wissahickon Valley Park: missing ${name}`);
+  else if (!(feature.details?.imageSourceUrl || "").includes(sourceToken)) failures.push(`Wissahickon Valley Park/${name}: destination image does not match`);
+}
 if (failures.length) { console.error(failures.map((failure) => `- ${failure}`).join("\n")); process.exit(1); }
 console.log(`Verified ${campaign.places.length} Philadelphia guides with sourced galleries, ${campaign.places.reduce((sum, place) => sum + place.subsites.length, 0)} full subsites, raw visitor answers, and current closure guidance.`);

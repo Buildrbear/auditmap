@@ -22,14 +22,11 @@ const featureProfiles = {
     { image: 6, description: "Please Touch Museum occupies Memorial Hall and is a ticketed indoor children's museum." }
   ],
   "launch-pa-philadelphia-wissahickon-valley-park": [
-    { image: 0, description: "Valley Green is the best-known Wissahickon arrival for the inn, creek views, and Forbidden Drive; parking is limited and fills early." },
-    { image: 1, description: "Forbidden Drive is the broad creekside gravel route through the Wissahickon, shared by walkers, runners, cyclists, and permitted equestrians." },
-    { image: 2, description: "Devil's Pool is reached from trail access near Livezey Lane; swimming and wading are prohibited, and wet rock and steep approaches require care." },
-    { image: 3, description: "The environmental center and Andorra Meadow form a quieter northern gateway with nature programming, meadow habitat, and trail connections." },
-    { image: 1, description: "Thomas Mill Covered Bridge crosses the creek beside Forbidden Drive in the northern valley and is reached on foot, bike, or horse rather than by driving across it." },
-    { image: 2, description: "Fingerspan is a sculptural pedestrian bridge on a natural-surface side trail above the creek; reaching it requires trail navigation, grades, and sure footing." },
-    { image: 0, description: "Blue Bell Park is a southern Wissahickon gateway with parking, open lawn, picnic space, and trail access; weekend spaces can fill before the interior valley lots." },
-    { image: 3, description: "Rex Avenue is a steep western trailhead for hikers seeking upper trails and creek connections; neighborhood parking is limited and the return climb is substantial." }
+    { image: 4, description: "Valley Green Inn is the best-known Wissahickon arrival for creek views and Forbidden Drive, with limited parking and a permanent outdoor restroom." },
+    { image: 5, description: "Forbidden Drive is the park's broad creekside gravel route, shared by walkers, runners, cyclists, and permitted equestrians." },
+    { image: 6, description: "Devil's Pool is a natural pool reached only by trail; swimming and wading are prohibited, and there is no vehicle access on Livezey Lane." },
+    { image: 7, description: "Thomas Mill Covered Bridge crosses Wissahickon Creek beside Forbidden Drive and is reached as a trail destination, not a vehicle crossing." },
+    { image: 8, description: "Fingerspan is Jody Pinto's sculptural footbridge on the Orange Trail, reached over steep, rocky natural-surface terrain." }
   ],
   "launch-pa-philadelphia-dilworth-park": [
     { image: 0, description: "The Dilworth fountain is the warm-season water-play and people-watching area on City Hall's west apron; operation changes with weather and events." },

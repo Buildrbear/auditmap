@@ -43,12 +43,11 @@
       }
     },
     "launch-pa-philadelphia-wissahickon-valley-park": {
-      "Valley Green Inn and trailhead": {
-        "latitude": 40.054573,
-        "longitude": -75.218032,
-        "coordinateSource": "OpenStreetMap N/7499201864",
-        "positionQuality": "Mapped public-place feature",
-        "matchedName": "Valley Green Lower Lot South Trailhead"
+      "Valley Green Inn and Trailhead": {
+        "latitude": 40.054325,
+        "longitude": -75.218056,
+        "coordinateSource": "AuditMap reviewed public-map placement",
+        "positionQuality": "Reviewed destination placement"
       },
       "Forbidden Drive": {
         "latitude": 40.0820402,
@@ -57,18 +56,11 @@
         "positionQuality": "Mapped public-place feature",
         "matchedName": "Forbidden Drive"
       },
-      "Devil's Pool and Livezey Lane": {
-        "latitude": 40.0582,
-        "longitude": -75.2157,
+      "Devil's Pool": {
+        "latitude": 40.05124,
+        "longitude": -75.21411,
         "coordinateSource": "AuditMap reviewed public-map placement",
         "positionQuality": "Reviewed destination placement"
-      },
-      "Wissahickon Environmental Center and Andorra Meadow": {
-        "latitude": 40.0811985,
-        "longitude": -75.2339045,
-        "coordinateSource": "OpenStreetMap W/492653188",
-        "positionQuality": "Mapped public-place feature",
-        "matchedName": "Wissahickon Environmental Education Center"
       },
       "Thomas Mill Covered Bridge": {
         "latitude": 40.0718825,
@@ -77,23 +69,9 @@
         "positionQuality": "Mapped public-place feature",
         "matchedName": "Thomas Mill Covered Bridge"
       },
-      "Fingerspan Bridge": {
-        "latitude": 40.0465195,
-        "longitude": -75.2115598,
-        "coordinateSource": "OpenStreetMap W/611883006",
-        "positionQuality": "Mapped public-place feature",
-        "matchedName": "Fingerspan"
-      },
-      "Blue Bell Park trailhead": {
-        "latitude": 40.0308678,
-        "longitude": -75.1951704,
-        "coordinateSource": "OpenStreetMap N/12104784194",
-        "positionQuality": "Mapped public-place feature",
-        "matchedName": "Blue Bell Field Trailhead"
-      },
-      "Rex Avenue trailhead": {
-        "latitude": 40.0567,
-        "longitude": -75.221,
+      "Fingerspan": {
+        "latitude": 40.046467,
+        "longitude": -75.211708,
         "coordinateSource": "AuditMap reviewed public-map placement",
         "positionQuality": "Reviewed destination placement"
       }

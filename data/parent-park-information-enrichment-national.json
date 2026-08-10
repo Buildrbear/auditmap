@@ -33447,120 +33447,182 @@
       "operator": "Philadelphia Parks & Recreation / Friends of the Wissahickon",
       "sourceLabel": "Philadelphia Parks & Recreation / Friends of the Wissahickon",
       "source": "https://fow.org/visit-the-park/",
-      "address": "Philadelphia",
-      "summary": "Wissahickon Valley Park is a roughly 2,000-acre wooded gorge with more than 50 miles of trails, the broad gravel Forbidden Drive route, many separate trailheads, limited restrooms, historic structures, and transit access.",
-      "hours": "Open daily from 6:00 a.m. to 1:00 a.m. April through November and 6:00 a.m. to 8:00 p.m. December through March.",
-      "cost": "General park and trail access is free; permits, organized events, concessions, and nearby private services may charge.",
-      "accessibility": "Accessibility varies by entrance, route, terrain, and destination. Review the exact mapped subsite and its official source before relying on a specific accessible route.",
-      "transit": "Transit research pending",
+      "address": "Valley Green Road and Forbidden Drive, Philadelphia, PA 19128",
+      "summary": "Wissahickon Valley Park is Philadelphia's wooded creek gorge, with more than 50 miles of trails, the 5.35-mile gravel Forbidden Drive, separate trailheads, historic bridges and landmarks, limited restrooms, and terrain ranging from broad multiuse paths to steep rocky side trails.",
+      "hours": "Park curfew is 1 a.m.-6 a.m. from April through November and 8 p.m.-6 a.m. from December through March. City trail regulations separately say trails are open dawn to dusk, so plan trail travel for daylight and obey any shorter posted closure.",
+      "cost": "General park, trail and landmark access is free. Non-Philadelphia residents age 16 or older need a paid annual permit to bicycle or ride a horse on Upper Wissahickon soft trails; food, events and separately operated services may charge.",
+      "accessibility": "Forbidden Drive is the most predictable broad route: 5.35 miles of gravel, about 25 feet wide on average, with an average 3% grade and obstacles up to three inches. Trailhead transitions, washouts and side trails vary, and Devil's Pool, Fingerspan and many upper trails require rocky grades and stairs.",
+      "transit": "SEPTA buses and regional rail serve several park edges. The Wissahickon Transportation Center is across Ridge Avenue from the southern trail entrance, while other bus and rail stops require a walk to a specific trailhead; route to the selected entrance, not the park center.",
       "searchAnswers": [
         {
           "intentKey": "hours",
-          "question": "What hours is Wissahickon Valley Park open?",
-          "answer": "The park is open from 6 a.m. to 1 a.m. from April 1 through November 30 and from 6 a.m. to 8 p.m. from December 1 through March 31. Trails or access points can close separately after storms or construction.",
-          "sourceLabel": "Philadelphia Parks & Recreation",
-          "source": "https://www.phila.gov/2022-11-25-expanded-curfew-hours-for-park-areas/",
-          "sourceType": "official",
-          "checkedAt": "2026-07-31"
-        },
-        {
-          "intentKey": "entrance",
-          "question": "Which entrance should I use for Wissahickon Valley Park?",
-          "answer": "Choose a named trailhead before navigating. Practical arrivals include Ridge Avenue, Valley Green Road, Kitchen's Lane, Blue Bell Field, Northwestern Stables, and other points shown on the official-partner map; they lead to different parts of the 50-mile trail network.",
-          "sourceLabel": "Friends of the Wissahickon",
-          "source": "https://fow.org/visit-the-park/maps/",
-          "sourceType": "official-partner",
-          "checkedAt": "2026-07-31"
+          "question": "When is Wissahickon Valley Park open?",
+          "answer": "Park curfew is 1 a.m.-6 a.m. from April through November and 8 p.m.-6 a.m. from December through March. City trail regulations separately say trails are open dawn to dusk, so plan trail travel for daylight and obey any shorter posted closure.",
+          "sourceLabel": "Philadelphia Parks & Recreation trail regulations",
+          "source": "https://www.phila.gov/departments/philadelphia-parks-recreation/about/trail-regulations/",
+          "verifiedAt": "2026-08-10",
+          "freshnessClass": "fast",
+          "status": "verified"
         },
         {
           "intentKey": "parking",
           "question": "Where should I park for Wissahickon Valley Park?",
-          "answer": "Use a mapped trailhead lot and have an alternative because popular lots fill. Parking is prohibited on Livezey Lane and Kitchen's Lane because those roads must remain clear for emergency access; park only in legal lots or signed street spaces.",
-          "sourceLabel": "Friends of the Wissahickon",
-          "source": "https://fow.org/visit-the-park/maps/",
-          "sourceType": "official-partner",
-          "checkedAt": "2026-07-31"
+          "answer": "Choose a named trailhead before driving and keep a backup lot. Popular Valley Green spaces fill, and parking or drop-off is prohibited on Livezey Lane and Kitchen's Lane because they are emergency-access routes. Lock the vehicle and leave no valuables visible.",
+          "sourceLabel": "Friends of the Wissahickon visitor information",
+          "source": "https://fow.org/visit-the-park/information/",
+          "verifiedAt": "2026-08-10",
+          "freshnessClass": "fast",
+          "status": "verified"
         },
         {
-          "intentKey": "trail-surface",
-          "question": "Is Forbidden Drive an easy trail?",
-          "answer": "Forbidden Drive is a 5.35-mile, wide gravel multiuse path averaging about 25 feet wide and a 3% grade, making it the park's most straightforward long route. Side trails are narrower, steeper, rockier, and sometimes hiking-only.",
-          "sourceLabel": "Friends of the Wissahickon",
+          "intentKey": "entrance",
+          "question": "What is the best entrance for Wissahickon Valley Park?",
+          "answer": "Use the Friends of the Wissahickon map to select the trailhead nearest your actual destination. Valley Green, Bells Mill, Northwestern Avenue, Ridge Avenue and neighborhood trailheads reach different parts of the gorge; there is no single practical park entrance.",
+          "sourceLabel": "Friends of the Wissahickon maps and directions",
           "source": "https://fow.org/visit-the-park/maps/",
-          "sourceType": "official-partner",
-          "checkedAt": "2026-07-31"
+          "verifiedAt": "2026-08-10",
+          "freshnessClass": "slow",
+          "status": "verified"
         },
         {
           "intentKey": "restroom",
-          "question": "Where are restrooms in Wissahickon Valley Park?",
-          "answer": "Restroom facilities are limited and not distributed continuously along the trails. Use the Friends of the Wissahickon map to identify current bathroom locations before starting, and do not assume a trailhead or historic structure will have an open restroom.",
-          "sourceLabel": "Friends of the Wissahickon",
+          "question": "Are there restrooms at Wissahickon Valley Park?",
+          "answer": "The three permanent public restroom locations are the Wissahickon Environmental Center, the outdoor restroom at Valley Green Inn, and Kitchen's Lane at Forbidden Drive. Seasonal portable toilets may appear at Northwestern Avenue, Bells Mill, Kitchen's Lane lot and Blue Bell Park; confirm before relying on one.",
+          "sourceLabel": "Friends of the Wissahickon visitor information",
           "source": "https://fow.org/visit-the-park/information/",
-          "sourceType": "official-partner",
-          "checkedAt": "2026-07-31"
+          "verifiedAt": "2026-08-10",
+          "freshnessClass": "slow",
+          "status": "verified"
         },
         {
-          "intentKey": "dog-area",
-          "question": "Are dogs allowed in Wissahickon Valley Park?",
-          "answer": "Yes. Dogs must remain on a leash no longer than six feet to protect wildlife and other visitors. Owners should carry waste out or use available receptacles and follow any posted trail restrictions.",
-          "sourceLabel": "Friends of the Wissahickon",
+          "intentKey": "fees",
+          "question": "Is Wissahickon Valley Park free?",
+          "answer": "General park, trail and landmark access is free. Non-Philadelphia residents age 16 or older need a paid annual permit to bicycle or ride a horse on Upper Wissahickon soft trails; food, events and separately operated services may charge.",
+          "sourceLabel": "Philadelphia Parks & Recreation trail regulations",
+          "source": "https://www.phila.gov/departments/philadelphia-parks-recreation/about/trail-regulations/",
+          "verifiedAt": "2026-08-10",
+          "freshnessClass": "slow",
+          "status": "verified"
+        },
+        {
+          "intentKey": "accessibility",
+          "question": "How accessible is Wissahickon Valley Park?",
+          "answer": "Forbidden Drive is the most predictable broad route: 5.35 miles of gravel, about 25 feet wide on average, with an average 3% grade and obstacles up to three inches. Trailhead transitions, washouts and side trails vary, and Devil's Pool, Fingerspan and many upper trails require rocky grades and stairs.",
+          "sourceLabel": "Friends of the Wissahickon maps and directions",
+          "source": "https://fow.org/visit-the-park/maps/",
+          "verifiedAt": "2026-08-10",
+          "freshnessClass": "slow",
+          "status": "verified"
+        },
+        {
+          "intentKey": "dogs",
+          "question": "Are dogs allowed at Wissahickon Valley Park?",
+          "answer": "Dogs are allowed but must stay on a leash no longer than six feet. Carry waste out or use a receptacle, keep dogs on designated trails, and yield space at narrow bridges, busy trailheads and equestrian encounters.",
+          "sourceLabel": "Philadelphia Parks & Recreation trail regulations",
+          "source": "https://www.phila.gov/departments/philadelphia-parks-recreation/about/trail-regulations/",
+          "verifiedAt": "2026-08-10",
+          "freshnessClass": "slow",
+          "status": "verified"
+        },
+        {
+          "intentKey": "family",
+          "question": "Is Wissahickon Valley Park good for children?",
+          "answer": "Forbidden Drive and a short Valley Green outing are the easiest family introductions. The gorge has no conventional destination playground or authorized water play; choose a distance children can return, keep them out of the creek, and identify a restroom before starting.",
+          "sourceLabel": "Friends of the Wissahickon visitor information",
           "source": "https://fow.org/visit-the-park/information/",
-          "sourceType": "official-partner",
-          "checkedAt": "2026-07-31"
+          "verifiedAt": "2026-08-10",
+          "freshnessClass": "slow",
+          "status": "verified"
         },
         {
           "intentKey": "transit",
-          "question": "Can I reach Wissahickon Valley Park without a car?",
-          "answer": "Yes. SEPTA buses serve the park's west, north, east, and south sides, and regional rail reaches several west-side stations. The Wissahickon Transportation Center is across from the Ridge Avenue trailhead, but many other stops require a walk to a trailhead.",
-          "sourceLabel": "Friends of the Wissahickon",
+          "question": "How do I reach Wissahickon Valley Park without a car?",
+          "answer": "SEPTA buses and regional rail serve several park edges. The Wissahickon Transportation Center is across Ridge Avenue from the southern trail entrance, while other bus and rail stops require a walk to a specific trailhead; route to the selected entrance, not the park center.",
+          "sourceLabel": "Friends of the Wissahickon maps and directions",
           "source": "https://fow.org/visit-the-park/maps/",
-          "sourceType": "official-partner",
-          "checkedAt": "2026-07-31"
+          "verifiedAt": "2026-08-10",
+          "freshnessClass": "slow",
+          "status": "verified"
         },
         {
-          "intentKey": "closures",
-          "question": "Can I swim in Wissahickon Creek?",
-          "answer": "No. Swimming is prohibited throughout Wissahickon Valley Park. Visitors must stay on designated trails, alcohol is prohibited, and bicycles are allowed only on designated cycling routes where riders must yield to pedestrians.",
-          "sourceLabel": "Friends of the Wissahickon",
-          "source": "https://fow.org/visit-the-park/rules-hours-permits/",
-          "sourceType": "official-partner",
-          "checkedAt": "2026-07-31"
+          "intentKey": "need-to-know",
+          "question": "What should I know before visiting Wissahickon Valley Park?",
+          "answer": "Download the map before entering because cell service can be limited. Check the live trail-conditions section, weather and daylight, tell someone your route, stay on marked trails, and do not swim or wade. Livezey Lane is emergency access, not Devil's Pool parking or drop-off.",
+          "sourceLabel": "Friends of the Wissahickon visitor information",
+          "source": "https://fow.org/visit-the-park/information/",
+          "verifiedAt": "2026-08-10",
+          "freshnessClass": "fast",
+          "status": "verified"
+        },
+        {
+          "intentKey": "weather",
+          "question": "What weather should I check before visiting Wissahickon Valley Park?",
+          "answer": "Check heat, thunderstorms, creek flooding, wind, snow and ice before entering the gorge. Water can rise quickly, wet rock and leaves become slick, and trees or trail sections may close after storms; turn around rather than crossing floodwater or a closure.",
+          "sourceLabel": "Friends of the Wissahickon visitor information",
+          "source": "https://fow.org/visit-the-park/information/",
+          "verifiedAt": "2026-08-10",
+          "freshnessClass": "fast",
+          "status": "verified"
+        },
+        {
+          "intentKey": "trail-surface",
+          "question": "Is Forbidden Drive the easiest trail in Wissahickon Valley Park?",
+          "answer": "It is the park's most straightforward long route: a 5.35-mile, broad gravel path averaging about 25 feet wide and a 3% grade. It is still an outdoor trail with drainage, loose gravel, crowds and changing conditions, while the color-blazed side trails are substantially narrower and rougher.",
+          "sourceLabel": "Friends of the Wissahickon maps and directions",
+          "source": "https://fow.org/visit-the-park/maps/",
+          "verifiedAt": "2026-08-10",
+          "freshnessClass": "slow",
+          "status": "verified"
+        },
+        {
+          "intentKey": "water-safety",
+          "question": "Can I swim or wade at Devil's Pool or Wissahickon Creek?",
+          "answer": "No. Swimming and wading are prohibited throughout Philadelphia park waterways. Devil's Pool also has currents, submerged objects, poor water quality, wet rock and limited emergency access; enjoy it from the trail and do not jump from rocks.",
+          "sourceLabel": "Friends of the Wissahickon visitor information",
+          "source": "https://fow.org/visit-the-park/information/",
+          "verifiedAt": "2026-08-10",
+          "freshnessClass": "slow",
+          "status": "verified"
+        },
+        {
+          "intentKey": "devils-pool-parking",
+          "question": "Where should I park for Devil's Pool?",
+          "answer": "Do not drive, park or request drop-off on Livezey Lane; it must remain open for emergency vehicles. Friends of the Wissahickon recommends choosing a legal mapped trailhead such as Mt. Airy Avenue or a Henry Avenue trailhead, then hiking more than half a mile to the pool.",
+          "sourceLabel": "Friends of the Wissahickon visitor information",
+          "source": "https://fow.org/visit-the-park/information/",
+          "verifiedAt": "2026-08-10",
+          "freshnessClass": "fast",
+          "status": "verified"
         },
         {
           "intentKey": "picnic",
-          "question": "Can I hold a group gathering in Wissahickon Valley Park?",
-          "answer": "Small carry-in outings are possible where posted rules allow, but the park is a protected natural gorge rather than a developed picnic complex. Gatherings over 50 people require a Philadelphia Parks & Recreation special-event permit, and alcohol, swimming, fires, and off-trail use are prohibited.",
-          "sourceLabel": "Friends of the Wissahickon",
-          "source": "https://fow.org/visit-the-park/rules-hours-permits/",
-          "sourceType": "official-partner",
-          "checkedAt": "2026-07-31"
-        },
-        {
-          "intentKey": "shade",
-          "question": "Is there shade or weather shelter in Wissahickon Valley Park?",
-          "answer": "Dense forest canopy shades much of Forbidden Drive and the gorge trails, but the park is a natural area without a dependable public indoor visitor center or general storm-shelter network. Historic shelters and Valley Green Inn are destination features with limited or business-specific access, not guaranteed emergency refuge. During lightning, flooding, ice, or high wind, leave the creek gorge and forest rather than sheltering beneath trees or near steep slopes.",
-          "sourceLabel": "Friends of the Wissahickon",
+          "question": "Where are the better picnic areas in Wissahickon Valley Park?",
+          "answer": "Friends of the Wissahickon directs picnickers away from Devil's Pool and identifies Pachella Field, Blue Bell Field and Harper's Meadow as designated alternatives. Carry out trash, do not bring alcohol and check permit rules for a large gathering.",
+          "sourceLabel": "Friends of the Wissahickon visitor information",
           "source": "https://fow.org/visit-the-park/information/",
-          "sourceType": "official-partner",
-          "checkedAt": "2026-07-31"
+          "verifiedAt": "2026-08-10",
+          "freshnessClass": "slow",
+          "status": "verified"
         },
         {
-          "intentKey": "playground",
-          "question": "Is there a playground in Wissahickon Valley Park?",
-          "answer": "The official park map and visitor information do not identify a conventional playground within the wooded Wissahickon gorge. This park is best for nature-based family visits on Forbidden Drive, creek overlooks, historic sites, and carefully chosen trails. Houston Playground, Kendrick Recreation Center, and other neighborhood play sites sometimes appear in searches for the Wissahickon area, but they are separate facilities; route to one by name rather than assuming equipment will be beside a valley trailhead.",
-          "sourceLabel": "Friends of the Wissahickon",
-          "source": "https://fow.org/visit-the-park/maps/",
-          "sourceType": "official-partner",
-          "checkedAt": "2026-07-31"
+          "intentKey": "bikes",
+          "question": "Where can I bike in Wissahickon Valley Park?",
+          "answer": "Forbidden Drive and designated cycling trails allow bicycles, with pedestrians holding the right of way and a seven-mile-per-hour trail speed limit. Riders age 16 or older need an Upper Wissahickon soft-trail permit; Philadelphia residents may register free, while nonresidents pay the published annual fee.",
+          "sourceLabel": "Philadelphia Parks & Recreation trail regulations",
+          "source": "https://www.phila.gov/departments/philadelphia-parks-recreation/about/trail-regulations/",
+          "verifiedAt": "2026-08-10",
+          "freshnessClass": "fast",
+          "status": "verified"
         },
         {
-          "intentKey": "splash-pad",
-          "question": "Can children swim or wade in Wissahickon Creek or Devil's Pool?",
-          "answer": "No. Philadelphia prohibits swimming and wading in all park creeks, rivers, and streams, including Wissahickon Creek and Devil's Pool. The water can rise quickly, hide rocks and debris, carry contamination, and create dangerous currents even for experienced swimmers. Do not jump from rocks or enter the creek; use an authorized City pool with a lifeguard or a separately listed sprayground for water play.",
-          "sourceLabel": "Philadelphia Parks and Recreation",
-          "source": "https://www.phila.gov/departments/philadelphia-parks-recreation/about/rules-and-regulations/",
-          "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "intentKey": "closures",
+          "question": "Where can I check current Wissahickon trail closures?",
+          "answer": "Use the Trail Conditions and Closures section on the Friends of the Wissahickon visitor-information page before a time-sensitive trip. Storm damage, fallen trees, erosion, restoration and road work can close one trail or entrance while the rest of the park remains open.",
+          "sourceLabel": "Friends of the Wissahickon visitor information",
+          "source": "https://fow.org/visit-the-park/information/",
+          "verifiedAt": "2026-08-10",
+          "freshnessClass": "fast",
+          "status": "verified"
         }
       ],
       "image": {
@@ -33599,10 +33661,55 @@
           "alt": "Wissahickon Valley Park in Philadelphia",
           "width": 1600,
           "height": 1000
+        },
+        {
+          "url": "/assets/parks/philadelphia-super/wissahickon-valley-park/05-valley-green-inn-on-forbidden-drive-in-wissahickon-valley-park-jpeg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3AValley_Green_Inn_on_Forbidden_Drive_in_Wissahickon_Valley_Park.jpeg",
+          "author": "Dough4872",
+          "license": "CC BY-SA 4.0",
+          "alt": "Wissahickon Valley Park in Philadelphia",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/philadelphia-super/wissahickon-valley-park/06-forbidden-drive-trail-nb-south-of-valley-green-inn-jpeg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3AForbidden_Drive_trail_NB_south_of_Valley_Green_Inn.jpeg",
+          "author": "Dough4872",
+          "license": "CC BY-SA 4.0",
+          "alt": "Wissahickon Valley Park in Philadelphia",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/philadelphia-super/wissahickon-valley-park/07-devil-s-pool-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3ADevil's_Pool.jpg",
+          "author": "Seaflour",
+          "license": "CC0",
+          "alt": "Wissahickon Valley Park in Philadelphia",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/philadelphia-super/wissahickon-valley-park/08-thomas-mill-covered-bridge-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3AThomas_Mill_Covered_Bridge.JPG",
+          "author": "Smallbones",
+          "license": "Public domain",
+          "alt": "Wissahickon Valley Park in Philadelphia",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/philadelphia-super/wissahickon-valley-park/09-fingerspan-bridge-fall-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3AFingerspan_bridge_fall.jpg",
+          "author": "Quincy Morgan",
+          "license": "CC0",
+          "alt": "Wissahickon Valley Park in Philadelphia",
+          "width": 1600,
+          "height": 1000
         }
       ],
       "replaceImages": true,
-      "verifiedAt": "2026-08-06"
+      "verifiedAt": "2026-08-10"
     },
     "launch-pa-pittsburgh-point-state-park": {
       "name": "Point State Park",
