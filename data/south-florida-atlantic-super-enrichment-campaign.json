@@ -196,6 +196,28 @@
         "Jetty Pavilion",
         "Boat Ramp"
       ]
+    },
+    {
+      "id": "launch-fl-hollywood-hollywood-north-beach-park",
+      "name": "Hollywood North Beach Park",
+      "city": "Hollywood",
+      "state": "FL",
+      "citySlug": "hollywood-fl",
+      "operator": "Broward County Parks and Recreation",
+      "source": "https://www.visitlauderdale.com/listing/hollywood-north-beach-park/4760/",
+      "featureResearchRadiusMeters": 1700,
+      "minimumImages": 4,
+      "imageQueries": [
+        "Hollywood North Beach Park",
+        "Hollywood Florida North Beach boardwalk",
+        "Hollywood North Beach ocean"
+      ],
+      "subsites": [
+        "Atlantic Beach Access",
+        "Intracoastal Fishing Piers",
+        "Observation Tower",
+        "Marine Environmental Education Center at the Carpenter House"
+      ]
     }
   ]
 }

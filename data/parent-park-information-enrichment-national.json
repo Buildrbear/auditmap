@@ -79657,6 +79657,223 @@
         }
       ],
       "replaceImages": true
+    },
+    "launch-fl-hollywood-hollywood-north-beach-park": {
+      "name": "Hollywood North Beach Park",
+      "city": "Hollywood",
+      "citySlug": "hollywood-fl",
+      "operator": "Broward County Parks and Recreation",
+      "sourceLabel": "Broward County Parks and Recreation",
+      "source": "https://www.broward.org/atyourservice/Pages/parks.htm",
+      "address": "3601 N Ocean Dr, Hollywood, FL 33019",
+      "hours": "Confirm current park and parking hours with Broward County before a time-sensitive visit. City lifeguard coverage is currently 9:00 a.m. to 6:00 p.m. year-round and extends to 7:00 p.m. on holidays and special events; the county park is closed December 25.",
+      "cost": "There is no ordinary gate admission, but the county charges a parking fee instead. Current rates can change and park passes do not cover this parking charge.",
+      "summary": "Hollywood North Beach Park is a 56-acre Broward County coastal park with about 1.1 miles of public Atlantic beach, Intracoastal access, picnic areas, fishing piers, restrooms, an observation tower, an accessible boardwalk ramp, and a connected café and environmental-education destination.",
+      "accessibility": "The developed park includes an ADA-compliant boardwalk ramp and recent accessible gangway improvements. Sand, tides, weather, individual piers, and construction can still affect a specific route, so confirm critical access before travel.",
+      "transit": "Broward County Transit Route 4 serves Hollywood North Beach Park. Check the live schedule and last return trip before relying on transit for an evening beach visit.",
+      "verifiedAt": "2026-08-10",
+      "searchAnswers": [
+        {
+          "intentKey": "hours",
+          "question": "What hours is Hollywood North Beach Park open?",
+          "answer": "Broward County's current park listing does not publish a dependable daily gate schedule, so confirm park and parking hours before a time-sensitive visit. Hollywood Ocean Rescue currently staffs the municipal beach from 9:00 a.m. to 6:00 p.m. year-round and until 7:00 p.m. on holidays and special events. Broward County parks are closed December 25.",
+          "sourceLabel": "City of Hollywood Ocean Rescue",
+          "source": "https://www.hollywoodfl.org/251/Beach-Safety",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "entrance",
+          "question": "What address should I use for Hollywood North Beach Park?",
+          "answer": "Use 3601 N Ocean Drive, Hollywood, FL 33019 for the county park. Decide whether you want the Atlantic beach side or the Intracoastal picnic and fishing side before parking; North Ocean Drive separates visitor experiences within this long coastal park.",
+          "sourceLabel": "Broward County Parks and Recreation",
+          "source": "https://www.broward.org/atyourservice/Pages/parks.htm",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "parking",
+          "question": "Where should I park at Hollywood North Beach Park?",
+          "answer": "Use the county-operated park parking and choose a space near the side you plan to visit. Parking is the primary access charge and is not included with a Broward Parks Passport. Rates and special-event pricing can change, so read the current fee schedule and posted pay-station instructions before leaving the car.",
+          "sourceLabel": "Broward County Parks and Recreation",
+          "source": "https://www.broward.org/Parks/Fees/Documents/FeeSchedule.pdf",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "fees",
+          "question": "Is Hollywood North Beach Park free?",
+          "answer": "General entry is not normally charged at a gate, but parking is paid. The Broward Parks Passport page specifically says the pass does not cover Hollywood North Beach Park parking. Recheck the current county fee schedule because daily, afternoon, holiday, and oversized-vehicle rates can change.",
+          "sourceLabel": "Broward County Parks and Recreation",
+          "source": "https://www.broward.org/Parks/Pages/ParkPassports.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Are there restrooms at Hollywood North Beach Park?",
+          "answer": "Yes. Broward County planning records identify restrooms among the facilities distributed through the park's five pocket-park areas. Use the nearest open restroom before settling on the beach or fishing because facilities are spread along a long shoreline and can close for maintenance.",
+          "sourceLabel": "Broward County Parks and Recreation",
+          "source": "https://www.broward.org/Parks/Support/Documents/DraftMinutes5.30.pdf",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "accessibility",
+          "question": "Is Hollywood North Beach Park accessible?",
+          "answer": "The park includes an ADA-compliant boardwalk ramp to the beach and Broward County has documented accessible gangway and service improvements. Sand, weather, tides, pier approaches, and construction still vary, so contact the park before travel for a specific mobility or transfer need.",
+          "sourceLabel": "Broward County Parks and Recreation",
+          "source": "https://www.broward.org/Parks/Support/Documents/DraftMinutes5.30.pdf",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "dog-area",
+          "question": "Are dogs allowed at Hollywood North Beach Park?",
+          "answer": "Do not bring a pet onto the Hollywood North Beach Park beach side. Broward County excludes that beach side from its general leashed-dog allowance, and the City of Hollywood directs beachgoing dogs to the separate designated Dog Beach between Pershing and Custer streets. Service-animal rules remain separate.",
+          "sourceLabel": "Broward County Parks and Recreation",
+          "source": "https://www.broward.org/Parks/ThingsToDo/Pages/MarkhamDogPark.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "swimming",
+          "question": "Are there lifeguards at Hollywood North Beach Park?",
+          "answer": "Hollywood Ocean Rescue provides year-round beach lifeguard service across the city beach system, currently 9:00 a.m. to 6:00 p.m. and until 7:00 p.m. on holidays and special events. Not every stretch should be assumed staffed at every moment; check flags, choose a visible staffed tower, and keep children and weak swimmers within direct reach.",
+          "sourceLabel": "City of Hollywood Ocean Rescue",
+          "source": "https://www.hollywoodfl.org/251/Beach-Safety",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "fishing",
+          "question": "Can I fish at Hollywood North Beach Park?",
+          "answer": "Broward County permits fishing from the park's Intracoastal piers and shoreline. Use the Intracoastal side rather than a swimming area, keep hooks and lines away from other visitors and wildlife, and check current Florida saltwater-license rules and posted restrictions before fishing.",
+          "sourceLabel": "Broward County Parks and Recreation",
+          "source": "https://www.broward.org/PARKS/THINGSTODO/Pages/Fishing.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "picnic",
+          "question": "Can I picnic at Hollywood North Beach Park?",
+          "answer": "Yes. Official sources identify picnic areas and shelters in the park. Choose the Atlantic or Intracoastal side first, confirm reservation requirements for a shelter or group, secure food from birds and wind, and remove everything before leaving.",
+          "sourceLabel": "Visit Lauderdale",
+          "source": "https://www.visitlauderdale.com/listing/hollywood-north-beach-park/4760/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "food",
+          "question": "Is there food at Hollywood North Beach Park?",
+          "answer": "Visit Lauderdale lists a café among the park's visitor facilities, but concession hours and availability can change independently from beach access. Bring drinking water and verify current service before relying on the café for a meal, especially early, late, or during severe weather.",
+          "sourceLabel": "Visit Lauderdale",
+          "source": "https://www.visitlauderdale.com/listing/hollywood-north-beach-park/4760/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "transit",
+          "question": "Can I reach Hollywood North Beach Park by bus?",
+          "answer": "Yes. Broward County Transit Route 4 identifies Hollywood North Beach Park as a served destination. Check the current Route 4 schedule, stop direction, and last return trip before leaving because beach time can extend past convenient service.",
+          "sourceLabel": "Broward County Transit",
+          "source": "https://www.broward.org/BCT/Schedules/Documents/2026_01-18/rt4web.pdf",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "sea-turtles",
+          "question": "What should I know about sea turtles at Hollywood North Beach Park?",
+          "answer": "Sea-turtle nesting season runs March 1 through October 31. Never touch a turtle or nest, avoid flash photography and bright lights at night, remove chairs and belongings, fill holes before leaving, and report an injured or stranded turtle through the city's posted contacts.",
+          "sourceLabel": "City of Hollywood",
+          "source": "https://www.hollywoodfl.org/1608/Sea-Turtles",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "weather",
+          "question": "What weather should I plan for at Hollywood North Beach Park?",
+          "answer": "The beach, piers, tower, and picnic areas are exposed to heat, sun, wind, lightning, heavy rain, rough surf, and changing currents. Check the forecast and beach flags, carry water and sun protection, leave piers and water when thunder is heard, and do not enter the ocean on prohibited flag conditions.",
+          "sourceLabel": "City of Hollywood Ocean Rescue",
+          "source": "https://www.hollywoodfl.org/251/Beach-Safety",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "need-to-know",
+          "question": "What should I know before visiting Hollywood North Beach Park?",
+          "answer": "Choose Atlantic beach access or the Intracoastal fishing and picnic side before parking, expect a parking charge, check beach flags and lifeguard hours, use a restroom before settling in, and remember dogs are not allowed on this beach side. During turtle season, remove gear, fill holes, and avoid flash or bright nighttime lighting.",
+          "sourceLabel": "Visit Lauderdale",
+          "source": "https://www.visitlauderdale.com/listing/hollywood-north-beach-park/4760/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Broward County Parks destination listing",
+          "url": "https://www.broward.org/atyourservice/Pages/parks.htm"
+        },
+        {
+          "label": "Visit Lauderdale park guide",
+          "url": "https://www.visitlauderdale.com/listing/hollywood-north-beach-park/4760/"
+        },
+        {
+          "label": "Broward County Parks current fee schedule",
+          "url": "https://www.broward.org/Parks/Fees/Documents/FeeSchedule.pdf"
+        },
+        {
+          "label": "City of Hollywood beach safety",
+          "url": "https://www.hollywoodfl.org/251/Beach-Safety"
+        },
+        {
+          "label": "City of Hollywood sea-turtle guidance",
+          "url": "https://www.hollywoodfl.org/1608/Sea-Turtles"
+        }
+      ],
+      "image": {
+        "url": "/assets/parks/south-florida-atlantic-super/hollywood-north-beach-park/01-quiet-look-at-the-ocean-doux-regard-a-l-ocean-panoramio.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Quiet_look_at_the_ocean...Doux_regard_%C3%A0_l%27oc%C3%A9an..._-_panoramio.jpg",
+        "author": "Richard Mc Neil",
+        "license": "BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+        "alt": "Boardwalk, palms, lifeguard tower, and Atlantic Ocean at Hollywood North Beach Park",
+        "width": 1600,
+        "height": 1000
+      },
+      "additionalImages": [
+        {
+          "url": "/assets/parks/south-florida-atlantic-super/hollywood-north-beach-park/02-hollywood-beach-hollywood-fl-33019-usa-panoramio-3.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Hollywood_Beach,_Hollywood,_FL_33019,_USA_-_panoramio_(3).jpg",
+          "author": "Rick Shu",
+          "license": "BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "alt": "Wide Atlantic shoreline and palms at Hollywood North Beach Park",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/south-florida-atlantic-super/hollywood-north-beach-park/03-hollywood-beach-hollywood-fl-33019-usa-panoramio-11.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Hollywood_Beach,_Hollywood,_FL_33019,_USA_-_panoramio_(11).jpg",
+          "author": "Rick Shu",
+          "license": "BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "alt": "Visitors, umbrellas, seabirds, and surf at Hollywood North Beach Park",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/south-florida-atlantic-super/hollywood-north-beach-park/04-sailing-boat-in-the-hole-panoramio.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Sailing_boat_in_the_hole._-_Voilier_passe_dans_la_fen%C3%AAtre_d%C3%A9corative_de_la_plage_D%27Hollywood,_Floride_-_panoramio.jpg",
+          "author": "Richard Mc Neil",
+          "license": "BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+          "alt": "Decorative stone beach entrance framing a sailboat on the ocean in Hollywood, Florida",
+          "width": 1600,
+          "height": 1000
+        }
+      ],
+      "replaceImages": true
     }
   }
 }
