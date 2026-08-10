@@ -2,9 +2,56 @@
   "checkedAt": "2026-08-08",
   "reviewMethod": "Exact named OpenStreetMap feature, official operator guidance, and a destination-specific licensed campaign photograph. Features without all three were retained in the research queue rather than published.",
   "places": {
-    "launch-nm-albuquerque-balloon-fiesta-park": [],
-    "launch-nm-albuquerque-elena-gallegos-open-space": [],
-    "launch-nm-albuquerque-tingley-beach-and-bosque": [],
+    "launch-nm-albuquerque-balloon-fiesta-park": [
+      {
+        "name": "North Launch Field",
+        "latitude": 35.1961,
+        "longitude": -106.5949,
+        "coordinateSource": "https://www.cabq.gov/parksandrecreation/documents/new-labeled-map-as-of-december-2017-smaller.pdf",
+        "officialMapSource": "https://www.cabq.gov/parksandrecreation/documents/new-labeled-map-as-of-december-2017-smaller.pdf",
+        "positionQuality": "reviewed-official-map-and-osm-field-centroid",
+        "checkedAt": "2026-08-10",
+        "imageIndex": 2,
+        "sourceLabel": "City of Albuquerque Parks and Recreation",
+        "source": "https://www.cabq.gov/parksandrecreation/parks/balloon-fiesta-park/accessing-balloon-fiesta-park",
+        "summary": "The North Launch Field is Balloon Fiesta Park's immense grass event field, divided into lettered and numbered panels and used for ballooning, field sports, remote-control flying, races, festivals, and reserved events.",
+        "cost": "Ordinary daily field access is free when the field is open and not reserved. Automated vehicle-gate cards are $25 per calendar year. Reservations, organized events, parking, and annual Balloon Fiesta admission can have separate charges.",
+        "hours": "Daily access varies with reservations and field conditions. Remote-control flyers normally have exclusive use until noon, with other daily users admitted after noon when the field is available. The North Launch Field is closed or event-controlled during the annual Balloon Fiesta period in September and October.",
+        "needToKnow": "Check same-day City access information before relying on an ordinary park visit: a reservation, turf closure, special event, or Balloon Fiesta setup can control the entire field. The north entrance is normally used for field sports and events. A gate card permits vehicle access only when the field is otherwise available; it does not override closures or reservations. Use the exact field pin and do not promise routine restrooms, food, shade, or public parking outside a scheduled event."
+      }
+    ],
+    "launch-nm-albuquerque-elena-gallegos-open-space": [
+      {
+        "name": "Kiwanis Reservation Area",
+        "latitude": 35.166244,
+        "longitude": -106.469581,
+        "coordinateSource": "https://commons.wikimedia.org/wiki/File:Kiwanis_shelter_at_Elena_Gallegos_Open_Space_2.jpg",
+        "officialMapSource": "https://www.cabq.gov/parksandrecreation/documents/Elena.pdf",
+        "positionQuality": "reviewed-geotagged-destination-photo",
+        "checkedAt": "2026-08-10",
+        "imageIndex": 3,
+        "sourceLabel": "City of Albuquerque Open Space Division",
+        "source": "https://www.cabq.gov/parksandrecreation/open-space/lands/go-beyond-about-open-space-lands/reservation-areas",
+        "summary": "Kiwanis Reservation Area is Elena Gallegos' large sheltered group-picnic destination, with room for up to 250 people, three coal grills, a volleyball net, horseshoes, running water, electricity, restrooms, and direct trail access.",
+        "cost": "Exclusive group use requires a reservation and a fee based on group size, day, and applicable deposit. Ordinary Elena Gallegos vehicle entry is charged separately at the park entrance; current City guidance lists $1 on weekdays and $2 on weekends.",
+        "hours": "The reservation area is available year-round within Elena Gallegos hours: normally 7:00 a.m.-9:00 p.m. from April through October and 7:00 a.m.-7:00 p.m. from November through March. A reservation controls the group's booked use period, and closures or fire restrictions can supersede normal access.",
+        "needToKnow": "Reserve the facility before planning exclusive or large-group use. The City identifies 40 designated parking spaces with limited accessible parking. Follow the official map from the entrance booth to the Kiwanis lot rather than stopping at the first picnic shelter. Coal grills can be restricted during high fire danger, so verify current fire rules and do not assume that a reservation guarantees grill use."
+      }
+    ],
+    "launch-nm-albuquerque-tingley-beach-and-bosque": [
+      {
+        "name": "Central Pond",
+        "osm": "relation/3687197",
+        "checkedAt": "2026-08-10",
+        "imageIndex": 2,
+        "sourceLabel": "ABQ BioPark",
+        "source": "https://www.cabq.gov/artsculture/biopark/tingley/fishing/central-pond",
+        "summary": "Central Pond is Tingley Beach's largest fishing pond, open to anglers of all ages and bordered by walking paths, a fitness course, a grassy picnic peninsula, and a wheelchair-accessible fishing ramp in front of Tingley Station.",
+        "cost": "Access to Tingley Beach and Central Pond is free. Anglers age 12 and older must carry a current New Mexico fishing license, which is not sold at Tingley Beach; parking and any separately offered programs can have their own costs.",
+        "hours": "Central Pond is normally available during Tingley Beach's posted sunrise-to-sunset hours. Weather, maintenance, stocking work, special conditions, or holiday closures shown on an official map can change access, so verify before a holiday or time-sensitive fishing trip.",
+        "needToKnow": "Central Pond allows live worms, insects, artificial bait, and pole fishing under current New Mexico rules. The daily limits listed by the BioPark are four trout and two catfish. Give priority at the station-side ramp to adults and children with mobility disabilities. Swimming and wading are prohibited, ordinary boats and rafts are not allowed, and anglers age 12 and older need their license before arrival."
+      }
+    ],
     "launch-ok-oklahoma-city-scissortail-park": [
       {
         "name": "Skydance Bridge",
@@ -90,9 +137,9 @@
     ]
   },
   "researchQueue": {
-    "launch-nm-albuquerque-balloon-fiesta-park": "Secure exact off-event photographs and reviewed pins before publishing Launch Field, North Diversion Channel Trail, Balloon Museum, Sid Cutter Pilots Pavilion, Golf Training Center, parking areas, gates, or restrooms as separate pages.",
-    "launch-nm-albuquerque-elena-gallegos-open-space": "Secure exact reusable photographs and reviewed pins before publishing Pino Trailhead, Cottonwood Springs Trail, Kiwanis Picnic Area, reservation areas, restrooms, or overlooks as separate pages.",
-    "launch-nm-albuquerque-tingley-beach-and-bosque": "Secure exact reusable photographs and reviewed pins before publishing Central Pond, Children's Pond, Model Boat Pond, Bosque Trail, Tingley Beach Station, parking lots, or restrooms as separate pages.",
+    "launch-nm-albuquerque-balloon-fiesta-park": "Published North Launch Field from the official field map, current City access rules, and a destination-specific licensed field photograph. Secure exact off-event photo-and-pin pairs before publishing the North Diversion Channel Trail, Balloon Museum, Sid Cutter Pilots Pavilion, Golf Training Center, parking areas, gates, or restrooms as separate pages.",
+    "launch-nm-albuquerque-elena-gallegos-open-space": "Published Kiwanis Reservation Area from the official reservation map and rules plus an exactly geotagged licensed shelter photograph. Secure exact reusable photo-and-pin pairs before publishing Pino Trailhead, Cottonwood Springs Trail, the general picnic area, Double Shelter, restrooms, or overlooks as separate pages.",
+    "launch-nm-albuquerque-tingley-beach-and-bosque": "Published Central Pond from the exact mapped pond, current ABQ BioPark fishing guidance, and a licensed visitor photograph of the large pond. Secure exact reusable photo-and-pin pairs before publishing Children's Pond, Model Boat Pond, Bosque Trail, Tingley Beach Station, parking lots, or restrooms as separate pages.",
     "launch-ok-oklahoma-city-scissortail-park": "Secure exact reusable photographs before publishing Scissortail Lake, playground, sprayground, Love's Stage, Sports Pavilion, dog park, Boathouse, restrooms, or additional gardens and event areas as separate pages.",
     "launch-ok-oklahoma-city-myriad-botanical-gardens": "Published the Inasmuch Foundation Crystal Bridge Conservatory, Children's Garden, and Water Stage from exact named or geotagged locations, official visitor guidance, and destination-specific licensed photographs. Secure exact photo-and-pin pairs before adding Thunder Fountain separately, Mo's Carousel, Great Lawn, dog park, restrooms, or entrances.",
     "launch-ok-oklahoma-city-lake-hefner-park": "Do not publish the East Wharf lighthouse as a Lake Hefner Park subsite: Oklahoma City states that it does not manage the lighthouse and the pin lies outside the reviewed park polygon. Secure exact public-access evidence, photographs, and pins before publishing trails, Stars and Stripes Park, marina, Hobie Point, Bluff Creek Park, playgrounds, dog areas, or restrooms.",

@@ -1,10 +1,73 @@
 {
-  "checkedAt": "2026-08-10",
+  "checkedAt": "2026-08-08",
   "reviewMethod": "Exact named OpenStreetMap feature, official operator guidance, and a destination-specific licensed campaign photograph. Features without all three were retained in the research queue rather than published.",
   "places": {
-    "launch-nm-albuquerque-balloon-fiesta-park": {},
-    "launch-nm-albuquerque-elena-gallegos-open-space": {},
-    "launch-nm-albuquerque-tingley-beach-and-bosque": {},
+    "launch-nm-albuquerque-balloon-fiesta-park": {
+      "north-launch-field": {
+        "name": "North Launch Field",
+        "latitude": 35.1961,
+        "longitude": -106.5949,
+        "coordinateSource": "https://www.cabq.gov/parksandrecreation/documents/new-labeled-map-as-of-december-2017-smaller.pdf",
+        "officialMapSource": "https://www.cabq.gov/parksandrecreation/documents/new-labeled-map-as-of-december-2017-smaller.pdf",
+        "positionQuality": "reviewed-official-map-and-osm-field-centroid",
+        "checkedAt": "2026-08-10",
+        "imageIndex": 2,
+        "sourceLabel": "City of Albuquerque Parks and Recreation",
+        "source": "https://www.cabq.gov/parksandrecreation/parks/balloon-fiesta-park/accessing-balloon-fiesta-park",
+        "summary": "The North Launch Field is Balloon Fiesta Park's immense grass event field, divided into lettered and numbered panels and used for ballooning, field sports, remote-control flying, races, festivals, and reserved events.",
+        "cost": "Ordinary daily field access is free when the field is open and not reserved. Automated vehicle-gate cards are $25 per calendar year. Reservations, organized events, parking, and annual Balloon Fiesta admission can have separate charges.",
+        "hours": "Daily access varies with reservations and field conditions. Remote-control flyers normally have exclusive use until noon, with other daily users admitted after noon when the field is available. The North Launch Field is closed or event-controlled during the annual Balloon Fiesta period in September and October.",
+        "needToKnow": "Check same-day City access information before relying on an ordinary park visit: a reservation, turf closure, special event, or Balloon Fiesta setup can control the entire field. The north entrance is normally used for field sports and events. A gate card permits vehicle access only when the field is otherwise available; it does not override closures or reservations. Use the exact field pin and do not promise routine restrooms, food, shade, or public parking outside a scheduled event.",
+        "displayName": "North Launch Field",
+        "boundarySource": "https://www.openstreetmap.org/way/167527887",
+        "reviewStatus": "approved-official-map-and-geotag-match",
+        "reviewedAt": "2026-08-08"
+      }
+    },
+    "launch-nm-albuquerque-elena-gallegos-open-space": {
+      "kiwanis-reservation-area": {
+        "name": "Kiwanis Reservation Area",
+        "latitude": 35.166244,
+        "longitude": -106.469581,
+        "coordinateSource": "https://commons.wikimedia.org/wiki/File:Kiwanis_shelter_at_Elena_Gallegos_Open_Space_2.jpg",
+        "officialMapSource": "https://www.cabq.gov/parksandrecreation/documents/Elena.pdf",
+        "positionQuality": "reviewed-geotagged-destination-photo",
+        "checkedAt": "2026-08-10",
+        "imageIndex": 3,
+        "sourceLabel": "City of Albuquerque Open Space Division",
+        "source": "https://www.cabq.gov/parksandrecreation/open-space/lands/go-beyond-about-open-space-lands/reservation-areas",
+        "summary": "Kiwanis Reservation Area is Elena Gallegos' large sheltered group-picnic destination, with room for up to 250 people, three coal grills, a volleyball net, horseshoes, running water, electricity, restrooms, and direct trail access.",
+        "cost": "Exclusive group use requires a reservation and a fee based on group size, day, and applicable deposit. Ordinary Elena Gallegos vehicle entry is charged separately at the park entrance; current City guidance lists $1 on weekdays and $2 on weekends.",
+        "hours": "The reservation area is available year-round within Elena Gallegos hours: normally 7:00 a.m.-9:00 p.m. from April through October and 7:00 a.m.-7:00 p.m. from November through March. A reservation controls the group's booked use period, and closures or fire restrictions can supersede normal access.",
+        "needToKnow": "Reserve the facility before planning exclusive or large-group use. The City identifies 40 designated parking spaces with limited accessible parking. Follow the official map from the entrance booth to the Kiwanis lot rather than stopping at the first picnic shelter. Coal grills can be restricted during high fire danger, so verify current fire rules and do not assume that a reservation guarantees grill use.",
+        "displayName": "Kiwanis Reservation Area",
+        "boundarySource": "https://www.openstreetmap.org/relation/5951128",
+        "reviewStatus": "approved-official-map-and-geotag-match",
+        "reviewedAt": "2026-08-08"
+      }
+    },
+    "launch-nm-albuquerque-tingley-beach-and-bosque": {
+      "central-pond": {
+        "name": "Central Pond",
+        "osm": "relation/3687197",
+        "checkedAt": "2026-08-10",
+        "imageIndex": 2,
+        "sourceLabel": "ABQ BioPark",
+        "source": "https://www.cabq.gov/artsculture/biopark/tingley/fishing/central-pond",
+        "summary": "Central Pond is Tingley Beach's largest fishing pond, open to anglers of all ages and bordered by walking paths, a fitness course, a grassy picnic peninsula, and a wheelchair-accessible fishing ramp in front of Tingley Station.",
+        "cost": "Access to Tingley Beach and Central Pond is free. Anglers age 12 and older must carry a current New Mexico fishing license, which is not sold at Tingley Beach; parking and any separately offered programs can have their own costs.",
+        "hours": "Central Pond is normally available during Tingley Beach's posted sunrise-to-sunset hours. Weather, maintenance, stocking work, special conditions, or holiday closures shown on an official map can change access, so verify before a holiday or time-sensitive fishing trip.",
+        "needToKnow": "Central Pond allows live worms, insects, artificial bait, and pole fishing under current New Mexico rules. The daily limits listed by the BioPark are four trout and two catfish. Give priority at the station-side ramp to adults and children with mobility disabilities. Swimming and wading are prohibited, ordinary boats and rafts are not allowed, and anglers age 12 and older need their license before arrival.",
+        "latitude": 35.085775,
+        "longitude": -106.6737399,
+        "displayName": "Central Pond (Tingley Beach)",
+        "coordinateSource": "https://www.openstreetmap.org/relation/3687197",
+        "boundarySource": "https://www.openstreetmap.org/way/168469046",
+        "positionQuality": "reviewed-public-map-placement",
+        "reviewStatus": "approved-feature-and-boundary-match",
+        "reviewedAt": "2026-08-08"
+      }
+    },
     "launch-ok-oklahoma-city-scissortail-park": {
       "skydance-bridge": {
         "name": "Skydance Bridge",
@@ -25,7 +88,7 @@
         "boundarySource": "https://www.openstreetmap.org/way/176390181",
         "positionQuality": "reviewed-official-campus-placement",
         "reviewStatus": "approved-official-campus-extension",
-        "reviewedAt": "2026-08-10"
+        "reviewedAt": "2026-08-08"
       }
     },
     "launch-ok-oklahoma-city-myriad-botanical-gardens": {
@@ -36,6 +99,7 @@
         "coordinateSource": "https://www.flickr.com/photos/59081381@N03/54010022233",
         "officialMapSource": "https://myriadgardens.org/visit-us/",
         "positionQuality": "reviewed-geotagged-destination-photo",
+        "checkedAt": "2026-08-10",
         "imageIndex": 0,
         "sourceLabel": "Myriad Botanical Gardens",
         "source": "https://myriadgardens.org/visit-us/",
@@ -46,11 +110,12 @@
         "displayName": "Inasmuch Foundation Crystal Bridge Conservatory",
         "boundarySource": "https://www.openstreetmap.org/way/142226336",
         "reviewStatus": "approved-official-map-and-geotag-match",
-        "reviewedAt": "2026-08-10"
+        "reviewedAt": "2026-08-08"
       },
       "children-s-garden": {
         "name": "Children's Garden",
         "osm": "way/546957665",
+        "checkedAt": "2026-08-10",
         "imageIndex": 1,
         "sourceLabel": "Myriad Botanical Gardens",
         "source": "https://myriadgardens.org/visit-us/",
@@ -65,11 +130,12 @@
         "boundarySource": "https://www.openstreetmap.org/way/142226336",
         "positionQuality": "reviewed-public-map-placement",
         "reviewStatus": "approved-feature-and-boundary-match",
-        "reviewedAt": "2026-08-10"
+        "reviewedAt": "2026-08-08"
       },
       "water-stage": {
         "name": "Water Stage",
         "osm": "way/426194293",
+        "checkedAt": "2026-08-10",
         "imageIndex": 2,
         "sourceLabel": "Myriad Botanical Gardens",
         "source": "https://myriadgardens.org/visit-us/rentals/water-stage-and-plaza/",
@@ -84,7 +150,7 @@
         "boundarySource": "https://www.openstreetmap.org/way/142226336",
         "positionQuality": "reviewed-public-map-placement",
         "reviewStatus": "approved-feature-and-boundary-match",
-        "reviewedAt": "2026-08-10"
+        "reviewedAt": "2026-08-08"
       }
     },
     "launch-ok-oklahoma-city-lake-hefner-park": {},
@@ -107,7 +173,7 @@
         "boundarySource": "https://www.openstreetmap.org/way/39823491",
         "positionQuality": "reviewed-public-map-placement",
         "reviewStatus": "approved-feature-and-boundary-match",
-        "reviewedAt": "2026-08-10"
+        "reviewedAt": "2026-08-08"
       },
       "quiet-pool": {
         "name": "Quiet Pool",
@@ -126,7 +192,7 @@
         "boundarySource": "https://www.openstreetmap.org/way/39823491",
         "positionQuality": "reviewed-public-map-placement",
         "reviewStatus": "approved-feature-and-boundary-match",
-        "reviewedAt": "2026-08-10"
+        "reviewedAt": "2026-08-08"
       }
     }
   }

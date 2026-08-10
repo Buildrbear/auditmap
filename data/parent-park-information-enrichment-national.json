@@ -10100,6 +10100,10 @@
           "label": "Wikipedia background",
           "url": "https://en.wikipedia.org/wiki/Tingley_Beach",
           "note": "Background reference"
+        },
+        {
+          "label": "ABQ BioPark",
+          "url": "https://www.cabq.gov/artsculture/biopark/tingley/fishing/central-pond"
         }
       ],
       "verifiedAt": "2026-08-08"
@@ -11677,7 +11681,12 @@
         }
       ],
       "replaceImages": true,
-      "sources": [],
+      "sources": [
+        {
+          "label": "City of Albuquerque Parks and Recreation",
+          "url": "https://www.cabq.gov/parksandrecreation/parks/balloon-fiesta-park/accessing-balloon-fiesta-park"
+        }
+      ],
       "verifiedAt": "2026-08-08"
     },
     "launch-nm-albuquerque-elena-gallegos-open-space": {
@@ -11868,7 +11877,12 @@
         }
       ],
       "replaceImages": true,
-      "sources": [],
+      "sources": [
+        {
+          "label": "City of Albuquerque Open Space Division",
+          "url": "https://www.cabq.gov/parksandrecreation/open-space/lands/go-beyond-about-open-space-lands/reservation-areas"
+        }
+      ],
       "verifiedAt": "2026-08-08"
     },
     "launch-sd-sioux-falls-terrace-park": {

@@ -8,6 +8,7 @@ for (const key of ["campaign", "output"]) if (!args[key]) throw new Error(`Missi
 const campaign = JSON.parse(fs.readFileSync(path.join(root, args.campaign), "utf8"));
 const launch = JSON.parse(fs.readFileSync(path.join(root, "data/generated/launch-map-places.json"), "utf8"));
 const places = new Map(launch.map((place) => [place.id, place]));
+const refreshIds = new Set(String(args["refresh-id"] || "").split(",").filter(Boolean));
 const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 async function overpass(latitude, longitude, radius) {
@@ -38,7 +39,7 @@ async function overpass(latitude, longitude, radius) {
       console.log(`${scope.name}: skipped deferred release`);
       continue;
     }
-    if (output.places[scope.id]) {
+    if (output.places[scope.id] && !refreshIds.has(scope.id)) {
       console.log(`${scope.name}: retained ${output.places[scope.id].candidates.length} saved map objects`);
       continue;
     }
