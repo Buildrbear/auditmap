@@ -40,6 +40,26 @@
         "coordinateSource": "https://www.openstreetmap.org/way/1364118669",
         "positionQuality": "reviewed-named-trail-detour-way-near-official-commercial-street-arrival"
       }
+    },
+    "launch-pa-pittsburgh-point-state-park": {
+      "point-state-park-fountain": {
+        "latitude": 40.4418271,
+        "longitude": -80.0127829,
+        "coordinateSource": "https://www.openstreetmap.org/way/1037461399",
+        "positionQuality": "reviewed-named-fountain-way-and-geotagged-photo-match"
+      },
+      "fort-pitt-museum": {
+        "latitude": 40.4406932,
+        "longitude": -80.0096764,
+        "coordinateSource": "https://www.openstreetmap.org/way/109499955",
+        "positionQuality": "reviewed-named-museum-way-and-official-address-match"
+      },
+      "fort-pitt-block-house": {
+        "latitude": 40.4411877,
+        "longitude": -80.0098227,
+        "coordinateSource": "https://www.openstreetmap.org/way/109499956",
+        "positionQuality": "reviewed-named-building-way-and-official-address-match"
+      }
     }
   }
 }

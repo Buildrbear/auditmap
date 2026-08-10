@@ -57,50 +57,26 @@
       "point-state-park-fountain": {
         "latitude": 40.4418271,
         "longitude": -80.0127829,
-        "displayName": "Preserved coordinate for Point State Park Fountain",
-        "source": "OpenStreetMap Nominatim"
+        "coordinateSource": "https://www.openstreetmap.org/way/1037461399",
+        "positionQuality": "reviewed-named-fountain-way-and-geotagged-photo-match",
+        "displayName": "reviewed-named-fountain-way-and-geotagged-photo-match",
+        "source": "https://www.openstreetmap.org/way/1037461399"
       },
       "fort-pitt-museum": {
         "latitude": 40.4406932,
         "longitude": -80.0096764,
-        "displayName": "Preserved coordinate for Fort Pitt Museum",
-        "source": "OpenStreetMap Nominatim"
+        "coordinateSource": "https://www.openstreetmap.org/way/109499955",
+        "positionQuality": "reviewed-named-museum-way-and-official-address-match",
+        "displayName": "reviewed-named-museum-way-and-official-address-match",
+        "source": "https://www.openstreetmap.org/way/109499955"
       },
       "fort-pitt-block-house": {
         "latitude": 40.4411877,
         "longitude": -80.0098227,
-        "displayName": "Preserved coordinate for Fort Pitt Block House",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "fort-duquesne-outline": {
-        "latitude": 40.44078180194847,
-        "longitude": -80.01508180194847,
-        "displayName": "Preserved coordinate for Fort Duquesne Outline",
-        "source": "AuditMap official-map placement"
-      },
-      "point-state-park-great-lawn": {
-        "latitude": 40.44049,
-        "longitude": -80.0154,
-        "displayName": "Preserved coordinate for Point State Park Great Lawn",
-        "source": "AuditMap official-map placement"
-      },
-      "three-rivers-heritage-trail": {
-        "latitude": 40.4344487,
-        "longitude": -80.0022786,
-        "displayName": "Preserved coordinate for Three Rivers Heritage Trail",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "monongahela-wharf-connector": {
-        "latitude": 40.4411,
-        "longitude": -80.01585,
-        "displayName": "Preserved coordinate for Monongahela Wharf Connector",
-        "source": "AuditMap official-map placement"
-      },
-      "three-rivers-confluence-overlook": {
-        "latitude": 40.441531335136524,
-        "longitude": -80.01583133513653,
-        "displayName": "Preserved coordinate for Three Rivers Confluence Overlook",
-        "source": "AuditMap official-map placement"
+        "coordinateSource": "https://www.openstreetmap.org/way/109499956",
+        "positionQuality": "reviewed-named-building-way-and-official-address-match",
+        "displayName": "reviewed-named-building-way-and-official-address-match",
+        "source": "https://www.openstreetmap.org/way/109499956"
       }
     },
     "launch-pa-pittsburgh-highland-park": {
