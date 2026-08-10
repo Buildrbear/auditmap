@@ -81399,6 +81399,519 @@
         }
       ],
       "verifiedAt": "2026-08-10"
+    },
+    "launch-md-bethesda-cabin-john-regional-park": {
+      "operator": "Montgomery Parks",
+      "sourceLabel": "Montgomery Parks",
+      "source": "https://montgomeryparks.org/parks-and-trails/cabin-john-regional-park/",
+      "address": "7400 Tuckerman Lane, Bethesda, MD 20817",
+      "summary": "A large family and recreation park with a miniature train, Adventure Playground, indoor ice rink, dog park, picnic shelters, athletic fields, tennis, camping, nature programs, and more than six miles of hard- and natural-surface trails.",
+      "hours": "Outdoor park areas are open daily from sunrise to sunset, while lighted courts close at 11 p.m. The miniature train, ice rink, nature center, tennis center, campground, shelters, and scheduled programs keep separate hours.",
+      "hoursSchedule": null,
+      "cost": "General park, playground, trail, dog-park, and unreserved picnic access are free. The miniature train is $4 per rider in the 2026 regular season, with children under two free with a paying adult; skating, rentals, camping, permits, and reservations charge separately.",
+      "accessibility": "Developed facilities include accessible parking and routes, and Montgomery Parks accepts accommodation requests through its Program Access office. Trail surfaces, grades, older picnic areas, and the active Westlake lot project require destination-specific planning.",
+      "transit": "Ride On routes 42 and 47 stop on Democracy Boulevard near the tennis center and Locust Grove Nature Center. Other destinations may require a substantial internal walk, so map the final facility rather than relying on the park address alone.",
+      "searchAnswers": [
+        {
+          "intentKey": "hours",
+          "question": "When is Cabin John Regional Park open?",
+          "answer": "Outdoor park areas are open daily from sunrise to sunset, while lighted courts close at 11 p.m. The miniature train, ice rink, nature center, tennis center, campground, shelters, and scheduled programs keep separate hours.",
+          "sourceLabel": "Montgomery Parks",
+          "source": "https://montgomeryparks.org/parks-and-trails/cabin-john-regional-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "parking",
+          "question": "Where should I park for Cabin John Regional Park?",
+          "answer": "Free parking is distributed among separate facility lots. The Westlake Drive lot near the dog park and Power Line Trail North trailhead is under phased renovation through summer 2026, with part of the lot remaining open and traffic patterns subject to change.",
+          "sourceLabel": "Montgomery Parks",
+          "source": "https://montgomeryparks.org/parks-and-trails/cabin-john-regional-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "entrance",
+          "question": "What is the best entrance for Cabin John Regional Park?",
+          "answer": "Use the destination-specific address rather than the general park pin. The train is at 7410 Tuckerman Lane, while the ice rink and several athletic facilities are reached from Westlake Drive.",
+          "sourceLabel": "Montgomery Parks",
+          "source": "https://montgomeryparks.org/parks-and-trails/cabin-john-regional-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Are there restrooms at Cabin John Regional Park?",
+          "answer": "Restrooms are available at developed park facilities, but access follows each building or seasonal area's schedule. Identify the closest open facility to the train, rink, playground, shelter, or trailhead before starting a longer visit.",
+          "sourceLabel": "Montgomery Parks",
+          "source": "https://montgomeryparks.org/parks-and-trails/cabin-john-regional-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "fees",
+          "question": "Is Cabin John Regional Park free?",
+          "answer": "General park, playground, trail, dog-park, and unreserved picnic access are free. The miniature train is $4 per rider in the 2026 regular season, with children under two free with a paying adult; skating, rentals, camping, permits, and reservations charge separately.",
+          "sourceLabel": "Montgomery Parks",
+          "source": "https://montgomeryparks.org/parks-and-trails/cabin-john-regional-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "accessibility",
+          "question": "How accessible is Cabin John Regional Park?",
+          "answer": "Developed facilities include accessible parking and routes, and Montgomery Parks accepts accommodation requests through its Program Access office. Trail surfaces, grades, older picnic areas, and the active Westlake lot project require destination-specific planning.",
+          "sourceLabel": "Montgomery Parks",
+          "source": "https://montgomeryparks.org/parks-and-trails/cabin-john-regional-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "dogs",
+          "question": "Are dogs allowed at Cabin John Regional Park?",
+          "answer": "Dogs must remain leashed outside the fenced dog park. The dog park is free from sunrise to sunset, separates dogs at 20 pounds or less from larger dogs, and requires current legally required vaccinations.",
+          "sourceLabel": "Montgomery Parks",
+          "source": "https://montgomeryparks.org/parks-and-trails/cabin-john-regional-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "family",
+          "question": "Is Cabin John Regional Park good for children?",
+          "answer": "The train, Adventure Playground, picnic shelters, paved paths, and ice rink make this a strong all-day family park, but the ticketed attractions are not continuously open. Check the exact facility before promising a ride or skate.",
+          "sourceLabel": "Montgomery Parks",
+          "source": "https://montgomeryparks.org/parks-and-trails/cabin-john-regional-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "transit",
+          "question": "How do I reach Cabin John Regional Park without a car?",
+          "answer": "Ride On routes 42 and 47 stop on Democracy Boulevard near the tennis center and Locust Grove Nature Center. Other destinations may require a substantial internal walk, so map the final facility rather than relying on the park address alone.",
+          "sourceLabel": "Montgomery Parks",
+          "source": "https://montgomeryparks.org/parks-and-trails/cabin-john-regional-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "need-to-know",
+          "question": "What should I know before visiting Cabin John Regional Park?",
+          "answer": "The park works as several activity zones, not one compact stop. Check the train's weather status, rink session calendar, current construction and event notices, and the correct parking entrance before leaving.",
+          "sourceLabel": "Montgomery Parks",
+          "source": "https://montgomeryparks.org/parks-and-trails/cabin-john-regional-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "food",
+          "question": "Should I bring food and water to Cabin John Regional Park?",
+          "answer": "Bring water and a backup snack unless a currently open concession is confirmed near the exact destination. Food availability, vending, and event vendors are not consistent across this large public place.",
+          "sourceLabel": "Montgomery Parks",
+          "source": "https://montgomeryparks.org/parks-and-trails/cabin-john-regional-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        }
+      ],
+      "image": {
+        "slug": "cabin-john-woodland",
+        "url": "/assets/parks/washington-dc-super/bethesda/cabin-john-regional-park/cabin-john-woodland.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Cabin_John_Regional_Park_(1).jpg",
+        "author": "Fuzheado",
+        "license": "CC BY-SA 3.0",
+        "alt": "Cabin John Regional Park in Bethesda, MD",
+        "latitude": 39.0311522,
+        "longitude": -77.1526596,
+        "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
+      },
+      "additionalImages": [
+        {
+          "slug": "cabin-john-train-station",
+          "url": "/assets/parks/washington-dc-super/bethesda/cabin-john-regional-park/cabin-john-train-station.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Cabin-john-park-md-porky.jpg",
+          "author": "Fuzheado",
+          "license": "CC BY-SA 4.0",
+          "alt": "Cabin John Regional Park in Bethesda, MD",
+          "latitude": 39.0311522,
+          "longitude": -77.1526596,
+          "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
+        },
+        {
+          "slug": "cabin-john-picnic-shelter",
+          "url": "/assets/parks/washington-dc-super/bethesda/cabin-john-regional-park/cabin-john-picnic-shelter.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Picnic_pavilion_Cabin_John_Park_md_2020-11-23_09-11-53_1.jpg",
+          "author": "G. Edward Johnson",
+          "license": "CC BY 4.0",
+          "alt": "Cabin John Regional Park in Bethesda, MD",
+          "latitude": 39.0311522,
+          "longitude": -77.1526596,
+          "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
+        },
+        {
+          "slug": "cabin-john-ice-rink",
+          "url": "/assets/parks/washington-dc-super/bethesda/cabin-john-regional-park/cabin-john-ice-rink.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:2022-0502-icerink-wide-square.jpg",
+          "author": "Fuzheado",
+          "license": "CC BY-SA 4.0",
+          "alt": "Cabin John Regional Park in Bethesda, MD",
+          "latitude": 39.0311522,
+          "longitude": -77.1526596,
+          "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
+        },
+        {
+          "slug": "cabin-john-hippo-fountain",
+          "url": "/assets/parks/washington-dc-super/bethesda/cabin-john-regional-park/cabin-john-hippo-fountain.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Hippo_water_fountain_Cabin_John_Park_MD_2020-11-23_09-09-50_1.jpg",
+          "author": "G. Edward Johnson",
+          "license": "CC BY 4.0",
+          "alt": "Cabin John Regional Park in Bethesda, MD",
+          "latitude": 39.0311522,
+          "longitude": -77.1526596,
+          "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
+        }
+      ],
+      "verifiedAt": "2026-08-10"
+    },
+    "launch-md-rockville-rock-creek-regional-park": {
+      "operator": "Montgomery Parks",
+      "sourceLabel": "Montgomery Parks",
+      "source": "https://montgomeryparks.org/parks-and-trails/rock-creek-regional-park/",
+      "address": "15700 Needwood Lake Circle, Rockville, MD 20855",
+      "summary": "An approximately 1,800-acre regional park centered on 75-acre Lake Needwood and 55-acre Lake Frank, with boating, fishing, playgrounds, picnic shelters, an archery range, Meadowside trails, and thirteen miles of park trails.",
+      "hours": "Outdoor park areas are open daily from sunrise to sunset. The Lake Needwood boathouse, Meadowside programs, golf, Go Ape, shelters, and other facilities use separate seasonal or reservation-based schedules.",
+      "hoursSchedule": null,
+      "cost": "General park and trail access are free. Lake Needwood rentals currently cost $15 per hour for kayaks, canoes, and rowboats, $12 per half hour for pedal boats, or $55 for a full day except pedal boats; tours, permits, golf, concessions, and partner activities charge separately.",
+      "accessibility": "Lake Needwood has an accessible dock and launch system, and the Needwood Queen can accommodate wheelchair users. The wider park includes asphalt hiker-biker trail, natural-surface lake trails, grades, roots, and long distances between entrances.",
+      "transit": "Transit usefulness depends on the selected entrance and a potentially long final walk. Confirm the exact destination and return route before relying on transit for Lake Needwood or Meadowside.",
+      "searchAnswers": [
+        {
+          "intentKey": "hours",
+          "question": "When is Rock Creek Regional Park open?",
+          "answer": "Outdoor park areas are open daily from sunrise to sunset. The Lake Needwood boathouse, Meadowside programs, golf, Go Ape, shelters, and other facilities use separate seasonal or reservation-based schedules.",
+          "sourceLabel": "Montgomery Parks",
+          "source": "https://montgomeryparks.org/parks-and-trails/rock-creek-regional-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "parking",
+          "question": "Where should I park for Rock Creek Regional Park?",
+          "answer": "Parking is distributed among Lake Needwood, Meadowside, picnic, golf, and trail access areas. Use 15700 Needwood Lake Circle for boating and 5100 Meadowside Lane for the Meadowside trail complex; events and good-weather weekends can fill the closest lots.",
+          "sourceLabel": "Montgomery Parks",
+          "source": "https://montgomeryparks.org/parks-and-trails/rock-creek-regional-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "entrance",
+          "question": "What is the best entrance for Rock Creek Regional Park?",
+          "answer": "Choose Lake Needwood, Lake Frank, Meadowside Nature Center trails, a picnic area, or another named entrance before navigating. The official park explicitly warns that its multiple entrances do not connect visitors directly to every activity.",
+          "sourceLabel": "Montgomery Parks",
+          "source": "https://montgomeryparks.org/parks-and-trails/rock-creek-regional-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Are there restrooms at Rock Creek Regional Park?",
+          "answer": "Facilities are concentrated at developed recreation areas and may be seasonal. Meadowside's building and restrooms are currently closed for renovation, so do not begin that trail visit expecting indoor services.",
+          "sourceLabel": "Montgomery Parks",
+          "source": "https://montgomeryparks.org/parks-and-trails/rock-creek-regional-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "fees",
+          "question": "Is Rock Creek Regional Park free?",
+          "answer": "General park and trail access are free. Lake Needwood rentals currently cost $15 per hour for kayaks, canoes, and rowboats, $12 per half hour for pedal boats, or $55 for a full day except pedal boats; tours, permits, golf, concessions, and partner activities charge separately.",
+          "sourceLabel": "Montgomery Parks",
+          "source": "https://montgomeryparks.org/parks-and-trails/rock-creek-regional-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "accessibility",
+          "question": "How accessible is Rock Creek Regional Park?",
+          "answer": "Lake Needwood has an accessible dock and launch system, and the Needwood Queen can accommodate wheelchair users. The wider park includes asphalt hiker-biker trail, natural-surface lake trails, grades, roots, and long distances between entrances.",
+          "sourceLabel": "Montgomery Parks",
+          "source": "https://montgomeryparks.org/parks-and-trails/rock-creek-regional-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "dogs",
+          "question": "Are dogs allowed at Rock Creek Regional Park?",
+          "answer": "Dogs must remain leashed throughout the park. Lake Needwood welcomes dogs aboard rental boats, but owners must follow staff directions, boating rules, and any facility-specific restrictions.",
+          "sourceLabel": "Montgomery Parks",
+          "source": "https://montgomeryparks.org/parks-and-trails/rock-creek-regional-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "family",
+          "question": "Is Rock Creek Regional Park good for children?",
+          "answer": "Boating, playgrounds, lakeside walks, wildlife, picnic shelters, and short Meadowside routes offer varied family options. Match the activity to the season, weather, swimming prohibition, and availability of restrooms.",
+          "sourceLabel": "Montgomery Parks",
+          "source": "https://montgomeryparks.org/parks-and-trails/rock-creek-regional-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "transit",
+          "question": "How do I reach Rock Creek Regional Park without a car?",
+          "answer": "Transit usefulness depends on the selected entrance and a potentially long final walk. Confirm the exact destination and return route before relying on transit for Lake Needwood or Meadowside.",
+          "sourceLabel": "Montgomery Parks",
+          "source": "https://montgomeryparks.org/parks-and-trails/rock-creek-regional-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "need-to-know",
+          "question": "What should I know before visiting Rock Creek Regional Park?",
+          "answer": "Swimming is prohibited in park lakes. Alcohol is prohibited, dogs must be leashed, buses need weekday permits and are not allowed on weekends, and boating depends on season, weather, permits, life jackets, and same-day operational conditions.",
+          "sourceLabel": "Montgomery Parks",
+          "source": "https://montgomeryparks.org/parks-and-trails/rock-creek-regional-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "food",
+          "question": "Should I bring food and water to Rock Creek Regional Park?",
+          "answer": "Bring water and a backup snack unless a currently open concession is confirmed near the exact destination. Food availability, vending, and event vendors are not consistent across this large public place.",
+          "sourceLabel": "Montgomery Parks",
+          "source": "https://montgomeryparks.org/parks-and-trails/rock-creek-regional-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        }
+      ],
+      "image": {
+        "slug": "lake-needwood-autumn",
+        "url": "/assets/parks/washington-dc-super/rockville/rock-creek-regional-park/lake-needwood-autumn.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Lake_Needwood_(52451911526).jpg",
+        "author": "John Brighenti",
+        "license": "CC BY 2.0",
+        "alt": "Rock Creek Regional Park in Rockville, MD",
+        "latitude": 39.1171446,
+        "longitude": -77.1278556,
+        "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
+      },
+      "additionalImages": [
+        {
+          "slug": "lake-needwood-trail",
+          "url": "/assets/parks/washington-dc-super/rockville/rock-creek-regional-park/lake-needwood-trail.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Colorful_Trail_Along_the_Lake_(52442554654).jpg",
+          "author": "John Brighenti",
+          "license": "CC BY 2.0",
+          "alt": "Rock Creek Regional Park in Rockville, MD",
+          "latitude": 39.1171446,
+          "longitude": -77.1278556,
+          "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
+        },
+        {
+          "slug": "meadowside-creek",
+          "url": "/assets/parks/washington-dc-super/rockville/rock-creek-regional-park/meadowside-creek.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Meadowside_Nature_Center_(50526799517).jpg",
+          "author": "John Brighenti",
+          "license": "CC BY 2.0",
+          "alt": "Rock Creek Regional Park in Rockville, MD",
+          "latitude": 39.1171446,
+          "longitude": -77.1278556,
+          "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
+        },
+        {
+          "slug": "rock-creek-footbridge",
+          "url": "/assets/parks/washington-dc-super/rockville/rock-creek-regional-park/rock-creek-footbridge.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Footbridge_(52022927801).jpg",
+          "author": "John Brighenti",
+          "license": "CC BY 2.0",
+          "alt": "Rock Creek Regional Park in Rockville, MD",
+          "latitude": 39.1171446,
+          "longitude": -77.1278556,
+          "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
+        },
+        {
+          "slug": "meadowside-woods",
+          "url": "/assets/parks/washington-dc-super/rockville/rock-creek-regional-park/meadowside-woods.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Meadowside_Nature_Center_(50525914983).jpg",
+          "author": "John Brighenti",
+          "license": "CC BY 2.0",
+          "alt": "Rock Creek Regional Park in Rockville, MD",
+          "latitude": 39.1171446,
+          "longitude": -77.1278556,
+          "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
+        }
+      ],
+      "verifiedAt": "2026-08-10"
+    },
+    "launch-va-fairfax-station-burke-lake-park": {
+      "operator": "Fairfax County Park Authority",
+      "sourceLabel": "Fairfax County Park Authority",
+      "source": "https://www.fairfaxcounty.gov/parks/burkelakepark/",
+      "address": "7315 Ox Road, Fairfax Station, VA 22039",
+      "summary": "An 888-acre park around a 218-acre fishing lake, with a 4.7-mile lake trail, marina, miniature railroad, carousel, playgrounds, mini golf, disc golf, picnic areas, campground, ice cream parlor, and seasonal tour boat.",
+      "hours": "Park grounds are open daily from sunrise to sunset. In 2026 the railroad, carousel, marina, mini golf, office, campground, store, and food service each follow detailed seasonal schedules and may close for weather, holidays, maintenance, or special events.",
+      "hoursSchedule": null,
+      "cost": "Fairfax County residents enter free. From April through late October, non-county residents pay on weekends and holidays only: currently $12 per passenger vehicle or van, $6 per motorcycle, and $40 per bus. Rides, boating, golf, camping, reservations, and concessions charge separately.",
+      "accessibility": "The park provides accessible developed facilities, and the mini golf course is wheelchair accessible. The long lake loop includes changing surfaces and grades; contact the Park Authority for a specific accommodation or current route condition.",
+      "transit": "This is primarily a vehicle-oriented destination with no dependable direct rail connection to the park entrance. Arrange the return before arrival if using rideshare, and navigate to the exact internal facility.",
+      "searchAnswers": [
+        {
+          "intentKey": "hours",
+          "question": "When is Burke Lake Park open?",
+          "answer": "Park grounds are open daily from sunrise to sunset. In 2026 the railroad, carousel, marina, mini golf, office, campground, store, and food service each follow detailed seasonal schedules and may close for weather, holidays, maintenance, or special events.",
+          "sourceLabel": "Fairfax County Park Authority",
+          "source": "https://www.fairfaxcounty.gov/parks/burkelakepark/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "parking",
+          "question": "Where should I park for Burke Lake Park?",
+          "answer": "Large activity-specific lots are distributed inside the entrance. The marina and railroad have separate parking areas, while the dam and 24-hour state boat launch use a separate approach outside the main family recreation core.",
+          "sourceLabel": "Fairfax County Park Authority",
+          "source": "https://www.fairfaxcounty.gov/parks/burkelakepark/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "entrance",
+          "question": "What is the best entrance for Burke Lake Park?",
+          "answer": "The park entrance is the second Ox Road turn when traveling south and comes before the golf center when traveling north. Once inside, follow the official map to the marina, train and carousel, picnic zones, campground, or lake trail rather than stopping at the first lot.",
+          "sourceLabel": "Fairfax County Park Authority",
+          "source": "https://www.fairfaxcounty.gov/parks/burkelakepark/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Are there restrooms at Burke Lake Park?",
+          "answer": "Year-round permanent restrooms serve the ice cream parlor and Shelter A/B areas, while other mapped restrooms are seasonal. The official picnic map identifies facilities near the marina, train and carousel, playgrounds, and shelter zones.",
+          "sourceLabel": "Fairfax County Park Authority",
+          "source": "https://www.fairfaxcounty.gov/parks/burkelakepark/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "fees",
+          "question": "Is Burke Lake Park free?",
+          "answer": "Fairfax County residents enter free. From April through late October, non-county residents pay on weekends and holidays only: currently $12 per passenger vehicle or van, $6 per motorcycle, and $40 per bus. Rides, boating, golf, camping, reservations, and concessions charge separately.",
+          "sourceLabel": "Fairfax County Park Authority",
+          "source": "https://www.fairfaxcounty.gov/parks/burkelakepark/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "accessibility",
+          "question": "How accessible is Burke Lake Park?",
+          "answer": "The park provides accessible developed facilities, and the mini golf course is wheelchair accessible. The long lake loop includes changing surfaces and grades; contact the Park Authority for a specific accommodation or current route condition.",
+          "sourceLabel": "Fairfax County Park Authority",
+          "source": "https://www.fairfaxcounty.gov/parks/burkelakepark/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "dogs",
+          "question": "Are dogs allowed at Burke Lake Park?",
+          "answer": "Leashed dogs can use park grounds and trails under Fairfax County rules, but pets are not permitted on rental boats or the tour boat. Keep dogs away from playgrounds, active rides, wildlife, and fishing activity.",
+          "sourceLabel": "Fairfax County Park Authority",
+          "source": "https://www.fairfaxcounty.gov/parks/burkelakepark/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "family",
+          "question": "Is Burke Lake Park good for children?",
+          "answer": "The train, carousel, playgrounds, ice cream, marina, picnic areas, mini golf, and short lakeside walks can fill a family day. Check the individual attraction schedule before promising a ride or rental, especially outside summer.",
+          "sourceLabel": "Fairfax County Park Authority",
+          "source": "https://www.fairfaxcounty.gov/parks/burkelakepark/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "transit",
+          "question": "How do I reach Burke Lake Park without a car?",
+          "answer": "This is primarily a vehicle-oriented destination with no dependable direct rail connection to the park entrance. Arrange the return before arrival if using rideshare, and navigate to the exact internal facility.",
+          "sourceLabel": "Fairfax County Park Authority",
+          "source": "https://www.fairfaxcounty.gov/parks/burkelakepark/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "need-to-know",
+          "question": "What should I know before visiting Burke Lake Park?",
+          "answer": "Swimming and windsurfing are prohibited. Gas motors and sailboats are prohibited, recreational kayaks are restricted unless used for fishing, attraction schedules are seasonal, and weekend entrance lines can build during good weather.",
+          "sourceLabel": "Fairfax County Park Authority",
+          "source": "https://www.fairfaxcounty.gov/parks/burkelakepark/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "food",
+          "question": "Should I bring food and water to Burke Lake Park?",
+          "answer": "Bring water and a backup snack unless a currently open concession is confirmed near the exact destination. Food availability, vending, and event vendors are not consistent across this large public place.",
+          "sourceLabel": "Fairfax County Park Authority",
+          "source": "https://www.fairfaxcounty.gov/parks/burkelakepark/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        }
+      ],
+      "image": {
+        "slug": "burke-lake-marina",
+        "url": "/assets/parks/washington-dc-super/fairfax-station/burke-lake-park/burke-lake-marina.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Burke_Lake_Park_(14181898648).jpg",
+        "author": "Paulo Ordoveza",
+        "license": "CC BY 2.0",
+        "alt": "Burke Lake Park in Fairfax Station, VA",
+        "latitude": 38.7624787,
+        "longitude": -77.2919171,
+        "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
+      },
+      "additionalImages": [
+        {
+          "slug": "burke-lake-railroad",
+          "url": "/assets/parks/washington-dc-super/fairfax-station/burke-lake-park/burke-lake-railroad.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Burke_Lake_Park_Railroad_(14182084667).jpg",
+          "author": "Paulo Ordoveza",
+          "license": "CC BY 2.0",
+          "alt": "Burke Lake Park in Fairfax Station, VA",
+          "latitude": 38.7624787,
+          "longitude": -77.2919171,
+          "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
+        },
+        {
+          "slug": "burke-lake-dam",
+          "url": "/assets/parks/washington-dc-super/fairfax-station/burke-lake-park/burke-lake-dam.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Burke_Lake_Park-_Dam_(14368535995).jpg",
+          "author": "Paulo Ordoveza",
+          "license": "CC BY 2.0",
+          "alt": "Burke Lake Park in Fairfax Station, VA",
+          "latitude": 38.7624787,
+          "longitude": -77.2919171,
+          "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
+        },
+        {
+          "slug": "burke-lake-shore",
+          "url": "/assets/parks/washington-dc-super/fairfax-station/burke-lake-park/burke-lake-shore.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Burke_Lake_Park_(14181904698).jpg",
+          "author": "Paulo Ordoveza",
+          "license": "CC BY 2.0",
+          "alt": "Burke Lake Park in Fairfax Station, VA",
+          "latitude": 38.7624787,
+          "longitude": -77.2919171,
+          "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
+        },
+        {
+          "slug": "burke-lake-evening",
+          "url": "/assets/parks/washington-dc-super/fairfax-station/burke-lake-park/burke-lake-evening.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Burke_lake%2C_Fairfax_Virginia%2C_May_2025.jpg",
+          "author": "1879515Starwars1",
+          "license": "CC0",
+          "alt": "Burke Lake Park in Fairfax Station, VA",
+          "latitude": 38.7624787,
+          "longitude": -77.2919171,
+          "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
+        }
+      ],
+      "verifiedAt": "2026-08-10"
     }
   }
 }

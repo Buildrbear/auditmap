@@ -19,6 +19,9 @@ const expectedFeatures = {
   "launch-md-glen-echo-glen-echo-park": 4,
   "launch-md-potomac-great-falls-tavern-olmsted-island": 4,
   "launch-va-alexandria-huntley-meadows-park": 2,
+  "launch-md-bethesda-cabin-john-regional-park": 2,
+  "launch-md-rockville-rock-creek-regional-park": 2,
+  "launch-va-fairfax-station-burke-lake-park": 3,
 };
 const ids = Object.keys(expectedFeatures);
 const places = JSON.parse(
@@ -99,6 +102,10 @@ for (const phrase of [
   "Use 5801 Oxford Road",
   "Section A of Billy Goat Trail frequently closes",
   "Pets are prohibited on the Restoration and Heron Trails",
+  "The Westlake Drive lot near the dog park and Power Line Trail North trailhead is under phased renovation",
+  "The official page currently posts weekend May-September rental hours",
+  "Fairfax County residents enter free",
+  "The state-owned launch at the dam is identified by Fairfax County as a 24-hour launch",
 ]) {
   if (!joined.includes(phrase)) failures.push(`Missing Potomac-area guidance: ${phrase}`);
 }
