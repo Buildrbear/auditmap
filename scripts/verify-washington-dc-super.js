@@ -25,6 +25,7 @@ const expectedFeatures = {
   "launch-md-wheaton-wheaton-regional-park": 2,
   "launch-md-upper-marlboro-watkins-regional-park": 1,
   "launch-md-gaithersburg-seneca-creek-state-park": 3,
+  "launch-md-ellicott-city-patapsco-valley-state-park": 4,
 };
 const ids = Object.keys(expectedFeatures);
 const places = JSON.parse(
@@ -122,6 +123,10 @@ for (const phrase of [
   "The Black Rock parking lot is currently closed",
   "Swimming and wading are prohibited in Clopper Lake",
   "closed Monday-Tuesday",
+  "Choose the recreation area before navigating",
+  "November 1 through April 1",
+  "rapids and pool below are closed to swimming",
+  "active railroad infrastructure",
 ]) {
   if (!joined.includes(phrase)) failures.push(`Missing Potomac-area guidance: ${phrase}`);
 }

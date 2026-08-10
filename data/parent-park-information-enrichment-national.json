@@ -82403,6 +82403,188 @@
         }
       ],
       "verifiedAt": "2026-08-10"
+    },
+    "launch-md-ellicott-city-patapsco-valley-state-park": {
+      "operator": "Maryland Park Service",
+      "sourceLabel": "Maryland Department of Natural Resources",
+      "source": "https://dnr.maryland.gov/publiclands/Pages/central/patapsco.aspx",
+      "address": "8020 Baltimore National Pike, Ellicott City, MD 21043",
+      "summary": "Maryland's oldest state park, extending 32 miles along the Patapsco River across eight developed recreation areas with more than 200 miles of trails, waterfalls, swinging bridges, historic railroad structures, camping, fishing, paddling, picnicking, disc golf, and river access.",
+      "hours": "Regular park hours are 9 a.m. to sunset, with sunset times posted at each area entrance. Fishing, boat launching, and permitted hunting can use different authorized hours; confirm those activities with the park rather than assuming the day-use gate schedule applies.",
+      "hoursSchedule": null,
+      "cost": "Current day-use charges from April through October are $2 per vehicle for Maryland residents and $4 for nonresidents on weekdays, then $3 per person for residents and $5 per person for nonresidents on weekends and holidays. November through March uses a $2 resident or $4 nonresident vehicle charge. Pickall, camping, shelters, passes, and organized groups follow separate rules.",
+      "accessibility": "Official area maps identify selected accessible parking, restrooms, shelters, picnic areas, and developed routes. The wider park is a steep river valley with natural-surface trails, rocks, roots, mud, water crossings, and long distances between recreation areas, so plan around the exact area and contact the park for a current accommodation route.",
+      "transit": "The park is primarily vehicle-oriented and extends across multiple counties. Regional transit may approach some surrounding communities, but it does not provide a dependable internal connection among recreation areas; rideshare visitors should choose an exact entrance and arrange a return before starting a trail.",
+      "searchAnswers": [
+        {
+          "intentKey": "hours",
+          "question": "When is Patapsco Valley State Park open?",
+          "answer": "Regular park hours are 9 a.m. to sunset, with sunset times posted at each area entrance. Fishing, boat launching, and permitted hunting can use different authorized hours; confirm those activities with the park rather than assuming the day-use gate schedule applies.",
+          "sourceLabel": "Maryland Department of Natural Resources",
+          "source": "https://dnr.maryland.gov/publiclands/Pages/central/patapsco.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "parking",
+          "question": "Where should I park for Patapsco Valley State Park?",
+          "answer": "Use the official area map and its designated lots. Avalon, Hollofield, Hilton, Orange Grove, and Daniels often reach capacity on warm weekends and summer holidays; arrive early, carpool when possible, and switch to another official area if staff close a full entrance rather than waiting or parking along nearby roads.",
+          "sourceLabel": "Maryland Department of Natural Resources",
+          "source": "https://dnr.maryland.gov/publiclands/Pages/central/patapsco.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "entrance",
+          "question": "What is the best entrance for Patapsco Valley State Park?",
+          "answer": "Choose the recreation area before navigating. Hollofield at 8020 Baltimore National Pike is the headquarters and central overlook, but Avalon, Orange Grove, Hilton, McKeldin, Daniels, Pickall, and other trail systems use separate roads and do not function as one connected parking destination.",
+          "sourceLabel": "Maryland Department of Natural Resources",
+          "source": "https://dnr.maryland.gov/publiclands/Pages/central/patapsco.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Are there restrooms at Patapsco Valley State Park?",
+          "answer": "Restrooms are concentrated in developed areas and many are seasonal. From November 1 through April 1, Maryland DNR identifies only the Avalon restroom by Shelter 104, Hilton restroom by Shelter 201, Hollofield restroom by Shelter 300, and McKeldin restroom by the contact station as available.",
+          "sourceLabel": "Maryland Department of Natural Resources",
+          "source": "https://dnr.maryland.gov/publiclands/Pages/central/patapsco.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "fees",
+          "question": "Is Patapsco Valley State Park free?",
+          "answer": "Current day-use charges from April through October are $2 per vehicle for Maryland residents and $4 for nonresidents on weekdays, then $3 per person for residents and $5 per person for nonresidents on weekends and holidays. November through March uses a $2 resident or $4 nonresident vehicle charge. Pickall, camping, shelters, passes, and organized groups follow separate rules.",
+          "sourceLabel": "Maryland Department of Natural Resources",
+          "source": "https://dnr.maryland.gov/publiclands/Pages/central/patapsco.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "accessibility",
+          "question": "How accessible is Patapsco Valley State Park?",
+          "answer": "Official area maps identify selected accessible parking, restrooms, shelters, picnic areas, and developed routes. The wider park is a steep river valley with natural-surface trails, rocks, roots, mud, water crossings, and long distances between recreation areas, so plan around the exact area and contact the park for a current accommodation route.",
+          "sourceLabel": "Maryland Department of Natural Resources",
+          "source": "https://dnr.maryland.gov/publiclands/Pages/central/patapsco.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "dogs",
+          "question": "Are dogs allowed at Patapsco Valley State Park?",
+          "answer": "Pet rules vary by recreation area. Pets are allowed in Avalon, Orange Grove, Glen Artney, McKeldin, Daniels, Hilton day-use, and Hollofield under posted leash and cleanup rules; they are prohibited in Hilton campground and Pickall, while Hollofield permits pets in both day-use and campground areas.",
+          "sourceLabel": "Maryland Department of Natural Resources",
+          "source": "https://dnr.maryland.gov/publiclands/Pages/central/patapsco.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "family",
+          "question": "Is Patapsco Valley State Park good for children?",
+          "answer": "Playgrounds, picnic shelters, waterfalls, bridges, short hikes, river scenery, history, and family camping create many strong options, but there is no single family zone. Select one recreation area, confirm the trail distance and restroom season, and supervise children closely around unguarded water, cliffs, roads, and active rail infrastructure.",
+          "sourceLabel": "Maryland Department of Natural Resources",
+          "source": "https://dnr.maryland.gov/publiclands/Pages/central/patapsco.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "transit",
+          "question": "How do I reach Patapsco Valley State Park without a car?",
+          "answer": "The park is primarily vehicle-oriented and extends across multiple counties. Regional transit may approach some surrounding communities, but it does not provide a dependable internal connection among recreation areas; rideshare visitors should choose an exact entrance and arrange a return before starting a trail.",
+          "sourceLabel": "Maryland Department of Natural Resources",
+          "source": "https://dnr.maryland.gov/publiclands/Pages/central/patapsco.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "need-to-know",
+          "question": "What should I know before visiting Patapsco Valley State Park?",
+          "answer": "A generic Patapsco pin is not an arrival plan. Download the current area map before losing service, check the park status dashboard and weather, expect popular gates to close at capacity, and remember that river swimming is unguarded where permitted and prohibited at dangerous posted locations such as McKeldin Rapids.",
+          "sourceLabel": "Maryland Department of Natural Resources",
+          "source": "https://dnr.maryland.gov/publiclands/Pages/central/patapsco.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "food",
+          "question": "Should I bring food and water to Patapsco Valley State Park?",
+          "answer": "Bring water and a backup snack unless a currently open concession is confirmed near the exact destination. Food availability, vending, and event vendors are not consistent across this large public place.",
+          "sourceLabel": "Maryland Department of Natural Resources",
+          "source": "https://dnr.maryland.gov/publiclands/Pages/central/patapsco.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        }
+      ],
+      "image": {
+        "slug": "cascade-falls",
+        "url": "/assets/parks/washington-dc-super/ellicott-city/patapsco-valley-state-park/cascade-falls.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Wkm-boldfrontiers-0003-cascade-falls-patapsco-valley-state-park.jpg",
+        "author": "Boldfrontiers",
+        "license": "CC BY 4.0",
+        "alt": "Patapsco Valley State Park in Ellicott City, MD",
+        "latitude": 39.295459,
+        "longitude": -76.788858,
+        "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
+      },
+      "additionalImages": [
+        {
+          "slug": "orange-grove-swinging-bridge",
+          "url": "/assets/parks/washington-dc-super/ellicott-city/patapsco-valley-state-park/orange-grove-swinging-bridge.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Patapsco_Swinging_Bridge_2020a.jpg",
+          "author": "Antony-22",
+          "license": "CC BY-SA 4.0",
+          "alt": "Patapsco Valley State Park in Ellicott City, MD",
+          "latitude": 39.295459,
+          "longitude": -76.788858,
+          "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
+        },
+        {
+          "slug": "mckeldin-rapids",
+          "url": "/assets/parks/washington-dc-super/ellicott-city/patapsco-valley-state-park/mckeldin-rapids.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:McKeldin_Rapids_-_Patapsco_Valley_State_Park_(52450039317).jpg",
+          "author": "Andrew Parlette",
+          "license": "CC BY 2.0",
+          "alt": "Patapsco Valley State Park in Ellicott City, MD",
+          "latitude": 39.295459,
+          "longitude": -76.788858,
+          "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
+        },
+        {
+          "slug": "thomas-viaduct",
+          "url": "/assets/parks/washington-dc-super/ellicott-city/patapsco-valley-state-park/thomas-viaduct.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Rain_at_the_Thomas_Viaduct_(Elkridge%2C_MD).jpg",
+          "author": "Jim Kuhn",
+          "license": "CC BY 2.0",
+          "alt": "Patapsco Valley State Park in Ellicott City, MD",
+          "latitude": 39.295459,
+          "longitude": -76.788858,
+          "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
+        },
+        {
+          "slug": "patapsco-river",
+          "url": "/assets/parks/washington-dc-super/ellicott-city/patapsco-valley-state-park/patapsco-river.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Patapsco_fg01.jpg",
+          "author": "Fritz Geller-Grimm",
+          "license": "CC BY-SA 2.5",
+          "alt": "Patapsco Valley State Park in Ellicott City, MD",
+          "latitude": 39.295459,
+          "longitude": -76.788858,
+          "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
+        },
+        {
+          "slug": "cascade-falls-trail",
+          "url": "/assets/parks/washington-dc-super/ellicott-city/patapsco-valley-state-park/cascade-falls-trail.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Cascade_Falls_Trail.jpg",
+          "author": "Ben Myers",
+          "license": "CC BY 2.5",
+          "alt": "Patapsco Valley State Park in Ellicott City, MD",
+          "latitude": 39.295459,
+          "longitude": -76.788858,
+          "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
+        }
+      ],
+      "verifiedAt": "2026-08-10"
     }
   }
 }
