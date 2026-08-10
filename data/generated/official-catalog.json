@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T06:27:28.516Z",
+  "generatedAt": "2026-08-10T06:46:34.888Z",
   "places": [
     {
       "id": "basic-osm-way-33060929",
@@ -101503,6 +101503,34 @@
           "verificationStatus": "verified"
         },
         {
+          "key": "okeeheelee-playground",
+          "label": "Okeeheelee Playground",
+          "value": "Okeeheelee Playground is the park's main sand-surface family play area, with separate play structures listed for ages 2-5 and 5-12, shade trees, nearby picnic space, and activity-area parking and restrooms.",
+          "scope": "feature",
+          "featureId": "f3ef73e3-6a73-4435-8a71-46991ae75238",
+          "featureType": "destination",
+          "positionQuality": "reviewed-official-map-playground-centroid",
+          "sourceLabel": "Palm Beach County Parks and Recreation",
+          "sourceUrl": "https://discover.pbcgov.org/parks/Locations/Okeeheelee.aspx",
+          "checkedAt": "2026-08-10",
+          "expiresAt": null,
+          "sourceType": "official"
+        },
+        {
+          "key": "okeeheelee-canoe-and-kayak-area",
+          "label": "Okeeheelee Canoe and Kayak Area",
+          "value": "Okeeheelee Canoe and Kayak Area is the central freshwater-lake launch and rental zone for non-motorized paddling, with a mapped boat ramp, nearby parking, restrooms, picnic areas, and a separately operated rental concession.",
+          "scope": "feature",
+          "featureId": "14beb610-7544-42eb-b42d-5f587417c3c0",
+          "featureType": "destination",
+          "positionQuality": "reviewed-official-map-launch-and-rental-point",
+          "sourceLabel": "Palm Beach County Parks and Recreation",
+          "sourceUrl": "https://discover.pbcgov.org/parks/Locations/Okeeheelee.aspx",
+          "checkedAt": "2026-08-10",
+          "expiresAt": null,
+          "sourceType": "official"
+        },
+        {
           "key": "okeeheelee-disc-golf-course",
           "label": "Okeeheelee Disc Golf Course",
           "value": "Okeeheelee Disc Golf Course is the park's 18-hole public course, laid out around the Pooch Pines activity area with open fairways, mature trees, paved park paths, lakes, and water-edge holes.",
@@ -101532,7 +101560,7 @@
         }
       ],
       "unresolved": [
-        "Published Okeeheelee Disc Golf Course and Okeeheelee Golf Course from exact OpenStreetMap records, current official guidance, the county's April 2026 ADA map, and destination-specific reusable photographs. Secure exact photo-and-pin pairs before adding the Nature Center, Pooch Pines Dog Park, BMX track, wake park, mountain-bike trailhead, equestrian center, fishing areas, playground, pavilions, or separate entrances."
+        "Published Okeeheelee Disc Golf Course, Okeeheelee Golf Course, Okeeheelee Playground, and Okeeheelee Canoe and Kayak Area from exact OpenStreetMap records, current official guidance, the county's April 2026 ADA map, and destination-specific reusable photographs. Secure exact photo-and-pin pairs before adding the Nature Center, Pooch Pines Dog Park, BMX track, wake park, mountain-bike trailhead, equestrian center, fishing areas, pavilions, or separate entrances."
       ]
     },
     {

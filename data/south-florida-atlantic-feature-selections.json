@@ -30,6 +30,96 @@
     ],
     "launch-fl-west-palm-beach-okeeheelee-park": [
       {
+        "name": "Okeeheelee Playground",
+        "latitude": 26.6537421,
+        "longitude": -80.1641917,
+        "coordinateSource": "https://www.openstreetmap.org/way/361931167",
+        "officialMapSource": "https://discover.pbcgov.org/parks/Publications/Okeeheelee_ADAMap.pdf",
+        "positionQuality": "reviewed-official-map-playground-centroid",
+        "imageIndex": 1,
+        "checkedAt": "2026-08-10",
+        "sourceLabel": "Palm Beach County Parks and Recreation",
+        "source": "https://discover.pbcgov.org/parks/Locations/Okeeheelee.aspx",
+        "summary": "Okeeheelee Playground is the park's main sand-surface family play area, with separate play structures listed for ages 2-5 and 5-12, shade trees, nearby picnic space, and activity-area parking and restrooms.",
+        "cost": "General playground use and ordinary park access are free. Reserved pavilions, organized programs, rentals, concessions, and special events can require separate fees or permits.",
+        "hours": "The playground follows Okeeheelee Park's daily sunrise-to-sunset schedule. It is not one of the lighted athletic facilities that may remain open later, and weather, maintenance, construction, or a permitted event can temporarily affect access.",
+        "needToKnow": "Use the exact playground pin and the April 2026 county map instead of stopping at the first Okeeheelee entrance. The play surface is sand, the age ranges are separated by equipment, and South Florida heat, heavy rain, and lightning can make a short visit the safer plan. Bring water and supervise closely around parking aisles, shared paths, and nearby lakes.",
+        "answerSources": {
+          "parking": {
+            "source": "https://discover.pbcgov.org/parks/Publications/Okeeheelee_ADAMap.pdf",
+            "sourceLabel": "Palm Beach County Parks and Recreation"
+          },
+          "restroom": {
+            "source": "https://discover.pbcgov.org/parks/Publications/Okeeheelee_ADAMap.pdf",
+            "sourceLabel": "Palm Beach County Parks and Recreation"
+          },
+          "accessibility": {
+            "source": "https://discover.pbcgov.org/parks/Publications/Okeeheelee_ADAMap.pdf",
+            "sourceLabel": "Palm Beach County Parks and Recreation"
+          },
+          "dogs": {
+            "source": "https://discover.pbcgov.org/parks/Locations/Okeeheelee.aspx",
+            "sourceLabel": "Palm Beach County Parks and Recreation"
+          },
+          "family": {
+            "source": "https://discover.pbcgov.org/parks/Locations/Okeeheelee.aspx",
+            "sourceLabel": "Palm Beach County Parks and Recreation"
+          }
+        },
+        "answers": {
+          "parking": "The April 2026 county map shows parking beside the playground activity area. Navigate to the exact playground pin from Forest Hill Boulevard, then use the closest legal space and follow current signs because Okeeheelee has many distributed lots and two major park sections.",
+          "restroom": "The county map marks restrooms in the same central activity district as the playground. Use the mapped facility before play and check posted status on arrival because maintenance, pavilion work, or an event can close an individual building without closing the whole park.",
+          "accessibility": "The official ADA map shows accessible parking, restrooms, and paved circulation near this play area. The playground itself has a sand surface, and the county page does not promise that every structure is transfer-accessible; visitors who need a firm route or specific play feature should confirm current conditions with Palm Beach County Parks.",
+          "dogs": "Pooch Pines is Okeeheelee's designated off-leash area. Keep dogs controlled outside that enclosure and away from active play equipment, food, children who do not know the dog, and lake edges; follow posted park pet rules for the visit.",
+          "family": "The county lists separate structures for ages 2-5 and 5-12. Choose the age-appropriate section, expect sand underfoot, bring water and sun protection, and supervise continuously because the broader activity area includes roads, paths, picnic use, and nearby water."
+        }
+      },
+      {
+        "name": "Okeeheelee Canoe and Kayak Area",
+        "latitude": 26.6548258,
+        "longitude": -80.1659885,
+        "coordinateSource": "https://www.openstreetmap.org/node/3663041275",
+        "officialMapSource": "https://discover.pbcgov.org/parks/Publications/Okeeheelee_ADAMap.pdf",
+        "positionQuality": "reviewed-official-map-launch-and-rental-point",
+        "imageIndex": 0,
+        "checkedAt": "2026-08-10",
+        "sourceLabel": "Palm Beach County Parks and Recreation",
+        "source": "https://discover.pbcgov.org/parks/Locations/Okeeheelee.aspx",
+        "summary": "Okeeheelee Canoe and Kayak Area is the central freshwater-lake launch and rental zone for non-motorized paddling, with a mapped boat ramp, nearby parking, restrooms, picnic areas, and a separately operated rental concession.",
+        "cost": "General park access and use of the public non-motorized launch do not have a separate daily admission fee listed by the county. Kayak King rentals and any instruction, reservation, event, or other concession service cost separately; call 561-304-1344 for current availability and pricing.",
+        "hours": "The public lake area follows Okeeheelee Park's sunrise-to-sunset schedule. Rental-concession hours vary and are not guaranteed by the county park schedule, so call the operator before traveling without your own equipment. Severe weather or water conditions can stop paddling earlier.",
+        "needToKnow": "Navigate to the exact central launch and rental pin, not the water-ski ramps or Okeeheelee Park South. The county map limits this lake area to trolling or non-motorized boats and says no combustible engines. Bring a properly fitted life jacket, secure valuables, monitor lightning, and never assume a rental will be available without calling first.",
+        "answerSources": {
+          "parking": {
+            "source": "https://discover.pbcgov.org/parks/Publications/Okeeheelee_ADAMap.pdf",
+            "sourceLabel": "Palm Beach County Parks and Recreation"
+          },
+          "restroom": {
+            "source": "https://discover.pbcgov.org/parks/Publications/Okeeheelee_ADAMap.pdf",
+            "sourceLabel": "Palm Beach County Parks and Recreation"
+          },
+          "accessibility": {
+            "source": "https://discover.pbcgov.org/parks/Publications/Okeeheelee_ADAMap.pdf",
+            "sourceLabel": "Palm Beach County Parks and Recreation"
+          },
+          "dogs": {
+            "source": "https://discover.pbcgov.org/parks/Locations/Okeeheelee.aspx",
+            "sourceLabel": "Palm Beach County Parks and Recreation"
+          },
+          "family": {
+            "source": "https://discover.pbcgov.org/parks/Publications/Okeeheelee_ADAMap.pdf",
+            "sourceLabel": "Palm Beach County Parks and Recreation"
+          }
+        },
+        "answers": {
+          "parking": "The April 2026 county map marks parking at the central rental concession and lake-launch activity area. Use the exact pin from Forest Hill Boulevard and do not follow signs to the separate water-ski ramps, BMX area, golf entrance, or Okeeheelee Park South.",
+          "restroom": "The county map shows restrooms and drinking water in the same central activity district as the rental concession and launch. Check the nearest facility before unloading because a particular restroom can close for maintenance while the lake remains open.",
+          "accessibility": "The ADA map shows accessible parking, restrooms, and paved circulation near the launch zone. It does not document the current slope, edge treatment, transfer equipment, or adaptive-paddling service at the water, so contact Palm Beach County Parks or the rental operator before relying on independent wheelchair-to-boat transfer.",
+          "dogs": "Dogs should remain controlled under posted park rules outside Pooch Pines. Do not treat the paddling lake as an off-leash or dog-swim area, and consider heat, wildlife, boat stability, and the ability to fit a suitable flotation device before bringing a dog near the launch.",
+          "family": "Families can paddle the freshwater lake, but this is open-water recreation rather than supervised water play. Match the boat and life jacket to each paddler, keep children within direct adult control, stay clear of fishing lines and launch traffic, and leave the water immediately when thunder or lightning threatens."
+        }
+      },
+      {
         "name": "Okeeheelee Disc Golf Course",
         "latitude": 26.659988,
         "longitude": -80.1644612,
@@ -193,7 +283,7 @@
   "researchQueue": {
     "launch-fl-fort-lauderdale-hugh-taylor-birch-state-park": "Secure exact reusable photographs and reviewed coordinates before publishing Beach Gate, Coastal Hammock Trail, Long Lake paddling area, Rail Trail, North End Playground, beach tunnel, pavilions, or individual parking areas as separate pages. Recheck the floating-dock and restroom construction notices before every freshness update.",
     "launch-fl-fort-lauderdale-snyder-park": "Retain as deferred. The current reusable search set is dominated by no-derivatives dog-swim photographs that cannot be converted for AuditMap. Secure three to four permission-cleared broad park, trail, dog-lake, playground, disc-golf, or butterfly-garden views before release.",
-    "launch-fl-west-palm-beach-okeeheelee-park": "Published Okeeheelee Disc Golf Course and Okeeheelee Golf Course from exact OpenStreetMap records, current official guidance, the county's April 2026 ADA map, and destination-specific reusable photographs. Secure exact photo-and-pin pairs before adding the Nature Center, Pooch Pines Dog Park, BMX track, wake park, mountain-bike trailhead, equestrian center, fishing areas, playground, pavilions, or separate entrances.",
+    "launch-fl-west-palm-beach-okeeheelee-park": "Published Okeeheelee Disc Golf Course, Okeeheelee Golf Course, Okeeheelee Playground, and Okeeheelee Canoe and Kayak Area from exact OpenStreetMap records, current official guidance, the county's April 2026 ADA map, and destination-specific reusable photographs. Secure exact photo-and-pin pairs before adding the Nature Center, Pooch Pines Dog Park, BMX track, wake park, mountain-bike trailhead, equestrian center, fishing areas, pavilions, or separate entrances.",
     "launch-fl-west-palm-beach-dreher-park": "Published Palm Beach Zoo and Conservation Society plus Cox Science Center and Aquarium from exact named public-map records, current operator guidance, and destination-specific reusable photographs. Secure exact photo-and-pin pairs before adding the dog park, playgrounds, disc-golf course, fishing dock, public art, pavilions, or separate park entrances."
   }
 }
