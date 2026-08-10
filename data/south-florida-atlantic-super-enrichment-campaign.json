@@ -218,6 +218,54 @@
         "Observation Tower",
         "Marine Environmental Education Center at the Carpenter House"
       ]
+    },
+    {
+      "id": "launch-fl-deerfield-beach-quiet-waters-park",
+      "name": "Quiet Waters Park",
+      "city": "Deerfield Beach",
+      "state": "FL",
+      "citySlug": "deerfield-beach-fl",
+      "operator": "Broward County Parks and Recreation",
+      "source": "https://www.broward.org/Parks/ThingsToDo/Pages/SplashAdventure.aspx",
+      "featureResearchRadiusMeters": 2600,
+      "minimumImages": 4,
+      "imageQueries": [
+        "Quiet Waters Park",
+        "Quiet Waters Splash Adventure",
+        "Quiet Waters Ski Rixen"
+      ],
+      "subsites": [
+        "Splash Adventure",
+        "Ski Rixen USA Cable Park",
+        "Woofing Waters Dog Park",
+        "Quiet Waters Campground",
+        "Mountain Bike Trails",
+        "Lakeview Marina"
+      ]
+    },
+    {
+      "id": "launch-fl-cooper-city-brian-piccolo-sports-park-velodrome",
+      "name": "Brian Piccolo Sports Park & Velodrome",
+      "city": "Cooper City",
+      "state": "FL",
+      "citySlug": "cooper-city-fl",
+      "operator": "Broward County Parks and Recreation",
+      "source": "https://www.broward.org/Parks/Support/Documents/BrianPiccoloInfo.pdf",
+      "featureResearchRadiusMeters": 1800,
+      "minimumImages": 4,
+      "imageQueries": [
+        "Brian Piccolo Sports Park",
+        "Brian Piccolo Park Velodrome",
+        "Brian Piccolo inline skating"
+      ],
+      "subsites": [
+        "Brian Piccolo Park Velodrome",
+        "Road Course",
+        "Cricket Fields",
+        "Disc Golf Course",
+        "Playground",
+        "Baseball and Softball Complex"
+      ]
     }
   ]
 }

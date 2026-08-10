@@ -77154,6 +77154,457 @@
         }
       ],
       "replaceImages": true
+    },
+    "launch-fl-deerfield-beach-quiet-waters-park": {
+      "name": "Quiet Waters Park",
+      "city": "Deerfield Beach",
+      "citySlug": "deerfield-beach-fl",
+      "operator": "Broward County Parks and Recreation",
+      "sourceLabel": "Broward County Parks and Recreation",
+      "source": "https://www.broward.org/Parks/Pages/GeneralInformation.aspx",
+      "address": "401 S Powerline Rd, Deerfield Beach, FL 33442",
+      "hours": "Park hours are posted at the entrance and can vary by season or event. The park office is open daily from 9:00 a.m. to 5:00 p.m.; all Broward County parks close on Christmas Day. Splash Adventure, Woofing Waters, Ski Rixen, rentals, trails, and camping keep separate schedules.",
+      "cost": "Weekday park entry is normally free. The current weekend and County-holiday gate fee is $3 per vehicle with eight or fewer occupants and $20 for vehicles with nine or more; water park, dog park, camping, cable sports, rentals, and trail memberships cost separately.",
+      "summary": "Quiet Waters Park is a large Broward County regional park built around lakes and active recreation, with Splash Adventure, Ski Rixen cable watersports, platform-tent and tepee camping, a 7.5-mile mountain-bike system, Woofing Waters dog park, fishing, paddling rentals, disc golf, an accessible playground, sports courts, and picnic areas.",
+      "accessibility": "The park includes an ADA-accessible playground, communication boards at Splash Adventure, and developed paved facilities. Water entry, mountain-bike trails, docks, campsites, and weather conditions vary, so confirm a specific accommodation before travel.",
+      "transit": "Use Broward County Transit's live trip planner for 401 South Powerline Road and verify the final walk plus last return trip. The park is large enough that transit arrival does not eliminate internal travel between facilities.",
+      "verifiedAt": "2026-08-10",
+      "searchAnswers": [
+        {
+          "intentKey": "hours",
+          "question": "What hours is Quiet Waters Park open?",
+          "answer": "Broward County directs visitors to posted park hours rather than a dependable year-round online gate schedule. The park office is open daily from 9:00 a.m. to 5:00 p.m., and all county parks close Christmas Day. Splash Adventure, Woofing Waters, Ski Rixen, camping, boat rentals, and trails keep separate schedules, so verify the exact activity before leaving.",
+          "sourceLabel": "Broward County Parks and Recreation",
+          "source": "https://www.broward.org/parks/camping/Pages/default.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "entrance",
+          "question": "What address should I use for Quiet Waters Park?",
+          "answer": "Use 401 South Powerline Road, Deerfield Beach, FL 33442. Enter through the staffed main gate, then follow internal signs to the exact destination because the water park, cable lake, dog park, campground, marina, trails, and fields are spread across a large regional park.",
+          "sourceLabel": "Broward County Parks and Recreation",
+          "source": "https://www.broward.org/atyourservice/Pages/parks.htm",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "parking",
+          "question": "Where should I park at Quiet Waters Park?",
+          "answer": "Choose the lot for your activity after entering: Splash Adventure, Ski Rixen, Woofing Waters, campground check-in, marina and fishing, mountain-bike trail access, or a reserved shelter. Do not assume the first open lot is close to a destination across the lakes.",
+          "sourceLabel": "Broward County Parks and Recreation",
+          "source": "https://www.broward.org/atyourservice/Pages/parks.htm",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "fees",
+          "question": "Is Quiet Waters Park free?",
+          "answer": "Weekday gate entry is normally free. Broward County currently charges $3 per vehicle with eight or fewer occupants and $20 for vehicles with nine or more on weekends and County holidays. Splash Adventure, Woofing Waters, camping, Ski Rixen, rentals, trail use, and reservations have separate fees; selected 2026 dates waive only the gate fee.",
+          "sourceLabel": "Broward County Parks and Recreation",
+          "source": "https://www.broward.org/Parks/Pages/ParkPassports.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "splash-pad",
+          "question": "Does Quiet Waters Park have a splash pad or water park?",
+          "answer": "Yes. Splash Adventure is a shallow interactive water playground with slides, tunnels, sprays, water curtains, and a tipping bucket. Its 2026 season runs daily through August 9, then weekends through September 27 plus Labor Day, with separate admission and lifeguards whenever it is open.",
+          "sourceLabel": "Broward County Parks and Recreation",
+          "source": "https://www.broward.org/Parks/ThingsToDo/Pages/SplashAdventure.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "camping",
+          "question": "Can I camp at Quiet Waters Park?",
+          "answer": "Yes. Quiet Waters offers reservable platform sites with a set-up tent or tepee, grill, fire ring, water, electricity, picnic table, and sports equipment. Reserve through the park, check in after 3:00 p.m., check out by 1:00 p.m., observe 11:00 p.m. to 7:00 a.m. quiet hours, and expect weather evacuations when ordered.",
+          "sourceLabel": "Broward County Parks and Recreation",
+          "source": "https://www.broward.org/parks/camping/Pages/default.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "dog-area",
+          "question": "Where can dogs play at Quiet Waters Park?",
+          "answer": "Woofing Waters is the park's approximately two-acre off-leash facility with separate large- and small-dog areas, water sprays, wash stations, drinking fountains, shade, restrooms, and a concession area. It is currently listed 8:00 a.m. to 6:00 p.m. daily but closes seasonally and requires a fee or membership; call before travel.",
+          "sourceLabel": "Broward County Parks and Recreation",
+          "source": "https://www.broward.org/Parks/ThingsToDo/Pages/DogParks.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "trail-surface",
+          "question": "What mountain-bike trails are at Quiet Waters Park?",
+          "answer": "Quiet Waters has about 7.5 miles of volunteer-maintained mountain-bike trails. A daily or annual membership is required, and only Class I pedal-assist e-bikes are allowed. Check trail status after heavy rain because South Florida soils and features can close even when the broader park is open.",
+          "sourceLabel": "Broward County Parks and Recreation",
+          "source": "https://www.broward.org/Parks/ThingsToDo/Pages/Bicycling.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "fishing",
+          "question": "Where can I fish at Quiet Waters Park?",
+          "answer": "Broward County describes good bass fishing and broad shoreline access. Fishing is allowed along park shores except the Ski Rixen USA lake. Lakeview Marina offers boats and food, and electric trolling motors may be used on rented rowboats; check current Florida license rules and rental hours.",
+          "sourceLabel": "Broward County Parks and Recreation",
+          "source": "https://www.broward.org/Parks/ThingsToDo/Pages/Fishing.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "disc-golf",
+          "question": "Does Quiet Waters Park have disc golf?",
+          "answer": "Yes. Quiet Waters is one of Broward County's free disc-golf locations. Bring your own discs and pick up the current course map or scorecard from the park office; tournaments, maintenance, weather, and nearby activities can affect play.",
+          "sourceLabel": "Broward County Parks and Recreation",
+          "source": "https://www.broward.org/Parks/ThingsToDo/Pages/DiscGolf.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "playground",
+          "question": "Is there a playground at Quiet Waters Park?",
+          "answer": "Yes. Broward County lists one ADA-accessible playground at Quiet Waters Park, in addition to the separately ticketed Splash Adventure water playground. Ask at the gate for the closest current lot and verify any maintenance closure before making the playground the only reason for travel.",
+          "sourceLabel": "Broward County Parks and Recreation",
+          "source": "https://www.broward.org/Parks/ThingsToDo/Pages/Playgrounds.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "paddling",
+          "question": "Can I rent a kayak or paddleboard at Quiet Waters Park?",
+          "answer": "Broward County lists canoe, kayak, and stand-up paddleboard rentals at Quiet Waters on weekends. Rental hours, equipment, age rules, and weather availability can change, so call the park before relying on a rental and bring fitted personal flotation equipment if instructed.",
+          "sourceLabel": "Broward County Parks and Recreation",
+          "source": "https://www.broward.org/Parks/ThingsToDo/Pages/Boating.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "accessibility",
+          "question": "Is Quiet Waters Park accessible?",
+          "answer": "The county lists an ADA-accessible playground, and Splash Adventure has zero-depth entry plus communication boards. Individual campsites, docks, trails, transfers, and water activities differ; call 954-357-5100 before travel for a specific mobility, communication, sensory, or aquatic accommodation.",
+          "sourceLabel": "Broward County Parks and Recreation",
+          "source": "https://www.broward.org/Parks/ThingsToDo/Pages/Playgrounds.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "weather",
+          "question": "What weather affects Quiet Waters Park?",
+          "answer": "Heat, sun, lightning, heavy rain, wind, and saturated trails can affect different activities independently. Leave water, open fields, docks, and cable systems when thunder is heard; check water-park and trail status after storms, and follow park evacuation instructions when camping.",
+          "sourceLabel": "Broward County Parks and Recreation",
+          "source": "https://www.broward.org/Parks/safety/Pages/LightningPredictionSystems.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "need-to-know",
+          "question": "What should I know before visiting Quiet Waters Park?",
+          "answer": "Pick one primary destination before entering, confirm its separate hours and fees, and navigate to the correct internal lot. Splash Adventure is seasonal, Woofing Waters can close seasonally, mountain-bike trails can close after rain, fishing is prohibited on the Ski Rixen lake, and rentals should never be assumed available without checking.",
+          "sourceLabel": "Broward County Parks and Recreation",
+          "source": "https://www.broward.org/Parks/Pages/GeneralInformation.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Broward County Splash Adventure 2026 guide",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/SplashAdventure.aspx"
+        },
+        {
+          "label": "Broward County camping guide and rules",
+          "url": "https://www.broward.org/parks/camping/Pages/default.aspx"
+        },
+        {
+          "label": "Broward County dog-park guide",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/DogParks.aspx"
+        },
+        {
+          "label": "Broward County bicycling guide",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/Bicycling.aspx"
+        },
+        {
+          "label": "Broward County fishing guide",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/Fishing.aspx"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/SummerFun.aspx"
+        }
+      ],
+      "image": {
+        "url": "/assets/parks/south-florida-atlantic-super/quiet-waters-park/01-quiet-waters-splash.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Quiet-waters-splash.jpg",
+        "author": "Dtobias",
+        "license": "BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "alt": "Signed entrance and water-play area at Splash Adventure in Quiet Waters Park",
+        "width": 1600,
+        "height": 1000
+      },
+      "additionalImages": [
+        {
+          "url": "/assets/parks/south-florida-atlantic-super/quiet-waters-park/02-flying-over-the-lake-quiet-waters-park-deerfield-florida-panoramio.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Flying_over_the_lake,_Quiet_Waters_Park,_Deerfield,_Florida_-_panoramio.jpg",
+          "author": "Richard Mc Neil",
+          "license": "BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+          "alt": "Wakeboarder airborne on the Ski Rixen cable course at Quiet Waters Park",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/south-florida-atlantic-super/quiet-waters-park/03-cable-skying-on-the-lake-in-quiet-waters-park-deerfield-beach-florida-usa-panoramio.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Cable_skying_on_the_lake_in_Quiet_Waters_Park,_Deerfield_Beach,_Florida,_USA_-_panoramio.jpg",
+          "author": "Richard Mc Neil",
+          "license": "BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+          "alt": "Cable skier carving across the Ski Rixen lake at Quiet Waters Park",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/south-florida-atlantic-super/quiet-waters-park/04-quiet-waters-ski.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Quiet-waters-ski.jpg",
+          "author": "Dtobias",
+          "license": "BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "alt": "Cable wakeboarders on the Ski Rixen USA course at Quiet Waters Park",
+          "width": 1600,
+          "height": 1000
+        }
+      ],
+      "replaceImages": true
+    },
+    "launch-fl-cooper-city-brian-piccolo-sports-park-velodrome": {
+      "name": "Brian Piccolo Sports Park & Velodrome",
+      "alternateNames": [
+        "Brian Piccolo Park",
+        "Brian Piccolo Sports Park"
+      ],
+      "city": "Cooper City",
+      "citySlug": "cooper-city-fl",
+      "operator": "Broward County Parks and Recreation",
+      "sourceLabel": "Broward County Parks and Recreation",
+      "source": "https://www.broward.org/Parks/Support/Documents/BrianPiccoloInfo.pdf",
+      "address": "9501 Sheridan St, Cooper City, FL 33024",
+      "hours": "Park hours are posted at the entrance and can vary with leagues and events. The velodrome is currently listed Monday through Friday from 5:30 to 9:45 p.m., with weekends by appointment; the adjacent road course is open daily from 8:00 a.m. to dusk. Broward County parks close Christmas Day.",
+      "cost": "Weekday park entry is normally free. The current weekend and County-holiday gate fee is $3 per vehicle with eight or fewer occupants and $20 for larger vehicles. Track passes, reservations, leagues, tennis, Soccer 5, and special events cost separately.",
+      "summary": "Brian Piccolo Sports Park & Velodrome is a 175-acre Broward County regional sports complex with Florida's only velodrome, a paved cycling and skating road course, baseball and softball diamonds, cricket fields, multipurpose fields, basketball, tennis and racquetball courts, disc golf, a fitness zone, playground, pavilion, meeting room, and lakeside fishing.",
+      "accessibility": "The complex has developed paved sports facilities, but exact spectator routes, field seating, track access, and program accommodations vary. Contact the park before travel for a specific mobility, sensory, adaptive-sport, or event-access need.",
+      "transit": "Use Broward County Transit's live trip planner for 9501 Sheridan Street and verify the final walk plus last return trip. Tournament traffic and a large internal sports layout can add distance after arrival.",
+      "verifiedAt": "2026-08-10",
+      "searchAnswers": [
+        {
+          "intentKey": "hours",
+          "question": "What hours is Brian Piccolo Sports Park open?",
+          "answer": "The county posts general park hours at the entrance rather than maintaining a dependable daily gate schedule online. The velodrome is currently listed Monday through Friday from 5:30 to 9:45 p.m., with weekends by appointment, while the road course runs daily from 8:00 a.m. to dusk. Call 954-357-5150 for field, league, and event access.",
+          "sourceLabel": "Broward County Parks and Recreation",
+          "source": "https://www.broward.org/Parks/ThingsToDo/Pages/velodrome.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "entrance",
+          "question": "What address should I use for Brian Piccolo Sports Park?",
+          "answer": "Use 9501 Sheridan Street, Cooper City, FL 33024. Enter from Sheridan Street, then navigate to the exact internal destination because the velodrome, fields, courts, disc golf, playground, and fishing area are distributed across a 175-acre sports complex.",
+          "sourceLabel": "Broward County Parks and Recreation",
+          "source": "https://www.broward.org/atyourservice/Pages/parks.htm",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "parking",
+          "question": "Where should I park at Brian Piccolo Sports Park?",
+          "answer": "Park near the specific field, court, velodrome, road course, playground, pavilion, or meeting room you plan to use. Tournament and league traffic can make the first available space a long walk from the destination, so confirm a field number or facility name before entering.",
+          "sourceLabel": "Broward County Parks and Recreation",
+          "source": "https://www.broward.org/Parks/Support/Documents/BrianPiccoloInfo.pdf",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "fees",
+          "question": "Is Brian Piccolo Sports Park free?",
+          "answer": "Weekday gate entry is normally free. Broward County currently charges $3 per vehicle with eight or fewer occupants and $20 for vehicles with nine or more on weekends and County holidays. Track passes, field and room rentals, leagues, tennis, Soccer 5, and events cost separately.",
+          "sourceLabel": "Broward County Parks and Recreation",
+          "source": "https://www.broward.org/Parks/Pages/ParkPassports.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "velodrome",
+          "question": "Can I ride or skate at the Brian Piccolo velodrome?",
+          "answer": "Yes, during the correct operating session. The complex has a 333.3-meter competitive track banked up to 30 degrees and a 200-meter recreational track banked up to 10 degrees. Users must sign a waiver, and track bicycles have no multiple gears or brakes; confirm equipment, skill level, pass, and schedule before entering.",
+          "sourceLabel": "Broward County Parks and Recreation",
+          "source": "https://www.broward.org/Parks/ThingsToDo/Pages/velodrome.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "road-course",
+          "question": "Is there a cycling or skating road course at Brian Piccolo Park?",
+          "answer": "Yes. The adjacent paved road course has 500-meter and 800-meter loops and is currently open daily from 8:00 a.m. to dusk for cyclists and inline speed skaters. It is ordinarily free outside special events, though the weekend or holiday vehicle gate fee still applies.",
+          "sourceLabel": "Broward County Parks and Recreation",
+          "source": "https://www.broward.org/Parks/ThingsToDo/Pages/velodrome.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "sports",
+          "question": "What sports are available at Brian Piccolo Park?",
+          "answer": "The January 2026 county brief lists eight lighted baseball or softball fields, four multipurpose fields, two lighted basketball courts, two cricket fields, 12 lighted clay tennis courts, six lighted racquetball courts, a fitness zone, pavilion, playground, and meeting room, plus the velodrome and private tennis and mini-soccer operators.",
+          "sourceLabel": "Broward County Parks and Recreation",
+          "source": "https://www.broward.org/Parks/Support/Documents/BrianPiccoloInfo.pdf",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "disc-golf",
+          "question": "Does Brian Piccolo Park have disc golf?",
+          "answer": "Yes. Brian Piccolo is one of Broward County's free disc-golf locations. Bring your own discs and ask the park office for the current map or scorecard; leagues, field activity, maintenance, wind, and standing water can affect play.",
+          "sourceLabel": "Broward County Parks and Recreation",
+          "source": "https://www.broward.org/Parks/ThingsToDo/Pages/DiscGolf.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "playground",
+          "question": "Is there a playground at Brian Piccolo Park?",
+          "answer": "Yes. Broward County's January 2026 park brief lists one playground. Ask at the entrance for the closest current parking and confirm any maintenance or construction change before making the playground the only reason for travel.",
+          "sourceLabel": "Broward County Parks and Recreation",
+          "source": "https://www.broward.org/Parks/Support/Documents/BrianPiccoloInfo.pdf",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "dog-area",
+          "question": "Are dogs allowed at Brian Piccolo Park?",
+          "answer": "Brian Piccolo is listed as a dog-friendly park, not as an off-leash dog park. Keep pets on a hand-held leash, clean up waste, and keep them away from active tracks, courts, fields, wildlife areas, and any event that posts additional restrictions.",
+          "sourceLabel": "Broward County Parks and Recreation",
+          "source": "https://www.broward.org/Parks/ThingsToDo/Pages/DogParks.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "fishing",
+          "question": "Can I fish at Brian Piccolo Park?",
+          "answer": "Yes. Broward County allows fishing along the back lake from the dock and west of the dock; boats are not allowed. Check current Florida license rules, keep hooks away from athletes and wildlife, and do not assume fishing access during a closure or crowded event.",
+          "sourceLabel": "Broward County Parks and Recreation",
+          "source": "https://www.broward.org/Parks/ThingsToDo/Pages/Fishing.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Are there restrooms at Brian Piccolo Park?",
+          "answer": "The park has developed athletic and meeting facilities, but current county sources do not identify every public restroom or its hours. Ask at the entrance for the closest open facility to your field or track, especially during evening leagues or weekend tournaments.",
+          "sourceLabel": "Broward County Parks and Recreation",
+          "source": "https://www.broward.org/Parks/Support/Documents/BrianPiccoloInfo.pdf",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "accessibility",
+          "question": "Is Brian Piccolo Sports Park accessible?",
+          "answer": "The sports complex includes paved developed facilities, but exact accessible parking, spectator routes, seating, track transfer, and program accommodations vary by destination and event. Call 954-357-5150 before travel for a specific need.",
+          "sourceLabel": "Broward County Parks and Recreation",
+          "source": "https://www.broward.org/Parks/Support/Documents/BrianPiccoloInfo.pdf",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "family",
+          "question": "Is Brian Piccolo Park good for families?",
+          "answer": "It is strongest for active-sport families, leagues, spectators, the playground, road course, and disc golf. Confirm the exact field or session, bring helmets and sport-specific gear, keep children away from fast tracks and foul-ball areas, and plan for heat, limited shade, and tournament traffic.",
+          "sourceLabel": "Broward County Parks and Recreation",
+          "source": "https://www.broward.org/Parks/Support/Documents/BrianPiccoloInfo.pdf",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "weather",
+          "question": "What weather affects Brian Piccolo Park?",
+          "answer": "Most fields, courts, tracks, and spectator areas are exposed to heat, sun, lightning, wind, and heavy rain. Leave open athletic areas when thunder is heard, check field and track status after storms, and expect wet surfaces or event delays even when the gate remains open.",
+          "sourceLabel": "Broward County Parks and Recreation",
+          "source": "https://www.broward.org/Parks/safety/Pages/LightningPredictionSystems.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "need-to-know",
+          "question": "What should I know before visiting Brian Piccolo Park?",
+          "answer": "Get the exact field, court, track, or facility name before entering; confirm whether a league, reservation, pass, waiver, or private-operator fee applies; and check weather plus event traffic. The velodrome and road course have separate schedules, and the banked track is not an ordinary recreational bike path.",
+          "sourceLabel": "Broward County Parks and Recreation",
+          "source": "https://www.broward.org/Parks/ThingsToDo/Pages/velodrome.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Broward County January 2026 park brief",
+          "url": "https://www.broward.org/Parks/Support/Documents/BrianPiccoloInfo.pdf"
+        },
+        {
+          "label": "Broward County velodrome and road-course guide",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/velodrome.aspx"
+        },
+        {
+          "label": "Broward County sports guide",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/Sports.aspx"
+        },
+        {
+          "label": "Broward County disc-golf guide",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/DiscGolf.aspx"
+        },
+        {
+          "label": "Broward County fishing guide",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/Fishing.aspx"
+        }
+      ],
+      "image": {
+        "url": "/assets/parks/south-florida-atlantic-super/brian-piccolo-sports-park-and-velodrome/01-brian-piccolo-park-canal.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Brian_piccolo_park_canal_(14104379547).jpg",
+        "author": "Russ",
+        "license": "BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "alt": "Calm canal and wooded shoreline at Brian Piccolo Sports Park",
+        "width": 1600,
+        "height": 1000
+      },
+      "additionalImages": [
+        {
+          "url": "/assets/parks/south-florida-atlantic-super/brian-piccolo-sports-park-and-velodrome/02-brian-piccolo-park-velodrome-img-0450.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Brian_Piccolo_Park_Velodrome_IMG_0450_(4106218279).jpg",
+          "author": "Lenny",
+          "license": "BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "alt": "Inline speed skaters racing around the banked Brian Piccolo Park Velodrome",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/south-florida-atlantic-super/brian-piccolo-sports-park-and-velodrome/03-brian-piccolo-park-velodrome-img-0439.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Brian_Piccolo_Park_Velodrome_IMG_0439_(4106210769).jpg",
+          "author": "Lenny",
+          "license": "BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "alt": "Skaters preparing on the lower track at Brian Piccolo Park Velodrome",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/south-florida-atlantic-super/brian-piccolo-sports-park-and-velodrome/04-brian-piccolo-park-velodrome-img-0469.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Brian_Piccolo_Park_Velodrome_IMG_0469_(4106997368).jpg",
+          "author": "Lenny",
+          "license": "BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "alt": "Line of inline speed skaters at Brian Piccolo Park Velodrome near sunset",
+          "width": 1600,
+          "height": 1000
+        }
+      ],
+      "replaceImages": true
     }
   }
 }

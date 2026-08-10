@@ -10,10 +10,10 @@
   "recentlyCompleted": [
     {
       "name": "South Florida Atlantic anchor connector",
-      "parentGuides": 7,
-      "licensedPhotos": 27,
-      "evidenceCompleteSubsites": 12,
-      "parentAnswersPreserved": 105,
+      "parentGuides": 10,
+      "licensedPhotos": 39,
+      "evidenceCompleteSubsites": 15,
+      "parentAnswersPreserved": 151,
       "photoEvidenceDeferredParents": 1,
       "status": "partial-generated-and-verified"
     },
@@ -129,10 +129,10 @@
   ],
   "activeCluster": {
     "name": "South Florida Atlantic evidence restoration",
-    "reason": "The South Florida Atlantic cluster now connects Fort Lauderdale Beach Park, Hollywood Beach and Broadwalk, Hollywood North Beach Park, Anne Kolb Nature Center, and Dr. Von D. Mizell-Eula Johnson State Park with the completed Okeeheelee Park, Dreher Park, and Hugh Taylor Birch State Park guides. Exact pages cover family play, culture, observation, paddling, golf, science, and zoo destinations, while the new North Beach guide adds Atlantic and Intracoastal arrival, lifeguard, fishing, transit, dog, and sea-turtle guidance. Snyder Park, Secret Woods, and the Carpenter House remain deferred where current reusable image evidence does not clear the publication gate.",
+    "reason": "The South Florida Atlantic cluster now connects West Palm Beach, Fort Lauderdale, Hollywood, Dania Beach, Deerfield Beach, and Cooper City. Quiet Waters adds seasonal water play, cable watersports, camping, dog recreation, mountain biking, paddling, fishing, and disc golf; Brian Piccolo adds Florida's only velodrome, a road course, cricket, field sports, courts, playground, disc golf, and lakeside fishing. Snyder Park, Secret Woods, and the Carpenter House remain deferred where current reusable image evidence does not clear the publication gate.",
     "releaseStandard": "Retain official parent answers, require three to four current representative reusable photographs per released parent, and publish only named subsites with exact reviewed coordinates, destination-specific photography, and current operator guidance.",
-    "status": "south-florida-hollywood-dania-layer-released",
-    "metros": ["Dania Beach", "Fort Lauderdale", "Hollywood", "West Palm Beach"],
+    "status": "south-florida-broward-inland-layer-generated-and-verified",
+    "metros": ["Cooper City", "Dania Beach", "Deerfield Beach", "Fort Lauderdale", "Hollywood", "West Palm Beach"],
     "resumeCheckpoint": {
       "pausedAt": "2026-08-10",
       "completed": [
@@ -172,9 +172,14 @@
         "Added Hollywood North Beach Park with 15 sourced visitor answers, four exact-area licensed photographs, and practical Atlantic-versus-Intracoastal arrival guidance.",
         "Documented lifeguard coverage, parking-charge rules, restrooms, accessibility, fishing, transit, dog restrictions, sea-turtle season, and weather safety from current city and county sources.",
         "Deferred the Marine Environmental Education Center at the Carpenter House because its official visitor facts are ready but the available exact photograph is all-rights-reserved; nearby beach imagery is not an acceptable substitute.",
-        "Deferred Secret Woods Nature Center because the exhibit hall has a current official closure notice and only one exact reusable destination photograph is available."
+        "Deferred Secret Woods Nature Center because the exhibit hall has a current official closure notice and only one exact reusable destination photograph is available.",
+        "Added Quiet Waters Park with 15 sourced visitor answers and four reviewed Creative Commons photographs covering Splash Adventure and Ski Rixen.",
+        "Published full Splash Adventure and Ski Rixen subsite pages with exact coordinates, destination-specific images, separate hours and fees, family guidance, accessibility context, weather cautions, and source-backed answers.",
+        "Added Brian Piccolo Sports Park & Velodrome with 16 sourced visitor answers and four reviewed Creative Commons photographs covering the park canal and active velodrome use.",
+        "Published the Brian Piccolo Park Velodrome subsite with exact navigation, current track and road-course schedules, waiver and equipment guidance, fees, family safety context, and per-intent sources.",
+        "Aligned the shared campaign verifier with the generator's canonical ampersand slug rule, then verified 10 South Florida guides, 39 licensed photos, 15 evidence-complete subsites, raw HTML, exact navigation, and sitemap routes."
       ],
-      "nextAction": "Treat the Hollywood-Dania public beach and nature layer as the current released checkpoint. Continue permission-cleared image outreach for the Carpenter House, Secret Woods, and Snyder Park without blocking rollout, then select the next high-impact connected metro cluster from the national queue. Keep requiring three to four representative licensed parent photographs and exact photo-and-pin pairs for every published subsite.",
+      "nextAction": "Treat the Deerfield Beach-Cooper City inland Broward layer as the current verified checkpoint. Continue the connected Broward corridor with T.Y. Park, Tree Tops Park, or Vista View Park only when a parent clears the three-to-four representative reusable-image gate; keep Snyder Park, Secret Woods, and the Carpenter House in permission-cleared image outreach without blocking rollout.",
       "notReleased": true,
       "productionPublished": false
     }
@@ -192,10 +197,13 @@
     "Idlewild Park in Reno needs three representative reusable views of the park, rose garden, playland, pool, ponds, river path, or skatepark.",
     "Riverfront Park in Billings needs current lake, trail, picnic, shelter, and Yellowstone River access views rather than wildlife close-ups.",
     "Swords Park in Billings needs two additional broad destination views beyond its existing trail and city-overlook photographs; park signs and interpretive panels are not substitutes.",
-    "Lions Park in Cheyenne needs broad current views of Sloan's Lake, playgrounds, spray park, aquatic center, fields, shelters, and park circulation rather than Botanic Gardens close-ups alone."
+    "Lions Park in Cheyenne needs broad current views of Sloan's Lake, playgrounds, spray park, aquatic center, fields, shelters, and park circulation rather than Botanic Gardens close-ups alone.",
+    "T.Y. Park needs three to four representative reusable views of the lake, Castaway Island, playground, trails, and visitor facilities rather than wildlife-only results.",
+    "Tree Tops Park needs three to four representative reusable views of the boardwalks, trails, playground, equestrian area, observation tower, and visitor facilities rather than wildlife-only results.",
+    "Vista View Park needs three to four representative reusable views of the hill, paths, playground, picnic areas, and visitor circulation rather than wildlife-only results."
   ],
   "nextClusters": [
-    "Add the next South Florida Atlantic parent cluster from high-demand Fort Lauderdale and Hollywood public beach, waterfront, and nature destinations only when each parent clears the official-information and three-to-four-image gates.",
+    "Continue the connected inland Broward corridor with T.Y. Park, Tree Tops Park, or Vista View Park only when each parent clears the official-information and three-to-four-image gates.",
     "Restore Snyder Park only after permission-cleared broad park, trail, dog-lake, playground, disc-golf, or butterfly-garden images replace the current no-derivatives results.",
     "Expand Okeeheelee Park only when exact reusable photo-and-pin pairs clear review for its Nature Center, Pooch Pines, BMX track, wake park, mountain-bike trailhead, equestrian center, fishing areas, pavilions, or entrances."
   ]

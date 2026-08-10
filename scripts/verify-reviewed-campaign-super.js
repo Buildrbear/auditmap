@@ -10,7 +10,8 @@ const selections = require(path.join(root, args.selections));
 const places = require(path.join(root, "data/generated/launch-map-places.json"));
 const ready = require(path.join(root, "data/generated/all-subsites-ready.json")).parks;
 const failures = [];
-const slug = (value) => String(value).toLowerCase().replace(/&/g, " and ").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+// Keep verification routes identical to the canonical generator's slugify rule.
+const slug = (value) => String(value).toLowerCase().trim().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 const need = (condition, message) => { if (!condition) failures.push(message); };
 const expectedFeatures = Object.values(selections.places).reduce((sum, features) => sum + features.length, 0);
 const minAnswers = Number(args["min-answers"] || 12);

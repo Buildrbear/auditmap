@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T07:59:31.035Z",
+  "generatedAt": "2026-08-10T08:22:31.622Z",
   "policy": {
     "publication": "AI findings remain proposed until a human accepts the fact and its sources.",
     "prioritization": "Daily-use and safety-sensitive gaps rank above descriptive content.",
@@ -7,10 +7,10 @@
     "partialAnswers": "Useful but incomplete answers remain visible and stay queued until verified."
   },
   "summary": {
-    "places": 896,
+    "places": 898,
     "averageCoverageScore": 55,
-    "openTasks": 5884,
-    "urgentTasks": 945
+    "openTasks": 5895,
+    "urgentTasks": 948
   },
   "coverage": [
     {
@@ -6284,6 +6284,20 @@
       "expectedIntentCount": 14,
       "coveredIntentCount": 10,
       "coverageScore": 76
+    },
+    {
+      "placeId": "launch-fl-deerfield-beach-quiet-waters-park",
+      "placeName": "Quiet Waters Park",
+      "expectedIntentCount": 14,
+      "coveredIntentCount": 9,
+      "coverageScore": 67
+    },
+    {
+      "placeId": "launch-fl-cooper-city-brian-piccolo-sports-park-velodrome",
+      "placeName": "Brian Piccolo Sports Park & Velodrome",
+      "expectedIntentCount": 14,
+      "coveredIntentCount": 8,
+      "coverageScore": 61
     }
   ],
   "tasks": [
@@ -14623,6 +14637,66 @@
       ],
       "requiresHumanReview": true,
       "placeCoverageScore": 65
+    },
+    {
+      "id": "launch-fl-deerfield-beach-quiet-waters-park:restroom",
+      "placeId": "launch-fl-deerfield-beach-quiet-waters-park",
+      "placeName": "Quiet Waters Park",
+      "placeType": "Park",
+      "city": "Deerfield Beach",
+      "state": "FL",
+      "intentKey": "restroom",
+      "intentLabel": "Restrooms",
+      "question": "Where are the nearest restrooms at Quiet Waters Park, and when are they available?",
+      "reason": "No current, source-backed restrooms answer is cataloged.",
+      "action": "research",
+      "priority": 98,
+      "freshnessDays": 7,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/Pages/GeneralInformation.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/parks/camping/Pages/default.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/atyourservice/Pages/parks.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/Pages/ParkPassports.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/SplashAdventure.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/DogParks.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/Bicycling.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/Fishing.aspx",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 67
     },
     {
       "id": "kiwanis-park:restroom",
@@ -30144,6 +30218,66 @@
       "placeCoverageScore": 58
     },
     {
+      "id": "launch-fl-cooper-city-brian-piccolo-sports-park-velodrome:closures",
+      "placeId": "launch-fl-cooper-city-brian-piccolo-sports-park-velodrome",
+      "placeName": "Brian Piccolo Sports Park & Velodrome",
+      "placeType": "Park",
+      "city": "Cooper City",
+      "state": "FL",
+      "intentKey": "closures",
+      "intentLabel": "Closures and availability",
+      "question": "Is anything at Brian Piccolo Sports Park & Velodrome closed, seasonal, or temporarily unavailable?",
+      "reason": "No current, source-backed closures and availability answer is cataloged.",
+      "action": "research",
+      "priority": 96,
+      "freshnessDays": 3,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/Support/Documents/BrianPiccoloInfo.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/velodrome.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/atyourservice/Pages/parks.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/Pages/ParkPassports.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/DiscGolf.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/DogParks.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/Fishing.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/safety/Pages/LightningPredictionSystems.aspx",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 61
+    },
+    {
       "id": "launch-fl-hollywood-hollywood-north-beach-park:closures",
       "placeId": "launch-fl-hollywood-hollywood-north-beach-park",
       "placeName": "Hollywood North Beach Park",
@@ -30457,6 +30591,66 @@
         {
           "label": "Broward County Transit",
           "url": "https://www.broward.org/BCT/Documents/Destinations.pdf",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 67
+    },
+    {
+      "id": "launch-fl-deerfield-beach-quiet-waters-park:closures",
+      "placeId": "launch-fl-deerfield-beach-quiet-waters-park",
+      "placeName": "Quiet Waters Park",
+      "placeType": "Park",
+      "city": "Deerfield Beach",
+      "state": "FL",
+      "intentKey": "closures",
+      "intentLabel": "Closures and availability",
+      "question": "Is anything at Quiet Waters Park closed, seasonal, or temporarily unavailable?",
+      "reason": "No current, source-backed closures and availability answer is cataloged.",
+      "action": "research",
+      "priority": 96,
+      "freshnessDays": 3,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/Pages/GeneralInformation.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/parks/camping/Pages/default.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/atyourservice/Pages/parks.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/Pages/ParkPassports.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/SplashAdventure.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/DogParks.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/Bicycling.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/Fishing.aspx",
           "sourceType": "official"
         }
       ],
@@ -66345,6 +66539,66 @@
       "placeCoverageScore": 51
     },
     {
+      "id": "launch-fl-cooper-city-brian-piccolo-sports-park-velodrome:trail-surface",
+      "placeId": "launch-fl-cooper-city-brian-piccolo-sports-park-velodrome",
+      "placeName": "Brian Piccolo Sports Park & Velodrome",
+      "placeType": "Park",
+      "city": "Cooper City",
+      "state": "FL",
+      "intentKey": "trail-surface",
+      "intentLabel": "Walking surfaces and terrain",
+      "question": "What are the walking surfaces, slopes, and trail conditions at Brian Piccolo Sports Park & Velodrome?",
+      "reason": "No current, source-backed walking surfaces and terrain answer is cataloged.",
+      "action": "research",
+      "priority": 80,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/Support/Documents/BrianPiccoloInfo.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/velodrome.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/atyourservice/Pages/parks.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/Pages/ParkPassports.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/DiscGolf.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/DogParks.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/Fishing.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/safety/Pages/LightningPredictionSystems.aspx",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 61
+    },
+    {
       "id": "launch-fl-hollywood-hollywood-north-beach-park:trail-surface",
       "placeId": "launch-fl-hollywood-hollywood-north-beach-park",
       "placeName": "Hollywood North Beach Park",
@@ -96071,6 +96325,66 @@
       ],
       "requiresHumanReview": true,
       "placeCoverageScore": 58
+    },
+    {
+      "id": "launch-fl-cooper-city-brian-piccolo-sports-park-velodrome:splash-pad",
+      "placeId": "launch-fl-cooper-city-brian-piccolo-sports-park-velodrome",
+      "placeName": "Brian Piccolo Sports Park & Velodrome",
+      "placeType": "Park",
+      "city": "Cooper City",
+      "state": "FL",
+      "intentKey": "splash-pad",
+      "intentLabel": "Water play",
+      "question": "Is there a splash pad or water play at Brian Piccolo Sports Park & Velodrome, and when does it operate?",
+      "reason": "No current, source-backed water play answer is cataloged.",
+      "action": "research",
+      "priority": 78,
+      "freshnessDays": 14,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/Support/Documents/BrianPiccoloInfo.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/velodrome.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/atyourservice/Pages/parks.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/Pages/ParkPassports.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/DiscGolf.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/DogParks.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/Fishing.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/safety/Pages/LightningPredictionSystems.aspx",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 61
     },
     {
       "id": "launch-fl-hollywood-hollywood-north-beach-park:splash-pad",
@@ -129411,6 +129725,66 @@
       "placeCoverageScore": 48
     },
     {
+      "id": "launch-fl-cooper-city-brian-piccolo-sports-park-velodrome:picnic",
+      "placeId": "launch-fl-cooper-city-brian-piccolo-sports-park-velodrome",
+      "placeName": "Brian Piccolo Sports Park & Velodrome",
+      "placeType": "Park",
+      "city": "Cooper City",
+      "state": "FL",
+      "intentKey": "picnic",
+      "intentLabel": "Picnic areas",
+      "question": "Where are picnic areas at Brian Piccolo Sports Park & Velodrome, and do any require reservations?",
+      "reason": "No current, source-backed picnic areas answer is cataloged.",
+      "action": "research",
+      "priority": 68,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/Support/Documents/BrianPiccoloInfo.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/velodrome.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/atyourservice/Pages/parks.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/Pages/ParkPassports.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/DiscGolf.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/DogParks.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/Fishing.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/safety/Pages/LightningPredictionSystems.aspx",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 61
+    },
+    {
       "id": "launch-fl-hollywood-anne-kolb-nature-center:picnic",
       "placeId": "launch-fl-hollywood-anne-kolb-nature-center",
       "placeName": "Anne Kolb Nature Center",
@@ -129449,6 +129823,66 @@
         {
           "label": "Broward County Transit",
           "url": "https://www.broward.org/BCT/Documents/Destinations.pdf",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 67
+    },
+    {
+      "id": "launch-fl-deerfield-beach-quiet-waters-park:picnic",
+      "placeId": "launch-fl-deerfield-beach-quiet-waters-park",
+      "placeName": "Quiet Waters Park",
+      "placeType": "Park",
+      "city": "Deerfield Beach",
+      "state": "FL",
+      "intentKey": "picnic",
+      "intentLabel": "Picnic areas",
+      "question": "Where are picnic areas at Quiet Waters Park, and do any require reservations?",
+      "reason": "No current, source-backed picnic areas answer is cataloged.",
+      "action": "research",
+      "priority": 68,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/Pages/GeneralInformation.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/parks/camping/Pages/default.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/atyourservice/Pages/parks.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/Pages/ParkPassports.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/SplashAdventure.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/DogParks.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/Bicycling.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/Fishing.aspx",
           "sourceType": "official"
         }
       ],
@@ -144425,6 +144859,66 @@
       "placeCoverageScore": 58
     },
     {
+      "id": "launch-fl-cooper-city-brian-piccolo-sports-park-velodrome:shade",
+      "placeId": "launch-fl-cooper-city-brian-piccolo-sports-park-velodrome",
+      "placeName": "Brian Piccolo Sports Park & Velodrome",
+      "placeType": "Park",
+      "city": "Cooper City",
+      "state": "FL",
+      "intentKey": "shade",
+      "intentLabel": "Shade and weather comfort",
+      "question": "Where can visitors find shade or weather shelter at Brian Piccolo Sports Park & Velodrome?",
+      "reason": "No current, source-backed shade and weather comfort answer is cataloged.",
+      "action": "research",
+      "priority": 64,
+      "freshnessDays": 180,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/Support/Documents/BrianPiccoloInfo.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/velodrome.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/atyourservice/Pages/parks.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/Pages/ParkPassports.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/DiscGolf.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/DogParks.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/Fishing.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/safety/Pages/LightningPredictionSystems.aspx",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 61
+    },
+    {
       "id": "launch-fl-hollywood-hollywood-north-beach-park:shade",
       "placeId": "launch-fl-hollywood-hollywood-north-beach-park",
       "placeName": "Hollywood North Beach Park",
@@ -144523,6 +145017,66 @@
         {
           "label": "Broward County Transit",
           "url": "https://www.broward.org/BCT/Documents/Destinations.pdf",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 67
+    },
+    {
+      "id": "launch-fl-deerfield-beach-quiet-waters-park:shade",
+      "placeId": "launch-fl-deerfield-beach-quiet-waters-park",
+      "placeName": "Quiet Waters Park",
+      "placeType": "Park",
+      "city": "Deerfield Beach",
+      "state": "FL",
+      "intentKey": "shade",
+      "intentLabel": "Shade and weather comfort",
+      "question": "Where can visitors find shade or weather shelter at Quiet Waters Park?",
+      "reason": "No current, source-backed shade and weather comfort answer is cataloged.",
+      "action": "research",
+      "priority": 64,
+      "freshnessDays": 180,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/Pages/GeneralInformation.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/parks/camping/Pages/default.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/atyourservice/Pages/parks.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/Pages/ParkPassports.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/SplashAdventure.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/DogParks.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/Bicycling.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/Fishing.aspx",
           "sourceType": "official"
         }
       ],
@@ -161874,6 +162428,66 @@
       "placeCoverageScore": 58
     },
     {
+      "id": "launch-fl-cooper-city-brian-piccolo-sports-park-velodrome:public-art",
+      "placeId": "launch-fl-cooper-city-brian-piccolo-sports-park-velodrome",
+      "placeName": "Brian Piccolo Sports Park & Velodrome",
+      "placeType": "Park",
+      "city": "Cooper City",
+      "state": "FL",
+      "intentKey": "public-art",
+      "intentLabel": "Landmarks and public art",
+      "question": "Where are the landmarks or public art at Brian Piccolo Sports Park & Velodrome, and how do visitors find them?",
+      "reason": "No current, source-backed landmarks and public art answer is cataloged.",
+      "action": "research",
+      "priority": 60,
+      "freshnessDays": 180,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/Support/Documents/BrianPiccoloInfo.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/velodrome.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/atyourservice/Pages/parks.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/Pages/ParkPassports.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/DiscGolf.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/DogParks.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/Fishing.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/safety/Pages/LightningPredictionSystems.aspx",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 61
+    },
+    {
       "id": "launch-fl-hollywood-hollywood-north-beach-park:public-art",
       "placeId": "launch-fl-hollywood-hollywood-north-beach-park",
       "placeName": "Hollywood North Beach Park",
@@ -161932,6 +162546,66 @@
       ],
       "requiresHumanReview": true,
       "placeCoverageScore": 61
+    },
+    {
+      "id": "launch-fl-deerfield-beach-quiet-waters-park:public-art",
+      "placeId": "launch-fl-deerfield-beach-quiet-waters-park",
+      "placeName": "Quiet Waters Park",
+      "placeType": "Park",
+      "city": "Deerfield Beach",
+      "state": "FL",
+      "intentKey": "public-art",
+      "intentLabel": "Landmarks and public art",
+      "question": "Where are the landmarks or public art at Quiet Waters Park, and how do visitors find them?",
+      "reason": "No current, source-backed landmarks and public art answer is cataloged.",
+      "action": "research",
+      "priority": 60,
+      "freshnessDays": 180,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/Pages/GeneralInformation.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/parks/camping/Pages/default.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/atyourservice/Pages/parks.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/Pages/ParkPassports.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/SplashAdventure.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/DogParks.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/Bicycling.aspx",
+          "sourceType": "official"
+        },
+        {
+          "label": "Broward County Parks and Recreation",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/Fishing.aspx",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 67
     },
     {
       "id": "launch-ca-carlsbad-agua-hedionda-lagoon-discovery-center:public-art",

@@ -372,6 +372,7 @@
     "seed:south-florida:beaches": "node scripts/seed-south-florida-beach-cluster.js",
     "seed:south-florida:nature": "node scripts/seed-south-florida-nature-cluster.js",
     "seed:south-florida:north-beach": "node scripts/seed-south-florida-north-beach-cluster.js",
+    "seed:south-florida:broward-inland": "node scripts/seed-south-florida-broward-inland-cluster.js",
     "research:south-florida-atlantic:images": "node scripts/research-openverse-campaign-images.js --campaign data/south-florida-atlantic-super-enrichment-campaign.json --output data/south-florida-atlantic-photo-research.json --page-size 20",
     "prepare:south-florida-atlantic:images": "node scripts/prepare-reviewed-campaign-images.js --campaign data/south-florida-atlantic-super-enrichment-campaign.json --selections data/south-florida-atlantic-photo-selections.json --output data/generated/south-florida-atlantic-super-images.json --asset-dir assets/parks/south-florida-atlantic-super",
     "research:south-florida-atlantic:boundaries": "node scripts/research-campaign-park-boundaries.js --campaign data/south-florida-atlantic-super-enrichment-campaign.json --output data/generated/south-florida-atlantic-park-boundary-research.json",
