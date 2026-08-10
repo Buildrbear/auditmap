@@ -47,14 +47,10 @@ const featureProfiles = {
     { image: 4, description: "Billy is Albert Laessle's bronze goat sculpture and a popular children's landmark beside the square's open paths." }
   ],
   "launch-pa-philadelphia-franklin-square": [
-    { image: 1, description: "Parx Liberty Carousel is Franklin Square's gentle family ride; it operates on a seasonal schedule and requires a separate ticket for riders age three and older." },
-    { image: 2, description: "Philly Mini Golf is the square's Philadelphia-themed ticketed course, with seasonal and weather-dependent operating hours." },
-    { image: 2, description: "Franklin Square's playground is the free play area within the compact park loop, convenient to the fountain and staffed attractions when they are open." },
-    { image: 0, description: "The historic fountain and SquareBurger area anchor the center of the square; fountain operation and food-service hours change by season and event." },
-    { image: 3, description: "The Living Flame Memorial honors fallen Philadelphia police and firefighters near the square's edge; use paths respectfully and expect commemorative events at times." },
-    { image: 1, description: "The Chinese Lantern Festival occupies much of Franklin Square on scheduled summer evenings, changing admission, circulation, lighting, food, and attraction access." },
-    { image: 0, description: "The Race Street lawn and picnic tables provide free daytime seating near the playground and attractions, but festival setup and private events can reduce availability." },
-    { image: 2, description: "Isamu Noguchi's Lightning Bolt sculpture stands near the square and Benjamin Franklin Bridge approach as a compact public-art landmark beside busy streets." }
+    { image: 0, description: "The restored 1838 fountain and nearby SquareBurger service form the park's central gathering area, with separate fountain-show and concession schedules." },
+    { image: 1, description: "Parx Liberty Carousel is Franklin Square's gentle, ticketed family ride, with a separate operating calendar and rider-height supervision rule." },
+    { image: 2, description: "Philly Mini Golf is an 18-hole, Philadelphia-landmark-themed outdoor course with separate tickets and weather-dependent hours." },
+    { image: 3, description: "Franklin Square PATCO Station reopened in 2025 beside the park, providing a direct rail arrival with its own fare, elevator and service status." }
   ],
   "launch-pa-philadelphia-schuylkill-banks": [
     { image: 3, description: "The Schuylkill Banks Boardwalk carries the paved river trail over the water south of Locust Street, with skyline views and busy mixed bicycle and pedestrian traffic." },

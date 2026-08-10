@@ -155,6 +155,12 @@
       }
     },
     "launch-pa-philadelphia-franklin-square": {
+      "Franklin Square Fountain and SquareBurger": {
+        "latitude": 39.9556654,
+        "longitude": -75.1504419,
+        "coordinateSource": "AuditMap reviewed public-map placement",
+        "positionQuality": "Reviewed destination placement"
+      },
       "Parx Liberty Carousel": {
         "latitude": 39.9558283,
         "longitude": -75.1507978,
@@ -169,45 +175,11 @@
         "positionQuality": "Mapped public-place feature",
         "matchedName": "Philly Mini Golf"
       },
-      "Franklin Square playground": {
-        "latitude": 39.9558223,
-        "longitude": -75.1511033,
-        "coordinateSource": "OpenStreetMap W/964447294",
-        "positionQuality": "Mapped public-place feature",
-        "matchedName": "Franklin Square Playground"
-      },
-      "Franklin Square fountain and SquareBurger": {
-        "latitude": 39.9556654,
-        "longitude": -75.1504419,
-        "coordinateSource": "OpenStreetMap W/574968769",
-        "positionQuality": "Mapped public-place feature",
-        "matchedName": "Franklin Square Fountain"
-      },
-      "Living Flame Memorial": {
-        "latitude": 39.9553842,
-        "longitude": -75.1498121,
-        "coordinateSource": "OpenStreetMap N/7534018364",
-        "positionQuality": "Mapped public-place feature",
-        "matchedName": "Living Flame Memorial"
-      },
-      "Chinese Lantern Festival grounds": {
-        "latitude": 39.9557,
-        "longitude": -75.1504,
+      "Franklin Square PATCO Station": {
+        "latitude": 39.955358,
+        "longitude": -75.150111,
         "coordinateSource": "AuditMap reviewed public-map placement",
         "positionQuality": "Reviewed destination placement"
-      },
-      "Race Street lawn and picnic tables": {
-        "latitude": 39.956,
-        "longitude": -75.1506,
-        "coordinateSource": "AuditMap reviewed public-map placement",
-        "positionQuality": "Reviewed destination placement"
-      },
-      "Lightning Bolt sculpture": {
-        "latitude": 39.955465,
-        "longitude": -75.1487812,
-        "coordinateSource": "OpenStreetMap N/5723840036",
-        "positionQuality": "Mapped public-place feature",
-        "matchedName": "Bolt of Lightning: A Memorial to Benjamin Franklin"
       }
     },
     "launch-pa-philadelphia-schuylkill-banks": {

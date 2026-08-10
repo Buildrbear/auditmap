@@ -54,6 +54,13 @@ for (const [name, sourceToken] of [["Rittenhouse Square Central Plaza and Reflec
 }
 const independence = places.find((place) => place.id === "launch-pa-philadelphia-independence-national-historical-park");
 for (const phrase of ["$1 service fee", "security", "no restrooms inside the Independence Hall secured area"]) if (!JSON.stringify(independence).toLowerCase().includes(phrase.toLowerCase())) failures.push(`Independence: missing ${phrase}`);
+const franklin = places.find((place) => place.id === "launch-pa-philadelphia-franklin-square");
+for (const phrase of ["cleared before the ticketed Chinese Lantern Festival", "new expanded restrooms opened in spring 2025", "pets are not permitted on the carousel", "$15 adults and $12 children", "PATCO Station reopened in 2025"]) if (!JSON.stringify(franklin).toLowerCase().includes(phrase.toLowerCase())) failures.push(`Franklin Square: missing ${phrase}`);
+for (const [name, sourceToken] of [["Franklin Square Fountain and SquareBurger", "Franklin_Square_Fountain_b"], ["Parx Liberty Carousel", "2013_Franklin_Square_Carousel_from_east"], ["Philly Mini Golf", "Franklin_Square_golf"], ["Franklin Square PATCO Station", "Franklin_Square_head_house"]]) {
+  const feature = franklin?.features?.find((item) => item.name === name);
+  if (!feature) failures.push(`Franklin Square: missing ${name}`);
+  else if (!(feature.details?.imageSourceUrl || "").includes(sourceToken)) failures.push(`Franklin Square/${name}: destination image does not match`);
+}
 const fairmount = places.find((place) => place.id === "launch-pa-philadelphia-fairmount-park");
 for (const phrase of ["Lemon Hill park is currently closed", "Wednesday through Saturday, 10 a.m.-5 p.m.", "more than 50 outdoor play structures", "timed ticket and capacity is limited", "second and third Sundays 11 a.m.-4:30 p.m."]) if (!JSON.stringify(fairmount).includes(phrase)) failures.push(`Fairmount Park: missing ${phrase}`);
 for (const [name, sourceToken] of [["Lemon Hill", "Lemon_Hill_Mansion"], ["Belmont Plateau", "Belmont_Plateau"], ["Fairmount Water Works", "Fairmount_Water_Works"], ["Smith Memorial Playground and Playhouse", "Smith_Playground"], ["Shofuso Japanese Cultural Center", "Shofuso_Japanese_House"], ["Please Touch Museum and Memorial Hall", "MemorialHallPhila03"]]) {

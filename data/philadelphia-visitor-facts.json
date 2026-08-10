@@ -192,19 +192,41 @@
       ]
     },
     "launch-pa-philadelphia-franklin-square": {
+      "verifiedAt": "2026-08-10",
       "address": "200 N. 6th Street, Philadelphia, PA 19106",
       "latitude": 39.9556578, "longitude": -75.150435,
-      "summary": "Franklin Square is a free seven-acre historic square centered on an 1838 fountain, with a playground, Parx Liberty Carousel, Philly Mini Golf, SquareBurger, lawns, and seasonal light and lantern events.",
-      "hours": "Park and attraction hours change seasonally and are weather dependent. During the current summer schedule, daytime attractions and evening Chinese Lantern Festival access use separate sessions; check the live calendar.",
-      "cost": "Entrance to Franklin Square is free, but carousel, mini golf, festival admission, food, and some events require tickets. Carousel rides are currently $4 for ages three and older; mini golf is separately priced.",
-      "parking": "There is no dedicated free park lot. Transit is easiest; paid garages and legal street parking serve Old City and Chinatown but festival nights and events create heavy demand.",
-      "arrival": "Use 6th and Race Streets. The square is two blocks north of the Independence Visitor Center; the fountain is central, with attractions arranged around the loop.",
-      "restrooms": "Restroom availability follows staffed attraction and event operations. Confirm the current facility before arriving with children, especially outside the main operating season.",
-      "accessibility": "Main park paths and attraction approaches are developed, and the compact loop limits walking distance. Ride transfer rules, crowds, temporary festival installations, and historic surfaces vary.",
-      "dogs": "Leashed dogs may use general park paths and lawns where posted, but should stay out of playground and ticketed attractions and away from food service and event installations.",
-      "family": "The playground, gentle carousel, mini golf, fountain, and food make Franklin Square one of Center City's strongest family stops. Attraction hours and tickets matter more than general square access.",
-      "transit": "The reopened Franklin Square PATCO station is beside the park, with SEPTA and Independence Mall connections nearby. Transit avoids difficult event parking.",
-      "need": "Check the live calendar, weather, lantern-festival access, attraction tickets, fountain operation, and holiday closures. Daytime free access and evening ticketed event rules can differ."
+      "summary": "Franklin Square is a free seven-acre historic square centered on a restored 1838 fountain, with a free playground, ticketed Parx Liberty Carousel and Philly Mini Golf, SquareBurger, lawns, new restrooms, seasonal fountain shows and major evening events.",
+      "hours": "Park and staffed-attraction hours change by season and weather. Through August 16, 2026, published daytime hours are 10 a.m.-5 p.m.; the square is then cleared before the ticketed Chinese Lantern Festival operates 6-11 p.m. It is closed July 4, and later-season hours change again.",
+      "cost": "General daytime park, playground, lawns and fountain viewing are free. Current carousel tickets are $4 for ages three and older; mini golf is $15 adults and $12 children ages 3-13. Festival admission, food and other programs cost separately.",
+      "parking": "There is no dedicated free visitor lot. Historic Philadelphia recommends reserved paid parking, but PATCO and nearby SEPTA stops are usually easier. Festival nights, holidays and Old City events can fill garages and alter curb access.",
+      "arrival": "Use 6th and Race Streets and choose the fountain, carousel, mini golf, playground or PATCO entrance before meeting a group. The square is compact, but ticket lines and festival fencing can change normal circulation.",
+      "restrooms": "New expanded restrooms opened in spring 2025 with men's and women's rooms, a separate gender-neutral family restroom, accessible stalls and no-touch faucets. Confirm access against current park hours rather than assuming they remain open overnight.",
+      "accessibility": "Main paths, new restrooms and the reopened PATCO station support step-free visits, but attraction transfer rules, ride seating, historic paving, crowds and temporary lantern-festival installations can affect the exact route.",
+      "dogs": "Pets are welcome in green spaces on a leash no longer than six feet. Except for service animals, pets are not permitted on the carousel, in mini golf or in the playground.",
+      "family": "The free playground, carousel, mini golf, fountain, restrooms and food make Franklin Square a strong family stop. Confirm each attraction's hours and tickets, keep children close at water and streets, and expect the park to be cleared before festival admission begins.",
+      "transit": "Franklin Square PATCO Station reopened in 2025 beside the park, providing direct service from New Jersey and Center City. SEPTA's 5th Street, 8th Street and Jefferson Station are also walkable; check live elevator and service status.",
+      "need": "Do not treat the park as one continuous operating session. On lantern-festival dates the free daytime square closes at 5 p.m., guests are cleared, and paid entry begins for the 6-11 p.m. event. Check weather, tickets and the current calendar before leaving.",
+      "weather": "Carousel, mini golf, fountain shows, food service and events are weather dependent. Check heat, thunderstorms, heavy rain, wind and air quality; leave exposed attractions when thunder is heard and expect wet equipment or event closures after storms.",
+      "answerSources": {
+        "hours":{"sourceLabel":"Historic Philadelphia Franklin Square visit guide","source":"https://historicphiladelphia.org/franklin-square-2/visit/","freshnessClass":"fast"},
+        "parking":{"sourceLabel":"Historic Philadelphia Franklin Square visit guide","source":"https://historicphiladelphia.org/franklin-square-2/visit/","freshnessClass":"fast"},
+        "entrance":{"sourceLabel":"Historic Philadelphia Franklin Square visit guide","source":"https://historicphiladelphia.org/franklin-square-2/visit/"},
+        "restroom":{"sourceLabel":"Historic Philadelphia capital improvements","source":"https://historicphiladelphia.org/stories/franklin-square-capital-improvements/"},
+        "fees":{"sourceLabel":"Historic Philadelphia Franklin Square visit guide","source":"https://historicphiladelphia.org/franklin-square-2/visit/","freshnessClass":"fast"},
+        "accessibility":{"sourceLabel":"Historic Philadelphia capital improvements","source":"https://historicphiladelphia.org/stories/franklin-square-capital-improvements/"},
+        "dogs":{"sourceLabel":"Historic Philadelphia park rules","source":"https://historicphiladelphia.org/franklin-square-2/park-rules/"},
+        "family":{"sourceLabel":"Historic Philadelphia Franklin Square visit guide","source":"https://historicphiladelphia.org/franklin-square-2/visit/"},
+        "transit":{"sourceLabel":"Historic Philadelphia Franklin Square visit guide","source":"https://historicphiladelphia.org/franklin-square-2/visit/","freshnessClass":"fast"},
+        "need-to-know":{"sourceLabel":"Historic Philadelphia Chinese Lantern Festival","source":"https://historicphiladelphia.org/events/philadelphia-chinese-lantern-festival/","freshnessClass":"fast"},
+        "weather":{"sourceLabel":"Historic Philadelphia Franklin Square visit guide","source":"https://historicphiladelphia.org/franklin-square-2/visit/","freshnessClass":"fast"}
+      },
+      "extraAnswers": [
+        {"intentKey":"playground","question":"Is the Franklin Square playground free and open?","answer":"Playground use is free during published park access. The operator is planning a major inclusive, nature-based redesign, so verify construction status before a playground-specific trip; pets other than service animals are prohibited inside.","sourceLabel":"Historic Philadelphia capital improvements","source":"https://historicphiladelphia.org/stories/franklin-square-capital-improvements/","freshnessClass":"fast"},
+        {"intentKey":"fountain-show","question":"When does the Franklin Square fountain show run?","answer":"Historic Philadelphia currently lists the Franklin Square Fountain Show from April 18 through October 31, but performance times and weather interruptions belong to the live calendar. During the lantern festival, fountain access becomes part of the ticketed evening session.","sourceLabel":"Historic Philadelphia Franklin Square","source":"https://historicphiladelphia.org/franklin-square-2/","freshnessClass":"fast"},
+        {"intentKey":"food","question":"When is SquareBurger open?","answer":"The current summer visit guide lists SquareBurger daily from noon until park closing. Food service is seasonal and weather dependent, and its closing time changes with the park schedule.","sourceLabel":"Historic Philadelphia Franklin Square visit guide","source":"https://historicphiladelphia.org/franklin-square-2/visit/","freshnessClass":"fast"},
+        {"intentKey":"festival","question":"How does the Chinese Lantern Festival change Franklin Square access?","answer":"The 2026 festival runs nightly June 5-August 16 from 6-11 p.m. The free daytime square closes at 5 p.m. and is cleared before ticketed entry; it is closed July 4. Ticket prices vary by age and day of week.","sourceLabel":"Historic Philadelphia Chinese Lantern Festival","source":"https://historicphiladelphia.org/events/philadelphia-chinese-lantern-festival/","freshnessClass":"fast"},
+        {"intentKey":"history","question":"Why is the Franklin Square fountain notable?","answer":"The functioning public fountain dates to 1838 and anchors one of William Penn's original five squares. Historic Philadelphia restored the square and fountain as part of the park's modern revival.","sourceLabel":"Historic Philadelphia Franklin Square history","source":"https://historicphiladelphia.org/stories/history-of-franklin-square/","freshnessClass":"slow"}
+      ]
     },
     "launch-pa-philadelphia-schuylkill-banks": {
       "address": "Schuylkill River Trail at Walnut Street, Philadelphia, PA 19103",
