@@ -87,7 +87,7 @@
       "name": "Southwest interior city connector",
       "parentGuides": 8,
       "licensedPhotos": 30,
-      "evidenceCompleteSubsites": 9,
+      "evidenceCompleteSubsites": 11,
       "parentAnswersPreserved": 116,
       "photoEvidenceDeferredParents": 1,
       "status": "partial-generated-and-verified"
@@ -129,11 +129,11 @@
     }
   ],
   "activeCluster": {
-    "name": "Albuquerque city completion",
-    "reason": "Albuquerque is the next connected Southwest metro with three existing parent guides, complete licensed parent galleries, and three destination-level photo-and-coordinate matches ready for release.",
-    "releaseStandard": "Keep official parent answers visible, retain four licensed parent photos, and publish only Albuquerque subsites with exact reviewed coordinates, destination-specific licensed photography, and complete visitor answers.",
-    "status": "albuquerque-evidence-complete-subsites-in-progress",
-    "metros": ["Albuquerque"],
+    "name": "Fort Worth Trinity Park completion",
+    "reason": "Albuquerque's evidence-backed destinations are complete. Trinity Park is the next connected Southwest parent with two destination-matched licensed photographs, exact named map records, current official guidance, and high-value family arrival questions ready for release.",
+    "releaseStandard": "Keep Trinity Park's official parent answers visible and publish only destinations with exact reviewed coordinates, destination-matched reusable photography, current hours or cost guidance, and explicit weather, water, and event cautions.",
+    "status": "fort-worth-evidence-complete-subsites-in-progress",
+    "metros": ["Fort Worth"],
     "resumeCheckpoint": {
       "pausedAt": "2026-08-10",
       "completed": [
@@ -147,9 +147,11 @@
         "Published Red Mountain Park's Frankfurt Drive Entrance from current operator guidance, an official trail map, and a geotagged licensed entrance photograph.",
         "Deferred Red Mountain Park's remaining subsites rather than publishing unmatched photos or uncertain destination coordinates.",
         "Published and deployed three evidence-complete Myriad Botanical Gardens destinations: Inasmuch Foundation Crystal Bridge Conservatory, Children's Garden, and Water Stage.",
-        "Verified all 51 campaign suites and the active Vercel preview after the Oklahoma City release."
+        "Verified all 51 campaign suites and the active Vercel preview after the Oklahoma City release.",
+        "Published and preview-deployed Albuquerque's North Launch Field, Kiwanis Reservation Area, and Central Pond with exact reviewed coordinates and destination-matched licensed photography.",
+        "Corrected Elena Gallegos Open Space's parent map position from a stale south-side coordinate to the official Tramway Boulevard recreation area."
       ],
-      "nextAction": "Publish North Launch Field, Kiwanis Reservation Area, and Central Pond; verify the Albuquerque cluster; and retain the remaining Albuquerque destinations as photo-and-coordinate missions until exact reusable evidence surfaces.",
+      "nextAction": "Publish Forest Park Miniature Railroad Trinity Park Depot and Trinity Park Duck Pond; verify the Southwest connector; and retain Dream Park and other Trinity destinations as photo-and-coordinate missions until exact reusable evidence surfaces.",
       "notReleased": true,
       "productionPublished": false
     }
@@ -171,7 +173,7 @@
     "Lions Park in Cheyenne needs broad current views of Sloan's Lake, playgrounds, spray park, aquatic center, fields, shelters, and park circulation rather than Botanic Gardens close-ups alone."
   ],
   "nextClusters": [
-    "Complete Albuquerque's three evidence-backed destination pages after the Oklahoma City preview release.",
+    "Complete Trinity Park's two evidence-backed destination pages after the Albuquerque preview release.",
     "Revisit the deferred South Florida parents only when representative reusable photography clears review."
   ]
 }

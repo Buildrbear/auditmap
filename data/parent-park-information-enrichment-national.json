@@ -22638,7 +22638,16 @@
         }
       ],
       "replaceImages": true,
-      "sources": [],
+      "sources": [
+        {
+          "label": "Forest Park Miniature Railroad",
+          "url": "https://forestparktrains.com/hours-admission"
+        },
+        {
+          "label": "Fort Worth Park and Recreation Department",
+          "url": "https://www.fortworthtexas.gov/departments/parks/parks-and-trails/trinity-park"
+        }
+      ],
       "verifiedAt": "2026-08-08"
     },
     "launch-tx-fort-worth-gateway-park": {

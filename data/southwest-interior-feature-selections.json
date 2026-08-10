@@ -110,7 +110,50 @@
       }
     ],
     "launch-ok-oklahoma-city-lake-hefner-park": [],
-    "launch-tx-fort-worth-trinity-park": [],
+    "launch-tx-fort-worth-trinity-park": [
+      {
+        "name": "Forest Park Miniature Railroad Trinity Park Depot",
+        "latitude": 32.7373363,
+        "longitude": -97.3597529,
+        "coordinateSource": "https://www.openstreetmap.org/way/200335325",
+        "positionQuality": "reviewed-named-public-map-depot-centroid",
+        "checkedAt": "2026-08-10",
+        "imageIndex": 0,
+        "sourceLabel": "Forest Park Miniature Railroad",
+        "source": "https://forestparktrains.com/hours-admission",
+        "officialMapSource": "https://www.fortworthtexas.gov/departments/parks/parks-and-trails/trinity-park",
+        "summary": "The Trinity Park Depot is the north boarding platform for the Forest Park Miniature Railroad, a weather-dependent five-mile family train ride that crosses the Trinity River, follows the park corridor, and includes a midway snack stop.",
+        "cost": "Current operator pricing is $10 for riders age 13 and older, $8 for children ages 2-12 and seniors age 65 and older, and free for children age 1 and younger. Tickets use ride credits purchased at an on-site kiosk; food at the Trinity Park Snack Shack is paid separately and train credits are not accepted there.",
+        "hours": "The railroad operates seasonally and is weather dependent. The current regular schedule lists Sunday and Wednesday-Saturday from 10:00 a.m.-5:00 p.m., with Monday and Tuesday closed, but the live operating calendar controls and heat, wind, rain, maintenance, or events can shorten or cancel service.",
+        "needToKnow": "Check the operator's live calendar on the day of the trip and arrive about 15 minutes before the desired departure. Trains normally leave hourly, seats are first come, and the roughly 45-60 minute ride includes a midpoint stop. The Trinity Park Depot is distinct from the main Forest Park depot at 1700 Colonial Parkway; use this exact depot pin, and use the main depot if you need the operator's primary ticket-and-arrival location. Kiosks accept cash, major cards other than American Express and Discover, and tap payments. Do not rely on the train as transportation back to a parked car because weather or maintenance can end service early.",
+        "answers": {
+          "parking": "Route to the named Trinity Park Depot at 2001 University Drive and use only signed park spaces that are open on arrival. Do not route to the railroad's main Forest Park depot at 1700 Colonial Parkway unless that is where you intend to board. Trinity Park events and University Drive closures can change the final approach, so follow current signs and never leave a vehicle on grass, trail shoulders, or railroad access areas.",
+          "restroom": "The railroad operator lists a Trinity Park Snack Shack at the midpoint platform but does not promise a public restroom at this depot. Trinity Park has restrooms in selected developed areas, yet schedules and events can limit them. Identify an open restroom before boarding, especially with children, because the ride normally lasts 45-60 minutes.",
+          "accessibility": "The operator's current visitor pages do not document wheelchair boarding dimensions, transfer requirements, securement, or step-free access for the train cars. Contact the railroad before a mobility-sensitive trip rather than assuming the paved depot approach makes the ride accessible. The City can address access to Trinity Park itself, but the separately operated train controls boarding.",
+          "dogs": "Fort Worth permits leashed dogs in Trinity Park, but the railroad operator does not publish a general pet-boarding policy on its current visitor pages. Do not assume a non-service animal can board; contact the operator before arriving and be prepared to enjoy the park without taking the train.",
+          "family": "This is a family attraction, but plan for a 45-60 minute seated ride, hourly departures, first-come capacity, a midway stop, outdoor weather exposure, and possible same-day cancellation. Children age 1 and younger currently ride free; ages 2-12 use the child fare. Arrive early enough for tickets and a restroom stop rather than promising a particular departure."
+        }
+      },
+      {
+        "name": "Trinity Park Duck Pond",
+        "osm": "way/595204446",
+        "checkedAt": "2026-08-10",
+        "imageIndex": 1,
+        "sourceLabel": "Fort Worth Park and Recreation Department",
+        "source": "https://www.fortworthtexas.gov/departments/parks/parks-and-trails/trinity-park",
+        "summary": "Trinity Park Duck Pond is the park's named two-acre pond and wildlife-viewing stop, bordered by a walking path, mature trees, nearby parking, and the miniature railroad route.",
+        "cost": "Visiting the duck pond, using the surrounding path, and ordinary Trinity Park parking are free. Train rides, food, reserved facilities, events, and nearby attractions can cost separately.",
+        "hours": "The pond follows Trinity Park's daily 5:00 a.m.-10:00 p.m. hours. Flooding, high water, maintenance, Mayfest setup, road controls, or other park events can close the immediate area even when another portion of Trinity Park remains open.",
+        "needToKnow": "Use the exact pond pin rather than Trinity Park's general University Drive address because the park is long. Fort Worth specifically asks visitors not to feed waterfowl; bread and processed food can malnourish birds and contribute to deformities. The pond is for viewing, not swimming or wading, and it has open water, damp edges, and limited barriers, so keep children and leashed dogs close. Expect seasonal waterfowl in winter, but never promise a particular species or wildlife sighting.",
+        "answers": {
+          "parking": "Use the exact Duck Pond pin and the nearest open designated Trinity Park parking rather than the park's general University Drive address. Spaces and road access can change during Mayfest, runs, construction, flooding, or other events. Do not park on grass, paths, railroad access, or the pond edge.",
+          "restroom": "Fort Worth lists restrooms in Trinity Park's developed areas but does not promise that a restroom immediately beside the Duck Pond will be open throughout park hours. Identify the nearest open facility before settling in, especially during events or with children.",
+          "accessibility": "A path borders the pond, but the City page does not document a complete step-free pond circuit, exact surface conditions, slopes, curb transitions, or accessible seating at every side. Use the exact pin, inspect the approach on arrival, and avoid treating the general park trail listing as a guarantee that every shoreline viewpoint is accessible.",
+          "dogs": "Leashed dogs are allowed in Trinity Park. Keep dogs back from the pond edge and waterfowl, prevent chasing or entering the water, remove waste, and leave if wildlife or crowding makes control difficult. The pond is not an off-leash or dog-swimming area.",
+          "family": "The free pond stop can work well for a short wildlife walk, but it is open water rather than a playground. Keep children within reach near the edge, do not feed birds, do not enter the water, and pair the visit with Dream Park only if that separately located playground is open and fits the day's route."
+        }
+      }
+    ],
     "launch-tx-fort-worth-fort-worth-water-gardens": [
       {
         "name": "Active Pool",
@@ -143,7 +186,7 @@
     "launch-ok-oklahoma-city-scissortail-park": "Secure exact reusable photographs before publishing Scissortail Lake, playground, sprayground, Love's Stage, Sports Pavilion, dog park, Boathouse, restrooms, or additional gardens and event areas as separate pages.",
     "launch-ok-oklahoma-city-myriad-botanical-gardens": "Published the Inasmuch Foundation Crystal Bridge Conservatory, Children's Garden, and Water Stage from exact named or geotagged locations, official visitor guidance, and destination-specific licensed photographs. Secure exact photo-and-pin pairs before adding Thunder Fountain separately, Mo's Carousel, Great Lawn, dog park, restrooms, or entrances.",
     "launch-ok-oklahoma-city-lake-hefner-park": "Do not publish the East Wharf lighthouse as a Lake Hefner Park subsite: Oklahoma City states that it does not manage the lighthouse and the pin lies outside the reviewed park polygon. Secure exact public-access evidence, photographs, and pins before publishing trails, Stars and Stripes Park, marina, Hobie Point, Bluff Creek Park, playgrounds, dog areas, or restrooms.",
-    "launch-tx-fort-worth-trinity-park": "Secure exact destination-specific reusable photographs and reviewed pins before publishing Dream Park, Forest Park Miniature Railroad, Trinity Trails access points, Duck Pond, playground, shelters, restrooms, or parking areas as separate pages.",
+    "launch-tx-fort-worth-trinity-park": "Published Forest Park Miniature Railroad Trinity Park Depot and Trinity Park Duck Pond from exact named map records, current operator or City guidance, and destination-matched geotagged licensed photographs. Secure an exact reusable Dream Park photograph before publishing the inclusive playground, and exact photo-and-pin pairs before adding Trinity Trails access points, the north playground, shelters, restrooms, or parking areas as separate pages.",
     "launch-tx-fort-worth-fort-worth-water-gardens": "Secure an exact reviewed map feature before publishing the Aerating Pool, Mountain, Central Square, Stage and Lawn, Wet Wall, entrances, or accessible viewing routes as separate pages."
   }
 }
