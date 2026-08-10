@@ -61,5 +61,12 @@ for (const [name, sourceToken] of [["Valley Green Inn and Trailhead", "Valley_Gr
   if (!feature) failures.push(`Wissahickon Valley Park: missing ${name}`);
   else if (!(feature.details?.imageSourceUrl || "").includes(sourceToken)) failures.push(`Wissahickon Valley Park/${name}: destination image does not match`);
 }
+const dilworth = places.find((place) => place.id === "launch-pa-philadelphia-dilworth-park");
+for (const phrase of ["bathrooms inside City Hall", "full City Hall Broad Street Line accessibility remains an active project", "free Tuesday evening Zumba through October 6", "fountain operates seasonally from April through October"]) if (!JSON.stringify(dilworth).includes(phrase)) failures.push(`Dilworth Park: missing ${phrase}`);
+for (const [name, sourceToken] of [["Dilworth Park Fountain and Pulse", "15th_Street_SEPTA_2017_dilworth2"], ["Rothman Orthopaedics Ice Rink", "Dilworth_Park_ice_skating"], ["Albert M. Greenfield Lawn and Wintergarden", "DilworthLawn"], ["Dilworth Park Transit Entrances", "DilworthParkOpening"]]) {
+  const feature = dilworth?.features?.find((item) => item.name === name);
+  if (!feature) failures.push(`Dilworth Park: missing ${name}`);
+  else if (!(feature.details?.imageSourceUrl || "").includes(sourceToken)) failures.push(`Dilworth Park/${name}: destination image does not match`);
+}
 if (failures.length) { console.error(failures.map((failure) => `- ${failure}`).join("\n")); process.exit(1); }
 console.log(`Verified ${campaign.places.length} Philadelphia guides with sourced galleries, ${campaign.places.reduce((sum, place) => sum + place.subsites.length, 0)} full subsites, raw visitor answers, and current closure guidance.`);

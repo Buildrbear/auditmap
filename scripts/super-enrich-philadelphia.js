@@ -29,14 +29,10 @@ const featureProfiles = {
     { image: 8, description: "Fingerspan is Jody Pinto's sculptural footbridge on the Orange Trail, reached over steep, rocky natural-surface terrain." }
   ],
   "launch-pa-philadelphia-dilworth-park": [
-    { image: 0, description: "The Dilworth fountain is the warm-season water-play and people-watching area on City Hall's west apron; operation changes with weather and events." },
-    { image: 2, description: "The Rothman Orthopaedics Ice Rink is Dilworth Park's seasonal winter attraction, with timed admission, rentals, and weather-dependent sessions." },
-    { image: 1, description: "The Greenfield Lawn and Wintergarden are seasonal versions of the same central gathering space, used for seating, markets, food, and programmed events." },
-    { image: 3, description: "The City Hall concourse connects Dilworth Park directly to SEPTA rail, subway, trolley, and pedestrian passages; follow station signs for the correct exit." },
-    { image: 1, description: "The Dilworth Park Cafe and terrace provide seasonal food, drink, and seating beside the lawn and fountain; service hours and menus differ from park access." },
-    { image: 0, description: "Pulse is the site-specific public artwork integrated with the transit entrances and fountain plaza, using light and mist effects that may pause for maintenance or events." },
-    { image: 3, description: "City Hall's west portal is the architectural passage directly behind Dilworth Park and a useful meeting point, but building access and tours follow separate security schedules." },
-    { image: 2, description: "The Market Street side contains major transit elevators, stairs, and busy pedestrian crossings; choose this edge for step-free station access and Market Street connections." }
+    { image: 0, description: "The zero-depth fountain and Janet Echelman's Pulse artwork share the central plaza, with water jets and colored mist operating seasonally around events and maintenance." },
+    { image: 1, description: "The Rothman Orthopaedics Ice Rink replaces the fountain area each winter, with seasonal tickets, rentals, sessions and weather-dependent operations." },
+    { image: 2, description: "The Albert M. Greenfield Lawn is the warm-season turf gathering space and becomes the decorated Wintergarden during the colder season." },
+    { image: 3, description: "Dilworth Park's glass headhouses, stairs and elevators connect the plaza to SEPTA's 15th Street and City Hall transit complex, but step-free access differs by line." }
   ],
   "launch-pa-philadelphia-fdr-park": [
     { image: 0, description: "Anna C. Verna Playground is FDR Park's large inclusive play destination, but it is currently closed pending a 2026 safety inspection." },

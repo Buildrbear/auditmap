@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-10",
+  "checkedAt": "2026-08-06",
   "places": {
     "launch-pa-philadelphia-fairmount-park": {
       "Lemon Hill": {
@@ -77,12 +77,11 @@
       }
     },
     "launch-pa-philadelphia-dilworth-park": {
-      "Dilworth Park fountain": {
+      "Dilworth Park Fountain and Pulse": {
         "latitude": 39.9528846,
         "longitude": -75.164653,
-        "coordinateSource": "OpenStreetMap W/410095875",
-        "positionQuality": "Mapped public-place feature",
-        "matchedName": "Dilworth Park"
+        "coordinateSource": "AuditMap reviewed public-map placement",
+        "positionQuality": "Reviewed destination placement"
       },
       "Rothman Orthopaedics Ice Rink": {
         "latitude": 39.9528,
@@ -90,40 +89,15 @@
         "coordinateSource": "AuditMap reviewed public-map placement",
         "positionQuality": "Reviewed destination placement"
       },
-      "Greenfield Lawn and Wintergarden": {
+      "Albert M. Greenfield Lawn and Wintergarden": {
         "latitude": 39.9532,
         "longitude": -75.1648,
         "coordinateSource": "AuditMap reviewed public-map placement",
         "positionQuality": "Reviewed destination placement"
       },
-      "City Hall transit concourse": {
+      "Dilworth Park Transit Entrances": {
         "latitude": 39.9526,
         "longitude": -75.1644,
-        "coordinateSource": "AuditMap reviewed public-map placement",
-        "positionQuality": "Reviewed destination placement"
-      },
-      "Dilworth Park Cafe and terrace": {
-        "latitude": 39.953206,
-        "longitude": -75.1643762,
-        "coordinateSource": "OpenStreetMap N/10076153317",
-        "positionQuality": "Mapped public-place feature",
-        "matchedName": "Dilworth Park Café"
-      },
-      "Pulse public art": {
-        "latitude": 39.9529,
-        "longitude": -75.1647,
-        "coordinateSource": "AuditMap reviewed public-map placement",
-        "positionQuality": "Reviewed destination placement"
-      },
-      "City Hall west portal": {
-        "latitude": 39.9526,
-        "longitude": -75.1639,
-        "coordinateSource": "AuditMap reviewed public-map placement",
-        "positionQuality": "Reviewed destination placement"
-      },
-      "Market Street plaza and elevators": {
-        "latitude": 39.9528,
-        "longitude": -75.1651,
         "coordinateSource": "AuditMap reviewed public-map placement",
         "positionQuality": "Reviewed destination placement"
       }
