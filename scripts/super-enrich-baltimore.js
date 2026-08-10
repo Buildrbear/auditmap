@@ -58,6 +58,21 @@ const obsoleteFeatureSlugs = {
     "patterson-park-ice-rink",
     "patterson-park-athletic-fields",
   ],
+  "launch-md-baltimore-federal-hill-park": [
+    "federal-hill-park-playground",
+    "federalist-ship-play-structure",
+    "signal-hill-tower-play-structure",
+    "flag-staff-plaza",
+    "colonel-george-armistead-monument",
+    "general-samuel-smith-monument",
+    "federal-hill-basketball-court",
+  ],
+  "launch-md-baltimore-fort-mchenry-national-monument-and-historic-shrine": [
+    "flag-change-program",
+    "fort-mchenry-wetland",
+    "water-battery",
+    "fort-mchenry-picnic-area",
+  ],
 };
 function schedule(p) {
   if (p.id.endsWith("cylburn-arboretum"))

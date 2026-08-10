@@ -9,6 +9,14 @@
   },
   "recentlyCompleted": [
     {
+      "name": "Federal Hill and Fort McHenry evidence-gate pass",
+      "parentGuides": 2,
+      "licensedPhotos": 10,
+      "evidenceCompleteSubsites": 5,
+      "parentAnswersPreserved": 29,
+      "status": "generated-and-verified"
+    },
+    {
       "name": "Cylburn and Gwynns Falls evidence-gate pass",
       "parentGuides": 2,
       "licensedPhotos": 11,
@@ -159,9 +167,9 @@
   ],
   "activeCluster": {
     "name": "Baltimore-Annapolis Maryland connector",
-    "reason": "The current release continues the Washington and Potomac corridor through Baltimore with current, destination-specific guidance for Druid Hill Park, Patterson Park, Cylburn Arboretum, and Gwynns Falls/Leakin Park. It retains useful parent-level garden, building, entrance, trail, nature-center, seasonal, and safety information while limiting standalone destinations to exact reviewed pins with licensed matching photographs.",
+    "reason": "The current release continues the Washington and Potomac corridor through Baltimore with current, destination-specific guidance for six Baltimore guides: Druid Hill Park, Patterson Park, Cylburn Arboretum, Gwynns Falls/Leakin Park, Federal Hill Park, and Fort McHenry. It retains useful parent-level information while limiting standalone destinations to exact reviewed pins with licensed matching photographs.",
     "releaseStandard": "Retain official parent answers, require three to four current representative reusable photographs per released parent, and publish only named subsites with exact reviewed coordinates, destination-specific photography, and current operator guidance.",
-    "status": "baltimore-four-guide-evidence-pass-generated-and-verified",
+    "status": "baltimore-six-guide-evidence-pass-generated-and-verified",
     "metros": ["Bethesda", "Ellicott City", "Fairfax Station", "Gaithersburg", "Rockville", "Upper Marlboro", "Washington", "Wheaton"],
     "resumeCheckpoint": {
       "pausedAt": "2026-08-10",
@@ -224,9 +232,12 @@
         "Rebuilt Cylburn Arboretum around current August building schedules, quiet-garden expectations, weather context, four licensed parent photographs, and one exact destination page for Cylburn Mansion.",
         "Rebuilt Gwynns Falls/Leakin Park with entrance-by-entrance arrival guidance, the official 2024 trail map, seven licensed photographs, and exact destination pages for Carrie Murray Nature Center, Orianda Mansion, Gwynns Falls Trail, Magnolia Grove, and the I-70 trailhead.",
         "Removed thirteen weak standalone Baltimore cards whose inherited copy, approximate coordinates, or broad parent photographs did not meet the destination evidence gate; their useful facts remain on the parent guides where supported.",
-        "Added scoped-generation cleanup and a regression test so retired subsite folders disappear when an individual park is rebuilt without touching unrelated generated parks."
+        "Added scoped-generation cleanup and a regression test so retired subsite folders disappear when an individual park is rebuilt without touching unrelated generated parks.",
+        "Rebuilt Federal Hill Park with four licensed photographs, 14 sourced parent answers, practical street-parking and playground guidance, and one exact geotagged Harbor Overlook destination page.",
+        "Rebuilt Fort McHenry with six public-domain or Creative Commons photographs, 15 sourced parent answers, current NPS seasonal hours and admission guidance, and exact pages for the Visitor Center, Star Fort, Seawall Trail, and Orpheus statue.",
+        "Kept Federal Hill play structures and Fort McHenry programs, wetland, picnic area, and Water Battery as useful parent guidance rather than publishing standalone pages without matching photo-and-position evidence."
       ],
-      "nextAction": "Continue the Baltimore evidence-gate audit with Federal Hill Park and Fort McHenry, prioritizing current official arrival, hours, fee, closure, accessibility, family, and landmark guidance plus exact licensed photo-and-position pairs. Keep Centennial Park and Quiet Waters Park in Annapolis deferred until each has enough representative, commercially reusable destination photography.",
+      "nextAction": "Continue the Baltimore evidence-gate audit with Baltimore Waterfront Promenade and Lake Roland Park, prioritizing current official arrival, hours, fee, closure, accessibility, family, trail, waterfront, and landmark guidance plus exact licensed photo-and-position pairs. Keep Centennial Park and Quiet Waters Park in Annapolis deferred until each has enough representative, commercially reusable destination photography.",
       "notReleased": true,
       "productionPublished": false
     }
@@ -253,7 +264,7 @@
     "Quiet Waters Park in Annapolis has official visitor facts and one reusable dog-beach image, but still needs three representative commercially reusable parent or destination views; Florida Quiet Waters media and noncommercial images are not acceptable substitutes."
   ],
   "nextClusters": [
-    "Continue the Baltimore evidence-gate audit with Federal Hill Park and Fort McHenry, publishing only exact licensed photo-and-position pairs and current official visitor guidance.",
+    "Continue the Baltimore evidence-gate audit with Baltimore Waterfront Promenade and Lake Roland Park, publishing only exact licensed photo-and-position pairs and current official visitor guidance.",
     "Continue the connected inland Broward corridor with T.Y. Park, Tree Tops Park, or Vista View Park only when each parent clears the official-information and three-to-four-image gates.",
     "Restore Snyder Park only after permission-cleared broad park, trail, dog-lake, playground, disc-golf, or butterfly-garden images replace the current no-derivatives results.",
     "Expand Okeeheelee Park only when exact reusable photo-and-pin pairs clear review for its Nature Center, Pooch Pines, BMX track, wake park, mountain-bike trailhead, equestrian center, fishing areas, pavilions, or entrances."

@@ -149,7 +149,34 @@
       "dogs": "Leashed dogs are welcome in ordinary outdoor areas. There is no off-leash dog enclosure, and dogs should stay out of play equipment and posted event areas.",
       "family": "The harbor view and ship-and-tower playground make a memorable short family stop. Closely supervise children around slopes, walls and busy bordering streets.",
       "transit": "Charm City Circulator and MTA service reach the Inner Harbor and Federal Hill neighborhood, followed by an uphill walk. The promenade and nearby bike routes also connect to the area.",
-      "need": "This is a viewpoint rather than a full-service park: bring water, plan a restroom stop and expect wind on the exposed summit. Fireworks and major events can radically change access."
+      "weather": "Check Baltimore heat, thunderstorms, snow, ice and harbor wind before climbing. The summit and harbor-facing slopes are exposed, while wet or icy stairs and steep grass can make the direct waterfront approach unsafe.",
+      "need": "This is a viewpoint rather than a full-service park: bring water, plan a restroom stop and expect wind on the exposed summit. Fireworks and major events can radically change access.",
+      "extraAnswers": [
+        {
+          "intentKey": "viewpoint",
+          "question": "Where is the best Inner Harbor view in Federal Hill Park?",
+          "answer": "Walk the paved upper rim and northwest slope facing the Inner Harbor. The geotagged overlook page marks the photographed viewpoint; several nearby benches and path segments provide slightly different skyline angles.",
+          "sourceLabel": "Wikimedia Commons geotag and Federal Hill Park guide",
+          "source": "https://commons.wikimedia.org/wiki/File:Baltimore%27s_Inner_Harbor%2C_viewed_from_a_slope_of_Federal_Hill_Park.jpg",
+          "freshnessClass": "slow"
+        },
+        {
+          "intentKey": "playground",
+          "question": "What is in the Federal Hill Park playground?",
+          "answer": "The fenced hilltop playground uses Baltimore history as its theme: the Federalist Ship, Signal Hill Tower, Fort Federal Hill and a B&O Railroad-inspired toddler train. Treat them as one compact playground rather than four separate destinations.",
+          "sourceLabel": "South Harbor Renaissance",
+          "source": "https://www.federalhillpark.com/train/",
+          "freshnessClass": "slow"
+        },
+        {
+          "intentKey": "parking-details",
+          "question": "Does Federal Hill Park have its own parking lot?",
+          "answer": "No dedicated visitor lot is documented. Street spaces around Warren, Battery and Covington are regulated and weekend demand is often high; read the block's current signs or use a paid Inner Harbor garage rather than assuming unrestricted parking.",
+          "sourceLabel": "Baltimore City Parks guide and Baltimore City parking study",
+          "source": "https://baltimorecityparks.com/federal-hill-park/",
+          "freshnessClass": "fast"
+        }
+      ]
     },
     "launch-md-baltimore-fort-mchenry-national-monument-and-historic-shrine": {
       "address": "2400 East Fort Avenue, Baltimore, MD 21230",
@@ -165,7 +192,42 @@
       "dogs": "Leashed pets are allowed on outdoor grounds but not inside buildings or the historic Star Fort. Service animals are permitted in buildings under applicable rules.",
       "family": "The orientation film, ranger talks, flag programs and Junior Ranger activity make this a strong family history visit. Program schedules vary, so check the calendar before arrival.",
       "transit": "MTA bus service reaches the Locust Point area, but the final walk can be substantial. Bicycles are allowed on paved park areas but not inside the historic zone.",
-      "need": "The Star Fort has shorter hours than the grounds. In summer, last park entry is 4:45 p.m. weekdays and 5:45 p.m. weekends; winter and fall last entry is 4:45 p.m. The park closes Thanksgiving, December 25 and January 1. Check NPS alerts before traveling."
+      "weather": "Check NPS alerts plus Baltimore heat, lightning, harbor wind, heavy rain, snow and ice. Ranger programs, artillery demonstrations and flag activities can change for weather or staffing even when the grounds remain open.",
+      "need": "The Star Fort has shorter hours than the grounds. In summer, last park entry is 4:45 p.m. weekdays and 5:45 p.m. weekends; winter and fall last entry is 4:45 p.m. The park closes Thanksgiving, December 25 and January 1. Check NPS alerts before traveling.",
+      "extraAnswers": [
+        {
+          "intentKey": "visitor-center",
+          "question": "What should I do first at Fort McHenry?",
+          "answer": "Start at the Paul S. Sarbanes Visitor and Education Center beside the main lot. The free building has the orientation film, museum exhibits, ranger desk, Junior Ranger booklets, bookstore, restrooms, bottle filling and the desk where Star Fort passes are sold.",
+          "sourceLabel": "National Park Service",
+          "source": "https://www.nps.gov/fomc/planyourvisit/visitorcenters.htm",
+          "freshnessClass": "fast"
+        },
+        {
+          "intentKey": "seawall-trail",
+          "question": "How long is the Fort McHenry Seawall Trail?",
+          "answer": "NPS describes it as a paved, wheelchair-accessible one-mile loop, with roughly three-quarters of a mile along the Patapsco River. It is free and includes benches, interpretive signs, harbor views and the Orpheus monument.",
+          "sourceLabel": "National Park Service",
+          "source": "https://www.nps.gov/places/sea-wall-trail.htm",
+          "freshnessClass": "slow"
+        },
+        {
+          "intentKey": "flag-program",
+          "question": "Can visitors help raise or lower the flag at Fort McHenry?",
+          "answer": "NPS advertises visitor participation in morning or evening flag-change programs, but programs depend on staffing and weather. Ask at the visitor-center desk on arrival instead of planning around an assumed daily time.",
+          "sourceLabel": "National Park Service",
+          "source": "https://www.nps.gov/fomc/planyourvisit/things2do.htm",
+          "freshnessClass": "fast"
+        },
+        {
+          "intentKey": "food",
+          "question": "Can I buy food or picnic at Fort McHenry?",
+          "answer": "There is no restaurant. The visitor center sells bottled water, exterior vending machines offer snacks and drinks, and picnic tables are available on the west side; picnicking is not allowed inside the Visitor Center or Star Fort.",
+          "sourceLabel": "National Park Service",
+          "source": "https://www.nps.gov/fomc/planyourvisit/visitorcenters.htm",
+          "freshnessClass": "fast"
+        }
+      ]
     },
     "launch-md-baltimore-cylburn-arboretum": {
       "address": "4915 Greenspring Avenue, Baltimore, MD 21209",

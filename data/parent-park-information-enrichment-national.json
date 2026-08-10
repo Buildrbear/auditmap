@@ -29788,9 +29788,39 @@
         {
           "intentKey": "weather",
           "question": "What weather should I check before visiting Federal Hill Park?",
-          "answer": "Check current Baltimore weather and operator alerts. Harbor wind, thunderstorms, flash flooding, stream and lake conditions, heat, snow and ice can close trails, water access or facilities independently.",
+          "answer": "Check Baltimore heat, thunderstorms, snow, ice and harbor wind before climbing. The summit and harbor-facing slopes are exposed, while wet or icy stairs and steep grass can make the direct waterfront approach unsafe.",
           "sourceLabel": "Baltimore City Recreation and Parks",
           "source": "https://www.federalhillpark.com/",
+          "verifiedAt": "2026-08-10",
+          "freshnessClass": "fast",
+          "status": "verified"
+        },
+        {
+          "intentKey": "viewpoint",
+          "question": "Where is the best Inner Harbor view in Federal Hill Park?",
+          "answer": "Walk the paved upper rim and northwest slope facing the Inner Harbor. The geotagged overlook page marks the photographed viewpoint; several nearby benches and path segments provide slightly different skyline angles.",
+          "sourceLabel": "Wikimedia Commons geotag and Federal Hill Park guide",
+          "source": "https://commons.wikimedia.org/wiki/File:Baltimore%27s_Inner_Harbor%2C_viewed_from_a_slope_of_Federal_Hill_Park.jpg",
+          "verifiedAt": "2026-08-10",
+          "freshnessClass": "slow",
+          "status": "verified"
+        },
+        {
+          "intentKey": "playground",
+          "question": "What is in the Federal Hill Park playground?",
+          "answer": "The fenced hilltop playground uses Baltimore history as its theme: the Federalist Ship, Signal Hill Tower, Fort Federal Hill and a B&O Railroad-inspired toddler train. Treat them as one compact playground rather than four separate destinations.",
+          "sourceLabel": "South Harbor Renaissance",
+          "source": "https://www.federalhillpark.com/train/",
+          "verifiedAt": "2026-08-10",
+          "freshnessClass": "slow",
+          "status": "verified"
+        },
+        {
+          "intentKey": "parking-details",
+          "question": "Does Federal Hill Park have its own parking lot?",
+          "answer": "No dedicated visitor lot is documented. Street spaces around Warren, Battery and Covington are regulated and weekend demand is often high; read the block's current signs or use a paid Inner Harbor garage rather than assuming unrestricted parking.",
+          "sourceLabel": "Baltimore City Parks guide and Baltimore City parking study",
+          "source": "https://baltimorecityparks.com/federal-hill-park/",
           "verifiedAt": "2026-08-10",
           "freshnessClass": "fast",
           "status": "verified"
@@ -70394,9 +70424,49 @@
         {
           "intentKey": "weather",
           "question": "What weather should I check before visiting Fort McHenry National Monument and Historic Shrine?",
-          "answer": "Check current Baltimore weather and operator alerts. Harbor wind, thunderstorms, flash flooding, stream and lake conditions, heat, snow and ice can close trails, water access or facilities independently.",
+          "answer": "Check NPS alerts plus Baltimore heat, lightning, harbor wind, heavy rain, snow and ice. Ranger programs, artillery demonstrations and flag activities can change for weather or staffing even when the grounds remain open.",
           "sourceLabel": "National Park Service",
           "source": "https://www.nps.gov/fomc/planyourvisit/index.htm",
+          "verifiedAt": "2026-08-10",
+          "freshnessClass": "fast",
+          "status": "verified"
+        },
+        {
+          "intentKey": "visitor-center",
+          "question": "What should I do first at Fort McHenry?",
+          "answer": "Start at the Paul S. Sarbanes Visitor and Education Center beside the main lot. The free building has the orientation film, museum exhibits, ranger desk, Junior Ranger booklets, bookstore, restrooms, bottle filling and the desk where Star Fort passes are sold.",
+          "sourceLabel": "National Park Service",
+          "source": "https://www.nps.gov/fomc/planyourvisit/visitorcenters.htm",
+          "verifiedAt": "2026-08-10",
+          "freshnessClass": "fast",
+          "status": "verified"
+        },
+        {
+          "intentKey": "seawall-trail",
+          "question": "How long is the Fort McHenry Seawall Trail?",
+          "answer": "NPS describes it as a paved, wheelchair-accessible one-mile loop, with roughly three-quarters of a mile along the Patapsco River. It is free and includes benches, interpretive signs, harbor views and the Orpheus monument.",
+          "sourceLabel": "National Park Service",
+          "source": "https://www.nps.gov/places/sea-wall-trail.htm",
+          "verifiedAt": "2026-08-10",
+          "freshnessClass": "slow",
+          "status": "verified"
+        },
+        {
+          "intentKey": "flag-program",
+          "question": "Can visitors help raise or lower the flag at Fort McHenry?",
+          "answer": "NPS advertises visitor participation in morning or evening flag-change programs, but programs depend on staffing and weather. Ask at the visitor-center desk on arrival instead of planning around an assumed daily time.",
+          "sourceLabel": "National Park Service",
+          "source": "https://www.nps.gov/fomc/planyourvisit/things2do.htm",
+          "verifiedAt": "2026-08-10",
+          "freshnessClass": "fast",
+          "status": "verified"
+        },
+        {
+          "intentKey": "food",
+          "question": "Can I buy food or picnic at Fort McHenry?",
+          "answer": "There is no restaurant. The visitor center sells bottled water, exterior vending machines offer snacks and drinks, and picnic tables are available on the west side; picnicking is not allowed inside the Visitor Center or Star Fort.",
+          "sourceLabel": "National Park Service",
+          "source": "https://www.nps.gov/fomc/planyourvisit/visitorcenters.htm",
           "verifiedAt": "2026-08-10",
           "freshnessClass": "fast",
           "status": "verified"
@@ -70438,6 +70508,24 @@
           "alt": "View of Baltimore Harbor from Fort McHenry 9 at Fort McHenry National Monument and Historic Shrine",
           "width": 1600,
           "height": 1000
+        },
+        {
+          "url": "/assets/parks/baltimore-super/fort-mchenry-national-monument-and-historic-shrine/05-paul-s-sarbanes-visitor-and-education-center-jpg.webp",
+          "source": "https://www.nps.gov/fomc/planyourvisit/visitorcenters.htm",
+          "author": "National Park Service",
+          "license": "Public domain (NPS photo)",
+          "alt": "Paul S. Sarbanes Visitor and Education Center at Fort McHenry National Monument and Historic Shrine",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/baltimore-super/fort-mchenry-national-monument-and-historic-shrine/06-cherry-blossoms-along-the-fort-mchenry-seawall-trail-jpg.webp",
+          "source": "https://www.nps.gov/places/sea-wall-trail.htm",
+          "author": "National Park Service / Tim Ervin",
+          "license": "Public domain (NPS photo)",
+          "alt": "Cherry blossoms along the Fort McHenry Seawall Trail at Fort McHenry National Monument and Historic Shrine",
+          "width": 1600,
+          "height": 900
         }
       ],
       "replaceImages": true,

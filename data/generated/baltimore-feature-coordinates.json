@@ -67,102 +67,36 @@
     },
     "launch-md-baltimore-federal-hill-park": {
       "federal-hill-harbor-overlook": {
-        "latitude": 39.2800648,
-        "longitude": -76.6084642,
-        "displayName": "Preserved coordinate for Federal Hill Harbor Overlook",
-        "source": "AuditMap official-map placement"
-      },
-      "federal-hill-park-playground": {
-        "latitude": 39.28004613513652,
-        "longitude": -76.60803286486347,
-        "displayName": "Preserved coordinate for Federal Hill Park Playground",
-        "source": "AuditMap official-map placement"
-      },
-      "federalist-ship-play-structure": {
-        "latitude": 39.2796148,
-        "longitude": -76.6076942,
-        "displayName": "Preserved coordinate for Federalist Ship Play Structure",
-        "source": "AuditMap official-map placement"
-      },
-      "signal-hill-tower-play-structure": {
-        "latitude": 39.27929660194847,
-        "longitude": -76.60814600194847,
-        "displayName": "Preserved coordinate for Signal Hill Tower Play Structure",
-        "source": "AuditMap official-map placement"
-      },
-      "flag-staff-plaza": {
-        "latitude": 39.279004799999996,
-        "longitude": -76.6084642,
-        "displayName": "Preserved coordinate for Flag Staff Plaza",
-        "source": "AuditMap official-map placement"
-      },
-      "colonel-george-armistead-monument": {
-        "latitude": 39.279070327778484,
-        "longitude": -76.60900867222152,
-        "displayName": "Preserved coordinate for Colonel George Armistead Monument",
-        "source": "AuditMap official-map placement"
-      },
-      "general-samuel-smith-monument": {
-        "latitude": 39.2796148,
-        "longitude": -76.6089142,
-        "displayName": "Preserved coordinate for General Samuel Smith Monument",
-        "source": "AuditMap official-map placement"
-      },
-      "federal-hill-basketball-court": {
-        "latitude": 39.28004613513652,
-        "longitude": -76.60889553513653,
-        "displayName": "Preserved coordinate for Federal Hill Basketball Court",
-        "source": "AuditMap official-map placement"
+        "latitude": 39.280003,
+        "longitude": -76.610253,
+        "displayName": "Geotagged Inner Harbor viewpoint on the northwest slope of Federal Hill Park",
+        "source": "Wikimedia Commons photograph GPS and scenic-viewpoint structured data"
       }
     },
     "launch-md-baltimore-fort-mchenry-national-monument-and-historic-shrine": {
       "fort-mchenry-visitor-center": {
-        "latitude": 39.2653236,
-        "longitude": -76.5796144,
-        "displayName": "Preserved coordinate for Fort McHenry Visitor Center",
-        "source": "OpenStreetMap Nominatim"
+        "latitude": 39.2653163,
+        "longitude": -76.5795968,
+        "displayName": "Paul S. Sarbanes Visitor and Education Center at 2400 East Fort Avenue",
+        "source": "OpenStreetMap named building reviewed against the current NPS visitor-center page"
       },
       "star-fort": {
         "latitude": 39.263397,
         "longitude": -76.5783075,
-        "displayName": "Preserved coordinate for Star Fort",
-        "source": "OpenStreetMap Nominatim"
+        "displayName": "Historic Star Fort interior",
+        "source": "OpenStreetMap named historic fort reviewed against current NPS visitor guidance"
       },
       "fort-mchenry-seawall-trail": {
-        "latitude": 39.2639092,
-        "longitude": -76.5777097,
-        "displayName": "Preserved coordinate for Fort McHenry Seawall Trail",
-        "source": "OpenStreetMap Nominatim"
+        "latitude": 39.2654631,
+        "longitude": -76.5792127,
+        "displayName": "Seawall Trail start beside the Visitor and Education Center",
+        "source": "OpenStreetMap named paved trail segment reviewed against the official NPS Sea Wall Trail page"
       },
       "orpheus-statue": {
-        "latitude": 39.26288180194847,
-        "longitude": -76.58018180194847,
-        "displayName": "Preserved coordinate for Orpheus Statue",
-        "source": "AuditMap official-map placement"
-      },
-      "flag-change-program": {
-        "latitude": 39.262589999999996,
-        "longitude": -76.5805,
-        "displayName": "Preserved coordinate for Flag Change Program",
-        "source": "AuditMap official-map placement"
-      },
-      "fort-mchenry-wetland": {
-        "latitude": 39.262655527778485,
-        "longitude": -76.58104447222152,
-        "displayName": "Preserved coordinate for Fort McHenry Wetland",
-        "source": "AuditMap official-map placement"
-      },
-      "water-battery": {
-        "latitude": 39.263591,
-        "longitude": -76.5783789,
-        "displayName": "Preserved coordinate for Water Battery",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "fort-mchenry-picnic-area": {
-        "latitude": 39.26363133513652,
-        "longitude": -76.58093133513653,
-        "displayName": "Preserved coordinate for Fort McHenry Picnic Area",
-        "source": "AuditMap official-map placement"
+        "latitude": 39.2641715,
+        "longitude": -76.582144,
+        "displayName": "Orpheus with the Awkward Foot monument",
+        "source": "OpenStreetMap named artwork node 4978535780 reviewed against the official NPS Sea Wall Trail page"
       }
     },
     "launch-md-baltimore-cylburn-arboretum": {

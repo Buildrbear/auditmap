@@ -175,6 +175,95 @@
         "need": "This is a scheduled, staffed facility rather than an always-open park amenity. Call or check the current program listing before crossing the park for indoor access."
       }
     },
+    "launch-md-baltimore-federal-hill-park": {
+      "federal-hill-harbor-overlook": {
+        "name": "Federal Hill Harbor Overlook",
+        "description": "The Federal Hill Harbor Overlook is the park's photographed northwest-facing slope and upper-rim viewpoint across Baltimore's Inner Harbor and downtown skyline.",
+        "address": "Federal Hill Park, Warren Avenue, Baltimore, MD 21230",
+        "sourceLabel": "Federal Hill Park guide",
+        "source": "https://baltimorecityparks.com/federal-hill-park/",
+        "imageIndex": 1,
+        "location": "Use the geotagged viewpoint on the northwest slope below the upper rim, then walk the nearby paved edge for alternate skyline angles. It is west of the playground and not the lower basketball court.",
+        "parking": "There is no dedicated overlook lot. Read current street signs around Warren, Battery and Covington or use a paid Inner Harbor garage; weekend and event demand can be intense.",
+        "hours": "Baltimore's official general park guidance says parks are open dawn to dusk. Events, maintenance, ice or posted restrictions can change access to an individual path or slope.",
+        "restrooms": "There is no dependable public restroom at the overlook. Use an open Inner Harbor visitor facility, museum or business before climbing.",
+        "fees": "The overlook and ordinary park access are free. Street meters, garages, nearby attractions, permits and special events are separate.",
+        "accessibility": "The upper plateau is the easier approach, but the exact photographed slope point is below the rim and may require a grade. Visitors avoiding stairs should approach from Warren Avenue and choose a paved upper-rim view.",
+        "dogs": "Leashed dogs may accompany visitors on ordinary park paths. Keep them controlled near slopes, walls, children and busy bordering streets, and remove waste.",
+        "family": "The skyline view is a quick family stop that pairs naturally with the fenced hilltop playground. Supervise closely near walls, steep grass and the harbor-side stairs.",
+        "need": "The geotag marks one strong photographed angle, not the only viewpoint. Wind, glare and afternoon storms can change the experience quickly on the exposed hill."
+      }
+    },
+    "launch-md-baltimore-fort-mchenry-national-monument-and-historic-shrine": {
+      "fort-mchenry-visitor-center": {
+        "name": "Paul S. Sarbanes Visitor and Education Center",
+        "description": "The Paul S. Sarbanes Visitor and Education Center is the free orientation hub for Fort McHenry, with the film, museum, ranger desk, bookstore, restrooms and Star Fort pass sales.",
+        "address": "2400 East Fort Avenue, Baltimore, MD 21230",
+        "sourceLabel": "National Park Service",
+        "source": "https://www.nps.gov/fomc/planyourvisit/visitorcenters.htm",
+        "imageIndex": 4,
+        "location": "Follow the park road from East Fort Avenue to the main parking lot. The Visitor and Education Center is directly beside the lot and should be the first stop before walking toward the historic zone.",
+        "parking": "Free main and overflow parking, including first-come accessible spaces, serves the center. Parking is for park visitors and fills more quickly during major programs.",
+        "hours": "Current summer hours are 9:00 a.m.-4:45 p.m. Monday-Friday and 9:00 a.m.-5:45 p.m. Saturday-Sunday. Seasonal hours and Thanksgiving, December 25 and January 1 closures apply; recheck NPS before leaving.",
+        "restrooms": "Accessible and family restrooms, bottle-filling and drinking water are inside. Exterior vending machines offer snacks and drinks, but access follows building hours.",
+        "fees": "The visitor center, exhibits and orientation film are free. Star Fort Historic Zone admission is sold separately at the front desk and is currently $15 per adult age 16 and older.",
+        "accessibility": "The building, parking, restrooms, film and exhibits are accessible; wheelchairs can be borrowed, the film is captioned and exhibits include audio narration. Request ASL interpretation at least 14 days ahead.",
+        "dogs": "Pets are not allowed inside the building, even in carriers. ADA-defined service animals are permitted; leashed pets may use designated outdoor grounds.",
+        "family": "Pick up Junior Ranger booklets, see the ten-minute film and ask the ranger desk about same-day programs before walking to the fort. Baby-changing and family-restroom facilities are available.",
+        "need": "Pass registers close before the building and park gates. Buy Star Fort admission early and confirm the final film and program times at the desk."
+      },
+      "star-fort": {
+        "name": "Star Fort",
+        "description": "The historic Star Fort is Fort McHenry's paid interior zone, preserving original brick, bastions, barracks and exhibits spanning the War of 1812 through World War I.",
+        "address": "2400 East Fort Avenue, Baltimore, MD 21230",
+        "sourceLabel": "National Park Service",
+        "source": "https://www.nps.gov/fomc/planyourvisit/things2do.htm",
+        "imageIndex": 1,
+        "location": "Start at the Visitor and Education Center to buy or validate admission, then follow the paved path east to the fenced historic zone and Star Fort entrance.",
+        "parking": "Use the free main visitor lot by the Visitor Center, not service roads near the fort. The walk to the historic zone is part of the visit.",
+        "hours": "The Star Fort opens at 9:00 a.m. and closes 15 minutes before the park gates. Summer closing is 4:45 p.m. weekdays and 5:45 p.m. weekends; seasonal and holiday schedules apply.",
+        "restrooms": "Accessible restrooms are available inside the Star Fort during historic-zone hours and at the Visitor Center. Do not count on access after the zone closes.",
+        "fees": "Admission is currently $15 per adult age 16 and older; children 15 and younger enter free. The pass is valid for seven days, the site is cashless and federal passes are accepted.",
+        "accessibility": "A paved route reaches the fort and most interior exhibits are accessible, but historic surfaces and individual rooms vary. Borrow a wheelchair or ask the Visitor Center about a specific route.",
+        "dogs": "Pets are prohibited within the split-rail-fenced Historic Zone and Star Fort. ADA-defined service animals are permitted.",
+        "family": "The fort, exhibits, ranger interpretation and Junior Ranger activities are the core family history experience. Keep children off walls and artifacts and allow time for the orientation film first.",
+        "need": "The free grounds and the paid Star Fort are different experiences. Arrive early enough to buy admission and complete the interior before its earlier closing time."
+      },
+      "fort-mchenry-seawall-trail": {
+        "name": "Fort McHenry Seawall Trail",
+        "description": "The Fort McHenry Seawall Trail is a free paved one-mile loop connecting the Visitor Center area with Patapsco River views, benches, cherry trees, interpretive signs and Orpheus.",
+        "address": "2400 East Fort Avenue, Baltimore, MD 21230",
+        "sourceLabel": "National Park Service",
+        "source": "https://www.nps.gov/places/sea-wall-trail.htm",
+        "imageIndex": 5,
+        "location": "This pin marks the named paved trail segment beside the Visitor Center. Follow the signed loop around the park rather than navigating to a single waterfront photo point.",
+        "parking": "Use the free main or overflow visitor lot and join the trail near the Visitor Center. Do not park on service roads or assume the lot remains open after park gates close.",
+        "hours": "The trail follows park-ground hours: summer 7:00 a.m.-5:00 p.m. weekdays and 7:00 a.m.-6:00 p.m. weekends, with shorter seasonal hours. All visitors must exit before gates close.",
+        "restrooms": "Use accessible restrooms at the Visitor Center or Star Fort while those buildings are open. There are no continuously open facilities around the waterfront loop.",
+        "fees": "The Seawall Trail is free; a Star Fort ticket is not required. Parking is also free for park visitors.",
+        "accessibility": "NPS identifies the paved trail as wheelchair accessible and lists benches along the route. Wind, debris, snow, ice or temporary work can still affect an individual segment.",
+        "dogs": "Leashed pets are allowed on the trail with a leash no longer than six feet. Bring waste bags, keep pets away from wildlife and remember that pets cannot enter the historic zone or buildings.",
+        "family": "The flat loop offers a lower-cost, flexible family visit with harbor views and room to walk, run or bike. Bring water and keep children away from the seawall edge and roadway crossings.",
+        "need": "The route is about one mile, with roughly three-quarters of a mile along the river. Harbor wind and limited shade can make it feel longer in heat or cold."
+      },
+      "orpheus-statue": {
+        "name": "Orpheus Statue",
+        "description": "Orpheus with the Awkward Foot is the large 1922 Francis Scott Key monument beside the west side of Fort McHenry's Seawall Trail.",
+        "address": "2400 East Fort Avenue, Baltimore, MD 21230",
+        "sourceLabel": "National Park Service",
+        "source": "https://www.nps.gov/places/sea-wall-trail.htm",
+        "imageIndex": 2,
+        "location": "Use the exact named OpenStreetMap artwork pin on the west side of the park. The monument sits along the Seawall Trail, west of the Star Fort and southwest of the main parking area.",
+        "parking": "Park in the free main visitor lot and walk the Seawall Trail to the monument. There is no separate monument parking, and nearby roads are not visitor spaces.",
+        "hours": "The outdoor monument follows park-ground hours and gate closures. It does not share the Star Fort admission requirement or interior closing line.",
+        "restrooms": "There are no restrooms at the statue. Use the Visitor Center or Star Fort facilities while those buildings are open.",
+        "fees": "Viewing Orpheus and walking the surrounding trail are free. Star Fort admission is separate.",
+        "accessibility": "The monument is reached from the paved, wheelchair-accessible Seawall Trail. The final viewing angle and nearby lawn may have grades or grass.",
+        "dogs": "Leashed pets may visit the outdoor monument and trail. Keep the leash within six feet, remove waste and do not continue into pet-restricted historic or building areas.",
+        "family": "Orpheus is an easy visual landmark on a short trail segment, but there is no staffed interpretation or play equipment at the statue itself.",
+        "need": "The monument is commonly described as Orpheus, while its mapped full name is Orpheus with the Awkward Foot. Save the exact pin because it is outside the Star Fort interior."
+      }
+    },
     "launch-md-baltimore-cylburn-arboretum": {
       "cylburn-mansion": {
         "name": "Cylburn Mansion",

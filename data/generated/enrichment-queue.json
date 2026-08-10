@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T13:21:03.728Z",
+  "generatedAt": "2026-08-10T18:06:24.299Z",
   "policy": {
     "publication": "AI findings remain proposed until a human accepts the fact and its sources.",
     "prioritization": "Daily-use and safety-sensitive gaps rank above descriptive content.",
@@ -9,7 +9,7 @@
   "summary": {
     "places": 911,
     "averageCoverageScore": 55,
-    "openTasks": 5998,
+    "openTasks": 5997,
     "urgentTasks": 961
   },
   "coverage": [
@@ -2866,8 +2866,8 @@
       "placeId": "launch-md-baltimore-federal-hill-park",
       "placeName": "Federal Hill Park",
       "expectedIntentCount": 14,
-      "coveredIntentCount": 6,
-      "coverageScore": 48
+      "coveredIntentCount": 7,
+      "coverageScore": 55
     },
     {
       "placeId": "launch-md-baltimore-fort-mchenry-national-monument-and-historic-shrine",
@@ -23944,31 +23944,6 @@
       "placeCoverageScore": 48
     },
     {
-      "id": "launch-md-baltimore-federal-hill-park:closures",
-      "placeId": "launch-md-baltimore-federal-hill-park",
-      "placeName": "Federal Hill Park",
-      "placeType": "Park",
-      "city": "Baltimore",
-      "state": "MD",
-      "intentKey": "closures",
-      "intentLabel": "Closures and availability",
-      "question": "Is anything at Federal Hill Park closed, seasonal, or temporarily unavailable?",
-      "reason": "No current, source-backed closures and availability answer is cataloged.",
-      "action": "research",
-      "priority": 96,
-      "freshnessDays": 3,
-      "previousAnswer": null,
-      "suggestedSources": [
-        {
-          "label": "Baltimore City Recreation and Parks",
-          "url": "https://www.federalhillpark.com/",
-          "sourceType": "official"
-        }
-      ],
-      "requiresHumanReview": true,
-      "placeCoverageScore": 48
-    },
-    {
       "id": "launch-va-virginia-beach-first-landing-state-park:closures",
       "placeId": "launch-va-virginia-beach-first-landing-state-park",
       "placeName": "First Landing State Park",
@@ -24222,6 +24197,21 @@
         {
           "label": "National Park Service",
           "url": "https://www.nps.gov/fomc/planyourvisit/index.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/fomc/planyourvisit/visitorcenters.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/places/sea-wall-trail.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/fomc/planyourvisit/things2do.htm",
           "sourceType": "official"
         }
       ],
@@ -30597,6 +30587,46 @@
       ],
       "requiresHumanReview": true,
       "placeCoverageScore": 51
+    },
+    {
+      "id": "launch-md-baltimore-federal-hill-park:closures",
+      "placeId": "launch-md-baltimore-federal-hill-park",
+      "placeName": "Federal Hill Park",
+      "placeType": "Park",
+      "city": "Baltimore",
+      "state": "MD",
+      "intentKey": "closures",
+      "intentLabel": "Closures and availability",
+      "question": "Is anything at Federal Hill Park closed, seasonal, or temporarily unavailable?",
+      "reason": "No current, source-backed closures and availability answer is cataloged.",
+      "action": "research",
+      "priority": 96,
+      "freshnessDays": 3,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Baltimore City Recreation and Parks",
+          "url": "https://www.federalhillpark.com/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Wikimedia Commons geotag and Federal Hill Park guide",
+          "url": "https://commons.wikimedia.org/wiki/File:Baltimore%27s_Inner_Harbor%2C_viewed_from_a_slope_of_Federal_Hill_Park.jpg",
+          "sourceType": "official"
+        },
+        {
+          "label": "South Harbor Renaissance",
+          "url": "https://www.federalhillpark.com/train/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore City Parks guide and Baltimore City parking study",
+          "url": "https://baltimorecityparks.com/federal-hill-park/",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 55
     },
     {
       "id": "launch-md-baltimore-patterson-park:closures",
@@ -60905,31 +60935,6 @@
       "placeCoverageScore": 48
     },
     {
-      "id": "launch-md-baltimore-federal-hill-park:trail-surface",
-      "placeId": "launch-md-baltimore-federal-hill-park",
-      "placeName": "Federal Hill Park",
-      "placeType": "Park",
-      "city": "Baltimore",
-      "state": "MD",
-      "intentKey": "trail-surface",
-      "intentLabel": "Walking surfaces and terrain",
-      "question": "What are the walking surfaces, slopes, and trail conditions at Federal Hill Park?",
-      "reason": "No current, source-backed walking surfaces and terrain answer is cataloged.",
-      "action": "research",
-      "priority": 80,
-      "freshnessDays": 90,
-      "previousAnswer": null,
-      "suggestedSources": [
-        {
-          "label": "Baltimore City Recreation and Parks",
-          "url": "https://www.federalhillpark.com/",
-          "sourceType": "official"
-        }
-      ],
-      "requiresHumanReview": true,
-      "placeCoverageScore": 48
-    },
-    {
       "id": "launch-va-virginia-beach-first-landing-state-park:trail-surface",
       "placeId": "launch-va-virginia-beach-first-landing-state-park",
       "placeName": "First Landing State Park",
@@ -61183,6 +61188,21 @@
         {
           "label": "National Park Service",
           "url": "https://www.nps.gov/fomc/planyourvisit/index.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/fomc/planyourvisit/visitorcenters.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/places/sea-wall-trail.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/fomc/planyourvisit/things2do.htm",
           "sourceType": "official"
         }
       ],
@@ -67558,6 +67578,46 @@
       ],
       "requiresHumanReview": true,
       "placeCoverageScore": 51
+    },
+    {
+      "id": "launch-md-baltimore-federal-hill-park:trail-surface",
+      "placeId": "launch-md-baltimore-federal-hill-park",
+      "placeName": "Federal Hill Park",
+      "placeType": "Park",
+      "city": "Baltimore",
+      "state": "MD",
+      "intentKey": "trail-surface",
+      "intentLabel": "Walking surfaces and terrain",
+      "question": "What are the walking surfaces, slopes, and trail conditions at Federal Hill Park?",
+      "reason": "No current, source-backed walking surfaces and terrain answer is cataloged.",
+      "action": "research",
+      "priority": 80,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Baltimore City Recreation and Parks",
+          "url": "https://www.federalhillpark.com/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Wikimedia Commons geotag and Federal Hill Park guide",
+          "url": "https://commons.wikimedia.org/wiki/File:Baltimore%27s_Inner_Harbor%2C_viewed_from_a_slope_of_Federal_Hill_Park.jpg",
+          "sourceType": "official"
+        },
+        {
+          "label": "South Harbor Renaissance",
+          "url": "https://www.federalhillpark.com/train/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore City Parks guide and Baltimore City parking study",
+          "url": "https://baltimorecityparks.com/federal-hill-park/",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 55
     },
     {
       "id": "launch-md-baltimore-patterson-park:trail-surface",
@@ -76149,31 +76209,6 @@
       "placeCoverageScore": 48
     },
     {
-      "id": "launch-md-baltimore-federal-hill-park:playground",
-      "placeId": "launch-md-baltimore-federal-hill-park",
-      "placeName": "Federal Hill Park",
-      "placeType": "Park",
-      "city": "Baltimore",
-      "state": "MD",
-      "intentKey": "playground",
-      "intentLabel": "Playgrounds",
-      "question": "What playgrounds are at Federal Hill Park, and what ages or abilities do they serve?",
-      "reason": "No current, source-backed playgrounds answer is cataloged.",
-      "action": "research",
-      "priority": 79,
-      "freshnessDays": 90,
-      "previousAnswer": null,
-      "suggestedSources": [
-        {
-          "label": "Baltimore City Recreation and Parks",
-          "url": "https://www.federalhillpark.com/",
-          "sourceType": "official"
-        }
-      ],
-      "requiresHumanReview": true,
-      "placeCoverageScore": 48
-    },
-    {
       "id": "launch-va-virginia-beach-first-landing-state-park:playground",
       "placeId": "launch-va-virginia-beach-first-landing-state-park",
       "placeName": "First Landing State Park",
@@ -76427,6 +76462,21 @@
         {
           "label": "National Park Service",
           "url": "https://www.nps.gov/fomc/planyourvisit/index.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/fomc/planyourvisit/visitorcenters.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/places/sea-wall-trail.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/fomc/planyourvisit/things2do.htm",
           "sourceType": "official"
         }
       ],
@@ -91688,31 +91738,6 @@
       "placeCoverageScore": 48
     },
     {
-      "id": "launch-md-baltimore-federal-hill-park:splash-pad",
-      "placeId": "launch-md-baltimore-federal-hill-park",
-      "placeName": "Federal Hill Park",
-      "placeType": "Park",
-      "city": "Baltimore",
-      "state": "MD",
-      "intentKey": "splash-pad",
-      "intentLabel": "Water play",
-      "question": "Is there a splash pad or water play at Federal Hill Park, and when does it operate?",
-      "reason": "No current, source-backed water play answer is cataloged.",
-      "action": "research",
-      "priority": 78,
-      "freshnessDays": 14,
-      "previousAnswer": null,
-      "suggestedSources": [
-        {
-          "label": "Baltimore City Recreation and Parks",
-          "url": "https://www.federalhillpark.com/",
-          "sourceType": "official"
-        }
-      ],
-      "requiresHumanReview": true,
-      "placeCoverageScore": 48
-    },
-    {
       "id": "launch-va-virginia-beach-first-landing-state-park:splash-pad",
       "placeId": "launch-va-virginia-beach-first-landing-state-park",
       "placeName": "First Landing State Park",
@@ -91966,6 +91991,21 @@
         {
           "label": "National Park Service",
           "url": "https://www.nps.gov/fomc/planyourvisit/index.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/fomc/planyourvisit/visitorcenters.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/places/sea-wall-trail.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/fomc/planyourvisit/things2do.htm",
           "sourceType": "official"
         }
       ],
@@ -98281,6 +98321,46 @@
       ],
       "requiresHumanReview": true,
       "placeCoverageScore": 48
+    },
+    {
+      "id": "launch-md-baltimore-federal-hill-park:splash-pad",
+      "placeId": "launch-md-baltimore-federal-hill-park",
+      "placeName": "Federal Hill Park",
+      "placeType": "Park",
+      "city": "Baltimore",
+      "state": "MD",
+      "intentKey": "splash-pad",
+      "intentLabel": "Water play",
+      "question": "Is there a splash pad or water play at Federal Hill Park, and when does it operate?",
+      "reason": "No current, source-backed water play answer is cataloged.",
+      "action": "research",
+      "priority": 78,
+      "freshnessDays": 14,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Baltimore City Recreation and Parks",
+          "url": "https://www.federalhillpark.com/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Wikimedia Commons geotag and Federal Hill Park guide",
+          "url": "https://commons.wikimedia.org/wiki/File:Baltimore%27s_Inner_Harbor%2C_viewed_from_a_slope_of_Federal_Hill_Park.jpg",
+          "sourceType": "official"
+        },
+        {
+          "label": "South Harbor Renaissance",
+          "url": "https://www.federalhillpark.com/train/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore City Parks guide and Baltimore City parking study",
+          "url": "https://baltimorecityparks.com/federal-hill-park/",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 55
     },
     {
       "id": "launch-md-baltimore-patterson-park:splash-pad",
@@ -110342,31 +110422,6 @@
       "placeCoverageScore": 48
     },
     {
-      "id": "launch-md-baltimore-federal-hill-park:dog-area",
-      "placeId": "launch-md-baltimore-federal-hill-park",
-      "placeName": "Federal Hill Park",
-      "placeType": "Park",
-      "city": "Baltimore",
-      "state": "MD",
-      "intentKey": "dog-area",
-      "intentLabel": "Dog areas and rules",
-      "question": "Where can dogs go at Federal Hill Park, and what rules apply?",
-      "reason": "No current, source-backed dog areas and rules answer is cataloged.",
-      "action": "research",
-      "priority": 72,
-      "freshnessDays": 90,
-      "previousAnswer": null,
-      "suggestedSources": [
-        {
-          "label": "Baltimore City Recreation and Parks",
-          "url": "https://www.federalhillpark.com/",
-          "sourceType": "official"
-        }
-      ],
-      "requiresHumanReview": true,
-      "placeCoverageScore": 48
-    },
-    {
       "id": "launch-va-virginia-beach-first-landing-state-park:dog-area",
       "placeId": "launch-va-virginia-beach-first-landing-state-park",
       "placeName": "First Landing State Park",
@@ -110620,6 +110675,21 @@
         {
           "label": "National Park Service",
           "url": "https://www.nps.gov/fomc/planyourvisit/index.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/fomc/planyourvisit/visitorcenters.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/places/sea-wall-trail.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/fomc/planyourvisit/things2do.htm",
           "sourceType": "official"
         }
       ],
@@ -116995,6 +117065,46 @@
       ],
       "requiresHumanReview": true,
       "placeCoverageScore": 51
+    },
+    {
+      "id": "launch-md-baltimore-federal-hill-park:dog-area",
+      "placeId": "launch-md-baltimore-federal-hill-park",
+      "placeName": "Federal Hill Park",
+      "placeType": "Park",
+      "city": "Baltimore",
+      "state": "MD",
+      "intentKey": "dog-area",
+      "intentLabel": "Dog areas and rules",
+      "question": "Where can dogs go at Federal Hill Park, and what rules apply?",
+      "reason": "No current, source-backed dog areas and rules answer is cataloged.",
+      "action": "research",
+      "priority": 72,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Baltimore City Recreation and Parks",
+          "url": "https://www.federalhillpark.com/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Wikimedia Commons geotag and Federal Hill Park guide",
+          "url": "https://commons.wikimedia.org/wiki/File:Baltimore%27s_Inner_Harbor%2C_viewed_from_a_slope_of_Federal_Hill_Park.jpg",
+          "sourceType": "official"
+        },
+        {
+          "label": "South Harbor Renaissance",
+          "url": "https://www.federalhillpark.com/train/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore City Parks guide and Baltimore City parking study",
+          "url": "https://baltimorecityparks.com/federal-hill-park/",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 55
     },
     {
       "id": "launch-ca-carlsbad-agua-hedionda-lagoon-discovery-center:dog-area",
@@ -126051,31 +126161,6 @@
       "placeCoverageScore": 48
     },
     {
-      "id": "launch-md-baltimore-federal-hill-park:picnic",
-      "placeId": "launch-md-baltimore-federal-hill-park",
-      "placeName": "Federal Hill Park",
-      "placeType": "Park",
-      "city": "Baltimore",
-      "state": "MD",
-      "intentKey": "picnic",
-      "intentLabel": "Picnic areas",
-      "question": "Where are picnic areas at Federal Hill Park, and do any require reservations?",
-      "reason": "No current, source-backed picnic areas answer is cataloged.",
-      "action": "research",
-      "priority": 68,
-      "freshnessDays": 90,
-      "previousAnswer": null,
-      "suggestedSources": [
-        {
-          "label": "Baltimore City Recreation and Parks",
-          "url": "https://www.federalhillpark.com/",
-          "sourceType": "official"
-        }
-      ],
-      "requiresHumanReview": true,
-      "placeCoverageScore": 48
-    },
-    {
       "id": "launch-va-virginia-beach-first-landing-state-park:picnic",
       "placeId": "launch-va-virginia-beach-first-landing-state-park",
       "placeName": "First Landing State Park",
@@ -126329,6 +126414,21 @@
         {
           "label": "National Park Service",
           "url": "https://www.nps.gov/fomc/planyourvisit/index.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/fomc/planyourvisit/visitorcenters.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/places/sea-wall-trail.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/fomc/planyourvisit/things2do.htm",
           "sourceType": "official"
         }
       ],
@@ -132644,6 +132744,46 @@
       ],
       "requiresHumanReview": true,
       "placeCoverageScore": 48
+    },
+    {
+      "id": "launch-md-baltimore-federal-hill-park:picnic",
+      "placeId": "launch-md-baltimore-federal-hill-park",
+      "placeName": "Federal Hill Park",
+      "placeType": "Park",
+      "city": "Baltimore",
+      "state": "MD",
+      "intentKey": "picnic",
+      "intentLabel": "Picnic areas",
+      "question": "Where are picnic areas at Federal Hill Park, and do any require reservations?",
+      "reason": "No current, source-backed picnic areas answer is cataloged.",
+      "action": "research",
+      "priority": 68,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Baltimore City Recreation and Parks",
+          "url": "https://www.federalhillpark.com/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Wikimedia Commons geotag and Federal Hill Park guide",
+          "url": "https://commons.wikimedia.org/wiki/File:Baltimore%27s_Inner_Harbor%2C_viewed_from_a_slope_of_Federal_Hill_Park.jpg",
+          "sourceType": "official"
+        },
+        {
+          "label": "South Harbor Renaissance",
+          "url": "https://www.federalhillpark.com/train/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore City Parks guide and Baltimore City parking study",
+          "url": "https://baltimorecityparks.com/federal-hill-park/",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 55
     },
     {
       "id": "launch-md-baltimore-patterson-park:picnic",
@@ -141575,31 +141715,6 @@
       "placeCoverageScore": 48
     },
     {
-      "id": "launch-md-baltimore-federal-hill-park:shade",
-      "placeId": "launch-md-baltimore-federal-hill-park",
-      "placeName": "Federal Hill Park",
-      "placeType": "Park",
-      "city": "Baltimore",
-      "state": "MD",
-      "intentKey": "shade",
-      "intentLabel": "Shade and weather comfort",
-      "question": "Where can visitors find shade or weather shelter at Federal Hill Park?",
-      "reason": "No current, source-backed shade and weather comfort answer is cataloged.",
-      "action": "research",
-      "priority": 64,
-      "freshnessDays": 180,
-      "previousAnswer": null,
-      "suggestedSources": [
-        {
-          "label": "Baltimore City Recreation and Parks",
-          "url": "https://www.federalhillpark.com/",
-          "sourceType": "official"
-        }
-      ],
-      "requiresHumanReview": true,
-      "placeCoverageScore": 48
-    },
-    {
       "id": "launch-va-virginia-beach-first-landing-state-park:shade",
       "placeId": "launch-va-virginia-beach-first-landing-state-park",
       "placeName": "First Landing State Park",
@@ -141853,6 +141968,21 @@
         {
           "label": "National Park Service",
           "url": "https://www.nps.gov/fomc/planyourvisit/index.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/fomc/planyourvisit/visitorcenters.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/places/sea-wall-trail.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/fomc/planyourvisit/things2do.htm",
           "sourceType": "official"
         }
       ],
@@ -148228,6 +148358,46 @@
       ],
       "requiresHumanReview": true,
       "placeCoverageScore": 51
+    },
+    {
+      "id": "launch-md-baltimore-federal-hill-park:shade",
+      "placeId": "launch-md-baltimore-federal-hill-park",
+      "placeName": "Federal Hill Park",
+      "placeType": "Park",
+      "city": "Baltimore",
+      "state": "MD",
+      "intentKey": "shade",
+      "intentLabel": "Shade and weather comfort",
+      "question": "Where can visitors find shade or weather shelter at Federal Hill Park?",
+      "reason": "No current, source-backed shade and weather comfort answer is cataloged.",
+      "action": "research",
+      "priority": 64,
+      "freshnessDays": 180,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Baltimore City Recreation and Parks",
+          "url": "https://www.federalhillpark.com/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Wikimedia Commons geotag and Federal Hill Park guide",
+          "url": "https://commons.wikimedia.org/wiki/File:Baltimore%27s_Inner_Harbor%2C_viewed_from_a_slope_of_Federal_Hill_Park.jpg",
+          "sourceType": "official"
+        },
+        {
+          "label": "South Harbor Renaissance",
+          "url": "https://www.federalhillpark.com/train/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore City Parks guide and Baltimore City parking study",
+          "url": "https://baltimorecityparks.com/federal-hill-park/",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 55
     },
     {
       "id": "launch-md-baltimore-patterson-park:shade",
@@ -159629,31 +159799,6 @@
       "placeCoverageScore": 48
     },
     {
-      "id": "launch-md-baltimore-federal-hill-park:public-art",
-      "placeId": "launch-md-baltimore-federal-hill-park",
-      "placeName": "Federal Hill Park",
-      "placeType": "Park",
-      "city": "Baltimore",
-      "state": "MD",
-      "intentKey": "public-art",
-      "intentLabel": "Landmarks and public art",
-      "question": "Where are the landmarks or public art at Federal Hill Park, and how do visitors find them?",
-      "reason": "No current, source-backed landmarks and public art answer is cataloged.",
-      "action": "research",
-      "priority": 60,
-      "freshnessDays": 180,
-      "previousAnswer": null,
-      "suggestedSources": [
-        {
-          "label": "Baltimore City Recreation and Parks",
-          "url": "https://www.federalhillpark.com/",
-          "sourceType": "official"
-        }
-      ],
-      "requiresHumanReview": true,
-      "placeCoverageScore": 48
-    },
-    {
       "id": "launch-va-virginia-beach-first-landing-state-park:public-art",
       "placeId": "launch-va-virginia-beach-first-landing-state-park",
       "placeName": "First Landing State Park",
@@ -159907,6 +160052,21 @@
         {
           "label": "National Park Service",
           "url": "https://www.nps.gov/fomc/planyourvisit/index.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/fomc/planyourvisit/visitorcenters.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/places/sea-wall-trail.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/fomc/planyourvisit/things2do.htm",
           "sourceType": "official"
         }
       ],
@@ -166282,6 +166442,46 @@
       ],
       "requiresHumanReview": true,
       "placeCoverageScore": 51
+    },
+    {
+      "id": "launch-md-baltimore-federal-hill-park:public-art",
+      "placeId": "launch-md-baltimore-federal-hill-park",
+      "placeName": "Federal Hill Park",
+      "placeType": "Park",
+      "city": "Baltimore",
+      "state": "MD",
+      "intentKey": "public-art",
+      "intentLabel": "Landmarks and public art",
+      "question": "Where are the landmarks or public art at Federal Hill Park, and how do visitors find them?",
+      "reason": "No current, source-backed landmarks and public art answer is cataloged.",
+      "action": "research",
+      "priority": 60,
+      "freshnessDays": 180,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Baltimore City Recreation and Parks",
+          "url": "https://www.federalhillpark.com/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Wikimedia Commons geotag and Federal Hill Park guide",
+          "url": "https://commons.wikimedia.org/wiki/File:Baltimore%27s_Inner_Harbor%2C_viewed_from_a_slope_of_Federal_Hill_Park.jpg",
+          "sourceType": "official"
+        },
+        {
+          "label": "South Harbor Renaissance",
+          "url": "https://www.federalhillpark.com/train/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Baltimore City Parks guide and Baltimore City parking study",
+          "url": "https://baltimorecityparks.com/federal-hill-park/",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 55
     },
     {
       "id": "launch-md-baltimore-patterson-park:public-art",

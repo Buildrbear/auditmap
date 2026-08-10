@@ -1,6 +1,40 @@
 {
   "checkedAt": "2026-08-10",
   "places": {
+    "launch-md-baltimore-federal-hill-park": {
+      "federal-hill-harbor-overlook": {
+        "latitude": 39.280003,
+        "longitude": -76.610253,
+        "displayName": "Geotagged Inner Harbor viewpoint on the northwest slope of Federal Hill Park",
+        "source": "Wikimedia Commons photograph GPS and scenic-viewpoint structured data"
+      }
+    },
+    "launch-md-baltimore-fort-mchenry-national-monument-and-historic-shrine": {
+      "fort-mchenry-visitor-center": {
+        "latitude": 39.2653163,
+        "longitude": -76.5795968,
+        "displayName": "Paul S. Sarbanes Visitor and Education Center at 2400 East Fort Avenue",
+        "source": "OpenStreetMap named building reviewed against the current NPS visitor-center page"
+      },
+      "star-fort": {
+        "latitude": 39.263397,
+        "longitude": -76.5783075,
+        "displayName": "Historic Star Fort interior",
+        "source": "OpenStreetMap named historic fort reviewed against current NPS visitor guidance"
+      },
+      "fort-mchenry-seawall-trail": {
+        "latitude": 39.2654631,
+        "longitude": -76.5792127,
+        "displayName": "Seawall Trail start beside the Visitor and Education Center",
+        "source": "OpenStreetMap named paved trail segment reviewed against the official NPS Sea Wall Trail page"
+      },
+      "orpheus-statue": {
+        "latitude": 39.2641715,
+        "longitude": -76.582144,
+        "displayName": "Orpheus with the Awkward Foot monument",
+        "source": "OpenStreetMap named artwork node 4978535780 reviewed against the official NPS Sea Wall Trail page"
+      }
+    },
     "launch-md-baltimore-cylburn-arboretum": {
       "cylburn-mansion": {
         "latitude": 39.3535065,
