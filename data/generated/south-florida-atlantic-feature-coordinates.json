@@ -465,6 +465,55 @@
         "displayName": "Hollywood Beach Theatre",
         "reviewStatus": "approved-official-map-and-geotag-match",
         "reviewedAt": "2026-08-10"
+      },
+      "hollywood-dog-beach": {
+        "name": "Hollywood Dog Beach",
+        "address": "4999 N Surf Rd, Hollywood, FL 33019",
+        "latitude": 26.044861,
+        "longitude": -80.113455,
+        "coordinateSource": "https://www.openstreetmap.org/way/10791333",
+        "officialMapSource": "https://hollywoodfl.org/facilities/facility/details/Dog-Beach-Hollywood-Beach-98",
+        "positionQuality": "reviewed-official-address-arrival-point",
+        "imageIndex": 1,
+        "checkedAt": "2026-08-10",
+        "sourceLabel": "City of Hollywood Parks, Recreation and Cultural Arts",
+        "source": "https://hollywoodfl.org/facilities/facility/details/Dog-Beach-Hollywood-Beach-98",
+        "summary": "Hollywood Dog Beach is the City's free designated dog-friendly ocean zone between the Pershing and Custer Street lifeguard stands, with street-side arrival from North Surf Road.",
+        "cost": "No pass or admission fee is required. Metered street parking, supplies, and private services cost separately.",
+        "hours": "Dog Beach is open daily from sunrise to sunset. Lifeguard staffing, lightning, dangerous surf, beach closures, maintenance, or special-event controls may shorten practical access.",
+        "needToKnow": "Navigate to the exact North Surf Road arrival point and confirm the Pershing-to-Custer boundary on posted signs. Dogs need a current rabies tag and must remain controlled; leash them everywhere outside the designated Dog Beach. Sick, aggressive, or in-heat dogs are prohibited, and owners must remove waste. Exit immediately when thunder is heard or lightning is seen.",
+        "answerSources": {
+          "parking": {
+            "source": "https://hollywoodfl.org/DocumentCenter/View/27071/hollywood-beach-map---03-2026",
+            "sourceLabel": "City of Hollywood"
+          },
+          "restroom": {
+            "source": "https://hollywoodfl.org/DocumentCenter/View/27071/hollywood-beach-map---03-2026",
+            "sourceLabel": "City of Hollywood"
+          },
+          "accessibility": {
+            "source": "https://hollywoodfl.org/facilities/facility/details/Dog-Beach-Hollywood-Beach-98",
+            "sourceLabel": "City of Hollywood Parks, Recreation and Cultural Arts"
+          },
+          "dogs": {
+            "source": "https://hollywoodfl.org/facilities/facility/details/Dog-Beach-Hollywood-Beach-98",
+            "sourceLabel": "City of Hollywood Parks, Recreation and Cultural Arts"
+          },
+          "family": {
+            "source": "https://hollywoodfl.org/facilities/facility/details/Dog-Beach-Hollywood-Beach-98",
+            "sourceLabel": "City of Hollywood Parks, Recreation and Cultural Arts"
+          }
+        },
+        "answers": {
+          "parking": "Use legal metered spaces along the north-beach streets near Pershing or Custer and read every posted restriction. The central beach garages are far from Dog Beach, so do not use a generic Hollywood Beach parking pin for this destination.",
+          "restroom": "The official Dog Beach page does not promise a restroom inside the dog zone. Identify the nearest public facility on the City's 2026 beach map before unloading, and do not rely on a private hotel or restaurant restroom.",
+          "accessibility": "The official page does not document a firm accessible route across the sand or a beach wheelchair at this dog zone. Visitors who need mat access or mobility equipment should contact the City before traveling and consider one of the City's named accessible beach entries instead.",
+          "dogs": "Dogs may be off leash only inside the posted Dog Beach boundary and must remain under the owner's control. A current rabies tag is required; sick, aggressive, or in-heat dogs are prohibited, and owners are responsible for cleanup and any injury or damage.",
+          "family": "Dog Beach can work for families comfortable around unfamiliar off-leash dogs and active surf. Keep children close, ask before approaching another dog, avoid food and toys that may trigger conflict, and leave during lightning, dangerous flags, or crowding."
+        },
+        "displayName": "Hollywood Dog Beach",
+        "reviewStatus": "approved-official-map-and-geotag-match",
+        "reviewedAt": "2026-08-10"
       }
     },
     "launch-fl-hollywood-anne-kolb-nature-center": {
