@@ -76517,6 +76517,426 @@
         }
       ],
       "replaceImages": true
+    },
+    "launch-fl-hollywood-anne-kolb-nature-center": {
+      "name": "Anne Kolb Nature Center",
+      "city": "Hollywood",
+      "citySlug": "hollywood-fl",
+      "operator": "Broward County Parks and Recreation",
+      "sourceLabel": "Broward County Parks and Recreation",
+      "source": "https://www.broward.org/Parks/ThingsToDo/Pages/exhibithalls.aspx",
+      "address": "751 Sheridan St, Hollywood, FL 33019",
+      "hours": "The nature center exhibit hall is currently open daily from 9:00 a.m. to 5:00 p.m. Outdoor trails, tower, programs, rentals, and gates can follow separate posted or weather-dependent schedules.",
+      "cost": "The nature center and exhibit hall currently have no admission fee. Programs, rentals, reserved facilities, and any posted weekend or holiday gate charge cost separately.",
+      "summary": "Anne Kolb Nature Center is Broward County's largest nature center, protecting a 1,501-acre mangrove wetland with a free exhibit hall and Eco-Room, a five-level observation tower, short nature trails, fishing access, and non-motorized paddling routes.",
+      "accessibility": "Developed visitor facilities include the exhibit hall and tower complex, but individual trails, elevator service, docks, and wet outdoor surfaces vary. Contact the center before traveling for a specific accommodation.",
+      "transit": "Broward County Transit serves the nature-center area. Use the current BCT trip planner for 751 Sheridan Street because stop patterns and route numbers can change.",
+      "verifiedAt": "2026-08-10",
+      "searchAnswers": [
+        {
+          "intentKey": "hours",
+          "question": "What hours is Anne Kolb Nature Center open?",
+          "answer": "The Broward County exhibit-hall page currently lists nature centers and their exhibit halls open daily from 9:00 a.m. to 5:00 p.m. Tower, trail, gate, event, and paddling access can close separately for weather, maintenance, or programming, so call 954-357-5161 before a time-sensitive visit.",
+          "sourceLabel": "Broward County Parks and Recreation",
+          "source": "https://www.broward.org/Parks/ThingsToDo/Pages/exhibithalls.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "entrance",
+          "question": "What address should I use for Anne Kolb Nature Center?",
+          "answer": "Use 751 Sheridan Street, Hollywood, FL 33019. The entrance is on the north side of Sheridan Street east of Federal Highway. Navigate to the nature center, not a generic West Lake shoreline point, because most of the preserve is mangrove wetland without road access.",
+          "sourceLabel": "Broward County Parks and Recreation",
+          "source": "https://www.broward.org/Parks/Support/Pages/EcoActionDays.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "parking",
+          "question": "Where should I park at Anne Kolb Nature Center?",
+          "answer": "Use the on-site visitor parking reached from the Sheridan Street entrance. Park once for the exhibit hall, tower, and nearby short trails; the separate West Lake Park marina and South Trail approaches should not be assumed to use the same lot.",
+          "sourceLabel": "Visit Lauderdale",
+          "source": "https://www.visitlauderdale.com/listing/anne-kolb-nature-center/3989/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "fees",
+          "question": "Is Anne Kolb Nature Center free?",
+          "answer": "The current Broward County exhibit-hall page says there is no admission fee to the nature centers or exhibit halls. Programs, rentals, meeting spaces, events, and any posted weekend or holiday gate fee can cost separately; confirm before a rental-dependent visit.",
+          "sourceLabel": "Broward County Parks and Recreation",
+          "source": "https://www.broward.org/Parks/ThingsToDo/Pages/exhibithalls.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Are there restrooms at Anne Kolb Nature Center?",
+          "answer": "Restrooms and visitor services are available at the developed nature-center complex during building hours. Use them before heading onto the tower, fishing-pier route, or longer outdoor paths because facilities are not distributed throughout the mangrove preserve.",
+          "sourceLabel": "Broward County Parks and Recreation",
+          "source": "https://www.broward.org/Parks/ThingsToDo/Pages/exhibithalls.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "accessibility",
+          "question": "Is Anne Kolb Nature Center accessible?",
+          "answer": "The developed visitor complex includes indoor exhibits and a five-level observation tower, but elevator operation, trail surfaces, docks, and weather exposure can affect access. Contact the center at 954-357-5161 before travel for a specific mobility, sensory, or program accommodation.",
+          "sourceLabel": "Visit Lauderdale",
+          "source": "https://www.visitlauderdale.com/listing/anne-kolb-nature-center/3989/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "dog-area",
+          "question": "Are dogs allowed at Anne Kolb Nature Center?",
+          "answer": "Do not plan on bringing a pet into this wildlife-focused mangrove preserve. Service-animal access and a specific accommodation should be confirmed with Broward County Parks before visiting indoor exhibits, narrow boardwalks, or wildlife-sensitive areas.",
+          "sourceLabel": "Broward County Parks and Recreation",
+          "source": "https://www.broward.org/Parks/Pages/GeneralInformation.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "family",
+          "question": "What can children do at Anne Kolb Nature Center?",
+          "answer": "The free exhibit hall has interactive mangrove displays, a hands-on Eco-Room, and a short theater video. Families can add the observation tower and a short trail, but should bring water, insect repellent, sun protection, and close supervision around stairs, railings, docks, fishing areas, and tidal water.",
+          "sourceLabel": "Broward County Parks and Recreation",
+          "source": "https://www.broward.org/Parks/ThingsToDo/Pages/exhibithalls.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "trail-surface",
+          "question": "What trails are at Anne Kolb Nature Center?",
+          "answer": "The visitor complex connects to short nature routes and fishing access through a mangrove environment, while the broader preserve also includes longer gravel and paddling routes. Surfaces can be wet, exposed, or uneven; get the current trail map at the visitor center and ask which routes are open.",
+          "sourceLabel": "Visit Lauderdale",
+          "source": "https://www.visitlauderdale.com/listing/anne-kolb-nature-center/3989/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "public-art",
+          "question": "What are the main landmarks at Anne Kolb Nature Center?",
+          "answer": "The signature landmarks are the five-level, 68-foot observation tower, the exhibit hall and Eco-Room, the mangrove boardwalks and nature trails, the Intracoastal fishing pier, the outdoor amphitheater, and views across the 1,501-acre wetland.",
+          "sourceLabel": "Visit Lauderdale",
+          "source": "https://www.visitlauderdale.com/listing/anne-kolb-nature-center/3989/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "paddling",
+          "question": "Can I kayak at Anne Kolb Nature Center?",
+          "answer": "The West Lake and Anne Kolb complex includes designated non-motorized paddling routes through mangrove wetland. Rental availability, launch location, route conditions, and last-return times can change, so confirm with the center or marina before bringing or renting a boat.",
+          "sourceLabel": "Visit Lauderdale",
+          "source": "https://www.visitlauderdale.com/listing/anne-kolb-nature-center/3989/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "transit",
+          "question": "Can I reach Anne Kolb Nature Center by transit?",
+          "answer": "Yes. Broward County Transit identifies Anne Kolb Nature Center as a destination. Plan the current route to 751 Sheridan Street and check the last return trip before entering a trail or program because published route numbers can change.",
+          "sourceLabel": "Broward County Transit",
+          "source": "https://www.broward.org/BCT/Documents/Destinations.pdf",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "weather",
+          "question": "What weather should I plan for at Anne Kolb Nature Center?",
+          "answer": "The tower, boardwalks, fishing areas, and trails are exposed to South Florida heat, lightning, heavy rain, mosquitoes, and slick surfaces. Leave the tower and water at the first sign of thunder, carry drinking water, and check the forecast before choosing a long outdoor route.",
+          "sourceLabel": "Visit Lauderdale",
+          "source": "https://www.visitlauderdale.com/listing/anne-kolb-nature-center/3989/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "wildlife",
+          "question": "What wildlife might I see at Anne Kolb Nature Center?",
+          "answer": "The protected mangrove wetland supports native and migratory birds plus aquatic wildlife. Observe quietly from developed routes, never feed or approach animals, keep hands away from water and mangrove edges, and use insect protection without disturbing habitat.",
+          "sourceLabel": "Broward County Parks and Recreation",
+          "source": "https://www.broward.org/Parks/Pages/GeneralInformation.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "need-to-know",
+          "question": "What should I know before visiting Anne Kolb Nature Center?",
+          "answer": "Start in the exhibit hall for the current map and closure status, then choose one destination rather than assuming the 1,501-acre preserve is a single walkable loop. Confirm tower elevator and paddling availability, use restrooms first, and carry water, sun and insect protection, and a lightning exit plan.",
+          "sourceLabel": "Broward County Parks and Recreation",
+          "source": "https://www.broward.org/Parks/ThingsToDo/Pages/exhibithalls.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Broward County Parks and Recreation exhibit halls",
+          "url": "https://www.broward.org/Parks/ThingsToDo/Pages/exhibithalls.aspx"
+        },
+        {
+          "label": "Visit Lauderdale destination guide",
+          "url": "https://www.visitlauderdale.com/listing/anne-kolb-nature-center/3989/"
+        },
+        {
+          "label": "Broward County Parks general information",
+          "url": "https://www.broward.org/Parks/Pages/GeneralInformation.aspx"
+        },
+        {
+          "label": "Broward County Parks current fee schedule",
+          "url": "https://www.broward.org/Parks/Fees/Documents/FeeSchedule.pdf"
+        }
+      ],
+      "image": {
+        "url": "/assets/parks/south-florida-atlantic-super/anne-kolb-nature-center/01-anne-kolb-nature-center-panoramio.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Anne_Kolb_Nature_Center_-_panoramio.jpg",
+        "author": "Mickey Logitmark",
+        "license": "BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+        "alt": "Panoramic mangrove and water view at Anne Kolb Nature Center",
+        "width": 1600,
+        "height": 870
+      },
+      "additionalImages": [
+        {
+          "url": "/assets/parks/south-florida-atlantic-super/anne-kolb-nature-center/02-anne-kolb-nature-center-observation-tower-boardwalk-view-panoramio.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Anne_Kolb_Nature_Center_observation_tower_boardwalk_view_-_panoramio.jpg",
+          "author": "quyentr",
+          "license": "BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+          "alt": "Boardwalk winding through mangroves below the Anne Kolb observation tower",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/south-florida-atlantic-super/anne-kolb-nature-center/03-anne-kolb-nature-center-observation-tower-view-panoramio.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Anne_Kolb_Nature_Center_observation_tower_view_-_panoramio.jpg",
+          "author": "quyentr",
+          "license": "BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+          "alt": "Mangrove canopy and distant skyline viewed from the Anne Kolb observation tower",
+          "width": 1600,
+          "height": 1000
+        }
+      ],
+      "replaceImages": true
+    },
+    "launch-fl-dania-beach-dr-von-d-mizell-eula-johnson-state-park": {
+      "name": "Dr. Von D. Mizell-Eula Johnson State Park",
+      "alternateNames": [
+        "Mizell-Johnson State Park",
+        "John U. Lloyd Beach State Park"
+      ],
+      "city": "Dania Beach",
+      "citySlug": "dania-beach-fl",
+      "operator": "Florida Park Service",
+      "sourceLabel": "Florida State Parks",
+      "source": "https://www.floridastateparks.org/mizell",
+      "address": "6503 N Ocean Dr, Dania Beach, FL 33004",
+      "hours": "The park is open daily from 8:00 a.m. to sunset. The boat ramp opens one hour before official sunrise and has separate closing rules; concessions and individual facilities keep shorter or variable schedules.",
+      "cost": "The current entrance fee is $6 per vehicle. Pavilions, watercraft, food, rentals, events, and other services cost separately.",
+      "summary": "Dr. Von D. Mizell-Eula Johnson State Park is a historic, largely undeveloped Broward County beach preserve with more than two miles of Atlantic shoreline, Whiskey Creek paddling, guarded-by-flags but unlifeguarded swimming, a boat ramp, picnicking, showers, restrooms, a nature trail, and an official food-and-rental concession.",
+      "accessibility": "Florida State Parks identifies accessible beach boardwalks, parking, picnic facilities, restrooms, marina facilities, and Whiskey Creek Hideout. Beach wheelchairs are first-come, first-served at the entrance station.",
+      "transit": "The park entrance is at the north end of North Ocean Drive. Transit does not replace the long internal park road, so verify the final approach and return trip before relying on it.",
+      "verifiedAt": "2026-08-10",
+      "searchAnswers": [
+        {
+          "intentKey": "hours",
+          "question": "What hours is Mizell-Johnson State Park open?",
+          "answer": "The park is open 8:00 a.m. to sunset, 365 days a year. The boat ramp opens one hour before official sunrise and follows separate closing rules, while concessions, rentals, restrooms, and pavilions can keep shorter schedules or close independently.",
+          "sourceLabel": "Florida State Parks",
+          "source": "https://www.floridastateparks.org/mizell",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "entrance",
+          "question": "What address should I use for Mizell-Johnson State Park?",
+          "answer": "Use 6503 N. Ocean Drive, Dania Beach, FL 33004. Enter from the south via Dania Beach Boulevard and North Ocean Drive; the park road is the only public vehicle approach and stretches north toward Port Everglades.",
+          "sourceLabel": "Florida State Parks",
+          "source": "https://www.floridastateparks.org/mizell",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "parking",
+          "question": "Where should I park at Mizell-Johnson State Park?",
+          "answer": "Parking areas are distributed along the long park road. Choose the lot for your destination: Whiskey Creek and concessions, a currently open beach access, the boat ramp, a reserved pavilion, or the northern jetty. The March 2026 notice closes beach access from lot 3.",
+          "sourceLabel": "Florida State Parks",
+          "source": "https://www.floridastateparks.org/mizell",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "fees",
+          "question": "How much does Mizell-Johnson State Park cost?",
+          "answer": "The current entrance fee is $6 per vehicle. Pavilion reservations, food, watercraft and beach rentals, events, and other services cost separately. Confirm the live fee page before bringing a large group or trailer.",
+          "sourceLabel": "Florida State Parks",
+          "source": "https://www.floridastateparks.org/mizell",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Are restrooms and showers available at Mizell-Johnson State Park?",
+          "answer": "Yes. The park lists restrooms and seven freshwater shower stations, but the current March 2026 notice closes restrooms 3 and 4. Identify an open facility before choosing a beach lot because the park stretches for miles.",
+          "sourceLabel": "Florida State Parks",
+          "source": "https://www.floridastateparks.org/mizell",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "accessibility",
+          "question": "What accessible facilities are at Mizell-Johnson State Park?",
+          "answer": "Accessible amenities include beach boardwalks, parking, picnic facilities, restrooms, marina facilities, and Whiskey Creek Hideout. Beach wheelchairs are available first-come, first-served from the entrance station; call ahead for a critical accommodation.",
+          "sourceLabel": "Florida State Parks",
+          "source": "https://www.floridastateparks.org/parks-and-trails/dr-von-d-mizell-eula-johnson-state-park/experiences-amenities",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "dog-area",
+          "question": "Are dogs allowed at Mizell-Johnson State Park?",
+          "answer": "Pets are welcome only in designated areas on a hand-held leash no longer than six feet. They are not allowed on beaches or natural shorelines and may not be left unattended. Service animals are allowed under Florida State Parks policy.",
+          "sourceLabel": "Florida State Parks",
+          "source": "https://www.floridastateparks.org/parks-and-trails/dr-von-d-mizell-eula-johnson-state-park/experiences-amenities",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "swimming",
+          "question": "Are there lifeguards at Mizell-Johnson State Park?",
+          "answer": "No lifeguards are on duty. Swimming is at your own risk. Read the warning flags, stay out on double-red conditions, never swim near the jetty or boat traffic, and keep children and weak swimmers within direct reach.",
+          "sourceLabel": "Florida State Parks",
+          "source": "https://www.floridastateparks.org/parks-and-trails/dr-von-d-mizell-eula-johnson-state-park/experiences-amenities",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "paddling",
+          "question": "Where can I kayak at Mizell-Johnson State Park?",
+          "answer": "Whiskey Creek is a 1.5-mile mangrove-lined paddling route. The official concession rents canoes, kayaks, and paddleboards. Check tides, wind, lightning, rental cutoff, and return time; wear a fitted PFD and stay alert for boats outside sheltered water.",
+          "sourceLabel": "Florida State Parks",
+          "source": "https://www.floridastateparks.org/parks-and-trails/dr-von-d-mizell-eula-johnson-state-park/whiskey-creek-hideout",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "food",
+          "question": "Is there food at Mizell-Johnson State Park?",
+          "answer": "Yes. Whiskey Creek Hideout is the official concession and offers a restaurant, limited picnic supplies, ice, and watercraft and beach rentals. Hours and inventory can change, so bring drinking water and confirm before relying on it for a meal.",
+          "sourceLabel": "Florida State Parks",
+          "source": "https://www.floridastateparks.org/parks-and-trails/dr-von-d-mizell-eula-johnson-state-park/experiences-amenities",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "trail-surface",
+          "question": "What trails are at Mizell-Johnson State Park?",
+          "answer": "The park lists a 0.4-mile Barrier Nature Trail through coastal hammock, a three-mile service-road route, and more than two miles of beach walking. Expect heat, sand, roots, insects, standing water, and limited shade; do not enter posted closures.",
+          "sourceLabel": "Florida State Parks",
+          "source": "https://www.floridastateparks.org/parks-and-trails/dr-von-d-mizell-eula-johnson-state-park/experiences-amenities",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "picnic",
+          "question": "Can I reserve a pavilion at Mizell-Johnson State Park?",
+          "answer": "Seven named pavilions normally serve different lots, but the March 2026 notice closes the Leatherback and Osprey pavilions plus picnic areas around restroom 4. Verify availability with the park office before paying or inviting a group.",
+          "sourceLabel": "Florida State Parks",
+          "source": "https://www.floridastateparks.org/parks-and-trails/dr-von-d-mizell-eula-johnson-state-park/experiences-amenities",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "boating",
+          "question": "Can I launch a boat at Mizell-Johnson State Park?",
+          "answer": "The boat ramp can launch trailered boats up to 36 feet and the adjacent lot accommodates about 90 vehicle-trailer rigs. It opens one hour before official sunrise and follows separate closing rules. Check conditions and ramp operations before towing to the park.",
+          "sourceLabel": "Florida State Parks",
+          "source": "https://www.floridastateparks.org/parks-and-trails/dr-von-d-mizell-eula-johnson-state-park/experiences-amenities",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "closures",
+          "question": "What is currently closed at Mizell-Johnson State Park?",
+          "answer": "Effective March 9, 2026, restrooms 3 and 4, beach access from parking lot 3, picnic areas north and south of restroom 4, and the Leatherback and Osprey pavilions are closed. Follow posted signs because construction conditions can change.",
+          "sourceLabel": "Florida State Parks",
+          "source": "https://www.floridastateparks.org/mizell",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "need-to-know",
+          "question": "What should families know before visiting Mizell-Johnson State Park?",
+          "answer": "Choose a specific lot before entering, check the current closure notice and beach flags, and remember there are no lifeguards. Bring water, sun and insect protection, use an open restroom before settling in, keep children within direct reach near surf and docks, and leave the water for thunder.",
+          "sourceLabel": "Florida State Parks",
+          "source": "https://www.floridastateparks.org/mizell",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Florida State Parks current park guide and closure notice",
+          "url": "https://www.floridastateparks.org/mizell"
+        },
+        {
+          "label": "Florida State Parks experiences and amenities",
+          "url": "https://www.floridastateparks.org/parks-and-trails/dr-von-d-mizell-eula-johnson-state-park/experiences-amenities"
+        },
+        {
+          "label": "Florida State Parks Whiskey Creek Hideout",
+          "url": "https://www.floridastateparks.org/parks-and-trails/dr-von-d-mizell-eula-johnson-state-park/whiskey-creek-hideout"
+        },
+        {
+          "label": "Florida State Parks park brochure",
+          "url": "https://www.floridastateparks.org/sites/default/files/media/file/Mizell-Johnson-brochure.pdf"
+        }
+      ],
+      "image": {
+        "url": "/assets/parks/south-florida-atlantic-super/dr-von-d-mizell-eula-johnson-state-park/01-dania-beach-fl-john-u-lloyd-sp-beach-south-01.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Dania_Beach_FL_John_U._Lloyd_SP_beach_south01.jpg",
+        "author": "Ebyabe",
+        "license": "BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "alt": "Atlantic beach looking south at Mizell-Johnson State Park",
+        "width": 1600,
+        "height": 1000
+      },
+      "additionalImages": [
+        {
+          "url": "/assets/parks/south-florida-atlantic-super/dr-von-d-mizell-eula-johnson-state-park/02-sign-at-dr-von-d-mizell-eula-johnson-state-park.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Sign_at_Dr._Von_D._Mizell-Eula_Johnson_State_Park.jpg",
+          "author": "Rscooli",
+          "license": "BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "alt": "Florida Heritage marker explaining the civil-rights history of Mizell-Johnson State Park",
+          "width": 1199,
+          "height": 899
+        },
+        {
+          "url": "/assets/parks/south-florida-atlantic-super/dr-von-d-mizell-eula-johnson-state-park/03-dania-beach-fl-john-u-lloyd-sp-boardwalk-01.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Dania_Beach_FL_John_U._Lloyd_SP_bdwk01.jpg",
+          "author": "Ebyabe",
+          "license": "BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "alt": "Beach boardwalk through coastal vegetation at Mizell-Johnson State Park",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/south-florida-atlantic-super/dr-von-d-mizell-eula-johnson-state-park/04-dania-beach-fl-john-u-lloyd-sp-water-north-01.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Dania_Beach_FL_John_U._Lloyd_SP_water_north01._Lloyd_SP_water02.jpg",
+          "author": "Ebyabe",
+          "license": "BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "alt": "Sheltered water and mangrove shoreline in Mizell-Johnson State Park",
+          "width": 1600,
+          "height": 1000
+        }
+      ],
+      "replaceImages": true
     }
   }
 }

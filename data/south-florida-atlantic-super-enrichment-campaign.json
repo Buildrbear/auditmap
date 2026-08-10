@@ -150,6 +150,52 @@
         "Johnson Street Accessible Beach Entrance",
         "Garfield Street Parking Garage"
       ]
+    },
+    {
+      "id": "launch-fl-hollywood-anne-kolb-nature-center",
+      "name": "Anne Kolb Nature Center",
+      "city": "Hollywood",
+      "state": "FL",
+      "citySlug": "hollywood-fl",
+      "operator": "Broward County Parks and Recreation",
+      "source": "https://www.visitlauderdale.com/listing/anne-kolb-nature-center/3989/",
+      "featureResearchRadiusMeters": 1800,
+      "minimumImages": 3,
+      "imageQueries": [
+        "Anne Kolb Nature Center",
+        "Anne Kolb observation tower",
+        "Anne Kolb mangrove boardwalk"
+      ],
+      "subsites": [
+        "Anne Kolb Observation Tower",
+        "Exhibit Hall and Eco-Room",
+        "Lake Trail",
+        "Fishing Pier Trail",
+        "Mud Flat Trail",
+        "South Trail"
+      ]
+    },
+    {
+      "id": "launch-fl-dania-beach-dr-von-d-mizell-eula-johnson-state-park",
+      "name": "Dr. Von D. Mizell-Eula Johnson State Park",
+      "city": "Dania Beach",
+      "state": "FL",
+      "citySlug": "dania-beach-fl",
+      "operator": "Florida Park Service",
+      "source": "https://www.floridastateparks.org/mizell",
+      "featureResearchRadiusMeters": 2600,
+      "imageQueries": [
+        "Mizell Eula Johnson State Park",
+        "John U Lloyd State Park boardwalk",
+        "John U Lloyd State Park beach",
+        "John U Lloyd State Park lagoon"
+      ],
+      "subsites": [
+        "Whiskey Creek Hideout and Paddling Area",
+        "Barrier Nature Trail",
+        "Jetty Pavilion",
+        "Boat Ramp"
+      ]
     }
   ]
 }
