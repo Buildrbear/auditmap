@@ -1,6 +1,45 @@
 {
   "checkedAt": "2026-08-06",
   "places": {
+    "launch-pa-philadelphia-fairmount-park": {
+      "verifiedAt": "2026-08-10",
+      "address": "Reservoir Drive and North 33rd Street, Philadelphia, PA 19121",
+      "latitude": 39.9832,
+      "longitude": -75.2057,
+      "summary": "Fairmount Park is Philadelphia's large Schuylkill River landscape, split between East and West park areas with overlooks, trails, picnic grounds, play destinations, historic houses, museums, gardens, sports areas and separately operated attractions.",
+      "hours": "Philadelphia's park system has a 10 p.m. curfew, while park trails are open dawn to dusk. Gated roads, museums, playgrounds, historic houses, events and staffed facilities keep shorter or separate schedules.",
+      "cost": "General park roads, trails, lawns, overlooks and ordinary picnic use are free. Museums, gardens, reserved events, group visits, food, parking at some attractions and special programs may charge.",
+      "parking": "There is no single Fairmount Park lot. Choose East or West Fairmount Park and the exact destination first. The City publishes a separate public-parking map for the Kelly Drive area; obey time limits, event restrictions and temporary closure signs.",
+      "arrival": "Use a destination pin rather than the broad park center. Belmont Plateau and Centennial destinations are in West Fairmount Park; Lemon Hill, Smith Playground and the riverfront Water Works are reached from different East Park approaches.",
+      "restrooms": "Restrooms are tied to specific staffed attractions, playgrounds and seasonal or permitted facilities. Do not assume a restroom at a trail, overlook or picnic lawn; identify a confirmed-open building before settling into a remote area.",
+      "accessibility": "Accessible conditions vary sharply by destination. Major museums and staffed attractions publish their own access guidance, while river slopes, historic buildings, natural-surface trails, lawns and temporary event routes can present barriers.",
+      "dogs": "Dogs must remain on a leash no longer than six feet in ordinary park areas. Pets are excluded from animal-free areas such as many playgrounds, athletic fields, spray areas and gardens, and separately operated attractions set their own rules.",
+      "family": "Fairmount Park can support a full family day, but the best experience comes from choosing one or two zones. Smith Playground, Please Touch Museum, Shofuso, Water Works and Belmont Plateau have different ages, hours, fees, parking and restroom access.",
+      "transit": "SEPTA buses serve multiple park edges, and seasonal PHLASH routes connect several attractions. Select the stop nearest the destination because crossing the park from the wrong side can add steep grades and a long walk.",
+      "need": "The park is too large for one arrival plan. Check current events, road gates, construction, attraction hours and weather. Lemon Hill park remains closed during post-Fan-Festival breakdown, and local Benjamin Franklin Parkway lane changes continue through September 7, 2026.",
+      "weather": "Check Philadelphia heat index, thunderstorms, river flooding, wind, air quality, snow, ice and daylight. Leave exposed lawns, water edges and wooded areas when thunder is heard, and expect some trails and roads to close independently.",
+      "answerSources": {
+        "hours": {"sourceLabel":"Philadelphia Parks & Recreation rules","source":"https://www.phila.gov/departments/philadelphia-parks-recreation/about/rules-and-regulations/"},
+        "parking": {"sourceLabel":"Philadelphia Parks & Recreation parking maps","source":"https://www.phila.gov/documents/parking-at-parks-rec-sites/"},
+        "entrance": {"sourceLabel":"Fairmount Park Conservancy map","source":"https://myphillypark.org/app/uploads/2024/01/FairmountParkMap.pdf"},
+        "restroom": {"sourceLabel":"Fairmount Park Conservancy map","source":"https://myphillypark.org/app/uploads/2024/01/FairmountParkMap.pdf"},
+        "fees": {"sourceLabel":"Philadelphia Parks & Recreation","source":"https://www.phila.gov/parks-rec-finder/#/location/fairmount-park/"},
+        "accessibility": {"sourceLabel":"Fairmount Park Conservancy map","source":"https://myphillypark.org/app/uploads/2024/01/FairmountParkMap.pdf"},
+        "dogs": {"sourceLabel":"Philadelphia Parks & Recreation rules","source":"https://www.phila.gov/departments/philadelphia-parks-recreation/about/rules-and-regulations/"},
+        "family": {"sourceLabel":"Fairmount Park Conservancy map","source":"https://myphillypark.org/app/uploads/2024/01/FairmountParkMap.pdf"},
+        "transit": {"sourceLabel":"Fairmount Park Conservancy map","source":"https://myphillypark.org/app/uploads/2024/01/FairmountParkMap.pdf"},
+        "need-to-know": {"sourceLabel":"City of Philadelphia Lemon Hill update","source":"https://www.phila.gov/2026-07-22-lemon-hill-legacy-improvements/"},
+        "weather": {"sourceLabel":"Philadelphia Parks & Recreation rules","source":"https://www.phila.gov/departments/philadelphia-parks-recreation/about/rules-and-regulations/"}
+      },
+      "extraAnswers": [
+        {"intentKey":"playground","question":"Where is the best playground in Fairmount Park?","answer":"Smith Memorial Playground is the strongest free destination playground in the park, with more than 50 outdoor structures and an indoor Playhouse. It keeps its own weather-dependent schedule, closes Mondays, and is intended especially for children age 10 and under.","sourceLabel":"Smith Memorial Playground and Playhouse","source":"https://www.smithplayground.org/plan-your-visit","freshnessClass":"fast"},
+        {"intentKey":"landmarks","question":"What are the major visitor zones in Fairmount Park?","answer":"Plan around East Park destinations such as Lemon Hill, Smith Playground and Water Works or West Park destinations such as Belmont Plateau, Shofuso and Memorial Hall. These zones are miles apart by road and do not share parking or facility hours.","sourceLabel":"Fairmount Park Conservancy map","source":"https://myphillypark.org/app/uploads/2024/01/FairmountParkMap.pdf","freshnessClass":"slow"},
+        {"intentKey":"trails","question":"How should I choose a trail in Fairmount Park?","answer":"Use the park map to distinguish paved paths, soft-surface trails, bike routes and connector streets, then choose a named loop or destination before leaving. Trails are open dawn to dusk, and all trail users must observe the City's seven-mile-per-hour limit.","sourceLabel":"Philadelphia Parks & Recreation rules","source":"https://www.phila.gov/departments/philadelphia-parks-recreation/about/rules-and-regulations/","freshnessClass":"slow"},
+        {"intentKey":"picnic","question":"Can I picnic or grill in Fairmount Park?","answer":"Ordinary small picnics are allowed in suitable open areas, but reserved gatherings and events require permits. Fires are allowed only in a stone fireplace or metal barbecue stand; never drive or park on grass to unload.","sourceLabel":"Philadelphia Parks & Recreation rules","source":"https://www.phila.gov/departments/philadelphia-parks-recreation/about/rules-and-regulations/","freshnessClass":"slow"},
+        {"intentKey":"closures","question":"Do events affect Fairmount Park roads and parking?","answer":"Yes. Festivals, races, concerts, sports and construction can close drives, reserve lots and change transit or rideshare access. Check current City notices and the exact attraction before a time-sensitive trip.","sourceLabel":"City of Philadelphia special events","source":"https://www.phila.gov/departments/office-of-special-events/","freshnessClass":"fast"},
+        {"intentKey":"water-safety","question":"Can I swim or wade in the Schuylkill River from Fairmount Park?","answer":"No. Philadelphia prohibits swimming and wading in park waterways. Enjoy the river from established paths and overlooks, and use only separately authorized boating or paddling programs.","sourceLabel":"Philadelphia Parks & Recreation rules","source":"https://www.phila.gov/departments/philadelphia-parks-recreation/about/rules-and-regulations/","freshnessClass":"slow"}
+      ]
+    },
     "launch-pa-philadelphia-fdr-park": {
       "address": "1500 Pattison Avenue, Philadelphia, PA 19145",
       "latitude": 39.9017381, "longitude": -75.1835504,

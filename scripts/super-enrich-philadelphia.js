@@ -7,19 +7,19 @@ const path = require("node:path");
 const root = path.resolve(__dirname, "..");
 const campaign = require("../data/philadelphia-super-enrichment-campaign.json");
 const customFacts = require("../data/philadelphia-visitor-facts.json").places;
+const featureFactsDocument = require("../data/philadelphia-feature-visitor-facts.json");
+const featureFacts = featureFactsDocument.places;
 const galleries = require("../data/generated/philadelphia-super-images.json");
 const featureCoordinates = require("../data/generated/philadelphia-feature-coordinates.json").places;
 const checkedAt = campaign.checkedAt;
 const featureProfiles = {
   "launch-pa-philadelphia-fairmount-park": [
-    { image: 1, description: "Lemon Hill is an East Fairmount Park arrival point near river paths, historic grounds, picnic space, and connections toward Boathouse Row." },
+    { image: 7, description: "Lemon Hill is East Fairmount Park's historic hilltop landscape and mansion." },
     { image: 0, description: "Belmont Plateau is the West Fairmount Park overlook known for its open lawn, skyline view, picnic space, and nearby trail connections." },
-    { image: 1, description: "Fairmount Water Works and Boathouse Row form the riverfront destination below the art museum, with Schuylkill paths, historic interpretation, and skyline views." },
-    { image: 2, description: "The Centennial District groups the Horticulture Center, Shofuso area, gardens, event grounds, and West Fairmount Park paths around one practical arrival zone." },
-    { image: 0, description: "Smith Memorial Playground and Playhouse is a free, separately operated family destination with indoor and outdoor seasons, age rules, and its own opening calendar." },
-    { image: 2, description: "Shofuso is a ticketed Japanese house and garden in the Centennial District with seasonal hours, delicate grounds, and separate admission and accessibility guidance." },
-    { image: 1, description: "Please Touch Museum occupies Memorial Hall and is a ticketed indoor children's museum with its own hours, admission, parking, food, and accessibility services." },
-    { image: 3, description: "The Philadelphia Museum of Art and Rocky Steps anchor Fairmount Park's southeast edge; museum entry is ticketed while the outdoor steps and views are generally free." }
+    { image: 3, description: "Fairmount Water Works is the free riverfront watershed center below the Philadelphia Museum of Art." },
+    { image: 4, description: "Smith Memorial Playground and Playhouse is a free, separately operated family destination with indoor and outdoor play." },
+    { image: 5, description: "Shofuso is a ticketed Japanese house and garden in the Centennial District." },
+    { image: 6, description: "Please Touch Museum occupies Memorial Hall and is a ticketed indoor children's museum." }
   ],
   "launch-pa-philadelphia-wissahickon-valley-park": [
     { image: 0, description: "Valley Green is the best-known Wissahickon arrival for the inn, creek views, and Forbidden Drive; parking is limited and fills early." },
@@ -113,18 +113,19 @@ const read = (file) => JSON.parse(fs.readFileSync(path.join(root, file), "utf8")
 const write = (file, value) => fs.writeFileSync(path.join(root, file), `${JSON.stringify(value, null, 2)}\n`);
 const upsert = (document, park) => { const index = document.parks.findIndex((item) => item.id === park.id); index >= 0 ? document.parks[index] = park : document.parks.push(park); };
 
-function answer(place, intentKey, question, text) {
-  return { intentKey, question, answer: text, sourceLabel: place.operator, source: place.source, verifiedAt: checkedAt, freshnessClass: ["hours", "parking", "need-to-know", "weather"].includes(intentKey) ? "fast" : "slow", status: "verified" };
+function answer(place, intentKey, question, text, metadata = {}) {
+  return { intentKey, question, answer: text, sourceLabel: metadata.sourceLabel || place.operator, source: metadata.source || place.source, verifiedAt: metadata.verifiedAt || place.verifiedAt || checkedAt, freshnessClass: metadata.freshnessClass || (["hours", "parking", "need-to-know", "weather"].includes(intentKey) ? "fast" : "slow"), status: "verified" };
 }
 function makeAnswers(place) {
-  return [
+  const core = [
     ["hours", `When is ${place.name} open?`, place.hours], ["parking", `Where should I park for ${place.name}?`, place.parking],
     ["entrance", `What is the best entrance for ${place.name}?`, place.arrival], ["restroom", `Are there restrooms at ${place.name}?`, place.restrooms],
     ["fees", `Is ${place.name} free?`, place.cost], ["accessibility", `How accessible is ${place.name}?`, place.accessibility],
     ["dogs", `Are dogs allowed at ${place.name}?`, place.dogs], ["family", `Is ${place.name} good for children?`, place.family],
     ["transit", `How do I reach ${place.name} without a car?`, place.transit], ["need-to-know", `What should I know before visiting ${place.name}?`, place.need],
-    ["weather", `What weather should I check before visiting ${place.name}?`, "Check heat index, thunderstorms, river or creek flooding, high wind, snow and ice, air quality, and daylight. Leave water edges, fields, playgrounds, and trees when thunder is heard."]
-  ].map((values) => answer(place, ...values));
+    ["weather", `What weather should I check before visiting ${place.name}?`, place.weather || "Check heat index, thunderstorms, river or creek flooding, high wind, snow and ice, air quality, and daylight. Leave water edges, fields, playgrounds, and trees when thunder is heard."]
+  ].map((values) => answer(place, ...values, place.answerSources?.[values[0]]));
+  return core.concat((place.extraAnswers || []).map((entry) => answer(place, entry.intentKey, entry.question, entry.answer, entry)));
 }
 function feature(place, name, index, images) {
   const slug = slugify(name), id = stableId(place.id, slug);
@@ -132,17 +133,22 @@ function feature(place, name, index, images) {
   if (!profile) throw new Error(`${place.name}/${name}: visitor profile missing`);
   const position = featureCoordinates[place.id]?.[name];
   if (!position) throw new Error(`${place.name}/${name}: coordinate record missing`);
-  const note = profile?.description || `${name} is a distinct visitor destination within ${place.name}. Navigate to this named destination rather than the broad parent-park pin.`;
-  const base = images[profile?.image ?? (index % images.length)];
+  const factsForPlace = featureFacts[place.id];
+  const specific = factsForPlace?.[slug];
+  if (factsForPlace && !specific) throw new Error(`${place.name}/${name}: destination-specific facts missing`);
+  const note = specific?.description || profile?.description || `${name} is a distinct visitor destination within ${place.name}. Navigate to this named destination rather than the broad parent-park pin.`;
+  const base = images[specific?.imageIndex ?? profile?.image ?? (index % images.length)];
   const image = { ...base, featureId: id, latitude: position.latitude, longitude: position.longitude, alt: `${name} at ${place.name}` };
+  const source = specific ? { sourceLabel: specific.sourceLabel, source: specific.source, verifiedAt: featureFactsDocument.checkedAt } : {};
   const questions = [
-    ["location", `Where exactly is ${name}?`, note], ["parking", `Where should I park for ${name}?`, place.parking],
-    ["hours", `When is ${name} open?`, place.hours], ["restroom", `Are there restrooms near ${name}?`, place.restrooms],
-    ["fees", `Is ${name} free?`, place.cost], ["accessibility", `How accessible is ${name}?`, place.accessibility],
-    ["dogs", `Are dogs allowed at ${name}?`, place.dogs], ["family", `Is ${name} good for children?`, place.family],
-    ["need-to-know", `What should I know before visiting ${name}?`, `${note} ${place.need}`]
-  ].map((values) => answer(place, ...values));
-  return { id, slug, name, feature_type: "destination", description: note, latitude: image.latitude, longitude: image.longitude, details: { category: "destination", includeInParentGallery: true, address: place.address, hours: place.hours, hoursSchedule: false, cost: place.cost, accessibility: place.accessibility, locationContext: note, needToKnow: place.need, coordinateSource: position.coordinateSource, positionQuality: position.positionQuality, informationSourceLabel: place.operator, informationSourceUrl: place.source, informationCheckedAt: checkedAt, imageUrl: image.url, imageSourceUrl: image.source, imageAuthor: image.author, imageLicense: image.license, imageAlt: image.alt, images: [image], searchAnswers: questions }, source_label: place.operator, source_url: place.source, verified_at: checkedAt };
+    ["location", `Where exactly is ${name}?`, specific?.location || note], ["parking", `Where should I park for ${name}?`, specific?.parking || place.parking],
+    ["hours", `When is ${name} open?`, specific?.hours || place.hours], ["restroom", `Are there restrooms near ${name}?`, specific?.restrooms || place.restrooms],
+    ["fees", `Is ${name} free?`, specific?.fees || place.cost], ["accessibility", `How accessible is ${name}?`, specific?.accessibility || place.accessibility],
+    ["dogs", `Are dogs allowed at ${name}?`, specific?.dogs || place.dogs], ["family", `Is ${name} good for children?`, specific?.family || place.family],
+    ["need-to-know", `What should I know before visiting ${name}?`, specific?.need || `${note} ${place.need}`]
+  ].map((values) => answer(place, ...values, source));
+  const closure = specific?.temporarilyClosed === undefined ? {} : { temporarilyClosed: Boolean(specific.temporarilyClosed) };
+  return { id, slug, name, feature_type: "destination", description: note, latitude: image.latitude, longitude: image.longitude, ...closure, details: { category: "destination", includeInParentGallery: true, address: specific?.address || place.address, hours: specific?.hours || place.hours, hoursSchedule: false, cost: specific?.fees || place.cost, accessibility: specific?.accessibility || place.accessibility, locationContext: note, needToKnow: specific?.need || place.need, ...closure, coordinateSource: position.coordinateSource, positionQuality: position.positionQuality, informationSourceLabel: specific?.sourceLabel || place.operator, informationSourceUrl: specific?.source || place.source, informationCheckedAt: specific ? featureFactsDocument.checkedAt : checkedAt, imageUrl: image.url, imageSourceUrl: image.source, imageAuthor: image.author, imageLicense: image.license, imageAlt: image.alt, images: [image], searchAnswers: questions }, source_label: specific?.sourceLabel || place.operator, source_url: specific?.source || place.source, verified_at: specific ? featureFactsDocument.checkedAt : checkedAt };
 }
 
 (() => {
@@ -176,10 +182,10 @@ function feature(place, name, index, images) {
     const images = galleries.places[place.id]?.images || [];
     if (images.length < 4) throw new Error(`${place.name}: gallery incomplete`);
     const searchAnswers = customFacts[place.id] ? makeAnswers(place) : (prior.searchAnswers || makeAnswers(place));
-    const record = { id: place.id, name: place.name, type: "Park", city: "Philadelphia", state: "PA", country: "US", citySlug: "philadelphia-PA", slug: slugify(place.name), searchCategory: "park", neighborhood: "Philadelphia", status: "Sourced public-access visitor guide", summary: place.summary, searchDescription: `Hours, parking, real photos, mapped destinations, and essential visitor answers for ${place.name} in Philadelphia.`, address: place.address, latitude: place.latitude, longitude: place.longitude, hours: place.hours, cost: place.cost, accessibility: place.accessibility, sourceLabel: place.operator, source: place.source, verifiedAt: checkedAt, operator: place.operator, image: images[0], images: images.slice(1), sources: [{ label: place.operator, url: place.source }], launchTier: "anchor", likelySubsites: true, publishStatus: "super-enriched", researchQueue: [], transit: place.transit, searchAnswers, features: place.subsites.map((name, index) => feature(place, name, index, images)), amenities: [], comments: [] };
+    const record = { id: place.id, name: place.name, type: "Park", city: "Philadelphia", state: "PA", country: "US", citySlug: "philadelphia-PA", slug: slugify(place.name), searchCategory: "park", neighborhood: "Philadelphia", status: "Sourced public-access visitor guide", summary: place.summary, searchDescription: `Hours, parking, real photos, mapped destinations, and essential visitor answers for ${place.name} in Philadelphia.`, address: place.address, latitude: place.latitude, longitude: place.longitude, hours: place.hours, cost: place.cost, accessibility: place.accessibility, sourceLabel: place.operator, source: place.source, verifiedAt: place.verifiedAt || checkedAt, operator: place.operator, image: images[0], images: images.slice(1), sources: [{ label: place.operator, url: place.source }], launchTier: "anchor", likelySubsites: true, publishStatus: "super-enriched", researchQueue: [], transit: place.transit, searchAnswers, features: place.subsites.map((name, index) => feature(place, name, index, images)), amenities: [], comments: [] };
     upsert(all, record); upsert(pilot, record);
-    national.parks[place.id] = { city: "Philadelphia", citySlug: "philadelphia-PA", operator: place.operator, sourceLabel: place.operator, source: place.source, address: place.address, summary: place.summary, hours: place.hours, cost: place.cost, accessibility: place.accessibility, transit: place.transit, searchAnswers, image: images[0], additionalImages: images.slice(1), replaceImages: true, verifiedAt: checkedAt };
-    const location = { id: place.id, park: place.name, city: "Philadelphia", state: "PA", latitude: place.latitude, longitude: place.longitude, address: place.address, displayName: `${place.name}, Philadelphia, PA`, source: place.operator, sourceUrl: place.source, checkedAt };
+    national.parks[place.id] = { city: "Philadelphia", citySlug: "philadelphia-PA", operator: place.operator, sourceLabel: place.operator, source: place.source, address: place.address, summary: place.summary, hours: place.hours, cost: place.cost, accessibility: place.accessibility, transit: place.transit, searchAnswers, image: images[0], additionalImages: images.slice(1), replaceImages: true, verifiedAt: place.verifiedAt || checkedAt };
+    const location = { id: place.id, park: place.name, city: "Philadelphia", state: "PA", latitude: place.latitude, longitude: place.longitude, address: place.address, displayName: `${place.name}, Philadelphia, PA`, source: place.operator, sourceUrl: place.source, checkedAt: place.verifiedAt || checkedAt };
     const locationIndex = locations.findIndex((item) => item.id === place.id); locationIndex >= 0 ? locations[locationIndex] = location : locations.push(location);
   }
   write("data/generated/all-subsites-ready.json", all); write("data/generated/pilot-subsites-ready.json", pilot);

@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-08-06",
+  "checkedAt": "2026-08-10",
   "places": {
     "launch-pa-philadelphia-fairmount-park": {
-      "Lemon Hill and East Fairmount Park": {
-        "latitude": 39.9756,
-        "longitude": -75.1849,
+      "Lemon Hill": {
+        "latitude": 39.976275,
+        "longitude": -75.184542,
         "coordinateSource": "AuditMap reviewed public-map placement",
         "positionQuality": "Reviewed destination placement"
       },
@@ -15,18 +15,11 @@
         "positionQuality": "Mapped public-place feature",
         "matchedName": "Belmont Plateau"
       },
-      "Fairmount Water Works and Boathouse Row": {
+      "Fairmount Water Works": {
         "latitude": 39.9652,
         "longitude": -75.1833,
         "coordinateSource": "AuditMap reviewed public-map placement",
         "positionQuality": "Reviewed destination placement"
-      },
-      "Centennial District and Horticulture Center": {
-        "latitude": 39.9742005,
-        "longitude": -75.1979021,
-        "coordinateSource": "OpenStreetMap W/37374815",
-        "positionQuality": "Mapped public-place feature",
-        "matchedName": "Centennial District Intermodal Transportation Center"
       },
       "Smith Memorial Playground and Playhouse": {
         "latitude": 39.9815169,
@@ -36,8 +29,8 @@
         "matchedName": "Smith Memorial Playground & Playhouse"
       },
       "Shofuso Japanese Cultural Center": {
-        "latitude": 39.9792,
-        "longitude": -75.2127,
+        "latitude": 39.981244,
+        "longitude": -75.212333,
         "coordinateSource": "AuditMap reviewed public-map placement",
         "positionQuality": "Reviewed destination placement"
       },
@@ -47,12 +40,6 @@
         "coordinateSource": "OpenStreetMap W/49916202",
         "positionQuality": "Mapped public-place feature",
         "matchedName": "Please Touch Museum"
-      },
-      "Philadelphia Museum of Art and Rocky Steps": {
-        "latitude": 39.9656,
-        "longitude": -75.1809,
-        "coordinateSource": "AuditMap reviewed public-map placement",
-        "positionQuality": "Reviewed destination placement"
       }
     },
     "launch-pa-philadelphia-wissahickon-valley-park": {

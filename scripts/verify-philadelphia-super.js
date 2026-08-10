@@ -13,7 +13,7 @@ for (const expected of campaign.places) {
   if (!place) { failures.push(`${expected.name}: missing from map data`); continue; }
   const images = [place.image, ...(place.images || [])].filter((image) => image?.url);
   if (images.length < 4) failures.push(`${place.name}: only ${images.length} images`);
-  if ((place.features || []).length !== 8) failures.push(`${place.name}: expected 8 subsites, found ${(place.features || []).length}`);
+  if ((place.features || []).length !== expected.subsites.length) failures.push(`${place.name}: expected ${expected.subsites.length} subsites, found ${(place.features || []).length}`);
   if ((place.searchAnswers || []).length < 11) failures.push(`${place.name}: fewer than 11 answers`);
   for (const feature of place.features || []) {
     if (!feature.details?.images?.[0]?.url) failures.push(`${place.name}/${feature.name}: image missing`);
@@ -47,5 +47,12 @@ for (const [name, token] of fdrImageChecks) {
 }
 const independence = places.find((place) => place.id === "launch-pa-philadelphia-independence-national-historical-park");
 for (const phrase of ["$1 service fee", "security", "no restrooms inside the Independence Hall secured area"]) if (!JSON.stringify(independence).toLowerCase().includes(phrase.toLowerCase())) failures.push(`Independence: missing ${phrase}`);
+const fairmount = places.find((place) => place.id === "launch-pa-philadelphia-fairmount-park");
+for (const phrase of ["Lemon Hill park is currently closed", "Wednesday through Saturday, 10 a.m.-5 p.m.", "more than 50 outdoor play structures", "timed ticket and capacity is limited", "second and third Sundays 11 a.m.-4:30 p.m."]) if (!JSON.stringify(fairmount).includes(phrase)) failures.push(`Fairmount Park: missing ${phrase}`);
+for (const [name, sourceToken] of [["Lemon Hill", "Lemon_Hill_Mansion"], ["Belmont Plateau", "Belmont_Plateau"], ["Fairmount Water Works", "Fairmount_Water_Works"], ["Smith Memorial Playground and Playhouse", "Smith_Playground"], ["Shofuso Japanese Cultural Center", "Shofuso_Japanese_House"], ["Please Touch Museum and Memorial Hall", "MemorialHallPhila03"]]) {
+  const feature = fairmount?.features?.find((item) => item.name === name);
+  if (!feature) failures.push(`Fairmount Park: missing ${name}`);
+  else if (!(feature.details?.imageSourceUrl || "").includes(sourceToken)) failures.push(`Fairmount Park/${name}: destination image does not match`);
+}
 if (failures.length) { console.error(failures.map((failure) => `- ${failure}`).join("\n")); process.exit(1); }
-console.log(`Verified ${campaign.places.length} Philadelphia guides with sourced galleries, 72 full subsites, raw visitor answers, and current closure guidance.`);
+console.log(`Verified ${campaign.places.length} Philadelphia guides with sourced galleries, ${campaign.places.reduce((sum, place) => sum + place.subsites.length, 0)} full subsites, raw visitor answers, and current closure guidance.`);

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T18:59:46.765Z",
+  "generatedAt": "2026-08-10T19:23:57.345Z",
   "policy": {
     "publication": "AI findings remain proposed until a human accepts the fact and its sources.",
     "prioritization": "Daily-use and safety-sensitive gaps rank above descriptive content.",
@@ -9,7 +9,7 @@
   "summary": {
     "places": 912,
     "averageCoverageScore": 55,
-    "openTasks": 6004,
+    "openTasks": 6009,
     "urgentTasks": 962
   },
   "coverage": [
@@ -2719,8 +2719,8 @@
       "placeId": "launch-pa-philadelphia-fairmount-park",
       "placeName": "Fairmount Park",
       "expectedIntentCount": 14,
-      "coveredIntentCount": 14,
-      "coverageScore": 100
+      "coveredIntentCount": 9,
+      "coverageScore": 69
     },
     {
       "placeId": "launch-pa-philadelphia-wissahickon-valley-park",
@@ -67947,6 +67947,66 @@
       "placeCoverageScore": 61
     },
     {
+      "id": "launch-pa-philadelphia-fairmount-park:trail-surface",
+      "placeId": "launch-pa-philadelphia-fairmount-park",
+      "placeName": "Fairmount Park",
+      "placeType": "Park",
+      "city": "Philadelphia",
+      "state": "PA",
+      "intentKey": "trail-surface",
+      "intentLabel": "Walking surfaces and terrain",
+      "question": "What are the walking surfaces, slopes, and trail conditions at Fairmount Park?",
+      "reason": "No current, source-backed walking surfaces and terrain answer is cataloged.",
+      "action": "research",
+      "priority": 80,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Philadelphia Parks & Recreation",
+          "url": "https://www.phila.gov/parks-rec-finder/#/location/fairmount-park/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Philadelphia Parks & Recreation rules",
+          "url": "https://www.phila.gov/departments/philadelphia-parks-recreation/about/rules-and-regulations/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Philadelphia Parks & Recreation parking maps",
+          "url": "https://www.phila.gov/documents/parking-at-parks-rec-sites/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Fairmount Park Conservancy map",
+          "url": "https://myphillypark.org/app/uploads/2024/01/FairmountParkMap.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Philadelphia Lemon Hill update",
+          "url": "https://www.phila.gov/2026-07-22-lemon-hill-legacy-improvements/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Smith Memorial Playground and Playhouse",
+          "url": "https://www.smithplayground.org/plan-your-visit",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Philadelphia special events",
+          "url": "https://www.phila.gov/departments/office-of-special-events/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Lemon Hill / Park Charms",
+          "url": "https://www.parkcharms.org/lemon-hill/",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 69
+    },
+    {
       "id": "launch-fl-fort-lauderdale-fort-lauderdale-beach-park:trail-surface",
       "placeId": "launch-fl-fort-lauderdale-fort-lauderdale-beach-park",
       "placeName": "Fort Lauderdale Beach Park",
@@ -98895,6 +98955,66 @@
       "placeCoverageScore": 67
     },
     {
+      "id": "launch-pa-philadelphia-fairmount-park:splash-pad",
+      "placeId": "launch-pa-philadelphia-fairmount-park",
+      "placeName": "Fairmount Park",
+      "placeType": "Park",
+      "city": "Philadelphia",
+      "state": "PA",
+      "intentKey": "splash-pad",
+      "intentLabel": "Water play",
+      "question": "Is there a splash pad or water play at Fairmount Park, and when does it operate?",
+      "reason": "No current, source-backed water play answer is cataloged.",
+      "action": "research",
+      "priority": 78,
+      "freshnessDays": 14,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Philadelphia Parks & Recreation",
+          "url": "https://www.phila.gov/parks-rec-finder/#/location/fairmount-park/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Philadelphia Parks & Recreation rules",
+          "url": "https://www.phila.gov/departments/philadelphia-parks-recreation/about/rules-and-regulations/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Philadelphia Parks & Recreation parking maps",
+          "url": "https://www.phila.gov/documents/parking-at-parks-rec-sites/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Fairmount Park Conservancy map",
+          "url": "https://myphillypark.org/app/uploads/2024/01/FairmountParkMap.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Philadelphia Lemon Hill update",
+          "url": "https://www.phila.gov/2026-07-22-lemon-hill-legacy-improvements/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Smith Memorial Playground and Playhouse",
+          "url": "https://www.smithplayground.org/plan-your-visit",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Philadelphia special events",
+          "url": "https://www.phila.gov/departments/office-of-special-events/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Lemon Hill / Park Charms",
+          "url": "https://www.parkcharms.org/lemon-hill/",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 69
+    },
+    {
       "id": "launch-fl-fort-lauderdale-fort-lauderdale-beach-park:splash-pad",
       "placeId": "launch-fl-fort-lauderdale-fort-lauderdale-beach-park",
       "placeName": "Fort Lauderdale Beach Park",
@@ -117477,6 +117597,66 @@
       ],
       "requiresHumanReview": true,
       "placeCoverageScore": 55
+    },
+    {
+      "id": "launch-pa-philadelphia-fairmount-park:dog-area",
+      "placeId": "launch-pa-philadelphia-fairmount-park",
+      "placeName": "Fairmount Park",
+      "placeType": "Park",
+      "city": "Philadelphia",
+      "state": "PA",
+      "intentKey": "dog-area",
+      "intentLabel": "Dog areas and rules",
+      "question": "Where can dogs go at Fairmount Park, and what rules apply?",
+      "reason": "No current, source-backed dog areas and rules answer is cataloged.",
+      "action": "research",
+      "priority": 72,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Philadelphia Parks & Recreation",
+          "url": "https://www.phila.gov/parks-rec-finder/#/location/fairmount-park/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Philadelphia Parks & Recreation rules",
+          "url": "https://www.phila.gov/departments/philadelphia-parks-recreation/about/rules-and-regulations/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Philadelphia Parks & Recreation parking maps",
+          "url": "https://www.phila.gov/documents/parking-at-parks-rec-sites/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Fairmount Park Conservancy map",
+          "url": "https://myphillypark.org/app/uploads/2024/01/FairmountParkMap.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Philadelphia Lemon Hill update",
+          "url": "https://www.phila.gov/2026-07-22-lemon-hill-legacy-improvements/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Smith Memorial Playground and Playhouse",
+          "url": "https://www.smithplayground.org/plan-your-visit",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Philadelphia special events",
+          "url": "https://www.phila.gov/departments/office-of-special-events/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Lemon Hill / Park Charms",
+          "url": "https://www.parkcharms.org/lemon-hill/",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 69
     },
     {
       "id": "launch-ca-carlsbad-agua-hedionda-lagoon-discovery-center:dog-area",
@@ -149232,6 +149412,66 @@
       "placeCoverageScore": 67
     },
     {
+      "id": "launch-pa-philadelphia-fairmount-park:shade",
+      "placeId": "launch-pa-philadelphia-fairmount-park",
+      "placeName": "Fairmount Park",
+      "placeType": "Park",
+      "city": "Philadelphia",
+      "state": "PA",
+      "intentKey": "shade",
+      "intentLabel": "Shade and weather comfort",
+      "question": "Where can visitors find shade or weather shelter at Fairmount Park?",
+      "reason": "No current, source-backed shade and weather comfort answer is cataloged.",
+      "action": "research",
+      "priority": 64,
+      "freshnessDays": 180,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Philadelphia Parks & Recreation",
+          "url": "https://www.phila.gov/parks-rec-finder/#/location/fairmount-park/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Philadelphia Parks & Recreation rules",
+          "url": "https://www.phila.gov/departments/philadelphia-parks-recreation/about/rules-and-regulations/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Philadelphia Parks & Recreation parking maps",
+          "url": "https://www.phila.gov/documents/parking-at-parks-rec-sites/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Fairmount Park Conservancy map",
+          "url": "https://myphillypark.org/app/uploads/2024/01/FairmountParkMap.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Philadelphia Lemon Hill update",
+          "url": "https://www.phila.gov/2026-07-22-lemon-hill-legacy-improvements/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Smith Memorial Playground and Playhouse",
+          "url": "https://www.smithplayground.org/plan-your-visit",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Philadelphia special events",
+          "url": "https://www.phila.gov/departments/office-of-special-events/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Lemon Hill / Park Charms",
+          "url": "https://www.parkcharms.org/lemon-hill/",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 69
+    },
+    {
       "id": "launch-fl-fort-lauderdale-fort-lauderdale-beach-park:shade",
       "placeId": "launch-fl-fort-lauderdale-fort-lauderdale-beach-park",
       "placeName": "Fort Lauderdale Beach Park",
@@ -167349,6 +167589,66 @@
       ],
       "requiresHumanReview": true,
       "placeCoverageScore": 67
+    },
+    {
+      "id": "launch-pa-philadelphia-fairmount-park:public-art",
+      "placeId": "launch-pa-philadelphia-fairmount-park",
+      "placeName": "Fairmount Park",
+      "placeType": "Park",
+      "city": "Philadelphia",
+      "state": "PA",
+      "intentKey": "public-art",
+      "intentLabel": "Landmarks and public art",
+      "question": "Where are the landmarks or public art at Fairmount Park, and how do visitors find them?",
+      "reason": "No current, source-backed landmarks and public art answer is cataloged.",
+      "action": "research",
+      "priority": 60,
+      "freshnessDays": 180,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Philadelphia Parks & Recreation",
+          "url": "https://www.phila.gov/parks-rec-finder/#/location/fairmount-park/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Philadelphia Parks & Recreation rules",
+          "url": "https://www.phila.gov/departments/philadelphia-parks-recreation/about/rules-and-regulations/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Philadelphia Parks & Recreation parking maps",
+          "url": "https://www.phila.gov/documents/parking-at-parks-rec-sites/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Fairmount Park Conservancy map",
+          "url": "https://myphillypark.org/app/uploads/2024/01/FairmountParkMap.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Philadelphia Lemon Hill update",
+          "url": "https://www.phila.gov/2026-07-22-lemon-hill-legacy-improvements/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Smith Memorial Playground and Playhouse",
+          "url": "https://www.smithplayground.org/plan-your-visit",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Philadelphia special events",
+          "url": "https://www.phila.gov/departments/office-of-special-events/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Lemon Hill / Park Charms",
+          "url": "https://www.parkcharms.org/lemon-hill/",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 69
     },
     {
       "id": "launch-ca-carlsbad-agua-hedionda-lagoon-discovery-center:public-art",
