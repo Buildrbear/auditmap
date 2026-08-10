@@ -45,6 +45,13 @@ for (const [name, token] of fdrImageChecks) {
   const imageSourceUrl = fdr?.features?.find((feature) => feature.name === name)?.details?.imageSourceUrl || "";
   if (!imageSourceUrl.includes(token)) failures.push(`FDR Park/${name}: image does not match destination`);
 }
+const rittenhouse = places.find((place) => place.id === "launch-pa-philadelphia-rittenhouse-square");
+for (const phrase of ["more than 200 trees", "10 p.m. systemwide curfew", "Tuesday market year-round from 10 a.m.-2 p.m.", "there is no playground", "no documented standalone park restroom"]) if (!JSON.stringify(rittenhouse).toLowerCase().includes(phrase.toLowerCase())) failures.push(`Rittenhouse Square: missing ${phrase}`);
+for (const [name, sourceToken] of [["Rittenhouse Square Central Plaza and Reflecting Pool", "Rittenhouse_Square_2024"], ["Lion Crushing a Serpent", "Rittenhouse_Square_-_Lion_killing_a_snake"], ["Duck Girl", "Girl_w_duck_Rittenhs_Sq"], ["Billy", "Rittenhouse_Sq_goat"]]) {
+  const feature = rittenhouse?.features?.find((item) => item.name === name);
+  if (!feature) failures.push(`Rittenhouse Square: missing ${name}`);
+  else if (!(feature.details?.imageSourceUrl || "").includes(sourceToken)) failures.push(`Rittenhouse Square/${name}: destination image does not match`);
+}
 const independence = places.find((place) => place.id === "launch-pa-philadelphia-independence-national-historical-park");
 for (const phrase of ["$1 service fee", "security", "no restrooms inside the Independence Hall secured area"]) if (!JSON.stringify(independence).toLowerCase().includes(phrase.toLowerCase())) failures.push(`Independence: missing ${phrase}`);
 const fairmount = places.find((place) => place.id === "launch-pa-philadelphia-fairmount-park");

@@ -41,14 +41,10 @@ const featureProfiles = {
     { image: 3, description: "Olmsted Overlook and its historic gazebo provide a recognizable lake-side gathering landmark used for free music and other scheduled park programs." }
   ],
   "launch-pa-philadelphia-rittenhouse-square": [
-    { image: 1, description: "The central fountain and plaza are Rittenhouse Square's main meeting point, surrounded by benches, diagonal paths, lawns, and public art." },
+    { image: 1, description: "The central plaza and reflecting pool are Rittenhouse Square's main meeting point, surrounded by benches, diagonal paths, lawns and public art." },
     { image: 2, description: "Lion Crushing a Serpent is the dramatic bronze sculpture in the southwest portion of Rittenhouse Square and an easy landmark for meeting or exploring." },
-    { image: 3, description: "The farmers market uses the Walnut Street edge of the square on scheduled market days; vendor setup can narrow paths and change curb access." },
-    { image: 0, description: "The family lawn and central plaza offer shade, benches, and people-watching, but this busy open square is not a fenced playground." },
-    { image: 1, description: "Duck Girl is a small bronze figure and fountain near the park's southwest interior, best visited as part of a short sculpture walk rather than a separate attraction." },
-    { image: 2, description: "Billy is the well-known bronze goat sculpture near the southwest side and a popular children's landmark; it sits beside open paths, not inside a fenced play zone." },
-    { image: 3, description: "The sundial and southwest lawn offer a quieter landmark and shaded seating area, though markets, events, wet turf, and maintenance can change lawn access." },
-    { image: 0, description: "The Walnut Street edge faces cafes, shops, and the scheduled farmers market; curb activity and vendor setup make it a convenient but busy meeting side." }
+    { image: 3, description: "Duck Girl is Paul Manship's bronze figure at the Children's Pool, best visited as part of the square's compact public-art walk." },
+    { image: 4, description: "Billy is Albert Laessle's bronze goat sculpture and a popular children's landmark beside the square's open paths." }
   ],
   "launch-pa-philadelphia-franklin-square": [
     { image: 1, description: "Parx Liberty Carousel is Franklin Square's gentle family ride; it operates on a seasonal schedule and requires a separate ticket for riders age three and older." },

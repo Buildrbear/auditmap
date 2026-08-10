@@ -50,10 +50,15 @@ async function fetchBuffer(url, label) {
       const item = typeof raw === "string" ? { file: raw } : raw;
       const record = item.url ? item : { ...item, ...(await commonsRecord(item.file)) };
       const label = item.file || new URL(item.url).pathname.split("/").pop();
-      const target = path.join(directory, `${String(index + 1).padStart(2, "0")}-${slugify(label)}.webp`);
+      const target = path.join(directory, `${String(index + 1).padStart(2, "0")}-${slugify(item.outputName || label)}.webp`);
       if (!fs.existsSync(target)) {
         const buffer = await fetchBuffer(record.url, label);
-        await sharp(buffer).rotate().resize(1600, 1000, { fit: "cover", position: "attention", withoutEnlargement: true }).webp({ quality: 83 }).toFile(target);
+        await sharp(buffer).rotate().resize(1600, 1000, {
+          fit: item.fit || "cover",
+          position: item.position || "attention",
+          background: item.background || "#f2f1ed",
+          withoutEnlargement: true
+        }).webp({ quality: 83 }).toFile(target);
         await wait(500);
       }
       const metadata = await sharp(target).metadata();

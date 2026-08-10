@@ -155,19 +155,41 @@
       ]
     },
     "launch-pa-philadelphia-rittenhouse-square": {
+      "verifiedAt": "2026-08-10",
       "address": "135 S. 18th Street, Philadelphia, PA 19103",
       "latitude": 39.9494662, "longitude": -75.1718903,
-      "summary": "Rittenhouse Square is a compact Center City gathering park with mature trees, lawns, a central plaza and pool, public art, benches, a seasonal farmers market, nearby food, and constant neighborhood activity.",
-      "hours": "The square follows posted Philadelphia park hours. Farmers market, fountains, maintenance, performances, and permitted events use separate schedules.",
-      "cost": "General park, lawn, seating, fountain-view, and public-art access is free. Market purchases, nearby food, parking, and special programs cost separately.",
-      "parking": "There is no park lot. Use transit, walk, bike, or choose a paid Center City garage before arriving; legal curb spaces are scarce and loading or event restrictions change.",
-      "arrival": "The main diagonal walks meet at the center plaza. Enter from 18th Street for the most recognizable approach, or choose the corner nearest your transit stop or garage.",
-      "restrooms": "The square does not provide a dependable standalone public restroom. Use a confirmed-open nearby business or cultural facility before settling in for a long visit.",
-      "accessibility": "Primary paved paths are generally accessible, but historic paving, crowded entrances, lawn grades, wet leaves, snow, ice, markets, and event setups can narrow routes.",
-      "dogs": "Leashed dogs are common and allowed under posted rules; clean up waste and keep pets controlled around lawns, children, food, gardens, and busy paths.",
-      "family": "The square works for a break, people-watching, statues, and a short lawn visit rather than a destination playground. Crowds, dogs, streets, and the ornamental pool require supervision.",
-      "transit": "SEPTA buses and nearby trolley and subway stations make transit easier than parking. The square sits between Walnut, Rittenhouse, 18th, and 19th Streets.",
-      "need": "Check major events, farmers-market setup, fountain maintenance, heat, storms, snow, and ice. This is a busy civic square, not a fenced play space."
+      "summary": "Rittenhouse Square is a six-acre Center City public square with more than 200 trees, lawns, a central plaza and reflecting pool, abundant seating, a compact outdoor sculpture collection, year-round farmers markets and active streets on every side.",
+      "hours": "Philadelphia Parks & Recreation has a 10 p.m. systemwide curfew. Farmers markets, water features, maintenance, performances and permitted events use separate schedules, and an open square does not mean a vendor or program is operating.",
+      "cost": "General square, lawn, seating, reflecting-pool view and public-art access are free. Market purchases, nearby food, paid parking and special programs cost separately.",
+      "parking": "There is no park lot. Walk, bike or use SEPTA when practical; otherwise choose a paid Center City garage before arriving. Scarce curb spaces, loading, market setup, street work and events can change without making the square itself closed.",
+      "arrival": "The diagonal walks converge at the central plaza and reflecting pool. Use the 18th-and-Walnut corner for the farmers market, or enter from the corner nearest your transit stop, garage or sculpture rather than circling for a nonexistent park lot.",
+      "restrooms": "The operator does not document a standalone public restroom in the square. Plan a confirmed-open nearby facility before a long visit, especially with children; a cafe or business may limit restrooms to customers and its own hours.",
+      "accessibility": "Primary paved walks connect all four corners to the center, but historic paving, curb transitions, crowded entrances, lawn edges, wet leaves, snow, ice, market tables and event setups can narrow or roughen the route.",
+      "dogs": "Dogs may use ordinary Parks & Recreation property on a leash six feet or shorter unless an area is posted animal-free. Clean up waste and keep pets controlled around lawns, children, food, gardens, sculptures and crowded paths; there is no fenced dog run here.",
+      "family": "The pool, bronze animals, lawns, trees and people-watching make a good short family stop, but there is no playground or fenced play zone. Every edge opens directly to city streets, and the water, dogs and crowds require close supervision.",
+      "transit": "Center City transit is generally easier than driving. The square occupies the block between Walnut Street, Rittenhouse Street, 18th Street and 19th Street; route to the stop nearest the corner you intend to use rather than to a broad neighborhood pin.",
+      "need": "Treat Rittenhouse as an active urban square rather than an attraction with a front desk. Check the live event calendar and market schedule, protect mature lawns and trees, obey the 10 p.m. curfew, and plan restroom access before settling in.",
+      "weather": "More than 200 trees provide substantial shade, but the central plaza and lawns still become hot and exposed. Wet leaves, storms, wind, snow and ice can affect paving and branches; leave the square when thunder or dangerous wind develops.",
+      "answerSources": {
+        "hours": {"sourceLabel":"Philadelphia Parks & Recreation rules","source":"https://www.phila.gov/departments/philadelphia-parks-recreation/about/rules-and-regulations/"},
+        "parking": {"sourceLabel":"Philadelphia Parks & Recreation Rittenhouse Square","source":"https://www.phila.gov/parks-rec-finder/#/location/rittenhouse-square/"},
+        "entrance": {"sourceLabel":"Friends of Rittenhouse Square history","source":"https://www.friendsofrittenhouse.org/about/our-history"},
+        "restroom": {"sourceLabel":"Philadelphia Parks & Recreation Rittenhouse Square","source":"https://www.phila.gov/parks-rec-finder/#/location/rittenhouse-square/"},
+        "fees": {"sourceLabel":"Philadelphia Parks & Recreation Rittenhouse Square","source":"https://www.phila.gov/parks-rec-finder/#/location/rittenhouse-square/"},
+        "accessibility": {"sourceLabel":"Friends of Rittenhouse Square history","source":"https://www.friendsofrittenhouse.org/about/our-history"},
+        "dogs": {"sourceLabel":"Philadelphia Parks & Recreation dog regulations","source":"https://www.phila.gov/departments/philadelphia-parks-recreation/about/dog-regulations-and-best-practices/"},
+        "family": {"sourceLabel":"Friends of Rittenhouse Square","source":"https://www.friendsofrittenhouse.org/about"},
+        "transit": {"sourceLabel":"Philadelphia Parks & Recreation Rittenhouse Square","source":"https://www.phila.gov/parks-rec-finder/#/location/rittenhouse-square/"},
+        "need-to-know": {"sourceLabel":"Friends of Rittenhouse Square events","source":"https://www.friendsofrittenhouse.org/events","freshnessClass":"fast"},
+        "weather": {"sourceLabel":"Friends of Rittenhouse Square","source":"https://www.friendsofrittenhouse.org/about"}
+      },
+      "extraAnswers": [
+        {"intentKey":"farmers-market","question":"When is the Rittenhouse Square farmers market?","answer":"Farm to City currently schedules the Tuesday market year-round from 10 a.m.-2 p.m. and the Saturday market from 9 a.m.-2 p.m.; Saturday shifts to 10 a.m.-2 p.m. from December through the end of March. Both use 18th and Walnut, and holiday or weather changes should be checked before a market-specific trip.","sourceLabel":"Farm to City Rittenhouse markets","source":"https://www.farmtocitymarkets.com/markets/rittenhousesaturday","freshnessClass":"fast"},
+        {"intentKey":"public-art","question":"What sculptures should I look for in Rittenhouse Square?","answer":"A compact Association for Public Art walk includes Lion Crushing a Serpent, Duck Girl at the Children's Pool, Billy the bronze goat, the Evelyn Taylor Price Memorial Sundial, Giant Frog, the Dr. J. William White Memorial and the southwest entrance Greyhounds.","sourceLabel":"Association for Public Art Rittenhouse Square tour","source":"https://www.associationforpublicart.org/tours/around-rittenhouse-square/","freshnessClass":"slow"},
+        {"intentKey":"shade","question":"Is there shade and seating in Rittenhouse Square?","answer":"Yes. The Friends describe more than 200 trees, and the historic design provides many benches and gathering areas. Shade moves during the day, lawns may close for recovery, and the central plaza remains more exposed than the tree-lined edges.","sourceLabel":"Friends of Rittenhouse Square","source":"https://www.friendsofrittenhouse.org/about","freshnessClass":"slow"},
+        {"intentKey":"playground","question":"Does Rittenhouse Square have a playground?","answer":"No conventional playground is documented. Families often use the lawns, reflecting pool and animal sculptures for a short visit, but the square is open to surrounding streets and shared with dogs, markets, events and heavy pedestrian traffic.","sourceLabel":"Philadelphia Parks & Recreation Rittenhouse Square","source":"https://www.phila.gov/parks-rec-finder/#/location/rittenhouse-square/","freshnessClass":"slow"},
+        {"intentKey":"events","question":"What events are happening at Rittenhouse Square?","answer":"Use the live Friends event calendar rather than a recurring-event list. At the latest check it listed Ballet on the Square with its date and time still to be determined, so AuditMap should not invent a schedule before the organizer publishes one.","sourceLabel":"Friends of Rittenhouse Square events","source":"https://www.friendsofrittenhouse.org/events","freshnessClass":"fast"}
+      ]
     },
     "launch-pa-philadelphia-franklin-square": {
       "address": "200 N. 6th Street, Philadelphia, PA 19106",
