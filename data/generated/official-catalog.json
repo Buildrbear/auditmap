@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T12:31:57.295Z",
+  "generatedAt": "2026-08-10T02:44:20.099Z",
   "places": [
     {
       "id": "basic-osm-way-33060929",
@@ -96710,12 +96710,12 @@
       "type": "Park",
       "city": "Fort Lauderdale",
       "state": "FL",
-      "address": "Fort Lauderdale",
+      "address": "3109 E Sunrise Blvd, Fort Lauderdale, FL 33304",
       "officialSource": {
         "label": "Florida State Parks",
         "url": "https://www.floridastateparks.org/HughTaylorBirch"
       },
-      "verifiedAt": "2026-07-30",
+      "verifiedAt": "2026-08-09",
       "facts": [
         {
           "key": "hours",
@@ -96724,7 +96724,7 @@
           "scope": "place",
           "sourceLabel": "Florida State Parks",
           "sourceUrl": "https://www.floridastateparks.org/HughTaylorBirch",
-          "checkedAt": "2026-07-30",
+          "checkedAt": "2026-08-09",
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
@@ -96736,7 +96736,7 @@
           "scope": "place",
           "sourceLabel": "Florida State Parks",
           "sourceUrl": "https://www.floridastateparks.org/HughTaylorBirch",
-          "checkedAt": "2026-07-30",
+          "checkedAt": "2026-08-09",
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
@@ -96748,7 +96748,7 @@
           "scope": "place",
           "sourceLabel": "Florida State Parks",
           "sourceUrl": "https://www.floridastateparks.org/HughTaylorBirch",
-          "checkedAt": "2026-07-30",
+          "checkedAt": "2026-08-09",
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
@@ -96756,11 +96756,11 @@
         {
           "key": "address",
           "label": "Address",
-          "value": "Fort Lauderdale, FL",
+          "value": "3109 E Sunrise Blvd, Fort Lauderdale, FL 33304",
           "scope": "place",
           "sourceLabel": "Florida State Parks",
           "sourceUrl": "https://www.floridastateparks.org/HughTaylorBirch",
-          "checkedAt": "2026-07-30",
+          "checkedAt": "2026-08-09",
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
@@ -96956,9 +96956,39 @@
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
+        },
+        {
+          "key": "terramar-visitor-center",
+          "label": "Terramar Visitor Center",
+          "value": "Terramar Visitor Center is Hugh Taylor Birch's former two-story home, a Mediterranean and Art Deco building with exhibits about the park, South Florida history, and the surrounding ecosystem.",
+          "scope": "feature",
+          "featureId": "467dbcca-3258-42dc-8263-f0db22d48c2d",
+          "featureType": "destination",
+          "positionQuality": "reviewed-official-campus-placement",
+          "sourceLabel": "Florida State Parks",
+          "sourceUrl": "https://www.floridastateparks.org/parks-and-trails/hugh-taylor-birch-state-park/experiences-amenities",
+          "checkedAt": "2026-08-09",
+          "expiresAt": null,
+          "sourceType": "official"
+        },
+        {
+          "key": "the-grove",
+          "label": "The Grove",
+          "value": "The Grove is the park's Beach Gate concession area, combining a café and bar, shop, visitor seating, beach equipment service, and kayak or other recreation rentals near A1A.",
+          "scope": "feature",
+          "featureId": "bf2bd776-4a4b-47ab-98cc-849805709c06",
+          "featureType": "destination",
+          "positionQuality": "reviewed-public-map-placement",
+          "sourceLabel": "Florida State Parks",
+          "sourceUrl": "https://www.floridastateparks.org/parks-and-trails/hugh-taylor-birch-state-park/experiences-amenities",
+          "checkedAt": "2026-08-09",
+          "expiresAt": null,
+          "sourceType": "official"
         }
       ],
-      "unresolved": []
+      "unresolved": [
+        "Secure exact reusable photographs and reviewed coordinates before publishing Beach Gate, Coastal Hammock Trail, Long Lake paddling area, Rail Trail, North End Playground, beach tunnel, pavilions, or individual parking areas as separate pages. Recheck the floating-dock and restroom construction notices before every freshness update."
+      ]
     },
     {
       "id": "launch-fl-fort-lauderdale-snyder-park",

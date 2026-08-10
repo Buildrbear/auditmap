@@ -1,0 +1,61 @@
+{
+  "campaign": "South Florida Atlantic anchor connector",
+  "checkedAt": "2026-08-09",
+  "releaseStandard": "Four licensed destination-specific photos, preserved official visitor answers, full street addresses, and only named subsites with reviewed coordinates plus destination-specific photography.",
+  "places": [
+    {
+      "id": "launch-fl-fort-lauderdale-hugh-taylor-birch-state-park",
+      "name": "Hugh Taylor Birch State Park",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "citySlug": "fort-lauderdale-fl",
+      "operator": "Florida State Parks",
+      "source": "https://www.floridastateparks.org/parks-and-trails/hugh-taylor-birch-state-park",
+      "featureResearchRadiusMeters": 1600,
+      "imageQueries": ["Hugh Taylor Birch State Park", "Terramar Visitor Center", "Hugh Taylor Birch coastal hammock trail", "Lake Helen Hugh Taylor Birch"],
+      "subsites": ["Terramar Visitor Center", "Beach Gate", "Coastal Hammock Trail", "Lake Helen Paddling Area", "The Grove concession", "Rail Trail", "North End Playground"]
+    },
+    {
+      "id": "launch-fl-fort-lauderdale-snyder-park",
+      "name": "Snyder Park",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "citySlug": "fort-lauderdale-fl",
+      "operator": "City of Fort Lauderdale Parks and Recreation",
+      "source": "https://www.parks.fortlauderdale.gov/Home/Components/FacilityDirectory/FacilityDirectory/62/1243",
+      "deferRelease": true,
+      "deferReason": "No destination-specific photograph with reusable rights cleared the current review. Search results were unrelated Snyder-Middleswarth Natural Area images or an unrelated meeting photograph.",
+      "featureResearchRadiusMeters": 1500,
+      "imageQueries": ["Snyder Park Fort Lauderdale", "Snyder Park Bark Park dog swim", "Snyder Park nature trail", "Snyder Park disc golf"],
+      "subsites": ["Bark Park", "Dog Swim Lake", "Snyder Park Nature Trail", "Snyder Park Disc Golf Course", "Snyder Park Playground", "Butterfly Garden", "The FORT pickleball facility"]
+    },
+    {
+      "id": "launch-fl-west-palm-beach-okeeheelee-park",
+      "name": "Okeeheelee Park",
+      "city": "West Palm Beach",
+      "state": "FL",
+      "citySlug": "west-palm-beach-fl",
+      "operator": "Palm Beach County Parks and Recreation",
+      "source": "https://discover.pbcgov.org/parks/Locations/Okeeheelee.aspx",
+      "deferRelease": true,
+      "deferReason": "No destination-specific photograph with reusable rights cleared the current review. Discovered Flickr images were all-rights-reserved or carried noncommercial/no-derivatives restrictions.",
+      "featureResearchRadiusMeters": 3000,
+      "imageQueries": ["Okeeheelee Park", "Okeeheelee Nature Center", "Okeeheelee Park dog park", "Okeeheelee Park mountain bike trail"],
+      "subsites": ["Okeeheelee Nature Center", "Okeeheelee Dog Park", "Okeeheelee Park South Mountain Bike Trailhead", "Shark Wake Park 561", "Jim Brandon Equestrian Center", "Okeeheelee BMX Track", "Okeeheelee Fitness Trail", "Okeeheelee Fishing Pier"]
+    },
+    {
+      "id": "launch-fl-west-palm-beach-dreher-park",
+      "name": "Dreher Park",
+      "city": "West Palm Beach",
+      "state": "FL",
+      "citySlug": "west-palm-beach-fl",
+      "operator": "City of West Palm Beach Parks and Recreation",
+      "source": "https://www.wpb.org/Departments/Parks-Recreation/Parks/Dreher-Park",
+      "deferRelease": true,
+      "deferReason": "The reusable search set depicts Palm Beach Zoo almost exclusively and does not provide a representative four-image gallery for the broader Dreher Park destination.",
+      "featureResearchRadiusMeters": 1800,
+      "imageQueries": ["Dreher Park West Palm Beach", "Palm Beach Zoo Dreher Park", "Cox Science Center Dreher Park", "Dreher Park dog park"],
+      "subsites": ["Palm Beach Zoo", "Cox Science Center and Aquarium", "Dreher Dog Park", "Dreher Park Playground", "Dreher Park Disc Golf Course", "Dreher Park Fishing Dock", "Dreher Park Public Art"]
+    }
+  ]
+}

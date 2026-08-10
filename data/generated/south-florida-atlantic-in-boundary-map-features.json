@@ -1,0 +1,61 @@
+{
+  "campaign": "South Florida Atlantic anchor connector",
+  "checkedAt": "2026-08-09",
+  "places": {
+    "launch-fl-fort-lauderdale-hugh-taylor-birch-state-park": {
+      "name": "Hugh Taylor Birch State Park",
+      "boundarySource": "https://www.openstreetmap.org/way/49508471",
+      "candidates": [
+        {
+          "name": "Hugh Taylor Birch State Park",
+          "latitude": 26.1454697,
+          "longitude": -80.1051327,
+          "osmType": "way",
+          "osmId": 49508471,
+          "sourceUrl": "https://www.openstreetmap.org/way/49508471",
+          "tags": {
+            "ele": "2",
+            "gnis:feature_id": "284383",
+            "leisure": "park",
+            "name": "Hugh Taylor Birch State Park",
+            "website": "https://www.floridastateparks.org/hughtaylorbirch",
+            "wikidata": "Q3364064"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Fort Lauderdale Fire Rescue Station 13;Fort Lauderdale Fire / Rescue Station 13",
+          "latitude": 26.1384443,
+          "longitude": -80.1065785,
+          "osmType": "way",
+          "osmId": 616644430,
+          "sourceUrl": "https://www.openstreetmap.org/way/616644430",
+          "tags": {
+            "addr:state": "FL",
+            "amenity": "fire_station",
+            "building": "yes",
+            "ele": "1",
+            "gnis:feature_id": "2131222",
+            "name": "Fort Lauderdale Fire Rescue Station 13;Fort Lauderdale Fire / Rescue Station 13",
+            "source": "USGS Geonames"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "The Grove",
+          "latitude": 26.139173333333332,
+          "longitude": -80.10539666666666,
+          "osmType": "wikimedia",
+          "osmId": 74485211,
+          "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=74485211",
+          "tags": {
+            "evidence": "WGS-84 GPS metadata embedded in destination-specific photograph",
+            "imageDescription": "A restaurant seating area at Hugh Taylor Birch State Park in Fort Lauderdale, Florida.",
+            "gpsDate": "2018-11-07"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    }
+  }
+}

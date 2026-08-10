@@ -72736,6 +72736,217 @@
         }
       ],
       "verifiedAt": "2026-08-08"
+    },
+    "launch-fl-fort-lauderdale-hugh-taylor-birch-state-park": {
+      "operator": "Florida State Parks",
+      "sourceLabel": "Florida State Parks",
+      "source": "https://www.floridastateparks.org/HughTaylorBirch",
+      "hours": "The park is open daily from 8:00 a.m. to sunset, 365 days a year.",
+      "cost": "Admission is $6 per vehicle with up to eight people, $4 for a single-occupant vehicle or motorcycle, and $2 for pedestrians, bicyclists, extra passengers, and eligible passholder passengers.",
+      "summary": "Hugh Taylor Birch State Park is Fort Lauderdale's 180-acre urban nature retreat between the Intracoastal Waterway and Atlantic beach, with coastal hammock trails, a 1.9-mile park drive, paddling lake, beach access, playground, shaded picnic areas, visitor center, concession, wildlife viewing, and accessible amenities.",
+      "accessibility": "Accessible features include a beach wheelchair at the ranger station, quarter-mile accessible Rail Trail, accessible pavilions and picnic tables, concession restroom, audio and large-print brochures, and an accessible youth-camp lodge and cabin.",
+      "searchAnswers": [
+        {
+          "intentKey": "hours",
+          "question": "What hours is Hugh Taylor Birch State Park open?",
+          "answer": "The park is open from 8 a.m. to sunset every day of the year. The Terramar Visitor Center, concession, rentals, tours, and beach access may use shorter schedules.",
+          "sourceLabel": "Florida State Parks",
+          "source": "https://www.floridastateparks.org/parks-and-trails/hugh-taylor-birch-state-park/hours-fees",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "entrance",
+          "question": "What address should I use for Hugh Taylor Birch State Park?",
+          "answer": "Use 3109 East Sunrise Boulevard, Fort Lauderdale, FL 33304. The main entrance is west of A1A; beach access is reached from inside the park via the designated crosswalk.",
+          "sourceLabel": "Florida State Parks",
+          "source": "https://www.floridastateparks.org/HughTaylorBirch",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "parking",
+          "question": "Is parking available at Hugh Taylor Birch State Park?",
+          "answer": "Yes. The park has 252 spaces, and parking is included with admission. The Beach Hammock lot often fills on busy weekends and holidays, but other internal lots may still have spaces; overnight parking is prohibited.",
+          "sourceLabel": "Florida State Parks",
+          "source": "https://www.floridastateparks.org/parks-and-trails/hugh-taylor-birch-state-park/experiences-amenities",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "fees",
+          "question": "How much does Hugh Taylor Birch State Park cost?",
+          "answer": "Admission is $6 per vehicle for up to eight people, $4 for a single-occupant vehicle or motorcycle, and $2 for pedestrians, bicyclists, extra passengers, and qualifying passholder passengers.",
+          "sourceLabel": "Florida State Parks",
+          "source": "https://www.floridastateparks.org/parks-and-trails/hugh-taylor-birch-state-park/hours-fees",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Which restrooms are open at Hugh Taylor Birch State Park?",
+          "answer": "As of July 2026, the large-pavilion, Banyan, and North End restrooms are closed for construction. Fully accessible restrooms remain available in the concession building; verify the notice before relying on another location.",
+          "sourceLabel": "Florida State Parks",
+          "source": "https://www.floridastateparks.org/HughTaylorBirch",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "trail-surface",
+          "question": "What are the trails like at Hugh Taylor Birch State Park?",
+          "answer": "The Coastal Hammock Trail is a roughly 20-minute natural-surface walk with interpretive signs; the Mid Trail explores planted and native areas. The quarter-mile Rail Trail is the identified accessible route, and the paved one-way park drive is 1.9 miles.",
+          "sourceLabel": "Florida State Parks",
+          "source": "https://www.floridastateparks.org/parks-and-trails/hugh-taylor-birch-state-park/experiences-amenities",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "playground",
+          "question": "Is there a playground at Hugh Taylor Birch State Park?",
+          "answer": "Yes. The playground is in the North End and is included with park admission. Nearby construction can affect the North End restroom even when the play area remains available.",
+          "sourceLabel": "Florida State Parks",
+          "source": "https://www.floridastateparks.org/parks-and-trails/hugh-taylor-birch-state-park/experiences-amenities",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "accessibility",
+          "question": "What accessible amenities are at Hugh Taylor Birch State Park?",
+          "answer": "The park offers a beach wheelchair at the ranger station, an accessible quarter-mile Rail Trail, accessible pavilions and picnic tables, a concession restroom, audio and large-print brochures, and accessible portions of the youth camp.",
+          "sourceLabel": "Florida State Parks",
+          "source": "https://www.floridastateparks.org/parks-and-trails/hugh-taylor-birch-state-park/experiences-amenities",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "closures",
+          "question": "What is currently closed at Hugh Taylor Birch State Park?",
+          "answer": "As of July 2026, the floating dock is closed, and several restrooms plus large pavilions are affected by construction. Check the park's Know Before You Go notice because these conditions can change independently of general park access.",
+          "sourceLabel": "Florida State Parks",
+          "source": "https://www.floridastateparks.org/HughTaylorBirch",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "picnic",
+          "question": "Can I reserve a pavilion at Hugh Taylor Birch State Park?",
+          "answer": "Yes. Three shaded picnic pavilions normally hold about 50 people and include electricity and water on request; the published rental is $80 per day plus tax. Current construction affects large pavilions, so confirm availability before planning.",
+          "sourceLabel": "Florida State Parks",
+          "source": "https://www.floridastateparks.org/parks-and-trails/hugh-taylor-birch-state-park/experiences-amenities",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "dog-area",
+          "question": "Are pets allowed at Hugh Taylor Birch State Park?",
+          "answer": "Pets may visit allowed day-use areas under Florida State Parks rules, but they are not permitted in overnight group facilities and may be restricted from beaches, buildings, playgrounds, or sensitive habitat. Service animals are welcome throughout the park.",
+          "sourceLabel": "Florida State Parks",
+          "source": "https://www.floridastateparks.org/parks-and-trails/hugh-taylor-birch-state-park/experiences-amenities",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "fees",
+          "question": "Can I swim at Hugh Taylor Birch State Park?",
+          "answer": "Swimming is at the adjacent Fort Lauderdale beach, reached through the Beach Gate, not in the park's coastal dune lake. Follow lifeguard flags for surf and rip-current conditions and protect marked sea-turtle nesting areas.",
+          "sourceLabel": "Florida State Parks",
+          "source": "https://www.floridastateparks.org/parks-and-trails/hugh-taylor-birch-state-park/experiences-amenities",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "shade",
+          "question": "Where can I find shade or weather shelter at Hugh Taylor Birch State Park?",
+          "answer": "Palms, oaks, and maritime hammock shade many picnic and trail areas, while the beach, Intracoastal seawall, lagoon edges, and open recreation areas remain exposed. The park normally has three large pavilions, but its current notice says the large pavilions and Banyan and North End restrooms are closed for construction; accessible restrooms remain at the concession building. Terramar Visitor Center is open weekdays 9 a.m.-4 p.m. Do not use trees or pavilions as hurricane or lightning shelter; follow closure and evacuation orders.",
+          "sourceLabel": "Florida State Parks",
+          "source": "https://www.floridastateparks.org/HughTaylorBirch",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "transit",
+          "question": "Which bus goes to Hugh Taylor Birch State Park?",
+          "answer": "Broward County Transit Routes 11, 36, and 40 serve Hugh Taylor Birch State Park. Route 36 runs along Sunrise Boulevard toward A1A, while Routes 11 and 40 provide additional approaches along the beach and coastal corridor. Use the live planner for the main park entrance, beach gate, or specific stop and check alerts, because crossing A1A and reaching the ocean beach are separate from entering the park itself.",
+          "sourceLabel": "Broward County Transit",
+          "source": "https://www.broward.org/BCT/Destinations/pages/default.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "splash-pad",
+          "question": "Where can visitors swim at Hugh Taylor Birch State Park?",
+          "answer": "The park has no splash pad or pool. Swimming and snorkeling are available at the adjacent Fort Lauderdale ocean beach, reached through the Beach Gate and A1A crosswalk during beach-access hours, currently 8 a.m. to sunset. Follow lifeguard flags for surf and rip-current conditions and protect marked sea-turtle nests. Swimming is prohibited in every interior park water body, including the mangroves, canals, and coastal dune lake, even where paddling is allowed.",
+          "sourceLabel": "Florida State Parks",
+          "source": "https://www.floridastateparks.org/parks-and-trails/hugh-taylor-birch-state-park/experiences-amenities",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "public-art",
+          "question": "What landmarks should I visit at Hugh Taylor Birch State Park?",
+          "answer": "Start with Terramar Visitor Center, Hugh Taylor Birch's 1940 Mediterranean and Art Deco home, for the park's cultural and natural-history exhibits. The other defining landscapes are Lake Helen and the coastal dune lakes, rare maritime hammock and mangrove forest, the Intracoastal Waterway edge, and the Beach Gate leading across A1A to Fort Lauderdale Beach. The Grove concession and rentals form a separate activity hub. Check current construction notices because pavilions, restrooms, or docks can close independently.",
+          "sourceLabel": "Florida State Parks",
+          "source": "https://www.floridastateparks.org/parks-and-trails/hugh-taylor-birch-state-park/experiences-amenities",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        }
+      ],
+      "address": "3109 E Sunrise Blvd, Fort Lauderdale, FL 33304",
+      "image": {
+        "url": "/assets/parks/south-florida-atlantic-super/hugh-taylor-birch-state-park/01-hugh-taylor-birch-state-park-1.webp",
+        "source": "https://commons.wikimedia.org/w/index.php?curid=74485216",
+        "author": "Tamanoeconomico",
+        "license": "BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "alt": "Entrance sign and pedestrian approach at Hugh Taylor Birch State Park",
+        "width": 1600,
+        "height": 1000
+      },
+      "additionalImages": [
+        {
+          "url": "/assets/parks/south-florida-atlantic-super/hugh-taylor-birch-state-park/02-105-year-old-banyan-tree-at-hugh-taylor-birch-state-park-fort-lauderdale-florida.webp",
+          "source": "https://www.flickr.com/photos/64441474@N06/53381222825",
+          "author": "Au Kirk",
+          "license": "BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+          "alt": "A mature banyan tree inside Hugh Taylor Birch State Park",
+          "width": 1024,
+          "height": 683
+        },
+        {
+          "url": "/assets/parks/south-florida-atlantic-super/hugh-taylor-birch-state-park/03-hugh-taylor-birch-state-park-3.webp",
+          "source": "https://commons.wikimedia.org/w/index.php?curid=74485214",
+          "author": "Tamanoeconomico",
+          "license": "BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "alt": "Terramar Visitor Center and accessible approach at Hugh Taylor Birch State Park",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/south-florida-atlantic-super/hugh-taylor-birch-state-park/04-hugh-taylor-birch-state-park-6.webp",
+          "source": "https://commons.wikimedia.org/w/index.php?curid=74485211",
+          "author": "Tamanoeconomico",
+          "license": "BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "alt": "The Grove café patio and shaded visitor seating at Hugh Taylor Birch State Park",
+          "width": 1600,
+          "height": 1000
+        }
+      ],
+      "replaceImages": true,
+      "sources": [
+        {
+          "label": "OpenStreetMap contributors",
+          "url": "https://www.openstreetmap.org/way/49508471",
+          "note": "Map location and address"
+        },
+        {
+          "label": "Florida State Parks",
+          "url": "https://www.floridastateparks.org/parks-and-trails/hugh-taylor-birch-state-park/experiences-amenities"
+        }
+      ],
+      "verifiedAt": "2026-08-09"
     }
   }
 }

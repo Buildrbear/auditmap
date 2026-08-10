@@ -1,0 +1,48 @@
+{
+  "checkedAt": "2026-08-09",
+  "reviewMethod": "Official destination guidance, exact destination-specific photography, embedded WGS-84 coordinates, and reviewed park-boundary placement. Terramar is retained as an official campus exception because its mapped photo point falls just outside the current OpenStreetMap leisure polygon while the state park identifies it as the park visitor center.",
+  "places": {
+    "launch-fl-fort-lauderdale-hugh-taylor-birch-state-park": {
+      "terramar-visitor-center": {
+        "name": "Terramar Visitor Center",
+        "osm": "wikimedia/74485214",
+        "imageIndex": 2,
+        "allowOutsideBoundary": true,
+        "boundaryExceptionReason": "Florida State Parks identifies Terramar as Hugh Taylor Birch State Park's visitor center; the exact WGS-84 photo point is on the official park campus but falls just outside the current OpenStreetMap leisure polygon.",
+        "sourceLabel": "Florida State Parks",
+        "source": "https://www.floridastateparks.org/parks-and-trails/hugh-taylor-birch-state-park/experiences-amenities",
+        "summary": "Terramar Visitor Center is Hugh Taylor Birch's former two-story home, a Mediterranean and Art Deco building with exhibits about the park, South Florida history, and the surrounding ecosystem.",
+        "cost": "Visitor center admission is included with paid park entrance. Florida State Parks currently lists general admission as $6 per vehicle, with separate rates for single-occupant vehicles, pedestrians, bicyclists, and extra passengers.",
+        "hours": "The visitor center is open Monday through Friday, 9:00 a.m.-4:00 p.m., and is closed Saturdays, Sundays, and holidays. The surrounding park is open daily from 8:00 a.m. until sunset.",
+        "needToKnow": "Do not assume the visitor center follows the park's seven-day schedule. Friday and Saturday ranger programs may meet near Terramar even when the building itself is closed on Saturday. Use the exact pin and verify holiday or program changes before traveling specifically for indoor exhibits.",
+        "latitude": 26.137796666666667,
+        "longitude": -80.105905,
+        "displayName": "Terramar Visitor Center",
+        "coordinateSource": "https://commons.wikimedia.org/w/index.php?curid=74485214",
+        "boundarySource": "https://www.openstreetmap.org/way/49508471",
+        "positionQuality": "reviewed-official-campus-placement",
+        "reviewStatus": "approved-official-campus-extension",
+        "reviewedAt": "2026-08-09"
+      },
+      "the-grove": {
+        "name": "The Grove",
+        "osm": "wikimedia/74485211",
+        "imageIndex": 3,
+        "sourceLabel": "Florida State Parks",
+        "source": "https://www.floridastateparks.org/parks-and-trails/hugh-taylor-birch-state-park/experiences-amenities",
+        "summary": "The Grove is the park's Beach Gate concession area, combining a café and bar, shop, visitor seating, beach equipment service, and kayak or other recreation rentals near A1A.",
+        "cost": "Access requires the applicable park entrance fee; food, drinks, merchandise, rentals, events, and reserved services cost separately.",
+        "hours": "The park is open daily from 8:00 a.m. until sunset, but Florida State Parks does not publish guaranteed separate café, bar, shop, or rental hours on the amenity page. Confirm same-day service before depending on food or equipment availability.",
+        "needToKnow": "Use the exact Grove pin rather than the main Sunrise Boulevard entrance when planning beach access or rentals. Beach Hammock Lot can fill on busy weekends and holidays. The floating dock is closed effective May 11, 2026, and large pavilions plus Banyan and North End restrooms remain closed for construction; fully accessible restrooms are available in the Concession Building.",
+        "latitude": 26.139173333333332,
+        "longitude": -80.10539666666666,
+        "displayName": "The Grove",
+        "coordinateSource": "https://commons.wikimedia.org/w/index.php?curid=74485211",
+        "boundarySource": "https://www.openstreetmap.org/way/49508471",
+        "positionQuality": "reviewed-public-map-placement",
+        "reviewStatus": "approved-feature-and-boundary-match",
+        "reviewedAt": "2026-08-09"
+      }
+    }
+  }
+}
