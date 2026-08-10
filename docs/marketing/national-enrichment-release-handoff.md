@@ -2,27 +2,25 @@
 
 ## Candidate
 
-- Git-linked protected preview: `https://auditmap-d35oxwyp9-derrys-projects-f5a18cb6.vercel.app`
-- Git-linked deployment: `dpl_5F4QU3FoNcyNLqZ4KCrJfc6cKqwU`
-- Scope: the current nationwide AuditMap runtime and all 50 completed super-enrichment campaigns
+- Protected preview: `https://auditmap-j2lq34kqk-derrys-projects-f5a18cb6.vercel.app`
+- Preview deployment: `dpl_AeWoakreis9KVAMF9BGJnBUu9AzS`
+- Release commit: `34d4e41d09d840edfe9e0b56b8ef36860792cc8c`
+- Scope: the current nationwide AuditMap runtime and all 51 completed super-enrichment campaigns
 - Production publication: not performed
-- Completed final cluster: Tucson and Tulsa anchor connector
+- Completed final cluster: Potomac suburban park connector
 - Assignment: direct AuditMap owner request in the active Codex task; no separate OpenTask or GitHub issue URL was supplied
 
-## Verified 2026-08-08
+## Verified 2026-08-10
 
-The complete super-enrichment verifier suite passed `50/50` with zero failures after the Tucson/Tulsa map-answer merge check and before the preview build.
+The complete super-enrichment verifier suite passed `51/51` with zero failures. The Potomac campaign verifier confirmed 17 parent guides, 90 mapped destinations, 74 sourced photographs, raw visitor answers, exact navigation, source evidence, and canonical pages.
 
 The protected preview was then checked through authenticated Vercel requests:
 
-- Reid Park returned HTTP 200 with canonical metadata, full address, City of Tucson attribution, Cele Peterson Rose Garden, and Hi Corbett Field in raw HTML.
-- Rillito River Park Path returned HTTP 200 with sunrise-to-sunset guidance, Pima County attribution, current closure-check guidance, and exact navigation coordinates in raw HTML.
-- Gathering Place returned HTTP 200 with its full address, Chapman Adventure Playground, and Vista at the Boathouse in raw HTML.
-- Teaching Garden returned HTTP 200 with pay-as-you-wish guidance, the former Linnaeus-name context, Tulsa Garden Center attribution, and exact navigation coordinates in raw HTML.
-- `sitemap.xml` returned HTTP 200 and contains all tested Tucson/Tulsa parent and subsite canonical routes.
-- Vercel's optimizer rendered the new Reid Park hero at 828 by 526 pixels as a 77,352-byte image.
-- At 390 pixels, Reid Park and Rillito River Park Path had no horizontal overflow; exact trail navigation remained present.
-- At 1440 pixels, Gathering Place and Teaching Garden had no horizontal overflow; the Tulsa parent retained both released subsite links.
+- Cabin John Regional Park, Rock Creek Regional Park, Burke Lake Park, and all seven new destination pages returned HTTP 200.
+- `sitemap.xml` returned HTTP 200 and contains the new Maryland and Virginia parent and subsite canonical routes.
+- All 15 new licensed photographs returned HTTP 200 through Vercel's image optimizer.
+- At 390 pixels, all three new parent pages matched the viewport width with no horizontal overflow.
+- GitHub validation, secret scanning, and Vercel Preview Comments completed successfully for the release commit.
 
 Machine-readable evidence is in `preview/national-enrichment-release-validation.json`.
 
@@ -36,7 +34,7 @@ Machine-readable evidence is in `preview/national-enrichment-release-validation.
 
 ## Paused Research
 
-Tucson and Tulsa are complete at the reviewed launch standard: four parent guides, 16 licensed photographs, 59 preserved parent answers, and eight evidence-complete subsite pages. No next cluster is active. Remaining uncertain amenities and missing destination-specific images are recorded in the per-place research queues rather than published as verified subsites.
+Cabin John Regional Park, Rock Creek Regional Park, and Burke Lake Park are complete at the reviewed launch standard with 15 licensed photographs and seven evidence-complete destination pages. No next cluster is active while publication review is underway. Resume from the Potomac suburban checkpoint in `data/us-priority-enrichment-queue.json` after owner direction.
 
 ## Maintainer Release Sequence
 
@@ -49,6 +47,6 @@ Tucson and Tulsa are complete at the reviewed launch standard: four parent guide
 ## Risk And Rollback
 
 - The candidate is large and includes API, moderation, account, media, database-schema, and Vercel configuration changes in addition to generated park content. These areas require maintainer security review before production publication.
-- An earlier automatic deployment reported a stale cross-project failure, but the follow-up Git-linked deployment completed successfully in the expected Derry project. Treat any recurrence as a project-linking issue and inspect it before production promotion.
+- The automatic `michael-hobgoods-projects/auditmap` integration still reports a cross-project failure. The clean release commit deployed successfully to the authorized `derrys-projects-f5a18cb6/auditmap` project; treat the red duplicate status as a project-linking issue and remove or relink that obsolete integration before production promotion.
 - No production database write or production deployment was performed.
 - If production promotion causes map, place-page, navigation, moderation, or API regressions, use the normal Vercel rollback process and pause further enrichment publication.
