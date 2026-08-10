@@ -53,7 +53,12 @@ for (const [name, sourceToken] of [["Rittenhouse Square Central Plaza and Reflec
   else if (!(feature.details?.imageSourceUrl || "").includes(sourceToken)) failures.push(`Rittenhouse Square/${name}: destination image does not match`);
 }
 const independence = places.find((place) => place.id === "launch-pa-philadelphia-independence-national-historical-park");
-for (const phrase of ["$1 service fee", "security", "no restrooms inside the Independence Hall secured area"]) if (!JSON.stringify(independence).toLowerCase().includes(phrase.toLowerCase())) failures.push(`Independence: missing ${phrase}`);
+for (const phrase of ["9 a.m.-6 p.m.", "9-9:50 a.m. open house", "$7.50 for adults", "There are no public restrooms in the Liberty Bell Center", "arrive about 30 minutes", "Pets are not allowed inside public buildings", "Washington Square is open 24 hours"]) if (!JSON.stringify(independence).toLowerCase().includes(phrase.toLowerCase())) failures.push(`Independence: missing ${phrase}`);
+for (const [name, sourceToken] of [["Independence Visitor Center", "Independence_Visitor_Center_interior"], ["Liberty Bell Center", "Liberty_Bell_View_of_Independence_Hall"], ["Independence Hall and Independence Square", "Independence_National_Historical_Park_(NPS)"], ["Franklin Court and Benjamin Franklin Museum", "Benjamin_Franklin_Museum_in_Philadelphia"], ["President's House Site", "President's_House_Site_overview"], ["Congress Hall", "Congress_Hall_exterior"], ["Old City Hall", "Old_City_Hall_Philadelphia_USA"], ["Washington Square and Tomb of the Unknown Soldier", "Washington_Square_Tomb_of_the_Unknown_Revolutionary_War_Soldier"]]) {
+  const feature = independence?.features?.find((item) => item.name === name);
+  if (!feature) failures.push(`Independence: missing ${name}`);
+  else if (!(feature.details?.imageSourceUrl || "").includes(sourceToken)) failures.push(`Independence/${name}: destination image does not match`);
+}
 const franklin = places.find((place) => place.id === "launch-pa-philadelphia-franklin-square");
 for (const phrase of ["cleared before the ticketed Chinese Lantern Festival", "new expanded restrooms opened in spring 2025", "pets are not permitted on the carousel", "$15 adults and $12 children", "PATCO Station reopened in 2025"]) if (!JSON.stringify(franklin).toLowerCase().includes(phrase.toLowerCase())) failures.push(`Franklin Square: missing ${phrase}`);
 for (const [name, sourceToken] of [["Franklin Square Fountain and SquareBurger", "Franklin_Square_Fountain_b"], ["Parx Liberty Carousel", "2013_Franklin_Square_Carousel_from_east"], ["Philly Mini Golf", "Franklin_Square_golf"], ["Franklin Square PATCO Station", "Franklin_Square_head_house"]]) {

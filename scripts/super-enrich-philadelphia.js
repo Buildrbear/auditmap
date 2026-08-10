@@ -62,14 +62,14 @@ const featureProfiles = {
     { image: 1, description: "The Christopher Columbus Memorial is a permanent mapped artwork inside Spruce Street Harbor Park, useful as a compact landmark but separate from the seasonal attractions around it." }
   ],
   "launch-pa-philadelphia-independence-national-historical-park": [
-    { image: 0, description: "The Independence Visitor Center is the practical first stop for current schedules, maps, accessible restrooms, wheelchairs, films, and ranger guidance." },
-    { image: 1, description: "The Liberty Bell Center is free and does not require a ticket, but visitors pass through security and lines are longest during peak daytime hours." },
-    { image: 2, description: "Independence Hall requires a security screening and may require a timed ticket with a $1 service fee; there are no restrooms inside the secured area." },
-    { image: 0, description: "Franklin Court and the Benjamin Franklin Museum sit within the Old City blocks east of Independence Mall; the museum has separate admission and hours." },
-    { image: 1, description: "The President's House Site is an open-air exhibit beside the Liberty Bell Center examining presidential history and slavery; access is free and weather exposed." },
-    { image: 2, description: "Congress Hall stands beside Independence Hall and is visited through ranger-led access and security procedures that can change by season and staffing." },
-    { image: 3, description: "Old City Hall sits at the east side of Independence Square and has separate ranger access and operating hours despite being within the same historic block." },
-    { image: 0, description: "Washington Square is a landscaped park block southeast of Independence Hall centered on the Tomb of the Unknown Soldier, with free outdoor access and limited services." }
+    { image: 2, description: "The Independence Visitor Center is the practical first stop for current schedules, maps, accessible restrooms, loaner wheelchairs, films, free Wi-Fi and ranger guidance." },
+    { image: 1, description: "The Liberty Bell Center is free and unticketed, but every visitor passes through security and the building has no public restroom." },
+    { image: 0, description: "Independence Hall and Independence Square use a separate south-side security entrance; Hall access changes from a free morning open house to timed tours with a $1 reservation fee." },
+    { image: 3, description: "Franklin Court is a free outdoor historic courtyard, while the underground Benjamin Franklin Museum has separate admission, hours and accessible restrooms." },
+    { image: 4, description: "The President's House Site is a free open-air exhibit beside the Liberty Bell Center examining the presidency, freedom and enslavement through preserved foundations and media." },
+    { image: 5, description: "Congress Hall is free and unticketed but reached through Independence Square security, with an open house followed by scheduled ranger tours." },
+    { image: 6, description: "Old City Hall's former U.S. Supreme Court chamber is a free, first-come stop outside the Independence Square security line, with its own accessible entrance." },
+    { image: 7, description: "Washington Square is a free, 24-hour landscaped park and arboretum centered on the Tomb of the Unknown Soldier of the American Revolution." }
   ]
 };
 const slugify = (value) => String(value).toLowerCase().replace(/&/g, " and ").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");

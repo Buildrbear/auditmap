@@ -10,6 +10,19 @@
     "launch-pa-philadelphia-franklin-square": {"status":"evidence-ready","candidates":["Franklin Square Fountain b.jpg","2013 Franklin Square Carousel from east.jpg","Franklin Square golf.png","Franklin Square head house.jpg","Franklin Square fountain and carousel.JPG"]},
     "launch-pa-philadelphia-schuylkill-banks": {"status":"evidence-ready","candidates":["Philadelphia from South Street Bridge July 2016 panorama 2.jpg","Schuylkill River Trail (Philadelphia).JPG","Schuylkill River Trail from the South St. bridge.jpg","Northern Schuylkill Banks - panoramio.jpg","The Philadelphia skyline (cropped).jpg"]},
     "launch-pa-philadelphia-spruce-street-harbor-park": {"status":"evidence-ready","candidates":["Spruce Street Harbor Park.jpg","Christopher Columbus Memorial, Philadelphia 01.jpg","Christopher Columbus Memorial, Philadelphia 02.jpg"]},
-    "launch-pa-philadelphia-independence-national-historical-park": {"status":"commons-plus-nps","candidates":["Independence National Historical Park (NPS).jpg","Independence National Historical Park-063.jpg","Independence National Historical Park Magnolia Garden.jpg",{"file":"Liberty Bell Center SE view.jpg","author":"Toadspike","license":"CC BY-SA 4.0"}],"needed":[]}
+    "launch-pa-philadelphia-independence-national-historical-park": {
+      "status": "exact-commons-gallery",
+      "candidates": [
+        "Independence National Historical Park (NPS).jpg",
+        "Liberty Bell View of Independence Hall.jpg",
+        "Independence Visitor Center interior.jpg",
+        "Benjamin Franklin Museum in Philadelphia.jpg",
+        "President's House Site overview (af38328e-f519-485d-8af2-d292752a5de1).JPG",
+        "Congress Hall exterior.jpg",
+        "Old City Hall Philadelphia USA.jpg",
+        "Washington Square Tomb of the Unknown Revolutionary War Soldier.jpg"
+      ],
+      "needed": []
+    }
   }
 }

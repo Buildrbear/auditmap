@@ -502,6 +502,112 @@
         "family":"The memorial can be a short public-art stop rather than a child-focused attraction. Keep children off the structure and supervise around adjacent paths and the waterfront.",
         "need":"This is a memorial, not play equipment or seating. Its subject can prompt different reactions; visit respectfully, do not climb it, and use the park's current map and signs if an event changes access."
       }
+    },
+    "launch-pa-philadelphia-independence-national-historical-park": {
+      "independence-visitor-center": {
+        "description":"The Independence Visitor Center is the practical first stop for current NPS schedules, maps, films, city guidance, accessible restrooms, loaner wheelchairs, a cafe and free Wi-Fi.",
+        "address":"599 Market Street, Philadelphia, PA 19106","sourceLabel":"NPS Independence Visitor Center","source":"https://www.nps.gov/inde/planyourvisit/independencevisitorcenter.htm","imageIndex":2,
+        "location":"Use the Visitor Center at 6th and Market Streets on the north block of Independence Mall. Entrances are on all sides; this is not the separate Liberty Bell security entrance one block south.",
+        "parking":"The paid AutoPark at Independence Mall is directly beneath the building, with entrances from 5th and 6th Streets between Market and Arch and GPS address 41 N. 6th Street. Parking is not free or guaranteed.",
+        "hours":"Open daily 9 a.m.-6 p.m. for the current extended schedule; the NPS ranger desk closes at 5 p.m. Building and desk hours can differ on holidays or during operations changes.",
+        "restrooms":"Accessible public restrooms, including a family restroom, are near the south doors on the main level and follow building hours. Use them before joining the Liberty Bell or Independence Square security lines.",
+        "fees":"Building entry, films, maps and ranger guidance are free. The cafe, parking, partner attractions, Benjamin Franklin Museum and Independence Hall ticket reservation fee are separate.",
+        "accessibility":"The building is fully accessible. Wheelchairs and assistive listening devices are available from the Ranger Desk; films are open-captioned and audio-described, and an UbiDuo communication device is available on request.",
+        "dogs":"Pets are not allowed inside public park buildings. NPS-recognized service dogs and service miniature horses are allowed.",
+        "family":"The family restroom, films, tactile model, large orientation map, cafe and ranger desk make this the best reset point for families. Pick up Junior Ranger information and settle restroom needs here.",
+        "need":"Do not assume the NPS desk remains staffed until the building closes. Get current schedules, accessibility equipment and ranger help before 5 p.m., then plan your security lines and timed Hall entry."
+      },
+      "liberty-bell-center": {
+        "description":"The Liberty Bell Center is a free, unticketed, self-guided exhibit at 526 Market Street, with the Bell at the south end and a separate security line at the north entrance.",
+        "address":"526 Market Street, Philadelphia, PA 19106","sourceLabel":"NPS Liberty Bell Center visitor guide","source":"https://www.nps.gov/inde/planyourvisit/libertybellcenter.htm","imageIndex":1,
+        "location":"Enter from Market Street between 5th and 6th Streets and move south through the exhibits toward the Bell and Chestnut Street exit. The line is separate from Independence Square security.",
+        "parking":"Use the paid AutoPark beneath the Visitor Center or another legal paid option; the Liberty Bell Center has no dedicated lot or drop-off lane. SEPTA's 5th Street station is nearby.",
+        "hours":"Open daily 9 a.m.-5 p.m. Security screening closes at least five minutes before the building closes; lines or capacity can end practical entry earlier.",
+        "restrooms":"There are no public restrooms in the Liberty Bell Center. Use the Independence Visitor Center at 6th and Market before entering the line.",
+        "fees":"Admission is free and no ticket or reservation is required. Entry is first-come, first-served after security screening.",
+        "accessibility":"The center is wheelchair accessible. Its video is open-captioned and audio-described, assistive listening devices are available, and a tactile replica of the Bell's inscription is provided.",
+        "dogs":"Pets are not permitted inside. NPS-recognized service animals are allowed and still pass through the visitor screening process with their handler.",
+        "family":"The short self-guided exhibits and close Bell view work well for children, and strollers are allowed. All stroller compartments and carried items are screened, so pack lightly.",
+        "need":"No ticket does not mean no wait. Visit near opening or later in the afternoon for a better chance at a shorter line, use the restroom first, and leave knives, pepper spray and other prohibited items behind."
+      },
+      "independence-hall-and-independence-square": {
+        "description":"Independence Hall is the signed-document landmark inside the secured Independence Square block, with a free morning open house and timed daytime tours that use separate ticket and accessibility rules.",
+        "address":"520 Chestnut Street, Philadelphia, PA 19106","sourceLabel":"NPS Independence Hall visitor guide","source":"https://www.nps.gov/inde/planyourvisit/independencehall.htm","imageIndex":0,
+        "location":"The public screening entrance is south of Independence Hall, reached from the 5th Street stairs or accessibility ramp between Chestnut and Walnut. After screening, line up behind the Hall for the open house or tour.",
+        "parking":"There is no Independence Hall lot. Use transit or a paid Old City garage, then approach on foot; do not navigate a vehicle to the secured Chestnut Street frontage expecting curb access.",
+        "hours":"Open house runs 9-9:50 a.m. without tickets. Ticketed 20-minute tours run every 20 minutes from 10 a.m.-4 p.m.; the ticketed 4:20 p.m. expanded tour includes the second floor. Security closes at least 15 minutes before site closing.",
+        "restrooms":"There are no public restrooms within the Independence Square secured area. Use the Visitor Center or the public facility at the northwest corner of 5th and Chestnut before screening.",
+        "fees":"Morning open-house entry is free and unticketed. Guided tours are free but require Recreation.gov tickets with a nonrefundable $1 per-ticket handling fee when ticketing is in effect.",
+        "accessibility":"The first floor is wheelchair accessible via the 5th Street security ramp. The 4:20 p.m. expanded second-floor tour is not wheelchair accessible; a touchscreen photo album, audio description, assistive listening and advance-request ASL interpretation support alternatives.",
+        "dogs":"Pets are not allowed inside the Hall or secured buildings. NPS-recognized service animals are permitted and accompany handlers through security.",
+        "family":"The standard tour is about 20 minutes and strollers are allowed, but waiting and screening add time. Reserve the correct headcount, arrive about 30 minutes early and use restrooms first.",
+        "need":"Tickets can be reserved up to 30 days ahead, with next-day inventory released at 5 p.m. Arriving late can forfeit the tour; bring the mobile or printed ticket and no weapons, open food or open drink."
+      },
+      "franklin-court-and-benjamin-franklin-museum": {
+        "description":"Franklin Court combines a free accessible courtyard and ghost-house frames with the ticketed underground Benjamin Franklin Museum, Printing Office and B. Free Franklin Post Office on different schedules.",
+        "address":"Franklin Court, between 3rd and 4th Streets and Market and Chestnut Streets, Philadelphia, PA 19106","sourceLabel":"NPS Benjamin Franklin Museum visitor guide","source":"https://www.nps.gov/inde/planyourvisit/benjaminfranklinmuseum.htm","imageIndex":3,
+        "location":"Enter the courtyard from Market or Chestnut Street between 3rd and 4th Streets. The museum entrance is within the courtyard; it is several blocks east of the Visitor Center and Liberty Bell.",
+        "parking":"Franklin Court has no visitor lot. Walk from Independence Mall, use transit or choose a paid Old City garage before driving; narrow historic streets and loading activity make curb searching inefficient.",
+        "hours":"The Benjamin Franklin Museum is open daily 9 a.m.-5 p.m. The Printing Office is open Thursday-Monday 10 a.m.-5 p.m. with the last printing demonstration at 4:30; the post office follows a separate split weekday schedule subject to staffing.",
+        "restrooms":"Accessible restrooms, including a family restroom, are on the museum's lower level and require museum admission. Do not count on them when only visiting the free courtyard or after the museum closes.",
+        "fees":"The courtyard is free. Museum admission is $7.50 adults, $5 seniors 65+ and ages 6-17, and free for children 5 and under; tickets are bought at the door and federal recreation passes do not cover the fee.",
+        "accessibility":"The courtyard is wheelchair accessible from Market and Chestnut. The museum is fully accessible by elevator with tactile elements, audio description and assistive listening; the Printing Office's accessible entrance is from the courtyard.",
+        "dogs":"Pets are not permitted in the museum or other public buildings. Leashed pets may pass through ordinary outdoor areas where not posted, while NPS-recognized service animals are allowed.",
+        "family":"Interactive exhibits and hidden squirrel figures make the museum a strong family stop; allow at least one hour. The courtyard can be a shorter free visit when time or admission cost is limiting.",
+        "need":"Franklin Court is not one attraction with one schedule. Check the museum, Printing Office and post-office hours separately, and remember that the only restrooms here are inside the paid museum."
+      },
+      "president-s-house-site": {
+        "description":"The President's House Site is a free outdoor exhibit at 6th and Market that uses preserved foundations, open-captioned media and first-person stories to examine the presidency, freedom and enslavement.",
+        "address":"6th and Market Streets, Philadelphia, PA 19106","sourceLabel":"NPS President's House Site visitor guide","source":"https://www.nps.gov/inde/planyourvisit/presidentshousesite.htm","imageIndex":4,
+        "location":"The exhibit is immediately beside the Liberty Bell Center at the corner of 6th and Market. Enter from either street; it is outside security and separate from the Visitor Center across Market.",
+        "parking":"Use the paid AutoPark beneath the Visitor Center or transit. There is no exhibit-specific parking, and stopping at the busy Market Street corner is not a dependable drop-off plan.",
+        "hours":"Open daily 7 a.m.-10 p.m. year round as a self-guided outdoor exhibit. Snow, severe weather, maintenance or special security operations can still restrict access.",
+        "restrooms":"There is no restroom at the outdoor exhibit. The closest reliable option is inside the Independence Visitor Center during its operating hours.",
+        "fees":"Admission is free and no ticket or reservation is required. Visitors explore at their own pace outside the Liberty Bell security line.",
+        "accessibility":"The site is wheelchair accessible and the videos are open-captioned. Wet or icy paving, glare on screens and outdoor noise can affect the experience.",
+        "dogs":"Leashed pets may accompany visitors outdoors under the six-foot NPS rule; keep them controlled around exhibits and other visitors. Service-animal access also applies.",
+        "family":"The visible foundations and short media segments can support a meaningful family conversation, but the material directly addresses slavery and deserves unhurried adult context.",
+        "need":"Do not treat this as overflow space for the Liberty Bell line. The exhibit centers the nine people enslaved in Washington's household and the contradiction between liberty and slavery; read and listen respectfully."
+      },
+      "congress-hall": {
+        "description":"Congress Hall is the free former U.S. Capitol beside Independence Hall, reached through Independence Square security and visited through a morning open house or scheduled ranger tours.",
+        "address":"6th and Chestnut Streets, Philadelphia, PA 19106","sourceLabel":"NPS Congress Hall visitor guide","source":"https://www.nps.gov/inde/planyourvisit/congresshall.htm","imageIndex":5,
+        "location":"Congress Hall is west of Independence Hall. Enter the secured square from the south-side screening point near 5th and Chestnut, then follow ranger directions; there is no separate street entrance for the public visit.",
+        "parking":"Use transit or paid Old City parking and walk to the security entrance. Congress Hall has no dedicated lot, and the closest curb is not a visitor drop-off inside the secured square.",
+        "hours":"Open house runs 9-10 a.m. and ranger tours run every 20 minutes from 10 a.m.-4:40 p.m. Security screening closes before building operations end and schedules can change for staffing or special events.",
+        "restrooms":"There are no public restrooms inside the Independence Square secured area or Congress Hall. Use the Visitor Center or 5th-and-Chestnut public facility before screening.",
+        "fees":"Admission is free and no separate ticket is required. Entry remains first-come and subject to security, tour capacity and current operations.",
+        "accessibility":"The first floor is accessible. The historic second floor requires stairs; a digital photo album provides an alternative, and assistive listening plus audio description are available.",
+        "dogs":"Pets are not allowed inside. NPS-recognized service animals may accompany visitors through security and into accessible public areas.",
+        "family":"The short ranger tour can pair efficiently with Independence Hall after one security screening. Prepare children for quiet historic rooms and use restrooms before entering the square.",
+        "need":"Congress Hall does not use the Independence Hall timed ticket, but it does share security. Bring only small bags and leave weapons, pepper spray and pocket knives behind."
+      },
+      "old-city-hall": {
+        "description":"Old City Hall contains the restored 1790s U.S. Supreme Court chamber at 5th and Chestnut, offering a free first-come visit outside the Independence Square security checkpoint.",
+        "address":"5th and Chestnut Streets, Philadelphia, PA 19106","sourceLabel":"NPS Old City Hall visitor guide","source":"https://www.nps.gov/inde/planyourvisit/oldcityhall.htm","imageIndex":6,
+        "location":"Use the north door on Chestnut Street by turning the knob and pushing. The building is beside security, but NPS recommends visiting it before entering the Independence Square screening line.",
+        "parking":"There is no building lot. Use SEPTA, PATCO or a paid Old City garage and walk; do not confuse this historic Old City Hall with Philadelphia's current City Hall at Broad and Market.",
+        "hours":"The Supreme Court chamber is open daily 9 a.m.-5 p.m. The National Parks store keeps a separate schedule and may depend on staffing, so do not use store hours as the chamber schedule.",
+        "restrooms":"There is no documented public restroom in Old City Hall. Use the nearby public facility at the northwest corner of 5th and Chestnut or the Visitor Center before entry.",
+        "fees":"Admission to the chamber and lobby exhibit is free, with no ticket required. Entry is first-come, first-served.",
+        "accessibility":"Use the west-door ramp for wheelchair access. One step remains at the courtroom; ask the ranger for the portable ramp. Audio description and assistive listening are available on request.",
+        "dogs":"Pets are not allowed inside. NPS-recognized service animals are permitted in public areas.",
+        "family":"This is a compact indoor stop with an 18th-century courtroom and Supreme Court exhibit. It works well before Independence Square security, but offers fewer hands-on elements than the Visitor Center.",
+        "need":"Visit before joining the secured-square line so you do not screen twice or lose your place. Confirm ranger staffing near closing and ask for the portable courtroom ramp when needed."
+      },
+      "washington-square-and-tomb-of-the-unknown-soldier": {
+        "description":"Washington Square is a free 24-hour landscaped public park and Level One arboretum centered on the Tomb of the Unknown Soldier of the American Revolution, southeast of Independence Hall.",
+        "address":"Walnut Street between 6th and 7th Streets, Philadelphia, PA 19106","sourceLabel":"NPS Washington Square visitor guide","source":"https://www.nps.gov/inde/planyourvisit/washingtonsquare.htm","imageIndex":7,
+        "location":"The square fills the block between 6th, 7th, Walnut and Locust Streets. The Tomb is within the park, so use its exact pin rather than the Independence Mall or Hall entrance.",
+        "parking":"There is no dedicated free lot. Walk south from Independence Hall, use transit or select a paid garage before driving; surrounding curb spaces follow city signs and restrictions.",
+        "hours":"The outdoor square is open 24 hours a day, seven days a week, year round. Lighting, weather, maintenance and public-safety conditions still affect the quality of a late visit.",
+        "restrooms":"There is no documented public restroom in the square. Use facilities near Independence Hall or the Visitor Center during their posted hours before walking south.",
+        "fees":"Square and Tomb access are free and no ticket is required.",
+        "accessibility":"NPS identifies Washington Square as wheelchair accessible, with paved public walks. Tree roots, leaves, snow, wet paving and temporary work can affect individual path segments.",
+        "dogs":"Leashed pets are allowed outdoors under the NPS six-foot rule; remove waste and keep animals off the memorial structure and protected plantings.",
+        "family":"The open lawn, more than 30 tree species and memorial make a calm outdoor counterpoint to security lines. It is not a playground and has no on-site restroom, so plan a shorter stop with young children.",
+        "need":"The Tomb contains unidentified Revolutionary War remains and an eternal flame. Treat the central memorial as a burial and commemorative site, not seating or play equipment, and use daylight for the best interpretive visit."
+      }
     }
   }
 }
