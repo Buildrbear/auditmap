@@ -11,6 +11,7 @@ const selections = JSON.parse(fs.readFileSync(path.join(root, args.selections), 
 const names = new Map(campaign.places.map((place) => [place.id, place.name]));
 const slug = (value) => String(value).toLowerCase().replace(/&/g, " and ").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 const imageSlug = (value) => slug(value).slice(0, 96).replace(/-+$/g, "") || "park-view";
+const maxReviewedImages = 12;
 const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 async function commonsUrl(candidate) {
@@ -53,7 +54,7 @@ async function download(url, label) {
       const metadata = await sharp(target).metadata();
       images.push({ url: `/${path.relative(root, target)}`, source: candidate.source, author: candidate.creator, license: `${candidate.license}${candidate.licenseVersion ? ` ${candidate.licenseVersion}` : ""}`, licenseUrl: candidate.licenseUrl, alt: candidate.alt, width: metadata.width, height: metadata.height });
     }
-    if (images.length < 1 || images.length > 4) throw new Error(`${name}: expected one to four reviewed images`);
+    if (images.length < 1 || images.length > maxReviewedImages) throw new Error(`${name}: expected one to ${maxReviewedImages} reviewed images`);
     output.places[id] = { name, images };
     console.log(`${name}: ${images.length} reviewed images`);
   }

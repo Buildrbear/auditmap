@@ -120,6 +120,56 @@
         }
       },
       {
+        "name": "Okeeheelee Nature Center",
+        "latitude": 26.6673479,
+        "longitude": -80.1679029,
+        "coordinateSource": "https://www.openstreetmap.org/node/3663135032",
+        "officialMapSource": "https://discover.pbc.gov/parks/OkeeheeleeCenter/Directions.aspx",
+        "positionQuality": "reviewed-named-destination-point-and-official-directions-match",
+        "imageIndex": 5,
+        "checkedAt": "2026-08-10",
+        "sourceLabel": "Palm Beach County Parks and Recreation",
+        "source": "https://discover.pbc.gov/parks/pages/okeeheelee-center.aspx",
+        "summary": "Okeeheelee Nature Center is a free visitor and environmental-education destination inside Okeeheelee Park, with hands-on ecosystem exhibits, live animal ambassadors, a preschool Discovery Zone, a wildlife-viewing window, and 2.5 miles of trails through 90 acres of pine flatwoods and wetlands.",
+        "cost": "General exhibit-room access and self-guided nature trails are free. Staff-led programs, school visits, group programs, room rentals, birthday parties, fundraising events, and other reserved activities can require registration and separate fees.",
+        "hours": "The exhibit building is open Wednesday-Friday 1:00-4:30 p.m. and Saturday 10:00 a.m.-4:30 p.m.; it is closed Sunday-Tuesday and on observed County holidays. Trails are open daily sunrise-sunset. Reserved programs may operate Tuesday-Saturday 10:00 a.m.-4:30 p.m., but a program reservation does not make the public exhibit room open.",
+        "needToKnow": "Use the exact Nature Center pin and turn left just after Pooch Pines to reach its dedicated lot. Building hours are much shorter than park and trail hours. Pets, food, alcohol, running, biking, skating, smoking, and fishing are prohibited in the sanctuary. The center is not a wildlife rehabilitation facility and cannot accept injured or baby animals.",
+        "answerSources": {
+          "parking": {
+            "source": "https://discover.pbc.gov/parks/OkeeheeleeCenter/Directions.aspx",
+            "sourceLabel": "Palm Beach County Parks and Recreation"
+          },
+          "restroom": {
+            "source": "https://discover.pbc.gov/parks/pages/okeeheelee-center.aspx",
+            "sourceLabel": "Palm Beach County Parks and Recreation"
+          },
+          "accessibility": {
+            "source": "https://discover.pbc.gov/parks/Pages/NatureTrails.aspx",
+            "sourceLabel": "Palm Beach County Parks and Recreation"
+          },
+          "dogs": {
+            "source": "https://discover.pbc.gov/parks/OkeeheeleeCenter/NatureTrails.aspx",
+            "sourceLabel": "Palm Beach County Parks and Recreation"
+          },
+          "family": {
+            "source": "https://discover.pbc.gov/parks/OkeeheeleeCenter/Exhibits.aspx",
+            "sourceLabel": "Palm Beach County Parks and Recreation"
+          },
+          "fees": {
+            "source": "https://discover.pbc.gov/parks/OkeeheeleeCenter/GroupVisits.aspx",
+            "sourceLabel": "Palm Beach County Parks and Recreation"
+          }
+        },
+        "answers": {
+          "parking": "Enter Okeeheelee Park from Forest Hill Boulevard, continue on the main park road, pass the Pooch Pines entrance, and take the next left for the Nature Center's dedicated parking lot. Use the exact Nature Center pin rather than the broad 1,659-acre park address because the playground, golf course, lake, and south trailhead use different internal approaches.",
+          "restroom": "Use the Nature Center's developed visitor facilities during building hours and confirm access with staff when arriving close to opening or closing. Trail hours extend well beyond exhibit hours, so do not assume the building or its restrooms will be open for an early-morning, Sunday, Monday, Tuesday, or evening trail visit.",
+          "accessibility": "Palm Beach County says the 2.5-mile network includes paved trails that are wheelchair- and stroller-accessible plus soft-surface trails into more remote sanctuary areas. Start at the building for the current map and choose the paved route when a firm surface matters; contact the center before travel for a specific exhibit, sensory, mobility, or program accommodation.",
+          "dogs": "Pets are not permitted in the Nature Center sanctuary or on its trails. Pooch Pines is the separate designated dog park nearby. Qualified service-animal access and any disability-related accommodation should be confirmed with the center before entering wildlife-sensitive exhibits or trail areas.",
+          "family": "The exhibit room includes hands-on ecosystem activities, live owls, young alligators, snakes, turtles and an opossum, plus a Discovery Zone with books, puppets, puzzles and coloring for toddlers and preschoolers. Adults must supervise children, keep hands off enclosures, and choose a trail length that fits heat, weather, insects, and stamina.",
+          "fees": "Self-guided exhibit and trail visits are free. Groups may visit during regular hours at no charge after calling ahead, while staff-led group programs require reservations and currently start at $5 per participant with a $50 minimum. School, party, rental, and special-event pricing follows the current reservation page."
+        }
+      },
+      {
         "name": "Okeeheelee Disc Golf Course",
         "latitude": 26.659988,
         "longitude": -80.1644612,
@@ -632,7 +682,7 @@
   "researchQueue": {
     "launch-fl-fort-lauderdale-hugh-taylor-birch-state-park": "Secure exact reusable photographs and reviewed coordinates before publishing Beach Gate, Coastal Hammock Trail, Long Lake paddling area, Rail Trail, North End Playground, beach tunnel, pavilions, or individual parking areas as separate pages. Recheck the floating-dock and restroom construction notices before every freshness update.",
     "launch-fl-fort-lauderdale-snyder-park": "Retain as deferred. The current reusable search set is dominated by no-derivatives dog-swim photographs that cannot be converted for AuditMap. Secure three to four permission-cleared broad park, trail, dog-lake, playground, disc-golf, or butterfly-garden views before release.",
-    "launch-fl-west-palm-beach-okeeheelee-park": "Published Okeeheelee Disc Golf Course, Okeeheelee Golf Course, Okeeheelee Playground, and Okeeheelee Canoe and Kayak Area from exact OpenStreetMap records, current official guidance, the county's April 2026 ADA map, and destination-specific reusable photographs. Secure exact photo-and-pin pairs before adding the Nature Center, Pooch Pines Dog Park, BMX track, wake park, mountain-bike trailhead, equestrian center, fishing areas, pavilions, or separate entrances.",
+    "launch-fl-west-palm-beach-okeeheelee-park": "Published Okeeheelee Disc Golf Course, Okeeheelee Golf Course, Okeeheelee Playground, Okeeheelee Canoe and Kayak Area, and Okeeheelee Nature Center from exact OpenStreetMap records, current official guidance, the county's April 2026 ADA map, and destination-specific reusable photographs. Secure exact photo-and-pin pairs before adding Pooch Pines Dog Park, the BMX track, wake park, mountain-bike trailhead, equestrian center, fishing areas, pavilions, or separate entrances.",
     "launch-fl-west-palm-beach-dreher-park": "Published Palm Beach Zoo and Conservation Society plus Cox Science Center and Aquarium from exact named public-map records, current operator guidance, and destination-specific reusable photographs. Secure exact photo-and-pin pairs before adding the dog park, playgrounds, disc-golf course, fishing dock, public art, pavilions, or separate park entrances.",
     "launch-fl-fort-lauderdale-fort-lauderdale-beach-park": "Published the evidence-complete parent guide with four reviewed beach photographs. Secure exact reusable photo-and-pin pairs before publishing the playground, volleyball courts, basketball court, non-motorized launch, picnic area, showers, or individual parking areas as separate pages.",
     "launch-fl-hollywood-hollywood-beach-and-broadwalk": "Published Charnow Park and Hollywood Beach Theatre from exact official pages, reviewed address pins, and destination-specific reusable photography. Secure exact photo-and-pin pairs before adding Dog Beach, accessible beach mats, North Beach Park, Garfield garage, individual restroom buildings, public art, or separate Broadwalk entrances.",

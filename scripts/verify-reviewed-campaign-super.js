@@ -12,6 +12,7 @@ const ready = require(path.join(root, "data/generated/all-subsites-ready.json"))
 const failures = [];
 // Keep verification routes identical to the canonical generator's slugify rule.
 const slug = (value) => String(value).toLowerCase().trim().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+const maxReviewedImages = 12;
 const need = (condition, message) => { if (!condition) failures.push(message); };
 const expectedFeatures = Object.values(selections.places).reduce((sum, features) => sum + features.length, 0);
 const minAnswers = Number(args["min-answers"] || 12);
@@ -31,7 +32,7 @@ for (const scope of campaign.places) {
   const images = [place.image, ...(place.images || [])].filter(Boolean);
   const minimumImages = Number(scope.minimumImages || 4);
   imageCount += images.length;
-  need(images.length >= minimumImages && images.length <= 4, `${scope.name}: expected ${minimumImages}-4 photos`);
+  need(images.length >= minimumImages && images.length <= maxReviewedImages, `${scope.name}: expected ${minimumImages}-${maxReviewedImages} photos`);
   need(new Set(images.map((image) => image.url)).size === images.length, `${scope.name}: duplicate gallery photos`);
   for (const image of images) {
     need(image.url && fs.existsSync(path.join(root, image.url.replace(/^\//, ""))), `${scope.name}: image file missing ${image.url}`);

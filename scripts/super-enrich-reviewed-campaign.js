@@ -15,6 +15,7 @@ const galleries = read(args.images).places;
 const addresses = read(args.addresses);
 const checkedAt = campaign.checkedAt;
 const slug = (value) => String(value).toLowerCase().replace(/&/g, " and ").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+const maxReviewedImages = 12;
 const upsert = (data, park) => {
   const index = data.parks.findIndex((item) => item.id === park.id);
   if (index >= 0) data.parks[index] = park;
@@ -176,7 +177,7 @@ function makeFeature(parent, selected, point, images) {
     };
     const images = galleries[scope.id]?.images || [];
     const minimumImages = Number(scope.minimumImages || 4);
-    if (images.length < minimumImages || images.length > 4) throw new Error(`${scope.name}: expected ${minimumImages}-4 reviewed images`);
+    if (images.length < minimumImages || images.length > maxReviewedImages) throw new Error(`${scope.name}: expected ${minimumImages}-${maxReviewedImages} reviewed images`);
     const approved = selections.places[scope.id] || [];
     const features = approved.map((selected) => {
       const point = coordinates[scope.id]?.[slug(selected.name)];
