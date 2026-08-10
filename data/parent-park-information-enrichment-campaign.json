@@ -74983,6 +74983,206 @@
         }
       ],
       "verifiedAt": "2026-08-09"
+    },
+    "launch-fl-west-palm-beach-okeeheelee-park": {
+      "operator": "Palm Beach County Parks and Recreation",
+      "sourceLabel": "Palm Beach County",
+      "source": "https://discover.pbcgov.org/parks/Locations/Okeeheelee.aspx",
+      "hours": "The park is open daily from sunrise to sunset; lighted court facilities and permitted athletic fields may remain open until 10:00 p.m. Okeeheelee Nature Center uses separate limited hours.",
+      "cost": "General park, nature-trail, playground, dog-park, open-space, and many recreation uses are free; golf, wakeboarding, BMX, rentals, programs, permits, and reserved facilities may charge separately.",
+      "summary": "Okeeheelee Park is a large Palm Beach County destination with lakes, fishing and nonmotorized boating, paved and natural trails, 4.1-mile mountain-bike trail, Okeeheelee Nature Center, Pooch Pines Dog Park, playgrounds, picnic areas, disc golf, golf, pickleball, BMX, wakeboarding, and broad athletic facilities.",
+      "searchAnswers": [
+        {
+          "intentKey": "hours",
+          "question": "What hours is Okeeheelee Park open?",
+          "answer": "The park is open daily from sunrise to sunset. Lighted courts and permitted athletic fields may operate until 10 p.m.; the Nature Center is open Wednesday–Friday 1–4:30 p.m. and Saturday 10 a.m.–4:30 p.m., excluding County holidays.",
+          "sourceLabel": "Palm Beach County",
+          "source": "https://discover.pbcgov.org/parks/Publications/Okeeheelee_ADAMap.pdf",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "entrance",
+          "question": "What address should I use for Okeeheelee Park?",
+          "answer": "Use 7715 Forest Hill Boulevard, West Palm Beach, FL 33413 for the main park, golf course, and Nature Center access. Okeeheelee Park South and the mountain-bike trailhead use Pinehurst Road and are not at the same entrance.",
+          "sourceLabel": "Palm Beach County",
+          "source": "https://discover.pbcgov.org/parks/Publications/Okeeheelee_ADAMap.pdf",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "parking",
+          "question": "Where should I park at Okeeheelee Park?",
+          "answer": "Parking is distributed across multiple activity zones. Follow internal signs for the Nature Center, Pooch Pines, golf, BMX, lakes, playgrounds, fields, or disc golf rather than stopping at the first lot.",
+          "sourceLabel": "Palm Beach County",
+          "source": "https://discover.pbcgov.org/parks/Publications/Okeeheelee_ADAMap.pdf",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "trail-surface",
+          "question": "What trails are at Okeeheelee Park?",
+          "answer": "The Nature Center has 2.5 miles of quiet natural trails through 90 acres of pine flatwoods and wetlands. A separate 4.1-mile mountain-bike trail is south of Forest Hill Boulevard, and paved fitness and recreation routes serve the main park.",
+          "sourceLabel": "Palm Beach County",
+          "source": "https://discover.pbcgov.org/parks/Pages/Okeeheelee-Center.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "dog-area",
+          "question": "Where is the dog park at Okeeheelee Park?",
+          "answer": "Pooch Pines Dog Park is near the main Forest Hill Boulevard entrance and just before the turn to Okeeheelee Nature Center. Pets are not permitted inside the Nature Center or on its protected trails.",
+          "sourceLabel": "Palm Beach County",
+          "source": "https://discover.pbcgov.org/parks/okeeheeleecenter/directions.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "playground",
+          "question": "Are there playgrounds at Okeeheelee Park?",
+          "answer": "Yes. The official map identifies multiple play areas within the large park. Use the current park map to choose the closest entrance and lot, because recreation zones are spread far apart.",
+          "sourceLabel": "Palm Beach County",
+          "source": "https://discover.pbcgov.org/parks/Publications/Okeeheelee_ADAMap.pdf",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "fees",
+          "question": "Is Okeeheelee Park free?",
+          "answer": "General park access, parking, playgrounds, dog park, open spaces, and Nature Center trails are free. Golf, BMX, wakeboarding, rentals, classes, permits, reserved facilities, and organized programs can charge separately.",
+          "sourceLabel": "Palm Beach County",
+          "source": "https://discover.pbcgov.org/parks/Locations/Okeeheelee.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "closures",
+          "question": "What is currently closed at Okeeheelee Park?",
+          "answer": "As of July 2026, the BMX Track parking lot is closed through September 30, the tennis courts are closed for approximately six weeks of repair beginning July 10, and Osceola Pavilion is unavailable until further notice. All construction dates are weather-dependent.",
+          "sourceLabel": "Palm Beach County",
+          "source": "https://discover.pbcgov.org/parks/Locations/Okeeheelee.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Where are restrooms at Okeeheelee Park?",
+          "answer": "Restrooms and drinking fountains are distributed among the main recreation zones and appear on the official ADA map. Because the park covers more than 1,600 acres, select the facility nearest your playground, pavilion, lake, dog park, field, or trailhead before parking.",
+          "sourceLabel": "Palm Beach County",
+          "source": "https://discover.pbcgov.org/parks/Publications/Okeeheelee_ADAMap.pdf",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "picnic",
+          "question": "Can I picnic at Okeeheelee Park?",
+          "answer": "Yes. Single-table picnic areas and family shelters are free and first come, first served from sunrise to sunset. Alligator, Micanopy, and Tuskeegee are reservable group pavilions; Osceola Pavilion is currently closed and unavailable for rental.",
+          "sourceLabel": "Palm Beach County",
+          "source": "https://discover.pbcgov.org/parks/Amenities/Picnicking.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "accessibility",
+          "question": "How should I plan an accessible visit to Okeeheelee Park?",
+          "answer": "Use the County's ADA map to locate accessible parking, restrooms, drinking fountains, paved paths, play areas, fishing access, and pavilions. Nature, equestrian, and mountain-bike trails use different surfaces and are not substitutes for the mapped paved routes.",
+          "sourceLabel": "Palm Beach County",
+          "source": "https://discover.pbcgov.org/parks/Publications/Okeeheelee_ADAMap.pdf",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "shade",
+          "question": "Where can I find shade or weather shelter at Okeeheelee Park?",
+          "answer": "Family picnic shelters and the Alligator, Micanopy, and Tuskeegee group pavilions provide covered gathering areas; Osceola Pavilion is currently closed. The Nature Center offers indoor exhibits during limited Wednesday-Saturday hours, and pine-flatwoods trails provide intermittent tree cover. Lakes, athletic fields, golf, BMX, equestrian areas, and long paths are exposed, so leave the water and use an open substantial building or vehicle during lightning or severe weather.",
+          "sourceLabel": "Palm Beach County",
+          "source": "https://discover.pbcgov.org/parks/Locations/Okeeheelee.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "splash-pad",
+          "question": "Can visitors swim or use a splash pad at Okeeheelee Park?",
+          "answer": "Okeeheelee does not list a public swimming beach or conventional splash pad. Its lakes support specific activities: non-motorized boating and fishing at one lake, permitted competitive water skiing at designated courses, and a separately operated commercial wake and aqua park. Do not enter a lake for casual swimming from a picnic area, trail, dock, or boat ramp. If visiting Shark Wake Park, confirm its admission, operating schedule, age rules, waivers, and required safety equipment directly with that operator.",
+          "sourceLabel": "Palm Beach County Parks",
+          "source": "https://discover.pbcgov.org/parks/locations/okeeheelee.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "transit",
+          "question": "Can I take Palm Tran to Okeeheelee Park?",
+          "answer": "Palm Tran serves Forest Hill Boulevard at Okeeheelee Park Road, including stops on both sides of the intersection. That reaches the park perimeter, not every attraction: the nature center, equestrian center, dog park, golf course, BMX track, wake park, picnic shelters, and sports areas are spread across the large property. Use Palm Tran's live planner for the exact facility and confirm that the final walking route is practical before traveling.",
+          "sourceLabel": "Palm Tran",
+          "source": "https://www.palmtran.org/igo/Minimal/Departures/ForStop?stopId=4670",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "public-art",
+          "question": "What are the main destinations at Okeeheelee Park?",
+          "answer": "Okeeheelee Nature Center is a useful family anchor with exhibits, live-animal encounters, a viewing pond, and 2.5 miles of trails through 90 acres of pine flatwoods and wetlands. Elsewhere, the large park contains separate lake districts for nonmotorized boating, fishing and water sports, Pooch Pines dog park, golf, BMX and pump track, disc golf, playgrounds, picnic shelters, sports fields and courts, an equestrian center, and mountain-bike access toward Okeeheelee Park South. Use the official map and exact entrance for your activity.",
+          "sourceLabel": "Palm Beach County Parks and Recreation",
+          "source": "https://discover.pbcgov.org/parks/Publications/Okeeheelee_ADAMap.pdf",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        }
+      ],
+      "address": "7715 Forest Hill Blvd, West Palm Beach, FL 33413",
+      "image": {
+        "url": "/assets/parks/south-florida-atlantic-super/okeeheelee-park/01-kayaking.webp",
+        "source": "https://www.flickr.com/photos/pbcparks/32610937576",
+        "author": "PBC Parks and Recreation",
+        "license": "BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "alt": "Visitors paddling canoes on a lake at Okeeheelee Park",
+        "width": 1024,
+        "height": 768
+      },
+      "additionalImages": [
+        {
+          "url": "/assets/parks/south-florida-atlantic-super/okeeheelee-park/02-okeeheelee-playground.webp",
+          "source": "https://www.flickr.com/photos/pbcparks/29028009230",
+          "author": "PBC Parks and Recreation",
+          "license": "BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+          "alt": "Children using the sand playground beside a picnic pavilion at Okeeheelee Park",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/south-florida-atlantic-super/okeeheelee-park/03-okeeheelee-golf-course.webp",
+          "source": "https://www.flickr.com/photos/pbcparks/35064745130",
+          "author": "PBC Parks and Recreation",
+          "license": "BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+          "alt": "Green, bunker, lake, and palms at Okeeheelee Golf Course",
+          "width": 1024,
+          "height": 680
+        },
+        {
+          "url": "/assets/parks/south-florida-atlantic-super/okeeheelee-park/04-hole-5-okeeheelee-park-disc-golf-course-panoramio.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Hole_5_Okeeheelee_Park_disc_golf_course_-_panoramio.jpg",
+          "author": "28215",
+          "license": "BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+          "alt": "Lakeside fairway and path at Okeeheelee Park disc golf course",
+          "width": 1600,
+          "height": 1000
+        }
+      ],
+      "replaceImages": true,
+      "sources": [
+        {
+          "label": "Palm Beach County Parks and Recreation",
+          "url": "https://discover.pbc.gov/parks/Amenities/Disc-Golf.aspx"
+        },
+        {
+          "label": "Okeeheelee Golf Course",
+          "url": "https://pbcokeeheeleegolf.com/rates-and-hours/"
+        }
+      ],
+      "verifiedAt": "2026-08-09"
     }
   }
 }

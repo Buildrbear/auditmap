@@ -28,6 +28,99 @@
         "needToKnow": "Use the exact Grove pin rather than the main Sunrise Boulevard entrance when planning beach access or rentals. Beach Hammock Lot can fill on busy weekends and holidays. The floating dock is closed effective May 11, 2026, and large pavilions plus Banyan and North End restrooms remain closed for construction; fully accessible restrooms are available in the Concession Building."
       }
     ],
+    "launch-fl-west-palm-beach-okeeheelee-park": [
+      {
+        "name": "Okeeheelee Disc Golf Course",
+        "latitude": 26.659988,
+        "longitude": -80.1644612,
+        "coordinateSource": "https://www.openstreetmap.org/node/7817176000",
+        "officialMapSource": "https://discover.pbcgov.org/parks/Publications/Okeeheelee_ADAMap.pdf",
+        "positionQuality": "reviewed-named-public-map-destination-point",
+        "imageIndex": 3,
+        "checkedAt": "2026-08-10",
+        "sourceLabel": "Palm Beach County Parks and Recreation",
+        "source": "https://discover.pbc.gov/parks/Amenities/Disc-Golf.aspx",
+        "summary": "Okeeheelee Disc Golf Course is the park's 18-hole public course, laid out around the Pooch Pines activity area with open fairways, mature trees, paved park paths, lakes, and water-edge holes.",
+        "cost": "Palm Beach County invites the public to play and does not publish a separate daily course-admission fee. Bring your own discs; leagues, tournaments, instruction, or special events can require separate registration or charges.",
+        "hours": "The public disc-golf course is open daily from sunrise to sunset. It does not inherit the later hours used by permitted lighted fields or courts elsewhere in Okeeheelee Park.",
+        "needToKnow": "Navigate to the exact course pin and use the county's April 2026 park map to find Hole 1 near Pooch Pines. Bring discs, drinking water, sun and rain protection, and shoes suited to turf. Fairways run near lakes and shared park paths, so watch for water hazards, pedestrians, storms, and lightning.",
+        "answerSources": {
+          "parking": {
+            "source": "https://discover.pbcgov.org/parks/Publications/Okeeheelee_ADAMap.pdf",
+            "sourceLabel": "Palm Beach County Parks and Recreation"
+          },
+          "restroom": {
+            "source": "https://discover.pbcgov.org/parks/Publications/Okeeheelee_ADAMap.pdf",
+            "sourceLabel": "Palm Beach County Parks and Recreation"
+          },
+          "accessibility": {
+            "source": "https://discover.pbcgov.org/parks/Publications/Okeeheelee_ADAMap.pdf",
+            "sourceLabel": "Palm Beach County Parks and Recreation"
+          },
+          "dogs": {
+            "source": "https://discover.pbcgov.org/parks/Locations/Okeeheelee.aspx",
+            "sourceLabel": "Palm Beach County Parks and Recreation"
+          }
+        },
+        "answers": {
+          "parking": "The county's April 2026 map marks Disc Golf Course Hole 1 near Pooch Pines and the surrounding north-side activity parking. Use the exact course pin rather than the park's general street address, then follow posted park signs because Okeeheelee has separate north and south entrances and many distributed lots.",
+          "restroom": "The county map marks restrooms in the north recreation district, but not at every disc-golf hole. Use the mapped activity-area facilities before starting and do not assume a restroom or drinking-water stop will be immediately available mid-round.",
+          "accessibility": "The official ADA map shows accessible parking and paved circulation in the activity district. The disc-golf round itself crosses turf and water-edge fairways, so visitors who need a step-free route, firm surface, or shortened play option should ask Palm Beach County Parks about current course conditions before arriving.",
+          "dogs": "Pooch Pines Dog Park is adjacent to the course area, but off-leash access applies only inside the designated dog-park enclosure. Keep dogs controlled outside that enclosure and away from active fairways, players, wildlife, and water edges.",
+          "family": "This is a full 18-hole outdoor course rather than a compact playground activity. Families should bring their own discs, supervise children around throws and lake edges, allow time for a complete round, and pause play for pedestrians or severe weather. The nearby playground and Pooch Pines are separate destinations with their own use rules."
+        }
+      },
+      {
+        "name": "Okeeheelee Golf Course",
+        "latitude": 26.6592018,
+        "longitude": -80.1595994,
+        "coordinateSource": "https://www.openstreetmap.org/way/48348165",
+        "officialMapSource": "https://discover.pbcgov.org/parks/Publications/Okeeheelee_ADAMap.pdf",
+        "positionQuality": "reviewed-named-public-map-destination-centroid",
+        "imageIndex": 2,
+        "checkedAt": "2026-08-10",
+        "sourceLabel": "Okeeheelee Golf Course",
+        "source": "https://pbcokeeheeleegolf.com/rates-and-hours/",
+        "summary": "Okeeheelee Golf Course is Palm Beach County's 27-hole public golf facility, arranged as three nine-hole courses with a driving range, practice areas, Golf Shop, and Okee Grill on a lake-and-palm landscape inside Okeeheelee Park.",
+        "cost": "For May 1-October 31, the currently published rates before sales tax are $46.95 before noon, $32.86 from noon-5:00 p.m., and $26.29 after 5:00 p.m. The latest time is not guaranteed 18 holes and has no rain checks. Live booking controls the final rate; rentals, food, instruction, events, and other add-ons cost separately.",
+        "hours": "The Golf Shop is open daily from 6:30 a.m.-5:30 p.m. The driving range usually opens at 6:30 a.m. and closes one hour before sunset; it closes at 5:00 p.m. Wednesday and reopens at 11:00 a.m. Thursday on mats only. Golf is offered year-round, seven days a week, weather permitting, but tee times and course conditions control play.",
+        "needToKnow": "Use the exact golf-course pin and dedicated golf entrance, not a general Okeeheelee activity lot. Reserve a tee time, arrive 15-20 minutes early, and expect pairing when needed. The facility is cashless, lightning can halt play, carts must return by dusk, personal coolers are prohibited, and Okee Grill hours are not currently published online; call the Golf Shop before depending on food service.",
+        "answerSources": {
+          "parking": {
+            "source": "https://discover.pbcgov.org/parks/Publications/Okeeheelee_ADAMap.pdf",
+            "sourceLabel": "Palm Beach County Parks and Recreation"
+          },
+          "restroom": {
+            "source": "https://discover.pbcgov.org/parks/Publications/Okeeheelee_ADAMap.pdf",
+            "sourceLabel": "Palm Beach County Parks and Recreation"
+          },
+          "fees": {
+            "source": "https://pbcokeeheeleegolf.com/rates-and-hours/",
+            "sourceLabel": "Okeeheelee Golf Course"
+          },
+          "accessibility": {
+            "source": "https://pbcokeeheeleegolf.com/about-the-course-faq/",
+            "sourceLabel": "Okeeheelee Golf Course"
+          },
+          "dogs": {
+            "source": "https://pbcokeeheeleegolf.com/about-the-course-faq/",
+            "sourceLabel": "Okeeheelee Golf Course"
+          },
+          "family": {
+            "source": "https://pbcokeeheeleegolf.com/about-the-course-faq/",
+            "sourceLabel": "Okeeheelee Golf Course"
+          }
+        },
+        "answers": {
+          "parking": "The county's April 2026 map identifies the dedicated Golf Course Entrance and parking area. Navigate to the exact golf-course pin rather than another Okeeheelee lot, and leave enough time to park, check in, and reach the starting area 15-20 minutes before the tee time.",
+          "restroom": "The county ADA map marks restrooms in the golf-course activity area. Ask the Golf Shop for the nearest open facility when checking in because course operations, events, or maintenance can affect which route is most practical.",
+          "fees": "Published May 1-October 31 rates before tax are $46.95 before noon, $32.86 from noon-5:00 p.m., and $26.29 after 5:00 p.m. The after-5:00 rate does not guarantee 18 holes and receives no rain checks. Check the live booking page for the visit date because seasonal rates and available tee times change.",
+          "accessibility": "Accessible golf carts are available by advance request, and single-rider carts are considered case by case with an additional fee. Contact the Golf Shop before booking to confirm cart availability, course access, and any disability-related accommodation rather than assuming same-day equipment will be available.",
+          "dogs": "The course FAQ currently says pets, including service animals, are not allowed on the course or facility. A visitor seeking disability-related accommodation should contact the Golf Shop before booking to confirm the current policy and available alternatives for the specific visit.",
+          "family": "Children may ride along when the operator's safety requirements are met, but families should contact the Golf Shop before booking. The facility also advertises instruction and junior opportunities; confirm age, equipment, supervision, and rider rules in advance rather than arriving without a tee-time plan."
+        }
+      }
+    ],
     "launch-fl-west-palm-beach-dreher-park": [
       {
         "name": "Palm Beach Zoo and Conservation Society",
@@ -100,7 +193,7 @@
   "researchQueue": {
     "launch-fl-fort-lauderdale-hugh-taylor-birch-state-park": "Secure exact reusable photographs and reviewed coordinates before publishing Beach Gate, Coastal Hammock Trail, Long Lake paddling area, Rail Trail, North End Playground, beach tunnel, pavilions, or individual parking areas as separate pages. Recheck the floating-dock and restroom construction notices before every freshness update.",
     "launch-fl-fort-lauderdale-snyder-park": "Retain as deferred. The current reusable search set is dominated by no-derivatives dog-swim photographs that cannot be converted for AuditMap. Secure three to four permission-cleared broad park, trail, dog-lake, playground, disc-golf, or butterfly-garden views before release.",
-    "launch-fl-west-palm-beach-okeeheelee-park": "Retain as deferred. A reusable disc-golf photograph exists, but the broader park search remains dominated by no-derivatives lake images and wildlife close-ups. Secure three to four representative broad park and major-amenity views before release.",
+    "launch-fl-west-palm-beach-okeeheelee-park": "Published Okeeheelee Disc Golf Course and Okeeheelee Golf Course from exact OpenStreetMap records, current official guidance, the county's April 2026 ADA map, and destination-specific reusable photographs. Secure exact photo-and-pin pairs before adding the Nature Center, Pooch Pines Dog Park, BMX track, wake park, mountain-bike trailhead, equestrian center, fishing areas, playground, pavilions, or separate entrances.",
     "launch-fl-west-palm-beach-dreher-park": "Published Palm Beach Zoo and Conservation Society plus Cox Science Center and Aquarium from exact named public-map records, current operator guidance, and destination-specific reusable photographs. Secure exact photo-and-pin pairs before adding the dog park, playgrounds, disc-golf course, fishing dock, public art, pavilions, or separate park entrances."
   }
 }
