@@ -6,13 +6,14 @@ const path = require("node:path");
 const sharp = require("sharp");
 
 const root = path.resolve(__dirname, "..");
-const checkedAt = "2026-08-05";
+const checkedAt = "2026-08-10";
 const downloadImages = process.argv.includes("--download");
 const featureImagesPath = path.join(root, "data/generated/dc-feature-images.json");
 const featureImages = fs.existsSync(featureImagesPath)
   ? JSON.parse(fs.readFileSync(featureImagesPath, "utf8")).places
   : {};
 const allDaySchedule = Object.fromEntries(["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"].map((day) => [day, [["00:00", "24:00"]]]));
+const dailySchedule = (open, close) => Object.fromEntries(["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"].map((day) => [day, [[open, close]]]));
 
 function slugify(value) {
   return String(value).toLowerCase().replace(/&/g, " and ").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
@@ -41,6 +42,17 @@ function commonsPhoto(slug, file) {
   );
 }
 
+function licensedCommonsPhoto(slug, file, author, license) {
+  const encoded = encodeURIComponent(file.replaceAll(" ", "_"));
+  return photo(
+    slug,
+    `https://commons.wikimedia.org/wiki/Special:Redirect/file/${encoded}?width=1800`,
+    `https://commons.wikimedia.org/wiki/File:${encoded}`,
+    author,
+    license,
+  );
+}
+
 const mall = "https://www.nps.gov/nama/planyourvisit/index.htm";
 const rock = "https://www.nps.gov/rocr/index.htm";
 const anacostia = "https://www.nps.gov/anac/index.htm";
@@ -49,6 +61,9 @@ const island = "https://www.nps.gov/this/index.htm";
 const meridian = "https://home.nps.gov/rocr/learn/historyculture/meridian-hill-park.htm";
 const georgetown = "https://www.nps.gov/places/georgetown-waterfront-park.htm";
 const arboretum = "https://usna.usda.gov/visit/hours-and-directions/";
+const eastPotomac = "https://www.nps.gov/places/000/east-potomac-park-hains-point.htm";
+const gravellyPoint = "https://home.nps.gov/places/000/gravelly-point.htm";
+const greatFalls = "https://www.nps.gov/grfa/planyourvisit/index.htm";
 
 const parks = [
   {
@@ -212,6 +227,109 @@ parks[7].photos.push(
   ),
 );
 
+parks.push(
+  {
+    id: "launch-dc-washington-east-potomac-park-hains-point",
+    name: "East Potomac Park & Hains Point",
+    city: "Washington",
+    state: "DC",
+    citySlug: "washington-dc",
+    assetCitySlug: "washington",
+    region: "Mid-Atlantic",
+    lat: 38.8688,
+    lon: -77.0263,
+    address: "972 Ohio Drive SW, Washington, DC 20024",
+    source: eastPotomac,
+    sourceLabel: "National Park Service",
+    operator: "National Park Service",
+    tier: "anchor",
+    summary: "A Potomac peninsula with the Hains Point loop, waterfront lawns, playground and picnic areas, public golf, historic miniature golf, tennis, fishing access, and broad river views.",
+    hours: "East Potomac Park closes to all traffic daily from 1 a.m.-5 a.m. Individual golf, miniature golf, tennis, picnic reservations, restrooms, and concessions follow separate schedules, and the Hains Point loop can close for flooding, snow, events, or safety.",
+    cost: "General park, shoreline, playground, and loop access are free. Golf, miniature golf, tennis, reservations, parking, rentals, and concessions charge separately.",
+    arrival: "Use Ohio Drive SW and navigate to the exact activity. Hains Point is at the peninsula's south end, while golf, miniature golf, tennis, and the main parking areas are farther north.",
+    parking: "NPS lots A-C are along Ohio Drive and lot D serves the Buckeye Drive and tennis area. Metered parking is currently $2.30 per hour from 7 a.m.-8 p.m. daily except December 25, with pay-by-plate and posted three- or six-hour limits.",
+    restrooms: "Restrooms are available at selected developed areas, including Hains Point and recreation facilities, but hours and outages vary. Identify the closest facility to the chosen activity before walking the loop.",
+    accessibility: "Hains Point includes paved approaches, designated accessible parking, picnic space, and generally level waterfront routes. Facility entrances, older recreation areas, temporary flooding, and long distances still require destination-specific planning.",
+    dogs: "Leashed pets are allowed in outdoor park areas under posted National Park Service rules. Keep pets off active golf and tennis areas, playground surfaces, and protected shoreline habitat, and remove waste.",
+    family: "The playground, picnic grove, miniature golf, loop, and open lawns provide flexible family options. The peninsula is exposed to heat, storms, traffic, and water edges, so bring water and supervise closely.",
+    transit: "L'Enfant Plaza and Waterfront Metro are the nearest practical rail approaches, followed by a substantial walk, bikeshare ride, or seasonal transit connection. Confirm the final route to the exact activity.",
+    need: "Hains Point is low and flood-prone. Check NPS alerts, weather, Potomac water conditions, recreation-facility schedules, and loop-road status before traveling specifically for a shoreline circuit or reserved activity.",
+    photos: [
+      licensedCommonsPhoto("hains-point-playground", "East Potomac Park- Hains Point (176375dc-631a-4379-834f-d53dabe6cc9d).jpg", "NPS Photo", "Public domain"),
+      licensedCommonsPhoto("east-potomac-mini-golf", "East Potomac Park- Mini Golf (35724ef5-d174-4a7b-94b0-452b651316c0).jpg", "NPS Photo", "Public domain"),
+      licensedCommonsPhoto("hains-point-loop", "Hains Point Loop 0995 (5644163440).jpg", "National Park Service", "Public domain"),
+      licensedCommonsPhoto("east-potomac-golf-clubhouse", "Clubhouse - East Potomac Golf Course - East Potomac Park - 2013-08-25.jpg", "Tim Evanson", "CC BY-SA 2.0"),
+    ],
+  },
+  {
+    id: "launch-va-arlington-gravelly-point",
+    name: "Gravelly Point",
+    city: "Arlington",
+    state: "VA",
+    citySlug: "arlington",
+    assetCitySlug: "arlington",
+    region: "Mid-Atlantic",
+    lat: 38.8654,
+    lon: -77.0386,
+    address: "George Washington Memorial Parkway, Arlington, VA 22202",
+    source: gravellyPoint,
+    sourceLabel: "National Park Service",
+    operator: "National Park Service",
+    tier: "supporting",
+    hoursSchedule: dailySchedule("06:00", "22:00"),
+    summary: "A free Potomac riverfront lawn beside Reagan National Airport, known for exceptionally close plane spotting, skyline views, picnicking, trail access, restrooms, and a public boat ramp.",
+    hours: "The Gravelly Point parking lot and boat ramp are open daily 6 a.m.-10 p.m. Closures can occur for parkway incidents, flooding, construction, security needs, or special operations.",
+    cost: "Park, plane-spotting lawn, picnic area, trail, lot, and boat-ramp access are free. Commercial services and activities outside the park may charge.",
+    arrival: "Vehicle access is only from the northbound George Washington Memorial Parkway. Southbound drivers must continue to a legal turnaround; do not stop or reverse on the parkway shoulder.",
+    parking: "Use designated marked spaces only. The lot frequently fills during pleasant weekends and aviation events; weekday recreational parking is limited to six hours, and overnight parking is prohibited.",
+    restrooms: "A public restroom serves Gravelly Point, but temporary closure or maintenance is possible. There is no staffed visitor center or dependable drinking-water service.",
+    accessibility: "The main lawn, picnic area, and paved Mount Vernon Trail connection are relatively level, but grass, curb transitions, crowding, noise, and the boat-ramp edge vary.",
+    dogs: "Pets must remain on a physical leash no longer than six feet. Remove waste, keep animals controlled around crowds and bicycles, and do not allow pets to enter the Potomac from parkway land.",
+    family: "The dramatic aircraft views are memorable, but the sound is extremely loud and sudden. Bring hearing protection for young or noise-sensitive visitors and supervise children near the river, road, trail, and boat ramp.",
+    transit: "There is no direct Metro entrance. The Mount Vernon Trail is the practical car-free route from nearby Arlington and Washington connections; plan the return before dark.",
+    need: "Aircraft direction and closeness depend on wind and airport operations. Never use drones, lasers, kites, or objects that could interfere with aviation, and keep the Mount Vernon Trail clear while watching planes.",
+    photos: [
+      photo("gravelly-point-lawn", "https://home.nps.gov/common/uploads/cropped_image/primary/146FBE45-033D-E99A-D504405F2BEA7F16.jpg?width=1600&quality=90&mode=crop", gravellyPoint, "NPS / Claire Hassler", "Official federal photograph; source attribution retained"),
+      licensedCommonsPhoto("gravelly-point-panorama", "360 panorama of Gravelly Point Arlington VA 2026-03-15 08-35-49 1.jpg", "G. Edward Johnson", "CC BY 4.0"),
+      licensedCommonsPhoto("gravelly-point-landing", "Gravelly Point Park 34510.jpg", "Ted Eytan", "CC BY-SA 3.0"),
+      licensedCommonsPhoto("gravelly-point-plane-watchers", "Gravelly Point airplane couple.png", "Greenmars", "CC BY-SA 3.0"),
+    ],
+  },
+  {
+    id: "launch-va-mclean-great-falls-park",
+    name: "Great Falls Park",
+    city: "McLean",
+    state: "VA",
+    citySlug: "mclean",
+    assetCitySlug: "mclean",
+    region: "Mid-Atlantic",
+    lat: 38.9987,
+    lon: -77.2539,
+    address: "9200 Old Dominion Drive, McLean, VA 22102",
+    source: greatFalls,
+    sourceLabel: "National Park Service",
+    operator: "National Park Service",
+    tier: "anchor",
+    summary: "A dramatic Potomac gorge park with three close waterfall overlooks, fifteen miles of trails, historic Patowmack Canal remains, picnic grounds, visitor services, and seasonal concessions.",
+    hours: "The park is open daily from 7 a.m. until 30 minutes after sunset and is closed December 25. The Visitor Center is currently open 10 a.m.-5 p.m.; courtyard restrooms, portable toilets, snack bar, and programs use separate schedules.",
+    cost: "A standard seven-day entrance pass currently costs $10-$20 depending on entry type, and the annual park pass is $35. The park is cashless; verify current NPS fees and pass acceptance before arriving.",
+    arrival: "Navigate to the Virginia entrance at 9200 Old Dominion Drive, not the Maryland-side C&O Canal overlook. The three primary overlooks are a five- to ten-minute walk from the main parking and Visitor Center area.",
+    parking: "Parking is inside the entrance station and routinely backs up on pleasant weekends, holidays, and high-water viewing days. Arrive near opening or choose a quieter weekday; never queue or park outside designated areas.",
+    restrooms: "Courtyard bathrooms are currently open 8:30 a.m.-4 p.m. A separate restroom is out of order, with portable toilets available from 7 a.m. until dark; recheck the current facilities notice before leaving.",
+    accessibility: "Routes near the Visitor Center, picnic area, and overlooks are mostly flat gravel. Overlooks 2 and 3 have ramped access; Overlook 1 requires negotiating rocky terrain and is not accessible to wheelchairs.",
+    dogs: "Leashed pets are welcome on trails, in parking areas, at overlooks, and in picnic areas. Use a physical leash no longer than six feet; pets may not enter the river, Visitor Center, restrooms, or ranger programs except service animals.",
+    family: "The overlooks are close to parking, but cliffs, fast water, and unprotected rocky edges demand constant supervision. Choose Overlooks 2 or 3 for the easiest family route and keep children beside an adult.",
+    transit: "There is no practical direct public transit to the park entrance. Rideshare pickup can be unreliable because cellular service is limited, so arrange the return before arrival.",
+    need: "Swimming, wading, and rock hopping are prohibited and deadly currents continue below apparently calm water. Cell service is limited; download the map, check flood and weather alerts, carry water, and wear closed-toe shoes.",
+    photos: [
+      licensedCommonsPhoto("great-falls-overlook-1", "Great Falls from Overlook 1.jpg", "Dontkickthebaby", "CC BY-SA 4.0"),
+      licensedCommonsPhoto("great-falls-overlook-2", "2019-09-07 15 06 10 View north towards the Great Falls of the Potomac River from Overlook 2 about 250 feet downstream of the falls within Great Falls Park in Great Falls, Fairfax County, Virginia.jpg", "Famartin", "CC BY-SA 4.0"),
+      licensedCommonsPhoto("great-falls-overlook-3", "2019-09-07 15 02 29 View north towards the Great Falls of the Potomac River from Overlook 3 about 500 feet downstream of the falls within Great Falls Park in Great Falls, Fairfax County, Virginia.jpg", "Famartin", "CC BY-SA 4.0"),
+      licensedCommonsPhoto("great-falls-visitor-center", "GrearFallsVisitorCenter.JPG", "Jyothis", "CC BY-SA 3.0"),
+    ],
+  },
+);
+
 const featureRows = [
   [parks[0].id,"lincoln-memorial","Lincoln Memorial","memorial",38.8893,-77.0502,"https://www.nps.gov/linc/index.htm","lincoln-memorial","The columned memorial and seated Lincoln overlook the Reflecting Pool from the Mall's west end.","Use 23rd Street NW and the memorial circle area; accessible approaches avoid the monumental stairs.","Restrooms and visitor services are near the memorial but use separate operating schedules.","The chamber and surrounding plaza are free and normally open 24 hours; crowding and ceremonies can change access."],
   [parks[0].id,"washington-monument","Washington Monument","monument",38.8895,-77.0353,"https://www.nps.gov/wamo/index.htm","washington-monument","The 555-foot obelisk anchors the Mall and offers timed elevator access to an observation level.","Use the Monument Lodge and screening entrance on the east side; a reservation is not the same as parking.","Restrooms are available near the Monument Lodge during posted hours.","The grounds are free and open continuously, but interior entry needs a timed ticket and security screening; elevator closures can occur."],
@@ -289,6 +407,24 @@ featureRows.push(
   [parks[7].id,"fern-valley-native-plant-collections","Fern Valley Native Plant Collections","garden",38.9092,-76.9754,"https://usna.usda.gov/discover/gardens-collections/fern-valley/","azalea-garden","Woodland trails interpret native plants of the eastern United States through forest, meadow, wetland, and regional habitat displays.","Use the official map and a signed Fern Valley access; the collection is separated from the Columns and museum area.","There are no dependable restrooms on the woodland trails.","Free during Arboretum hours. Natural surfaces, roots, ticks, humidity, mud, and seasonal plant work affect the route."],
 );
 
+const eastPotomacPark = parks.find((park) => park.id === "launch-dc-washington-east-potomac-park-hains-point");
+const gravellyPointPark = parks.find((park) => park.id === "launch-va-arlington-gravelly-point");
+const greatFallsPark = parks.find((park) => park.id === "launch-va-mclean-great-falls-park");
+
+featureRows.push(
+  [eastPotomacPark.id,"hains-point-playground-and-picnic-grove","Hains Point Playground & Picnic Grove","playground",38.859987,-77.023030,"https://www.nps.gov/places/000/east-potomac-park-hains-point.htm","hains-point-playground","A playground, picnic tables, reservable grove sections, waterfront lawn, information kiosk, and nearby restroom make the peninsula's south end the primary family stop.","Follow Ohio Drive to Hains Point at the peninsula's southern tip and use the signed parking and picnic area rather than stopping on the loop road.","A restroom serves the developed Hains Point area, but outages or seasonal maintenance can affect access.","The playground and open picnic space are free. Reservable grove areas currently cost $90 for a half day or $180 for a full day, and the loop may close for flooding, weather, events, or safety."],
+  [eastPotomacPark.id,"east-potomac-mini-golf","East Potomac Mini Golf","mini_golf",38.875375,-77.026695,"https://www.nps.gov/nama/planyourvisit/outdooractivities.htm","east-potomac-mini-golf","The country's oldest continually operating miniature golf course offers a compact eighteen-hole public course beside the East Potomac Golf Course clubhouse.","Navigate to 972 Ohio Drive SW and follow signs for miniature golf; the starter building and course are near the golf clubhouse, not at Hains Point.","Use clubhouse-area restrooms during facility hours.","The surrounding park is free, but miniature golf charges per round and keeps facility-specific hours. Check the operator's current schedule, weather status, and wait before promising play."],
+  [eastPotomacPark.id,"hains-point-loop","Hains Point Loop","scenic_drive",38.868816,-77.027807,"https://www.nps.gov/places/000/east-potomac-park-hains-point.htm","hains-point-loop","A roughly three-mile Ohio Drive circuit around the peninsula supports walking, running, cycling, river views, cherry trees, fishing access, and a low-speed scenic drive.","Choose a legal lot before starting and travel in the posted loop direction. Do not use the road shoulder as overflow parking or block bicycle and emergency access.","Restrooms are concentrated at developed recreation areas rather than continuously around the loop.","Loop access is free, but the road may close because of tides, flooding, snow, events, construction, or public safety. Expect mixed traffic and exposed weather."],
+  [eastPotomacPark.id,"east-potomac-golf-course-clubhouse","East Potomac Golf Course Clubhouse","golf",38.8738,-77.0268,"https://www.nps.gov/nama/planyourvisit/outdooractivities.htm","east-potomac-golf-clubhouse","The public golf clubhouse supports three courses, a driving range, lessons, rentals, food service, and the adjacent historic miniature golf course.","Navigate to 972 Ohio Drive SW and use the golf-facility parking rather than continuing to the Hains Point picnic area.","Clubhouse restrooms are available during facility operations.","Park entry is free, while golf, range use, rentals, instruction, miniature golf, and food charge separately. Tee times, weather closures, and concession hours change independently from park access."],
+
+  [gravellyPointPark.id,"gravelly-point-plane-spotting-lawn","Gravelly Point Plane-Spotting Lawn","viewpoint",38.865384,-77.038563,"https://home.nps.gov/places/000/gravelly-point.htm","gravelly-point-landing","The broad central lawn sits directly beneath a Reagan National Airport flight path and gives visitors unusually close views of arriving or departing aircraft.","Enter from northbound George Washington Memorial Parkway, park only in a marked space, and walk onto the open lawn without standing on the Mount Vernon Trail.","The Gravelly Point restroom is nearby, but availability can change with maintenance or closure.","Plane spotting is free. Aircraft direction depends on wind and operations; protect hearing, keep children close, and never fly drones, kites, lasers, or other objects near the airport."],
+
+  [greatFallsPark.id,"great-falls-overlook-1","Great Falls Overlook 1","overlook",38.9964,-77.2535,"https://www.nps.gov/thingstodo/great-falls-overlooks.htm","great-falls-overlook-1","The closest and most dramatic overlook places visitors on a rocky outcrop beside the main falls, with powerful water and minimal separation from steep terrain.","Follow overlook signs from the Visitor Center area and use the rocky spur for Overlook 1; do not confuse an informal river edge with the signed viewpoint.","Use courtyard restrooms or portable toilets near the Visitor Center before approaching the overlook.","The overlook is included with park admission. It requires uneven rock scrambling, is not wheelchair accessible, and has severe cliff and current hazards; children and leashed pets need direct control."],
+  [greatFallsPark.id,"great-falls-overlook-2","Great Falls Overlook 2","overlook",38.995883,-77.253525,"https://www.nps.gov/thingstodo/great-falls-overlooks.htm","great-falls-overlook-2","A signed overlook about 250 feet downstream frames the main falls and has a ramped approach that makes it the most practical close view for many visitors.","Follow the signed riverside route south from the Visitor Center and Overlook 1; use the ramped viewing area rather than crossing protective barriers.","Use courtyard restrooms or portable toilets near the Visitor Center before walking to the overlooks.","The viewpoint is included with park admission and has an accessible ramp. Wet surfaces, crowds, cliffs, snakes, and fast water still require caution, and barriers must never be crossed."],
+  [greatFallsPark.id,"great-falls-overlook-3","Great Falls Overlook 3","overlook",38.995319,-77.252792,"https://www.nps.gov/thingstodo/great-falls-overlooks.htm","great-falls-overlook-3","The southern primary overlook provides a wider upriver view of the falls and gorge from a ramped platform roughly 500 feet downstream.","Continue south on the signed overlook route beyond Overlook 2. The platform is close to the main visitor area, but it is distinct from River Trail viewpoints farther downstream.","Use courtyard restrooms or portable toilets near the Visitor Center before the overlook walk.","The viewpoint is included with park admission and has a ramped approach. Stay behind barriers, supervise children, and expect exposed sun, weather, crowds, and slick surfaces."],
+  [greatFallsPark.id,"great-falls-visitor-center-and-courtyard","Great Falls Visitor Center & Courtyard","visitor_center",38.9987,-77.2530,"https://home.nps.gov/grfa/planyourvisit/hours.htm","great-falls-visitor-center","The main orientation area provides ranger information, exhibits, maps, courtyard seating, nearby restrooms, seasonal snack service, and the shortest approach to all three overlooks.","After the entrance station, use the main parking area and follow Visitor Center signs. Start here before choosing an overlook or natural-surface trail.","Courtyard bathrooms are currently open 8:30 a.m.-4 p.m.; another restroom is out of order, with portable toilets available 7 a.m. until dark.","The building is currently open 10 a.m.-5 p.m., while the park opens earlier and closes later. Snack service is typically weekend and seasonal; check current notices rather than relying on hours visible in older photographs."],
+);
+
 function answer(park, intentKey, question, text) {
   return { intentKey, question, answer: text, sourceLabel: park.sourceLabel, source: park.source, sourceType: "official", checkedAt };
 }
@@ -305,7 +441,7 @@ function parkAnswers(park) {
 }
 
 async function downloadPhoto(park, item) {
-  const relative = `washington/${slugify(park.name)}/${item.slug}.webp`;
+  const relative = `${park.assetCitySlug || slugify(park.city || "Washington")}/${slugify(park.name)}/${item.slug}.webp`;
   const outputPath = path.join(root, "assets", "parks", "washington-dc-super", relative);
   if (fs.existsSync(outputPath)) return `/assets/parks/washington-dc-super/${relative}`;
   if (!downloadImages) throw new Error(`Missing ${park.name} image ${item.slug}; rerun with --download`);
@@ -325,7 +461,7 @@ function ensureCatalogRows() {
   const csvPath = path.join(root, "data", "nationwide-major-parks-launch.csv");
   let csv = fs.readFileSync(csvPath, "utf8").trimEnd();
   for (const park of parks) {
-    const row = `Mid-Atlantic,DC,Washington,${park.name},${park.tier},yes,super-enriched`;
+    const row = `${park.region || "Mid-Atlantic"},${park.state || "DC"},${park.city || "Washington"},${park.name},${park.tier},yes,super-enriched`;
     if (!csv.split("\n").some((line) => line.split(",").slice(0, 4).join(",") === row.split(",").slice(0, 4).join(","))) csv += `\n${row}`;
   }
   fs.writeFileSync(csvPath, `${csv}\n`);
@@ -335,7 +471,9 @@ function ensureLocations() {
   const file = path.join(root, "data", "launch-location-overrides.json");
   const rows = JSON.parse(fs.readFileSync(file, "utf8"));
   for (const park of parks) {
-    const value = { id: park.id, park: park.name, city: "Washington", state: "DC", latitude: park.lat, longitude: park.lon, address: park.address, displayName: `${park.name}, Washington, DC`, source: park.sourceLabel, sourceUrl: park.source, checkedAt };
+    const city = park.city || "Washington";
+    const state = park.state || "DC";
+    const value = { id: park.id, park: park.name, city, state, latitude: park.lat, longitude: park.lon, address: park.address, displayName: `${park.name}, ${city}, ${state}`, source: park.sourceLabel, sourceUrl: park.source, checkedAt };
     const index = rows.findIndex((row) => row.id === park.id);
     if (index >= 0) rows[index] = value; else rows.push(value);
   }
@@ -379,16 +517,19 @@ async function main() {
   for (const id of replacedIds) delete campaign.parks[id];
 
   for (const definition of parks) {
+    const city = definition.city || "Washington";
+    const state = definition.state || "DC";
+    const citySlug = definition.citySlug || "washington-dc";
     const localImages = [];
     for (const item of definition.photos) {
       const url = await downloadPhoto(definition, item);
-      localImages.push({ slug: item.slug, url, source: item.source, author: item.author, license: item.license, alt: `${definition.name} in Washington, DC`, latitude: definition.lat, longitude: definition.lon, positionQuality: "Associated with the named destination by its cited source; exact camera coordinates are not published" });
+      localImages.push({ slug: item.slug, url, source: item.source, author: item.author, license: item.license, alt: `${definition.name} in ${city}, ${state}`, latitude: definition.lat, longitude: definition.lon, positionQuality: "Associated with the named destination by its cited source; exact camera coordinates are not published" });
     }
     const searchAnswers = parkAnswers(definition);
     const features = featureRows.filter(([parentId]) => parentId === definition.id).map((row) => makeFeature(definition, row, localImages));
     const hero = localImages[0];
     const existing = all.parks.find((candidate) => candidate.id === definition.id) || {};
-    const park = { ...existing, id: definition.id, name: definition.name, type: "Park", city: "Washington", state: "DC", country: "US", citySlug: "washington-dc", slug: slugify(definition.name), searchCategory: "park", neighborhood: "Washington", status: "Sourced public-access visitor guide", summary: definition.summary, searchDescription: `Hours, arrival guidance, images, key destinations, and essential visitor questions for ${definition.name} in Washington, DC.`, address: definition.address, latitude: definition.lat, longitude: definition.lon, hours: definition.hours, hoursSchedule: definition.hoursSchedule || null, cost: definition.cost, accessibility: definition.accessibility, sourceLabel: definition.sourceLabel, source: definition.source, verifiedAt: checkedAt, operator: definition.operator, image: hero, images: localImages.slice(1), factSources: {}, sources: [{ label: definition.sourceLabel, url: definition.source }], launchTier: definition.tier, likelySubsites: features.length > 0, publishStatus: "super-enriched", researchQueue: [], transit: definition.transit, searchAnswers, features, amenities: features.map((feature) => feature.name), comments: existing.comments || [] };
+    const park = { ...existing, id: definition.id, name: definition.name, type: "Park", city, state, country: "US", citySlug, slug: slugify(definition.name), searchCategory: "park", neighborhood: city, status: "Sourced public-access visitor guide", summary: definition.summary, searchDescription: `Hours, arrival guidance, images, key destinations, and essential visitor questions for ${definition.name} in ${city}, ${state}.`, address: definition.address, latitude: definition.lat, longitude: definition.lon, hours: definition.hours, hoursSchedule: definition.hoursSchedule || null, cost: definition.cost, accessibility: definition.accessibility, sourceLabel: definition.sourceLabel, source: definition.source, verifiedAt: checkedAt, operator: definition.operator, image: hero, images: localImages.slice(1), factSources: {}, sources: [{ label: definition.sourceLabel, url: definition.source }], launchTier: definition.tier, likelySubsites: features.length > 0, publishStatus: "super-enriched", researchQueue: [], transit: definition.transit, searchAnswers, features, amenities: features.map((feature) => feature.name), comments: existing.comments || [] };
     upsertPark(all, park);
     upsertPark(pilot, park);
     campaign.parks[definition.id] = { operator: definition.operator, sourceLabel: definition.sourceLabel, source: definition.source, address: definition.address, summary: definition.summary, hours: definition.hours, hoursSchedule: definition.hoursSchedule || null, cost: definition.cost, accessibility: definition.accessibility, transit: definition.transit, searchAnswers, image: hero, additionalImages: localImages.slice(1), verifiedAt: checkedAt };
@@ -397,7 +538,7 @@ async function main() {
   fs.writeFileSync(allPath, `${JSON.stringify(all, null, 2)}\n`);
   fs.writeFileSync(pilotPath, `${JSON.stringify(pilot, null, 2)}\n`);
   fs.writeFileSync(campaignPath, `${JSON.stringify(campaign, null, 2)}\n`);
-  console.log(`Super-enriched ${parks.length} Washington guides with ${featureRows.length} focused destinations and ${parks.reduce((sum, park) => sum + park.photos.length, 0)} sourced photos.`);
+  console.log(`Super-enriched ${parks.length} Potomac-area guides with ${featureRows.length} focused destinations and ${parks.reduce((sum, park) => sum + park.photos.length, 0)} sourced photos.`);
 }
 
 main().catch((error) => { console.error(error.stack || error.message); process.exitCode = 1; });

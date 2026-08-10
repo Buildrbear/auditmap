@@ -985,7 +985,7 @@
     "displayName": "National Mall, Washington, DC",
     "source": "National Park Service",
     "sourceUrl": "https://www.nps.gov/nama/planyourvisit/index.htm",
-    "checkedAt": "2026-08-05"
+    "checkedAt": "2026-08-10"
   },
   {
     "id": "launch-dc-washington-rock-creek-park",
@@ -998,7 +998,7 @@
     "displayName": "Rock Creek Park, Washington, DC",
     "source": "National Park Service",
     "sourceUrl": "https://www.nps.gov/rocr/index.htm",
-    "checkedAt": "2026-08-05"
+    "checkedAt": "2026-08-10"
   },
   {
     "id": "launch-dc-washington-anacostia-park",
@@ -1011,7 +1011,7 @@
     "displayName": "Anacostia Park, Washington, DC",
     "source": "National Park Service",
     "sourceUrl": "https://www.nps.gov/anac/index.htm",
-    "checkedAt": "2026-08-05"
+    "checkedAt": "2026-08-10"
   },
   {
     "id": "launch-dc-washington-kenilworth-park-and-aquatic-gardens",
@@ -1037,7 +1037,7 @@
     "displayName": "Theodore Roosevelt Island, Washington, DC",
     "source": "National Park Service",
     "sourceUrl": "https://www.nps.gov/this/index.htm",
-    "checkedAt": "2026-08-05"
+    "checkedAt": "2026-08-10"
   },
   {
     "id": "launch-dc-washington-meridian-hill-park",
@@ -1063,7 +1063,7 @@
     "displayName": "Georgetown Waterfront Park, Washington, DC",
     "source": "National Park Service",
     "sourceUrl": "https://www.nps.gov/places/georgetown-waterfront-park.htm",
-    "checkedAt": "2026-08-05"
+    "checkedAt": "2026-08-10"
   },
   {
     "id": "launch-dc-washington-us-national-arboretum",
@@ -1089,7 +1089,7 @@
     "displayName": "Kenilworth Park & Aquatic Gardens, Washington, DC",
     "source": "National Park Service",
     "sourceUrl": "https://www.nps.gov/keaq/index.htm",
-    "checkedAt": "2026-08-05"
+    "checkedAt": "2026-08-10"
   },
   {
     "id": "launch-dc-washington-meridian-hill-park-malcolm-x-park",
@@ -1102,7 +1102,7 @@
     "displayName": "Meridian Hill Park (Malcolm X Park), Washington, DC",
     "source": "National Park Service",
     "sourceUrl": "https://home.nps.gov/rocr/learn/historyculture/meridian-hill-park.htm",
-    "checkedAt": "2026-08-05"
+    "checkedAt": "2026-08-10"
   },
   {
     "id": "launch-dc-washington-u-s-national-arboretum",
@@ -1115,7 +1115,7 @@
     "displayName": "U.S. National Arboretum, Washington, DC",
     "source": "U.S. National Arboretum",
     "sourceUrl": "https://usna.usda.gov/visit/hours-and-directions/",
-    "checkedAt": "2026-08-05"
+    "checkedAt": "2026-08-10"
   },
   {
     "id": "launch-il-chicago-lincoln-park",
@@ -5236,6 +5236,45 @@
     "displayName": "Brian Piccolo Sports Park & Velodrome, Cooper City, FL",
     "source": "OpenStreetMap contributors",
     "sourceUrl": "https://www.openstreetmap.org/way/168231374",
+    "checkedAt": "2026-08-10"
+  },
+  {
+    "id": "launch-dc-washington-east-potomac-park-hains-point",
+    "park": "East Potomac Park & Hains Point",
+    "city": "Washington",
+    "state": "DC",
+    "latitude": 38.8688,
+    "longitude": -77.0263,
+    "address": "972 Ohio Drive SW, Washington, DC 20024",
+    "displayName": "East Potomac Park & Hains Point, Washington, DC",
+    "source": "National Park Service",
+    "sourceUrl": "https://www.nps.gov/places/000/east-potomac-park-hains-point.htm",
+    "checkedAt": "2026-08-10"
+  },
+  {
+    "id": "launch-va-arlington-gravelly-point",
+    "park": "Gravelly Point",
+    "city": "Arlington",
+    "state": "VA",
+    "latitude": 38.8654,
+    "longitude": -77.0386,
+    "address": "George Washington Memorial Parkway, Arlington, VA 22202",
+    "displayName": "Gravelly Point, Arlington, VA",
+    "source": "National Park Service",
+    "sourceUrl": "https://home.nps.gov/places/000/gravelly-point.htm",
+    "checkedAt": "2026-08-10"
+  },
+  {
+    "id": "launch-va-mclean-great-falls-park",
+    "park": "Great Falls Park",
+    "city": "McLean",
+    "state": "VA",
+    "latitude": 38.9987,
+    "longitude": -77.2539,
+    "address": "9200 Old Dominion Drive, McLean, VA 22102",
+    "displayName": "Great Falls Park, McLean, VA",
+    "source": "National Park Service",
+    "sourceUrl": "https://www.nps.gov/grfa/planyourvisit/index.htm",
     "checkedAt": "2026-08-10"
   }
 ]

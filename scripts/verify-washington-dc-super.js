@@ -4,20 +4,25 @@ const fs = require("node:fs");
 const path = require("node:path");
 
 const root = path.resolve(__dirname, "..");
-const ids = [
-  "launch-dc-washington-national-mall",
-  "launch-dc-washington-rock-creek-park",
-  "launch-dc-washington-anacostia-park",
-  "launch-dc-washington-kenilworth-park-aquatic-gardens",
-  "launch-dc-washington-theodore-roosevelt-island",
-  "launch-dc-washington-meridian-hill-park-malcolm-x-park",
-  "launch-dc-washington-georgetown-waterfront-park",
-  "launch-dc-washington-u-s-national-arboretum",
-];
+const expectedFeatures = {
+  "launch-dc-washington-national-mall": 8,
+  "launch-dc-washington-rock-creek-park": 8,
+  "launch-dc-washington-anacostia-park": 8,
+  "launch-dc-washington-kenilworth-park-aquatic-gardens": 8,
+  "launch-dc-washington-theodore-roosevelt-island": 8,
+  "launch-dc-washington-meridian-hill-park-malcolm-x-park": 8,
+  "launch-dc-washington-georgetown-waterfront-park": 8,
+  "launch-dc-washington-u-s-national-arboretum": 8,
+  "launch-dc-washington-east-potomac-park-hains-point": 4,
+  "launch-va-arlington-gravelly-point": 1,
+  "launch-va-mclean-great-falls-park": 4,
+};
+const ids = Object.keys(expectedFeatures);
 const places = JSON.parse(
   fs.readFileSync(path.join(root, "data/generated/launch-map-places.json"), "utf8"),
 );
 const failures = [];
+const slugify = (value) => String(value).toLowerCase().replace(/&/g, " and ").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 
 for (const id of ids) {
   const park = places.find((candidate) => candidate.id === id);
@@ -29,12 +34,12 @@ for (const id of ids) {
   const images = [park.image, ...(park.images || [])].filter((image) => image?.url);
   if (images.length < 4)
     failures.push(`${park.name}: expected at least 4 images, found ${images.length}`);
-  if ((park.features || []).length !== 8)
-    failures.push(`${park.name}: expected 8 subsites, found ${(park.features || []).length}`);
+  if ((park.features || []).length !== expectedFeatures[id])
+    failures.push(`${park.name}: expected ${expectedFeatures[id]} evidence-complete subsites, found ${(park.features || []).length}`);
   if ((park.searchAnswers || []).length < 11)
     failures.push(`${park.name}: expected at least 11 visitor answers, found ${(park.searchAnswers || []).length}`);
 
-  const parentDir = path.join(root, "us/dc/washington/parks", park.slug);
+  const parentDir = path.join(root, "us", park.state.toLowerCase(), slugify(park.city), "parks", park.slug);
   const htmlPath = path.join(parentDir, "index.html");
   if (!fs.existsSync(htmlPath)) {
     failures.push(`${park.name}: static page missing`);
@@ -85,8 +90,11 @@ for (const phrase of [
   "A major rehabilitation has reopened key lower-park features",
   "Bring water shoes, dry clothes, sun protection",
   "The grounds are too large to cover casually on foot",
+  "Hains Point is low and flood-prone",
+  "the sound is extremely loud and sudden",
+  "Swimming, wading, and rock hopping are prohibited",
 ]) {
-  if (!joined.includes(phrase)) failures.push(`Missing Washington guidance: ${phrase}`);
+  if (!joined.includes(phrase)) failures.push(`Missing Potomac-area guidance: ${phrase}`);
 }
 
 if (failures.length) {
@@ -95,5 +103,5 @@ if (failures.length) {
 }
 
 console.log(
-  `Verified ${ids.length} Washington guides with four photos, eight mapped subsites, raw visitor answers, sources, and canonical pages.`,
+  `Verified ${ids.length} Potomac-area guides with four photos, evidence-complete mapped subsites, raw visitor answers, sources, and canonical pages.`,
 );

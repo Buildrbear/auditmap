@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T08:22:31.622Z",
+  "generatedAt": "2026-08-10T08:58:20.069Z",
   "policy": {
     "publication": "AI findings remain proposed until a human accepts the fact and its sources.",
     "prioritization": "Daily-use and safety-sensitive gaps rank above descriptive content.",
@@ -7,10 +7,10 @@
     "partialAnswers": "Useful but incomplete answers remain visible and stay queued until verified."
   },
   "summary": {
-    "places": 898,
+    "places": 901,
     "averageCoverageScore": 55,
-    "openTasks": 5895,
-    "urgentTasks": 948
+    "openTasks": 5919,
+    "urgentTasks": 951
   },
   "coverage": [
     {
@@ -6298,6 +6298,27 @@
       "expectedIntentCount": 14,
       "coveredIntentCount": 8,
       "coverageScore": 61
+    },
+    {
+      "placeId": "launch-dc-washington-east-potomac-park-hains-point",
+      "placeName": "East Potomac Park & Hains Point",
+      "expectedIntentCount": 14,
+      "coveredIntentCount": 6,
+      "coverageScore": 48
+    },
+    {
+      "placeId": "launch-va-arlington-gravelly-point",
+      "placeName": "Gravelly Point",
+      "expectedIntentCount": 14,
+      "coveredIntentCount": 6,
+      "coverageScore": 48
+    },
+    {
+      "placeId": "launch-va-mclean-great-falls-park",
+      "placeName": "Great Falls Park",
+      "expectedIntentCount": 14,
+      "coveredIntentCount": 6,
+      "coverageScore": 48
     }
   ],
   "tasks": [
@@ -23383,6 +23404,36 @@
       "placeCoverageScore": 48
     },
     {
+      "id": "launch-dc-washington-east-potomac-park-hains-point:closures",
+      "placeId": "launch-dc-washington-east-potomac-park-hains-point",
+      "placeName": "East Potomac Park & Hains Point",
+      "placeType": "Park",
+      "city": "Washington",
+      "state": "DC",
+      "intentKey": "closures",
+      "intentLabel": "Closures and availability",
+      "question": "Is anything at East Potomac Park & Hains Point closed, seasonal, or temporarily unavailable?",
+      "reason": "No current, source-backed closures and availability answer is cataloged.",
+      "action": "research",
+      "priority": 96,
+      "freshnessDays": 3,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/places/000/east-potomac-park-hains-point.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/nama/planyourvisit/outdooractivities.htm",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
       "id": "launch-ca-los-angeles-echo-park-lake:closures",
       "placeId": "launch-ca-los-angeles-echo-park-lake",
       "placeName": "Echo Park Lake",
@@ -24646,6 +24697,66 @@
         {
           "label": "Chicago Park District",
           "url": "https://www.chicagoparkdistrict.com/parks-facilities/clarence-f-buckingham-memorial-fountain",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
+      "id": "launch-va-arlington-gravelly-point:closures",
+      "placeId": "launch-va-arlington-gravelly-point",
+      "placeName": "Gravelly Point",
+      "placeType": "Park",
+      "city": "Arlington",
+      "state": "VA",
+      "intentKey": "closures",
+      "intentLabel": "Closures and availability",
+      "question": "Is anything at Gravelly Point closed, seasonal, or temporarily unavailable?",
+      "reason": "No current, source-backed closures and availability answer is cataloged.",
+      "action": "research",
+      "priority": 96,
+      "freshnessDays": 3,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "National Park Service",
+          "url": "https://home.nps.gov/places/000/gravelly-point.htm",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
+      "id": "launch-va-mclean-great-falls-park:closures",
+      "placeId": "launch-va-mclean-great-falls-park",
+      "placeName": "Great Falls Park",
+      "placeType": "Park",
+      "city": "McLean",
+      "state": "VA",
+      "intentKey": "closures",
+      "intentLabel": "Closures and availability",
+      "question": "Is anything at Great Falls Park closed, seasonal, or temporarily unavailable?",
+      "reason": "No current, source-backed closures and availability answer is cataloged.",
+      "action": "research",
+      "priority": 96,
+      "freshnessDays": 3,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/grfa/planyourvisit/index.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/thingstodo/great-falls-overlooks.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://home.nps.gov/grfa/planyourvisit/hours.htm",
           "sourceType": "official"
         }
       ],
@@ -59859,6 +59970,36 @@
       "placeCoverageScore": 48
     },
     {
+      "id": "launch-dc-washington-east-potomac-park-hains-point:trail-surface",
+      "placeId": "launch-dc-washington-east-potomac-park-hains-point",
+      "placeName": "East Potomac Park & Hains Point",
+      "placeType": "Park",
+      "city": "Washington",
+      "state": "DC",
+      "intentKey": "trail-surface",
+      "intentLabel": "Walking surfaces and terrain",
+      "question": "What are the walking surfaces, slopes, and trail conditions at East Potomac Park & Hains Point?",
+      "reason": "No current, source-backed walking surfaces and terrain answer is cataloged.",
+      "action": "research",
+      "priority": 80,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/places/000/east-potomac-park-hains-point.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/nama/planyourvisit/outdooractivities.htm",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
       "id": "launch-ca-los-angeles-echo-park-lake:trail-surface",
       "placeId": "launch-ca-los-angeles-echo-park-lake",
       "placeName": "Echo Park Lake",
@@ -61122,6 +61263,66 @@
         {
           "label": "Chicago Park District",
           "url": "https://www.chicagoparkdistrict.com/parks-facilities/clarence-f-buckingham-memorial-fountain",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
+      "id": "launch-va-arlington-gravelly-point:trail-surface",
+      "placeId": "launch-va-arlington-gravelly-point",
+      "placeName": "Gravelly Point",
+      "placeType": "Park",
+      "city": "Arlington",
+      "state": "VA",
+      "intentKey": "trail-surface",
+      "intentLabel": "Walking surfaces and terrain",
+      "question": "What are the walking surfaces, slopes, and trail conditions at Gravelly Point?",
+      "reason": "No current, source-backed walking surfaces and terrain answer is cataloged.",
+      "action": "research",
+      "priority": 80,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "National Park Service",
+          "url": "https://home.nps.gov/places/000/gravelly-point.htm",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
+      "id": "launch-va-mclean-great-falls-park:trail-surface",
+      "placeId": "launch-va-mclean-great-falls-park",
+      "placeName": "Great Falls Park",
+      "placeType": "Park",
+      "city": "McLean",
+      "state": "VA",
+      "intentKey": "trail-surface",
+      "intentLabel": "Walking surfaces and terrain",
+      "question": "What are the walking surfaces, slopes, and trail conditions at Great Falls Park?",
+      "reason": "No current, source-backed walking surfaces and terrain answer is cataloged.",
+      "action": "research",
+      "priority": 80,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/grfa/planyourvisit/index.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/thingstodo/great-falls-overlooks.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://home.nps.gov/grfa/planyourvisit/hours.htm",
           "sourceType": "official"
         }
       ],
@@ -74618,6 +74819,36 @@
       "placeCoverageScore": 48
     },
     {
+      "id": "launch-dc-washington-east-potomac-park-hains-point:playground",
+      "placeId": "launch-dc-washington-east-potomac-park-hains-point",
+      "placeName": "East Potomac Park & Hains Point",
+      "placeType": "Park",
+      "city": "Washington",
+      "state": "DC",
+      "intentKey": "playground",
+      "intentLabel": "Playgrounds",
+      "question": "What playgrounds are at East Potomac Park & Hains Point, and what ages or abilities do they serve?",
+      "reason": "No current, source-backed playgrounds answer is cataloged.",
+      "action": "research",
+      "priority": 79,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/places/000/east-potomac-park-hains-point.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/nama/planyourvisit/outdooractivities.htm",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
       "id": "launch-ca-los-angeles-echo-park-lake:playground",
       "placeId": "launch-ca-los-angeles-echo-park-lake",
       "placeName": "Echo Park Lake",
@@ -75881,6 +76112,66 @@
         {
           "label": "Chicago Park District",
           "url": "https://www.chicagoparkdistrict.com/parks-facilities/clarence-f-buckingham-memorial-fountain",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
+      "id": "launch-va-arlington-gravelly-point:playground",
+      "placeId": "launch-va-arlington-gravelly-point",
+      "placeName": "Gravelly Point",
+      "placeType": "Park",
+      "city": "Arlington",
+      "state": "VA",
+      "intentKey": "playground",
+      "intentLabel": "Playgrounds",
+      "question": "What playgrounds are at Gravelly Point, and what ages or abilities do they serve?",
+      "reason": "No current, source-backed playgrounds answer is cataloged.",
+      "action": "research",
+      "priority": 79,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "National Park Service",
+          "url": "https://home.nps.gov/places/000/gravelly-point.htm",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
+      "id": "launch-va-mclean-great-falls-park:playground",
+      "placeId": "launch-va-mclean-great-falls-park",
+      "placeName": "Great Falls Park",
+      "placeType": "Park",
+      "city": "McLean",
+      "state": "VA",
+      "intentKey": "playground",
+      "intentLabel": "Playgrounds",
+      "question": "What playgrounds are at Great Falls Park, and what ages or abilities do they serve?",
+      "reason": "No current, source-backed playgrounds answer is cataloged.",
+      "action": "research",
+      "priority": 79,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/grfa/planyourvisit/index.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/thingstodo/great-falls-overlooks.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://home.nps.gov/grfa/planyourvisit/hours.htm",
           "sourceType": "official"
         }
       ],
@@ -89672,6 +89963,36 @@
       "placeCoverageScore": 48
     },
     {
+      "id": "launch-dc-washington-east-potomac-park-hains-point:splash-pad",
+      "placeId": "launch-dc-washington-east-potomac-park-hains-point",
+      "placeName": "East Potomac Park & Hains Point",
+      "placeType": "Park",
+      "city": "Washington",
+      "state": "DC",
+      "intentKey": "splash-pad",
+      "intentLabel": "Water play",
+      "question": "Is there a splash pad or water play at East Potomac Park & Hains Point, and when does it operate?",
+      "reason": "No current, source-backed water play answer is cataloged.",
+      "action": "research",
+      "priority": 78,
+      "freshnessDays": 14,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/places/000/east-potomac-park-hains-point.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/nama/planyourvisit/outdooractivities.htm",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
       "id": "launch-ca-los-angeles-echo-park-lake:splash-pad",
       "placeId": "launch-ca-los-angeles-echo-park-lake",
       "placeName": "Echo Park Lake",
@@ -90935,6 +91256,66 @@
         {
           "label": "Chicago Park District",
           "url": "https://www.chicagoparkdistrict.com/parks-facilities/clarence-f-buckingham-memorial-fountain",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
+      "id": "launch-va-arlington-gravelly-point:splash-pad",
+      "placeId": "launch-va-arlington-gravelly-point",
+      "placeName": "Gravelly Point",
+      "placeType": "Park",
+      "city": "Arlington",
+      "state": "VA",
+      "intentKey": "splash-pad",
+      "intentLabel": "Water play",
+      "question": "Is there a splash pad or water play at Gravelly Point, and when does it operate?",
+      "reason": "No current, source-backed water play answer is cataloged.",
+      "action": "research",
+      "priority": 78,
+      "freshnessDays": 14,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "National Park Service",
+          "url": "https://home.nps.gov/places/000/gravelly-point.htm",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
+      "id": "launch-va-mclean-great-falls-park:splash-pad",
+      "placeId": "launch-va-mclean-great-falls-park",
+      "placeName": "Great Falls Park",
+      "placeType": "Park",
+      "city": "McLean",
+      "state": "VA",
+      "intentKey": "splash-pad",
+      "intentLabel": "Water play",
+      "question": "Is there a splash pad or water play at Great Falls Park, and when does it operate?",
+      "reason": "No current, source-backed water play answer is cataloged.",
+      "action": "research",
+      "priority": 78,
+      "freshnessDays": 14,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/grfa/planyourvisit/index.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/thingstodo/great-falls-overlooks.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://home.nps.gov/grfa/planyourvisit/hours.htm",
           "sourceType": "official"
         }
       ],
@@ -107841,6 +108222,36 @@
       "placeCoverageScore": 48
     },
     {
+      "id": "launch-dc-washington-east-potomac-park-hains-point:dog-area",
+      "placeId": "launch-dc-washington-east-potomac-park-hains-point",
+      "placeName": "East Potomac Park & Hains Point",
+      "placeType": "Park",
+      "city": "Washington",
+      "state": "DC",
+      "intentKey": "dog-area",
+      "intentLabel": "Dog areas and rules",
+      "question": "Where can dogs go at East Potomac Park & Hains Point, and what rules apply?",
+      "reason": "No current, source-backed dog areas and rules answer is cataloged.",
+      "action": "research",
+      "priority": 72,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/places/000/east-potomac-park-hains-point.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/nama/planyourvisit/outdooractivities.htm",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
       "id": "launch-ca-los-angeles-echo-park-lake:dog-area",
       "placeId": "launch-ca-los-angeles-echo-park-lake",
       "placeName": "Echo Park Lake",
@@ -109104,6 +109515,66 @@
         {
           "label": "Chicago Park District",
           "url": "https://www.chicagoparkdistrict.com/parks-facilities/clarence-f-buckingham-memorial-fountain",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
+      "id": "launch-va-arlington-gravelly-point:dog-area",
+      "placeId": "launch-va-arlington-gravelly-point",
+      "placeName": "Gravelly Point",
+      "placeType": "Park",
+      "city": "Arlington",
+      "state": "VA",
+      "intentKey": "dog-area",
+      "intentLabel": "Dog areas and rules",
+      "question": "Where can dogs go at Gravelly Point, and what rules apply?",
+      "reason": "No current, source-backed dog areas and rules answer is cataloged.",
+      "action": "research",
+      "priority": 72,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "National Park Service",
+          "url": "https://home.nps.gov/places/000/gravelly-point.htm",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
+      "id": "launch-va-mclean-great-falls-park:dog-area",
+      "placeId": "launch-va-mclean-great-falls-park",
+      "placeName": "Great Falls Park",
+      "placeType": "Park",
+      "city": "McLean",
+      "state": "VA",
+      "intentKey": "dog-area",
+      "intentLabel": "Dog areas and rules",
+      "question": "Where can dogs go at Great Falls Park, and what rules apply?",
+      "reason": "No current, source-backed dog areas and rules answer is cataloged.",
+      "action": "research",
+      "priority": 72,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/grfa/planyourvisit/index.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/thingstodo/great-falls-overlooks.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://home.nps.gov/grfa/planyourvisit/hours.htm",
           "sourceType": "official"
         }
       ],
@@ -123105,6 +123576,36 @@
       "placeCoverageScore": 48
     },
     {
+      "id": "launch-dc-washington-east-potomac-park-hains-point:picnic",
+      "placeId": "launch-dc-washington-east-potomac-park-hains-point",
+      "placeName": "East Potomac Park & Hains Point",
+      "placeType": "Park",
+      "city": "Washington",
+      "state": "DC",
+      "intentKey": "picnic",
+      "intentLabel": "Picnic areas",
+      "question": "Where are picnic areas at East Potomac Park & Hains Point, and do any require reservations?",
+      "reason": "No current, source-backed picnic areas answer is cataloged.",
+      "action": "research",
+      "priority": 68,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/places/000/east-potomac-park-hains-point.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/nama/planyourvisit/outdooractivities.htm",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
       "id": "launch-ca-los-angeles-echo-park-lake:picnic",
       "placeId": "launch-ca-los-angeles-echo-park-lake",
       "placeName": "Echo Park Lake",
@@ -124368,6 +124869,66 @@
         {
           "label": "Chicago Park District",
           "url": "https://www.chicagoparkdistrict.com/parks-facilities/clarence-f-buckingham-memorial-fountain",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
+      "id": "launch-va-arlington-gravelly-point:picnic",
+      "placeId": "launch-va-arlington-gravelly-point",
+      "placeName": "Gravelly Point",
+      "placeType": "Park",
+      "city": "Arlington",
+      "state": "VA",
+      "intentKey": "picnic",
+      "intentLabel": "Picnic areas",
+      "question": "Where are picnic areas at Gravelly Point, and do any require reservations?",
+      "reason": "No current, source-backed picnic areas answer is cataloged.",
+      "action": "research",
+      "priority": 68,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "National Park Service",
+          "url": "https://home.nps.gov/places/000/gravelly-point.htm",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
+      "id": "launch-va-mclean-great-falls-park:picnic",
+      "placeId": "launch-va-mclean-great-falls-park",
+      "placeName": "Great Falls Park",
+      "placeType": "Park",
+      "city": "McLean",
+      "state": "VA",
+      "intentKey": "picnic",
+      "intentLabel": "Picnic areas",
+      "question": "Where are picnic areas at Great Falls Park, and do any require reservations?",
+      "reason": "No current, source-backed picnic areas answer is cataloged.",
+      "action": "research",
+      "priority": 68,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/grfa/planyourvisit/index.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/thingstodo/great-falls-overlooks.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://home.nps.gov/grfa/planyourvisit/hours.htm",
           "sourceType": "official"
         }
       ],
@@ -138144,6 +138705,36 @@
       "placeCoverageScore": 48
     },
     {
+      "id": "launch-dc-washington-east-potomac-park-hains-point:shade",
+      "placeId": "launch-dc-washington-east-potomac-park-hains-point",
+      "placeName": "East Potomac Park & Hains Point",
+      "placeType": "Park",
+      "city": "Washington",
+      "state": "DC",
+      "intentKey": "shade",
+      "intentLabel": "Shade and weather comfort",
+      "question": "Where can visitors find shade or weather shelter at East Potomac Park & Hains Point?",
+      "reason": "No current, source-backed shade and weather comfort answer is cataloged.",
+      "action": "research",
+      "priority": 64,
+      "freshnessDays": 180,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/places/000/east-potomac-park-hains-point.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/nama/planyourvisit/outdooractivities.htm",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
       "id": "launch-ca-los-angeles-echo-park-lake:shade",
       "placeId": "launch-ca-los-angeles-echo-park-lake",
       "placeName": "Echo Park Lake",
@@ -139407,6 +139998,66 @@
         {
           "label": "Chicago Park District",
           "url": "https://www.chicagoparkdistrict.com/parks-facilities/clarence-f-buckingham-memorial-fountain",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
+      "id": "launch-va-arlington-gravelly-point:shade",
+      "placeId": "launch-va-arlington-gravelly-point",
+      "placeName": "Gravelly Point",
+      "placeType": "Park",
+      "city": "Arlington",
+      "state": "VA",
+      "intentKey": "shade",
+      "intentLabel": "Shade and weather comfort",
+      "question": "Where can visitors find shade or weather shelter at Gravelly Point?",
+      "reason": "No current, source-backed shade and weather comfort answer is cataloged.",
+      "action": "research",
+      "priority": 64,
+      "freshnessDays": 180,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "National Park Service",
+          "url": "https://home.nps.gov/places/000/gravelly-point.htm",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
+      "id": "launch-va-mclean-great-falls-park:shade",
+      "placeId": "launch-va-mclean-great-falls-park",
+      "placeName": "Great Falls Park",
+      "placeType": "Park",
+      "city": "McLean",
+      "state": "VA",
+      "intentKey": "shade",
+      "intentLabel": "Shade and weather comfort",
+      "question": "Where can visitors find shade or weather shelter at Great Falls Park?",
+      "reason": "No current, source-backed shade and weather comfort answer is cataloged.",
+      "action": "research",
+      "priority": 64,
+      "freshnessDays": 180,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/grfa/planyourvisit/index.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/thingstodo/great-falls-overlooks.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://home.nps.gov/grfa/planyourvisit/hours.htm",
           "sourceType": "official"
         }
       ],
@@ -155713,6 +156364,36 @@
       "placeCoverageScore": 48
     },
     {
+      "id": "launch-dc-washington-east-potomac-park-hains-point:public-art",
+      "placeId": "launch-dc-washington-east-potomac-park-hains-point",
+      "placeName": "East Potomac Park & Hains Point",
+      "placeType": "Park",
+      "city": "Washington",
+      "state": "DC",
+      "intentKey": "public-art",
+      "intentLabel": "Landmarks and public art",
+      "question": "Where are the landmarks or public art at East Potomac Park & Hains Point, and how do visitors find them?",
+      "reason": "No current, source-backed landmarks and public art answer is cataloged.",
+      "action": "research",
+      "priority": 60,
+      "freshnessDays": 180,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/places/000/east-potomac-park-hains-point.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/nama/planyourvisit/outdooractivities.htm",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
       "id": "launch-ca-los-angeles-echo-park-lake:public-art",
       "placeId": "launch-ca-los-angeles-echo-park-lake",
       "placeName": "Echo Park Lake",
@@ -156976,6 +157657,66 @@
         {
           "label": "Chicago Park District",
           "url": "https://www.chicagoparkdistrict.com/parks-facilities/clarence-f-buckingham-memorial-fountain",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
+      "id": "launch-va-arlington-gravelly-point:public-art",
+      "placeId": "launch-va-arlington-gravelly-point",
+      "placeName": "Gravelly Point",
+      "placeType": "Park",
+      "city": "Arlington",
+      "state": "VA",
+      "intentKey": "public-art",
+      "intentLabel": "Landmarks and public art",
+      "question": "Where are the landmarks or public art at Gravelly Point, and how do visitors find them?",
+      "reason": "No current, source-backed landmarks and public art answer is cataloged.",
+      "action": "research",
+      "priority": 60,
+      "freshnessDays": 180,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "National Park Service",
+          "url": "https://home.nps.gov/places/000/gravelly-point.htm",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
+      "id": "launch-va-mclean-great-falls-park:public-art",
+      "placeId": "launch-va-mclean-great-falls-park",
+      "placeName": "Great Falls Park",
+      "placeType": "Park",
+      "city": "McLean",
+      "state": "VA",
+      "intentKey": "public-art",
+      "intentLabel": "Landmarks and public art",
+      "question": "Where are the landmarks or public art at Great Falls Park, and how do visitors find them?",
+      "reason": "No current, source-backed landmarks and public art answer is cataloged.",
+      "action": "research",
+      "priority": 60,
+      "freshnessDays": 180,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/grfa/planyourvisit/index.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/thingstodo/great-falls-overlooks.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://home.nps.gov/grfa/planyourvisit/hours.htm",
           "sourceType": "official"
         }
       ],
