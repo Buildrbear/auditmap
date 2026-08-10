@@ -119,19 +119,40 @@
       ]
     },
     "launch-pa-philadelphia-fdr-park": {
+      "verifiedAt": "2026-08-10",
       "address": "1500 Pattison Avenue, Philadelphia, PA 19145",
       "latitude": 39.9017381, "longitude": -75.1835504,
-      "summary": "FDR Park is South Philadelphia's 348-acre active-recreation park, with lakes, 21 picnic groves, sports fields and courts, two playgrounds, a renowned skatepark, fishing, paddling, wetland trails, and the American Swedish Historical Museum.",
-      "hours": "Outdoor areas follow posted Philadelphia park hours. Playgrounds, museum, sports facilities, permits, restrooms, events, and construction zones use separate schedules.",
-      "cost": "General park, trail, playground when open, skatepark, lake-edge, and open recreation access is free. Museum admission, permits, food, rentals, and events may charge.",
-      "parking": "The park has roughly 900 spaces distributed around its loop. Stadium events, construction, flooding, and permitted gatherings can close or overwhelm the nearest lots, so navigate to the exact activity zone.",
-      "arrival": "Use Broad Street and Pattison Avenue for the main gateway and playground side. Choose Anna C. Verna Playground, the skatepark, museum, lake, or assigned picnic grove before entering the loop.",
-      "restrooms": "Restroom access is concentrated at staffed, permitted, museum, playground, and event facilities and changes with construction. Confirm the closest open facility before settling at a remote grove or field.",
-      "accessibility": "The newer gateway and Anna C. Verna landscape were designed for inclusive access, while older paths, groves, lake edges, wetland routes, and construction detours vary.",
+      "summary": "FDR Park is South Philadelphia's 348-acre lake and recreation park, with Meadow Lake, 21 picnic groves, sports fields and courts, a renowned skatepark, fishing, wetland trails, free cultural markets, the American Swedish Historical Museum, and ongoing landscape restoration.",
+      "hours": "Vehicle gates are open 6 a.m.-9 p.m. from April through October and 6 a.m.-6 p.m. from November through March. Pedestrian access, museum, markets, restrooms, programs, permits and construction zones keep separate schedules.",
+      "cost": "General park, loop, skatepark, lake-edge and open recreation access is free. Museum admission, picnic permits, food, rentals and ticketed events cost separately; vehicle parking can carry an event fee during Eagles games.",
+      "parking": "About 900 spaces are distributed around the park loop and are normally free. Eagles games can turn them into paid overflow parking, while stadium events, flooding, construction and permitted gatherings can close or overwhelm the nearest area; navigate to the exact destination.",
+      "arrival": "Use Broad Street and Pattison Avenue for the main gateway or the park entrance nearest the museum and selected activity. Choose the lake and boathouse, skatepark, museum, gazebo or numbered picnic grove before entering the loop rather than following the broad park pin.",
+      "restrooms": "Friends of FDR Park identifies two permanent public bathrooms: outside the Welcome Center at 1800 Pattison Avenue and across from the skatepark beneath I-95. Museum and event facilities have separate access and hours.",
+      "accessibility": "The newer gateway is designed for inclusive access, but older paths, groves, lake edges, wetland routes and construction detours vary. The 2026 picnic application specifically says the FDR Boathouse Pavilion is not ADA compliant.",
       "dogs": "Leashed dogs are allowed in general park areas under City rules. Keep pets out of playgrounds, active fields, museum spaces, and restricted construction or habitat areas.",
-      "family": "FDR offers exceptional play, picnicking, fishing views, sports, and open space, but Anna C. Verna Playground is currently closed pending a safety inspection and must not be promised as available.",
-      "transit": "NRG Station on SEPTA's Broad Street Line is near the northeast side. Stadium events can alter pedestrian routes, traffic, and rideshare pickup zones.",
-      "need": "Anna C. Verna Playground is closed pending a 2026 safety inspection. Also check flooding, construction, World Cup or stadium events, picnic permits, lake rules, heat, and thunderstorms. Swimming is not allowed."
+      "family": "FDR offers picnicking, fishing views, sports, markets and open space, but Anna C. Verna Playground remains closed after a 2026 safety inspection and must not be promised as available until the City announces reopening.",
+      "transit": "NRG Station on SEPTA's Broad Street Line is just outside the northeast side, and Route 17 also serves Pattison Avenue. Stadium and major 2026 events can alter pedestrian routes, train service, traffic and rideshare zones.",
+      "need": "Anna C. Verna Playground remains closed. Check flooding, construction, World Cup or stadium events, picnic permits, lake rules, heat and thunderstorms; swimming is prohibited, and tabletop grills and campfires are not allowed.",
+      "weather": "Lake edges, wetlands, fields and older paths can flood or remain muddy after storms. Check heat, lightning, wind and current construction boundaries, and remember that outdoor programs are weather permitting.",
+      "answerSources": {
+        "hours": {"sourceLabel":"Friends of FDR Park getting here","source":"https://www.fdrparkphilly.org/getting-here"},
+        "parking": {"sourceLabel":"Friends of FDR Park getting here","source":"https://www.fdrparkphilly.org/getting-here"},
+        "entrance": {"sourceLabel":"Friends of FDR Park getting here","source":"https://www.fdrparkphilly.org/getting-here"},
+        "restroom": {"sourceLabel":"Friends of FDR Park FAQ","source":"https://www.fdrparkphilly.org/frequently-asked-questions"},
+        "fees": {"sourceLabel":"Friends of FDR Park getting here","source":"https://www.fdrparkphilly.org/getting-here"},
+        "accessibility": {"sourceLabel":"Philadelphia Parks & Recreation 2026 picnic application","source":"https://www.phila.gov/media/20260310115338/2026-Picnic-Application.pdf"},
+        "dogs": {"sourceLabel":"Philadelphia Parks & Recreation FDR Park","source":"https://www.phila.gov/parks-rec-finder/#/location/fdr-park/"},
+        "family": {"sourceLabel":"Philadelphia Inquirer report citing Parks & Recreation","source":"https://www.inquirer.com/news/philadelphia/fdr-park-verna-playground-towey-recreation-20260606.html","freshnessClass":"fast"},
+        "transit": {"sourceLabel":"SEPTA 2026 event travel guidance","source":"https://wwww.septa.org/2026-events/","freshnessClass":"fast"},
+        "need-to-know": {"sourceLabel":"Friends of FDR Park FAQ","source":"https://www.fdrparkphilly.org/frequently-asked-questions","freshnessClass":"fast"},
+        "weather": {"sourceLabel":"Friends of FDR Park plan","source":"https://www.fdrparkphilly.org/parkplan","freshnessClass":"fast"}
+      },
+      "extraAnswers": [
+        {"intentKey":"fishing","question":"Can I fish or swim at FDR Park?","answer":"Fishing is available around the two lakes, three lagoons and creek, including locations near the boathouse and in the Meadow area. Swimming is not allowed; use only legal shoreline access and check free community fishing and boating dates separately.","sourceLabel":"Friends of FDR Park recreation","source":"https://www.fdrparkphilly.org/recreation","freshnessClass":"slow"},
+        {"intentKey":"picnic","question":"How do FDR Park picnic groves and grills work?","answer":"The park has 21 numbered picnic groves and pavilions. A posted reservation controls a site for that day; otherwise unreserved areas are first come, first served. Bring a permitted freestanding grill and remove coals correctly; tabletop grills and campfires are prohibited.","sourceLabel":"Friends of FDR Park FAQ","source":"https://www.fdrparkphilly.org/frequently-asked-questions","freshnessClass":"fast"},
+        {"intentKey":"food","question":"When are the community markets at FDR Park?","answer":"Friends of FDR Park currently lists the Southeast Asian Market Saturdays and Sundays 10 a.m.-6 p.m., the Latino Market Sundays 8 a.m.-5:30 p.m., and the African American Market Saturdays 10 a.m.-5 p.m. Locations and seasonal dates can change, so verify before a market-specific trip.","sourceLabel":"Friends of FDR Park FAQ","source":"https://www.fdrparkphilly.org/frequently-asked-questions","freshnessClass":"fast"},
+        {"intentKey":"playground","question":"Is Anna C. Verna Playground open?","answer":"No reopening has been confirmed. The playground was fenced after a 2026 inspection identified needed slide guards and hardware work; do not enter through or around the closure fencing, and wait for a City reopening announcement.","sourceLabel":"Philadelphia Inquirer report citing Parks & Recreation","source":"https://www.inquirer.com/news/philadelphia/fdr-park-verna-playground-towey-recreation-20260606.html","freshnessClass":"fast"}
+      ]
     },
     "launch-pa-philadelphia-rittenhouse-square": {
       "address": "135 S. 18th Street, Philadelphia, PA 19103",

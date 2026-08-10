@@ -35,14 +35,10 @@ const featureProfiles = {
     { image: 3, description: "Dilworth Park's glass headhouses, stairs and elevators connect the plaza to SEPTA's 15th Street and City Hall transit complex, but step-free access differs by line." }
   ],
   "launch-pa-philadelphia-fdr-park": [
-    { image: 0, description: "Anna C. Verna Playground is FDR Park's large inclusive play destination, but it is currently closed pending a 2026 safety inspection." },
-    { image: 2, description: "FDR Park's skatepark is the landmark DIY concrete skate area beneath I-95, separate from the playground and lake recreation zones." },
-    { image: 1, description: "Meadow Lake is the park's fishing and water-view destination; check current access and flooding, and remember that swimming is not allowed." },
-    { image: 3, description: "The American Swedish Historical Museum and surrounding picnic groves are a separate cultural and gathering zone with their own hours, admission, and permit needs." },
-    { image: 1, description: "Pattison Lagoon and the historic boathouse sit near the park's eastern water system; access can change with restoration, flooding, paddling programs, and habitat work." },
-    { image: 3, description: "The South Philadelphia Meadow is part of FDR Park's evolving ecological landscape, with walking routes, wetland habitat, limited shade, and active construction boundaries." },
-    { image: 0, description: "FDR Park's numbered picnic groves are distributed around the loop rather than clustered at one pin; large gatherings require the correct reservation and grove number." },
-    { image: 2, description: "Athletic fields and courts occupy several separate zones around FDR Park, and permitted games, stadium events, construction, and wet conditions affect availability." }
+    { image: 0, description: "Meadow Lake and the FDR Park Boathouse form the park's primary lake-view, fishing and program meeting area, with no swimming and weather-sensitive shoreline access." },
+    { image: 1, description: "FDR Park Skatepark is the landmark DIY concrete skate environment beneath I-95, separated from the park's playground and lake recreation areas." },
+    { image: 2, description: "The American Swedish Historical Museum is a separately operated, ticketed museum inside FDR Park with its own entrance, hours, parking and accessibility guidance." },
+    { image: 3, description: "Olmsted Overlook and its historic gazebo provide a recognizable lake-side gathering landmark used for free music and other scheduled park programs." }
   ],
   "launch-pa-philadelphia-rittenhouse-square": [
     { image: 1, description: "The central fountain and plaza are Rittenhouse Square's main meeting point, surrounded by benches, diagonal paths, lawns, and public art." },

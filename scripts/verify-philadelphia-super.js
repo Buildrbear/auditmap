@@ -39,11 +39,11 @@ for (const expected of campaign.places) {
   for (const text of [place.name, place.address, parkingQuestion, restroomQuestion, "rel=\"canonical\""]) if (text && !html.includes(text)) failures.push(`${place.name}: raw HTML missing ${text}`);
 }
 const fdr = places.find((place) => place.id === "launch-pa-philadelphia-fdr-park");
-if (!JSON.stringify(fdr).includes("closed pending a 2026 safety inspection")) failures.push("FDR Park: current Anna C. Verna Playground closure missing");
-const fdrImageChecks = [["Anna C. Verna Playground", "playground"], ["FDR Park skatepark", "skatepark"], ["Meadow Lake and fishing", "fisherman"]];
+for (const phrase of ["Anna C. Verna Playground remains closed", "6 a.m.-9 p.m. from April through October", "two permanent public bathrooms", "tabletop grills and campfires are not allowed"]) if (!JSON.stringify(fdr).includes(phrase)) failures.push(`FDR Park: missing ${phrase}`);
+const fdrImageChecks = [["Meadow Lake and FDR Park Boathouse", "FDR_Park_1"], ["FDR Park Skatepark", "FDR_Park_Skatepark_6"], ["American Swedish Historical Museum", "American_Swedish_Museum"], ["Olmsted Overlook and Gazebo", "FDR_Park_2A"]];
 for (const [name, token] of fdrImageChecks) {
-  const imageUrl = fdr?.features?.find((feature) => feature.name === name)?.details?.imageUrl || "";
-  if (!imageUrl.includes(token)) failures.push(`FDR Park/${name}: image does not match destination`);
+  const imageSourceUrl = fdr?.features?.find((feature) => feature.name === name)?.details?.imageSourceUrl || "";
+  if (!imageSourceUrl.includes(token)) failures.push(`FDR Park/${name}: image does not match destination`);
 }
 const independence = places.find((place) => place.id === "launch-pa-philadelphia-independence-national-historical-park");
 for (const phrase of ["$1 service fee", "security", "no restrooms inside the Independence Hall secured area"]) if (!JSON.stringify(independence).toLowerCase().includes(phrase.toLowerCase())) failures.push(`Independence: missing ${phrase}`);

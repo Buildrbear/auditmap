@@ -247,6 +247,72 @@
         "family": "The direct transit arrival avoids parking, but the concourse is large and line transfers can be confusing. Decide the correct exit before boarding and keep children close around platforms, escalators and the busy plaza.",
         "need": "City Hall and 15th Street are connected but not uniformly accessible across every line. Use SEPTA's current concourse map and elevator alerts, and allow extra transfer time rather than choosing an entrance only because it is closest."
       }
+    },
+    "launch-pa-philadelphia-fdr-park": {
+      "meadow-lake-and-fdr-park-boathouse": {
+        "description": "Meadow Lake and the FDR Park Boathouse form the park's primary lake-view, fishing and program meeting area, with shoreline paths, no swimming and access that changes with flooding and restoration work.",
+        "address": "1500 Pattison Avenue, Philadelphia, PA 19145",
+        "sourceLabel": "Friends of FDR Park recreation",
+        "source": "https://www.fdrparkphilly.org/recreation",
+        "imageIndex": 0,
+        "location": "Use the boathouse and Meadow Lake pin inside the park loop, not the Broad Street gateway. The lake system is extensive, so decide whether the boathouse, a fishing program or a short shoreline walk is the actual destination.",
+        "parking": "Use a legal lot on the park loop nearest the boathouse. Parking is normally free, but Eagles games can trigger paid overflow parking and events, flooding or construction can change the approach.",
+        "hours": "Vehicle gates are open 6 a.m.-9 p.m. April-October and 6 a.m.-6 p.m. November-March. Fishing and boating programs keep published event times, and shoreline access may close after storms or during work.",
+        "restrooms": "The closest dependable permanent facility is outside the Welcome Center at 1800 Pattison Avenue; confirm its access before moving around the lake. The boathouse pavilion should not be assumed to provide an open public restroom.",
+        "fees": "Lake-edge walking and ordinary legal fishing access are free. Programs, permits, equipment or special events may use separate registration, although current community fishing and boating days advertise equipment at no cost.",
+        "accessibility": "The 2026 City picnic application says the FDR Boathouse Pavilion is not ADA compliant. Shoreline grades, older paving, mud and detours vary, so confirm the exact program meeting point and route before a mobility-dependent visit.",
+        "dogs": "Leashed dogs may use general park paths but should remain out of the water, habitat restoration areas and program equipment. Keep the leash short around anglers and narrow shoreline sections.",
+        "family": "A short lake walk or staffed family fishing program can work well, but this is open water with no swimming and no continuous barrier. Bring sun protection and supervise at every shoreline edge.",
+        "need": "Swimming is prohibited. Check flooding and construction, do not launch or borrow equipment outside an authorized program, and leave enough time to exit before the seasonal vehicle gate closes."
+      },
+      "fdr-park-skatepark": {
+        "description": "FDR Park Skatepark is the world-known DIY concrete skate environment beneath I-95, with bowls, transitions and an industrial setting that is separate from the park's playground and lake recreation areas.",
+        "address": "FDR Park beneath I-95, Philadelphia, PA 19145",
+        "sourceLabel": "Friends of FDR Park recreation",
+        "source": "https://www.fdrparkphilly.org/recreation",
+        "imageIndex": 1,
+        "location": "Navigate to the skatepark beneath I-95 on the park's eastern side. Do not follow the Anna C. Verna Playground pin; the skatepark has its own parking area and permanent restroom across the loop.",
+        "parking": "Use the legal lot beneath I-95 near the skatepark. The park identifies roughly 900 total spaces, but stadium events can impose fees or fill the nearest area and construction can alter circulation.",
+        "hours": "Use the skatepark within posted park access and seasonal vehicle-gate hours. Lighting, maintenance, events, flooding or work may shorten usable time; skating after dark should never be inferred from an open vehicle gate.",
+        "restrooms": "Friends of FDR Park identifies a permanent brick restroom across from the skatepark beneath I-95. Confirm that it is open before beginning a long session.",
+        "fees": "Ordinary public skatepark use is free. Lessons, events, vendors or organized programs may be separate.",
+        "accessibility": "The parking and spectator approach is developed, but the skate terrain itself is steep concrete designed for wheeled sport. Surface damage, debris, standing water and active riders create hazards independent of the access path.",
+        "dogs": "Keep leashed dogs outside active skate lines and away from bowls and ramps. Noise, wheels and confined movement make the riding area a poor pet setting.",
+        "family": "This is not a beginner playground. Helmets and appropriate protective equipment are strongly prudent, younger riders need close supervision, and spectators should remain clear of riding lines.",
+        "need": "Inspect the concrete and traffic pattern before entering, yield to active riders and do not treat the shaded highway setting as protection from lightning, flooding or severe weather."
+      },
+      "american-swedish-historical-museum": {
+        "description": "The American Swedish Historical Museum is a separately operated, ticketed cultural destination inside FDR Park, with twelve galleries, its own Pattison Avenue entrance, museum hours and accessibility procedure.",
+        "address": "1900 Pattison Avenue, Philadelphia, PA 19145",
+        "sourceLabel": "American Swedish Historical Museum",
+        "source": "https://www.americanswedish.org/visit",
+        "imageIndex": 2,
+        "location": "Navigate to 1900 Pattison Avenue, west of the main Broad Street park gateway. Use the museum entrance rather than a general FDR Park or picnic-grove pin.",
+        "parking": "The museum lists accessible parking along Pattison Avenue by its rear entrance. Construction for planned access improvements or a park event can alter the approach, so use current museum directions rather than an old event parking map.",
+        "hours": "Public hours are Tuesday-Sunday, 10 a.m.-4 p.m.; the museum is normally closed Monday and on listed holidays. Special tours, events and 2026 centennial programming can override the weekly pattern.",
+        "restrooms": "Restrooms are available to museum visitors during staffed public hours. Do not depend on indoor access before opening, after closing or when the museum is closed for a holiday or private event.",
+        "fees": "Current general admission is $15 adults, $10 seniors, students and military, $5 ages 5-11, and free under age 5; ACCESS admission is $2 for adults and children over 5. The second Sunday of each month is listed as free, but verify current terms.",
+        "accessibility": "Accessible parking is along Pattison Avenue at the rear entrance; ring the doorbell for admittance. Caregivers accompanying visitors with special needs do not pay admission. Planned access construction may change the route.",
+        "dogs": "ADA-defined service dogs are welcome. Emotional-support, comfort and therapy animals are not permitted inside.",
+        "family": "The galleries and scheduled family programs offer an indoor complement to the park. Check the current exhibition and event calendar, admission and bag policy before arriving with a group.",
+        "need": "The museum is not open on the park's full schedule. Large bags are prohibited in galleries, lockers are on the lower level, and there is no general food or beverage service onsite."
+      },
+      "olmsted-overlook-and-gazebo": {
+        "description": "Olmsted Overlook and its historic gazebo are a recognizable lake-side gathering landmark in FDR Park, used for views, informal rest and scheduled free music rather than as a staffed visitor center.",
+        "address": "FDR Park loop near Meadow Lake, Philadelphia, PA 19145",
+        "sourceLabel": "Friends of FDR Park public programs",
+        "source": "https://www.fdrparkphilly.org/activities",
+        "imageIndex": 3,
+        "location": "Use the gazebo and Olmsted Overlook pin beside the lake system inside the park loop. It is separate from the boathouse, museum and Broad Street gateway, even though event directions may use those larger landmarks.",
+        "parking": "Choose a legal loop lot near the overlook and leave the event area clear for permitted setup. Stadium events, markets and construction can redirect traffic or impose a parking fee.",
+        "hours": "The outdoor landmark follows park and seasonal vehicle-gate access. Scheduled programs have their own times; Friends currently lists Not Just Jazz at the Gazebo/Olmsted Overlook on alternating Tuesdays from June through October, weather permitting.",
+        "restrooms": "There is no guaranteed restroom at the gazebo. Identify the permanent facility outside the Welcome Center or across from the skatepark before settling in for a program.",
+        "fees": "Ordinary overlook and gazebo access is free, and the listed Not Just Jazz series is free. Private reservations, vendors and other events may have separate requirements.",
+        "accessibility": "The overlook is reached from the park loop, but older paving, lawn, curb transitions, event furniture and wet conditions vary. Confirm the event's accessible approach before relying on a seat or drop-off location.",
+        "dogs": "Leashed dogs may use the surrounding general park area unless an event posts a restriction. Keep pets away from performers, food trucks, crowded seating and the lake edge.",
+        "family": "The gazebo is a useful family landmark and free-music setting, but it is not a playground or fenced space. Bring seating when advised and supervise children near roads and water.",
+        "need": "This is an unstaffed outdoor landmark. Confirm the exact program date and weather status, bring a chair or blanket when appropriate and do not assume food, restrooms or shelter will be available."
+      }
     }
   }
 }
