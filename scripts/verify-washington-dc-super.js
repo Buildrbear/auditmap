@@ -16,6 +16,9 @@ const expectedFeatures = {
   "launch-dc-washington-east-potomac-park-hains-point": 4,
   "launch-va-arlington-gravelly-point": 1,
   "launch-va-mclean-great-falls-park": 4,
+  "launch-md-glen-echo-glen-echo-park": 4,
+  "launch-md-potomac-great-falls-tavern-olmsted-island": 4,
+  "launch-va-alexandria-huntley-meadows-park": 2,
 };
 const ids = Object.keys(expectedFeatures);
 const places = JSON.parse(
@@ -93,6 +96,9 @@ for (const phrase of [
   "Hains Point is low and flood-prone",
   "the sound is extremely loud and sudden",
   "Swimming, wading, and rock hopping are prohibited",
+  "Use 5801 Oxford Road",
+  "Section A of Billy Goat Trail frequently closes",
+  "Pets are prohibited on the Restoration and Heron Trails",
 ]) {
   if (!joined.includes(phrase)) failures.push(`Missing Potomac-area guidance: ${phrase}`);
 }

@@ -80848,6 +80848,557 @@
         }
       ],
       "verifiedAt": "2026-08-10"
+    },
+    "launch-md-glen-echo-glen-echo-park": {
+      "operator": "National Park Service and Glen Echo Park Partnership for Arts and Culture",
+      "sourceLabel": "National Park Service",
+      "source": "https://www.nps.gov/glec/planyourvisit/index.htm",
+      "address": "7300 MacArthur Boulevard, Glen Echo, MD 20812",
+      "summary": "A former amusement park transformed into a year-round public arts and culture campus, with a historic carousel, social dancing, theaters, studios, galleries, playground, picnic grove, civil-rights history, and family programs.",
+      "hours": "The outdoor grounds are open daily from 6 a.m. until 1 a.m. the next day. The carousel, dances, theaters, galleries, studios, aquarium, ranger station, and events keep separate schedules; the park is closed Thanksgiving and Christmas Day.",
+      "hoursSchedule": {
+        "sunday": [
+          [
+            "00:00",
+            "01:00"
+          ],
+          [
+            "06:00",
+            "24:00"
+          ]
+        ],
+        "monday": [
+          [
+            "00:00",
+            "01:00"
+          ],
+          [
+            "06:00",
+            "24:00"
+          ]
+        ],
+        "tuesday": [
+          [
+            "00:00",
+            "01:00"
+          ],
+          [
+            "06:00",
+            "24:00"
+          ]
+        ],
+        "wednesday": [
+          [
+            "00:00",
+            "01:00"
+          ],
+          [
+            "06:00",
+            "24:00"
+          ]
+        ],
+        "thursday": [
+          [
+            "00:00",
+            "01:00"
+          ],
+          [
+            "06:00",
+            "24:00"
+          ]
+        ],
+        "friday": [
+          [
+            "00:00",
+            "01:00"
+          ],
+          [
+            "06:00",
+            "24:00"
+          ]
+        ],
+        "saturday": [
+          [
+            "00:00",
+            "01:00"
+          ],
+          [
+            "06:00",
+            "24:00"
+          ]
+        ]
+      },
+      "cost": "Grounds, main visitor parking, playground, picnic grove, and many ranger programs are free. Carousel rides, performances, classes, dances, aquarium admission, rentals, and special events may charge separately.",
+      "accessibility": "Accessible spaces are available in the main and upper lots, and NPS describes the park as wheelchair- and walker-accessible from both. Historic buildings, slopes, older surfaces, crowds, and individual performances still need destination-specific planning.",
+      "transit": "Montgomery County Ride On Route 29 connects from Bethesda or Friendship Heights to the Glen Echo stop. Confirm the current timetable and return trip because evening events often continue after daytime service patterns change.",
+      "searchAnswers": [
+        {
+          "intentKey": "hours",
+          "question": "When is Glen Echo Park open?",
+          "answer": "The outdoor grounds are open daily from 6 a.m. until 1 a.m. the next day. The carousel, dances, theaters, galleries, studios, aquarium, ranger station, and events keep separate schedules; the park is closed Thanksgiving and Christmas Day.",
+          "sourceLabel": "National Park Service",
+          "source": "https://www.nps.gov/glec/planyourvisit/index.htm",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "parking",
+          "question": "Where should I park for Glen Echo Park?",
+          "answer": "The main public lot off Oxford Road is free and includes lawn overflow unless posted otherwise. The upper MacArthur Boulevard lot is generally permit-only during the day; no overnight parking is allowed.",
+          "sourceLabel": "National Park Service",
+          "source": "https://www.nps.gov/glec/planyourvisit/index.htm",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "entrance",
+          "question": "What is the best entrance for Glen Echo Park?",
+          "answer": "Use 5801 Oxford Road for the free main visitor lot, then cross the Minnehaha Creek footbridge. The 7300 MacArthur Boulevard street address can route drivers toward the permit-only upper lot instead.",
+          "sourceLabel": "National Park Service",
+          "source": "https://www.nps.gov/glec/planyourvisit/index.htm",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Are there restrooms at Glen Echo Park?",
+          "answer": "Accessible public restrooms are available in several park buildings. The red-brick Arcade building beside the carousel has year-round restrooms, including non-gendered and family facilities on its second floor.",
+          "sourceLabel": "National Park Service",
+          "source": "https://www.nps.gov/glec/planyourvisit/index.htm",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "fees",
+          "question": "Is Glen Echo Park free?",
+          "answer": "Grounds, main visitor parking, playground, picnic grove, and many ranger programs are free. Carousel rides, performances, classes, dances, aquarium admission, rentals, and special events may charge separately.",
+          "sourceLabel": "National Park Service",
+          "source": "https://www.nps.gov/glec/planyourvisit/index.htm",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "accessibility",
+          "question": "How accessible is Glen Echo Park?",
+          "answer": "Accessible spaces are available in the main and upper lots, and NPS describes the park as wheelchair- and walker-accessible from both. Historic buildings, slopes, older surfaces, crowds, and individual performances still need destination-specific planning.",
+          "sourceLabel": "National Park Service",
+          "source": "https://www.nps.gov/glec/planyourvisit/index.htm",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "dogs",
+          "question": "Are dogs allowed at Glen Echo Park?",
+          "answer": "Leashed pets are allowed in outdoor park and picnic areas on a physical leash no longer than six feet. Buildings, performances, classes, crowded events, and partner attractions may restrict pets; service animals follow applicable access rules.",
+          "sourceLabel": "National Park Service",
+          "source": "https://www.nps.gov/glec/planyourvisit/index.htm",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "family",
+          "question": "Is Glen Echo Park good for children?",
+          "answer": "The carousel, playground, shaded picnic grove, children's theaters, aquarium, studios, Junior Ranger activities, and open historic campus make this a strong family destination. Confirm the chosen attraction's ticket and schedule before promising it.",
+          "sourceLabel": "National Park Service",
+          "source": "https://www.nps.gov/glec/planyourvisit/index.htm",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "transit",
+          "question": "How do I reach Glen Echo Park without a car?",
+          "answer": "Montgomery County Ride On Route 29 connects from Bethesda or Friendship Heights to the Glen Echo stop. Confirm the current timetable and return trip because evening events often continue after daytime service patterns change.",
+          "sourceLabel": "National Park Service",
+          "source": "https://www.nps.gov/glec/planyourvisit/index.htm",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "need-to-know",
+          "question": "What should I know before visiting Glen Echo Park?",
+          "answer": "Treat the park as a campus, not one attraction. Grounds may be open while the carousel, theater, gallery, dance, aquarium, or ranger service is closed; check the exact partner calendar and weather before leaving.",
+          "sourceLabel": "National Park Service",
+          "source": "https://www.nps.gov/glec/planyourvisit/index.htm",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "food",
+          "question": "Should I bring food and water to Glen Echo Park?",
+          "answer": "Bring water and a backup snack unless a currently open concession is confirmed near the exact destination. Food availability, vending, and event vendors are not consistent across this large public place.",
+          "sourceLabel": "National Park Service",
+          "source": "https://www.nps.gov/glec/planyourvisit/index.htm",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        }
+      ],
+      "image": {
+        "slug": "dentzel-carousel",
+        "url": "/assets/parks/washington-dc-super/glen-echo/glen-echo-park/dentzel-carousel.webp",
+        "source": "https://www.nps.gov/glec/index.htm",
+        "author": "NPS / Bruce Douglas",
+        "license": "Official federal photograph; source attribution retained",
+        "alt": "Glen Echo Park in Glen Echo, MD",
+        "latitude": 38.9669058,
+        "longitude": -77.1394511,
+        "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
+      },
+      "additionalImages": [
+        {
+          "slug": "bumper-car-pavilion",
+          "url": "/assets/parks/washington-dc-super/glen-echo/glen-echo-park/bumper-car-pavilion.webp",
+          "source": "https://www.nps.gov/glec/index.htm",
+          "author": "NPS / Bruce Douglas",
+          "license": "Official federal photograph; source attribution retained",
+          "alt": "Glen Echo Park in Glen Echo, MD",
+          "latitude": 38.9669058,
+          "longitude": -77.1394511,
+          "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
+        },
+        {
+          "slug": "picnic-grove",
+          "url": "/assets/parks/washington-dc-super/glen-echo/glen-echo-park/picnic-grove.webp",
+          "source": "https://www.nps.gov/glec/index.htm",
+          "author": "NPS / Bruce Douglas",
+          "license": "Official federal photograph; source attribution retained",
+          "alt": "Glen Echo Park in Glen Echo, MD",
+          "latitude": 38.9669058,
+          "longitude": -77.1394511,
+          "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
+        },
+        {
+          "slug": "spanish-ballroom",
+          "url": "/assets/parks/washington-dc-super/glen-echo/glen-echo-park/spanish-ballroom.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Jive_Aces_at_Glen_Echo.jpg",
+          "author": "Sdkb",
+          "license": "CC BY-SA 4.0",
+          "alt": "Glen Echo Park in Glen Echo, MD",
+          "latitude": 38.9669058,
+          "longitude": -77.1394511,
+          "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
+        }
+      ],
+      "verifiedAt": "2026-08-10"
+    },
+    "launch-va-alexandria-huntley-meadows-park": {
+      "operator": "Fairfax County Park Authority",
+      "sourceLabel": "Fairfax County Park Authority",
+      "source": "https://www.fairfaxcounty.gov/parks/huntley-meadows",
+      "address": "3701 Lockheed Boulevard, Alexandria, VA 22306",
+      "summary": "A 1,500-acre wildlife sanctuary of forest, meadow, and restored wetland, centered on a half-mile raised boardwalk, observation platform, naturalist-led programs, visitor center, and a separate paved hike-bike entrance.",
+      "hours": "Trails and natural areas are daylight destinations. The Norma Hoffman Visitor Center currently opens 9 a.m.-5 p.m. on weekdays except Tuesday; weekend hours are seasonal, including 9 a.m.-1 p.m. through August 30 and noon-5 p.m. during spring and fall periods. Check holidays and current alerts.",
+      "hoursSchedule": null,
+      "cost": "Individual and family admission is free. Organized groups of 12-60 currently pay $30, with $1 for each additional person over 60; programs, shelters, commercial photography, rentals, and special activities may charge separately.",
+      "accessibility": "Fairfax County lists a measured accessible stonedust route from accessible parking toward the boardwalk. The boardwalk is narrow, wetland conditions vary, and visitors needing a specific accommodation should contact the park in advance.",
+      "transit": "Local bus service reaches parts of the surrounding Lockheed Boulevard and South Kings Highway area, but the final walk and return schedule vary. Map the exact entrance rather than navigating to the preserve's geographic center.",
+      "searchAnswers": [
+        {
+          "intentKey": "hours",
+          "question": "When is Huntley Meadows Park open?",
+          "answer": "Trails and natural areas are daylight destinations. The Norma Hoffman Visitor Center currently opens 9 a.m.-5 p.m. on weekdays except Tuesday; weekend hours are seasonal, including 9 a.m.-1 p.m. through August 30 and noon-5 p.m. during spring and fall periods. Check holidays and current alerts.",
+          "sourceLabel": "Fairfax County Park Authority",
+          "source": "https://www.fairfaxcounty.gov/parks/huntley-meadows",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "parking",
+          "question": "Where should I park for Huntley Meadows Park?",
+          "answer": "The main Lockheed Boulevard lot is the correct choice for the boardwalk and Visitor Center. A small lot at 6901 South Kings Highway serves only the hike-bike trail; do not expect it to provide a short boardwalk approach.",
+          "sourceLabel": "Fairfax County Park Authority",
+          "source": "https://www.fairfaxcounty.gov/parks/huntley-meadows",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "entrance",
+          "question": "What is the best entrance for Huntley Meadows Park?",
+          "answer": "Use 3701 Lockheed Boulevard for the main parking lot, Visitor Center, restrooms, Cedar Trail, wetland boardwalk, and naturalist help. The separate 6901 South Kings Highway entrance serves a one-mile paved hike-bike trail but has no facilities.",
+          "sourceLabel": "Fairfax County Park Authority",
+          "source": "https://www.fairfaxcounty.gov/parks/huntley-meadows",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Are there restrooms at Huntley Meadows Park?",
+          "answer": "Restrooms, exhibits, and staff assistance are available at the main Visitor Center during its operating hours. There are no facilities at the South Kings Highway entrance or on the wetland boardwalk.",
+          "sourceLabel": "Fairfax County Park Authority",
+          "source": "https://www.fairfaxcounty.gov/parks/huntley-meadows",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "fees",
+          "question": "Is Huntley Meadows Park free?",
+          "answer": "Individual and family admission is free. Organized groups of 12-60 currently pay $30, with $1 for each additional person over 60; programs, shelters, commercial photography, rentals, and special activities may charge separately.",
+          "sourceLabel": "Fairfax County Park Authority",
+          "source": "https://www.fairfaxcounty.gov/parks/huntley-meadows",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "accessibility",
+          "question": "How accessible is Huntley Meadows Park?",
+          "answer": "Fairfax County lists a measured accessible stonedust route from accessible parking toward the boardwalk. The boardwalk is narrow, wetland conditions vary, and visitors needing a specific accommodation should contact the park in advance.",
+          "sourceLabel": "Fairfax County Park Authority",
+          "source": "https://www.fairfaxcounty.gov/parks/huntley-meadows",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "dogs",
+          "question": "Are dogs allowed at Huntley Meadows Park?",
+          "answer": "Pets are prohibited on the Restoration and Heron Trails, including the wetland boardwalk. Leashed pets are allowed on other designated park trails, including the separate South Kings Highway hike-bike route.",
+          "sourceLabel": "Fairfax County Park Authority",
+          "source": "https://www.fairfaxcounty.gov/parks/huntley-meadows",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "family",
+          "question": "Is Huntley Meadows Park good for children?",
+          "answer": "The Visitor Center, short forest approach, wildlife, boardwalk, frogs, beavers, dragonflies, deer, and more than 200 recorded bird species make this a strong quiet-nature outing. Children must walk rather than run on the narrow boardwalk.",
+          "sourceLabel": "Fairfax County Park Authority",
+          "source": "https://www.fairfaxcounty.gov/parks/huntley-meadows",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "transit",
+          "question": "How do I reach Huntley Meadows Park without a car?",
+          "answer": "Local bus service reaches parts of the surrounding Lockheed Boulevard and South Kings Highway area, but the final walk and return schedule vary. Map the exact entrance rather than navigating to the preserve's geographic center.",
+          "sourceLabel": "Fairfax County Park Authority",
+          "source": "https://www.fairfaxcounty.gov/parks/huntley-meadows",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "need-to-know",
+          "question": "What should I know before visiting Huntley Meadows Park?",
+          "answer": "This is a wildlife sanctuary, not an active-recreation park. Walk slowly, stay on marked routes, do not run or jog on the boardwalk, do not fish or use nets, keep wheels at the main entrance, and carry out everything brought in.",
+          "sourceLabel": "Fairfax County Park Authority",
+          "source": "https://www.fairfaxcounty.gov/parks/huntley-meadows",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "food",
+          "question": "Should I bring food and water to Huntley Meadows Park?",
+          "answer": "Bring water and a backup snack unless a currently open concession is confirmed near the exact destination. Food availability, vending, and event vendors are not consistent across this large public place.",
+          "sourceLabel": "Fairfax County Park Authority",
+          "source": "https://www.fairfaxcounty.gov/parks/huntley-meadows",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        }
+      ],
+      "image": {
+        "slug": "huntley-visitor-center",
+        "url": "/assets/parks/washington-dc-super/alexandria/huntley-meadows-park/huntley-visitor-center.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Visitor_Center%2C_Huntley_Meadows_Park.jpg",
+        "author": "Ser Amantio di Nicolao",
+        "license": "CC BY-SA 4.0",
+        "alt": "Huntley Meadows Park in Alexandria, VA",
+        "latitude": 38.7525834,
+        "longitude": -77.1075177,
+        "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
+      },
+      "additionalImages": [
+        {
+          "slug": "heron-trail-boardwalk",
+          "url": "/assets/parks/washington-dc-super/alexandria/huntley-meadows-park/heron-trail-boardwalk.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Sunny_boardwalk%2C_Huntley_Meadows_Park.jpg",
+          "author": "Ser Amantio di Nicolao",
+          "license": "CC BY-SA 4.0",
+          "alt": "Huntley Meadows Park in Alexandria, VA",
+          "latitude": 38.7525834,
+          "longitude": -77.1075177,
+          "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
+        },
+        {
+          "slug": "huntley-wetland",
+          "url": "/assets/parks/washington-dc-super/alexandria/huntley-meadows-park/huntley-wetland.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Wetlands_from_boardwalk%2C_Huntley_Meadows_Park.jpg",
+          "author": "Ser Amantio di Nicolao",
+          "license": "CC BY-SA 4.0",
+          "alt": "Huntley Meadows Park in Alexandria, VA",
+          "latitude": 38.7525834,
+          "longitude": -77.1075177,
+          "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
+        },
+        {
+          "slug": "wetland-viewing-area",
+          "url": "/assets/parks/washington-dc-super/alexandria/huntley-meadows-park/wetland-viewing-area.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Boardwalk_through_viewing_area%2C_Huntley_Meadows_Park.jpg",
+          "author": "Ser Amantio di Nicolao",
+          "license": "CC BY-SA 4.0",
+          "alt": "Huntley Meadows Park in Alexandria, VA",
+          "latitude": 38.7525834,
+          "longitude": -77.1075177,
+          "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
+        }
+      ],
+      "verifiedAt": "2026-08-10"
+    },
+    "launch-md-potomac-great-falls-tavern-olmsted-island": {
+      "operator": "National Park Service",
+      "sourceLabel": "National Park Service",
+      "source": "https://www.nps.gov/choh/planyourvisit/great-falls-things-to-do.htm",
+      "address": "11710 MacArthur Boulevard, Potomac, MD 20854",
+      "summary": "The Maryland side of Great Falls combines a historic canal tavern and locks, an accessible Olmsted Island boardwalk to the falls, the C&O Canal towpath, strenuous Billy Goat Trail, seasonal launch-boat rides, ranger programs, and Potomac Gorge scenery.",
+      "hours": "Outdoor trails and the towpath are daylight destinations subject to river, flood, weather, and maintenance closures. Great Falls Tavern Visitor Center is currently open Wednesday-Sunday 9 a.m.-4 p.m. and closed Monday, Tuesday, Thanksgiving, Christmas Eve, Christmas Day, and New Year's Day.",
+      "hoursSchedule": null,
+      "cost": "The Great Falls Tavern area is the C&O Canal park's fee area. Current standard passes cost $10-$20 by entry type and the annual Great Falls pass is $35; the site is cashless. Seasonal launch-boat tickets are free but limited and first-come.",
+      "accessibility": "Great Falls Tavern and its restrooms are wheelchair accessible, wheelchairs may be available, and the 0.25-mile Olmsted Island boardwalk is described as ADA accessible. Billy Goat Trail A is strenuous scrambling and is not an accessible route.",
+      "transit": "There is no practical direct public transit to the Great Falls Tavern entrance. Rideshare pickup and cellular service can be unreliable; arrange the return before arriving.",
+      "searchAnswers": [
+        {
+          "intentKey": "hours",
+          "question": "When is Great Falls Tavern & Olmsted Island open?",
+          "answer": "Outdoor trails and the towpath are daylight destinations subject to river, flood, weather, and maintenance closures. Great Falls Tavern Visitor Center is currently open Wednesday-Sunday 9 a.m.-4 p.m. and closed Monday, Tuesday, Thanksgiving, Christmas Eve, Christmas Day, and New Year's Day.",
+          "sourceLabel": "National Park Service",
+          "source": "https://www.nps.gov/choh/planyourvisit/great-falls-things-to-do.htm",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "parking",
+          "question": "Where should I park for Great Falls Tavern & Olmsted Island?",
+          "answer": "Use the entrance-station parking at Great Falls Tavern. The lot fills on pleasant weekends and during high-water viewing; arrive near opening, and never park on MacArthur Boulevard or block emergency access.",
+          "sourceLabel": "National Park Service",
+          "source": "https://www.nps.gov/choh/planyourvisit/great-falls-things-to-do.htm",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "entrance",
+          "question": "What is the best entrance for Great Falls Tavern & Olmsted Island?",
+          "answer": "Navigate to 11710 MacArthur Boulevard in Potomac for the Maryland entrance. Do not follow directions to 9200 Old Dominion Drive, which is the separate Virginia Great Falls Park entrance across the river.",
+          "sourceLabel": "National Park Service",
+          "source": "https://www.nps.gov/choh/planyourvisit/great-falls-things-to-do.htm",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Are there restrooms at Great Falls Tavern & Olmsted Island?",
+          "answer": "Accessible restrooms, drinking water, maps, and ranger assistance are available at the Tavern visitor complex during posted facility hours. There are no trash cans along the overlook boardwalk or trails, so pack everything out.",
+          "sourceLabel": "National Park Service",
+          "source": "https://www.nps.gov/choh/planyourvisit/great-falls-things-to-do.htm",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "fees",
+          "question": "Is Great Falls Tavern & Olmsted Island free?",
+          "answer": "The Great Falls Tavern area is the C&O Canal park's fee area. Current standard passes cost $10-$20 by entry type and the annual Great Falls pass is $35; the site is cashless. Seasonal launch-boat tickets are free but limited and first-come.",
+          "sourceLabel": "National Park Service",
+          "source": "https://www.nps.gov/choh/planyourvisit/great-falls-things-to-do.htm",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "accessibility",
+          "question": "How accessible is Great Falls Tavern & Olmsted Island?",
+          "answer": "Great Falls Tavern and its restrooms are wheelchair accessible, wheelchairs may be available, and the 0.25-mile Olmsted Island boardwalk is described as ADA accessible. Billy Goat Trail A is strenuous scrambling and is not an accessible route.",
+          "sourceLabel": "National Park Service",
+          "source": "https://www.nps.gov/choh/planyourvisit/great-falls-things-to-do.htm",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "dogs",
+          "question": "Are dogs allowed at Great Falls Tavern & Olmsted Island?",
+          "answer": "Leashed pets are allowed on much of the towpath but are prohibited on Olmsted Island, the Great Falls boardwalk and overlook, Billy Goat Trail Section A, and inside park buildings. Carried pets do not bypass those restrictions.",
+          "sourceLabel": "National Park Service",
+          "source": "https://www.nps.gov/choh/planyourvisit/great-falls-things-to-do.htm",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "family",
+          "question": "Is Great Falls Tavern & Olmsted Island good for children?",
+          "answer": "The Tavern, canal locks, towpath, Junior Ranger materials, and Olmsted overlook work well for many families. Billy Goat A requires rock scrambling beside cliffs and fast water and should only be chosen for capable, closely supervised hikers.",
+          "sourceLabel": "National Park Service",
+          "source": "https://www.nps.gov/choh/planyourvisit/great-falls-things-to-do.htm",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "transit",
+          "question": "How do I reach Great Falls Tavern & Olmsted Island without a car?",
+          "answer": "There is no practical direct public transit to the Great Falls Tavern entrance. Rideshare pickup and cellular service can be unreliable; arrange the return before arriving.",
+          "sourceLabel": "National Park Service",
+          "source": "https://www.nps.gov/choh/planyourvisit/great-falls-things-to-do.htm",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "need-to-know",
+          "question": "What should I know before visiting Great Falls Tavern & Olmsted Island?",
+          "answer": "Section A of Billy Goat Trail frequently closes when the Potomac rises. Check the current conditions page on the visit day, stay out of the river, remain on the Olmsted boardwalk, carry water, and download the official map before losing service.",
+          "sourceLabel": "National Park Service",
+          "source": "https://www.nps.gov/choh/planyourvisit/great-falls-things-to-do.htm",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "food",
+          "question": "Should I bring food and water to Great Falls Tavern & Olmsted Island?",
+          "answer": "Bring water and a backup snack unless a currently open concession is confirmed near the exact destination. Food availability, vending, and event vendors are not consistent across this large public place.",
+          "sourceLabel": "National Park Service",
+          "source": "https://www.nps.gov/choh/planyourvisit/great-falls-things-to-do.htm",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        }
+      ],
+      "image": {
+        "slug": "great-falls-tavern",
+        "url": "/assets/parks/washington-dc-super/potomac/great-falls-tavern-and-olmsted-island/great-falls-tavern.webp",
+        "source": "https://www.nps.gov/choh/planyourvisit/greatfallstavernvisitorcenter.htm",
+        "author": "National Park Service",
+        "license": "Official federal photograph; source attribution retained",
+        "alt": "Great Falls Tavern & Olmsted Island in Potomac, MD",
+        "latitude": 39.0002043,
+        "longitude": -77.2481581,
+        "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
+      },
+      "additionalImages": [
+        {
+          "slug": "olmsted-overlook",
+          "url": "/assets/parks/washington-dc-super/potomac/great-falls-tavern-and-olmsted-island/olmsted-overlook.webp",
+          "source": "https://home.nps.gov/choh/planyourvisit/great-falls-overlook.htm",
+          "author": "National Park Service",
+          "license": "Official federal photograph; source attribution retained",
+          "alt": "Great Falls Tavern & Olmsted Island in Potomac, MD",
+          "latitude": 39.0002043,
+          "longitude": -77.2481581,
+          "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
+        },
+        {
+          "slug": "great-falls-launch-boat",
+          "url": "/assets/parks/washington-dc-super/potomac/great-falls-tavern-and-olmsted-island/great-falls-launch-boat.webp",
+          "source": "https://www.nps.gov/choh/planyourvisit/great-falls-canal-boat-rides.htm",
+          "author": "National Park Service",
+          "license": "Official federal photograph; source attribution retained",
+          "alt": "Great Falls Tavern & Olmsted Island in Potomac, MD",
+          "latitude": 39.0002043,
+          "longitude": -77.2481581,
+          "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
+        },
+        {
+          "slug": "billy-goat-trail-a",
+          "url": "/assets/parks/washington-dc-super/potomac/great-falls-tavern-and-olmsted-island/billy-goat-trail-a.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Billy_Goat_Trail_Cliff_(from_above).jpg",
+          "author": "GeneralPoxter",
+          "license": "CC BY-SA 4.0",
+          "alt": "Great Falls Tavern & Olmsted Island in Potomac, MD",
+          "latitude": 39.0002043,
+          "longitude": -77.2481581,
+          "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
+        }
+      ],
+      "verifiedAt": "2026-08-10"
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T08:58:20.069Z",
+  "generatedAt": "2026-08-10T09:32:30.502Z",
   "policy": {
     "publication": "AI findings remain proposed until a human accepts the fact and its sources.",
     "prioritization": "Daily-use and safety-sensitive gaps rank above descriptive content.",
@@ -7,10 +7,10 @@
     "partialAnswers": "Useful but incomplete answers remain visible and stay queued until verified."
   },
   "summary": {
-    "places": 901,
+    "places": 904,
     "averageCoverageScore": 55,
-    "openTasks": 5919,
-    "urgentTasks": 951
+    "openTasks": 5943,
+    "urgentTasks": 954
   },
   "coverage": [
     {
@@ -6316,6 +6316,27 @@
     {
       "placeId": "launch-va-mclean-great-falls-park",
       "placeName": "Great Falls Park",
+      "expectedIntentCount": 14,
+      "coveredIntentCount": 6,
+      "coverageScore": 48
+    },
+    {
+      "placeId": "launch-md-glen-echo-glen-echo-park",
+      "placeName": "Glen Echo Park",
+      "expectedIntentCount": 14,
+      "coveredIntentCount": 6,
+      "coverageScore": 48
+    },
+    {
+      "placeId": "launch-md-potomac-great-falls-tavern-olmsted-island",
+      "placeName": "Great Falls Tavern & Olmsted Island",
+      "expectedIntentCount": 14,
+      "coveredIntentCount": 6,
+      "coverageScore": 48
+    },
+    {
+      "placeId": "launch-va-alexandria-huntley-meadows-park",
+      "placeName": "Huntley Meadows Park",
       "expectedIntentCount": 14,
       "coveredIntentCount": 6,
       "coverageScore": 48
@@ -24444,6 +24465,46 @@
       "placeCoverageScore": 48
     },
     {
+      "id": "launch-md-glen-echo-glen-echo-park:closures",
+      "placeId": "launch-md-glen-echo-glen-echo-park",
+      "placeName": "Glen Echo Park",
+      "placeType": "Park",
+      "city": "Glen Echo",
+      "state": "MD",
+      "intentKey": "closures",
+      "intentLabel": "Closures and availability",
+      "question": "Is anything at Glen Echo Park closed, seasonal, or temporarily unavailable?",
+      "reason": "No current, source-backed closures and availability answer is cataloged.",
+      "action": "research",
+      "priority": 96,
+      "freshnessDays": 3,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/glec/planyourvisit/index.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/glec/planyourvisit/hours.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/glec/index.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://home.nps.gov/glec/planyourvisit/playground-and-picnic-area.htm",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
       "id": "launch-ca-los-angeles-gloria-molina-grand-park:closures",
       "placeId": "launch-ca-los-angeles-gloria-molina-grand-park",
       "placeName": "Gloria Molina Grand Park",
@@ -24757,6 +24818,46 @@
         {
           "label": "National Park Service",
           "url": "https://home.nps.gov/grfa/planyourvisit/hours.htm",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
+      "id": "launch-md-potomac-great-falls-tavern-olmsted-island:closures",
+      "placeId": "launch-md-potomac-great-falls-tavern-olmsted-island",
+      "placeName": "Great Falls Tavern & Olmsted Island",
+      "placeType": "Park",
+      "city": "Potomac",
+      "state": "MD",
+      "intentKey": "closures",
+      "intentLabel": "Closures and availability",
+      "question": "Is anything at Great Falls Tavern & Olmsted Island closed, seasonal, or temporarily unavailable?",
+      "reason": "No current, source-backed closures and availability answer is cataloged.",
+      "action": "research",
+      "priority": 96,
+      "freshnessDays": 3,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/choh/planyourvisit/great-falls-things-to-do.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/choh/planyourvisit/greatfallstavernvisitorcenter.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://home.nps.gov/choh/planyourvisit/great-falls-overlook.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/choh/planyourvisit/great-falls-canal-boat-rides.htm",
           "sourceType": "official"
         }
       ],
@@ -25247,6 +25348,41 @@
         {
           "label": "Hudson River Park Trust",
           "url": "https://hudsonriverpark.org/visit/plan-your-visit/",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
+      "id": "launch-va-alexandria-huntley-meadows-park:closures",
+      "placeId": "launch-va-alexandria-huntley-meadows-park",
+      "placeName": "Huntley Meadows Park",
+      "placeType": "Park",
+      "city": "Alexandria",
+      "state": "VA",
+      "intentKey": "closures",
+      "intentLabel": "Closures and availability",
+      "question": "Is anything at Huntley Meadows Park closed, seasonal, or temporarily unavailable?",
+      "reason": "No current, source-backed closures and availability answer is cataloged.",
+      "action": "research",
+      "priority": 96,
+      "freshnessDays": 3,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Fairfax County Park Authority",
+          "url": "https://www.fairfaxcounty.gov/parks/huntley-meadows",
+          "sourceType": "official"
+        },
+        {
+          "label": "Fairfax County Park Authority",
+          "url": "https://www.fairfaxcounty.gov/parks/huntley-meadows/hours",
+          "sourceType": "official"
+        },
+        {
+          "label": "Fairfax County Park Authority",
+          "url": "https://www.fairfaxcounty.gov/parks/huntley-meadows/on-your-own",
           "sourceType": "official"
         }
       ],
@@ -61010,6 +61146,46 @@
       "placeCoverageScore": 48
     },
     {
+      "id": "launch-md-glen-echo-glen-echo-park:trail-surface",
+      "placeId": "launch-md-glen-echo-glen-echo-park",
+      "placeName": "Glen Echo Park",
+      "placeType": "Park",
+      "city": "Glen Echo",
+      "state": "MD",
+      "intentKey": "trail-surface",
+      "intentLabel": "Walking surfaces and terrain",
+      "question": "What are the walking surfaces, slopes, and trail conditions at Glen Echo Park?",
+      "reason": "No current, source-backed walking surfaces and terrain answer is cataloged.",
+      "action": "research",
+      "priority": 80,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/glec/planyourvisit/index.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/glec/planyourvisit/hours.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/glec/index.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://home.nps.gov/glec/planyourvisit/playground-and-picnic-area.htm",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
       "id": "launch-ca-los-angeles-gloria-molina-grand-park:trail-surface",
       "placeId": "launch-ca-los-angeles-gloria-molina-grand-park",
       "placeName": "Gloria Molina Grand Park",
@@ -61323,6 +61499,46 @@
         {
           "label": "National Park Service",
           "url": "https://home.nps.gov/grfa/planyourvisit/hours.htm",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
+      "id": "launch-md-potomac-great-falls-tavern-olmsted-island:trail-surface",
+      "placeId": "launch-md-potomac-great-falls-tavern-olmsted-island",
+      "placeName": "Great Falls Tavern & Olmsted Island",
+      "placeType": "Park",
+      "city": "Potomac",
+      "state": "MD",
+      "intentKey": "trail-surface",
+      "intentLabel": "Walking surfaces and terrain",
+      "question": "What are the walking surfaces, slopes, and trail conditions at Great Falls Tavern & Olmsted Island?",
+      "reason": "No current, source-backed walking surfaces and terrain answer is cataloged.",
+      "action": "research",
+      "priority": 80,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/choh/planyourvisit/great-falls-things-to-do.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/choh/planyourvisit/greatfallstavernvisitorcenter.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://home.nps.gov/choh/planyourvisit/great-falls-overlook.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/choh/planyourvisit/great-falls-canal-boat-rides.htm",
           "sourceType": "official"
         }
       ],
@@ -61813,6 +62029,41 @@
         {
           "label": "Hudson River Park Trust",
           "url": "https://hudsonriverpark.org/visit/plan-your-visit/",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
+      "id": "launch-va-alexandria-huntley-meadows-park:trail-surface",
+      "placeId": "launch-va-alexandria-huntley-meadows-park",
+      "placeName": "Huntley Meadows Park",
+      "placeType": "Park",
+      "city": "Alexandria",
+      "state": "VA",
+      "intentKey": "trail-surface",
+      "intentLabel": "Walking surfaces and terrain",
+      "question": "What are the walking surfaces, slopes, and trail conditions at Huntley Meadows Park?",
+      "reason": "No current, source-backed walking surfaces and terrain answer is cataloged.",
+      "action": "research",
+      "priority": 80,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Fairfax County Park Authority",
+          "url": "https://www.fairfaxcounty.gov/parks/huntley-meadows",
+          "sourceType": "official"
+        },
+        {
+          "label": "Fairfax County Park Authority",
+          "url": "https://www.fairfaxcounty.gov/parks/huntley-meadows/hours",
+          "sourceType": "official"
+        },
+        {
+          "label": "Fairfax County Park Authority",
+          "url": "https://www.fairfaxcounty.gov/parks/huntley-meadows/on-your-own",
           "sourceType": "official"
         }
       ],
@@ -75859,6 +76110,46 @@
       "placeCoverageScore": 48
     },
     {
+      "id": "launch-md-glen-echo-glen-echo-park:playground",
+      "placeId": "launch-md-glen-echo-glen-echo-park",
+      "placeName": "Glen Echo Park",
+      "placeType": "Park",
+      "city": "Glen Echo",
+      "state": "MD",
+      "intentKey": "playground",
+      "intentLabel": "Playgrounds",
+      "question": "What playgrounds are at Glen Echo Park, and what ages or abilities do they serve?",
+      "reason": "No current, source-backed playgrounds answer is cataloged.",
+      "action": "research",
+      "priority": 79,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/glec/planyourvisit/index.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/glec/planyourvisit/hours.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/glec/index.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://home.nps.gov/glec/planyourvisit/playground-and-picnic-area.htm",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
       "id": "launch-ca-los-angeles-gloria-molina-grand-park:playground",
       "placeId": "launch-ca-los-angeles-gloria-molina-grand-park",
       "placeName": "Gloria Molina Grand Park",
@@ -76172,6 +76463,46 @@
         {
           "label": "National Park Service",
           "url": "https://home.nps.gov/grfa/planyourvisit/hours.htm",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
+      "id": "launch-md-potomac-great-falls-tavern-olmsted-island:playground",
+      "placeId": "launch-md-potomac-great-falls-tavern-olmsted-island",
+      "placeName": "Great Falls Tavern & Olmsted Island",
+      "placeType": "Park",
+      "city": "Potomac",
+      "state": "MD",
+      "intentKey": "playground",
+      "intentLabel": "Playgrounds",
+      "question": "What playgrounds are at Great Falls Tavern & Olmsted Island, and what ages or abilities do they serve?",
+      "reason": "No current, source-backed playgrounds answer is cataloged.",
+      "action": "research",
+      "priority": 79,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/choh/planyourvisit/great-falls-things-to-do.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/choh/planyourvisit/greatfallstavernvisitorcenter.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://home.nps.gov/choh/planyourvisit/great-falls-overlook.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/choh/planyourvisit/great-falls-canal-boat-rides.htm",
           "sourceType": "official"
         }
       ],
@@ -76662,6 +76993,41 @@
         {
           "label": "Hudson River Park Trust",
           "url": "https://hudsonriverpark.org/visit/plan-your-visit/",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
+      "id": "launch-va-alexandria-huntley-meadows-park:playground",
+      "placeId": "launch-va-alexandria-huntley-meadows-park",
+      "placeName": "Huntley Meadows Park",
+      "placeType": "Park",
+      "city": "Alexandria",
+      "state": "VA",
+      "intentKey": "playground",
+      "intentLabel": "Playgrounds",
+      "question": "What playgrounds are at Huntley Meadows Park, and what ages or abilities do they serve?",
+      "reason": "No current, source-backed playgrounds answer is cataloged.",
+      "action": "research",
+      "priority": 79,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Fairfax County Park Authority",
+          "url": "https://www.fairfaxcounty.gov/parks/huntley-meadows",
+          "sourceType": "official"
+        },
+        {
+          "label": "Fairfax County Park Authority",
+          "url": "https://www.fairfaxcounty.gov/parks/huntley-meadows/hours",
+          "sourceType": "official"
+        },
+        {
+          "label": "Fairfax County Park Authority",
+          "url": "https://www.fairfaxcounty.gov/parks/huntley-meadows/on-your-own",
           "sourceType": "official"
         }
       ],
@@ -91003,6 +91369,46 @@
       "placeCoverageScore": 48
     },
     {
+      "id": "launch-md-glen-echo-glen-echo-park:splash-pad",
+      "placeId": "launch-md-glen-echo-glen-echo-park",
+      "placeName": "Glen Echo Park",
+      "placeType": "Park",
+      "city": "Glen Echo",
+      "state": "MD",
+      "intentKey": "splash-pad",
+      "intentLabel": "Water play",
+      "question": "Is there a splash pad or water play at Glen Echo Park, and when does it operate?",
+      "reason": "No current, source-backed water play answer is cataloged.",
+      "action": "research",
+      "priority": 78,
+      "freshnessDays": 14,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/glec/planyourvisit/index.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/glec/planyourvisit/hours.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/glec/index.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://home.nps.gov/glec/planyourvisit/playground-and-picnic-area.htm",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
       "id": "launch-ca-los-angeles-gloria-molina-grand-park:splash-pad",
       "placeId": "launch-ca-los-angeles-gloria-molina-grand-park",
       "placeName": "Gloria Molina Grand Park",
@@ -91316,6 +91722,46 @@
         {
           "label": "National Park Service",
           "url": "https://home.nps.gov/grfa/planyourvisit/hours.htm",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
+      "id": "launch-md-potomac-great-falls-tavern-olmsted-island:splash-pad",
+      "placeId": "launch-md-potomac-great-falls-tavern-olmsted-island",
+      "placeName": "Great Falls Tavern & Olmsted Island",
+      "placeType": "Park",
+      "city": "Potomac",
+      "state": "MD",
+      "intentKey": "splash-pad",
+      "intentLabel": "Water play",
+      "question": "Is there a splash pad or water play at Great Falls Tavern & Olmsted Island, and when does it operate?",
+      "reason": "No current, source-backed water play answer is cataloged.",
+      "action": "research",
+      "priority": 78,
+      "freshnessDays": 14,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/choh/planyourvisit/great-falls-things-to-do.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/choh/planyourvisit/greatfallstavernvisitorcenter.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://home.nps.gov/choh/planyourvisit/great-falls-overlook.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/choh/planyourvisit/great-falls-canal-boat-rides.htm",
           "sourceType": "official"
         }
       ],
@@ -91806,6 +92252,41 @@
         {
           "label": "Hudson River Park Trust",
           "url": "https://hudsonriverpark.org/visit/plan-your-visit/",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
+      "id": "launch-va-alexandria-huntley-meadows-park:splash-pad",
+      "placeId": "launch-va-alexandria-huntley-meadows-park",
+      "placeName": "Huntley Meadows Park",
+      "placeType": "Park",
+      "city": "Alexandria",
+      "state": "VA",
+      "intentKey": "splash-pad",
+      "intentLabel": "Water play",
+      "question": "Is there a splash pad or water play at Huntley Meadows Park, and when does it operate?",
+      "reason": "No current, source-backed water play answer is cataloged.",
+      "action": "research",
+      "priority": 78,
+      "freshnessDays": 14,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Fairfax County Park Authority",
+          "url": "https://www.fairfaxcounty.gov/parks/huntley-meadows",
+          "sourceType": "official"
+        },
+        {
+          "label": "Fairfax County Park Authority",
+          "url": "https://www.fairfaxcounty.gov/parks/huntley-meadows/hours",
+          "sourceType": "official"
+        },
+        {
+          "label": "Fairfax County Park Authority",
+          "url": "https://www.fairfaxcounty.gov/parks/huntley-meadows/on-your-own",
           "sourceType": "official"
         }
       ],
@@ -109262,6 +109743,46 @@
       "placeCoverageScore": 48
     },
     {
+      "id": "launch-md-glen-echo-glen-echo-park:dog-area",
+      "placeId": "launch-md-glen-echo-glen-echo-park",
+      "placeName": "Glen Echo Park",
+      "placeType": "Park",
+      "city": "Glen Echo",
+      "state": "MD",
+      "intentKey": "dog-area",
+      "intentLabel": "Dog areas and rules",
+      "question": "Where can dogs go at Glen Echo Park, and what rules apply?",
+      "reason": "No current, source-backed dog areas and rules answer is cataloged.",
+      "action": "research",
+      "priority": 72,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/glec/planyourvisit/index.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/glec/planyourvisit/hours.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/glec/index.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://home.nps.gov/glec/planyourvisit/playground-and-picnic-area.htm",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
       "id": "launch-ca-los-angeles-gloria-molina-grand-park:dog-area",
       "placeId": "launch-ca-los-angeles-gloria-molina-grand-park",
       "placeName": "Gloria Molina Grand Park",
@@ -109575,6 +110096,46 @@
         {
           "label": "National Park Service",
           "url": "https://home.nps.gov/grfa/planyourvisit/hours.htm",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
+      "id": "launch-md-potomac-great-falls-tavern-olmsted-island:dog-area",
+      "placeId": "launch-md-potomac-great-falls-tavern-olmsted-island",
+      "placeName": "Great Falls Tavern & Olmsted Island",
+      "placeType": "Park",
+      "city": "Potomac",
+      "state": "MD",
+      "intentKey": "dog-area",
+      "intentLabel": "Dog areas and rules",
+      "question": "Where can dogs go at Great Falls Tavern & Olmsted Island, and what rules apply?",
+      "reason": "No current, source-backed dog areas and rules answer is cataloged.",
+      "action": "research",
+      "priority": 72,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/choh/planyourvisit/great-falls-things-to-do.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/choh/planyourvisit/greatfallstavernvisitorcenter.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://home.nps.gov/choh/planyourvisit/great-falls-overlook.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/choh/planyourvisit/great-falls-canal-boat-rides.htm",
           "sourceType": "official"
         }
       ],
@@ -110065,6 +110626,41 @@
         {
           "label": "Hudson River Park Trust",
           "url": "https://hudsonriverpark.org/visit/plan-your-visit/",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
+      "id": "launch-va-alexandria-huntley-meadows-park:dog-area",
+      "placeId": "launch-va-alexandria-huntley-meadows-park",
+      "placeName": "Huntley Meadows Park",
+      "placeType": "Park",
+      "city": "Alexandria",
+      "state": "VA",
+      "intentKey": "dog-area",
+      "intentLabel": "Dog areas and rules",
+      "question": "Where can dogs go at Huntley Meadows Park, and what rules apply?",
+      "reason": "No current, source-backed dog areas and rules answer is cataloged.",
+      "action": "research",
+      "priority": 72,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Fairfax County Park Authority",
+          "url": "https://www.fairfaxcounty.gov/parks/huntley-meadows",
+          "sourceType": "official"
+        },
+        {
+          "label": "Fairfax County Park Authority",
+          "url": "https://www.fairfaxcounty.gov/parks/huntley-meadows/hours",
+          "sourceType": "official"
+        },
+        {
+          "label": "Fairfax County Park Authority",
+          "url": "https://www.fairfaxcounty.gov/parks/huntley-meadows/on-your-own",
           "sourceType": "official"
         }
       ],
@@ -124616,6 +125212,46 @@
       "placeCoverageScore": 48
     },
     {
+      "id": "launch-md-glen-echo-glen-echo-park:picnic",
+      "placeId": "launch-md-glen-echo-glen-echo-park",
+      "placeName": "Glen Echo Park",
+      "placeType": "Park",
+      "city": "Glen Echo",
+      "state": "MD",
+      "intentKey": "picnic",
+      "intentLabel": "Picnic areas",
+      "question": "Where are picnic areas at Glen Echo Park, and do any require reservations?",
+      "reason": "No current, source-backed picnic areas answer is cataloged.",
+      "action": "research",
+      "priority": 68,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/glec/planyourvisit/index.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/glec/planyourvisit/hours.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/glec/index.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://home.nps.gov/glec/planyourvisit/playground-and-picnic-area.htm",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
       "id": "launch-ca-los-angeles-gloria-molina-grand-park:picnic",
       "placeId": "launch-ca-los-angeles-gloria-molina-grand-park",
       "placeName": "Gloria Molina Grand Park",
@@ -124929,6 +125565,46 @@
         {
           "label": "National Park Service",
           "url": "https://home.nps.gov/grfa/planyourvisit/hours.htm",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
+      "id": "launch-md-potomac-great-falls-tavern-olmsted-island:picnic",
+      "placeId": "launch-md-potomac-great-falls-tavern-olmsted-island",
+      "placeName": "Great Falls Tavern & Olmsted Island",
+      "placeType": "Park",
+      "city": "Potomac",
+      "state": "MD",
+      "intentKey": "picnic",
+      "intentLabel": "Picnic areas",
+      "question": "Where are picnic areas at Great Falls Tavern & Olmsted Island, and do any require reservations?",
+      "reason": "No current, source-backed picnic areas answer is cataloged.",
+      "action": "research",
+      "priority": 68,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/choh/planyourvisit/great-falls-things-to-do.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/choh/planyourvisit/greatfallstavernvisitorcenter.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://home.nps.gov/choh/planyourvisit/great-falls-overlook.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/choh/planyourvisit/great-falls-canal-boat-rides.htm",
           "sourceType": "official"
         }
       ],
@@ -125419,6 +126095,41 @@
         {
           "label": "Hudson River Park Trust",
           "url": "https://hudsonriverpark.org/visit/plan-your-visit/",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
+      "id": "launch-va-alexandria-huntley-meadows-park:picnic",
+      "placeId": "launch-va-alexandria-huntley-meadows-park",
+      "placeName": "Huntley Meadows Park",
+      "placeType": "Park",
+      "city": "Alexandria",
+      "state": "VA",
+      "intentKey": "picnic",
+      "intentLabel": "Picnic areas",
+      "question": "Where are picnic areas at Huntley Meadows Park, and do any require reservations?",
+      "reason": "No current, source-backed picnic areas answer is cataloged.",
+      "action": "research",
+      "priority": 68,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Fairfax County Park Authority",
+          "url": "https://www.fairfaxcounty.gov/parks/huntley-meadows",
+          "sourceType": "official"
+        },
+        {
+          "label": "Fairfax County Park Authority",
+          "url": "https://www.fairfaxcounty.gov/parks/huntley-meadows/hours",
+          "sourceType": "official"
+        },
+        {
+          "label": "Fairfax County Park Authority",
+          "url": "https://www.fairfaxcounty.gov/parks/huntley-meadows/on-your-own",
           "sourceType": "official"
         }
       ],
@@ -139745,6 +140456,46 @@
       "placeCoverageScore": 48
     },
     {
+      "id": "launch-md-glen-echo-glen-echo-park:shade",
+      "placeId": "launch-md-glen-echo-glen-echo-park",
+      "placeName": "Glen Echo Park",
+      "placeType": "Park",
+      "city": "Glen Echo",
+      "state": "MD",
+      "intentKey": "shade",
+      "intentLabel": "Shade and weather comfort",
+      "question": "Where can visitors find shade or weather shelter at Glen Echo Park?",
+      "reason": "No current, source-backed shade and weather comfort answer is cataloged.",
+      "action": "research",
+      "priority": 64,
+      "freshnessDays": 180,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/glec/planyourvisit/index.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/glec/planyourvisit/hours.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/glec/index.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://home.nps.gov/glec/planyourvisit/playground-and-picnic-area.htm",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
       "id": "launch-ca-los-angeles-gloria-molina-grand-park:shade",
       "placeId": "launch-ca-los-angeles-gloria-molina-grand-park",
       "placeName": "Gloria Molina Grand Park",
@@ -140058,6 +140809,46 @@
         {
           "label": "National Park Service",
           "url": "https://home.nps.gov/grfa/planyourvisit/hours.htm",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
+      "id": "launch-md-potomac-great-falls-tavern-olmsted-island:shade",
+      "placeId": "launch-md-potomac-great-falls-tavern-olmsted-island",
+      "placeName": "Great Falls Tavern & Olmsted Island",
+      "placeType": "Park",
+      "city": "Potomac",
+      "state": "MD",
+      "intentKey": "shade",
+      "intentLabel": "Shade and weather comfort",
+      "question": "Where can visitors find shade or weather shelter at Great Falls Tavern & Olmsted Island?",
+      "reason": "No current, source-backed shade and weather comfort answer is cataloged.",
+      "action": "research",
+      "priority": 64,
+      "freshnessDays": 180,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/choh/planyourvisit/great-falls-things-to-do.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/choh/planyourvisit/greatfallstavernvisitorcenter.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://home.nps.gov/choh/planyourvisit/great-falls-overlook.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/choh/planyourvisit/great-falls-canal-boat-rides.htm",
           "sourceType": "official"
         }
       ],
@@ -140548,6 +141339,41 @@
         {
           "label": "Hudson River Park Trust",
           "url": "https://hudsonriverpark.org/visit/plan-your-visit/",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
+      "id": "launch-va-alexandria-huntley-meadows-park:shade",
+      "placeId": "launch-va-alexandria-huntley-meadows-park",
+      "placeName": "Huntley Meadows Park",
+      "placeType": "Park",
+      "city": "Alexandria",
+      "state": "VA",
+      "intentKey": "shade",
+      "intentLabel": "Shade and weather comfort",
+      "question": "Where can visitors find shade or weather shelter at Huntley Meadows Park?",
+      "reason": "No current, source-backed shade and weather comfort answer is cataloged.",
+      "action": "research",
+      "priority": 64,
+      "freshnessDays": 180,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Fairfax County Park Authority",
+          "url": "https://www.fairfaxcounty.gov/parks/huntley-meadows",
+          "sourceType": "official"
+        },
+        {
+          "label": "Fairfax County Park Authority",
+          "url": "https://www.fairfaxcounty.gov/parks/huntley-meadows/hours",
+          "sourceType": "official"
+        },
+        {
+          "label": "Fairfax County Park Authority",
+          "url": "https://www.fairfaxcounty.gov/parks/huntley-meadows/on-your-own",
           "sourceType": "official"
         }
       ],
@@ -157404,6 +158230,46 @@
       "placeCoverageScore": 48
     },
     {
+      "id": "launch-md-glen-echo-glen-echo-park:public-art",
+      "placeId": "launch-md-glen-echo-glen-echo-park",
+      "placeName": "Glen Echo Park",
+      "placeType": "Park",
+      "city": "Glen Echo",
+      "state": "MD",
+      "intentKey": "public-art",
+      "intentLabel": "Landmarks and public art",
+      "question": "Where are the landmarks or public art at Glen Echo Park, and how do visitors find them?",
+      "reason": "No current, source-backed landmarks and public art answer is cataloged.",
+      "action": "research",
+      "priority": 60,
+      "freshnessDays": 180,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/glec/planyourvisit/index.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/glec/planyourvisit/hours.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/glec/index.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://home.nps.gov/glec/planyourvisit/playground-and-picnic-area.htm",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
       "id": "launch-ca-los-angeles-gloria-molina-grand-park:public-art",
       "placeId": "launch-ca-los-angeles-gloria-molina-grand-park",
       "placeName": "Gloria Molina Grand Park",
@@ -157717,6 +158583,46 @@
         {
           "label": "National Park Service",
           "url": "https://home.nps.gov/grfa/planyourvisit/hours.htm",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
+      "id": "launch-md-potomac-great-falls-tavern-olmsted-island:public-art",
+      "placeId": "launch-md-potomac-great-falls-tavern-olmsted-island",
+      "placeName": "Great Falls Tavern & Olmsted Island",
+      "placeType": "Park",
+      "city": "Potomac",
+      "state": "MD",
+      "intentKey": "public-art",
+      "intentLabel": "Landmarks and public art",
+      "question": "Where are the landmarks or public art at Great Falls Tavern & Olmsted Island, and how do visitors find them?",
+      "reason": "No current, source-backed landmarks and public art answer is cataloged.",
+      "action": "research",
+      "priority": 60,
+      "freshnessDays": 180,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/choh/planyourvisit/great-falls-things-to-do.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/choh/planyourvisit/greatfallstavernvisitorcenter.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://home.nps.gov/choh/planyourvisit/great-falls-overlook.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service",
+          "url": "https://www.nps.gov/choh/planyourvisit/great-falls-canal-boat-rides.htm",
           "sourceType": "official"
         }
       ],
@@ -158207,6 +159113,41 @@
         {
           "label": "Hudson River Park Trust",
           "url": "https://hudsonriverpark.org/visit/plan-your-visit/",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 48
+    },
+    {
+      "id": "launch-va-alexandria-huntley-meadows-park:public-art",
+      "placeId": "launch-va-alexandria-huntley-meadows-park",
+      "placeName": "Huntley Meadows Park",
+      "placeType": "Park",
+      "city": "Alexandria",
+      "state": "VA",
+      "intentKey": "public-art",
+      "intentLabel": "Landmarks and public art",
+      "question": "Where are the landmarks or public art at Huntley Meadows Park, and how do visitors find them?",
+      "reason": "No current, source-backed landmarks and public art answer is cataloged.",
+      "action": "research",
+      "priority": 60,
+      "freshnessDays": 180,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Fairfax County Park Authority",
+          "url": "https://www.fairfaxcounty.gov/parks/huntley-meadows",
+          "sourceType": "official"
+        },
+        {
+          "label": "Fairfax County Park Authority",
+          "url": "https://www.fairfaxcounty.gov/parks/huntley-meadows/hours",
+          "sourceType": "official"
+        },
+        {
+          "label": "Fairfax County Park Authority",
+          "url": "https://www.fairfaxcounty.gov/parks/huntley-meadows/on-your-own",
           "sourceType": "official"
         }
       ],

@@ -14,6 +14,7 @@ const featureImages = fs.existsSync(featureImagesPath)
   : {};
 const allDaySchedule = Object.fromEntries(["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"].map((day) => [day, [["00:00", "24:00"]]]));
 const dailySchedule = (open, close) => Object.fromEntries(["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"].map((day) => [day, [[open, close]]]));
+const splitDailySchedule = (periods) => Object.fromEntries(["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"].map((day) => [day, periods]));
 
 function slugify(value) {
   return String(value).toLowerCase().replace(/&/g, " and ").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
@@ -64,6 +65,9 @@ const arboretum = "https://usna.usda.gov/visit/hours-and-directions/";
 const eastPotomac = "https://www.nps.gov/places/000/east-potomac-park-hains-point.htm";
 const gravellyPoint = "https://home.nps.gov/places/000/gravelly-point.htm";
 const greatFalls = "https://www.nps.gov/grfa/planyourvisit/index.htm";
+const glenEcho = "https://www.nps.gov/glec/planyourvisit/index.htm";
+const greatFallsMaryland = "https://www.nps.gov/choh/planyourvisit/great-falls-things-to-do.htm";
+const huntleyMeadows = "https://www.fairfaxcounty.gov/parks/huntley-meadows";
 
 const parks = [
   {
@@ -328,6 +332,106 @@ parks.push(
       licensedCommonsPhoto("great-falls-visitor-center", "GrearFallsVisitorCenter.JPG", "Jyothis", "CC BY-SA 3.0"),
     ],
   },
+  {
+    id: "launch-md-glen-echo-glen-echo-park",
+    name: "Glen Echo Park",
+    city: "Glen Echo",
+    state: "MD",
+    citySlug: "glen-echo",
+    assetCitySlug: "glen-echo",
+    region: "Mid-Atlantic",
+    lat: 38.9669058,
+    lon: -77.1394511,
+    address: "7300 MacArthur Boulevard, Glen Echo, MD 20812",
+    source: glenEcho,
+    sourceLabel: "National Park Service",
+    operator: "National Park Service and Glen Echo Park Partnership for Arts and Culture",
+    tier: "anchor",
+    hoursSchedule: splitDailySchedule([["00:00", "01:00"], ["06:00", "24:00"]]),
+    summary: "A former amusement park transformed into a year-round public arts and culture campus, with a historic carousel, social dancing, theaters, studios, galleries, playground, picnic grove, civil-rights history, and family programs.",
+    hours: "The outdoor grounds are open daily from 6 a.m. until 1 a.m. the next day. The carousel, dances, theaters, galleries, studios, aquarium, ranger station, and events keep separate schedules; the park is closed Thanksgiving and Christmas Day.",
+    cost: "Grounds, main visitor parking, playground, picnic grove, and many ranger programs are free. Carousel rides, performances, classes, dances, aquarium admission, rentals, and special events may charge separately.",
+    arrival: "Use 5801 Oxford Road for the free main visitor lot, then cross the Minnehaha Creek footbridge. The 7300 MacArthur Boulevard street address can route drivers toward the permit-only upper lot instead.",
+    parking: "The main public lot off Oxford Road is free and includes lawn overflow unless posted otherwise. The upper MacArthur Boulevard lot is generally permit-only during the day; no overnight parking is allowed.",
+    restrooms: "Accessible public restrooms are available in several park buildings. The red-brick Arcade building beside the carousel has year-round restrooms, including non-gendered and family facilities on its second floor.",
+    accessibility: "Accessible spaces are available in the main and upper lots, and NPS describes the park as wheelchair- and walker-accessible from both. Historic buildings, slopes, older surfaces, crowds, and individual performances still need destination-specific planning.",
+    dogs: "Leashed pets are allowed in outdoor park and picnic areas on a physical leash no longer than six feet. Buildings, performances, classes, crowded events, and partner attractions may restrict pets; service animals follow applicable access rules.",
+    family: "The carousel, playground, shaded picnic grove, children's theaters, aquarium, studios, Junior Ranger activities, and open historic campus make this a strong family destination. Confirm the chosen attraction's ticket and schedule before promising it.",
+    transit: "Montgomery County Ride On Route 29 connects from Bethesda or Friendship Heights to the Glen Echo stop. Confirm the current timetable and return trip because evening events often continue after daytime service patterns change.",
+    need: "Treat the park as a campus, not one attraction. Grounds may be open while the carousel, theater, gallery, dance, aquarium, or ranger service is closed; check the exact partner calendar and weather before leaving.",
+    photos: [
+      photo("dentzel-carousel", "https://www.nps.gov/common/uploads/structured_data/3C848FDE-1DD8-B71B-0BE1393F7AFBC3D4.jpg", "https://www.nps.gov/glec/index.htm", "NPS / Bruce Douglas", "Official federal photograph; source attribution retained"),
+      photo("bumper-car-pavilion", "https://www.nps.gov/common/uploads/structured_data/3C848E7B-1DD8-B71B-0BBAA0366FDA5B58.jpg", "https://www.nps.gov/glec/index.htm", "NPS / Bruce Douglas", "Official federal photograph; source attribution retained"),
+      photo("picnic-grove", "https://www.nps.gov/common/uploads/structured_data/3C84917B-1DD8-B71B-0B9EAFE7DD8C3A13.jpg", "https://www.nps.gov/glec/index.htm", "NPS / Bruce Douglas", "Official federal photograph; source attribution retained"),
+      licensedCommonsPhoto("spanish-ballroom", "Jive Aces at Glen Echo.jpg", "Sdkb", "CC BY-SA 4.0"),
+    ],
+  },
+  {
+    id: "launch-md-potomac-great-falls-tavern-olmsted-island",
+    name: "Great Falls Tavern & Olmsted Island",
+    city: "Potomac",
+    state: "MD",
+    citySlug: "potomac",
+    assetCitySlug: "potomac",
+    region: "Mid-Atlantic",
+    lat: 39.0002043,
+    lon: -77.2481581,
+    address: "11710 MacArthur Boulevard, Potomac, MD 20854",
+    source: greatFallsMaryland,
+    sourceLabel: "National Park Service",
+    operator: "National Park Service",
+    tier: "anchor",
+    summary: "The Maryland side of Great Falls combines a historic canal tavern and locks, an accessible Olmsted Island boardwalk to the falls, the C&O Canal towpath, strenuous Billy Goat Trail, seasonal launch-boat rides, ranger programs, and Potomac Gorge scenery.",
+    hours: "Outdoor trails and the towpath are daylight destinations subject to river, flood, weather, and maintenance closures. Great Falls Tavern Visitor Center is currently open Wednesday-Sunday 9 a.m.-4 p.m. and closed Monday, Tuesday, Thanksgiving, Christmas Eve, Christmas Day, and New Year's Day.",
+    cost: "The Great Falls Tavern area is the C&O Canal park's fee area. Current standard passes cost $10-$20 by entry type and the annual Great Falls pass is $35; the site is cashless. Seasonal launch-boat tickets are free but limited and first-come.",
+    arrival: "Navigate to 11710 MacArthur Boulevard in Potomac for the Maryland entrance. Do not follow directions to 9200 Old Dominion Drive, which is the separate Virginia Great Falls Park entrance across the river.",
+    parking: "Use the entrance-station parking at Great Falls Tavern. The lot fills on pleasant weekends and during high-water viewing; arrive near opening, and never park on MacArthur Boulevard or block emergency access.",
+    restrooms: "Accessible restrooms, drinking water, maps, and ranger assistance are available at the Tavern visitor complex during posted facility hours. There are no trash cans along the overlook boardwalk or trails, so pack everything out.",
+    accessibility: "Great Falls Tavern and its restrooms are wheelchair accessible, wheelchairs may be available, and the 0.25-mile Olmsted Island boardwalk is described as ADA accessible. Billy Goat Trail A is strenuous scrambling and is not an accessible route.",
+    dogs: "Leashed pets are allowed on much of the towpath but are prohibited on Olmsted Island, the Great Falls boardwalk and overlook, Billy Goat Trail Section A, and inside park buildings. Carried pets do not bypass those restrictions.",
+    family: "The Tavern, canal locks, towpath, Junior Ranger materials, and Olmsted overlook work well for many families. Billy Goat A requires rock scrambling beside cliffs and fast water and should only be chosen for capable, closely supervised hikers.",
+    transit: "There is no practical direct public transit to the Great Falls Tavern entrance. Rideshare pickup and cellular service can be unreliable; arrange the return before arriving.",
+    need: "Section A of Billy Goat Trail frequently closes when the Potomac rises. Check the current conditions page on the visit day, stay out of the river, remain on the Olmsted boardwalk, carry water, and download the official map before losing service.",
+    photos: [
+      photo("great-falls-tavern", "https://www.nps.gov/choh/planyourvisit/images/Great-Falls-Tavern-Wide.jpg", "https://www.nps.gov/choh/planyourvisit/greatfallstavernvisitorcenter.htm", "National Park Service", "Official federal photograph; source attribution retained"),
+      photo("olmsted-overlook", "https://www.nps.gov/choh/planyourvisit/images/014_4.jpg", "https://home.nps.gov/choh/planyourvisit/great-falls-overlook.htm", "National Park Service", "Official federal photograph; source attribution retained"),
+      photo("great-falls-launch-boat", "https://www.nps.gov/choh/planyourvisit/images/Launch-Boat-plain.jpg", "https://www.nps.gov/choh/planyourvisit/great-falls-canal-boat-rides.htm", "National Park Service", "Official federal photograph; source attribution retained"),
+      licensedCommonsPhoto("billy-goat-trail-a", "Billy Goat Trail Cliff (from above).jpg", "GeneralPoxter", "CC BY-SA 4.0"),
+    ],
+  },
+  {
+    id: "launch-va-alexandria-huntley-meadows-park",
+    name: "Huntley Meadows Park",
+    city: "Alexandria",
+    state: "VA",
+    citySlug: "alexandria",
+    assetCitySlug: "alexandria",
+    region: "Mid-Atlantic",
+    lat: 38.7525834,
+    lon: -77.1075177,
+    address: "3701 Lockheed Boulevard, Alexandria, VA 22306",
+    source: huntleyMeadows,
+    sourceLabel: "Fairfax County Park Authority",
+    operator: "Fairfax County Park Authority",
+    tier: "anchor",
+    summary: "A 1,500-acre wildlife sanctuary of forest, meadow, and restored wetland, centered on a half-mile raised boardwalk, observation platform, naturalist-led programs, visitor center, and a separate paved hike-bike entrance.",
+    hours: "Trails and natural areas are daylight destinations. The Norma Hoffman Visitor Center currently opens 9 a.m.-5 p.m. on weekdays except Tuesday; weekend hours are seasonal, including 9 a.m.-1 p.m. through August 30 and noon-5 p.m. during spring and fall periods. Check holidays and current alerts.",
+    cost: "Individual and family admission is free. Organized groups of 12-60 currently pay $30, with $1 for each additional person over 60; programs, shelters, commercial photography, rentals, and special activities may charge separately.",
+    arrival: "Use 3701 Lockheed Boulevard for the main parking lot, Visitor Center, restrooms, Cedar Trail, wetland boardwalk, and naturalist help. The separate 6901 South Kings Highway entrance serves a one-mile paved hike-bike trail but has no facilities.",
+    parking: "The main Lockheed Boulevard lot is the correct choice for the boardwalk and Visitor Center. A small lot at 6901 South Kings Highway serves only the hike-bike trail; do not expect it to provide a short boardwalk approach.",
+    restrooms: "Restrooms, exhibits, and staff assistance are available at the main Visitor Center during its operating hours. There are no facilities at the South Kings Highway entrance or on the wetland boardwalk.",
+    accessibility: "Fairfax County lists a measured accessible stonedust route from accessible parking toward the boardwalk. The boardwalk is narrow, wetland conditions vary, and visitors needing a specific accommodation should contact the park in advance.",
+    dogs: "Pets are prohibited on the Restoration and Heron Trails, including the wetland boardwalk. Leashed pets are allowed on other designated park trails, including the separate South Kings Highway hike-bike route.",
+    family: "The Visitor Center, short forest approach, wildlife, boardwalk, frogs, beavers, dragonflies, deer, and more than 200 recorded bird species make this a strong quiet-nature outing. Children must walk rather than run on the narrow boardwalk.",
+    transit: "Local bus service reaches parts of the surrounding Lockheed Boulevard and South Kings Highway area, but the final walk and return schedule vary. Map the exact entrance rather than navigating to the preserve's geographic center.",
+    need: "This is a wildlife sanctuary, not an active-recreation park. Walk slowly, stay on marked routes, do not run or jog on the boardwalk, do not fish or use nets, keep wheels at the main entrance, and carry out everything brought in.",
+    photos: [
+      licensedCommonsPhoto("huntley-visitor-center", "Visitor Center, Huntley Meadows Park.jpg", "Ser Amantio di Nicolao", "CC BY-SA 4.0"),
+      licensedCommonsPhoto("heron-trail-boardwalk", "Sunny boardwalk, Huntley Meadows Park.jpg", "Ser Amantio di Nicolao", "CC BY-SA 4.0"),
+      licensedCommonsPhoto("huntley-wetland", "Wetlands from boardwalk, Huntley Meadows Park.jpg", "Ser Amantio di Nicolao", "CC BY-SA 4.0"),
+      licensedCommonsPhoto("wetland-viewing-area", "Boardwalk through viewing area, Huntley Meadows Park.jpg", "Ser Amantio di Nicolao", "CC BY-SA 4.0"),
+    ],
+  },
 );
 
 const featureRows = [
@@ -410,6 +514,9 @@ featureRows.push(
 const eastPotomacPark = parks.find((park) => park.id === "launch-dc-washington-east-potomac-park-hains-point");
 const gravellyPointPark = parks.find((park) => park.id === "launch-va-arlington-gravelly-point");
 const greatFallsPark = parks.find((park) => park.id === "launch-va-mclean-great-falls-park");
+const glenEchoPark = parks.find((park) => park.id === "launch-md-glen-echo-glen-echo-park");
+const greatFallsMarylandPark = parks.find((park) => park.id === "launch-md-potomac-great-falls-tavern-olmsted-island");
+const huntleyMeadowsPark = parks.find((park) => park.id === "launch-va-alexandria-huntley-meadows-park");
 
 featureRows.push(
   [eastPotomacPark.id,"hains-point-playground-and-picnic-grove","Hains Point Playground & Picnic Grove","playground",38.859987,-77.023030,"https://www.nps.gov/places/000/east-potomac-park-hains-point.htm","hains-point-playground","A playground, picnic tables, reservable grove sections, waterfront lawn, information kiosk, and nearby restroom make the peninsula's south end the primary family stop.","Follow Ohio Drive to Hains Point at the peninsula's southern tip and use the signed parking and picnic area rather than stopping on the loop road.","A restroom serves the developed Hains Point area, but outages or seasonal maintenance can affect access.","The playground and open picnic space are free. Reservable grove areas currently cost $90 for a half day or $180 for a full day, and the loop may close for flooding, weather, events, or safety."],
@@ -423,6 +530,19 @@ featureRows.push(
   [greatFallsPark.id,"great-falls-overlook-2","Great Falls Overlook 2","overlook",38.995883,-77.253525,"https://www.nps.gov/thingstodo/great-falls-overlooks.htm","great-falls-overlook-2","A signed overlook about 250 feet downstream frames the main falls and has a ramped approach that makes it the most practical close view for many visitors.","Follow the signed riverside route south from the Visitor Center and Overlook 1; use the ramped viewing area rather than crossing protective barriers.","Use courtyard restrooms or portable toilets near the Visitor Center before walking to the overlooks.","The viewpoint is included with park admission and has an accessible ramp. Wet surfaces, crowds, cliffs, snakes, and fast water still require caution, and barriers must never be crossed."],
   [greatFallsPark.id,"great-falls-overlook-3","Great Falls Overlook 3","overlook",38.995319,-77.252792,"https://www.nps.gov/thingstodo/great-falls-overlooks.htm","great-falls-overlook-3","The southern primary overlook provides a wider upriver view of the falls and gorge from a ramped platform roughly 500 feet downstream.","Continue south on the signed overlook route beyond Overlook 2. The platform is close to the main visitor area, but it is distinct from River Trail viewpoints farther downstream.","Use courtyard restrooms or portable toilets near the Visitor Center before the overlook walk.","The viewpoint is included with park admission and has a ramped approach. Stay behind barriers, supervise children, and expect exposed sun, weather, crowds, and slick surfaces."],
   [greatFallsPark.id,"great-falls-visitor-center-and-courtyard","Great Falls Visitor Center & Courtyard","visitor_center",38.9987,-77.2530,"https://home.nps.gov/grfa/planyourvisit/hours.htm","great-falls-visitor-center","The main orientation area provides ranger information, exhibits, maps, courtyard seating, nearby restrooms, seasonal snack service, and the shortest approach to all three overlooks.","After the entrance station, use the main parking area and follow Visitor Center signs. Start here before choosing an overlook or natural-surface trail.","Courtyard bathrooms are currently open 8:30 a.m.-4 p.m.; another restroom is out of order, with portable toilets available 7 a.m. until dark.","The building is currently open 10 a.m.-5 p.m., while the park opens earlier and closes later. Snack service is typically weekend and seasonal; check current notices rather than relying on hours visible in older photographs."],
+
+  [glenEchoPark.id,"dentzel-carousel","Dentzel Carousel","carousel",38.9662005,-77.1387893,"https://www.nps.gov/glec/planyourvisit/hours.htm","dentzel-carousel","The restored 1921 Dentzel carousel remains the park's signature family attraction, with hand-carved animals, a band organ, seasonal rides, and a historic pavilion.","Cross the footbridge from the Oxford Road visitor lot and follow the main path toward the round carousel pavilion near the Arcade building.","Year-round accessible restrooms are in the red-brick Arcade building beside the carousel.","The grounds are free, but carousel rides require a current ticket and operate seasonally on a facility-specific schedule. Check same-day maintenance and weather status before promising a ride."],
+  [glenEchoPark.id,"bumper-car-pavilion","Bumper Car Pavilion","dance_pavilion",38.9656064,-77.1385186,"https://www.nps.gov/glec/index.htm","bumper-car-pavilion","The roofed open-air pavilion from the former amusement park now hosts seasonal social dances, concerts, classes, and public events.","From the main entrance, continue beyond the carousel toward the eastern side of the campus; the pavilion is separate from the enclosed Spanish Ballroom.","Use accessible public restrooms in nearby park buildings during their posted hours.","Walking through the campus is free, while dances and programs may require admission, registration, or partner tickets. The open-air venue can be affected by heat, storms, and private rentals."],
+  [glenEchoPark.id,"spanish-ballroom","Spanish Ballroom","ballroom",38.9655954,-77.1390818,"https://www.nps.gov/glec/planyourvisit/hours.htm","spanish-ballroom","The restored 1933 Spanish Ballroom is a major year-round social-dance and performance venue with a large sprung floor and historic Streamline Moderne interior.","The Ballroom stands along the park's southeast edge beside its annex and near the picnic and playground area; follow event signs from the main entrance.","Accessible restrooms are available at the Ballroom and in nearby park buildings during operations.","The building is not continuously open with the grounds. Review the exact dance, concert, festival, class, or rental listing for admission, start time, footwear, age guidance, and accessibility arrangements."],
+  [glenEchoPark.id,"picnic-grove-and-playground","Picnic Grove & Playground","playground",38.9659,-77.1393,"https://home.nps.gov/glec/planyourvisit/playground-and-picnic-area.htm","picnic-grove","A shaded first-come picnic grove and redesigned playground provide the park's primary free family base between ticketed or scheduled activities.","Follow the campus map south of the carousel toward the Spanish Ballroom. Do not stop at the permit lot; use the Oxford Road public lot and walk across the bridge.","Accessible restrooms are close by in the Arcade building and other open park buildings.","Playground and small-group picnic use are free and first-come. Tables are uncovered; supervise children, pack out trash, keep fires out, and confirm current rules before bringing a grill, canopy, or larger group."],
+
+  [greatFallsMarylandPark.id,"great-falls-tavern-visitor-center","Great Falls Tavern Visitor Center","visitor_center",39.0002043,-77.2481581,"https://www.nps.gov/choh/planyourvisit/greatfallstavernvisitorcenter.htm","great-falls-tavern","The historic canal tavern at Lock 20 is the Maryland-side orientation hub for maps, exhibits, ranger programs, Junior Ranger activities, trail advice, restrooms, water, and seasonal boat tickets.","Enter at 11710 MacArthur Boulevard, pay or show a valid pass, park in the main lot, and follow signs to the white tavern beside the canal.","Accessible restrooms and drinking water are available at the visitor complex during posted hours.","The building is currently open Wednesday-Sunday 9 a.m.-4 p.m. and closes Monday, Tuesday, and listed holidays. Outdoor park access, entrance staffing, boat rides, and trail conditions use separate schedules."],
+  [greatFallsMarylandPark.id,"olmsted-island-great-falls-overlook","Olmsted Island Great Falls Overlook","overlook",38.9967303,-77.2519772,"https://home.nps.gov/choh/planyourvisit/great-falls-overlook.htm","olmsted-overlook","An accessible boardwalk crosses the sensitive Olmsted Island ecosystem to the Maryland overlook above Great Falls and the Potomac Gorge.","Park at Great Falls Tavern, then follow the signed route about one-half mile to the overlook; the boardwalk itself is roughly one-quarter mile each way.","Use Tavern-area restrooms before starting. There are no restrooms, water, or trash cans on the island boardwalk.","The overlook is included with park admission and is an easy, ADA-accessible boardwalk route. Pets are prohibited; stay on the boards, keep children close, and never climb toward the river.",{ cost: "The overlook is included with Great Falls entrance admission.", accessibility: "The quarter-mile Olmsted Island boardwalk is ADA accessible, although weather and river conditions can close the route.", dogs: "Pets are prohibited on Olmsted Island, its boardwalk, and the Great Falls overlook.", family: "The boardwalk is manageable for many families, but adults must keep children on the boards and away from the river edge." }],
+  [greatFallsMarylandPark.id,"billy-goat-trail-section-a","Billy Goat Trail Section A","trail",38.9935209,-77.2454676,"https://www.nps.gov/choh/planyourvisit/great-falls-things-to-do.htm","billy-goat-trail-a","A strenuous one-way rock-scrambling route leaves the towpath for exposed Potomac Gorge terrain, including angled slabs, boulders, and a steep traverse.","Use Great Falls Tavern parking and the official hiking map, then enter only at the signed Section A trailhead off the towpath. The map pin marks the upstream trailhead, not roadside parking.","There are no facilities on the trail. Use Tavern-area restrooms, carry sufficient water, and pack out all waste.","The trail is included with park admission but frequently closes for river rise or hazards. Pets and bicycles are prohibited; this is not a casual family walk, and hikers must stay out of the Potomac.",{ cost: "The trail is included with Great Falls entrance admission.", accessibility: "Section A is a strenuous natural-surface rock scramble and is not an accessible route.", dogs: "Pets are prohibited on Billy Goat Trail Section A, even when carried.", family: "This exposed rock scramble is not a casual family walk; choose it only for capable hikers who can safely manage cliffs, boulders, and heat." }],
+  [greatFallsMarylandPark.id,"great-falls-launch-boat-program","Great Falls Launch Boat Program","boat_tour",39.000284,-77.248140,"https://www.nps.gov/choh/planyourvisit/great-falls-canal-boat-rides.htm","great-falls-launch-boat","A seasonal ranger-led ride uses a small replica launch boat to interpret canal history and the people who traveled and worked along the C&O Canal.","Begin at Great Falls Tavern Visitor Center. Every participant must be present when free same-day tickets are released one hour before the scheduled ride.","Use accessible Tavern-area restrooms before boarding; the approximately thirty-minute launch boat has limited capacity and space.","Tickets are free but cannot be reserved, capacity is currently ten people including children, and weather, high wind, extreme heat, or canal conditions may cancel a program. Pets are not permitted except service animals.",{ hours: "Rides follow a seasonal program schedule and can be canceled for weather, heat, wind, or canal conditions; confirm the current NPS listing on the visit day.", cost: "Same-day launch-boat tickets are free, first-come, and cannot be reserved.", accessibility: "The small launch boat has limited capacity and boarding space; contact the park before visiting for a specific mobility accommodation.", dogs: "Pets are not permitted on the launch boat except service animals.", family: "The roughly thirty-minute ranger program can work well for children, but every participant counts toward the ten-person capacity." }],
+
+  [huntleyMeadowsPark.id,"norma-hoffman-visitor-center","Norma Hoffman Visitor Center","visitor_center",38.7566753,-77.0983679,"https://www.fairfaxcounty.gov/parks/huntley-meadows/hours","huntley-visitor-center","The main orientation building provides naturalist help, wetland exhibits, program check-in, restrooms, maps, and the correct starting point for the forest and boardwalk approach.","Use 3701 Lockheed Boulevard and the main parking lot. Do not use the South Kings Highway hike-bike entrance when the Visitor Center or boardwalk is the destination.","Restrooms are available inside during current Visitor Center hours; there are no facilities at the separate South Kings Highway entrance.","Individual entry is free. The building is closed Tuesdays and uses seasonal weekend hours; holiday schedules, programs, and special events can change access even when outdoor trails remain available."],
+  [huntleyMeadowsPark.id,"heron-trail-wetland-boardwalk","Heron Trail Wetland Boardwalk","boardwalk",38.752271,-77.1057712,"https://www.fairfaxcounty.gov/parks/huntley-meadows/on-your-own","heron-trail-boardwalk","A half-mile raised boardwalk winds through the restored wetland to a viewing platform, creating close but protected views of beavers, frogs, dragonflies, herons, deer, and changing water habitat.","Start at the Lockheed Boulevard Visitor Center, follow Cedar Trail through the forest, and continue onto signed Heron Trail. The South Kings Highway route does not provide the short boardwalk approach.","There are no facilities on the boardwalk. Use the Visitor Center restrooms before beginning and carry out all waste.","Boardwalk access is free. Pets, bicycles, scooters, jogging, running, fishing, and netting are prohibited; walk slowly, stay on the narrow boards, protect wildlife, and expect heat, insects, wet surfaces, and seasonal water changes.",{ cost: "Individual and family access to the boardwalk is free.", accessibility: "The approach includes a measured accessible stonedust route, while the wetland boardwalk is narrow and conditions can be damp; contact the park for a specific accommodation.", dogs: "Pets are prohibited on Heron Trail and the wetland boardwalk.", family: "Wildlife viewing is excellent for patient children, but running, jogging, scooters, and bicycles are prohibited on the narrow boardwalk." }],
 );
 
 function answer(park, intentKey, question, text) {
@@ -469,7 +589,9 @@ function ensureCatalogRows() {
 
 function ensureLocations() {
   const file = path.join(root, "data", "launch-location-overrides.json");
-  const rows = JSON.parse(fs.readFileSync(file, "utf8"));
+  const rows = JSON.parse(fs.readFileSync(file, "utf8")).filter(
+    (row) => row.id !== "launch-md-potomac-great-falls-tavern-and-olmsted-island",
+  );
   for (const park of parks) {
     const city = park.city || "Washington";
     const state = park.state || "DC";
@@ -481,16 +603,22 @@ function ensureLocations() {
 }
 
 function makeFeature(park, row, localImages) {
-  const [parentId, slug, name, type, lat, lon, source, imageSlug, description, arrival, restrooms, need] = row;
+  const [parentId, slug, name, type, lat, lon, source, imageSlug, description, arrival, restrooms, need, overrides = {}] = row;
   const id = stableUuid(parentId, slug);
   const photoItem = park.photos.find((candidate) => candidate.slug === imageSlug) || park.photos[0];
   const image = { ...(featureImages[parentId]?.[slug] || localImages.find((candidate) => candidate.slug === photoItem.slug)), featureId: id, latitude: lat, longitude: lon };
+  const parking = overrides.parking || park.parking;
+  const hours = overrides.hours || need;
+  const cost = overrides.cost || park.cost;
+  const accessibility = overrides.accessibility || park.accessibility;
+  const dogs = overrides.dogs || park.dogs;
+  const family = overrides.family || park.family;
   const detailsAnswers = [
-    ["location",`Where exactly is ${name}?`,arrival], ["parking",`Where should I park for ${name}?`,park.parking], ["hours",`When is ${name} open?`,need],
-    ["restroom",`Are there restrooms near ${name}?`,restrooms], ["fees",`Is ${name} free?`,park.cost], ["accessibility",`How accessible is ${name}?`,park.accessibility],
-    ["dogs",`Are dogs allowed at ${name}?`,park.dogs], ["family",`Is ${name} good for children?`,park.family], ["need-to-know",`What should I know before visiting ${name}?`,need],
+    ["location",`Where exactly is ${name}?`,arrival], ["parking",`Where should I park for ${name}?`,parking], ["hours",`When is ${name} open?`,hours],
+    ["restroom",`Are there restrooms near ${name}?`,restrooms], ["fees",`Is ${name} free?`,cost], ["accessibility",`How accessible is ${name}?`,accessibility],
+    ["dogs",`Are dogs allowed at ${name}?`,dogs], ["family",`Is ${name} good for children?`,family], ["need-to-know",`What should I know before visiting ${name}?`,need],
   ].map(([intentKey, question, text]) => ({ intentKey, question, answer: text, sourceLabel: park.sourceLabel, source, sourceType: "official", checkedAt }));
-  return { id, slug, name, feature_type: type, description, latitude: lat, longitude: lon, details: { category: type.replace(/_/g," "), includeInParentGallery: true, positionQuality: "Named destination cross-checked against its official public source", address: park.address, hours: need, hoursSchedule: false, cost: park.cost, accessibility: park.accessibility, locationContext: arrival, needToKnow: need, informationSourceLabel: park.sourceLabel, informationSourceUrl: source, informationCheckedAt: checkedAt, imageUrl: image.url, imageSourceUrl: image.source, imageAuthor: image.author, imageLicense: image.license, imageAlt: `${name} at ${park.name}`, images: [{ ...image, alt: `${name} at ${park.name}` }], searchAnswers: detailsAnswers }, source_label: park.sourceLabel, source_url: source, verified_at: checkedAt };
+  return { id, slug, name, feature_type: type, description, latitude: lat, longitude: lon, details: { category: type.replace(/_/g," "), includeInParentGallery: true, positionQuality: "Named destination cross-checked against its official public source", address: overrides.address || park.address, hours, hoursSchedule: false, cost, accessibility, locationContext: arrival, needToKnow: need, informationSourceLabel: park.sourceLabel, informationSourceUrl: source, informationCheckedAt: checkedAt, imageUrl: image.url, imageSourceUrl: image.source, imageAuthor: image.author, imageLicense: image.license, imageAlt: `${name} at ${park.name}`, images: [{ ...image, alt: `${name} at ${park.name}` }], searchAnswers: detailsAnswers }, source_label: park.sourceLabel, source_url: source, verified_at: checkedAt };
 }
 
 function upsertPark(document, park) {
@@ -511,6 +639,7 @@ async function main() {
     "launch-dc-washington-kenilworth-park-and-aquatic-gardens",
     "launch-dc-washington-meridian-hill-park",
     "launch-dc-washington-us-national-arboretum",
+    "launch-md-potomac-great-falls-tavern-and-olmsted-island",
   ]);
   all.parks = all.parks.filter((park) => !replacedIds.has(park.id));
   pilot.parks = pilot.parks.filter((park) => !replacedIds.has(park.id));
