@@ -26,6 +26,20 @@
         "coordinateSource": "https://www.openstreetmap.org/node/278290755",
         "positionQuality": "reviewed-named-destination-node-and-geotagged-photo-match"
       }
+    },
+    "launch-pa-pittsburgh-frick-park": {
+      "frick-environmental-center": {
+        "latitude": 40.4364787,
+        "longitude": -79.9075888,
+        "coordinateSource": "https://www.openstreetmap.org/way/443851853",
+        "positionQuality": "reviewed-named-building-way-and-official-address-match"
+      },
+      "nine-mile-run-trail": {
+        "latitude": 40.4250313,
+        "longitude": -79.9056075,
+        "coordinateSource": "https://www.openstreetmap.org/way/1364118669",
+        "positionQuality": "reviewed-named-trail-detour-way-near-official-commercial-street-arrival"
+      }
     }
   }
 }

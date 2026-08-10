@@ -39,50 +39,18 @@
       "frick-environmental-center": {
         "latitude": 40.4364787,
         "longitude": -79.9075888,
-        "displayName": "Preserved coordinate for Frick Environmental Center",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "blue-slide-playground": {
-        "latitude": 40.4298713,
-        "longitude": -79.9147165,
-        "displayName": "Preserved coordinate for Blue Slide Playground",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "frick-park-lawn": {
-        "latitude": 40.4450246,
-        "longitude": -79.9005655,
-        "displayName": "Preserved coordinate for Frick Park Lawn",
-        "source": "OpenStreetMap Nominatim"
+        "coordinateSource": "https://www.openstreetmap.org/way/443851853",
+        "positionQuality": "reviewed-named-building-way-and-official-address-match",
+        "displayName": "reviewed-named-building-way-and-official-address-match",
+        "source": "https://www.openstreetmap.org/way/443851853"
       },
       "nine-mile-run-trail": {
-        "latitude": 40.4252089,
-        "longitude": -79.9059231,
-        "displayName": "Preserved coordinate for Nine Mile Run Trail",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "falls-ravine-trail": {
-        "latitude": 40.4359735,
-        "longitude": -79.9078739,
-        "displayName": "Preserved coordinate for Falls Ravine Trail",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "hot-dog-dam": {
-        "latitude": 40.4880422,
-        "longitude": -79.9199567,
-        "displayName": "Preserved coordinate for Hot Dog Dam",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "frick-park-off-leash-exercise-area": {
-        "latitude": 40.436,
-        "longitude": -79.90985,
-        "displayName": "Preserved coordinate for Frick Park Off-Leash Exercise Area",
-        "source": "AuditMap official-map placement"
-      },
-      "bowling-green": {
-        "latitude": 40.436431335136525,
-        "longitude": -79.90983133513653,
-        "displayName": "Preserved coordinate for Bowling Green",
-        "source": "AuditMap official-map placement"
+        "latitude": 40.4250313,
+        "longitude": -79.9056075,
+        "coordinateSource": "https://www.openstreetmap.org/way/1364118669",
+        "positionQuality": "reviewed-named-trail-detour-way-near-official-commercial-street-arrival",
+        "displayName": "reviewed-named-trail-detour-way-near-official-commercial-street-arrival",
+        "source": "https://www.openstreetmap.org/way/1364118669"
       }
     },
     "launch-pa-pittsburgh-point-state-park": {
