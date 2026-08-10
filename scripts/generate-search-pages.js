@@ -1544,7 +1544,7 @@ function renderStateHubPage(state, cities) {
       name: title,
       description,
       imageUrl: logoUrl,
-      items: cities.map((city) => ({ name: `${city.city} parks`, path: cityHubPath(city.parks[0]) })),
+      items: cities.map((city) => ({ name: `${city.name} parks`, path: cityHubPath(city.parks[0]) })),
     }),
   ];
   const body = `

@@ -22,6 +22,9 @@ const expectedFeatures = {
   "launch-md-bethesda-cabin-john-regional-park": 2,
   "launch-md-rockville-rock-creek-regional-park": 2,
   "launch-va-fairfax-station-burke-lake-park": 3,
+  "launch-md-wheaton-wheaton-regional-park": 2,
+  "launch-md-upper-marlboro-watkins-regional-park": 1,
+  "launch-md-gaithersburg-seneca-creek-state-park": 3,
 };
 const ids = Object.keys(expectedFeatures);
 const places = JSON.parse(
@@ -87,6 +90,13 @@ for (const id of ids) {
 const joined = ids
   .map((id) => JSON.stringify(places.find((park) => park.id === id) || {}))
   .join("\n");
+const marylandHubPath = path.join(root, "us", "md", "index.html");
+const marylandHub = fs.existsSync(marylandHubPath)
+  ? fs.readFileSync(marylandHubPath, "utf8")
+  : "";
+if (!marylandHub) failures.push("Maryland state hub is missing");
+if (marylandHub.includes("undefined parks"))
+  failures.push("Maryland state hub schema contains an undefined city name");
 for (const phrase of [
   "The Mall is more than two miles long",
   "Swimming and wading in Rock Creek are prohibited",
@@ -106,6 +116,12 @@ for (const phrase of [
   "The official page currently posts weekend May-September rental hours",
   "Fairfax County residents enter free",
   "The state-owned launch at the dam is identified by Fairfax County as a 24-hour launch",
+  "Choose the exact zone before navigating",
+  "Pets are not allowed in Brookside Gardens",
+  "miniature train temporarily out of service until further notice",
+  "The Black Rock parking lot is currently closed",
+  "Swimming and wading are prohibited in Clopper Lake",
+  "closed Monday-Tuesday",
 ]) {
   if (!joined.includes(phrase)) failures.push(`Missing Potomac-area guidance: ${phrase}`);
 }

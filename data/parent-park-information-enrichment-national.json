@@ -81912,6 +81912,497 @@
         }
       ],
       "verifiedAt": "2026-08-10"
+    },
+    "launch-md-wheaton-wheaton-regional-park": {
+      "operator": "Montgomery Parks",
+      "sourceLabel": "Montgomery Parks",
+      "source": "https://montgomeryparks.org/parks-and-trails/wheaton-regional-park/",
+      "address": "2000 Shorefield Road, Wheaton, MD 20902",
+      "summary": "A 536-acre regional park organized into distinct family, garden, nature, sports, trail, and equestrian zones, including Brookside Gardens, Brookside Nature Center, Adventure Playground, Pine Lake, a miniature train and carousel, athletic fields, and roughly 11 miles of trails.",
+      "hours": "Outdoor park areas are open daily from sunrise to sunset. Lighted courts close at 11 p.m.; Brookside Gardens buildings, Brookside Nature Center, the miniature train, carousel, riding stables, and other facilities keep separate schedules.",
+      "hoursSchedule": null,
+      "cost": "General park, playground, trail, Pine Lake, Brookside Gardens, and unreserved outdoor access are free. Train and carousel rides, permits, reservations, classes, concessions, and special events may charge separately.",
+      "accessibility": "Brookside Gardens has accessible parking, entrances, restrooms, pathways, two first-come wheelchairs, and a mapped accessible route. The Shorefield fitness station is fully accessible, while natural trails, hills, roots, and long distances require route-specific planning.",
+      "transit": "Wheaton and Glenmont Metro stations and local bus routes serve different sides of the park, but final walks vary substantially. Select transit for Shorefield, Brookside Gardens, Brookside Nature Center, or the athletic complex rather than for the park center.",
+      "searchAnswers": [
+        {
+          "intentKey": "hours",
+          "question": "When is Wheaton Regional Park open?",
+          "answer": "Outdoor park areas are open daily from sunrise to sunset. Lighted courts close at 11 p.m.; Brookside Gardens buildings, Brookside Nature Center, the miniature train, carousel, riding stables, and other facilities keep separate schedules.",
+          "sourceLabel": "Montgomery Parks",
+          "source": "https://montgomeryparks.org/parks-and-trails/wheaton-regional-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "parking",
+          "question": "Where should I park for Wheaton Regional Park?",
+          "answer": "Free designated parking is distributed among separate zones and parking outside marked spaces is prohibited. A general park pin can place visitors far from the intended garden, playground, train, nature center, field, or trailhead.",
+          "sourceLabel": "Montgomery Parks",
+          "source": "https://montgomeryparks.org/parks-and-trails/wheaton-regional-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "entrance",
+          "question": "What is the best entrance for Wheaton Regional Park?",
+          "answer": "Choose the exact zone before navigating. Use Shorefield Road for Adventure Playground, Pine Lake, train, carousel, and family picnic areas; use Glenallan Avenue for Brookside Gardens or Brookside Nature Center; athletic and equestrian areas have separate approaches.",
+          "sourceLabel": "Montgomery Parks",
+          "source": "https://montgomeryparks.org/parks-and-trails/wheaton-regional-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Are there restrooms at Wheaton Regional Park?",
+          "answer": "Restrooms and drinking fountains in the Shorefield picnic area generally operate April through October. Brookside Gardens and Brookside Nature Center have building restrooms during their own hours; trails and other zones do not provide continuous service.",
+          "sourceLabel": "Montgomery Parks",
+          "source": "https://montgomeryparks.org/parks-and-trails/wheaton-regional-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "fees",
+          "question": "Is Wheaton Regional Park free?",
+          "answer": "General park, playground, trail, Pine Lake, Brookside Gardens, and unreserved outdoor access are free. Train and carousel rides, permits, reservations, classes, concessions, and special events may charge separately.",
+          "sourceLabel": "Montgomery Parks",
+          "source": "https://montgomeryparks.org/parks-and-trails/wheaton-regional-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "accessibility",
+          "question": "How accessible is Wheaton Regional Park?",
+          "answer": "Brookside Gardens has accessible parking, entrances, restrooms, pathways, two first-come wheelchairs, and a mapped accessible route. The Shorefield fitness station is fully accessible, while natural trails, hills, roots, and long distances require route-specific planning.",
+          "sourceLabel": "Montgomery Parks",
+          "source": "https://montgomeryparks.org/parks-and-trails/wheaton-regional-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "dogs",
+          "question": "Are dogs allowed at Wheaton Regional Park?",
+          "answer": "Leashed dogs are allowed in permitted outdoor park areas, and the park has a fenced dog park. Pets are not allowed in Brookside Gardens; service animals are welcome there. Buildings and ticketed attractions use their own access rules.",
+          "sourceLabel": "Montgomery Parks",
+          "source": "https://montgomeryparks.org/parks-and-trails/wheaton-regional-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "family",
+          "question": "Is Wheaton Regional Park good for children?",
+          "answer": "Adventure Playground, the train and carousel, Pine Lake, Brookside Gardens, nature play, picnic areas, and short trails make this a strong family destination. Attraction, restroom, and building schedules differ, so confirm the exact plan before promising children a ride or indoor stop.",
+          "sourceLabel": "Montgomery Parks",
+          "source": "https://montgomeryparks.org/parks-and-trails/wheaton-regional-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "transit",
+          "question": "How do I reach Wheaton Regional Park without a car?",
+          "answer": "Wheaton and Glenmont Metro stations and local bus routes serve different sides of the park, but final walks vary substantially. Select transit for Shorefield, Brookside Gardens, Brookside Nature Center, or the athletic complex rather than for the park center.",
+          "sourceLabel": "Montgomery Parks",
+          "source": "https://montgomeryparks.org/parks-and-trails/wheaton-regional-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "need-to-know",
+          "question": "What should I know before visiting Wheaton Regional Park?",
+          "answer": "This park functions as several destinations. Shorefield picnic permits and seasonal restrooms generally run April through October, the train and carousel are seasonal and weather-dependent, and current building, construction, and weather alerts should be checked on the visit day.",
+          "sourceLabel": "Montgomery Parks",
+          "source": "https://montgomeryparks.org/parks-and-trails/wheaton-regional-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "food",
+          "question": "Should I bring food and water to Wheaton Regional Park?",
+          "answer": "Bring water and a backup snack unless a currently open concession is confirmed near the exact destination. Food availability, vending, and event vendors are not consistent across this large public place.",
+          "sourceLabel": "Montgomery Parks",
+          "source": "https://montgomeryparks.org/parks-and-trails/wheaton-regional-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        }
+      ],
+      "image": {
+        "slug": "brookside-gardens-spring",
+        "url": "/assets/parks/washington-dc-super/wheaton/wheaton-regional-park/brookside-gardens-spring.webp",
+        "source": "https://www.flickr.com/photos/94359914@N06/49881511552",
+        "author": "John Brighenti",
+        "license": "CC BY 2.0",
+        "alt": "Wheaton Regional Park in Wheaton, MD",
+        "latitude": 39.0553034,
+        "longitude": -77.0344707,
+        "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
+      },
+      "additionalImages": [
+        {
+          "slug": "harper-homestead",
+          "url": "/assets/parks/washington-dc-super/wheaton/wheaton-regional-park/harper-homestead.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Harper_family_homestead_wheaton_md_20200830_112402_1.jpg",
+          "author": "G. Edward Johnson",
+          "license": "CC BY 4.0",
+          "alt": "Wheaton Regional Park in Wheaton, MD",
+          "latitude": 39.0553034,
+          "longitude": -77.0344707,
+          "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
+        },
+        {
+          "slug": "brookside-pond-island",
+          "url": "/assets/parks/washington-dc-super/wheaton/wheaton-regional-park/brookside-pond-island.webp",
+          "source": "https://www.flickr.com/photos/76074333@N00/17835481062",
+          "author": "WorldIslandInfo.com",
+          "license": "CC BY 2.0",
+          "alt": "Wheaton Regional Park in Wheaton, MD",
+          "latitude": 39.0553034,
+          "longitude": -77.0344707,
+          "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
+        },
+        {
+          "slug": "brookside-maple-terrace",
+          "url": "/assets/parks/washington-dc-super/wheaton/wheaton-regional-park/brookside-maple-terrace.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Maple_Terrace_(52058036121).jpg",
+          "author": "John Brighenti",
+          "license": "CC BY 2.0",
+          "alt": "Wheaton Regional Park in Wheaton, MD",
+          "latitude": 39.0553034,
+          "longitude": -77.0344707,
+          "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
+        }
+      ],
+      "verifiedAt": "2026-08-10"
+    },
+    "launch-md-upper-marlboro-watkins-regional-park": {
+      "operator": "M-NCPPC Department of Parks and Recreation",
+      "sourceLabel": "M-NCPPC Department of Parks and Recreation",
+      "source": "https://pgparks.com/parks_trails/watkins-regional-park",
+      "address": "301 Watkins Park Drive, Upper Marlboro, MD 20774",
+      "summary": "An 850-plus-acre regional park with the Wonderful Wizard of Oz Playground, Watkins Nature Center, Old Maryland Farm, Chesapeake Carousel, miniature train, mini golf, campgrounds, athletic fields, picnic shelters, trails, and seasonal events.",
+      "hours": "Outdoor park areas generally follow posted park hours, while Watkins Nature Center and Old Maryland Farm are closed Monday, open Tuesday-Saturday 10 a.m.-5 p.m., and Sunday 10 a.m.-4 p.m. Rides, mini golf, campgrounds, programs, and events use separate schedules.",
+      "hoursSchedule": null,
+      "cost": "General park access, the Wizard of Oz Playground, Watkins Nature Center, and Old Maryland Farm are free. Rides, mini golf, camping, permits, reservations, classes, and special events may charge separately.",
+      "accessibility": "The official map identifies paved paths, accessible parking, and developed facility approaches. Watkins Nature Center lists hard- and natural-surface trail access, but exact routes, playground equipment, ride boarding, and campground surfaces require destination-specific planning.",
+      "transit": "The park is primarily vehicle-oriented. Local bus and rideshare options require a final walk through a large property, so navigate to the exact facility and arrange the return before arriving.",
+      "searchAnswers": [
+        {
+          "intentKey": "hours",
+          "question": "When is Watkins Regional Park open?",
+          "answer": "Outdoor park areas generally follow posted park hours, while Watkins Nature Center and Old Maryland Farm are closed Monday, open Tuesday-Saturday 10 a.m.-5 p.m., and Sunday 10 a.m.-4 p.m. Rides, mini golf, campgrounds, programs, and events use separate schedules.",
+          "sourceLabel": "M-NCPPC Department of Parks and Recreation",
+          "source": "https://pgparks.com/parks_trails/watkins-regional-park",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "parking",
+          "question": "Where should I park for Watkins Regional Park?",
+          "answer": "Free lots are distributed by activity. Use the Nature Center lot for the nature center and bus parking for Old Maryland Farm, then follow signed internal paths; do not rely on a single central pin for every attraction.",
+          "sourceLabel": "M-NCPPC Department of Parks and Recreation",
+          "source": "https://pgparks.com/parks_trails/watkins-regional-park",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "entrance",
+          "question": "What is the best entrance for Watkins Regional Park?",
+          "answer": "Use the official park map and the exact destination. Watkins Nature Center is at 331 Watkins Park Drive and Old Maryland Farm is at 351 Watkins Park Drive; the playground, train, carousel, shelters, fields, and campground sit in different internal zones.",
+          "sourceLabel": "M-NCPPC Department of Parks and Recreation",
+          "source": "https://pgparks.com/parks_trails/watkins-regional-park",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Are there restrooms at Watkins Regional Park?",
+          "answer": "Restrooms are mapped near developed picnic shelters, recreation zones, and staffed facilities. Building restrooms follow Nature Center and Farm hours, while seasonal or outdoor facilities can close for maintenance or winterization.",
+          "sourceLabel": "M-NCPPC Department of Parks and Recreation",
+          "source": "https://pgparks.com/parks_trails/watkins-regional-park",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "fees",
+          "question": "Is Watkins Regional Park free?",
+          "answer": "General park access, the Wizard of Oz Playground, Watkins Nature Center, and Old Maryland Farm are free. Rides, mini golf, camping, permits, reservations, classes, and special events may charge separately.",
+          "sourceLabel": "M-NCPPC Department of Parks and Recreation",
+          "source": "https://pgparks.com/parks_trails/watkins-regional-park",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "accessibility",
+          "question": "How accessible is Watkins Regional Park?",
+          "answer": "The official map identifies paved paths, accessible parking, and developed facility approaches. Watkins Nature Center lists hard- and natural-surface trail access, but exact routes, playground equipment, ride boarding, and campground surfaces require destination-specific planning.",
+          "sourceLabel": "M-NCPPC Department of Parks and Recreation",
+          "source": "https://pgparks.com/parks_trails/watkins-regional-park",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "dogs",
+          "question": "Are dogs allowed at Watkins Regional Park?",
+          "answer": "Keep dogs leashed in permitted outdoor areas and away from playgrounds, animal enclosures, rides, and active sports. Do not assume pets can enter Watkins Nature Center, Old Maryland Farm animal areas, or ticketed attractions; service animals follow applicable access rules.",
+          "sourceLabel": "M-NCPPC Department of Parks and Recreation",
+          "source": "https://pgparks.com/parks_trails/watkins-regional-park",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "family",
+          "question": "Is Watkins Regional Park good for children?",
+          "answer": "The Wizard of Oz Playground, free farm and nature center, train, carousel, mini golf, picnic shelters, and trails make this a major family destination. Confirm rides before promising them: the official park page currently reports the miniature train temporarily out of service until further notice.",
+          "sourceLabel": "M-NCPPC Department of Parks and Recreation",
+          "source": "https://pgparks.com/parks_trails/watkins-regional-park",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "transit",
+          "question": "How do I reach Watkins Regional Park without a car?",
+          "answer": "The park is primarily vehicle-oriented. Local bus and rideshare options require a final walk through a large property, so navigate to the exact facility and arrange the return before arriving.",
+          "sourceLabel": "M-NCPPC Department of Parks and Recreation",
+          "source": "https://pgparks.com/parks_trails/watkins-regional-park",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "need-to-know",
+          "question": "What should I know before visiting Watkins Regional Park?",
+          "answer": "The Wonderful World of Watkins miniature train is currently posted out of service until further notice. Construction, seasonal ride schedules, special events, campground operations, and building hours can change independently, so check the official alert and facility pages before leaving.",
+          "sourceLabel": "M-NCPPC Department of Parks and Recreation",
+          "source": "https://pgparks.com/parks_trails/watkins-regional-park",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "food",
+          "question": "Should I bring food and water to Watkins Regional Park?",
+          "answer": "Bring water and a backup snack unless a currently open concession is confirmed near the exact destination. Food availability, vending, and event vendors are not consistent across this large public place.",
+          "sourceLabel": "M-NCPPC Department of Parks and Recreation",
+          "source": "https://pgparks.com/parks_trails/watkins-regional-park",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        }
+      ],
+      "image": {
+        "slug": "oz-ruby-slipper-slide",
+        "url": "/assets/parks/washington-dc-super/upper-marlboro/watkins-regional-park/oz-ruby-slipper-slide.webp",
+        "source": "https://www.flickr.com/photos/13194817@N00/35288143782",
+        "author": "F Delventhal",
+        "license": "CC BY 2.0",
+        "alt": "Watkins Regional Park in Upper Marlboro, MD",
+        "latitude": 38.8858532,
+        "longitude": -76.7968941,
+        "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
+      },
+      "additionalImages": [
+        {
+          "slug": "oz-yellow-brick-road",
+          "url": "/assets/parks/washington-dc-super/upper-marlboro/watkins-regional-park/oz-yellow-brick-road.webp",
+          "source": "https://www.flickr.com/photos/13194817@N00/35441816005",
+          "author": "F Delventhal",
+          "license": "CC BY 2.0",
+          "alt": "Watkins Regional Park in Upper Marlboro, MD",
+          "latitude": 38.8858532,
+          "longitude": -76.7968941,
+          "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
+        },
+        {
+          "slug": "oz-rainbow-shadow",
+          "url": "/assets/parks/washington-dc-super/upper-marlboro/watkins-regional-park/oz-rainbow-shadow.webp",
+          "source": "https://www.flickr.com/photos/13194817@N00/35047714200",
+          "author": "F Delventhal",
+          "license": "CC BY 2.0",
+          "alt": "Watkins Regional Park in Upper Marlboro, MD",
+          "latitude": 38.8858532,
+          "longitude": -76.7968941,
+          "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
+        },
+        {
+          "slug": "oz-play-equipment",
+          "url": "/assets/parks/washington-dc-super/upper-marlboro/watkins-regional-park/oz-play-equipment.webp",
+          "source": "https://www.flickr.com/photos/13194817@N00/34600232944",
+          "author": "F Delventhal",
+          "license": "CC BY 2.0",
+          "alt": "Watkins Regional Park in Upper Marlboro, MD",
+          "latitude": 38.8858532,
+          "longitude": -76.7968941,
+          "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
+        }
+      ],
+      "verifiedAt": "2026-08-10"
+    },
+    "launch-md-gaithersburg-seneca-creek-state-park": {
+      "operator": "Maryland Park Service",
+      "sourceLabel": "Maryland Department of Natural Resources",
+      "source": "https://dnr.maryland.gov/publiclands/Pages/central/seneca.aspx",
+      "address": "11950 Clopper Road, Gaithersburg, MD 20878",
+      "summary": "A 6,300-acre state park extending along 14 miles of Seneca Creek, with the 90-acre Clopper Lake day-use area, more than 50 miles of trails, seasonal boat rentals, playgrounds, picnic areas, fishing, historic sites, and varied natural landscapes.",
+      "hours": "Park hours are 8 a.m. to sunset March through October and 10 a.m. to sunset November through February. The Boat Center, programs, offices, events, and reserved facilities keep separate seasonal schedules.",
+      "hoursSchedule": null,
+      "cost": "Most weekday day use is free. On weekends and holidays from April through October, the posted service charge is $3 per person for Maryland residents and $5 per person for out-of-state visitors; children in car or booster seats and qualifying pass holders enter free.",
+      "accessibility": "The park has an accessible office, six accessible pavilions, accessible family picnic sites, seven restrooms reached by paved walkways, and a paved lakefront fishing route at the Boat Center. Hiking trails are unpaved and may include roots, steps, and steep slopes.",
+      "transit": "The park is primarily vehicle-oriented and spread across a large landscape. If using rideshare, select the exact day-use destination and arrange a return before entering a trail or remote historic-site area.",
+      "searchAnswers": [
+        {
+          "intentKey": "hours",
+          "question": "When is Seneca Creek State Park open?",
+          "answer": "Park hours are 8 a.m. to sunset March through October and 10 a.m. to sunset November through February. The Boat Center, programs, offices, events, and reserved facilities keep separate seasonal schedules.",
+          "sourceLabel": "Maryland Department of Natural Resources",
+          "source": "https://dnr.maryland.gov/publiclands/Pages/central/seneca.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "parking",
+          "question": "Where should I park for Seneca Creek State Park?",
+          "answer": "Parking is distributed among the park office, lake, Boat Center, playground, picnic, and trail areas. The Black Rock parking lot is currently closed for streambank rehabilitation, so do not navigate there expecting normal vehicle access.",
+          "sourceLabel": "Maryland Department of Natural Resources",
+          "source": "https://dnr.maryland.gov/publiclands/Pages/central/seneca.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "entrance",
+          "question": "What is the best entrance for Seneca Creek State Park?",
+          "answer": "Use 11950 Clopper Road for the Clopper Day-Use Area, lake, playground, picnics, and Boat Center. The park stretches for miles along Seneca Creek, and Black Rock Mill, trailheads, and other access points are separate from the main lake entrance.",
+          "sourceLabel": "Maryland Department of Natural Resources",
+          "source": "https://dnr.maryland.gov/publiclands/Pages/central/seneca.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Are there restrooms at Seneca Creek State Park?",
+          "answer": "The park reports 11 restrooms, seven reached by paved walkways, with service concentrated in developed day-use and picnic areas. Building and seasonal restroom availability can differ from the broader park schedule.",
+          "sourceLabel": "Maryland Department of Natural Resources",
+          "source": "https://dnr.maryland.gov/publiclands/Pages/central/seneca.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "fees",
+          "question": "Is Seneca Creek State Park free?",
+          "answer": "Most weekday day use is free. On weekends and holidays from April through October, the posted service charge is $3 per person for Maryland residents and $5 per person for out-of-state visitors; children in car or booster seats and qualifying pass holders enter free.",
+          "sourceLabel": "Maryland Department of Natural Resources",
+          "source": "https://dnr.maryland.gov/publiclands/Pages/central/seneca.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "accessibility",
+          "question": "How accessible is Seneca Creek State Park?",
+          "answer": "The park has an accessible office, six accessible pavilions, accessible family picnic sites, seven restrooms reached by paved walkways, and a paved lakefront fishing route at the Boat Center. Hiking trails are unpaved and may include roots, steps, and steep slopes.",
+          "sourceLabel": "Maryland Department of Natural Resources",
+          "source": "https://dnr.maryland.gov/publiclands/Pages/central/seneca.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "dogs",
+          "question": "Are dogs allowed at Seneca Creek State Park?",
+          "answer": "Leashed pets are allowed in permitted park areas, but pets other than service animals are not permitted in rental boats. Keep pets away from wildlife, active launching, playground equipment, and any posted restricted area.",
+          "sourceLabel": "Maryland Department of Natural Resources",
+          "source": "https://dnr.maryland.gov/publiclands/Pages/central/seneca.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "family",
+          "question": "Is Seneca Creek State Park good for children?",
+          "answer": "Clopper Lake views, the Tire Playground, picnics, fishing access, seasonal boats, and shorter trails can support a full family day. Swimming and wading are prohibited in Clopper Lake, and children need close supervision at every shoreline and dock.",
+          "sourceLabel": "Maryland Department of Natural Resources",
+          "source": "https://dnr.maryland.gov/publiclands/Pages/central/seneca.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "transit",
+          "question": "How do I reach Seneca Creek State Park without a car?",
+          "answer": "The park is primarily vehicle-oriented and spread across a large landscape. If using rideshare, select the exact day-use destination and arrange a return before entering a trail or remote historic-site area.",
+          "sourceLabel": "Maryland Department of Natural Resources",
+          "source": "https://dnr.maryland.gov/publiclands/Pages/central/seneca.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "need-to-know",
+          "question": "What should I know before visiting Seneca Creek State Park?",
+          "answer": "Swimming and wading are prohibited in Clopper Lake. Current alerts also close the Black Rock parking lot and the bridge connection between Long Draft and Mink Hollow trails; boat operations, storm closures, trail conditions, and park alerts should be checked the same day.",
+          "sourceLabel": "Maryland Department of Natural Resources",
+          "source": "https://dnr.maryland.gov/publiclands/Pages/central/seneca.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "food",
+          "question": "Should I bring food and water to Seneca Creek State Park?",
+          "answer": "Bring water and a backup snack unless a currently open concession is confirmed near the exact destination. Food availability, vending, and event vendors are not consistent across this large public place.",
+          "sourceLabel": "Maryland Department of Natural Resources",
+          "source": "https://dnr.maryland.gov/publiclands/Pages/central/seneca.aspx",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        }
+      ],
+      "image": {
+        "slug": "clopper-lake",
+        "url": "/assets/parks/washington-dc-super/gaithersburg/seneca-creek-state-park/clopper-lake.webp",
+        "source": "https://www.flickr.com/photos/13194817@N00/48381603686",
+        "author": "F Delventhal",
+        "license": "CC BY 2.0",
+        "alt": "Seneca Creek State Park in Gaithersburg, MD",
+        "latitude": 39.1181249,
+        "longitude": -77.2983938,
+        "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
+      },
+      "additionalImages": [
+        {
+          "slug": "tire-playground",
+          "url": "/assets/parks/washington-dc-super/gaithersburg/seneca-creek-state-park/tire-playground.webp",
+          "source": "https://www.flickr.com/photos/13194817@N00/48395219896",
+          "author": "F Delventhal",
+          "license": "CC BY 2.0",
+          "alt": "Seneca Creek State Park in Gaithersburg, MD",
+          "latitude": 39.1181249,
+          "longitude": -77.2983938,
+          "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
+        },
+        {
+          "slug": "clopper-lake-boat-center",
+          "url": "/assets/parks/washington-dc-super/gaithersburg/seneca-creek-state-park/clopper-lake-boat-center.webp",
+          "source": "https://www.flickr.com/photos/13194817@N00/48403045812",
+          "author": "F Delventhal",
+          "license": "CC BY 2.0",
+          "alt": "Seneca Creek State Park in Gaithersburg, MD",
+          "latitude": 39.1181249,
+          "longitude": -77.2983938,
+          "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
+        },
+        {
+          "slug": "black-rock-mill",
+          "url": "/assets/parks/washington-dc-super/gaithersburg/seneca-creek-state-park/black-rock-mill.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Remains_of_the_Black_Rock_Mill_in_Seneca_Creek_State_Park_MD.jpg",
+          "author": "Aneta Kaluzna",
+          "license": "CC BY-SA 2.5",
+          "alt": "Seneca Creek State Park in Gaithersburg, MD",
+          "latitude": 39.1181249,
+          "longitude": -77.2983938,
+          "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
+        },
+        {
+          "slug": "seneca-fall-reflections",
+          "url": "/assets/parks/washington-dc-super/gaithersburg/seneca-creek-state-park/seneca-fall-reflections.webp",
+          "source": "https://www.flickr.com/photos/82955120@N05/15620725287",
+          "author": "Bold Frontiers",
+          "license": "CC BY 2.0",
+          "alt": "Seneca Creek State Park in Gaithersburg, MD",
+          "latitude": 39.1181249,
+          "longitude": -77.2983938,
+          "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
+        }
+      ],
+      "verifiedAt": "2026-08-10"
     }
   }
 }
