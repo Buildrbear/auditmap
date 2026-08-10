@@ -58,14 +58,8 @@ const featureProfiles = {
     { image: 2, description: "The ADA-accessible South Street Bridge ramp connects the bridge's northeast side to the Boardwalk; bicycles must be walked on the ramp." }
   ],
   "launch-pa-philadelphia-spruce-street-harbor-park": [
-    { image: 0, description: "The hammock grove is the park's signature free relaxation area; hammocks are first-come, seasonal, and busiest on warm evenings and event days." },
-    { image: 1, description: "The floating gardens and net lounges sit over the Delaware River and offer distinctive seating, but capacity, weather, and water-edge conditions matter." },
-    { image: 3, description: "Food and drink vendors operate seasonally inside the park; menus, bar service, payment options, and hours vary by day and weather." },
-    { image: 2, description: "The Penn's Landing riverfront games area adds free and paid play near the promenade, with activity and access changing around festivals." },
-    { image: 1, description: "The Barge Oasis extends seating and plantings over the Delaware River, with narrow transitions, limited capacity, and closures possible during wind or storms." },
-    { image: 2, description: "The adjacent RiverRink complex hosts seasonal roller skating, ice skating, rides, food, and events with separate tickets and hours from Harbor Park." },
-    { image: 3, description: "The marina-facing edge provides boat and river views beside working docks; public access, charters, and dock gates vary, and the water edge needs close supervision." },
-    { image: 0, description: "The South Street pedestrian entrance is the clearest walk-in gateway from Society Hill, connecting directly to the hammock and vendor areas across Columbus Boulevard." }
+    { image: 0, description: "The free hammock grove and adjacent Lazy Hammock performance-and-bar area form the park's central gathering zone, with first-come seating and separate bar and event schedules." },
+    { image: 1, description: "The Christopher Columbus Memorial is a permanent mapped artwork inside Spruce Street Harbor Park, useful as a compact landmark but separate from the seasonal attractions around it." }
   ],
   "launch-pa-philadelphia-independence-national-historical-park": [
     { image: 0, description: "The Independence Visitor Center is the practical first stop for current schedules, maps, accessible restrooms, wheelchairs, films, and ranger guidance." },
@@ -156,7 +150,7 @@ function feature(place, name, index, images) {
     };
     if (!Number.isFinite(place.latitude) || !Number.isFinite(place.longitude)) throw new Error(`${place.name}: coordinates missing`);
     const images = galleries.places[place.id]?.images || [];
-    if (images.length < 4) throw new Error(`${place.name}: gallery incomplete`);
+    if (images.length < (scope.minImages || 4)) throw new Error(`${place.name}: gallery incomplete`);
     const searchAnswers = customFacts[place.id] ? makeAnswers(place) : (prior.searchAnswers || makeAnswers(place));
     const record = { id: place.id, name: place.name, type: "Park", city: "Philadelphia", state: "PA", country: "US", citySlug: "philadelphia-PA", slug: slugify(place.name), searchCategory: "park", neighborhood: "Philadelphia", status: "Sourced public-access visitor guide", summary: place.summary, searchDescription: `Hours, parking, real photos, mapped destinations, and essential visitor answers for ${place.name} in Philadelphia.`, address: place.address, latitude: place.latitude, longitude: place.longitude, hours: place.hours, cost: place.cost, accessibility: place.accessibility, sourceLabel: place.operator, source: place.source, verifiedAt: place.verifiedAt || checkedAt, operator: place.operator, image: images[0], images: images.slice(1), sources: [{ label: place.operator, url: place.source }], launchTier: "anchor", likelySubsites: true, publishStatus: "super-enriched", researchQueue: [], transit: place.transit, searchAnswers, features: place.subsites.map((name, index) => feature(place, name, index, images)), amenities: [], comments: [] };
     upsert(all, record); upsert(pilot, record);

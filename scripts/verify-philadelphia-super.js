@@ -12,7 +12,7 @@ for (const expected of campaign.places) {
   const place = places.find((item) => item.id === expected.id);
   if (!place) { failures.push(`${expected.name}: missing from map data`); continue; }
   const images = [place.image, ...(place.images || [])].filter((image) => image?.url);
-  if (images.length < 4) failures.push(`${place.name}: only ${images.length} images`);
+  if (images.length < (expected.minImages || 4)) failures.push(`${place.name}: only ${images.length} images`);
   if ((place.features || []).length !== expected.subsites.length) failures.push(`${place.name}: expected ${expected.subsites.length} subsites, found ${(place.features || []).length}`);
   if ((place.searchAnswers || []).length < 11) failures.push(`${place.name}: fewer than 11 answers`);
   for (const feature of place.features || []) {
@@ -67,6 +67,13 @@ for (const [name, sourceToken] of [["Schuylkill Banks Boardwalk", "Philadelphia_
   const feature = schuylkill?.features?.find((item) => item.name === name);
   if (!feature) failures.push(`Schuylkill Banks: missing ${name}`);
   else if (!(feature.details?.imageSourceUrl || "").includes(sourceToken)) failures.push(`Schuylkill Banks/${name}: destination image does not match`);
+}
+const spruce = places.find((place) => place.id === "launch-pa-philadelphia-spruce-street-harbor-park");
+for (const phrase of ["Sunday-Thursday 11 a.m.-10 p.m.", "activities and bars close at least 30 minutes", "I-95 CAP construction", "Chiliboats", "Family Fun Day", "not permitted in hammocks or on the barge"]) if (!JSON.stringify(spruce).toLowerCase().includes(phrase.toLowerCase())) failures.push(`Spruce Street Harbor Park: missing ${phrase}`);
+for (const [name, sourceToken] of [["Hammock Grove and Lazy Hammock", "Spruce_Street_Harbor_Park"], ["Christopher Columbus Memorial", "Christopher_Columbus_Memorial%2C_Philadelphia_01"]]) {
+  const feature = spruce?.features?.find((item) => item.name === name);
+  if (!feature) failures.push(`Spruce Street Harbor Park: missing ${name}`);
+  else if (!(feature.details?.imageSourceUrl || "").includes(sourceToken)) failures.push(`Spruce Street Harbor Park/${name}: destination image does not match`);
 }
 const fairmount = places.find((place) => place.id === "launch-pa-philadelphia-fairmount-park");
 for (const phrase of ["Lemon Hill park is currently closed", "Wednesday through Saturday, 10 a.m.-5 p.m.", "more than 50 outdoor play structures", "timed ticket and capacity is limited", "second and third Sundays 11 a.m.-4:30 p.m."]) if (!JSON.stringify(fairmount).includes(phrase)) failures.push(`Fairmount Park: missing ${phrase}`);
