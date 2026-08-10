@@ -69601,6 +69601,140 @@
       "verifiedAt": "2026-08-08"
     },
     "launch-al-birmingham-railroad-park": {
+      "operator": "Railroad Park Foundation for the City of Birmingham",
+      "sourceLabel": "Railroad Park",
+      "source": "https://railroadpark.org/about/about-us/",
+      "hours": "Railroad Park is open daily from 7:00 a.m. to 11:00 p.m., 365 days a year.",
+      "cost": "General park, playground, walking, lawn, and public-program access is free; metered parking, café purchases, rentals, and special events may charge separately.",
+      "summary": "Railroad Park is Birmingham's 19-acre downtown front lawn, with a nearly three-quarter-mile outer loop, elevated Rail Trail, ponds and streams, city views, two age-specific playgrounds, climbing dome, nine acres of lawn, shaded plaza, restrooms, ranger presence, café, and frequent free programs.",
+      "searchAnswers": [
+        {
+          "intentKey": "hours",
+          "question": "What hours is Railroad Park open?",
+          "answer": "Railroad Park is open daily from 7 a.m. to 11 p.m., 365 days a year. Rangers patrol the park and a security system monitors it around the clock, but visitors must leave by closing.",
+          "sourceLabel": "Railroad Park",
+          "source": "https://railroadpark.org/about/faqs/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "entrance",
+          "question": "What address should I use for Railroad Park?",
+          "answer": "Use 1600 First Avenue South, Birmingham, AL 35233. The park extends from 14th to 18th Streets along the railroad tracks, directly across from Regions Field.",
+          "sourceLabel": "Railroad Park",
+          "source": "https://railroadpark.org/about/faqs/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "parking",
+          "question": "Where should I park for Railroad Park?",
+          "answer": "Use metered street parking along First Avenue South or within three to four blocks. Do not use spaces reserved for neighboring businesses because vehicles may be ticketed or towed; meters are free after 6 p.m. and on weekends under the published policy.",
+          "sourceLabel": "Railroad Park",
+          "source": "https://railroadpark.org/about/faqs/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Where are the restrooms at Railroad Park?",
+          "answer": "Restrooms are at the 17th Street Plaza behind the Railroad Park Foundation office, near the ranger station and café. They are more central than the park's outer lawns and trail ends.",
+          "sourceLabel": "Railroad Park",
+          "source": "https://railroadpark.org/about/faqs/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "trail-surface",
+          "question": "How long is the walking loop at Railroad Park?",
+          "answer": "The outer loop is just under three-quarters of a mile. Paved and hard-surface paths wind through the park, while the Rail Trail runs its length and rises to skyline viewpoints.",
+          "sourceLabel": "Railroad Park",
+          "source": "https://railroadpark.org/about/about-us/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "playground",
+          "question": "Are there playgrounds at Railroad Park?",
+          "answer": "Yes. Two modern play areas are designed for different age groups, and a climbing dome adds another play feature. Children under 16 should be supervised under park rules.",
+          "sourceLabel": "Railroad Park",
+          "source": "https://railroadpark.org/about/about-us/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "dog-area",
+          "question": "Are dogs allowed at Railroad Park?",
+          "answer": "Yes, but dogs must remain leashed and under the owner's control throughout the park. Owners must clean up after them; there is no designated off-leash dog area.",
+          "sourceLabel": "Railroad Park",
+          "source": "https://railroadpark.org/about/about-us/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "fees",
+          "question": "Is Railroad Park free?",
+          "answer": "Yes. General admission, lawns, paths, playgrounds, and many public programs are free. Metered parking, café items, rentals, vendors, and some special events have separate costs.",
+          "sourceLabel": "Railroad Park",
+          "source": "https://railroadpark.org/about/faqs/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "closures",
+          "question": "What can affect Railroad Park access?",
+          "answer": "Regions Field games, concerts, festivals, private rentals, maintenance, and downtown street closures can change parking or restrict individual lawns and plazas. Check the park event calendar before a time-sensitive visit.",
+          "sourceLabel": "Railroad Park",
+          "source": "https://railroadpark.org/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "shade",
+          "question": "Where can visitors find shade or weather shelter at Railroad Park?",
+          "answer": "Sections A and B of the 17th Street Plaza are the park's two covered spaces and provide the most dependable shade near the restrooms, ranger station, and cafe. Trees and structures cast intermittent shade elsewhere, but lawns, playgrounds, paths, and the elevated Rail Trail are exposed. Park programs are cancelled for inclement weather, and open covers are not safe in lightning or dangerous wind; use an open substantial building or vehicle.",
+          "sourceLabel": "Railroad Park",
+          "source": "https://railroadpark.org/about/faqs/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "picnic",
+          "question": "Can I bring a picnic to Railroad Park?",
+          "answer": "Yes. Visitors may bring ordinary outside food and use the lawns, but glass, outside alcohol, and all grilling or cooking are prohibited. Catered food, tents, tables, heavy furniture, electrical access, or a guaranteed gathering area require a park reservation and approved vendors. For a simple family picnic, bring a blanket and pack out trash; The Meadow is the park's recommended lunch area for visiting school groups.",
+          "sourceLabel": "Railroad Park",
+          "source": "https://railroadpark.org/about/faqs/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "splash-pad",
+          "question": "Can children play in the water features at Railroad Park?",
+          "answer": "No splash pad or swimming facility is listed at Railroad Park. Although water covers about 30 percent of the design, its lake, rain curtain, bio-filtration wetlands, ponds, and streams are landscape and stormwater features rather than managed water-play areas. Stay on paths and bridges and keep children out of the water. Railroad Park does have two playground areas; use a separately operated Birmingham aquatic facility for swimming or splash play.",
+          "sourceLabel": "Railroad Park Foundation",
+          "source": "https://railroadpark.org/about/about-us/",
+          "sourceType": "official-partner",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "transit",
+          "question": "Can I reach Railroad Park without a car?",
+          "answer": "Yes. Railroad Park is a compact downtown destination at 1600 First Avenue South, between 14th and 18th Streets, across from Regions Field. Birmingham buses and the downtown street grid can place visitors within a short walk, but routes and event detours change; use the Birmingham Xpress or MAX live planner with the exact address rather than a generic downtown stop, especially for an evening return.",
+          "sourceLabel": "Railroad Park Foundation",
+          "source": "https://railroadpark.org/about/faqs/",
+          "sourceType": "official-partner",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "public-art",
+          "question": "What should I see at Railroad Park?",
+          "answer": "The park's defining landscape combines its lake, Rain Curtain, biofiltration wetlands, ponds and streams with reused railroad bricks, cobblestones, walls, and seating. Key orientation points include the partially covered Regions Bank 17th Street Plaza, two playground areas, outdoor gym, Lawn Terraces, West Green, 14th and 18th Street overlooks, Powell Avenue Bridge and Promenade, and the elevated Rail Trail. The 19-acre park is compact, so a loop can connect most features without driving between them.",
+          "sourceLabel": "Railroad Park Foundation",
+          "source": "https://railroadpark.org/about/about-us/",
+          "sourceType": "official-partner",
+          "checkedAt": "2026-07-31"
+        }
+      ],
       "address": "1600 1st Avenue South, Birmingham, AL 35233",
       "image": {
         "url": "/assets/parks/southern-inland-super/railroad-park/01-railroad-park-birmingham-alabama-27852646136.webp",
@@ -69615,40 +69749,184 @@
       "additionalImages": [
         {
           "url": "/assets/parks/southern-inland-super/railroad-park/02-railroad-park-birmingham-alabama.webp",
-          "source": "https://www.flickr.com/photos/76792851@N07/46275221094",
+          "source": "https://www.flickr.com/photos/76792851@N07/46275218614",
           "author": "TexasExplorer98",
           "license": "BY 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-          "alt": "Open lawn and Birmingham skyline at Railroad Park",
+          "alt": "West Green lawn and walking paths at Railroad Park",
           "width": 1024,
           "height": 683
         },
         {
           "url": "/assets/parks/southern-inland-super/railroad-park/03-railroad-park-birmingham-alabama.webp",
-          "source": "https://www.flickr.com/photos/76792851@N07/40034799573",
+          "source": "https://www.flickr.com/photos/76792851@N07/46275203954",
           "author": "TexasExplorer98",
           "license": "BY 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-          "alt": "Railroad Park identity wall and visitor path",
+          "alt": "Covered 17th Street Plaza beside the lake at Railroad Park",
           "width": 1024,
           "height": 683
         },
         {
           "url": "/assets/parks/southern-inland-super/railroad-park/04-railroad-park-birmingham-alabama.webp",
-          "source": "https://www.flickr.com/photos/76792851@N07/46275203674",
+          "source": "https://www.flickr.com/photos/76792851@N07/32058033037",
           "author": "TexasExplorer98",
           "license": "BY 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-          "alt": "Play and gathering landscape at Railroad Park",
+          "alt": "Adventure Playground climbing dome and play equipment at Railroad Park",
           "width": 1024,
           "height": 683
         }
       ],
       "replaceImages": true,
-      "sources": [],
-      "verifiedAt": "2026-08-08"
+      "sources": [
+        {
+          "label": "Railroad Park Foundation",
+          "url": "https://railroadpark.org/core/uploads/2023/04/RRPF-Map.pdf"
+        },
+        {
+          "label": "Railroad Park Foundation",
+          "url": "https://railroadpark.org/about/about-us/"
+        }
+      ],
+      "verifiedAt": "2026-08-10"
     },
     "launch-al-birmingham-red-mountain-park": {
+      "operator": "Jefferson County Greenways",
+      "sourceLabel": "Jefferson County Greenways",
+      "source": "https://www.jeffcogreenways.org/park/red-mountain-park",
+      "hours": "Red Mountain Park is open daily from 7:00 a.m. to 7:00 p.m., subject to published holiday closings.",
+      "cost": "Parking and general admission are free; memberships, programs, permits, events, rentals, and partner-operated activities may charge separately.",
+      "summary": "Red Mountain Park is a 1,500-acre Birmingham preserve with more than 18 miles of shared hiking and biking trails, mining-history ruins and overlooks, treehouses, picnic areas, outdoor classrooms, pollinator gardens, the accessible Butler Snow Sensory Trail, and six-acre Remy's Dog Park.",
+      "accessibility": "The Butler Snow Sensory Trail serves wheelchair users and visitors with developmental, low-vision, or low-hearing needs. Accessible restrooms, covered pavilion, and water fountain are at the Frankfurt Drive entrance.",
+      "searchAnswers": [
+        {
+          "intentKey": "hours",
+          "question": "What hours is Red Mountain Park open?",
+          "answer": "Red Mountain Park is open daily from 7 a.m. to 7 p.m., with separate holiday closings. Visitors should return to the trailhead before the gate closes.",
+          "sourceLabel": "Jefferson County Greenways",
+          "source": "https://www.jeffcogreenways.org/park/red-mountain-park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "entrance",
+          "question": "Which entrance should I use for Red Mountain Park?",
+          "answer": "Use 2011 Frankfurt Drive for the main entrance, accessible restrooms, covered pavilion, and water fountain. The second trailhead and parking lot is at 2019 Venice Road; choose it only when your planned trail starts there.",
+          "sourceLabel": "Jefferson County Greenways",
+          "source": "https://www.jeffcogreenways.org/park/red-mountain-park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "parking",
+          "question": "Is parking free at Red Mountain Park?",
+          "answer": "Yes. Both Frankfurt Drive and Venice Road have free parking lots. Space is finite, and trailhead circulation or construction can occasionally alter access, so use only designated spaces.",
+          "sourceLabel": "Jefferson County Greenways",
+          "source": "https://www.jeffcogreenways.org/park/red-mountain-park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Where are restrooms at Red Mountain Park?",
+          "answer": "Accessible restrooms, a covered pavilion, and a water fountain are at the Frankfurt Drive entrance. Portable restrooms are available at several trailheads, but there is no other running water, so carry enough for the hike.",
+          "sourceLabel": "Jefferson County Greenways",
+          "source": "https://www.jeffcogreenways.org/park/red-mountain-park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "trail-surface",
+          "question": "What are Red Mountain Park trails like?",
+          "answer": "More than 18 miles of shared hiking and biking trails range from approachable routes to rough, rocky, narrow climbs. Use the official map and match the route to your ability; all trails are multi-use.",
+          "sourceLabel": "Jefferson County Greenways",
+          "source": "https://www.jeffcogreenways.org/park/red-mountain-park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "accessibility",
+          "question": "Is there an accessible trail at Red Mountain Park?",
+          "answer": "Yes. The Butler Snow Sensory Trail is designed for wheelchair users and visitors with developmental differences, low vision, or low hearing. The Frankfurt entrance also has accessible restrooms and a covered pavilion.",
+          "sourceLabel": "Jefferson County Greenways",
+          "source": "https://www.jeffcogreenways.org/park/red-mountain-park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "dog-area",
+          "question": "Where is Remy's Dog Park?",
+          "answer": "Remy's is a shaded six-acre off-leash area within Red Mountain Park with separate fenced sections for large dogs, small dogs, and special-needs or single-dog use. Dogs must stay leashed on all trails outside its fences.",
+          "sourceLabel": "Jefferson County Greenways",
+          "source": "https://www.jeffcogreenways.org/park/red-mountain-park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "picnic",
+          "question": "Where can I picnic at Red Mountain Park?",
+          "answer": "Grouped picnic tables are at Regions Quarry and Protective Life picnic areas, with additional tables and benches distributed through the park. Carry out waste and do not enter closed mine openings.",
+          "sourceLabel": "Jefferson County Greenways",
+          "source": "https://www.jeffcogreenways.org/park/red-mountain-park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "closures",
+          "question": "What is closed at Red Mountain Park?",
+          "answer": "Riley's Roost treehouse is currently listed as temporarily closed, and all historic mine openings are permanently closed for safety. Weather, trail work, construction, and holiday schedules can affect other areas.",
+          "sourceLabel": "Jefferson County Greenways",
+          "source": "https://www.jeffcogreenways.org/park/red-mountain-park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "shade",
+          "question": "Where can visitors find shade or weather shelter at Red Mountain Park?",
+          "answer": "Most trails run beneath forest canopy and provide seasonal shade. The Frankfurt Drive entrance has an accessible restroom building, pavilion, and water fountain, while outdoor classrooms and picnic areas offer only open-air cover. Historic mine openings are closed and must never be entered for shelter; during lightning, dangerous wind, or severe weather, return to the entrance facility or a vehicle.",
+          "sourceLabel": "Jefferson County Greenways",
+          "source": "https://www.jeffcogreenways.org/park/red-mountain-park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "playground",
+          "question": "Is there a playground at Red Mountain Park?",
+          "answer": "Jefferson County Greenways does not list conventional playground equipment at Red Mountain Park. The family experience is trail- and nature-based, with forest walks, mining-history sites, overlooks, treehouses, picnic areas, and the accessible Sensory Trail. Choose another Birmingham park for swings or slides; at Red Mountain, match the trail to the child's ability and keep children away from closed mine openings, steep slopes, bicycles, heat, and storm-damaged or closed areas. The former ziplines, climbing wall, and adventure courses are not currently open.",
+          "sourceLabel": "Jefferson County Greenways",
+          "source": "https://www.jeffcogreenways.org/park/red-mountain-park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "splash-pad",
+          "question": "Is there a splash pad or swimming at Red Mountain Park?",
+          "answer": "No splash pad, pool, or designated swimming area is listed at Red Mountain Park. This is a reclaimed mining landscape managed for trails, forest habitat, overlooks, history, and a dog park. Small creeks, drainage channels, flooded depressions, and rainwater are natural or industrial-site features, not inspected water-play amenities. Carry drinking water, keep children and dogs out of unmapped water, and use a separately listed Birmingham aquatic facility for swimming.",
+          "sourceLabel": "Jefferson County Greenways",
+          "source": "https://www.jeffcogreenways.org/visit",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "transit",
+          "question": "Is there public transit to Red Mountain Park?",
+          "answer": "Jefferson County Greenways does not document direct fixed-route transit to the main Red Mountain Park trailhead. Use the current Birmingham MAX trip planner to see whether a perimeter stop works for your date, but do not rely on a generic park result: the entrance is separated from surrounding roads by a large reclaimed mining landscape. If no safe final walking route is shown, arrange a ride to the official entrance and confirm pickup before hiking.",
+          "sourceLabel": "Jefferson County Greenways",
+          "source": "https://www.jeffcogreenways.org/park/red-mountain-park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "public-art",
+          "question": "What are the main landmarks at Red Mountain Park?",
+          "answer": "Red Mountain Park preserves Birmingham's mining landscape across a large trail system. Named destinations on the official map include the Welcome Station, Ishkooda No. 13 and No. 14 mine sites, Regions Quarry and Protective Life picnic areas, three treehouses including Riley's Roost, Butler Snow Sensory Trail, Remy's Dog Park, scenic overlooks, and the Adventure Area. Some older maps also show aerial attractions; confirm current operations before expecting ziplines or climbing activities, and never enter mine openings or closed service roads.",
+          "sourceLabel": "Jefferson County Greenways",
+          "source": "https://oldsite.redmountainpark.org/wp-content/uploads/180810-RMP-papermap-both-sides.pdf",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        }
+      ],
       "address": "2011 Frankfurt Drive, Birmingham, AL 35211",
       "image": {
         "url": "/assets/parks/southern-inland-super/red-mountain-park/01-a-current-photo-of-the-entrance-at-red-mountain-the-iron-logo-shows-the-parks-rich-history.webp",
@@ -69680,9 +69958,152 @@
           "note": "Map location and address"
         }
       ],
-      "verifiedAt": "2026-08-08"
+      "verifiedAt": "2026-08-10"
     },
     "launch-al-birmingham-ruffner-mountain": {
+      "operator": "Ruffner Mountain Nature Coalition",
+      "sourceLabel": "Ruffner Mountain",
+      "source": "https://ruffner-mountain.squarespace.com/visit",
+      "hours": "The preserve, pavilion, and trails are open Tuesday through Sunday from 7:00 a.m. to 5:00 p.m. November through February and 7:00 a.m. to 7:00 p.m. March through October; closed Mondays. The Nature Center is generally open Thursday through Sunday from 9:00 a.m. to 5:00 p.m.",
+      "cost": "Nonmembers must purchase a $5 visitor parking permit; member parking is included with a current permit. Programs, memberships, rentals, and events may charge separately.",
+      "summary": "Ruffner Mountain is a Birmingham nonprofit nature preserve centered on forested ridge trails, quarry and mining history, overlooks, wildlife habitat, pavilion, and Nature Center. Capacity is intentionally limited by its single designated parking area, and visitors must arrive and leave within posted preserve hours.",
+      "searchAnswers": [
+        {
+          "intentKey": "hours",
+          "question": "What hours is Ruffner Mountain open?",
+          "answer": "Trails, preserve, and pavilion are open Tuesday–Sunday 7 a.m.–5 p.m. November–February and 7 a.m.–7 p.m. March–October; closed Mondays. The Nature Center is generally open Thursday–Sunday 9 a.m.–5 p.m., staffing permitting.",
+          "sourceLabel": "Ruffner Mountain",
+          "source": "https://ruffner-mountain.squarespace.com/visit",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "entrance",
+          "question": "What address should I use for Ruffner Mountain?",
+          "answer": "Use 1214 81st Street South, Birmingham, AL 35206. This routes to the designated preserve parking area and Nature Center; do not follow unofficial neighborhood approaches to trails.",
+          "sourceLabel": "Ruffner Mountain",
+          "source": "https://ruffner-mountain.squarespace.com/visit",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "parking",
+          "question": "How does parking work at Ruffner Mountain?",
+          "answer": "Nonmembers must buy a $5 visitor parking permit through ParkMobile or the pavilion vending machine; members display their permit. When the lot is full, the preserve is full, and parking along 81st Street is prohibited.",
+          "sourceLabel": "Ruffner Mountain",
+          "source": "https://ruffner-mountain.squarespace.com/visit",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "fees",
+          "question": "Does Ruffner Mountain charge admission?",
+          "answer": "The required visitor charge is structured as a $5 nonmember parking permit. Member parking is included with a valid permit; programs, events, memberships, and rentals may have separate costs.",
+          "sourceLabel": "Ruffner Mountain",
+          "source": "https://ruffner-mountain.squarespace.com/visit",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Are restrooms available at Ruffner Mountain?",
+          "answer": "Plan around the Nature Center and pavilion area for developed visitor facilities. Nature Center access is limited to its Thursday–Sunday schedule and staff capacity, so confirm before relying on indoor restrooms.",
+          "sourceLabel": "Ruffner Mountain",
+          "source": "https://ruffner-mountain.squarespace.com/visit",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "trail-surface",
+          "question": "What are the trails like at Ruffner Mountain?",
+          "answer": "Ruffner's preserve trails cross wooded, rocky ridge terrain and old quarry landscapes, with roots, uneven natural surfaces, slopes, and variable distances. Download the official preserve map before leaving the Nature Center area.",
+          "sourceLabel": "Ruffner Mountain",
+          "source": "https://ruffner-mountain.squarespace.com/visit",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "shade",
+          "question": "Are Ruffner Mountain trails shaded?",
+          "answer": "Much of the trail system runs through forest and receives substantial tree cover, but quarry openings, overlooks, and disturbed mining areas can be exposed. Carry water and use sun protection in warm weather.",
+          "sourceLabel": "Ruffner Mountain",
+          "source": "https://ruffner-mountain.squarespace.com/visit",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "closures",
+          "question": "Why might Ruffner Mountain stop admitting visitors?",
+          "answer": "The preserve closes Mondays, outside seasonal hours, and whenever its designated lot reaches capacity. Severe weather, trail damage, prescribed work, staffing, or special operations can also close trails or the Nature Center.",
+          "sourceLabel": "Ruffner Mountain",
+          "source": "https://ruffner-mountain.squarespace.com/visit",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "dog-area",
+          "question": "Are dogs allowed on Ruffner Mountain trails?",
+          "answer": "Yes. Ruffner Mountain welcomes dogs on its trails, but they must remain leashed. Leashes protect pets from wildlife, cliffs, quarry hazards, other dogs, and sensitive habitat, and owners must carry out waste.",
+          "sourceLabel": "Ruffner Mountain",
+          "source": "https://ruffner-mountain.squarespace.com/home-1/please-remember-to-leash-your-dog",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "picnic",
+          "question": "Can I picnic at Ruffner Mountain?",
+          "answer": "The pavilion and Nature Center area provide the most practical developed gathering base, but Ruffner is primarily a protected trail preserve rather than a general picnic park. Facility rentals and organized gatherings require advance arrangements, and all visitors still depend on limited designated parking.",
+          "sourceLabel": "Ruffner Mountain",
+          "source": "https://ruffner-mountain.squarespace.com/visit",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "accessibility",
+          "question": "What can visitors with limited mobility access at Ruffner Mountain?",
+          "answer": "The Nature Center and pavilion are the most developed visitor facilities. Preserve trails are natural-surface routes with roots, rocks, grades, quarry terrain, and weather-related mud, so review the official map and contact staff for a route matched to specific mobility needs.",
+          "sourceLabel": "Ruffner Mountain",
+          "source": "https://ruffner-mountain.squarespace.com/visit",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "playground",
+          "question": "Is there a playground at Ruffner Mountain?",
+          "answer": "Jefferson County Greenways does not list conventional playground equipment at Ruffner Mountain. Family visits center on the Nature Center's Wildlife Ambassadors, seasonal encounters and programs, pollinator gardens, the pavilion, and age-appropriate forest trails. Choose another Birmingham park for swings or slides. At Ruffner, keep children on marked routes and away from closed mine openings, quarry edges, wildlife, and rough terrain; bicycles are not permitted on the trails.",
+          "sourceLabel": "Jefferson County Greenways",
+          "source": "https://www.jeffcogreenways.org/park/ruffner-mountain",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "splash-pad",
+          "question": "Is there swimming or a splash pad at Ruffner Mountain?",
+          "answer": "No pool, splash pad, or designated swimming area is listed at Ruffner Mountain. It is a forested nature preserve and former mining landscape centered on hiking, wildlife, overlooks, quarry and mining history, and Nature Center programs. Ponds, quarry water, creeks, drainage areas, and stormwater are habitat or landscape features rather than inspected water play. Stay on marked trails, carry drinking water, and use a separately listed Birmingham aquatic facility for swimming.",
+          "sourceLabel": "Jefferson County Greenways",
+          "source": "https://www.jeffcogreenways.org/park/ruffner-mountain",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "transit",
+          "question": "Can I reach Ruffner Mountain without a car?",
+          "answer": "Yes. MAX On-Demand lists Ruffner Mountain as a destination in its Eastside service area and can connect with Woodlawn Transit Center and other neighborhood points. This is not a traditional fixed-route stop: book through the MAX Connect service, confirm the exact trailhead and pickup time, and do not assume the Nature Center entrance and eastern trailhead are interchangeable. Carry enough water and retain a backup return plan where cellular coverage may be weak.",
+          "sourceLabel": "MAX Transit",
+          "source": "https://maxtransit.org/ondemand/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "public-art",
+          "question": "What are the main landmarks at Ruffner Mountain?",
+          "answer": "The Nature Center at 1214 81st Street South is the best staffed starting point, with an exhibit hall of native wildlife ambassadors, pavilion, maps, restrooms, and access to the trail network. The signature hike follows Quarry and Quarry Overlook trails toward historic mining remnants, the limestone quarry, Cambrian Overlook, and broad Birmingham views. Ruffner has about 14 miles of mountainous trails and more than one access point, so download the preserve map and do not follow unmarked routes into old mining terrain.",
+          "sourceLabel": "Ruffner Mountain",
+          "source": "https://ruffner-mountain.squarespace.com/visit",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        }
+      ],
       "address": "1214 81st Street South, Birmingham, AL 35206",
       "image": {
         "url": "/assets/parks/southern-inland-super/ruffner-mountain/01-panorama-of-ruffner-mountain-nature-preserve-in-birmingham-al.webp",
@@ -69737,11 +70158,149 @@
           "label": "Wikipedia background",
           "url": "https://en.wikipedia.org/wiki/Ruffner_Mountain_Nature_Preserve",
           "note": "Background reference"
+        },
+        {
+          "label": "Ruffner Mountain",
+          "url": "https://ruffner-mountain.squarespace.com/visit"
         }
       ],
-      "verifiedAt": "2026-08-08"
+      "verifiedAt": "2026-08-10"
     },
     "launch-ms-jackson-lefleur-s-bluff-state-park": {
+      "operator": "Mississippi Department of Wildlife, Fisheries, and Parks",
+      "sourceLabel": "Mississippi Department of Wildlife, Fisheries, and Parks",
+      "source": "https://www.mdwfp.com/parks-destinations/park/lefleurs-bluff-state-park",
+      "hours": "LeFleur's Bluff State Park is open daily from 8:00 a.m. to 5:00 p.m. Campground access, Mississippi Museum of Natural Science, playground complex, golf, and special facilities use separate schedules.",
+      "cost": "Day-use entrance is $2 per person; children age five and under enter free. Camping, museum admission, pavilion rentals, golf, disc rentals, and other facilities charge separately.",
+      "summary": "LeFleur's Bluff State Park is a 305-acre urban state park in Jackson with Mayes Lake fishing and non-motorized paddling, boat launch, nature trails, 18-hole disc golf, two playground units, shaded picnic sites, five reservable pavilions, 28 developed campsites, 30 primitive tent sites, bathhouse, and direct connections to Mississippi Museum of Natural Science and LeFleur's Bluff playground complex.",
+      "searchAnswers": [
+        {
+          "intentKey": "entrance",
+          "question": "What address should I use for LeFleur's Bluff State Park?",
+          "answer": "Use 3315 Lakeland Terrace, Jackson, MS 39216 for the state park. Mississippi Museum of Natural Science uses 2148 Riverside Drive, so navigate to the exact entrance for camping, Mayes Lake, museum, playground, or golf.",
+          "sourceLabel": "Mississippi Department of Wildlife, Fisheries, and Parks",
+          "source": "https://www.mdwfp.com/parks-destinations/park/lefleurs-bluff-state-park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "hours",
+          "question": "What hours is LeFleur's Bluff State Park open?",
+          "answer": "General day-use hours are 8 a.m.-5 p.m. daily. The museum, campground, playground complex, golf course, and reserved facilities maintain separate schedules and holiday closures.",
+          "sourceLabel": "Mississippi Department of Wildlife, Fisheries, and Parks",
+          "source": "https://www.mdwfp.com/parks-destinations/park/lefleurs-bluff-state-park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "fees",
+          "question": "How much does LeFleur's Bluff State Park cost?",
+          "answer": "General entrance is $2 per person, with children age five and under free. The museum, camping, pavilions, golf, disc rental, and special activities charge separately.",
+          "sourceLabel": "Mississippi Department of Wildlife, Fisheries, and Parks",
+          "source": "https://www.mdwfp.com/parks-destinations/park/lefleurs-bluff-state-park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "playground",
+          "question": "Where are the playgrounds at LeFleur's Bluff?",
+          "answer": "The state park has two playground units between the pavilions in the Mayes Lake section. The larger LeFleur's Bluff playground complex near the museums is a separate destination with its own hours and holiday closures.",
+          "sourceLabel": "Mississippi Department of Wildlife, Fisheries, and Parks",
+          "source": "https://www.mdwfp.com/parks-destinations/park/lefleurs-bluff-state-park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "picnic",
+          "question": "Can I reserve a pavilion at LeFleur's Bluff?",
+          "answer": "Yes. Five picnic pavilions can be reserved for gatherings. The shaded Riverside day-use area also has picnic tables, some charcoal grills, and views toward a large playground.",
+          "sourceLabel": "Mississippi Department of Wildlife, Fisheries, and Parks",
+          "source": "https://www.mdwfp.com/parks-destinations/park/lefleurs-bluff-state-park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "trail-surface",
+          "question": "What trails are at LeFleur's Bluff State Park?",
+          "answer": "The park offers nature trails and an 18-hole disc golf course within its wooded urban landscape. Trail conditions change with rain and river or lake weather; use the interactive park map for current routing.",
+          "sourceLabel": "Mississippi Department of Wildlife, Fisheries, and Parks",
+          "source": "https://www.mdwfp.com/parks-destinations/park/lefleurs-bluff-state-park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "transit",
+          "question": "Can I launch a boat on Mayes Lake?",
+          "answer": "Yes. Visitors may launch their own boat, kayak, or paddleboard. Only electric trolling motors are allowed; jet boats are prohibited. Anglers ages 16-65 need a Mississippi fishing license.",
+          "sourceLabel": "Mississippi Department of Wildlife, Fisheries, and Parks",
+          "source": "https://www.mdwfp.com/parks-destinations/park/lefleurs-bluff-state-park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "closures",
+          "question": "Is LeFleur's Bluff golf course open?",
+          "answer": "No. The official park page currently says the golf course is closed for maintenance until further notice. Confirm the status before traveling for golf; the rest of the state park may remain open.",
+          "sourceLabel": "Mississippi Department of Wildlife, Fisheries, and Parks",
+          "source": "https://www.mdwfp.com/parks-destinations/park/lefleurs-bluff-state-park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "parking",
+          "question": "Where should I park at LeFleur's Bluff?",
+          "answer": "Use 3315 Lakeland Terrace for the Mayes Lake state-park side, camping, pavilions, lake, disc golf, and two park playgrounds. The Museum District playground and museums use the separate Museum Boulevard and Riverside Drive campus with parking at both museums.",
+          "sourceLabel": "Mississippi Department of Wildlife, Fisheries, and Parks",
+          "source": "https://www.mdwfp.com/parks-destinations/park/lefleurs-bluff-state-park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Where are restrooms at LeFleur's Bluff?",
+          "answer": "Day-use facilities and the Museum District have destination-specific restrooms, while overnight guests use a campground bathhouse with hot showers. Current renovation projects can affect bathhouse or concession facilities, so confirm with the park before relying on one location.",
+          "sourceLabel": "Mississippi Department of Wildlife, Fisheries, and Parks",
+          "source": "https://www.mdwfp.com/parks-destinations/park-projects",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "public-art",
+          "question": "Is the LeFleur's Bluff Playground the same as the state park playgrounds?",
+          "answer": "No. The inclusive LeFleur's Bluff Playground links the Natural Science and Children's museums on the Museum District campus and has its own hours and holiday closures. The Mayes Lake state-park section separately has two playground units between its pavilions.",
+          "sourceLabel": "Mississippi Department of Wildlife, Fisheries, and Parks",
+          "source": "https://www.mdwfp.com/museum-natural-science/lefleurs-bluff-playground",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "shade",
+          "question": "Where can I find shade or weather shelter at LeFleur's Bluff State Park?",
+          "answer": "The Riverside day-use area has a spacious shaded picnic section, and five reservable pavilions serve the park; wooded nature trails and campground areas also provide tree cover. Mayes Lake, playgrounds, disc golf, golf, boat launch, and open recreation areas can be exposed. The Museum of Natural Science and other complex buildings have separate admission and hours, and pavilions are not severe-weather shelters; during lightning, flooding, high wind, or dangerous heat, use a confirmed-open substantial building or enclosed vehicle.",
+          "sourceLabel": "Mississippi Department of Wildlife, Fisheries, and Parks",
+          "source": "https://www.mdwfp.com/parks-destinations/park/lefleurs-bluff-state-park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "dog-area",
+          "question": "Are dogs allowed at LeFleur's Bluff State Park?",
+          "answer": "Yes, but only in designated pet areas and on an adequate leash no longer than six feet. Pick up and dispose of waste, and remove any pet that disturbs other guests. Pets are prohibited in and around swimming-pool and lake-beach areas; museums, playgrounds, golf, events, lodging, and other separately managed facilities may apply additional restrictions.",
+          "sourceLabel": "Mississippi Department of Wildlife, Fisheries, and Parks",
+          "source": "https://www.mdwfp.com/parks-destinations/mississippi-state-park-rules-regulations",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "splash-pad",
+          "question": "Can you swim or use a splash pad at LeFleur's Bluff State Park?",
+          "answer": "No operating pool, splash pad, or designated swimming beach is listed for LeFleur's Bluff. Mayes Lake is presented for fishing, boat launching, kayaking, and paddleboarding with electric trolling motors only, not swimming. Use the lake only for the listed activities and choose another currently operating Jackson-area aquatic facility when swimming or water play is the goal.",
+          "sourceLabel": "Mississippi Department of Wildlife, Fisheries, and Parks",
+          "source": "https://www.mdwfp.com/parks-destinations/park/lefleurs-bluff-state-park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        }
+      ],
       "address": "3315 Lakeland Terrace, Jackson, MS 39216",
       "image": {
         "url": "/assets/parks/southern-inland-super/lefleur-s-bluff-state-park/01-lefleur-s-bluff-state-park-in-jackson-mississippi.webp",
@@ -69797,9 +70356,151 @@
           "url": "https://www.mdwfp.com/parks-destinations/park/lefleurs-bluff-state-park"
         }
       ],
-      "verifiedAt": "2026-08-08"
+      "verifiedAt": "2026-08-10"
     },
     "launch-ar-little-rock-two-rivers-park": {
+      "operator": "City of Little Rock Parks and Recreation",
+      "sourceLabel": "City of Little Rock",
+      "source": "https://www.littlerock.gov/!userfiles/editor/docs/parks/Trail%20Maps%2011%2013%2012_Two%20Rivers%20Park.pdf",
+      "cost": "General park, parking, playground, bridge, paved trail, natural trail, field, and river-view access is free; organized events, permits, rentals, and nearby partner facilities may charge separately.",
+      "summary": "Two Rivers Park is a peninsula-like Little Rock natural and recreation area at the Arkansas and Little Maumelle rivers, with paved and natural trails, open fields, playground, pavilion and restrooms, parking, and the 1,162-foot Two Rivers Park Bridge linking into the Arkansas River Trail toward River Mountain and Big Dam Bridge.",
+      "searchAnswers": [
+        {
+          "intentKey": "entrance",
+          "question": "What address should I use for Two Rivers Park?",
+          "answer": "Use 6900 Two Rivers Park Road, Little Rock, AR 72223 for the park-side lots, playground, pavilion, trails, and bridge approach. A separate River Mountain trailhead on the east side provides access from the Arkansas River Trail network.",
+          "sourceLabel": "City of Little Rock",
+          "source": "https://www.littlerock.gov/media/23398/2020_little_rock_parks_and_recreation_master_plan-compressed_1.pdf",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "parking",
+          "question": "Is there parking at Two Rivers Park?",
+          "answer": "Yes. Several designated lots serve the park road, playground, pavilion, fields, trails, and west side of Two Rivers Park Bridge. Spaces can fill on pleasant weekends, so arrive earlier for a cycling or family visit.",
+          "sourceLabel": "City of Little Rock",
+          "source": "https://www.littlerock.gov/%21userfiles/editor/docs/parks/Trail%20Maps%2011%2013%2012_Two%20Rivers%20Park.pdf",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Are there restrooms at Two Rivers Park?",
+          "answer": "Yes. A restroom building serves the main park and playground area, and restrooms have also been installed near the Arkansas River Trail bridge approach. Hours and maintenance status can vary.",
+          "sourceLabel": "City of Little Rock",
+          "source": "https://www.littlerock.gov/media/6456/2020-clr-lab-bfc-application-final.pdf",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "trail-surface",
+          "question": "What are the trails like at Two Rivers Park?",
+          "answer": "The park combines smooth paved shared-use paths and the bridge connection with natural wooded and riverside trails. Low natural sections can become muddy or flood after heavy rain, while paved routes are the more predictable accessible choice.",
+          "sourceLabel": "City of Little Rock",
+          "source": "https://www.littlerock.gov/%21userfiles/editor/docs/parks/Trail%20Maps%2011%2013%2012_Two%20Rivers%20Park.pdf",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "playground",
+          "question": "Is there a playground at Two Rivers Park?",
+          "answer": "Yes. The playground is near the main park restroom and parking area, separate from the longer bridge and trail experience. Use the Two Rivers Park Road entrance for the shortest family arrival.",
+          "sourceLabel": "City of Little Rock",
+          "source": "https://www.littlerock.gov/media/23398/2020_little_rock_parks_and_recreation_master_plan-compressed_1.pdf",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "accessibility",
+          "question": "Is Two Rivers Park suitable for wheelchairs or strollers?",
+          "answer": "The paved park paths and 1,162-foot bridge provide the most predictable smooth route, with parking and restroom access near the main recreation area. Natural trails can be narrow, muddy, or flood-prone.",
+          "sourceLabel": "Arkansas River Trail",
+          "source": "https://arkansasrivertrail.org/wp-content/uploads/2022/05/ArkansasRiverTrail-brochure2017.pdf",
+          "sourceType": "official-partner",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "fees",
+          "question": "Is Two Rivers Park free?",
+          "answer": "General park entry, parking, playground, bridge, paved paths, natural trails, and open fields are free. Organized events, permits, rentals, and partner activities may have separate charges.",
+          "sourceLabel": "City of Little Rock",
+          "source": "https://www.littlerock.gov/%21userfiles/editor/docs/parks/Trail%20Maps%2011%2013%2012_Two%20Rivers%20Park.pdf",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "closures",
+          "question": "What can close Two Rivers Park trails?",
+          "answer": "River flooding, saturated natural trails, storm damage, bridge or pavement repairs, and construction can close individual routes while the main park remains open. Check Little Rock Parks notices after high water or severe weather.",
+          "sourceLabel": "City of Little Rock",
+          "source": "https://www.littlerock.gov/%21userfiles/editor/docs/parks/Trail%20Maps%2011%2013%2012_Two%20Rivers%20Park.pdf",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "picnic",
+          "question": "Can I reserve the pavilion at Two Rivers Park?",
+          "answer": "Two Rivers Park includes a pavilion, picnic tables, restrooms, and parking. Little Rock pavilion reservations generally require advance notice, so contact Parks and Recreation to confirm whether the pavilion is reservable, current fees, and any event requirements.",
+          "sourceLabel": "City of Little Rock",
+          "source": "https://littlerock.gov/wp-content/uploads/ParksandRecreation/MPCA_Master_Plan.pdf",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "fees",
+          "question": "How large is the Two Rivers Park trail system?",
+          "answer": "The regional recreation plan inventories roughly 1.7 miles of multi-use paved trail, 3.7 miles of narrower paved walking routes, 0.6 mile of mountain biking, and 2.6 miles of hiking within Two Rivers Park. Conditions and open segments change with flooding and repairs.",
+          "sourceLabel": "City of Little Rock",
+          "source": "https://littlerock.gov/wp-content/uploads/ParksandRecreation/MPCA_Master_Plan.pdf",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "transit",
+          "question": "How does Two Rivers Park connect to the Arkansas River Trail?",
+          "answer": "The 1,162-foot pedestrian bridge connects the park to River Mountain and the broader Arkansas River Trail toward Big Dam Bridge. This makes the park a practical walking and cycling destination, but bridge or riverfront work can interrupt through travel.",
+          "sourceLabel": "City of Little Rock",
+          "source": "https://littlerock.gov/residents/parks-and-recreation/city-park-information/trail-maps/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "shade",
+          "question": "Where can I find shade or weather shelter at Two Rivers Park?",
+          "answer": "A pavilion and scattered tree cover serve the picnic area near the confluence, but the pedestrian bridge, open fields, river edges, community garden, and long paved trails are exposed. The park does not have a dependable staffed indoor visitor building, and its low river setting can close during or after flooding. A picnic pavilion is not safe for lightning or high wind; leave the river corridor and use an open substantial building or vehicle.",
+          "sourceLabel": "City of Little Rock",
+          "source": "https://www.littlerock.gov/media/23398/2020_little_rock_parks_and_recreation_master_plan-compressed_1.pdf",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "dog-area",
+          "question": "Can I bring a dog to Two Rivers Park?",
+          "answer": "Yes. Two Rivers is used as a dog-friendly walking destination, but it is not a fenced dog park: keep pets leashed and under control on the paved trail, bridge, natural paths, fields, and river edges, and remove all waste. Wildlife and shared bicycle traffic make an attached leash especially important even in the broad open fields.",
+          "sourceLabel": "Pulaski County",
+          "source": "https://www.pulaskicounty.net/parks",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "splash-pad",
+          "question": "Can children swim or use a splash pad at Two Rivers Park?",
+          "answer": "No splash pad, pool, or designated swimming beach is listed at Two Rivers Park. The Arkansas and Little Maumelle river edges are natural waterways with currents, changing levels, steep or muddy banks, debris, and no lifeguards. Keep children back from the shoreline, follow flood closures, and use a separately operated Little Rock aquatic facility for water play.",
+          "sourceLabel": "Pulaski County",
+          "source": "https://www.pulaskicounty.net/parks",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        },
+        {
+          "intentKey": "public-art",
+          "question": "What are the main landmarks at Two Rivers Park?",
+          "answer": "Two Rivers Bridge is the primary eastern gateway, carrying the Arkansas River Trail over the Little Maumelle River into the park. From there, paved and natural trails cross wetlands and open fields toward the confluence of the Arkansas and Little Maumelle rivers. Other practical anchors include the community garden, inclusive playground, pavilion, restrooms, picnic area, equestrian trail, and boat access. The park is low-lying and can flood, so never cross water covering a trail or ignore a closure.",
+          "sourceLabel": "City of Little Rock",
+          "source": "https://littlerock.gov/residents/parks-and-recreation/city-park-information/trail-maps/arkansas-river-trail/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-31"
+        }
+      ],
       "address": "6900 Two Rivers Park Road, Little Rock, AR 72223",
       "image": {
         "url": "/assets/parks/southern-inland-super/two-rivers-park/01-two-rivers-park-bridge-little-rock-arkansas.webp",
@@ -69840,7 +70541,7 @@
           "url": "https://www.littlerock.gov/!userfiles/editor/docs/parks/Trail%20Maps%2011%2013%2012_Two%20Rivers%20Park.pdf"
         }
       ],
-      "verifiedAt": "2026-08-08"
+      "verifiedAt": "2026-08-10"
     },
     "launch-ny-buffalo-delaware-park": {
       "address": "199 Lincoln Parkway, Buffalo, NY 14222",

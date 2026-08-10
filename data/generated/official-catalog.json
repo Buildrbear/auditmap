@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T03:02:57.665Z",
+  "generatedAt": "2026-08-10T03:26:53.405Z",
   "places": [
     {
       "id": "basic-osm-way-33060929",
@@ -100064,7 +100064,7 @@
         "label": "Railroad Park",
         "url": "https://railroadpark.org/about/about-us/"
       },
-      "verifiedAt": "2026-08-08",
+      "verifiedAt": "2026-08-10",
       "facts": [
         {
           "key": "hours",
@@ -100073,7 +100073,7 @@
           "scope": "place",
           "sourceLabel": "Railroad Park",
           "sourceUrl": "https://railroadpark.org/about/about-us/",
-          "checkedAt": "2026-08-08",
+          "checkedAt": "2026-08-10",
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
@@ -100085,7 +100085,7 @@
           "scope": "place",
           "sourceLabel": "Railroad Park",
           "sourceUrl": "https://railroadpark.org/about/about-us/",
-          "checkedAt": "2026-08-08",
+          "checkedAt": "2026-08-10",
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
@@ -100097,7 +100097,7 @@
           "scope": "place",
           "sourceLabel": "Railroad Park",
           "sourceUrl": "https://railroadpark.org/about/about-us/",
-          "checkedAt": "2026-08-08",
+          "checkedAt": "2026-08-10",
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
@@ -100109,7 +100109,7 @@
           "scope": "place",
           "sourceLabel": "Railroad Park",
           "sourceUrl": "https://railroadpark.org/about/about-us/",
-          "checkedAt": "2026-08-08",
+          "checkedAt": "2026-08-10",
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
@@ -100281,10 +100281,52 @@
           "expiresAt": null,
           "sourceType": "official-partner",
           "verificationStatus": "verified"
+        },
+        {
+          "key": "west-green",
+          "label": "West Green",
+          "value": "West Green is the large lawn-and-path area at Railroad Park's west end, beside the 14th Street side of the park and the West Gate.",
+          "scope": "feature",
+          "featureId": "7f6f8b67-11c0-4491-9af3-22b0d2647c3d",
+          "featureType": "destination",
+          "positionQuality": "reviewed-geotagged-destination-photo",
+          "sourceLabel": "Railroad Park Foundation",
+          "sourceUrl": "https://railroadpark.org/core/uploads/2023/04/RRPF-Map.pdf",
+          "checkedAt": "2026-08-10",
+          "expiresAt": null,
+          "sourceType": "official"
+        },
+        {
+          "key": "17th-street-plaza",
+          "label": "17th Street Plaza",
+          "value": "17th Street Plaza is Railroad Park's central covered gathering area and the location of the ranger station, Foundation office, public restrooms, and Boxcar Cafe.",
+          "scope": "feature",
+          "featureId": "60fff78f-ff6d-4a50-8501-3adafba1294f",
+          "featureType": "destination",
+          "positionQuality": "reviewed-geotagged-destination-photo",
+          "sourceLabel": "Railroad Park Foundation",
+          "sourceUrl": "https://railroadpark.org/about/about-us/",
+          "checkedAt": "2026-08-10",
+          "expiresAt": null,
+          "sourceType": "official"
+        },
+        {
+          "key": "adventure-playground",
+          "label": "Adventure Playground",
+          "value": "Adventure Playground is Railroad Park's play area with modern equipment and a climbing dome, positioned near The Meadow and the separate toddler play area.",
+          "scope": "feature",
+          "featureId": "99ea4dcb-6383-4643-a052-db65a12cf19c",
+          "featureType": "destination",
+          "positionQuality": "reviewed-geotagged-destination-photo",
+          "sourceLabel": "Railroad Park Foundation",
+          "sourceUrl": "https://railroadpark.org/about/about-us/",
+          "checkedAt": "2026-08-10",
+          "expiresAt": null,
+          "sourceType": "official"
         }
       ],
       "unresolved": [
-        "Four-photo parent gallery is ready; secure exact reusable photographs and reviewed pins for the Rail Trail, 17th Street Plaza, playgrounds, Powell Avenue Promenade, and West Green before publishing subsites."
+        "Published West Green, 17th Street Plaza, and Adventure Playground from official-map matches and geotagged reusable photos. Secure exact photo-and-pin pairs before adding the toddler playground, Rail Trail, Powell Avenue Promenade, The Meadow, overlooks, amphitheater, or gardens."
       ]
     },
     {
@@ -100298,7 +100340,7 @@
         "label": "Jefferson County Greenways",
         "url": "https://www.jeffcogreenways.org/park/red-mountain-park"
       },
-      "verifiedAt": "2026-08-08",
+      "verifiedAt": "2026-08-10",
       "facts": [
         {
           "key": "hours",
@@ -100307,7 +100349,7 @@
           "scope": "place",
           "sourceLabel": "Jefferson County Greenways",
           "sourceUrl": "https://www.jeffcogreenways.org/park/red-mountain-park",
-          "checkedAt": "2026-08-08",
+          "checkedAt": "2026-08-10",
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
@@ -100319,7 +100361,7 @@
           "scope": "place",
           "sourceLabel": "Jefferson County Greenways",
           "sourceUrl": "https://www.jeffcogreenways.org/park/red-mountain-park",
-          "checkedAt": "2026-08-08",
+          "checkedAt": "2026-08-10",
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
@@ -100331,7 +100373,7 @@
           "scope": "place",
           "sourceLabel": "Jefferson County Greenways",
           "sourceUrl": "https://www.jeffcogreenways.org/park/red-mountain-park",
-          "checkedAt": "2026-08-08",
+          "checkedAt": "2026-08-10",
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
@@ -100343,7 +100385,7 @@
           "scope": "place",
           "sourceLabel": "Jefferson County Greenways",
           "sourceUrl": "https://www.jeffcogreenways.org/park/red-mountain-park",
-          "checkedAt": "2026-08-08",
+          "checkedAt": "2026-08-10",
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
@@ -100522,7 +100564,7 @@
           "intentKey": "photos",
           "question": "Add 1 more real, reusable park photograph with credits."
         },
-        "Parent guide has two exact photos; secure two more park-wide views plus destination-specific photo-and-pin pairs for the Sensory Trail, Remy's Dog Park, mine sites, treehouses, quarry, and overlooks."
+        "Parent guide has two exact photos. The reusable Redding Shaft photo lacks authoritative embedded coordinates, and the other priority destinations lack reusable exact photos; secure photo-and-pin pairs for the Sensory Trail, Remy's Dog Park, mine sites, treehouses, quarry, and overlooks."
       ]
     },
     {
@@ -100536,7 +100578,7 @@
         "label": "Ruffner Mountain",
         "url": "https://ruffner-mountain.squarespace.com/visit"
       },
-      "verifiedAt": "2026-08-08",
+      "verifiedAt": "2026-08-10",
       "facts": [
         {
           "key": "hours",
@@ -100557,7 +100599,7 @@
           "scope": "place",
           "sourceLabel": "Ruffner Mountain",
           "sourceUrl": "https://ruffner-mountain.squarespace.com/visit",
-          "checkedAt": "2026-08-08",
+          "checkedAt": "2026-08-10",
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
@@ -100569,7 +100611,7 @@
           "scope": "place",
           "sourceLabel": "Ruffner Mountain",
           "sourceUrl": "https://ruffner-mountain.squarespace.com/visit",
-          "checkedAt": "2026-08-08",
+          "checkedAt": "2026-08-10",
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
@@ -100581,7 +100623,7 @@
           "scope": "place",
           "sourceLabel": "Ruffner Mountain",
           "sourceUrl": "https://ruffner-mountain.squarespace.com/visit",
-          "checkedAt": "2026-08-08",
+          "checkedAt": "2026-08-10",
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
@@ -100765,10 +100807,24 @@
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
+        },
+        {
+          "key": "ruffner-mountain-quarry",
+          "label": "Ruffner Mountain Quarry",
+          "value": "Ruffner Mountain Quarry is the exposed limestone destination reached from the preserve's Quarry Trail network, where visitors can see rock faces and look for fossil evidence of ancient sea life.",
+          "scope": "feature",
+          "featureId": "6b55fa5d-cfe4-4390-84c5-5e606e2eb938",
+          "featureType": "destination",
+          "positionQuality": "reviewed-geotagged-destination-photo",
+          "sourceLabel": "Ruffner Mountain",
+          "sourceUrl": "https://ruffner-mountain.squarespace.com/visit",
+          "checkedAt": "2026-08-10",
+          "expiresAt": null,
+          "sourceType": "official"
         }
       ],
       "unresolved": [
-        "Four-photo parent gallery is ready; secure exact mapped pins and destination-specific photographs for the Nature Center, quarry, Quarry Overlook, Cambrian Overlook, eastern trailhead, and pavilion."
+        "Published Ruffner Mountain Quarry from the official preserve map and a geotagged Commons image. Secure exact destination photographs before adding the Nature Center, Quarry Overlook, Cambrian Overlook, eastern trailhead, pavilion, wetlands, or mine sites."
       ]
     },
     {
@@ -100782,7 +100838,7 @@
         "label": "Mississippi Department of Wildlife, Fisheries, and Parks",
         "url": "https://www.mdwfp.com/parks-destinations/park/lefleurs-bluff-state-park"
       },
-      "verifiedAt": "2026-08-08",
+      "verifiedAt": "2026-08-10",
       "facts": [
         {
           "key": "hours",
@@ -100815,7 +100871,7 @@
           "scope": "place",
           "sourceLabel": "Mississippi Department of Wildlife, Fisheries, and Parks",
           "sourceUrl": "https://www.mdwfp.com/parks-destinations/park/lefleurs-bluff-state-park",
-          "checkedAt": "2026-08-08",
+          "checkedAt": "2026-08-10",
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
@@ -100827,7 +100883,7 @@
           "scope": "place",
           "sourceLabel": "Mississippi Department of Wildlife, Fisheries, and Parks",
           "sourceUrl": "https://www.mdwfp.com/parks-destinations/park/lefleurs-bluff-state-park",
-          "checkedAt": "2026-08-08",
+          "checkedAt": "2026-08-10",
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
@@ -101010,7 +101066,7 @@
           "positionQuality": "reviewed-public-map-placement",
           "sourceLabel": "Mississippi Department of Wildlife, Fisheries, and Parks",
           "sourceUrl": "https://www.mdwfp.com/parks-destinations/park/lefleurs-bluff-state-park",
-          "checkedAt": "2026-08-08",
+          "checkedAt": "2026-08-10",
           "expiresAt": null,
           "sourceType": "official"
         }
@@ -105605,7 +105661,7 @@
         "label": "City of Little Rock",
         "url": "https://www.littlerock.gov/!userfiles/editor/docs/parks/Trail%20Maps%2011%2013%2012_Two%20Rivers%20Park.pdf"
       },
-      "verifiedAt": "2026-08-08",
+      "verifiedAt": "2026-08-10",
       "facts": [
         {
           "key": "cost",
@@ -105614,7 +105670,7 @@
           "scope": "place",
           "sourceLabel": "City of Little Rock",
           "sourceUrl": "https://www.littlerock.gov/!userfiles/editor/docs/parks/Trail%20Maps%2011%2013%2012_Two%20Rivers%20Park.pdf",
-          "checkedAt": "2026-08-08",
+          "checkedAt": "2026-08-10",
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
@@ -105626,7 +105682,7 @@
           "scope": "place",
           "sourceLabel": "City of Little Rock",
           "sourceUrl": "https://www.littlerock.gov/!userfiles/editor/docs/parks/Trail%20Maps%2011%2013%2012_Two%20Rivers%20Park.pdf",
-          "checkedAt": "2026-08-08",
+          "checkedAt": "2026-08-10",
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
@@ -105638,7 +105694,7 @@
           "scope": "place",
           "sourceLabel": "City of Little Rock",
           "sourceUrl": "https://www.littlerock.gov/!userfiles/editor/docs/parks/Trail%20Maps%2011%2013%2012_Two%20Rivers%20Park.pdf",
-          "checkedAt": "2026-08-08",
+          "checkedAt": "2026-08-10",
           "expiresAt": null,
           "sourceType": "official",
           "verificationStatus": "verified"
@@ -105833,7 +105889,7 @@
           "positionQuality": "reviewed-official-campus-placement",
           "sourceLabel": "City of Little Rock Parks and Recreation",
           "sourceUrl": "https://www.littlerock.gov/!userfiles/editor/docs/parks/Trail%20Maps%2011%2013%2012_Two%20Rivers%20Park.pdf",
-          "checkedAt": "2026-08-08",
+          "checkedAt": "2026-08-10",
           "expiresAt": null,
           "sourceType": "official"
         }

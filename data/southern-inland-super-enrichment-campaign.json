@@ -1,24 +1,24 @@
 {
   "campaign": "Southern inland connector",
-  "checkedAt": "2026-08-08",
+  "checkedAt": "2026-08-10",
   "releaseStandard": "Target four licensed destination-specific photos; allow a smaller exact gallery for sparsely photographed parks while explicitly queueing the gap. Preserve official visitor answers and publish only named subsites with reviewed coordinates plus destination-specific photography.",
   "places": [
     {
       "id": "launch-al-birmingham-railroad-park", "name": "Railroad Park", "city": "Birmingham", "state": "AL", "citySlug": "birmingham-al",
       "operator": "Railroad Park Foundation for the City of Birmingham", "source": "https://railroadpark.org/about/about-us/", "featureResearchRadiusMeters": 1200, "minimumImages": 4,
-      "imageQueries": ["Railroad Park Birmingham Alabama", "Railroad Park Birmingham playground", "Railroad Park Birmingham Rail Trail"],
+      "imageQueries": ["Railroad Park Birmingham Alabama", "Railroad Park Birmingham playground", "Railroad Park Birmingham Rail Trail", "Railroad Park Birmingham toddler playground", "Railroad Park Birmingham 17th Street Plaza", "Railroad Park Birmingham Meadow"],
       "subsites": ["Rail Trail", "17th Street Plaza", "Railroad Park Playground", "Regions Bank 17th Street Plaza", "Powell Avenue Promenade", "West Green"]
     },
     {
       "id": "launch-al-birmingham-red-mountain-park", "name": "Red Mountain Park", "city": "Birmingham", "state": "AL", "citySlug": "birmingham-al",
       "operator": "Jefferson County Greenways", "source": "https://www.jeffcogreenways.org/park/red-mountain-park", "featureResearchRadiusMeters": 4200, "minimumImages": 2,
-      "imageQueries": ["Red Mountain Park Birmingham Alabama", "Red Mountain Park Birmingham mine", "Red Mountain Park sensory trail dog park"],
+      "imageQueries": ["Red Mountain Park Birmingham Alabama", "Red Mountain Park Birmingham mine", "Red Mountain Park sensory trail dog park", "Remy's Dog Park Birmingham", "Butler Snow Sensory Trail", "Redding Shaft Mine Red Mountain Park"],
       "subsites": ["Butler Snow Sensory Trail", "Remy's Dog Park", "Ishkooda Mine No. 13", "Ishkooda Mine No. 14", "Riley's Roost", "Regions Quarry", "Grace's Gap Overlook"]
     },
     {
       "id": "launch-al-birmingham-ruffner-mountain", "name": "Ruffner Mountain", "city": "Birmingham", "state": "AL", "citySlug": "birmingham-al",
       "operator": "Ruffner Mountain Nature Coalition", "source": "https://ruffner-mountain.squarespace.com/visit", "featureResearchRadiusMeters": 3600, "minimumImages": 4,
-      "imageQueries": ["Ruffner Mountain Birmingham Alabama", "Ruffner Mountain quarry overlook", "Ruffner Mountain Nature Center"],
+      "imageQueries": ["Ruffner Mountain Birmingham Alabama", "Ruffner Mountain quarry overlook", "Ruffner Mountain Nature Center", "Ruffner Mountain Cambrian Overlook", "Ruffner Mountain quarry", "Ruffner Mountain Tree House Nature Center"],
       "subsites": ["Ruffner Mountain Nature Center", "Quarry Overlook", "Cambrian Overlook", "Ruffner Mountain Quarry", "East Side Trailhead", "Pavilion"]
     },
     {

@@ -1,6 +1,6 @@
 {
   "campaign": "Southern inland connector",
-  "researchedAt": "2026-08-08",
+  "researchedAt": "2026-08-10",
   "source": "Openverse API",
   "licenseFilter": [
     "by",
@@ -14,7 +14,10 @@
       "queries": [
         "Railroad Park Birmingham Alabama",
         "Railroad Park Birmingham playground",
-        "Railroad Park Birmingham Rail Trail"
+        "Railroad Park Birmingham Rail Trail",
+        "Railroad Park Birmingham toddler playground",
+        "Railroad Park Birmingham 17th Street Plaza",
+        "Railroad Park Birmingham Meadow"
       ],
       "candidates": [
         {
@@ -360,7 +363,10 @@
       "queries": [
         "Red Mountain Park Birmingham Alabama",
         "Red Mountain Park Birmingham mine",
-        "Red Mountain Park sensory trail dog park"
+        "Red Mountain Park sensory trail dog park",
+        "Remy's Dog Park Birmingham",
+        "Butler Snow Sensory Trail",
+        "Redding Shaft Mine Red Mountain Park"
       ],
       "candidates": [
         {
@@ -507,9 +513,26 @@
           "reviewStatus": "pending-destination-match",
           "reviewNote": "Confirm that the image depicts the named destination before approving or downloading.",
           "query": "Red Mountain Park Birmingham Alabama"
+        },
+        {
+          "title": "Red Town",
+          "url": "https://live.staticflickr.com/5338/7091623481_1d938e7191_b.jpg",
+          "source": "https://www.flickr.com/photos/77751108@N00/7091623481",
+          "creator": "ebis50",
+          "creatorUrl": "https://www.flickr.com/photos/77751108@N00",
+          "license": "BY",
+          "licenseVersion": "2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+          "width": 1024,
+          "height": 749,
+          "provider": "flickr",
+          "matchedTerms": [],
+          "reviewStatus": "pending-destination-match",
+          "reviewNote": "Confirm that the image depicts the named destination before approving or downloading.",
+          "query": "Redding Shaft Mine Red Mountain Park"
         }
       ],
-      "reusableCandidateCount": 7,
+      "reusableCandidateCount": 8,
       "reviewedCandidateCount": 0
     },
     "launch-al-birmingham-ruffner-mountain": {
@@ -517,7 +540,10 @@
       "queries": [
         "Ruffner Mountain Birmingham Alabama",
         "Ruffner Mountain quarry overlook",
-        "Ruffner Mountain Nature Center"
+        "Ruffner Mountain Nature Center",
+        "Ruffner Mountain Cambrian Overlook",
+        "Ruffner Mountain quarry",
+        "Ruffner Mountain Tree House Nature Center"
       ],
       "candidates": [
         {
@@ -605,6 +631,27 @@
           "query": "Ruffner Mountain Birmingham Alabama"
         },
         {
+          "title": "A natural skylight",
+          "url": "https://live.staticflickr.com/2789/4261596539_3f9b74192c_b.jpg",
+          "source": "https://www.flickr.com/photos/29218907@N00/4261596539",
+          "creator": "acnatta",
+          "creatorUrl": "https://www.flickr.com/photos/29218907@N00",
+          "license": "BY",
+          "licenseVersion": "2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+          "width": 1024,
+          "height": 766,
+          "provider": "flickr",
+          "matchedTerms": [
+            "ruffner",
+            "mountain",
+            "birmingham"
+          ],
+          "reviewStatus": "pending-destination-match",
+          "reviewNote": "Confirm that the image depicts the named destination before approving or downloading.",
+          "query": "Ruffner Mountain quarry"
+        },
+        {
           "title": "ruffner mountain",
           "url": "https://live.staticflickr.com/5217/5524215566_0d1ae2f9af_b.jpg",
           "source": "https://www.flickr.com/photos/22265703@N06/5524215566",
@@ -665,7 +712,7 @@
           ],
           "reviewStatus": "pending-destination-match",
           "reviewNote": "Confirm that the image depicts the named destination before approving or downloading.",
-          "query": "Ruffner Mountain Nature Center"
+          "query": "Ruffner Mountain quarry"
         },
         {
           "title": "ruffner mountain",
@@ -689,7 +736,7 @@
           "query": "Ruffner Mountain Nature Center"
         }
       ],
-      "reusableCandidateCount": 8,
+      "reusableCandidateCount": 9,
       "reviewedCandidateCount": 0
     },
     "launch-ms-jackson-lefleur-s-bluff-state-park": {

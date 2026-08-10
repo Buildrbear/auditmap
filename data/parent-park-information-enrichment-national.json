@@ -2623,7 +2623,7 @@
           "url": "https://www.mdwfp.com/parks-destinations/park/lefleurs-bluff-state-park"
         }
       ],
-      "verifiedAt": "2026-08-08"
+      "verifiedAt": "2026-08-10"
     },
     "launch-tn-nashville-centennial-park": {
       "name": "Centennial Park",
@@ -24869,7 +24869,7 @@
           "url": "https://www.littlerock.gov/!userfiles/editor/docs/parks/Trail%20Maps%2011%2013%2012_Two%20Rivers%20Park.pdf"
         }
       ],
-      "verifiedAt": "2026-08-08"
+      "verifiedAt": "2026-08-10"
     },
     "launch-la-new-orleans-new-orleans-city-park": {
       "name": "New Orleans City Park",
@@ -26138,38 +26138,47 @@
       "additionalImages": [
         {
           "url": "/assets/parks/southern-inland-super/railroad-park/02-railroad-park-birmingham-alabama.webp",
-          "source": "https://www.flickr.com/photos/76792851@N07/46275221094",
+          "source": "https://www.flickr.com/photos/76792851@N07/46275218614",
           "author": "TexasExplorer98",
           "license": "BY 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-          "alt": "Open lawn and Birmingham skyline at Railroad Park",
+          "alt": "West Green lawn and walking paths at Railroad Park",
           "width": 1024,
           "height": 683
         },
         {
           "url": "/assets/parks/southern-inland-super/railroad-park/03-railroad-park-birmingham-alabama.webp",
-          "source": "https://www.flickr.com/photos/76792851@N07/40034799573",
+          "source": "https://www.flickr.com/photos/76792851@N07/46275203954",
           "author": "TexasExplorer98",
           "license": "BY 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-          "alt": "Railroad Park identity wall and visitor path",
+          "alt": "Covered 17th Street Plaza beside the lake at Railroad Park",
           "width": 1024,
           "height": 683
         },
         {
           "url": "/assets/parks/southern-inland-super/railroad-park/04-railroad-park-birmingham-alabama.webp",
-          "source": "https://www.flickr.com/photos/76792851@N07/46275203674",
+          "source": "https://www.flickr.com/photos/76792851@N07/32058033037",
           "author": "TexasExplorer98",
           "license": "BY 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-          "alt": "Play and gathering landscape at Railroad Park",
+          "alt": "Adventure Playground climbing dome and play equipment at Railroad Park",
           "width": 1024,
           "height": 683
         }
       ],
       "replaceImages": true,
-      "sources": [],
-      "verifiedAt": "2026-08-08"
+      "sources": [
+        {
+          "label": "Railroad Park Foundation",
+          "url": "https://railroadpark.org/core/uploads/2023/04/RRPF-Map.pdf"
+        },
+        {
+          "label": "Railroad Park Foundation",
+          "url": "https://railroadpark.org/about/about-us/"
+        }
+      ],
+      "verifiedAt": "2026-08-10"
     },
     "launch-al-birmingham-red-mountain-park": {
       "operator": "Jefferson County Greenways",
@@ -26338,7 +26347,7 @@
           "note": "Map location and address"
         }
       ],
-      "verifiedAt": "2026-08-08"
+      "verifiedAt": "2026-08-10"
     },
     "launch-al-birmingham-ruffner-mountain": {
       "operator": "Ruffner Mountain Nature Coalition",
@@ -26538,9 +26547,13 @@
           "label": "Wikipedia background",
           "url": "https://en.wikipedia.org/wiki/Ruffner_Mountain_Nature_Preserve",
           "note": "Background reference"
+        },
+        {
+          "label": "Ruffner Mountain",
+          "url": "https://ruffner-mountain.squarespace.com/visit"
         }
       ],
-      "verifiedAt": "2026-08-08"
+      "verifiedAt": "2026-08-10"
     },
     "launch-ms-jackson-parham-bridges-park": {
       "operator": "City of Jackson Parks and Recreation",

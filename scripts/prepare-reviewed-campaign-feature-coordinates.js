@@ -9,6 +9,17 @@ const selections = JSON.parse(fs.readFileSync(path.join(root, args.selections), 
 const nearby = JSON.parse(fs.readFileSync(path.join(root, args.nearby), "utf8"));
 const inside = JSON.parse(fs.readFileSync(path.join(root, args.inside), "utf8"));
 const slug = (value) => String(value).toLowerCase().replace(/&/g, " and ").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+const distanceMeters = (aLat, aLon, bLat, bLon) => {
+  const toRadians = (value) => value * Math.PI / 180;
+  const earthRadius = 6371000;
+  const latitudeDelta = toRadians(bLat - aLat);
+  const longitudeDelta = toRadians(bLon - aLon);
+  const latitudeA = toRadians(aLat);
+  const latitudeB = toRadians(bLat);
+  const haversine = Math.sin(latitudeDelta / 2) ** 2
+    + Math.cos(latitudeA) * Math.cos(latitudeB) * Math.sin(longitudeDelta / 2) ** 2;
+  return earthRadius * 2 * Math.atan2(Math.sqrt(haversine), Math.sqrt(1 - haversine));
+};
 
 const output = { checkedAt: selections.checkedAt, reviewMethod: selections.reviewMethod, places: {} };
 for (const [id, features] of Object.entries(selections.places)) {
@@ -22,6 +33,26 @@ for (const [id, features] of Object.entries(selections.places)) {
   const inBoundary = new Set((inside.places[id]?.candidates || []).map((item) => `${item.osmType}/${item.osmId}`));
   output.places[id] = {};
   for (const feature of features) {
+    const hasReviewedPlacement = Number.isFinite(feature.latitude) && Number.isFinite(feature.longitude);
+    if (hasReviewedPlacement) {
+      if (!feature.coordinateSource || !feature.officialMapSource) {
+        throw new Error(`${id}/${feature.name}: reviewed placement requires coordinateSource and officialMapSource`);
+      }
+      const parent = nearby.places[id].parent;
+      const distance = distanceMeters(parent.latitude, parent.longitude, feature.latitude, feature.longitude);
+      if (distance > nearby.places[id].radiusMeters) {
+        throw new Error(`${id}/${feature.name}: reviewed placement is ${Math.round(distance)}m from the parent, outside the research radius`);
+      }
+      output.places[id][slug(feature.name)] = {
+        ...feature,
+        displayName: feature.name,
+        boundarySource: inside.places[id]?.boundarySource,
+        positionQuality: feature.positionQuality || "reviewed-geotagged-destination-photo",
+        reviewStatus: "approved-official-map-and-geotag-match",
+        reviewedAt: selections.checkedAt,
+      };
+      continue;
+    }
     const candidate = pool.find((item) => `${item.osmType}/${item.osmId}` === feature.osm);
     if (!candidate) throw new Error(`${id}/${feature.name}: selected map object missing`);
     const officialCampusException = (id === "launch-ca-san-jose-guadalupe-river-park" && feature.name === "Heritage Rose Garden") || feature.allowOutsideBoundary === true;
