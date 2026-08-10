@@ -53,14 +53,9 @@ const featureProfiles = {
     { image: 3, description: "Franklin Square PATCO Station reopened in 2025 beside the park, providing a direct rail arrival with its own fare, elevator and service status." }
   ],
   "launch-pa-philadelphia-schuylkill-banks": [
-    { image: 3, description: "The Schuylkill Banks Boardwalk carries the paved river trail over the water south of Locust Street, with skyline views and busy mixed bicycle and pedestrian traffic." },
-    { image: 1, description: "Schuylkill River Park connects the river trail to lawns, recreation space, and a designated dog run west of Fitler Square." },
-    { image: 0, description: "The Walnut Street trailhead and kayak dock provide a central access point for the river trail and scheduled paddling or boat programs." },
-    { image: 2, description: "The northern trail connection reaches Fairmount Water Works and the art museum area, where ramps, bridge approaches, and event crowds affect arrival." },
-    { image: 0, description: "The Locust Street access ramp reaches the river trail and nearby overlook from Center City; grades and mixed bicycle traffic matter when entering the path." },
-    { image: 2, description: "The South Street Bridge ramp is a major step-free connection to the Boardwalk and trail, with long grades, bicycle traffic, and exposed river conditions." },
-    { image: 1, description: "Paine's Park is the free skate landscape at the trail's northern Center City end, with concrete terrain, spectators, and connections toward the art museum." },
-    { image: 3, description: "Bartram's Mile continues the river route south through Southwest Philadelphia, but gaps, construction, and different trailheads require a separate trip plan." }
+    { image: 0, description: "The 2,000-foot Schuylkill Banks Boardwalk carries the trail over the river from Locust Street to South Street, with four overlooks and busy mixed traffic." },
+    { image: 1, description: "The Walnut Street hub combines a central trail arrival, the corridor's daily staffed restroom and the limited-use dock for tours and small watercraft." },
+    { image: 2, description: "The ADA-accessible South Street Bridge ramp connects the bridge's northeast side to the Boardwalk; bicycles must be walked on the ramp." }
   ],
   "launch-pa-philadelphia-spruce-street-harbor-park": [
     { image: 0, description: "The hammock grove is the park's signature free relaxation area; hammocks are first-come, seasonal, and busiest on warm evenings and event days." },

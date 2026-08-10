@@ -61,6 +61,13 @@ for (const [name, sourceToken] of [["Franklin Square Fountain and SquareBurger",
   if (!feature) failures.push(`Franklin Square: missing ${name}`);
   else if (!(feature.details?.imageSourceUrl || "").includes(sourceToken)) failures.push(`Franklin Square/${name}: destination image does not match`);
 }
+const schuylkill = places.find((place) => place.id === "launch-pa-philadelphia-schuylkill-banks");
+for (const phrase of ["4.5 trail miles", "9 a.m.-5 p.m.", "walk your bicycle on the ramp", "Market Street Ramp", "Grays Ferry"]) if (!JSON.stringify(schuylkill).toLowerCase().includes(phrase.toLowerCase())) failures.push(`Schuylkill Banks: missing ${phrase}`);
+for (const [name, sourceToken] of [["Schuylkill Banks Boardwalk", "Philadelphia_from_South_Street_Bridge_July_2016_panorama_2"], ["Walnut Street Trail Hub and Dock", "Schuylkill_River_Trail_(Philadelphia)"], ["South Street Bridge Trail Ramp", "Schuylkill_River_Trail_from_the_South_St._bridge"]]) {
+  const feature = schuylkill?.features?.find((item) => item.name === name);
+  if (!feature) failures.push(`Schuylkill Banks: missing ${name}`);
+  else if (!(feature.details?.imageSourceUrl || "").includes(sourceToken)) failures.push(`Schuylkill Banks/${name}: destination image does not match`);
+}
 const fairmount = places.find((place) => place.id === "launch-pa-philadelphia-fairmount-park");
 for (const phrase of ["Lemon Hill park is currently closed", "Wednesday through Saturday, 10 a.m.-5 p.m.", "more than 50 outdoor play structures", "timed ticket and capacity is limited", "second and third Sundays 11 a.m.-4:30 p.m."]) if (!JSON.stringify(fairmount).includes(phrase)) failures.push(`Fairmount Park: missing ${phrase}`);
 for (const [name, sourceToken] of [["Lemon Hill", "Lemon_Hill_Mansion"], ["Belmont Plateau", "Belmont_Plateau"], ["Fairmount Water Works", "Fairmount_Water_Works"], ["Smith Memorial Playground and Playhouse", "Smith_Playground"], ["Shofuso Japanese Cultural Center", "Shofuso_Japanese_House"], ["Please Touch Museum and Memorial Hall", "MemorialHallPhila03"]]) {

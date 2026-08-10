@@ -433,6 +433,47 @@
         "family":"The direct stop minimizes walking, but keep children close around fare gates, stairs, elevators and platforms and identify the correct direction before boarding.",
         "need":"A train may operate when the square is closed or ticketed. Check both PATCO service and Franklin Square access for the return trip."
       }
+    },
+    "launch-pa-philadelphia-schuylkill-banks": {
+      "schuylkill-banks-boardwalk": {
+        "description":"The 2,000-foot Schuylkill Banks Boardwalk carries the trail over the river from Locust Street to South Street on a 15-foot-wide path with four widened overlooks.",
+        "address":"Schuylkill Banks Boardwalk at Locust Street, Philadelphia, PA 19103","sourceLabel":"Schuylkill Banks Boardwalk","source":"https://www.schuylkillbanks.org/landmarks/boardwalk","imageIndex":0,
+        "location":"Approach from Locust Street at the north end or the South Street Bridge ramp at the south end. Walnut Street is the more useful central arrival when a restroom or staffed dock matters.",
+        "parking":"The Boardwalk has no lot. Choose a paid Center City garage or legal meter near Walnut, Locust or South Street before driving; the official map identifies options, and event or construction conditions can change the closest route.",
+        "hours":"Use the Boardwalk during trail hours from dawn to dusk. It may close independently for flooding, ice, repairs or work beneath nearby bridges even when other Schuylkill Banks sections remain open.",
+        "restrooms":"The nearest documented public facility is on the trail just south of Walnut Street, normally open daily from 9 a.m.-5 p.m. subject to staff availability. There is no restroom on the over-water span.",
+        "fees":"Walking, running, cycling and overlook use are free. Parking, tours, food and special programs cost separately.",
+        "accessibility":"The Boardwalk is a developed 15-foot-wide path with four widened overlooks. Approaches are paved, but mixed traffic, temporary barriers, wet surfaces, ice and crowds can reduce maneuvering space.",
+        "dogs":"Leashed dogs may use the Boardwalk under the six-foot City rule; keep the leash short and the animal out of bicycle and running traffic. Off-leash use is not allowed here.",
+        "family":"The skyline and river overlooks make a memorable short family route. Keep children beside an adult rather than spread across the travel lane, and supervise continuously at the open river edge.",
+        "need":"This is a transportation path as well as an overlook. Keep right, step fully into a widened area before stopping, pass only when clear and never bypass a closure barrier over the river."
+      },
+      "walnut-street-trail-hub-and-dock": {
+        "description":"The Walnut Street hub combines a central trail entrance, the corridor's staffed restroom and a gated dock used for guided tours and limited small-watercraft access.",
+        "address":"Schuylkill River Trail at Walnut Street, Philadelphia, PA 19103","sourceLabel":"Schuylkill Banks official map and boating guide","source":"https://www.schuylkillbanks.org/explore/activity-guides/boating","imageIndex":1,
+        "location":"Descend from Walnut Street to the east-bank trail and look just south of the bridge for the restroom and dock area. This is north of the Boardwalk's Locust Street over-water section.",
+        "parking":"There is no dedicated dock lot. Use a paid garage, legal meter or transit near Walnut Street and allow extra time to bring nonmotorized equipment down the approved approach without blocking the trail.",
+        "hours":"The trail follows dawn-to-dusk use. The restroom is normally 9 a.m.-5 p.m. subject to staffing; the dock gate is opened by staff only when no scheduled program is using it, and guided tours follow reserved departure times.",
+        "restrooms":"A staffed public restroom sits just south of Walnut Street and is normally open daily from 9 a.m.-5 p.m., subject to staff availability. Use it before a tour because outdoor access does not guarantee the building is open.",
+        "fees":"Trail and restroom access are free. Guided kayak and riverboat programs have separate reservations and prices; bringing a small nonmotorized craft does not create unlimited dock access.",
+        "accessibility":"The paved trail reaches the hub, but the dock and watercraft transfer are separate physical tasks. Contact the program operator before booking for boarding, transfer or adaptive-paddling requirements.",
+        "dogs":"Short-leashed dogs may use the trail but are not automatically accepted on tours, at the gated dock or in watercraft. Keep pets clear of loading activity and moving bicycles.",
+        "family":"The restroom and central access make this a practical family meeting point. Guided kayak participants must be at least 12; anyone under 18 must be accompanied by an adult, and the operator asks guests to arrive 15 minutes early.",
+        "need":"There is no public motorized launch. When the dock is not reserved, staff may permit small-watercraft use for up to 30 minutes while users remain in sight; never climb a locked gate or assume access without staff."
+      },
+      "south-street-bridge-trail-ramp": {
+        "description":"The South Street Bridge trail ramp is the ADA-accessible connection on the bridge's northeast side linking street level to the Boardwalk and east-bank river trail.",
+        "address":"South Street Bridge northeast side, Philadelphia, PA 19146","sourceLabel":"Schuylkill Banks South Street ramp","source":"https://www.schuylkillbanks.org/landmarks/south-street-ramp","imageIndex":2,
+        "location":"Use the northeast corner of the South Street Bridge and follow the signed ramp down to the trail. Do not navigate to the west bank or the bridge midpoint when seeking the Boardwalk connection.",
+        "parking":"The ramp has no parking. Use transit, walk from nearby neighborhoods or select legal paid parking before arrival; do not stop on the bridge or block the ramp for loading.",
+        "hours":"Use the ramp during trail hours from dawn to dusk. Maintenance, ice, flooding or bridge work can close the connection independently; follow any signed alternate rather than using stairs or a work zone.",
+        "restrooms":"There is no restroom at the ramp. The documented Schuylkill Banks restroom is farther north just south of Walnut Street and normally operates 9 a.m.-5 p.m. subject to staff availability.",
+        "fees":"The ramp, Boardwalk and trail are free. Parking and any reserved programs are separate.",
+        "accessibility":"The operator identifies this as an ADA-accessible ramp. Its long slope, turns, mixed users and weather exposure still matter; check for closures and allow others room to pass.",
+        "dogs":"Leashed dogs may use the ramp, but keep them close at switchbacks and away from bicycle wheels. Off-leash use is not allowed.",
+        "family":"The ramp is a useful stroller approach to the Boardwalk. Keep children to one side through turns and away from the bridge roadway and river edge.",
+        "need":"Walk your bicycle on the ramp. Riders mounting on the slope create conflicts at narrow turns; remount only after reaching the main trail and checking for approaching traffic."
+      }
     }
   }
 }
