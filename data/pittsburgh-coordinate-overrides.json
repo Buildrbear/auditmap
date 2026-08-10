@@ -1,0 +1,31 @@
+{
+  "checkedAt": "2026-08-10",
+  "places": {
+    "launch-pa-pittsburgh-schenley-park": {
+      "phipps-conservatory-and-botanical-gardens": {
+        "latitude": 40.4388913,
+        "longitude": -79.9487114,
+        "coordinateSource": "https://www.openstreetmap.org/relation/2785563",
+        "positionQuality": "reviewed-named-destination-relation-and-official-address-match"
+      },
+      "schenley-plaza": {
+        "latitude": 40.4427237,
+        "longitude": -79.9525627,
+        "coordinateSource": "https://www.openstreetmap.org/way/25735220",
+        "positionQuality": "reviewed-named-destination-way-and-official-entrance-map-match"
+      },
+      "panther-hollow-lake": {
+        "latitude": 40.4368616,
+        "longitude": -79.9482278,
+        "coordinateSource": "https://www.openstreetmap.org/way/25534423",
+        "positionQuality": "reviewed-named-lake-way-and-geotagged-photo-match"
+      },
+      "flagstaff-hill": {
+        "latitude": 40.4400577,
+        "longitude": -79.9441013,
+        "coordinateSource": "https://www.openstreetmap.org/node/278290755",
+        "positionQuality": "reviewed-named-destination-node-and-geotagged-photo-match"
+      }
+    }
+  }
+}

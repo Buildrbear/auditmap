@@ -3,101 +3,85 @@
   "places": {
     "launch-pa-pittsburgh-schenley-park": {
       "phipps-conservatory-and-botanical-gardens": {
-        "latitude": 40.4389488,
-        "longitude": -79.9476968,
-        "displayName": "Phipps Conservatory, Panther Hollow Bike Lane, Squirrel Hill South, Pittsburgh, Allegheny County, Pennsylvania, 15213, United States",
-        "source": "OpenStreetMap Nominatim"
+        "latitude": 40.4388913,
+        "longitude": -79.9487114,
+        "coordinateSource": "https://www.openstreetmap.org/relation/2785563",
+        "positionQuality": "reviewed-named-destination-relation-and-official-address-match",
+        "displayName": "reviewed-named-destination-relation-and-official-address-match",
+        "source": "https://www.openstreetmap.org/relation/2785563"
       },
       "schenley-plaza": {
         "latitude": 40.4427237,
         "longitude": -79.9525627,
-        "displayName": "Schenley Plaza, Pittsburgh, Allegheny County, Pennsylvania, United States",
-        "source": "OpenStreetMap Nominatim"
+        "coordinateSource": "https://www.openstreetmap.org/way/25735220",
+        "positionQuality": "reviewed-named-destination-way-and-official-entrance-map-match",
+        "displayName": "reviewed-named-destination-way-and-official-entrance-map-match",
+        "source": "https://www.openstreetmap.org/way/25735220"
       },
       "panther-hollow-lake": {
-        "latitude": 40.4368606,
-        "longitude": -79.9482412,
-        "displayName": "Preserved coordinate for Panther Hollow Lake",
-        "source": "Existing AuditMap record"
+        "latitude": 40.4368616,
+        "longitude": -79.9482278,
+        "coordinateSource": "https://www.openstreetmap.org/way/25534423",
+        "positionQuality": "reviewed-named-lake-way-and-geotagged-photo-match",
+        "displayName": "reviewed-named-lake-way-and-geotagged-photo-match",
+        "source": "https://www.openstreetmap.org/way/25534423"
       },
       "flagstaff-hill": {
         "latitude": 40.4400577,
         "longitude": -79.9441013,
-        "displayName": "Flagstaff Hill, Pittsburgh, Allegheny County, Pennsylvania, 15213, United States",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "schenley-oval": {
-        "latitude": 40.4328773,
-        "longitude": -79.9424506,
-        "displayName": "Schenley Oval, Pittsburgh, Allegheny County, Pennsylvania, United States",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "bob-o-connor-golf-course": {
-        "latitude": 40.4374856,
-        "longitude": -79.9374357,
-        "displayName": "Bob O'Connor Golf Course, West Circuit Road, Squirrel Hill South, Pittsburgh, Allegheny County, Pennsylvania, 15213, United States",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "schenley-park-pool": {
-        "latitude": 40.4346758,
-        "longitude": -79.9484461,
-        "displayName": "Panther Hollow Rd opposite Schenley Park Pool, Wilmot Road, Squirrel Hill South, Pittsburgh, Allegheny County, Pennsylvania, 15213, United States",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "westinghouse-memorial": {
-        "latitude": 40.43523133513653,
-        "longitude": -79.94343133513652,
-        "displayName": "Approximate position within Schenley Park",
-        "source": "AuditMap official-map placement"
+        "coordinateSource": "https://www.openstreetmap.org/node/278290755",
+        "positionQuality": "reviewed-named-destination-node-and-geotagged-photo-match",
+        "displayName": "reviewed-named-destination-node-and-geotagged-photo-match",
+        "source": "https://www.openstreetmap.org/node/278290755"
       }
     },
     "launch-pa-pittsburgh-frick-park": {
       "frick-environmental-center": {
         "latitude": 40.4364787,
         "longitude": -79.9075888,
-        "displayName": "Frick Environmental Center, Woodland Area, Squirrel Hill South, Pittsburgh, Allegheny County, Pennsylvania, 15208, United States",
+        "displayName": "Preserved coordinate for Frick Environmental Center",
         "source": "OpenStreetMap Nominatim"
       },
       "blue-slide-playground": {
         "latitude": 40.4298713,
         "longitude": -79.9147165,
-        "displayName": "Blue Slide Playground, English Lane, Squirrel Hill South, Pittsburgh, Allegheny County, Pennsylvania, 15217, United States",
+        "displayName": "Preserved coordinate for Blue Slide Playground",
         "source": "OpenStreetMap Nominatim"
       },
       "frick-park-lawn": {
         "latitude": 40.4450246,
         "longitude": -79.9005655,
-        "displayName": "Frick Park Lawn Bowling Greens, Reynolds Street, Point Breeze South, Pittsburgh, Allegheny County, Pennsylvania, 15208, United States",
+        "displayName": "Preserved coordinate for Frick Park Lawn",
         "source": "OpenStreetMap Nominatim"
       },
       "nine-mile-run-trail": {
         "latitude": 40.4252089,
         "longitude": -79.9059231,
-        "displayName": "Nine Mile Run Trail, Swisshelm Park, Pittsburgh, Allegheny County, Pennsylvania, 15218, United States",
+        "displayName": "Preserved coordinate for Nine Mile Run Trail",
         "source": "OpenStreetMap Nominatim"
       },
       "falls-ravine-trail": {
         "latitude": 40.4359735,
         "longitude": -79.9078739,
-        "displayName": "Falls Ravine Trail, Squirrel Hill South, Pittsburgh, Allegheny County, Pennsylvania, 15217, United States",
+        "displayName": "Preserved coordinate for Falls Ravine Trail",
         "source": "OpenStreetMap Nominatim"
       },
       "hot-dog-dam": {
         "latitude": 40.4880422,
         "longitude": -79.9199567,
-        "displayName": "Lock & Dam Hot Dog, 7335, Butler Street, Morningside, Pittsburgh, Allegheny County, Pennsylvania, 15206, United States",
+        "displayName": "Preserved coordinate for Hot Dog Dam",
         "source": "OpenStreetMap Nominatim"
       },
       "frick-park-off-leash-exercise-area": {
         "latitude": 40.436,
         "longitude": -79.90985,
-        "displayName": "Approximate position within Frick Park",
+        "displayName": "Preserved coordinate for Frick Park Off-Leash Exercise Area",
         "source": "AuditMap official-map placement"
       },
       "bowling-green": {
         "latitude": 40.436431335136525,
         "longitude": -79.90983133513653,
-        "displayName": "Approximate position within Frick Park",
+        "displayName": "Preserved coordinate for Bowling Green",
         "source": "AuditMap official-map placement"
       }
     },
@@ -105,49 +89,49 @@
       "point-state-park-fountain": {
         "latitude": 40.4418271,
         "longitude": -80.0127829,
-        "displayName": "Point State Park Fountain, Downtown, Pittsburgh, Allegheny County, Pennsylvania, United States",
+        "displayName": "Preserved coordinate for Point State Park Fountain",
         "source": "OpenStreetMap Nominatim"
       },
       "fort-pitt-museum": {
         "latitude": 40.4406932,
         "longitude": -80.0096764,
-        "displayName": "Fort Pitt Museum, Penn-Lincoln Parkway North, Gateway, Downtown, Pittsburgh, Allegheny County, Pennsylvania, 15211, United States",
+        "displayName": "Preserved coordinate for Fort Pitt Museum",
         "source": "OpenStreetMap Nominatim"
       },
       "fort-pitt-block-house": {
         "latitude": 40.4411877,
         "longitude": -80.0098227,
-        "displayName": "Fort Pitt Block House, Penn-Lincoln Parkway North, Gateway, Downtown, Pittsburgh, Allegheny County, Pennsylvania, 15211, United States",
+        "displayName": "Preserved coordinate for Fort Pitt Block House",
         "source": "OpenStreetMap Nominatim"
       },
       "fort-duquesne-outline": {
         "latitude": 40.44078180194847,
         "longitude": -80.01508180194847,
-        "displayName": "Approximate position within Point State Park",
+        "displayName": "Preserved coordinate for Fort Duquesne Outline",
         "source": "AuditMap official-map placement"
       },
       "point-state-park-great-lawn": {
         "latitude": 40.44049,
         "longitude": -80.0154,
-        "displayName": "Approximate position within Point State Park",
+        "displayName": "Preserved coordinate for Point State Park Great Lawn",
         "source": "AuditMap official-map placement"
       },
       "three-rivers-heritage-trail": {
         "latitude": 40.4344487,
         "longitude": -80.0022786,
-        "displayName": "Three Rivers Heritage Trail, Firstside Historic District, Downtown, Pittsburgh, Allegheny County, Pennsylvania, 15262, United States",
+        "displayName": "Preserved coordinate for Three Rivers Heritage Trail",
         "source": "OpenStreetMap Nominatim"
       },
       "monongahela-wharf-connector": {
         "latitude": 40.4411,
         "longitude": -80.01585,
-        "displayName": "Approximate position within Point State Park",
+        "displayName": "Preserved coordinate for Monongahela Wharf Connector",
         "source": "AuditMap official-map placement"
       },
       "three-rivers-confluence-overlook": {
         "latitude": 40.441531335136524,
         "longitude": -80.01583133513653,
-        "displayName": "Approximate position within Point State Park",
+        "displayName": "Preserved coordinate for Three Rivers Confluence Overlook",
         "source": "AuditMap official-map placement"
       }
     },
@@ -155,49 +139,49 @@
       "highland-park-entry-garden": {
         "latitude": 40.47805,
         "longitude": -79.9183,
-        "displayName": "Approximate position within Highland Park",
+        "displayName": "Preserved coordinate for Highland Park Entry Garden",
         "source": "AuditMap official-map placement"
       },
       "highland-park-reservoir-loop": {
         "latitude": 40.47803133513653,
         "longitude": -79.91786866486348,
-        "displayName": "Approximate position within Highland Park",
+        "displayName": "Preserved coordinate for Highland Park Reservoir Loop",
         "source": "AuditMap official-map placement"
       },
       "highland-park-super-playground": {
         "latitude": 40.4804248,
         "longitude": -79.9182553,
-        "displayName": "Highland Park Super Playground, Reservoir Drive Walk, Highland Park, Pittsburgh, Allegheny County, Pennsylvania, 15206, United States",
+        "displayName": "Preserved coordinate for Highland Park Super Playground",
         "source": "OpenStreetMap Nominatim"
       },
       "highland-park-pool": {
         "latitude": 40.4821573,
         "longitude": -79.9109409,
-        "displayName": "Highland Park Pool, Farmhouse to Pool Walk, Highland Park, Pittsburgh, Allegheny County, Pennsylvania, 15206, United States",
+        "displayName": "Preserved coordinate for Highland Park Pool",
         "source": "OpenStreetMap Nominatim"
       },
       "pittsburgh-zoo-and-aquarium": {
         "latitude": 40.47699,
         "longitude": -79.9183,
-        "displayName": "Approximate position within Highland Park",
+        "displayName": "Preserved coordinate for Pittsburgh Zoo and Aquarium",
         "source": "AuditMap official-map placement"
       },
       "carnegie-lake": {
         "latitude": 40.4806829,
         "longitude": -79.9117254,
-        "displayName": "Lake Carnegie Walk, Highland Park, Pittsburgh, Allegheny County, Pennsylvania, 15206, United States",
+        "displayName": "Preserved coordinate for Carnegie Lake",
         "source": "OpenStreetMap Nominatim"
       },
       "bud-harris-cycling-track": {
         "latitude": 40.4767461,
         "longitude": -79.9082781,
-        "displayName": "Bud Harris Cycling Track, Bud Harris Cycling Oval, Highland Park, Pittsburgh, Allegheny County, Pennsylvania, 15206, United States",
+        "displayName": "Preserved coordinate for Bud Harris Cycling Track",
         "source": "OpenStreetMap Nominatim"
       },
       "rhododendron-garden": {
         "latitude": 40.47803133513653,
         "longitude": -79.91873133513653,
-        "displayName": "Approximate position within Highland Park",
+        "displayName": "Preserved coordinate for Rhododendron Garden",
         "source": "AuditMap official-map placement"
       }
     },
@@ -205,49 +189,49 @@
       "allegheny-observatory": {
         "latitude": 40.4825831,
         "longitude": -80.0206974,
-        "displayName": "Allegheny Observatory, 159, Riverview Avenue, Perry North, Pittsburgh, Allegheny County, Pennsylvania, 15214, United States",
+        "displayName": "Preserved coordinate for Allegheny Observatory",
         "source": "OpenStreetMap Nominatim"
       },
       "riverview-park-visitor-center": {
         "latitude": 40.48303133513652,
         "longitude": -80.02016866486348,
-        "displayName": "Approximate position within Riverview Park",
+        "displayName": "Preserved coordinate for Riverview Park Visitor Center",
         "source": "AuditMap official-map placement"
       },
       "chapel-shelter": {
         "latitude": 40.4826,
         "longitude": -80.01983,
-        "displayName": "Approximate position within Riverview Park",
+        "displayName": "Preserved coordinate for Chapel Shelter",
         "source": "AuditMap official-map placement"
       },
       "riverview-park-pool": {
         "latitude": 40.48228180194847,
         "longitude": -80.02028180194847,
-        "displayName": "Approximate position within Riverview Park",
+        "displayName": "Preserved coordinate for Riverview Park Pool",
         "source": "AuditMap official-map placement"
       },
       "snyder-s-point-overlook": {
         "latitude": 40.481989999999996,
         "longitude": -80.0206,
-        "displayName": "Approximate position within Riverview Park",
+        "displayName": "Preserved coordinate for Snyder's Point Overlook",
         "source": "AuditMap official-map placement"
       },
       "wissahickon-trail": {
         "latitude": 40.4846575,
         "longitude": -80.0179661,
-        "displayName": "Wissahickon Trail, Perry North, Pittsburgh, Allegheny County, Pennsylvania, 15214, United States",
+        "displayName": "Preserved coordinate for Wissahickon Trail",
         "source": "OpenStreetMap Nominatim"
       },
       "riverview-playground": {
         "latitude": 40.4812718,
         "longitude": -80.0178868,
-        "displayName": "Riverview Playground, Riverview Avenue, Perry North, Pittsburgh, Allegheny County, Pennsylvania, 15214, United States",
+        "displayName": "Preserved coordinate for Riverview Playground",
         "source": "OpenStreetMap Nominatim"
       },
       "riverview-park-off-leash-exercise-area": {
         "latitude": 40.48303133513652,
         "longitude": -80.02103133513653,
-        "displayName": "Approximate position within Riverview Park",
+        "displayName": "Preserved coordinate for Riverview Park Off-Leash Exercise Area",
         "source": "AuditMap official-map placement"
       }
     },
@@ -255,49 +239,49 @@
       "grandview-overlook": {
         "latitude": 40.4339981,
         "longitude": -80.0096789,
-        "displayName": "Grandview Overlook Park, Pittsburgh, Allegheny County, Pennsylvania, United States",
+        "displayName": "Preserved coordinate for Grandview Overlook",
         "source": "OpenStreetMap Nominatim"
       },
       "grandview-park": {
         "latitude": 40.4265871,
         "longitude": -79.9956947,
-        "displayName": "Emerald View Park, Pittsburgh, Allegheny County, Pennsylvania, United States",
+        "displayName": "Preserved coordinate for Grandview Park",
         "source": "OpenStreetMap Nominatim"
       },
       "olympia-park": {
         "latitude": 40.4304297,
         "longitude": -80.018573,
-        "displayName": "Olympia Park, Pittsburgh, Allegheny County, Pennsylvania, United States",
+        "displayName": "Preserved coordinate for Olympia Park",
         "source": "OpenStreetMap Nominatim"
       },
       "grandview-playground": {
         "latitude": 40.430881801948466,
         "longitude": -80.01298180194847,
-        "displayName": "Approximate position within Emerald View Park",
+        "displayName": "Preserved coordinate for Grandview Playground",
         "source": "AuditMap official-map placement"
       },
       "duquesne-heights-greenway": {
         "latitude": 40.4381101,
         "longitude": -80.0164893,
-        "displayName": "Duquesne Heights Greenway, Pittsburgh, Allegheny County, Pennsylvania, United States",
+        "displayName": "Preserved coordinate for Duquesne Heights Greenway",
         "source": "OpenStreetMap Nominatim"
       },
       "mount-washington-trail": {
         "latitude": 40.430655527778484,
         "longitude": -80.01384447222152,
-        "displayName": "Approximate position within Emerald View Park",
+        "displayName": "Preserved coordinate for Mount Washington Trail",
         "source": "AuditMap official-map placement"
       },
       "george-and-guy-trailhead": {
         "latitude": 40.4312,
         "longitude": -80.01375,
-        "displayName": "Approximate position within Emerald View Park",
+        "displayName": "Preserved coordinate for George and Guy Trailhead",
         "source": "AuditMap official-map placement"
       },
       "ream-park": {
         "latitude": 40.4310169,
         "longitude": -80.0132127,
-        "displayName": "Ream Park, 321, Pittsburgh, Allegheny County, Pennsylvania, 15211, United States",
+        "displayName": "Preserved coordinate for Ream Park",
         "source": "OpenStreetMap Nominatim"
       }
     },
@@ -305,49 +289,49 @@
       "mellon-park-walled-garden": {
         "latitude": 40.45535,
         "longitude": -79.9165,
-        "displayName": "Approximate position within Mellon Park",
+        "displayName": "Preserved coordinate for Mellon Park Walled Garden",
         "source": "AuditMap official-map placement"
       },
       "mellon-park-playground": {
         "latitude": 40.45533133513653,
         "longitude": -79.91606866486347,
-        "displayName": "Approximate position within Mellon Park",
+        "displayName": "Preserved coordinate for Mellon Park Playground",
         "source": "AuditMap official-map placement"
       },
       "mellon-park-spray-park": {
         "latitude": 40.4539958,
         "longitude": -79.9156891,
-        "displayName": "Mellon Park Spray Park, Fifth Avenue, Shadyside, Pittsburgh, Allegheny County, Pennsylvania, 15206, United States",
+        "displayName": "Preserved coordinate for Mellon Park Spray Park",
         "source": "OpenStreetMap Nominatim"
       },
       "mellon-park-tennis-center": {
         "latitude": 40.4537255,
         "longitude": -79.9170952,
-        "displayName": "Mellon Park Tennis Center, Fifth Avenue, Shadyside, Pittsburgh, Allegheny County, Pennsylvania, 15206, United States",
+        "displayName": "Preserved coordinate for Mellon Park Tennis Center",
         "source": "OpenStreetMap Nominatim"
       },
       "mellon-park-rose-garden": {
         "latitude": 40.45429,
         "longitude": -79.9165,
-        "displayName": "Approximate position within Mellon Park",
+        "displayName": "Preserved coordinate for Mellon Park Rose Garden",
         "source": "AuditMap official-map placement"
       },
       "mellon-park-field": {
         "latitude": 40.4544659,
         "longitude": -79.9161732,
-        "displayName": "Mellon Park Field 2, Bakery Square Boulevard, Shadyside, Pittsburgh, Allegheny County, Pennsylvania, 15206, United States",
+        "displayName": "Preserved coordinate for Mellon Park Field",
         "source": "OpenStreetMap Nominatim"
       },
       "fifth-avenue-entrance": {
         "latitude": 40.4549,
         "longitude": -79.91695,
-        "displayName": "Approximate position within Mellon Park",
+        "displayName": "Preserved coordinate for Fifth Avenue Entrance",
         "source": "AuditMap official-map placement"
       },
       "shady-avenue-entrance": {
         "latitude": 40.45533133513653,
         "longitude": -79.91693133513652,
-        "displayName": "Approximate position within Mellon Park",
+        "displayName": "Preserved coordinate for Shady Avenue Entrance",
         "source": "AuditMap official-map placement"
       }
     },
@@ -355,49 +339,49 @@
       "north-shore-water-steps": {
         "latitude": 40.44715,
         "longitude": -80.0127,
-        "displayName": "Approximate position within North Shore Riverfront Park",
+        "displayName": "Preserved coordinate for North Shore Water Steps",
         "source": "AuditMap official-map placement"
       },
       "three-rivers-heritage-trail": {
         "latitude": 40.4344487,
         "longitude": -80.0022786,
-        "displayName": "Three Rivers Heritage Trail, Firstside Historic District, Downtown, Pittsburgh, Allegheny County, Pennsylvania, 15262, United States",
+        "displayName": "Preserved coordinate for Three Rivers Heritage Trail",
         "source": "OpenStreetMap Nominatim"
       },
       "pnc-park-riverwalk": {
         "latitude": 40.4467,
         "longitude": -80.01192999999999,
-        "displayName": "Approximate position within North Shore Riverfront Park",
+        "displayName": "Preserved coordinate for PNC Park Riverwalk",
         "source": "AuditMap official-map placement"
       },
       "acrisure-stadium-riverwalk": {
         "latitude": 40.44638180194847,
         "longitude": -80.01238180194846,
-        "displayName": "Approximate position within North Shore Riverfront Park",
+        "displayName": "Preserved coordinate for Acrisure Stadium Riverwalk",
         "source": "AuditMap official-map placement"
       },
       "tribute-to-children": {
         "latitude": 40.4449001,
         "longitude": -80.013864,
-        "displayName": "Tribute to Children, North Shore Trail, North Shore, Pittsburgh, Allegheny County, Pennsylvania, 15222, United States",
+        "displayName": "Preserved coordinate for Tribute to Children",
         "source": "OpenStreetMap Nominatim"
       },
       "carnegie-science-center-riverfront": {
         "latitude": 40.44615552777849,
         "longitude": -80.01324447222152,
-        "displayName": "Approximate position within North Shore Riverfront Park",
+        "displayName": "Preserved coordinate for Carnegie Science Center Riverfront",
         "source": "AuditMap official-map placement"
       },
       "allegheny-landing-connection": {
         "latitude": 40.4467,
         "longitude": -80.01315,
-        "displayName": "Approximate position within North Shore Riverfront Park",
+        "displayName": "Preserved coordinate for Allegheny Landing Connection",
         "source": "AuditMap official-map placement"
       },
       "north-shore-riverfront-dock": {
         "latitude": 40.447131335136525,
         "longitude": -80.01313133513652,
-        "displayName": "Approximate position within North Shore Riverfront Park",
+        "displayName": "Preserved coordinate for North Shore Riverfront Dock",
         "source": "AuditMap official-map placement"
       }
     }
