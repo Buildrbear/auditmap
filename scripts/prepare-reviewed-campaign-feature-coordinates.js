@@ -8,6 +8,12 @@ for (const key of ["selections", "nearby", "inside", "output"]) if (!args[key]) 
 const selections = JSON.parse(fs.readFileSync(path.join(root, args.selections), "utf8"));
 const nearby = JSON.parse(fs.readFileSync(path.join(root, args.nearby), "utf8"));
 const inside = JSON.parse(fs.readFileSync(path.join(root, args.inside), "utf8"));
+const campaign = args.campaign
+  ? JSON.parse(fs.readFileSync(path.join(root, args.campaign), "utf8"))
+  : { places: [] };
+const launchPlaces = JSON.parse(fs.readFileSync(path.join(root, "data/generated/launch-map-places.json"), "utf8"));
+const campaignById = new Map(campaign.places.map((place) => [place.id, place]));
+const launchById = new Map(launchPlaces.map((place) => [place.id, place]));
 const slug = (value) => String(value).toLowerCase().replace(/&/g, " and ").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 const distanceMeters = (aLat, aLon, bLat, bLon) => {
   const toRadians = (value) => value * Math.PI / 180;
@@ -24,12 +30,18 @@ const distanceMeters = (aLat, aLon, bLat, bLon) => {
 const output = { checkedAt: selections.checkedAt, reviewMethod: selections.reviewMethod, places: {} };
 for (const [id, features] of Object.entries(selections.places)) {
   if (!nearby.places[id]) {
-    if (features.length) throw new Error(`${id}: selected features require nearby map research`);
-    output.places[id] = {};
-    console.log(`${id}: skipped empty deferred feature selection`);
-    continue;
+    const allHaveReviewedPlacement = features.every((feature) => Number.isFinite(feature.latitude) && Number.isFinite(feature.longitude));
+    if (!features.length) {
+      output.places[id] = {};
+      console.log(`${id}: skipped empty deferred feature selection`);
+      continue;
+    }
+    if (!allHaveReviewedPlacement || !campaignById.has(id) || !launchById.has(id)) {
+      throw new Error(`${id}: selected map objects require nearby research; exact reviewed placements require campaign and launch records`);
+    }
   }
-  const pool = nearby.places[id]?.candidates || [];
+  const nearbyPlace = nearby.places[id];
+  const pool = nearbyPlace?.candidates || [];
   const inBoundary = new Set((inside.places[id]?.candidates || []).map((item) => `${item.osmType}/${item.osmId}`));
   output.places[id] = {};
   for (const feature of features) {
@@ -38,9 +50,13 @@ for (const [id, features] of Object.entries(selections.places)) {
       if (!feature.coordinateSource || !feature.officialMapSource) {
         throw new Error(`${id}/${feature.name}: reviewed placement requires coordinateSource and officialMapSource`);
       }
-      const parent = nearby.places[id].parent;
+      const parent = nearbyPlace?.parent || launchById.get(id);
+      const radiusMeters = nearbyPlace?.radiusMeters || Number(campaignById.get(id)?.featureResearchRadiusMeters);
+      if (!parent || !Number.isFinite(radiusMeters)) {
+        throw new Error(`${id}/${feature.name}: reviewed placement requires a canonical parent and research radius`);
+      }
       const distance = distanceMeters(parent.latitude, parent.longitude, feature.latitude, feature.longitude);
-      if (distance > nearby.places[id].radiusMeters) {
+      if (distance > radiusMeters) {
         throw new Error(`${id}/${feature.name}: reviewed placement is ${Math.round(distance)}m from the parent, outside the research radius`);
       }
       output.places[id][slug(feature.name)] = {
@@ -67,7 +83,7 @@ for (const [id, features] of Object.entries(selections.places)) {
       reviewedAt: selections.checkedAt,
     };
   }
-  console.log(`${nearby.places[id].name}: ${features.length} publishable feature coordinates`);
+  console.log(`${nearbyPlace?.name || launchById.get(id)?.name || id}: ${features.length} publishable feature coordinates`);
 }
 fs.mkdirSync(path.dirname(path.join(root, args.output)), { recursive: true });
 fs.writeFileSync(path.join(root, args.output), `${JSON.stringify(output, null, 2)}\n`);

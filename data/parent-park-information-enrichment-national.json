@@ -27327,7 +27327,7 @@
           "url": "https://www.floridastateparks.org/parks-and-trails/hugh-taylor-birch-state-park/experiences-amenities"
         }
       ],
-      "verifiedAt": "2026-08-09"
+      "verifiedAt": "2026-08-10"
     },
     "launch-fl-fort-lauderdale-snyder-park": {
       "operator": "City of Fort Lauderdale Parks and Recreation",
@@ -27658,7 +27658,7 @@
           "url": "https://discover.pbcgov.org/parks/Locations/Okeeheelee.aspx"
         }
       ],
-      "verifiedAt": "2026-08-09"
+      "verifiedAt": "2026-08-10"
     },
     "launch-fl-west-palm-beach-dreher-park": {
       "operator": "City of West Palm Beach Parks and Recreation",
@@ -27849,7 +27849,7 @@
           "url": "https://www.coxsciencecenter.org/plan-your-visit"
         }
       ],
-      "verifiedAt": "2026-08-09"
+      "verifiedAt": "2026-08-10"
     },
     "launch-ga-atlanta-historic-fourth-ward-park": {
       "name": "Historic Fourth Ward Park",
@@ -78808,6 +78808,435 @@
         }
       ],
       "verifiedAt": "2026-08-08"
+    },
+    "launch-fl-fort-lauderdale-fort-lauderdale-beach-park": {
+      "name": "Fort Lauderdale Beach Park",
+      "city": "Fort Lauderdale",
+      "citySlug": "fort-lauderdale-fl",
+      "operator": "City of Fort Lauderdale Parks and Recreation",
+      "sourceLabel": "City of Fort Lauderdale Parks and Recreation",
+      "source": "https://www.parks.fortlauderdale.gov/beach/beaches/fort-lauderdale-beach-park",
+      "address": "1100 Seabreeze Blvd, Fort Lauderdale, FL 33316",
+      "hours": "Use posted park hours. The city currently lists Beach Park parking from 5:00 a.m. to 2:00 a.m.; seasonal lifeguard coverage is shorter and the lot is closed from 2:00 a.m. to 5:00 a.m.",
+      "cost": "General beach and park access is free. The city currently lists nonresident Beach Park parking at $4 per hour, with special-event rates possible.",
+      "summary": "Fort Lauderdale Beach Park is the city's amenity-rich south beach hub, combining guarded Atlantic shoreline with a playground, basketball and volleyball courts, picnic tables, grills, outdoor showers, restrooms, and a non-motorized boat ramp beside paid beach parking.",
+      "accessibility": "The city identifies accessible parking, picnic tables, grills, restrooms, and showers at Fort Lauderdale Beach Park. Visitors who need beach-mobility assistance should confirm the current access route before leaving.",
+      "transit": "Broward County Transit and the LauderGo community shuttle serve the beach area. Use the current trip planner because routes, stops, and event detours can change.",
+      "verifiedAt": "2026-08-10",
+      "searchAnswers": [
+        {
+          "intentKey": "hours",
+          "question": "What hours is Fort Lauderdale Beach Park open?",
+          "answer": "Follow the hours posted at the park. The city currently publishes Beach Park parking from 5:00 a.m. to 2:00 a.m., with no parking from 2:00-5:00 a.m. Lifeguards use a shorter seasonal schedule: 9:45 a.m.-7:00 p.m. in spring and summer and 9:15 a.m.-6:00 p.m. in fall and winter.",
+          "sourceLabel": "City of Fort Lauderdale Ocean Rescue",
+          "source": "https://www.fortlauderdale.gov/Government/Departments/Fire-Rescue/Organization/Ocean-Rescue",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "entrance",
+          "question": "What address should I use for Fort Lauderdale Beach Park?",
+          "answer": "Use 1100 Seabreeze Boulevard, Fort Lauderdale, FL 33316 for the park. The beach parking system also identifies the larger Fort Lauderdale Beach Park parking area along Seabreeze Boulevard, so follow current city signs rather than stopping at a generic Fort Lauderdale Beach pin.",
+          "sourceLabel": "City of Fort Lauderdale Parks and Recreation",
+          "source": "https://www.parks.fortlauderdale.gov/beach/beaches/fort-lauderdale-beach-park",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "parking",
+          "question": "Where should I park for Fort Lauderdale Beach Park?",
+          "answer": "The city-operated Fort Lauderdale Beach Park lot is the closest large public parking option. The current nonresident rate is $4 per hour and parking is allowed from 5:00 a.m.-2:00 a.m.; special events can replace hourly pricing and fill the lot. Las Olas Garage and beach transit are alternatives.",
+          "sourceLabel": "City of Fort Lauderdale Parking Services",
+          "source": "https://www.fortlauderdale.gov/Government/Departments/Transportation-and-Mobility/Parking-Services/Residential-Beach-Parking-Permit",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "fees",
+          "question": "Does Fort Lauderdale Beach Park charge admission?",
+          "answer": "The city does not list a general admission fee for the beach or ordinary park amenities. Parking, permits, rentals, concessions, organized activities, and special events can cost extra; verify the live parking rate before arriving.",
+          "sourceLabel": "City of Fort Lauderdale Parks and Recreation",
+          "source": "https://www.parks.fortlauderdale.gov/beach/beaches/fort-lauderdale-beach-park",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Are there restrooms and showers at Fort Lauderdale Beach Park?",
+          "answer": "Yes. The official facility page lists restrooms and outdoor showers, and the city's accessibility page identifies accessible restrooms and showers. Individual fixtures can close for cleaning or maintenance, so check the closest facility before settling on the sand.",
+          "sourceLabel": "City of Fort Lauderdale Parks and Recreation",
+          "source": "https://www.parks.fortlauderdale.gov/parks/parks/ada-accessibility-information",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "playground",
+          "question": "Does Fort Lauderdale Beach Park have a playground?",
+          "answer": "Yes. The official amenity list includes a playground, plus a full basketball court, volleyball court, picnic tables, grills, and open beach access. Bring sun protection and supervise children closely around the parking lot, Seabreeze Boulevard, sports courts, and ocean.",
+          "sourceLabel": "City of Fort Lauderdale Parks and Recreation",
+          "source": "https://www.parks.fortlauderdale.gov/beach/beaches/fort-lauderdale-beach-park",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "accessibility",
+          "question": "What accessible amenities are at Fort Lauderdale Beach Park?",
+          "answer": "The city identifies accessible parking, picnic tables, grills, restrooms, and showers at the park. Sand and changing beach conditions can still affect the final route, so visitors who need a beach wheelchair or hands-on assistance should contact the city before traveling.",
+          "sourceLabel": "City of Fort Lauderdale Parks and Recreation",
+          "source": "https://www.parks.fortlauderdale.gov/parks/parks/ada-accessibility-information",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "dog-area",
+          "question": "Are dogs allowed at Fort Lauderdale Beach Park?",
+          "answer": "Do not assume dogs may use ordinary Fort Lauderdale Beach Park sand. The city designates a separate Canine Beach north of Sunrise Boulevard near lifeguard tower 16, currently open 6:00-9:00 a.m. and 5:00-7:00 p.m., with its own control, vaccination, and cleanup rules.",
+          "sourceLabel": "City of Fort Lauderdale Parks and Recreation",
+          "source": "https://www.parks.fortlauderdale.gov/parks/dog-friendly-places",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "transit",
+          "question": "Can I reach Fort Lauderdale Beach Park without a car?",
+          "answer": "Yes. Broward County Transit serves the beach corridor, and the city points visitors to the LauderGo community shuttle as another option. Check the live route and stop for 1100 Seabreeze Boulevard because events and beach traffic can change the practical approach.",
+          "sourceLabel": "City of Fort Lauderdale Parking Services",
+          "source": "https://www.fortlauderdale.gov/Government/Departments/Transportation-and-Mobility/Parking-Services/Residential-Beach-Parking-Permit",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "weather",
+          "question": "How do I check swimming conditions at Fort Lauderdale Beach?",
+          "answer": "Check the flag at the nearest staffed lifeguard tower and follow Ocean Rescue instructions. The city also publishes a beach-conditions hotline at 954-828-4597. Double-red flags mean the water and/or beach is closed; lightning, pollution, surf, currents, or marine life can change conditions quickly.",
+          "sourceLabel": "City of Fort Lauderdale Ocean Rescue",
+          "source": "https://www.fortlauderdale.gov/Government/Departments/Fire-Rescue/Organization/Ocean-Rescue",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "swimming",
+          "question": "When are lifeguards on duty at Fort Lauderdale Beach Park?",
+          "answer": "Fort Lauderdale Ocean Rescue staffs the municipal beach every day of the year. The current coverage schedule is 9:45 a.m.-7:00 p.m. in spring and summer and 9:15 a.m.-6:00 p.m. in fall and winter. Swim only in front of a staffed tower and confirm the day's flags.",
+          "sourceLabel": "City of Fort Lauderdale Ocean Rescue",
+          "source": "https://www.fortlauderdale.gov/Government/Departments/Fire-Rescue/Organization/Ocean-Rescue",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "picnic",
+          "question": "Can I picnic or grill at Fort Lauderdale Beach Park?",
+          "answer": "The facility page lists picnic tables and grills. City beach rules prohibit unapproved grills or generators outside designated or permitted use, so use only the installed facilities, follow posted fire restrictions, and do not bring glass or alcohol onto the beach.",
+          "sourceLabel": "City of Fort Lauderdale Parks and Recreation",
+          "source": "https://www.parks.fortlauderdale.gov/parks/park-rules",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "rules",
+          "question": "What is prohibited on Fort Lauderdale Beach?",
+          "answer": "Glass containers and alcohol are prohibited on the beach, and digging holes, erecting tents or fencing, and using unapproved grills or generators are not allowed. Canopies can also be restricted during special events. Follow lifeguard, ranger, and police directions.",
+          "sourceLabel": "City of Fort Lauderdale Parks and Recreation",
+          "source": "https://www.parks.fortlauderdale.gov/parks/park-rules",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "need-to-know",
+          "question": "What should families know before visiting Fort Lauderdale Beach Park?",
+          "answer": "This is both a recreation park and an exposed ocean beach. Check warning flags first, park legally before the lot fills, use the restroom before choosing a distant sand spot, bring water and sun protection, and keep children within direct reach near traffic, courts, grills, the boat ramp, and surf.",
+          "sourceLabel": "City of Fort Lauderdale Ocean Rescue",
+          "source": "https://www.fortlauderdale.gov/Government/Departments/Fire-Rescue/Organization/Ocean-Rescue",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "public-art",
+          "question": "What are the main landmarks at Fort Lauderdale Beach Park?",
+          "answer": "The park's signed Seabreeze Boulevard entrance, guarded beach, playground, sports courts, picnic area, showers, and non-motorized boat ramp form the main visitor zones. The Fort Lauderdale Aquatic Center and Las Olas Oceanside Park are nearby but operate as separate destinations.",
+          "sourceLabel": "City of Fort Lauderdale Parks and Recreation",
+          "source": "https://www.parks.fortlauderdale.gov/beach/beaches/fort-lauderdale-beach-park",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        }
+      ],
+      "sources": [
+        {
+          "label": "City of Fort Lauderdale Parks and Recreation",
+          "url": "https://www.parks.fortlauderdale.gov/beach/beaches/fort-lauderdale-beach-park"
+        },
+        {
+          "label": "City of Fort Lauderdale Ocean Rescue",
+          "url": "https://www.fortlauderdale.gov/Government/Departments/Fire-Rescue/Organization/Ocean-Rescue"
+        },
+        {
+          "label": "City of Fort Lauderdale Parking Services",
+          "url": "https://www.fortlauderdale.gov/Government/Departments/Transportation-and-Mobility/Parking-Services/Residential-Beach-Parking-Permit"
+        }
+      ],
+      "image": {
+        "url": "/assets/parks/south-florida-atlantic-super/fort-lauderdale-beach-park/01-fort-lauderdale-beach-park-sign.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Fort_Lauderdale_Beach_Park_sign.jpg",
+        "author": "MrBill3",
+        "license": "BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "alt": "Fort Lauderdale Beach Park entrance sign beside palms and beach parking",
+        "width": 1600,
+        "height": 1000
+      },
+      "additionalImages": [
+        {
+          "url": "/assets/parks/south-florida-atlantic-super/fort-lauderdale-beach-park/02-ft-lauderdale-beach-1.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Ft_lauderdale_beach_1.jpg",
+          "author": "MdeVicente",
+          "license": "BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "alt": "Staffed lifeguard tower and swimmers on Fort Lauderdale Beach",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/south-florida-atlantic-super/fort-lauderdale-beach-park/03-beach-in-fort-lauderdale-florida-2014.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Beach_in_Fort_Lauderdale,_Florida_(2014).jpg",
+          "author": "osseous",
+          "license": "BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+          "alt": "Lifeguard tower, broad sand, palms, and skyline at Fort Lauderdale Beach",
+          "width": 1169,
+          "height": 485
+        },
+        {
+          "url": "/assets/parks/south-florida-atlantic-super/fort-lauderdale-beach-park/04-central-beach-fort-lauderdale-beach-florida-atlantic-coast.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Central_Beach_Fort_Lauderdale_Beach_Florida_Atlantic_Coast.jpg",
+          "author": "EgorovaSvetlana",
+          "license": "BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "alt": "Wide Atlantic shoreline view along Fort Lauderdale Beach",
+          "width": 1600,
+          "height": 1000
+        }
+      ],
+      "replaceImages": true
+    },
+    "launch-fl-hollywood-hollywood-beach-and-broadwalk": {
+      "name": "Hollywood Beach and Broadwalk",
+      "city": "Hollywood",
+      "citySlug": "hollywood-fl",
+      "operator": "City of Hollywood Parks, Recreation and Cultural Arts",
+      "sourceLabel": "City of Hollywood Parks, Recreation and Cultural Arts",
+      "source": "https://hollywoodfl.org/facilities/facility/details/Hollywood-Beach-Broadwalk-109",
+      "address": "A1A between Dania Beach Blvd and Hallandale Beach Blvd, Hollywood, FL 33019",
+      "hours": "City of Hollywood parks, including Hollywood Beach and Broadwalk, are open from sunrise to sunset. Lifeguards are normally on duty 9:00 a.m.-6:00 p.m., with 9:00 a.m.-7:00 p.m. coverage on holidays and special events.",
+      "cost": "Public beach and Broadwalk access is free. Parking, rentals, food, reserved facilities, and ticketed or special activities cost separately.",
+      "summary": "Hollywood Beach and Broadwalk is a nearly 2.5-mile brick oceanfront promenade and public beach, linking guarded swimming, accessible sand routes, restaurants, bike and walking space, Charnow Park's children's water playground, Hollywood Beach Theatre, public restrooms, and multiple parking and shuttle approaches.",
+      "accessibility": "The city lists the destination as ADA accessible and identifies beach access points at Carolina, Connecticut, Johnson, New York, Tyler, Harrison, and Oregon streets and between Iris and Magnolia terraces.",
+      "transit": "The Hollywood Sun Shuttle serves the barrier island and connections toward Downtown Hollywood. Check the current app, fare, operating area, and event detours before depending on it.",
+      "verifiedAt": "2026-08-10",
+      "searchAnswers": [
+        {
+          "intentKey": "hours",
+          "question": "What hours are Hollywood Beach and the Broadwalk open?",
+          "answer": "The city lists its parks as open from sunrise to sunset. Lifeguard coverage is normally 9:00 a.m.-6:00 p.m. year-round and extends to 7:00 p.m. on holidays and special events. Restaurants, garages, restrooms, Charnow Park, and the Beach Theatre can keep different schedules.",
+          "sourceLabel": "City of Hollywood Parks, Recreation and Cultural Arts",
+          "source": "https://hollywoodfl.org/facilities/facility/details/Hollywood-Beach-Broadwalk-109",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "entrance",
+          "question": "Where should I start at Hollywood Beach Broadwalk?",
+          "answer": "The Broadwalk runs along A1A between Dania Beach Boulevard and Hallandale Beach Boulevard. Johnson Street is a practical central arrival point near Hollywood Beach Theatre, while Connecticut Street is best for Charnow Park. Use the exact destination pin for the part of the beach you plan to visit.",
+          "sourceLabel": "City of Hollywood",
+          "source": "https://hollywoodfl.org/DocumentCenter/View/27071/hollywood-beach-map---03-2026",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "parking",
+          "question": "Where should I park for Hollywood Beach Broadwalk?",
+          "answer": "The city map identifies public garages at Garfield Street and Nevada Street, public parking at North Beach Park, metered street spaces, and additional public-access private garages and lots. Choose parking near the intended subsite and check current rates and event restrictions before entering the barrier island.",
+          "sourceLabel": "City of Hollywood",
+          "source": "https://hollywoodfl.org/DocumentCenter/View/27071/hollywood-beach-map---03-2026",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "fees",
+          "question": "Is Hollywood Beach Broadwalk free?",
+          "answer": "Yes. General access to the public beach and Broadwalk is free. Parking, bike or surrey rentals, food, private attractions, reserved pavilions, and special programs cost separately.",
+          "sourceLabel": "City of Hollywood Parks, Recreation and Cultural Arts",
+          "source": "https://hollywoodfl.org/facilities/facility/details/Hollywood-Beach-Broadwalk-109",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Where are public restrooms on Hollywood Beach Broadwalk?",
+          "answer": "The city's March 2026 beach map marks public restrooms at several points along the Broadwalk, including the Charnow Park/Garfield area and central and southern access streets. Identify the nearest marked facility before settling on the beach because the promenade is nearly 2.5 miles long.",
+          "sourceLabel": "City of Hollywood",
+          "source": "https://hollywoodfl.org/DocumentCenter/View/27071/hollywood-beach-map---03-2026",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "accessibility",
+          "question": "Where are accessible beach entrances at Hollywood Beach?",
+          "answer": "Accessible beach access points are listed at Carolina, Connecticut, Johnson, New York, Tyler, Harrison, and Oregon streets and between Iris and Magnolia terraces. Match the access street to nearby parking and the desired destination rather than assuming every cross street has the same mat or route.",
+          "sourceLabel": "City of Hollywood",
+          "source": "https://www.hollywoodfl.org/1049/Hollywood-Beach",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "splash-pad",
+          "question": "Is there a splash pad on Hollywood Beach Broadwalk?",
+          "answer": "Yes. Charnow Park at 300 Connecticut Street has a children's splash fountain, playgrounds, shaded seating, pavilions, restrooms, and restored paddleball courts. It follows its own posted operating conditions and can close for weather or maintenance even when the beach remains open.",
+          "sourceLabel": "City of Hollywood Parks, Recreation and Cultural Arts",
+          "source": "https://hollywoodfl.org/Facilities/Facility/Details/Charnow-Park-22",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "dog-area",
+          "question": "Are dogs allowed on Hollywood Beach?",
+          "answer": "Dogs belong only in the city's designated Dog Beach between the Pershing and Custer Street lifeguard stands. No pass is currently required and the designated area is open sunrise to sunset. Dogs must be controlled, have a current rabies tag, and remain leashed outside Dog Beach.",
+          "sourceLabel": "City of Hollywood Parks, Recreation and Cultural Arts",
+          "source": "https://hollywoodfl.org/facilities/facility/details/Dog-Beach-Hollywood-Beach-98",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "transit",
+          "question": "Can I reach Hollywood Beach without parking on the barrier island?",
+          "answer": "The Hollywood Sun Shuttle serves the beach and Downtown Hollywood connections. The city's beach map also marks shuttle stops near parking hubs. Check the current service area, app-request rules, fare, and operating hours because those details can change.",
+          "sourceLabel": "City of Hollywood",
+          "source": "https://hollywoodfl.org/DocumentCenter/View/27071/hollywood-beach-map---03-2026",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "trail-surface",
+          "question": "Can I bike or skate on Hollywood Beach Broadwalk?",
+          "answer": "Yes. The brick-paved Broadwalk is used by pedestrians, joggers, bicycles, rollerblades, and other human-powered users. Motorized recreational devices are prohibited, while mobility devices used for disability access remain allowed. Stay in the designated path and yield to pedestrians.",
+          "sourceLabel": "City of Hollywood Parks, Recreation and Cultural Arts",
+          "source": "https://hollywoodfl.org/facilities/facility/details/Hollywood-Beach-Broadwalk-109",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "swimming",
+          "question": "When are lifeguards on duty at Hollywood Beach?",
+          "answer": "Hollywood Beach Safety operates year-round, seven days a week. Current hours are 9:00 a.m.-6:00 p.m., extended to 7:00 p.m. for holidays and special events. Swim near an open tower, check warning flags, and leave the water for thunder or lightning.",
+          "sourceLabel": "City of Hollywood Beach Safety",
+          "source": "https://www.hollywoodfl.org/251/Beach-Safety",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "food",
+          "question": "Are there places to eat along Hollywood Beach Broadwalk?",
+          "answer": "Yes. The city describes beachfront restaurants, bars, shopping, and rentals along the Broadwalk. Hours and prices belong to each operator, so do not rely on a particular business being open late; carry water and identify a backup before a long walk.",
+          "sourceLabel": "City of Hollywood",
+          "source": "https://www.hollywoodfl.org/1049/Hollywood-Beach",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "public-art",
+          "question": "What are the main landmarks on Hollywood Beach Broadwalk?",
+          "answer": "The strongest family and culture stops are Charnow Park's water playground and pavilions, Hollywood Beach Theatre at Johnson Street, the brick Broadwalk itself, accessible beach entrances, public-art displays, and the guarded Atlantic shoreline. North Beach Park and Dog Beach are separate northern destinations.",
+          "sourceLabel": "City of Hollywood Parks, Recreation and Cultural Arts",
+          "source": "https://hollywoodfl.org/facilities/facility/details/Hollywood-Beach-Broadwalk-109",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "weather",
+          "question": "How do I check current Hollywood Beach conditions?",
+          "answer": "Use the city's Beach Safety Conditions link and read the warning flag at the nearest lifeguard tower. Lightning, rip currents, surf, marine life, king tides, storms, or special events can change a safe route or close water access without closing the entire Broadwalk.",
+          "sourceLabel": "City of Hollywood Beach Safety",
+          "source": "https://www.hollywoodfl.org/251/Beach-Safety",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        },
+        {
+          "intentKey": "need-to-know",
+          "question": "What should families know before visiting Hollywood Beach Broadwalk?",
+          "answer": "Choose the subsite first, then park near it; the Broadwalk is nearly 2.5 miles long. Charnow Park is the best dedicated play-and-splash stop, Johnson Street is the central theatre and accessible-beach hub, and lifeguard hours are shorter than park hours. Bring water, sun protection, and a weather exit plan.",
+          "sourceLabel": "City of Hollywood Parks, Recreation and Cultural Arts",
+          "source": "https://hollywoodfl.org/facilities/facility/details/Hollywood-Beach-Broadwalk-109",
+          "sourceType": "official",
+          "checkedAt": "2026-08-10"
+        }
+      ],
+      "sources": [
+        {
+          "label": "City of Hollywood Parks, Recreation and Cultural Arts",
+          "url": "https://hollywoodfl.org/facilities/facility/details/Hollywood-Beach-Broadwalk-109"
+        },
+        {
+          "label": "City of Hollywood Beach Safety",
+          "url": "https://www.hollywoodfl.org/251/Beach-Safety"
+        },
+        {
+          "label": "City of Hollywood March 2026 beach map",
+          "url": "https://hollywoodfl.org/DocumentCenter/View/27071/hollywood-beach-map---03-2026"
+        },
+        {
+          "label": "City of Hollywood Parks, Recreation and Cultural Arts",
+          "url": "https://hollywoodfl.org/Facilities/Facility/Details/Charnow-Park-22"
+        },
+        {
+          "label": "City of Hollywood Parks, Recreation and Cultural Arts",
+          "url": "https://www.hollywoodfl.org/facilities/facility/details/Hollywood-Beach-Theater-Plaza-97"
+        }
+      ],
+      "alternateNames": [
+        "Hollywood Beach & Broadwalk"
+      ],
+      "image": {
+        "url": "/assets/parks/south-florida-atlantic-super/hollywood-beach-and-broadwalk/01-hollywood-beach-boardwalk-1.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Hollywood_Beach_Boardwalk_(1).jpg",
+        "author": "Tamanoeconomico",
+        "license": "BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "alt": "Brick Hollywood Beach Broadwalk beside palms and the Atlantic shoreline",
+        "width": 1600,
+        "height": 1000
+      },
+      "additionalImages": [
+        {
+          "url": "/assets/parks/south-florida-atlantic-super/hollywood-beach-and-broadwalk/02-hollywood-beach-1.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Hollywood_Beach_(1).jpg",
+          "author": "Tamanoeconomico",
+          "license": "BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "alt": "Palms, sand, and turquoise water at Hollywood Beach",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/south-florida-atlantic-super/hollywood-beach-and-broadwalk/03-charnow-park-hollywood-beach.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Charnow_Park_(Hollywood_Beach).jpg",
+          "author": "Tamanoeconomico",
+          "license": "BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "alt": "Splash fountain, pavilion, and playground at Charnow Park on Hollywood Beach",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/south-florida-atlantic-super/hollywood-beach-and-broadwalk/04-hollywood-beach-theatre-1.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Hollywood_Beach_Theatre_(1).jpg",
+          "author": "Tamanoeconomico",
+          "license": "BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "alt": "Hollywood Beach Theatre stage and oceanfront plaza",
+          "width": 1600,
+          "height": 1000
+        }
+      ],
+      "replaceImages": true
     }
   }
 }

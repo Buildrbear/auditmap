@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T06:46:34.888Z",
+  "generatedAt": "2026-08-10T07:20:20.211Z",
   "policy": {
     "publication": "AI findings remain proposed until a human accepts the fact and its sources.",
     "prioritization": "Daily-use and safety-sensitive gaps rank above descriptive content.",
@@ -7,10 +7,10 @@
     "partialAnswers": "Useful but incomplete answers remain visible and stay queued until verified."
   },
   "summary": {
-    "places": 891,
+    "places": 893,
     "averageCoverageScore": 55,
-    "openTasks": 5861,
-    "urgentTasks": 941
+    "openTasks": 5869,
+    "urgentTasks": 943
   },
   "coverage": [
     {
@@ -6249,6 +6249,20 @@
       "expectedIntentCount": 14,
       "coveredIntentCount": 0,
       "coverageScore": 0
+    },
+    {
+      "placeId": "launch-fl-fort-lauderdale-fort-lauderdale-beach-park",
+      "placeName": "Fort Lauderdale Beach Park",
+      "expectedIntentCount": 14,
+      "coveredIntentCount": 10,
+      "coverageScore": 73
+    },
+    {
+      "placeId": "launch-fl-hollywood-hollywood-beach-and-broadwalk",
+      "placeName": "Hollywood Beach and Broadwalk",
+      "expectedIntentCount": 14,
+      "coveredIntentCount": 10,
+      "coverageScore": 73
     }
   ],
   "tasks": [
@@ -30769,6 +30783,56 @@
       "placeCoverageScore": 73
     },
     {
+      "id": "launch-fl-fort-lauderdale-fort-lauderdale-beach-park:closures",
+      "placeId": "launch-fl-fort-lauderdale-fort-lauderdale-beach-park",
+      "placeName": "Fort Lauderdale Beach Park",
+      "placeType": "Park",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "intentKey": "closures",
+      "intentLabel": "Closures and availability",
+      "question": "Is anything at Fort Lauderdale Beach Park closed, seasonal, or temporarily unavailable?",
+      "reason": "No current, source-backed closures and availability answer is cataloged.",
+      "action": "research",
+      "priority": 96,
+      "freshnessDays": 3,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "City of Fort Lauderdale Parks and Recreation",
+          "url": "https://www.parks.fortlauderdale.gov/beach/beaches/fort-lauderdale-beach-park",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Fort Lauderdale Ocean Rescue",
+          "url": "https://www.fortlauderdale.gov/Government/Departments/Fire-Rescue/Organization/Ocean-Rescue",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Fort Lauderdale Parking Services",
+          "url": "https://www.fortlauderdale.gov/Government/Departments/Transportation-and-Mobility/Parking-Services/Residential-Beach-Parking-Permit",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Fort Lauderdale Parks and Recreation",
+          "url": "https://www.parks.fortlauderdale.gov/parks/parks/ada-accessibility-information",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Fort Lauderdale Parks and Recreation",
+          "url": "https://www.parks.fortlauderdale.gov/parks/dog-friendly-places",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Fort Lauderdale Parks and Recreation",
+          "url": "https://www.parks.fortlauderdale.gov/parks/park-rules",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 73
+    },
+    {
       "id": "fred-fletcher-park:closures",
       "placeId": "fred-fletcher-park",
       "placeName": "Fred Fletcher Park",
@@ -30792,6 +30856,61 @@
         {
           "label": "City of Raleigh",
           "url": "https://raleighnc.gov/parks-and-recreation/services/find-playground",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 73
+    },
+    {
+      "id": "launch-fl-hollywood-hollywood-beach-and-broadwalk:closures",
+      "placeId": "launch-fl-hollywood-hollywood-beach-and-broadwalk",
+      "placeName": "Hollywood Beach and Broadwalk",
+      "placeType": "Park",
+      "city": "Hollywood",
+      "state": "FL",
+      "intentKey": "closures",
+      "intentLabel": "Closures and availability",
+      "question": "Is anything at Hollywood Beach and Broadwalk closed, seasonal, or temporarily unavailable?",
+      "reason": "No current, source-backed closures and availability answer is cataloged.",
+      "action": "research",
+      "priority": 96,
+      "freshnessDays": 3,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "City of Hollywood Parks, Recreation and Cultural Arts",
+          "url": "https://hollywoodfl.org/facilities/facility/details/Hollywood-Beach-Broadwalk-109",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Hollywood",
+          "url": "https://hollywoodfl.org/DocumentCenter/View/27071/hollywood-beach-map---03-2026",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Hollywood",
+          "url": "https://www.hollywoodfl.org/1049/Hollywood-Beach",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Hollywood Parks, Recreation and Cultural Arts",
+          "url": "https://hollywoodfl.org/Facilities/Facility/Details/Charnow-Park-22",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Hollywood Parks, Recreation and Cultural Arts",
+          "url": "https://hollywoodfl.org/facilities/facility/details/Dog-Beach-Hollywood-Beach-98",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Hollywood Beach Safety",
+          "url": "https://www.hollywoodfl.org/251/Beach-Safety",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Hollywood Parks, Recreation and Cultural Arts",
+          "url": "https://www.hollywoodfl.org/facilities/facility/details/Hollywood-Beach-Theater-Plaza-97",
           "sourceType": "official"
         }
       ],
@@ -66100,6 +66219,56 @@
       "placeCoverageScore": 51
     },
     {
+      "id": "launch-fl-fort-lauderdale-fort-lauderdale-beach-park:trail-surface",
+      "placeId": "launch-fl-fort-lauderdale-fort-lauderdale-beach-park",
+      "placeName": "Fort Lauderdale Beach Park",
+      "placeType": "Park",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "intentKey": "trail-surface",
+      "intentLabel": "Walking surfaces and terrain",
+      "question": "What are the walking surfaces, slopes, and trail conditions at Fort Lauderdale Beach Park?",
+      "reason": "No current, source-backed walking surfaces and terrain answer is cataloged.",
+      "action": "research",
+      "priority": 80,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "City of Fort Lauderdale Parks and Recreation",
+          "url": "https://www.parks.fortlauderdale.gov/beach/beaches/fort-lauderdale-beach-park",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Fort Lauderdale Ocean Rescue",
+          "url": "https://www.fortlauderdale.gov/Government/Departments/Fire-Rescue/Organization/Ocean-Rescue",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Fort Lauderdale Parking Services",
+          "url": "https://www.fortlauderdale.gov/Government/Departments/Transportation-and-Mobility/Parking-Services/Residential-Beach-Parking-Permit",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Fort Lauderdale Parks and Recreation",
+          "url": "https://www.parks.fortlauderdale.gov/parks/parks/ada-accessibility-information",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Fort Lauderdale Parks and Recreation",
+          "url": "https://www.parks.fortlauderdale.gov/parks/dog-friendly-places",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Fort Lauderdale Parks and Recreation",
+          "url": "https://www.parks.fortlauderdale.gov/parks/park-rules",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 73
+    },
+    {
       "id": "launch-fl-miami-maurice-a-ferr-park:playground",
       "placeId": "launch-fl-miami-maurice-a-ferr-park",
       "placeName": "Maurice A. Ferré Park",
@@ -80627,6 +80796,61 @@
       ],
       "requiresHumanReview": true,
       "placeCoverageScore": 48
+    },
+    {
+      "id": "launch-fl-hollywood-hollywood-beach-and-broadwalk:playground",
+      "placeId": "launch-fl-hollywood-hollywood-beach-and-broadwalk",
+      "placeName": "Hollywood Beach and Broadwalk",
+      "placeType": "Park",
+      "city": "Hollywood",
+      "state": "FL",
+      "intentKey": "playground",
+      "intentLabel": "Playgrounds",
+      "question": "What playgrounds are at Hollywood Beach and Broadwalk, and what ages or abilities do they serve?",
+      "reason": "No current, source-backed playgrounds answer is cataloged.",
+      "action": "research",
+      "priority": 79,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "City of Hollywood Parks, Recreation and Cultural Arts",
+          "url": "https://hollywoodfl.org/facilities/facility/details/Hollywood-Beach-Broadwalk-109",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Hollywood",
+          "url": "https://hollywoodfl.org/DocumentCenter/View/27071/hollywood-beach-map---03-2026",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Hollywood",
+          "url": "https://www.hollywoodfl.org/1049/Hollywood-Beach",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Hollywood Parks, Recreation and Cultural Arts",
+          "url": "https://hollywoodfl.org/Facilities/Facility/Details/Charnow-Park-22",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Hollywood Parks, Recreation and Cultural Arts",
+          "url": "https://hollywoodfl.org/facilities/facility/details/Dog-Beach-Hollywood-Beach-98",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Hollywood Beach Safety",
+          "url": "https://www.hollywoodfl.org/251/Beach-Safety",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Hollywood Parks, Recreation and Cultural Arts",
+          "url": "https://www.hollywoodfl.org/facilities/facility/details/Hollywood-Beach-Theater-Plaza-97",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 73
     },
     {
       "id": "launch-ca-carlsbad-carlsbad-state-beach:playground",
@@ -95521,6 +95745,56 @@
       ],
       "requiresHumanReview": true,
       "placeCoverageScore": 58
+    },
+    {
+      "id": "launch-fl-fort-lauderdale-fort-lauderdale-beach-park:splash-pad",
+      "placeId": "launch-fl-fort-lauderdale-fort-lauderdale-beach-park",
+      "placeName": "Fort Lauderdale Beach Park",
+      "placeType": "Park",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "intentKey": "splash-pad",
+      "intentLabel": "Water play",
+      "question": "Is there a splash pad or water play at Fort Lauderdale Beach Park, and when does it operate?",
+      "reason": "No current, source-backed water play answer is cataloged.",
+      "action": "research",
+      "priority": 78,
+      "freshnessDays": 14,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "City of Fort Lauderdale Parks and Recreation",
+          "url": "https://www.parks.fortlauderdale.gov/beach/beaches/fort-lauderdale-beach-park",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Fort Lauderdale Ocean Rescue",
+          "url": "https://www.fortlauderdale.gov/Government/Departments/Fire-Rescue/Organization/Ocean-Rescue",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Fort Lauderdale Parking Services",
+          "url": "https://www.fortlauderdale.gov/Government/Departments/Transportation-and-Mobility/Parking-Services/Residential-Beach-Parking-Permit",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Fort Lauderdale Parks and Recreation",
+          "url": "https://www.parks.fortlauderdale.gov/parks/parks/ada-accessibility-information",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Fort Lauderdale Parks and Recreation",
+          "url": "https://www.parks.fortlauderdale.gov/parks/dog-friendly-places",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Fort Lauderdale Parks and Recreation",
+          "url": "https://www.parks.fortlauderdale.gov/parks/park-rules",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 73
     },
     {
       "id": "launch-ca-carlsbad-agua-hedionda-lagoon-discovery-center:splash-pad",
@@ -128671,6 +128945,61 @@
       "placeCoverageScore": 48
     },
     {
+      "id": "launch-fl-hollywood-hollywood-beach-and-broadwalk:picnic",
+      "placeId": "launch-fl-hollywood-hollywood-beach-and-broadwalk",
+      "placeName": "Hollywood Beach and Broadwalk",
+      "placeType": "Park",
+      "city": "Hollywood",
+      "state": "FL",
+      "intentKey": "picnic",
+      "intentLabel": "Picnic areas",
+      "question": "Where are picnic areas at Hollywood Beach and Broadwalk, and do any require reservations?",
+      "reason": "No current, source-backed picnic areas answer is cataloged.",
+      "action": "research",
+      "priority": 68,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "City of Hollywood Parks, Recreation and Cultural Arts",
+          "url": "https://hollywoodfl.org/facilities/facility/details/Hollywood-Beach-Broadwalk-109",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Hollywood",
+          "url": "https://hollywoodfl.org/DocumentCenter/View/27071/hollywood-beach-map---03-2026",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Hollywood",
+          "url": "https://www.hollywoodfl.org/1049/Hollywood-Beach",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Hollywood Parks, Recreation and Cultural Arts",
+          "url": "https://hollywoodfl.org/Facilities/Facility/Details/Charnow-Park-22",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Hollywood Parks, Recreation and Cultural Arts",
+          "url": "https://hollywoodfl.org/facilities/facility/details/Dog-Beach-Hollywood-Beach-98",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Hollywood Beach Safety",
+          "url": "https://www.hollywoodfl.org/251/Beach-Safety",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Hollywood Parks, Recreation and Cultural Arts",
+          "url": "https://www.hollywoodfl.org/facilities/facility/details/Hollywood-Beach-Theater-Plaza-97",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 73
+    },
+    {
       "id": "launch-fl-miami-maurice-a-ferr-park:shade",
       "placeId": "launch-fl-miami-maurice-a-ferr-park",
       "placeName": "Maurice A. Ferré Park",
@@ -143583,6 +143912,111 @@
       ],
       "requiresHumanReview": true,
       "placeCoverageScore": 58
+    },
+    {
+      "id": "launch-fl-fort-lauderdale-fort-lauderdale-beach-park:shade",
+      "placeId": "launch-fl-fort-lauderdale-fort-lauderdale-beach-park",
+      "placeName": "Fort Lauderdale Beach Park",
+      "placeType": "Park",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "intentKey": "shade",
+      "intentLabel": "Shade and weather comfort",
+      "question": "Where can visitors find shade or weather shelter at Fort Lauderdale Beach Park?",
+      "reason": "No current, source-backed shade and weather comfort answer is cataloged.",
+      "action": "research",
+      "priority": 64,
+      "freshnessDays": 180,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "City of Fort Lauderdale Parks and Recreation",
+          "url": "https://www.parks.fortlauderdale.gov/beach/beaches/fort-lauderdale-beach-park",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Fort Lauderdale Ocean Rescue",
+          "url": "https://www.fortlauderdale.gov/Government/Departments/Fire-Rescue/Organization/Ocean-Rescue",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Fort Lauderdale Parking Services",
+          "url": "https://www.fortlauderdale.gov/Government/Departments/Transportation-and-Mobility/Parking-Services/Residential-Beach-Parking-Permit",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Fort Lauderdale Parks and Recreation",
+          "url": "https://www.parks.fortlauderdale.gov/parks/parks/ada-accessibility-information",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Fort Lauderdale Parks and Recreation",
+          "url": "https://www.parks.fortlauderdale.gov/parks/dog-friendly-places",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Fort Lauderdale Parks and Recreation",
+          "url": "https://www.parks.fortlauderdale.gov/parks/park-rules",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 73
+    },
+    {
+      "id": "launch-fl-hollywood-hollywood-beach-and-broadwalk:shade",
+      "placeId": "launch-fl-hollywood-hollywood-beach-and-broadwalk",
+      "placeName": "Hollywood Beach and Broadwalk",
+      "placeType": "Park",
+      "city": "Hollywood",
+      "state": "FL",
+      "intentKey": "shade",
+      "intentLabel": "Shade and weather comfort",
+      "question": "Where can visitors find shade or weather shelter at Hollywood Beach and Broadwalk?",
+      "reason": "No current, source-backed shade and weather comfort answer is cataloged.",
+      "action": "research",
+      "priority": 64,
+      "freshnessDays": 180,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "City of Hollywood Parks, Recreation and Cultural Arts",
+          "url": "https://hollywoodfl.org/facilities/facility/details/Hollywood-Beach-Broadwalk-109",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Hollywood",
+          "url": "https://hollywoodfl.org/DocumentCenter/View/27071/hollywood-beach-map---03-2026",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Hollywood",
+          "url": "https://www.hollywoodfl.org/1049/Hollywood-Beach",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Hollywood Parks, Recreation and Cultural Arts",
+          "url": "https://hollywoodfl.org/Facilities/Facility/Details/Charnow-Park-22",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Hollywood Parks, Recreation and Cultural Arts",
+          "url": "https://hollywoodfl.org/facilities/facility/details/Dog-Beach-Hollywood-Beach-98",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Hollywood Beach Safety",
+          "url": "https://www.hollywoodfl.org/251/Beach-Safety",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Hollywood Parks, Recreation and Cultural Arts",
+          "url": "https://www.hollywoodfl.org/facilities/facility/details/Hollywood-Beach-Theater-Plaza-97",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 73
     },
     {
       "id": "launch-nc-durham-american-tobacco-trail:shade",
