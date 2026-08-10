@@ -73,6 +73,25 @@ const obsoleteFeatureSlugs = {
     "water-battery",
     "fort-mchenry-picnic-area",
   ],
+  "launch-md-baltimore-baltimore-waterfront-promenade": [
+    "inner-harbor-amphitheater",
+    "west-shore-park",
+    "rash-field-park",
+    "harbor-point-central-plaza",
+    "pierces-park",
+    "canton-waterfront-park",
+    "fells-point-broadway-pier",
+    "harbor-east-promenade",
+  ],
+  "launch-md-baltimore-lake-roland-park": [
+    "lake-roland-nature-center",
+    "lake-roland-boardwalk",
+    "lake-roland-dog-park",
+    "red-trail",
+    "yellow-trail",
+    "falls-road-light-rail-entrance",
+    "paw-point-dog-park-beach",
+  ],
 };
 function schedule(p) {
   if (p.id.endsWith("cylburn-arboretum"))

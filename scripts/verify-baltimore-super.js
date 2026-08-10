@@ -11,6 +11,8 @@ const fs = require("node:fs"),
     "launch-md-baltimore-fort-mchenry-national-monument-and-historic-shrine": 4,
     "launch-md-baltimore-cylburn-arboretum": 1,
     "launch-md-baltimore-gwynns-falls-leakin-park": 5,
+    "launch-md-baltimore-baltimore-waterfront-promenade": 3,
+    "launch-md-baltimore-lake-roland-park": 3,
   },
   fail = [],
   slug = (v) =>
@@ -101,6 +103,11 @@ for (const phrase of [
   "Download a map",
   "expected to open by the end of summer 2026",
   "Paw Point is a fenced membership-only",
+  "approximately daily from 11:00 a.m. to 10:00 p.m.",
+  "Phase I remains open",
+  "Broadway Pier specifically permits",
+  "Red at about 2.0 miles",
+  "Paw Point users must leave",
 ])
   need(joined.includes(phrase), `Missing Baltimore guidance: ${phrase}`);
 const featureRequirements = {
@@ -136,6 +143,16 @@ const featureRequirements = {
     "Gwynns Falls Trail": "People_walking_the_Gwynns_Falls_Trail",
     "Magnolia Grove": "Magnolia_Grove",
     "I-70 Park and Ride Trailhead": "I-70_Park_%26_Ride",
+  },
+  "launch-md-baltimore-baltimore-waterfront-promenade": {
+    "Pierce's Park": "Pierce's_Park_Rain_Gardens",
+    "Broadway Pier": "Broadway_Pier_(54546680772)",
+    "Mr. Trash Wheel": "Inner_Harbor_Water_Wheel",
+  },
+  "launch-md-baltimore-lake-roland-park": {
+    "Lake Roland Dam": "Lake_Roland_Dam",
+    "Lake Roland Waterworks": "Pump_Station_in_Robert_E._Lee_Park",
+    "White Trail": "Rocky_trail_at_Lake_Roland",
   },
 };
 for (const [placeId, requirements] of Object.entries(featureRequirements)) {
@@ -186,6 +203,21 @@ for (const name of [
   "Thomas Jefferson Grove of Trees",
   "Dead Run Trailhead",
   "Leakin Park Eagle Drive Entrance",
+  "Inner Harbor Amphitheater",
+  "West Shore Park",
+  "Rash Field Park",
+  "Harbor Point Central Plaza",
+  "Pierces Park",
+  "Canton Waterfront Park",
+  "Fells Point Broadway Pier",
+  "Harbor East Promenade",
+  "Lake Roland Nature Center",
+  "Lake Roland Boardwalk",
+  "Lake Roland Dog Park",
+  "Red Trail",
+  "Yellow Trail",
+  "Falls Road Light Rail Entrance",
+  "Paw Point Dog Park Beach",
 ])
   need(
     !campaign.places

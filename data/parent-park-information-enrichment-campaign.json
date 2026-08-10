@@ -58158,9 +58158,49 @@
         {
           "intentKey": "weather",
           "question": "What weather should I check before visiting Baltimore Waterfront Promenade?",
-          "answer": "Check current Baltimore weather and operator alerts. Harbor wind, thunderstorms, flash flooding, stream and lake conditions, heat, snow and ice can close trails, water access or facilities independently.",
+          "answer": "Check Baltimore heat, lightning, wind and air quality before a waterfront walk. The route is exposed, pavement radiates heat, bridges and piers can be windy, and storms can interrupt fountains, events, Water Taxi service and construction access independently.",
           "sourceLabel": "Waterfront Partnership of Baltimore",
           "source": "https://www.waterfrontpartnership.org/waterfront-parks",
+          "verifiedAt": "2026-08-10",
+          "freshnessClass": "fast",
+          "status": "verified"
+        },
+        {
+          "intentKey": "splash-pad",
+          "question": "Is the Walter Sondheim Fountain splash pad open in 2026?",
+          "answer": "Waterfront Partnership reports the fountain open for the 2026 season and says it operates approximately daily from 11:00 a.m. to 10:00 p.m. between West Shore Park and the Visitor Center. Baltimore Recreation and Parks controls operation, so report outages to 311 and do not treat the schedule as guaranteed.",
+          "sourceLabel": "Waterfront Partnership of Baltimore",
+          "source": "https://www.waterfrontpartnership.org/waterfront-parks",
+          "verifiedAt": "2026-08-10",
+          "freshnessClass": "fast",
+          "status": "verified"
+        },
+        {
+          "intentKey": "rash-field",
+          "question": "What is open at Rash Field during Phase II construction?",
+          "answer": "Phase I remains open with Jake's Skatepark, Adventure Play, the BGE Pavilion, Nature Play and the Overlook. Phase II construction affects the Shade Lawn and creates changing detours; Waterfront Partnership anticipates the new lawn, public beach, volleyball and nature-trail area in late summer 2026.",
+          "sourceLabel": "Waterfront Partnership of Baltimore",
+          "source": "https://www.waterfrontpartnership.org/rash-field-park",
+          "verifiedAt": "2026-08-10",
+          "freshnessClass": "fast",
+          "status": "verified"
+        },
+        {
+          "intentKey": "family",
+          "question": "What are the best free waterfront stops for children?",
+          "answer": "Use Rash Field for climbing and skating, West Shore Park for the seasonal fountain, and Pierce's Park for interactive sculptures, a musical fence and willow tunnel. The three stops serve different ages and are separated by waterfront walking; supervise continuously at every unfenced water edge.",
+          "sourceLabel": "Waterfront Partnership of Baltimore",
+          "source": "https://www.waterfrontpartnership.org/waterfront-parks",
+          "verifiedAt": "2026-08-10",
+          "freshnessClass": "fast",
+          "status": "verified"
+        },
+        {
+          "intentKey": "water-safety",
+          "question": "Can I swim from the Baltimore Waterfront Promenade?",
+          "answer": "No ordinary promenade segment is a casual swimming beach. Waterfront Partnership does not recommend harbor swimming outside planned events because of boat traffic, changing weather and intermittent pollution; Broadway Pier specifically permits fishing, boating and kayaking activity but not swimming.",
+          "sourceLabel": "Waterfront Partnership Healthy Harbor",
+          "source": "https://www.waterfrontpartnership.org/water-quality-monitoring",
           "verifiedAt": "2026-08-10",
           "freshnessClass": "fast",
           "status": "verified"
@@ -58202,6 +58242,24 @@
           "alt": "Army Corps of Engineers Inner Harbor Water Wheel 26723076854 at Baltimore Waterfront Promenade",
           "width": 1600,
           "height": 1000
+        },
+        {
+          "url": "/assets/parks/baltimore-super/baltimore-waterfront-promenade/05-pierce-s-park-rain-gardens-716-eastern-boulevard-baltimore-md-21202-47885840921-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3APierce's_Park_Rain_Gardens%2C_716_Eastern_Boulevard%2C_Baltimore%2C_MD_21202_(47885840921).jpg",
+          "author": "Baltimore Heritage from Baltimore, MD, USA",
+          "license": "CC0",
+          "alt": "Pierce's Park Rain Gardens, 716 Eastern Boulevard, Baltimore, MD 21202 at Baltimore Waterfront Promenade",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/baltimore-super/baltimore-waterfront-promenade/06-broadway-pier-54546680772-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3ABroadway_Pier_(54546680772).jpg",
+          "author": "Eden, Janine and Jim from New York City",
+          "license": "CC BY 2.0",
+          "alt": "Broadway Pier at Baltimore Waterfront Promenade",
+          "width": 1600,
+          "height": 1000
         }
       ],
       "replaceImages": true,
@@ -58216,7 +58274,7 @@
       "source": "https://www.baltimorecountymd.gov/departments/recreation/parks-directory/lake-roland",
       "address": "1000 Lakeside Drive, Baltimore, MD 21210",
       "summary": "A 503-acre lake and nature park with forest, wetlands, serpentine barrens, a nature center, boardwalk, playground, pavilions, trails, paddling access and membership dog park.",
-      "hours": "Park grounds are open daily from sunrise to sunset. The Nature Center is generally open Tuesday-Sunday from 9:00 a.m.-5:00 p.m.; programs and seasonal operations vary.",
+      "hours": "Park grounds are open daily until sunset, when gates are locked. The Lake Roland Nature Council currently lists the Nature Center daily from 9:00 a.m.-5:00 p.m., closed on county-observed holidays; programs and individual facilities vary.",
       "hoursSchedule": false,
       "cost": "General park, boardwalk and trail access are free. Programs may charge, and Paw Point is a code-controlled membership off-leash area with a separate annual fee.",
       "accessibility": "A wheelchair-accessible boardwalk links the Falls Road Light Rail lot to the central park area. Natural trails include roots, rocks, mud and grades; use the paved central routes for the most predictable surface.",
@@ -58225,7 +58283,7 @@
         {
           "intentKey": "hours",
           "question": "When is Lake Roland Park open?",
-          "answer": "Park grounds are open daily from sunrise to sunset. The Nature Center is generally open Tuesday-Sunday from 9:00 a.m.-5:00 p.m.; programs and seasonal operations vary.",
+          "answer": "Park grounds are open daily until sunset, when gates are locked. The Lake Roland Nature Council currently lists the Nature Center daily from 9:00 a.m.-5:00 p.m., closed on county-observed holidays; programs and individual facilities vary.",
           "sourceLabel": "Baltimore County Department of Recreation and Parks",
           "source": "https://www.baltimorecountymd.gov/departments/recreation/parks-directory/lake-roland",
           "verifiedAt": "2026-08-10",
@@ -58325,9 +58383,49 @@
         {
           "intentKey": "weather",
           "question": "What weather should I check before visiting Lake Roland Park?",
-          "answer": "Check current Baltimore weather and operator alerts. Harbor wind, thunderstorms, flash flooding, stream and lake conditions, heat, snow and ice can close trails, water access or facilities independently.",
+          "answer": "Check the park's current lightning, water-quality, water-level and air-quality panels before leaving. Wooded trails stay muddy or icy longer than paved routes, and Paw Point swimming and drinking water can close independently.",
           "sourceLabel": "Baltimore County Department of Recreation and Parks",
           "source": "https://www.baltimorecountymd.gov/departments/recreation/parks-directory/lake-roland",
+          "verifiedAt": "2026-08-10",
+          "freshnessClass": "fast",
+          "status": "verified"
+        },
+        {
+          "intentKey": "trail-map",
+          "question": "How long are the trails at Lake Roland?",
+          "answer": "The official map lists Red at about 2.0 miles, Yellow at 1.1, Blue at 0.8 excluding its field loop, Orange and Green at 0.5 each, Purple at 0.4, White at 0.3, the paved loop at 0.5 and the Light Rail boardwalk at 0.3 miles. These are approximate GIS lengths and do not account for elevation.",
+          "sourceLabel": "Lake Roland Nature Council trail map",
+          "source": "https://www.lakeroland.org/wp-content/uploads/2022/01/LakeRolandTrailMapJan.2022.pdf",
+          "verifiedAt": "2026-08-10",
+          "freshnessClass": "slow",
+          "status": "verified"
+        },
+        {
+          "intentKey": "bicycles",
+          "question": "Which Lake Roland trails allow bicycles?",
+          "answer": "Bicycles are restricted to the Red Trail, Blue Trail, Light Rail boardwalk and paved areas. Connector and hiking-only trails should be walked; obey temporary maintenance signs even when the map normally permits bicycles.",
+          "sourceLabel": "Lake Roland Nature Council",
+          "source": "https://www.lakeroland.org/trail-maps/",
+          "verifiedAt": "2026-08-10",
+          "freshnessClass": "fast",
+          "status": "verified"
+        },
+        {
+          "intentKey": "closing-time",
+          "question": "What happens when Lake Roland closes at sunset?",
+          "answer": "All visitors must leave park property by sunset, Paw Point users must leave that enclosure 15 minutes earlier, and the gates are locked at sunset. A vehicle locked inside cannot be retrieved until the park reopens the next morning, so build the return walk into your turnaround time.",
+          "sourceLabel": "Lake Roland Nature Council park rules",
+          "source": "https://www.lakeroland.org/park-rules-regulations/",
+          "verifiedAt": "2026-08-10",
+          "freshnessClass": "fast",
+          "status": "verified"
+        },
+        {
+          "intentKey": "paw-point",
+          "question": "Is Paw Point open and can dogs swim?",
+          "answer": "Paw Point is a code-controlled, membership-only, one-acre fenced off-leash swim-and-play area. The park publishes separate live indicators for dog-park water access and drinking water; check both on the day of the visit because either can close while the general park remains open.",
+          "sourceLabel": "Lake Roland Nature Council",
+          "source": "https://www.lakeroland.org/paw-point/",
           "verifiedAt": "2026-08-10",
           "freshnessClass": "fast",
           "status": "verified"
@@ -58369,6 +58467,15 @@
           "alt": "Baltimore Light Rail Train Passing Roland Lake at Lake Roland Park",
           "width": 1200,
           "height": 799
+        },
+        {
+          "url": "/assets/parks/baltimore-super/lake-roland-park/05-rocky-trail-at-lake-roland-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3ARocky_trail_at_Lake_Roland.jpg",
+          "author": "Elliott R. Plack",
+          "license": "CC0",
+          "alt": "Rocky trail at Lake Roland at Lake Roland Park",
+          "width": 1600,
+          "height": 1000
         }
       ],
       "replaceImages": true,

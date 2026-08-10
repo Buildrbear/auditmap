@@ -140,103 +140,43 @@
       }
     },
     "launch-md-baltimore-baltimore-waterfront-promenade": {
-      "inner-harbor-amphitheater": {
-        "latitude": 39.28515,
-        "longitude": -76.6107,
-        "displayName": "Preserved coordinate for Inner Harbor Amphitheater",
-        "source": "AuditMap official-map placement"
+      "pierce-s-park": {
+        "latitude": 39.285552,
+        "longitude": -76.605759,
+        "displayName": "Pierce's Park rain gardens behind the Rita Rossi Colwell Center",
+        "source": "Wikimedia Commons photograph GPS reviewed against Waterfront Partnership visitor guidance"
       },
-      "west-shore-park": {
-        "latitude": 39.2829564,
-        "longitude": -76.6121882,
-        "displayName": "Preserved coordinate for West Shore Park",
-        "source": "OpenStreetMap Nominatim"
+      "broadway-pier": {
+        "latitude": 39.281211,
+        "longitude": -76.593114,
+        "displayName": "Broadway Pier at the foot of South Broadway in Fell's Point",
+        "source": "Wikimedia Commons photograph GPS reviewed against Baltimore City municipal-pier records"
       },
-      "rash-field-park": {
-        "latitude": 39.2813356,
-        "longitude": -76.6107103,
-        "displayName": "Preserved coordinate for Rash Field Park",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "harbor-point-central-plaza": {
-        "latitude": 39.2805687,
-        "longitude": -76.5984279,
-        "displayName": "Preserved coordinate for Harbor Point Central Plaza",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "pierces-park": {
-        "latitude": 39.28409,
-        "longitude": -76.6107,
-        "displayName": "Preserved coordinate for Pierces Park",
-        "source": "AuditMap official-map placement"
-      },
-      "canton-waterfront-park": {
-        "latitude": 39.2771962,
-        "longitude": -76.5727014,
-        "displayName": "Preserved coordinate for Canton Waterfront Park",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "fells-point-broadway-pier": {
-        "latitude": 39.2809405,
-        "longitude": -76.5921884,
-        "displayName": "Preserved coordinate for Fells Point Broadway Pier",
-        "source": "USGS and GeoNames reviewed placement"
-      },
-      "harbor-east-promenade": {
-        "latitude": 39.2829988,
-        "longitude": -76.6033267,
-        "displayName": "Preserved coordinate for Harbor East Promenade",
-        "source": "OpenStreetMap Nominatim"
+      "mr-trash-wheel": {
+        "latitude": 39.283394,
+        "longitude": -76.603391,
+        "displayName": "Public promenade viewpoint of Mr. Trash Wheel at the Jones Falls outlet",
+        "source": "Wikimedia Commons photograph GPS reviewed against Waterfront Partnership water-quality monitoring"
       }
     },
     "launch-md-baltimore-lake-roland-park": {
-      "lake-roland-nature-center": {
-        "latitude": 39.3784642,
-        "longitude": -76.6446982,
-        "displayName": "Preserved coordinate for Lake Roland Nature Center",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "lake-roland-boardwalk": {
-        "latitude": 39.3775096,
-        "longitude": -76.6476885,
-        "displayName": "Preserved coordinate for Lake Roland Boardwalk",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "lake-roland-dog-park": {
-        "latitude": 39.3872,
-        "longitude": -76.64563,
-        "displayName": "Preserved coordinate for Lake Roland Dog Park",
-        "source": "AuditMap official-map placement"
-      },
-      "red-trail": {
-        "latitude": 39.396298,
-        "longitude": -76.663565,
-        "displayName": "Preserved coordinate for Red Trail",
-        "source": "Baltimore Bird Club and official Lake Roland trail-map review"
-      },
-      "yellow-trail": {
-        "latitude": 39.3912,
-        "longitude": -76.6572,
-        "displayName": "Preserved coordinate for Yellow Trail",
-        "source": "AuditMap reviewed placement from official Lake Roland trail map"
-      },
       "lake-roland-dam": {
-        "latitude": 39.3786152,
-        "longitude": -76.6434222,
-        "displayName": "Preserved coordinate for Lake Roland Dam",
-        "source": "OpenStreetMap Nominatim"
+        "latitude": 39.377778,
+        "longitude": -76.644167,
+        "displayName": "Photographed public viewpoint of Lake Roland Dam",
+        "source": "Wikimedia Commons photograph GPS reviewed against OpenStreetMap dam way 62642580"
       },
-      "falls-road-light-rail-entrance": {
-        "latitude": 39.3872,
-        "longitude": -76.64685,
-        "displayName": "Preserved coordinate for Falls Road Light Rail Entrance",
-        "source": "AuditMap official-map placement"
+      "lake-roland-waterworks": {
+        "latitude": 39.3785448,
+        "longitude": -76.6429524,
+        "displayName": "Historic Lake Roland Waterworks building beside the dam",
+        "source": "OpenStreetMap named building 200374286 reviewed against the official peninsula map and licensed photograph"
       },
-      "paw-point-dog-park-beach": {
-        "latitude": 39.387631335136525,
-        "longitude": -76.64683133513653,
-        "displayName": "Preserved coordinate for Paw Point Dog Park Beach",
-        "source": "AuditMap official-map placement"
+      "white-trail": {
+        "latitude": 39.386181,
+        "longitude": -76.649925,
+        "displayName": "Geotagged rocky White Trail segment in Lake Roland's serpentine area",
+        "source": "Wikimedia Commons photograph GPS reviewed against the official Lake Roland trail map"
       }
     }
   }

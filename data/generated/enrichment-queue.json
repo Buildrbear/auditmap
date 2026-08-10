@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T18:06:24.299Z",
+  "generatedAt": "2026-08-10T18:24:49.665Z",
   "policy": {
     "publication": "AI findings remain proposed until a human accepts the fact and its sources.",
     "prioritization": "Daily-use and safety-sensitive gaps rank above descriptive content.",
@@ -9,7 +9,7 @@
   "summary": {
     "places": 911,
     "averageCoverageScore": 55,
-    "openTasks": 5997,
+    "openTasks": 5996,
     "urgentTasks": 961
   },
   "coverage": [
@@ -2894,8 +2894,8 @@
       "placeId": "launch-md-baltimore-baltimore-waterfront-promenade",
       "placeName": "Baltimore Waterfront Promenade",
       "expectedIntentCount": 14,
-      "coveredIntentCount": 6,
-      "coverageScore": 48
+      "coveredIntentCount": 7,
+      "coverageScore": 55
     },
     {
       "placeId": "launch-md-baltimore-lake-roland-park",
@@ -21894,31 +21894,6 @@
       "placeCoverageScore": 48
     },
     {
-      "id": "launch-md-baltimore-baltimore-waterfront-promenade:closures",
-      "placeId": "launch-md-baltimore-baltimore-waterfront-promenade",
-      "placeName": "Baltimore Waterfront Promenade",
-      "placeType": "Park",
-      "city": "Baltimore",
-      "state": "MD",
-      "intentKey": "closures",
-      "intentLabel": "Closures and availability",
-      "question": "Is anything at Baltimore Waterfront Promenade closed, seasonal, or temporarily unavailable?",
-      "reason": "No current, source-backed closures and availability answer is cataloged.",
-      "action": "research",
-      "priority": 96,
-      "freshnessDays": 3,
-      "previousAnswer": null,
-      "suggestedSources": [
-        {
-          "label": "Waterfront Partnership of Baltimore",
-          "url": "https://www.waterfrontpartnership.org/waterfront-parks",
-          "sourceType": "official"
-        }
-      ],
-      "requiresHumanReview": true,
-      "placeCoverageScore": 48
-    },
-    {
       "id": "launch-fl-orlando-barber-park:closures",
       "placeId": "launch-fl-orlando-barber-park",
       "placeName": "Barber Park",
@@ -26172,6 +26147,31 @@
         {
           "label": "Baltimore County Department of Recreation and Parks",
           "url": "https://www.baltimorecountymd.gov/departments/recreation/parks-directory/lake-roland",
+          "sourceType": "official"
+        },
+        {
+          "label": "Lake Roland Nature Council trail map",
+          "url": "https://www.lakeroland.org/wp-content/uploads/2022/01/LakeRolandTrailMapJan.2022.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "Lake Roland Nature Council",
+          "url": "https://www.lakeroland.org/trail-maps/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Lake Roland Nature Council park rules",
+          "url": "https://www.lakeroland.org/park-rules-regulations/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Lake Roland Nature Council",
+          "url": "https://www.lakeroland.org/paw-point/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Lake Roland Nature Council",
+          "url": "https://www.lakeroland.org/wp-content/uploads/2017/10/NEW-PENINSULA-MAP.pdf",
           "sourceType": "official"
         }
       ],
@@ -30587,6 +30587,41 @@
       ],
       "requiresHumanReview": true,
       "placeCoverageScore": 51
+    },
+    {
+      "id": "launch-md-baltimore-baltimore-waterfront-promenade:closures",
+      "placeId": "launch-md-baltimore-baltimore-waterfront-promenade",
+      "placeName": "Baltimore Waterfront Promenade",
+      "placeType": "Park",
+      "city": "Baltimore",
+      "state": "MD",
+      "intentKey": "closures",
+      "intentLabel": "Closures and availability",
+      "question": "Is anything at Baltimore Waterfront Promenade closed, seasonal, or temporarily unavailable?",
+      "reason": "No current, source-backed closures and availability answer is cataloged.",
+      "action": "research",
+      "priority": 96,
+      "freshnessDays": 3,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Waterfront Partnership of Baltimore",
+          "url": "https://www.waterfrontpartnership.org/waterfront-parks",
+          "sourceType": "official"
+        },
+        {
+          "label": "Waterfront Partnership of Baltimore",
+          "url": "https://www.waterfrontpartnership.org/rash-field-park",
+          "sourceType": "official"
+        },
+        {
+          "label": "Waterfront Partnership Healthy Harbor",
+          "url": "https://www.waterfrontpartnership.org/water-quality-monitoring",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 55
     },
     {
       "id": "launch-md-baltimore-federal-hill-park:closures",
@@ -58885,31 +58920,6 @@
       "placeCoverageScore": 48
     },
     {
-      "id": "launch-md-baltimore-baltimore-waterfront-promenade:trail-surface",
-      "placeId": "launch-md-baltimore-baltimore-waterfront-promenade",
-      "placeName": "Baltimore Waterfront Promenade",
-      "placeType": "Park",
-      "city": "Baltimore",
-      "state": "MD",
-      "intentKey": "trail-surface",
-      "intentLabel": "Walking surfaces and terrain",
-      "question": "What are the walking surfaces, slopes, and trail conditions at Baltimore Waterfront Promenade?",
-      "reason": "No current, source-backed walking surfaces and terrain answer is cataloged.",
-      "action": "research",
-      "priority": 80,
-      "freshnessDays": 90,
-      "previousAnswer": null,
-      "suggestedSources": [
-        {
-          "label": "Waterfront Partnership of Baltimore",
-          "url": "https://www.waterfrontpartnership.org/waterfront-parks",
-          "sourceType": "official"
-        }
-      ],
-      "requiresHumanReview": true,
-      "placeCoverageScore": 48
-    },
-    {
       "id": "launch-fl-orlando-barber-park:trail-surface",
       "placeId": "launch-fl-orlando-barber-park",
       "placeName": "Barber Park",
@@ -63163,6 +63173,31 @@
         {
           "label": "Baltimore County Department of Recreation and Parks",
           "url": "https://www.baltimorecountymd.gov/departments/recreation/parks-directory/lake-roland",
+          "sourceType": "official"
+        },
+        {
+          "label": "Lake Roland Nature Council trail map",
+          "url": "https://www.lakeroland.org/wp-content/uploads/2022/01/LakeRolandTrailMapJan.2022.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "Lake Roland Nature Council",
+          "url": "https://www.lakeroland.org/trail-maps/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Lake Roland Nature Council park rules",
+          "url": "https://www.lakeroland.org/park-rules-regulations/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Lake Roland Nature Council",
+          "url": "https://www.lakeroland.org/paw-point/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Lake Roland Nature Council",
+          "url": "https://www.lakeroland.org/wp-content/uploads/2017/10/NEW-PENINSULA-MAP.pdf",
           "sourceType": "official"
         }
       ],
@@ -67578,6 +67613,41 @@
       ],
       "requiresHumanReview": true,
       "placeCoverageScore": 51
+    },
+    {
+      "id": "launch-md-baltimore-baltimore-waterfront-promenade:trail-surface",
+      "placeId": "launch-md-baltimore-baltimore-waterfront-promenade",
+      "placeName": "Baltimore Waterfront Promenade",
+      "placeType": "Park",
+      "city": "Baltimore",
+      "state": "MD",
+      "intentKey": "trail-surface",
+      "intentLabel": "Walking surfaces and terrain",
+      "question": "What are the walking surfaces, slopes, and trail conditions at Baltimore Waterfront Promenade?",
+      "reason": "No current, source-backed walking surfaces and terrain answer is cataloged.",
+      "action": "research",
+      "priority": 80,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Waterfront Partnership of Baltimore",
+          "url": "https://www.waterfrontpartnership.org/waterfront-parks",
+          "sourceType": "official"
+        },
+        {
+          "label": "Waterfront Partnership of Baltimore",
+          "url": "https://www.waterfrontpartnership.org/rash-field-park",
+          "sourceType": "official"
+        },
+        {
+          "label": "Waterfront Partnership Healthy Harbor",
+          "url": "https://www.waterfrontpartnership.org/water-quality-monitoring",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 55
     },
     {
       "id": "launch-md-baltimore-federal-hill-park:trail-surface",
@@ -74159,31 +74229,6 @@
       "placeCoverageScore": 48
     },
     {
-      "id": "launch-md-baltimore-baltimore-waterfront-promenade:playground",
-      "placeId": "launch-md-baltimore-baltimore-waterfront-promenade",
-      "placeName": "Baltimore Waterfront Promenade",
-      "placeType": "Park",
-      "city": "Baltimore",
-      "state": "MD",
-      "intentKey": "playground",
-      "intentLabel": "Playgrounds",
-      "question": "What playgrounds are at Baltimore Waterfront Promenade, and what ages or abilities do they serve?",
-      "reason": "No current, source-backed playgrounds answer is cataloged.",
-      "action": "research",
-      "priority": 79,
-      "freshnessDays": 90,
-      "previousAnswer": null,
-      "suggestedSources": [
-        {
-          "label": "Waterfront Partnership of Baltimore",
-          "url": "https://www.waterfrontpartnership.org/waterfront-parks",
-          "sourceType": "official"
-        }
-      ],
-      "requiresHumanReview": true,
-      "placeCoverageScore": 48
-    },
-    {
       "id": "launch-fl-orlando-barber-park:playground",
       "placeId": "launch-fl-orlando-barber-park",
       "placeName": "Barber Park",
@@ -78437,6 +78482,31 @@
         {
           "label": "Baltimore County Department of Recreation and Parks",
           "url": "https://www.baltimorecountymd.gov/departments/recreation/parks-directory/lake-roland",
+          "sourceType": "official"
+        },
+        {
+          "label": "Lake Roland Nature Council trail map",
+          "url": "https://www.lakeroland.org/wp-content/uploads/2022/01/LakeRolandTrailMapJan.2022.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "Lake Roland Nature Council",
+          "url": "https://www.lakeroland.org/trail-maps/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Lake Roland Nature Council park rules",
+          "url": "https://www.lakeroland.org/park-rules-regulations/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Lake Roland Nature Council",
+          "url": "https://www.lakeroland.org/paw-point/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Lake Roland Nature Council",
+          "url": "https://www.lakeroland.org/wp-content/uploads/2017/10/NEW-PENINSULA-MAP.pdf",
           "sourceType": "official"
         }
       ],
@@ -82792,6 +82862,41 @@
       ],
       "requiresHumanReview": true,
       "placeCoverageScore": 48
+    },
+    {
+      "id": "launch-md-baltimore-baltimore-waterfront-promenade:playground",
+      "placeId": "launch-md-baltimore-baltimore-waterfront-promenade",
+      "placeName": "Baltimore Waterfront Promenade",
+      "placeType": "Park",
+      "city": "Baltimore",
+      "state": "MD",
+      "intentKey": "playground",
+      "intentLabel": "Playgrounds",
+      "question": "What playgrounds are at Baltimore Waterfront Promenade, and what ages or abilities do they serve?",
+      "reason": "No current, source-backed playgrounds answer is cataloged.",
+      "action": "research",
+      "priority": 79,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Waterfront Partnership of Baltimore",
+          "url": "https://www.waterfrontpartnership.org/waterfront-parks",
+          "sourceType": "official"
+        },
+        {
+          "label": "Waterfront Partnership of Baltimore",
+          "url": "https://www.waterfrontpartnership.org/rash-field-park",
+          "sourceType": "official"
+        },
+        {
+          "label": "Waterfront Partnership Healthy Harbor",
+          "url": "https://www.waterfrontpartnership.org/water-quality-monitoring",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 55
     },
     {
       "id": "launch-md-baltimore-patterson-park:playground",
@@ -89688,31 +89793,6 @@
       "placeCoverageScore": 48
     },
     {
-      "id": "launch-md-baltimore-baltimore-waterfront-promenade:splash-pad",
-      "placeId": "launch-md-baltimore-baltimore-waterfront-promenade",
-      "placeName": "Baltimore Waterfront Promenade",
-      "placeType": "Park",
-      "city": "Baltimore",
-      "state": "MD",
-      "intentKey": "splash-pad",
-      "intentLabel": "Water play",
-      "question": "Is there a splash pad or water play at Baltimore Waterfront Promenade, and when does it operate?",
-      "reason": "No current, source-backed water play answer is cataloged.",
-      "action": "research",
-      "priority": 78,
-      "freshnessDays": 14,
-      "previousAnswer": null,
-      "suggestedSources": [
-        {
-          "label": "Waterfront Partnership of Baltimore",
-          "url": "https://www.waterfrontpartnership.org/waterfront-parks",
-          "sourceType": "official"
-        }
-      ],
-      "requiresHumanReview": true,
-      "placeCoverageScore": 48
-    },
-    {
       "id": "launch-fl-orlando-barber-park:splash-pad",
       "placeId": "launch-fl-orlando-barber-park",
       "placeName": "Barber Park",
@@ -93966,6 +94046,31 @@
         {
           "label": "Baltimore County Department of Recreation and Parks",
           "url": "https://www.baltimorecountymd.gov/departments/recreation/parks-directory/lake-roland",
+          "sourceType": "official"
+        },
+        {
+          "label": "Lake Roland Nature Council trail map",
+          "url": "https://www.lakeroland.org/wp-content/uploads/2022/01/LakeRolandTrailMapJan.2022.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "Lake Roland Nature Council",
+          "url": "https://www.lakeroland.org/trail-maps/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Lake Roland Nature Council park rules",
+          "url": "https://www.lakeroland.org/park-rules-regulations/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Lake Roland Nature Council",
+          "url": "https://www.lakeroland.org/paw-point/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Lake Roland Nature Council",
+          "url": "https://www.lakeroland.org/wp-content/uploads/2017/10/NEW-PENINSULA-MAP.pdf",
           "sourceType": "official"
         }
       ],
@@ -108372,31 +108477,6 @@
       "placeCoverageScore": 48
     },
     {
-      "id": "launch-md-baltimore-baltimore-waterfront-promenade:dog-area",
-      "placeId": "launch-md-baltimore-baltimore-waterfront-promenade",
-      "placeName": "Baltimore Waterfront Promenade",
-      "placeType": "Park",
-      "city": "Baltimore",
-      "state": "MD",
-      "intentKey": "dog-area",
-      "intentLabel": "Dog areas and rules",
-      "question": "Where can dogs go at Baltimore Waterfront Promenade, and what rules apply?",
-      "reason": "No current, source-backed dog areas and rules answer is cataloged.",
-      "action": "research",
-      "priority": 72,
-      "freshnessDays": 90,
-      "previousAnswer": null,
-      "suggestedSources": [
-        {
-          "label": "Waterfront Partnership of Baltimore",
-          "url": "https://www.waterfrontpartnership.org/waterfront-parks",
-          "sourceType": "official"
-        }
-      ],
-      "requiresHumanReview": true,
-      "placeCoverageScore": 48
-    },
-    {
       "id": "launch-fl-orlando-barber-park:dog-area",
       "placeId": "launch-fl-orlando-barber-park",
       "placeName": "Barber Park",
@@ -112650,6 +112730,31 @@
         {
           "label": "Baltimore County Department of Recreation and Parks",
           "url": "https://www.baltimorecountymd.gov/departments/recreation/parks-directory/lake-roland",
+          "sourceType": "official"
+        },
+        {
+          "label": "Lake Roland Nature Council trail map",
+          "url": "https://www.lakeroland.org/wp-content/uploads/2022/01/LakeRolandTrailMapJan.2022.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "Lake Roland Nature Council",
+          "url": "https://www.lakeroland.org/trail-maps/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Lake Roland Nature Council park rules",
+          "url": "https://www.lakeroland.org/park-rules-regulations/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Lake Roland Nature Council",
+          "url": "https://www.lakeroland.org/paw-point/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Lake Roland Nature Council",
+          "url": "https://www.lakeroland.org/wp-content/uploads/2017/10/NEW-PENINSULA-MAP.pdf",
           "sourceType": "official"
         }
       ],
@@ -117065,6 +117170,41 @@
       ],
       "requiresHumanReview": true,
       "placeCoverageScore": 51
+    },
+    {
+      "id": "launch-md-baltimore-baltimore-waterfront-promenade:dog-area",
+      "placeId": "launch-md-baltimore-baltimore-waterfront-promenade",
+      "placeName": "Baltimore Waterfront Promenade",
+      "placeType": "Park",
+      "city": "Baltimore",
+      "state": "MD",
+      "intentKey": "dog-area",
+      "intentLabel": "Dog areas and rules",
+      "question": "Where can dogs go at Baltimore Waterfront Promenade, and what rules apply?",
+      "reason": "No current, source-backed dog areas and rules answer is cataloged.",
+      "action": "research",
+      "priority": 72,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Waterfront Partnership of Baltimore",
+          "url": "https://www.waterfrontpartnership.org/waterfront-parks",
+          "sourceType": "official"
+        },
+        {
+          "label": "Waterfront Partnership of Baltimore",
+          "url": "https://www.waterfrontpartnership.org/rash-field-park",
+          "sourceType": "official"
+        },
+        {
+          "label": "Waterfront Partnership Healthy Harbor",
+          "url": "https://www.waterfrontpartnership.org/water-quality-monitoring",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 55
     },
     {
       "id": "launch-md-baltimore-federal-hill-park:dog-area",
@@ -124111,31 +124251,6 @@
       "placeCoverageScore": 48
     },
     {
-      "id": "launch-md-baltimore-baltimore-waterfront-promenade:picnic",
-      "placeId": "launch-md-baltimore-baltimore-waterfront-promenade",
-      "placeName": "Baltimore Waterfront Promenade",
-      "placeType": "Park",
-      "city": "Baltimore",
-      "state": "MD",
-      "intentKey": "picnic",
-      "intentLabel": "Picnic areas",
-      "question": "Where are picnic areas at Baltimore Waterfront Promenade, and do any require reservations?",
-      "reason": "No current, source-backed picnic areas answer is cataloged.",
-      "action": "research",
-      "priority": 68,
-      "freshnessDays": 90,
-      "previousAnswer": null,
-      "suggestedSources": [
-        {
-          "label": "Waterfront Partnership of Baltimore",
-          "url": "https://www.waterfrontpartnership.org/waterfront-parks",
-          "sourceType": "official"
-        }
-      ],
-      "requiresHumanReview": true,
-      "placeCoverageScore": 48
-    },
-    {
       "id": "launch-fl-orlando-barber-park:picnic",
       "placeId": "launch-fl-orlando-barber-park",
       "placeName": "Barber Park",
@@ -128389,6 +128504,31 @@
         {
           "label": "Baltimore County Department of Recreation and Parks",
           "url": "https://www.baltimorecountymd.gov/departments/recreation/parks-directory/lake-roland",
+          "sourceType": "official"
+        },
+        {
+          "label": "Lake Roland Nature Council trail map",
+          "url": "https://www.lakeroland.org/wp-content/uploads/2022/01/LakeRolandTrailMapJan.2022.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "Lake Roland Nature Council",
+          "url": "https://www.lakeroland.org/trail-maps/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Lake Roland Nature Council park rules",
+          "url": "https://www.lakeroland.org/park-rules-regulations/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Lake Roland Nature Council",
+          "url": "https://www.lakeroland.org/paw-point/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Lake Roland Nature Council",
+          "url": "https://www.lakeroland.org/wp-content/uploads/2017/10/NEW-PENINSULA-MAP.pdf",
           "sourceType": "official"
         }
       ],
@@ -132744,6 +132884,41 @@
       ],
       "requiresHumanReview": true,
       "placeCoverageScore": 48
+    },
+    {
+      "id": "launch-md-baltimore-baltimore-waterfront-promenade:picnic",
+      "placeId": "launch-md-baltimore-baltimore-waterfront-promenade",
+      "placeName": "Baltimore Waterfront Promenade",
+      "placeType": "Park",
+      "city": "Baltimore",
+      "state": "MD",
+      "intentKey": "picnic",
+      "intentLabel": "Picnic areas",
+      "question": "Where are picnic areas at Baltimore Waterfront Promenade, and do any require reservations?",
+      "reason": "No current, source-backed picnic areas answer is cataloged.",
+      "action": "research",
+      "priority": 68,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Waterfront Partnership of Baltimore",
+          "url": "https://www.waterfrontpartnership.org/waterfront-parks",
+          "sourceType": "official"
+        },
+        {
+          "label": "Waterfront Partnership of Baltimore",
+          "url": "https://www.waterfrontpartnership.org/rash-field-park",
+          "sourceType": "official"
+        },
+        {
+          "label": "Waterfront Partnership Healthy Harbor",
+          "url": "https://www.waterfrontpartnership.org/water-quality-monitoring",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 55
     },
     {
       "id": "launch-md-baltimore-federal-hill-park:picnic",
@@ -139665,31 +139840,6 @@
       "placeCoverageScore": 48
     },
     {
-      "id": "launch-md-baltimore-baltimore-waterfront-promenade:shade",
-      "placeId": "launch-md-baltimore-baltimore-waterfront-promenade",
-      "placeName": "Baltimore Waterfront Promenade",
-      "placeType": "Park",
-      "city": "Baltimore",
-      "state": "MD",
-      "intentKey": "shade",
-      "intentLabel": "Shade and weather comfort",
-      "question": "Where can visitors find shade or weather shelter at Baltimore Waterfront Promenade?",
-      "reason": "No current, source-backed shade and weather comfort answer is cataloged.",
-      "action": "research",
-      "priority": 64,
-      "freshnessDays": 180,
-      "previousAnswer": null,
-      "suggestedSources": [
-        {
-          "label": "Waterfront Partnership of Baltimore",
-          "url": "https://www.waterfrontpartnership.org/waterfront-parks",
-          "sourceType": "official"
-        }
-      ],
-      "requiresHumanReview": true,
-      "placeCoverageScore": 48
-    },
-    {
       "id": "launch-fl-orlando-barber-park:shade",
       "placeId": "launch-fl-orlando-barber-park",
       "placeName": "Barber Park",
@@ -143943,6 +144093,31 @@
         {
           "label": "Baltimore County Department of Recreation and Parks",
           "url": "https://www.baltimorecountymd.gov/departments/recreation/parks-directory/lake-roland",
+          "sourceType": "official"
+        },
+        {
+          "label": "Lake Roland Nature Council trail map",
+          "url": "https://www.lakeroland.org/wp-content/uploads/2022/01/LakeRolandTrailMapJan.2022.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "Lake Roland Nature Council",
+          "url": "https://www.lakeroland.org/trail-maps/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Lake Roland Nature Council park rules",
+          "url": "https://www.lakeroland.org/park-rules-regulations/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Lake Roland Nature Council",
+          "url": "https://www.lakeroland.org/paw-point/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Lake Roland Nature Council",
+          "url": "https://www.lakeroland.org/wp-content/uploads/2017/10/NEW-PENINSULA-MAP.pdf",
           "sourceType": "official"
         }
       ],
@@ -148358,6 +148533,41 @@
       ],
       "requiresHumanReview": true,
       "placeCoverageScore": 51
+    },
+    {
+      "id": "launch-md-baltimore-baltimore-waterfront-promenade:shade",
+      "placeId": "launch-md-baltimore-baltimore-waterfront-promenade",
+      "placeName": "Baltimore Waterfront Promenade",
+      "placeType": "Park",
+      "city": "Baltimore",
+      "state": "MD",
+      "intentKey": "shade",
+      "intentLabel": "Shade and weather comfort",
+      "question": "Where can visitors find shade or weather shelter at Baltimore Waterfront Promenade?",
+      "reason": "No current, source-backed shade and weather comfort answer is cataloged.",
+      "action": "research",
+      "priority": 64,
+      "freshnessDays": 180,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Waterfront Partnership of Baltimore",
+          "url": "https://www.waterfrontpartnership.org/waterfront-parks",
+          "sourceType": "official"
+        },
+        {
+          "label": "Waterfront Partnership of Baltimore",
+          "url": "https://www.waterfrontpartnership.org/rash-field-park",
+          "sourceType": "official"
+        },
+        {
+          "label": "Waterfront Partnership Healthy Harbor",
+          "url": "https://www.waterfrontpartnership.org/water-quality-monitoring",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 55
     },
     {
       "id": "launch-md-baltimore-federal-hill-park:shade",
@@ -157749,31 +157959,6 @@
       "placeCoverageScore": 48
     },
     {
-      "id": "launch-md-baltimore-baltimore-waterfront-promenade:public-art",
-      "placeId": "launch-md-baltimore-baltimore-waterfront-promenade",
-      "placeName": "Baltimore Waterfront Promenade",
-      "placeType": "Park",
-      "city": "Baltimore",
-      "state": "MD",
-      "intentKey": "public-art",
-      "intentLabel": "Landmarks and public art",
-      "question": "Where are the landmarks or public art at Baltimore Waterfront Promenade, and how do visitors find them?",
-      "reason": "No current, source-backed landmarks and public art answer is cataloged.",
-      "action": "research",
-      "priority": 60,
-      "freshnessDays": 180,
-      "previousAnswer": null,
-      "suggestedSources": [
-        {
-          "label": "Waterfront Partnership of Baltimore",
-          "url": "https://www.waterfrontpartnership.org/waterfront-parks",
-          "sourceType": "official"
-        }
-      ],
-      "requiresHumanReview": true,
-      "placeCoverageScore": 48
-    },
-    {
       "id": "launch-fl-orlando-barber-park:public-art",
       "placeId": "launch-fl-orlando-barber-park",
       "placeName": "Barber Park",
@@ -162027,6 +162212,31 @@
         {
           "label": "Baltimore County Department of Recreation and Parks",
           "url": "https://www.baltimorecountymd.gov/departments/recreation/parks-directory/lake-roland",
+          "sourceType": "official"
+        },
+        {
+          "label": "Lake Roland Nature Council trail map",
+          "url": "https://www.lakeroland.org/wp-content/uploads/2022/01/LakeRolandTrailMapJan.2022.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "Lake Roland Nature Council",
+          "url": "https://www.lakeroland.org/trail-maps/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Lake Roland Nature Council park rules",
+          "url": "https://www.lakeroland.org/park-rules-regulations/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Lake Roland Nature Council",
+          "url": "https://www.lakeroland.org/paw-point/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Lake Roland Nature Council",
+          "url": "https://www.lakeroland.org/wp-content/uploads/2017/10/NEW-PENINSULA-MAP.pdf",
           "sourceType": "official"
         }
       ],
@@ -166442,6 +166652,41 @@
       ],
       "requiresHumanReview": true,
       "placeCoverageScore": 51
+    },
+    {
+      "id": "launch-md-baltimore-baltimore-waterfront-promenade:public-art",
+      "placeId": "launch-md-baltimore-baltimore-waterfront-promenade",
+      "placeName": "Baltimore Waterfront Promenade",
+      "placeType": "Park",
+      "city": "Baltimore",
+      "state": "MD",
+      "intentKey": "public-art",
+      "intentLabel": "Landmarks and public art",
+      "question": "Where are the landmarks or public art at Baltimore Waterfront Promenade, and how do visitors find them?",
+      "reason": "No current, source-backed landmarks and public art answer is cataloged.",
+      "action": "research",
+      "priority": 60,
+      "freshnessDays": 180,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Waterfront Partnership of Baltimore",
+          "url": "https://www.waterfrontpartnership.org/waterfront-parks",
+          "sourceType": "official"
+        },
+        {
+          "label": "Waterfront Partnership of Baltimore",
+          "url": "https://www.waterfrontpartnership.org/rash-field-park",
+          "sourceType": "official"
+        },
+        {
+          "label": "Waterfront Partnership Healthy Harbor",
+          "url": "https://www.waterfrontpartnership.org/water-quality-monitoring",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 55
     },
     {
       "id": "launch-md-baltimore-federal-hill-park:public-art",
