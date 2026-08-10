@@ -2,7 +2,7 @@
 
 **Status:** Review only; nothing is posted automatically.  
 **Coverage:** 14 posts · 14 cities · 14 states · 4 regions  
-**Eligible source pool:** 409 places with current sourced answers and reusable attributed photography.
+**Eligible source pool:** 414 places with current sourced answers and reusable attributed photography.
 
 Use one national AuditMap account. Recheck the answer and image source on the day of posting; skip closures, emergencies, stale guidance, or a destination whose public page fails. Keep the framing fixed during this first rotation so city and place response—not unrelated copy changes—is the tested variable.
 
@@ -180,7 +180,7 @@ https://www.auditmap.org/us/ut/syracuse/parks/antelope-island-state-park?utm_sou
 **Market:** Providence, RI · northeast  
 **Intent:** playground  
 **Evidence:** [Roger Williams Park Conservancy](https://www.rwpconservancy.org/explore/things-to-do/playgrounds/), checked 2026-07-31  
-**Image:** Pub. by Berger Bros., Providence, R.I. · Public domain · [source](https://commons.wikimedia.org/wiki/File:Boat_house_and_lake,_Roger_Williams_Park,_Providence,_R.I_(61973).jpg)  
+**Image:** Kenneth C. Zirkel · BY-SA 4.0 · [source](https://commons.wikimedia.org/w/index.php?curid=58170532)
 **X length:** 221/280
 
 Daily reminder to explore somewhere public:

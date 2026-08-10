@@ -4,6 +4,7 @@ const path = require("node:path");
 const { execFileSync } = require("node:child_process");
 const { validateResults } = require("./lib/discovery-experiment");
 const { nationalDailyPostId } = require("./lib/national-daily-identifiers");
+const { hasDocumentedReuseRights } = require("./lib/image-rights");
 
 const root = path.resolve(__dirname, "..");
 execFileSync(process.execPath, [path.join(root, "scripts/generate-national-daily-discovery.js")]);
@@ -31,7 +32,7 @@ for (const post of queue.posts) {
   assert.equal(new URL(post.url).searchParams.get("utm_content"), post.id);
   assert.ok(post.answerEvidence.source && post.answerEvidence.sourceLabel && post.answerEvidence.checkedAt);
   assert.ok(post.image.source && post.image.author && post.image.license && post.image.alt);
-  assert.match(post.image.license, /public domain|cc0|cc by|cc-by|creative commons/i);
+  assert.ok(hasDocumentedReuseRights(post.image));
   const route = new URL(post.url).pathname;
   assert.ok(fs.existsSync(path.join(root, route, "index.html")), `Missing public page for ${post.placeId}`);
 }

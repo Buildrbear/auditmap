@@ -396,6 +396,7 @@
     "inventory:nc:white-dots": "node scripts/inventory-nc-white-dot-discoveries.js",
     "enrich:nc:white-dots:light": "node scripts/light-enrich-nc-white-dots.js",
     "reconcile:nc:discoveries": "node scripts/reconcile-nc-discovery-records.js",
+    "verify:nc:image-rights": "node scripts/verify-nc-basic-image-rights.js",
     "verify:nc:generated": "node scripts/validate-nc-wave-2-rollout.js && node scripts/verify-nc-generated-galleries.js && node scripts/verify-nc-dog-park-images.js && node scripts/verify-nc-performance.js && node scripts/verify-nc-seo.js",
     "verify:nc:production": "node scripts/verify-nc-production.js && node scripts/verify-nc-production-map.js",
     "release:nc:check": "npm run audit:nc && npm run generate && npm run verify:nc:generated",

@@ -9,7 +9,7 @@ const outputBrief = path.join(root, "preview/national-daily-discovery-launch.md"
 const cohortPath = path.join(root, "data/discovery-campaigns/national-daily-discovery-cohort.json");
 const startDate = new Date(process.env.AUDITMAP_DAILY_START || "2026-08-10T12:00:00-04:00");
 const campaign = "national_daily_discovery";
-const reusableLicense = /\b(public domain|cc0|cc by|cc-by|creative commons)\b/i;
+const reusableLicense = /\b(public domain|pdm(?:\s+1\.0)?|cc0|cc[ -]?by(?:[ -]?sa)?|by(?:-sa)?(?:\s+\d)|creative commons)\b/i;
 const priorityIntents = ["public-art", "playground", "trail-surface", "accessibility", "shade", "restroom", "entrance", "parking", "fees", "dog-area"];
 const regions = {
   northeast: new Set(["CT", "ME", "MA", "NH", "RI", "VT", "NJ", "NY", "PA"]),

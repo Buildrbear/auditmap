@@ -868,7 +868,23 @@ function mergePlaceFeatures(localPayload, sharedPayload) {
 }
 
 async function loadPlaceFeatures(placeId, place = null) {
-  const localPayload = localPlaceFeatures(place);
+  let localPayload = localPlaceFeatures(place);
+  if (place?.featureDataUrl) {
+    try {
+      const staticResponse = await fetch(place.featureDataUrl);
+      if (staticResponse.ok) {
+        const staticPayload = await staticResponse.json();
+        if (place.featureDataExcludeId) {
+          staticPayload.features = (staticPayload.features || []).filter(
+            (feature) => feature.id !== place.featureDataExcludeId,
+          );
+        }
+        localPayload = mergePlaceFeatures(localPayload, staticPayload);
+      }
+    } catch {
+      // The embedded record remains a safe fallback for utility and offline routes.
+    }
+  }
   try {
     const response = await fetch(`/api/features?placeId=${encodeURIComponent(placeId)}`);
     if (!response.ok) return localPayload;
@@ -9360,7 +9376,6 @@ async function initSearchPlacePage() {
   if (!place) return;
 
   window.setAuditMapAskPlace?.(place);
-  window.setAuditMapAskFeatures?.(place.features || []);
   bindPlaceActions(place);
   initPlaceLive(place);
 
@@ -9375,16 +9390,19 @@ async function initSearchPlacePage() {
   const questionsCount = document.querySelector("#seo-knowledge-count");
   const local = normalizeContributions(getStoredContributions(place.id));
 
-  const [sharedComments, knowledge, places] = await Promise.all([
+  const [sharedComments, knowledge, places, featurePayload] = await Promise.all([
     loadSharedContributions(place.id),
     loadPlaceKnowledge(place.id, place),
     loadPlaces({ sharedTimeoutMs: 250 }),
+    loadPlaceFeatures(place.id, place),
   ]);
+  place.features = featurePayload.features || place.features || [];
+  window.setAuditMapAskFeatures?.(place.features);
   const knownCommentIds = new Set((local.comments || []).map((comment) => comment.id).filter(Boolean));
   sharedComments.forEach((comment) => {
     if (!knownCommentIds.has(comment.id)) local.comments.push(comment);
   });
-  if (needsPlaceSubmap(place)) renderPlaceFeatures(place, localPlaceFeatures(place), local.comments);
+  if (needsPlaceSubmap(place)) renderPlaceFeatures(place, featurePayload, local.comments);
   renderGallery(place, local);
   renderNearbyDiscovery(place, places);
   renderReviews(place, local);

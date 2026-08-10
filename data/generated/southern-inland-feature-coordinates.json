@@ -61,7 +61,27 @@
         "reviewedAt": "2026-08-10"
       }
     },
-    "launch-al-birmingham-red-mountain-park": {},
+    "launch-al-birmingham-red-mountain-park": {
+      "frankfurt-drive-entrance": {
+        "name": "Frankfurt Drive Entrance",
+        "latitude": 33.445083,
+        "longitude": -86.862525,
+        "coordinateSource": "https://commons.wikimedia.org/wiki/File:November_7th,_2023_photo_of_Red_Mountain_Park_Birmingham,_AL.jpg",
+        "officialMapSource": "https://oldsite.redmountainpark.org/wp-content/uploads/180810-RMP-papermap-both-sides.pdf",
+        "positionQuality": "reviewed-geotagged-destination-photo",
+        "imageIndex": 0,
+        "sourceLabel": "Jefferson County Greenways",
+        "source": "https://www.jeffcogreenways.org/park/red-mountain-park",
+        "summary": "The Frankfurt Drive Entrance is Red Mountain Park's main arrival point, with the park entrance at the end of Frankfurt Drive and the primary parking area immediately across the street on Lyon Lane.",
+        "cost": "Parking and admission are free. Memberships, programs, reservations, and any future ticketed activities can cost separately.",
+        "hours": "The entrance follows Red Mountain Park's daily 7:00 a.m.-7:00 p.m. hours. Holiday closings, severe weather, maintenance, and operator alerts can override the normal schedule.",
+        "needToKnow": "Continue to the cul-de-sac at the end of Frankfurt Drive, then veer right onto Lyon Lane and turn immediately into the parking area across from the entrance. Accessible restrooms, a pavilion, and a water fountain are concentrated at this entrance; elsewhere in the park, water and restrooms are limited. Keep dogs leashed until they are inside Remy's fenced dog park, and note that all aerial adventures remain closed.",
+        "displayName": "Frankfurt Drive Entrance",
+        "boundarySource": "https://www.openstreetmap.org/way/405947402",
+        "reviewStatus": "approved-official-map-and-geotag-match",
+        "reviewedAt": "2026-08-10"
+      }
+    },
     "launch-al-birmingham-ruffner-mountain": {
       "ruffner-mountain-quarry": {
         "name": "Ruffner Mountain Quarry",

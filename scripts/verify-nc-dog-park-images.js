@@ -15,9 +15,9 @@ function isDogAreaFeature(feature) {
   return /\bdog area\b/i.test(type) || /\b(dog park|dog run|barkyard|bark park|off-leash)\b/i.test(name);
 }
 
-function validateImage(imageUrl, context) {
+function validateImage(imageUrl, context, { allowMissing = false } = {}) {
   if (!imageUrl) {
-    failures.push({ ...context, reason: "primary image missing" });
+    if (!allowMissing) failures.push({ ...context, reason: "primary image missing" });
     return;
   }
   if (imageUrl.startsWith("/") && !fs.existsSync(path.join(`.${imageUrl}`))) {
@@ -36,9 +36,12 @@ for (const pagePath of pagePaths) {
   const identity = `${place.name || ""} ${place.type || ""}`;
   if (/\b(dog park|dog run|bark park|barkyard|off-leash)\b/i.test(identity)) {
     const primary = place.image || place.images?.[0];
-    const record = { pagePath, id: place.id, name: place.name, imageUrl: primary?.url || null };
+    const licensedMediaDeferred = (place.researchQueue || []).some(
+      (item) => item.intentKey === "photos" && item.status === "needs-licensed-media",
+    );
+    const record = { pagePath, id: place.id, name: place.name, imageUrl: primary?.url || null, licensedMediaDeferred };
     dogParkPages.push(record);
-    validateImage(primary?.url, { pagePath, id: place.id, name: place.name });
+    validateImage(primary?.url, { pagePath, id: place.id, name: place.name }, { allowMissing: licensedMediaDeferred });
     if (primary && !/\b(dog|bark|canine|off-leash)\b/i.test(`${primary.alt || ""} ${primary.url || ""}`)) {
       failures.push({ ...record, reason: "primary image is not identified as dog-park-specific" });
     }
@@ -66,6 +69,7 @@ const report = {
   dogParkPagesChecked: dogParkPages.length,
   dogAreaFeaturesChecked: dogAreaFeatures.length,
   localPrimaryImages: dogParkPages.filter((place) => place.imageUrl?.startsWith("/")).length,
+  licensedMediaDeferred: dogParkPages.filter((place) => place.licensedMediaDeferred).length,
   dogParkPages,
   dogAreaFeatures,
   failures,

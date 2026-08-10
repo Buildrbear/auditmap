@@ -14,7 +14,7 @@ const outputRoot = process.env.AUDITMAP_OUTPUT_ROOT
   : projectRoot;
 const baseUrl = "https://www.auditmap.org";
 const logoUrl = `${baseUrl}/logo.svg`;
-const assetVersion = "20260808-61";
+const assetVersion = "20260810-62";
 const styleVersion = "20260807-42";
 
 function readJson(relativePath, fallback = null) {
@@ -65,7 +65,10 @@ function parseCsvLine(line) {
 function writeFile(relativePath, content) {
   const filePath = path.join(outputRoot, relativePath);
   fs.mkdirSync(path.dirname(filePath), { recursive: true });
-  fs.writeFileSync(filePath, content);
+  const normalized = relativePath.endsWith(".html")
+    ? content.replace(/[ \t]+$/gm, "")
+    : content;
+  fs.writeFileSync(filePath, normalized);
 }
 
 function escapeHtml(value = "") {
@@ -480,6 +483,7 @@ function asSubsitePlace(place, feature) {
     canonicalPath: subsitePath(place, feature),
     parentId: place.id,
     parentPlace: { id: place.id, name: place.name, path: placePath(place) },
+    featureDataExcludeId: feature.id,
     name: feature.name,
     type: feature.feature_type || "Park destination",
     neighborhood: place.name,
@@ -619,41 +623,48 @@ function breadcrumbSchema(items, currentPath = null) {
   };
 }
 
-function clientPlaceData(place) {
+function clientFeatureData(place) {
+  return (place.features || []).map((feature, index) => ({
+    id: feature.id,
+    slug: feature.slug,
+    name: feature.name,
+    feature_type: feature.feature_type,
+    description: feature.description,
+    latitude: feature.latitude,
+    longitude: feature.longitude,
+    source_label: feature.source_label,
+    source_url: feature.source_url,
+    verified_at: feature.verified_at,
+    details: {
+      category: feature.details?.category,
+      includeInParentGallery: feature.details?.includeInParentGallery,
+      officialMapUrl: index === 0 ? feature.details?.officialMapUrl : undefined,
+      positionQuality: feature.details?.positionQuality,
+      coordinateSource: feature.details?.coordinateSource,
+      informationSourceLabel: feature.details?.informationSourceLabel,
+      informationSourceUrl: feature.details?.informationSourceUrl,
+      informationCheckedAt: feature.details?.informationCheckedAt,
+      imageUrl: feature.details?.imageUrl,
+      imageSourceUrl: feature.details?.imageSourceUrl,
+      imageAuthor: feature.details?.imageAuthor,
+      imageLicense: feature.details?.imageLicense,
+      imageAlt: feature.details?.imageAlt,
+      media360: feature.details?.media360,
+    },
+  }));
+}
+
+function clientPlaceData(place, { includeFeatures = true } = {}) {
   const { searchAnswers, ...placeWithoutAnswers } = place;
   return {
     ...placeWithoutAnswers,
     images: place.parentPlace
       ? place.images || []
       : (place.images || []).filter((image) => image.origin !== "subsite"),
-    features: (place.features || []).map((feature, index) => ({
-      id: feature.id,
-      slug: feature.slug,
-      name: feature.name,
-      feature_type: feature.feature_type,
-      description: feature.description,
-      latitude: feature.latitude,
-      longitude: feature.longitude,
-      source_label: feature.source_label,
-      source_url: feature.source_url,
-      verified_at: feature.verified_at,
-      details: {
-        category: feature.details?.category,
-        includeInParentGallery: feature.details?.includeInParentGallery,
-        officialMapUrl: index === 0 ? feature.details?.officialMapUrl : undefined,
-        positionQuality: feature.details?.positionQuality,
-        coordinateSource: feature.details?.coordinateSource,
-        informationSourceLabel: feature.details?.informationSourceLabel,
-        informationSourceUrl: feature.details?.informationSourceUrl,
-        informationCheckedAt: feature.details?.informationCheckedAt,
-        imageUrl: feature.details?.imageUrl,
-        imageSourceUrl: feature.details?.imageSourceUrl,
-        imageAuthor: feature.details?.imageAuthor,
-        imageLicense: feature.details?.imageLicense,
-        imageAlt: feature.details?.imageAlt,
-        media360: feature.details?.media360,
-      },
-    })),
+    features: includeFeatures ? clientFeatureData(place) : undefined,
+    featureDataUrl: (place.features || []).length
+      ? `${place.parentPlace?.path || placePath(place)}/features.json`
+      : undefined,
   };
 }
 
@@ -1290,7 +1301,7 @@ function renderParkPage(place) {
         <span>Check <a href="https://www.ashevillenc.gov/projects/french-broad-riverfront-parks-recovery/" target="_blank" rel="noreferrer">current Asheville recovery conditions</a> before visiting. To help Western North Carolina recover, <a href="https://www.nccommunityfoundation.org/nonprofits/disaster-relief-fund/hurricane-helene-response" target="_blank" rel="noreferrer">donate to the NC Community Foundation Disaster Relief Fund</a>.</span>
       </aside>`
     : "";
-  const embeddedData = JSON.stringify(clientPlaceData(place)).replace(/</g, "\\u003c");
+  const embeddedData = JSON.stringify(clientPlaceData(place, { includeFeatures: false })).replace(/</g, "\\u003c");
   const directionsDestination =
     place.parentPlace &&
     Number.isFinite(Number(place.latitude)) &&
@@ -1991,6 +2002,12 @@ function build() {
       for (const park of group.parks) {
         const related = group.parks.filter((candidate) => candidate.id !== park.id).slice(0, 4);
         writeFile(`${placePath(park).slice(1)}/index.html`, renderParkPage(park, related));
+        if ((park.features || []).length) {
+          writeFile(
+            `${placePath(park).slice(1)}/features.json`,
+            `${JSON.stringify({ place: { id: park.id, name: park.name, hiddenFeatureIds: park.hiddenFeatureIds || [] }, features: clientFeatureData(park) })}\n`,
+          );
+        }
         if (isPublishedPlace(park)) addSitemapEntry(placePath(park), placeLastModified(park));
         for (const feature of park.features || []) {
           const subsite = asSubsitePlace(park, feature);

@@ -37,6 +37,12 @@ jobs:
             exit 1
           fi
 
+      - name: Check release regressions
+        run: |
+          npm run test:daily-discovery:national
+          npm run verify:nc:image-rights
+          npm run verify:nc:generated
+
   secrets:
     runs-on: ubuntu-latest
     steps:
