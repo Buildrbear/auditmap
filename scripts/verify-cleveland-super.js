@@ -82,7 +82,7 @@ for (const place of [rockyRiver, brecksville]) {
     need(feature.details?.imageSourceUrl?.includes("commons.wikimedia.org/wiki/File"), `${place.name}/${feature.name}: destination image is not from a reusable file page`);
   }
 }
-need(rockyRiver?.features.find(feature => feature.slug === "rocky-river-nature-center")?.details?.imageUrl?.includes("donnelly-rocky-river-nature-center"), "Rocky River Nature Center: destination-specific photo missing");
+need(rockyRiver?.features.find(feature => feature.slug === "rocky-river-nature-center")?.details?.imageUrl?.includes("donnelly-rocky-river-nature-center-2016-05-08-090"), "Rocky River Nature Center: exterior destination photo missing");
 need(rockyRiver?.features.find(feature => feature.slug === "berea-falls-scenic-overlook")?.details?.imageUrl?.includes("berea-falls-east-branch"), "Berea Falls Scenic Overlook: destination-specific photo missing");
 need(brecksville?.features.find(feature => feature.slug === "brecksville-nature-center")?.details?.imageUrl?.includes("brecksville-trailside-museum"), "Brecksville Nature Center: destination-specific photo missing");
 need(brecksville?.features.find(feature => feature.slug === "chippewa-creek-gorge-scenic-overlook")?.details?.imageUrl?.includes("chippewa-creek-us-82"), "Chippewa Creek Gorge Scenic Overlook: destination-specific photo missing");
