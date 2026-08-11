@@ -13,7 +13,7 @@
       "parentGuides": 2,
       "licensedPhotos": 8,
       "evidenceCompleteSubsites": 0,
-      "status": "generated-and-locally-verified"
+      "status": "generated-release-and-preview-verified"
     },
     {
       "name": "Wilmington evidence-gate enrichment",
@@ -254,7 +254,7 @@
     "name": "Chesapeake Bay state-park evidence-gate enrichment",
     "reason": "Sandy Point State Park and North Point State Park form a connected Maryland launch gap with current official visitor guidance and four varied reusable photographs each. No proposed internal destination clears exact current position, destination-specific photography, and a complete current profile together, so the release remains parent-only.",
     "releaseStandard": "Retain current official parent answers, require four varied reusable photographs per released parent, and publish only named destinations with exact reviewed coordinates, destination-specific photography, nine source-backed answers, and current operator guidance.",
-    "status": "chesapeake-bay-generated-and-locally-verified",
+    "status": "chesapeake-bay-generated-release-and-preview-verified",
     "metros": ["Annapolis", "Edgemere"],
     "resumeCheckpoint": {
       "pausedAt": "2026-08-11",
@@ -422,7 +422,8 @@
     "Built Sandy Point State Park and North Point State Park as parent-only guides with four varied local Wikimedia Commons photographs and eleven current source-backed visitor answers each.",
     "Recorded North Point's official opening-time and visitor-center schedule conflicts without choosing an unsupported value; retained current Crystal Pier, Trolley Station Pavilion, unguarded-water, and Key Bridge disruption guidance.",
     "Deferred every internal Chesapeake Bay destination until exact position, destination-specific reusable photography, and a complete current profile clear together; kept the privately owned Sandy Point Shoal Lighthouse out of the public-destination set.",
-    "Verified all 54 super-enrichment campaigns, raw Chesapeake Bay parent HTML, licensed-image metadata, coordinate provenance, and source persistence across four data layers."
+    "Verified all 54 super-enrichment campaigns, raw Chesapeake Bay parent HTML, licensed-image metadata, coordinate provenance, and source persistence across four data layers.",
+    "Preview-verified all four Chesapeake Bay routes and all eight optimized images across the authenticated Ready deployment and a source-identical isolated verification deployment; local 390-pixel and 1440-pixel layouts remained overflow-free. GitHub validation passed, while a separate inaccessible Vercel integration scope failed before producing a URL and remains documented on draft PR #31."
       ],
     "nextAction": "After maintainer review and preview verification of the stacked Chesapeake Bay draft, continue with the next connected launch gap that clears current official-source and representative-photo review. Keep Quiet Waters Park in Annapolis, Truxtun Park, Downs Park, Kinder Farm Park, Fort Smallwood Park, Brandywine Zoo, Far North Bicentennial Park, Julian B. Lane, Boyd Hill, inland Broward, Olbrich Park, Riverside Regional Park, and Broad Ripple Park in their documented photo queues until matching permission-cleared coverage appears.",
       "notReleased": true,

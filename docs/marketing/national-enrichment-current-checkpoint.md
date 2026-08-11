@@ -4,11 +4,11 @@ Last updated: 2026-08-11
 
 ## Current State
 
-- Status: the Chesapeake Bay state-park evidence-gate batch is generated and locally release-verified; all 54 national enrichment campaign verifiers pass with zero failures.
+- Status: the Chesapeake Bay state-park evidence-gate batch is generated, release-verified, and hosted-preview-verified; all 54 national enrichment campaign verifiers pass with zero failures.
 - Working branch: `codex/chesapeake-bay-evidence-gate`
-- Pull request: pending; this batch is intended to stack on Wilmington draft PR #30.
+- Pull request: draft PR #31, stacked on Wilmington draft PR #30: `https://github.com/Buildrbear/auditmap/pull/31`
 - Outcome: Sandy Point State Park and North Point State Park clear the four-photo parent gate with 22 current source-backed visitor answers. No standalone destination clears the combined exact-photo, exact-position, and complete-profile gate, so both releases remain parent-only.
-- Preview: pending pull-request deployment and phone/desktop verification.
+- Preview: Git-linked Ready deployment `dpl_8quQ73utnBJjvHeoJKWVbfC4kVLo` in the authenticated AuditMap scope, plus source-identical Ready verification deployment `dpl_9ULaN17mdMeUW98fL7zwPcMZDFXo`; four routes and all eight optimized images passed hosted checks. Both parent routes also pass 390-pixel and 1440-pixel local browser layout checks without overflow or application errors.
 - Production status: not merged or promoted to production.
 - Canonical machine-readable checkpoint: `data/us-priority-enrichment-queue.json` under `activeCluster.resumeCheckpoint`.
 

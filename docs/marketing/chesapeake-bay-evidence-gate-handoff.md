@@ -6,7 +6,9 @@
 - Assignment: active AuditMap nationwide enrichment continuation
 - OpenTask assignment: not separately supplied
 - GitHub issue: not separately supplied
-- Pull request and preview: pending
+- Pull request: draft PR #31, stacked on PR #30: `https://github.com/Buildrbear/auditmap/pull/31`
+- Git-linked preview: Ready deployment `dpl_8quQ73utnBJjvHeoJKWVbfC4kVLo`: `https://auditmap-guofpcd67-derrys-projects-f5a18cb6.vercel.app`
+- Source-identical verification deployment: Ready deployment `dpl_9ULaN17mdMeUW98fL7zwPcMZDFXo`: `https://auditmap-philadelphia-evidence-4d1fitm6h.vercel.app`
 - Checked: 2026-08-11
 - Production publication: not performed
 
@@ -48,7 +50,9 @@ Exact source pages, creators, licenses, license URLs, alt text, and selection de
 - The complete `npm run release:enrichment:check` gate passed all 54 enrichment campaigns with zero failures, national discovery, 272 North Carolina image-rights records, 655 North Carolina generated-page checks, galleries, dog-park media rules, performance, and SEO.
 - Full-generation-only national churn was reversed after the successful release gate; the reviewed Chesapeake Bay source and generated paths remain changed.
 - Both parent routes passed local 390-by-844 and 1440-by-1000 browser checks with the correct heading and canonical tag, no application error overlay, no browser console errors, and no horizontal overflow. As required by the repository standard, local image-optimizer 404s were not treated as image verification.
-- Pull-request preview and optimized-image checks remain pending.
+- The Git-linked deployment in the repository's authenticated `derrys-projects-f5a18cb6` scope reached Ready. Because deployment protection prevents anonymous HTTP inspection, a source-identical isolated verification deployment was also built from the clean committed worktree.
+- All four hosted routes returned the correct heading and canonical tag through authenticated preview access. All eight hosted `/_vercel/image` requests returned HTTP 200 image payloads.
+- GitHub's `Validate contribution` workflow passed. A separate inaccessible `michael-hobgoods-projects` Vercel integration failed before exposing a preview URL, while the active authenticated AuditMap-scope deployment above completed successfully; the failed external-scope status remains visible on the draft and is documented rather than hidden.
 
 ## Unresolved Review Queue
 
@@ -65,4 +69,4 @@ Exact source pages, creators, licenses, license URLs, alt text, and selection de
 
 ## Risk And Publication
 
-This batch changes source campaign data and generated static pages but does not alter production data, authentication, moderation, rate limits, analytics, dependencies, or API costs. Primary risks are fast-changing seasonal reservations and guarded-swim operations, conflicting North Point hours, facility closures, unguarded water, storm damage, and Key Bridge routing. No secrets, private visitor data, paid APIs, live database writes, merge, production deployment, or production promotion were performed.
+This batch changes source campaign data and generated static pages but does not alter production data, authentication, moderation, rate limits, analytics, dependencies, or API costs. Primary risks are fast-changing seasonal reservations and guarded-swim operations, conflicting North Point hours, facility closures, unguarded water, storm damage, and Key Bridge routing. No secrets, private visitor data, paid APIs, live database writes, merge, AuditMap production deployment, or production promotion were performed. The source-identical hosted check used the pre-existing isolated `auditmap-philadelphia-evidence` Vercel project and did not change the live AuditMap project or domain.
