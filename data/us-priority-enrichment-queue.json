@@ -3,11 +3,18 @@
   "strategy": "Complete geographically connected clusters before opening isolated metros.",
   "completedBaseline": {
     "verifiedAt": "2026-08-11",
-    "campaignVerifierCount": 54,
+    "campaignVerifierCount": 55,
     "campaignVerifierFailures": 0,
-    "note": "All 54 national enrichment campaign verifiers pass locally after the Chesapeake Bay state-park evidence-gate batch. Production publication remains a maintainer decision."
+    "note": "All 55 national enrichment campaign verifiers and the complete release gate pass locally after the Boise river-park evidence-gate batch. Production publication remains a maintainer decision."
   },
   "recentlyCompleted": [
+    {
+      "name": "Boise river-park evidence-gate enrichment",
+      "parentGuides": 2,
+      "licensedPhotos": 8,
+      "evidenceCompleteSubsites": 0,
+      "status": "generated-release-and-responsive-verified"
+    },
     {
       "name": "Chesapeake Bay state-park evidence-gate enrichment",
       "parentGuides": 2,
@@ -251,11 +258,11 @@
     }
   ],
   "activeCluster": {
-    "name": "Chesapeake Bay state-park evidence-gate enrichment",
-    "reason": "Sandy Point State Park and North Point State Park form a connected Maryland launch gap with current official visitor guidance and four varied reusable photographs each. No proposed internal destination clears exact current position, destination-specific photography, and a complete current profile together, so the release remains parent-only.",
+    "name": "Boise river-park evidence-gate enrichment",
+    "reason": "Ann Morrison Park and Kathryn Albertson Park form a connected Boise River launch gap with current City of Boise guidance and four varied reusable photographs each. No proposed internal destination clears exact operator-confirmed position, destination-specific photography, and a complete current profile together, so the release remains parent-only.",
     "releaseStandard": "Retain current official parent answers, require four varied reusable photographs per released parent, and publish only named destinations with exact reviewed coordinates, destination-specific photography, nine source-backed answers, and current operator guidance.",
-    "status": "chesapeake-bay-generated-release-and-preview-verified",
-    "metros": ["Annapolis", "Edgemere"],
+    "status": "boise-generated-release-and-responsive-verified",
+    "metros": ["Boise"],
     "resumeCheckpoint": {
       "pausedAt": "2026-08-11",
       "completed": [
@@ -423,9 +430,14 @@
     "Recorded North Point's official opening-time and visitor-center schedule conflicts without choosing an unsupported value; retained current Crystal Pier, Trolley Station Pavilion, unguarded-water, and Key Bridge disruption guidance.",
     "Deferred every internal Chesapeake Bay destination until exact position, destination-specific reusable photography, and a complete current profile clear together; kept the privately owned Sandy Point Shoal Lighthouse out of the public-destination set.",
     "Verified all 54 super-enrichment campaigns, raw Chesapeake Bay parent HTML, licensed-image metadata, coordinate provenance, and source persistence across four data layers.",
-    "Preview-verified all four Chesapeake Bay routes and all eight optimized images across the authenticated Ready deployment and a source-identical isolated verification deployment; local 390-pixel and 1440-pixel layouts remained overflow-free. GitHub validation passed, while a separate inaccessible Vercel integration scope failed before producing a URL and remains documented on draft PR #31."
+    "Preview-verified all four Chesapeake Bay routes and all eight optimized images across the authenticated Ready deployment and a source-identical isolated verification deployment; local 390-pixel and 1440-pixel layouts remained overflow-free. GitHub validation passed, while a separate inaccessible Vercel integration scope failed before producing a URL and remains documented on draft PR #31.",
+    "Rebuilt Ann Morrison Park and Kathryn Albertson Park as parent-only Boise River guides with four varied local reusable photographs, fifteen current Ann Morrison answers, and eleven current Kathryn Albertson answers.",
+    "Corrected Kathryn Albertson Park's incomplete address and stale dog-prohibition claim using the current City of Boise page, which permits leashed dogs year-round.",
+    "Deferred every named Boise facility until exact operator-confirmed position, destination-specific reusable photography, and a complete current profile clear together; scoped generation and the Boise campaign verifier pass.",
+    "Verified all 55 super-enrichment campaigns, national discovery, North Carolina image and generated-page safeguards, raw Boise HTML, licensed-image metadata, corrected address and dog guidance, coordinate provenance, and source persistence across four data layers.",
+    "Both Boise parent routes pass 390-pixel and 1440-pixel browser checks with correct headings and canonicals, no horizontal overflow, no application error overlay, and no browser console errors; hosted image optimization remains pending the pull-request preview."
       ],
-    "nextAction": "After maintainer review and preview verification of the stacked Chesapeake Bay draft, continue with the next connected launch gap that clears current official-source and representative-photo review. Keep Quiet Waters Park in Annapolis, Truxtun Park, Downs Park, Kinder Farm Park, Fort Smallwood Park, Brandywine Zoo, Far North Bicentennial Park, Julian B. Lane, Boyd Hill, inland Broward, Olbrich Park, Riverside Regional Park, and Broad Ripple Park in their documented photo queues until matching permission-cleared coverage appears.",
+    "nextAction": "Publish one stacked Boise draft pull request, then verify both hosted routes and all eight optimized images before closing this batch checkpoint. Keep named Boise facilities parent-only until exact positions and complete destination profiles clear together.",
       "notReleased": true,
       "productionPublished": false
     }
@@ -441,7 +453,6 @@
     "Zorinsky Lake Park needs three current, reusable views representing the lake, trail, and a visitor amenity.",
     "Sedgwick County Park needs permission-cleared park, playscape, lake, trail, and shelter images; unrelated search results are not acceptable substitutes.",
     "Gateway Park in Fort Worth needs three current reusable views representing its trails, sports areas, river access, or Fort Woof.",
-    "Kathryn Albertson Park needs three current reusable broad views representing its ponds, loop, shelters, wildlife habitat, and visitor experience.",
     "Rancho San Rafael Regional Park needs ordinary park, trail, playground, arboretum, museum, and ranch views rather than balloon-race and wildlife close-ups.",
     "Idlewild Park in Reno needs three representative reusable views of the park, rose garden, playland, pool, ponds, river path, or skatepark.",
     "Riverfront Park in Billings needs current lake, trail, picnic, shelter, and Yellowstone River access views rather than wildlife close-ups.",

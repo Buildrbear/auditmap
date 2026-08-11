@@ -4,21 +4,21 @@ Last updated: 2026-08-11
 
 ## Current State
 
-- Status: the Chesapeake Bay state-park evidence-gate batch is generated, release-verified, and hosted-preview-verified; all 54 national enrichment campaign verifiers pass with zero failures.
-- Working branch: `codex/chesapeake-bay-evidence-gate`
-- Pull request: draft PR #31, stacked on Wilmington draft PR #30: `https://github.com/Buildrbear/auditmap/pull/31`
-- Outcome: Sandy Point State Park and North Point State Park clear the four-photo parent gate with 22 current source-backed visitor answers. No standalone destination clears the combined exact-photo, exact-position, and complete-profile gate, so both releases remain parent-only.
-- Preview: Git-linked Ready deployment `dpl_8quQ73utnBJjvHeoJKWVbfC4kVLo` in the authenticated AuditMap scope, plus source-identical Ready verification deployment `dpl_9ULaN17mdMeUW98fL7zwPcMZDFXo`; four routes and all eight optimized images passed hosted checks. Both parent routes also pass 390-pixel and 1440-pixel local browser layout checks without overflow or application errors.
+- Status: the Boise river-park evidence-gate batch is generated, release-verified, and responsive-layout-verified locally; all 55 national enrichment campaign verifiers pass with zero failures. Hosted-preview checks remain pending.
+- Working branch: `codex/boise-evidence-gate`, stacked on `codex/chesapeake-bay-evidence-gate`
+- Pull request: pending; base draft PR #31 remains `https://github.com/Buildrbear/auditmap/pull/31`
+- Outcome: Ann Morrison Park and Kathryn Albertson Park clear the four-photo parent gate with 26 current source-backed visitor answers. Kathryn Albertson's incomplete address and stale dog-prohibition claim are corrected. No standalone destination clears the combined exact-photo, exact-position, and complete-profile gate, so both releases remain parent-only.
+- Preview: pending for the Boise candidate. Chesapeake Bay's prior hosted preview evidence remains recorded in its handoff.
 - Production status: not merged or promoted to production.
 - Canonical machine-readable checkpoint: `data/us-priority-enrichment-queue.json` under `activeCluster.resumeCheckpoint`.
 
-The Cleveland, Detroit, Columbus, Cincinnati, Indianapolis, Upper Midwest, inland Broward, Miami, Tampa Bay, Philadelphia, Pittsburgh, Anchorage, and Wilmington batches remain complete at their previous checkpoints. Chesapeake Bay adds a new connected launch batch without changing their evidence decisions.
+The Cleveland, Detroit, Columbus, Cincinnati, Indianapolis, Upper Midwest, inland Broward, Miami, Tampa Bay, Philadelphia, Pittsburgh, Anchorage, Wilmington, and Chesapeake Bay batches remain complete at their previous checkpoints. Boise adds a new connected launch batch without changing their evidence decisions.
 
 ## Resume Point
 
-Do not repeat completed batches unless review finds a specific defect or new evidence changes a deferred decision. Sandy Point and North Point pass the source, four-photo parent, recurring-intent, raw-HTML, and nationwide regression gates. The 54-suite campaign verifier preserved every earlier campaign decision.
+Do not repeat completed batches unless review finds a specific defect or new evidence changes a deferred decision. Ann Morrison and Kathryn Albertson pass the source, four-photo parent, recurring-intent, raw-HTML, address, coordinate-provenance, scoped-generation, 55-campaign regression, release, and responsive-layout gates. Hosted preview remains required before delivery.
 
-After maintainer review of the stacked Chesapeake Bay draft, open the next connected high-impact metro cluster only where current official visitor sources and representative reusable media support a reviewable batch. Continue the same four-photo parent gate and exact-photo, exact-position, destination-specific-profile gate. Keep Quiet Waters Park in Annapolis, Truxtun Park, Downs Park, Kinder Farm Park, Fort Smallwood Park, Brandywine Zoo, Far North Bicentennial Park, Julian B. Lane, Boyd Hill, inland Broward, Olbrich Park, Riverside Regional Park, and Broad Ripple Park deferred until their documented media gaps are resolved.
+Finish the Boise nationwide regression, local responsive checks, stacked draft pull request, and hosted preview as one reviewable batch. After that checkpoint, open the next connected high-impact metro cluster only where current official visitor sources and representative reusable media support a reviewable batch. Continue the same four-photo parent gate and exact-photo, exact-position, destination-specific-profile gate. Keep the named Boise facilities in parent guidance until their complete destination evidence clears, and preserve the previously documented deferred queues.
 
 Keep T.Y. Park, Tree Tops Park, and Vista View Park in the deferred-photo queue until each has three to four representative permission-cleared views. Keep Olbrich Park in review until at least two additional representative reusable park views are available. Riverside Park in Grand Rapids remains parent-only until a destination-specific photo, exact pin, and current destination profile clear together. North Point State Park's conflicting official opening times and visitor-center schedules, Crystal Pier damage, Trolley Station Pavilion renovation, seasonal Sandy Point reservations and swimming operations, Key Bridge routing, seasonal Millennium beach and splashpad operations, Riverside kayaking and flooding, North Point Lighthouse schedules, Vilas beach conditions, Madison restroom closures, Castaway Island's seasonal schedule, Vista View capital projects, Josephine Fountain operation, and Rockford Tower access remain freshness risks requiring operator rechecks.
 

@@ -8668,157 +8668,201 @@
       "verifiedAt": "2026-08-08"
     },
     "launch-id-boise-ann-morrison-park": {
+      "name": "Ann Morrison Park",
+      "city": "Boise",
+      "citySlug": "boise-id",
       "operator": "City of Boise Parks and Recreation",
-      "sourceLabel": "City of Boise",
-      "source": "https://www.cityofboise.org/media/6659/2025-greenbelt-map.pdf",
-      "hours": "Most of Ann Morrison Park is open daily from sunrise to sunset. Lighted ballfields may remain open until 11:00 p.m. for scheduled games.",
-      "cost": "General park entry, playground, paths, Dog Island, open recreation, and ordinary courts are free. Reservations, organized fields, river-float shuttle, permits, and special events may charge.",
-      "summary": "Ann Morrison Park is a 153-acre Boise River park with one of the city's largest playgrounds, Greenbelt paths, the seasonal river-float takeout, 5.4-acre Dog Island off-leash area, disc golf, sports fields and courts, outdoor fitness, fountain, picnic pavilion, restrooms, and large open lawns.",
+      "sourceLabel": "City of Boise Parks and Recreation",
+      "source": "https://www.cityofboise.org/departments/parks-and-recreation/parks/ann-morrison-park/",
+      "address": "1000 S Americana Boulevard, Boise, ID 83706",
+      "summary": "Ann Morrison Park is a 153-acre Boise River park with a large accessible playground, Greenbelt access, a seasonal river-float takeout, Dog Island, disc golf, sports fields and courts, an outdoor gym, splash pad, picnic shelter, restrooms, and broad lawns.",
+      "hours": "The park is open daily from sunrise to sunset. Only lighted ballfields may remain open until 11 p.m.",
+      "hoursSchedule": false,
+      "cost": "The City of Boise does not list a general admission charge. Inside-park float parking is first-come, first-served and free, while reservations and the seasonal shuttle can have separate charges.",
+      "accessibility": "The official page lists 23 ADA parking spaces and a playground with universally accessible bonded-rubber surfacing. Conditions and routes to other facilities vary, so confirm the exact amenity before relying on step-free access.",
+      "transit": "Use Valley Regional Transit's current trip planner for service to 1000 South Americana Boulevard and verify the final walk and return time. The park page does not promise a particular route or frequency.",
       "searchAnswers": [
         {
-          "intentKey": "entrance",
-          "question": "Where should I enter Ann Morrison Park?",
-          "answer": "Use 1000 South Americana Boulevard for the general park. During official Boise River float season, follow signs to the designated takeout and shuttle parking rather than stopping along active park roads.",
-          "sourceLabel": "Ann Morrison Park campaign",
-          "source": "https://www.annmorrisonpark.org/map-hours",
-          "sourceType": "official",
-          "checkedAt": "2026-07-31"
-        },
-        {
           "intentKey": "hours",
-          "question": "What hours is Ann Morrison Park open?",
-          "answer": "Most of the park is open from sunrise to sunset. Lighted ballfields may operate until 11:00 p.m. when games are scheduled; that extension does not keep the whole park open late.",
-          "sourceLabel": "Ann Morrison Park campaign",
-          "source": "https://www.annmorrisonpark.org/map-hours",
-          "sourceType": "official",
-          "checkedAt": "2026-07-31"
-        },
-        {
-          "intentKey": "playground",
-          "question": "Is there a large playground at Ann Morrison Park?",
-          "answer": "Yes. Ann Morrison has one of Boise's largest playgrounds for children 12 and under, along with broad lawns, sports courts, disc golf, paths, and nearby restroom access.",
-          "sourceLabel": "Visit Boise",
-          "source": "https://visitboise.com/play/outdoor/parks/",
-          "sourceType": "reviewed-community",
-          "checkedAt": "2026-07-31"
-        },
-        {
-          "intentKey": "dog-area",
-          "question": "Where can dogs go off leash at Ann Morrison Park?",
-          "answer": "Together Treasure Valley Dog Island is a 5.4-acre, year-round off-leash area within the park. Outside the designated area, follow Boise leash rules and protect river, sports, and family-use spaces.",
-          "sourceLabel": "Visit Boise",
-          "source": "https://visitboise.com/boise-park-guide/",
-          "sourceType": "reviewed-community",
-          "checkedAt": "2026-07-31"
-        },
-        {
-          "intentKey": "transit",
-          "question": "Where does the Boise River float end?",
-          "answer": "The official Barber Park-to-Ann Morrison float ends at Ann Morrison Park during float season. A paid shuttle normally departs from Ann Morrison for Barber Park on a seasonal schedule; confirm river conditions and shuttle operations on the day of the trip.",
-          "sourceLabel": "Downtown Boise Association",
-          "source": "https://downtownboise.org/go/ann-morrison-park",
-          "sourceType": "reviewed-community",
-          "checkedAt": "2026-07-31"
-        },
-        {
-          "intentKey": "restroom",
-          "question": "Are there restrooms at Ann Morrison Park?",
-          "answer": "Yes. The city's Greenbelt guide lists restrooms among the park's core amenities. Temporary river-float operations and reserved events may add facilities, but do not assume those are available outside their season.",
-          "sourceLabel": "City of Boise Greenbelt Map",
-          "source": "https://www.cityofboise.org/media/6659/2025-greenbelt-map.pdf",
-          "sourceType": "official",
-          "checkedAt": "2026-07-31"
-        },
-        {
-          "intentKey": "picnic",
-          "question": "Can I reserve the Ann Morrison pavilion?",
-          "answer": "Yes. Old Timer's Pavilion is reservable in half-day or full-day blocks and supports large groups. Current fees, permits, event rules, and availability are managed by Boise Parks and Recreation.",
-          "sourceLabel": "City of Boise activity guide",
-          "source": "https://www.cityofboise.org/media/19768/2025-activityguide-summer-final-final-links.pdf",
-          "sourceType": "official",
-          "checkedAt": "2026-07-31"
-        },
-        {
-          "intentKey": "closures",
-          "question": "What changes seasonally at Ann Morrison Park?",
-          "answer": "River floating, shuttle service, fountains or water features, field schedules, concessions, and special events are seasonal. High or hazardous river flows can suspend floating even while the general park remains open.",
-          "sourceLabel": "Downtown Boise Association",
-          "source": "https://downtownboise.org/go/ann-morrison-park",
-          "sourceType": "reviewed-community",
-          "checkedAt": "2026-07-31"
-        },
-        {
-          "intentKey": "parking",
-          "question": "Where should I park at Ann Morrison Park?",
-          "answer": "Free general parking is distributed inside the park near the playground, sports areas, pavilion, Dog Island, and river-float takeout. Choose the lot nearest your activity and follow temporary signs during float season and major events, when roads, shuttle stops, general parking, and accessible spaces may be reorganized.",
-          "sourceLabel": "City of Boise",
-          "source": "https://www.cityofboise.org/media/19803/boisedepot-parkingmap.pdf",
-          "sourceType": "official",
-          "checkedAt": "2026-07-31"
-        },
-        {
-          "intentKey": "shade",
-          "question": "Where can I find shade or weather shelter at Ann Morrison Park?",
-          "answer": "Old Timer's Pavilion is the park's main reservable covered gathering space and holds up to 500 people; Dog Island also has smaller shelters, and mature trees shade portions of the Greenbelt and picnic landscape. Sports fields, disc golf, river-float areas, playgrounds, courts, and broad lawns are exposed. The pavilion is not a designated storm shelter, so use an open substantial building or vehicle during lightning, river flooding, extreme heat, or high wind.",
-          "sourceLabel": "City of Boise",
-          "source": "https://www.cityofboise.org/media/9726/park-use-policy.pdf",
-          "sourceType": "official",
-          "checkedAt": "2026-07-31"
-        },
-        {
-          "intentKey": "trail-surface",
-          "question": "What are the walking and biking surfaces at Ann Morrison Park?",
-          "answer": "The paved Boise River Greenbelt provides the park's most dependable flat route and connects major entrances, river access, nearby parks, and downtown. Paved and developed internal walks reach playgrounds, shelters, sports areas, parking, and Dog Island, while disc-golf fairways, lawns, gravel edges, and riverbank approaches can be uneven, muddy, flooded, or icy. The park is large and Greenbelt users move at different speeds, so keep right, announce passes, and check river or construction closures before expecting a continuous route.",
-          "sourceLabel": "City of Boise",
-          "source": "https://www.cityofboise.org/media/6659/2025-greenbelt-map.pdf",
-          "sourceType": "official",
-          "checkedAt": "2026-07-31"
-        },
-        {
-          "intentKey": "splash-pad",
-          "question": "Does Ann Morrison Park have a splash pad or place to swim?",
-          "answer": "Ann Morrison Park now has an interactive seasonal fountain with water jets reaching nearly seven feet, but it is not a supervised swimming pool. Fountain operation can change with weather, maintenance, and seasonal schedules. The Boise River float also ends at the park during the official season; that moving-water activity requires current river-condition checks, a properly fitted life jacket, and use of designated entry and exit points.",
-          "sourceLabel": "City of Boise",
-          "source": "https://www.cityofboise.org/media/20169/intheknow-newsletter-julyaugust2025.pdf",
-          "sourceType": "official",
-          "checkedAt": "2026-07-31"
-        },
-        {
-          "intentKey": "public-art",
-          "question": "What is the landmark fountain at Ann Morrison Park?",
-          "answer": "The park's central landmark is the large fountain honoring Ann Morrison, whose husband Harry W. Morrison donated the park in her memory when it opened in 1959. The fountain is now an interactive seasonal feature, making it both the park's visual centerpiece and a place for water play. Treat the operating schedule separately from general park hours and use the broad fountain area as an orientation point for the playground, fields, and Greenbelt connections.",
-          "sourceLabel": "City of Boise",
-          "source": "https://www.cityofboise.org/media/6659/2025-greenbelt-map.pdf",
-          "sourceType": "official",
-          "checkedAt": "2026-07-31"
-        },
-        {
-          "intentKey": "accessibility",
-          "question": "How accessible is Ann Morrison Park?",
-          "answer": "The park has paved roads and Greenbelt paths, accessible parking and restrooms, and a large inclusive playground with ramped and ground-level play. Distances across the 153-acre park are substantial, so navigate to the exact playground, Dog Island, field, pavilion, fountain, or river-float destination rather than relying on the general park pin.",
+          "question": "When is Ann Morrison Park open?",
+          "answer": "The park is open daily from sunrise to sunset. Only lighted ballfields may remain open until 11 p.m.",
           "sourceLabel": "City of Boise Parks and Recreation",
           "source": "https://www.cityofboise.org/departments/parks-and-recreation/parks/ann-morrison-park/",
           "sourceType": "official",
-          "checkedAt": "2026-08-08",
-          "verifiedAt": "2026-08-08",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "fast",
+          "status": "verified"
+        },
+        {
+          "intentKey": "parking",
+          "question": "Where can I park at Ann Morrison Park?",
+          "answer": "Use the on-site parking reached from the park entrances. The City lists 23 ADA spaces, prohibits overnight parking, and says float parking inside the park is first-come, first-served and free.",
+          "sourceLabel": "City of Boise Parks and Recreation",
+          "source": "https://www.cityofboise.org/departments/parks-and-recreation/parks/ann-morrison-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "fast",
+          "status": "verified"
+        },
+        {
+          "intentKey": "entrance",
+          "question": "Which entrance should I use for Ann Morrison Park?",
+          "answer": "Navigate to 1000 South Americana Boulevard, then follow internal signs for the planned activity. The disc-golf start, Dog Island, playground, fields and river takeout occupy different parts of this large park.",
+          "sourceLabel": "City of Boise Parks and Recreation",
+          "source": "https://www.cityofboise.org/departments/parks-and-recreation/parks/ann-morrison-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Are restrooms available at Ann Morrison Park?",
+          "answer": "Yes. Three of the five restrooms by the playground are open year-round, and portable restrooms are available year-round near Together Treasure Valley Dog Island.",
+          "sourceLabel": "City of Boise Parks and Recreation",
+          "source": "https://www.cityofboise.org/departments/parks-and-recreation/parks/ann-morrison-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "fees",
           "question": "Is Ann Morrison Park free?",
-          "answer": "General park entry, playground use, paths, Dog Island, fountain viewing, disc golf, and ordinary drop-in recreation are free. Pavilion reservations, organized field use, permits, river-float shuttle service, concessions, and special events can charge separately.",
+          "answer": "The City does not list a general admission charge. Inside-park float parking is first-come, first-served and free; shelter or field reservations and the seasonal river shuttle can have separate charges.",
           "sourceLabel": "City of Boise Parks and Recreation",
           "source": "https://www.cityofboise.org/departments/parks-and-recreation/parks/ann-morrison-park/",
           "sourceType": "official",
-          "checkedAt": "2026-08-08",
-          "verifiedAt": "2026-08-08",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
+        },
+        {
+          "intentKey": "accessibility",
+          "question": "How accessible is Ann Morrison Park?",
+          "answer": "The official page lists 23 ADA parking spaces and universally accessible bonded-rubber surfacing at the playground. Routes and surfaces to other park features vary, so confirm the exact amenity before relying on step-free access.",
+          "sourceLabel": "City of Boise Parks and Recreation",
+          "source": "https://www.cityofboise.org/departments/parks-and-recreation/parks/ann-morrison-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
+        },
+        {
+          "intentKey": "dogs",
+          "question": "Where can dogs go off leash at Ann Morrison Park?",
+          "answer": "Together Treasure Valley Dog Island is a year-round 5.4-acre off-leash area in the southwest corner with a fenced shy-dog area and a swimming pond. The broader park is seasonally off leash from November 1 through the end of February; follow leash rules when traveling to and from the dog area.",
+          "sourceLabel": "City of Boise Parks and Recreation",
+          "source": "https://www.cityofboise.org/departments/parks-and-recreation/parks/ann-morrison-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
+        },
+        {
+          "intentKey": "family",
+          "question": "What can families do at Ann Morrison Park?",
+          "answer": "The playground serves ages 2–12 and has swings and accessible surfacing. Families can also use lawns, paths, courts and the seasonal splash pad, which the City lists from sunrise to sunset between Memorial Day and Labor Day.",
+          "sourceLabel": "City of Boise Parks and Recreation",
+          "source": "https://www.cityofboise.org/departments/parks-and-recreation/parks/ann-morrison-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
+        },
+        {
+          "intentKey": "transit",
+          "question": "Can I reach Ann Morrison Park without a car?",
+          "answer": "Use Valley Regional Transit's current trip planner for 1000 South Americana Boulevard and verify the final walk and return time. The park page does not promise a particular route or frequency.",
+          "sourceLabel": "Valley Regional Transit",
+          "source": "https://www.valleyregionaltransit.org/trip-planner/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "fast",
+          "status": "verified"
+        },
+        {
+          "intentKey": "need-to-know",
+          "question": "What should I verify before visiting Ann Morrison Park?",
+          "answer": "Check seasonal splash-pad and Boise River float operations separately from general park hours. The float takeout is river-left before the bridge, and posted closures, water conditions and event reservations override ordinary use.",
+          "sourceLabel": "City of Boise Parks and Recreation",
+          "source": "https://www.cityofboise.org/departments/parks-and-recreation/parks/ann-morrison-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "fast",
+          "status": "verified"
+        },
+        {
+          "intentKey": "weather",
+          "question": "How does weather affect Ann Morrison Park?",
+          "answer": "Large lawns, sports fields, the river edge and splash pad are exposed to sun, heat, wind and storms. River conditions and seasonal operations can change independently of the park's sunrise-to-sunset schedule.",
+          "sourceLabel": "City of Boise Parks and Recreation",
+          "source": "https://www.cityofboise.org/departments/parks-and-recreation/parks/ann-morrison-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "fast",
+          "status": "verified"
+        },
+        {
+          "intentKey": "splash-pad",
+          "question": "When does the Ann Morrison splash pad operate?",
+          "answer": "The City lists daily operation from sunrise to sunset between Memorial Day and Labor Day. Weather, maintenance and posted closures can interrupt that seasonal schedule.",
+          "sourceLabel": "City of Boise Parks and Recreation",
+          "source": "https://www.cityofboise.org/departments/parks-and-recreation/parks/ann-morrison-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
+        },
+        {
+          "intentKey": "river-float",
+          "question": "Where does the Boise River float end at Ann Morrison Park?",
+          "answer": "The takeout is river-left just before the bridge. The shuttle pickup and drop-off is across the grass on the park's main road, and an additional floater drop-off area is next to the playground.",
+          "sourceLabel": "City of Boise Parks and Recreation",
+          "source": "https://www.cityofboise.org/departments/parks-and-recreation/parks/ann-morrison-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
+        },
+        {
+          "intentKey": "disc-golf",
+          "question": "Does Ann Morrison Park have disc golf?",
+          "answer": "Yes. The official page describes an 18-hole course that starts off the Americana Boulevard entrance. Follow the current layout and signs because holes have been relocated or added as the park changes.",
+          "sourceLabel": "City of Boise Parks and Recreation",
+          "source": "https://www.cityofboise.org/departments/parks-and-recreation/parks/ann-morrison-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
+        },
+        {
+          "intentKey": "reservations",
+          "question": "Can I reserve a shelter at Ann Morrison Park?",
+          "answer": "Yes. The park shelter can be reserved for events, picnics and ceremonies. The City says reservations for this park open January 1 each year; use the current reservation system for availability and charges.",
+          "sourceLabel": "City of Boise Parks and Recreation",
+          "source": "https://www.cityofboise.org/departments/parks-and-recreation/parks/ann-morrison-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "slow",
           "status": "verified"
         }
       ],
-      "verifiedAt": "2026-08-08",
-      "address": "1000 S Americana Boulevard, Boise, ID 83706",
       "image": {
         "url": "/assets/parks/intermountain-super/ann-morrison-park/01-ann-morrison-memorial-park.webp",
         "source": "https://commons.wikimedia.org/w/index.php?curid=71713477",
@@ -8862,149 +8906,200 @@
         }
       ],
       "replaceImages": true,
-      "sources": [
-        {
-          "label": "OpenStreetMap contributors",
-          "url": "https://www.openstreetmap.org/way/24267212",
-          "note": "Map location and address"
-        }
-      ]
+      "verifiedAt": "2026-08-11"
     },
     "launch-id-boise-kathryn-albertson-park": {
+      "name": "Kathryn Albertson Park",
+      "city": "Boise",
+      "citySlug": "boise-id",
       "operator": "City of Boise Parks and Recreation",
-      "sourceLabel": "City of Boise",
-      "source": "https://www.cityofboise.org/media/6659/2025-greenbelt-map.pdf",
-      "hours": "Kathryn Albertson Park is generally open daily from sunrise to sunset. Sections may close temporarily to protect nesting waterfowl, wildlife, or visitor safety.",
-      "cost": "General park entry, parking, wildlife viewing, paths, shelters, and gazebo use are free unless reserved or permitted for an organized activity.",
-      "summary": "Kathryn Albertson Park is a 41-acre Boise urban wildlife habitat with two ponds, natural areas, paved walking paths, open lawns, shelters, gazebos, restrooms, and frequent waterfowl and wildlife viewing. Interior paths prohibit dogs and bicycles to protect habitat.",
+      "sourceLabel": "City of Boise Parks and Recreation",
+      "source": "https://www.cityofboise.org/departments/parks-and-recreation/parks/kathryn-albertson-park/",
+      "address": "1001 S Americana Boulevard, Boise, ID 83706",
+      "summary": "Kathryn Albertson Park is a 41-acre quiet-use wildlife park near downtown Boise with wide paved footpaths, ponds and riparian habitat, open lawns, wildlife viewing, restrooms, parking, and two small reservable outdoor gazebos.",
+      "hours": "The park is open daily from sunrise to sunset.",
+      "hoursSchedule": false,
+      "cost": "The City of Boise does not list a general admission or parking charge. The two small ceremony facilities use a separate reservation process and may have fees.",
+      "accessibility": "The City describes wide, paved footpaths and on-site parking. It does not provide a route-by-route accessibility statement on the reviewed page, so confirm the exact gazebo, restroom or path condition before relying on step-free access.",
+      "transit": "Use Valley Regional Transit's current trip planner for service to 1001 South Americana Boulevard and verify the final walk and return time. The park page does not promise a particular route or frequency.",
       "searchAnswers": [
         {
-          "intentKey": "entrance",
-          "question": "Where is the entrance to Kathryn Albertson Park?",
-          "answer": "Use 1001 South Americana Boulevard. The park is adjacent to Ann Morrison Park but has its own quieter wildlife-focused entrance, parking, and internal path system.",
-          "sourceLabel": "City of Boise facility map",
-          "source": "https://boisefiremapsftp.cityofboise.org/COMPLEX%20MAPS/ComplexMapPackage/Engine09ComplexPackage.pdf",
-          "sourceType": "official",
-          "checkedAt": "2026-07-31"
-        },
-        {
           "intentKey": "hours",
-          "question": "What hours is Kathryn Albertson Park open?",
-          "answer": "Boise parks are generally open every day from sunrise to sunset unless otherwise posted. Wildlife protection, maintenance, flooding, or nesting activity can temporarily close individual paths or areas.",
-          "sourceLabel": "Boise City Code",
-          "source": "https://codelibrary.amlegal.com/codes/boise_id/latest/boise/0-0-0-8164",
+          "question": "When is Kathryn Albertson Park open?",
+          "answer": "The park is open daily from sunrise to sunset.",
+          "sourceLabel": "City of Boise Parks and Recreation",
+          "source": "https://www.cityofboise.org/departments/parks-and-recreation/parks/kathryn-albertson-park/",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
-        },
-        {
-          "intentKey": "trail-surface",
-          "question": "Are the paths at Kathryn Albertson Park paved?",
-          "answer": "The principal internal walking routes are paved and wind around ponds, natural habitat, lawns, gazebos, and viewing areas. Conditions can still include wet leaves, winter ice, temporary wildlife closures, and short grades.",
-          "sourceLabel": "City of Boise Greenbelt Map",
-          "source": "https://www.cityofboise.org/media/6659/2025-greenbelt-map.pdf",
-          "sourceType": "official",
-          "checkedAt": "2026-07-31"
-        },
-        {
-          "intentKey": "accessibility",
-          "question": "Is Kathryn Albertson Park wheelchair accessible?",
-          "answer": "The park provides paved pathways, parking, restrooms, shelters, benches, and gazebos that support lower-barrier wildlife viewing. Confirm current path conditions after snow, flooding, or maintenance.",
-          "sourceLabel": "City of Boise Greenbelt Map",
-          "source": "https://www.cityofboise.org/media/6659/2025-greenbelt-map.pdf",
-          "sourceType": "official",
-          "checkedAt": "2026-07-31"
-        },
-        {
-          "intentKey": "dog-area",
-          "question": "Are dogs allowed at Kathryn Albertson Park?",
-          "answer": "Dogs are not allowed from March 1 through June 30 during waterfowl nesting season. At other times dogs must remain leashed. Bicycling, skating, organized sports, swimming, boating, and fishing are prohibited inside this wildlife-focused park.",
-          "sourceLabel": "City of Boise facility map",
-          "source": "https://boisefiremapsftp.cityofboise.org/COMPLEX%20MAPS/ComplexMapPackage/Engine09ComplexPackage.pdf",
-          "sourceType": "official",
-          "checkedAt": "2026-07-31"
-        },
-        {
-          "intentKey": "restroom",
-          "question": "Are there restrooms at Kathryn Albertson Park?",
-          "answer": "Yes. The official Greenbelt guide lists a restroom among the park's developed amenities, along with shelters, gazebos, paved paths, ponds, and grassy areas.",
-          "sourceLabel": "City of Boise Greenbelt Map",
-          "source": "https://www.cityofboise.org/media/6659/2025-greenbelt-map.pdf",
-          "sourceType": "official",
-          "checkedAt": "2026-07-31"
-        },
-        {
-          "intentKey": "shade",
-          "question": "Is Kathryn Albertson Park good for wildlife viewing?",
-          "answer": "Yes. The park was designed as an urban wildlife habitat around ponds, wet areas, mature vegetation, and quieter paths. Visit calmly near dawn or dusk, remain on paths, and do not approach or feed wildlife.",
-          "sourceLabel": "Boise State University Biology",
-          "source": "https://www.boisestate.edu/biology/about/environment/kathryn-albertson-park/",
-          "sourceType": "reviewed-institution",
-          "checkedAt": "2026-07-31"
-        },
-        {
-          "intentKey": "closures",
-          "question": "Why might paths close at Kathryn Albertson Park?",
-          "answer": "Boise can close park sections for wildlife, maintenance, or safety. Waterfowl nesting protections are especially important in spring; obey temporary barriers and give nesting birds a wide distance.",
-          "sourceLabel": "City of Boise facility map",
-          "source": "https://boisefiremapsftp.cityofboise.org/COMPLEX%20MAPS/ComplexMapPackage/Engine09ComplexPackage.pdf",
-          "sourceType": "official",
-          "checkedAt": "2026-07-31"
-        },
-        {
-          "intentKey": "picnic",
-          "question": "Can I reserve Kathryn Albertson Park for a wedding or gathering?",
-          "answer": "The park may be reserved for formal ceremonies only, not receptions. Chairs are discouraged; up to 10 may be hand-carried for guests with mobility needs and must remain on paved surfaces rather than turf. The Rookery and Eyrie gazebos are the principal ceremony locations.",
-          "sourceLabel": "City of Boise facility map",
-          "source": "https://boisefiremapsftp.cityofboise.org/COMPLEX%20MAPS/ComplexMapPackage/Engine09ComplexPackage.pdf",
-          "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "fast",
+          "status": "verified"
         },
         {
           "intentKey": "parking",
           "question": "Is there parking at Kathryn Albertson Park?",
-          "answer": "Yes. The official facility map identifies on-site parking near the Americana Boulevard entrance, along with drinking fountains and restrooms. Park here for the interior walking loops rather than assuming the adjacent Ann Morrison Park lots are the same destination.",
-          "sourceLabel": "City of Boise facility map",
-          "source": "https://boisefiremapsftp.cityofboise.org/COMPLEX%20MAPS/ComplexMapPackage/Engine09ComplexPackage.pdf",
+          "answer": "Yes. The City lists on-site parking. Navigate to 1001 South Americana Boulevard and use this park's own entrance rather than assuming the adjacent Ann Morrison lots are the same destination.",
+          "sourceLabel": "City of Boise Parks and Recreation",
+          "source": "https://www.cityofboise.org/departments/parks-and-recreation/parks/kathryn-albertson-park/",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "fast",
+          "status": "verified"
         },
         {
-          "intentKey": "playground",
-          "question": "Is there a playground at Kathryn Albertson Park?",
-          "answer": "No conventional playground is listed at Kathryn Albertson Park. Boise describes it as a quiet wildlife and contemplation park with wide paved footpaths, ponds, interpretive signs, seating, and reservable outdoor gazebos; organized sports, bicycles, skating, swimming, boating, and fishing are prohibited. For equipment-based play, use a different Boise park such as nearby Ann Morrison or Julia Davis. At Kathryn Albertson, help children stay on paths and avoid disturbing nesting birds, ponds, and sensitive habitat.",
+          "intentKey": "entrance",
+          "question": "Where is the entrance to Kathryn Albertson Park?",
+          "answer": "Use 1001 South Americana Boulevard. Kathryn Albertson is next to Ann Morrison Park but has its own entrance, parking and quiet wildlife-focused path system.",
           "sourceLabel": "City of Boise Parks and Recreation",
-          "source": "https://www.cityofboise.org/media/13054/ribbon-of-jewels-brochure2024ver.pdf",
+          "source": "https://www.cityofboise.org/departments/parks-and-recreation/parks/kathryn-albertson-park/",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Are restrooms available at Kathryn Albertson Park?",
+          "answer": "Yes. The City says park restrooms are open and links to its current park-restroom information for year-round availability. Recheck before relying on a specific building or seasonal status.",
+          "sourceLabel": "City of Boise Parks and Recreation",
+          "source": "https://www.cityofboise.org/departments/parks-and-recreation/parks/kathryn-albertson-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
+        },
+        {
+          "intentKey": "fees",
+          "question": "Is Kathryn Albertson Park free?",
+          "answer": "The City does not list a general admission or parking charge. Reserving one of the two small ceremony facilities uses a separate process and may have fees.",
+          "sourceLabel": "City of Boise Parks and Recreation",
+          "source": "https://www.cityofboise.org/departments/parks-and-recreation/parks/kathryn-albertson-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
+        },
+        {
+          "intentKey": "accessibility",
+          "question": "How accessible is Kathryn Albertson Park?",
+          "answer": "The City describes wide, paved footpaths and on-site parking. It does not give a route-by-route accessibility guarantee, so confirm the exact gazebo, restroom or path condition before relying on step-free access.",
+          "sourceLabel": "City of Boise Parks and Recreation",
+          "source": "https://www.cityofboise.org/departments/parks-and-recreation/parks/kathryn-albertson-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
+        },
+        {
+          "intentKey": "dogs",
+          "question": "Are dogs allowed at Kathryn Albertson Park?",
+          "answer": "Yes. Dogs are permitted year-round but must remain on leash. Keep them controlled around ponds and wildlife and remove waste.",
+          "sourceLabel": "City of Boise Parks and Recreation",
+          "source": "https://www.cityofboise.org/departments/parks-and-recreation/parks/kathryn-albertson-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
+        },
+        {
+          "intentKey": "family",
+          "question": "Is Kathryn Albertson Park a good family destination?",
+          "answer": "It can suit quiet walks and wildlife watching on wide paved paths, but it is not an equipment-play park. Bicycles, e-scooters, fishing, boating, swimming and wading are prohibited, and visitors should observe wildlife from a distance.",
+          "sourceLabel": "City of Boise Parks and Recreation",
+          "source": "https://www.cityofboise.org/departments/parks-and-recreation/parks/kathryn-albertson-park/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
         },
         {
           "intentKey": "transit",
-          "question": "Can I take a bus to Kathryn Albertson Park?",
-          "answer": "Yes. Valley Regional Transit Route 4 Franklin stops on Americana Boulevard at Kathryn Albertson Park and connects with Main Street Station. The park entrance and loop are west of Americana, so allow a short walk from the stop. Route frequency is limited compared with a major-city trunk line; check the live schedule and return time before entering the park, especially evenings and weekends.",
+          "question": "Can I reach Kathryn Albertson Park without a car?",
+          "answer": "Use Valley Regional Transit's current trip planner for 1001 South Americana Boulevard and verify the final walk and return time. The park page does not promise a particular route or frequency.",
           "sourceLabel": "Valley Regional Transit",
-          "source": "https://www.valleyregionaltransit.org/wp-content/uploads/2024/08/Route-4-Franklin_2024-Route-Brochures-Skittles-V42026080.SKT_.pdf",
+          "source": "https://www.valleyregionaltransit.org/trip-planner/",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "fast",
+          "status": "verified"
         },
         {
-          "intentKey": "splash-pad",
-          "question": "Is there a splash pad or swimming at Kathryn Albertson Park?",
-          "answer": "No. Kathryn Albertson is a wildlife and quiet-use park with decorative and habitat ponds, fountains, overlooks, boardwalks, and walking paths, but no splash pad or pool. Boise explicitly prohibits swimming, boating, and fishing there. Keep children on developed paths and viewing decks rather than approaching pond edges. For water play, choose a separately listed Boise splash pad such as Borah or another current City aquatic facility.",
+          "intentKey": "need-to-know",
+          "question": "What activities are prohibited at Kathryn Albertson Park?",
+          "answer": "Biking, e-scooter use, fishing, boating, swimming and wading are prohibited. Observe wildlife from a distance, keep dogs leashed and check the Russian olive removal project or posted closures before entering affected paths.",
           "sourceLabel": "City of Boise Parks and Recreation",
-          "source": "https://boisefiremapsftp.cityofboise.org/COMPLEX%20MAPS/ComplexMapPackage/Engine09ComplexPackage.pdf",
+          "source": "https://www.cityofboise.org/departments/parks-and-recreation/parks/kathryn-albertson-park/",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "fast",
+          "status": "verified"
         },
         {
-          "intentKey": "public-art",
-          "question": "What are the main landmarks in Kathryn Albertson Park?",
-          "answer": "The park is a quiet wildlife and landscape destination rather than a public-art park. Its two named orientation landmarks are Rookery Gazebo and Eyrie Gazebo, set among ponds, paths, fountains, and viewing areas. Use the official facility map to choose a gazebo; formal ceremonies may be reserved, but receptions and ordinary recreation such as biking, skating, swimming, boating, and fishing are prohibited.",
+          "intentKey": "weather",
+          "question": "How does weather affect Kathryn Albertson Park?",
+          "answer": "Paved paths, ponds and lawns remain exposed to heat, cold, wind and storms despite wooded sections. Sunrise and sunset change through the year, and posted habitat or project closures override ordinary access.",
           "sourceLabel": "City of Boise Parks and Recreation",
-          "source": "https://boisefiremapsftp.cityofboise.org/COMPLEX%20MAPS/ComplexMapPackage/Engine09ComplexPackage.pdf",
+          "source": "https://www.cityofboise.org/departments/parks-and-recreation/parks/kathryn-albertson-park/",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "fast",
+          "status": "verified"
         }
-      ]
+      ],
+      "image": {
+        "url": "/assets/parks/boise-evidence-gate/kathryn-albertson-park/01-kathryn-albertson-park-3.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Kathryn_Albertson_Park_(3).jpg",
+        "author": "Tamanoeconomico",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "alt": "Paved walking path and open wildlife lawn at Kathryn Albertson Park",
+        "width": 1600,
+        "height": 1000
+      },
+      "additionalImages": [
+        {
+          "url": "/assets/parks/boise-evidence-gate/kathryn-albertson-park/02-quail-corners-kathryn-albertson-park.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Quail_Corners,_Kathryn_Albertson_Park.jpg",
+          "author": "Tamanoeconomico",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "alt": "Pond and evergreen habitat at Quail Corners in Kathryn Albertson Park",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/boise-evidence-gate/kathryn-albertson-park/03-riparian-run-kathryn-albertson-park.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Riparian_Run,_Kathryn_Albertson_Park.jpg",
+          "author": "Tamanoeconomico",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "alt": "Footbridge over Riparian Run at Kathryn Albertson Park",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/boise-evidence-gate/kathryn-albertson-park/04-the-rookery-kathryn-albertson-park.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:The_Rookery,_Kathryn_Albertson_Park.jpg",
+          "author": "Tamanoeconomico",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "alt": "The Rookery reservable gazebo at Kathryn Albertson Park",
+          "width": 1600,
+          "height": 1000
+        }
+      ],
+      "replaceImages": true,
+      "verifiedAt": "2026-08-11"
     },
     "launch-wa-seattle-green-lake-park": {
       "city": "Seattle",
