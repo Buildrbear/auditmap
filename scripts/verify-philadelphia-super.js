@@ -4,6 +4,9 @@ const fs = require("node:fs");
 const path = require("node:path");
 const campaign = require("../data/philadelphia-super-enrichment-campaign.json");
 const places = require("../data/generated/launch-map-places.json");
+const allSubsites = require("../data/generated/all-subsites-ready.json").parks;
+const pilotSubsites = require("../data/generated/pilot-subsites-ready.json").parks;
+const nationalParents = require("../data/parent-park-information-enrichment-national.json").parks;
 const root = path.resolve(__dirname, "..");
 const failures = [];
 const slugify = (value) => String(value).toLowerCase().replace(/&/g, " and ").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
@@ -11,6 +14,25 @@ const slugify = (value) => String(value).toLowerCase().replace(/&/g, " and ").re
 for (const expected of campaign.places) {
   const place = places.find((item) => item.id === expected.id);
   if (!place) { failures.push(`${expected.name}: missing from map data`); continue; }
+  for (const [label, records] of [["all-subsites source", allSubsites], ["pilot-subsites source", pilotSubsites]]) {
+    const matches = records.filter((item) => item.id === expected.id);
+    if (matches.length !== 1) {
+      failures.push(`${expected.name}: expected one ${label} record, found ${matches.length}`);
+      continue;
+    }
+    const sourceRecord = matches[0];
+    const sourceImages = [sourceRecord.image, ...(sourceRecord.images || [])].filter((image) => image?.url);
+    if (sourceImages.length < (expected.minImages || 4)) failures.push(`${expected.name}: ${label} has only ${sourceImages.length} images`);
+    if ((sourceRecord.features || []).length !== expected.subsites.length) failures.push(`${expected.name}: ${label} expected ${expected.subsites.length} subsites, found ${(sourceRecord.features || []).length}`);
+    if ((sourceRecord.searchAnswers || []).length < 11) failures.push(`${expected.name}: ${label} has fewer than 11 answers`);
+  }
+  const nationalParent = nationalParents[expected.id];
+  if (!nationalParent) failures.push(`${expected.name}: missing from national parent source`);
+  else {
+    const nationalImages = [nationalParent.image, ...(nationalParent.additionalImages || [])].filter((image) => image?.url);
+    if (nationalImages.length < (expected.minImages || 4)) failures.push(`${expected.name}: national parent source has only ${nationalImages.length} images`);
+    if ((nationalParent.searchAnswers || []).length < 11) failures.push(`${expected.name}: national parent source has fewer than 11 answers`);
+  }
   const images = [place.image, ...(place.images || [])].filter((image) => image?.url);
   if (images.length < (expected.minImages || 4)) failures.push(`${place.name}: only ${images.length} images`);
   if ((place.features || []).length !== expected.subsites.length) failures.push(`${place.name}: expected ${expected.subsites.length} subsites, found ${(place.features || []).length}`);

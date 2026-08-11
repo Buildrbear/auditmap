@@ -124,9 +124,10 @@ function feature(place, name, index, images) {
 (() => {
   const all = read("data/generated/all-subsites-ready.json");
   const pilot = read("data/generated/pilot-subsites-ready.json");
+  const launch = read("data/generated/launch-map-places.json");
   const national = read("data/parent-park-information-enrichment-national.json");
   const locations = read("data/launch-location-overrides.json");
-  const currentMap = read("data/generated/launch-map-places.json");
+  const currentMap = launch;
   for (const scope of campaign.places) {
     const prior = national.parks[scope.id] || {};
     const mapped = currentMap.find((item) => item.id === scope.id) || {};
@@ -154,11 +155,14 @@ function feature(place, name, index, images) {
     const searchAnswers = customFacts[place.id] ? makeAnswers(place) : (prior.searchAnswers || makeAnswers(place));
     const record = { id: place.id, name: place.name, type: "Park", city: "Philadelphia", state: "PA", country: "US", citySlug: "philadelphia-PA", slug: slugify(place.name), searchCategory: "park", neighborhood: "Philadelphia", status: "Sourced public-access visitor guide", summary: place.summary, searchDescription: `Hours, parking, real photos, mapped destinations, and essential visitor answers for ${place.name} in Philadelphia.`, address: place.address, latitude: place.latitude, longitude: place.longitude, hours: place.hours, cost: place.cost, accessibility: place.accessibility, sourceLabel: place.operator, source: place.source, verifiedAt: place.verifiedAt || checkedAt, operator: place.operator, image: images[0], images: images.slice(1), sources: [{ label: place.operator, url: place.source }], launchTier: "anchor", likelySubsites: true, publishStatus: "super-enriched", researchQueue: [], transit: place.transit, searchAnswers, features: place.subsites.map((name, index) => feature(place, name, index, images)), amenities: [], comments: [] };
     upsert(all, record); upsert(pilot, record);
+    const launchIndex = launch.findIndex((item) => item.id === record.id);
+    launchIndex >= 0 ? launch[launchIndex] = record : launch.push(record);
     national.parks[place.id] = { city: "Philadelphia", citySlug: "philadelphia-PA", operator: place.operator, sourceLabel: place.operator, source: place.source, address: place.address, summary: place.summary, hours: place.hours, cost: place.cost, accessibility: place.accessibility, transit: place.transit, searchAnswers, image: images[0], additionalImages: images.slice(1), replaceImages: true, verifiedAt: place.verifiedAt || checkedAt };
     const location = { id: place.id, park: place.name, city: "Philadelphia", state: "PA", latitude: place.latitude, longitude: place.longitude, address: place.address, displayName: `${place.name}, Philadelphia, PA`, source: place.operator, sourceUrl: place.source, checkedAt: place.verifiedAt || checkedAt };
     const locationIndex = locations.findIndex((item) => item.id === place.id); locationIndex >= 0 ? locations[locationIndex] = location : locations.push(location);
   }
   write("data/generated/all-subsites-ready.json", all); write("data/generated/pilot-subsites-ready.json", pilot);
+  write("data/generated/launch-map-places.json", launch);
   write("data/parent-park-information-enrichment-national.json", national); write("data/launch-location-overrides.json", locations);
   console.log(`Super-enriched ${campaign.places.length} Philadelphia guides with ${campaign.places.reduce((total, place) => total + place.subsites.length, 0)} focused destinations.`);
 })();

@@ -4,21 +4,21 @@ Last updated: 2026-08-11
 
 ## Current State
 
-- Status: the Tampa Bay evidence-gate rebuild is generated, locally verified, and deployed to a protected Ready preview; authenticated response and screenshot verification remains blocked.
-- Working branch: `codex/tampa-bay-evidence-gate`
-- Pull request: https://github.com/Buildrbear/auditmap/pull/26 (draft, stacked on PR #25)
-- Outcome: six released parent guides, two explicit photo-gated parents, 27 reviewed reusable images, three evidence-complete destinations, and 61 retired legacy routes.
-- Preview: https://auditmap-pipqwud6a-derrys-projects-f5a18cb6.vercel.app (Ready at commit `2424e4f`; Vercel Authentication blocks route/image/redirect response checks in the available browser session).
+- Status: the Philadelphia campaign source-persistence repair is locally complete and restores the national verifier through campaign 32; a separate Pittsburgh persistence defect is now the first national-suite failure.
+- Working branch: `codex/philadelphia-evidence-repair`
+- Pull request: pending, to be stacked on Tampa Bay draft PR #26
+- Outcome: nine authoritative Philadelphia parent records, 51 existing reviewed images, and 40 existing evidence-complete destinations now survive clean full regeneration; the verifier checks source layers as well as rendered output.
+- Preview: pending stacked draft-PR deployment.
 - Production status: not merged or promoted to production.
 - Canonical machine-readable checkpoint: `data/us-priority-enrichment-queue.json` under `activeCluster.resumeCheckpoint`.
 
-The Cleveland, Detroit, Columbus, Cincinnati, Indianapolis, Upper Midwest, inland Broward, and Miami batches remain complete at their previous checkpoints. Tampa Bay now retains exact destination pages only for Tampa Bay Watch Discovery Center, Historic Fort De Soto, and Fort De Soto Gulf Pier. Curtis Hixon, Lettuce Lake, Ballast Point, and Vinoy Park are parent-only; Julian B. Lane and Boyd Hill remain photo-gated below release threshold.
+The Cleveland, Detroit, Columbus, Cincinnati, Indianapolis, Upper Midwest, inland Broward, Miami, and Tampa Bay batches remain complete at their previous checkpoints. Philadelphia's prior evidence decisions are unchanged; this repair makes their reviewed records authoritative for future generators.
 
 ## Resume Point
 
-Do not repeat the completed Tampa Bay, Miami, Midwest, or inland Broward batches unless review finds a specific defect or new evidence changes a deferred decision. Tampa Bay's 11 retained routes passed local 390-pixel checks, all eight parents passed 1440-pixel checks, and no horizontal overflow or browser warning/error was observed. The broad generator's unrelated drift was discarded and the eight parents were regenerated in scoped mode. Final optimized-image, redirect-status, and screenshot evidence remains a draft-preview task.
+Do not repeat completed batches unless review finds a specific defect or new evidence changes a deferred decision. Philadelphia's 49 retained routes passed local 390-pixel checks, all nine parents passed 1440-pixel checks, and no horizontal overflow or browser warning/error was observed. An isolated full generation preserved all nine reviewed galleries, answer sets, and destination sets. Final optimized-image and deployed screenshot evidence remains a draft-preview task.
 
-After Tampa Bay's draft preview is verified, open the next connected high-impact metro cluster only where current official visitor sources and representative reusable media support a reviewable batch. Continue the same four-photo parent gate and exact-photo, exact-position, destination-specific-profile gate. Keep Julian B. Lane, Boyd Hill, inland Broward, Olbrich Park, Riverside Regional Park, and Broad Ripple Park deferred until their documented media gaps are resolved.
+After Philadelphia's stacked draft preview is verified, repair the now-exposed Pittsburgh source/generated mismatch as its own reviewable contribution. Then open the next connected high-impact metro cluster only where current official visitor sources and representative reusable media support a reviewable batch. Continue the same four-photo parent gate and exact-photo, exact-position, destination-specific-profile gate. Keep Julian B. Lane, Boyd Hill, inland Broward, Olbrich Park, Riverside Regional Park, and Broad Ripple Park deferred until their documented media gaps are resolved.
 
 Keep T.Y. Park, Tree Tops Park, and Vista View Park in the deferred-photo queue until each has three to four representative permission-cleared views. Keep Olbrich Park in review until at least two additional representative reusable park views are available. Riverside Park in Grand Rapids remains parent-only until a destination-specific photo, exact pin, and current destination profile clear together. Seasonal Millennium beach/splashpad operations, Riverside kayaking and flooding, North Point Lighthouse schedules, Vilas beach conditions, Madison restroom closures, Castaway Island's seasonal schedule, and Vista View capital projects remain freshness risks requiring operator rechecks.
 
