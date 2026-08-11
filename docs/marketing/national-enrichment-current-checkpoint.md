@@ -4,24 +4,24 @@ Last updated: 2026-08-11
 
 ## Current State
 
-- Status: the Upper Midwest lake evidence-gate batch is locally and preview verified.
-- Working branch: `codex/upper-midwest-lake-evidence-gate`
-- Pull request: https://github.com/Buildrbear/auditmap/pull/23
-- Stacked base pull request: https://github.com/Buildrbear/auditmap/pull/22
-- Upper Midwest implementation commit: `c41cd95b3`
-- Preview: https://auditmap-git-codex-upper-midwes-d1abcc-derrys-projects-f5a18cb6.vercel.app
+- Status: the inland Broward photo-gate re-audit is complete; all three candidates remain deferred.
+- Working branch: `codex/inland-broward-evidence-gate`
+- Pull request: pending
+- Stacked base pull request: https://github.com/Buildrbear/auditmap/pull/23
+- Outcome: 61 candidate images reviewed, zero parents accepted, zero destinations accepted.
+- Preview: not required because this is a research-only batch with no generated UI changes.
 - Production status: not merged or promoted to production.
 - Canonical machine-readable checkpoint: `data/us-priority-enrichment-queue.json` under `activeCluster.resumeCheckpoint`.
 
-The Cleveland, Detroit, Columbus, Cincinnati, and Indianapolis corridors remain complete through their earlier preview-verified batches. This release extends the connected Midwest corridor through Grand Rapids, Milwaukee, and Madison. Millennium Park, Riverside Park, Lake Park, Veterans Park, and Vilas Park clear the parent evidence gate with twenty varied reusable photographs and six exact destination pages. Olbrich Park remains photo-gated with only its two clearly park-specific reusable images; adjacent Botanical Gardens imagery was removed and its misleading subsite route now redirects permanently to the parent.
+The Cleveland, Detroit, Columbus, Cincinnati, Indianapolis, and Upper Midwest corridors remain complete through their preview-verified batches. The inland Broward retry checked recently indexed Broward County visitor guidance and 61 nominally reusable image candidates for T.Y. Park, Tree Tops Park, and Vista View Park. The county sources returned HTTP 404 during final live validation. T.Y. Park's reusable results are a near-duplicate 2007 event series, while Tree Tops and Vista View returned unrelated, wildlife-only, or all-rights-reserved exact-location media. None provides the reachable official sourcing and varied representative coverage required for publication, so no parent or destination record was promoted.
 
 ## Resume Point
 
-Do not repeat the completed Midwest batches unless review finds a specific defect. The source-identical Upper Midwest pages passed 390-pixel and 1440-pixel browser checks without horizontal overflow or browser console warnings or errors. Authenticated preview checks returned HTTP 200 for all twelve retained parent and destination routes, HTTP 308 for the retired Botanical Gardens subsite, and valid optimized payloads for all twenty-two campaign images. Raw HTML, canonical metadata, breadcrumbs, exact-coordinate navigation, scoped generation, national discovery, and North Carolina safeguards pass. The full national campaign runner still reaches the known pre-existing Philadelphia source/generated mismatch after the first thirty campaign suites; this batch does not alter those Philadelphia records.
+Do not repeat the completed Midwest or inland Broward batches unless review finds a specific defect or new permission-cleared representative media becomes available. The source-identical Upper Midwest pages passed 390-pixel and 1440-pixel browser checks without horizontal overflow or browser console warnings or errors. Authenticated preview checks returned HTTP 200 for all twelve retained parent and destination routes, HTTP 308 for the retired Botanical Gardens subsite, and valid optimized payloads for all twenty-two campaign images. The inland Broward batch changes research and checkpoint files only, so page generation, browser, and Vercel image checks are not applicable. The full national campaign runner still reaches the known pre-existing Philadelphia source/generated mismatch after the first thirty campaign suites; this batch does not alter those Philadelphia records.
 
-Continue the connected inland Broward corridor with T.Y. Park, Tree Tops Park, and Vista View Park only where each parent clears current official guidance and the representative reusable-photo gate. If those candidates remain photo-gated, open the next evidence-rich connected metro cluster rather than repeatedly searching blocked media pools.
+Open the connected Miami waterfront evidence-gate rebuild across Maurice A. Ferre Park, Bayfront Park, South Pointe Park, Lummus Park, Matheson Hammock Park, Crandon Park, Bill Baggs Cape Florida State Park, and Historic Virginia Key Beach Park. Re-audit the eight legacy enriched records against current official guidance, varied reusable parent photography, exact destination positions, and destination-specific photographic evidence. Retire or defer weak legacy subsites rather than inheriting broad parent imagery or stale visitor facts.
 
-Keep Olbrich Park in review until at least two additional representative reusable park views are available. Olbrich Botanical Gardens is adjacent, not an internal park destination, and its imagery must not be used as substitute park coverage. Riverside Park in Grand Rapids remains parent-only until a destination-specific photo, exact pin, and current destination profile clear together. Seasonal Millennium beach/splashpad operations, Riverside kayaking and flooding, North Point Lighthouse schedules, Vilas beach conditions, and Madison restroom closures remain freshness risks requiring operator rechecks.
+Keep T.Y. Park, Tree Tops Park, and Vista View Park in the deferred-photo queue until each has three to four representative permission-cleared views. Keep Olbrich Park in review until at least two additional representative reusable park views are available. Riverside Park in Grand Rapids remains parent-only until a destination-specific photo, exact pin, and current destination profile clear together. Seasonal Millennium beach/splashpad operations, Riverside kayaking and flooding, North Point Lighthouse schedules, Vilas beach conditions, Madison restroom closures, Castaway Island's seasonal schedule, and Vista View capital projects remain freshness risks requiring operator rechecks.
 
 Continue requiring representative reusable photography, current official visitor guidance, exact destination coordinates, and destination-specific photographic evidence before publishing any parent or destination page. Defer weak subsites rather than publishing broad parent images or approximate pins.
 
