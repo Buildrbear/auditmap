@@ -1,154 +1,39 @@
 {
-  "checkedAt": "2026-08-06",
+  "checkedAt": "2026-08-10",
   "places": {
     "launch-mi-detroit-belle-isle-park": {
       "belle-isle-aquarium": {
         "latitude": 42.3363027,
         "longitude": -82.9851786,
-        "displayName": "Belle Isle Aquarium, 3, Inselruhe Avenue, Detroit, Wayne County, Michigan, 48207, United States",
-        "source": "OpenStreetMap Nominatim"
+        "displayName": "reviewed-named-aquarium-building-way-and-official-address-match",
+        "source": "https://www.openstreetmap.org/way/107227742"
       },
       "anna-scripps-whitcomb-conservatory": {
         "latitude": 42.3362487,
         "longitude": -82.9855413,
-        "displayName": "Anna Scripps Whitcomb Conservatory, 4, Inselruhe Avenue, Detroit, Wayne County, Michigan, 48207, United States",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "belle-isle-nature-center": {
-        "latitude": 42.3468758,
-        "longitude": -82.9637291,
-        "displayName": "Belle Isle Nature Center, 176, Lakeside Drive, Detroit, Wayne County, Michigan, 48207, United States",
-        "source": "OpenStreetMap Nominatim"
+        "displayName": "reviewed-named-conservatory-building-way-and-official-address-match",
+        "source": "https://www.openstreetmap.org/way/107310050"
       },
       "dossin-great-lakes-museum": {
         "latitude": 42.3346158,
         "longitude": -82.9854512,
-        "displayName": "Dossin Great Lakes Museum, 100, Strand Drive, Detroit, Wayne County, Michigan, 48207, United States",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "james-scott-memorial-fountain": {
-        "latitude": 42.335024,
-        "longitude": -82.9993272,
-        "displayName": "James Scott Memorial Fountain, Fountain Drive, Detroit, Wayne County, Michigan, 48214, United States",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "belle-isle-beach": {
-        "latitude": 42.3448929,
-        "longitude": -82.9783863,
-        "displayName": "Belle Isle Beach, Detroit, Wayne County, Michigan, United States",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "belle-isle-giant-slide": {
-        "latitude": 42.3403,
-        "longitude": -82.97475,
-        "displayName": "Approximate position within Belle Isle Park",
-        "source": "AuditMap official-map placement"
-      },
-      "oudolf-garden-detroit": {
-        "latitude": 42.3357458,
-        "longitude": -82.9886728,
-        "displayName": "Oudolf Garden Detroit, Detroit, Wayne County, Michigan, United States",
-        "source": "OpenStreetMap Nominatim"
+        "displayName": "reviewed-named-museum-building-way-and-official-address-match",
+        "source": "https://www.openstreetmap.org/way/107205459"
       }
     },
-    "launch-mi-detroit-detroit-riverwalk": {
-      "cullen-plaza": {
-        "latitude": 42.3307021,
-        "longitude": -83.0318978,
-        "displayName": "Cullen Plaza, 1340, East Riverfront, Detroit, Wayne County, Michigan, 48207, United States",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "william-g-milliken-state-park-and-harbor": {
-        "latitude": 42.33033133513653,
-        "longitude": -83.03106866486347,
-        "displayName": "Approximate position within Detroit RiverWalk",
-        "source": "AuditMap official-map placement"
-      },
-      "robert-c-valade-park": {
-        "latitude": 42.3350215,
-        "longitude": -83.0192492,
-        "displayName": "Robert C. Valade Park, 2670, East Riverfront, Detroit, Wayne County, Michigan, 48207, United States",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "mt-elliott-park": {
-        "latitude": 42.3407845,
-        "longitude": -83.0071242,
-        "displayName": "Mt. Elliott Park Pavilion, Detroit Riverwalk, Detroit, Wayne County, Michigan, 48207, United States",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "gabriel-richard-park": {
-        "latitude": 42.3470136,
-        "longitude": -82.9989522,
-        "displayName": "Gabriel Richard Park, Detroit, Wayne County, Michigan, United States",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "gm-plaza": {
-        "latitude": 42.3280632,
-        "longitude": -83.038242,
-        "displayName": "GM Plaza and Promenade, Renaissance Center, Detroit, Wayne County, Michigan, 48243, United States",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "renaissance-center-riverfront-plaza": {
-        "latitude": 42.3299,
-        "longitude": -83.03195,
-        "displayName": "Approximate position within Detroit RiverWalk",
-        "source": "AuditMap official-map placement"
-      },
-      "southwest-greenway-connection": {
-        "latitude": 42.33033133513653,
-        "longitude": -83.03193133513652,
-        "displayName": "Approximate position within Detroit RiverWalk",
-        "source": "AuditMap official-map placement"
-      }
-    },
+    "launch-mi-detroit-detroit-riverwalk": {},
     "launch-mi-detroit-ralph-c-wilson-jr-centennial-park": {
-      "delta-dental-play-garden": {
-        "latitude": 42.32235,
-        "longitude": -83.0677,
-        "displayName": "Approximate position within Ralph C. Wilson Jr. Centennial Park",
-        "source": "AuditMap official-map placement"
-      },
       "huron-clinton-metroparks-water-garden": {
-        "latitude": 42.322331335136525,
-        "longitude": -83.06726866486348,
-        "displayName": "Approximate position within Ralph C. Wilson Jr. Centennial Park",
-        "source": "AuditMap official-map placement"
+        "latitude": 42.3225,
+        "longitude": -83.062142,
+        "displayName": "reviewed-water-garden-photo-geotag-and-2026-official-visitor-map-match",
+        "source": "https://commons.wikimedia.org/wiki/File:Detroit_December_2025_15_(Ralph_C._Wilson,_Jr._Centennial_Park).jpg"
       },
       "william-davidson-sport-house": {
-        "latitude": 42.3219,
-        "longitude": -83.06693,
-        "displayName": "Approximate position within Ralph C. Wilson Jr. Centennial Park",
-        "source": "AuditMap official-map placement"
-      },
-      "dte-foundation-summit": {
-        "latitude": 42.32158180194847,
-        "longitude": -83.06738180194847,
-        "displayName": "Approximate position within Ralph C. Wilson Jr. Centennial Park",
-        "source": "AuditMap official-map placement"
-      },
-      "community-lawn": {
-        "latitude": 42.32129,
-        "longitude": -83.0677,
-        "displayName": "Approximate position within Ralph C. Wilson Jr. Centennial Park",
-        "source": "AuditMap official-map placement"
-      },
-      "river-edge-garden": {
-        "latitude": 42.321355527778486,
-        "longitude": -83.06824447222152,
-        "displayName": "Approximate position within Ralph C. Wilson Jr. Centennial Park",
-        "source": "AuditMap official-map placement"
-      },
-      "ralph-wilson-park-basketball-courts": {
-        "latitude": 42.3219,
-        "longitude": -83.06815,
-        "displayName": "Approximate position within Ralph C. Wilson Jr. Centennial Park",
-        "source": "AuditMap official-map placement"
-      },
-      "ralph-wilson-park-riverwalk": {
-        "latitude": 42.322331335136525,
-        "longitude": -83.06813133513653,
-        "displayName": "Approximate position within Ralph C. Wilson Jr. Centennial Park",
-        "source": "AuditMap official-map placement"
+        "latitude": 42.321722,
+        "longitude": -83.0641,
+        "displayName": "reviewed-named-sport-house-photo-geotag-and-2026-official-visitor-map-match",
+        "source": "https://commons.wikimedia.org/wiki/File:Detroit_December_2025_12_(Ralph_C._Wilson,_Jr._Centennial_Park--William_Davidson_Sport_House).jpg"
       }
     },
     "launch-mi-detroit-dequindre-cut": {

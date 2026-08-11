@@ -14773,162 +14773,119 @@
       "source": "https://www.michigan.gov/recsearch/parks/BelleIsle",
       "address": "99 Pleasure Drive, Detroit, MI 48207",
       "summary": "A 985-acre Detroit River island park with beach, aquarium, conservatory, nature center, maritime museum, gardens, trails, paddling, playgrounds and skyline views.",
-      "hours": "Park grounds generally follow Michigan state-park day-use hours, 8:00 a.m.-10:00 p.m. Attractions keep separate schedules; Oudolf Garden and selected outdoor landmarks are listed 5:00 a.m.-10:00 p.m.",
-      "hoursSchedule": {
-        "sunday": [
-          [
-            "08:00",
-            "22:00"
-          ]
-        ],
-        "monday": [
-          [
-            "08:00",
-            "22:00"
-          ]
-        ],
-        "tuesday": [
-          [
-            "08:00",
-            "22:00"
-          ]
-        ],
-        "wednesday": [
-          [
-            "08:00",
-            "22:00"
-          ]
-        ],
-        "thursday": [
-          [
-            "08:00",
-            "22:00"
-          ]
-        ],
-        "friday": [
-          [
-            "08:00",
-            "22:00"
-          ]
-        ],
-        "saturday": [
-          [
-            "08:00",
-            "22:00"
-          ]
-        ]
-      },
-      "cost": "Park entry on foot, bicycle or transit is free. Motor vehicles require a Recreation Passport. Aquarium and conservatory are generally free; Dossin Museum, Giant Slide, rentals, golf and reservations have separate fees.",
-      "accessibility": "Accessible parking, ramps, fishing piers, kayak launches and a rubber-surface playground are available at selected locations. Distances are large and temporary construction changes routes.",
-      "transit": "DDOT Route 12 Conant serves the island approximately hourly, with separate weekday and Sunday spans. Confirm the current schedule and attraction stop.",
+      "hours": "Michigan DNR's statewide day-use rule lists 8:00 a.m.-10:00 p.m., while Belle Isle Conservancy currently posts 5:00 a.m.-10:00 p.m. for the grounds. Because the official sources conflict, confirm posted entrance hours before an early visit; staffed attractions keep shorter schedules.",
+      "hoursSchedule": false,
+      "cost": "Park entry on foot, bicycle or transit is free. Motor vehicles require a Recreation Passport. Aquarium and conservatory admission are free; Dossin Museum, Giant Slide, rentals, golf and reservations have separate fees.",
+      "accessibility": "Accessible parking and developed routes exist at selected attractions, but the island is large and garden, green-space, picnic and some bathroom routes have documented limitations. Current construction can also change circulation.",
+      "transit": "DDOT Route 12 Conant serves the island approximately hourly and stops at the Aquarium/Conservatory complex. Confirm the current weekday or Sunday schedule and the final walk to other attractions.",
       "searchAnswers": [
         {
           "intentKey": "hours",
           "question": "When is Belle Isle Park open?",
-          "answer": "Park grounds generally follow Michigan state-park day-use hours, 8:00 a.m.-10:00 p.m. Attractions keep separate schedules; Oudolf Garden and selected outdoor landmarks are listed 5:00 a.m.-10:00 p.m.",
+          "answer": "Michigan DNR's statewide day-use rule lists 8:00 a.m.-10:00 p.m., while Belle Isle Conservancy currently posts 5:00 a.m.-10:00 p.m. for the grounds. Because the official sources conflict, confirm posted entrance hours before an early visit; staffed attractions keep shorter schedules.",
           "sourceLabel": "Michigan Department of Natural Resources",
-          "source": "https://www.michigan.gov/recsearch/parks/BelleIsle",
-          "verifiedAt": "2026-08-06",
+          "source": "https://www.michigan.gov/dnr/places/state-parks/rules",
+          "verifiedAt": "2026-08-10",
           "freshnessClass": "fast",
           "status": "verified"
         },
         {
           "intentKey": "parking",
           "question": "Where should I park for Belle Isle Park?",
-          "answer": "Parking is distributed across the island. A Michigan Recreation Passport is required for motor vehicles, while pedestrians, bicycles and public-transit riders enter without one. Route to the exact attraction.",
+          "answer": "Parking is distributed across the island. A Michigan Recreation Passport is required for motor vehicles, while pedestrians, bicycles and public-transit riders enter without one. Route to the exact attraction before crossing the bridge.",
           "sourceLabel": "Michigan Department of Natural Resources",
-          "source": "https://www.michigan.gov/recsearch/parks/BelleIsle",
-          "verifiedAt": "2026-08-06",
+          "source": "https://www.belleisleconservancy.org/plan-your-visit",
+          "verifiedAt": "2026-08-10",
           "freshnessClass": "fast",
           "status": "verified"
         },
         {
           "intentKey": "entrance",
           "question": "What is the best entrance for Belle Isle Park?",
-          "answer": "The MacArthur Bridge is the only road entrance. Choose Aquarium/Conservatory, Nature Center, beach, museum, fountain or Kids Row before crossing because the island is nearly three miles long.",
+          "answer": "The MacArthur Bridge is the only road entrance. Choose the Aquarium/Conservatory complex, Nature Center, beach, Dossin museum, fountain or Kids Row before crossing because the island is nearly three miles long.",
           "sourceLabel": "Michigan Department of Natural Resources",
-          "source": "https://www.michigan.gov/recsearch/parks/BelleIsle",
-          "verifiedAt": "2026-08-06",
+          "source": "https://www.belleisleconservancy.org/plan-your-visit",
+          "verifiedAt": "2026-08-10",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "restroom",
           "question": "Are there restrooms at Belle Isle Park?",
-          "answer": "Seasonal modern restrooms and portable toilets are distributed around the island; heated Bus Stop, Casino-area and Flynn facilities provide selected year-round options.",
+          "answer": "Restrooms and seasonal portable facilities are distributed around the island rather than available at every stop. Belle Isle Conservancy cautions that some bathrooms have limited accessibility, so confirm the nearest facility for a mobility-specific visit.",
           "sourceLabel": "Michigan Department of Natural Resources",
-          "source": "https://www.michigan.gov/recsearch/parks/BelleIsle",
-          "verifiedAt": "2026-08-06",
+          "source": "https://www.belleisleconservancy.org/plan-your-visit",
+          "verifiedAt": "2026-08-10",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "fees",
           "question": "Is Belle Isle Park free?",
-          "answer": "Park entry on foot, bicycle or transit is free. Motor vehicles require a Recreation Passport. Aquarium and conservatory are generally free; Dossin Museum, Giant Slide, rentals, golf and reservations have separate fees.",
+          "answer": "Park entry on foot, bicycle or transit is free. Motor vehicles require a Recreation Passport. Aquarium and conservatory admission are free; Dossin Museum, Giant Slide, rentals, golf and reservations have separate fees.",
           "sourceLabel": "Michigan Department of Natural Resources",
-          "source": "https://www.michigan.gov/recsearch/parks/BelleIsle",
-          "verifiedAt": "2026-08-06",
+          "source": "https://www.michigan.gov/dnr/faqs/recreation-passport/rp",
+          "verifiedAt": "2026-08-10",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "accessibility",
           "question": "How accessible is Belle Isle Park?",
-          "answer": "Accessible parking, ramps, fishing piers, kayak launches and a rubber-surface playground are available at selected locations. Distances are large and temporary construction changes routes.",
+          "answer": "Accessible parking and developed routes exist at selected attractions, but the island is large and garden, green-space, picnic and some bathroom routes have documented limitations. Current construction can also change circulation.",
           "sourceLabel": "Michigan Department of Natural Resources",
-          "source": "https://www.michigan.gov/recsearch/parks/BelleIsle",
-          "verifiedAt": "2026-08-06",
+          "source": "https://www.belleisleconservancy.org/plan-your-visit",
+          "verifiedAt": "2026-08-10",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "dogs",
           "question": "Are dogs allowed at Belle Isle Park?",
-          "answer": "Leashed pets are allowed in ordinary outdoor areas under DNR rules but restricted from buildings, designated swim areas and posted facilities.",
+          "answer": "Leashed pets are allowed in ordinary outdoor areas under DNR rules but are restricted from park buildings, toilet buildings, designated swim beaches, endangered-species habitat and posted areas; service animals are exempt from building restrictions.",
           "sourceLabel": "Michigan Department of Natural Resources",
-          "source": "https://www.michigan.gov/recsearch/parks/BelleIsle",
-          "verifiedAt": "2026-08-06",
+          "source": "https://www.michigan.gov/dnr/places/state-parks/rules",
+          "verifiedAt": "2026-08-10",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "family",
           "question": "Is Belle Isle Park good for children?",
-          "answer": "Aquarium, conservatory, Nature Center, beach, Kids Row playground and Giant Slide can fill a day; verify each attraction's schedule first.",
+          "answer": "Aquarium, conservatory, Nature Center, beach, Kids Row playground and Giant Slide can fill a day; verify each attraction's independent schedule and do not plan to cover the island from one parking space.",
           "sourceLabel": "Michigan Department of Natural Resources",
           "source": "https://www.michigan.gov/recsearch/parks/BelleIsle",
-          "verifiedAt": "2026-08-06",
+          "verifiedAt": "2026-08-10",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "transit",
           "question": "How do I reach Belle Isle Park without a car?",
-          "answer": "DDOT Route 12 Conant serves the island approximately hourly, with separate weekday and Sunday spans. Confirm the current schedule and attraction stop.",
+          "answer": "DDOT Route 12 Conant serves the island approximately hourly and stops at the Aquarium/Conservatory complex. Confirm the current weekday or Sunday schedule and the final walk to other attractions.",
           "sourceLabel": "Michigan Department of Natural Resources",
           "source": "https://www.michigan.gov/recsearch/parks/BelleIsle",
-          "verifiedAt": "2026-08-06",
+          "verifiedAt": "2026-08-10",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "need-to-know",
           "question": "What should I know before visiting Belle Isle Park?",
-          "answer": "Scott Fountain plaza, adjacent sidewalk and Fountain Drive are closed through 2026, reopening planned for spring 2027. Aquarium renovations continue while it remains open; Central Avenue through Flatwoods closes Dec. 1-Mar. 31.",
+          "answer": "The Scott Fountain plaza, adjacent sidewalk and Fountain Drive are closed through 2026, with reopening planned for spring 2027. The Aquarium remains open during renovation, and capacity controls can temporarily stop vehicle entry on busy summer afternoons.",
           "sourceLabel": "Michigan Department of Natural Resources",
           "source": "https://www.michigan.gov/recsearch/parks/BelleIsle",
-          "verifiedAt": "2026-08-06",
+          "verifiedAt": "2026-08-10",
           "freshnessClass": "fast",
           "status": "verified"
         },
         {
           "intentKey": "weather",
           "question": "What weather should I check before visiting Belle Isle Park?",
-          "answer": "Check Detroit weather, air quality, river levels and operator alerts. Steep trails, pools, spray parks, fountains, docks and events can close independently.",
+          "answer": "Check Detroit weather, air quality, river conditions and operator alerts. Heat, snow, ice, storms, high water and seasonal operations can close paths or facilities independently.",
           "sourceLabel": "Michigan Department of Natural Resources",
-          "source": "https://www.michigan.gov/recsearch/parks/BelleIsle",
-          "verifiedAt": "2026-08-06",
+          "source": "https://www.michigan.gov/dnr/education/safety-info/beach-safety",
+          "verifiedAt": "2026-08-10",
           "freshnessClass": "fast",
           "status": "verified"
         }
@@ -14938,7 +14895,7 @@
         "source": "https://commons.wikimedia.org/wiki/File%3ABelle_Isle_casino_and_fountain_-_Detroit_Michigan.jpg",
         "author": "Mike Russell , Mikerussell at en.wikipedia",
         "license": "CC BY-SA 3.0",
-        "alt": "Belle Isle Park in Detroit",
+        "alt": "James Scott Memorial Fountain and the Belle Isle Casino across the lagoon",
         "width": 1600,
         "height": 837
       },
@@ -14948,7 +14905,7 @@
           "source": "https://commons.wikimedia.org/wiki/File%3ABelle_Isle_in_the_Spring.jpg",
           "author": "TracieMichelle",
           "license": "CC BY-SA 4.0",
-          "alt": "Belle Isle Park in Detroit",
+          "alt": "Spring flowers and a bench on Belle Isle with the Detroit skyline across the river",
           "width": 1600,
           "height": 1000
         },
@@ -14957,7 +14914,7 @@
           "source": "https://commons.wikimedia.org/wiki/File%3AMorning_on_Belle_Isle.jpg",
           "author": "TracieMichelle",
           "license": "CC BY-SA 4.0",
-          "alt": "Belle Isle Park in Detroit",
+          "alt": "A walker beside Belle Isle's lagoon with Detroit visible through winter trees",
           "width": 1600,
           "height": 1000
         },
@@ -14966,13 +14923,40 @@
           "source": "https://commons.wikimedia.org/wiki/File%3ADetroit_June_2024_07_(MacArthur_Bridge_and_Belle_Isle).jpg",
           "author": "Michael Barera",
           "license": "CC BY-SA 4.0",
-          "alt": "Belle Isle Park in Detroit",
+          "alt": "MacArthur Bridge crossing the Detroit River to Belle Isle at dusk",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/detroit-super/belle-isle-park/05-belle-isle-aquarium-exterior-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3ABelle_Isle_Aquarium_exterior.jpg",
+          "author": "Rmhermen at English Wikipedia",
+          "license": "CC BY-SA 3.0",
+          "alt": "The arched entrance facade of Belle Isle Aquarium",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/detroit-super/belle-isle-park/06-detroit-anna-scripps-whitcomb-conservatory-01-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3ADetroit_-_Anna_Scripps_Whitcomb_Conservatory_01.jpg",
+          "author": "P. Hughes",
+          "license": "CC BY-SA 4.0",
+          "alt": "Palm and tropical plant collection beneath the conservatory glass roof",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/detroit-super/belle-isle-park/07-dossin-great-lakes-museum-belle-isle-michigan-2025-07-27-01-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3ADossin_Great_Lakes_Museum%2C_Belle_Isle%2C_Michigan%2C_2025-07-27_01.jpg",
+          "author": "Chris Woodrich",
+          "license": "CC BY-SA 4.0",
+          "alt": "The entrance facade of Dossin Great Lakes Museum on Belle Isle",
           "width": 1600,
           "height": 1000
         }
       ],
       "replaceImages": true,
-      "verifiedAt": "2026-08-06"
+      "verifiedAt": "2026-08-10"
     },
     "launch-mi-detroit-campus-martius-park": {
       "name": "Campus Martius Park",
@@ -64914,9 +64898,9 @@
       "citySlug": "detroit-mi",
       "operator": "Detroit Riverfront Conservancy",
       "sourceLabel": "Detroit Riverfront Conservancy",
-      "source": "https://www.detroitriverfront.org/map",
+      "source": "https://www.detroitriverfront.org/plan-your-visit/visitor-info/visitor-info",
       "address": "1340 Atwater Street, Detroit, MI 48207",
-      "summary": "Nearly five miles of public Detroit River promenade linking parks, plazas, play areas, state-park land, public art, fishing, dining and neighborhood greenways.",
+      "summary": "A continuous public riverfront route of about 4.75 miles, linking Ralph Wilson Park west of downtown with plazas, play parks, state-park land, the east RiverWalk and Gabriel Richard Park near Belle Isle.",
       "hours": "The RiverWalk, Conservancy parks and greenways are open daily 6:00 a.m.-10:00 p.m. Extended event hours and temporary closures may apply.",
       "hoursSchedule": {
         "sunday": [
@@ -64962,117 +64946,117 @@
           ]
         ]
       },
-      "cost": "Walking, cycling, parks and most play spaces are free. Parking, carousel, food, rentals, events and neighboring attractions may cost separately.",
-      "accessibility": "The main promenade is paved and generally accessible, with ramps and seating, but construction, bridge approaches and temporary closures can interrupt a route.",
-      "transit": "People Mover, QLINE, DDOT buses, MoGo and downtown walking reach different segments; select transit around the intended park rather than the full corridor.",
+      "cost": "Walking, cycling, parks and most play spaces are free. Parking outside Conservancy lots, carousel rides, food, rentals, events and neighboring attractions may cost separately.",
+      "accessibility": "The main promenade is paved with ramps and seating, but bridge approaches, distance, construction and temporary closures can interrupt a continuous route. Plan around a named segment rather than assuming the entire corridor is equivalent.",
+      "transit": "People Mover, QLINE, DDOT buses, MoGo and downtown walking reach different segments; select transit around the intended park and return route rather than the corridor's midpoint.",
       "searchAnswers": [
         {
           "intentKey": "hours",
           "question": "When is Detroit RiverWalk open?",
           "answer": "The RiverWalk, Conservancy parks and greenways are open daily 6:00 a.m.-10:00 p.m. Extended event hours and temporary closures may apply.",
           "sourceLabel": "Detroit Riverfront Conservancy",
-          "source": "https://www.detroitriverfront.org/map",
-          "verifiedAt": "2026-08-06",
+          "source": "https://www.detroitriverfront.org/plan-your-visit/visitor-info/visitor-info",
+          "verifiedAt": "2026-08-10",
           "freshnessClass": "fast",
           "status": "verified"
         },
         {
           "intentKey": "parking",
           "question": "Where should I park for Detroit RiverWalk?",
-          "answer": "Use the Conservancy map to select parking near the intended segment. Downtown meters and garages are paid; eastern parks and mobility hubs have separate lots.",
+          "answer": "Select the intended segment on the Conservancy map before driving. Conservancy parks have associated free first-come lots, while greenway approaches, downtown meters, garages and neighboring attractions use different parking arrangements.",
           "sourceLabel": "Detroit Riverfront Conservancy",
-          "source": "https://www.detroitriverfront.org/map",
-          "verifiedAt": "2026-08-06",
+          "source": "https://www.detroitriverfront.org/plan-your-visit/visitor-info/visitor-info",
+          "verifiedAt": "2026-08-10",
           "freshnessClass": "fast",
           "status": "verified"
         },
         {
           "intentKey": "entrance",
           "question": "What is the best entrance for Detroit RiverWalk?",
-          "answer": "Do not navigate to one generic RiverWalk pin. Pick Cullen Plaza, Milliken State Park, Valade Park, Mt. Elliott, GM Plaza or another named segment first.",
+          "answer": "Do not navigate to one generic RiverWalk pin. Pick Ralph Wilson Park, Cullen Plaza, Milliken State Park, Valade Park, Mt. Elliott, Gabriel Richard Park or another named segment and plan the return distance.",
           "sourceLabel": "Detroit Riverfront Conservancy",
-          "source": "https://www.detroitriverfront.org/map",
-          "verifiedAt": "2026-08-06",
+          "source": "https://www.detroitriverfront.org/plan-your-visit/parks-greenways",
+          "verifiedAt": "2026-08-10",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "restroom",
           "question": "Are there restrooms at Detroit RiverWalk?",
-          "answer": "Restrooms are available at selected parks and facilities, not continuously along the path. Confirm the nearest open facility on the Conservancy map.",
+          "answer": "Restrooms are available at selected parks and facilities, not continuously along the path. Confirm the nearest open facility on the Conservancy map before starting a long one-way walk or ride.",
           "sourceLabel": "Detroit Riverfront Conservancy",
           "source": "https://www.detroitriverfront.org/map",
-          "verifiedAt": "2026-08-06",
+          "verifiedAt": "2026-08-10",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "fees",
           "question": "Is Detroit RiverWalk free?",
-          "answer": "Walking, cycling, parks and most play spaces are free. Parking, carousel, food, rentals, events and neighboring attractions may cost separately.",
+          "answer": "Walking, cycling, parks and most play spaces are free. Parking outside Conservancy lots, carousel rides, food, rentals, events and neighboring attractions may cost separately.",
           "sourceLabel": "Detroit Riverfront Conservancy",
-          "source": "https://www.detroitriverfront.org/map",
-          "verifiedAt": "2026-08-06",
+          "source": "https://www.detroitriverfront.org/plan-your-visit/visitor-info/rules-guidelines",
+          "verifiedAt": "2026-08-10",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "accessibility",
           "question": "How accessible is Detroit RiverWalk?",
-          "answer": "The main promenade is paved and generally accessible, with ramps and seating, but construction, bridge approaches and temporary closures can interrupt a route.",
+          "answer": "The main promenade is paved with ramps and seating, but bridge approaches, distance, construction and temporary closures can interrupt a continuous route. Plan around a named segment rather than assuming the entire corridor is equivalent.",
           "sourceLabel": "Detroit Riverfront Conservancy",
-          "source": "https://www.detroitriverfront.org/map",
-          "verifiedAt": "2026-08-06",
+          "source": "https://www.detroitriverfront.org/plan-your-visit/visitor-info/visitor-info",
+          "verifiedAt": "2026-08-10",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "dogs",
           "question": "Are dogs allowed at Detroit RiverWalk?",
-          "answer": "Leashed dogs are welcome under posted rules. Keep pets out of play and water features and yield on shared paths.",
+          "answer": "Leashed dogs are welcome under Conservancy rules. Keep pets under control, clean up waste and keep them out of play and water features.",
           "sourceLabel": "Detroit Riverfront Conservancy",
-          "source": "https://www.detroitriverfront.org/map",
-          "verifiedAt": "2026-08-06",
+          "source": "https://www.detroitriverfront.org/plan-your-visit/visitor-info/rules-guidelines",
+          "verifiedAt": "2026-08-10",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "family",
           "question": "Is Detroit RiverWalk good for children?",
-          "answer": "Valade's playground and beach, Mt. Elliott splash pad, Cullen carousel and newer western play areas create strong family stops.",
+          "answer": "Valade's playground and beach, Mt. Elliott splash pad, Cullen carousel and Ralph Wilson Park create strong family stops, but each has separate seasonal operations and the full corridor is too long for many children.",
           "sourceLabel": "Detroit Riverfront Conservancy",
-          "source": "https://www.detroitriverfront.org/map",
-          "verifiedAt": "2026-08-06",
+          "source": "https://www.detroitriverfront.org/plan-your-visit/parks-greenways",
+          "verifiedAt": "2026-08-10",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "transit",
           "question": "How do I reach Detroit RiverWalk without a car?",
-          "answer": "People Mover, QLINE, DDOT buses, MoGo and downtown walking reach different segments; select transit around the intended park rather than the full corridor.",
+          "answer": "People Mover, QLINE, DDOT buses, MoGo and downtown walking reach different segments; select transit around the intended park and return route rather than the corridor's midpoint.",
           "sourceLabel": "Detroit Riverfront Conservancy",
           "source": "https://www.detroitriverfront.org/map",
-          "verifiedAt": "2026-08-06",
+          "verifiedAt": "2026-08-10",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "need-to-know",
           "question": "What should I know before visiting Detroit RiverWalk?",
-          "answer": "Children under 18 must be accompanied by a parent or legal guardian age 21 or older after 6:00 p.m. Food, drink and water features are seasonal, and major events can close individual segments.",
+          "answer": "After 6:00 p.m., visitors under 18 must be accompanied by a parent or legal guardian age 21 or older. Food, drink and water features are seasonal, swimming is prohibited, and major events can close individual segments.",
           "sourceLabel": "Detroit Riverfront Conservancy",
-          "source": "https://www.detroitriverfront.org/map",
-          "verifiedAt": "2026-08-06",
+          "source": "https://www.detroitriverfront.org/plan-your-visit/visitor-info/rules-guidelines",
+          "verifiedAt": "2026-08-10",
           "freshnessClass": "fast",
           "status": "verified"
         },
         {
           "intentKey": "weather",
           "question": "What weather should I check before visiting Detroit RiverWalk?",
-          "answer": "Check Detroit weather, air quality, river levels and operator alerts. Steep trails, pools, spray parks, fountains, docks and events can close independently.",
+          "answer": "Check Detroit weather, air quality, river conditions and operator alerts. Heat, snow, ice, storms, high water and seasonal operations can close paths or facilities independently.",
           "sourceLabel": "Detroit Riverfront Conservancy",
-          "source": "https://www.detroitriverfront.org/map",
-          "verifiedAt": "2026-08-06",
+          "source": "https://www.detroitriverfront.org/plan-your-visit/visitor-info/visitor-info",
+          "verifiedAt": "2026-08-10",
           "freshnessClass": "fast",
           "status": "verified"
         }
@@ -65082,7 +65066,7 @@
         "source": "https://commons.wikimedia.org/wiki/File%3ADetroit_Skyline_from_Riverwalk_May_2024.jpg",
         "author": "TheWxResearcher",
         "license": "CC0",
-        "alt": "Detroit RiverWalk in Detroit",
+        "alt": "The Detroit skyline and riverfront paths viewed from the RiverWalk",
         "width": 1600,
         "height": 1000
       },
@@ -65092,7 +65076,7 @@
           "source": "https://commons.wikimedia.org/wiki/File%3ADetroit_Riverwalk_October_2018.jpg",
           "author": "Fredlyfish4",
           "license": "CC BY-SA 4.0",
-          "alt": "Detroit RiverWalk in Detroit",
+          "alt": "The paved Detroit RiverWalk beside the river on an autumn afternoon",
           "width": 1600,
           "height": 1000
         },
@@ -65101,22 +65085,13 @@
           "source": "https://commons.wikimedia.org/wiki/File%3ADetroit_River_Walk.JPG",
           "author": "Fishtoes2000",
           "license": "CC BY 3.0",
-          "alt": "Detroit RiverWalk in Detroit",
-          "width": 1600,
-          "height": 1000
-        },
-        {
-          "url": "/assets/parks/detroit-super/detroit-riverwalk/04-windsor-ontario-from-detroit-riverwalk-detroit-michigan-14180774806-jpg.webp",
-          "source": "https://commons.wikimedia.org/wiki/File%3AWindsor%2C_Ontario_from_Detroit_Riverwalk%2C_Detroit%2C_Michigan_(14180774806).jpg",
-          "author": "Ken Lund from Reno, Nevada, USA",
-          "license": "CC BY-SA 2.0",
-          "alt": "Detroit RiverWalk in Detroit",
+          "alt": "Cyclists using the paved Detroit RiverWalk with the Ambassador Bridge ahead",
           "width": 1600,
           "height": 1000
         }
       ],
       "replaceImages": true,
-      "verifiedAt": "2026-08-06"
+      "verifiedAt": "2026-08-10"
     },
     "launch-mi-detroit-ralph-c-wilson-jr-centennial-park": {
       "name": "Ralph C. Wilson Jr. Centennial Park",
@@ -65126,8 +65101,8 @@
       "sourceLabel": "Detroit Riverfront Conservancy",
       "source": "https://www.detroitriverfront.org/plan-your-visit/parks-greenways/ralph-c-wilson-jr-centennial-park",
       "address": "1801 West Jefferson Avenue, Detroit, MI 48216",
-      "summary": "Detroit's new 22-acre west riverfront park with an expansive play garden, seasonal water play, sport house, courts, lawns, gardens, overlooks and RiverWalk connections.",
-      "hours": "The park follows Detroit Riverfront Conservancy hours, daily 6:00 a.m.-10:00 p.m. Seasonal Water Wonderland is listed 11:00 a.m.-7:00 p.m. when operating.",
+      "summary": "Detroit's 22-acre west riverfront park with an expansive play garden, seasonal water play, an open-air sport house, courts, lawns, water garden, overlooks and direct RiverWalk connections.",
+      "hours": "The park is open daily 6:00 a.m.-10:00 p.m. William Davidson Sport House closes at 8:00 p.m., Delta Dental Play Garden closes at 9:00 p.m., and seasonal Water Wonderland is listed 11:00 a.m.-7:00 p.m. when operating.",
       "hoursSchedule": {
         "sunday": [
           [
@@ -65172,129 +65147,129 @@
           ]
         ]
       },
-      "cost": "Park entry, play garden, water garden, lawns, courts and ordinary programming are free. Parking, food and special programs may cost separately.",
-      "accessibility": "New paved routes connect major features, with inclusive play, seating and multiple grades designed into the landscape.",
-      "transit": "Use the Southwest Greenway from Bagley Mobility Hub, or People Mover to Water Square followed by roughly a half-mile RiverWalk approach.",
+      "cost": "Park entry, play garden, water garden, Sport House courts, lawns and ordinary Conservancy programming are free. Parking, food and selected programs may cost separately; private rentals are not offered.",
+      "accessibility": "New paved routes connect major features, with inclusive play and seating distributed through the site. The Water Garden includes winding paths, a dock and bridge; visitors should use the exact route and avoid assuming every landscape surface is equivalent.",
+      "transit": "DDOT routes 1, 27 and 29 serve the area. Southwest Greenway connects from Bagley Mobility Hub, and the Water Square People Mover station is about a half-mile east along the RiverWalk.",
       "searchAnswers": [
         {
           "intentKey": "hours",
           "question": "When is Ralph C. Wilson Jr. Centennial Park open?",
-          "answer": "The park follows Detroit Riverfront Conservancy hours, daily 6:00 a.m.-10:00 p.m. Seasonal Water Wonderland is listed 11:00 a.m.-7:00 p.m. when operating.",
+          "answer": "The park is open daily 6:00 a.m.-10:00 p.m. William Davidson Sport House closes at 8:00 p.m., Delta Dental Play Garden closes at 9:00 p.m., and seasonal Water Wonderland is listed 11:00 a.m.-7:00 p.m. when operating.",
           "sourceLabel": "Detroit Riverfront Conservancy",
           "source": "https://www.detroitriverfront.org/plan-your-visit/parks-greenways/ralph-c-wilson-jr-centennial-park",
-          "verifiedAt": "2026-08-06",
+          "verifiedAt": "2026-08-10",
           "freshnessClass": "fast",
           "status": "verified"
         },
         {
           "intentKey": "parking",
           "question": "Where should I park for Ralph C. Wilson Jr. Centennial Park?",
-          "answer": "Paid parking and restrooms are available at the Bagley Mobility Hub, 1501 Wabash Street, connected by Southwest Greenway. Limited nearby event arrangements vary.",
+          "answer": "About 150 free on-street spaces line West Jefferson and Rosa Parks. Paid parking and restrooms are available at Bagley Mobility Hub, 1501 Wabash Street, via Southwest Greenway; Assembly Garage is another paid option. Follow signs and expect event changes.",
           "sourceLabel": "Detroit Riverfront Conservancy",
           "source": "https://www.detroitriverfront.org/plan-your-visit/parks-greenways/ralph-c-wilson-jr-centennial-park",
-          "verifiedAt": "2026-08-06",
+          "verifiedAt": "2026-08-10",
           "freshnessClass": "fast",
           "status": "verified"
         },
         {
           "intentKey": "entrance",
           "question": "What is the best entrance for Ralph C. Wilson Jr. Centennial Park?",
-          "answer": "The Bagley Mobility Hub and Southwest Greenway provide the clearest parking approach. From downtown, walk west along the RiverWalk from the Water Square People Mover area.",
+          "answer": "The park spans West Jefferson between Eighth Street and Rosa Parks Boulevard. Walkers can arrive from downtown along the RiverWalk; Southwest Greenway connects from Bagley Mobility Hub, and each internal destination requires additional walking.",
           "sourceLabel": "Detroit Riverfront Conservancy",
           "source": "https://www.detroitriverfront.org/plan-your-visit/parks-greenways/ralph-c-wilson-jr-centennial-park",
-          "verifiedAt": "2026-08-06",
+          "verifiedAt": "2026-08-10",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "restroom",
           "question": "Are there restrooms at Ralph C. Wilson Jr. Centennial Park?",
-          "answer": "The park has restrooms, with additional facilities at the Bagley Mobility Hub. Confirm same-day hours during events or winter conditions.",
+          "answer": "The park lists public restrooms, with additional facilities at Bagley Mobility Hub. Confirm same-day availability during events, maintenance or winter weather.",
           "sourceLabel": "Detroit Riverfront Conservancy",
           "source": "https://www.detroitriverfront.org/plan-your-visit/parks-greenways/ralph-c-wilson-jr-centennial-park",
-          "verifiedAt": "2026-08-06",
+          "verifiedAt": "2026-08-10",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "fees",
           "question": "Is Ralph C. Wilson Jr. Centennial Park free?",
-          "answer": "Park entry, play garden, water garden, lawns, courts and ordinary programming are free. Parking, food and special programs may cost separately.",
+          "answer": "Park entry, play garden, water garden, Sport House courts, lawns and ordinary Conservancy programming are free. Parking, food and selected programs may cost separately; private rentals are not offered.",
           "sourceLabel": "Detroit Riverfront Conservancy",
-          "source": "https://www.detroitriverfront.org/plan-your-visit/parks-greenways/ralph-c-wilson-jr-centennial-park",
-          "verifiedAt": "2026-08-06",
+          "source": "https://www.detroitriverfront.org/plan-your-visit/visitor-info/rules-guidelines",
+          "verifiedAt": "2026-08-10",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "accessibility",
           "question": "How accessible is Ralph C. Wilson Jr. Centennial Park?",
-          "answer": "New paved routes connect major features, with inclusive play, seating and multiple grades designed into the landscape.",
+          "answer": "New paved routes connect major features, with inclusive play and seating distributed through the site. The Water Garden includes winding paths, a dock and bridge; visitors should use the exact route and avoid assuming every landscape surface is equivalent.",
           "sourceLabel": "Detroit Riverfront Conservancy",
           "source": "https://www.detroitriverfront.org/plan-your-visit/parks-greenways/ralph-c-wilson-jr-centennial-park",
-          "verifiedAt": "2026-08-06",
+          "verifiedAt": "2026-08-10",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "dogs",
           "question": "Are dogs allowed at Ralph C. Wilson Jr. Centennial Park?",
-          "answer": "Leashed dogs are welcome on ordinary paths, but keep them out of play gardens, water play and sport surfaces.",
+          "answer": "Dogs and cats are allowed when leashed and under control. Keep pets out of active play, water-play and sport surfaces and away from the Water Garden shoreline.",
           "sourceLabel": "Detroit Riverfront Conservancy",
           "source": "https://www.detroitriverfront.org/plan-your-visit/parks-greenways/ralph-c-wilson-jr-centennial-park",
-          "verifiedAt": "2026-08-06",
+          "verifiedAt": "2026-08-10",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "family",
           "question": "Is Ralph C. Wilson Jr. Centennial Park good for children?",
-          "answer": "Delta Dental Play Garden and seasonal Water Wonderland make this one of Detroit's strongest free family destinations.",
+          "answer": "Delta Dental Play Garden, seasonal Water Wonderland and the open-air Sport House make this a strong free family destination, but each feature closes earlier than the surrounding park or operates seasonally.",
           "sourceLabel": "Detroit Riverfront Conservancy",
-          "source": "https://www.detroitriverfront.org/plan-your-visit/parks-greenways/ralph-c-wilson-jr-centennial-park",
-          "verifiedAt": "2026-08-06",
+          "source": "https://www.detroitriverfront.org/files/assets/2026programbrochure.pdf",
+          "verifiedAt": "2026-08-10",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "transit",
           "question": "How do I reach Ralph C. Wilson Jr. Centennial Park without a car?",
-          "answer": "Use the Southwest Greenway from Bagley Mobility Hub, or People Mover to Water Square followed by roughly a half-mile RiverWalk approach.",
+          "answer": "DDOT routes 1, 27 and 29 serve the area. Southwest Greenway connects from Bagley Mobility Hub, and the Water Square People Mover station is about a half-mile east along the RiverWalk.",
           "sourceLabel": "Detroit Riverfront Conservancy",
           "source": "https://www.detroitriverfront.org/plan-your-visit/parks-greenways/ralph-c-wilson-jr-centennial-park",
-          "verifiedAt": "2026-08-06",
+          "verifiedAt": "2026-08-10",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "need-to-know",
           "question": "What should I know before visiting Ralph C. Wilson Jr. Centennial Park?",
-          "answer": "This is a newly opened destination and operations are still seasonal. Verify water-play hours, weather closures, parking and event notices before a feature-specific trip.",
+          "answer": "This park opened in October 2025, so feature schedules and programming remain fast-changing. Verify Water Wonderland operation, Sport House hours, weather, parking and the event calendar before a feature-specific trip; fishing is prohibited in the Water Garden.",
           "sourceLabel": "Detroit Riverfront Conservancy",
           "source": "https://www.detroitriverfront.org/plan-your-visit/parks-greenways/ralph-c-wilson-jr-centennial-park",
-          "verifiedAt": "2026-08-06",
+          "verifiedAt": "2026-08-10",
           "freshnessClass": "fast",
           "status": "verified"
         },
         {
           "intentKey": "weather",
           "question": "What weather should I check before visiting Ralph C. Wilson Jr. Centennial Park?",
-          "answer": "Check Detroit weather, air quality, river levels and operator alerts. Steep trails, pools, spray parks, fountains, docks and events can close independently.",
+          "answer": "Check Detroit weather, air quality, river conditions and operator alerts. Heat, snow, ice, storms, high water and seasonal operations can close paths or facilities independently.",
           "sourceLabel": "Detroit Riverfront Conservancy",
-          "source": "https://www.detroitriverfront.org/plan-your-visit/parks-greenways/ralph-c-wilson-jr-centennial-park",
-          "verifiedAt": "2026-08-06",
+          "source": "https://www.detroitriverfront.org/plan-your-visit/visitor-info/visitor-info",
+          "verifiedAt": "2026-08-10",
           "freshnessClass": "fast",
           "status": "verified"
         }
       ],
       "image": {
-        "url": "/assets/parks/detroit-super/ralph-c-wilson-jr-centennial-park/01-ralph-wilson-park-aerial-at-sunset.webp",
-        "source": "https://www.detroitriverfront.org/plan-your-visit/parks-greenways/ralph-c-wilson-jr-centennial-park",
-        "author": "Detroit Riverfront Conservancy",
-        "license": "Official source image",
-        "alt": "Ralph C. Wilson Jr. Centennial Park in Detroit",
-        "width": 710,
-        "height": 466
+        "url": "/assets/parks/detroit-super/ralph-c-wilson-jr-centennial-park/01-detroit-november-2025-3-ralph-c-wilson-jr-centennial-park-jpg.webp",
+        "source": "https://commons.wikimedia.org/wiki/File%3ADetroit_November_2025_3_(Ralph_C._Wilson%2C_Jr._Centennial_Park).jpg",
+        "author": "Michael Barera",
+        "license": "CC BY-SA 4.0",
+        "alt": "Landscaped paths and lawns at Ralph C. Wilson Jr. Centennial Park",
+        "width": 1600,
+        "height": 1000
       },
       "additionalImages": [
         {
@@ -65302,7 +65277,7 @@
           "source": "https://commons.wikimedia.org/wiki/File%3ADetroit_November_2025_2_(Ralph_C._Wilson%2C_Jr._Centennial_Park).jpg",
           "author": "Michael Barera",
           "license": "CC BY-SA 4.0",
-          "alt": "Ralph C. Wilson Jr. Centennial Park in Detroit",
+          "alt": "A snowy paved path beside the Detroit River at Ralph C. Wilson Jr. Centennial Park",
           "width": 1600,
           "height": 1000
         },
@@ -65311,7 +65286,7 @@
           "source": "https://commons.wikimedia.org/wiki/File%3ADetroit_December_2025_12_(Ralph_C._Wilson%2C_Jr._Centennial_Park--William_Davidson_Sport_House).jpg",
           "author": "Michael Barera",
           "license": "CC BY-SA 4.0",
-          "alt": "Ralph C. Wilson Jr. Centennial Park in Detroit",
+          "alt": "Basketball courts beneath the open-air William Davidson Sport House",
           "width": 1600,
           "height": 1000
         },
@@ -65320,13 +65295,13 @@
           "source": "https://commons.wikimedia.org/wiki/File%3ADetroit_December_2025_15_(Ralph_C._Wilson%2C_Jr._Centennial_Park).jpg",
           "author": "Michael Barera",
           "license": "CC BY-SA 4.0",
-          "alt": "Ralph C. Wilson Jr. Centennial Park in Detroit",
+          "alt": "The winding Huron-Clinton Metroparks Water Garden beside the Detroit River",
           "width": 1600,
           "height": 1000
         }
       ],
       "replaceImages": true,
-      "verifiedAt": "2026-08-06"
+      "verifiedAt": "2026-08-10"
     },
     "launch-mi-detroit-dequindre-cut": {
       "name": "Dequindre Cut",
