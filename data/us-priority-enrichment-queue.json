@@ -198,11 +198,11 @@
     }
   ],
   "activeCluster": {
-    "name": "Detroit evidence-gate rebuild",
-    "reason": "The preview-verified Cleveland corridor now extends west through Detroit, where official state, city, museum, riverfront, transit and park-partner sources combine with reusable Commons photography. Three releases replace quantity-first destination cards that recycled broad images, used approximate positions, or lacked current destination-specific guidance.",
+    "name": "Columbus evidence-gate rebuild",
+    "reason": "The preview-verified Cleveland and Detroit corridor now extends to Columbus, where current city, conservatory, GIS, OpenStreetMap and Wikimedia Commons evidence supports a first downtown-core release. The release replaces quantity-first destination cards that recycled broad images, used approximate positions, or lacked current destination-specific guidance.",
     "releaseStandard": "Retain official parent answers, require three to four current representative reusable photographs per released parent, and publish only named subsites with exact reviewed coordinates, destination-specific photography, and current operator guidance.",
-    "status": "detroit-cluster-preview-verified",
-    "metros": ["Detroit"],
+    "status": "columbus-first-batch-preview-verified",
+    "metros": ["Columbus"],
     "resumeCheckpoint": {
       "pausedAt": "2026-08-11",
       "completed": [
@@ -311,9 +311,14 @@
         "Rebuilt Rouge Park as a current parent-only launch guide with four licensed photographs, official access, parking, transit, restroom, accessibility, pet, family, construction and master-plan context.",
         "Rebuilt Palmer Park around four licensed photographs and exact destination pages for Lake Frances and Palmer Park Log Cabin, including current seasonal access, arrival, parking, accessibility, pet, family, historical-image and event-only interior guidance.",
         "Retired fourteen Rouge and Palmer routes that lacked complete exact profiles or destination-specific reusable photography, added permanent redirects, and preserved supported facility guidance on the parent pages.",
-        "Preview-verified all four retained Rouge and Palmer routes, all fourteen permanent redirects, and optimized representative imagery for both parents and both retained destinations; confirmed every changed page at 1440 and 390 pixels without horizontal overflow."
+        "Preview-verified all four retained Rouge and Palmer routes, all fourteen permanent redirects, and optimized representative imagery for both parents and both retained destinations; confirmed every changed page at 1440 and 390 pixels without horizontal overflow.",
+        "Rebuilt Scioto Mile, Franklin Park, and Goodale Park around twelve licensed parent-gallery photographs and five evidence-cleared destinations: Scioto Mile Promenade, Franklin Park Conservatory, Franklin Park Cascades, Goodale Park Pond, and Goodale Park Shelterhouse.",
+        "Added eleven source-backed parent answers and nine destination-specific answers per retained page, with current City of Columbus, Franklin Park Conservatory, official ArcGIS, OpenStreetMap, and Wikimedia Commons evidence.",
+        "Recorded exact reviewed destination coordinates and provenance, replaced a neighborhood-house image with an exact Franklin Park Conservatory aerial, and retained the official June 23, 2026 Franklin Park Cascades closure warning.",
+        "Retired nineteen unsupported Columbus destination routes, added permanent parent redirects, and preserved supported visitor context on the three parent guides.",
+        "Preview-verified all eight retained Columbus routes, all nineteen permanent redirects, all twelve optimized parent-gallery images, six representative image subjects, and every changed route at 390 pixels without horizontal overflow."
       ],
-      "nextAction": "The Detroit cluster is complete through Rouge Park and Palmer Park. Select the next high-impact connected metro cluster with strong official sources and reusable destination photography; do not repeat Cleveland or Detroit unless review identifies a specific defect.",
+      "nextAction": "The first Columbus batch is complete through Scioto Mile, Franklin Park, and Goodale Park. Continue Columbus with a fresh evidence gate, prioritizing a coherent Schiller Park and Whetstone Park / Park of Roses batch or an evidence-strong Columbus and Franklin County Metro Parks batch; do not revive legacy destination placeholders without current official guidance, exact reviewed coordinates, and matching reusable photography.",
       "notReleased": true,
       "productionPublished": false
     }

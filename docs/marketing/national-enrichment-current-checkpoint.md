@@ -4,22 +4,24 @@ Last updated: 2026-08-11
 
 ## Current State
 
-- Status: the Detroit cluster is locally verified and preview-verified through Rouge Park and Palmer Park.
-- Working branch: `codex/rouge-palmer-evidence-rebuild`
-- Pull request: https://github.com/Buildrbear/auditmap/pull/13
-- Stacked base pull request: https://github.com/Buildrbear/auditmap/pull/12
-- Detroit release commit: `8f1d244c7`
-- Preview: https://auditmap-git-codex-rouge-palmer-093953-derrys-projects-f5a18cb6.vercel.app
+- Status: the first Columbus evidence-gate batch is locally verified and preview-verified.
+- Working branch: `codex/columbus-core-evidence-rebuild`
+- Pull request: https://github.com/Buildrbear/auditmap/pull/14
+- Stacked base pull request: https://github.com/Buildrbear/auditmap/pull/13
+- Columbus implementation commit: `bfde56488`
+- Preview: https://auditmap-7s2r2hdz1-derrys-projects-f5a18cb6.vercel.app
 - Production status: not merged or promoted to production.
 - Canonical machine-readable checkpoint: `data/us-priority-enrichment-queue.json` under `activeCluster.resumeCheckpoint`.
 
-The Cleveland corridor remains complete through its three preview-verified batches. Detroit now has three preview-verified batches covering Belle Isle Park, Detroit RiverWalk, Ralph C. Wilson Jr. Centennial Park, Dequindre Cut, Campus Martius Park, Hart Plaza, Rouge Park, and Palmer Park. The final batch retains two exact destination pages: Lake Frances and Palmer Park Log Cabin. Rouge Park launches as a current parent-only guide until an individual destination clears both the exact-profile and reusable-photo gates.
+The Cleveland and Detroit corridors remain complete through their preview-verified batches. Columbus now has an initial downtown-core release covering Scioto Mile, Franklin Park, and Goodale Park. It retains five evidence-complete destinations: Scioto Mile Promenade, Franklin Park Conservatory, Franklin Park Cascades, Goodale Park Pond, and Goodale Park Shelterhouse. Nineteen legacy destination routes that lacked a complete exact profile or destination-specific reusable photography now redirect permanently to their parent guides.
 
 ## Resume Point
 
-Do not repeat the Cleveland or Detroit batches unless review finds a specific defect. The final Detroit preview is complete: all four retained parent and destination routes returned successfully, optimized representative images for both parents and both retained destinations rendered and were visually checked, all fourteen retired routes resolved with permanent redirects, and every changed page fit both 1440-pixel and 390-pixel layouts without horizontal overflow. Select the next high-impact connected metro cluster with strong official sources and reusable destination photography.
+Do not repeat the Cleveland, Detroit, or first Columbus batch unless review finds a specific defect. All eight retained Columbus parent and destination routes returned HTTP 200 on the protected preview, all nineteen retired routes returned permanent redirects to the correct parent, and all twelve parent-gallery images rendered through Vercel's image optimizer. Six representative optimized images were visually checked, and all eight routes fit a 390-pixel viewport without horizontal overflow; Scioto Mile also passed a 1280-pixel desktop check.
 
-Keep Freight Yard, Campbell Terrace, individual Dequindre ramps and amenities, the warm-season Campus Martius features, Gateway to Freedom, Rouge Park's eight retired destinations, and Palmer Park's six retired destinations in the review queue until exact reusable destination photography and current feature-specific guidance clear review. Treat Michigan Labor Legacy Monument as an alias for Transcending, not a second destination; Spirit of Detroit and Monument to Joe Louis are separate landmarks outside Hart Plaza. Brennan Pool remains closed for construction until 2027, Rouge master-plan concepts are not completed amenities, and the Palmer Park Log Cabin does not publish daily interior hours.
+Continue Columbus with a fresh evidence gate rather than reviving its legacy placeholder cards. Schiller Park and Whetstone Park / Park of Roses are reasonable next research candidates because they can form a coherent city-park batch, but they must still clear current official-source, exact-coordinate, and destination-photo requirements. A Columbus and Franklin County Metro Parks batch is also viable if its individual parks have enough reusable, destination-specific photography.
+
+Keep Bicentennial Park, Coleman Point, Genoa Park, Main Street Bridge, North Bank Park, Rich Street Bridge, Scioto Mile Fountain, Asian Garden, Broad Street Entrance, Espy Adaptive Sports Complex, Franklin Park Amphitheater, Wolfe Park Tennis Court, East Broad Street Entrance, Goodale Park basketball and tennis courts, fountain, gazebo, playground, and Short North Entrance in the review queue until each clears the exact-profile and reusable-photo gates. Recheck Franklin Park Cascades before publication or any later release: the official operator reported it closed beginning June 23, 2026, and the page must not imply access has resumed without a newer official notice.
 
 Continue requiring representative reusable photography, current official visitor guidance, exact destination coordinates, and destination-specific photographic evidence before publishing any parent or destination page. Defer weak subsites rather than publishing broad parent images or approximate pins.
 
