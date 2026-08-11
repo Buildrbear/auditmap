@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10",
+  "updatedAt": "2026-08-11",
   "strategy": "Complete geographically connected clusters before opening isolated metros.",
   "completedBaseline": {
     "verifiedAt": "2026-08-10",
@@ -187,16 +187,24 @@
       "evidenceCompleteSubsites": 8,
       "parentAnswersPreserved": 59,
       "status": "generated-and-verified"
+    },
+    {
+      "name": "Rouge Park and Palmer Park evidence-gate pass",
+      "parentGuides": 2,
+      "licensedPhotos": 8,
+      "evidenceCompleteSubsites": 2,
+      "parentAnswersPreserved": 22,
+      "status": "generated-verified-and-preview-deployed"
     }
   ],
   "activeCluster": {
-    "name": "Detroit riverfront evidence-gate rebuild",
-    "reason": "The preview-verified Cleveland corridor now extends west to Detroit, where official state, museum and riverfront sources combine with reusable Commons photography. The first release replaces quantity-first destination cards that recycled broad images or used approximate positions.",
+    "name": "Detroit evidence-gate rebuild",
+    "reason": "The preview-verified Cleveland corridor now extends west through Detroit, where official state, city, museum, riverfront, transit and park-partner sources combine with reusable Commons photography. Three releases replace quantity-first destination cards that recycled broad images, used approximate positions, or lacked current destination-specific guidance.",
     "releaseStandard": "Retain official parent answers, require three to four current representative reusable photographs per released parent, and publish only named subsites with exact reviewed coordinates, destination-specific photography, and current operator guidance.",
-    "status": "first-detroit-batch-preview-verified",
+    "status": "detroit-cluster-preview-verified",
     "metros": ["Detroit"],
     "resumeCheckpoint": {
-      "pausedAt": "2026-08-10",
+      "pausedAt": "2026-08-11",
       "completed": [
         "Fixed the parent-information merge so later image-only campaign records no longer erase richer official visitor facts.",
         "Restored 937 sourced answers across 66 parent parks in 35 metros, including 43 answers across Railroad Park, Red Mountain Park, and Ruffner Mountain.",
@@ -299,9 +307,13 @@
         "Rebuilt Dequindre Cut as a current parent-only launch guide with four licensed photographs, official ramp, parking, restroom, hours, Freight Yard, accessibility, pet, family, transit and below-grade corridor guidance.",
         "Rebuilt Campus Martius Park around four licensed photographs and one exact destination page for The Rink at Campus Martius, with the concluded 2025/2026 schedule and prices explicitly marked expired pending the next season.",
         "Rebuilt Hart Plaza around four licensed photographs and exact destination pages for Dodge Fountain and Transcending; collapsed the duplicate Michigan Labor Legacy Monument identity and removed the misplaced Spirit of Detroit and adjacent Monument to Joe Louis records.",
-        "Retired twenty-two approximate, duplicate, adjacent-space, misplaced or photo-mismatched Detroit routes, added permanent redirects, and preview-verified all six retained routes plus optimized representative imagery for all three parents."
+        "Retired twenty-two approximate, duplicate, adjacent-space, misplaced or photo-mismatched Detroit routes, added permanent redirects, and preview-verified all six retained routes plus optimized representative imagery for all three parents.",
+        "Rebuilt Rouge Park as a current parent-only launch guide with four licensed photographs, official access, parking, transit, restroom, accessibility, pet, family, construction and master-plan context.",
+        "Rebuilt Palmer Park around four licensed photographs and exact destination pages for Lake Frances and Palmer Park Log Cabin, including current seasonal access, arrival, parking, accessibility, pet, family, historical-image and event-only interior guidance.",
+        "Retired fourteen Rouge and Palmer routes that lacked complete exact profiles or destination-specific reusable photography, added permanent redirects, and preserved supported facility guidance on the parent pages.",
+        "Preview-verified all four retained Rouge and Palmer routes, all fourteen permanent redirects, and optimized representative imagery for both parents and both retained destinations; confirmed every changed page at 1440 and 390 pixels without horizontal overflow."
       ],
-      "nextAction": "Continue the connected Detroit review with Rouge Park and Palmer Park; do not repeat the preview-verified Cleveland or first two Detroit batches unless review identifies a specific defect.",
+      "nextAction": "The Detroit cluster is complete through Rouge Park and Palmer Park. Select the next high-impact connected metro cluster with strong official sources and reusable destination photography; do not repeat Cleveland or Detroit unless review identifies a specific defect.",
       "notReleased": true,
       "productionPublished": false
     }

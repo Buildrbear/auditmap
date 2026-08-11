@@ -4,22 +4,22 @@ Last updated: 2026-08-11
 
 ## Current State
 
-- Status: second Detroit downtown batch is locally verified and preview-verified.
-- Working branch: `codex/detroit-downtown-evidence-rebuild`
-- Pull request: https://github.com/Buildrbear/auditmap/pull/12
-- Stacked base pull request: https://github.com/Buildrbear/auditmap/pull/11
-- Detroit release commit: `6de6ab456`
-- Preview: https://auditmap-git-codex-detroit-down-241624-derrys-projects-f5a18cb6.vercel.app
+- Status: the Detroit cluster is locally verified and preview-verified through Rouge Park and Palmer Park.
+- Working branch: `codex/rouge-palmer-evidence-rebuild`
+- Pull request: https://github.com/Buildrbear/auditmap/pull/13
+- Stacked base pull request: https://github.com/Buildrbear/auditmap/pull/12
+- Detroit release commit: `8f1d244c7`
+- Preview: https://auditmap-git-codex-rouge-palmer-093953-derrys-projects-f5a18cb6.vercel.app
 - Production status: not merged or promoted to production.
 - Canonical machine-readable checkpoint: `data/us-priority-enrichment-queue.json` under `activeCluster.resumeCheckpoint`.
 
-The Cleveland corridor remains complete through its three preview-verified batches. Detroit now has two preview-verified batches covering Belle Isle Park, Detroit RiverWalk, Ralph C. Wilson Jr. Centennial Park, Dequindre Cut, Campus Martius Park, and Hart Plaza. The second batch retains three exact destination pages: The Rink at Campus Martius, Dodge Fountain, and Transcending. Dequindre Cut launches as a current parent-only guide until an individual destination clears both the exact-arrival and reusable-photo gates.
+The Cleveland corridor remains complete through its three preview-verified batches. Detroit now has three preview-verified batches covering Belle Isle Park, Detroit RiverWalk, Ralph C. Wilson Jr. Centennial Park, Dequindre Cut, Campus Martius Park, Hart Plaza, Rouge Park, and Palmer Park. The final batch retains two exact destination pages: Lake Frances and Palmer Park Log Cabin. Rouge Park launches as a current parent-only guide until an individual destination clears both the exact-profile and reusable-photo gates.
 
 ## Resume Point
 
-Do not repeat the Cleveland batches or the first two Detroit batches unless review finds a specific defect. The second Detroit preview is complete: all six parent and destination routes returned successfully, optimized representative images for all three parents rendered and were visually checked, representative retired routes resolved with permanent redirects, and every changed page fit both 1440-pixel and 390-pixel layouts without horizontal overflow. Continue the connected Detroit review with Rouge Park and Palmer Park.
+Do not repeat the Cleveland or Detroit batches unless review finds a specific defect. The final Detroit preview is complete: all four retained parent and destination routes returned successfully, optimized representative images for both parents and both retained destinations rendered and were visually checked, all fourteen retired routes resolved with permanent redirects, and every changed page fit both 1440-pixel and 390-pixel layouts without horizontal overflow. Select the next high-impact connected metro cluster with strong official sources and reusable destination photography.
 
-Keep Freight Yard, Campbell Terrace, individual Dequindre ramps and amenities, the warm-season Campus Martius features, and Gateway to Freedom in the review queue until exact reusable destination photography and current feature-specific guidance clear review. Treat Michigan Labor Legacy Monument as an alias for Transcending, not a second destination; Spirit of Detroit and Monument to Joe Louis are separate landmarks outside Hart Plaza.
+Keep Freight Yard, Campbell Terrace, individual Dequindre ramps and amenities, the warm-season Campus Martius features, Gateway to Freedom, Rouge Park's eight retired destinations, and Palmer Park's six retired destinations in the review queue until exact reusable destination photography and current feature-specific guidance clear review. Treat Michigan Labor Legacy Monument as an alias for Transcending, not a second destination; Spirit of Detroit and Monument to Joe Louis are separate landmarks outside Hart Plaza. Brennan Pool remains closed for construction until 2027, Rouge master-plan concepts are not completed amenities, and the Palmer Park Log Cabin does not publish daily interior hours.
 
 Continue requiring representative reusable photography, current official visitor guidance, exact destination coordinates, and destination-specific photographic evidence before publishing any parent or destination page. Defer weak subsites rather than publishing broad parent images or approximate pins.
 
