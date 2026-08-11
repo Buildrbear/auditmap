@@ -4,24 +4,24 @@ Last updated: 2026-08-11
 
 ## Current State
 
-- Status: the third Columbus evidence-gate batch is locally verified and preview-verified.
-- Working branch: `codex/columbus-highbanks-darby`
-- Pull request: https://github.com/Buildrbear/auditmap/pull/16
-- Stacked base pull request: https://github.com/Buildrbear/auditmap/pull/15
-- Columbus implementation commit: `cdff270c5`
-- Preview: https://auditmap-j7nqrct40-derrys-projects-f5a18cb6.vercel.app
+- Status: the fourth Columbus evidence-gate batch is locally verified and preview-verified.
+- Working branch: `codex/columbus-quarry-trails`
+- Pull request: https://github.com/Buildrbear/auditmap/pull/17
+- Stacked base pull request: https://github.com/Buildrbear/auditmap/pull/16
+- Columbus implementation commit: `5cf2405cf`
+- Preview: https://auditmap-git-codex-columbus-qua-2b80e0-derrys-projects-f5a18cb6.vercel.app
 - Production status: not merged or promoted to production.
 - Canonical machine-readable checkpoint: `data/us-priority-enrichment-queue.json` under `activeCluster.resumeCheckpoint`.
 
-The Cleveland and Detroit corridors remain complete through their preview-verified batches. Columbus now has three evidence-gated releases: the downtown core from PR #14, the Schiller/Whetstone neighborhood-gardens batch from PR #15, and this Metro Parks batch covering Highbanks and Battelle Darby Creek. The third batch retains Highbanks Observation Deck, Battelle Darby Creek Nature Center, and Bison Pastures as exact, photo-backed destinations. Thirteen legacy routes that lacked a complete exact profile or destination-specific reusable photography now redirect permanently to their parent guides.
+The Cleveland and Detroit corridors remain complete through their preview-verified batches. Columbus now has four evidence-gated releases: the downtown core from PR #14, Schiller/Whetstone from PR #15, Highbanks/Battelle Darby Creek from PR #16, and Quarry Trails from PR #17. The fourth batch rebuilds Quarry Trails Metro Park around four licensed Commons photographs and retains Millikin Falls as its one exact, destination-photo-backed page. Seven weaker legacy routes now redirect permanently to the parent guide.
 
 ## Resume Point
 
-Do not repeat the Cleveland, Detroit, or first three Columbus batches unless review finds a specific defect. In the third batch, all five retained routes returned HTTP 200 on the protected preview, all thirteen retired routes returned permanent redirects to the correct parent, and all eight parent-gallery images rendered through Vercel's image optimizer. Optimized images for Highbanks Observation Deck, Battelle Darby Creek Nature Center, and the bison pasture were visually checked. All five routes fit a 390-pixel viewport without horizontal overflow, and both parent pages passed at 1280 pixels.
+Do not repeat the Cleveland, Detroit, or four Columbus batches unless review finds a specific defect. For Quarry Trails, both retained routes returned HTTP 200 on the protected preview, all seven retired routes returned permanent redirects to the correct parent, and all four gallery images rendered through Vercel's image optimizer and were visually checked. The source-identical parent and Millikin Falls pages passed local 390-pixel checks without horizontal overflow, and the destination also passed at 1280 pixels.
 
-Continue with a fresh evidence gate rather than reviving legacy placeholder cards. Quarry Trails is the remaining Columbus campaign candidate, but its current research references official-site imagery without a documented reuse basis. Keep it deferred until four representative reusable photographs and at least one exact destination photo/coordinate pair clear review; if that evidence remains unavailable, move to the next evidence-strong metro rather than weakening the image standard.
+Continue with a fresh evidence gate in the next high-impact connected metro rather than reviving legacy placeholder cards. Quarry Trails cleared the parent-photo gate only after its four unlicensed official-site image claims were removed and replaced with documented CC BY-SA 4.0 and CC BY 2.0 Commons media. Keep its via ferrata, sport-climbing area, mountain-bike trail, dog park, Swan Lake, Observation Trail and Lake Area deferred until each has an exact reviewed coordinate, a matching reusable photograph and a complete current profile.
 
-Keep the thirteen retired Highbanks/Battelle concepts in review until each clears the exact-profile and reusable-photo gates. The Highbanks operator pages currently conflict on acreage (1,204 versus 1,160), so the guide intentionally avoids a precise acreage claim. Bison move between winter and summer pastures and may be out of view; never promise a sighting. Recheck Battelle hunting zones, posted conditions, and seasonal facility schedules before publication. Earlier Columbus review queues—including Huntington Gardens, Umbrella Girl Fountain, active improvement plans, and the Franklin Park Cascades closure—remain unresolved.
+Keep all retired Columbus concepts in review until each clears the exact-profile and reusable-photo gates. Quarry Trails remains under active construction and closes at dark; climbing, paddling, biking and other activity areas can change independently. The Highbanks acreage conflict, moving bison, Battelle hunting zones, Huntington Gardens, Umbrella Girl Fountain, active improvement plans and the Franklin Park Cascades closure remain unresolved review items.
 
 Continue requiring representative reusable photography, current official visitor guidance, exact destination coordinates, and destination-specific photographic evidence before publishing any parent or destination page. Defer weak subsites rather than publishing broad parent images or approximate pins.
 

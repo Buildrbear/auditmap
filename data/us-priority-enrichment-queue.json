@@ -199,9 +199,9 @@
   ],
   "activeCluster": {
     "name": "Columbus evidence-gate rebuild",
-    "reason": "The preview-verified Cleveland and Detroit corridor now extends through three Columbus releases. Current city, Metro Parks, GIS, OpenStreetMap, Wikidata, DPLA and Wikimedia Commons evidence supports downtown-core, neighborhood-garden and Highbanks/Battelle Darby Creek batches while weaker legacy destination cards remain deferred.",
+    "reason": "The preview-verified Cleveland and Detroit corridor now extends through four Columbus releases. Current city, Metro Parks, GIS, OpenStreetMap, Wikidata, DPLA and Wikimedia Commons evidence supports downtown-core, neighborhood-garden, Highbanks/Battelle Darby Creek and Quarry Trails batches while weaker legacy destination cards remain deferred.",
     "releaseStandard": "Retain official parent answers, require three to four current representative reusable photographs per released parent, and publish only named subsites with exact reviewed coordinates, destination-specific photography, and current operator guidance.",
-    "status": "columbus-third-batch-preview-verified",
+    "status": "columbus-fourth-batch-preview-verified",
     "metros": ["Columbus"],
     "resumeCheckpoint": {
       "pausedAt": "2026-08-11",
@@ -324,9 +324,12 @@
         "Rebuilt Highbanks Metro Park and Battelle Darby Creek Metro Park around eight CC BY-SA parent-gallery photographs and three evidence-cleared destinations: Highbanks Observation Deck, Battelle Darby Creek Nature Center, and Bison Pastures.",
         "Added current seasonal hours, separate arrival guidance, trail surfaces, restrooms, fees, accessibility, pet, family, transit, weather, preserve, hunting, and moving-bison context from current Metro Parks, National Weather Service, Wikimedia Commons, and reviewed coordinate evidence.",
         "Retired thirteen unsupported Highbanks and Battelle Darby Creek destination routes, added permanent parent redirects, recorded the unresolved Highbanks acreage conflict, and kept incomplete candidates in the review queue.",
-        "Preview-verified all five retained routes, all thirteen permanent redirects, all eight optimized parent-gallery images, three representative destination image subjects, every route at 390 pixels, and both parents at 1280 pixels without horizontal overflow."
+        "Preview-verified all five retained routes, all thirteen permanent redirects, all eight optimized parent-gallery images, three representative destination image subjects, every route at 390 pixels, and both parents at 1280 pixels without horizontal overflow.",
+        "Rebuilt Quarry Trails Metro Park with current operator guidance, four licensed Wikimedia Commons photographs, and one exact destination page for Millikin Falls.",
+        "Retired seven Quarry Trails routes that lacked destination-specific reusable photography or complete exact profiles, added permanent parent redirects, and preserved supported climbing, bike, dog, lake and observation guidance on the parent page.",
+        "Preview-verified both retained Quarry Trails routes, all seven permanent redirects, and all four optimized gallery images; source-identical pages passed local 390-pixel and 1280-pixel browser checks without horizontal overflow."
       ],
-      "nextAction": "The first three Columbus batches are complete through the downtown core, Schiller Park, Whetstone Park / Columbus Park of Roses, Highbanks Metro Park, and Battelle Darby Creek Metro Park. Quarry Trails remains deferred until four representative reusable photographs and at least one exact destination photo/coordinate pair clear review; if that evidence remains unavailable, continue with the next evidence-strong metro rather than weakening the image standard.",
+      "nextAction": "The four Columbus batches are complete through the downtown core, Schiller Park, Whetstone Park / Columbus Park of Roses, Highbanks Metro Park, Battelle Darby Creek Metro Park, and Quarry Trails Metro Park. Resume with the next high-impact connected metro whose parents clear the official-information and three-to-four-image gates; do not reopen deferred Columbus destinations without exact reviewed coordinates, destination-specific reusable photographs, and complete current profiles.",
       "notReleased": true,
       "productionPublished": false
     }
