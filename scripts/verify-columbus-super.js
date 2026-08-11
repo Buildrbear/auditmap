@@ -10,12 +10,10 @@ const failures = [];
 const slug = (value) => String(value).toLowerCase().replace(/&/g, " and ").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 const need = (condition, message) => { if (!condition) failures.push(message); };
 const expected = {
-  "launch-oh-columbus-highbanks-metro-park": ["highbanks-observation-deck"],
-  "launch-oh-columbus-battelle-darby-creek-metro-park": ["battelle-darby-creek-nature-center", "bison-pastures"]
+  "launch-oh-columbus-quarry-trails-metro-park": ["millikin-falls"]
 };
 const retired = {
-  "highbanks-metro-park": ["highbanks-nature-center", "overlook-trail", "big-meadows-picnic-area", "highbanks-natural-play-area", "dripping-rock-trail", "scenic-river-trail", "highbanks-wetland-observation-deck"],
-  "battelle-darby-creek-metro-park": ["indian-ridge-picnic-area", "battelle-darby-natural-play-area", "darby-creek-greenway-trail", "cedar-ridge-picnic-area", "big-darby-creek-canoe-access", "pleasant-valley-area"]
+  "quarry-trails-metro-park": ["quarry-trails-via-ferrata", "sport-climbing-area", "quarry-trails-mountain-bike-trail", "quarry-trails-dog-park", "swan-lake", "quarry-trails-observation-trail", "quarry-trails-lake-area"]
 };
 
 for (const scope of campaign.places.filter((entry) => entry.currentBatch)) {
@@ -76,7 +74,7 @@ for (const scope of campaign.places.filter((entry) => entry.currentBatch)) {
 }
 
 const scoped = campaign.places.filter((entry) => entry.currentBatch).map((scope) => JSON.stringify(places.find((place) => place.id === scope.id) || {})).join("\n");
-for (const phrase of ["6:30 a.m. to 10:00 p.m.", "moderate-to-difficult 2.3-mile gravel", "off-trail activity is prohibited", "53-foot living stream", "two enclosed pastures", "winter bison enclosure", "does not establish a publication license", "1,204 acres while its park-overview page says 1,160 acres"])
+for (const phrase of ["6:30 a.m. until dark", "Waterfall Entrance, Northern Area or Lake Area", "25-foot waterfall", "steep steps", "active construction", "guided and reservation-only", "does not establish a publication license"])
   need(scoped.includes(phrase), `Missing Columbus guidance: ${phrase}`);
 need(!scoped.includes("Official source image"), "Unlicensed official-source image attribution survived current batch");
 
@@ -84,4 +82,4 @@ if (failures.length) {
   console.error(failures.join("\n"));
   process.exit(1);
 }
-console.log("Verified Columbus Metro Parks: two parent guides, three exact photo-backed destinations, source-specific answers and 13 retired-route redirects.");
+console.log("Verified Columbus Quarry Trails: one parent guide, one exact photo-backed destination, source-specific answers and seven retired-route redirects.");

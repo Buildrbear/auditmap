@@ -89,7 +89,7 @@
       "operator": "Columbus and Franklin County Metro Parks",
       "source": "https://www.metroparks.net/parks-and-trails/highbanks/",
       "checkedAt": "2026-08-11",
-      "currentBatch": true,
+      "currentBatch": false,
       "releaseBatch": "metro-parks-3",
       "minImages": 4,
       "subsites": [
@@ -104,7 +104,7 @@
       "operator": "Columbus and Franklin County Metro Parks",
       "source": "https://www.metroparks.net/parks-and-trails/battelle-darby-creek/",
       "checkedAt": "2026-08-11",
-      "currentBatch": true,
+      "currentBatch": false,
       "releaseBatch": "metro-parks-3",
       "minImages": 4,
       "subsites": [
@@ -119,15 +119,12 @@
       "citySlug": "columbus-oh",
       "operator": "Columbus and Franklin County Metro Parks",
       "source": "https://www.metroparks.net/parks-and-trails/quarry-trails/",
+      "checkedAt": "2026-08-11",
+      "currentBatch": true,
+      "releaseBatch": "metro-parks-4",
+      "minImages": 4,
       "subsites": [
-        "Millikin Falls",
-        "Quarry Trails Via Ferrata",
-        "Sport Climbing Area",
-        "Quarry Trails Mountain Bike Trail",
-        "Quarry Trails Dog Park",
-        "Swan Lake",
-        "Quarry Trails Observation Trail",
-        "Quarry Trails Lake Area"
+        "Millikin Falls"
       ]
     }
   ]

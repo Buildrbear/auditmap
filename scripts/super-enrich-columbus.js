@@ -47,6 +47,7 @@ const slug = (v) =>
     i >= 0 ? (d.parks[i] = p) : d.parks.push(p);
   };
 function schedule(p) {
+  if (p.id.endsWith("quarry-trails-metro-park")) return false;
   if (
     p.id.endsWith("highbanks-metro-park") ||
     p.id.endsWith("battelle-darby-creek-metro-park")
@@ -296,6 +297,12 @@ function researchQueue(p) {
       "Indian Ridge, natural play, Darby Creek Greenway, Cedar Ridge, canoe access and Pleasant Valley remain parent guidance until each has a matching reusable photograph, exact reviewed destination coordinate and complete current profile.",
       "Bison use separate winter and summer pastures and may be distant or out of view; recheck current operator guidance before publication and never promise a sighting.",
       "Designated Battelle Darby zones can be open to hunting in season. Recheck the current public hunting map and posted signs before a later trail or access release.",
+    ];
+  if (p.id.endsWith("quarry-trails-metro-park"))
+    return [
+      "The via ferrata, sport-climbing area, mountain-bike trail, dog park, Swan Lake, Observation Trail and Lake Area remain parent guidance until each has a matching reusable photograph, exact reviewed destination coordinate and complete current profile.",
+      "Quarry Trails remains under active construction. Recheck the current operator page and park map before publication or any later destination release.",
+      "Four unlicensed official-site photographs were removed from the reuse candidate set because appearance on the operator website does not establish a publication license.",
     ];
   return [];
 }

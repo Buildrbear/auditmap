@@ -2,6 +2,41 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "redirects": [
+    {
+      "source": "/us/oh/columbus/parks/quarry-trails-metro-park/quarry-trails-via-ferrata",
+      "destination": "/us/oh/columbus/parks/quarry-trails-metro-park",
+      "permanent": true
+    },
+    {
+      "source": "/us/oh/columbus/parks/quarry-trails-metro-park/sport-climbing-area",
+      "destination": "/us/oh/columbus/parks/quarry-trails-metro-park",
+      "permanent": true
+    },
+    {
+      "source": "/us/oh/columbus/parks/quarry-trails-metro-park/quarry-trails-mountain-bike-trail",
+      "destination": "/us/oh/columbus/parks/quarry-trails-metro-park",
+      "permanent": true
+    },
+    {
+      "source": "/us/oh/columbus/parks/quarry-trails-metro-park/quarry-trails-dog-park",
+      "destination": "/us/oh/columbus/parks/quarry-trails-metro-park",
+      "permanent": true
+    },
+    {
+      "source": "/us/oh/columbus/parks/quarry-trails-metro-park/swan-lake",
+      "destination": "/us/oh/columbus/parks/quarry-trails-metro-park",
+      "permanent": true
+    },
+    {
+      "source": "/us/oh/columbus/parks/quarry-trails-metro-park/quarry-trails-observation-trail",
+      "destination": "/us/oh/columbus/parks/quarry-trails-metro-park",
+      "permanent": true
+    },
+    {
+      "source": "/us/oh/columbus/parks/quarry-trails-metro-park/quarry-trails-lake-area",
+      "destination": "/us/oh/columbus/parks/quarry-trails-metro-park",
+      "permanent": true
+    },
     { "source": "/us/oh/columbus/parks/scioto-mile/bicentennial-park", "destination": "/us/oh/columbus/parks/scioto-mile", "permanent": true },
     { "source": "/us/oh/columbus/parks/scioto-mile/scioto-mile-fountain", "destination": "/us/oh/columbus/parks/scioto-mile", "permanent": true },
     { "source": "/us/oh/columbus/parks/scioto-mile/main-street-bridge", "destination": "/us/oh/columbus/parks/scioto-mile", "permanent": true },
