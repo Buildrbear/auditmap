@@ -3,22 +3,23 @@ const fs = require("node:fs"),
   path = require("node:path"),
   root = path.resolve(__dirname, ".."),
   campaign = require("../data/indianapolis-super-enrichment-campaign.json"),
+  photoResearch = require("../data/indianapolis-photo-research.json"),
   places = require("../data/generated/launch-map-places.json"),
   redirects = require("../vercel.json").redirects || [],
   expected = {
-    "launch-in-indianapolis-fort-harrison-state-park": [],
+    "launch-in-indianapolis-white-river-state-park": [],
   },
   expectedIds = {},
   retired = {
-    "fort-harrison-state-park": [
-      "fort-harrison-visitor-center",
-      "harrison-trace-trail",
-      "delaware-lake",
-      "duck-pond",
-      "lawrence-creek-trail",
-      "museum-of-20th-century-warfare",
-      "fort-harrison-sledding-hill",
-      "fort-harrison-dog-park",
+    "white-river-state-park": [
+      "downtown-canal-walk",
+      "old-washington-street-bridge",
+      "celebration-plaza",
+      "military-park",
+      "indiana-state-museum-lawn",
+      "ncaa-hall-of-champions",
+      "eiteljorg-museum",
+      "indianapolis-zoo",
     ],
   },
   fail = [];
@@ -42,6 +43,24 @@ const need = (ok, message) => {
   };
 
 need(currentBatch.length === 1, "Expected exactly one current-batch guide");
+const broadRippleScope = campaign.places.find((place) =>
+    place.id.endsWith("broad-ripple-park"),
+  ),
+  broadRippleResearch =
+    photoResearch.places["launch-in-indianapolis-broad-ripple-park"];
+need(
+  broadRippleScope?.photoGateStatus ===
+    "deferred-insufficient-varied-reusable-coverage",
+  "Broad Ripple Park: photo-gate deferral missing",
+);
+need(
+  broadRippleResearch?.candidates?.length === 0,
+  "Broad Ripple Park: unclear-rights image candidates retained",
+);
+need(
+  /do not state reuse permission/i.test(broadRippleResearch?.reviewNote || ""),
+  "Broad Ripple Park: image-rights review note missing",
+);
 for (const scope of currentBatch) {
   const place = places.find((item) => item.id === scope.id),
     parkSlug = scope.id.replace("launch-in-indianapolis-", ""),
@@ -108,5 +127,5 @@ if (fail.length) {
   process.exit(1);
 }
 console.log(
-  "Verified 1 Indianapolis guide, 0 evidence-cleared destinations, 4 reusable photos and 8 retired-route redirects.",
+  "Verified 1 Indianapolis guide, 1 photo-gated deferral, 0 evidence-cleared destinations, 4 reusable photos and 8 retired-route redirects.",
 );

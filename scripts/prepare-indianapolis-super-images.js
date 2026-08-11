@@ -38,7 +38,11 @@ const altText = (name, label) => {
     "Fort Harrison State Park/Fall Creek at Fort Harrison.jpg": "Fall Creek flowing through wooded Fort Harrison State Park",
     "Fort Harrison State Park/Fort Ben - Fall Creek Boardwalk.jpg": "Wooden boardwalk descending through forest beside Fall Creek in Fort Harrison State Park",
     "Fort Harrison State Park/Fort Ben - bike entrance.jpg": "Signed bicycle and pedestrian entrance to Fort Harrison State Park",
-    "Fort Harrison State Park/Trail at Fort Harrison SP.jpg": "Wooded natural-surface trail at Fort Harrison State Park"
+    "Fort Harrison State Park/Trail at Fort Harrison SP.jpg": "Wooded natural-surface trail at Fort Harrison State Park",
+    "White River State Park/White River State Park Indianapolis Skyline 2020.jpg": "Celebration Plaza lawn, park trees and the downtown Indianapolis skyline at White River State Park",
+    "White River State Park/Celebration Plaza Amphitheater and Canal Headwaters White River State Park Indianapolis.jpg": "Celebration Plaza Amphitheater beside the canal headwaters and lawn at White River State Park",
+    "White River State Park/White River at Washington Street Bridge Indianapolis.jpg": "White River and vegetated shoreline beside the old Washington Street bridge at White River State Park",
+    "White River State Park/Central Indiana Canal - Indianapolis, Indiana, USA - October 7, 2023 01.jpg": "Canal Walk paths and water along the Indiana Central Canal in downtown Indianapolis"
   };
   return reviewed[key] || `${name} in Indianapolis`;
 };

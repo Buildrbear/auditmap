@@ -236,6 +236,12 @@ function researchQueue(p) {
     "The bicycle and pedestrian entrance photograph dates to 2008 and is retained as stable parent arrival context, not proof of current fees or a standalone entrance destination.",
     "The Saddle Barn is temporarily closed in 2026 while Indiana DNR seeks a concessionaire; verify the current alert before restoring horseback-riding guidance."
   ];
+  if (p.id.endsWith("white-river-state-park")) return [
+    "The Downtown Canal Walk, Old Washington Street Bridge, Celebration Plaza, Military Park, State Museum Lawn, NCAA Hall of Champions, Eiteljorg Museum and Indianapolis Zoo remain parent guidance until each has an exact reviewed arrival point, a complete destination-specific profile and matching reusable photography.",
+    "The four reviewed Commons photographs document the park district only. They must not be reassigned to a museum, zoo, bridge, lawn, plaza or Canal Walk destination without destination-specific evidence.",
+    "The operator's visit page still displays a June 27 bridge-closure notice after that date. Treat alerts and event detours as fast-changing and verify them again on the day of a visit.",
+    "Museums, the zoo, rentals, concerts and events keep separate schedules, admission rules and animal policies; the park's 5:00 a.m.-11:00 p.m. grounds schedule must not be inherited by those venues."
+  ];
   return [];
 }
 (() => {
