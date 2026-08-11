@@ -7,6 +7,7 @@
 - OpenTask assignment: not separately supplied
 - GitHub issue: not separately supplied
 - Pull request: https://github.com/Buildrbear/auditmap/pull/28 (draft, stacked on PR #27)
+- Preview: https://auditmap-fzaopcwx8-derrys-projects-f5a18cb6.vercel.app (Ready implementation preview at commit `aacc1fd`, deployment `dpl_2wFLqfMXSmc8QDwcLnz4DR3voAPM`)
 - Checked: 2026-08-11
 - Production publication: not performed
 
@@ -38,13 +39,15 @@ The 54 existing local gallery images and their source pages, creators, licenses,
 - All 51 national enrichment campaign verifiers passed with zero failures.
 - North Carolina image-rights and generated-page safeguards passed, as did Raleigh discovery-loop verification.
 - All 29 Pittsburgh parent and destination routes passed 390-pixel checks; all eight parent routes passed 1440-pixel checks. No horizontal overflow, missing heading, missing canonical tag, short blank page, or browser warning/error was observed.
-- Every referenced raw Pittsburgh gallery asset exists. A plain local server cannot emulate Vercel image optimization, so optimized image payloads remain a draft-preview check.
+- Every referenced raw Pittsburgh gallery asset exists. Authenticated preview requests returned HTML for all 29 retained routes and image payloads for all 54 optimized gallery images.
+- GitHub `Validate contribution` and the linked final-head Vercel status passed; final-head deployment `dpl_HNgZiYvgUatTppfcYwrkgDPJvWSe` reached Ready at commit `cda6832`.
+- The ordinary visual browser is redirected to Vercel SSO, so a deployed screenshot remains deliberately unclaimed; no deployment-protection setting was changed.
 
 ## Unresolved Review Queue
 
 | Place | Field or feature | Conflict or missing evidence | Sources checked | Recommended next action |
 | --- | --- | --- | --- | --- |
-| Pittsburgh campaign | Draft preview | Optimized-image delivery and a representative deployed screenshot are not yet verified for this repair | Local raw assets and isolated full generation | Verify on the stacked PR preview before publication |
+| Pittsburgh campaign | Draft preview | Authenticated route and optimized-image checks pass, but the ordinary visual browser is redirected to Vercel SSO | Ready implementation and final-head Vercel previews | Capture a deployed screenshot from an authorized browser before publication if review requires one |
 | Schenley and Frick Parks | Fast-changing visitor facts | Parent guidance was checked 2026-08-06; events, construction, seasonal facilities, parking, and closures remain volatile | City and destination operator sources already recorded per answer | Recheck operator guidance if maintainer review extends materially beyond the checked date |
 | Remaining Pittsburgh guides | Fast-changing visitor facts | Hours, admission, pool or spray operations, reservations, events, and construction were checked 2026-08-10 | Campaign operator sources listed above and recorded per answer | Recheck before publication if conditions materially change |
 
