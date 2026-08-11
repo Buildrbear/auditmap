@@ -6,8 +6,9 @@ Last updated: 2026-08-11
 
 - Status: the Miami waterfront evidence-gate rebuild is generated and locally verified.
 - Working branch: `codex/miami-waterfront-evidence-gate`
-- Pull request: pending; stack this branch on https://github.com/Buildrbear/auditmap/pull/24
+- Pull request: https://github.com/Buildrbear/auditmap/pull/25
 - Stacked base pull request: https://github.com/Buildrbear/auditmap/pull/24
+- Miami rebuild commit: `0520e7e0f`
 - Outcome: eight parent guides, 32 reviewed reusable parent images, 19 evidence-complete destinations, and 51 retired legacy routes.
 - Preview: pending the draft pull request deployment.
 - Production status: not merged or promoted to production.
