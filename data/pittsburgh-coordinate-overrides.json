@@ -122,6 +122,26 @@
         "coordinateSource": "https://www.openstreetmap.org/way/257734517",
         "positionQuality": "reviewed-named-garden-way-and-current-city-signage-map-match"
       }
+    },
+    "launch-pa-pittsburgh-north-shore-riverfront-park": {
+      "north-shore-water-steps": {
+        "latitude": 40.4456744,
+        "longitude": -80.0084044,
+        "coordinateSource": "https://www.openstreetmap.org/way/450174428",
+        "positionQuality": "reviewed-named-water-feature-way-and-current-operator-description-match"
+      },
+      "tribute-to-children": {
+        "latitude": 40.4449001,
+        "longitude": -80.013864,
+        "coordinateSource": "https://www.openstreetmap.org/node/2786876962",
+        "positionQuality": "reviewed-named-memorial-node-and-current-operator-location-match"
+      },
+      "korean-war-veterans-memorial": {
+        "latitude": 40.4456839,
+        "longitude": -80.0080784,
+        "coordinateSource": "https://www.openstreetmap.org/node/2440705878",
+        "positionQuality": "reviewed-named-memorial-node-and-current-operator-mazeroski-way-location-match"
+      }
     }
   }
 }

@@ -161,52 +161,28 @@
     },
     "launch-pa-pittsburgh-north-shore-riverfront-park": {
       "north-shore-water-steps": {
-        "latitude": 40.44715,
-        "longitude": -80.0127,
-        "displayName": "Preserved coordinate for North Shore Water Steps",
-        "source": "AuditMap official-map placement"
-      },
-      "three-rivers-heritage-trail": {
-        "latitude": 40.4344487,
-        "longitude": -80.0022786,
-        "displayName": "Preserved coordinate for Three Rivers Heritage Trail",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "pnc-park-riverwalk": {
-        "latitude": 40.4467,
-        "longitude": -80.01192999999999,
-        "displayName": "Preserved coordinate for PNC Park Riverwalk",
-        "source": "AuditMap official-map placement"
-      },
-      "acrisure-stadium-riverwalk": {
-        "latitude": 40.44638180194847,
-        "longitude": -80.01238180194846,
-        "displayName": "Preserved coordinate for Acrisure Stadium Riverwalk",
-        "source": "AuditMap official-map placement"
+        "latitude": 40.4456744,
+        "longitude": -80.0084044,
+        "coordinateSource": "https://www.openstreetmap.org/way/450174428",
+        "positionQuality": "reviewed-named-water-feature-way-and-current-operator-description-match",
+        "displayName": "reviewed-named-water-feature-way-and-current-operator-description-match",
+        "source": "https://www.openstreetmap.org/way/450174428"
       },
       "tribute-to-children": {
         "latitude": 40.4449001,
         "longitude": -80.013864,
-        "displayName": "Preserved coordinate for Tribute to Children",
-        "source": "OpenStreetMap Nominatim"
+        "coordinateSource": "https://www.openstreetmap.org/node/2786876962",
+        "positionQuality": "reviewed-named-memorial-node-and-current-operator-location-match",
+        "displayName": "reviewed-named-memorial-node-and-current-operator-location-match",
+        "source": "https://www.openstreetmap.org/node/2786876962"
       },
-      "carnegie-science-center-riverfront": {
-        "latitude": 40.44615552777849,
-        "longitude": -80.01324447222152,
-        "displayName": "Preserved coordinate for Carnegie Science Center Riverfront",
-        "source": "AuditMap official-map placement"
-      },
-      "allegheny-landing-connection": {
-        "latitude": 40.4467,
-        "longitude": -80.01315,
-        "displayName": "Preserved coordinate for Allegheny Landing Connection",
-        "source": "AuditMap official-map placement"
-      },
-      "north-shore-riverfront-dock": {
-        "latitude": 40.447131335136525,
-        "longitude": -80.01313133513652,
-        "displayName": "Preserved coordinate for North Shore Riverfront Dock",
-        "source": "AuditMap official-map placement"
+      "korean-war-veterans-memorial": {
+        "latitude": 40.4456839,
+        "longitude": -80.0080784,
+        "coordinateSource": "https://www.openstreetmap.org/node/2440705878",
+        "positionQuality": "reviewed-named-memorial-node-and-current-operator-mazeroski-way-location-match",
+        "displayName": "reviewed-named-memorial-node-and-current-operator-mazeroski-way-location-match",
+        "source": "https://www.openstreetmap.org/node/2440705878"
       }
     }
   }
