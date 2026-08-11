@@ -9,7 +9,7 @@ Last updated: 2026-08-10
 - Pull request: https://github.com/Buildrbear/auditmap/pull/11
 - Stacked base pull request: https://github.com/Buildrbear/auditmap/pull/10
 - Detroit release commit: `29fe472a7`
-- Preview: https://auditmap-bh5x3k6sb-derrys-projects-f5a18cb6.vercel.app
+- Preview: https://auditmap-git-codex-detroit-rive-3bc478-derrys-projects-f5a18cb6.vercel.app
 - Production status: not merged or promoted to production.
 - Canonical machine-readable checkpoint: `data/us-priority-enrichment-queue.json` under `activeCluster.resumeCheckpoint`.
 
