@@ -151,52 +151,12 @@
     },
     "launch-pa-pittsburgh-mellon-park": {
       "mellon-park-walled-garden": {
-        "latitude": 40.45535,
-        "longitude": -79.9165,
-        "displayName": "Preserved coordinate for Mellon Park Walled Garden",
-        "source": "AuditMap official-map placement"
-      },
-      "mellon-park-playground": {
-        "latitude": 40.45533133513653,
-        "longitude": -79.91606866486347,
-        "displayName": "Preserved coordinate for Mellon Park Playground",
-        "source": "AuditMap official-map placement"
-      },
-      "mellon-park-spray-park": {
-        "latitude": 40.4539958,
-        "longitude": -79.9156891,
-        "displayName": "Preserved coordinate for Mellon Park Spray Park",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "mellon-park-tennis-center": {
-        "latitude": 40.4537255,
-        "longitude": -79.9170952,
-        "displayName": "Preserved coordinate for Mellon Park Tennis Center",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "mellon-park-rose-garden": {
-        "latitude": 40.45429,
-        "longitude": -79.9165,
-        "displayName": "Preserved coordinate for Mellon Park Rose Garden",
-        "source": "AuditMap official-map placement"
-      },
-      "mellon-park-field": {
-        "latitude": 40.4544659,
-        "longitude": -79.9161732,
-        "displayName": "Preserved coordinate for Mellon Park Field",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "fifth-avenue-entrance": {
-        "latitude": 40.4549,
-        "longitude": -79.91695,
-        "displayName": "Preserved coordinate for Fifth Avenue Entrance",
-        "source": "AuditMap official-map placement"
-      },
-      "shady-avenue-entrance": {
-        "latitude": 40.45533133513653,
-        "longitude": -79.91693133513652,
-        "displayName": "Preserved coordinate for Shady Avenue Entrance",
-        "source": "AuditMap official-map placement"
+        "latitude": 40.4520237,
+        "longitude": -79.9187112,
+        "coordinateSource": "https://www.openstreetmap.org/way/257734517",
+        "positionQuality": "reviewed-named-garden-way-and-current-city-signage-map-match",
+        "displayName": "reviewed-named-garden-way-and-current-city-signage-map-match",
+        "source": "https://www.openstreetmap.org/way/257734517"
       }
     },
     "launch-pa-pittsburgh-north-shore-riverfront-park": {
