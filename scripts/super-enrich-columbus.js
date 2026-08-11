@@ -47,6 +47,11 @@ const slug = (v) =>
     i >= 0 ? (d.parks[i] = p) : d.parks.push(p);
   };
 function schedule(p) {
+  if (
+    p.id.endsWith("highbanks-metro-park") ||
+    p.id.endsWith("battelle-darby-creek-metro-park")
+  )
+    return daily("06:30", "22:00");
   return daily("07:00", "23:00");
 }
 function ans(p, k, q, a, metadata = {}) {
@@ -279,6 +284,18 @@ function researchQueue(p) {
       "The Park of Roses gazebo, Heritage Rose Garden, Herb Garden, Whetstone Prairie, Olentangy Trail access, playground and tennis courts remain parent guidance until each has a matching reusable photograph, exact reviewed coordinates and a complete current profile.",
       "The three historical Park of Roses gallery images are explicitly labeled historical and must not be presented as current conditions evidence.",
       "Recheck the 2026 Hollenback Road, pond-lot, garden-path and community-center projects before publication or a later Whetstone release.",
+    ];
+  if (p.id.endsWith("highbanks-metro-park"))
+    return [
+      "The Nature Center, Overlook Trail, Big Meadows, natural play area, Dripping Rock, Scenic River and wetland deck remain parent guidance until each has a matching reusable photograph, exact reviewed destination coordinate and complete current profile.",
+      "The operator's current Highbanks park page says 1,204 acres while its park-overview page says 1,160 acres. The guide avoids a precise acreage claim until the operator resolves that conflict.",
+      "An official-site Nature Center photograph was removed from the reuse candidate set because appearance on the operator website does not establish a publication license.",
+    ];
+  if (p.id.endsWith("battelle-darby-creek-metro-park"))
+    return [
+      "Indian Ridge, natural play, Darby Creek Greenway, Cedar Ridge, canoe access and Pleasant Valley remain parent guidance until each has a matching reusable photograph, exact reviewed destination coordinate and complete current profile.",
+      "Bison use separate winter and summer pastures and may be distant or out of view; recheck current operator guidance before publication and never promise a sighting.",
+      "Designated Battelle Darby zones can be open to hunting in season. Recheck the current public hunting map and posted signs before a later trail or access release.",
     ];
   return [];
 }

@@ -53486,132 +53486,175 @@
       "sourceLabel": "Columbus and Franklin County Metro Parks",
       "source": "https://www.metroparks.net/parks-and-trails/highbanks/",
       "address": "9466 Columbus Pike, Lewis Center, OH 43035",
-      "summary": "A 1,204-acre Metro Park with 100-foot shale bluffs, deep ravines, river overlooks, nature center, natural play, picnic areas and varied trails.",
-      "hours": "April 1-September 30: 6:30 a.m.-10:00 p.m. October 1-March 31: 6:30 a.m.-8:00 p.m. Nature Center: 9:00 a.m.-8:00 p.m. in summer and 9:00 a.m.-6:00 p.m. in winter.",
-      "hoursSchedule": false,
-      "cost": "Park admission, parking, trails, nature center and first-come picnic shelters are free. Reservations and programs may vary.",
-      "accessibility": "The Nature Center, Scenic River and Sycamore trails and picnic facilities offer accessible options; Overlook and Dripping Rock are hillier gravel routes.",
-      "transit": "Regional transit is limited; driving or cycling is practical for most visitors.",
+      "summary": "A large Metro Park of shale bluffs, ravines, Olentangy River overlooks, woods, meadows, picnic areas, natural play, a nature center and trails with very different surfaces and pet rules.",
+      "hours": "Highbanks is open April 1 through September 30 from 6:30 a.m. to 10:00 p.m. and October 1 through March 31 from 6:30 a.m. to 8:00 p.m. The Nature Center closes earlier: 8:00 p.m. April through September and 6:00 p.m. October through March.",
+      "hoursSchedule": {
+        "sunday": [
+          [
+            "06:30",
+            "22:00"
+          ]
+        ],
+        "monday": [
+          [
+            "06:30",
+            "22:00"
+          ]
+        ],
+        "tuesday": [
+          [
+            "06:30",
+            "22:00"
+          ]
+        ],
+        "wednesday": [
+          [
+            "06:30",
+            "22:00"
+          ]
+        ],
+        "thursday": [
+          [
+            "06:30",
+            "22:00"
+          ]
+        ],
+        "friday": [
+          [
+            "06:30",
+            "22:00"
+          ]
+        ],
+        "saturday": [
+          [
+            "06:30",
+            "22:00"
+          ]
+        ]
+      },
+      "cost": "Ordinary park access, trails, Nature Center exhibits and non-reservable shelters are listed without an entrance charge. First-come shelters are free while occupied; reservable venues and some organized activities use separate bookings and fees.",
+      "accessibility": "Scenic River and Sycamore are identified as ADA gravel trails, while Big Meadows, Multiuse and Oak Coves are paved. Overlook and Dripping Rock are moderate-to-difficult gravel routes; an accessible trail listing does not make every bluff, ravine or preserve surface barrier-free.",
+      "transit": "Metro Parks publishes driving directions to the US 23 entrance and does not document fixed-route public transit to the park. Check a current regional trip planner before relying on transit, and choose an exact internal destination before arranging a ride.",
       "searchAnswers": [
         {
           "intentKey": "hours",
           "question": "When is Highbanks Metro Park open?",
-          "answer": "April 1-September 30: 6:30 a.m.-10:00 p.m. October 1-March 31: 6:30 a.m.-8:00 p.m. Nature Center: 9:00 a.m.-8:00 p.m. in summer and 9:00 a.m.-6:00 p.m. in winter.",
+          "answer": "Highbanks is open April 1 through September 30 from 6:30 a.m. to 10:00 p.m. and October 1 through March 31 from 6:30 a.m. to 8:00 p.m. The Nature Center closes earlier: 8:00 p.m. April through September and 6:00 p.m. October through March.",
           "sourceLabel": "Columbus and Franklin County Metro Parks",
           "source": "https://www.metroparks.net/parks-and-trails/highbanks/",
-          "verifiedAt": "2026-08-06",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "fast",
           "status": "verified"
         },
         {
           "intentKey": "parking",
           "question": "Where should I park for Highbanks Metro Park?",
-          "answer": "Free lots serve the Nature Center, Big Meadows, Oak Coves, River Bluff and trail areas. Navigate to the exact area rather than the general park pin.",
+          "answer": "Parking is distributed among the main entrance, Nature Center, Big Meadows, Oak Coves and River Bluff areas. Use the exact area on the official park map; one general park pin is not a reliable destination for every trail or facility.",
           "sourceLabel": "Columbus and Franklin County Metro Parks",
           "source": "https://www.metroparks.net/parks-and-trails/highbanks/",
-          "verifiedAt": "2026-08-06",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "fast",
           "status": "verified"
         },
         {
           "intentKey": "entrance",
           "question": "What is the best entrance for Highbanks Metro Park?",
-          "answer": "Use the Nature Center for exhibits, Big Meadows for playgrounds and natural play, or the named Overlook, Dripping Rock and Scenic River trailheads.",
+          "answer": "The official main arrival coordinate is 40.15283,-83.01837 at 9466 Columbus Pike. Use the Nature Center for exhibits, Big Meadows for play and picnics, or a named trail area for the Overlook, Dripping Rock, Scenic River or Sycamore routes.",
           "sourceLabel": "Columbus and Franklin County Metro Parks",
-          "source": "https://www.metroparks.net/parks-and-trails/highbanks/",
-          "verifiedAt": "2026-08-06",
+          "source": "https://www.metroparks.net/parks-and-trails/",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "restroom",
           "question": "Are there restrooms at Highbanks Metro Park?",
-          "answer": "ADA restrooms serve the Nature Center and developed picnic areas; some shelter-area restrooms are seasonal.",
+          "answer": "The operator lists accessible restrooms at Big Meadows and Oak Coves. Mansion and Northern shelter restrooms are seasonal, open April 15 through November 1; building access depends on Nature Center or reservation hours.",
           "sourceLabel": "Columbus and Franklin County Metro Parks",
           "source": "https://www.metroparks.net/parks-and-trails/highbanks/",
-          "verifiedAt": "2026-08-06",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "fees",
           "question": "Is Highbanks Metro Park free?",
-          "answer": "Park admission, parking, trails, nature center and first-come picnic shelters are free. Reservations and programs may vary.",
+          "answer": "Ordinary park access, trails, Nature Center exhibits and non-reservable shelters are listed without an entrance charge. First-come shelters are free while occupied; reservable venues and some organized activities use separate bookings and fees.",
           "sourceLabel": "Columbus and Franklin County Metro Parks",
-          "source": "https://www.metroparks.net/parks-and-trails/highbanks/",
-          "verifiedAt": "2026-08-06",
+          "source": "https://www.metroparks.net/faqs/",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "accessibility",
           "question": "How accessible is Highbanks Metro Park?",
-          "answer": "The Nature Center, Scenic River and Sycamore trails and picnic facilities offer accessible options; Overlook and Dripping Rock are hillier gravel routes.",
+          "answer": "Scenic River and Sycamore are identified as ADA gravel trails, while Big Meadows, Multiuse and Oak Coves are paved. Overlook and Dripping Rock are moderate-to-difficult gravel routes; an accessible trail listing does not make every bluff, ravine or preserve surface barrier-free.",
           "sourceLabel": "Columbus and Franklin County Metro Parks",
-          "source": "https://www.metroparks.net/parks-and-trails/highbanks/",
-          "verifiedAt": "2026-08-06",
+          "source": "https://www.metroparks.net/wp-content/uploads/2025/08/Metro-Parks-ADA-Accessible-and-Paved-Trails-1.pdf",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "dogs",
           "question": "Are dogs allowed at Highbanks Metro Park?",
-          "answer": "Leashed pets are allowed on designated pet trails and in picnic and parking areas, but not every preserve trail.",
+          "answer": "Pets are limited to designated pet trails plus picnic areas, parking lots and roadways, and must remain on a leash no longer than six feet. Overlook and Dripping Rock are not listed as pet trails; service animals have broader access.",
           "sourceLabel": "Columbus and Franklin County Metro Parks",
-          "source": "https://www.metroparks.net/parks-and-trails/highbanks/",
-          "verifiedAt": "2026-08-06",
+          "source": "https://www.metroparks.net/pets/",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "family",
           "question": "Is Highbanks Metro Park good for children?",
-          "answer": "Big Meadows combines playgrounds, playfields, picnic shelters and a 15-acre natural play area; the Nature Center is a strong weather backup.",
+          "answer": "Big Meadows has playground equipment, playfields, first-come shelters, accessible restrooms and a 15-acre natural play area. The Nature Center offers indoor exhibits, but keeps its own shorter schedule.",
           "sourceLabel": "Columbus and Franklin County Metro Parks",
           "source": "https://www.metroparks.net/parks-and-trails/highbanks/",
-          "verifiedAt": "2026-08-06",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "transit",
           "question": "How do I reach Highbanks Metro Park without a car?",
-          "answer": "Regional transit is limited; driving or cycling is practical for most visitors.",
+          "answer": "Metro Parks publishes driving directions to the US 23 entrance and does not document fixed-route public transit to the park. Check a current regional trip planner before relying on transit, and choose an exact internal destination before arranging a ride.",
           "sourceLabel": "Columbus and Franklin County Metro Parks",
-          "source": "https://www.metroparks.net/parks-and-trails/highbanks/",
-          "verifiedAt": "2026-08-06",
+          "source": "https://www.metroparks.net/parks-and-trails/",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "need-to-know",
           "question": "What should I know before visiting Highbanks Metro Park?",
-          "answer": "The Overlook Trail is a moderate-to-difficult 2.3-mile route to a deck 100 feet above the Olentangy. Stay on trail in the state nature preserve.",
+          "answer": "The 2.3-mile Overlook Trail is a moderate-to-difficult gravel hike through a state nature preserve to a deck about 100 feet above the Olentangy River. Off-trail activity is prohibited in the preserve, and winter closing time is two hours earlier.",
           "sourceLabel": "Columbus and Franklin County Metro Parks",
           "source": "https://www.metroparks.net/parks-and-trails/highbanks/",
-          "verifiedAt": "2026-08-06",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "fast",
           "status": "verified"
         },
         {
           "intentKey": "weather",
           "question": "What weather should I check before visiting Highbanks Metro Park?",
-          "answer": "Check current Columbus-area weather and operator alerts. Scioto, Olentangy and Darby water levels, heat, storms, snow, ice and high winds can close fountains, river paths, trails or facilities independently.",
-          "sourceLabel": "Columbus and Franklin County Metro Parks",
-          "source": "https://www.metroparks.net/parks-and-trails/highbanks/",
-          "verifiedAt": "2026-08-06",
+          "answer": "Check the National Weather Service forecast for the Highbanks entrance before a bluff or ravine hike. Heat, thunderstorms, wind, snow, ice and recent rain can change trail comfort and footing even when the park remains open.",
+          "sourceLabel": "National Weather Service",
+          "source": "https://forecast.weather.gov/MapClick.php?lat=40.1528&lon=-83.0184",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "fast",
           "status": "verified"
         }
       ],
       "image": {
-        "url": "/assets/parks/columbus-super/highbanks-metro-park/01-highbanks-nature-center.webp",
-        "source": "https://www.metroparks.net/parks-and-trails/highbanks/",
-        "author": "Columbus and Franklin County Metro Parks",
-        "license": "Official source image",
-        "alt": "Highbanks Metro Park in the Columbus area",
-        "width": 1024,
-        "height": 671
+        "url": "/assets/parks/columbus-super/highbanks-metro-park/01-columbus-ohio-157-jpg.webp",
+        "source": "https://commons.wikimedia.org/wiki/File%3AColumbus%2C_Ohio_%E2%B1%AE_157.jpg",
+        "author": "Ɱ",
+        "license": "CC BY-SA 4.0",
+        "alt": "Olentangy River and wooded valley viewed from Highbanks Observation Deck in autumn",
+        "width": 1600,
+        "height": 1000
       },
       "additionalImages": [
         {
@@ -53619,31 +53662,31 @@
           "source": "https://commons.wikimedia.org/wiki/File%3AArch_bridge_in_Highbanks_Metro_Park%2C_October_2024.jpg",
           "author": "Pi.1415926535",
           "license": "CC BY-SA 4.0",
-          "alt": "Highbanks Metro Park in the Columbus area",
+          "alt": "Wooden arch bridge crossing a shale ravine in Highbanks Metro Park",
           "width": 1600,
           "height": 1000
         },
         {
-          "url": "/assets/parks/columbus-super/highbanks-metro-park/03-highbanks-park-mound-jpg.webp",
-          "source": "https://commons.wikimedia.org/wiki/File%3AHighbanks_Park_mound.jpg",
-          "author": "Nyttend",
-          "license": "Public domain",
-          "alt": "Highbanks Metro Park in the Columbus area",
-          "width": 1600,
-          "height": 1000
-        },
-        {
-          "url": "/assets/parks/columbus-super/highbanks-metro-park/04-highbanks-rudbeckia-subtomentosa-1-jpg.webp",
-          "source": "https://commons.wikimedia.org/wiki/File%3AHighbanks_-_Rudbeckia_subtomentosa_1.jpg",
-          "author": "Sixflashphoto",
+          "url": "/assets/parks/columbus-super/highbanks-metro-park/03-columbus-ohio-156-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3AColumbus%2C_Ohio_%E2%B1%AE_156.jpg",
+          "author": "Ɱ",
           "license": "CC BY-SA 4.0",
-          "alt": "Highbanks Metro Park in the Columbus area",
+          "alt": "Leaf-covered forest trail through Highbanks Metro Park in autumn",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/columbus-super/highbanks-metro-park/04-columbus-ohio-158-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3AColumbus%2C_Ohio_%E2%B1%AE_158.jpg",
+          "author": "Ɱ",
+          "license": "CC BY-SA 4.0",
+          "alt": "Olentangy River curving below Highbanks' wooded shale bluff in autumn",
           "width": 1600,
           "height": 1000
         }
       ],
       "replaceImages": true,
-      "verifiedAt": "2026-08-06"
+      "verifiedAt": "2026-08-11"
     },
     "launch-oh-columbus-battelle-darby-creek-metro-park": {
       "name": "Battelle Darby Creek Metro Park",
@@ -53652,121 +53695,164 @@
       "operator": "Columbus and Franklin County Metro Parks",
       "sourceLabel": "Columbus and Franklin County Metro Parks",
       "source": "https://www.metroparks.net/parks-and-trails/battelle-darby-creek/",
-      "address": "1415 Darby Creek Drive, Galloway, OH 43119",
+      "address": "1775 Darby Creek Drive, Galloway, OH 43119",
       "summary": "A 7,358-acre Metro Park along two scenic rivers with bison pastures, a living-stream nature center, prairies, wetlands, natural play, trails and paddling access.",
-      "hours": "April 1-September 30: 6:30 a.m.-10:00 p.m. October 1-March 31: 6:30 a.m.-8:00 p.m. Nature Center: 9:00 a.m.-8:00 p.m. in summer and 9:00 a.m.-6:00 p.m. in winter.",
-      "hoursSchedule": false,
-      "cost": "Park, parking, trails, bison viewing and nature center are free. Reservations and organized programs may vary.",
-      "accessibility": "The Nature Center and selected greenway and picnic routes are accessible; natural trails, creek banks and prairie surfaces vary.",
-      "transit": "There is little practical public transit to the distributed park entrances; driving is recommended.",
+      "hours": "Battelle Darby Creek is open April 1 through September 30 from 6:30 a.m. to 10:00 p.m. and October 1 through March 31 from 6:30 a.m. to 8:00 p.m. The Nature Center closes earlier: 8:00 p.m. April through September and 6:00 p.m. October through March.",
+      "hoursSchedule": {
+        "sunday": [
+          [
+            "06:30",
+            "22:00"
+          ]
+        ],
+        "monday": [
+          [
+            "06:30",
+            "22:00"
+          ]
+        ],
+        "tuesday": [
+          [
+            "06:30",
+            "22:00"
+          ]
+        ],
+        "wednesday": [
+          [
+            "06:30",
+            "22:00"
+          ]
+        ],
+        "thursday": [
+          [
+            "06:30",
+            "22:00"
+          ]
+        ],
+        "friday": [
+          [
+            "06:30",
+            "22:00"
+          ]
+        ],
+        "saturday": [
+          [
+            "06:30",
+            "22:00"
+          ]
+        ]
+      },
+      "cost": "Ordinary park access, trails, Nature Center exhibits, bison viewing and non-reservable shelters are listed without an entrance charge. First-come shelters are free while occupied; reservations and some organized activities use separate fees or registration.",
+      "accessibility": "The Nature Center and the five-mile gravel Darby Creek Greenway are identified as accessible, and developed areas include accessible facilities. Natural creek trails, prairie paths and water-access surfaces vary and should not be assumed barrier-free.",
+      "transit": "Metro Parks publishes driving directions to several dispersed entrances and does not document fixed-route public transit to them. Check a current regional trip planner before relying on transit and arrange pickup at a named area, not the general park name.",
       "searchAnswers": [
         {
           "intentKey": "hours",
           "question": "When is Battelle Darby Creek Metro Park open?",
-          "answer": "April 1-September 30: 6:30 a.m.-10:00 p.m. October 1-March 31: 6:30 a.m.-8:00 p.m. Nature Center: 9:00 a.m.-8:00 p.m. in summer and 9:00 a.m.-6:00 p.m. in winter.",
+          "answer": "Battelle Darby Creek is open April 1 through September 30 from 6:30 a.m. to 10:00 p.m. and October 1 through March 31 from 6:30 a.m. to 8:00 p.m. The Nature Center closes earlier: 8:00 p.m. April through September and 6:00 p.m. October through March.",
           "sourceLabel": "Columbus and Franklin County Metro Parks",
           "source": "https://www.metroparks.net/parks-and-trails/battelle-darby-creek/",
-          "verifiedAt": "2026-08-06",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "fast",
           "status": "verified"
         },
         {
           "intentKey": "parking",
           "question": "Where should I park for Battelle Darby Creek Metro Park?",
-          "answer": "Free lots are spread among the Nature Center, Indian Ridge, Cedar Ridge, canoe area, Osprey Lake and Pleasant Valley. Select the exact area first.",
+          "answer": "Parking is spread across Cedar Ridge, Indian Ridge, the Nature Center, canoe and sledding access, the skating pond, Osprey Lake and Pleasant Valley. Select the exact area and address before driving; they are not one compact complex.",
           "sourceLabel": "Columbus and Franklin County Metro Parks",
           "source": "https://www.metroparks.net/parks-and-trails/battelle-darby-creek/",
-          "verifiedAt": "2026-08-06",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "fast",
           "status": "verified"
         },
         {
           "intentKey": "entrance",
           "question": "What is the best entrance for Battelle Darby Creek Metro Park?",
-          "answer": "The Nature Center and bison pastures are the simplest first visit. Indian Ridge serves natural play; paddling and southern trail areas use separate entrances.",
+          "answer": "Use 1775 Darby Creek Drive and 39.90346,-83.20914 for the main Cedar Ridge arrival. The Nature Center has a separate 1415 Darby Creek Drive entrance and official arrival coordinate, while canoe, lake and southern trail areas use other roads.",
           "sourceLabel": "Columbus and Franklin County Metro Parks",
-          "source": "https://www.metroparks.net/parks-and-trails/battelle-darby-creek/",
-          "verifiedAt": "2026-08-06",
+          "source": "https://www.metroparks.net/parks-and-trails/",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "restroom",
           "question": "Are there restrooms at Battelle Darby Creek Metro Park?",
-          "answer": "Restrooms serve the Nature Center and major picnic areas, while remote trails and access points have limited facilities.",
+          "answer": "The operator lists restrooms at the Nature Center and developed picnic areas including Cedar Ridge, Indian Ridge and Little Darby. Remote trails, creek access points and pasture-viewing stretches can be far from facilities.",
           "sourceLabel": "Columbus and Franklin County Metro Parks",
           "source": "https://www.metroparks.net/parks-and-trails/battelle-darby-creek/",
-          "verifiedAt": "2026-08-06",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "fees",
           "question": "Is Battelle Darby Creek Metro Park free?",
-          "answer": "Park, parking, trails, bison viewing and nature center are free. Reservations and organized programs may vary.",
+          "answer": "Ordinary park access, trails, Nature Center exhibits, bison viewing and non-reservable shelters are listed without an entrance charge. First-come shelters are free while occupied; reservations and some organized activities use separate fees or registration.",
           "sourceLabel": "Columbus and Franklin County Metro Parks",
-          "source": "https://www.metroparks.net/parks-and-trails/battelle-darby-creek/",
-          "verifiedAt": "2026-08-06",
+          "source": "https://www.metroparks.net/faqs/",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "accessibility",
           "question": "How accessible is Battelle Darby Creek Metro Park?",
-          "answer": "The Nature Center and selected greenway and picnic routes are accessible; natural trails, creek banks and prairie surfaces vary.",
+          "answer": "The Nature Center and the five-mile gravel Darby Creek Greenway are identified as accessible, and developed areas include accessible facilities. Natural creek trails, prairie paths and water-access surfaces vary and should not be assumed barrier-free.",
           "sourceLabel": "Columbus and Franklin County Metro Parks",
-          "source": "https://www.metroparks.net/parks-and-trails/battelle-darby-creek/",
-          "verifiedAt": "2026-08-06",
+          "source": "https://www.metroparks.net/wp-content/uploads/2025/08/Metro-Parks-ADA-Accessible-and-Paved-Trails-1.pdf",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "dogs",
           "question": "Are dogs allowed at Battelle Darby Creek Metro Park?",
-          "answer": "Leashed dogs are allowed on designated pet trails and developed areas; keep well away from bison fencing and wildlife.",
+          "answer": "Pets may use designated trails plus picnic areas, parking lots and roadways on a leash no longer than six feet. Keep pets away from bison fencing and wildlife; service animals have broader access.",
           "sourceLabel": "Columbus and Franklin County Metro Parks",
-          "source": "https://www.metroparks.net/parks-and-trails/battelle-darby-creek/",
-          "verifiedAt": "2026-08-06",
+          "source": "https://www.metroparks.net/pets/",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "family",
           "question": "Is Battelle Darby Creek Metro Park good for children?",
-          "answer": "The living stream in the Nature Center, bison viewing and nine-acre natural play area make a strong family sequence.",
+          "answer": "The Nature Center's 53-foot living stream, seasonal bison viewing and nine-acre natural play area at Indian Ridge can form a family visit, but each uses a different parking area and outdoor wildlife are never guaranteed to be close.",
           "sourceLabel": "Columbus and Franklin County Metro Parks",
           "source": "https://www.metroparks.net/parks-and-trails/battelle-darby-creek/",
-          "verifiedAt": "2026-08-06",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "transit",
           "question": "How do I reach Battelle Darby Creek Metro Park without a car?",
-          "answer": "There is little practical public transit to the distributed park entrances; driving is recommended.",
+          "answer": "Metro Parks publishes driving directions to several dispersed entrances and does not document fixed-route public transit to them. Check a current regional trip planner before relying on transit and arrange pickup at a named area, not the general park name.",
           "sourceLabel": "Columbus and Franklin County Metro Parks",
-          "source": "https://www.metroparks.net/parks-and-trails/battelle-darby-creek/",
-          "verifiedAt": "2026-08-06",
+          "source": "https://www.metroparks.net/parks-and-trails/",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "need-to-know",
           "question": "What should I know before visiting Battelle Darby Creek Metro Park?",
-          "answer": "Bison roam two enclosed pastures and may be distant or temporarily out of view. Never cross fencing or approach wildlife; bring binoculars.",
+          "answer": "Bison move between two enclosed pastures and may be distant or out of view. The Nature Center balcony overlooks the winter enclosure; the Darby Creek Greenway serves summer viewing. Never cross fencing, and note that designated park zones can be open to hunting in season.",
           "sourceLabel": "Columbus and Franklin County Metro Parks",
-          "source": "https://www.metroparks.net/parks-and-trails/battelle-darby-creek/",
-          "verifiedAt": "2026-08-06",
+          "source": "https://www.metroparks.net/blog/20-in-22-darby-creeks-darby-plains/",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "fast",
           "status": "verified"
         },
         {
           "intentKey": "weather",
           "question": "What weather should I check before visiting Battelle Darby Creek Metro Park?",
-          "answer": "Check current Columbus-area weather and operator alerts. Scioto, Olentangy and Darby water levels, heat, storms, snow, ice and high winds can close fountains, river paths, trails or facilities independently.",
-          "sourceLabel": "Columbus and Franklin County Metro Parks",
-          "source": "https://www.metroparks.net/parks-and-trails/battelle-darby-creek/",
-          "verifiedAt": "2026-08-06",
+          "answer": "Check the National Weather Service forecast near the main Cedar Ridge entrance before a prairie, creek or paddling visit. Heat, storms, wind, high water, snow and ice can affect trails and water access independently of the posted park hours.",
+          "sourceLabel": "National Weather Service",
+          "source": "https://forecast.weather.gov/MapClick.php?lat=39.9035&lon=-83.2091",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "fast",
           "status": "verified"
         }
@@ -53776,7 +53862,7 @@
         "source": "https://commons.wikimedia.org/wiki/File%3ABattelle_Darby_Creek_Nature_Center_1.jpg",
         "author": "Sixflashphoto",
         "license": "CC BY-SA 4.0",
-        "alt": "Battelle Darby Creek Metro Park in the Columbus area",
+        "alt": "Battelle Darby Creek Nature Center rising from its planted prairie hillside",
         "width": 1600,
         "height": 1000
       },
@@ -53786,7 +53872,7 @@
           "source": "https://commons.wikimedia.org/wiki/File%3ABattelle_Darby_Creek_Metro_Park_(Galloway%2C_Ohio)_-_bison_2.jpg",
           "author": "Nheyob",
           "license": "CC BY-SA 4.0",
-          "alt": "Battelle Darby Creek Metro Park in the Columbus area",
+          "alt": "Bison herd behind the pasture fence at Battelle Darby Creek Metro Park",
           "width": 1600,
           "height": 1000
         },
@@ -53795,7 +53881,7 @@
           "source": "https://commons.wikimedia.org/wiki/File%3ALittle_Darby_Creek_1.jpg",
           "author": "Sixflashphoto",
           "license": "CC BY-SA 4.0",
-          "alt": "Battelle Darby Creek Metro Park in the Columbus area",
+          "alt": "Little Darby Creek flowing through autumn woods inside the Metro Park",
           "width": 1600,
           "height": 1000
         },
@@ -53804,13 +53890,13 @@
           "source": "https://commons.wikimedia.org/wiki/File%3ABattelle_Darby_Creek_-_Battelle_Darby_Creek_Unimproved_Trail_1.jpg",
           "author": "Sixflashphoto",
           "license": "CC BY-SA 4.0",
-          "alt": "Battelle Darby Creek Metro Park in the Columbus area",
+          "alt": "Rain-speckled unimproved-trail warning sign beneath green forest foliage",
           "width": 1600,
           "height": 1000
         }
       ],
       "replaceImages": true,
-      "verifiedAt": "2026-08-06"
+      "verifiedAt": "2026-08-11"
     },
     "launch-oh-columbus-quarry-trails-metro-park": {
       "name": "Quarry Trails Metro Park",

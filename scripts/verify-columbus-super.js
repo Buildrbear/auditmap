@@ -10,12 +10,12 @@ const failures = [];
 const slug = (value) => String(value).toLowerCase().replace(/&/g, " and ").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 const need = (condition, message) => { if (!condition) failures.push(message); };
 const expected = {
-  "launch-oh-columbus-schiller-park": ["schiller-park-pond", "schiller-statue"],
-  "launch-oh-columbus-whetstone-park-and-columbus-park-of-roses": ["columbus-park-of-roses"]
+  "launch-oh-columbus-highbanks-metro-park": ["highbanks-observation-deck"],
+  "launch-oh-columbus-battelle-darby-creek-metro-park": ["battelle-darby-creek-nature-center", "bison-pastures"]
 };
 const retired = {
-  "schiller-park": ["schiller-park-stage", "umbrella-girl-fountain", "schiller-recreation-center", "schiller-park-playground", "schiller-park-tennis-courts", "schiller-park-basketball-courts", "huntington-garden"],
-  "whetstone-park-and-columbus-park-of-roses": ["park-of-roses-gazebo", "heritage-rose-garden", "herb-garden", "whetstone-prairie", "olentangy-trail-access", "whetstone-park-playground", "whetstone-park-tennis-courts"]
+  "highbanks-metro-park": ["highbanks-nature-center", "overlook-trail", "big-meadows-picnic-area", "highbanks-natural-play-area", "dripping-rock-trail", "scenic-river-trail", "highbanks-wetland-observation-deck"],
+  "battelle-darby-creek-metro-park": ["indian-ridge-picnic-area", "battelle-darby-natural-play-area", "darby-creek-greenway-trail", "cedar-ridge-picnic-area", "big-darby-creek-canoe-access", "pleasant-valley-area"]
 };
 
 for (const scope of campaign.places.filter((entry) => entry.currentBatch)) {
@@ -76,7 +76,7 @@ for (const scope of campaign.places.filter((entry) => entry.currentBatch)) {
 }
 
 const scoped = campaign.places.filter((entry) => entry.currentBatch).map((scope) => JSON.stringify(places.find((place) => place.id === scope.id) || {})).join("\n");
-for (const phrase of ["7:00 a.m. to 11:00 p.m.", "0.8-mile paved path", "general public entrance", "not current closure notices", "7:00 a.m. to dusk", "step-free ADA parking", "COTA Route 2", "mid-June through mid-September", "historical and must not be presented as current conditions evidence"])
+for (const phrase of ["6:30 a.m. to 10:00 p.m.", "moderate-to-difficult 2.3-mile gravel", "off-trail activity is prohibited", "53-foot living stream", "two enclosed pastures", "winter bison enclosure", "does not establish a publication license", "1,204 acres while its park-overview page says 1,160 acres"])
   need(scoped.includes(phrase), `Missing Columbus guidance: ${phrase}`);
 need(!scoped.includes("Official source image"), "Unlicensed official-source image attribution survived current batch");
 
@@ -84,4 +84,4 @@ if (failures.length) {
   console.error(failures.join("\n"));
   process.exit(1);
 }
-console.log("Verified Columbus neighborhood gardens: two parent guides, three exact photo-backed destinations, source-specific answers and 14 retired-route redirects.");
+console.log("Verified Columbus Metro Parks: two parent guides, three exact photo-backed destinations, source-specific answers and 13 retired-route redirects.");

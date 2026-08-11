@@ -58,6 +58,28 @@
         "coordinateSource": "https://www.openstreetmap.org/way/546921148",
         "positionQuality": "Exact named OpenStreetMap garden way for Columbus Park of Roses, matching the operator's Hollenback Road entrance guidance"
       }
+    },
+    "launch-oh-columbus-highbanks-metro-park": {
+      "highbanks-observation-deck": {
+        "latitude": 40.139778,
+        "longitude": -83.031267,
+        "coordinateSource": "https://commons.wikimedia.org/wiki/File:Columbus,_Ohio_%E2%B1%AE_158.jpg",
+        "positionQuality": "Exact geotag on a current destination-specific photograph taken from Highbanks Observation Deck, corroborated by the operator's Overlook Trail guidance"
+      }
+    },
+    "launch-oh-columbus-battelle-darby-creek-metro-park": {
+      "battelle-darby-creek-nature-center": {
+        "latitude": 39.91618,
+        "longitude": -83.21127,
+        "coordinateSource": "https://www.metroparks.net/parks-and-trails/",
+        "positionQuality": "Exact operator-published arrival coordinate for the separate Nature Center entrance at 1415 Darby Creek Drive"
+      },
+      "bison-pastures": {
+        "latitude": 39.912208,
+        "longitude": -83.214622,
+        "coordinateSource": "https://commons.wikimedia.org/wiki/File:Battelle_Darby_Creek_Metro_Park_(Galloway,_Ohio)_-_bison_2.jpg",
+        "positionQuality": "Exact geotag on the destination-specific bison photograph at the publicly visible enclosure near the Nature Center; the herd moves seasonally between two pastures"
+      }
     }
   }
 }

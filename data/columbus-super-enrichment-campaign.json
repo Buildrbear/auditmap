@@ -58,7 +58,7 @@
       "operator": "Columbus Recreation and Parks",
       "source": "https://columbusrecparks.com/parks/schiller-park/",
       "checkedAt": "2026-08-11",
-      "currentBatch": true,
+      "currentBatch": false,
       "releaseBatch": "neighborhood-gardens-2",
       "minImages": 4,
       "subsites": [
@@ -74,7 +74,7 @@
       "operator": "Columbus Recreation and Parks",
       "source": "https://columbusrecparks.com/parks/whetstone-park-and-columbus-park-of-roses/",
       "checkedAt": "2026-08-11",
-      "currentBatch": true,
+      "currentBatch": false,
       "releaseBatch": "neighborhood-gardens-2",
       "minImages": 4,
       "subsites": [
@@ -88,15 +88,12 @@
       "citySlug": "columbus-oh",
       "operator": "Columbus and Franklin County Metro Parks",
       "source": "https://www.metroparks.net/parks-and-trails/highbanks/",
+      "checkedAt": "2026-08-11",
+      "currentBatch": true,
+      "releaseBatch": "metro-parks-3",
+      "minImages": 4,
       "subsites": [
-        "Highbanks Nature Center",
-        "Overlook Trail",
-        "Highbanks Observation Deck",
-        "Big Meadows Picnic Area",
-        "Highbanks Natural Play Area",
-        "Dripping Rock Trail",
-        "Scenic River Trail",
-        "Highbanks Wetland Observation Deck"
+        "Highbanks Observation Deck"
       ]
     },
     {
@@ -106,15 +103,13 @@
       "citySlug": "columbus-oh",
       "operator": "Columbus and Franklin County Metro Parks",
       "source": "https://www.metroparks.net/parks-and-trails/battelle-darby-creek/",
+      "checkedAt": "2026-08-11",
+      "currentBatch": true,
+      "releaseBatch": "metro-parks-3",
+      "minImages": 4,
       "subsites": [
         "Battelle Darby Creek Nature Center",
-        "Bison Pastures",
-        "Indian Ridge Picnic Area",
-        "Battelle Darby Natural Play Area",
-        "Darby Creek Greenway Trail",
-        "Cedar Ridge Picnic Area",
-        "Big Darby Creek Canoe Access",
-        "Pleasant Valley Area"
+        "Bison Pastures"
       ]
     },
     {
