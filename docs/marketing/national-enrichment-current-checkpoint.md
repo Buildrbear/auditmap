@@ -6,7 +6,7 @@ Last updated: 2026-08-11
 
 - Status: the Pittsburgh campaign source-persistence repair is locally complete; all 51 national enrichment campaign verifiers now pass with zero failures.
 - Working branch: `codex/pittsburgh-source-persistence`
-- Pull request: pending, to be stacked on Philadelphia draft PR #27
+- Pull request: https://github.com/Buildrbear/auditmap/pull/28 (draft, stacked on PR #27)
 - Outcome: eight authoritative Pittsburgh parent records, 54 existing reviewed images, and 21 existing evidence-complete destinations now survive clean full regeneration; the verifier checks four source layers as well as rendered output.
 - Preview: pending stacked draft-PR deployment.
 - Production status: not merged or promoted to production.
