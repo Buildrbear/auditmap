@@ -230,6 +230,12 @@ function researchQueue(p) {
     "The replacement playground opened in November 2025; older Commons playground photography is deliberately excluded because it depicts the former structure.",
     "The Nature Center destination uses the reviewed building centroid rather than the interior photograph's inconsistent camera GPS; the image remains valid only as destination-matched interior evidence."
   ];
+  if (p.id.endsWith("fort-harrison-state-park")) return [
+    "The Visitor Center, Harrison Trace Trail, Delaware Lake, Duck Pond, Lawrence Creek Trail, Museum of 20th Century Warfare, sledding hill and dog park remain parent guidance until each has exact reviewed coordinates, a complete destination-specific profile and matching current reusable photography.",
+    "The four reviewed Commons photographs document the parent park only. The broad trail and boardwalk views must not be assigned to Harrison Trace, Lawrence Creek or another named route without destination-specific evidence.",
+    "The bicycle and pedestrian entrance photograph dates to 2008 and is retained as stable parent arrival context, not proof of current fees or a standalone entrance destination.",
+    "The Saddle Barn is temporarily closed in 2026 while Indiana DNR seeks a concessionaire; verify the current alert before restoring horseback-riding guidance."
+  ];
   return [];
 }
 (() => {

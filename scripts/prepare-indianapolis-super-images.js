@@ -34,7 +34,11 @@ const altText = (name, label) => {
     "Holliday Park/\"The Ruins\" at Holliday Park, Indianapolis, Indiana.jpg": "Brick, stone columns and carved figures of the Holliday Park Ruins surrounded by summer gardens",
     "Holliday Park/Holliday Park Nature Center - 30363038234.jpg": "Interactive Cricket Frog Call exhibit inside Habitat Hall at the Holliday Park Nature Center",
     "Holliday Park/Take the path to the roots (3527135076).jpg": "Wooden footbridge and exposed tree roots on a wooded Holliday Park trail",
-    "Holliday Park/Holliday Park and Nature Center - July 2017 - Bart Everson 05.jpg": "High water along the wooded White River edge at Holliday Park"
+    "Holliday Park/Holliday Park and Nature Center - July 2017 - Bart Everson 05.jpg": "High water along the wooded White River edge at Holliday Park",
+    "Fort Harrison State Park/Fall Creek at Fort Harrison.jpg": "Fall Creek flowing through wooded Fort Harrison State Park",
+    "Fort Harrison State Park/Fort Ben - Fall Creek Boardwalk.jpg": "Wooden boardwalk descending through forest beside Fall Creek in Fort Harrison State Park",
+    "Fort Harrison State Park/Fort Ben - bike entrance.jpg": "Signed bicycle and pedestrian entrance to Fort Harrison State Park",
+    "Fort Harrison State Park/Trail at Fort Harrison SP.jpg": "Wooded natural-surface trail at Fort Harrison State Park"
   };
   return reviewed[key] || `${name} in Indianapolis`;
 };

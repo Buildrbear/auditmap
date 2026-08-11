@@ -6,38 +6,19 @@ const fs = require("node:fs"),
   places = require("../data/generated/launch-map-places.json"),
   redirects = require("../vercel.json").redirects || [],
   expected = {
-    "launch-in-indianapolis-garfield-park": [
-      "garfield-park-conservatory",
-      "sunken-garden",
-      "garfield-park-arts-center",
-    ],
-    "launch-in-indianapolis-holliday-park": [
-      "holliday-park-ruins",
-      "holliday-park-nature-center",
-    ],
+    "launch-in-indianapolis-fort-harrison-state-park": [],
   },
-  expectedIds = {
-    "garfield-park-conservatory": "9392a85e-e918-44bc-a430-62be03315249",
-    "sunken-garden": "0db69cbf-2877-448a-8318-7bc9e5be2645",
-    "garfield-park-arts-center": "0e48a97e-759a-4cea-99a8-013d51f300ca",
-    "holliday-park-ruins": "2fa4a148-b725-4b43-b890-4742887343a9",
-    "holliday-park-nature-center": "2e91c8d3-2494-41ca-9e07-a7eeeb18cbf3",
-  },
+  expectedIds = {},
   retired = {
-    "garfield-park": [
-      "garfield-park-pagoda",
-      "garfield-park-aquatic-center",
-      "macallister-amphitheater",
-      "burrello-family-center",
-      "pleasant-run-trail",
-    ],
-    "holliday-park": [
-      "holliday-park-playground",
-      "holliday-park-trails",
-      "white-river-overlook",
-      "holliday-park-arboretum",
-      "holliday-park-prairie",
-      "holliday-park-rock-garden",
+    "fort-harrison-state-park": [
+      "fort-harrison-visitor-center",
+      "harrison-trace-trail",
+      "delaware-lake",
+      "duck-pond",
+      "lawrence-creek-trail",
+      "museum-of-20th-century-warfare",
+      "fort-harrison-sledding-hill",
+      "fort-harrison-dog-park",
     ],
   },
   fail = [];
@@ -60,7 +41,7 @@ const need = (ok, message) => {
       );
   };
 
-need(currentBatch.length === 2, "Expected exactly two current-batch guides");
+need(currentBatch.length === 1, "Expected exactly one current-batch guide");
 for (const scope of currentBatch) {
   const place = places.find((item) => item.id === scope.id),
     parkSlug = scope.id.replace("launch-in-indianapolis-", ""),
@@ -127,5 +108,5 @@ if (fail.length) {
   process.exit(1);
 }
 console.log(
-  "Verified 2 Indianapolis guides, 5 evidence-cleared destinations, 8 reusable photos and 11 retired-route redirects.",
+  "Verified 1 Indianapolis guide, 0 evidence-cleared destinations, 4 reusable photos and 8 retired-route redirects.",
 );
