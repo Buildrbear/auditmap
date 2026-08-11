@@ -6,7 +6,7 @@ Last updated: 2026-08-11
 
 - Status: the Philadelphia campaign source-persistence repair is locally complete and restores the national verifier through campaign 32; a separate Pittsburgh persistence defect is now the first national-suite failure.
 - Working branch: `codex/philadelphia-evidence-repair`
-- Pull request: pending, to be stacked on Tampa Bay draft PR #26
+- Pull request: https://github.com/Buildrbear/auditmap/pull/27 (draft, stacked on PR #26)
 - Outcome: nine authoritative Philadelphia parent records, 51 existing reviewed images, and 40 existing evidence-complete destinations now survive clean full regeneration; the verifier checks source layers as well as rendered output.
 - Preview: pending stacked draft-PR deployment.
 - Production status: not merged or promoted to production.

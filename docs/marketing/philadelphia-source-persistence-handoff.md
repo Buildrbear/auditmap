@@ -6,7 +6,7 @@
 - Assignment: active AuditMap nationwide enrichment continuation; repair the first campaign defect exposed by the national verifier
 - OpenTask assignment: not separately supplied
 - GitHub issue: not separately supplied
-- Pull request: pending, to be stacked on Tampa Bay draft PR #26
+- Pull request: https://github.com/Buildrbear/auditmap/pull/27 (draft, stacked on PR #26)
 - Checked: 2026-08-11
 - Production publication: not performed
 
