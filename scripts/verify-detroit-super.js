@@ -15,6 +15,8 @@ const scopedIds = new Set([
   "launch-mi-detroit-ralph-c-wilson-jr-centennial-park",
   "launch-mi-detroit-dequindre-cut",
   "launch-mi-detroit-campus-martius-park",
+  "launch-mi-detroit-rouge-park",
+  "launch-mi-detroit-palmer-park",
   "launch-mi-detroit-hart-plaza"
 ]);
 const expected = {
@@ -23,6 +25,8 @@ const expected = {
   "launch-mi-detroit-ralph-c-wilson-jr-centennial-park": ["huron-clinton-metroparks-water-garden", "william-davidson-sport-house"],
   "launch-mi-detroit-dequindre-cut": [],
   "launch-mi-detroit-campus-martius-park": ["the-rink-at-campus-martius"],
+  "launch-mi-detroit-rouge-park": [],
+  "launch-mi-detroit-palmer-park": ["lake-frances", "palmer-park-log-cabin"],
   "launch-mi-detroit-hart-plaza": ["dodge-fountain", "transcending"]
 };
 const retired = {
@@ -31,6 +35,8 @@ const retired = {
   "ralph-c-wilson-jr-centennial-park": ["delta-dental-play-garden", "dte-foundation-summit", "community-lawn", "river-edge-garden", "ralph-wilson-park-basketball-courts", "ralph-wilson-park-riverwalk"],
   "dequindre-cut": ["dequindre-cut-atwater-entrance", "dequindre-cut-freight-yard", "campbell-terrace-stage", "dequindre-cut-murals", "grand-trunks-play-areas", "dequindre-cut-fit-park", "dequindre-cut-gratiot-entrance", "dequindre-cut-wilkins-entrance"],
   "campus-martius-park": ["the-beach-at-campus-martius", "woodward-esplanade", "michigan-soldiers-and-sailors-monument", "campus-martius-main-lawn", "campus-martius-fountain", "the-shop-at-campus-martius", "cadillac-square"],
+  "rouge-park": ["brennan-pool", "brennan-recreation-facility", "rouge-park-golf-course", "ma-iingan-wildwood-trail", "joe-prance-nature-trail", "scout-hollow-camp", "rouge-park-mountain-bike-trail", "rouge-park-prairie"],
+  "palmer-park": ["palmer-park-bandshell", "palmer-park-dog-park", "palmer-park-splash-park", "palmer-park-tennis-courts", "palmer-park-playground", "witherell-woods"],
   "hart-plaza": ["gateway-to-freedom-monument", "transcending-monument", "michigan-labor-legacy-monument", "hart-plaza-amphitheater", "hart-plaza-main-terrace", "spirit-of-detroit", "monument-to-joe-louis"]
 };
 const retiredDestinations = {
@@ -97,10 +103,10 @@ for (const scope of campaign.places) {
 }
 
 const scoped = campaign.places.filter(scope => scopedIds.has(scope.id)).map(scope => JSON.stringify(places.find(place => place.id === scope.id) || {})).join("\n");
-for (const phrase of ["official sources conflict", "visitors under 18", "150 free on-street spaces", "Pilot House is not wheelchair", "fishing is prohibited", "closes at 8:00 p.m.", "no permanent restrooms", "season ended March 1, 2026", "Michigan Labor Legacy Monument", "water operation is seasonal"]) need(scoped.includes(phrase), `Missing Detroit guidance: ${phrase}`);
+for (const phrase of ["official sources conflict", "visitors under 18", "150 free on-street spaces", "Pilot House is not wheelchair", "fishing is prohibited", "closes at 8:00 p.m.", "no permanent restrooms", "season ended March 1, 2026", "Michigan Labor Legacy Monument", "water operation is seasonal", "closed for construction until 2027", "master plan remains in development", "winter access is limited to daylight hours", "does not publish daily interior hours", "historical where labeled"]) need(scoped.includes(phrase), `Missing Detroit guidance: ${phrase}`);
 need(!scoped.includes("Official source image"), "Unlicensed official-source image attribution survived");
 if (fail.length) {
   console.error(fail.join("\n"));
   process.exit(1);
 }
-console.log("Verified two Detroit evidence batches: six parent guides, eight exact photo-backed destinations, source-specific answers and retired-route redirects.");
+console.log("Verified three Detroit evidence batches: eight parent guides, ten exact photo-backed destinations, source-specific answers and retired-route redirects.");

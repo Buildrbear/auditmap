@@ -45,104 +45,19 @@
         "source": "https://www.openstreetmap.org/node/5917115785"
       }
     },
-    "launch-mi-detroit-rouge-park": {
-      "brennan-pool": {
-        "latitude": 42.3711496,
-        "longitude": -83.2528305,
-        "displayName": "Brennan Pool, Plymouth Road, Detroit, Wayne County, Michigan, 48239, United States",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "brennan-recreation-facility": {
-        "latitude": 42.354431335136525,
-        "longitude": -83.25656866486348,
-        "displayName": "Approximate position within Rouge Park",
-        "source": "AuditMap official-map placement"
-      },
-      "rouge-park-golf-course": {
-        "latitude": 42.375522,
-        "longitude": -83.2526752,
-        "displayName": "Rouge Park Golf Course, Rouge Park Drive, Detroit, Wayne County, Michigan, 48223, United States",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "ma-iingan-wildwood-trail": {
-        "latitude": 42.35368180194847,
-        "longitude": -83.25668180194847,
-        "displayName": "Approximate position within Rouge Park",
-        "source": "AuditMap official-map placement"
-      },
-      "joe-prance-nature-trail": {
-        "latitude": 42.35339,
-        "longitude": -83.257,
-        "displayName": "Approximate position within Rouge Park",
-        "source": "AuditMap official-map placement"
-      },
-      "scout-hollow-camp": {
-        "latitude": 42.353455527778486,
-        "longitude": -83.25754447222153,
-        "displayName": "Approximate position within Rouge Park",
-        "source": "AuditMap official-map placement"
-      },
-      "rouge-park-mountain-bike-trail": {
-        "latitude": 42.354,
-        "longitude": -83.25745,
-        "displayName": "Approximate position within Rouge Park",
-        "source": "AuditMap official-map placement"
-      },
-      "rouge-park-prairie": {
-        "latitude": 42.354431335136525,
-        "longitude": -83.25743133513653,
-        "displayName": "Approximate position within Rouge Park",
-        "source": "AuditMap official-map placement"
-      }
-    },
+    "launch-mi-detroit-rouge-park": {},
     "launch-mi-detroit-palmer-park": {
       "lake-frances": {
-        "latitude": 42.421637,
-        "longitude": -83.1119439,
-        "displayName": "Lake Frances, Detroit, Wayne County, Michigan, United States",
-        "source": "OpenStreetMap Nominatim"
+        "latitude": 42.4216336,
+        "longitude": -83.1118855,
+        "displayName": "reviewed-named-lake-relation-and-city-habitat-project-map-match",
+        "source": "https://www.openstreetmap.org/relation/420964"
       },
       "palmer-park-log-cabin": {
-        "latitude": 42.42523133513652,
-        "longitude": -83.11536866486347,
-        "displayName": "Approximate position within Palmer Park",
-        "source": "AuditMap official-map placement"
-      },
-      "palmer-park-bandshell": {
-        "latitude": 42.4248,
-        "longitude": -83.11502999999999,
-        "displayName": "Approximate position within Palmer Park",
-        "source": "AuditMap official-map placement"
-      },
-      "palmer-park-dog-park": {
-        "latitude": 42.42448180194847,
-        "longitude": -83.11548180194846,
-        "displayName": "Approximate position within Palmer Park",
-        "source": "AuditMap official-map placement"
-      },
-      "palmer-park-splash-park": {
-        "latitude": 42.424189999999996,
-        "longitude": -83.1158,
-        "displayName": "Approximate position within Palmer Park",
-        "source": "AuditMap official-map placement"
-      },
-      "palmer-park-tennis-courts": {
-        "latitude": 42.424255527778485,
-        "longitude": -83.11634447222151,
-        "displayName": "Approximate position within Palmer Park",
-        "source": "AuditMap official-map placement"
-      },
-      "palmer-park-playground": {
-        "latitude": 42.4248,
-        "longitude": -83.11625,
-        "displayName": "Approximate position within Palmer Park",
-        "source": "AuditMap official-map placement"
-      },
-      "witherell-woods": {
-        "latitude": 42.4261822,
-        "longitude": -83.116379,
-        "displayName": "Witherell Woods, Detroit, Wayne County, Michigan, United States",
-        "source": "OpenStreetMap Nominatim"
+        "latitude": 42.422063,
+        "longitude": -83.1124702,
+        "displayName": "reviewed-named-log-cabin-building-way-and-2026-event-location-match",
+        "source": "https://www.openstreetmap.org/way/71186860"
       }
     },
     "launch-mi-detroit-hart-plaza": {

@@ -65519,10 +65519,10 @@
       "citySlug": "detroit-mi",
       "operator": "City of Detroit Parks and Recreation",
       "sourceLabel": "City of Detroit Parks and Recreation",
-      "source": "https://detroitmi.gov/sites/detroitmi.localhost/files/2026-03/Rouge%20Park%20Master%20Plan%20Community%20Mtg%201%20March%202026%281%29.pdf",
+      "source": "https://detroitmi.gov/departments/detroit-parks-recreation/parks-and-greenways/regional-and-riverfront-parks/rouge-park",
       "address": "21800 Joy Road, Detroit, MI 48228",
-      "summary": "Detroit's roughly 1,181-acre west-side regional park with river, forests, prairie, paved paths, nature and mountain-bike trails, golf, recreation areas and Scout Hollow.",
-      "hours": "City park hours are generally 6:00 a.m.-10:00 p.m. Trails should be used in daylight; golf, camps and future recreation facilities keep separate schedules.",
+      "summary": "Detroit's 1,184-acre west-side regional park, with 4.6 miles of the Rouge River, more than 400 acres of forest, 60 acres of prairie, a five-acre marsh, paved paths, natural trails, recreation areas and golf.",
+      "hours": "Detroit park rules set ordinary park hours at 6:00 a.m.-10:00 p.m. Golf, organized camping, programs and construction-controlled facilities keep separate schedules; use remote natural trails in daylight.",
       "hoursSchedule": {
         "sunday": [
           [
@@ -65567,117 +65567,117 @@
           ]
         ]
       },
-      "cost": "General park access, paths and natural trails are free. Golf, reservations, programs and organized camping may cost separately.",
-      "accessibility": "Paved paths and developed recreation areas provide accessible options; forest and mountain-bike trails are natural and uneven.",
-      "transit": "DDOT reaches surrounding corridors, but the park's scale makes a private vehicle or bicycle more practical for many destinations.",
+      "cost": "Ordinary park access, paved paths and natural areas are free. Golf, reservations, programs and authorized camping have separate arrangements and may cost extra.",
+      "accessibility": "The City documents six miles of paved walking paths, while natural hiking and mountain-bike trails cross forest, prairie and marsh terrain. The 2026 plan is still being developed, so confirm the exact paved route and current construction before a mobility-specific visit.",
+      "transit": "DDOT Route 27 Joy serves the Joy Road corridor on a schedule that changed in April 2026. Check the current stop and timetable, then account for the long distance from the park edge to the selected internal destination.",
       "searchAnswers": [
         {
           "intentKey": "hours",
           "question": "When is Rouge Park open?",
-          "answer": "City park hours are generally 6:00 a.m.-10:00 p.m. Trails should be used in daylight; golf, camps and future recreation facilities keep separate schedules.",
+          "answer": "Detroit park rules set ordinary park hours at 6:00 a.m.-10:00 p.m. Golf, organized camping, programs and construction-controlled facilities keep separate schedules; use remote natural trails in daylight.",
           "sourceLabel": "City of Detroit Parks and Recreation",
-          "source": "https://detroitmi.gov/sites/detroitmi.localhost/files/2026-03/Rouge%20Park%20Master%20Plan%20Community%20Mtg%201%20March%202026%281%29.pdf",
-          "verifiedAt": "2026-08-06",
+          "source": "https://detroitmi.gov/document/park-rules",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "fast",
           "status": "verified"
         },
         {
           "intentKey": "parking",
           "question": "Where should I park for Rouge Park?",
-          "answer": "Separate lots serve Brennan, golf, trailheads, Scout Hollow and recreation zones. Choose the named destination before entering this very large park.",
+          "answer": "Rouge Park has separate arrival areas rather than one central lot. The City's 2026 planning maps show parking near Brennan, golf, Joe Prance, trailheads and other active areas, but ongoing planning and construction can change access; choose the intended zone first.",
           "sourceLabel": "City of Detroit Parks and Recreation",
           "source": "https://detroitmi.gov/sites/detroitmi.localhost/files/2026-03/Rouge%20Park%20Master%20Plan%20Community%20Mtg%201%20March%202026%281%29.pdf",
-          "verifiedAt": "2026-08-06",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "fast",
           "status": "verified"
         },
         {
           "intentKey": "entrance",
           "question": "What is the best entrance for Rouge Park?",
-          "answer": "Joy Road is a common address, but not a useful universal pin. Route directly to Brennan, golf, Scout Hollow or a named trailhead.",
+          "answer": "The official address is 21800 Joy Road, but this 1,184-acre park spans several roads. Use the City's current park map and route to Brennan, golf, Scout Hollow or a named trailhead instead of the parent pin.",
           "sourceLabel": "City of Detroit Parks and Recreation",
-          "source": "https://detroitmi.gov/sites/detroitmi.localhost/files/2026-03/Rouge%20Park%20Master%20Plan%20Community%20Mtg%201%20March%202026%281%29.pdf",
-          "verifiedAt": "2026-08-06",
+          "source": "https://detroitmi.gov/media/66221",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "restroom",
           "question": "Are there restrooms at Rouge Park?",
-          "answer": "Restroom availability is concentrated at staffed recreation, golf and reservable areas and may be seasonal. Natural areas do not provide frequent facilities.",
+          "answer": "The City does not promise a restroom at every recreation or natural area. Its 2026 planning materials identify existing and proposed comfort-station work, so verify the nearest open facility before entering a remote zone.",
           "sourceLabel": "City of Detroit Parks and Recreation",
           "source": "https://detroitmi.gov/sites/detroitmi.localhost/files/2026-03/Rouge%20Park%20Master%20Plan%20Community%20Mtg%201%20March%202026%281%29.pdf",
-          "verifiedAt": "2026-08-06",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "fees",
           "question": "Is Rouge Park free?",
-          "answer": "General park access, paths and natural trails are free. Golf, reservations, programs and organized camping may cost separately.",
+          "answer": "Ordinary park access, paved paths and natural areas are free. Golf, reservations, programs and authorized camping have separate arrangements and may cost extra.",
           "sourceLabel": "City of Detroit Parks and Recreation",
-          "source": "https://detroitmi.gov/sites/detroitmi.localhost/files/2026-03/Rouge%20Park%20Master%20Plan%20Community%20Mtg%201%20March%202026%281%29.pdf",
-          "verifiedAt": "2026-08-06",
+          "source": "https://detroitmi.gov/departments/detroit-parks-recreation/parks-and-greenways/regional-and-riverfront-parks/rouge-park",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "accessibility",
           "question": "How accessible is Rouge Park?",
-          "answer": "Paved paths and developed recreation areas provide accessible options; forest and mountain-bike trails are natural and uneven.",
+          "answer": "The City documents six miles of paved walking paths, while natural hiking and mountain-bike trails cross forest, prairie and marsh terrain. The 2026 plan is still being developed, so confirm the exact paved route and current construction before a mobility-specific visit.",
           "sourceLabel": "City of Detroit Parks and Recreation",
-          "source": "https://detroitmi.gov/sites/detroitmi.localhost/files/2026-03/Rouge%20Park%20Master%20Plan%20Community%20Mtg%201%20March%202026%281%29.pdf",
-          "verifiedAt": "2026-08-06",
+          "source": "https://detroitmi.gov/departments/detroit-parks-recreation/parks-and-greenways/regional-and-riverfront-parks/rouge-park",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "dogs",
           "question": "Are dogs allowed at Rouge Park?",
-          "answer": "Leashed dogs are welcome in ordinary park areas. Keep them from pools, golf play, organized camps and posted habitat areas.",
+          "answer": "Detroit park rules require dogs to stay on a leash no longer than 72 inches, require waste cleanup and prohibit pets in play areas, on play equipment and on sports fields. Follow additional posted restrictions near facilities and habitat work.",
           "sourceLabel": "City of Detroit Parks and Recreation",
-          "source": "https://detroitmi.gov/sites/detroitmi.localhost/files/2026-03/Rouge%20Park%20Master%20Plan%20Community%20Mtg%201%20March%202026%281%29.pdf",
-          "verifiedAt": "2026-08-06",
+          "source": "https://detroitmi.gov/document/park-rules",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "family",
           "question": "Is Rouge Park good for children?",
-          "answer": "Open recreation zones and nature walks support family visits, but Brennan Pool is not currently available and remote trails require preparation.",
+          "answer": "Developed recreation areas and paved paths provide family options, but Brennan Pool is closed for construction and the park's scale and remote natural areas require a chosen destination and return plan.",
           "sourceLabel": "City of Detroit Parks and Recreation",
-          "source": "https://detroitmi.gov/sites/detroitmi.localhost/files/2026-03/Rouge%20Park%20Master%20Plan%20Community%20Mtg%201%20March%202026%281%29.pdf",
-          "verifiedAt": "2026-08-06",
+          "source": "https://detroitmi.gov/departments/detroit-parks-recreation/parks-and-greenways/regional-and-riverfront-parks/rouge-park",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "transit",
           "question": "How do I reach Rouge Park without a car?",
-          "answer": "DDOT reaches surrounding corridors, but the park's scale makes a private vehicle or bicycle more practical for many destinations.",
+          "answer": "DDOT Route 27 Joy serves the Joy Road corridor on a schedule that changed in April 2026. Check the current stop and timetable, then account for the long distance from the park edge to the selected internal destination.",
           "sourceLabel": "City of Detroit Parks and Recreation",
-          "source": "https://detroitmi.gov/sites/detroitmi.localhost/files/2026-03/Rouge%20Park%20Master%20Plan%20Community%20Mtg%201%20March%202026%281%29.pdf",
-          "verifiedAt": "2026-08-06",
+          "source": "https://detroitmi.gov/node/79216",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "need-to-know",
           "question": "What should I know before visiting Rouge Park?",
-          "answer": "Brennan Pool is closed for construction until 2027 while a new recreation facility is built. Construction and the 2026 master-planning process can change access; verify the exact zone.",
+          "answer": "Brennan Pool is closed for construction until 2027 while a new recreation facility is built. The Rouge Park master plan remains in development, and lighting, camera, prairie-restoration and facility work can change individual approaches.",
           "sourceLabel": "City of Detroit Parks and Recreation",
-          "source": "https://detroitmi.gov/sites/detroitmi.localhost/files/2026-03/Rouge%20Park%20Master%20Plan%20Community%20Mtg%201%20March%202026%281%29.pdf",
-          "verifiedAt": "2026-08-06",
+          "source": "https://detroitmi.gov/departments/detroit-parks-recreation/recreation-centers/brennan-recreation-facility",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "fast",
           "status": "verified"
         },
         {
           "intentKey": "weather",
           "question": "What weather should I check before visiting Rouge Park?",
-          "answer": "Check Detroit weather, air quality, river levels and operator alerts. Steep trails, pools, spray parks, fountains, docks and events can close independently.",
+          "answer": "Check Detroit weather, air quality and operator alerts. Heat, snow, ice, storms, flooding and seasonal operations can close paths or facilities independently.",
           "sourceLabel": "City of Detroit Parks and Recreation",
-          "source": "https://detroitmi.gov/sites/detroitmi.localhost/files/2026-03/Rouge%20Park%20Master%20Plan%20Community%20Mtg%201%20March%202026%281%29.pdf",
-          "verifiedAt": "2026-08-06",
+          "source": "https://detroitmi.gov/departments/detroit-parks-recreation/parks-and-greenways/regional-and-riverfront-parks/rouge-park",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "fast",
           "status": "verified"
         }
@@ -65687,7 +65687,7 @@
         "source": "https://commons.wikimedia.org/wiki/File%3ARouge_Park_Detroit_south_entrance.jpg",
         "author": "DontCallMeLateForDinner",
         "license": "CC BY-SA 4.0",
-        "alt": "Rouge Park in Detroit",
+        "alt": "The signed south entrance to Rouge Park",
         "width": 1600,
         "height": 1000
       },
@@ -65697,7 +65697,7 @@
           "source": "https://commons.wikimedia.org/wiki/File%3ARouge_park_trail_panorama.jpg",
           "author": "The Cosmonaut",
           "license": "CC BY-SA 2.5 ca",
-          "alt": "Rouge Park in Detroit",
+          "alt": "A paved path crossing Rouge Park prairie habitat",
           "width": 1600,
           "height": 1000
         },
@@ -65706,7 +65706,7 @@
           "source": "https://commons.wikimedia.org/wiki/File%3ARouge_Park_(6582928087).jpg",
           "author": "Vlad Litvinov from Toronto",
           "license": "CC BY 2.0",
-          "alt": "Rouge Park in Detroit",
+          "alt": "A natural-surface path through Rouge Park woods",
           "width": 532,
           "height": 800
         },
@@ -65715,13 +65715,13 @@
           "source": "https://commons.wikimedia.org/wiki/File%3ABrennan_Pool%2C_Rouge_Park%2C_Detroit.jpg",
           "author": "DontCallMeLateForDinner",
           "license": "CC BY-SA 4.0",
-          "alt": "Rouge Park in Detroit",
+          "alt": "Brennan Pool and its historic pool house before the 2026 construction closure",
           "width": 1600,
           "height": 1000
         }
       ],
       "replaceImages": true,
-      "verifiedAt": "2026-08-06"
+      "verifiedAt": "2026-08-11"
     },
     "launch-mi-detroit-palmer-park": {
       "name": "Palmer Park",
@@ -65731,8 +65731,8 @@
       "sourceLabel": "City of Detroit Parks and Recreation",
       "source": "https://detroitmi.gov/departments/detroit-parks-recreation/parks-and-greenways/palmer-park",
       "address": "910 Merrill Plaisance Street, Detroit, MI 48203",
-      "summary": "A 281-acre north Detroit regional park with Lake Frances, historic log cabin, woods, bandshell, dog park, splash park, playground, courts, fields and fitness areas.",
-      "hours": "City park hours are generally 6:00 a.m.-10:00 p.m. Splash play, nature programming, cabin access and events have seasonal or scheduled hours.",
+      "summary": "A 281-acre north Detroit regional park with Lake Frances, a historic log cabin, Witherell Woods, a new bandshell, dog park, splash park, playground, courts, fields and fitness areas.",
+      "hours": "Detroit park rules set ordinary hours at 6:00 a.m.-10:00 p.m.; the City's Adopt-a-Park partner says winter access is limited to daylight hours. Splash play, Log Cabin interiors and bandshell programs keep seasonal or event schedules.",
       "hoursSchedule": {
         "sunday": [
           [
@@ -65777,129 +65777,129 @@
           ]
         ]
       },
-      "cost": "Park, lake paths, dog park, playground, courts and splash park are free. Reservations and programs may cost separately.",
-      "accessibility": "Recent improvements added paved paths, parking, playground and gathering areas; woodland routes remain natural.",
-      "transit": "Woodward-area transit and nearby buses reach the park edges; verify the final walk to the selected feature.",
+      "cost": "Ordinary park access is free. The dog park and seasonal splash park are free; reservations, special events and programs may have separate registration or costs.",
+      "accessibility": "The City documents newer paved walkways, parking, playground and gathering areas, but does not certify every route. Witherell Woods remains natural terrain, and the exact condition of older facilities should be confirmed for a mobility-specific visit.",
+      "transit": "DDOT Route 4 Woodward serves the east edge of Palmer Park, and the City identifies a mobility hub at Woodward and Merrill Plaisance. Confirm the current stop and the walk to the selected feature.",
       "searchAnswers": [
         {
           "intentKey": "hours",
           "question": "When is Palmer Park open?",
-          "answer": "City park hours are generally 6:00 a.m.-10:00 p.m. Splash play, nature programming, cabin access and events have seasonal or scheduled hours.",
+          "answer": "Detroit park rules set ordinary hours at 6:00 a.m.-10:00 p.m.; the City's Adopt-a-Park partner says winter access is limited to daylight hours. Splash play, Log Cabin interiors and bandshell programs keep seasonal or event schedules.",
           "sourceLabel": "City of Detroit Parks and Recreation",
-          "source": "https://detroitmi.gov/departments/detroit-parks-recreation/parks-and-greenways/palmer-park",
-          "verifiedAt": "2026-08-06",
+          "source": "https://www.peopleforpalmerpark.org/contact-us.html",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "fast",
           "status": "verified"
         },
         {
           "intentKey": "parking",
           "question": "Where should I park for Palmer Park?",
-          "answer": "Free lots and curb spaces serve Lake Frances, the bandshell, dog park and recreation areas. Event days can fill the new bandshell lot.",
+          "answer": "Use Merrill Plaisance and Woodward Avenue for the Lake Frances and Log Cabin area. The City documents a new 60-space paved lot at the bandshell; large events can fill or control nearby parking.",
           "sourceLabel": "City of Detroit Parks and Recreation",
-          "source": "https://detroitmi.gov/departments/detroit-parks-recreation/parks-and-greenways/palmer-park",
-          "verifiedAt": "2026-08-06",
+          "source": "https://detroitmi.gov/news/city-detroit-community-partners-mark-grand-opening-iconic-bandshell-palmer-park-musical-celebration",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "fast",
           "status": "verified"
         },
         {
           "intentKey": "entrance",
           "question": "What is the best entrance for Palmer Park?",
-          "answer": "Use Merrill Plaisance for Lake Frances and the historic core; the dog park, bandshell and recreation zones have separate practical approaches.",
+          "answer": "Use Merrill Plaisance for Lake Frances, the Log Cabin and the historic core. The dog park and bandshell are approached from the Seven Mile Road side, while recreation facilities farther south require their own arrival point.",
           "sourceLabel": "City of Detroit Parks and Recreation",
-          "source": "https://detroitmi.gov/departments/detroit-parks-recreation/parks-and-greenways/palmer-park",
-          "verifiedAt": "2026-08-06",
+          "source": "https://www.peopleforpalmerpark.org/contact-us.html",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "restroom",
           "question": "Are there restrooms at Palmer Park?",
-          "answer": "New bandshell support facilities include restrooms for events, while other availability is seasonal or tied to programmed facilities.",
+          "answer": "The City documents new restrooms at the bandshell complex but does not promise that they remain unlocked outside programmed events. Verify access before relying on them elsewhere in the 281-acre park.",
           "sourceLabel": "City of Detroit Parks and Recreation",
-          "source": "https://detroitmi.gov/departments/detroit-parks-recreation/parks-and-greenways/palmer-park",
-          "verifiedAt": "2026-08-06",
+          "source": "https://detroitmi.gov/news/city-detroit-community-partners-mark-grand-opening-iconic-bandshell-palmer-park-musical-celebration",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "fees",
           "question": "Is Palmer Park free?",
-          "answer": "Park, lake paths, dog park, playground, courts and splash park are free. Reservations and programs may cost separately.",
+          "answer": "Ordinary park access is free. The dog park and seasonal splash park are free; reservations, special events and programs may have separate registration or costs.",
           "sourceLabel": "City of Detroit Parks and Recreation",
-          "source": "https://detroitmi.gov/departments/detroit-parks-recreation/parks-and-greenways/palmer-park",
-          "verifiedAt": "2026-08-06",
+          "source": "https://www.peopleforpalmerpark.org/contact-us.html",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "accessibility",
           "question": "How accessible is Palmer Park?",
-          "answer": "Recent improvements added paved paths, parking, playground and gathering areas; woodland routes remain natural.",
+          "answer": "The City documents newer paved walkways, parking, playground and gathering areas, but does not certify every route. Witherell Woods remains natural terrain, and the exact condition of older facilities should be confirmed for a mobility-specific visit.",
           "sourceLabel": "City of Detroit Parks and Recreation",
           "source": "https://detroitmi.gov/departments/detroit-parks-recreation/parks-and-greenways/palmer-park",
-          "verifiedAt": "2026-08-06",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "dogs",
           "question": "Are dogs allowed at Palmer Park?",
-          "answer": "Leashed dogs are welcome outside the fenced one-acre dog park, which has separate small- and large-dog areas and drinking fountains.",
+          "answer": "Detroit park rules require a leash no longer than 72 inches outside the fenced dog park and prohibit pets in play areas and sports fields. The one-acre dog park has separate small- and large-dog areas, drinking fountains and waste stations.",
           "sourceLabel": "City of Detroit Parks and Recreation",
-          "source": "https://detroitmi.gov/departments/detroit-parks-recreation/parks-and-greenways/palmer-park",
-          "verifiedAt": "2026-08-06",
+          "source": "https://detroitmi.gov/news/city-detroit-celebrates-completion-new-one-acre-dog-park-historic-palmer-park",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "family",
           "question": "Is Palmer Park good for children?",
-          "answer": "Splash play, playground, Lake Frances, sports and nature programming provide varied free family options.",
+          "answer": "The playground, summer splash park, Lake Frances, courts and 2026 community programs offer varied family stops. Keep children close at the lake and verify the independent schedule for water play or Cabin access.",
           "sourceLabel": "City of Detroit Parks and Recreation",
           "source": "https://detroitmi.gov/departments/detroit-parks-recreation/parks-and-greenways/palmer-park",
-          "verifiedAt": "2026-08-06",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "transit",
           "question": "How do I reach Palmer Park without a car?",
-          "answer": "Woodward-area transit and nearby buses reach the park edges; verify the final walk to the selected feature.",
+          "answer": "DDOT Route 4 Woodward serves the east edge of Palmer Park, and the City identifies a mobility hub at Woodward and Merrill Plaisance. Confirm the current stop and the walk to the selected feature.",
           "sourceLabel": "City of Detroit Parks and Recreation",
-          "source": "https://detroitmi.gov/departments/detroit-parks-recreation/parks-and-greenways/palmer-park",
-          "verifiedAt": "2026-08-06",
+          "source": "https://detroitmi.gov/node/79136",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "need-to-know",
           "question": "What should I know before visiting Palmer Park?",
-          "answer": "Splash operation and cabin access are not year-round. Lake and habitat restoration or events may temporarily redirect paths around Lake Frances and Witherell Woods.",
+          "answer": "The splash park is seasonal, the Log Cabin interior opens for announced programs rather than daily tours, and bandshell events can control parking and restroom access. The City still presents Lake Frances and Witherell Woods habitat work as an active park project.",
           "sourceLabel": "City of Detroit Parks and Recreation",
           "source": "https://detroitmi.gov/departments/detroit-parks-recreation/parks-and-greenways/palmer-park",
-          "verifiedAt": "2026-08-06",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "fast",
           "status": "verified"
         },
         {
           "intentKey": "weather",
           "question": "What weather should I check before visiting Palmer Park?",
-          "answer": "Check Detroit weather, air quality, river levels and operator alerts. Steep trails, pools, spray parks, fountains, docks and events can close independently.",
+          "answer": "Check Detroit weather, air quality and operator alerts. Heat, snow, ice, storms, flooding and seasonal operations can close paths or facilities independently.",
           "sourceLabel": "City of Detroit Parks and Recreation",
           "source": "https://detroitmi.gov/departments/detroit-parks-recreation/parks-and-greenways/palmer-park",
-          "verifiedAt": "2026-08-06",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "fast",
           "status": "verified"
         }
       ],
       "image": {
-        "url": "/assets/parks/detroit-super/palmer-park/01-palmer-park-lake-frances-pavilion.webp",
-        "source": "https://detroitmi.gov/departments/detroit-parks-recreation/parks-and-greenways/palmer-park",
-        "author": "City of Detroit",
-        "license": "Official source image",
-        "alt": "Palmer Park in Detroit",
+        "url": "/assets/parks/detroit-super/palmer-park/01-palmer-park-detroit-mi-54219653142-jpg.webp",
+        "source": "https://commons.wikimedia.org/wiki/File%3APalmer_Park%2C_Detroit%2C_MI_-_54219653142.jpg",
+        "author": "w_lemay",
+        "license": "CC BY-SA 2.0",
+        "alt": "Palmer Park lawns, paths and the Merrill Humane Fountain in September 2024",
         "width": 1600,
-        "height": 853
+        "height": 1000
       },
       "additionalImages": [
         {
@@ -65907,7 +65907,7 @@
           "source": "https://commons.wikimedia.org/wiki/File%3AThe_Lake_-_Palmer_Park_Detroit_-_4a22158a.jpg",
           "author": "Detroit Publishing Company",
           "license": "Public domain",
-          "alt": "Palmer Park in Detroit",
+          "alt": "A circa-1906 view across Lake Frances in Palmer Park",
           "width": 1600,
           "height": 1000
         },
@@ -65916,7 +65916,7 @@
           "source": "https://commons.wikimedia.org/wiki/File%3ALog_cabin_-_Palmer_Park_Detroit_-_4a27367a.jpg",
           "author": "Detroit Publishing Company",
           "license": "Public domain",
-          "alt": "Palmer Park in Detroit",
+          "alt": "The Palmer Park Log Cabin in a circa-1906 photograph",
           "width": 1600,
           "height": 1000
         },
@@ -65925,13 +65925,13 @@
           "source": "https://commons.wikimedia.org/wiki/File%3ACasino_-_Palmer_Park_Detroit_-_4a07962a.jpg",
           "author": "Detroit Publishing Company",
           "license": "Public domain",
-          "alt": "Palmer Park in Detroit",
+          "alt": "The former Palmer Park casino building in a circa-1900 photograph",
           "width": 1600,
           "height": 1000
         }
       ],
       "replaceImages": true,
-      "verifiedAt": "2026-08-06"
+      "verifiedAt": "2026-08-11"
     },
     "launch-mi-detroit-hart-plaza": {
       "name": "Hart Plaza",

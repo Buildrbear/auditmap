@@ -60,7 +60,7 @@ function parentAnswers(place) {
     ["family", `Is ${place.name} good for children?`, place.family],
     ["transit", `How do I reach ${place.name} without a car?`, place.transit],
     ["need-to-know", `What should I know before visiting ${place.name}?`, place.need],
-    ["weather", `What weather should I check before visiting ${place.name}?`, "Check Detroit weather, air quality, river conditions and operator alerts. Heat, snow, ice, storms, high water and seasonal operations can close paths or facilities independently."]
+    ["weather", `What weather should I check before visiting ${place.name}?`, "Check Detroit weather, air quality and operator alerts. Heat, snow, ice, storms, flooding and seasonal operations can close paths or facilities independently."]
   ].map(values => answer(place, ...values, sourceFor(values[0])));
 }
 
@@ -162,6 +162,16 @@ function researchQueue(place) {
   if (place.id.endsWith("hart-plaza")) return [
     "Gateway to Freedom remains parent guidance until a destination-specific reusable photograph clears review.",
     "Michigan Labor Legacy Monument is an alias for Transcending, while Spirit of Detroit and Monument to Joe Louis are separate landmarks outside Hart Plaza; approximate amphitheater and terrace routes were retired."
+  ];
+  if (place.id.endsWith("rouge-park")) return [
+    "Brennan Pool remains parent guidance while closed for construction until 2027; the future Brennan Recreation Facility is not yet a public destination.",
+    "Rouge Park Golf Course, Ma'iingan Wildwood Trail, Joe Prance Nature Trail, Scout Hollow Camp, the mountain-bike trail and the prairie remain parent guidance until each clears exact-arrival, current-profile and destination-specific reusable-photo review.",
+    "The March 2026 master-plan presentation records concepts and feedback, not completed amenities; proposed parking, restrooms, trails and access changes must not be presented as current facts."
+  ];
+  if (place.id.endsWith("palmer-park")) return [
+    "The bandshell, dog park, splash park, tennis courts, playground and Witherell Woods remain parent guidance until each has destination-specific reusable photography and a complete current visitor profile.",
+    "Lake Frances and Log Cabin photos are historical where labeled; future review should seek current destination-specific Commons or permission-cleared photographs.",
+    "Do not treat the City website's banner image as reusable media without an explicit license or permission record."
   ];
   return [];
 }

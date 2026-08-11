@@ -163,6 +163,60 @@
         }
       }
     },
+    "launch-mi-detroit-palmer-park": {
+      "lake-frances": {
+        "description": "Lake Frances is Palmer Park's roughly three-acre landscaped lake, bordered by the historic Log Cabin area and habitat-restoration paths.",
+        "address": "910 Merrill Plaisance Street, Detroit, MI 48203",
+        "sourceLabel": "City of Detroit Palmer Park",
+        "source": "https://detroitmi.gov/departments/detroit-parks-recreation/parks-and-greenways/palmer-park",
+        "imageIndex": 1,
+        "location": "Use the exact Lake Frances pin in the southeastern part of Palmer Park, west of Woodward Avenue and east of Merrill Plaisance. The Log Cabin is immediately northwest of the lake.",
+        "parking": "For the lake and Log Cabin area, People for Palmer Park directs visitors to free nearby parking on Merrill Plaisance and Woodward Avenue. Follow posted restrictions and event controls.",
+        "hours": "The outdoor lake area follows Palmer Park access: 6:00 a.m.-10:00 p.m. in summer and daylight hours in winter, according to the City's Adopt-a-Park partner. Events and habitat work can restrict individual paths.",
+        "restrooms": "The City documents restrooms at the newer bandshell complex but does not promise daily access or a dedicated restroom at Lake Frances. Confirm an open facility before relying on one.",
+        "fees": "Viewing the lake and using ordinary park paths are free. Reserved events, programs and parking outside the park may have separate terms.",
+        "accessibility": "The City documents park walkway improvements and habitat work around Lake Frances but does not certify a continuously accessible lake loop. Confirm current surfaces and closures for a mobility-specific visit.",
+        "dogs": "Dogs must stay on a leash no longer than 72 inches at the lake, and owners must remove waste. Use the fenced dog park for off-leash activity and keep pets out of play areas and sports fields.",
+        "family": "Lake Frances is a scenic family stop near the Log Cabin, but it is open water rather than a swim or splash facility. Keep children at arm's reach near the shoreline and use the separate seasonal splash park for water play.",
+        "need": "The City continues to present Lake Frances and Witherell Woods habitat restoration as a current project. Do not promise fishing, swimming, a complete loop or uninterrupted shoreline access; check current park notices and barriers.",
+        "answerSources": {
+          "parking": "https://www.peopleforpalmerpark.org/log-cabin-day.html",
+          "hours": "https://www.peopleforpalmerpark.org/contact-us.html",
+          "restroom": "https://detroitmi.gov/news/city-detroit-community-partners-mark-grand-opening-iconic-bandshell-palmer-park-musical-celebration",
+          "fees": "https://www.peopleforpalmerpark.org/contact-us.html",
+          "accessibility": "https://detroitmi.gov/departments/detroit-parks-recreation/parks-and-greenways/palmer-park",
+          "dogs": "https://detroitmi.gov/document/park-rules",
+          "family": "https://www.peopleforpalmerpark.org/habitat-project.html",
+          "need-to-know": "https://detroitmi.gov/departments/detroit-parks-recreation/parks-and-greenways/palmer-park"
+        }
+      },
+      "palmer-park-log-cabin": {
+        "description": "Palmer Park Log Cabin is the Palmers' restored 1885 summer home, now opened for announced history, arts and community programs rather than daily drop-in tours.",
+        "address": "910 Merrill Plaisance Street, Detroit, MI 48203",
+        "sourceLabel": "People for Palmer Park",
+        "source": "https://www.peopleforpalmerpark.org/log-cabin-day.html",
+        "imageIndex": 2,
+        "location": "Use the exact named-building pin northwest of Lake Frances, near the Mounted Police Station at 910 Merrill Plaisance. Do not navigate to similarly named streets outside the park.",
+        "parking": "People for Palmer Park directs Log Cabin Day visitors to free nearby parking on Merrill Plaisance and Woodward Avenue. Event traffic can change the closest available space.",
+        "hours": "The Cabin does not publish daily interior hours. It opens for announced programs; the next listed Log Cabin Day is Sunday, June 28, 2026, from 1:00-4:00 p.m. Recheck before traveling for interior access.",
+        "restrooms": "The event page does not promise a restroom inside the historic Cabin. The City documents restrooms at the newer bandshell complex, but verify event-day access before relying on them.",
+        "fees": "The listed 2026 Log Cabin Day is free. Other programs, fundraisers or private arrangements can have different registration and costs.",
+        "accessibility": "The organizer does not publish a complete step-free route or interior accessibility profile for the 1885 building. Contact People for Palmer Park before a visit that depends on entrance, stair or restroom accommodations.",
+        "dogs": "Ordinary park leash rules apply outside, but the event page does not promise pet admission inside the Cabin. Confirm event rules and service-animal arrangements with the organizer.",
+        "family": "The 2026 Log Cabin Day is explicitly family-friendly and includes children's activities and tours. Interior access at other times is not guaranteed.",
+        "need": "The Cabin is not a daily museum with posted public hours. Plan around a current announced event, and confirm interior access, parking and accommodations with the organizer before leaving.",
+        "answerSources": {
+          "parking": "https://www.peopleforpalmerpark.org/log-cabin-day.html",
+          "hours": "https://www.peopleforpalmerpark.org/log-cabin-day.html",
+          "restroom": "https://detroitmi.gov/news/city-detroit-community-partners-mark-grand-opening-iconic-bandshell-palmer-park-musical-celebration",
+          "fees": "https://www.peopleforpalmerpark.org/log-cabin-day.html",
+          "accessibility": "https://www.peopleforpalmerpark.org/log-cabin-day.html",
+          "dogs": "https://detroitmi.gov/document/park-rules",
+          "family": "https://www.peopleforpalmerpark.org/log-cabin-day.html",
+          "need-to-know": "https://www.peopleforpalmerpark.org/log-cabin-day.html"
+        }
+      }
+    },
     "launch-mi-detroit-hart-plaza": {
       "dodge-fountain": {
         "description": "The Horace E. Dodge and Son Memorial Fountain is Isamu Noguchi's restored stainless-steel fountain and the focal point of Hart Plaza's central plaza.",
