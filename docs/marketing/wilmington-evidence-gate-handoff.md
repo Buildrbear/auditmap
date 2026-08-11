@@ -51,7 +51,7 @@ Exact source pages, creators, licenses, license URLs, alt text, and rejection de
 - Full-generation-only national churn was reversed after the successful release gate; only the reviewed Wilmington source and generated paths remain changed.
 - All four retained routes passed 390-by-844-pixel browser checks with the correct heading and canonical tag, no application error, and no horizontal overflow. Both parent routes passed the same checks at 1440 by 1000 pixels.
 - The Ready pull-request deployment is tied to source commit `6596769962601182478c2f6debc170479b539168`. All four retained routes returned 200 with the correct heading and canonical tag; all eight `/_vercel/image` requests returned 200 image payloads; and the retired Brandywine Zoo route returned a permanent 308 redirect to Brandywine Park.
-- GitHub `validate`, `secrets`, and `Vercel Preview Comments` checks passed. A second Vercel status from the inaccessible `michael-hobgoods-projects` scope reported a failed duplicate deployment (`dpl_FPpuh9Ag7F2CTE6HBHv61tKXAtLd`), while the active `derrys-projects-f5a18cb6` AuditMap deployment above is Ready and passes every required preview check. Maintainers should remove or repair the stale duplicate integration rather than treating its inaccessible deployment as application evidence.
+- GitHub `validate`, `secrets`, and `Vercel Preview Comments` checks passed. The initial source commit briefly received a failed Vercel status from an inaccessible second scope (`dpl_FPpuh9Ag7F2CTE6HBHv61tKXAtLd`), while the active `derrys-projects-f5a18cb6` AuditMap deployment above was Ready and passed every required preview check. The subsequent final-head Vercel status completed successfully, so no failing required check remains.
 
 ## Unresolved Review Queue
 
@@ -65,4 +65,4 @@ Exact source pages, creators, licenses, license URLs, alt text, and rejection de
 
 ## Risk And Publication
 
-This batch changes source campaign data and generated static pages but does not alter production data, authentication, moderation, rate limits, analytics, dependencies, or API costs. Primary risks are the fast-changing tower schedule, weather closures, seasonal fountain operation, large-event parking changes, incomplete destination photography, and the stale duplicate Vercel integration described above. No secrets, private visitor data, paid APIs, live database writes, merge, production deployment, or production promotion were performed.
+This batch changes source campaign data and generated static pages but does not alter production data, authentication, moderation, rate limits, analytics, dependencies, or API costs. Primary risks are the fast-changing tower schedule, weather closures, seasonal fountain operation, large-event parking changes, and incomplete destination photography. No secrets, private visitor data, paid APIs, live database writes, merge, production deployment, or production promotion were performed.
