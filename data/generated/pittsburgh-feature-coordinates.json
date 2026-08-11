@@ -81,52 +81,28 @@
     },
     "launch-pa-pittsburgh-highland-park": {
       "highland-park-entry-garden": {
-        "latitude": 40.47805,
-        "longitude": -79.9183,
-        "displayName": "Preserved coordinate for Highland Park Entry Garden",
-        "source": "AuditMap official-map placement"
+        "latitude": 40.479356,
+        "longitude": -79.9155278,
+        "coordinateSource": "https://www.openstreetmap.org/way/257338172",
+        "positionQuality": "reviewed-named-entry-fountain-way-and-geotagged-photo-match",
+        "displayName": "reviewed-named-entry-fountain-way-and-geotagged-photo-match",
+        "source": "https://www.openstreetmap.org/way/257338172"
       },
       "highland-park-reservoir-loop": {
-        "latitude": 40.47803133513653,
-        "longitude": -79.91786866486348,
-        "displayName": "Preserved coordinate for Highland Park Reservoir Loop",
-        "source": "AuditMap official-map placement"
-      },
-      "highland-park-super-playground": {
-        "latitude": 40.4804248,
-        "longitude": -79.9182553,
-        "displayName": "Preserved coordinate for Highland Park Super Playground",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "highland-park-pool": {
-        "latitude": 40.4821573,
-        "longitude": -79.9109409,
-        "displayName": "Preserved coordinate for Highland Park Pool",
-        "source": "OpenStreetMap Nominatim"
+        "latitude": 40.4813072,
+        "longitude": -79.9153267,
+        "coordinateSource": "https://www.openstreetmap.org/way/25735203",
+        "positionQuality": "reviewed-named-reservoir-way-and-current-city-project-match",
+        "displayName": "reviewed-named-reservoir-way-and-current-city-project-match",
+        "source": "https://www.openstreetmap.org/way/25735203"
       },
       "pittsburgh-zoo-and-aquarium": {
-        "latitude": 40.47699,
-        "longitude": -79.9183,
-        "displayName": "Preserved coordinate for Pittsburgh Zoo and Aquarium",
-        "source": "AuditMap official-map placement"
-      },
-      "carnegie-lake": {
-        "latitude": 40.4806829,
-        "longitude": -79.9117254,
-        "displayName": "Preserved coordinate for Carnegie Lake",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "bud-harris-cycling-track": {
-        "latitude": 40.4767461,
-        "longitude": -79.9082781,
-        "displayName": "Preserved coordinate for Bud Harris Cycling Track",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "rhododendron-garden": {
-        "latitude": 40.47803133513653,
-        "longitude": -79.91873133513653,
-        "displayName": "Preserved coordinate for Rhododendron Garden",
-        "source": "AuditMap official-map placement"
+        "latitude": 40.4835453,
+        "longitude": -79.9191822,
+        "coordinateSource": "https://www.openstreetmap.org/way/181174109",
+        "positionQuality": "reviewed-named-zoo-way-and-official-navigation-address-match",
+        "displayName": "reviewed-named-zoo-way-and-official-navigation-address-match",
+        "source": "https://www.openstreetmap.org/way/181174109"
       }
     },
     "launch-pa-pittsburgh-riverview-park": {

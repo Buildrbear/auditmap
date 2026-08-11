@@ -60,6 +60,26 @@
         "coordinateSource": "https://www.openstreetmap.org/way/109499956",
         "positionQuality": "reviewed-named-building-way-and-official-address-match"
       }
+    },
+    "launch-pa-pittsburgh-highland-park": {
+      "highland-park-entry-garden": {
+        "latitude": 40.479356,
+        "longitude": -79.9155278,
+        "coordinateSource": "https://www.openstreetmap.org/way/257338172",
+        "positionQuality": "reviewed-named-entry-fountain-way-and-geotagged-photo-match"
+      },
+      "highland-park-reservoir-loop": {
+        "latitude": 40.4813072,
+        "longitude": -79.9153267,
+        "coordinateSource": "https://www.openstreetmap.org/way/25735203",
+        "positionQuality": "reviewed-named-reservoir-way-and-current-city-project-match"
+      },
+      "pittsburgh-zoo-and-aquarium": {
+        "latitude": 40.4835453,
+        "longitude": -79.9191822,
+        "coordinateSource": "https://www.openstreetmap.org/way/181174109",
+        "positionQuality": "reviewed-named-zoo-way-and-official-navigation-address-match"
+      }
     }
   }
 }
