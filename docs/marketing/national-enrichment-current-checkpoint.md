@@ -4,11 +4,11 @@ Last updated: 2026-08-11
 
 ## Current State
 
-- Status: the Tampa Bay evidence-gate rebuild is generated and locally verified; draft PR preview verification is next.
+- Status: the Tampa Bay evidence-gate rebuild is generated, locally verified, and deployed to a protected Ready preview; authenticated response and screenshot verification remains blocked.
 - Working branch: `codex/tampa-bay-evidence-gate`
 - Pull request: https://github.com/Buildrbear/auditmap/pull/26 (draft, stacked on PR #25)
 - Outcome: six released parent guides, two explicit photo-gated parents, 27 reviewed reusable images, three evidence-complete destinations, and 61 retired legacy routes.
-- Preview: pending draft PR deployment.
+- Preview: https://auditmap-pipqwud6a-derrys-projects-f5a18cb6.vercel.app (Ready at commit `2424e4f`; Vercel Authentication blocks route/image/redirect response checks in the available browser session).
 - Production status: not merged or promoted to production.
 - Canonical machine-readable checkpoint: `data/us-priority-enrichment-queue.json` under `activeCluster.resumeCheckpoint`.
 

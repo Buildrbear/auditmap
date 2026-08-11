@@ -30,6 +30,8 @@ The 27 reviewed local WebP files were prepared from Wikimedia Commons and Flickr
 - North Carolina image-rights, generated-gallery, dog-media, performance, SEO, and Raleigh discovery safeguards passed.
 - Raw parent and destination HTML, canonical metadata, source blocks, exact navigation coordinates, image files, and retired-folder cleanup passed the scoped verifier.
 - All 11 retained routes passed a 390-pixel browser overflow check; all eight parents passed at 1440 pixels; no browser console warnings or errors were observed. The plain local server cannot validate Vercel image optimization, so optimized payloads remain a PR-preview check.
+- Vercel deployment `dpl_F9aMj12ERzcyL4h916eFTEPRwtrN` reached Ready at `https://auditmap-pipqwud6a-derrys-projects-f5a18cb6.vercel.app`; its build log confirms branch `codex/tampa-bay-evidence-gate`, commit `2424e4f`, and a completed output deployment.
+- The deployment is protected by Vercel Authentication, the available automation-share connector could not mint access, and no signed-in browser was available. Therefore HTTP route, optimized-image, redirect-response, and preview screenshot claims remain deliberately unmade. The separate GitHub-linked `Vercel – auditmap` status currently reports failure against an inaccessible Vercel project, while the repository's `Validate contribution` workflow passed.
 
 ## Unresolved Review Queue
 
