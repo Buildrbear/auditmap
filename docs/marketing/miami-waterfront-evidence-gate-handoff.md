@@ -28,7 +28,9 @@ The 32 local WebP files were prepared from reviewed Wikimedia Commons and Flickr
 - Both `verify:miami:waterfront` and the backward-compatible `verify:miami:coast` command passed.
 - Verification covers eight guides, 32 licensed parent images, 19 exact destinations, retired-route redirects, current source-backed answers, raw HTML, exact-coordinate navigation, and sitemap routes.
 - The broad generator revealed unrelated repository-wide generated drift; those accidental files were quarantined and were not included in this batch.
-- Draft-PR Vercel image optimization and 390-pixel/desktop browser checks remain required before maintainer review.
+- The Ready draft preview returned HTTP 200 for all 27 retained routes, valid optimized image payloads for all 32 campaign images, and HTTP 308 to the intended parent for all 52 new redirects.
+- All retained routes passed 390-pixel checks, all eight parents passed 1440-pixel checks, and no broken preview image, horizontal overflow, or browser warning/error was observed.
+- GitHub `validate`, `secrets`, Vercel, and Vercel Preview Comments checks passed.
 
 ## Unresolved Review Queue
 

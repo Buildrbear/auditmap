@@ -4,13 +4,13 @@ Last updated: 2026-08-11
 
 ## Current State
 
-- Status: the Miami waterfront evidence-gate rebuild is generated and locally verified.
+- Status: the Miami waterfront evidence-gate rebuild is generated, verified, and preview-deployed.
 - Working branch: `codex/miami-waterfront-evidence-gate`
 - Pull request: https://github.com/Buildrbear/auditmap/pull/25
 - Stacked base pull request: https://github.com/Buildrbear/auditmap/pull/24
 - Miami rebuild commit: `0520e7e0f`
 - Outcome: eight parent guides, 32 reviewed reusable parent images, 19 evidence-complete destinations, and 51 retired legacy routes.
-- Preview: pending the draft pull request deployment.
+- Preview: https://auditmap-lhatznnwg-derrys-projects-f5a18cb6.vercel.app (Ready; authenticated checks complete)
 - Production status: not merged or promoted to production.
 - Canonical machine-readable checkpoint: `data/us-priority-enrichment-queue.json` under `activeCluster.resumeCheckpoint`.
 
@@ -18,7 +18,7 @@ The Cleveland, Detroit, Columbus, Cincinnati, Indianapolis, Upper Midwest, and i
 
 ## Resume Point
 
-Do not repeat the completed Miami, Midwest, or inland Broward batches unless review finds a specific defect or new evidence changes a deferred decision. Before publication, finish the draft-PR preview checks for all 27 retained Miami routes, representative optimized image payloads, permanent redirects, and 390-pixel and desktop layouts. The broad generator exposed known unrelated source/generated drift; that output was discarded and the eight parents were regenerated with the repository's scoped mode.
+Do not repeat the completed Miami, Midwest, or inland Broward batches unless review finds a specific defect or new evidence changes a deferred decision. The draft preview returned HTTP 200 for all 27 retained Miami routes, valid optimized payloads for all 32 campaign images, and HTTP 308 to the intended parents for all 52 new redirects. All retained routes passed 390-pixel checks, all eight parents passed 1440-pixel checks, and no broken preview image, horizontal overflow, or browser warning/error was observed. The broad generator exposed known unrelated source/generated drift; that output was discarded and the eight parents were regenerated with the repository's scoped mode.
 
 Open the next connected high-impact metro cluster only where current official visitor sources and representative reusable media support a reviewable batch. Continue the same four-photo parent gate and exact-photo, exact-position, destination-specific-profile gate. Keep inland Broward, Olbrich Park, Riverside Regional Park, and Broad Ripple Park deferred until their documented media gaps are resolved.
 

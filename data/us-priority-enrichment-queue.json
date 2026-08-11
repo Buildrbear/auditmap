@@ -14,7 +14,7 @@
       "licensedPhotos": 32,
       "evidenceCompleteSubsites": 19,
       "retiredLegacyRoutes": 51,
-      "status": "generated-and-verified"
+      "status": "generated-verified-and-preview-deployed"
     },
     {
       "name": "Inland Broward photo-gate re-audit",
@@ -218,7 +218,7 @@
     "name": "Miami waterfront evidence-gate rebuild",
     "reason": "Eight legacy Miami waterfront guides were re-audited against current operator guidance, representative reusable photography, exact destination positions, and destination-specific evidence. All eight parents cleared the four-photo gate; nineteen destinations cleared the complete profile gate and fifty-one weak legacy routes were retired.",
     "releaseStandard": "Retain official parent answers, require three to four current representative reusable photographs per released parent, and publish only named subsites with exact reviewed coordinates, destination-specific photography, and current operator guidance.",
-    "status": "miami-waterfront-generated-and-verified",
+    "status": "miami-waterfront-generated-verified-and-preview-deployed",
     "metros": ["Miami", "Miami Beach", "Key Biscayne"],
     "resumeCheckpoint": {
       "pausedAt": "2026-08-11",
@@ -371,7 +371,8 @@
     "Rebuilt Maurice A. Ferre Park, Bayfront Park, Matheson Hammock Park, South Pointe Park, Lummus Park, Crandon Park, Bill Baggs Cape Florida State Park, and Historic Virginia Key Beach Park around current official visitor guidance and thirty-two reviewed reusable photographs.",
     "Retained nineteen exact, destination-photo-backed pages and retired fifty-one inherited, approximate, duplicate, or photo-mismatched legacy routes with permanent parent redirects.",
     "Kept Lummus Park parent-only because its legacy destination cards did not independently clear exact destination-photo and complete-profile review.",
-    "Verified raw parent and destination HTML, exact navigation coordinates, current source-backed answers, image rights metadata, retired-route redirects, and campaign sitemap routes after scoped generation."
+    "Verified raw parent and destination HTML, exact navigation coordinates, current source-backed answers, image rights metadata, retired-route redirects, and campaign sitemap routes after scoped generation.",
+    "Preview-verified all twenty-seven retained routes, all thirty-two optimized campaign images, and all fifty-two new permanent redirects; every tested phone and desktop layout was overflow-free and GitHub validation, secrets, and Vercel checks passed."
       ],
   "nextAction": "Open the next connected high-impact metro cluster with reachable official visitor sources and enough representative reusable media to clear the same parent and destination evidence gates. Keep inland Broward, Olbrich Park, Riverside Regional Park, and Broad Ripple Park in their documented photo queues until new permission-cleared coverage appears.",
       "notReleased": true,
