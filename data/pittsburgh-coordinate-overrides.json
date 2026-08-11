@@ -80,6 +80,26 @@
         "coordinateSource": "https://www.openstreetmap.org/way/181174109",
         "positionQuality": "reviewed-named-zoo-way-and-official-navigation-address-match"
       }
+    },
+    "launch-pa-pittsburgh-riverview-park": {
+      "allegheny-observatory": {
+        "latitude": 40.4825793,
+        "longitude": -80.0206921,
+        "coordinateSource": "https://www.openstreetmap.org/way/253993952",
+        "positionQuality": "reviewed-named-building-way-and-official-address-match"
+      },
+      "riverview-park-visitor-center": {
+        "latitude": 40.48301,
+        "longitude": -80.0184426,
+        "coordinateSource": "https://www.openstreetmap.org/way/429731564",
+        "positionQuality": "reviewed-building-way-current-city-address-and-historic-site-plan-match"
+      },
+      "chapel-shelter": {
+        "latitude": 40.4802521,
+        "longitude": -80.0183469,
+        "coordinateSource": "https://www.openstreetmap.org/way/429798473",
+        "positionQuality": "reviewed-building-way-circular-drive-and-national-register-map-match"
+      }
     }
   }
 }

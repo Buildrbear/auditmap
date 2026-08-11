@@ -107,52 +107,28 @@
     },
     "launch-pa-pittsburgh-riverview-park": {
       "allegheny-observatory": {
-        "latitude": 40.4825831,
-        "longitude": -80.0206974,
-        "displayName": "Preserved coordinate for Allegheny Observatory",
-        "source": "OpenStreetMap Nominatim"
+        "latitude": 40.4825793,
+        "longitude": -80.0206921,
+        "coordinateSource": "https://www.openstreetmap.org/way/253993952",
+        "positionQuality": "reviewed-named-building-way-and-official-address-match",
+        "displayName": "reviewed-named-building-way-and-official-address-match",
+        "source": "https://www.openstreetmap.org/way/253993952"
       },
       "riverview-park-visitor-center": {
-        "latitude": 40.48303133513652,
-        "longitude": -80.02016866486348,
-        "displayName": "Preserved coordinate for Riverview Park Visitor Center",
-        "source": "AuditMap official-map placement"
+        "latitude": 40.48301,
+        "longitude": -80.0184426,
+        "coordinateSource": "https://www.openstreetmap.org/way/429731564",
+        "positionQuality": "reviewed-building-way-current-city-address-and-historic-site-plan-match",
+        "displayName": "reviewed-building-way-current-city-address-and-historic-site-plan-match",
+        "source": "https://www.openstreetmap.org/way/429731564"
       },
       "chapel-shelter": {
-        "latitude": 40.4826,
-        "longitude": -80.01983,
-        "displayName": "Preserved coordinate for Chapel Shelter",
-        "source": "AuditMap official-map placement"
-      },
-      "riverview-park-pool": {
-        "latitude": 40.48228180194847,
-        "longitude": -80.02028180194847,
-        "displayName": "Preserved coordinate for Riverview Park Pool",
-        "source": "AuditMap official-map placement"
-      },
-      "snyder-s-point-overlook": {
-        "latitude": 40.481989999999996,
-        "longitude": -80.0206,
-        "displayName": "Preserved coordinate for Snyder's Point Overlook",
-        "source": "AuditMap official-map placement"
-      },
-      "wissahickon-trail": {
-        "latitude": 40.4846575,
-        "longitude": -80.0179661,
-        "displayName": "Preserved coordinate for Wissahickon Trail",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "riverview-playground": {
-        "latitude": 40.4812718,
-        "longitude": -80.0178868,
-        "displayName": "Preserved coordinate for Riverview Playground",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "riverview-park-off-leash-exercise-area": {
-        "latitude": 40.48303133513652,
-        "longitude": -80.02103133513653,
-        "displayName": "Preserved coordinate for Riverview Park Off-Leash Exercise Area",
-        "source": "AuditMap official-map placement"
+        "latitude": 40.4802521,
+        "longitude": -80.0183469,
+        "coordinateSource": "https://www.openstreetmap.org/way/429798473",
+        "positionQuality": "reviewed-building-way-circular-drive-and-national-register-map-match",
+        "displayName": "reviewed-building-way-circular-drive-and-national-register-map-match",
+        "source": "https://www.openstreetmap.org/way/429798473"
       }
     },
     "launch-pa-pittsburgh-emerald-view-park": {
