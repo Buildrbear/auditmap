@@ -30,7 +30,7 @@ const upsert = (document, place) => {
 };
 
 function schedule(place) {
-  if (place.id.endsWith("campus-martius-park") || place.id.endsWith("belle-isle-park")) return false;
+  if (place.id.endsWith("campus-martius-park") || place.id.endsWith("belle-isle-park") || place.id.endsWith("hart-plaza")) return false;
   return daily("06:00", "22:00");
 }
 
@@ -151,6 +151,17 @@ function researchQueue(place) {
   ];
   if (place.id.endsWith("ralph-c-wilson-jr-centennial-park")) return [
     "Delta Dental Play Garden, Water Wonderland and DTE Foundation Summit remain parent guidance until exact reusable destination photographs clear review."
+  ];
+  if (place.id.endsWith("dequindre-cut")) return [
+    "Freight Yard, Campbell Terrace, murals, play elements, Fit Park and individual ramps remain parent guidance until each has an exact reviewed pin and a destination-specific reusable photograph."
+  ];
+  if (place.id.endsWith("campus-martius-park")) return [
+    "The Beach, lawn, fountain and Shop remain parent guidance until each has current destination-specific evidence and reusable photography.",
+    "Cadillac Square and Woodward Esplanade are adjacent public spaces, not Campus Martius subsites; the Soldiers and Sailors Monument requires its own evidence review."
+  ];
+  if (place.id.endsWith("hart-plaza")) return [
+    "Gateway to Freedom remains parent guidance until a destination-specific reusable photograph clears review.",
+    "Michigan Labor Legacy Monument is an alias for Transcending, while Spirit of Detroit and Monument to Joe Louis are separate landmarks outside Hart Plaza; approximate amphitheater and terrace routes were retired."
   ];
   return [];
 }

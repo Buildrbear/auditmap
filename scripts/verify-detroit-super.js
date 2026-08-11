@@ -12,17 +12,30 @@ const need = (condition, message) => { if (!condition) fail.push(message); };
 const scopedIds = new Set([
   "launch-mi-detroit-belle-isle-park",
   "launch-mi-detroit-detroit-riverwalk",
-  "launch-mi-detroit-ralph-c-wilson-jr-centennial-park"
+  "launch-mi-detroit-ralph-c-wilson-jr-centennial-park",
+  "launch-mi-detroit-dequindre-cut",
+  "launch-mi-detroit-campus-martius-park",
+  "launch-mi-detroit-hart-plaza"
 ]);
 const expected = {
   "launch-mi-detroit-belle-isle-park": ["belle-isle-aquarium", "anna-scripps-whitcomb-conservatory", "dossin-great-lakes-museum"],
   "launch-mi-detroit-detroit-riverwalk": [],
-  "launch-mi-detroit-ralph-c-wilson-jr-centennial-park": ["huron-clinton-metroparks-water-garden", "william-davidson-sport-house"]
+  "launch-mi-detroit-ralph-c-wilson-jr-centennial-park": ["huron-clinton-metroparks-water-garden", "william-davidson-sport-house"],
+  "launch-mi-detroit-dequindre-cut": [],
+  "launch-mi-detroit-campus-martius-park": ["the-rink-at-campus-martius"],
+  "launch-mi-detroit-hart-plaza": ["dodge-fountain", "transcending"]
 };
 const retired = {
   "belle-isle-park": ["belle-isle-nature-center", "james-scott-memorial-fountain", "belle-isle-beach", "belle-isle-giant-slide", "oudolf-garden-detroit"],
   "detroit-riverwalk": ["cullen-plaza", "william-g-milliken-state-park-and-harbor", "robert-c-valade-park", "mt-elliott-park", "gabriel-richard-park", "gm-plaza", "renaissance-center-riverfront-plaza", "southwest-greenway-connection"],
-  "ralph-c-wilson-jr-centennial-park": ["delta-dental-play-garden", "dte-foundation-summit", "community-lawn", "river-edge-garden", "ralph-wilson-park-basketball-courts", "ralph-wilson-park-riverwalk"]
+  "ralph-c-wilson-jr-centennial-park": ["delta-dental-play-garden", "dte-foundation-summit", "community-lawn", "river-edge-garden", "ralph-wilson-park-basketball-courts", "ralph-wilson-park-riverwalk"],
+  "dequindre-cut": ["dequindre-cut-atwater-entrance", "dequindre-cut-freight-yard", "campbell-terrace-stage", "dequindre-cut-murals", "grand-trunks-play-areas", "dequindre-cut-fit-park", "dequindre-cut-gratiot-entrance", "dequindre-cut-wilkins-entrance"],
+  "campus-martius-park": ["the-beach-at-campus-martius", "woodward-esplanade", "michigan-soldiers-and-sailors-monument", "campus-martius-main-lawn", "campus-martius-fountain", "the-shop-at-campus-martius", "cadillac-square"],
+  "hart-plaza": ["gateway-to-freedom-monument", "transcending-monument", "michigan-labor-legacy-monument", "hart-plaza-amphitheater", "hart-plaza-main-terrace", "spirit-of-detroit", "monument-to-joe-louis"]
+};
+const retiredDestinations = {
+  "/us/mi/detroit/parks/hart-plaza/transcending-monument": "/us/mi/detroit/parks/hart-plaza/transcending",
+  "/us/mi/detroit/parks/hart-plaza/michigan-labor-legacy-monument": "/us/mi/detroit/parks/hart-plaza/transcending"
 };
 
 for (const scope of campaign.places) {
@@ -66,27 +79,28 @@ for (const scope of campaign.places) {
   for (const feature of place.features || []) {
     need(!/approximate|official-map placement/i.test(`${feature.details.coordinateSource} ${feature.details.positionQuality}`), `${scope.name}/${feature.name}: approximate position survived`);
     need(/^https:\/\/commons\.wikimedia\.org\/wiki\/File:/.test(decodeURIComponent(feature.details.imageSourceUrl || "")), `${scope.name}/${feature.name}: destination image is not a Commons file page`);
-    need(feature.details.informationCheckedAt === "2026-08-10", `${scope.name}/${feature.name}: destination checked date mismatch`);
+    need(feature.details.informationCheckedAt === scope.checkedAt, `${scope.name}/${feature.name}: destination checked date mismatch`);
     const exact = featureFacts[scope.id]?.[feature.slug];
     need(Boolean(exact), `${scope.name}/${feature.name}: destination-specific profile missing`);
     need(feature.details.hours === exact?.hours, `${scope.name}/${feature.name}: destination-specific hours missing`);
     for (const answer of feature.details.searchAnswers || []) {
       need(/^https:\/\//.test(answer.source || ""), `${scope.name}/${feature.name}/${answer.intentKey}: public answer source missing`);
-      need(answer.verifiedAt === "2026-08-10", `${scope.name}/${feature.name}/${answer.intentKey}: checked date mismatch`);
+      need(answer.verifiedAt === scope.checkedAt, `${scope.name}/${feature.name}/${answer.intentKey}: checked date mismatch`);
     }
   }
   for (const oldSlug of retired[parentSlug] || []) {
     need(!fs.existsSync(path.join(directory, oldSlug, "index.html")), `${scope.name}/${oldSlug}: retired page still exists`);
     const source = `/us/mi/detroit/parks/${parentSlug}/${oldSlug}`;
-    need(redirects.some(item => item.source === source && item.destination === `/us/mi/detroit/parks/${parentSlug}` && item.permanent), `${scope.name}/${oldSlug}: permanent parent redirect missing`);
+    const destination = retiredDestinations[source] || `/us/mi/detroit/parks/${parentSlug}`;
+    need(redirects.some(item => item.source === source && item.destination === destination && item.permanent), `${scope.name}/${oldSlug}: permanent redirect missing`);
   }
 }
 
 const scoped = campaign.places.filter(scope => scopedIds.has(scope.id)).map(scope => JSON.stringify(places.find(place => place.id === scope.id) || {})).join("\n");
-for (const phrase of ["official sources conflict", "visitors under 18", "150 free on-street spaces", "Pilot House is not wheelchair", "fishing is prohibited", "closes at 8:00 p.m."]) need(scoped.includes(phrase), `Missing Detroit guidance: ${phrase}`);
+for (const phrase of ["official sources conflict", "visitors under 18", "150 free on-street spaces", "Pilot House is not wheelchair", "fishing is prohibited", "closes at 8:00 p.m.", "no permanent restrooms", "season ended March 1, 2026", "Michigan Labor Legacy Monument", "water operation is seasonal"]) need(scoped.includes(phrase), `Missing Detroit guidance: ${phrase}`);
 need(!scoped.includes("Official source image"), "Unlicensed official-source image attribution survived");
 if (fail.length) {
   console.error(fail.join("\n"));
   process.exit(1);
 }
-console.log("Verified the Detroit riverfront evidence batch: three parent guides, five exact photo-backed destinations, source-specific answers and retired-route redirects.");
+console.log("Verified two Detroit evidence batches: six parent guides, eight exact photo-backed destinations, source-specific answers and retired-route redirects.");
