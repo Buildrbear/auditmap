@@ -1,23 +1,25 @@
 # National Enrichment Current Checkpoint
 
-Last updated: 2026-08-10
+Last updated: 2026-08-11
 
 ## Current State
 
-- Status: first Detroit riverfront batch is locally verified and preview-verified.
-- Working branch: `codex/detroit-riverfront-evidence-rebuild`
-- Pull request: https://github.com/Buildrbear/auditmap/pull/11
-- Stacked base pull request: https://github.com/Buildrbear/auditmap/pull/10
-- Detroit release commit: `29fe472a7`
-- Preview: https://auditmap-git-codex-detroit-rive-3bc478-derrys-projects-f5a18cb6.vercel.app
+- Status: second Detroit downtown batch is locally verified and preview-verified.
+- Working branch: `codex/detroit-downtown-evidence-rebuild`
+- Pull request: https://github.com/Buildrbear/auditmap/pull/12
+- Stacked base pull request: https://github.com/Buildrbear/auditmap/pull/11
+- Detroit release commit: `6de6ab456`
+- Preview: https://auditmap-git-codex-detroit-down-241624-derrys-projects-f5a18cb6.vercel.app
 - Production status: not merged or promoted to production.
 - Canonical machine-readable checkpoint: `data/us-priority-enrichment-queue.json` under `activeCluster.resumeCheckpoint`.
 
-The Cleveland corridor remains complete through its three preview-verified batches. The first Detroit batch continues west with Belle Isle Park, Detroit RiverWalk, and Ralph C. Wilson Jr. Centennial Park. It retains five exact destination pages: Belle Isle Aquarium, Anna Scripps Whitcomb Conservatory, Dossin Great Lakes Museum, Huron-Clinton Metroparks Water Garden, and William Davidson Sport House. Detroit RiverWalk launches as a current parent-only guide until its individual segments clear the exact-arrival and destination-photo gates.
+The Cleveland corridor remains complete through its three preview-verified batches. Detroit now has two preview-verified batches covering Belle Isle Park, Detroit RiverWalk, Ralph C. Wilson Jr. Centennial Park, Dequindre Cut, Campus Martius Park, and Hart Plaza. The second batch retains three exact destination pages: The Rink at Campus Martius, Dodge Fountain, and Transcending. Dequindre Cut launches as a current parent-only guide until an individual destination clears both the exact-arrival and reusable-photo gates.
 
 ## Resume Point
 
-Do not repeat the Cleveland batches or the first Detroit riverfront batch unless review finds a specific defect. The Detroit preview is complete: all eight parent and destination routes returned successfully, all five optimized destination images rendered and were visually checked, representative retired routes resolved with permanent redirects, and every changed page fit both 1440-pixel and 390-pixel layouts without horizontal overflow. Continue the connected Detroit review with Dequindre Cut, Campus Martius Park, and Hart Plaza.
+Do not repeat the Cleveland batches or the first two Detroit batches unless review finds a specific defect. The second Detroit preview is complete: all six parent and destination routes returned successfully, optimized representative images for all three parents rendered and were visually checked, representative retired routes resolved with permanent redirects, and every changed page fit both 1440-pixel and 390-pixel layouts without horizontal overflow. Continue the connected Detroit review with Rouge Park and Palmer Park.
+
+Keep Freight Yard, Campbell Terrace, individual Dequindre ramps and amenities, the warm-season Campus Martius features, and Gateway to Freedom in the review queue until exact reusable destination photography and current feature-specific guidance clear review. Treat Michigan Labor Legacy Monument as an alias for Transcending, not a second destination; Spirit of Detroit and Monument to Joe Louis are separate landmarks outside Hart Plaza.
 
 Continue requiring representative reusable photography, current official visitor guidance, exact destination coordinates, and destination-specific photographic evidence before publishing any parent or destination page. Defer weak subsites rather than publishing broad parent images or approximate pins.
 
