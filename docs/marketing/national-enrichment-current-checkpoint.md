@@ -6,8 +6,9 @@ Last updated: 2026-08-11
 
 - Status: the inland Broward photo-gate re-audit is complete; all three candidates remain deferred.
 - Working branch: `codex/inland-broward-evidence-gate`
-- Pull request: pending
+- Pull request: https://github.com/Buildrbear/auditmap/pull/24
 - Stacked base pull request: https://github.com/Buildrbear/auditmap/pull/23
+- Inland Broward research commit: `9d67ad496`
 - Outcome: 61 candidate images reviewed, zero parents accepted, zero destinations accepted.
 - Preview: not required because this is a research-only batch with no generated UI changes.
 - Production status: not merged or promoted to production.
