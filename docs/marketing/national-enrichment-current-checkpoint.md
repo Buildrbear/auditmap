@@ -8,7 +8,7 @@ Last updated: 2026-08-11
 - Working branch: `codex/anchorage-evidence-gate`
 - Pull request: https://github.com/Buildrbear/auditmap/pull/29 (draft, stacked on PR #28)
 - Outcome: Kincaid Park and Delaney Park Strip clear the four-photo parent gate; Kincaid Beach, Centennial Rose Garden, and Alaska Railroad No. 556 clear exact destination review. Far North Bicentennial Park remains explicitly photo-gated with two reviewed images.
-- Preview: https://auditmap-5ritdd6jd-derrys-projects-f5a18cb6.vercel.app (source-identical Ready deployment `dpl_2zcUbTJFLAPSbCJ81TigTkDoV6LN`; all six routes and ten optimized images passed authenticated requests). GitHub validate and secrets checks are green; a duplicate Vercel status under an inaccessible account scope remains failed and is documented in the handoff.
+- Preview: https://auditmap-5ritdd6jd-derrys-projects-f5a18cb6.vercel.app (source-identical Ready deployment `dpl_2zcUbTJFLAPSbCJ81TigTkDoV6LN`; all six routes and ten optimized images passed authenticated requests). GitHub validate, secrets, Vercel Preview Comments, and the linked Vercel status are green on the documentation head.
 - Production status: not merged or promoted to production.
 - Canonical machine-readable checkpoint: `data/us-priority-enrichment-queue.json` under `activeCluster.resumeCheckpoint`.
 
@@ -16,7 +16,7 @@ The Cleveland, Detroit, Columbus, Cincinnati, Indianapolis, Upper Midwest, inlan
 
 ## Resume Point
 
-Do not repeat completed batches unless review finds a specific defect or new evidence changes a deferred decision. Anchorage's six retained routes passed local 390-pixel checks, all three parents passed 1440-pixel checks, and no horizontal overflow was observed. A clean full generation preserved the reviewed galleries, answer sets, destination sets, and Far North deferral. The source-identical Ready preview served all six routes and ten optimized images; the duplicate failing Vercel status from another account scope remains an external integration issue.
+Do not repeat completed batches unless review finds a specific defect or new evidence changes a deferred decision. Anchorage's six retained routes passed local 390-pixel checks, all three parents passed 1440-pixel checks, and no horizontal overflow was observed. A clean full generation preserved the reviewed galleries, answer sets, destination sets, and Far North deferral. The source-identical Ready preview served all six routes and ten optimized images, and all linked checks are green.
 
 After maintainer review of Anchorage's stacked draft, open the next connected high-impact metro cluster only where current official visitor sources and representative reusable media support a reviewable batch. Continue the same four-photo parent gate and exact-photo, exact-position, destination-specific-profile gate. Keep Far North Bicentennial Park, Julian B. Lane, Boyd Hill, inland Broward, Olbrich Park, Riverside Regional Park, and Broad Ripple Park deferred until their documented media gaps are resolved.
 
