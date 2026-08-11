@@ -1,0 +1,27 @@
+{
+  "campaign": "Wilmington evidence-gate enrichment",
+  "checkedAt": "2026-08-11",
+  "releaseStandard": "Retain a parent only with four varied reusable photographs and current official visitor guidance. Retain a destination only with an exact reviewed position, destination-specific reusable photograph, nine destination answers, and current authoritative sourcing.",
+  "places": [
+    {
+      "id": "launch-de-wilmington-brandywine-park",
+      "name": "Brandywine Park",
+      "city": "Wilmington",
+      "state": "DE",
+      "address": "1001 N. Park Drive, Wilmington, DE 19802",
+      "officialSource": "https://www.wilmingtonde.gov/Home/Components/FacilityDirectory/FacilityDirectory/131/118",
+      "imageQueries": ["Brandywine Park Wilmington Delaware", "Brandywine Park bridges", "Josephine Fountain Wilmington", "Brandywine River Park Wilmington"],
+      "legacyCandidates": ["Brandywine Zoo"]
+    },
+    {
+      "id": "launch-de-wilmington-rockford-park",
+      "name": "Rockford Park",
+      "city": "Wilmington",
+      "state": "DE",
+      "address": "2001 Lookout Drive, Wilmington, DE 19806",
+      "officialSource": "https://www.wilmingtonde.gov/Home/Components/FacilityDirectory/FacilityDirectory/223/118",
+      "imageQueries": ["Rockford Park Wilmington Delaware", "Rockford Tower", "Rockford Park lawn", "Bancroft Memorial Rockford Park"],
+      "legacyCandidates": []
+    }
+  ]
+}

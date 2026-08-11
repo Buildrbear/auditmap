@@ -3,11 +3,18 @@
   "strategy": "Complete geographically connected clusters before opening isolated metros.",
   "completedBaseline": {
     "verifiedAt": "2026-08-11",
-    "campaignVerifierCount": 52,
+    "campaignVerifierCount": 53,
     "campaignVerifierFailures": 0,
-    "note": "All 52 national enrichment campaign verifiers pass locally after the Anchorage evidence-gate batch. Production publication remains a maintainer decision."
+    "note": "All 53 national enrichment campaign verifiers pass locally after the Wilmington evidence-gate batch. Production publication remains a maintainer decision."
   },
   "recentlyCompleted": [
+    {
+      "name": "Wilmington evidence-gate enrichment",
+      "parentGuides": 2,
+      "licensedPhotos": 8,
+      "evidenceCompleteSubsites": 2,
+      "status": "generated-and-locally-verified"
+    },
     {
       "name": "Anchorage evidence-gate enrichment",
       "parentGuides": 2,
@@ -237,11 +244,11 @@
     }
   ],
   "activeCluster": {
-    "name": "Anchorage evidence-gate enrichment",
-    "reason": "Anchorage remained the strongest connected launch gap after the source-persistence repairs. Kincaid Park and Delaney Park Strip now clear the four-photo parent gate, while Far North Bicentennial Park remains explicitly deferred with only two reviewed reusable images.",
+    "name": "Wilmington evidence-gate enrichment",
+    "reason": "Brandywine Park and Rockford Park were the strongest remaining connected launch gap: both already had official visitor guidance and each now clears the four-photo parent gate. Josephine Fountain and Rockford Tower also clear exact destination review, while Brandywine Zoo and other inherited facilities remain deferred until matching current reusable photography and complete profiles clear together.",
     "releaseStandard": "Retain current official parent answers, require four varied reusable photographs per released parent, and publish only named destinations with exact reviewed coordinates, destination-specific photography, nine source-backed answers, and current operator guidance.",
-    "status": "anchorage-generated-locally-verified-and-preview-http-verified",
-    "metros": ["Anchorage"],
+    "status": "wilmington-generated-and-locally-verified",
+    "metros": ["Wilmington"],
     "resumeCheckpoint": {
       "pausedAt": "2026-08-11",
       "completed": [
@@ -399,9 +406,13 @@
     "Published exact destination pages for Kincaid Beach, Centennial Rose Garden, and Alaska Railroad No. 556 using destination-specific Wikimedia Commons photographs and geotag or named OpenStreetMap positions.",
     "Kept Far North Bicentennial Park photo-gated with two reviewed images rather than treating adjacent Campbell Tract scenes or a same-event volunteer series as representative park coverage.",
     "Verified all 52 super-enrichment campaigns, North Carolina image and generated-page safeguards, Raleigh discovery, raw Anchorage HTML, exact navigation, and six phone plus three desktop layouts without horizontal overflow.",
-    "Preview-verified all six Anchorage routes and ten optimized campaign images on source-identical and final-head Ready deployments; GitHub validate, secrets, Vercel Preview Comments, and the linked Vercel status passed."
+    "Preview-verified all six Anchorage routes and ten optimized campaign images on source-identical and final-head Ready deployments; GitHub validate, secrets, Vercel Preview Comments, and the linked Vercel status passed.",
+    "Rebuilt Brandywine Park and Rockford Park with four varied local Wikimedia Commons photographs each and a generator-enforced eleven-intent parent answer set.",
+    "Published exact destination pages for Josephine Fountain and Rockford Tower with exact photo or named-building coordinates, destination-specific photographs, and nine source-backed visitor answers each.",
+    "Retired the inherited Brandywine Zoo standalone route with a permanent parent redirect because its animal portrait carries ambiguous permission wording and the available entrance image is historic; retained current zoo hours, fees, parking, accessibility, and family guidance on the parent page.",
+    "Verified all 53 super-enrichment campaigns, national discovery, North Carolina image and generated-page safeguards, raw Wilmington HTML, exact navigation, and source persistence across four data layers."
       ],
-    "nextAction": "After maintainer review of the stacked Anchorage draft, continue with the next connected launch gap that clears current official-source and representative-photo review. Keep Far North Bicentennial Park, Julian B. Lane, Boyd Hill, inland Broward, Olbrich Park, Riverside Regional Park, and Broad Ripple Park in their documented photo queues until new permission-cleared coverage appears.",
+    "nextAction": "After maintainer review of the stacked Wilmington draft, continue with the next connected launch gap that clears current official-source and representative-photo review. Keep Brandywine Zoo, Far North Bicentennial Park, Julian B. Lane, Boyd Hill, inland Broward, Olbrich Park, Riverside Regional Park, and Broad Ripple Park in their documented photo queues until matching permission-cleared coverage appears.",
       "notReleased": true,
       "productionPublished": false
     }

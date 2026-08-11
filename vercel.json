@@ -2,6 +2,7 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "redirects": [
+    { "source": "/us/de/wilmington/parks/brandywine-park/brandywine-zoo", "destination": "/us/de/wilmington/parks/brandywine-park", "permanent": true },
     { "source": "/us/fl/tampa/parks/curtis-hixon-waterfront-park/great-lawn", "destination": "/us/fl/tampa/parks/curtis-hixon-waterfront-park", "permanent": true },
     { "source": "/us/fl/tampa/parks/curtis-hixon-waterfront-park/curtis-hixon-splash-pads", "destination": "/us/fl/tampa/parks/curtis-hixon-waterfront-park", "permanent": true },
     { "source": "/us/fl/tampa/parks/curtis-hixon-waterfront-park/curtis-hixon-playground", "destination": "/us/fl/tampa/parks/curtis-hixon-waterfront-park", "permanent": true },

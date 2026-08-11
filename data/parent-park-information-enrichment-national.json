@@ -30062,39 +30062,20 @@
       ]
     },
     "launch-de-wilmington-rockford-park": {
+      "name": "Rockford Park",
+      "city": "Wilmington",
+      "citySlug": "wilmington-de",
       "operator": "Delaware Division of Parks and Recreation",
       "sourceLabel": "City of Wilmington",
       "source": "https://www.wilmingtonde.gov/Home/Components/FacilityDirectory/FacilityDirectory/223/118",
-      "cost": "General park, trail, playground, court, field, picnic, and dog-park access is free; permits, reserved facilities, events, and programs may charge separately.",
+      "address": "2001 Lookout Drive, Wilmington, DE 19806",
       "summary": "Rockford Park is Wilmington's 104-acre hilltop meadow and woodland park, with the historic 115-foot Rockford Tower, walking and hiking trails, off-street parking, public restrooms, dog park, picnic areas, baseball and basketball facilities, tennis courts, sledding hills, and major community events.",
+      "hours": "Wilmington State Parks lists outdoor park access daily from 8:00 a.m. to sunset. Rockford Tower's observation deck is not open daily; the current 2026 Tower Afternoons listing schedules Sundays from 1:00 to 3:00 p.m., May 17 through October 11, weather permitting.",
+      "hoursSchedule": false,
+      "cost": "General park, trail, playground, court, field, picnic, and dog-park access is free; permits, reserved facilities, events, and programs may charge separately.",
+      "accessibility": "Off-street parking and developed park roads reach the hilltop landscape, but the tower, meadow, woodland trails, and other facilities have different grades and surfaces. No operator source reviewed describes the observation deck as step-free.",
+      "transit": "Use DART First State's current trip planner with 2001 Lookout Drive or the Rockford Tower pin and verify the final uphill walk; do not rely on a stale route number.",
       "searchAnswers": [
-        {
-          "intentKey": "entrance",
-          "question": "What address should I use for Rockford Park?",
-          "answer": "Use 2001 Lookout Drive, Wilmington, DE 19806 for the official park listing. The park also connects with Rockford Road, Red Oak Road, Park Drive, Tower Road, and Riverview Avenue, so follow signs for the tower, dog park, courts, or field you want.",
-          "sourceLabel": "City of Wilmington",
-          "source": "https://www.wilmingtonde.gov/Home/Components/FacilityDirectory/FacilityDirectory/223/118",
-          "sourceType": "official",
-          "checkedAt": "2026-07-31"
-        },
-        {
-          "intentKey": "parking",
-          "question": "Is there parking at Rockford Park?",
-          "answer": "Yes. The City lists off-street parking inside the park. Large events such as the Wilmington Flower Market can change vehicle access and fill nearby spaces, so follow temporary signs rather than relying on normal arrival patterns.",
-          "sourceLabel": "City of Wilmington",
-          "source": "https://www.wilmingtonde.gov/Home/Components/FacilityDirectory/FacilityDirectory/223/118",
-          "sourceType": "official",
-          "checkedAt": "2026-07-31"
-        },
-        {
-          "intentKey": "restroom",
-          "question": "Are there public restrooms at Rockford Park?",
-          "answer": "Yes. Public restrooms are listed among Rockford Park's official amenities. Availability can still follow seasonal, maintenance, or event schedules, so verify if a restroom is essential to the visit.",
-          "sourceLabel": "City of Wilmington",
-          "source": "https://www.wilmingtonde.gov/Home/Components/FacilityDirectory/FacilityDirectory/223/118",
-          "sourceType": "official",
-          "checkedAt": "2026-07-31"
-        },
         {
           "intentKey": "trail-surface",
           "question": "Are there walking trails at Rockford Park?",
@@ -30102,7 +30083,10 @@
           "sourceLabel": "City of Wilmington",
           "source": "https://www.wilmingtonde.gov/Home/Components/FacilityDirectory/FacilityDirectory/223/118",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
         },
         {
           "intentKey": "dog-area",
@@ -30111,7 +30095,10 @@
           "sourceLabel": "City of Wilmington",
           "source": "https://www.wilmingtonde.gov/Home/Components/FacilityDirectory/FacilityDirectory/223/118",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
         },
         {
           "intentKey": "picnic",
@@ -30120,7 +30107,10 @@
           "sourceLabel": "City of Wilmington",
           "source": "https://www.wilmingtonde.gov/Home/Components/FacilityDirectory/FacilityDirectory/223/118",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
         },
         {
           "intentKey": "public-art",
@@ -30129,7 +30119,10 @@
           "sourceLabel": "City of Wilmington",
           "source": "https://www.wilmingtonde.gov/home/showpublisheddocument/224/638802280707600000",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
         },
         {
           "intentKey": "closures",
@@ -30138,16 +30131,10 @@
           "sourceLabel": "City of Wilmington",
           "source": "https://www.wilmingtonde.gov/Home/Components/FacilityDirectory/FacilityDirectory/223/118",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
-        },
-        {
-          "intentKey": "accessibility",
-          "question": "Which parts of Rockford Park are easiest to access?",
-          "answer": "Off-street parking, public restrooms, picnic areas, courts, and ring roads provide developed arrival options. The tower sits on a hill and trails cross sloped meadow and woodland, so verify the exact route before relying on a step-free visit.",
-          "sourceLabel": "City of Wilmington",
-          "source": "https://www.wilmingtonde.gov/Home/Components/FacilityDirectory/FacilityDirectory/223/118",
-          "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "fast",
+          "status": "verified"
         },
         {
           "intentKey": "playground",
@@ -30156,7 +30143,10 @@
           "sourceLabel": "City of Wilmington",
           "source": "https://www.wilmingtonde.gov/Home/Components/FacilityDirectory/FacilityDirectory/223/118",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
         },
         {
           "intentKey": "public-art",
@@ -30165,7 +30155,10 @@
           "sourceLabel": "City of Wilmington",
           "source": "https://www.wilmingtonde.gov/Home/Components/FacilityDirectory/FacilityDirectory/223/118",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
         },
         {
           "intentKey": "shade",
@@ -30174,7 +30167,10 @@
           "sourceLabel": "City of Wilmington",
           "source": "https://www.wilmingtonde.gov/Home/Components/FacilityDirectory/FacilityDirectory/223/118",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
         },
         {
           "intentKey": "splash-pad",
@@ -30183,18 +30179,188 @@
           "sourceLabel": "City of Wilmington",
           "source": "https://www.wilmingtonde.gov/Home/Components/FacilityDirectory/FacilityDirectory/223/118",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
+        },
+        {
+          "intentKey": "hours",
+          "question": "When is Rockford Park open?",
+          "answer": "Wilmington State Parks currently lists outdoor park access daily from 8:00 a.m. to sunset. Rockford Tower observation-deck access is separately scheduled and can close for weather.",
+          "sourceLabel": "Wilmington State Parks",
+          "source": "https://getconnected.delaware.gov/agency/detail/?agency_id=176980",
+          "sourceType": "official",
+          "verifiedAt": "2026-08-11",
+          "checkedAt": "2026-08-11",
+          "freshnessClass": "fast",
+          "status": "verified"
+        },
+        {
+          "intentKey": "parking",
+          "question": "Where should I park at Rockford Park?",
+          "answer": "Use the official 2001 Lookout Drive address and Rockford Park's documented off-street parking. Follow temporary signs during the Flower Market, concerts, sports, and other events rather than relying on normal circulation.",
+          "sourceLabel": "City of Wilmington",
+          "source": "https://www.wilmingtonde.gov/Home/Components/FacilityDirectory/FacilityDirectory/223/118",
+          "sourceType": "official",
+          "verifiedAt": "2026-08-11",
+          "checkedAt": "2026-08-11",
+          "freshnessClass": "fast",
+          "status": "verified"
+        },
+        {
+          "intentKey": "entrance",
+          "question": "Which entrance should I use for Rockford Park?",
+          "answer": "Use 2001 Lookout Drive for the official listing and route to the exact destination. Rockford Road, Red Oak Road, Park Drive, Tower Road, and Riverview Avenue reach different edges of the park.",
+          "sourceLabel": "City of Wilmington",
+          "source": "https://www.wilmingtonde.gov/Home/Components/FacilityDirectory/FacilityDirectory/223/118",
+          "sourceType": "official",
+          "verifiedAt": "2026-08-11",
+          "checkedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Are restrooms available at Rockford Park?",
+          "answer": "The City lists public restrooms among Rockford Park's amenities, but it does not publish destination-specific operating hours. Verify availability when a restroom is essential.",
+          "sourceLabel": "City of Wilmington",
+          "source": "https://www.wilmingtonde.gov/Home/Components/FacilityDirectory/FacilityDirectory/223/118",
+          "sourceType": "official",
+          "verifiedAt": "2026-08-11",
+          "checkedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
+        },
+        {
+          "intentKey": "fees",
+          "question": "Is Rockford Park free?",
+          "answer": "No general outdoor park admission is listed. Permits, reserved facilities, organized programs, and special events may use separate terms, so verify the exact activity.",
+          "sourceLabel": "City of Wilmington",
+          "source": "https://www.wilmingtonde.gov/Home/Components/FacilityDirectory/FacilityDirectory/223/118",
+          "sourceType": "official",
+          "verifiedAt": "2026-08-11",
+          "checkedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
+        },
+        {
+          "intentKey": "accessibility",
+          "question": "What accessible routes are documented at Rockford Park?",
+          "answer": "The City documents off-street parking and developed amenities but does not describe the whole park or tower observation deck as step-free. The hilltop, meadow, and woodland routes vary in grade and surface; confirm the exact destination before relying on an accessible route.",
+          "sourceLabel": "City of Wilmington",
+          "source": "https://www.wilmingtonde.gov/Home/Components/FacilityDirectory/FacilityDirectory/223/118",
+          "sourceType": "official",
+          "verifiedAt": "2026-08-11",
+          "checkedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
+        },
+        {
+          "intentKey": "dogs",
+          "question": "Are dogs allowed at Rockford Park?",
+          "answer": "The City lists a designated dog park. Keep dogs controlled outside that marked off-leash area, remove waste, and follow posted Delaware State Parks rules around the tower, courts, fields, and events.",
+          "sourceLabel": "City of Wilmington",
+          "source": "https://www.wilmingtonde.gov/Home/Components/FacilityDirectory/FacilityDirectory/223/118",
+          "sourceType": "official",
+          "verifiedAt": "2026-08-11",
+          "checkedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
+        },
+        {
+          "intentKey": "family",
+          "question": "What should families plan at Rockford Park?",
+          "answer": "The City lists open fields, picnic areas, courts, ball fields, walking routes, and the tower landmark. Observation-deck entry is separately scheduled, so do not promise a climb on an ordinary park visit.",
+          "sourceLabel": "City of Wilmington",
+          "source": "https://www.wilmingtonde.gov/Home/Components/FacilityDirectory/FacilityDirectory/223/118",
+          "sourceType": "official",
+          "verifiedAt": "2026-08-11",
+          "checkedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
         },
         {
           "intentKey": "transit",
-          "question": "Can I take DART to Rockford Park?",
-          "answer": "DART serves Wilmington, but its published route list does not identify Rockford Park as a direct named stop. Use DART's live trip planner with the park entrance or Rockford Tower as the destination and verify the remaining walk before traveling; the park's steep hill and residential approaches can matter for strollers or limited mobility. For a tower event, sports equipment, or evening return, compare the transit itinerary with a direct ride.",
+          "question": "Can I reach Rockford Park without a car?",
+          "answer": "Use DART First State's current trip planner with 2001 Lookout Drive or Rockford Tower and confirm the final uphill walk. Do not rely on a route number copied from an older guide.",
           "sourceLabel": "DART First State",
           "source": "https://www.dartfirststate.com/routes/",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "verifiedAt": "2026-08-11",
+          "checkedAt": "2026-08-11",
+          "freshnessClass": "fast",
+          "status": "verified"
+        },
+        {
+          "intentKey": "need-to-know",
+          "question": "What is most likely to disrupt a Rockford Park visit?",
+          "answer": "Tower programs, the Flower Market, concerts, permitted events, winter conditions, and field use can change parking or access. Check the exact destination and same-day notices before leaving.",
+          "sourceLabel": "City of Wilmington",
+          "source": "https://www.wilmingtonde.gov/Home/Components/FacilityDirectory/FacilityDirectory/223/118",
+          "sourceType": "official",
+          "verifiedAt": "2026-08-11",
+          "checkedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
+        },
+        {
+          "intentKey": "weather",
+          "question": "How does weather affect Rockford Park?",
+          "answer": "The broad hilltop lawn, courts, fields, and tower grounds are exposed. Current Tower Afternoons guidance warns that the observation deck may close for inclement weather; use an enclosed vehicle or confirmed-open substantial building during severe weather rather than trees or the tower.",
+          "sourceLabel": "Greater Wilmington Convention & Visitors Bureau",
+          "source": "https://www.visitwilmingtonde.com/listing/rockford-park/940/",
+          "sourceType": "destination-marketing",
+          "verifiedAt": "2026-08-11",
+          "checkedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
         }
-      ]
+      ],
+      "image": {
+        "url": "/assets/parks/wilmington-evidence-gate/rockford-park/01-sam-dupont.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Sam_DuPont.JPG",
+        "author": "Smallbones",
+        "license": "Public domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "alt": "Samuel Francis Du Pont statue with Rockford Tower behind it",
+        "width": 1600,
+        "height": 1000
+      },
+      "additionalImages": [
+        {
+          "url": "/assets/parks/wilmington-evidence-gate/rockford-park/02-rockford-water-tower-viewed-from-the-field.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Rockford_Water_Tower_viewed_from_the_field.jpg",
+          "author": "JoPod",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "alt": "Rockford Tower viewed across the park's broad open field",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/wilmington-evidence-gate/rockford-park/03-rockford-lawn-from-above.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Rockford_Lawn_from_Above.JPG",
+          "author": "Ethelred unraed",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "alt": "Rockford Park's lawn and wooded landscape viewed from Rockford Tower",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/wilmington-evidence-gate/rockford-park/04-bancroft-memorial.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Bancroft_Memorial.JPG",
+          "author": "Ethelred unraed",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "alt": "Stone terraces and the William P. Bancroft memorial in Rockford Park",
+          "width": 1600,
+          "height": 1000
+        }
+      ],
+      "replaceImages": true,
+      "verifiedAt": "2026-08-11"
     },
     "launch-md-baltimore-federal-hill-park": {
       "name": "Federal Hill Park",
@@ -40838,31 +41004,20 @@
       "verifiedAt": "2026-08-06"
     },
     "launch-de-wilmington-brandywine-park": {
-      "operator": "Delaware Division of Natural Resources and Environmental Control",
+      "name": "Brandywine Park",
+      "city": "Wilmington",
+      "citySlug": "wilmington-de",
+      "operator": "Delaware Division of Parks and Recreation",
       "sourceLabel": "City of Wilmington",
       "source": "https://www.wilmingtonde.gov/Home/Components/FacilityDirectory/FacilityDirectory/131/118",
-      "hours": "Outdoor access follows posted park hours; Brandywine Zoo and programmed facilities have separate schedules.",
-      "cost": "General park access is free; Brandywine Zoo and reserved facilities may charge.",
+      "address": "1001 N. Park Drive, Wilmington, DE 19802",
       "summary": "Brandywine Park is a 165-acre Wilmington park along Brandywine Creek with the zoo, Jasper Crane Rose Garden, trails, playgrounds, sports fields, courts, picnic areas, pavilions, and a dog park.",
-      "additionalImages": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Brandywine_Park_3Bridges.JPG",
-          "source": "https://commons.wikimedia.org/wiki/File:Brandywine_Park_3Bridges.JPG",
-          "author": "Smallbones",
-          "license": "Public domain",
-          "alt": "Three bridges over Brandywine Creek viewed from Brandywine Park in Wilmington"
-        }
-      ],
+      "hours": "Wilmington State Parks lists outdoor park access daily from 8:00 a.m. to sunset. Brandywine Zoo, Baynard Stadium, restrooms, programs, permitted events, and other facilities keep separate schedules and may close independently.",
+      "hoursSchedule": false,
+      "cost": "General park access is free; Brandywine Zoo and reserved facilities may charge.",
+      "accessibility": "Developed roads and paved creekside routes serve portions of Brandywine Park, but grades, bridges, natural edges, weather, flooding, and destination-specific entrances vary. Use the exact destination guidance and do not assume the whole 165-acre park is step-free.",
+      "transit": "Use DART First State's current trip planner for the exact destination, such as Brandywine Zoo or North Park Drive, because the park spans both sides of the creek and several approaches.",
       "searchAnswers": [
-        {
-          "intentKey": "parking",
-          "question": "Is there parking at Brandywine Park?",
-          "answer": "Yes. The City lists off-street parking as a park amenity. Use the exact destination pin because Brandywine Zoo, the rose garden, sports areas, and trails are spread along the creek.",
-          "sourceLabel": "City of Wilmington",
-          "source": "https://www.wilmingtonde.gov/Home/Components/FacilityDirectory/FacilityDirectory/131/118",
-          "sourceType": "official",
-          "checkedAt": "2026-07-30"
-        },
         {
           "intentKey": "amenities",
           "question": "What is available at Brandywine Park?",
@@ -40870,9 +41025,188 @@
           "sourceLabel": "City of Wilmington",
           "source": "https://www.wilmingtonde.gov/Home/Components/FacilityDirectory/FacilityDirectory/131/118",
           "sourceType": "official",
-          "checkedAt": "2026-07-30"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
+        },
+        {
+          "intentKey": "hours",
+          "question": "When is Brandywine Park open?",
+          "answer": "Wilmington State Parks currently lists outdoor park access daily from 8:00 a.m. to sunset. The zoo, stadium, programs, permitted events, and restrooms use separate schedules and may close independently.",
+          "sourceLabel": "Wilmington State Parks",
+          "source": "https://getconnected.delaware.gov/agency/detail/?agency_id=176980",
+          "sourceType": "official",
+          "verifiedAt": "2026-08-11",
+          "checkedAt": "2026-08-11",
+          "freshnessClass": "fast",
+          "status": "verified"
+        },
+        {
+          "intentKey": "parking",
+          "question": "Where should I park at Brandywine Park?",
+          "answer": "Use the official 1001 N. Park Drive address, then choose legal parking for the exact destination. The City lists off-street parking, while Brandywine Zoo directs visitors to the free river lot across from the zoo and limited accessible spaces nearer its entrance.",
+          "sourceLabel": "City of Wilmington",
+          "source": "https://www.wilmingtonde.gov/Home/Components/FacilityDirectory/FacilityDirectory/131/118",
+          "sourceType": "official",
+          "verifiedAt": "2026-08-11",
+          "checkedAt": "2026-08-11",
+          "freshnessClass": "fast",
+          "status": "verified"
+        },
+        {
+          "intentKey": "entrance",
+          "question": "Which entrance should I use for Brandywine Park?",
+          "answer": "There is no single useful entrance for the full 165-acre creekside park. Route to the zoo, Josephine Fountain, Jasper Crane Rose Garden, Baynard Stadium, or another named destination and follow current signs from North Park Drive or the appropriate neighborhood approach.",
+          "sourceLabel": "City of Wilmington",
+          "source": "https://www.wilmingtonde.gov/Home/Components/FacilityDirectory/FacilityDirectory/131/118",
+          "sourceType": "official",
+          "verifiedAt": "2026-08-11",
+          "checkedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Where are restrooms in Brandywine Park?",
+          "answer": "The City park listing does not identify a general restroom building. Brandywine Zoo has accessible restrooms near its front entrance, but they are inside a separately ticketed facility and follow zoo hours; verify another open facility if a restroom is essential.",
+          "sourceLabel": "Brandywine Zoo",
+          "source": "https://brandywinezoo.org/visit/accessibility/",
+          "sourceType": "official",
+          "verifiedAt": "2026-08-11",
+          "checkedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
+        },
+        {
+          "intentKey": "fees",
+          "question": "Is Brandywine Park free?",
+          "answer": "No general outdoor park admission is listed. Brandywine Zoo has seasonal admission prices, and programs, reservations, stadium use, and ticketed events may charge separately.",
+          "sourceLabel": "Brandywine Zoo",
+          "source": "https://brandywinezoo.org/visit/",
+          "sourceType": "official",
+          "verifiedAt": "2026-08-11",
+          "checkedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
+        },
+        {
+          "intentKey": "accessibility",
+          "question": "What accessible routes are documented at Brandywine Park?",
+          "answer": "The reviewed City source documents developed park amenities and off-street parking but does not describe the entire park as accessible. Brandywine Zoo separately documents accessible exhibits, entrance restrooms, limited accessible parking, and slope limitations; verify the exact destination rather than generalizing that guidance to all park routes.",
+          "sourceLabel": "Brandywine Zoo",
+          "source": "https://brandywinezoo.org/visit/accessibility/",
+          "sourceType": "official",
+          "verifiedAt": "2026-08-11",
+          "checkedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
+        },
+        {
+          "intentKey": "dogs",
+          "question": "Are dogs allowed at Brandywine Park?",
+          "answer": "Wilmington lists two designated off-leash areas in Brandywine Park. Outside their marked boundaries, keep dogs on a leash no longer than six feet and remove waste; Brandywine Zoo prohibits pets and applies separate service-animal rules.",
+          "sourceLabel": "City of Wilmington",
+          "source": "https://www.wilmingtonde.gov/government/city-departments/department-of-parks-and-recreation/wilmington-s-dog-parks",
+          "sourceType": "official",
+          "verifiedAt": "2026-08-11",
+          "checkedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
+        },
+        {
+          "intentKey": "family",
+          "question": "What should families plan at Brandywine Park?",
+          "answer": "Choose a specific combination such as creekside paths, playground equipment, picnic space, gardens, or a separately ticketed zoo visit. The City lists these amenities across a large park, so route to the intended zone and do not treat the creek or memorial fountain as supervised water play.",
+          "sourceLabel": "City of Wilmington",
+          "source": "https://www.wilmingtonde.gov/Home/Components/FacilityDirectory/FacilityDirectory/131/118",
+          "sourceType": "official",
+          "verifiedAt": "2026-08-11",
+          "checkedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
+        },
+        {
+          "intentKey": "transit",
+          "question": "Can I reach Brandywine Park without a car?",
+          "answer": "Use DART First State's live trip planner for the exact destination and confirm the final walk. A route to Brandywine Zoo or North Park Drive is more useful than a generic park search because entrances lie on both sides of the creek.",
+          "sourceLabel": "DART First State",
+          "source": "https://www.dartfirststate.com/map/",
+          "sourceType": "official",
+          "verifiedAt": "2026-08-11",
+          "checkedAt": "2026-08-11",
+          "freshnessClass": "fast",
+          "status": "verified"
+        },
+        {
+          "intentKey": "need-to-know",
+          "question": "What is most likely to disrupt a Brandywine Park visit?",
+          "answer": "The zoo, stadium, events, gardens, and outdoor park do not share one schedule. Check the exact destination, follow posted road and path controls, and avoid confusing this Wilmington park with Brandywine Creek State Park or Brandywine Springs Park.",
+          "sourceLabel": "City of Wilmington",
+          "source": "https://www.wilmingtonde.gov/Home/Components/FacilityDirectory/FacilityDirectory/131/118",
+          "sourceType": "official",
+          "verifiedAt": "2026-08-11",
+          "checkedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
+        },
+        {
+          "intentKey": "weather",
+          "question": "How does weather affect Brandywine Park?",
+          "answer": "Creekside routes, gardens, open recreation areas, and events are weather-exposed. Check current park and zoo notices after storms or during extreme heat or cold, and never assume the creek is a managed swimming area.",
+          "sourceLabel": "Wilmington State Parks",
+          "source": "https://getconnected.delaware.gov/agency/detail/?agency_id=176980",
+          "sourceType": "official",
+          "verifiedAt": "2026-08-11",
+          "checkedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
         }
-      ]
+      ],
+      "image": {
+        "url": "/assets/parks/wilmington-evidence-gate/brandywine-park/01-wilmington.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Wilmington.jpeg",
+        "author": "Luiz F. Castro",
+        "license": "Public domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "alt": "Brandywine Creek and the Wilmington skyline viewed from North Washington Street Bridge",
+        "width": 1600,
+        "height": 1000
+      },
+      "additionalImages": [
+        {
+          "url": "/assets/parks/wilmington-evidence-gate/brandywine-park/02-brandywine-park-3bridges.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Brandywine_Park_3Bridges.JPG",
+          "author": "Smallbones",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+          "alt": "Swinging footbridge and historic rail and road bridges crossing Brandywine Creek",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/wilmington-evidence-gate/brandywine-park/03-brandywine-park-blossoms.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Brandywine_Park_Blossoms.JPG",
+          "author": "Ethelred unraed",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "alt": "Josephine Fountain framed by spring blossoms in Brandywine Park",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/wilmington-evidence-gate/brandywine-park/04-brandywine-park-river.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Brandywine_Park_River.JPG",
+          "author": "Ethelred unraed",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "alt": "Brandywine Creek, stone river wall, and wooded bank in Brandywine Park",
+          "width": 1600,
+          "height": 1000
+        }
+      ],
+      "replaceImages": true,
+      "verifiedAt": "2026-08-11"
     },
     "launch-wa-seattle-discovery-park": {
       "city": "Seattle",
