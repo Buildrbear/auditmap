@@ -6,7 +6,7 @@ Last updated: 2026-08-11
 
 - Status: the Tampa Bay evidence-gate rebuild is generated and locally verified; draft PR preview verification is next.
 - Working branch: `codex/tampa-bay-evidence-gate`
-- Pull request: pending, stacked on https://github.com/Buildrbear/auditmap/pull/25
+- Pull request: https://github.com/Buildrbear/auditmap/pull/26 (draft, stacked on PR #25)
 - Outcome: six released parent guides, two explicit photo-gated parents, 27 reviewed reusable images, three evidence-complete destinations, and 61 retired legacy routes.
 - Preview: pending draft PR deployment.
 - Production status: not merged or promoted to production.

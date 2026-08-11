@@ -6,7 +6,7 @@
 - Assignment: direct AuditMap owner request continuing the nationwide enrichment campaign
 - OpenTask assignment: not separately supplied
 - GitHub issue: not separately supplied
-- Pull request: pending draft publication, stacked on PR #25
+- Pull request: https://github.com/Buildrbear/auditmap/pull/26 (draft, stacked on PR #25)
 - Checked: 2026-08-11
 - Production publication: not performed
 
