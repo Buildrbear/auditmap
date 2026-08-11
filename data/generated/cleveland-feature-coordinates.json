@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-06",
+  "checkedAt": "2026-08-10",
   "places": {
     "launch-oh-cleveland-edgewater-park": {
       "edgewater-beach": {
@@ -23,50 +23,18 @@
       "italian-cultural-garden": {
         "latitude": 41.528395,
         "longitude": -81.6271654,
-        "displayName": "Preserved coordinate for Italian Cultural Garden",
-        "source": "OpenStreetMap Nominatim"
+        "coordinateSource": "https://www.openstreetmap.org/way/416229345",
+        "positionQuality": "reviewed-named-garden-way-and-official-address-match",
+        "displayName": "reviewed-named-garden-way-and-official-address-match",
+        "source": "https://www.openstreetmap.org/way/416229345"
       },
       "hungarian-cultural-garden": {
         "latitude": 41.5254784,
         "longitude": -81.6250585,
-        "displayName": "Preserved coordinate for Hungarian Cultural Garden",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "irish-cultural-garden": {
-        "latitude": 41.5223779,
-        "longitude": -81.6218855,
-        "displayName": "Preserved coordinate for Irish Cultural Garden",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "hebrew-cultural-garden": {
-        "latitude": 41.5242705,
-        "longitude": -81.6236356,
-        "displayName": "Preserved coordinate for Hebrew Cultural Garden",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "african-american-cultural-garden": {
-        "latitude": 41.5300436,
-        "longitude": -81.6294721,
-        "displayName": "Preserved coordinate for African American Cultural Garden",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "centennial-peace-plaza": {
-        "latitude": 41.5258282,
-        "longitude": -81.6258458,
-        "displayName": "Preserved coordinate for Centennial Peace Plaza",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "rockefeller-park-greenhouse": {
-        "latitude": 41.5370521,
-        "longitude": -81.628639,
-        "displayName": "Preserved coordinate for Rockefeller Park Greenhouse",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "rockefeller-lagoon": {
-        "latitude": 41.5128278,
-        "longitude": -81.6177036,
-        "displayName": "Preserved coordinate for Rockefeller Lagoon",
-        "source": "OpenStreetMap Nominatim"
+        "coordinateSource": "https://commons.wikimedia.org/wiki/File:Hungarian_Cultural_Garden.jpg",
+        "positionQuality": "reviewed-named-garden-position-and-destination-photo-geotag-match",
+        "displayName": "reviewed-named-garden-position-and-destination-photo-geotag-match",
+        "source": "https://commons.wikimedia.org/wiki/File:Hungarian_Cultural_Garden.jpg"
       }
     },
     "launch-oh-cleveland-cleveland-lakefront-nature-preserve": {
@@ -121,52 +89,20 @@
     },
     "launch-oh-cleveland-public-square": {
       "soldiers-and-sailors-monument": {
-        "latitude": 41.4995151,
-        "longitude": -81.6929258,
-        "displayName": "Preserved coordinate for Soldiers and Sailors Monument",
-        "source": "OpenStreetMap Nominatim"
+        "latitude": 41.4995,
+        "longitude": -81.693,
+        "coordinateSource": "https://www.openstreetmap.org/way/430783849",
+        "positionQuality": "reviewed-named-monument-way-and-official-southeast-quadrant-match",
+        "displayName": "reviewed-named-monument-way-and-official-southeast-quadrant-match",
+        "source": "https://www.openstreetmap.org/way/430783849"
       },
       "public-square-splash-pad": {
-        "latitude": 41.50007833513653,
-        "longitude": -81.69323596486348,
-        "displayName": "Preserved coordinate for Public Square Splash Pad",
-        "source": "AuditMap official-map placement"
-      },
-      "rebol-cafe": {
-        "latitude": 41.499647,
-        "longitude": -81.6928973,
-        "displayName": "Preserved coordinate for REBoL Cafe",
-        "source": "AuditMap official-map placement"
-      },
-      "public-square-main-lawn": {
-        "latitude": 41.49932880194847,
-        "longitude": -81.69334910194847,
-        "displayName": "Preserved coordinate for Public Square Main Lawn",
-        "source": "AuditMap official-map placement"
-      },
-      "hospitality-kiosk": {
-        "latitude": 41.499037,
-        "longitude": -81.6936673,
-        "displayName": "Preserved coordinate for Hospitality Kiosk",
-        "source": "AuditMap official-map placement"
-      },
-      "keybank-promenade": {
-        "latitude": 41.49910252777849,
-        "longitude": -81.69421177222152,
-        "displayName": "Preserved coordinate for KeyBank Promenade",
-        "source": "AuditMap official-map placement"
-      },
-      "cleveland-foundation-ice-rink": {
-        "latitude": 41.499647,
-        "longitude": -81.6941173,
-        "displayName": "Preserved coordinate for Cleveland Foundation Ice Rink",
-        "source": "AuditMap official-map placement"
-      },
-      "illuminate-cle-light-show": {
-        "latitude": 41.50007833513653,
-        "longitude": -81.69409863513653,
-        "displayName": "Preserved coordinate for Illuminate CLE Light Show",
-        "source": "AuditMap official-map placement"
+        "latitude": 41.49969,
+        "longitude": -81.693681,
+        "coordinateSource": "https://commons.wikimedia.org/wiki/File:Cleveland_Public_Square_Fountain_(27952683361).jpg",
+        "positionQuality": "reviewed-destination-photo-geotag-and-official-park-map-match",
+        "displayName": "reviewed-destination-photo-geotag-and-official-park-map-match",
+        "source": "https://commons.wikimedia.org/wiki/File:Cleveland_Public_Square_Fountain_(27952683361).jpg"
       }
     },
     "launch-oh-cleveland-wendy-park": {
@@ -296,53 +232,37 @@
       }
     },
     "launch-oh-cleveland-cuyahoga-valley-national-park": {
-      "boston-mill-visitor-center": {
-        "latitude": 41.2630454,
-        "longitude": -81.560308,
-        "displayName": "Preserved coordinate for Boston Mill Visitor Center",
-        "source": "AuditMap official-map placement"
-      },
       "brandywine-falls": {
-        "latitude": 41.26302673513653,
-        "longitude": -81.55987666486348,
-        "displayName": "Preserved coordinate for Brandywine Falls",
-        "source": "AuditMap official-map placement"
+        "latitude": 41.276347,
+        "longitude": -81.53929,
+        "coordinateSource": "https://www.nps.gov/cuva/planyourvisit/parking.htm",
+        "positionQuality": "reviewed-official-nps-trailhead-coordinate-for-falls-arrival",
+        "displayName": "reviewed-official-nps-trailhead-coordinate-for-falls-arrival",
+        "source": "https://www.nps.gov/cuva/planyourvisit/parking.htm"
       },
       "ledges-trail": {
-        "latitude": 41.2625954,
-        "longitude": -81.559538,
-        "displayName": "Preserved coordinate for Ledges Trail",
-        "source": "AuditMap official-map placement"
+        "latitude": 41.223414,
+        "longitude": -81.51027,
+        "coordinateSource": "https://www.nps.gov/cuva/planyourvisit/parking.htm",
+        "positionQuality": "reviewed-official-nps-ledges-trailhead-coordinate",
+        "displayName": "reviewed-official-nps-ledges-trailhead-coordinate",
+        "source": "https://www.nps.gov/cuva/planyourvisit/parking.htm"
       },
       "beaver-marsh": {
-        "latitude": 41.26227720194847,
-        "longitude": -81.55998980194848,
-        "displayName": "Preserved coordinate for Beaver Marsh",
-        "source": "AuditMap official-map placement"
-      },
-      "ohio-and-erie-canal-towpath-trail": {
-        "latitude": 41.2619854,
-        "longitude": -81.560308,
-        "displayName": "Preserved coordinate for Ohio and Erie Canal Towpath Trail",
-        "source": "AuditMap official-map placement"
+        "latitude": 41.1845833,
+        "longitude": -81.58335,
+        "coordinateSource": "https://www.nps.gov/cuva/planyourvisit/half-day-visit.htm",
+        "positionQuality": "reviewed-official-nps-ira-trailhead-coordinate-for-marsh-arrival",
+        "displayName": "reviewed-official-nps-ira-trailhead-coordinate-for-marsh-arrival",
+        "source": "https://www.nps.gov/cuva/planyourvisit/half-day-visit.htm"
       },
       "everett-covered-bridge": {
-        "latitude": 41.26205092777849,
-        "longitude": -81.56085247222153,
-        "displayName": "Preserved coordinate for Everett Covered Bridge",
-        "source": "AuditMap official-map placement"
-      },
-      "blue-hen-falls": {
-        "latitude": 41.2625954,
-        "longitude": -81.560758,
-        "displayName": "Preserved coordinate for Blue Hen Falls",
-        "source": "AuditMap official-map placement"
-      },
-      "canal-exploration-center": {
-        "latitude": 41.26302673513653,
-        "longitude": -81.56073933513653,
-        "displayName": "Preserved coordinate for Canal Exploration Center",
-        "source": "AuditMap official-map placement"
+        "latitude": 41.2044167,
+        "longitude": -81.5810833,
+        "coordinateSource": "https://www.nps.gov/cuva/planyourvisit/half-day-visit.htm",
+        "positionQuality": "reviewed-official-nps-everett-trailhead-coordinate",
+        "displayName": "reviewed-official-nps-everett-trailhead-coordinate",
+        "source": "https://www.nps.gov/cuva/planyourvisit/half-day-visit.htm"
       }
     }
   }

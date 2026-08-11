@@ -4,22 +4,23 @@ Last updated: 2026-08-10
 
 ## Current State
 
-- Status: paused after the first Cleveland Lakefront Reservation release.
+- Status: second Cleveland flagship batch is locally verified and awaiting its consolidated preview.
 - Working branch: `codex/cleveland-lakefront-evidence-rebuild`
 - Pull request: https://github.com/Buildrbear/auditmap/pull/10
-- Release commit: `3671cb440`
+- First-batch release commit: `3671cb440`
+- Second-batch release commit: this checkpoint's next commit on the same branch.
 - Production status: not merged or promoted to production.
 - Canonical machine-readable checkpoint: `data/us-priority-enrichment-queue.json` under `activeCluster.resumeCheckpoint`.
 
-The completed Cleveland batch covers Edgewater Park and Wendy Park, with five evidence-cleared destination pages: Edgewater Beach, Cleveland Script Sign, Wendy Park Bridge, Wendy Park Volleyball Courts, and Old Cleveland Coast Guard Station. It includes twelve licensed parent-gallery photographs, exact reviewed destination coordinates, source-backed visitor answers, and permanent redirects for twelve retired weak destination routes.
+The first Cleveland batch covers Edgewater Park and Wendy Park, with five evidence-cleared destination pages: Edgewater Beach, Cleveland Script Sign, Wendy Park Bridge, Wendy Park Volleyball Courts, and Old Cleveland Coast Guard Station. The second batch adds Rockefeller Park and Cultural Gardens, Public Square, and Cuyahoga Valley National Park with eight retained destination pages: Italian Cultural Garden, Hungarian Cultural Garden, Soldiers and Sailors Monument, Public Square Splash Pad, Brandywine Falls, Ledges Trail, Beaver Marsh, and Everett Covered Bridge.
 
 ## Resume Point
 
-Do not repeat Cleveland Lakefront research or reopen completed parks unless review finds a specific defect. Start by selecting the strongest evidence-ready Cleveland flagship from:
+Do not repeat the Lakefront or second-batch research unless review finds a specific defect. After the consolidated preview is verified, select the strongest evidence-ready batch from:
 
-1. Rockefeller Park and Cultural Gardens
-2. Public Square
-3. Cuyahoga Valley National Park
+1. Cleveland Lakefront Nature Preserve
+2. Rocky River Reservation
+3. Brecksville Reservation
 
 Before publishing any parent or destination page, confirm representative reusable photography, current official visitor guidance, exact destination coordinates, and destination-specific photographic evidence. Defer weak subsites rather than publishing broad parent images or approximate pins.
 

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T02:25:30.530Z",
+  "generatedAt": "2026-08-11T02:58:20.117Z",
   "policy": {
     "publication": "AI findings remain proposed until a human accepts the fact and its sources.",
     "prioritization": "Daily-use and safety-sensitive gaps rank above descriptive content.",
@@ -9,8 +9,8 @@
   "summary": {
     "places": 912,
     "averageCoverageScore": 55,
-    "openTasks": 6013,
-    "urgentTasks": 962
+    "openTasks": 6012,
+    "urgentTasks": 963
   },
   "coverage": [
     {
@@ -2733,29 +2733,29 @@
       "placeId": "launch-pa-philadelphia-dilworth-park",
       "placeName": "Dilworth Park",
       "expectedIntentCount": 14,
-      "coveredIntentCount": 14,
-      "coverageScore": 100
+      "coveredIntentCount": 9,
+      "coverageScore": 66
     },
     {
       "placeId": "launch-pa-philadelphia-fdr-park",
       "placeName": "FDR Park",
       "expectedIntentCount": 14,
-      "coveredIntentCount": 6,
-      "coverageScore": 48
+      "coveredIntentCount": 8,
+      "coverageScore": 61
     },
     {
       "placeId": "launch-pa-philadelphia-rittenhouse-square",
       "placeName": "Rittenhouse Square",
       "expectedIntentCount": 14,
-      "coveredIntentCount": 6,
-      "coverageScore": 48
+      "coveredIntentCount": 9,
+      "coverageScore": 66
     },
     {
       "placeId": "launch-pa-philadelphia-franklin-square",
       "placeName": "Franklin Square",
       "expectedIntentCount": 14,
-      "coveredIntentCount": 6,
-      "coverageScore": 48
+      "coveredIntentCount": 7,
+      "coverageScore": 55
     },
     {
       "placeId": "launch-pa-philadelphia-schuylkill-banks",
@@ -23370,6 +23370,26 @@
           "label": "National Park Service",
           "url": "https://www.nps.gov/cuva/planyourvisit/index.htm",
           "sourceType": "official"
+        },
+        {
+          "label": "National Park Service Brandywine Falls",
+          "url": "https://www.nps.gov/places/000/brandywine-falls-trailhead.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service Ledges Trail",
+          "url": "https://www.nps.gov/thingstodo/hike-the-ledges-trail.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service Beaver Marsh",
+          "url": "https://www.nps.gov/cuva/planyourvisit/the-beaver-marsh.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service Everett Covered Bridge",
+          "url": "https://www.nps.gov/places/000/everett-covered-bridge.htm",
+          "sourceType": "official"
         }
       ],
       "requiresHumanReview": true,
@@ -23733,12 +23753,12 @@
         },
         {
           "label": "Cleveland Metroparks",
-          "url": "https://cms.clevelandmetroparks.com/parks/visit/parks/lakefront-reservation/edgewater-beach",
+          "url": "https://www.clevelandmetroparks.com/parks/visit/parks/lakefront-reservation/edgewater-beach",
           "sourceType": "official"
         },
         {
           "label": "Cleveland Metroparks",
-          "url": "https://www.riderta.com/index.php/routes/clevelandstateline/schedules/current",
+          "url": "https://www.riderta.com/routes/55-55b-55c/schedules/current",
           "sourceType": "official"
         },
         {
@@ -23828,7 +23848,17 @@
       "suggestedSources": [
         {
           "label": "City of Pittsburgh",
-          "url": "https://engage.pittsburghpa.gov/emerald-view-park/story/134/113",
+          "url": "https://engage.pittsburghpa.gov/emerald-view-park/story/134/147",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh Public Art and Memorial Inventory",
+          "url": "https://www.pittsburghpa.gov/files/assets/city/v/1/dcp/documents/20117_2023_city_of_pittsburgh_public_art__memorial_inventory.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh Our Parks",
+          "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks-Greenways/Our-Parks",
           "sourceType": "official"
         }
       ],
@@ -23969,31 +23999,6 @@
         {
           "label": "Fair Park First and Dallas Park and Recreation",
           "url": "https://www.fairparkdallas.com/visit/plan-your-visit",
-          "sourceType": "official"
-        }
-      ],
-      "requiresHumanReview": true,
-      "placeCoverageScore": 48
-    },
-    {
-      "id": "launch-pa-philadelphia-fdr-park:closures",
-      "placeId": "launch-pa-philadelphia-fdr-park",
-      "placeName": "FDR Park",
-      "placeType": "Park",
-      "city": "Philadelphia",
-      "state": "PA",
-      "intentKey": "closures",
-      "intentLabel": "Closures and availability",
-      "question": "Is anything at FDR Park closed, seasonal, or temporarily unavailable?",
-      "reason": "No current, source-backed closures and availability answer is cataloged.",
-      "action": "research",
-      "priority": 96,
-      "freshnessDays": 3,
-      "previousAnswer": null,
-      "suggestedSources": [
-        {
-          "label": "Philadelphia Parks & Recreation",
-          "url": "https://www.phila.gov/parks-rec-finder/#/location/fdr-park/",
           "sourceType": "official"
         }
       ],
@@ -24386,31 +24391,6 @@
       "placeCoverageScore": 48
     },
     {
-      "id": "launch-pa-philadelphia-franklin-square:closures",
-      "placeId": "launch-pa-philadelphia-franklin-square",
-      "placeName": "Franklin Square",
-      "placeType": "Park",
-      "city": "Philadelphia",
-      "state": "PA",
-      "intentKey": "closures",
-      "intentLabel": "Closures and availability",
-      "question": "Is anything at Franklin Square closed, seasonal, or temporarily unavailable?",
-      "reason": "No current, source-backed closures and availability answer is cataloged.",
-      "action": "research",
-      "priority": 96,
-      "freshnessDays": 3,
-      "previousAnswer": null,
-      "suggestedSources": [
-        {
-          "label": "Historic Philadelphia",
-          "url": "https://historicphiladelphia.org/franklin-square/",
-          "sourceType": "official"
-        }
-      ],
-      "requiresHumanReview": true,
-      "placeCoverageScore": 48
-    },
-    {
       "id": "launch-nc-charlotte-freedom-park:closures",
       "placeId": "launch-nc-charlotte-freedom-park",
       "placeName": "Freedom Park",
@@ -24477,7 +24457,7 @@
       "previousAnswer": null,
       "suggestedSources": [
         {
-          "label": "City of Pittsburgh",
+          "label": "City of Pittsburgh and Pittsburgh Parks Conservancy",
           "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks-Greenways/Our-Parks",
           "sourceType": "official"
         }
@@ -25429,6 +25409,21 @@
         {
           "label": "City of Pittsburgh",
           "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks-Greenways/Our-Parks",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh Art in Parks",
+          "url": "https://engage.pittsburghpa.gov/art-parks",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh Reservoir Drive Improvements",
+          "url": "https://engage.pittsburghpa.gov/reservoir-drive-improvements",
+          "sourceType": "official"
+        },
+        {
+          "label": "Pittsburgh Zoo & Aquarium",
+          "url": "https://www.pittsburghzoo.org/plan-your-visit/",
           "sourceType": "official"
         }
       ],
@@ -26945,6 +26940,41 @@
           "label": "City of Pittsburgh",
           "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks/Our-Parks/Mellon-Park",
           "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh",
+          "url": "https://www.pittsburghpa.gov/Recreation-Events/Pools/Spray-Parks",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh",
+          "url": "https://www.pittsburghpa.gov/files/assets/city/v/1/dcp/documents/historic-review-commission/23853_5-1059_shady_avenue_signage.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh",
+          "url": "https://www.pittsburghpa.gov/files/assets/city/v/4/parks/documents/updated-amenities-in-facilities-shelters-spreadsheet-10.31.25.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh",
+          "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks/Tennis/Mellon-Park-Tennis-Center",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh",
+          "url": "https://www.pittsburghpa.gov/Recreation-Events/About-Parks/Parks-FAQ",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh",
+          "url": "https://www.pittsburghpa.gov/Recreation-Events/Events/Concerts",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh Public Art and Memorial Inventory",
+          "url": "https://www.pittsburghpa.gov/files/assets/city/v/1/dcp/documents/20117_2023_city_of_pittsburgh_public_art__memorial_inventory.pdf",
+          "sourceType": "official"
         }
       ],
       "requiresHumanReview": true,
@@ -28175,6 +28205,16 @@
           "label": "Downtown Cleveland, Inc.",
           "url": "https://www.clevelandpublicsquare.com/about-the-park",
           "sourceType": "official"
+        },
+        {
+          "label": "Downtown Cleveland Public Square",
+          "url": "https://www.clevelandpublicsquare.com/soldiers-monument",
+          "sourceType": "official"
+        },
+        {
+          "label": "Downtown Cleveland Public Square",
+          "url": "https://www.clevelandpublicsquare.com/splash-pad",
+          "sourceType": "official"
         }
       ],
       "requiresHumanReview": true,
@@ -28356,31 +28396,6 @@
       "placeCoverageScore": 48
     },
     {
-      "id": "launch-pa-philadelphia-rittenhouse-square:closures",
-      "placeId": "launch-pa-philadelphia-rittenhouse-square",
-      "placeName": "Rittenhouse Square",
-      "placeType": "Park",
-      "city": "Philadelphia",
-      "state": "PA",
-      "intentKey": "closures",
-      "intentLabel": "Closures and availability",
-      "question": "Is anything at Rittenhouse Square closed, seasonal, or temporarily unavailable?",
-      "reason": "No current, source-backed closures and availability answer is cataloged.",
-      "action": "research",
-      "priority": 96,
-      "freshnessDays": 3,
-      "previousAnswer": null,
-      "suggestedSources": [
-        {
-          "label": "Philadelphia Parks & Recreation",
-          "url": "https://www.phila.gov/parks-rec-finder/#/location/rittenhouse-square/",
-          "sourceType": "official"
-        }
-      ],
-      "requiresHumanReview": true,
-      "placeCoverageScore": 48
-    },
-    {
       "id": "launch-ny-new-york-city-riverside-park:closures",
       "placeId": "launch-ny-new-york-city-riverside-park",
       "placeName": "Riverside Park",
@@ -28449,6 +28464,21 @@
         {
           "label": "City of Pittsburgh",
           "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks-Greenways/Our-Parks",
+          "sourceType": "official"
+        },
+        {
+          "label": "University of Pittsburgh Allegheny Observatory",
+          "url": "https://www.observatory.pitt.edu/events/public-tours",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh Park Rangers",
+          "url": "https://www.pittsburghpa.gov/Recreation-Events/About-Parks/Park-Rangers",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh RecDesk",
+          "url": "https://pittsburgh.recdesk.com/Community/Facility/Detail?facilityId=307",
           "sourceType": "official"
         }
       ],
@@ -28574,6 +28604,16 @@
         {
           "label": "OpenStreetMap park record",
           "url": "https://www.openstreetmap.org/relation/12816181",
+          "sourceType": "official"
+        },
+        {
+          "label": "Cleveland Cultural Gardens Federation",
+          "url": "https://clevelandculturalgardens.org/gardens/italian-garden/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Cleveland Cultural Gardens Federation",
+          "url": "https://clevelandculturalgardens.org/gardens/hungarian-garden/",
           "sourceType": "official"
         }
       ],
@@ -28887,7 +28927,7 @@
       "previousAnswer": null,
       "suggestedSources": [
         {
-          "label": "City of Pittsburgh",
+          "label": "City of Pittsburgh and Pittsburgh Parks Conservancy",
           "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks-Greenways/Our-Parks",
           "sourceType": "official"
         }
@@ -30786,6 +30826,66 @@
       "placeCoverageScore": 55
     },
     {
+      "id": "launch-pa-philadelphia-franklin-square:closures",
+      "placeId": "launch-pa-philadelphia-franklin-square",
+      "placeName": "Franklin Square",
+      "placeType": "Park",
+      "city": "Philadelphia",
+      "state": "PA",
+      "intentKey": "closures",
+      "intentLabel": "Closures and availability",
+      "question": "Is anything at Franklin Square closed, seasonal, or temporarily unavailable?",
+      "reason": "No current, source-backed closures and availability answer is cataloged.",
+      "action": "research",
+      "priority": 96,
+      "freshnessDays": 3,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Historic Philadelphia",
+          "url": "https://historicphiladelphia.org/franklin-square/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Historic Philadelphia Franklin Square visit guide",
+          "url": "https://historicphiladelphia.org/franklin-square-2/visit/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Historic Philadelphia capital improvements",
+          "url": "https://historicphiladelphia.org/stories/franklin-square-capital-improvements/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Historic Philadelphia park rules",
+          "url": "https://historicphiladelphia.org/franklin-square-2/park-rules/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Historic Philadelphia Chinese Lantern Festival",
+          "url": "https://historicphiladelphia.org/events/philadelphia-chinese-lantern-festival/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Historic Philadelphia Franklin Square",
+          "url": "https://historicphiladelphia.org/franklin-square-2/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Historic Philadelphia Franklin Square history",
+          "url": "https://historicphiladelphia.org/stories/history-of-franklin-square/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Historic Philadelphia Philly Mini Golf",
+          "url": "https://historicphiladelphia.org/events/philly-mini-golf/",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 55
+    },
+    {
       "id": "launch-md-baltimore-patterson-park:closures",
       "placeId": "launch-md-baltimore-patterson-park",
       "placeName": "Patterson Park",
@@ -31034,6 +31134,66 @@
         {
           "label": "Broward County Parks and Recreation",
           "url": "https://www.broward.org/Parks/safety/Pages/LightningPredictionSystems.aspx",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 61
+    },
+    {
+      "id": "launch-pa-philadelphia-fdr-park:closures",
+      "placeId": "launch-pa-philadelphia-fdr-park",
+      "placeName": "FDR Park",
+      "placeType": "Park",
+      "city": "Philadelphia",
+      "state": "PA",
+      "intentKey": "closures",
+      "intentLabel": "Closures and availability",
+      "question": "Is anything at FDR Park closed, seasonal, or temporarily unavailable?",
+      "reason": "No current, source-backed closures and availability answer is cataloged.",
+      "action": "research",
+      "priority": 96,
+      "freshnessDays": 3,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Philadelphia Parks & Recreation",
+          "url": "https://www.phila.gov/parks-rec-finder/#/location/fdr-park/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of FDR Park getting here",
+          "url": "https://www.fdrparkphilly.org/getting-here",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of FDR Park FAQ",
+          "url": "https://www.fdrparkphilly.org/frequently-asked-questions",
+          "sourceType": "official"
+        },
+        {
+          "label": "Philadelphia Parks & Recreation 2026 picnic application",
+          "url": "https://www.phila.gov/media/20260310115338/2026-Picnic-Application.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "Philadelphia Inquirer report citing Parks & Recreation",
+          "url": "https://www.inquirer.com/news/philadelphia/fdr-park-verna-playground-towey-recreation-20260606.html",
+          "sourceType": "official"
+        },
+        {
+          "label": "SEPTA 2026 event travel guidance",
+          "url": "https://wwww.septa.org/2026-events/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of FDR Park plan",
+          "url": "https://www.fdrparkphilly.org/parkplan",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of FDR Park recreation",
+          "url": "https://www.fdrparkphilly.org/recreation",
           "sourceType": "official"
         }
       ],
@@ -31314,6 +31474,116 @@
       ],
       "requiresHumanReview": true,
       "placeCoverageScore": 65
+    },
+    {
+      "id": "launch-pa-philadelphia-dilworth-park:closures",
+      "placeId": "launch-pa-philadelphia-dilworth-park",
+      "placeName": "Dilworth Park",
+      "placeType": "Park",
+      "city": "Philadelphia",
+      "state": "PA",
+      "intentKey": "closures",
+      "intentLabel": "Closures and availability",
+      "question": "Is anything at Dilworth Park closed, seasonal, or temporarily unavailable?",
+      "reason": "No current, source-backed closures and availability answer is cataloged.",
+      "action": "research",
+      "priority": 96,
+      "freshnessDays": 3,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Center City District",
+          "url": "https://www.centercityphila.org/explore/dilworth-park/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Center City District park rules",
+          "url": "https://centercityphila.org/uploads/attachments/cm1tnxf8pdmv3hwqdby2muvr6-ccd-security-rfp-2024.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "Center City District Dilworth Park fact sheet",
+          "url": "https://centercityphila.org/wp-content/uploads/2026/06/CCD-Dilworth-Park-Fact-Sheet-2026.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "SEPTA City Hall and 15th Street Stations",
+          "url": "https://wwww.septa.org/initiatives/station-accessibility-program/city-hall-and-15th-street-stations/",
+          "sourceType": "official"
+        },
+        {
+          "label": "SEPTA Center City concourse map",
+          "url": "https://schedules.septa.org/maps/SEPTA_ConcourseMap_v3-0.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "Center City District 2026 seasonal programming",
+          "url": "https://centercityphila.org/press-release/spring-and-summer-happenings-in-dilworth-park/",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 66
+    },
+    {
+      "id": "launch-pa-philadelphia-rittenhouse-square:closures",
+      "placeId": "launch-pa-philadelphia-rittenhouse-square",
+      "placeName": "Rittenhouse Square",
+      "placeType": "Park",
+      "city": "Philadelphia",
+      "state": "PA",
+      "intentKey": "closures",
+      "intentLabel": "Closures and availability",
+      "question": "Is anything at Rittenhouse Square closed, seasonal, or temporarily unavailable?",
+      "reason": "No current, source-backed closures and availability answer is cataloged.",
+      "action": "research",
+      "priority": 96,
+      "freshnessDays": 3,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Philadelphia Parks & Recreation",
+          "url": "https://www.phila.gov/parks-rec-finder/#/location/rittenhouse-square/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Philadelphia Parks & Recreation rules",
+          "url": "https://www.phila.gov/departments/philadelphia-parks-recreation/about/rules-and-regulations/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of Rittenhouse Square history",
+          "url": "https://www.friendsofrittenhouse.org/about/our-history",
+          "sourceType": "official"
+        },
+        {
+          "label": "Philadelphia Parks & Recreation dog regulations",
+          "url": "https://www.phila.gov/departments/philadelphia-parks-recreation/about/dog-regulations-and-best-practices/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of Rittenhouse Square",
+          "url": "https://www.friendsofrittenhouse.org/about",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of Rittenhouse Square events",
+          "url": "https://www.friendsofrittenhouse.org/events",
+          "sourceType": "official"
+        },
+        {
+          "label": "Farm to City Rittenhouse markets",
+          "url": "https://www.farmtocitymarkets.com/markets/rittenhousesaturday",
+          "sourceType": "official"
+        },
+        {
+          "label": "Association for Public Art Rittenhouse Square tour",
+          "url": "https://www.associationforpublicart.org/tours/around-rittenhouse-square/",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 66
     },
     {
       "id": "launch-fl-hollywood-anne-kolb-nature-center:closures",
@@ -60511,6 +60781,26 @@
           "label": "National Park Service",
           "url": "https://www.nps.gov/cuva/planyourvisit/index.htm",
           "sourceType": "official"
+        },
+        {
+          "label": "National Park Service Brandywine Falls",
+          "url": "https://www.nps.gov/places/000/brandywine-falls-trailhead.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service Ledges Trail",
+          "url": "https://www.nps.gov/thingstodo/hike-the-ledges-trail.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service Beaver Marsh",
+          "url": "https://www.nps.gov/cuva/planyourvisit/the-beaver-marsh.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service Everett Covered Bridge",
+          "url": "https://www.nps.gov/places/000/everett-covered-bridge.htm",
+          "sourceType": "official"
         }
       ],
       "requiresHumanReview": true,
@@ -60874,12 +61164,12 @@
         },
         {
           "label": "Cleveland Metroparks",
-          "url": "https://cms.clevelandmetroparks.com/parks/visit/parks/lakefront-reservation/edgewater-beach",
+          "url": "https://www.clevelandmetroparks.com/parks/visit/parks/lakefront-reservation/edgewater-beach",
           "sourceType": "official"
         },
         {
           "label": "Cleveland Metroparks",
-          "url": "https://www.riderta.com/index.php/routes/clevelandstateline/schedules/current",
+          "url": "https://www.riderta.com/routes/55-55b-55c/schedules/current",
           "sourceType": "official"
         },
         {
@@ -60969,7 +61259,17 @@
       "suggestedSources": [
         {
           "label": "City of Pittsburgh",
-          "url": "https://engage.pittsburghpa.gov/emerald-view-park/story/134/113",
+          "url": "https://engage.pittsburghpa.gov/emerald-view-park/story/134/147",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh Public Art and Memorial Inventory",
+          "url": "https://www.pittsburghpa.gov/files/assets/city/v/1/dcp/documents/20117_2023_city_of_pittsburgh_public_art__memorial_inventory.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh Our Parks",
+          "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks-Greenways/Our-Parks",
           "sourceType": "official"
         }
       ],
@@ -61110,31 +61410,6 @@
         {
           "label": "Fair Park First and Dallas Park and Recreation",
           "url": "https://www.fairparkdallas.com/visit/plan-your-visit",
-          "sourceType": "official"
-        }
-      ],
-      "requiresHumanReview": true,
-      "placeCoverageScore": 48
-    },
-    {
-      "id": "launch-pa-philadelphia-fdr-park:trail-surface",
-      "placeId": "launch-pa-philadelphia-fdr-park",
-      "placeName": "FDR Park",
-      "placeType": "Park",
-      "city": "Philadelphia",
-      "state": "PA",
-      "intentKey": "trail-surface",
-      "intentLabel": "Walking surfaces and terrain",
-      "question": "What are the walking surfaces, slopes, and trail conditions at FDR Park?",
-      "reason": "No current, source-backed walking surfaces and terrain answer is cataloged.",
-      "action": "research",
-      "priority": 80,
-      "freshnessDays": 90,
-      "previousAnswer": null,
-      "suggestedSources": [
-        {
-          "label": "Philadelphia Parks & Recreation",
-          "url": "https://www.phila.gov/parks-rec-finder/#/location/fdr-park/",
           "sourceType": "official"
         }
       ],
@@ -61527,31 +61802,6 @@
       "placeCoverageScore": 48
     },
     {
-      "id": "launch-pa-philadelphia-franklin-square:trail-surface",
-      "placeId": "launch-pa-philadelphia-franklin-square",
-      "placeName": "Franklin Square",
-      "placeType": "Park",
-      "city": "Philadelphia",
-      "state": "PA",
-      "intentKey": "trail-surface",
-      "intentLabel": "Walking surfaces and terrain",
-      "question": "What are the walking surfaces, slopes, and trail conditions at Franklin Square?",
-      "reason": "No current, source-backed walking surfaces and terrain answer is cataloged.",
-      "action": "research",
-      "priority": 80,
-      "freshnessDays": 90,
-      "previousAnswer": null,
-      "suggestedSources": [
-        {
-          "label": "Historic Philadelphia",
-          "url": "https://historicphiladelphia.org/franklin-square/",
-          "sourceType": "official"
-        }
-      ],
-      "requiresHumanReview": true,
-      "placeCoverageScore": 48
-    },
-    {
       "id": "launch-nc-charlotte-freedom-park:trail-surface",
       "placeId": "launch-nc-charlotte-freedom-park",
       "placeName": "Freedom Park",
@@ -61618,7 +61868,7 @@
       "previousAnswer": null,
       "suggestedSources": [
         {
-          "label": "City of Pittsburgh",
+          "label": "City of Pittsburgh and Pittsburgh Parks Conservancy",
           "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks-Greenways/Our-Parks",
           "sourceType": "official"
         }
@@ -62570,6 +62820,21 @@
         {
           "label": "City of Pittsburgh",
           "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks-Greenways/Our-Parks",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh Art in Parks",
+          "url": "https://engage.pittsburghpa.gov/art-parks",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh Reservoir Drive Improvements",
+          "url": "https://engage.pittsburghpa.gov/reservoir-drive-improvements",
+          "sourceType": "official"
+        },
+        {
+          "label": "Pittsburgh Zoo & Aquarium",
+          "url": "https://www.pittsburghzoo.org/plan-your-visit/",
           "sourceType": "official"
         }
       ],
@@ -64086,6 +64351,41 @@
           "label": "City of Pittsburgh",
           "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks/Our-Parks/Mellon-Park",
           "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh",
+          "url": "https://www.pittsburghpa.gov/Recreation-Events/Pools/Spray-Parks",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh",
+          "url": "https://www.pittsburghpa.gov/files/assets/city/v/1/dcp/documents/historic-review-commission/23853_5-1059_shady_avenue_signage.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh",
+          "url": "https://www.pittsburghpa.gov/files/assets/city/v/4/parks/documents/updated-amenities-in-facilities-shelters-spreadsheet-10.31.25.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh",
+          "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks/Tennis/Mellon-Park-Tennis-Center",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh",
+          "url": "https://www.pittsburghpa.gov/Recreation-Events/About-Parks/Parks-FAQ",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh",
+          "url": "https://www.pittsburghpa.gov/Recreation-Events/Events/Concerts",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh Public Art and Memorial Inventory",
+          "url": "https://www.pittsburghpa.gov/files/assets/city/v/1/dcp/documents/20117_2023_city_of_pittsburgh_public_art__memorial_inventory.pdf",
+          "sourceType": "official"
         }
       ],
       "requiresHumanReview": true,
@@ -65316,6 +65616,16 @@
           "label": "Downtown Cleveland, Inc.",
           "url": "https://www.clevelandpublicsquare.com/about-the-park",
           "sourceType": "official"
+        },
+        {
+          "label": "Downtown Cleveland Public Square",
+          "url": "https://www.clevelandpublicsquare.com/soldiers-monument",
+          "sourceType": "official"
+        },
+        {
+          "label": "Downtown Cleveland Public Square",
+          "url": "https://www.clevelandpublicsquare.com/splash-pad",
+          "sourceType": "official"
         }
       ],
       "requiresHumanReview": true,
@@ -65497,31 +65807,6 @@
       "placeCoverageScore": 48
     },
     {
-      "id": "launch-pa-philadelphia-rittenhouse-square:trail-surface",
-      "placeId": "launch-pa-philadelphia-rittenhouse-square",
-      "placeName": "Rittenhouse Square",
-      "placeType": "Park",
-      "city": "Philadelphia",
-      "state": "PA",
-      "intentKey": "trail-surface",
-      "intentLabel": "Walking surfaces and terrain",
-      "question": "What are the walking surfaces, slopes, and trail conditions at Rittenhouse Square?",
-      "reason": "No current, source-backed walking surfaces and terrain answer is cataloged.",
-      "action": "research",
-      "priority": 80,
-      "freshnessDays": 90,
-      "previousAnswer": null,
-      "suggestedSources": [
-        {
-          "label": "Philadelphia Parks & Recreation",
-          "url": "https://www.phila.gov/parks-rec-finder/#/location/rittenhouse-square/",
-          "sourceType": "official"
-        }
-      ],
-      "requiresHumanReview": true,
-      "placeCoverageScore": 48
-    },
-    {
       "id": "launch-ny-new-york-city-riverside-park:trail-surface",
       "placeId": "launch-ny-new-york-city-riverside-park",
       "placeName": "Riverside Park",
@@ -65590,6 +65875,21 @@
         {
           "label": "City of Pittsburgh",
           "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks-Greenways/Our-Parks",
+          "sourceType": "official"
+        },
+        {
+          "label": "University of Pittsburgh Allegheny Observatory",
+          "url": "https://www.observatory.pitt.edu/events/public-tours",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh Park Rangers",
+          "url": "https://www.pittsburghpa.gov/Recreation-Events/About-Parks/Park-Rangers",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh RecDesk",
+          "url": "https://pittsburgh.recdesk.com/Community/Facility/Detail?facilityId=307",
           "sourceType": "official"
         }
       ],
@@ -65715,6 +66015,16 @@
         {
           "label": "OpenStreetMap park record",
           "url": "https://www.openstreetmap.org/relation/12816181",
+          "sourceType": "official"
+        },
+        {
+          "label": "Cleveland Cultural Gardens Federation",
+          "url": "https://clevelandculturalgardens.org/gardens/italian-garden/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Cleveland Cultural Gardens Federation",
+          "url": "https://clevelandculturalgardens.org/gardens/hungarian-garden/",
           "sourceType": "official"
         }
       ],
@@ -66028,7 +66338,7 @@
       "previousAnswer": null,
       "suggestedSources": [
         {
-          "label": "City of Pittsburgh",
+          "label": "City of Pittsburgh and Pittsburgh Parks Conservancy",
           "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks-Greenways/Our-Parks",
           "sourceType": "official"
         }
@@ -67927,6 +68237,66 @@
       "placeCoverageScore": 55
     },
     {
+      "id": "launch-pa-philadelphia-franklin-square:trail-surface",
+      "placeId": "launch-pa-philadelphia-franklin-square",
+      "placeName": "Franklin Square",
+      "placeType": "Park",
+      "city": "Philadelphia",
+      "state": "PA",
+      "intentKey": "trail-surface",
+      "intentLabel": "Walking surfaces and terrain",
+      "question": "What are the walking surfaces, slopes, and trail conditions at Franklin Square?",
+      "reason": "No current, source-backed walking surfaces and terrain answer is cataloged.",
+      "action": "research",
+      "priority": 80,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Historic Philadelphia",
+          "url": "https://historicphiladelphia.org/franklin-square/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Historic Philadelphia Franklin Square visit guide",
+          "url": "https://historicphiladelphia.org/franklin-square-2/visit/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Historic Philadelphia capital improvements",
+          "url": "https://historicphiladelphia.org/stories/franklin-square-capital-improvements/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Historic Philadelphia park rules",
+          "url": "https://historicphiladelphia.org/franklin-square-2/park-rules/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Historic Philadelphia Chinese Lantern Festival",
+          "url": "https://historicphiladelphia.org/events/philadelphia-chinese-lantern-festival/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Historic Philadelphia Franklin Square",
+          "url": "https://historicphiladelphia.org/franklin-square-2/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Historic Philadelphia Franklin Square history",
+          "url": "https://historicphiladelphia.org/stories/history-of-franklin-square/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Historic Philadelphia Philly Mini Golf",
+          "url": "https://historicphiladelphia.org/events/philly-mini-golf/",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 55
+    },
+    {
       "id": "launch-md-baltimore-patterson-park:trail-surface",
       "placeId": "launch-md-baltimore-patterson-park",
       "placeName": "Patterson Park",
@@ -68027,6 +68397,66 @@
       "placeCoverageScore": 61
     },
     {
+      "id": "launch-pa-philadelphia-fdr-park:trail-surface",
+      "placeId": "launch-pa-philadelphia-fdr-park",
+      "placeName": "FDR Park",
+      "placeType": "Park",
+      "city": "Philadelphia",
+      "state": "PA",
+      "intentKey": "trail-surface",
+      "intentLabel": "Walking surfaces and terrain",
+      "question": "What are the walking surfaces, slopes, and trail conditions at FDR Park?",
+      "reason": "No current, source-backed walking surfaces and terrain answer is cataloged.",
+      "action": "research",
+      "priority": 80,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Philadelphia Parks & Recreation",
+          "url": "https://www.phila.gov/parks-rec-finder/#/location/fdr-park/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of FDR Park getting here",
+          "url": "https://www.fdrparkphilly.org/getting-here",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of FDR Park FAQ",
+          "url": "https://www.fdrparkphilly.org/frequently-asked-questions",
+          "sourceType": "official"
+        },
+        {
+          "label": "Philadelphia Parks & Recreation 2026 picnic application",
+          "url": "https://www.phila.gov/media/20260310115338/2026-Picnic-Application.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "Philadelphia Inquirer report citing Parks & Recreation",
+          "url": "https://www.inquirer.com/news/philadelphia/fdr-park-verna-playground-towey-recreation-20260606.html",
+          "sourceType": "official"
+        },
+        {
+          "label": "SEPTA 2026 event travel guidance",
+          "url": "https://wwww.septa.org/2026-events/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of FDR Park plan",
+          "url": "https://www.fdrparkphilly.org/parkplan",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of FDR Park recreation",
+          "url": "https://www.fdrparkphilly.org/recreation",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 61
+    },
+    {
       "id": "launch-fl-hollywood-hollywood-north-beach-park:trail-surface",
       "placeId": "launch-fl-hollywood-hollywood-north-beach-park",
       "placeName": "Hollywood North Beach Park",
@@ -68085,6 +68515,116 @@
       ],
       "requiresHumanReview": true,
       "placeCoverageScore": 61
+    },
+    {
+      "id": "launch-pa-philadelphia-dilworth-park:trail-surface",
+      "placeId": "launch-pa-philadelphia-dilworth-park",
+      "placeName": "Dilworth Park",
+      "placeType": "Park",
+      "city": "Philadelphia",
+      "state": "PA",
+      "intentKey": "trail-surface",
+      "intentLabel": "Walking surfaces and terrain",
+      "question": "What are the walking surfaces, slopes, and trail conditions at Dilworth Park?",
+      "reason": "No current, source-backed walking surfaces and terrain answer is cataloged.",
+      "action": "research",
+      "priority": 80,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Center City District",
+          "url": "https://www.centercityphila.org/explore/dilworth-park/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Center City District park rules",
+          "url": "https://centercityphila.org/uploads/attachments/cm1tnxf8pdmv3hwqdby2muvr6-ccd-security-rfp-2024.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "Center City District Dilworth Park fact sheet",
+          "url": "https://centercityphila.org/wp-content/uploads/2026/06/CCD-Dilworth-Park-Fact-Sheet-2026.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "SEPTA City Hall and 15th Street Stations",
+          "url": "https://wwww.septa.org/initiatives/station-accessibility-program/city-hall-and-15th-street-stations/",
+          "sourceType": "official"
+        },
+        {
+          "label": "SEPTA Center City concourse map",
+          "url": "https://schedules.septa.org/maps/SEPTA_ConcourseMap_v3-0.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "Center City District 2026 seasonal programming",
+          "url": "https://centercityphila.org/press-release/spring-and-summer-happenings-in-dilworth-park/",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 66
+    },
+    {
+      "id": "launch-pa-philadelphia-rittenhouse-square:trail-surface",
+      "placeId": "launch-pa-philadelphia-rittenhouse-square",
+      "placeName": "Rittenhouse Square",
+      "placeType": "Park",
+      "city": "Philadelphia",
+      "state": "PA",
+      "intentKey": "trail-surface",
+      "intentLabel": "Walking surfaces and terrain",
+      "question": "What are the walking surfaces, slopes, and trail conditions at Rittenhouse Square?",
+      "reason": "No current, source-backed walking surfaces and terrain answer is cataloged.",
+      "action": "research",
+      "priority": 80,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Philadelphia Parks & Recreation",
+          "url": "https://www.phila.gov/parks-rec-finder/#/location/rittenhouse-square/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Philadelphia Parks & Recreation rules",
+          "url": "https://www.phila.gov/departments/philadelphia-parks-recreation/about/rules-and-regulations/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of Rittenhouse Square history",
+          "url": "https://www.friendsofrittenhouse.org/about/our-history",
+          "sourceType": "official"
+        },
+        {
+          "label": "Philadelphia Parks & Recreation dog regulations",
+          "url": "https://www.phila.gov/departments/philadelphia-parks-recreation/about/dog-regulations-and-best-practices/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of Rittenhouse Square",
+          "url": "https://www.friendsofrittenhouse.org/about",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of Rittenhouse Square events",
+          "url": "https://www.friendsofrittenhouse.org/events",
+          "sourceType": "official"
+        },
+        {
+          "label": "Farm to City Rittenhouse markets",
+          "url": "https://www.farmtocitymarkets.com/markets/rittenhousesaturday",
+          "sourceType": "official"
+        },
+        {
+          "label": "Association for Public Art Rittenhouse Square tour",
+          "url": "https://www.associationforpublicart.org/tours/around-rittenhouse-square/",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 66
     },
     {
       "id": "launch-pa-philadelphia-fairmount-park:trail-surface",
@@ -75995,6 +76535,26 @@
           "label": "National Park Service",
           "url": "https://www.nps.gov/cuva/planyourvisit/index.htm",
           "sourceType": "official"
+        },
+        {
+          "label": "National Park Service Brandywine Falls",
+          "url": "https://www.nps.gov/places/000/brandywine-falls-trailhead.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service Ledges Trail",
+          "url": "https://www.nps.gov/thingstodo/hike-the-ledges-trail.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service Beaver Marsh",
+          "url": "https://www.nps.gov/cuva/planyourvisit/the-beaver-marsh.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service Everett Covered Bridge",
+          "url": "https://www.nps.gov/places/000/everett-covered-bridge.htm",
+          "sourceType": "official"
         }
       ],
       "requiresHumanReview": true,
@@ -76358,12 +76918,12 @@
         },
         {
           "label": "Cleveland Metroparks",
-          "url": "https://cms.clevelandmetroparks.com/parks/visit/parks/lakefront-reservation/edgewater-beach",
+          "url": "https://www.clevelandmetroparks.com/parks/visit/parks/lakefront-reservation/edgewater-beach",
           "sourceType": "official"
         },
         {
           "label": "Cleveland Metroparks",
-          "url": "https://www.riderta.com/index.php/routes/clevelandstateline/schedules/current",
+          "url": "https://www.riderta.com/routes/55-55b-55c/schedules/current",
           "sourceType": "official"
         },
         {
@@ -76453,7 +77013,17 @@
       "suggestedSources": [
         {
           "label": "City of Pittsburgh",
-          "url": "https://engage.pittsburghpa.gov/emerald-view-park/story/134/113",
+          "url": "https://engage.pittsburghpa.gov/emerald-view-park/story/134/147",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh Public Art and Memorial Inventory",
+          "url": "https://www.pittsburghpa.gov/files/assets/city/v/1/dcp/documents/20117_2023_city_of_pittsburgh_public_art__memorial_inventory.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh Our Parks",
+          "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks-Greenways/Our-Parks",
           "sourceType": "official"
         }
       ],
@@ -76594,31 +77164,6 @@
         {
           "label": "Fair Park First and Dallas Park and Recreation",
           "url": "https://www.fairparkdallas.com/visit/plan-your-visit",
-          "sourceType": "official"
-        }
-      ],
-      "requiresHumanReview": true,
-      "placeCoverageScore": 48
-    },
-    {
-      "id": "launch-pa-philadelphia-fdr-park:playground",
-      "placeId": "launch-pa-philadelphia-fdr-park",
-      "placeName": "FDR Park",
-      "placeType": "Park",
-      "city": "Philadelphia",
-      "state": "PA",
-      "intentKey": "playground",
-      "intentLabel": "Playgrounds",
-      "question": "What playgrounds are at FDR Park, and what ages or abilities do they serve?",
-      "reason": "No current, source-backed playgrounds answer is cataloged.",
-      "action": "research",
-      "priority": 79,
-      "freshnessDays": 90,
-      "previousAnswer": null,
-      "suggestedSources": [
-        {
-          "label": "Philadelphia Parks & Recreation",
-          "url": "https://www.phila.gov/parks-rec-finder/#/location/fdr-park/",
           "sourceType": "official"
         }
       ],
@@ -77011,31 +77556,6 @@
       "placeCoverageScore": 48
     },
     {
-      "id": "launch-pa-philadelphia-franklin-square:playground",
-      "placeId": "launch-pa-philadelphia-franklin-square",
-      "placeName": "Franklin Square",
-      "placeType": "Park",
-      "city": "Philadelphia",
-      "state": "PA",
-      "intentKey": "playground",
-      "intentLabel": "Playgrounds",
-      "question": "What playgrounds are at Franklin Square, and what ages or abilities do they serve?",
-      "reason": "No current, source-backed playgrounds answer is cataloged.",
-      "action": "research",
-      "priority": 79,
-      "freshnessDays": 90,
-      "previousAnswer": null,
-      "suggestedSources": [
-        {
-          "label": "Historic Philadelphia",
-          "url": "https://historicphiladelphia.org/franklin-square/",
-          "sourceType": "official"
-        }
-      ],
-      "requiresHumanReview": true,
-      "placeCoverageScore": 48
-    },
-    {
       "id": "launch-nc-charlotte-freedom-park:playground",
       "placeId": "launch-nc-charlotte-freedom-park",
       "placeName": "Freedom Park",
@@ -77102,7 +77622,7 @@
       "previousAnswer": null,
       "suggestedSources": [
         {
-          "label": "City of Pittsburgh",
+          "label": "City of Pittsburgh and Pittsburgh Parks Conservancy",
           "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks-Greenways/Our-Parks",
           "sourceType": "official"
         }
@@ -78054,6 +78574,21 @@
         {
           "label": "City of Pittsburgh",
           "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks-Greenways/Our-Parks",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh Art in Parks",
+          "url": "https://engage.pittsburghpa.gov/art-parks",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh Reservoir Drive Improvements",
+          "url": "https://engage.pittsburghpa.gov/reservoir-drive-improvements",
+          "sourceType": "official"
+        },
+        {
+          "label": "Pittsburgh Zoo & Aquarium",
+          "url": "https://www.pittsburghzoo.org/plan-your-visit/",
           "sourceType": "official"
         }
       ],
@@ -79570,6 +80105,41 @@
           "label": "City of Pittsburgh",
           "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks/Our-Parks/Mellon-Park",
           "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh",
+          "url": "https://www.pittsburghpa.gov/Recreation-Events/Pools/Spray-Parks",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh",
+          "url": "https://www.pittsburghpa.gov/files/assets/city/v/1/dcp/documents/historic-review-commission/23853_5-1059_shady_avenue_signage.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh",
+          "url": "https://www.pittsburghpa.gov/files/assets/city/v/4/parks/documents/updated-amenities-in-facilities-shelters-spreadsheet-10.31.25.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh",
+          "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks/Tennis/Mellon-Park-Tennis-Center",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh",
+          "url": "https://www.pittsburghpa.gov/Recreation-Events/About-Parks/Parks-FAQ",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh",
+          "url": "https://www.pittsburghpa.gov/Recreation-Events/Events/Concerts",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh Public Art and Memorial Inventory",
+          "url": "https://www.pittsburghpa.gov/files/assets/city/v/1/dcp/documents/20117_2023_city_of_pittsburgh_public_art__memorial_inventory.pdf",
+          "sourceType": "official"
         }
       ],
       "requiresHumanReview": true,
@@ -80800,6 +81370,16 @@
           "label": "Downtown Cleveland, Inc.",
           "url": "https://www.clevelandpublicsquare.com/about-the-park",
           "sourceType": "official"
+        },
+        {
+          "label": "Downtown Cleveland Public Square",
+          "url": "https://www.clevelandpublicsquare.com/soldiers-monument",
+          "sourceType": "official"
+        },
+        {
+          "label": "Downtown Cleveland Public Square",
+          "url": "https://www.clevelandpublicsquare.com/splash-pad",
+          "sourceType": "official"
         }
       ],
       "requiresHumanReview": true,
@@ -80981,31 +81561,6 @@
       "placeCoverageScore": 48
     },
     {
-      "id": "launch-pa-philadelphia-rittenhouse-square:playground",
-      "placeId": "launch-pa-philadelphia-rittenhouse-square",
-      "placeName": "Rittenhouse Square",
-      "placeType": "Park",
-      "city": "Philadelphia",
-      "state": "PA",
-      "intentKey": "playground",
-      "intentLabel": "Playgrounds",
-      "question": "What playgrounds are at Rittenhouse Square, and what ages or abilities do they serve?",
-      "reason": "No current, source-backed playgrounds answer is cataloged.",
-      "action": "research",
-      "priority": 79,
-      "freshnessDays": 90,
-      "previousAnswer": null,
-      "suggestedSources": [
-        {
-          "label": "Philadelphia Parks & Recreation",
-          "url": "https://www.phila.gov/parks-rec-finder/#/location/rittenhouse-square/",
-          "sourceType": "official"
-        }
-      ],
-      "requiresHumanReview": true,
-      "placeCoverageScore": 48
-    },
-    {
       "id": "launch-ny-new-york-city-riverside-park:playground",
       "placeId": "launch-ny-new-york-city-riverside-park",
       "placeName": "Riverside Park",
@@ -81074,6 +81629,21 @@
         {
           "label": "City of Pittsburgh",
           "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks-Greenways/Our-Parks",
+          "sourceType": "official"
+        },
+        {
+          "label": "University of Pittsburgh Allegheny Observatory",
+          "url": "https://www.observatory.pitt.edu/events/public-tours",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh Park Rangers",
+          "url": "https://www.pittsburghpa.gov/Recreation-Events/About-Parks/Park-Rangers",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh RecDesk",
+          "url": "https://pittsburgh.recdesk.com/Community/Facility/Detail?facilityId=307",
           "sourceType": "official"
         }
       ],
@@ -81199,6 +81769,16 @@
         {
           "label": "OpenStreetMap park record",
           "url": "https://www.openstreetmap.org/relation/12816181",
+          "sourceType": "official"
+        },
+        {
+          "label": "Cleveland Cultural Gardens Federation",
+          "url": "https://clevelandculturalgardens.org/gardens/italian-garden/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Cleveland Cultural Gardens Federation",
+          "url": "https://clevelandculturalgardens.org/gardens/hungarian-garden/",
           "sourceType": "official"
         }
       ],
@@ -81512,7 +82092,7 @@
       "previousAnswer": null,
       "suggestedSources": [
         {
-          "label": "City of Pittsburgh",
+          "label": "City of Pittsburgh and Pittsburgh Parks Conservancy",
           "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks-Greenways/Our-Parks",
           "sourceType": "official"
         }
@@ -83409,6 +83989,56 @@
       ],
       "requiresHumanReview": true,
       "placeCoverageScore": 61
+    },
+    {
+      "id": "launch-pa-philadelphia-dilworth-park:playground",
+      "placeId": "launch-pa-philadelphia-dilworth-park",
+      "placeName": "Dilworth Park",
+      "placeType": "Park",
+      "city": "Philadelphia",
+      "state": "PA",
+      "intentKey": "playground",
+      "intentLabel": "Playgrounds",
+      "question": "What playgrounds are at Dilworth Park, and what ages or abilities do they serve?",
+      "reason": "No current, source-backed playgrounds answer is cataloged.",
+      "action": "research",
+      "priority": 79,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Center City District",
+          "url": "https://www.centercityphila.org/explore/dilworth-park/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Center City District park rules",
+          "url": "https://centercityphila.org/uploads/attachments/cm1tnxf8pdmv3hwqdby2muvr6-ccd-security-rfp-2024.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "Center City District Dilworth Park fact sheet",
+          "url": "https://centercityphila.org/wp-content/uploads/2026/06/CCD-Dilworth-Park-Fact-Sheet-2026.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "SEPTA City Hall and 15th Street Stations",
+          "url": "https://wwww.septa.org/initiatives/station-accessibility-program/city-hall-and-15th-street-stations/",
+          "sourceType": "official"
+        },
+        {
+          "label": "SEPTA Center City concourse map",
+          "url": "https://schedules.septa.org/maps/SEPTA_ConcourseMap_v3-0.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "Center City District 2026 seasonal programming",
+          "url": "https://centercityphila.org/press-release/spring-and-summer-happenings-in-dilworth-park/",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 66
     },
     {
       "id": "launch-fl-hollywood-anne-kolb-nature-center:playground",
@@ -91729,6 +92359,26 @@
           "label": "National Park Service",
           "url": "https://www.nps.gov/cuva/planyourvisit/index.htm",
           "sourceType": "official"
+        },
+        {
+          "label": "National Park Service Brandywine Falls",
+          "url": "https://www.nps.gov/places/000/brandywine-falls-trailhead.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service Ledges Trail",
+          "url": "https://www.nps.gov/thingstodo/hike-the-ledges-trail.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service Beaver Marsh",
+          "url": "https://www.nps.gov/cuva/planyourvisit/the-beaver-marsh.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service Everett Covered Bridge",
+          "url": "https://www.nps.gov/places/000/everett-covered-bridge.htm",
+          "sourceType": "official"
         }
       ],
       "requiresHumanReview": true,
@@ -92092,12 +92742,12 @@
         },
         {
           "label": "Cleveland Metroparks",
-          "url": "https://cms.clevelandmetroparks.com/parks/visit/parks/lakefront-reservation/edgewater-beach",
+          "url": "https://www.clevelandmetroparks.com/parks/visit/parks/lakefront-reservation/edgewater-beach",
           "sourceType": "official"
         },
         {
           "label": "Cleveland Metroparks",
-          "url": "https://www.riderta.com/index.php/routes/clevelandstateline/schedules/current",
+          "url": "https://www.riderta.com/routes/55-55b-55c/schedules/current",
           "sourceType": "official"
         },
         {
@@ -92187,7 +92837,17 @@
       "suggestedSources": [
         {
           "label": "City of Pittsburgh",
-          "url": "https://engage.pittsburghpa.gov/emerald-view-park/story/134/113",
+          "url": "https://engage.pittsburghpa.gov/emerald-view-park/story/134/147",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh Public Art and Memorial Inventory",
+          "url": "https://www.pittsburghpa.gov/files/assets/city/v/1/dcp/documents/20117_2023_city_of_pittsburgh_public_art__memorial_inventory.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh Our Parks",
+          "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks-Greenways/Our-Parks",
           "sourceType": "official"
         }
       ],
@@ -92328,31 +92988,6 @@
         {
           "label": "Fair Park First and Dallas Park and Recreation",
           "url": "https://www.fairparkdallas.com/visit/plan-your-visit",
-          "sourceType": "official"
-        }
-      ],
-      "requiresHumanReview": true,
-      "placeCoverageScore": 48
-    },
-    {
-      "id": "launch-pa-philadelphia-fdr-park:splash-pad",
-      "placeId": "launch-pa-philadelphia-fdr-park",
-      "placeName": "FDR Park",
-      "placeType": "Park",
-      "city": "Philadelphia",
-      "state": "PA",
-      "intentKey": "splash-pad",
-      "intentLabel": "Water play",
-      "question": "Is there a splash pad or water play at FDR Park, and when does it operate?",
-      "reason": "No current, source-backed water play answer is cataloged.",
-      "action": "research",
-      "priority": 78,
-      "freshnessDays": 14,
-      "previousAnswer": null,
-      "suggestedSources": [
-        {
-          "label": "Philadelphia Parks & Recreation",
-          "url": "https://www.phila.gov/parks-rec-finder/#/location/fdr-park/",
           "sourceType": "official"
         }
       ],
@@ -92745,31 +93380,6 @@
       "placeCoverageScore": 48
     },
     {
-      "id": "launch-pa-philadelphia-franklin-square:splash-pad",
-      "placeId": "launch-pa-philadelphia-franklin-square",
-      "placeName": "Franklin Square",
-      "placeType": "Park",
-      "city": "Philadelphia",
-      "state": "PA",
-      "intentKey": "splash-pad",
-      "intentLabel": "Water play",
-      "question": "Is there a splash pad or water play at Franklin Square, and when does it operate?",
-      "reason": "No current, source-backed water play answer is cataloged.",
-      "action": "research",
-      "priority": 78,
-      "freshnessDays": 14,
-      "previousAnswer": null,
-      "suggestedSources": [
-        {
-          "label": "Historic Philadelphia",
-          "url": "https://historicphiladelphia.org/franklin-square/",
-          "sourceType": "official"
-        }
-      ],
-      "requiresHumanReview": true,
-      "placeCoverageScore": 48
-    },
-    {
       "id": "launch-nc-charlotte-freedom-park:splash-pad",
       "placeId": "launch-nc-charlotte-freedom-park",
       "placeName": "Freedom Park",
@@ -92836,7 +93446,7 @@
       "previousAnswer": null,
       "suggestedSources": [
         {
-          "label": "City of Pittsburgh",
+          "label": "City of Pittsburgh and Pittsburgh Parks Conservancy",
           "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks-Greenways/Our-Parks",
           "sourceType": "official"
         }
@@ -93788,6 +94398,21 @@
         {
           "label": "City of Pittsburgh",
           "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks-Greenways/Our-Parks",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh Art in Parks",
+          "url": "https://engage.pittsburghpa.gov/art-parks",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh Reservoir Drive Improvements",
+          "url": "https://engage.pittsburghpa.gov/reservoir-drive-improvements",
+          "sourceType": "official"
+        },
+        {
+          "label": "Pittsburgh Zoo & Aquarium",
+          "url": "https://www.pittsburghzoo.org/plan-your-visit/",
           "sourceType": "official"
         }
       ],
@@ -95304,6 +95929,41 @@
           "label": "City of Pittsburgh",
           "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks/Our-Parks/Mellon-Park",
           "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh",
+          "url": "https://www.pittsburghpa.gov/Recreation-Events/Pools/Spray-Parks",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh",
+          "url": "https://www.pittsburghpa.gov/files/assets/city/v/1/dcp/documents/historic-review-commission/23853_5-1059_shady_avenue_signage.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh",
+          "url": "https://www.pittsburghpa.gov/files/assets/city/v/4/parks/documents/updated-amenities-in-facilities-shelters-spreadsheet-10.31.25.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh",
+          "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks/Tennis/Mellon-Park-Tennis-Center",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh",
+          "url": "https://www.pittsburghpa.gov/Recreation-Events/About-Parks/Parks-FAQ",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh",
+          "url": "https://www.pittsburghpa.gov/Recreation-Events/Events/Concerts",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh Public Art and Memorial Inventory",
+          "url": "https://www.pittsburghpa.gov/files/assets/city/v/1/dcp/documents/20117_2023_city_of_pittsburgh_public_art__memorial_inventory.pdf",
+          "sourceType": "official"
         }
       ],
       "requiresHumanReview": true,
@@ -96534,6 +97194,16 @@
           "label": "Downtown Cleveland, Inc.",
           "url": "https://www.clevelandpublicsquare.com/about-the-park",
           "sourceType": "official"
+        },
+        {
+          "label": "Downtown Cleveland Public Square",
+          "url": "https://www.clevelandpublicsquare.com/soldiers-monument",
+          "sourceType": "official"
+        },
+        {
+          "label": "Downtown Cleveland Public Square",
+          "url": "https://www.clevelandpublicsquare.com/splash-pad",
+          "sourceType": "official"
         }
       ],
       "requiresHumanReview": true,
@@ -96715,31 +97385,6 @@
       "placeCoverageScore": 48
     },
     {
-      "id": "launch-pa-philadelphia-rittenhouse-square:splash-pad",
-      "placeId": "launch-pa-philadelphia-rittenhouse-square",
-      "placeName": "Rittenhouse Square",
-      "placeType": "Park",
-      "city": "Philadelphia",
-      "state": "PA",
-      "intentKey": "splash-pad",
-      "intentLabel": "Water play",
-      "question": "Is there a splash pad or water play at Rittenhouse Square, and when does it operate?",
-      "reason": "No current, source-backed water play answer is cataloged.",
-      "action": "research",
-      "priority": 78,
-      "freshnessDays": 14,
-      "previousAnswer": null,
-      "suggestedSources": [
-        {
-          "label": "Philadelphia Parks & Recreation",
-          "url": "https://www.phila.gov/parks-rec-finder/#/location/rittenhouse-square/",
-          "sourceType": "official"
-        }
-      ],
-      "requiresHumanReview": true,
-      "placeCoverageScore": 48
-    },
-    {
       "id": "launch-ny-new-york-city-riverside-park:splash-pad",
       "placeId": "launch-ny-new-york-city-riverside-park",
       "placeName": "Riverside Park",
@@ -96808,6 +97453,21 @@
         {
           "label": "City of Pittsburgh",
           "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks-Greenways/Our-Parks",
+          "sourceType": "official"
+        },
+        {
+          "label": "University of Pittsburgh Allegheny Observatory",
+          "url": "https://www.observatory.pitt.edu/events/public-tours",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh Park Rangers",
+          "url": "https://www.pittsburghpa.gov/Recreation-Events/About-Parks/Park-Rangers",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh RecDesk",
+          "url": "https://pittsburgh.recdesk.com/Community/Facility/Detail?facilityId=307",
           "sourceType": "official"
         }
       ],
@@ -96933,6 +97593,16 @@
         {
           "label": "OpenStreetMap park record",
           "url": "https://www.openstreetmap.org/relation/12816181",
+          "sourceType": "official"
+        },
+        {
+          "label": "Cleveland Cultural Gardens Federation",
+          "url": "https://clevelandculturalgardens.org/gardens/italian-garden/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Cleveland Cultural Gardens Federation",
+          "url": "https://clevelandculturalgardens.org/gardens/hungarian-garden/",
           "sourceType": "official"
         }
       ],
@@ -97246,7 +97916,7 @@
       "previousAnswer": null,
       "suggestedSources": [
         {
-          "label": "City of Pittsburgh",
+          "label": "City of Pittsburgh and Pittsburgh Parks Conservancy",
           "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks-Greenways/Our-Parks",
           "sourceType": "official"
         }
@@ -99050,6 +99720,66 @@
       "placeCoverageScore": 55
     },
     {
+      "id": "launch-pa-philadelphia-franklin-square:splash-pad",
+      "placeId": "launch-pa-philadelphia-franklin-square",
+      "placeName": "Franklin Square",
+      "placeType": "Park",
+      "city": "Philadelphia",
+      "state": "PA",
+      "intentKey": "splash-pad",
+      "intentLabel": "Water play",
+      "question": "Is there a splash pad or water play at Franklin Square, and when does it operate?",
+      "reason": "No current, source-backed water play answer is cataloged.",
+      "action": "research",
+      "priority": 78,
+      "freshnessDays": 14,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Historic Philadelphia",
+          "url": "https://historicphiladelphia.org/franklin-square/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Historic Philadelphia Franklin Square visit guide",
+          "url": "https://historicphiladelphia.org/franklin-square-2/visit/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Historic Philadelphia capital improvements",
+          "url": "https://historicphiladelphia.org/stories/franklin-square-capital-improvements/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Historic Philadelphia park rules",
+          "url": "https://historicphiladelphia.org/franklin-square-2/park-rules/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Historic Philadelphia Chinese Lantern Festival",
+          "url": "https://historicphiladelphia.org/events/philadelphia-chinese-lantern-festival/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Historic Philadelphia Franklin Square",
+          "url": "https://historicphiladelphia.org/franklin-square-2/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Historic Philadelphia Franklin Square history",
+          "url": "https://historicphiladelphia.org/stories/history-of-franklin-square/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Historic Philadelphia Philly Mini Golf",
+          "url": "https://historicphiladelphia.org/events/philly-mini-golf/",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 55
+    },
+    {
       "id": "launch-md-baltimore-patterson-park:splash-pad",
       "placeId": "launch-md-baltimore-patterson-park",
       "placeName": "Patterson Park",
@@ -99185,6 +99915,66 @@
       "placeCoverageScore": 61
     },
     {
+      "id": "launch-pa-philadelphia-fdr-park:splash-pad",
+      "placeId": "launch-pa-philadelphia-fdr-park",
+      "placeName": "FDR Park",
+      "placeType": "Park",
+      "city": "Philadelphia",
+      "state": "PA",
+      "intentKey": "splash-pad",
+      "intentLabel": "Water play",
+      "question": "Is there a splash pad or water play at FDR Park, and when does it operate?",
+      "reason": "No current, source-backed water play answer is cataloged.",
+      "action": "research",
+      "priority": 78,
+      "freshnessDays": 14,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Philadelphia Parks & Recreation",
+          "url": "https://www.phila.gov/parks-rec-finder/#/location/fdr-park/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of FDR Park getting here",
+          "url": "https://www.fdrparkphilly.org/getting-here",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of FDR Park FAQ",
+          "url": "https://www.fdrparkphilly.org/frequently-asked-questions",
+          "sourceType": "official"
+        },
+        {
+          "label": "Philadelphia Parks & Recreation 2026 picnic application",
+          "url": "https://www.phila.gov/media/20260310115338/2026-Picnic-Application.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "Philadelphia Inquirer report citing Parks & Recreation",
+          "url": "https://www.inquirer.com/news/philadelphia/fdr-park-verna-playground-towey-recreation-20260606.html",
+          "sourceType": "official"
+        },
+        {
+          "label": "SEPTA 2026 event travel guidance",
+          "url": "https://wwww.septa.org/2026-events/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of FDR Park plan",
+          "url": "https://www.fdrparkphilly.org/parkplan",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of FDR Park recreation",
+          "url": "https://www.fdrparkphilly.org/recreation",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 61
+    },
+    {
       "id": "launch-fl-hollywood-hollywood-north-beach-park:splash-pad",
       "placeId": "launch-fl-hollywood-hollywood-north-beach-park",
       "placeName": "Hollywood North Beach Park",
@@ -99243,6 +100033,66 @@
       ],
       "requiresHumanReview": true,
       "placeCoverageScore": 61
+    },
+    {
+      "id": "launch-pa-philadelphia-rittenhouse-square:splash-pad",
+      "placeId": "launch-pa-philadelphia-rittenhouse-square",
+      "placeName": "Rittenhouse Square",
+      "placeType": "Park",
+      "city": "Philadelphia",
+      "state": "PA",
+      "intentKey": "splash-pad",
+      "intentLabel": "Water play",
+      "question": "Is there a splash pad or water play at Rittenhouse Square, and when does it operate?",
+      "reason": "No current, source-backed water play answer is cataloged.",
+      "action": "research",
+      "priority": 78,
+      "freshnessDays": 14,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Philadelphia Parks & Recreation",
+          "url": "https://www.phila.gov/parks-rec-finder/#/location/rittenhouse-square/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Philadelphia Parks & Recreation rules",
+          "url": "https://www.phila.gov/departments/philadelphia-parks-recreation/about/rules-and-regulations/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of Rittenhouse Square history",
+          "url": "https://www.friendsofrittenhouse.org/about/our-history",
+          "sourceType": "official"
+        },
+        {
+          "label": "Philadelphia Parks & Recreation dog regulations",
+          "url": "https://www.phila.gov/departments/philadelphia-parks-recreation/about/dog-regulations-and-best-practices/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of Rittenhouse Square",
+          "url": "https://www.friendsofrittenhouse.org/about",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of Rittenhouse Square events",
+          "url": "https://www.friendsofrittenhouse.org/events",
+          "sourceType": "official"
+        },
+        {
+          "label": "Farm to City Rittenhouse markets",
+          "url": "https://www.farmtocitymarkets.com/markets/rittenhousesaturday",
+          "sourceType": "official"
+        },
+        {
+          "label": "Association for Public Art Rittenhouse Square tour",
+          "url": "https://www.associationforpublicart.org/tours/around-rittenhouse-square/",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 66
     },
     {
       "id": "launch-fl-hollywood-anne-kolb-nature-center:splash-pad",
@@ -110643,6 +111493,26 @@
           "label": "National Park Service",
           "url": "https://www.nps.gov/cuva/planyourvisit/index.htm",
           "sourceType": "official"
+        },
+        {
+          "label": "National Park Service Brandywine Falls",
+          "url": "https://www.nps.gov/places/000/brandywine-falls-trailhead.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service Ledges Trail",
+          "url": "https://www.nps.gov/thingstodo/hike-the-ledges-trail.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service Beaver Marsh",
+          "url": "https://www.nps.gov/cuva/planyourvisit/the-beaver-marsh.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service Everett Covered Bridge",
+          "url": "https://www.nps.gov/places/000/everett-covered-bridge.htm",
+          "sourceType": "official"
         }
       ],
       "requiresHumanReview": true,
@@ -111006,12 +111876,12 @@
         },
         {
           "label": "Cleveland Metroparks",
-          "url": "https://cms.clevelandmetroparks.com/parks/visit/parks/lakefront-reservation/edgewater-beach",
+          "url": "https://www.clevelandmetroparks.com/parks/visit/parks/lakefront-reservation/edgewater-beach",
           "sourceType": "official"
         },
         {
           "label": "Cleveland Metroparks",
-          "url": "https://www.riderta.com/index.php/routes/clevelandstateline/schedules/current",
+          "url": "https://www.riderta.com/routes/55-55b-55c/schedules/current",
           "sourceType": "official"
         },
         {
@@ -111101,7 +111971,17 @@
       "suggestedSources": [
         {
           "label": "City of Pittsburgh",
-          "url": "https://engage.pittsburghpa.gov/emerald-view-park/story/134/113",
+          "url": "https://engage.pittsburghpa.gov/emerald-view-park/story/134/147",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh Public Art and Memorial Inventory",
+          "url": "https://www.pittsburghpa.gov/files/assets/city/v/1/dcp/documents/20117_2023_city_of_pittsburgh_public_art__memorial_inventory.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh Our Parks",
+          "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks-Greenways/Our-Parks",
           "sourceType": "official"
         }
       ],
@@ -111242,31 +112122,6 @@
         {
           "label": "Fair Park First and Dallas Park and Recreation",
           "url": "https://www.fairparkdallas.com/visit/plan-your-visit",
-          "sourceType": "official"
-        }
-      ],
-      "requiresHumanReview": true,
-      "placeCoverageScore": 48
-    },
-    {
-      "id": "launch-pa-philadelphia-fdr-park:dog-area",
-      "placeId": "launch-pa-philadelphia-fdr-park",
-      "placeName": "FDR Park",
-      "placeType": "Park",
-      "city": "Philadelphia",
-      "state": "PA",
-      "intentKey": "dog-area",
-      "intentLabel": "Dog areas and rules",
-      "question": "Where can dogs go at FDR Park, and what rules apply?",
-      "reason": "No current, source-backed dog areas and rules answer is cataloged.",
-      "action": "research",
-      "priority": 72,
-      "freshnessDays": 90,
-      "previousAnswer": null,
-      "suggestedSources": [
-        {
-          "label": "Philadelphia Parks & Recreation",
-          "url": "https://www.phila.gov/parks-rec-finder/#/location/fdr-park/",
           "sourceType": "official"
         }
       ],
@@ -111659,31 +112514,6 @@
       "placeCoverageScore": 48
     },
     {
-      "id": "launch-pa-philadelphia-franklin-square:dog-area",
-      "placeId": "launch-pa-philadelphia-franklin-square",
-      "placeName": "Franklin Square",
-      "placeType": "Park",
-      "city": "Philadelphia",
-      "state": "PA",
-      "intentKey": "dog-area",
-      "intentLabel": "Dog areas and rules",
-      "question": "Where can dogs go at Franklin Square, and what rules apply?",
-      "reason": "No current, source-backed dog areas and rules answer is cataloged.",
-      "action": "research",
-      "priority": 72,
-      "freshnessDays": 90,
-      "previousAnswer": null,
-      "suggestedSources": [
-        {
-          "label": "Historic Philadelphia",
-          "url": "https://historicphiladelphia.org/franklin-square/",
-          "sourceType": "official"
-        }
-      ],
-      "requiresHumanReview": true,
-      "placeCoverageScore": 48
-    },
-    {
       "id": "launch-nc-charlotte-freedom-park:dog-area",
       "placeId": "launch-nc-charlotte-freedom-park",
       "placeName": "Freedom Park",
@@ -111750,7 +112580,7 @@
       "previousAnswer": null,
       "suggestedSources": [
         {
-          "label": "City of Pittsburgh",
+          "label": "City of Pittsburgh and Pittsburgh Parks Conservancy",
           "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks-Greenways/Our-Parks",
           "sourceType": "official"
         }
@@ -112702,6 +113532,21 @@
         {
           "label": "City of Pittsburgh",
           "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks-Greenways/Our-Parks",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh Art in Parks",
+          "url": "https://engage.pittsburghpa.gov/art-parks",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh Reservoir Drive Improvements",
+          "url": "https://engage.pittsburghpa.gov/reservoir-drive-improvements",
+          "sourceType": "official"
+        },
+        {
+          "label": "Pittsburgh Zoo & Aquarium",
+          "url": "https://www.pittsburghzoo.org/plan-your-visit/",
           "sourceType": "official"
         }
       ],
@@ -114218,6 +115063,41 @@
           "label": "City of Pittsburgh",
           "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks/Our-Parks/Mellon-Park",
           "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh",
+          "url": "https://www.pittsburghpa.gov/Recreation-Events/Pools/Spray-Parks",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh",
+          "url": "https://www.pittsburghpa.gov/files/assets/city/v/1/dcp/documents/historic-review-commission/23853_5-1059_shady_avenue_signage.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh",
+          "url": "https://www.pittsburghpa.gov/files/assets/city/v/4/parks/documents/updated-amenities-in-facilities-shelters-spreadsheet-10.31.25.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh",
+          "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks/Tennis/Mellon-Park-Tennis-Center",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh",
+          "url": "https://www.pittsburghpa.gov/Recreation-Events/About-Parks/Parks-FAQ",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh",
+          "url": "https://www.pittsburghpa.gov/Recreation-Events/Events/Concerts",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh Public Art and Memorial Inventory",
+          "url": "https://www.pittsburghpa.gov/files/assets/city/v/1/dcp/documents/20117_2023_city_of_pittsburgh_public_art__memorial_inventory.pdf",
+          "sourceType": "official"
         }
       ],
       "requiresHumanReview": true,
@@ -115448,6 +116328,16 @@
           "label": "Downtown Cleveland, Inc.",
           "url": "https://www.clevelandpublicsquare.com/about-the-park",
           "sourceType": "official"
+        },
+        {
+          "label": "Downtown Cleveland Public Square",
+          "url": "https://www.clevelandpublicsquare.com/soldiers-monument",
+          "sourceType": "official"
+        },
+        {
+          "label": "Downtown Cleveland Public Square",
+          "url": "https://www.clevelandpublicsquare.com/splash-pad",
+          "sourceType": "official"
         }
       ],
       "requiresHumanReview": true,
@@ -115629,31 +116519,6 @@
       "placeCoverageScore": 48
     },
     {
-      "id": "launch-pa-philadelphia-rittenhouse-square:dog-area",
-      "placeId": "launch-pa-philadelphia-rittenhouse-square",
-      "placeName": "Rittenhouse Square",
-      "placeType": "Park",
-      "city": "Philadelphia",
-      "state": "PA",
-      "intentKey": "dog-area",
-      "intentLabel": "Dog areas and rules",
-      "question": "Where can dogs go at Rittenhouse Square, and what rules apply?",
-      "reason": "No current, source-backed dog areas and rules answer is cataloged.",
-      "action": "research",
-      "priority": 72,
-      "freshnessDays": 90,
-      "previousAnswer": null,
-      "suggestedSources": [
-        {
-          "label": "Philadelphia Parks & Recreation",
-          "url": "https://www.phila.gov/parks-rec-finder/#/location/rittenhouse-square/",
-          "sourceType": "official"
-        }
-      ],
-      "requiresHumanReview": true,
-      "placeCoverageScore": 48
-    },
-    {
       "id": "launch-ny-new-york-city-riverside-park:dog-area",
       "placeId": "launch-ny-new-york-city-riverside-park",
       "placeName": "Riverside Park",
@@ -115722,6 +116587,21 @@
         {
           "label": "City of Pittsburgh",
           "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks-Greenways/Our-Parks",
+          "sourceType": "official"
+        },
+        {
+          "label": "University of Pittsburgh Allegheny Observatory",
+          "url": "https://www.observatory.pitt.edu/events/public-tours",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh Park Rangers",
+          "url": "https://www.pittsburghpa.gov/Recreation-Events/About-Parks/Park-Rangers",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh RecDesk",
+          "url": "https://pittsburgh.recdesk.com/Community/Facility/Detail?facilityId=307",
           "sourceType": "official"
         }
       ],
@@ -115847,6 +116727,16 @@
         {
           "label": "OpenStreetMap park record",
           "url": "https://www.openstreetmap.org/relation/12816181",
+          "sourceType": "official"
+        },
+        {
+          "label": "Cleveland Cultural Gardens Federation",
+          "url": "https://clevelandculturalgardens.org/gardens/italian-garden/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Cleveland Cultural Gardens Federation",
+          "url": "https://clevelandculturalgardens.org/gardens/hungarian-garden/",
           "sourceType": "official"
         }
       ],
@@ -116160,7 +117050,7 @@
       "previousAnswer": null,
       "suggestedSources": [
         {
-          "label": "City of Pittsburgh",
+          "label": "City of Pittsburgh and Pittsburgh Parks Conservancy",
           "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks-Greenways/Our-Parks",
           "sourceType": "official"
         }
@@ -118057,6 +118947,236 @@
       ],
       "requiresHumanReview": true,
       "placeCoverageScore": 55
+    },
+    {
+      "id": "launch-pa-philadelphia-franklin-square:dog-area",
+      "placeId": "launch-pa-philadelphia-franklin-square",
+      "placeName": "Franklin Square",
+      "placeType": "Park",
+      "city": "Philadelphia",
+      "state": "PA",
+      "intentKey": "dog-area",
+      "intentLabel": "Dog areas and rules",
+      "question": "Where can dogs go at Franklin Square, and what rules apply?",
+      "reason": "No current, source-backed dog areas and rules answer is cataloged.",
+      "action": "research",
+      "priority": 72,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Historic Philadelphia",
+          "url": "https://historicphiladelphia.org/franklin-square/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Historic Philadelphia Franklin Square visit guide",
+          "url": "https://historicphiladelphia.org/franklin-square-2/visit/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Historic Philadelphia capital improvements",
+          "url": "https://historicphiladelphia.org/stories/franklin-square-capital-improvements/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Historic Philadelphia park rules",
+          "url": "https://historicphiladelphia.org/franklin-square-2/park-rules/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Historic Philadelphia Chinese Lantern Festival",
+          "url": "https://historicphiladelphia.org/events/philadelphia-chinese-lantern-festival/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Historic Philadelphia Franklin Square",
+          "url": "https://historicphiladelphia.org/franklin-square-2/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Historic Philadelphia Franklin Square history",
+          "url": "https://historicphiladelphia.org/stories/history-of-franklin-square/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Historic Philadelphia Philly Mini Golf",
+          "url": "https://historicphiladelphia.org/events/philly-mini-golf/",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 55
+    },
+    {
+      "id": "launch-pa-philadelphia-fdr-park:dog-area",
+      "placeId": "launch-pa-philadelphia-fdr-park",
+      "placeName": "FDR Park",
+      "placeType": "Park",
+      "city": "Philadelphia",
+      "state": "PA",
+      "intentKey": "dog-area",
+      "intentLabel": "Dog areas and rules",
+      "question": "Where can dogs go at FDR Park, and what rules apply?",
+      "reason": "No current, source-backed dog areas and rules answer is cataloged.",
+      "action": "research",
+      "priority": 72,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Philadelphia Parks & Recreation",
+          "url": "https://www.phila.gov/parks-rec-finder/#/location/fdr-park/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of FDR Park getting here",
+          "url": "https://www.fdrparkphilly.org/getting-here",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of FDR Park FAQ",
+          "url": "https://www.fdrparkphilly.org/frequently-asked-questions",
+          "sourceType": "official"
+        },
+        {
+          "label": "Philadelphia Parks & Recreation 2026 picnic application",
+          "url": "https://www.phila.gov/media/20260310115338/2026-Picnic-Application.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "Philadelphia Inquirer report citing Parks & Recreation",
+          "url": "https://www.inquirer.com/news/philadelphia/fdr-park-verna-playground-towey-recreation-20260606.html",
+          "sourceType": "official"
+        },
+        {
+          "label": "SEPTA 2026 event travel guidance",
+          "url": "https://wwww.septa.org/2026-events/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of FDR Park plan",
+          "url": "https://www.fdrparkphilly.org/parkplan",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of FDR Park recreation",
+          "url": "https://www.fdrparkphilly.org/recreation",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 61
+    },
+    {
+      "id": "launch-pa-philadelphia-dilworth-park:dog-area",
+      "placeId": "launch-pa-philadelphia-dilworth-park",
+      "placeName": "Dilworth Park",
+      "placeType": "Park",
+      "city": "Philadelphia",
+      "state": "PA",
+      "intentKey": "dog-area",
+      "intentLabel": "Dog areas and rules",
+      "question": "Where can dogs go at Dilworth Park, and what rules apply?",
+      "reason": "No current, source-backed dog areas and rules answer is cataloged.",
+      "action": "research",
+      "priority": 72,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Center City District",
+          "url": "https://www.centercityphila.org/explore/dilworth-park/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Center City District park rules",
+          "url": "https://centercityphila.org/uploads/attachments/cm1tnxf8pdmv3hwqdby2muvr6-ccd-security-rfp-2024.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "Center City District Dilworth Park fact sheet",
+          "url": "https://centercityphila.org/wp-content/uploads/2026/06/CCD-Dilworth-Park-Fact-Sheet-2026.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "SEPTA City Hall and 15th Street Stations",
+          "url": "https://wwww.septa.org/initiatives/station-accessibility-program/city-hall-and-15th-street-stations/",
+          "sourceType": "official"
+        },
+        {
+          "label": "SEPTA Center City concourse map",
+          "url": "https://schedules.septa.org/maps/SEPTA_ConcourseMap_v3-0.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "Center City District 2026 seasonal programming",
+          "url": "https://centercityphila.org/press-release/spring-and-summer-happenings-in-dilworth-park/",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 66
+    },
+    {
+      "id": "launch-pa-philadelphia-rittenhouse-square:dog-area",
+      "placeId": "launch-pa-philadelphia-rittenhouse-square",
+      "placeName": "Rittenhouse Square",
+      "placeType": "Park",
+      "city": "Philadelphia",
+      "state": "PA",
+      "intentKey": "dog-area",
+      "intentLabel": "Dog areas and rules",
+      "question": "Where can dogs go at Rittenhouse Square, and what rules apply?",
+      "reason": "No current, source-backed dog areas and rules answer is cataloged.",
+      "action": "research",
+      "priority": 72,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Philadelphia Parks & Recreation",
+          "url": "https://www.phila.gov/parks-rec-finder/#/location/rittenhouse-square/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Philadelphia Parks & Recreation rules",
+          "url": "https://www.phila.gov/departments/philadelphia-parks-recreation/about/rules-and-regulations/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of Rittenhouse Square history",
+          "url": "https://www.friendsofrittenhouse.org/about/our-history",
+          "sourceType": "official"
+        },
+        {
+          "label": "Philadelphia Parks & Recreation dog regulations",
+          "url": "https://www.phila.gov/departments/philadelphia-parks-recreation/about/dog-regulations-and-best-practices/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of Rittenhouse Square",
+          "url": "https://www.friendsofrittenhouse.org/about",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of Rittenhouse Square events",
+          "url": "https://www.friendsofrittenhouse.org/events",
+          "sourceType": "official"
+        },
+        {
+          "label": "Farm to City Rittenhouse markets",
+          "url": "https://www.farmtocitymarkets.com/markets/rittenhousesaturday",
+          "sourceType": "official"
+        },
+        {
+          "label": "Association for Public Art Rittenhouse Square tour",
+          "url": "https://www.associationforpublicart.org/tours/around-rittenhouse-square/",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 66
     },
     {
       "id": "launch-pa-philadelphia-fairmount-park:dog-area",
@@ -126647,6 +127767,26 @@
           "label": "National Park Service",
           "url": "https://www.nps.gov/cuva/planyourvisit/index.htm",
           "sourceType": "official"
+        },
+        {
+          "label": "National Park Service Brandywine Falls",
+          "url": "https://www.nps.gov/places/000/brandywine-falls-trailhead.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service Ledges Trail",
+          "url": "https://www.nps.gov/thingstodo/hike-the-ledges-trail.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service Beaver Marsh",
+          "url": "https://www.nps.gov/cuva/planyourvisit/the-beaver-marsh.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service Everett Covered Bridge",
+          "url": "https://www.nps.gov/places/000/everett-covered-bridge.htm",
+          "sourceType": "official"
         }
       ],
       "requiresHumanReview": true,
@@ -127010,12 +128150,12 @@
         },
         {
           "label": "Cleveland Metroparks",
-          "url": "https://cms.clevelandmetroparks.com/parks/visit/parks/lakefront-reservation/edgewater-beach",
+          "url": "https://www.clevelandmetroparks.com/parks/visit/parks/lakefront-reservation/edgewater-beach",
           "sourceType": "official"
         },
         {
           "label": "Cleveland Metroparks",
-          "url": "https://www.riderta.com/index.php/routes/clevelandstateline/schedules/current",
+          "url": "https://www.riderta.com/routes/55-55b-55c/schedules/current",
           "sourceType": "official"
         },
         {
@@ -127105,7 +128245,17 @@
       "suggestedSources": [
         {
           "label": "City of Pittsburgh",
-          "url": "https://engage.pittsburghpa.gov/emerald-view-park/story/134/113",
+          "url": "https://engage.pittsburghpa.gov/emerald-view-park/story/134/147",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh Public Art and Memorial Inventory",
+          "url": "https://www.pittsburghpa.gov/files/assets/city/v/1/dcp/documents/20117_2023_city_of_pittsburgh_public_art__memorial_inventory.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh Our Parks",
+          "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks-Greenways/Our-Parks",
           "sourceType": "official"
         }
       ],
@@ -127246,31 +128396,6 @@
         {
           "label": "Fair Park First and Dallas Park and Recreation",
           "url": "https://www.fairparkdallas.com/visit/plan-your-visit",
-          "sourceType": "official"
-        }
-      ],
-      "requiresHumanReview": true,
-      "placeCoverageScore": 48
-    },
-    {
-      "id": "launch-pa-philadelphia-fdr-park:picnic",
-      "placeId": "launch-pa-philadelphia-fdr-park",
-      "placeName": "FDR Park",
-      "placeType": "Park",
-      "city": "Philadelphia",
-      "state": "PA",
-      "intentKey": "picnic",
-      "intentLabel": "Picnic areas",
-      "question": "Where are picnic areas at FDR Park, and do any require reservations?",
-      "reason": "No current, source-backed picnic areas answer is cataloged.",
-      "action": "research",
-      "priority": 68,
-      "freshnessDays": 90,
-      "previousAnswer": null,
-      "suggestedSources": [
-        {
-          "label": "Philadelphia Parks & Recreation",
-          "url": "https://www.phila.gov/parks-rec-finder/#/location/fdr-park/",
           "sourceType": "official"
         }
       ],
@@ -127663,31 +128788,6 @@
       "placeCoverageScore": 48
     },
     {
-      "id": "launch-pa-philadelphia-franklin-square:picnic",
-      "placeId": "launch-pa-philadelphia-franklin-square",
-      "placeName": "Franklin Square",
-      "placeType": "Park",
-      "city": "Philadelphia",
-      "state": "PA",
-      "intentKey": "picnic",
-      "intentLabel": "Picnic areas",
-      "question": "Where are picnic areas at Franklin Square, and do any require reservations?",
-      "reason": "No current, source-backed picnic areas answer is cataloged.",
-      "action": "research",
-      "priority": 68,
-      "freshnessDays": 90,
-      "previousAnswer": null,
-      "suggestedSources": [
-        {
-          "label": "Historic Philadelphia",
-          "url": "https://historicphiladelphia.org/franklin-square/",
-          "sourceType": "official"
-        }
-      ],
-      "requiresHumanReview": true,
-      "placeCoverageScore": 48
-    },
-    {
       "id": "launch-nc-charlotte-freedom-park:picnic",
       "placeId": "launch-nc-charlotte-freedom-park",
       "placeName": "Freedom Park",
@@ -127754,7 +128854,7 @@
       "previousAnswer": null,
       "suggestedSources": [
         {
-          "label": "City of Pittsburgh",
+          "label": "City of Pittsburgh and Pittsburgh Parks Conservancy",
           "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks-Greenways/Our-Parks",
           "sourceType": "official"
         }
@@ -128706,6 +129806,21 @@
         {
           "label": "City of Pittsburgh",
           "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks-Greenways/Our-Parks",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh Art in Parks",
+          "url": "https://engage.pittsburghpa.gov/art-parks",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh Reservoir Drive Improvements",
+          "url": "https://engage.pittsburghpa.gov/reservoir-drive-improvements",
+          "sourceType": "official"
+        },
+        {
+          "label": "Pittsburgh Zoo & Aquarium",
+          "url": "https://www.pittsburghzoo.org/plan-your-visit/",
           "sourceType": "official"
         }
       ],
@@ -130222,6 +131337,41 @@
           "label": "City of Pittsburgh",
           "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks/Our-Parks/Mellon-Park",
           "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh",
+          "url": "https://www.pittsburghpa.gov/Recreation-Events/Pools/Spray-Parks",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh",
+          "url": "https://www.pittsburghpa.gov/files/assets/city/v/1/dcp/documents/historic-review-commission/23853_5-1059_shady_avenue_signage.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh",
+          "url": "https://www.pittsburghpa.gov/files/assets/city/v/4/parks/documents/updated-amenities-in-facilities-shelters-spreadsheet-10.31.25.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh",
+          "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks/Tennis/Mellon-Park-Tennis-Center",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh",
+          "url": "https://www.pittsburghpa.gov/Recreation-Events/About-Parks/Parks-FAQ",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh",
+          "url": "https://www.pittsburghpa.gov/Recreation-Events/Events/Concerts",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh Public Art and Memorial Inventory",
+          "url": "https://www.pittsburghpa.gov/files/assets/city/v/1/dcp/documents/20117_2023_city_of_pittsburgh_public_art__memorial_inventory.pdf",
+          "sourceType": "official"
         }
       ],
       "requiresHumanReview": true,
@@ -131452,6 +132602,16 @@
           "label": "Downtown Cleveland, Inc.",
           "url": "https://www.clevelandpublicsquare.com/about-the-park",
           "sourceType": "official"
+        },
+        {
+          "label": "Downtown Cleveland Public Square",
+          "url": "https://www.clevelandpublicsquare.com/soldiers-monument",
+          "sourceType": "official"
+        },
+        {
+          "label": "Downtown Cleveland Public Square",
+          "url": "https://www.clevelandpublicsquare.com/splash-pad",
+          "sourceType": "official"
         }
       ],
       "requiresHumanReview": true,
@@ -131633,31 +132793,6 @@
       "placeCoverageScore": 48
     },
     {
-      "id": "launch-pa-philadelphia-rittenhouse-square:picnic",
-      "placeId": "launch-pa-philadelphia-rittenhouse-square",
-      "placeName": "Rittenhouse Square",
-      "placeType": "Park",
-      "city": "Philadelphia",
-      "state": "PA",
-      "intentKey": "picnic",
-      "intentLabel": "Picnic areas",
-      "question": "Where are picnic areas at Rittenhouse Square, and do any require reservations?",
-      "reason": "No current, source-backed picnic areas answer is cataloged.",
-      "action": "research",
-      "priority": 68,
-      "freshnessDays": 90,
-      "previousAnswer": null,
-      "suggestedSources": [
-        {
-          "label": "Philadelphia Parks & Recreation",
-          "url": "https://www.phila.gov/parks-rec-finder/#/location/rittenhouse-square/",
-          "sourceType": "official"
-        }
-      ],
-      "requiresHumanReview": true,
-      "placeCoverageScore": 48
-    },
-    {
       "id": "launch-ny-new-york-city-riverside-park:picnic",
       "placeId": "launch-ny-new-york-city-riverside-park",
       "placeName": "Riverside Park",
@@ -131726,6 +132861,21 @@
         {
           "label": "City of Pittsburgh",
           "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks-Greenways/Our-Parks",
+          "sourceType": "official"
+        },
+        {
+          "label": "University of Pittsburgh Allegheny Observatory",
+          "url": "https://www.observatory.pitt.edu/events/public-tours",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh Park Rangers",
+          "url": "https://www.pittsburghpa.gov/Recreation-Events/About-Parks/Park-Rangers",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh RecDesk",
+          "url": "https://pittsburgh.recdesk.com/Community/Facility/Detail?facilityId=307",
           "sourceType": "official"
         }
       ],
@@ -131851,6 +133001,16 @@
         {
           "label": "OpenStreetMap park record",
           "url": "https://www.openstreetmap.org/relation/12816181",
+          "sourceType": "official"
+        },
+        {
+          "label": "Cleveland Cultural Gardens Federation",
+          "url": "https://clevelandculturalgardens.org/gardens/italian-garden/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Cleveland Cultural Gardens Federation",
+          "url": "https://clevelandculturalgardens.org/gardens/hungarian-garden/",
           "sourceType": "official"
         }
       ],
@@ -132164,7 +133324,7 @@
       "previousAnswer": null,
       "suggestedSources": [
         {
-          "label": "City of Pittsburgh",
+          "label": "City of Pittsburgh and Pittsburgh Parks Conservancy",
           "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks-Greenways/Our-Parks",
           "sourceType": "official"
         }
@@ -134003,6 +135163,66 @@
       "placeCoverageScore": 55
     },
     {
+      "id": "launch-pa-philadelphia-franklin-square:picnic",
+      "placeId": "launch-pa-philadelphia-franklin-square",
+      "placeName": "Franklin Square",
+      "placeType": "Park",
+      "city": "Philadelphia",
+      "state": "PA",
+      "intentKey": "picnic",
+      "intentLabel": "Picnic areas",
+      "question": "Where are picnic areas at Franklin Square, and do any require reservations?",
+      "reason": "No current, source-backed picnic areas answer is cataloged.",
+      "action": "research",
+      "priority": 68,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Historic Philadelphia",
+          "url": "https://historicphiladelphia.org/franklin-square/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Historic Philadelphia Franklin Square visit guide",
+          "url": "https://historicphiladelphia.org/franklin-square-2/visit/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Historic Philadelphia capital improvements",
+          "url": "https://historicphiladelphia.org/stories/franklin-square-capital-improvements/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Historic Philadelphia park rules",
+          "url": "https://historicphiladelphia.org/franklin-square-2/park-rules/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Historic Philadelphia Chinese Lantern Festival",
+          "url": "https://historicphiladelphia.org/events/philadelphia-chinese-lantern-festival/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Historic Philadelphia Franklin Square",
+          "url": "https://historicphiladelphia.org/franklin-square-2/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Historic Philadelphia Franklin Square history",
+          "url": "https://historicphiladelphia.org/stories/history-of-franklin-square/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Historic Philadelphia Philly Mini Golf",
+          "url": "https://historicphiladelphia.org/events/philly-mini-golf/",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 55
+    },
+    {
       "id": "launch-md-baltimore-patterson-park:picnic",
       "placeId": "launch-md-baltimore-patterson-park",
       "placeName": "Patterson Park",
@@ -134101,6 +135321,116 @@
       ],
       "requiresHumanReview": true,
       "placeCoverageScore": 61
+    },
+    {
+      "id": "launch-pa-philadelphia-dilworth-park:picnic",
+      "placeId": "launch-pa-philadelphia-dilworth-park",
+      "placeName": "Dilworth Park",
+      "placeType": "Park",
+      "city": "Philadelphia",
+      "state": "PA",
+      "intentKey": "picnic",
+      "intentLabel": "Picnic areas",
+      "question": "Where are picnic areas at Dilworth Park, and do any require reservations?",
+      "reason": "No current, source-backed picnic areas answer is cataloged.",
+      "action": "research",
+      "priority": 68,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Center City District",
+          "url": "https://www.centercityphila.org/explore/dilworth-park/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Center City District park rules",
+          "url": "https://centercityphila.org/uploads/attachments/cm1tnxf8pdmv3hwqdby2muvr6-ccd-security-rfp-2024.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "Center City District Dilworth Park fact sheet",
+          "url": "https://centercityphila.org/wp-content/uploads/2026/06/CCD-Dilworth-Park-Fact-Sheet-2026.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "SEPTA City Hall and 15th Street Stations",
+          "url": "https://wwww.septa.org/initiatives/station-accessibility-program/city-hall-and-15th-street-stations/",
+          "sourceType": "official"
+        },
+        {
+          "label": "SEPTA Center City concourse map",
+          "url": "https://schedules.septa.org/maps/SEPTA_ConcourseMap_v3-0.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "Center City District 2026 seasonal programming",
+          "url": "https://centercityphila.org/press-release/spring-and-summer-happenings-in-dilworth-park/",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 66
+    },
+    {
+      "id": "launch-pa-philadelphia-rittenhouse-square:picnic",
+      "placeId": "launch-pa-philadelphia-rittenhouse-square",
+      "placeName": "Rittenhouse Square",
+      "placeType": "Park",
+      "city": "Philadelphia",
+      "state": "PA",
+      "intentKey": "picnic",
+      "intentLabel": "Picnic areas",
+      "question": "Where are picnic areas at Rittenhouse Square, and do any require reservations?",
+      "reason": "No current, source-backed picnic areas answer is cataloged.",
+      "action": "research",
+      "priority": 68,
+      "freshnessDays": 90,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Philadelphia Parks & Recreation",
+          "url": "https://www.phila.gov/parks-rec-finder/#/location/rittenhouse-square/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Philadelphia Parks & Recreation rules",
+          "url": "https://www.phila.gov/departments/philadelphia-parks-recreation/about/rules-and-regulations/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of Rittenhouse Square history",
+          "url": "https://www.friendsofrittenhouse.org/about/our-history",
+          "sourceType": "official"
+        },
+        {
+          "label": "Philadelphia Parks & Recreation dog regulations",
+          "url": "https://www.phila.gov/departments/philadelphia-parks-recreation/about/dog-regulations-and-best-practices/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of Rittenhouse Square",
+          "url": "https://www.friendsofrittenhouse.org/about",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of Rittenhouse Square events",
+          "url": "https://www.friendsofrittenhouse.org/events",
+          "sourceType": "official"
+        },
+        {
+          "label": "Farm to City Rittenhouse markets",
+          "url": "https://www.farmtocitymarkets.com/markets/rittenhousesaturday",
+          "sourceType": "official"
+        },
+        {
+          "label": "Association for Public Art Rittenhouse Square tour",
+          "url": "https://www.associationforpublicart.org/tours/around-rittenhouse-square/",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 66
     },
     {
       "id": "launch-fl-hollywood-anne-kolb-nature-center:picnic",
@@ -142351,6 +143681,26 @@
           "label": "National Park Service",
           "url": "https://www.nps.gov/cuva/planyourvisit/index.htm",
           "sourceType": "official"
+        },
+        {
+          "label": "National Park Service Brandywine Falls",
+          "url": "https://www.nps.gov/places/000/brandywine-falls-trailhead.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service Ledges Trail",
+          "url": "https://www.nps.gov/thingstodo/hike-the-ledges-trail.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service Beaver Marsh",
+          "url": "https://www.nps.gov/cuva/planyourvisit/the-beaver-marsh.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service Everett Covered Bridge",
+          "url": "https://www.nps.gov/places/000/everett-covered-bridge.htm",
+          "sourceType": "official"
         }
       ],
       "requiresHumanReview": true,
@@ -142714,12 +144064,12 @@
         },
         {
           "label": "Cleveland Metroparks",
-          "url": "https://cms.clevelandmetroparks.com/parks/visit/parks/lakefront-reservation/edgewater-beach",
+          "url": "https://www.clevelandmetroparks.com/parks/visit/parks/lakefront-reservation/edgewater-beach",
           "sourceType": "official"
         },
         {
           "label": "Cleveland Metroparks",
-          "url": "https://www.riderta.com/index.php/routes/clevelandstateline/schedules/current",
+          "url": "https://www.riderta.com/routes/55-55b-55c/schedules/current",
           "sourceType": "official"
         },
         {
@@ -142809,7 +144159,17 @@
       "suggestedSources": [
         {
           "label": "City of Pittsburgh",
-          "url": "https://engage.pittsburghpa.gov/emerald-view-park/story/134/113",
+          "url": "https://engage.pittsburghpa.gov/emerald-view-park/story/134/147",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh Public Art and Memorial Inventory",
+          "url": "https://www.pittsburghpa.gov/files/assets/city/v/1/dcp/documents/20117_2023_city_of_pittsburgh_public_art__memorial_inventory.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh Our Parks",
+          "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks-Greenways/Our-Parks",
           "sourceType": "official"
         }
       ],
@@ -142950,31 +144310,6 @@
         {
           "label": "Fair Park First and Dallas Park and Recreation",
           "url": "https://www.fairparkdallas.com/visit/plan-your-visit",
-          "sourceType": "official"
-        }
-      ],
-      "requiresHumanReview": true,
-      "placeCoverageScore": 48
-    },
-    {
-      "id": "launch-pa-philadelphia-fdr-park:shade",
-      "placeId": "launch-pa-philadelphia-fdr-park",
-      "placeName": "FDR Park",
-      "placeType": "Park",
-      "city": "Philadelphia",
-      "state": "PA",
-      "intentKey": "shade",
-      "intentLabel": "Shade and weather comfort",
-      "question": "Where can visitors find shade or weather shelter at FDR Park?",
-      "reason": "No current, source-backed shade and weather comfort answer is cataloged.",
-      "action": "research",
-      "priority": 64,
-      "freshnessDays": 180,
-      "previousAnswer": null,
-      "suggestedSources": [
-        {
-          "label": "Philadelphia Parks & Recreation",
-          "url": "https://www.phila.gov/parks-rec-finder/#/location/fdr-park/",
           "sourceType": "official"
         }
       ],
@@ -143367,31 +144702,6 @@
       "placeCoverageScore": 48
     },
     {
-      "id": "launch-pa-philadelphia-franklin-square:shade",
-      "placeId": "launch-pa-philadelphia-franklin-square",
-      "placeName": "Franklin Square",
-      "placeType": "Park",
-      "city": "Philadelphia",
-      "state": "PA",
-      "intentKey": "shade",
-      "intentLabel": "Shade and weather comfort",
-      "question": "Where can visitors find shade or weather shelter at Franklin Square?",
-      "reason": "No current, source-backed shade and weather comfort answer is cataloged.",
-      "action": "research",
-      "priority": 64,
-      "freshnessDays": 180,
-      "previousAnswer": null,
-      "suggestedSources": [
-        {
-          "label": "Historic Philadelphia",
-          "url": "https://historicphiladelphia.org/franklin-square/",
-          "sourceType": "official"
-        }
-      ],
-      "requiresHumanReview": true,
-      "placeCoverageScore": 48
-    },
-    {
       "id": "launch-nc-charlotte-freedom-park:shade",
       "placeId": "launch-nc-charlotte-freedom-park",
       "placeName": "Freedom Park",
@@ -143458,7 +144768,7 @@
       "previousAnswer": null,
       "suggestedSources": [
         {
-          "label": "City of Pittsburgh",
+          "label": "City of Pittsburgh and Pittsburgh Parks Conservancy",
           "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks-Greenways/Our-Parks",
           "sourceType": "official"
         }
@@ -144410,6 +145720,21 @@
         {
           "label": "City of Pittsburgh",
           "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks-Greenways/Our-Parks",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh Art in Parks",
+          "url": "https://engage.pittsburghpa.gov/art-parks",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh Reservoir Drive Improvements",
+          "url": "https://engage.pittsburghpa.gov/reservoir-drive-improvements",
+          "sourceType": "official"
+        },
+        {
+          "label": "Pittsburgh Zoo & Aquarium",
+          "url": "https://www.pittsburghzoo.org/plan-your-visit/",
           "sourceType": "official"
         }
       ],
@@ -145926,6 +147251,41 @@
           "label": "City of Pittsburgh",
           "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks/Our-Parks/Mellon-Park",
           "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh",
+          "url": "https://www.pittsburghpa.gov/Recreation-Events/Pools/Spray-Parks",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh",
+          "url": "https://www.pittsburghpa.gov/files/assets/city/v/1/dcp/documents/historic-review-commission/23853_5-1059_shady_avenue_signage.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh",
+          "url": "https://www.pittsburghpa.gov/files/assets/city/v/4/parks/documents/updated-amenities-in-facilities-shelters-spreadsheet-10.31.25.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh",
+          "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks/Tennis/Mellon-Park-Tennis-Center",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh",
+          "url": "https://www.pittsburghpa.gov/Recreation-Events/About-Parks/Parks-FAQ",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh",
+          "url": "https://www.pittsburghpa.gov/Recreation-Events/Events/Concerts",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh Public Art and Memorial Inventory",
+          "url": "https://www.pittsburghpa.gov/files/assets/city/v/1/dcp/documents/20117_2023_city_of_pittsburgh_public_art__memorial_inventory.pdf",
+          "sourceType": "official"
         }
       ],
       "requiresHumanReview": true,
@@ -147156,6 +148516,16 @@
           "label": "Downtown Cleveland, Inc.",
           "url": "https://www.clevelandpublicsquare.com/about-the-park",
           "sourceType": "official"
+        },
+        {
+          "label": "Downtown Cleveland Public Square",
+          "url": "https://www.clevelandpublicsquare.com/soldiers-monument",
+          "sourceType": "official"
+        },
+        {
+          "label": "Downtown Cleveland Public Square",
+          "url": "https://www.clevelandpublicsquare.com/splash-pad",
+          "sourceType": "official"
         }
       ],
       "requiresHumanReview": true,
@@ -147337,31 +148707,6 @@
       "placeCoverageScore": 48
     },
     {
-      "id": "launch-pa-philadelphia-rittenhouse-square:shade",
-      "placeId": "launch-pa-philadelphia-rittenhouse-square",
-      "placeName": "Rittenhouse Square",
-      "placeType": "Park",
-      "city": "Philadelphia",
-      "state": "PA",
-      "intentKey": "shade",
-      "intentLabel": "Shade and weather comfort",
-      "question": "Where can visitors find shade or weather shelter at Rittenhouse Square?",
-      "reason": "No current, source-backed shade and weather comfort answer is cataloged.",
-      "action": "research",
-      "priority": 64,
-      "freshnessDays": 180,
-      "previousAnswer": null,
-      "suggestedSources": [
-        {
-          "label": "Philadelphia Parks & Recreation",
-          "url": "https://www.phila.gov/parks-rec-finder/#/location/rittenhouse-square/",
-          "sourceType": "official"
-        }
-      ],
-      "requiresHumanReview": true,
-      "placeCoverageScore": 48
-    },
-    {
       "id": "launch-ny-new-york-city-riverside-park:shade",
       "placeId": "launch-ny-new-york-city-riverside-park",
       "placeName": "Riverside Park",
@@ -147430,6 +148775,21 @@
         {
           "label": "City of Pittsburgh",
           "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks-Greenways/Our-Parks",
+          "sourceType": "official"
+        },
+        {
+          "label": "University of Pittsburgh Allegheny Observatory",
+          "url": "https://www.observatory.pitt.edu/events/public-tours",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh Park Rangers",
+          "url": "https://www.pittsburghpa.gov/Recreation-Events/About-Parks/Park-Rangers",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh RecDesk",
+          "url": "https://pittsburgh.recdesk.com/Community/Facility/Detail?facilityId=307",
           "sourceType": "official"
         }
       ],
@@ -147555,6 +148915,16 @@
         {
           "label": "OpenStreetMap park record",
           "url": "https://www.openstreetmap.org/relation/12816181",
+          "sourceType": "official"
+        },
+        {
+          "label": "Cleveland Cultural Gardens Federation",
+          "url": "https://clevelandculturalgardens.org/gardens/italian-garden/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Cleveland Cultural Gardens Federation",
+          "url": "https://clevelandculturalgardens.org/gardens/hungarian-garden/",
           "sourceType": "official"
         }
       ],
@@ -147868,7 +149238,7 @@
       "previousAnswer": null,
       "suggestedSources": [
         {
-          "label": "City of Pittsburgh",
+          "label": "City of Pittsburgh and Pittsburgh Parks Conservancy",
           "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks-Greenways/Our-Parks",
           "sourceType": "official"
         }
@@ -149767,6 +151137,66 @@
       "placeCoverageScore": 55
     },
     {
+      "id": "launch-pa-philadelphia-franklin-square:shade",
+      "placeId": "launch-pa-philadelphia-franklin-square",
+      "placeName": "Franklin Square",
+      "placeType": "Park",
+      "city": "Philadelphia",
+      "state": "PA",
+      "intentKey": "shade",
+      "intentLabel": "Shade and weather comfort",
+      "question": "Where can visitors find shade or weather shelter at Franklin Square?",
+      "reason": "No current, source-backed shade and weather comfort answer is cataloged.",
+      "action": "research",
+      "priority": 64,
+      "freshnessDays": 180,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Historic Philadelphia",
+          "url": "https://historicphiladelphia.org/franklin-square/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Historic Philadelphia Franklin Square visit guide",
+          "url": "https://historicphiladelphia.org/franklin-square-2/visit/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Historic Philadelphia capital improvements",
+          "url": "https://historicphiladelphia.org/stories/franklin-square-capital-improvements/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Historic Philadelphia park rules",
+          "url": "https://historicphiladelphia.org/franklin-square-2/park-rules/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Historic Philadelphia Chinese Lantern Festival",
+          "url": "https://historicphiladelphia.org/events/philadelphia-chinese-lantern-festival/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Historic Philadelphia Franklin Square",
+          "url": "https://historicphiladelphia.org/franklin-square-2/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Historic Philadelphia Franklin Square history",
+          "url": "https://historicphiladelphia.org/stories/history-of-franklin-square/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Historic Philadelphia Philly Mini Golf",
+          "url": "https://historicphiladelphia.org/events/philly-mini-golf/",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 55
+    },
+    {
       "id": "launch-md-baltimore-patterson-park:shade",
       "placeId": "launch-md-baltimore-patterson-park",
       "placeName": "Patterson Park",
@@ -149895,6 +151325,66 @@
         {
           "label": "Broward County Parks and Recreation",
           "url": "https://www.broward.org/Parks/safety/Pages/LightningPredictionSystems.aspx",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 61
+    },
+    {
+      "id": "launch-pa-philadelphia-fdr-park:shade",
+      "placeId": "launch-pa-philadelphia-fdr-park",
+      "placeName": "FDR Park",
+      "placeType": "Park",
+      "city": "Philadelphia",
+      "state": "PA",
+      "intentKey": "shade",
+      "intentLabel": "Shade and weather comfort",
+      "question": "Where can visitors find shade or weather shelter at FDR Park?",
+      "reason": "No current, source-backed shade and weather comfort answer is cataloged.",
+      "action": "research",
+      "priority": 64,
+      "freshnessDays": 180,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Philadelphia Parks & Recreation",
+          "url": "https://www.phila.gov/parks-rec-finder/#/location/fdr-park/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of FDR Park getting here",
+          "url": "https://www.fdrparkphilly.org/getting-here",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of FDR Park FAQ",
+          "url": "https://www.fdrparkphilly.org/frequently-asked-questions",
+          "sourceType": "official"
+        },
+        {
+          "label": "Philadelphia Parks & Recreation 2026 picnic application",
+          "url": "https://www.phila.gov/media/20260310115338/2026-Picnic-Application.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "Philadelphia Inquirer report citing Parks & Recreation",
+          "url": "https://www.inquirer.com/news/philadelphia/fdr-park-verna-playground-towey-recreation-20260606.html",
+          "sourceType": "official"
+        },
+        {
+          "label": "SEPTA 2026 event travel guidance",
+          "url": "https://wwww.septa.org/2026-events/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of FDR Park plan",
+          "url": "https://www.fdrparkphilly.org/parkplan",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of FDR Park recreation",
+          "url": "https://www.fdrparkphilly.org/recreation",
           "sourceType": "official"
         }
       ],
@@ -160700,6 +162190,26 @@
           "label": "National Park Service",
           "url": "https://www.nps.gov/cuva/planyourvisit/index.htm",
           "sourceType": "official"
+        },
+        {
+          "label": "National Park Service Brandywine Falls",
+          "url": "https://www.nps.gov/places/000/brandywine-falls-trailhead.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service Ledges Trail",
+          "url": "https://www.nps.gov/thingstodo/hike-the-ledges-trail.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service Beaver Marsh",
+          "url": "https://www.nps.gov/cuva/planyourvisit/the-beaver-marsh.htm",
+          "sourceType": "official"
+        },
+        {
+          "label": "National Park Service Everett Covered Bridge",
+          "url": "https://www.nps.gov/places/000/everett-covered-bridge.htm",
+          "sourceType": "official"
         }
       ],
       "requiresHumanReview": true,
@@ -161063,12 +162573,12 @@
         },
         {
           "label": "Cleveland Metroparks",
-          "url": "https://cms.clevelandmetroparks.com/parks/visit/parks/lakefront-reservation/edgewater-beach",
+          "url": "https://www.clevelandmetroparks.com/parks/visit/parks/lakefront-reservation/edgewater-beach",
           "sourceType": "official"
         },
         {
           "label": "Cleveland Metroparks",
-          "url": "https://www.riderta.com/index.php/routes/clevelandstateline/schedules/current",
+          "url": "https://www.riderta.com/routes/55-55b-55c/schedules/current",
           "sourceType": "official"
         },
         {
@@ -161158,7 +162668,17 @@
       "suggestedSources": [
         {
           "label": "City of Pittsburgh",
-          "url": "https://engage.pittsburghpa.gov/emerald-view-park/story/134/113",
+          "url": "https://engage.pittsburghpa.gov/emerald-view-park/story/134/147",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh Public Art and Memorial Inventory",
+          "url": "https://www.pittsburghpa.gov/files/assets/city/v/1/dcp/documents/20117_2023_city_of_pittsburgh_public_art__memorial_inventory.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh Our Parks",
+          "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks-Greenways/Our-Parks",
           "sourceType": "official"
         }
       ],
@@ -161299,31 +162819,6 @@
         {
           "label": "Fair Park First and Dallas Park and Recreation",
           "url": "https://www.fairparkdallas.com/visit/plan-your-visit",
-          "sourceType": "official"
-        }
-      ],
-      "requiresHumanReview": true,
-      "placeCoverageScore": 48
-    },
-    {
-      "id": "launch-pa-philadelphia-fdr-park:public-art",
-      "placeId": "launch-pa-philadelphia-fdr-park",
-      "placeName": "FDR Park",
-      "placeType": "Park",
-      "city": "Philadelphia",
-      "state": "PA",
-      "intentKey": "public-art",
-      "intentLabel": "Landmarks and public art",
-      "question": "Where are the landmarks or public art at FDR Park, and how do visitors find them?",
-      "reason": "No current, source-backed landmarks and public art answer is cataloged.",
-      "action": "research",
-      "priority": 60,
-      "freshnessDays": 180,
-      "previousAnswer": null,
-      "suggestedSources": [
-        {
-          "label": "Philadelphia Parks & Recreation",
-          "url": "https://www.phila.gov/parks-rec-finder/#/location/fdr-park/",
           "sourceType": "official"
         }
       ],
@@ -161716,31 +163211,6 @@
       "placeCoverageScore": 48
     },
     {
-      "id": "launch-pa-philadelphia-franklin-square:public-art",
-      "placeId": "launch-pa-philadelphia-franklin-square",
-      "placeName": "Franklin Square",
-      "placeType": "Park",
-      "city": "Philadelphia",
-      "state": "PA",
-      "intentKey": "public-art",
-      "intentLabel": "Landmarks and public art",
-      "question": "Where are the landmarks or public art at Franklin Square, and how do visitors find them?",
-      "reason": "No current, source-backed landmarks and public art answer is cataloged.",
-      "action": "research",
-      "priority": 60,
-      "freshnessDays": 180,
-      "previousAnswer": null,
-      "suggestedSources": [
-        {
-          "label": "Historic Philadelphia",
-          "url": "https://historicphiladelphia.org/franklin-square/",
-          "sourceType": "official"
-        }
-      ],
-      "requiresHumanReview": true,
-      "placeCoverageScore": 48
-    },
-    {
       "id": "launch-nc-charlotte-freedom-park:public-art",
       "placeId": "launch-nc-charlotte-freedom-park",
       "placeName": "Freedom Park",
@@ -161807,7 +163277,7 @@
       "previousAnswer": null,
       "suggestedSources": [
         {
-          "label": "City of Pittsburgh",
+          "label": "City of Pittsburgh and Pittsburgh Parks Conservancy",
           "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks-Greenways/Our-Parks",
           "sourceType": "official"
         }
@@ -162759,6 +164229,21 @@
         {
           "label": "City of Pittsburgh",
           "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks-Greenways/Our-Parks",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh Art in Parks",
+          "url": "https://engage.pittsburghpa.gov/art-parks",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh Reservoir Drive Improvements",
+          "url": "https://engage.pittsburghpa.gov/reservoir-drive-improvements",
+          "sourceType": "official"
+        },
+        {
+          "label": "Pittsburgh Zoo & Aquarium",
+          "url": "https://www.pittsburghzoo.org/plan-your-visit/",
           "sourceType": "official"
         }
       ],
@@ -164275,6 +165760,41 @@
           "label": "City of Pittsburgh",
           "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks/Our-Parks/Mellon-Park",
           "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh",
+          "url": "https://www.pittsburghpa.gov/Recreation-Events/Pools/Spray-Parks",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh",
+          "url": "https://www.pittsburghpa.gov/files/assets/city/v/1/dcp/documents/historic-review-commission/23853_5-1059_shady_avenue_signage.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh",
+          "url": "https://www.pittsburghpa.gov/files/assets/city/v/4/parks/documents/updated-amenities-in-facilities-shelters-spreadsheet-10.31.25.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh",
+          "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks/Tennis/Mellon-Park-Tennis-Center",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh",
+          "url": "https://www.pittsburghpa.gov/Recreation-Events/About-Parks/Parks-FAQ",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh",
+          "url": "https://www.pittsburghpa.gov/Recreation-Events/Events/Concerts",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh Public Art and Memorial Inventory",
+          "url": "https://www.pittsburghpa.gov/files/assets/city/v/1/dcp/documents/20117_2023_city_of_pittsburgh_public_art__memorial_inventory.pdf",
+          "sourceType": "official"
         }
       ],
       "requiresHumanReview": true,
@@ -165505,6 +167025,16 @@
           "label": "Downtown Cleveland, Inc.",
           "url": "https://www.clevelandpublicsquare.com/about-the-park",
           "sourceType": "official"
+        },
+        {
+          "label": "Downtown Cleveland Public Square",
+          "url": "https://www.clevelandpublicsquare.com/soldiers-monument",
+          "sourceType": "official"
+        },
+        {
+          "label": "Downtown Cleveland Public Square",
+          "url": "https://www.clevelandpublicsquare.com/splash-pad",
+          "sourceType": "official"
         }
       ],
       "requiresHumanReview": true,
@@ -165686,31 +167216,6 @@
       "placeCoverageScore": 48
     },
     {
-      "id": "launch-pa-philadelphia-rittenhouse-square:public-art",
-      "placeId": "launch-pa-philadelphia-rittenhouse-square",
-      "placeName": "Rittenhouse Square",
-      "placeType": "Park",
-      "city": "Philadelphia",
-      "state": "PA",
-      "intentKey": "public-art",
-      "intentLabel": "Landmarks and public art",
-      "question": "Where are the landmarks or public art at Rittenhouse Square, and how do visitors find them?",
-      "reason": "No current, source-backed landmarks and public art answer is cataloged.",
-      "action": "research",
-      "priority": 60,
-      "freshnessDays": 180,
-      "previousAnswer": null,
-      "suggestedSources": [
-        {
-          "label": "Philadelphia Parks & Recreation",
-          "url": "https://www.phila.gov/parks-rec-finder/#/location/rittenhouse-square/",
-          "sourceType": "official"
-        }
-      ],
-      "requiresHumanReview": true,
-      "placeCoverageScore": 48
-    },
-    {
       "id": "launch-ny-new-york-city-riverside-park:public-art",
       "placeId": "launch-ny-new-york-city-riverside-park",
       "placeName": "Riverside Park",
@@ -165779,6 +167284,21 @@
         {
           "label": "City of Pittsburgh",
           "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks-Greenways/Our-Parks",
+          "sourceType": "official"
+        },
+        {
+          "label": "University of Pittsburgh Allegheny Observatory",
+          "url": "https://www.observatory.pitt.edu/events/public-tours",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh Park Rangers",
+          "url": "https://www.pittsburghpa.gov/Recreation-Events/About-Parks/Park-Rangers",
+          "sourceType": "official"
+        },
+        {
+          "label": "City of Pittsburgh RecDesk",
+          "url": "https://pittsburgh.recdesk.com/Community/Facility/Detail?facilityId=307",
           "sourceType": "official"
         }
       ],
@@ -165904,6 +167424,16 @@
         {
           "label": "OpenStreetMap park record",
           "url": "https://www.openstreetmap.org/relation/12816181",
+          "sourceType": "official"
+        },
+        {
+          "label": "Cleveland Cultural Gardens Federation",
+          "url": "https://clevelandculturalgardens.org/gardens/italian-garden/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Cleveland Cultural Gardens Federation",
+          "url": "https://clevelandculturalgardens.org/gardens/hungarian-garden/",
           "sourceType": "official"
         }
       ],
@@ -166217,7 +167747,7 @@
       "previousAnswer": null,
       "suggestedSources": [
         {
-          "label": "City of Pittsburgh",
+          "label": "City of Pittsburgh and Pittsburgh Parks Conservancy",
           "url": "https://www.pittsburghpa.gov/Recreation-Events/Parks-Greenways/Our-Parks",
           "sourceType": "official"
         }
@@ -168116,6 +169646,66 @@
       "placeCoverageScore": 55
     },
     {
+      "id": "launch-pa-philadelphia-franklin-square:public-art",
+      "placeId": "launch-pa-philadelphia-franklin-square",
+      "placeName": "Franklin Square",
+      "placeType": "Park",
+      "city": "Philadelphia",
+      "state": "PA",
+      "intentKey": "public-art",
+      "intentLabel": "Landmarks and public art",
+      "question": "Where are the landmarks or public art at Franklin Square, and how do visitors find them?",
+      "reason": "No current, source-backed landmarks and public art answer is cataloged.",
+      "action": "research",
+      "priority": 60,
+      "freshnessDays": 180,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Historic Philadelphia",
+          "url": "https://historicphiladelphia.org/franklin-square/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Historic Philadelphia Franklin Square visit guide",
+          "url": "https://historicphiladelphia.org/franklin-square-2/visit/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Historic Philadelphia capital improvements",
+          "url": "https://historicphiladelphia.org/stories/franklin-square-capital-improvements/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Historic Philadelphia park rules",
+          "url": "https://historicphiladelphia.org/franklin-square-2/park-rules/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Historic Philadelphia Chinese Lantern Festival",
+          "url": "https://historicphiladelphia.org/events/philadelphia-chinese-lantern-festival/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Historic Philadelphia Franklin Square",
+          "url": "https://historicphiladelphia.org/franklin-square-2/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Historic Philadelphia Franklin Square history",
+          "url": "https://historicphiladelphia.org/stories/history-of-franklin-square/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Historic Philadelphia Philly Mini Golf",
+          "url": "https://historicphiladelphia.org/events/philly-mini-golf/",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 55
+    },
+    {
       "id": "launch-md-baltimore-patterson-park:public-art",
       "placeId": "launch-md-baltimore-patterson-park",
       "placeName": "Patterson Park",
@@ -168244,6 +169834,66 @@
         {
           "label": "Broward County Parks and Recreation",
           "url": "https://www.broward.org/Parks/safety/Pages/LightningPredictionSystems.aspx",
+          "sourceType": "official"
+        }
+      ],
+      "requiresHumanReview": true,
+      "placeCoverageScore": 61
+    },
+    {
+      "id": "launch-pa-philadelphia-fdr-park:public-art",
+      "placeId": "launch-pa-philadelphia-fdr-park",
+      "placeName": "FDR Park",
+      "placeType": "Park",
+      "city": "Philadelphia",
+      "state": "PA",
+      "intentKey": "public-art",
+      "intentLabel": "Landmarks and public art",
+      "question": "Where are the landmarks or public art at FDR Park, and how do visitors find them?",
+      "reason": "No current, source-backed landmarks and public art answer is cataloged.",
+      "action": "research",
+      "priority": 60,
+      "freshnessDays": 180,
+      "previousAnswer": null,
+      "suggestedSources": [
+        {
+          "label": "Philadelphia Parks & Recreation",
+          "url": "https://www.phila.gov/parks-rec-finder/#/location/fdr-park/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of FDR Park getting here",
+          "url": "https://www.fdrparkphilly.org/getting-here",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of FDR Park FAQ",
+          "url": "https://www.fdrparkphilly.org/frequently-asked-questions",
+          "sourceType": "official"
+        },
+        {
+          "label": "Philadelphia Parks & Recreation 2026 picnic application",
+          "url": "https://www.phila.gov/media/20260310115338/2026-Picnic-Application.pdf",
+          "sourceType": "official"
+        },
+        {
+          "label": "Philadelphia Inquirer report citing Parks & Recreation",
+          "url": "https://www.inquirer.com/news/philadelphia/fdr-park-verna-playground-towey-recreation-20260606.html",
+          "sourceType": "official"
+        },
+        {
+          "label": "SEPTA 2026 event travel guidance",
+          "url": "https://wwww.septa.org/2026-events/",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of FDR Park plan",
+          "url": "https://www.fdrparkphilly.org/parkplan",
+          "sourceType": "official"
+        },
+        {
+          "label": "Friends of FDR Park recreation",
+          "url": "https://www.fdrparkphilly.org/recreation",
           "sourceType": "official"
         }
       ],

@@ -34,6 +34,60 @@
         "coordinateSource": "https://commons.wikimedia.org/wiki/File:Old_Cleveland_Coast_Guard_Station,_Whiskey_Island,_Cleveland,_OH_(28569038297).jpg",
         "positionQuality": "reviewed-named-building-photo-geotag-and-current-operator-access-match"
       }
+    },
+    "launch-oh-cleveland-rockefeller-park-and-cultural-gardens": {
+      "italian-cultural-garden": {
+        "latitude": 41.528395,
+        "longitude": -81.6271654,
+        "coordinateSource": "https://www.openstreetmap.org/way/416229345",
+        "positionQuality": "reviewed-named-garden-way-and-official-address-match"
+      },
+      "hungarian-cultural-garden": {
+        "latitude": 41.5254784,
+        "longitude": -81.6250585,
+        "coordinateSource": "https://commons.wikimedia.org/wiki/File:Hungarian_Cultural_Garden.jpg",
+        "positionQuality": "reviewed-named-garden-position-and-destination-photo-geotag-match"
+      }
+    },
+    "launch-oh-cleveland-public-square": {
+      "soldiers-and-sailors-monument": {
+        "latitude": 41.4995,
+        "longitude": -81.693,
+        "coordinateSource": "https://www.openstreetmap.org/way/430783849",
+        "positionQuality": "reviewed-named-monument-way-and-official-southeast-quadrant-match"
+      },
+      "public-square-splash-pad": {
+        "latitude": 41.49969,
+        "longitude": -81.693681,
+        "coordinateSource": "https://commons.wikimedia.org/wiki/File:Cleveland_Public_Square_Fountain_(27952683361).jpg",
+        "positionQuality": "reviewed-destination-photo-geotag-and-official-park-map-match"
+      }
+    },
+    "launch-oh-cleveland-cuyahoga-valley-national-park": {
+      "brandywine-falls": {
+        "latitude": 41.276347,
+        "longitude": -81.53929,
+        "coordinateSource": "https://www.nps.gov/cuva/planyourvisit/parking.htm",
+        "positionQuality": "reviewed-official-nps-trailhead-coordinate-for-falls-arrival"
+      },
+      "ledges-trail": {
+        "latitude": 41.223414,
+        "longitude": -81.51027,
+        "coordinateSource": "https://www.nps.gov/cuva/planyourvisit/parking.htm",
+        "positionQuality": "reviewed-official-nps-ledges-trailhead-coordinate"
+      },
+      "beaver-marsh": {
+        "latitude": 41.1845833,
+        "longitude": -81.58335,
+        "coordinateSource": "https://www.nps.gov/cuva/planyourvisit/half-day-visit.htm",
+        "positionQuality": "reviewed-official-nps-ira-trailhead-coordinate-for-marsh-arrival"
+      },
+      "everett-covered-bridge": {
+        "latitude": 41.2044167,
+        "longitude": -81.5810833,
+        "coordinateSource": "https://www.nps.gov/cuva/planyourvisit/half-day-visit.htm",
+        "positionQuality": "reviewed-official-nps-everett-trailhead-coordinate"
+      }
     }
   }
 }
