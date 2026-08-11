@@ -3,11 +3,18 @@
   "strategy": "Complete geographically connected clusters before opening isolated metros.",
   "completedBaseline": {
     "verifiedAt": "2026-08-11",
-    "campaignVerifierCount": 53,
+    "campaignVerifierCount": 54,
     "campaignVerifierFailures": 0,
-    "note": "All 53 national enrichment campaign verifiers pass locally after the Wilmington evidence-gate batch. Production publication remains a maintainer decision."
+    "note": "All 54 national enrichment campaign verifiers pass locally after the Chesapeake Bay state-park evidence-gate batch. Production publication remains a maintainer decision."
   },
   "recentlyCompleted": [
+    {
+      "name": "Chesapeake Bay state-park evidence-gate enrichment",
+      "parentGuides": 2,
+      "licensedPhotos": 8,
+      "evidenceCompleteSubsites": 0,
+      "status": "generated-and-locally-verified"
+    },
     {
       "name": "Wilmington evidence-gate enrichment",
       "parentGuides": 2,
@@ -244,11 +251,11 @@
     }
   ],
   "activeCluster": {
-    "name": "Wilmington evidence-gate enrichment",
-    "reason": "Brandywine Park and Rockford Park were the strongest remaining connected launch gap: both already had official visitor guidance and each now clears the four-photo parent gate. Josephine Fountain and Rockford Tower also clear exact destination review, while Brandywine Zoo and other inherited facilities remain deferred until matching current reusable photography and complete profiles clear together.",
+    "name": "Chesapeake Bay state-park evidence-gate enrichment",
+    "reason": "Sandy Point State Park and North Point State Park form a connected Maryland launch gap with current official visitor guidance and four varied reusable photographs each. No proposed internal destination clears exact current position, destination-specific photography, and a complete current profile together, so the release remains parent-only.",
     "releaseStandard": "Retain current official parent answers, require four varied reusable photographs per released parent, and publish only named destinations with exact reviewed coordinates, destination-specific photography, nine source-backed answers, and current operator guidance.",
-    "status": "wilmington-generated-verified-and-preview-deployed",
-    "metros": ["Wilmington"],
+    "status": "chesapeake-bay-generated-and-locally-verified",
+    "metros": ["Annapolis", "Edgemere"],
     "resumeCheckpoint": {
       "pausedAt": "2026-08-11",
       "completed": [
@@ -411,9 +418,13 @@
     "Published exact destination pages for Josephine Fountain and Rockford Tower with exact photo or named-building coordinates, destination-specific photographs, and nine source-backed visitor answers each.",
     "Retired the inherited Brandywine Zoo standalone route with a permanent parent redirect because its animal portrait carries ambiguous permission wording and the available entrance image is historic; retained current zoo hours, fees, parking, accessibility, and family guidance on the parent page.",
     "Verified all 53 super-enrichment campaigns, national discovery, North Carolina image and generated-page safeguards, raw Wilmington HTML, exact navigation, and source persistence across four data layers.",
-    "Preview-verified all four Wilmington routes, all eight optimized campaign images, and the permanent Brandywine Zoo redirect on Ready deployment dpl_3fw6cNk99hmfopVe1fiLuAfnYM36 for source commit 6596769962601182478c2f6debc170479b539168; GitHub validation, secrets, preview-comment, and subsequent final-head Vercel checks passed."
+    "Preview-verified all four Wilmington routes, all eight optimized campaign images, and the permanent Brandywine Zoo redirect on Ready deployment dpl_3fw6cNk99hmfopVe1fiLuAfnYM36 for source commit 6596769962601182478c2f6debc170479b539168; GitHub validation, secrets, preview-comment, and subsequent final-head Vercel checks passed.",
+    "Built Sandy Point State Park and North Point State Park as parent-only guides with four varied local Wikimedia Commons photographs and eleven current source-backed visitor answers each.",
+    "Recorded North Point's official opening-time and visitor-center schedule conflicts without choosing an unsupported value; retained current Crystal Pier, Trolley Station Pavilion, unguarded-water, and Key Bridge disruption guidance.",
+    "Deferred every internal Chesapeake Bay destination until exact position, destination-specific reusable photography, and a complete current profile clear together; kept the privately owned Sandy Point Shoal Lighthouse out of the public-destination set.",
+    "Verified all 54 super-enrichment campaigns, raw Chesapeake Bay parent HTML, licensed-image metadata, coordinate provenance, and source persistence across four data layers."
       ],
-    "nextAction": "After maintainer review of the stacked Wilmington draft, continue with the next connected launch gap that clears current official-source and representative-photo review. Keep Brandywine Zoo, Far North Bicentennial Park, Julian B. Lane, Boyd Hill, inland Broward, Olbrich Park, Riverside Regional Park, and Broad Ripple Park in their documented photo queues until matching permission-cleared coverage appears.",
+    "nextAction": "After maintainer review and preview verification of the stacked Chesapeake Bay draft, continue with the next connected launch gap that clears current official-source and representative-photo review. Keep Quiet Waters Park in Annapolis, Truxtun Park, Downs Park, Kinder Farm Park, Fort Smallwood Park, Brandywine Zoo, Far North Bicentennial Park, Julian B. Lane, Boyd Hill, inland Broward, Olbrich Park, Riverside Regional Park, and Broad Ripple Park in their documented photo queues until matching permission-cleared coverage appears.",
       "notReleased": true,
       "productionPublished": false
     }

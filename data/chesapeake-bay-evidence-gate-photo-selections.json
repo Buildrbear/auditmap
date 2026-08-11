@@ -1,0 +1,79 @@
+{
+  "reviewedAt": "2026-08-11",
+  "policy": "Four varied, place-specific Wikimedia Commons photographs per parent; exact destination photographs may also serve the parent gallery when they represent a major visitor zone.",
+  "places": {
+    "launch-md-annapolis-sandy-point-state-park": {
+      "candidates": [
+        {
+          "file": "Sandy Point Beach and Bay Bridge MD1.jpg",
+          "creator": "Acroterion",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "alt": "Sandy Point State Park beach with the Chesapeake Bay Bridge beyond"
+        },
+        {
+          "file": "Sandy Point Farmhouse MD1.jpg",
+          "creator": "Acroterion",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "alt": "Historic Sandy Point Farmhouse at Sandy Point State Park"
+        },
+        {
+          "file": "Sandy Point State Park, landscape (21610028871).jpg",
+          "creator": "Preservation Maryland",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "alt": "Sandy Point State Park landscape facing the Chesapeake Bay Bridge"
+        },
+        {
+          "file": "Fishing and playing on the shore of Chesapeake Bay. Sandy Point, 2010, MD. Credit USEPA (14593540071).jpg",
+          "creator": "U.S. Environmental Protection Agency / Eric Vance",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+          "alt": "Visitors fishing and playing along the Chesapeake Bay shore at Sandy Point"
+        }
+      ],
+      "rejected": [
+        "1970s NARA crowd photographs were rejected as historic rather than current visitor representation.",
+        "The geotagged 2013 Ben Schumin detail set was rejected after visual review because it consisted largely of litter close-ups and repetitive safety signs rather than representative park views.",
+        "The 2022 Maryland GovPics set was rejected after visual review because it primarily documents one official event rather than four distinct park settings."
+      ]
+    },
+    "launch-md-edgemere-north-point-state-park": {
+      "candidates": [
+        {
+          "file": "North Point State Park - panoramio.jpg",
+          "creator": "Ben Felps",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "alt": "Visitor landscape at North Point State Park"
+        },
+        {
+          "file": "North Point State Park - panoramio (1).jpg",
+          "creator": "Ben Felps",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "alt": "Chesapeake Bay visitor area at North Point State Park"
+        },
+        {
+          "file": "North Point Pine Trail (15861505012).jpg",
+          "creator": "Nicolas Raymond",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+          "alt": "Pine Trail through autumn woodland at North Point State Park"
+        },
+        {
+          "file": "Chesapeake Bay at North Point State Park MD1.jpg",
+          "creator": "Acroterion",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "alt": "Chesapeake Bay shoreline viewed from North Point State Park"
+        }
+      ],
+      "rejected": [
+        "Wildlife close-ups were rejected as nonrepresentative parent imagery.",
+        "The trolley-pavilion close-up, ruined Ferry Grove Pier, leaf-detail trail frames, and posed First Day Hike portrait were rejected after visual review as nonrepresentative or potentially unsafe visitor guidance."
+      ]
+    }
+  }
+}
