@@ -6,7 +6,7 @@ Last updated: 2026-08-11
 
 - Status: the Boise river-park evidence-gate batch is generated, release-verified, and responsive-layout-verified locally; all 55 national enrichment campaign verifiers pass with zero failures. Hosted-preview checks remain pending.
 - Working branch: `codex/boise-evidence-gate`, stacked on `codex/chesapeake-bay-evidence-gate`
-- Pull request: pending; base draft PR #31 remains `https://github.com/Buildrbear/auditmap/pull/31`
+- Pull request: draft PR #32, stacked on Chesapeake Bay draft PR #31: `https://github.com/Buildrbear/auditmap/pull/32`
 - Outcome: Ann Morrison Park and Kathryn Albertson Park clear the four-photo parent gate with 26 current source-backed visitor answers. Kathryn Albertson's incomplete address and stale dog-prohibition claim are corrected. No standalone destination clears the combined exact-photo, exact-position, and complete-profile gate, so both releases remain parent-only.
 - Preview: pending for the Boise candidate. Chesapeake Bay's prior hosted preview evidence remains recorded in its handoff.
 - Production status: not merged or promoted to production.

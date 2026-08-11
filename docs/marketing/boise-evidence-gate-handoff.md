@@ -6,7 +6,7 @@
 - Assignment: active AuditMap nationwide enrichment continuation
 - OpenTask assignment: not separately supplied
 - GitHub issue: not separately supplied
-- Pull request: pending; this branch is stacked on Chesapeake Bay draft PR #31
+- Pull request: draft PR #32, stacked on Chesapeake Bay draft PR #31: `https://github.com/Buildrbear/auditmap/pull/32`
 - Checked: 2026-08-11
 - Production publication: not performed
 
