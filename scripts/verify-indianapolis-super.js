@@ -6,30 +6,38 @@ const fs = require("node:fs"),
   places = require("../data/generated/launch-map-places.json"),
   redirects = require("../vercel.json").redirects || [],
   expected = {
-    "launch-in-indianapolis-eagle-creek-park": [
-      "eagle-creek-ornithology-center",
+    "launch-in-indianapolis-garfield-park": [
+      "garfield-park-conservatory",
+      "sunken-garden",
+      "garfield-park-arts-center",
     ],
-    "launch-in-indianapolis-monon-trail": [],
+    "launch-in-indianapolis-holliday-park": [
+      "holliday-park-ruins",
+      "holliday-park-nature-center",
+    ],
+  },
+  expectedIds = {
+    "garfield-park-conservatory": "9392a85e-e918-44bc-a430-62be03315249",
+    "sunken-garden": "0db69cbf-2877-448a-8318-7bc9e5be2645",
+    "garfield-park-arts-center": "0e48a97e-759a-4cea-99a8-013d51f300ca",
+    "holliday-park-ruins": "2fa4a148-b725-4b43-b890-4742887343a9",
+    "holliday-park-nature-center": "2e91c8d3-2494-41ca-9e07-a7eeeb18cbf3",
   },
   retired = {
-    "eagle-creek-park": [
-      "earth-discovery-center",
-      "eagle-creek-beach",
-      "eagle-creek-marina",
-      "lilly-lake",
-      "pin-oak-trail",
-      "canine-companion-zone",
-      "go-ape-eagle-creek",
+    "garfield-park": [
+      "garfield-park-pagoda",
+      "garfield-park-aquatic-center",
+      "macallister-amphitheater",
+      "burrello-family-center",
+      "pleasant-run-trail",
     ],
-    "monon-trail": [
-      "monon-trail-10th-street",
-      "frank-and-judy-o-bannon-park",
-      "fall-creek-greenway-connection",
-      "indiana-state-fairgrounds-crossing",
-      "canterbury-park",
-      "broad-ripple-village",
-      "marott-park",
-      "monon-trail-96th-street",
+    "holliday-park": [
+      "holliday-park-playground",
+      "holliday-park-trails",
+      "white-river-overlook",
+      "holliday-park-arboretum",
+      "holliday-park-prairie",
+      "holliday-park-rock-garden",
     ],
   },
   fail = [];
@@ -86,6 +94,7 @@ for (const scope of currentBatch) {
     scope.name,
   );
   for (const feature of place.features || []) {
+    need(feature.id === expectedIds[feature.slug], `${scope.name}/${feature.name}: stable ID changed`);
     need(Number.isFinite(feature.latitude) && Number.isFinite(feature.longitude), `${scope.name}/${feature.name}: coordinates missing`);
     need(!/approximate/i.test(feature.details?.positionQuality || ""), `${scope.name}/${feature.name}: approximate coordinate retained`);
     need(feature.details?.coordinateSource?.startsWith("https://"), `${scope.name}/${feature.name}: coordinate source missing`);
@@ -118,5 +127,5 @@ if (fail.length) {
   process.exit(1);
 }
 console.log(
-  "Verified 2 Indianapolis guides, 1 evidence-cleared destination, 8 reusable photos and 15 retired-route redirects.",
+  "Verified 2 Indianapolis guides, 5 evidence-cleared destinations, 8 reusable photos and 11 retired-route redirects.",
 );

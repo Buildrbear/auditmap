@@ -220,6 +220,16 @@ function researchQueue(p) {
     "Frank and Judy O'Bannon Park, Canterbury Park and Marott Park remain separate parks linked from parent guidance; they require their own complete parent records rather than Monon Trail subsites.",
     "Canterbury Park construction is expected through late 2026, so the guide avoids promising that adjacent facilities or access conditions are available."
   ];
+  if (p.id.endsWith("garfield-park")) return [
+    "The Pagoda, aquatic center, MacAllister Amphitheater, Burrello Family Center and Pleasant Run Trail remain parent guidance until each has exact reviewed coordinates, a complete destination profile and matching reusable photography.",
+    "The Burrello Family Center facility page and parent park page publish conflicting schedules; the parent page's temporary weekday-only guidance is retained as the safer current note, and no destination page is published.",
+    "The new playground near the Pagoda is scheduled for fall 2026 completion, so the guide does not publish a playground destination or promise construction is complete."
+  ];
+  if (p.id.endsWith("holliday-park")) return [
+    "The playground, generic trails, White River overlook, arboretum, prairie and rock garden remain parent guidance until each has exact reviewed coordinates, a complete destination profile and matching reusable photography.",
+    "The replacement playground opened in November 2025; older Commons playground photography is deliberately excluded because it depicts the former structure.",
+    "The Nature Center destination uses the reviewed building centroid rather than the interior photograph's inconsistent camera GPS; the image remains valid only as destination-matched interior evidence."
+  ];
   return [];
 }
 (() => {

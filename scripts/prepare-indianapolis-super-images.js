@@ -26,7 +26,15 @@ const altText = (name, label) => {
     "Monon Trail/Monon Rail-Trail Indianapolis.jpg": "Monon Rail-Trail sign beside the paved, tree-lined trail in Indianapolis",
     "Monon Trail/Monon Trail bridge in Indianapolis.jpg": "Monon Trail bridge crossing an Indianapolis street",
     "Monon Trail/Indianapolis Monon Trail Trestle over White River.jpg": "Red-railed Monon Trail trestle crossing the White River",
-    "Monon Trail/Shaded Indianapolis Monon Trail.jpg": "Shaded paved section of the Monon Trail beneath mature trees"
+    "Monon Trail/Shaded Indianapolis Monon Trail.jpg": "Shaded paved section of the Monon Trail beneath mature trees",
+    "Garfield Park/Garfield Park Conservatory and Sunken Gardens (1).jpg": "Formal path through Garfield Park's Sunken Garden toward the Conservatory",
+    "Garfield Park/Garfield Conservatory 046-20.jpg": "Orange and white koi swimming in the Garfield Park Conservatory pond",
+    "Garfield Park/Garfield Park Sunken Gardens (4).jpg": "Restored fountains, flower planters and formal lawns in Garfield Park's Sunken Garden",
+    "Garfield Park/Garfield Parks Arts Center.jpg": "Eastern exterior and colorful entrance of the Garfield Park Arts Center",
+    "Holliday Park/\"The Ruins\" at Holliday Park, Indianapolis, Indiana.jpg": "Brick, stone columns and carved figures of the Holliday Park Ruins surrounded by summer gardens",
+    "Holliday Park/Holliday Park Nature Center - 30363038234.jpg": "Interactive Cricket Frog Call exhibit inside Habitat Hall at the Holliday Park Nature Center",
+    "Holliday Park/Take the path to the roots (3527135076).jpg": "Wooden footbridge and exposed tree roots on a wooded Holliday Park trail",
+    "Holliday Park/Holliday Park and Nature Center - July 2017 - Bart Everson 05.jpg": "High water along the wooded White River edge at Holliday Park"
   };
   return reviewed[key] || `${name} in Indianapolis`;
 };

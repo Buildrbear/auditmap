@@ -248,7 +248,18 @@
     { "source": "/us/in/indianapolis/parks/monon-trail/canterbury-park", "destination": "/us/in/indianapolis/parks/monon-trail", "permanent": true },
     { "source": "/us/in/indianapolis/parks/monon-trail/broad-ripple-village", "destination": "/us/in/indianapolis/parks/monon-trail", "permanent": true },
     { "source": "/us/in/indianapolis/parks/monon-trail/marott-park", "destination": "/us/in/indianapolis/parks/monon-trail", "permanent": true },
-    { "source": "/us/in/indianapolis/parks/monon-trail/monon-trail-96th-street", "destination": "/us/in/indianapolis/parks/monon-trail", "permanent": true }
+    { "source": "/us/in/indianapolis/parks/monon-trail/monon-trail-96th-street", "destination": "/us/in/indianapolis/parks/monon-trail", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/garfield-park/garfield-park-pagoda", "destination": "/us/in/indianapolis/parks/garfield-park", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/garfield-park/garfield-park-aquatic-center", "destination": "/us/in/indianapolis/parks/garfield-park", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/garfield-park/macallister-amphitheater", "destination": "/us/in/indianapolis/parks/garfield-park", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/garfield-park/burrello-family-center", "destination": "/us/in/indianapolis/parks/garfield-park", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/garfield-park/pleasant-run-trail", "destination": "/us/in/indianapolis/parks/garfield-park", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/holliday-park/holliday-park-playground", "destination": "/us/in/indianapolis/parks/holliday-park", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/holliday-park/holliday-park-trails", "destination": "/us/in/indianapolis/parks/holliday-park", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/holliday-park/white-river-overlook", "destination": "/us/in/indianapolis/parks/holliday-park", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/holliday-park/holliday-park-arboretum", "destination": "/us/in/indianapolis/parks/holliday-park", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/holliday-park/holliday-park-prairie", "destination": "/us/in/indianapolis/parks/holliday-park", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/holliday-park/holliday-park-rock-garden", "destination": "/us/in/indianapolis/parks/holliday-park", "permanent": true }
   ],
   "functions": {
     "api/moderation.js": { "maxDuration": 60 }
