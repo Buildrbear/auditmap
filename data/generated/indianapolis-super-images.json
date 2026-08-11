@@ -1,47 +1,6 @@
 {
-  "checkedAt": "2026-08-06",
+  "checkedAt": "2026-08-11",
   "places": {
-    "launch-in-indianapolis-white-river-state-park": {
-      "name": "White River State Park",
-      "images": [
-        {
-          "url": "/assets/parks/indianapolis-super/white-river-state-park/01-white-river-state-park-riverfront.webp",
-          "source": "https://whiteriverstatepark.org/visit/",
-          "author": "White River State Park",
-          "license": "Official source image",
-          "alt": "White River State Park in the Indianapolis area",
-          "width": 1600,
-          "height": 914
-        },
-        {
-          "url": "/assets/parks/indianapolis-super/white-river-state-park/02-white-river-state-park-amphitheater.webp",
-          "source": "https://whiteriverstatepark.org/visit/",
-          "author": "White River State Park",
-          "license": "Official source image",
-          "alt": "White River State Park in the Indianapolis area",
-          "width": 1600,
-          "height": 914
-        },
-        {
-          "url": "/assets/parks/indianapolis-super/white-river-state-park/03-white-river-state-park-greenspace.webp",
-          "source": "https://whiteriverstatepark.org/visit/",
-          "author": "White River State Park",
-          "license": "Official source image",
-          "alt": "White River State Park in the Indianapolis area",
-          "width": 1600,
-          "height": 914
-        },
-        {
-          "url": "/assets/parks/indianapolis-super/white-river-state-park/04-downtown-canal-walk.webp",
-          "source": "https://whiteriverstatepark.org/visit/",
-          "author": "White River State Park",
-          "license": "Official source image",
-          "alt": "White River State Park in the Indianapolis area",
-          "width": 1600,
-          "height": 914
-        }
-      ]
-    },
     "launch-in-indianapolis-eagle-creek-park": {
       "name": "Eagle Creek Park",
       "images": [
@@ -50,7 +9,7 @@
           "source": "https://commons.wikimedia.org/wiki/File%3AEagle_Creek_Park_and_Reservoir_2022_aerial.jpg",
           "author": "Doc Searls",
           "license": "CC BY 2.0",
-          "alt": "Eagle Creek Park in the Indianapolis area",
+          "alt": "Aerial view of Eagle Creek Reservoir surrounded by forest in autumn",
           "width": 1600,
           "height": 1000
         },
@@ -59,7 +18,7 @@
           "source": "https://commons.wikimedia.org/wiki/File%3AEagle_Creek_Park_nature_center.jpg",
           "author": "Rogerd",
           "license": "CC BY-SA 3.0",
-          "alt": "Eagle Creek Park in the Indianapolis area",
+          "alt": "Snow-covered stone exterior of the Eagle Creek Park Ornithology Center among mature trees",
           "width": 1000,
           "height": 664
         },
@@ -68,7 +27,7 @@
           "source": "https://commons.wikimedia.org/wiki/File%3AEagle_Creek_Park_02.jpg",
           "author": "jonnyabcde",
           "license": "CC BY 2.0",
-          "alt": "Eagle Creek Park in the Indianapolis area",
+          "alt": "Wooded shoreline and water at Eagle Creek Park",
           "width": 1600,
           "height": 1000
         },
@@ -77,214 +36,9 @@
           "source": "https://commons.wikimedia.org/wiki/File%3AEagle_Creek_Park_in_the_Fall_03.jpg",
           "author": "Paula Henry",
           "license": "CC BY 2.0",
-          "alt": "Eagle Creek Park in the Indianapolis area",
+          "alt": "Autumn trees and trail scenery at Eagle Creek Park",
           "width": 800,
           "height": 533
-        }
-      ]
-    },
-    "launch-in-indianapolis-garfield-park": {
-      "name": "Garfield Park",
-      "images": [
-        {
-          "url": "/assets/parks/indianapolis-super/garfield-park/01-garfield-park-conservatory.webp",
-          "source": "https://parks.indy.gov/parks/garfield-park/",
-          "author": "Indy Parks and Recreation",
-          "license": "Official source image",
-          "alt": "Garfield Park in the Indianapolis area",
-          "width": 1200,
-          "height": 800
-        },
-        {
-          "url": "/assets/parks/indianapolis-super/garfield-park/02-garfield-park-conservatory-interior.webp",
-          "source": "https://parks.indy.gov/parks/garfield-park/",
-          "author": "Indy Parks and Recreation",
-          "license": "Official source image",
-          "alt": "Garfield Park in the Indianapolis area",
-          "width": 1600,
-          "height": 1000
-        },
-        {
-          "url": "/assets/parks/indianapolis-super/garfield-park/03-garfield-park-conservatory-indy-jpg.webp",
-          "source": "https://commons.wikimedia.org/wiki/File%3AGarfield_Park_Conservatory_Indy.JPG",
-          "author": "C. Bedford Crenshaw, aka Bedford at en.wikipedia",
-          "license": "Attribution",
-          "alt": "Garfield Park in the Indianapolis area",
-          "width": 1600,
-          "height": 1000
-        },
-        {
-          "url": "/assets/parks/indianapolis-super/garfield-park/04-garfield-conservatory-045-19-jpg.webp",
-          "source": "https://commons.wikimedia.org/wiki/File%3AGarfield_Conservatory_045-19.jpg",
-          "author": "Paul J Everett",
-          "license": "CC BY 2.0",
-          "alt": "Garfield Park in the Indianapolis area",
-          "width": 898,
-          "height": 1000
-        }
-      ]
-    },
-    "launch-in-indianapolis-holliday-park": {
-      "name": "Holliday Park",
-      "images": [
-        {
-          "url": "/assets/parks/indianapolis-super/holliday-park/01-holliday-park-ruins.webp",
-          "source": "https://parks.indy.gov/parks/holliday-park/",
-          "author": "Indy Parks and Recreation",
-          "license": "Official source image",
-          "alt": "Holliday Park in the Indianapolis area",
-          "width": 1600,
-          "height": 650
-        },
-        {
-          "url": "/assets/parks/indianapolis-super/holliday-park/02-holliday-park-nature.webp",
-          "source": "https://parks.indy.gov/parks/holliday-park/",
-          "author": "Indy Parks and Recreation",
-          "license": "Official source image",
-          "alt": "Holliday Park in the Indianapolis area",
-          "width": 1600,
-          "height": 1000
-        },
-        {
-          "url": "/assets/parks/indianapolis-super/holliday-park/03-holliday-park-gardens.webp",
-          "source": "https://parks.indy.gov/parks/holliday-park/",
-          "author": "Indy Parks and Recreation",
-          "license": "Official source image",
-          "alt": "Holliday Park in the Indianapolis area",
-          "width": 1600,
-          "height": 1000
-        },
-        {
-          "url": "/assets/parks/indianapolis-super/holliday-park/04-holliday-park-fountains.webp",
-          "source": "https://parks.indy.gov/parks/holliday-park/",
-          "author": "Indy Parks and Recreation",
-          "license": "Official source image",
-          "alt": "Holliday Park in the Indianapolis area",
-          "width": 1600,
-          "height": 1000
-        }
-      ]
-    },
-    "launch-in-indianapolis-fort-harrison-state-park": {
-      "name": "Fort Harrison State Park",
-      "images": [
-        {
-          "url": "/assets/parks/indianapolis-super/fort-harrison-state-park/01-fort-harrison-state-park-lake-and-woods.webp",
-          "source": "https://www.in.gov/dnr/state-parks/parks-lakes/fort-harrison-state-park/",
-          "author": "Indiana Department of Natural Resources",
-          "license": "Official source image",
-          "alt": "Fort Harrison State Park in the Indianapolis area",
-          "width": 1400,
-          "height": 600
-        },
-        {
-          "url": "/assets/parks/indianapolis-super/fort-harrison-state-park/02-fort-ben-fall-creek-boardwalk-jpg.webp",
-          "source": "https://commons.wikimedia.org/wiki/File%3AFort_Ben_-_Fall_Creek_Boardwalk.jpg",
-          "author": "Mingusboodle",
-          "license": "Public domain",
-          "alt": "Fort Harrison State Park in the Indianapolis area",
-          "width": 1600,
-          "height": 1000
-        },
-        {
-          "url": "/assets/parks/indianapolis-super/fort-harrison-state-park/03-trail-at-fort-harrison-sp-jpg.webp",
-          "source": "https://commons.wikimedia.org/wiki/File%3ATrail_at_Fort_Harrison_SP.jpg",
-          "author": "Nyttend",
-          "license": "Public domain",
-          "alt": "Fort Harrison State Park in the Indianapolis area",
-          "width": 1600,
-          "height": 1000
-        },
-        {
-          "url": "/assets/parks/indianapolis-super/fort-harrison-state-park/04-fort-ben-bike-entrance-jpg.webp",
-          "source": "https://commons.wikimedia.org/wiki/File%3AFort_Ben_-_bike_entrance.jpg",
-          "author": "Mingusboodle",
-          "license": "Public domain",
-          "alt": "Fort Harrison State Park in the Indianapolis area",
-          "width": 1600,
-          "height": 1000
-        }
-      ]
-    },
-    "launch-in-indianapolis-riverside-regional-park": {
-      "name": "Riverside Regional Park",
-      "images": [
-        {
-          "url": "/assets/parks/indianapolis-super/riverside-regional-park/01-riverside-promenade.webp",
-          "source": "https://parks.indy.gov/parks/riverside-regional-park/",
-          "author": "Indy Parks and Recreation",
-          "license": "Official source image",
-          "alt": "Riverside Regional Park in the Indianapolis area",
-          "width": 1600,
-          "height": 1000
-        },
-        {
-          "url": "/assets/parks/indianapolis-super/riverside-regional-park/02-riverside-promenade-recreation.webp",
-          "source": "https://parks.indy.gov/parks/riverside-regional-park/",
-          "author": "Indy Parks and Recreation",
-          "license": "Official source image",
-          "alt": "Riverside Regional Park in the Indianapolis area",
-          "width": 1600,
-          "height": 1000
-        },
-        {
-          "url": "/assets/parks/indianapolis-super/riverside-regional-park/03-riverside-adventure-park-playground.webp",
-          "source": "https://parks.indy.gov/parks/riverside-regional-park/",
-          "author": "Indy Parks and Recreation",
-          "license": "Official source image",
-          "alt": "Riverside Regional Park in the Indianapolis area",
-          "width": 1600,
-          "height": 1000
-        },
-        {
-          "url": "/assets/parks/indianapolis-super/riverside-regional-park/04-riverside-adventure-park-trails.webp",
-          "source": "https://parks.indy.gov/parks/riverside-regional-park/",
-          "author": "Indy Parks and Recreation",
-          "license": "Official source image",
-          "alt": "Riverside Regional Park in the Indianapolis area",
-          "width": 1600,
-          "height": 1000
-        }
-      ]
-    },
-    "launch-in-indianapolis-broad-ripple-park": {
-      "name": "Broad Ripple Park",
-      "images": [
-        {
-          "url": "/assets/parks/indianapolis-super/broad-ripple-park/01-broad-ripple-park-family-center.webp",
-          "source": "https://parks.indy.gov/new-broad-ripple-park-family-center-makes-its-debut/",
-          "author": "Indy Parks and Recreation",
-          "license": "Official source image",
-          "alt": "Broad Ripple Park in the Indianapolis area",
-          "width": 1600,
-          "height": 650
-        },
-        {
-          "url": "/assets/parks/indianapolis-super/broad-ripple-park/02-broad-ripple-park-pool.webp",
-          "source": "https://parks.indy.gov/parks/broad-ripple-park/",
-          "author": "Indy Parks and Recreation",
-          "license": "Official source image",
-          "alt": "Broad Ripple Park in the Indianapolis area",
-          "width": 1600,
-          "height": 1000
-        },
-        {
-          "url": "/assets/parks/indianapolis-super/broad-ripple-park/03-broad-ripple-park-woodland-picnic-area.webp",
-          "source": "https://parks.indy.gov/parks/broad-ripple-park/",
-          "author": "Indy Parks and Recreation",
-          "license": "Official source image",
-          "alt": "Broad Ripple Park in the Indianapolis area",
-          "width": 1365,
-          "height": 1000
-        },
-        {
-          "url": "/assets/parks/indianapolis-super/broad-ripple-park/04-broad-ripple-park-historic-pool.webp",
-          "source": "https://parks.indy.gov/parks/broad-ripple-park/",
-          "author": "Indy Parks and Recreation",
-          "license": "Official source image",
-          "alt": "Broad Ripple Park in the Indianapolis area",
-          "width": 1000,
-          "height": 653
         }
       ]
     },
@@ -296,7 +50,7 @@
           "source": "https://commons.wikimedia.org/wiki/File%3AMonon_Rail-Trail_Indianapolis.jpg",
           "author": "H. Michael Miley",
           "license": "CC BY-SA 2.0",
-          "alt": "Monon Trail in the Indianapolis area",
+          "alt": "Monon Rail-Trail sign beside the paved, tree-lined trail in Indianapolis",
           "width": 1600,
           "height": 1000
         },
@@ -305,7 +59,7 @@
           "source": "https://commons.wikimedia.org/wiki/File%3AMonon_Trail_bridge_in_Indianapolis.jpg",
           "author": "Dmytro Sergiyenko",
           "license": "CC BY-SA 4.0",
-          "alt": "Monon Trail in the Indianapolis area",
+          "alt": "Monon Trail bridge crossing an Indianapolis street",
           "width": 1600,
           "height": 1000
         },
@@ -314,7 +68,7 @@
           "source": "https://commons.wikimedia.org/wiki/File%3AIndianapolis_Monon_Trail_Trestle_over_White_River.jpg",
           "author": "Eric Fischer",
           "license": "CC BY 2.0",
-          "alt": "Monon Trail in the Indianapolis area",
+          "alt": "Red-railed Monon Trail trestle crossing the White River",
           "width": 1600,
           "height": 1000
         },
@@ -323,7 +77,7 @@
           "source": "https://commons.wikimedia.org/wiki/File%3AShaded_Indianapolis_Monon_Trail.jpg",
           "author": "Eric Fischer",
           "license": "CC BY 2.0",
-          "alt": "Monon Trail in the Indianapolis area",
+          "alt": "Shaded paved section of the Monon Trail beneath mature trees",
           "width": 1600,
           "height": 1000
         }

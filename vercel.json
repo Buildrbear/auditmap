@@ -233,7 +233,22 @@
     { "source": "/us/ny/new-york-city/parks/central-park/belvedere-castle", "destination": "/us/ny/new-york-city/parks/central-park/belvedere-shakespeare-turtle-pond", "permanent": true },
     { "source": "/us/ny/new-york-city/parks/central-park/blockhouse-no-1", "destination": "/us/ny/new-york-city/parks/central-park/north-woods-blockhouse", "permanent": true },
     { "source": "/us/ny/new-york-city/parks/central-park/cleopatra-s-needle", "destination": "/us/ny/new-york-city/parks/central-park/obelisk-metropolitan-museum", "permanent": true },
-    { "source": "/us/ny/new-york-city/parks/central-park/shakespeare-garden", "destination": "/us/ny/new-york-city/parks/central-park/belvedere-shakespeare-turtle-pond", "permanent": true }
+    { "source": "/us/ny/new-york-city/parks/central-park/shakespeare-garden", "destination": "/us/ny/new-york-city/parks/central-park/belvedere-shakespeare-turtle-pond", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/eagle-creek-park/earth-discovery-center", "destination": "/us/in/indianapolis/parks/eagle-creek-park", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/eagle-creek-park/eagle-creek-beach", "destination": "/us/in/indianapolis/parks/eagle-creek-park", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/eagle-creek-park/eagle-creek-marina", "destination": "/us/in/indianapolis/parks/eagle-creek-park", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/eagle-creek-park/lilly-lake", "destination": "/us/in/indianapolis/parks/eagle-creek-park", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/eagle-creek-park/pin-oak-trail", "destination": "/us/in/indianapolis/parks/eagle-creek-park", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/eagle-creek-park/canine-companion-zone", "destination": "/us/in/indianapolis/parks/eagle-creek-park", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/eagle-creek-park/go-ape-eagle-creek", "destination": "/us/in/indianapolis/parks/eagle-creek-park", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/monon-trail/monon-trail-10th-street", "destination": "/us/in/indianapolis/parks/monon-trail", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/monon-trail/frank-and-judy-o-bannon-park", "destination": "/us/in/indianapolis/parks/monon-trail", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/monon-trail/fall-creek-greenway-connection", "destination": "/us/in/indianapolis/parks/monon-trail", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/monon-trail/indiana-state-fairgrounds-crossing", "destination": "/us/in/indianapolis/parks/monon-trail", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/monon-trail/canterbury-park", "destination": "/us/in/indianapolis/parks/monon-trail", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/monon-trail/broad-ripple-village", "destination": "/us/in/indianapolis/parks/monon-trail", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/monon-trail/marott-park", "destination": "/us/in/indianapolis/parks/monon-trail", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/monon-trail/monon-trail-96th-street", "destination": "/us/in/indianapolis/parks/monon-trail", "permanent": true }
   ],
   "functions": {
     "api/moderation.js": { "maxDuration": 60 }

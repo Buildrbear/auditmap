@@ -5,6 +5,9 @@ const fs = require("node:fs"),
   root = path.resolve(__dirname, ".."),
   campaign = require("../data/indianapolis-super-enrichment-campaign.json"),
   research = require("../data/indianapolis-photo-research.json"),
+  currentIds = new Set(
+    campaign.places.filter((place) => place.currentBatch).map((place) => place.id),
+  ),
   names = new Map(campaign.places.map((p) => [p.id, p.name])),
   slug = (v) =>
     String(v)
@@ -13,6 +16,20 @@ const fs = require("node:fs"),
       .replace(/[^a-z0-9]+/g, "-")
       .replace(/^-|-$/g, ""),
   wait = (ms) => new Promise((r) => setTimeout(r, ms));
+const altText = (name, label) => {
+  const key = `${name}/${label}`;
+  const reviewed = {
+    "Eagle Creek Park/Eagle Creek Park and Reservoir 2022 aerial.jpg": "Aerial view of Eagle Creek Reservoir surrounded by forest in autumn",
+    "Eagle Creek Park/Eagle Creek Park nature center.jpg": "Snow-covered stone exterior of the Eagle Creek Park Ornithology Center among mature trees",
+    "Eagle Creek Park/Eagle Creek Park 02.jpg": "Wooded shoreline and water at Eagle Creek Park",
+    "Eagle Creek Park/Eagle Creek Park in the Fall 03.jpg": "Autumn trees and trail scenery at Eagle Creek Park",
+    "Monon Trail/Monon Rail-Trail Indianapolis.jpg": "Monon Rail-Trail sign beside the paved, tree-lined trail in Indianapolis",
+    "Monon Trail/Monon Trail bridge in Indianapolis.jpg": "Monon Trail bridge crossing an Indianapolis street",
+    "Monon Trail/Indianapolis Monon Trail Trestle over White River.jpg": "Red-railed Monon Trail trestle crossing the White River",
+    "Monon Trail/Shaded Indianapolis Monon Trail.jpg": "Shaded paved section of the Monon Trail beneath mature trees"
+  };
+  return reviewed[key] || `${name} in Indianapolis`;
+};
 async function commons(file) {
   if (typeof file === "object") return file;
   const q = new URLSearchParams({
@@ -67,7 +84,7 @@ async function bytes(url, label) {
 }
 (async () => {
   const out = { checkedAt: research.checkedAt, places: {} };
-  for (const [id, e] of Object.entries(research.places)) {
+  for (const [id, e] of Object.entries(research.places).filter(([id]) => currentIds.has(id))) {
     const name = names.get(id),
       dir = path.join(root, "assets/parks/indianapolis-super", slug(name));
     fs.mkdirSync(dir, { recursive: true });
@@ -96,7 +113,7 @@ async function bytes(url, label) {
         source: rec.source,
         author: rec.author,
         license: rec.license,
-        alt: `${name} in the Indianapolis area`,
+        alt: altText(name, rec.label),
         width: m.width,
         height: m.height,
       });
@@ -114,4 +131,3 @@ async function bytes(url, label) {
   console.error(e.stack || e);
   process.exit(1);
 });
-

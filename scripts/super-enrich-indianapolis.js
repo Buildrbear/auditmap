@@ -4,7 +4,11 @@ const fs = require("node:fs"),
   crypto = require("node:crypto"),
   root = path.resolve(__dirname, ".."),
   campaign = require("../data/indianapolis-super-enrichment-campaign.json"),
-  facts = require("../data/indianapolis-visitor-facts.json").places,
+  legacyFacts = require("../data/indianapolis-visitor-facts.json").places,
+  factsDocument = require("../data/indianapolis-evidence-visitor-facts.json"),
+  facts = { ...legacyFacts, ...factsDocument.places },
+  featureFactsDocument = require("../data/indianapolis-feature-visitor-facts.json"),
+  featureFacts = featureFactsDocument.places,
   galleries = require("../data/generated/indianapolis-super-images.json"),
   coordinates =
     require("../data/generated/indianapolis-feature-coordinates.json").places,
@@ -48,14 +52,14 @@ function schedule(p) {
   if (p.id.endsWith("white-river-state-park")) return daily("05:00", "23:00");
   return false;
 }
-function ans(p, k, q, a) {
+function ans(p, k, q, a, metadata = {}) {
   return {
     intentKey: k,
     question: q,
     answer: a,
-    sourceLabel: p.operator,
-    source: p.source,
-    verifiedAt: checkedAt,
+    sourceLabel: metadata.sourceLabel || p.operator,
+    source: metadata.source || p.source,
+    verifiedAt: metadata.verifiedAt || p.checkedAt || factsDocument.checkedAt,
     freshnessClass: ["hours", "parking", "need-to-know", "weather"].includes(k)
       ? "fast"
       : "slow",
@@ -63,6 +67,10 @@ function ans(p, k, q, a) {
   };
 }
 function answers(p) {
+  const sourceFor = (key) => ({
+    ...(p.answerSources?.[key] ? { source: p.answerSources[key] } : {}),
+    ...(p.answerSourceLabels?.[key] ? { sourceLabel: p.answerSourceLabels[key] } : {}),
+  });
   return [
     ["hours", `When is ${p.name} open?`, p.hours],
     ["parking", `Where should I park for ${p.name}?`, p.parking],
@@ -77,9 +85,9 @@ function answers(p) {
     [
       "weather",
       `What weather should I check before visiting ${p.name}?`,
-      `Check current Indianapolis-area weather and operator alerts. White River and Fall Creek flooding, reservoir conditions, heat, storms, snow, ice and high winds can close trails or facilities independently.`,
+      p.weather || `Check current Indianapolis-area weather and operator alerts. White River and Fall Creek flooding, reservoir conditions, heat, storms, snow, ice and high winds can close trails or facilities independently.`,
     ],
-  ].map((v) => ans(p, ...v));
+  ].map((v) => ans(p, ...v, sourceFor(v[0])));
 }
 function note(name, parent) {
   const n = name.toLowerCase();
@@ -131,43 +139,44 @@ function feature(p, name, i, images) {
   const s = slug(name),
     id = stable(p.id, s),
     point = coordinates[p.id]?.[s],
-    description = note(name, p.name);
+    specific = featureFacts[p.id]?.[s],
+    displayName = specific?.name || name,
+    description = specific?.description || note(name, p.name);
   if (!point) throw new Error(`${p.name}/${name}: coordinate missing`);
-  const base = images[featureImageIndex(p, name, i) % images.length],
+  if (featureFacts[p.id] && !specific) throw new Error(`${p.name}/${name}: destination-specific facts missing`);
+  const base = images[specific?.imageIndex ?? featureImageIndex(p, name, i) % images.length],
     image = {
       ...base,
       featureId: id,
       latitude: point.latitude,
       longitude: point.longitude,
-      alt: `${name} at ${p.name}`,
+      alt: specific?.imageAlt || `${displayName} at ${p.name}`,
     },
-    separateHours = /(zoo|museum|hall of champions|center|beach|marina|go ape|conservatory|garden|aquatic|amphitheater|family center|dog park|canine|golf|pool|indoor|visitor center|sledding|playground|courts)/i.test(name),
-    featureHours = separateHours
-      ? `${name} keeps its own admission, operating, seasonal, staffing, event, maintenance, or weather schedule. Check the cited official source and current operator notices before leaving.`
-      : p.hours,
+    featureHours = specific?.hours || p.hours,
+    sourceFor = (key) => ({
+      sourceLabel: specific?.answerSourceLabels?.[key] || specific?.sourceLabel || p.operator,
+      source: specific?.answerSources?.[key] || specific?.source || p.source,
+      verifiedAt: specific ? featureFactsDocument.checkedAt : p.checkedAt || checkedAt,
+    }),
     qs = [
-      ["location", `Where exactly is ${name}?`, description],
-      ["parking", `Where should I park for ${name}?`, p.parking],
-      [
-        "hours",
-        `When is ${name} open?`,
-        featureHours,
-      ],
-      ["restroom", `Are there restrooms near ${name}?`, p.restrooms],
-      ["fees", `Is ${name} free?`, p.cost],
-      ["accessibility", `How accessible is ${name}?`, p.accessibility],
-      ["dogs", `Are dogs allowed at ${name}?`, p.dogs],
-      ["family", `Is ${name} good for children?`, p.family],
+      ["location", `Where exactly is ${displayName}?`, specific?.location || description],
+      ["parking", `Where should I park for ${displayName}?`, specific?.parking || p.parking],
+      ["hours", `When is ${displayName} open?`, featureHours],
+      ["restroom", `Are there restrooms near ${displayName}?`, specific?.restrooms || p.restrooms],
+      ["fees", `Is ${displayName} free?`, specific?.fees || p.cost],
+      ["accessibility", `How accessible is ${displayName}?`, specific?.accessibility || p.accessibility],
+      ["dogs", `Are dogs allowed at ${displayName}?`, specific?.dogs || p.dogs],
+      ["family", `Is ${displayName} good for children?`, specific?.family || p.family],
       [
         "need-to-know",
-        `What should I know before visiting ${name}?`,
-        `${description} ${p.need}`,
+        `What should I know before visiting ${displayName}?`,
+        specific?.need || `${description} ${p.need}`,
       ],
-    ].map((v) => ans(p, ...v));
+    ].map((v) => ans(p, ...v, sourceFor(v[0])));
   return {
     id,
     slug: s,
-    name,
+    name: displayName,
     feature_type: "destination",
     description,
     latitude: point.latitude,
@@ -175,16 +184,16 @@ function feature(p, name, i, images) {
     details: {
       category: "destination",
       includeInParentGallery: true,
-      address: p.address,
+      address: specific?.address || p.address,
       hours: featureHours,
-      hoursSchedule: separateHours ? false : schedule(p),
-      cost: p.cost,
-      accessibility: p.accessibility,
+      hoursSchedule: false,
+      cost: specific?.fees || p.cost,
+      accessibility: specific?.accessibility || p.accessibility,
       locationContext: description,
-      needToKnow: p.need,
-      informationSourceLabel: p.operator,
-      informationSourceUrl: p.source,
-      informationCheckedAt: checkedAt,
+      needToKnow: specific?.need || p.need,
+      informationSourceLabel: specific?.sourceLabel || p.operator,
+      informationSourceUrl: specific?.source || p.source,
+      informationCheckedAt: specific ? featureFactsDocument.checkedAt : p.checkedAt || checkedAt,
       coordinateSource: point.source,
       positionQuality: point.displayName || `Reviewed placement within ${p.name}`,
       imageUrl: image.url,
@@ -195,23 +204,38 @@ function feature(p, name, i, images) {
       images: [image],
       searchAnswers: qs,
     },
-    source_label: p.operator,
-    source_url: p.source,
-    verified_at: checkedAt,
+    source_label: specific?.sourceLabel || p.operator,
+    source_url: specific?.source || p.source,
+    verified_at: specific ? featureFactsDocument.checkedAt : p.checkedAt || checkedAt,
   };
+}
+function researchQueue(p) {
+  if (p.id.endsWith("eagle-creek-park")) return [
+    "Earth Discovery Center, beach, marina, Lilly Lake, Pin Oak Trail, Canine Companion Zone and Go Ape remain parent guidance until each has a complete current profile, an exact reviewed arrival point and destination-specific reusable photography.",
+    "The Commons file titled Eagle Creek Park nature center is retained only for the Ornithology Center because its description, camera geotag and official address identify that building; it must not be reused for the Earth Discovery Center.",
+    "Swimming, rentals, dog-zone access and commercial attractions keep seasonal or separate operating rules; parent hours must not be inherited by those facilities."
+  ];
+  if (p.id.endsWith("monon-trail")) return [
+    "The former 10th Street, Fall Creek, State Fairgrounds, Broad Ripple and 96th Street cards describe access segments rather than independently profiled destinations and are retired to the parent guide.",
+    "Frank and Judy O'Bannon Park, Canterbury Park and Marott Park remain separate parks linked from parent guidance; they require their own complete parent records rather than Monon Trail subsites.",
+    "Canterbury Park construction is expected through late 2026, so the guide avoids promising that adjacent facilities or access conditions are available."
+  ];
+  return [];
 }
 (() => {
   const all = read("data/generated/all-subsites-ready.json"),
     pilot = read("data/generated/pilot-subsites-ready.json"),
+    launchPlaces = read("data/generated/launch-map-places.json"),
     national = read("data/parent-park-information-enrichment-national.json"),
     campaignParents = read(
       "data/parent-park-information-enrichment-campaign.json",
     ),
     locations = read("data/launch-location-overrides.json");
-  for (const scope of campaign.places) {
+  for (const scope of campaign.places.filter((place) => place.currentBatch)) {
     const p = { ...scope, ...facts[scope.id] },
+      placeCheckedAt = scope.checkedAt || factsDocument.checkedAt || checkedAt,
       images = galleries.places[p.id]?.images || [];
-    if (images.length < 4) throw new Error(`${p.name}: gallery missing`);
+    if (images.length < (scope.minImages || 4)) throw new Error(`${p.name}: gallery missing`);
     const record = {
       id: p.id,
       name: p.name,
@@ -235,7 +259,7 @@ function feature(p, name, i, images) {
       accessibility: p.accessibility,
       sourceLabel: p.operator,
       source: p.source,
-      verifiedAt: checkedAt,
+      verifiedAt: placeCheckedAt,
       operator: p.operator,
       image: images[0],
       images: images.slice(1),
@@ -243,7 +267,7 @@ function feature(p, name, i, images) {
       launchTier: "anchor",
       likelySubsites: true,
       publishStatus: "super-enriched",
-      researchQueue: [],
+      researchQueue: researchQueue(p),
       transit: p.transit,
       searchAnswers: answers(p),
       features: p.subsites.map((n, i) => feature(p, n, i, images)),
@@ -252,6 +276,9 @@ function feature(p, name, i, images) {
     };
     upsert(all, record);
     upsert(pilot, record);
+    const launchIndex = launchPlaces.findIndex((item) => item.id === record.id);
+    if (launchIndex >= 0) launchPlaces[launchIndex] = { ...launchPlaces[launchIndex], ...record };
+    else launchPlaces.push(record);
     const parent = {
       name: p.name,
       city: p.city,
@@ -270,7 +297,7 @@ function feature(p, name, i, images) {
       image: images[0],
       additionalImages: images.slice(1),
       replaceImages: true,
-      verifiedAt: checkedAt,
+      verifiedAt: placeCheckedAt,
     };
     national.parks[p.id] = parent;
     campaignParents.parks[p.id] = parent;
@@ -285,18 +312,19 @@ function feature(p, name, i, images) {
       displayName: `${p.name}, Indianapolis area, IN`,
       source: p.operator,
       sourceUrl: p.source,
-      checkedAt,
+      checkedAt: placeCheckedAt,
     };
     const li = locations.findIndex((x) => x.id === p.id);
     li >= 0 ? (locations[li] = loc) : locations.push(loc);
   }
   write("data/generated/all-subsites-ready.json", all);
   write("data/generated/pilot-subsites-ready.json", pilot);
+  write("data/generated/launch-map-places.json", launchPlaces);
   write("data/parent-park-information-enrichment-national.json", national);
   write(
     "data/parent-park-information-enrichment-campaign.json",
     campaignParents,
   );
   write("data/launch-location-overrides.json", locations);
-  console.log(`Super-enriched ${campaign.places.length} Indianapolis guides.`);
+  console.log(`Super-enriched ${campaign.places.filter((place) => place.currentBatch).length} Indianapolis guides.`);
 })();

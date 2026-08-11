@@ -4,85 +4,119 @@ const fs = require("node:fs"),
   root = path.resolve(__dirname, ".."),
   campaign = require("../data/indianapolis-super-enrichment-campaign.json"),
   places = require("../data/generated/launch-map-places.json"),
-  fail = [],
-  slug = (v) =>
-    String(v)
-      .toLowerCase()
-      .replace(/&/g, " and ")
-      .replace(/[^a-z0-9]+/g, "-")
-      .replace(/^-|-$/g, "");
-const need = (ok, msg) => {
-  if (!ok) fail.push(msg);
-};
-for (const scope of campaign.places) {
-  const p = places.find((x) => x.id === scope.id),
-    dir = path.join(root, "us/in/indianapolis/parks", slug(scope.name));
-  need(p, `${scope.name}: missing record`);
-  if (!p) continue;
-  need(
-    1 + (p.images?.length || 0) >= 4,
-    `${scope.name}: fewer than four photos`,
-  );
-  need(p.image?.url, `${scope.name}: hero missing`);
-  need(p.features?.length === 8, `${scope.name}: expected eight subsites`);
-  need(p.searchAnswers?.length >= 11, `${scope.name}: parent answers missing`);
-  const parentFile = path.join(dir, "index.html");
-  need(fs.existsSync(parentFile), `${scope.name}: parent page missing`);
-  if (fs.existsSync(parentFile)) {
-    const html = fs.readFileSync(parentFile, "utf8");
-    for (const value of [p.name, p.address, 'rel="canonical"', "What people ask"])
-      need(value && html.includes(value), `${scope.name}: raw HTML missing ${value}`);
+  redirects = require("../vercel.json").redirects || [],
+  expected = {
+    "launch-in-indianapolis-eagle-creek-park": [
+      "eagle-creek-ornithology-center",
+    ],
+    "launch-in-indianapolis-monon-trail": [],
+  },
+  retired = {
+    "eagle-creek-park": [
+      "earth-discovery-center",
+      "eagle-creek-beach",
+      "eagle-creek-marina",
+      "lilly-lake",
+      "pin-oak-trail",
+      "canine-companion-zone",
+      "go-ape-eagle-creek",
+    ],
+    "monon-trail": [
+      "monon-trail-10th-street",
+      "frank-and-judy-o-bannon-park",
+      "fall-creek-greenway-connection",
+      "indiana-state-fairgrounds-crossing",
+      "canterbury-park",
+      "broad-ripple-village",
+      "marott-park",
+      "monon-trail-96th-street",
+    ],
+  },
+  fail = [];
+
+const need = (ok, message) => {
+    if (!ok) fail.push(message);
+  },
+  isCommonsFilePage = (url) =>
+    typeof url === "string" &&
+    decodeURIComponent(url).includes("commons.wikimedia.org/wiki/File:"),
+  currentBatch = campaign.places.filter((place) => place.currentBatch),
+  htmlIncludes = (file, values, label) => {
+    need(fs.existsSync(file), `${label}: page missing`);
+    if (!fs.existsSync(file)) return;
+    const html = fs.readFileSync(file, "utf8").toLowerCase();
+    for (const value of values)
+      need(
+        value && html.includes(String(value).toLowerCase()),
+        `${label}: raw HTML missing ${value}`,
+      );
+  };
+
+need(currentBatch.length === 2, "Expected exactly two current-batch guides");
+for (const scope of currentBatch) {
+  const place = places.find((item) => item.id === scope.id),
+    parkSlug = scope.id.replace("launch-in-indianapolis-", ""),
+    directory = path.join(root, "us/in/indianapolis/parks", parkSlug),
+    expectedFeatures = expected[scope.id];
+  need(place, `${scope.name}: missing record`);
+  if (!place) continue;
+  need(place.verifiedAt === campaign.checkedAt, `${scope.name}: stale checked date`);
+  need(place.source?.startsWith("https://"), `${scope.name}: source missing`);
+  need(place.sourceLabel, `${scope.name}: source label missing`);
+  const images = [place.image, ...(place.images || [])];
+  need(images.length >= (scope.minImages || 4), `${scope.name}: gallery incomplete`);
+  for (const image of images) {
+    need(isCommonsFilePage(image?.source), `${scope.name}: image source is not a Commons file page`);
+    need(image?.author && image?.license && image?.alt, `${scope.name}: image rights metadata incomplete`);
+    need(image?.url && fs.existsSync(path.join(root, image.url.replace(/^\//, ""))), `${scope.name}: image file missing`);
   }
-  for (const f of p.features || []) {
-    need(
-      Number.isFinite(f.latitude) && Number.isFinite(f.longitude),
-      `${scope.name}/${f.name}: coordinates missing`,
-    );
-    need(
-      f.details?.images?.length >= 1,
-      `${scope.name}/${f.name}: image missing`,
-    );
-    need(
-      f.details?.searchAnswers?.length >= 9,
-      `${scope.name}/${f.name}: answers missing`,
-    );
-    need(f.details?.coordinateSource && f.details?.positionQuality, `${scope.name}/${f.name}: coordinate provenance missing`);
-    const featureFile = path.join(dir, f.slug, "index.html");
-    need(fs.existsSync(featureFile), `${scope.name}/${f.name}: page missing`);
-    if (fs.existsSync(featureFile)) {
-      const html = fs.readFileSync(featureFile, "utf8").toLowerCase();
-      for (const value of [f.name, p.name, "parking", "restroom", "dogs", "sources", 'rel="canonical"'])
-        need(html.includes(value.toLowerCase()), `${scope.name}/${f.name}: raw HTML missing ${value}`);
+  need(place.searchAnswers?.length >= 11, `${scope.name}: parent answers incomplete`);
+  for (const answer of place.searchAnswers || []) {
+    need(answer.source?.startsWith("https://"), `${scope.name}/${answer.intentKey}: answer source missing`);
+    need(answer.sourceLabel, `${scope.name}/${answer.intentKey}: answer source label missing`);
+    need(answer.verifiedAt === campaign.checkedAt, `${scope.name}/${answer.intentKey}: answer checked date stale`);
+    need(["fast", "slow"].includes(answer.freshnessClass), `${scope.name}/${answer.intentKey}: freshness missing`);
+  }
+  const actualFeatures = (place.features || []).map((feature) => feature.slug);
+  need(JSON.stringify(actualFeatures) === JSON.stringify(expectedFeatures), `${scope.name}: destination set differs from reviewed scope`);
+  need(place.researchQueue?.length >= 3, `${scope.name}: review queue incomplete`);
+  htmlIncludes(
+    path.join(directory, "index.html"),
+    [place.name, place.address, 'rel="canonical"', "breadcrumbs", "what people ask"],
+    scope.name,
+  );
+  for (const feature of place.features || []) {
+    need(Number.isFinite(feature.latitude) && Number.isFinite(feature.longitude), `${scope.name}/${feature.name}: coordinates missing`);
+    need(!/approximate/i.test(feature.details?.positionQuality || ""), `${scope.name}/${feature.name}: approximate coordinate retained`);
+    need(feature.details?.coordinateSource?.startsWith("https://"), `${scope.name}/${feature.name}: coordinate source missing`);
+    need(feature.details?.images?.length === 1, `${scope.name}/${feature.name}: destination image missing`);
+    need(isCommonsFilePage(feature.details?.imageSourceUrl), `${scope.name}/${feature.name}: image source missing`);
+    need(feature.details?.searchAnswers?.length === 9, `${scope.name}/${feature.name}: expected nine destination answers`);
+    for (const answer of feature.details?.searchAnswers || []) {
+      need(answer.source?.startsWith("https://"), `${scope.name}/${feature.name}/${answer.intentKey}: source missing`);
+      need(answer.sourceLabel, `${scope.name}/${feature.name}/${answer.intentKey}: source label missing`);
+      need(answer.verifiedAt === campaign.checkedAt, `${scope.name}/${feature.name}/${answer.intentKey}: checked date stale`);
     }
+    htmlIncludes(
+      path.join(directory, feature.slug, "index.html"),
+      [feature.name, place.name, feature.details.address, String(feature.latitude), String(feature.longitude), 'rel="canonical"', "breadcrumbs", "parking", "restroom", "dogs", "sources"],
+      `${scope.name}/${feature.name}`,
+    );
+  }
+  for (const retiredSlug of retired[parkSlug]) {
+    const source = `/us/in/indianapolis/parks/${parkSlug}/${retiredSlug}`,
+      destination = `/us/in/indianapolis/parks/${parkSlug}`;
+    need(
+      redirects.some((redirect) => redirect.source === source && redirect.destination === destination && redirect.permanent === true),
+      `${source}: permanent parent redirect missing`,
+    );
   }
 }
-const joined = campaign.places
-  .map((s) => JSON.stringify(places.find((p) => p.id === s.id) || {}))
-  .join("\n");
-const holliday = places.find((place) => place.id === "launch-in-indianapolis-holliday-park");
-need(holliday?.features.find((feature) => feature.slug === "holliday-park-playground")?.details?.imageUrl?.includes("holliday-park-nature"), "Holliday playground: family-oriented photo missing");
-const broadRipple = places.find((place) => place.id === "launch-in-indianapolis-broad-ripple-park");
-need(broadRipple?.image?.url?.includes("family-center"), "Broad Ripple: current Family Center hero missing");
-for (const phrase of [
-  "beginning at $10",
-  "$6 per resident vehicle",
-  "Conservatory and Sunken Garden are closed Monday",
-  "opened in November 2025",
-  "restored Sunken Garden fountains reopened in June 2026",
-  "$9 for out-of-state plates",
-  "Saddle Barn is temporarily closed for the 2026 recreation season",
-  "multi-phase redevelopment",
-  "two-story indoor play structure",
-  "announce passes",
-])
-  need(joined.includes(phrase), `Missing Indianapolis guidance: ${phrase}`);
-const app = fs.readFileSync(path.join(root, "app.js"), "utf8");
-need(app.includes("daylightMatch"), "Opening-to-dark hours support missing");
-need(app.includes('label: "Hours vary"'), "Independent-hours support missing");
+
 if (fail.length) {
   console.error(fail.join("\n"));
   process.exit(1);
 }
 console.log(
-  `Verified ${campaign.places.length} Indianapolis guides with four photos, eight mapped subsites and practical visitor answers.`,
+  "Verified 2 Indianapolis guides, 1 evidence-cleared destination, 8 reusable photos and 15 retired-route redirects.",
 );
