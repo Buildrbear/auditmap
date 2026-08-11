@@ -69836,7 +69836,7 @@
     "launch-wi-milwaukee-lake-park": {
       "address": "3233 E. Kenwood Boulevard, Milwaukee, WI 53211",
       "image": {
-        "url": "/assets/parks/upper-midwest-lake-super/lake-park/01-built-in-1903-designed-by-ferry-and-clas.webp",
+        "url": "/assets/parks/upper-midwest-lake-super/lake-park/01-lake-park-pavilion-in-milwaukee.webp",
         "source": "https://commons.wikimedia.org/wiki/File:Colonial_Revival_-_Milwaukee,_WI_-_Lake_Park_Pavilion_(1).jpg",
         "author": "Bmzuckerman",
         "license": "CC BY 4.0",
@@ -69867,12 +69867,12 @@
           "height": 669
         },
         {
-          "url": "/assets/parks/upper-midwest-lake-super/lake-park/04-built-in-1903-designed-by-ferry-and-clas.webp",
-          "source": "https://commons.wikimedia.org/wiki/File:Colonial_Revival_-_Milwaukee,_WI_-_Lake_Park_Pavilion_(2).jpg",
-          "author": "Bmzuckerman",
-          "license": "CC BY 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-          "alt": "Another view of the historic Lake Park Pavilion",
+          "url": "/assets/parks/upper-midwest-lake-super/lake-park/04-lake-park-august-2025-3-grand-staircase.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Lake_Park_August_2025_3_(Grand_Staircase).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "alt": "Grand Staircase and Lake Michigan view in Lake Park",
           "width": 1600,
           "height": 1000
         }
@@ -69898,38 +69898,182 @@
           "url": "https://county.milwaukee.gov/files/county/parks-department/Park-Maps/Lake1.pdf"
         }
       ],
-      "verifiedAt": "2026-08-08"
+      "verifiedAt": "2026-08-11",
+      "source": "https://county.milwaukee.gov/EN/Parks/Explore/Lakefront",
+      "sourceLabel": "Milwaukee County Parks",
+      "searchAnswers": [
+        {
+          "intentKey": "entrance",
+          "question": "Where should I start at Lake Park in Milwaukee?",
+          "answer": "Route to the Lake Park pavilion and bistro area for central paths and golf, North Point Lighthouse for the historic tower, or the Grand Staircase and Lion Bridges for signature lake views. The park stretches along Lake Drive with several access points.",
+          "sourceLabel": "Milwaukee County Parks",
+          "source": "https://county.milwaukee.gov/EN/Parks/Explore/Lakefront",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "parking",
+          "question": "Where should I park at Lake Park?",
+          "answer": "Use legal spaces along open park drives and surrounding streets near your destination. Golf, bistro, lighthouse programs, weddings, and events can fill the closest spaces; never park on lawns, paths, or closed drives.",
+          "sourceLabel": "Milwaukee County Parks",
+          "source": "https://county.milwaukee.gov/EN/Parks/Explore/Find-a-Park",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "trail-surface",
+          "question": "What are the trails like at Lake Park?",
+          "answer": "Paved walks, stairs, bridges, and natural ravine paths cross the bluff and connect overlooks, playgrounds, pavilion, and lakefront approaches. Ravine routes can be steep, wet, icy, or closed after storms.",
+          "sourceLabel": "Milwaukee County Parks",
+          "source": "https://county.milwaukee.gov/EN/Parks/Explore/Lakefront",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "playground",
+          "question": "Are there playgrounds at Lake Park?",
+          "answer": "Yes. Public playground areas sit within the broader historic park near paths and picnic space. Use the County park map to select the closest legal parking and accessible approach.",
+          "sourceLabel": "Milwaukee County Parks",
+          "source": "https://county.milwaukee.gov/files/county/parks-department/Park-Maps/Lake1.pdf",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "accessibility",
+          "question": "Can I enjoy Lake Park without using the Grand Staircase?",
+          "answer": "Yes. Upper park drives and paved paths provide views and access to the pavilion, lighthouse area, and historic landscape without descending the full staircase. Ravines and older paths vary in grade and surface.",
+          "sourceLabel": "Milwaukee County Parks",
+          "source": "https://county.milwaukee.gov/files/county/parks-department/Park-Maps/Lake1.pdf",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "public-art",
+          "question": "What landmarks should I see in Lake Park?",
+          "answer": "Highlights include Frederick Law Olmsted's historic landscape, Grand Staircase, Lion Bridges, North Point Lighthouse, pavilion, lake overlooks, and sculptural or architectural features distributed through the park.",
+          "sourceLabel": "Milwaukee County Parks",
+          "source": "https://county.milwaukee.gov/EN/Parks/Explore/Lakefront",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "fees",
+          "question": "Is Lake Park free?",
+          "answer": "General entry, trails, bridges, staircase, playgrounds, picnic areas, public art, and overlooks are free. Lighthouse tours, golf, bistro dining, club activities, permits, and reservations charge separately.",
+          "sourceLabel": "Milwaukee County Parks",
+          "source": "https://county.milwaukee.gov/EN/Parks/Explore/Lakefront",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "closures",
+          "question": "What can close parts of Lake Park?",
+          "answer": "Storm damage, ravine erosion, ice, bridge or stair repairs, golf operations, lighthouse programs, private events, and maintenance can affect individual routes. Check posted closures and contact the Lake Drive park unit for current restroom or facility status.",
+          "sourceLabel": "Milwaukee County Parks",
+          "source": "https://county.milwaukee.gov/EN/Parks/Explore/Find-a-Park",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "dog-area",
+          "question": "Are dogs allowed at Lake Park?",
+          "answer": "Dogs may use ordinary park paths and open areas on leash, but Lake Park is not a designated off-leash dog exercise area. Milwaukee County prohibits dogs in playgrounds, children's play areas, athletic facilities, golf courses, indoor pavilions, and other signed restricted areas; service-animal rules differ.",
+          "sourceLabel": "Milwaukee County Parks",
+          "source": "https://county.milwaukee.gov/EN/Parks/Explore/Dog-Parks",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Are there public restrooms at Lake Park?",
+          "answer": "Restroom availability is tied to developed facilities and can change by season, maintenance, or event. Milwaukee County directs visitors to contact the Lake Drive park unit for current bathroom status; do not rely on the lighthouse, bistro, or golf facilities being open for a general park visit.",
+          "sourceLabel": "Milwaukee County Parks",
+          "source": "https://county.milwaukee.gov/EN/Parks/Explore/Find-a-Park",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "picnic",
+          "question": "Can I picnic at Lake Park?",
+          "answer": "Yes. Lake Park has picnic areas and open lawns for ordinary personal use. Larger gatherings, alcohol, reserved space, tents, or organized activity may require a Milwaukee County permit; keep food away from playground equipment and leave historic landscape areas clean.",
+          "sourceLabel": "Milwaukee County Parks",
+          "source": "https://county.milwaukee.gov/EN/Parks/Plan/Have-a-Picnic",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "shade",
+          "question": "Where can I find shade or weather shelter at Milwaukee's Lake Park?",
+          "answer": "Wooded ravines and bluff trails provide strong shade and are especially useful on hot days, while upper lawns, sports areas, overlooks, bridges, and the lakefront can be exposed. The historic pavilion houses Lake Park Bistro and follows business or event hours; the Summer Stage and other outdoor structures are not enclosed storm shelters. During lightning, high wind, ice, or dangerous lakefront weather, leave ravines and exposed overlooks and use a confirmed-open substantial building or enclosed vehicle.",
+          "sourceLabel": "Milwaukee County Parks",
+          "source": "https://county.milwaukee.gov/EN/Parks/Explore/Trails/Nature-Trails",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "splash-pad",
+          "question": "Does Milwaukee's Lake Park have a splash pad or swimming beach?",
+          "answer": "No splash pad, pool, or swimming beach is listed inside Lake Park. The historic park sits on bluffs above Lake Michigan and is designed around trails, overlooks, bridges, golf, tennis, lawn bowling, and the lighthouse. A lake view does not mean direct water access. Use Milwaukee County's current beach or pool-and-splash listings for swimming or water play, and verify the selected facility's open status before traveling.",
+          "sourceLabel": "Milwaukee County Parks",
+          "source": "https://county.milwaukee.gov/EN/Parks/Explore/Lakefront",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "transit",
+          "question": "Which MCTS bus gets closest to Lake Park?",
+          "answer": "MCTS Route 30 serves the Downer Avenue and Lake Drive area west of Lake Park, and Route 21 is useful near North Avenue at the park's south end. Choose the stop closest to the lighthouse, golf course, pavilion, playground, or ravine trail and expect a short walk into the park; check the trip planner for the active Route 30 branch.",
+          "sourceLabel": "Milwaukee County Transit System",
+          "source": "https://www.ridemcts.com/routes-schedules/30?mode=preview",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        }
+      ]
     },
     "launch-wi-milwaukee-veterans-park": {
       "address": "1010 N. Lincoln Memorial Drive, Milwaukee, WI 53202",
       "image": {
-        "url": "/assets/parks/upper-midwest-lake-super/veterans-park/01-milwaukee-february-2025-26-veterans-park.webp",
-        "source": "https://commons.wikimedia.org/w/index.php?curid=160532141",
+        "url": "/assets/parks/upper-midwest-lake-super/veterans-park/01-milwaukee-august-2024-4-veterans-park-lagoon.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Milwaukee_August_2024_4_(Veterans_Park_Lagoon).jpg",
         "author": "Michael Barera",
-        "license": "BY-SA 4.0",
+        "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "alt": "Veterans Park on Milwaukee's lakefront",
+        "alt": "Veterans Park Lagoon and Milwaukee skyline",
         "width": 1600,
         "height": 1000
       },
       "additionalImages": [
         {
-          "url": "/assets/parks/upper-midwest-lake-super/veterans-park/02-art-musuem-viewed-from-veterans-park-milwaukee-wi.webp",
+          "url": "/assets/parks/upper-midwest-lake-super/veterans-park/02-milwaukee-october-2024-2-veterans-park.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Milwaukee_October_2024_2_(Veterans_Park).jpg",
+          "author": "Michael Barera",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "alt": "Open lawn and paved path in Veterans Park",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/upper-midwest-lake-super/veterans-park/03-milwaukee-art-museum-viewed-from-veterans-park.webp",
           "source": "https://commons.wikimedia.org/wiki/File:Milwaukee_Art_Museum_viewed_from_Veterans_Park_in_August_2006_(213528301).jpg",
           "author": "Purple Slog from West Allis Wisconsin, USA",
           "license": "CC BY 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
           "alt": "Milwaukee Art Museum viewed from Veterans Park",
-          "width": 1600,
-          "height": 1000
-        },
-        {
-          "url": "/assets/parks/upper-midwest-lake-super/veterans-park/03-milwaukee-february-2026-46-veterans-park-lagoon-and-gold-coast-skyline.webp",
-          "source": "https://commons.wikimedia.org/w/index.php?curid=189150529",
-          "author": "Michael Barera",
-          "license": "BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "alt": "Veterans Park Lagoon and Milwaukee skyline",
           "width": 1600,
           "height": 1000
         },
@@ -69951,12 +70095,156 @@
           "url": "https://county.milwaukee.gov/EN/Parks/Explore/Lakefront/VeteransPark"
         }
       ],
-      "verifiedAt": "2026-08-08"
+      "verifiedAt": "2026-08-11",
+      "source": "https://county.milwaukee.gov/EN/Parks/Explore/Lakefront/VeteransPark",
+      "sourceLabel": "Milwaukee County Parks",
+      "searchAnswers": [
+        {
+          "intentKey": "entrance",
+          "question": "What address should I use for Veterans Park?",
+          "answer": "Route to Veterans Park on the lakefront between the Milwaukee Art Museum and McKinley Marina. For rentals, use the kite-store and Wheel Fun area; for festivals, follow the event's specific entrance and security instructions.",
+          "sourceLabel": "Milwaukee County Parks",
+          "source": "https://county.milwaukee.gov/EN/Parks/Explore/Lakefront/VeteransPark",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "parking",
+          "question": "Where should I park for Veterans Park?",
+          "answer": "Use signed lakefront lots, legal street parking, or nearby garages and follow event-day restrictions. Festivals frequently close drives, reserve lots, or charge event rates, so transit, biking, or walking can be more reliable.",
+          "sourceLabel": "Milwaukee County Parks",
+          "source": "https://county.milwaukee.gov/EN/Parks/Explore/Lakefront/VeteransPark",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "transit",
+          "question": "Can I bike or walk to Veterans Park?",
+          "answer": "Yes. The paved Oak Leaf Trail crosses the park and connects the downtown lakefront, art museum, marina, and neighboring parks. Bike rentals are also offered seasonally near the kite store.",
+          "sourceLabel": "Milwaukee County Parks",
+          "source": "https://county.milwaukee.gov/EN/Parks/Explore/Lakefront/VeteransPark",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "trail-surface",
+          "question": "Is there a paved trail through Veterans Park?",
+          "answer": "Yes. A paved section of the Oak Leaf Trail runs through the open lakefront landscape. Festival fencing, crowds, and temporary event routes can alter the normal path.",
+          "sourceLabel": "Milwaukee County Parks",
+          "source": "https://county.milwaukee.gov/EN/Parks/Explore/Lakefront/VeteransPark",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "accessibility",
+          "question": "Is Veterans Park accessible?",
+          "answer": "The mostly level open lawns and paved Oak Leaf Trail provide step-free routes, with accessible parking and nearby developed facilities as posted. Rental equipment and temporary festival layouts vary, so confirm accommodations with the operator.",
+          "sourceLabel": "Milwaukee County Parks",
+          "source": "https://county.milwaukee.gov/EN/Parks/Explore/Lakefront/VeteransPark",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "public-art",
+          "question": "What is the Court of Honor at Veterans Park?",
+          "answer": "The Court of Honor commemorates branches of the United States military within the lakefront park. It is free to visit and separate from ticketed festivals, rentals, and nearby museum attractions.",
+          "sourceLabel": "Milwaukee County Parks",
+          "source": "https://county.milwaukee.gov/EN/Parks/Explore/Lakefront/VeteransPark",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "fees",
+          "question": "Is Veterans Park free?",
+          "answer": "General entry, trail use, lawns, lagoon viewing, Court of Honor, picnicking, and open recreation are free. Parking where posted, watercraft and bike rentals, kite purchases, food, and events charge separately.",
+          "sourceLabel": "Milwaukee County Parks",
+          "source": "https://county.milwaukee.gov/EN/Parks/Explore/Lakefront/VeteransPark",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "closures",
+          "question": "What can change access at Veterans Park?",
+          "answer": "Festivals, races, lakefront construction, storms, lagoon conditions, rental season, and major downtown events can close roads, lots, lawns, or trail segments. Always check the event page and posted lakefront traffic controls.",
+          "sourceLabel": "Milwaukee County Parks",
+          "source": "https://county.milwaukee.gov/EN/Parks/Explore/Lakefront/VeteransPark",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "dog-area",
+          "question": "Are dogs allowed at Veterans Park?",
+          "answer": "Dogs may use ordinary park paths and open areas on leash, but Veterans Park is not a designated off-leash dog exercise area. Milwaukee County prohibits dogs in children's play areas, athletic facilities, indoor pavilions, beaches, and other signed restricted zones; festivals may prohibit pets entirely.",
+          "sourceLabel": "Milwaukee County Parks",
+          "source": "https://county.milwaukee.gov/EN/Parks/Explore/Dog-Parks",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "picnic",
+          "question": "Can I bring a picnic to Veterans Park?",
+          "answer": "Yes. The broad lakefront lawns support casual personal picnics, blankets, and kite flying when no event controls the area. Organized gatherings, reserved space, alcohol, tents, grills, and event-day setups may require permits or follow stricter rules.",
+          "sourceLabel": "Milwaukee County Parks",
+          "source": "https://county.milwaukee.gov/EN/Parks/Plan/Have-a-Picnic",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Where are the restrooms for Veterans Park?",
+          "answer": "Permanent restroom access is not guaranteed in the open lawn area. Nearby developed lakefront facilities and event portable restrooms may be available, but hours vary; Milwaukee County directs visitors to check the park unit's current bathroom status before a restroom-dependent visit.",
+          "sourceLabel": "Milwaukee County Parks",
+          "source": "https://county.milwaukee.gov/EN/Parks/Explore/Find-a-Park",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "shade",
+          "question": "Where can I find shade or weather shelter at Veterans Park?",
+          "answer": "The Veterans Park Shelter and scattered trees offer limited shade, but the large event lawns, lagoon edge, kite field, Oak Leaf Trail, and Lake Michigan shoreline are highly exposed to sun and wind. Restrooms are seasonal, and the kite shop, rentals, War Memorial, and nearby museums have separate hours and access. The shelter is not dependable severe-weather refuge; during lightning, extreme heat or cold, or strong lake winds, use a confirmed-open substantial building or enclosed vehicle.",
+          "sourceLabel": "Milwaukee County Parks",
+          "source": "https://county.milwaukee.gov/EN/Parks/Explore/Lakefront/VeteransPark",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "playground",
+          "question": "Is there a playground at Veterans Park in Milwaukee?",
+          "answer": "Milwaukee County does not list playground equipment at Veterans Park. The family attractions here are the broad kite-flying lawn, paved Oak Leaf Trail, lagoon, seasonal swan boats and other watercraft, and bike or surrey rentals. Rentals have their own season, hours, age, and safety rules, and major events can occupy the lawn. Choose another named Milwaukee County park when a conventional play structure is the main purpose of the trip.",
+          "sourceLabel": "Milwaukee County Parks",
+          "source": "https://county.milwaukee.gov/EN/Parks/Explore/Lakefront/VeteransPark",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "splash-pad",
+          "question": "Can you swim or use a splash pad at Veterans Park in Milwaukee?",
+          "answer": "Veterans Park does not list a splash pad, pool, or designated swimming beach. Its 14-acre lagoon is for seasonal swan pedal boats, kayaks, and canoes, and the Lake Michigan edge is used for views, trails, fishing access, and events rather than swimming. Use Milwaukee County's separately listed guarded beaches, pools, splash pads, or wading pools and check their same-day operating status before visiting.",
+          "sourceLabel": "Milwaukee County Parks",
+          "source": "https://county.milwaukee.gov/EN/Parks/Explore/Lakefront/VeteransPark",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        }
+      ]
     },
     "launch-wi-madison-olbrich-park": {
       "address": "3527 Atwood Avenue, Madison, WI 53704",
       "image": {
-        "url": "/assets/parks/upper-midwest-lake-super/olbrich-park/01-olbrich-park-madison-wi-usa.webp",
+        "url": "/assets/parks/upper-midwest-lake-super/olbrich-park/01-olbrich-park-on-lake-monona.webp",
         "source": "https://commons.wikimedia.org/wiki/File:Olbrich_Park_Madison_WI_USA.jpg",
         "author": "BrianStanding",
         "license": "CC BY-SA 4.0",
@@ -69967,7 +70255,7 @@
       },
       "additionalImages": [
         {
-          "url": "/assets/parks/upper-midwest-lake-super/olbrich-park/02-capitol-seen-from-olbrich-park.webp",
+          "url": "/assets/parks/upper-midwest-lake-super/olbrich-park/02-wisconsin-state-capitol-seen-from-olbrich-park.webp",
           "source": "https://commons.wikimedia.org/wiki/File:Capitol_Seen_from_Olbrich_Park_-_panoramio.jpg",
           "author": "Corey Coyle",
           "license": "CC BY 3.0",
@@ -69975,26 +70263,6 @@
           "alt": "Wisconsin State Capitol seen from Olbrich Park",
           "width": 1600,
           "height": 1000
-        },
-        {
-          "url": "/assets/parks/upper-midwest-lake-super/olbrich-park/03-walk-in-the-park.webp",
-          "source": "https://www.flickr.com/photos/126765364@N07/31002507471",
-          "author": "iAM Peterson",
-          "license": "BY-SA 2.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
-          "alt": "Walking in Olbrich Park",
-          "width": 683,
-          "height": 1000
-        },
-        {
-          "url": "/assets/parks/upper-midwest-lake-super/olbrich-park/04-olbrich-botanical-gardens-08-14-2012-1023.webp",
-          "source": "https://www.flickr.com/photos/56708607@N04/8064157493",
-          "author": "Richard Hurd",
-          "license": "BY 2.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-          "alt": "Olbrich Botanical Gardens beside Olbrich Park",
-          "width": 1024,
-          "height": 678
         }
       ],
       "replaceImages": true,
@@ -70004,7 +70272,151 @@
           "url": "https://www.olbrich.org/visit/"
         }
       ],
-      "verifiedAt": "2026-08-08"
+      "verifiedAt": "2026-08-11",
+      "source": "https://www.cityofmadison.com/parks/find-a-park/olbrich",
+      "sourceLabel": "City of Madison",
+      "searchAnswers": [
+        {
+          "intentKey": "entrance",
+          "question": "Which entrance should I use for Olbrich Park?",
+          "answer": "Use 3527 Atwood Avenue for the main lakefront and beach, 3402 Atwood for softball and canoe or kayak access, 502 Walter Street for eastern fields and shelter, or 201 Garrison Street for winter ice rinks.",
+          "sourceLabel": "City of Madison",
+          "source": "https://www.cityofmadison.com/parks/find-a-park/olbrich",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "parking",
+          "question": "Is there parking at Olbrich Park?",
+          "answer": "Yes. Lots serve the lakefront, beach, launches, athletic fields, and Walter Street shelter. Madison enforces posted three-hour park limits and prohibits parking after 10 p.m.; busy garden and Biergarten periods can fill nearby spaces.",
+          "sourceLabel": "City of Madison",
+          "source": "https://www.cityofmadison.com/parks/about/park-rules",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Which restrooms are open at Olbrich Park?",
+          "answer": "Beach/Biergarten, canoe-launch, and Walter Street restrooms are open as listed. The Lakeland Avenue restroom is closed indefinitely because of a sewer issue as of July 23, 2026; use the Biergarten, launch, or Walter Street facilities instead.",
+          "sourceLabel": "City of Madison",
+          "source": "https://www.cityofmadison.com/parks/find-a-park/olbrich",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "playground",
+          "question": "How many playgrounds are at Olbrich Park?",
+          "answer": "Olbrich Park has three playgrounds distributed across its 90 acres. Use the park map to pair the desired play area with nearby parking and an open restroom rather than assuming every entrance serves the same amenities.",
+          "sourceLabel": "City of Madison",
+          "source": "https://www.cityofmadison.com/parks/find-a-park/olbrich",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "accessibility",
+          "question": "Is Olbrich Park accessible?",
+          "answer": "Developed lots, paved routes, playground areas, reservable shelter, and public restrooms provide step-free options. Beach and shoreline surfaces vary, and the adjacent botanical gardens have separate access and pet rules.",
+          "sourceLabel": "City of Madison",
+          "source": "https://www.cityofmadison.com/parks/find-a-park/olbrich",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "dog-area",
+          "question": "Are dogs allowed at Olbrich Park?",
+          "answer": "Leashed and licensed dogs with the required Madison permit are allowed in many general park areas, but must stay away from playgrounds, beach swim areas, shelters, and Olbrich Botanical Gardens. There is no off-leash dog park here.",
+          "sourceLabel": "City of Madison",
+          "source": "https://www.cityofmadison.com/parks/about/park-rules",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "fees",
+          "question": "Is Olbrich Park free?",
+          "answer": "General park entry, parking, playgrounds, beach, lakefront, canoe launch, picnic areas, and open courts are free. Launch permits, paddle rentals, Biergarten purchases, shelter reservations, organized sports, and some botanical-garden experiences charge.",
+          "sourceLabel": "City of Madison",
+          "source": "https://www.cityofmadison.com/parks/find-a-park/olbrich",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "closures",
+          "question": "How do I check Olbrich Beach water quality?",
+          "answer": "Public Health Madison and Dane County tests designated beaches from Memorial Day through Labor Day. Check the City's beach status before swimming; there are no lifeguards, and the beach or launch can close independently of the park.",
+          "sourceLabel": "City of Madison",
+          "source": "https://www.cityofmadison.com/parks/find-a-park/water/beaches",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "picnic",
+          "question": "Can I reserve a picnic shelter at Olbrich Park?",
+          "answer": "Yes. Olbrich has a reservable shelter near the Walter Street side plus open picnic areas. A reservation is needed for exclusive use, and alcohol, amplified sound, or temporary structures require the applicable Madison permits.",
+          "sourceLabel": "City of Madison",
+          "source": "https://www.cityofmadison.com/parks/find-a-park/olbrich",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "transit",
+          "question": "Do I need a permit to launch a boat at Olbrich Park?",
+          "answer": "A year-round Lake Access Permit is required at the designated motorboat launch on Lake Monona and cannot be purchased at the launch. The separate canoe and kayak launch provides paddling access; check channel warnings and use an alternate launch when advised.",
+          "sourceLabel": "City of Madison",
+          "source": "https://www.cityofmadison.com/parks/find-a-park/water/boat-launches",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "shade",
+          "question": "Is Olbrich Beach supervised by lifeguards?",
+          "answer": "No. Olbrich Beach is unguarded. Water quality is monitored during the maintained summer season, but adults remain responsible for swimmers and should check the live beach status before entering Lake Monona.",
+          "sourceLabel": "City of Madison",
+          "source": "https://www.cityofmadison.com/parks/find-a-park/water/beaches",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "trail-surface",
+          "question": "What are the walking and biking surfaces at Olbrich Park?",
+          "answer": "Paved sidewalks and shared-use paths connect the main lakefront, beach, launches, athletic areas, parking, and the Capital City Bike Path. The larger park landscape also includes lawn, sand beach, shoreline, and natural-surface walking areas that can become wet, muddy, snowy, or icy. Use the paved lakefront and neighborhood path network for the most predictable stroller, wheelchair, or bicycle route; the adjacent Botanical Gardens maintains separate internal walks and operating rules.",
+          "sourceLabel": "City of Madison Parks",
+          "source": "https://www.cityofmadison.com/parks/find-a-park/olbrich",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "splash-pad",
+          "question": "Can children swim or use a splash pad at Olbrich Park?",
+          "answer": "Olbrich Park has a Lake Monona beach but no splash pad is listed. This is natural lake swimming rather than a controlled pool: check Madison's current beach status and water-quality notices, supervise children closely, and do not enter during closures, algae advisories, storms, or unsafe conditions. The boat launch and Starkweather Creek are separate from the designated beach and should not be treated as swim access.",
+          "sourceLabel": "City of Madison Parks",
+          "source": "https://www.cityofmadison.com/parks/find-a-park/olbrich",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "public-art",
+          "question": "What are the main places to find at Olbrich Park?",
+          "answer": "The public park includes Lake Monona beach, the Starkweather Creek kayak and boat launch, playgrounds, sports fields and courts, biergarten, shelters, open lawns, and the Capital City Trail. Olbrich Botanical Gardens is an adjacent but distinct destination; route there specifically for the Thai Pavilion, conservatory, and formal gardens. Use the beach, boat launch, Walter Street shelter, or botanical-garden entrance as your destination rather than treating the full lakefront as one arrival point.",
+          "sourceLabel": "City of Madison Parks",
+          "source": "https://www.cityofmadison.com/parks/documents/projects/DESIGN%20PAGES.pdf",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        }
+      ]
     },
     "launch-wi-madison-vilas-park": {
       "address": "1602 Vilas Park Drive, Madison, WI 53715",
@@ -70040,7 +70452,7 @@
           "height": 576
         },
         {
-          "url": "/assets/parks/upper-midwest-lake-super/vilas-park/04-several-of-the-effigy-mounds-above-vilas-park-in-madison-wi.webp",
+          "url": "/assets/parks/upper-midwest-lake-super/vilas-park/04-effigy-mounds-overlooking-vilas-park.webp",
           "source": "https://commons.wikimedia.org/wiki/File:Madison,_WI_11-01-2011_230_(6933387163).jpg",
           "author": "Richard Hurd from Leland, USA",
           "license": "CC BY 2.0",
@@ -70055,14 +70467,162 @@
         {
           "label": "City of Madison Parks Division",
           "url": "https://www.cityofmadison.com/parks/find-a-park/vilas"
+        },
+        {
+          "label": "City of Madison Parks Division",
+          "url": "https://www.cityofmadison.com/parks/documents/VilasParkMPReportExecSummaryupdate5102021.pdf"
         }
       ],
-      "verifiedAt": "2026-08-08"
+      "verifiedAt": "2026-08-11",
+      "source": "https://www.cityofmadison.com/parks/find-a-park/vilas",
+      "sourceLabel": "City of Madison",
+      "searchAnswers": [
+        {
+          "intentKey": "entrance",
+          "question": "What address should I use for Vilas Park?",
+          "answer": "Use 1602 Vilas Park Drive for the park and shelter or 1501 Vilas Park Drive for the beach. Vehicle access to the shelter comes from N. Wingra Drive via Mills Street and S. Orchard Avenue, not from the west.",
+          "sourceLabel": "City of Madison",
+          "source": "https://www.cityofmadison.com/parks/find-a-park/vilas",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "parking",
+          "question": "How long can I park at Vilas Park?",
+          "answer": "A strict three-hour limit is enforced at all times. Bus parking is prohibited; buses may load on Wingra Drive, then must relocate to Bowman Park. No parking is allowed after general park hours.",
+          "sourceLabel": "City of Madison",
+          "source": "https://www.cityofmadison.com/parks/find-a-park/vilas",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Are restrooms open at Vilas Park?",
+          "answer": "The shelter restroom is open daily outside winter, when access follows staffed recreation hours. Beach restrooms operate approximately 11 a.m.-7 p.m. from Memorial Day weekend through Labor Day.",
+          "sourceLabel": "City of Madison",
+          "source": "https://www.cityofmadison.com/parks/find-a-park/vilas",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "playground",
+          "question": "What playgrounds are at Vilas Park?",
+          "answer": "Vilas Park has three playgrounds, including the landmark Old Woman in a Shoe slide built in 1962. They are separate from the adjacent Henry Vilas Zoo, which has its own entrances and visitor rules.",
+          "sourceLabel": "City of Madison",
+          "source": "https://www.cityofmadison.com/parks/find-a-park/vilas",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "accessibility",
+          "question": "What accessible features are at Vilas Park?",
+          "answer": "Paved paths and curb cuts connect developed areas, Vilas Beach has a seasonal accessible mat, and Lake Wingra has two accessible fishing piers. Parking distances and winter snow or ice can affect routes.",
+          "sourceLabel": "City of Madison",
+          "source": "https://www.cityofmadison.com/parks/find-a-park/vilas",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "fees",
+          "question": "Is Vilas Park free?",
+          "answer": "General park entry, parking, playgrounds, beach, accessible fishing piers, paths, lagoon, courts, fields, and Henry Vilas Zoo admission are free. Shelter reservations, skate rentals, concessions, boat storage, and organized sports charge.",
+          "sourceLabel": "City of Madison",
+          "source": "https://www.cityofmadison.com/parks/find-a-park/vilas",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "closures",
+          "question": "How do I check Vilas Beach or ice conditions?",
+          "answer": "Beach water quality is tested from Memorial Day through Labor Day, and there are no lifeguards. In winter, never enter the lagoon or rink unless Madison Parks lists it open; staffing and rentals depend on safe ice and weather.",
+          "sourceLabel": "City of Madison",
+          "source": "https://www.cityofmadison.com/parks/find-a-park/vilas",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "trail-surface",
+          "question": "Can I walk around Vilas Park and Lake Wingra?",
+          "answer": "Paved and park paths connect the beach, lagoon, playgrounds, shelter, zoo edge, and Lake Wingra shoreline, with broader trail connections toward the UW Arboretum. Some zoo and arboretum areas follow separate access rules.",
+          "sourceLabel": "City of Madison",
+          "source": "https://www.cityofmadison.com/parks/find-a-park/vilas",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "dog-area",
+          "question": "Are dogs allowed at Vilas Park?",
+          "answer": "Leashed dogs with the required Madison dog permit are allowed in general park areas where posted, but must stay out of playgrounds, the beach swim area, shelters, and adjacent Henry Vilas Zoo. There is no off-leash dog park here.",
+          "sourceLabel": "City of Madison",
+          "source": "https://www.cityofmadison.com/parks/about/park-rules/dogs-in-parks",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "picnic",
+          "question": "Can I reserve the shelter at Vilas Park?",
+          "answer": "Yes. The park shelter is reservable, while unreserved fields and picnic areas remain first come, first served. Exclusive gatherings and additions such as alcohol, amplified sound, or temporary structures need the appropriate reservation and permits.",
+          "sourceLabel": "City of Madison",
+          "source": "https://www.cityofmadison.com/parks/find-a-park/vilas",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "transit",
+          "question": "Can I launch a boat or kayak at Vilas Park?",
+          "answer": "Yes. The 1602 Vilas Park Drive launch reaches Lake Wingra, but there is no trailer parking. Canoes, kayaks, and paddleboards may also launch here; seasonal piers can be removed for weather, ice, or maintenance.",
+          "sourceLabel": "City of Madison",
+          "source": "https://www.cityofmadison.com/parks/find-a-park/water/boat-launches",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "shade",
+          "question": "Where can I find shade or weather shelter at Vilas Park?",
+          "answer": "Mature trees shade portions of the Lake Wingra shoreline, paths, picnic areas, and playground landscape. The Vilas Park Shelter is a large open-air structure with seasonal restrooms and about 28 picnic tables; in winter it becomes an enclosed warming shelter only during staffed recreation hours. The beach, lagoon, lake piers, fields, and open lawns remain exposed, and the adjacent zoo follows separate hours; during lightning, dangerous wind, or extreme heat or cold, use a confirmed-open substantial building or vehicle.",
+          "sourceLabel": "City of Madison Parks",
+          "source": "https://www.cityofmadison.com/parks/find-a-park/vilas/shelter",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "splash-pad",
+          "question": "Can children swim or use a splash pad at Vilas Park?",
+          "answer": "Vilas Park has a sandy Lake Wingra beach with swim ropes and an accessible beach mat, but no splash pad is listed. There are no lifeguards. Public Health monitors water quality from roughly Memorial Day through Labor Day, so check the live beach status before entering and keep young or weak swimmers within arm's reach. Do not swim when the beach is closed, outside the marked area, or near boat launches and fishing piers.",
+          "sourceLabel": "City of Madison Parks",
+          "source": "https://www.cityofmadison.com/parks/find-a-park/vilas",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "public-art",
+          "question": "What landmarks should families look for in Vilas Park?",
+          "answer": "Vilas Park follows Lake Wingra and is adjacent to, but operationally separate from, free Henry Vilas Zoo and the UW Arboretum. Inside the park, landmarks include the sandy beach, historic lagoon and stone bridges, three playgrounds, and the 1962 Old Woman in a Shoe slide. Native American burial mounds overlook the zoo near Erin and Wingra streets and are protected cultural sites; view them respectfully without climbing or disturbing the ground.",
+          "sourceLabel": "City of Madison Parks",
+          "source": "https://www.cityofmadison.com/parks/find-a-park/vilas",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        }
+      ]
     },
     "launch-mi-grand-rapids-millennium-park": {
       "address": "1415 Maynard Avenue SW, Walker, MI 49534",
       "image": {
-        "url": "/assets/parks/upper-midwest-lake-super/millennium-park/01-millenium-park-beach-in-grand-rapids-mi.webp",
+        "url": "/assets/parks/upper-midwest-lake-super/millennium-park/01-millennium-park-beach-in-grand-rapids.webp",
         "source": "https://commons.wikimedia.org/wiki/File:Millennium_beach.jpg",
         "author": "Kyleveldman",
         "license": "Public domain",
@@ -70073,22 +70633,22 @@
       },
       "additionalImages": [
         {
-          "url": "/assets/parks/upper-midwest-lake-super/millennium-park/02-millenium-park-mosaic.webp",
-          "source": "https://www.flickr.com/photos/26503922@N08/14458194387",
-          "author": "rkramer62",
-          "license": "BY 2.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-          "alt": "Mosaic at Millennium Park",
-          "width": 1024,
-          "height": 1000
-        },
-        {
-          "url": "/assets/parks/upper-midwest-lake-super/millennium-park/03-cloudy-sunset.webp",
-          "source": "https://www.flickr.com/photos/127444856@N04/39899795360",
+          "url": "/assets/parks/upper-midwest-lake-super/millennium-park/02-gray-to-green.webp",
+          "source": "https://www.flickr.com/photos/127444856@N04/41707097111",
           "author": "drewtarvin",
           "license": "BY 2.0",
           "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-          "alt": "Cloudy sunset at Millennium Park",
+          "alt": "Lake and restored landscape at Millennium Park",
+          "width": 1024,
+          "height": 576
+        },
+        {
+          "url": "/assets/parks/upper-midwest-lake-super/millennium-park/03-distant-sunset.webp",
+          "source": "https://www.flickr.com/photos/127444856@N04/40989177164",
+          "author": "drewtarvin",
+          "license": "BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+          "alt": "Sheltered recreation plaza at Millennium Park",
           "width": 1024,
           "height": 576
         },
@@ -70120,12 +70680,156 @@
           "url": "https://www.kentcountymi.gov/1765/Millennium-Park"
         }
       ],
-      "verifiedAt": "2026-08-08"
+      "verifiedAt": "2026-08-11",
+      "source": "https://www.kentcountymi.gov/1765/Millennium-Park",
+      "sourceLabel": "Kent County Parks",
+      "searchAnswers": [
+        {
+          "intentKey": "entrance",
+          "question": "What address should I use for Millennium Park near Grand Rapids?",
+          "answer": "Use 1415 Maynard Avenue SW in Walker for the main recreation area, Kids' City, beach, splash pad, shelters, and boat rentals. The 1,400-acre park has other trail access points, so use the official map for hiking routes.",
+          "sourceLabel": "Kent County Parks",
+          "source": "https://www.kentcountymi.gov/1765/Millennium-Park",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "parking",
+          "question": "Is parking free at Millennium Park?",
+          "answer": "General park parking is free. Lots A and B are convenient for Kids' City and the main recreation area; beach admission is charged separately. Busy hot-weather weekends can fill the closest spaces.",
+          "sourceLabel": "Kent County Parks",
+          "source": "https://www.kentcountymi.gov/1765/Millennium-Park",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "trail-surface",
+          "question": "How long are the trails at Millennium Park?",
+          "answer": "The park has nearly 18 miles of trails. Most allow walking, bicycles, rollerblades, and other human-powered use; surfaces include paved regional connections and park paths through rolling natural terrain.",
+          "sourceLabel": "Kent County Parks",
+          "source": "https://www.kentcountymi.gov/1765/Millennium-Park",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "playground",
+          "question": "Where is Kids' City at Millennium Park?",
+          "answer": "Kids' City is near both large open picnic shelters and is easy to reach from parking lots A and B, between the main recreation-area entrance and the beach. Playground access does not require beach admission.",
+          "sourceLabel": "Kent County Parks",
+          "source": "https://www.kentcountymi.gov/1765/Millennium-Park",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "splash-pad",
+          "question": "When is the Millennium Park splash pad open?",
+          "answer": "For 2026, the splash pad operates 10:00 a.m.-7:00 p.m. through August 23, then 10:00 a.m.-6:00 p.m. through Labor Day. It is inside the paid beach area and may close for weather or maintenance.",
+          "sourceLabel": "Kent County Parks",
+          "source": "https://www.kentcountymi.gov/1768/Beach-Splashpad",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Are there changing rooms and restrooms at Millennium Park beach?",
+          "answer": "Yes. The Van Andel Beach House provides restrooms, changing rooms, lockers, concessions, and plaza picnic space during beach operations. Other seasonal facilities may be limited outside the paid beach area.",
+          "sourceLabel": "Kent County Parks",
+          "source": "https://www.kentcountymi.gov/1768/Beach-Splashpad",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "accessibility",
+          "question": "Is Millennium Park accessible?",
+          "answer": "Developed lots, Kids' City, beach house, splash pad plaza, shelters, and portions of the trail network provide step-free access. Sand, water entry, rolling terrain, and natural routes vary; contact Kent County Parks for current beach accommodations.",
+          "sourceLabel": "Kent County Parks",
+          "source": "https://www.kentcountymi.gov/1765/Millennium-Park",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "fees",
+          "question": "How much is Millennium Park beach?",
+          "answer": "Daily beach and splash-pad admission is $4 for ages 16-62, $3 for age 63 and older, $2 for ages 3-15, and free for children 2 and under. General park and trail access remain free.",
+          "sourceLabel": "Kent County Parks",
+          "source": "https://www.kentcountymi.gov/1768/Beach-Splashpad",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "closures",
+          "question": "Is Millennium Park open in winter?",
+          "answer": "The official park season is May 1 through October 31, 7:00 a.m. to sunset. Beach and splash-pad operations end around Labor Day, and water, concessions, rentals, restrooms, and gates can close earlier by season or weather.",
+          "sourceLabel": "Kent County Parks",
+          "source": "https://www.kentcountymi.gov/1765/Millennium-Park",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "shade",
+          "question": "Where can visitors find shade or weather shelter at Millennium Park?",
+          "answer": "Two large accessible open shelters stand beside Kids' City, with a smaller first-come family shelter near volleyball and another shelter inside the paid beach area. The playground also has a small toddler shade structure, while the beach, splash pad, courts, and many trail segments are exposed. Open shelters help with sun and ordinary rain but are not safe for lightning or high wind; the Beach House is available only during seasonal beach hours.",
+          "sourceLabel": "Kent County Parks",
+          "source": "https://www.kentcountymi.gov/Facilities/Facility/Details/Millennium-Park-Open-Shelters-42",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "dog-area",
+          "question": "Where can dogs go at Millennium Park, and what rules apply?",
+          "answer": "Dogs may use Millennium Park's ordinary trails and park grounds on a leash no longer than 6 feet held by the handler. The park does not list a designated dog park, so no area should be treated as off leash; remove waste and obey posted exclusions at the paid beach, splash pad, playground, shelters, events, or other developed facilities. Service-animal access follows applicable law.",
+          "sourceLabel": "Kent County Parks",
+          "source": "https://www.kentcountymi.gov/DocumentCenter/View/2093/Park-Ordinance-PDF",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "picnic",
+          "question": "Which picnic shelter should I use at Millennium Park?",
+          "answer": "Open Shelters A and B are reservable, barrier-free shelters beside Kids' City; each holds up to 140 people and has 18 tables, two double charcoal grills, electricity, water, and nearby restrooms. A smaller family shelter near volleyball and a shelter inside the paid beach area are first come, first served. Shelter rental does not include beach or splash-pad admission.",
+          "sourceLabel": "Kent County Parks",
+          "source": "https://www.kentcountymi.gov/Facilities/Facility/Details/Millennium-Park-Open-Shelters-42",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "transit",
+          "question": "Is there a bus to Millennium Park?",
+          "answer": "Yes. The Rapid operates Route 1000 Millennium Park between Rapid Central Station and the park, with a named Millennium Park stop and real-time information. Check the current operating day and return schedule before leaving because this destination route does not necessarily run at all times; the beach, splashpad, Kids' City, shelters, and trail system may still require an additional walk inside the park.",
+          "sourceLabel": "The Rapid",
+          "source": "https://www.ridetherapid.org/millennium-park",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "public-art",
+          "question": "Where should I start in Millennium Park?",
+          "answer": "The main activity core at 1415 Maynard Avenue contains the six-acre beach and splashpad, Van Andel Beach House, DeVos Family Boathouse, Kids' City playground, shelters, volleyball, basketball, and Currie Amphitheater. The broader 1,400-acre park has nearly 18 miles of trails and separate trailheads; Hansen Nature Trail begins at Butterworth and Riverbend Drives for a quieter wetland loop. Route to the activity core or a named trailhead, not only the broad park boundary.",
+          "sourceLabel": "Kent County Parks",
+          "source": "https://www.kentcountymi.gov/1765/Millennium-Park",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        }
+      ]
     },
     "launch-mi-grand-rapids-riverside-park": {
       "address": "2001 Monroe Avenue NE, Grand Rapids, MI 49505",
       "image": {
-        "url": "/assets/parks/upper-midwest-lake-super/riverside-park/01-mi-big-green-gym-riverside-park-grand-rapids.webp",
+        "url": "/assets/parks/upper-midwest-lake-super/riverside-park/01-riverside-park-in-grand-rapids.webp",
         "source": "https://commons.wikimedia.org/wiki/File:MI_Big_Green_Gym,_Riverside_Park,_Grand_Rapids_(8949291464).jpg",
         "author": "A Healthier Michigan from Detroit, United States",
         "license": "CC BY-SA 2.0",
@@ -70167,8 +70871,157 @@
         }
       ],
       "replaceImages": true,
-      "sources": [],
-      "verifiedAt": "2026-08-08"
+      "sources": [
+        {
+          "label": "City of Grand Rapids Parks and Recreation",
+          "url": "https://www.grandrapidsmi.gov/departments/parks-recreation/"
+        }
+      ],
+      "verifiedAt": "2026-08-11",
+      "source": "https://www.grandrapidsmi.gov/departments/parks-recreation/",
+      "sourceLabel": "City of Grand Rapids Parks and Recreation",
+      "searchAnswers": [
+        {
+          "intentKey": "entrance",
+          "question": "Which entrance should I use for Riverside Park in Grand Rapids?",
+          "answer": "Use 2001 Monroe Avenue NE as the central reference, then choose the north, central, or south access based on the boat launch, shelter, playground, athletic field, disc-golf area, or trail segment you want. The park is long and narrow.",
+          "sourceLabel": "City of Grand Rapids Parks and Recreation",
+          "source": "https://www.grandrapidsmi.gov/departments/parks-recreation/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "parking",
+          "question": "Is there free parking at Riverside Park?",
+          "answer": "Yes. Multiple free park lots serve different sections and amenities. Event days, sports, food-truck gatherings, and river recreation can fill individual lots; do not assume the first entrance is closest to your destination.",
+          "sourceLabel": "City of Grand Rapids Parks and Recreation",
+          "source": "https://www.grandrapidsmi.gov/departments/parks-recreation/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "trail-surface",
+          "question": "Can I bike or walk through Riverside Park?",
+          "answer": "Yes. Paved multiuse paths follow the Grand River and connect several park sections, with additional approaches near lawns, ponds, shelters, and recreation areas. Flooding, snow, ice, and events can interrupt low sections.",
+          "sourceLabel": "City of Grand Rapids Parks and Recreation",
+          "source": "https://www.grandrapidsmi.gov/departments/parks-recreation/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "playground",
+          "question": "Are there playgrounds at Riverside Park?",
+          "answer": "Yes. Playground areas are distributed within the large park near parking and picnic facilities. Use the city park directory or site map to choose the play area closest to an open restroom and shelter.",
+          "sourceLabel": "City of Grand Rapids Parks and Recreation",
+          "source": "https://www.grandrapidsmi.gov/departments/parks-recreation/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Are restrooms open at Riverside Park?",
+          "answer": "Restrooms serve developed areas seasonally. The City's event guidance says all park restrooms are winterized and closed from October through May; individual buildings can also close for maintenance, flooding, or daily service limits. Confirm current status before a restroom-dependent visit.",
+          "sourceLabel": "City of Grand Rapids",
+          "source": "https://www.grandrapidsmi.gov/explore-and-play/special-events/planning-and-resource-guide/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "accessibility",
+          "question": "Is Riverside Park accessible?",
+          "answer": "The paved river trail, developed parking, shelters, picnic areas, and selected recreation facilities offer step-free options. Distances are long, and river flooding or damaged pavement can affect routes and launches.",
+          "sourceLabel": "City of Grand Rapids Parks and Recreation",
+          "source": "https://www.grandrapidsmi.gov/departments/parks-recreation/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "picnic",
+          "question": "Can I reserve a shelter at Riverside Park?",
+          "answer": "Yes. Riverside Park has reservable shelters as well as open picnic space. Confirm the shelter name and entrance before arrival because shelters are spread across multiple park sections.",
+          "sourceLabel": "City of Grand Rapids",
+          "source": "https://www.grandrapidsmi.gov/explore-and-play/special-events/special-event-site-guides/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "fees",
+          "question": "Is Riverside Park free?",
+          "answer": "General entry, parking, riverfront paths, playgrounds, open lawns, picnic areas, and casual recreation are free. Shelter reservations, permits, organized sports, concessions, and special programs may charge.",
+          "sourceLabel": "City of Grand Rapids Parks and Recreation",
+          "source": "https://www.grandrapidsmi.gov/departments/parks-recreation/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "closures",
+          "question": "Does Riverside Park flood?",
+          "answer": "Low riverfront paths, launches, ponds, and parking areas can close during Grand River flooding or high water. Snow, ice, storms, construction, and events can also alter access; obey barricades and current City notices.",
+          "sourceLabel": "City of Grand Rapids",
+          "source": "https://www.grandrapidsmi.gov/departments/parks-recreation/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "shade",
+          "question": "Where can visitors find shade or weather shelter at Riverside Park?",
+          "answer": "Riverside has three reservable covered spaces: Island Shelter for about 80 people, Riverbend Shelter for about 124, and the Bandshell for about 160. Mature trees also shade portions of the picnic and trail network, while riverfront lawns, launches, and sports areas remain exposed. These structures are not flood or severe-weather shelters; leave low river areas and use a substantial building or vehicle during lightning, dangerous wind, or rising water.",
+          "sourceLabel": "City of Grand Rapids",
+          "source": "https://www.grandrapidsmi.gov/explore-and-play/special-events/planning-and-resource-guide/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "dog-area",
+          "question": "Where can dogs go at Riverside Park, and what rules apply?",
+          "answer": "Dogs may use Riverside Park's public paths and open park areas on leash, and owners must clean up after them. Riverside does not currently have a designated off-leash dog park: the City's master plan describes one as a future project, while the City's current system map identifies Covell and Hillcrest as established dog parks. Keep dogs out of event areas when a permit or posted rule prohibits animals.",
+          "sourceLabel": "City of Grand Rapids",
+          "source": "https://www.grandrapidsmi.gov/guides/neighborhood-living-guide/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "splash-pad",
+          "question": "Is there a splash pad or swimming at Riverside Park in Grand Rapids?",
+          "answer": "Riverside Park is not a swimming or splash-pad destination. Its managed water recreation is the 2026 seasonal kayak rental at the accessible lagoon launch: Fridays 4:00-8:00 p.m. and Saturdays and Sundays 10:00 a.m.-4:00 p.m. through the planned August 30 final date, weather permitting. Rentals cost $5 per hour for ages 17 and under and $10 per hour for adults, include boats and lifejackets, and are first come, first rented. Check the closure hotline before traveling.",
+          "sourceLabel": "City of Grand Rapids Parks and Recreation",
+          "source": "https://www.grandrapidsmi.gov/departments/parks-recreation/recreation/kayaking/",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "transit",
+          "question": "Is there a bus directly to Riverside Park in Grand Rapids?",
+          "answer": "No fixed-route bus currently runs along the park's Monroe Avenue edge; the City's Riverside Park access audit explicitly identifies Monroe Avenue as having a separated bike path but no bus line. Use The Rapid's live planner to evaluate a nearby neighborhood stop and the remaining walk, or arrive by bicycle or arranged ride. Enter the specific shelter, playground, band shell, kayak launch, or north or south entrance because the park is long and floodplain paths can close.",
+          "sourceLabel": "City of Grand Rapids",
+          "source": "https://www.grandrapidsmi.gov/files/assets/public/v/1/departments/parks-and-recreation/files/parks/parks-master-plan/2022-priority-park-case-study-riverside-park.pdf",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        },
+        {
+          "intentKey": "public-art",
+          "question": "What are the main landmarks in Riverside Park in Grand Rapids?",
+          "answer": "Riverside Park is a long Grand River floodplain park organized around scenic drives, mature groves, ponds, streams, trails, and large lawns rather than one central monument. The Bandshell Shelter, Riverbend Shelter, and Island Shelter are the most useful named meeting places; playgrounds, boat and kayak access, sports areas, and north and south entrances lie farther apart. Route to a named shelter or facility and check flood conditions before relying on low river-edge paths.",
+          "sourceLabel": "City of Grand Rapids",
+          "source": "https://www.grandrapidsmi.gov/files/assets/public/v/2/departments/parks-and-recreation/files/parks/parks-master-plan/2022-gr-parks-strategic-master-plan-appendix.pdf",
+          "sourceType": "official",
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11"
+        }
+      ]
     },
     "launch-tn-memphis-shelby-farms-park": {
       "address": "6903 Great View Drive North, Memphis, TN 38134",

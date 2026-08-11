@@ -1,14 +1,14 @@
 {
   "campaign": "Upper Midwest lake corridor",
-  "reviewedAt": "2026-08-08",
+  "reviewedAt": "2026-08-11",
   "reviewMethod": "Exact title/source match plus visual relevance review; reusable license retained from the source record.",
   "places": {
     "launch-wi-milwaukee-lake-park": {
       "name": "Lake Park",
       "candidates": [
         {
-          "title": "Built in 1903. Designed by Ferry and Clas.",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Colonial_Revival_-_Milwaukee%2C_WI_-_Lake_Park_Pavilion_%281%29.jpg/1920px-Colonial_Revival_-_Milwaukee%2C_WI_-_Lake_Park_Pavilion_%281%29.jpg",
+          "title": "Lake Park Pavilion in Milwaukee",
+          "url": "/assets/parks/upper-midwest-lake-super/lake-park/01-lake-park-pavilion-in-milwaukee.webp",
           "source": "https://commons.wikimedia.org/wiki/File:Colonial_Revival_-_Milwaukee,_WI_-_Lake_Park_Pavilion_(1).jpg",
           "creator": "Bmzuckerman",
           "license": "CC BY 4.0",
@@ -16,7 +16,7 @@
           "provider": "existing-auditmap",
           "alt": "Lake Park Pavilion in Milwaukee",
           "reviewStatus": "approved-destination-match",
-          "reviewedAt": "2026-08-08",
+          "reviewedAt": "2026-08-11",
           "reviewNote": "The source identifies Lake Park or its named subsite and permits reuse under the recorded license."
         },
         {
@@ -40,7 +40,7 @@
           "reviewNote": "The source identifies Lake Park or its named subsite and permits reuse under the recorded license.",
           "query": "Lake Park Milwaukee Lion Bridges",
           "alt": "Lion Bridge in Lake Park",
-          "reviewedAt": "2026-08-08"
+          "reviewedAt": "2026-08-11"
         },
         {
           "title": "North Point Lighthouse, Lake Park, Milwaukee, Wisconsin, USA, decorated for July 4th",
@@ -63,19 +63,22 @@
           "reviewNote": "The source identifies Lake Park or its named subsite and permits reuse under the recorded license.",
           "query": "Lake Park Milwaukee Wisconsin",
           "alt": "North Point Lighthouse in Lake Park",
-          "reviewedAt": "2026-08-08"
+          "reviewedAt": "2026-08-11"
         },
         {
-          "title": "Built in 1903. Designed by Ferry and Clas.",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Colonial_Revival_-_Milwaukee%2C_WI_-_Lake_Park_Pavilion_%282%29.jpg/1920px-Colonial_Revival_-_Milwaukee%2C_WI_-_Lake_Park_Pavilion_%282%29.jpg",
-          "source": "https://commons.wikimedia.org/wiki/File:Colonial_Revival_-_Milwaukee,_WI_-_Lake_Park_Pavilion_(2).jpg",
-          "creator": "Bmzuckerman",
-          "license": "CC BY 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-          "provider": "existing-auditmap",
-          "alt": "Another view of the historic Lake Park Pavilion",
+          "title": "Lake Park August 2025 3 (Grand Staircase)",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Lake_Park_August_2025_3_%28Grand_Staircase%29.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Lake_Park_August_2025_3_(Grand_Staircase).jpg",
+          "creator": "Michael Barera",
+          "creatorUrl": "https://commons.wikimedia.org/wiki/User:Michael_Barera",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "width": 4032,
+          "height": 3024,
+          "provider": "wikimedia",
+          "alt": "Grand Staircase and Lake Michigan view in Lake Park",
           "reviewStatus": "approved-destination-match",
-          "reviewedAt": "2026-08-08",
+          "reviewedAt": "2026-08-11",
           "reviewNote": "The source identifies Lake Park or its named subsite and permits reuse under the recorded license."
         }
       ]
@@ -84,31 +87,40 @@
       "name": "Veterans Park",
       "candidates": [
         {
-          "title": "Milwaukee February 2025 26 (Veterans Park)",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Milwaukee_February_2025_26_%28Veterans_Park%29.jpg",
-          "source": "https://commons.wikimedia.org/w/index.php?curid=160532141",
+          "title": "Milwaukee August 2024 4 (Veterans Park Lagoon)",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Milwaukee_August_2024_4_%28Veterans_Park_Lagoon%29.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Milwaukee_August_2024_4_(Veterans_Park_Lagoon).jpg",
           "creator": "Michael Barera",
           "creatorUrl": "https://commons.wikimedia.org/wiki/User:Michael_Barera",
-          "license": "BY-SA",
-          "licenseVersion": "4.0",
+          "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "width": 6000,
-          "height": 4000,
+          "width": 4032,
+          "height": 3024,
           "provider": "wikimedia",
-          "matchedTerms": [
-            "veterans",
-            "park",
-            "milwaukee"
-          ],
+          "alt": "Veterans Park Lagoon and Milwaukee skyline",
           "reviewStatus": "approved-destination-match",
-          "reviewNote": "The source identifies Veterans Park or its named subsite and permits reuse under the recorded license.",
-          "query": "Veterans Park Milwaukee Wisconsin",
-          "alt": "Veterans Park on Milwaukee's lakefront",
-          "reviewedAt": "2026-08-08"
+          "reviewedAt": "2026-08-11",
+          "reviewNote": "The source identifies Veterans Park or its named subsite and permits reuse under the recorded license."
         },
         {
-          "title": "Art Musuem Viewed From Veterans Park, Milwaukee WI",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Milwaukee_Art_Museum_viewed_from_Veterans_Park_in_August_2006_%28213528301%29.jpg/1920px-Milwaukee_Art_Museum_viewed_from_Veterans_Park_in_August_2006_%28213528301%29.jpg",
+          "title": "Milwaukee October 2024 2 (Veterans Park)",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Milwaukee_October_2024_2_%28Veterans_Park%29.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Milwaukee_October_2024_2_(Veterans_Park).jpg",
+          "creator": "Michael Barera",
+          "creatorUrl": "https://commons.wikimedia.org/wiki/User:Michael_Barera",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "width": 4032,
+          "height": 3024,
+          "provider": "wikimedia",
+          "alt": "Open lawn and paved path in Veterans Park",
+          "reviewStatus": "approved-destination-match",
+          "reviewedAt": "2026-08-11",
+          "reviewNote": "The source identifies Veterans Park or its named subsite and permits reuse under the recorded license."
+        },
+        {
+          "title": "Milwaukee Art Museum viewed from Veterans Park",
+          "url": "/assets/parks/upper-midwest-lake-super/veterans-park/03-milwaukee-art-museum-viewed-from-veterans-park.webp",
           "source": "https://commons.wikimedia.org/wiki/File:Milwaukee_Art_Museum_viewed_from_Veterans_Park_in_August_2006_(213528301).jpg",
           "creator": "Purple Slog from West Allis Wisconsin, USA",
           "license": "CC BY 2.0",
@@ -116,31 +128,8 @@
           "provider": "existing-auditmap",
           "alt": "Milwaukee Art Museum viewed from Veterans Park",
           "reviewStatus": "approved-destination-match",
-          "reviewedAt": "2026-08-08",
+          "reviewedAt": "2026-08-11",
           "reviewNote": "The source identifies Veterans Park or its named subsite and permits reuse under the recorded license."
-        },
-        {
-          "title": "Milwaukee February 2026 46 (Veterans Park Lagoon and Gold Coast skyline)",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Milwaukee_February_2026_46_%28Veterans_Park_Lagoon_and_Gold_Coast_skyline%29.jpg",
-          "source": "https://commons.wikimedia.org/w/index.php?curid=189150529",
-          "creator": "Michael Barera",
-          "creatorUrl": "https://commons.wikimedia.org/wiki/User:Michael_Barera",
-          "license": "BY-SA",
-          "licenseVersion": "4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "width": 6000,
-          "height": 4000,
-          "provider": "wikimedia",
-          "matchedTerms": [
-            "veterans",
-            "park",
-            "milwaukee"
-          ],
-          "reviewStatus": "approved-destination-match",
-          "reviewNote": "The source identifies Veterans Park or its named subsite and permits reuse under the recorded license.",
-          "query": "Veterans Park Milwaukee lagoon",
-          "alt": "Veterans Park Lagoon and Milwaukee skyline",
-          "reviewedAt": "2026-08-08"
         },
         {
           "title": "Sunrise over Veterans Park 2420",
@@ -162,7 +151,7 @@
           "reviewNote": "The source identifies Veterans Park or its named subsite and permits reuse under the recorded license.",
           "query": "Veterans Park Milwaukee Wisconsin",
           "alt": "Sunrise over Veterans Park",
-          "reviewedAt": "2026-08-08"
+          "reviewedAt": "2026-08-11"
         }
       ]
     },
@@ -170,8 +159,8 @@
       "name": "Olbrich Park",
       "candidates": [
         {
-          "title": "Olbrich Park Madison WI USA",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Olbrich_Park_Madison_WI_USA.jpg/1920px-Olbrich_Park_Madison_WI_USA.jpg",
+          "title": "Olbrich Park on Lake Monona",
+          "url": "/assets/parks/upper-midwest-lake-super/olbrich-park/01-olbrich-park-madison-wi-usa.webp",
           "source": "https://commons.wikimedia.org/wiki/File:Olbrich_Park_Madison_WI_USA.jpg",
           "creator": "BrianStanding",
           "license": "CC BY-SA 4.0",
@@ -179,12 +168,12 @@
           "provider": "existing-auditmap",
           "alt": "Olbrich Park on Lake Monona",
           "reviewStatus": "approved-destination-match",
-          "reviewedAt": "2026-08-08",
+          "reviewedAt": "2026-08-11",
           "reviewNote": "The source identifies Olbrich Park or its named subsite and permits reuse under the recorded license."
         },
         {
-          "title": "Capitol Seen from Olbrich Park",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Capitol_Seen_from_Olbrich_Park_-_panoramio.jpg/1920px-Capitol_Seen_from_Olbrich_Park_-_panoramio.jpg",
+          "title": "Wisconsin State Capitol seen from Olbrich Park",
+          "url": "/assets/parks/upper-midwest-lake-super/olbrich-park/02-capitol-seen-from-olbrich-park.webp",
           "source": "https://commons.wikimedia.org/wiki/File:Capitol_Seen_from_Olbrich_Park_-_panoramio.jpg",
           "creator": "Corey Coyle",
           "license": "CC BY 3.0",
@@ -192,56 +181,11 @@
           "provider": "existing-auditmap",
           "alt": "Wisconsin State Capitol seen from Olbrich Park",
           "reviewStatus": "approved-destination-match",
-          "reviewedAt": "2026-08-08",
+          "reviewedAt": "2026-08-11",
           "reviewNote": "The source identifies Olbrich Park or its named subsite and permits reuse under the recorded license."
-        },
-        {
-          "title": "Walk in the Park",
-          "url": "https://live.staticflickr.com/5579/31002507471_5e1d6c6128_b.jpg",
-          "source": "https://www.flickr.com/photos/126765364@N07/31002507471",
-          "creator": "iAM Peterson",
-          "creatorUrl": "https://www.flickr.com/photos/126765364@N07",
-          "license": "BY-SA",
-          "licenseVersion": "2.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
-          "width": 683,
-          "height": 1024,
-          "provider": "flickr",
-          "matchedTerms": [
-            "olbrich",
-            "park",
-            "madison"
-          ],
-          "reviewStatus": "approved-destination-match",
-          "reviewNote": "The source identifies Olbrich Park or its named subsite and permits reuse under the recorded license.",
-          "query": "Olbrich Park Madison Wisconsin",
-          "alt": "Walking in Olbrich Park",
-          "reviewedAt": "2026-08-08"
-        },
-        {
-          "title": "Olbrich Botanical Gardens 08-14-2012 1023",
-          "url": "https://live.staticflickr.com/8174/8064157493_086d3a43f9_b.jpg",
-          "source": "https://www.flickr.com/photos/56708607@N04/8064157493",
-          "creator": "Richard Hurd",
-          "creatorUrl": "https://www.flickr.com/photos/56708607@N04",
-          "license": "BY",
-          "licenseVersion": "2.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-          "width": 1024,
-          "height": 678,
-          "provider": "flickr",
-          "matchedTerms": [
-            "olbrich",
-            "park",
-            "madison"
-          ],
-          "reviewStatus": "approved-destination-match",
-          "reviewNote": "The source identifies Olbrich Park or its named subsite and permits reuse under the recorded license.",
-          "query": "Olbrich Park Madison Wisconsin",
-          "alt": "Olbrich Botanical Gardens beside Olbrich Park",
-          "reviewedAt": "2026-08-08"
         }
-      ]
+      ],
+      "reviewNote": "Only two reusable photographs are clearly attributable to Olbrich Park itself. Current City images do not state reuse permission, and Botanical Gardens media depicts an adjacent destination rather than the park."
     },
     "launch-wi-madison-vilas-park": {
       "name": "Vilas Park",
@@ -267,7 +211,7 @@
           "reviewNote": "The source identifies Vilas Park or its named subsite and permits reuse under the recorded license.",
           "query": "Vilas Park Madison Wisconsin",
           "alt": "Winter sunset at Vilas Park",
-          "reviewedAt": "2026-08-08"
+          "reviewedAt": "2026-08-11"
         },
         {
           "title": "Vilas Park Bridge 01-27-2013 013",
@@ -290,7 +234,7 @@
           "reviewNote": "The source identifies Vilas Park or its named subsite and permits reuse under the recorded license.",
           "query": "Vilas Park Madison Wisconsin",
           "alt": "Bridge over the lagoon in Vilas Park",
-          "reviewedAt": "2026-08-08"
+          "reviewedAt": "2026-08-11"
         },
         {
           "title": "Vilas Park Beach on Lake Wingra",
@@ -312,11 +256,11 @@
           "reviewNote": "The source identifies Vilas Park or its named subsite and permits reuse under the recorded license.",
           "query": "Vilas Park beach Madison",
           "alt": "Vilas Park Beach on Lake Wingra",
-          "reviewedAt": "2026-08-08"
+          "reviewedAt": "2026-08-11"
         },
         {
-          "title": "Several of the effigy mounds above Vilas Park in Madison, WI",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Madison%2C_WI_11-01-2011_230_%286933387163%29.jpg/1920px-Madison%2C_WI_11-01-2011_230_%286933387163%29.jpg",
+          "title": "Effigy mounds overlooking Vilas Park",
+          "url": "/assets/parks/upper-midwest-lake-super/vilas-park/04-effigy-mounds-overlooking-vilas-park.webp",
           "source": "https://commons.wikimedia.org/wiki/File:Madison,_WI_11-01-2011_230_(6933387163).jpg",
           "creator": "Richard Hurd from Leland, USA",
           "license": "CC BY 2.0",
@@ -324,7 +268,7 @@
           "provider": "existing-auditmap",
           "alt": "Effigy mounds overlooking Vilas Park",
           "reviewStatus": "approved-destination-match",
-          "reviewedAt": "2026-08-08",
+          "reviewedAt": "2026-08-11",
           "reviewNote": "The source identifies Vilas Park or its named subsite and permits reuse under the recorded license."
         }
       ]
@@ -333,8 +277,8 @@
       "name": "Millennium Park",
       "candidates": [
         {
-          "title": "Millenium Park Beach in Grand Rapids, MI",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Millennium_beach.jpg",
+          "title": "Millennium Park Beach in Grand Rapids",
+          "url": "/assets/parks/upper-midwest-lake-super/millennium-park/01-millennium-park-beach-in-grand-rapids.webp",
           "source": "https://commons.wikimedia.org/wiki/File:Millennium_beach.jpg",
           "creator": "Kyleveldman",
           "license": "Public domain",
@@ -342,37 +286,13 @@
           "provider": "existing-auditmap",
           "alt": "Millennium Park Beach in Grand Rapids",
           "reviewStatus": "approved-destination-match",
-          "reviewedAt": "2026-08-08",
+          "reviewedAt": "2026-08-11",
           "reviewNote": "The source identifies Millennium Park or its named subsite and permits reuse under the recorded license."
         },
         {
-          "title": "Millenium Park Mosaic",
-          "url": "https://live.staticflickr.com/3841/14458194387_c82b504360_b.jpg",
-          "source": "https://www.flickr.com/photos/26503922@N08/14458194387",
-          "creator": "rkramer62",
-          "creatorUrl": "https://www.flickr.com/photos/26503922@N08",
-          "license": "BY",
-          "licenseVersion": "2.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-          "width": 1024,
-          "height": 1024,
-          "provider": "flickr",
-          "matchedTerms": [
-            "millennium",
-            "park",
-            "grand",
-            "rapids"
-          ],
-          "reviewStatus": "approved-destination-match",
-          "reviewNote": "The source identifies Millennium Park or its named subsite and permits reuse under the recorded license.",
-          "query": "Millennium Park Grand Rapids Michigan",
-          "alt": "Mosaic at Millennium Park",
-          "reviewedAt": "2026-08-08"
-        },
-        {
-          "title": "Cloudy Sunset",
-          "url": "https://live.staticflickr.com/949/39899795360_daa4a01f1e_b.jpg",
-          "source": "https://www.flickr.com/photos/127444856@N04/39899795360",
+          "title": "Gray to Green",
+          "url": "https://live.staticflickr.com/827/41707097111_ef6c66c8e6_b.jpg",
+          "source": "https://www.flickr.com/photos/127444856@N04/41707097111",
           "creator": "drewtarvin",
           "creatorUrl": "https://www.flickr.com/photos/127444856@N04",
           "license": "BY",
@@ -385,8 +305,27 @@
           "reviewStatus": "approved-destination-match",
           "reviewNote": "The source identifies Millennium Park or its named subsite and permits reuse under the recorded license.",
           "query": "Millennium Park Grand Rapids Michigan",
-          "alt": "Cloudy sunset at Millennium Park",
-          "reviewedAt": "2026-08-08"
+          "alt": "Lake and restored landscape at Millennium Park",
+          "reviewedAt": "2026-08-11"
+        },
+        {
+          "title": "Distant Sunset",
+          "url": "https://live.staticflickr.com/965/40989177164_b4198e356b_b.jpg",
+          "source": "https://www.flickr.com/photos/127444856@N04/40989177164",
+          "creator": "drewtarvin",
+          "creatorUrl": "https://www.flickr.com/photos/127444856@N04",
+          "license": "BY",
+          "licenseVersion": "2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+          "width": 1024,
+          "height": 576,
+          "provider": "flickr",
+          "matchedTerms": [],
+          "reviewStatus": "approved-destination-match",
+          "reviewNote": "The source identifies Millennium Park or its named subsite and permits reuse under the recorded license.",
+          "query": "Millennium Park Grand Rapids Michigan",
+          "alt": "Sheltered recreation plaza at Millennium Park",
+          "reviewedAt": "2026-08-11"
         },
         {
           "title": "Distant Shelter",
@@ -405,7 +344,7 @@
           "reviewNote": "The source identifies Millennium Park or its named subsite and permits reuse under the recorded license.",
           "query": "Millennium Park Grand Rapids Michigan",
           "alt": "Shelter and landscape at Millennium Park",
-          "reviewedAt": "2026-08-08"
+          "reviewedAt": "2026-08-11"
         }
       ]
     },
@@ -413,8 +352,8 @@
       "name": "Riverside Park",
       "candidates": [
         {
-          "title": "MI Big Green Gym, Riverside Park, Grand Rapids",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/MI_Big_Green_Gym%2C_Riverside_Park%2C_Grand_Rapids_%288949291464%29.jpg/1920px-MI_Big_Green_Gym%2C_Riverside_Park%2C_Grand_Rapids_%288949291464%29.jpg",
+          "title": "Riverside Park in Grand Rapids",
+          "url": "/assets/parks/upper-midwest-lake-super/riverside-park/01-riverside-park-in-grand-rapids.webp",
           "source": "https://commons.wikimedia.org/wiki/File:MI_Big_Green_Gym,_Riverside_Park,_Grand_Rapids_(8949291464).jpg",
           "creator": "A Healthier Michigan from Detroit, United States",
           "license": "CC BY-SA 2.0",
@@ -422,7 +361,7 @@
           "provider": "existing-auditmap",
           "alt": "Riverside Park in Grand Rapids",
           "reviewStatus": "approved-destination-match",
-          "reviewedAt": "2026-08-08",
+          "reviewedAt": "2026-08-11",
           "reviewNote": "The source identifies Riverside Park or its named subsite and permits reuse under the recorded license."
         },
         {
@@ -447,7 +386,7 @@
           "reviewNote": "The source identifies Riverside Park or its named subsite and permits reuse under the recorded license.",
           "query": "Riverside Park Grand Rapids Michigan",
           "alt": "Community recreation in Riverside Park",
-          "reviewedAt": "2026-08-08"
+          "reviewedAt": "2026-08-11"
         },
         {
           "title": "MI Big Green Gym, Riverside Park, Grand Rapids",
@@ -471,7 +410,7 @@
           "reviewNote": "The source identifies Riverside Park or its named subsite and permits reuse under the recorded license.",
           "query": "Riverside Park Grand Rapids Michigan",
           "alt": "Visitor view in Riverside Park",
-          "reviewedAt": "2026-08-08"
+          "reviewedAt": "2026-08-11"
         },
         {
           "title": "MI Big Green Gym, Riverside Park, Grand Rapids",
@@ -495,7 +434,7 @@
           "reviewNote": "The source identifies Riverside Park or its named subsite and permits reuse under the recorded license.",
           "query": "Riverside Park Grand Rapids Michigan",
           "alt": "Trail and riverfront recreation at Riverside Park",
-          "reviewedAt": "2026-08-08"
+          "reviewedAt": "2026-08-11"
         }
       ]
     }

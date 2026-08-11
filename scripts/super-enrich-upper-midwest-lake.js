@@ -6,6 +6,7 @@ const path = require("node:path");
 const root = path.resolve(__dirname, "..");
 const campaign = require("../data/upper-midwest-lake-super-enrichment-campaign.json");
 const selections = require("../data/upper-midwest-lake-feature-selections.json");
+const factsDocument = require("../data/upper-midwest-lake-evidence-overrides.json");
 const coordinates = require("../data/generated/upper-midwest-lake-feature-coordinates.json").places;
 const galleries = require("../data/generated/upper-midwest-lake-super-images.json").places;
 const checkedAt = campaign.checkedAt;
@@ -58,6 +59,30 @@ function inherited(parent, intent, alternate, fallback) {
 function inheritedSource(parent, intent, alternate, source, sourceLabel) {
   const item = parentAnswer(parent, intent, alternate);
   return { source: item?.source || source, sourceLabel: item?.sourceLabel || sourceLabel };
+}
+
+function refreshParentFacts(scope, parent) {
+  const placeOverride = factsDocument.places[scope.id] || {};
+  const source = placeOverride.source || parent.source || scope.source;
+  const sourceLabel = placeOverride.sourceLabel || parent.sourceLabel || scope.operator;
+  const searchAnswers = (parent.searchAnswers || []).map((item) => {
+    const answerOverride = placeOverride.answerOverrides?.[item.intentKey] || {};
+    const staleRiversideSource = item.source === "https://www.grandrapidsmi.gov/parks-and-facilities/";
+    return {
+      ...item,
+      ...(staleRiversideSource ? { source, sourceLabel } : {}),
+      ...answerOverride,
+      checkedAt,
+      verifiedAt: checkedAt,
+    };
+  });
+  return {
+    ...parent,
+    source,
+    sourceLabel,
+    searchAnswers,
+    verifiedAt: checkedAt,
+  };
 }
 
 function featureAnswers(parent, feature) {
@@ -144,10 +169,11 @@ function makeFeature(parent, selected, point, images) {
     const parentSource = national.parks[scope.id];
     const existingReady = all.parks.find((item) => item.id === scope.id);
     if (!launchRecord || !parentSource) throw new Error(`${scope.name}: launch or parent source record missing`);
+    const freshParent = refreshParentFacts(scope, parentSource);
     const existing = {
       ...launchRecord,
-      ...parentSource,
       ...existingReady,
+      ...freshParent,
       id: scope.id,
       name: scope.name,
       city: scope.city,
@@ -155,6 +181,39 @@ function makeFeature(parent, selected, point, images) {
       address: addresses[scope.id],
     };
     const images = galleries[scope.id]?.images || [];
+    if (scope.photoGateStatus?.startsWith("deferred-")) {
+      if (!existingReady) throw new Error(`${scope.name}: deferred parent source record missing`);
+      if (images.length >= scope.minImages || images.length < 1) throw new Error(`${scope.name}: deferred gallery must retain one to ${scope.minImages - 1} reviewed park-specific images`);
+      const deferredRecord = {
+        ...existing,
+        image: images[0],
+        images: images.slice(1),
+        features: [],
+        likelySubsites: false,
+        publishStatus: "photo-gated-deferred",
+        researchQueue: [scope.reviewNote || selections.researchQueue[scope.id]],
+      };
+      upsert(all, deferredRecord);
+      upsert(pilot, deferredRecord);
+      upsert({ parks: launch }, deferredRecord);
+      for (const parentData of [national, campaignParents]) {
+        const current = parentData.parks[scope.id] || {};
+        parentData.parks[scope.id] = {
+          ...current,
+          address: addresses[scope.id],
+          source: existing.source,
+          sourceLabel: existing.sourceLabel,
+          searchAnswers: existing.searchAnswers,
+          image: images[0],
+          additionalImages: images.slice(1),
+          replaceImages: true,
+          sources: existing.sources,
+          verifiedAt: checkedAt,
+        };
+      }
+      console.log(`${scope.name}: photo-gated deferral retained with ${images.length} reviewed park-specific images; ${existingReady.features?.length || 0} legacy subsites retired`);
+      continue;
+    }
     if (images.length !== 4) throw new Error(`${scope.name}: expected four reviewed images`);
     const approved = selections.places[scope.id] || [];
     const features = approved.map((selected) => {
@@ -163,7 +222,10 @@ function makeFeature(parent, selected, point, images) {
       return makeFeature(existing, selected, point, images);
     });
     const featureSources = approved.map((item) => ({ label: item.sourceLabel, url: item.source }));
-    const sources = [...(existing.sources || [{ label: existing.sourceLabel || scope.operator, url: existing.source || scope.source }]), ...featureSources]
+    const baseSources = existing.sources?.length
+      ? existing.sources
+      : [{ label: existing.sourceLabel || scope.operator, url: existing.source || scope.source }];
+    const sources = [...baseSources, ...featureSources]
       .filter((item, index, list) => item?.url && list.findIndex((other) => other.url === item.url) === index);
     const queue = selections.researchQueue[scope.id] ? [selections.researchQueue[scope.id]] : [];
     const record = {
@@ -179,11 +241,15 @@ function makeFeature(parent, selected, point, images) {
     };
     upsert(all, record);
     upsert(pilot, record);
+    upsert({ parks: launch }, record);
     for (const parentData of [national, campaignParents]) {
       const current = parentData.parks[scope.id] || {};
       parentData.parks[scope.id] = {
         ...current,
         address: addresses[scope.id],
+        source: existing.source,
+        sourceLabel: existing.sourceLabel,
+        searchAnswers: existing.searchAnswers,
         image: images[0],
         additionalImages: images.slice(1),
         replaceImages: true,
@@ -197,6 +263,7 @@ function makeFeature(parent, selected, point, images) {
   }
   write("data/generated/all-subsites-ready.json", all);
   write("data/generated/pilot-subsites-ready.json", pilot);
+  write("data/generated/launch-map-places.json", launch);
   write("data/parent-park-information-enrichment-national.json", national);
   write("data/parent-park-information-enrichment-campaign.json", campaignParents);
   write("data/launch-location-overrides.json", locations);

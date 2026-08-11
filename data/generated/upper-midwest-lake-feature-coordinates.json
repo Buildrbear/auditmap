@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-08",
+  "checkedAt": "2026-08-11",
   "reviewMethod": "Exact named OpenStreetMap feature, official operator or destination page, and a destination-specific licensed campaign photograph.",
   "places": {
     "launch-wi-milwaukee-lake-park": {
@@ -11,8 +11,8 @@
         "source": "https://northpointlighthouse.org/visit/admission/",
         "summary": "North Point Lighthouse is the separately operated museum and historic tower within Lake Park, reached from Wahl Avenue on the park's east side.",
         "cost": "Current admission is $8 for ages 12 and older, $5 for seniors, college students, and children ages 5-11, and free for children 4 and under, active military, and members; recheck before visiting.",
-        "hours": "The museum and tower are normally open Saturday and Sunday from 1:00-4:00 p.m.; scheduled closures, private events, and seasonal changes can override those hours.",
-        "needToKnow": "The museum is accessible, but the tower is not: the climb includes 84 steps and a ladder. Tower climbers must be at least five years old and 38 inches tall. Admission is separate from general park access.",
+        "hours": "The museum and tower are normally open Saturday and Sunday from 1:00-4:00 p.m. The operator lists 2026 closures on April 5, July 4, July 25-26, and December 26; private events and later schedule changes can also override public hours.",
+        "needToKnow": "The museum is accessible, but the tower is not: the climb includes 84 steps and a ladder. Tower climbers must be at least five years old and 38 inches tall. Admission and operating hours are separate from general park access.",
         "latitude": 43.0655738,
         "longitude": -87.8713923,
         "displayName": "North Point Lighthouse",
@@ -20,7 +20,7 @@
         "boundarySource": "https://www.openstreetmap.org/relation/6044259",
         "positionQuality": "reviewed-public-map-placement",
         "reviewStatus": "approved-feature-and-boundary-match",
-        "reviewedAt": "2026-08-08"
+        "reviewedAt": "2026-08-11"
       },
       "lion-bridge": {
         "name": "Lion Bridge",
@@ -39,14 +39,14 @@
         "boundarySource": "https://www.openstreetmap.org/relation/6044259",
         "positionQuality": "reviewed-public-map-placement",
         "reviewStatus": "approved-feature-and-boundary-match",
-        "reviewedAt": "2026-08-08"
+        "reviewedAt": "2026-08-11"
       }
     },
     "launch-wi-milwaukee-veterans-park": {
       "veterans-park-lagoon": {
         "name": "Veterans Park Lagoon",
         "osm": "way/25354099",
-        "imageIndex": 2,
+        "imageIndex": 0,
         "sourceLabel": "Milwaukee County Parks",
         "source": "https://county.milwaukee.gov/EN/Parks/Explore/Lakefront/VeteransPark",
         "summary": "Veterans Park Lagoon is the sheltered water feature beside the lakefront lawn and the park's seasonal boat-rental operation.",
@@ -60,37 +60,17 @@
         "boundarySource": "https://www.openstreetmap.org/relation/6028206",
         "positionQuality": "reviewed-public-map-placement",
         "reviewStatus": "approved-feature-and-boundary-match",
-        "reviewedAt": "2026-08-08"
+        "reviewedAt": "2026-08-11"
       }
     },
-    "launch-wi-madison-olbrich-park": {
-      "olbrich-botanical-gardens": {
-        "name": "Olbrich Botanical Gardens",
-        "osm": "way/265881695",
-        "imageIndex": 3,
-        "sourceLabel": "Olbrich Botanical Gardens",
-        "source": "https://www.olbrich.org/visit/",
-        "summary": "Olbrich Botanical Gardens is a separately operated garden destination beside Olbrich Park, with free outdoor gardens and the ticketed Bolz Conservatory.",
-        "cost": "Outdoor gardens are free. Current Bolz Conservatory admission is $6 for the public, $3 for ages 6-12, and free for ages 5 and under, with posted free periods and access programs; recheck before visiting.",
-        "hours": "Outdoor gardens, the conservatory, lobby, and gift shop are listed 10:00 a.m.-6:00 p.m. daily April through September and 10:00 a.m.-4:00 p.m. daily October through March, subject to holiday and event changes.",
-        "needToKnow": "Outdoor garden admission is free, while the Bolz Conservatory has separate admission and periodic free windows. Most routes are brick or concrete, with some gravel, bark, and flagstone; wheelchairs and mobility scooters are available.",
-        "latitude": 43.092702,
-        "longitude": -89.3349781,
-        "displayName": "Olbrich Botanical Gardens",
-        "coordinateSource": "https://www.openstreetmap.org/way/265881695",
-        "boundarySource": "https://www.openstreetmap.org/way/28725841",
-        "positionQuality": "reviewed-public-map-placement",
-        "reviewStatus": "approved-feature-and-boundary-match",
-        "reviewedAt": "2026-08-08"
-      }
-    },
+    "launch-wi-madison-olbrich-park": {},
     "launch-wi-madison-vilas-park": {
       "vilas-park-beach": {
         "name": "Vilas Park Beach",
         "osm": "way/158911023",
         "imageIndex": 2,
         "sourceLabel": "City of Madison Parks Division",
-        "source": "https://www.cityofmadison.com/parks/find-a-park/vilas",
+        "source": "https://www.cityofmadison.com/parks/documents/VilasParkMPReportExecSummaryupdate5102021.pdf",
         "summary": "Vilas Park Beach is the park's designated Lake Wingra swimming area at 1501 Vilas Park Drive, with seasonal restrooms and an accessible beach mat.",
         "cost": "No separate beach admission is listed; parking limits and reservable facilities have separate rules.",
         "hours": "The beach is unstaffed and has no lifeguard. Water quality is monitored during the maintained beach season, generally Memorial Day through Labor Day; restroom hours and services are seasonal.",
@@ -102,7 +82,7 @@
         "boundarySource": "https://www.openstreetmap.org/relation/14645861",
         "positionQuality": "reviewed-public-map-placement",
         "reviewStatus": "approved-feature-and-boundary-match",
-        "reviewedAt": "2026-08-08"
+        "reviewedAt": "2026-08-11"
       },
       "vilas-park-mound-group": {
         "name": "Vilas Park Mound Group",
@@ -121,7 +101,7 @@
         "boundarySource": "https://www.openstreetmap.org/relation/14645861",
         "positionQuality": "reviewed-public-map-placement",
         "reviewStatus": "approved-feature-and-boundary-match",
-        "reviewedAt": "2026-08-08"
+        "reviewedAt": "2026-08-11"
       }
     },
     "launch-mi-grand-rapids-millennium-park": {
@@ -132,9 +112,9 @@
         "sourceLabel": "Kent County Parks",
         "source": "https://www.kentcountymi.gov/1765/Millennium-Park",
         "summary": "Millennium Park Beach is the staffed-season recreation area beside the six-acre beach and splashpad complex, separate from the park's free trails and open space.",
-        "cost": "Daily beach and splashpad admission or a season pass is required during the operating season; verify current Kent County rates before visiting.",
-        "hours": "The main park operates May 1 through October 31 from 7:00 a.m. to sunset. Beach and splashpad access follows a separate seasonal schedule; the main recreation area and restrooms close for winter.",
-        "needToKnow": "Beach and splashpad admission is charged even though general park and trail access is free. Use Lots A or B for the main recreation area and verify the current swim season, admission, weather status, and water rules before leaving.",
+        "cost": "Daily beach and splashpad admission is $4 for ages 16-62, $3 for ages 63 and older, $2 for ages 3-15, and free for ages 2 and under. Kent County says 2026 season-pass sales have ended; recheck future-season rates.",
+        "hours": "The beach is open 10:00 a.m.-8:00 p.m. and splashpad 10:00 a.m.-7:00 p.m. through August 23, then the beach closes at 7:00 p.m. and splashpad at 6:00 p.m. through Labor Day. The operator had not posted final 2026 closing dates when checked.",
+        "needToKnow": "Beach and splashpad admission is charged even though general park and trail access is free. Pets are prohibited in the beach area except trained service dogs. Use Lots A or B and verify same-day weather, water, and closing status before leaving.",
         "latitude": 42.936752,
         "longitude": -85.7503979,
         "displayName": "Millennium Park Beach",
@@ -142,7 +122,7 @@
         "boundarySource": "https://www.openstreetmap.org/relation/17576900",
         "positionQuality": "reviewed-public-map-placement",
         "reviewStatus": "approved-feature-and-boundary-match",
-        "reviewedAt": "2026-08-08"
+        "reviewedAt": "2026-08-11"
       }
     }
   }
