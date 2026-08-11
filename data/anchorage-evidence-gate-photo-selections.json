@@ -1,0 +1,29 @@
+{
+  "campaign": "Anchorage evidence-gate enrichment",
+  "reviewedAt": "2026-08-11",
+  "reviewMethod": "Exact-place title, Wikimedia Commons source page, license metadata, and visual review. Event portraits, adjacent Campbell Tract scenes, wildlife-only sets, and ambiguous Anchorage matches were rejected as parent-gallery substitutes.",
+  "places": {
+    "launch-ak-anchorage-kincaid-park": {
+      "candidates": [
+        {"file":"Kincaid Park, Anchorage, Alaska ENBLA02.jpg","alt":"Wide summer view across Kincaid Park's rolling green landscape","creator":"Enrico Blasutto","license":"CC BY-SA 4.0","licenseUrl":"https://creativecommons.org/licenses/by-sa/4.0"},
+        {"file":"Kincaid Park, Anchorage, Alaska ENBLA04.jpg","alt":"Kincaid Outdoor Center and paved visitor approach","creator":"Enrico Blasutto","license":"CC BY-SA 4.0","licenseUrl":"https://creativecommons.org/licenses/by-sa/4.0"},
+        {"file":"Kincaid Beach, Alaska - panoramio.jpg","alt":"Winter sunset and driftwood at Kincaid Beach on Cook Inlet","creator":"Paxson Woelber","license":"CC BY 3.0","licenseUrl":"https://creativecommons.org/licenses/by/3.0"},
+        {"file":"Moose Kincaid Park, Anchorage, Alaska (20119679970).jpg","alt":"Moose in summer vegetation at Kincaid Park","creator":"Mike's Birds","license":"CC BY-SA 2.0","licenseUrl":"https://creativecommons.org/licenses/by-sa/2.0"}
+      ]
+    },
+    "launch-ak-anchorage-far-north-bicentennial-park": {
+      "candidates": [
+        {"file":"Far North Bicentennial Park.jpg","alt":"Snow-covered forest trail in Far North Bicentennial Park","creator":"Agebauer","license":"CC BY-SA 4.0","licenseUrl":"https://creativecommons.org/licenses/by-sa/4.0"},
+        {"file":"NPLD 2012 - Alaska (9388673835).jpg","alt":"Volunteers beside a snowman during 2012 trail work involving Far North Bicentennial Park","creator":"Matthew Vos, Bureau of Land Management","license":"Public domain","licenseUrl":"https://creativecommons.org/publicdomain/mark/1.0/"}
+      ]
+    },
+    "launch-ak-anchorage-delaney-park-strip": {
+      "candidates": [
+        {"file":"Delaney Park ENBLA01.jpg","alt":"Wide view across Delaney Park Strip toward South Addition","creator":"Enrico Blasutto","license":"CC BY-SA 4.0","licenseUrl":"https://creativecommons.org/licenses/by-sa/4.0"},
+        {"file":"Delaney Park ENBLA04, Archorage, AK.jpg","alt":"Open lawn and downtown skyline at Delaney Park Strip","creator":"Enrico Blasutto","license":"CC BY-SA 4.0","licenseUrl":"https://creativecommons.org/licenses/by-sa/4.0"},
+        {"file":"Delaney Park ENBLA08.jpg","alt":"Flower beds, lawn, and mature trees in Centennial Rose Garden","creator":"Enrico Blasutto","license":"CC BY-SA 4.0","licenseUrl":"https://creativecommons.org/licenses/by-sa/4.0"},
+        {"file":"Alaska Railroad locomotive No. 556 on display at Delaney Park Strip, Anchorage, Alaska - May 2011.jpg","alt":"Historic Alaska Railroad steam locomotive No. 556 in Delaney Park Strip","creator":"Jason Riedy","license":"CC BY 2.0","licenseUrl":"https://creativecommons.org/licenses/by/2.0"}
+      ]
+    }
+  }
+}

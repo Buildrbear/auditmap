@@ -3,11 +3,19 @@
   "strategy": "Complete geographically connected clusters before opening isolated metros.",
   "completedBaseline": {
     "verifiedAt": "2026-08-11",
-    "campaignVerifierCount": 51,
+    "campaignVerifierCount": 52,
     "campaignVerifierFailures": 0,
-    "note": "All 51 national enrichment campaign verifiers pass locally after the Philadelphia and Pittsburgh source-persistence repairs. Production publication remains a maintainer decision."
+    "note": "All 52 national enrichment campaign verifiers pass locally after the Anchorage evidence-gate batch. Production publication remains a maintainer decision."
   },
   "recentlyCompleted": [
+    {
+      "name": "Anchorage evidence-gate enrichment",
+      "parentGuides": 2,
+      "deferredParents": 1,
+      "licensedPhotos": 10,
+      "evidenceCompleteSubsites": 3,
+      "status": "generated-and-locally-verified"
+    },
     {
       "name": "Pittsburgh source-persistence repair",
       "parentGuides": 8,
@@ -229,11 +237,11 @@
     }
   ],
   "activeCluster": {
-    "name": "Pittsburgh source-persistence repair",
-    "reason": "Schenley Park, Frick Park, and Point State Park retained correct campaign metadata and rendered pages but stale authoritative subsite and national-parent records. The repair restores eight parent records, fifty-four images, and twenty-one destinations and strengthens the verifier across four source layers.",
-    "releaseStandard": "Retain official parent answers, require three to four current representative reusable photographs per released parent, and publish only named subsites with exact reviewed coordinates, destination-specific photography, and current operator guidance.",
-    "status": "pittsburgh-source-persistence-generated-verified-and-preview-http-verified",
-    "metros": ["Pittsburgh"],
+    "name": "Anchorage evidence-gate enrichment",
+    "reason": "Anchorage remained the strongest connected launch gap after the source-persistence repairs. Kincaid Park and Delaney Park Strip now clear the four-photo parent gate, while Far North Bicentennial Park remains explicitly deferred with only two reviewed reusable images.",
+    "releaseStandard": "Retain current official parent answers, require four varied reusable photographs per released parent, and publish only named destinations with exact reviewed coordinates, destination-specific photography, nine source-backed answers, and current operator guidance.",
+    "status": "anchorage-generated-and-locally-verified",
+    "metros": ["Anchorage"],
     "resumeCheckpoint": {
       "pausedAt": "2026-08-11",
       "completed": [
@@ -386,9 +394,13 @@
     "Retained nineteen exact, destination-photo-backed pages and retired fifty-one inherited, approximate, duplicate, or photo-mismatched legacy routes with permanent parent redirects.",
     "Kept Lummus Park parent-only because its legacy destination cards did not independently clear exact destination-photo and complete-profile review.",
     "Verified raw parent and destination HTML, exact navigation coordinates, current source-backed answers, image rights metadata, retired-route redirects, and campaign sitemap routes after scoped generation.",
-    "Preview-verified all twenty-seven retained routes, all thirty-two optimized campaign images, and all fifty-two new permanent redirects; every tested phone and desktop layout was overflow-free and GitHub validation, secrets, and Vercel checks passed."
+    "Preview-verified all twenty-seven retained routes, all thirty-two optimized campaign images, and all fifty-two new permanent redirects; every tested phone and desktop layout was overflow-free and GitHub validation, secrets, and Vercel checks passed.",
+    "Rebuilt Kincaid Park and Delaney Park Strip with four varied reusable photographs each, current Municipality of Anchorage guidance, persisted source records, and explicit visitor-answer freshness metadata.",
+    "Published exact destination pages for Kincaid Beach, Centennial Rose Garden, and Alaska Railroad No. 556 using destination-specific Wikimedia Commons photographs and geotag or named OpenStreetMap positions.",
+    "Kept Far North Bicentennial Park photo-gated with two reviewed images rather than treating adjacent Campbell Tract scenes or a same-event volunteer series as representative park coverage.",
+    "Verified all 52 super-enrichment campaigns, North Carolina image and generated-page safeguards, Raleigh discovery, raw Anchorage HTML, exact navigation, and six phone plus three desktop layouts without horizontal overflow."
       ],
-    "nextAction": "After maintainer review of the stacked Pittsburgh source-persistence repair, open the next connected high-impact metro cluster with strong official sources and representative reusable media. Keep Julian B. Lane, Boyd Hill, inland Broward, Olbrich Park, Riverside Regional Park, and Broad Ripple Park in their documented photo queues until new permission-cleared coverage appears.",
+    "nextAction": "After maintainer review of the stacked Anchorage draft, continue with the next connected launch gap that clears current official-source and representative-photo review. Keep Far North Bicentennial Park, Julian B. Lane, Boyd Hill, inland Broward, Olbrich Park, Riverside Regional Park, and Broad Ripple Park in their documented photo queues until new permission-cleared coverage appears.",
       "notReleased": true,
       "productionPublished": false
     }

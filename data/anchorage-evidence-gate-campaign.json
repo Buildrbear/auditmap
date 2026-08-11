@@ -1,0 +1,40 @@
+{
+  "campaign": "Anchorage evidence-gate enrichment",
+  "checkedAt": "2026-08-11",
+  "releaseStandard": "Retain a parent only with four varied reusable photographs and current official visitor guidance. Retain a destination only with an exact reviewed position, destination-specific reusable photograph, nine destination answers, and current authoritative sourcing.",
+  "places": [
+    {
+      "id": "launch-ak-anchorage-kincaid-park",
+      "name": "Kincaid Park",
+      "city": "Anchorage",
+      "state": "AK",
+      "address": "9401 W Raspberry Road, Anchorage, AK 99502",
+      "officialSource": "https://www.muni.org/Departments/parks/Pages/Kincaid.aspx",
+      "imageQueries": ["Kincaid Park Anchorage", "Kincaid Outdoor Center", "Kincaid Beach Alaska", "Kincaid Park wildlife"],
+      "legacyCandidates": []
+    },
+    {
+      "id": "launch-ak-anchorage-far-north-bicentennial-park",
+      "name": "Far North Bicentennial Park",
+      "city": "Anchorage",
+      "state": "AK",
+      "address": "5577 Abbott Road, Anchorage, AK 99507",
+      "officialSource": "https://www.muni.org/Departments/parks/Pages/ServiceSingletrack.aspx",
+      "deferRelease": true,
+      "photoGateStatus": "deferred-two-representative-reusable-images",
+      "reviewNote": "Only one representative park landscape and one attributable volunteer-event photograph cleared review. The parent remains photo-gated until two additional varied park views are available; no destination clears the combined exact-photo, exact-position, and current-profile gate.",
+      "imageQueries": ["Far North Bicentennial Park Anchorage", "Far North Bicentennial winter trail", "Far North Bicentennial trailhead", "North Gasline Trail Anchorage"],
+      "legacyCandidates": []
+    },
+    {
+      "id": "launch-ak-anchorage-delaney-park-strip",
+      "name": "Delaney Park Strip",
+      "city": "Anchorage",
+      "state": "AK",
+      "address": "West 9th and 10th avenues, Anchorage, AK 99501",
+      "officialSource": "https://www.muni.org/Departments/parks/Pages/DelaneyParkMasterPlan.aspx",
+      "imageQueries": ["Delaney Park Strip Anchorage", "Centennial Rose Garden Anchorage", "Alaska Railroad 556 Delaney Park", "Delaney Park downtown"],
+      "legacyCandidates": []
+    }
+  ]
+}

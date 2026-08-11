@@ -2794,12 +2794,19 @@
       "verifiedAt": "2026-08-06"
     },
     "launch-ak-anchorage-far-north-bicentennial-park": {
+      "name": "Far North Bicentennial Park",
+      "city": "Anchorage",
+      "citySlug": "anchorage-ak",
       "operator": "Municipality of Anchorage Parks and Recreation",
       "sourceLabel": "Municipality of Anchorage",
       "source": "https://www.muni.org/Departments/parks/Pages/ServiceSingletrack.aspx",
-      "hours": "Far North Bicentennial Park is a year-round trail park with access controlled by posted trailhead and facility hours. Conditions, grooming, wildlife activity, construction, and seasonal trail rules can change practical access.",
-      "cost": "General park and trail access are free. Programs, permits, rentals, and organized events may charge.",
+      "address": "5577 Abbott Road, Anchorage, AK 99507",
       "summary": "Far North Bicentennial Park is Anchorage's largest municipal park, spanning about 4,011 acres with more than 80 miles of year-round trails for walking, running, hiking, skiing, mountain biking, skijoring, dog mushing, and other designated uses. It connects Hillside Park, Campbell Creek routes, BLM Campbell Tract, and one of the country's largest contiguous urban-wildland systems.",
+      "hours": "Far North Bicentennial Park is a year-round trail park with access controlled by posted trailhead and facility hours. Conditions, grooming, wildlife activity, construction, and seasonal trail rules can change practical access.",
+      "hoursSchedule": false,
+      "cost": "General park and trail access are free. Programs, permits, rentals, and organized events may charge.",
+      "accessibility": "Accessibility varies by entrance, route, terrain, and destination. Review the exact mapped subsite and its official source before relying on a specific accessible route.",
+      "transit": "Transit research pending",
       "searchAnswers": [
         {
           "intentKey": "entrance",
@@ -2808,7 +2815,10 @@
           "sourceLabel": "Municipality of Anchorage",
           "source": "https://www.muni.org/Departments/parks/Pages/ServiceSingletrack.aspx",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
         },
         {
           "intentKey": "trail-surface",
@@ -2817,7 +2827,10 @@
           "sourceLabel": "Municipality of Anchorage",
           "source": "https://www.muni.org/Departments/parks/Pages/ServiceSingletrack.aspx",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
         },
         {
           "intentKey": "parking",
@@ -2826,7 +2839,10 @@
           "sourceLabel": "Municipality of Anchorage",
           "source": "https://www.muni.org/Departments/parks/Pages/ServiceSingletrack.aspx",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "fast",
+          "status": "verified"
         },
         {
           "intentKey": "transit",
@@ -2835,7 +2851,10 @@
           "sourceLabel": "Municipality of Anchorage",
           "source": "https://www.muni.org/Departments/parks/Pages/FNBPBridges.aspx",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "fast",
+          "status": "verified"
         },
         {
           "intentKey": "restroom",
@@ -2844,7 +2863,10 @@
           "sourceLabel": "Municipality of Anchorage",
           "source": "https://www.muni.org/Departments/parks/pages/trails.aspx",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
         },
         {
           "intentKey": "dog-area",
@@ -2853,7 +2875,10 @@
           "sourceLabel": "Municipality of Anchorage",
           "source": "https://www.muni.org/Departments/parks/pages/trails.aspx",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
         },
         {
           "intentKey": "accessibility",
@@ -2862,7 +2887,10 @@
           "sourceLabel": "Municipality of Anchorage",
           "source": "https://www.muni.org/Departments/parks/Pages/FNBPBridges.aspx",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
         },
         {
           "intentKey": "closures",
@@ -2871,7 +2899,10 @@
           "sourceLabel": "Municipality of Anchorage",
           "source": "https://www.muni.org/Departments/parks/pages/trails.aspx",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "fast",
+          "status": "verified"
         },
         {
           "intentKey": "dog-area",
@@ -2880,7 +2911,10 @@
           "sourceLabel": "Municipality of Anchorage",
           "source": "https://www.muni.org/Departments/parks/pages/dogparks.aspx",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
         },
         {
           "intentKey": "trail-surface",
@@ -2889,7 +2923,10 @@
           "sourceLabel": "Municipality of Anchorage",
           "source": "https://campbelltrail.muni.org/ccit/17a-Page.html",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
         },
         {
           "intentKey": "hours",
@@ -2898,7 +2935,10 @@
           "sourceLabel": "Municipality of Anchorage",
           "source": "https://www.muni.org/Departments/parks/pages/trails.aspx",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "fast",
+          "status": "verified"
         },
         {
           "intentKey": "shade",
@@ -2907,7 +2947,10 @@
           "sourceLabel": "Bureau of Land Management",
           "source": "https://www.blm.gov/learn/interpretive-centers/campbell-creek-science-center/about",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
         },
         {
           "intentKey": "playground",
@@ -2916,7 +2959,10 @@
           "sourceLabel": "Municipality of Anchorage Parks and Recreation",
           "source": "https://www.muni.org/Departments/parks/Pages/ServiceSingletrack.aspx",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
         },
         {
           "intentKey": "picnic",
@@ -2925,7 +2971,10 @@
           "sourceLabel": "Municipality of Anchorage Parks and Recreation",
           "source": "https://www.muni.org/Departments/parks/Pages/Reservations.aspx",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
         },
         {
           "intentKey": "splash-pad",
@@ -2934,7 +2983,10 @@
           "sourceLabel": "Municipality of Anchorage",
           "source": "https://www.muni.org/departments/ocpd/planning/projects/documents/umed%20district%20plan%20update/2015-0036%20exhibit%20c-umed%20supporting%20documents.pdf",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
         },
         {
           "intentKey": "public-art",
@@ -2943,17 +2995,51 @@
           "sourceLabel": "Municipality of Anchorage",
           "source": "https://www.muni.org/Departments/parks/Pages/FNBPBridges.aspx",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
         }
-      ]
+      ],
+      "image": {
+        "url": "/assets/parks/anchorage-evidence-gate/far-north-bicentennial-park/01-far-north-bicentennial-park.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Far_North_Bicentennial_Park.jpg",
+        "author": "Agebauer",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "alt": "Snow-covered forest trail in Far North Bicentennial Park",
+        "width": 1600,
+        "height": 1000
+      },
+      "additionalImages": [
+        {
+          "url": "/assets/parks/anchorage-evidence-gate/far-north-bicentennial-park/02-npld-2012-alaska-9388673835.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:NPLD_2012_-_Alaska_(9388673835).jpg",
+          "author": "Matthew Vos, Bureau of Land Management",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+          "alt": "Volunteers beside a snowman during 2012 trail work involving Far North Bicentennial Park",
+          "width": 612,
+          "height": 612
+        }
+      ],
+      "replaceImages": true,
+      "verifiedAt": "2026-08-11"
     },
     "launch-ak-anchorage-delaney-park-strip": {
+      "name": "Delaney Park Strip",
+      "city": "Anchorage",
+      "citySlug": "anchorage-ak",
       "operator": "Municipality of Anchorage Parks and Recreation",
       "sourceLabel": "Municipality of Anchorage",
       "source": "https://www.muni.org/Departments/parks/Pages/DelaneyParkMasterPlan.aspx",
-      "hours": "Delaney Park Strip is an open downtown civic park subject to posted municipal park, field, court, rink, event, and maintenance hours. Permitted activities and seasonal facilities use separate schedules.",
-      "cost": "General lawn, path, memorial, court, and ordinary recreation access are free. Reservations, leagues, permits, and special events may charge.",
+      "address": "West 9th and 10th avenues, Anchorage, AK 99501",
       "summary": "Delaney Park Strip is Anchorage's long downtown civic green between 9th and 10th avenues, extending from A Street to P Street. Its open lawns, paths, memorials, sports fields, tennis and volleyball courts, seasonal outdoor rink, play and gathering areas support casual recreation, civic events, festivals, and downtown connections.",
+      "hours": "Delaney Park Strip is an open downtown civic park subject to posted municipal park, field, court, rink, event, and maintenance hours. Permitted activities and seasonal facilities use separate schedules.",
+      "hoursSchedule": false,
+      "cost": "General lawn, path, memorial, court, and ordinary recreation access are free. Reservations, leagues, permits, and special events may charge.",
+      "accessibility": "Accessibility varies by entrance, route, terrain, and destination. Review the exact mapped subsite and its official source before relying on a specific accessible route.",
+      "transit": "Transit research pending",
       "searchAnswers": [
         {
           "intentKey": "entrance",
@@ -2962,7 +3048,10 @@
           "sourceLabel": "Municipality of Anchorage",
           "source": "https://www.muni.org/departments/parks/documents/delaneyparkmemorialpolicy.pdf",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
         },
         {
           "intentKey": "parking",
@@ -2971,7 +3060,10 @@
           "sourceLabel": "Municipality of Anchorage",
           "source": "https://www.muni.org/Departments/parks/Pages/DelaneyParkMasterPlan.aspx",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "fast",
+          "status": "verified"
         },
         {
           "intentKey": "trail-surface",
@@ -2980,7 +3072,10 @@
           "sourceLabel": "Municipality of Anchorage",
           "source": "https://www.muni.org/Departments/parks/Pages/DelaneyParkMasterPlan.aspx",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
         },
         {
           "intentKey": "public-art",
@@ -2989,7 +3084,10 @@
           "sourceLabel": "Municipality of Anchorage",
           "source": "https://www.muni.org/departments/parks/documents/delaneyparkmemorialpolicy.pdf",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
         },
         {
           "intentKey": "fees",
@@ -2998,7 +3096,10 @@
           "sourceLabel": "Municipality of Anchorage",
           "source": "https://www.muni.org/Departments/parks/Pages/DelaneyParkMasterPlan.aspx",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
         },
         {
           "intentKey": "picnic",
@@ -3007,7 +3108,10 @@
           "sourceLabel": "Municipality of Anchorage",
           "source": "https://www.muni.org/Departments/parks/Pages/DelaneyParkMasterPlan.aspx",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
         },
         {
           "intentKey": "playground",
@@ -3016,7 +3120,10 @@
           "sourceLabel": "Municipality of Anchorage",
           "source": "https://www.muni.org/Departments/parks/Pages/Rinks_Fields_courts.aspx",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
         },
         {
           "intentKey": "closures",
@@ -3025,7 +3132,10 @@
           "sourceLabel": "Municipality of Anchorage",
           "source": "https://www.muni.org/Departments/parks/Pages/DelaneyParkMasterPlan.aspx",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "fast",
+          "status": "verified"
         },
         {
           "intentKey": "dog-area",
@@ -3034,7 +3144,10 @@
           "sourceLabel": "Municipality of Anchorage",
           "source": "https://www.muni.org/Departments/parks/pages/dogparks.aspx",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
         },
         {
           "intentKey": "restroom",
@@ -3043,7 +3156,10 @@
           "sourceLabel": "Municipality of Anchorage",
           "source": "https://www.muni.org/Departments/parks/Pages/DelaneyParkMasterPlan.aspx",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
         },
         {
           "intentKey": "accessibility",
@@ -3052,7 +3168,10 @@
           "sourceLabel": "Municipality of Anchorage",
           "source": "https://www.muni.org/Departments/parks/Pages/DelaneyParkMasterPlan.aspx",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
         },
         {
           "intentKey": "shade",
@@ -3061,7 +3180,10 @@
           "sourceLabel": "Municipality of Anchorage",
           "source": "https://www.muni.org/Departments/parks/Pages/DelaneyParkMasterPlan.aspx",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
         },
         {
           "intentKey": "splash-pad",
@@ -3070,7 +3192,10 @@
           "sourceLabel": "Municipality of Anchorage",
           "source": "https://www.muni.org/Departments/parks/Pages/Rinks_Fields_courts.aspx",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
         },
         {
           "intentKey": "transit",
@@ -3079,9 +3204,56 @@
           "sourceLabel": "Anchorage People Mover",
           "source": "https://www.muni.org/Departments/transit/PeopleMover/Documents/%212025%20Documents/October%20Service%20Change/System%20Map%20with%2031%20detour.pdf",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "fast",
+          "status": "verified"
         }
-      ]
+      ],
+      "image": {
+        "url": "/assets/parks/anchorage-evidence-gate/delaney-park-strip/01-delaney-park-enbla01.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Delaney_Park_ENBLA01.jpg",
+        "author": "Enrico Blasutto",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "alt": "Wide view across Delaney Park Strip toward South Addition",
+        "width": 1600,
+        "height": 671
+      },
+      "additionalImages": [
+        {
+          "url": "/assets/parks/anchorage-evidence-gate/delaney-park-strip/02-delaney-park-enbla04-archorage-ak.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Delaney_Park_ENBLA04,_Archorage,_AK.jpg",
+          "author": "Enrico Blasutto",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "alt": "Open lawn and downtown skyline at Delaney Park Strip",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/anchorage-evidence-gate/delaney-park-strip/03-delaney-park-enbla08.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Delaney_Park_ENBLA08.jpg",
+          "author": "Enrico Blasutto",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "alt": "Flower beds, lawn, and mature trees in Centennial Rose Garden",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/anchorage-evidence-gate/delaney-park-strip/04-alaska-railroad-locomotive-no-556-on-display-at-delaney-park-strip-anchorage-alaska-may-2011.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Alaska_Railroad_locomotive_No._556_on_display_at_Delaney_Park_Strip,_Anchorage,_Alaska_-_May_2011.jpg",
+          "author": "Jason Riedy",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+          "alt": "Historic Alaska Railroad steam locomotive No. 556 in Delaney Park Strip",
+          "width": 1600,
+          "height": 1000
+        }
+      ],
+      "replaceImages": true,
+      "verifiedAt": "2026-08-11"
     },
     "launch-hi-honolulu-kapiolani-regional-park": {
       "name": "Kapiolani Regional Park",
@@ -4219,12 +4391,19 @@
       ]
     },
     "launch-ak-anchorage-kincaid-park": {
+      "name": "Kincaid Park",
+      "city": "Anchorage",
+      "citySlug": "anchorage-ak",
       "operator": "Municipality of Anchorage Parks and Recreation",
       "sourceLabel": "Municipality of Anchorage",
       "source": "https://www.muni.org/Departments/parks/Pages/Kincaid.aspx",
-      "hours": "Kincaid Park gates, parking, chalet, trails, and programmed facilities use separate schedules. Published park guidance lists Raspberry Road gate access from 10:00 a.m. to 10:00 p.m. and parking until 11:00 p.m.; confirm current seasonal hours.",
-      "cost": "General park and trail access are free. Chalet rentals, organized programs, ski services, permits, and special events may charge.",
+      "address": "9401 W Raspberry Road, Anchorage, AK 99502",
       "summary": "Kincaid Park is a roughly 1,400-acre Anchorage recreation and natural area with more than 40 kilometers of skiing, running, hiking, and mountain-bike trails, Kincaid Chalet, Tony Knowles Coastal Trail connection, disc golf, archery, motocross and stadium areas, coastal-wildlife-refuge access, and views of Cook Inlet, Mount Susitna, Denali, and the Chugach Mountains.",
+      "hours": "Kincaid Outdoor Center is currently listed daily from 12:30 to 8:00 p.m. Raspberry Road gates are listed daily from 10:00 a.m. to 10:00 p.m. (to 11:00 p.m. June through August), while the Jodhpur gate is listed daily from 10:00 a.m. to 9:00 p.m. Facilities and programmed areas can close independently.",
+      "hoursSchedule": false,
+      "cost": "General park and trail access are free. Chalet rentals, organized programs, ski services, permits, and special events may charge.",
+      "accessibility": "Accessibility varies by entrance, route, terrain, and destination. Review the exact mapped subsite and its official source before relying on a specific accessible route.",
+      "transit": "Transit research pending",
       "searchAnswers": [
         {
           "intentKey": "entrance",
@@ -4233,16 +4412,22 @@
           "sourceLabel": "Municipality of Anchorage",
           "source": "https://www.muni.org/Departments/parks/Pages/Kincaid.aspx",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
         },
         {
           "intentKey": "hours",
           "question": "What hours is Kincaid Park open?",
-          "answer": "Published municipal guidance lists the Raspberry Road gate from 10 a.m.-10 p.m., its parking lot until 11 p.m., and the Jodhpur gate until 9 p.m. Chalet and holiday hours are separate and seasonal, so confirm current notices.",
+          "answer": "Kincaid Outdoor Center is currently listed daily from 12:30 to 8:00 p.m. Raspberry Road gates are listed daily from 10:00 a.m. to 10:00 p.m. (to 11:00 p.m. June through August), while the Jodhpur gate is listed daily from 10:00 a.m. to 9:00 p.m. Facilities and programmed areas can close independently.",
           "sourceLabel": "Municipality of Anchorage",
-          "source": "https://www.muni.org/departments/parks/documents/pr_winterguide_2014_web.pdf",
+          "source": "https://www.muni.org/Departments/parks/Pages/Kincaid.aspx",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "fast",
+          "status": "verified"
         },
         {
           "intentKey": "trail-surface",
@@ -4251,7 +4436,10 @@
           "sourceLabel": "Municipality of Anchorage",
           "source": "https://www.muni.org/Departments/parks/Pages/Kincaid.aspx",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
         },
         {
           "intentKey": "transit",
@@ -4260,7 +4448,10 @@
           "sourceLabel": "Municipality of Anchorage",
           "source": "https://www.muni.org/Departments/parks/Pages/KincaidMP.aspx",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "fast",
+          "status": "verified"
         },
         {
           "intentKey": "parking",
@@ -4269,7 +4460,10 @@
           "sourceLabel": "Municipality of Anchorage",
           "source": "https://www.muni.org/Departments/parks/Pages/Kincaid.aspx",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "fast",
+          "status": "verified"
         },
         {
           "intentKey": "restroom",
@@ -4278,7 +4472,10 @@
           "sourceLabel": "Municipality of Anchorage",
           "source": "https://www.muni.org/Departments/parks/Pages/Kincaid.aspx",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
         },
         {
           "intentKey": "public-art",
@@ -4287,7 +4484,10 @@
           "sourceLabel": "Municipality of Anchorage",
           "source": "https://www.muni.org/departments/parks/documents/pr_winterguide_2014_web.pdf",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
         },
         {
           "intentKey": "closures",
@@ -4296,7 +4496,10 @@
           "sourceLabel": "Municipality of Anchorage",
           "source": "https://www.muni.org/Departments/parks/Pages/Kincaid.aspx",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "fast",
+          "status": "verified"
         },
         {
           "intentKey": "dog-area",
@@ -4305,7 +4508,10 @@
           "sourceLabel": "Municipality of Anchorage",
           "source": "https://www.muni.org/Departments/parks/Pages/Rinks_Fields_courts.aspx",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
         },
         {
           "intentKey": "playground",
@@ -4314,7 +4520,10 @@
           "sourceLabel": "Municipality of Anchorage",
           "source": "https://www.muni.org/Departments/parks/Pages/KincaidMP.aspx",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
         },
         {
           "intentKey": "fees",
@@ -4323,7 +4532,10 @@
           "sourceLabel": "Municipality of Anchorage",
           "source": "https://www.muni.org/Departments/parks/Pages/KincaidMP.aspx",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
         },
         {
           "intentKey": "shade",
@@ -4332,7 +4544,10 @@
           "sourceLabel": "Municipality of Anchorage",
           "source": "https://www.muni.org/Departments/parks/pages/kincaidparkimprovements.aspx",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
         },
         {
           "intentKey": "picnic",
@@ -4341,7 +4556,10 @@
           "sourceLabel": "Municipality of Anchorage",
           "source": "https://www.muni.org/Departments/parks/Pages/Reservations.aspx",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
         },
         {
           "intentKey": "splash-pad",
@@ -4350,9 +4568,56 @@
           "sourceLabel": "Municipality of Anchorage",
           "source": "https://www.muni.org/Departments/parks/pages/recreation.aspx",
           "sourceType": "official",
-          "checkedAt": "2026-07-31"
+          "checkedAt": "2026-08-11",
+          "verifiedAt": "2026-08-11",
+          "freshnessClass": "slow",
+          "status": "verified"
         }
-      ]
+      ],
+      "image": {
+        "url": "/assets/parks/anchorage-evidence-gate/kincaid-park/01-kincaid-park-anchorage-alaska-enbla02.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Kincaid_Park,_Anchorage,_Alaska_ENBLA02.jpg",
+        "author": "Enrico Blasutto",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "alt": "Wide summer view across Kincaid Park's rolling green landscape",
+        "width": 1600,
+        "height": 885
+      },
+      "additionalImages": [
+        {
+          "url": "/assets/parks/anchorage-evidence-gate/kincaid-park/02-kincaid-park-anchorage-alaska-enbla04.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Kincaid_Park,_Anchorage,_Alaska_ENBLA04.jpg",
+          "author": "Enrico Blasutto",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "alt": "Kincaid Outdoor Center and paved visitor approach",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/anchorage-evidence-gate/kincaid-park/03-kincaid-beach-alaska-panoramio.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Kincaid_Beach,_Alaska_-_panoramio.jpg",
+          "author": "Paxson Woelber",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "alt": "Winter sunset and driftwood at Kincaid Beach on Cook Inlet",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/anchorage-evidence-gate/kincaid-park/04-moose-kincaid-park-anchorage-alaska-20119679970.webp",
+          "source": "https://commons.wikimedia.org/wiki/File:Moose_Kincaid_Park,_Anchorage,_Alaska_(20119679970).jpg",
+          "author": "Mike's Birds",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+          "alt": "Moose in summer vegetation at Kincaid Park",
+          "width": 1600,
+          "height": 1000
+        }
+      ],
+      "replaceImages": true,
+      "verifiedAt": "2026-08-11"
     },
     "launch-ca-los-angeles-exposition-park": {
       "operator": "State of California Exposition Park",
