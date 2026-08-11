@@ -7,7 +7,7 @@
 - OpenTask assignment: not separately supplied
 - GitHub issue: not separately supplied
 - Pull request: https://github.com/Buildrbear/auditmap/pull/29 (draft, stacked on PR #28)
-- Preview: pending draft deployment
+- Preview: https://auditmap-5ritdd6jd-derrys-projects-f5a18cb6.vercel.app (Ready at commit `eb5165520e6d85d3a27b2a7ac31aec2d1a12dd58`, deployment `dpl_2zcUbTJFLAPSbCJ81TigTkDoV6LN`)
 - Checked: 2026-08-11
 - Production publication: not performed
 
@@ -44,6 +44,8 @@ No official-site image was treated as reusable without a license. Adjacent Campb
 - All 52 super-enrichment campaign verifiers passed with zero failures.
 - North Carolina image-rights and generated-page safeguards passed, as did Raleigh discovery-loop verification.
 - All six retained Anchorage parent and destination routes passed 390-pixel checks; all three parent routes passed 1440-pixel checks. Each had a heading and canonical tag and no horizontal overflow. A plain local server cannot validate Vercel image optimization, so optimized image rendering remains a preview check.
+- The source-identical Ready preview returned HTML for all six retained routes and image payloads for all ten optimized campaign images through the deployment-protection bypass.
+- GitHub `validate`, `secrets`, and Vercel Preview Comments checks passed. A separate `Vercel – auditmap` commit status failed under the inaccessible `michael-hobgoods-projects` scope even though the `derrys-projects` deployment for the same commit is Ready; that duplicate integration remains an external review item.
 
 ## Unresolved Review Queue
 
@@ -53,6 +55,7 @@ No official-site image was treated as reusable without a license. Adjacent Campb
 | Kincaid Beach | Conditions | Tides, snow, ice, wildlife, and trail conditions change practical access | Municipality of Anchorage trail and park sources | Recheck operator alerts and weather before publication or a condition-sensitive visit |
 | Centennial Rose Garden | Seasonal appearance | The garden is established and mapped, but bloom and maintenance are seasonal | Delaney Park Master Plan, memorial map, Wikimedia Commons, OpenStreetMap | Avoid promising bloom; recheck if a current municipal closure or renovation is posted |
 | Alaska Railroad No. 556 | Hands-on access | The 2011 photograph shows temporary fencing and does not prove current climbing access | Delaney memorial map, Wikimedia Commons, OpenStreetMap | Follow current barriers; do not market the artifact as climbable without a current operator statement |
+| Pull request preview | Duplicate Vercel status | The source-identical `derrys-projects` preview is Ready and route/image checks pass, but a separate GitHub status points to a failed deployment in an inaccessible `michael-hobgoods-projects` scope | Vercel deployment metadata and GitHub commit checks | Maintainer should remove or repair the duplicate integration; do not change deployment protection or account scope from this contribution |
 
 ## Risk And Publication
 

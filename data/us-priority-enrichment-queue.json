@@ -240,7 +240,7 @@
     "name": "Anchorage evidence-gate enrichment",
     "reason": "Anchorage remained the strongest connected launch gap after the source-persistence repairs. Kincaid Park and Delaney Park Strip now clear the four-photo parent gate, while Far North Bicentennial Park remains explicitly deferred with only two reviewed reusable images.",
     "releaseStandard": "Retain current official parent answers, require four varied reusable photographs per released parent, and publish only named destinations with exact reviewed coordinates, destination-specific photography, nine source-backed answers, and current operator guidance.",
-    "status": "anchorage-generated-and-locally-verified",
+    "status": "anchorage-generated-locally-verified-and-preview-http-verified",
     "metros": ["Anchorage"],
     "resumeCheckpoint": {
       "pausedAt": "2026-08-11",
@@ -398,7 +398,8 @@
     "Rebuilt Kincaid Park and Delaney Park Strip with four varied reusable photographs each, current Municipality of Anchorage guidance, persisted source records, and explicit visitor-answer freshness metadata.",
     "Published exact destination pages for Kincaid Beach, Centennial Rose Garden, and Alaska Railroad No. 556 using destination-specific Wikimedia Commons photographs and geotag or named OpenStreetMap positions.",
     "Kept Far North Bicentennial Park photo-gated with two reviewed images rather than treating adjacent Campbell Tract scenes or a same-event volunteer series as representative park coverage.",
-    "Verified all 52 super-enrichment campaigns, North Carolina image and generated-page safeguards, Raleigh discovery, raw Anchorage HTML, exact navigation, and six phone plus three desktop layouts without horizontal overflow."
+    "Verified all 52 super-enrichment campaigns, North Carolina image and generated-page safeguards, Raleigh discovery, raw Anchorage HTML, exact navigation, and six phone plus three desktop layouts without horizontal overflow.",
+    "Preview-verified all six Anchorage routes and ten optimized campaign images on a source-identical Ready deployment; GitHub validate and secrets checks passed, while a duplicate Vercel status under an inaccessible account scope remains a documented external integration issue."
       ],
     "nextAction": "After maintainer review of the stacked Anchorage draft, continue with the next connected launch gap that clears current official-source and representative-photo review. Keep Far North Bicentennial Park, Julian B. Lane, Boyd Hill, inland Broward, Olbrich Park, Riverside Regional Park, and Broad Ripple Park in their documented photo queues until new permission-cleared coverage appears.",
       "notReleased": true,
