@@ -4,20 +4,20 @@ Last updated: 2026-08-10
 
 ## Current State
 
-- Status: third Cleveland batch is locally verified and preview-verified.
-- Working branch: `codex/cleveland-lakefront-evidence-rebuild`
-- Pull request: https://github.com/Buildrbear/auditmap/pull/10
-- First-batch release commit: `3671cb440`
-- Second-batch release commit: `a2aef020b`
-- Third-batch release commit: `ae792594c`
+- Status: first Detroit riverfront batch is locally verified and preview-verified.
+- Working branch: `codex/detroit-riverfront-evidence-rebuild`
+- Pull request: https://github.com/Buildrbear/auditmap/pull/11
+- Stacked base pull request: https://github.com/Buildrbear/auditmap/pull/10
+- Detroit release commit: `29fe472a7`
+- Preview: https://auditmap-bh5x3k6sb-derrys-projects-f5a18cb6.vercel.app
 - Production status: not merged or promoted to production.
 - Canonical machine-readable checkpoint: `data/us-priority-enrichment-queue.json` under `activeCluster.resumeCheckpoint`.
 
-The first Cleveland batch covers Edgewater Park and Wendy Park, with five evidence-cleared destination pages: Edgewater Beach, Cleveland Script Sign, Wendy Park Bridge, Wendy Park Volleyball Courts, and Old Cleveland Coast Guard Station. The second batch adds Rockefeller Park and Cultural Gardens, Public Square, and Cuyahoga Valley National Park with eight retained destination pages: Italian Cultural Garden, Hungarian Cultural Garden, Soldiers and Sailors Monument, Public Square Splash Pad, Brandywine Falls, Ledges Trail, Beaver Marsh, and Everett Covered Bridge. The third batch rebuilds Cleveland Lakefront Nature Preserve as a parent-only launch guide and retains four exact destination pages across Rocky River Reservation and Brecksville Reservation: Rocky River Nature Center, Berea Falls Scenic Overlook, Brecksville Nature Center, and Chippewa Creek Gorge Scenic Overlook.
+The Cleveland corridor remains complete through its three preview-verified batches. The first Detroit batch continues west with Belle Isle Park, Detroit RiverWalk, and Ralph C. Wilson Jr. Centennial Park. It retains five exact destination pages: Belle Isle Aquarium, Anna Scripps Whitcomb Conservatory, Dossin Great Lakes Museum, Huron-Clinton Metroparks Water Garden, and William Davidson Sport House. Detroit RiverWalk launches as a current parent-only guide until its individual segments clear the exact-arrival and destination-photo gates.
 
 ## Resume Point
 
-Do not repeat the first three Cleveland batches unless review finds a specific defect. The consolidated preview for Cleveland Lakefront Nature Preserve, Rocky River Reservation, and Brecksville Reservation is complete: all seven parent and destination routes returned successfully, the optimized destination images rendered, representative redirects resolved permanently, and local 390-pixel parent and destination layouts did not overflow. Select the next evidence-ready geographic cluster from the national queue.
+Do not repeat the Cleveland batches or the first Detroit riverfront batch unless review finds a specific defect. The Detroit preview is complete: all eight parent and destination routes returned successfully, all five optimized destination images rendered and were visually checked, representative retired routes resolved with permanent redirects, and every changed page fit both 1440-pixel and 390-pixel layouts without horizontal overflow. Continue the connected Detroit review with Dequindre Cut, Campus Martius Park, and Hart Plaza.
 
 Continue requiring representative reusable photography, current official visitor guidance, exact destination coordinates, and destination-specific photographic evidence before publishing any parent or destination page. Defer weak subsites rather than publishing broad parent images or approximate pins.
 
