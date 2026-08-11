@@ -6,8 +6,9 @@
 - Assignment: active AuditMap nationwide enrichment continuation
 - OpenTask assignment: not separately supplied
 - GitHub issue: not separately supplied
-- Pull request: pending stacked draft
-- Preview: pending pull-request deployment
+- Pull request: draft PR #30, stacked on PR #29: `https://github.com/Buildrbear/auditmap/pull/30`
+- Preview: Ready deployment `dpl_3fw6cNk99hmfopVe1fiLuAfnYM36`: `https://auditmap-506p1tc8d-derrys-projects-f5a18cb6.vercel.app`
+- Preview source commit: `6596769962601182478c2f6debc170479b539168`
 - Checked: 2026-08-11
 - Production publication: not performed
 
@@ -48,7 +49,9 @@ Exact source pages, creators, licenses, license URLs, alt text, and rejection de
 - `npm run verify:wilmington:super` passed two parents, two exact destinations, eight local images, one permanent retirement redirect, raw HTML, exact navigation, source-backed answers, and four persisted source layers.
 - The complete `npm run release:enrichment:check` gate passed all 53 enrichment campaigns with zero failures, national discovery, 272 North Carolina image-rights records, 655 North Carolina generated-page checks, galleries, dog-park media rules, performance, and SEO.
 - Full-generation-only national churn was reversed after the successful release gate; only the reviewed Wilmington source and generated paths remain changed.
-- All four retained routes passed 390-by-844-pixel browser checks with the correct heading and canonical tag, no application error, and no horizontal overflow. Both parent routes passed the same checks at 1440 by 1000 pixels. The only local image failures were expected `/_vercel/image` requests from the plain file server; optimized-image verification remains pending the pull-request preview.
+- All four retained routes passed 390-by-844-pixel browser checks with the correct heading and canonical tag, no application error, and no horizontal overflow. Both parent routes passed the same checks at 1440 by 1000 pixels.
+- The Ready pull-request deployment is tied to source commit `6596769962601182478c2f6debc170479b539168`. All four retained routes returned 200 with the correct heading and canonical tag; all eight `/_vercel/image` requests returned 200 image payloads; and the retired Brandywine Zoo route returned a permanent 308 redirect to Brandywine Park.
+- GitHub `validate`, `secrets`, and `Vercel Preview Comments` checks passed. A second Vercel status from the inaccessible `michael-hobgoods-projects` scope reported a failed duplicate deployment (`dpl_FPpuh9Ag7F2CTE6HBHv61tKXAtLd`), while the active `derrys-projects-f5a18cb6` AuditMap deployment above is Ready and passes every required preview check. Maintainers should remove or repair the stale duplicate integration rather than treating its inaccessible deployment as application evidence.
 
 ## Unresolved Review Queue
 
@@ -62,4 +65,4 @@ Exact source pages, creators, licenses, license URLs, alt text, and rejection de
 
 ## Risk And Publication
 
-This batch changes source campaign data and generated static pages but does not alter production data, authentication, moderation, rate limits, analytics, dependencies, or API costs. Primary risks are the fast-changing tower schedule, weather closures, seasonal fountain operation, large-event parking changes, and incomplete destination photography. No secrets, private visitor data, paid APIs, live database writes, merge, production deployment, or production promotion were performed.
+This batch changes source campaign data and generated static pages but does not alter production data, authentication, moderation, rate limits, analytics, dependencies, or API costs. Primary risks are the fast-changing tower schedule, weather closures, seasonal fountain operation, large-event parking changes, incomplete destination photography, and the stale duplicate Vercel integration described above. No secrets, private visitor data, paid APIs, live database writes, merge, production deployment, or production promotion were performed.

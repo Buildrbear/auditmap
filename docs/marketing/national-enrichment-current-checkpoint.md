@@ -4,11 +4,11 @@ Last updated: 2026-08-11
 
 ## Current State
 
-- Status: the Wilmington evidence-gate batch is generated and locally release-verified; all 53 national enrichment campaign verifiers pass with zero failures.
+- Status: the Wilmington evidence-gate batch is generated, release-verified, and preview-verified; all 53 national enrichment campaign verifiers pass with zero failures.
 - Working branch: `codex/wilmington-evidence-gate`
-- Pull request: pending stacked draft on PR #29
+- Pull request: draft PR #30, stacked on PR #29: `https://github.com/Buildrbear/auditmap/pull/30`
 - Outcome: Brandywine Park and Rockford Park clear the four-photo parent gate; Josephine Fountain and Rockford Tower clear exact destination review. Brandywine Zoo returns to parent guidance until a current representative reusable destination photograph clears rights review.
-- Preview: pending pull-request deployment and optimized-image verification.
+- Preview: Ready deployment `dpl_3fw6cNk99hmfopVe1fiLuAfnYM36` at `https://auditmap-506p1tc8d-derrys-projects-f5a18cb6.vercel.app`, source commit `6596769962601182478c2f6debc170479b539168`; four routes, eight optimized images, and the permanent zoo redirect passed. GitHub code checks passed; an inaccessible duplicate Vercel integration remains a maintainer configuration issue.
 - Production status: not merged or promoted to production.
 - Canonical machine-readable checkpoint: `data/us-priority-enrichment-queue.json` under `activeCluster.resumeCheckpoint`.
 
