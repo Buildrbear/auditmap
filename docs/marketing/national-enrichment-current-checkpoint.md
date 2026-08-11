@@ -6,7 +6,7 @@ Last updated: 2026-08-11
 
 - Status: the Anchorage evidence-gate batch is generated and locally verified; all 52 national enrichment campaign verifiers pass with zero failures.
 - Working branch: `codex/anchorage-evidence-gate`
-- Pull request: pending draft creation, stacked on PR #28
+- Pull request: https://github.com/Buildrbear/auditmap/pull/29 (draft, stacked on PR #28)
 - Outcome: Kincaid Park and Delaney Park Strip clear the four-photo parent gate; Kincaid Beach, Centennial Rose Garden, and Alaska Railroad No. 556 clear exact destination review. Far North Bicentennial Park remains explicitly photo-gated with two reviewed images.
 - Preview: pending draft deployment; six retained routes pass local 390-pixel checks and all three parents pass 1440-pixel checks without horizontal overflow.
 - Production status: not merged or promoted to production.
