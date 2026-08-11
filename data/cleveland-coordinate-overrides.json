@@ -1,0 +1,39 @@
+{
+  "checkedAt": "2026-08-10",
+  "places": {
+    "launch-oh-cleveland-edgewater-park": {
+      "edgewater-beach": {
+        "latitude": 41.48875,
+        "longitude": -81.738258,
+        "coordinateSource": "https://commons.wikimedia.org/wiki/File:Edgewater_Park_beach.png",
+        "positionQuality": "reviewed-current-beach-geotag-and-official-destination-map-match"
+      },
+      "cleveland-script-sign": {
+        "latitude": 41.4875455,
+        "longitude": -81.7492496,
+        "coordinateSource": "https://www.openstreetmap.org/node/13018358573",
+        "positionQuality": "reviewed-named-attraction-node-and-destination-photo-match"
+      }
+    },
+    "launch-oh-cleveland-wendy-park": {
+      "wendy-park-bridge": {
+        "latitude": 41.4976843,
+        "longitude": -81.7106801,
+        "coordinateSource": "https://www.openstreetmap.org/way/965074574",
+        "positionQuality": "reviewed-named-bridge-way-and-geotagged-photo-match"
+      },
+      "wendy-park-volleyball-courts": {
+        "latitude": 41.4994889,
+        "longitude": -81.7123306,
+        "coordinateSource": "https://commons.wikimedia.org/wiki/File:Wendy_Park_at_Whiskey_Island_-_51268866800.jpg",
+        "positionQuality": "reviewed-destination-specific-photo-geotag-and-official-amenity-match"
+      },
+      "old-cleveland-coast-guard-station": {
+        "latitude": 41.503056,
+        "longitude": -81.712778,
+        "coordinateSource": "https://commons.wikimedia.org/wiki/File:Old_Cleveland_Coast_Guard_Station,_Whiskey_Island,_Cleveland,_OH_(28569038297).jpg",
+        "positionQuality": "reviewed-named-building-photo-geotag-and-current-operator-access-match"
+      }
+    }
+  }
+}

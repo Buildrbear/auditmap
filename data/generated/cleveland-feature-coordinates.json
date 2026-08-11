@@ -3,101 +3,69 @@
   "places": {
     "launch-oh-cleveland-edgewater-park": {
       "edgewater-beach": {
-        "latitude": 41.4883957,
-        "longitude": -81.7383636,
-        "displayName": "Edgewater Beach House Pedestrian Bridge, Battery Park, Detroit-Shoreway, Detroit - Shoreway, Cleveland, Cuyahoga County, Ohio, 44102, United States",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "edgewater-beach-house": {
-        "latitude": 41.4887798,
-        "longitude": -81.7381827,
-        "displayName": "Edgewater Beach House, 6500, Cleveland Memorial Shoreway, Battery Park, Detroit-Shoreway, Detroit - Shoreway, Cleveland, Cuyahoga County, Ohio, 44102, United States",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "edgewater-dog-beach": {
-        "latitude": 41.4870336,
-        "longitude": -81.7483647,
-        "displayName": "Approximate position within Edgewater Park",
-        "source": "AuditMap official-map placement"
-      },
-      "edgewater-fishing-pier": {
-        "latitude": 41.4925772,
-        "longitude": -81.7369937,
-        "displayName": "Edgewater Fishing Pier, Cleveland Lakefront Bikeway, Battery Park, Detroit-Shoreway, Detroit - Shoreway, Cleveland, Cuyahoga County, Ohio, 44102, United States",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "lower-edgewater-park": {
-        "latitude": 41.4892603,
-        "longitude": -81.7379941,
-        "displayName": "Edgewater Park - Lower, Detroit-Shoreway, Detroit - Shoreway, Cleveland, Cuyahoga County, Ohio, 44102, United States",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "upper-edgewater-park": {
-        "latitude": 41.4866099,
-        "longitude": -81.7436513,
-        "displayName": "Upper Edgewater Shelter, Edgewater Park Trail, Battery Park, Detroit-Shoreway, Detroit - Shoreway, Cleveland, Cuyahoga County, Ohio, 44102, United States",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "edgewater-boat-ramps": {
-        "latitude": 41.4870336,
-        "longitude": -81.7495847,
-        "displayName": "Approximate position within Edgewater Park",
-        "source": "AuditMap official-map placement"
+        "latitude": 41.48875,
+        "longitude": -81.738258,
+        "coordinateSource": "https://commons.wikimedia.org/wiki/File:Edgewater_Park_beach.png",
+        "positionQuality": "reviewed-current-beach-geotag-and-official-destination-map-match",
+        "displayName": "reviewed-current-beach-geotag-and-official-destination-map-match",
+        "source": "https://commons.wikimedia.org/wiki/File:Edgewater_Park_beach.png"
       },
       "cleveland-script-sign": {
         "latitude": 41.4875455,
         "longitude": -81.7492496,
-        "displayName": "Cleveland Script Sign at Edgewater Park, Detroit-Shoreway, Detroit - Shoreway, Cleveland, Cuyahoga County, Ohio, 44102, United States",
-        "source": "OpenStreetMap Nominatim"
+        "coordinateSource": "https://www.openstreetmap.org/node/13018358573",
+        "positionQuality": "reviewed-named-attraction-node-and-destination-photo-match",
+        "displayName": "reviewed-named-attraction-node-and-destination-photo-match",
+        "source": "https://www.openstreetmap.org/node/13018358573"
       }
     },
     "launch-oh-cleveland-rockefeller-park-and-cultural-gardens": {
       "italian-cultural-garden": {
         "latitude": 41.528395,
         "longitude": -81.6271654,
-        "displayName": "Italian Cultural Garden, 1000, St. Clair-Superior, Cleveland, Cuyahoga County, Ohio, 44108, United States",
+        "displayName": "Preserved coordinate for Italian Cultural Garden",
         "source": "OpenStreetMap Nominatim"
       },
       "hungarian-cultural-garden": {
         "latitude": 41.5254784,
         "longitude": -81.6250585,
-        "displayName": "Hungarian Cultural Garden, St. Clair-Superior, Cleveland, Cuyahoga County, Ohio, 44108, United States",
+        "displayName": "Preserved coordinate for Hungarian Cultural Garden",
         "source": "OpenStreetMap Nominatim"
       },
       "irish-cultural-garden": {
         "latitude": 41.5223779,
         "longitude": -81.6218855,
-        "displayName": "Irish Cultural Garden, 1201, St. Clair-Superior, Cleveland, Cuyahoga County, Ohio, 44108, United States",
+        "displayName": "Preserved coordinate for Irish Cultural Garden",
         "source": "OpenStreetMap Nominatim"
       },
       "hebrew-cultural-garden": {
         "latitude": 41.5242705,
         "longitude": -81.6236356,
-        "displayName": "Hebrew Cultural Garden, St. Clair-Superior, Cleveland, Cuyahoga County, Ohio, 44108, United States",
+        "displayName": "Preserved coordinate for Hebrew Cultural Garden",
         "source": "OpenStreetMap Nominatim"
       },
       "african-american-cultural-garden": {
         "latitude": 41.5300436,
         "longitude": -81.6294721,
-        "displayName": "African American Cultural Garden, 890, St. Clair-Superior, Cleveland, Cuyahoga County, Ohio, 44108, United States",
+        "displayName": "Preserved coordinate for African American Cultural Garden",
         "source": "OpenStreetMap Nominatim"
       },
       "centennial-peace-plaza": {
         "latitude": 41.5258282,
         "longitude": -81.6258458,
-        "displayName": "Centennial Peace Plaza, Martin Luther King Junior Drive, St. Clair-Superior, Cleveland, Cuyahoga County, Ohio, 44108, United States",
+        "displayName": "Preserved coordinate for Centennial Peace Plaza",
         "source": "OpenStreetMap Nominatim"
       },
       "rockefeller-park-greenhouse": {
         "latitude": 41.5370521,
         "longitude": -81.628639,
-        "displayName": "City of Cleveland Greenhouse at Rockefeller Park, East 88th Street, Cleveland, Cuyahoga County, Ohio, 44108, United States",
+        "displayName": "Preserved coordinate for Rockefeller Park Greenhouse",
         "source": "OpenStreetMap Nominatim"
       },
       "rockefeller-lagoon": {
         "latitude": 41.5128278,
         "longitude": -81.6177036,
-        "displayName": "Rockefeller Lagoon, University Circle, Cleveland, Cuyahoga County, Ohio, United States",
+        "displayName": "Preserved coordinate for Rockefeller Lagoon",
         "source": "OpenStreetMap Nominatim"
       }
     },
@@ -105,49 +73,49 @@
       "nature-preserve-entrance": {
         "latitude": 41.5450518,
         "longitude": -81.6324694,
-        "displayName": "Approximate position within Cleveland Lakefront Nature Preserve",
+        "displayName": "Preserved coordinate for Nature Preserve Entrance",
         "source": "AuditMap official-map placement"
       },
       "shoreline-trail": {
         "latitude": 41.54503313513653,
         "longitude": -81.63203806486348,
-        "displayName": "Approximate position within Cleveland Lakefront Nature Preserve",
+        "displayName": "Preserved coordinate for Shoreline Trail",
         "source": "AuditMap official-map placement"
       },
       "lakefront-loop-trail": {
         "latitude": 41.5446018,
         "longitude": -81.6316994,
-        "displayName": "Approximate position within Cleveland Lakefront Nature Preserve",
+        "displayName": "Preserved coordinate for Lakefront Loop Trail",
         "source": "AuditMap official-map placement"
       },
       "monarch-meadow": {
         "latitude": 41.54428360194847,
         "longitude": -81.63215120194847,
-        "displayName": "Approximate position within Cleveland Lakefront Nature Preserve",
+        "displayName": "Preserved coordinate for Monarch Meadow",
         "source": "AuditMap official-map placement"
       },
       "birding-overlook": {
         "latitude": 41.5439918,
         "longitude": -81.6324694,
-        "displayName": "Approximate position within Cleveland Lakefront Nature Preserve",
+        "displayName": "Preserved coordinate for Birding Overlook",
         "source": "AuditMap official-map placement"
       },
       "cleveland-skyline-overlook": {
         "latitude": 41.54405732777849,
         "longitude": -81.63301387222153,
-        "displayName": "Approximate position within Cleveland Lakefront Nature Preserve",
+        "displayName": "Preserved coordinate for Cleveland Skyline Overlook",
         "source": "AuditMap official-map placement"
       },
       "preserve-wetlands": {
         "latitude": 41.5446018,
         "longitude": -81.6329194,
-        "displayName": "Approximate position within Cleveland Lakefront Nature Preserve",
+        "displayName": "Preserved coordinate for Preserve Wetlands",
         "source": "AuditMap official-map placement"
       },
       "dike-14-peninsula-point": {
         "latitude": 41.54503313513653,
         "longitude": -81.63290073513653,
-        "displayName": "Approximate position within Cleveland Lakefront Nature Preserve",
+        "displayName": "Preserved coordinate for Dike 14 Peninsula Point",
         "source": "AuditMap official-map placement"
       }
     },
@@ -155,49 +123,49 @@
       "soldiers-and-sailors-monument": {
         "latitude": 41.4995151,
         "longitude": -81.6929258,
-        "displayName": "Soldiers' and Sailors' Monument, Cleveland Foundation Centennial Plaza, Downtown Cleveland, Cleveland, Cuyahoga County, Ohio, 44113, United States",
+        "displayName": "Preserved coordinate for Soldiers and Sailors Monument",
         "source": "OpenStreetMap Nominatim"
       },
       "public-square-splash-pad": {
         "latitude": 41.50007833513653,
         "longitude": -81.69323596486348,
-        "displayName": "Approximate position within Public Square",
+        "displayName": "Preserved coordinate for Public Square Splash Pad",
         "source": "AuditMap official-map placement"
       },
       "rebol-cafe": {
         "latitude": 41.499647,
         "longitude": -81.6928973,
-        "displayName": "Approximate position within Public Square",
+        "displayName": "Preserved coordinate for REBoL Cafe",
         "source": "AuditMap official-map placement"
       },
       "public-square-main-lawn": {
         "latitude": 41.49932880194847,
         "longitude": -81.69334910194847,
-        "displayName": "Approximate position within Public Square",
+        "displayName": "Preserved coordinate for Public Square Main Lawn",
         "source": "AuditMap official-map placement"
       },
       "hospitality-kiosk": {
         "latitude": 41.499037,
         "longitude": -81.6936673,
-        "displayName": "Approximate position within Public Square",
+        "displayName": "Preserved coordinate for Hospitality Kiosk",
         "source": "AuditMap official-map placement"
       },
       "keybank-promenade": {
         "latitude": 41.49910252777849,
         "longitude": -81.69421177222152,
-        "displayName": "Approximate position within Public Square",
+        "displayName": "Preserved coordinate for KeyBank Promenade",
         "source": "AuditMap official-map placement"
       },
       "cleveland-foundation-ice-rink": {
         "latitude": 41.499647,
         "longitude": -81.6941173,
-        "displayName": "Approximate position within Public Square",
+        "displayName": "Preserved coordinate for Cleveland Foundation Ice Rink",
         "source": "AuditMap official-map placement"
       },
       "illuminate-cle-light-show": {
         "latitude": 41.50007833513653,
         "longitude": -81.69409863513653,
-        "displayName": "Approximate position within Public Square",
+        "displayName": "Preserved coordinate for Illuminate CLE Light Show",
         "source": "AuditMap official-map placement"
       }
     },
@@ -205,99 +173,75 @@
       "wendy-park-bridge": {
         "latitude": 41.4976843,
         "longitude": -81.7106801,
-        "displayName": "Wendy Park Bridge, Flats West Bank, Ohio City, Cleveland, Cuyahoga County, Ohio, 44199, United States",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "whiskey-island-trail": {
-        "latitude": 41.4982504,
-        "longitude": -81.7178277,
-        "displayName": "Boat Pavillion at Whiskey Island, Whiskey Island Connector Trail, Whiskey Island, Ohio City, Cleveland, Cuyahoga County, Ohio, 44199, United States",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "wendy-park-fishing-pier": {
-        "latitude": 41.4993834,
-        "longitude": -81.7131611,
-        "displayName": "Approximate position within Wendy Park",
-        "source": "AuditMap official-map placement"
+        "coordinateSource": "https://www.openstreetmap.org/way/965074574",
+        "positionQuality": "reviewed-named-bridge-way-and-geotagged-photo-match",
+        "displayName": "reviewed-named-bridge-way-and-geotagged-photo-match",
+        "source": "https://www.openstreetmap.org/way/965074574"
       },
       "wendy-park-volleyball-courts": {
-        "latitude": 41.49906520194847,
-        "longitude": -81.71361290194847,
-        "displayName": "Approximate position within Wendy Park",
-        "source": "AuditMap official-map placement"
+        "latitude": 41.4994889,
+        "longitude": -81.7123306,
+        "coordinateSource": "https://commons.wikimedia.org/wiki/File:Wendy_Park_at_Whiskey_Island_-_51268866800.jpg",
+        "positionQuality": "reviewed-destination-specific-photo-geotag-and-official-amenity-match",
+        "displayName": "reviewed-destination-specific-photo-geotag-and-official-amenity-match",
+        "source": "https://commons.wikimedia.org/wiki/File:Wendy_Park_at_Whiskey_Island_-_51268866800.jpg"
       },
-      "wendy-park-paddling-access": {
-        "latitude": 41.4987734,
-        "longitude": -81.7139311,
-        "displayName": "Approximate position within Wendy Park",
-        "source": "AuditMap official-map placement"
-      },
-      "old-coast-guard-station-overlook": {
-        "latitude": 41.498838927778486,
-        "longitude": -81.71447557222152,
-        "displayName": "Approximate position within Wendy Park",
-        "source": "AuditMap official-map placement"
-      },
-      "wendy-park-picnic-area": {
-        "latitude": 41.4993834,
-        "longitude": -81.7143811,
-        "displayName": "Approximate position within Wendy Park",
-        "source": "AuditMap official-map placement"
-      },
-      "whiskey-island-marina": {
-        "latitude": 41.4982504,
-        "longitude": -81.7178277,
-        "displayName": "Boat Pavillion at Whiskey Island, Whiskey Island Connector Trail, Whiskey Island, Ohio City, Cleveland, Cuyahoga County, Ohio, 44199, United States",
-        "source": "OpenStreetMap Nominatim"
+      "old-cleveland-coast-guard-station": {
+        "latitude": 41.503056,
+        "longitude": -81.712778,
+        "coordinateSource": "https://commons.wikimedia.org/wiki/File:Old_Cleveland_Coast_Guard_Station,_Whiskey_Island,_Cleveland,_OH_(28569038297).jpg",
+        "positionQuality": "reviewed-named-building-photo-geotag-and-current-operator-access-match",
+        "displayName": "reviewed-named-building-photo-geotag-and-current-operator-access-match",
+        "source": "https://commons.wikimedia.org/wiki/File:Old_Cleveland_Coast_Guard_Station,_Whiskey_Island,_Cleveland,_OH_(28569038297).jpg"
       }
     },
     "launch-oh-cleveland-rocky-river-reservation": {
       "rocky-river-nature-center": {
         "latitude": 41.4095383,
         "longitude": -81.8841401,
-        "displayName": "Approximate position within Rocky River Reservation",
+        "displayName": "Preserved coordinate for Rocky River Nature Center",
         "source": "AuditMap official-map placement"
       },
       "fort-hill-stairs": {
         "latitude": 41.409519635136526,
         "longitude": -81.88370876486347,
-        "displayName": "Approximate position within Rocky River Reservation",
+        "displayName": "Preserved coordinate for Fort Hill Stairs",
         "source": "AuditMap official-map placement"
       },
       "stinchcomb-groth-memorial": {
         "latitude": 41.4669373,
         "longitude": -81.8296912,
-        "displayName": "Stinchcomb-Groth Memorial, Cleveland, Cuyahoga County, Ohio, United States",
+        "displayName": "Preserved coordinate for Stinchcomb-Groth Memorial",
         "source": "OpenStreetMap Nominatim"
       },
       "emerald-necklace-marina": {
         "latitude": 41.40877010194847,
         "longitude": -81.88382190194847,
-        "displayName": "Approximate position within Rocky River Reservation",
+        "displayName": "Preserved coordinate for Emerald Necklace Marina",
         "source": "AuditMap official-map placement"
       },
       "berea-falls-scenic-overlook": {
         "latitude": 41.4084783,
         "longitude": -81.8841401,
-        "displayName": "Approximate position within Rocky River Reservation",
+        "displayName": "Preserved coordinate for Berea Falls Scenic Overlook",
         "source": "AuditMap official-map placement"
       },
       "lagoon-picnic-area": {
         "latitude": 41.40854382777849,
         "longitude": -81.88468457222152,
-        "displayName": "Approximate position within Rocky River Reservation",
+        "displayName": "Preserved coordinate for Lagoon Picnic Area",
         "source": "AuditMap official-map placement"
       },
       "big-met-golf-course": {
         "latitude": 41.4090883,
         "longitude": -81.8845901,
-        "displayName": "Approximate position within Rocky River Reservation",
+        "displayName": "Preserved coordinate for Big Met Golf Course",
         "source": "AuditMap official-map placement"
       },
       "rocky-river-all-purpose-trail": {
         "latitude": 41.4669013,
         "longitude": -81.8210219,
-        "displayName": "Rocky River All Purpose Trail, Cleveland, Cuyahoga County, Ohio, 44107, United States",
+        "displayName": "Preserved coordinate for Rocky River All Purpose Trail",
         "source": "OpenStreetMap Nominatim"
       }
     },
@@ -305,49 +249,49 @@
       "brecksville-nature-center": {
         "latitude": 41.3181187,
         "longitude": -81.6158246,
-        "displayName": "Approximate position within Brecksville Reservation",
+        "displayName": "Preserved coordinate for Brecksville Nature Center",
         "source": "AuditMap official-map placement"
       },
       "deer-lick-cave": {
         "latitude": 41.318100035136524,
         "longitude": -81.61539326486347,
-        "displayName": "Approximate position within Brecksville Reservation",
+        "displayName": "Preserved coordinate for Deer Lick Cave",
         "source": "AuditMap official-map placement"
       },
       "chippewa-creek-gorge": {
         "latitude": 41.3176687,
         "longitude": -81.6150546,
-        "displayName": "Approximate position within Brecksville Reservation",
+        "displayName": "Preserved coordinate for Chippewa Creek Gorge",
         "source": "AuditMap official-map placement"
       },
       "harriet-keeler-picnic-area": {
         "latitude": 41.31735050194847,
         "longitude": -81.61550640194847,
-        "displayName": "Approximate position within Brecksville Reservation",
+        "displayName": "Preserved coordinate for Harriet Keeler Picnic Area",
         "source": "AuditMap official-map placement"
       },
       "andrews-nature-play-area": {
         "latitude": 41.3170587,
         "longitude": -81.6158246,
-        "displayName": "Approximate position within Brecksville Reservation",
+        "displayName": "Preserved coordinate for Andrews Nature Play Area",
         "source": "AuditMap official-map placement"
       },
       "buckeye-trail": {
         "latitude": 41.317124227778486,
         "longitude": -81.61636907222152,
-        "displayName": "Approximate position within Brecksville Reservation",
+        "displayName": "Preserved coordinate for Buckeye Trail",
         "source": "AuditMap official-map placement"
       },
       "sleepy-hollow-golf-course": {
         "latitude": 41.3176687,
         "longitude": -81.6162746,
-        "displayName": "Approximate position within Brecksville Reservation",
+        "displayName": "Preserved coordinate for Sleepy Hollow Golf Course",
         "source": "AuditMap official-map placement"
       },
       "meadows-picnic-area": {
         "latitude": 41.318100035136524,
         "longitude": -81.61625593513652,
-        "displayName": "Approximate position within Brecksville Reservation",
+        "displayName": "Preserved coordinate for Meadows Picnic Area",
         "source": "AuditMap official-map placement"
       }
     },
@@ -355,49 +299,49 @@
       "boston-mill-visitor-center": {
         "latitude": 41.2630454,
         "longitude": -81.560308,
-        "displayName": "Approximate position within Cuyahoga Valley National Park",
+        "displayName": "Preserved coordinate for Boston Mill Visitor Center",
         "source": "AuditMap official-map placement"
       },
       "brandywine-falls": {
         "latitude": 41.26302673513653,
         "longitude": -81.55987666486348,
-        "displayName": "Approximate position within Cuyahoga Valley National Park",
+        "displayName": "Preserved coordinate for Brandywine Falls",
         "source": "AuditMap official-map placement"
       },
       "ledges-trail": {
         "latitude": 41.2625954,
         "longitude": -81.559538,
-        "displayName": "Approximate position within Cuyahoga Valley National Park",
+        "displayName": "Preserved coordinate for Ledges Trail",
         "source": "AuditMap official-map placement"
       },
       "beaver-marsh": {
         "latitude": 41.26227720194847,
         "longitude": -81.55998980194848,
-        "displayName": "Approximate position within Cuyahoga Valley National Park",
+        "displayName": "Preserved coordinate for Beaver Marsh",
         "source": "AuditMap official-map placement"
       },
       "ohio-and-erie-canal-towpath-trail": {
         "latitude": 41.2619854,
         "longitude": -81.560308,
-        "displayName": "Approximate position within Cuyahoga Valley National Park",
+        "displayName": "Preserved coordinate for Ohio and Erie Canal Towpath Trail",
         "source": "AuditMap official-map placement"
       },
       "everett-covered-bridge": {
         "latitude": 41.26205092777849,
         "longitude": -81.56085247222153,
-        "displayName": "Approximate position within Cuyahoga Valley National Park",
+        "displayName": "Preserved coordinate for Everett Covered Bridge",
         "source": "AuditMap official-map placement"
       },
       "blue-hen-falls": {
         "latitude": 41.2625954,
         "longitude": -81.560758,
-        "displayName": "Approximate position within Cuyahoga Valley National Park",
+        "displayName": "Preserved coordinate for Blue Hen Falls",
         "source": "AuditMap official-map placement"
       },
       "canal-exploration-center": {
         "latitude": 41.26302673513653,
         "longitude": -81.56073933513653,
-        "displayName": "Approximate position within Cuyahoga Valley National Park",
+        "displayName": "Preserved coordinate for Canal Exploration Center",
         "source": "AuditMap official-map placement"
       }
     }
