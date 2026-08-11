@@ -4,12 +4,12 @@ Last updated: 2026-08-10
 
 ## Current State
 
-- Status: third Cleveland batch is locally verified and awaiting its consolidated preview.
+- Status: third Cleveland batch is locally verified and preview-verified.
 - Working branch: `codex/cleveland-lakefront-evidence-rebuild`
 - Pull request: https://github.com/Buildrbear/auditmap/pull/10
 - First-batch release commit: `3671cb440`
 - Second-batch release commit: `a2aef020b`
-- Third-batch release commit: `3d4804b88`
+- Third-batch release commit: `ae792594c`
 - Production status: not merged or promoted to production.
 - Canonical machine-readable checkpoint: `data/us-priority-enrichment-queue.json` under `activeCluster.resumeCheckpoint`.
 
@@ -17,7 +17,7 @@ The first Cleveland batch covers Edgewater Park and Wendy Park, with five eviden
 
 ## Resume Point
 
-Do not repeat the first three Cleveland batches unless review finds a specific defect. Verify the consolidated preview for Cleveland Lakefront Nature Preserve, Rocky River Reservation, and Brecksville Reservation, including image rendering and 390-pixel parent and destination layouts. After that review, select the next evidence-ready geographic cluster from the national queue.
+Do not repeat the first three Cleveland batches unless review finds a specific defect. The consolidated preview for Cleveland Lakefront Nature Preserve, Rocky River Reservation, and Brecksville Reservation is complete: all seven parent and destination routes returned successfully, the optimized destination images rendered, representative redirects resolved permanently, and local 390-pixel parent and destination layouts did not overflow. Select the next evidence-ready geographic cluster from the national queue.
 
 Continue requiring representative reusable photography, current official visitor guidance, exact destination coordinates, and destination-specific photographic evidence before publishing any parent or destination page. Defer weak subsites rather than publishing broad parent images or approximate pins.
 
