@@ -4,25 +4,22 @@ Last updated: 2026-08-10
 
 ## Current State
 
-- Status: second Cleveland flagship batch is locally verified and awaiting its consolidated preview.
+- Status: third Cleveland batch is locally verified and awaiting its consolidated preview.
 - Working branch: `codex/cleveland-lakefront-evidence-rebuild`
 - Pull request: https://github.com/Buildrbear/auditmap/pull/10
 - First-batch release commit: `3671cb440`
-- Second-batch release commit: this checkpoint's next commit on the same branch.
+- Second-batch release commit: `a2aef020b`
+- Third-batch release commit: this checkpoint's next commit on the same branch.
 - Production status: not merged or promoted to production.
 - Canonical machine-readable checkpoint: `data/us-priority-enrichment-queue.json` under `activeCluster.resumeCheckpoint`.
 
-The first Cleveland batch covers Edgewater Park and Wendy Park, with five evidence-cleared destination pages: Edgewater Beach, Cleveland Script Sign, Wendy Park Bridge, Wendy Park Volleyball Courts, and Old Cleveland Coast Guard Station. The second batch adds Rockefeller Park and Cultural Gardens, Public Square, and Cuyahoga Valley National Park with eight retained destination pages: Italian Cultural Garden, Hungarian Cultural Garden, Soldiers and Sailors Monument, Public Square Splash Pad, Brandywine Falls, Ledges Trail, Beaver Marsh, and Everett Covered Bridge.
+The first Cleveland batch covers Edgewater Park and Wendy Park, with five evidence-cleared destination pages: Edgewater Beach, Cleveland Script Sign, Wendy Park Bridge, Wendy Park Volleyball Courts, and Old Cleveland Coast Guard Station. The second batch adds Rockefeller Park and Cultural Gardens, Public Square, and Cuyahoga Valley National Park with eight retained destination pages: Italian Cultural Garden, Hungarian Cultural Garden, Soldiers and Sailors Monument, Public Square Splash Pad, Brandywine Falls, Ledges Trail, Beaver Marsh, and Everett Covered Bridge. The third batch rebuilds Cleveland Lakefront Nature Preserve as a parent-only launch guide and retains four exact destination pages across Rocky River Reservation and Brecksville Reservation: Rocky River Nature Center, Berea Falls Scenic Overlook, Brecksville Nature Center, and Chippewa Creek Gorge Scenic Overlook.
 
 ## Resume Point
 
-Do not repeat the Lakefront or second-batch research unless review finds a specific defect. After the consolidated preview is verified, select the strongest evidence-ready batch from:
+Do not repeat the first three Cleveland batches unless review finds a specific defect. Verify the consolidated preview for Cleveland Lakefront Nature Preserve, Rocky River Reservation, and Brecksville Reservation, including image rendering and 390-pixel parent and destination layouts. After that review, select the next evidence-ready geographic cluster from the national queue.
 
-1. Cleveland Lakefront Nature Preserve
-2. Rocky River Reservation
-3. Brecksville Reservation
-
-Before publishing any parent or destination page, confirm representative reusable photography, current official visitor guidance, exact destination coordinates, and destination-specific photographic evidence. Defer weak subsites rather than publishing broad parent images or approximate pins.
+Continue requiring representative reusable photography, current official visitor guidance, exact destination coordinates, and destination-specific photographic evidence before publishing any parent or destination page. Defer weak subsites rather than publishing broad parent images or approximate pins.
 
 ## Efficient Operating Model
 

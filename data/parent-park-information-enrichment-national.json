@@ -66246,9 +66246,9 @@
         {
           "intentKey": "dogs",
           "question": "Are dogs allowed at Cleveland Lakefront Nature Preserve?",
-          "answer": "Leave pets at home unless current posted rules explicitly allow them; this is sensitive bird and wildlife habitat.",
+          "answer": "Pets are prohibited in the preserve. The operating policy provides an exception for service dogs assisting a person with a disability.",
           "sourceLabel": "Port of Cleveland",
-          "source": "https://www.portofcleveland.com/environment-infrastructure/cleveland-lakefront-nature-preserve/",
+          "source": "https://portofcleveland.com/wp-content/uploads/2020/12/clnp-operating-policies.pdf",
           "verifiedAt": "2026-08-10",
           "freshnessClass": "slow",
           "status": "verified"
@@ -66276,9 +66276,9 @@
         {
           "intentKey": "need-to-know",
           "question": "What should I know before visiting Cleveland Lakefront Nature Preserve?",
-          "answer": "Bring water, sun and wind protection, binoculars and insect repellent. Stay on marked trails and do not disturb wildlife, nests or habitat.",
+          "answer": "Bring water, sun and wind protection, binoculars and insect repellent. Stay on marked trails, leave pets and bicycles outside, and do not disturb wildlife, nests or habitat.",
           "sourceLabel": "Port of Cleveland",
-          "source": "https://www.portofcleveland.com/environment-infrastructure/cleveland-lakefront-nature-preserve/",
+          "source": "https://portofcleveland.com/wp-content/uploads/2020/12/clnp-operating-policies.pdf",
           "verifiedAt": "2026-08-10",
           "freshnessClass": "fast",
           "status": "verified"
@@ -66295,43 +66295,15 @@
         }
       ],
       "image": {
-        "url": "/assets/parks/cleveland-super/cleveland-lakefront-nature-preserve/01-cleveland-lakefront-nature-preserve-trail-and-habitat.webp",
-        "source": "https://www.portofcleveland.com/environment-infrastructure/cleveland-lakefront-nature-preserve/",
-        "author": "Port of Cleveland",
-        "license": "Official source image",
-        "alt": "Cleveland Lakefront Nature Preserve in the Cleveland area",
-        "width": 1280,
-        "height": 1000
+        "url": "/assets/parks/cleveland-super/cleveland-lakefront-nature-preserve/01-cleveland-lakefront-nature-preserve.webp",
+        "source": "https://flic.kr/p/AtAzb5",
+        "author": "Tim Evanson",
+        "license": "CC BY-SA 2.0",
+        "alt": "Trail and regenerating habitat at Cleveland Lakefront Nature Preserve",
+        "width": 1595,
+        "height": 897
       },
-      "additionalImages": [
-        {
-          "url": "/assets/parks/cleveland-super/cleveland-lakefront-nature-preserve/02-cleveland-lakefront-nature-preserve-meadow.webp",
-          "source": "https://www.portofcleveland.com/environment-infrastructure/cleveland-lakefront-nature-preserve/",
-          "author": "Port of Cleveland",
-          "license": "Official source image",
-          "alt": "Cleveland Lakefront Nature Preserve in the Cleveland area",
-          "width": 1280,
-          "height": 1000
-        },
-        {
-          "url": "/assets/parks/cleveland-super/cleveland-lakefront-nature-preserve/03-cleveland-lakefront-nature-preserve-shoreline.webp",
-          "source": "https://www.portofcleveland.com/environment-infrastructure/cleveland-lakefront-nature-preserve/",
-          "author": "Port of Cleveland",
-          "license": "Official source image",
-          "alt": "Cleveland Lakefront Nature Preserve in the Cleveland area",
-          "width": 1080,
-          "height": 721
-        },
-        {
-          "url": "/assets/parks/cleveland-super/cleveland-lakefront-nature-preserve/04-cleveland-lakefront-nature-preserve-wildlife-habitat.webp",
-          "source": "https://www.portofcleveland.com/environment-infrastructure/cleveland-lakefront-nature-preserve/",
-          "author": "Port of Cleveland",
-          "license": "Official source image",
-          "alt": "Cleveland Lakefront Nature Preserve in the Cleveland area",
-          "width": 1080,
-          "height": 720
-        }
-      ],
+      "additionalImages": [],
       "replaceImages": true,
       "verifiedAt": "2026-08-10"
     },
@@ -66965,7 +66937,7 @@
         "source": "https://commons.wikimedia.org/wiki/File%3ARocky_River_Reservation_PC270054.jpg",
         "author": "Chris Light",
         "license": "CC BY-SA 4.0",
-        "alt": "Rocky River Reservation in the Cleveland area",
+        "alt": "Rocky River valley and shale landscape",
         "width": 1600,
         "height": 1000
       },
@@ -66975,7 +66947,7 @@
           "source": "https://commons.wikimedia.org/wiki/File%3ARocky_River_Reservation_P5090766.JPG",
           "author": "Chris Light",
           "license": "CC BY-SA 4.0",
-          "alt": "Rocky River Reservation in the Cleveland area",
+          "alt": "Rocky River Reservation woodland and river habitat",
           "width": 1600,
           "height": 1000
         },
@@ -66984,7 +66956,7 @@
           "source": "https://commons.wikimedia.org/wiki/File%3ARocky_River_Reservation_PC270050_Little_Cedar_Point.jpg",
           "author": "Chris Light",
           "license": "CC BY-SA 4.0",
-          "alt": "Rocky River Reservation in the Cleveland area",
+          "alt": "Little Cedar Point in Rocky River Reservation",
           "width": 1600,
           "height": 1000
         },
@@ -66993,7 +66965,25 @@
           "source": "https://commons.wikimedia.org/wiki/File%3ARocky_River_Reservation_PC270039_nr_Little_Cedar_Point.JPG",
           "author": "Chris Light",
           "license": "CC BY-SA 4.0",
-          "alt": "Rocky River Reservation in the Cleveland area",
+          "alt": "Bridge and gorge landscape in Rocky River Reservation",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/cleveland-super/rocky-river-reservation/05-donnelly-rocky-river-nature-center-2016-05-08-083-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3ADonnelly_Rocky_River_Nature_Center_2016-05-08_083.jpg",
+          "author": "Chris Light",
+          "license": "CC BY-SA 4.0",
+          "alt": "Rocky River Nature Center exterior",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/cleveland-super/rocky-river-reservation/06-berea-falls-east-branch-rocky-river-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3ABerea_Falls%2C_East_Branch_Rocky_River.jpg",
+          "author": "Central Avenue",
+          "license": "CC BY 4.0",
+          "alt": "Berea Falls on the East Branch of the Rocky River",
           "width": 1600,
           "height": 1000
         }
@@ -67171,39 +67161,48 @@
         }
       ],
       "image": {
-        "url": "/assets/parks/cleveland-super/brecksville-reservation/01-brecksville-reservation-forest.webp",
-        "source": "https://www.clevelandmetroparks.com/parks/visit/parks/brecksville-reservation",
-        "author": "Cleveland Metroparks",
-        "license": "Official source image",
-        "alt": "Brecksville Reservation in the Cleveland area",
-        "width": 1440,
-        "height": 864
+        "url": "/assets/parks/cleveland-super/brecksville-reservation/01-brecksville-parks-jpg.webp",
+        "source": "https://commons.wikimedia.org/wiki/File%3ABrecksville_parks.jpg",
+        "author": "Pgunn at English Wikipedia",
+        "license": "Public domain",
+        "alt": "Woodland in Brecksville Reservation",
+        "width": 350,
+        "height": 467
       },
       "additionalImages": [
         {
-          "url": "/assets/parks/cleveland-super/brecksville-reservation/02-brecksville-reservation-creek.webp",
-          "source": "https://www.clevelandmetroparks.com/parks/visit/parks/brecksville-reservation",
-          "author": "Cleveland Metroparks",
-          "license": "Official source image",
-          "alt": "Brecksville Reservation in the Cleveland area",
+          "url": "/assets/parks/cleveland-super/brecksville-reservation/02-big-rock-brecksville-ohio-13904325049-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3ABig_Rock%2C_Brecksville%2C_Ohio_(13904325049).jpg",
+          "author": "Miami U. Libraries - Digital Collections",
+          "license": "No restrictions",
+          "alt": "Big Rock in Brecksville Reservation",
           "width": 1600,
           "height": 1000
         },
         {
-          "url": "/assets/parks/cleveland-super/brecksville-reservation/03-brecksville-nature-center-experience.webp",
-          "source": "https://www.clevelandmetroparks.com/parks/visit/parks/brecksville-reservation",
-          "author": "Cleveland Metroparks",
-          "license": "Official source image",
-          "alt": "Brecksville Reservation in the Cleveland area",
-          "width": 400,
-          "height": 267
+          "url": "/assets/parks/cleveland-super/brecksville-reservation/03-chippewa-creek-brecksville-res-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3AChippewa_Creek_(Brecksville_Res).jpg",
+          "author": "Chris Light",
+          "license": "CC BY-SA 4.0",
+          "alt": "Chippewa Creek in Brecksville Reservation",
+          "width": 928,
+          "height": 620
         },
         {
-          "url": "/assets/parks/cleveland-super/brecksville-reservation/04-brecksville-reservation-trail.webp",
-          "source": "https://www.clevelandmetroparks.com/parks/visit/parks/brecksville-reservation",
-          "author": "Cleveland Metroparks",
-          "license": "Official source image",
-          "alt": "Brecksville Reservation in the Cleveland area",
+          "url": "/assets/parks/cleveland-super/brecksville-reservation/04-brecksville-trailside-museum-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3ABrecksville_Trailside_Museum.jpg",
+          "author": "Nyttend",
+          "license": "Public domain",
+          "alt": "Historic Brecksville Nature Center exterior",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/cleveland-super/brecksville-reservation/05-chippewa-creek-us-82-brecksville-reservation-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3AChippewa_Creek-US_82_(Brecksville_Reservation).jpg",
+          "author": "Chris Light",
+          "license": "CC BY-SA 4.0",
+          "alt": "Chippewa Creek gorge beneath the Route 82 bridge",
           "width": 1600,
           "height": 1000
         }

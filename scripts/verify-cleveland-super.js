@@ -48,6 +48,9 @@ const wendy = places.find(place => place.id === "launch-oh-cleveland-wendy-park"
 const rockefeller = places.find(place => place.id === "launch-oh-cleveland-rockefeller-park-and-cultural-gardens");
 const publicSquare = places.find(place => place.id === "launch-oh-cleveland-public-square");
 const cvnp = places.find(place => place.id === "launch-oh-cleveland-cuyahoga-valley-national-park");
+const lakefrontPreserve = places.find(place => place.id === "launch-oh-cleveland-cleveland-lakefront-nature-preserve");
+const rockyRiver = places.find(place => place.id === "launch-oh-cleveland-rocky-river-reservation");
+const brecksville = places.find(place => place.id === "launch-oh-cleveland-brecksville-reservation");
 for (const place of [edgewater, wendy]) {
   for (const feature of place?.features || []) {
     need(!/approximate|official-map placement/i.test(`${feature.details?.coordinateSource} ${feature.details?.positionQuality}`), `${place.name}/${feature.name}: approximate position escaped lakefront release gate`);
@@ -69,6 +72,25 @@ for (const place of [rockefeller, publicSquare, cvnp]) {
 need(rockefeller?.features.map(feature => feature.slug).join("|") === "italian-cultural-garden|hungarian-cultural-garden", "Rockefeller Park and Cultural Gardens: destination release set drifted");
 need(publicSquare?.features.map(feature => feature.slug).join("|") === "soldiers-and-sailors-monument|public-square-splash-pad", "Public Square: destination release set drifted");
 need(cvnp?.features.map(feature => feature.slug).join("|") === "brandywine-falls|ledges-trail|beaver-marsh|everett-covered-bridge", "Cuyahoga Valley National Park: destination release set drifted");
+need((lakefrontPreserve?.features || []).length === 0, "Cleveland Lakefront Nature Preserve: unsupported destination pages returned");
+need(lakefrontPreserve?.image?.source === "https://flic.kr/p/AtAzb5", "Cleveland Lakefront Nature Preserve: licensed parent photo missing");
+need(rockyRiver?.features.map(feature => feature.slug).join("|") === "rocky-river-nature-center|berea-falls-scenic-overlook", "Rocky River Reservation: destination release set drifted");
+need(brecksville?.features.map(feature => feature.slug).join("|") === "brecksville-nature-center|chippewa-creek-gorge-scenic-overlook", "Brecksville Reservation: destination release set drifted");
+for (const place of [rockyRiver, brecksville]) {
+  for (const feature of place?.features || []) {
+    need(!/approximate|official-map placement/i.test(`${feature.details?.coordinateSource} ${feature.details?.positionQuality}`), `${place.name}/${feature.name}: approximate position escaped evidence gate`);
+    need(feature.details?.imageSourceUrl?.includes("commons.wikimedia.org/wiki/File"), `${place.name}/${feature.name}: destination image is not from a reusable file page`);
+  }
+}
+need(rockyRiver?.features.find(feature => feature.slug === "rocky-river-nature-center")?.details?.imageUrl?.includes("donnelly-rocky-river-nature-center"), "Rocky River Nature Center: destination-specific photo missing");
+need(rockyRiver?.features.find(feature => feature.slug === "berea-falls-scenic-overlook")?.details?.imageUrl?.includes("berea-falls-east-branch"), "Berea Falls Scenic Overlook: destination-specific photo missing");
+need(brecksville?.features.find(feature => feature.slug === "brecksville-nature-center")?.details?.imageUrl?.includes("brecksville-trailside-museum"), "Brecksville Nature Center: destination-specific photo missing");
+need(brecksville?.features.find(feature => feature.slug === "chippewa-creek-gorge-scenic-overlook")?.details?.imageUrl?.includes("chippewa-creek-us-82"), "Chippewa Creek Gorge Scenic Overlook: destination-specific photo missing");
+for (const place of [lakefrontPreserve, rockyRiver, brecksville]) {
+  for (const image of [place?.image, ...(place?.images || [])]) {
+    need(image && !/official source image/i.test(image.license || ""), `${place?.name}: image without documented reuse license`);
+  }
+}
 need(rockefeller?.features.find(feature => feature.slug === "italian-cultural-garden")?.details?.imageUrl?.includes("italian-cultural-gardens"), "Italian Cultural Garden: destination-specific photo missing");
 need(rockefeller?.features.find(feature => feature.slug === "hungarian-cultural-garden")?.details?.imageUrl?.includes("hungarian-cultural-garden"), "Hungarian Cultural Garden: destination-specific photo missing");
 need(publicSquare?.features.find(feature => feature.slug === "soldiers-and-sailors-monument")?.details?.imageUrl?.includes("soldiers-and-sailors-monument"), "Soldiers and Sailors Monument: destination-specific photo missing");
@@ -92,6 +114,17 @@ const retired = [
   "public-square/keybank-promenade", "public-square/cleveland-foundation-ice-rink", "public-square/illuminate-cle-light-show",
   "cuyahoga-valley-national-park/boston-mill-visitor-center", "cuyahoga-valley-national-park/ohio-and-erie-canal-towpath-trail",
   "cuyahoga-valley-national-park/blue-hen-falls", "cuyahoga-valley-national-park/canal-exploration-center"
+  ,"cleveland-lakefront-nature-preserve/nature-preserve-entrance", "cleveland-lakefront-nature-preserve/shoreline-trail"
+  ,"cleveland-lakefront-nature-preserve/lakefront-loop-trail", "cleveland-lakefront-nature-preserve/monarch-meadow"
+  ,"cleveland-lakefront-nature-preserve/birding-overlook", "cleveland-lakefront-nature-preserve/cleveland-skyline-overlook"
+  ,"cleveland-lakefront-nature-preserve/preserve-wetlands", "cleveland-lakefront-nature-preserve/dike-14-peninsula-point"
+  ,"rocky-river-reservation/fort-hill-stairs", "rocky-river-reservation/stinchcomb-groth-memorial"
+  ,"rocky-river-reservation/emerald-necklace-marina", "rocky-river-reservation/lagoon-picnic-area"
+  ,"rocky-river-reservation/big-met-golf-course", "rocky-river-reservation/rocky-river-all-purpose-trail"
+  ,"brecksville-reservation/deer-lick-cave", "brecksville-reservation/chippewa-creek-gorge"
+  ,"brecksville-reservation/harriet-keeler-picnic-area", "brecksville-reservation/andrews-nature-play-area"
+  ,"brecksville-reservation/buckeye-trail", "brecksville-reservation/sleepy-hollow-golf-course"
+  ,"brecksville-reservation/meadows-picnic-area"
 ];
 const redirects = new Set(vercel.redirects.map(redirect => redirect.source));
 for (const route of retired) {
@@ -105,7 +138,7 @@ need(cvnp?.features.find(feature => feature.slug === "beaver-marsh")?.details?.i
 need(cvnp?.features.find(feature => feature.slug === "everett-covered-bridge")?.details?.imageUrl?.includes("everett-road-covered-bridge"), "Everett Covered Bridge: destination-specific photo missing");
 
 const joined = campaign.places.map(scope => JSON.stringify(places.find(place => place.id === scope.id) || {})).join("\n");
-for (const phrase of ["live swimming status", "dog-friendly area", "55/55B/55C", "does not list public restrooms", "Sunday through Thursday", "reopened to anglers", "upper and lower gardens", "10:00 a.m.-5:30 p.m.", "quarter-mile", "river level and trail alerts", "seven gorges", "2026 Towpath repairs"]) {
+for (const phrase of ["live swimming status", "dog-friendly area", "55/55B/55C", "does not list public restrooms", "Sunday through Thursday", "reopened to anglers", "upper and lower gardens", "10:00 a.m.-5:30 p.m.", "quarter-mile", "Pets are prohibited", "90-space lot", "Route 82 entrance", "seven gorges", "2026 Towpath repairs"]) {
   need(joined.includes(phrase), `Missing Cleveland guidance: ${phrase}`);
 }
 
