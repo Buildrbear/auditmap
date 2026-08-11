@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-08-11",
+  "places": {
+    "launch-oh-columbus-scioto-mile": {
+      "promenade": {
+        "latitude": 39.9594163,
+        "longitude": -83.0031822,
+        "coordinateSource": "https://www.openstreetmap.org/way/515645889",
+        "positionQuality": "Exact named OpenStreetMap way for Scioto Mile Promenade"
+      }
+    },
+    "launch-oh-columbus-franklin-park": {
+      "franklin-park-conservatory": {
+        "latitude": 39.9662637,
+        "longitude": -82.9542234,
+        "coordinateSource": "https://www.openstreetmap.org/way/817895050",
+        "positionQuality": "Exact named OpenStreetMap building footprint matching the official Conservatory address"
+      },
+      "cascades": {
+        "latitude": 39.963685,
+        "longitude": -82.956508,
+        "coordinateSource": "https://commons.wikimedia.org/wiki/File:Franklin_Park_Waterfalls_-_panoramio.jpg",
+        "positionQuality": "Exact geotag recorded on the destination-specific Wikimedia Commons photograph"
+      }
+    },
+    "launch-oh-columbus-goodale-park": {
+      "goodale-park-pond": {
+        "latitude": 39.97663228393215,
+        "longitude": -83.00582921714313,
+        "coordinateSource": "https://maps2.columbus.gov/arcgis/rest/services/Schemas/RecreationParks/MapServer/2",
+        "positionQuality": "Exact centroid of active Goodale Park water-body record 849 in the official Columbus Park Facilities layer"
+      },
+      "goodale-park-shelterhouse": {
+        "latitude": 39.975226349243236,
+        "longitude": -83.00675876167378,
+        "coordinateSource": "https://maps2.columbus.gov/arcgis/rest/services/Schemas/RecreationParks/MapServer/2",
+        "positionQuality": "Exact centroid of active Goodale Shelterhouse record 157 in the official Columbus Park Facilities layer"
+      }
+    }
+  }
+}

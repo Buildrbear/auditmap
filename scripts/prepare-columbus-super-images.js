@@ -5,6 +5,7 @@ const fs = require("node:fs"),
   root = path.resolve(__dirname, ".."),
   campaign = require("../data/columbus-super-enrichment-campaign.json"),
   research = require("../data/columbus-photo-research.json"),
+  previous = require("../data/generated/columbus-super-images.json"),
   names = new Map(campaign.places.map((p) => [p.id, p.name])),
   slug = (v) =>
     String(v)
@@ -66,8 +67,11 @@ async function bytes(url, label) {
   }
 }
 (async () => {
-  const out = { checkedAt: research.checkedAt, places: {} };
-  for (const [id, e] of Object.entries(research.places)) {
+  const out = { checkedAt: research.checkedAt, places: { ...previous.places } },
+    currentIds = new Set(
+      campaign.places.filter((place) => place.currentBatch).map((place) => place.id),
+    );
+  for (const [id, e] of Object.entries(research.places).filter(([id]) => currentIds.has(id))) {
     const name = names.get(id),
       dir = path.join(root, "assets/parks/columbus-super", slug(name));
     fs.mkdirSync(dir, { recursive: true });
@@ -96,7 +100,7 @@ async function bytes(url, label) {
         source: rec.source,
         author: rec.author,
         license: rec.license,
-        alt: `${name} in the Columbus area`,
+        alt: e.alts?.[index] || `${name} in the Columbus area`,
         width: m.width,
         height: m.height,
       });

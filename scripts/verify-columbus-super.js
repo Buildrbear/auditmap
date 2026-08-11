@@ -1,89 +1,90 @@
 #!/usr/bin/env node
-const fs = require("node:fs"),
-  path = require("node:path"),
-  root = path.resolve(__dirname, ".."),
-  campaign = require("../data/columbus-super-enrichment-campaign.json"),
-  places = require("../data/generated/launch-map-places.json"),
-  fail = [],
-  slug = (v) =>
-    String(v)
-      .toLowerCase()
-      .replace(/&/g, " and ")
-      .replace(/[^a-z0-9]+/g, "-")
-      .replace(/^-|-$/g, "");
-const need = (ok, msg) => {
-  if (!ok) fail.push(msg);
+const fs = require("node:fs");
+const path = require("node:path");
+const root = path.resolve(__dirname, "..");
+const campaign = require("../data/columbus-super-enrichment-campaign.json");
+const places = require("../data/generated/launch-map-places.json");
+const featureFacts = require("../data/columbus-feature-visitor-facts.json").places;
+const redirects = require("../vercel.json").redirects;
+const failures = [];
+const slug = (value) => String(value).toLowerCase().replace(/&/g, " and ").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+const need = (condition, message) => { if (!condition) failures.push(message); };
+const expected = {
+  "launch-oh-columbus-scioto-mile": ["promenade"],
+  "launch-oh-columbus-franklin-park": ["franklin-park-conservatory", "cascades"],
+  "launch-oh-columbus-goodale-park": ["goodale-park-pond", "goodale-park-shelterhouse"]
 };
-for (const scope of campaign.places) {
-  const p = places.find((x) => x.id === scope.id),
-    dir = path.join(root, "us/oh/columbus/parks", slug(scope.name));
-  need(p, `${scope.name}: missing record`);
-  if (!p) continue;
-  need(
-    1 + (p.images?.length || 0) >= 4,
-    `${scope.name}: fewer than four photos`,
-  );
-  need(p.features?.length === 8, `${scope.name}: expected eight subsites`);
-  need(p.searchAnswers?.length >= 11, `${scope.name}: parent answers missing`);
-  need(
-    fs.existsSync(path.join(dir, "index.html")),
-    `${scope.name}: parent page missing`,
-  );
-  const parentFile = path.join(dir, "index.html");
+const retired = {
+  "scioto-mile": ["bicentennial-park", "scioto-mile-fountain", "main-street-bridge", "rich-street-bridge", "genoa-park", "north-bank-park", "coleman-point"],
+  "franklin-park": ["scotts-miracle-gro-community-garden-campus", "the-scotts-miracle-gro-foundation-children-s-garden", "franklin-park-amphitheater", "espy-adaptive-sports-complex", "asian-garden", "broad-street-entrance"],
+  "goodale-park": ["goodale-park-fountain", "goodale-park-playground", "goodale-park-tennis-courts", "goodale-park-basketball-courts", "goodale-park-gazebo", "short-north-entrance"]
+};
+
+for (const scope of campaign.places.filter((entry) => entry.currentBatch)) {
+  const place = places.find((entry) => entry.id === scope.id);
+  const parentSlug = slug(scope.name);
+  const directory = path.join(root, "us/oh/columbus/parks", parentSlug);
+  need(place, `${scope.name}: missing record`);
+  if (!place) continue;
+  need(place.verifiedAt === scope.checkedAt, `${scope.name}: expected checked date ${scope.checkedAt}`);
+  need(place.image?.url, `${scope.name}: hero missing`);
+  need(1 + (place.images?.length || 0) >= (scope.minImages || 4), `${scope.name}: photo minimum not met`);
+  need(JSON.stringify((place.features || []).map((entry) => entry.slug)) === JSON.stringify(expected[scope.id]), `${scope.name}: release set drifted`);
+  need(place.searchAnswers?.length >= 11, `${scope.name}: parent answers missing`);
+  for (const answer of place.searchAnswers || []) {
+    need(/^https:\/\//.test(answer.source || ""), `${scope.name}/${answer.intentKey}: public answer source missing`);
+    need(Boolean(answer.sourceLabel), `${scope.name}/${answer.intentKey}: source label missing`);
+    need(answer.verifiedAt === scope.checkedAt, `${scope.name}/${answer.intentKey}: checked date mismatch`);
+    need(Boolean(answer.freshnessClass), `${scope.name}/${answer.intentKey}: freshness class missing`);
+  }
+  const parentFile = path.join(directory, "index.html");
+  need(fs.existsSync(parentFile), `${scope.name}: parent page missing`);
   if (fs.existsSync(parentFile)) {
     const html = fs.readFileSync(parentFile, "utf8");
-    for (const value of [p.name, p.address, 'rel="canonical"', "What people ask"])
+    for (const value of [place.name, place.address, 'rel="canonical"', "What people ask", "BreadcrumbList"])
       need(value && html.includes(value), `${scope.name}: raw HTML missing ${value}`);
   }
-  for (const f of p.features || []) {
-    need(
-      Number.isFinite(f.latitude) && Number.isFinite(f.longitude),
-      `${scope.name}/${f.name}: coordinates missing`,
-    );
-    need(
-      f.details?.images?.length >= 1,
-      `${scope.name}/${f.name}: image missing`,
-    );
-    need(
-      f.details?.searchAnswers?.length >= 9,
-      `${scope.name}/${f.name}: answers missing`,
-    );
-    need(
-      f.details?.coordinateSource && f.details?.positionQuality,
-      `${scope.name}/${f.name}: coordinate provenance missing`,
-    );
-    need(
-      fs.existsSync(path.join(dir, f.slug, "index.html")),
-      `${scope.name}/${f.name}: page missing`,
-    );
-    const featureFile = path.join(dir, f.slug, "index.html");
+  for (const feature of place.features || []) {
+    const exact = featureFacts[scope.id]?.[feature.slug];
+    need(Boolean(exact), `${scope.name}/${feature.name}: destination-specific profile missing`);
+    need(Number.isFinite(feature.latitude) && Number.isFinite(feature.longitude), `${scope.name}/${feature.name}: coordinates missing`);
+    need(!/approximate|official-map placement|existing auditmap/i.test(`${feature.details?.coordinateSource} ${feature.details?.positionQuality}`), `${scope.name}/${feature.name}: unreviewed coordinate survived`);
+    need(/^https:\/\//.test(feature.details?.coordinateSource || ""), `${scope.name}/${feature.name}: public coordinate source missing`);
+    need(feature.details?.images?.length >= 1, `${scope.name}/${feature.name}: image missing`);
+    need(/^https:\/\/commons\.wikimedia\.org\/wiki\/File:/.test(decodeURIComponent(feature.details?.imageSourceUrl || "")), `${scope.name}/${feature.name}: destination image is not a Commons file page`);
+    need(fs.existsSync(path.join(root, String(feature.details?.imageUrl || "").replace(/^\//, ""))), `${scope.name}/${feature.name}: image file missing`);
+    need(feature.details?.hours === exact?.hours, `${scope.name}/${feature.name}: destination-specific hours missing`);
+    need(feature.details?.informationCheckedAt === scope.checkedAt, `${scope.name}/${feature.name}: destination checked date mismatch`);
+    need(feature.details?.searchAnswers?.length >= 9, `${scope.name}/${feature.name}: answers missing`);
+    for (const answer of feature.details?.searchAnswers || []) {
+      need(/^https:\/\//.test(answer.source || ""), `${scope.name}/${feature.name}/${answer.intentKey}: public source missing`);
+      need(Boolean(answer.sourceLabel), `${scope.name}/${feature.name}/${answer.intentKey}: source label missing`);
+      need(answer.verifiedAt === scope.checkedAt, `${scope.name}/${feature.name}/${answer.intentKey}: checked date mismatch`);
+      need(Boolean(answer.freshnessClass), `${scope.name}/${feature.name}/${answer.intentKey}: freshness class missing`);
+    }
+    const featureFile = path.join(directory, feature.slug, "index.html");
+    need(fs.existsSync(featureFile), `${scope.name}/${feature.name}: page missing`);
     if (fs.existsSync(featureFile)) {
       const html = fs.readFileSync(featureFile, "utf8").toLowerCase();
-      for (const value of [f.name, p.name, "parking", "restroom", "dogs", "sources", 'rel="canonical"'])
-        need(html.includes(value.toLowerCase()), `${scope.name}/${f.name}: raw HTML missing ${value}`);
+      for (const value of [feature.name, place.name, "parking", "restroom", "dogs", "sources", 'rel="canonical"', "breadcrumblist", String(feature.latitude), String(feature.longitude)])
+        need(html.includes(value.toLowerCase()), `${scope.name}/${feature.name}: raw HTML missing ${value}`);
     }
   }
+  for (const oldSlug of retired[parentSlug] || []) {
+    need(!fs.existsSync(path.join(directory, oldSlug, "index.html")), `${scope.name}/${oldSlug}: retired page still exists`);
+    const source = `/us/oh/columbus/parks/${parentSlug}/${oldSlug}`;
+    need(redirects.some((entry) => entry.source === source && entry.destination === `/us/oh/columbus/parks/${parentSlug}` && entry.permanent), `${scope.name}/${oldSlug}: permanent redirect missing`);
+  }
 }
-const joined = campaign.places
-  .map((s) => JSON.stringify(places.find((p) => p.id === s.id) || {}))
-  .join("\n");
-for (const phrase of [
-  "seasonal and weather-dependent",
-  "not for swimming",
-  "Children's Garden",
-  "active city improvement cycle",
-  "Peak rose bloom",
-  "100 feet above the Olentangy",
-  "Bison roam two enclosed pastures",
-  "reservation-only",
-])
-  need(joined.includes(phrase), `Missing Columbus guidance: ${phrase}`);
-const app = fs.readFileSync(path.join(root, "app.js"), "utf8");
-need(app.includes("daylightMatch"), "Opening-to-dark hours support missing");
-if (fail.length) {
-  console.error(fail.join("\n"));
+
+const scoped = campaign.places.filter((entry) => entry.currentBatch).map((scope) => JSON.stringify(places.find((place) => place.id === scope.id) || {})).join("\n");
+for (const phrase of ["7:00 a.m. to 11:00 p.m.", "mixed terrain and long distances", "recirculated fountain water", "Cascades have been closed since June 23, 2026", "fall 2027", "$25.20", "does not list a general public restroom", "at least 15 days ahead", "historical and must not be presented as a current conditions image"])
+  need(scoped.includes(phrase), `Missing Columbus guidance: ${phrase}`);
+need(!scoped.includes("Fpsouth1"), "Neighborhood-house image survived Franklin Park review");
+need(!scoped.includes("Official source image"), "Unlicensed official-source image attribution survived current batch");
+
+if (failures.length) {
+  console.error(failures.join("\n"));
   process.exit(1);
 }
-console.log(
-  `Verified ${campaign.places.length} Columbus guides with four photos, eight mapped subsites and practical visitor answers.`,
-);
+console.log("Verified Columbus downtown core: three parent guides, five exact photo-backed destinations, source-specific answers and 19 retired-route redirects.");

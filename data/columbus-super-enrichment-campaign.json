@@ -1,7 +1,7 @@
 {
   "campaign": "Columbus high-impact public destinations",
-  "checkedAt": "2026-08-06",
-  "releaseStandard": "Four sourced photos, eight mapped subsites, current visitor answers, static canonical pages, and live verification.",
+  "checkedAt": "2026-08-11",
+  "releaseStandard": "Three to four reusable sourced photos, only exact photo-backed destinations, current source-specific visitor answers, static canonical pages, and live verification.",
   "places": [
     {
       "id": "launch-oh-columbus-scioto-mile",
@@ -9,16 +9,13 @@
       "city": "Columbus",
       "citySlug": "columbus-oh",
       "operator": "Columbus Recreation and Parks",
-      "source": "https://www.columbus.gov/Community/Recreation-and-Parks/Parks/Scioto-Mile",
+      "source": "https://columbusrecparks.com/parks/scioto-mile-promenade/",
+      "checkedAt": "2026-08-11",
+      "currentBatch": true,
+      "releaseBatch": "downtown-core-1",
+      "minImages": 4,
       "subsites": [
-        "Bicentennial Park",
-        "Scioto Mile Fountain",
-        "Promenade",
-        "Main Street Bridge",
-        "Rich Street Bridge",
-        "Genoa Park",
-        "North Bank Park",
-        "Coleman Point"
+        "Promenade"
       ]
     },
     {
@@ -27,16 +24,14 @@
       "city": "Columbus",
       "citySlug": "columbus-oh",
       "operator": "Columbus Recreation and Parks",
-      "source": "https://www.columbus.gov/Community/Recreation-and-Parks/Parks/Franklin-Park",
+      "source": "https://columbusrecparks.com/parks/franklin-park/",
+      "checkedAt": "2026-08-11",
+      "currentBatch": true,
+      "releaseBatch": "downtown-core-1",
+      "minImages": 4,
       "subsites": [
         "Franklin Park Conservatory",
-        "Scotts Miracle-Gro Community Garden Campus",
-        "The Scotts Miracle-Gro Foundation Children's Garden",
-        "Cascades",
-        "Franklin Park Amphitheater",
-        "Espy Adaptive Sports Complex",
-        "Asian Garden",
-        "Broad Street Entrance"
+        "Cascades"
       ]
     },
     {
@@ -45,16 +40,14 @@
       "city": "Columbus",
       "citySlug": "columbus-oh",
       "operator": "Columbus Recreation and Parks",
-      "source": "https://www.columbus.gov/Community/Recreation-and-Parks/Parks/Goodale-Park",
+      "source": "https://columbusrecparks.com/parks/goodale-park/",
+      "checkedAt": "2026-08-11",
+      "currentBatch": true,
+      "releaseBatch": "downtown-core-1",
+      "minImages": 4,
       "subsites": [
         "Goodale Park Pond",
-        "Goodale Park Fountain",
-        "Goodale Park Playground",
-        "Goodale Park Tennis Courts",
-        "Goodale Park Basketball Courts",
-        "Goodale Park Shelterhouse",
-        "Goodale Park Gazebo",
-        "Short North Entrance"
+        "Goodale Park Shelterhouse"
       ]
     },
     {

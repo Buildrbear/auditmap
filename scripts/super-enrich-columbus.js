@@ -4,7 +4,10 @@ const fs = require("node:fs"),
   crypto = require("node:crypto"),
   root = path.resolve(__dirname, ".."),
   campaign = require("../data/columbus-super-enrichment-campaign.json"),
-  facts = require("../data/columbus-visitor-facts.json").places,
+  factsDocument = require("../data/columbus-visitor-facts.json"),
+  facts = factsDocument.places,
+  featureFactsDocument = require("../data/columbus-feature-visitor-facts.json"),
+  featureFacts = featureFactsDocument.places,
   galleries = require("../data/generated/columbus-super-images.json"),
   coordinates =
     require("../data/generated/columbus-feature-coordinates.json").places,
@@ -44,16 +47,16 @@ const slug = (v) =>
     i >= 0 ? (d.parks[i] = p) : d.parks.push(p);
   };
 function schedule(p) {
-  return false;
+  return daily("07:00", "23:00");
 }
-function ans(p, k, q, a) {
+function ans(p, k, q, a, metadata = {}) {
   return {
     intentKey: k,
     question: q,
     answer: a,
-    sourceLabel: p.operator,
-    source: p.source,
-    verifiedAt: checkedAt,
+    sourceLabel: metadata.sourceLabel || p.operator,
+    source: metadata.source || p.source,
+    verifiedAt: metadata.verifiedAt || p.checkedAt || factsDocument.checkedAt,
     freshnessClass: ["hours", "parking", "need-to-know", "weather"].includes(k)
       ? "fast"
       : "slow",
@@ -61,6 +64,12 @@ function ans(p, k, q, a) {
   };
 }
 function answers(p) {
+  const sourceFor = (key) => ({
+    ...(p.answerSources?.[key] ? { source: p.answerSources[key] } : {}),
+    ...(p.answerSourceLabels?.[key]
+      ? { sourceLabel: p.answerSourceLabels[key] }
+      : {}),
+  });
   return [
     ["hours", `When is ${p.name} open?`, p.hours],
     ["parking", `Where should I park for ${p.name}?`, p.parking],
@@ -77,7 +86,7 @@ function answers(p) {
       `What weather should I check before visiting ${p.name}?`,
       `Check current Columbus-area weather and operator alerts. Scioto, Olentangy and Darby water levels, heat, storms, snow, ice and high winds can close fountains, river paths, trails or facilities independently.`,
     ],
-  ].map((v) => ans(p, ...v));
+  ].map((v) => ans(p, ...v, sourceFor(v[0])));
 }
 function note(name, parent) {
   const n = name.toLowerCase();
@@ -160,39 +169,52 @@ function feature(p, name, i, images) {
   const s = slug(name),
     id = stable(p.id, s),
     point = coordinates[p.id]?.[s],
-    description = note(name, p.name);
+    specific = featureFacts[p.id]?.[s],
+    description = specific?.description || note(name, p.name);
   if (!point) throw new Error(`${p.name}/${name}: coordinate missing`);
-  const base = images[featureImageIndex(p, name, i) % images.length],
+  if (featureFacts[p.id] && !specific)
+    throw new Error(`${p.name}/${name}: destination-specific facts missing`);
+  const base = images[
+      specific?.imageIndex ?? featureImageIndex(p, name, i) % images.length
+    ],
     image = {
       ...base,
       featureId: id,
       latitude: point.latitude,
       longitude: point.longitude,
-      alt: `${name} at ${p.name}`,
+      alt: specific?.imageAlt || `${name} at ${p.name}`,
     },
-    separateHours = /(park$|fountain|conservatory|garden campus|children's garden|amphitheater|sports complex|court|shelter|gazebo|nature center|picnic|play|observation|canoe|via ferrata|climbing|bike|dog park|lake area)/i.test(name),
-    featureHours = separateHours
+    separateHours = Boolean(specific) || /(park$|fountain|conservatory|garden campus|children's garden|amphitheater|sports complex|court|shelter|gazebo|nature center|picnic|play|observation|canoe|via ferrata|climbing|bike|dog park|lake area)/i.test(name),
+    featureHours = specific?.hours || (separateHours
       ? `${name} keeps its own admission, operating, seasonal, staffing, reservation, water, maintenance, or weather schedule. Check the cited official source and current operator notices before leaving.`
-      : p.hours,
+      : p.hours),
+    sourceFor = (key) => ({
+      sourceLabel: specific?.sourceLabel || p.operator,
+      source: specific?.answerSources?.[key] || specific?.source || p.source,
+      ...(specific?.answerSourceLabels?.[key]
+        ? { sourceLabel: specific.answerSourceLabels[key] }
+        : {}),
+      verifiedAt: specific ? featureFactsDocument.checkedAt : p.checkedAt || checkedAt,
+    }),
     qs = [
-      ["location", `Where exactly is ${name}?`, description],
-      ["parking", `Where should I park for ${name}?`, p.parking],
+      ["location", `Where exactly is ${name}?`, specific?.location || description],
+      ["parking", `Where should I park for ${name}?`, specific?.parking || p.parking],
       [
         "hours",
         `When is ${name} open?`,
         featureHours,
       ],
-      ["restroom", `Are there restrooms near ${name}?`, p.restrooms],
-      ["fees", `Is ${name} free?`, p.cost],
-      ["accessibility", `How accessible is ${name}?`, p.accessibility],
-      ["dogs", `Are dogs allowed at ${name}?`, p.dogs],
-      ["family", `Is ${name} good for children?`, p.family],
+      ["restroom", `Are there restrooms near ${name}?`, specific?.restrooms || p.restrooms],
+      ["fees", `Is ${name} free?`, specific?.fees || p.cost],
+      ["accessibility", `How accessible is ${name}?`, specific?.accessibility || p.accessibility],
+      ["dogs", `Are dogs allowed at ${name}?`, specific?.dogs || p.dogs],
+      ["family", `Is ${name} good for children?`, specific?.family || p.family],
       [
         "need-to-know",
         `What should I know before visiting ${name}?`,
-        `${description} ${p.need}`,
+        specific?.need || `${description} ${p.need}`,
       ],
-    ].map((v) => ans(p, ...v));
+    ].map((v) => ans(p, ...v, sourceFor(v[0])));
   return {
     id,
     slug: s,
@@ -204,16 +226,16 @@ function feature(p, name, i, images) {
     details: {
       category: "destination",
       includeInParentGallery: true,
-      address: p.address,
+      address: specific?.address || p.address,
       hours: featureHours,
       hoursSchedule: separateHours ? false : schedule(p),
-      cost: p.cost,
-      accessibility: p.accessibility,
+      cost: specific?.fees || p.cost,
+      accessibility: specific?.accessibility || p.accessibility,
       locationContext: description,
-      needToKnow: p.need,
-      informationSourceLabel: p.operator,
-      informationSourceUrl: p.source,
-      informationCheckedAt: checkedAt,
+      needToKnow: specific?.need || p.need,
+      informationSourceLabel: specific?.sourceLabel || p.operator,
+      informationSourceUrl: specific?.source || p.source,
+      informationCheckedAt: specific ? featureFactsDocument.checkedAt : p.checkedAt || checkedAt,
       coordinateSource: point.source,
       positionQuality:
         point.displayName || `Reviewed placement within ${p.name}`,
@@ -225,34 +247,43 @@ function feature(p, name, i, images) {
       images: [image],
       searchAnswers: qs,
     },
-    source_label: p.operator,
-    source_url: p.source,
-    verified_at: checkedAt,
+    source_label: specific?.sourceLabel || p.operator,
+    source_url: specific?.source || p.source,
+    verified_at: specific ? featureFactsDocument.checkedAt : p.checkedAt || checkedAt,
   };
+}
+function researchQueue(p) {
+  if (p.id.endsWith("scioto-mile"))
+    return [
+      "Bicentennial Park, the interactive fountain, Main and Rich street bridges, Genoa Park, North Bank Park and Coleman Point remain parent guidance until each has a complete current profile, exact arrival evidence and destination-specific reusable photography.",
+    ];
+  if (p.id.endsWith("franklin-park"))
+    return [
+      "The Community Garden Campus, Children's Garden, amphitheater, Espy Adaptive Sports Complex, Asian Garden and Broad Street entrance remain parent guidance until each clears exact-arrival and destination-photo review.",
+      "The Cascades are retained as a documented closed destination; do not imply that the waterfall or lower pond is currently accessible.",
+    ];
+  if (p.id.endsWith("goodale-park"))
+    return [
+      "The fountain, playground, tennis and basketball courts, gazebo and Short North entrance remain parent guidance until destination-specific reusable photos and complete current profiles clear review.",
+      "The historical pond postcard is labeled as historical and must not be presented as a current conditions image.",
+    ];
+  return [];
 }
 (() => {
   const all = read("data/generated/all-subsites-ready.json"),
     pilot = read("data/generated/pilot-subsites-ready.json"),
+    launchPlaces = read("data/generated/launch-map-places.json"),
     national = read("data/parent-park-information-enrichment-national.json"),
     campaignParents = read(
       "data/parent-park-information-enrichment-campaign.json",
     ),
-    locations = read("data/launch-location-overrides.json"),
-    retiredIds = new Set(["launch-oh-columbus-whetstone-park"]);
-  for (const document of [all, pilot]) {
-    document.parks = document.parks.filter((park) => !retiredIds.has(park.id));
-  }
-  for (const id of retiredIds) {
-    delete national.parks[id];
-    delete campaignParents.parks[id];
-  }
-  for (let index = locations.length - 1; index >= 0; index -= 1) {
-    if (retiredIds.has(locations[index].id)) locations.splice(index, 1);
-  }
-  for (const scope of campaign.places) {
+    locations = read("data/launch-location-overrides.json");
+  for (const scope of campaign.places.filter((place) => place.currentBatch)) {
     const p = { ...scope, ...facts[scope.id] },
+      placeCheckedAt = scope.checkedAt || factsDocument.checkedAt || checkedAt,
       images = galleries.places[p.id]?.images || [];
-    if (images.length < 4) throw new Error(`${p.name}: gallery missing`);
+    if (images.length < (scope.minImages || 4))
+      throw new Error(`${p.name}: gallery missing`);
     const record = {
       id: p.id,
       name: p.name,
@@ -276,7 +307,7 @@ function feature(p, name, i, images) {
       accessibility: p.accessibility,
       sourceLabel: p.operator,
       source: p.source,
-      verifiedAt: checkedAt,
+      verifiedAt: placeCheckedAt,
       operator: p.operator,
       image: images[0],
       images: images.slice(1),
@@ -284,7 +315,7 @@ function feature(p, name, i, images) {
       launchTier: "anchor",
       likelySubsites: true,
       publishStatus: "super-enriched",
-      researchQueue: [],
+      researchQueue: researchQueue(p),
       transit: p.transit,
       searchAnswers: answers(p),
       features: p.subsites.map((n, i) => feature(p, n, i, images)),
@@ -293,6 +324,10 @@ function feature(p, name, i, images) {
     };
     upsert(all, record);
     upsert(pilot, record);
+    const launchIndex = launchPlaces.findIndex((item) => item.id === record.id);
+    if (launchIndex >= 0)
+      launchPlaces[launchIndex] = { ...launchPlaces[launchIndex], ...record };
+    else launchPlaces.push(record);
     const parent = {
       name: p.name,
       city: p.city,
@@ -311,7 +346,7 @@ function feature(p, name, i, images) {
       image: images[0],
       additionalImages: images.slice(1),
       replaceImages: true,
-      verifiedAt: checkedAt,
+      verifiedAt: placeCheckedAt,
     };
     national.parks[p.id] = parent;
     campaignParents.parks[p.id] = parent;
@@ -326,18 +361,21 @@ function feature(p, name, i, images) {
       displayName: `${p.name}, Columbus area, OH`,
       source: p.operator,
       sourceUrl: p.source,
-      checkedAt,
+      checkedAt: placeCheckedAt,
     };
     const li = locations.findIndex((x) => x.id === p.id);
     li >= 0 ? (locations[li] = loc) : locations.push(loc);
   }
   write("data/generated/all-subsites-ready.json", all);
   write("data/generated/pilot-subsites-ready.json", pilot);
+  write("data/generated/launch-map-places.json", launchPlaces);
   write("data/parent-park-information-enrichment-national.json", national);
   write(
     "data/parent-park-information-enrichment-campaign.json",
     campaignParents,
   );
   write("data/launch-location-overrides.json", locations);
-  console.log(`Super-enriched ${campaign.places.length} Columbus guides.`);
+  console.log(
+    `Super-enriched ${campaign.places.filter((place) => place.currentBatch).length} Columbus guides.`,
+  );
 })();

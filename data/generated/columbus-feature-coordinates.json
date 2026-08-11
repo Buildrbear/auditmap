@@ -1,154 +1,40 @@
 {
-  "checkedAt": "2026-08-06",
+  "checkedAt": "2026-08-11",
   "places": {
     "launch-oh-columbus-scioto-mile": {
-      "bicentennial-park": {
-        "latitude": 39.9564807,
-        "longitude": -83.0042292,
-        "displayName": "Preserved coordinate for Bicentennial Park",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "scioto-mile-fountain": {
-        "latitude": 39.95793133513653,
-        "longitude": -83.00296866486347,
-        "displayName": "Preserved coordinate for Scioto Mile Fountain",
-        "source": "AuditMap official-map placement"
-      },
       "promenade": {
         "latitude": 39.9594163,
         "longitude": -83.0031822,
-        "displayName": "Preserved coordinate for Promenade",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "main-street-bridge": {
-        "latitude": 39.9560615,
-        "longitude": -83.006618,
-        "displayName": "Preserved coordinate for Main Street Bridge",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "rich-street-bridge": {
-        "latitude": 39.957427,
-        "longitude": -83.0050617,
-        "displayName": "Preserved coordinate for Rich Street Bridge",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "genoa-park": {
-        "latitude": 39.9596751,
-        "longitude": -83.0050384,
-        "displayName": "Preserved coordinate for Genoa Park",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "north-bank-park": {
-        "latitude": 39.9652489,
-        "longitude": -83.0110511,
-        "displayName": "Preserved coordinate for North Bank Park",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "coleman-point": {
-        "latitude": 39.95793133513653,
-        "longitude": -83.00383133513652,
-        "displayName": "Preserved coordinate for Coleman Point",
-        "source": "AuditMap official-map placement"
+        "displayName": "Exact named OpenStreetMap way for Scioto Mile Promenade",
+        "source": "https://www.openstreetmap.org/way/515645889"
       }
     },
     "launch-oh-columbus-franklin-park": {
       "franklin-park-conservatory": {
         "latitude": 39.9662637,
         "longitude": -82.9542234,
-        "displayName": "Preserved coordinate for Franklin Park Conservatory",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "scotts-miracle-gro-community-garden-campus": {
-        "latitude": 39.96493133513653,
-        "longitude": -82.95146866486347,
-        "displayName": "Preserved coordinate for Scotts Miracle-Gro Community Garden Campus",
-        "source": "AuditMap official-map placement"
-      },
-      "the-scotts-miracle-gro-foundation-children-s-garden": {
-        "latitude": 39.9669049,
-        "longitude": -82.9537278,
-        "displayName": "Preserved coordinate for The Scotts Miracle-Gro Foundation Children's Garden",
-        "source": "OpenStreetMap Nominatim"
+        "displayName": "Exact named OpenStreetMap building footprint matching the official Conservatory address",
+        "source": "https://www.openstreetmap.org/way/817895050"
       },
       "cascades": {
-        "latitude": 40.0605986,
-        "longitude": -83.17182,
-        "displayName": "Preserved coordinate for Cascades",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "franklin-park-amphitheater": {
-        "latitude": 39.96389,
-        "longitude": -82.9519,
-        "displayName": "Preserved coordinate for Franklin Park Amphitheater",
-        "source": "AuditMap official-map placement"
-      },
-      "espy-adaptive-sports-complex": {
-        "latitude": 39.96395552777849,
-        "longitude": -82.95244447222152,
-        "displayName": "Preserved coordinate for Espy Adaptive Sports Complex",
-        "source": "AuditMap official-map placement"
-      },
-      "asian-garden": {
-        "latitude": 39.9645,
-        "longitude": -82.95235,
-        "displayName": "Preserved coordinate for Asian Garden",
-        "source": "AuditMap official-map placement"
-      },
-      "broad-street-entrance": {
-        "latitude": 39.96493133513653,
-        "longitude": -82.95233133513652,
-        "displayName": "Preserved coordinate for Broad Street Entrance",
-        "source": "AuditMap official-map placement"
+        "latitude": 39.963685,
+        "longitude": -82.956508,
+        "displayName": "Exact geotag recorded on the destination-specific Wikimedia Commons photograph",
+        "source": "https://commons.wikimedia.org/wiki/File:Franklin_Park_Waterfalls_-_panoramio.jpg"
       }
     },
     "launch-oh-columbus-goodale-park": {
       "goodale-park-pond": {
-        "latitude": 39.97415,
-        "longitude": -83.0055,
-        "displayName": "Preserved coordinate for Goodale Park Pond",
-        "source": "AuditMap official-map placement"
-      },
-      "goodale-park-fountain": {
-        "latitude": 39.974131335136526,
-        "longitude": -83.00506866486347,
-        "displayName": "Preserved coordinate for Goodale Park Fountain",
-        "source": "AuditMap official-map placement"
-      },
-      "goodale-park-playground": {
-        "latitude": 39.9737,
-        "longitude": -83.00473,
-        "displayName": "Preserved coordinate for Goodale Park Playground",
-        "source": "AuditMap official-map placement"
-      },
-      "goodale-park-tennis-courts": {
-        "latitude": 39.97338180194847,
-        "longitude": -83.00518180194847,
-        "displayName": "Preserved coordinate for Goodale Park Tennis Courts",
-        "source": "AuditMap official-map placement"
-      },
-      "goodale-park-basketball-courts": {
-        "latitude": 39.97309,
-        "longitude": -83.0055,
-        "displayName": "Preserved coordinate for Goodale Park Basketball Courts",
-        "source": "AuditMap official-map placement"
+        "latitude": 39.97663228393215,
+        "longitude": -83.00582921714313,
+        "displayName": "Exact centroid of active Goodale Park water-body record 849 in the official Columbus Park Facilities layer",
+        "source": "https://maps2.columbus.gov/arcgis/rest/services/Schemas/RecreationParks/MapServer/2"
       },
       "goodale-park-shelterhouse": {
-        "latitude": 39.97315552777849,
-        "longitude": -83.00604447222152,
-        "displayName": "Preserved coordinate for Goodale Park Shelterhouse",
-        "source": "AuditMap official-map placement"
-      },
-      "goodale-park-gazebo": {
-        "latitude": 39.9737,
-        "longitude": -83.00595,
-        "displayName": "Preserved coordinate for Goodale Park Gazebo",
-        "source": "AuditMap official-map placement"
-      },
-      "short-north-entrance": {
-        "latitude": 39.9808707,
-        "longitude": -83.0051946,
-        "displayName": "Preserved coordinate for Short North Entrance",
-        "source": "OpenStreetMap Nominatim"
+        "latitude": 39.975226349243236,
+        "longitude": -83.00675876167378,
+        "displayName": "Exact centroid of active Goodale Shelterhouse record 157 in the official Columbus Park Facilities layer",
+        "source": "https://maps2.columbus.gov/arcgis/rest/services/Schemas/RecreationParks/MapServer/2"
       }
     },
     "launch-oh-columbus-schiller-park": {
