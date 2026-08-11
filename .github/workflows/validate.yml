@@ -30,6 +30,12 @@ jobs:
         run: |
           node -e "const fs=require('fs'); for(const file of ['data/institutions.json','data/nc-areas.json','data/submission-template.json']) JSON.parse(fs.readFileSync(file,'utf8'));"
 
+      - name: Test place-data validator
+        run: node --test tests/*.test.mjs
+
+      - name: Validate public place data
+        run: node scripts/validate-place-data.mjs
+
       - name: Check for unresolved conflict markers
         run: |
           if grep -RInE '^(<<<<<<<|=======|>>>>>>>)' --exclude-dir=.git .; then

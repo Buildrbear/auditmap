@@ -37,7 +37,18 @@ Before opening a pull request, check all JavaScript:
 find . -type f -name '*.js' -not -path './node_modules/*' -print0 | xargs -0 -n1 node --check
 ```
 
-GitHub repeats syntax, JSON, merge-marker, and secret checks automatically.
+Validate the public place data and its test fixtures:
+
+```bash
+node scripts/validate-place-data.mjs
+node --test tests/*.test.mjs
+```
+
+The validator reports record-specific repair steps and city-level coverage without accessing the
+network or changing the data. See [docs/data-validation.md](./docs/data-validation.md) for its
+freshness policy, fixed-date option, and repair guide.
+
+GitHub repeats syntax, JSON, place-data, merge-marker, and secret checks automatically.
 
 ## Pull request expectations
 

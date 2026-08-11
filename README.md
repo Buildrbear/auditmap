@@ -8,7 +8,7 @@ curated city, and statewide discovery supports communities across North Carolina
 AuditMap uses a review-first open-source workflow:
 
 1. Contributors fork this repository and open a pull request.
-2. GitHub runs syntax, JSON, merge-marker, and secret checks.
+2. GitHub runs syntax, JSON, place-data, merge-marker, and secret checks.
 3. Vercel creates an isolated preview for the pull request.
 4. Reviewers test the preview without giving contributors production credentials.
 5. Only an approved merge to `main` updates production.
@@ -20,6 +20,21 @@ review, preview, and merge history remain visible in one place.
 The production branch must be protected in GitHub. Require a pull request, the `validate` and
 `secrets` checks, conversation resolution, and approval from the code owner before merge. Do not
 share Supabase, OpenAI, moderation, GitHub owner, or Vercel production credentials with volunteers.
+
+### Data quality checks
+
+Before changing `data/institutions.json`, run:
+
+```bash
+node scripts/validate-place-data.mjs
+node --test tests/*.test.mjs
+```
+
+The zero-dependency validator rejects missing citations, invalid coordinates and source dates,
+duplicate records, malformed contact details, incomplete image attribution, and obvious structured
+claim conflicts. It also prints source, date, coordinate, and image coverage by city. It makes no
+network requests and never edits the input file. See
+[docs/data-validation.md](./docs/data-validation.md) for fixed-date usage and repair guidance.
 
 ## Vercel environments
 
