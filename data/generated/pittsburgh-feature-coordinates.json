@@ -132,53 +132,21 @@
       }
     },
     "launch-pa-pittsburgh-emerald-view-park": {
-      "grandview-overlook": {
-        "latitude": 40.4339981,
-        "longitude": -80.0096789,
-        "displayName": "Preserved coordinate for Grandview Overlook",
-        "source": "OpenStreetMap Nominatim"
+      "point-of-view-park": {
+        "latitude": 40.4392747,
+        "longitude": -80.0212687,
+        "coordinateSource": "https://www.openstreetmap.org/node/4013347814",
+        "positionQuality": "reviewed-named-artwork-node-and-current-city-public-art-location-match",
+        "displayName": "reviewed-named-artwork-node-and-current-city-public-art-location-match",
+        "source": "https://www.openstreetmap.org/node/4013347814"
       },
       "grandview-park": {
-        "latitude": 40.4265871,
-        "longitude": -79.9956947,
-        "displayName": "Preserved coordinate for Grandview Park",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "olympia-park": {
-        "latitude": 40.4304297,
-        "longitude": -80.018573,
-        "displayName": "Preserved coordinate for Olympia Park",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "grandview-playground": {
-        "latitude": 40.430881801948466,
-        "longitude": -80.01298180194847,
-        "displayName": "Preserved coordinate for Grandview Playground",
-        "source": "AuditMap official-map placement"
-      },
-      "duquesne-heights-greenway": {
-        "latitude": 40.4381101,
-        "longitude": -80.0164893,
-        "displayName": "Preserved coordinate for Duquesne Heights Greenway",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "mount-washington-trail": {
-        "latitude": 40.430655527778484,
-        "longitude": -80.01384447222152,
-        "displayName": "Preserved coordinate for Mount Washington Trail",
-        "source": "AuditMap official-map placement"
-      },
-      "george-and-guy-trailhead": {
-        "latitude": 40.4312,
-        "longitude": -80.01375,
-        "displayName": "Preserved coordinate for George and Guy Trailhead",
-        "source": "AuditMap official-map placement"
-      },
-      "ream-park": {
-        "latitude": 40.4310169,
-        "longitude": -80.0132127,
-        "displayName": "Preserved coordinate for Ream Park",
-        "source": "OpenStreetMap Nominatim"
+        "latitude": 40.4265515,
+        "longitude": -79.9975345,
+        "coordinateSource": "https://www.openstreetmap.org/way/803821275",
+        "positionQuality": "reviewed-named-park-way-and-current-city-bailey-avenue-location-match",
+        "displayName": "reviewed-named-park-way-and-current-city-bailey-avenue-location-match",
+        "source": "https://www.openstreetmap.org/way/803821275"
       }
     },
     "launch-pa-pittsburgh-mellon-park": {

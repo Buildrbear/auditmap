@@ -100,6 +100,20 @@
         "coordinateSource": "https://www.openstreetmap.org/way/429798473",
         "positionQuality": "reviewed-building-way-circular-drive-and-national-register-map-match"
       }
+    },
+    "launch-pa-pittsburgh-emerald-view-park": {
+      "point-of-view-park": {
+        "latitude": 40.4392747,
+        "longitude": -80.0212687,
+        "coordinateSource": "https://www.openstreetmap.org/node/4013347814",
+        "positionQuality": "reviewed-named-artwork-node-and-current-city-public-art-location-match"
+      },
+      "grandview-park": {
+        "latitude": 40.4265515,
+        "longitude": -79.9975345,
+        "coordinateSource": "https://www.openstreetmap.org/way/803821275",
+        "positionQuality": "reviewed-named-park-way-and-current-city-bailey-avenue-location-match"
+      }
     }
   }
 }
