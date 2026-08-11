@@ -3,12 +3,13 @@ const fs = require("node:fs"),
   path = require("node:path"),
   crypto = require("node:crypto"),
   root = path.resolve(__dirname, ".."),
-  campaign = require("../data/tampa-bay-super-enrichment-campaign.json"),
+  campaign = require("../data/tampa-bay-evidence-gate-campaign.json"),
   facts = require("../data/tampa-bay-visitor-facts.json").places,
-  galleries = require("../data/generated/tampa-bay-super-images.json"),
-  coordinates =
-    require("../data/generated/tampa-bay-feature-coordinates.json").places,
+  galleries = require("../data/generated/tampa-bay-evidence-gate-images.json"),
   checkedAt = campaign.checkedAt;
+const vercelPath = path.join(root, "vercel.json");
+const originalVercelText = fs.readFileSync(vercelPath, "utf8");
+const originalVercel = JSON.parse(originalVercelText);
 const slug = (v) =>
     String(v)
       .toLowerCase()
@@ -83,153 +84,53 @@ function answers(p) {
     ],
   ].map((v) => ans(p, ...v));
 }
-function note(name, parent) {
-  const n = name.toLowerCase();
-  if (n.includes("splash") || n.includes("fountain"))
-    return `${name} is a seasonal, weather-dependent water feature at ${parent}; verify same-day operation and supervision rules.`;
-  if (n.includes("beach"))
-    return `${name} is a named shoreline destination at ${parent}; check water status, lifeguard coverage, wind and posted beach rules before entering.`;
-  if (n.includes("trail") || n.includes("towpath") || n.includes("loop"))
-    return `${name} is a named route within ${parent}; use this mapped trailhead and confirm grade, surface, closures and return distance.`;
-  if (n.includes("garden") || n.includes("meadow") || n.includes("wetland"))
-    return `${name} is a distinct landscaped or habitat area within ${parent}; stay on established routes and respect plantings and wildlife.`;
-  if (
-    n.includes("center") ||
-    n.includes("greenhouse") ||
-    n.includes("cafe") ||
-    n.includes("kiosk")
-  )
-    return `${name} is a staffed or separately operated facility associated with ${parent}; building hours may be shorter than the surrounding grounds.`;
-  if (
-    n.includes("overlook") ||
-    n.includes("sign") ||
-    n.includes("monument") ||
-    n.includes("bridge") ||
-    n.includes("falls")
-  )
-    return `${name} is a specific landmark within ${parent}; use this mapped point for the shortest practical approach and follow edge or crossing warnings.`;
-  if (
-    n.includes("marina") ||
-    n.includes("paddling") ||
-    n.includes("pier") ||
-    n.includes("boat")
-  )
-    return `${name} is a water-access destination at ${parent}; check wind, waves, current, traffic and seasonal facility status before visiting.`;
-  if (n.includes("play") || n.includes("rink"))
-    return `${name} is a family or recreation destination at ${parent}; confirm seasonal operation, surface conditions and nearby restroom access.`;
-  return `${name} is a distinct mapped destination within ${parent}; navigate to this point instead of the general park pin and check posted conditions on arrival.`;
-}
-function featureImageIndex(p, name, i) {
-  const n = name.toLowerCase();
-  if (p.id.endsWith("curtis-hixon-waterfront-park")) {
-    if (n.includes("splash") || n.includes("playground")) return 0;
-    if (n.includes("dog")) return 2;
-    if (n.includes("riverwalk") || n.includes("boat") || n.includes("museum")) return 3;
-    if (n.includes("kiley")) return 1;
-    return 0;
-  }
-  if (p.id.endsWith("lettuce-lake-park")) {
-    if (n.includes("playground")) return 0;
-    if (n.includes("boardwalk") || n.includes("river")) return 1;
-    if (n.includes("tower") || n.includes("overlook")) return 2;
-    return 3;
-  }
-  if (p.id.endsWith("julian-b-lane-riverfront-park")) {
-    if (n.includes("play") || n.includes("splash")) return 1;
-    if (n.includes("river center") || n.includes("front porch")) return 2;
-    if (n.includes("boat")) return 3;
-    return 0;
-  }
-  if (p.id.endsWith("ballast-point-park")) {
-    if (n.includes("playground")) return 1;
-    if (n.includes("splash")) return 2;
-    if (n.includes("boat") || n.includes("pier")) return 3;
-    return 0;
-  }
-  if (p.id.endsWith("st-pete-pier")) {
-    if (n.includes("splash") || n.includes("playground")) return 1;
-    if (n.includes("fishing") || n.includes("pier point")) return 2;
-    if (n.includes("beach") || n.includes("family")) return 3;
-    return 0;
-  }
-  if (p.id.endsWith("fort-de-soto-park")) {
-    if (n.includes("fort")) return 3;
-    if (n.includes("pier") || n.includes("boat")) return 2;
-    if (n.includes("beach")) return 0;
-    return 1;
-  }
-  return i % 4;
-}
-function hasSeparateHours(name) {
-  return /(splash|fountain|play|dog|museum|nature center|education center|tower|boat|water taxi|garden|river center|boathouse|concession|lobstah|trail|event lawn|sports|beach|discovery center|fishing|pier|fort|campground|aviary|settlement|bending arc)/i.test(
-    name,
-  );
-}
-function featureHours(p, name) {
-  const n = name.toLowerCase();
-  if (n.includes("curtis hixon splash"))
-    return "April through October: 9:00 a.m.-10:00 p.m. November through March: 10:00 a.m.-10:00 p.m. Water can stop for cold weather, maintenance or events.";
-  if (n.includes("julian b. lane splash"))
-    return "April through October: 9:00 a.m.-9:00 p.m. November through March: 10:00 a.m.-8:00 p.m. Water can stop for cold weather, maintenance or events.";
-  if (n.includes("ballast point splash"))
-    return "The park page currently lists 8:00 a.m.-4:00 p.m.; the City also publishes seasonal splash-pad hours, so verify same-day operation before a water-play trip.";
-  if (n.includes("ballast point boat ramp"))
-    return "The boat ramp is open 24 hours a day, separate from the park's 6:00 a.m.-8:00 p.m. hours.";
-  if (n.includes("ballast point pier"))
-    return "Closed while the City repairs major hurricane damage; no reopening date is currently posted.";
-  if (n.includes("glazer family playground"))
-    return "Open daily from 7:00 a.m.-10:00 p.m., subject to operational or weather closures.";
-  if (n.includes("majeed foundation splash"))
-    return "Open daily from 9:00 a.m.-10:00 p.m., subject to weather and operational closures.";
-  if (n.includes("discovery center"))
-    return "Open daily from 10:00 a.m.-5:00 p.m.; admission and program operations are separate from general Pier access.";
-  if (n.includes("bending arc"))
-    return "Temporarily closed after hurricane damage. Check the official Pier notice before planning to see it.";
-  if (n.includes("lettuce lake observation tower"))
-    return "Closed during the current boardwalk reconstruction project.";
-  if (n.includes("lettuce lake canoe"))
-    return "The launch and rentals are currently suspended during reconstruction.";
-  if (n.includes("gulf pier") || n.includes("bay pier"))
-    return "Pier access can close independently for storm repair, maintenance or cleaning; check the current County notice before driving to this part of the park.";
-  if (n.includes("education center") && p.id.endsWith("boyd-hill-nature-preserve"))
-    return "The building follows preserve operating days, but its exhibits are currently closed for renovation. Trail entry ends before the preserve closes.";
-  if (hasSeparateHours(name))
-    return `${p.hours} ${name} may keep shorter, seasonal, staffed, event-dependent or weather-dependent hours; verify its current status before relying on the parent schedule.`;
-  return p.hours;
-}
-function feature(p, name, i, images) {
-  const s = slug(name),
+const featureDefinitions = {
+  "launch-fl-st-petersburg-st-pete-pier": [{
+    name: "Tampa Bay Watch Discovery Center", imageIndex: 3, latitude: 27.7736117, longitude: -82.6248673,
+    source: "https://stpetepier.org/explore/", sourceLabel: "St. Pete Pier",
+    coordinateSource: "https://www.openstreetmap.org/way/887065366",
+    summary: "The staffed marine-education center and wet classroom on the Pier's bay-facing walkway.",
+    hours: "Open daily 10:00 a.m.-5:00 p.m.; programs and admission operate separately from general Pier access.",
+    cost: "Current admission is $8 adults, $6 seniors, $3 children ages 4-12, and free for children 3 and under with an adult; listed discounts apply.",
+    need: "Confirm same-day hours and program availability. The exposed walk from the entrance is long; the accessible tram can reduce the distance."
+  }],
+  "launch-fl-tierra-verde-fort-de-soto-park": [
+    {name:"Historic Fort De Soto",imageIndex:3,latitude:27.615814,longitude:-82.735948,source:"https://pinellas.gov/parks/fort-de-soto-park/",sourceLabel:"Pinellas County Parks",coordinateSource:"https://commons.wikimedia.org/wiki/File:2018_Fort_De_Soto_-_12-inch_steel_coastal_defense_mortars.jpg",summary:"Battery Laidley and the surviving 12-inch coastal-defense mortars in the park's historic fort area.",hours:"The park is open daily 7:00 a.m. to sunset; the fort area can close independently for storm repairs or maintenance.",cost:"Historic-fort access is included after the $6 vehicle parking fee.",need:"Pets are not allowed in the historic fort. Portions of the nearby seawall remain closed for storm damage, so follow barriers and current County notices."},
+    {name:"Fort De Soto Gulf Pier",imageIndex:2,latitude:27.613573,longitude:-82.739014,source:"https://pinellas.gov/parks/fort-de-soto-park/",sourceLabel:"Pinellas County Parks",coordinateSource:"https://commons.wikimedia.org/wiki/File:2018_Fort_De_Soto_-_Gulf_Pier_2.jpg",summary:"The Gulf-facing fishing pier and concession area west of the historic fort.",hours:"The County lists Gulf Pier hours as 7:00 a.m. to sunset; cleaning, storms, repairs, and wildlife conditions can close it independently.",cost:"Pier access is included after the $6 vehicle parking fee; fishing licenses, food, bait, and rentals cost separately.",need:"The photograph predates the 2024 hurricane repairs. Verify the live County notice before making the pier the purpose of the trip and keep clear of fishing gear."
+    }
+  ]
+};
+function feature(p, definition, images) {
+  const name = definition.name,
+    s = slug(name),
     id = stable(p.id, s),
-    point = coordinates[p.id]?.[s],
-    description = note(name, p.name),
-    separateHours = hasSeparateHours(name),
-    hours = featureHours(p, name);
-  if (!point) throw new Error(`${p.name}/${name}: coordinate missing`);
-  const base = images[featureImageIndex(p, name, i) % images.length],
+    description = definition.summary,
+    hours = definition.hours;
+  const base = images[definition.imageIndex],
     image = {
       ...base,
       featureId: id,
-      latitude: point.latitude,
-      longitude: point.longitude,
+      latitude: definition.latitude,
+      longitude: definition.longitude,
       alt: `${name} at ${p.name}`,
     },
     qs = [
       ["location", `Where exactly is ${name}?`, description],
-      ["parking", `Where should I park for ${name}?`, p.parking],
+      ["parking", `Where should I park for ${name}?`, `${p.parking} Navigate to the exact destination pin rather than the general park marker.`],
       [
         "hours",
         `When is ${name} open?`,
         hours,
       ],
       ["restroom", `Are there restrooms near ${name}?`, p.restrooms],
-      ["fees", `Is ${name} free?`, p.cost],
+      ["fees", `Is ${name} free?`, definition.cost],
       ["accessibility", `How accessible is ${name}?`, p.accessibility],
       ["dogs", `Are dogs allowed at ${name}?`, p.dogs],
       ["family", `Is ${name} good for children?`, p.family],
       [
         "need-to-know",
         `What should I know before visiting ${name}?`,
-        `${description} ${p.need}`,
+        definition.need,
       ],
     ].map((v) => ans(p, ...v));
   return {
@@ -238,23 +139,23 @@ function feature(p, name, i, images) {
     name,
     feature_type: "destination",
     description,
-    latitude: point.latitude,
-    longitude: point.longitude,
+    latitude: definition.latitude,
+    longitude: definition.longitude,
     details: {
       category: "destination",
       includeInParentGallery: true,
       address: p.address,
       hours,
-      hoursSchedule: separateHours ? false : schedule(p),
-      cost: p.cost,
+      hoursSchedule: false,
+      cost: definition.cost,
       accessibility: p.accessibility,
       locationContext: description,
-      needToKnow: p.need,
-      informationSourceLabel: p.operator,
-      informationSourceUrl: p.source,
+      needToKnow: definition.need,
+      informationSourceLabel: definition.sourceLabel,
+      informationSourceUrl: definition.source,
       informationCheckedAt: checkedAt,
-      coordinateSource: point.source,
-      positionQuality: point.quality || "official-map-reviewed",
+      coordinateSource: definition.coordinateSource,
+      positionQuality: "exact-geotag-or-named-open-map-object",
       imageUrl: image.url,
       imageSourceUrl: image.source,
       imageAuthor: image.author,
@@ -263,23 +164,32 @@ function feature(p, name, i, images) {
       images: [image],
       searchAnswers: qs,
     },
-    source_label: p.operator,
-    source_url: p.source,
+    source_label: definition.sourceLabel,
+    source_url: definition.source,
     verified_at: checkedAt,
   };
 }
 (() => {
   const all = read("data/generated/all-subsites-ready.json"),
     pilot = read("data/generated/pilot-subsites-ready.json"),
+    launch = read("data/generated/launch-map-places.json"),
     national = read("data/parent-park-information-enrichment-national.json"),
     campaignParents = read(
       "data/parent-park-information-enrichment-campaign.json",
     ),
-    locations = read("data/launch-location-overrides.json");
+    locations = read("data/launch-location-overrides.json"),
+    vercel = read("vercel.json");
+  if (!Array.isArray(vercel.redirects)) vercel.redirects = [];
   for (const scope of campaign.places) {
     const p = { ...scope, ...facts[scope.id] },
       images = galleries.places[p.id]?.images || [];
-    if (images.length < 4) throw new Error(`${p.name}: gallery missing`);
+    const deferred = Boolean(scope.deferRelease);
+    if (deferred ? images.length < 1 || images.length >= 4 : images.length !== 4)
+      throw new Error(`${p.name}: evidence-gate gallery mismatch`);
+    const definitions = featureDefinitions[p.id] || [];
+    const features = deferred ? [] : definitions.map((definition) => feature(p, definition, images));
+    const recordSources = [{ label: p.operator, url: p.source }, ...definitions.map((item) => ({ label: item.sourceLabel, url: item.source }))]
+      .filter((item, index, list) => list.findIndex((other) => other.url === item.url) === index);
     const record = {
       id: p.id,
       name: p.name,
@@ -307,19 +217,30 @@ function feature(p, name, i, images) {
       operator: p.operator,
       image: images[0],
       images: images.slice(1),
-      sources: [{ label: p.operator, url: p.source }],
+      sources: recordSources,
       launchTier: "anchor",
-      likelySubsites: true,
-      publishStatus: "super-enriched",
-      researchQueue: [],
+      likelySubsites: !deferred && features.length > 0,
+      publishStatus: deferred ? "photo-gated-deferred" : "super-enriched",
+      researchQueue: deferred ? [scope.reviewNote] : [],
       transit: p.transit,
       searchAnswers: answers(p),
-      features: p.subsites.map((n, i) => feature(p, n, i, images)),
+      features,
       amenities: [],
       comments: [],
     };
+    const parentRoute = `/us/fl/${slug(p.city)}/parks/${slug(p.name)}`;
+    const retainedSlugs = new Set(features.map((item) => item.slug));
+    for (const retiredSlug of scope.legacyCandidates.map(slug).filter((item) => !retainedSlugs.has(item))) {
+      const retiredDirectory = path.join(root, parentRoute.slice(1), retiredSlug);
+      if (fs.existsSync(retiredDirectory)) fs.rmSync(retiredDirectory, { recursive: true, force: true });
+      const source = `${parentRoute}/${retiredSlug}`;
+      if (!vercel.redirects.some((item) => item.source === source))
+        vercel.redirects.push({ source, destination: parentRoute, permanent: true });
+    }
     upsert(all, record);
     upsert(pilot, record);
+    const launchIndex = launch.findIndex((item) => item.id === record.id);
+    launchIndex >= 0 ? (launch[launchIndex] = record) : launch.push(record);
     const parent = {
       name: p.name,
       city: p.city,
@@ -360,11 +281,21 @@ function feature(p, name, i, images) {
   }
   write("data/generated/all-subsites-ready.json", all);
   write("data/generated/pilot-subsites-ready.json", pilot);
+  write("data/generated/launch-map-places.json", launch);
   write("data/parent-park-information-enrichment-national.json", national);
   write(
     "data/parent-park-information-enrichment-campaign.json",
     campaignParents,
   );
   write("data/launch-location-overrides.json", locations);
-  console.log(`Super-enriched ${campaign.places.length} Tampa Bay guides.`);
+  const originalRedirectSources = new Set((originalVercel.redirects || []).map((item) => item.source));
+  const addedRedirects = vercel.redirects.filter((item) => !originalRedirectSources.has(item.source));
+  if (addedRedirects.length) {
+    const redirectLines = addedRedirects.map((item) =>
+      `    { "source": ${JSON.stringify(item.source)}, "destination": ${JSON.stringify(item.destination)}, "permanent": true },`,
+    ).join("\n");
+    fs.writeFileSync(vercelPath, originalVercelText.replace('  "redirects": [\n', `  "redirects": [\n${redirectLines}\n`));
+  }
+  const deferredCount = campaign.places.filter((place) => place.deferRelease).length;
+  console.log(`Rebuilt ${campaign.places.length - deferredCount} Tampa Bay guides and retained ${deferredCount} photo-gated parents.`);
 })();
