@@ -36,6 +36,28 @@
         "coordinateSource": "https://maps2.columbus.gov/arcgis/rest/services/Schemas/RecreationParks/MapServer/2",
         "positionQuality": "Exact centroid of active Goodale Shelterhouse record 157 in the official Columbus Park Facilities layer"
       }
+    },
+    "launch-oh-columbus-schiller-park": {
+      "schiller-park-pond": {
+        "latitude": 39.94144091790042,
+        "longitude": -82.99362636851419,
+        "coordinateSource": "https://maps2.columbus.gov/arcgis/rest/services/Schemas/RecreationParks/MapServer/2",
+        "positionQuality": "Exact centroid of active Schiller Park stocked-pond record 867 in the official Columbus Park Facilities layer"
+      },
+      "schiller-statue": {
+        "latitude": 39.9420556,
+        "longitude": -82.9935556,
+        "coordinateSource": "https://www.wikidata.org/wiki/Q60752776",
+        "positionQuality": "Exact Wikidata position for the named 1891 Schiller Statue, matching the official City Park Avenue entrance context"
+      }
+    },
+    "launch-oh-columbus-whetstone-park-and-columbus-park-of-roses": {
+      "columbus-park-of-roses": {
+        "latitude": 40.0436446,
+        "longitude": -83.0254767,
+        "coordinateSource": "https://www.openstreetmap.org/way/546921148",
+        "positionQuality": "Exact named OpenStreetMap garden way for Columbus Park of Roses, matching the operator's Hollenback Road entrance guidance"
+      }
     }
   }
 }

@@ -38,103 +38,25 @@
       }
     },
     "launch-oh-columbus-schiller-park": {
-      "schiller-park-stage": {
-        "latitude": 39.93965,
-        "longitude": -82.9912,
-        "displayName": "Preserved coordinate for Schiller Park Stage",
-        "source": "AuditMap official-map placement"
-      },
-      "umbrella-girl-fountain": {
-        "latitude": 39.9426637,
-        "longitude": -82.9943241,
-        "displayName": "Preserved coordinate for Umbrella Girl Fountain",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "schiller-recreation-center": {
-        "latitude": 39.9392,
-        "longitude": -82.99043,
-        "displayName": "Preserved coordinate for Schiller Recreation Center",
-        "source": "AuditMap official-map placement"
-      },
-      "schiller-park-playground": {
-        "latitude": 39.9421392,
-        "longitude": -82.9909281,
-        "displayName": "Preserved coordinate for Schiller Park Playground",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "schiller-park-tennis-courts": {
-        "latitude": 39.93859,
-        "longitude": -82.9912,
-        "displayName": "Preserved coordinate for Schiller Park Tennis Courts",
-        "source": "AuditMap official-map placement"
-      },
-      "schiller-park-basketball-courts": {
-        "latitude": 39.93865552777849,
-        "longitude": -82.99174447222153,
-        "displayName": "Preserved coordinate for Schiller Park Basketball Courts",
-        "source": "AuditMap official-map placement"
-      },
-      "huntington-garden": {
-        "latitude": 39.9392,
-        "longitude": -82.99165,
-        "displayName": "Preserved coordinate for Huntington Garden",
-        "source": "AuditMap official-map placement"
-      },
       "schiller-park-pond": {
-        "latitude": 39.939631335136525,
-        "longitude": -82.99163133513653,
-        "displayName": "Preserved coordinate for Schiller Park Pond",
-        "source": "AuditMap official-map placement"
+        "latitude": 39.94144091790042,
+        "longitude": -82.99362636851419,
+        "displayName": "Exact centroid of active Schiller Park stocked-pond record 867 in the official Columbus Park Facilities layer",
+        "source": "https://maps2.columbus.gov/arcgis/rest/services/Schemas/RecreationParks/MapServer/2"
+      },
+      "schiller-statue": {
+        "latitude": 39.9420556,
+        "longitude": -82.9935556,
+        "displayName": "Exact Wikidata position for the named 1891 Schiller Statue, matching the official City Park Avenue entrance context",
+        "source": "https://www.wikidata.org/wiki/Q60752776"
       }
     },
     "launch-oh-columbus-whetstone-park-and-columbus-park-of-roses": {
       "columbus-park-of-roses": {
         "latitude": 40.0436446,
         "longitude": -83.0254767,
-        "displayName": "Columbus Park of Roses, Clintonville, Columbus, Sharon, Franklin County, Ohio, United States",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "park-of-roses-gazebo": {
-        "latitude": 40.041531335136526,
-        "longitude": -83.02116866486348,
-        "displayName": "Approximate position within Whetstone Park and Columbus Park of Roses",
-        "source": "AuditMap official-map placement"
-      },
-      "heritage-rose-garden": {
-        "latitude": 40.0411,
-        "longitude": -83.02083,
-        "displayName": "Approximate position within Whetstone Park and Columbus Park of Roses",
-        "source": "AuditMap official-map placement"
-      },
-      "herb-garden": {
-        "latitude": 40.0760133,
-        "longitude": -82.8463671,
-        "displayName": "Herb Garden Drive, Columbus, Sharon, Franklin County, Ohio, 43054, United States",
-        "source": "OpenStreetMap Nominatim"
-      },
-      "whetstone-prairie": {
-        "latitude": 40.04049,
-        "longitude": -83.0216,
-        "displayName": "Approximate position within Whetstone Park and Columbus Park of Roses",
-        "source": "AuditMap official-map placement"
-      },
-      "olentangy-trail-access": {
-        "latitude": 40.04055552777849,
-        "longitude": -83.02214447222153,
-        "displayName": "Approximate position within Whetstone Park and Columbus Park of Roses",
-        "source": "AuditMap official-map placement"
-      },
-      "whetstone-park-playground": {
-        "latitude": 40.0411,
-        "longitude": -83.02205000000001,
-        "displayName": "Approximate position within Whetstone Park and Columbus Park of Roses",
-        "source": "AuditMap official-map placement"
-      },
-      "whetstone-park-tennis-courts": {
-        "latitude": 40.041531335136526,
-        "longitude": -83.02203133513653,
-        "displayName": "Approximate position within Whetstone Park and Columbus Park of Roses",
-        "source": "AuditMap official-map placement"
+        "displayName": "Exact named OpenStreetMap garden way for Columbus Park of Roses, matching the operator's Hollenback Road entrance guidance",
+        "source": "https://www.openstreetmap.org/way/546921148"
       }
     },
     "launch-oh-columbus-highbanks-metro-park": {

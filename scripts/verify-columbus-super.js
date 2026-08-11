@@ -10,14 +10,12 @@ const failures = [];
 const slug = (value) => String(value).toLowerCase().replace(/&/g, " and ").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 const need = (condition, message) => { if (!condition) failures.push(message); };
 const expected = {
-  "launch-oh-columbus-scioto-mile": ["promenade"],
-  "launch-oh-columbus-franklin-park": ["franklin-park-conservatory", "cascades"],
-  "launch-oh-columbus-goodale-park": ["goodale-park-pond", "goodale-park-shelterhouse"]
+  "launch-oh-columbus-schiller-park": ["schiller-park-pond", "schiller-statue"],
+  "launch-oh-columbus-whetstone-park-and-columbus-park-of-roses": ["columbus-park-of-roses"]
 };
 const retired = {
-  "scioto-mile": ["bicentennial-park", "scioto-mile-fountain", "main-street-bridge", "rich-street-bridge", "genoa-park", "north-bank-park", "coleman-point"],
-  "franklin-park": ["scotts-miracle-gro-community-garden-campus", "the-scotts-miracle-gro-foundation-children-s-garden", "franklin-park-amphitheater", "espy-adaptive-sports-complex", "asian-garden", "broad-street-entrance"],
-  "goodale-park": ["goodale-park-fountain", "goodale-park-playground", "goodale-park-tennis-courts", "goodale-park-basketball-courts", "goodale-park-gazebo", "short-north-entrance"]
+  "schiller-park": ["schiller-park-stage", "umbrella-girl-fountain", "schiller-recreation-center", "schiller-park-playground", "schiller-park-tennis-courts", "schiller-park-basketball-courts", "huntington-garden"],
+  "whetstone-park-and-columbus-park-of-roses": ["park-of-roses-gazebo", "heritage-rose-garden", "herb-garden", "whetstone-prairie", "olentangy-trail-access", "whetstone-park-playground", "whetstone-park-tennis-courts"]
 };
 
 for (const scope of campaign.places.filter((entry) => entry.currentBatch)) {
@@ -78,13 +76,12 @@ for (const scope of campaign.places.filter((entry) => entry.currentBatch)) {
 }
 
 const scoped = campaign.places.filter((entry) => entry.currentBatch).map((scope) => JSON.stringify(places.find((place) => place.id === scope.id) || {})).join("\n");
-for (const phrase of ["7:00 a.m. to 11:00 p.m.", "mixed terrain and long distances", "recirculated fountain water", "Cascades have been closed since June 23, 2026", "fall 2027", "$25.20", "does not list a general public restroom", "at least 15 days ahead", "historical and must not be presented as a current conditions image"])
+for (const phrase of ["7:00 a.m. to 11:00 p.m.", "0.8-mile paved path", "general public entrance", "not current closure notices", "7:00 a.m. to dusk", "step-free ADA parking", "COTA Route 2", "mid-June through mid-September", "historical and must not be presented as current conditions evidence"])
   need(scoped.includes(phrase), `Missing Columbus guidance: ${phrase}`);
-need(!scoped.includes("Fpsouth1"), "Neighborhood-house image survived Franklin Park review");
 need(!scoped.includes("Official source image"), "Unlicensed official-source image attribution survived current batch");
 
 if (failures.length) {
   console.error(failures.join("\n"));
   process.exit(1);
 }
-console.log("Verified Columbus downtown core: three parent guides, five exact photo-backed destinations, source-specific answers and 19 retired-route redirects.");
+console.log("Verified Columbus neighborhood gardens: two parent guides, three exact photo-backed destinations, source-specific answers and 14 retired-route redirects.");

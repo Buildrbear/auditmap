@@ -11,7 +11,7 @@
       "operator": "Columbus Recreation and Parks",
       "source": "https://columbusrecparks.com/parks/scioto-mile-promenade/",
       "checkedAt": "2026-08-11",
-      "currentBatch": true,
+      "currentBatch": false,
       "releaseBatch": "downtown-core-1",
       "minImages": 4,
       "subsites": [
@@ -26,7 +26,7 @@
       "operator": "Columbus Recreation and Parks",
       "source": "https://columbusrecparks.com/parks/franklin-park/",
       "checkedAt": "2026-08-11",
-      "currentBatch": true,
+      "currentBatch": false,
       "releaseBatch": "downtown-core-1",
       "minImages": 4,
       "subsites": [
@@ -42,7 +42,7 @@
       "operator": "Columbus Recreation and Parks",
       "source": "https://columbusrecparks.com/parks/goodale-park/",
       "checkedAt": "2026-08-11",
-      "currentBatch": true,
+      "currentBatch": false,
       "releaseBatch": "downtown-core-1",
       "minImages": 4,
       "subsites": [
@@ -56,16 +56,14 @@
       "city": "Columbus",
       "citySlug": "columbus-oh",
       "operator": "Columbus Recreation and Parks",
-      "source": "https://www.columbus.gov/Community/Recreation-and-Parks/Parks/Schiller-Park",
+      "source": "https://columbusrecparks.com/parks/schiller-park/",
+      "checkedAt": "2026-08-11",
+      "currentBatch": true,
+      "releaseBatch": "neighborhood-gardens-2",
+      "minImages": 4,
       "subsites": [
-        "Schiller Park Stage",
-        "Umbrella Girl Fountain",
-        "Schiller Recreation Center",
-        "Schiller Park Playground",
-        "Schiller Park Tennis Courts",
-        "Schiller Park Basketball Courts",
-        "Huntington Garden",
-        "Schiller Park Pond"
+        "Schiller Park Pond",
+        "Schiller Statue"
       ]
     },
     {
@@ -74,16 +72,13 @@
       "city": "Columbus",
       "citySlug": "columbus-oh",
       "operator": "Columbus Recreation and Parks",
-      "source": "https://www.parkofroses.org/",
+      "source": "https://columbusrecparks.com/parks/whetstone-park-and-columbus-park-of-roses/",
+      "checkedAt": "2026-08-11",
+      "currentBatch": true,
+      "releaseBatch": "neighborhood-gardens-2",
+      "minImages": 4,
       "subsites": [
-        "Columbus Park of Roses",
-        "Park of Roses Gazebo",
-        "Heritage Rose Garden",
-        "Herb Garden",
-        "Whetstone Prairie",
-        "Olentangy Trail Access",
-        "Whetstone Park Playground",
-        "Whetstone Park Tennis Courts"
+        "Columbus Park of Roses"
       ]
     },
     {

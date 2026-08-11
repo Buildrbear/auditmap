@@ -84,7 +84,8 @@ function answers(p) {
     [
       "weather",
       `What weather should I check before visiting ${p.name}?`,
-      `Check current Columbus-area weather and operator alerts. Scioto, Olentangy and Darby water levels, heat, storms, snow, ice and high winds can close fountains, river paths, trails or facilities independently.`,
+      p.weather ||
+        `Check current Columbus-area weather and operator alerts. Scioto, Olentangy and Darby water levels, heat, storms, snow, ice and high winds can close fountains, river paths, trails or facilities independently.`,
     ],
   ].map((v) => ans(p, ...v, sourceFor(v[0])));
 }
@@ -142,7 +143,7 @@ function featureImageIndex(p, name, i) {
     return i % 4;
   }
   if (p.id.endsWith("schiller-park")) return i % 4;
-  if (p.id.endsWith("whetstone-park")) {
+  if (p.id.includes("whetstone-park")) {
     if (n.includes("fountain")) return 3;
     return i % 3;
   }
@@ -266,6 +267,18 @@ function researchQueue(p) {
     return [
       "The fountain, playground, tennis and basketball courts, gazebo and Short North entrance remain parent guidance until destination-specific reusable photos and complete current profiles clear review.",
       "The historical pond postcard is labeled as historical and must not be presented as a current conditions image.",
+    ];
+  if (p.id.endsWith("schiller-park"))
+    return [
+      "The amphitheater, Umbrella Girl Fountain, community center, playground, tennis and basketball courts remain parent guidance until each has a matching reusable photograph and a complete destination-specific profile.",
+      "Huntington Gardens has an exact reusable aerial and partner guidance, but remains parent context until a public authoritative destination coordinate clears review.",
+      "The city's pond and playground improvement plans are not closure notices; recheck current alerts and posted conditions before publication.",
+    ];
+  if (p.id.includes("whetstone-park"))
+    return [
+      "The Park of Roses gazebo, Heritage Rose Garden, Herb Garden, Whetstone Prairie, Olentangy Trail access, playground and tennis courts remain parent guidance until each has a matching reusable photograph, exact reviewed coordinates and a complete current profile.",
+      "The three historical Park of Roses gallery images are explicitly labeled historical and must not be presented as current conditions evidence.",
+      "Recheck the 2026 Hollenback Road, pond-lot, garden-path and community-center projects before publication or a later Whetstone release.",
     ];
   return [];
 }

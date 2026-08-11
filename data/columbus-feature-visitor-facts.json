@@ -147,6 +147,101 @@
         },
         "imageIndex": 2
       }
+    },
+    "launch-oh-columbus-schiller-park": {
+      "schiller-park-pond": {
+        "description": "Schiller Park Pond is the city's active stocked-fishing water body west of the community center, with a footbridge and open lawn around its edge.",
+        "hours": "The pond is within Schiller Park, which is open daily from 7:00 a.m. to 11:00 p.m. Fishing conditions, maintenance and future renovation work can affect use independently.",
+        "location": "The exact pin is the centroid of active stocked-pond record 867 in the official Columbus Park Facilities layer, west of the Schiller Community Center.",
+        "parking": "Use the park's documented lot by the community center at 1069 Jaeger Street or lawful neighborhood parking, then follow park paths west. Events can reduce nearby availability.",
+        "restrooms": "The reliable documented restroom opportunity is inside the Schiller Community Center during its staffed hours; the city does not list a dedicated pond restroom.",
+        "fees": "The city posts no admission charge for ordinary pond viewing or park access. Any fishing-license requirement, classes, permits or events are separate.",
+        "accessibility": "A paved park loop approaches the pond, but the city does not document every pond-edge position, bridge approach or turf surface as barrier-free.",
+        "dogs": "Animals must be securely leashed or under direct control, and handlers must remove waste. Keep dogs out of the stocked pond and clear of anglers.",
+        "family": "The pond is open water rather than a fenced play feature. Keep children close at the edge and do not infer that swimming or wading is allowed.",
+        "need": "The city's long-range program and capital budget identify future pond renovation, but they are not current closure notices. Check posted conditions and Recreation and Parks alerts before relying on fishing or bridge access.",
+        "imageAlt": "Schiller Park Pond, footbridge and surrounding lawn",
+        "sourceLabel": "Columbus Recreation and Parks",
+        "source": "https://columbusrecparks.com/parks/schiller-park/",
+        "answerSources": {
+          "location": "https://maps2.columbus.gov/arcgis/rest/services/Schemas/RecreationParks/MapServer/2",
+          "parking": "https://columbusrecparks.com/parks/schiller-park/",
+          "hours": "https://columbusrecparks.com/parks/schiller-park/",
+          "restroom": "https://columbusrecparks.com/community-center/schiller/",
+          "fees": "https://columbusrecparks.com/parks/schiller-park/",
+          "accessibility": "https://columbusrecparks.com/parks/schiller-park/",
+          "dogs": "https://columbusrecparks.com/facilities/dog-parks/rules/",
+          "family": "https://columbusrecparks.com/parks/schiller-park/",
+          "need-to-know": "https://columbusrecparks.com/wp-content/uploads/2026/03/Playbook-Columbus_260206_FINAL.pdf"
+        },
+        "imageIndex": 2
+      },
+      "schiller-statue": {
+        "description": "The Schiller Statue is the named 1891 bronze landmark at the west entrance, reached through Huntington Gardens from City Park Avenue.",
+        "hours": "The statue is outdoors within Schiller Park's daily 7:00 a.m. to 11:00 p.m. hours. Permitted ceremonies and volunteer garden work can occupy the immediate approach without creating separate public hours.",
+        "location": "The exact pin is the Wikidata position for the named Schiller Statue. The city calls this Site C and identifies it as the general public entrance area that must remain unobstructed.",
+        "parking": "Approach from lawful neighborhood parking on the City Park Avenue side for the shortest garden walk, or use the documented park lot near the community center and cross the park.",
+        "restrooms": "The closest reliable documented restrooms are inside the Schiller Community Center during staffed hours; the statue and Huntington Gardens do not have a listed dedicated restroom.",
+        "fees": "Viewing the outdoor statue has no posted admission charge. A permitted wedding site or organized event requires separate approval and fees.",
+        "accessibility": "The statue is approached by Huntington Gardens' brick promenade, but neither the city nor garden partner documents every curb, grade or surface transition as barrier-free.",
+        "dogs": "Animals must be securely leashed or under direct control and waste must be removed. Keep dogs out of the perennial beds and yield to permitted gatherings.",
+        "family": "This is a quiet public-art and garden stop rather than a play feature. Children can view the statue and engraved promenade while staying out of planted beds.",
+        "need": "The statue area is a reservable wedding site, but city rules say the park stays public and the general entrance cannot be blocked. Volunteer garden work occurs Tuesday evenings and Saturday mornings, so share the narrow approach courteously.",
+        "imageAlt": "Friedrich Schiller statue above the west entrance garden beds",
+        "sourceLabel": "Columbus Recreation and Parks",
+        "source": "https://columbusrecparks.com/facilities/rentals/event-venues/outdoor-wedding-sites/",
+        "answerSources": {
+          "location": "https://www.wikidata.org/wiki/Q60752776",
+          "parking": "https://germanvillage.com/about/huntington-gardens/",
+          "hours": "https://columbusrecparks.com/parks/schiller-park/",
+          "restroom": "https://columbusrecparks.com/community-center/schiller/",
+          "fees": "https://columbusrecparks.com/facilities/rentals/event-venues/outdoor-wedding-sites/",
+          "accessibility": "https://germanvillage.com/about/huntington-gardens/",
+          "dogs": "https://columbusrecparks.com/facilities/dog-parks/rules/",
+          "family": "https://germanvillage.com/about/huntington-gardens/",
+          "need-to-know": "https://columbusrecparks.com/facilities/rentals/event-venues/outdoor-wedding-sites/"
+        },
+        "answerSourceLabels": {
+          "location": "Wikidata / Wikimedia Commons",
+          "parking": "German Village Society",
+          "accessibility": "German Village Society",
+          "family": "German Village Society"
+        },
+        "imageIndex": 1
+      }
+    },
+    "launch-oh-columbus-whetstone-park-and-columbus-park-of-roses": {
+      "columbus-park-of-roses": {
+        "description": "Columbus Park of Roses is the named 13-acre public garden within Whetstone Park, with five garden areas, more than 350 rose varieties and a separate dusk closing time.",
+        "address": "3901 North High Street, Columbus, OH 43214",
+        "hours": "Columbus Park of Roses is open from 7:00 a.m. to dusk year-round, which is earlier than Whetstone Park's 11:00 p.m. closing time.",
+        "location": "The exact pin is on the named OpenStreetMap garden way. Enter Whetstone Park on Hollenback Road and continue about one-half mile west; the gardens are east of the Shelterhouse at the top of the steps.",
+        "parking": "Free garden parking is reached from Hollenback Road. Step-free ADA parking is at the garden's east end off Roselea Place; check construction notices before relying on the usual route.",
+        "restrooms": "Portable restrooms are at the east end beside ADA parking and north of the Shelterhouse near the Backyard Garden. Shelterhouse indoor restrooms are for event users.",
+        "fees": "There is no admission fee and ordinary visitor parking is free. Shelterhouse rentals, wedding sites and special activities cost separately.",
+        "accessibility": "Use the ADA parking at the east end off Roselea Place for a step-free approach. The operator does not describe every garden path, lawn or construction segment as barrier-free.",
+        "dogs": "Dogs in city parks must be securely leashed or under direct control and waste must be removed. Keep animals out of formal beds and yield to garden work and events.",
+        "family": "The free outdoor garden works for a short family walk, but it is a planted landscape rather than a playground. Keep children on paths and out of beds and water features.",
+        "need": "The strongest rose display generally begins in mid-June and lasts through mid-September. Weather shifts bloom, and 2026 hard-surface and Hollenback Road work may temporarily alter paths or parking.",
+        "imageAlt": "Rose beds and fountain at Columbus Park of Roses during summer bloom",
+        "sourceLabel": "Columbus Park of Roses",
+        "source": "https://parkofroses.org/visit/",
+        "answerSources": {
+          "location": "https://www.openstreetmap.org/way/546921148",
+          "parking": "https://parkofroses.org/visit/",
+          "hours": "https://parkofroses.org/visit/",
+          "restroom": "https://parkofroses.org/visit/",
+          "fees": "https://parkofroses.org/visit/",
+          "accessibility": "https://parkofroses.org/visit/",
+          "dogs": "https://columbusrecparks.com/facilities/dog-parks/rules/",
+          "family": "https://columbusrecparks.com/parks/whetstone-park-and-columbus-park-of-roses/",
+          "need-to-know": "https://columbusrecparks.com/connect/about/capital-improvement-projects/whetstone-park-improvements/"
+        },
+        "answerSourceLabels": {
+          "location": "OpenStreetMap"
+        },
+        "imageIndex": 0
+      }
     }
   }
 }

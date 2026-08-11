@@ -53274,122 +53274,165 @@
       "citySlug": "columbus-oh",
       "operator": "Columbus Recreation and Parks",
       "sourceLabel": "Columbus Recreation and Parks",
-      "source": "https://www.columbus.gov/Community/Recreation-and-Parks/Parks/Schiller-Park",
+      "source": "https://columbusrecparks.com/parks/schiller-park/",
       "address": "1069 Jaeger Street, Columbus, OH 43206",
-      "summary": "German Village's historic community park with stage, fountain, recreation center, playground, courts, gardens, pond, lawns and neighborhood paths.",
-      "hours": "Park grounds are generally open daily. The recreation center, stage programs, restrooms and reservable areas use separate hours.",
-      "hoursSchedule": false,
-      "cost": "Park, playground, gardens and ordinary court use are free. Classes, reservations and selected performances or events may charge or request donations.",
-      "accessibility": "Paved neighborhood paths reach major amenities, while grass, older garden routes and performance seating surfaces vary.",
-      "transit": "COTA routes serve nearby German Village streets, followed by a neighborhood walk.",
+      "summary": "A 23.6-acre German Village community park with a paved loop, stocked pond, amphitheater, community center, playground, courts, gardens and historic Schiller Statue.",
+      "hours": "Schiller Park is open daily from 7:00 a.m. to 11:00 p.m. The Schiller Community Center is normally open Monday through Friday from 8:00 a.m. to 6:00 p.m. and closed Saturday and Sunday; programs and holiday schedules can differ.",
+      "hoursSchedule": {
+        "sunday": [
+          [
+            "07:00",
+            "23:00"
+          ]
+        ],
+        "monday": [
+          [
+            "07:00",
+            "23:00"
+          ]
+        ],
+        "tuesday": [
+          [
+            "07:00",
+            "23:00"
+          ]
+        ],
+        "wednesday": [
+          [
+            "07:00",
+            "23:00"
+          ]
+        ],
+        "thursday": [
+          [
+            "07:00",
+            "23:00"
+          ]
+        ],
+        "friday": [
+          [
+            "07:00",
+            "23:00"
+          ]
+        ],
+        "saturday": [
+          [
+            "07:00",
+            "23:00"
+          ]
+        ]
+      },
+      "cost": "The city posts no admission charge for ordinary outdoor park use. Community-center classes, permits, reserved wedding sites and special programs can require registration or fees.",
+      "accessibility": "The city documents a 0.8-mile paved path and mapped developed facilities. That does not establish that every lawn, garden bed, pond edge, older curb or amphitheater seating area is barrier-free.",
+      "transit": "The park page links CoGo bike share, and COTA's official trip planner can identify the current bus approach. The east and west sides serve different destinations, so select the community center, pond or statue before routing.",
       "searchAnswers": [
         {
           "intentKey": "hours",
           "question": "When is Schiller Park open?",
-          "answer": "Park grounds are generally open daily. The recreation center, stage programs, restrooms and reservable areas use separate hours.",
+          "answer": "Schiller Park is open daily from 7:00 a.m. to 11:00 p.m. The Schiller Community Center is normally open Monday through Friday from 8:00 a.m. to 6:00 p.m. and closed Saturday and Sunday; programs and holiday schedules can differ.",
           "sourceLabel": "Columbus Recreation and Parks",
-          "source": "https://www.columbus.gov/Community/Recreation-and-Parks/Parks/Schiller-Park",
-          "verifiedAt": "2026-08-06",
+          "source": "https://columbusrecparks.com/parks/schiller-park/",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "fast",
           "status": "verified"
         },
         {
           "intentKey": "parking",
           "question": "Where should I park for Schiller Park?",
-          "answer": "Free neighborhood street parking is the normal approach. Shakespeare performances, festivals and busy weekends can fill nearby blocks.",
+          "answer": "The city park page lists a parking lot, and the official facilities layer places the community-center arrival at 1069 Jaeger Street. No general park parking fee is posted; performances, festivals and permitted events can change availability.",
           "sourceLabel": "Columbus Recreation and Parks",
-          "source": "https://www.columbus.gov/Community/Recreation-and-Parks/Parks/Schiller-Park",
-          "verifiedAt": "2026-08-06",
+          "source": "https://maps2.columbus.gov/arcgis/rest/services/Schemas/RecreationParks/MapServer/2",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "fast",
           "status": "verified"
         },
         {
           "intentKey": "entrance",
           "question": "What is the best entrance for Schiller Park?",
-          "answer": "Jaeger Street is useful for the recreation center and central park; choose the stage, fountain, playground or garden as the meeting point.",
+          "answer": "Use 1069 Jaeger Street for the community center and east-side amenities. Use the City Park Avenue side for Huntington Gardens and the Schiller Statue; the city identifies the statue area as the general public entrance that must remain unobstructed.",
           "sourceLabel": "Columbus Recreation and Parks",
-          "source": "https://www.columbus.gov/Community/Recreation-and-Parks/Parks/Schiller-Park",
-          "verifiedAt": "2026-08-06",
+          "source": "https://columbusrecparks.com/facilities/rentals/event-venues/outdoor-wedding-sites/",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "restroom",
           "question": "Are there restrooms at Schiller Park?",
-          "answer": "Restrooms are associated with the recreation center and seasonal park operations; confirm building hours for reliable access.",
+          "answer": "The reliable documented restroom opportunity is inside the Schiller Community Center during its staffed hours. The city park page does not promise a separate always-open outdoor restroom.",
           "sourceLabel": "Columbus Recreation and Parks",
-          "source": "https://www.columbus.gov/Community/Recreation-and-Parks/Parks/Schiller-Park",
-          "verifiedAt": "2026-08-06",
+          "source": "https://columbusrecparks.com/community-center/schiller/",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "fees",
           "question": "Is Schiller Park free?",
-          "answer": "Park, playground, gardens and ordinary court use are free. Classes, reservations and selected performances or events may charge or request donations.",
+          "answer": "The city posts no admission charge for ordinary outdoor park use. Community-center classes, permits, reserved wedding sites and special programs can require registration or fees.",
           "sourceLabel": "Columbus Recreation and Parks",
-          "source": "https://www.columbus.gov/Community/Recreation-and-Parks/Parks/Schiller-Park",
-          "verifiedAt": "2026-08-06",
+          "source": "https://columbusrecparks.com/facilities/rentals/event-venues/outdoor-wedding-sites/",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "accessibility",
           "question": "How accessible is Schiller Park?",
-          "answer": "Paved neighborhood paths reach major amenities, while grass, older garden routes and performance seating surfaces vary.",
+          "answer": "The city documents a 0.8-mile paved path and mapped developed facilities. That does not establish that every lawn, garden bed, pond edge, older curb or amphitheater seating area is barrier-free.",
           "sourceLabel": "Columbus Recreation and Parks",
-          "source": "https://www.columbus.gov/Community/Recreation-and-Parks/Parks/Schiller-Park",
-          "verifiedAt": "2026-08-06",
+          "source": "https://columbusrecparks.com/parks/schiller-park/",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "dogs",
           "question": "Are dogs allowed at Schiller Park?",
-          "answer": "Leashed dogs are welcome in ordinary outdoor areas; keep them out of playground equipment and organized events when posted.",
+          "answer": "Animals must be securely leashed or under direct control and handlers must remove waste. Schiller Park is not one of the city's five designated off-leash dog parks.",
           "sourceLabel": "Columbus Recreation and Parks",
-          "source": "https://www.columbus.gov/Community/Recreation-and-Parks/Parks/Schiller-Park",
-          "verifiedAt": "2026-08-06",
+          "source": "https://columbusrecparks.com/facilities/dog-parks/rules/",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "family",
           "question": "Is Schiller Park good for children?",
-          "answer": "Playground, pond, lawns and summer theater make this a useful family stop within German Village.",
+          "answer": "The city lists a playground, pond, paved path and sports facilities. Keep children close at the open pond, and confirm posted conditions before relying on the playground during the city's planned improvement cycle.",
           "sourceLabel": "Columbus Recreation and Parks",
-          "source": "https://www.columbus.gov/Community/Recreation-and-Parks/Parks/Schiller-Park",
-          "verifiedAt": "2026-08-06",
+          "source": "https://columbusrecparks.com/parks/schiller-park/",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "transit",
           "question": "How do I reach Schiller Park without a car?",
-          "answer": "COTA routes serve nearby German Village streets, followed by a neighborhood walk.",
-          "sourceLabel": "Columbus Recreation and Parks",
-          "source": "https://www.columbus.gov/Community/Recreation-and-Parks/Parks/Schiller-Park",
-          "verifiedAt": "2026-08-06",
+          "answer": "The park page links CoGo bike share, and COTA's official trip planner can identify the current bus approach. The east and west sides serve different destinations, so select the community center, pond or statue before routing.",
+          "sourceLabel": "Central Ohio Transit Authority",
+          "source": "https://www.cota.com/tripplanner/",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "need-to-know",
           "question": "What should I know before visiting Schiller Park?",
-          "answer": "Theater and festival schedules can occupy the stage lawn. Schiller's playground is part of an active city improvement cycle, so check posted construction conditions.",
+          "answer": "The amphitheater and garden areas can host performances, weddings and volunteer work. The city's long-range program identifies future pond and playground renovation, but planning documents are not closure notices; obey current signs and alerts rather than assuming either feature is closed.",
           "sourceLabel": "Columbus Recreation and Parks",
-          "source": "https://www.columbus.gov/Community/Recreation-and-Parks/Parks/Schiller-Park",
-          "verifiedAt": "2026-08-06",
+          "source": "https://columbusrecparks.com/wp-content/uploads/2026/03/Playbook-Columbus_260206_FINAL.pdf",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "fast",
           "status": "verified"
         },
         {
           "intentKey": "weather",
           "question": "What weather should I check before visiting Schiller Park?",
-          "answer": "Check current Columbus-area weather and operator alerts. Scioto, Olentangy and Darby water levels, heat, storms, snow, ice and high winds can close fountains, river paths, trails or facilities independently.",
-          "sourceLabel": "Columbus Recreation and Parks",
-          "source": "https://www.columbus.gov/Community/Recreation-and-Parks/Parks/Schiller-Park",
-          "verifiedAt": "2026-08-06",
+          "answer": "Check the National Weather Service Columbus forecast for heat, thunderstorms, high wind, snow or ice. The park has exposed lawns, mature trees and an open pond, and individual programs can cancel independently of park hours.",
+          "sourceLabel": "National Weather Service",
+          "source": "https://forecast.weather.gov/MapClick.php?lat=39.9416&lon=-82.9918",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "fast",
           "status": "verified"
         }
@@ -53399,7 +53442,7 @@
         "source": "https://commons.wikimedia.org/wiki/File%3AColumbus%2C_OH_-_Schiller_Park.jpg",
         "author": "Ɱ",
         "license": "CC BY-SA 4.0",
-        "alt": "Schiller Park in the Columbus area",
+        "alt": "Paved path curving through Schiller Park beneath mature trees",
         "width": 1600,
         "height": 1000
       },
@@ -53409,7 +53452,7 @@
           "source": "https://commons.wikimedia.org/wiki/File%3ASchiller_Park_-_9764029765.jpg",
           "author": "DrBob317",
           "license": "CC BY-SA 2.0",
-          "alt": "Schiller Park in the Columbus area",
+          "alt": "Friedrich Schiller statue above the west entrance garden beds",
           "width": 1536,
           "height": 1000
         },
@@ -53418,22 +53461,22 @@
           "source": "https://commons.wikimedia.org/wiki/File%3ASchiller_Park_-_9763826711.jpg",
           "author": "DrBob317",
           "license": "CC BY-SA 2.0",
-          "alt": "Schiller Park in the Columbus area",
+          "alt": "Schiller Park Pond, footbridge and surrounding lawn",
           "width": 1600,
           "height": 1000
         },
         {
-          "url": "/assets/parks/columbus-super/schiller-park/04-schiller-park-9764117063-jpg.webp",
-          "source": "https://commons.wikimedia.org/wiki/File%3ASchiller_Park_-_9764117063.jpg",
-          "author": "DrBob317",
+          "url": "/assets/parks/columbus-super/schiller-park/04-schiller-park-s-huntington-gardens-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3ASchiller_Park's_Huntington_Gardens.jpg",
+          "author": "Jsjessee",
           "license": "CC BY-SA 2.0",
-          "alt": "Schiller Park in the Columbus area",
+          "alt": "Aerial view of Huntington Gardens leading toward the Schiller Statue",
           "width": 1600,
-          "height": 956
+          "height": 1000
         }
       ],
       "replaceImages": true,
-      "verifiedAt": "2026-08-06"
+      "verifiedAt": "2026-08-11"
     },
     "launch-oh-columbus-highbanks-metro-park": {
       "name": "Highbanks Metro Park",
@@ -53942,151 +53985,194 @@
       "citySlug": "columbus-oh",
       "operator": "Columbus Recreation and Parks",
       "sourceLabel": "Columbus Recreation and Parks",
-      "source": "https://www.parkofroses.org/",
+      "source": "https://columbusrecparks.com/parks/whetstone-park-and-columbus-park-of-roses/",
       "address": "3923 North High Street, Columbus, OH 43214",
-      "summary": "A large Clintonville park best known for the free Columbus Park of Roses, with formal gardens, prairie, playground, courts, fields and Olentangy Trail access.",
-      "hours": "Outdoor park and garden areas are generally open daily. Garden bloom, restrooms, athletic facilities and reserved events are seasonal or separately scheduled.",
-      "hoursSchedule": false,
-      "cost": "The park, Park of Roses, prairie, playground and trails are free. Reservations, classes and special events may cost separately.",
-      "accessibility": "Paved garden paths and developed park routes provide broad access; prairie, turf and trail surfaces vary.",
-      "transit": "North High Street bus service stops near Whetstone, and the Olentangy Trail provides bicycle access.",
+      "summary": "A 149-acre Clintonville regional park with the free Columbus Park of Roses, community center, stocked pond, prairie, playground, courts, fields and Olentangy Trail access.",
+      "hours": "Whetstone Park is open daily from 7:00 a.m. to 11:00 p.m. Columbus Park of Roses keeps shorter hours of 7:00 a.m. to dusk year-round, and the community center is normally open Monday through Friday from 8:00 a.m. to 6:00 p.m.",
+      "hoursSchedule": {
+        "sunday": [
+          [
+            "07:00",
+            "23:00"
+          ]
+        ],
+        "monday": [
+          [
+            "07:00",
+            "23:00"
+          ]
+        ],
+        "tuesday": [
+          [
+            "07:00",
+            "23:00"
+          ]
+        ],
+        "wednesday": [
+          [
+            "07:00",
+            "23:00"
+          ]
+        ],
+        "thursday": [
+          [
+            "07:00",
+            "23:00"
+          ]
+        ],
+        "friday": [
+          [
+            "07:00",
+            "23:00"
+          ]
+        ],
+        "saturday": [
+          [
+            "07:00",
+            "23:00"
+          ]
+        ]
+      },
+      "cost": "Columbus Park of Roses has no admission fee and its visitor parking is free. Ordinary park use is not ticketed; shelterhouse rentals, wedding sites, classes and reserved activities cost separately.",
+      "accessibility": "The city documents 1.6 miles of paved park path, and the garden provides step-free ADA parking off Roselea Place. Prairie paths, turf, trail connections and construction areas can have different surfaces or temporary barriers.",
+      "transit": "The Park of Roses directs riders to COTA Route 2 on North High Street at Acton Road, followed by about a half-mile walk west on Hollenback Road. The Olentangy Trail provides bicycle access to Whetstone Park.",
       "searchAnswers": [
         {
           "intentKey": "hours",
           "question": "When is Whetstone Park and Columbus Park of Roses open?",
-          "answer": "Outdoor park and garden areas are generally open daily. Garden bloom, restrooms, athletic facilities and reserved events are seasonal or separately scheduled.",
+          "answer": "Whetstone Park is open daily from 7:00 a.m. to 11:00 p.m. Columbus Park of Roses keeps shorter hours of 7:00 a.m. to dusk year-round, and the community center is normally open Monday through Friday from 8:00 a.m. to 6:00 p.m.",
           "sourceLabel": "Columbus Recreation and Parks",
-          "source": "https://www.parkofroses.org/",
-          "verifiedAt": "2026-08-06",
+          "source": "https://columbusrecparks.com/parks/whetstone-park-and-columbus-park-of-roses/",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "fast",
           "status": "verified"
         },
         {
           "intentKey": "parking",
           "question": "Where should I park for Whetstone Park and Columbus Park of Roses?",
-          "answer": "Free lots serve Whetstone Park and the Park of Roses. Peak rose bloom, weddings and community events can fill the garden-side spaces.",
-          "sourceLabel": "Columbus Recreation and Parks",
-          "source": "https://www.parkofroses.org/",
-          "verifiedAt": "2026-08-06",
+          "answer": "The park has multiple lots. Park of Roses visitors are directed west on Hollenback Road to free garden parking; step-free ADA parking is at the garden's east end off Roselea Place. Construction and busy bloom-season events can change the closest approach.",
+          "sourceLabel": "Columbus Park of Roses",
+          "source": "https://parkofroses.org/visit/",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "fast",
           "status": "verified"
         },
         {
           "intentKey": "entrance",
           "question": "What is the best entrance for Whetstone Park and Columbus Park of Roses?",
-          "answer": "Use the Park of Roses entrance for formal gardens, or route directly to the prairie, playground, courts or Olentangy Trail connection.",
-          "sourceLabel": "Columbus Recreation and Parks",
-          "source": "https://www.parkofroses.org/",
-          "verifiedAt": "2026-08-06",
+          "answer": "Use 3923 North High Street for the community center and east-side recreation. For the Park of Roses, enter Whetstone Park on Hollenback Road and continue about one-half mile west; route to a named facility because the grounds cover 149 acres.",
+          "sourceLabel": "Columbus Park of Roses",
+          "source": "https://parkofroses.org/visit/",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "restroom",
           "question": "Are there restrooms at Whetstone Park and Columbus Park of Roses?",
-          "answer": "Restrooms are concentrated near developed park and garden facilities and may be seasonal.",
-          "sourceLabel": "Columbus Recreation and Parks",
-          "source": "https://www.parkofroses.org/",
-          "verifiedAt": "2026-08-06",
+          "answer": "The Park of Roses provides portable restrooms at the east end near ADA parking and north of the Shelterhouse. Shelterhouse indoor restrooms are available to event users, and community-center facilities depend on staffed hours.",
+          "sourceLabel": "Columbus Park of Roses",
+          "source": "https://parkofroses.org/visit/",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "fees",
           "question": "Is Whetstone Park and Columbus Park of Roses free?",
-          "answer": "The park, Park of Roses, prairie, playground and trails are free. Reservations, classes and special events may cost separately.",
-          "sourceLabel": "Columbus Recreation and Parks",
-          "source": "https://www.parkofroses.org/",
-          "verifiedAt": "2026-08-06",
+          "answer": "Columbus Park of Roses has no admission fee and its visitor parking is free. Ordinary park use is not ticketed; shelterhouse rentals, wedding sites, classes and reserved activities cost separately.",
+          "sourceLabel": "Columbus Park of Roses",
+          "source": "https://parkofroses.org/visit/",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "accessibility",
           "question": "How accessible is Whetstone Park and Columbus Park of Roses?",
-          "answer": "Paved garden paths and developed park routes provide broad access; prairie, turf and trail surfaces vary.",
-          "sourceLabel": "Columbus Recreation and Parks",
-          "source": "https://www.parkofroses.org/",
-          "verifiedAt": "2026-08-06",
+          "answer": "The city documents 1.6 miles of paved park path, and the garden provides step-free ADA parking off Roselea Place. Prairie paths, turf, trail connections and construction areas can have different surfaces or temporary barriers.",
+          "sourceLabel": "Columbus Park of Roses",
+          "source": "https://parkofroses.org/visit/",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "dogs",
           "question": "Are dogs allowed at Whetstone Park and Columbus Park of Roses?",
-          "answer": "Leashed dogs are welcome in ordinary park areas; protect formal beds and follow garden event restrictions.",
+          "answer": "Animals in city parks must be securely leashed or under direct control and waste must be removed. On the Olentangy greenway, pets must use a leash no longer than six feet; protect formal garden beds.",
           "sourceLabel": "Columbus Recreation and Parks",
-          "source": "https://www.parkofroses.org/",
-          "verifiedAt": "2026-08-06",
+          "source": "https://columbusrecparks.com/facilities/trails/",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "family",
           "question": "Is Whetstone Park and Columbus Park of Roses good for children?",
-          "answer": "The playground and open park pair well with a short garden walk, but children should stay out of planting beds.",
+          "answer": "The park page lists a playground, stocked pond, paved path and gardens, and the city reports a recently added lower-fields playground. Supervise children at the pond and keep them out of planted beds.",
           "sourceLabel": "Columbus Recreation and Parks",
-          "source": "https://www.parkofroses.org/",
-          "verifiedAt": "2026-08-06",
+          "source": "https://columbusrecparks.com/connect/about/capital-improvement-projects/whetstone-park-improvements/",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "transit",
           "question": "How do I reach Whetstone Park and Columbus Park of Roses without a car?",
-          "answer": "North High Street bus service stops near Whetstone, and the Olentangy Trail provides bicycle access.",
-          "sourceLabel": "Columbus Recreation and Parks",
-          "source": "https://www.parkofroses.org/",
-          "verifiedAt": "2026-08-06",
+          "answer": "The Park of Roses directs riders to COTA Route 2 on North High Street at Acton Road, followed by about a half-mile walk west on Hollenback Road. The Olentangy Trail provides bicycle access to Whetstone Park.",
+          "sourceLabel": "Columbus Park of Roses",
+          "source": "https://parkofroses.org/visit/",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "slow",
           "status": "verified"
         },
         {
           "intentKey": "need-to-know",
           "question": "What should I know before visiting Whetstone Park and Columbus Park of Roses?",
-          "answer": "Peak rose bloom usually draws the largest crowds but varies with weather. The garden is free and outdoors; weddings may reserve focal areas without closing the entire park.",
+          "answer": "Peak rose bloom generally runs from mid-June through mid-September. The city lists 2026 path, Hollenback Road, pond-lot and community-center work and warns that schedules depend on contractors and weather, so check signs and the improvements page before relying on the usual route.",
           "sourceLabel": "Columbus Recreation and Parks",
-          "source": "https://www.parkofroses.org/",
-          "verifiedAt": "2026-08-06",
+          "source": "https://columbusrecparks.com/connect/about/capital-improvement-projects/whetstone-park-improvements/",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "fast",
           "status": "verified"
         },
         {
           "intentKey": "weather",
           "question": "What weather should I check before visiting Whetstone Park and Columbus Park of Roses?",
-          "answer": "Check current Columbus-area weather and operator alerts. Scioto, Olentangy and Darby water levels, heat, storms, snow, ice and high winds can close fountains, river paths, trails or facilities independently.",
-          "sourceLabel": "Columbus Recreation and Parks",
-          "source": "https://www.parkofroses.org/",
-          "verifiedAt": "2026-08-06",
+          "answer": "Check the National Weather Service Columbus forecast before a garden, prairie or trail visit. Rose bloom and outdoor comfort vary with heat and rain, and storms, wind, snow or ice can affect paths and programs independently.",
+          "sourceLabel": "National Weather Service",
+          "source": "https://forecast.weather.gov/MapClick.php?lat=40.0418&lon=-83.0193",
+          "verifiedAt": "2026-08-11",
           "freshnessClass": "fast",
           "status": "verified"
         }
       ],
       "image": {
-        "url": "/assets/parks/columbus-super/whetstone-park-and-columbus-park-of-roses/01-columbus-park-of-roses-dpla-86f210b7be4d26cfdd7039316d2d60e7-jpg.webp",
-        "source": "https://commons.wikimedia.org/wiki/File%3AColumbus_Park_of_Roses_-_DPLA_-_86f210b7be4d26cfdd7039316d2d60e7.jpg",
-        "author": "David E. Lucas",
-        "license": "Public domain",
-        "alt": "Whetstone Park and Columbus Park of Roses in the Columbus area",
+        "url": "/assets/parks/columbus-super/whetstone-park-and-columbus-park-of-roses/01-columbus-park-of-roses-01-jpg.webp",
+        "source": "https://commons.wikimedia.org/wiki/File%3AColumbus_Park_of_Roses_01.jpg",
+        "author": "Ɱ",
+        "license": "CC BY-SA 4.0",
+        "alt": "Rose beds and fountain at Columbus Park of Roses during summer bloom",
         "width": 1600,
         "height": 1000
       },
       "additionalImages": [
         {
-          "url": "/assets/parks/columbus-super/whetstone-park-and-columbus-park-of-roses/02-columbus-park-of-roses-dpla-8c8970a643a6addfaa04fb4b5282b9bf-jpg.webp",
-          "source": "https://commons.wikimedia.org/wiki/File%3AColumbus_Park_of_Roses_-_DPLA_-_8c8970a643a6addfaa04fb4b5282b9bf.jpg",
+          "url": "/assets/parks/columbus-super/whetstone-park-and-columbus-park-of-roses/02-columbus-park-of-roses-dpla-86f210b7be4d26cfdd7039316d2d60e7-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3AColumbus_Park_of_Roses_-_DPLA_-_86f210b7be4d26cfdd7039316d2d60e7.jpg",
           "author": "David E. Lucas",
           "license": "Public domain",
-          "alt": "Whetstone Park and Columbus Park of Roses in the Columbus area",
+          "alt": "Historical overview of the formal rose beds and central lawn",
           "width": 1600,
           "height": 1000
         },
         {
-          "url": "/assets/parks/columbus-super/whetstone-park-and-columbus-park-of-roses/03-columbus-park-of-roses-dpla-894ccc632b5e10f90c65a5caebd1bfd5-jpg.webp",
-          "source": "https://commons.wikimedia.org/wiki/File%3AColumbus_Park_of_Roses_-_DPLA_-_894ccc632b5e10f90c65a5caebd1bfd5.jpg",
+          "url": "/assets/parks/columbus-super/whetstone-park-and-columbus-park-of-roses/03-columbus-park-of-roses-dpla-8c8970a643a6addfaa04fb4b5282b9bf-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3AColumbus_Park_of_Roses_-_DPLA_-_8c8970a643a6addfaa04fb4b5282b9bf.jpg",
           "author": "David E. Lucas",
           "license": "Public domain",
-          "alt": "Whetstone Park and Columbus Park of Roses in the Columbus area",
+          "alt": "Historical view through a wooden garden trellis into the rose beds",
           "width": 1600,
           "height": 1000
         },
@@ -54095,13 +54181,13 @@
           "source": "https://commons.wikimedia.org/wiki/File%3AWhetstone_Park_of_Roses_Fountain_-_DPLA_-_222f278d8b9de487208ddcb3be14951c.jpg",
           "author": "David E. Lucas",
           "license": "Public domain",
-          "alt": "Whetstone Park and Columbus Park of Roses in the Columbus area",
+          "alt": "Historical view of the circular Park of Roses fountain and garden visitors",
           "width": 1600,
           "height": 1000
         }
       ],
       "replaceImages": true,
-      "verifiedAt": "2026-08-06"
+      "verifiedAt": "2026-08-11"
     },
     "launch-in-indianapolis-white-river-state-park": {
       "name": "White River State Park",
