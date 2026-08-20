@@ -1,0 +1,682 @@
+{
+  "schemaVersion": 1,
+  "campaignId": "nc-major-public-parks-2026-08-13",
+  "title": "North Carolina major public parks inventory",
+  "contributionTier": "inventory",
+  "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+  "researchHandoffUrl": "https://keystone-accessibility-baseline.indierepo.chatgpt.site/auditmap-nc-parks-inventory/NC_MAJOR_PUBLIC_PARKS_INVENTORY.md",
+  "githubIssueUrl": null,
+  "checkedAt": "2026-08-13",
+  "releasePolicy": {
+    "researchCompleteIsDeployable": false,
+    "requiredNextTier": "launch-guide",
+    "maintainerApprovalRequired": true
+  },
+  "records": [
+    {
+      "slug": "asheville-pack-square-park",
+      "name": "Pack Square Park",
+      "city": "Asheville",
+      "state": "NC",
+      "address": "80 Court Plaza, Asheville, NC 28801",
+      "latitude": 35.5954955,
+      "longitude": -82.5491275,
+      "managing_agency": "City of Asheville Parks & Recreation",
+      "official_source_url": "https://www.ashevillenc.gov/locations/pack-square-park/",
+      "why_major": "Premier downtown civic park with performance space and a public splash feature.",
+      "evidence_factors": [
+        "citywide civic role",
+        "event infrastructure",
+        "downtown destination"
+      ],
+      "coordinate_source": "OpenStreetMap Nominatim address match",
+      "coordinate_source_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&countrycodes=us&q=80%20Court%20Plaza%2C%20Asheville%2C%20NC%2028801",
+      "coordinate_precision": "address/entrance point",
+      "source_checked_at": "2026-08-13"
+    },
+    {
+      "slug": "asheville-azalea-park",
+      "name": "Azalea Park",
+      "city": "Asheville",
+      "state": "NC",
+      "address": "498 Azalea Road, Asheville, NC 28805",
+      "latitude": 35.5770973,
+      "longitude": -82.4914106,
+      "managing_agency": "City of Asheville Parks & Recreation",
+      "official_source_url": "https://www.ashevillenc.gov/locations/azalea-park/",
+      "why_major": "Large river-adjacent recreation complex serving organized sports and trail users.",
+      "evidence_factors": [
+        "sports complex",
+        "regional trail connection",
+        "multiple recreation uses"
+      ],
+      "coordinate_source": "OpenStreetMap Nominatim address match",
+      "coordinate_source_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&countrycodes=us&q=498%20Azalea%20Road%2C%20Asheville%2C%20NC%2028805",
+      "coordinate_precision": "address point",
+      "source_checked_at": "2026-08-13"
+    },
+    {
+      "slug": "asheville-richmond-hill-park",
+      "name": "Richmond Hill Park",
+      "city": "Asheville",
+      "state": "NC",
+      "address": "280 Richmond Hill Drive, Asheville, NC 28806",
+      "latitude": 35.6166177,
+      "longitude": -82.586568,
+      "managing_agency": "City of Asheville Parks & Recreation",
+      "official_source_url": "https://www.ashevillenc.gov/news/richmond-hill-park-bond-project-completed/",
+      "why_major": "Destination park with multi-use trails, disc golf, and recently completed public improvements.",
+      "evidence_factors": [
+        "trail network",
+        "disc golf",
+        "capital improvements"
+      ],
+      "coordinate_source": "OpenStreetMap Nominatim address match",
+      "coordinate_source_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&countrycodes=us&q=280%20Richmond%20Hill%20Drive%2C%20Asheville%2C%20NC",
+      "coordinate_precision": "address point",
+      "source_checked_at": "2026-08-13"
+    },
+    {
+      "slug": "boone-daniel-boone-park",
+      "name": "Daniel Boone Park",
+      "city": "Boone",
+      "state": "NC",
+      "address": "591 Horn in the West Drive, Boone, NC 28607",
+      "latitude": 36.2087736,
+      "longitude": -81.6708724,
+      "managing_agency": "Town of Boone Cultural Resources Department",
+      "official_source_url": "https://www.townofboone.net/Facilities/Facility/Details/Daniel-Boone-Park-1",
+      "why_major": "A 36.5-acre cultural and recreation campus containing major town attractions.",
+      "evidence_factors": [
+        "36.5 acres",
+        "cultural campus",
+        "multiple public attractions"
+      ],
+      "coordinate_source": "OpenStreetMap Nominatim facility match",
+      "coordinate_source_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&countrycodes=us&q=591%20Horn%20In%20The%20West%20Drive%2C%20Boone%2C%20NC%2028607",
+      "coordinate_precision": "facility point",
+      "source_checked_at": "2026-08-13"
+    },
+    {
+      "slug": "boone-clawson-burnley-park",
+      "name": "Clawson-Burnley Park",
+      "city": "Boone",
+      "state": "NC",
+      "address": "355 Martin Luther King Jr. Street, Boone, NC 28607",
+      "latitude": 36.2037875,
+      "longitude": -81.6521305,
+      "managing_agency": "Town of Boone Public Works",
+      "official_source_url": "https://www.townofboone.net/Facilities/Facility/Details/Greenway-Trail-27",
+      "why_major": "Greenway hub combining wetlands access, recreation facilities, and the town trail system.",
+      "evidence_factors": [
+        "greenway hub",
+        "wetlands access",
+        "multiple facilities"
+      ],
+      "coordinate_source": "OpenStreetMap Nominatim street match",
+      "coordinate_source_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&countrycodes=us&q=355%20Martin%20Luther%20King%20Jr%20Street%2C%20Boone%2C%20NC%2028607",
+      "coordinate_precision": "street-level; review recommended",
+      "source_checked_at": "2026-08-13"
+    },
+    {
+      "slug": "boone-junaluska-park",
+      "name": "Junaluska Park",
+      "city": "Boone",
+      "state": "NC",
+      "address": "135 Bear Trail, Boone, NC 28607",
+      "latitude": 36.2224624,
+      "longitude": -81.6809793,
+      "managing_agency": "Town of Boone Public Works",
+      "official_source_url": "https://www.townofboone.net/facilities/facility/details/junaluskapark-15",
+      "why_major": "Neighborhood-scale destination selected for its documented town facility status and broad recreation mix.",
+      "evidence_factors": [
+        "official town facility",
+        "multi-use recreation",
+        "community destination"
+      ],
+      "coordinate_source": "OpenStreetMap Nominatim address match",
+      "coordinate_source_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&countrycodes=us&q=135%20Bear%20Trail%2C%20Boone%2C%20NC%2028607",
+      "coordinate_precision": "address point",
+      "source_checked_at": "2026-08-13"
+    },
+    {
+      "slug": "chapel-hill-cedar-falls-park",
+      "name": "Cedar Falls Park",
+      "city": "Chapel Hill",
+      "state": "NC",
+      "address": "501 Weaver Dairy Road, Chapel Hill, NC 27514",
+      "latitude": 35.9599647,
+      "longitude": -79.0335121,
+      "managing_agency": "Town of Chapel Hill Parks and Recreation",
+      "official_source_url": "https://www.townofchapelhill.org/home/showpublisheddocument/37030/636458255598930000",
+      "why_major": "One of Chapel Hill's developed community parks, with shelter, field, and trail functions.",
+      "evidence_factors": [
+        "community-park classification",
+        "athletic use",
+        "trail access"
+      ],
+      "coordinate_source": "OpenStreetMap Nominatim address match",
+      "coordinate_source_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&countrycodes=us&q=501%20Weaver%20Dairy%20Road%2C%20Chapel%20Hill%2C%20NC",
+      "coordinate_precision": "address point",
+      "source_checked_at": "2026-08-13"
+    },
+    {
+      "slug": "chapel-hill-homestead-park",
+      "name": "Homestead Park",
+      "city": "Chapel Hill",
+      "state": "NC",
+      "address": "100 Aquatic Drive, Chapel Hill, NC 27516",
+      "latitude": 35.953616,
+      "longitude": -79.062635,
+      "managing_agency": "Town of Chapel Hill Parks and Recreation",
+      "official_source_url": "https://www.townofchapelhill.org/government/departments-services/parks-and-recreation/recreation-facilities-schedules/skate-park",
+      "why_major": "Community park campus with aquatic, skate, field, and shelter facilities.",
+      "evidence_factors": [
+        "aquatic center campus",
+        "skate park",
+        "multiple recreation facilities"
+      ],
+      "coordinate_source": "OpenStreetMap Nominatim address match",
+      "coordinate_source_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&countrycodes=us&q=100%20Aquatic%20Drive%2C%20Chapel%20Hill%2C%20NC%2027516",
+      "coordinate_precision": "address point",
+      "source_checked_at": "2026-08-13"
+    },
+    {
+      "slug": "chapel-hill-southern-community-park",
+      "name": "Southern Community Park",
+      "city": "Chapel Hill",
+      "state": "NC",
+      "address": "100 Sumac Road, Chapel Hill, NC 27516",
+      "latitude": 35.8769603,
+      "longitude": -79.0671087,
+      "managing_agency": "Town of Chapel Hill Parks and Recreation",
+      "official_source_url": "https://www.townofchapelhill.org/home/showpublisheddocument/37030/636458255598930000",
+      "why_major": "Large community park serving southern Chapel Hill with fields, shelters, trails, and open space.",
+      "evidence_factors": [
+        "community-park role",
+        "large shelter",
+        "multi-use trail and fields"
+      ],
+      "coordinate_source": "OpenStreetMap Nominatim address match",
+      "coordinate_source_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&countrycodes=us&q=100%20Sumac%20Road%2C%20Chapel%20Hill%2C%20NC",
+      "coordinate_precision": "address point",
+      "source_checked_at": "2026-08-13"
+    },
+    {
+      "slug": "concord-james-l-dorton-park",
+      "name": "James L. Dorton Park",
+      "city": "Concord",
+      "state": "NC",
+      "address": "5790 Poplar Tent Road, Concord, NC 28027",
+      "latitude": 35.4085904,
+      "longitude": -80.6736415,
+      "managing_agency": "City of Concord Parks & Recreation",
+      "official_source_url": "https://concordnc.gov/Departments/Parks-Recreation/Parks",
+      "why_major": "A 24-acre community park with broad recreation amenities and trail access.",
+      "evidence_factors": [
+        "24 acres",
+        "community-park classification",
+        "multiple amenities"
+      ],
+      "coordinate_source": "OpenStreetMap Nominatim address match",
+      "coordinate_source_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&countrycodes=us&q=5790%20Poplar%20Tent%20Road%2C%20Concord%2C%20NC",
+      "coordinate_precision": "address point",
+      "source_checked_at": "2026-08-13"
+    },
+    {
+      "slug": "concord-les-myers-park",
+      "name": "Les Myers Park",
+      "city": "Concord",
+      "state": "NC",
+      "address": "338 Lawndale Avenue SE, Concord, NC 28025",
+      "latitude": 35.3990874,
+      "longitude": -80.5585492,
+      "managing_agency": "City of Concord Parks & Recreation",
+      "official_source_url": "https://concordnc.gov/Departments/Parks-Recreation/Parks",
+      "why_major": "A 21-acre community park with amphitheater, community building, trail, and sports facilities.",
+      "evidence_factors": [
+        "21 acres",
+        "amphitheater",
+        "community and sports facilities"
+      ],
+      "coordinate_source": "OpenStreetMap Nominatim facility match",
+      "coordinate_source_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&countrycodes=us&q=Les%20Myers%20Park%2C%20Concord%2C%20NC",
+      "coordinate_precision": "facility point",
+      "source_checked_at": "2026-08-13"
+    },
+    {
+      "slug": "concord-marvin-caldwell-park",
+      "name": "Marvin Caldwell Park",
+      "city": "Concord",
+      "state": "NC",
+      "address": "362 Georgia Avenue SW, Concord, NC 28025",
+      "latitude": 35.393811,
+      "longitude": -80.58366,
+      "managing_agency": "City of Concord Parks & Recreation",
+      "official_source_url": "https://concordnc.gov/Departments/Parks-Recreation/Parks",
+      "why_major": "A 24-acre community park with amphitheater, fields, courts, and gathering space.",
+      "evidence_factors": [
+        "24 acres",
+        "amphitheater",
+        "athletic facilities"
+      ],
+      "coordinate_source": "OpenStreetMap Nominatim facility match",
+      "coordinate_source_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&countrycodes=us&q=Marvin%20Caldwell%20Park%2C%20Concord%2C%20NC",
+      "coordinate_precision": "facility point",
+      "source_checked_at": "2026-08-13"
+    },
+    {
+      "slug": "durham-west-point-on-the-eno",
+      "name": "West Point on the Eno",
+      "city": "Durham",
+      "state": "NC",
+      "address": "5101 N. Roxboro Street, Durham, NC 27704",
+      "latitude": 36.0690892,
+      "longitude": -78.9094713,
+      "managing_agency": "Durham Parks and Recreation",
+      "official_source_url": "https://www.dprplaymore.org/Facilities/Facility/Details/West-Point-on-the-Eno-76",
+      "why_major": "A 404-acre historic and natural park on the Eno River with trails and public programs.",
+      "evidence_factors": [
+        "404 acres",
+        "historic resources",
+        "river and trail destination"
+      ],
+      "coordinate_source": "OpenStreetMap Nominatim facility match",
+      "coordinate_source_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&countrycodes=us&q=5101%20North%20Roxboro%20Street%2C%20Durham%2C%20NC",
+      "coordinate_precision": "facility point",
+      "source_checked_at": "2026-08-13"
+    },
+    {
+      "slug": "durham-forest-hills-park",
+      "name": "Forest Hills Park",
+      "city": "Durham",
+      "state": "NC",
+      "address": "1639 University Drive, Durham, NC 27707",
+      "latitude": 35.9818409,
+      "longitude": -78.9129546,
+      "managing_agency": "Durham Parks and Recreation",
+      "official_source_url": "https://www.dprplaymore.org/Facilities/Facility/Details/Forest-Hills-Park-24",
+      "why_major": "A 45.86-acre park with aquatics, athletics, trails, and extensive neighborhood recreation.",
+      "evidence_factors": [
+        "45.86 acres",
+        "aquatic facilities",
+        "multiple athletic uses"
+      ],
+      "coordinate_source": "OpenStreetMap Nominatim address match",
+      "coordinate_source_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&countrycodes=us&q=1639%20University%20Drive%2C%20Durham%2C%20NC",
+      "coordinate_precision": "address point",
+      "source_checked_at": "2026-08-13"
+    },
+    {
+      "slug": "durham-rock-quarry-park",
+      "name": "Rock Quarry Park",
+      "city": "Durham",
+      "state": "NC",
+      "address": "701 Stadium Drive, Durham, NC 27704",
+      "latitude": 36.0319839,
+      "longitude": -78.9016213,
+      "managing_agency": "Durham Parks and Recreation",
+      "official_source_url": "https://www.dprplaymore.org/facilities/facility/details/Rock-Quarry-Park-60",
+      "why_major": "A 46-acre event and recreation park with festival grounds and multiple facilities.",
+      "evidence_factors": [
+        "46 acres",
+        "festival destination",
+        "multiple recreation facilities"
+      ],
+      "coordinate_source": "OpenStreetMap Nominatim address match",
+      "coordinate_source_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&countrycodes=us&q=701%20Stadium%20Drive%2C%20Durham%2C%20NC",
+      "coordinate_precision": "address point",
+      "source_checked_at": "2026-08-13"
+    },
+    {
+      "slug": "fayetteville-arnette-park",
+      "name": "Arnette Park",
+      "city": "Fayetteville",
+      "state": "NC",
+      "address": "2165 Old Wilmington Highway, Fayetteville, NC 28301",
+      "latitude": 35.004830264954,
+      "longitude": -78.857530550499,
+      "managing_agency": "Fayetteville-Cumberland Parks and Recreation",
+      "official_source_url": "https://register.fcpr.us/wbwsc/webtrac.wsc/iteminfo.html?FMID=3305820&Module=FR",
+      "why_major": "Large reservable park complex with multiple high-capacity shelters and regional recreation use.",
+      "evidence_factors": [
+        "multiple shelters",
+        "large-group capacity",
+        "regional recreation complex"
+      ],
+      "coordinate_source": "ArcGIS World Geocoding Service point-address match",
+      "coordinate_source_url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=2165%20Old%20Wilmington%20Highway%2C%20Fayetteville%2C%20NC%2028301&f=pjson&outFields=Match_addr,Addr_type&maxLocations=1",
+      "coordinate_precision": "point address; road-name alias normalized",
+      "source_checked_at": "2026-08-13"
+    },
+    {
+      "slug": "fayetteville-clark-park",
+      "name": "Clark Park",
+      "city": "Fayetteville",
+      "state": "NC",
+      "address": "631 Sherman Drive, Fayetteville, NC 28301",
+      "latitude": 35.0881135,
+      "longitude": -78.8707632,
+      "managing_agency": "Fayetteville-Cumberland Parks and Recreation",
+      "official_source_url": "https://register.fcpr.us/webtrac/web/iteminfo.html?FMID=112386145&Module=AR",
+      "why_major": "Nature-focused destination and access point for the Cape Fear River Trail.",
+      "evidence_factors": [
+        "nature programming",
+        "regional trail access",
+        "river corridor destination"
+      ],
+      "coordinate_source": "OpenStreetMap Nominatim facility match",
+      "coordinate_source_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&countrycodes=us&q=631%20Sherman%20Drive%2C%20Fayetteville%2C%20NC",
+      "coordinate_precision": "facility/trailhead point",
+      "source_checked_at": "2026-08-13",
+      "aliases": [
+        "J. Bayard Clark Park and Nature Center"
+      ]
+    },
+    {
+      "slug": "fayetteville-lake-rim-park",
+      "name": "Lake Rim Park",
+      "city": "Fayetteville",
+      "state": "NC",
+      "address": "2214 Tar Kiln Drive, Fayetteville, NC 28304",
+      "latitude": 35.0296476,
+      "longitude": -79.0446645,
+      "managing_agency": "Fayetteville-Cumberland Parks and Recreation",
+      "official_source_url": "https://register.fcpr.us/webtrac/web/iteminfo.html?FMID=3305833&Module=FR",
+      "why_major": "Regional nature and recreation park with large shelters, trails, and environmental programming.",
+      "evidence_factors": [
+        "nature destination",
+        "large-group facilities",
+        "trail and recreation mix"
+      ],
+      "coordinate_source": "OpenStreetMap Nominatim address match",
+      "coordinate_source_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&countrycodes=us&q=2214%20Tar%20Kiln%20Drive%2C%20Fayetteville%2C%20NC",
+      "coordinate_precision": "address point",
+      "source_checked_at": "2026-08-13"
+    },
+    {
+      "slug": "greensboro-country-park",
+      "name": "Country Park",
+      "city": "Greensboro",
+      "state": "NC",
+      "address": "3905 Nathanael Greene Drive, Greensboro, NC 27455",
+      "latitude": 36.1258225,
+      "longitude": -79.8375161,
+      "managing_agency": "City of Greensboro Parks & Recreation",
+      "official_source_url": "https://www.greensboro-nc.gov/departments/parks-recreation/parks-gardens/country-park",
+      "why_major": "Core of the 400-acre Battleground Parks District, with lakes, trails, playgrounds, and major attractions.",
+      "evidence_factors": [
+        "400-acre district role",
+        "two lakes",
+        "regional attractions"
+      ],
+      "coordinate_source": "OpenStreetMap Nominatim facility match",
+      "coordinate_source_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&countrycodes=us&q=Country%20Park%2C%20Greensboro%2C%20NC",
+      "coordinate_precision": "facility point",
+      "source_checked_at": "2026-08-13"
+    },
+    {
+      "slug": "greensboro-oka-t-hester-park",
+      "name": "Oka T. Hester Park",
+      "city": "Greensboro",
+      "state": "NC",
+      "address": "3615 Deutzia Street, Greensboro, NC 27407",
+      "latitude": 36.0183161,
+      "longitude": -79.8587741,
+      "managing_agency": "City of Greensboro Parks & Recreation",
+      "official_source_url": "https://www.greensboro-nc.gov/departments/parks-recreation/parks-gardens/hester-park",
+      "why_major": "One of Greensboro's regional parks, with lake, athletics, trails, and event capacity.",
+      "evidence_factors": [
+        "regional-park classification",
+        "lake and trails",
+        "athletic/event facilities"
+      ],
+      "coordinate_source": "OpenStreetMap Nominatim street match",
+      "coordinate_source_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&countrycodes=us&q=3615%20Deutzia%20Street%2C%20Greensboro%2C%20NC",
+      "coordinate_precision": "street-level; review recommended",
+      "source_checked_at": "2026-08-13"
+    },
+    {
+      "slug": "greensboro-jimmie-i-barber-park",
+      "name": "Jimmie I. Barber Park",
+      "city": "Greensboro",
+      "state": "NC",
+      "address": "1500 Barber Park Drive, Greensboro, NC 27401",
+      "latitude": 36.051284599142,
+      "longitude": -79.751432360965,
+      "managing_agency": "City of Greensboro Parks & Recreation",
+      "official_source_url": "https://www.greensboro-nc.gov/departments/parks-recreation/parks-gardens/barber-park",
+      "why_major": "Regional multipurpose park with stadium, indoor sports pavilion, amphitheater, disc golf, and event center.",
+      "evidence_factors": [
+        "stadium and sports pavilion",
+        "amphitheater",
+        "multiple citywide attractions"
+      ],
+      "coordinate_source": "ArcGIS World Geocoding Service point-address match",
+      "coordinate_source_url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=1500%20Barber%20Park%20Drive%2C%20Greensboro%2C%20NC%2027401&f=pjson&outFields=Match_addr,Addr_type&maxLocations=1",
+      "coordinate_precision": "point address",
+      "source_checked_at": "2026-08-13"
+    },
+    {
+      "slug": "greenville-river-park-north",
+      "name": "River Park North",
+      "city": "Greenville",
+      "state": "NC",
+      "address": "1000 Mumford Road, Greenville, NC 27834",
+      "latitude": 35.628443,
+      "longitude": -77.359795,
+      "managing_agency": "City of Greenville Recreation and Parks",
+      "official_source_url": "https://www.greenvillenc.gov/510/River-Park-North",
+      "why_major": "A 324-acre nature park with boating, camping, fishing, trails, and a science center.",
+      "evidence_factors": [
+        "324 acres",
+        "science and nature center",
+        "boating/camping/trails"
+      ],
+      "coordinate_source": "OpenStreetMap Nominatim address match",
+      "coordinate_source_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&countrycodes=us&q=1000%20Mumford%20Road%2C%20Greenville%2C%20NC",
+      "coordinate_precision": "address point",
+      "source_checked_at": "2026-08-13"
+    },
+    {
+      "slug": "greenville-town-common",
+      "name": "Greenville Town Common",
+      "city": "Greenville",
+      "state": "NC",
+      "address": "105 East First Street, Greenville, NC 27858",
+      "latitude": 35.6158441,
+      "longitude": -77.3712094,
+      "managing_agency": "City of Greenville Recreation and Parks",
+      "official_source_url": "https://www.greenvillenc.gov/513/Greenville-Town-Common",
+      "why_major": "Greenville's 21-acre central park, linking downtown, the Tar River Greenway, amphitheater, and riverwalk.",
+      "evidence_factors": [
+        "central-park role",
+        "21 acres",
+        "amphitheater and riverwalk"
+      ],
+      "coordinate_source": "OpenStreetMap Nominatim facility match",
+      "coordinate_source_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&countrycodes=us&q=Town%20Common%2C%20Greenville%2C%20NC",
+      "coordinate_precision": "facility centroid",
+      "source_checked_at": "2026-08-13"
+    },
+    {
+      "slug": "greenville-wildwood-park",
+      "name": "Wildwood Park",
+      "city": "Greenville",
+      "state": "NC",
+      "address": "3450 Blue Heron Drive, Greenville, NC 27834",
+      "latitude": 35.6138539,
+      "longitude": -77.3226479,
+      "managing_agency": "City of Greenville Recreation and Parks",
+      "official_source_url": "https://www.greenvillenc.gov/495/Wildwood-Park",
+      "why_major": "A 364-acre destination with lakes, boardwalk, mountain-bike facilities, camping, beach, and water access.",
+      "evidence_factors": [
+        "364 acres",
+        "two lakes and boardwalk",
+        "regional outdoor recreation mix"
+      ],
+      "coordinate_source": "OpenStreetMap Nominatim street match",
+      "coordinate_source_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&countrycodes=us&q=3450%20Blue%20Heron%20Drive%2C%20Greenville%2C%20NC",
+      "coordinate_precision": "entrance-street point",
+      "source_checked_at": "2026-08-13"
+    },
+    {
+      "slug": "raleigh-dix-park",
+      "name": "Dix Park",
+      "city": "Raleigh",
+      "state": "NC",
+      "address": "1030 Richardson Drive, Raleigh, NC 27603",
+      "latitude": 35.770345,
+      "longitude": -78.6570667,
+      "managing_agency": "Raleigh Parks, Recreation and Cultural Resources",
+      "official_source_url": "https://raleighnc.gov/parks-and-recreation/places/dix-park",
+      "why_major": "A 308-acre citywide destination and one of Raleigh's largest public parks.",
+      "evidence_factors": [
+        "308 acres",
+        "citywide destination",
+        "major event/open-space role"
+      ],
+      "coordinate_source": "OpenStreetMap Nominatim address match",
+      "coordinate_source_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&countrycodes=us&q=1030%20Richardson%20Drive%2C%20Raleigh%2C%20NC",
+      "coordinate_precision": "address point",
+      "source_checked_at": "2026-08-13"
+    },
+    {
+      "slug": "raleigh-lake-johnson-park",
+      "name": "Lake Johnson Park",
+      "city": "Raleigh",
+      "state": "NC",
+      "address": "4601 Avent Ferry Road, Raleigh, NC 27606",
+      "latitude": 35.76371,
+      "longitude": -78.714048,
+      "managing_agency": "Raleigh Parks, Recreation and Cultural Resources",
+      "official_source_url": "https://raleighnc.gov/parks-and-recreation/places/lake-johnson-park",
+      "why_major": "A 500-acre metro park and nature preserve centered on a major lake and trail system.",
+      "evidence_factors": [
+        "500 acres",
+        "metro-park role",
+        "lake and nature-preserve system"
+      ],
+      "coordinate_source": "OpenStreetMap Nominatim address match",
+      "coordinate_source_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&countrycodes=us&q=4601%20Avent%20Ferry%20Road%2C%20Raleigh%2C%20NC",
+      "coordinate_precision": "waterfront-center address point",
+      "source_checked_at": "2026-08-13"
+    },
+    {
+      "slug": "raleigh-pullen-park",
+      "name": "Pullen Park",
+      "city": "Raleigh",
+      "state": "NC",
+      "address": "520 Ashe Avenue, Raleigh, NC 27606",
+      "latitude": 35.7790861,
+      "longitude": -78.6623523,
+      "managing_agency": "Raleigh Parks, Recreation and Cultural Resources",
+      "official_source_url": "https://raleighnc.gov/parks-and-recreation/places/pullen-park",
+      "why_major": "Historic 66.4-acre public park with amusements, aquatics, arts, athletics, and community facilities.",
+      "evidence_factors": [
+        "66.4 acres",
+        "historic statewide significance",
+        "many destination facilities"
+      ],
+      "coordinate_source": "OpenStreetMap Nominatim address match",
+      "coordinate_source_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&countrycodes=us&q=520%20Ashe%20Avenue%2C%20Raleigh%2C%20NC",
+      "coordinate_precision": "address point",
+      "source_checked_at": "2026-08-13"
+    },
+    {
+      "slug": "wilmington-greenfield-park",
+      "name": "Greenfield Park",
+      "city": "Wilmington",
+      "state": "NC",
+      "address": "1739 Burnett Boulevard, Wilmington, NC 28401",
+      "latitude": 34.214028,
+      "longitude": -77.9439369,
+      "managing_agency": "City of Wilmington Parks & Recreation",
+      "official_source_url": "https://www.wilmingtonnc.gov/Departments-Divisions/Parks-Recreation/Parks-Trails/Greenfield-Park",
+      "why_major": "A 250-acre lake park with trail, amphitheater, boating, and citywide recreation value.",
+      "evidence_factors": [
+        "250 acres",
+        "lake and trail",
+        "amphitheater/event role"
+      ],
+      "coordinate_source": "City of Wilmington facility page",
+      "coordinate_source_url": "https://www.wilmingtonnc.gov/Departments-Divisions/Parks-Recreation/Parks-Trails/Greenfield-Park",
+      "coordinate_precision": "official facility coordinate",
+      "source_checked_at": "2026-08-13"
+    },
+    {
+      "slug": "wilmington-empie-park",
+      "name": "Empie Park",
+      "city": "Wilmington",
+      "state": "NC",
+      "address": "3405 Park Avenue, Wilmington, NC 28403",
+      "latitude": 34.221301,
+      "longitude": -77.9035995,
+      "managing_agency": "City of Wilmington Parks & Recreation",
+      "official_source_url": "https://www.wilmingtonnc.gov/Departments-Divisions/Parks-Recreation/Parks-Trails/Empie-Park",
+      "why_major": "Major athletic and community park with a 24-court tennis complex, dog park, playground, and trail connection.",
+      "evidence_factors": [
+        "24-court tennis complex",
+        "multiple community amenities",
+        "cross-city trail connection"
+      ],
+      "coordinate_source": "City of Wilmington facility page",
+      "coordinate_source_url": "https://www.wilmingtonnc.gov/Departments-Divisions/Parks-Recreation/Parks-Trails/Empie-Park",
+      "coordinate_precision": "official facility coordinate",
+      "source_checked_at": "2026-08-13"
+    },
+    {
+      "slug": "wilmington-halyburton-park",
+      "name": "Halyburton Park",
+      "city": "Wilmington",
+      "state": "NC",
+      "address": "4099 S. 17th Street, Wilmington, NC 28412",
+      "latitude": 34.17592792448291,
+      "longitude": -77.90434949252402,
+      "managing_agency": "City of Wilmington Parks & Recreation",
+      "official_source_url": "https://www.wilmingtonnc.gov/Departments-Divisions/Parks-Recreation/Parks-Trails/Halyburton-Park",
+      "why_major": "A 60-acre nature park and recognized heritage site with a nature center, programs, and regional trail connection.",
+      "evidence_factors": [
+        "60 acres",
+        "recognized natural heritage site",
+        "nature center and trail link"
+      ],
+      "coordinate_source": "City of Wilmington facility page",
+      "coordinate_source_url": "https://www.wilmingtonnc.gov/Departments-Divisions/Parks-Recreation/Parks-Trails/Halyburton-Park",
+      "coordinate_precision": "official facility coordinate",
+      "source_checked_at": "2026-08-13"
+    }
+  ],
+  "reviewQueue": [
+    {
+      "park_slug": "boone-clawson-burnley-park",
+      "issue": "Coordinate lookup matched Martin Luther King Jr. Street rather than a numbered parcel.",
+      "recommendation": "Confirm the exact entrance point against a Town GIS layer before automated import."
+    },
+    {
+      "park_slug": "boone-junaluska-park",
+      "issue": "The current Town facility page lists 135 Bear Trail; the Town's 2023 ADA transition plan lists 175 Summit Street.",
+      "recommendation": "Treat 135 Bear Trail as the current public address and retain 175 Summit Street as a historical/alternate entrance until Town staff confirms."
+    },
+    {
+      "park_slug": "chapel-hill-homestead-park",
+      "issue": "The current Skate Park page uses 100 Aquatic Drive; an older Town shelter sheet uses 100 Northern Park Drive.",
+      "recommendation": "Model these as campus entrances/aliases, not duplicate parks."
+    },
+    {
+      "park_slug": "greensboro-oka-t-hester-park",
+      "issue": "The park page lists 3615 Deutzia Street; a City mobile-food-unit sheet uses 800 Ailanthus Street for an athletic-field entrance.",
+      "recommendation": "Keep 3615 Deutzia Street canonical and record 800 Ailanthus Street as a secondary entrance."
+    },
+    {
+      "park_slug": "fayetteville-arnette-park",
+      "issue": "The official page uses Old Wilmington Highway and ZIP 28301; the coordinate service normalized the road to Wilmington Highway and returned ZIP 28306.",
+      "recommendation": "Retain the official FCPR address and verify the point against Cumberland County GIS before bulk import."
+    },
+    {
+      "park_slug": "boone-daniel-boone-park",
+      "issue": "Boone Jaycee Park appears as a subfacility within the Daniel Boone Park campus.",
+      "recommendation": "Do not import it as a separate major park without a parent-child relation, to avoid double-counting the campus."
+    }
+  ]
+}

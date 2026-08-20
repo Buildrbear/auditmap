@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-08-17",
+  "sources": [
+    {
+      "id": "tpl-parkserve-shareable-mapserver",
+      "publisher": "Trust for Public Land",
+      "geography": "United States urban places",
+      "serviceUrl": "https://server7.tplgis.org/arcgis7/rest/services/ParkServe/ParkServe_Shareable/MapServer",
+      "itemId": "e035bfb85920470d85ef22e108ef5103",
+      "layers": [
+        { "id": 0, "name": "Parks", "geometryRole": "candidate park polygons" },
+        { "id": 1, "name": "Service Areas", "geometryRole": "planning reference only" }
+      ],
+      "spatialReference": "EPSG:3857",
+      "authorityClass": "national-reference",
+      "licenseStatus": "restricted-review-required",
+      "approvedUses": ["aggregate coverage planning", "private gap identification"],
+      "prohibitedUntilApproved": ["bulk public import", "public redistribution", "modified public display"],
+      "termsUrl": "https://parkserve.tpl.org/downloads/ParkServe_Terms_of_Use_May_2024.pdf",
+      "checkedAt": "2026-08-17"
+    },
+    {
+      "id": "us-census-tigerweb-incorporated-places",
+      "publisher": "United States Census Bureau",
+      "geography": "United States",
+      "serviceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Places_CouSub_ConCity_SubMCD/MapServer/5",
+      "layers": [
+        { "id": 5, "name": "Incorporated Places", "geometryRole": "municipality coverage boundary" }
+      ],
+      "authorityClass": "federal-official",
+      "licenseStatus": "approved-public-domain-government-data",
+      "approvedUses": ["coverage grouping", "municipality boundary checks"],
+      "checkedAt": "2026-08-17"
+    },
+    {
+      "id": "mecklenburg-county-park-locations",
+      "publisher": "Mecklenburg County Park and Recreation",
+      "geography": "Mecklenburg County, North Carolina",
+      "serviceUrl": "https://meckags.mecklenburgcountync.gov/server/rest/services/ParkandRec/ParkLocations/FeatureServer/0",
+      "layers": [
+        { "id": 0, "name": "Park Locations", "geometryRole": "official park identity, location, and attachment reference" }
+      ],
+      "authorityClass": "county-official",
+      "licenseStatus": "publisher-terms-review-required",
+      "approvedUses": ["official-source verification", "coordinate provenance"],
+      "prohibitedUntilApproved": ["assuming attachments are reusable photographs"],
+      "checkedAt": "2026-08-17"
+    },
+    {
+      "id": "raleigh-dix-park-public-art",
+      "publisher": "City of Raleigh / Dorothea Dix Park",
+      "geography": "Dorothea Dix Park, Raleigh, North Carolina",
+      "serviceUrl": "https://services.arcgis.com/v400IkDOw1ad7Yad/arcgis/rest/services/Dorothea_Dix_Park_Public_Art/FeatureServer/0",
+      "layers": [
+        { "id": 0, "name": "Dorothea Dix Park Public Art", "geometryRole": "official artwork locations and attachment reference" }
+      ],
+      "authorityClass": "municipal-official",
+      "licenseStatus": "publisher-terms-review-required",
+      "approvedUses": ["subsite identity", "coordinate provenance"],
+      "prohibitedUntilApproved": ["assuming attachment reuse rights from hosting alone"],
+      "checkedAt": "2026-08-17"
+    }
+  ]
+}

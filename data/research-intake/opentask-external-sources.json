@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "opentask-nc-50-detailed-parks-2026-08-13",
+      "title": "AuditMap: 50 detailed North Carolina public-park records",
+      "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+      "handoffUrl": "https://keystone-accessibility-baseline.indierepo.chatgpt.site/auditmap-50-detailed-parks/AUDITMAP_50_DETAILED_PARK_RECORDS.md",
+      "recordsUrl": "https://keystone-accessibility-baseline.indierepo.chatgpt.site/auditmap-50-detailed-parks/parks-detailed.json",
+      "sha256": "e1c0959a0fc2122003d50ac63ef42c7c6656d3ca7faee152780a5790c436fdce",
+      "checkedAt": "2026-08-13",
+      "contributionTier": "launch-guide-research",
+      "format": "records-array"
+    }
+  ],
+  "recordOverrides": {
+    "opentask-nc-50-detailed-parks-2026-08-13::fayetteville-clark-park": {
+      "aliases": ["J. Bayard Clark Park and Nature Center"]
+    },
+    "opentask-nc-50-detailed-parks-2026-08-13::raleigh-annie-wilkerson-nature-preserve": {
+      "aliases": ["Annie Louise Wilkerson, MD Nature Preserve"]
+    },
+    "opentask-nc-50-detailed-parks-2026-08-13::raleigh-spring-forest-road-park": {
+      "status": "blocked-review",
+      "possibleDuplicateOf": "Millbrook Exchange Park",
+      "reason": "The submitted park shares 1905 Spring Forest Road with Millbrook Exchange Park. Resolve the facility identity before creating another parent page."
+    }
+  }
+}

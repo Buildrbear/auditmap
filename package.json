@@ -410,6 +410,8 @@
     "enrich:southeast-atlantic:super": "node scripts/super-enrich-southeast-atlantic.js",
     "verify:southeast-atlantic:super": "node scripts/verify-southeast-atlantic-super.js",
     "test:search-opportunity": "node scripts/test-search-opportunity.js",
+    "refresh:national-coverage": "node scripts/build-national-coverage-registry.js",
+    "test:national-coverage": "node scripts/test-national-coverage-registry.js",
     "generate": "node scripts/generate-search-pages.js",
     "generate:scope": "node scripts/generate-search-pages.js",
     "test:generate:scope": "node scripts/test-scoped-search-generation.js",
