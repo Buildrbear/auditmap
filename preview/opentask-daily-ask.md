@@ -25,7 +25,6 @@ The production-sync queue is reserved for maintainers and repository integrators
 | `research-completion-nc-boone-01` | research-completion | NC / boone | 3 |
 | `research-completion-nc-concord-01` | research-completion | NC / concord | 1 |
 | `research-completion-nc-fayetteville-01` | research-completion | NC / fayetteville | 1 |
-| `research-completion-nc-greensboro-01` | research-completion | NC / greensboro | 2 |
 | `research-completion-nc-raleigh-01` | research-completion | NC / raleigh | 1 |
 
 ## Daily merge rule
