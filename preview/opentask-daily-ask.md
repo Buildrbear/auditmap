@@ -27,8 +27,6 @@ The production-sync queue is reserved for maintainers and repository integrators
 | `research-completion-nc-fayetteville-01` | research-completion | NC / fayetteville | 1 |
 | `research-completion-nc-greensboro-01` | research-completion | NC / greensboro | 2 |
 | `research-completion-nc-raleigh-01` | research-completion | NC / raleigh | 1 |
-| `release-reconciliation-md-annapolis-01` | release-reconciliation | MD / annapolis | 1 |
-| `release-reconciliation-md-edgemere-01` | release-reconciliation | MD / edgemere | 1 |
 
 ## Daily merge rule
 
