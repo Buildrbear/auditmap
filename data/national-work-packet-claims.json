@@ -46,11 +46,19 @@
       "claimedAt": "2026-08-20",
       "expiresAt": "2026-08-27",
       "lastUpdatedAt": "2026-08-20",
-      "status": "claimed",
-      "reviewQueue": [
-        "Resolve Oka T. Hester Park's 3615 Deutzia Street canonical address and 800 Ailanthus Street athletic-field entrance evidence."
+      "status": "submitted",
+      "submissionUrl": "https://github.com/Buildrbear/auditmap/pull/38",
+      "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/38",
+      "acceptedRecordIds": [
+        "/us/nc/greensboro/parks/jimmie-i-barber-park",
+        "/us/nc/greensboro/parks/oka-t-hester-park"
       ],
-      "notes": "Connected Greensboro research-completion batch for Jimmie I. Barber Park and Oka T. Hester Park."
+      "reviewQueue": [
+        "Jimmie I. Barber Park needs four varied representative reusable parent photographs before launch-guide work.",
+        "Oka T. Hester Park needs four varied representative reusable parent photographs before launch-guide work.",
+        "Both inventory records need a separately assigned, complete recurring visitor-answer set before publication."
+      ],
+      "notes": "Inventory records and official coordinate evidence are submitted in PR #38. Hester's canonical park-office and athletic-field entrance roles are resolved; both parents remain launch-guide-photo-gated."
     }
   ]
 }
