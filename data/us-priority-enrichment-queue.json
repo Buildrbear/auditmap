@@ -13,7 +13,7 @@
       "parentGuides": 2,
       "licensedPhotos": 8,
       "evidenceCompleteSubsites": 0,
-      "status": "generated-release-and-responsive-verified"
+      "status": "generated-release-and-preview-verified"
     },
     {
       "name": "Chesapeake Bay state-park evidence-gate enrichment",
@@ -261,7 +261,7 @@
     "name": "Boise river-park evidence-gate enrichment",
     "reason": "Ann Morrison Park and Kathryn Albertson Park form a connected Boise River launch gap with current City of Boise guidance and four varied reusable photographs each. No proposed internal destination clears exact operator-confirmed position, destination-specific photography, and a complete current profile together, so the release remains parent-only.",
     "releaseStandard": "Retain current official parent answers, require four varied reusable photographs per released parent, and publish only named destinations with exact reviewed coordinates, destination-specific photography, nine source-backed answers, and current operator guidance.",
-    "status": "boise-generated-release-and-responsive-verified",
+    "status": "boise-generated-release-and-preview-verified",
     "metros": ["Boise"],
     "resumeCheckpoint": {
       "pausedAt": "2026-08-11",
@@ -435,9 +435,10 @@
     "Corrected Kathryn Albertson Park's incomplete address and stale dog-prohibition claim using the current City of Boise page, which permits leashed dogs year-round.",
     "Deferred every named Boise facility until exact operator-confirmed position, destination-specific reusable photography, and a complete current profile clear together; scoped generation and the Boise campaign verifier pass.",
     "Verified all 55 super-enrichment campaigns, national discovery, North Carolina image and generated-page safeguards, raw Boise HTML, licensed-image metadata, corrected address and dog guidance, coordinate provenance, and source persistence across four data layers.",
-    "Both Boise parent routes pass 390-pixel and 1440-pixel browser checks with correct headings and canonicals, no horizontal overflow, no application error overlay, and no browser console errors; hosted image optimization remains pending the pull-request preview."
+    "Both Boise parent routes pass 390-pixel and 1440-pixel browser checks with correct headings and canonicals, no horizontal overflow, no application error overlay, and no browser console errors.",
+    "Preview-verified the Idaho hub, Boise park hub, both Boise parent routes, and all eight optimized image payloads on final-head Ready deployment dpl_6sA4jroMAV6jxywbLXBTPV6PxTLr; GitHub's combined Vercel status passed."
       ],
-    "nextAction": "Publish one stacked Boise draft pull request, then verify both hosted routes and all eight optimized images before closing this batch checkpoint. Keep named Boise facilities parent-only until exact positions and complete destination profiles clear together.",
+    "nextAction": "After maintainer review of stacked Boise draft PR #32, continue with the next connected launch gap that clears current official-source and representative-photo review. Keep named Boise facilities parent-only until exact positions and complete destination profiles clear together.",
       "notReleased": true,
       "productionPublished": false
     }

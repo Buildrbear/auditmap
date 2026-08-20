@@ -7,7 +7,9 @@
 - OpenTask assignment: not separately supplied
 - GitHub issue: not separately supplied
 - Pull request: draft PR #32, stacked on Chesapeake Bay draft PR #31: `https://github.com/Buildrbear/auditmap/pull/32`
+- Git-linked preview: Ready deployment `dpl_6sA4jroMAV6jxywbLXBTPV6PxTLr`: `https://auditmap-rjtoqtnzu-derrys-projects-f5a18cb6.vercel.app`
 - Checked: 2026-08-11
+- Hosted preview rechecked: 2026-08-20
 - Production publication: not performed
 
 ## Outcome
@@ -46,7 +48,9 @@ Exact source pages, creators, licenses, license URLs, alt text, and selection de
 - `npm run verify:enrichment:campaigns` passed all 55 campaign suites with zero failures.
 - The complete `npm run release:enrichment:check` gate passed all 55 enrichment campaigns, national discovery, 272 North Carolina image-rights records, 655 North Carolina generated-page checks, galleries, dog-park media rules, performance, and SEO.
 - Full-generation-only national churn was reversed after the successful release gate; the reviewed Boise source and generated paths remain changed.
-- Both parent routes passed local 390-by-844 and 1440-by-1000 browser checks with the correct heading and canonical tag, no application error overlay, no browser console errors, and no horizontal overflow. Local image-optimizer 404s remain expected and hosted image checks are pending the pull-request preview.
+- Both parent routes passed local 390-by-844 and 1440-by-1000 browser checks with the correct heading and canonical tag, no application error overlay, no browser console errors, and no horizontal overflow. Local image-optimizer 404s were expected and were resolved by the hosted checks below.
+- The final-head Git-linked deployment in the authenticated AuditMap scope reached Ready for commit `16393bb4f9e2a3fc453be6dff664a11bac612cdc`, and GitHub's combined `Vercel – auditmap` status is successful.
+- The Idaho hub, Boise park hub, Ann Morrison parent, and Kathryn Albertson parent returned their expected headings and canonical URLs through authenticated hosted access. All eight `/_vercel/image` requests returned HTTP 200 JPEG payloads.
 
 ## Unresolved Review Queue
 
