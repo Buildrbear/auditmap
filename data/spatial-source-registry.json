@@ -115,6 +115,59 @@
         "bulk public redistribution"
       ],
       "checkedAt": "2026-08-20"
+    },
+    {
+      "id": "asheville-location-directory",
+      "publisher": "City of Asheville",
+      "geography": "Asheville, North Carolina",
+      "serviceUrl": "https://www.ashevillenc.gov/wp-json/wp/v2/locations",
+      "layers": [
+        {
+          "id": "location",
+          "name": "Published municipal location records",
+          "geometryRole": "current official visitor address, location pin, operating-hours metadata, and parent identity"
+        }
+      ],
+      "spatialReference": "EPSG:4326",
+      "authorityClass": "municipal-official",
+      "licenseStatus": "publisher-terms-review-required",
+      "approvedUses": [
+        "official place identity",
+        "official visitor coordinate provenance",
+        "source freshness review"
+      ],
+      "prohibitedUntilApproved": [
+        "bulk public redistribution",
+        "assuming embedded media has reuse permission"
+      ],
+      "checkedAt": "2026-08-20"
+    },
+    {
+      "id": "asheville-park-info-points",
+      "publisher": "City of Asheville",
+      "geography": "Asheville, North Carolina",
+      "serviceUrl": "https://services.arcgis.com/aJ16ENn1AaqdFlqx/ArcGIS/rest/services/Park_Info_Points/FeatureServer/0",
+      "itemId": "3454445ed93f49a98b6694cc9b6f4ec3",
+      "layers": [
+        {
+          "id": 0,
+          "name": "Parks Info View",
+          "geometryRole": "official park identity, address, facility relationship, and legacy reference point"
+        }
+      ],
+      "spatialReference": "EPSG:3857 with query projection to EPSG:4326",
+      "authorityClass": "municipal-official",
+      "licenseStatus": "publisher-terms-review-required",
+      "approvedUses": [
+        "official-source verification",
+        "parent and facility relationship review",
+        "coordinate cross-checking"
+      ],
+      "prohibitedUntilApproved": [
+        "bulk public redistribution",
+        "assuming GIS image links grant reuse rights"
+      ],
+      "checkedAt": "2026-08-20"
     }
   ]
 }

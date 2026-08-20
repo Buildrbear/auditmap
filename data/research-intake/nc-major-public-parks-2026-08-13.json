@@ -40,8 +40,8 @@
       "city": "Asheville",
       "state": "NC",
       "address": "498 Azalea Road, Asheville, NC 28805",
-      "latitude": 35.5770973,
-      "longitude": -82.4914106,
+      "latitude": 35.5754035067782,
+      "longitude": -82.48586281337646,
       "managing_agency": "City of Asheville Parks & Recreation",
       "official_source_url": "https://www.ashevillenc.gov/locations/azalea-park/",
       "why_major": "Large river-adjacent recreation complex serving organized sports and trail users.",
@@ -50,10 +50,56 @@
         "regional trail connection",
         "multiple recreation uses"
       ],
-      "coordinate_source": "OpenStreetMap Nominatim address match",
-      "coordinate_source_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&countrycodes=us&q=498%20Azalea%20Road%2C%20Asheville%2C%20NC%2028805",
-      "coordinate_precision": "address point",
-      "source_checked_at": "2026-08-13"
+      "coordinate_source": "City of Asheville current location-directory map pin, WordPress location 72725 / external ID 338975",
+      "coordinate_source_url": "https://www.ashevillenc.gov/wp-json/wp/v2/locations/72725",
+      "coordinate_precision": "official visitor location pin for 498 Azalea Road",
+      "position_quality": "reviewed-official-location-pin",
+      "related_destinations": [
+        {
+          "name": "Azalea Dog Park",
+          "relationship": "Named off-leash facility within the larger Azalea Park complex; retain as a distinct destination record rather than a duplicate parent.",
+          "existing_record_id": "basic-osm-way-265685650",
+          "source": "https://www.ashevillenc.gov/locations/azalea-park/"
+        },
+        {
+          "name": "John B. Lewis Soccer Complex",
+          "relationship": "Separately named athletic facility within the Azalea recreation complex; do not treat its reported access as reopening all other park areas.",
+          "source": "https://www.ashevillenc.gov/news/city-of-asheville-offices-closed-january-19-in-observance-of-martin-luther-king-jr-day/"
+        }
+      ],
+      "current_access_review": {
+        "status": "unresolved-current-closure-conflict",
+        "finding": "The City location record was modified on 2026-08-20 and publishes standard 6 a.m.-10 p.m. hours, but does not state whether Helene closures ended. The latest explicit area-status notice found, dated 2026-01-14, says John B. Lewis Soccer Complex is open while all other areas of Azalea Park are closed. The July 2026 recovery project remains active.",
+        "publication_rule": "Do not infer that standard hours mean the closed park areas reopened; obtain an explicit current operator status before launch-guide publication."
+      },
+      "sources": [
+        {
+          "label": "City of Asheville Azalea Park visitor page",
+          "url": "https://www.ashevillenc.gov/locations/azalea-park/",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of Asheville Azalea Park structured location record",
+          "url": "https://www.ashevillenc.gov/wp-json/wp/v2/locations/72725",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of Asheville Azalea Parks and Infrastructure Recovery project",
+          "url": "https://www.ashevillenc.gov/projects/azalea-parks-and-infrastructure-recovery/",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of Asheville January 2026 park-area status notice",
+          "url": "https://www.ashevillenc.gov/news/city-of-asheville-offices-closed-january-19-in-observance-of-martin-luther-king-jr-day/",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of Asheville Park Info Points GIS",
+          "url": "https://services.arcgis.com/aJ16ENn1AaqdFlqx/ArcGIS/rest/services/Park_Info_Points/FeatureServer/0",
+          "checkedAt": "2026-08-20"
+        }
+      ],
+      "source_checked_at": "2026-08-20"
     },
     {
       "slug": "asheville-richmond-hill-park",
@@ -721,6 +767,11 @@
       "park_slug": "boone-daniel-boone-park",
       "issue": "Boone Jaycee Park appears as a subfacility within the Daniel Boone Park campus.",
       "recommendation": "Do not import it as a separate major park without a parent-child relation, to avoid double-counting the campus."
+    },
+    {
+      "park_slug": "asheville-azalea-park",
+      "issue": "The City location record was modified on 2026-08-20 and publishes standard hours without a reopening statement, while the latest explicit area-status notice found says John B. Lewis Soccer Complex is open and all other areas of Azalea Park are closed; the July 2026 recovery project remains active.",
+      "recommendation": "Keep the parent blocked from launch-guide publication until the operator explicitly identifies currently open park areas; do not infer reopening from standard hours."
     }
   ]
 }

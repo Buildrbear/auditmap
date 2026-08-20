@@ -1,0 +1,29 @@
+{
+  "campaign": "Asheville Azalea Park research completion",
+  "packetId": "research-completion-nc-asheville-01",
+  "checkedAt": "2026-08-20",
+  "contributionTier": "inventory",
+  "releaseStandard": "Resolve parent identity, coordinate, recovery-status, relationship, source, and image-rights questions in source format. Do not publish a launch guide until representative reusable media and the complete current visitor-answer set clear a separate assignment.",
+  "places": [
+    {
+      "id": "research-nc-asheville-azalea-park",
+      "recordSlug": "asheville-azalea-park",
+      "name": "Azalea Park",
+      "alternateNames": [],
+      "city": "Asheville",
+      "state": "NC",
+      "operator": "City of Asheville Parks & Recreation",
+      "source": "https://www.ashevillenc.gov/locations/azalea-park/",
+      "deferRelease": true,
+      "photoGateStatus": "deferred-no-representative-reusable-parent-set",
+      "minimumImages": 4,
+      "imageQueries": [
+        "Azalea Park Asheville North Carolina",
+        "Azalea Park Asheville soccer fields",
+        "Azalea Park Asheville fishing pond",
+        "Azalea Park Asheville Helene"
+      ],
+      "subsites": []
+    }
+  ]
+}

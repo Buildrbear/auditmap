@@ -9,6 +9,14 @@
   },
   "recentlyCompleted": [
     {
+      "name": "Asheville Azalea Park research completion",
+      "inventoryRecords": 1,
+      "resolvedOfficialCoordinates": 1,
+      "licensedPhotos": 0,
+      "publishedParents": 0,
+      "status": "source-record-complete-access-and-photo-gated"
+    },
+    {
       "name": "Greensboro public-park research completion",
       "inventoryRecords": 2,
       "resolvedCoordinateConflicts": 1,
@@ -266,11 +274,11 @@
     }
   ],
   "activeCluster": {
-    "name": "Greensboro public-park research completion",
-    "reason": "The corrected national claim ledger identified Jimmie I. Barber Park and Oka T. Hester Park as one bounded Greensboro inventory packet. Current City pages and municipal GIS resolve their canonical identities, official address points, and Hester's park-office versus athletic-field arrivals, while reusable parent photography remains unavailable.",
-    "releaseStandard": "Complete the two inventory records with current official sources, reviewed address-point coordinates, aliases, entrance roles, image-rights findings, and explicit unresolved questions. Do not promote either record to a launch guide without representative reusable media and the complete recurring visitor-answer set.",
-    "status": "greensboro-source-records-complete-photo-gated",
-    "metros": ["Greensboro"],
+    "name": "Asheville Azalea Park research completion",
+    "reason": "The corrected national claim ledger identified Azalea Park as one exact Asheville inventory packet. Current City records establish the parent identity and official visitor pin, while the Helene access status and reusable parent photography remain unresolved.",
+    "releaseStandard": "Complete the inventory record with current official sources, reviewed coordinate provenance, parent-versus-facility relationships, recovery-status evidence, image-rights findings, and explicit unresolved questions. Do not promote the record to a launch guide until an explicit current open-area statement, representative reusable media, and the complete recurring visitor-answer set clear review.",
+    "status": "asheville-azalea-source-record-complete-access-and-photo-gated",
+    "metros": ["Asheville"],
     "resumeCheckpoint": {
       "pausedAt": "2026-08-20",
       "completed": [
@@ -448,9 +456,13 @@
     "Completed source-format inventory records for Jimmie I. Barber Park and Oka T. Hester Park with current City sources, official municipal address-point coordinates, stable aliases, and checked dates.",
     "Resolved Hester Park's address conflict: 3615 Deutzia Street is the canonical park-office address and 800 Ailanthus Street is the current athletic-fields entrance, not a duplicate park.",
     "Registered the City of Greensboro park, facility, and address-point GIS services for reusable official coordinate provenance without treating ArcGIS hosting as image permission.",
-    "Ran eight Openverse queries plus Wikimedia Commons exact-name and geosearch review; accepted zero images and kept both Greensboro parents behind the reusable-photo and launch-guide answer gates."
+        "Ran eight Openverse queries plus Wikimedia Commons exact-name and geosearch review; accepted zero images and kept both Greensboro parents behind the reusable-photo and launch-guide answer gates.",
+        "Completed the Azalea Park source-format inventory record with the current City address, official visitor pin, reviewed coordinate provenance, checked sources, and explicit parent-versus-facility relationships.",
+        "Preserved the current Azalea Park access conflict: standard hours remain published, but the latest explicit area-status notice found closes every area except John B. Lewis Soccer Complex and the July 2026 recovery project remains active.",
+        "Registered the City of Asheville structured location directory and Park Info Points GIS for official coordinate and relationship provenance without treating hosted media as reuse permission.",
+        "Ran four Openverse queries plus Wikimedia Commons exact-name and ten-kilometer geosearch review; accepted zero images and kept Azalea Park behind both the access and reusable-photo gates."
       ],
-    "nextAction": "After review of the Greensboro inventory handoff, mark its exact national packet submitted or changes-requested. Then claim one remaining open research-completion packet; do not reopen Cleveland-through-Boise releases or publish either Greensboro parent until representative reusable media and the complete launch-guide answer set clear review.",
+      "nextAction": "After review of the Azalea Park inventory handoff, mark its exact national packet submitted or changes-requested. Then claim one remaining open research-completion packet; do not reopen Cleveland-through-Boise releases or publish Azalea Park until explicit current area access, representative reusable media, and the complete launch-guide answer set clear review.",
       "notReleased": true,
       "productionPublished": false
     }

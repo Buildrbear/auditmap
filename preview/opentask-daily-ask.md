@@ -7,8 +7,8 @@ Generated: 2026-08-20
 - **3,382** destination pages are live.
 - **11** known destinations are in the hopper.
 - **2** are generated locally but absent from production.
-- **4** are research-only candidates awaiting launch-guide work.
-- **5** are blocked by named review questions.
+- **3** are research-only candidates awaiting launch-guide work.
+- **6** are blocked by named review questions.
 - **0** live records need internal local/production synchronization.
 
 ## Current operating ask
