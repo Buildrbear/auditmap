@@ -17,9 +17,9 @@ The Cleveland-through-Boise batches and the submitted Greensboro inventory packe
 
 ## Resume Point
 
-Do not repeat completed batches unless review finds a specific defect or new evidence changes a deferred decision. On this stacked line, Chesapeake Bay and Greensboro are reserved as submitted work, Asheville is actively claimed, and Boone, Concord, Fayetteville, and Raleigh remain genuinely open research-completion packets.
+Do not repeat completed batches unless review finds a specific defect or new evidence changes a deferred decision. On this stacked line, Chesapeake Bay, Greensboro, and Asheville are reserved as submitted work; Boone, Concord, Fayetteville, and Raleigh remain genuinely open research-completion packets.
 
-After review, change the Asheville claim from `claimed` to `submitted`, `changes-requested`, or `released`; never leave it ambiguous. If accepted, retain Azalea Park at inventory tier until an explicit current open-area statement, four varied representative reusable photographs, and the complete recurring visitor-answer set justify a separate launch-guide assignment. Then claim one remaining exact research packet from the generated queue.
+The Asheville claim is submitted in PR #40. If review requests changes, change it to `changes-requested`; if accepted, retain Azalea Park at inventory tier until an explicit current open-area statement, four varied representative reusable photographs, and the complete recurring visitor-answer set justify a separate launch-guide assignment. Then claim one remaining exact research packet from the generated queue.
 
 Keep the Azalea Park access conflict open. Recheck the City structured location record, normal visitor page, current recovery project, and an explicit operator area-status source before publishing hours or arrival guidance. Keep Azalea Dog Park as a related facility rather than duplicating or substituting it for the parent.
 

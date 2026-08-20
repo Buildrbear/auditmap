@@ -80,7 +80,7 @@
       "type": "research-completion",
       "state": "NC",
       "citySlug": "asheville",
-      "status": "claimed",
+      "status": "submitted",
       "claim": {
         "packetId": "research-completion-nc-asheville-01",
         "assignee": "Buildrbear",
@@ -89,8 +89,18 @@
         "claimedAt": "2026-08-20",
         "expiresAt": "2026-08-27",
         "lastUpdatedAt": "2026-08-20",
-        "status": "claimed",
-        "notes": "Inventory-tier completion for Azalea Park only; preserve Azalea Dog Park as a distinct destination relationship and do not generate a page without a separate launch-guide assignment."
+        "status": "submitted",
+        "submissionUrl": "https://github.com/Buildrbear/auditmap/pull/40",
+        "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/40",
+        "acceptedRecordIds": [
+          "/us/nc/asheville/parks/azalea-park"
+        ],
+        "reviewQueue": [
+          "Obtain an explicit current City statement identifying which Azalea Park areas are open; do not infer reopening from standard hours.",
+          "Obtain four varied representative reusable parent photographs or documented City reuse permission.",
+          "Complete access-dependent recurring visitor answers only under a separate launch-guide assignment after the access and photo gates clear."
+        ],
+        "notes": "Inventory record and official coordinate evidence are submitted in PR #40. Azalea Dog Park remains a distinct related facility; the parent remains access-and-photo-gated with no generated page."
       },
       "count": 1,
       "recordIds": [
