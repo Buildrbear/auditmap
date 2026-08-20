@@ -1,0 +1,29 @@
+{
+  "campaign": "Fayetteville Arnette Park research completion",
+  "packetId": "research-completion-nc-fayetteville-01",
+  "checkedAt": "2026-08-20",
+  "contributionTier": "inventory",
+  "releaseStandard": "Resolve the parent identity, current visitor address, entrance-coordinate provenance, parcel-address distinction, current-use evidence, source freshness, and image-rights questions in source format. Do not publish a launch guide until representative reusable media and the complete current visitor-answer set clear a separate assignment.",
+  "places": [
+    {
+      "id": "research-nc-fayetteville-arnette-park",
+      "recordSlug": "fayetteville-arnette-park",
+      "name": "Arnette Park",
+      "alternateNames": [],
+      "city": "Fayetteville",
+      "state": "NC",
+      "operator": "Fayetteville-Cumberland Parks & Recreation",
+      "source": "https://www.fayettevillenc.gov/Events/Drive-Thru-Christmas-in-the-Park",
+      "deferRelease": true,
+      "photoGateStatus": "deferred-no-representative-reusable-parent-set",
+      "minimumImages": 4,
+      "imageQueries": [
+        "Arnette Park Fayetteville North Carolina",
+        "Arnette Park Fayetteville disc golf",
+        "Arnette Park Fayetteville playground",
+        "Arnette Park Fayetteville baseball"
+      ],
+      "subsites": []
+    }
+  ]
+}

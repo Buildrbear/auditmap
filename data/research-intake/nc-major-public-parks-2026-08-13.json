@@ -420,21 +420,64 @@
       "name": "Arnette Park",
       "city": "Fayetteville",
       "state": "NC",
-      "address": "2165 Old Wilmington Highway, Fayetteville, NC 28301",
-      "latitude": 35.004830264954,
-      "longitude": -78.857530550499,
+      "address": "2165 Wilmington Highway, Fayetteville, NC 28306",
+      "latitude": 35.00498326957595,
+      "longitude": -78.85757840132553,
       "managing_agency": "Fayetteville-Cumberland Parks and Recreation",
-      "official_source_url": "https://register.fcpr.us/wbwsc/webtrac.wsc/iteminfo.html?FMID=3305820&Module=FR",
-      "why_major": "Large reservable park complex with multiple high-capacity shelters and regional recreation use.",
+      "official_source_url": "https://www.fayettevillenc.gov/Events/Drive-Thru-Christmas-in-the-Park",
+      "why_major": "A 100-acre public park with developed recreation facilities, natural woodland, active shelter rentals, and regional event use.",
       "evidence_factors": [
-        "multiple shelters",
-        "large-group capacity",
-        "regional recreation complex"
+        "100 acres",
+        "active shelter rentals",
+        "regional event and recreation use"
       ],
-      "coordinate_source": "ArcGIS World Geocoding Service point-address match",
-      "coordinate_source_url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=2165%20Old%20Wilmington%20Highway%2C%20Fayetteville%2C%20NC%2028301&f=pjson&outFields=Match_addr,Addr_type&maxLocations=1",
-      "coordinate_precision": "point address; road-name alias normalized",
-      "source_checked_at": "2026-08-13"
+      "coordinate_source": "City of Fayetteville Park Points GIS, OBJECTID 4",
+      "coordinate_source_url": "https://gismaps.ci.fayetteville.nc.us/opendata/rest/services/ParksRec/ParkPoints/MapServer/0/query?where=UPPER%28Park_Name%29%20LIKE%20%27%25ARNETTE%25%27&outFields=*&returnGeometry=true&outSR=4326&f=geojson",
+      "coordinate_precision": "official park reference point",
+      "position_quality": "reviewed-official-park-point",
+      "address_reconciliation": {
+        "status": "resolved-current-visitor-address",
+        "finding": "The current City event location and official Park Points GIS agree on 2165 Wilmington Highway. The event record supplies ZIP 28306. The City park parcel uses 2161 Wilmington Highway as its property situs address; the legacy intake source used Old Wilmington Highway and ZIP 28301.",
+        "publication_rule": "Use 2165 Wilmington Highway, Fayetteville, NC 28306 as the current visitor address. Retain 2161 only as parcel context and the Old Wilmington/28301 form only as legacy evidence, not alternate public entrances."
+      },
+      "current_access_review": {
+        "status": "verified-active-public-use-current-hours-unresolved",
+        "finding": "Current City shelter-rental records, the December 2025 public event record, and the January 2026 County trail-extension action establish active public use. No current Arnette Park page or operator source with general daily hours was found.",
+        "publication_rule": "Do not reuse the 2013 seasonal schedule as current hours. Recheck the operator or obtain written confirmation before launch-guide publication."
+      },
+      "sources": [
+        {
+          "label": "City of Fayetteville Drive-Thru Christmas in the Park location record",
+          "url": "https://www.fayettevillenc.gov/Events/Drive-Thru-Christmas-in-the-Park",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of Fayetteville Park Points GIS query",
+          "url": "https://gismaps.ci.fayetteville.nc.us/opendata/rest/services/ParksRec/ParkPoints/MapServer/0/query?where=UPPER%28Park_Name%29%20LIKE%20%27%25ARNETTE%25%27&outFields=*&returnGeometry=true&outSR=4326&f=geojson",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of Fayetteville Parks boundary GIS query",
+          "url": "https://gismaps.ci.fayetteville.nc.us/opendata/rest/services/ParksRec/Parks/MapServer/0/query?where=UPPER%28Park_Name%29%20LIKE%20%27%25ARNETTE%25%27&outFields=*&returnGeometry=true&outSR=4326&f=geojson",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of Fayetteville current rental fees and available shelters",
+          "url": "https://www.fayettevillenc.gov/Parks-and-Recreation/Facilities/Rental-Fees-and-Usage-Charges",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "Cumberland County January 2026 Arnette Park trail-extension action",
+          "url": "https://www.cumberlandcountync.gov/departments/public-information-group/public-information/news-releases/news-release-full-story/2026/01/16/cumberland-county-commissioners-jan.-15-agenda-session-wrap-up",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of Fayetteville Parks and Recreation concession-facility directory",
+          "url": "https://www.fayettevillenc.gov/About-Fayetteville/Parks-Recreation",
+          "checkedAt": "2026-08-20"
+        }
+      ],
+      "source_checked_at": "2026-08-20"
     },
     {
       "slug": "fayetteville-clark-park",
@@ -801,8 +844,8 @@
     },
     {
       "park_slug": "fayetteville-arnette-park",
-      "issue": "The official page uses Old Wilmington Highway and ZIP 28301; the coordinate service normalized the road to Wilmington Highway and returned ZIP 28306.",
-      "recommendation": "Retain the official FCPR address and verify the point against Cumberland County GIS before bulk import."
+      "issue": "The address and coordinate conflict is resolved by current City visitor and GIS evidence, but no current operator source with Arnette Park's general daily hours was found. The only explicit seasonal schedule located is from 2013.",
+      "recommendation": "Use 2165 Wilmington Highway, Fayetteville, NC 28306 and the official City park point; obtain current operator hours before launch-guide publication and do not carry forward the 2013 schedule."
     },
     {
       "park_slug": "boone-daniel-boone-park",

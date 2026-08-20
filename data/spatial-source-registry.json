@@ -195,6 +195,38 @@
         "assuming site images have reuse permission"
       ],
       "checkedAt": "2026-08-20"
+    },
+    {
+      "id": "fayetteville-park-points-and-boundaries",
+      "publisher": "City of Fayetteville GIS",
+      "geography": "Fayetteville and Cumberland County, North Carolina",
+      "serviceUrl": "https://gismaps.ci.fayetteville.nc.us/opendata/rest/services/ParksRec",
+      "layers": [
+        {
+          "id": "ParkPoints/MapServer/0",
+          "name": "Park Points",
+          "geometryRole": "official park identity, visitor address, reference point, type, acreage, and amenity attributes"
+        },
+        {
+          "id": "Parks/MapServer/0",
+          "name": "Parks",
+          "geometryRole": "official park boundary, parcel identity, ownership, acreage, and property-situs context"
+        }
+      ],
+      "spatialReference": "North Carolina State Plane EPSG:2264 with query projection to EPSG:4326",
+      "authorityClass": "municipal-official",
+      "licenseStatus": "publisher-terms-review-required",
+      "approvedUses": [
+        "official-source verification",
+        "parent coordinate provenance",
+        "visitor-address and parcel-address reconciliation"
+      ],
+      "prohibitedUntilApproved": [
+        "bulk public redistribution",
+        "treating undated GIS amenities as current operating-status evidence",
+        "assuming GIS hosting grants image reuse rights"
+      ],
+      "checkedAt": "2026-08-20"
     }
   ]
 }

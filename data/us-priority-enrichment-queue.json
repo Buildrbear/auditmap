@@ -9,6 +9,15 @@
   },
   "recentlyCompleted": [
     {
+      "name": "Fayetteville Arnette Park research completion",
+      "inventoryRecords": 1,
+      "resolvedAddressConflicts": 1,
+      "resolvedOfficialCoordinates": 1,
+      "licensedPhotos": 0,
+      "publishedParents": 0,
+      "status": "source-record-complete-hours-and-photo-gated"
+    },
+    {
       "name": "Concord Marvin Caldwell Park research completion",
       "inventoryRecords": 1,
       "resolvedOfficialCoordinates": 1,
@@ -282,11 +291,11 @@
     }
   ],
   "activeCluster": {
-    "name": "Concord Marvin Caldwell Park research completion",
-    "reason": "The national claim ledger identified Marvin Caldwell Park as one exact Concord inventory packet. The July 2026 City reopening notice resolves current parent access, while the complete as-built amenity inventory and representative reusable photography remain unresolved.",
-    "releaseStandard": "Complete the inventory record with current official sources, reviewed coordinate provenance, explicit reopening evidence, renovation-evidence boundaries, image-rights findings, and unresolved questions. Do not promote the record to a launch guide until a current as-built amenity source, representative reusable media, and the complete recurring visitor-answer set clear review.",
-    "status": "concord-marvin-caldwell-source-record-complete-photo-and-as-built-gated",
-    "metros": ["Concord"],
+    "name": "Fayetteville Arnette Park research completion",
+    "reason": "The national claim ledger identified Arnette Park as one exact Fayetteville inventory packet. Current City visitor and GIS evidence resolves the address and coordinate conflict, while current general hours and representative reusable photography remain unresolved.",
+    "releaseStandard": "Complete the inventory record with current official sources, reviewed coordinate provenance, a resolved visitor-versus-parcel address decision, current-use evidence, image-rights findings, and unresolved questions. Do not promote the record to a launch guide until current operator hours, representative reusable media, and the complete recurring visitor-answer set clear review.",
+    "status": "fayetteville-arnette-source-record-complete-hours-and-photo-gated",
+    "metros": ["Fayetteville"],
     "resumeCheckpoint": {
       "pausedAt": "2026-08-20",
       "completed": [
@@ -472,9 +481,13 @@
         "Completed the Marvin Caldwell Park source-format inventory record with the current City reopening notice, official visitor address pin, reviewed coordinate provenance, stable Caldwell Park alias, and explicit renovation-evidence boundaries.",
         "Used the July 16, 2026 City notice as controlling access evidence: the park is open dawn to dusk and the splash pad is listed Tuesday through Sunday from 10 a.m. to 7 p.m., with no season end date stated.",
         "Kept the legacy park-directory amenity list separate from final-design and construction records rather than presenting planned or pre-renovation features as a current as-built inventory.",
-        "Ran four Openverse queries plus Wikimedia Commons exact-name and ten-kilometer geosearch review; accepted zero images and kept Marvin Caldwell Park behind the reusable-photo and as-built visitor-evidence gates."
+        "Ran four Openverse queries plus Wikimedia Commons exact-name and ten-kilometer geosearch review; accepted zero images and kept Marvin Caldwell Park behind the reusable-photo and as-built visitor-evidence gates.",
+        "Completed the Arnette Park source-format inventory record with the current 2165 Wilmington Highway / 28306 visitor address, City Park Points coordinate, reviewed position quality, and current public-use evidence.",
+        "Resolved the address conflict: the park parcel's 2161 Wilmington Highway situs is property context, while the legacy Old Wilmington Highway / 28301 form is superseded by current City visitor and GIS evidence.",
+        "Preserved current general hours as unresolved rather than carrying forward a 2013 seasonal schedule; retained the funded Cape Fear River Trail extension as future project evidence, not an open connection.",
+        "Ran four Openverse queries plus Wikimedia Commons exact-name and ten-kilometer geosearch review; accepted zero images and kept Arnette Park behind the current-hours and reusable-photo gates."
       ],
-      "nextAction": "Review the submitted Concord packet and mark it changes-requested or accepted as appropriate. Then claim one remaining open research-completion packet; do not reopen Cleveland-through-Boise releases or publish Marvin Caldwell Park until a current as-built amenity source, representative reusable media, and the complete launch-guide answer set clear review.",
+      "nextAction": "Review the submitted Fayetteville packet and mark it changes-requested or accepted as appropriate. Then claim one remaining open research-completion packet; do not reopen Cleveland-through-Boise releases or publish Arnette Park until current operator hours, representative reusable media, and the complete launch-guide answer set clear review.",
       "notReleased": true,
       "productionPublished": false
     }

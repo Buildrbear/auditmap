@@ -22,7 +22,6 @@ The production-sync queue is reserved for maintainers and repository integrators
 | Packet | Work type | Geography | Records |
 | --- | --- | --- | ---: |
 | `research-completion-nc-boone-01` | research-completion | NC / boone | 3 |
-| `research-completion-nc-fayetteville-01` | research-completion | NC / fayetteville | 1 |
 | `research-completion-nc-raleigh-01` | research-completion | NC / raleigh | 1 |
 
 ## Daily merge rule

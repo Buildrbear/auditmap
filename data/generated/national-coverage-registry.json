@@ -11,14 +11,14 @@
     "catalog": "data/generated/official-catalog.json",
     "catalogGeneratedAt": "2026-08-11T09:40:25.704Z",
     "gitBranch": "codex/fayetteville-arnette-research",
-    "gitCommit": "d6254bd90879ee1b41898bcfe6d9a194aeabb193"
+    "gitCommit": "0773e84ba650b906dabd6ba43b329936d1cb836b"
   },
   "spatialEvidence": {
     "registry": "data/spatial-source-registry.json",
     "checkedAt": "2026-08-17",
-    "registeredSources": 9,
+    "registeredSources": 10,
     "publicationApprovedSources": 1,
-    "reviewRequiredSources": 8
+    "reviewRequiredSources": 9
   },
   "summary": {
     "knownDestinations": 3393,
@@ -37700,10 +37700,10 @@
       "subsiteSlug": null,
       "name": "Arnette Park",
       "city": "Fayetteville",
-      "latitude": 35.004830264954,
-      "longitude": -78.857530550499,
-      "positionQuality": null,
-      "coordinateSource": "ArcGIS World Geocoding Service point-address match",
+      "latitude": 35.00498326957595,
+      "longitude": -78.85757840132553,
+      "positionQuality": "reviewed-official-park-point",
+      "coordinateSource": "City of Fayetteville Park Points GIS, OBJECTID 4",
       "releaseStatus": "blocked-review",
       "productionPresent": false,
       "localPresent": false,
@@ -37718,17 +37718,23 @@
           "city": "Fayetteville",
           "state": "NC",
           "managingAgency": "Fayetteville-Cumberland Parks and Recreation",
-          "checkedAt": "2026-08-13",
+          "checkedAt": "2026-08-20",
           "officialSources": [
-            "https://register.fcpr.us/wbwsc/webtrac.wsc/iteminfo.html?FMID=3305820&Module=FR"
+            "https://www.fayettevillenc.gov/Events/Drive-Thru-Christmas-in-the-Park",
+            "https://www.fayettevillenc.gov/Events/Drive-Thru-Christmas-in-the-Park",
+            "https://gismaps.ci.fayetteville.nc.us/opendata/rest/services/ParksRec/ParkPoints/MapServer/0/query?where=UPPER%28Park_Name%29%20LIKE%20%27%25ARNETTE%25%27&outFields=*&returnGeometry=true&outSR=4326&f=geojson",
+            "https://gismaps.ci.fayetteville.nc.us/opendata/rest/services/ParksRec/Parks/MapServer/0/query?where=UPPER%28Park_Name%29%20LIKE%20%27%25ARNETTE%25%27&outFields=*&returnGeometry=true&outSR=4326&f=geojson",
+            "https://www.fayettevillenc.gov/Parks-and-Recreation/Facilities/Rental-Fees-and-Usage-Charges",
+            "https://www.cumberlandcountync.gov/departments/public-information-group/public-information/news-releases/news-release-full-story/2026/01/16/cumberland-county-commissioners-jan.-15-agenda-session-wrap-up",
+            "https://www.fayettevillenc.gov/About-Fayetteville/Parks-Recreation"
           ],
           "handoffUrl": "https://keystone-accessibility-baseline.indierepo.chatgpt.site/auditmap-nc-parks-inventory/NC_MAJOR_PUBLIC_PARKS_INVENTORY.md",
           "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
           "reviewItems": [
             {
               "park_slug": "fayetteville-arnette-park",
-              "issue": "The official page uses Old Wilmington Highway and ZIP 28301; the coordinate service normalized the road to Wilmington Highway and returned ZIP 28306.",
-              "recommendation": "Retain the official FCPR address and verify the point against Cumberland County GIS before bulk import."
+              "issue": "The address and coordinate conflict is resolved by current City visitor and GIS evidence, but no current operator source with Arnette Park's general daily hours was found. The only explicit seasonal schedule located is from 2013.",
+              "recommendation": "Use 2165 Wilmington Highway, Fayetteville, NC 28306 and the official City park point; obtain current operator hours before launch-guide publication and do not carry forward the 2013 schedule."
             }
           ],
           "override": null
@@ -37754,8 +37760,8 @@
       "openReviewItems": [
         {
           "park_slug": "fayetteville-arnette-park",
-          "issue": "The official page uses Old Wilmington Highway and ZIP 28301; the coordinate service normalized the road to Wilmington Highway and returned ZIP 28306.",
-          "recommendation": "Retain the official FCPR address and verify the point against Cumberland County GIS before bulk import."
+          "issue": "The address and coordinate conflict is resolved by current City visitor and GIS evidence, but no current operator source with Arnette Park's general daily hours was found. The only explicit seasonal schedule located is from 2013.",
+          "recommendation": "Use 2165 Wilmington Highway, Fayetteville, NC 28306 and the official City park point; obtain current operator hours before launch-guide publication and do not carry forward the 2013 schedule."
         }
       ]
     },

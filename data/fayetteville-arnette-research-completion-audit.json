@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "packetId": "research-completion-nc-fayetteville-01",
+  "checkedAt": "2026-08-20",
+  "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+  "issueUrl": "https://github.com/Buildrbear/auditmap/issues/43",
+  "contributionTier": "inventory",
+  "outcome": "inventory-source-complete-hours-and-photo-gated",
+  "acceptedRecordIds": [
+    "/us/nc/fayetteville/parks/arnette-park"
+  ],
+  "publication": {
+    "generatedPages": 0,
+    "productionWrites": 0,
+    "reason": "The parent identity, current visitor address, and official park coordinate are source-complete, but current general hours and a representative reusable parent photograph set remain unresolved."
+  },
+  "records": [
+    {
+      "recordId": "/us/nc/fayetteville/parks/arnette-park",
+      "canonicalName": "Arnette Park",
+      "aliases": [],
+      "city": "Fayetteville",
+      "state": "NC",
+      "category": "large municipal-county recreation park",
+      "managingAgency": "Fayetteville-Cumberland Parks and Recreation",
+      "canonicalAddress": "2165 Wilmington Highway, Fayetteville, NC 28306",
+      "latitude": 35.00498326957595,
+      "longitude": -78.85757840132553,
+      "positionQuality": "reviewed-official-park-point",
+      "coordinateProvenance": {
+        "publisher": "City of Fayetteville GIS",
+        "service": "Park Points",
+        "objectId": 4,
+        "sourceUrl": "https://gismaps.ci.fayetteville.nc.us/opendata/rest/services/ParksRec/ParkPoints/MapServer/0/query?where=UPPER%28Park_Name%29%20LIKE%20%27%25ARNETTE%25%27&outFields=*&returnGeometry=true&outSR=4326&f=geojson",
+        "checkedAt": "2026-08-20"
+      },
+      "coordinateCrossCheck": {
+        "publisher": "City of Fayetteville",
+        "service": "Current event-location record",
+        "latitude": 35.0054729,
+        "longitude": -78.8568377,
+        "sourceUrl": "https://www.fayettevillenc.gov/Events/Drive-Thru-Christmas-in-the-Park",
+        "classification": "current official event-arrival pin within the park; the municipal Park Points record controls the parent reference coordinate"
+      },
+      "parcelContext": {
+        "publisher": "City of Fayetteville GIS",
+        "service": "Parks boundary",
+        "objectId": 39,
+        "facilityId": "ParkPoly4",
+        "nad83Pin": "0445-36-3834-",
+        "owner": "Cumberland County",
+        "propertySitus": "2161 Wilmington Highway",
+        "acreage": 100,
+        "sourceUrl": "https://gismaps.ci.fayetteville.nc.us/opendata/rest/services/ParksRec/Parks/MapServer/0/query?where=UPPER%28Park_Name%29%20LIKE%20%27%25ARNETTE%25%27&outFields=*&returnGeometry=true&outSR=4326&f=geojson",
+        "classification": "property-boundary evidence; the 2161 situs is not substituted for the current 2165 visitor address"
+      },
+      "verifiedFacts": [
+        {
+          "fact": "The current City event-location record identifies Arnette Park at 2165 Wilmington Highway, Fayetteville, NC 28306 and describes a 100-acre combination of developed facilities and natural woodland adjacent to the Cape Fear River.",
+          "sourceLabel": "City of Fayetteville Drive-Thru Christmas in the Park location record",
+          "sourceUrl": "https://www.fayettevillenc.gov/Events/Drive-Thru-Christmas-in-the-Park",
+          "checkedAt": "2026-08-20",
+          "freshness": "current City location record carrying a 2025 event schedule; use for identity, address, map pin, acreage, and setting, not current general park hours"
+        },
+        {
+          "fact": "The active City Park Points GIS record identifies Arnette Park at 2165 Wilmington Highway, classifies it as a community park, records 100 acres, and supplies the parent reference point used here.",
+          "sourceLabel": "City of Fayetteville Park Points GIS",
+          "sourceUrl": "https://gismaps.ci.fayetteville.nc.us/opendata/rest/services/ParksRec/ParkPoints/MapServer/0/query?where=UPPER%28Park_Name%29%20LIKE%20%27%25ARNETTE%25%27&outFields=*&returnGeometry=true&outSR=4326&f=geojson",
+          "checkedAt": "2026-08-20",
+          "freshness": "active municipal GIS service; individual attribute update dates are not published"
+        },
+        {
+          "fact": "The current City rental page lists Arnette Shelter 3 as a large shelter and Arnette Shelters 1, 2, and 4 as small shelters, with separate resident and non-resident rental fees.",
+          "sourceLabel": "City of Fayetteville rental fees and usage charges",
+          "sourceUrl": "https://www.fayettevillenc.gov/Parks-and-Recreation/Facilities/Rental-Fees-and-Usage-Charges",
+          "checkedAt": "2026-08-20",
+          "freshness": "current fee page; rates are expressly subject to change"
+        },
+        {
+          "fact": "In January 2026, Cumberland County reported a grant award for design of a Cape Fear River Trail extension from the current city limits to Arnette Park.",
+          "sourceLabel": "Cumberland County January 2026 agenda-session wrap-up",
+          "sourceUrl": "https://www.cumberlandcountync.gov/departments/public-information-group/public-information/news-releases/news-release-full-story/2026/01/16/cumberland-county-commissioners-jan.-15-agenda-session-wrap-up",
+          "checkedAt": "2026-08-20",
+          "freshness": "current project evidence; the future trail connection is not represented as open"
+        },
+        {
+          "fact": "The City parks directory identifies Arnette Park as the site of a Type B concession building at 2165 Wilmington Highway.",
+          "sourceLabel": "City of Fayetteville Parks and Recreation directory",
+          "sourceUrl": "https://www.fayettevillenc.gov/About-Fayetteville/Parks-Recreation",
+          "checkedAt": "2026-08-20",
+          "freshness": "current facility-directory evidence; it does not establish that concessions operate daily"
+        }
+      ],
+      "addressDecision": "Use 2165 Wilmington Highway, Fayetteville, NC 28306 as the current visitor address because the current City event record and municipal Park Points GIS agree. Treat the parcel's 2161 situs as property context and the legacy Old Wilmington Highway / 28301 form as superseded visitor-address evidence.",
+      "relationshipDecision": "Arnette Shelters 1 through 4 are reservable facilities within the parent park. They are not modeled as standalone destinations in this inventory packet. The planned Cape Fear River Trail extension is a future connection, not a current park subsite.",
+      "duplicateStatus": "no parent duplicate or supported alternate public entrance found",
+      "imageStatus": "photo-gated",
+      "accessStatus": "verified-active-public-use-current-hours-unresolved"
+    }
+  ],
+  "imageRightsReview": {
+    "openverse": {
+      "source": "Openverse API",
+      "queries": 4,
+      "reusableCandidates": 0,
+      "resultFile": "data/fayetteville-arnette-photo-research.json"
+    },
+    "wikimediaCommons": {
+      "method": "Exact-name search plus geosearch within 10 kilometers of the official municipal park point",
+      "outcome": "Results depicted other Fayetteville subjects, historic buildings, the airport, regional roads, event performers, and aerial rasters. No representative exact-destination photograph was accepted."
+    },
+    "officialSiteImages": {
+      "outcome": "City event pages display Christmas-event artwork and photographs without image-specific reuse terms. Seasonal event media is not a representative four-view parent set and was not treated as permission."
+    }
+  },
+  "sourceAccessReview": {
+    "browserEvidence": "Current City and County pages and the municipal ArcGIS REST services were publicly available on 2026-08-20.",
+    "commandLineHttp": "City and County HTML pages and both municipal GIS layers returned HTTP 200. The WebTrac item endpoint presented a Cloudflare challenge to direct requests, so current shelter facts are sourced to the accessible City fee page rather than inferred from the challenged page.",
+    "classification": "controlling public evidence available; WebTrac access difference documented without weakening the source record",
+    "nextCheck": "Recheck the City facility catalog, current alerts, and an operator hours source before a launch-guide assignment."
+  },
+  "reviewQueue": [
+    {
+      "place": "Arnette Park",
+      "fieldOrFeature": "current general park hours",
+      "conflictOrMissingEvidence": "Active public use is current, but no current operator source with Arnette Park's daily opening and closing times was found. A 2013 County health-assessment appendix contains seasonal hours but is too old to control publication.",
+      "sourcesChecked": [
+        "Current City parks and facility directories",
+        "Current City event and rental pages",
+        "Municipal Park Points GIS",
+        "2013 Cumberland County community health assessment"
+      ],
+      "recommendedNextAction": "Obtain current written operator confirmation or a current park-specific facility page; do not publish the 2013 seasonal schedule as current."
+    },
+    {
+      "place": "Arnette Park",
+      "fieldOrFeature": "parent photography",
+      "conflictOrMissingEvidence": "No four-view representative permission-cleared or openly licensed parent set was found.",
+      "sourcesChecked": [
+        "Openverse API",
+        "Wikimedia Commons exact-name and geosearch",
+        "City of Fayetteville pages"
+      ],
+      "recommendedNextAction": "Obtain four varied current reusable views of ordinary circulation, woodland, and major recreation areas, or written City permission for exact-location photographs."
+    },
+    {
+      "place": "Arnette Park",
+      "fieldOrFeature": "launch-guide visitor intents and amenity freshness",
+      "conflictOrMissingEvidence": "The municipal GIS carries a broad amenity list without per-attribute update dates. Current parking, entrances, restrooms, fees outside rentals, accessibility routes, dog rules, family fit, transit, river/flood exposure, concession operation, field availability, and facility-specific schedules are not source-complete.",
+      "sourcesChecked": [
+        "Municipal park point and boundary GIS",
+        "Current City event, rental, parks, and facility pages",
+        "Current County trail-project notice"
+      ],
+      "recommendedNextAction": "Assign a separate launch-guide packet after the hours and photo gates clear, then verify every recurring visitor intent and current amenity against park-specific operator evidence."
+    }
+  ],
+  "risks": [
+    "Using the parcel's 2161 situs, the legacy Old Wilmington Highway form, or ZIP 28301 as the current visitor address would contradict current City visitor and GIS evidence.",
+    "The 2013 seasonal schedule is too old to publish as current general hours.",
+    "Undated municipal GIS amenities establish inventory context but not daily operating availability.",
+    "The funded Cape Fear River Trail extension is not yet represented as an open connection.",
+    "City hosting does not establish image reuse rights.",
+    "No private visitor data, precise visitor-location logs, paid API calls, dependencies, generated pages, or production writes are included."
+  ]
+}

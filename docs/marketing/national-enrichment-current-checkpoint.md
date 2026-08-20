@@ -4,26 +4,28 @@ Last updated: 2026-08-20
 
 ## Current State
 
-- Status: the exact Concord Marvin Caldwell Park research-completion packet is source-complete at inventory tier and remains photo-and-as-built-gated. The prior Boise release remains generated, release-verified, responsive-layout-verified, and hosted-preview-verified with all 55 campaign verifiers passing.
-- Working branch: `codex/concord-marvin-caldwell-research`, stacked on the submitted Asheville and Greensboro packets and the national registry follow-on to `codex/boise-evidence-gate`
-- Assignment: OpenTask project `https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6`, GitHub issue #41, packet `research-completion-nc-concord-01`
-- Outcome: Marvin Caldwell Park now has a stable parent identity and alias, current official address and City-published visitor pin, checked sources, reviewed position quality, explicit current reopening evidence, renovation-evidence boundaries, and image/as-built review queues.
-- Access decision: the City's July 16, 2026 notice explicitly says the park reopened after extensive renovations, with park hours dawn to dusk and splash-pad hours Tuesday-Sunday, 10 a.m.-7 p.m. The notice does not state a splash-pad season end date.
-- Publication decision: no Concord parent or destination page is generated. Four Openverse queries and Wikimedia Commons review produced no representative reusable parent set; the legacy directory and planned/contracted renovation records were not merged into an unsupported current as-built amenity list.
+- Status: the exact Fayetteville Arnette Park research-completion packet is source-complete at inventory tier and remains hours-and-photo-gated. The prior Boise release remains generated, release-verified, responsive-layout-verified, and hosted-preview-verified with all 55 campaign verifiers passing.
+- Working branch: `codex/fayetteville-arnette-research`, stacked on the submitted Concord, Asheville, and Greensboro packets and the national registry follow-on to `codex/boise-evidence-gate`
+- Assignment: OpenTask project `https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6`, GitHub issue #43, packet `research-completion-nc-fayetteville-01`
+- Outcome: Arnette Park now has a stable parent identity, current 2165 Wilmington Highway / 28306 visitor address, official City Park Points coordinate, reviewed position quality, a resolved visitor-versus-parcel address decision, current public-use evidence, and image/hours review queues.
+- Access decision: current City rentals, the December 2025 public event record, and the January 2026 County trail-extension action establish active public use. No current park-specific general-hours source was found, so the 2013 seasonal schedule remains historical evidence only.
+- Publication decision: no Fayetteville parent or destination page is generated. Four Openverse queries and Wikimedia Commons review produced no representative reusable parent set; undated GIS amenities were not treated as current daily availability.
 - Production status: not merged or promoted to production.
 - Canonical machine-readable checkpoint: `data/us-priority-enrichment-queue.json` under `activeCluster.resumeCheckpoint`.
 
-The Cleveland-through-Boise batches and the submitted Greensboro and Asheville inventory packets remain complete at their previous checkpoints. The Concord inventory packet does not change their evidence decisions or reopen retired destinations.
+The Cleveland-through-Boise batches and the submitted Greensboro, Asheville, and Concord inventory packets remain complete at their previous checkpoints. The Fayetteville inventory packet does not change their evidence decisions or reopen retired destinations.
 
 ## Resume Point
 
-Do not repeat completed batches unless review finds a specific defect or new evidence changes a deferred decision. On this stacked line, Chesapeake Bay, Greensboro, Asheville, and Concord are reserved as submitted work; Boone, Fayetteville, and Raleigh remain genuinely open research-completion packets.
+Do not repeat completed batches unless review finds a specific defect or new evidence changes a deferred decision. On this stacked line, Chesapeake Bay, Greensboro, Asheville, Concord, and Fayetteville are reserved as submitted work; Boone and Raleigh remain genuinely open research-completion packets.
 
-The Concord claim is submitted in PR #42. If review requests changes, change it to `changes-requested`; if accepted, retain Marvin Caldwell Park at inventory tier until a current as-built amenity source, four varied representative reusable photographs, and the complete recurring visitor-answer set justify a separate launch-guide assignment. Then claim one remaining exact research packet from the generated queue.
+The Fayetteville claim is submitted in its packet PR. If review requests changes, change it to `changes-requested`; if accepted, retain Arnette Park at inventory tier until current operator hours, four varied representative reusable photographs, and the complete recurring visitor-answer set justify a separate launch-guide assignment. Then claim one remaining exact research packet from the generated queue.
 
 Keep the Azalea Park access conflict open. Recheck the City structured location record, normal visitor page, current recovery project, and an explicit operator area-status source before publishing hours or arrival guidance. Keep Azalea Dog Park as a related facility rather than duplicating or substituting it for the parent.
 
 Keep Marvin Caldwell Park's source classes separate. The July 2026 reopening notice controls current access and hours; the general park directory is legacy amenity evidence, and the Council/design and construction records do not by themselves prove a complete current as-built inventory. Recheck the splash-pad season and named-facility schedules before visitor publication.
+
+Keep Arnette Park's resolved address classes separate. The current visitor address is 2165 Wilmington Highway, Fayetteville, NC 28306; the park parcel's 2161 situs is property context, and the legacy Old Wilmington Highway / 28301 form is not a public entrance. Obtain current operator hours and recheck GIS amenities before visitor publication; do not present the funded trail extension as open.
 
 Keep Barber and Hester Parks in the deferred-photo queue until each has four varied representative permission-cleared views. Keep T.Y. Park, Tree Tops Park, and Vista View Park in the deferred-photo queue until each has three to four representative permission-cleared views. Keep Olbrich Park in review until at least two additional representative reusable park views are available. Riverside Park in Grand Rapids remains parent-only until a destination-specific photo, exact pin, and current destination profile clear together. North Point State Park's conflicting official opening times and visitor-center schedules, Crystal Pier damage, Trolley Station Pavilion renovation, seasonal Sandy Point reservations and swimming operations, Key Bridge routing, seasonal Millennium beach and splashpad operations, Riverside kayaking and flooding, North Point Lighthouse schedules, Vilas beach conditions, Madison restroom closures, Castaway Island's seasonal schedule, Vista View capital projects, Josephine Fountain operation, and Rockford Tower access remain freshness risks requiring operator rechecks.
 
