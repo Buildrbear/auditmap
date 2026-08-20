@@ -11,14 +11,14 @@
     "catalog": "data/generated/official-catalog.json",
     "catalogGeneratedAt": "2026-08-11T09:40:25.704Z",
     "gitBranch": "codex/concord-marvin-caldwell-research",
-    "gitCommit": "fdb557ac61e14adb0ac65d5d6b9461cd853f6162"
+    "gitCommit": "63d28127eb1e0fa638ec4ea418b5b1053aad0d72"
   },
   "spatialEvidence": {
     "registry": "data/spatial-source-registry.json",
     "checkedAt": "2026-08-17",
-    "registeredSources": 8,
+    "registeredSources": 9,
     "publicationApprovedSources": 1,
-    "reviewRequiredSources": 7
+    "reviewRequiredSources": 8
   },
   "summary": {
     "knownDestinations": 3393,
@@ -27,12 +27,12 @@
     "liveSubsitePages": 2477,
     "hopper": 11,
     "generatedLocallyNotLive": 2,
-    "researchOnly": 3,
-    "blockedReview": 6,
+    "researchOnly": 2,
+    "blockedReview": 7,
     "productionMissingFromLocal": 0,
     "recordsWithResearchHandoffs": 50,
     "mappableDestinations": 2905,
-    "openReviewItems": 7
+    "openReviewItems": 8
   },
   "records": [
     {
@@ -36852,11 +36852,11 @@
       "subsiteSlug": null,
       "name": "Marvin Caldwell Park",
       "city": "Concord",
-      "latitude": 35.393811,
-      "longitude": -80.58366,
-      "positionQuality": null,
-      "coordinateSource": "OpenStreetMap Nominatim facility match",
-      "releaseStatus": "research-only",
+      "latitude": 35.394773,
+      "longitude": -80.583631,
+      "positionQuality": "reviewed-official-address-map-pin",
+      "coordinateSource": "City of Concord park-directory address map link",
+      "releaseStatus": "blocked-review",
       "productionPresent": false,
       "localPresent": false,
       "reconciliationFlags": [
@@ -36870,13 +36870,24 @@
           "city": "Concord",
           "state": "NC",
           "managingAgency": "City of Concord Parks & Recreation",
-          "checkedAt": "2026-08-13",
+          "checkedAt": "2026-08-20",
           "officialSources": [
-            "https://concordnc.gov/Departments/Parks-Recreation/Parks"
+            "https://concordnc.gov/Departments/Parks-Recreation/News-Updates/ID/450/MARVIN-CALDWELL-PARK-NOW-OPEN",
+            "https://concordnc.gov/Departments/Parks-Recreation/News-Updates/ID/450/MARVIN-CALDWELL-PARK-NOW-OPEN",
+            "https://concordnc.gov/Departments/Parks-Recreation/Parks",
+            "https://concordnc.gov/Portals/0/Concord/Departments/Clerk/Council%20Minutes/2023-11-09%20%20.pdf?ver=Jb3FIQhyCBBmZfk_LeWLcw%3D%3D",
+            "https://concordnc.gov/Portals/0/Concord/Departments/Clerk/Council%20Minutes/10124/2024-10-10.pdf?ver=XIkLzI8TIJ1DsK_DJ6RzKw%3D%3D",
+            "https://concordnc.gov/Facilities"
           ],
           "handoffUrl": "https://keystone-accessibility-baseline.indierepo.chatgpt.site/auditmap-nc-parks-inventory/NC_MAJOR_PUBLIC_PARKS_INVENTORY.md",
           "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
-          "reviewItems": [],
+          "reviewItems": [
+            {
+              "park_slug": "concord-marvin-caldwell-park",
+              "issue": "The July 2026 reopening notice confirms the park and splash-pad schedule but does not enumerate every current amenity. The general parks directory still presents the pre-renovation configuration, while planning and contract records describe intended or contracted improvements rather than a complete as-built inventory.",
+              "recommendation": "Use the reopening notice for current access and hours only. Obtain a current operator as-built amenity list and recheck the splash-pad season before launch-guide publication."
+            }
+          ],
           "override": null
         },
         {
@@ -36897,7 +36908,13 @@
           "override": null
         }
       ],
-      "openReviewItems": []
+      "openReviewItems": [
+        {
+          "park_slug": "concord-marvin-caldwell-park",
+          "issue": "The July 2026 reopening notice confirms the park and splash-pad schedule but does not enumerate every current amenity. The general parks directory still presents the pre-renovation configuration, while planning and contract records describe intended or contracted improvements rather than a complete as-built inventory.",
+          "recommendation": "Use the reopening notice for current access and hours only. Obtain a current operator as-built amenity list and recheck the splash-pad season before launch-guide publication."
+        }
+      ]
     },
     {
       "id": "/us/nc/concord/parks/mceachern-greenway",

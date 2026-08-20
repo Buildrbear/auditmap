@@ -9,6 +9,14 @@
   },
   "recentlyCompleted": [
     {
+      "name": "Concord Marvin Caldwell Park research completion",
+      "inventoryRecords": 1,
+      "resolvedOfficialCoordinates": 1,
+      "licensedPhotos": 0,
+      "publishedParents": 0,
+      "status": "source-record-complete-photo-and-as-built-gated"
+    },
+    {
       "name": "Asheville Azalea Park research completion",
       "inventoryRecords": 1,
       "resolvedOfficialCoordinates": 1,
@@ -274,11 +282,11 @@
     }
   ],
   "activeCluster": {
-    "name": "Asheville Azalea Park research completion",
-    "reason": "The corrected national claim ledger identified Azalea Park as one exact Asheville inventory packet. Current City records establish the parent identity and official visitor pin, while the Helene access status and reusable parent photography remain unresolved.",
-    "releaseStandard": "Complete the inventory record with current official sources, reviewed coordinate provenance, parent-versus-facility relationships, recovery-status evidence, image-rights findings, and explicit unresolved questions. Do not promote the record to a launch guide until an explicit current open-area statement, representative reusable media, and the complete recurring visitor-answer set clear review.",
-    "status": "asheville-azalea-source-record-complete-access-and-photo-gated",
-    "metros": ["Asheville"],
+    "name": "Concord Marvin Caldwell Park research completion",
+    "reason": "The national claim ledger identified Marvin Caldwell Park as one exact Concord inventory packet. The July 2026 City reopening notice resolves current parent access, while the complete as-built amenity inventory and representative reusable photography remain unresolved.",
+    "releaseStandard": "Complete the inventory record with current official sources, reviewed coordinate provenance, explicit reopening evidence, renovation-evidence boundaries, image-rights findings, and unresolved questions. Do not promote the record to a launch guide until a current as-built amenity source, representative reusable media, and the complete recurring visitor-answer set clear review.",
+    "status": "concord-marvin-caldwell-source-record-complete-photo-and-as-built-gated",
+    "metros": ["Concord"],
     "resumeCheckpoint": {
       "pausedAt": "2026-08-20",
       "completed": [
@@ -460,9 +468,13 @@
         "Completed the Azalea Park source-format inventory record with the current City address, official visitor pin, reviewed coordinate provenance, checked sources, and explicit parent-versus-facility relationships.",
         "Preserved the current Azalea Park access conflict: standard hours remain published, but the latest explicit area-status notice found closes every area except John B. Lewis Soccer Complex and the July 2026 recovery project remains active.",
         "Registered the City of Asheville structured location directory and Park Info Points GIS for official coordinate and relationship provenance without treating hosted media as reuse permission.",
-        "Ran four Openverse queries plus Wikimedia Commons exact-name and ten-kilometer geosearch review; accepted zero images and kept Azalea Park behind both the access and reusable-photo gates."
+        "Ran four Openverse queries plus Wikimedia Commons exact-name and ten-kilometer geosearch review; accepted zero images and kept Azalea Park behind both the access and reusable-photo gates.",
+        "Completed the Marvin Caldwell Park source-format inventory record with the current City reopening notice, official visitor address pin, reviewed coordinate provenance, stable Caldwell Park alias, and explicit renovation-evidence boundaries.",
+        "Used the July 16, 2026 City notice as controlling access evidence: the park is open dawn to dusk and the splash pad is listed Tuesday through Sunday from 10 a.m. to 7 p.m., with no season end date stated.",
+        "Kept the legacy park-directory amenity list separate from final-design and construction records rather than presenting planned or pre-renovation features as a current as-built inventory.",
+        "Ran four Openverse queries plus Wikimedia Commons exact-name and ten-kilometer geosearch review; accepted zero images and kept Marvin Caldwell Park behind the reusable-photo and as-built visitor-evidence gates."
       ],
-      "nextAction": "Review submitted PR #40 and mark the Azalea Park packet changes-requested or accepted as appropriate. Then claim one remaining open research-completion packet; do not reopen Cleveland-through-Boise releases or publish Azalea Park until explicit current area access, representative reusable media, and the complete launch-guide answer set clear review.",
+      "nextAction": "Review the submitted Concord packet and mark it changes-requested or accepted as appropriate. Then claim one remaining open research-completion packet; do not reopen Cleveland-through-Boise releases or publish Marvin Caldwell Park until a current as-built amenity source, representative reusable media, and the complete launch-guide answer set clear review.",
       "notReleased": true,
       "productionPublished": false
     }

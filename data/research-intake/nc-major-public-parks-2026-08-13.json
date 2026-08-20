@@ -296,20 +296,61 @@
       "city": "Concord",
       "state": "NC",
       "address": "362 Georgia Avenue SW, Concord, NC 28025",
-      "latitude": 35.393811,
-      "longitude": -80.58366,
+      "latitude": 35.394773,
+      "longitude": -80.583631,
       "managing_agency": "City of Concord Parks & Recreation",
-      "official_source_url": "https://concordnc.gov/Departments/Parks-Recreation/Parks",
-      "why_major": "A 24-acre community park with amphitheater, fields, courts, and gathering space.",
+      "official_source_url": "https://concordnc.gov/Departments/Parks-Recreation/News-Updates/ID/450/MARVIN-CALDWELL-PARK-NOW-OPEN",
+      "why_major": "A 24-acre City community park reopened after extensive renovations, with a current splash pad schedule and a documented multi-use recreation role.",
       "evidence_factors": [
         "24 acres",
-        "amphitheater",
-        "athletic facilities"
+        "reopened after extensive renovations",
+        "splash pad"
       ],
-      "coordinate_source": "OpenStreetMap Nominatim facility match",
-      "coordinate_source_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&countrycodes=us&q=Marvin%20Caldwell%20Park%2C%20Concord%2C%20NC",
-      "coordinate_precision": "facility point",
-      "source_checked_at": "2026-08-13"
+      "coordinate_source": "City of Concord park-directory address map link",
+      "coordinate_source_url": "https://www.google.com/maps/place/362+Georgia+St+SW,+Concord,+NC+28025/@35.394773,-80.5858197,17z/data=!3m1!4b1!4m5!3m4!1s0x88540e4a09cf3c5d:0xa976ed664ff78d22!8m2!3d35.394773!4d-80.583631",
+      "coordinate_precision": "official visitor address pin",
+      "position_quality": "reviewed-official-address-map-pin",
+      "alternate_names": [
+        "Caldwell Park"
+      ],
+      "current_access_review": {
+        "status": "verified-open-fast-changing-splash-schedule",
+        "finding": "The City explicitly announced on 2026-07-16 that Marvin Caldwell Park reopened after extensive renovations. The notice gives park hours of dawn to dusk and splash-pad hours of Tuesday through Sunday, 10 a.m. to 7 p.m., but does not publish a season end date or a complete current amenity inventory.",
+        "publication_rule": "Use the reopening notice for access and hours. Recheck the splash-pad schedule and obtain a current as-built amenity list before any launch-guide publication."
+      },
+      "source_reconciliation": {
+        "status": "legacy-directory-amenities-not-currently-controlling",
+        "finding": "The park directory still lists the pre-renovation amenity configuration. City Council's final-design record and later construction materials document changes, while the reopening notice confirms extensive renovations without enumerating every completed feature.",
+        "publication_rule": "Do not combine the legacy directory list with planned construction features into an unsupported current amenity inventory."
+      },
+      "sources": [
+        {
+          "label": "City of Concord Marvin Caldwell Park reopening notice",
+          "url": "https://concordnc.gov/Departments/Parks-Recreation/News-Updates/ID/450/MARVIN-CALDWELL-PARK-NOW-OPEN",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of Concord parks directory",
+          "url": "https://concordnc.gov/Departments/Parks-Recreation/Parks",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of Concord November 2023 final-design approval record",
+          "url": "https://concordnc.gov/Portals/0/Concord/Departments/Clerk/Council%20Minutes/2023-11-09%20%20.pdf?ver=Jb3FIQhyCBBmZfk_LeWLcw%3D%3D",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of Concord October 2024 construction-contract record",
+          "url": "https://concordnc.gov/Portals/0/Concord/Departments/Clerk/Council%20Minutes/10124/2024-10-10.pdf?ver=XIkLzI8TIJ1DsK_DJ6RzKw%3D%3D",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of Concord facilities directory for Daniel Pharr Community Building",
+          "url": "https://concordnc.gov/Facilities",
+          "checkedAt": "2026-08-20"
+        }
+      ],
+      "source_checked_at": "2026-08-20"
     },
     {
       "slug": "durham-west-point-on-the-eno",
@@ -772,6 +813,11 @@
       "park_slug": "asheville-azalea-park",
       "issue": "The City location record was modified on 2026-08-20 and publishes standard hours without a reopening statement, while the latest explicit area-status notice found says John B. Lewis Soccer Complex is open and all other areas of Azalea Park are closed; the July 2026 recovery project remains active.",
       "recommendation": "Keep the parent blocked from launch-guide publication until the operator explicitly identifies currently open park areas; do not infer reopening from standard hours."
+    },
+    {
+      "park_slug": "concord-marvin-caldwell-park",
+      "issue": "The July 2026 reopening notice confirms the park and splash-pad schedule but does not enumerate every current amenity. The general parks directory still presents the pre-renovation configuration, while planning and contract records describe intended or contracted improvements rather than a complete as-built inventory.",
+      "recommendation": "Use the reopening notice for current access and hours only. Obtain a current operator as-built amenity list and recheck the splash-pad season before launch-guide publication."
     }
   ]
 }

@@ -168,6 +168,33 @@
         "assuming GIS image links grant reuse rights"
       ],
       "checkedAt": "2026-08-20"
+    },
+    {
+      "id": "concord-parks-directory-map-links",
+      "publisher": "City of Concord Parks & Recreation",
+      "geography": "Concord, North Carolina",
+      "serviceUrl": "https://concordnc.gov/Departments/Parks-Recreation/Parks",
+      "layers": [
+        {
+          "id": "park-directory",
+          "name": "Published municipal park directory and address map links",
+          "geometryRole": "official visitor address, map-pin coordinate provenance, parent identity, and legacy amenity reference"
+        }
+      ],
+      "spatialReference": "EPSG:4326 coordinates encoded in the official outbound address-map link",
+      "authorityClass": "municipal-official",
+      "licenseStatus": "publisher-terms-review-required",
+      "approvedUses": [
+        "official place identity",
+        "official visitor-address verification",
+        "coordinate provenance"
+      ],
+      "prohibitedUntilApproved": [
+        "bulk public redistribution",
+        "treating pre-renovation amenity text as a current as-built inventory",
+        "assuming site images have reuse permission"
+      ],
+      "checkedAt": "2026-08-20"
     }
   ]
 }
