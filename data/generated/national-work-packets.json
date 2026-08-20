@@ -128,7 +128,7 @@
       "type": "research-completion",
       "state": "NC",
       "citySlug": "concord",
-      "status": "claimed",
+      "status": "submitted",
       "claim": {
         "packetId": "research-completion-nc-concord-01",
         "assignee": "Buildrbear",
@@ -137,8 +137,18 @@
         "claimedAt": "2026-08-20",
         "expiresAt": "2026-08-27",
         "lastUpdatedAt": "2026-08-20",
-        "status": "claimed",
-        "notes": "Inventory-tier completion for Marvin Caldwell Park only; replace unreviewed coordinate evidence with authoritative public sources and do not generate a page without a separate launch-guide assignment."
+        "status": "submitted",
+        "submissionUrl": "https://github.com/Buildrbear/auditmap/pull/42",
+        "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/42",
+        "acceptedRecordIds": [
+          "/us/nc/concord/parks/marvin-caldwell-park"
+        ],
+        "reviewQueue": [
+          "Obtain a current operator as-built amenity list; do not merge legacy directory features with planned or contracted renovation scope.",
+          "Obtain four varied representative reusable parent photographs or documented City reuse permission.",
+          "Complete the recurring visitor-answer set and recheck the splash-pad season and named-facility schedules only under a separate launch-guide assignment."
+        ],
+        "notes": "Inventory record, current reopening evidence, and official visitor-coordinate provenance are submitted in PR #42. The parent remains photo-and-as-built-gated with no generated page."
       },
       "count": 1,
       "recordIds": [

@@ -19,7 +19,7 @@ The Cleveland-through-Boise batches and the submitted Greensboro and Asheville i
 
 Do not repeat completed batches unless review finds a specific defect or new evidence changes a deferred decision. On this stacked line, Chesapeake Bay, Greensboro, Asheville, and Concord are reserved as submitted work; Boone, Fayetteville, and Raleigh remain genuinely open research-completion packets.
 
-The Concord claim is submitted in its packet PR. If review requests changes, change it to `changes-requested`; if accepted, retain Marvin Caldwell Park at inventory tier until a current as-built amenity source, four varied representative reusable photographs, and the complete recurring visitor-answer set justify a separate launch-guide assignment. Then claim one remaining exact research packet from the generated queue.
+The Concord claim is submitted in PR #42. If review requests changes, change it to `changes-requested`; if accepted, retain Marvin Caldwell Park at inventory tier until a current as-built amenity source, four varied representative reusable photographs, and the complete recurring visitor-answer set justify a separate launch-guide assignment. Then claim one remaining exact research packet from the generated queue.
 
 Keep the Azalea Park access conflict open. Recheck the City structured location record, normal visitor page, current recovery project, and an explicit operator area-status source before publishing hours or arrival guidance. Keep Azalea Dog Park as a related facility rather than duplicating or substituting it for the parent.
 
