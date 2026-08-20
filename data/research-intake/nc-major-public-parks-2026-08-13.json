@@ -421,20 +421,48 @@
       "city": "Greensboro",
       "state": "NC",
       "address": "3615 Deutzia Street, Greensboro, NC 27407",
-      "latitude": 36.0183161,
-      "longitude": -79.8587741,
+      "latitude": 36.0170663,
+      "longitude": -79.85690298,
       "managing_agency": "City of Greensboro Parks & Recreation",
       "official_source_url": "https://www.greensboro-nc.gov/departments/parks-recreation/parks-gardens/hester-park",
+      "aliases": [
+        "Hester Park"
+      ],
+      "secondary_entrances": [
+        {
+          "name": "Athletic fields entrance",
+          "address": "800 Ailanthus Street, Greensboro, NC 27407",
+          "source": "https://www.greensboro-nc.gov/departments/parks-recreation/parks-gardens/hester-park"
+        }
+      ],
       "why_major": "One of Greensboro's regional parks, with lake, athletics, trails, and event capacity.",
       "evidence_factors": [
         "regional-park classification",
         "lake and trails",
         "athletic/event facilities"
       ],
-      "coordinate_source": "OpenStreetMap Nominatim street match",
-      "coordinate_source_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&countrycodes=us&q=3615%20Deutzia%20Street%2C%20Greensboro%2C%20NC",
-      "coordinate_precision": "street-level; review recommended",
-      "source_checked_at": "2026-08-13"
+      "coordinate_source": "City of Greensboro GIS address point OBJECTID 10915",
+      "coordinate_source_url": "https://gis.greensboro-nc.gov/arcgis/rest/services/GISDivision/GSONearMe/MapServer/0/query?where=ADDRESS%20LIKE%20%27%253615%25DEUTZIA%25%27&outFields=OBJECTID%2CADDRESS%2CZIPCODE%2CLatitude%2CLongitude%2CPark1%2CPark2%2CPark3&returnGeometry=true&outSR=4326&f=pjson",
+      "coordinate_precision": "official municipal address point for the canonical Deutzia Street park-office address",
+      "position_quality": "reviewed-official-address-point",
+      "sources": [
+        {
+          "label": "City of Greensboro Hester Park visitor page",
+          "url": "https://www.greensboro-nc.gov/departments/parks-recreation/parks-gardens/hester-park",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of Greensboro park polygon and attributes",
+          "url": "https://gis.greensboro-nc.gov/arcgis/rest/services/ParksRec/PD_2_MS/MapServer/4",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "Greensboro accessible outdoor amenities",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/51653/637786388434100000",
+          "checkedAt": "2026-08-20"
+        }
+      ],
+      "source_checked_at": "2026-08-20"
     },
     {
       "slug": "greensboro-jimmie-i-barber-park",
@@ -442,20 +470,41 @@
       "city": "Greensboro",
       "state": "NC",
       "address": "1500 Barber Park Drive, Greensboro, NC 27401",
-      "latitude": 36.051284599142,
-      "longitude": -79.751432360965,
+      "latitude": 36.05127041,
+      "longitude": -79.75142641,
       "managing_agency": "City of Greensboro Parks & Recreation",
       "official_source_url": "https://www.greensboro-nc.gov/departments/parks-recreation/parks-gardens/barber-park",
+      "aliases": [
+        "Barber Park"
+      ],
       "why_major": "Regional multipurpose park with stadium, indoor sports pavilion, amphitheater, disc golf, and event center.",
       "evidence_factors": [
         "stadium and sports pavilion",
         "amphitheater",
         "multiple citywide attractions"
       ],
-      "coordinate_source": "ArcGIS World Geocoding Service point-address match",
-      "coordinate_source_url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=1500%20Barber%20Park%20Drive%2C%20Greensboro%2C%20NC%2027401&f=pjson&outFields=Match_addr,Addr_type&maxLocations=1",
-      "coordinate_precision": "point address",
-      "source_checked_at": "2026-08-13"
+      "coordinate_source": "City of Greensboro GIS address point OBJECTID 47795",
+      "coordinate_source_url": "https://gis.greensboro-nc.gov/arcgis/rest/services/GISDivision/GSONearMe/MapServer/0/query?where=ADDRESS%20LIKE%20%27%251500%25BARBER%25PARK%25%27&outFields=OBJECTID%2CADDRESS%2CZIPCODE%2CLatitude%2CLongitude%2CPark1%2CPark2%2CPark3&returnGeometry=true&outSR=4326&f=pjson",
+      "coordinate_precision": "official municipal address point for 1500 Barber Park Drive",
+      "position_quality": "reviewed-official-address-point",
+      "sources": [
+        {
+          "label": "City of Greensboro parks and gardens directory",
+          "url": "https://www.greensboro-nc.gov/departments/parks-recreation/parks-gardens",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of Greensboro park polygon and attributes",
+          "url": "https://gis.greensboro-nc.gov/arcgis/rest/services/ParksRec/PD_2_MS/MapServer/4",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "Greensboro accessible outdoor amenities",
+          "url": "https://www.greensboro-nc.gov/home/showpublisheddocument/51653/637786388434100000",
+          "checkedAt": "2026-08-20"
+        }
+      ],
+      "source_checked_at": "2026-08-20"
     },
     {
       "slug": "greenville-river-park-north",
@@ -662,11 +711,6 @@
       "park_slug": "chapel-hill-homestead-park",
       "issue": "The current Skate Park page uses 100 Aquatic Drive; an older Town shelter sheet uses 100 Northern Park Drive.",
       "recommendation": "Model these as campus entrances/aliases, not duplicate parks."
-    },
-    {
-      "park_slug": "greensboro-oka-t-hester-park",
-      "issue": "The park page lists 3615 Deutzia Street; a City mobile-food-unit sheet uses 800 Ailanthus Street for an athletic-field entrance.",
-      "recommendation": "Keep 3615 Deutzia Street canonical and record 800 Ailanthus Street as a secondary entrance."
     },
     {
       "park_slug": "fayetteville-arnette-park",

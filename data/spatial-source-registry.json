@@ -60,6 +60,61 @@
       "approvedUses": ["subsite identity", "coordinate provenance"],
       "prohibitedUntilApproved": ["assuming attachment reuse rights from hosting alone"],
       "checkedAt": "2026-08-17"
+    },
+    {
+      "id": "greensboro-piedmont-discovery-parks",
+      "publisher": "City of Greensboro Parks and Recreation",
+      "geography": "Greensboro and Guilford County, North Carolina",
+      "serviceUrl": "https://gis.greensboro-nc.gov/arcgis/rest/services/ParksRec/PiedmontDiscovery_MS/MapServer",
+      "layers": [
+        {
+          "id": 0,
+          "name": "Park Facilities",
+          "geometryRole": "official facility identity, position, status, reservation, and accessibility attributes"
+        },
+        {
+          "id": 4,
+          "name": "Parks",
+          "geometryRole": "official park identity, boundary, address, reference point, ownership, and management attributes"
+        }
+      ],
+      "spatialReference": "EPSG:3857 with query projection to EPSG:4326",
+      "authorityClass": "municipal-official",
+      "licenseStatus": "publisher-terms-review-required",
+      "approvedUses": [
+        "official-source verification",
+        "parent and facility coordinate provenance",
+        "canonical and secondary entrance classification"
+      ],
+      "prohibitedUntilApproved": [
+        "bulk public redistribution",
+        "assuming GIS attributes grant image reuse rights"
+      ],
+      "checkedAt": "2026-08-20"
+    },
+    {
+      "id": "greensboro-address-points-near-me",
+      "publisher": "City of Greensboro GIS Division",
+      "geography": "Greensboro, North Carolina",
+      "serviceUrl": "https://gis.greensboro-nc.gov/arcgis/rest/services/GISDivision/GSONearMe/MapServer/0",
+      "layers": [
+        {
+          "id": 0,
+          "name": "GSONearMe Points",
+          "geometryRole": "official address-point verification for practical public arrival addresses"
+        }
+      ],
+      "spatialReference": "EPSG:4326",
+      "authorityClass": "municipal-official",
+      "licenseStatus": "publisher-terms-review-required",
+      "approvedUses": [
+        "official address verification",
+        "coordinate provenance"
+      ],
+      "prohibitedUntilApproved": [
+        "bulk public redistribution"
+      ],
+      "checkedAt": "2026-08-20"
     }
   ]
 }

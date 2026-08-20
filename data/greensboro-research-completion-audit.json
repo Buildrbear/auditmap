@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "packetId": "research-completion-nc-greensboro-01",
+  "checkedAt": "2026-08-20",
+  "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+  "issueUrl": "https://github.com/Buildrbear/auditmap/issues/37",
+  "contributionTier": "inventory",
+  "outcome": "source-records-complete-launch-guides-photo-gated",
+  "acceptedRecordIds": [
+    "/us/nc/greensboro/parks/jimmie-i-barber-park",
+    "/us/nc/greensboro/parks/oka-t-hester-park"
+  ],
+  "publication": {
+    "generatedPages": 0,
+    "productionWrites": 0,
+    "reason": "Neither parent has a representative reusable image set. The packet completes inventory evidence and resolves the Hester entrance conflict without promoting either record to a launch guide."
+  },
+  "records": [
+    {
+      "recordId": "/us/nc/greensboro/parks/jimmie-i-barber-park",
+      "canonicalName": "Jimmie I. Barber Park",
+      "aliases": [
+        "Barber Park"
+      ],
+      "city": "Greensboro",
+      "state": "NC",
+      "category": "regional public park",
+      "managingAgency": "City of Greensboro Parks and Recreation",
+      "canonicalAddress": "1500 Barber Park Drive, Greensboro, NC 27401",
+      "latitude": 36.05127041,
+      "longitude": -79.75142641,
+      "positionQuality": "reviewed-official-address-point",
+      "coordinateProvenance": {
+        "publisher": "City of Greensboro GIS Division",
+        "service": "GSONearMe Points",
+        "objectId": 47795,
+        "sourceUrl": "https://gis.greensboro-nc.gov/arcgis/rest/services/GISDivision/GSONearMe/MapServer/0/query?where=ADDRESS%20LIKE%20%27%251500%25BARBER%25PARK%25%27&outFields=OBJECTID%2CADDRESS%2CZIPCODE%2CLatitude%2CLongitude%2CPark1%2CPark2%2CPark3&returnGeometry=true&outSR=4326&f=pjson",
+        "checkedAt": "2026-08-20"
+      },
+      "verifiedFacts": [
+        {
+          "fact": "The current City parks directory lists Barber Park at 1500 Barber Park Drive and identifies accessible or inclusive features, an amphitheater, ballfields, disc golf, rentals, grills, a gym, natural area, fitness equipment, shelters, playgrounds, a sprayground, tennis, and walking trails.",
+          "sourceLabel": "City of Greensboro parks and gardens directory",
+          "sourceUrl": "https://www.greensboro-nc.gov/departments/parks-recreation/parks-gardens",
+          "checkedAt": "2026-08-20",
+          "freshness": "ordinary facility inventory; recheck before launch-guide publication"
+        },
+        {
+          "fact": "The City's accessible outdoor amenities list documents parking, paved trail, picnic shelters, playground, restrooms, and sprayground at Barber Park.",
+          "sourceLabel": "Greensboro Parks and Recreation Accessible Outdoor Amenities",
+          "sourceUrl": "https://www.greensboro-nc.gov/home/showpublisheddocument/51653/637786388434100000",
+          "checkedAt": "2026-08-20",
+          "freshness": "stable facility evidence; recheck accessibility details before publication"
+        }
+      ],
+      "duplicateStatus": "no duplicate found; official short name retained as alias",
+      "imageStatus": "photo-gated"
+    },
+    {
+      "recordId": "/us/nc/greensboro/parks/oka-t-hester-park",
+      "canonicalName": "Oka T. Hester Park",
+      "aliases": [
+        "Hester Park"
+      ],
+      "city": "Greensboro",
+      "state": "NC",
+      "category": "regional public park",
+      "managingAgency": "City of Greensboro Parks and Recreation",
+      "canonicalAddress": "3615 Deutzia Street, Greensboro, NC 27407",
+      "secondaryEntrances": [
+        {
+          "name": "Athletic fields entrance",
+          "address": "800 Ailanthus Street, Greensboro, NC 27407",
+          "evidence": "The current City visitor page labels 800 Ailanthus Street specifically for athletic fields, while 3615 Deutzia Street is the park-office and canonical park address."
+        }
+      ],
+      "latitude": 36.0170663,
+      "longitude": -79.85690298,
+      "positionQuality": "reviewed-official-address-point",
+      "coordinateProvenance": {
+        "publisher": "City of Greensboro GIS Division",
+        "service": "GSONearMe Points",
+        "objectId": 10915,
+        "sourceUrl": "https://gis.greensboro-nc.gov/arcgis/rest/services/GISDivision/GSONearMe/MapServer/0/query?where=ADDRESS%20LIKE%20%27%253615%25DEUTZIA%25%27&outFields=OBJECTID%2CADDRESS%2CZIPCODE%2CLatitude%2CLongitude%2CPark1%2CPark2%2CPark3&returnGeometry=true&outSR=4326&f=pjson",
+        "checkedAt": "2026-08-20"
+      },
+      "verifiedFacts": [
+        {
+          "fact": "The current City page identifies Hester as one of Greensboro's four regional parks and lists a stocked lake, four fishing piers, a 1.3-mile walking and exercise trail, playgrounds, fitness equipment, courts, fields, shelters, and picnic facilities.",
+          "sourceLabel": "City of Greensboro Hester Park visitor page",
+          "sourceUrl": "https://www.greensboro-nc.gov/departments/parks-recreation/parks-gardens/hester-park",
+          "checkedAt": "2026-08-20",
+          "freshness": "ordinary visitor guidance; recheck seasonal and reservation details before launch"
+        },
+        {
+          "fact": "The park opens daily at 8 a.m., weather permitting, closes on Thanksgiving and Christmas, and uses seasonal closing times of 5, 7, or 8 p.m.",
+          "sourceLabel": "City of Greensboro Hester Park visitor page",
+          "sourceUrl": "https://www.greensboro-nc.gov/departments/parks-recreation/parks-gardens/hester-park",
+          "checkedAt": "2026-08-20",
+          "freshness": "seasonal operating schedule; recheck before publication and after weather events"
+        },
+        {
+          "fact": "The City lists a $2 daily fishing pass, free fishing for children 12 and under, and a separate state fishing-license requirement where applicable.",
+          "sourceLabel": "City of Greensboro Hester Park visitor page",
+          "sourceUrl": "https://www.greensboro-nc.gov/departments/parks-recreation/parks-gardens/hester-park",
+          "checkedAt": "2026-08-20",
+          "freshness": "fee and regulation evidence; recheck before launch-guide publication"
+        },
+        {
+          "fact": "The City's accessible outdoor amenities list documents a fishing pier, outdoor fitness, parking, paved trail, and restrooms at Hester Park.",
+          "sourceLabel": "Greensboro Parks and Recreation Accessible Outdoor Amenities",
+          "sourceUrl": "https://www.greensboro-nc.gov/home/showpublisheddocument/51653/637786388434100000",
+          "checkedAt": "2026-08-20",
+          "freshness": "stable facility evidence; recheck route-specific accessibility before publication"
+        }
+      ],
+      "duplicateStatus": "no duplicate; canonical and athletic-field addresses model separate arrivals within one parent",
+      "imageStatus": "photo-gated"
+    }
+  ],
+  "imageRightsReview": {
+    "openverse": {
+      "source": "Openverse API",
+      "queries": 8,
+      "reusableCandidates": 0,
+      "resultFile": "data/greensboro-photo-research.json"
+    },
+    "wikimediaCommons": {
+      "method": "Geosearch within 10 kilometers of each reviewed parent coordinate plus exact-name web search",
+      "outcome": "Nearby reusable results were plant, wildlife, aerial-raster, hotel, road, and unrelated-place media rather than representative views of either park. No candidate was accepted."
+    },
+    "officialSiteImages": {
+      "outcome": "The City pages contain exact-location images, but no image-specific reuse license or permission was found. Public display was not treated as reuse permission."
+    }
+  },
+  "sourceAccessReview": {
+    "browserEvidence": "The Hester visitor page was fetched with current page content on 2026-08-20, and the current parks directory and City PDFs were available through indexed public results.",
+    "commandLineHttp": "The greensboro-nc.gov HTML and PDF endpoints returned HTTP 403 to direct curl requests on 2026-08-20; all three City GIS REST services returned HTTP 200.",
+    "classification": "anti-automation access difference, not evidence that the public source has been removed",
+    "nextCheck": "Recheck visitor-page and PDF access in a normal browser before launch-guide publication."
+  },
+  "reviewQueue": [
+    {
+      "place": "Jimmie I. Barber Park",
+      "fieldOrFeature": "parent photography",
+      "conflictOrMissingEvidence": "No representative permission-cleared or openly licensed parent photographs were found.",
+      "sourcesChecked": [
+        "Openverse API",
+        "Wikimedia Commons geosearch and exact-name search",
+        "City of Greensboro park pages"
+      ],
+      "recommendedNextAction": "Obtain four varied reusable views covering ordinary circulation and major amenities, or written City permission for exact-location photographs."
+    },
+    {
+      "place": "Oka T. Hester Park",
+      "fieldOrFeature": "parent photography",
+      "conflictOrMissingEvidence": "No representative permission-cleared or openly licensed parent photographs were found.",
+      "sourcesChecked": [
+        "Openverse API",
+        "Wikimedia Commons geosearch and exact-name search",
+        "City of Greensboro park pages"
+      ],
+      "recommendedNextAction": "Obtain four varied reusable views covering the lake, trails, playground or fitness area, and developed visitor facilities, or written City permission."
+    },
+    {
+      "place": "Both Greensboro records",
+      "fieldOrFeature": "launch-guide visitor intents",
+      "conflictOrMissingEvidence": "Inventory evidence is complete, but dogs, transit, full restroom availability, weather disruptions, and destination-specific schedules have not been assembled into a publishable answer set.",
+      "sourcesChecked": [
+        "Current City park pages and directory",
+        "City accessibility list",
+        "City GIS services"
+      ],
+      "recommendedNextAction": "Complete and source the recurring visitor-intent answers only after the parent photo gate clears."
+    }
+  ],
+  "risks": [
+    "The main greensboro-nc.gov site blocks direct command-line requests with HTTP 403 even though current browser-indexed content remains available; future automated freshness checks need a documented browser-capable path.",
+    "City GIS park and facility attributes contain older edit dates; current visitor pages control public-facing hours and address roles.",
+    "Seasonal closing times, fishing fees, reservations, and weather closures require rechecks before publication.",
+    "GIS hosting does not establish image reuse rights.",
+    "No private visitor data, precise visitor-location logs, paid API calls, dependencies, or production writes are included."
+  ]
+}

@@ -412,6 +412,7 @@
     "test:search-opportunity": "node scripts/test-search-opportunity.js",
     "refresh:national-coverage": "node scripts/build-national-coverage-registry.js",
     "test:national-coverage": "node scripts/test-national-coverage-registry.js",
+    "verify:greensboro:research": "node scripts/verify-greensboro-research-completion.js",
     "generate": "node scripts/generate-search-pages.js",
     "generate:scope": "node scripts/generate-search-pages.js",
     "test:generate:scope": "node scripts/test-scoped-search-generation.js",

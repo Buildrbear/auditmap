@@ -10,15 +10,15 @@
     "sitemap": "sitemap.xml",
     "catalog": "data/generated/official-catalog.json",
     "catalogGeneratedAt": "2026-08-11T09:40:25.704Z",
-    "gitBranch": "codex/national-logistics-boise",
-    "gitCommit": "bd402e4930c2348c793c6f97a9dc15f25c1edfce"
+    "gitBranch": "codex/greensboro-research-completion",
+    "gitCommit": "231cce7f8cf516e36c4a6928011a8a5d0643b170"
   },
   "spatialEvidence": {
     "registry": "data/spatial-source-registry.json",
     "checkedAt": "2026-08-17",
-    "registeredSources": 4,
+    "registeredSources": 6,
     "publicationApprovedSources": 1,
-    "reviewRequiredSources": 3
+    "reviewRequiredSources": 5
   },
   "summary": {
     "knownDestinations": 3393,
@@ -27,12 +27,12 @@
     "liveSubsitePages": 2477,
     "hopper": 11,
     "generatedLocallyNotLive": 2,
-    "researchOnly": 3,
-    "blockedReview": 6,
+    "researchOnly": 4,
+    "blockedReview": 5,
     "productionMissingFromLocal": 0,
     "recordsWithResearchHandoffs": 50,
     "mappableDestinations": 2905,
-    "openReviewItems": 7
+    "openReviewItems": 6
   },
   "records": [
     {
@@ -38501,10 +38501,10 @@
       "subsiteSlug": null,
       "name": "Jimmie I. Barber Park",
       "city": "Greensboro",
-      "latitude": 36.051284599142,
-      "longitude": -79.751432360965,
-      "positionQuality": null,
-      "coordinateSource": "ArcGIS World Geocoding Service point-address match",
+      "latitude": 36.05127041,
+      "longitude": -79.75142641,
+      "positionQuality": "reviewed-official-address-point",
+      "coordinateSource": "City of Greensboro GIS address point OBJECTID 47795",
       "releaseStatus": "research-only",
       "productionPresent": false,
       "localPresent": false,
@@ -38519,9 +38519,12 @@
           "city": "Greensboro",
           "state": "NC",
           "managingAgency": "City of Greensboro Parks & Recreation",
-          "checkedAt": "2026-08-13",
+          "checkedAt": "2026-08-20",
           "officialSources": [
-            "https://www.greensboro-nc.gov/departments/parks-recreation/parks-gardens/barber-park"
+            "https://www.greensboro-nc.gov/departments/parks-recreation/parks-gardens/barber-park",
+            "https://www.greensboro-nc.gov/departments/parks-recreation/parks-gardens",
+            "https://gis.greensboro-nc.gov/arcgis/rest/services/ParksRec/PD_2_MS/MapServer/4",
+            "https://www.greensboro-nc.gov/home/showpublisheddocument/51653/637786388434100000"
           ],
           "handoffUrl": "https://keystone-accessibility-baseline.indierepo.chatgpt.site/auditmap-nc-parks-inventory/NC_MAJOR_PUBLIC_PARKS_INVENTORY.md",
           "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
@@ -38635,11 +38638,11 @@
       "subsiteSlug": null,
       "name": "Oka T. Hester Park",
       "city": "Greensboro",
-      "latitude": 36.0183161,
-      "longitude": -79.8587741,
-      "positionQuality": null,
-      "coordinateSource": "OpenStreetMap Nominatim street match",
-      "releaseStatus": "blocked-review",
+      "latitude": 36.0170663,
+      "longitude": -79.85690298,
+      "positionQuality": "reviewed-official-address-point",
+      "coordinateSource": "City of Greensboro GIS address point OBJECTID 10915",
+      "releaseStatus": "research-only",
       "productionPresent": false,
       "localPresent": false,
       "reconciliationFlags": [
@@ -38653,19 +38656,16 @@
           "city": "Greensboro",
           "state": "NC",
           "managingAgency": "City of Greensboro Parks & Recreation",
-          "checkedAt": "2026-08-13",
+          "checkedAt": "2026-08-20",
           "officialSources": [
-            "https://www.greensboro-nc.gov/departments/parks-recreation/parks-gardens/hester-park"
+            "https://www.greensboro-nc.gov/departments/parks-recreation/parks-gardens/hester-park",
+            "https://www.greensboro-nc.gov/departments/parks-recreation/parks-gardens/hester-park",
+            "https://gis.greensboro-nc.gov/arcgis/rest/services/ParksRec/PD_2_MS/MapServer/4",
+            "https://www.greensboro-nc.gov/home/showpublisheddocument/51653/637786388434100000"
           ],
           "handoffUrl": "https://keystone-accessibility-baseline.indierepo.chatgpt.site/auditmap-nc-parks-inventory/NC_MAJOR_PUBLIC_PARKS_INVENTORY.md",
           "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
-          "reviewItems": [
-            {
-              "park_slug": "greensboro-oka-t-hester-park",
-              "issue": "The park page lists 3615 Deutzia Street; a City mobile-food-unit sheet uses 800 Ailanthus Street for an athletic-field entrance.",
-              "recommendation": "Keep 3615 Deutzia Street canonical and record 800 Ailanthus Street as a secondary entrance."
-            }
-          ],
+          "reviewItems": [],
           "override": null
         },
         {
@@ -38686,13 +38686,7 @@
           "override": null
         }
       ],
-      "openReviewItems": [
-        {
-          "park_slug": "greensboro-oka-t-hester-park",
-          "issue": "The park page lists 3615 Deutzia Street; a City mobile-food-unit sheet uses 800 Ailanthus Street for an athletic-field entrance.",
-          "recommendation": "Keep 3615 Deutzia Street canonical and record 800 Ailanthus Street as a secondary entrance."
-        }
-      ]
+      "openReviewItems": []
     },
     {
       "id": "/us/nc/greensboro/parks/random-woods-park",
