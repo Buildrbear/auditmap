@@ -229,8 +229,18 @@
       "type": "research-completion",
       "state": "NC",
       "citySlug": "raleigh",
-      "status": "open",
-      "claim": null,
+      "status": "claimed",
+      "claim": {
+        "packetId": "research-completion-nc-raleigh-01",
+        "assignee": "Buildrbear",
+        "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+        "issueUrl": "https://github.com/Buildrbear/auditmap/issues/45",
+        "claimedAt": "2026-08-20",
+        "expiresAt": "2026-08-27",
+        "lastUpdatedAt": "2026-08-20",
+        "status": "claimed",
+        "notes": "Inventory-only Spring Forest Road Park identity, authoritative source, coordinate, current-status, and image-rights research; no page publication."
+      },
       "count": 1,
       "recordIds": [
         "/us/nc/raleigh/parks/spring-forest-road-park"
