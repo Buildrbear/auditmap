@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 const crypto = require("node:crypto");
+const childProcess = require("node:child_process");
 const fs = require("node:fs");
 const path = require("node:path");
 
@@ -65,6 +66,22 @@ function slugify(value) {
 
 function relativePath(value) {
   return path.isAbsolute(value) ? value : path.join(root, value);
+}
+
+function localGitBaseline() {
+  const read = (args) => childProcess.execFileSync("git", args, {
+    cwd: root,
+    encoding: "utf8",
+    stdio: ["ignore", "pipe", "ignore"],
+  }).trim();
+  try {
+    return {
+      branch: read(["branch", "--show-current"]) || null,
+      commit: read(["rev-parse", "HEAD"]),
+    };
+  } catch {
+    return { branch: null, commit: null };
+  }
 }
 
 function validateHttpsUrl(value, field, packetId) {
@@ -544,6 +561,7 @@ async function loadExternalIntakes(configPath) {
 }
 
 async function build(options) {
+  const baseline = localGitBaseline();
   const [productionSitemap, localSitemap, productionCatalog, localCatalog, productionLaunchMap, localLaunchMap, localIntakes, claimsDocument, spatialDocument] = await Promise.all([
     readText(options.productionSitemap),
     readText(options.localSitemap),
@@ -581,6 +599,8 @@ async function build(options) {
       sitemap: options.localSitemap,
       catalog: options.localCatalog,
       catalogGeneratedAt: localCatalog.generatedAt || null,
+      gitBranch: baseline.branch,
+      gitCommit: baseline.commit,
     },
     spatialEvidence: {
       registry: options.spatialSources,

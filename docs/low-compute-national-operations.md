@@ -13,6 +13,12 @@ The generated national coverage registry combines:
 - checked-in research intakes
 - explicitly registered OpenTask handoffs with immutable checksums
 
+The local sitemap and catalog must come from the exact campaign review line that new work will build
+on. Check out the current pull-request head (including accepted stacked release candidates) before
+refreshing. Never assign packets from a snapshot produced on an older side branch: it can reopen work
+that the active review line already retired, redirected, or completed. Record the baseline branch and
+commit in the pull-request handoff so reviewers can reproduce the queue.
+
 Run:
 
 ```bash
@@ -53,7 +59,8 @@ and `notes`. Adding a new required field or changing status meaning requires a n
 
 ## Daily cycle
 
-1. Refresh production and the registry before assigning work.
+1. Check out the authoritative campaign review line, then refresh production and the registry before
+   assigning work.
 2. Copy the generated ask from `preview/opentask-daily-ask.md` into the OpenTask project.
 3. Reserve selected packet IDs in the claims file and linked GitHub issues.
 4. Give agents only the records in their packet and the relevant source-format schema.

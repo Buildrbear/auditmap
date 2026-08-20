@@ -5,11 +5,11 @@ Generated: 2026-08-20
 ## Current scoreboard
 
 - **3,382** destination pages are live.
-- **389** known destinations are in the hopper.
-- **380** are generated locally but absent from production.
+- **225** known destinations are in the hopper.
+- **216** are generated locally but absent from production.
 - **3** are research-only candidates awaiting launch-guide work.
 - **6** are blocked by named review questions.
-- **102** live records need internal local/production synchronization.
+- **8** live records need internal local/production synchronization.
 
 ## Current operating ask
 
@@ -27,20 +27,19 @@ The production-sync queue is reserved for maintainers and repository integrators
 | `research-completion-nc-fayetteville-01` | research-completion | NC / fayetteville | 1 |
 | `research-completion-nc-greensboro-01` | research-completion | NC / greensboro | 2 |
 | `research-completion-nc-raleigh-01` | research-completion | NC / raleigh | 1 |
-| `release-reconciliation-fl-hollywood-01` | release-reconciliation | FL / hollywood | 4 |
 | `release-reconciliation-fl-key-biscayne-01` | release-reconciliation | FL / key biscayne | 12 |
 | `release-reconciliation-fl-miami-01` | release-reconciliation | FL / miami | 25 |
 | `release-reconciliation-fl-miami-beach-01` | release-reconciliation | FL / miami beach | 14 |
 | `release-reconciliation-in-indianapolis-01` | release-reconciliation | IN / indianapolis | 25 |
 | `release-reconciliation-in-indianapolis-02` | release-reconciliation | IN / indianapolis | 17 |
-| `release-reconciliation-md-baltimore-01` | release-reconciliation | MD / baltimore | 25 |
-| `release-reconciliation-md-baltimore-02` | release-reconciliation | MD / baltimore | 21 |
 | `release-reconciliation-mi-detroit-01` | release-reconciliation | MI / detroit | 25 |
 | `release-reconciliation-mi-detroit-02` | release-reconciliation | MI / detroit | 25 |
 | `release-reconciliation-mi-detroit-03` | release-reconciliation | MI / detroit | 5 |
 | `release-reconciliation-oh-cincinnati-01` | release-reconciliation | OH / cincinnati | 14 |
-| `release-reconciliation-oh-cleveland-01` | release-reconciliation | OH / cleveland | 25 |
-| `release-reconciliation-oh-cleveland-02` | release-reconciliation | OH / cleveland | 24 |
+| `release-reconciliation-oh-columbus-01` | release-reconciliation | OH / columbus | 25 |
+| `release-reconciliation-oh-columbus-02` | release-reconciliation | OH / columbus | 25 |
+| `release-reconciliation-oh-columbus-03` | release-reconciliation | OH / columbus | 3 |
+| `release-reconciliation-wi-madison-01` | release-reconciliation | WI / madison | 1 |
 
 ## Daily merge rule
 
