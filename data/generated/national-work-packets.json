@@ -161,7 +161,7 @@
       "type": "research-completion",
       "state": "NC",
       "citySlug": "fayetteville",
-      "status": "claimed",
+      "status": "submitted",
       "claim": {
         "packetId": "research-completion-nc-fayetteville-01",
         "assignee": "Buildrbear",
@@ -170,8 +170,18 @@
         "claimedAt": "2026-08-20",
         "expiresAt": "2026-08-27",
         "lastUpdatedAt": "2026-08-20",
-        "status": "claimed",
-        "notes": "Inventory-tier completion for Arnette Park only; resolve the official address and entrance-coordinate evidence conflict, record current authoritative sources and image-rights findings, and do not generate a page without a separate launch-guide assignment."
+        "status": "submitted",
+        "submissionUrl": "https://github.com/Buildrbear/auditmap/pull/44",
+        "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/44",
+        "acceptedRecordIds": [
+          "/us/nc/fayetteville/parks/arnette-park"
+        ],
+        "reviewQueue": [
+          "Obtain current operator general hours; do not publish the 2013 seasonal schedule as current.",
+          "Obtain four varied representative reusable parent photographs or documented City reuse permission.",
+          "Complete the recurring visitor-answer set and verify current GIS amenity availability only under a separate launch-guide assignment."
+        ],
+        "notes": "Inventory record, resolved visitor address, current-use evidence, and official park-coordinate provenance are submitted in PR #44. The parent remains hours-and-photo-gated with no generated page."
       },
       "count": 1,
       "recordIds": [
