@@ -10,14 +10,14 @@ Last updated: 2026-08-20
 - Outcome: 25 City of Mesa park parents now have current canonical identities, stable municipal IDs, reviewed coordinates, source labels, checked dates, freshness classifications, and `needs-launch-guide` release-ledger states.
 - Identity and coordinate decisions: Monterey Park is retained as an alias for Christopher J. Brady Park. Fitch, Eagles, Kleinman, and Sherwood use named OpenStreetMap park geometry after the current City page pins failed the City-boundary check; Hohokam Stadium is excluded from this general-park packet.
 - Publication decision: no Mesa parent or destination page is generated and no City image is imported. City boundaries were used only for verification because Mesa's map terms prohibit redistribution.
-- Production status: not merged or promoted to production.
+- Submission: draft PR #50; not merged or promoted to production.
 - Canonical machine-readable checkpoint: `data/us-priority-enrichment-queue.json` under `activeCluster.resumeCheckpoint`.
 
 The Cleveland-through-Boise batches and the submitted Greensboro-through-Boone inventory packets remain complete at their previous checkpoints. The Mesa inventory packet does not change their evidence decisions or reopen retired destinations.
 
 ## Resume Point
 
-Do not repeat completed batches unless review finds a specific defect or new evidence changes a deferred decision. On this stacked line, Chesapeake Bay and Greensboro through Boone are reserved as submitted work; Mesa is reserved by the active exact packet. Complete and submit Mesa before opening another breadth or depth packet.
+Do not repeat completed batches unless review finds a specific defect or new evidence changes a deferred decision. On this stacked line, Chesapeake Bay, Greensboro through Boone, and Mesa are reserved as submitted work. Review Mesa draft PR #50 before refreshing and selecting the next exact packet.
 
 The Fayetteville claim is submitted in PR #44. If review requests changes, change it to `changes-requested`; if accepted, retain Arnette Park at inventory tier until current operator hours, four varied representative reusable photographs, and the complete recurring visitor-answer set justify a separate launch-guide assignment. The Raleigh claim is submitted in PR #46; keep it at inventory tier until representative reusable photographs and the separately assigned complete launch-guide profile clear review. The Boone claim is submitted in PR #48; keep all three parents at inventory tier until their named hours, image, and launch-guide gates clear.
 

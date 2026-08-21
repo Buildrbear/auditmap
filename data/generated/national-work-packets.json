@@ -80,7 +80,7 @@
       "type": "research-completion",
       "state": "AZ",
       "citySlug": "mesa",
-      "status": "claimed",
+      "status": "submitted",
       "claim": {
         "packetId": "research-completion-az-mesa-01",
         "assignee": "Buildrbear",
@@ -89,8 +89,42 @@
         "claimedAt": "2026-08-20",
         "expiresAt": "2026-08-27",
         "lastUpdatedAt": "2026-08-20",
-        "status": "claimed",
-        "notes": "Exact 25-parent Mesa catalogue-breadth packet created from current City facility pages, stable City data IDs, reviewed coordinates, and the issue #49 assignment. Inventory only; no pages or City images."
+        "status": "submitted",
+        "submissionUrl": "https://github.com/Buildrbear/auditmap/pull/50",
+        "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/50",
+        "acceptedRecordIds": [
+          "/us/az/mesa/parks/carriage-lane-park",
+          "/us/az/mesa/parks/christopher-j-brady-park",
+          "/us/az/mesa/parks/countryside-park",
+          "/us/az/mesa/parks/desert-arroyo-park",
+          "/us/az/mesa/parks/desert-trails-park",
+          "/us/az/mesa/parks/dobson-ranch-park",
+          "/us/az/mesa/parks/eagles-park",
+          "/us/az/mesa/parks/falcon-hill-park",
+          "/us/az/mesa/parks/fiesta-sports-park",
+          "/us/az/mesa/parks/fitch-park",
+          "/us/az/mesa/parks/gene-autry-park",
+          "/us/az/mesa/parks/greenfield-park",
+          "/us/az/mesa/parks/heritage-park",
+          "/us/az/mesa/parks/holmes-park",
+          "/us/az/mesa/parks/kleinman-park",
+          "/us/az/mesa/parks/mountain-view-park",
+          "/us/az/mesa/parks/palo-verde-park",
+          "/us/az/mesa/parks/park-of-the-canals",
+          "/us/az/mesa/parks/pioneer-park",
+          "/us/az/mesa/parks/quail-run-park",
+          "/us/az/mesa/parks/red-mountain-park",
+          "/us/az/mesa/parks/reed-park",
+          "/us/az/mesa/parks/riverview-park",
+          "/us/az/mesa/parks/sherwood-park",
+          "/us/az/mesa/parks/skyline-park"
+        ],
+        "reviewQueue": [
+          "Complete current recurring visitor profiles and obtain representative reusable parent photography under separately assigned launch-guide work for all 25 parents.",
+          "Recheck the Fitch, Eagles, Kleinman, and Sherwood City facility-page pins before publishing navigation; retain the reviewed OSM geometry and City-pin conflicts until reconciled.",
+          "Do not redistribute City park geometry or reuse City images under the noncommercial site license without a separate permission decision."
+        ],
+        "notes": "Twenty-five qualified inventory parents, stable City facility IDs, current official pages, reviewed coordinates, rename and exclusion decisions, release ledger, source restrictions, and full verification are submitted in PR #50. No Mesa pages or City media were generated."
       },
       "count": 25,
       "recordIds": [
