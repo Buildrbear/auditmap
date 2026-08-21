@@ -2,20 +2,78 @@
   "schemaVersion": 1,
   "asOf": "2026-08-21",
   "summary": {
-    "knownDestinations": 3445,
+    "knownDestinations": 3458,
     "liveDestinationPages": 3382,
     "liveParentPages": 905,
     "liveSubsitePages": 2477,
-    "hopper": 63,
-    "generatedLocallyNotLive": 2,
+    "hopper": 76,
+    "generatedLocallyNotLive": 15,
     "researchOnly": 51,
     "blockedReview": 10,
     "productionMissingFromLocal": 0,
     "recordsWithResearchHandoffs": 100,
-    "mappableDestinations": 2957,
+    "mappableDestinations": 2970,
     "openReviewItems": 11
   },
   "packets": [
+    {
+      "id": "release-reconciliation-ak-anchorage-01",
+      "type": "release-reconciliation",
+      "state": "AK",
+      "citySlug": "anchorage",
+      "status": "open",
+      "claim": null,
+      "count": 3,
+      "recordIds": [
+        "/us/ak/anchorage/parks/delaney-park-strip/alaska-railroad-no-556",
+        "/us/ak/anchorage/parks/delaney-park-strip/centennial-rose-garden",
+        "/us/ak/anchorage/parks/kincaid-park/kincaid-beach"
+      ],
+      "acceptance": "Classify every page as publishable, duplicate/renamed, or blocked; preserve production-only work and pass the applicable validators."
+    },
+    {
+      "id": "release-reconciliation-de-wilmington-01",
+      "type": "release-reconciliation",
+      "state": "DE",
+      "citySlug": "wilmington",
+      "status": "open",
+      "claim": null,
+      "count": 2,
+      "recordIds": [
+        "/us/de/wilmington/parks/brandywine-park/josephine-fountain",
+        "/us/de/wilmington/parks/rockford-park/rockford-tower"
+      ],
+      "acceptance": "Classify every page as publishable, duplicate/renamed, or blocked; preserve production-only work and pass the applicable validators."
+    },
+    {
+      "id": "release-reconciliation-ga-atlanta-01",
+      "type": "release-reconciliation",
+      "state": "GA",
+      "citySlug": "atlanta",
+      "status": "open",
+      "claim": null,
+      "count": 3,
+      "recordIds": [
+        "/us/ga/atlanta/parks/atlanta-beltline-eastside-trail",
+        "/us/ga/atlanta/parks/chastain-memorial-park",
+        "/us/ga/atlanta/parks/shirley-clarke-franklin-park-westside-park"
+      ],
+      "acceptance": "Classify every page as publishable, duplicate/renamed, or blocked; preserve production-only work and pass the applicable validators."
+    },
+    {
+      "id": "release-reconciliation-in-indianapolis-01",
+      "type": "release-reconciliation",
+      "state": "IN",
+      "citySlug": "indianapolis",
+      "status": "open",
+      "claim": null,
+      "count": 2,
+      "recordIds": [
+        "/us/in/indianapolis/parks/white-river-state-park/canal-walk",
+        "/us/in/indianapolis/parks/white-river-state-park/celebration-plaza-amphitheater"
+      ],
+      "acceptance": "Classify every page as publishable, duplicate/renamed, or blocked; preserve production-only work and pass the applicable validators."
+    },
     {
       "id": "release-reconciliation-md-annapolis-01",
       "type": "release-reconciliation",
@@ -72,6 +130,21 @@
       "count": 1,
       "recordIds": [
         "/us/md/edgemere/parks/north-point-state-park"
+      ],
+      "acceptance": "Classify every page as publishable, duplicate/renamed, or blocked; preserve production-only work and pass the applicable validators."
+    },
+    {
+      "id": "release-reconciliation-pa-philadelphia-01",
+      "type": "release-reconciliation",
+      "state": "PA",
+      "citySlug": "philadelphia",
+      "status": "open",
+      "claim": null,
+      "count": 3,
+      "recordIds": [
+        "/us/pa/philadelphia/parks/schuylkill-banks/walnut-street-trail-hub-and-dock",
+        "/us/pa/philadelphia/parks/spruce-street-harbor-park/christopher-columbus-memorial",
+        "/us/pa/philadelphia/parks/spruce-street-harbor-park/hammock-grove-and-lazy-hammock"
       ],
       "acceptance": "Classify every page as publishable, duplicate/renamed, or blocked; preserve production-only work and pass the applicable validators."
     },

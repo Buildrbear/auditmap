@@ -2,6 +2,7 @@ const assert = require("node:assert/strict");
 const {
   buildPackets,
   buildRegistry,
+  localPagesFromLaunchMap,
   parseSitemap,
   summarize,
   validateActiveClaimReferences,
@@ -23,6 +24,25 @@ const localPages = parseSitemap(sitemap([
   "/us/nc/raleigh/parks/live-park/live-trail",
   "/us/nc/raleigh/parks/live-park/local-playground",
 ]));
+const launchMapPages = localPagesFromLaunchMap({ places: [{
+  id: "launch-nc-raleigh-live-park",
+  name: "Live Park",
+  city: "Raleigh",
+  state: "NC",
+  features: [
+    { slug: "local-playground", name: "Local Playground" },
+    { slug: "research-only-trail", name: "Research Only Trail" },
+  ],
+}] }, {
+  pageExists: (pagePath) => new Set([
+    "/us/nc/raleigh/parks/live-park",
+    "/us/nc/raleigh/parks/live-park/local-playground",
+  ]).has(pagePath),
+});
+assert.deepEqual(launchMapPages.map((page) => page.path), [
+  "/us/nc/raleigh/parks/live-park",
+  "/us/nc/raleigh/parks/live-park/local-playground",
+]);
 const productionCatalog = {
   places: [
     { id: "live-park", name: "Live Park", city: "Raleigh", state: "NC", officialSource: { url: "https://raleighnc.gov/live" } },

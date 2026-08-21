@@ -267,6 +267,26 @@ function launchPlaces(document) {
   throw new Error("Launch map must be an array or contain a places array");
 }
 
+function localPagesFromLaunchMap(document, { rootDirectory = root, pageExists = null } = {}) {
+  const exists = pageExists || ((pagePath) =>
+    fs.existsSync(path.join(rootDirectory, pagePath.replace(/^\//, ""), "index.html"))
+  );
+  const pages = new Map();
+  for (const place of launchPlaces(document)) {
+    const parentPaths = pagePathsForPlace(place);
+    for (const parentPath of parentPaths) {
+      if (exists(parentPath)) pages.set(parentPath, destinationFromUrl(parentPath));
+      for (const feature of place.features || []) {
+        const featureSlug = feature.slug || slugify(feature.name || feature.id);
+        if (!featureSlug) continue;
+        const featurePath = `${parentPath}/${featureSlug}`;
+        if (exists(featurePath)) pages.set(featurePath, destinationFromUrl(featurePath));
+      }
+    }
+  }
+  return [...pages.values()].filter(Boolean);
+}
+
 function finiteCoordinate(value) {
   const number = Number(value);
   return Number.isFinite(number) ? number : null;
@@ -579,9 +599,14 @@ async function build(options) {
   const externalIntakes = options.includeExternal
     ? await loadExternalIntakes(options.externalSources)
     : [];
+  const sitemapLocalPages = parseSitemap(localSitemap);
+  const filesystemLocalPages = localPagesFromLaunchMap(localLaunchMap);
+  const localPages = [...new Map(
+    [...sitemapLocalPages, ...filesystemLocalPages].map((page) => [page.path, page]),
+  ).values()];
   const registry = buildRegistry({
     livePages: parseSitemap(productionSitemap),
-    localPages: parseSitemap(localSitemap),
+    localPages,
     productionCatalog,
     localCatalog,
     productionLaunchMap,
@@ -655,6 +680,7 @@ module.exports = {
   buildRegistry,
   buildSpatialIndex,
   destinationFromUrl,
+  localPagesFromLaunchMap,
   matchResearchRecord,
   normalize,
   openTaskBrief,

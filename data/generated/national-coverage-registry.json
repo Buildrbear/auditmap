@@ -10,8 +10,8 @@
     "sitemap": "sitemap.xml",
     "catalog": "data/generated/official-catalog.json",
     "catalogGeneratedAt": "2026-08-11T09:40:25.704Z",
-    "gitBranch": "codex/el-paso-parks-discovery",
-    "gitCommit": "18a1550d51c82e2a1d8651a6ab10adf07dcfc380"
+    "gitBranch": "codex/white-river-depth",
+    "gitCommit": "543513b7629e5ce1f3cd44d2c71b9d9eec24cc3f"
   },
   "spatialEvidence": {
     "registry": "data/spatial-source-registry.json",
@@ -21,17 +21,17 @@
     "reviewRequiredSources": 12
   },
   "summary": {
-    "knownDestinations": 3445,
+    "knownDestinations": 3458,
     "liveDestinationPages": 3382,
     "liveParentPages": 905,
     "liveSubsitePages": 2477,
-    "hopper": 63,
-    "generatedLocallyNotLive": 2,
+    "hopper": 76,
+    "generatedLocallyNotLive": 15,
     "researchOnly": 51,
     "blockedReview": 10,
     "productionMissingFromLocal": 0,
     "recordsWithResearchHandoffs": 100,
-    "mappableDestinations": 2957,
+    "mappableDestinations": 2970,
     "openReviewItems": 11
   },
   "records": [
@@ -56,6 +56,54 @@
       "longitude": -149.8976409,
       "positionQuality": "parent-map-coordinate",
       "coordinateSource": "https://www.muni.org/Departments/parks/Pages/DelaneyParkMasterPlan.aspx"
+    },
+    {
+      "id": "/us/ak/anchorage/parks/delaney-park-strip/alaska-railroad-no-556",
+      "path": "/us/ak/anchorage/parks/delaney-park-strip/alaska-railroad-no-556",
+      "url": "https://www.auditmap.org/us/ak/anchorage/parks/delaney-park-strip/alaska-railroad-no-556",
+      "kind": "subsite",
+      "state": "AK",
+      "citySlug": "anchorage",
+      "parentSlug": "delaney-park-strip",
+      "subsiteSlug": "alaska-railroad-no-556",
+      "releaseStatus": "generated-locally",
+      "productionPresent": false,
+      "localPresent": true,
+      "reconciliationFlags": [
+        "not-in-production"
+      ],
+      "researchSources": [],
+      "openReviewItems": [],
+      "name": "Alaska Railroad No. 556",
+      "city": "Anchorage",
+      "latitude": 61.213377,
+      "longitude": -149.891006,
+      "positionQuality": "exact-geotag-or-named-open-map-object",
+      "coordinateSource": "https://www.openstreetmap.org/node/2117423017"
+    },
+    {
+      "id": "/us/ak/anchorage/parks/delaney-park-strip/centennial-rose-garden",
+      "path": "/us/ak/anchorage/parks/delaney-park-strip/centennial-rose-garden",
+      "url": "https://www.auditmap.org/us/ak/anchorage/parks/delaney-park-strip/centennial-rose-garden",
+      "kind": "subsite",
+      "state": "AK",
+      "citySlug": "anchorage",
+      "parentSlug": "delaney-park-strip",
+      "subsiteSlug": "centennial-rose-garden",
+      "releaseStatus": "generated-locally",
+      "productionPresent": false,
+      "localPresent": true,
+      "reconciliationFlags": [
+        "not-in-production"
+      ],
+      "researchSources": [],
+      "openReviewItems": [],
+      "name": "Centennial Rose Garden",
+      "city": "Anchorage",
+      "latitude": 61.2131713,
+      "longitude": -149.9084078,
+      "positionQuality": "exact-geotag-or-named-open-map-object",
+      "coordinateSource": "https://www.openstreetmap.org/way/627649066"
     },
     {
       "id": "/us/ak/anchorage/parks/far-north-bicentennial-park",
@@ -100,6 +148,30 @@
       "longitude": -150.0401984,
       "positionQuality": "parent-map-coordinate",
       "coordinateSource": "https://www.muni.org/Departments/parks/Pages/Kincaid.aspx"
+    },
+    {
+      "id": "/us/ak/anchorage/parks/kincaid-park/kincaid-beach",
+      "path": "/us/ak/anchorage/parks/kincaid-park/kincaid-beach",
+      "url": "https://www.auditmap.org/us/ak/anchorage/parks/kincaid-park/kincaid-beach",
+      "kind": "subsite",
+      "state": "AK",
+      "citySlug": "anchorage",
+      "parentSlug": "kincaid-park",
+      "subsiteSlug": "kincaid-beach",
+      "releaseStatus": "generated-locally",
+      "productionPresent": false,
+      "localPresent": true,
+      "reconciliationFlags": [
+        "not-in-production"
+      ],
+      "researchSources": [],
+      "openReviewItems": [],
+      "name": "Kincaid Beach",
+      "city": "Anchorage",
+      "latitude": 61.155515,
+      "longitude": -150.073843,
+      "positionQuality": "exact-geotag-or-named-open-map-object",
+      "coordinateSource": "https://commons.wikimedia.org/wiki/File:Kincaid_Beach,_Alaska_-_panoramio.jpg"
     },
     {
       "id": "/us/al/birmingham/parks/railroad-park",
@@ -12796,6 +12868,30 @@
       "positionQuality": "Mapped inside verified park boundary"
     },
     {
+      "id": "/us/de/wilmington/parks/brandywine-park/josephine-fountain",
+      "path": "/us/de/wilmington/parks/brandywine-park/josephine-fountain",
+      "url": "https://www.auditmap.org/us/de/wilmington/parks/brandywine-park/josephine-fountain",
+      "kind": "subsite",
+      "state": "DE",
+      "citySlug": "wilmington",
+      "parentSlug": "brandywine-park",
+      "subsiteSlug": "josephine-fountain",
+      "releaseStatus": "generated-locally",
+      "productionPresent": false,
+      "localPresent": true,
+      "reconciliationFlags": [
+        "not-in-production"
+      ],
+      "researchSources": [],
+      "openReviewItems": [],
+      "name": "Josephine Fountain",
+      "city": "Wilmington",
+      "latitude": 39.75604306,
+      "longitude": -75.55080806,
+      "positionQuality": "exact-geotagged-destination-photograph",
+      "coordinateSource": "https://commons.wikimedia.org/wiki/File:Brandywine_Park_Blossoms.JPG"
+    },
+    {
       "id": "/us/de/wilmington/parks/rockford-park",
       "path": "/us/de/wilmington/parks/rockford-park",
       "url": "https://www.auditmap.org/us/de/wilmington/parks/rockford-park",
@@ -12816,6 +12912,30 @@
       "longitude": -75.5723112,
       "positionQuality": "parent-map-coordinate",
       "coordinateSource": "https://www.wilmingtonde.gov/Home/Components/FacilityDirectory/FacilityDirectory/223/118"
+    },
+    {
+      "id": "/us/de/wilmington/parks/rockford-park/rockford-tower",
+      "path": "/us/de/wilmington/parks/rockford-park/rockford-tower",
+      "url": "https://www.auditmap.org/us/de/wilmington/parks/rockford-park/rockford-tower",
+      "kind": "subsite",
+      "state": "DE",
+      "citySlug": "wilmington",
+      "parentSlug": "rockford-park",
+      "subsiteSlug": "rockford-tower",
+      "releaseStatus": "generated-locally",
+      "productionPresent": false,
+      "localPresent": true,
+      "reconciliationFlags": [
+        "not-in-production"
+      ],
+      "researchSources": [],
+      "openReviewItems": [],
+      "name": "Rockford Tower",
+      "city": "Wilmington",
+      "latitude": 39.7673868,
+      "longitude": -75.574666,
+      "positionQuality": "exact-named-open-map-building",
+      "coordinateSource": "https://www.openstreetmap.org/way/302761632"
     },
     {
       "id": "/us/fl/christmas/parks/orlando-wetlands",
@@ -17153,6 +17273,30 @@
       "coordinateSource": "AuditMap reviewed official-map placement"
     },
     {
+      "id": "/us/ga/atlanta/parks/atlanta-beltline-eastside-trail",
+      "path": "/us/ga/atlanta/parks/atlanta-beltline-eastside-trail",
+      "url": "https://www.auditmap.org/us/ga/atlanta/parks/atlanta-beltline-eastside-trail",
+      "kind": "parent",
+      "state": "GA",
+      "citySlug": "atlanta",
+      "parentSlug": "atlanta-beltline-eastside-trail",
+      "subsiteSlug": null,
+      "releaseStatus": "generated-locally",
+      "productionPresent": false,
+      "localPresent": true,
+      "reconciliationFlags": [
+        "not-in-production"
+      ],
+      "researchSources": [],
+      "openReviewItems": [],
+      "name": "Atlanta Beltline Eastside Trail",
+      "city": "Atlanta",
+      "latitude": 33.7544828,
+      "longitude": -84.3654746,
+      "positionQuality": "parent-map-coordinate",
+      "coordinateSource": "https://beltline.org/parks-trails/eastside-trail/"
+    },
+    {
       "id": "/us/ga/atlanta/parks/cascade-springs-nature-preserve",
       "path": "/us/ga/atlanta/parks/cascade-springs-nature-preserve",
       "url": "https://www.auditmap.org/us/ga/atlanta/parks/cascade-springs-nature-preserve",
@@ -17547,6 +17691,30 @@
       "longitude": -84.3935092,
       "positionQuality": "Visitor Center, Centennial Plaza, Old Fourth Ward, Atlanta, Fulton County, Georgia, 30313, United States",
       "coordinateSource": "OpenStreetMap Nominatim"
+    },
+    {
+      "id": "/us/ga/atlanta/parks/chastain-memorial-park",
+      "path": "/us/ga/atlanta/parks/chastain-memorial-park",
+      "url": "https://www.auditmap.org/us/ga/atlanta/parks/chastain-memorial-park",
+      "kind": "parent",
+      "state": "GA",
+      "citySlug": "atlanta",
+      "parentSlug": "chastain-memorial-park",
+      "subsiteSlug": null,
+      "releaseStatus": "generated-locally",
+      "productionPresent": false,
+      "localPresent": true,
+      "reconciliationFlags": [
+        "not-in-production"
+      ],
+      "researchSources": [],
+      "openReviewItems": [],
+      "name": "Chastain Memorial Park",
+      "city": "Atlanta",
+      "latitude": 33.8712146,
+      "longitude": -84.3910383,
+      "positionQuality": "parent-map-coordinate",
+      "coordinateSource": "https://www.atlantaga.gov/government/departments/department-parks-recreation/office-of-parks/list-of-parks-alphabetical"
     },
     {
       "id": "/us/ga/atlanta/parks/chastain-park",
@@ -18933,6 +19101,30 @@
       "longitude": -84.3728498,
       "positionQuality": "Magnolia Hall, Welcome Plaza, Atlanta, Fulton County, Georgia, 30361, United States",
       "coordinateSource": "OpenStreetMap Nominatim"
+    },
+    {
+      "id": "/us/ga/atlanta/parks/shirley-clarke-franklin-park-westside-park",
+      "path": "/us/ga/atlanta/parks/shirley-clarke-franklin-park-westside-park",
+      "url": "https://www.auditmap.org/us/ga/atlanta/parks/shirley-clarke-franklin-park-westside-park",
+      "kind": "parent",
+      "state": "GA",
+      "citySlug": "atlanta",
+      "parentSlug": "shirley-clarke-franklin-park-westside-park",
+      "subsiteSlug": null,
+      "releaseStatus": "generated-locally",
+      "productionPresent": false,
+      "localPresent": true,
+      "reconciliationFlags": [
+        "not-in-production"
+      ],
+      "researchSources": [],
+      "openReviewItems": [],
+      "name": "Shirley Clarke Franklin Park (Westside Park)",
+      "city": "Atlanta",
+      "latitude": 33.779242,
+      "longitude": -84.4383942,
+      "positionQuality": "parent-map-coordinate",
+      "coordinateSource": "https://www.atlantaga.gov/government/departments/department-parks-recreation/office-of-parks/list-of-parks-alphabetical"
     },
     {
       "id": "/us/ga/atlanta/parks/westside-park",
@@ -23555,6 +23747,54 @@
       "longitude": -86.1709,
       "positionQuality": "parent-map-coordinate",
       "coordinateSource": "https://whiteriverstatepark.org/visit/"
+    },
+    {
+      "id": "/us/in/indianapolis/parks/white-river-state-park/canal-walk",
+      "path": "/us/in/indianapolis/parks/white-river-state-park/canal-walk",
+      "url": "https://www.auditmap.org/us/in/indianapolis/parks/white-river-state-park/canal-walk",
+      "kind": "subsite",
+      "state": "IN",
+      "citySlug": "indianapolis",
+      "parentSlug": "white-river-state-park",
+      "subsiteSlug": "canal-walk",
+      "releaseStatus": "generated-locally",
+      "productionPresent": false,
+      "localPresent": true,
+      "reconciliationFlags": [
+        "not-in-production"
+      ],
+      "researchSources": [],
+      "openReviewItems": [],
+      "name": "Canal Walk",
+      "city": "Indianapolis",
+      "latitude": 39.7676799,
+      "longitude": -86.1709498,
+      "positionQuality": "Named paved Canal Walk segment within White River State Park",
+      "coordinateSource": "https://www.openstreetmap.org/way/113883269"
+    },
+    {
+      "id": "/us/in/indianapolis/parks/white-river-state-park/celebration-plaza-amphitheater",
+      "path": "/us/in/indianapolis/parks/white-river-state-park/celebration-plaza-amphitheater",
+      "url": "https://www.auditmap.org/us/in/indianapolis/parks/white-river-state-park/celebration-plaza-amphitheater",
+      "kind": "subsite",
+      "state": "IN",
+      "citySlug": "indianapolis",
+      "parentSlug": "white-river-state-park",
+      "subsiteSlug": "celebration-plaza-amphitheater",
+      "releaseStatus": "generated-locally",
+      "productionPresent": false,
+      "localPresent": true,
+      "reconciliationFlags": [
+        "not-in-production"
+      ],
+      "researchSources": [],
+      "openReviewItems": [],
+      "name": "Celebration Plaza Amphitheater",
+      "city": "Indianapolis",
+      "latitude": 39.7677087,
+      "longitude": -86.1728016,
+      "positionQuality": "Named Celebration Plaza and Amphitheater point at White River State Park",
+      "coordinateSource": "https://www.openstreetmap.org/node/1291163463"
     },
     {
       "id": "/us/ks/kansas-city/parks/wyandotte-county-lake-park",
@@ -56205,6 +56445,30 @@
       "coordinateSource": "AuditMap reviewed public-map placement"
     },
     {
+      "id": "/us/pa/philadelphia/parks/schuylkill-banks/walnut-street-trail-hub-and-dock",
+      "path": "/us/pa/philadelphia/parks/schuylkill-banks/walnut-street-trail-hub-and-dock",
+      "url": "https://www.auditmap.org/us/pa/philadelphia/parks/schuylkill-banks/walnut-street-trail-hub-and-dock",
+      "kind": "subsite",
+      "state": "PA",
+      "citySlug": "philadelphia",
+      "parentSlug": "schuylkill-banks",
+      "subsiteSlug": "walnut-street-trail-hub-and-dock",
+      "releaseStatus": "generated-locally",
+      "productionPresent": false,
+      "localPresent": true,
+      "reconciliationFlags": [
+        "not-in-production"
+      ],
+      "researchSources": [],
+      "openReviewItems": [],
+      "name": "Walnut Street Trail Hub and Dock",
+      "city": "Philadelphia",
+      "latitude": 39.9524,
+      "longitude": -75.1797,
+      "positionQuality": "Reviewed destination placement",
+      "coordinateSource": "AuditMap reviewed public-map placement"
+    },
+    {
       "id": "/us/pa/philadelphia/parks/schuylkill-banks/walnut-street-trailhead-and-kayak-dock",
       "path": "/us/pa/philadelphia/parks/schuylkill-banks/walnut-street-trailhead-and-kayak-dock",
       "url": "https://www.auditmap.org/us/pa/philadelphia/parks/schuylkill-banks/walnut-street-trailhead-and-kayak-dock",
@@ -56271,6 +56535,30 @@
       "coordinateSource": "AuditMap reviewed public-map placement"
     },
     {
+      "id": "/us/pa/philadelphia/parks/spruce-street-harbor-park/christopher-columbus-memorial",
+      "path": "/us/pa/philadelphia/parks/spruce-street-harbor-park/christopher-columbus-memorial",
+      "url": "https://www.auditmap.org/us/pa/philadelphia/parks/spruce-street-harbor-park/christopher-columbus-memorial",
+      "kind": "subsite",
+      "state": "PA",
+      "citySlug": "philadelphia",
+      "parentSlug": "spruce-street-harbor-park",
+      "subsiteSlug": "christopher-columbus-memorial",
+      "releaseStatus": "generated-locally",
+      "productionPresent": false,
+      "localPresent": true,
+      "reconciliationFlags": [
+        "not-in-production"
+      ],
+      "researchSources": [],
+      "openReviewItems": [],
+      "name": "Christopher Columbus Memorial",
+      "city": "Philadelphia",
+      "latitude": 39.9446483,
+      "longitude": -75.1414619,
+      "positionQuality": "Reviewed destination placement",
+      "coordinateSource": "AuditMap reviewed public-map placement"
+    },
+    {
       "id": "/us/pa/philadelphia/parks/spruce-street-harbor-park/floating-gardens-and-boardwalk",
       "path": "/us/pa/philadelphia/parks/spruce-street-harbor-park/floating-gardens-and-boardwalk",
       "url": "https://www.auditmap.org/us/pa/philadelphia/parks/spruce-street-harbor-park/floating-gardens-and-boardwalk",
@@ -56289,6 +56577,30 @@
       "city": "Philadelphia",
       "latitude": 39.9446,
       "longitude": -75.1408,
+      "positionQuality": "Reviewed destination placement",
+      "coordinateSource": "AuditMap reviewed public-map placement"
+    },
+    {
+      "id": "/us/pa/philadelphia/parks/spruce-street-harbor-park/hammock-grove-and-lazy-hammock",
+      "path": "/us/pa/philadelphia/parks/spruce-street-harbor-park/hammock-grove-and-lazy-hammock",
+      "url": "https://www.auditmap.org/us/pa/philadelphia/parks/spruce-street-harbor-park/hammock-grove-and-lazy-hammock",
+      "kind": "subsite",
+      "state": "PA",
+      "citySlug": "philadelphia",
+      "parentSlug": "spruce-street-harbor-park",
+      "subsiteSlug": "hammock-grove-and-lazy-hammock",
+      "releaseStatus": "generated-locally",
+      "productionPresent": false,
+      "localPresent": true,
+      "reconciliationFlags": [
+        "not-in-production"
+      ],
+      "researchSources": [],
+      "openReviewItems": [],
+      "name": "Hammock Grove and Lazy Hammock",
+      "city": "Philadelphia",
+      "latitude": 39.9447,
+      "longitude": -75.1417,
       "positionQuality": "Reviewed destination placement",
       "coordinateSource": "AuditMap reviewed public-map placement"
     },

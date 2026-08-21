@@ -5,8 +5,8 @@ Generated: 2026-08-21
 ## Current scoreboard
 
 - **3,382** destination pages are live.
-- **63** known destinations are in the hopper.
-- **2** are generated locally but absent from production.
+- **76** known destinations are in the hopper.
+- **15** are generated locally but absent from production.
 - **51** are research-only candidates awaiting launch-guide work.
 - **10** are blocked by named review questions.
 - **0** live records need internal local/production synchronization.
@@ -22,6 +22,11 @@ The production-sync queue is reserved for maintainers and repository integrators
 | Packet | Work type | Geography | Records |
 | --- | --- | --- | ---: |
 | `research-completion-nc-wake-forest-01` | research-completion | NC / wake forest | 2 |
+| `release-reconciliation-ak-anchorage-01` | release-reconciliation | AK / anchorage | 3 |
+| `release-reconciliation-de-wilmington-01` | release-reconciliation | DE / wilmington | 2 |
+| `release-reconciliation-ga-atlanta-01` | release-reconciliation | GA / atlanta | 3 |
+| `release-reconciliation-in-indianapolis-01` | release-reconciliation | IN / indianapolis | 2 |
+| `release-reconciliation-pa-philadelphia-01` | release-reconciliation | PA / philadelphia | 3 |
 
 ## Daily merge rule
 

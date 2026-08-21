@@ -106,6 +106,7 @@
   "reviewQueue": [
     "Old Washington Street Bridge, Celebration Plaza lawn, Military Park, State Museum Lawn, NCAA Hall of Champions, Eiteljorg Museum and Indianapolis Zoo remain deferred until exact arrival, complete destination facts and matching reusable photography clear together.",
     "The operator visit page still displays an August 15 closure notice that explicitly says reopening August 16; it is recorded as expired and requires same-day alert rechecking rather than publication as a current closure.",
+    "The national registry classifies Canal Walk and Celebration Plaza Amphitheater in open packet release-reconciliation-in-indianapolis-01 until PR #54 is reviewed, merged and deployed; local generation does not count as production publication.",
     "A plain local file server cannot validate Vercel image optimization or live API fallbacks; final optimized-image and live-service checks remain assigned to the pull-request preview."
   ],
   "verification": {
@@ -115,6 +116,7 @@
     "desktopLayout": "passed-local-browser",
     "phone390Layout": "passed-local-browser-no-horizontal-overflow",
     "localOriginalImages": "passed",
-    "vercelPreview": "passed-protected-preview-three-routes-and-two-optimized-images"
+    "vercelPreview": "passed-protected-preview-three-routes-and-two-optimized-images",
+    "nationalRegistry": "passed-filesystem-backed-local-page-discovery-two-indianapolis-records"
   }
 }
