@@ -291,11 +291,11 @@
     }
   ],
   "activeCluster": {
-    "name": "Fayetteville Arnette Park research completion",
-    "reason": "The national claim ledger identified Arnette Park as one exact Fayetteville inventory packet. Current City visitor and GIS evidence resolves the address and coordinate conflict, while current general hours and representative reusable photography remain unresolved.",
-    "releaseStandard": "Complete the inventory record with current official sources, reviewed coordinate provenance, a resolved visitor-versus-parcel address decision, current-use evidence, image-rights findings, and unresolved questions. Do not promote the record to a launch guide until current operator hours, representative reusable media, and the complete recurring visitor-answer set clear review.",
-    "status": "fayetteville-arnette-source-record-complete-hours-and-photo-gated",
-    "metros": ["Fayetteville"],
+    "name": "Mesa public parks catalogue-breadth recovery",
+    "reason": "The catalogue-growth scorecard placed breadth behind target, so the next work block is one exact 25-parent municipality inventory rather than another depth cluster. Current City facility pages and stable City data IDs support a bounded Mesa packet.",
+    "releaseStandard": "Qualify each parent with current official identity, address, stable source ID, reviewed coordinate provenance, duplicate classification, freshness, image-rights boundaries, and a release-ledger state. Do not promote inventory records to launch guides or redistribute restricted City geometry.",
+    "status": "mesa-25-parent-inventory-source-complete-launch-guide-gated",
+    "metros": ["Mesa"],
     "resumeCheckpoint": {
       "pausedAt": "2026-08-20",
       "completed": [
@@ -494,9 +494,13 @@
       "Resolved Clawson-Burnley's street-only coordinate to the current Town facility map pin, cross-checked against named Town GIS park structures and the Town-owned parcel.",
       "Resolved Boone Jaycee Park as a Town-defined child of Daniel Boone Park rather than a duplicate major parent; retained its dawn-to-dusk schedule as child-specific only.",
       "Resolved Junaluska's current visitor address to 135 Bear Trail and validated the reviewed point against the Town structure footprint; retained the embedded 175 Summit residential pin as conflicting legacy evidence rather than navigation.",
-      "Ran twelve Openverse queries plus Commons exact-name and geosearch review; rejected the wrong-park and insect-close-up results and accepted zero parent images across the Boone packet."
+      "Ran twelve Openverse queries plus Commons exact-name and geosearch review; rejected the wrong-park and insect-close-up results and accepted zero parent images across the Boone packet.",
+      "Qualified 25 current City of Mesa park parents with stable municipal facility IDs, current official pages, reviewed coordinates, freshness classifications, and explicit inventory-only release states.",
+      "Retained Monterey Park as an alias for Christopher J. Brady Park and excluded Hohokam Stadium from the general public-park packet based on the current City facility identity.",
+      "Resolved four City facility-page pins that fall outside City park boundaries by using named OpenStreetMap park geometry for Fitch, Eagles, Kleinman, and Sherwood while retaining the City pins as conflicts.",
+      "Registered Mesa's directory, annual data, and boundary services with noncommercial and redistribution restrictions; imported no City media or geometry."
       ],
-    "nextAction": "Review Boone draft PR #48 and mark the claim changes-requested or accepted as appropriate, then refresh the national registry and claim one exact next packet. Do not reopen Cleveland-through-Boise releases or publish any Boone parent until current hours, representative reusable media, and complete separately assigned launch-guide answer sets clear review.",
+    "nextAction": "Complete and review the exact Mesa packet `research-completion-az-mesa-01`. Keep all 25 parents at inventory tier until separately assigned current visitor profiles, representative reusable photography, and final coordinate rechecks clear; do not open another breadth or depth packet first.",
       "notReleased": true,
       "productionPublished": false
     }
