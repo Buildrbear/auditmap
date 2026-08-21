@@ -1,0 +1,1205 @@
+{
+  "schemaVersion": 1,
+  "campaignId": "mesa-public-parks-2026-08-20",
+  "title": "City of Mesa 25-park catalogue breadth recovery",
+  "contributionTier": "inventory",
+  "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+  "researchHandoffUrl": "https://github.com/Buildrbear/auditmap/issues/49",
+  "githubIssueUrl": "https://github.com/Buildrbear/auditmap/issues/49",
+  "checkedAt": "2026-08-20",
+  "selection": {
+    "rule": "Twenty-five largest current City-directory park parents among the reviewed top acreage rows in the City Parks Locations and Amenities dataset, excluding Hohokam Stadium as a staffed ticketed sports facility rather than a general park parent.",
+    "candidateCount": 26,
+    "acceptedCount": 25,
+    "excluded": [
+      {
+        "name": "Hohokam Stadium",
+        "officialRecordId": "PKPK6",
+        "reason": "City inventory type Park is overridden by the current facility identity as a staffed spring-training stadium; exclude from this general public-park parent packet."
+      }
+    ]
+  },
+  "sourcePolicy": {
+    "facilityDirectory": "Current City facility pages control canonical identity, current address, and visitor-map pin when spatial review does not identify a conflict.",
+    "openData": "The annual City dataset supplies stable facility IDs and cross-check metadata; its 2024 attributes do not control current visitor facts.",
+    "spatialReview": "City park boundaries are used only to test candidate pins and are not copied or redistributed.",
+    "imageRights": "No City images are imported. City website content is CC BY-NC-SA 3.0 US with source-specific exceptions; commercial reuse is not assumed.",
+    "termsUrl": "https://www.mesaaz.gov/Government/ADA-Policies-Disclaimer"
+  },
+  "releasePolicy": {
+    "researchCompleteIsDeployable": false,
+    "requiredNextTier": "launch-guide",
+    "maintainerApprovalRequired": true,
+    "publicationGates": [
+      "Complete current recurring visitor answers for each separately assigned parent.",
+      "Obtain representative reusable parent photography with destination identity and attribution.",
+      "Recheck the four resolved City-page coordinate conflicts before navigation is published.",
+      "Do not redistribute City GIS geometry or annual dataset extracts."
+    ]
+  },
+  "records": [
+    {
+      "slug": "mesa-red-mountain-park",
+      "name": "Red Mountain Park",
+      "aliases": [],
+      "city": "Mesa",
+      "state": "AZ",
+      "address": "7745 E. Brown Rd, Mesa, AZ 85207",
+      "latitude": 33.4344107,
+      "longitude": -111.6693574,
+      "managing_agency": "City of Mesa Parks, Recreation and Community Facilities",
+      "official_source_url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Red-Mountain-Park",
+      "official_record_id": "PKPK21",
+      "coordinate_source": "City of Mesa current Red Mountain Park facility-page visitor map pin",
+      "coordinate_source_url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Red-Mountain-Park",
+      "coordinate_precision": "official visitor location pin",
+      "position_quality": "reviewed-official-facility-map-pin",
+      "source_dataset_reference": {
+        "url": "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK21",
+        "reportedName": "Red Mountain",
+        "reportedType": "Park",
+        "reportedAcres": 581.7,
+        "reportedLatitude": 33.434382,
+        "reportedLongitude": -111.669402,
+        "dataLastUpdated": "2024-09-30",
+        "usageRule": "Retained as source and cross-check metadata only; do not redistribute City geometry or treat annual attributes as current operating facts."
+      },
+      "duplicate_status": "accepted-net-new-parent",
+      "duplicate_basis": "No Mesa route or normalized Mesa parent match exists in the current AuditMap production or local catalogues; current City facility identity reviewed.",
+      "contribution_status": "qualified-inventory-parent",
+      "freshness": "current-official-facility-page-with-annual-open-data-cross-check",
+      "source_checked_at": "2026-08-20",
+      "sources": [
+        {
+          "label": "City of Mesa Red Mountain Park facility page",
+          "url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Red-Mountain-Park",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of Mesa Parks Locations and Amenities row PKPK21",
+          "url": "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK21",
+          "checkedAt": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "slug": "mesa-riverview-park",
+      "name": "Riverview Park",
+      "aliases": [],
+      "city": "Mesa",
+      "state": "AZ",
+      "address": "2100 W Rio Salado Pkwy, Mesa, AZ 85201",
+      "latitude": 33.4338241,
+      "longitude": -111.8779768,
+      "managing_agency": "City of Mesa Parks, Recreation and Community Facilities",
+      "official_source_url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Riverview-Park",
+      "official_record_id": "PKPK76",
+      "coordinate_source": "City of Mesa current Riverview Park facility-page visitor map pin",
+      "coordinate_source_url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Riverview-Park",
+      "coordinate_precision": "official visitor location pin",
+      "position_quality": "reviewed-official-facility-map-pin",
+      "source_dataset_reference": {
+        "url": "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK76",
+        "reportedName": "Riverview",
+        "reportedType": "Park",
+        "reportedAcres": 137.1,
+        "reportedLatitude": 33.4310511,
+        "reportedLongitude": -111.8756309,
+        "dataLastUpdated": "2024-09-30",
+        "usageRule": "Retained as source and cross-check metadata only; do not redistribute City geometry or treat annual attributes as current operating facts."
+      },
+      "duplicate_status": "accepted-net-new-parent",
+      "duplicate_basis": "No Mesa route or normalized Mesa parent match exists in the current AuditMap production or local catalogues; current City facility identity reviewed.",
+      "contribution_status": "qualified-inventory-parent",
+      "freshness": "current-official-facility-page-with-annual-open-data-cross-check",
+      "source_checked_at": "2026-08-20",
+      "sources": [
+        {
+          "label": "City of Mesa Riverview Park facility page",
+          "url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Riverview-Park",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of Mesa Parks Locations and Amenities row PKPK76",
+          "url": "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK76",
+          "checkedAt": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "slug": "mesa-desert-arroyo-park",
+      "name": "Desert Arroyo Park",
+      "aliases": [],
+      "city": "Mesa",
+      "state": "AZ",
+      "address": "9320 E Mckellips Rd, Mesa, AZ 85207",
+      "latitude": 33.453646,
+      "longitude": -111.630062,
+      "managing_agency": "City of Mesa Parks, Recreation and Community Facilities",
+      "official_source_url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Desert-Arroyo-Park",
+      "official_record_id": "PKPK82",
+      "coordinate_source": "City of Mesa current Desert Arroyo Park facility-page visitor map pin",
+      "coordinate_source_url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Desert-Arroyo-Park",
+      "coordinate_precision": "official visitor location pin",
+      "position_quality": "reviewed-official-facility-map-pin",
+      "source_dataset_reference": {
+        "url": "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK82",
+        "reportedName": "Desert Arroyo",
+        "reportedType": "Park",
+        "reportedAcres": 58,
+        "reportedLatitude": 33.4536655,
+        "reportedLongitude": -111.6300913,
+        "dataLastUpdated": "2024-09-30",
+        "usageRule": "Retained as source and cross-check metadata only; do not redistribute City geometry or treat annual attributes as current operating facts."
+      },
+      "duplicate_status": "accepted-net-new-parent",
+      "duplicate_basis": "No Mesa route or normalized Mesa parent match exists in the current AuditMap production or local catalogues; current City facility identity reviewed.",
+      "contribution_status": "qualified-inventory-parent",
+      "freshness": "current-official-facility-page-with-annual-open-data-cross-check",
+      "source_checked_at": "2026-08-20",
+      "sources": [
+        {
+          "label": "City of Mesa Desert Arroyo Park facility page",
+          "url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Desert-Arroyo-Park",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of Mesa Parks Locations and Amenities row PKPK82",
+          "url": "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK82",
+          "checkedAt": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "slug": "mesa-gene-autry-park",
+      "name": "Gene Autry Park",
+      "aliases": [],
+      "city": "Mesa",
+      "state": "AZ",
+      "address": "4125 E Mckellips Rd, Mesa, AZ 85215",
+      "latitude": 33.4508074,
+      "longitude": -111.7431839,
+      "managing_agency": "City of Mesa Parks, Recreation and Community Facilities",
+      "official_source_url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Gene-Autry-Park",
+      "official_record_id": "PKPK27",
+      "coordinate_source": "City of Mesa current Gene Autry Park facility-page visitor map pin",
+      "coordinate_source_url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Gene-Autry-Park",
+      "coordinate_precision": "official visitor location pin",
+      "position_quality": "reviewed-official-facility-map-pin",
+      "source_dataset_reference": {
+        "url": "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK27",
+        "reportedName": "Gene Autry",
+        "reportedType": "Park",
+        "reportedAcres": 47,
+        "reportedLatitude": 33.4507713,
+        "reportedLongitude": -111.7431172,
+        "dataLastUpdated": "2024-09-30",
+        "usageRule": "Retained as source and cross-check metadata only; do not redistribute City geometry or treat annual attributes as current operating facts."
+      },
+      "duplicate_status": "accepted-net-new-parent",
+      "duplicate_basis": "No Mesa route or normalized Mesa parent match exists in the current AuditMap production or local catalogues; current City facility identity reviewed.",
+      "contribution_status": "qualified-inventory-parent",
+      "freshness": "current-official-facility-page-with-annual-open-data-cross-check",
+      "source_checked_at": "2026-08-20",
+      "sources": [
+        {
+          "label": "City of Mesa Gene Autry Park facility page",
+          "url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Gene-Autry-Park",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of Mesa Parks Locations and Amenities row PKPK27",
+          "url": "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK27",
+          "checkedAt": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "slug": "mesa-quail-run-park",
+      "name": "Quail Run Park",
+      "aliases": [],
+      "city": "Mesa",
+      "state": "AZ",
+      "address": "4155 E. Virginia St, Mesa, AZ 85215",
+      "latitude": 33.4758875,
+      "longitude": -111.7389059,
+      "managing_agency": "City of Mesa Parks, Recreation and Community Facilities",
+      "official_source_url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Quail-Run-Park",
+      "official_record_id": "PKPK22",
+      "coordinate_source": "City of Mesa current Quail Run Park facility-page visitor map pin",
+      "coordinate_source_url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Quail-Run-Park",
+      "coordinate_precision": "official visitor location pin",
+      "position_quality": "reviewed-official-facility-map-pin",
+      "source_dataset_reference": {
+        "url": "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK22",
+        "reportedName": "Quail Run",
+        "reportedType": "Park",
+        "reportedAcres": 40,
+        "reportedLatitude": 33.4782752,
+        "reportedLongitude": -111.7400121,
+        "dataLastUpdated": "2024-09-30",
+        "usageRule": "Retained as source and cross-check metadata only; do not redistribute City geometry or treat annual attributes as current operating facts."
+      },
+      "duplicate_status": "accepted-net-new-parent",
+      "duplicate_basis": "No Mesa route or normalized Mesa parent match exists in the current AuditMap production or local catalogues; current City facility identity reviewed.",
+      "contribution_status": "qualified-inventory-parent",
+      "freshness": "current-official-facility-page-with-annual-open-data-cross-check",
+      "source_checked_at": "2026-08-20",
+      "sources": [
+        {
+          "label": "City of Mesa Quail Run Park facility page",
+          "url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Quail-Run-Park",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of Mesa Parks Locations and Amenities row PKPK22",
+          "url": "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK22",
+          "checkedAt": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "slug": "mesa-desert-trails-park",
+      "name": "Desert Trails Park",
+      "aliases": [],
+      "city": "Mesa",
+      "state": "AZ",
+      "address": "2955 N Recker Rd, Mesa, AZ 85215",
+      "latitude": 33.4695948,
+      "longitude": -111.7010654,
+      "managing_agency": "City of Mesa Parks, Recreation and Community Facilities",
+      "official_source_url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Desert-Trails-Park",
+      "official_record_id": "PKPK3",
+      "coordinate_source": "City of Mesa current Desert Trails Park facility-page visitor map pin",
+      "coordinate_source_url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Desert-Trails-Park",
+      "coordinate_precision": "official visitor location pin",
+      "position_quality": "reviewed-official-facility-map-pin",
+      "source_dataset_reference": {
+        "url": "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK3",
+        "reportedName": "Desert Trails",
+        "reportedType": "Park",
+        "reportedAcres": 35,
+        "reportedLatitude": 33.4692574,
+        "reportedLongitude": -111.7012174,
+        "dataLastUpdated": "2024-09-30",
+        "usageRule": "Retained as source and cross-check metadata only; do not redistribute City geometry or treat annual attributes as current operating facts."
+      },
+      "duplicate_status": "accepted-net-new-parent",
+      "duplicate_basis": "No Mesa route or normalized Mesa parent match exists in the current AuditMap production or local catalogues; current City facility identity reviewed.",
+      "contribution_status": "qualified-inventory-parent",
+      "freshness": "current-official-facility-page-with-annual-open-data-cross-check",
+      "source_checked_at": "2026-08-20",
+      "sources": [
+        {
+          "label": "City of Mesa Desert Trails Park facility page",
+          "url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Desert-Trails-Park",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of Mesa Parks Locations and Amenities row PKPK3",
+          "url": "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK3",
+          "checkedAt": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "slug": "mesa-fitch-park",
+      "name": "Fitch Park",
+      "aliases": [],
+      "city": "Mesa",
+      "state": "AZ",
+      "address": "651 N Center, Mesa, AZ 85211",
+      "latitude": 33.4284255,
+      "longitude": -111.8284149,
+      "managing_agency": "City of Mesa Parks, Recreation and Community Facilities",
+      "official_source_url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Fitch-Park",
+      "official_record_id": "PKPK53",
+      "coordinate_source": "OpenStreetMap named Fitch Park relation 11790087, cross-checked against the current City address and City park boundary",
+      "coordinate_source_url": "https://www.openstreetmap.org/relation/11790087",
+      "coordinate_precision": "named park geometry representative point",
+      "position_quality": "reviewed-named-osm-park-geometry",
+      "coordinate_reconciliation": {
+        "status": "resolved-city-page-pin-outside-official-boundary",
+        "cityPagePin": {
+          "latitude": 33.4269592,
+          "longitude": -111.8313575,
+          "source": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Fitch-Park"
+        },
+        "finding": "The current City facility-page pin falls outside the City park boundary, while the named OpenStreetMap relation matches the City name, address, and boundary.",
+        "publication_rule": "Use the reviewed named-park geometry point for inventory navigation; retain the City page pin as conflicting source evidence and recheck before launch-guide publication."
+      },
+      "source_dataset_reference": {
+        "url": "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK53",
+        "reportedName": "Fitch",
+        "reportedType": "Park",
+        "reportedAcres": 31,
+        "reportedLatitude": 33.428764,
+        "reportedLongitude": -111.829657,
+        "dataLastUpdated": "2024-09-30",
+        "usageRule": "Retained as source and cross-check metadata only; do not redistribute City geometry or treat annual attributes as current operating facts."
+      },
+      "duplicate_status": "accepted-net-new-parent",
+      "duplicate_basis": "No Mesa route or normalized Mesa parent match exists in the current AuditMap production or local catalogues; current City facility identity reviewed.",
+      "contribution_status": "qualified-inventory-parent",
+      "freshness": "current-official-facility-page-with-annual-open-data-cross-check",
+      "source_checked_at": "2026-08-20",
+      "sources": [
+        {
+          "label": "City of Mesa Fitch Park facility page",
+          "url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Fitch-Park",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of Mesa Parks Locations and Amenities row PKPK53",
+          "url": "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK53",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "OpenStreetMap named Fitch Park geometry",
+          "url": "https://www.openstreetmap.org/relation/11790087",
+          "checkedAt": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "slug": "mesa-park-of-the-canals",
+      "name": "Park of the Canals",
+      "aliases": [],
+      "city": "Mesa",
+      "state": "AZ",
+      "address": "1710 N Horne, Mesa, AZ 85203",
+      "latitude": 33.4455525,
+      "longitude": -111.8140998,
+      "managing_agency": "City of Mesa Parks, Recreation and Community Facilities",
+      "official_source_url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Park-of-the-Canals",
+      "official_record_id": "PKPK7",
+      "coordinate_source": "City of Mesa current Park of the Canals facility-page visitor map pin",
+      "coordinate_source_url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Park-of-the-Canals",
+      "coordinate_precision": "official visitor location pin",
+      "position_quality": "reviewed-official-facility-map-pin",
+      "source_dataset_reference": {
+        "url": "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK7",
+        "reportedName": "Park of the Canals",
+        "reportedType": "Park",
+        "reportedAcres": 31,
+        "reportedLatitude": 33.443226,
+        "reportedLongitude": -111.816851,
+        "dataLastUpdated": "2024-09-30",
+        "usageRule": "Retained as source and cross-check metadata only; do not redistribute City geometry or treat annual attributes as current operating facts."
+      },
+      "duplicate_status": "accepted-net-new-parent",
+      "duplicate_basis": "No Mesa route or normalized Mesa parent match exists in the current AuditMap production or local catalogues; current City facility identity reviewed.",
+      "contribution_status": "qualified-inventory-parent",
+      "freshness": "current-official-facility-page-with-annual-open-data-cross-check",
+      "source_checked_at": "2026-08-20",
+      "sources": [
+        {
+          "label": "City of Mesa Park of the Canals facility page",
+          "url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Park-of-the-Canals",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of Mesa Parks Locations and Amenities row PKPK7",
+          "url": "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK7",
+          "checkedAt": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "slug": "mesa-skyline-park",
+      "name": "Skyline Park",
+      "aliases": [],
+      "city": "Mesa",
+      "state": "AZ",
+      "address": "655 S Crismon Rd, Mesa, AZ 85208",
+      "latitude": 33.4023326,
+      "longitude": -111.6123435,
+      "managing_agency": "City of Mesa Parks, Recreation and Community Facilities",
+      "official_source_url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Skyline-Park",
+      "official_record_id": "PKPK33",
+      "coordinate_source": "City of Mesa current Skyline Park facility-page visitor map pin",
+      "coordinate_source_url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Skyline-Park",
+      "coordinate_precision": "official visitor location pin",
+      "position_quality": "reviewed-official-facility-map-pin",
+      "source_dataset_reference": {
+        "url": "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK33",
+        "reportedName": "Skyline",
+        "reportedType": "Park",
+        "reportedAcres": 30,
+        "reportedLatitude": 33.4023394,
+        "reportedLongitude": -111.6123911,
+        "dataLastUpdated": "2024-09-30",
+        "usageRule": "Retained as source and cross-check metadata only; do not redistribute City geometry or treat annual attributes as current operating facts."
+      },
+      "duplicate_status": "accepted-net-new-parent",
+      "duplicate_basis": "No Mesa route or normalized Mesa parent match exists in the current AuditMap production or local catalogues; current City facility identity reviewed.",
+      "contribution_status": "qualified-inventory-parent",
+      "freshness": "current-official-facility-page-with-annual-open-data-cross-check",
+      "source_checked_at": "2026-08-20",
+      "sources": [
+        {
+          "label": "City of Mesa Skyline Park facility page",
+          "url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Skyline-Park",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of Mesa Parks Locations and Amenities row PKPK33",
+          "url": "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK33",
+          "checkedAt": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "slug": "mesa-eagles-park",
+      "name": "Eagles Park",
+      "aliases": [],
+      "city": "Mesa",
+      "state": "AZ",
+      "address": "828 E Broadway Rd, Mesa, AZ 85204",
+      "latitude": 33.4096974,
+      "longitude": -111.8127122,
+      "managing_agency": "City of Mesa Parks, Recreation and Community Facilities",
+      "official_source_url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Eagles-Park",
+      "official_record_id": "PKPK86",
+      "coordinate_source": "OpenStreetMap named Eagles Park way 853979558, cross-checked against the current City address and City park boundary",
+      "coordinate_source_url": "https://www.openstreetmap.org/way/853979558",
+      "coordinate_precision": "named park geometry representative point",
+      "position_quality": "reviewed-named-osm-park-geometry",
+      "coordinate_reconciliation": {
+        "status": "resolved-city-page-pin-outside-official-boundary",
+        "cityPagePin": {
+          "latitude": 33.426128,
+          "longitude": -111.828185,
+          "source": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Eagles-Park"
+        },
+        "finding": "The current City facility-page pin falls outside the City park boundary, while the named OpenStreetMap way matches the City name, address, and boundary.",
+        "publication_rule": "Use the reviewed named-park geometry point for inventory navigation; retain the City page pin as conflicting source evidence and recheck before launch-guide publication."
+      },
+      "source_dataset_reference": {
+        "url": "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK86",
+        "reportedName": "Eagles",
+        "reportedType": "Park",
+        "reportedAcres": 28.3,
+        "reportedLatitude": 33.408244,
+        "reportedLongitude": -111.813699,
+        "dataLastUpdated": "2024-09-30",
+        "usageRule": "Retained as source and cross-check metadata only; do not redistribute City geometry or treat annual attributes as current operating facts."
+      },
+      "duplicate_status": "accepted-net-new-parent",
+      "duplicate_basis": "No Mesa route or normalized Mesa parent match exists in the current AuditMap production or local catalogues; current City facility identity reviewed.",
+      "contribution_status": "qualified-inventory-parent",
+      "freshness": "current-official-facility-page-with-annual-open-data-cross-check",
+      "source_checked_at": "2026-08-20",
+      "sources": [
+        {
+          "label": "City of Mesa Eagles Park facility page",
+          "url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Eagles-Park",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of Mesa Parks Locations and Amenities row PKPK86",
+          "url": "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK86",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "OpenStreetMap named Eagles Park geometry",
+          "url": "https://www.openstreetmap.org/way/853979558",
+          "checkedAt": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "slug": "mesa-countryside-park",
+      "name": "Countryside Park",
+      "aliases": [],
+      "city": "Mesa",
+      "state": "AZ",
+      "address": "3130 E Southern Ave, Mesa, AZ 85204",
+      "latitude": 33.3944188,
+      "longitude": -111.7625856,
+      "managing_agency": "City of Mesa Parks, Recreation and Community Facilities",
+      "official_source_url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Countryside-Park",
+      "official_record_id": "PKPK48",
+      "coordinate_source": "City of Mesa current Countryside Park facility-page visitor map pin",
+      "coordinate_source_url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Countryside-Park",
+      "coordinate_precision": "official visitor location pin",
+      "position_quality": "reviewed-official-facility-map-pin",
+      "source_dataset_reference": {
+        "url": "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK48",
+        "reportedName": "Countryside",
+        "reportedType": "Park",
+        "reportedAcres": 28,
+        "reportedLatitude": 33.3944188,
+        "reportedLongitude": -111.7625856,
+        "dataLastUpdated": "2024-09-30",
+        "usageRule": "Retained as source and cross-check metadata only; do not redistribute City geometry or treat annual attributes as current operating facts."
+      },
+      "duplicate_status": "accepted-net-new-parent",
+      "duplicate_basis": "No Mesa route or normalized Mesa parent match exists in the current AuditMap production or local catalogues; current City facility identity reviewed.",
+      "contribution_status": "qualified-inventory-parent",
+      "freshness": "current-official-facility-page-with-annual-open-data-cross-check",
+      "source_checked_at": "2026-08-20",
+      "sources": [
+        {
+          "label": "City of Mesa Countryside Park facility page",
+          "url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Countryside-Park",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of Mesa Parks Locations and Amenities row PKPK48",
+          "url": "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK48",
+          "checkedAt": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "slug": "mesa-kleinman-park",
+      "name": "Kleinman Park",
+      "aliases": [],
+      "city": "Mesa",
+      "state": "AZ",
+      "address": "710 S. Extension Rd., Mesa, AZ 85210",
+      "latitude": 33.4024426,
+      "longitude": -111.850605,
+      "managing_agency": "City of Mesa Parks, Recreation and Community Facilities",
+      "official_source_url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Kleinman-Park",
+      "official_record_id": "PKPK10",
+      "coordinate_source": "OpenStreetMap named Kleinman Park way 1120482076, cross-checked against the current City address and City park boundary",
+      "coordinate_source_url": "https://www.openstreetmap.org/way/1120482076",
+      "coordinate_precision": "named park geometry representative point",
+      "position_quality": "reviewed-named-osm-park-geometry",
+      "coordinate_reconciliation": {
+        "status": "resolved-city-page-pin-outside-official-boundary",
+        "cityPagePin": {
+          "latitude": 33.3981563,
+          "longitude": -111.8482361,
+          "source": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Kleinman-Park"
+        },
+        "finding": "The current City facility-page pin falls outside the City park boundary, while the named OpenStreetMap way matches the City name, address, and boundary.",
+        "publication_rule": "Use the reviewed named-park geometry point for inventory navigation; retain the City page pin as conflicting source evidence and recheck before launch-guide publication."
+      },
+      "source_dataset_reference": {
+        "url": "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK10",
+        "reportedName": "Kleinman",
+        "reportedType": "Park",
+        "reportedAcres": 24.6,
+        "reportedLatitude": 33.401918,
+        "reportedLongitude": -111.850506,
+        "dataLastUpdated": "2024-09-30",
+        "usageRule": "Retained as source and cross-check metadata only; do not redistribute City geometry or treat annual attributes as current operating facts."
+      },
+      "duplicate_status": "accepted-net-new-parent",
+      "duplicate_basis": "No Mesa route or normalized Mesa parent match exists in the current AuditMap production or local catalogues; current City facility identity reviewed.",
+      "contribution_status": "qualified-inventory-parent",
+      "freshness": "current-official-facility-page-with-annual-open-data-cross-check",
+      "source_checked_at": "2026-08-20",
+      "sources": [
+        {
+          "label": "City of Mesa Kleinman Park facility page",
+          "url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Kleinman-Park",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of Mesa Parks Locations and Amenities row PKPK10",
+          "url": "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK10",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "OpenStreetMap named Kleinman Park geometry",
+          "url": "https://www.openstreetmap.org/way/1120482076",
+          "checkedAt": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "slug": "mesa-carriage-lane-park",
+      "name": "Carriage Lane Park",
+      "aliases": [],
+      "city": "Mesa",
+      "state": "AZ",
+      "address": "3140 S Carriage Lane, Mesa, AZ 85202",
+      "latitude": 33.357702,
+      "longitude": -111.890752,
+      "managing_agency": "City of Mesa Parks, Recreation and Community Facilities",
+      "official_source_url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Carriage-Lane-Park",
+      "official_record_id": "PKPK15",
+      "coordinate_source": "City of Mesa current Carriage Lane Park facility-page visitor map pin",
+      "coordinate_source_url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Carriage-Lane-Park",
+      "coordinate_precision": "official visitor location pin",
+      "position_quality": "reviewed-official-facility-map-pin",
+      "source_dataset_reference": {
+        "url": "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK15",
+        "reportedName": "Carriage Lane",
+        "reportedType": "Park",
+        "reportedAcres": 23,
+        "reportedLatitude": 33.357702,
+        "reportedLongitude": -111.890752,
+        "dataLastUpdated": "2024-09-30",
+        "usageRule": "Retained as source and cross-check metadata only; do not redistribute City geometry or treat annual attributes as current operating facts."
+      },
+      "duplicate_status": "accepted-net-new-parent",
+      "duplicate_basis": "No Mesa route or normalized Mesa parent match exists in the current AuditMap production or local catalogues; current City facility identity reviewed.",
+      "contribution_status": "qualified-inventory-parent",
+      "freshness": "current-official-facility-page-with-annual-open-data-cross-check",
+      "source_checked_at": "2026-08-20",
+      "sources": [
+        {
+          "label": "City of Mesa Carriage Lane Park facility page",
+          "url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Carriage-Lane-Park",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of Mesa Parks Locations and Amenities row PKPK15",
+          "url": "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK15",
+          "checkedAt": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "slug": "mesa-falcon-hill-park",
+      "name": "Falcon Hill Park",
+      "aliases": [],
+      "city": "Mesa",
+      "state": "AZ",
+      "address": "7222 E Jensen St, Mesa, AZ 85207",
+      "latitude": 33.44911070000001,
+      "longitude": -111.6747246,
+      "managing_agency": "City of Mesa Parks, Recreation and Community Facilities",
+      "official_source_url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Falcon-Hill-Park",
+      "official_record_id": "PKPK20",
+      "coordinate_source": "City of Mesa current Falcon Hill Park facility-page visitor map pin",
+      "coordinate_source_url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Falcon-Hill-Park",
+      "coordinate_precision": "official visitor location pin",
+      "position_quality": "reviewed-official-facility-map-pin",
+      "source_dataset_reference": {
+        "url": "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK20",
+        "reportedName": "Falcon Hill",
+        "reportedType": "Park",
+        "reportedAcres": 22.1,
+        "reportedLatitude": 33.448831,
+        "reportedLongitude": -111.67464,
+        "dataLastUpdated": "2024-09-30",
+        "usageRule": "Retained as source and cross-check metadata only; do not redistribute City geometry or treat annual attributes as current operating facts."
+      },
+      "duplicate_status": "accepted-net-new-parent",
+      "duplicate_basis": "No Mesa route or normalized Mesa parent match exists in the current AuditMap production or local catalogues; current City facility identity reviewed.",
+      "contribution_status": "qualified-inventory-parent",
+      "freshness": "current-official-facility-page-with-annual-open-data-cross-check",
+      "source_checked_at": "2026-08-20",
+      "sources": [
+        {
+          "label": "City of Mesa Falcon Hill Park facility page",
+          "url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Falcon-Hill-Park",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of Mesa Parks Locations and Amenities row PKPK20",
+          "url": "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK20",
+          "checkedAt": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "slug": "mesa-sherwood-park",
+      "name": "Sherwood Park",
+      "aliases": [],
+      "city": "Mesa",
+      "state": "AZ",
+      "address": "1435 S Horne, Mesa, AZ 85204",
+      "latitude": 33.3876516,
+      "longitude": -111.8114397,
+      "managing_agency": "City of Mesa Parks, Recreation and Community Facilities",
+      "official_source_url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Sherwood-Park",
+      "official_record_id": "PKPK18",
+      "coordinate_source": "OpenStreetMap named Sherwood Park way 1408452333, cross-checked against the current City address and City park boundary",
+      "coordinate_source_url": "https://www.openstreetmap.org/way/1408452333",
+      "coordinate_precision": "named park geometry representative point",
+      "position_quality": "reviewed-named-osm-park-geometry",
+      "coordinate_reconciliation": {
+        "status": "resolved-city-page-pin-outside-official-boundary",
+        "cityPagePin": {
+          "latitude": 33.389204,
+          "longitude": -111.8142245,
+          "source": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Sherwood-Park"
+        },
+        "finding": "The current City facility-page pin falls outside the City park boundary, while the named OpenStreetMap way matches the City name, address, and boundary.",
+        "publication_rule": "Use the reviewed named-park geometry point for inventory navigation; retain the City page pin as conflicting source evidence and recheck before launch-guide publication."
+      },
+      "source_dataset_reference": {
+        "url": "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK18",
+        "reportedName": "Sherwood",
+        "reportedType": "Park",
+        "reportedAcres": 22,
+        "reportedLatitude": 33.3875847,
+        "reportedLongitude": -111.8118641,
+        "dataLastUpdated": "2024-09-30",
+        "usageRule": "Retained as source and cross-check metadata only; do not redistribute City geometry or treat annual attributes as current operating facts."
+      },
+      "duplicate_status": "accepted-net-new-parent",
+      "duplicate_basis": "No Mesa route or normalized Mesa parent match exists in the current AuditMap production or local catalogues; current City facility identity reviewed.",
+      "contribution_status": "qualified-inventory-parent",
+      "freshness": "current-official-facility-page-with-annual-open-data-cross-check",
+      "source_checked_at": "2026-08-20",
+      "sources": [
+        {
+          "label": "City of Mesa Sherwood Park facility page",
+          "url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Sherwood-Park",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of Mesa Parks Locations and Amenities row PKPK18",
+          "url": "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK18",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "OpenStreetMap named Sherwood Park geometry",
+          "url": "https://www.openstreetmap.org/way/1408452333",
+          "checkedAt": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "slug": "mesa-christopher-j-brady-park",
+      "name": "Christopher J. Brady Park",
+      "aliases": [
+        "Monterey Park",
+        "Monterey"
+      ],
+      "city": "Mesa",
+      "state": "AZ",
+      "address": "7045 E. Monterey Ave., Mesa, AZ 85209",
+      "latitude": 33.3660726,
+      "longitude": -111.6816795,
+      "managing_agency": "City of Mesa Parks, Recreation and Community Facilities",
+      "official_source_url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Christopher-J.-Brady-Park",
+      "official_record_id": "PKPK35",
+      "coordinate_source": "City of Mesa current Christopher J. Brady Park facility-page visitor map pin",
+      "coordinate_source_url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Christopher-J.-Brady-Park",
+      "coordinate_precision": "official visitor location pin",
+      "position_quality": "reviewed-official-facility-map-pin",
+      "source_dataset_reference": {
+        "url": "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK35",
+        "reportedName": "Monterey",
+        "reportedType": "Park",
+        "reportedAcres": 21,
+        "reportedLatitude": 33.3660726,
+        "reportedLongitude": -111.6816795,
+        "dataLastUpdated": "2024-09-30",
+        "usageRule": "Retained as source and cross-check metadata only; do not redistribute City geometry or treat annual attributes as current operating facts."
+      },
+      "duplicate_status": "accepted-net-new-parent",
+      "duplicate_basis": "No Mesa route or normalized Mesa parent match exists in the current AuditMap production or local catalogues; current City facility identity reviewed.",
+      "contribution_status": "qualified-inventory-parent",
+      "freshness": "current-official-facility-page-with-annual-open-data-cross-check",
+      "source_checked_at": "2026-08-20",
+      "sources": [
+        {
+          "label": "City of Mesa Christopher J. Brady Park facility page",
+          "url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Christopher-J.-Brady-Park",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of Mesa Parks Locations and Amenities row PKPK35",
+          "url": "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK35",
+          "checkedAt": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "slug": "mesa-greenfield-park",
+      "name": "Greenfield Park",
+      "aliases": [],
+      "city": "Mesa",
+      "state": "AZ",
+      "address": "4105 E Diamond Ave, Mesa, AZ 85206",
+      "latitude": 33.4012894,
+      "longitude": -111.7394809,
+      "managing_agency": "City of Mesa Parks, Recreation and Community Facilities",
+      "official_source_url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Greenfield-Park",
+      "official_record_id": "PKPK38",
+      "coordinate_source": "City of Mesa current Greenfield Park facility-page visitor map pin",
+      "coordinate_source_url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Greenfield-Park",
+      "coordinate_precision": "official visitor location pin",
+      "position_quality": "reviewed-official-facility-map-pin",
+      "source_dataset_reference": {
+        "url": "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK38",
+        "reportedName": "Greenfield",
+        "reportedType": "Park",
+        "reportedAcres": 20.7,
+        "reportedLatitude": 33.4018703,
+        "reportedLongitude": -111.739798,
+        "dataLastUpdated": "2024-09-30",
+        "usageRule": "Retained as source and cross-check metadata only; do not redistribute City geometry or treat annual attributes as current operating facts."
+      },
+      "duplicate_status": "accepted-net-new-parent",
+      "duplicate_basis": "No Mesa route or normalized Mesa parent match exists in the current AuditMap production or local catalogues; current City facility identity reviewed.",
+      "contribution_status": "qualified-inventory-parent",
+      "freshness": "current-official-facility-page-with-annual-open-data-cross-check",
+      "source_checked_at": "2026-08-20",
+      "sources": [
+        {
+          "label": "City of Mesa Greenfield Park facility page",
+          "url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Greenfield-Park",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of Mesa Parks Locations and Amenities row PKPK38",
+          "url": "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK38",
+          "checkedAt": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "slug": "mesa-reed-park",
+      "name": "Reed Park",
+      "aliases": [],
+      "city": "Mesa",
+      "state": "AZ",
+      "address": "1631 E. Broadway Rd, Mesa, AZ 85204",
+      "latitude": 33.4060039,
+      "longitude": -111.7958719,
+      "managing_agency": "City of Mesa Parks, Recreation and Community Facilities",
+      "official_source_url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Reed-Park",
+      "official_record_id": "PKPK19",
+      "coordinate_source": "City of Mesa current Reed Park facility-page visitor map pin",
+      "coordinate_source_url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Reed-Park",
+      "coordinate_precision": "official visitor location pin",
+      "position_quality": "reviewed-official-facility-map-pin",
+      "source_dataset_reference": {
+        "url": "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK19",
+        "reportedName": "Reed",
+        "reportedType": "Park",
+        "reportedAcres": 19,
+        "reportedLatitude": 33.406036,
+        "reportedLongitude": -111.795761,
+        "dataLastUpdated": "2024-09-30",
+        "usageRule": "Retained as source and cross-check metadata only; do not redistribute City geometry or treat annual attributes as current operating facts."
+      },
+      "duplicate_status": "accepted-net-new-parent",
+      "duplicate_basis": "No Mesa route or normalized Mesa parent match exists in the current AuditMap production or local catalogues; current City facility identity reviewed.",
+      "contribution_status": "qualified-inventory-parent",
+      "freshness": "current-official-facility-page-with-annual-open-data-cross-check",
+      "source_checked_at": "2026-08-20",
+      "sources": [
+        {
+          "label": "City of Mesa Reed Park facility page",
+          "url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Reed-Park",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of Mesa Parks Locations and Amenities row PKPK19",
+          "url": "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK19",
+          "checkedAt": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "slug": "mesa-palo-verde-park",
+      "name": "Palo Verde Park",
+      "aliases": [],
+      "city": "Mesa",
+      "state": "AZ",
+      "address": "3135 S. Dobson Rd, Mesa, AZ 85202",
+      "latitude": 33.3578944,
+      "longitude": -111.8744669,
+      "managing_agency": "City of Mesa Parks, Recreation and Community Facilities",
+      "official_source_url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Palo-Verde-Park",
+      "official_record_id": "PKPK14",
+      "coordinate_source": "City of Mesa current Palo Verde Park facility-page visitor map pin",
+      "coordinate_source_url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Palo-Verde-Park",
+      "coordinate_precision": "official visitor location pin",
+      "position_quality": "reviewed-official-facility-map-pin",
+      "source_dataset_reference": {
+        "url": "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK14",
+        "reportedName": "Palo Verde",
+        "reportedType": "Park",
+        "reportedAcres": 18,
+        "reportedLatitude": 33.357841,
+        "reportedLongitude": -111.874492,
+        "dataLastUpdated": "2024-09-30",
+        "usageRule": "Retained as source and cross-check metadata only; do not redistribute City geometry or treat annual attributes as current operating facts."
+      },
+      "duplicate_status": "accepted-net-new-parent",
+      "duplicate_basis": "No Mesa route or normalized Mesa parent match exists in the current AuditMap production or local catalogues; current City facility identity reviewed.",
+      "contribution_status": "qualified-inventory-parent",
+      "freshness": "current-official-facility-page-with-annual-open-data-cross-check",
+      "source_checked_at": "2026-08-20",
+      "sources": [
+        {
+          "label": "City of Mesa Palo Verde Park facility page",
+          "url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Palo-Verde-Park",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of Mesa Parks Locations and Amenities row PKPK14",
+          "url": "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK14",
+          "checkedAt": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "slug": "mesa-pioneer-park",
+      "name": "Pioneer Park",
+      "aliases": [],
+      "city": "Mesa",
+      "state": "AZ",
+      "address": "526 E Main St, Mesa, AZ 85203",
+      "latitude": 33.4171586,
+      "longitude": -111.8189747,
+      "managing_agency": "City of Mesa Parks, Recreation and Community Facilities",
+      "official_source_url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Pioneer-Park",
+      "official_record_id": "PKPK57",
+      "coordinate_source": "City of Mesa current Pioneer Park facility-page visitor map pin",
+      "coordinate_source_url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Pioneer-Park",
+      "coordinate_precision": "official visitor location pin",
+      "position_quality": "reviewed-official-facility-map-pin",
+      "source_dataset_reference": {
+        "url": "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK57",
+        "reportedName": "Pioneer",
+        "reportedType": "Park",
+        "reportedAcres": 17.8,
+        "reportedLatitude": 33.416972,
+        "reportedLongitude": -111.819674,
+        "dataLastUpdated": "2024-09-30",
+        "usageRule": "Retained as source and cross-check metadata only; do not redistribute City geometry or treat annual attributes as current operating facts."
+      },
+      "duplicate_status": "accepted-net-new-parent",
+      "duplicate_basis": "No Mesa route or normalized Mesa parent match exists in the current AuditMap production or local catalogues; current City facility identity reviewed.",
+      "contribution_status": "qualified-inventory-parent",
+      "freshness": "current-official-facility-page-with-annual-open-data-cross-check",
+      "source_checked_at": "2026-08-20",
+      "sources": [
+        {
+          "label": "City of Mesa Pioneer Park facility page",
+          "url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Pioneer-Park",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of Mesa Parks Locations and Amenities row PKPK57",
+          "url": "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK57",
+          "checkedAt": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "slug": "mesa-mountain-view-park",
+      "name": "Mountain View Park",
+      "aliases": [],
+      "city": "Mesa",
+      "state": "AZ",
+      "address": "845 N Lindsay Rd, Mesa, AZ 85213",
+      "latitude": 33.4315795,
+      "longitude": -111.7684296,
+      "managing_agency": "City of Mesa Parks, Recreation and Community Facilities",
+      "official_source_url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Mountain-View-Park",
+      "official_record_id": "PKPK45",
+      "coordinate_source": "City of Mesa current Mountain View Park facility-page visitor map pin",
+      "coordinate_source_url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Mountain-View-Park",
+      "coordinate_precision": "official visitor location pin",
+      "position_quality": "reviewed-official-facility-map-pin",
+      "source_dataset_reference": {
+        "url": "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK45",
+        "reportedName": "Mountain View",
+        "reportedType": "Park",
+        "reportedAcres": 17.4,
+        "reportedLatitude": 33.4311563,
+        "reportedLongitude": -111.7697053,
+        "dataLastUpdated": "2024-09-30",
+        "usageRule": "Retained as source and cross-check metadata only; do not redistribute City geometry or treat annual attributes as current operating facts."
+      },
+      "duplicate_status": "accepted-net-new-parent",
+      "duplicate_basis": "No Mesa route or normalized Mesa parent match exists in the current AuditMap production or local catalogues; current City facility identity reviewed.",
+      "contribution_status": "qualified-inventory-parent",
+      "freshness": "current-official-facility-page-with-annual-open-data-cross-check",
+      "source_checked_at": "2026-08-20",
+      "sources": [
+        {
+          "label": "City of Mesa Mountain View Park facility page",
+          "url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Mountain-View-Park",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of Mesa Parks Locations and Amenities row PKPK45",
+          "url": "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK45",
+          "checkedAt": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "slug": "mesa-dobson-ranch-park",
+      "name": "Dobson Ranch Park",
+      "aliases": [],
+      "city": "Mesa",
+      "state": "AZ",
+      "address": "2359 S Dobson Rd, Mesa, AZ 85202",
+      "latitude": 33.3715913,
+      "longitude": -111.8788479,
+      "managing_agency": "City of Mesa Parks, Recreation and Community Facilities",
+      "official_source_url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Dobson-Ranch-Park",
+      "official_record_id": "PKPK13",
+      "coordinate_source": "City of Mesa current Dobson Ranch Park facility-page visitor map pin",
+      "coordinate_source_url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Dobson-Ranch-Park",
+      "coordinate_precision": "official visitor location pin",
+      "position_quality": "reviewed-official-facility-map-pin",
+      "source_dataset_reference": {
+        "url": "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK13",
+        "reportedName": "Dobson Ranch",
+        "reportedType": "Park",
+        "reportedAcres": 17.3,
+        "reportedLatitude": 33.371558,
+        "reportedLongitude": -111.8788164,
+        "dataLastUpdated": "2024-09-30",
+        "usageRule": "Retained as source and cross-check metadata only; do not redistribute City geometry or treat annual attributes as current operating facts."
+      },
+      "duplicate_status": "accepted-net-new-parent",
+      "duplicate_basis": "No Mesa route or normalized Mesa parent match exists in the current AuditMap production or local catalogues; current City facility identity reviewed.",
+      "contribution_status": "qualified-inventory-parent",
+      "freshness": "current-official-facility-page-with-annual-open-data-cross-check",
+      "source_checked_at": "2026-08-20",
+      "sources": [
+        {
+          "label": "City of Mesa Dobson Ranch Park facility page",
+          "url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Dobson-Ranch-Park",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of Mesa Parks Locations and Amenities row PKPK13",
+          "url": "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK13",
+          "checkedAt": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "slug": "mesa-holmes-park",
+      "name": "Holmes Park",
+      "aliases": [],
+      "city": "Mesa",
+      "state": "AZ",
+      "address": "1450 S Greenfield Rd, Mesa, AZ 85206",
+      "latitude": 33.3882112,
+      "longitude": -111.7379904,
+      "managing_agency": "City of Mesa Parks, Recreation and Community Facilities",
+      "official_source_url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Holmes-Park",
+      "official_record_id": "PKPK40",
+      "coordinate_source": "City of Mesa current Holmes Park facility-page visitor map pin",
+      "coordinate_source_url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Holmes-Park",
+      "coordinate_precision": "official visitor location pin",
+      "position_quality": "reviewed-official-facility-map-pin",
+      "source_dataset_reference": {
+        "url": "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK40",
+        "reportedName": "Holmes",
+        "reportedType": "Park",
+        "reportedAcres": 17.2,
+        "reportedLatitude": 33.3884534,
+        "reportedLongitude": -111.738016,
+        "dataLastUpdated": "2024-09-30",
+        "usageRule": "Retained as source and cross-check metadata only; do not redistribute City geometry or treat annual attributes as current operating facts."
+      },
+      "duplicate_status": "accepted-net-new-parent",
+      "duplicate_basis": "No Mesa route or normalized Mesa parent match exists in the current AuditMap production or local catalogues; current City facility identity reviewed.",
+      "contribution_status": "qualified-inventory-parent",
+      "freshness": "current-official-facility-page-with-annual-open-data-cross-check",
+      "source_checked_at": "2026-08-20",
+      "sources": [
+        {
+          "label": "City of Mesa Holmes Park facility page",
+          "url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Holmes-Park",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of Mesa Parks Locations and Amenities row PKPK40",
+          "url": "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK40",
+          "checkedAt": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "slug": "mesa-heritage-park",
+      "name": "Heritage Park",
+      "aliases": [],
+      "city": "Mesa",
+      "state": "AZ",
+      "address": "1501 S Pima, Mesa, AZ 85210",
+      "latitude": 33.3876111,
+      "longitude": -111.8270253,
+      "managing_agency": "City of Mesa Parks, Recreation and Community Facilities",
+      "official_source_url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Heritage-Park",
+      "official_record_id": "PKPK16",
+      "coordinate_source": "City of Mesa current Heritage Park facility-page visitor map pin",
+      "coordinate_source_url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Heritage-Park",
+      "coordinate_precision": "official visitor location pin",
+      "position_quality": "reviewed-official-facility-map-pin",
+      "source_dataset_reference": {
+        "url": "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK16",
+        "reportedName": "Heritage",
+        "reportedType": "Park",
+        "reportedAcres": 17,
+        "reportedLatitude": 33.3876111,
+        "reportedLongitude": -111.8270253,
+        "dataLastUpdated": "2024-09-30",
+        "usageRule": "Retained as source and cross-check metadata only; do not redistribute City geometry or treat annual attributes as current operating facts."
+      },
+      "duplicate_status": "accepted-net-new-parent",
+      "duplicate_basis": "No Mesa route or normalized Mesa parent match exists in the current AuditMap production or local catalogues; current City facility identity reviewed.",
+      "contribution_status": "qualified-inventory-parent",
+      "freshness": "current-official-facility-page-with-annual-open-data-cross-check",
+      "source_checked_at": "2026-08-20",
+      "sources": [
+        {
+          "label": "City of Mesa Heritage Park facility page",
+          "url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Heritage-Park",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of Mesa Parks Locations and Amenities row PKPK16",
+          "url": "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK16",
+          "checkedAt": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "slug": "mesa-fiesta-sports-park",
+      "name": "Fiesta Sports Park",
+      "aliases": [],
+      "city": "Mesa",
+      "state": "AZ",
+      "address": "936 S Extension Rd, Mesa, AZ 85210",
+      "latitude": 33.3976885,
+      "longitude": -111.8508607,
+      "managing_agency": "City of Mesa Parks, Recreation and Community Facilities",
+      "official_source_url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Fiesta-Sports-Park",
+      "official_record_id": "PKPK87",
+      "coordinate_source": "City of Mesa current Fiesta Sports Park facility-page visitor map pin",
+      "coordinate_source_url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Fiesta-Sports-Park",
+      "coordinate_precision": "official visitor location pin",
+      "position_quality": "reviewed-official-facility-map-pin",
+      "source_dataset_reference": {
+        "url": "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK87",
+        "reportedName": "Fiesta Sports",
+        "reportedType": "Park",
+        "reportedAcres": 17,
+        "reportedLatitude": 33.3981374,
+        "reportedLongitude": -111.8506784,
+        "dataLastUpdated": "2024-09-30",
+        "usageRule": "Retained as source and cross-check metadata only; do not redistribute City geometry or treat annual attributes as current operating facts."
+      },
+      "duplicate_status": "accepted-net-new-parent",
+      "duplicate_basis": "No Mesa route or normalized Mesa parent match exists in the current AuditMap production or local catalogues; current City facility identity reviewed.",
+      "contribution_status": "qualified-inventory-parent",
+      "freshness": "current-official-facility-page-with-annual-open-data-cross-check",
+      "source_checked_at": "2026-08-20",
+      "sources": [
+        {
+          "label": "City of Mesa Fiesta Sports Park facility page",
+          "url": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Fiesta-Sports-Park",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of Mesa Parks Locations and Amenities row PKPK87",
+          "url": "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK87",
+          "checkedAt": "2026-08-20"
+        }
+      ]
+    }
+  ]
+}

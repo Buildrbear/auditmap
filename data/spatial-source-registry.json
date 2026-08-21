@@ -292,6 +292,46 @@
         "assuming Town site or GIS hosting grants image reuse rights"
       ],
       "checkedAt": "2026-08-20"
+    },
+    {
+      "id": "mesa-facility-directory-data-and-park-boundaries",
+      "publisher": "City of Mesa Parks, Recreation and Community Facilities",
+      "geography": "Mesa, Arizona",
+      "serviceUrl": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities",
+      "layers": [
+        {
+          "id": "facility-directory",
+          "name": "Current Parks and Facilities directory",
+          "geometryRole": "official current facility identity, visitor address, published map pin, hours metadata, and former-name reconciliation"
+        },
+        {
+          "id": "data.mesaaz.gov/djym-pkpp",
+          "name": "Parks Locations and Amenities",
+          "geometryRole": "stable facility IDs and annual park-location cross-checks"
+        },
+        {
+          "id": "ParkViewer/MapServer/0",
+          "name": "City of Mesa Park Boundary",
+          "geometryRole": "official park-boundary verification used to detect map-pin conflicts without redistributing geometry"
+        }
+      ],
+      "spatialReference": "facility pages and open-data points publish EPSG:4326; park boundaries are queried as EPSG:4326",
+      "authorityClass": "municipal-official",
+      "licenseStatus": "noncommercial-site-license-and-map-redistribution-restricted",
+      "approvedUses": [
+        "official-source verification",
+        "current parent identity and address review",
+        "coordinate conflict detection",
+        "stable municipal facility ID cross-checking"
+      ],
+      "prohibitedUntilApproved": [
+        "bulk public redistribution of City datasets or map geometry",
+        "commercial reuse of City website images or other CC BY-NC-SA content",
+        "treating annual open-data amenities as current operating facts",
+        "silently replacing a conflicting current facility-page pin"
+      ],
+      "termsUrl": "https://www.mesaaz.gov/Government/ADA-Policies-Disclaimer",
+      "checkedAt": "2026-08-20"
     }
   ]
 }

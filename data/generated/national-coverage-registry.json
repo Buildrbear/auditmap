@@ -10,28 +10,28 @@
     "sitemap": "sitemap.xml",
     "catalog": "data/generated/official-catalog.json",
     "catalogGeneratedAt": "2026-08-11T09:40:25.704Z",
-    "gitBranch": "codex/boone-research",
-    "gitCommit": "658a513f38ed38885c5509c0e7a429e679601e00"
+    "gitBranch": "codex/mesa-parks-discovery",
+    "gitCommit": "0f5206064bd1274b4b75579b12d64b0d4f7bd60d"
   },
   "spatialEvidence": {
     "registry": "data/spatial-source-registry.json",
     "checkedAt": "2026-08-17",
-    "registeredSources": 12,
+    "registeredSources": 13,
     "publicationApprovedSources": 1,
     "reviewRequiredSources": 11
   },
   "summary": {
-    "knownDestinations": 3393,
+    "knownDestinations": 3418,
     "liveDestinationPages": 3382,
     "liveParentPages": 905,
     "liveSubsitePages": 2477,
-    "hopper": 11,
+    "hopper": 36,
     "generatedLocallyNotLive": 2,
-    "researchOnly": 3,
+    "researchOnly": 28,
     "blockedReview": 6,
     "productionMissingFromLocal": 0,
-    "recordsWithResearchHandoffs": 50,
-    "mappableDestinations": 2905,
+    "recordsWithResearchHandoffs": 75,
+    "mappableDestinations": 2930,
     "openReviewItems": 7
   },
   "records": [
@@ -373,6 +373,1085 @@
       "localPresent": true,
       "reconciliationFlags": [],
       "researchSources": [],
+      "openReviewItems": []
+    },
+    {
+      "id": "/us/az/mesa/parks/carriage-lane-park",
+      "path": "/us/az/mesa/parks/carriage-lane-park",
+      "url": "https://www.auditmap.org/us/az/mesa/parks/carriage-lane-park",
+      "kind": "parent",
+      "state": "AZ",
+      "citySlug": "mesa",
+      "parentSlug": "carriage-lane-park",
+      "subsiteSlug": null,
+      "name": "Carriage Lane Park",
+      "city": "Mesa",
+      "latitude": 33.357702,
+      "longitude": -111.890752,
+      "positionQuality": "reviewed-official-facility-map-pin",
+      "coordinateSource": "City of Mesa current Carriage Lane Park facility-page visitor map pin",
+      "releaseStatus": "research-only",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "mesa-public-parks-2026-08-20",
+          "sourceRecordSlug": "mesa-carriage-lane-park",
+          "name": "Carriage Lane Park",
+          "city": "Mesa",
+          "state": "AZ",
+          "managingAgency": "City of Mesa Parks, Recreation and Community Facilities",
+          "checkedAt": "2026-08-20",
+          "officialSources": [
+            "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Carriage-Lane-Park",
+            "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Carriage-Lane-Park",
+            "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK15"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/49",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        }
+      ],
+      "openReviewItems": []
+    },
+    {
+      "id": "/us/az/mesa/parks/christopher-j-brady-park",
+      "path": "/us/az/mesa/parks/christopher-j-brady-park",
+      "url": "https://www.auditmap.org/us/az/mesa/parks/christopher-j-brady-park",
+      "kind": "parent",
+      "state": "AZ",
+      "citySlug": "mesa",
+      "parentSlug": "christopher-j-brady-park",
+      "subsiteSlug": null,
+      "name": "Christopher J. Brady Park",
+      "city": "Mesa",
+      "latitude": 33.3660726,
+      "longitude": -111.6816795,
+      "positionQuality": "reviewed-official-facility-map-pin",
+      "coordinateSource": "City of Mesa current Christopher J. Brady Park facility-page visitor map pin",
+      "releaseStatus": "research-only",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "mesa-public-parks-2026-08-20",
+          "sourceRecordSlug": "mesa-christopher-j-brady-park",
+          "name": "Christopher J. Brady Park",
+          "city": "Mesa",
+          "state": "AZ",
+          "managingAgency": "City of Mesa Parks, Recreation and Community Facilities",
+          "checkedAt": "2026-08-20",
+          "officialSources": [
+            "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Christopher-J.-Brady-Park",
+            "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Christopher-J.-Brady-Park",
+            "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK35"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/49",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        }
+      ],
+      "openReviewItems": []
+    },
+    {
+      "id": "/us/az/mesa/parks/countryside-park",
+      "path": "/us/az/mesa/parks/countryside-park",
+      "url": "https://www.auditmap.org/us/az/mesa/parks/countryside-park",
+      "kind": "parent",
+      "state": "AZ",
+      "citySlug": "mesa",
+      "parentSlug": "countryside-park",
+      "subsiteSlug": null,
+      "name": "Countryside Park",
+      "city": "Mesa",
+      "latitude": 33.3944188,
+      "longitude": -111.7625856,
+      "positionQuality": "reviewed-official-facility-map-pin",
+      "coordinateSource": "City of Mesa current Countryside Park facility-page visitor map pin",
+      "releaseStatus": "research-only",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "mesa-public-parks-2026-08-20",
+          "sourceRecordSlug": "mesa-countryside-park",
+          "name": "Countryside Park",
+          "city": "Mesa",
+          "state": "AZ",
+          "managingAgency": "City of Mesa Parks, Recreation and Community Facilities",
+          "checkedAt": "2026-08-20",
+          "officialSources": [
+            "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Countryside-Park",
+            "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Countryside-Park",
+            "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK48"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/49",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        }
+      ],
+      "openReviewItems": []
+    },
+    {
+      "id": "/us/az/mesa/parks/desert-arroyo-park",
+      "path": "/us/az/mesa/parks/desert-arroyo-park",
+      "url": "https://www.auditmap.org/us/az/mesa/parks/desert-arroyo-park",
+      "kind": "parent",
+      "state": "AZ",
+      "citySlug": "mesa",
+      "parentSlug": "desert-arroyo-park",
+      "subsiteSlug": null,
+      "name": "Desert Arroyo Park",
+      "city": "Mesa",
+      "latitude": 33.453646,
+      "longitude": -111.630062,
+      "positionQuality": "reviewed-official-facility-map-pin",
+      "coordinateSource": "City of Mesa current Desert Arroyo Park facility-page visitor map pin",
+      "releaseStatus": "research-only",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "mesa-public-parks-2026-08-20",
+          "sourceRecordSlug": "mesa-desert-arroyo-park",
+          "name": "Desert Arroyo Park",
+          "city": "Mesa",
+          "state": "AZ",
+          "managingAgency": "City of Mesa Parks, Recreation and Community Facilities",
+          "checkedAt": "2026-08-20",
+          "officialSources": [
+            "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Desert-Arroyo-Park",
+            "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Desert-Arroyo-Park",
+            "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK82"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/49",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        }
+      ],
+      "openReviewItems": []
+    },
+    {
+      "id": "/us/az/mesa/parks/desert-trails-park",
+      "path": "/us/az/mesa/parks/desert-trails-park",
+      "url": "https://www.auditmap.org/us/az/mesa/parks/desert-trails-park",
+      "kind": "parent",
+      "state": "AZ",
+      "citySlug": "mesa",
+      "parentSlug": "desert-trails-park",
+      "subsiteSlug": null,
+      "name": "Desert Trails Park",
+      "city": "Mesa",
+      "latitude": 33.4695948,
+      "longitude": -111.7010654,
+      "positionQuality": "reviewed-official-facility-map-pin",
+      "coordinateSource": "City of Mesa current Desert Trails Park facility-page visitor map pin",
+      "releaseStatus": "research-only",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "mesa-public-parks-2026-08-20",
+          "sourceRecordSlug": "mesa-desert-trails-park",
+          "name": "Desert Trails Park",
+          "city": "Mesa",
+          "state": "AZ",
+          "managingAgency": "City of Mesa Parks, Recreation and Community Facilities",
+          "checkedAt": "2026-08-20",
+          "officialSources": [
+            "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Desert-Trails-Park",
+            "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Desert-Trails-Park",
+            "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK3"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/49",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        }
+      ],
+      "openReviewItems": []
+    },
+    {
+      "id": "/us/az/mesa/parks/dobson-ranch-park",
+      "path": "/us/az/mesa/parks/dobson-ranch-park",
+      "url": "https://www.auditmap.org/us/az/mesa/parks/dobson-ranch-park",
+      "kind": "parent",
+      "state": "AZ",
+      "citySlug": "mesa",
+      "parentSlug": "dobson-ranch-park",
+      "subsiteSlug": null,
+      "name": "Dobson Ranch Park",
+      "city": "Mesa",
+      "latitude": 33.3715913,
+      "longitude": -111.8788479,
+      "positionQuality": "reviewed-official-facility-map-pin",
+      "coordinateSource": "City of Mesa current Dobson Ranch Park facility-page visitor map pin",
+      "releaseStatus": "research-only",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "mesa-public-parks-2026-08-20",
+          "sourceRecordSlug": "mesa-dobson-ranch-park",
+          "name": "Dobson Ranch Park",
+          "city": "Mesa",
+          "state": "AZ",
+          "managingAgency": "City of Mesa Parks, Recreation and Community Facilities",
+          "checkedAt": "2026-08-20",
+          "officialSources": [
+            "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Dobson-Ranch-Park",
+            "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Dobson-Ranch-Park",
+            "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK13"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/49",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        }
+      ],
+      "openReviewItems": []
+    },
+    {
+      "id": "/us/az/mesa/parks/eagles-park",
+      "path": "/us/az/mesa/parks/eagles-park",
+      "url": "https://www.auditmap.org/us/az/mesa/parks/eagles-park",
+      "kind": "parent",
+      "state": "AZ",
+      "citySlug": "mesa",
+      "parentSlug": "eagles-park",
+      "subsiteSlug": null,
+      "name": "Eagles Park",
+      "city": "Mesa",
+      "latitude": 33.4096974,
+      "longitude": -111.8127122,
+      "positionQuality": "reviewed-named-osm-park-geometry",
+      "coordinateSource": "OpenStreetMap named Eagles Park way 853979558, cross-checked against the current City address and City park boundary",
+      "releaseStatus": "research-only",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "mesa-public-parks-2026-08-20",
+          "sourceRecordSlug": "mesa-eagles-park",
+          "name": "Eagles Park",
+          "city": "Mesa",
+          "state": "AZ",
+          "managingAgency": "City of Mesa Parks, Recreation and Community Facilities",
+          "checkedAt": "2026-08-20",
+          "officialSources": [
+            "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Eagles-Park",
+            "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Eagles-Park",
+            "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK86",
+            "https://www.openstreetmap.org/way/853979558"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/49",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        }
+      ],
+      "openReviewItems": []
+    },
+    {
+      "id": "/us/az/mesa/parks/falcon-hill-park",
+      "path": "/us/az/mesa/parks/falcon-hill-park",
+      "url": "https://www.auditmap.org/us/az/mesa/parks/falcon-hill-park",
+      "kind": "parent",
+      "state": "AZ",
+      "citySlug": "mesa",
+      "parentSlug": "falcon-hill-park",
+      "subsiteSlug": null,
+      "name": "Falcon Hill Park",
+      "city": "Mesa",
+      "latitude": 33.44911070000001,
+      "longitude": -111.6747246,
+      "positionQuality": "reviewed-official-facility-map-pin",
+      "coordinateSource": "City of Mesa current Falcon Hill Park facility-page visitor map pin",
+      "releaseStatus": "research-only",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "mesa-public-parks-2026-08-20",
+          "sourceRecordSlug": "mesa-falcon-hill-park",
+          "name": "Falcon Hill Park",
+          "city": "Mesa",
+          "state": "AZ",
+          "managingAgency": "City of Mesa Parks, Recreation and Community Facilities",
+          "checkedAt": "2026-08-20",
+          "officialSources": [
+            "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Falcon-Hill-Park",
+            "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Falcon-Hill-Park",
+            "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK20"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/49",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        }
+      ],
+      "openReviewItems": []
+    },
+    {
+      "id": "/us/az/mesa/parks/fiesta-sports-park",
+      "path": "/us/az/mesa/parks/fiesta-sports-park",
+      "url": "https://www.auditmap.org/us/az/mesa/parks/fiesta-sports-park",
+      "kind": "parent",
+      "state": "AZ",
+      "citySlug": "mesa",
+      "parentSlug": "fiesta-sports-park",
+      "subsiteSlug": null,
+      "name": "Fiesta Sports Park",
+      "city": "Mesa",
+      "latitude": 33.3976885,
+      "longitude": -111.8508607,
+      "positionQuality": "reviewed-official-facility-map-pin",
+      "coordinateSource": "City of Mesa current Fiesta Sports Park facility-page visitor map pin",
+      "releaseStatus": "research-only",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "mesa-public-parks-2026-08-20",
+          "sourceRecordSlug": "mesa-fiesta-sports-park",
+          "name": "Fiesta Sports Park",
+          "city": "Mesa",
+          "state": "AZ",
+          "managingAgency": "City of Mesa Parks, Recreation and Community Facilities",
+          "checkedAt": "2026-08-20",
+          "officialSources": [
+            "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Fiesta-Sports-Park",
+            "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Fiesta-Sports-Park",
+            "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK87"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/49",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        }
+      ],
+      "openReviewItems": []
+    },
+    {
+      "id": "/us/az/mesa/parks/fitch-park",
+      "path": "/us/az/mesa/parks/fitch-park",
+      "url": "https://www.auditmap.org/us/az/mesa/parks/fitch-park",
+      "kind": "parent",
+      "state": "AZ",
+      "citySlug": "mesa",
+      "parentSlug": "fitch-park",
+      "subsiteSlug": null,
+      "name": "Fitch Park",
+      "city": "Mesa",
+      "latitude": 33.4284255,
+      "longitude": -111.8284149,
+      "positionQuality": "reviewed-named-osm-park-geometry",
+      "coordinateSource": "OpenStreetMap named Fitch Park relation 11790087, cross-checked against the current City address and City park boundary",
+      "releaseStatus": "research-only",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "mesa-public-parks-2026-08-20",
+          "sourceRecordSlug": "mesa-fitch-park",
+          "name": "Fitch Park",
+          "city": "Mesa",
+          "state": "AZ",
+          "managingAgency": "City of Mesa Parks, Recreation and Community Facilities",
+          "checkedAt": "2026-08-20",
+          "officialSources": [
+            "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Fitch-Park",
+            "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Fitch-Park",
+            "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK53",
+            "https://www.openstreetmap.org/relation/11790087"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/49",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        }
+      ],
+      "openReviewItems": []
+    },
+    {
+      "id": "/us/az/mesa/parks/gene-autry-park",
+      "path": "/us/az/mesa/parks/gene-autry-park",
+      "url": "https://www.auditmap.org/us/az/mesa/parks/gene-autry-park",
+      "kind": "parent",
+      "state": "AZ",
+      "citySlug": "mesa",
+      "parentSlug": "gene-autry-park",
+      "subsiteSlug": null,
+      "name": "Gene Autry Park",
+      "city": "Mesa",
+      "latitude": 33.4508074,
+      "longitude": -111.7431839,
+      "positionQuality": "reviewed-official-facility-map-pin",
+      "coordinateSource": "City of Mesa current Gene Autry Park facility-page visitor map pin",
+      "releaseStatus": "research-only",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "mesa-public-parks-2026-08-20",
+          "sourceRecordSlug": "mesa-gene-autry-park",
+          "name": "Gene Autry Park",
+          "city": "Mesa",
+          "state": "AZ",
+          "managingAgency": "City of Mesa Parks, Recreation and Community Facilities",
+          "checkedAt": "2026-08-20",
+          "officialSources": [
+            "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Gene-Autry-Park",
+            "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Gene-Autry-Park",
+            "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK27"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/49",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        }
+      ],
+      "openReviewItems": []
+    },
+    {
+      "id": "/us/az/mesa/parks/greenfield-park",
+      "path": "/us/az/mesa/parks/greenfield-park",
+      "url": "https://www.auditmap.org/us/az/mesa/parks/greenfield-park",
+      "kind": "parent",
+      "state": "AZ",
+      "citySlug": "mesa",
+      "parentSlug": "greenfield-park",
+      "subsiteSlug": null,
+      "name": "Greenfield Park",
+      "city": "Mesa",
+      "latitude": 33.4012894,
+      "longitude": -111.7394809,
+      "positionQuality": "reviewed-official-facility-map-pin",
+      "coordinateSource": "City of Mesa current Greenfield Park facility-page visitor map pin",
+      "releaseStatus": "research-only",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "mesa-public-parks-2026-08-20",
+          "sourceRecordSlug": "mesa-greenfield-park",
+          "name": "Greenfield Park",
+          "city": "Mesa",
+          "state": "AZ",
+          "managingAgency": "City of Mesa Parks, Recreation and Community Facilities",
+          "checkedAt": "2026-08-20",
+          "officialSources": [
+            "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Greenfield-Park",
+            "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Greenfield-Park",
+            "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK38"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/49",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        }
+      ],
+      "openReviewItems": []
+    },
+    {
+      "id": "/us/az/mesa/parks/heritage-park",
+      "path": "/us/az/mesa/parks/heritage-park",
+      "url": "https://www.auditmap.org/us/az/mesa/parks/heritage-park",
+      "kind": "parent",
+      "state": "AZ",
+      "citySlug": "mesa",
+      "parentSlug": "heritage-park",
+      "subsiteSlug": null,
+      "name": "Heritage Park",
+      "city": "Mesa",
+      "latitude": 33.3876111,
+      "longitude": -111.8270253,
+      "positionQuality": "reviewed-official-facility-map-pin",
+      "coordinateSource": "City of Mesa current Heritage Park facility-page visitor map pin",
+      "releaseStatus": "research-only",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "mesa-public-parks-2026-08-20",
+          "sourceRecordSlug": "mesa-heritage-park",
+          "name": "Heritage Park",
+          "city": "Mesa",
+          "state": "AZ",
+          "managingAgency": "City of Mesa Parks, Recreation and Community Facilities",
+          "checkedAt": "2026-08-20",
+          "officialSources": [
+            "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Heritage-Park",
+            "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Heritage-Park",
+            "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK16"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/49",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        }
+      ],
+      "openReviewItems": []
+    },
+    {
+      "id": "/us/az/mesa/parks/holmes-park",
+      "path": "/us/az/mesa/parks/holmes-park",
+      "url": "https://www.auditmap.org/us/az/mesa/parks/holmes-park",
+      "kind": "parent",
+      "state": "AZ",
+      "citySlug": "mesa",
+      "parentSlug": "holmes-park",
+      "subsiteSlug": null,
+      "name": "Holmes Park",
+      "city": "Mesa",
+      "latitude": 33.3882112,
+      "longitude": -111.7379904,
+      "positionQuality": "reviewed-official-facility-map-pin",
+      "coordinateSource": "City of Mesa current Holmes Park facility-page visitor map pin",
+      "releaseStatus": "research-only",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "mesa-public-parks-2026-08-20",
+          "sourceRecordSlug": "mesa-holmes-park",
+          "name": "Holmes Park",
+          "city": "Mesa",
+          "state": "AZ",
+          "managingAgency": "City of Mesa Parks, Recreation and Community Facilities",
+          "checkedAt": "2026-08-20",
+          "officialSources": [
+            "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Holmes-Park",
+            "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Holmes-Park",
+            "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK40"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/49",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        }
+      ],
+      "openReviewItems": []
+    },
+    {
+      "id": "/us/az/mesa/parks/kleinman-park",
+      "path": "/us/az/mesa/parks/kleinman-park",
+      "url": "https://www.auditmap.org/us/az/mesa/parks/kleinman-park",
+      "kind": "parent",
+      "state": "AZ",
+      "citySlug": "mesa",
+      "parentSlug": "kleinman-park",
+      "subsiteSlug": null,
+      "name": "Kleinman Park",
+      "city": "Mesa",
+      "latitude": 33.4024426,
+      "longitude": -111.850605,
+      "positionQuality": "reviewed-named-osm-park-geometry",
+      "coordinateSource": "OpenStreetMap named Kleinman Park way 1120482076, cross-checked against the current City address and City park boundary",
+      "releaseStatus": "research-only",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "mesa-public-parks-2026-08-20",
+          "sourceRecordSlug": "mesa-kleinman-park",
+          "name": "Kleinman Park",
+          "city": "Mesa",
+          "state": "AZ",
+          "managingAgency": "City of Mesa Parks, Recreation and Community Facilities",
+          "checkedAt": "2026-08-20",
+          "officialSources": [
+            "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Kleinman-Park",
+            "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Kleinman-Park",
+            "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK10",
+            "https://www.openstreetmap.org/way/1120482076"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/49",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        }
+      ],
+      "openReviewItems": []
+    },
+    {
+      "id": "/us/az/mesa/parks/mountain-view-park",
+      "path": "/us/az/mesa/parks/mountain-view-park",
+      "url": "https://www.auditmap.org/us/az/mesa/parks/mountain-view-park",
+      "kind": "parent",
+      "state": "AZ",
+      "citySlug": "mesa",
+      "parentSlug": "mountain-view-park",
+      "subsiteSlug": null,
+      "name": "Mountain View Park",
+      "city": "Mesa",
+      "latitude": 33.4315795,
+      "longitude": -111.7684296,
+      "positionQuality": "reviewed-official-facility-map-pin",
+      "coordinateSource": "City of Mesa current Mountain View Park facility-page visitor map pin",
+      "releaseStatus": "research-only",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "mesa-public-parks-2026-08-20",
+          "sourceRecordSlug": "mesa-mountain-view-park",
+          "name": "Mountain View Park",
+          "city": "Mesa",
+          "state": "AZ",
+          "managingAgency": "City of Mesa Parks, Recreation and Community Facilities",
+          "checkedAt": "2026-08-20",
+          "officialSources": [
+            "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Mountain-View-Park",
+            "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Mountain-View-Park",
+            "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK45"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/49",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        }
+      ],
+      "openReviewItems": []
+    },
+    {
+      "id": "/us/az/mesa/parks/palo-verde-park",
+      "path": "/us/az/mesa/parks/palo-verde-park",
+      "url": "https://www.auditmap.org/us/az/mesa/parks/palo-verde-park",
+      "kind": "parent",
+      "state": "AZ",
+      "citySlug": "mesa",
+      "parentSlug": "palo-verde-park",
+      "subsiteSlug": null,
+      "name": "Palo Verde Park",
+      "city": "Mesa",
+      "latitude": 33.3578944,
+      "longitude": -111.8744669,
+      "positionQuality": "reviewed-official-facility-map-pin",
+      "coordinateSource": "City of Mesa current Palo Verde Park facility-page visitor map pin",
+      "releaseStatus": "research-only",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "mesa-public-parks-2026-08-20",
+          "sourceRecordSlug": "mesa-palo-verde-park",
+          "name": "Palo Verde Park",
+          "city": "Mesa",
+          "state": "AZ",
+          "managingAgency": "City of Mesa Parks, Recreation and Community Facilities",
+          "checkedAt": "2026-08-20",
+          "officialSources": [
+            "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Palo-Verde-Park",
+            "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Palo-Verde-Park",
+            "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK14"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/49",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        }
+      ],
+      "openReviewItems": []
+    },
+    {
+      "id": "/us/az/mesa/parks/park-of-the-canals",
+      "path": "/us/az/mesa/parks/park-of-the-canals",
+      "url": "https://www.auditmap.org/us/az/mesa/parks/park-of-the-canals",
+      "kind": "parent",
+      "state": "AZ",
+      "citySlug": "mesa",
+      "parentSlug": "park-of-the-canals",
+      "subsiteSlug": null,
+      "name": "Park of the Canals",
+      "city": "Mesa",
+      "latitude": 33.4455525,
+      "longitude": -111.8140998,
+      "positionQuality": "reviewed-official-facility-map-pin",
+      "coordinateSource": "City of Mesa current Park of the Canals facility-page visitor map pin",
+      "releaseStatus": "research-only",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "mesa-public-parks-2026-08-20",
+          "sourceRecordSlug": "mesa-park-of-the-canals",
+          "name": "Park of the Canals",
+          "city": "Mesa",
+          "state": "AZ",
+          "managingAgency": "City of Mesa Parks, Recreation and Community Facilities",
+          "checkedAt": "2026-08-20",
+          "officialSources": [
+            "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Park-of-the-Canals",
+            "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Park-of-the-Canals",
+            "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK7"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/49",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        }
+      ],
+      "openReviewItems": []
+    },
+    {
+      "id": "/us/az/mesa/parks/pioneer-park",
+      "path": "/us/az/mesa/parks/pioneer-park",
+      "url": "https://www.auditmap.org/us/az/mesa/parks/pioneer-park",
+      "kind": "parent",
+      "state": "AZ",
+      "citySlug": "mesa",
+      "parentSlug": "pioneer-park",
+      "subsiteSlug": null,
+      "name": "Pioneer Park",
+      "city": "Mesa",
+      "latitude": 33.4171586,
+      "longitude": -111.8189747,
+      "positionQuality": "reviewed-official-facility-map-pin",
+      "coordinateSource": "City of Mesa current Pioneer Park facility-page visitor map pin",
+      "releaseStatus": "research-only",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "mesa-public-parks-2026-08-20",
+          "sourceRecordSlug": "mesa-pioneer-park",
+          "name": "Pioneer Park",
+          "city": "Mesa",
+          "state": "AZ",
+          "managingAgency": "City of Mesa Parks, Recreation and Community Facilities",
+          "checkedAt": "2026-08-20",
+          "officialSources": [
+            "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Pioneer-Park",
+            "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Pioneer-Park",
+            "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK57"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/49",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        }
+      ],
+      "openReviewItems": []
+    },
+    {
+      "id": "/us/az/mesa/parks/quail-run-park",
+      "path": "/us/az/mesa/parks/quail-run-park",
+      "url": "https://www.auditmap.org/us/az/mesa/parks/quail-run-park",
+      "kind": "parent",
+      "state": "AZ",
+      "citySlug": "mesa",
+      "parentSlug": "quail-run-park",
+      "subsiteSlug": null,
+      "name": "Quail Run Park",
+      "city": "Mesa",
+      "latitude": 33.4758875,
+      "longitude": -111.7389059,
+      "positionQuality": "reviewed-official-facility-map-pin",
+      "coordinateSource": "City of Mesa current Quail Run Park facility-page visitor map pin",
+      "releaseStatus": "research-only",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "mesa-public-parks-2026-08-20",
+          "sourceRecordSlug": "mesa-quail-run-park",
+          "name": "Quail Run Park",
+          "city": "Mesa",
+          "state": "AZ",
+          "managingAgency": "City of Mesa Parks, Recreation and Community Facilities",
+          "checkedAt": "2026-08-20",
+          "officialSources": [
+            "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Quail-Run-Park",
+            "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Quail-Run-Park",
+            "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK22"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/49",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        }
+      ],
+      "openReviewItems": []
+    },
+    {
+      "id": "/us/az/mesa/parks/red-mountain-park",
+      "path": "/us/az/mesa/parks/red-mountain-park",
+      "url": "https://www.auditmap.org/us/az/mesa/parks/red-mountain-park",
+      "kind": "parent",
+      "state": "AZ",
+      "citySlug": "mesa",
+      "parentSlug": "red-mountain-park",
+      "subsiteSlug": null,
+      "name": "Red Mountain Park",
+      "city": "Mesa",
+      "latitude": 33.4344107,
+      "longitude": -111.6693574,
+      "positionQuality": "reviewed-official-facility-map-pin",
+      "coordinateSource": "City of Mesa current Red Mountain Park facility-page visitor map pin",
+      "releaseStatus": "research-only",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "mesa-public-parks-2026-08-20",
+          "sourceRecordSlug": "mesa-red-mountain-park",
+          "name": "Red Mountain Park",
+          "city": "Mesa",
+          "state": "AZ",
+          "managingAgency": "City of Mesa Parks, Recreation and Community Facilities",
+          "checkedAt": "2026-08-20",
+          "officialSources": [
+            "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Red-Mountain-Park",
+            "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Red-Mountain-Park",
+            "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK21"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/49",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        }
+      ],
+      "openReviewItems": []
+    },
+    {
+      "id": "/us/az/mesa/parks/reed-park",
+      "path": "/us/az/mesa/parks/reed-park",
+      "url": "https://www.auditmap.org/us/az/mesa/parks/reed-park",
+      "kind": "parent",
+      "state": "AZ",
+      "citySlug": "mesa",
+      "parentSlug": "reed-park",
+      "subsiteSlug": null,
+      "name": "Reed Park",
+      "city": "Mesa",
+      "latitude": 33.4060039,
+      "longitude": -111.7958719,
+      "positionQuality": "reviewed-official-facility-map-pin",
+      "coordinateSource": "City of Mesa current Reed Park facility-page visitor map pin",
+      "releaseStatus": "research-only",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "mesa-public-parks-2026-08-20",
+          "sourceRecordSlug": "mesa-reed-park",
+          "name": "Reed Park",
+          "city": "Mesa",
+          "state": "AZ",
+          "managingAgency": "City of Mesa Parks, Recreation and Community Facilities",
+          "checkedAt": "2026-08-20",
+          "officialSources": [
+            "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Reed-Park",
+            "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Reed-Park",
+            "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK19"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/49",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        }
+      ],
+      "openReviewItems": []
+    },
+    {
+      "id": "/us/az/mesa/parks/riverview-park",
+      "path": "/us/az/mesa/parks/riverview-park",
+      "url": "https://www.auditmap.org/us/az/mesa/parks/riverview-park",
+      "kind": "parent",
+      "state": "AZ",
+      "citySlug": "mesa",
+      "parentSlug": "riverview-park",
+      "subsiteSlug": null,
+      "name": "Riverview Park",
+      "city": "Mesa",
+      "latitude": 33.4338241,
+      "longitude": -111.8779768,
+      "positionQuality": "reviewed-official-facility-map-pin",
+      "coordinateSource": "City of Mesa current Riverview Park facility-page visitor map pin",
+      "releaseStatus": "research-only",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "mesa-public-parks-2026-08-20",
+          "sourceRecordSlug": "mesa-riverview-park",
+          "name": "Riverview Park",
+          "city": "Mesa",
+          "state": "AZ",
+          "managingAgency": "City of Mesa Parks, Recreation and Community Facilities",
+          "checkedAt": "2026-08-20",
+          "officialSources": [
+            "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Riverview-Park",
+            "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Riverview-Park",
+            "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK76"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/49",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        }
+      ],
+      "openReviewItems": []
+    },
+    {
+      "id": "/us/az/mesa/parks/sherwood-park",
+      "path": "/us/az/mesa/parks/sherwood-park",
+      "url": "https://www.auditmap.org/us/az/mesa/parks/sherwood-park",
+      "kind": "parent",
+      "state": "AZ",
+      "citySlug": "mesa",
+      "parentSlug": "sherwood-park",
+      "subsiteSlug": null,
+      "name": "Sherwood Park",
+      "city": "Mesa",
+      "latitude": 33.3876516,
+      "longitude": -111.8114397,
+      "positionQuality": "reviewed-named-osm-park-geometry",
+      "coordinateSource": "OpenStreetMap named Sherwood Park way 1408452333, cross-checked against the current City address and City park boundary",
+      "releaseStatus": "research-only",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "mesa-public-parks-2026-08-20",
+          "sourceRecordSlug": "mesa-sherwood-park",
+          "name": "Sherwood Park",
+          "city": "Mesa",
+          "state": "AZ",
+          "managingAgency": "City of Mesa Parks, Recreation and Community Facilities",
+          "checkedAt": "2026-08-20",
+          "officialSources": [
+            "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Sherwood-Park",
+            "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Sherwood-Park",
+            "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK18",
+            "https://www.openstreetmap.org/way/1408452333"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/49",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        }
+      ],
+      "openReviewItems": []
+    },
+    {
+      "id": "/us/az/mesa/parks/skyline-park",
+      "path": "/us/az/mesa/parks/skyline-park",
+      "url": "https://www.auditmap.org/us/az/mesa/parks/skyline-park",
+      "kind": "parent",
+      "state": "AZ",
+      "citySlug": "mesa",
+      "parentSlug": "skyline-park",
+      "subsiteSlug": null,
+      "name": "Skyline Park",
+      "city": "Mesa",
+      "latitude": 33.4023326,
+      "longitude": -111.6123435,
+      "positionQuality": "reviewed-official-facility-map-pin",
+      "coordinateSource": "City of Mesa current Skyline Park facility-page visitor map pin",
+      "releaseStatus": "research-only",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "mesa-public-parks-2026-08-20",
+          "sourceRecordSlug": "mesa-skyline-park",
+          "name": "Skyline Park",
+          "city": "Mesa",
+          "state": "AZ",
+          "managingAgency": "City of Mesa Parks, Recreation and Community Facilities",
+          "checkedAt": "2026-08-20",
+          "officialSources": [
+            "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Skyline-Park",
+            "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities/Skyline-Park",
+            "https://data.mesaaz.gov/resource/djym-pkpp.json?facility_id=PKPK33"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/49",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        }
+      ],
       "openReviewItems": []
     },
     {

@@ -1,14 +1,14 @@
 # AuditMap Daily OpenTask Ask
 
-Generated: 2026-08-20
+Generated: 2026-08-21
 
 ## Current scoreboard
 
 - **3,382** destination pages are live.
-- **11** known destinations are in the hopper.
+- **36** known destinations are in the hopper.
 - **2** are generated locally but absent from production.
-- **2** are research-only candidates awaiting launch-guide work.
-- **7** are blocked by named review questions.
+- **28** are research-only candidates awaiting launch-guide work.
+- **6** are blocked by named review questions.
 - **0** live records need internal local/production synchronization.
 
 ## Current operating ask
@@ -21,8 +21,7 @@ The production-sync queue is reserved for maintainers and repository integrators
 
 | Packet | Work type | Geography | Records |
 | --- | --- | --- | ---: |
-| `research-completion-nc-boone-01` | research-completion | NC / boone | 3 |
-| `research-completion-nc-raleigh-01` | research-completion | NC / raleigh | 1 |
+| None | — | — | 0 |
 
 ## Daily merge rule
 
