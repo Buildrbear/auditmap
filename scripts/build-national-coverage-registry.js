@@ -313,6 +313,24 @@ function sourceUrls(record) {
   ].filter(Boolean);
 }
 
+function sourceKey(value) {
+  try {
+    const url = new URL(value);
+    url.hash = "";
+    url.hostname = url.hostname.toLowerCase();
+    if (url.pathname !== "/") url.pathname = url.pathname.replace(/\/+$/, "");
+    return url.toString();
+  } catch {
+    return String(value || "").trim();
+  }
+}
+
+function addCatalogMatch(index, key, place) {
+  if (!index.has(key)) index.set(key, []);
+  const matches = index.get(key);
+  if (!matches.some((candidate) => candidate.id === place.id)) matches.push(place);
+}
+
 function recordSlug(record) {
   const prefix = `${slugify(record.city)}-`;
   const supplied = String(record.slug || "");
@@ -325,13 +343,10 @@ function buildCatalogIndex(...documents) {
   const bySource = new Map();
   for (const document of documents) {
     for (const place of catalogPlaces(document)) {
-      byExact.set(catalogKey(place), place);
-      const stateKey = stateNameKey(place);
-      if (!byStateName.has(stateKey)) byStateName.set(stateKey, []);
-      const stateMatches = byStateName.get(stateKey);
-      if (!stateMatches.some((candidate) => candidate.id === place.id)) stateMatches.push(place);
+      addCatalogMatch(byExact, catalogKey(place), place);
+      addCatalogMatch(byStateName, stateNameKey(place), place);
       const officialUrl = place.officialSource?.url || place.source;
-      if (officialUrl) bySource.set(officialUrl, place);
+      if (officialUrl) addCatalogMatch(bySource, sourceKey(officialUrl), place);
     }
   }
   return { byExact, byStateName, bySource };
@@ -339,11 +354,25 @@ function buildCatalogIndex(...documents) {
 
 function matchResearchRecord(record, index) {
   for (const name of [record.name, ...(record.aliases || [])]) {
-    const exact = index.byExact.get(catalogKey(record, name));
-    if (exact) return { place: exact, basis: name === record.name ? "exact" : "reviewed-alias" };
+    const exactMatches = index.byExact.get(catalogKey(record, name)) || [];
+    if (exactMatches.length === 1) {
+      return { place: exactMatches[0], basis: name === record.name ? "exact" : "reviewed-alias" };
+    }
   }
+  const sourceMatches = [];
+  const researchNames = [record.name, ...(record.aliases || [])].map(normalize);
+  for (const source of sourceUrls(record)) {
+    for (const place of index.bySource.get(sourceKey(source)) || []) {
+      if (normalize(place.state) !== normalize(record.state)) continue;
+      if (!researchNames.includes(normalize(place.name))) continue;
+      if (!sourceMatches.some((candidate) => candidate.id === place.id)) sourceMatches.push(place);
+    }
+  }
+  if (sourceMatches.length === 1) return { place: sourceMatches[0], basis: "official-source-url" };
   const stateMatches = index.byStateName.get(stateNameKey(record)) || [];
-  if (stateMatches.length === 1) return { place: stateMatches[0], basis: "unique-state-name" };
+  if (stateMatches.length === 1 && (!normalize(record.city) || !normalize(stateMatches[0].city))) {
+    return { place: stateMatches[0], basis: "unique-state-name" };
+  }
   return null;
 }
 

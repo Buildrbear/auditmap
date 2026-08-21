@@ -74,6 +74,122 @@ assert.deepEqual(summary, {
 assert.equal(registry.find((record) => record.path.endsWith("/live-park")).researchSources.length, 1);
 assert.equal(registry.find((record) => record.path.endsWith("/new-park")).releaseStatus, "research-only");
 assert.equal(registry.find((record) => record.path.endsWith("/blocked-park")).releaseStatus, "blocked-review");
+assert.equal(registry.find((record) => record.path.endsWith("/live-park")).researchMatchBasis[0], "exact");
+assert.equal(
+  registry.find((record) => record.path.endsWith("/different-park")).releaseStatus,
+  "research-only",
+  "a reused official URL must not override an exact catalog identity belonging to another record",
+);
+
+const identityRegistry = buildRegistry({
+  livePages: parseSitemap(sitemap([
+    "/us/nc/raleigh/parks/boundary-preserve",
+    "/us/nc/durham/parks/twin-park-north",
+    "/us/nc/durham/parks/twin-park-south",
+    "/us/nc/durham/parks/shared-park-north",
+    "/us/nc/durham/parks/shared-park-south",
+  ])),
+  localPages: [],
+  productionCatalog: { places: [
+    {
+      id: "boundary-preserve",
+      name: "Boundary Preserve",
+      city: "Raleigh",
+      state: "NC",
+      officialSource: { url: "https://raleighnc.gov/parks/boundary-preserve/" },
+    },
+    {
+      id: "twin-park-north",
+      name: "Twin Park",
+      city: "Durham",
+      state: "NC",
+      officialSource: { url: "https://durhamnc.gov/parks/twin-park-north" },
+    },
+    {
+      id: "twin-park-south",
+      name: "Twin Park",
+      city: "Durham",
+      state: "NC",
+      officialSource: { url: "https://durhamnc.gov/parks/twin-park-south" },
+    },
+    {
+      id: "shared-park-north",
+      name: "Shared Park",
+      city: "Durham",
+      state: "NC",
+      officialSource: { url: "https://durhamnc.gov/parks" },
+    },
+    {
+      id: "shared-park-south",
+      name: "Shared Park",
+      city: "Durham",
+      state: "NC",
+      officialSource: { url: "https://durhamnc.gov/parks" },
+    },
+  ] },
+  localCatalog: { places: [] },
+  intakes: [{
+    campaignId: "identity-intake",
+    records: [
+      {
+        slug: "wake-forest-boundary-preserve",
+        name: "Boundary Preserve",
+        city: "Wake Forest",
+        state: "NC",
+        official_source_url: "https://raleighnc.gov/parks/boundary-preserve",
+      },
+      {
+        slug: "chapel-hill-boundary-preserve",
+        name: "Boundary Preserve",
+        city: "Chapel Hill",
+        state: "NC",
+        official_source_url: "https://chapelhillnc.gov/parks/different-boundary-preserve",
+      },
+      {
+        slug: "durham-twin-park",
+        name: "Twin Park",
+        city: "Durham",
+        state: "NC",
+        official_source_url: "https://durhamnc.gov/parks/twin-park-south",
+      },
+      {
+        slug: "durham-shared-park",
+        name: "Shared Park",
+        city: "Durham",
+        state: "NC",
+        official_source_url: "https://durhamnc.gov/parks",
+      },
+    ],
+  }],
+});
+const boundary = identityRegistry.find((record) => record.path === "/us/nc/raleigh/parks/boundary-preserve");
+assert.deepEqual(boundary.researchMatchBasis, ["official-source-url"]);
+assert.equal(boundary.researchSources.length, 1, "matching official URLs may reconcile a postal-city mismatch");
+assert.equal(
+  identityRegistry.find((record) => record.path.includes("/chapel-hill/parks/boundary-preserve")).releaseStatus,
+  "research-only",
+  "a unique state name must not silently merge a different municipality without source corroboration",
+);
+const southTwin = identityRegistry.find((record) => record.path.endsWith("/twin-park-south"));
+assert.deepEqual(southTwin.researchMatchBasis, ["official-source-url"]);
+assert.equal(southTwin.researchSources.length, 1, "an official source must disambiguate an exact-name collision");
+assert.equal(
+  identityRegistry.find((record) => record.path.endsWith("/twin-park-north")).researchSources.length,
+  0,
+);
+assert.equal(
+  identityRegistry.find((record) => record.path === "/us/nc/durham/parks/shared-park").releaseStatus,
+  "research-only",
+  "a shared official source must not resolve a colliding exact identity",
+);
+assert.equal(
+  identityRegistry.find((record) => record.path.endsWith("/shared-park-north")).researchSources.length,
+  0,
+);
+assert.equal(
+  identityRegistry.find((record) => record.path.endsWith("/shared-park-south")).researchSources.length,
+  0,
+);
 
 const mappedRegistry = buildRegistry({
   livePages,
