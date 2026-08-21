@@ -156,7 +156,7 @@ function feature(p, name, i, images) {
     sourceFor = (key) => ({
       sourceLabel: specific?.answerSourceLabels?.[key] || specific?.sourceLabel || p.operator,
       source: specific?.answerSources?.[key] || specific?.source || p.source,
-      verifiedAt: specific ? featureFactsDocument.checkedAt : p.checkedAt || checkedAt,
+      verifiedAt: specific ? specific.checkedAt || featureFactsDocument.checkedAt : p.checkedAt || checkedAt,
     }),
     qs = [
       ["location", `Where exactly is ${displayName}?`, specific?.location || description],
@@ -193,7 +193,7 @@ function feature(p, name, i, images) {
       needToKnow: specific?.need || p.need,
       informationSourceLabel: specific?.sourceLabel || p.operator,
       informationSourceUrl: specific?.source || p.source,
-      informationCheckedAt: specific ? featureFactsDocument.checkedAt : p.checkedAt || checkedAt,
+      informationCheckedAt: specific ? specific.checkedAt || featureFactsDocument.checkedAt : p.checkedAt || checkedAt,
       coordinateSource: point.source,
       positionQuality: point.displayName || `Reviewed placement within ${p.name}`,
       imageUrl: image.url,
@@ -206,7 +206,7 @@ function feature(p, name, i, images) {
     },
     source_label: specific?.sourceLabel || p.operator,
     source_url: specific?.source || p.source,
-    verified_at: specific ? featureFactsDocument.checkedAt : p.checkedAt || checkedAt,
+    verified_at: specific ? specific.checkedAt || featureFactsDocument.checkedAt : p.checkedAt || checkedAt,
   };
 }
 function researchQueue(p) {
@@ -237,9 +237,9 @@ function researchQueue(p) {
     "The Saddle Barn is temporarily closed in 2026 while Indiana DNR seeks a concessionaire; verify the current alert before restoring horseback-riding guidance."
   ];
   if (p.id.endsWith("white-river-state-park")) return [
-    "The Downtown Canal Walk, Old Washington Street Bridge, Celebration Plaza, Military Park, State Museum Lawn, NCAA Hall of Champions, Eiteljorg Museum and Indianapolis Zoo remain parent guidance until each has an exact reviewed arrival point, a complete destination-specific profile and matching reusable photography.",
-    "The four reviewed Commons photographs document the park district only. They must not be reassigned to a museum, zoo, bridge, lawn, plaza or Canal Walk destination without destination-specific evidence.",
-    "The operator's visit page still displays a June 27 bridge-closure notice after that date. Treat alerts and event detours as fast-changing and verify them again on the day of a visit.",
+    "Old Washington Street Bridge, Celebration Plaza lawn, Military Park, State Museum Lawn, NCAA Hall of Champions, Eiteljorg Museum and Indianapolis Zoo remain parent guidance until each has an exact reviewed arrival point, a complete destination-specific profile and matching reusable photography.",
+    "Only the exact Celebration Plaza Amphitheater and Central Indiana Canal photographs are assigned to destinations. The skyline and White River views remain parent-only evidence and must not be reassigned to another venue or landmark.",
+    "The operator's visit page still displays an August 15 closure notice that explicitly says affected spaces reopened August 16. Treat that notice as expired, and recheck alerts and event detours on the day of a visit.",
     "Museums, the zoo, rentals, concerts and events keep separate schedules, admission rules and animal policies; the park's 5:00 a.m.-11:00 p.m. grounds schedule must not be inherited by those venues."
   ];
   return [];

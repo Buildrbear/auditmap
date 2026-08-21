@@ -7,9 +7,25 @@ const fs = require("node:fs"),
   places = require("../data/generated/launch-map-places.json"),
   redirects = require("../vercel.json").redirects || [],
   expected = {
-    "launch-in-indianapolis-white-river-state-park": [],
+    "launch-in-indianapolis-white-river-state-park": [
+      "celebration-plaza-amphitheater",
+      "canal-walk",
+    ],
   },
-  expectedIds = {},
+  expectedIds = {
+    "celebration-plaza-amphitheater": "bcaa82a0-ff38-4a82-b8b0-f3e470c8f013",
+    "canal-walk": "713518ba-d4f3-4742-973c-8d645e44bbb6",
+  },
+  expectedEvidence = {
+    "celebration-plaza-amphitheater": {
+      coordinateSource: "https://www.openstreetmap.org/node/1291163463",
+      imageSource: "https://commons.wikimedia.org/wiki/File%3ACelebration_Plaza_Amphitheater_and_Canal_Headwaters_White_River_State_Park_Indianapolis.jpg",
+    },
+    "canal-walk": {
+      coordinateSource: "https://www.openstreetmap.org/way/113883269",
+      imageSource: "https://commons.wikimedia.org/wiki/File%3ACentral_Indiana_Canal_-_Indianapolis%2C_Indiana%2C_USA_-_October_7%2C_2023_01.jpg",
+    },
+  },
   retired = {
     "white-river-state-park": [
       "downtown-canal-walk",
@@ -94,12 +110,15 @@ for (const scope of currentBatch) {
     scope.name,
   );
   for (const feature of place.features || []) {
+    const reviewedEvidence = expectedEvidence[feature.slug];
     need(feature.id === expectedIds[feature.slug], `${scope.name}/${feature.name}: stable ID changed`);
     need(Number.isFinite(feature.latitude) && Number.isFinite(feature.longitude), `${scope.name}/${feature.name}: coordinates missing`);
     need(!/approximate/i.test(feature.details?.positionQuality || ""), `${scope.name}/${feature.name}: approximate coordinate retained`);
     need(feature.details?.coordinateSource?.startsWith("https://"), `${scope.name}/${feature.name}: coordinate source missing`);
+    need(feature.details?.coordinateSource === reviewedEvidence?.coordinateSource, `${scope.name}/${feature.name}: reviewed coordinate source changed`);
     need(feature.details?.images?.length === 1, `${scope.name}/${feature.name}: destination image missing`);
     need(isCommonsFilePage(feature.details?.imageSourceUrl), `${scope.name}/${feature.name}: image source missing`);
+    need(feature.details?.imageSourceUrl === reviewedEvidence?.imageSource, `${scope.name}/${feature.name}: destination-matched image changed`);
     need(feature.details?.searchAnswers?.length === 9, `${scope.name}/${feature.name}: expected nine destination answers`);
     for (const answer of feature.details?.searchAnswers || []) {
       need(answer.source?.startsWith("https://"), `${scope.name}/${feature.name}/${answer.intentKey}: source missing`);
@@ -127,5 +146,5 @@ if (fail.length) {
   process.exit(1);
 }
 console.log(
-  "Verified 1 Indianapolis guide, 1 photo-gated deferral, 0 evidence-cleared destinations, 4 reusable photos and 8 retired-route redirects.",
+  "Verified 1 Indianapolis guide, 1 photo-gated deferral, 2 evidence-cleared destinations, 4 reusable photos and 8 retired-route redirects.",
 );

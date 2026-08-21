@@ -1,6 +1,71 @@
 {
   "checkedAt": "2026-08-11",
   "places": {
+    "launch-in-indianapolis-white-river-state-park": {
+      "celebration-plaza-amphitheater": {
+        "checkedAt": "2026-08-20",
+        "name": "Celebration Plaza Amphitheater",
+        "address": "801 West Washington Street, Indianapolis, IN 46204",
+        "description": "A natural outdoor amphitheater on the east bank of the White River at the west end of Celebration Plaza, with tiered limestone seating and a private waterfall.",
+        "hours": "Open daily 5:00 a.m.-11:00 p.m. as part of White River State Park. Rentals, programs, private events and temporary park alerts can close or control access independently.",
+        "location": "The amphitheater is tucked into the hillside on the east bank of the White River at the west end of Celebration Plaza. The pin is the reviewed OpenStreetMap point for the named Celebration Plaza and Amphitheater feature.",
+        "parking": "Use the White River State Park underground garage or another downtown parking option, then approach through Celebration Plaza. The operator currently lists garage rates beginning at $10 for up to two hours and warns that special-event rates can differ.",
+        "restrooms": "The operator does not identify a dedicated amphitheater restroom on the venue or park-map pages. Plan around restrooms inside nearby staffed attractions during their own hours, and confirm event facilities when access is important.",
+        "fees": "The operator lists no general admission charge for ordinary access to this outdoor park space. Reserved, private or ticketed events can restrict entry or charge separately; garage parking is paid.",
+        "accessibility": "The venue is built into a hillside with tiered limestone seating. The operator does not publish a route-by-route step-free access description, so visitors who need a specific entrance or seating route should contact park staff before arrival.",
+        "dogs": "White River State Park prohibits animals off leash and leashes longer than six feet. Events may impose additional animal restrictions, so check the listing or signs before entering an event setup.",
+        "family": "The outdoor setting can support a short park stop, but children need close supervision around the waterfall, tiered stone seating and any event equipment or restricted areas.",
+        "need": "Check the current park alert and events pages on the day of the visit. The visit page still displays an August 15 closure notice that explicitly says the space reopened August 16, so that notice is expired rather than evidence of a current closure.",
+        "imageAlt": "Celebration Plaza Amphitheater beside the canal headwaters and lawn at White River State Park",
+        "sourceLabel": "White River State Park",
+        "source": "https://whiteriverstatepark.org/wrsp_greensapces/celebration-plaza-amphitheater/",
+        "answerSources": {
+          "location": "https://whiteriverstatepark.org/wrsp_greensapces/celebration-plaza-amphitheater/",
+          "parking": "https://whiteriverstatepark.org/visit/",
+          "hours": "https://whiteriverstatepark.org/wrsp_greensapces/celebration-plaza-amphitheater/",
+          "restroom": "https://whiteriverstatepark.org/map/",
+          "fees": "https://whiteriverstatepark.org/greenspace-rentals/",
+          "accessibility": "https://whiteriverstatepark.org/wrsp_greensapces/celebration-plaza-amphitheater/",
+          "dogs": "https://whiteriverstatepark.org/park-rules/",
+          "family": "https://whiteriverstatepark.org/wrsp_greensapces/celebration-plaza-amphitheater/",
+          "need-to-know": "https://whiteriverstatepark.org/visit/"
+        },
+        "imageIndex": 1
+      },
+      "canal-walk": {
+        "checkedAt": "2026-08-20",
+        "name": "Canal Walk",
+        "address": "801 West Washington Street, Indianapolis, IN 46204",
+        "description": "A three-mile waterside loop along the Central Canal from White River State Park to 11th Street for walkers, runners, bicyclists and sightseers.",
+        "hours": "Open daily 5:00 a.m.-11:00 p.m. The route can be affected by park alerts, events, maintenance and weather even when the ordinary grounds schedule applies.",
+        "location": "The Canal Walk runs from the White River through White River State Park to West Street and then north toward 10th and 11th streets. This pin marks the reviewed named paved Canal Walk segment inside White River State Park; it is an arrival point for the route, not the center of the full loop.",
+        "parking": "For this White River State Park access, use the park's underground garage or another downtown parking option and join the Canal Walk inside the park. The operator currently lists garage rates beginning at $10 for up to two hours and says special-event rates can differ.",
+        "restrooms": "The operator does not identify a dedicated public restroom on this Canal Walk segment. Plan around restrooms inside staffed park attractions during their own hours rather than assuming continuous restroom access along the three-mile loop.",
+        "fees": "The operator lists no general admission charge for ordinary Canal Walk use. Parking, rentals, gondolas, attractions, restaurants and special events charge separately.",
+        "accessibility": "The pinned named segment is mapped as a paved footway, but the operator does not publish a route-by-route accessibility guarantee for the entire three-mile loop. Confirm current detours, grades and any needed accommodation before relying on a continuous route.",
+        "dogs": "White River State Park prohibits animals off leash and leashes longer than six feet. Keep dogs controlled around other walkers, runners and bicyclists, and follow any event-specific restrictions.",
+        "family": "The waterside route can work for a family walk, but adults should supervise children beside the canal and around shared-path traffic. Choose a turnaround distance instead of assuming every group should complete the full loop.",
+        "need": "This is a linear route, not a single point: the pin marks the White River State Park segment. Check same-day park alerts and events for detours or closures, and remember that rentals and nearby attractions keep separate schedules.",
+        "imageAlt": "Canal Walk paths and water along the Central Canal in downtown Indianapolis",
+        "sourceLabel": "White River State Park",
+        "source": "https://whiteriverstatepark.org/venue/canal-walk/",
+        "answerSources": {
+          "location": "https://whiteriverstatepark.org/visit/",
+          "parking": "https://whiteriverstatepark.org/visit/",
+          "hours": "https://whiteriverstatepark.org/venue/canal-walk/",
+          "restroom": "https://whiteriverstatepark.org/map/",
+          "fees": "https://whiteriverstatepark.org/visit/",
+          "accessibility": "https://www.openstreetmap.org/way/113883269",
+          "dogs": "https://whiteriverstatepark.org/park-rules/",
+          "family": "https://whiteriverstatepark.org/venue/canal-walk/",
+          "need-to-know": "https://whiteriverstatepark.org/visit/"
+        },
+        "answerSourceLabels": {
+          "accessibility": "OpenStreetMap named feature"
+        },
+        "imageIndex": 3
+      }
+    },
     "launch-in-indianapolis-eagle-creek-park": {
       "eagle-creek-ornithology-center": {
         "name": "Eagle Creek Park Ornithology Center",
