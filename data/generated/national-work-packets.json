@@ -2,17 +2,17 @@
   "schemaVersion": 1,
   "asOf": "2026-08-20",
   "summary": {
-    "knownDestinations": 3458,
+    "knownDestinations": 3456,
     "liveDestinationPages": 3382,
     "liveParentPages": 905,
     "liveSubsitePages": 2477,
-    "hopper": 76,
+    "hopper": 74,
     "generatedLocallyNotLive": 15,
-    "researchOnly": 51,
+    "researchOnly": 49,
     "blockedReview": 10,
     "productionMissingFromLocal": 0,
     "recordsWithResearchHandoffs": 100,
-    "mappableDestinations": 2970,
+    "mappableDestinations": 2968,
     "openReviewItems": 11
   },
   "packets": [
@@ -550,20 +550,6 @@
       "count": 1,
       "recordIds": [
         "/us/nc/raleigh/parks/spring-forest-road-park"
-      ],
-      "acceptance": "Resolve the listed evidence or identity gaps and deliver a source-format, reviewable handoff; do not publish guesses."
-    },
-    {
-      "id": "research-completion-nc-wake-forest-01",
-      "type": "research-completion",
-      "state": "NC",
-      "citySlug": "wake-forest",
-      "status": "open",
-      "claim": null,
-      "count": 2,
-      "recordIds": [
-        "/us/nc/wake-forest/parks/forest-ridge-park",
-        "/us/nc/wake-forest/parks/horseshoe-farm-nature-preserve"
       ],
       "acceptance": "Resolve the listed evidence or identity gaps and deliver a source-format, reviewable handoff; do not publish guesses."
     },

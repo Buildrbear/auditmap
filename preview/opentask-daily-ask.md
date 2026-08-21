@@ -5,9 +5,9 @@ Generated: 2026-08-20
 ## Current scoreboard
 
 - **3,382** destination pages are live.
-- **76** known destinations are in the hopper.
+- **74** known destinations are in the hopper.
 - **15** are generated locally but absent from production.
-- **51** are research-only candidates awaiting launch-guide work.
+- **49** are research-only candidates awaiting launch-guide work.
 - **10** are blocked by named review questions.
 - **0** live records need internal local/production synchronization.
 
@@ -33,7 +33,7 @@ These packets remain visible for planning but are not claimable until the matchi
 
 | Packet | Work type | Geography | Records |
 | --- | --- | --- | ---: |
-| `research-completion-nc-wake-forest-01` | research-completion | NC / wake forest | 2 |
+| None | — | — | 0 |
 
 ## Daily merge rule
 
