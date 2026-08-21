@@ -36,8 +36,11 @@ This writes:
 - `data/generated/national-work-packets.json` — exact claimable packets
 - `preview/opentask-daily-ask.md` — current sponsor-facing OpenTask update
 
-The refresh uses no language-model calls. It matches exact identities, reviewed aliases, official
-source URLs, and unique state-level names. It does not use fuzzy matching to silently combine parks.
+The refresh uses no language-model calls. It matches unambiguous exact identities, reviewed aliases,
+and unique official source URLs within the same state. A unique state-level name is used only when
+one side lacks a city; a different city requires official-source corroboration. Shared source pages
+and conflicting exact identities remain separate. It does not use fuzzy matching to silently combine
+parks.
 
 ## Prevent overlapping work
 
