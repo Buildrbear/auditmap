@@ -10,7 +10,7 @@ Last updated: 2026-08-20
 - Outcome: 25 current City of El Paso park parents have canonical identities, exact City-reported aliases where needed, stable municipal GlobalIDs, City ownership/category evidence, addresses, acreage selection basis, approximate coordinate provenance, source labels, checked dates, freshness classifications, and `needs-launch-guide` release-ledger states.
 - Identity and coordinate decisions: Memorial Senior Center and Memorial Ballpark are excluded as duplicate Memorial Park components. A false Texas same-name match between El Paso and Houston Memorial Parks is fixed by requiring the city to match before the registry's unique-name fallback applies. City polygon centroids remain approximate inventory points, never visitor entrances.
 - Publication decision: no El Paso parent or destination page is generated and no City image or park polygon geometry is imported.
-- Submission: draft PR pending; not merged or promoted to production.
+- Submission: draft PR #52; not merged or promoted to production.
 - Canonical machine-readable checkpoint: `data/us-priority-enrichment-queue.json` under `activeCluster.resumeCheckpoint`.
 
 The Cleveland-through-Boise batches and the submitted Greensboro-through-Boone and Mesa inventory packets remain complete at their previous checkpoints. The El Paso inventory packet does not change their evidence decisions or reopen retired destinations.

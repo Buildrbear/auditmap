@@ -378,7 +378,7 @@
       "type": "research-completion",
       "state": "TX",
       "citySlug": "el-paso",
-      "status": "claimed",
+      "status": "submitted",
       "claim": {
         "packetId": "research-completion-tx-el-paso-01",
         "assignee": "Buildrbear",
@@ -387,8 +387,42 @@
         "claimedAt": "2026-08-20",
         "expiresAt": "2026-08-27",
         "lastUpdatedAt": "2026-08-20",
-        "status": "claimed",
-        "notes": "Exact 25-parent City of El Paso inventory packet claimed as breadth slot two. No visitor pages, City images, or polygon geometry will be published."
+        "status": "submitted",
+        "submissionUrl": "https://github.com/Buildrbear/auditmap/pull/52",
+        "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/52",
+        "acceptedRecordIds": [
+          "/us/tx/el-paso/parks/argal-park",
+          "/us/tx/el-paso/parks/blackie-chesher-park",
+          "/us/tx/el-paso/parks/chuck-heinrich-park",
+          "/us/tx/el-paso/parks/eastside-regional-park",
+          "/us/tx/el-paso/parks/eastwood-park",
+          "/us/tx/el-paso/parks/edgemere-linear-park",
+          "/us/tx/el-paso/parks/james-jim-crouch-park",
+          "/us/tx/el-paso/parks/joey-barraza-and-vino-memorial-park",
+          "/us/tx/el-paso/parks/lincoln-park",
+          "/us/tx/el-paso/parks/lionel-forti-park",
+          "/us/tx/el-paso/parks/marty-robbins-park",
+          "/us/tx/el-paso/parks/mary-frances-keisling-park",
+          "/us/tx/el-paso/parks/memorial-park",
+          "/us/tx/el-paso/parks/modesto-gomez-park",
+          "/us/tx/el-paso/parks/nations-tobin-park",
+          "/us/tx/el-paso/parks/pavo-real-park",
+          "/us/tx/el-paso/parks/pueblo-viejo-linear-park",
+          "/us/tx/el-paso/parks/ralph-t-cloud-park",
+          "/us/tx/el-paso/parks/ranchos-del-sol-park",
+          "/us/tx/el-paso/parks/richard-a-castro-eastside-sports-complex",
+          "/us/tx/el-paso/parks/salvador-rivas-jr-park",
+          "/us/tx/el-paso/parks/sue-young-park",
+          "/us/tx/el-paso/parks/tom-lea-lower-park",
+          "/us/tx/el-paso/parks/veterans-park",
+          "/us/tx/el-paso/parks/vista-del-valle-park"
+        ],
+        "reviewQueue": [
+          "Replace or verify all approximate park-polygon centroids with practical public arrival points before navigation is published.",
+          "Resolve Eastside Regional Park's Hueco Club address, Blackie Chesher Park's dual address, and both linear parks' practical arrival segments under separately assigned launch-guide work.",
+          "Complete current recurring visitor profiles and obtain representative reusable photography for all 25 parents; do not reuse City imagery or redistribute City polygon geometry without permission."
+        ],
+        "notes": "Twenty-five qualified City of El Paso inventory parents, stable GlobalIDs, current ownership/category evidence, approximate coordinate provenance, component exclusions, release ledger, source restrictions, registry collision fix, and full verification are submitted in PR #52. No El Paso pages or City media were generated."
       },
       "count": 25,
       "recordIds": [
