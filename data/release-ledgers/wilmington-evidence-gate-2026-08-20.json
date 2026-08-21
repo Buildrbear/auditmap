@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "campaignId": "wilmington-evidence-gate-2026-08-20",
+  "asOf": "2026-08-20",
+  "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+  "issueUrl": "https://github.com/Buildrbear/auditmap/issues/59",
+  "submissionUrl": "https://github.com/Buildrbear/auditmap/pull/30",
+  "packetId": "release-reconciliation-de-wilmington-01",
+  "contributionTier": "super-enrichment",
+  "summary": {
+    "publishableDestinations": 2,
+    "duplicatesOrRenames": 0,
+    "blockedDestinations": 0,
+    "deployed": 0
+  },
+  "destinations": [
+    {
+      "recordId": "/us/de/wilmington/parks/brandywine-park/josephine-fountain",
+      "stableId": "124a5adc-ea18-4411-824b-4a304124ccf0",
+      "name": "Josephine Fountain",
+      "classification": "publishable-submitted",
+      "latitude": 39.75604306,
+      "longitude": -75.55080806,
+      "coordinateSource": "https://commons.wikimedia.org/wiki/File:Brandywine_Park_Blossoms.JPG",
+      "positionQuality": "exact-geotagged-destination-photograph",
+      "operatorSource": "https://getconnected.delaware.gov/agency/detail/?agency_id=176980",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Brandywine_Park_Blossoms.JPG",
+      "imageAuthor": "Ethelred unraed",
+      "imageLicense": "CC BY-SA 4.0"
+    },
+    {
+      "recordId": "/us/de/wilmington/parks/rockford-park/rockford-tower",
+      "stableId": "0e66d89f-770b-4d3c-9826-c308e8e6a670",
+      "name": "Rockford Tower",
+      "classification": "publishable-submitted",
+      "latitude": 39.7673868,
+      "longitude": -75.574666,
+      "coordinateSource": "https://www.openstreetmap.org/way/302761632",
+      "positionQuality": "exact-named-open-map-building",
+      "operatorSource": "https://www.wilmingtonde.gov/Home/Components/FacilityDirectory/FacilityDirectory/223/118",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Rockford_Water_Tower_viewed_from_the_field.jpg",
+      "imageAuthor": "JoPod",
+      "imageLicense": "CC BY-SA 4.0"
+    }
+  ],
+  "sources": [
+    {
+      "label": "City of Wilmington Brandywine Park",
+      "url": "https://www.wilmingtonde.gov/Home/Components/FacilityDirectory/FacilityDirectory/131/118",
+      "checkedAt": "2026-08-11",
+      "freshness": "ordinary-operator-guidance"
+    },
+    {
+      "label": "City of Wilmington Rockford Park",
+      "url": "https://www.wilmingtonde.gov/Home/Components/FacilityDirectory/FacilityDirectory/223/118",
+      "checkedAt": "2026-08-11",
+      "freshness": "ordinary-operator-guidance"
+    },
+    {
+      "label": "Wilmington State Parks agency listing",
+      "url": "https://getconnected.delaware.gov/agency/detail/?agency_id=176980",
+      "checkedAt": "2026-08-11",
+      "freshness": "fast-changing"
+    },
+    {
+      "label": "Greater Wilmington Convention and Visitors Bureau Rockford Tower listing",
+      "url": "https://www.visitwilmingtonde.com/listing/rockford-park/940/",
+      "checkedAt": "2026-08-11",
+      "freshness": "fast-changing"
+    },
+    {
+      "label": "DART First State routes",
+      "url": "https://www.dartfirststate.com/routes/",
+      "checkedAt": "2026-08-11",
+      "freshness": "fast-changing"
+    }
+  ],
+  "reviewQueue": [
+    "Josephine Fountain identity and position are exact, but no current operator source promises water operation or bloom; recheck maintenance, weather and event notices.",
+    "Rockford Tower observation-deck access uses a fast-changing 2026 schedule and can close for weather; recheck on the day of a visit.",
+    "No reviewed operator source describes Rockford Tower's observation deck as step-free; do not claim an accessible climb without confirmation.",
+    "Other Brandywine and Rockford destinations remain outside this two-record packet until exact profiles, positions and matching reusable photographs clear together.",
+    "Production presence is the closing authority; local generation and a Ready preview keep both records submitted rather than live."
+  ],
+  "verification": {
+    "wilmingtonVerifier": "passed-on-pr-30",
+    "releaseGate": "passed-53-campaigns-and-national-safeguards-on-pr-30",
+    "rawHtml": "passed-two-parent-and-two-destination-routes-on-pr-30",
+    "desktopLayout": "passed-two-parent-routes-on-pr-30",
+    "phone390Layout": "passed-four-routes-no-horizontal-overflow-on-pr-30",
+    "imageRights": "passed-eight-reviewed-assets-on-pr-30",
+    "vercelPreview": "passed-four-routes-eight-optimized-images-and-one-permanent-redirect-on-pr-30",
+    "productionPresence": "not-present"
+  },
+  "risk": {
+    "privacy": "none",
+    "security": "none",
+    "moderation": "none",
+    "accessibility": "The tower climb is not represented as step-free; ground access and the deck remain distinct.",
+    "cost": "No paid API or dependency was added.",
+    "freshness": "Tower schedules, weather closures, fountain operation, bloom and event parking require rechecks."
+  }
+}
