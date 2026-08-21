@@ -52,6 +52,7 @@ Continue requiring representative reusable photography, current official visitor
 - Order the generated OpenTask queue by the hopper threshold: release reconciliation first above 100 records, evidence completion first at or below 100, without bypassing WIP caps.
 - Keep one packet and one reviewable outcome per pull request; do not use a target park count to override evidence quality or packet boundaries.
 - Keep every `acceptedRecordIds` entry inside its exact claimed packet. The deterministic refresh rejects malformed paths, duplicates and cross-packet record references for active claims.
+- Keep every registry path and ID globally unique. The refresh rejects ambiguous research identities that would reuse a live canonical route and separate research records that normalize to one route; resolve the source identity or slug instead of emitting duplicate keys.
 - Keep claim documents on schema version 1 with no undeclared fields. Review queues use structured issue/recommendation objects, with optional HTTPS source URLs; the current ledger contains 15 valid claims and 37 structured review items.
 - Apply the assigned contribution tier. Inventory packets do not become launch guides merely because current visitor facts are available.
 - For page-producing packets, generate and test locally throughout the batch, then create one pull request preview for the release candidate.
