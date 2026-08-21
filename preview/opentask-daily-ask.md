@@ -1,6 +1,6 @@
 # AuditMap Daily OpenTask Ask
 
-Generated: 2026-08-21
+Generated: 2026-08-20
 
 ## Current scoreboard
 

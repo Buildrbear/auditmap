@@ -2,12 +2,22 @@ const assert = require("node:assert/strict");
 const {
   buildPackets,
   buildRegistry,
+  dateInTimeZone,
   localPagesFromLaunchMap,
   parseSitemap,
   summarize,
   validateActiveClaimReferences,
   validateClaimsDocument,
 } = require("./build-national-coverage-registry");
+
+assert.equal(
+  dateInTimeZone(new Date("2026-08-21T01:30:00.000Z")),
+  "2026-08-20",
+);
+assert.equal(
+  dateInTimeZone(new Date("2026-08-21T04:30:00.000Z")),
+  "2026-08-21",
+);
 
 const sitemap = (paths) => `<?xml version="1.0"?><urlset>${paths.map((item) =>
   `<url><loc>https://www.auditmap.org${item}</loc></url>`,

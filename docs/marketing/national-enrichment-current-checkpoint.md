@@ -45,6 +45,7 @@ Continue requiring representative reusable photography, current official visitor
 ## Efficient Operating Model
 
 - Refresh from the latest stacked campaign head and claim one exact generated packet before research begins.
+- Interpret registry `asOf`, freshness and claim-expiration dates in `America/New_York`; UTC midnight must not advance the campaign date during the Eastern evening.
 - Keep at most two open municipality-breadth batches and one depth cluster. Mesa and El Paso fill the two breadth slots at this checkpoint.
 - Keep one packet and one reviewable outcome per pull request; do not use a target park count to override evidence quality or packet boundaries.
 - Keep every `acceptedRecordIds` entry inside its exact claimed packet. The deterministic refresh rejects malformed paths, duplicates and cross-packet record references for active claims.

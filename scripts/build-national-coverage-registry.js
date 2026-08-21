@@ -50,6 +50,7 @@ const CLAIM_FIELDS = new Set([
   "notes",
 ]);
 const REVIEW_QUEUE_FIELDS = new Set(["issue", "recommendation", "sourceUrl"]);
+const CAMPAIGN_TIME_ZONE = "America/New_York";
 
 function parseArgs(argv) {
   const options = { ...defaultPaths, write: true, includeExternal: true };
@@ -124,6 +125,20 @@ function isIsoDate(value) {
   if (!ISO_DATE_PATTERN.test(String(value || ""))) return false;
   const parsed = new Date(`${value}T00:00:00.000Z`);
   return !Number.isNaN(parsed.valueOf()) && parsed.toISOString().slice(0, 10) === value;
+}
+
+function dateInTimeZone(value = new Date(), timeZone = CAMPAIGN_TIME_ZONE) {
+  const parts = Object.fromEntries(
+    new Intl.DateTimeFormat("en-US", {
+      timeZone,
+      calendar: "gregory",
+      numberingSystem: "latn",
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit",
+    }).formatToParts(value).map((part) => [part.type, part.value]),
+  );
+  return `${parts.year}-${parts.month}-${parts.day}`;
 }
 
 function validateClaimsDocument(document, { asOf = null } = {}) {
@@ -677,7 +692,8 @@ async function build(options) {
     readJson(options.claims),
     readJson(options.spatialSources),
   ]);
-  const asOf = options.asOf || new Date().toISOString().slice(0, 10);
+  const asOf = options.asOf || dateInTimeZone();
+  if (!isIsoDate(asOf)) throw new Error("asOf must be an ISO date (YYYY-MM-DD)");
   const claims = validateClaimsDocument(claimsDocument, { asOf });
   const externalIntakes = options.includeExternal
     ? await loadExternalIntakes(options.externalSources)
@@ -762,6 +778,7 @@ module.exports = {
   buildPackets,
   buildRegistry,
   buildSpatialIndex,
+  dateInTimeZone,
   destinationFromUrl,
   localPagesFromLaunchMap,
   matchResearchRecord,

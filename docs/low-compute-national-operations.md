@@ -25,6 +25,11 @@ Run:
 npm run refresh:national-coverage
 ```
 
+The default `asOf` date is calculated explicitly in `America/New_York`, AuditMap's campaign
+operating timezone. This prevents a refresh during the Eastern evening from advancing freshness and
+claim-expiration checks to the next UTC calendar day. Reproducible historical runs can still pass an
+explicit `--as-of YYYY-MM-DD` value.
+
 This writes:
 
 - `data/generated/national-coverage-registry.json` — the complete known destination list
