@@ -297,7 +297,7 @@
     "status": "el-paso-25-parent-inventory-source-complete-launch-guide-gated-second-breadth-slot",
     "metros": ["El Paso"],
     "resumeCheckpoint": {
-      "pausedAt": "2026-08-20",
+      "pausedAt": "2026-08-21",
       "completed": [
         "Fixed the parent-information merge so later image-only campaign records no longer erase richer official visitor facts.",
         "Restored 937 sourced answers across 66 parent parks in 35 metros, including 43 answers across Railroad Park, Red Mountain Park, and Ruffner Mountain.",
@@ -504,46 +504,28 @@
         "Corrected the national registry's same-state unique-name fallback so El Paso Memorial Park cannot attach to Houston Memorial Park; added and passed a regression test requiring the normalized city to match.",
         "Made registry identity indexes collision-aware and limited cross-city reconciliation to a unique same-state official source URL with a matching reviewed name; this preserves the two source-corroborated Raleigh boundary cases while keeping conflicting exact names, shared source pages, and unrelated URL reuse separate.",
         "Made canonical registry paths and IDs unique by construction: refresh now rejects an unresolved research identity that collides with a live route and rejects different research records that reuse one canonical slug.",
-        "Registered the El Paso Parks FeatureServer with publisher-terms review, centroid-as-entrance, polygon-redistribution, and City-image restrictions; imported no City media or polygon geometry."
+        "Registered the El Paso Parks FeatureServer with publisher-terms review, centroid-as-entrance, polygon-redistribution, and City-image restrictions; imported no City media or polygon geometry.",
+        "Merged the complete verified nationwide enrichment dependency stack through PR #66 and deployed production commit 59d2f4ce338bef932c1fe23e9bc1f4dadcf428a7 on 2026-08-21.",
+        "Verified the production sitemap, Cleveland parent and destination routes, optimized hero images, permanent Atlanta canonical redirects, 390-pixel layouts, and browser console before accepting all 15 submitted claims and reopening two municipality-breadth lanes plus one depth lane."
       ],
-      "campaignCapacity": {
-        "asOf": "2026-08-20",
+    "campaignCapacity": {
+      "asOf": "2026-08-21",
         "limits": {
           "municipalityBreadth": 2,
           "depth": 1
         },
-        "activeLanes": {
-          "municipalityBreadth": [
-            {
-              "packetId": "research-completion-az-mesa-01",
-              "issueUrl": "https://github.com/Buildrbear/auditmap/issues/49",
-              "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/50",
-              "status": "submitted"
-            },
-            {
-              "packetId": "research-completion-tx-el-paso-01",
-              "issueUrl": "https://github.com/Buildrbear/auditmap/issues/51",
-              "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/52",
-              "status": "submitted"
-            }
-          ],
-          "depth": [
-            {
-              "packetId": "release-reconciliation-in-indianapolis-01",
-              "issueUrl": "https://github.com/Buildrbear/auditmap/issues/53",
-              "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/54",
-              "status": "submitted"
-            }
-          ]
-        },
-        "available": {
-          "municipalityBreadth": 0,
-          "depth": 0
-        }
+      "activeLanes": {
+        "municipalityBreadth": [],
+        "depth": []
       },
-      "nextAction": "Review Mesa draft PR #50, El Paso draft PR #52, and White River State Park draft PR #54 independently. No third municipality-breadth batch or second depth cluster may open until the matching lane closes. Keep both sets of 25 inventory parents launch-guide-gated, and keep White River's deferred destinations at parent guidance until separately assigned evidence clears; do not reopen completed Cleveland-through-Boone work.",
-      "notReleased": true,
-      "productionPublished": false
+      "available": {
+        "municipalityBreadth": 2,
+        "depth": 1
+      }
+    },
+    "nextAction": "Claim the next generated national work packet under the refreshed registry. Up to two municipality-breadth lanes and one depth lane are available. Keep accepted inventory parents launch-guide-gated and do not reopen completed work without a specific defect or new evidence.",
+    "notReleased": false,
+    "productionPublished": true
     }
   },
   "deferredPhotoMissions": [
