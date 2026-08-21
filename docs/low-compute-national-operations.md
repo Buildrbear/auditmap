@@ -40,7 +40,9 @@ The refresh uses no language-model calls. It matches unambiguous exact identitie
 and unique official source URLs within the same state. A unique state-level name is used only when
 one side lacks a city; a different city requires official-source corroboration. Shared source pages
 and conflicting exact identities remain separate. It does not use fuzzy matching to silently combine
-parks.
+parks. A refresh stops if an unresolved research identity or repeated research slug would create a
+second record at an existing canonical path; contributors must resolve the source identity instead of
+publishing duplicate registry keys.
 
 ## Prevent overlapping work
 

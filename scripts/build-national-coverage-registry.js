@@ -464,6 +464,18 @@ function mergeResearch(target, research) {
   }
 }
 
+function assertUniqueRegistryRecords(records) {
+  for (const field of ["path", "id"]) {
+    const seen = new Set();
+    for (const record of records) {
+      if (seen.has(record[field])) {
+        throw new Error(`Duplicate national registry ${field}: ${record[field]}`);
+      }
+      seen.add(record[field]);
+    }
+  }
+}
+
 function buildRegistry({
   livePages,
   localPages,
@@ -519,6 +531,11 @@ function buildRegistry({
       }
 
       const candidatePath = pagePathForResearch(effectiveRecord);
+      if (byPath.has(candidatePath)) {
+        throw new Error(
+          `Unresolved research identity ${sourceId}::${record.slug || record.name} would duplicate existing canonical path ${candidatePath}`,
+        );
+      }
       const signature = catalogKey(effectiveRecord);
       let candidate = researchOnly.get(signature);
       if (!candidate) {
@@ -560,6 +577,7 @@ function buildRegistry({
   }
 
   registry.push(...researchOnly.values());
+  assertUniqueRegistryRecords(registry);
   const spatialIndex = buildSpatialIndex(productionLaunchMap, localLaunchMap);
   for (const record of registry) {
     const location = spatialIndex.get(record.path);
