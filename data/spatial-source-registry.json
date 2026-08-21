@@ -255,6 +255,43 @@
         "assuming GIS or City-site hosting grants image reuse rights"
       ],
       "checkedAt": "2026-08-20"
+    },
+    {
+      "id": "boone-facilities-structures-and-parcels",
+      "publisher": "Town of Boone",
+      "geography": "Boone and the Boone fire district, North Carolina",
+      "serviceUrl": "https://gisviewer.boonenc.gov/arcgis/rest/services/gisviewer",
+      "layers": [
+        {
+          "id": "facility-directory",
+          "name": "Town facilities directory embedded map records",
+          "geometryRole": "official facility identity, address, relationship, and visitor map-pin coordinates"
+        },
+        {
+          "id": "MasterV2/MapServer/16",
+          "name": "Structure Address Labels",
+          "geometryRole": "municipal structure footprints, named buildings, and current address cross-checks"
+        },
+        {
+          "id": "Parcels/MapServer/1",
+          "name": "Watauga County Parcel Boundaries",
+          "geometryRole": "parcel ownership, situs, land-use, and facility-pin intersection context"
+        }
+      ],
+      "spatialReference": "North Carolina State Plane EPSG:2264 with queries projected to EPSG:4326; facility-directory pins publish EPSG:4326 coordinates",
+      "authorityClass": "municipal-official",
+      "licenseStatus": "publisher-terms-review-required",
+      "approvedUses": [
+        "official-source verification",
+        "parent coordinate provenance",
+        "facility relationship and address-conflict review"
+      ],
+      "prohibitedUntilApproved": [
+        "bulk public redistribution",
+        "representing parcel ownership as public access permission",
+        "assuming Town site or GIS hosting grants image reuse rights"
+      ],
+      "checkedAt": "2026-08-20"
     }
   ]
 }

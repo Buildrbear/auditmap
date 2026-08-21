@@ -1,0 +1,69 @@
+{
+  "campaign": "Boone public parks research completion",
+  "packetId": "research-completion-nc-boone-01",
+  "checkedAt": "2026-08-20",
+  "contributionTier": "inventory",
+  "releaseStandard": "Resolve the Clawson-Burnley coordinate, Daniel Boone Park and Boone Jaycee Park relationship, Junaluska address evidence, current access evidence, source freshness, and image-rights questions in source format. Do not publish launch guides until representative reusable media, current hours, and complete visitor-answer sets clear separate assignments.",
+  "places": [
+    {
+      "id": "research-nc-boone-clawson-burnley-park",
+      "recordSlug": "boone-clawson-burnley-park",
+      "name": "Clawson-Burnley Park",
+      "alternateNames": [],
+      "city": "Boone",
+      "state": "NC",
+      "operator": "Town of Boone Public Works",
+      "source": "https://www.townofboone.net/facilities/facility/details/ClawsonBurnley-Park-13",
+      "deferRelease": true,
+      "photoGateStatus": "deferred-no-representative-reusable-parent-set",
+      "minimumImages": 4,
+      "imageQueries": [
+        "Clawson-Burnley Park Boone North Carolina",
+        "Clawson Burnley Wetlands Boone",
+        "Clawson Burnley Park Greenway",
+        "Clawson Burnley Park pavilion"
+      ],
+      "subsites": []
+    },
+    {
+      "id": "research-nc-boone-daniel-boone-park",
+      "recordSlug": "boone-daniel-boone-park",
+      "name": "Daniel Boone Park",
+      "alternateNames": [],
+      "city": "Boone",
+      "state": "NC",
+      "operator": "Town of Boone Cultural Resources Department",
+      "source": "https://www.townofboone.net/Facilities/Facility/Details/Daniel-Boone-Park-1",
+      "deferRelease": true,
+      "photoGateStatus": "deferred-no-representative-reusable-parent-set",
+      "minimumImages": 4,
+      "imageQueries": [
+        "Daniel Boone Park Boone North Carolina",
+        "Daniel Boone Native Gardens Boone",
+        "Horn in the West Boone park",
+        "Boone Jaycee Park"
+      ],
+      "subsites": []
+    },
+    {
+      "id": "research-nc-boone-junaluska-park",
+      "recordSlug": "boone-junaluska-park",
+      "name": "Junaluska Park",
+      "alternateNames": [],
+      "city": "Boone",
+      "state": "NC",
+      "operator": "Town of Boone Public Works",
+      "source": "https://www.townofboone.net/facilities/facility/details/junaluskapark-15",
+      "deferRelease": true,
+      "photoGateStatus": "deferred-no-representative-reusable-parent-set",
+      "minimumImages": 4,
+      "imageQueries": [
+        "Junaluska Park Boone North Carolina",
+        "Junaluska Park Boone playground",
+        "Junaluska Park Boone basketball",
+        "Junaluska Park Boone Bear Trail"
+      ],
+      "subsites": []
+    }
+  ]
+}

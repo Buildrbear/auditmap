@@ -128,8 +128,8 @@
       "city": "Boone",
       "state": "NC",
       "address": "591 Horn in the West Drive, Boone, NC 28607",
-      "latitude": 36.2087736,
-      "longitude": -81.6708724,
+      "latitude": 36.2095879885407,
+      "longitude": -81.669921000333,
       "managing_agency": "Town of Boone Cultural Resources Department",
       "official_source_url": "https://www.townofboone.net/Facilities/Facility/Details/Daniel-Boone-Park-1",
       "why_major": "A 36.5-acre cultural and recreation campus containing major town attractions.",
@@ -138,10 +138,48 @@
         "cultural campus",
         "multiple public attractions"
       ],
-      "coordinate_source": "OpenStreetMap Nominatim facility match",
-      "coordinate_source_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&countrycodes=us&q=591%20Horn%20In%20The%20West%20Drive%2C%20Boone%2C%20NC%2028607",
-      "coordinate_precision": "facility point",
-      "source_checked_at": "2026-08-13"
+      "coordinate_source": "Town of Boone Daniel Boone Park facility-directory map pin",
+      "coordinate_source_url": "https://www.townofboone.net/Facilities/Facility/Details/Daniel-Boone-Park-1",
+      "coordinate_precision": "official facility map pin",
+      "position_quality": "reviewed-official-facility-map-pin",
+      "relationship_reconciliation": {
+        "status": "resolved-parent-child",
+        "finding": "The current Town facility directory expressly lists Boone Jaycee Park as a subfacility of Daniel Boone Park. Boone Jaycee Park has its own 728 Horn in the West Drive facility record and map pin within the broader campus.",
+        "publication_rule": "Retain Daniel Boone Park as the parent. Do not import Boone Jaycee Park as a separate major parent; any future destination treatment must preserve the parent-child relationship and use destination-specific evidence."
+      },
+      "current_access_review": {
+        "status": "verified-active-public-use-parent-hours-unresolved",
+        "finding": "The current Town facility page describes ongoing events and public attractions, and the Town held a public park-tour meeting there in May 2026. Boone Jaycee Park separately publishes dawn-to-dusk hours, but no current general hours were found for the entire Daniel Boone Park campus.",
+        "publication_rule": "Do not extend Boone Jaycee Park's dawn-to-dusk schedule to the full campus or to separately operated attractions. Recheck every named facility before launch-guide publication."
+      },
+      "sources": [
+        {
+          "label": "Town of Boone Daniel Boone Park facility page",
+          "url": "https://www.townofboone.net/Facilities/Facility/Details/Daniel-Boone-Park-1",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "Town of Boone Boone Jaycee Park subfacility page",
+          "url": "https://www.townofboone.net/Facilities/Facility/Details/Boone-Jaycee-Park-12",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "Town of Boone May 2026 park-tour meeting",
+          "url": "https://www.townofboone.net/calendar.aspx?EID=3186&PREVIEW=YES",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "Town of Boone structure-address GIS - 591 Horn in the West Drive",
+          "url": "https://gisviewer.boonenc.gov/arcgis/rest/services/gisviewer/MasterV2/MapServer/16/query?where=UPPER%28ADDRESS%29%3D%27591%20HORN%20IN%20THE%20WEST%20DR%27&outFields=*&returnGeometry=true&outSR=4326&f=geojson",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "Town of Boone parcel GIS point cross-check",
+          "url": "https://gisviewer.boonenc.gov/arcgis/rest/services/gisviewer/Parcels/MapServer/1/query?geometry=-81.669921000333%2C36.2095879885407&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=*&returnGeometry=false&f=json",
+          "checkedAt": "2026-08-20"
+        }
+      ],
+      "source_checked_at": "2026-08-20"
     },
     {
       "slug": "boone-clawson-burnley-park",
@@ -149,20 +187,63 @@
       "city": "Boone",
       "state": "NC",
       "address": "355 Martin Luther King Jr. Street, Boone, NC 28607",
-      "latitude": 36.2037875,
-      "longitude": -81.6521305,
+      "latitude": 36.2048775699029,
+      "longitude": -81.6507230115573,
       "managing_agency": "Town of Boone Public Works",
-      "official_source_url": "https://www.townofboone.net/Facilities/Facility/Details/Greenway-Trail-27",
+      "official_source_url": "https://www.townofboone.net/facilities/facility/details/ClawsonBurnley-Park-13",
       "why_major": "Greenway hub combining wetlands access, recreation facilities, and the town trail system.",
       "evidence_factors": [
         "greenway hub",
         "wetlands access",
         "multiple facilities"
       ],
-      "coordinate_source": "OpenStreetMap Nominatim street match",
-      "coordinate_source_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&countrycodes=us&q=355%20Martin%20Luther%20King%20Jr%20Street%2C%20Boone%2C%20NC%2028607",
-      "coordinate_precision": "street-level; review recommended",
-      "source_checked_at": "2026-08-13"
+      "coordinate_source": "Town of Boone Clawson-Burnley Park facility-directory map pin",
+      "coordinate_source_url": "https://www.townofboone.net/facilities/facility/details/ClawsonBurnley-Park-13",
+      "coordinate_precision": "official facility map pin cross-checked against named Town GIS structures and Town-owned parcel",
+      "position_quality": "reviewed-official-facility-map-pin",
+      "coordinate_reconciliation": {
+        "status": "resolved-town-map-and-gis-match",
+        "finding": "The current facility page embeds a Clawson-Burnley Park map pin on Town-owned parcel 2910-73-9819-000. The Town structure-address layer independently identifies the park's two shelter/outbuilding footprints at 355 Martin Luther King Jr Street.",
+        "publication_rule": "Use the current official facility map pin as the parent reference coordinate. Treat the named GIS structures as facility cross-checks, not separate parents."
+      },
+      "current_access_review": {
+        "status": "verified-active-public-use-current-hours-unresolved",
+        "finding": "The current Town facility and Greenway pages describe parking, accessible shelter, wetlands, pavilion, picnic, and walking access, and a July 2026 Historic Preservation Commission agenda records ongoing interpretive-panel work. No current park-specific general hours were found.",
+        "publication_rule": "Do not infer daily hours from the Greenway or special events. Obtain current operator hours before launch-guide publication."
+      },
+      "sources": [
+        {
+          "label": "Town of Boone Clawson-Burnley Park facility page",
+          "url": "https://www.townofboone.net/facilities/facility/details/ClawsonBurnley-Park-13",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "Town of Boone Greenway Trail facility page",
+          "url": "https://townofboone.net/Facilities/Facility/Details/Greenway-Trail-27",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "Town of Boone wetlands page",
+          "url": "https://www.townofboone.net/662/Wetlands",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "Town of Boone structure-address GIS - Clawson-Burnley Park",
+          "url": "https://gisviewer.boonenc.gov/arcgis/rest/services/gisviewer/MasterV2/MapServer/16/query?where=UPPER%28ADDRESS%29%3D%27355%20MARTIN%20LUTHER%20KING%20JR%20ST%27&outFields=*&returnGeometry=true&outSR=4326&f=geojson",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "Town of Boone parcel GIS point cross-check",
+          "url": "https://gisviewer.boonenc.gov/arcgis/rest/services/gisviewer/Parcels/MapServer/1/query?geometry=-81.6507230115573%2C36.2048775699029&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=*&returnGeometry=false&f=json",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "Town of Boone July 2026 Clawson-Burnley interpretive-panel agenda",
+          "url": "https://www.townofboone.net/DocumentCenter/View/4845/July-7-HPC",
+          "checkedAt": "2026-08-20"
+        }
+      ],
+      "source_checked_at": "2026-08-20"
     },
     {
       "slug": "boone-junaluska-park",
@@ -182,8 +263,46 @@
       ],
       "coordinate_source": "OpenStreetMap Nominatim address match",
       "coordinate_source_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&countrycodes=us&q=135%20Bear%20Trail%2C%20Boone%2C%20NC%2028607",
-      "coordinate_precision": "address point",
-      "source_checked_at": "2026-08-13"
+      "coordinate_precision": "address point validated inside the Town GIS 135 Bear Trail commercial structure footprint",
+      "position_quality": "reviewed-current-address-building-match",
+      "address_reconciliation": {
+        "status": "resolved-current-address-legacy-pin-conflict-retained",
+        "finding": "The current Town facility page lists 135 Bear Trail. The 2023 ADA plan uses 175 Summit Street for inspections performed in 2020, and the facility page's embedded map pin still falls on the Town GIS residential structure at 175 Summit Street. The Town GIS separately maps 135 Bear Trail as a commercial American Legion structure, and the reviewed address point falls inside that footprint.",
+        "publication_rule": "Use 135 Bear Trail as the current visitor address and the reviewed 135 Bear Trail building match as the inventory coordinate. Treat 175 Summit Street and the embedded facility pin as conflicting legacy evidence, not a current public entrance, until the Town corrects or explains the map pin."
+      },
+      "current_access_review": {
+        "status": "verified-active-public-use-current-hours-unresolved",
+        "finding": "The current Town facility page lists parking, restrooms, basketball, soccer, playground, picnic shelters, and a walking track. No current park-specific general hours were found. The 2023 ADA plan records corrective work targets but does not establish that every listed barrier has been remediated.",
+        "publication_rule": "Do not publish current hours or claim full accessible-route compliance without a new operator check."
+      },
+      "sources": [
+        {
+          "label": "Town of Boone Junaluska Park facility page",
+          "url": "https://www.townofboone.net/facilities/facility/details/junaluskapark-15",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "Town of Boone 2023 ADA Transition Plan",
+          "url": "https://www.townofboone.net/DocumentCenter/View/2432/ADA-Transition-Plan-Updated-March-17-2023-PDF",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "Town of Boone structure-address GIS - 135 Bear Trail",
+          "url": "https://gisviewer.boonenc.gov/arcgis/rest/services/gisviewer/MasterV2/MapServer/16/query?where=UPPER%28ADDRESS%29%3D%27135%20BEAR%20TRL%27&outFields=*&returnGeometry=true&outSR=4326&f=geojson",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "Town of Boone structure-address GIS - 175 Summit Street",
+          "url": "https://gisviewer.boonenc.gov/arcgis/rest/services/gisviewer/MasterV2/MapServer/16/query?where=UPPER%28ADDRESS%29%3D%27175%20SUMMIT%20ST%27&outFields=*&returnGeometry=true&outSR=4326&f=geojson",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "OpenStreetMap Nominatim 135 Bear Trail address match",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&countrycodes=us&q=135%20Bear%20Trail%2C%20Boone%2C%20NC%2028607",
+          "checkedAt": "2026-08-20"
+        }
+      ],
+      "source_checked_at": "2026-08-20"
     },
     {
       "slug": "chapel-hill-cedar-falls-park",
@@ -901,13 +1020,13 @@
   "reviewQueue": [
     {
       "park_slug": "boone-clawson-burnley-park",
-      "issue": "Coordinate lookup matched Martin Luther King Jr. Street rather than a numbered parcel.",
-      "recommendation": "Confirm the exact entrance point against a Town GIS layer before automated import."
+      "issue": "The parent coordinate is resolved to the current Town facility-directory map pin and cross-checked against named Town GIS structures and the Town-owned parcel, but current general hours remain unpublished.",
+      "recommendation": "Use the reviewed Town facility pin for inventory; obtain current operator hours and representative reusable photography before launch-guide publication."
     },
     {
       "park_slug": "boone-junaluska-park",
-      "issue": "The current Town facility page lists 135 Bear Trail; the Town's 2023 ADA transition plan lists 175 Summit Street.",
-      "recommendation": "Treat 135 Bear Trail as the current public address and retain 175 Summit Street as a historical/alternate entrance until Town staff confirms."
+      "issue": "The current Town page lists 135 Bear Trail, while its embedded map pin and the 2023 ADA plan point to 175 Summit Street. Town GIS classifies 175 Summit as a residential structure and separately maps the 135 Bear Trail commercial building matched by the reviewed inventory point.",
+      "recommendation": "Use 135 Bear Trail and the reviewed building match for inventory. Treat 175 Summit and the embedded page pin as conflicting legacy evidence, not a public entrance, until the Town reconciles them; recheck hours and ADA remediation before publication."
     },
     {
       "park_slug": "chapel-hill-homestead-park",
@@ -921,8 +1040,8 @@
     },
     {
       "park_slug": "boone-daniel-boone-park",
-      "issue": "Boone Jaycee Park appears as a subfacility within the Daniel Boone Park campus.",
-      "recommendation": "Do not import it as a separate major park without a parent-child relation, to avoid double-counting the campus."
+      "issue": "The Town expressly classifies Boone Jaycee Park as a Daniel Boone Park subfacility with its own address, map pin, hours, and facility profile; the full campus does not publish one general schedule.",
+      "recommendation": "Retain Daniel Boone Park as the parent and preserve Boone Jaycee Park as a child facility. Do not inherit Jaycee hours across the campus; require separate launch-guide evidence and representative photography."
     },
     {
       "park_slug": "asheville-azalea-park",
