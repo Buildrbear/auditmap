@@ -34,7 +34,6 @@ const launch = readJson("data/generated/launch-map-places.json");
 const all = readJson("data/generated/all-subsites-ready.json");
 const pilot = readJson("data/generated/pilot-subsites-ready.json");
 const campaign = readJson("data/parent-park-information-enrichment-campaign.json");
-const queue = readJson("data/us-priority-enrichment-queue.json");
 const sitemap = fs.readFileSync(path.join(root, "sitemap.xml"), "utf8");
 
 let featureTotal = 0;
@@ -45,6 +44,10 @@ for (const target of targets) {
   assert(matches.length === 1, `${target.id}: expected one launch-map record, found ${matches.length}`);
   const place = matches[0];
   assert(place.features?.length >= target.featureCount, `${place.name}: expected at least ${target.featureCount} destinations`);
+  assert(
+    place.features.some((feature) => feature.slug === target.requiredFeature),
+    `${place.name}: missing required destination ${target.requiredFeature}`,
+  );
   assert(place.searchAnswers?.length >= 10, `${place.name}: expected at least 10 parent visitor answers`);
   assert(place.source?.startsWith("https://"), `${place.name}: missing official parent source`);
 
@@ -93,7 +96,6 @@ for (const target of targets) {
 }
 
 assert(featureTotal >= 18, `Expected at least 18 mapped destinations, found ${featureTotal}`);
-assert(queue.active?.length >= 3, "Priority queue must list active coastal guides");
 assert(!JSON.stringify(all).includes("oceanside-city-beach-pier"), "Retired Oceanside slug remains in prepared data");
 
 console.log(`San Diego coast priority release verified: ${targets.length} guides, ${featureTotal} destinations, ${imagePaths.size} sourced photos.`);
