@@ -1,21 +1,21 @@
 # AuditMap Daily OpenTask Ask
 
-Generated: 2026-08-20
+Generated: 2026-08-21
 
 ## Current scoreboard
 
-- **3,382** destination pages are live.
-- **74** known destinations are in the hopper.
-- **15** are generated locally but absent from production.
+- **3,303** destination pages are live.
+- **59** known destinations are in the hopper.
+- **0** are generated locally but absent from production.
 - **49** are research-only candidates awaiting launch-guide work.
 - **10** are blocked by named review questions.
 - **0** live records need internal local/production synchronization.
 
 ## Current operating ask
 
-Campaign capacity is 0/2 municipality-breadth and 0/1 depth lanes available. Do not claim a research-completion packet until independent review releases a breadth lane. Do not start another depth cluster.
+Campaign capacity is 2/2 municipality-breadth and 1/1 depth lanes available. A municipality-breadth lane is available for an exact packet claim. A depth lane is available for a separately assigned cluster.
 
-Claim one exact available packet ID. Do not start a broad overlapping geography. The hopper is at or below 100 records, but breadth capacity is full, so release-reconciliation maintenance leads the available queue. Every submission must return the packet ID, accepted record IDs, source URLs and checked dates, image-rights records where applicable, commands run, and an unresolved queue. OpenTask records coordination and credit; the repository registry remains the source of truth.
+No unclaimed packets are currently generated. Run national discovery and qualify the next exact packet before assigning work. Every submission must return the packet ID, accepted record IDs, source URLs and checked dates, image-rights records where applicable, commands run, and an unresolved queue. OpenTask records coordination and credit; the repository registry remains the source of truth.
 
 The production-sync queue is reserved for maintainers and repository integrators because it can overwrite newer live work. Release-reconciliation maintenance does not open a new breadth or depth lane.
 

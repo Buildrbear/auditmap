@@ -1,303 +1,27 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-08-20",
+  "asOf": "2026-08-21",
   "summary": {
-    "knownDestinations": 3456,
-    "liveDestinationPages": 3382,
-    "liveParentPages": 905,
-    "liveSubsitePages": 2477,
-    "hopper": 74,
-    "generatedLocallyNotLive": 15,
+    "knownDestinations": 3362,
+    "liveDestinationPages": 3303,
+    "liveParentPages": 907,
+    "liveSubsitePages": 2396,
+    "hopper": 59,
+    "generatedLocallyNotLive": 0,
     "researchOnly": 49,
     "blockedReview": 10,
     "productionMissingFromLocal": 0,
     "recordsWithResearchHandoffs": 100,
-    "mappableDestinations": 2968,
+    "mappableDestinations": 2935,
     "openReviewItems": 11
   },
   "packets": [
-    {
-      "id": "release-reconciliation-ak-anchorage-01",
-      "type": "release-reconciliation",
-      "state": "AK",
-      "citySlug": "anchorage",
-      "status": "submitted",
-      "claim": {
-        "packetId": "release-reconciliation-ak-anchorage-01",
-        "assignee": "Buildrbear",
-        "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
-        "issueUrl": "https://github.com/Buildrbear/auditmap/issues/57",
-        "claimedAt": "2026-08-11",
-        "expiresAt": "2026-09-03",
-        "lastUpdatedAt": "2026-08-20",
-        "status": "submitted",
-        "submissionUrl": "https://github.com/Buildrbear/auditmap/pull/29",
-        "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/29",
-        "acceptedRecordIds": [
-          "/us/ak/anchorage/parks/delaney-park-strip/alaska-railroad-no-556",
-          "/us/ak/anchorage/parks/delaney-park-strip/centennial-rose-garden",
-          "/us/ak/anchorage/parks/kincaid-park/kincaid-beach"
-        ],
-        "reviewQueue": [
-          {
-            "issue": "Tides, snow, ice, wildlife, daylight and trail conditions can change practical access to Kincaid Beach.",
-            "recommendation": "Recheck operator alerts, weather, tides and trail conditions before publication or a condition-sensitive visit."
-          },
-          {
-            "issue": "Centennial Rose Garden appearance and maintenance are seasonal.",
-            "recommendation": "Avoid promising bloom and recheck current municipal closures or renovation notices before publication."
-          },
-          {
-            "issue": "The 2011 Alaska Railroad No. 556 photograph shows temporary fencing and does not prove current hands-on access.",
-            "recommendation": "Follow current barriers and do not market the artifact as climbable without a current operator statement."
-          }
-        ],
-        "notes": "Three evidence-cleared Anchorage destination guides with exact coordinates, complete sourced answers, licensed photographs, generated pages and preview verification are submitted in PR #29. Production presence remains the closing authority."
-      },
-      "count": 3,
-      "recordIds": [
-        "/us/ak/anchorage/parks/delaney-park-strip/alaska-railroad-no-556",
-        "/us/ak/anchorage/parks/delaney-park-strip/centennial-rose-garden",
-        "/us/ak/anchorage/parks/kincaid-park/kincaid-beach"
-      ],
-      "acceptance": "Classify every page as publishable, duplicate/renamed, or blocked; preserve production-only work and pass the applicable validators."
-    },
-    {
-      "id": "release-reconciliation-de-wilmington-01",
-      "type": "release-reconciliation",
-      "state": "DE",
-      "citySlug": "wilmington",
-      "status": "submitted",
-      "claim": {
-        "packetId": "release-reconciliation-de-wilmington-01",
-        "assignee": "Buildrbear",
-        "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
-        "issueUrl": "https://github.com/Buildrbear/auditmap/issues/59",
-        "claimedAt": "2026-08-11",
-        "expiresAt": "2026-09-03",
-        "lastUpdatedAt": "2026-08-20",
-        "status": "submitted",
-        "submissionUrl": "https://github.com/Buildrbear/auditmap/pull/30",
-        "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/30",
-        "acceptedRecordIds": [
-          "/us/de/wilmington/parks/brandywine-park/josephine-fountain",
-          "/us/de/wilmington/parks/rockford-park/rockford-tower"
-        ],
-        "reviewQueue": [
-          {
-            "issue": "No current operator page promises that Josephine Fountain will be running or that flowers will be in bloom.",
-            "recommendation": "Avoid promising operation or bloom and recheck maintenance, weather and event notices before publication."
-          },
-          {
-            "issue": "Rockford Tower observation-deck hours are fast-changing and no reviewed operator source describes the deck as step-free.",
-            "recommendation": "Recheck the same-day schedule and weather, and do not describe the observation deck as step-free without operator confirmation."
-          }
-        ],
-        "notes": "Two evidence-cleared Wilmington destination guides with exact coordinates, complete sourced answers, licensed photographs, generated pages and preview verification are submitted in PR #30. Production presence remains the closing authority."
-      },
-      "count": 2,
-      "recordIds": [
-        "/us/de/wilmington/parks/brandywine-park/josephine-fountain",
-        "/us/de/wilmington/parks/rockford-park/rockford-tower"
-      ],
-      "acceptance": "Classify every page as publishable, duplicate/renamed, or blocked; preserve production-only work and pass the applicable validators."
-    },
-    {
-      "id": "release-reconciliation-ga-atlanta-01",
-      "type": "release-reconciliation",
-      "state": "GA",
-      "citySlug": "atlanta",
-      "status": "submitted",
-      "claim": {
-        "packetId": "release-reconciliation-ga-atlanta-01",
-        "assignee": "Buildrbear",
-        "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
-        "issueUrl": "https://github.com/Buildrbear/auditmap/issues/61",
-        "claimedAt": "2026-08-06",
-        "expiresAt": "2026-09-03",
-        "lastUpdatedAt": "2026-08-20",
-        "status": "submitted",
-        "submissionUrl": "https://github.com/Buildrbear/auditmap/pull/1",
-        "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/1",
-        "reviewQueue": [
-          {
-            "issue": "The three packet paths are legacy-name duplicates of enriched canonical Atlanta parent routes.",
-            "recommendation": "Deploy the permanent redirects, retain the canonical short routes, and remove the obsolete static files after the submitted claim is accepted."
-          },
-          {
-            "issue": "Shirley Clarke Franklin Park surrounds protected drinking-water infrastructure.",
-            "recommendation": "Keep swimming, boating, shoreline access and barrier climbing explicitly prohibited and recheck current operator notices."
-          },
-          {
-            "issue": "The three parent guides contain internal destinations that require their own exact evidence and freshness checks.",
-            "recommendation": "Do not use this parent-page reconciliation to approve or broaden any child destination record."
-          }
-        ],
-        "notes": "All three packet records are classified duplicate/renamed. Their enriched canonical parents already exist at /eastside-trail, /chastain-park and /westside-park; PR #62 adds permanent redirects from the legacy paths. Production redirect verification and accepted-claim cleanup remain closing gates."
-      },
-      "count": 3,
-      "recordIds": [
-        "/us/ga/atlanta/parks/atlanta-beltline-eastside-trail",
-        "/us/ga/atlanta/parks/chastain-memorial-park",
-        "/us/ga/atlanta/parks/shirley-clarke-franklin-park-westside-park"
-      ],
-      "acceptance": "Classify every page as publishable, duplicate/renamed, or blocked; preserve production-only work and pass the applicable validators."
-    },
-    {
-      "id": "release-reconciliation-in-indianapolis-01",
-      "type": "release-reconciliation",
-      "state": "IN",
-      "citySlug": "indianapolis",
-      "status": "submitted",
-      "claim": {
-        "packetId": "release-reconciliation-in-indianapolis-01",
-        "assignee": "Buildrbear",
-        "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
-        "issueUrl": "https://github.com/Buildrbear/auditmap/issues/53",
-        "claimedAt": "2026-08-20",
-        "expiresAt": "2026-08-27",
-        "lastUpdatedAt": "2026-08-20",
-        "status": "submitted",
-        "submissionUrl": "https://github.com/Buildrbear/auditmap/pull/54",
-        "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/54",
-        "acceptedRecordIds": [
-          "/us/in/indianapolis/parks/white-river-state-park/canal-walk",
-          "/us/in/indianapolis/parks/white-river-state-park/celebration-plaza-amphitheater"
-        ],
-        "reviewQueue": [
-          {
-            "issue": "Seven other White River State Park venues and greenspaces do not yet clear exact-arrival, complete destination-profile, and matching reusable-photo gates together.",
-            "recommendation": "Keep them as parent guidance until a separately assigned depth packet clears every destination gate."
-          },
-          {
-            "issue": "The operator visit page still displays an August 15 closure notice that explicitly says affected spaces reopened August 16.",
-            "recommendation": "Treat the notice as expired and recheck current alerts and events on the day of a visit.",
-            "sourceUrl": "https://whiteriverstatepark.org/visit/"
-          }
-        ],
-        "notes": "Two evidence-cleared destination guides with exact coordinates, complete sourced answers, licensed photographs, generated pages, and preview verification are submitted in PR #54. Production presence remains the closing authority."
-      },
-      "count": 2,
-      "recordIds": [
-        "/us/in/indianapolis/parks/white-river-state-park/canal-walk",
-        "/us/in/indianapolis/parks/white-river-state-park/celebration-plaza-amphitheater"
-      ],
-      "acceptance": "Classify every page as publishable, duplicate/renamed, or blocked; preserve production-only work and pass the applicable validators."
-    },
-    {
-      "id": "release-reconciliation-md-annapolis-01",
-      "type": "release-reconciliation",
-      "state": "MD",
-      "citySlug": "annapolis",
-      "status": "submitted",
-      "claim": {
-        "packetId": "release-reconciliation-md-annapolis-01",
-        "assignee": "Buildrbear",
-        "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
-        "issueUrl": "https://github.com/Buildrbear/auditmap/issues/36",
-        "claimedAt": "2026-08-11",
-        "expiresAt": "2026-09-03",
-        "lastUpdatedAt": "2026-08-20",
-        "status": "submitted",
-        "submissionUrl": "https://github.com/Buildrbear/auditmap/pull/31",
-        "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/31",
-        "acceptedRecordIds": [
-          "/us/md/annapolis/parks/sandy-point-state-park"
-        ],
-        "notes": "Parent-only Sandy Point State Park guide is generated and preview-verified on the stacked campaign line; production presence remains the closing authority."
-      },
-      "count": 1,
-      "recordIds": [
-        "/us/md/annapolis/parks/sandy-point-state-park"
-      ],
-      "acceptance": "Classify every page as publishable, duplicate/renamed, or blocked; preserve production-only work and pass the applicable validators."
-    },
-    {
-      "id": "release-reconciliation-md-edgemere-01",
-      "type": "release-reconciliation",
-      "state": "MD",
-      "citySlug": "edgemere",
-      "status": "submitted",
-      "claim": {
-        "packetId": "release-reconciliation-md-edgemere-01",
-        "assignee": "Buildrbear",
-        "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
-        "issueUrl": "https://github.com/Buildrbear/auditmap/issues/36",
-        "claimedAt": "2026-08-11",
-        "expiresAt": "2026-09-03",
-        "lastUpdatedAt": "2026-08-20",
-        "status": "submitted",
-        "submissionUrl": "https://github.com/Buildrbear/auditmap/pull/31",
-        "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/31",
-        "acceptedRecordIds": [
-          "/us/md/edgemere/parks/north-point-state-park"
-        ],
-        "reviewQueue": [
-          {
-            "issue": "Official North Point State Park opening times and visitor-center schedules conflict.",
-            "recommendation": "Keep both source-backed schedules unresolved until the operator reconciles them."
-          }
-        ],
-        "notes": "Parent-only North Point State Park guide is generated and preview-verified on the stacked campaign line; production presence remains the closing authority."
-      },
-      "count": 1,
-      "recordIds": [
-        "/us/md/edgemere/parks/north-point-state-park"
-      ],
-      "acceptance": "Classify every page as publishable, duplicate/renamed, or blocked; preserve production-only work and pass the applicable validators."
-    },
-    {
-      "id": "release-reconciliation-pa-philadelphia-01",
-      "type": "release-reconciliation",
-      "state": "PA",
-      "citySlug": "philadelphia",
-      "status": "submitted",
-      "claim": {
-        "packetId": "release-reconciliation-pa-philadelphia-01",
-        "assignee": "Buildrbear",
-        "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
-        "issueUrl": "https://github.com/Buildrbear/auditmap/issues/63",
-        "claimedAt": "2026-08-10",
-        "expiresAt": "2026-09-03",
-        "lastUpdatedAt": "2026-08-20",
-        "status": "submitted",
-        "submissionUrl": "https://github.com/Buildrbear/auditmap/pull/27",
-        "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/27",
-        "acceptedRecordIds": [
-          "/us/pa/philadelphia/parks/schuylkill-banks/walnut-street-trail-hub-and-dock",
-          "/us/pa/philadelphia/parks/spruce-street-harbor-park/christopher-columbus-memorial",
-          "/us/pa/philadelphia/parks/spruce-street-harbor-park/hammock-grove-and-lazy-hammock"
-        ],
-        "reviewQueue": [
-          {
-            "issue": "Philadelphia waterfront hours, construction, events, weather closures and seasonal operations are fast-changing.",
-            "recommendation": "Recheck the exact operator page and current access notices before publication or a schedule-sensitive visit."
-          },
-          {
-            "issue": "Hammocks are first-come and require a safe transfer; ordinary park admission does not guarantee seating or an accessible hammock experience.",
-            "recommendation": "Preserve the no-guarantee language and point visitors to conventional seating alternatives."
-          },
-          {
-            "issue": "The memorial and dock are destination landmarks, not play equipment or supervised water access.",
-            "recommendation": "Keep no-climbing, waterfront-safety and current-construction guidance explicit."
-          }
-        ],
-        "notes": "Three evidence-cleared Philadelphia destination guides with complete sourced answers, reviewed positions, licensed photographs, generated pages and preview verification are submitted in PR #27. Production presence remains the closing authority."
-      },
-      "count": 3,
-      "recordIds": [
-        "/us/pa/philadelphia/parks/schuylkill-banks/walnut-street-trail-hub-and-dock",
-        "/us/pa/philadelphia/parks/spruce-street-harbor-park/christopher-columbus-memorial",
-        "/us/pa/philadelphia/parks/spruce-street-harbor-park/hammock-grove-and-lazy-hammock"
-      ],
-      "acceptance": "Classify every page as publishable, duplicate/renamed, or blocked; preserve production-only work and pass the applicable validators."
-    },
     {
       "id": "research-completion-az-mesa-01",
       "type": "research-completion",
       "state": "AZ",
       "citySlug": "mesa",
-      "status": "submitted",
+      "status": "accepted",
       "claim": {
         "packetId": "research-completion-az-mesa-01",
         "assignee": "Buildrbear",
@@ -305,10 +29,10 @@
         "issueUrl": "https://github.com/Buildrbear/auditmap/issues/49",
         "claimedAt": "2026-08-20",
         "expiresAt": "2026-08-27",
-        "lastUpdatedAt": "2026-08-20",
-        "status": "submitted",
+        "lastUpdatedAt": "2026-08-21",
+        "status": "accepted",
         "submissionUrl": "https://github.com/Buildrbear/auditmap/pull/50",
-        "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/50",
+        "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/66",
         "acceptedRecordIds": [
           "/us/az/mesa/parks/carriage-lane-park",
           "/us/az/mesa/parks/christopher-j-brady-park",
@@ -387,7 +111,7 @@
       "type": "research-completion",
       "state": "NC",
       "citySlug": "asheville",
-      "status": "submitted",
+      "status": "accepted",
       "claim": {
         "packetId": "research-completion-nc-asheville-01",
         "assignee": "Buildrbear",
@@ -395,10 +119,10 @@
         "issueUrl": "https://github.com/Buildrbear/auditmap/issues/39",
         "claimedAt": "2026-08-20",
         "expiresAt": "2026-08-27",
-        "lastUpdatedAt": "2026-08-20",
-        "status": "submitted",
+        "lastUpdatedAt": "2026-08-21",
+        "status": "accepted",
         "submissionUrl": "https://github.com/Buildrbear/auditmap/pull/40",
-        "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/40",
+        "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/66",
         "acceptedRecordIds": [
           "/us/nc/asheville/parks/azalea-park"
         ],
@@ -429,7 +153,7 @@
       "type": "research-completion",
       "state": "NC",
       "citySlug": "boone",
-      "status": "submitted",
+      "status": "accepted",
       "claim": {
         "packetId": "research-completion-nc-boone-01",
         "assignee": "Buildrbear",
@@ -437,10 +161,10 @@
         "issueUrl": "https://github.com/Buildrbear/auditmap/issues/47",
         "claimedAt": "2026-08-20",
         "expiresAt": "2026-08-27",
-        "lastUpdatedAt": "2026-08-20",
-        "status": "submitted",
+        "lastUpdatedAt": "2026-08-21",
+        "status": "accepted",
         "submissionUrl": "https://github.com/Buildrbear/auditmap/pull/48",
-        "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/48",
+        "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/66",
         "acceptedRecordIds": [
           "/us/nc/boone/parks/clawson-burnley-park",
           "/us/nc/boone/parks/daniel-boone-park",
@@ -475,7 +199,7 @@
       "type": "research-completion",
       "state": "NC",
       "citySlug": "concord",
-      "status": "submitted",
+      "status": "accepted",
       "claim": {
         "packetId": "research-completion-nc-concord-01",
         "assignee": "Buildrbear",
@@ -483,10 +207,10 @@
         "issueUrl": "https://github.com/Buildrbear/auditmap/issues/41",
         "claimedAt": "2026-08-20",
         "expiresAt": "2026-08-27",
-        "lastUpdatedAt": "2026-08-20",
-        "status": "submitted",
+        "lastUpdatedAt": "2026-08-21",
+        "status": "accepted",
         "submissionUrl": "https://github.com/Buildrbear/auditmap/pull/42",
-        "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/42",
+        "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/66",
         "acceptedRecordIds": [
           "/us/nc/concord/parks/marvin-caldwell-park"
         ],
@@ -517,7 +241,7 @@
       "type": "research-completion",
       "state": "NC",
       "citySlug": "fayetteville",
-      "status": "submitted",
+      "status": "accepted",
       "claim": {
         "packetId": "research-completion-nc-fayetteville-01",
         "assignee": "Buildrbear",
@@ -525,10 +249,10 @@
         "issueUrl": "https://github.com/Buildrbear/auditmap/issues/43",
         "claimedAt": "2026-08-20",
         "expiresAt": "2026-08-27",
-        "lastUpdatedAt": "2026-08-20",
-        "status": "submitted",
+        "lastUpdatedAt": "2026-08-21",
+        "status": "accepted",
         "submissionUrl": "https://github.com/Buildrbear/auditmap/pull/44",
-        "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/44",
+        "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/66",
         "acceptedRecordIds": [
           "/us/nc/fayetteville/parks/arnette-park"
         ],
@@ -559,7 +283,7 @@
       "type": "research-completion",
       "state": "NC",
       "citySlug": "greensboro",
-      "status": "submitted",
+      "status": "accepted",
       "claim": {
         "packetId": "research-completion-nc-greensboro-01",
         "assignee": "Buildrbear",
@@ -567,10 +291,10 @@
         "issueUrl": "https://github.com/Buildrbear/auditmap/issues/37",
         "claimedAt": "2026-08-20",
         "expiresAt": "2026-08-27",
-        "lastUpdatedAt": "2026-08-20",
-        "status": "submitted",
+        "lastUpdatedAt": "2026-08-21",
+        "status": "accepted",
         "submissionUrl": "https://github.com/Buildrbear/auditmap/pull/38",
-        "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/38",
+        "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/66",
         "acceptedRecordIds": [
           "/us/nc/greensboro/parks/jimmie-i-barber-park",
           "/us/nc/greensboro/parks/oka-t-hester-park"
@@ -603,7 +327,7 @@
       "type": "research-completion",
       "state": "NC",
       "citySlug": "raleigh",
-      "status": "submitted",
+      "status": "accepted",
       "claim": {
         "packetId": "research-completion-nc-raleigh-01",
         "assignee": "Buildrbear",
@@ -611,10 +335,10 @@
         "issueUrl": "https://github.com/Buildrbear/auditmap/issues/45",
         "claimedAt": "2026-08-20",
         "expiresAt": "2026-08-27",
-        "lastUpdatedAt": "2026-08-20",
-        "status": "submitted",
+        "lastUpdatedAt": "2026-08-21",
+        "status": "accepted",
         "submissionUrl": "https://github.com/Buildrbear/auditmap/pull/46",
-        "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/46",
+        "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/66",
         "acceptedRecordIds": [
           "/us/nc/raleigh/parks/spring-forest-road-park"
         ],
@@ -641,7 +365,7 @@
       "type": "research-completion",
       "state": "TX",
       "citySlug": "el-paso",
-      "status": "submitted",
+      "status": "accepted",
       "claim": {
         "packetId": "research-completion-tx-el-paso-01",
         "assignee": "Buildrbear",
@@ -649,10 +373,10 @@
         "issueUrl": "https://github.com/Buildrbear/auditmap/issues/51",
         "claimedAt": "2026-08-20",
         "expiresAt": "2026-08-27",
-        "lastUpdatedAt": "2026-08-20",
-        "status": "submitted",
+        "lastUpdatedAt": "2026-08-21",
+        "status": "accepted",
         "submissionUrl": "https://github.com/Buildrbear/auditmap/pull/52",
-        "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/52",
+        "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/66",
         "acceptedRecordIds": [
           "/us/tx/el-paso/parks/argal-park",
           "/us/tx/el-paso/parks/blackie-chesher-park",
