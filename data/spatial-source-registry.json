@@ -227,6 +227,34 @@
         "assuming GIS hosting grants image reuse rights"
       ],
       "checkedAt": "2026-08-20"
+    },
+    {
+      "id": "raleigh-park-access-points",
+      "publisher": "City of Raleigh Parks, Recreation and Cultural Resources",
+      "geography": "Raleigh, North Carolina",
+      "serviceUrl": "https://services.arcgis.com/v400IkDOw1ad7Yad/arcgis/rest/services/PRCR_Park_Access_Points/FeatureServer",
+      "itemId": "f8e7dd082f584629885e2ae0715e4d24",
+      "layers": [
+        {
+          "id": 0,
+          "name": "Park Access Points",
+          "geometryRole": "official existing pedestrian and vehicle park entrances used for visitor navigation and park service-area analysis"
+        }
+      ],
+      "spatialReference": "service coordinates queried as EPSG:4326",
+      "authorityClass": "municipal-official",
+      "licenseStatus": "publisher-terms-review-required",
+      "approvedUses": [
+        "official-source verification",
+        "parent entrance-coordinate provenance",
+        "pedestrian-versus-vehicle entrance classification"
+      ],
+      "prohibitedUntilApproved": [
+        "bulk public redistribution",
+        "treating access-point presence as proof of every facility's operating status",
+        "assuming GIS or City-site hosting grants image reuse rights"
+      ],
+      "checkedAt": "2026-08-20"
     }
   ]
 }

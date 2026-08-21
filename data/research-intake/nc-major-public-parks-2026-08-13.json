@@ -763,6 +763,78 @@
       "source_checked_at": "2026-08-13"
     },
     {
+      "slug": "raleigh-spring-forest-road-park",
+      "name": "Spring Forest Road Park",
+      "aliases": [
+        "Spring Forest Park"
+      ],
+      "city": "Raleigh",
+      "state": "NC",
+      "address": "4203 Spring Forest Road, Raleigh, NC 27616",
+      "latitude": 35.8580681274815,
+      "longitude": -78.5713910990543,
+      "managing_agency": "Raleigh Parks, Recreation and Cultural Resources",
+      "official_source_url": "https://raleighnc.gov/parks-and-recreation/places/spring-forest-road-park",
+      "why_major": "A distinct 21.8-acre neighborhood recreation park with a large open space, short walking trail, reservable shelter, tennis courts, ball field, and playground.",
+      "evidence_factors": [
+        "21.8 acres",
+        "large open space and 0.47-mile trail",
+        "shelter, courts, field, and playground"
+      ],
+      "coordinate_source": "City of Raleigh Park Access Points GIS, vehicle entrance AP_ID Spring Forest Road - 004 / OBJECTID 202",
+      "coordinate_source_url": "https://services.arcgis.com/v400IkDOw1ad7Yad/arcgis/rest/services/PRCR_Park_Access_Points/FeatureServer/0/query?where=UPPER%28ParkName%29%20LIKE%20%27%25SPRING%25FOREST%25%27&outFields=*&returnGeometry=true&outSR=4326&f=geojson",
+      "coordinate_precision": "official existing vehicle park entrance",
+      "position_quality": "reviewed-official-vehicle-entrance",
+      "identity_reconciliation": {
+        "status": "resolved-distinct-parent",
+        "finding": "The current City park page and A-Z directory place Spring Forest Road Park at 4203 Spring Forest Road. The same directory separately places Millbrook Exchange Park at 1905 Spring Forest Road. The submitted 4203 address is therefore not a duplicate of Millbrook Exchange Park.",
+        "publication_rule": "Retain Spring Forest Road Park as a distinct parent. Do not substitute Millbrook Exchange Park or its 1905 Spring Forest Road address."
+      },
+      "current_access_review": {
+        "status": "verified-current-public-use",
+        "finding": "The park page was updated July 15, 2026 and lists current facilities and rental guidance. The linked Citywide park rules state dawn-to-dusk hours unless otherwise posted; the park page separately states that court lighting operates from dusk to 10 p.m.",
+        "publication_rule": "Use dawn to dusk as the general park rule with the explicit unless-otherwise-posted qualification. Treat the court-lighting statement as facility-specific guidance, not a blanket extension of every park use."
+      },
+      "sources": [
+        {
+          "label": "City of Raleigh Spring Forest Road Park page",
+          "url": "https://raleighnc.gov/parks-and-recreation/places/spring-forest-road-park",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of Raleigh Know Before You Go park rules and hours",
+          "url": "https://raleighnc.gov/parks-and-recreation/services/find-community-center/know-you-go",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of Raleigh Parks Directory - Spring Forest Road Park",
+          "url": "https://raleighnc.gov/parks-directory/s",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of Raleigh Parks Directory - Millbrook Exchange Park",
+          "url": "https://raleighnc.gov/parks-directory/m",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of Raleigh Park Access Points GIS overview",
+          "url": "https://www.arcgis.com/home/item.html?id=f8e7dd082f584629885e2ae0715e4d24",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of Raleigh Park Access Points GIS query",
+          "url": "https://services.arcgis.com/v400IkDOw1ad7Yad/arcgis/rest/services/PRCR_Park_Access_Points/FeatureServer/0/query?where=UPPER%28ParkName%29%20LIKE%20%27%25SPRING%25FOREST%25%27&outFields=*&returnGeometry=true&outSR=4326&f=geojson",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of Raleigh web legal notices",
+          "url": "https://raleighnc.gov/engage-city/services/web-legal-notices",
+          "checkedAt": "2026-08-20"
+        }
+      ],
+      "source_checked_at": "2026-08-20"
+    },
+    {
       "slug": "wilmington-greenfield-park",
       "name": "Greenfield Park",
       "city": "Wilmington",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-08-20",
+  "asOf": "2026-08-21",
   "productionEvidence": {
     "sitemap": "https://www.auditmap.org/sitemap.xml",
     "catalog": "https://www.auditmap.org/data/generated/official-catalog.json",
@@ -11,14 +11,14 @@
     "catalog": "data/generated/official-catalog.json",
     "catalogGeneratedAt": "2026-08-11T09:40:25.704Z",
     "gitBranch": "codex/raleigh-spring-forest-research",
-    "gitCommit": "5268763bab40809e71bc57e8831933ef1d96f40a"
+    "gitCommit": "a9a2a2ac71a2aec0e70f5dfad65fb4a568f68f37"
   },
   "spatialEvidence": {
     "registry": "data/spatial-source-registry.json",
     "checkedAt": "2026-08-17",
-    "registeredSources": 10,
+    "registeredSources": 11,
     "publicationApprovedSources": 1,
-    "reviewRequiredSources": 9
+    "reviewRequiredSources": 10
   },
   "summary": {
     "knownDestinations": 3393,
@@ -27,12 +27,12 @@
     "liveSubsitePages": 2477,
     "hopper": 11,
     "generatedLocallyNotLive": 2,
-    "researchOnly": 2,
-    "blockedReview": 7,
+    "researchOnly": 3,
+    "blockedReview": 6,
     "productionMissingFromLocal": 0,
     "recordsWithResearchHandoffs": 50,
     "mappableDestinations": 2905,
-    "openReviewItems": 8
+    "openReviewItems": 7
   },
   "records": [
     {
@@ -43667,17 +43667,40 @@
       "subsiteSlug": null,
       "name": "Spring Forest Road Park",
       "city": "Raleigh",
-      "latitude": 35.8561621,
-      "longitude": -78.5716202,
-      "positionQuality": null,
-      "coordinateSource": null,
-      "releaseStatus": "blocked-review",
+      "latitude": 35.8580681274815,
+      "longitude": -78.5713910990543,
+      "positionQuality": "reviewed-official-vehicle-entrance",
+      "coordinateSource": "City of Raleigh Park Access Points GIS, vehicle entrance AP_ID Spring Forest Road - 004 / OBJECTID 202",
+      "releaseStatus": "research-only",
       "productionPresent": false,
       "localPresent": false,
       "reconciliationFlags": [
         "research-not-integrated"
       ],
       "researchSources": [
+        {
+          "sourceId": "nc-major-public-parks-2026-08-13",
+          "sourceRecordSlug": "raleigh-spring-forest-road-park",
+          "name": "Spring Forest Road Park",
+          "city": "Raleigh",
+          "state": "NC",
+          "managingAgency": "Raleigh Parks, Recreation and Cultural Resources",
+          "checkedAt": "2026-08-20",
+          "officialSources": [
+            "https://raleighnc.gov/parks-and-recreation/places/spring-forest-road-park",
+            "https://raleighnc.gov/parks-and-recreation/places/spring-forest-road-park",
+            "https://raleighnc.gov/parks-and-recreation/services/find-community-center/know-you-go",
+            "https://raleighnc.gov/parks-directory/s",
+            "https://raleighnc.gov/parks-directory/m",
+            "https://www.arcgis.com/home/item.html?id=f8e7dd082f584629885e2ae0715e4d24",
+            "https://services.arcgis.com/v400IkDOw1ad7Yad/arcgis/rest/services/PRCR_Park_Access_Points/FeatureServer/0/query?where=UPPER%28ParkName%29%20LIKE%20%27%25SPRING%25FOREST%25%27&outFields=*&returnGeometry=true&outSR=4326&f=geojson",
+            "https://raleighnc.gov/engage-city/services/web-legal-notices"
+          ],
+          "handoffUrl": "https://keystone-accessibility-baseline.indierepo.chatgpt.site/auditmap-nc-parks-inventory/NC_MAJOR_PUBLIC_PARKS_INVENTORY.md",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        },
         {
           "sourceId": "opentask-nc-50-detailed-parks-2026-08-13",
           "sourceRecordSlug": "raleigh-spring-forest-road-park",
@@ -43693,19 +43716,10 @@
           "handoffUrl": "https://keystone-accessibility-baseline.indierepo.chatgpt.site/auditmap-50-detailed-parks/AUDITMAP_50_DETAILED_PARK_RECORDS.md",
           "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
           "reviewItems": [],
-          "override": {
-            "status": "blocked-review",
-            "possibleDuplicateOf": "Millbrook Exchange Park",
-            "reason": "The submitted park shares 1905 Spring Forest Road with Millbrook Exchange Park. Resolve the facility identity before creating another parent page."
-          }
+          "override": null
         }
       ],
-      "openReviewItems": [
-        {
-          "issue": "The submitted park shares 1905 Spring Forest Road with Millbrook Exchange Park. Resolve the facility identity before creating another parent page.",
-          "recommendation": "Compare with Millbrook Exchange Park before integration."
-        }
-      ]
+      "openReviewItems": []
     },
     {
       "id": "/us/nc/raleigh/parks/tarboro-road-park",

@@ -416,6 +416,7 @@
     "verify:asheville-azalea:research": "node scripts/verify-asheville-azalea-research-completion.js",
     "verify:concord-marvin-caldwell:research": "node scripts/verify-concord-marvin-caldwell-research-completion.js",
     "verify:fayetteville-arnette:research": "node scripts/verify-fayetteville-arnette-research-completion.js",
+    "verify:raleigh-spring-forest:research": "node scripts/verify-raleigh-spring-forest-research-completion.js",
     "generate": "node scripts/generate-search-pages.js",
     "generate:scope": "node scripts/generate-search-pages.js",
     "test:generate:scope": "node scripts/test-scoped-search-generation.js",

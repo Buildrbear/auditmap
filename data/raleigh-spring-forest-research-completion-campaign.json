@@ -1,0 +1,31 @@
+{
+  "campaign": "Raleigh Spring Forest Road Park research completion",
+  "packetId": "research-completion-nc-raleigh-01",
+  "checkedAt": "2026-08-20",
+  "contributionTier": "inventory",
+  "releaseStandard": "Resolve the parent identity, duplicate question, current visitor address, official vehicle-entrance coordinate provenance, current access evidence, source freshness, and image-rights questions in source format. Do not publish a launch guide until representative reusable media and the complete current visitor-answer set clear a separate assignment.",
+  "places": [
+    {
+      "id": "research-nc-raleigh-spring-forest-road-park",
+      "recordSlug": "raleigh-spring-forest-road-park",
+      "name": "Spring Forest Road Park",
+      "alternateNames": [
+        "Spring Forest Park"
+      ],
+      "city": "Raleigh",
+      "state": "NC",
+      "operator": "Raleigh Parks, Recreation and Cultural Resources",
+      "source": "https://raleighnc.gov/parks-and-recreation/places/spring-forest-road-park",
+      "deferRelease": true,
+      "photoGateStatus": "deferred-no-representative-reusable-parent-set",
+      "minimumImages": 4,
+      "imageQueries": [
+        "Spring Forest Road Park Raleigh North Carolina",
+        "Spring Forest Road Park Raleigh playground",
+        "Spring Forest Road Park Raleigh tennis",
+        "Spring Forest Road Park Raleigh field"
+      ],
+      "subsites": []
+    }
+  ]
+}

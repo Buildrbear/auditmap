@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "packetId": "research-completion-nc-raleigh-01",
+  "checkedAt": "2026-08-20",
+  "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+  "issueUrl": "https://github.com/Buildrbear/auditmap/issues/45",
+  "contributionTier": "inventory",
+  "outcome": "inventory-identity-and-access-complete-photo-gated",
+  "acceptedRecordIds": [
+    "/us/nc/raleigh/parks/spring-forest-road-park"
+  ],
+  "publication": {
+    "generatedPages": 0,
+    "productionWrites": 0,
+    "reason": "The identity, address, current general-hours rule, and official vehicle entrance are source-complete, but representative reusable parent photography and the separately assigned complete launch-guide profile remain unresolved."
+  },
+  "records": [
+    {
+      "recordId": "/us/nc/raleigh/parks/spring-forest-road-park",
+      "canonicalName": "Spring Forest Road Park",
+      "aliases": [
+        "Spring Forest Park"
+      ],
+      "city": "Raleigh",
+      "state": "NC",
+      "category": "municipal neighborhood recreation park",
+      "managingAgency": "Raleigh Parks, Recreation and Cultural Resources",
+      "canonicalAddress": "4203 Spring Forest Road, Raleigh, NC 27616",
+      "latitude": 35.8580681274815,
+      "longitude": -78.5713910990543,
+      "positionQuality": "reviewed-official-vehicle-entrance",
+      "coordinateProvenance": {
+        "publisher": "City of Raleigh Parks, Recreation and Cultural Resources",
+        "service": "Park Access Points",
+        "objectId": 202,
+        "accessPointId": "Spring Forest Road - 004",
+        "accessType": "Vehicle",
+        "status": "Official",
+        "entrance": "Park",
+        "existing": "Yes",
+        "sourceUrl": "https://services.arcgis.com/v400IkDOw1ad7Yad/arcgis/rest/services/PRCR_Park_Access_Points/FeatureServer/0/query?where=UPPER%28ParkName%29%20LIKE%20%27%25SPRING%25FOREST%25%27&outFields=*&returnGeometry=true&outSR=4326&f=geojson",
+        "checkedAt": "2026-08-20"
+      },
+      "otherOfficialAccessPoints": [
+        {
+          "objectId": 19,
+          "accessPointId": "Spring Forest Road - 001",
+          "accessType": "Pedestrian",
+          "latitude": 35.8598298547801,
+          "longitude": -78.5667912748055
+        },
+        {
+          "objectId": 20,
+          "accessPointId": "Spring Forest Road - 002",
+          "accessType": "Pedestrian",
+          "latitude": 35.8580923137061,
+          "longitude": -78.5668360685424
+        },
+        {
+          "objectId": 21,
+          "accessPointId": "Spring Forest Road - 003",
+          "accessType": "Pedestrian",
+          "latitude": 35.8583249940269,
+          "longitude": -78.5713933317791
+        }
+      ],
+      "verifiedFacts": [
+        {
+          "fact": "The current City page identifies Spring Forest Road Park at 4203 Spring Forest Road, records 21.8 acres, and describes a 0.47-mile walking trail plus a large open space.",
+          "sourceLabel": "City of Raleigh Spring Forest Road Park page",
+          "sourceUrl": "https://raleighnc.gov/parks-and-recreation/places/spring-forest-road-park",
+          "checkedAt": "2026-08-20",
+          "freshness": "operator page updated July 15, 2026"
+        },
+        {
+          "fact": "The City page lists a reservable picnic shelter with an attached comfort station, four lighted tennis courts, a lighted 200-foot youth baseball or softball field, open space, and a playground for ages 2 through 12.",
+          "sourceLabel": "City of Raleigh Spring Forest Road Park page",
+          "sourceUrl": "https://raleighnc.gov/parks-and-recreation/places/spring-forest-road-park",
+          "checkedAt": "2026-08-20",
+          "freshness": "operator page updated July 15, 2026; rental rates and facility availability require recheck before travel"
+        },
+        {
+          "fact": "Raleigh's linked park rules state dawn-to-dusk operation unless otherwise posted and allow leashed dogs with waste removal.",
+          "sourceLabel": "City of Raleigh Know Before You Go",
+          "sourceUrl": "https://raleighnc.gov/parks-and-recreation/services/find-community-center/know-you-go",
+          "checkedAt": "2026-08-20",
+          "freshness": "Citywide operator guidance updated July 16, 2026"
+        },
+        {
+          "fact": "The park-specific page states that tennis-court push-button lighting runs from dusk to 10 p.m.; this is facility-specific and does not replace the general park-hours rule.",
+          "sourceLabel": "City of Raleigh Spring Forest Road Park page",
+          "sourceUrl": "https://raleighnc.gov/parks-and-recreation/places/spring-forest-road-park",
+          "checkedAt": "2026-08-20",
+          "freshness": "operator page updated July 15, 2026"
+        },
+        {
+          "fact": "The City's active Park Access Points service contains one official existing vehicle entrance and three official existing pedestrian entrances for Spring Forest Road.",
+          "sourceLabel": "City of Raleigh Park Access Points GIS",
+          "sourceUrl": "https://services.arcgis.com/v400IkDOw1ad7Yad/arcgis/rest/services/PRCR_Park_Access_Points/FeatureServer/0/query?where=UPPER%28ParkName%29%20LIKE%20%27%25SPRING%25FOREST%25%27&outFields=*&returnGeometry=true&outSR=4326&f=geojson",
+          "checkedAt": "2026-08-20",
+          "freshness": "official public feature service; ArcGIS item data updated June 17, 2026"
+        }
+      ],
+      "identityDecision": "Spring Forest Road Park is a distinct parent at 4203 Spring Forest Road. Millbrook Exchange Park is separately listed by the same current City directory at 1905 Spring Forest Road, so the former duplicate flag is resolved as an address-association error.",
+      "coordinateDecision": "Use the official existing vehicle entrance AP_ID Spring Forest Road - 004 as the visitor-navigation parent coordinate. Retain the three official pedestrian entrances as context, not duplicate parents.",
+      "relationshipDecision": "The shelter, comfort station, courts, field, open space, trail, and playground are facilities within Spring Forest Road Park. This inventory packet does not create standalone destination pages for them.",
+      "duplicateStatus": "resolved-distinct-from-millbrook-exchange-park",
+      "imageStatus": "photo-gated",
+      "accessStatus": "verified-current-public-use-and-general-hours-rule"
+    }
+  ],
+  "imageRightsReview": {
+    "openverse": {
+      "source": "Openverse API",
+      "queries": 4,
+      "reusableCandidates": 0,
+      "resultFile": "data/raleigh-spring-forest-photo-research.json"
+    },
+    "wikimediaCommons": {
+      "method": "Exact-name search plus geosearch within 10 kilometers of the official vehicle entrance",
+      "outcome": "Results depicted unrelated Raleigh subjects, nearby commercial properties, regional trails and waterways, churches, people, wildlife, and aerial rasters. No representative exact-destination photograph was accepted."
+    },
+    "officialSiteImages": {
+      "outcome": "The City park page displays exact-destination photographs, but the current web legal notice prohibits commercial reuse to the extent allowed by law without written City permission. The linked media photo library does not itself establish AuditMap reuse permission for these exact images, so none were imported."
+    }
+  },
+  "sourceAccessReview": {
+    "browserEvidence": "The current City park page, directory, rules, media, and legal-notice pages and the public ArcGIS item were available on 2026-08-20.",
+    "commandLineHttp": "The public Park Access Points item and feature service returned current metadata and four exact-name access records, including the official existing vehicle entrance used here.",
+    "classification": "controlling municipal identity, address, access, hours, and coordinate evidence available",
+    "nextCheck": "Recheck the park page, City alerts, rental status, general rules, and image permission before any launch-guide assignment."
+  },
+  "reviewQueue": [
+    {
+      "place": "Spring Forest Road Park",
+      "fieldOrFeature": "parent photography",
+      "conflictOrMissingEvidence": "No four-view representative permission-cleared or openly licensed parent set was found. Exact City photographs are not reusable without a documented permission basis.",
+      "sourcesChecked": [
+        "Openverse API",
+        "Wikimedia Commons exact-name and geosearch",
+        "City park page, Parks Media page, and web legal notice"
+      ],
+      "recommendedNextAction": "Obtain four varied current reusable views or written City permission for a clearly identified exact-location set."
+    },
+    {
+      "place": "Spring Forest Road Park",
+      "fieldOrFeature": "launch-guide visitor profile",
+      "conflictOrMissingEvidence": "This inventory packet resolves identity, address, hours, access, and core facilities, but current parking detail, transit, accessible routes beyond the playground surface, no-cost access, alert state, weather exposure, and facility-specific availability have not been assembled into a complete recurring visitor-answer set.",
+      "sourcesChecked": [
+        "Current City park page and directory",
+        "Current Citywide rules",
+        "Municipal Park Access Points GIS"
+      ],
+      "recommendedNextAction": "Complete every recurring visitor intent under a separately claimed launch-guide packet after the photo gate clears."
+    }
+  ],
+  "risks": [
+    "Reattaching the Millbrook Exchange Park address would recreate a disproven duplicate conflict.",
+    "The official vehicle entrance should control navigation; the earlier address-geocoder point lies inside the park but is not an authoritative entrance record.",
+    "Court lighting through 10 p.m. is facility-specific and must not be generalized to every park use.",
+    "Rental prices, facility availability, alerts, and rules are freshness-sensitive and require recheck before publication.",
+    "City hosting or a media-library link does not by itself grant AuditMap image reuse rights.",
+    "No private visitor data, precise visitor-location logs, paid API calls, dependencies, generated pages, or production writes are included."
+  ]
+}
