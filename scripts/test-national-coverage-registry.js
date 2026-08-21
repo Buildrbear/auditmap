@@ -286,6 +286,12 @@ const highHopperBrief = openTaskBrief({
 }, packets);
 assert.match(highHopperBrief, /exceeds 100 records/);
 assert.ok(highHopperBrief.indexOf(releasePacketId) < highHopperBrief.indexOf(researchPacketId));
+const noOpenPacketBrief = openTaskBrief({
+  asOf: "2026-08-20",
+  summary,
+}, packets.map((packet) => ({ ...packet, status: "accepted" })));
+assert.match(noOpenPacketBrief, /No unclaimed packets are currently generated/);
+assert.doesNotMatch(noOpenPacketBrief, /Claim one exact available packet ID/);
 const campaignQueue = {
   activeCluster: {
     resumeCheckpoint: {
