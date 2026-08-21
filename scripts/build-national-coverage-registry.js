@@ -118,7 +118,7 @@ function validateClaimsDocument(document, { asOf = null } = {}) {
   if (!document || document.schemaVersion !== 1 || !Array.isArray(document.claims)) {
     throw new Error("Claim ledger must use schemaVersion 1 and contain a claims array");
   }
-  if (!ISO_DATE_PATTERN.test(String(document.updatedAt || ""))) {
+  if (!isIsoDate(document.updatedAt)) {
     throw new Error("Claim ledger updatedAt must be an ISO date (YYYY-MM-DD)");
   }
 
@@ -149,7 +149,7 @@ function validateClaimsDocument(document, { asOf = null } = {}) {
       throw new Error(`Invalid claim status for ${claim.packetId}: ${claim.status}`);
     }
     for (const field of ["claimedAt", "expiresAt", "lastUpdatedAt"]) {
-      if (!ISO_DATE_PATTERN.test(claim[field])) {
+      if (!isIsoDate(claim[field])) {
         throw new Error(`Invalid ${field} for claim ${claim.packetId}: expected YYYY-MM-DD`);
       }
     }

@@ -140,6 +140,16 @@ assert.throws(() => validateClaimsDocument({
   ...claimsDocument,
   claims: [baseClaim, { ...baseClaim }],
 }), /Duplicate claim packetId/);
+assert.throws(() => validateClaimsDocument({
+  ...claimsDocument,
+  updatedAt: "2026-02-30",
+}), /updatedAt/);
+for (const field of ["claimedAt", "expiresAt", "lastUpdatedAt"]) {
+  assert.throws(() => validateClaimsDocument({
+    ...claimsDocument,
+    claims: [{ ...baseClaim, [field]: "2026-02-30" }],
+  }), new RegExp(`Invalid ${field}`));
+}
 assert.throws(() => validateClaimsDocument(claimsDocument, { asOf: "2026-08-25" }), /expired/);
 assert.throws(() => validateActiveClaimReferences(packets, [{
   ...baseClaim,
