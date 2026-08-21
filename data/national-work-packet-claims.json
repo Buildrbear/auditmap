@@ -151,8 +151,20 @@
       "claimedAt": "2026-08-20",
       "expiresAt": "2026-08-27",
       "lastUpdatedAt": "2026-08-20",
-      "status": "claimed",
-      "notes": "Inventory-only research for Clawson-Burnley Park, Daniel Boone Park, and Junaluska Park: authoritative identity, address, coordinate, relationship, current-status, and image-rights evidence; no page publication."
+      "status": "submitted",
+      "submissionUrl": "https://github.com/Buildrbear/auditmap/pull/48",
+      "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/48",
+      "acceptedRecordIds": [
+        "/us/nc/boone/parks/clawson-burnley-park",
+        "/us/nc/boone/parks/daniel-boone-park",
+        "/us/nc/boone/parks/junaluska-park"
+      ],
+      "reviewQueue": [
+        "Obtain current general hours and four varied representative reusable parent photographs for Clawson-Burnley Park.",
+        "Verify Daniel Boone Park campus schedules separately and obtain representative parent photography; do not inherit Boone Jaycee Park hours.",
+        "Ask the Town to reconcile Junaluska Park's embedded 175 Summit residential pin, confirm current hours and ADA remediation, and obtain representative parent photography."
+      ],
+      "notes": "Three inventory records, reviewed coordinates, parent-child and address decisions, current-use evidence, and image-rights review are submitted in PR #48. All parents remain hours-, photo-, and launch-guide-gated with no generated pages."
     }
   ]
 }
