@@ -291,11 +291,11 @@
     }
   ],
   "activeCluster": {
-    "name": "Mesa public parks catalogue-breadth recovery",
-    "reason": "The catalogue-growth scorecard placed breadth behind target, so the next work block is one exact 25-parent municipality inventory rather than another depth cluster. Current City facility pages and stable City data IDs support a bounded Mesa packet.",
-    "releaseStandard": "Qualify each parent with current official identity, address, stable source ID, reviewed coordinate provenance, duplicate classification, freshness, image-rights boundaries, and a release-ledger state. Do not promote inventory records to launch guides or redistribute restricted City geometry.",
-    "status": "mesa-25-parent-inventory-source-complete-launch-guide-gated",
-    "metros": ["Mesa"],
+    "name": "El Paso public parks catalogue-breadth recovery",
+    "reason": "Mesa occupies the first open breadth slot while awaiting independent review. The campaign operating plan allows one final bounded municipality-level breadth batch, and El Paso has a current official 280-plus-park directory with a queryable municipal park inventory.",
+    "releaseStandard": "Qualify each parent with current official identity, address, stable source ID, approximate coordinate provenance, duplicate classification, freshness, image-rights boundaries, and a release-ledger state. Do not promote inventory records to launch guides, present centroids as entrances, or redistribute City polygon geometry.",
+    "status": "el-paso-25-parent-inventory-source-complete-launch-guide-gated-second-breadth-slot",
+    "metros": ["El Paso"],
     "resumeCheckpoint": {
       "pausedAt": "2026-08-20",
       "completed": [
@@ -498,9 +498,13 @@
       "Qualified 25 current City of Mesa park parents with stable municipal facility IDs, current official pages, reviewed coordinates, freshness classifications, and explicit inventory-only release states.",
       "Retained Monterey Park as an alias for Christopher J. Brady Park and excluded Hohokam Stadium from the general public-park packet based on the current City facility identity.",
       "Resolved four City facility-page pins that fall outside City park boundaries by using named OpenStreetMap park geometry for Fitch, Eagles, Kleinman, and Sherwood while retaining the City pins as conflicts.",
-      "Registered Mesa's directory, annual data, and boundary services with noncommercial and redistribution restrictions; imported no City media or geometry."
+        "Registered Mesa's directory, annual data, and boundary services with noncommercial and redistribution restrictions; imported no City media or geometry.",
+        "Qualified 25 current City of El Paso park parents from the official City Parks FeatureServer with stable GlobalIDs, current ownership/category evidence, addresses, acreage selection, approximate coordinate provenance, freshness classifications, and explicit inventory-only release states.",
+        "Excluded Memorial Senior Center and Memorial Ballpark as component records that duplicate Memorial Park; excluded proposed parks, medians, parking, joint-use records, and non-City ownership classes from the exact packet.",
+        "Corrected the national registry's same-state unique-name fallback so El Paso Memorial Park cannot attach to Houston Memorial Park; added and passed a regression test requiring the normalized city to match.",
+        "Registered the El Paso Parks FeatureServer with publisher-terms review, centroid-as-entrance, polygon-redistribution, and City-image restrictions; imported no City media or polygon geometry."
       ],
-    "nextAction": "Review Mesa draft PR #50 and mark claim `research-completion-az-mesa-01` changes-requested or accepted as appropriate. Keep all 25 parents at inventory tier until separately assigned current visitor profiles, representative reusable photography, and final coordinate rechecks clear; do not reopen completed Cleveland-through-Boone work.",
+      "nextAction": "Review Mesa draft PR #50 and the El Paso draft submission independently. No third municipality-breadth batch may open until one breadth slot closes. Keep both sets of 25 parents at inventory tier until separately assigned visitor profiles, practical arrival coordinates, representative reusable photography, and final operator rechecks clear; do not reopen completed Cleveland-through-Boone work.",
       "notReleased": true,
       "productionPublished": false
     }

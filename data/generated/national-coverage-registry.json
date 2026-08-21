@@ -10,29 +10,29 @@
     "sitemap": "sitemap.xml",
     "catalog": "data/generated/official-catalog.json",
     "catalogGeneratedAt": "2026-08-11T09:40:25.704Z",
-    "gitBranch": "codex/mesa-parks-discovery",
-    "gitCommit": "8f55a163cac6a914003c3aa3f9866320fb50c6ba"
+    "gitBranch": "codex/el-paso-parks-discovery",
+    "gitCommit": "7dd20b58282e95ff46da370a9b44b530f5d78f03"
   },
   "spatialEvidence": {
     "registry": "data/spatial-source-registry.json",
     "checkedAt": "2026-08-17",
-    "registeredSources": 13,
+    "registeredSources": 14,
     "publicationApprovedSources": 1,
-    "reviewRequiredSources": 11
+    "reviewRequiredSources": 12
   },
   "summary": {
-    "knownDestinations": 3418,
+    "knownDestinations": 3445,
     "liveDestinationPages": 3382,
     "liveParentPages": 905,
     "liveSubsitePages": 2477,
-    "hopper": 36,
+    "hopper": 63,
     "generatedLocallyNotLive": 2,
-    "researchOnly": 28,
-    "blockedReview": 6,
+    "researchOnly": 51,
+    "blockedReview": 10,
     "productionMissingFromLocal": 0,
-    "recordsWithResearchHandoffs": 75,
-    "mappableDestinations": 2930,
-    "openReviewItems": 7
+    "recordsWithResearchHandoffs": 100,
+    "mappableDestinations": 2957,
+    "openReviewItems": 11
   },
   "records": [
     {
@@ -43169,29 +43169,8 @@
       "productionPresent": true,
       "localPresent": true,
       "reconciliationFlags": [],
-      "researchSources": [
-        {
-          "sourceId": "opentask-nc-50-detailed-parks-2026-08-13",
-          "sourceRecordSlug": "wake-forest-forest-ridge-park",
-          "name": "Forest Ridge Park",
-          "city": "Wake Forest",
-          "state": "NC",
-          "managingAgency": "Raleigh Parks, Recreation and Cultural Resources",
-          "checkedAt": "2026-08-13",
-          "officialSources": [
-            "https://raleighnc.gov/parks-and-recreation/places/forest-ridge-park",
-            "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=2100%20Old%20NC%2098%20Hwy%2C%20Wake%20Forest%2C%20NC%2027587&f=pjson&outFields=Match_addr,Addr_type&maxLocations=3"
-          ],
-          "handoffUrl": "https://keystone-accessibility-baseline.indierepo.chatgpt.site/auditmap-50-detailed-parks/AUDITMAP_50_DETAILED_PARK_RECORDS.md",
-          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
-          "reviewItems": [],
-          "override": null
-        }
-      ],
-      "openReviewItems": [],
-      "researchMatchBasis": [
-        "unique-state-name"
-      ]
+      "researchSources": [],
+      "openReviewItems": []
     },
     {
       "id": "/us/nc/raleigh/parks/fred-fletcher-park",
@@ -43275,29 +43254,8 @@
       "productionPresent": true,
       "localPresent": true,
       "reconciliationFlags": [],
-      "researchSources": [
-        {
-          "sourceId": "opentask-nc-50-detailed-parks-2026-08-13",
-          "sourceRecordSlug": "wake-forest-horseshoe-farm-nature-preserve",
-          "name": "Horseshoe Farm Nature Preserve",
-          "city": "Wake Forest",
-          "state": "NC",
-          "managingAgency": "Raleigh Parks, Recreation and Cultural Resources",
-          "checkedAt": "2026-08-13",
-          "officialSources": [
-            "https://raleighnc.gov/parks-and-recreation/places/horseshoe-farm-nature-preserve",
-            "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=2900%20Horseshoe%20Farm%20Rd%2C%20Wake%20Forest%2C%20NC%2027587&f=pjson&outFields=Match_addr,Addr_type&maxLocations=3"
-          ],
-          "handoffUrl": "https://keystone-accessibility-baseline.indierepo.chatgpt.site/auditmap-50-detailed-parks/AUDITMAP_50_DETAILED_PARK_RECORDS.md",
-          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
-          "reviewItems": [],
-          "override": null
-        }
-      ],
-      "openReviewItems": [],
-      "researchMatchBasis": [
-        "unique-state-name"
-      ]
+      "researchSources": [],
+      "openReviewItems": []
     },
     {
       "id": "/us/nc/raleigh/parks/house-creek-greenway-trail",
@@ -45362,6 +45320,48 @@
       "coordinateSource": "https://www.wakeforestnc.gov/parks-recreation-cultural-resources/parks-facilities/e-carroll-joyner-park"
     },
     {
+      "id": "/us/nc/wake-forest/parks/forest-ridge-park",
+      "path": "/us/nc/wake-forest/parks/forest-ridge-park",
+      "url": "https://www.auditmap.org/us/nc/wake-forest/parks/forest-ridge-park",
+      "kind": "parent",
+      "state": "NC",
+      "citySlug": "wake-forest",
+      "parentSlug": "forest-ridge-park",
+      "subsiteSlug": null,
+      "name": "Forest Ridge Park",
+      "city": "Wake Forest",
+      "latitude": 35.965950538388,
+      "longitude": -78.579516400853,
+      "positionQuality": null,
+      "coordinateSource": null,
+      "releaseStatus": "research-only",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "opentask-nc-50-detailed-parks-2026-08-13",
+          "sourceRecordSlug": "wake-forest-forest-ridge-park",
+          "name": "Forest Ridge Park",
+          "city": "Wake Forest",
+          "state": "NC",
+          "managingAgency": "Raleigh Parks, Recreation and Cultural Resources",
+          "checkedAt": "2026-08-13",
+          "officialSources": [
+            "https://raleighnc.gov/parks-and-recreation/places/forest-ridge-park",
+            "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=2100%20Old%20NC%2098%20Hwy%2C%20Wake%20Forest%2C%20NC%2027587&f=pjson&outFields=Match_addr,Addr_type&maxLocations=3"
+          ],
+          "handoffUrl": "https://keystone-accessibility-baseline.indierepo.chatgpt.site/auditmap-50-detailed-parks/AUDITMAP_50_DETAILED_PARK_RECORDS.md",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        }
+      ],
+      "openReviewItems": []
+    },
+    {
       "id": "/us/nc/wake-forest/parks/holding-park",
       "path": "/us/nc/wake-forest/parks/holding-park",
       "url": "https://www.auditmap.org/us/nc/wake-forest/parks/holding-park",
@@ -45382,6 +45382,48 @@
       "longitude": -78.5142975,
       "positionQuality": "parent-map-coordinate",
       "coordinateSource": "https://www.wakeforestnc.gov/parks-recreation-cultural-resources/parks-facilities/holding-park"
+    },
+    {
+      "id": "/us/nc/wake-forest/parks/horseshoe-farm-nature-preserve",
+      "path": "/us/nc/wake-forest/parks/horseshoe-farm-nature-preserve",
+      "url": "https://www.auditmap.org/us/nc/wake-forest/parks/horseshoe-farm-nature-preserve",
+      "kind": "parent",
+      "state": "NC",
+      "citySlug": "wake-forest",
+      "parentSlug": "horseshoe-farm-nature-preserve",
+      "subsiteSlug": null,
+      "name": "Horseshoe Farm Nature Preserve",
+      "city": "Wake Forest",
+      "latitude": 35.885726253449,
+      "longitude": -78.534521925512,
+      "positionQuality": null,
+      "coordinateSource": null,
+      "releaseStatus": "research-only",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "opentask-nc-50-detailed-parks-2026-08-13",
+          "sourceRecordSlug": "wake-forest-horseshoe-farm-nature-preserve",
+          "name": "Horseshoe Farm Nature Preserve",
+          "city": "Wake Forest",
+          "state": "NC",
+          "managingAgency": "Raleigh Parks, Recreation and Cultural Resources",
+          "checkedAt": "2026-08-13",
+          "officialSources": [
+            "https://raleighnc.gov/parks-and-recreation/places/horseshoe-farm-nature-preserve",
+            "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=2900%20Horseshoe%20Farm%20Rd%2C%20Wake%20Forest%2C%20NC%2027587&f=pjson&outFields=Match_addr,Addr_type&maxLocations=3"
+          ],
+          "handoffUrl": "https://keystone-accessibility-baseline.indierepo.chatgpt.site/auditmap-50-detailed-parks/AUDITMAP_50_DETAILED_PARK_RECORDS.md",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        }
+      ],
+      "openReviewItems": []
     },
     {
       "id": "/us/nc/wake-forest/parks/j-b-flaherty-park",
@@ -63311,6 +63353,1163 @@
       "longitude": -96.7153291,
       "positionQuality": "Preserved mapped coordinate for Winfrey Point",
       "coordinateSource": "OpenStreetMap Nominatim"
+    },
+    {
+      "id": "/us/tx/el-paso/parks/argal-park",
+      "path": "/us/tx/el-paso/parks/argal-park",
+      "url": "https://www.auditmap.org/us/tx/el-paso/parks/argal-park",
+      "kind": "parent",
+      "state": "TX",
+      "citySlug": "el-paso",
+      "parentSlug": "argal-park",
+      "subsiteSlug": null,
+      "name": "Argal Park",
+      "city": "El Paso",
+      "latitude": 31.7380148,
+      "longitude": -106.3123216,
+      "positionQuality": "official-polygon-centroid-needs-arrival-review",
+      "coordinateSource": "Representative centroid derived by the official City of El Paso Parks FeatureServer",
+      "releaseStatus": "research-only",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "el-paso-public-parks-2026-08-20",
+          "sourceRecordSlug": "el-paso-argal-park",
+          "name": "Argal Park",
+          "city": "El Paso",
+          "state": "TX",
+          "managingAgency": "City of El Paso Parks and Recreation Department",
+          "checkedAt": "2026-08-20",
+          "officialSources": [
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+            "https://www.elpasotexas.gov/parks/parks-planning/parks",
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=245&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/51",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        }
+      ],
+      "openReviewItems": []
+    },
+    {
+      "id": "/us/tx/el-paso/parks/blackie-chesher-park",
+      "path": "/us/tx/el-paso/parks/blackie-chesher-park",
+      "url": "https://www.auditmap.org/us/tx/el-paso/parks/blackie-chesher-park",
+      "kind": "parent",
+      "state": "TX",
+      "citySlug": "el-paso",
+      "parentSlug": "blackie-chesher-park",
+      "subsiteSlug": null,
+      "name": "Blackie Chesher Park",
+      "city": "El Paso",
+      "latitude": 31.7134475,
+      "longitude": -106.3054743,
+      "positionQuality": "official-polygon-centroid-needs-arrival-review",
+      "coordinateSource": "Representative centroid derived by the official City of El Paso Parks FeatureServer",
+      "releaseStatus": "blocked-review",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "el-paso-public-parks-2026-08-20",
+          "sourceRecordSlug": "el-paso-blackie-chesher-park",
+          "name": "Blackie Chesher Park",
+          "city": "El Paso",
+          "state": "TX",
+          "managingAgency": "City of El Paso Parks and Recreation Department",
+          "checkedAt": "2026-08-20",
+          "officialSources": [
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+            "https://www.elpasotexas.gov/parks/parks-planning/parks",
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=142&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/51",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [
+            {
+              "park_slug": "el-paso-blackie-chesher-park",
+              "field": "address",
+              "conflict": "Official GIS reports two address references: `9143 Escobar Dr/1100 N Zaragoza`.",
+              "sources_checked": [
+                "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0"
+              ],
+              "next_action": "Identify the practical public entrance under a separately assigned launch-guide packet."
+            }
+          ],
+          "override": null
+        }
+      ],
+      "openReviewItems": [
+        {
+          "park_slug": "el-paso-blackie-chesher-park",
+          "field": "address",
+          "conflict": "Official GIS reports two address references: `9143 Escobar Dr/1100 N Zaragoza`.",
+          "sources_checked": [
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0"
+          ],
+          "next_action": "Identify the practical public entrance under a separately assigned launch-guide packet."
+        }
+      ]
+    },
+    {
+      "id": "/us/tx/el-paso/parks/chuck-heinrich-park",
+      "path": "/us/tx/el-paso/parks/chuck-heinrich-park",
+      "url": "https://www.auditmap.org/us/tx/el-paso/parks/chuck-heinrich-park",
+      "kind": "parent",
+      "state": "TX",
+      "citySlug": "el-paso",
+      "parentSlug": "chuck-heinrich-park",
+      "subsiteSlug": null,
+      "name": "Chuck Heinrich Park",
+      "city": "El Paso",
+      "latitude": 31.9344798,
+      "longitude": -106.4485454,
+      "positionQuality": "official-polygon-centroid-needs-arrival-review",
+      "coordinateSource": "Representative centroid derived by the official City of El Paso Parks FeatureServer",
+      "releaseStatus": "research-only",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "el-paso-public-parks-2026-08-20",
+          "sourceRecordSlug": "el-paso-chuck-heinrich-park",
+          "name": "Chuck Heinrich Park",
+          "city": "El Paso",
+          "state": "TX",
+          "managingAgency": "City of El Paso Parks and Recreation Department",
+          "checkedAt": "2026-08-20",
+          "officialSources": [
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+            "https://www.elpasotexas.gov/parks/parks-planning/parks",
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=148&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/51",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        }
+      ],
+      "openReviewItems": []
+    },
+    {
+      "id": "/us/tx/el-paso/parks/eastside-regional-park",
+      "path": "/us/tx/el-paso/parks/eastside-regional-park",
+      "url": "https://www.auditmap.org/us/tx/el-paso/parks/eastside-regional-park",
+      "kind": "parent",
+      "state": "TX",
+      "citySlug": "el-paso",
+      "parentSlug": "eastside-regional-park",
+      "subsiteSlug": null,
+      "name": "Eastside Regional Park",
+      "city": "El Paso",
+      "latitude": 31.8058042,
+      "longitude": -106.2374896,
+      "positionQuality": "official-polygon-centroid-needs-arrival-review",
+      "coordinateSource": "Representative centroid derived by the official City of El Paso Parks FeatureServer",
+      "releaseStatus": "blocked-review",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "el-paso-public-parks-2026-08-20",
+          "sourceRecordSlug": "el-paso-eastside-regional-park",
+          "name": "Eastside Regional Park",
+          "city": "El Paso",
+          "state": "TX",
+          "managingAgency": "City of El Paso Parks and Recreation Department",
+          "checkedAt": "2026-08-20",
+          "officialSources": [
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+            "https://www.elpasotexas.gov/parks/parks-planning/parks",
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=145&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/51",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [
+            {
+              "park_slug": "el-paso-eastside-regional-park",
+              "field": "address",
+              "conflict": "Official GIS reports `Hueco Club`, which is not a conventional street address.",
+              "sources_checked": [
+                "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+                "https://www.elpasotexas.gov/parks/parks-planning/parks"
+              ],
+              "next_action": "Resolve the practical entrance address during launch-guide work; do not use the centroid as turn-by-turn navigation."
+            }
+          ],
+          "override": null
+        }
+      ],
+      "openReviewItems": [
+        {
+          "park_slug": "el-paso-eastside-regional-park",
+          "field": "address",
+          "conflict": "Official GIS reports `Hueco Club`, which is not a conventional street address.",
+          "sources_checked": [
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+            "https://www.elpasotexas.gov/parks/parks-planning/parks"
+          ],
+          "next_action": "Resolve the practical entrance address during launch-guide work; do not use the centroid as turn-by-turn navigation."
+        }
+      ]
+    },
+    {
+      "id": "/us/tx/el-paso/parks/eastwood-park",
+      "path": "/us/tx/el-paso/parks/eastwood-park",
+      "url": "https://www.auditmap.org/us/tx/el-paso/parks/eastwood-park",
+      "kind": "parent",
+      "state": "TX",
+      "citySlug": "el-paso",
+      "parentSlug": "eastwood-park",
+      "subsiteSlug": null,
+      "name": "Eastwood Park",
+      "city": "El Paso",
+      "latitude": 31.7835087,
+      "longitude": -106.345266,
+      "positionQuality": "official-polygon-centroid-needs-arrival-review",
+      "coordinateSource": "Representative centroid derived by the official City of El Paso Parks FeatureServer",
+      "releaseStatus": "research-only",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "el-paso-public-parks-2026-08-20",
+          "sourceRecordSlug": "el-paso-eastwood-park",
+          "name": "Eastwood Park",
+          "city": "El Paso",
+          "state": "TX",
+          "managingAgency": "City of El Paso Parks and Recreation Department",
+          "checkedAt": "2026-08-20",
+          "officialSources": [
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+            "https://www.elpasotexas.gov/parks/parks-planning/parks",
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=189&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/51",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        }
+      ],
+      "openReviewItems": []
+    },
+    {
+      "id": "/us/tx/el-paso/parks/edgemere-linear-park",
+      "path": "/us/tx/el-paso/parks/edgemere-linear-park",
+      "url": "https://www.auditmap.org/us/tx/el-paso/parks/edgemere-linear-park",
+      "kind": "parent",
+      "state": "TX",
+      "citySlug": "el-paso",
+      "parentSlug": "edgemere-linear-park",
+      "subsiteSlug": null,
+      "name": "Edgemere Linear Park",
+      "city": "El Paso",
+      "latitude": 31.7859909,
+      "longitude": -106.3829219,
+      "positionQuality": "official-polygon-centroid-needs-arrival-review",
+      "coordinateSource": "Representative centroid derived by the official City of El Paso Parks FeatureServer",
+      "releaseStatus": "blocked-review",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "el-paso-public-parks-2026-08-20",
+          "sourceRecordSlug": "el-paso-edgemere-linear-park",
+          "name": "Edgemere Linear Park",
+          "city": "El Paso",
+          "state": "TX",
+          "managingAgency": "City of El Paso Parks and Recreation Department",
+          "checkedAt": "2026-08-20",
+          "officialSources": [
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+            "https://www.elpasotexas.gov/parks/parks-planning/parks",
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=231&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/51",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [
+            {
+              "park_slug": "el-paso-edgemere-linear-park",
+              "field": "arrival",
+              "conflict": "Official GIS lists multiple Edgemere segments; the representative centroid is not an entrance.",
+              "sources_checked": [
+                "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0"
+              ],
+              "next_action": "Choose a documented visitor segment or entrance before publication."
+            }
+          ],
+          "override": null
+        }
+      ],
+      "openReviewItems": [
+        {
+          "park_slug": "el-paso-edgemere-linear-park",
+          "field": "arrival",
+          "conflict": "Official GIS lists multiple Edgemere segments; the representative centroid is not an entrance.",
+          "sources_checked": [
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0"
+          ],
+          "next_action": "Choose a documented visitor segment or entrance before publication."
+        }
+      ]
+    },
+    {
+      "id": "/us/tx/el-paso/parks/james-jim-crouch-park",
+      "path": "/us/tx/el-paso/parks/james-jim-crouch-park",
+      "url": "https://www.auditmap.org/us/tx/el-paso/parks/james-jim-crouch-park",
+      "kind": "parent",
+      "state": "TX",
+      "citySlug": "el-paso",
+      "parentSlug": "james-jim-crouch-park",
+      "subsiteSlug": null,
+      "name": "James \"Jim\" Crouch Park",
+      "city": "El Paso",
+      "latitude": 31.7819656,
+      "longitude": -106.3859545,
+      "positionQuality": "official-polygon-centroid-needs-arrival-review",
+      "coordinateSource": "Representative centroid derived by the official City of El Paso Parks FeatureServer",
+      "releaseStatus": "research-only",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "el-paso-public-parks-2026-08-20",
+          "sourceRecordSlug": "el-paso-james-jim-crouch-park",
+          "name": "James \"Jim\" Crouch Park",
+          "city": "El Paso",
+          "state": "TX",
+          "managingAgency": "City of El Paso Parks and Recreation Department",
+          "checkedAt": "2026-08-20",
+          "officialSources": [
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+            "https://www.elpasotexas.gov/parks/parks-planning/parks",
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=190&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/51",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        }
+      ],
+      "openReviewItems": []
+    },
+    {
+      "id": "/us/tx/el-paso/parks/joey-barraza-and-vino-memorial-park",
+      "path": "/us/tx/el-paso/parks/joey-barraza-and-vino-memorial-park",
+      "url": "https://www.auditmap.org/us/tx/el-paso/parks/joey-barraza-and-vino-memorial-park",
+      "kind": "parent",
+      "state": "TX",
+      "citySlug": "el-paso",
+      "parentSlug": "joey-barraza-and-vino-memorial-park",
+      "subsiteSlug": null,
+      "name": "Joey Barraza and Vino Memorial Park",
+      "city": "El Paso",
+      "latitude": 31.9364568,
+      "longitude": -106.4027086,
+      "positionQuality": "official-polygon-centroid-needs-arrival-review",
+      "coordinateSource": "Representative centroid derived by the official City of El Paso Parks FeatureServer",
+      "releaseStatus": "research-only",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "el-paso-public-parks-2026-08-20",
+          "sourceRecordSlug": "el-paso-joey-barraza-and-vino-memorial-park",
+          "name": "Joey Barraza and Vino Memorial Park",
+          "city": "El Paso",
+          "state": "TX",
+          "managingAgency": "City of El Paso Parks and Recreation Department",
+          "checkedAt": "2026-08-20",
+          "officialSources": [
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+            "https://www.elpasotexas.gov/parks/parks-planning/parks",
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=147&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/51",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        }
+      ],
+      "openReviewItems": []
+    },
+    {
+      "id": "/us/tx/el-paso/parks/lincoln-park",
+      "path": "/us/tx/el-paso/parks/lincoln-park",
+      "url": "https://www.auditmap.org/us/tx/el-paso/parks/lincoln-park",
+      "kind": "parent",
+      "state": "TX",
+      "citySlug": "el-paso",
+      "parentSlug": "lincoln-park",
+      "subsiteSlug": null,
+      "name": "Lincoln Park",
+      "city": "El Paso",
+      "latitude": 31.7765311,
+      "longitude": -106.4423311,
+      "positionQuality": "official-polygon-centroid-needs-arrival-review",
+      "coordinateSource": "Representative centroid derived by the official City of El Paso Parks FeatureServer",
+      "releaseStatus": "research-only",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "el-paso-public-parks-2026-08-20",
+          "sourceRecordSlug": "el-paso-lincoln-park",
+          "name": "Lincoln Park",
+          "city": "El Paso",
+          "state": "TX",
+          "managingAgency": "City of El Paso Parks and Recreation Department",
+          "checkedAt": "2026-08-20",
+          "officialSources": [
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+            "https://www.elpasotexas.gov/parks/parks-planning/parks",
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=135&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/51",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        }
+      ],
+      "openReviewItems": []
+    },
+    {
+      "id": "/us/tx/el-paso/parks/lionel-forti-park",
+      "path": "/us/tx/el-paso/parks/lionel-forti-park",
+      "url": "https://www.auditmap.org/us/tx/el-paso/parks/lionel-forti-park",
+      "kind": "parent",
+      "state": "TX",
+      "citySlug": "el-paso",
+      "parentSlug": "lionel-forti-park",
+      "subsiteSlug": null,
+      "name": "Lionel Forti Park",
+      "city": "El Paso",
+      "latitude": 31.754944,
+      "longitude": -106.356294,
+      "positionQuality": "official-polygon-centroid-needs-arrival-review",
+      "coordinateSource": "Representative centroid derived by the official City of El Paso Parks FeatureServer",
+      "releaseStatus": "research-only",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "el-paso-public-parks-2026-08-20",
+          "sourceRecordSlug": "el-paso-lionel-forti-park",
+          "name": "Lionel Forti Park",
+          "city": "El Paso",
+          "state": "TX",
+          "managingAgency": "City of El Paso Parks and Recreation Department",
+          "checkedAt": "2026-08-20",
+          "officialSources": [
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+            "https://www.elpasotexas.gov/parks/parks-planning/parks",
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=13&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/51",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        }
+      ],
+      "openReviewItems": []
+    },
+    {
+      "id": "/us/tx/el-paso/parks/marty-robbins-park",
+      "path": "/us/tx/el-paso/parks/marty-robbins-park",
+      "url": "https://www.auditmap.org/us/tx/el-paso/parks/marty-robbins-park",
+      "kind": "parent",
+      "state": "TX",
+      "citySlug": "el-paso",
+      "parentSlug": "marty-robbins-park",
+      "subsiteSlug": null,
+      "name": "Marty Robbins Park",
+      "city": "El Paso",
+      "latitude": 31.7493066,
+      "longitude": -106.296845,
+      "positionQuality": "official-polygon-centroid-needs-arrival-review",
+      "coordinateSource": "Representative centroid derived by the official City of El Paso Parks FeatureServer",
+      "releaseStatus": "research-only",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "el-paso-public-parks-2026-08-20",
+          "sourceRecordSlug": "el-paso-marty-robbins-park",
+          "name": "Marty Robbins Park",
+          "city": "El Paso",
+          "state": "TX",
+          "managingAgency": "City of El Paso Parks and Recreation Department",
+          "checkedAt": "2026-08-20",
+          "officialSources": [
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+            "https://www.elpasotexas.gov/parks/parks-planning/parks",
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=62&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/51",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        }
+      ],
+      "openReviewItems": []
+    },
+    {
+      "id": "/us/tx/el-paso/parks/mary-frances-keisling-park",
+      "path": "/us/tx/el-paso/parks/mary-frances-keisling-park",
+      "url": "https://www.auditmap.org/us/tx/el-paso/parks/mary-frances-keisling-park",
+      "kind": "parent",
+      "state": "TX",
+      "citySlug": "el-paso",
+      "parentSlug": "mary-frances-keisling-park",
+      "subsiteSlug": null,
+      "name": "Mary Frances Keisling Park",
+      "city": "El Paso",
+      "latitude": 31.8654026,
+      "longitude": -106.6072196,
+      "positionQuality": "official-polygon-centroid-needs-arrival-review",
+      "coordinateSource": "Representative centroid derived by the official City of El Paso Parks FeatureServer",
+      "releaseStatus": "research-only",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "el-paso-public-parks-2026-08-20",
+          "sourceRecordSlug": "el-paso-mary-frances-keisling-park",
+          "name": "Mary Frances Keisling Park",
+          "city": "El Paso",
+          "state": "TX",
+          "managingAgency": "City of El Paso Parks and Recreation Department",
+          "checkedAt": "2026-08-20",
+          "officialSources": [
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+            "https://www.elpasotexas.gov/parks/parks-planning/parks",
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=157&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/51",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        }
+      ],
+      "openReviewItems": []
+    },
+    {
+      "id": "/us/tx/el-paso/parks/memorial-park",
+      "path": "/us/tx/el-paso/parks/memorial-park",
+      "url": "https://www.auditmap.org/us/tx/el-paso/parks/memorial-park",
+      "kind": "parent",
+      "state": "TX",
+      "citySlug": "el-paso",
+      "parentSlug": "memorial-park",
+      "subsiteSlug": null,
+      "name": "Memorial Park",
+      "city": "El Paso",
+      "latitude": 31.7898934,
+      "longitude": -106.4564695,
+      "positionQuality": "official-polygon-centroid-needs-arrival-review",
+      "coordinateSource": "Representative centroid derived by the official City of El Paso Parks FeatureServer",
+      "releaseStatus": "research-only",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "el-paso-public-parks-2026-08-20",
+          "sourceRecordSlug": "el-paso-memorial-park",
+          "name": "Memorial Park",
+          "city": "El Paso",
+          "state": "TX",
+          "managingAgency": "City of El Paso Parks and Recreation Department",
+          "checkedAt": "2026-08-20",
+          "officialSources": [
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+            "https://www.elpasotexas.gov/parks/parks-planning/parks",
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=63&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/51",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        }
+      ],
+      "openReviewItems": []
+    },
+    {
+      "id": "/us/tx/el-paso/parks/modesto-gomez-park",
+      "path": "/us/tx/el-paso/parks/modesto-gomez-park",
+      "url": "https://www.auditmap.org/us/tx/el-paso/parks/modesto-gomez-park",
+      "kind": "parent",
+      "state": "TX",
+      "citySlug": "el-paso",
+      "parentSlug": "modesto-gomez-park",
+      "subsiteSlug": null,
+      "name": "Modesto Gomez Park",
+      "city": "El Paso",
+      "latitude": 31.7586565,
+      "longitude": -106.4372596,
+      "positionQuality": "official-polygon-centroid-needs-arrival-review",
+      "coordinateSource": "Representative centroid derived by the official City of El Paso Parks FeatureServer",
+      "releaseStatus": "research-only",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "el-paso-public-parks-2026-08-20",
+          "sourceRecordSlug": "el-paso-modesto-gomez-park",
+          "name": "Modesto Gomez Park",
+          "city": "El Paso",
+          "state": "TX",
+          "managingAgency": "City of El Paso Parks and Recreation Department",
+          "checkedAt": "2026-08-20",
+          "officialSources": [
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+            "https://www.elpasotexas.gov/parks/parks-planning/parks",
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=41&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/51",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        }
+      ],
+      "openReviewItems": []
+    },
+    {
+      "id": "/us/tx/el-paso/parks/nations-tobin-park",
+      "path": "/us/tx/el-paso/parks/nations-tobin-park",
+      "url": "https://www.auditmap.org/us/tx/el-paso/parks/nations-tobin-park",
+      "kind": "parent",
+      "state": "TX",
+      "citySlug": "el-paso",
+      "parentSlug": "nations-tobin-park",
+      "subsiteSlug": null,
+      "name": "Nations Tobin Park",
+      "city": "El Paso",
+      "latitude": 31.8658959,
+      "longitude": -106.4121387,
+      "positionQuality": "official-polygon-centroid-needs-arrival-review",
+      "coordinateSource": "Representative centroid derived by the official City of El Paso Parks FeatureServer",
+      "releaseStatus": "research-only",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "el-paso-public-parks-2026-08-20",
+          "sourceRecordSlug": "el-paso-nations-tobin-park",
+          "name": "Nations Tobin Park",
+          "city": "El Paso",
+          "state": "TX",
+          "managingAgency": "City of El Paso Parks and Recreation Department",
+          "checkedAt": "2026-08-20",
+          "officialSources": [
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+            "https://www.elpasotexas.gov/parks/parks-planning/parks",
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=45&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/51",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        }
+      ],
+      "openReviewItems": []
+    },
+    {
+      "id": "/us/tx/el-paso/parks/pavo-real-park",
+      "path": "/us/tx/el-paso/parks/pavo-real-park",
+      "url": "https://www.auditmap.org/us/tx/el-paso/parks/pavo-real-park",
+      "kind": "parent",
+      "state": "TX",
+      "citySlug": "el-paso",
+      "parentSlug": "pavo-real-park",
+      "subsiteSlug": null,
+      "name": "Pavo Real Park",
+      "city": "El Paso",
+      "latitude": 31.6883817,
+      "longitude": -106.3179629,
+      "positionQuality": "official-polygon-centroid-needs-arrival-review",
+      "coordinateSource": "Representative centroid derived by the official City of El Paso Parks FeatureServer",
+      "releaseStatus": "research-only",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "el-paso-public-parks-2026-08-20",
+          "sourceRecordSlug": "el-paso-pavo-real-park",
+          "name": "Pavo Real Park",
+          "city": "El Paso",
+          "state": "TX",
+          "managingAgency": "City of El Paso Parks and Recreation Department",
+          "checkedAt": "2026-08-20",
+          "officialSources": [
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+            "https://www.elpasotexas.gov/parks/parks-planning/parks",
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=1&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/51",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        }
+      ],
+      "openReviewItems": []
+    },
+    {
+      "id": "/us/tx/el-paso/parks/pueblo-viejo-linear-park",
+      "path": "/us/tx/el-paso/parks/pueblo-viejo-linear-park",
+      "url": "https://www.auditmap.org/us/tx/el-paso/parks/pueblo-viejo-linear-park",
+      "kind": "parent",
+      "state": "TX",
+      "citySlug": "el-paso",
+      "parentSlug": "pueblo-viejo-linear-park",
+      "subsiteSlug": null,
+      "name": "Pueblo Viejo Linear Park",
+      "city": "El Paso",
+      "latitude": 31.6991386,
+      "longitude": -106.3273393,
+      "positionQuality": "official-polygon-centroid-needs-arrival-review",
+      "coordinateSource": "Representative centroid derived by the official City of El Paso Parks FeatureServer",
+      "releaseStatus": "blocked-review",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "el-paso-public-parks-2026-08-20",
+          "sourceRecordSlug": "el-paso-pueblo-viejo-linear-park",
+          "name": "Pueblo Viejo Linear Park",
+          "city": "El Paso",
+          "state": "TX",
+          "managingAgency": "City of El Paso Parks and Recreation Department",
+          "checkedAt": "2026-08-20",
+          "officialSources": [
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+            "https://www.elpasotexas.gov/parks/parks-planning/parks",
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=232&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/51",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [
+            {
+              "park_slug": "el-paso-pueblo-viejo-linear-park",
+              "field": "arrival",
+              "conflict": "Official GIS describes a linear span from Roseway to Presa Place; the representative centroid is not an entrance.",
+              "sources_checked": [
+                "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0"
+              ],
+              "next_action": "Choose a documented visitor segment or entrance before publication."
+            }
+          ],
+          "override": null
+        }
+      ],
+      "openReviewItems": [
+        {
+          "park_slug": "el-paso-pueblo-viejo-linear-park",
+          "field": "arrival",
+          "conflict": "Official GIS describes a linear span from Roseway to Presa Place; the representative centroid is not an entrance.",
+          "sources_checked": [
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0"
+          ],
+          "next_action": "Choose a documented visitor segment or entrance before publication."
+        }
+      ]
+    },
+    {
+      "id": "/us/tx/el-paso/parks/ralph-t-cloud-park",
+      "path": "/us/tx/el-paso/parks/ralph-t-cloud-park",
+      "url": "https://www.auditmap.org/us/tx/el-paso/parks/ralph-t-cloud-park",
+      "kind": "parent",
+      "state": "TX",
+      "citySlug": "el-paso",
+      "parentSlug": "ralph-t-cloud-park",
+      "subsiteSlug": null,
+      "name": "Ralph T. Cloud Park",
+      "city": "El Paso",
+      "latitude": 31.7404748,
+      "longitude": -106.3437803,
+      "positionQuality": "official-polygon-centroid-needs-arrival-review",
+      "coordinateSource": "Representative centroid derived by the official City of El Paso Parks FeatureServer",
+      "releaseStatus": "research-only",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "el-paso-public-parks-2026-08-20",
+          "sourceRecordSlug": "el-paso-ralph-t-cloud-park",
+          "name": "Ralph T. Cloud Park",
+          "city": "El Paso",
+          "state": "TX",
+          "managingAgency": "City of El Paso Parks and Recreation Department",
+          "checkedAt": "2026-08-20",
+          "officialSources": [
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+            "https://www.elpasotexas.gov/parks/parks-planning/parks",
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=52&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/51",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        }
+      ],
+      "openReviewItems": []
+    },
+    {
+      "id": "/us/tx/el-paso/parks/ranchos-del-sol-park",
+      "path": "/us/tx/el-paso/parks/ranchos-del-sol-park",
+      "url": "https://www.auditmap.org/us/tx/el-paso/parks/ranchos-del-sol-park",
+      "kind": "parent",
+      "state": "TX",
+      "citySlug": "el-paso",
+      "parentSlug": "ranchos-del-sol-park",
+      "subsiteSlug": null,
+      "name": "Ranchos Del Sol Park",
+      "city": "El Paso",
+      "latitude": 31.7131555,
+      "longitude": -106.2780594,
+      "positionQuality": "official-polygon-centroid-needs-arrival-review",
+      "coordinateSource": "Representative centroid derived by the official City of El Paso Parks FeatureServer",
+      "releaseStatus": "research-only",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "el-paso-public-parks-2026-08-20",
+          "sourceRecordSlug": "el-paso-ranchos-del-sol-park",
+          "name": "Ranchos Del Sol Park",
+          "city": "El Paso",
+          "state": "TX",
+          "managingAgency": "City of El Paso Parks and Recreation Department",
+          "checkedAt": "2026-08-20",
+          "officialSources": [
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+            "https://www.elpasotexas.gov/parks/parks-planning/parks",
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=79&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/51",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        }
+      ],
+      "openReviewItems": []
+    },
+    {
+      "id": "/us/tx/el-paso/parks/richard-a-castro-eastside-sports-complex",
+      "path": "/us/tx/el-paso/parks/richard-a-castro-eastside-sports-complex",
+      "url": "https://www.auditmap.org/us/tx/el-paso/parks/richard-a-castro-eastside-sports-complex",
+      "kind": "parent",
+      "state": "TX",
+      "citySlug": "el-paso",
+      "parentSlug": "richard-a-castro-eastside-sports-complex",
+      "subsiteSlug": null,
+      "name": "Richard A. Castro Eastside Sports Complex",
+      "city": "El Paso",
+      "latitude": 31.7656273,
+      "longitude": -106.218959,
+      "positionQuality": "official-polygon-centroid-needs-arrival-review",
+      "coordinateSource": "Representative centroid derived by the official City of El Paso Parks FeatureServer",
+      "releaseStatus": "research-only",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "el-paso-public-parks-2026-08-20",
+          "sourceRecordSlug": "el-paso-richard-a-castro-eastside-sports-complex",
+          "name": "Richard A. Castro Eastside Sports Complex",
+          "city": "El Paso",
+          "state": "TX",
+          "managingAgency": "City of El Paso Parks and Recreation Department",
+          "checkedAt": "2026-08-20",
+          "officialSources": [
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+            "https://www.elpasotexas.gov/parks/parks-planning/parks",
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=266&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/51",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        }
+      ],
+      "openReviewItems": []
+    },
+    {
+      "id": "/us/tx/el-paso/parks/salvador-rivas-jr-park",
+      "path": "/us/tx/el-paso/parks/salvador-rivas-jr-park",
+      "url": "https://www.auditmap.org/us/tx/el-paso/parks/salvador-rivas-jr-park",
+      "kind": "parent",
+      "state": "TX",
+      "citySlug": "el-paso",
+      "parentSlug": "salvador-rivas-jr-park",
+      "subsiteSlug": null,
+      "name": "Salvador Rivas Jr. Park",
+      "city": "El Paso",
+      "latitude": 31.7824399,
+      "longitude": -106.2538471,
+      "positionQuality": "official-polygon-centroid-needs-arrival-review",
+      "coordinateSource": "Representative centroid derived by the official City of El Paso Parks FeatureServer",
+      "releaseStatus": "research-only",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "el-paso-public-parks-2026-08-20",
+          "sourceRecordSlug": "el-paso-salvador-rivas-jr-park",
+          "name": "Salvador Rivas Jr. Park",
+          "city": "El Paso",
+          "state": "TX",
+          "managingAgency": "City of El Paso Parks and Recreation Department",
+          "checkedAt": "2026-08-20",
+          "officialSources": [
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+            "https://www.elpasotexas.gov/parks/parks-planning/parks",
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=194&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/51",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        }
+      ],
+      "openReviewItems": []
+    },
+    {
+      "id": "/us/tx/el-paso/parks/sue-young-park",
+      "path": "/us/tx/el-paso/parks/sue-young-park",
+      "url": "https://www.auditmap.org/us/tx/el-paso/parks/sue-young-park",
+      "kind": "parent",
+      "state": "TX",
+      "citySlug": "el-paso",
+      "parentSlug": "sue-young-park",
+      "subsiteSlug": null,
+      "name": "Sue Young Park",
+      "city": "El Paso",
+      "latitude": 31.8840511,
+      "longitude": -106.4349827,
+      "positionQuality": "official-polygon-centroid-needs-arrival-review",
+      "coordinateSource": "Representative centroid derived by the official City of El Paso Parks FeatureServer",
+      "releaseStatus": "research-only",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "el-paso-public-parks-2026-08-20",
+          "sourceRecordSlug": "el-paso-sue-young-park",
+          "name": "Sue Young Park",
+          "city": "El Paso",
+          "state": "TX",
+          "managingAgency": "City of El Paso Parks and Recreation Department",
+          "checkedAt": "2026-08-20",
+          "officialSources": [
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+            "https://www.elpasotexas.gov/parks/parks-planning/parks",
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=89&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/51",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        }
+      ],
+      "openReviewItems": []
+    },
+    {
+      "id": "/us/tx/el-paso/parks/tom-lea-lower-park",
+      "path": "/us/tx/el-paso/parks/tom-lea-lower-park",
+      "url": "https://www.auditmap.org/us/tx/el-paso/parks/tom-lea-lower-park",
+      "kind": "parent",
+      "state": "TX",
+      "citySlug": "el-paso",
+      "parentSlug": "tom-lea-lower-park",
+      "subsiteSlug": null,
+      "name": "Tom Lea Lower Park",
+      "city": "El Paso",
+      "latitude": 31.7779654,
+      "longitude": -106.4894223,
+      "positionQuality": "official-polygon-centroid-needs-arrival-review",
+      "coordinateSource": "Representative centroid derived by the official City of El Paso Parks FeatureServer",
+      "releaseStatus": "research-only",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "el-paso-public-parks-2026-08-20",
+          "sourceRecordSlug": "el-paso-tom-lea-lower-park",
+          "name": "Tom Lea Lower Park",
+          "city": "El Paso",
+          "state": "TX",
+          "managingAgency": "City of El Paso Parks and Recreation Department",
+          "checkedAt": "2026-08-20",
+          "officialSources": [
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+            "https://www.elpasotexas.gov/parks/parks-planning/parks",
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=102&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/51",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        }
+      ],
+      "openReviewItems": []
+    },
+    {
+      "id": "/us/tx/el-paso/parks/veterans-park",
+      "path": "/us/tx/el-paso/parks/veterans-park",
+      "url": "https://www.auditmap.org/us/tx/el-paso/parks/veterans-park",
+      "kind": "parent",
+      "state": "TX",
+      "citySlug": "el-paso",
+      "parentSlug": "veterans-park",
+      "subsiteSlug": null,
+      "name": "Veterans Park",
+      "city": "El Paso",
+      "latitude": 31.9204935,
+      "longitude": -106.420212,
+      "positionQuality": "official-polygon-centroid-needs-arrival-review",
+      "coordinateSource": "Representative centroid derived by the official City of El Paso Parks FeatureServer",
+      "releaseStatus": "research-only",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "el-paso-public-parks-2026-08-20",
+          "sourceRecordSlug": "el-paso-veterans-park",
+          "name": "Veterans Park",
+          "city": "El Paso",
+          "state": "TX",
+          "managingAgency": "City of El Paso Parks and Recreation Department",
+          "checkedAt": "2026-08-20",
+          "officialSources": [
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+            "https://www.elpasotexas.gov/parks/parks-planning/parks",
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=110&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/51",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        }
+      ],
+      "openReviewItems": []
+    },
+    {
+      "id": "/us/tx/el-paso/parks/vista-del-valle-park",
+      "path": "/us/tx/el-paso/parks/vista-del-valle-park",
+      "url": "https://www.auditmap.org/us/tx/el-paso/parks/vista-del-valle-park",
+      "kind": "parent",
+      "state": "TX",
+      "citySlug": "el-paso",
+      "parentSlug": "vista-del-valle-park",
+      "subsiteSlug": null,
+      "name": "Vista Del Valle Park",
+      "city": "El Paso",
+      "latitude": 31.7765128,
+      "longitude": -106.3702384,
+      "positionQuality": "official-polygon-centroid-needs-arrival-review",
+      "coordinateSource": "Representative centroid derived by the official City of El Paso Parks FeatureServer",
+      "releaseStatus": "research-only",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "el-paso-public-parks-2026-08-20",
+          "sourceRecordSlug": "el-paso-vista-del-valle-park",
+          "name": "Vista Del Valle Park",
+          "city": "El Paso",
+          "state": "TX",
+          "managingAgency": "City of El Paso Parks and Recreation Department",
+          "checkedAt": "2026-08-20",
+          "officialSources": [
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+            "https://www.elpasotexas.gov/parks/parks-planning/parks",
+            "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=193&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/51",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        }
+      ],
+      "openReviewItems": []
     },
     {
       "id": "/us/tx/fort-worth/parks/fort-worth-water-gardens",

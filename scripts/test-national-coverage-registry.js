@@ -27,6 +27,7 @@ const productionCatalog = {
   places: [
     { id: "live-park", name: "Live Park", city: "Raleigh", state: "NC", officialSource: { url: "https://raleighnc.gov/live" } },
     { id: "production-only-park", name: "Production Only Park", city: "Durham", state: "NC" },
+    { id: "memorial-park", name: "Memorial Park", city: "Houston", state: "TX" },
   ],
 };
 const localCatalog = { places: [{ id: "live-park", name: "Live Park", city: "Raleigh", state: "NC" }] };
@@ -38,6 +39,7 @@ const intakes = [{
     { slug: "raleigh-new-park", name: "New Park", city: "Raleigh", state: "NC" },
     { slug: "durham-blocked-park", name: "Blocked Park", city: "Durham", state: "NC" },
     { slug: "raleigh-different-park", name: "Different Park", city: "Raleigh", state: "NC", official_source_url: "https://raleighnc.gov/live" },
+    { slug: "el-paso-memorial-park", name: "Memorial Park", city: "El Paso", state: "TX" },
   ],
   reviewQueue: [{ park_slug: "durham-blocked-park", issue: "Coordinate conflict", recommendation: "Check GIS" }],
 }];
@@ -45,22 +47,23 @@ const intakes = [{
 const registry = buildRegistry({ livePages, localPages, productionCatalog, localCatalog, intakes });
 const summary = summarize(registry);
 assert.deepEqual(summary, {
-  knownDestinations: 7,
+  knownDestinations: 8,
   liveDestinationPages: 3,
   liveParentPages: 2,
   liveSubsitePages: 1,
-  hopper: 4,
+  hopper: 5,
   generatedLocallyNotLive: 1,
-  researchOnly: 2,
+  researchOnly: 3,
   blockedReview: 1,
   productionMissingFromLocal: 1,
-  recordsWithResearchHandoffs: 4,
+  recordsWithResearchHandoffs: 5,
   mappableDestinations: 0,
   openReviewItems: 1,
 });
 assert.equal(registry.find((record) => record.path.endsWith("/live-park")).researchSources.length, 1);
 assert.equal(registry.find((record) => record.path.endsWith("/new-park")).releaseStatus, "research-only");
 assert.equal(registry.find((record) => record.path.endsWith("/blocked-park")).releaseStatus, "blocked-review");
+assert.equal(registry.find((record) => record.path === "/us/tx/el-paso/parks/memorial-park").releaseStatus, "research-only");
 
 const mappedRegistry = buildRegistry({
   livePages,
@@ -89,7 +92,7 @@ assert.equal(mappedRegistry.find((record) => record.path.endsWith("/live-park"))
 assert.equal(mappedRegistry.find((record) => record.path.endsWith("/live-trail")).name, "Live Trail");
 
 const packets = buildPackets(registry, 25);
-assert.equal(packets.reduce((total, packet) => total + packet.count, 0), 5);
+assert.equal(packets.reduce((total, packet) => total + packet.count, 0), 6);
 assert.deepEqual(new Set(packets.map((packet) => packet.type)), new Set([
   "local-production-sync",
   "release-reconciliation",

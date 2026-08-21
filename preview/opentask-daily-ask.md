@@ -5,10 +5,10 @@ Generated: 2026-08-21
 ## Current scoreboard
 
 - **3,382** destination pages are live.
-- **36** known destinations are in the hopper.
+- **63** known destinations are in the hopper.
 - **2** are generated locally but absent from production.
-- **28** are research-only candidates awaiting launch-guide work.
-- **6** are blocked by named review questions.
+- **51** are research-only candidates awaiting launch-guide work.
+- **10** are blocked by named review questions.
 - **0** live records need internal local/production synchronization.
 
 ## Current operating ask
@@ -21,7 +21,7 @@ The production-sync queue is reserved for maintainers and repository integrators
 
 | Packet | Work type | Geography | Records |
 | --- | --- | --- | ---: |
-| None | — | — | 0 |
+| `research-completion-nc-wake-forest-01` | research-completion | NC / wake forest | 2 |
 
 ## Daily merge rule
 

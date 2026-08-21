@@ -1,0 +1,96 @@
+#!/usr/bin/env node
+
+const assert = require("node:assert/strict");
+const fs = require("node:fs");
+const path = require("node:path");
+
+const root = path.resolve(__dirname, "..");
+const readJson = (file) => JSON.parse(fs.readFileSync(path.join(root, file), "utf8"));
+
+const intake = readJson("data/research-intake/el-paso-public-parks-2026-08-20.json");
+const ledger = readJson("data/release-ledgers/el-paso-public-parks-2026-08-20.json");
+const spatial = readJson("data/spatial-source-registry.json");
+const claims = readJson("data/national-work-packet-claims.json");
+const packets = readJson("data/generated/national-work-packets.json");
+const sitemap = fs.readFileSync(path.join(root, "sitemap.xml"), "utf8");
+
+assert.equal(intake.campaignId, "el-paso-public-parks-2026-08-20");
+assert.equal(intake.contributionTier, "inventory");
+assert.equal(intake.records.length, 25);
+assert.equal(intake.selection.sourceCandidateCount, 396);
+assert.equal(intake.selection.currentCityParkCount, 281);
+assert.equal(intake.selection.acceptedCount, 25);
+assert.deepEqual(
+  intake.selection.excluded.map((record) => record.name).sort(),
+  ["Memorial Ballpark", "Memorial Senior Center"],
+);
+assert.match(intake.sourcePolicy.imageRights, /No City image/);
+assert.match(intake.sourcePolicy.geometryRights, /No park polygon geometry/);
+
+const slugs = new Set();
+const globalIds = new Set();
+for (const record of intake.records) {
+  assert.equal(record.city, "El Paso");
+  assert.equal(record.state, "TX");
+  assert.equal(record.country, "US");
+  assert.equal(record.category, "public park");
+  assert.equal(record.managing_agency, "City of El Paso Parks and Recreation Department");
+  assert.equal(record.duplicate_status, "accepted-net-new-parent");
+  assert.equal(record.contribution_status, "qualified-inventory-parent");
+  assert.equal(record.position_quality, "official-polygon-centroid-needs-arrival-review");
+  assert.ok(Number.isFinite(record.latitude));
+  assert.ok(Number.isFinite(record.longitude));
+  assert.ok(record.latitude > 31.6 && record.latitude < 32.1);
+  assert.ok(record.longitude > -106.8 && record.longitude < -106.1);
+  assert.match(record.official_source_url, /^https:\/\/gis\.elpasotexas\.gov\//);
+  assert.match(record.official_record_id, /^\{[0-9A-F-]{36}\}$/);
+  assert.ok(record.sources.length >= 2);
+  assert.ok(record.sources.every((source) => source.checkedAt === "2026-08-20"));
+  assert.ok(!slugs.has(record.slug), `Duplicate El Paso slug: ${record.slug}`);
+  assert.ok(!globalIds.has(record.official_record_id), `Duplicate El Paso GlobalID: ${record.official_record_id}`);
+  slugs.add(record.slug);
+  globalIds.add(record.official_record_id);
+
+  const route = `/us/tx/el-paso/parks/${record.slug.replace(/^el-paso-/, "")}`;
+  assert.ok(!sitemap.includes(`<loc>https://www.auditmap.org${route}</loc>`), `${route} must remain unpublished`);
+}
+
+const memorial = intake.records.find((record) => record.name === "Memorial Park");
+assert.ok(memorial);
+assert.equal(memorial.source_dataset_reference.objectId, 63);
+assert.ok(!intake.records.some((record) => record.name === "Memorial Ballpark"));
+assert.ok(!intake.records.some((record) => record.name === "Memorial Senior Center"));
+
+assert.equal(ledger.summary.intakeRecords, 25);
+assert.equal(ledger.summary.needsLaunchGuide, 25);
+assert.equal(ledger.summary.generatedLocally, 0);
+assert.equal(ledger.summary.deployed, 0);
+assert.ok(ledger.records.every((record) => record.state === "needs-launch-guide"));
+
+const source = spatial.sources.find((entry) => entry.id === "el-paso-parks-feature-service");
+assert.ok(source, "Missing registered El Paso official source");
+assert.equal(source.licenseStatus, "publisher-terms-review-required");
+assert.ok(source.prohibitedUntilApproved.some((rule) => /centroid/.test(rule)));
+assert.ok(source.prohibitedUntilApproved.some((rule) => /polygon geometry/.test(rule)));
+
+const claim = claims.claims.find((entry) => entry.packetId === "research-completion-tx-el-paso-01");
+assert.ok(claim, "El Paso packet claim is missing");
+assert.ok(["claimed", "submitted"].includes(claim.status));
+assert.equal(claim.issueUrl, "https://github.com/Buildrbear/auditmap/issues/51");
+
+const packet = packets.packets.find((entry) => entry.id === "research-completion-tx-el-paso-01");
+assert.ok(packet, "Generated El Paso packet is missing");
+assert.equal(packet.count, 25);
+assert.ok(["claimed", "submitted"].includes(packet.status));
+assert.ok(packet.recordIds.includes("/us/tx/el-paso/parks/memorial-park"));
+
+const houstonMemorial = readJson("data/generated/national-coverage-registry.json").records
+  .find((record) => record.path === "/us/tx/houston/parks/memorial-park");
+assert.ok(houstonMemorial);
+assert.ok(!houstonMemorial.researchSources.some((sourceRecord) =>
+  sourceRecord.sourceId === "el-paso-public-parks-2026-08-20"
+));
+
+assert.ok(!fs.existsSync(path.join(root, "us/tx/el-paso")), "El Paso pages must not be generated by this inventory packet");
+
+console.log("El Paso parks catalogue-breadth verification passed.");

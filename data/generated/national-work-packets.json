@@ -2,18 +2,18 @@
   "schemaVersion": 1,
   "asOf": "2026-08-21",
   "summary": {
-    "knownDestinations": 3418,
+    "knownDestinations": 3445,
     "liveDestinationPages": 3382,
     "liveParentPages": 905,
     "liveSubsitePages": 2477,
-    "hopper": 36,
+    "hopper": 63,
     "generatedLocallyNotLive": 2,
-    "researchOnly": 28,
-    "blockedReview": 6,
+    "researchOnly": 51,
+    "blockedReview": 10,
     "productionMissingFromLocal": 0,
-    "recordsWithResearchHandoffs": 75,
-    "mappableDestinations": 2930,
-    "openReviewItems": 7
+    "recordsWithResearchHandoffs": 100,
+    "mappableDestinations": 2957,
+    "openReviewItems": 11
   },
   "packets": [
     {
@@ -356,6 +356,67 @@
       "count": 1,
       "recordIds": [
         "/us/nc/raleigh/parks/spring-forest-road-park"
+      ],
+      "acceptance": "Resolve the listed evidence or identity gaps and deliver a source-format, reviewable handoff; do not publish guesses."
+    },
+    {
+      "id": "research-completion-nc-wake-forest-01",
+      "type": "research-completion",
+      "state": "NC",
+      "citySlug": "wake-forest",
+      "status": "open",
+      "claim": null,
+      "count": 2,
+      "recordIds": [
+        "/us/nc/wake-forest/parks/forest-ridge-park",
+        "/us/nc/wake-forest/parks/horseshoe-farm-nature-preserve"
+      ],
+      "acceptance": "Resolve the listed evidence or identity gaps and deliver a source-format, reviewable handoff; do not publish guesses."
+    },
+    {
+      "id": "research-completion-tx-el-paso-01",
+      "type": "research-completion",
+      "state": "TX",
+      "citySlug": "el-paso",
+      "status": "claimed",
+      "claim": {
+        "packetId": "research-completion-tx-el-paso-01",
+        "assignee": "Buildrbear",
+        "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+        "issueUrl": "https://github.com/Buildrbear/auditmap/issues/51",
+        "claimedAt": "2026-08-20",
+        "expiresAt": "2026-08-27",
+        "lastUpdatedAt": "2026-08-20",
+        "status": "claimed",
+        "notes": "Exact 25-parent City of El Paso inventory packet claimed as breadth slot two. No visitor pages, City images, or polygon geometry will be published."
+      },
+      "count": 25,
+      "recordIds": [
+        "/us/tx/el-paso/parks/argal-park",
+        "/us/tx/el-paso/parks/blackie-chesher-park",
+        "/us/tx/el-paso/parks/chuck-heinrich-park",
+        "/us/tx/el-paso/parks/eastside-regional-park",
+        "/us/tx/el-paso/parks/eastwood-park",
+        "/us/tx/el-paso/parks/edgemere-linear-park",
+        "/us/tx/el-paso/parks/james-jim-crouch-park",
+        "/us/tx/el-paso/parks/joey-barraza-and-vino-memorial-park",
+        "/us/tx/el-paso/parks/lincoln-park",
+        "/us/tx/el-paso/parks/lionel-forti-park",
+        "/us/tx/el-paso/parks/marty-robbins-park",
+        "/us/tx/el-paso/parks/mary-frances-keisling-park",
+        "/us/tx/el-paso/parks/memorial-park",
+        "/us/tx/el-paso/parks/modesto-gomez-park",
+        "/us/tx/el-paso/parks/nations-tobin-park",
+        "/us/tx/el-paso/parks/pavo-real-park",
+        "/us/tx/el-paso/parks/pueblo-viejo-linear-park",
+        "/us/tx/el-paso/parks/ralph-t-cloud-park",
+        "/us/tx/el-paso/parks/ranchos-del-sol-park",
+        "/us/tx/el-paso/parks/richard-a-castro-eastside-sports-complex",
+        "/us/tx/el-paso/parks/salvador-rivas-jr-park",
+        "/us/tx/el-paso/parks/sue-young-park",
+        "/us/tx/el-paso/parks/tom-lea-lower-park",
+        "/us/tx/el-paso/parks/veterans-park",
+        "/us/tx/el-paso/parks/vista-del-valle-park"
       ],
       "acceptance": "Resolve the listed evidence or identity gaps and deliver a source-format, reviewable handoff; do not publish guesses."
     }

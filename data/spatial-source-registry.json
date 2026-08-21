@@ -332,6 +332,36 @@
       ],
       "termsUrl": "https://www.mesaaz.gov/Government/ADA-Policies-Disclaimer",
       "checkedAt": "2026-08-20"
+    },
+    {
+      "id": "el-paso-parks-feature-service",
+      "publisher": "City of El Paso Parks and Recreation Department and Streets and Maintenance Department",
+      "geography": "El Paso, Texas",
+      "serviceUrl": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+      "layers": [
+        {
+          "id": 0,
+          "name": "Parks",
+          "geometryRole": "official park identity, ownership and category classification, address, acreage, stable GlobalID, and approximate representative centroid"
+        }
+      ],
+      "spatialReference": "park polygons queried as EPSG:4326 representative centroids",
+      "authorityClass": "municipal-official",
+      "licenseStatus": "publisher-terms-review-required",
+      "approvedUses": [
+        "official-source verification",
+        "current parent identity and City ownership review",
+        "inventory selection and duplicate review",
+        "approximate representative-point provenance"
+      ],
+      "prohibitedUntilApproved": [
+        "bulk public redistribution of City park polygon geometry",
+        "treating a polygon centroid as a practical visitor entrance",
+        "assuming City website or GIS hosting grants image reuse rights",
+        "treating blank operating fields as proof of unrestricted access"
+      ],
+      "termsUrl": "https://www.elpasotexas.gov/disclaimer",
+      "checkedAt": "2026-08-20"
     }
   ]
 }

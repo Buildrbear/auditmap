@@ -244,8 +244,9 @@ function matchResearchRecord(record, index) {
     const exact = index.byExact.get(catalogKey(record, name));
     if (exact) return { place: exact, basis: name === record.name ? "exact" : "reviewed-alias" };
   }
-  const stateMatches = index.byStateName.get(stateNameKey(record)) || [];
-  if (stateMatches.length === 1) return { place: stateMatches[0], basis: "unique-state-name" };
+  const stateMatches = (index.byStateName.get(stateNameKey(record)) || [])
+    .filter((candidate) => normalize(candidate.city) === normalize(record.city));
+  if (stateMatches.length === 1) return { place: stateMatches[0], basis: "unique-city-name" };
   return null;
 }
 
