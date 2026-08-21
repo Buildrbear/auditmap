@@ -65,7 +65,10 @@
           "/us/md/edgemere/parks/north-point-state-park"
         ],
         "reviewQueue": [
-          "Keep the recorded official opening-time and visitor-center schedule conflicts unresolved until the operator reconciles them."
+          {
+            "issue": "Official North Point State Park opening times and visitor-center schedules conflict.",
+            "recommendation": "Keep both source-backed schedules unresolved until the operator reconciles them."
+          }
         ],
         "notes": "Parent-only North Point State Park guide is generated and preview-verified on the stacked campaign line; production presence remains the closing authority."
       },
@@ -145,7 +148,10 @@
         "lastUpdatedAt": "2026-08-20",
         "status": "claimed",
         "reviewQueue": [
-          "Resolve Oka T. Hester Park's 3615 Deutzia Street canonical address and 800 Ailanthus Street athletic-field entrance evidence."
+          {
+            "issue": "Oka T. Hester Park has conflicting 3615 Deutzia Street and 800 Ailanthus Street address roles.",
+            "recommendation": "Resolve the canonical park address and athletic-field entrance evidence before submission."
+          }
         ],
         "notes": "Connected Greensboro research-completion batch for Jimmie I. Barber Park and Oka T. Hester Park."
       },

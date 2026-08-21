@@ -61,6 +61,9 @@ packet open again; an `accepted` claim keeps the packet closed.
 
 Optional version-1 fields are `submissionUrl`, `pullRequestUrl`, `acceptedRecordIds`, `reviewQueue`,
 and `notes`. Adding a new required field or changing status meaning requires a new schema version.
+The executable refresh enforces the same closed field sets as the schema: accepted record IDs must be
+unique `/us/` paths inside the active packet, and every review-queue item must contain a non-empty
+`issue` and `recommendation` with an optional HTTPS `sourceUrl`.
 
 ## Daily cycle
 
