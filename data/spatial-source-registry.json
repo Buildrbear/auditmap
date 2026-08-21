@@ -1,0 +1,367 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-08-17",
+  "sources": [
+    {
+      "id": "tpl-parkserve-shareable-mapserver",
+      "publisher": "Trust for Public Land",
+      "geography": "United States urban places",
+      "serviceUrl": "https://server7.tplgis.org/arcgis7/rest/services/ParkServe/ParkServe_Shareable/MapServer",
+      "itemId": "e035bfb85920470d85ef22e108ef5103",
+      "layers": [
+        { "id": 0, "name": "Parks", "geometryRole": "candidate park polygons" },
+        { "id": 1, "name": "Service Areas", "geometryRole": "planning reference only" }
+      ],
+      "spatialReference": "EPSG:3857",
+      "authorityClass": "national-reference",
+      "licenseStatus": "restricted-review-required",
+      "approvedUses": ["aggregate coverage planning", "private gap identification"],
+      "prohibitedUntilApproved": ["bulk public import", "public redistribution", "modified public display"],
+      "termsUrl": "https://parkserve.tpl.org/downloads/ParkServe_Terms_of_Use_May_2024.pdf",
+      "checkedAt": "2026-08-17"
+    },
+    {
+      "id": "us-census-tigerweb-incorporated-places",
+      "publisher": "United States Census Bureau",
+      "geography": "United States",
+      "serviceUrl": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Places_CouSub_ConCity_SubMCD/MapServer/5",
+      "layers": [
+        { "id": 5, "name": "Incorporated Places", "geometryRole": "municipality coverage boundary" }
+      ],
+      "authorityClass": "federal-official",
+      "licenseStatus": "approved-public-domain-government-data",
+      "approvedUses": ["coverage grouping", "municipality boundary checks"],
+      "checkedAt": "2026-08-17"
+    },
+    {
+      "id": "mecklenburg-county-park-locations",
+      "publisher": "Mecklenburg County Park and Recreation",
+      "geography": "Mecklenburg County, North Carolina",
+      "serviceUrl": "https://meckags.mecklenburgcountync.gov/server/rest/services/ParkandRec/ParkLocations/FeatureServer/0",
+      "layers": [
+        { "id": 0, "name": "Park Locations", "geometryRole": "official park identity, location, and attachment reference" }
+      ],
+      "authorityClass": "county-official",
+      "licenseStatus": "publisher-terms-review-required",
+      "approvedUses": ["official-source verification", "coordinate provenance"],
+      "prohibitedUntilApproved": ["assuming attachments are reusable photographs"],
+      "checkedAt": "2026-08-17"
+    },
+    {
+      "id": "raleigh-dix-park-public-art",
+      "publisher": "City of Raleigh / Dorothea Dix Park",
+      "geography": "Dorothea Dix Park, Raleigh, North Carolina",
+      "serviceUrl": "https://services.arcgis.com/v400IkDOw1ad7Yad/arcgis/rest/services/Dorothea_Dix_Park_Public_Art/FeatureServer/0",
+      "layers": [
+        { "id": 0, "name": "Dorothea Dix Park Public Art", "geometryRole": "official artwork locations and attachment reference" }
+      ],
+      "authorityClass": "municipal-official",
+      "licenseStatus": "publisher-terms-review-required",
+      "approvedUses": ["subsite identity", "coordinate provenance"],
+      "prohibitedUntilApproved": ["assuming attachment reuse rights from hosting alone"],
+      "checkedAt": "2026-08-17"
+    },
+    {
+      "id": "greensboro-piedmont-discovery-parks",
+      "publisher": "City of Greensboro Parks and Recreation",
+      "geography": "Greensboro and Guilford County, North Carolina",
+      "serviceUrl": "https://gis.greensboro-nc.gov/arcgis/rest/services/ParksRec/PiedmontDiscovery_MS/MapServer",
+      "layers": [
+        {
+          "id": 0,
+          "name": "Park Facilities",
+          "geometryRole": "official facility identity, position, status, reservation, and accessibility attributes"
+        },
+        {
+          "id": 4,
+          "name": "Parks",
+          "geometryRole": "official park identity, boundary, address, reference point, ownership, and management attributes"
+        }
+      ],
+      "spatialReference": "EPSG:3857 with query projection to EPSG:4326",
+      "authorityClass": "municipal-official",
+      "licenseStatus": "publisher-terms-review-required",
+      "approvedUses": [
+        "official-source verification",
+        "parent and facility coordinate provenance",
+        "canonical and secondary entrance classification"
+      ],
+      "prohibitedUntilApproved": [
+        "bulk public redistribution",
+        "assuming GIS attributes grant image reuse rights"
+      ],
+      "checkedAt": "2026-08-20"
+    },
+    {
+      "id": "greensboro-address-points-near-me",
+      "publisher": "City of Greensboro GIS Division",
+      "geography": "Greensboro, North Carolina",
+      "serviceUrl": "https://gis.greensboro-nc.gov/arcgis/rest/services/GISDivision/GSONearMe/MapServer/0",
+      "layers": [
+        {
+          "id": 0,
+          "name": "GSONearMe Points",
+          "geometryRole": "official address-point verification for practical public arrival addresses"
+        }
+      ],
+      "spatialReference": "EPSG:4326",
+      "authorityClass": "municipal-official",
+      "licenseStatus": "publisher-terms-review-required",
+      "approvedUses": [
+        "official address verification",
+        "coordinate provenance"
+      ],
+      "prohibitedUntilApproved": [
+        "bulk public redistribution"
+      ],
+      "checkedAt": "2026-08-20"
+    },
+    {
+      "id": "asheville-location-directory",
+      "publisher": "City of Asheville",
+      "geography": "Asheville, North Carolina",
+      "serviceUrl": "https://www.ashevillenc.gov/wp-json/wp/v2/locations",
+      "layers": [
+        {
+          "id": "location",
+          "name": "Published municipal location records",
+          "geometryRole": "current official visitor address, location pin, operating-hours metadata, and parent identity"
+        }
+      ],
+      "spatialReference": "EPSG:4326",
+      "authorityClass": "municipal-official",
+      "licenseStatus": "publisher-terms-review-required",
+      "approvedUses": [
+        "official place identity",
+        "official visitor coordinate provenance",
+        "source freshness review"
+      ],
+      "prohibitedUntilApproved": [
+        "bulk public redistribution",
+        "assuming embedded media has reuse permission"
+      ],
+      "checkedAt": "2026-08-20"
+    },
+    {
+      "id": "asheville-park-info-points",
+      "publisher": "City of Asheville",
+      "geography": "Asheville, North Carolina",
+      "serviceUrl": "https://services.arcgis.com/aJ16ENn1AaqdFlqx/ArcGIS/rest/services/Park_Info_Points/FeatureServer/0",
+      "itemId": "3454445ed93f49a98b6694cc9b6f4ec3",
+      "layers": [
+        {
+          "id": 0,
+          "name": "Parks Info View",
+          "geometryRole": "official park identity, address, facility relationship, and legacy reference point"
+        }
+      ],
+      "spatialReference": "EPSG:3857 with query projection to EPSG:4326",
+      "authorityClass": "municipal-official",
+      "licenseStatus": "publisher-terms-review-required",
+      "approvedUses": [
+        "official-source verification",
+        "parent and facility relationship review",
+        "coordinate cross-checking"
+      ],
+      "prohibitedUntilApproved": [
+        "bulk public redistribution",
+        "assuming GIS image links grant reuse rights"
+      ],
+      "checkedAt": "2026-08-20"
+    },
+    {
+      "id": "concord-parks-directory-map-links",
+      "publisher": "City of Concord Parks & Recreation",
+      "geography": "Concord, North Carolina",
+      "serviceUrl": "https://concordnc.gov/Departments/Parks-Recreation/Parks",
+      "layers": [
+        {
+          "id": "park-directory",
+          "name": "Published municipal park directory and address map links",
+          "geometryRole": "official visitor address, map-pin coordinate provenance, parent identity, and legacy amenity reference"
+        }
+      ],
+      "spatialReference": "EPSG:4326 coordinates encoded in the official outbound address-map link",
+      "authorityClass": "municipal-official",
+      "licenseStatus": "publisher-terms-review-required",
+      "approvedUses": [
+        "official place identity",
+        "official visitor-address verification",
+        "coordinate provenance"
+      ],
+      "prohibitedUntilApproved": [
+        "bulk public redistribution",
+        "treating pre-renovation amenity text as a current as-built inventory",
+        "assuming site images have reuse permission"
+      ],
+      "checkedAt": "2026-08-20"
+    },
+    {
+      "id": "fayetteville-park-points-and-boundaries",
+      "publisher": "City of Fayetteville GIS",
+      "geography": "Fayetteville and Cumberland County, North Carolina",
+      "serviceUrl": "https://gismaps.ci.fayetteville.nc.us/opendata/rest/services/ParksRec",
+      "layers": [
+        {
+          "id": "ParkPoints/MapServer/0",
+          "name": "Park Points",
+          "geometryRole": "official park identity, visitor address, reference point, type, acreage, and amenity attributes"
+        },
+        {
+          "id": "Parks/MapServer/0",
+          "name": "Parks",
+          "geometryRole": "official park boundary, parcel identity, ownership, acreage, and property-situs context"
+        }
+      ],
+      "spatialReference": "North Carolina State Plane EPSG:2264 with query projection to EPSG:4326",
+      "authorityClass": "municipal-official",
+      "licenseStatus": "publisher-terms-review-required",
+      "approvedUses": [
+        "official-source verification",
+        "parent coordinate provenance",
+        "visitor-address and parcel-address reconciliation"
+      ],
+      "prohibitedUntilApproved": [
+        "bulk public redistribution",
+        "treating undated GIS amenities as current operating-status evidence",
+        "assuming GIS hosting grants image reuse rights"
+      ],
+      "checkedAt": "2026-08-20"
+    },
+    {
+      "id": "raleigh-park-access-points",
+      "publisher": "City of Raleigh Parks, Recreation and Cultural Resources",
+      "geography": "Raleigh, North Carolina",
+      "serviceUrl": "https://services.arcgis.com/v400IkDOw1ad7Yad/arcgis/rest/services/PRCR_Park_Access_Points/FeatureServer",
+      "itemId": "f8e7dd082f584629885e2ae0715e4d24",
+      "layers": [
+        {
+          "id": 0,
+          "name": "Park Access Points",
+          "geometryRole": "official existing pedestrian and vehicle park entrances used for visitor navigation and park service-area analysis"
+        }
+      ],
+      "spatialReference": "service coordinates queried as EPSG:4326",
+      "authorityClass": "municipal-official",
+      "licenseStatus": "publisher-terms-review-required",
+      "approvedUses": [
+        "official-source verification",
+        "parent entrance-coordinate provenance",
+        "pedestrian-versus-vehicle entrance classification"
+      ],
+      "prohibitedUntilApproved": [
+        "bulk public redistribution",
+        "treating access-point presence as proof of every facility's operating status",
+        "assuming GIS or City-site hosting grants image reuse rights"
+      ],
+      "checkedAt": "2026-08-20"
+    },
+    {
+      "id": "boone-facilities-structures-and-parcels",
+      "publisher": "Town of Boone",
+      "geography": "Boone and the Boone fire district, North Carolina",
+      "serviceUrl": "https://gisviewer.boonenc.gov/arcgis/rest/services/gisviewer",
+      "layers": [
+        {
+          "id": "facility-directory",
+          "name": "Town facilities directory embedded map records",
+          "geometryRole": "official facility identity, address, relationship, and visitor map-pin coordinates"
+        },
+        {
+          "id": "MasterV2/MapServer/16",
+          "name": "Structure Address Labels",
+          "geometryRole": "municipal structure footprints, named buildings, and current address cross-checks"
+        },
+        {
+          "id": "Parcels/MapServer/1",
+          "name": "Watauga County Parcel Boundaries",
+          "geometryRole": "parcel ownership, situs, land-use, and facility-pin intersection context"
+        }
+      ],
+      "spatialReference": "North Carolina State Plane EPSG:2264 with queries projected to EPSG:4326; facility-directory pins publish EPSG:4326 coordinates",
+      "authorityClass": "municipal-official",
+      "licenseStatus": "publisher-terms-review-required",
+      "approvedUses": [
+        "official-source verification",
+        "parent coordinate provenance",
+        "facility relationship and address-conflict review"
+      ],
+      "prohibitedUntilApproved": [
+        "bulk public redistribution",
+        "representing parcel ownership as public access permission",
+        "assuming Town site or GIS hosting grants image reuse rights"
+      ],
+      "checkedAt": "2026-08-20"
+    },
+    {
+      "id": "mesa-facility-directory-data-and-park-boundaries",
+      "publisher": "City of Mesa Parks, Recreation and Community Facilities",
+      "geography": "Mesa, Arizona",
+      "serviceUrl": "https://www.mesaaz.gov/Activities-Culture/Parks-Recreation-and-Community-Facilities/Parks-Facilities",
+      "layers": [
+        {
+          "id": "facility-directory",
+          "name": "Current Parks and Facilities directory",
+          "geometryRole": "official current facility identity, visitor address, published map pin, hours metadata, and former-name reconciliation"
+        },
+        {
+          "id": "data.mesaaz.gov/djym-pkpp",
+          "name": "Parks Locations and Amenities",
+          "geometryRole": "stable facility IDs and annual park-location cross-checks"
+        },
+        {
+          "id": "ParkViewer/MapServer/0",
+          "name": "City of Mesa Park Boundary",
+          "geometryRole": "official park-boundary verification used to detect map-pin conflicts without redistributing geometry"
+        }
+      ],
+      "spatialReference": "facility pages and open-data points publish EPSG:4326; park boundaries are queried as EPSG:4326",
+      "authorityClass": "municipal-official",
+      "licenseStatus": "noncommercial-site-license-and-map-redistribution-restricted",
+      "approvedUses": [
+        "official-source verification",
+        "current parent identity and address review",
+        "coordinate conflict detection",
+        "stable municipal facility ID cross-checking"
+      ],
+      "prohibitedUntilApproved": [
+        "bulk public redistribution of City datasets or map geometry",
+        "commercial reuse of City website images or other CC BY-NC-SA content",
+        "treating annual open-data amenities as current operating facts",
+        "silently replacing a conflicting current facility-page pin"
+      ],
+      "termsUrl": "https://www.mesaaz.gov/Government/ADA-Policies-Disclaimer",
+      "checkedAt": "2026-08-20"
+    },
+    {
+      "id": "el-paso-parks-feature-service",
+      "publisher": "City of El Paso Parks and Recreation Department and Streets and Maintenance Department",
+      "geography": "El Paso, Texas",
+      "serviceUrl": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+      "layers": [
+        {
+          "id": 0,
+          "name": "Parks",
+          "geometryRole": "official park identity, ownership and category classification, address, acreage, stable GlobalID, and approximate representative centroid"
+        }
+      ],
+      "spatialReference": "park polygons queried as EPSG:4326 representative centroids",
+      "authorityClass": "municipal-official",
+      "licenseStatus": "publisher-terms-review-required",
+      "approvedUses": [
+        "official-source verification",
+        "current parent identity and City ownership review",
+        "inventory selection and duplicate review",
+        "approximate representative-point provenance"
+      ],
+      "prohibitedUntilApproved": [
+        "bulk public redistribution of City park polygon geometry",
+        "treating a polygon centroid as a practical visitor entrance",
+        "assuming City website or GIS hosting grants image reuse rights",
+        "treating blank operating fields as proof of unrestricted access"
+      ],
+      "termsUrl": "https://www.elpasotexas.gov/disclaimer",
+      "checkedAt": "2026-08-20"
+    }
+  ]
+}

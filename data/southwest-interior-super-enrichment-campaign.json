@@ -1,0 +1,119 @@
+{
+  "campaign": "Southwest interior city connector",
+  "checkedAt": "2026-08-08",
+  "releaseStandard": "Three to four licensed destination-specific photos, preserved official visitor answers, full street addresses, and only named subsites with reviewed coordinates plus destination-specific photography.",
+  "places": [
+    {
+      "id": "launch-nm-albuquerque-balloon-fiesta-park",
+      "name": "Balloon Fiesta Park",
+      "city": "Albuquerque",
+      "state": "NM",
+      "citySlug": "albuquerque-nm",
+      "operator": "City of Albuquerque Parks and Recreation",
+      "source": "https://www.cabq.gov/parksandrecreation/parks/balloon-fiesta-park/accessing-balloon-fiesta-park",
+      "featureResearchRadiusMeters": 2500,
+      "imageQueries": ["Balloon Fiesta Park Albuquerque", "Albuquerque Balloon Fiesta field", "Balloon Fiesta Park museum", "Balloon Fiesta Park trails"],
+      "subsites": ["North Launch Field", "North Diversion Channel Trail", "Anderson Abruzzo Albuquerque International Balloon Museum", "Sid Cutter Pilots Pavilion", "Golf Training Center"]
+    },
+    {
+      "id": "launch-nm-albuquerque-elena-gallegos-open-space",
+      "name": "Elena Gallegos Open Space",
+      "city": "Albuquerque",
+      "state": "NM",
+      "citySlug": "albuquerque-nm",
+      "operator": "City of Albuquerque Open Space Division",
+      "source": "https://www.cabq.gov/parksandrecreation/open-space/lands/elena-gallegos-open-space",
+      "featureResearchRadiusMeters": 3000,
+      "imageQueries": ["Elena Gallegos Open Space", "Elena Gallegos picnic area", "Pino Trail Albuquerque", "Elena Gallegos Sandia Mountains"],
+      "subsites": ["Pino Trailhead", "Cottonwood Springs Trail", "Kiwanis Reservation Area", "Elena Gallegos Picnic Area", "Albert G. Simms Park Overlook"]
+    },
+    {
+      "id": "launch-nm-albuquerque-tingley-beach-and-bosque",
+      "name": "Tingley Beach and Bosque",
+      "city": "Albuquerque",
+      "state": "NM",
+      "citySlug": "albuquerque-nm",
+      "operator": "ABQ BioPark",
+      "source": "https://www.cabq.gov/artsculture/biopark/tingley/tingley-beach/",
+      "featureResearchRadiusMeters": 2200,
+      "imageQueries": ["Tingley Beach Albuquerque", "Tingley Beach fishing ponds", "Tingley Beach bosque trail", "Tingley Beach model boat pond"],
+      "subsites": ["Central Pond", "Children's Pond", "Model Boat Pond", "Bosque Trail", "Tingley Beach Station"]
+    },
+    {
+      "id": "launch-ok-oklahoma-city-scissortail-park",
+      "name": "Scissortail Park",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "citySlug": "oklahoma-city-ok",
+      "operator": "Scissortail Park Foundation",
+      "source": "https://www.scissortailpark.org/faqs/",
+      "minimumImages": 3,
+      "featureResearchRadiusMeters": 1800,
+      "imageQueries": ["Scissortail Park Oklahoma City", "Scissortail Park playground", "Scissortail Park lake", "Scissortail Park bridge"],
+      "subsites": ["Scissortail Lake", "Children's Playground", "Sprayground", "Skydance Bridge", "Love's Travel Stops Stage and Great Lawn", "Sports Pavilion", "Dog Park"]
+    },
+    {
+      "id": "launch-ok-oklahoma-city-myriad-botanical-gardens",
+      "name": "Myriad Botanical Gardens",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "citySlug": "oklahoma-city-ok",
+      "operator": "Myriad Botanical Gardens",
+      "source": "https://myriadgardens.org/visit-us/",
+      "featureResearchRadiusMeters": 1200,
+      "imageQueries": ["Myriad Botanical Gardens Oklahoma City", "Crystal Bridge Conservatory", "Thunder Fountain Myriad Gardens", "Myriad Gardens playground"],
+      "subsites": ["Inasmuch Foundation Crystal Bridge Conservatory", "Children's Garden", "Water Stage", "Thunder Fountain", "Mo's Carousel", "Great Lawn and Bandshell", "Myriad Gardens Dog Park"]
+    },
+    {
+      "id": "launch-ok-oklahoma-city-lake-hefner-park",
+      "name": "Lake Hefner Park",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "citySlug": "oklahoma-city-ok",
+      "operator": "Oklahoma City Parks and Recreation",
+      "source": "https://www.okc.gov/Community-Recreation/OKC-Parks/Lakes-Camping",
+      "featureResearchRadiusMeters": 4000,
+      "imageQueries": ["Lake Hefner Park Oklahoma City", "Lake Hefner lighthouse", "Lake Hefner trail", "Lake Hefner playground"],
+      "subsites": ["Lake Hefner Lighthouse", "Lake Hefner Trail", "Stars and Stripes Park", "Lake Hefner Marina", "Hobie Point", "Bluff Creek Park"]
+    },
+    {
+      "id": "launch-tx-fort-worth-trinity-park",
+      "name": "Trinity Park",
+      "city": "Fort Worth",
+      "state": "TX",
+      "citySlug": "fort-worth-tx",
+      "operator": "Fort Worth Park and Recreation Department",
+      "source": "https://www.fortworthtexas.gov/departments/parks/parks-and-trails/trinity-park",
+      "minimumImages": 3,
+      "featureResearchRadiusMeters": 2600,
+      "imageQueries": ["Trinity Park Fort Worth", "Dream Park Fort Worth", "Forest Park Miniature Railroad", "Trinity Trails Fort Worth park"],
+      "subsites": ["Dream Park", "Forest Park Miniature Railroad", "Trinity Trails", "Duck Pond", "Trinity Park Playground", "Shelter House"]
+    },
+    {
+      "id": "launch-tx-fort-worth-gateway-park",
+      "name": "Gateway Park",
+      "city": "Fort Worth",
+      "state": "TX",
+      "citySlug": "fort-worth-tx",
+      "operator": "Fort Worth Park and Recreation Department",
+      "source": "https://www.fortworthtexas.gov/departments/parks/parks-and-trails/gateway-park",
+      "deferRelease": true,
+      "deferReason": "Only one reusable destination-specific photograph was found. Hold publication until three current licensed views can represent the park, trails, sports areas, or Fort Woof.",
+      "featureResearchRadiusMeters": 3200,
+      "imageQueries": ["Gateway Park Fort Worth", "Fort Woof Dog Park", "Gateway Park mountain bike trails", "Gateway Park Fort Worth sports complex"],
+      "subsites": ["Fort Woof Dog Park", "Gateway Park Mountain Bike Trail", "Gateway Ballfield Complex", "Gateway Park Soccer Complex", "Trinity River Trail"]
+    },
+    {
+      "id": "launch-tx-fort-worth-fort-worth-water-gardens",
+      "name": "Fort Worth Water Gardens",
+      "city": "Fort Worth",
+      "state": "TX",
+      "citySlug": "fort-worth-tx",
+      "operator": "Fort Worth Park and Recreation Department",
+      "source": "https://www.fortworthtexas.gov/departments/parks/parks-and-trails/water-gardens",
+      "featureResearchRadiusMeters": 900,
+      "imageQueries": ["Fort Worth Water Gardens", "Fort Worth Water Gardens active pool", "Fort Worth Water Gardens quiet pool", "Fort Worth Water Gardens aerating pool"],
+      "subsites": ["Active Pool", "Quiet Pool", "Aerating Pool", "Mountain", "Water Gardens Plaza"]
+    }
+  ]
+}

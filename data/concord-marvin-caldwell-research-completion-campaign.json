@@ -1,0 +1,31 @@
+{
+  "campaign": "Concord Marvin Caldwell Park research completion",
+  "packetId": "research-completion-nc-concord-01",
+  "checkedAt": "2026-08-20",
+  "contributionTier": "inventory",
+  "releaseStandard": "Resolve the parent identity, current reopening status, coordinate, source freshness, renovation-evidence boundaries, and image-rights questions in source format. Do not publish a launch guide until representative reusable media and the complete current visitor-answer set clear a separate assignment.",
+  "places": [
+    {
+      "id": "research-nc-concord-marvin-caldwell-park",
+      "recordSlug": "concord-marvin-caldwell-park",
+      "name": "Marvin Caldwell Park",
+      "alternateNames": [
+        "Caldwell Park"
+      ],
+      "city": "Concord",
+      "state": "NC",
+      "operator": "City of Concord Parks & Recreation",
+      "source": "https://concordnc.gov/Departments/Parks-Recreation/News-Updates/ID/450/MARVIN-CALDWELL-PARK-NOW-OPEN",
+      "deferRelease": true,
+      "photoGateStatus": "deferred-no-representative-reusable-parent-set",
+      "minimumImages": 4,
+      "imageQueries": [
+        "Marvin Caldwell Park Concord North Carolina",
+        "Caldwell Park Concord North Carolina",
+        "Marvin Caldwell Park splash pad",
+        "Marvin Caldwell Park playground"
+      ],
+      "subsites": []
+    }
+  ]
+}

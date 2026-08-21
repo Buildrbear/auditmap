@@ -1,0 +1,48 @@
+{
+  "checkedAt": "2026-08-11",
+  "places": {
+    "launch-in-indianapolis-eagle-creek-park": {
+      "eagle-creek-ornithology-center": {
+        "latitude": 39.874075,
+        "longitude": -86.296358,
+        "coordinateSource": "https://commons.wikimedia.org/wiki/File:Eagle_Creek_Park_nature_center.jpg",
+        "positionQuality": "Exact camera geotag for the photographed Ornithology Center exterior, corroborated by the official 6515 Delong Road facility page"
+      }
+    },
+    "launch-in-indianapolis-monon-trail": {},
+    "launch-in-indianapolis-garfield-park": {
+      "garfield-park-conservatory": {
+        "latitude": 39.7321507,
+        "longitude": -86.1413474,
+        "coordinateSource": "https://www.openstreetmap.org/node/2713449263",
+        "positionQuality": "Exact reviewed OpenStreetMap point for the named conservatory, corroborated by the official 2505 Conservatory Drive facility page"
+      },
+      "sunken-garden": {
+        "latitude": 39.7321073,
+        "longitude": -86.1425088,
+        "coordinateSource": "https://www.openstreetmap.org/node/2713449430",
+        "positionQuality": "Exact reviewed OpenStreetMap point for the named Sunken Garden, corroborated by destination-matched Commons camera geotags"
+      },
+      "garfield-park-arts-center": {
+        "latitude": 39.7326771,
+        "longitude": -86.1465491,
+        "coordinateSource": "https://www.openstreetmap.org/way/238121255",
+        "positionQuality": "Reviewed OpenStreetMap building centroid for the Arts Center at its official 2432 Conservatory Drive address"
+      }
+    },
+    "launch-in-indianapolis-holliday-park": {
+      "holliday-park-ruins": {
+        "latitude": 39.8709124,
+        "longitude": -86.1633599,
+        "coordinateSource": "https://www.openstreetmap.org/node/2898348753",
+        "positionQuality": "Exact reviewed OpenStreetMap point tagged as the Holliday Park Ruins, corroborated by the operator-partner directions"
+      },
+      "holliday-park-nature-center": {
+        "latitude": 39.8715321,
+        "longitude": -86.1611839,
+        "coordinateSource": "https://www.openstreetmap.org/way/286194949",
+        "positionQuality": "Reviewed OpenStreetMap building centroid for the Nature Center at the official 6363 Spring Mill Road address"
+      }
+    }
+  }
+}

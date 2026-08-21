@@ -1,0 +1,4552 @@
+{
+  "campaign": "Upstate New York corridor",
+  "checkedAt": "2026-08-08",
+  "places": {
+    "launch-ny-buffalo-delaware-park": {
+      "name": "Delaware Park",
+      "boundarySource": "https://www.openstreetmap.org/relation/19379279",
+      "candidates": [
+        {
+          "name": "Delaware Park Japanese Gardens",
+          "latitude": 42.9352103,
+          "longitude": -78.8751269,
+          "osmType": "node",
+          "osmId": 256127867,
+          "sourceUrl": "https://www.openstreetmap.org/node/256127867",
+          "tags": {
+            "garden:style": "japanese",
+            "leisure": "garden",
+            "name": "Delaware Park Japanese Gardens",
+            "tourism": "attraction"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Shakespeare Hill",
+          "latitude": 42.9316927,
+          "longitude": -78.8720537,
+          "osmType": "node",
+          "osmId": 1850646557,
+          "sourceUrl": "https://www.openstreetmap.org/node/1850646557",
+          "tags": {
+            "name": "Shakespeare Hill",
+            "tourism": "viewpoint"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Young Abraham Lincoln",
+          "latitude": 42.9317258,
+          "longitude": -78.8737662,
+          "osmType": "node",
+          "osmId": 1850646563,
+          "sourceUrl": "https://www.openstreetmap.org/node/1850646563",
+          "tags": {
+            "artwork_subject": "Abraham Lincoln",
+            "artwork_type": "statue",
+            "historic": "memorial",
+            "inscription": "LINCOLN \"FOR HIM HER OLD WORLD MOULDS ASIDE SHE THREW, AND CHOOSING SWEET CLAY FROM THE BREAST OF THE UNEXHAUSTED WEST, WITH STUFF UNTAINTED SHAPED A HERO NEW.\" LOWELL",
+            "material": "bronze",
+            "memorial": "statue",
+            "name": "Young Abraham Lincoln",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Amphibian and Reptile House",
+          "latitude": 42.9397168,
+          "longitude": -78.8538756,
+          "osmType": "node",
+          "osmId": 4208090731,
+          "sourceUrl": "https://www.openstreetmap.org/node/4208090731",
+          "tags": {
+            "name": "Amphibian and Reptile House",
+            "tourism": "attraction"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Gorilla",
+          "latitude": 42.9389628,
+          "longitude": -78.854449,
+          "osmType": "node",
+          "osmId": 4208090732,
+          "sourceUrl": "https://www.openstreetmap.org/node/4208090732",
+          "tags": {
+            "name": "Gorilla",
+            "tourism": "attraction"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Bison",
+          "latitude": 42.939078,
+          "longitude": -78.8552376,
+          "osmType": "node",
+          "osmId": 4208090733,
+          "sourceUrl": "https://www.openstreetmap.org/node/4208090733",
+          "tags": {
+            "name": "Bison",
+            "tourism": "attraction"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Gemsbok",
+          "latitude": 42.9400934,
+          "longitude": -78.8546852,
+          "osmType": "node",
+          "osmId": 4208090734,
+          "sourceUrl": "https://www.openstreetmap.org/node/4208090734",
+          "tags": {
+            "name": "Gemsbok",
+            "tourism": "attraction"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Zebra",
+          "latitude": 42.9400562,
+          "longitude": -78.8538993,
+          "osmType": "node",
+          "osmId": 4208090735,
+          "sourceUrl": "https://www.openstreetmap.org/node/4208090735",
+          "tags": {
+            "name": "Zebra",
+            "tourism": "attraction"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Roan Antelope",
+          "latitude": 42.9399263,
+          "longitude": -78.8531175,
+          "osmType": "node",
+          "osmId": 4208090736,
+          "sourceUrl": "https://www.openstreetmap.org/node/4208090736",
+          "tags": {
+            "name": "Roan Antelope",
+            "tourism": "attraction"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Addax",
+          "latitude": 42.939883,
+          "longitude": -78.8528175,
+          "osmType": "node",
+          "osmId": 4208090737,
+          "sourceUrl": "https://www.openstreetmap.org/node/4208090737",
+          "tags": {
+            "name": "Addax",
+            "tourism": "attraction"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Vanishing Animals South",
+          "latitude": 42.9392304,
+          "longitude": -78.8550174,
+          "osmType": "node",
+          "osmId": 4208090738,
+          "sourceUrl": "https://www.openstreetmap.org/node/4208090738",
+          "tags": {
+            "name": "Vanishing Animals South",
+            "tourism": "attraction"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Vanishing Animals North",
+          "latitude": 42.939913,
+          "longitude": -78.8544234,
+          "osmType": "node",
+          "osmId": 4208090739,
+          "sourceUrl": "https://www.openstreetmap.org/node/4208090739",
+          "tags": {
+            "name": "Vanishing Animals North",
+            "tourism": "attraction"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Michelangelo's David",
+          "latitude": 42.9339949,
+          "longitude": -78.873189,
+          "osmType": "node",
+          "osmId": 5462973145,
+          "sourceUrl": "https://www.openstreetmap.org/node/5462973145",
+          "tags": {
+            "artist_name": "Angelus & Sons",
+            "artwork_type": "statue",
+            "description": "Copy of Michelangelo's David in Florence, Italy. Purchased at the Paris Exposition in 1900 and gifted to the City of Buffalo Historical Society by Andrew Langdon.",
+            "material": "bronze",
+            "name": "Michelangelo's David",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "The Terrace at Delaware Park",
+          "latitude": 42.932215,
+          "longitude": -78.8731697,
+          "osmType": "node",
+          "osmId": 7464391366,
+          "sourceUrl": "https://www.openstreetmap.org/node/7464391366",
+          "tags": {
+            "amenity": "restaurant",
+            "name": "The Terrace at Delaware Park",
+            "website": "https://www.terracebuffalo.com/"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "The Bone Zone",
+          "latitude": 42.9390937,
+          "longitude": -78.8535387,
+          "osmType": "node",
+          "osmId": 8400639416,
+          "sourceUrl": "https://www.openstreetmap.org/node/8400639416",
+          "tags": {
+            "name": "The Bone Zone",
+            "tourism": "attraction"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Sea Lion Cove",
+          "latitude": 42.9376184,
+          "longitude": -78.8520201,
+          "osmType": "node",
+          "osmId": 8400681413,
+          "sourceUrl": "https://www.openstreetmap.org/node/8400681413",
+          "tags": {
+            "name": "Sea Lion Cove",
+            "tourism": "attraction"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Buffalo Zoo",
+          "latitude": 42.9371737,
+          "longitude": -78.8514177,
+          "osmType": "node",
+          "osmId": 8402393451,
+          "sourceUrl": "https://www.openstreetmap.org/node/8402393451",
+          "tags": {
+            "board_type": "welcome_sign",
+            "information": "board",
+            "name": "Buffalo Zoo",
+            "tourism": "information"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Indian Hunter",
+          "latitude": 42.9323944,
+          "longitude": -78.8551761,
+          "osmType": "node",
+          "osmId": 9868383388,
+          "sourceUrl": "https://www.openstreetmap.org/node/9868383388",
+          "tags": {
+            "artwork_type": "statue",
+            "name": "Indian Hunter",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Lincoln the Emancipator",
+          "latitude": 42.9352825,
+          "longitude": -78.8761187,
+          "osmType": "node",
+          "osmId": 11011106789,
+          "sourceUrl": "https://www.openstreetmap.org/node/11011106789",
+          "tags": {
+            "artist_name": "Charles H. Niehaus",
+            "artwork_type": "statue",
+            "material": "bronze",
+            "name": "Lincoln the Emancipator",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Mozart in Delaware Park",
+          "latitude": 42.9345161,
+          "longitude": -78.8736642,
+          "osmType": "node",
+          "osmId": 11011106790,
+          "sourceUrl": "https://www.openstreetmap.org/node/11011106790",
+          "tags": {
+            "artwork_type": "statue",
+            "material": "bronze",
+            "name": "Mozart in Delaware Park",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Spirit of Womanhood",
+          "latitude": 42.933871,
+          "longitude": -78.8684781,
+          "osmType": "node",
+          "osmId": 11011106791,
+          "sourceUrl": "https://www.openstreetmap.org/node/11011106791",
+          "tags": {
+            "artist_name": "Larry W. Griffis Jr.",
+            "artwork_type": "statue",
+            "material": "bronze",
+            "name": "Spirit of Womanhood",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "junebug_buffalo",
+          "latitude": 42.9306061,
+          "longitude": -78.8702536,
+          "osmType": "node",
+          "osmId": 11100290558,
+          "sourceUrl": "https://www.openstreetmap.org/node/11100290558",
+          "tags": {
+            "amenity": "place_of_worship",
+            "name": "junebug_buffalo",
+            "name:en": "junebug_buffalo"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Delaware Park",
+          "latitude": 42.9327369,
+          "longitude": -78.8659494,
+          "osmType": "node",
+          "osmId": 11892595167,
+          "sourceUrl": "https://www.openstreetmap.org/node/11892595167",
+          "tags": {
+            "description": "Plaque engraved with an image depicting the historic view from this location and a description of the Buffalo Olmsted park system.",
+            "direction": "45",
+            "historic": "memorial",
+            "inscription": "[image] Historic View of Southern Shore of Delaware Park Lake and Calvert Vaux's \"Spirehead\" Gazebo, Circa 1890\n\nDelaware Park was designed by Frederick Law Olmsted and Calvert Vaux as the principal public park within an overall system of parks ...",
+            "material": "metal",
+            "memorial": "plaque",
+            "name": "Delaware Park",
+            "subject:wikidata": "Q5253332",
+            "subject:wikipedia": "en:Delaware Park–Front Park System"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Karma",
+          "latitude": 42.9324533,
+          "longitude": -78.8752527,
+          "osmType": "node",
+          "osmId": 11899561786,
+          "sourceUrl": "https://www.openstreetmap.org/node/11899561786",
+          "tags": {
+            "artist:wikidata": "Q3033213",
+            "artist:wikipedia": "en:Do_Ho_Suh",
+            "artist_name": "Do Ho Suh",
+            "artwork_type": "sculpture",
+            "name": "Karma",
+            "start_date": "2010",
+            "tourism": "artwork",
+            "website": "https://buffaloakg.org/artworks/201015-karma"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Slice",
+          "latitude": 42.9384359,
+          "longitude": -78.8541916,
+          "osmType": "node",
+          "osmId": 12650579720,
+          "sourceUrl": "https://www.openstreetmap.org/node/12650579720",
+          "tags": {
+            "amenity": "fast_food",
+            "cuisine": "pizza",
+            "name": "Slice"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Wild Burger",
+          "latitude": 42.9384295,
+          "longitude": -78.8540108,
+          "osmType": "node",
+          "osmId": 12650579734,
+          "sourceUrl": "https://www.openstreetmap.org/node/12650579734",
+          "tags": {
+            "amenity": "fast_food",
+            "cuisine": "burger",
+            "name": "Wild Burger"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Eight Caryatid Figures",
+          "latitude": 42.9321773,
+          "longitude": -78.8753453,
+          "osmType": "node",
+          "osmId": 12877681149,
+          "sourceUrl": "https://www.openstreetmap.org/node/12877681149",
+          "tags": {
+            "artwork_type": "statue",
+            "name": "Eight Caryatid Figures",
+            "start_date": "1906",
+            "tourism": "artwork",
+            "website": "https://buffaloakg.org/artworks/1933681-8-eight-caryatid-figures"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Laura",
+          "latitude": 42.9328321,
+          "longitude": -78.8756172,
+          "osmType": "node",
+          "osmId": 12877681151,
+          "sourceUrl": "https://www.openstreetmap.org/node/12877681151",
+          "tags": {
+            "artist:wikidata": "Q1396516",
+            "artist:wikipedia": "en:Jaume Plensa",
+            "artist_name": "Jaume Plensa",
+            "artwork_type": "sculpture",
+            "name": "Laura",
+            "start_date": "2012",
+            "tourism": "artwork",
+            "website": "https://buffaloakg.org/artworks/201226-laura"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Monochrome I, Built to Live Anywhere, at Home Here",
+          "latitude": 42.9322027,
+          "longitude": -78.8750097,
+          "osmType": "node",
+          "osmId": 12877681152,
+          "sourceUrl": "https://www.openstreetmap.org/node/12877681152",
+          "tags": {
+            "artist:wikidata": "Q2236424",
+            "artist:wikipedia": "en:Nancy Rubins",
+            "artist_name": "Nancy Rubins",
+            "artwork_type": "sculpture",
+            "name": "Monochrome I, Built to Live Anywhere, at Home Here",
+            "start_date": "2010",
+            "tourism": "artwork",
+            "website": "https://buffaloakg.org/artworks/201038-monochrome-i-built-live-anywhere-home-here"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Cornelia",
+          "latitude": 42.9318143,
+          "longitude": -78.8756415,
+          "osmType": "node",
+          "osmId": 12979083625,
+          "sourceUrl": "https://www.openstreetmap.org/node/12979083625",
+          "tags": {
+            "amenity": "restaurant",
+            "name": "Cornelia"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "The Rock Monument of Buffalo",
+          "latitude": 42.9327148,
+          "longitude": -78.874952,
+          "osmType": "node",
+          "osmId": 12979083646,
+          "sourceUrl": "https://www.openstreetmap.org/node/12979083646",
+          "tags": {
+            "artist:wikidata": "Q2520789",
+            "artist_name": "Alan Sonfist",
+            "artwork_type": "land_art",
+            "name": "The Rock Monument of Buffalo",
+            "start_date": "1980",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Stay",
+          "latitude": 42.9319047,
+          "longitude": -78.8746496,
+          "osmType": "node",
+          "osmId": 12979083649,
+          "sourceUrl": "https://www.openstreetmap.org/node/12979083649",
+          "tags": {
+            "artist_name": "Sarah Braman",
+            "artwork_type": "installation",
+            "name": "Stay",
+            "start_date": "2022",
+            "tourism": "artwork",
+            "website": "https://buffaloakg.org/artworks/pac20232-stay"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Underlife",
+          "latitude": 42.9318129,
+          "longitude": -78.8750955,
+          "osmType": "node",
+          "osmId": 12979083657,
+          "sourceUrl": "https://www.openstreetmap.org/node/12979083657",
+          "tags": {
+            "artist_name": "Jason Middlebrook",
+            "artwork_type": "sculpture",
+            "name": "Underlife",
+            "start_date": "2012",
+            "tourism": "artwork",
+            "website": "https://buffaloakg.org/artworks/20123-underlife"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Light Matrix",
+          "latitude": 42.9317408,
+          "longitude": -78.8756449,
+          "osmType": "node",
+          "osmId": 12983033032,
+          "sourceUrl": "https://www.openstreetmap.org/node/12983033032",
+          "tags": {
+            "artist:wikidata": "Q6524309",
+            "artist:wikipedia": "en:Leo Villareal",
+            "artist_name": "Leo Villareal",
+            "artwork_type": "installation",
+            "name": "Light Matrix",
+            "start_date": "2005",
+            "tourism": "artwork",
+            "website": "https://buffaloakg.org/artworks/200525-light-matrix"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Spire Head House",
+          "latitude": 42.9322457,
+          "longitude": -78.8713722,
+          "osmType": "node",
+          "osmId": 13208852590,
+          "sourceUrl": "https://www.openstreetmap.org/node/13208852590",
+          "tags": {
+            "architect:wikidata": "Q2577471",
+            "demolished:building": "yes",
+            "historic": "yes",
+            "historic:civilization": "modern",
+            "name": "Spire Head House"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "McMillan Monument",
+          "latitude": 42.9335622,
+          "longitude": -78.8678557,
+          "osmType": "node",
+          "osmId": 13208880662,
+          "sourceUrl": "https://www.openstreetmap.org/node/13208880662",
+          "tags": {
+            "historic": "monument",
+            "inscription": "McMillan",
+            "name": "McMillan Monument",
+            "note": "This is often referred to as the \"McMillan Fountain.\" In it's current state its appearance is of a stone monument inscribed with the name \"McMillan,\" a former park superintendent."
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "LOVE",
+          "latitude": 42.9319466,
+          "longitude": -78.8766218,
+          "osmType": "node",
+          "osmId": 13409735787,
+          "sourceUrl": "https://www.openstreetmap.org/node/13409735787",
+          "tags": {
+            "artist:wikidata": "Q169281",
+            "artist_name": "Robert Indiana",
+            "artwork_type": "sculpture",
+            "name": "LOVE",
+            "tourism": "artwork",
+            "website": "https://buffaloakg.org/artworks/201825-love-red-blue-green"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Sculpture Bar",
+          "latitude": 42.932821,
+          "longitude": -78.8763208,
+          "osmType": "node",
+          "osmId": 13757739196,
+          "sourceUrl": "https://www.openstreetmap.org/node/13757739196",
+          "tags": {
+            "amenity": "bar",
+            "level": "1",
+            "name": "Sculpture Bar",
+            "toilets:access": "customers"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Eight Caryatid Figures",
+          "latitude": 42.9327359,
+          "longitude": -78.8753436,
+          "osmType": "node",
+          "osmId": 13897968019,
+          "sourceUrl": "https://www.openstreetmap.org/node/13897968019",
+          "tags": {
+            "artwork_type": "statue",
+            "name": "Eight Caryatid Figures",
+            "start_date": "1906",
+            "tourism": "artwork",
+            "website": "https://buffaloakg.org/artworks/1933681-8-eight-caryatid-figures"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Jesse Kregal Pathway",
+          "latitude": 42.9349051,
+          "longitude": -78.8747018,
+          "osmType": "way",
+          "osmId": 12276069,
+          "sourceUrl": "https://www.openstreetmap.org/way/12276069",
+          "tags": {
+            "bicycle": "yes",
+            "foot": "yes",
+            "highway": "cycleway",
+            "name": "Jesse Kregal Pathway",
+            "oneway": "no",
+            "smoothness": "good",
+            "surface": "paving_stones",
+            "tiger:cfcc": "A71",
+            "tiger:county": "Erie, NY",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Park Entrance Road",
+          "latitude": 42.9403539,
+          "longitude": -78.8556616,
+          "osmType": "way",
+          "osmId": 12277149,
+          "sourceUrl": "https://www.openstreetmap.org/way/12277149",
+          "tags": {
+            "highway": "residential",
+            "lanes": "2",
+            "name": "Park Entrance Road",
+            "sidewalk:left": "no",
+            "sidewalk:right": "separate",
+            "surface": "asphalt",
+            "tiger:cfcc": "A63",
+            "tiger:county": "Erie, NY",
+            "tiger:name_base": "Colvin",
+            "tiger:name_type": "Ave",
+            "tiger:reviewed": "no",
+            "tiger:zip_left": "14216",
+            "tiger:zip_right": "14216"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Park Exit Road",
+          "latitude": 42.937306,
+          "longitude": -78.86265,
+          "osmType": "way",
+          "osmId": 12284654,
+          "sourceUrl": "https://www.openstreetmap.org/way/12284654",
+          "tags": {
+            "bicycle": "yes",
+            "foot": "yes",
+            "highway": "living_street",
+            "maxspeed": "15 mph",
+            "name": "Park Exit Road",
+            "oneway": "yes",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Erie, NY",
+            "tiger:name_base": "Meadow",
+            "tiger:name_type": "Rd",
+            "tiger:reviewed": "no",
+            "tiger:zip_left": "14216",
+            "tiger:zip_right": "14216"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Crandall Drive",
+          "latitude": 42.9402398,
+          "longitude": -78.85377,
+          "osmType": "way",
+          "osmId": 12301323,
+          "sourceUrl": "https://www.openstreetmap.org/way/12301323",
+          "tags": {
+            "highway": "residential",
+            "lanes": "1",
+            "name": "Crandall Drive",
+            "oneway": "yes",
+            "sidewalk:left": "no",
+            "sidewalk:right": "separate",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Erie, NY",
+            "tiger:name_base": "Crandall",
+            "tiger:name_type": "Dr",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Iroquois Drive",
+          "latitude": 42.9330863,
+          "longitude": -78.8751459,
+          "osmType": "way",
+          "osmId": 23641927,
+          "sourceUrl": "https://www.openstreetmap.org/way/23641927",
+          "tags": {
+            "highway": "tertiary",
+            "lanes": "2",
+            "maxspeed": "30 mph",
+            "name": "Iroquois Drive",
+            "oneway": "no",
+            "sidewalk:left": "separate",
+            "sidewalk:right": "no",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41;",
+            "tiger:county": "Erie, NY;",
+            "tiger:name_base": "Iroquois;",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Crandall Circle",
+          "latitude": 42.9401414,
+          "longitude": -78.8521055,
+          "osmType": "way",
+          "osmId": 23642452,
+          "sourceUrl": "https://www.openstreetmap.org/way/23642452",
+          "tags": {
+            "highway": "residential",
+            "lanes": "1",
+            "name": "Crandall Circle",
+            "oneway": "yes",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Crandall Road",
+          "latitude": 42.9405994,
+          "longitude": -78.852085,
+          "osmType": "way",
+          "osmId": 23642456,
+          "sourceUrl": "https://www.openstreetmap.org/way/23642456",
+          "tags": {
+            "highway": "residential",
+            "lanes": "1",
+            "lit": "yes",
+            "name": "Crandall Road",
+            "oneway": "yes",
+            "sidewalk": "no",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Delaware Avenue",
+          "latitude": 42.9344991,
+          "longitude": -78.8661354,
+          "osmType": "way",
+          "osmId": 23702055,
+          "sourceUrl": "https://www.openstreetmap.org/way/23702055",
+          "tags": {
+            "bicycle": "yes",
+            "bicycle:lanes": "no|no|no|designated",
+            "cycleway:lanes": "no|no|no|yes",
+            "cycleway:right": "lane",
+            "foot": "no",
+            "hgv": "designated",
+            "hgv:state_network": "yes",
+            "highway": "primary",
+            "lanes": "3",
+            "maxheight": "12'3\"",
+            "maxspeed": "30 mph",
+            "name": "Delaware Avenue",
+            "name_1": "State Highway 384",
+            "oneway": "yes",
+            "ref": "NY 384",
+            "source:hgv:state_network": "NYSDOT https://www.dot.ny.gov/divisions/operating/oom/transportation-systems/repository/2010%20trk%20access%20bk.pdf",
+            "surface": "asphalt",
+            "vehicle:lanes": "yes|yes|yes|no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Buffalo Zoo",
+          "latitude": 42.9386914,
+          "longitude": -78.8532783,
+          "osmType": "way",
+          "osmId": 24219597,
+          "sourceUrl": "https://www.openstreetmap.org/way/24219597",
+          "tags": {
+            "name": "Buffalo Zoo",
+            "tourism": "zoo",
+            "wikidata": "Q1768319"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Scajaquada Expressway",
+          "latitude": 42.9342848,
+          "longitude": -78.8704155,
+          "osmType": "way",
+          "osmId": 25837279,
+          "sourceUrl": "https://www.openstreetmap.org/way/25837279",
+          "tags": {
+            "bicycle": "no",
+            "expressway": "yes",
+            "foot": "no",
+            "hgv": "designated",
+            "hgv:national_network": "yes",
+            "highway": "trunk",
+            "horse": "no",
+            "lanes": "2",
+            "lit": "yes",
+            "maxspeed": "30 mph",
+            "motor_vehicle": "yes",
+            "name": "Scajaquada Expressway",
+            "oneway": "yes",
+            "ref": "NY 198",
+            "source:hgv:national_network": "NYSDOT https://www.dot.ny.gov/divisions/operating/oom/transportation-systems/repository/2010%20trk%20access%20bk.pdf",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Jesse Kregal Pathway",
+          "latitude": 42.9349217,
+          "longitude": -78.8727876,
+          "osmType": "way",
+          "osmId": 26192670,
+          "sourceUrl": "https://www.openstreetmap.org/way/26192670",
+          "tags": {
+            "foot": "yes",
+            "highway": "cycleway",
+            "name": "Jesse Kregal Pathway",
+            "smoothness": "good",
+            "surface": "paving_stones",
+            "tiger:cfcc": "A71",
+            "tiger:county": "Erie, NY",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Delaware Avenue",
+          "latitude": 42.9287407,
+          "longitude": -78.8667315,
+          "osmType": "way",
+          "osmId": 26410938,
+          "sourceUrl": "https://www.openstreetmap.org/way/26410938",
+          "tags": {
+            "bicycle": "yes",
+            "bicycle:lanes": "no|no|designated",
+            "cycleway:lanes": "no|no|yes",
+            "cycleway:right": "lane",
+            "highway": "primary",
+            "lanes": "2",
+            "maxspeed": "30 mph",
+            "name": "Delaware Avenue",
+            "name_1": "State Highway 384",
+            "oneway": "yes",
+            "ref": "NY 384",
+            "sidewalk:left": "no",
+            "sidewalk:right": "separate",
+            "surface": "asphalt",
+            "tiger:cfcc": "A31",
+            "tiger:county": "Erie, NY",
+            "tiger:name_base": "Delaware",
+            "tiger:name_base_1": "State Highway 384",
+            "tiger:name_type": "Ave",
+            "tiger:reviewed": "no",
+            "tiger:zip_left": "14216",
+            "tiger:zip_right": "14216",
+            "vehicle:lanes": "yes|yes|no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Meadow Drive",
+          "latitude": 42.9359894,
+          "longitude": -78.8582043,
+          "osmType": "way",
+          "osmId": 35798666,
+          "sourceUrl": "https://www.openstreetmap.org/way/35798666",
+          "tags": {
+            "bicycle": "yes",
+            "cycleway:left": "no",
+            "cycleway:right": "shared_lane",
+            "foot": "yes",
+            "highway": "living_street",
+            "lanes": "1",
+            "maxspeed": "15 mph",
+            "motor_vehicle": "no",
+            "name": "Meadow Drive",
+            "oneway": "yes",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Erie, NY",
+            "tiger:name_base": "Park",
+            "tiger:name_type": "Rd",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Scajaquada Expressway",
+          "latitude": 42.9343627,
+          "longitude": -78.870429,
+          "osmType": "way",
+          "osmId": 46614534,
+          "sourceUrl": "https://www.openstreetmap.org/way/46614534",
+          "tags": {
+            "bicycle": "no",
+            "expressway": "yes",
+            "foot": "no",
+            "hgv": "designated",
+            "hgv:national_network": "yes",
+            "highway": "trunk",
+            "horse": "no",
+            "lanes": "2",
+            "lit": "yes",
+            "maxspeed": "30 mph",
+            "motor_vehicle": "yes",
+            "name": "Scajaquada Expressway",
+            "oneway": "yes",
+            "ref": "NY 198",
+            "source:hgv:national_network": "NYSDOT https://www.dot.ny.gov/divisions/operating/oom/transportation-systems/repository/2010%20trk%20access%20bk.pdf",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Amherst Street",
+          "latitude": 42.9406409,
+          "longitude": -78.8515578,
+          "osmType": "way",
+          "osmId": 95430002,
+          "sourceUrl": "https://www.openstreetmap.org/way/95430002",
+          "tags": {
+            "highway": "tertiary",
+            "lanes": "3",
+            "maxspeed": "30 mph",
+            "name": "Amherst Street",
+            "oneway": "yes",
+            "sidewalk:both": "no",
+            "sidewalk:right": "no",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Erie, NY",
+            "tiger:name_base": "Amherst",
+            "tiger:name_type": "St",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Park Exit Road",
+          "latitude": 42.9371398,
+          "longitude": -78.8627789,
+          "osmType": "way",
+          "osmId": 96510219,
+          "sourceUrl": "https://www.openstreetmap.org/way/96510219",
+          "tags": {
+            "bicycle": "yes",
+            "foot": "yes",
+            "highway": "living_street",
+            "maxspeed": "15 mph",
+            "name": "Park Exit Road",
+            "oneway": "yes",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Erie, NY",
+            "tiger:name_base": "Meadow",
+            "tiger:name_type": "Rd",
+            "tiger:reviewed": "no",
+            "tiger:zip_left": "14216",
+            "tiger:zip_right": "14216"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Buffalo AKG Art Museum",
+          "latitude": 42.9322953,
+          "longitude": -78.8754839,
+          "osmType": "way",
+          "osmId": 119504296,
+          "sourceUrl": "https://www.openstreetmap.org/way/119504296",
+          "tags": {
+            "addr:city": "Buffalo",
+            "addr:housenumber": "1285",
+            "addr:postcode": "14222",
+            "addr:state": "NY",
+            "addr:street": "Elmwood Avenue",
+            "fee": "yes",
+            "fee:conditional": "donation @ Fr[1] 10:00-21:00",
+            "fee:description": "See https://buffaloakg.org/hours-admission for details. The parts of the museum grounds which are part of Delaware Park do not require a fee to access. Free First Fridays admission may exclude special exhibitions.",
+            "name": "Buffalo AKG Art Museum",
+            "old_name": "Albright-Knox Art Gallery",
+            "phone": "+1-716-882-8700",
+            "short_name": "AKG Art Museum",
+            "tourism": "gallery",
+            "website": "https://www.albrightknox.org/",
+            "wikidata": "Q1970945",
+            "wikipedia": "en:Buffalo AKG Art Museum"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Museum Court",
+          "latitude": 42.9354448,
+          "longitude": -78.8770599,
+          "osmType": "way",
+          "osmId": 119506008,
+          "sourceUrl": "https://www.openstreetmap.org/way/119506008",
+          "tags": {
+            "highway": "unclassified",
+            "lanes": "1",
+            "name": "Museum Court",
+            "oneway": "no",
+            "sidewalk:left": "no",
+            "sidewalk:right": "separate",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Buffalo and Erie County Historical Society",
+          "latitude": 42.9353985,
+          "longitude": -78.8762781,
+          "osmType": "way",
+          "osmId": 119506015,
+          "sourceUrl": "https://www.openstreetmap.org/way/119506015",
+          "tags": {
+            "building": "yes",
+            "museum": "history",
+            "name": "Buffalo and Erie County Historical Society",
+            "old_name": "New York State Building",
+            "tourism": "museum",
+            "wikidata": "Q4985761",
+            "wikipedia": "en:Buffalo History Museum"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Delaware Park Public Golf Course",
+          "latitude": 42.9357646,
+          "longitude": -78.8576743,
+          "osmType": "way",
+          "osmId": 136711693,
+          "sourceUrl": "https://www.openstreetmap.org/way/136711693",
+          "tags": {
+            "leisure": "golf_course",
+            "name": "Delaware Park Public Golf Course",
+            "operator": "City of Buffalo"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Delaware Avenue",
+          "latitude": 42.9317004,
+          "longitude": -78.865639,
+          "osmType": "way",
+          "osmId": 139470103,
+          "sourceUrl": "https://www.openstreetmap.org/way/139470103",
+          "tags": {
+            "bicycle": "yes",
+            "bicycle:lanes": "no|no|designated",
+            "cycleway:right": "lane",
+            "foot": "yes",
+            "highway": "primary",
+            "lanes": "2",
+            "maxspeed": "30 mph",
+            "name": "Delaware Avenue",
+            "name_1": "State Highway 384",
+            "oneway": "yes",
+            "ref": "NY 384",
+            "surface": "asphalt",
+            "tiger:cfcc": "A31",
+            "tiger:county": "Erie, NY",
+            "tiger:name_base": "Delaware",
+            "tiger:name_base_1": "State Highway 384",
+            "tiger:name_type": "Ave",
+            "tiger:reviewed": "no",
+            "tiger:zip_left": "14216",
+            "tiger:zip_right": "14216",
+            "vehicle:lanes": "yes|yes|no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Delaware Park Rose Garden",
+          "latitude": 42.931652,
+          "longitude": -78.8731054,
+          "osmType": "way",
+          "osmId": 174372327,
+          "sourceUrl": "https://www.openstreetmap.org/way/174372327",
+          "tags": {
+            "access": "yes",
+            "garden:style": "rosarium",
+            "leisure": "garden",
+            "name": "Delaware Park Rose Garden",
+            "tourism": "attraction",
+            "website": "https://www.bfloparks.org/?bopcwaypoint=rose-garden"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Ivy Bridge",
+          "latitude": 42.9305041,
+          "longitude": -78.8702234,
+          "osmType": "way",
+          "osmId": 175359146,
+          "sourceUrl": "https://www.openstreetmap.org/way/175359146",
+          "tags": {
+            "alt_name": "Ivy Arch Bridge",
+            "bicycle": "yes",
+            "bridge": "yes",
+            "highway": "footway",
+            "name": "Ivy Bridge",
+            "old_name": "Dell Bridge"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Crandall Drive",
+          "latitude": 42.9402892,
+          "longitude": -78.8515862,
+          "osmType": "way",
+          "osmId": 195162874,
+          "sourceUrl": "https://www.openstreetmap.org/way/195162874",
+          "tags": {
+            "highway": "residential",
+            "lanes": "1",
+            "name": "Crandall Drive",
+            "oneway": "yes",
+            "sidewalk:left": "no",
+            "sidewalk:right": "separate",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Erie, NY",
+            "tiger:name_base": "Crandall",
+            "tiger:name_type": "Dr",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Scajaquada Creek",
+          "latitude": 42.9324072,
+          "longitude": -78.871191,
+          "osmType": "way",
+          "osmId": 321083807,
+          "sourceUrl": "https://www.openstreetmap.org/way/321083807",
+          "tags": {
+            "boat": "no",
+            "layer": "-1",
+            "name": "Scajaquada Creek",
+            "note": "Approximate route of the Tunnel. The previous mapper had terminated Scajaquada Creek at Hoyt Lake but documents on the website http://scajcreek.net/ do not agree.",
+            "tunnel": "culvert",
+            "waterway": "stream",
+            "website": "http://scajcreek.net/",
+            "wikipedia": "en:Scajaquada Creek"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Jewett Parkway",
+          "latitude": 42.9359513,
+          "longitude": -78.8516075,
+          "osmType": "way",
+          "osmId": 409899297,
+          "sourceUrl": "https://www.openstreetmap.org/way/409899297",
+          "tags": {
+            "highway": "residential",
+            "maxspeed": "30 mph",
+            "name": "Jewett Parkway",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Erie, NY",
+            "tiger:name_base": "Jewett",
+            "tiger:name_type": "Pky",
+            "tiger:reviewed": "no",
+            "tiger:zip_left": "14214",
+            "tiger:zip_right": "14214"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Park Road",
+          "latitude": 42.9315042,
+          "longitude": -78.8547509,
+          "osmType": "way",
+          "osmId": 409957169,
+          "sourceUrl": "https://www.openstreetmap.org/way/409957169",
+          "tags": {
+            "highway": "living_street",
+            "maxspeed": "15 mph",
+            "name": "Park Road",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Erie, NY",
+            "tiger:name_base": "Park",
+            "tiger:name_type": "Rd",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Park Road",
+          "latitude": 42.9319161,
+          "longitude": -78.8554393,
+          "osmType": "way",
+          "osmId": 409957170,
+          "sourceUrl": "https://www.openstreetmap.org/way/409957170",
+          "tags": {
+            "highway": "living_street",
+            "maxspeed": "15 mph",
+            "name": "Park Road",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Erie, NY",
+            "tiger:name_base": "Park",
+            "tiger:name_type": "Rd",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "M&T Bank Rainforest Falls",
+          "latitude": 42.9390255,
+          "longitude": -78.8524632,
+          "osmType": "way",
+          "osmId": 410810557,
+          "sourceUrl": "https://www.openstreetmap.org/way/410810557",
+          "tags": {
+            "building": "yes",
+            "name": "M&T Bank Rainforest Falls",
+            "tourism": "attraction"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Rumsey Shelter House",
+          "latitude": 42.9292065,
+          "longitude": -78.8678727,
+          "osmType": "way",
+          "osmId": 567571414,
+          "sourceUrl": "https://www.openstreetmap.org/way/567571414",
+          "tags": {
+            "access": "yes",
+            "amenity": "toilets",
+            "building": "yes",
+            "description": "Access is seasonal",
+            "fee": "no",
+            "name": "Rumsey Shelter House",
+            "seasonal": "yes",
+            "toilets:disposal": "flush",
+            "unisex": "yes"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "The Juicery",
+          "latitude": 42.937015,
+          "longitude": -78.8623448,
+          "osmType": "way",
+          "osmId": 571751145,
+          "sourceUrl": "https://www.openstreetmap.org/way/571751145",
+          "tags": {
+            "amenity": "restaurant",
+            "building": "kiosk",
+            "name": "The Juicery",
+            "outdoor_seating": "yes",
+            "reservation": "no",
+            "seasonal": "yes"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "The Rugby Field",
+          "latitude": 42.9372056,
+          "longitude": -78.8533821,
+          "osmType": "way",
+          "osmId": 620770518,
+          "sourceUrl": "https://www.openstreetmap.org/way/620770518",
+          "tags": {
+            "leisure": "pitch",
+            "name": "The Rugby Field",
+            "sport": "rugby_union"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Scajaquada Expressway",
+          "latitude": 42.9351496,
+          "longitude": -78.8778631,
+          "osmType": "way",
+          "osmId": 672424061,
+          "sourceUrl": "https://www.openstreetmap.org/way/672424061",
+          "tags": {
+            "bicycle": "no",
+            "expressway": "yes",
+            "foot": "no",
+            "hgv": "designated",
+            "hgv:national_network": "yes",
+            "highway": "trunk",
+            "lanes": "2",
+            "lit": "yes",
+            "maxspeed": "30 mph",
+            "name": "Scajaquada Expressway",
+            "oneway": "yes",
+            "ref": "NY 198",
+            "source:hgv:national_network": "NYSDOT https://www.dot.ny.gov/divisions/operating/oom/transportation-systems/repository/2010%20trk%20access%20bk.pdf",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Iroquois Drive",
+          "latitude": 42.9332546,
+          "longitude": -78.8761761,
+          "osmType": "way",
+          "osmId": 672424063,
+          "sourceUrl": "https://www.openstreetmap.org/way/672424063",
+          "tags": {
+            "highway": "tertiary",
+            "lanes": "2",
+            "maxspeed": "30 mph",
+            "name": "Iroquois Drive",
+            "sidewalk:left": "separate",
+            "sidewalk:right": "no",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41;",
+            "tiger:county": "Erie, NY;",
+            "tiger:name_base": "Iroquois;",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Carousel (seasonal)",
+          "latitude": 42.9384764,
+          "longitude": -78.8531609,
+          "osmType": "way",
+          "osmId": 904602618,
+          "sourceUrl": "https://www.openstreetmap.org/way/904602618",
+          "tags": {
+            "attraction": "carousel",
+            "building": "yes",
+            "name": "Carousel (seasonal)",
+            "tourism": "attraction"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Erie Canal",
+          "latitude": 42.9382748,
+          "longitude": -78.8532185,
+          "osmType": "way",
+          "osmId": 904602627,
+          "sourceUrl": "https://www.openstreetmap.org/way/904602627",
+          "tags": {
+            "name": "Erie Canal",
+            "natural": "water",
+            "water": "canal"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Lincoln Parkway Bridge",
+          "latitude": 42.933552,
+          "longitude": -78.8743446,
+          "osmType": "way",
+          "osmId": 1074969740,
+          "sourceUrl": "https://www.openstreetmap.org/way/1074969740",
+          "tags": {
+            "bridge": "viaduct",
+            "layer": "1",
+            "man_made": "bridge",
+            "name": "Lincoln Parkway Bridge",
+            "old_name": "Bridge of the Three Americas"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Ivy Bridge",
+          "latitude": 42.9304984,
+          "longitude": -78.8702176,
+          "osmType": "way",
+          "osmId": 1076086912,
+          "sourceUrl": "https://www.openstreetmap.org/way/1076086912",
+          "tags": {
+            "alt_name": "Ivy Arch Bridge",
+            "bridge": "yes",
+            "layer": "1",
+            "man_made": "bridge",
+            "name": "Ivy Bridge",
+            "old_name": "Dell Bridge",
+            "website": "https://www.bfloparks.org/?bopcwaypoint=ivy-bridge"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Rose Garden Pergola",
+          "latitude": 42.9316452,
+          "longitude": -78.8727225,
+          "osmType": "way",
+          "osmId": 1076086913,
+          "sourceUrl": "https://www.openstreetmap.org/way/1076086913",
+          "tags": {
+            "amenity": "shelter",
+            "building": "roof",
+            "name": "Rose Garden Pergola"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Bighorn Sheep",
+          "latitude": 42.9384211,
+          "longitude": -78.8527944,
+          "osmType": "way",
+          "osmId": 1157093773,
+          "sourceUrl": "https://www.openstreetmap.org/way/1157093773",
+          "tags": {
+            "attraction": "animal",
+            "name": "Bighorn Sheep",
+            "species:wikidata": "Q189466",
+            "species:wikipedia": "en:Bighorn sheep",
+            "tourism": "attraction"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Polar Bear",
+          "latitude": 42.9382547,
+          "longitude": -78.8517155,
+          "osmType": "way",
+          "osmId": 1157093774,
+          "sourceUrl": "https://www.openstreetmap.org/way/1157093774",
+          "tags": {
+            "attraction": "animal",
+            "name": "Polar Bear",
+            "species:wikidata": "Q33609",
+            "species:wikipedia": "en:Polar bear",
+            "tourism": "attraction"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Giraffes",
+          "latitude": 42.9399551,
+          "longitude": -78.8513028,
+          "osmType": "way",
+          "osmId": 1157093776,
+          "sourceUrl": "https://www.openstreetmap.org/way/1157093776",
+          "tags": {
+            "attraction": "animal",
+            "name": "Giraffes",
+            "species:wikidata": "Q15083",
+            "species:wikipedia": "en:Northern giraffe",
+            "tourism": "attraction"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Delaware Avenue",
+          "latitude": 42.9351539,
+          "longitude": -78.8659907,
+          "osmType": "way",
+          "osmId": 1159983836,
+          "sourceUrl": "https://www.openstreetmap.org/way/1159983836",
+          "tags": {
+            "bicycle": "yes",
+            "bicycle:lanes": "no|no|no|no|designated",
+            "change:lanes": "not_right|no|no|no|not_left",
+            "cycleway:lanes": "no|no|no|no|yes",
+            "cycleway:right": "lane",
+            "foot": "no",
+            "hgv": "designated",
+            "hgv:state_network": "yes",
+            "highway": "primary",
+            "lanes": "4",
+            "maxspeed": "30 mph",
+            "name": "Delaware Avenue",
+            "name_1": "State Highway 384",
+            "oneway": "yes",
+            "placement": "left_of:4",
+            "ref": "NY 384",
+            "sidewalk:both": "no",
+            "source:hgv:state_network": "NYSDOT https://www.dot.ny.gov/divisions/operating/oom/transportation-systems/repository/2010%20trk%20access%20bk.pdf",
+            "surface": "asphalt",
+            "tiger:cfcc": "A31",
+            "tiger:county": "Erie, NY",
+            "tiger:name_base": "Delaware",
+            "tiger:name_base_1": "State Highway 384",
+            "tiger:name_type": "Ave",
+            "tiger:reviewed": "no",
+            "tiger:zip_left": "14216",
+            "tiger:zip_right": "14216",
+            "turn:lanes": "left||||",
+            "vehicle:lanes": "yes|yes|yes|yes|no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Jesse Kregal Pathway",
+          "latitude": 42.9349476,
+          "longitude": -78.8726481,
+          "osmType": "way",
+          "osmId": 1185562095,
+          "sourceUrl": "https://www.openstreetmap.org/way/1185562095",
+          "tags": {
+            "crossing": "uncontrolled",
+            "crossing:island": "no",
+            "crossing:markings": "lines",
+            "cycleway": "crossing",
+            "foot": "yes",
+            "highway": "cycleway",
+            "name": "Jesse Kregal Pathway",
+            "surface": "asphalt",
+            "tactile_paving": "no",
+            "tiger:cfcc": "A71",
+            "tiger:county": "Erie, NY",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Jesse Kregal Pathway",
+          "latitude": 42.9349461,
+          "longitude": -78.8726984,
+          "osmType": "way",
+          "osmId": 1185562096,
+          "sourceUrl": "https://www.openstreetmap.org/way/1185562096",
+          "tags": {
+            "foot": "yes",
+            "highway": "cycleway",
+            "name": "Jesse Kregal Pathway",
+            "oneway": "no",
+            "smoothness": "excellent",
+            "surface": "asphalt",
+            "tiger:cfcc": "A71",
+            "tiger:county": "Erie, NY",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Nottingham Terrace",
+          "latitude": 42.9355013,
+          "longitude": -78.8748579,
+          "osmType": "way",
+          "osmId": 1185562098,
+          "sourceUrl": "https://www.openstreetmap.org/way/1185562098",
+          "tags": {
+            "highway": "residential",
+            "lanes": "2",
+            "maxspeed": "30 mph",
+            "maxweight": "5 st",
+            "name": "Nottingham Terrace",
+            "oneway": "no",
+            "sidewalk:left": "separate",
+            "sidewalk:right": "no",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Delaware Park Fitness Station",
+          "latitude": 42.9345089,
+          "longitude": -78.8523632,
+          "osmType": "way",
+          "osmId": 1282239451,
+          "sourceUrl": "https://www.openstreetmap.org/way/1282239451",
+          "tags": {
+            "fitness_station": "yes",
+            "leisure": "fitness_station",
+            "name": "Delaware Park Fitness Station",
+            "sport": "fitness",
+            "website": "https://www.bfloparks.org/?bopcwaypoint=fitness-station"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Shakespeare in Delaware Park",
+          "latitude": 42.931922,
+          "longitude": -78.8718643,
+          "osmType": "way",
+          "osmId": 1282244104,
+          "sourceUrl": "https://www.openstreetmap.org/way/1282244104",
+          "tags": {
+            "amenity": "theatre",
+            "fee": "no",
+            "name": "Shakespeare in Delaware Park",
+            "seasonal": "summer",
+            "theatre:type": "open_air",
+            "website": "https://shakespeareindelawarepark.org/",
+            "wikidata": "Q7462841",
+            "wikipedia": "en:Shakespeare in Delaware Park"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Amherst Street",
+          "latitude": 42.9411769,
+          "longitude": -78.8536109,
+          "osmType": "way",
+          "osmId": 1283079807,
+          "sourceUrl": "https://www.openstreetmap.org/way/1283079807",
+          "tags": {
+            "highway": "tertiary",
+            "lanes": "2",
+            "lanes:backward": "1",
+            "lanes:forward": "1",
+            "maxspeed": "30 mph",
+            "name": "Amherst Street",
+            "oneway": "no",
+            "sidewalk:both": "separate",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Erie, NY",
+            "tiger:name_base": "Amherst",
+            "tiger:name_type": "St"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Amherst Street",
+          "latitude": 42.940632,
+          "longitude": -78.8510312,
+          "osmType": "way",
+          "osmId": 1283079809,
+          "sourceUrl": "https://www.openstreetmap.org/way/1283079809",
+          "tags": {
+            "highway": "tertiary",
+            "lanes": "1",
+            "maxspeed": "30 mph",
+            "name": "Amherst Street",
+            "oneway": "yes",
+            "sidewalk:left": "separate",
+            "sidewalk:right": "no",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Erie, NY",
+            "tiger:name_base": "Amherst",
+            "tiger:name_type": "St",
+            "tiger:reviewed": "no",
+            "tiger:zip_left": "14216"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Crandall Circle",
+          "latitude": 42.9399953,
+          "longitude": -78.8520826,
+          "osmType": "way",
+          "osmId": 1283079812,
+          "sourceUrl": "https://www.openstreetmap.org/way/1283079812",
+          "tags": {
+            "footway": "sidewalk",
+            "highway": "footway",
+            "name": "Crandall Circle"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Parkside Avenue",
+          "latitude": 42.9381342,
+          "longitude": -78.8509299,
+          "osmType": "way",
+          "osmId": 1283079818,
+          "sourceUrl": "https://www.openstreetmap.org/way/1283079818",
+          "tags": {
+            "footway": "sidewalk",
+            "highway": "footway",
+            "name": "Parkside Avenue"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Meadow Drive",
+          "latitude": 42.9380498,
+          "longitude": -78.8540211,
+          "osmType": "way",
+          "osmId": 1283079826,
+          "sourceUrl": "https://www.openstreetmap.org/way/1283079826",
+          "tags": {
+            "footway": "sidewalk",
+            "highway": "footway",
+            "name": "Meadow Drive"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Jewett Parkway",
+          "latitude": 42.9360586,
+          "longitude": -78.8515621,
+          "osmType": "way",
+          "osmId": 1283079827,
+          "sourceUrl": "https://www.openstreetmap.org/way/1283079827",
+          "tags": {
+            "footway": "sidewalk",
+            "highway": "footway",
+            "name": "Jewett Parkway"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Parkside Avenue",
+          "latitude": 42.9378121,
+          "longitude": -78.8507728,
+          "osmType": "way",
+          "osmId": 1283088491,
+          "sourceUrl": "https://www.openstreetmap.org/way/1283088491",
+          "tags": {
+            "highway": "tertiary",
+            "lanes": "3",
+            "lanes:backward": "1",
+            "lanes:both_ways": "1",
+            "lanes:forward": "1",
+            "maxspeed": "30 mph",
+            "name": "Parkside Avenue",
+            "oneway": "no",
+            "sidewalk:both": "separate",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Erie, NY",
+            "tiger:name_base": "Parkside",
+            "tiger:name_type": "Ave",
+            "tiger:reviewed": "no",
+            "tiger:zip_left": "14216",
+            "tiger:zip_right": "14216",
+            "turn:lanes:both_ways": "left"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Amherst Street",
+          "latitude": 42.9404005,
+          "longitude": -78.8509811,
+          "osmType": "way",
+          "osmId": 1283088492,
+          "sourceUrl": "https://www.openstreetmap.org/way/1283088492",
+          "tags": {
+            "highway": "tertiary",
+            "lanes": "3",
+            "maxspeed": "30 mph",
+            "name": "Amherst Street",
+            "oneway": "yes",
+            "sidewalk:left": "no",
+            "sidewalk:right": "separate",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Erie, NY",
+            "tiger:name_base": "Amherst",
+            "tiger:name_type": "St",
+            "tiger:reviewed": "no",
+            "turn:lanes": "left|through|right"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Crandall Circle",
+          "latitude": 42.9400336,
+          "longitude": -78.852067,
+          "osmType": "way",
+          "osmId": 1283088493,
+          "sourceUrl": "https://www.openstreetmap.org/way/1283088493",
+          "tags": {
+            "highway": "residential",
+            "lanes": "1",
+            "name": "Crandall Circle",
+            "oneway": "yes",
+            "sidewalk:left": "no",
+            "sidewalk:right": "separate",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Jesse Kregal Pathway",
+          "latitude": 42.9351081,
+          "longitude": -78.8667064,
+          "osmType": "way",
+          "osmId": 1307065154,
+          "sourceUrl": "https://www.openstreetmap.org/way/1307065154",
+          "tags": {
+            "bicycle": "designated",
+            "crossing": "uncontrolled",
+            "crossing:markings": "yes",
+            "cycleway": "crossing",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Jesse Kregal Pathway",
+            "oneway": "no",
+            "segregated": "no",
+            "smoothness": "excellent",
+            "surface": "asphalt",
+            "tiger:cfcc": "A71",
+            "tiger:county": "Erie, NY",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Jesse Kregal Pathway",
+          "latitude": 42.9351198,
+          "longitude": -78.8666079,
+          "osmType": "way",
+          "osmId": 1307065155,
+          "sourceUrl": "https://www.openstreetmap.org/way/1307065155",
+          "tags": {
+            "bicycle": "yes",
+            "cycleway": "shared",
+            "foot": "yes",
+            "highway": "cycleway",
+            "name": "Jesse Kregal Pathway",
+            "oneway": "no",
+            "smoothness": "excellent",
+            "surface": "asphalt",
+            "tiger:cfcc": "A71",
+            "tiger:county": "Erie, NY",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Amherst Street",
+          "latitude": 42.9409393,
+          "longitude": -78.8519986,
+          "osmType": "way",
+          "osmId": 1312495132,
+          "sourceUrl": "https://www.openstreetmap.org/way/1312495132",
+          "tags": {
+            "highway": "tertiary",
+            "lanes": "1",
+            "maxspeed": "30 mph",
+            "name": "Amherst Street",
+            "oneway": "yes",
+            "placement": "transition",
+            "sidewalk:both": "no",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Erie, NY",
+            "tiger:name_base": "Amherst",
+            "tiger:name_type": "St",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Delaware Avenue",
+          "latitude": 42.9352743,
+          "longitude": -78.8662463,
+          "osmType": "way",
+          "osmId": 1389627708,
+          "sourceUrl": "https://www.openstreetmap.org/way/1389627708",
+          "tags": {
+            "bicycle": "yes",
+            "bicycle:lanes": "no|no|no|designated",
+            "cycleway:lanes": "no|no|no|yes",
+            "cycleway:right": "lane",
+            "foot": "no",
+            "hgv": "designated",
+            "hgv:state_network": "yes",
+            "highway": "primary",
+            "lanes": "3",
+            "maxheight": "12'3\"",
+            "maxspeed": "30 mph",
+            "name": "Delaware Avenue",
+            "name_1": "State Highway 384",
+            "oneway": "yes",
+            "placement": "transition",
+            "ref": "NY 384",
+            "source:hgv:state_network": "NYSDOT https://www.dot.ny.gov/divisions/operating/oom/transportation-systems/repository/2010%20trk%20access%20bk.pdf",
+            "surface": "asphalt",
+            "vehicle:lanes": "yes|yes|yes|no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Delaware Avenue",
+          "latitude": 42.9353008,
+          "longitude": -78.8661357,
+          "osmType": "way",
+          "osmId": 1389627709,
+          "sourceUrl": "https://www.openstreetmap.org/way/1389627709",
+          "tags": {
+            "bicycle": "yes",
+            "bicycle:lanes": "no|no|no|no|designated",
+            "change:lanes": "not_right|no|no|no|not_left",
+            "cycleway:lanes": "no|no|no|no|yes",
+            "cycleway:right": "lane",
+            "foot": "no",
+            "hgv": "designated",
+            "hgv:state_network": "yes",
+            "highway": "primary",
+            "lanes": "4",
+            "maxspeed": "30 mph",
+            "name": "Delaware Avenue",
+            "name_1": "State Highway 384",
+            "oneway": "yes",
+            "placement": "transition",
+            "ref": "NY 384",
+            "sidewalk:both": "no",
+            "source:hgv:state_network": "NYSDOT https://www.dot.ny.gov/divisions/operating/oom/transportation-systems/repository/2010%20trk%20access%20bk.pdf",
+            "surface": "asphalt",
+            "tiger:cfcc": "A31",
+            "tiger:county": "Erie, NY",
+            "tiger:name_base": "Delaware",
+            "tiger:name_base_1": "State Highway 384",
+            "tiger:name_type": "Ave",
+            "tiger:reviewed": "no",
+            "tiger:zip_left": "14216",
+            "tiger:zip_right": "14216",
+            "turn:lanes": "left||||",
+            "vehicle:lanes": "yes|yes|yes|yes|no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Delaware Avenue",
+          "latitude": 42.9349388,
+          "longitude": -78.8658978,
+          "osmType": "way",
+          "osmId": 1389627711,
+          "sourceUrl": "https://www.openstreetmap.org/way/1389627711",
+          "tags": {
+            "bicycle": "yes",
+            "bicycle:lanes": "no|no|no|designated",
+            "cycleway:lanes": "no|no|no|yes",
+            "cycleway:right": "lane",
+            "foot": "no",
+            "hgv": "designated",
+            "hgv:state_network": "yes",
+            "highway": "primary",
+            "lanes": "3",
+            "maxheight": "12'3\"",
+            "maxspeed": "30 mph",
+            "name": "Delaware Avenue",
+            "name_1": "State Highway 384",
+            "oneway": "yes",
+            "placement": "transition",
+            "ref": "NY 384",
+            "sidewalk:both": "no",
+            "source:hgv:state_network": "NYSDOT https://www.dot.ny.gov/divisions/operating/oom/transportation-systems/repository/2010%20trk%20access%20bk.pdf",
+            "surface": "asphalt",
+            "vehicle:lanes": "yes|yes|yes|no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Common Sky",
+          "latitude": 42.9319416,
+          "longitude": -78.8756429,
+          "osmType": "way",
+          "osmId": 1412384619,
+          "sourceUrl": "https://www.openstreetmap.org/way/1412384619",
+          "tags": {
+            "name": "Common Sky",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Iroquois Drive",
+          "latitude": 42.9333673,
+          "longitude": -78.8768567,
+          "osmType": "way",
+          "osmId": 1412762241,
+          "sourceUrl": "https://www.openstreetmap.org/way/1412762241",
+          "tags": {
+            "destination:ref:backward": "NY 198 East",
+            "highway": "tertiary",
+            "lanes": "3",
+            "lanes:backward": "1",
+            "lanes:forward": "2",
+            "maxspeed": "30 mph",
+            "name": "Iroquois Drive",
+            "sidewalk:left": "separate",
+            "sidewalk:right": "no",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41;",
+            "tiger:county": "Erie, NY;",
+            "tiger:name_base": "Iroquois;",
+            "tiger:reviewed": "no",
+            "turn:lanes:forward": "left|through;right"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "John Brent Mural",
+          "latitude": 42.9399971,
+          "longitude": -78.8518187,
+          "osmType": "way",
+          "osmId": 1426116671,
+          "sourceUrl": "https://www.openstreetmap.org/way/1426116671",
+          "tags": {
+            "artist_name": "James Cooper III",
+            "artwork_type": "mural",
+            "name": "John Brent Mural",
+            "start_date": "2019",
+            "tourism": "artwork",
+            "website": "https://buffaloakg.org/community/ak-public-art/john-brent-mural"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Lincoln Parkway",
+          "latitude": 42.9327865,
+          "longitude": -78.8745635,
+          "osmType": "way",
+          "osmId": 1445471113,
+          "sourceUrl": "https://www.openstreetmap.org/way/1445471113",
+          "tags": {
+            "highway": "tertiary",
+            "lanes": "2",
+            "maxspeed": "30 mph",
+            "name": "Lincoln Parkway",
+            "sidewalk:left": "no",
+            "sidewalk:right": "separate",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Path",
+          "latitude": 42.9313867,
+          "longitude": -78.8747421,
+          "osmType": "way",
+          "osmId": 1461972780,
+          "sourceUrl": "https://www.openstreetmap.org/way/1461972780",
+          "tags": {
+            "artist:wikidata": "Q357126",
+            "artist_name": "Andy Goldsworthy",
+            "artwork_type": "land_art",
+            "name": "Path",
+            "start_date": "2012",
+            "tourism": "artwork",
+            "website": "https://buffaloakg.org/artworks/201237-path"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Crandall Drive",
+          "latitude": 42.9402084,
+          "longitude": -78.8513648,
+          "osmType": "way",
+          "osmId": 1462675513,
+          "sourceUrl": "https://www.openstreetmap.org/way/1462675513",
+          "tags": {
+            "footway": "sidewalk",
+            "highway": "footway",
+            "name": "Crandall Drive"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Crandall Drive",
+          "latitude": 42.9402123,
+          "longitude": -78.8538016,
+          "osmType": "way",
+          "osmId": 1462675514,
+          "sourceUrl": "https://www.openstreetmap.org/way/1462675514",
+          "tags": {
+            "footway": "sidewalk",
+            "highway": "footway",
+            "name": "Crandall Drive"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Meadow Drive",
+          "latitude": 42.9363426,
+          "longitude": -78.8521243,
+          "osmType": "way",
+          "osmId": 1462675516,
+          "sourceUrl": "https://www.openstreetmap.org/way/1462675516",
+          "tags": {
+            "footway": "sidewalk",
+            "highway": "footway",
+            "name": "Meadow Drive"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Hoyt Lake",
+          "latitude": 42.9329143,
+          "longitude": -78.8711722,
+          "osmType": "relation",
+          "osmId": 9372131,
+          "sourceUrl": "https://www.openstreetmap.org/relation/9372131",
+          "tags": {
+            "intermittent": "no",
+            "name": "Hoyt Lake",
+            "natural": "water",
+            "old_name": "Gala Water;Delaware Park Lake",
+            "old_name:gnis:feature_id": "2096835",
+            "salt": "no",
+            "tidal": "no",
+            "type": "multipolygon",
+            "water": "lake"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Delaware Park",
+          "latitude": 42.9347421,
+          "longitude": -78.8643824,
+          "osmType": "relation",
+          "osmId": 19379279,
+          "sourceUrl": "https://www.openstreetmap.org/relation/19379279",
+          "tags": {
+            "ele": "183",
+            "gnis:feature_id": "948267",
+            "leisure": "park",
+            "name": "Delaware Park",
+            "type": "multipolygon",
+            "wikidata": "Q49482626"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Rumsey Woods",
+          "latitude": 42.9299731,
+          "longitude": -78.8700224,
+          "osmType": "relation",
+          "osmId": 20005704,
+          "sourceUrl": "https://www.openstreetmap.org/relation/20005704",
+          "tags": {
+            "name": "Rumsey Woods",
+            "natural": "wood",
+            "type": "multipolygon"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    },
+    "launch-ny-buffalo-outer-harbor-and-lakeside-complex": {
+      "name": "Outer Harbor and Lakeside Complex",
+      "boundarySource": "https://www.openstreetmap.org/way/224318608",
+      "candidates": [
+        {
+          "name": "Perro & Poni",
+          "latitude": 42.8712298,
+          "longitude": -78.8824938,
+          "osmType": "node",
+          "osmId": 13160591567,
+          "sourceUrl": "https://www.openstreetmap.org/node/13160591567",
+          "tags": {
+            "amenity": "restaurant",
+            "name": "Perro & Poni",
+            "outdoor_seating": "yes",
+            "seasonal": "yes"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Wilkeson Pointe",
+          "latitude": 42.8713987,
+          "longitude": -78.8824481,
+          "osmType": "way",
+          "osmId": 224318608,
+          "sourceUrl": "https://www.openstreetmap.org/way/224318608",
+          "tags": {
+            "leisure": "park",
+            "name": "Wilkeson Pointe",
+            "opening_hours": "sunrise-sunset",
+            "operator": "ECHDC",
+            "start_date": "2013-05-31"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    },
+    "launch-ny-rochester-highland-park": {
+      "name": "Highland Park",
+      "boundarySource": "https://www.openstreetmap.org/way/71471331",
+      "candidates": [
+        {
+          "name": "Vietnam Veterans Memorial",
+          "latitude": 43.1281132,
+          "longitude": -77.6101058,
+          "osmType": "node",
+          "osmId": 391855810,
+          "sourceUrl": "https://www.openstreetmap.org/node/391855810",
+          "tags": {
+            "historic": "memorial",
+            "memorial": "war_memorial",
+            "name": "Vietnam Veterans Memorial"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Frederick Douglass Statue",
+          "latitude": 43.1329986,
+          "longitude": -77.6083959,
+          "osmType": "node",
+          "osmId": 4955980723,
+          "sourceUrl": "https://www.openstreetmap.org/node/4955980723",
+          "tags": {
+            "historic": "memorial",
+            "name": "Frederick Douglass Statue",
+            "name:en": "Frederick Douglas Statue",
+            "wikidata": "Q97013006"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Victim's Rights Memorial",
+          "latitude": 43.1275002,
+          "longitude": -77.6092912,
+          "osmType": "node",
+          "osmId": 7996137166,
+          "sourceUrl": "https://www.openstreetmap.org/node/7996137166",
+          "tags": {
+            "historic": "memorial",
+            "material": "metal",
+            "memorial": "memorial",
+            "name": "Victim's Rights Memorial"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "AIDS Memorial",
+          "latitude": 43.1280096,
+          "longitude": -77.6087505,
+          "osmType": "node",
+          "osmId": 7996137167,
+          "sourceUrl": "https://www.openstreetmap.org/node/7996137167",
+          "tags": {
+            "historic": "memorial",
+            "name": "AIDS Memorial"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Lilac Arches",
+          "latitude": 43.1292533,
+          "longitude": -77.6090794,
+          "osmType": "node",
+          "osmId": 7996137168,
+          "sourceUrl": "https://www.openstreetmap.org/node/7996137168",
+          "tags": {
+            "artwork_type": "sculpture",
+            "name": "Lilac Arches",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Remember Garden",
+          "latitude": 43.1287138,
+          "longitude": -77.608759,
+          "osmType": "node",
+          "osmId": 7996137169,
+          "sourceUrl": "https://www.openstreetmap.org/node/7996137169",
+          "tags": {
+            "historic": "memorial",
+            "name": "Remember Garden"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Workers' Rights Memorial",
+          "latitude": 43.1293775,
+          "longitude": -77.6088132,
+          "osmType": "node",
+          "osmId": 7996137170,
+          "sourceUrl": "https://www.openstreetmap.org/node/7996137170",
+          "tags": {
+            "historic": "memorial",
+            "name": "Workers' Rights Memorial"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Plant Collections",
+          "latitude": 43.1297366,
+          "longitude": -77.6077859,
+          "osmType": "node",
+          "osmId": 8558606275,
+          "sourceUrl": "https://www.openstreetmap.org/node/8558606275",
+          "tags": {
+            "board_type": "plants",
+            "direction": "150",
+            "information": "board",
+            "name": "Plant Collections",
+            "tourism": "information"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "War On Terror Memorial",
+          "latitude": 43.1275788,
+          "longitude": -77.6102759,
+          "osmType": "node",
+          "osmId": 9914920172,
+          "sourceUrl": "https://www.openstreetmap.org/node/9914920172",
+          "tags": {
+            "historic": "memorial",
+            "memorial": "war_memorial",
+            "name": "War On Terror Memorial"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Elmwood & Al Sigl Ctr",
+          "latitude": 43.1251341,
+          "longitude": -77.6097538,
+          "osmType": "node",
+          "osmId": 10313853122,
+          "sourceUrl": "https://www.openstreetmap.org/node/10313853122",
+          "tags": {
+            "bus": "yes",
+            "highway": "bus_stop",
+            "name": "Elmwood & Al Sigl Ctr",
+            "network": "Regional Transit Service",
+            "network:short": "RTS",
+            "network:wikidata": "Q128016163",
+            "operator": "Rochester-Genesee Regional Transportation Authority",
+            "operator:short": "RGRTA",
+            "operator:wikidata": "Q7353936",
+            "public_transport": "platform",
+            "ref": "1238",
+            "route_ref": "41;97",
+            "shelter": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Poet's Garden",
+          "latitude": 43.1313746,
+          "longitude": -77.608048,
+          "osmType": "node",
+          "osmId": 10693801343,
+          "sourceUrl": "https://www.openstreetmap.org/node/10693801343",
+          "tags": {
+            "access": "yes",
+            "description": "Historic garden established in 1916 to honor William Shakespeare on the 300th anniversary of his death",
+            "fee": "no",
+            "garden:type": "arboretum",
+            "historic": "memorial",
+            "leisure": "garden",
+            "name": "Poet's Garden",
+            "operator": "Highland Park",
+            "operator:type": "public",
+            "website": "https://www.highlandparkconservancy.org/poets-garden"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Children's Pavilion Overlook",
+          "latitude": 43.1318032,
+          "longitude": -77.602767,
+          "osmType": "node",
+          "osmId": 10693818122,
+          "sourceUrl": "https://www.openstreetmap.org/node/10693818122",
+          "tags": {
+            "historic": "archaeological_site",
+            "name": "Children's Pavilion Overlook",
+            "note": "https://www.hmdb.org/m.asp?m=137321",
+            "tourism": "viewpoint"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Highland Park Overlook",
+          "latitude": 43.131836,
+          "longitude": -77.603528,
+          "osmType": "node",
+          "osmId": 10693818123,
+          "sourceUrl": "https://www.openstreetmap.org/node/10693818123",
+          "tags": {
+            "name": "Highland Park Overlook",
+            "note": "https://www.hmdb.org/m.asp?m=137322",
+            "tourism": "viewpoint"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Goodman & Elmwood",
+          "latitude": 43.1256558,
+          "longitude": -77.6043526,
+          "osmType": "node",
+          "osmId": 11925212620,
+          "sourceUrl": "https://www.openstreetmap.org/node/11925212620",
+          "tags": {
+            "bus": "yes",
+            "highway": "bus_stop",
+            "name": "Goodman & Elmwood",
+            "network": "Regional Transit Service",
+            "network:short": "RTS",
+            "network:wikidata": "Q128016163",
+            "operator": "Rochester-Genesee Regional Transportation Authority",
+            "operator:short": "RGRTA",
+            "operator:wikidata": "Q7353936",
+            "public_transport": "platform",
+            "ref": "1583",
+            "shelter": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Goodman & Elmwood",
+          "latitude": 43.1258383,
+          "longitude": -77.6041,
+          "osmType": "node",
+          "osmId": 11925212621,
+          "sourceUrl": "https://www.openstreetmap.org/node/11925212621",
+          "tags": {
+            "bus": "yes",
+            "highway": "bus_stop",
+            "name": "Goodman & Elmwood",
+            "network": "Regional Transit Service",
+            "network:short": "RTS",
+            "network:wikidata": "Q128016163",
+            "operator": "Rochester-Genesee Regional Transportation Authority",
+            "operator:short": "RGRTA",
+            "operator:wikidata": "Q7353936",
+            "public_transport": "platform",
+            "ref": "1584",
+            "shelter": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Goodman & Pinetum",
+          "latitude": 43.1322109,
+          "longitude": -77.6004091,
+          "osmType": "node",
+          "osmId": 14068779970,
+          "sourceUrl": "https://www.openstreetmap.org/node/14068779970",
+          "tags": {
+            "bus": "yes",
+            "departures_board": "no",
+            "highway": "bus_stop",
+            "name": "Goodman & Pinetum",
+            "network": "Regional Transit Service",
+            "network:short": "RTS",
+            "network:wikidata": "Q128016163",
+            "operator": "Rochester-Genesee Regional Transportation Authority",
+            "operator:short": "RGRTA",
+            "operator:wikidata": "Q7353936",
+            "public_transport": "platform",
+            "ref": "1612",
+            "shelter": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Goodman & Highland",
+          "latitude": 43.1303814,
+          "longitude": -77.6010661,
+          "osmType": "node",
+          "osmId": 14068779978,
+          "sourceUrl": "https://www.openstreetmap.org/node/14068779978",
+          "tags": {
+            "bus": "yes",
+            "highway": "bus_stop",
+            "name": "Goodman & Highland",
+            "network": "Regional Transit Service",
+            "network:short": "RTS",
+            "network:wikidata": "Q128016163",
+            "operator": "Rochester-Genesee Regional Transportation Authority",
+            "operator:short": "RGRTA",
+            "operator:wikidata": "Q7353936",
+            "public_transport": "platform",
+            "ref": "1595"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Goodman & Highland",
+          "latitude": 43.1299129,
+          "longitude": -77.6012694,
+          "osmType": "node",
+          "osmId": 14068779979,
+          "sourceUrl": "https://www.openstreetmap.org/node/14068779979",
+          "tags": {
+            "bus": "yes",
+            "departures_board": "no",
+            "highway": "bus_stop",
+            "name": "Goodman & Highland",
+            "network": "Regional Transit Service",
+            "network:short": "RTS",
+            "network:wikidata": "Q128016163",
+            "operator": "Rochester-Genesee Regional Transportation Authority",
+            "operator:short": "RGRTA",
+            "operator:wikidata": "Q7353936",
+            "public_transport": "platform",
+            "ref": "1594",
+            "shelter": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "War on Terror Memorial",
+          "latitude": 43.1298118,
+          "longitude": -77.6101944,
+          "osmType": "node",
+          "osmId": 14078027988,
+          "sourceUrl": "https://www.openstreetmap.org/node/14078027988",
+          "tags": {
+            "alt_name": "9/11 Memorial",
+            "description": "Memorial at Highland/Beikirch Park dedicated to residents of Monroe County and surrounding counties who lost their lives in military conflicts since 1990, including the Gulf War, United Shield in Somalia, Enduring Freedom in Afghanistan and Iraqi Freedom.",
+            "historic": "memorial",
+            "material": "concrete",
+            "memorial": "war_memorial",
+            "name": "War on Terror Memorial",
+            "start_date": "2026-07-01"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Doctors Drive",
+          "latitude": 43.1332551,
+          "longitude": -77.6047722,
+          "osmType": "way",
+          "osmId": 20126312,
+          "sourceUrl": "https://www.openstreetmap.org/way/20126312",
+          "tags": {
+            "highway": "residential",
+            "name": "Doctors Drive",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Monroe, NY",
+            "tiger:name_base": "Doctors",
+            "tiger:name_type": "Dr",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Robinson Drive",
+          "latitude": 43.1338431,
+          "longitude": -77.6109081,
+          "osmType": "way",
+          "osmId": 20129356,
+          "sourceUrl": "https://www.openstreetmap.org/way/20129356",
+          "tags": {
+            "highway": "residential",
+            "maxspeed": "30 mph",
+            "name": "Robinson Drive",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Monroe, NY",
+            "tiger:name_base": "Robinson",
+            "tiger:name_type": "Dr",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Reservoir Avenue",
+          "latitude": 43.132159,
+          "longitude": -77.6066317,
+          "osmType": "way",
+          "osmId": 20132421,
+          "sourceUrl": "https://www.openstreetmap.org/way/20132421",
+          "tags": {
+            "highway": "residential",
+            "name": "Reservoir Avenue",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Monroe, NY",
+            "tiger:name_base": "Reservoir",
+            "tiger:name_type": "Ave",
+            "tiger:reviewed": "no",
+            "tiger:zip_left": "14620",
+            "tiger:zip_right": "14620"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Reservoir Avenue",
+          "latitude": 43.1325717,
+          "longitude": -77.6039506,
+          "osmType": "way",
+          "osmId": 20132422,
+          "sourceUrl": "https://www.openstreetmap.org/way/20132422",
+          "tags": {
+            "highway": "residential",
+            "name": "Reservoir Avenue",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Monroe, NY",
+            "tiger:name_base": "Reservoir",
+            "tiger:name_type": "Ave",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Pinetum Drive",
+          "latitude": 43.13248,
+          "longitude": -77.6021308,
+          "osmType": "way",
+          "osmId": 20135397,
+          "sourceUrl": "https://www.openstreetmap.org/way/20135397",
+          "tags": {
+            "highway": "residential",
+            "name": "Pinetum Drive",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Monroe, NY",
+            "tiger:name_base": "Pinetum",
+            "tiger:name_type": "Dr",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Highland Reservoir",
+          "latitude": 43.1311714,
+          "longitude": -77.6050348,
+          "osmType": "way",
+          "osmId": 33298174,
+          "sourceUrl": "https://www.openstreetmap.org/way/33298174",
+          "tags": {
+            "covered": "no",
+            "name": "Highland Reservoir",
+            "natural": "water",
+            "note": "used yahoo image",
+            "water": "reservoir"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "South Avenue",
+          "latitude": 43.1335086,
+          "longitude": -77.6087418,
+          "osmType": "way",
+          "osmId": 45883745,
+          "sourceUrl": "https://www.openstreetmap.org/way/45883745",
+          "tags": {
+            "bicycle": "yes",
+            "cycleway": "track",
+            "highway": "secondary",
+            "lanes": "2",
+            "maxspeed": "30 mph",
+            "name": "South Avenue",
+            "oneway": "no",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Monroe, NY",
+            "tiger:name_base": "South",
+            "tiger:name_type": "Ave",
+            "tiger:reviewed": "no",
+            "tiger:zip_left": "14620",
+            "tiger:zip_right": "14620"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Highland Park",
+          "latitude": 43.1301542,
+          "longitude": -77.606784,
+          "osmType": "way",
+          "osmId": 71471331,
+          "sourceUrl": "https://www.openstreetmap.org/way/71471331",
+          "tags": {
+            "ele": "182",
+            "gnis:feature_id": "952792",
+            "leisure": "park",
+            "name": "Highland Park",
+            "operator": "Monroe County Department of Parks",
+            "operator:type": "government",
+            "operator:wikidata": "Q128796753",
+            "website": "https://www.monroecounty.gov/parks-highland"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Lily Pond",
+          "latitude": 43.1347143,
+          "longitude": -77.6085453,
+          "osmType": "way",
+          "osmId": 71478930,
+          "sourceUrl": "https://www.openstreetmap.org/way/71478930",
+          "tags": {
+            "alt_name": "Highland Pond",
+            "intermittent": "yes",
+            "name": "Lily Pond",
+            "natural": "water",
+            "seasonal": "yes",
+            "source:name": "http://talkerofthetown.com/2018/01/30/lily-pond-highland-parks-hidden-ice-hockey-rink/",
+            "sport": "multi",
+            "water": "pond"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Pansy Bed",
+          "latitude": 43.1301367,
+          "longitude": -77.602262,
+          "osmType": "way",
+          "osmId": 857677822,
+          "sourceUrl": "https://www.openstreetmap.org/way/857677822",
+          "tags": {
+            "leisure": "garden",
+            "name": "Pansy Bed"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Lilac Adventure Zone",
+          "latitude": 43.128896,
+          "longitude": -77.6074522,
+          "osmType": "way",
+          "osmId": 858263574,
+          "sourceUrl": "https://www.openstreetmap.org/way/858263574",
+          "tags": {
+            "leisure": "playground",
+            "name": "Lilac Adventure Zone"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Sunken Garden",
+          "latitude": 43.1324723,
+          "longitude": -77.6110409,
+          "osmType": "way",
+          "osmId": 858265909,
+          "sourceUrl": "https://www.openstreetmap.org/way/858265909",
+          "tags": {
+            "leisure": "garden",
+            "name": "Sunken Garden"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Reservoir Avenue",
+          "latitude": 43.1319101,
+          "longitude": -77.6093417,
+          "osmType": "way",
+          "osmId": 1040801209,
+          "sourceUrl": "https://www.openstreetmap.org/way/1040801209",
+          "tags": {
+            "highway": "residential",
+            "name": "Reservoir Avenue",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Monroe, NY",
+            "tiger:name_base": "Reservoir",
+            "tiger:name_type": "Ave",
+            "tiger:reviewed": "no",
+            "tiger:zip_left": "14620",
+            "tiger:zip_right": "14620"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "South Goodman Street",
+          "latitude": 43.1277786,
+          "longitude": -77.6027128,
+          "osmType": "way",
+          "osmId": 1041470239,
+          "sourceUrl": "https://www.openstreetmap.org/way/1041470239",
+          "tags": {
+            "highway": "secondary",
+            "name": "South Goodman Street",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Monroe, NY",
+            "tiger:name_base": "Goodman",
+            "tiger:name_direction_suffix": "S",
+            "tiger:name_type": "St",
+            "tiger:zip_left": "14620",
+            "tiger:zip_right": "14620"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "South Goodman Street",
+          "latitude": 43.1311535,
+          "longitude": -77.6007797,
+          "osmType": "way",
+          "osmId": 1041569445,
+          "sourceUrl": "https://www.openstreetmap.org/way/1041569445",
+          "tags": {
+            "bicycle": "designated",
+            "cycleway": "shared_lane",
+            "highway": "secondary",
+            "name": "South Goodman Street",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Monroe, NY",
+            "tiger:name_base": "Goodman",
+            "tiger:name_direction_suffix": "S",
+            "tiger:name_type": "St",
+            "tiger:zip_left": "14620",
+            "tiger:zip_right": "14620"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "South Goodman Street",
+          "latitude": 43.1252975,
+          "longitude": -77.6043026,
+          "osmType": "way",
+          "osmId": 1164516444,
+          "sourceUrl": "https://www.openstreetmap.org/way/1164516444",
+          "tags": {
+            "highway": "secondary",
+            "name": "South Goodman Street",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Monroe, NY",
+            "tiger:name_base": "Goodman",
+            "tiger:name_direction_suffix": "S",
+            "tiger:name_type": "St",
+            "tiger:zip_left": "14620",
+            "tiger:zip_right": "14620"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Highland Avenue",
+          "latitude": 43.1298269,
+          "longitude": -77.6073292,
+          "osmType": "way",
+          "osmId": 1279302835,
+          "sourceUrl": "https://www.openstreetmap.org/way/1279302835",
+          "tags": {
+            "highway": "tertiary",
+            "lanes": "2",
+            "lit": "yes",
+            "maxspeed": "30 mph",
+            "name": "Highland Avenue",
+            "sidewalk": "both",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Monroe, NY",
+            "tiger:name_base": "Highland",
+            "tiger:name_type": "Ave",
+            "tiger:zip_left": "14610",
+            "tiger:zip_right": "14610"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Reservoir Avenue",
+          "latitude": 43.1325611,
+          "longitude": -77.6041551,
+          "osmType": "way",
+          "osmId": 1547835238,
+          "sourceUrl": "https://www.openstreetmap.org/way/1547835238",
+          "tags": {
+            "highway": "residential",
+            "name": "Reservoir Avenue",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Monroe, NY",
+            "tiger:name_base": "Reservoir",
+            "tiger:name_type": "Ave",
+            "tiger:reviewed": "no",
+            "tiger:zip_left": "14620",
+            "tiger:zip_right": "14620"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    },
+    "launch-ny-rochester-genesee-valley-park": {
+      "name": "Genesee Valley Park",
+      "boundarySource": "https://www.openstreetmap.org/relation/16869027",
+      "candidates": [
+        {
+          "name": "Genesee Valley Park Sports Complex",
+          "latitude": 43.1238258,
+          "longitude": -77.6351362,
+          "osmType": "node",
+          "osmId": 3186750677,
+          "sourceUrl": "https://www.openstreetmap.org/node/3186750677",
+          "tags": {
+            "leisure": "sports_centre",
+            "name": "Genesee Valley Park Sports Complex"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Moore Road",
+          "latitude": 43.1215339,
+          "longitude": -77.6332816,
+          "osmType": "way",
+          "osmId": 20111782,
+          "sourceUrl": "https://www.openstreetmap.org/way/20111782",
+          "tags": {
+            "highway": "residential",
+            "name": "Moore Road",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Monroe, NY",
+            "tiger:name_base": "Hawthorn",
+            "tiger:name_type": "Dr",
+            "tiger:reviewed": "yes"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Park Lot Exit",
+          "latitude": 43.1230675,
+          "longitude": -77.6313489,
+          "osmType": "way",
+          "osmId": 20128811,
+          "sourceUrl": "https://www.openstreetmap.org/way/20128811",
+          "tags": {
+            "highway": "service",
+            "name": "Park Lot Exit",
+            "oneway": "yes",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Monroe, NY",
+            "tiger:name_base": "University of Rochester",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Outer Loop",
+          "latitude": 43.1206098,
+          "longitude": -77.6429232,
+          "osmType": "way",
+          "osmId": 24016045,
+          "sourceUrl": "https://www.openstreetmap.org/way/24016045",
+          "tags": {
+            "bicycle": "no",
+            "bridge": "yes",
+            "foot": "no",
+            "hgv": "designated",
+            "highway": "motorway",
+            "horse": "no",
+            "lanes": "3",
+            "layer": "1",
+            "maxspeed": "55 mph",
+            "name": "Outer Loop",
+            "oneway": "yes",
+            "ref": "I 390",
+            "surface": "concrete",
+            "tiger:cfcc": "A15",
+            "tiger:county": "Monroe, NY",
+            "tiger:name_base": "I-390"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Red Creek Trail",
+          "latitude": 43.1170994,
+          "longitude": -77.6407515,
+          "osmType": "way",
+          "osmId": 24036240,
+          "sourceUrl": "https://www.openstreetmap.org/way/24036240",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Red Creek Trail"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Ice Arena",
+          "latitude": 43.1240944,
+          "longitude": -77.6344403,
+          "osmType": "way",
+          "osmId": 33743452,
+          "sourceUrl": "https://www.openstreetmap.org/way/33743452",
+          "tags": {
+            "addr:city": "Rochester",
+            "addr:housenumber": "133",
+            "addr:postcode": "14611",
+            "addr:state": "NY",
+            "addr:street": "Elmwood Avenue",
+            "building": "yes",
+            "leisure": "ice_rink",
+            "lit": "yes",
+            "name": "Ice Arena",
+            "nysgissam:nysaddresspointid": "MONR016499",
+            "sport": "ice_hockey"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Genesee Valley Greenway",
+          "latitude": 43.122444,
+          "longitude": -77.6426716,
+          "osmType": "way",
+          "osmId": 39375971,
+          "sourceUrl": "https://www.openstreetmap.org/way/39375971",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Genesee Valley Greenway",
+            "segregated": "no",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "River Bend Shelter",
+          "latitude": 43.1212778,
+          "longitude": -77.6356904,
+          "osmType": "way",
+          "osmId": 51063693,
+          "sourceUrl": "https://www.openstreetmap.org/way/51063693",
+          "tags": {
+            "addr:city": "Rochester",
+            "addr:housenumber": "4",
+            "addr:postcode": "14623",
+            "addr:state": "NY",
+            "addr:street": "Moore Road",
+            "amenity": "shelter",
+            "bin": "no",
+            "building": "yes",
+            "name": "River Bend Shelter",
+            "nysgissam:nysaddresspointid": "MONR255184",
+            "shelter_type": "picnic_shelter"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Roundhouse Shelter",
+          "latitude": 43.1200463,
+          "longitude": -77.636456,
+          "osmType": "way",
+          "osmId": 51063694,
+          "sourceUrl": "https://www.openstreetmap.org/way/51063694",
+          "tags": {
+            "addr:city": "Rochester",
+            "addr:housenumber": "10",
+            "addr:postcode": "14611",
+            "addr:state": "NY",
+            "addr:street": "Moore Road",
+            "amenity": "shelter",
+            "building": "yes",
+            "layer": "1",
+            "name": "Roundhouse Shelter",
+            "nysgissam:nysaddresspointid": "MONR255182"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Canalside Shelter",
+          "latitude": 43.1200807,
+          "longitude": -77.6377662,
+          "osmType": "way",
+          "osmId": 51063695,
+          "sourceUrl": "https://www.openstreetmap.org/way/51063695",
+          "tags": {
+            "addr:city": "Rochester",
+            "addr:housenumber": "16",
+            "addr:postcode": "14611",
+            "addr:state": "NY",
+            "addr:street": "Moore Road",
+            "amenity": "shelter",
+            "building": "yes",
+            "name": "Canalside Shelter",
+            "nysgissam:nysaddresspointid": "MONR255183",
+            "shelter_type": "picnic_shelter"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Erie Canalway Trail",
+          "latitude": 43.122603,
+          "longitude": -77.6398476,
+          "osmType": "way",
+          "osmId": 53541934,
+          "sourceUrl": "https://www.openstreetmap.org/way/53541934",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Erie Canalway Trail",
+            "segregated": "no",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Elmwood Loop",
+          "latitude": 43.1248022,
+          "longitude": -77.6351,
+          "osmType": "way",
+          "osmId": 68855884,
+          "sourceUrl": "https://www.openstreetmap.org/way/68855884",
+          "tags": {
+            "highway": "service",
+            "name": "Elmwood Loop",
+            "oneway": "yes"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Red Creek Trail",
+          "latitude": 43.1200928,
+          "longitude": -77.6387292,
+          "osmType": "way",
+          "osmId": 75694912,
+          "sourceUrl": "https://www.openstreetmap.org/way/75694912",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "lit": "no",
+            "name": "Red Creek Trail",
+            "segregated": "no",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Genesee Riverway Trail",
+          "latitude": 43.1226683,
+          "longitude": -77.6389219,
+          "osmType": "way",
+          "osmId": 75694913,
+          "sourceUrl": "https://www.openstreetmap.org/way/75694913",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Genesee Riverway Trail",
+            "segregated": "no",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Red Creek Trail",
+          "latitude": 43.1200702,
+          "longitude": -77.6385656,
+          "osmType": "way",
+          "osmId": 75694922,
+          "sourceUrl": "https://www.openstreetmap.org/way/75694922",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "lit": "no",
+            "name": "Red Creek Trail",
+            "segregated": "no",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "East River Road",
+          "latitude": 43.1120138,
+          "longitude": -77.6522098,
+          "osmType": "way",
+          "osmId": 75748080,
+          "sourceUrl": "https://www.openstreetmap.org/way/75748080",
+          "tags": {
+            "highway": "tertiary",
+            "lanes": "2",
+            "maxspeed": "30 mph",
+            "name": "East River Road"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Genesee Riverway Trail",
+          "latitude": 43.1228766,
+          "longitude": -77.6356983,
+          "osmType": "way",
+          "osmId": 264817016,
+          "sourceUrl": "https://www.openstreetmap.org/way/264817016",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Genesee Riverway Trail",
+            "segregated": "no",
+            "surface": "paved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Red Creek",
+          "latitude": 43.1057244,
+          "longitude": -77.6501919,
+          "osmType": "way",
+          "osmId": 275511908,
+          "sourceUrl": "https://www.openstreetmap.org/way/275511908",
+          "tags": {
+            "name": "Red Creek",
+            "waterway": "stream"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Aquatics Center",
+          "latitude": 43.124215,
+          "longitude": -77.6348021,
+          "osmType": "way",
+          "osmId": 312786300,
+          "sourceUrl": "https://www.openstreetmap.org/way/312786300",
+          "tags": {
+            "building": "yes",
+            "leisure": "sports_centre",
+            "name": "Aquatics Center",
+            "sport": "swimming"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Outer Loop",
+          "latitude": 43.1204714,
+          "longitude": -77.6431245,
+          "osmType": "way",
+          "osmId": 611680422,
+          "sourceUrl": "https://www.openstreetmap.org/way/611680422",
+          "tags": {
+            "bicycle": "no",
+            "bridge": "yes",
+            "foot": "no",
+            "hgv": "designated",
+            "highway": "motorway",
+            "horse": "no",
+            "lanes": "3",
+            "layer": "1",
+            "maxspeed": "55 mph",
+            "name": "Outer Loop",
+            "oneway": "yes",
+            "ref": "I 390",
+            "surface": "concrete",
+            "tiger:cfcc": "A15",
+            "tiger:county": "Monroe, NY",
+            "tiger:name_base": "I-390"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Genesee Valley Greenway",
+          "latitude": 43.1227733,
+          "longitude": -77.641993,
+          "osmType": "way",
+          "osmId": 612333156,
+          "sourceUrl": "https://www.openstreetmap.org/way/612333156",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Genesee Valley Greenway",
+            "surface": "paved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Genesee Riverway Trail",
+          "latitude": 43.1226655,
+          "longitude": -77.6409577,
+          "osmType": "way",
+          "osmId": 612333157,
+          "sourceUrl": "https://www.openstreetmap.org/way/612333157",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Genesee Riverway Trail",
+            "segregated": "no",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Genesee Riverway Trail",
+          "latitude": 43.1213652,
+          "longitude": -77.6396598,
+          "osmType": "way",
+          "osmId": 613101720,
+          "sourceUrl": "https://www.openstreetmap.org/way/613101720",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Genesee Riverway Trail",
+            "surface": "paved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Genesee Valley Golf Course South",
+          "latitude": 43.1086523,
+          "longitude": -77.6543412,
+          "osmType": "way",
+          "osmId": 617520258,
+          "sourceUrl": "https://www.openstreetmap.org/way/617520258",
+          "tags": {
+            "addr:city": "Rochester",
+            "addr:housenumber": "1000",
+            "addr:postcode": "14623",
+            "addr:state": "NY",
+            "addr:street": "East River Road",
+            "leisure": "golf_course",
+            "name": "Genesee Valley Golf Course South",
+            "operator": "Monroe County Parks",
+            "phone": "+1 585-424-2920",
+            "source": "DigitalGlobe-Premium",
+            "website": "https://www.monroecounty.gov/parks-geneseevalley.php"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Dogwood Shelter",
+          "latitude": 43.1152752,
+          "longitude": -77.6385298,
+          "osmType": "way",
+          "osmId": 617534308,
+          "sourceUrl": "https://www.openstreetmap.org/way/617534308",
+          "tags": {
+            "addr:city": "Rochester",
+            "addr:housenumber": "52",
+            "addr:postcode": "14623",
+            "addr:state": "NY",
+            "addr:street": "Hawthorn Drive",
+            "amenity": "shelter",
+            "bin": "no",
+            "building": "yes",
+            "name": "Dogwood Shelter",
+            "nysgissam:nysaddresspointid": "MONR013799",
+            "nysgissam:review": "no matching street nearby",
+            "shelter_type": "picnic_shelter"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Hawthorne Shelter",
+          "latitude": 43.1166213,
+          "longitude": -77.6382514,
+          "osmType": "way",
+          "osmId": 617534311,
+          "sourceUrl": "https://www.openstreetmap.org/way/617534311",
+          "tags": {
+            "addr:city": "Rochester",
+            "addr:housenumber": "44",
+            "addr:postcode": "14623",
+            "addr:state": "NY",
+            "addr:street": "Hawthorn Drive",
+            "amenity": "shelter",
+            "bin": "no",
+            "building": "yes",
+            "name": "Hawthorne Shelter",
+            "nysgissam:nysaddresspointid": "MONR015018",
+            "nysgissam:review": "no matching street nearby",
+            "shelter_type": "picnic_shelter"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Tupelo Shelter",
+          "latitude": 43.11494,
+          "longitude": -77.6388005,
+          "osmType": "way",
+          "osmId": 617534313,
+          "sourceUrl": "https://www.openstreetmap.org/way/617534313",
+          "tags": {
+            "addr:city": "Rochester",
+            "addr:housenumber": "54",
+            "addr:postcode": "14623",
+            "addr:state": "NY",
+            "addr:street": "Hawthorn Drive",
+            "amenity": "shelter",
+            "bin": "no",
+            "building": "yes",
+            "name": "Tupelo Shelter",
+            "nysgissam:nysaddresspointid": "MONR013482",
+            "nysgissam:review": "no matching street nearby",
+            "shelter_type": "picnic_shelter"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "cricket pitch",
+          "latitude": 43.1163645,
+          "longitude": -77.6411983,
+          "osmType": "way",
+          "osmId": 617535042,
+          "sourceUrl": "https://www.openstreetmap.org/way/617535042",
+          "tags": {
+            "leisure": "pitch",
+            "name": "cricket pitch",
+            "source": "DigitalGlobe-Premium",
+            "sport": "cricket"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Red Creek Shelter",
+          "latitude": 43.1180226,
+          "longitude": -77.6404589,
+          "osmType": "way",
+          "osmId": 617536101,
+          "sourceUrl": "https://www.openstreetmap.org/way/617536101",
+          "tags": {
+            "amenity": "shelter",
+            "bin": "no",
+            "building": "yes",
+            "name": "Red Creek Shelter",
+            "shelter_type": "picnic_shelter"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Red Creek Trail",
+          "latitude": 43.1145694,
+          "longitude": -77.6420952,
+          "osmType": "way",
+          "osmId": 617697790,
+          "sourceUrl": "https://www.openstreetmap.org/way/617697790",
+          "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "name": "Red Creek Trail"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Red Creek Trail",
+          "latitude": 43.114325,
+          "longitude": -77.6407006,
+          "osmType": "way",
+          "osmId": 617697791,
+          "sourceUrl": "https://www.openstreetmap.org/way/617697791",
+          "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "name": "Red Creek Trail"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Genesee Valley Golf Course North",
+          "latitude": 43.1125711,
+          "longitude": -77.6507788,
+          "osmType": "way",
+          "osmId": 1154639653,
+          "sourceUrl": "https://www.openstreetmap.org/way/1154639653",
+          "tags": {
+            "addr:city": "Rochester",
+            "addr:housenumber": "1000",
+            "addr:postcode": "14623",
+            "addr:state": "NY",
+            "addr:street": "East River Road",
+            "leisure": "golf_course",
+            "name": "Genesee Valley Golf Course North",
+            "operator": "Monroe County Parks",
+            "phone": "+1 585-424-2920",
+            "website": "https://monroecountyparksgolf.com/genesee-valley/"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Erie Canalway Trail",
+          "latitude": 43.1215404,
+          "longitude": -77.6397907,
+          "osmType": "way",
+          "osmId": 1293188421,
+          "sourceUrl": "https://www.openstreetmap.org/way/1293188421",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Erie Canalway Trail",
+            "segregated": "no",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Erie Canalway Trail",
+          "latitude": 43.1213644,
+          "longitude": -77.6399483,
+          "osmType": "way",
+          "osmId": 1299921864,
+          "sourceUrl": "https://www.openstreetmap.org/way/1299921864",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Erie Canalway Trail",
+            "segregated": "no",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Genesee River",
+          "latitude": 43.1230408,
+          "longitude": -77.6362056,
+          "osmType": "way",
+          "osmId": 1329228865,
+          "sourceUrl": "https://www.openstreetmap.org/way/1329228865",
+          "tags": {
+            "FIXME:motorboat": "verify",
+            "FIXME:ship": "verify",
+            "boat": "yes",
+            "canoe": "yes",
+            "covered": "no",
+            "deep_draft": "no",
+            "intermittent": "no",
+            "motorboat": "yes",
+            "name": "Genesee River",
+            "name:see": "Casconchiagon",
+            "oneway:boat": "no",
+            "ship": "yes",
+            "tidal": "no",
+            "waterway": "river"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Genesee Valley Park",
+          "latitude": 43.1162073,
+          "longitude": -77.6465211,
+          "osmType": "relation",
+          "osmId": 16869027,
+          "sourceUrl": "https://www.openstreetmap.org/relation/16869027",
+          "tags": {
+            "description": "Jointly operated by the City of Rochester (portion within city limits) and the Monroe County Department of Parks (portion outside of the city limits)",
+            "gnis:feature_id": "950997",
+            "leisure": "park",
+            "name": "Genesee Valley Park",
+            "operator": "Monroe County Department of Parks;City of Rochester",
+            "operator:type": "government",
+            "type": "multipolygon",
+            "website": "https://www.cityofrochester.gov/geneseevalleypark/",
+            "wikidata": "Q5532747",
+            "wikipedia": "en:Genesee Valley Park"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    },
+    "launch-ny-albany-washington-park": {
+      "name": "Washington Park",
+      "boundarySource": "https://www.openstreetmap.org/way/37900371",
+      "candidates": [
+        {
+          "name": "Henry Johnson Memorial",
+          "latitude": 42.6538306,
+          "longitude": -73.7689744,
+          "osmType": "node",
+          "osmId": 1039462577,
+          "sourceUrl": "https://www.openstreetmap.org/node/1039462577",
+          "tags": {
+            "historic": "memorial",
+            "name": "Henry Johnson Memorial",
+            "start_date": "1991"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Robert Burns Statue",
+          "latitude": 42.655101,
+          "longitude": -73.7679846,
+          "osmType": "node",
+          "osmId": 1039462627,
+          "sourceUrl": "https://www.openstreetmap.org/node/1039462627",
+          "tags": {
+            "artist_name": "Charles Caverly",
+            "height": "4.8768",
+            "historic": "monument",
+            "name": "Robert Burns Statue",
+            "start_date": "1888"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Park Playhouse",
+          "latitude": 42.6562616,
+          "longitude": -73.771831,
+          "osmType": "node",
+          "osmId": 1039462856,
+          "sourceUrl": "https://www.openstreetmap.org/node/1039462856",
+          "tags": {
+            "alt_name": "Washington Park Amphitheater",
+            "amenity": "theatre",
+            "capacity": "1500",
+            "fee": "no",
+            "lit": "yes",
+            "name": "Park Playhouse",
+            "operator": "Playhouse Stage Company",
+            "seasonal": "yes",
+            "theatre:type": "amphi",
+            "website": "http://www.parkplayhouse.com/"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "King Memorial Fountain",
+          "latitude": 42.6550063,
+          "longitude": -73.7700875,
+          "osmType": "node",
+          "osmId": 1039462878,
+          "sourceUrl": "https://www.openstreetmap.org/node/1039462878",
+          "tags": {
+            "alt_name": "Moses Fountain",
+            "artist_name": "J. Massey Rhind",
+            "historic": "memorial",
+            "name": "King Memorial Fountain",
+            "start_date": "1893"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Marinus Willett Memorial",
+          "latitude": 42.6565153,
+          "longitude": -73.7656417,
+          "osmType": "node",
+          "osmId": 1039465888,
+          "sourceUrl": "https://www.openstreetmap.org/node/1039465888",
+          "tags": {
+            "historic": "memorial",
+            "name": "Marinus Willett Memorial",
+            "natural": "stone",
+            "start_date": "1907"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Washington Park - Madison & New Scotland",
+          "latitude": 42.6552028,
+          "longitude": -73.7714142,
+          "osmType": "node",
+          "osmId": 5038106415,
+          "sourceUrl": "https://www.openstreetmap.org/node/5038106415",
+          "tags": {
+            "amenity": "bicycle_rental",
+            "capacity": "12",
+            "name": "Washington Park - Madison & New Scotland",
+            "network": "CDPHP Cycle",
+            "operator": "Social Bicycles Inc."
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Dr. James H. Armsby Memorial",
+          "latitude": 42.6568491,
+          "longitude": -73.7683977,
+          "osmType": "node",
+          "osmId": 5541419734,
+          "sourceUrl": "https://www.openstreetmap.org/node/5541419734",
+          "tags": {
+            "artist_name": "E.D. Palmer;F. Barhedienne",
+            "historic": "memorial",
+            "name": "Dr. James H. Armsby Memorial",
+            "start_date": "1879"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Washington Park Farmers Market",
+          "latitude": 42.6555548,
+          "longitude": -73.7680528,
+          "osmType": "node",
+          "osmId": 10899967107,
+          "sourceUrl": "https://www.openstreetmap.org/node/10899967107",
+          "tags": {
+            "amenity": "marketplace",
+            "name": "Washington Park Farmers Market",
+            "opening_hours": "Jul-Sep Sa 10:00-14:00",
+            "operator": "Guilderland Farmers Market, llc",
+            "shop": "farm",
+            "website": "https://washingtonparkfarmersmarket.com/"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Washington Park",
+          "latitude": 42.6551832,
+          "longitude": -73.7714268,
+          "osmType": "node",
+          "osmId": 12279570099,
+          "sourceUrl": "https://www.openstreetmap.org/node/12279570099",
+          "tags": {
+            "historic": "memorial",
+            "memorial": "plaque",
+            "name": "Washington Park",
+            "note": "historical roadside plaque"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Tulip Festival",
+          "latitude": 42.6545661,
+          "longitude": -73.7704763,
+          "osmType": "node",
+          "osmId": 12892433221,
+          "sourceUrl": "https://www.openstreetmap.org/node/12892433221",
+          "tags": {
+            "name": "Tulip Festival",
+            "note": "generally takes place mid-may each year",
+            "opening_hours": "May: Sa[2], Su[2]",
+            "tourism": "attraction",
+            "website": "https://www.albanyevents.org/events/albany-tulip-festival/"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Washington Park",
+          "latitude": 42.6550271,
+          "longitude": -73.7718722,
+          "osmType": "node",
+          "osmId": 13067760648,
+          "sourceUrl": "https://www.openstreetmap.org/node/13067760648",
+          "tags": {
+            "historic": "memorial",
+            "memorial": "plaque",
+            "name": "Washington Park"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Albany Plan of Union Avenue",
+          "latitude": 42.6588519,
+          "longitude": -73.7706099,
+          "osmType": "node",
+          "osmId": 13314906933,
+          "sourceUrl": "https://www.openstreetmap.org/node/13314906933",
+          "tags": {
+            "historic": "memorial",
+            "inscription": "Dedicated on May 7, 1988 by the Albany Commission on the Bicentennial of the U.S. Constitution \"Albany Plan of Union\", written in 1754 by the Albany Congress, foreshadowed adjustments of power & authority-elements fundamental to the 1787 United States Con",
+            "material": "metal",
+            "memorial": "plaque",
+            "name": "Albany Plan of Union Avenue",
+            "natural": "stone"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Thurlow Terrace",
+          "latitude": 42.6591405,
+          "longitude": -73.774797,
+          "osmType": "way",
+          "osmId": 5569049,
+          "sourceUrl": "https://www.openstreetmap.org/way/5569049",
+          "tags": {
+            "foot": "yes",
+            "highway": "service",
+            "motor_vehicle": "no",
+            "name": "Thurlow Terrace",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Albany, NY",
+            "tiger:name_base": "Thurlow",
+            "tiger:name_type": "Ter",
+            "tiger:reviewed": "no",
+            "tiger:zip_left": "12203",
+            "tiger:zip_right": "12203"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "New Scotland Avenue",
+          "latitude": 42.6550371,
+          "longitude": -73.771971,
+          "osmType": "way",
+          "osmId": 5574024,
+          "sourceUrl": "https://www.openstreetmap.org/way/5574024",
+          "tags": {
+            "highway": "unclassified",
+            "maxspeed": "20 mph",
+            "name": "New Scotland Avenue",
+            "name_1": "New Scotland Road",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Albany, NY",
+            "tiger:name_base": "New Scotland",
+            "tiger:name_base_1": "New Scotland",
+            "tiger:name_type": "Ave",
+            "tiger:name_type_1": "Rd",
+            "tiger:zip_left": "12208",
+            "tiger:zip_right": "12208"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Englewood Place",
+          "latitude": 42.6578939,
+          "longitude": -73.7725373,
+          "osmType": "way",
+          "osmId": 5582667,
+          "sourceUrl": "https://www.openstreetmap.org/way/5582667",
+          "tags": {
+            "foot": "yes",
+            "highway": "service",
+            "motor_vehicle": "no",
+            "name": "Englewood Place",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Albany, NY",
+            "tiger:name_base": "Englewood",
+            "tiger:name_type": "Pl",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Washington Park Road",
+          "latitude": 42.6567719,
+          "longitude": -73.7698886,
+          "osmType": "way",
+          "osmId": 5592829,
+          "sourceUrl": "https://www.openstreetmap.org/way/5592829",
+          "tags": {
+            "foot": "yes",
+            "highway": "service",
+            "motor_vehicle": "no",
+            "name": "Washington Park Road",
+            "tiger:cfcc": "A74",
+            "tiger:county": "Albany, NY",
+            "tiger:name_base": "Washington Park",
+            "tiger:name_type": "Rd",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Washington Park Road",
+          "latitude": 42.6548101,
+          "longitude": -73.7676288,
+          "osmType": "way",
+          "osmId": 5592835,
+          "sourceUrl": "https://www.openstreetmap.org/way/5592835",
+          "tags": {
+            "goods": "no",
+            "hgv": "no",
+            "highway": "residential",
+            "maxspeed": "20 mph",
+            "name": "Washington Park Road",
+            "tiger:cfcc": "A74",
+            "tiger:county": "Albany, NY",
+            "tiger:name_base": "Washington Park",
+            "tiger:name_type": "Rd",
+            "tiger:source": "tiger_import_dch_v0.6_20070829",
+            "tiger:tlid": "18354336:18355349:18355271",
+            "tiger:upload_uuid": "bulk_upload.pl-7a8b8348-e1c4-4793-875d-a8017a3888d6"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Henry Johnson Boulevard",
+          "latitude": 42.656959,
+          "longitude": -73.7664743,
+          "osmType": "way",
+          "osmId": 5592836,
+          "sourceUrl": "https://www.openstreetmap.org/way/5592836",
+          "tags": {
+            "highway": "residential",
+            "maxspeed": "20 mph",
+            "name": "Henry Johnson Boulevard",
+            "tiger:cfcc": "A74",
+            "tiger:county": "Albany, NY",
+            "tiger:name_base": "Washington Park",
+            "tiger:name_type": "Rd",
+            "tiger:source": "tiger_import_dch_v0.6_20070829",
+            "tiger:tlid": "18353014",
+            "tiger:upload_uuid": "bulk_upload.pl-7a8b8348-e1c4-4793-875d-a8017a3888d6"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Washington Park Road",
+          "latitude": 42.6545475,
+          "longitude": -73.770306,
+          "osmType": "way",
+          "osmId": 5592854,
+          "sourceUrl": "https://www.openstreetmap.org/way/5592854",
+          "tags": {
+            "goods": "no",
+            "hgv": "no",
+            "highway": "unclassified",
+            "maxspeed": "20 mph",
+            "name": "Washington Park Road",
+            "tiger:cfcc": "A74",
+            "tiger:county": "Albany, NY",
+            "tiger:name_base": "Washington Park",
+            "tiger:name_type": "Rd"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Washington Park Road",
+          "latitude": 42.6535065,
+          "longitude": -73.7690658,
+          "osmType": "way",
+          "osmId": 5592856,
+          "sourceUrl": "https://www.openstreetmap.org/way/5592856",
+          "tags": {
+            "goods": "no",
+            "hgv": "no",
+            "highway": "unclassified",
+            "maxspeed": "20 mph",
+            "name": "Washington Park Road",
+            "tiger:cfcc": "A74",
+            "tiger:county": "Albany, NY",
+            "tiger:name_base": "Washington Park",
+            "tiger:name_type": "Rd"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Henry Johnson Boulevard",
+          "latitude": 42.6543115,
+          "longitude": -73.7682695,
+          "osmType": "way",
+          "osmId": 5592858,
+          "sourceUrl": "https://www.openstreetmap.org/way/5592858",
+          "tags": {
+            "goods": "no",
+            "hgv": "no",
+            "highway": "unclassified",
+            "maxspeed": "20 mph",
+            "name": "Henry Johnson Boulevard",
+            "tiger:cfcc": "A74",
+            "tiger:county": "Albany, NY",
+            "tiger:name_base": "Washington Park",
+            "tiger:name_type": "Rd"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Washington Park Road",
+          "latitude": 42.6559643,
+          "longitude": -73.7698615,
+          "osmType": "way",
+          "osmId": 5592862,
+          "sourceUrl": "https://www.openstreetmap.org/way/5592862",
+          "tags": {
+            "foot": "yes",
+            "highway": "service",
+            "motor_vehicle": "no",
+            "name": "Washington Park Road",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Albany, NY",
+            "tiger:name_base": "Washington Park",
+            "tiger:name_type": "Rd",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Washington Park Road",
+          "latitude": 42.6564144,
+          "longitude": -73.766261,
+          "osmType": "way",
+          "osmId": 5592866,
+          "sourceUrl": "https://www.openstreetmap.org/way/5592866",
+          "tags": {
+            "goods": "no",
+            "hgv": "no",
+            "highway": "residential",
+            "maxspeed": "20 mph",
+            "name": "Washington Park Road",
+            "oneway": "yes",
+            "tiger:cfcc": "A74",
+            "tiger:county": "Albany, NY",
+            "tiger:name_base": "Washington Park",
+            "tiger:name_type": "Rd"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Washington Park Road",
+          "latitude": 42.655665,
+          "longitude": -73.7668712,
+          "osmType": "way",
+          "osmId": 5592870,
+          "sourceUrl": "https://www.openstreetmap.org/way/5592870",
+          "tags": {
+            "highway": "residential",
+            "maxspeed": "20 mph",
+            "name": "Washington Park Road",
+            "oneway": "yes",
+            "tiger:cfcc": "A74",
+            "tiger:county": "Albany, NY",
+            "tiger:name_base": "Washington Park",
+            "tiger:name_type": "Rd"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Albany Plan of Union Avenue",
+          "latitude": 42.6572573,
+          "longitude": -73.7738899,
+          "osmType": "way",
+          "osmId": 5592874,
+          "sourceUrl": "https://www.openstreetmap.org/way/5592874",
+          "tags": {
+            "goods": "no",
+            "hgv": "no",
+            "highway": "residential",
+            "maxspeed": "20 mph",
+            "motor_vehicle": "designated",
+            "name": "Albany Plan of Union Avenue",
+            "note": "typically road is closed to vehicles but it is sometimes open",
+            "oneway": "yes",
+            "tiger:county": "Albany, NY"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Washington Park Road",
+          "latitude": 42.6545421,
+          "longitude": -73.7677259,
+          "osmType": "way",
+          "osmId": 5592876,
+          "sourceUrl": "https://www.openstreetmap.org/way/5592876",
+          "tags": {
+            "goods": "no",
+            "hgv": "no",
+            "highway": "residential",
+            "maxspeed": "20 mph",
+            "name": "Washington Park Road",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Albany, NY",
+            "tiger:name_base": "Washington Park",
+            "tiger:name_type": "Rd"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Washington Park Road",
+          "latitude": 42.657792,
+          "longitude": -73.7728831,
+          "osmType": "way",
+          "osmId": 5592882,
+          "sourceUrl": "https://www.openstreetmap.org/way/5592882",
+          "tags": {
+            "foot": "yes",
+            "highway": "service",
+            "motor_vehicle": "no",
+            "name": "Washington Park Road",
+            "tiger:cfcc": "A74",
+            "tiger:county": "Albany, NY",
+            "tiger:name_base": "Washington Park",
+            "tiger:name_type": "Rd",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Washington Park Road",
+          "latitude": 42.655775,
+          "longitude": -73.7712855,
+          "osmType": "way",
+          "osmId": 5592888,
+          "sourceUrl": "https://www.openstreetmap.org/way/5592888",
+          "tags": {
+            "foot": "yes",
+            "highway": "service",
+            "motor_vehicle": "no",
+            "name": "Washington Park Road",
+            "surface": "asphalt",
+            "tiger:cfcc": "A74",
+            "tiger:county": "Albany, NY"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Washington Park Road",
+          "latitude": 42.6572457,
+          "longitude": -73.7709108,
+          "osmType": "way",
+          "osmId": 5592894,
+          "sourceUrl": "https://www.openstreetmap.org/way/5592894",
+          "tags": {
+            "foot": "yes",
+            "highway": "service",
+            "motor_vehicle": "no",
+            "name": "Washington Park Road",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Albany, NY",
+            "tiger:name_base": "Washington Park",
+            "tiger:name_type": "Rd",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Washington Park Road",
+          "latitude": 42.658047,
+          "longitude": -73.768598,
+          "osmType": "way",
+          "osmId": 5592896,
+          "sourceUrl": "https://www.openstreetmap.org/way/5592896",
+          "tags": {
+            "goods": "no",
+            "hgv": "no",
+            "highway": "residential",
+            "maxspeed": "20 mph",
+            "name": "Washington Park Road",
+            "tiger:cfcc": "A74",
+            "tiger:county": "Albany, NY",
+            "tiger:name_base": "Washington Park",
+            "tiger:name_type": "Rd"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Washington Park",
+          "latitude": 42.6564899,
+          "longitude": -73.7713718,
+          "osmType": "way",
+          "osmId": 37900371,
+          "sourceUrl": "https://www.openstreetmap.org/way/37900371",
+          "tags": {
+            "architect": "John Bogart;John Cuyler",
+            "historic": "yes",
+            "leisure": "park",
+            "name": "Washington Park",
+            "wikidata": "Q7972111",
+            "wikipedia": "en:Washington Park Historic District (Albany, New York)"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Albany Plan of Union Avenue",
+          "latitude": 42.658434,
+          "longitude": -73.7694358,
+          "osmType": "way",
+          "osmId": 38208653,
+          "sourceUrl": "https://www.openstreetmap.org/way/38208653",
+          "tags": {
+            "goods": "no",
+            "hgv": "no",
+            "highway": "residential",
+            "maxspeed": "20 mph",
+            "name": "Albany Plan of Union Avenue",
+            "name_1": "Washington Park Road",
+            "tiger:cfcc": "A74",
+            "tiger:county": "Albany, NY",
+            "tiger:name_base": "Washington Park",
+            "tiger:name_type": "Rd"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Washington Park Road",
+          "latitude": 42.6567136,
+          "longitude": -73.7677447,
+          "osmType": "way",
+          "osmId": 38744688,
+          "sourceUrl": "https://www.openstreetmap.org/way/38744688",
+          "tags": {
+            "goods": "no",
+            "hgv": "no",
+            "highway": "unclassified",
+            "maxspeed": "20 mph",
+            "name": "Washington Park Road",
+            "note": "Subject to closure for special events",
+            "tiger:cfcc": "A74",
+            "tiger:county": "Albany, NY",
+            "tiger:name_base": "Washington Park",
+            "tiger:name_type": "Rd"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Albany Plan of Union Avenue",
+          "latitude": 42.6574918,
+          "longitude": -73.7678711,
+          "osmType": "way",
+          "osmId": 38763837,
+          "sourceUrl": "https://www.openstreetmap.org/way/38763837",
+          "tags": {
+            "goods": "no",
+            "hgv": "no",
+            "highway": "residential",
+            "maxspeed": "20 mph",
+            "name": "Albany Plan of Union Avenue",
+            "name_1": "Washington Park Road",
+            "tiger:cfcc": "A74",
+            "tiger:county": "Albany, NY",
+            "tiger:name_base": "Washington Park",
+            "tiger:name_type": "Rd"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Knox Street Mall",
+          "latitude": 42.6551908,
+          "longitude": -73.7683474,
+          "osmType": "way",
+          "osmId": 89533434,
+          "sourceUrl": "https://www.openstreetmap.org/way/89533434",
+          "tags": {
+            "highway": "pedestrian",
+            "motor_vehicle": "no",
+            "name": "Knox Street Mall",
+            "surface": "gravel"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Washington Park Lake House",
+          "latitude": 42.6562732,
+          "longitude": -73.771993,
+          "osmType": "way",
+          "osmId": 89699535,
+          "sourceUrl": "https://www.openstreetmap.org/way/89699535",
+          "tags": {
+            "addr:city": "Albany",
+            "addr:housenumber": "35",
+            "addr:postcode": "12208",
+            "addr:state": "NY",
+            "addr:street": "Willett Street",
+            "alt_name": "Washington Park Pavilion;Washington Park Lakehouse",
+            "building": "yes",
+            "building:levels": "2",
+            "historic": "building",
+            "name": "Washington Park Lake House",
+            "nysgissam:nysaddresspointid": "ALBA021191",
+            "start_date": "1929"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Washington Park Lake",
+          "latitude": 42.6573315,
+          "longitude": -73.77337,
+          "osmType": "way",
+          "osmId": 89699541,
+          "sourceUrl": "https://www.openstreetmap.org/way/89699541",
+          "tags": {
+            "name": "Washington Park Lake",
+            "natural": "water",
+            "source": "Approx- bing",
+            "wikidata": "Q7335379",
+            "wikipedia": "en:Washington Park Lake"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Washington Park Road",
+          "latitude": 42.6591621,
+          "longitude": -73.770502,
+          "osmType": "way",
+          "osmId": 112401603,
+          "sourceUrl": "https://www.openstreetmap.org/way/112401603",
+          "tags": {
+            "goods": "no",
+            "hgv": "no",
+            "highway": "residential",
+            "maxspeed": "20 mph",
+            "name": "Washington Park Road",
+            "tiger:cfcc": "A74",
+            "tiger:county": "Albany, NY",
+            "tiger:name_base": "Washington Park",
+            "tiger:name_type": "Rd",
+            "tiger:source": "tiger_import_dch_v0.6_20070829",
+            "tiger:tlid": "18353351",
+            "tiger:upload_uuid": "bulk_upload.pl-7a8b8348-e1c4-4793-875d-a8017a3888d6"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Henry Johnson Boulevard",
+          "latitude": 42.655938,
+          "longitude": -73.7670179,
+          "osmType": "way",
+          "osmId": 173161224,
+          "sourceUrl": "https://www.openstreetmap.org/way/173161224",
+          "tags": {
+            "goods": "no",
+            "hgv": "no",
+            "highway": "residential",
+            "maxspeed": "20 mph",
+            "name": "Henry Johnson Boulevard",
+            "tiger:cfcc": "A74",
+            "tiger:county": "Albany, NY",
+            "tiger:name_base": "Washington Park",
+            "tiger:name_type": "Rd"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Soldiers and Sailors' Monument",
+          "latitude": 42.6566866,
+          "longitude": -73.7667783,
+          "osmType": "way",
+          "osmId": 1222314849,
+          "sourceUrl": "https://www.openstreetmap.org/way/1222314849",
+          "tags": {
+            "artist_name": "Hermon A. MacNeil",
+            "historic": "monument",
+            "name": "Soldiers and Sailors' Monument",
+            "start_date": "1912"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Albany Plan of Union Avenue",
+          "latitude": 42.6568684,
+          "longitude": -73.7666881,
+          "osmType": "way",
+          "osmId": 1546403056,
+          "sourceUrl": "https://www.openstreetmap.org/way/1546403056",
+          "tags": {
+            "goods": "no",
+            "hgv": "no",
+            "highway": "residential",
+            "maxspeed": "20 mph",
+            "motor_vehicle": "no",
+            "name": "Albany Plan of Union Avenue",
+            "name_1": "Washington Park Road",
+            "tiger:cfcc": "A74",
+            "tiger:county": "Albany, NY",
+            "tiger:name_base": "Washington Park",
+            "tiger:name_type": "Rd"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    },
+    "launch-ny-albany-corning-preserve": {
+      "name": "Corning Preserve",
+      "boundarySource": "https://www.openstreetmap.org/relation/9137083",
+      "candidates": [
+        {
+          "name": "Corning Preserve Boat Launch",
+          "latitude": 42.6566827,
+          "longitude": -73.7418738,
+          "osmType": "node",
+          "osmId": 745778122,
+          "sourceUrl": "https://www.openstreetmap.org/node/745778122",
+          "tags": {
+            "canoe": "yes",
+            "leisure": "slipway",
+            "name": "Corning Preserve Boat Launch",
+            "operator": "City of Albany"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Jennings Landing",
+          "latitude": 42.6494306,
+          "longitude": -73.7468769,
+          "osmType": "node",
+          "osmId": 1401140758,
+          "sourceUrl": "https://www.openstreetmap.org/node/1401140758",
+          "tags": {
+            "amenity": "theatre",
+            "capacity": "1000",
+            "check_date": "2024-06-15",
+            "fee": "no",
+            "lit": "yes",
+            "name": "Jennings Landing",
+            "old_name": "Riverfront Park Amphitheatre",
+            "seasonal": "yes",
+            "theatre:type": "amphi"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Hudson Riverway Park - Corning Preserve",
+          "latitude": 42.6558075,
+          "longitude": -73.7430007,
+          "osmType": "node",
+          "osmId": 5038122390,
+          "sourceUrl": "https://www.openstreetmap.org/node/5038122390",
+          "tags": {
+            "amenity": "bicycle_rental",
+            "capacity": "10",
+            "name": "Hudson Riverway Park - Corning Preserve",
+            "network": "CDPHP Cycle",
+            "operator": "Social Bicycles Inc."
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Quay Street",
+          "latitude": 42.6542726,
+          "longitude": -73.7445336,
+          "osmType": "way",
+          "osmId": 35926616,
+          "sourceUrl": "https://www.openstreetmap.org/way/35926616",
+          "tags": {
+            "highway": "primary",
+            "maxspeed": "30 mph",
+            "name": "Quay Street",
+            "oneway": "yes",
+            "ref": "US 9",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Albany, NY",
+            "tiger:name_base": "Quay",
+            "tiger:name_type": "St"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Mohawk-Hudson Bike-Hike Trail",
+          "latitude": 42.6501821,
+          "longitude": -73.7470355,
+          "osmType": "way",
+          "osmId": 89868742,
+          "sourceUrl": "https://www.openstreetmap.org/way/89868742",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Mohawk-Hudson Bike-Hike Trail"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Mohawk-Hudson Bike-Hike Trail",
+          "latitude": 42.6473267,
+          "longitude": -73.7481317,
+          "osmType": "way",
+          "osmId": 615563677,
+          "sourceUrl": "https://www.openstreetmap.org/way/615563677",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Mohawk-Hudson Bike-Hike Trail",
+            "oneway": "no",
+            "segregated": "yes",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Mohawk-Hudson Bike-Hike Trail",
+          "latitude": 42.6484538,
+          "longitude": -73.7479132,
+          "osmType": "way",
+          "osmId": 846597029,
+          "sourceUrl": "https://www.openstreetmap.org/way/846597029",
+          "tags": {
+            "bicycle": "yes",
+            "foot": "yes",
+            "highway": "path",
+            "name": "Mohawk-Hudson Bike-Hike Trail",
+            "segregated": "no",
+            "surface": "paved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Quay Street",
+          "latitude": 42.6483865,
+          "longitude": -73.7479192,
+          "osmType": "way",
+          "osmId": 846597030,
+          "sourceUrl": "https://www.openstreetmap.org/way/846597030",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "yes",
+            "highway": "path",
+            "name": "Quay Street",
+            "segregated": "no",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Mohawk-Hudson Bike-Hike Trail",
+          "latitude": 42.6487727,
+          "longitude": -73.7479078,
+          "osmType": "way",
+          "osmId": 1326103699,
+          "sourceUrl": "https://www.openstreetmap.org/way/1326103699",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Mohawk-Hudson Bike-Hike Trail"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Mohawk-Hudson Bike-Hike Trail",
+          "latitude": 42.6483853,
+          "longitude": -73.7479689,
+          "osmType": "way",
+          "osmId": 1326103700,
+          "sourceUrl": "https://www.openstreetmap.org/way/1326103700",
+          "tags": {
+            "bicycle": "designated",
+            "crossing": "uncontrolled",
+            "crossing:markings": "yes",
+            "foot": "designated",
+            "footway": "crossing",
+            "highway": "cycleway",
+            "name": "Mohawk-Hudson Bike-Hike Trail"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Mohawk-Hudson Bike-Hike Trail",
+          "latitude": 42.6490983,
+          "longitude": -73.7478375,
+          "osmType": "way",
+          "osmId": 1423041457,
+          "sourceUrl": "https://www.openstreetmap.org/way/1423041457",
+          "tags": {
+            "bicycle": "designated",
+            "crossing": "uncontrolled",
+            "crossing:markings": "yes",
+            "foot": "designated",
+            "footway": "crossing",
+            "highway": "cycleway",
+            "name": "Mohawk-Hudson Bike-Hike Trail"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Mohawk-Hudson Bike-Hike Trail",
+          "latitude": 42.6484748,
+          "longitude": -73.7479607,
+          "osmType": "way",
+          "osmId": 1423041458,
+          "sourceUrl": "https://www.openstreetmap.org/way/1423041458",
+          "tags": {
+            "bicycle": "designated",
+            "crossing": "uncontrolled",
+            "crossing:markings": "yes",
+            "foot": "designated",
+            "footway": "crossing",
+            "highway": "cycleway",
+            "name": "Mohawk-Hudson Bike-Hike Trail"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Hudson River Way",
+          "latitude": 42.6495568,
+          "longitude": -73.7474549,
+          "osmType": "way",
+          "osmId": 1428785642,
+          "sourceUrl": "https://www.openstreetmap.org/way/1428785642",
+          "tags": {
+            "bicycle": "yes",
+            "foot": "yes",
+            "highway": "footway",
+            "name": "Hudson River Way",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Albany, NY",
+            "tiger:name_base": "Maiden",
+            "tiger:name_type": "Ln",
+            "tiger:zip_left": "12207",
+            "tiger:zip_right": "12207",
+            "wikidata": "Q5928881"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverfront Pumping Station",
+          "latitude": 42.6478348,
+          "longitude": -73.7478354,
+          "osmType": "relation",
+          "osmId": 9137082,
+          "sourceUrl": "https://www.openstreetmap.org/relation/9137082",
+          "tags": {
+            "building": "yes",
+            "man_made": "pumping_station",
+            "name": "Riverfront Pumping Station",
+            "type": "multipolygon"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    }
+  }
+}

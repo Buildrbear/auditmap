@@ -1,0 +1,405 @@
+{
+  "checkedAt": "2026-08-06",
+  "places": {
+    "launch-or-portland-washington-park": {
+      "international-rose-test-garden": {
+        "latitude": 45.5193145,
+        "longitude": -122.7053329,
+        "displayName": "Preserved mapped coordinate for International Rose Test Garden",
+        "source": "Existing AuditMap mapped record"
+      },
+      "oregon-zoo": {
+        "latitude": 45.509665,
+        "longitude": -122.7133613,
+        "displayName": "Preserved mapped coordinate for Oregon Zoo",
+        "source": "Existing AuditMap mapped record"
+      },
+      "portland-japanese-garden": {
+        "latitude": 45.5187377,
+        "longitude": -122.7082033,
+        "displayName": "Preserved mapped coordinate for Portland Japanese Garden",
+        "source": "Existing AuditMap mapped record"
+      },
+      "hoyt-arboretum-visitor-center": {
+        "latitude": 45.5156657,
+        "longitude": -122.7156853,
+        "displayName": "Preserved mapped coordinate for Hoyt Arboretum Visitor Center",
+        "source": "Existing AuditMap mapped record"
+      },
+      "world-forestry-center": {
+        "latitude": 45.5104627,
+        "longitude": -122.7177677,
+        "displayName": "World Forestry Center, Southwest Knights Boulevard, Sylvan-Highlands, Portland, Multnomah County, Oregon, 97221, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "oregon-holocaust-memorial": {
+        "latitude": 45.5222856,
+        "longitude": -122.703778,
+        "displayName": "Oregon Holocaust Memorial, Southwest Washington Way, Arlington Heights, Portland, Multnomah County, Oregon, 97205, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "vietnam-veterans-of-oregon-memorial": {
+        "latitude": 45.5120534,
+        "longitude": -122.7182069,
+        "displayName": "Preserved mapped coordinate for Vietnam Veterans of Oregon Memorial",
+        "source": "Existing AuditMap mapped record"
+      },
+      "washington-park-playground": {
+        "latitude": 45.51982,
+        "longitude": -122.70777,
+        "displayName": "Reviewed Washington Park Playground placement near the Rose Garden area",
+        "source": "AuditMap review of the official Washington Park map"
+      }
+    },
+    "launch-or-portland-forest-park": {
+      "lower-macleay-trailhead": {
+        "latitude": 45.5360307,
+        "longitude": -122.7126743,
+        "displayName": "Lower Macleay Park Trailhead, Lower Macleay Trail, Willamette Heights, Forest Park, Portland, Multnomah County, Oregon, 97210, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "stone-house": {
+        "latitude": 45.528294,
+        "longitude": -122.7250787,
+        "displayName": "Witch's Castle, Wildwood Trail, Forest Park, Portland, Multnomah County, Oregon, 97210, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "wildwood-trail": {
+        "latitude": 45.5428572,
+        "longitude": -122.7388176,
+        "displayName": "Wildwood Trail, Forest Park, Portland, Multnomah County, Oregon, 97210, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "leif-erikson-drive-trailhead": {
+        "latitude": 45.53765,
+        "longitude": -122.72465,
+        "displayName": "Reviewed Leif Erikson Drive trailhead at the west end of NW Thurman Street",
+        "source": "AuditMap review of the official Forest Park trails map"
+      },
+      "pittock-mansion-trailhead": {
+        "latitude": 45.52516,
+        "longitude": -122.71621,
+        "displayName": "Reviewed Wildwood and Pittock Mansion trail access",
+        "source": "AuditMap review of the official Forest Park trails map"
+      },
+      "germantown-road-trailhead": {
+        "latitude": 45.57682,
+        "longitude": -122.75253,
+        "displayName": "Reviewed Forest Park trailhead at NW Germantown Road",
+        "source": "AuditMap review of the official Forest Park trails map"
+      },
+      "lower-saltzman-trailhead": {
+        "latitude": 45.56635,
+        "longitude": -122.75342,
+        "displayName": "Lower Saltzman Trailhead, 6064-6086 NW Saltzman Road",
+        "source": "Portland Parks & Recreation published latitude and longitude"
+      },
+      "forest-park-entrance-at-firelane-1": {
+        "latitude": 45.5581,
+        "longitude": -122.74107,
+        "displayName": "Reviewed Forest Park entrance near Firelane 1",
+        "source": "OpenStreetMap and AuditMap review of the official Forest Park trails map"
+      }
+    },
+    "launch-or-portland-tom-mccall-waterfront-park": {
+      "salmon-street-springs": {
+        "latitude": 45.5153702,
+        "longitude": -122.6733058,
+        "displayName": "Salmon Street Springs, Southwest Salmon Street, Downtown, Portland, Multnomah County, Oregon, 97258, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "japanese-american-historical-plaza": {
+        "latitude": 45.5239168,
+        "longitude": -122.6697225,
+        "displayName": "Japanese American Historical Plaza, Northwest Couch Street, Chinatown, Old Town, Portland, Multnomah County, Oregon, 97240, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "battleship-oregon-memorial": {
+        "latitude": 45.5203933,
+        "longitude": -122.6706995,
+        "displayName": "Battleship Oregon Memorial, Southwest Naito Parkway, Old Town, Portland, Multnomah County, Oregon, 97204, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "bill-naito-legacy-fountain-and-plaza": {
+        "latitude": 45.52218,
+        "longitude": -122.66983,
+        "displayName": "Bill Naito Legacy Fountain and Plaza",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "waterfront-park-bowl": {
+        "latitude": 45.50952,
+        "longitude": -122.67428,
+        "displayName": "Reviewed Waterfront Park Bowl lawn south of Hawthorne Bridge",
+        "source": "AuditMap review of official and public waterfront maps"
+      },
+      "south-breakwater-dock": {
+        "latitude": 45.50822,
+        "longitude": -122.67318,
+        "displayName": "Reviewed South Breakwater Dock placement near RiverPlace",
+        "source": "AuditMap review of official and public waterfront maps"
+      },
+      "ankeny-plaza-and-portland-saturday-market": {
+        "latitude": 45.52232,
+        "longitude": -122.6708,
+        "displayName": "Ankeny Plaza at the Portland Saturday Market edge",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "willamette-greenway-trail": {
+        "latitude": 45.5283556,
+        "longitude": -122.6721062,
+        "displayName": "Willamette Greenway Trail, McCormick Pier Condos, Old Town, Portland, Multnomah County, Oregon, 97240, United States",
+        "source": "OpenStreetMap Nominatim"
+      }
+    },
+    "launch-or-portland-mt-tabor-park": {
+      "mt-tabor-summit": {
+        "latitude": 45.5133204,
+        "longitude": -122.592027,
+        "displayName": "Southeast Tabor Summit Drive, Mount Tabor, Portland, Multnomah County, Oregon, 97215, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "mt-tabor-reservoirs": {
+        "latitude": 45.51263,
+        "longitude": -122.59693,
+        "displayName": "Reviewed reservoir overlook area in Mt. Tabor Park",
+        "source": "AuditMap review of the official Mt. Tabor Park map"
+      },
+      "mt-tabor-amphitheater": {
+        "latitude": 45.51376,
+        "longitude": -122.5943,
+        "displayName": "Reviewed Mt. Tabor amphitheater placement",
+        "source": "AuditMap review of the official Mt. Tabor Park map"
+      },
+      "mt-tabor-playground": {
+        "latitude": 45.51447,
+        "longitude": -122.59659,
+        "displayName": "Reviewed Mt. Tabor accessible playground placement",
+        "source": "AuditMap review of the official Mt. Tabor Park map"
+      },
+      "mt-tabor-dog-off-leash-area": {
+        "latitude": 45.50759,
+        "longitude": -122.59414,
+        "displayName": "Reviewed south-side Mt. Tabor dog off-leash area",
+        "source": "AuditMap review of the official Mt. Tabor off-leash map"
+      },
+      "mt-tabor-picnic-shelter": {
+        "latitude": 45.51265,
+        "longitude": -122.59477,
+        "displayName": "Reviewed Mt. Tabor picnic shelter construction site south of the main lot",
+        "source": "AuditMap review of Portland Parks construction information and park map"
+      },
+      "mt-tabor-community-garden": {
+        "latitude": 45.5083741,
+        "longitude": -122.5987222,
+        "displayName": "Mt. Tabor Community Garden, Mount Tabor, Portland, Multnomah County, Oregon, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "pdx-adult-soapbox-derby-course": {
+        "latitude": 45.51213,
+        "longitude": -122.59199,
+        "displayName": "Reviewed point on the Mt. Tabor soapbox derby road course",
+        "source": "AuditMap review of official and public event maps"
+      }
+    },
+    "launch-or-portland-laurelhurst-park": {
+      "firwood-lake": {
+        "latitude": 45.5213724,
+        "longitude": -122.6247399,
+        "displayName": "Firwood Lake, Laurelhurst, Portland, Multnomah County, Oregon, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "laurelhurst-playground": {
+        "latitude": 45.51988,
+        "longitude": -122.62552,
+        "displayName": "Reviewed Laurelhurst Playground placement",
+        "source": "AuditMap review of official and public park maps"
+      },
+      "laurelhurst-dog-off-leash-area": {
+        "latitude": 45.5197,
+        "longitude": -122.62816,
+        "displayName": "Reviewed Laurelhurst dog off-leash area",
+        "source": "AuditMap review of the official off-leash map"
+      },
+      "laurelhurst-picnic-grove": {
+        "latitude": 45.52072,
+        "longitude": -122.62723,
+        "displayName": "Reviewed Laurelhurst picnic grove placement",
+        "source": "AuditMap review of official and public park maps"
+      },
+      "laurelhurst-basketball-court": {
+        "latitude": 45.52224,
+        "longitude": -122.62824,
+        "displayName": "Reviewed Laurelhurst basketball court placement",
+        "source": "AuditMap review of official and public park maps"
+      },
+      "laurelhurst-pickleball-courts": {
+        "latitude": 45.52255,
+        "longitude": -122.62836,
+        "displayName": "Reviewed Laurelhurst pickleball court placement",
+        "source": "AuditMap review of official and public park maps"
+      },
+      "rhododendron-hill": {
+        "latitude": 45.52067,
+        "longitude": -122.62487,
+        "displayName": "Reviewed Rhododendron Hill placement",
+        "source": "AuditMap review of official and public park maps"
+      },
+      "laurelhurst-concert-grove": {
+        "latitude": 45.52172,
+        "longitude": -122.6258,
+        "displayName": "Reviewed Laurelhurst concert grove placement",
+        "source": "AuditMap review of official and public park maps"
+      }
+    },
+    "launch-or-portland-cathedral-park": {
+      "st-johns-bridge-arches": {
+        "latitude": 45.58763,
+        "longitude": -122.76259,
+        "displayName": "Reviewed viewpoint beneath the St. Johns Bridge arches",
+        "source": "AuditMap review of the official Cathedral Park map"
+      },
+      "cathedral-park-nature-patch": {
+        "latitude": 45.58838,
+        "longitude": -122.76082,
+        "displayName": "Reviewed upper Cathedral Park Nature Patch placement",
+        "source": "AuditMap review of the official Cathedral Park map"
+      },
+      "cathedral-park-amphitheater": {
+        "latitude": 45.5873,
+        "longitude": -122.76168,
+        "displayName": "Reviewed Cathedral Park amphitheater placement",
+        "source": "AuditMap review of the official Cathedral Park map"
+      },
+      "cathedral-park-boat-ramp-and-dock": {
+        "latitude": 45.58874,
+        "longitude": -122.76583,
+        "displayName": "Reviewed Cathedral Park boat ramp and dock placement",
+        "source": "AuditMap review of the official Cathedral Park map"
+      },
+      "cathedral-park-dog-off-leash-area": {
+        "latitude": 45.58556,
+        "longitude": -122.76316,
+        "displayName": "Reviewed dog off-leash area near North Crawford Avenue",
+        "source": "AuditMap review of the official Cathedral Park off-leash map"
+      },
+      "cathedral-park-waterfront-path": {
+        "latitude": 45.58712,
+        "longitude": -122.76372,
+        "displayName": "Reviewed point on Cathedral Park's lower waterfront path",
+        "source": "AuditMap review of the official Cathedral Park map"
+      },
+      "cathedral-park-beach-access": {
+        "latitude": 45.58817,
+        "longitude": -122.76459,
+        "displayName": "Reviewed informal beach access beside the boat ramp",
+        "source": "AuditMap review of official and public water-access maps"
+      },
+      "cathedral-park-wall-of-history": {
+        "latitude": 45.58789,
+        "longitude": -122.76102,
+        "displayName": "Reviewed Wall of History placement in the memorial garden",
+        "source": "AuditMap review of the official Cathedral Park map"
+      }
+    },
+    "launch-or-portland-peninsula-park": {
+      "peninsula-park-rose-garden": {
+        "latitude": 45.5671166,
+        "longitude": -122.6736138,
+        "displayName": "Peninsula Park Rose Garden, Piedmont, Portland, Multnomah County, Oregon, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "peninsula-park-fountain-and-splash-pad": {
+        "latitude": 45.56716,
+        "longitude": -122.67361,
+        "displayName": "Reviewed rose-garden fountain and nearby seasonal splash-pad area",
+        "source": "AuditMap review of official and public park maps"
+      },
+      "peninsula-park-community-center": {
+        "latitude": 45.5696397,
+        "longitude": -122.6739468,
+        "displayName": "Peninsula Park Community Center, 700, North Rosa Parks Way, Piedmont, Portland, Multnomah County, Oregon, 97217, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "peninsula-park-playground": {
+        "latitude": 45.56905,
+        "longitude": -122.67328,
+        "displayName": "Reviewed Peninsula Park playground placement",
+        "source": "AuditMap review of official and public park maps"
+      },
+      "peninsula-park-bandstand": {
+        "latitude": 45.56758,
+        "longitude": -122.6736,
+        "displayName": "Reviewed Peninsula Park bandstand placement",
+        "source": "AuditMap review of official and public park maps"
+      },
+      "peninsula-outdoor-pool": {
+        "latitude": 45.56925,
+        "longitude": -122.67455,
+        "displayName": "Reviewed Peninsula Outdoor Pool placement",
+        "source": "AuditMap review of official and public park maps"
+      },
+      "peninsula-park-basketball-court": {
+        "latitude": 45.56917,
+        "longitude": -122.67267,
+        "displayName": "Reviewed Peninsula Park basketball court placement",
+        "source": "AuditMap review of official and public park maps"
+      },
+      "peninsula-park-tennis-courts": {
+        "latitude": 45.5688,
+        "longitude": -122.67256,
+        "displayName": "Reviewed Peninsula Park tennis court placement",
+        "source": "AuditMap review of official and public park maps"
+      }
+    },
+    "launch-or-portland-powell-butte-nature-park": {
+      "powell-butte-visitor-center": {
+        "latitude": 45.48698,
+        "longitude": -122.50639,
+        "displayName": "Powell Butte Visitor Center at the main SE 162nd Avenue entrance",
+        "source": "AuditMap review of the official Powell Butte map"
+      },
+      "powell-butte-summit-meadow": {
+        "latitude": 45.49056,
+        "longitude": -122.50093,
+        "displayName": "Reviewed Powell Butte summit meadow placement",
+        "source": "AuditMap review of the official Powell Butte trail map"
+      },
+      "mountain-view-trail": {
+        "latitude": 45.4879556,
+        "longitude": -122.5006174,
+        "displayName": "Mountain View Trail, Pleasant Valley, Portland, Multnomah County, Oregon, 97236, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "wildhorse-trail": {
+        "latitude": 45.488269,
+        "longitude": -122.4978123,
+        "displayName": "Wildhorse Trail, Pleasant Valley, Portland, Multnomah County, Oregon, 97236, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "cedar-grove-trail": {
+        "latitude": 45.4835155,
+        "longitude": -122.5137326,
+        "displayName": "Cedar Grove Trail, Pleasant Valley, Portland, Multnomah County, Oregon, 97236, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "pipeline-lane": {
+        "latitude": 45.4917316,
+        "longitude": -122.5021926,
+        "displayName": "Pipeline Lane, Pleasant Valley, Portland, Multnomah County, Oregon, 97236, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "goldfinch-trailhead": {
+        "latitude": 45.48687,
+        "longitude": -122.5101,
+        "displayName": "Reviewed Goldfinch neighborhood trailhead placement",
+        "source": "AuditMap review of the official Powell Butte trail map"
+      },
+      "ellis-street-trailhead": {
+        "latitude": 45.48064,
+        "longitude": -122.50772,
+        "displayName": "Reviewed Ellis Street neighborhood trailhead placement",
+        "source": "AuditMap review of the official Powell Butte trail map"
+      }
+    }
+  }
+}

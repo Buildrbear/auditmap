@@ -1,0 +1,15 @@
+{
+  "campaignId": "raleigh-discovery-pilot",
+  "round": 1,
+  "updatedAt": null,
+  "notes": "Enter cumulative results at 24 hours and seven days. Use null for data that has not been collected; never substitute zero for unknown.",
+  "posts": [
+    { "id": "dix-park-arrival", "checkpoints": { "24h": null, "7d": null } },
+    { "id": "chavis-family-arrival", "checkpoints": { "24h": null, "7d": null } },
+    { "id": "moore-square-arrival", "checkpoints": { "24h": null, "7d": null } },
+    { "id": "dix-park-sunflower-shade", "checkpoints": { "24h": null, "7d": null } },
+    { "id": "john-winters-find", "checkpoints": { "24h": null, "7d": null } },
+    { "id": "chavis-access", "checkpoints": { "24h": null, "7d": null } },
+    { "id": "moore-square-shade", "checkpoints": { "24h": null, "7d": null } }
+  ]
+}

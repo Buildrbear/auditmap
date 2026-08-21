@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "packetId": "research-completion-nc-concord-01",
+  "checkedAt": "2026-08-20",
+  "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+  "issueUrl": "https://github.com/Buildrbear/auditmap/issues/41",
+  "contributionTier": "inventory",
+  "outcome": "inventory-source-complete-photo-and-as-built-gated",
+  "acceptedRecordIds": [
+    "/us/nc/concord/parks/marvin-caldwell-park"
+  ],
+  "publication": {
+    "generatedPages": 0,
+    "productionWrites": 0,
+    "reason": "The parent identity, official arrival pin, and current reopening status are source-complete, but no representative reusable parent photograph set or complete current as-built amenity inventory was found."
+  },
+  "records": [
+    {
+      "recordId": "/us/nc/concord/parks/marvin-caldwell-park",
+      "canonicalName": "Marvin Caldwell Park",
+      "aliases": [
+        "Caldwell Park"
+      ],
+      "city": "Concord",
+      "state": "NC",
+      "category": "municipal community park",
+      "managingAgency": "City of Concord Parks & Recreation",
+      "canonicalAddress": "362 Georgia Avenue SW, Concord, NC 28025",
+      "latitude": 35.394773,
+      "longitude": -80.583631,
+      "positionQuality": "reviewed-official-address-map-pin",
+      "coordinateProvenance": {
+        "publisher": "City of Concord Parks & Recreation",
+        "service": "Published parks directory outbound address-map link",
+        "sourceUrl": "https://concordnc.gov/Departments/Parks-Recreation/Parks",
+        "mapUrl": "https://www.google.com/maps/place/362+Georgia+St+SW,+Concord,+NC+28025/@35.394773,-80.5858197,17z/data=!3m1!4b1!4m5!3m4!1s0x88540e4a09cf3c5d:0xa976ed664ff78d22!8m2!3d35.394773!4d-80.583631",
+        "checkedAt": "2026-08-20"
+      },
+      "coordinateCrossCheck": {
+        "publisher": "OpenStreetMap contributors",
+        "service": "Previous Nominatim facility match",
+        "latitude": 35.393811,
+        "longitude": -80.58366,
+        "classification": "older community-source facility point retained only as a cross-check; the City-published visitor address pin controls"
+      },
+      "verifiedFacts": [
+        {
+          "fact": "The City announced on July 16, 2026 that Marvin Caldwell Park had reopened to the public after extensive renovations and amenity additions.",
+          "sourceLabel": "City of Concord Marvin Caldwell Park reopening notice",
+          "sourceUrl": "https://concordnc.gov/Departments/Parks-Recreation/News-Updates/ID/450/MARVIN-CALDWELL-PARK-NOW-OPEN",
+          "checkedAt": "2026-08-20",
+          "freshness": "current explicit reopening evidence; recheck for alerts before publication"
+        },
+        {
+          "fact": "The reopening notice gives park hours of dawn to dusk and splash-pad hours of Tuesday through Sunday from 10 a.m. to 7 p.m.",
+          "sourceLabel": "City of Concord Marvin Caldwell Park reopening notice",
+          "sourceUrl": "https://concordnc.gov/Departments/Parks-Recreation/News-Updates/ID/450/MARVIN-CALDWELL-PARK-NOW-OPEN",
+          "checkedAt": "2026-08-20",
+          "freshness": "fast-changing operating schedule; no season end date is stated"
+        },
+        {
+          "fact": "The City park directory identifies Caldwell Park as the 24-acre Marvin Caldwell Park at 362 Georgia Avenue SW and links that address to the official visitor map pin used here.",
+          "sourceLabel": "City of Concord parks directory",
+          "sourceUrl": "https://concordnc.gov/Departments/Parks-Recreation/Parks",
+          "checkedAt": "2026-08-20",
+          "freshness": "current for identity, address, acreage, and standard park hours; amenity text predates the renovation"
+        },
+        {
+          "fact": "The City Council's November 2023 final-design approval record describes a new amphitheater, shelter, splash pad, playground, covered basketball court, restroom/storage facility, greenway, multi-purpose field, community-garden space, and expanded parking as the approved design.",
+          "sourceLabel": "City of Concord November 2023 final-design approval record",
+          "sourceUrl": "https://concordnc.gov/Portals/0/Concord/Departments/Clerk/Council%20Minutes/2023-11-09%20%20.pdf?ver=Jb3FIQhyCBBmZfk_LeWLcw%3D%3D",
+          "checkedAt": "2026-08-20",
+          "freshness": "authoritative design evidence, not a complete current as-built visitor inventory"
+        },
+        {
+          "fact": "The October 2024 construction award covered park and greenway work including pavement, trails, park buildings, an amphitheater, pavilion, shelters, splash pad, basketball courts, baseball field, lighting, fencing, and utilities.",
+          "sourceLabel": "City of Concord October 2024 construction-contract record",
+          "sourceUrl": "https://concordnc.gov/Portals/0/Concord/Departments/Clerk/Council%20Minutes/10124/2024-10-10.pdf?ver=XIkLzI8TIJ1DsK_DJ6RzKw%3D%3D",
+          "checkedAt": "2026-08-20",
+          "freshness": "authoritative contracted scope, not an as-built completion list"
+        }
+      ],
+      "relationshipDecision": "Daniel Pharr Community Building is a separately reservable named facility at the park address. The reopening notice does not establish its availability, so its building schedule must not be inferred from park hours.",
+      "duplicateStatus": "no parent duplicate found; Caldwell Park retained as an official short-form alias",
+      "imageStatus": "photo-gated",
+      "accessStatus": "verified-open-fast-changing-splash-schedule",
+      "amenityStatus": "current-as-built-list-unresolved"
+    }
+  ],
+  "imageRightsReview": {
+    "openverse": {
+      "source": "Openverse API",
+      "queries": 4,
+      "reusableCandidates": 0,
+      "resultFile": "data/concord-marvin-caldwell-photo-research.json"
+    },
+    "wikimediaCommons": {
+      "method": "Exact-name search plus geosearch within 10 kilometers of the official visitor address pin",
+      "outcome": "Results depicted other Concord subjects, nearby buildings, retail sites, wildlife, and aerial rasters. No representative exact-destination photograph was accepted."
+    },
+    "officialSiteImages": {
+      "outcome": "The reopening notice has no destination image and an empty social-image reference. Other City pages and documents do not publish image-specific reuse permission sufficient for AuditMap."
+    }
+  },
+  "sourceAccessReview": {
+    "browserEvidence": "Current City pages and indexed official records were available through public research on 2026-08-20.",
+    "commandLineHttp": "The City park directory and reopening notice returned HTTP 200 to direct requests and exposed the same controlling text and address-map link.",
+    "classification": "public official evidence available without an access-method conflict",
+    "nextCheck": "Recheck the reopening notice, park directory, facility-reservation inventory, and any current alerts before a launch-guide assignment."
+  },
+  "reviewQueue": [
+    {
+      "place": "Marvin Caldwell Park",
+      "fieldOrFeature": "current as-built amenity inventory",
+      "conflictOrMissingEvidence": "The reopening notice confirms extensive renovations but does not enumerate completed amenities. The park directory still presents the pre-renovation configuration, while final-design and construction records describe planned or contracted scope.",
+      "sourcesChecked": [
+        "July 2026 reopening notice",
+        "City parks directory",
+        "November 2023 final-design approval",
+        "October 2024 construction award"
+      ],
+      "recommendedNextAction": "Obtain a current operator facility page, as-built map, or written confirmation before publishing a current amenity list or modeling named subsites."
+    },
+    {
+      "place": "Marvin Caldwell Park",
+      "fieldOrFeature": "parent photography",
+      "conflictOrMissingEvidence": "No four-view representative permission-cleared or openly licensed parent set was found.",
+      "sourcesChecked": [
+        "Openverse API",
+        "Wikimedia Commons exact-name and geosearch",
+        "City of Concord pages and documents"
+      ],
+      "recommendedNextAction": "Obtain four varied current reusable views of ordinary circulation and major completed amenities, or written City permission for exact-location photographs."
+    },
+    {
+      "place": "Marvin Caldwell Park",
+      "fieldOrFeature": "launch-guide visitor intents and splash-pad season",
+      "conflictOrMissingEvidence": "The current notice establishes park and splash-pad hours but gives no splash-pad season end date. Current entrances, parking layout, restroom availability, fees, accessibility routes, dog rules, transit, family fit, weather exposure, and facility-specific schedules are not source-complete.",
+      "sourcesChecked": [
+        "July 2026 reopening notice",
+        "City parks and facilities directories",
+        "final-design and construction records"
+      ],
+      "recommendedNextAction": "Assign a separate launch-guide packet after the photo and as-built gates clear, then source every recurring visitor intent and recheck the seasonal water-feature schedule."
+    }
+  ],
+  "risks": [
+    "Presenting pre-renovation directory amenities or approved construction scope as a current as-built list would overstate the evidence.",
+    "The splash-pad notice omits a season end date and may become stale quickly.",
+    "Park hours do not establish Daniel Pharr Community Building or other reservable-facility hours.",
+    "City hosting does not establish image reuse rights.",
+    "No private visitor data, precise visitor-location logs, paid API calls, dependencies, generated pages, or production writes are included."
+  ]
+}

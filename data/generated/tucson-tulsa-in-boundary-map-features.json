@@ -1,0 +1,2600 @@
+{
+  "campaign": "Tucson and Tulsa anchor connector",
+  "checkedAt": "2026-08-08",
+  "places": {
+    "launch-az-tucson-reid-park": {
+      "name": "Gene C. Reid Park",
+      "boundarySource": "https://www.openstreetmap.org/way/35070400",
+      "candidates": [
+        {
+          "name": "ZOO",
+          "latitude": 32.2100381,
+          "longitude": -110.9203559,
+          "osmType": "node",
+          "osmId": 13651112573,
+          "sourceUrl": "https://www.openstreetmap.org/node/13651112573",
+          "tags": {
+            "artwork_type": "sculpture",
+            "name": "ZOO",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Gene C. Reid Park",
+          "latitude": 32.2106695,
+          "longitude": -110.9222757,
+          "osmType": "way",
+          "osmId": 35070400,
+          "sourceUrl": "https://www.openstreetmap.org/way/35070400",
+          "tags": {
+            "leisure": "park",
+            "name": "Gene C. Reid Park",
+            "source": "local_knowledge",
+            "wikidata": "Q18151505",
+            "wikipedia": "en:Gene C. Reid Park"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Reid Park Zoo",
+          "latitude": 32.2086402,
+          "longitude": -110.9202126,
+          "osmType": "way",
+          "osmId": 35070707,
+          "sourceUrl": "https://www.openstreetmap.org/way/35070707",
+          "tags": {
+            "name": "Reid Park Zoo",
+            "opening_hours": "09:00-16:00",
+            "tourism": "zoo",
+            "wikidata": "Q7309977"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "East Landmark Place",
+          "latitude": 32.2076832,
+          "longitude": -110.9225131,
+          "osmType": "way",
+          "osmId": 37916588,
+          "sourceUrl": "https://www.openstreetmap.org/way/37916588",
+          "tags": {
+            "highway": "service",
+            "name": "East Landmark Place",
+            "smoothness": "good",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "DeMeester Performance Center",
+          "latitude": 32.2118697,
+          "longitude": -110.9243705,
+          "osmType": "way",
+          "osmId": 37916620,
+          "sourceUrl": "https://www.openstreetmap.org/way/37916620",
+          "tags": {
+            "addr:city": "Tucson",
+            "addr:housenumber": "900",
+            "addr:postcode": "85716",
+            "addr:state": "AZ",
+            "addr:street": "South Randolph Way",
+            "amenity": "theatre",
+            "building": "yes",
+            "name": "DeMeester Performance Center"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Reid Park Lake",
+          "latitude": 32.2098822,
+          "longitude": -110.9224847,
+          "osmType": "way",
+          "osmId": 37916621,
+          "sourceUrl": "https://www.openstreetmap.org/way/37916621",
+          "tags": {
+            "intermittent": "no",
+            "name": "Reid Park Lake",
+            "natural": "water",
+            "water": "lake"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Rose Garden",
+          "latitude": 32.2097175,
+          "longitude": -110.9240319,
+          "osmType": "way",
+          "osmId": 37916624,
+          "sourceUrl": "https://www.openstreetmap.org/way/37916624",
+          "tags": {
+            "leisure": "garden",
+            "name": "Rose Garden"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Miko's Corner Playground",
+          "latitude": 32.2101621,
+          "longitude": -110.925766,
+          "osmType": "way",
+          "osmId": 233336158,
+          "sourceUrl": "https://www.openstreetmap.org/way/233336158",
+          "tags": {
+            "access": "yes",
+            "barrier": "fence",
+            "dog": "unleashed",
+            "leisure": "dog_park",
+            "name": "Miko's Corner Playground"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "South Handi Dog Place",
+          "latitude": 32.2141127,
+          "longitude": -110.9247467,
+          "osmType": "way",
+          "osmId": 366567740,
+          "sourceUrl": "https://www.openstreetmap.org/way/366567740",
+          "tags": {
+            "highway": "service",
+            "name": "South Handi Dog Place",
+            "service": "parking_aisle"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "East Landmark Place",
+          "latitude": 32.2075103,
+          "longitude": -110.9244387,
+          "osmType": "way",
+          "osmId": 375061327,
+          "sourceUrl": "https://www.openstreetmap.org/way/375061327",
+          "tags": {
+            "highway": "service",
+            "name": "East Landmark Place",
+            "service": "parking_aisle",
+            "surface": "chipseal"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "South Concert Place",
+          "latitude": 32.2127128,
+          "longitude": -110.926174,
+          "osmType": "way",
+          "osmId": 375061329,
+          "sourceUrl": "https://www.openstreetmap.org/way/375061329",
+          "tags": {
+            "highway": "service",
+            "name": "South Concert Place",
+            "service": "parking_aisle"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "South Lake Shore Lane",
+          "latitude": 32.2074113,
+          "longitude": -110.9223091,
+          "osmType": "way",
+          "osmId": 387939140,
+          "sourceUrl": "https://www.openstreetmap.org/way/387939140",
+          "tags": {
+            "highway": "unclassified",
+            "name": "South Lake Shore Lane",
+            "oneway": "yes"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "South Lake Shore Lane",
+          "latitude": 32.2074113,
+          "longitude": -110.9223616,
+          "osmType": "way",
+          "osmId": 387939141,
+          "sourceUrl": "https://www.openstreetmap.org/way/387939141",
+          "tags": {
+            "cycleway:right": "no",
+            "highway": "unclassified",
+            "lanes": "1",
+            "name": "South Lake Shore Lane",
+            "oneway": "yes",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Citation Wash",
+          "latitude": 32.2076084,
+          "longitude": -110.9213041,
+          "osmType": "way",
+          "osmId": 387939297,
+          "sourceUrl": "https://www.openstreetmap.org/way/387939297",
+          "tags": {
+            "intermittent": "yes",
+            "name": "Citation Wash",
+            "waterway": "stream"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "South Randolph Way",
+          "latitude": 32.2098922,
+          "longitude": -110.9182149,
+          "osmType": "way",
+          "osmId": 761618906,
+          "sourceUrl": "https://www.openstreetmap.org/way/761618906",
+          "tags": {
+            "highway": "unclassified",
+            "maxspeed": "20 mph",
+            "name": "South Randolph Way",
+            "oneway": "no",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Zoo Court",
+          "latitude": 32.2100166,
+          "longitude": -110.9183146,
+          "osmType": "way",
+          "osmId": 771950881,
+          "sourceUrl": "https://www.openstreetmap.org/way/771950881",
+          "tags": {
+            "highway": "construction",
+            "name": "Zoo Court"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "South Lake Shore Lane",
+          "latitude": 32.2090831,
+          "longitude": -110.9216697,
+          "osmType": "way",
+          "osmId": 831592337,
+          "sourceUrl": "https://www.openstreetmap.org/way/831592337",
+          "tags": {
+            "highway": "unclassified",
+            "name": "South Lake Shore Lane"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Citation Wash",
+          "latitude": 32.2091125,
+          "longitude": -110.9235948,
+          "osmType": "way",
+          "osmId": 831592348,
+          "sourceUrl": "https://www.openstreetmap.org/way/831592348",
+          "tags": {
+            "intermittent": "yes",
+            "name": "Citation Wash",
+            "waterway": "stream"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Citation Wash",
+          "latitude": 32.2080448,
+          "longitude": -110.9223085,
+          "osmType": "way",
+          "osmId": 831592349,
+          "sourceUrl": "https://www.openstreetmap.org/way/831592349",
+          "tags": {
+            "intermittent": "yes",
+            "layer": "-1",
+            "name": "Citation Wash",
+            "tunnel": "culvert",
+            "waterway": "stream"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Citation Wash",
+          "latitude": 32.2118495,
+          "longitude": -110.9256984,
+          "osmType": "way",
+          "osmId": 831592400,
+          "sourceUrl": "https://www.openstreetmap.org/way/831592400",
+          "tags": {
+            "intermittent": "yes",
+            "name": "Citation Wash",
+            "waterway": "stream"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Citation Wash",
+          "latitude": 32.2102439,
+          "longitude": -110.9248313,
+          "osmType": "way",
+          "osmId": 831592401,
+          "sourceUrl": "https://www.openstreetmap.org/way/831592401",
+          "tags": {
+            "intermittent": "yes",
+            "layer": "-1",
+            "name": "Citation Wash",
+            "tunnel": "culvert",
+            "waterway": "stream"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Zoofari Market",
+          "latitude": 32.2096335,
+          "longitude": -110.9209002,
+          "osmType": "way",
+          "osmId": 846615084,
+          "sourceUrl": "https://www.openstreetmap.org/way/846615084",
+          "tags": {
+            "amenity": "restaurant",
+            "building": "yes",
+            "name": "Zoofari Market"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "East Landmark Place",
+          "latitude": 32.2076251,
+          "longitude": -110.9228319,
+          "osmType": "way",
+          "osmId": 861213733,
+          "sourceUrl": "https://www.openstreetmap.org/way/861213733",
+          "tags": {
+            "highway": "service",
+            "name": "East Landmark Place",
+            "smoothness": "good",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "South Concert Place",
+          "latitude": 32.212111,
+          "longitude": -110.9259369,
+          "osmType": "way",
+          "osmId": 861213738,
+          "sourceUrl": "https://www.openstreetmap.org/way/861213738",
+          "tags": {
+            "highway": "service",
+            "name": "South Concert Place",
+            "service": "parking_aisle"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "South Concert Place",
+          "latitude": 32.2120461,
+          "longitude": -110.9260546,
+          "osmType": "way",
+          "osmId": 861213739,
+          "sourceUrl": "https://www.openstreetmap.org/way/861213739",
+          "tags": {
+            "highway": "service",
+            "name": "South Concert Place"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "South Concert Place",
+          "latitude": 32.2133869,
+          "longitude": -110.9260547,
+          "osmType": "way",
+          "osmId": 861213753,
+          "sourceUrl": "https://www.openstreetmap.org/way/861213753",
+          "tags": {
+            "highway": "service",
+            "name": "South Concert Place"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "South Concert Place",
+          "latitude": 32.212777,
+          "longitude": -110.9259349,
+          "osmType": "way",
+          "osmId": 861213754,
+          "sourceUrl": "https://www.openstreetmap.org/way/861213754",
+          "tags": {
+            "highway": "service",
+            "name": "South Concert Place",
+            "service": "parking_aisle"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Hi Corbett Field",
+          "latitude": 32.2129631,
+          "longitude": -110.9198701,
+          "osmType": "way",
+          "osmId": 1489299720,
+          "sourceUrl": "https://www.openstreetmap.org/way/1489299720",
+          "tags": {
+            "leisure": "stadium",
+            "name": "Hi Corbett Field",
+            "sport": "baseball"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Edith Ball Adaptive Recreation Center",
+          "latitude": 32.2105504,
+          "longitude": -110.9203036,
+          "osmType": "way",
+          "osmId": 1489299723,
+          "sourceUrl": "https://www.openstreetmap.org/way/1489299723",
+          "tags": {
+            "leisure": "sports_centre",
+            "name": "Edith Ball Adaptive Recreation Center",
+            "sport": "swimming"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    },
+    "launch-ok-tulsa-gathering-place": {
+      "name": "Gathering Place",
+      "boundarySource": "https://www.openstreetmap.org/way/624094500",
+      "candidates": [
+        {
+          "name": "PSO Reading Tree",
+          "latitude": 36.1250338,
+          "longitude": -95.9827986,
+          "osmType": "node",
+          "osmId": 6504558385,
+          "sourceUrl": "https://www.openstreetmap.org/node/6504558385",
+          "tags": {
+            "name": "PSO Reading Tree",
+            "natural": "tree"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Cottonwood Lawn & Theater",
+          "latitude": 36.1249236,
+          "longitude": -95.9829709,
+          "osmType": "node",
+          "osmId": 12697371758,
+          "sourceUrl": "https://www.openstreetmap.org/node/12697371758",
+          "tags": {
+            "leisure": "garden",
+            "name": "Cottonwood Lawn & Theater"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Picnic Grove",
+          "latitude": 36.1235062,
+          "longitude": -95.9835483,
+          "osmType": "node",
+          "osmId": 12697371807,
+          "sourceUrl": "https://www.openstreetmap.org/node/12697371807",
+          "tags": {
+            "name": "Picnic Grove",
+            "tourism": "picnic_site"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Ramble Sensory Garden",
+          "latitude": 36.1246319,
+          "longitude": -95.9839567,
+          "osmType": "node",
+          "osmId": 12697394364,
+          "sourceUrl": "https://www.openstreetmap.org/node/12697394364",
+          "tags": {
+            "leisure": "garden",
+            "name": "Ramble Sensory Garden"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Gather Round Stage",
+          "latitude": 36.124398,
+          "longitude": -95.9837412,
+          "osmType": "node",
+          "osmId": 12697394365,
+          "sourceUrl": "https://www.openstreetmap.org/node/12697394365",
+          "tags": {
+            "amenity": "theatre",
+            "name": "Gather Round Stage",
+            "operator": "The Gathering Place",
+            "theatre:type": "amphi"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Williams Mist Mountain",
+          "latitude": 36.124679,
+          "longitude": -95.9846362,
+          "osmType": "node",
+          "osmId": 12697394395,
+          "sourceUrl": "https://www.openstreetmap.org/node/12697394395",
+          "tags": {
+            "leisure": "garden",
+            "name": "Williams Mist Mountain"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Helmerich Sky Garden",
+          "latitude": 36.1207629,
+          "longitude": -95.9854053,
+          "osmType": "node",
+          "osmId": 12697424738,
+          "sourceUrl": "https://www.openstreetmap.org/node/12697424738",
+          "tags": {
+            "leisure": "garden",
+            "name": "Helmerich Sky Garden"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Four Seasons Garden",
+          "latitude": 36.1196409,
+          "longitude": -95.9848157,
+          "osmType": "node",
+          "osmId": 12697424756,
+          "sourceUrl": "https://www.openstreetmap.org/node/12697424756",
+          "tags": {
+            "leisure": "garden",
+            "name": "Four Seasons Garden"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Pine Valley",
+          "latitude": 36.1220423,
+          "longitude": -95.9848291,
+          "osmType": "node",
+          "osmId": 12697424801,
+          "sourceUrl": "https://www.openstreetmap.org/node/12697424801",
+          "tags": {
+            "leisure": "garden",
+            "name": "Pine Valley"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Redbud Cafe",
+          "latitude": 36.1251461,
+          "longitude": -95.984112,
+          "osmType": "node",
+          "osmId": 12697424865,
+          "sourceUrl": "https://www.openstreetmap.org/node/12697424865",
+          "tags": {
+            "amenity": "cafe",
+            "name": "Redbud Cafe"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "The Patio",
+          "latitude": 36.1253992,
+          "longitude": -95.9835249,
+          "osmType": "node",
+          "osmId": 12697424866,
+          "sourceUrl": "https://www.openstreetmap.org/node/12697424866",
+          "tags": {
+            "amenity": "cafe",
+            "name": "The Patio"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Cabinet of Wonder by Mark Dion",
+          "latitude": 36.1226885,
+          "longitude": -95.984875,
+          "osmType": "node",
+          "osmId": 12697424867,
+          "sourceUrl": "https://www.openstreetmap.org/node/12697424867",
+          "tags": {
+            "name": "Cabinet of Wonder by Mark Dion",
+            "operator": "The Gathering Place",
+            "tourism": "museum"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Vista at the Boathouse",
+          "latitude": 36.1226123,
+          "longitude": -95.9848971,
+          "osmType": "node",
+          "osmId": 12697424868,
+          "sourceUrl": "https://www.openstreetmap.org/node/12697424868",
+          "tags": {
+            "amenity": "events_venue",
+            "name": "Vista at the Boathouse",
+            "operator": "The Gathering Place"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Kayak and Pedal Boat Rental",
+          "latitude": 36.1227949,
+          "longitude": -95.9845617,
+          "osmType": "node",
+          "osmId": 12697424869,
+          "sourceUrl": "https://www.openstreetmap.org/node/12697424869",
+          "tags": {
+            "amenity": "boat_rental",
+            "name": "Kayak and Pedal Boat Rental"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Boathouse Overlook",
+          "latitude": 36.1227337,
+          "longitude": -95.9847376,
+          "osmType": "node",
+          "osmId": 12697424870,
+          "sourceUrl": "https://www.openstreetmap.org/node/12697424870",
+          "tags": {
+            "name": "Boathouse Overlook",
+            "tourism": "viewpoint"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Charlie's Water Mountain",
+          "latitude": 36.1232832,
+          "longitude": -95.9839083,
+          "osmType": "node",
+          "osmId": 12697424875,
+          "sourceUrl": "https://www.openstreetmap.org/node/12697424875",
+          "tags": {
+            "access": "yes",
+            "leisure": "playground",
+            "name": "Charlie's Water Mountain"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Sky Pods",
+          "latitude": 36.1235457,
+          "longitude": -95.9843311,
+          "osmType": "node",
+          "osmId": 12697424876,
+          "sourceUrl": "https://www.openstreetmap.org/node/12697424876",
+          "tags": {
+            "access": "yes",
+            "leisure": "playground",
+            "name": "Sky Pods"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Nature Play",
+          "latitude": 36.1236257,
+          "longitude": -95.9841844,
+          "osmType": "node",
+          "osmId": 12697424877,
+          "sourceUrl": "https://www.openstreetmap.org/node/12697424877",
+          "tags": {
+            "access": "yes",
+            "leisure": "playground",
+            "name": "Nature Play"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Skywalk Forest",
+          "latitude": 36.124083,
+          "longitude": -95.9841785,
+          "osmType": "node",
+          "osmId": 12697424878,
+          "sourceUrl": "https://www.openstreetmap.org/node/12697424878",
+          "tags": {
+            "access": "yes",
+            "leisure": "playground",
+            "name": "Skywalk Forest"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Spiral Connector & Towers",
+          "latitude": 36.1239823,
+          "longitude": -95.983666,
+          "osmType": "node",
+          "osmId": 12697424879,
+          "sourceUrl": "https://www.openstreetmap.org/node/12697424879",
+          "tags": {
+            "access": "yes",
+            "leisure": "playground",
+            "name": "Spiral Connector & Towers"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "River Giants",
+          "latitude": 36.1240256,
+          "longitude": -95.9833037,
+          "osmType": "node",
+          "osmId": 12697424880,
+          "sourceUrl": "https://www.openstreetmap.org/node/12697424880",
+          "tags": {
+            "leisure": "playground",
+            "name": "River Giants"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Fairy Land Forest",
+          "latitude": 36.1243784,
+          "longitude": -95.9833899,
+          "osmType": "node",
+          "osmId": 12697424881,
+          "sourceUrl": "https://www.openstreetmap.org/node/12697424881",
+          "tags": {
+            "access": "yes",
+            "leisure": "playground",
+            "name": "Fairy Land Forest"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Volcanoville",
+          "latitude": 36.1245327,
+          "longitude": -95.9828506,
+          "osmType": "node",
+          "osmId": 12697424882,
+          "sourceUrl": "https://www.openstreetmap.org/node/12697424882",
+          "tags": {
+            "access": "yes",
+            "leisure": "playground",
+            "name": "Volcanoville"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverside Drive",
+          "latitude": 36.1253295,
+          "longitude": -95.9868714,
+          "osmType": "way",
+          "osmId": 80291388,
+          "sourceUrl": "https://www.openstreetmap.org/way/80291388",
+          "tags": {
+            "highway": "primary",
+            "lanes": "2",
+            "maxspeed": "35 mph",
+            "name": "Riverside Drive",
+            "oneway": "yes",
+            "placement": "transition",
+            "smoothness": "good",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "East 31st Street South",
+          "latitude": 36.1188462,
+          "longitude": -95.9844487,
+          "osmType": "way",
+          "osmId": 107642844,
+          "sourceUrl": "https://www.openstreetmap.org/way/107642844",
+          "tags": {
+            "bicycle:lanes:backward": "designated|yes",
+            "bicycle:lanes:forward": "yes|designated",
+            "cycleway": "shared_lane",
+            "highway": "secondary",
+            "lanes": "4",
+            "lanes:backward": "2",
+            "lanes:forward": "2",
+            "maxspeed": "30 mph",
+            "motor_vehicle:lanes:forward": "yes|no",
+            "name": "East 31st Street South",
+            "noref": "yes",
+            "surface": "concrete",
+            "turn:lanes:backward": "left|right",
+            "turn:lanes:forward": "left;through|through"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "South Cincinnati Avenue East",
+          "latitude": 36.1155227,
+          "longitude": -95.9820944,
+          "osmType": "way",
+          "osmId": 142179717,
+          "sourceUrl": "https://www.openstreetmap.org/way/142179717",
+          "tags": {
+            "bicycle": "designated",
+            "cycleway": "shared_lane",
+            "highway": "residential",
+            "maxspeed": "25 mph",
+            "name": "South Cincinnati Avenue East",
+            "postal_code": "74105",
+            "smoothness": "intermediate",
+            "source:maxspeed": "25 MPH on residential streets in Tulsa City.",
+            "surface": "asphalt",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Crow Creek",
+          "latitude": 36.1161365,
+          "longitude": -95.9817283,
+          "osmType": "way",
+          "osmId": 315995723,
+          "sourceUrl": "https://www.openstreetmap.org/way/315995723",
+          "tags": {
+            "name": "Crow Creek",
+            "source": "Yahoo;Bing",
+            "waterway": "stream"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "The Gathering Place",
+          "latitude": 36.1258232,
+          "longitude": -95.9844121,
+          "osmType": "way",
+          "osmId": 357270554,
+          "sourceUrl": "https://www.openstreetmap.org/way/357270554",
+          "tags": {
+            "access": "yes",
+            "amenity": "parking",
+            "name": "The Gathering Place"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "The Gathering Place",
+          "latitude": 36.1239964,
+          "longitude": -95.9862587,
+          "osmType": "way",
+          "osmId": 357270583,
+          "sourceUrl": "https://www.openstreetmap.org/way/357270583",
+          "tags": {
+            "access": "yes",
+            "amenity": "parking",
+            "fee": "no",
+            "name": "The Gathering Place",
+            "parking": "surface"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Peggy's Pond",
+          "latitude": 36.1239031,
+          "longitude": -95.9851362,
+          "osmType": "way",
+          "osmId": 357270601,
+          "sourceUrl": "https://www.openstreetmap.org/way/357270601",
+          "tags": {
+            "intermittent": "no",
+            "name": "Peggy's Pond",
+            "natural": "water",
+            "water": "pond"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Tuckabache Trail",
+          "latitude": 36.1216266,
+          "longitude": -95.9856521,
+          "osmType": "way",
+          "osmId": 357270603,
+          "sourceUrl": "https://www.openstreetmap.org/way/357270603",
+          "tags": {
+            "bicycle": "yes",
+            "bridge": "yes",
+            "foot": "yes",
+            "highway": "cycleway",
+            "layer": "2",
+            "lit": "yes",
+            "maxspeed": "25 mph",
+            "motor_vehicle": "no",
+            "name": "Tuckabache Trail",
+            "old_name": "Midland Valley Trail",
+            "segregated": "no",
+            "sidewalk": "no",
+            "smoothness": "excellent",
+            "source": "Bing, INCOG, GPS",
+            "source:maxspeed": "25 MPH within city parks unless otherwise posted in Tulsa;Tulsa City Code 26-102.",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Tuckabache Trail",
+          "latitude": 36.121863,
+          "longitude": -95.9848269,
+          "osmType": "way",
+          "osmId": 357270605,
+          "sourceUrl": "https://www.openstreetmap.org/way/357270605",
+          "tags": {
+            "bicycle": "yes",
+            "foot": "yes",
+            "highway": "cycleway",
+            "lanes": "2",
+            "lanes:backward": "1",
+            "lanes:forward": "1",
+            "maxspeed": "25 mph",
+            "motor_vehicle": "no",
+            "name": "Tuckabache Trail",
+            "old_name": "Midland Valley Trail",
+            "segregated": "no",
+            "sidewalk": "no",
+            "smoothness": "excellent",
+            "source": "Bing, INCOG, GPS",
+            "source:maxspeed": "25 MPH within city parks unless otherwise posted in Tulsa;Tulsa City Code 26-102.",
+            "surface": "asphalt",
+            "turn:lanes:forward": "through"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "River Parks East Bank Trail",
+          "latitude": 36.1157441,
+          "longitude": -95.9850218,
+          "osmType": "way",
+          "osmId": 357270608,
+          "sourceUrl": "https://www.openstreetmap.org/way/357270608",
+          "tags": {
+            "bicycle": "designated",
+            "check_date": "2025-07-31",
+            "construction": "minor",
+            "foot": "designated",
+            "highway": "cycleway",
+            "lanes": "2",
+            "lanes:backward": "1",
+            "lanes:forward": "1",
+            "maxspeed": "25 mph",
+            "name": "River Parks East Bank Trail",
+            "oneway": "no",
+            "segregated": "yes",
+            "sidewalk": "left",
+            "smoothness": "excellent",
+            "source:maxspeed": "25 MPH within city parks unless otherwise posted in Tulsa;Tulsa City Code 26-102.",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "River Parks East Bank Trail",
+          "latitude": 36.1170626,
+          "longitude": -95.9851459,
+          "osmType": "way",
+          "osmId": 357270609,
+          "sourceUrl": "https://www.openstreetmap.org/way/357270609",
+          "tags": {
+            "bicycle": "designated",
+            "bridge": "yes",
+            "foot": "designated",
+            "highway": "cycleway",
+            "lanes": "2",
+            "lanes:backward": "1",
+            "lanes:forward": "1",
+            "layer": "1",
+            "maxspeed": "25 mph",
+            "name": "River Parks East Bank Trail",
+            "oneway": "no",
+            "segregated": "yes",
+            "sidewalk": "left",
+            "smoothness": "excellent",
+            "source:maxspeed": "25 MPH within city parks unless otherwise posted in Tulsa;Tulsa City Code 26-102.",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "River Parks East Bank Trail",
+          "latitude": 36.1201058,
+          "longitude": -95.9856059,
+          "osmType": "way",
+          "osmId": 357270610,
+          "sourceUrl": "https://www.openstreetmap.org/way/357270610",
+          "tags": {
+            "bicycle": "designated",
+            "construction": "minor",
+            "foot": "designated",
+            "highway": "cycleway",
+            "lanes": "2",
+            "lanes:backward": "1",
+            "lanes:forward": "1",
+            "maxspeed": "25 mph",
+            "name": "River Parks East Bank Trail",
+            "segregated": "yes",
+            "sidewalk": "left",
+            "smoothness": "excellent",
+            "source:maxspeed": "25 MPH within city parks unless otherwise posted in Tulsa;Tulsa City Code 26-102.",
+            "surface": "asphalt",
+            "turn:lanes:backward": "left;through",
+            "turn:lanes:forward": "left;through;right"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "River Parks East Bank Trail",
+          "latitude": 36.1243283,
+          "longitude": -95.9866986,
+          "osmType": "way",
+          "osmId": 357270611,
+          "sourceUrl": "https://www.openstreetmap.org/way/357270611",
+          "tags": {
+            "bicycle": "designated",
+            "check_date": "2025-08-07",
+            "foot": "designated",
+            "highway": "cycleway",
+            "lanes": "2",
+            "lanes:backward": "1",
+            "lanes:forward": "1",
+            "maxspeed": "25 mph",
+            "name": "River Parks East Bank Trail",
+            "segregated": "yes",
+            "sidewalk": "left",
+            "smoothness": "excellent",
+            "source:maxspeed": "25 MPH within city parks unless otherwise posted in Tulsa;Tulsa City Code 26-102.",
+            "surface": "paved",
+            "turn:lanes:backward": "left;through;right"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "River Parks East Bank Trail",
+          "latitude": 36.1132986,
+          "longitude": -95.9845746,
+          "osmType": "way",
+          "osmId": 357270615,
+          "sourceUrl": "https://www.openstreetmap.org/way/357270615",
+          "tags": {
+            "bicycle": "no",
+            "foot": "designated",
+            "highway": "footway",
+            "name": "River Parks East Bank Trail",
+            "smoothness": "good",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverside Drive",
+          "latitude": 36.1225609,
+          "longitude": -95.9859057,
+          "osmType": "way",
+          "osmId": 357270617,
+          "sourceUrl": "https://www.openstreetmap.org/way/357270617",
+          "tags": {
+            "highway": "primary",
+            "lanes": "2",
+            "layer": "-1",
+            "lit": "yes",
+            "maxheight": "15'6\"",
+            "maxspeed": "35 mph",
+            "name": "Riverside Drive",
+            "oneway": "yes",
+            "smoothness": "good",
+            "surface": "concrete",
+            "tunnel": "yes"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverside Drive",
+          "latitude": 36.1202111,
+          "longitude": -95.9853591,
+          "osmType": "way",
+          "osmId": 357270618,
+          "sourceUrl": "https://www.openstreetmap.org/way/357270618",
+          "tags": {
+            "highway": "primary",
+            "lanes": "2",
+            "maxspeed": "35 mph",
+            "name": "Riverside Drive",
+            "oneway": "yes",
+            "smoothness": "good",
+            "surface": "concrete",
+            "turn:lanes": "through|through;right"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverside Drive",
+          "latitude": 36.1225271,
+          "longitude": -95.9860244,
+          "osmType": "way",
+          "osmId": 357270619,
+          "sourceUrl": "https://www.openstreetmap.org/way/357270619",
+          "tags": {
+            "highway": "primary",
+            "lanes": "2",
+            "layer": "-1",
+            "lit": "yes",
+            "maxheight": "15'6\"",
+            "maxspeed": "35 mph",
+            "name": "Riverside Drive",
+            "oneway": "yes",
+            "smoothness": "good",
+            "surface": "concrete",
+            "tunnel": "yes"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverside Drive",
+          "latitude": 36.1171102,
+          "longitude": -95.9847029,
+          "osmType": "way",
+          "osmId": 357270621,
+          "sourceUrl": "https://www.openstreetmap.org/way/357270621",
+          "tags": {
+            "bridge": "yes",
+            "highway": "primary",
+            "lanes": "2",
+            "maxspeed": "35 mph",
+            "maxweight:signed": "no",
+            "name": "Riverside Drive",
+            "oneway": "yes",
+            "smoothness": "good",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverside Drive",
+          "latitude": 36.120764,
+          "longitude": -95.9854978,
+          "osmType": "way",
+          "osmId": 357270622,
+          "sourceUrl": "https://www.openstreetmap.org/way/357270622",
+          "tags": {
+            "highway": "primary",
+            "lanes": "2",
+            "layer": "-1",
+            "lit": "yes",
+            "maxheight": "15'6\"",
+            "maxspeed": "35 mph",
+            "name": "Riverside Drive",
+            "oneway": "yes",
+            "smoothness": "good",
+            "surface": "concrete",
+            "tunnel": "yes"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverside Drive",
+          "latitude": 36.1251235,
+          "longitude": -95.9867209,
+          "osmType": "way",
+          "osmId": 357270624,
+          "sourceUrl": "https://www.openstreetmap.org/way/357270624",
+          "tags": {
+            "highway": "primary",
+            "lanes": "3",
+            "maxspeed": "35 mph",
+            "name": "Riverside Drive",
+            "oneway": "yes",
+            "placement": "right_of:1",
+            "smoothness": "good",
+            "surface": "concrete",
+            "turn:lanes": "through|through|right"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverside Drive",
+          "latitude": 36.1207965,
+          "longitude": -95.9853613,
+          "osmType": "way",
+          "osmId": 357270625,
+          "sourceUrl": "https://www.openstreetmap.org/way/357270625",
+          "tags": {
+            "highway": "primary",
+            "lanes": "2",
+            "layer": "-1",
+            "lit": "yes",
+            "maxheight": "15'6\"",
+            "maxspeed": "35 mph",
+            "name": "Riverside Drive",
+            "oneway": "yes",
+            "smoothness": "good",
+            "surface": "concrete",
+            "tunnel": "yes"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverside Drive",
+          "latitude": 36.1150876,
+          "longitude": -95.9845264,
+          "osmType": "way",
+          "osmId": 357270626,
+          "sourceUrl": "https://www.openstreetmap.org/way/357270626",
+          "tags": {
+            "highway": "primary",
+            "lanes": "3",
+            "maxspeed": "35 mph",
+            "name": "Riverside Drive",
+            "oneway": "yes",
+            "placement": "right_of:2",
+            "smoothness": "good",
+            "surface": "concrete",
+            "turn:lanes": "left|through|through"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverside Drive",
+          "latitude": 36.1171169,
+          "longitude": -95.9845523,
+          "osmType": "way",
+          "osmId": 357270629,
+          "sourceUrl": "https://www.openstreetmap.org/way/357270629",
+          "tags": {
+            "bridge": "yes",
+            "highway": "primary",
+            "lanes": "2",
+            "maxspeed": "35 mph",
+            "maxweight:signed": "no",
+            "name": "Riverside Drive",
+            "oneway": "yes",
+            "smoothness": "good",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverside Drive",
+          "latitude": 36.1253395,
+          "longitude": -95.9868087,
+          "osmType": "way",
+          "osmId": 357270631,
+          "sourceUrl": "https://www.openstreetmap.org/way/357270631",
+          "tags": {
+            "highway": "primary",
+            "lanes": "3",
+            "maxspeed": "35 mph",
+            "name": "Riverside Drive",
+            "oneway": "yes",
+            "placement": "transition",
+            "smoothness": "good",
+            "surface": "concrete",
+            "turn:lanes": "through|through|right"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverside Drive",
+          "latitude": 36.125649,
+          "longitude": -95.9869221,
+          "osmType": "way",
+          "osmId": 357270632,
+          "sourceUrl": "https://www.openstreetmap.org/way/357270632",
+          "tags": {
+            "highway": "primary",
+            "lanes": "5",
+            "lanes:backward": "3",
+            "lanes:forward": "2",
+            "maxspeed": "35 mph",
+            "name": "Riverside Drive",
+            "sidewalk:left": "no",
+            "sidewalk:right": "separate",
+            "smoothness": "good",
+            "surface": "concrete",
+            "turn:lanes:backward": "left|through|through"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverside Drive",
+          "latitude": 36.1191651,
+          "longitude": -95.9851095,
+          "osmType": "way",
+          "osmId": 357270648,
+          "sourceUrl": "https://www.openstreetmap.org/way/357270648",
+          "tags": {
+            "highway": "primary",
+            "lanes": "3",
+            "maxspeed": "35 mph",
+            "name": "Riverside Drive",
+            "oneway": "yes",
+            "placement": "right_of:2",
+            "smoothness": "good",
+            "surface": "concrete",
+            "turn:lanes": "left|through|through"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverside Drive",
+          "latitude": 36.1161308,
+          "longitude": -95.9846306,
+          "osmType": "way",
+          "osmId": 357270671,
+          "sourceUrl": "https://www.openstreetmap.org/way/357270671",
+          "tags": {
+            "highway": "primary",
+            "lanes": "2",
+            "maxspeed": "35 mph",
+            "name": "Riverside Drive",
+            "oneway": "yes",
+            "smoothness": "good",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverside Drive",
+          "latitude": 36.1216812,
+          "longitude": -95.9856071,
+          "osmType": "way",
+          "osmId": 357270672,
+          "sourceUrl": "https://www.openstreetmap.org/way/357270672",
+          "tags": {
+            "highway": "primary",
+            "lanes": "2",
+            "maxheight": "15'6\"",
+            "maxspeed": "35 mph",
+            "name": "Riverside Drive",
+            "oneway": "yes",
+            "smoothness": "good",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverside Drive",
+          "latitude": 36.1216486,
+          "longitude": -95.9857378,
+          "osmType": "way",
+          "osmId": 357270676,
+          "sourceUrl": "https://www.openstreetmap.org/way/357270676",
+          "tags": {
+            "highway": "primary",
+            "lanes": "2",
+            "maxheight": "15'6\"",
+            "maxspeed": "35 mph",
+            "name": "Riverside Drive",
+            "oneway": "yes",
+            "smoothness": "good",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverside Drive",
+          "latitude": 36.1241039,
+          "longitude": -95.9865306,
+          "osmType": "way",
+          "osmId": 357270679,
+          "sourceUrl": "https://www.openstreetmap.org/way/357270679",
+          "tags": {
+            "highway": "primary",
+            "lanes": "2",
+            "maxspeed": "35 mph",
+            "name": "Riverside Drive",
+            "oneway": "yes",
+            "smoothness": "good",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverside Drive",
+          "latitude": 36.1180435,
+          "longitude": -95.9847027,
+          "osmType": "way",
+          "osmId": 357270680,
+          "sourceUrl": "https://www.openstreetmap.org/way/357270680",
+          "tags": {
+            "highway": "primary",
+            "lanes": "2",
+            "maxspeed": "35 mph",
+            "name": "Riverside Drive",
+            "oneway": "yes",
+            "smoothness": "good",
+            "surface": "concrete",
+            "turn:lanes": "through|through;right"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverside Drive",
+          "latitude": 36.1154469,
+          "longitude": -95.984415,
+          "osmType": "way",
+          "osmId": 357270681,
+          "sourceUrl": "https://www.openstreetmap.org/way/357270681",
+          "tags": {
+            "highway": "primary",
+            "lanes": "2",
+            "maxspeed": "35 mph",
+            "name": "Riverside Drive",
+            "oneway": "yes",
+            "smoothness": "good",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverside Drive",
+          "latitude": 36.1180262,
+          "longitude": -95.9848512,
+          "osmType": "way",
+          "osmId": 357270682,
+          "sourceUrl": "https://www.openstreetmap.org/way/357270682",
+          "tags": {
+            "highway": "primary",
+            "lanes": "2",
+            "maxspeed": "35 mph",
+            "name": "Riverside Drive",
+            "oneway": "yes",
+            "smoothness": "good",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverside Drive",
+          "latitude": 36.1241058,
+          "longitude": -95.98642,
+          "osmType": "way",
+          "osmId": 357270684,
+          "sourceUrl": "https://www.openstreetmap.org/way/357270684",
+          "tags": {
+            "highway": "primary",
+            "lanes": "2",
+            "maxspeed": "35 mph",
+            "name": "Riverside Drive",
+            "oneway": "yes",
+            "smoothness": "good",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "John Williams Way",
+          "latitude": 36.1223733,
+          "longitude": -95.9843389,
+          "osmType": "way",
+          "osmId": 357270703,
+          "sourceUrl": "https://www.openstreetmap.org/way/357270703",
+          "tags": {
+            "highway": "service",
+            "maxspeed": "25 mph",
+            "name": "John Williams Way",
+            "oneway": "yes",
+            "service": "driveway",
+            "smoothness": "excellent",
+            "source:maxspeed": "25 MPH within city parks unless otherwise posted in Tulsa;Tulsa City Code 26-102.",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "John Williams Way",
+          "latitude": 36.1244937,
+          "longitude": -95.9825882,
+          "osmType": "way",
+          "osmId": 357270729,
+          "sourceUrl": "https://www.openstreetmap.org/way/357270729",
+          "tags": {
+            "highway": "service",
+            "maxspeed": "25 mph",
+            "name": "John Williams Way",
+            "service": "parking_aisle",
+            "smoothness": "good",
+            "source:maxspeed": "25 MPH within city parks unless otherwise posted in Tulsa;Tulsa City Code 26-102.",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "John Williams Way",
+          "latitude": 36.1258176,
+          "longitude": -95.9841,
+          "osmType": "way",
+          "osmId": 357270734,
+          "sourceUrl": "https://www.openstreetmap.org/way/357270734",
+          "tags": {
+            "highway": "service",
+            "maxspeed": "25 mph",
+            "name": "John Williams Way",
+            "service": "parking_aisle",
+            "source:maxspeed": "25 MPH within city parks unless otherwise posted in Tulsa;Tulsa City Code 26-102."
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "John Williams Way",
+          "latitude": 36.1256763,
+          "longitude": -95.9826815,
+          "osmType": "way",
+          "osmId": 357270735,
+          "sourceUrl": "https://www.openstreetmap.org/way/357270735",
+          "tags": {
+            "highway": "service",
+            "maxspeed": "25 mph",
+            "name": "John Williams Way",
+            "service": "driveway",
+            "source:maxspeed": "25 MPH within city parks unless otherwise posted in Tulsa;Tulsa City Code 26-102."
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "John Williams Way",
+          "latitude": 36.1256103,
+          "longitude": -95.9862812,
+          "osmType": "way",
+          "osmId": 357270738,
+          "sourceUrl": "https://www.openstreetmap.org/way/357270738",
+          "tags": {
+            "highway": "service",
+            "maxspeed": "25 mph",
+            "name": "John Williams Way",
+            "smoothness": "good",
+            "source:maxspeed": "25 MPH within city parks unless otherwise posted in Tulsa;Tulsa City Code 26-102.",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "The Gathering Place",
+          "latitude": 36.1157021,
+          "longitude": -95.9849889,
+          "osmType": "way",
+          "osmId": 357539333,
+          "sourceUrl": "https://www.openstreetmap.org/way/357539333",
+          "tags": {
+            "access": "yes",
+            "amenity": "parking",
+            "fee": "no",
+            "name": "The Gathering Place",
+            "parking": "surface"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "The Gathering Place",
+          "latitude": 36.1193711,
+          "longitude": -95.9853382,
+          "osmType": "way",
+          "osmId": 357539342,
+          "sourceUrl": "https://www.openstreetmap.org/way/357539342",
+          "tags": {
+            "access": "yes",
+            "amenity": "parking",
+            "fee": "no",
+            "name": "The Gathering Place",
+            "parking": "street_side"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "John Williams Way",
+          "latitude": 36.1239094,
+          "longitude": -95.9846036,
+          "osmType": "way",
+          "osmId": 357826367,
+          "sourceUrl": "https://www.openstreetmap.org/way/357826367",
+          "tags": {
+            "bicycle": "no",
+            "footway": "sidewalk",
+            "highway": "footway",
+            "name": "John Williams Way",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverside Drive",
+          "latitude": 36.1188356,
+          "longitude": -95.9847675,
+          "osmType": "way",
+          "osmId": 357826375,
+          "sourceUrl": "https://www.openstreetmap.org/way/357826375",
+          "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "name": "Riverside Drive"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Tuckabache Trail",
+          "latitude": 36.1241214,
+          "longitude": -95.9832214,
+          "osmType": "way",
+          "osmId": 473988991,
+          "sourceUrl": "https://www.openstreetmap.org/way/473988991",
+          "tags": {
+            "bicycle": "yes",
+            "foot": "yes",
+            "highway": "cycleway",
+            "lanes": "2",
+            "lanes:backward": "1",
+            "lanes:forward": "1",
+            "maxspeed": "25 mph",
+            "motor_vehicle": "no",
+            "name": "Tuckabache Trail",
+            "old_name": "Midland Valley Trail",
+            "segregated": "no",
+            "sidewalk": "no",
+            "smoothness": "good",
+            "source": "Bing, INCOG, GPS",
+            "source:maxspeed": "25 MPH within city parks unless otherwise posted in Tulsa;Tulsa City Code 26-102.",
+            "surface": "asphalt",
+            "turn:lanes:backward": "through"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "East 31st Street South",
+          "latitude": 36.1187759,
+          "longitude": -95.9844482,
+          "osmType": "way",
+          "osmId": 624094494,
+          "sourceUrl": "https://www.openstreetmap.org/way/624094494",
+          "tags": {
+            "bicycle": "no",
+            "footway": "sidewalk",
+            "highway": "footway",
+            "name": "East 31st Street South",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverside Drive",
+          "latitude": 36.1196147,
+          "longitude": -95.9850675,
+          "osmType": "way",
+          "osmId": 624094499,
+          "sourceUrl": "https://www.openstreetmap.org/way/624094499",
+          "tags": {
+            "highway": "primary",
+            "lanes": "2",
+            "maxspeed": "35 mph",
+            "name": "Riverside Drive",
+            "oneway": "yes",
+            "smoothness": "good",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Skate Zone",
+          "latitude": 36.1188005,
+          "longitude": -95.9858733,
+          "osmType": "way",
+          "osmId": 624097344,
+          "sourceUrl": "https://www.openstreetmap.org/way/624097344",
+          "tags": {
+            "access": "yes",
+            "leisure": "pitch",
+            "lit": "yes",
+            "name": "Skate Zone",
+            "sport": "skateboard",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Tuckabache Trail",
+          "latitude": 36.1216066,
+          "longitude": -95.9859412,
+          "osmType": "way",
+          "osmId": 628928478,
+          "sourceUrl": "https://www.openstreetmap.org/way/628928478",
+          "tags": {
+            "bicycle": "yes",
+            "foot": "yes",
+            "highway": "cycleway",
+            "lanes": "2",
+            "lanes:backward": "1",
+            "lanes:forward": "1",
+            "maxspeed": "25 mph",
+            "motor_vehicle": "no",
+            "name": "Tuckabache Trail",
+            "old_name": "Midland Valley Trail",
+            "segregated": "no",
+            "sidewalk": "no",
+            "smoothness": "excellent",
+            "source": "Bing, INCOG, GPS",
+            "source:maxspeed": "25 MPH within city parks unless otherwise posted in Tulsa;Tulsa City Code 26-102.",
+            "surface": "asphalt",
+            "turn:lanes:backward": "left;through;right"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "East 31st Street South",
+          "latitude": 36.1188272,
+          "longitude": -95.9849454,
+          "osmType": "way",
+          "osmId": 683463697,
+          "sourceUrl": "https://www.openstreetmap.org/way/683463697",
+          "tags": {
+            "bicycle:lanes:backward": "designated",
+            "cycleway": "shared_lane",
+            "highway": "primary_link",
+            "lanes": "2",
+            "lanes:backward": "1",
+            "lanes:forward": "1",
+            "maxspeed": "30 mph",
+            "name": "East 31st Street South",
+            "smoothness": "good",
+            "surface": "concrete",
+            "turn:lanes:backward": "left",
+            "turn:lanes:forward": "left;through"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverside Drive",
+          "latitude": 36.1187724,
+          "longitude": -95.9848535,
+          "osmType": "way",
+          "osmId": 683463698,
+          "sourceUrl": "https://www.openstreetmap.org/way/683463698",
+          "tags": {
+            "highway": "primary",
+            "lanes": "2",
+            "maxspeed": "35 mph",
+            "name": "Riverside Drive",
+            "oneway": "yes",
+            "smoothness": "good",
+            "surface": "concrete",
+            "turn:lanes": "through|through;right"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverside Drive",
+          "latitude": 36.1187477,
+          "longitude": -95.9850014,
+          "osmType": "way",
+          "osmId": 683463699,
+          "sourceUrl": "https://www.openstreetmap.org/way/683463699",
+          "tags": {
+            "highway": "primary",
+            "lanes": "2",
+            "maxspeed": "35 mph",
+            "name": "Riverside Drive",
+            "oneway": "yes",
+            "smoothness": "good",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "East 31st Street South",
+          "latitude": 36.1186929,
+          "longitude": -95.9849095,
+          "osmType": "way",
+          "osmId": 683463700,
+          "sourceUrl": "https://www.openstreetmap.org/way/683463700",
+          "tags": {
+            "highway": "path",
+            "name": "East 31st Street South",
+            "smoothness": "excellent",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "East 31st Street South",
+          "latitude": 36.1186429,
+          "longitude": -95.985095,
+          "osmType": "way",
+          "osmId": 683463701,
+          "sourceUrl": "https://www.openstreetmap.org/way/683463701",
+          "tags": {
+            "bicycle": "yes",
+            "foot": "yes",
+            "highway": "path",
+            "name": "East 31st Street South"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverside Drive",
+          "latitude": 36.1231111,
+          "longitude": -95.9861078,
+          "osmType": "way",
+          "osmId": 692830641,
+          "sourceUrl": "https://www.openstreetmap.org/way/692830641",
+          "tags": {
+            "highway": "primary",
+            "lanes": "2",
+            "maxspeed": "35 mph",
+            "name": "Riverside Drive",
+            "oneway": "yes",
+            "smoothness": "good",
+            "surface": "concrete",
+            "turn:lanes": "through|through;right"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "John Williams Way",
+          "latitude": 36.1238422,
+          "longitude": -95.9832272,
+          "osmType": "way",
+          "osmId": 692830684,
+          "sourceUrl": "https://www.openstreetmap.org/way/692830684",
+          "tags": {
+            "bicycle": "no",
+            "footway": "sidewalk",
+            "highway": "footway",
+            "name": "John Williams Way",
+            "smoothness": "good",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Slide Vale",
+          "latitude": 36.1237829,
+          "longitude": -95.9855514,
+          "osmType": "way",
+          "osmId": 692830721,
+          "sourceUrl": "https://www.openstreetmap.org/way/692830721",
+          "tags": {
+            "access": "yes",
+            "leisure": "playground",
+            "name": "Slide Vale",
+            "operator": "The Gathering Place"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Willow Beach",
+          "latitude": 36.1245182,
+          "longitude": -95.9858081,
+          "osmType": "way",
+          "osmId": 692830728,
+          "sourceUrl": "https://www.openstreetmap.org/way/692830728",
+          "tags": {
+            "name": "Willow Beach",
+            "natural": "beach"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Chapman Adventure Playground",
+          "latitude": 36.1239103,
+          "longitude": -95.9835396,
+          "osmType": "way",
+          "osmId": 692830730,
+          "sourceUrl": "https://www.openstreetmap.org/way/692830730",
+          "tags": {
+            "access": "yes",
+            "leisure": "playground",
+            "name": "Chapman Adventure Playground",
+            "operator": "The Gathering Place"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "John Williams Way",
+          "latitude": 36.1256079,
+          "longitude": -95.9825892,
+          "osmType": "way",
+          "osmId": 692830731,
+          "sourceUrl": "https://www.openstreetmap.org/way/692830731",
+          "tags": {
+            "highway": "service",
+            "maxspeed": "25 mph",
+            "name": "John Williams Way",
+            "service": "driveway",
+            "source:maxspeed": "25 MPH within city parks unless otherwise posted in Tulsa;Tulsa City Code 26-102."
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "John Williams Way",
+          "latitude": 36.12573,
+          "longitude": -95.982773,
+          "osmType": "way",
+          "osmId": 692830732,
+          "sourceUrl": "https://www.openstreetmap.org/way/692830732",
+          "tags": {
+            "highway": "service",
+            "maxspeed": "25 mph",
+            "name": "John Williams Way",
+            "service": "driveway",
+            "source:maxspeed": "25 MPH within city parks unless otherwise posted in Tulsa;Tulsa City Code 26-102."
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "John Williams Way",
+          "latitude": 36.125756,
+          "longitude": -95.9828312,
+          "osmType": "way",
+          "osmId": 692830733,
+          "sourceUrl": "https://www.openstreetmap.org/way/692830733",
+          "tags": {
+            "highway": "service",
+            "maxspeed": "25 mph",
+            "name": "John Williams Way",
+            "service": "driveway",
+            "source:maxspeed": "25 MPH within city parks unless otherwise posted in Tulsa;Tulsa City Code 26-102."
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "John Williams Way",
+          "latitude": 36.1253936,
+          "longitude": -95.9824778,
+          "osmType": "way",
+          "osmId": 692830734,
+          "sourceUrl": "https://www.openstreetmap.org/way/692830734",
+          "tags": {
+            "highway": "service",
+            "maxspeed": "25 mph",
+            "name": "John Williams Way",
+            "service": "driveway",
+            "source:maxspeed": "25 MPH within city parks unless otherwise posted in Tulsa;Tulsa City Code 26-102."
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "The Gathering Place",
+          "latitude": 36.123757,
+          "longitude": -95.9832137,
+          "osmType": "way",
+          "osmId": 692830737,
+          "sourceUrl": "https://www.openstreetmap.org/way/692830737",
+          "tags": {
+            "access": "yes",
+            "amenity": "parking",
+            "fee": "no",
+            "name": "The Gathering Place",
+            "parking": "surface"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverside Drive",
+          "latitude": 36.1197921,
+          "longitude": -95.9852611,
+          "osmType": "way",
+          "osmId": 692830740,
+          "sourceUrl": "https://www.openstreetmap.org/way/692830740",
+          "tags": {
+            "highway": "primary",
+            "lanes": "2",
+            "maxspeed": "35 mph",
+            "name": "Riverside Drive",
+            "oneway": "yes",
+            "smoothness": "good",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Bike Track",
+          "latitude": 36.1195083,
+          "longitude": -95.9856297,
+          "osmType": "way",
+          "osmId": 692830746,
+          "sourceUrl": "https://www.openstreetmap.org/way/692830746",
+          "tags": {
+            "leisure": "pitch",
+            "lit": "yes",
+            "name": "Bike Track",
+            "sport": "bmx",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverside Drive",
+          "latitude": 36.1163564,
+          "longitude": -95.9844989,
+          "osmType": "way",
+          "osmId": 692830754,
+          "sourceUrl": "https://www.openstreetmap.org/way/692830754",
+          "tags": {
+            "highway": "primary",
+            "lanes": "3",
+            "maxspeed": "35 mph",
+            "name": "Riverside Drive",
+            "oneway": "yes",
+            "placement": "left_of:3",
+            "smoothness": "good",
+            "surface": "concrete",
+            "turn:lanes": "left|through|through"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverside Drive",
+          "latitude": 36.1167201,
+          "longitude": -95.9845251,
+          "osmType": "way",
+          "osmId": 692830755,
+          "sourceUrl": "https://www.openstreetmap.org/way/692830755",
+          "tags": {
+            "highway": "primary",
+            "lanes": "2",
+            "maxspeed": "35 mph",
+            "name": "Riverside Drive",
+            "oneway": "yes",
+            "smoothness": "good",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "River Parks East Bank Trail",
+          "latitude": 36.1133164,
+          "longitude": -95.9845292,
+          "osmType": "way",
+          "osmId": 692830760,
+          "sourceUrl": "https://www.openstreetmap.org/way/692830760",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "no",
+            "highway": "cycleway",
+            "lanes": "2",
+            "lanes:backward": "1",
+            "lanes:forward": "1",
+            "maxspeed": "25 mph",
+            "name": "River Parks East Bank Trail",
+            "smoothness": "excellent",
+            "source": "GPS, INCOG",
+            "source:maxspeed": "25 MPH within city parks unless otherwise posted in Tulsa;Tulsa City Code 26-102.",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "John Williams Way",
+          "latitude": 36.1230444,
+          "longitude": -95.9834374,
+          "osmType": "way",
+          "osmId": 692831903,
+          "sourceUrl": "https://www.openstreetmap.org/way/692831903",
+          "tags": {
+            "highway": "service",
+            "maxspeed": "25 mph",
+            "name": "John Williams Way",
+            "oneway": "yes",
+            "service": "parking_aisle",
+            "source:maxspeed": "25 MPH within city parks unless otherwise posted in Tulsa;Tulsa City Code 26-102."
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "River Parks East Bank Trail",
+          "latitude": 36.1179003,
+          "longitude": -95.9851275,
+          "osmType": "way",
+          "osmId": 780064969,
+          "sourceUrl": "https://www.openstreetmap.org/way/780064969",
+          "tags": {
+            "bicycle": "designated",
+            "check_date": "2025-12-16",
+            "construction": "minor",
+            "foot": "designated",
+            "highway": "cycleway",
+            "lanes": "2",
+            "lanes:backward": "1",
+            "lanes:forward": "1",
+            "maxspeed": "25 mph",
+            "name": "River Parks East Bank Trail",
+            "oneway": "no",
+            "segregated": "yes",
+            "sidewalk": "left",
+            "smoothness": "excellent",
+            "source": "GPS, INCOG",
+            "source:maxspeed": "25 MPH within city parks unless otherwise posted in Tulsa;Tulsa City Code 26-102.",
+            "surface": "asphalt",
+            "turn:lanes:forward": "through;right"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "John Williams Way",
+          "latitude": 36.1254046,
+          "longitude": -95.9867143,
+          "osmType": "way",
+          "osmId": 780065881,
+          "sourceUrl": "https://www.openstreetmap.org/way/780065881",
+          "tags": {
+            "highway": "service",
+            "lanes": "3",
+            "lanes:backward": "2",
+            "lanes:forward": "1",
+            "maxspeed": "25 mph",
+            "name": "John Williams Way",
+            "smoothness": "good",
+            "source:maxspeed": "25 MPH within city parks unless otherwise posted in Tulsa;Tulsa City Code 26-102.",
+            "surface": "concrete",
+            "turn:lanes:backward": "left|right"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "John Williams Way",
+          "latitude": 36.1258125,
+          "longitude": -95.9856639,
+          "osmType": "way",
+          "osmId": 857935586,
+          "sourceUrl": "https://www.openstreetmap.org/way/857935586",
+          "tags": {
+            "highway": "service",
+            "maxspeed": "25 mph",
+            "name": "John Williams Way",
+            "service": "parking_aisle",
+            "source:maxspeed": "25 MPH within city parks unless otherwise posted in Tulsa;Tulsa City Code 26-102.",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Discovery Lab",
+          "latitude": 36.1177676,
+          "longitude": -95.9842564,
+          "osmType": "way",
+          "osmId": 1038065767,
+          "sourceUrl": "https://www.openstreetmap.org/way/1038065767",
+          "tags": {
+            "addr:city": "Tulsa",
+            "addr:housenumber": "3123",
+            "addr:postcode": "74105",
+            "addr:state": "OK",
+            "addr:street": "Riverside Drive",
+            "air_conditioning": "yes",
+            "building": "yes",
+            "charge": "14 USD",
+            "fee": "yes",
+            "museum": "children",
+            "name": "Discovery Lab",
+            "opening_hours": "Mo 10:30-14:00; Tu-Sa 09:30-17:00; Su 11:30-17:00",
+            "phone": "+1-918-295-8144",
+            "start_date": "2022-01-24",
+            "tourism": "museum",
+            "website": "https://www.discoverylab.org/",
+            "wheelchair": "yes"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "John Williams Way",
+          "latitude": 36.1252889,
+          "longitude": -95.9868039,
+          "osmType": "way",
+          "osmId": 1188329216,
+          "sourceUrl": "https://www.openstreetmap.org/way/1188329216",
+          "tags": {
+            "bicycle": "no",
+            "footway": "crossing",
+            "highway": "footway",
+            "name": "John Williams Way",
+            "smoothness": "good",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "John Williams Way",
+          "latitude": 36.1252889,
+          "longitude": -95.9869683,
+          "osmType": "way",
+          "osmId": 1188329217,
+          "sourceUrl": "https://www.openstreetmap.org/way/1188329217",
+          "tags": {
+            "bicycle": "no",
+            "footway": "sidewalk",
+            "highway": "footway",
+            "name": "John Williams Way"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverside Drive",
+          "latitude": 36.1254241,
+          "longitude": -95.9866858,
+          "osmType": "way",
+          "osmId": 1188329218,
+          "sourceUrl": "https://www.openstreetmap.org/way/1188329218",
+          "tags": {
+            "bicycle": "no",
+            "footway": "crossing",
+            "highway": "footway",
+            "name": "Riverside Drive"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverside Drive",
+          "latitude": 36.124519,
+          "longitude": -95.9863657,
+          "osmType": "way",
+          "osmId": 1188329219,
+          "sourceUrl": "https://www.openstreetmap.org/way/1188329219",
+          "tags": {
+            "bicycle": "no",
+            "footway": "sidewalk",
+            "highway": "footway",
+            "name": "Riverside Drive",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Tuckabache Trail",
+          "latitude": 36.1216053,
+          "longitude": -95.9860295,
+          "osmType": "way",
+          "osmId": 1316264374,
+          "sourceUrl": "https://www.openstreetmap.org/way/1316264374",
+          "tags": {
+            "bicycle": "designated",
+            "bridge:name": "Williams Crossing",
+            "check_date": "2024-09-17",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "no",
+            "lane_markings": "no",
+            "maxspeed": "25 mph",
+            "motor_vehicle": "no",
+            "name": "Tuckabache Trail",
+            "old_name": "Midland Valley Trail",
+            "opening_date": "2024-09-01",
+            "segregated": "yes",
+            "sidewalk": "left",
+            "source:maxspeed": "25 MPH within city parks unless otherwise posted in Tulsa;Tulsa City Code 26-102."
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverside Drive",
+          "latitude": 36.1179994,
+          "longitude": -95.9846076,
+          "osmType": "way",
+          "osmId": 1370968896,
+          "sourceUrl": "https://www.openstreetmap.org/way/1370968896",
+          "tags": {
+            "highway": "footway",
+            "name": "Riverside Drive",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverside Drive",
+          "latitude": 36.116656,
+          "longitude": -95.9843651,
+          "osmType": "way",
+          "osmId": 1395764150,
+          "sourceUrl": "https://www.openstreetmap.org/way/1395764150",
+          "tags": {
+            "footway": "sidewalk",
+            "highway": "footway",
+            "incline": "down",
+            "name": "Riverside Drive",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverside Drive",
+          "latitude": 36.1171204,
+          "longitude": -95.9844691,
+          "osmType": "way",
+          "osmId": 1395764151,
+          "sourceUrl": "https://www.openstreetmap.org/way/1395764151",
+          "tags": {
+            "bridge": "yes",
+            "footway": "sidewalk",
+            "highway": "footway",
+            "incline": "0",
+            "layer": "1",
+            "name": "Riverside Drive",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "River Parks East Bank Trail",
+          "latitude": 36.1140291,
+          "longitude": -95.9845795,
+          "osmType": "way",
+          "osmId": 1419223351,
+          "sourceUrl": "https://www.openstreetmap.org/way/1419223351",
+          "tags": {
+            "bicycle": "designated",
+            "check_date": "2025-07-31",
+            "construction": "minor",
+            "foot": "designated",
+            "highway": "cycleway",
+            "lanes": "2",
+            "lanes:backward": "1",
+            "lanes:forward": "1",
+            "maxspeed": "25 mph",
+            "name": "River Parks East Bank Trail",
+            "oneway": "no",
+            "segregated": "yes",
+            "sidewalk": "left",
+            "smoothness": "excellent",
+            "source:maxspeed": "25 MPH within city parks unless otherwise posted in Tulsa;Tulsa City Code 26-102.",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "East 33rd Place South",
+          "latitude": 36.114662,
+          "longitude": -95.9845617,
+          "osmType": "way",
+          "osmId": 1419223355,
+          "sourceUrl": "https://www.openstreetmap.org/way/1419223355",
+          "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "name": "East 33rd Place South"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "East 31st Street South",
+          "latitude": 36.1187916,
+          "longitude": -95.983555,
+          "osmType": "way",
+          "osmId": 1447037790,
+          "sourceUrl": "https://www.openstreetmap.org/way/1447037790",
+          "tags": {
+            "bicycle": "no",
+            "footway": "sidewalk",
+            "highway": "footway",
+            "name": "East 31st Street South",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "East 31st Street South",
+          "latitude": 36.1187917,
+          "longitude": -95.9840424,
+          "osmType": "way",
+          "osmId": 1447037791,
+          "sourceUrl": "https://www.openstreetmap.org/way/1447037791",
+          "tags": {
+            "bicycle": "no",
+            "crossing": "unmarked",
+            "crossing:island": "no",
+            "crossing:markings": "no",
+            "footway": "crossing",
+            "highway": "footway",
+            "name": "East 31st Street South",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "East 31st Street South",
+          "latitude": 36.1187103,
+          "longitude": -95.9848032,
+          "osmType": "way",
+          "osmId": 1503376548,
+          "sourceUrl": "https://www.openstreetmap.org/way/1503376548",
+          "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "name": "East 31st Street South"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "East 31st Street South",
+          "latitude": 36.1189186,
+          "longitude": -95.9844073,
+          "osmType": "way",
+          "osmId": 1503376550,
+          "sourceUrl": "https://www.openstreetmap.org/way/1503376550",
+          "tags": {
+            "footway": "sidewalk",
+            "highway": "footway",
+            "name": "East 31st Street South"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverside Drive",
+          "latitude": 36.1186645,
+          "longitude": -95.9847513,
+          "osmType": "way",
+          "osmId": 1503376551,
+          "sourceUrl": "https://www.openstreetmap.org/way/1503376551",
+          "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "name": "Riverside Drive"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Wetland Garden",
+          "latitude": 36.1252477,
+          "longitude": -95.9857826,
+          "osmType": "relation",
+          "osmId": 9631177,
+          "sourceUrl": "https://www.openstreetmap.org/relation/9631177",
+          "tags": {
+            "intermittent": "no",
+            "name": "Wetland Garden",
+            "natural": "wetland",
+            "type": "multipolygon",
+            "water": "pond",
+            "wetland": "wet_meadow"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Swing Hill",
+          "latitude": 36.1222138,
+          "longitude": -95.9853944,
+          "osmType": "relation",
+          "osmId": 9631178,
+          "sourceUrl": "https://www.openstreetmap.org/relation/9631178",
+          "tags": {
+            "access": "yes",
+            "leisure": "playground",
+            "name": "Swing Hill",
+            "type": "multipolygon"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverside Swings",
+          "latitude": 36.1175074,
+          "longitude": -95.9850933,
+          "osmType": "relation",
+          "osmId": 9631179,
+          "sourceUrl": "https://www.openstreetmap.org/relation/9631179",
+          "tags": {
+            "access": "yes",
+            "leisure": "playground",
+            "name": "Riverside Swings",
+            "type": "multipolygon"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    },
+    "launch-ok-tulsa-woodward-park": {
+      "name": "Woodward Park",
+      "boundarySource": "https://www.openstreetmap.org/relation/20658584",
+      "candidates": [
+        {
+          "name": "East Woodward Park Drive",
+          "latitude": 36.1320321,
+          "longitude": -95.9739454,
+          "osmType": "way",
+          "osmId": 15044518,
+          "sourceUrl": "https://www.openstreetmap.org/way/15044518",
+          "tags": {
+            "highway": "service",
+            "name": "East Woodward Park Drive",
+            "oneway": "no",
+            "service": "driveway",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Tulsa, OK",
+            "tiger:name_base": "Woodwardpark",
+            "tiger:name_direction_prefix": "E",
+            "tiger:name_type": "Dr"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "East Woodward Park Drive",
+          "latitude": 36.1325833,
+          "longitude": -95.9719343,
+          "osmType": "way",
+          "osmId": 15044519,
+          "sourceUrl": "https://www.openstreetmap.org/way/15044519",
+          "tags": {
+            "highway": "service",
+            "name": "East Woodward Park Drive",
+            "oneway": "no",
+            "service": "driveway",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Tulsa Historical Society",
+          "latitude": 36.1288174,
+          "longitude": -95.9735497,
+          "osmType": "way",
+          "osmId": 220670674,
+          "sourceUrl": "https://www.openstreetmap.org/way/220670674",
+          "tags": {
+            "access": "customers",
+            "addr:city": "Tulsa",
+            "addr:country": "US",
+            "addr:housenumber": "2445",
+            "addr:postcode": "74114",
+            "addr:state": "OK",
+            "addr:street": "South Peoria Avenue East",
+            "amenity": "parking",
+            "capacity:disabled": "yes",
+            "capacity:parent": "no",
+            "capacity:women": "no",
+            "fee": "no",
+            "name": "Tulsa Historical Society",
+            "operator": "Tulsa Historical Society",
+            "park_ride": "no",
+            "parking": "surface"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Tulsa Historical Society",
+          "latitude": 36.1287841,
+          "longitude": -95.9739975,
+          "osmType": "way",
+          "osmId": 220670675,
+          "sourceUrl": "https://www.openstreetmap.org/way/220670675",
+          "tags": {
+            "addr:city": "Tulsa",
+            "addr:country": "US",
+            "addr:housenumber": "2445",
+            "addr:postcode": "74114",
+            "addr:state": "OK",
+            "addr:street": "South Peoria Avenue East",
+            "building": "yes",
+            "name": "Tulsa Historical Society",
+            "operator": "Tulsa Historical Society",
+            "tourism": "museum"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Linnaeus Teaching Garden",
+          "latitude": 36.1297478,
+          "longitude": -95.9720698,
+          "osmType": "relation",
+          "osmId": 20658582,
+          "sourceUrl": "https://www.openstreetmap.org/relation/20658582",
+          "tags": {
+            "leisure": "garden",
+            "name": "Linnaeus Teaching Garden",
+            "type": "multipolygon"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Tulsa Rose Garden",
+          "latitude": 36.1301781,
+          "longitude": -95.9741006,
+          "osmType": "relation",
+          "osmId": 20658583,
+          "sourceUrl": "https://www.openstreetmap.org/relation/20658583",
+          "tags": {
+            "leisure": "garden",
+            "name": "Tulsa Rose Garden",
+            "type": "multipolygon"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Woodward Park",
+          "latitude": 36.1308474,
+          "longitude": -95.9735678,
+          "osmType": "relation",
+          "osmId": 20658584,
+          "sourceUrl": "https://www.openstreetmap.org/relation/20658584",
+          "tags": {
+            "ele": "222",
+            "gnis:feature_id": "1100009",
+            "leisure": "park",
+            "name": "Woodward Park",
+            "type": "multipolygon",
+            "wikidata": "Q8033579"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    }
+  }
+}

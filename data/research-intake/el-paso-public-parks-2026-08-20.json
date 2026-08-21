@@ -1,0 +1,1311 @@
+{
+  "schemaVersion": 1,
+  "campaignId": "el-paso-public-parks-2026-08-20",
+  "title": "City of El Paso 25-park catalogue breadth recovery",
+  "contributionTier": "inventory",
+  "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+  "researchHandoffUrl": "https://github.com/Buildrbear/auditmap/issues/51",
+  "githubIssueUrl": "https://github.com/Buildrbear/auditmap/issues/51",
+  "checkedAt": "2026-08-20",
+  "selection": {
+    "rule": "Twenty-five largest reviewed current City-owned records categorized City Park in the official Parks FeatureServer, after excluding Memorial Senior Center and Memorial Ballpark as component records that duplicate Memorial Park.",
+    "sourceCandidateCount": 396,
+    "currentCityParkCount": 281,
+    "acceptedCount": 25,
+    "excluded": [
+      {
+        "name": "Memorial Senior Center",
+        "officialObjectId": 378,
+        "reason": "Component facility sharing the Memorial Park footprint; not a separate park parent."
+      },
+      {
+        "name": "Memorial Ballpark",
+        "officialObjectId": 379,
+        "reason": "Component facility sharing the Memorial Park footprint; not a separate park parent."
+      }
+    ]
+  },
+  "sourcePolicy": {
+    "parksPage": "The current City Parks page establishes operator scope and links the official park finder.",
+    "spatialData": "The live municipal Parks FeatureServer controls source identity, City ownership/category, address, acreage selection basis, GlobalID, and an approximate representative point.",
+    "coordinateLimit": "FeatureServer centroids are approximate inventory points, not practical arrival coordinates; launch-guide work must replace or verify them against an official visitor entrance.",
+    "imageRights": "No City image is downloaded or imported. The City site is all-rights-reserved and no reusable image license is assumed.",
+    "geometryRights": "No park polygon geometry is copied or redistributed.",
+    "disclaimerUrl": "https://www.elpasotexas.gov/disclaimer"
+  },
+  "releasePolicy": {
+    "researchCompleteIsDeployable": false,
+    "requiredNextTier": "launch-guide",
+    "maintainerApprovalRequired": true,
+    "publicationGates": [
+      "Replace or verify each approximate polygon centroid with a practical public arrival point.",
+      "Complete current recurring visitor answers for each separately assigned parent.",
+      "Obtain representative reusable parent photography with destination identity and attribution.",
+      "Recheck operator identity, hours, and any staffed or reservation-controlled facilities before publication.",
+      "Do not redistribute City GIS polygon geometry or reuse City images without documented permission."
+    ]
+  },
+  "records": [
+    {
+      "slug": "el-paso-eastside-regional-park",
+      "name": "Eastside Regional Park",
+      "aliases": [
+        "Eastside Regional"
+      ],
+      "city": "El Paso",
+      "state": "TX",
+      "country": "US",
+      "category": "public park",
+      "address": "Hueco Club, El Paso, TX",
+      "latitude": 31.8058042,
+      "longitude": -106.2374896,
+      "managing_agency": "City of El Paso Parks and Recreation Department",
+      "official_source_url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+      "official_record_id": "{A89F532C-C3BD-47AE-A375-7C3D24DC054C}",
+      "coordinate_source": "Representative centroid derived by the official City of El Paso Parks FeatureServer",
+      "coordinate_source_url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=145&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+      "coordinate_precision": "approximate park polygon representative point; not a reviewed public entrance",
+      "position_quality": "official-polygon-centroid-needs-arrival-review",
+      "source_dataset_reference": {
+        "url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=145&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+        "objectId": 145,
+        "globalId": "{A89F532C-C3BD-47AE-A375-7C3D24DC054C}",
+        "reportedName": "Eastside Regional",
+        "reportedCategory": "City Park",
+        "reportedOwnerManager": "City of El Paso",
+        "reportedAddress": "Hueco Club",
+        "reportedAcres": 92,
+        "usageRule": "Retained as factual source metadata and a representative point only; City polygon geometry is not copied or redistributed."
+      },
+      "coverage_tier_reason": "Selected among the 25 largest reviewed current City-owned records categorized City Park after removing duplicate Memorial Park component records.",
+      "duplicate_status": "accepted-net-new-parent",
+      "duplicate_basis": "No El Paso route or normalized El Paso parent match exists in the current AuditMap production or local catalogues; City GlobalID and parent identity reviewed.",
+      "contribution_status": "qualified-inventory-parent",
+      "freshness": "current-official-city-parks-page-and-live-municipal-feature-service",
+      "source_checked_at": "2026-08-20",
+      "sources": [
+        {
+          "label": "City of El Paso Parks page",
+          "url": "https://www.elpasotexas.gov/parks/parks-planning/parks",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of El Paso Parks FeatureServer record {A89F532C-C3BD-47AE-A375-7C3D24DC054C}",
+          "url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=145&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+          "checkedAt": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "slug": "el-paso-richard-a-castro-eastside-sports-complex",
+      "name": "Richard A. Castro Eastside Sports Complex",
+      "aliases": [],
+      "city": "El Paso",
+      "state": "TX",
+      "country": "US",
+      "category": "public park",
+      "address": "14380 Montwood Dr., El Paso, TX",
+      "latitude": 31.7656273,
+      "longitude": -106.218959,
+      "managing_agency": "City of El Paso Parks and Recreation Department",
+      "official_source_url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+      "official_record_id": "{F9B57FAD-04EA-440D-9D1E-091DA35888D9}",
+      "coordinate_source": "Representative centroid derived by the official City of El Paso Parks FeatureServer",
+      "coordinate_source_url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=266&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+      "coordinate_precision": "approximate park polygon representative point; not a reviewed public entrance",
+      "position_quality": "official-polygon-centroid-needs-arrival-review",
+      "source_dataset_reference": {
+        "url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=266&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+        "objectId": 266,
+        "globalId": "{F9B57FAD-04EA-440D-9D1E-091DA35888D9}",
+        "reportedName": "Richard A. Castro Eastside Sports Complex",
+        "reportedCategory": "City Park",
+        "reportedOwnerManager": "City of El Paso",
+        "reportedAddress": "14380 Montwood Dr.",
+        "reportedAcres": 80,
+        "usageRule": "Retained as factual source metadata and a representative point only; City polygon geometry is not copied or redistributed."
+      },
+      "coverage_tier_reason": "Selected among the 25 largest reviewed current City-owned records categorized City Park after removing duplicate Memorial Park component records.",
+      "duplicate_status": "accepted-net-new-parent",
+      "duplicate_basis": "No El Paso route or normalized El Paso parent match exists in the current AuditMap production or local catalogues; City GlobalID and parent identity reviewed.",
+      "contribution_status": "qualified-inventory-parent",
+      "freshness": "current-official-city-parks-page-and-live-municipal-feature-service",
+      "source_checked_at": "2026-08-20",
+      "sources": [
+        {
+          "label": "City of El Paso Parks page",
+          "url": "https://www.elpasotexas.gov/parks/parks-planning/parks",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of El Paso Parks FeatureServer record {F9B57FAD-04EA-440D-9D1E-091DA35888D9}",
+          "url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=266&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+          "checkedAt": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "slug": "el-paso-blackie-chesher-park",
+      "name": "Blackie Chesher Park",
+      "aliases": [
+        "Blackie Chesher"
+      ],
+      "city": "El Paso",
+      "state": "TX",
+      "country": "US",
+      "category": "public park",
+      "address": "9143 Escobar Dr/1100 N Zaragoza, El Paso, TX",
+      "latitude": 31.7134475,
+      "longitude": -106.3054743,
+      "managing_agency": "City of El Paso Parks and Recreation Department",
+      "official_source_url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+      "official_record_id": "{610F38E7-F476-4F6D-9BC9-78872B072D5F}",
+      "coordinate_source": "Representative centroid derived by the official City of El Paso Parks FeatureServer",
+      "coordinate_source_url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=142&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+      "coordinate_precision": "approximate park polygon representative point; not a reviewed public entrance",
+      "position_quality": "official-polygon-centroid-needs-arrival-review",
+      "source_dataset_reference": {
+        "url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=142&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+        "objectId": 142,
+        "globalId": "{610F38E7-F476-4F6D-9BC9-78872B072D5F}",
+        "reportedName": "Blackie Chesher",
+        "reportedCategory": "City Park",
+        "reportedOwnerManager": "City of El Paso",
+        "reportedAddress": "9143 Escobar Dr/1100 N Zaragoza",
+        "reportedAcres": 66,
+        "usageRule": "Retained as factual source metadata and a representative point only; City polygon geometry is not copied or redistributed."
+      },
+      "coverage_tier_reason": "Selected among the 25 largest reviewed current City-owned records categorized City Park after removing duplicate Memorial Park component records.",
+      "duplicate_status": "accepted-net-new-parent",
+      "duplicate_basis": "No El Paso route or normalized El Paso parent match exists in the current AuditMap production or local catalogues; City GlobalID and parent identity reviewed.",
+      "contribution_status": "qualified-inventory-parent",
+      "freshness": "current-official-city-parks-page-and-live-municipal-feature-service",
+      "source_checked_at": "2026-08-20",
+      "sources": [
+        {
+          "label": "City of El Paso Parks page",
+          "url": "https://www.elpasotexas.gov/parks/parks-planning/parks",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of El Paso Parks FeatureServer record {610F38E7-F476-4F6D-9BC9-78872B072D5F}",
+          "url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=142&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+          "checkedAt": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "slug": "el-paso-joey-barraza-and-vino-memorial-park",
+      "name": "Joey Barraza and Vino Memorial Park",
+      "aliases": [],
+      "city": "El Paso",
+      "state": "TX",
+      "country": "US",
+      "category": "public park",
+      "address": "11270 McCombs, El Paso, TX",
+      "latitude": 31.9364568,
+      "longitude": -106.4027086,
+      "managing_agency": "City of El Paso Parks and Recreation Department",
+      "official_source_url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+      "official_record_id": "{035F925F-2C94-4F95-AED6-BFF84B36B4C3}",
+      "coordinate_source": "Representative centroid derived by the official City of El Paso Parks FeatureServer",
+      "coordinate_source_url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=147&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+      "coordinate_precision": "approximate park polygon representative point; not a reviewed public entrance",
+      "position_quality": "official-polygon-centroid-needs-arrival-review",
+      "source_dataset_reference": {
+        "url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=147&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+        "objectId": 147,
+        "globalId": "{035F925F-2C94-4F95-AED6-BFF84B36B4C3}",
+        "reportedName": "Joey Barraza and Vino Memorial Park",
+        "reportedCategory": "City Park",
+        "reportedOwnerManager": "City of El Paso",
+        "reportedAddress": "11270 McCombs",
+        "reportedAcres": 58.7,
+        "usageRule": "Retained as factual source metadata and a representative point only; City polygon geometry is not copied or redistributed."
+      },
+      "coverage_tier_reason": "Selected among the 25 largest reviewed current City-owned records categorized City Park after removing duplicate Memorial Park component records.",
+      "duplicate_status": "accepted-net-new-parent",
+      "duplicate_basis": "No El Paso route or normalized El Paso parent match exists in the current AuditMap production or local catalogues; City GlobalID and parent identity reviewed.",
+      "contribution_status": "qualified-inventory-parent",
+      "freshness": "current-official-city-parks-page-and-live-municipal-feature-service",
+      "source_checked_at": "2026-08-20",
+      "sources": [
+        {
+          "label": "City of El Paso Parks page",
+          "url": "https://www.elpasotexas.gov/parks/parks-planning/parks",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of El Paso Parks FeatureServer record {035F925F-2C94-4F95-AED6-BFF84B36B4C3}",
+          "url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=147&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+          "checkedAt": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "slug": "el-paso-eastwood-park",
+      "name": "Eastwood Park",
+      "aliases": [],
+      "city": "El Paso",
+      "state": "TX",
+      "country": "US",
+      "category": "public park",
+      "address": "3110 Parkwood St., El Paso, TX",
+      "latitude": 31.7835087,
+      "longitude": -106.345266,
+      "managing_agency": "City of El Paso Parks and Recreation Department",
+      "official_source_url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+      "official_record_id": "{7BB41C3B-373C-4BA5-8C1A-EFB38A75DE50}",
+      "coordinate_source": "Representative centroid derived by the official City of El Paso Parks FeatureServer",
+      "coordinate_source_url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=189&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+      "coordinate_precision": "approximate park polygon representative point; not a reviewed public entrance",
+      "position_quality": "official-polygon-centroid-needs-arrival-review",
+      "source_dataset_reference": {
+        "url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=189&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+        "objectId": 189,
+        "globalId": "{7BB41C3B-373C-4BA5-8C1A-EFB38A75DE50}",
+        "reportedName": "Eastwood Park",
+        "reportedCategory": "City Park",
+        "reportedOwnerManager": "City of El Paso",
+        "reportedAddress": "3110 Parkwood St.",
+        "reportedAcres": 44.8,
+        "usageRule": "Retained as factual source metadata and a representative point only; City polygon geometry is not copied or redistributed."
+      },
+      "coverage_tier_reason": "Selected among the 25 largest reviewed current City-owned records categorized City Park after removing duplicate Memorial Park component records.",
+      "duplicate_status": "accepted-net-new-parent",
+      "duplicate_basis": "No El Paso route or normalized El Paso parent match exists in the current AuditMap production or local catalogues; City GlobalID and parent identity reviewed.",
+      "contribution_status": "qualified-inventory-parent",
+      "freshness": "current-official-city-parks-page-and-live-municipal-feature-service",
+      "source_checked_at": "2026-08-20",
+      "sources": [
+        {
+          "label": "City of El Paso Parks page",
+          "url": "https://www.elpasotexas.gov/parks/parks-planning/parks",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of El Paso Parks FeatureServer record {7BB41C3B-373C-4BA5-8C1A-EFB38A75DE50}",
+          "url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=189&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+          "checkedAt": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "slug": "el-paso-memorial-park",
+      "name": "Memorial Park",
+      "aliases": [
+        "Memorial"
+      ],
+      "city": "El Paso",
+      "state": "TX",
+      "country": "US",
+      "category": "public park",
+      "address": "1701 Copia St., El Paso, TX",
+      "latitude": 31.7898934,
+      "longitude": -106.4564695,
+      "managing_agency": "City of El Paso Parks and Recreation Department",
+      "official_source_url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+      "official_record_id": "{33FCAEBE-2B04-43D7-B800-E68074E1EC04}",
+      "coordinate_source": "Representative centroid derived by the official City of El Paso Parks FeatureServer",
+      "coordinate_source_url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=63&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+      "coordinate_precision": "approximate park polygon representative point; not a reviewed public entrance",
+      "position_quality": "official-polygon-centroid-needs-arrival-review",
+      "source_dataset_reference": {
+        "url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=63&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+        "objectId": 63,
+        "globalId": "{33FCAEBE-2B04-43D7-B800-E68074E1EC04}",
+        "reportedName": "Memorial",
+        "reportedCategory": "City Park",
+        "reportedOwnerManager": "City of El Paso",
+        "reportedAddress": "1701 Copia St.",
+        "reportedAcres": 44.618,
+        "usageRule": "Retained as factual source metadata and a representative point only; City polygon geometry is not copied or redistributed."
+      },
+      "coverage_tier_reason": "Selected among the 25 largest reviewed current City-owned records categorized City Park after removing duplicate Memorial Park component records.",
+      "duplicate_status": "accepted-net-new-parent",
+      "duplicate_basis": "No El Paso route or normalized El Paso parent match exists in the current AuditMap production or local catalogues; City GlobalID and parent identity reviewed.",
+      "contribution_status": "qualified-inventory-parent",
+      "freshness": "current-official-city-parks-page-and-live-municipal-feature-service",
+      "source_checked_at": "2026-08-20",
+      "sources": [
+        {
+          "label": "City of El Paso Parks page",
+          "url": "https://www.elpasotexas.gov/parks/parks-planning/parks",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of El Paso Parks FeatureServer record {33FCAEBE-2B04-43D7-B800-E68074E1EC04}",
+          "url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=63&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+          "checkedAt": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "slug": "el-paso-veterans-park",
+      "name": "Veterans Park",
+      "aliases": [],
+      "city": "El Paso",
+      "state": "TX",
+      "country": "US",
+      "category": "public park",
+      "address": "5301 Salem Dr., El Paso, TX",
+      "latitude": 31.9204935,
+      "longitude": -106.420212,
+      "managing_agency": "City of El Paso Parks and Recreation Department",
+      "official_source_url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+      "official_record_id": "{C170FFE2-DA09-4977-86A8-C93F0B4092F3}",
+      "coordinate_source": "Representative centroid derived by the official City of El Paso Parks FeatureServer",
+      "coordinate_source_url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=110&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+      "coordinate_precision": "approximate park polygon representative point; not a reviewed public entrance",
+      "position_quality": "official-polygon-centroid-needs-arrival-review",
+      "source_dataset_reference": {
+        "url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=110&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+        "objectId": 110,
+        "globalId": "{C170FFE2-DA09-4977-86A8-C93F0B4092F3}",
+        "reportedName": "Veterans Park",
+        "reportedCategory": "City Park",
+        "reportedOwnerManager": "City of El Paso",
+        "reportedAddress": "5301 Salem Dr.",
+        "reportedAcres": 39.9,
+        "usageRule": "Retained as factual source metadata and a representative point only; City polygon geometry is not copied or redistributed."
+      },
+      "coverage_tier_reason": "Selected among the 25 largest reviewed current City-owned records categorized City Park after removing duplicate Memorial Park component records.",
+      "duplicate_status": "accepted-net-new-parent",
+      "duplicate_basis": "No El Paso route or normalized El Paso parent match exists in the current AuditMap production or local catalogues; City GlobalID and parent identity reviewed.",
+      "contribution_status": "qualified-inventory-parent",
+      "freshness": "current-official-city-parks-page-and-live-municipal-feature-service",
+      "source_checked_at": "2026-08-20",
+      "sources": [
+        {
+          "label": "City of El Paso Parks page",
+          "url": "https://www.elpasotexas.gov/parks/parks-planning/parks",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of El Paso Parks FeatureServer record {C170FFE2-DA09-4977-86A8-C93F0B4092F3}",
+          "url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=110&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+          "checkedAt": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "slug": "el-paso-nations-tobin-park",
+      "name": "Nations Tobin Park",
+      "aliases": [
+        "Nations Tobin"
+      ],
+      "city": "El Paso",
+      "state": "TX",
+      "country": "US",
+      "category": "public park",
+      "address": "8831 Railroad Dr., El Paso, TX",
+      "latitude": 31.8658959,
+      "longitude": -106.4121387,
+      "managing_agency": "City of El Paso Parks and Recreation Department",
+      "official_source_url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+      "official_record_id": "{3C473386-387D-4BB2-9083-3FB56F9428CF}",
+      "coordinate_source": "Representative centroid derived by the official City of El Paso Parks FeatureServer",
+      "coordinate_source_url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=45&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+      "coordinate_precision": "approximate park polygon representative point; not a reviewed public entrance",
+      "position_quality": "official-polygon-centroid-needs-arrival-review",
+      "source_dataset_reference": {
+        "url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=45&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+        "objectId": 45,
+        "globalId": "{3C473386-387D-4BB2-9083-3FB56F9428CF}",
+        "reportedName": "Nations Tobin",
+        "reportedCategory": "City Park",
+        "reportedOwnerManager": "City of El Paso",
+        "reportedAddress": "8831 Railroad Dr.",
+        "reportedAcres": 38.4,
+        "usageRule": "Retained as factual source metadata and a representative point only; City polygon geometry is not copied or redistributed."
+      },
+      "coverage_tier_reason": "Selected among the 25 largest reviewed current City-owned records categorized City Park after removing duplicate Memorial Park component records.",
+      "duplicate_status": "accepted-net-new-parent",
+      "duplicate_basis": "No El Paso route or normalized El Paso parent match exists in the current AuditMap production or local catalogues; City GlobalID and parent identity reviewed.",
+      "contribution_status": "qualified-inventory-parent",
+      "freshness": "current-official-city-parks-page-and-live-municipal-feature-service",
+      "source_checked_at": "2026-08-20",
+      "sources": [
+        {
+          "label": "City of El Paso Parks page",
+          "url": "https://www.elpasotexas.gov/parks/parks-planning/parks",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of El Paso Parks FeatureServer record {3C473386-387D-4BB2-9083-3FB56F9428CF}",
+          "url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=45&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+          "checkedAt": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "slug": "el-paso-mary-frances-keisling-park",
+      "name": "Mary Frances Keisling Park",
+      "aliases": [],
+      "city": "El Paso",
+      "state": "TX",
+      "country": "US",
+      "category": "public park",
+      "address": "651 Gomez Rd, El Paso, TX",
+      "latitude": 31.8654026,
+      "longitude": -106.6072196,
+      "managing_agency": "City of El Paso Parks and Recreation Department",
+      "official_source_url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+      "official_record_id": "{BA98BBEC-ABEA-4F3B-89C9-3B41ECE35E29}",
+      "coordinate_source": "Representative centroid derived by the official City of El Paso Parks FeatureServer",
+      "coordinate_source_url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=157&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+      "coordinate_precision": "approximate park polygon representative point; not a reviewed public entrance",
+      "position_quality": "official-polygon-centroid-needs-arrival-review",
+      "source_dataset_reference": {
+        "url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=157&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+        "objectId": 157,
+        "globalId": "{BA98BBEC-ABEA-4F3B-89C9-3B41ECE35E29}",
+        "reportedName": "Mary Frances Keisling Park",
+        "reportedCategory": "City Park",
+        "reportedOwnerManager": "City of El Paso",
+        "reportedAddress": "651 Gomez Rd",
+        "reportedAcres": 34.7,
+        "usageRule": "Retained as factual source metadata and a representative point only; City polygon geometry is not copied or redistributed."
+      },
+      "coverage_tier_reason": "Selected among the 25 largest reviewed current City-owned records categorized City Park after removing duplicate Memorial Park component records.",
+      "duplicate_status": "accepted-net-new-parent",
+      "duplicate_basis": "No El Paso route or normalized El Paso parent match exists in the current AuditMap production or local catalogues; City GlobalID and parent identity reviewed.",
+      "contribution_status": "qualified-inventory-parent",
+      "freshness": "current-official-city-parks-page-and-live-municipal-feature-service",
+      "source_checked_at": "2026-08-20",
+      "sources": [
+        {
+          "label": "City of El Paso Parks page",
+          "url": "https://www.elpasotexas.gov/parks/parks-planning/parks",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of El Paso Parks FeatureServer record {BA98BBEC-ABEA-4F3B-89C9-3B41ECE35E29}",
+          "url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=157&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+          "checkedAt": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "slug": "el-paso-marty-robbins-park",
+      "name": "Marty Robbins Park",
+      "aliases": [],
+      "city": "El Paso",
+      "state": "TX",
+      "country": "US",
+      "category": "public park",
+      "address": "11600 Vista Del Sol Dr., El Paso, TX",
+      "latitude": 31.7493066,
+      "longitude": -106.296845,
+      "managing_agency": "City of El Paso Parks and Recreation Department",
+      "official_source_url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+      "official_record_id": "{EAF41FF9-0CE7-46FC-9F8D-BF9500980A9F}",
+      "coordinate_source": "Representative centroid derived by the official City of El Paso Parks FeatureServer",
+      "coordinate_source_url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=62&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+      "coordinate_precision": "approximate park polygon representative point; not a reviewed public entrance",
+      "position_quality": "official-polygon-centroid-needs-arrival-review",
+      "source_dataset_reference": {
+        "url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=62&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+        "objectId": 62,
+        "globalId": "{EAF41FF9-0CE7-46FC-9F8D-BF9500980A9F}",
+        "reportedName": "Marty Robbins Park",
+        "reportedCategory": "City Park",
+        "reportedOwnerManager": "City of El Paso",
+        "reportedAddress": "11600 Vista Del Sol Dr.",
+        "reportedAcres": 31.13,
+        "usageRule": "Retained as factual source metadata and a representative point only; City polygon geometry is not copied or redistributed."
+      },
+      "coverage_tier_reason": "Selected among the 25 largest reviewed current City-owned records categorized City Park after removing duplicate Memorial Park component records.",
+      "duplicate_status": "accepted-net-new-parent",
+      "duplicate_basis": "No El Paso route or normalized El Paso parent match exists in the current AuditMap production or local catalogues; City GlobalID and parent identity reviewed.",
+      "contribution_status": "qualified-inventory-parent",
+      "freshness": "current-official-city-parks-page-and-live-municipal-feature-service",
+      "source_checked_at": "2026-08-20",
+      "sources": [
+        {
+          "label": "City of El Paso Parks page",
+          "url": "https://www.elpasotexas.gov/parks/parks-planning/parks",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of El Paso Parks FeatureServer record {EAF41FF9-0CE7-46FC-9F8D-BF9500980A9F}",
+          "url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=62&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+          "checkedAt": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "slug": "el-paso-tom-lea-lower-park",
+      "name": "Tom Lea Lower Park",
+      "aliases": [],
+      "city": "El Paso",
+      "state": "TX",
+      "country": "US",
+      "category": "public park",
+      "address": "1203 Schuster Ave, El Paso, TX",
+      "latitude": 31.7779654,
+      "longitude": -106.4894223,
+      "managing_agency": "City of El Paso Parks and Recreation Department",
+      "official_source_url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+      "official_record_id": "{152C1482-2676-460E-A5E2-49D89F0A76D4}",
+      "coordinate_source": "Representative centroid derived by the official City of El Paso Parks FeatureServer",
+      "coordinate_source_url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=102&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+      "coordinate_precision": "approximate park polygon representative point; not a reviewed public entrance",
+      "position_quality": "official-polygon-centroid-needs-arrival-review",
+      "source_dataset_reference": {
+        "url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=102&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+        "objectId": 102,
+        "globalId": "{152C1482-2676-460E-A5E2-49D89F0A76D4}",
+        "reportedName": "Tom Lea Lower Park",
+        "reportedCategory": "City Park",
+        "reportedOwnerManager": "City of El Paso",
+        "reportedAddress": "1203 Schuster Ave",
+        "reportedAcres": 30.5,
+        "usageRule": "Retained as factual source metadata and a representative point only; City polygon geometry is not copied or redistributed."
+      },
+      "coverage_tier_reason": "Selected among the 25 largest reviewed current City-owned records categorized City Park after removing duplicate Memorial Park component records.",
+      "duplicate_status": "accepted-net-new-parent",
+      "duplicate_basis": "No El Paso route or normalized El Paso parent match exists in the current AuditMap production or local catalogues; City GlobalID and parent identity reviewed.",
+      "contribution_status": "qualified-inventory-parent",
+      "freshness": "current-official-city-parks-page-and-live-municipal-feature-service",
+      "source_checked_at": "2026-08-20",
+      "sources": [
+        {
+          "label": "City of El Paso Parks page",
+          "url": "https://www.elpasotexas.gov/parks/parks-planning/parks",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of El Paso Parks FeatureServer record {152C1482-2676-460E-A5E2-49D89F0A76D4}",
+          "url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=102&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+          "checkedAt": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "slug": "el-paso-modesto-gomez-park",
+      "name": "Modesto Gomez Park",
+      "aliases": [],
+      "city": "El Paso",
+      "state": "TX",
+      "country": "US",
+      "category": "public park",
+      "address": "4320 EDNA, El Paso, TX",
+      "latitude": 31.7586565,
+      "longitude": -106.4372596,
+      "managing_agency": "City of El Paso Parks and Recreation Department",
+      "official_source_url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+      "official_record_id": "{5477F6D0-1AEC-4E7E-A00E-A36B87239FCD}",
+      "coordinate_source": "Representative centroid derived by the official City of El Paso Parks FeatureServer",
+      "coordinate_source_url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=41&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+      "coordinate_precision": "approximate park polygon representative point; not a reviewed public entrance",
+      "position_quality": "official-polygon-centroid-needs-arrival-review",
+      "source_dataset_reference": {
+        "url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=41&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+        "objectId": 41,
+        "globalId": "{5477F6D0-1AEC-4E7E-A00E-A36B87239FCD}",
+        "reportedName": "Modesto Gomez Park",
+        "reportedCategory": "City Park",
+        "reportedOwnerManager": "City of El Paso",
+        "reportedAddress": "4320 EDNA",
+        "reportedAcres": 26.4,
+        "usageRule": "Retained as factual source metadata and a representative point only; City polygon geometry is not copied or redistributed."
+      },
+      "coverage_tier_reason": "Selected among the 25 largest reviewed current City-owned records categorized City Park after removing duplicate Memorial Park component records.",
+      "duplicate_status": "accepted-net-new-parent",
+      "duplicate_basis": "No El Paso route or normalized El Paso parent match exists in the current AuditMap production or local catalogues; City GlobalID and parent identity reviewed.",
+      "contribution_status": "qualified-inventory-parent",
+      "freshness": "current-official-city-parks-page-and-live-municipal-feature-service",
+      "source_checked_at": "2026-08-20",
+      "sources": [
+        {
+          "label": "City of El Paso Parks page",
+          "url": "https://www.elpasotexas.gov/parks/parks-planning/parks",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of El Paso Parks FeatureServer record {5477F6D0-1AEC-4E7E-A00E-A36B87239FCD}",
+          "url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=41&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+          "checkedAt": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "slug": "el-paso-argal-park",
+      "name": "Argal Park",
+      "aliases": [],
+      "city": "El Paso",
+      "state": "TX",
+      "country": "US",
+      "category": "public park",
+      "address": "1351 Pendale, El Paso, TX",
+      "latitude": 31.7380148,
+      "longitude": -106.3123216,
+      "managing_agency": "City of El Paso Parks and Recreation Department",
+      "official_source_url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+      "official_record_id": "{2B598ADA-F224-4F2A-A7C1-979C9E9B34CC}",
+      "coordinate_source": "Representative centroid derived by the official City of El Paso Parks FeatureServer",
+      "coordinate_source_url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=245&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+      "coordinate_precision": "approximate park polygon representative point; not a reviewed public entrance",
+      "position_quality": "official-polygon-centroid-needs-arrival-review",
+      "source_dataset_reference": {
+        "url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=245&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+        "objectId": 245,
+        "globalId": "{2B598ADA-F224-4F2A-A7C1-979C9E9B34CC}",
+        "reportedName": "Argal Park",
+        "reportedCategory": "City Park",
+        "reportedOwnerManager": "City of El Paso",
+        "reportedAddress": "1351 Pendale",
+        "reportedAcres": 23.3,
+        "usageRule": "Retained as factual source metadata and a representative point only; City polygon geometry is not copied or redistributed."
+      },
+      "coverage_tier_reason": "Selected among the 25 largest reviewed current City-owned records categorized City Park after removing duplicate Memorial Park component records.",
+      "duplicate_status": "accepted-net-new-parent",
+      "duplicate_basis": "No El Paso route or normalized El Paso parent match exists in the current AuditMap production or local catalogues; City GlobalID and parent identity reviewed.",
+      "contribution_status": "qualified-inventory-parent",
+      "freshness": "current-official-city-parks-page-and-live-municipal-feature-service",
+      "source_checked_at": "2026-08-20",
+      "sources": [
+        {
+          "label": "City of El Paso Parks page",
+          "url": "https://www.elpasotexas.gov/parks/parks-planning/parks",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of El Paso Parks FeatureServer record {2B598ADA-F224-4F2A-A7C1-979C9E9B34CC}",
+          "url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=245&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+          "checkedAt": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "slug": "el-paso-edgemere-linear-park",
+      "name": "Edgemere Linear Park",
+      "aliases": [],
+      "city": "El Paso",
+      "state": "TX",
+      "country": "US",
+      "category": "public park",
+      "address": "6700, 6769, 7310, 7707, 8007 & 8118 Edgemere, El Paso, TX",
+      "latitude": 31.7859909,
+      "longitude": -106.3829219,
+      "managing_agency": "City of El Paso Parks and Recreation Department",
+      "official_source_url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+      "official_record_id": "{B11E9840-5696-4C17-9F05-35A3372689D0}",
+      "coordinate_source": "Representative centroid derived by the official City of El Paso Parks FeatureServer",
+      "coordinate_source_url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=231&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+      "coordinate_precision": "approximate park polygon representative point; not a reviewed public entrance",
+      "position_quality": "official-polygon-centroid-needs-arrival-review",
+      "source_dataset_reference": {
+        "url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=231&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+        "objectId": 231,
+        "globalId": "{B11E9840-5696-4C17-9F05-35A3372689D0}",
+        "reportedName": "Edgemere Linear Park",
+        "reportedCategory": "City Park",
+        "reportedOwnerManager": "City of El Paso",
+        "reportedAddress": "6700, 6769, 7310, 7707, 8007 & 8118 Edgemere",
+        "reportedAcres": 23,
+        "usageRule": "Retained as factual source metadata and a representative point only; City polygon geometry is not copied or redistributed."
+      },
+      "coverage_tier_reason": "Selected among the 25 largest reviewed current City-owned records categorized City Park after removing duplicate Memorial Park component records.",
+      "duplicate_status": "accepted-net-new-parent",
+      "duplicate_basis": "No El Paso route or normalized El Paso parent match exists in the current AuditMap production or local catalogues; City GlobalID and parent identity reviewed.",
+      "contribution_status": "qualified-inventory-parent",
+      "freshness": "current-official-city-parks-page-and-live-municipal-feature-service",
+      "source_checked_at": "2026-08-20",
+      "sources": [
+        {
+          "label": "City of El Paso Parks page",
+          "url": "https://www.elpasotexas.gov/parks/parks-planning/parks",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of El Paso Parks FeatureServer record {B11E9840-5696-4C17-9F05-35A3372689D0}",
+          "url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=231&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+          "checkedAt": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "slug": "el-paso-pueblo-viejo-linear-park",
+      "name": "Pueblo Viejo Linear Park",
+      "aliases": [],
+      "city": "El Paso",
+      "state": "TX",
+      "country": "US",
+      "category": "public park",
+      "address": "Roseway to Presa Pl., El Paso, TX",
+      "latitude": 31.6991386,
+      "longitude": -106.3273393,
+      "managing_agency": "City of El Paso Parks and Recreation Department",
+      "official_source_url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+      "official_record_id": "{2A113262-FD37-407B-A12E-2CC4BA8C43E2}",
+      "coordinate_source": "Representative centroid derived by the official City of El Paso Parks FeatureServer",
+      "coordinate_source_url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=232&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+      "coordinate_precision": "approximate park polygon representative point; not a reviewed public entrance",
+      "position_quality": "official-polygon-centroid-needs-arrival-review",
+      "source_dataset_reference": {
+        "url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=232&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+        "objectId": 232,
+        "globalId": "{2A113262-FD37-407B-A12E-2CC4BA8C43E2}",
+        "reportedName": "Pueblo Viejo Linear Park",
+        "reportedCategory": "City Park",
+        "reportedOwnerManager": "City of El Paso",
+        "reportedAddress": "Roseway to Presa Pl.",
+        "reportedAcres": 22,
+        "usageRule": "Retained as factual source metadata and a representative point only; City polygon geometry is not copied or redistributed."
+      },
+      "coverage_tier_reason": "Selected among the 25 largest reviewed current City-owned records categorized City Park after removing duplicate Memorial Park component records.",
+      "duplicate_status": "accepted-net-new-parent",
+      "duplicate_basis": "No El Paso route or normalized El Paso parent match exists in the current AuditMap production or local catalogues; City GlobalID and parent identity reviewed.",
+      "contribution_status": "qualified-inventory-parent",
+      "freshness": "current-official-city-parks-page-and-live-municipal-feature-service",
+      "source_checked_at": "2026-08-20",
+      "sources": [
+        {
+          "label": "City of El Paso Parks page",
+          "url": "https://www.elpasotexas.gov/parks/parks-planning/parks",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of El Paso Parks FeatureServer record {2A113262-FD37-407B-A12E-2CC4BA8C43E2}",
+          "url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=232&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+          "checkedAt": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "slug": "el-paso-lionel-forti-park",
+      "name": "Lionel Forti Park",
+      "aliases": [
+        "Lionel Forti"
+      ],
+      "city": "El Paso",
+      "state": "TX",
+      "country": "US",
+      "category": "public park",
+      "address": "7735 Phoenix Ave., El Paso, TX",
+      "latitude": 31.754944,
+      "longitude": -106.356294,
+      "managing_agency": "City of El Paso Parks and Recreation Department",
+      "official_source_url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+      "official_record_id": "{B617E3A9-4601-4821-BB4A-40676066EA84}",
+      "coordinate_source": "Representative centroid derived by the official City of El Paso Parks FeatureServer",
+      "coordinate_source_url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=13&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+      "coordinate_precision": "approximate park polygon representative point; not a reviewed public entrance",
+      "position_quality": "official-polygon-centroid-needs-arrival-review",
+      "source_dataset_reference": {
+        "url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=13&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+        "objectId": 13,
+        "globalId": "{B617E3A9-4601-4821-BB4A-40676066EA84}",
+        "reportedName": "Lionel Forti",
+        "reportedCategory": "City Park",
+        "reportedOwnerManager": "City of El Paso",
+        "reportedAddress": "7735 Phoenix Ave.",
+        "reportedAcres": 20.9,
+        "usageRule": "Retained as factual source metadata and a representative point only; City polygon geometry is not copied or redistributed."
+      },
+      "coverage_tier_reason": "Selected among the 25 largest reviewed current City-owned records categorized City Park after removing duplicate Memorial Park component records.",
+      "duplicate_status": "accepted-net-new-parent",
+      "duplicate_basis": "No El Paso route or normalized El Paso parent match exists in the current AuditMap production or local catalogues; City GlobalID and parent identity reviewed.",
+      "contribution_status": "qualified-inventory-parent",
+      "freshness": "current-official-city-parks-page-and-live-municipal-feature-service",
+      "source_checked_at": "2026-08-20",
+      "sources": [
+        {
+          "label": "City of El Paso Parks page",
+          "url": "https://www.elpasotexas.gov/parks/parks-planning/parks",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of El Paso Parks FeatureServer record {B617E3A9-4601-4821-BB4A-40676066EA84}",
+          "url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=13&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+          "checkedAt": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "slug": "el-paso-ralph-t-cloud-park",
+      "name": "Ralph T. Cloud Park",
+      "aliases": [
+        "Ralph T Cloud"
+      ],
+      "city": "El Paso",
+      "state": "TX",
+      "country": "US",
+      "category": "public park",
+      "address": "7975 Williamette Ave., El Paso, TX",
+      "latitude": 31.7404748,
+      "longitude": -106.3437803,
+      "managing_agency": "City of El Paso Parks and Recreation Department",
+      "official_source_url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+      "official_record_id": "{AB29227F-11D6-42FF-87FA-8F24B4ECBB20}",
+      "coordinate_source": "Representative centroid derived by the official City of El Paso Parks FeatureServer",
+      "coordinate_source_url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=52&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+      "coordinate_precision": "approximate park polygon representative point; not a reviewed public entrance",
+      "position_quality": "official-polygon-centroid-needs-arrival-review",
+      "source_dataset_reference": {
+        "url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=52&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+        "objectId": 52,
+        "globalId": "{AB29227F-11D6-42FF-87FA-8F24B4ECBB20}",
+        "reportedName": "Ralph T Cloud",
+        "reportedCategory": "City Park",
+        "reportedOwnerManager": "City of El Paso",
+        "reportedAddress": "7975 Williamette Ave.",
+        "reportedAcres": 19.82,
+        "usageRule": "Retained as factual source metadata and a representative point only; City polygon geometry is not copied or redistributed."
+      },
+      "coverage_tier_reason": "Selected among the 25 largest reviewed current City-owned records categorized City Park after removing duplicate Memorial Park component records.",
+      "duplicate_status": "accepted-net-new-parent",
+      "duplicate_basis": "No El Paso route or normalized El Paso parent match exists in the current AuditMap production or local catalogues; City GlobalID and parent identity reviewed.",
+      "contribution_status": "qualified-inventory-parent",
+      "freshness": "current-official-city-parks-page-and-live-municipal-feature-service",
+      "source_checked_at": "2026-08-20",
+      "sources": [
+        {
+          "label": "City of El Paso Parks page",
+          "url": "https://www.elpasotexas.gov/parks/parks-planning/parks",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of El Paso Parks FeatureServer record {AB29227F-11D6-42FF-87FA-8F24B4ECBB20}",
+          "url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=52&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+          "checkedAt": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "slug": "el-paso-pavo-real-park",
+      "name": "Pavo Real Park",
+      "aliases": [
+        "Pavo Real"
+      ],
+      "city": "El Paso",
+      "state": "TX",
+      "country": "US",
+      "category": "public park",
+      "address": "9301 Alameda Ave., El Paso, TX",
+      "latitude": 31.6883817,
+      "longitude": -106.3179629,
+      "managing_agency": "City of El Paso Parks and Recreation Department",
+      "official_source_url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+      "official_record_id": "{C12AADE9-8DEE-43C0-8D16-A5E059F83366}",
+      "coordinate_source": "Representative centroid derived by the official City of El Paso Parks FeatureServer",
+      "coordinate_source_url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=1&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+      "coordinate_precision": "approximate park polygon representative point; not a reviewed public entrance",
+      "position_quality": "official-polygon-centroid-needs-arrival-review",
+      "source_dataset_reference": {
+        "url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=1&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+        "objectId": 1,
+        "globalId": "{C12AADE9-8DEE-43C0-8D16-A5E059F83366}",
+        "reportedName": "Pavo Real",
+        "reportedCategory": "City Park",
+        "reportedOwnerManager": "City of El Paso",
+        "reportedAddress": "9301 Alameda Ave.",
+        "reportedAcres": 19.26,
+        "usageRule": "Retained as factual source metadata and a representative point only; City polygon geometry is not copied or redistributed."
+      },
+      "coverage_tier_reason": "Selected among the 25 largest reviewed current City-owned records categorized City Park after removing duplicate Memorial Park component records.",
+      "duplicate_status": "accepted-net-new-parent",
+      "duplicate_basis": "No El Paso route or normalized El Paso parent match exists in the current AuditMap production or local catalogues; City GlobalID and parent identity reviewed.",
+      "contribution_status": "qualified-inventory-parent",
+      "freshness": "current-official-city-parks-page-and-live-municipal-feature-service",
+      "source_checked_at": "2026-08-20",
+      "sources": [
+        {
+          "label": "City of El Paso Parks page",
+          "url": "https://www.elpasotexas.gov/parks/parks-planning/parks",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of El Paso Parks FeatureServer record {C12AADE9-8DEE-43C0-8D16-A5E059F83366}",
+          "url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=1&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+          "checkedAt": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "slug": "el-paso-james-jim-crouch-park",
+      "name": "James \"Jim\" Crouch Park",
+      "aliases": [],
+      "city": "El Paso",
+      "state": "TX",
+      "country": "US",
+      "category": "public park",
+      "address": "7500 W H Burges Dr., El Paso, TX",
+      "latitude": 31.7819656,
+      "longitude": -106.3859545,
+      "managing_agency": "City of El Paso Parks and Recreation Department",
+      "official_source_url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+      "official_record_id": "{61636AD0-1BF7-49F4-954C-3608FF040F4C}",
+      "coordinate_source": "Representative centroid derived by the official City of El Paso Parks FeatureServer",
+      "coordinate_source_url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=190&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+      "coordinate_precision": "approximate park polygon representative point; not a reviewed public entrance",
+      "position_quality": "official-polygon-centroid-needs-arrival-review",
+      "source_dataset_reference": {
+        "url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=190&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+        "objectId": 190,
+        "globalId": "{61636AD0-1BF7-49F4-954C-3608FF040F4C}",
+        "reportedName": "James \"Jim\" Crouch Park",
+        "reportedCategory": "City Park",
+        "reportedOwnerManager": "City of El Paso",
+        "reportedAddress": "7500 W H Burges Dr.",
+        "reportedAcres": 16.8,
+        "usageRule": "Retained as factual source metadata and a representative point only; City polygon geometry is not copied or redistributed."
+      },
+      "coverage_tier_reason": "Selected among the 25 largest reviewed current City-owned records categorized City Park after removing duplicate Memorial Park component records.",
+      "duplicate_status": "accepted-net-new-parent",
+      "duplicate_basis": "No El Paso route or normalized El Paso parent match exists in the current AuditMap production or local catalogues; City GlobalID and parent identity reviewed.",
+      "contribution_status": "qualified-inventory-parent",
+      "freshness": "current-official-city-parks-page-and-live-municipal-feature-service",
+      "source_checked_at": "2026-08-20",
+      "sources": [
+        {
+          "label": "City of El Paso Parks page",
+          "url": "https://www.elpasotexas.gov/parks/parks-planning/parks",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of El Paso Parks FeatureServer record {61636AD0-1BF7-49F4-954C-3608FF040F4C}",
+          "url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=190&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+          "checkedAt": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "slug": "el-paso-salvador-rivas-jr-park",
+      "name": "Salvador Rivas Jr. Park",
+      "aliases": [
+        "Salvador Rivas, Jr."
+      ],
+      "city": "El Paso",
+      "state": "TX",
+      "country": "US",
+      "category": "public park",
+      "address": "12515 Tierra Norte Dr., El Paso, TX",
+      "latitude": 31.7824399,
+      "longitude": -106.2538471,
+      "managing_agency": "City of El Paso Parks and Recreation Department",
+      "official_source_url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+      "official_record_id": "{3353BE42-4429-4E22-BCBB-9458868DD9E1}",
+      "coordinate_source": "Representative centroid derived by the official City of El Paso Parks FeatureServer",
+      "coordinate_source_url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=194&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+      "coordinate_precision": "approximate park polygon representative point; not a reviewed public entrance",
+      "position_quality": "official-polygon-centroid-needs-arrival-review",
+      "source_dataset_reference": {
+        "url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=194&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+        "objectId": 194,
+        "globalId": "{3353BE42-4429-4E22-BCBB-9458868DD9E1}",
+        "reportedName": "Salvador Rivas, Jr.",
+        "reportedCategory": "City Park",
+        "reportedOwnerManager": "City of El Paso",
+        "reportedAddress": "12515 Tierra Norte Dr.",
+        "reportedAcres": 16.3,
+        "usageRule": "Retained as factual source metadata and a representative point only; City polygon geometry is not copied or redistributed."
+      },
+      "coverage_tier_reason": "Selected among the 25 largest reviewed current City-owned records categorized City Park after removing duplicate Memorial Park component records.",
+      "duplicate_status": "accepted-net-new-parent",
+      "duplicate_basis": "No El Paso route or normalized El Paso parent match exists in the current AuditMap production or local catalogues; City GlobalID and parent identity reviewed.",
+      "contribution_status": "qualified-inventory-parent",
+      "freshness": "current-official-city-parks-page-and-live-municipal-feature-service",
+      "source_checked_at": "2026-08-20",
+      "sources": [
+        {
+          "label": "City of El Paso Parks page",
+          "url": "https://www.elpasotexas.gov/parks/parks-planning/parks",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of El Paso Parks FeatureServer record {3353BE42-4429-4E22-BCBB-9458868DD9E1}",
+          "url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=194&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+          "checkedAt": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "slug": "el-paso-sue-young-park",
+      "name": "Sue Young Park",
+      "aliases": [],
+      "city": "El Paso",
+      "state": "TX",
+      "country": "US",
+      "category": "public park",
+      "address": "9730 Diana, El Paso, TX",
+      "latitude": 31.8840511,
+      "longitude": -106.4349827,
+      "managing_agency": "City of El Paso Parks and Recreation Department",
+      "official_source_url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+      "official_record_id": "{CA0F9345-C276-419A-AAFB-A0E05F159C5B}",
+      "coordinate_source": "Representative centroid derived by the official City of El Paso Parks FeatureServer",
+      "coordinate_source_url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=89&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+      "coordinate_precision": "approximate park polygon representative point; not a reviewed public entrance",
+      "position_quality": "official-polygon-centroid-needs-arrival-review",
+      "source_dataset_reference": {
+        "url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=89&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+        "objectId": 89,
+        "globalId": "{CA0F9345-C276-419A-AAFB-A0E05F159C5B}",
+        "reportedName": "Sue Young Park",
+        "reportedCategory": "City Park",
+        "reportedOwnerManager": "City of El Paso",
+        "reportedAddress": "9730 Diana",
+        "reportedAcres": 15.7,
+        "usageRule": "Retained as factual source metadata and a representative point only; City polygon geometry is not copied or redistributed."
+      },
+      "coverage_tier_reason": "Selected among the 25 largest reviewed current City-owned records categorized City Park after removing duplicate Memorial Park component records.",
+      "duplicate_status": "accepted-net-new-parent",
+      "duplicate_basis": "No El Paso route or normalized El Paso parent match exists in the current AuditMap production or local catalogues; City GlobalID and parent identity reviewed.",
+      "contribution_status": "qualified-inventory-parent",
+      "freshness": "current-official-city-parks-page-and-live-municipal-feature-service",
+      "source_checked_at": "2026-08-20",
+      "sources": [
+        {
+          "label": "City of El Paso Parks page",
+          "url": "https://www.elpasotexas.gov/parks/parks-planning/parks",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of El Paso Parks FeatureServer record {CA0F9345-C276-419A-AAFB-A0E05F159C5B}",
+          "url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=89&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+          "checkedAt": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "slug": "el-paso-vista-del-valle-park",
+      "name": "Vista Del Valle Park",
+      "aliases": [
+        "Vista Del Valle"
+      ],
+      "city": "El Paso",
+      "state": "TX",
+      "country": "US",
+      "category": "public park",
+      "address": "1288 Hawkins Blvd., El Paso, TX",
+      "latitude": 31.7765128,
+      "longitude": -106.3702384,
+      "managing_agency": "City of El Paso Parks and Recreation Department",
+      "official_source_url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+      "official_record_id": "{2FF6E5D8-F3D1-420E-A6A8-233DFF7141E6}",
+      "coordinate_source": "Representative centroid derived by the official City of El Paso Parks FeatureServer",
+      "coordinate_source_url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=193&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+      "coordinate_precision": "approximate park polygon representative point; not a reviewed public entrance",
+      "position_quality": "official-polygon-centroid-needs-arrival-review",
+      "source_dataset_reference": {
+        "url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=193&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+        "objectId": 193,
+        "globalId": "{2FF6E5D8-F3D1-420E-A6A8-233DFF7141E6}",
+        "reportedName": "Vista Del Valle",
+        "reportedCategory": "City Park",
+        "reportedOwnerManager": "City of El Paso",
+        "reportedAddress": "1288 Hawkins Blvd.",
+        "reportedAcres": 15.25,
+        "usageRule": "Retained as factual source metadata and a representative point only; City polygon geometry is not copied or redistributed."
+      },
+      "coverage_tier_reason": "Selected among the 25 largest reviewed current City-owned records categorized City Park after removing duplicate Memorial Park component records.",
+      "duplicate_status": "accepted-net-new-parent",
+      "duplicate_basis": "No El Paso route or normalized El Paso parent match exists in the current AuditMap production or local catalogues; City GlobalID and parent identity reviewed.",
+      "contribution_status": "qualified-inventory-parent",
+      "freshness": "current-official-city-parks-page-and-live-municipal-feature-service",
+      "source_checked_at": "2026-08-20",
+      "sources": [
+        {
+          "label": "City of El Paso Parks page",
+          "url": "https://www.elpasotexas.gov/parks/parks-planning/parks",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of El Paso Parks FeatureServer record {2FF6E5D8-F3D1-420E-A6A8-233DFF7141E6}",
+          "url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=193&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+          "checkedAt": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "slug": "el-paso-chuck-heinrich-park",
+      "name": "Chuck Heinrich Park",
+      "aliases": [
+        "Chuck Heinrich"
+      ],
+      "city": "El Paso",
+      "state": "TX",
+      "country": "US",
+      "category": "public park",
+      "address": "11055 Loma Del Norte Dr, El Paso, TX",
+      "latitude": 31.9344798,
+      "longitude": -106.4485454,
+      "managing_agency": "City of El Paso Parks and Recreation Department",
+      "official_source_url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+      "official_record_id": "{210E4732-D7D9-4822-8EA2-D1566E3974CE}",
+      "coordinate_source": "Representative centroid derived by the official City of El Paso Parks FeatureServer",
+      "coordinate_source_url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=148&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+      "coordinate_precision": "approximate park polygon representative point; not a reviewed public entrance",
+      "position_quality": "official-polygon-centroid-needs-arrival-review",
+      "source_dataset_reference": {
+        "url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=148&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+        "objectId": 148,
+        "globalId": "{210E4732-D7D9-4822-8EA2-D1566E3974CE}",
+        "reportedName": "Chuck Heinrich",
+        "reportedCategory": "City Park",
+        "reportedOwnerManager": "City of El Paso",
+        "reportedAddress": "11055 Loma Del Norte Dr",
+        "reportedAcres": 14.7,
+        "usageRule": "Retained as factual source metadata and a representative point only; City polygon geometry is not copied or redistributed."
+      },
+      "coverage_tier_reason": "Selected among the 25 largest reviewed current City-owned records categorized City Park after removing duplicate Memorial Park component records.",
+      "duplicate_status": "accepted-net-new-parent",
+      "duplicate_basis": "No El Paso route or normalized El Paso parent match exists in the current AuditMap production or local catalogues; City GlobalID and parent identity reviewed.",
+      "contribution_status": "qualified-inventory-parent",
+      "freshness": "current-official-city-parks-page-and-live-municipal-feature-service",
+      "source_checked_at": "2026-08-20",
+      "sources": [
+        {
+          "label": "City of El Paso Parks page",
+          "url": "https://www.elpasotexas.gov/parks/parks-planning/parks",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of El Paso Parks FeatureServer record {210E4732-D7D9-4822-8EA2-D1566E3974CE}",
+          "url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=148&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+          "checkedAt": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "slug": "el-paso-ranchos-del-sol-park",
+      "name": "Ranchos Del Sol Park",
+      "aliases": [
+        "Ranchos Del Sol"
+      ],
+      "city": "El Paso",
+      "state": "TX",
+      "country": "US",
+      "category": "public park",
+      "address": "1100 Ted Houghton Dr., El Paso, TX",
+      "latitude": 31.7131555,
+      "longitude": -106.2780594,
+      "managing_agency": "City of El Paso Parks and Recreation Department",
+      "official_source_url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+      "official_record_id": "{E5297A88-F686-4E5F-B02C-A5EF307F8A2D}",
+      "coordinate_source": "Representative centroid derived by the official City of El Paso Parks FeatureServer",
+      "coordinate_source_url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=79&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+      "coordinate_precision": "approximate park polygon representative point; not a reviewed public entrance",
+      "position_quality": "official-polygon-centroid-needs-arrival-review",
+      "source_dataset_reference": {
+        "url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=79&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+        "objectId": 79,
+        "globalId": "{E5297A88-F686-4E5F-B02C-A5EF307F8A2D}",
+        "reportedName": "Ranchos Del Sol",
+        "reportedCategory": "City Park",
+        "reportedOwnerManager": "City of El Paso",
+        "reportedAddress": "1100 Ted Houghton Dr.",
+        "reportedAcres": 14.39,
+        "usageRule": "Retained as factual source metadata and a representative point only; City polygon geometry is not copied or redistributed."
+      },
+      "coverage_tier_reason": "Selected among the 25 largest reviewed current City-owned records categorized City Park after removing duplicate Memorial Park component records.",
+      "duplicate_status": "accepted-net-new-parent",
+      "duplicate_basis": "No El Paso route or normalized El Paso parent match exists in the current AuditMap production or local catalogues; City GlobalID and parent identity reviewed.",
+      "contribution_status": "qualified-inventory-parent",
+      "freshness": "current-official-city-parks-page-and-live-municipal-feature-service",
+      "source_checked_at": "2026-08-20",
+      "sources": [
+        {
+          "label": "City of El Paso Parks page",
+          "url": "https://www.elpasotexas.gov/parks/parks-planning/parks",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of El Paso Parks FeatureServer record {E5297A88-F686-4E5F-B02C-A5EF307F8A2D}",
+          "url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=79&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+          "checkedAt": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "slug": "el-paso-lincoln-park",
+      "name": "Lincoln Park",
+      "aliases": [],
+      "city": "El Paso",
+      "state": "TX",
+      "country": "US",
+      "category": "public park",
+      "address": "4001 Durazno Ave., El Paso, TX",
+      "latitude": 31.7765311,
+      "longitude": -106.4423311,
+      "managing_agency": "City of El Paso Parks and Recreation Department",
+      "official_source_url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+      "official_record_id": "{DD3A7E83-EB05-4F05-9631-3D2ABE409C1B}",
+      "coordinate_source": "Representative centroid derived by the official City of El Paso Parks FeatureServer",
+      "coordinate_source_url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=135&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+      "coordinate_precision": "approximate park polygon representative point; not a reviewed public entrance",
+      "position_quality": "official-polygon-centroid-needs-arrival-review",
+      "source_dataset_reference": {
+        "url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=135&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+        "objectId": 135,
+        "globalId": "{DD3A7E83-EB05-4F05-9631-3D2ABE409C1B}",
+        "reportedName": "Lincoln Park",
+        "reportedCategory": "City Park",
+        "reportedOwnerManager": "City of El Paso",
+        "reportedAddress": "4001 Durazno Ave.",
+        "reportedAcres": 14.3,
+        "usageRule": "Retained as factual source metadata and a representative point only; City polygon geometry is not copied or redistributed."
+      },
+      "coverage_tier_reason": "Selected among the 25 largest reviewed current City-owned records categorized City Park after removing duplicate Memorial Park component records.",
+      "duplicate_status": "accepted-net-new-parent",
+      "duplicate_basis": "No El Paso route or normalized El Paso parent match exists in the current AuditMap production or local catalogues; City GlobalID and parent identity reviewed.",
+      "contribution_status": "qualified-inventory-parent",
+      "freshness": "current-official-city-parks-page-and-live-municipal-feature-service",
+      "source_checked_at": "2026-08-20",
+      "sources": [
+        {
+          "label": "City of El Paso Parks page",
+          "url": "https://www.elpasotexas.gov/parks/parks-planning/parks",
+          "checkedAt": "2026-08-20"
+        },
+        {
+          "label": "City of El Paso Parks FeatureServer record {DD3A7E83-EB05-4F05-9631-3D2ABE409C1B}",
+          "url": "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0/query?objectIds=135&outFields=OBJECTID%2CPARK%2CCATEGORY%2COWNER_MANAGER%2CADDRESS%2CTOTAL_ACRES%2CGlobalID&returnGeometry=false&returnCentroid=true&outSR=4326&f=json",
+          "checkedAt": "2026-08-20"
+        }
+      ]
+    }
+  ],
+  "reviewQueue": [
+    {
+      "park_slug": "el-paso-eastside-regional-park",
+      "field": "address",
+      "conflict": "Official GIS reports `Hueco Club`, which is not a conventional street address.",
+      "sources_checked": [
+        "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0",
+        "https://www.elpasotexas.gov/parks/parks-planning/parks"
+      ],
+      "next_action": "Resolve the practical entrance address during launch-guide work; do not use the centroid as turn-by-turn navigation."
+    },
+    {
+      "park_slug": "el-paso-blackie-chesher-park",
+      "field": "address",
+      "conflict": "Official GIS reports two address references: `9143 Escobar Dr/1100 N Zaragoza`.",
+      "sources_checked": [
+        "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0"
+      ],
+      "next_action": "Identify the practical public entrance under a separately assigned launch-guide packet."
+    },
+    {
+      "park_slug": "el-paso-edgemere-linear-park",
+      "field": "arrival",
+      "conflict": "Official GIS lists multiple Edgemere segments; the representative centroid is not an entrance.",
+      "sources_checked": [
+        "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0"
+      ],
+      "next_action": "Choose a documented visitor segment or entrance before publication."
+    },
+    {
+      "park_slug": "el-paso-pueblo-viejo-linear-park",
+      "field": "arrival",
+      "conflict": "Official GIS describes a linear span from Roseway to Presa Place; the representative centroid is not an entrance.",
+      "sources_checked": [
+        "https://gis.elpasotexas.gov/dev/rest/services/Parks/Parks/FeatureServer/0"
+      ],
+      "next_action": "Choose a documented visitor segment or entrance before publication."
+    }
+  ]
+}

@@ -1,0 +1,405 @@
+{
+  "checkedAt": "2026-08-06",
+  "places": {
+    "launch-va-virginia-beach-first-landing-state-park": {
+      "chesapeake-bay-center": {
+        "latitude": 36.91863,
+        "longitude": -76.05193,
+        "displayName": "Reviewed placement for Chesapeake Bay Center",
+        "source": "AuditMap reviewed public-map placement"
+      },
+      "first-landing-beach": {
+        "latitude": 36.9203,
+        "longitude": -76.05125,
+        "displayName": "Reviewed placement for First Landing Beach",
+        "source": "AuditMap reviewed public-map placement"
+      },
+      "cape-henry-trail": {
+        "latitude": 36.8877568,
+        "longitude": -75.9987491,
+        "displayName": "Preserved coordinate for Cape Henry Trail",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "bald-cypress-trail": {
+        "latitude": 36.9141946,
+        "longitude": -76.0385108,
+        "displayName": "Preserved coordinate for Bald Cypress Trail",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "osmanthus-trail": {
+        "latitude": 36.9133872,
+        "longitude": -76.0153252,
+        "displayName": "Preserved coordinate for Osmanthus Trail",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "long-creek-trail": {
+        "latitude": 36.8967655,
+        "longitude": -76.0157826,
+        "displayName": "Preserved coordinate for Long Creek Trail",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "first-landing-trail-center": {
+        "latitude": 36.91682,
+        "longitude": -76.0498,
+        "displayName": "Reviewed placement for First Landing Trail Center",
+        "source": "AuditMap reviewed public-map placement"
+      },
+      "the-narrows-boat-ramp": {
+        "latitude": 36.89474,
+        "longitude": -76.02144,
+        "displayName": "Reviewed placement for The Narrows Boat Ramp",
+        "source": "AuditMap reviewed public-map placement"
+      }
+    },
+    "launch-va-virginia-beach-mount-trashmore-park": {
+      "mount-trashmore-summit": {
+        "latitude": 36.8292,
+        "longitude": -76.12604,
+        "displayName": "Reviewed placement for Mount Trashmore Summit",
+        "source": "AuditMap reviewed public-map placement"
+      },
+      "kids-cove-playground": {
+        "latitude": 36.82768,
+        "longitude": -76.12401,
+        "displayName": "Reviewed placement for Kids Cove Playground",
+        "source": "AuditMap reviewed public-map placement"
+      },
+      "mount-trashmore-skate-park": {
+        "latitude": 36.83098,
+        "longitude": -76.12351,
+        "displayName": "Reviewed placement for Mount Trashmore Skate Park",
+        "source": "AuditMap reviewed public-map placement"
+      },
+      "lake-trashmore": {
+        "latitude": 36.83205,
+        "longitude": -76.12118,
+        "displayName": "Reviewed placement for Lake Trashmore",
+        "source": "AuditMap reviewed public-map placement"
+      },
+      "lake-windsor": {
+        "latitude": 36.82684,
+        "longitude": -76.13039,
+        "displayName": "Reviewed placement for Lake Windsor",
+        "source": "AuditMap reviewed public-map placement"
+      },
+      "encore-hill": {
+        "latitude": 36.8292918,
+        "longitude": -76.1203988,
+        "displayName": "Preserved coordinate for Encore Hill",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "mount-trashmore-fitness-trail": {
+        "latitude": 36.82954,
+        "longitude": -76.12497,
+        "displayName": "Preserved coordinate for Mount Trashmore Fitness Trail",
+        "source": "AuditMap official-map placement"
+      },
+      "mount-trashmore-picnic-shelters": {
+        "latitude": 36.82997133513653,
+        "longitude": -76.12495133513653,
+        "displayName": "Preserved coordinate for Mount Trashmore Picnic Shelters",
+        "source": "AuditMap official-map placement"
+      }
+    },
+    "launch-va-virginia-beach-virginia-beach-oceanfront-and-boardwalk": {
+      "king-neptune-statue": {
+        "latitude": 36.8591,
+        "longitude": -75.97601,
+        "displayName": "Reviewed placement for King Neptune Statue",
+        "source": "AuditMap reviewed public-map placement"
+      },
+      "grommet-island-park": {
+        "latitude": 36.8322,
+        "longitude": -75.97145,
+        "displayName": "Reviewed placement for Grommet Island Park",
+        "source": "AuditMap reviewed public-map placement"
+      },
+      "virginia-beach-boardwalk-bike-path": {
+        "latitude": 36.84677,
+        "longitude": -75.97439,
+        "displayName": "Preserved coordinate for Virginia Beach Boardwalk Bike Path",
+        "source": "AuditMap official-map placement"
+      },
+      "17th-street-park": {
+        "latitude": 36.84619,
+        "longitude": -75.97388,
+        "displayName": "Reviewed placement for 17th Street Park",
+        "source": "AuditMap reviewed public-map placement"
+      },
+      "24th-street-park": {
+        "latitude": 36.85209,
+        "longitude": -75.97509,
+        "displayName": "Reviewed placement for 24th Street Park",
+        "source": "AuditMap reviewed public-map placement"
+      },
+      "31st-street-park": {
+        "latitude": 36.85908,
+        "longitude": -75.97636,
+        "displayName": "Reviewed placement for 31st Street Park",
+        "source": "AuditMap reviewed public-map placement"
+      },
+      "rudee-inlet": {
+        "latitude": 36.82953,
+        "longitude": -75.96868,
+        "displayName": "Reviewed placement for Rudee Inlet",
+        "source": "AuditMap reviewed public-map placement"
+      },
+      "naval-aviation-monument": {
+        "latitude": 36.84345,
+        "longitude": -75.97326,
+        "displayName": "Reviewed placement for Naval Aviation Monument",
+        "source": "AuditMap reviewed public-map placement"
+      }
+    },
+    "launch-va-virginia-beach-virginia-aquarium-and-marine-science-center": {
+      "virginia-aquarium-main-entrance": {
+        "latitude": 36.82118,
+        "longitude": -75.9831,
+        "displayName": "Reviewed placement for Virginia Aquarium Main Entrance",
+        "source": "AuditMap reviewed public-map placement"
+      },
+      "red-sea-aquarium-tunnel": {
+        "latitude": 36.82160133513653,
+        "longitude": -75.98272866486347,
+        "displayName": "Preserved coordinate for Red Sea Aquarium Tunnel",
+        "source": "AuditMap official-map placement"
+      },
+      "chesapeake-bay-aquarium": {
+        "latitude": 36.82117,
+        "longitude": -75.98239,
+        "displayName": "Preserved coordinate for Chesapeake Bay Aquarium",
+        "source": "AuditMap official-map placement"
+      },
+      "light-tower-aquarium": {
+        "latitude": 36.82085180194847,
+        "longitude": -75.98284180194847,
+        "displayName": "Preserved coordinate for Light Tower Aquarium",
+        "source": "AuditMap official-map placement"
+      },
+      "virginia-aquarium-harbor-seals": {
+        "latitude": 36.82056,
+        "longitude": -75.98316,
+        "displayName": "Preserved coordinate for Virginia Aquarium Harbor Seals",
+        "source": "AuditMap official-map placement"
+      },
+      "virginia-aquarium-nature-trail": {
+        "latitude": 36.82062552777849,
+        "longitude": -75.98370447222152,
+        "displayName": "Preserved coordinate for Virginia Aquarium Nature Trail",
+        "source": "AuditMap official-map placement"
+      },
+      "virginia-aquarium-boat-dock": {
+        "latitude": 36.82161,
+        "longitude": -75.98163,
+        "displayName": "Reviewed placement for Virginia Aquarium Boat Dock",
+        "source": "AuditMap reviewed public-map placement"
+      },
+      "adventure-park-at-virginia-aquarium": {
+        "latitude": 36.81735,
+        "longitude": -75.98606,
+        "displayName": "Reviewed placement for Adventure Park at Virginia Aquarium",
+        "source": "AuditMap reviewed public-map placement"
+      }
+    },
+    "launch-va-virginia-beach-back-bay-national-wildlife-refuge-and-false-cape-state-park": {
+      "back-bay-visitor-center": {
+        "latitude": 36.67155,
+        "longitude": -75.91606,
+        "displayName": "Reviewed placement for Back Bay Visitor Center",
+        "source": "AuditMap reviewed public-map placement"
+      },
+      "back-bay-dune-trail": {
+        "latitude": 36.66658,
+        "longitude": -75.91068,
+        "displayName": "Reviewed placement for Back Bay Dune Trail",
+        "source": "AuditMap reviewed public-map placement"
+      },
+      "back-bay-east-dike-trail": {
+        "latitude": 36.67167,
+        "longitude": -75.91529,
+        "displayName": "Approximate position within Back Bay National Wildlife Refuge and False Cape State Park",
+        "source": "AuditMap official-map placement"
+      },
+      "back-bay-west-dike-trail": {
+        "latitude": 36.67135180194847,
+        "longitude": -75.91574180194847,
+        "displayName": "Approximate position within Back Bay National Wildlife Refuge and False Cape State Park",
+        "source": "AuditMap official-map placement"
+      },
+      "back-bay-refuge-beach": {
+        "latitude": 36.66243,
+        "longitude": -75.90851,
+        "displayName": "Reviewed placement for Back Bay Refuge Beach",
+        "source": "AuditMap reviewed public-map placement"
+      },
+      "false-cape-visitor-center": {
+        "latitude": 36.60624,
+        "longitude": -75.9067,
+        "displayName": "Reviewed placement for False Cape Visitor Center",
+        "source": "AuditMap reviewed public-map placement"
+      },
+      "wash-woods-historic-site": {
+        "latitude": 36.57042,
+        "longitude": -75.87517,
+        "displayName": "Reviewed placement for Wash Woods Historic Site",
+        "source": "AuditMap reviewed public-map placement"
+      },
+      "false-cape-beach": {
+        "latitude": 36.59801,
+        "longitude": -75.87761,
+        "displayName": "Reviewed placement for False Cape Beach",
+        "source": "AuditMap reviewed public-map placement"
+      }
+    },
+    "launch-va-norfolk-norfolk-botanical-garden": {
+      "baker-hall-visitor-center": {
+        "latitude": 36.90239,
+        "longitude": -76.20058,
+        "displayName": "Reviewed placement for Baker Hall Visitor Center",
+        "source": "AuditMap reviewed public-map placement"
+      },
+      "world-of-wonders-children-s-adventure-garden": {
+        "latitude": 36.90282133513652,
+        "longitude": -76.20014866486348,
+        "displayName": "Preserved coordinate for World of Wonders Children's Adventure Garden",
+        "source": "AuditMap official-map placement"
+      },
+      "bicentennial-rose-garden": {
+        "latitude": 36.90391,
+        "longitude": -76.20178,
+        "displayName": "Reviewed placement for Bicentennial Rose Garden",
+        "source": "AuditMap reviewed public-map placement"
+      },
+      "japanese-garden": {
+        "latitude": 36.90187,
+        "longitude": -76.20092,
+        "displayName": "Reviewed placement for Japanese Garden",
+        "source": "AuditMap reviewed public-map placement"
+      },
+      "nato-tower": {
+        "latitude": 36.90615,
+        "longitude": -76.20092,
+        "displayName": "Reviewed placement for NATO Tower",
+        "source": "AuditMap reviewed public-map placement"
+      },
+      "butterfly-house": {
+        "latitude": 36.901845527778484,
+        "longitude": -76.20112447222152,
+        "displayName": "Preserved coordinate for Butterfly House",
+        "source": "AuditMap official-map placement"
+      },
+      "mirror-lake": {
+        "latitude": 36.9016202,
+        "longitude": -76.2046432,
+        "displayName": "Preserved coordinate for Mirror Lake",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "virginia-native-plant-garden": {
+        "latitude": 36.90282133513652,
+        "longitude": -76.20101133513653,
+        "displayName": "Preserved coordinate for Virginia Native Plant Garden",
+        "source": "AuditMap official-map placement"
+      }
+    },
+    "launch-va-norfolk-town-point-park": {
+      "town-point-park-promenade": {
+        "latitude": 36.84651,
+        "longitude": -76.29246,
+        "displayName": "Reviewed placement for Town Point Park Promenade",
+        "source": "AuditMap reviewed public-map placement"
+      },
+      "townebank-fountain-park": {
+        "latitude": 36.84564,
+        "longitude": -76.29123,
+        "displayName": "Reviewed placement for TowneBank Fountain Park",
+        "source": "AuditMap reviewed public-map placement"
+      },
+      "armed-forces-memorial": {
+        "latitude": 36.84662,
+        "longitude": -76.29312,
+        "displayName": "Reviewed placement for Armed Forces Memorial",
+        "source": "AuditMap reviewed public-map placement"
+      },
+      "town-point-park-event-lawn": {
+        "latitude": 36.84625,
+        "longitude": -76.2919,
+        "displayName": "Reviewed placement for Town Point Park Event Lawn",
+        "source": "AuditMap reviewed public-map placement"
+      },
+      "waterside-district": {
+        "latitude": 36.84494,
+        "longitude": -76.29052,
+        "displayName": "Reviewed placement for Waterside District",
+        "source": "AuditMap reviewed public-map placement"
+      },
+      "elizabeth-river-trail-at-town-point": {
+        "latitude": 36.84583552777849,
+        "longitude": -76.29271447222152,
+        "displayName": "Preserved coordinate for Elizabeth River Trail at Town Point",
+        "source": "AuditMap official-map placement"
+      },
+      "nauticus-waterfront": {
+        "latitude": 36.84754,
+        "longitude": -76.29454,
+        "displayName": "Reviewed placement for Nauticus Waterfront",
+        "source": "AuditMap reviewed public-map placement"
+      },
+      "norfolk-cruise-terminal-overlook": {
+        "latitude": 36.84681133513653,
+        "longitude": -76.29260133513652,
+        "displayName": "Preserved coordinate for Norfolk Cruise Terminal Overlook",
+        "source": "AuditMap official-map placement"
+      }
+    },
+    "launch-va-norfolk-nauticus-and-battleship-wisconsin": {
+      "nauticus-main-entrance": {
+        "latitude": 36.84763,
+        "longitude": -76.29506,
+        "displayName": "Reviewed placement for Nauticus Main Entrance",
+        "source": "AuditMap reviewed public-map placement"
+      },
+      "battleship-wisconsin-main-deck": {
+        "latitude": 36.84853,
+        "longitude": -76.29578,
+        "displayName": "Reviewed placement for Battleship Wisconsin Main Deck",
+        "source": "AuditMap reviewed public-map placement"
+      },
+      "battleship-wisconsin-wardroom": {
+        "latitude": 36.84861,
+        "longitude": -76.29566,
+        "displayName": "Reviewed placement for Battleship Wisconsin Wardroom",
+        "source": "AuditMap reviewed public-map placement"
+      },
+      "battleship-wisconsin-ship-experience-access-room": {
+        "latitude": 36.84844,
+        "longitude": -76.29573,
+        "displayName": "Reviewed placement for Battleship Wisconsin Ship Experience Access Room",
+        "source": "AuditMap reviewed public-map placement"
+      },
+      "hampton-roads-naval-museum": {
+        "latitude": 36.84768,
+        "longitude": -76.29494,
+        "displayName": "Reviewed placement for Hampton Roads Naval Museum",
+        "source": "AuditMap reviewed public-map placement"
+      },
+      "sail-nauticus": {
+        "latitude": 36.84808,
+        "longitude": -76.29405,
+        "displayName": "Reviewed placement for Sail Nauticus",
+        "source": "AuditMap reviewed public-map placement"
+      },
+      "nauticus-elizabeth-river-overlook": {
+        "latitude": 36.84725,
+        "longitude": -76.29523,
+        "displayName": "Reviewed placement for Nauticus Elizabeth River Overlook",
+        "source": "AuditMap reviewed public-map placement"
+      },
+      "victory-rover-naval-base-cruise-dock": {
+        "latitude": 36.84712,
+        "longitude": -76.29423,
+        "displayName": "Reviewed placement for Victory Rover Naval Base Cruise Dock",
+        "source": "AuditMap reviewed public-map placement"
+      }
+    }
+  }
+}

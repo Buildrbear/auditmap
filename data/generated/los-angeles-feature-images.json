@@ -1,0 +1,88 @@
+{
+  "checkedAt": "2026-08-06",
+  "places": {
+    "launch-ca-los-angeles-griffith-park": {
+      "los-angeles-zoo": {
+        "url": "/assets/parks/los-angeles-super/features/griffith-park/los-angeles-zoo.webp",
+        "source": "https://lazoo.org/plan-your-visit/",
+        "author": "City of Los Angeles Department of Recreation and Parks",
+        "license": "Official City of Los Angeles Department of Recreation and Parks photograph; source attribution retained",
+        "matchMethod": "official feature page",
+        "alt": "Los Angeles Zoo at Griffith Park",
+        "width": 1600,
+        "height": 738
+      },
+      "travel-town-museum": {
+        "url": "/assets/parks/los-angeles-super/features/griffith-park/travel-town-museum.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Los_Angeles_-_54526757834.jpg",
+        "author": "Jeremy Thompson",
+        "license": "CC BY 2.0",
+        "matchMethod": "strict title match on Wikimedia Commons",
+        "alt": "Travel Town Museum at Griffith Park",
+        "width": 1600,
+        "height": 1000
+      },
+      "autry-museum": {
+        "url": "/assets/parks/los-angeles-super/features/griffith-park/autry-museum.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:AutryCenter_01.jpg",
+        "author": "Gary Minnaert ( Minnaert ))",
+        "license": "Public domain",
+        "matchMethod": "strict title match on Wikimedia Commons",
+        "alt": "Autry Museum of the American West at Griffith Park",
+        "width": 1600,
+        "height": 1000
+      }
+    },
+    "launch-ca-los-angeles-elysian-park": {
+      "chavez-ravine-arboretum": {
+        "url": "/assets/parks/los-angeles-super/features/elysian-park/chavez-ravine-arboretum.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Chavez-ravine-arboretum-sign.jpg",
+        "author": "Self/en:User:Jengod + posted on Flickr",
+        "license": "CC BY-SA 4.0",
+        "matchMethod": "strict title match on Wikimedia Commons",
+        "alt": "Chavez Ravine Arboretum at Elysian Park",
+        "width": 1600,
+        "height": 1000
+      }
+    },
+    "launch-ca-los-angeles-exposition-park": {
+      "natural-history-museum": {
+        "url": "/assets/parks/los-angeles-super/features/exposition-park/natural-history-museum.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Exterior_view_of_the_facade_of_Los_Angeles_Natural_History_Museum_(formerly_Los_Angeles_County_Historical_Art_Museum%3F),_ca.1905_(CHS-5698).jpg",
+        "author": "Unknown author Unknown author",
+        "license": "Public domain",
+        "matchMethod": "strict title match on Wikimedia Commons",
+        "alt": "Natural History Museum of Los Angeles County at Exposition Park",
+        "width": 1600,
+        "height": 1000
+      },
+      "california-african-american-museum": {
+        "url": "/assets/parks/los-angeles-super/features/exposition-park/california-african-american-museum.webp",
+        "source": "https://caamuseum.org/visit",
+        "author": "State of California Exposition Park",
+        "license": "Official State of California Exposition Park photograph; source attribution retained",
+        "matchMethod": "official feature page",
+        "alt": "California African American Museum at Exposition Park",
+        "width": 1580,
+        "height": 710
+      }
+    },
+    "launch-ca-los-angeles-gloria-molina-grand-park": {},
+    "launch-ca-los-angeles-echo-park-lake": {},
+    "launch-ca-los-angeles-venice-beach-ocean-front-walk": {
+      "muscle-beach-venice": {
+        "url": "/assets/parks/los-angeles-super/features/venice-beach-and-ocean-front-walk/muscle-beach-venice.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Muscle_beach,_Venice,_Los_Angeles.jpg",
+        "author": "Juha Suoranta",
+        "license": "CC BY-SA 3.0",
+        "matchMethod": "strict title match on Wikimedia Commons",
+        "alt": "Muscle Beach Venice at Venice Beach & Ocean Front Walk",
+        "width": 1600,
+        "height": 1000
+      }
+    },
+    "launch-ca-los-angeles-runyon-canyon-park": {},
+    "launch-ca-los-angeles-los-angeles-state-historic-park": {},
+    "launch-ca-los-angeles-kenneth-hahn-state-recreation-area": {}
+  }
+}

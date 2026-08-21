@@ -1,0 +1,212 @@
+{
+  "checkedAt": "2026-08-08",
+  "reviewMethod": "Exact named OpenStreetMap feature, official operator guidance, and a destination-specific licensed campaign photograph. Features without all three were retained in the research queue rather than published.",
+  "places": {
+    "launch-nm-albuquerque-balloon-fiesta-park": [
+      {
+        "name": "North Launch Field",
+        "latitude": 35.1961,
+        "longitude": -106.5949,
+        "coordinateSource": "https://www.cabq.gov/parksandrecreation/documents/new-labeled-map-as-of-december-2017-smaller.pdf",
+        "officialMapSource": "https://www.cabq.gov/parksandrecreation/documents/new-labeled-map-as-of-december-2017-smaller.pdf",
+        "positionQuality": "reviewed-official-map-and-osm-field-centroid",
+        "checkedAt": "2026-08-10",
+        "imageIndex": 2,
+        "sourceLabel": "City of Albuquerque Parks and Recreation",
+        "source": "https://www.cabq.gov/parksandrecreation/parks/balloon-fiesta-park/accessing-balloon-fiesta-park",
+        "summary": "The North Launch Field is Balloon Fiesta Park's immense grass event field, divided into lettered and numbered panels and used for ballooning, field sports, remote-control flying, races, festivals, and reserved events.",
+        "cost": "Ordinary daily field access is free when the field is open and not reserved. Automated vehicle-gate cards are $25 per calendar year. Reservations, organized events, parking, and annual Balloon Fiesta admission can have separate charges.",
+        "hours": "Daily access varies with reservations and field conditions. Remote-control flyers normally have exclusive use until noon, with other daily users admitted after noon when the field is available. The North Launch Field is closed or event-controlled during the annual Balloon Fiesta period in September and October.",
+        "needToKnow": "Check same-day City access information before relying on an ordinary park visit: a reservation, turf closure, special event, or Balloon Fiesta setup can control the entire field. The north entrance is normally used for field sports and events. A gate card permits vehicle access only when the field is otherwise available; it does not override closures or reservations. Use the exact field pin and do not promise routine restrooms, food, shade, or public parking outside a scheduled event."
+      }
+    ],
+    "launch-nm-albuquerque-elena-gallegos-open-space": [
+      {
+        "name": "Kiwanis Reservation Area",
+        "latitude": 35.166244,
+        "longitude": -106.469581,
+        "coordinateSource": "https://commons.wikimedia.org/wiki/File:Kiwanis_shelter_at_Elena_Gallegos_Open_Space_2.jpg",
+        "officialMapSource": "https://www.cabq.gov/parksandrecreation/documents/Elena.pdf",
+        "positionQuality": "reviewed-geotagged-destination-photo",
+        "checkedAt": "2026-08-10",
+        "imageIndex": 3,
+        "sourceLabel": "City of Albuquerque Open Space Division",
+        "source": "https://www.cabq.gov/parksandrecreation/open-space/lands/go-beyond-about-open-space-lands/reservation-areas",
+        "summary": "Kiwanis Reservation Area is Elena Gallegos' large sheltered group-picnic destination, with room for up to 250 people, three coal grills, a volleyball net, horseshoes, running water, electricity, restrooms, and direct trail access.",
+        "cost": "Exclusive group use requires a reservation and a fee based on group size, day, and applicable deposit. Ordinary Elena Gallegos vehicle entry is charged separately at the park entrance; current City guidance lists $1 on weekdays and $2 on weekends.",
+        "hours": "The reservation area is available year-round within Elena Gallegos hours: normally 7:00 a.m.-9:00 p.m. from April through October and 7:00 a.m.-7:00 p.m. from November through March. A reservation controls the group's booked use period, and closures or fire restrictions can supersede normal access.",
+        "needToKnow": "Reserve the facility before planning exclusive or large-group use. The City identifies 40 designated parking spaces with limited accessible parking. Follow the official map from the entrance booth to the Kiwanis lot rather than stopping at the first picnic shelter. Coal grills can be restricted during high fire danger, so verify current fire rules and do not assume that a reservation guarantees grill use."
+      }
+    ],
+    "launch-nm-albuquerque-tingley-beach-and-bosque": [
+      {
+        "name": "Central Pond",
+        "osm": "relation/3687197",
+        "checkedAt": "2026-08-10",
+        "imageIndex": 2,
+        "sourceLabel": "ABQ BioPark",
+        "source": "https://www.cabq.gov/artsculture/biopark/tingley/fishing/central-pond",
+        "summary": "Central Pond is Tingley Beach's largest fishing pond, open to anglers of all ages and bordered by walking paths, a fitness course, a grassy picnic peninsula, and a wheelchair-accessible fishing ramp in front of Tingley Station.",
+        "cost": "Access to Tingley Beach and Central Pond is free. Anglers age 12 and older must carry a current New Mexico fishing license, which is not sold at Tingley Beach; parking and any separately offered programs can have their own costs.",
+        "hours": "Central Pond is normally available during Tingley Beach's posted sunrise-to-sunset hours. Weather, maintenance, stocking work, special conditions, or holiday closures shown on an official map can change access, so verify before a holiday or time-sensitive fishing trip.",
+        "needToKnow": "Central Pond allows live worms, insects, artificial bait, and pole fishing under current New Mexico rules. The daily limits listed by the BioPark are four trout and two catfish. Give priority at the station-side ramp to adults and children with mobility disabilities. Swimming and wading are prohibited, ordinary boats and rafts are not allowed, and anglers age 12 and older need their license before arrival."
+      }
+    ],
+    "launch-ok-oklahoma-city-scissortail-park": [
+      {
+        "name": "Skydance Bridge",
+        "osm": "way/275293384",
+        "imageIndex": 2,
+        "allowOutsideBoundary": true,
+        "boundaryExceptionReason": "Skydance Bridge is the official pedestrian connection between Scissortail Park's Upper and Lower parks and crosses Interstate 40 immediately beyond the reviewed Upper Park polygon.",
+        "sourceLabel": "City of Oklahoma City",
+        "source": "https://www.okc.gov/departments/public-works/resident-community-resources/skydance-bridge",
+        "summary": "Skydance Bridge is a 380-foot pedestrian bridge and illuminated landmark inspired by Oklahoma's state bird; it links Scissortail Park's Upper and Lower parks across Interstate 40.",
+        "cost": "Walking across Skydance Bridge is free; nearby parking, food, rentals, and ticketed park events can cost separately.",
+        "hours": "The bridge is an outdoor pedestrian connection within the Scissortail Park campus. Plan around the park's daily 6:00 a.m.-11:00 p.m. hours and obey any closure or event-control signs at the approaches.",
+        "needToKnow": "This is a through-route shared by people walking, running, and bicycling, not a roadside overlook. Stay on the pedestrian path, supervise children, keep the route clear when taking photos, and use the exact pin to find the Interstate 40 crossing between the Upper and Lower parks."
+      }
+    ],
+    "launch-ok-oklahoma-city-myriad-botanical-gardens": [
+      {
+        "name": "Inasmuch Foundation Crystal Bridge Conservatory",
+        "latitude": 35.465872,
+        "longitude": -97.517967,
+        "coordinateSource": "https://www.flickr.com/photos/59081381@N03/54010022233",
+        "officialMapSource": "https://myriadgardens.org/visit-us/",
+        "positionQuality": "reviewed-geotagged-destination-photo",
+        "checkedAt": "2026-08-10",
+        "imageIndex": 0,
+        "sourceLabel": "Myriad Botanical Gardens",
+        "source": "https://myriadgardens.org/visit-us/",
+        "summary": "The Inasmuch Foundation Crystal Bridge Conservatory is Myriad Botanical Gardens' ticketed indoor centerpiece, with tropical plant collections inside the cylindrical glass conservatory.",
+        "cost": "Conservatory admission is $10.50 for adults, $9 for seniors age 62 and older and military or veterans, $7 for students, and $5.50 for youth ages 5-17. Children age 4 and under and Myriad Gardens members enter free; group rates require advance reservations.",
+        "hours": "The Crystal Bridge is open Monday-Saturday 9:00 a.m.-5:00 p.m. and Sunday 11:00 a.m.-5:00 p.m. It is closed on Thanksgiving Day and Christmas Day; programs or maintenance can change access.",
+        "needToKnow": "This indoor attraction has its own ticket and schedule even though the exterior gardens are free and remain open later. Individual visitors can buy admission on arrival. A loaner wheelchair is available free on a first-come basis with a driver's license, and only service animals are allowed inside the conservatory. Use the exact pin for the Crystal Bridge entrance rather than a general garden pin."
+      },
+      {
+        "name": "Children's Garden",
+        "osm": "way/546957665",
+        "checkedAt": "2026-08-10",
+        "imageIndex": 1,
+        "sourceLabel": "Myriad Botanical Gardens",
+        "source": "https://myriadgardens.org/visit-us/",
+        "summary": "The Children's Garden is the family play area on the southwest side of Myriad Botanical Gardens, including imaginative outdoor spaces and the seasonal Thunder Fountain water-play area.",
+        "cost": "The outdoor Children's Garden and water features are free. The separate Crystal Bridge Conservatory, carousel rides, programs, parking, food, and special events can cost separately.",
+        "hours": "The Children's Garden follows the exterior grounds' daily 6:00 a.m.-11:00 p.m. schedule. The water features operate on a shorter seasonal schedule, listed by the Gardens as daily through Labor Day from 9:00 a.m.-9:00 p.m.; weather, maintenance, and seasonal shutdowns can interrupt water play.",
+        "needToKnow": "Bring a change of clothes and water shoes if Thunder Fountain is part of the plan, but confirm the water feature is operating before promising it to children. The splash area is seasonal and is not proof that every play feature is running. Leashed pets are allowed on the exterior grounds, recreational scooters cannot be ridden inside the Gardens, and mobility scooters are welcome."
+      },
+      {
+        "name": "Water Stage",
+        "osm": "way/426194293",
+        "checkedAt": "2026-08-10",
+        "imageIndex": 2,
+        "sourceLabel": "Myriad Botanical Gardens",
+        "source": "https://myriadgardens.org/visit-us/rentals/water-stage-and-plaza/",
+        "summary": "Water Stage is Myriad Botanical Gardens' outdoor amphitheater and floating-looking stage on the lagoon, paired with the West Plaza for performances, ceremonies, and gatherings.",
+        "cost": "Viewing the Water Stage during ordinary garden access is free. Reserving the venue, attending a ticketed event, nearby parking, food, and other services can cost separately.",
+        "hours": "The surrounding exterior grounds are normally open daily 6:00 a.m.-11:00 p.m. Event setup, private rentals, maintenance, weather, or crowd controls can restrict access to the stage and plaza even while the rest of the Gardens remains open.",
+        "needToKnow": "This is an active event venue beside open water, not a guaranteed public seating area at all times. Check the Gardens calendar and on-site signs before planning a quiet stop, keep children back from the lagoon edge, and use the exact pin to distinguish Water Stage from other lawns and performance spaces."
+      }
+    ],
+    "launch-ok-oklahoma-city-lake-hefner-park": [],
+    "launch-tx-fort-worth-trinity-park": [
+      {
+        "name": "Forest Park Miniature Railroad Trinity Park Depot",
+        "latitude": 32.7373363,
+        "longitude": -97.3597529,
+        "coordinateSource": "https://www.openstreetmap.org/way/200335325",
+        "positionQuality": "reviewed-named-public-map-depot-centroid",
+        "checkedAt": "2026-08-10",
+        "imageIndex": 0,
+        "sourceLabel": "Forest Park Miniature Railroad",
+        "source": "https://forestparktrains.com/hours-admission",
+        "officialMapSource": "https://www.fortworthtexas.gov/departments/parks/parks-and-trails/trinity-park",
+        "summary": "The Trinity Park Depot is the north boarding platform for the Forest Park Miniature Railroad, a weather-dependent five-mile family train ride that crosses the Trinity River, follows the park corridor, and includes a midway snack stop.",
+        "cost": "Current operator pricing is $10 for riders age 13 and older, $8 for children ages 2-12 and seniors age 65 and older, and free for children age 1 and younger. Tickets use ride credits purchased at an on-site kiosk; food at the Trinity Park Snack Shack is paid separately and train credits are not accepted there.",
+        "hours": "The railroad operates seasonally and is weather dependent. The current regular schedule lists Sunday and Wednesday-Saturday from 10:00 a.m.-5:00 p.m., with Monday and Tuesday closed, but the live operating calendar controls and heat, wind, rain, maintenance, or events can shorten or cancel service.",
+        "needToKnow": "Check the operator's live calendar on the day of the trip and arrive about 15 minutes before the desired departure. Trains normally leave hourly, seats are first come, and the roughly 45-60 minute ride includes a midpoint stop. The Trinity Park Depot is distinct from the main Forest Park depot at 1700 Colonial Parkway; use this exact depot pin, and use the main depot if you need the operator's primary ticket-and-arrival location. Kiosks accept cash, major cards other than American Express and Discover, and tap payments. Do not rely on the train as transportation back to a parked car because weather or maintenance can end service early.",
+        "answers": {
+          "parking": "Route to the named Trinity Park Depot at 2001 University Drive and use only signed park spaces that are open on arrival. Do not route to the railroad's main Forest Park depot at 1700 Colonial Parkway unless that is where you intend to board. Trinity Park events and University Drive closures can change the final approach, so follow current signs and never leave a vehicle on grass, trail shoulders, or railroad access areas.",
+          "restroom": "The railroad operator lists a Trinity Park Snack Shack at the midpoint platform but does not promise a public restroom at this depot. Trinity Park has restrooms in selected developed areas, yet schedules and events can limit them. Identify an open restroom before boarding, especially with children, because the ride normally lasts 45-60 minutes.",
+          "accessibility": "The operator's current visitor pages do not document wheelchair boarding dimensions, transfer requirements, securement, or step-free access for the train cars. Contact the railroad before a mobility-sensitive trip rather than assuming the paved depot approach makes the ride accessible. The City can address access to Trinity Park itself, but the separately operated train controls boarding.",
+          "dogs": "Fort Worth permits leashed dogs in Trinity Park, but the railroad operator does not publish a general pet-boarding policy on its current visitor pages. Do not assume a non-service animal can board; contact the operator before arriving and be prepared to enjoy the park without taking the train.",
+          "family": "This is a family attraction, but plan for a 45-60 minute seated ride, hourly departures, first-come capacity, a midway stop, outdoor weather exposure, and possible same-day cancellation. Children age 1 and younger currently ride free; ages 2-12 use the child fare. Arrive early enough for tickets and a restroom stop rather than promising a particular departure."
+        }
+      },
+      {
+        "name": "Trinity Park Duck Pond",
+        "osm": "way/595204446",
+        "checkedAt": "2026-08-10",
+        "imageIndex": 1,
+        "sourceLabel": "Fort Worth Park and Recreation Department",
+        "source": "https://www.fortworthtexas.gov/departments/parks/parks-and-trails/trinity-park",
+        "summary": "Trinity Park Duck Pond is the park's named two-acre pond and wildlife-viewing stop, bordered by a walking path, mature trees, nearby parking, and the miniature railroad route.",
+        "cost": "Visiting the duck pond, using the surrounding path, and ordinary Trinity Park parking are free. Train rides, food, reserved facilities, events, and nearby attractions can cost separately.",
+        "hours": "The pond follows Trinity Park's daily 5:00 a.m.-10:00 p.m. hours. Flooding, high water, maintenance, Mayfest setup, road controls, or other park events can close the immediate area even when another portion of Trinity Park remains open.",
+        "needToKnow": "Use the exact pond pin rather than Trinity Park's general University Drive address because the park is long. Fort Worth specifically asks visitors not to feed waterfowl; bread and processed food can malnourish birds and contribute to deformities. The pond is for viewing, not swimming or wading, and it has open water, damp edges, and limited barriers, so keep children and leashed dogs close. Expect seasonal waterfowl in winter, but never promise a particular species or wildlife sighting.",
+        "answers": {
+          "parking": "Use the exact Duck Pond pin and the nearest open designated Trinity Park parking rather than the park's general University Drive address. Spaces and road access can change during Mayfest, runs, construction, flooding, or other events. Do not park on grass, paths, railroad access, or the pond edge.",
+          "restroom": "Fort Worth lists restrooms in Trinity Park's developed areas but does not promise that a restroom immediately beside the Duck Pond will be open throughout park hours. Identify the nearest open facility before settling in, especially during events or with children.",
+          "accessibility": "A path borders the pond, but the City page does not document a complete step-free pond circuit, exact surface conditions, slopes, curb transitions, or accessible seating at every side. Use the exact pin, inspect the approach on arrival, and avoid treating the general park trail listing as a guarantee that every shoreline viewpoint is accessible.",
+          "dogs": "Leashed dogs are allowed in Trinity Park. Keep dogs back from the pond edge and waterfowl, prevent chasing or entering the water, remove waste, and leave if wildlife or crowding makes control difficult. The pond is not an off-leash or dog-swimming area.",
+          "family": "The free pond stop can work well for a short wildlife walk, but it is open water rather than a playground. Keep children within reach near the edge, do not feed birds, do not enter the water, and pair the visit with Dream Park only if that separately located playground is open and fits the day's route."
+        }
+      }
+    ],
+    "launch-tx-fort-worth-fort-worth-water-gardens": [
+      {
+        "name": "Active Pool",
+        "osm": "way/178593520",
+        "imageIndex": 0,
+        "sourceLabel": "Fort Worth Park and Recreation Department",
+        "source": "https://www.fortworthtexas.gov/departments/parks/parks-and-trails/water-gardens",
+        "summary": "The Active Pool is the Water Gardens' dramatic 38-foot-deep architectural basin, reached visually by descending table-topped steps beside rushing water.",
+        "cost": "General admission to Fort Worth Water Gardens and viewing the Active Pool are free; permitted private events and nearby parking can cost separately.",
+        "hours": "The Active Pool follows the Water Gardens' daily 6:00 a.m.-10:00 p.m. schedule unless maintenance, weather, a permitted event, or a safety closure restricts access.",
+        "needToKnow": "Swimming and wading are prohibited throughout the Water Gardens. The Active Pool approach is steep, wet, noisy, and visually disorienting for some visitors; use the upper viewpoints if stairs, balance, spray, or close supervision are concerns, and never cross barriers or enter the water."
+      },
+      {
+        "name": "Quiet Pool",
+        "osm": "way/178593522",
+        "imageIndex": 2,
+        "sourceLabel": "Fort Worth Park and Recreation Department",
+        "source": "https://www.fortworthtexas.gov/departments/parks/parks-and-trails/water-gardens",
+        "summary": "The Quiet Pool is a shaded, recessed reflecting pool framed by tall cypress trees and water walls near the Water Gardens' northwest entrance.",
+        "cost": "General admission to Fort Worth Water Gardens and viewing the Quiet Pool are free; permitted private events and nearby parking can cost separately.",
+        "hours": "The Quiet Pool follows the Water Gardens' daily 6:00 a.m.-10:00 p.m. schedule unless maintenance, weather, a permitted event, or a safety closure restricts access.",
+        "needToKnow": "Swimming and wading are prohibited, even though the setting is calm. Expect hard surfaces, steps, damp areas, and limited sightlines below street level; use the exact pin, keep children close, and follow posted barriers or maintenance closures."
+      },
+      {
+        "name": "Aerated Pool",
+        "latitude": 32.74809722,
+        "longitude": -97.32665833,
+        "coordinateSource": "https://commons.wikimedia.org/w/index.php?curid=49439979",
+        "officialMapSource": "https://www.fortworthtexas.gov/departments/parks/parks-and-trails/water-gardens",
+        "positionQuality": "reviewed-geotagged-destination-photo",
+        "checkedAt": "2026-08-10",
+        "imageIndex": 1,
+        "sourceLabel": "Fort Worth Park and Recreation Department",
+        "source": "https://www.fortworthtexas.gov/departments/parks/parks-and-trails/water-gardens",
+        "summary": "The Aerated Pool is the Water Gardens' misting fountain basin, where forty nozzles send spray upward from ground level near the park's north side.",
+        "cost": "General admission to Fort Worth Water Gardens and viewing the Aerated Pool are free. Downtown parking, permitted private events, and nearby attractions can cost separately.",
+        "hours": "The Aerated Pool follows the Water Gardens' daily 6:00 a.m.-10:00 p.m. schedule unless maintenance, weather, a permitted event, or a safety closure restricts access. The posted park schedule does not guarantee that every fountain is operating throughout the day.",
+        "needToKnow": "This is an architectural fountain for viewing, not a splash pad or swimming pool. Fort Worth prohibits swimming and wading throughout the Water Gardens. Spray and wind can make the surrounding hardscape damp, and maintenance can leave a water feature temporarily inactive, so use the exact pin, remain on designated dry walkways, and follow barriers or on-site instructions.",
+        "answers": {
+          "accessibility": "The City offers disability accommodations on request but does not publish a destination-specific step-free route, surface, slope, or viewing-area description for the Aerated Pool. Contact the City before an accommodation-sensitive visit and use the surrounding designated viewpoints rather than entering the fountain basin.",
+          "family": "The forty-nozzle fountain can be visually engaging, but it is not a splash pad and children may not enter the water. Expect spray, wet hardscape, fountain noise, and open architectural water nearby. Keep children close, choose a comfortable viewing distance, and do not promise that the fountain will be operating during maintenance or severe weather."
+        }
+      }
+    ]
+  },
+  "researchQueue": {
+    "launch-nm-albuquerque-balloon-fiesta-park": "Published North Launch Field from the official field map, current City access rules, and a destination-specific licensed field photograph. Secure exact off-event photo-and-pin pairs before publishing the North Diversion Channel Trail, Balloon Museum, Sid Cutter Pilots Pavilion, Golf Training Center, parking areas, gates, or restrooms as separate pages.",
+    "launch-nm-albuquerque-elena-gallegos-open-space": "Published Kiwanis Reservation Area from the official reservation map and rules plus an exactly geotagged licensed shelter photograph. Secure exact reusable photo-and-pin pairs before publishing Pino Trailhead, Cottonwood Springs Trail, the general picnic area, Double Shelter, restrooms, or overlooks as separate pages.",
+    "launch-nm-albuquerque-tingley-beach-and-bosque": "Published Central Pond from the exact mapped pond, current ABQ BioPark fishing guidance, and a licensed visitor photograph of the large pond. Secure exact reusable photo-and-pin pairs before publishing Children's Pond, Model Boat Pond, Bosque Trail, Tingley Beach Station, parking lots, or restrooms as separate pages.",
+    "launch-ok-oklahoma-city-scissortail-park": "Secure exact reusable photographs before publishing Scissortail Lake, playground, sprayground, Love's Stage, Sports Pavilion, dog park, Boathouse, restrooms, or additional gardens and event areas as separate pages.",
+    "launch-ok-oklahoma-city-myriad-botanical-gardens": "Published the Inasmuch Foundation Crystal Bridge Conservatory, Children's Garden, and Water Stage from exact named or geotagged locations, official visitor guidance, and destination-specific licensed photographs. Secure exact photo-and-pin pairs before adding Thunder Fountain separately, Mo's Carousel, Great Lawn, dog park, restrooms, or entrances.",
+    "launch-ok-oklahoma-city-lake-hefner-park": "Do not publish the East Wharf lighthouse as a Lake Hefner Park subsite: Oklahoma City states that it does not manage the lighthouse and the pin lies outside the reviewed park polygon. Secure exact public-access evidence, photographs, and pins before publishing trails, Stars and Stripes Park, marina, Hobie Point, Bluff Creek Park, playgrounds, dog areas, or restrooms.",
+    "launch-tx-fort-worth-trinity-park": "Published Forest Park Miniature Railroad Trinity Park Depot and Trinity Park Duck Pond from exact named map records, current operator or City guidance, and destination-matched geotagged licensed photographs. Secure an exact reusable Dream Park photograph before publishing the inclusive playground, and exact photo-and-pin pairs before adding Trinity Trails access points, the north playground, shelters, restrooms, or parking areas as separate pages.",
+    "launch-tx-fort-worth-fort-worth-water-gardens": "Published the Aerated Pool, Active Pool, and Quiet Pool from exact mapped or geotagged locations, current City guidance, and destination-specific licensed photographs. Secure exact reusable photo-and-pin pairs before publishing the Mountain, Central Square, Stage and Lawn, Wet Wall, entrances, or accessible viewing routes as separate pages."
+  }
+}

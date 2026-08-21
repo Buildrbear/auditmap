@@ -1,0 +1,21 @@
+{
+  "campaignId": "national-daily-discovery-v1",
+  "status": "approved-cohort",
+  "notes": "Ordered campaign cohort. Change place IDs only through an intentional campaign review; generation must never replace an unavailable destination automatically.",
+  "placeIds": [
+    "dix-park",
+    "launch-ny-new-york-city-central-park",
+    "launch-il-chicago-lincoln-park",
+    "launch-ca-san-diego-balboa-park",
+    "launch-pa-philadelphia-dilworth-park",
+    "launch-dc-washington-national-mall",
+    "launch-oh-columbus-battelle-darby-creek-metro-park",
+    "launch-ut-syracuse-antelope-island-state-park",
+    "launch-ri-providence-roger-williams-park",
+    "launch-fl-miami-bayfront-park",
+    "launch-mi-detroit-belle-isle-park",
+    "launch-az-phoenix-camelback-mountain",
+    "launch-ma-boston-arnold-arboretum",
+    "launch-tx-austin-ann-and-roy-butler-hike-and-bike-trail"
+  ]
+}

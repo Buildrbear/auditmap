@@ -1,0 +1,166 @@
+{
+  "title": "North Carolina Rollout Wave 1",
+  "updatedAt": "2026-08-03",
+  "status": "inventory-in-progress",
+  "standard": "Raleigh full-buildout model",
+  "cities": [
+    {
+      "name": "Charlotte",
+      "status": "seeded",
+      "officialInventory": "https://parkandrec.mecknc.gov/Places-to-Visit/Parks",
+      "destinations": [
+        { "name": "Freedom Park", "tier": "anchor", "status": "seeded" },
+        { "name": "Romare Bearden Park", "tier": "anchor", "status": "seeded" },
+        { "name": "Reedy Creek Park and Nature Center", "tier": "anchor", "status": "seeded" },
+        { "name": "McAlpine Creek Community Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued" },
+        { "name": "Park Road Park", "tier": "anchor", "status": "full-page", "imageStatus": "complete" },
+        { "name": "Hornets Nest Park", "tier": "supporting", "status": "not-started" },
+        { "name": "Renaissance Park", "tier": "supporting", "status": "not-started" },
+        { "name": "Little Sugar Creek Greenway", "tier": "anchor", "status": "full-page", "imageStatus": "complete" },
+        { "name": "First Ward Park", "tier": "supporting", "status": "not-started" }
+      ]
+    },
+    {
+      "name": "Greensboro",
+      "status": "inventory-ready",
+      "officialInventory": "https://www.greensboro-nc.gov/departments/parks-recreation/parks-gardens/",
+      "destinations": [
+        { "name": "Country Park", "tier": "anchor", "status": "full-page", "imageStatus": "partial" },
+        { "name": "Battleground Parks District", "tier": "anchor", "status": "full-page", "imageStatus": "queued" },
+        { "name": "LeBauer Park", "tier": "anchor", "status": "full-page", "imageStatus": "partial" },
+        { "name": "Center City Park", "tier": "supporting", "status": "not-started" },
+        { "name": "Greensboro Arboretum", "tier": "anchor", "status": "full-page", "imageStatus": "partial" },
+        { "name": "Bog Garden at Benjamin Park", "tier": "anchor", "status": "full-page", "imageStatus": "partial" },
+        { "name": "Tanger Family Bicentennial Garden", "tier": "anchor", "status": "full-page", "imageStatus": "complete" },
+        { "name": "Gateway Gardens", "tier": "supporting", "status": "not-started" },
+        { "name": "Keeley Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued" },
+        { "name": "Barber Park", "tier": "supporting", "status": "not-started" },
+        { "name": "Bryan Park", "tier": "supporting", "status": "not-started" },
+        { "name": "Price Park", "tier": "supporting", "status": "not-started" },
+        { "name": "Atlantic and Yadkin Greenway", "tier": "anchor", "status": "full-page", "imageStatus": "queued", "verifyAlert": true },
+        { "name": "Greensboro Downtown Greenway", "tier": "anchor", "status": "full-page", "imageStatus": "partial" }
+      ]
+    },
+    {
+      "name": "Durham",
+      "status": "inventory-ready",
+      "officialInventory": "https://www.dprplaymore.org/159/All-Parks",
+      "destinations": [
+        { "name": "West Point on the Eno", "tier": "anchor", "status": "full-page", "imageStatus": "partial", "verifyAlert": true },
+        { "name": "Durham Central Park", "tier": "anchor", "status": "full-page", "imageStatus": "partial" },
+        { "name": "Forest Hills Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued", "verifyAlert": true },
+        { "name": "Rock Quarry Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued", "verifyAlert": true },
+        { "name": "Duke Park", "tier": "supporting", "status": "not-started" },
+        { "name": "Northgate Park", "tier": "supporting", "status": "not-started" },
+        { "name": "Sandy Creek Park", "tier": "supporting", "status": "not-started" },
+        { "name": "Southern Boundaries Park", "tier": "supporting", "status": "not-started" },
+        { "name": "Leigh Farm Park", "tier": "anchor", "status": "full-page", "imageStatus": "partial" },
+        { "name": "Lake Michie Park and Marina", "tier": "anchor", "status": "full-page", "imageStatus": "queued", "verifyAlert": true },
+        { "name": "Little River Park and Marina", "tier": "supporting", "status": "not-started", "verifyAlert": true },
+        { "name": "American Tobacco Trail", "tier": "anchor", "status": "full-page", "imageStatus": "partial" }
+      ]
+    },
+    {
+      "name": "Winston-Salem",
+      "status": "inventory-ready",
+      "officialInventory": "https://www.cityofws.org/854/Recreation-Parks",
+      "destinations": [
+        { "name": "Salem Lake Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued" },
+        { "name": "The Quarry at Grant Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued" },
+        { "name": "Hanes Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued", "verifyAlert": true },
+        { "name": "Washington Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued" },
+        { "name": "Miller Park", "tier": "supporting", "status": "not-started" },
+        { "name": "Tanglewood Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued", "jurisdiction": "Forsyth County", "canonicalCity": "Clemmons" },
+        { "name": "Winston Lake Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued" },
+        { "name": "Jamison Park", "tier": "supporting", "status": "not-started" },
+        { "name": "Hobby Park", "tier": "supporting", "status": "not-started" },
+        { "name": "Long Creek Park", "tier": "supporting", "status": "not-started" },
+        { "name": "Muddy Creek Greenway", "tier": "anchor", "status": "full-page", "imageStatus": "queued" },
+        { "name": "Salem Creek Greenway", "tier": "anchor", "status": "full-page", "imageStatus": "queued", "verifyAlert": true }
+      ]
+    },
+    {
+      "name": "Fayetteville",
+      "status": "inventory-ready",
+      "officialInventory": "https://www.fayettevillenc.gov/Parks-and-Recreation/Parks-Trails",
+      "destinations": [
+        { "name": "J. Bayard Clark Park and Nature Center", "tier": "anchor", "status": "full-page", "imageStatus": "queued" },
+        { "name": "Cape Fear River Trail", "tier": "anchor", "status": "full-page", "imageStatus": "queued" },
+        { "name": "Lake Rim Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued" },
+        { "name": "Festival Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued" },
+        { "name": "Cross Creek Linear Park", "tier": "supporting", "status": "not-started" },
+        { "name": "Mazarick Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued" },
+        { "name": "Rowan Skate Park", "tier": "supporting", "status": "not-started" },
+        { "name": "Riverside Dog Park", "tier": "supporting", "status": "not-started" },
+        { "name": "Bailey Lake Dog Park", "tier": "supporting", "status": "not-started" },
+        { "name": "Westover Dog Park", "tier": "supporting", "status": "not-started" }
+      ]
+    },
+    {
+      "name": "Cary",
+      "status": "seeded",
+      "officialInventory": "https://www.carync.gov/recreation-enjoyment/parks-greenways-environment/parks",
+      "destinations": [
+        { "name": "Downtown Cary Park", "tier": "anchor", "status": "full-page" },
+        { "name": "Fred G. Bond Metro Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued" },
+        { "name": "Hemlock Bluffs Nature Preserve", "tier": "anchor", "status": "full-page", "imageStatus": "queued", "verifyAlert": true },
+        { "name": "Jack Smith Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued", "verifyAlert": true },
+        { "name": "Marla Dorrel Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued", "verifyAlert": true },
+        { "name": "Carpenter Park", "tier": "supporting", "status": "not-started" },
+        { "name": "Mills Park", "tier": "supporting", "status": "not-started" },
+        { "name": "Black Creek Greenway", "tier": "anchor", "status": "full-page", "imageStatus": "queued", "verifyAlert": true },
+        { "name": "Cary Dog Park", "tier": "supporting", "status": "not-started" }
+      ]
+    },
+    {
+      "name": "Wilmington",
+      "status": "inventory-ready",
+      "officialInventory": "https://www.wilmingtonnc.gov/Parks-Recreation/Parks-Trails",
+      "destinations": [
+        { "name": "Greenfield Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued" },
+        { "name": "Wilmington Riverwalk", "tier": "anchor", "status": "full-page", "imageStatus": "queued", "verifyAlert": true },
+        { "name": "Long Leaf Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued", "jurisdiction": "New Hanover County" },
+        { "name": "Halyburton Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued", "verifyAlert": true },
+        { "name": "Empie Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued", "verifyAlert": true },
+        { "name": "Ogden Park", "tier": "supporting", "status": "not-started", "jurisdiction": "New Hanover County" },
+        { "name": "Hugh MacRae Park", "tier": "alias", "status": "redirect-to-long-leaf-park" },
+        { "name": "Gary Shell Cross-City Trail", "tier": "anchor", "status": "full-page", "imageStatus": "queued" },
+        { "name": "Wade Park", "tier": "supporting", "status": "not-started" },
+        { "name": "Riverfront Park", "tier": "supporting", "status": "not-started" }
+      ]
+    },
+    {
+      "name": "Concord",
+      "status": "inventory-ready",
+      "officialInventory": "https://concordnc.gov/Departments/Parks-Recreation/Parks",
+      "destinations": [
+        { "name": "James L. Dorton Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued" },
+        { "name": "Les Myers Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued" },
+        { "name": "Weddington Road Bark Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued" },
+        { "name": "J.W. Mickey McGee Park", "tier": "supporting", "status": "not-started" },
+        { "name": "Beverly Hills Park", "tier": "supporting", "status": "not-started" },
+        { "name": "Hartsell Park", "tier": "supporting", "status": "not-started", "verifyAlert": true },
+        { "name": "McEachern Greenway", "tier": "anchor", "status": "full-page", "imageStatus": "queued", "verifyAlert": true },
+        { "name": "Brown Mill Mountain Bike Trail Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued", "verifyAlert": true },
+        { "name": "Lake Fisher", "tier": "anchor", "status": "full-page", "imageStatus": "queued", "verifyAlert": true }
+      ]
+    },
+    {
+      "name": "High Point",
+      "status": "inventory-ready",
+      "officialInventory": "https://www.highpointnc.gov/572/Parks",
+      "destinations": [
+        { "name": "High Point City Lake Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued", "verifyAlert": true },
+        { "name": "Piedmont Environmental Center", "tier": "anchor", "status": "full-page", "imageStatus": "queued" },
+        { "name": "Oak Hollow Park", "tier": "anchor", "status": "full-page", "imageStatus": "queued", "verifyAlert": true },
+        { "name": "High Point Greenway", "tier": "anchor", "status": "full-page", "imageStatus": "queued" },
+        { "name": "Bicentennial Greenway", "tier": "anchor", "status": "full-page", "imageStatus": "queued", "verifyAlert": true },
+        { "name": "Hedgecock Park and Dog Park", "tier": "supporting", "status": "not-started" },
+        { "name": "Armstrong Park", "tier": "supporting", "status": "not-started" },
+        { "name": "University Park", "tier": "supporting", "status": "not-started" },
+        { "name": "Johnson Street Sports Complex", "tier": "supporting", "status": "not-started" },
+        { "name": "High Point Athletic Complex", "tier": "supporting", "status": "not-started" }
+      ]
+    }
+  ]
+}

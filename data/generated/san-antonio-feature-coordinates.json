@@ -1,0 +1,405 @@
+{
+  "checkedAt": "2026-08-06",
+  "places": {
+    "launch-tx-san-antonio-brackenridge-park": {
+      "japanese-tea-garden": {
+        "latitude": 29.4613259,
+        "longitude": -98.4769396,
+        "displayName": "Japanese Tea Garden, San Antonio, Bexar County, Texas, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "san-antonio-zoo": {
+        "latitude": 29.4637887,
+        "longitude": -98.4724214,
+        "displayName": "San Antonio Zoo, 3903, North Saint Mary's Street, San Antonio, Bexar County, Texas, 78212, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "san-antonio-zoo-eagle-train": {
+        "latitude": 29.46308,
+        "longitude": -98.47396,
+        "displayName": "Reviewed San Antonio Zoo Eagle train station placement",
+        "source": "AuditMap review of official Brackenridge Park and zoo maps"
+      },
+      "brackenridge-park-river-trails": {
+        "latitude": 29.45883,
+        "longitude": -98.47482,
+        "displayName": "Reviewed point on the San Antonio River trails through Brackenridge Park",
+        "source": "AuditMap review of the official Brackenridge Park map"
+      },
+      "sunken-garden-theater": {
+        "latitude": 29.4609178,
+        "longitude": -98.478372,
+        "displayName": "Sunken Garden Theater, Alpine, San Antonio, Bexar County, Texas, 78212, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "lambert-beach": {
+        "latitude": 29.45716,
+        "longitude": -98.47611,
+        "displayName": "Reviewed historic Lambert Beach area along the river",
+        "source": "AuditMap review of the official Brackenridge Park map"
+      },
+      "lions-field-playground": {
+        "latitude": 29.45612,
+        "longitude": -98.47289,
+        "displayName": "Reviewed Lions Field playground placement",
+        "source": "AuditMap review of official and public park maps"
+      },
+      "witte-museum": {
+        "latitude": 29.4619955,
+        "longitude": -98.4671185,
+        "displayName": "The Witte Museum, 3801, Broadway, San Antonio, Bexar County, Texas, 78209, United States",
+        "source": "OpenStreetMap Nominatim"
+      }
+    },
+    "launch-tx-san-antonio-hemisfair": {
+      "yanaguana-garden": {
+        "latitude": 29.4191825,
+        "longitude": -98.4877304,
+        "displayName": "Yanaguana Garden, Downtown, San Antonio, Bexar County, Texas, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "hemisfair-splash-pad": {
+        "latitude": 29.41909,
+        "longitude": -98.48745,
+        "displayName": "Reviewed Hemisfair splash pad within Yanaguana Garden",
+        "source": "AuditMap review of the official Hemisfair map"
+      },
+      "civic-park-great-lawn": {
+        "latitude": 29.4189,
+        "longitude": -98.48427,
+        "displayName": "Reviewed Civic Park Great Lawn placement",
+        "source": "AuditMap review of the official Hemisfair map"
+      },
+      "civic-park-springs": {
+        "latitude": 29.41867,
+        "longitude": -98.48374,
+        "displayName": "Reviewed Civic Park Springs placement",
+        "source": "AuditMap review of the official Hemisfair map"
+      },
+      "tower-park-basketball-court": {
+        "latitude": 29.42023,
+        "longitude": -98.48279,
+        "displayName": "Reviewed Tower Park basketball court placement",
+        "source": "AuditMap review of the official Hemisfair map"
+      },
+      "hemisfair-sand-play-area": {
+        "latitude": 29.41943,
+        "longitude": -98.48691,
+        "displayName": "Reviewed Yanaguana Garden sand-play area",
+        "source": "AuditMap review of the official Hemisfair map"
+      },
+      "hemisfair-public-art-walk": {
+        "latitude": 29.41938,
+        "longitude": -98.48526,
+        "displayName": "Reviewed point on the Hemisfair public-art walk",
+        "source": "AuditMap review of the official Hemisfair map"
+      },
+      "hemisfair-restaurants-and-historic-houses": {
+        "latitude": 29.41991,
+        "longitude": -98.48613,
+        "displayName": "Reviewed historic-house and restaurant area in Hemisfair",
+        "source": "AuditMap review of the official Hemisfair map"
+      }
+    },
+    "launch-tx-san-antonio-phil-hardberger-park": {
+      "robert-l-b-tobin-land-bridge": {
+        "latitude": 29.558793,
+        "longitude": -98.5246375,
+        "displayName": "Robert L.B. Tobin Land Bridge, Wurzbach Parkway, San Antonio, Bexar County, Texas, 78231, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "hardberger-park-skywalk": {
+        "latitude": 29.55972,
+        "longitude": -98.52394,
+        "displayName": "Reviewed Skywalk placement near the Land Bridge",
+        "source": "AuditMap review of the official Phil Hardberger Park map"
+      },
+      "hardberger-park-east-dog-park": {
+        "latitude": 29.56302,
+        "longitude": -98.51888,
+        "displayName": "Reviewed east-side dog park placement near Blanco Road",
+        "source": "AuditMap review of the official Phil Hardberger Park map"
+      },
+      "hardberger-park-west-dog-park": {
+        "latitude": 29.55047,
+        "longitude": -98.53146,
+        "displayName": "Reviewed west-side dog park placement near NW Military Highway",
+        "source": "AuditMap review of the official Phil Hardberger Park map"
+      },
+      "hardberger-park-east-playground": {
+        "latitude": 29.56235,
+        "longitude": -98.51965,
+        "displayName": "Reviewed east-side playground placement",
+        "source": "AuditMap review of the official Phil Hardberger Park map"
+      },
+      "hardberger-park-west-playground": {
+        "latitude": 29.54955,
+        "longitude": -98.53055,
+        "displayName": "Reviewed west-side playground placement",
+        "source": "AuditMap review of the official Phil Hardberger Park map"
+      },
+      "urban-ecology-center": {
+        "latitude": 29.5529933,
+        "longitude": -98.5292761,
+        "displayName": "Urban Ecology Center, Savanna Loop Trail, San Antonio, Bexar County, Texas, 78231, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "salado-creek-greenway-connection": {
+        "latitude": 29.56031,
+        "longitude": -98.51667,
+        "displayName": "Reviewed Salado Creek Greenway connection on the east side",
+        "source": "AuditMap review of official park and greenway maps"
+      }
+    },
+    "launch-tx-san-antonio-san-antonio-river-walk": {
+      "downtown-river-walk-loop": {
+        "latitude": 29.42452,
+        "longitude": -98.49017,
+        "displayName": "Reviewed central point on the downtown River Walk loop",
+        "source": "AuditMap review of the official River Walk map"
+      },
+      "museum-reach": {
+        "latitude": 29.4383941,
+        "longitude": -98.4820506,
+        "displayName": "San Antonio River Walk - Museum Reach, Downtown, San Antonio, Bexar County, Texas, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "mission-reach": {
+        "latitude": 29.3616685,
+        "longitude": -98.4693622,
+        "displayName": "San Antonio River Walk - Mission Reach, San Antonio, Bexar County, Texas, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "river-walk-arneson-river-theatre": {
+        "latitude": 29.42283,
+        "longitude": -98.48902,
+        "displayName": "Reviewed Arneson River Theatre placement",
+        "source": "AuditMap review of the official River Walk map"
+      },
+      "river-walk-shops-at-rivercenter-access": {
+        "latitude": 29.42342,
+        "longitude": -98.48488,
+        "displayName": "Reviewed river-level access at Shops at Rivercenter",
+        "source": "AuditMap review of official and public downtown maps"
+      },
+      "river-walk-pearl-access": {
+        "latitude": 29.44211,
+        "longitude": -98.47992,
+        "displayName": "Reviewed River Walk access at Pearl",
+        "source": "AuditMap review of official River Walk and Museum Reach maps"
+      },
+      "river-walk-boat-landings": {
+        "latitude": 29.42404,
+        "longitude": -98.48988,
+        "displayName": "Reviewed downtown River Walk boat-landing area",
+        "source": "AuditMap review of official and public River Walk maps"
+      },
+      "river-walk-public-art-and-grotto": {
+        "latitude": 29.44061,
+        "longitude": -98.48246,
+        "displayName": "The Grotto by Carlos Cortes on Museum Reach",
+        "source": "OpenStreetMap Nominatim"
+      }
+    },
+    "launch-tx-san-antonio-san-antonio-missions-national-historical-park": {
+      "mission-concepcion": {
+        "latitude": 29.3910788,
+        "longitude": -98.4911264,
+        "displayName": "Mission Concepcion, Felisa Street, San Antonio, Bexar County, Texas, 78210, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "mission-san-jose": {
+        "latitude": 29.3623511,
+        "longitude": -98.4798083,
+        "displayName": "Mission San José, San Jose Drive, San Antonio, Bexar County, Texas, 78214, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "mission-san-juan-capistrano": {
+        "latitude": 29.3329799,
+        "longitude": -98.4553364,
+        "displayName": "Mission San Juan Capistrano, Yanaguana Trail, Berg's Mill, San Antonio, Bexar County, Texas, 78235, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "mission-espada": {
+        "latitude": 29.3182024,
+        "longitude": -98.451175,
+        "displayName": "Mission San Francisco de la Espada, River Walk, San Antonio, Bexar County, Texas, 78235, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "mission-reach-trail": {
+        "latitude": 29.36167,
+        "longitude": -98.46936,
+        "displayName": "Reviewed Mission Reach trail reference point near Mission San Jose",
+        "source": "OpenStreetMap and AuditMap review of the official NPS map"
+      },
+      "espada-aqueduct": {
+        "latitude": 29.3329,
+        "longitude": -98.46159,
+        "displayName": "Mission San Francisco de la Espada Dam, Ditch and Aqueduct, Ashley Road, San Antonio, Bexar County, Texas, 78235, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "mission-san-jose-visitor-center": {
+        "latitude": 29.36276,
+        "longitude": -98.47942,
+        "displayName": "Mission San Jose Visitor Center, 6701 San Jose Drive",
+        "source": "AuditMap review of National Park Service directions and site map"
+      },
+      "san-juan-nature-trail": {
+        "latitude": 29.33196,
+        "longitude": -98.45613,
+        "displayName": "Reviewed San Juan Nature Trail beside Mission San Juan",
+        "source": "AuditMap review of the National Park Service Mission San Juan map"
+      }
+    },
+    "launch-tx-san-antonio-san-pedro-springs-park": {
+      "san-pedro-springs-pool": {
+        "latitude": 29.44735,
+        "longitude": -98.50161,
+        "displayName": "San Pedro Springs Pool at 2200 North Flores",
+        "source": "AuditMap review of the City of San Antonio pool address and park map"
+      },
+      "san-pedro-springs": {
+        "latitude": 29.4471329,
+        "longitude": -98.5016586,
+        "displayName": "San Pedro Spring, Theater Drive, Alta Vista, Midtown, San Antonio, Bexar County, Texas, 78212, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "san-pedro-springs-gazebo": {
+        "latitude": 29.4469,
+        "longitude": -98.50084,
+        "displayName": "Reviewed San Pedro Springs gazebo placement",
+        "source": "AuditMap review of official and public park maps"
+      },
+      "san-pedro-springs-playground": {
+        "latitude": 29.44625,
+        "longitude": -98.50072,
+        "displayName": "Reviewed San Pedro Springs playground placement",
+        "source": "AuditMap review of official and public park maps"
+      },
+      "san-pedro-springs-skate-plaza": {
+        "latitude": 29.44591,
+        "longitude": -98.50235,
+        "displayName": "Reviewed San Pedro Springs skate plaza placement",
+        "source": "AuditMap review of official and public park maps"
+      },
+      "mcfarlin-tennis-center": {
+        "latitude": 29.4479763,
+        "longitude": -98.5007799,
+        "displayName": "McFarlin Tennis Center, Theater Drive, Alta Vista, Midtown, San Antonio, Bexar County, Texas, 78212, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "san-pedro-playhouse": {
+        "latitude": 29.44823,
+        "longitude": -98.5025556,
+        "displayName": "San Pedro Playhouse, Theater Drive, Alta Vista, Midtown, San Antonio, Bexar County, Texas, 78212, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "san-pedro-library": {
+        "latitude": 29.4464859,
+        "longitude": -98.4998749,
+        "displayName": "San Pedro Library, 1315, San Pedro Avenue, Midtown, San Antonio, Bexar County, Texas, 78212, United States",
+        "source": "OpenStreetMap Nominatim"
+      }
+    },
+    "launch-tx-san-antonio-pearsall-park": {
+      "pearsall-park-splash-pads": {
+        "latitude": 29.35247,
+        "longitude": -98.59215,
+        "displayName": "Reviewed Pearsall Park splash-pad placement",
+        "source": "AuditMap review of the official Pearsall Park map"
+      },
+      "pearsall-park-playground": {
+        "latitude": 29.35283,
+        "longitude": -98.59263,
+        "displayName": "Reviewed Pearsall Park destination playground",
+        "source": "AuditMap review of the official Pearsall Park map"
+      },
+      "pearsall-park-skate-park": {
+        "latitude": 29.35064,
+        "longitude": -98.59407,
+        "displayName": "Reviewed Pearsall Park skate park placement",
+        "source": "AuditMap review of the official Pearsall Park map"
+      },
+      "pearsall-park-dog-park": {
+        "latitude": 29.34966,
+        "longitude": -98.59541,
+        "displayName": "Reviewed Pearsall Park dog park placement",
+        "source": "AuditMap review of the official Pearsall Park map"
+      },
+      "pearsall-park-disc-golf-course": {
+        "latitude": 29.3545996,
+        "longitude": -98.5936549,
+        "displayName": "Pearsall Park Disc Golf Course, Leon Creek Greenway Trail, San Antonio, Bexar County, Texas, 78242, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "pearsall-park-5k-trail": {
+        "latitude": 29.35411,
+        "longitude": -98.59616,
+        "displayName": "Reviewed point on a Pearsall Park 5K route",
+        "source": "AuditMap review of the official Pearsall Park trail map"
+      },
+      "pearsall-park-sprint-timer": {
+        "latitude": 29.35195,
+        "longitude": -98.59314,
+        "displayName": "Reviewed 40-yard sprint-timer fitness area",
+        "source": "AuditMap review of the official Pearsall Park map"
+      },
+      "wickiup-overlook": {
+        "latitude": 29.35612,
+        "longitude": -98.59475,
+        "displayName": "Reviewed Wickiup Overlook placement",
+        "source": "AuditMap review of the official Pearsall Park map"
+      }
+    },
+    "launch-tx-san-antonio-woodlawn-lake-park": {
+      "woodlawn-lake-walking-trail": {
+        "latitude": 29.45218,
+        "longitude": -98.53324,
+        "displayName": "Reviewed north-shore point on the Woodlawn Lake walking trail",
+        "source": "AuditMap review of official and public park maps"
+      },
+      "woodlawn-lake-pool": {
+        "latitude": 29.45437,
+        "longitude": -98.53285,
+        "displayName": "Reviewed Woodlawn Lake Pool placement near Alexander Avenue",
+        "source": "AuditMap review of the City of San Antonio pool address and park map"
+      },
+      "woodlawn-lake-playground": {
+        "latitude": 29.45266,
+        "longitude": -98.52972,
+        "displayName": "Reviewed Woodlawn Lake playground placement",
+        "source": "AuditMap review of official and public park maps"
+      },
+      "woodlawn-lake-dog-park": {
+        "latitude": 29.4494266,
+        "longitude": -98.528245,
+        "displayName": "Woodlawn Lake Dog Park, Alazan Creek Greenway Trail, Woodlawn Lake, San Antonio, Bexar County, Texas, 78201, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "woodlawn-lake-lighthouse": {
+        "latitude": 29.4501374,
+        "longitude": -98.5336449,
+        "displayName": "Woodlawn Lake Lighthouse, Woodlawn Lake Trail, Woodlawn Lake, San Antonio, Bexar County, Texas, 78201, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "woodlawn-lake-island-house": {
+        "latitude": 29.452935,
+        "longitude": -98.5346694,
+        "displayName": "Woodlawn Lake Island House, Woodlawn Lake Trail, Woodlawn Lake, San Antonio, Bexar County, Texas, 78201, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "woodlawn-lake-gym": {
+        "latitude": 29.45341,
+        "longitude": -98.53142,
+        "displayName": "Reviewed Woodlawn Lake gym placement",
+        "source": "AuditMap review of official and public park maps"
+      },
+      "woodlawn-lake-fishing-areas": {
+        "latitude": 29.45084,
+        "longitude": -98.53259,
+        "displayName": "Reviewed public fishing area along Woodlawn Lake",
+        "source": "AuditMap review of official and public park maps"
+      }
+    }
+  }
+}

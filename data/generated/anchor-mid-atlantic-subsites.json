@@ -1,0 +1,314 @@
+{
+  "generatedAt": "2026-07-30T19:29:54.423Z",
+  "parks": [
+    {
+      "id": "launch-md-baltimore-druid-hill-park",
+      "name": "Druid Hill Park",
+      "city": "Baltimore",
+      "state": "MD",
+      "sourceBoundary": "https://www.openstreetmap.org/relation/12952969",
+      "features": [],
+      "reviewCandidates": [],
+      "discoveryError": "The operation was aborted due to timeout"
+    },
+    {
+      "id": "launch-dc-washington-national-mall",
+      "name": "National Mall",
+      "city": "Washington",
+      "state": "DC",
+      "sourceBoundary": "https://www.openstreetmap.org/relation/21064981",
+      "features": [],
+      "reviewCandidates": [],
+      "discoveryError": null
+    },
+    {
+      "id": "launch-va-richmond-james-river-park-system",
+      "name": "James River Park System",
+      "city": "Richmond",
+      "state": "VA",
+      "sourceBoundary": "https://www.openstreetmap.org/way/76314458",
+      "features": [
+        {
+          "id": "launch-va-richmond-james-river-park-system-abandoned-netherwood-quarry",
+          "slug": "abandoned-netherwood-quarry",
+          "name": "Abandoned Netherwood Quarry",
+          "feature_type": "landmark",
+          "description": "Abandoned Netherwood Quarry is a mapped landmark (ruins) within the park. Visitor details still require official-source review.",
+          "latitude": 37.5246562,
+          "longitude": -77.4752067,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/76314458",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/3103662460",
+          "verified_at": "2026-07-30",
+          "score": 88,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 3103662460,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          }
+        },
+        {
+          "id": "launch-va-richmond-james-river-park-system-abandoned-quarry-jf-aj-bradley-property",
+          "slug": "abandoned-quarry-jf-aj-bradley-property",
+          "name": "Abandoned Quarry (JF & AJ Bradley Property)",
+          "feature_type": "landmark",
+          "description": "Abandoned Quarry (JF & AJ Bradley Property) is a mapped landmark (ruins) within the park. Visitor details still require official-source review.",
+          "latitude": 37.5272987,
+          "longitude": -77.4818271,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/76314458",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/3103662459",
+          "verified_at": "2026-07-30",
+          "score": 88,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 3103662459,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          }
+        },
+        {
+          "id": "launch-va-richmond-james-river-park-system-abandoned-quarry-middendorf-quarry",
+          "slug": "abandoned-quarry-middendorf-quarry",
+          "name": "Abandoned Quarry (Middendorf Quarry)",
+          "feature_type": "landmark",
+          "description": "Abandoned Quarry (Middendorf Quarry) is a mapped landmark (ruins) within the park. Visitor details still require official-source review.",
+          "latitude": 37.5280695,
+          "longitude": -77.4833941,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/76314458",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/3103658235",
+          "verified_at": "2026-07-30",
+          "score": 88,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 3103658235,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          }
+        },
+        {
+          "id": "launch-va-richmond-james-river-park-system-abandoned-smith-quarry",
+          "slug": "abandoned-smith-quarry",
+          "name": "Abandoned Smith Quarry",
+          "feature_type": "landmark",
+          "description": "Abandoned Smith Quarry is a mapped landmark (ruins) within the park. Visitor details still require official-source review.",
+          "latitude": 37.5252135,
+          "longitude": -77.4759094,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/76314458",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/3104204300",
+          "verified_at": "2026-07-30",
+          "score": 88,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 3104204300,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          }
+        },
+        {
+          "id": "launch-va-richmond-james-river-park-system-jrps-22nd-st-parking",
+          "slug": "jrps-22nd-st-parking",
+          "name": "JRPS 22nd St Parking",
+          "feature_type": "parking",
+          "description": "JRPS 22nd St Parking is a mapped parking (parking) within the park. Visitor details still require official-source review.",
+          "latitude": 37.5240392,
+          "longitude": -77.4573822,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/76314458",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/76757257",
+          "verified_at": "2026-07-30",
+          "score": 60,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 76757257,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          }
+        },
+        {
+          "id": "launch-va-richmond-james-river-park-system-jrps-42nd-st-parking",
+          "slug": "jrps-42nd-st-parking",
+          "name": "JRPS 42nd St Parking",
+          "feature_type": "parking",
+          "description": "JRPS 42nd St Parking is a mapped parking (parking) within the park. Visitor details still require official-source review.",
+          "latitude": 37.5250915,
+          "longitude": -77.4767628,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/76314458",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/76761773",
+          "verified_at": "2026-07-30",
+          "score": 60,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 76761773,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          }
+        }
+      ],
+      "reviewCandidates": [],
+      "discoveryError": null
+    },
+    {
+      "id": "launch-va-norfolk-town-point-park",
+      "name": "Town Point Park",
+      "city": "Norfolk",
+      "state": "VA",
+      "sourceBoundary": "https://www.openstreetmap.org/way/400696215",
+      "features": [
+        {
+          "id": "launch-va-norfolk-town-point-park-homecoming",
+          "slug": "homecoming",
+          "name": "Homecoming",
+          "feature_type": "art",
+          "description": "Homecoming is a mapped art (artwork) within the park. Visitor details still require official-source review.",
+          "latitude": 36.8462681,
+          "longitude": -76.2942848,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/400696215"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/3283274166",
+          "verified_at": "2026-07-30",
+          "score": 98,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 3283274166,
+            "wikidata": "Q7740081",
+            "wikipedia": null,
+            "boundaryContained": true,
+            "rejectedImageTitles": [
+              "File:US Navy 020420-N-4374S-505 Naval Station Norfolk - Homecoming LPD 12.jpg"
+            ]
+          }
+        },
+        {
+          "id": "launch-va-norfolk-town-point-park-armed-forces-memorial",
+          "slug": "armed-forces-memorial",
+          "name": "Armed Forces Memorial",
+          "feature_type": "art",
+          "description": "Armed Forces Memorial is a mapped art (sculpture) within the park. Visitor details still require official-source review.",
+          "latitude": 36.8464477,
+          "longitude": -76.295715,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/400696215"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/3083729833",
+          "verified_at": "2026-07-30",
+          "score": 90,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 3083729833,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "rejectedImageTitles": [
+              "File:US Navy 051012-N-8720O-033 U.S. Marine Corps Sgt. Daniel Hersey, a trumpet player from the Armed Forces School of Music, plays Taps.jpg"
+            ]
+          }
+        },
+        {
+          "id": "launch-va-norfolk-town-point-park-waterwork",
+          "slug": "waterwork",
+          "name": "Waterwork",
+          "feature_type": "art",
+          "description": "Waterwork is a mapped art (artwork) within the park. Visitor details still require official-source review.",
+          "latitude": 36.8452807,
+          "longitude": -76.2933701,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/400696215",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/3283274185",
+          "verified_at": "2026-07-30",
+          "score": 90,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 3283274185,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          }
+        }
+      ],
+      "reviewCandidates": [],
+      "discoveryError": null
+    },
+    {
+      "id": "launch-va-virginia-beach-mount-trashmore-park",
+      "name": "Mount Trashmore Park",
+      "city": "Virginia Beach",
+      "state": "VA",
+      "sourceBoundary": "https://www.openstreetmap.org/relation/6066051",
+      "features": [],
+      "reviewCandidates": [],
+      "discoveryError": "The operation was aborted due to timeout"
+    }
+  ]
+}

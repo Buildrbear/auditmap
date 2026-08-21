@@ -1,0 +1,80 @@
+{
+  "campaign": "Northern New England connector",
+  "checkedAt": "2026-08-08",
+  "releaseStandard": "Four licensed destination-specific photos, preserved official visitor answers, full street addresses, and only named subsites with reviewed coordinates plus destination-specific photography.",
+  "places": [
+    {
+      "id": "launch-ri-providence-roger-williams-park",
+      "name": "Roger Williams Park",
+      "city": "Providence",
+      "state": "RI",
+      "citySlug": "providence-ri",
+      "operator": "City of Providence with Roger Williams Park Conservancy",
+      "source": "https://www.rwpconservancy.org/about/faq/",
+      "featureResearchRadiusMeters": 3000,
+      "imageQueries": ["Roger Williams Park Providence", "Roger Williams Park Temple to Music", "Roger Williams Park Botanical Center", "Roger Williams Park Japanese Garden"],
+      "subsites": ["Roger Williams Park Zoo", "Botanical Center", "Museum of Natural History and Planetarium", "Carousel Village", "Temple to Music", "Japanese Garden", "Rose Garden", "Boathouse"]
+    },
+    {
+      "id": "launch-ri-providence-india-point-park",
+      "name": "India Point Park",
+      "city": "Providence",
+      "state": "RI",
+      "citySlug": "providence-ri",
+      "operator": "City of Providence Parks Department",
+      "source": "https://www.providenceri.gov/parks/india-point-park/",
+      "featureResearchRadiusMeters": 2200,
+      "imageQueries": ["India Point Park Providence", "India Point Park pedestrian bridge", "India Point Park playground", "India Point Park waterfront"],
+      "subsites": ["India Point Park Pedestrian Bridge", "Playground", "Waterfront Promenade", "Event Lawn", "India Point Park Bridge", "East Bay Bike Path Connection"]
+    },
+    {
+      "id": "launch-me-portland-eastern-promenade",
+      "name": "Eastern Promenade",
+      "city": "Portland",
+      "state": "ME",
+      "citySlug": "portland-me",
+      "operator": "City of Portland Parks",
+      "source": "https://www.portlandmaine.gov/1222/5487/Eastern-Promenade",
+      "featureResearchRadiusMeters": 2600,
+      "imageQueries": ["Eastern Promenade Portland Maine", "East End Beach Portland Maine", "Fort Allen Park Portland Maine", "Eastern Promenade playground"],
+      "subsites": ["East End Beach", "Fort Allen Park", "Cutter Street Boat Launch", "Eastern Promenade Playground", "Loring Memorial", "Maine Narrow Gauge Railroad", "Eastern Promenade Trail"]
+    },
+    {
+      "id": "launch-me-portland-deering-oaks-park",
+      "name": "Deering Oaks Park",
+      "city": "Portland",
+      "state": "ME",
+      "citySlug": "portland-me",
+      "operator": "City of Portland Parks",
+      "source": "https://www.portlandmaine.gov/deering-oaks-park",
+      "featureResearchRadiusMeters": 1800,
+      "imageQueries": ["Deering Oaks Park Portland Maine", "Deering Oaks Park pond", "Deering Oaks playground splash pad", "Deering Oaks Castle"],
+      "subsites": ["Deering Oaks Pond", "The Castle", "Deering Oaks Playground", "Deering Oaks Splash Pad", "Farmers Market", "Deering Oaks Ravine"]
+    },
+    {
+      "id": "launch-vt-burlington-waterfront-park",
+      "name": "Waterfront Park",
+      "city": "Burlington",
+      "state": "VT",
+      "citySlug": "burlington-vt",
+      "operator": "City of Burlington Parks, Recreation and Waterfront",
+      "source": "https://www.burlingtonvt.gov/738/Waterfront",
+      "minimumImages": 3,
+      "featureResearchRadiusMeters": 1800,
+      "imageQueries": ["Burlington Waterfront Park Vermont", "Burlington Vermont waterfront Lake Champlain", "Burlington Greenway waterfront", "Burlington Community Boathouse"],
+      "subsites": ["Burlington Greenway", "Community Boathouse", "Waterfront Fishing Pier", "ECHO Leahy Center", "Waterfront Event Lawn", "Perkins Pier"]
+    },
+    {
+      "id": "launch-vt-burlington-oakledge-park",
+      "name": "Oakledge Park",
+      "city": "Burlington",
+      "state": "VT",
+      "citySlug": "burlington-vt",
+      "operator": "City of Burlington Parks, Recreation and Waterfront",
+      "source": "https://loveburlington.org/oakledge-park",
+      "featureResearchRadiusMeters": 1800,
+      "imageQueries": ["Oakledge Park Burlington Vermont", "Oakledge Park accessible treehouse", "Oakledge Park beach", "Oakledge Park playground"],
+      "subsites": ["Oakledge Accessible Treehouse", "Blanchard Beach", "Flynn Avenue Beach", "Oakledge Playground", "Lower Shelter", "Upper Shelter", "Burlington Greenway"]
+    }
+  ]
+}

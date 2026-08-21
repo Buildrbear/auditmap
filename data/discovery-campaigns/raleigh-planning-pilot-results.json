@@ -1,0 +1,11 @@
+{
+  "campaignId": "raleigh-planning-pilot",
+  "round": 1,
+  "updatedAt": null,
+  "notes": "Enter cumulative results at 24 hours and seven days. Keep uncollected checkpoints null; zero means the metric was checked and no event occurred.",
+  "lists": [
+    { "id": "raleigh-family-possibilities", "checkpoints": { "24h": null, "7d": null } },
+    { "id": "raleigh-art-open-space", "checkpoints": { "24h": null, "7d": null } },
+    { "id": "raleigh-smaller-discoveries", "checkpoints": { "24h": null, "7d": null } }
+  ]
+}

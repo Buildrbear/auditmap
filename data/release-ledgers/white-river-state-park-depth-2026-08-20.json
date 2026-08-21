@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "campaignId": "white-river-state-park-depth-2026-08-20",
+  "asOf": "2026-08-20",
+  "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+  "issueUrl": "https://github.com/Buildrbear/auditmap/issues/53",
+  "submissionUrl": "https://github.com/Buildrbear/auditmap/pull/54",
+  "contributionTier": "super-enrichment",
+  "summary": {
+    "parentGuides": 1,
+    "evidenceClearedDestinations": 2,
+    "parentImages": 4,
+    "destinationImages": 2,
+    "deferredDestinations": 7,
+    "deployed": 0
+  },
+  "parent": {
+    "recordId": "/us/in/indianapolis/parks/white-river-state-park",
+    "name": "White River State Park",
+    "state": "super-enriched-local",
+    "checkedAt": "2026-08-20",
+    "operatorSource": "https://whiteriverstatepark.org/visit/",
+    "productionPresent": true,
+    "localGeneratedPresent": true
+  },
+  "destinations": [
+    {
+      "recordId": "/us/in/indianapolis/parks/white-river-state-park/celebration-plaza-amphitheater",
+      "stableId": "bcaa82a0-ff38-4a82-b8b0-f3e470c8f013",
+      "name": "Celebration Plaza Amphitheater",
+      "state": "evidence-cleared-local",
+      "latitude": 39.7677087,
+      "longitude": -86.1728016,
+      "coordinateSource": "https://www.openstreetmap.org/node/1291163463",
+      "positionQuality": "named-feature-point",
+      "operatorSource": "https://whiteriverstatepark.org/wrsp_greensapces/celebration-plaza-amphitheater/",
+      "imageSource": "https://commons.wikimedia.org/wiki/File%3ACelebration_Plaza_Amphitheater_and_Canal_Headwaters_White_River_State_Park_Indianapolis.jpg",
+      "imageAuthor": "Momoneymoproblemz",
+      "imageLicense": "CC BY-SA 4.0"
+    },
+    {
+      "recordId": "/us/in/indianapolis/parks/white-river-state-park/canal-walk",
+      "stableId": "713518ba-d4f3-4742-973c-8d645e44bbb6",
+      "name": "Canal Walk",
+      "state": "evidence-cleared-local",
+      "latitude": 39.7676799,
+      "longitude": -86.1709498,
+      "coordinateSource": "https://www.openstreetmap.org/way/113883269",
+      "positionQuality": "named-paved-route-segment-within-parent",
+      "operatorSource": "https://whiteriverstatepark.org/venue/canal-walk/",
+      "imageSource": "https://commons.wikimedia.org/wiki/File%3ACentral_Indiana_Canal_-_Indianapolis%2C_Indiana%2C_USA_-_October_7%2C_2023_01.jpg",
+      "imageAuthor": "Giorgio Galeotti",
+      "imageLicense": "CC BY-SA 4.0"
+    }
+  ],
+  "sources": [
+    {
+      "label": "White River State Park visit guidance",
+      "url": "https://whiteriverstatepark.org/visit/",
+      "checkedAt": "2026-08-20",
+      "freshness": "fast-changing"
+    },
+    {
+      "label": "Celebration Plaza Amphitheater venue page",
+      "url": "https://whiteriverstatepark.org/wrsp_greensapces/celebration-plaza-amphitheater/",
+      "checkedAt": "2026-08-20",
+      "freshness": "ordinary-operator-guidance"
+    },
+    {
+      "label": "Canal Walk venue page",
+      "url": "https://whiteriverstatepark.org/venue/canal-walk/",
+      "checkedAt": "2026-08-20",
+      "freshness": "ordinary-operator-guidance"
+    },
+    {
+      "label": "White River State Park map",
+      "url": "https://whiteriverstatepark.org/map/",
+      "checkedAt": "2026-08-20",
+      "freshness": "stable-map-context"
+    },
+    {
+      "label": "White River State Park rules",
+      "url": "https://whiteriverstatepark.org/park-rules/",
+      "checkedAt": "2026-08-20",
+      "freshness": "ordinary-operator-guidance"
+    },
+    {
+      "label": "White River State Park events",
+      "url": "https://whiteriverstatepark.org/events/",
+      "checkedAt": "2026-08-20",
+      "freshness": "fast-changing"
+    },
+    {
+      "label": "IndyGo Route 8",
+      "url": "https://www.indygo.net/route/8-washington/",
+      "checkedAt": "2026-08-20",
+      "freshness": "fast-changing"
+    },
+    {
+      "label": "National Weather Service Indianapolis",
+      "url": "https://www.weather.gov/ind/indyoverview",
+      "checkedAt": "2026-08-20",
+      "freshness": "fast-changing"
+    }
+  ],
+  "reviewQueue": [
+    "Old Washington Street Bridge, Celebration Plaza lawn, Military Park, State Museum Lawn, NCAA Hall of Champions, Eiteljorg Museum and Indianapolis Zoo remain deferred until exact arrival, complete destination facts and matching reusable photography clear together.",
+    "The operator visit page still displays an August 15 closure notice that explicitly says reopening August 16; it is recorded as expired and requires same-day alert rechecking rather than publication as a current closure.",
+    "The national registry classifies Canal Walk and Celebration Plaza Amphitheater in submitted packet release-reconciliation-in-indianapolis-01 until PR #54 is reviewed, merged and deployed; local generation does not count as production publication.",
+    "The legacy verify:sd-coast:priority command still requires San Diego to be the active queue cluster and fails against the pre-existing El Paso checkpoint; update that historical assertion only under separate maintenance review rather than weakening it in this capacity change.",
+    "A plain local file server cannot validate Vercel image optimization or live API fallbacks; final optimized-image and live-service checks remain assigned to the pull-request preview."
+  ],
+  "verification": {
+    "indianapolisVerifier": "passed",
+    "fullReleaseCheck": "passed-55-campaigns-and-national-nc-safeguards",
+    "rawHtml": "passed-parent-and-two-destinations",
+    "desktopLayout": "passed-local-browser",
+    "phone390Layout": "passed-local-browser-no-horizontal-overflow",
+    "localOriginalImages": "passed",
+    "vercelPreview": "passed-protected-preview-three-routes-and-two-optimized-images",
+    "nationalRegistry": "passed-filesystem-backed-local-page-discovery-two-indianapolis-records-collision-safe-official-source-identity-reconciliation-and-canonical-key-uniqueness",
+    "claimLedger": "passed-schema-v1-runtime-validation-submitted-packet-binding-active-record-membership-and-structured-review-queue",
+    "campaignDate": "passed-america-new-york-as-of-boundary",
+    "queuePolicy": "passed-dynamic-hopper-threshold-ordering-and-machine-readable-lane-capacity-gate"
+  }
+}

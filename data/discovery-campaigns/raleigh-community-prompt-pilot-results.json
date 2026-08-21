@@ -1,0 +1,11 @@
+{
+  "campaignId": "raleigh-community-prompt-pilot",
+  "round": 1,
+  "updatedAt": null,
+  "notes": "Enter cumulative results at 24 hours and seven days. Keep uncollected checkpoints null and record only aggregate counts, never social identities or copied reply text.",
+  "prompts": [
+    { "id": "missing-detail", "checkpoints": { "24h": null, "7d": null } },
+    { "id": "overlooked-place", "checkpoints": { "24h": null, "7d": null } },
+    { "id": "family-friction", "checkpoints": { "24h": null, "7d": null } }
+  ]
+}

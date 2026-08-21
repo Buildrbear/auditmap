@@ -1,0 +1,37 @@
+{
+  "updatedAt": "2026-08-08",
+  "cluster": "Southeast Atlantic corridor",
+  "stage": "generated-and-verified",
+  "completed": [
+    "Eight parent guides enriched from official visitor sources",
+    "Thirty-two real reusable photographs reviewed, stored locally, and attributed",
+    "Eight park boundary records reviewed",
+    "Fifty named or clearly mapped subsites approved inside reviewed park boundaries",
+    "Parent and subsite static pages generated with canonical metadata and raw-HTML answers",
+    "Sitemap and nationwide launch catalog updated",
+    "All 37 super-enrichment campaign verifiers passed with zero failures",
+    "Phone-width layout checked at 390 pixels with no horizontal page overflow"
+  ],
+  "qualityGate": "No approximate feature pins were published. Proposed editorial subdivisions without a named or clearly mapped destination were removed from the launch set.",
+  "places": {
+    "launch-sc-charleston-waterfront-park": { "photos": 4, "subsites": 8, "status": "generated-and-verified" },
+    "launch-sc-charleston-hampton-park": { "photos": 4, "subsites": 7, "status": "generated-and-verified" },
+    "launch-sc-charleston-white-point-garden": { "photos": 4, "subsites": 8, "status": "generated-and-verified" },
+    "launch-ga-savannah-forsyth-park": { "photos": 4, "subsites": 8, "status": "generated-and-verified" },
+    "launch-ga-savannah-skidaway-island-state-park": { "photos": 4, "subsites": 8, "status": "generated-and-verified" },
+    "launch-ga-savannah-bonaventure-cemetery": { "photos": 4, "subsites": 0, "status": "verified-parent-guide", "unresolved": "Georeference the official cemetery map before publishing gravesite navigation pins." },
+    "launch-fl-jacksonville-kathryn-abbey-hanna-park": { "photos": 4, "subsites": 8, "status": "generated-and-verified" },
+    "launch-fl-jacksonville-jessie-ball-dupont-park": { "photos": 4, "subsites": 3, "status": "generated-and-verified" }
+  },
+  "deferredPhotoRights": [
+    "Daffin Park",
+    "Melton Peter Demetre Park",
+    "Lake Mayer Community Park",
+    "Metropolitan Park"
+  ],
+  "next": [
+    "Create a Vercel preview for final optimized-image review when a maintainer is ready to publish",
+    "Georeference Bonaventure's official map in a dedicated follow-up",
+    "Continue the cluster rollout with Oakland, San Jose, and Sacramento"
+  ]
+}

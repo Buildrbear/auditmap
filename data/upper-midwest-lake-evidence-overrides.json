@@ -1,0 +1,35 @@
+{
+  "checkedAt": "2026-08-11",
+  "places": {
+    "launch-mi-grand-rapids-millennium-park": {
+      "answerOverrides": {
+        "need-to-know": {
+          "answer": "The main activity core and restrooms operate seasonally. Kent County says 2026 season-pass sales have ended and had not posted final beach closing dates when checked; day tickets remain listed, but weather, staffing, water conditions, or an updated closing notice can shorten access. Verify the beach page before leaving.",
+          "source": "https://www.kentcountymi.gov/1768/Beach-Splashpad",
+          "sourceLabel": "Kent County Parks"
+        }
+      }
+    },
+    "launch-mi-grand-rapids-riverside-park": {
+      "source": "https://www.grandrapidsmi.gov/departments/parks-recreation/",
+      "sourceLabel": "City of Grand Rapids Parks and Recreation",
+      "answerOverrides": {
+        "restroom": {
+          "answer": "Restrooms serve developed areas seasonally. The City's event guidance says all park restrooms are winterized and closed from October through May; individual buildings can also close for maintenance, flooding, or daily service limits. Confirm current status before a restroom-dependent visit.",
+          "source": "https://www.grandrapidsmi.gov/explore-and-play/special-events/planning-and-resource-guide/",
+          "sourceLabel": "City of Grand Rapids"
+        },
+        "splash-pad": {
+          "answer": "Riverside Park is not a swimming or splash-pad destination. Its managed water recreation is the 2026 seasonal kayak rental at the accessible lagoon launch: Fridays 4:00-8:00 p.m. and Saturdays and Sundays 10:00 a.m.-4:00 p.m. through the planned August 30 final date, weather permitting. Rentals cost $5 per hour for ages 17 and under and $10 per hour for adults, include boats and lifejackets, and are first come, first rented. Check the closure hotline before traveling.",
+          "source": "https://www.grandrapidsmi.gov/departments/parks-recreation/recreation/kayaking/",
+          "sourceLabel": "City of Grand Rapids Parks and Recreation"
+        },
+        "need-to-know": {
+          "answer": "Low riverfront paths, launches, ponds, and parking areas can flood after high water or heavy rain. Kayak rentals and park programs post cancellations through the City closure hotline at 616-456-3699. Obey barricades and check current event, flood, and rental conditions before relying on a particular entrance.",
+          "source": "https://www.grandrapidsmi.gov/explore-and-play/special-events/planning-and-resource-guide/",
+          "sourceLabel": "City of Grand Rapids"
+        }
+      }
+    }
+  }
+}

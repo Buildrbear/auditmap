@@ -1,0 +1,53 @@
+{
+  "campaign": "Greensboro public-park research completion",
+  "packetId": "research-completion-nc-greensboro-01",
+  "checkedAt": "2026-08-20",
+  "contributionTier": "inventory",
+  "releaseStandard": "Resolve identity, entrance, coordinate, source, and image-rights questions in source format. Do not publish a launch guide until representative reusable media and the full visitor-answer set clear review.",
+  "places": [
+    {
+      "id": "research-nc-greensboro-jimmie-i-barber-park",
+      "recordSlug": "greensboro-jimmie-i-barber-park",
+      "name": "Jimmie I. Barber Park",
+      "alternateNames": [
+        "Barber Park"
+      ],
+      "city": "Greensboro",
+      "state": "NC",
+      "operator": "City of Greensboro Parks and Recreation",
+      "source": "https://www.greensboro-nc.gov/departments/parks-recreation/parks-gardens/barber-park",
+      "deferRelease": true,
+      "photoGateStatus": "deferred-no-representative-reusable-parent-set",
+      "minimumImages": 4,
+      "imageQueries": [
+        "Jimmie I. Barber Park Greensboro North Carolina",
+        "Barber Park Greensboro North Carolina",
+        "Barber Park Greensboro sprayground playground",
+        "Barber Park Greensboro amphitheater disc golf"
+      ],
+      "subsites": []
+    },
+    {
+      "id": "research-nc-greensboro-oka-t-hester-park",
+      "recordSlug": "greensboro-oka-t-hester-park",
+      "name": "Oka T. Hester Park",
+      "alternateNames": [
+        "Hester Park"
+      ],
+      "city": "Greensboro",
+      "state": "NC",
+      "operator": "City of Greensboro Parks and Recreation",
+      "source": "https://www.greensboro-nc.gov/departments/parks-recreation/parks-gardens/hester-park",
+      "deferRelease": true,
+      "photoGateStatus": "deferred-no-representative-reusable-parent-set",
+      "minimumImages": 4,
+      "imageQueries": [
+        "Oka T. Hester Park Greensboro North Carolina",
+        "Hester Park Greensboro North Carolina",
+        "Hester Park Greensboro lake fishing pier",
+        "Hester Park Greensboro playground tennis trail"
+      ],
+      "subsites": []
+    }
+  ]
+}

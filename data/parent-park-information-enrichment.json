@@ -1,0 +1,126 @@
+{
+  "checkedAt": "2026-07-30",
+  "parks": {
+    "launch-fl-orlando-lake-eola-park": {
+      "operator": "City of Orlando",
+      "sourceLabel": "City of Orlando",
+      "source": "https://www.orlando.gov/Parks-the-Environment/Directory/Lake-Eola-Park",
+      "hours": "Open daily from 6:00 a.m. to 11:59 p.m.; swan boats have separate operating hours.",
+      "summary": "Lake Eola Park is a downtown Orlando park centered on a lake with a 0.9-mile paved loop, the Linton E. Allen Memorial Fountain, swan boat rentals, playgrounds, restrooms, restaurants, and the Walt Disney Amphitheater.",
+      "accessibility": "The City of Orlando lists Lake Eola Park as accessible and identifies paved walking paths and restroom facilities.",
+      "searchAnswers": [
+        {
+          "intentKey": "hours",
+          "question": "When is Lake Eola Park open?",
+          "answer": "The park is open daily from 6:00 a.m. to 11:59 p.m. Swan boat rentals operate on a separate schedule, so check the City page if the boats are the reason for your visit.",
+          "sourceLabel": "City of Orlando",
+          "source": "https://www.orlando.gov/Parks-the-Environment/Directory/Lake-Eola-Park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-30"
+        },
+        {
+          "intentKey": "amenities",
+          "question": "What can visitors do at Lake Eola Park?",
+          "answer": "The City lists a 0.9-mile paved loop, swan boat rentals, the fountain, Walt Disney Amphitheater, playgrounds for ages 2-5 and 5-12, restrooms, picnic tables, and nearby restaurants.",
+          "sourceLabel": "City of Orlando",
+          "source": "https://www.orlando.gov/Parks-the-Environment/Directory/Lake-Eola-Park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-30"
+        }
+      ]
+    },
+    "launch-nh-manchester-livingston-park": {
+      "operator": "Manchester Parks and Recreation",
+      "sourceLabel": "City of Manchester",
+      "source": "https://www.manchesternh.gov/Departments/Parks-and-Recreation/Parks-Trails-and-Facilities/Parks/Livingston-Park",
+      "hours": "Open sunrise to sunset; Livingston Pool and the Dorrs Pond warming hut have seasonal hours.",
+      "summary": "Livingston Park is a 131-acre Manchester community park with Dorrs Pond, a walking trail, playground, pool, athletic fields, track, tennis courts, and seasonal recreation.",
+      "additionalImages": [
+        {
+          "url": "https://www.manchesternh.gov/Portals/2/Departments/parks_and_rec/images/Pic%20Livingston%201200x300.png",
+          "source": "https://www.manchesternh.gov/Departments/Parks-and-Recreation/Parks-Trails-and-Facilities/Parks/Livingston-Park",
+          "author": "City of Manchester",
+          "license": "Official municipal source; source terms apply",
+          "alt": "Livingston Park in Manchester, New Hampshire"
+        }
+      ],
+      "searchAnswers": [
+        {
+          "intentKey": "parking",
+          "question": "Where can I park at Livingston Park?",
+          "answer": "The City lists on-site lots at the north end of Beech Street, beside the tennis courts off Hooksett Road, and at multiple locations reached from Red Coat Lane.",
+          "sourceLabel": "City of Manchester",
+          "source": "https://www.manchesternh.gov/Departments/Parks-and-Recreation/Parks-Trails-and-Facilities/Parks/Livingston-Park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-30"
+        },
+        {
+          "intentKey": "hours",
+          "question": "When is Livingston Park open?",
+          "answer": "The park is open from sunrise to sunset. Livingston Pool and the Dorrs Pond warming hut use separate seasonal schedules.",
+          "sourceLabel": "City of Manchester",
+          "source": "https://www.manchesternh.gov/Departments/Parks-and-Recreation/Parks-Trails-and-Facilities/Parks/Livingston-Park",
+          "sourceType": "official",
+          "checkedAt": "2026-07-30"
+        }
+      ]
+    },
+    "launch-ri-providence-roger-williams-park": {
+      "operator": "City of Providence Parks Department",
+      "sourceLabel": "Roger Williams Park Conservancy",
+      "source": "https://www.rwpconservancy.org/about/faq/",
+      "hours": "Open daily from 7:00 a.m. to 9:00 p.m.; attractions within the park have separate schedules and admission policies.",
+      "cost": "General park access is free; the zoo, botanical center, and other attractions may have separate admission.",
+      "summary": "Roger Williams Park is a 435-acre Providence park with lakes, the zoo, botanical center, museum, carousel village, trails, gardens, and recreation facilities.",
+      "transit": "RIPTA Route 6 Prairie Ave / Roger Williams Park Zoo trolley serves the park.",
+      "searchAnswers": [
+        {
+          "intentKey": "entrances",
+          "question": "Where should I enter Roger Williams Park?",
+          "answer": "The Conservancy lists main entrances on Elmwood Avenue and Broad Street in Providence and on Park Avenue in Cranston. Use 1000 Elmwood Avenue for general GPS directions.",
+          "sourceLabel": "Roger Williams Park Conservancy",
+          "source": "https://www.rwpconservancy.org/about/faq/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-30"
+        },
+        {
+          "intentKey": "restroom",
+          "question": "Are there public restrooms in Roger Williams Park?",
+          "answer": "Yes. The Conservancy identifies public restrooms at Carousel Village during its operating hours, which vary seasonally.",
+          "sourceLabel": "Roger Williams Park Conservancy",
+          "source": "https://www.rwpconservancy.org/about/faq/",
+          "sourceType": "official",
+          "checkedAt": "2026-07-30"
+        }
+      ]
+    },
+    "launch-ct-hartford-bushnell-park": {
+      "operator": "City of Hartford and Bushnell Park Conservancy",
+      "sourceLabel": "Bushnell Park Conservancy",
+      "source": "https://bushnellpark.org/information/getting-here",
+      "hours": "Open from dawn to dusk; scheduled evening events may extend activity beyond normal park hours.",
+      "summary": "Bushnell Park is a historic central Hartford park with lawns, public art, an arboretum, the Soldiers and Sailors Memorial Arch, a carousel, playground, performance spaces, and frequent events.",
+      "transit": "Nearly all Hartford-bound CTtransit local bus lines stop within about a five-minute walk of the park.",
+      "searchAnswers": [
+        {
+          "intentKey": "parking",
+          "question": "Where can I park for Bushnell Park?",
+          "answer": "There is metered parking around the park perimeter. The Conservancy says payment is required Monday-Friday from 8:00 a.m. to 6:00 p.m.; other times, including weekends, are free. Parking inside the park is not allowed. Nearby garages and surface lots are alternatives.",
+          "sourceLabel": "Bushnell Park Conservancy",
+          "source": "https://bushnellpark.org/information/getting-here",
+          "sourceType": "official",
+          "checkedAt": "2026-07-30"
+        },
+        {
+          "intentKey": "hours",
+          "question": "When is Bushnell Park open?",
+          "answer": "The Conservancy states that the park is open from dawn to dusk, with frequent scheduled evening events.",
+          "sourceLabel": "Bushnell Park Conservancy",
+          "source": "https://bushnellpark.org/information/getting-here",
+          "sourceType": "official",
+          "checkedAt": "2026-07-30"
+        }
+      ]
+    }
+  }
+}

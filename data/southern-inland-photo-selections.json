@@ -1,0 +1,349 @@
+{
+  "campaign": "Southern inland connector",
+  "reviewedAt": "2026-08-10",
+  "reviewMethod": "Exact title/source match plus visual review against the official operator map. Public Flickr geotags were checked for Railroad Park subsite assignments; reusable licenses are retained from each source record.",
+  "places": {
+    "launch-al-birmingham-railroad-park": {
+      "name": "Railroad Park",
+      "candidates": [
+        {
+          "title": "Railroad Park - Birmingham, Alabama (27852646136)",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Railroad_Park_-_Birmingham%2C_Alabama_%2827852646136%29.jpg",
+          "source": "https://commons.wikimedia.org/w/index.php?curid=65978202",
+          "creator": "Tony Webster from Minneapolis, Minnesota, United States",
+          "creatorUrl": "https://www.flickr.com/people/87296837@N00",
+          "license": "BY-SA",
+          "licenseVersion": "2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "width": 5544,
+          "height": 3622,
+          "provider": "wikimedia",
+          "matchedTerms": [
+            "railroad",
+            "park",
+            "birmingham"
+          ],
+          "reviewStatus": "approved-destination-match",
+          "reviewNote": "The source identifies Railroad Park or its named subsite and permits reuse under the recorded license.",
+          "query": "Railroad Park Birmingham Alabama",
+          "alt": "Landscaped walking path at Railroad Park",
+          "reviewedAt": "2026-08-08"
+        },
+        {
+          "title": "Railroad Park, Birmingham, Alabama",
+          "url": "https://live.staticflickr.com/4838/46275218614_76b2f8e5a6_b.jpg",
+          "source": "https://www.flickr.com/photos/76792851@N07/46275218614",
+          "creator": "TexasExplorer98",
+          "creatorUrl": "https://www.flickr.com/photos/76792851@N07",
+          "license": "BY",
+          "licenseVersion": "2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+          "width": 1024,
+          "height": 683,
+          "provider": "flickr",
+          "matchedTerms": [
+            "railroad",
+            "park",
+            "birmingham"
+          ],
+          "reviewStatus": "approved-destination-match",
+          "reviewNote": "The photo's public geotag and visible lawn-and-path layout match West Green on the official Railroad Park map.",
+          "query": "Railroad Park Birmingham Alabama",
+          "alt": "West Green lawn and walking paths at Railroad Park",
+          "reviewedAt": "2026-08-10"
+        },
+        {
+          "title": "Railroad Park, Birmingham, Alabama",
+          "url": "https://live.staticflickr.com/4865/46275203954_8ec6f6cfe9_b.jpg",
+          "source": "https://www.flickr.com/photos/76792851@N07/46275203954",
+          "creator": "TexasExplorer98",
+          "creatorUrl": "https://www.flickr.com/photos/76792851@N07",
+          "license": "BY",
+          "licenseVersion": "2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+          "width": 1024,
+          "height": 683,
+          "provider": "flickr",
+          "matchedTerms": [
+            "railroad",
+            "park",
+            "birmingham"
+          ],
+          "reviewStatus": "approved-destination-match",
+          "reviewNote": "The photo's public geotag and visible covered pavilion beside the lake match 17th Street Plaza on the official Railroad Park map.",
+          "query": "Railroad Park Birmingham Alabama",
+          "alt": "Covered 17th Street Plaza beside the lake at Railroad Park",
+          "reviewedAt": "2026-08-10"
+        },
+        {
+          "title": "Railroad Park, Birmingham, Alabama",
+          "url": "https://live.staticflickr.com/4863/32058033037_d1fd6daa81_b.jpg",
+          "source": "https://www.flickr.com/photos/76792851@N07/32058033037",
+          "creator": "TexasExplorer98",
+          "creatorUrl": "https://www.flickr.com/photos/76792851@N07",
+          "license": "BY",
+          "licenseVersion": "2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+          "width": 1024,
+          "height": 683,
+          "provider": "flickr",
+          "matchedTerms": [
+            "railroad",
+            "park",
+            "birmingham"
+          ],
+          "reviewStatus": "approved-destination-match",
+          "reviewNote": "The photo's public geotag and visible climbing dome and play equipment match Adventure Playground on the official Railroad Park map.",
+          "query": "Railroad Park Birmingham Alabama",
+          "alt": "Adventure Playground climbing dome and play equipment at Railroad Park",
+          "reviewedAt": "2026-08-10"
+        }
+      ]
+    },
+    "launch-al-birmingham-red-mountain-park": {
+      "name": "Red Mountain Park",
+      "candidates": [
+        {
+          "title": "A current photo of the entrance at Red Mountain. The iron logo shows the parks rich history.",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/November_7th%2C_2023_photo_of_Red_Mountain_Park_Birmingham%2C_AL.jpg/1920px-November_7th%2C_2023_photo_of_Red_Mountain_Park_Birmingham%2C_AL.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:November_7th,_2023_photo_of_Red_Mountain_Park_Birmingham,_AL.jpg",
+          "creator": "Swimcoach2!",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "provider": "existing-auditmap",
+          "alt": "Red Mountain Park entrance and iron sign",
+          "reviewStatus": "approved-destination-match",
+          "reviewedAt": "2026-08-08",
+          "reviewNote": "The source identifies Red Mountain Park or its named subsite and permits reuse under the recorded license."
+        },
+        {
+          "title": "An old structure at Red Mountain Park outside of Birmingham, AL.",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Red_Mountain_Park.JPG/1920px-Red_Mountain_Park.JPG",
+          "source": "https://commons.wikimedia.org/wiki/File:Red_Mountain_Park.JPG",
+          "creator": "Lahti213",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "provider": "existing-auditmap",
+          "alt": "Historic mining structure at Red Mountain Park",
+          "reviewStatus": "approved-destination-match",
+          "reviewedAt": "2026-08-08",
+          "reviewNote": "The source identifies Red Mountain Park or its named subsite and permits reuse under the recorded license."
+        }
+      ]
+    },
+    "launch-al-birmingham-ruffner-mountain": {
+      "name": "Ruffner Mountain",
+      "candidates": [
+        {
+          "title": "Panorama of Ruffner Mountain Nature Preserve in Birmingham, AL.",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Panorama_of_Ruffner_Mountain_Nature_Preserve.JPG/1920px-Panorama_of_Ruffner_Mountain_Nature_Preserve.JPG",
+          "source": "https://commons.wikimedia.org/wiki/File:Panorama_of_Ruffner_Mountain_Nature_Preserve.JPG",
+          "creator": "Lahti213",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "provider": "existing-auditmap",
+          "alt": "Panorama from Ruffner Mountain Nature Preserve",
+          "reviewStatus": "approved-destination-match",
+          "reviewedAt": "2026-08-08",
+          "reviewNote": "The source identifies Ruffner Mountain or its named subsite and permits reuse under the recorded license."
+        },
+        {
+          "title": "Cliff at Ruffner Mountain Nature Preserve in Birmingham, AL.",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Ruffner_Mountain_Nature_Preserve.JPG/1920px-Ruffner_Mountain_Nature_Preserve.JPG",
+          "source": "https://commons.wikimedia.org/wiki/File:Ruffner_Mountain_Nature_Preserve.JPG",
+          "creator": "Lahti213",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "provider": "existing-auditmap",
+          "alt": "Rocky quarry landscape at Ruffner Mountain",
+          "reviewStatus": "approved-destination-match",
+          "reviewedAt": "2026-08-08",
+          "reviewNote": "The source identifies Ruffner Mountain or its named subsite and permits reuse under the recorded license."
+        },
+        {
+          "title": "ruffner mountain",
+          "url": "https://live.staticflickr.com/5292/5523438800_5ac6ab0e25_b.jpg",
+          "source": "https://www.flickr.com/photos/22265703@N06/5523438800",
+          "creator": "digitizedchaos",
+          "creatorUrl": "https://www.flickr.com/photos/22265703@N06",
+          "license": "BY",
+          "licenseVersion": "2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+          "width": 1024,
+          "height": 768,
+          "provider": "flickr",
+          "matchedTerms": [
+            "ruffner",
+            "mountain",
+            "birmingham"
+          ],
+          "reviewStatus": "approved-destination-match",
+          "reviewNote": "The source identifies Ruffner Mountain or its named subsite and permits reuse under the recorded license.",
+          "query": "Ruffner Mountain Nature Center",
+          "alt": "Forested trail at Ruffner Mountain",
+          "reviewedAt": "2026-08-08"
+        },
+        {
+          "title": "A city in the distance from Ruffner",
+          "url": "https://live.staticflickr.com/2718/4262341872_78068bc81f_b.jpg",
+          "source": "https://www.flickr.com/photos/29218907@N00/4262341872",
+          "creator": "acnatta",
+          "creatorUrl": "https://www.flickr.com/photos/29218907@N00",
+          "license": "BY",
+          "licenseVersion": "2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+          "width": 1024,
+          "height": 766,
+          "provider": "flickr",
+          "matchedTerms": [
+            "ruffner",
+            "mountain",
+            "birmingham"
+          ],
+          "reviewStatus": "approved-destination-match",
+          "reviewNote": "The source identifies Ruffner Mountain or its named subsite and permits reuse under the recorded license.",
+          "query": "Ruffner Mountain Birmingham Alabama",
+          "alt": "Visitors looking toward Birmingham from Ruffner Mountain",
+          "reviewedAt": "2026-08-08"
+        }
+      ]
+    },
+    "launch-ms-jackson-lefleur-s-bluff-state-park": {
+      "name": "LeFleur's Bluff State Park",
+      "candidates": [
+        {
+          "title": "LeFleur's Bluff State Park in Jackson, Mississippi",
+          "url": "https://live.staticflickr.com/7766/18419302992_95ae898e9f_b.jpg",
+          "source": "https://www.flickr.com/photos/128269164@N05/18419302992",
+          "creator": "alexander_geoff",
+          "creatorUrl": "https://www.flickr.com/photos/128269164@N05",
+          "license": "BY",
+          "licenseVersion": "2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+          "width": 1024,
+          "height": 931,
+          "provider": "flickr",
+          "matchedTerms": [
+            "lefleur",
+            "bluff",
+            "state",
+            "park",
+            "jackson"
+          ],
+          "reviewStatus": "approved-destination-match",
+          "reviewNote": "The source identifies LeFleur's Bluff State Park or its named subsite and permits reuse under the recorded license.",
+          "query": "LeFleur's Bluff State Park Jackson Mississippi",
+          "alt": "Wooded wetland at LeFleur's Bluff State Park",
+          "reviewedAt": "2026-08-08"
+        },
+        {
+          "title": "LeFleur's Bluff State Park in Jackson, Mississippi",
+          "url": "https://live.staticflickr.com/508/17802818403_21dfecdb45_b.jpg",
+          "source": "https://www.flickr.com/photos/128269164@N05/17802818403",
+          "creator": "alexander_geoff",
+          "creatorUrl": "https://www.flickr.com/photos/128269164@N05",
+          "license": "BY",
+          "licenseVersion": "2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+          "width": 1024,
+          "height": 683,
+          "provider": "flickr",
+          "matchedTerms": [
+            "lefleur",
+            "bluff",
+            "state",
+            "park",
+            "jackson"
+          ],
+          "reviewStatus": "approved-destination-match",
+          "reviewNote": "The source identifies LeFleur's Bluff State Park or its named subsite and permits reuse under the recorded license.",
+          "query": "LeFleur's Bluff State Park Jackson Mississippi",
+          "alt": "Bridge and water landscape at LeFleur's Bluff State Park",
+          "reviewedAt": "2026-08-08"
+        },
+        {
+          "title": "LeFleur's Bluff State Park in Jackson, Mississippi",
+          "url": "https://live.staticflickr.com/7786/18425182441_d3cb7e9511_b.jpg",
+          "source": "https://www.flickr.com/photos/128269164@N05/18425182441",
+          "creator": "alexander_geoff",
+          "creatorUrl": "https://www.flickr.com/photos/128269164@N05",
+          "license": "BY",
+          "licenseVersion": "2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+          "width": 1024,
+          "height": 683,
+          "provider": "flickr",
+          "matchedTerms": [
+            "lefleur",
+            "bluff",
+            "state",
+            "park",
+            "jackson"
+          ],
+          "reviewStatus": "approved-destination-match",
+          "reviewNote": "The source identifies LeFleur's Bluff State Park or its named subsite and permits reuse under the recorded license.",
+          "query": "LeFleur's Bluff State Park Jackson Mississippi",
+          "alt": "Mayes Lake shoreline and dock at LeFleur's Bluff State Park",
+          "reviewedAt": "2026-08-08"
+        },
+        {
+          "title": "Canoeing at LeFleur's Bluff State Park in Jackson, Mississippi",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Pickin_%26_Paddlin_Canoe_Race.jpg/1920px-Pickin_%26_Paddlin_Canoe_Race.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Pickin_%26_Paddlin_Canoe_Race.jpg",
+          "creator": "Charlie Brenner",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+          "provider": "existing-auditmap",
+          "alt": "Paddlers on the water at LeFleur's Bluff State Park",
+          "reviewStatus": "approved-destination-match",
+          "reviewedAt": "2026-08-08",
+          "reviewNote": "The source identifies LeFleur's Bluff State Park or its named subsite and permits reuse under the recorded license."
+        }
+      ]
+    },
+    "launch-ar-little-rock-two-rivers-park": {
+      "name": "Two Rivers Park",
+      "candidates": [
+        {
+          "title": "Two Rivers Park Bridge, Little Rock Arkansas",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Two_Rivers_Park_Bridge%2C_Little_Rock_Arkansas.jpg/1920px-Two_Rivers_Park_Bridge%2C_Little_Rock_Arkansas.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Two_Rivers_Park_Bridge,_Little_Rock_Arkansas.jpg",
+          "creator": "Kenneth C. Zirkel",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "provider": "existing-auditmap",
+          "alt": "Two Rivers Park Bridge in Little Rock",
+          "reviewStatus": "approved-destination-match",
+          "reviewedAt": "2026-08-08",
+          "reviewNote": "The source identifies Two Rivers Park or its named subsite and permits reuse under the recorded license."
+        },
+        {
+          "title": "Species with a global distribution Photographed in Two Rivers Park, Little Rock, Arkansas",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Teloschistes_chrysophthalmus-Arkansas.jpg/1920px-Teloschistes_chrysophthalmus-Arkansas.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Teloschistes_chrysophthalmus-Arkansas.jpg",
+          "creator": "Eric Hunt",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "provider": "existing-auditmap",
+          "alt": "Lichen documented in the Two Rivers Park landscape",
+          "reviewStatus": "approved-destination-match",
+          "reviewedAt": "2026-08-08",
+          "reviewNote": "The source identifies Two Rivers Park or its named subsite and permits reuse under the recorded license."
+        },
+        {
+          "title": "Species from south-central and southeastern North America Common name: possumhaw Photographed in Two Rivers Park, Little Rock, Arkansas",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Ilex_decidua_4.jpg/1920px-Ilex_decidua_4.jpg",
+          "source": "https://commons.wikimedia.org/wiki/File:Ilex_decidua_4.jpg",
+          "creator": "Eric Hunt",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "provider": "existing-auditmap",
+          "alt": "Possumhaw documented in Two Rivers Park",
+          "reviewStatus": "approved-destination-match",
+          "reviewedAt": "2026-08-08",
+          "reviewNote": "The source identifies Two Rivers Park or its named subsite and permits reuse under the recorded license."
+        }
+      ]
+    }
+  }
+}

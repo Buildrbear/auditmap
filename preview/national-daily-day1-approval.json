@@ -1,0 +1,19 @@
+{
+  "generatedAt": "2026-08-08T02:45:48.916Z",
+  "status": "HOLD",
+  "failed": [
+    "productionMeasurementReady"
+  ],
+  "postId": "daily_dix-park",
+  "placeId": "dix-park",
+  "scheduledDate": "2026-08-10",
+  "productionCheckedAt": "2026-08-08T02:39:03.369Z",
+  "checks": {
+    "scheduledDateCurrent": true,
+    "sourceRecorded": true,
+    "factCurrentThroughPost": true,
+    "reusableImageRecorded": true,
+    "productionContentReady": true,
+    "productionMeasurementReady": false
+  }
+}

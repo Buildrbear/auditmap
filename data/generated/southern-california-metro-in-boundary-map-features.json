@@ -1,0 +1,1999 @@
+{
+  "campaign": "Southern California metro connector",
+  "checkedAt": "2026-08-08",
+  "places": {
+    "launch-ca-long-beach-el-dorado-east-regional-park": {
+      "name": "El Dorado East Regional Park",
+      "boundarySource": "https://www.openstreetmap.org/relation/12450122",
+      "candidates": [
+        {
+          "name": "bldg 34",
+          "latitude": 33.8084841,
+          "longitude": -118.0857388,
+          "osmType": "node",
+          "osmId": 2339298267,
+          "sourceUrl": "https://www.openstreetmap.org/node/2339298267",
+          "tags": {
+            "amenity": "toilets",
+            "check_date": "2026-03-20",
+            "check_date:wheelchair": "2026-03-20",
+            "name": "bldg 34",
+            "toilets:disposal": "flush",
+            "toilets:unisex": "no",
+            "wheelchair": "yes"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Flame Skimmer Dragonfly",
+          "latitude": 33.8073917,
+          "longitude": -118.087658,
+          "osmType": "node",
+          "osmId": 2339324142,
+          "sourceUrl": "https://www.openstreetmap.org/node/2339324142",
+          "tags": {
+            "board_type": "wildlife",
+            "information": "board",
+            "name": "Flame Skimmer Dragonfly",
+            "tourism": "information"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "California Ground Squirrel",
+          "latitude": 33.8072712,
+          "longitude": -118.0889304,
+          "osmType": "node",
+          "osmId": 9441029915,
+          "sourceUrl": "https://www.openstreetmap.org/node/9441029915",
+          "tags": {
+            "board_type": "wildlife",
+            "information": "board",
+            "name": "California Ground Squirrel",
+            "operator": "Long Beach Parks, Recreation and Marine",
+            "tourism": "information"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "White Alder Bark",
+          "latitude": 33.8073895,
+          "longitude": -118.0885308,
+          "osmType": "node",
+          "osmId": 9441029916,
+          "sourceUrl": "https://www.openstreetmap.org/node/9441029916",
+          "tags": {
+            "board_type": "plants",
+            "information": "board",
+            "name": "White Alder Bark",
+            "operator": "Long Beach Parks, Recreation and Marine",
+            "tourism": "information"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Red Shouldered Hawk",
+          "latitude": 33.8083348,
+          "longitude": -118.0865525,
+          "osmType": "node",
+          "osmId": 9441040725,
+          "sourceUrl": "https://www.openstreetmap.org/node/9441040725",
+          "tags": {
+            "information": "board",
+            "name": "Red Shouldered Hawk",
+            "operator": "Long Beach Parks, Recreation and Marine",
+            "tourism": "information"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "San Gabriel River Freeway",
+          "latitude": 33.8243469,
+          "longitude": -118.0822462,
+          "osmType": "way",
+          "osmId": 27173596,
+          "sourceUrl": "https://www.openstreetmap.org/way/27173596",
+          "tags": {
+            "hgv": "designated",
+            "highway": "motorway",
+            "hov:lanes": "designated||||",
+            "lanes": "5",
+            "maxspeed": "65 mph",
+            "name": "San Gabriel River Freeway",
+            "oneway": "yes",
+            "ref": "I 605",
+            "turn:lanes": "slight_left|none|none|none|none"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "El Dorado Park",
+          "latitude": 33.8109531,
+          "longitude": -118.0871641,
+          "osmType": "way",
+          "osmId": 27284066,
+          "sourceUrl": "https://www.openstreetmap.org/way/27284066",
+          "tags": {
+            "highway": "service",
+            "maxspeed": "15 mph",
+            "name": "El Dorado Park"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Horseshoe Lake",
+          "latitude": 33.8125213,
+          "longitude": -118.0847912,
+          "osmType": "way",
+          "osmId": 27284696,
+          "sourceUrl": "https://www.openstreetmap.org/way/27284696",
+          "tags": {
+            "intermittent": "no",
+            "name": "Horseshoe Lake",
+            "natural": "water",
+            "salt": "no",
+            "tidal": "no",
+            "water": "lake"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Model Boat Lake",
+          "latitude": 33.8159863,
+          "longitude": -118.085565,
+          "osmType": "way",
+          "osmId": 27284701,
+          "sourceUrl": "https://www.openstreetmap.org/way/27284701",
+          "tags": {
+            "intermittent": "no",
+            "name": "Model Boat Lake",
+            "natural": "water",
+            "salt": "no",
+            "tidal": "no",
+            "water": "lake"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Main Lake",
+          "latitude": 33.8208705,
+          "longitude": -118.0847054,
+          "osmType": "way",
+          "osmId": 27285242,
+          "sourceUrl": "https://www.openstreetmap.org/way/27285242",
+          "tags": {
+            "intermittent": "no",
+            "name": "Main Lake",
+            "natural": "water",
+            "salt": "no",
+            "tidal": "no",
+            "water": "lake"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "North Lake",
+          "latitude": 33.8246649,
+          "longitude": -118.0851265,
+          "osmType": "way",
+          "osmId": 27285606,
+          "sourceUrl": "https://www.openstreetmap.org/way/27285606",
+          "tags": {
+            "intermittent": "no",
+            "name": "North Lake",
+            "natural": "water",
+            "salt": "no",
+            "tidal": "no",
+            "water": "lake"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "East Wardlow Road",
+          "latitude": 33.8180763,
+          "longitude": -118.0843452,
+          "osmType": "way",
+          "osmId": 172190237,
+          "sourceUrl": "https://www.openstreetmap.org/way/172190237",
+          "tags": {
+            "cycleway:right": "lane",
+            "highway": "secondary",
+            "lane_markings": "yes",
+            "maxspeed": "35 mph",
+            "name": "East Wardlow Road",
+            "oneway": "yes",
+            "source:maxspeed": "sign",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Los Angeles, CA",
+            "tiger:name_base": "Wardlow",
+            "tiger:name_direction_prefix": "E",
+            "tiger:name_type": "Rd",
+            "tiger:zip_left": "90808",
+            "tiger:zip_right": "90808"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Nature Center trail (combined)",
+          "latitude": 33.8090068,
+          "longitude": -118.0879967,
+          "osmType": "way",
+          "osmId": 225111583,
+          "sourceUrl": "https://www.openstreetmap.org/way/225111583",
+          "tags": {
+            "bicycle": "no",
+            "dog": "no",
+            "highway": "footway",
+            "name": "Nature Center trail (combined)"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Nature Center - 2 mile trail",
+          "latitude": 33.8064211,
+          "longitude": -118.0880618,
+          "osmType": "way",
+          "osmId": 414500542,
+          "sourceUrl": "https://www.openstreetmap.org/way/414500542",
+          "tags": {
+            "bicycle": "no",
+            "dog": "no",
+            "highway": "footway",
+            "name": "Nature Center - 2 mile trail"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Nature Center - 1 mile trail",
+          "latitude": 33.807524,
+          "longitude": -118.086804,
+          "osmType": "way",
+          "osmId": 414500543,
+          "sourceUrl": "https://www.openstreetmap.org/way/414500543",
+          "tags": {
+            "bicycle": "no",
+            "dog": "no",
+            "highway": "footway",
+            "name": "Nature Center - 1 mile trail"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Nature Center - 2 mile trail",
+          "latitude": 33.8084541,
+          "longitude": -118.0867468,
+          "osmType": "way",
+          "osmId": 414500544,
+          "sourceUrl": "https://www.openstreetmap.org/way/414500544",
+          "tags": {
+            "bicycle": "no",
+            "dog": "no",
+            "highway": "footway",
+            "name": "Nature Center - 2 mile trail"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Public Restroom #43",
+          "latitude": 33.8232205,
+          "longitude": -118.0840041,
+          "osmType": "way",
+          "osmId": 441457317,
+          "sourceUrl": "https://www.openstreetmap.org/way/441457317",
+          "tags": {
+            "amenity": "toilets",
+            "building": "yes",
+            "ele": "14.2",
+            "height": "3.9",
+            "lacounty:ain": "7075002906",
+            "lacounty:bld_id": "536156758056",
+            "name": "Public Restroom #43"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Shelter A",
+          "latitude": 33.815492,
+          "longitude": -118.0844774,
+          "osmType": "way",
+          "osmId": 441457320,
+          "sourceUrl": "https://www.openstreetmap.org/way/441457320",
+          "tags": {
+            "amenity": "shelter",
+            "building": "yes",
+            "ele": "15.8",
+            "height": "5.7",
+            "lacounty:ain": "7078001908",
+            "lacounty:bld_id": "536009755245",
+            "name": "Shelter A",
+            "shelter_type": "picnic_shelter"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Shelter B",
+          "latitude": 33.8168948,
+          "longitude": -118.0851636,
+          "osmType": "way",
+          "osmId": 441457328,
+          "sourceUrl": "https://www.openstreetmap.org/way/441457328",
+          "tags": {
+            "amenity": "shelter",
+            "building": "yes",
+            "ele": "12.8",
+            "height": "4.9",
+            "lacounty:ain": "7078001908",
+            "lacounty:bld_id": "535800755755",
+            "name": "Shelter B",
+            "shelter_type": "picnic_shelter"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Public Restroom #42",
+          "latitude": 33.8197161,
+          "longitude": -118.082665,
+          "osmType": "way",
+          "osmId": 441457334,
+          "sourceUrl": "https://www.openstreetmap.org/way/441457334",
+          "tags": {
+            "amenity": "toilets",
+            "building": "yes",
+            "ele": "13.3",
+            "height": "3.8",
+            "lacounty:ain": "7075002906",
+            "lacounty:bld_id": "536556756777",
+            "name": "Public Restroom #42"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Public Restroom #38",
+          "latitude": 33.8142141,
+          "longitude": -118.0834081,
+          "osmType": "way",
+          "osmId": 441457353,
+          "sourceUrl": "https://www.openstreetmap.org/way/441457353",
+          "tags": {
+            "amenity": "toilets",
+            "building": "yes",
+            "ele": "13.8",
+            "height": "5.5",
+            "lacounty:ain": "7078001908",
+            "lacounty:bld_id": "536333754782",
+            "name": "Public Restroom #38"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Public Restroom #37",
+          "latitude": 33.8122603,
+          "longitude": -118.0853641,
+          "osmType": "way",
+          "osmId": 441457355,
+          "sourceUrl": "https://www.openstreetmap.org/way/441457355",
+          "tags": {
+            "amenity": "toilets",
+            "building": "yes",
+            "ele": "13.6",
+            "height": "4.6",
+            "lacounty:ain": "7078001908",
+            "lacounty:bld_id": "535737754069",
+            "name": "Public Restroom #37"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Public Restroom #41",
+          "latitude": 33.8206751,
+          "longitude": -118.0886545,
+          "osmType": "way",
+          "osmId": 441457365,
+          "sourceUrl": "https://www.openstreetmap.org/way/441457365",
+          "tags": {
+            "amenity": "toilets",
+            "building": "yes",
+            "ele": "16.7",
+            "height": "4.9",
+            "lacounty:ain": "7075002906",
+            "lacounty:bld_id": "534741757133",
+            "name": "Public Restroom #41"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Public Restroom #39",
+          "latitude": 33.8149355,
+          "longitude": -118.0871168,
+          "osmType": "way",
+          "osmId": 441457374,
+          "sourceUrl": "https://www.openstreetmap.org/way/441457374",
+          "tags": {
+            "amenity": "toilets",
+            "building": "yes",
+            "ele": "14.4",
+            "height": "4.9",
+            "lacounty:ain": "7078001908",
+            "lacounty:bld_id": "535205755043",
+            "name": "Public Restroom #39"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Public Restroom #40",
+          "latitude": 33.8168414,
+          "longitude": -118.0843941,
+          "osmType": "way",
+          "osmId": 441457378,
+          "sourceUrl": "https://www.openstreetmap.org/way/441457378",
+          "tags": {
+            "amenity": "toilets",
+            "building": "yes",
+            "ele": "12.6",
+            "height": "3.6",
+            "lacounty:ain": "7078001908",
+            "lacounty:bld_id": "536034755735",
+            "name": "Public Restroom #40"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Public Restroom #36",
+          "latitude": 33.8112431,
+          "longitude": -118.0869972,
+          "osmType": "way",
+          "osmId": 441457393,
+          "sourceUrl": "https://www.openstreetmap.org/way/441457393",
+          "tags": {
+            "amenity": "toilets",
+            "building": "yes",
+            "ele": "12.3",
+            "height": "4.7",
+            "lacounty:ain": "7078001908",
+            "lacounty:bld_id": "535235753700",
+            "name": "Public Restroom #36"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "1/4 Mile Trail",
+          "latitude": 33.8095992,
+          "longitude": -118.0884079,
+          "osmType": "way",
+          "osmId": 617035543,
+          "sourceUrl": "https://www.openstreetmap.org/way/617035543",
+          "tags": {
+            "bicycle": "no",
+            "dog": "no",
+            "highway": "footway",
+            "name": "1/4 Mile Trail",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Nature Center - 2 mile trail",
+          "latitude": 33.8063486,
+          "longitude": -118.0869934,
+          "osmType": "way",
+          "osmId": 617035546,
+          "sourceUrl": "https://www.openstreetmap.org/way/617035546",
+          "tags": {
+            "bicycle": "no",
+            "dog": "no",
+            "highway": "footway",
+            "name": "Nature Center - 2 mile trail"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Nature Center - 2 mile trail",
+          "latitude": 33.8060663,
+          "longitude": -118.0887265,
+          "osmType": "way",
+          "osmId": 617035554,
+          "sourceUrl": "https://www.openstreetmap.org/way/617035554",
+          "tags": {
+            "bridge": "yes",
+            "highway": "footway",
+            "layer": "1",
+            "name": "Nature Center - 2 mile trail"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Nature Center trail (combined)",
+          "latitude": 33.8073984,
+          "longitude": -118.0875462,
+          "osmType": "way",
+          "osmId": 617035557,
+          "sourceUrl": "https://www.openstreetmap.org/way/617035557",
+          "tags": {
+            "bridge": "yes",
+            "highway": "footway",
+            "layer": "1",
+            "name": "Nature Center trail (combined)"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Nature Center trail (combined)",
+          "latitude": 33.8073834,
+          "longitude": -118.0874647,
+          "osmType": "way",
+          "osmId": 617035561,
+          "sourceUrl": "https://www.openstreetmap.org/way/617035561",
+          "tags": {
+            "highway": "footway",
+            "name": "Nature Center trail (combined)"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Nature Center trail (combined)",
+          "latitude": 33.8076645,
+          "longitude": -118.0885583,
+          "osmType": "way",
+          "osmId": 617035562,
+          "sourceUrl": "https://www.openstreetmap.org/way/617035562",
+          "tags": {
+            "bicycle": "no",
+            "dog": "no",
+            "highway": "footway",
+            "name": "Nature Center trail (combined)"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Nature Center trail (combined)",
+          "latitude": 33.8077276,
+          "longitude": -118.0886928,
+          "osmType": "way",
+          "osmId": 617035565,
+          "sourceUrl": "https://www.openstreetmap.org/way/617035565",
+          "tags": {
+            "bridge": "yes",
+            "highway": "footway",
+            "layer": "1",
+            "name": "Nature Center trail (combined)"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Nature Center trail (combined)",
+          "latitude": 33.808103,
+          "longitude": -118.0883273,
+          "osmType": "way",
+          "osmId": 617035567,
+          "sourceUrl": "https://www.openstreetmap.org/way/617035567",
+          "tags": {
+            "bicycle": "no",
+            "dog": "no",
+            "highway": "footway",
+            "name": "Nature Center trail (combined)"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Nature Center trail (combined)",
+          "latitude": 33.8085243,
+          "longitude": -118.0887466,
+          "osmType": "way",
+          "osmId": 617035570,
+          "sourceUrl": "https://www.openstreetmap.org/way/617035570",
+          "tags": {
+            "bridge": "yes",
+            "highway": "footway",
+            "layer": "1",
+            "name": "Nature Center trail (combined)"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Nature Center - 2 mile trail",
+          "latitude": 33.8086946,
+          "longitude": -118.0870947,
+          "osmType": "way",
+          "osmId": 617035572,
+          "sourceUrl": "https://www.openstreetmap.org/way/617035572",
+          "tags": {
+            "bridge": "yes",
+            "highway": "footway",
+            "layer": "1",
+            "name": "Nature Center - 2 mile trail"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "San Gabriel River Freeway",
+          "latitude": 33.8212472,
+          "longitude": -118.0818577,
+          "osmType": "way",
+          "osmId": 859722528,
+          "sourceUrl": "https://www.openstreetmap.org/way/859722528",
+          "tags": {
+            "destination:lanes": "||||none;Carson Street;Lincoln Avenue",
+            "hgv": "designated",
+            "highway": "motorway",
+            "hov:lanes": "designated||||",
+            "lanes": "5",
+            "maxheight:signed": "no",
+            "maxspeed": "65 mph",
+            "name": "San Gabriel River Freeway",
+            "oneway": "yes",
+            "ref": "I 605",
+            "turn:lanes": "||||through;slight_right"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "El Dorado Dog Park",
+          "latitude": 33.8109464,
+          "longitude": -118.0842089,
+          "osmType": "way",
+          "osmId": 940600232,
+          "sourceUrl": "https://www.openstreetmap.org/way/940600232",
+          "tags": {
+            "barrier": "fence",
+            "leisure": "dog_park",
+            "name": "El Dorado Dog Park",
+            "operator": "City of Long Beach",
+            "website": "https://www.longbeach.gov/Park/Park-and-Facilities/Directory/El-Dorado-Park-Dog-Park/"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Wheel Fun Rentals",
+          "latitude": 33.817514,
+          "longitude": -118.0867697,
+          "osmType": "way",
+          "osmId": 940605148,
+          "sourceUrl": "https://www.openstreetmap.org/way/940605148",
+          "tags": {
+            "amenity": "bicycle_rental",
+            "name": "Wheel Fun Rentals"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "East Wardlow Road",
+          "latitude": 33.8179947,
+          "longitude": -118.0843558,
+          "osmType": "way",
+          "osmId": 1050267039,
+          "sourceUrl": "https://www.openstreetmap.org/way/1050267039",
+          "tags": {
+            "cycleway:right": "lane",
+            "highway": "secondary",
+            "maxspeed": "35 mph",
+            "name": "East Wardlow Road",
+            "oneway": "yes",
+            "source:maxspeed": "sign",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Los Angeles, CA",
+            "tiger:name_base": "Wardlow",
+            "tiger:name_direction_prefix": "E",
+            "tiger:name_type": "Rd",
+            "tiger:zip_left": "90808",
+            "tiger:zip_right": "90808"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "El Dorado Park",
+          "latitude": 33.8100801,
+          "longitude": -118.0855912,
+          "osmType": "way",
+          "osmId": 1348576600,
+          "sourceUrl": "https://www.openstreetmap.org/way/1348576600",
+          "tags": {
+            "highway": "service",
+            "maxspeed": "15 mph",
+            "name": "El Dorado Park",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "North Lake",
+          "latitude": 33.8093386,
+          "longitude": -118.0869717,
+          "osmType": "relation",
+          "osmId": 34031,
+          "sourceUrl": "https://www.openstreetmap.org/relation/34031",
+          "tags": {
+            "fishing": "no",
+            "name": "North Lake",
+            "natural": "water",
+            "type": "multipolygon",
+            "water": "lake"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "South Lake",
+          "latitude": 33.8057556,
+          "longitude": -118.0872292,
+          "osmType": "relation",
+          "osmId": 10740331,
+          "sourceUrl": "https://www.openstreetmap.org/relation/10740331",
+          "tags": {
+            "fishing": "no",
+            "name": "South Lake",
+            "natural": "water",
+            "type": "multipolygon",
+            "water": "lake"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "El Dorado East Regional Park",
+          "latitude": 33.8160501,
+          "longitude": -118.0870398,
+          "osmType": "relation",
+          "osmId": 12450122,
+          "sourceUrl": "https://www.openstreetmap.org/relation/12450122",
+          "tags": {
+            "addr:city": "Long Beach",
+            "addr:housenumber": "7550",
+            "addr:postcode": "90815",
+            "addr:state": "CA",
+            "addr:street": "East Spring Street",
+            "leisure": "park",
+            "name": "El Dorado East Regional Park",
+            "operator": "City of Long Beach",
+            "type": "multipolygon",
+            "website": "https://www.longbeach.gov/park/park-and-facilities/directory/el-dorado-east-regional-park/"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    },
+    "launch-ca-long-beach-shoreline-aquatic-park": {
+      "name": "Shoreline Aquatic Park",
+      "boundarySource": "https://www.openstreetmap.org/way/27250981",
+      "candidates": [
+        {
+          "name": "Rainbow Riders",
+          "latitude": 33.7630178,
+          "longitude": -118.1960492,
+          "osmType": "node",
+          "osmId": 299098640,
+          "sourceUrl": "https://www.openstreetmap.org/node/299098640",
+          "tags": {
+            "amenity": "fountain",
+            "artist": "James \"Bud\" Bottoms",
+            "name": "Rainbow Riders"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Tokyo Wako Long Beach",
+          "latitude": 33.7620753,
+          "longitude": -118.1928439,
+          "osmType": "node",
+          "osmId": 1820502712,
+          "sourceUrl": "https://www.openstreetmap.org/node/1820502712",
+          "tags": {
+            "addr:city": "Long Beach",
+            "addr:housenumber": "310",
+            "addr:state": "CA",
+            "addr:street": "South Pine Avenue",
+            "amenity": "restaurant",
+            "check_date": "2025-10-28",
+            "name": "Tokyo Wako Long Beach",
+            "opening_hours": "Mo-Su 12:00-14:30,17:00-21:00",
+            "phone": "+1-562-435-7600",
+            "website": "https://www.tokyo-wako.com/",
+            "wheelchair": "yes"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Outback Steakhouse",
+          "latitude": 33.762698,
+          "longitude": -118.1939717,
+          "osmType": "node",
+          "osmId": 5132341402,
+          "sourceUrl": "https://www.openstreetmap.org/node/5132341402",
+          "tags": {
+            "addr:city": "Long Beach",
+            "addr:housenumber": "20",
+            "addr:postcode": "90802",
+            "addr:state": "CA",
+            "addr:street": "Shoreline Drive",
+            "amenity": "restaurant",
+            "brand": "Outback Steakhouse",
+            "brand:wikidata": "Q1064893",
+            "cuisine": "american;steak",
+            "name": "Outback Steakhouse",
+            "opening_hours": "Su-Th 11:00-22:00; Fr-Sa 11:00-23:00",
+            "outdoor_seating": "yes",
+            "phone": "+1-562-435-0002"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Aquarium Of The Pacific",
+          "latitude": 33.762887,
+          "longitude": -118.19587,
+          "osmType": "node",
+          "osmId": 6356005098,
+          "sourceUrl": "https://www.openstreetmap.org/node/6356005098",
+          "tags": {
+            "bus": "yes",
+            "highway": "bus_stop",
+            "name": "Aquarium Of The Pacific",
+            "network": "Long Beach Transit",
+            "network:wikidata": "Q6672372",
+            "public_transport": "platform",
+            "ref": "3001"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Bank of America",
+          "latitude": 33.7632272,
+          "longitude": -118.1955195,
+          "osmType": "node",
+          "osmId": 9694264309,
+          "sourceUrl": "https://www.openstreetmap.org/node/9694264309",
+          "tags": {
+            "amenity": "atm",
+            "brand": "Bank of America",
+            "brand:wikidata": "Q487907",
+            "cash_in": "no",
+            "drive_through": "no",
+            "indoor": "no",
+            "lit": "yes",
+            "name": "Bank of America",
+            "operator": "Bank of America",
+            "operator:wikidata": "Q487907",
+            "website": "https://locators.bankofamerica.com/ca/longbeach/atm-long-beach-107480.html",
+            "wheelchair": "yes"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Chili's",
+          "latitude": 33.76292,
+          "longitude": -118.1943426,
+          "osmType": "node",
+          "osmId": 10278995635,
+          "sourceUrl": "https://www.openstreetmap.org/node/10278995635",
+          "tags": {
+            "amenity": "restaurant",
+            "brand": "Chili's",
+            "brand:wikidata": "Q1072948",
+            "cuisine": "tex-mex",
+            "name": "Chili's",
+            "official_name": "Chili's Grill & Bar"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Hooters",
+          "latitude": 33.7630652,
+          "longitude": -118.1946426,
+          "osmType": "node",
+          "osmId": 10278995636,
+          "sourceUrl": "https://www.openstreetmap.org/node/10278995636",
+          "tags": {
+            "amenity": "restaurant",
+            "brand": "Hooters",
+            "brand:wikidata": "Q1025921",
+            "cuisine": "burger",
+            "name": "Hooters"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Famous Dave’s",
+          "latitude": 33.7623453,
+          "longitude": -118.1926639,
+          "osmType": "node",
+          "osmId": 10278997487,
+          "sourceUrl": "https://www.openstreetmap.org/node/10278997487",
+          "tags": {
+            "amenity": "restaurant",
+            "name": "Famous Dave’s"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "P.F. Chang's",
+          "latitude": 33.7625801,
+          "longitude": -118.1935826,
+          "osmType": "node",
+          "osmId": 11967814368,
+          "sourceUrl": "https://www.openstreetmap.org/node/11967814368",
+          "tags": {
+            "amenity": "restaurant",
+            "brand": "P.F. Chang's",
+            "brand:wikidata": "Q5360181",
+            "cuisine": "asian",
+            "name": "P.F. Chang's",
+            "official_name": "P.F. Chang's China Bistro"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Conserving California's Coastal Treasures",
+          "latitude": 33.7608689,
+          "longitude": -118.1962331,
+          "osmType": "node",
+          "osmId": 12372703917,
+          "sourceUrl": "https://www.openstreetmap.org/node/12372703917",
+          "tags": {
+            "board_type": "nature",
+            "information": "board",
+            "name": "Conserving California's Coastal Treasures",
+            "tourism": "information"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Bringing Back the Dunes",
+          "latitude": 33.7607764,
+          "longitude": -118.1955101,
+          "osmType": "node",
+          "osmId": 12372731178,
+          "sourceUrl": "https://www.openstreetmap.org/node/12372731178",
+          "tags": {
+            "board_type": "wildlife",
+            "information": "board",
+            "name": "Bringing Back the Dunes",
+            "tourism": "information"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Aquarium Way",
+          "latitude": 33.7610772,
+          "longitude": -118.1983913,
+          "osmType": "way",
+          "osmId": 27248077,
+          "sourceUrl": "https://www.openstreetmap.org/way/27248077",
+          "tags": {
+            "highway": "tertiary",
+            "name": "Aquarium Way",
+            "sidewalk:both": "separate",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Los Angeles, CA",
+            "tiger:name_base": "Aquarium",
+            "tiger:name_type": "Way",
+            "tiger:zip_left": "90802",
+            "tiger:zip_right": "90802"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Aquarium Way",
+          "latitude": 33.7631183,
+          "longitude": -118.1960353,
+          "osmType": "way",
+          "osmId": 27248445,
+          "sourceUrl": "https://www.openstreetmap.org/way/27248445",
+          "tags": {
+            "highway": "tertiary",
+            "junction": "roundabout",
+            "name": "Aquarium Way",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Los Angeles, CA",
+            "tiger:name_base": "Aquarium",
+            "tiger:name_type": "Way",
+            "tiger:zip_left": "90802",
+            "tiger:zip_right": "90802"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Aquarium Way",
+          "latitude": 33.7633874,
+          "longitude": -118.1952057,
+          "osmType": "way",
+          "osmId": 27248456,
+          "sourceUrl": "https://www.openstreetmap.org/way/27248456",
+          "tags": {
+            "highway": "tertiary",
+            "name": "Aquarium Way",
+            "sidewalk:both": "separate",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Los Angeles, CA",
+            "tiger:name_base": "Aquarium",
+            "tiger:name_type": "Way",
+            "tiger:zip_left": "90802",
+            "tiger:zip_right": "90802"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Aquarium Way",
+          "latitude": 33.7609888,
+          "longitude": -118.1980844,
+          "osmType": "way",
+          "osmId": 52118235,
+          "sourceUrl": "https://www.openstreetmap.org/way/52118235",
+          "tags": {
+            "highway": "tertiary",
+            "junction": "roundabout",
+            "lane_markings": "no",
+            "name": "Aquarium Way",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Los Angeles, CA",
+            "tiger:name_base": "Aquarium",
+            "tiger:name_type": "Way",
+            "tiger:zip_left": "90802",
+            "tiger:zip_right": "90802"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Aquarium Way",
+          "latitude": 33.7621753,
+          "longitude": -118.1975494,
+          "osmType": "way",
+          "osmId": 52118238,
+          "sourceUrl": "https://www.openstreetmap.org/way/52118238",
+          "tags": {
+            "highway": "tertiary",
+            "lanes": "2",
+            "name": "Aquarium Way",
+            "sidewalk:both": "separate",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Los Angeles, CA",
+            "tiger:name_base": "Aquarium",
+            "tiger:name_type": "Way",
+            "tiger:zip_left": "90802",
+            "tiger:zip_right": "90802"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Shoreline Beach Bike Path",
+          "latitude": 33.7630059,
+          "longitude": -118.1973868,
+          "osmType": "way",
+          "osmId": 120257695,
+          "sourceUrl": "https://www.openstreetmap.org/way/120257695",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Shoreline Beach Bike Path",
+            "segregated": "no",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Shoreline Beach Bike Path",
+          "latitude": 33.7618845,
+          "longitude": -118.1978493,
+          "osmType": "way",
+          "osmId": 120257700,
+          "sourceUrl": "https://www.openstreetmap.org/way/120257700",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Shoreline Beach Bike Path",
+            "segregated": "no",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Aquarium of the Pacific",
+          "latitude": 33.7619955,
+          "longitude": -118.1971331,
+          "osmType": "way",
+          "osmId": 200068201,
+          "sourceUrl": "https://www.openstreetmap.org/way/200068201",
+          "tags": {
+            "fee": "yes",
+            "name": "Aquarium of the Pacific",
+            "opening_hours": "Mo-Su 11:00-17:00+",
+            "toilets": "yes",
+            "toilets:access": "customers",
+            "tourism": "aquarium",
+            "website": "https://www.aquariumofpacific.org/",
+            "wheelchair": "designated",
+            "wikidata": "Q4782759"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "The Promenade North",
+          "latitude": 33.7621582,
+          "longitude": -118.191765,
+          "osmType": "way",
+          "osmId": 238272356,
+          "sourceUrl": "https://www.openstreetmap.org/way/238272356",
+          "tags": {
+            "bridge": "yes",
+            "highway": "footway",
+            "layer": "1",
+            "name": "The Promenade North",
+            "surface": "paving_stones",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Los Angeles, CA",
+            "tiger:name_base": "The Promenade",
+            "tiger:name_direction_suffix": "N",
+            "tiger:reviewed": "no",
+            "tiger:zip_left": "90802",
+            "tiger:zip_right": "90802"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Gladstone's Long beach",
+          "latitude": 33.7619955,
+          "longitude": -118.1933466,
+          "osmType": "way",
+          "osmId": 441496790,
+          "sourceUrl": "https://www.openstreetmap.org/way/441496790",
+          "tags": {
+            "addr:city": "Long Beach",
+            "addr:housenumber": "330",
+            "addr:postcode": "90802",
+            "addr:state": "CA",
+            "addr:street": "South Pine Avenue",
+            "amenity": "restaurant",
+            "building": "yes",
+            "check_date": "2025-10-28",
+            "cuisine": "seafood",
+            "ele": "13.2",
+            "height": "8.9",
+            "lacounty:ain": "7278010914",
+            "lacounty:bld_id": "502953735866",
+            "name": "Gladstone's Long beach",
+            "opening_hours": "Mo 16:00-21:30; Tu-Th,Su 11:30-21:30; Fr-Sa 11:30-22:00",
+            "phone": "+1-562-432-8588",
+            "website": "https://www.gladstoneslongbeach.com/"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Shoreline Beach Bike Path",
+          "latitude": 33.7609119,
+          "longitude": -118.1983104,
+          "osmType": "way",
+          "osmId": 868105784,
+          "sourceUrl": "https://www.openstreetmap.org/way/868105784",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Shoreline Beach Bike Path",
+            "segregated": "no",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Shoreline Beach Bike Path",
+          "latitude": 33.7600131,
+          "longitude": -118.1955541,
+          "osmType": "way",
+          "osmId": 868105788,
+          "sourceUrl": "https://www.openstreetmap.org/way/868105788",
+          "tags": {
+            "bicycle": "designated",
+            "check_date:surface": "2024-06-09",
+            "cycleway:surface": "concrete",
+            "foot": "designated",
+            "footway:surface": "concrete",
+            "highway": "cycleway",
+            "name": "Shoreline Beach Bike Path",
+            "oneway": "no",
+            "segregated": "yes",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Aquarium Way",
+          "latitude": 33.7631856,
+          "longitude": -118.1964406,
+          "osmType": "way",
+          "osmId": 1054964326,
+          "sourceUrl": "https://www.openstreetmap.org/way/1054964326",
+          "tags": {
+            "highway": "tertiary",
+            "lanes": "2",
+            "name": "Aquarium Way",
+            "sidewalk:both": "separate",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Los Angeles, CA",
+            "tiger:name_base": "Aquarium",
+            "tiger:name_type": "Way",
+            "tiger:zip_left": "90802",
+            "tiger:zip_right": "90802"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Aquarium Way",
+          "latitude": 33.7633103,
+          "longitude": -118.1968537,
+          "osmType": "way",
+          "osmId": 1054964328,
+          "sourceUrl": "https://www.openstreetmap.org/way/1054964328",
+          "tags": {
+            "highway": "tertiary",
+            "name": "Aquarium Way",
+            "sidewalk:left": "no",
+            "sidewalk:right": "separate",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Los Angeles, CA",
+            "tiger:name_base": "Aquarium",
+            "tiger:name_type": "Way",
+            "tiger:zip_left": "90802",
+            "tiger:zip_right": "90802"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Lions Lighthouse",
+          "latitude": 33.7602383,
+          "longitude": -118.1941072,
+          "osmType": "way",
+          "osmId": 1054968664,
+          "sourceUrl": "https://www.openstreetmap.org/way/1054968664",
+          "tags": {
+            "building": "service",
+            "height": "20",
+            "man_made": "lighthouse",
+            "name": "Lions Lighthouse",
+            "official_name": "Lions Lighthouse for Sight",
+            "wikidata": "Q108292860",
+            "wikimedia_commons": "Category:Lions Lighthouse (Long Beach, California)",
+            "wikipedia": "en:Lions Lighthouse"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Bicycle Route 17",
+          "latitude": 33.7641655,
+          "longitude": -118.1969543,
+          "osmType": "way",
+          "osmId": 1054982048,
+          "sourceUrl": "https://www.openstreetmap.org/way/1054982048",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Bicycle Route 17",
+            "segregated": "no",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "The Promenade North",
+          "latitude": 33.7621231,
+          "longitude": -118.1917502,
+          "osmType": "way",
+          "osmId": 1054982078,
+          "sourceUrl": "https://www.openstreetmap.org/way/1054982078",
+          "tags": {
+            "bridge": "yes",
+            "highway": "footway",
+            "layer": "1",
+            "name": "The Promenade North",
+            "surface": "paving_stones",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Los Angeles, CA",
+            "tiger:name_base": "The Promenade",
+            "tiger:name_direction_suffix": "N",
+            "tiger:reviewed": "no",
+            "tiger:zip_left": "90802",
+            "tiger:zip_right": "90802"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Shoreline Beach Bike Path",
+          "latitude": 33.7607218,
+          "longitude": -118.1978697,
+          "osmType": "way",
+          "osmId": 1270545368,
+          "sourceUrl": "https://www.openstreetmap.org/way/1270545368",
+          "tags": {
+            "bicycle": "designated",
+            "check_date:surface": "2024-06-09",
+            "cycleway:surface": "concrete",
+            "foot": "designated",
+            "footway:surface": "concrete",
+            "highway": "cycleway",
+            "name": "Shoreline Beach Bike Path",
+            "oneway": "no",
+            "segregated": "yes",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Aquarium Way",
+          "latitude": 33.7629565,
+          "longitude": -118.1960447,
+          "osmType": "way",
+          "osmId": 1315971771,
+          "sourceUrl": "https://www.openstreetmap.org/way/1315971771",
+          "tags": {
+            "highway": "tertiary",
+            "junction": "roundabout",
+            "name": "Aquarium Way",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Los Angeles, CA",
+            "tiger:name_base": "Aquarium",
+            "tiger:name_type": "Way",
+            "tiger:zip_left": "90802",
+            "tiger:zip_right": "90802"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    },
+    "launch-ca-anaheim-yorba-regional-park": {
+      "name": "Yorba Regional Park",
+      "boundarySource": "https://www.openstreetmap.org/way/96023516",
+      "candidates": [
+        {
+          "name": "La Palma-Lynwood",
+          "latitude": 33.8724913,
+          "longitude": -117.7600665,
+          "osmType": "node",
+          "osmId": 10046939587,
+          "sourceUrl": "https://www.openstreetmap.org/node/10046939587",
+          "tags": {
+            "bench": "no",
+            "bin": "no",
+            "bus": "yes",
+            "highway": "bus_stop",
+            "name": "La Palma-Lynwood",
+            "network": "OC Bus",
+            "network:wikidata": "Q6593059",
+            "operator": "Orange County Transportation Authority",
+            "operator:short": "OCTA",
+            "operator:wikidata": "Q7099595",
+            "public_transport": "platform",
+            "ref": "0369",
+            "route_ref": "38",
+            "shelter": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "La Palma-Potomac",
+          "latitude": 33.8702888,
+          "longitude": -117.7680506,
+          "osmType": "node",
+          "osmId": 10046939589,
+          "sourceUrl": "https://www.openstreetmap.org/node/10046939589",
+          "tags": {
+            "bench": "no",
+            "bin": "no",
+            "bus": "yes",
+            "highway": "bus_stop",
+            "name": "La Palma-Potomac",
+            "network": "OC Bus",
+            "network:wikidata": "Q6593059",
+            "operator": "Orange County Transportation Authority",
+            "operator:short": "OCTA",
+            "operator:wikidata": "Q7099595",
+            "public_transport": "platform",
+            "ref": "0367",
+            "route_ref": "38",
+            "shelter": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "La Palma-Emogene",
+          "latitude": 33.8683517,
+          "longitude": -117.7712744,
+          "osmType": "node",
+          "osmId": 10046939591,
+          "sourceUrl": "https://www.openstreetmap.org/node/10046939591",
+          "tags": {
+            "bench": "no",
+            "bin": "no",
+            "bus": "yes",
+            "highway": "bus_stop",
+            "name": "La Palma-Emogene",
+            "network": "OC Bus",
+            "network:wikidata": "Q6593059",
+            "operator": "Orange County Transportation Authority",
+            "operator:short": "OCTA",
+            "operator:wikidata": "Q7099595",
+            "public_transport": "platform",
+            "ref": "0366",
+            "route_ref": "38",
+            "shelter": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "East La Palma Avenue",
+          "latitude": 33.8701986,
+          "longitude": -117.7675053,
+          "osmType": "way",
+          "osmId": 405532046,
+          "sourceUrl": "https://www.openstreetmap.org/way/405532046",
+          "tags": {
+            "highway": "secondary",
+            "lanes": "2",
+            "maxspeed": "45 mph",
+            "name": "East La Palma Avenue",
+            "oneway": "yes",
+            "source": "usgs_imagery;survey;image",
+            "source:lanes": "usgs_imagery_2005;survey;image",
+            "source:maxspeed": "survey;image",
+            "source_ref": "AM909_DSCV1871",
+            "source_ref:lanes": "AM909_DSCW5666",
+            "source_ref:maxspeed": "AM909_DSCW5672",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "East La Palma Avenue",
+          "latitude": 33.873215,
+          "longitude": -117.7572894,
+          "osmType": "way",
+          "osmId": 405532073,
+          "sourceUrl": "https://www.openstreetmap.org/way/405532073",
+          "tags": {
+            "highway": "secondary",
+            "lanes": "2",
+            "maxspeed": "45 mph",
+            "maxweight": "6000 lbs",
+            "name": "East La Palma Avenue",
+            "oneway": "yes",
+            "source": "usgs_imagery;survey;image",
+            "source:lanes": "usgs_imagery_2005;survey;image",
+            "source:maxspeed": "survey;image",
+            "source:maxweight": "usgs_imagery_2005;survey;image",
+            "source_ref": "AM909_DSCV1871",
+            "source_ref:lanes": "AM909_DSCW5675",
+            "source_ref:maxspeed": "AM909_DSCW5672",
+            "source_ref:maxweight": "AM909_DSCW5691",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Orange, CA",
+            "tiger:name_base": "La Palma",
+            "tiger:name_direction_prefix": "E",
+            "tiger:name_type": "Ave",
+            "tiger:zip_left": "92807",
+            "tiger:zip_right": "92807"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Anaheim Play Fields",
+          "latitude": 33.8653664,
+          "longitude": -117.7723885,
+          "osmType": "way",
+          "osmId": 471342087,
+          "sourceUrl": "https://www.openstreetmap.org/way/471342087",
+          "tags": {
+            "leisure": "pitch",
+            "name": "Anaheim Play Fields",
+            "sport": "baseball"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Anaheim Play Fields",
+          "latitude": 33.8659477,
+          "longitude": -117.7724113,
+          "osmType": "way",
+          "osmId": 471342178,
+          "sourceUrl": "https://www.openstreetmap.org/way/471342178",
+          "tags": {
+            "leisure": "pitch",
+            "name": "Anaheim Play Fields",
+            "sport": "baseball"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Anaheim Play Fields",
+          "latitude": 33.8657412,
+          "longitude": -117.7712861,
+          "osmType": "way",
+          "osmId": 471342260,
+          "sourceUrl": "https://www.openstreetmap.org/way/471342260",
+          "tags": {
+            "leisure": "pitch",
+            "name": "Anaheim Play Fields",
+            "sport": "baseball"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Esperanza Channel",
+          "latitude": 33.8724628,
+          "longitude": -117.7570696,
+          "osmType": "way",
+          "osmId": 639239689,
+          "sourceUrl": "https://www.openstreetmap.org/way/639239689",
+          "tags": {
+            "layer": "-1",
+            "name": "Esperanza Channel",
+            "tunnel": "yes",
+            "waterway": "drain"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "East La Palma Avenue",
+          "latitude": 33.8693089,
+          "longitude": -117.770155,
+          "osmType": "way",
+          "osmId": 760504862,
+          "sourceUrl": "https://www.openstreetmap.org/way/760504862",
+          "tags": {
+            "highway": "secondary",
+            "lanes": "2",
+            "maxspeed": "45 mph",
+            "maxweight": "6000 lbs",
+            "name": "East La Palma Avenue",
+            "oneway": "yes",
+            "source": "usgs_imagery;survey;image",
+            "source:lanes": "usgs_imagery_2005;survey;image",
+            "source:maxspeed": "survey;image",
+            "source:maxweight": "usgs_imagery_2005;survey;image",
+            "source_ref": "AM909_DSCV1871",
+            "source_ref:lanes": "AM909_DSCW5675",
+            "source_ref:maxspeed": "AM909_DSCW5672",
+            "source_ref:maxweight": "AM909_DSCW5691",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Orange, CA",
+            "tiger:name_base": "La Palma",
+            "tiger:name_direction_prefix": "E",
+            "tiger:name_type": "Ave",
+            "tiger:zip_left": "92807",
+            "tiger:zip_right": "92807"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "A",
+          "latitude": 33.86704,
+          "longitude": -117.7715544,
+          "osmType": "way",
+          "osmId": 1082199964,
+          "sourceUrl": "https://www.openstreetmap.org/way/1082199964",
+          "tags": {
+            "amenity": "parking",
+            "fee": "yes",
+            "name": "A",
+            "parking": "surface",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "B",
+          "latitude": 33.8681726,
+          "longitude": -117.7705681,
+          "osmType": "way",
+          "osmId": 1082199965,
+          "sourceUrl": "https://www.openstreetmap.org/way/1082199965",
+          "tags": {
+            "amenity": "parking",
+            "fee": "yes",
+            "name": "B",
+            "parking": "surface",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "C",
+          "latitude": 33.8697034,
+          "longitude": -117.7683652,
+          "osmType": "way",
+          "osmId": 1082199966,
+          "sourceUrl": "https://www.openstreetmap.org/way/1082199966",
+          "tags": {
+            "amenity": "parking",
+            "fee": "yes",
+            "name": "C",
+            "parking": "surface",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "D",
+          "latitude": 33.869558,
+          "longitude": -117.7666147,
+          "osmType": "way",
+          "osmId": 1082199967,
+          "sourceUrl": "https://www.openstreetmap.org/way/1082199967",
+          "tags": {
+            "amenity": "parking",
+            "fee": "yes",
+            "name": "D",
+            "parking": "surface",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "E",
+          "latitude": 33.8705745,
+          "longitude": -117.7651158,
+          "osmType": "way",
+          "osmId": 1082199968,
+          "sourceUrl": "https://www.openstreetmap.org/way/1082199968",
+          "tags": {
+            "amenity": "parking",
+            "fee": "yes",
+            "name": "E",
+            "parking": "surface",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "F",
+          "latitude": 33.8703932,
+          "longitude": -117.7631656,
+          "osmType": "way",
+          "osmId": 1082199969,
+          "sourceUrl": "https://www.openstreetmap.org/way/1082199969",
+          "tags": {
+            "amenity": "parking",
+            "fee": "yes",
+            "name": "F",
+            "parking": "surface",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "G",
+          "latitude": 33.8712218,
+          "longitude": -117.7620558,
+          "osmType": "way",
+          "osmId": 1082199971,
+          "sourceUrl": "https://www.openstreetmap.org/way/1082199971",
+          "tags": {
+            "amenity": "parking",
+            "fee": "yes",
+            "name": "G",
+            "parking": "surface",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "H",
+          "latitude": 33.8714181,
+          "longitude": -117.7608908,
+          "osmType": "way",
+          "osmId": 1082199972,
+          "sourceUrl": "https://www.openstreetmap.org/way/1082199972",
+          "tags": {
+            "amenity": "parking",
+            "fee": "yes",
+            "name": "H",
+            "parking": "surface",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "J",
+          "latitude": 33.8710679,
+          "longitude": -117.7594956,
+          "osmType": "way",
+          "osmId": 1082199974,
+          "sourceUrl": "https://www.openstreetmap.org/way/1082199974",
+          "tags": {
+            "amenity": "parking",
+            "fee": "yes",
+            "name": "J",
+            "parking": "surface",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "K",
+          "latitude": 33.8729023,
+          "longitude": -117.7569017,
+          "osmType": "way",
+          "osmId": 1082199975,
+          "sourceUrl": "https://www.openstreetmap.org/way/1082199975",
+          "tags": {
+            "amenity": "parking",
+            "fee": "yes",
+            "name": "K",
+            "parking": "surface",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "I",
+          "latitude": 33.8713775,
+          "longitude": -117.7595436,
+          "osmType": "way",
+          "osmId": 1363860352,
+          "sourceUrl": "https://www.openstreetmap.org/way/1363860352",
+          "tags": {
+            "amenity": "parking",
+            "fee": "yes",
+            "name": "I",
+            "parking": "surface",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Santa Ana River Interceptor",
+          "latitude": 33.873928,
+          "longitude": -117.7509413,
+          "osmType": "way",
+          "osmId": 1457696955,
+          "sourceUrl": "https://www.openstreetmap.org/way/1457696955",
+          "tags": {
+            "layer": "-1",
+            "location": "underground",
+            "man_made": "pipeline",
+            "name": "Santa Ana River Interceptor",
+            "operator": "Orange County Sanitation District",
+            "source": "https://bos.ocgov.com/legacy3/newsletters/pdf/SARI%20Line%20Handouts.pdf",
+            "substance": "wastewater",
+            "website": "https://ocip.ocpublicworks.com/faq/faqs-sari"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    },
+    "launch-ca-anaheim-pearson-park": {
+      "name": "Pearson Park",
+      "boundarySource": "https://www.openstreetmap.org/way/182016453",
+      "candidates": [
+        {
+          "name": "Harbor-Sycamore",
+          "latitude": 33.838484,
+          "longitude": -117.9208371,
+          "osmType": "node",
+          "osmId": 10684568761,
+          "sourceUrl": "https://www.openstreetmap.org/node/10684568761",
+          "tags": {
+            "bus": "yes",
+            "highway": "bus_stop",
+            "name": "Harbor-Sycamore",
+            "network": "OC Bus",
+            "network:wikidata": "Q6593059",
+            "operator": "Orange County Transportation Authority",
+            "operator:short": "OCTA",
+            "operator:wikidata": "Q7099595",
+            "public_transport": "platform",
+            "ref": "0227",
+            "source": "OCTA GIS"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Pearson Park Amphitheatre",
+          "latitude": 33.8381172,
+          "longitude": -117.9178651,
+          "osmType": "way",
+          "osmId": 172547232,
+          "sourceUrl": "https://www.openstreetmap.org/way/172547232",
+          "tags": {
+            "amenity": "theatre",
+            "name": "Pearson Park Amphitheatre",
+            "wikidata": "Q66768694"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Pearson Park",
+          "latitude": 33.8378868,
+          "longitude": -117.9187795,
+          "osmType": "way",
+          "osmId": 182016453,
+          "sourceUrl": "https://www.openstreetmap.org/way/182016453",
+          "tags": {
+            "leisure": "park",
+            "name": "Pearson Park",
+            "wikidata": "Q49540719"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    },
+    "launch-ca-irvine-william-r-mason-regional-park": {
+      "name": "William R. Mason Regional Park",
+      "boundarySource": "https://www.openstreetmap.org/way/171427741",
+      "candidates": [
+        {
+          "name": "Mason Regional Park",
+          "latitude": 33.6549249,
+          "longitude": -117.832949,
+          "osmType": "way",
+          "osmId": 171427741,
+          "sourceUrl": "https://www.openstreetmap.org/way/171427741",
+          "tags": {
+            "leisure": "park",
+            "name": "Mason Regional Park",
+            "official_name": "William R. Mason Regional Park",
+            "operator": "OC Parks",
+            "operator:type": "public",
+            "operator:wikidata": "Q104882836",
+            "wikidata": "Q8017241"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "University Trail",
+          "latitude": 33.657109,
+          "longitude": -117.8348084,
+          "osmType": "way",
+          "osmId": 847844161,
+          "sourceUrl": "https://www.openstreetmap.org/way/847844161",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "lanes": "2",
+            "maxspeed": "15 mph",
+            "motor_vehicle": "no",
+            "name": "University Trail",
+            "surface": "paved",
+            "width": "3"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "University Trail",
+          "latitude": 33.656813,
+          "longitude": -117.8299048,
+          "osmType": "way",
+          "osmId": 963482601,
+          "sourceUrl": "https://www.openstreetmap.org/way/963482601",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "lanes": "2",
+            "maxspeed": "15 mph",
+            "motor_vehicle": "no",
+            "name": "University Trail",
+            "surface": "concrete",
+            "tiger:cfcc": "A41",
+            "tiger:name_base": "University",
+            "tiger:name_type": "Dr",
+            "width": "3"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Sand Canyon Wash Trail",
+          "latitude": 33.6567429,
+          "longitude": -117.83184,
+          "osmType": "way",
+          "osmId": 963482602,
+          "sourceUrl": "https://www.openstreetmap.org/way/963482602",
+          "tags": {
+            "bicycle": "designated",
+            "crossing": "uncontrolled",
+            "cycleway": "crossing",
+            "foot": "designated",
+            "highway": "cycleway",
+            "lanes": "2",
+            "maxspeed": "15 mph",
+            "motor_vehicle": "no",
+            "name": "Sand Canyon Wash Trail",
+            "surface": "asphalt",
+            "traffic_calming": "table",
+            "width": "3"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Sand Canyon Wash South Branch",
+          "latitude": 33.6538782,
+          "longitude": -117.8347059,
+          "osmType": "way",
+          "osmId": 1049680534,
+          "sourceUrl": "https://www.openstreetmap.org/way/1049680534",
+          "tags": {
+            "intermittent": "yes",
+            "name": "Sand Canyon Wash South Branch",
+            "waterway": "stream"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Sand Canyon Wash South Branch",
+          "latitude": 33.6559856,
+          "longitude": -117.8373145,
+          "osmType": "way",
+          "osmId": 1049680537,
+          "sourceUrl": "https://www.openstreetmap.org/way/1049680537",
+          "tags": {
+            "intermittent": "yes",
+            "name": "Sand Canyon Wash South Branch",
+            "waterway": "stream"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Sand Canyon Wash",
+          "latitude": 33.6572757,
+          "longitude": -117.8384946,
+          "osmType": "way",
+          "osmId": 1049680539,
+          "sourceUrl": "https://www.openstreetmap.org/way/1049680539",
+          "tags": {
+            "intermittent": "yes",
+            "name": "Sand Canyon Wash",
+            "waterway": "stream"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Butterfly Garden",
+          "latitude": 33.6551189,
+          "longitude": -117.8369512,
+          "osmType": "way",
+          "osmId": 1068359878,
+          "sourceUrl": "https://www.openstreetmap.org/way/1068359878",
+          "tags": {
+            "access": "yes",
+            "garden:type": "public",
+            "leisure": "garden",
+            "name": "Butterfly Garden"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Sand Canyon Wash South Branch",
+          "latitude": 33.6572049,
+          "longitude": -117.8382981,
+          "osmType": "way",
+          "osmId": 1352109902,
+          "sourceUrl": "https://www.openstreetmap.org/way/1352109902",
+          "tags": {
+            "intermittent": "yes",
+            "name": "Sand Canyon Wash South Branch",
+            "waterway": "stream"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Sand Canyon Wash South Branch",
+          "latitude": 33.6571053,
+          "longitude": -117.8381804,
+          "osmType": "way",
+          "osmId": 1352109903,
+          "sourceUrl": "https://www.openstreetmap.org/way/1352109903",
+          "tags": {
+            "intermittent": "yes",
+            "layer": "-1",
+            "name": "Sand Canyon Wash South Branch",
+            "tunnel": "culvert",
+            "waterway": "stream"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    }
+  }
+}

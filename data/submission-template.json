@@ -1,19 +1,37 @@
 {
-  "id": "institution-city-state",
-  "name": "Institution Name",
-  "type": "Library",
-  "city": "City",
-  "state": "ST",
+  "id": "place-city-state",
+  "name": "Place Name",
+  "type": "Park",
+  "city": "Raleigh",
+  "state": "NC",
+  "country": "US",
+  "citySlug": "raleigh-nc",
   "address": "123 Main St",
   "latitude": 0,
   "longitude": 0,
-  "rating": 4.0,
-  "summary": "Short note about the listening environment and any access barriers or strengths.",
-  "tags": ["quiet zone", "assistive listening"],
+  "neighborhood": "Neighborhood",
+  "status": "Public resource",
+  "hours": "Hours need verification",
+  "cost": "Cost needs verification",
+  "accessibility": "Accessibility needs verification",
+  "transit": "Transit access needs verification",
+  "amenities": ["community programs", "playground"],
+  "sourceLabel": "Official source",
+  "source": "https://example.gov/place",
+  "verifiedAt": "YYYY-MM-DD",
+  "summary": "Short note describing what the place offers and why it belongs on the map.",
+  "tags": ["community programs", "playground"],
+  "image": {
+    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/example.jpg?width=1400",
+    "source": "https://commons.wikimedia.org/wiki/File:example.jpg",
+    "author": "Photographer name",
+    "license": "CC BY 4.0",
+    "alt": "Plain-language image description"
+  },
   "comments": [
     {
       "author": "Community member",
-      "text": "Helpful first-hand note for future visitors."
+      "text": "Helpful first-hand note for future visitors or contributors."
     }
   ]
 }

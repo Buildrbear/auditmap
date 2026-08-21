@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "campaignId": "atlanta-parent-guides-2026-08-20",
+  "asOf": "2026-08-20",
+  "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+  "issueUrl": "https://github.com/Buildrbear/auditmap/issues/61",
+  "submissionUrl": "https://github.com/Buildrbear/auditmap/pull/1",
+  "reconciliationUrl": "https://github.com/Buildrbear/auditmap/pull/62",
+  "packetId": "release-reconciliation-ga-atlanta-01",
+  "contributionTier": "super-enrichment",
+  "summary": {"publishableParents": 0, "duplicatesOrRenames": 3, "blockedParents": 0, "deployed": 0},
+  "records": [
+    {
+      "recordId": "/us/ga/atlanta/parks/atlanta-beltline-eastside-trail",
+      "stableId": "launch-ga-atlanta-eastside-trail",
+      "name": "Atlanta BeltLine Eastside Trail",
+      "classification": "duplicate-renamed-to-eastside-trail",
+      "latitude": 33.7544828,
+      "longitude": -84.3654746,
+      "operatorSource": "https://beltline.org/parks-trails/eastside-trail/",
+      "checkedAt": "2026-08-06",
+      "imageSource": "https://commons.wikimedia.org/wiki/File%3AAtlanta_Beltline_Eastside_Trail%2C_Inman_Park_GA.jpg",
+      "imageAuthor": "John Phelan",
+      "imageLicense": "CC BY 4.0"
+    },
+    {
+      "recordId": "/us/ga/atlanta/parks/chastain-memorial-park",
+      "stableId": "launch-ga-atlanta-chastain-park",
+      "name": "Chastain Memorial Park",
+      "classification": "duplicate-renamed-to-chastain-park",
+      "latitude": 33.8712146,
+      "longitude": -84.3910383,
+      "operatorSource": "https://www.atlantaga.gov/government/departments/department-parks-recreation/office-of-parks/list-of-parks-alphabetical",
+      "checkedAt": "2026-08-06",
+      "imageSource": "https://commons.wikimedia.org/wiki/File%3AChastain_Park_Trail%2C_Atlanta_GA.jpg",
+      "imageAuthor": "John Phelan",
+      "imageLicense": "CC BY 4.0"
+    },
+    {
+      "recordId": "/us/ga/atlanta/parks/shirley-clarke-franklin-park-westside-park",
+      "stableId": "launch-ga-atlanta-westside-park",
+      "name": "Shirley Clarke Franklin Park (Westside Park)",
+      "classification": "duplicate-renamed-to-westside-park",
+      "latitude": 33.779242,
+      "longitude": -84.4383942,
+      "operatorSource": "https://www.atlantaga.gov/government/departments/department-parks-recreation/office-of-parks/list-of-parks-alphabetical",
+      "checkedAt": "2026-08-06",
+      "imageSource": "https://commons.wikimedia.org/wiki/File%3AWestside_Reservoir.jpg",
+      "imageAuthor": "Tyler Lahti",
+      "imageLicense": "CC BY-SA 4.0"
+    }
+  ],
+  "reviewQueue": [
+    "All three packet routes are legacy-name duplicates. Permanent redirects point to the existing enriched canonical parents at /eastside-trail, /chastain-park and /westside-park.",
+    "Recheck exact facility, event and transit schedules because they can differ from parent park hours.",
+    "Keep Westside Park reservoir restrictions explicit: protected drinking-water infrastructure is not a swimming, boating or shoreline-access destination.",
+    "Child destinations remain outside this parent-only reconciliation and retain their own evidence requirements.",
+    "Production presence is the closing authority; local generation keeps all three records submitted rather than live."
+  ],
+  "verification": {
+    "atlantaVerifier": "passed-on-stacked-head",
+    "campaignSuite": "passed-55-campaigns-on-stacked-head",
+    "rawHtml": "canonical-pages-enriched-three-legacy-files-retained-for-active-claim-audit",
+    "imageRights": "licensed-commons-galleries-persisted",
+    "productionPresence": "not-present",
+    "releaseDecision": "duplicate-renamed-pending-production-redirect-verification-and-accepted-claim-cleanup"
+  },
+  "risk": {
+    "privacy": "none",
+    "security": "none",
+    "moderation": "none",
+    "accessibility": "No child facility inherits a broad parent accessibility claim.",
+    "cost": "No paid API or dependency was added.",
+    "freshness": "Hours, events, transit and reservoir restrictions require operator rechecks."
+  }
+}

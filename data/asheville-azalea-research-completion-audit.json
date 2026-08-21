@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "packetId": "research-completion-nc-asheville-01",
+  "checkedAt": "2026-08-20",
+  "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+  "issueUrl": "https://github.com/Buildrbear/auditmap/issues/39",
+  "contributionTier": "inventory",
+  "outcome": "inventory-source-complete-access-and-photo-gated",
+  "acceptedRecordIds": [
+    "/us/nc/asheville/parks/azalea-park"
+  ],
+  "publication": {
+    "generatedPages": 0,
+    "productionWrites": 0,
+    "reason": "The parent identity and coordinate are source-complete, but current public access remains explicitly unresolved and no representative reusable parent photograph set was found."
+  },
+  "records": [
+    {
+      "recordId": "/us/nc/asheville/parks/azalea-park",
+      "canonicalName": "Azalea Park",
+      "aliases": [],
+      "city": "Asheville",
+      "state": "NC",
+      "category": "large municipal riverfront recreation park",
+      "managingAgency": "City of Asheville Parks & Recreation",
+      "canonicalAddress": "498 Azalea Road, Asheville, NC 28805",
+      "latitude": 35.5754035067782,
+      "longitude": -82.48586281337646,
+      "positionQuality": "reviewed-official-location-pin",
+      "coordinateProvenance": {
+        "publisher": "City of Asheville",
+        "service": "Published municipal location record",
+        "wordpressLocationId": 72725,
+        "externalId": "338975",
+        "sourceUrl": "https://www.ashevillenc.gov/wp-json/wp/v2/locations/72725",
+        "checkedAt": "2026-08-20"
+      },
+      "coordinateCrossCheck": {
+        "publisher": "City of Asheville",
+        "service": "Park Info Points GIS",
+        "objectId": 12,
+        "gisId": "54",
+        "latitude": 35.5750473456806,
+        "longitude": -82.4887393825832,
+        "sourceUrl": "https://services.arcgis.com/aJ16ENn1AaqdFlqx/ArcGIS/rest/services/Park_Info_Points/FeatureServer/0/query?where=parkname%20LIKE%20%27%25Azalea%25%27&outFields=*&returnGeometry=true&outSR=4326&f=geojson",
+        "classification": "older official park reference point used only as a cross-check; the current public location pin controls"
+      },
+      "verifiedFacts": [
+        {
+          "fact": "The current City location record identifies Azalea Park as part of the Swannanoa River recreation complex and lists a community garden, fishing pond, off-street parking lots, soccer fields, and a wheelchair-accessible classification.",
+          "sourceLabel": "City of Asheville Azalea Park visitor page",
+          "sourceUrl": "https://www.ashevillenc.gov/locations/azalea-park/",
+          "checkedAt": "2026-08-20",
+          "freshness": "current municipal location record; facility availability remains subject to the unresolved recovery closure"
+        },
+        {
+          "fact": "The structured City record was modified on August 20, 2026 and publishes the 498 Azalea Road address, official map pin, and standard daily hours of 6 a.m. to 10 p.m.",
+          "sourceLabel": "City of Asheville structured location record",
+          "sourceUrl": "https://www.ashevillenc.gov/wp-json/wp/v2/locations/72725",
+          "checkedAt": "2026-08-20",
+          "freshness": "current metadata; standard hours alone do not establish that storm-closed areas reopened"
+        },
+        {
+          "fact": "The latest explicit park-area status notice found says John B. Lewis Soccer Complex is open while all other areas of Azalea Park are closed.",
+          "sourceLabel": "City of Asheville January 2026 park-area status notice",
+          "sourceUrl": "https://www.ashevillenc.gov/news/city-of-asheville-offices-closed-january-19-in-observance-of-martin-luther-king-jr-day/",
+          "checkedAt": "2026-08-20",
+          "freshness": "fast-changing closure evidence; obtain an explicit current status before publication"
+        },
+        {
+          "fact": "The City's July 2026 project page says restoration of parks and infrastructure assets on Azalea Road remains active after Helene damage.",
+          "sourceLabel": "Azalea Parks and Infrastructure Recovery",
+          "sourceUrl": "https://www.ashevillenc.gov/projects/azalea-parks-and-infrastructure-recovery/",
+          "checkedAt": "2026-08-20",
+          "freshness": "active recovery project; recheck frequently"
+        }
+      ],
+      "relationshipDecision": "Azalea Dog Park is a named off-leash facility within the larger Azalea Park complex and already has a distinct destination record. It is not the parent park and is not a duplicate. John B. Lewis Soccer Complex is another separately named facility; its access status cannot be generalized to the rest of Azalea Park.",
+      "duplicateStatus": "no parent duplicate found; existing Azalea Dog Park record retained as a related facility",
+      "imageStatus": "photo-gated",
+      "accessStatus": "unresolved-current-closure-conflict"
+    }
+  ],
+  "imageRightsReview": {
+    "openverse": {
+      "source": "Openverse API",
+      "queries": 4,
+      "reusableCandidates": 0,
+      "resultFile": "data/asheville-azalea-photo-research.json"
+    },
+    "wikimediaCommons": {
+      "method": "Exact-name web search plus geosearch within 10 kilometers of the current official parent coordinate",
+      "outcome": "Results were other Azalea Parks, nearby golf-course and hospital subjects, flora and wildlife, regional flood imagery, and aerial rasters. No representative exact-destination photograph was accepted."
+    },
+    "officialSiteImages": {
+      "outcome": "The current City page embeds planning art, historic images, a ribbon-cutting image, flood damage, and trail mapping, but does not publish an image-specific reuse license. Credits and public display were not treated as permission, and the set is not four varied current visitor photographs."
+    }
+  },
+  "sourceAccessReview": {
+    "browserEvidence": "Current City pages were available through browser-capable public research on 2026-08-20.",
+    "commandLineHttp": "The normal City HTML pages returned HTTP 403 to direct requests, while the official WordPress REST record and both ArcGIS REST services returned HTTP 200.",
+    "classification": "anti-automation access difference; the structured City endpoint supplies current public record evidence",
+    "nextCheck": "Recheck the public visitor page in a normal browser and query the structured location record before any launch-guide publication."
+  },
+  "reviewQueue": [
+    {
+      "place": "Azalea Park",
+      "fieldOrFeature": "current public access",
+      "conflictOrMissingEvidence": "The current City location record publishes standard hours but no reopening statement; the latest explicit status notice found says all areas except John B. Lewis Soccer Complex are closed, and the recovery project remains active.",
+      "sourcesChecked": [
+        "City Azalea Park visitor and structured records",
+        "January 2026 park-area status notice",
+        "July 2026 recovery project"
+      ],
+      "recommendedNextAction": "Obtain an explicit current operator statement identifying which park areas are open before publishing hours, parking, fishing, shelter, restroom, dog-park, or trail guidance."
+    },
+    {
+      "place": "Azalea Park",
+      "fieldOrFeature": "parent photography",
+      "conflictOrMissingEvidence": "No four-view representative permission-cleared or openly licensed parent set was found.",
+      "sourcesChecked": [
+        "Openverse API",
+        "Wikimedia Commons exact-name and geosearch",
+        "City of Asheville location and recovery pages"
+      ],
+      "recommendedNextAction": "Obtain four varied current reusable views of ordinary circulation and major park amenities, or written City permission for exact-location photographs."
+    },
+    {
+      "place": "Azalea Park",
+      "fieldOrFeature": "launch-guide visitor intents",
+      "conflictOrMissingEvidence": "Inventory evidence is complete, but current parking, entrances, restroom availability, fishing access, shelter availability, accessibility routes, dog rules, transit, family fit, and weather/flood guidance cannot be published while area access is unresolved.",
+      "sourcesChecked": [
+        "Current City visitor and recovery records",
+        "City park GIS"
+      ],
+      "recommendedNextAction": "Assign a separate launch-guide packet only after access and photo gates clear, then source every recurring visitor intent against the reopened-area map."
+    }
+  ],
+  "risks": [
+    "Treating the current standard-hours metadata as a reopening notice would overstate the evidence and could direct visitors into storm-closed areas.",
+    "The City GIS reference point and facility attributes are older than the current location record; use them for cross-checking, not for current availability.",
+    "ArcGIS or WordPress media hosting does not establish image reuse rights.",
+    "No private visitor data, precise visitor-location logs, paid API calls, dependencies, generated pages, or production writes are included."
+  ]
+}

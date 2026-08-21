@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-08-17",
+  "references": [
+    {
+      "id": "tpl-parkserve-2025",
+      "name": "Trust for Public Land ParkServe",
+      "role": "National coverage benchmark and candidate-gap reference",
+      "coverage": "Park data for more than 15,000 United States cities and towns, with park polygons and selected trail and playground layers",
+      "homepage": "https://www.tpl.org/parkserve",
+      "downloads": "https://www.tpl.org/park-data-downloads",
+      "mapServer": "https://server7.tplgis.org/arcgis7/rest/services/ParkServe/ParkServe_Shareable/MapServer",
+      "methodology": "https://parkserve.tpl.org/downloads/ParkServe_Documentation_2025.pdf",
+      "terms": "https://parkserve.tpl.org/downloads/ParkServe_Terms_of_Use_May_2024.pdf",
+      "publicationAuthority": false,
+      "bulkImportApproved": false,
+      "usageRule": "Use the published aggregate count as a planning denominator and ParkServe records to identify questions for official-source reconciliation. Do not copy, redistribute, modify, or publicly display the bulk dataset unless a maintainer documents permission and the applicable upstream licenses. Verify every publishable AuditMap record with its operator or another allowed authoritative source."
+    }
+  ],
+  "spatialSourceRegistry": "data/spatial-source-registry.json"
+}

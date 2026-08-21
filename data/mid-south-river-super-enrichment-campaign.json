@@ -1,0 +1,79 @@
+{
+  "campaign": "Mid-South river corridor",
+  "checkedAt": "2026-08-08",
+  "releaseStandard": "Four licensed destination-specific photos, preserved official visitor answers, full street addresses, and only named subsites with reviewed coordinates plus destination-specific photography.",
+  "places": [
+    {
+      "id": "launch-tn-memphis-shelby-farms-park",
+      "name": "Shelby Farms Park",
+      "city": "Memphis",
+      "state": "TN",
+      "citySlug": "memphis-tn",
+      "operator": "Shelby Farms Park Conservancy",
+      "source": "https://www.shelbyfarmspark.org/",
+      "featureResearchRadiusMeters": 5500,
+      "imageQueries": ["Shelby Farms Park Memphis", "Woodland Discovery Playground Memphis", "Shelby Farms Park buffalo Greenline"],
+      "subsites": ["Woodland Discovery Playground", "Water Play Sprayground", "Hyde Lake", "Outback Off-Leash Area", "Shelby Farms Greenline", "Buffalo Range", "Go Ape", "Shelby Farms Stables"]
+    },
+    {
+      "id": "launch-tn-memphis-overton-park",
+      "name": "Overton Park",
+      "city": "Memphis",
+      "state": "TN",
+      "citySlug": "memphis-tn",
+      "operator": "City of Memphis with Overton Park Conservancy",
+      "source": "https://overtonpark.org/the-park/",
+      "featureResearchRadiusMeters": 1800,
+      "imageQueries": ["Overton Park Memphis", "Rainbow Lake Playground Memphis", "Old Forest Overton Park Memphis"],
+      "subsites": ["Rainbow Lake Playground", "Old Forest State Natural Area", "Overton Bark", "Greensward", "Formal Gardens", "Levitt Shell", "Memphis Zoo", "Memphis Brooks Museum of Art"]
+    },
+    {
+      "id": "launch-tn-memphis-tom-lee-park",
+      "name": "Tom Lee Park",
+      "city": "Memphis",
+      "state": "TN",
+      "citySlug": "memphis-tn",
+      "operator": "Memphis River Parks Partnership",
+      "source": "https://memphisparks.com/park/tom-lee-park/",
+      "featureResearchRadiusMeters": 1400,
+      "imageQueries": ["Tom Lee Park Memphis", "Life on the River playground Memphis", "Tom Lee Park Sunset Canopy"],
+      "subsites": ["Life on the River Playground", "Sunset Canopy", "Hanover Welcome Center", "A Monument to Listening", "Hammock Grove", "Tom Lee Memorial", "RiverFit Fitness Area"]
+    },
+    {
+      "id": "launch-ky-louisville-cherokee-park",
+      "name": "Cherokee Park",
+      "city": "Louisville",
+      "state": "KY",
+      "citySlug": "louisville-ky",
+      "operator": "Louisville Parks and Recreation",
+      "source": "https://louisvilleky.gov/government/parks/park-list/cherokee-park",
+      "featureResearchRadiusMeters": 2600,
+      "imageQueries": ["Cherokee Park Louisville Kentucky", "Big Rock Cherokee Park Louisville", "Hogan's Fountain Cherokee Park"],
+      "subsites": ["Big Rock", "Hogan's Fountain", "Scenic Loop", "Cherokee Park Sprayground", "Cherokee Park Dog Run", "Baringer Hill", "Cherokee Golf Course"]
+    },
+    {
+      "id": "launch-ky-louisville-louisville-waterfront-park",
+      "name": "Louisville Waterfront Park",
+      "city": "Louisville",
+      "state": "KY",
+      "citySlug": "louisville-ky",
+      "operator": "Waterfront Park",
+      "source": "https://ourwaterfront.org/",
+      "featureResearchRadiusMeters": 3200,
+      "imageQueries": ["Louisville Waterfront Park Kentucky", "Big Four Bridge Louisville", "PlayPort Louisville Waterfront Park"],
+      "subsites": ["Big Four Bridge", "Adventure Playground", "Splash Park", "PlayPort", "Children's Play Area", "Lincoln Memorial", "Waterfront Botanical Gardens"]
+    },
+    {
+      "id": "launch-ky-louisville-iroquois-park",
+      "name": "Iroquois Park",
+      "city": "Louisville",
+      "state": "KY",
+      "citySlug": "louisville-ky",
+      "operator": "Louisville Parks and Recreation",
+      "source": "https://louisvilleky.gov/government/parks/park-list/iroquois-park",
+      "featureResearchRadiusMeters": 3200,
+      "imageQueries": ["Iroquois Park Louisville Kentucky", "Iroquois Amphitheater Louisville", "Iroquois Park overlook Louisville"],
+      "subsites": ["Iroquois Amphitheater", "North Overlook", "Iroquois Park Playground", "Iroquois Park Sprayground", "Iroquois Park Loop", "Iroquois Golf Course", "Iroquois Park Disc Golf Course"]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "market": "Raleigh, NC",
+  "updatedAt": "2026-08-03",
+  "standard": {
+    "minimumImages": 3,
+    "minimumAnswers": 10,
+    "requiredIntents": [
+      "parking",
+      "entrance",
+      "restroom",
+      "hours",
+      "fees",
+      "accessibility"
+    ],
+    "imagePolicy": "Real images with source attribution; prefer official operator sources; no AI images.",
+    "contentPolicy": "Official facts plus reviewed, source-backed visitor guidance.",
+    "subsitePolicy": "Distinct attractions such as dog parks, playgrounds, aquatic facilities, trailheads, museums, gardens, and sports areas receive full subsite pages when their parent site is large enough to make orientation important."
+  },
+  "excluded": [
+    {
+      "id": "raleigh-municipal-building",
+      "reason": "Municipal office building"
+    },
+    {
+      "id": "raleigh-pathways-center",
+      "reason": "Civic service office rather than a visitor recreation or cultural destination"
+    },
+    {
+      "id": "raleigh-union-station",
+      "reason": "Retain existing page, but exclude from the parks enrichment campaign"
+    },
+    {
+      "id": "oberlin-regional-library",
+      "reason": "Retain existing page, but exclude from the parks enrichment campaign"
+    },
+    {
+      "pattern": "private apartment, HOA, membership-only, or commercial dog amenities",
+      "reason": "Not a general public place"
+    }
+  ],
+  "existingCore": [
+    "dix-park",
+    "pullen-park",
+    "john-chavis-memorial-park",
+    "moore-square",
+    "green-road-park",
+    "barwell-road-community-center",
+    "kiwanis-park",
+    "city-of-raleigh-museum",
+    "ncma-museum-park",
+    "launch-nc-raleigh-william-b-umstead-state-park"
+  ],
+  "targetGroups": {
+    "destinationAndLakeParks": [
+      "lake-johnson-park",
+      "lake-wheeler-park",
+      "lake-lynn-park",
+      "shelley-lake-park",
+      "fred-fletcher-park",
+      "anderson-point-park",
+      "forest-ridge-park"
+    ],
+    "naturePreserves": [
+      "annie-louise-wilkerson-nature-preserve",
+      "durant-nature-preserve",
+      "horseshoe-farm-nature-preserve",
+      "walnut-creek-wetland-park"
+    ],
+    "substantialNeighborhoodAndSportsParks": [
+      "baileywick-park",
+      "biltmore-hills-park",
+      "brier-creek-park",
+      "buffaloe-road-athletic-park",
+      "carolina-pines-park",
+      "jaycee-park",
+      "laurel-hills-park",
+      "leesville-community-park",
+      "lions-park",
+      "marsh-creek-park",
+      "method-community-park",
+      "millbrook-exchange-park",
+      "optimist-park",
+      "roanoke-park",
+      "roberts-park",
+      "sanderford-road-park",
+      "tarboro-road-park",
+      "walnut-creek-athletic-complex"
+    ],
+    "intermediateAndHiddenGemParks": [
+      "lassiter-mill-park",
+      "north-carolina-freedom-park",
+      "wral-azalea-gardens",
+      "raleighs-smallest-park",
+      "pender-street-park"
+    ],
+    "greenways": [
+      "capital-area-greenway",
+      "neuse-river-trail",
+      "walnut-creek-trail",
+      "crabtree-creek-trail",
+      "reedy-creek-trail",
+      "house-creek-trail",
+      "lake-johnson-loop-trails",
+      "shelley-lake-loop-trail",
+      "lake-lynn-loop-trail"
+    ],
+    "publicDogParksAndRuns": [
+      "baileywick-park-dog-park",
+      "buffaloe-road-dog-park",
+      "carolina-pines-dog-park",
+      "dix-park-dog-park",
+      "jaycee-dog-run",
+      "kiwanis-park-dog-run",
+      "millbrook-exchange-dog-park",
+      "oakwood-dog-park",
+      "roberts-park-dog-run"
+    ],
+    "museumsAndPublicCulturalSites": [
+      "marbles-kids-museum",
+      "north-carolina-museum-of-natural-sciences",
+      "north-carolina-museum-of-history",
+      "mordecai-historic-park",
+      "pope-house-museum",
+      "raleigh-rose-garden",
+      "john-p-top-greene-cultural-center"
+    ]
+  }
+}

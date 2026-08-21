@@ -1,0 +1,151 @@
+{
+  "checkedAt": "2026-08-10",
+  "reviewMethod": "Exact named OpenStreetMap feature or reviewed public photo geotag, matched to an official operator map and a destination-specific reusable campaign photograph.",
+  "places": {
+    "launch-al-birmingham-railroad-park": {
+      "west-green": {
+        "name": "West Green",
+        "latitude": 33.508444,
+        "longitude": -86.811668,
+        "coordinateSource": "https://www.flickr.com/photos/76792851@N07/46275218614",
+        "officialMapSource": "https://railroadpark.org/core/uploads/2023/04/RRPF-Map.pdf",
+        "positionQuality": "reviewed-geotagged-destination-photo",
+        "imageIndex": 1,
+        "sourceLabel": "Railroad Park Foundation",
+        "source": "https://railroadpark.org/core/uploads/2023/04/RRPF-Map.pdf",
+        "summary": "West Green is the large lawn-and-path area at Railroad Park's west end, beside the 14th Street side of the park and the West Gate.",
+        "cost": "Ordinary park access is free. Reserving West Green for a private or organized event requires approval and can carry separate facility charges.",
+        "hours": "West Green follows Railroad Park's daily 7:00 a.m.-11:00 p.m. public hours unless a permitted event, maintenance, or temporary closure limits access.",
+        "needToKnow": "Use the 14th Street or west-side approach instead of the central 17th Street Plaza pin. The lawn is bordered by paths and ponds, while the park's staffed office, cafe, and most dependable restrooms are farther east at 17th Street Plaza. Outside food is allowed for ordinary picnics, but grilling and cooking are not.",
+        "displayName": "West Green",
+        "boundarySource": "https://www.openstreetmap.org/way/129478010",
+        "reviewStatus": "approved-official-map-and-geotag-match",
+        "reviewedAt": "2026-08-10"
+      },
+      "17th-street-plaza": {
+        "name": "17th Street Plaza",
+        "latitude": 33.509688,
+        "longitude": -86.809008,
+        "coordinateSource": "https://www.flickr.com/photos/76792851@N07/46275203954",
+        "officialMapSource": "https://railroadpark.org/core/uploads/2023/04/RRPF-Map.pdf",
+        "positionQuality": "reviewed-geotagged-destination-photo",
+        "imageIndex": 2,
+        "sourceLabel": "Railroad Park Foundation",
+        "source": "https://railroadpark.org/about/about-us/",
+        "summary": "17th Street Plaza is Railroad Park's central covered gathering area and the location of the ranger station, Foundation office, public restrooms, and Boxcar Cafe.",
+        "cost": "Walking through and using public amenities during ordinary park operations is free. Reserved plaza sections, organized events, and purchases from the cafe cost separately.",
+        "hours": "The outdoor plaza follows Railroad Park's daily 7:00 a.m.-11:00 p.m. hours. The office, cafe, and event operations keep shorter or event-specific schedules.",
+        "needToKnow": "This is the most useful first-time arrival pin when restrooms or staff help matter. Sections A and B include covered space, but reservations and events can change how much is open. Bicycles, skateboards, and roller skates should use Powell Avenue rather than riding across the plaza.",
+        "displayName": "17th Street Plaza",
+        "boundarySource": "https://www.openstreetmap.org/way/129478010",
+        "reviewStatus": "approved-official-map-and-geotag-match",
+        "reviewedAt": "2026-08-10"
+      },
+      "adventure-playground": {
+        "name": "Adventure Playground",
+        "latitude": 33.509312,
+        "longitude": -86.809802,
+        "coordinateSource": "https://www.flickr.com/photos/76792851@N07/32058033037",
+        "officialMapSource": "https://railroadpark.org/core/uploads/2023/04/RRPF-Map.pdf",
+        "positionQuality": "reviewed-geotagged-destination-photo",
+        "imageIndex": 3,
+        "sourceLabel": "Railroad Park Foundation",
+        "source": "https://railroadpark.org/about/about-us/",
+        "summary": "Adventure Playground is Railroad Park's play area with modern equipment and a climbing dome, positioned near The Meadow and the separate toddler play area.",
+        "cost": "Playground and general park access are free. Programs, private events, food, and other optional services can cost separately.",
+        "hours": "The playground follows Railroad Park's daily 7:00 a.m.-11:00 p.m. hours unless equipment, weather, maintenance, or an event requires a temporary closure; daylight visits are easiest for active play.",
+        "needToKnow": "Do not confuse Adventure Playground with the separate toddler playground farther west. The closest dependable public restrooms are at 17th Street Plaza, so plan that stop before play. The area is near ponds, paths, and passing trains; supervise children closely and check equipment conditions on arrival.",
+        "displayName": "Adventure Playground",
+        "boundarySource": "https://www.openstreetmap.org/way/129478010",
+        "reviewStatus": "approved-official-map-and-geotag-match",
+        "reviewedAt": "2026-08-10"
+      }
+    },
+    "launch-al-birmingham-red-mountain-park": {
+      "frankfurt-drive-entrance": {
+        "name": "Frankfurt Drive Entrance",
+        "latitude": 33.445083,
+        "longitude": -86.862525,
+        "coordinateSource": "https://commons.wikimedia.org/wiki/File:November_7th,_2023_photo_of_Red_Mountain_Park_Birmingham,_AL.jpg",
+        "officialMapSource": "https://oldsite.redmountainpark.org/wp-content/uploads/180810-RMP-papermap-both-sides.pdf",
+        "positionQuality": "reviewed-geotagged-destination-photo",
+        "imageIndex": 0,
+        "sourceLabel": "Jefferson County Greenways",
+        "source": "https://www.jeffcogreenways.org/park/red-mountain-park",
+        "summary": "The Frankfurt Drive Entrance is Red Mountain Park's main arrival point, with the park entrance at the end of Frankfurt Drive and the primary parking area immediately across the street on Lyon Lane.",
+        "cost": "Parking and admission are free. Memberships, programs, reservations, and any future ticketed activities can cost separately.",
+        "hours": "The entrance follows Red Mountain Park's daily 7:00 a.m.-7:00 p.m. hours. Holiday closings, severe weather, maintenance, and operator alerts can override the normal schedule.",
+        "needToKnow": "Continue to the cul-de-sac at the end of Frankfurt Drive, then veer right onto Lyon Lane and turn immediately into the parking area across from the entrance. Accessible restrooms, a pavilion, and a water fountain are concentrated at this entrance; elsewhere in the park, water and restrooms are limited. Keep dogs leashed until they are inside Remy's fenced dog park, and note that all aerial adventures remain closed.",
+        "displayName": "Frankfurt Drive Entrance",
+        "boundarySource": "https://www.openstreetmap.org/way/405947402",
+        "reviewStatus": "approved-official-map-and-geotag-match",
+        "reviewedAt": "2026-08-10"
+      }
+    },
+    "launch-al-birmingham-ruffner-mountain": {
+      "ruffner-mountain-quarry": {
+        "name": "Ruffner Mountain Quarry",
+        "latitude": 33.546372,
+        "longitude": -86.716933,
+        "coordinateSource": "https://commons.wikimedia.org/wiki/File:Ruffner_Mountain_Nature_Preserve.JPG",
+        "officialMapSource": "https://ruffner-mountain.squarespace.com/s/2021PrintReadyPreserveMap.pdf",
+        "positionQuality": "reviewed-geotagged-destination-photo",
+        "imageIndex": 1,
+        "sourceLabel": "Ruffner Mountain",
+        "source": "https://ruffner-mountain.squarespace.com/visit",
+        "summary": "Ruffner Mountain Quarry is the exposed limestone destination reached from the preserve's Quarry Trail network, where visitors can see rock faces and look for fossil evidence of ancient sea life.",
+        "cost": "The preserve does not charge admission. Non-members arriving by vehicle must purchase a $5 daily visitor parking permit; Ruffner members park with their current permit.",
+        "hours": "Quarry access follows preserve and trail hours: Tuesday-Sunday 7:00 a.m.-5:00 p.m. November-February and 7:00 a.m.-7:00 p.m. March-October. The preserve is closed Mondays, and gates close when the lot reaches capacity.",
+        "needToKnow": "This is a trail destination, not a drive-up overlook. Stay on marked trails, keep back from quarry and cliff edges, carry out all trash, and allow enough time to return before the preserve gate closes. Restrooms, water, and staff assistance are concentrated near the Nature Center and pavilion rather than at the quarry.",
+        "displayName": "Ruffner Mountain Quarry",
+        "boundarySource": "https://www.openstreetmap.org/way/625136599",
+        "reviewStatus": "approved-official-map-and-geotag-match",
+        "reviewedAt": "2026-08-10"
+      }
+    },
+    "launch-ms-jackson-lefleur-s-bluff-state-park": {
+      "mayes-lake": {
+        "name": "Mayes Lake",
+        "osm": "way/638368342",
+        "imageIndex": 2,
+        "sourceLabel": "Mississippi Department of Wildlife, Fisheries, and Parks",
+        "source": "https://www.mdwfp.com/parks-destinations/park/lefleurs-bluff-state-park",
+        "summary": "Mayes Lake is the fishing, non-motorized paddling, and electric-trolling-motor water destination inside LeFleur's Bluff State Park.",
+        "cost": "The state park lists general entrance at $2 per person, with children age five and under free; camping, rentals, reservations, and other activities can charge separately.",
+        "hours": "Lake access follows the state park's general day-use hours of 8:00 a.m.-5:00 p.m.; weather, high water, maintenance, and park closures override normal access.",
+        "needToKnow": "Navigate to the Lakeland Terrace state-park entrance, not the museum campus. Bring required fishing credentials, use only permitted watercraft and electric trolling motors, and do not treat the lake as a designated swimming beach.",
+        "latitude": 32.3289033,
+        "longitude": -90.1446497,
+        "displayName": "Mayes Lake",
+        "coordinateSource": "https://www.openstreetmap.org/way/638368342",
+        "boundarySource": "https://www.openstreetmap.org/relation/12893310",
+        "positionQuality": "reviewed-public-map-placement",
+        "reviewStatus": "approved-feature-and-boundary-match",
+        "reviewedAt": "2026-08-10"
+      }
+    },
+    "launch-ar-little-rock-two-rivers-park": {
+      "two-rivers-park-bridge": {
+        "name": "Two Rivers Park Bridge",
+        "osm": "way/122683681",
+        "imageIndex": 0,
+        "allowOutsideBoundary": true,
+        "boundaryExceptionReason": "The official park connection extends from the park-side approach across the Little Maumelle River beyond the mapped land polygon.",
+        "sourceLabel": "City of Little Rock Parks and Recreation",
+        "source": "https://www.littlerock.gov/!userfiles/editor/docs/parks/Trail%20Maps%2011%2013%2012_Two%20Rivers%20Park.pdf",
+        "summary": "Two Rivers Park Bridge is the 1,162-foot pedestrian and bicycle connection from River Mountain and the Arkansas River Trail into Two Rivers Park.",
+        "cost": "Bridge, trail, park, playground, and general parking access are free; organized events, permits, and rentals can charge separately.",
+        "hours": "Use the bridge only while the park and connecting trail are open and conditions are safe; flooding, severe weather, construction, or maintenance can interrupt through access.",
+        "needToKnow": "The bridge is exposed and adds distance before reaching the park's playground, pavilion, and fields. Check river and trail conditions, share the path predictably, carry water, and plan the return distance before crossing.",
+        "latitude": 34.8011522,
+        "longitude": -92.382588,
+        "displayName": "Two Rivers Park Bridge",
+        "coordinateSource": "https://www.openstreetmap.org/way/122683681",
+        "boundarySource": "https://www.openstreetmap.org/way/178172073",
+        "positionQuality": "reviewed-official-campus-placement",
+        "reviewStatus": "approved-official-campus-extension",
+        "reviewedAt": "2026-08-10"
+      }
+    }
+  }
+}

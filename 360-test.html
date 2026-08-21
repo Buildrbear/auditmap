@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>360 Viewer Test | AuditMap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.7/build/pannellum.css" />
+    <link rel="stylesheet" href="/styles.css?v=20260805-1" />
+  </head>
+  <body class="media-test-page">
+    <main class="media-test-shell">
+      <header class="media-test-heading">
+        <a class="brand" href="/index.html" aria-label="AuditMap home">
+          <img src="/assets/auditmap-mark.svg" alt="" />
+          <span>AuditMap</span>
+        </a>
+        <div>
+          <p class="kicker">Crumbs media test</p>
+          <h1>Look around in 360°</h1>
+          <p>This real park photosphere exercises AuditMap’s full equirectangular viewer.</p>
+        </div>
+      </header>
+      <section
+        class="media-test-viewer"
+        id="media-test-viewer"
+        aria-label="Interactive 360 degree view along the Trail of Time in Grand Canyon National Park"
+      ></section>
+      <section class="media-test-details">
+        <div>
+          <span>Test file</span>
+          <strong>5,376 × 2,688 · JPEG · 2:1 equirectangular</strong>
+        </div>
+        <p>
+          Trail of Time 360 panorama, Grand Canyon National Park / NPS, M. Quinn,
+          <a href="https://creativecommons.org/licenses/by/2.0/" target="_blank" rel="noreferrer">CC BY 2.0</a>.
+          <a href="https://commons.wikimedia.org/wiki/File:Along_the_Trail_of_Time_-_Grand_Canyon_National_Park_-_R0010515_-_30270508138.jpg" target="_blank" rel="noreferrer">Source and attribution ↗</a>
+        </p>
+      </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/pannellum@2.5.7/build/pannellum.js"></script>
+    <script>
+      window.pannellum.viewer("media-test-viewer", {
+        type: "equirectangular",
+        panorama: "/assets/test-media/grand-canyon-trail-of-time-360.jpg",
+        autoLoad: true,
+        showControls: true,
+        compass: false,
+        hfov: 105,
+        pitch: -2,
+      });
+    </script>
+  </body>
+</html>

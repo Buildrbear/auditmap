@@ -1,0 +1,563 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/us/ga/atlanta/parks/atlanta-beltline-eastside-trail", "destination": "/us/ga/atlanta/parks/eastside-trail", "permanent": true },
+    { "source": "/us/ga/atlanta/parks/chastain-memorial-park", "destination": "/us/ga/atlanta/parks/chastain-park", "permanent": true },
+    { "source": "/us/ga/atlanta/parks/shirley-clarke-franklin-park-westside-park", "destination": "/us/ga/atlanta/parks/westside-park", "permanent": true },
+    { "source": "/us/de/wilmington/parks/brandywine-park/brandywine-zoo", "destination": "/us/de/wilmington/parks/brandywine-park", "permanent": true },
+    { "source": "/us/fl/tampa/parks/curtis-hixon-waterfront-park/great-lawn", "destination": "/us/fl/tampa/parks/curtis-hixon-waterfront-park", "permanent": true },
+    { "source": "/us/fl/tampa/parks/curtis-hixon-waterfront-park/curtis-hixon-splash-pads", "destination": "/us/fl/tampa/parks/curtis-hixon-waterfront-park", "permanent": true },
+    { "source": "/us/fl/tampa/parks/curtis-hixon-waterfront-park/curtis-hixon-playground", "destination": "/us/fl/tampa/parks/curtis-hixon-waterfront-park", "permanent": true },
+    { "source": "/us/fl/tampa/parks/curtis-hixon-waterfront-park/curtis-hixon-dog-parks", "destination": "/us/fl/tampa/parks/curtis-hixon-waterfront-park", "permanent": true },
+    { "source": "/us/fl/tampa/parks/curtis-hixon-waterfront-park/tampa-riverwalk", "destination": "/us/fl/tampa/parks/curtis-hixon-waterfront-park", "permanent": true },
+    { "source": "/us/fl/tampa/parks/curtis-hixon-waterfront-park/curtis-hixon-boat-dock-and-water-taxi-stop", "destination": "/us/fl/tampa/parks/curtis-hixon-waterfront-park", "permanent": true },
+    { "source": "/us/fl/tampa/parks/curtis-hixon-waterfront-park/kiley-garden", "destination": "/us/fl/tampa/parks/curtis-hixon-waterfront-park", "permanent": true },
+    { "source": "/us/fl/tampa/parks/curtis-hixon-waterfront-park/tampa-museum-of-art-riverwalk-entrance", "destination": "/us/fl/tampa/parks/curtis-hixon-waterfront-park", "permanent": true },
+    { "source": "/us/fl/tampa/parks/lettuce-lake-park/lettuce-lake-boardwalk", "destination": "/us/fl/tampa/parks/lettuce-lake-park", "permanent": true },
+    { "source": "/us/fl/tampa/parks/lettuce-lake-park/lettuce-lake-observation-tower", "destination": "/us/fl/tampa/parks/lettuce-lake-park", "permanent": true },
+    { "source": "/us/fl/tampa/parks/lettuce-lake-park/joel-e-jackson-nature-center", "destination": "/us/fl/tampa/parks/lettuce-lake-park", "permanent": true },
+    { "source": "/us/fl/tampa/parks/lettuce-lake-park/lettuce-lake-canoe-and-kayak-launch", "destination": "/us/fl/tampa/parks/lettuce-lake-park", "permanent": true },
+    { "source": "/us/fl/tampa/parks/lettuce-lake-park/lettuce-lake-playgrounds", "destination": "/us/fl/tampa/parks/lettuce-lake-park", "permanent": true },
+    { "source": "/us/fl/tampa/parks/lettuce-lake-park/paved-exercise-loop", "destination": "/us/fl/tampa/parks/lettuce-lake-park", "permanent": true },
+    { "source": "/us/fl/tampa/parks/lettuce-lake-park/native-plant-garden", "destination": "/us/fl/tampa/parks/lettuce-lake-park", "permanent": true },
+    { "source": "/us/fl/tampa/parks/lettuce-lake-park/hillsborough-river-overlook", "destination": "/us/fl/tampa/parks/lettuce-lake-park", "permanent": true },
+    { "source": "/us/fl/tampa/parks/julian-b-lane-riverfront-park/julian-b-lane-play-cove", "destination": "/us/fl/tampa/parks/julian-b-lane-riverfront-park", "permanent": true },
+    { "source": "/us/fl/tampa/parks/julian-b-lane-riverfront-park/julian-b-lane-splash-pad", "destination": "/us/fl/tampa/parks/julian-b-lane-riverfront-park", "permanent": true },
+    { "source": "/us/fl/tampa/parks/julian-b-lane-riverfront-park/julian-b-lane-dog-park", "destination": "/us/fl/tampa/parks/julian-b-lane-riverfront-park", "permanent": true },
+    { "source": "/us/fl/tampa/parks/julian-b-lane-riverfront-park/bob-buckhorn-river-center", "destination": "/us/fl/tampa/parks/julian-b-lane-riverfront-park", "permanent": true },
+    { "source": "/us/fl/tampa/parks/julian-b-lane-riverfront-park/julian-b-lane-boathouse", "destination": "/us/fl/tampa/parks/julian-b-lane-riverfront-park", "permanent": true },
+    { "source": "/us/fl/tampa/parks/julian-b-lane-riverfront-park/community-front-porch", "destination": "/us/fl/tampa/parks/julian-b-lane-riverfront-park", "permanent": true },
+    { "source": "/us/fl/tampa/parks/julian-b-lane-riverfront-park/festival-lawn", "destination": "/us/fl/tampa/parks/julian-b-lane-riverfront-park", "permanent": true },
+    { "source": "/us/fl/tampa/parks/julian-b-lane-riverfront-park/julian-b-lane-sports-courts-and-fields", "destination": "/us/fl/tampa/parks/julian-b-lane-riverfront-park", "permanent": true },
+    { "source": "/us/fl/tampa/parks/ballast-point-park/ballast-point-splash-pad", "destination": "/us/fl/tampa/parks/ballast-point-park", "permanent": true },
+    { "source": "/us/fl/tampa/parks/ballast-point-park/ballast-point-playground", "destination": "/us/fl/tampa/parks/ballast-point-park", "permanent": true },
+    { "source": "/us/fl/tampa/parks/ballast-point-park/ballast-point-boat-ramp", "destination": "/us/fl/tampa/parks/ballast-point-park", "permanent": true },
+    { "source": "/us/fl/tampa/parks/ballast-point-park/ballast-point-boat-dock", "destination": "/us/fl/tampa/parks/ballast-point-park", "permanent": true },
+    { "source": "/us/fl/tampa/parks/ballast-point-park/ballast-point-gazebo", "destination": "/us/fl/tampa/parks/ballast-point-park", "permanent": true },
+    { "source": "/us/fl/tampa/parks/ballast-point-park/ballast-point-picnic-shelters", "destination": "/us/fl/tampa/parks/ballast-point-park", "permanent": true },
+    { "source": "/us/fl/tampa/parks/ballast-point-park/leons-lobstah-shack", "destination": "/us/fl/tampa/parks/ballast-point-park", "permanent": true },
+    { "source": "/us/fl/tampa/parks/ballast-point-park/ballast-point-pier-viewpoint", "destination": "/us/fl/tampa/parks/ballast-point-park", "permanent": true },
+    { "source": "/us/fl/st-petersburg/parks/vinoy-park/vinoy-park-waterfront-trail", "destination": "/us/fl/st-petersburg/parks/vinoy-park", "permanent": true },
+    { "source": "/us/fl/st-petersburg/parks/vinoy-park/vinoy-park-event-lawn", "destination": "/us/fl/st-petersburg/parks/vinoy-park", "permanent": true },
+    { "source": "/us/fl/st-petersburg/parks/vinoy-park/vinoy-basin-overlook", "destination": "/us/fl/st-petersburg/parks/vinoy-park", "permanent": true },
+    { "source": "/us/fl/st-petersburg/parks/vinoy-park/north-shore-waterfront-connection", "destination": "/us/fl/st-petersburg/parks/vinoy-park", "permanent": true },
+    { "source": "/us/fl/st-petersburg/parks/vinoy-park/gizella-kopsick-palm-arboretum-connection", "destination": "/us/fl/st-petersburg/parks/vinoy-park", "permanent": true },
+    { "source": "/us/fl/st-petersburg/parks/vinoy-park/vinoy-park-beach-volleyball-courts", "destination": "/us/fl/st-petersburg/parks/vinoy-park", "permanent": true },
+    { "source": "/us/fl/st-petersburg/parks/vinoy-park/vinoy-park-seawall", "destination": "/us/fl/st-petersburg/parks/vinoy-park", "permanent": true },
+    { "source": "/us/fl/st-petersburg/parks/vinoy-park/vinoy-park-northeast-entrance", "destination": "/us/fl/st-petersburg/parks/vinoy-park", "permanent": true },
+    { "source": "/us/fl/st-petersburg/parks/st-pete-pier/glazer-family-playground", "destination": "/us/fl/st-petersburg/parks/st-pete-pier", "permanent": true },
+    { "source": "/us/fl/st-petersburg/parks/st-pete-pier/majeed-foundation-splash-pad", "destination": "/us/fl/st-petersburg/parks/st-pete-pier", "permanent": true },
+    { "source": "/us/fl/st-petersburg/parks/st-pete-pier/spa-beach", "destination": "/us/fl/st-petersburg/parks/st-pete-pier", "permanent": true },
+    { "source": "/us/fl/st-petersburg/parks/st-pete-pier/st-pete-pier-fishing-deck", "destination": "/us/fl/st-petersburg/parks/st-pete-pier", "permanent": true },
+    { "source": "/us/fl/st-petersburg/parks/st-pete-pier/pier-point", "destination": "/us/fl/st-petersburg/parks/st-pete-pier", "permanent": true },
+    { "source": "/us/fl/st-petersburg/parks/st-pete-pier/bending-arc", "destination": "/us/fl/st-petersburg/parks/st-pete-pier", "permanent": true },
+    { "source": "/us/fl/st-petersburg/parks/st-pete-pier/st-pete-pier-family-park", "destination": "/us/fl/st-petersburg/parks/st-pete-pier", "permanent": true },
+    { "source": "/us/fl/tierra-verde/parks/fort-de-soto-park/fort-de-soto-north-beach", "destination": "/us/fl/tierra-verde/parks/fort-de-soto-park", "permanent": true },
+    { "source": "/us/fl/tierra-verde/parks/fort-de-soto-park/fort-de-soto-east-beach", "destination": "/us/fl/tierra-verde/parks/fort-de-soto-park", "permanent": true },
+    { "source": "/us/fl/tierra-verde/parks/fort-de-soto-park/fort-de-soto-dog-beach-and-paw-playground", "destination": "/us/fl/tierra-verde/parks/fort-de-soto-park", "permanent": true },
+    { "source": "/us/fl/tierra-verde/parks/fort-de-soto-park/fort-de-soto-bay-pier", "destination": "/us/fl/tierra-verde/parks/fort-de-soto-park", "permanent": true },
+    { "source": "/us/fl/tierra-verde/parks/fort-de-soto-park/fort-de-soto-multipurpose-trail", "destination": "/us/fl/tierra-verde/parks/fort-de-soto-park", "permanent": true },
+    { "source": "/us/fl/tierra-verde/parks/fort-de-soto-park/fort-de-soto-boat-ramp", "destination": "/us/fl/tierra-verde/parks/fort-de-soto-park", "permanent": true },
+    { "source": "/us/fl/st-petersburg/parks/boyd-hill-nature-preserve/lake-maggiore-environmental-education-center", "destination": "/us/fl/st-petersburg/parks/boyd-hill-nature-preserve", "permanent": true },
+    { "source": "/us/fl/st-petersburg/parks/boyd-hill-nature-preserve/boyd-hill-raptor-aviary", "destination": "/us/fl/st-petersburg/parks/boyd-hill-nature-preserve", "permanent": true },
+    { "source": "/us/fl/st-petersburg/parks/boyd-hill-nature-preserve/lake-maggiore-overlook", "destination": "/us/fl/st-petersburg/parks/boyd-hill-nature-preserve", "permanent": true },
+    { "source": "/us/fl/st-petersburg/parks/boyd-hill-nature-preserve/boyd-hill-scrub-trail", "destination": "/us/fl/st-petersburg/parks/boyd-hill-nature-preserve", "permanent": true },
+    { "source": "/us/fl/st-petersburg/parks/boyd-hill-nature-preserve/boyd-hill-pine-flatwoods-trail", "destination": "/us/fl/st-petersburg/parks/boyd-hill-nature-preserve", "permanent": true },
+    { "source": "/us/fl/st-petersburg/parks/boyd-hill-nature-preserve/boyd-hill-willow-marsh-trail", "destination": "/us/fl/st-petersburg/parks/boyd-hill-nature-preserve", "permanent": true },
+    { "source": "/us/fl/st-petersburg/parks/boyd-hill-nature-preserve/pinellas-pioneer-settlement", "destination": "/us/fl/st-petersburg/parks/boyd-hill-nature-preserve", "permanent": true },
+    { "source": "/us/fl/st-petersburg/parks/boyd-hill-nature-preserve/terry-tomalin-campground", "destination": "/us/fl/st-petersburg/parks/boyd-hill-nature-preserve", "permanent": true },
+    { "source": "/us/fl/miami/parks/bayfront-park/tina-hills-pavilion", "destination": "/us/fl/miami/parks/bayfront-park", "permanent": true },
+    { "source": "/us/fl/miami/parks/bayfront-park/noguchi-monuments", "destination": "/us/fl/miami/parks/bayfront-park", "permanent": true },
+    { "source": "/us/fl/miami/parks/bayfront-park/bay-walk-waterfront", "destination": "/us/fl/miami/parks/bayfront-park", "permanent": true },
+    { "source": "/us/fl/miami/parks/bayfront-park/pepper-fountain", "destination": "/us/fl/miami/parks/bayfront-park", "permanent": true },
+    { "source": "/us/fl/miami/parks/bayfront-park/challenger-memorial", "destination": "/us/fl/miami/parks/bayfront-park", "permanent": true },
+    { "source": "/us/fl/miami/parks/bayfront-park/bayfront-amphitheater", "destination": "/us/fl/miami/parks/bayfront-park", "permanent": true },
+    { "source": "/us/fl/miami/parks/bayfront-park/bayfront-park-station", "destination": "/us/fl/miami/parks/bayfront-park", "permanent": true },
+    { "source": "/us/fl/miami/parks/bayfront-park/central-lawn-event-zone", "destination": "/us/fl/miami/parks/bayfront-park", "permanent": true },
+    { "source": "/us/fl/miami/parks/matheson-hammock-park/east-hammock-trail", "destination": "/us/fl/miami/parks/matheson-hammock-park", "permanent": true },
+    { "source": "/us/fl/miami/parks/matheson-hammock-park/redfish-waterfront-restaurant", "destination": "/us/fl/miami/parks/matheson-hammock-park", "permanent": true },
+    { "source": "/us/fl/miami/parks/matheson-hammock-park/west-matheson-dog-area", "destination": "/us/fl/miami/parks/matheson-hammock-park", "permanent": true },
+    { "source": "/us/fl/miami/parks/matheson-hammock-park/matheson-picnic-shelters", "destination": "/us/fl/miami/parks/matheson-hammock-park", "permanent": true },
+    { "source": "/us/fl/miami/parks/matheson-hammock-park/kiteboarding-launch-area", "destination": "/us/fl/miami/parks/matheson-hammock-park", "permanent": true },
+    { "source": "/us/fl/miami/parks/matheson-hammock-park/mangrove-waterfront-path", "destination": "/us/fl/miami/parks/matheson-hammock-park", "permanent": true },
+    { "source": "/us/fl/miami-beach/parks/south-pointe-park/splash-pad-playground", "destination": "/us/fl/miami-beach/parks/south-pointe-park", "permanent": true },
+    { "source": "/us/fl/miami-beach/parks/south-pointe-park/cutwalk-promenade", "destination": "/us/fl/miami-beach/parks/south-pointe-park", "permanent": true },
+    { "source": "/us/fl/miami-beach/parks/south-pointe-park/south-pointe-dog-park", "destination": "/us/fl/miami-beach/parks/south-pointe-park", "permanent": true },
+    { "source": "/us/fl/miami-beach/parks/south-pointe-park/park-lawns-ship-overlook", "destination": "/us/fl/miami-beach/parks/south-pointe-park", "permanent": true },
+    { "source": "/us/fl/miami-beach/parks/south-pointe-park/beachwalk-connection", "destination": "/us/fl/miami-beach/parks/south-pointe-park", "permanent": true },
+    { "source": "/us/fl/miami-beach/parks/south-pointe-park/washington-avenue-entrance", "destination": "/us/fl/miami-beach/parks/south-pointe-park", "permanent": true },
+    { "source": "/us/fl/miami-beach/parks/lummus-park/lummus-playground", "destination": "/us/fl/miami-beach/parks/lummus-park", "permanent": true },
+    { "source": "/us/fl/miami-beach/parks/lummus-park/muscle-beach-south-beach", "destination": "/us/fl/miami-beach/parks/lummus-park", "permanent": true },
+    { "source": "/us/fl/miami-beach/parks/lummus-park/sixth-street-fitness-restrooms", "destination": "/us/fl/miami-beach/parks/lummus-park", "permanent": true },
+    { "source": "/us/fl/miami-beach/parks/lummus-park/beachfront-path", "destination": "/us/fl/miami-beach/parks/lummus-park", "permanent": true },
+    { "source": "/us/fl/miami-beach/parks/lummus-park/tenth-street-restrooms", "destination": "/us/fl/miami-beach/parks/lummus-park", "permanent": true },
+    { "source": "/us/fl/miami-beach/parks/lummus-park/fourteenth-street-access", "destination": "/us/fl/miami-beach/parks/lummus-park", "permanent": true },
+    { "source": "/us/fl/miami-beach/parks/lummus-park/lummus-volleyball-courts", "destination": "/us/fl/miami-beach/parks/lummus-park", "permanent": true },
+    { "source": "/us/fl/miami-beach/parks/lummus-park/beach-access-mats", "destination": "/us/fl/miami-beach/parks/lummus-park", "permanent": true },
+    { "source": "/us/fl/key-biscayne/parks/crandon-park/family-amusement-center", "destination": "/us/fl/key-biscayne/parks/crandon-park", "permanent": true },
+    { "source": "/us/fl/key-biscayne/parks/crandon-park/visitor-nature-center", "destination": "/us/fl/key-biscayne/parks/crandon-park", "permanent": true },
+    { "source": "/us/fl/key-biscayne/parks/crandon-park/bear-cut-preserve", "destination": "/us/fl/key-biscayne/parks/crandon-park", "permanent": true },
+    { "source": "/us/fl/key-biscayne/parks/crandon-park/crandon-north-beach", "destination": "/us/fl/key-biscayne/parks/crandon-park", "permanent": true },
+    { "source": "/us/fl/key-biscayne/parks/crandon-park/crandon-south-beach-cabanas", "destination": "/us/fl/key-biscayne/parks/crandon-park", "permanent": true },
+    { "source": "/us/fl/key-biscayne/parks/crandon-park/crandon-golf-course", "destination": "/us/fl/key-biscayne/parks/crandon-park", "permanent": true },
+    { "source": "/us/fl/key-biscayne/parks/bill-baggs-cape-florida-state-park/no-name-harbor", "destination": "/us/fl/key-biscayne/parks/bill-baggs-cape-florida-state-park", "permanent": true },
+    { "source": "/us/fl/key-biscayne/parks/bill-baggs-cape-florida-state-park/lighthouse-cafe-picnic-area", "destination": "/us/fl/key-biscayne/parks/bill-baggs-cape-florida-state-park", "permanent": true },
+    { "source": "/us/fl/key-biscayne/parks/bill-baggs-cape-florida-state-park/boaters-grill", "destination": "/us/fl/key-biscayne/parks/bill-baggs-cape-florida-state-park", "permanent": true },
+    { "source": "/us/fl/key-biscayne/parks/bill-baggs-cape-florida-state-park/cape-florida-bike-trails", "destination": "/us/fl/key-biscayne/parks/bill-baggs-cape-florida-state-park", "permanent": true },
+    { "source": "/us/fl/key-biscayne/parks/bill-baggs-cape-florida-state-park/seawall-fishing", "destination": "/us/fl/key-biscayne/parks/bill-baggs-cape-florida-state-park", "permanent": true },
+    { "source": "/us/fl/key-biscayne/parks/bill-baggs-cape-florida-state-park/picnic-pavilions", "destination": "/us/fl/key-biscayne/parks/bill-baggs-cape-florida-state-park", "permanent": true },
+    { "source": "/us/fl/miami/parks/historic-virginia-key-beach-park/historic-beach-shoreline", "destination": "/us/fl/miami/parks/historic-virginia-key-beach-park", "permanent": true },
+    { "source": "/us/fl/miami/parks/historic-virginia-key-beach-park/wetland-nature-areas", "destination": "/us/fl/miami/parks/historic-virginia-key-beach-park", "permanent": true },
+    { "source": "/us/fl/miami/parks/historic-virginia-key-beach-park/civil-rights-visitor-center", "destination": "/us/fl/miami/parks/historic-virginia-key-beach-park", "permanent": true },
+    { "source": "/us/fl/miami/parks/historic-virginia-key-beach-park/picnic-pavilions-event-lawns", "destination": "/us/fl/miami/parks/historic-virginia-key-beach-park", "permanent": true },
+    { "source": "/us/fl/miami/parks/historic-virginia-key-beach-park/beach-boardwalk", "destination": "/us/fl/miami/parks/historic-virginia-key-beach-park", "permanent": true },
+    { "source": "/us/fl/miami/parks/maurice-a-ferre-park/public-art-waterfront-walk", "destination": "/us/fl/miami/parks/maurice-a-ferre-park", "permanent": true },
+    { "source": "/us/fl/miami/parks/maurice-a-ferre-park/dogs-and-cats-walkway", "destination": "/us/fl/miami/parks/maurice-a-ferre-park", "permanent": true },
+    { "source": "/us/fl/miami/parks/maurice-a-ferre-park/museum-park-station", "destination": "/us/fl/miami/parks/maurice-a-ferre-park", "permanent": true },
+    { "source": "/us/fl/miami/parks/maurice-a-ferre-park/bayfront-lawn", "destination": "/us/fl/miami/parks/maurice-a-ferre-park", "permanent": true },
+    { "source": "/us/fl/miami/parks/maurice-a-ferre-park/museum-plaza", "destination": "/us/fl/miami/parks/maurice-a-ferre-park", "permanent": true },
+    { "source": "/us/fl/miami/parks/maurice-a-ferre-park/fec-slip-waterfront", "destination": "/us/fl/miami/parks/maurice-a-ferre-park", "permanent": true },
+    { "source": "/us/fl/miami/parks/maurice-a-ferr-park", "destination": "/us/fl/miami/parks/maurice-a-ferre-park", "permanent": true },
+    { "source": "/us/wi/madison/parks/olbrich-park/olbrich-botanical-gardens", "destination": "/us/wi/madison/parks/olbrich-park", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/white-river-state-park/downtown-canal-walk", "destination": "/us/in/indianapolis/parks/white-river-state-park", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/white-river-state-park/old-washington-street-bridge", "destination": "/us/in/indianapolis/parks/white-river-state-park", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/white-river-state-park/celebration-plaza", "destination": "/us/in/indianapolis/parks/white-river-state-park", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/white-river-state-park/military-park", "destination": "/us/in/indianapolis/parks/white-river-state-park", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/white-river-state-park/indiana-state-museum-lawn", "destination": "/us/in/indianapolis/parks/white-river-state-park", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/white-river-state-park/ncaa-hall-of-champions", "destination": "/us/in/indianapolis/parks/white-river-state-park", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/white-river-state-park/eiteljorg-museum", "destination": "/us/in/indianapolis/parks/white-river-state-park", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/white-river-state-park/indianapolis-zoo", "destination": "/us/in/indianapolis/parks/white-river-state-park", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/fort-harrison-state-park/fort-harrison-visitor-center", "destination": "/us/in/indianapolis/parks/fort-harrison-state-park", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/fort-harrison-state-park/harrison-trace-trail", "destination": "/us/in/indianapolis/parks/fort-harrison-state-park", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/fort-harrison-state-park/delaware-lake", "destination": "/us/in/indianapolis/parks/fort-harrison-state-park", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/fort-harrison-state-park/duck-pond", "destination": "/us/in/indianapolis/parks/fort-harrison-state-park", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/fort-harrison-state-park/lawrence-creek-trail", "destination": "/us/in/indianapolis/parks/fort-harrison-state-park", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/fort-harrison-state-park/museum-of-20th-century-warfare", "destination": "/us/in/indianapolis/parks/fort-harrison-state-park", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/fort-harrison-state-park/fort-harrison-sledding-hill", "destination": "/us/in/indianapolis/parks/fort-harrison-state-park", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/fort-harrison-state-park/fort-harrison-dog-park", "destination": "/us/in/indianapolis/parks/fort-harrison-state-park", "permanent": true },
+    { "source": "/us/oh/cincinnati/parks/smale-riverfront-park/carol-ann-s-carousel", "destination": "/us/oh/cincinnati/parks/smale-riverfront-park", "permanent": true },
+    { "source": "/us/oh/cincinnati/parks/smale-riverfront-park/heekin-family-adventure-playground", "destination": "/us/oh/cincinnati/parks/smale-riverfront-park", "permanent": true },
+    { "source": "/us/oh/cincinnati/parks/smale-riverfront-park/pichler-fountains", "destination": "/us/oh/cincinnati/parks/smale-riverfront-park", "permanent": true },
+    { "source": "/us/oh/cincinnati/parks/smale-riverfront-park/main-street-fountain", "destination": "/us/oh/cincinnati/parks/smale-riverfront-park", "permanent": true },
+    { "source": "/us/oh/cincinnati/parks/smale-riverfront-park/rosenberg-swings", "destination": "/us/oh/cincinnati/parks/smale-riverfront-park", "permanent": true },
+    { "source": "/us/oh/cincinnati/parks/smale-riverfront-park/barr-labyrinth", "destination": "/us/oh/cincinnati/parks/smale-riverfront-park", "permanent": true },
+    { "source": "/us/oh/cincinnati/parks/smale-riverfront-park/roebling-bridge-overlook", "destination": "/us/oh/cincinnati/parks/smale-riverfront-park", "permanent": true },
+    { "source": "/us/oh/cincinnati/parks/washington-park/washington-park-children-s-playground", "destination": "/us/oh/cincinnati/parks/washington-park", "permanent": true },
+    { "source": "/us/oh/cincinnati/parks/washington-park/washington-park-interactive-water-park", "destination": "/us/oh/cincinnati/parks/washington-park", "permanent": true },
+    { "source": "/us/oh/cincinnati/parks/washington-park/sherwin-williams-porch", "destination": "/us/oh/cincinnati/parks/washington-park", "permanent": true },
+    { "source": "/us/oh/cincinnati/parks/washington-park/washington-park-civic-lawn", "destination": "/us/oh/cincinnati/parks/washington-park", "permanent": true },
+    { "source": "/us/oh/cincinnati/parks/washington-park/washington-park-bandstand", "destination": "/us/oh/cincinnati/parks/washington-park", "permanent": true },
+    { "source": "/us/oh/cincinnati/parks/washington-park/cincinnati-music-hall-view", "destination": "/us/oh/cincinnati/parks/washington-park", "permanent": true },
+    { "source": "/us/oh/cincinnati/parks/washington-park/washington-park-underground-garage", "destination": "/us/oh/cincinnati/parks/washington-park", "permanent": true },
+    {
+      "source": "/us/oh/columbus/parks/quarry-trails-metro-park/quarry-trails-via-ferrata",
+      "destination": "/us/oh/columbus/parks/quarry-trails-metro-park",
+      "permanent": true
+    },
+    {
+      "source": "/us/oh/columbus/parks/quarry-trails-metro-park/sport-climbing-area",
+      "destination": "/us/oh/columbus/parks/quarry-trails-metro-park",
+      "permanent": true
+    },
+    {
+      "source": "/us/oh/columbus/parks/quarry-trails-metro-park/quarry-trails-mountain-bike-trail",
+      "destination": "/us/oh/columbus/parks/quarry-trails-metro-park",
+      "permanent": true
+    },
+    {
+      "source": "/us/oh/columbus/parks/quarry-trails-metro-park/quarry-trails-dog-park",
+      "destination": "/us/oh/columbus/parks/quarry-trails-metro-park",
+      "permanent": true
+    },
+    {
+      "source": "/us/oh/columbus/parks/quarry-trails-metro-park/swan-lake",
+      "destination": "/us/oh/columbus/parks/quarry-trails-metro-park",
+      "permanent": true
+    },
+    {
+      "source": "/us/oh/columbus/parks/quarry-trails-metro-park/quarry-trails-observation-trail",
+      "destination": "/us/oh/columbus/parks/quarry-trails-metro-park",
+      "permanent": true
+    },
+    {
+      "source": "/us/oh/columbus/parks/quarry-trails-metro-park/quarry-trails-lake-area",
+      "destination": "/us/oh/columbus/parks/quarry-trails-metro-park",
+      "permanent": true
+    },
+    { "source": "/us/oh/columbus/parks/scioto-mile/bicentennial-park", "destination": "/us/oh/columbus/parks/scioto-mile", "permanent": true },
+    { "source": "/us/oh/columbus/parks/scioto-mile/scioto-mile-fountain", "destination": "/us/oh/columbus/parks/scioto-mile", "permanent": true },
+    { "source": "/us/oh/columbus/parks/scioto-mile/main-street-bridge", "destination": "/us/oh/columbus/parks/scioto-mile", "permanent": true },
+    { "source": "/us/oh/columbus/parks/scioto-mile/rich-street-bridge", "destination": "/us/oh/columbus/parks/scioto-mile", "permanent": true },
+    { "source": "/us/oh/columbus/parks/scioto-mile/genoa-park", "destination": "/us/oh/columbus/parks/scioto-mile", "permanent": true },
+    { "source": "/us/oh/columbus/parks/scioto-mile/north-bank-park", "destination": "/us/oh/columbus/parks/scioto-mile", "permanent": true },
+    { "source": "/us/oh/columbus/parks/scioto-mile/coleman-point", "destination": "/us/oh/columbus/parks/scioto-mile", "permanent": true },
+    { "source": "/us/oh/columbus/parks/franklin-park/scotts-miracle-gro-community-garden-campus", "destination": "/us/oh/columbus/parks/franklin-park", "permanent": true },
+    { "source": "/us/oh/columbus/parks/franklin-park/the-scotts-miracle-gro-foundation-children-s-garden", "destination": "/us/oh/columbus/parks/franklin-park", "permanent": true },
+    { "source": "/us/oh/columbus/parks/franklin-park/franklin-park-amphitheater", "destination": "/us/oh/columbus/parks/franklin-park", "permanent": true },
+    { "source": "/us/oh/columbus/parks/franklin-park/espy-adaptive-sports-complex", "destination": "/us/oh/columbus/parks/franklin-park", "permanent": true },
+    { "source": "/us/oh/columbus/parks/franklin-park/asian-garden", "destination": "/us/oh/columbus/parks/franklin-park", "permanent": true },
+    { "source": "/us/oh/columbus/parks/franklin-park/broad-street-entrance", "destination": "/us/oh/columbus/parks/franklin-park", "permanent": true },
+    { "source": "/us/oh/columbus/parks/goodale-park/goodale-park-fountain", "destination": "/us/oh/columbus/parks/goodale-park", "permanent": true },
+    { "source": "/us/oh/columbus/parks/goodale-park/goodale-park-playground", "destination": "/us/oh/columbus/parks/goodale-park", "permanent": true },
+    { "source": "/us/oh/columbus/parks/goodale-park/goodale-park-tennis-courts", "destination": "/us/oh/columbus/parks/goodale-park", "permanent": true },
+    { "source": "/us/oh/columbus/parks/goodale-park/goodale-park-basketball-courts", "destination": "/us/oh/columbus/parks/goodale-park", "permanent": true },
+    { "source": "/us/oh/columbus/parks/goodale-park/goodale-park-gazebo", "destination": "/us/oh/columbus/parks/goodale-park", "permanent": true },
+    { "source": "/us/oh/columbus/parks/goodale-park/short-north-entrance", "destination": "/us/oh/columbus/parks/goodale-park", "permanent": true },
+    { "source": "/us/oh/columbus/parks/schiller-park/schiller-park-stage", "destination": "/us/oh/columbus/parks/schiller-park", "permanent": true },
+    { "source": "/us/oh/columbus/parks/schiller-park/umbrella-girl-fountain", "destination": "/us/oh/columbus/parks/schiller-park", "permanent": true },
+    { "source": "/us/oh/columbus/parks/schiller-park/schiller-recreation-center", "destination": "/us/oh/columbus/parks/schiller-park", "permanent": true },
+    { "source": "/us/oh/columbus/parks/schiller-park/schiller-park-playground", "destination": "/us/oh/columbus/parks/schiller-park", "permanent": true },
+    { "source": "/us/oh/columbus/parks/schiller-park/schiller-park-tennis-courts", "destination": "/us/oh/columbus/parks/schiller-park", "permanent": true },
+    { "source": "/us/oh/columbus/parks/schiller-park/schiller-park-basketball-courts", "destination": "/us/oh/columbus/parks/schiller-park", "permanent": true },
+    { "source": "/us/oh/columbus/parks/schiller-park/huntington-garden", "destination": "/us/oh/columbus/parks/schiller-park", "permanent": true },
+    { "source": "/us/oh/columbus/parks/whetstone-park-and-columbus-park-of-roses/park-of-roses-gazebo", "destination": "/us/oh/columbus/parks/whetstone-park-and-columbus-park-of-roses", "permanent": true },
+    { "source": "/us/oh/columbus/parks/whetstone-park-and-columbus-park-of-roses/heritage-rose-garden", "destination": "/us/oh/columbus/parks/whetstone-park-and-columbus-park-of-roses", "permanent": true },
+    { "source": "/us/oh/columbus/parks/whetstone-park-and-columbus-park-of-roses/herb-garden", "destination": "/us/oh/columbus/parks/whetstone-park-and-columbus-park-of-roses", "permanent": true },
+    { "source": "/us/oh/columbus/parks/whetstone-park-and-columbus-park-of-roses/whetstone-prairie", "destination": "/us/oh/columbus/parks/whetstone-park-and-columbus-park-of-roses", "permanent": true },
+    { "source": "/us/oh/columbus/parks/whetstone-park-and-columbus-park-of-roses/olentangy-trail-access", "destination": "/us/oh/columbus/parks/whetstone-park-and-columbus-park-of-roses", "permanent": true },
+    { "source": "/us/oh/columbus/parks/whetstone-park-and-columbus-park-of-roses/whetstone-park-playground", "destination": "/us/oh/columbus/parks/whetstone-park-and-columbus-park-of-roses", "permanent": true },
+    { "source": "/us/oh/columbus/parks/whetstone-park-and-columbus-park-of-roses/whetstone-park-tennis-courts", "destination": "/us/oh/columbus/parks/whetstone-park-and-columbus-park-of-roses", "permanent": true },
+    { "source": "/us/oh/columbus/parks/highbanks-metro-park/highbanks-nature-center", "destination": "/us/oh/columbus/parks/highbanks-metro-park", "permanent": true },
+    { "source": "/us/oh/columbus/parks/highbanks-metro-park/overlook-trail", "destination": "/us/oh/columbus/parks/highbanks-metro-park", "permanent": true },
+    { "source": "/us/oh/columbus/parks/highbanks-metro-park/big-meadows-picnic-area", "destination": "/us/oh/columbus/parks/highbanks-metro-park", "permanent": true },
+    { "source": "/us/oh/columbus/parks/highbanks-metro-park/highbanks-natural-play-area", "destination": "/us/oh/columbus/parks/highbanks-metro-park", "permanent": true },
+    { "source": "/us/oh/columbus/parks/highbanks-metro-park/dripping-rock-trail", "destination": "/us/oh/columbus/parks/highbanks-metro-park", "permanent": true },
+    { "source": "/us/oh/columbus/parks/highbanks-metro-park/scenic-river-trail", "destination": "/us/oh/columbus/parks/highbanks-metro-park", "permanent": true },
+    { "source": "/us/oh/columbus/parks/highbanks-metro-park/highbanks-wetland-observation-deck", "destination": "/us/oh/columbus/parks/highbanks-metro-park", "permanent": true },
+    { "source": "/us/oh/columbus/parks/battelle-darby-creek-metro-park/indian-ridge-picnic-area", "destination": "/us/oh/columbus/parks/battelle-darby-creek-metro-park", "permanent": true },
+    { "source": "/us/oh/columbus/parks/battelle-darby-creek-metro-park/battelle-darby-natural-play-area", "destination": "/us/oh/columbus/parks/battelle-darby-creek-metro-park", "permanent": true },
+    { "source": "/us/oh/columbus/parks/battelle-darby-creek-metro-park/darby-creek-greenway-trail", "destination": "/us/oh/columbus/parks/battelle-darby-creek-metro-park", "permanent": true },
+    { "source": "/us/oh/columbus/parks/battelle-darby-creek-metro-park/cedar-ridge-picnic-area", "destination": "/us/oh/columbus/parks/battelle-darby-creek-metro-park", "permanent": true },
+    { "source": "/us/oh/columbus/parks/battelle-darby-creek-metro-park/big-darby-creek-canoe-access", "destination": "/us/oh/columbus/parks/battelle-darby-creek-metro-park", "permanent": true },
+    { "source": "/us/oh/columbus/parks/battelle-darby-creek-metro-park/pleasant-valley-area", "destination": "/us/oh/columbus/parks/battelle-darby-creek-metro-park", "permanent": true },
+    { "source": "/us/ma/boston/parks/boston-common-and-public-garden", "destination": "/us/ma/boston/parks/boston-common", "permanent": true },
+    { "source": "/us/oh/cleveland/parks/edgewater-park/edgewater-beach-house", "destination": "/us/oh/cleveland/parks/edgewater-park", "permanent": true },
+    { "source": "/us/oh/cleveland/parks/edgewater-park/edgewater-dog-beach", "destination": "/us/oh/cleveland/parks/edgewater-park/edgewater-beach", "permanent": true },
+    { "source": "/us/oh/cleveland/parks/edgewater-park/edgewater-fishing-pier", "destination": "/us/oh/cleveland/parks/edgewater-park", "permanent": true },
+    { "source": "/us/oh/cleveland/parks/edgewater-park/lower-edgewater-park", "destination": "/us/oh/cleveland/parks/edgewater-park", "permanent": true },
+    { "source": "/us/oh/cleveland/parks/edgewater-park/upper-edgewater-park", "destination": "/us/oh/cleveland/parks/edgewater-park", "permanent": true },
+    { "source": "/us/oh/cleveland/parks/edgewater-park/edgewater-boat-ramps", "destination": "/us/oh/cleveland/parks/edgewater-park", "permanent": true },
+    { "source": "/us/oh/cleveland/parks/wendy-park/whiskey-island-trail", "destination": "/us/oh/cleveland/parks/wendy-park", "permanent": true },
+    { "source": "/us/oh/cleveland/parks/wendy-park/wendy-park-fishing-pier", "destination": "/us/oh/cleveland/parks/wendy-park/old-cleveland-coast-guard-station", "permanent": true },
+    { "source": "/us/oh/cleveland/parks/wendy-park/wendy-park-paddling-access", "destination": "/us/oh/cleveland/parks/wendy-park", "permanent": true },
+    { "source": "/us/oh/cleveland/parks/wendy-park/old-coast-guard-station-overlook", "destination": "/us/oh/cleveland/parks/wendy-park/old-cleveland-coast-guard-station", "permanent": true },
+    { "source": "/us/oh/cleveland/parks/wendy-park/wendy-park-picnic-area", "destination": "/us/oh/cleveland/parks/wendy-park", "permanent": true },
+    { "source": "/us/oh/cleveland/parks/wendy-park/whiskey-island-marina", "destination": "/us/oh/cleveland/parks/wendy-park", "permanent": true },
+    { "source": "/us/pa/pittsburgh/parks/riverview-park/riverview-park-off-leash-exercise-area", "destination": "/us/pa/pittsburgh/parks/riverview-park", "permanent": true },
+    { "source": "/us/pa/pittsburgh/parks/riverview-park/riverview-park-pool", "destination": "/us/pa/pittsburgh/parks/riverview-park", "permanent": true },
+    { "source": "/us/pa/pittsburgh/parks/riverview-park/riverview-playground", "destination": "/us/pa/pittsburgh/parks/riverview-park", "permanent": true },
+    { "source": "/us/pa/pittsburgh/parks/riverview-park/snyder-s-point-overlook", "destination": "/us/pa/pittsburgh/parks/riverview-park", "permanent": true },
+    { "source": "/us/pa/pittsburgh/parks/riverview-park/wissahickon-trail", "destination": "/us/pa/pittsburgh/parks/riverview-park", "permanent": true },
+    { "source": "/us/pa/pittsburgh/parks/emerald-view-park/grandview-overlook", "destination": "/us/pa/pittsburgh/parks/emerald-view-park/point-of-view-park", "permanent": true },
+    { "source": "/us/pa/pittsburgh/parks/emerald-view-park/george-and-guy-trailhead", "destination": "/us/pa/pittsburgh/parks/emerald-view-park/point-of-view-park", "permanent": true },
+    { "source": "/us/pa/pittsburgh/parks/emerald-view-park/grandview-playground", "destination": "/us/pa/pittsburgh/parks/emerald-view-park/grandview-park", "permanent": true },
+    { "source": "/us/pa/pittsburgh/parks/emerald-view-park/olympia-park", "destination": "/us/pa/pittsburgh/parks/emerald-view-park", "permanent": true },
+    { "source": "/us/pa/pittsburgh/parks/emerald-view-park/duquesne-heights-greenway", "destination": "/us/pa/pittsburgh/parks/emerald-view-park", "permanent": true },
+    { "source": "/us/pa/pittsburgh/parks/emerald-view-park/mount-washington-trail", "destination": "/us/pa/pittsburgh/parks/emerald-view-park", "permanent": true },
+    { "source": "/us/pa/pittsburgh/parks/emerald-view-park/ream-park", "destination": "/us/pa/pittsburgh/parks/emerald-view-park", "permanent": true },
+    { "source": "/us/pa/pittsburgh/parks/mellon-park/mellon-park-playground", "destination": "/us/pa/pittsburgh/parks/mellon-park", "permanent": true },
+    { "source": "/us/pa/pittsburgh/parks/mellon-park/mellon-park-spray-park", "destination": "/us/pa/pittsburgh/parks/mellon-park", "permanent": true },
+    { "source": "/us/pa/pittsburgh/parks/mellon-park/mellon-park-tennis-center", "destination": "/us/pa/pittsburgh/parks/mellon-park", "permanent": true },
+    { "source": "/us/pa/pittsburgh/parks/mellon-park/mellon-park-rose-garden", "destination": "/us/pa/pittsburgh/parks/mellon-park/mellon-park-walled-garden", "permanent": true },
+    { "source": "/us/pa/pittsburgh/parks/mellon-park/mellon-park-field", "destination": "/us/pa/pittsburgh/parks/mellon-park", "permanent": true },
+    { "source": "/us/pa/pittsburgh/parks/mellon-park/fifth-avenue-entrance", "destination": "/us/pa/pittsburgh/parks/mellon-park", "permanent": true },
+    { "source": "/us/pa/pittsburgh/parks/mellon-park/shady-avenue-entrance", "destination": "/us/pa/pittsburgh/parks/mellon-park", "permanent": true },
+    { "source": "/us/pa/pittsburgh/parks/north-shore-riverfront-park/three-rivers-heritage-trail", "destination": "/us/pa/pittsburgh/parks/north-shore-riverfront-park", "permanent": true },
+    { "source": "/us/pa/pittsburgh/parks/north-shore-riverfront-park/pnc-park-riverwalk", "destination": "/us/pa/pittsburgh/parks/north-shore-riverfront-park", "permanent": true },
+    { "source": "/us/pa/pittsburgh/parks/north-shore-riverfront-park/acrisure-stadium-riverwalk", "destination": "/us/pa/pittsburgh/parks/north-shore-riverfront-park", "permanent": true },
+    { "source": "/us/pa/pittsburgh/parks/north-shore-riverfront-park/carnegie-science-center-riverfront", "destination": "/us/pa/pittsburgh/parks/north-shore-riverfront-park", "permanent": true },
+    { "source": "/us/pa/pittsburgh/parks/north-shore-riverfront-park/allegheny-landing-connection", "destination": "/us/pa/pittsburgh/parks/north-shore-riverfront-park", "permanent": true },
+    { "source": "/us/pa/pittsburgh/parks/north-shore-riverfront-park/north-shore-riverfront-dock", "destination": "/us/pa/pittsburgh/parks/north-shore-riverfront-park", "permanent": true },
+    { "source": "/us/oh/cleveland/parks/rockefeller-park-and-cultural-gardens/irish-cultural-garden", "destination": "/us/oh/cleveland/parks/rockefeller-park-and-cultural-gardens", "permanent": true },
+    { "source": "/us/oh/cleveland/parks/rockefeller-park-and-cultural-gardens/hebrew-cultural-garden", "destination": "/us/oh/cleveland/parks/rockefeller-park-and-cultural-gardens", "permanent": true },
+    { "source": "/us/oh/cleveland/parks/rockefeller-park-and-cultural-gardens/african-american-cultural-garden", "destination": "/us/oh/cleveland/parks/rockefeller-park-and-cultural-gardens", "permanent": true },
+    { "source": "/us/oh/cleveland/parks/rockefeller-park-and-cultural-gardens/centennial-peace-plaza", "destination": "/us/oh/cleveland/parks/rockefeller-park-and-cultural-gardens", "permanent": true },
+    { "source": "/us/oh/cleveland/parks/rockefeller-park-and-cultural-gardens/rockefeller-park-greenhouse", "destination": "/us/oh/cleveland/parks/rockefeller-park-and-cultural-gardens", "permanent": true },
+    { "source": "/us/oh/cleveland/parks/rockefeller-park-and-cultural-gardens/rockefeller-lagoon", "destination": "/us/oh/cleveland/parks/rockefeller-park-and-cultural-gardens", "permanent": true },
+    { "source": "/us/oh/cleveland/parks/public-square/rebol-cafe", "destination": "/us/oh/cleveland/parks/public-square", "permanent": true },
+    { "source": "/us/oh/cleveland/parks/public-square/public-square-main-lawn", "destination": "/us/oh/cleveland/parks/public-square", "permanent": true },
+    { "source": "/us/oh/cleveland/parks/public-square/hospitality-kiosk", "destination": "/us/oh/cleveland/parks/public-square", "permanent": true },
+    { "source": "/us/oh/cleveland/parks/public-square/keybank-promenade", "destination": "/us/oh/cleveland/parks/public-square", "permanent": true },
+    { "source": "/us/oh/cleveland/parks/public-square/cleveland-foundation-ice-rink", "destination": "/us/oh/cleveland/parks/public-square", "permanent": true },
+    { "source": "/us/oh/cleveland/parks/public-square/illuminate-cle-light-show", "destination": "/us/oh/cleveland/parks/public-square", "permanent": true },
+    { "source": "/us/oh/cleveland/parks/cuyahoga-valley-national-park/boston-mill-visitor-center", "destination": "/us/oh/cleveland/parks/cuyahoga-valley-national-park", "permanent": true },
+    { "source": "/us/oh/cleveland/parks/cuyahoga-valley-national-park/ohio-and-erie-canal-towpath-trail", "destination": "/us/oh/cleveland/parks/cuyahoga-valley-national-park", "permanent": true },
+    { "source": "/us/oh/cleveland/parks/cuyahoga-valley-national-park/blue-hen-falls", "destination": "/us/oh/cleveland/parks/cuyahoga-valley-national-park", "permanent": true },
+    { "source": "/us/oh/cleveland/parks/cuyahoga-valley-national-park/canal-exploration-center", "destination": "/us/oh/cleveland/parks/cuyahoga-valley-national-park", "permanent": true },
+    { "source": "/us/oh/cleveland/parks/cleveland-lakefront-nature-preserve/nature-preserve-entrance", "destination": "/us/oh/cleveland/parks/cleveland-lakefront-nature-preserve", "permanent": true },
+    { "source": "/us/oh/cleveland/parks/cleveland-lakefront-nature-preserve/shoreline-trail", "destination": "/us/oh/cleveland/parks/cleveland-lakefront-nature-preserve", "permanent": true },
+    { "source": "/us/oh/cleveland/parks/cleveland-lakefront-nature-preserve/lakefront-loop-trail", "destination": "/us/oh/cleveland/parks/cleveland-lakefront-nature-preserve", "permanent": true },
+    { "source": "/us/oh/cleveland/parks/cleveland-lakefront-nature-preserve/monarch-meadow", "destination": "/us/oh/cleveland/parks/cleveland-lakefront-nature-preserve", "permanent": true },
+    { "source": "/us/oh/cleveland/parks/cleveland-lakefront-nature-preserve/birding-overlook", "destination": "/us/oh/cleveland/parks/cleveland-lakefront-nature-preserve", "permanent": true },
+    { "source": "/us/oh/cleveland/parks/cleveland-lakefront-nature-preserve/cleveland-skyline-overlook", "destination": "/us/oh/cleveland/parks/cleveland-lakefront-nature-preserve", "permanent": true },
+    { "source": "/us/oh/cleveland/parks/cleveland-lakefront-nature-preserve/preserve-wetlands", "destination": "/us/oh/cleveland/parks/cleveland-lakefront-nature-preserve", "permanent": true },
+    { "source": "/us/oh/cleveland/parks/cleveland-lakefront-nature-preserve/dike-14-peninsula-point", "destination": "/us/oh/cleveland/parks/cleveland-lakefront-nature-preserve", "permanent": true },
+    { "source": "/us/oh/cleveland/parks/rocky-river-reservation/fort-hill-stairs", "destination": "/us/oh/cleveland/parks/rocky-river-reservation", "permanent": true },
+    { "source": "/us/oh/cleveland/parks/rocky-river-reservation/stinchcomb-groth-memorial", "destination": "/us/oh/cleveland/parks/rocky-river-reservation", "permanent": true },
+    { "source": "/us/oh/cleveland/parks/rocky-river-reservation/emerald-necklace-marina", "destination": "/us/oh/cleveland/parks/rocky-river-reservation", "permanent": true },
+    { "source": "/us/oh/cleveland/parks/rocky-river-reservation/lagoon-picnic-area", "destination": "/us/oh/cleveland/parks/rocky-river-reservation", "permanent": true },
+    { "source": "/us/oh/cleveland/parks/rocky-river-reservation/big-met-golf-course", "destination": "/us/oh/cleveland/parks/rocky-river-reservation", "permanent": true },
+    { "source": "/us/oh/cleveland/parks/rocky-river-reservation/rocky-river-all-purpose-trail", "destination": "/us/oh/cleveland/parks/rocky-river-reservation", "permanent": true },
+    { "source": "/us/oh/cleveland/parks/brecksville-reservation/deer-lick-cave", "destination": "/us/oh/cleveland/parks/brecksville-reservation", "permanent": true },
+    { "source": "/us/oh/cleveland/parks/brecksville-reservation/chippewa-creek-gorge", "destination": "/us/oh/cleveland/parks/brecksville-reservation/chippewa-creek-gorge-scenic-overlook", "permanent": true },
+    { "source": "/us/oh/cleveland/parks/brecksville-reservation/harriet-keeler-picnic-area", "destination": "/us/oh/cleveland/parks/brecksville-reservation", "permanent": true },
+    { "source": "/us/oh/cleveland/parks/brecksville-reservation/andrews-nature-play-area", "destination": "/us/oh/cleveland/parks/brecksville-reservation", "permanent": true },
+    { "source": "/us/oh/cleveland/parks/brecksville-reservation/buckeye-trail", "destination": "/us/oh/cleveland/parks/brecksville-reservation", "permanent": true },
+    { "source": "/us/oh/cleveland/parks/brecksville-reservation/sleepy-hollow-golf-course", "destination": "/us/oh/cleveland/parks/brecksville-reservation", "permanent": true },
+    { "source": "/us/oh/cleveland/parks/brecksville-reservation/meadows-picnic-area", "destination": "/us/oh/cleveland/parks/brecksville-reservation", "permanent": true },
+    { "source": "/us/mi/detroit/parks/belle-isle-park/belle-isle-nature-center", "destination": "/us/mi/detroit/parks/belle-isle-park", "permanent": true },
+    { "source": "/us/mi/detroit/parks/belle-isle-park/james-scott-memorial-fountain", "destination": "/us/mi/detroit/parks/belle-isle-park", "permanent": true },
+    { "source": "/us/mi/detroit/parks/belle-isle-park/belle-isle-beach", "destination": "/us/mi/detroit/parks/belle-isle-park", "permanent": true },
+    { "source": "/us/mi/detroit/parks/belle-isle-park/belle-isle-giant-slide", "destination": "/us/mi/detroit/parks/belle-isle-park", "permanent": true },
+    { "source": "/us/mi/detroit/parks/belle-isle-park/oudolf-garden-detroit", "destination": "/us/mi/detroit/parks/belle-isle-park", "permanent": true },
+    { "source": "/us/mi/detroit/parks/detroit-riverwalk/cullen-plaza", "destination": "/us/mi/detroit/parks/detroit-riverwalk", "permanent": true },
+    { "source": "/us/mi/detroit/parks/detroit-riverwalk/william-g-milliken-state-park-and-harbor", "destination": "/us/mi/detroit/parks/detroit-riverwalk", "permanent": true },
+    { "source": "/us/mi/detroit/parks/detroit-riverwalk/robert-c-valade-park", "destination": "/us/mi/detroit/parks/detroit-riverwalk", "permanent": true },
+    { "source": "/us/mi/detroit/parks/detroit-riverwalk/mt-elliott-park", "destination": "/us/mi/detroit/parks/detroit-riverwalk", "permanent": true },
+    { "source": "/us/mi/detroit/parks/detroit-riverwalk/gabriel-richard-park", "destination": "/us/mi/detroit/parks/detroit-riverwalk", "permanent": true },
+    { "source": "/us/mi/detroit/parks/detroit-riverwalk/gm-plaza", "destination": "/us/mi/detroit/parks/detroit-riverwalk", "permanent": true },
+    { "source": "/us/mi/detroit/parks/detroit-riverwalk/renaissance-center-riverfront-plaza", "destination": "/us/mi/detroit/parks/detroit-riverwalk", "permanent": true },
+    { "source": "/us/mi/detroit/parks/detroit-riverwalk/southwest-greenway-connection", "destination": "/us/mi/detroit/parks/detroit-riverwalk", "permanent": true },
+    { "source": "/us/mi/detroit/parks/ralph-c-wilson-jr-centennial-park/delta-dental-play-garden", "destination": "/us/mi/detroit/parks/ralph-c-wilson-jr-centennial-park", "permanent": true },
+    { "source": "/us/mi/detroit/parks/ralph-c-wilson-jr-centennial-park/dte-foundation-summit", "destination": "/us/mi/detroit/parks/ralph-c-wilson-jr-centennial-park", "permanent": true },
+    { "source": "/us/mi/detroit/parks/ralph-c-wilson-jr-centennial-park/community-lawn", "destination": "/us/mi/detroit/parks/ralph-c-wilson-jr-centennial-park", "permanent": true },
+    { "source": "/us/mi/detroit/parks/ralph-c-wilson-jr-centennial-park/river-edge-garden", "destination": "/us/mi/detroit/parks/ralph-c-wilson-jr-centennial-park", "permanent": true },
+    { "source": "/us/mi/detroit/parks/ralph-c-wilson-jr-centennial-park/ralph-wilson-park-basketball-courts", "destination": "/us/mi/detroit/parks/ralph-c-wilson-jr-centennial-park", "permanent": true },
+    { "source": "/us/mi/detroit/parks/ralph-c-wilson-jr-centennial-park/ralph-wilson-park-riverwalk", "destination": "/us/mi/detroit/parks/ralph-c-wilson-jr-centennial-park", "permanent": true },
+    { "source": "/us/mi/detroit/parks/dequindre-cut/dequindre-cut-atwater-entrance", "destination": "/us/mi/detroit/parks/dequindre-cut", "permanent": true },
+    { "source": "/us/mi/detroit/parks/dequindre-cut/dequindre-cut-freight-yard", "destination": "/us/mi/detroit/parks/dequindre-cut", "permanent": true },
+    { "source": "/us/mi/detroit/parks/dequindre-cut/campbell-terrace-stage", "destination": "/us/mi/detroit/parks/dequindre-cut", "permanent": true },
+    { "source": "/us/mi/detroit/parks/dequindre-cut/dequindre-cut-murals", "destination": "/us/mi/detroit/parks/dequindre-cut", "permanent": true },
+    { "source": "/us/mi/detroit/parks/dequindre-cut/grand-trunks-play-areas", "destination": "/us/mi/detroit/parks/dequindre-cut", "permanent": true },
+    { "source": "/us/mi/detroit/parks/dequindre-cut/dequindre-cut-fit-park", "destination": "/us/mi/detroit/parks/dequindre-cut", "permanent": true },
+    { "source": "/us/mi/detroit/parks/dequindre-cut/dequindre-cut-gratiot-entrance", "destination": "/us/mi/detroit/parks/dequindre-cut", "permanent": true },
+    { "source": "/us/mi/detroit/parks/dequindre-cut/dequindre-cut-wilkins-entrance", "destination": "/us/mi/detroit/parks/dequindre-cut", "permanent": true },
+    { "source": "/us/mi/detroit/parks/campus-martius-park/the-beach-at-campus-martius", "destination": "/us/mi/detroit/parks/campus-martius-park", "permanent": true },
+    { "source": "/us/mi/detroit/parks/campus-martius-park/woodward-esplanade", "destination": "/us/mi/detroit/parks/campus-martius-park", "permanent": true },
+    { "source": "/us/mi/detroit/parks/campus-martius-park/michigan-soldiers-and-sailors-monument", "destination": "/us/mi/detroit/parks/campus-martius-park", "permanent": true },
+    { "source": "/us/mi/detroit/parks/campus-martius-park/campus-martius-main-lawn", "destination": "/us/mi/detroit/parks/campus-martius-park", "permanent": true },
+    { "source": "/us/mi/detroit/parks/campus-martius-park/campus-martius-fountain", "destination": "/us/mi/detroit/parks/campus-martius-park", "permanent": true },
+    { "source": "/us/mi/detroit/parks/campus-martius-park/the-shop-at-campus-martius", "destination": "/us/mi/detroit/parks/campus-martius-park", "permanent": true },
+    { "source": "/us/mi/detroit/parks/campus-martius-park/cadillac-square", "destination": "/us/mi/detroit/parks/campus-martius-park", "permanent": true },
+    { "source": "/us/mi/detroit/parks/hart-plaza/gateway-to-freedom-monument", "destination": "/us/mi/detroit/parks/hart-plaza", "permanent": true },
+    { "source": "/us/mi/detroit/parks/hart-plaza/transcending-monument", "destination": "/us/mi/detroit/parks/hart-plaza/transcending", "permanent": true },
+    { "source": "/us/mi/detroit/parks/hart-plaza/michigan-labor-legacy-monument", "destination": "/us/mi/detroit/parks/hart-plaza/transcending", "permanent": true },
+    { "source": "/us/mi/detroit/parks/hart-plaza/hart-plaza-amphitheater", "destination": "/us/mi/detroit/parks/hart-plaza", "permanent": true },
+    { "source": "/us/mi/detroit/parks/hart-plaza/hart-plaza-main-terrace", "destination": "/us/mi/detroit/parks/hart-plaza", "permanent": true },
+    { "source": "/us/mi/detroit/parks/hart-plaza/spirit-of-detroit", "destination": "/us/mi/detroit/parks/hart-plaza", "permanent": true },
+    { "source": "/us/mi/detroit/parks/hart-plaza/monument-to-joe-louis", "destination": "/us/mi/detroit/parks/hart-plaza", "permanent": true },
+    { "source": "/us/mi/detroit/parks/rouge-park/brennan-pool", "destination": "/us/mi/detroit/parks/rouge-park", "permanent": true },
+    { "source": "/us/mi/detroit/parks/rouge-park/brennan-recreation-facility", "destination": "/us/mi/detroit/parks/rouge-park", "permanent": true },
+    { "source": "/us/mi/detroit/parks/rouge-park/rouge-park-golf-course", "destination": "/us/mi/detroit/parks/rouge-park", "permanent": true },
+    { "source": "/us/mi/detroit/parks/rouge-park/ma-iingan-wildwood-trail", "destination": "/us/mi/detroit/parks/rouge-park", "permanent": true },
+    { "source": "/us/mi/detroit/parks/rouge-park/joe-prance-nature-trail", "destination": "/us/mi/detroit/parks/rouge-park", "permanent": true },
+    { "source": "/us/mi/detroit/parks/rouge-park/scout-hollow-camp", "destination": "/us/mi/detroit/parks/rouge-park", "permanent": true },
+    { "source": "/us/mi/detroit/parks/rouge-park/rouge-park-mountain-bike-trail", "destination": "/us/mi/detroit/parks/rouge-park", "permanent": true },
+    { "source": "/us/mi/detroit/parks/rouge-park/rouge-park-prairie", "destination": "/us/mi/detroit/parks/rouge-park", "permanent": true },
+    { "source": "/us/mi/detroit/parks/palmer-park/palmer-park-bandshell", "destination": "/us/mi/detroit/parks/palmer-park", "permanent": true },
+    { "source": "/us/mi/detroit/parks/palmer-park/palmer-park-dog-park", "destination": "/us/mi/detroit/parks/palmer-park", "permanent": true },
+    { "source": "/us/mi/detroit/parks/palmer-park/palmer-park-splash-park", "destination": "/us/mi/detroit/parks/palmer-park", "permanent": true },
+    { "source": "/us/mi/detroit/parks/palmer-park/palmer-park-tennis-courts", "destination": "/us/mi/detroit/parks/palmer-park", "permanent": true },
+    { "source": "/us/mi/detroit/parks/palmer-park/palmer-park-playground", "destination": "/us/mi/detroit/parks/palmer-park", "permanent": true },
+    { "source": "/us/mi/detroit/parks/palmer-park/witherell-woods", "destination": "/us/mi/detroit/parks/palmer-park", "permanent": true },
+    { "source": "/us/ny/new-york-city/parks/central-park/107th-infantry-memorial", "destination": "/us/ny/new-york-city/parks/central-park", "permanent": true },
+    { "source": "/us/ny/new-york-city/parks/central-park/alexander-hamilton", "destination": "/us/ny/new-york-city/parks/central-park/obelisk-metropolitan-museum", "permanent": true },
+    { "source": "/us/ny/new-york-city/parks/central-park/alice-in-wonderland", "destination": "/us/ny/new-york-city/parks/central-park/conservatory-water-alice", "permanent": true },
+    { "source": "/us/ny/new-york-city/parks/central-park/belvedere-castle", "destination": "/us/ny/new-york-city/parks/central-park/belvedere-shakespeare-turtle-pond", "permanent": true },
+    { "source": "/us/ny/new-york-city/parks/central-park/blockhouse-no-1", "destination": "/us/ny/new-york-city/parks/central-park/north-woods-blockhouse", "permanent": true },
+    { "source": "/us/ny/new-york-city/parks/central-park/cleopatra-s-needle", "destination": "/us/ny/new-york-city/parks/central-park/obelisk-metropolitan-museum", "permanent": true },
+    { "source": "/us/ny/new-york-city/parks/central-park/shakespeare-garden", "destination": "/us/ny/new-york-city/parks/central-park/belvedere-shakespeare-turtle-pond", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/eagle-creek-park/earth-discovery-center", "destination": "/us/in/indianapolis/parks/eagle-creek-park", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/eagle-creek-park/eagle-creek-beach", "destination": "/us/in/indianapolis/parks/eagle-creek-park", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/eagle-creek-park/eagle-creek-marina", "destination": "/us/in/indianapolis/parks/eagle-creek-park", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/eagle-creek-park/lilly-lake", "destination": "/us/in/indianapolis/parks/eagle-creek-park", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/eagle-creek-park/pin-oak-trail", "destination": "/us/in/indianapolis/parks/eagle-creek-park", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/eagle-creek-park/canine-companion-zone", "destination": "/us/in/indianapolis/parks/eagle-creek-park", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/eagle-creek-park/go-ape-eagle-creek", "destination": "/us/in/indianapolis/parks/eagle-creek-park", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/monon-trail/monon-trail-10th-street", "destination": "/us/in/indianapolis/parks/monon-trail", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/monon-trail/frank-and-judy-o-bannon-park", "destination": "/us/in/indianapolis/parks/monon-trail", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/monon-trail/fall-creek-greenway-connection", "destination": "/us/in/indianapolis/parks/monon-trail", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/monon-trail/indiana-state-fairgrounds-crossing", "destination": "/us/in/indianapolis/parks/monon-trail", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/monon-trail/canterbury-park", "destination": "/us/in/indianapolis/parks/monon-trail", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/monon-trail/broad-ripple-village", "destination": "/us/in/indianapolis/parks/monon-trail", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/monon-trail/marott-park", "destination": "/us/in/indianapolis/parks/monon-trail", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/monon-trail/monon-trail-96th-street", "destination": "/us/in/indianapolis/parks/monon-trail", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/garfield-park/garfield-park-pagoda", "destination": "/us/in/indianapolis/parks/garfield-park", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/garfield-park/garfield-park-aquatic-center", "destination": "/us/in/indianapolis/parks/garfield-park", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/garfield-park/macallister-amphitheater", "destination": "/us/in/indianapolis/parks/garfield-park", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/garfield-park/burrello-family-center", "destination": "/us/in/indianapolis/parks/garfield-park", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/garfield-park/pleasant-run-trail", "destination": "/us/in/indianapolis/parks/garfield-park", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/holliday-park/holliday-park-playground", "destination": "/us/in/indianapolis/parks/holliday-park", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/holliday-park/holliday-park-trails", "destination": "/us/in/indianapolis/parks/holliday-park", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/holliday-park/white-river-overlook", "destination": "/us/in/indianapolis/parks/holliday-park", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/holliday-park/holliday-park-arboretum", "destination": "/us/in/indianapolis/parks/holliday-park", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/holliday-park/holliday-park-prairie", "destination": "/us/in/indianapolis/parks/holliday-park", "permanent": true },
+    { "source": "/us/in/indianapolis/parks/holliday-park/holliday-park-rock-garden", "destination": "/us/in/indianapolis/parks/holliday-park", "permanent": true }
+  ],
+  "functions": {
+    "api/moderation.js": { "maxDuration": 60 }
+  },
+  "images": {
+    "sizes": [320, 480, 640, 828, 1080, 1400, 1600],
+    "qualities": [70, 78],
+    "formats": ["image/avif", "image/webp"],
+    "minimumCacheTTL": 86400,
+    "domains": [
+      "upload.wikimedia.org",
+      "commons.wikimedia.org",
+      "raleighnc.gov",
+      "ncartmuseum.org",
+      "www.carync.gov",
+      "www.nps.gov",
+      "www.ncparks.gov",
+      "assets.simpleviewinc.com",
+      "www.manchesternh.gov",
+      "www.parks.fortlauderdale.gov",
+      "www.ocparks.com",
+      "kcparks.org",
+      "discover.pbcgov.org",
+      "www.billingsparks.org",
+      "www.visitjackson.com",
+      "dorotheadixpark.org",
+      "downtowncarypark.com",
+      "www.flickr.com",
+      "www.memorialparkconservancy.org"
+      ,"www.dprplaymore.org"
+      ,"www.cityofws.org"
+      ,"www.fayettevillenc.gov"
+      ,"www.wilmingtonnc.gov"
+      ,"jacksonvillenc.gov"
+      ,"www.jacksonvillenc.gov"
+      ,"www.chapelhillnc.gov"
+      ,"cms5.revize.com"
+      ,"www.wakeforestnc.gov"
+      ,"www.ashevillenc.gov"
+      ,"www.apexnc.org"
+      ,"www.burlingtonnc.gov"
+      ,"burlingtonnc.gov"
+      ,"concordnc.gov"
+      ,"www.gastonianc.gov"
+      ,"www.greenvillenc.gov"
+      ,"www.highpointnc.gov"
+      ,"mecknc.widen.net"
+      ,"forsyth.cc"
+      ,"www.kidstogethercary.org"
+      ,"live.staticflickr.com"
+      ,"files.aptuitivcdn.com"
+      ,"www.visitgreensboronc.com"
+      ,"cloudfront.traillink.com"
+      ,"img.barkparkfinder.com"
+      ,"durhamcentralpark.org"
+      ,"exploreapexnc.com"
+      ,"e1.nmcdn.io"
+      ,"www.nctripping.com"
+      ,"thecaryreport.com"
+      ,"admin.onlyinyourstate.com"
+    ],
+    "localPatterns": [
+      { "pathname": "^/assets/.*$", "search": "" }
+    ],
+      "remotePatterns": [
+      { "protocol": "https", "hostname": "^upload\\.wikimedia\\.org$", "pathname": ".*" },
+      { "protocol": "https", "hostname": "^commons\\.wikimedia\\.org$", "pathname": ".*" },
+      { "protocol": "https", "hostname": "^raleighnc\\.gov$", "pathname": ".*" },
+      { "protocol": "https", "hostname": "^ncartmuseum\\.org$", "pathname": ".*" },
+      { "protocol": "https", "hostname": "^www\\.carync\\.gov$", "pathname": ".*" },
+      { "protocol": "https", "hostname": "^www\\.nps\\.gov$", "pathname": ".*" },
+      { "protocol": "https", "hostname": "^www\\.ncparks\\.gov$", "pathname": ".*" },
+      { "protocol": "https", "hostname": "^assets\\.simpleviewinc\\.com$", "pathname": ".*" },
+      { "protocol": "https", "hostname": "^www\\.manchesternh\\.gov$", "pathname": ".*" },
+      { "protocol": "https", "hostname": "^www\\.parks\\.fortlauderdale\\.gov$", "pathname": ".*" },
+      { "protocol": "https", "hostname": "^www\\.ocparks\\.com$", "pathname": ".*" },
+      { "protocol": "https", "hostname": "^kcparks\\.org$", "pathname": ".*" },
+      { "protocol": "https", "hostname": "^discover\\.pbcgov\\.org$", "pathname": ".*" },
+      { "protocol": "https", "hostname": "^www\\.billingsparks\\.org$", "pathname": ".*" },
+      { "protocol": "https", "hostname": "^www\\.visitjackson\\.com$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^dorotheadixpark\\.org$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^downtowncarypark\\.com$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^www\\.flickr\\.com$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^www\\.memorialparkconservancy\\.org$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^www\\.dprplaymore\\.org$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^www\\.cityofws\\.org$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^www\\.fayettevillenc\\.gov$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^www\\.wilmingtonnc\\.gov$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^jacksonvillenc\\.gov$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^www\\.jacksonvillenc\\.gov$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^www\\.chapelhillnc\\.gov$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^cms5\\.revize\\.com$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^www\\.wakeforestnc\\.gov$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^www\\.ashevillenc\\.gov$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^www\\.apexnc\\.org$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^www\\.burlingtonnc\\.gov$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^burlingtonnc\\.gov$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^concordnc\\.gov$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^www\\.gastonianc\\.gov$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^www\\.greenvillenc\\.gov$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^www\\.highpointnc\\.gov$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^mecknc\\.widen\\.net$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^forsyth\\.cc$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^www\\.kidstogethercary\\.org$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^live\\.staticflickr\\.com$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^files\\.aptuitivcdn\\.com$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^www\\.visitgreensboronc\\.com$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^cloudfront\\.traillink\\.com$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^img\\.barkparkfinder\\.com$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^durhamcentralpark\\.org$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^exploreapexnc\\.com$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^e1\\.nmcdn\\.io$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^www\\.nctripping\\.com$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^thecaryreport\\.com$", "pathname": ".*" }
+      ,{ "protocol": "https", "hostname": "^admin\\.onlyinyourstate\\.com$", "pathname": ".*" }
+    ]
+  },
+  "crons": [
+    {
+      "path": "/api/enrichment-cycle",
+      "schedule": "0 10 * * *"
+    },
+    {
+      "path": "/api/media?action=cleanup",
+      "schedule": "30 10 * * *"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(self), geolocation=(self), microphone=()"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=31536000; includeSubDomains"
+        },
+        {
+          "key": "Cross-Origin-Opener-Policy",
+          "value": "same-origin-allow-popups"
+        },
+        {
+          "key": "X-Permitted-Cross-Domain-Policies",
+          "value": "none"
+        },
+        {
+          "key": "Content-Security-Policy-Report-Only",
+          "value": "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; form-action 'self' https://*.supabase.co; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://unpkg.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net https://unpkg.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: blob: https:; media-src 'self' blob: https:; connect-src 'self' https://*.supabase.co wss://*.supabase.co https://*.storage.supabase.co https://tile.openstreetmap.org https://*.tile.openstreetmap.org; worker-src 'self' blob:; frame-src 'self' https://*.supabase.co"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1102 @@
+{
+  "generatedAt": "2026-07-30T19:33:26.283Z",
+  "publicationRule": "Only coordinate-verified, source-backed subsites with complete real-photo attribution.",
+  "parks": [
+    {
+      "id": "launch-wa-seattle-discovery-park",
+      "name": "Discovery Park",
+      "city": "Seattle",
+      "state": "WA",
+      "sourceBoundary": "https://www.openstreetmap.org/relation/4874562",
+      "features": [
+        {
+          "id": "launch-wa-seattle-discovery-park-west-point-light",
+          "slug": "west-point-light",
+          "name": "West Point Light",
+          "feature_type": "landmark",
+          "description": "West Point Light is a mapped landmark (lighthouse) within the park. Visitor details still require official-source review.",
+          "latitude": 47.6619695,
+          "longitude": -122.43573,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/4874562",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Fort_Lawton_West_Point_Lighthouse_03.jpg/1920px-Fort_Lawton_West_Point_Lighthouse_03.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Fort_Lawton_West_Point_Lighthouse_03.jpg",
+            "imageAuthor": "Joe Mabel",
+            "imageLicense": "CC BY-SA 3.0",
+            "imageAlt": "West Point Light Station, historically part of Fort Lawton (now Discovery Park), Seattle, Washington, USA. The lighthouse is listed in the National Register of Historic Places, ID #77001336."
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/101657263",
+          "verified_at": "2026-07-30",
+          "score": 102,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 101657263,
+            "wikidata": "Q7986262",
+            "wikipedia": "en:West Point Light",
+            "boundaryContained": true,
+            "imageFileTitle": "File:Fort Lawton West Point Lighthouse 03.jpg"
+          }
+        }
+      ],
+      "researchQueue": [
+        {
+          "id": "launch-wa-seattle-discovery-park-leaf-legend",
+          "slug": "leaf-legend",
+          "name": "Leaf Legend",
+          "feature_type": "art",
+          "description": "Leaf Legend is a mapped art (Entrance walkway to Center is scattered with real leaves trowled and bronze leaves inset into the concrete.) within the park. Visitor details still require official-source review.",
+          "latitude": 47.6577706,
+          "longitude": -122.4062867,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/4874562"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/3211770261",
+          "verified_at": "2026-07-30",
+          "score": 90,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 3211770261,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "rejectedImageTitles": [
+              "File:North-west-Coast of North America and adjacent Territories Compiled from the best authorities under the direction of Robert (MAPS 42).jpg"
+            ]
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-wa-seattle-discovery-park-ripple-sculptures",
+          "slug": "ripple-sculptures",
+          "name": "Ripple Sculptures",
+          "feature_type": "art",
+          "description": "Ripple Sculptures is a mapped art (Concrete slabs and stepping stones with relief ripple patterns.) within the park. Visitor details still require official-source review.",
+          "latitude": 47.65745,
+          "longitude": -122.406217,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/4874562",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/3211770259",
+          "verified_at": "2026-07-30",
+          "score": 90,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 3211770259,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-wa-seattle-discovery-park-strata-benches",
+          "slug": "strata-benches",
+          "name": "Strata Benches",
+          "feature_type": "art",
+          "description": "Strata Benches is a mapped art (Curved benches with a relief decoration suggestive of earth layers.) within the park. Visitor details still require official-source review.",
+          "latitude": 47.657467,
+          "longitude": -122.40645,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/4874562",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/3211770260",
+          "verified_at": "2026-07-30",
+          "score": 90,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 3211770260,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-wa-seattle-discovery-park-band-house",
+          "slug": "band-house",
+          "name": "Band House",
+          "feature_type": "landmark",
+          "description": "Band House is a mapped landmark (military) within the park. Visitor details still require official-source review.",
+          "latitude": 47.6597164,
+          "longitude": -122.4156877,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/4874562"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/159552770",
+          "verified_at": "2026-07-30",
+          "score": 88,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 159552770,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "rejectedImageTitles": [
+              "File:087 Marching band on Second Avenue, and, the Yesler-Leary Building, Seattle, ca 1886 (PROSCH 30).jpg"
+            ]
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-wa-seattle-discovery-park-birds-nest-1",
+          "slug": "birds-nest-1",
+          "name": "Birds Nest 1",
+          "feature_type": "landmark",
+          "description": "Birds Nest 1 is a mapped landmark (viewpoint) within the park. Visitor details still require official-source review.",
+          "latitude": 47.6570126,
+          "longitude": -122.4219436,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/4874562"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/1237958085",
+          "verified_at": "2026-07-30",
+          "score": 88,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 1237958085,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "rejectedImageTitles": [
+              "File:3c - Nidula candida (Bird's Nest Fungi) (9774286962).jpg"
+            ]
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-wa-seattle-discovery-park-birds-nest-2",
+          "slug": "birds-nest-2",
+          "name": "Birds Nest 2",
+          "feature_type": "landmark",
+          "description": "Birds Nest 2 is a mapped landmark (viewpoint) within the park. Visitor details still require official-source review.",
+          "latitude": 47.6569655,
+          "longitude": -122.4216865,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/4874562"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/1237958883",
+          "verified_at": "2026-07-30",
+          "score": 88,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 1237958883,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "rejectedImageTitles": [
+              "File:3c - Nidula candida (Bird's Nest Fungi) (9774286962).jpg"
+            ]
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-wa-seattle-discovery-park-discovery-park-court-2",
+          "slug": "discovery-park-court-2",
+          "name": "Discovery Park Court #2",
+          "feature_type": "sports",
+          "description": "Discovery Park Court #2 is a mapped sports (tennis) within the park. Visitor details still require official-source review.",
+          "latitude": 47.6568214,
+          "longitude": -122.4047257,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/4874562"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/41498383",
+          "verified_at": "2026-07-30",
+          "score": 82,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 41498383,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "rejectedImageTitles": [
+              "File:Fort Lawton, Guard House, Discovery Park, Seattle, King County, WA HABS WASH,17-SEAT,7-Q- (sheet 2 of 5).png"
+            ]
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-wa-seattle-discovery-park-discovery-park-tennis-court-1",
+          "slug": "discovery-park-tennis-court-1",
+          "name": "Discovery Park Tennis Court #1",
+          "feature_type": "sports",
+          "description": "Discovery Park Tennis Court #1 is a mapped sports (tennis) within the park. Visitor details still require official-source review.",
+          "latitude": 47.6568208,
+          "longitude": -122.4049486,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/4874562",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/41498382",
+          "verified_at": "2026-07-30",
+          "score": 82,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 41498382,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-wa-seattle-discovery-park-capehart-forest",
+          "slug": "capehart-forest",
+          "name": "Capehart Forest",
+          "feature_type": "nature",
+          "description": "Capehart Forest is a mapped nature within the park. Visitor details still require official-source review.",
+          "latitude": 47.6606777,
+          "longitude": -122.4212959,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/4874562",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/relation/9128882",
+          "verified_at": "2026-07-30",
+          "score": 78,
+          "discovery": {
+            "osmType": "relation",
+            "osmId": 9128882,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-wa-seattle-discovery-park-freedom-grove",
+          "slug": "freedom-grove",
+          "name": "Freedom Grove",
+          "feature_type": "nature",
+          "description": "Freedom Grove is a mapped nature within the park. Visitor details still require official-source review.",
+          "latitude": 47.655935,
+          "longitude": -122.4126532,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/4874562"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/1509663489",
+          "verified_at": "2026-07-30",
+          "score": 78,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 1509663489,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "rejectedImageTitles": [
+              "File:Seattle (WA, USA), Olympic Sculpture Park, Henry & William Ketcham Families Grove -- 2022 -- 1643.jpg"
+            ]
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-wa-seattle-discovery-park-east-parking-lot",
+          "slug": "east-parking-lot",
+          "name": "East Parking Lot",
+          "feature_type": "parking",
+          "description": "East Parking Lot is a mapped parking (parking) within the park. Visitor details still require official-source review.",
+          "latitude": 47.6580151,
+          "longitude": -122.4063868,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/4874562"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/159547036",
+          "verified_at": "2026-07-30",
+          "score": 60,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 159547036,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "rejectedImageTitles": [
+              "File:Seattle - south side of Yesler Way east of Second Avenue, 1920 (49516631528).jpg"
+            ]
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        }
+      ]
+    },
+    {
+      "id": "launch-wa-spokane-riverfront-park",
+      "name": "Riverfront Park",
+      "city": "Spokane",
+      "state": "WA",
+      "sourceBoundary": "https://www.openstreetmap.org/relation/6007503",
+      "features": [
+        {
+          "id": "launch-wa-spokane-riverfront-park-red-wagon",
+          "slug": "red-wagon",
+          "name": "Red Wagon",
+          "feature_type": "playground",
+          "description": "Red Wagon is a mapped playground (playground) within the park. Visitor details still require official-source review.",
+          "latitude": 47.6604875,
+          "longitude": -117.4190015,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/6007503",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Childhood_Express_Red_Wagon_Spokane.jpg/1920px-Childhood_Express_Red_Wagon_Spokane.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Childhood_Express_Red_Wagon_Spokane.jpg",
+            "imageAuthor": "Gabriel Millos",
+            "imageLicense": "CC BY-SA 2.0",
+            "imageAlt": "August 2009 image, looking south, of \"The Childhood Express\", also referred to as the Red Wagon, play sculpture located in Riverfront Park in Spokane, Washington ."
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/1164331216",
+          "verified_at": "2026-07-30",
+          "score": 100,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 1164331216,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "imageFileTitle": "File:Childhood Express Red Wagon Spokane.jpg"
+          }
+        },
+        {
+          "id": "launch-wa-spokane-riverfront-park-riverfront-park-clock-tower",
+          "slug": "riverfront-park-clock-tower",
+          "name": "Riverfront Park Clock Tower",
+          "feature_type": "landmark",
+          "description": "Riverfront Park Clock Tower is a mapped landmark (tower) within the park. Visitor details still require official-source review.",
+          "latitude": 47.6614902,
+          "longitude": -117.4190073,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/6007503",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Riverfront_Park_WA_0259.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Riverfront_Park_WA_0259.jpg",
+            "imageAuthor": "Wikimedia Commons contributor",
+            "imageLicense": "CC BY-SA 3.0 us",
+            "imageAlt": "Riverfront Park Clock Tower within Riverfront Park"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/37178326",
+          "verified_at": "2026-07-30",
+          "score": 96,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 37178326,
+            "wikidata": "Q114953832",
+            "wikipedia": null,
+            "boundaryContained": true,
+            "imageFileTitle": "File:Riverfront Park WA 0259.jpg"
+          }
+        },
+        {
+          "id": "launch-wa-spokane-riverfront-park-lower-falls",
+          "slug": "lower-falls",
+          "name": "Lower Falls",
+          "feature_type": "landmark",
+          "description": "Lower Falls is a mapped landmark (viewpoint) within the park. Visitor details still require official-source review.",
+          "latitude": 47.6619917,
+          "longitude": -117.4256393,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/6007503",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Spokane_Falls_near_Monroe_Street_Bridge_%2837058895845%29.jpg/1920px-Spokane_Falls_near_Monroe_Street_Bridge_%2837058895845%29.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Spokane_Falls_near_Monroe_Street_Bridge_(37058895845).jpg",
+            "imageAuthor": "Robert Ashworth from Bellingham, WA., USA",
+            "imageLicense": "CC BY 2.0",
+            "imageAlt": "Spokane Falls near Monroe Street Bridge"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/10652764586",
+          "verified_at": "2026-07-30",
+          "score": 88,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 10652764586,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "imageFileTitle": "File:Spokane Falls near Monroe Street Bridge (37058895845).jpg"
+          }
+        }
+      ],
+      "researchQueue": [
+        {
+          "id": "launch-wa-spokane-riverfront-park-ice-age-floods-playground",
+          "slug": "ice-age-floods-playground",
+          "name": "Ice Age Floods Playground",
+          "feature_type": "playground",
+          "description": "Ice Age Floods Playground is a mapped playground (playground) within the park. Visitor details still require official-source review.",
+          "latitude": 47.6652284,
+          "longitude": -117.4197453,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/6007503",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/1123738954",
+          "verified_at": "2026-07-30",
+          "score": 100,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 1123738954,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-wa-spokane-riverfront-park-providence-playscape",
+          "slug": "providence-playscape",
+          "name": "Providence Playscape",
+          "feature_type": "playground",
+          "description": "Providence Playscape is a mapped playground (playground) within the park. Visitor details still require official-source review.",
+          "latitude": 47.6617362,
+          "longitude": -117.4216416,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/6007503",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/931235650",
+          "verified_at": "2026-07-30",
+          "score": 100,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 931235650,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-wa-spokane-riverfront-park-spokane-visitor-center",
+          "slug": "spokane-visitor-center",
+          "name": "Spokane Visitor Center",
+          "feature_type": "visitor-center",
+          "description": "Spokane Visitor Center is a mapped visitor center (information) within the park. Visitor details still require official-source review.",
+          "latitude": 47.6605648,
+          "longitude": -117.421533,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/6007503"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/749314713",
+          "verified_at": "2026-07-30",
+          "score": 96,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 749314713,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "rejectedImageTitles": [
+              "File:Fort Spokane guardhouse. Undated Coulee Dam National Recreation Area. (f2271bcd-972b-4276-87b1-240a67a04f6c).jpg"
+            ]
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-wa-spokane-riverfront-park-connections-garden",
+          "slug": "connections-garden",
+          "name": "Connections Garden",
+          "feature_type": "garden",
+          "description": "Connections Garden is a mapped garden (garden) within the park. Visitor details still require official-source review.",
+          "latitude": 47.6613882,
+          "longitude": -117.4214972,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/6007503"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/931235651",
+          "verified_at": "2026-07-30",
+          "score": 92,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 931235651,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "rejectedImageTitles": [
+              "File:Blackwell Island Native Plant Garden Sign Page 2 (48860303536).jpg"
+            ]
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-wa-spokane-riverfront-park-cagli-italy-sculpture",
+          "slug": "cagli-italy-sculpture",
+          "name": "Cagli, Italy Sculpture",
+          "feature_type": "art",
+          "description": "Cagli, Italy Sculpture is a mapped art (sculpture) within the park. Visitor details still require official-source review.",
+          "latitude": 47.6613235,
+          "longitude": -117.4215013,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/6007503",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/10558408205",
+          "verified_at": "2026-07-30",
+          "score": 90,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 10558408205,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-wa-spokane-riverfront-park-expo-74-butterfly",
+          "slug": "expo-74-butterfly",
+          "name": "Expo 74 Butterfly",
+          "feature_type": "art",
+          "description": "Expo 74 Butterfly is a mapped art (sculpture) within the park. Visitor details still require official-source review.",
+          "latitude": 47.665391,
+          "longitude": -117.420546,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/6007503",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/7007187894",
+          "verified_at": "2026-07-30",
+          "score": 90,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 7007187894,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-wa-spokane-riverfront-park-footsteps-to-the-future",
+          "slug": "footsteps-to-the-future",
+          "name": "Footsteps to the Future",
+          "feature_type": "art",
+          "description": "Footsteps to the Future is a mapped art (statue) within the park. Visitor details still require official-source review.",
+          "latitude": 47.6620957,
+          "longitude": -117.426345,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/6007503",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/4567182213",
+          "verified_at": "2026-07-30",
+          "score": 90,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 4567182213,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-wa-spokane-riverfront-park-inspiration-point",
+          "slug": "inspiration-point",
+          "name": "Inspiration Point",
+          "feature_type": "landmark",
+          "description": "Inspiration Point is a mapped landmark (viewpoint) within the park. Visitor details still require official-source review.",
+          "latitude": 47.6639605,
+          "longitude": -117.4202412,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/6007503",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/1941032724",
+          "verified_at": "2026-07-30",
+          "score": 88,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 1941032724,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-wa-spokane-riverfront-park-vietnam-veterans-memorial",
+          "slug": "vietnam-veterans-memorial",
+          "name": "Vietnam Veterans Memorial",
+          "feature_type": "landmark",
+          "description": "Vietnam Veterans Memorial is a mapped landmark (memorial) within the park. Visitor details still require official-source review.",
+          "latitude": 47.6619961,
+          "longitude": -117.4181176,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/6007503"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/10558408191",
+          "verified_at": "2026-07-30",
+          "score": 88,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 10558408191,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "rejectedImageTitles": [
+              "File:J. Carter Brown Kitty Kelley.jpg"
+            ]
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        }
+      ]
+    },
+    {
+      "id": "launch-or-portland-washington-park",
+      "name": "Washington Park",
+      "city": "Portland",
+      "state": "OR",
+      "sourceBoundary": "https://www.openstreetmap.org/relation/1759479",
+      "features": [
+        {
+          "id": "launch-or-portland-washington-park-hoyt-arboretum-visitor-center",
+          "slug": "hoyt-arboretum-visitor-center",
+          "name": "Hoyt Arboretum Visitor Center",
+          "feature_type": "visitor-center",
+          "description": "Hoyt Arboretum Visitor Center is a mapped visitor center (information) within the park. Visitor details still require official-source review.",
+          "latitude": 45.5156657,
+          "longitude": -122.7156853,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/1759479",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Hoyt_Arboretum_sign_-_Portland%2C_Oregon.JPG/1920px-Hoyt_Arboretum_sign_-_Portland%2C_Oregon.JPG",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Hoyt_Arboretum_sign_-_Portland,_Oregon.JPG",
+            "imageAuthor": "Another Believer",
+            "imageLicense": "CC BY-SA 3.0",
+            "imageAlt": "Information presented at Hoyt Arboretum in Portland, Oregon"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/541816104",
+          "verified_at": "2026-07-30",
+          "score": 110,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 541816104,
+            "wikidata": "Q4157862",
+            "wikipedia": "en:Hoyt Arboretum",
+            "boundaryContained": true,
+            "imageFileTitle": "File:Hoyt Arboretum sign - Portland, Oregon.JPG"
+          }
+        },
+        {
+          "id": "launch-or-portland-washington-park-oregon-zoo",
+          "slug": "oregon-zoo",
+          "name": "Oregon Zoo",
+          "feature_type": "museum",
+          "description": "Oregon Zoo is a mapped museum (zoo) within the park. Visitor details still require official-source review.",
+          "latitude": 45.509665,
+          "longitude": -122.7133613,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/1759479",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Oregon_Zoo_2024_-_05.jpg/1920px-Oregon_Zoo_2024_-_05.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Oregon_Zoo_2024_-_05.jpg",
+            "imageAuthor": "cascadevideoproductions",
+            "imageLicense": "CC BY 2.0",
+            "imageAlt": "64-acre Zoo within Washington Park located in Portland, OR."
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/35969760",
+          "verified_at": "2026-07-30",
+          "score": 108,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 35969760,
+            "wikidata": "Q7101428",
+            "wikipedia": "en:Oregon Zoo",
+            "boundaryContained": true,
+            "imageFileTitle": "File:Oregon Zoo 2024 - 05.jpg"
+          }
+        },
+        {
+          "id": "launch-or-portland-washington-park-international-rose-test-garden",
+          "slug": "international-rose-test-garden",
+          "name": "International Rose Test Garden",
+          "feature_type": "garden",
+          "description": "International Rose Test Garden is a mapped garden (garden) within the park. Visitor details still require official-source review.",
+          "latitude": 45.5193145,
+          "longitude": -122.7053329,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/1759479",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Portland_International_Rose_Test_Garden_-_HCP_-_October_15%2C_2022_-_009.jpg/1920px-Portland_International_Rose_Test_Garden_-_HCP_-_October_15%2C_2022_-_009.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Portland_International_Rose_Test_Garden_-_HCP_-_October_15,_2022_-_009.jpg",
+            "imageAuthor": "Vulturesong",
+            "imageLicense": "CC0",
+            "imageAlt": "A rose in the Portland International Rose Test Garden"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/relation/11988114",
+          "verified_at": "2026-07-30",
+          "score": 106,
+          "discovery": {
+            "osmType": "relation",
+            "osmId": 11988114,
+            "wikidata": "Q2682829",
+            "wikipedia": "en:International Rose Test Garden",
+            "boundaryContained": true,
+            "imageFileTitle": "File:Portland International Rose Test Garden - HCP - October 15, 2022 - 009.jpg"
+          }
+        },
+        {
+          "id": "launch-or-portland-washington-park-portland-japanese-garden",
+          "slug": "portland-japanese-garden",
+          "name": "Portland Japanese Garden",
+          "feature_type": "garden",
+          "description": "Portland Japanese Garden is a mapped garden (garden) within the park. Visitor details still require official-source review.",
+          "latitude": 45.5187377,
+          "longitude": -122.7082033,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/1759479",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Japanese_Gardens_Portland_%28166780009%29.jpeg/1920px-Japanese_Gardens_Portland_%28166780009%29.jpeg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_Gardens_Portland_(166780009).jpeg",
+            "imageAuthor": "Ilya Grigorik",
+            "imageLicense": "CC BY-SA 3.0",
+            "imageAlt": "500px provided description: 5.5 acres of beautifully landscaped gardens.. a must visit park in Portland and a great place to unwind. [#park ,#japan ,#green ,#garden ,#oregon ,#portland ,#japanese garden ,#washington park]"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/130713767",
+          "verified_at": "2026-07-30",
+          "score": 106,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 130713767,
+            "wikidata": "Q2195976",
+            "wikipedia": "en:Portland Japanese Garden",
+            "boundaryContained": true,
+            "imageFileTitle": "File:Japanese Gardens Portland (166780009).jpeg"
+          }
+        },
+        {
+          "id": "launch-or-portland-washington-park-chiming-fountain",
+          "slug": "chiming-fountain",
+          "name": "Chiming Fountain",
+          "feature_type": "landmark",
+          "description": "Chiming Fountain is a mapped landmark (yes) within the park. Visitor details still require official-source review.",
+          "latitude": 45.5212557,
+          "longitude": -122.7026764,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/1759479",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Pdx_washpark_chimingfountain_s.jpeg/1920px-Pdx_washpark_chimingfountain_s.jpeg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Pdx_washpark_chimingfountain_s.jpeg",
+            "imageAuthor": "EncMstr",
+            "imageLicense": "CC BY-SA 3.0",
+            "imageAlt": "\"Chiming Fountain\" in w:Washington Park, Portland , viewed from south. The fountain is drained in winter for freeze protection."
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/414449824",
+          "verified_at": "2026-07-30",
+          "score": 102,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 414449824,
+            "wikidata": "Q18755132",
+            "wikipedia": "en:Chiming Fountain",
+            "boundaryContained": true,
+            "imageFileTitle": "File:Pdx washpark chimingfountain s.jpeg"
+          }
+        },
+        {
+          "id": "launch-or-portland-washington-park-lewis-and-clark-memorial-column",
+          "slug": "lewis-and-clark-memorial-column",
+          "name": "Lewis and Clark Memorial Column",
+          "feature_type": "landmark",
+          "description": "Lewis and Clark Memorial Column is a mapped landmark (memorial) within the park. Visitor details still require official-source review.",
+          "latitude": 45.5213116,
+          "longitude": -122.7014228,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/1759479",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Pdx_washpark_lewisandclark_memorial_sw.jpeg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Pdx_washpark_lewisandclark_memorial_sw.jpeg",
+            "imageAuthor": "EncMstr",
+            "imageLicense": "CC BY-SA 3.0",
+            "imageAlt": "w:Lewis and Clark Expedition memorial at the entrance to w:Washington Park, Portland , viewed from the southwest. The plaque on the base reads Erected by citizens of Oregon to commemorate the achievements of captains Meriwether Lewis and William Clark who, with the encouragement and under the direction of the president of the United States Thomas Jefferson, started from St. Louis May 14, 1804 and through many hardships penetrated the vast continental wilderness to the Pacific Ocean at the mouth of the Columbia River and returning September, 1806, gave to the pioneers a pathway, and to the nation, the Oregon Country. Begun 1904 Dedicated 1906 (punctuation and mixed case added)"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/5070000321",
+          "verified_at": "2026-07-30",
+          "score": 102,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 5070000321,
+            "wikidata": "Q18156627",
+            "wikipedia": "en:Lewis and Clark Memorial Column",
+            "boundaryContained": true,
+            "imageFileTitle": "File:Pdx washpark lewisandclark memorial sw.jpeg"
+          }
+        },
+        {
+          "id": "launch-or-portland-washington-park-loyal-b-stearns-memorial",
+          "slug": "loyal-b-stearns-memorial",
+          "name": "Loyal B. Stearns Memorial",
+          "feature_type": "landmark",
+          "description": "Loyal B. Stearns Memorial is a mapped landmark (memorial) within the park. Visitor details still require official-source review.",
+          "latitude": 45.5237521,
+          "longitude": -122.7008598,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/1759479",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Loyal_B_Stearns_Memorial_Fountain.jpg/1920px-Loyal_B_Stearns_Memorial_Fountain.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Loyal_B_Stearns_Memorial_Fountain.jpg",
+            "imageAuthor": "Darkpoole",
+            "imageLicense": "CC BY-SA 4.0",
+            "imageAlt": "The Loyal B Stearns Memorial Fountain in Washington Park, capturing reflections of nearby buildings"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/2651173906",
+          "verified_at": "2026-07-30",
+          "score": 102,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 2651173906,
+            "wikidata": "Q18739438",
+            "wikipedia": "en:Loyal B. Stearns Memorial Fountain",
+            "boundaryContained": true,
+            "imageFileTitle": "File:Loyal B Stearns Memorial Fountain.jpg"
+          }
+        },
+        {
+          "id": "launch-or-portland-washington-park-vietnam-veterans-of-oregon-memorial",
+          "slug": "vietnam-veterans-of-oregon-memorial",
+          "name": "Vietnam Veterans of Oregon Memorial",
+          "feature_type": "landmark",
+          "description": "Vietnam Veterans of Oregon Memorial is a mapped landmark (memorial) within the park. Visitor details still require official-source review.",
+          "latitude": 45.5120534,
+          "longitude": -122.7182069,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/1759479",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Vietnam_Veterans_Memorial_Sign.jpg/1920px-Vietnam_Veterans_Memorial_Sign.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Vietnam_Veterans_Memorial_Sign.jpg",
+            "imageAuthor": "Christopher from Portland, USA",
+            "imageLicense": "CC BY 2.0",
+            "imageAlt": "The sign at the entrance to the Oregon Vietnam Veterans Memorial located in Washington Park , Portland, Oregon, US."
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/130711720",
+          "verified_at": "2026-07-30",
+          "score": 102,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 130711720,
+            "wikidata": "Q7101417",
+            "wikipedia": "en:Oregon Vietnam Veterans Memorial",
+            "boundaryContained": true,
+            "imageFileTitle": "File:Vietnam Veterans Memorial Sign.jpg"
+          }
+        },
+        {
+          "id": "launch-or-portland-washington-park-japanese-arts-learning-center",
+          "slug": "japanese-arts-learning-center",
+          "name": "Japanese Arts Learning Center",
+          "feature_type": "museum",
+          "description": "Japanese Arts Learning Center is a mapped museum (museum) within the park. Visitor details still require official-source review.",
+          "latitude": 45.5192021,
+          "longitude": -122.708754,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/1759479",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Portland_Japanese_Garden_October_2019_002.jpg/1920px-Portland_Japanese_Garden_October_2019_002.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Portland_Japanese_Garden_October_2019_002.jpg",
+            "imageAuthor": "King of Hearts",
+            "imageLicense": "CC BY-SA 4.0",
+            "imageAlt": "Jordan Schnitzer Japanese Arts Learning Center, Portland Japanese Garden , Portland , Oregon ."
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/9696789164",
+          "verified_at": "2026-07-30",
+          "score": 94,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 9696789164,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "imageFileTitle": "File:Portland Japanese Garden October 2019 002.jpg"
+          }
+        }
+      ],
+      "researchQueue": [
+        {
+          "id": "launch-or-portland-washington-park-nature-play-area",
+          "slug": "nature-play-area",
+          "name": "Nature Play Area",
+          "feature_type": "playground",
+          "description": "Nature Play Area is a mapped playground (playground) within the park. Visitor details still require official-source review.",
+          "latitude": 45.5088603,
+          "longitude": -122.7153645,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/1759479",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/1126397117",
+          "verified_at": "2026-07-30",
+          "score": 100,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 1126397117,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-or-portland-washington-park-family-farm",
+          "slug": "family-farm",
+          "name": "Family Farm",
+          "feature_type": "museum",
+          "description": "Family Farm is a mapped museum (zoo) within the park. Visitor details still require official-source review.",
+          "latitude": 45.5100964,
+          "longitude": -122.7142789,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/1759479"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/267340986",
+          "verified_at": "2026-07-30",
+          "score": 94,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 267340986,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "rejectedImageTitles": [
+              "File:Fancy's Family Farm, Portland.JPG"
+            ]
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-or-portland-washington-park-bonsai-terrace",
+          "slug": "bonsai-terrace",
+          "name": "Bonsai Terrace",
+          "feature_type": "garden",
+          "description": "Bonsai Terrace is a mapped garden (garden) within the park. Visitor details still require official-source review.",
+          "latitude": 45.5189,
+          "longitude": -122.7088188,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/1759479",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/9696789127",
+          "verified_at": "2026-07-30",
+          "score": 92,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 9696789127,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "parks": 3,
+    "readyFeatures": 13,
+    "researchQueue": 23
+  }
+}

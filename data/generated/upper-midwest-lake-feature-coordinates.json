@@ -1,0 +1,129 @@
+{
+  "checkedAt": "2026-08-11",
+  "reviewMethod": "Exact named OpenStreetMap feature, official operator or destination page, and a destination-specific licensed campaign photograph.",
+  "places": {
+    "launch-wi-milwaukee-lake-park": {
+      "north-point-lighthouse": {
+        "name": "North Point Lighthouse",
+        "osm": "way/403385102",
+        "imageIndex": 2,
+        "sourceLabel": "North Point Lighthouse",
+        "source": "https://northpointlighthouse.org/visit/admission/",
+        "summary": "North Point Lighthouse is the separately operated museum and historic tower within Lake Park, reached from Wahl Avenue on the park's east side.",
+        "cost": "Current admission is $8 for ages 12 and older, $5 for seniors, college students, and children ages 5-11, and free for children 4 and under, active military, and members; recheck before visiting.",
+        "hours": "The museum and tower are normally open Saturday and Sunday from 1:00-4:00 p.m. The operator lists 2026 closures on April 5, July 4, July 25-26, and December 26; private events and later schedule changes can also override public hours.",
+        "needToKnow": "The museum is accessible, but the tower is not: the climb includes 84 steps and a ladder. Tower climbers must be at least five years old and 38 inches tall. Admission and operating hours are separate from general park access.",
+        "latitude": 43.0655738,
+        "longitude": -87.8713923,
+        "displayName": "North Point Lighthouse",
+        "coordinateSource": "https://www.openstreetmap.org/way/403385102",
+        "boundarySource": "https://www.openstreetmap.org/relation/6044259",
+        "positionQuality": "reviewed-public-map-placement",
+        "reviewStatus": "approved-feature-and-boundary-match",
+        "reviewedAt": "2026-08-11"
+      },
+      "lion-bridge": {
+        "name": "Lion Bridge",
+        "osm": "way/403385109",
+        "imageIndex": 1,
+        "sourceLabel": "Milwaukee County Parks",
+        "source": "https://county.milwaukee.gov/files/county/parks-department/Park-Maps/Lake1.pdf",
+        "summary": "Lion Bridge is one of Lake Park's historic stone pedestrian bridges near North Point Lighthouse and the ravine trail network.",
+        "cost": "No separate admission is listed for this outdoor park landmark.",
+        "hours": "Outdoor access follows posted Lake Park hours and any temporary bridge, ravine, storm, or maintenance closure.",
+        "needToKnow": "Use the exact bridge pin or the official park map; the wooded ravines and multiple paths make the landmark easy to miss from the general park marker. Expect slopes and stairs on nearby routes.",
+        "latitude": 43.0651507,
+        "longitude": -87.8712087,
+        "displayName": "Lion Bridge",
+        "coordinateSource": "https://www.openstreetmap.org/way/403385109",
+        "boundarySource": "https://www.openstreetmap.org/relation/6044259",
+        "positionQuality": "reviewed-public-map-placement",
+        "reviewStatus": "approved-feature-and-boundary-match",
+        "reviewedAt": "2026-08-11"
+      }
+    },
+    "launch-wi-milwaukee-veterans-park": {
+      "veterans-park-lagoon": {
+        "name": "Veterans Park Lagoon",
+        "osm": "way/25354099",
+        "imageIndex": 0,
+        "sourceLabel": "Milwaukee County Parks",
+        "source": "https://county.milwaukee.gov/EN/Parks/Explore/Lakefront/VeteransPark",
+        "summary": "Veterans Park Lagoon is the sheltered water feature beside the lakefront lawn and the park's seasonal boat-rental operation.",
+        "cost": "Viewing and general park access are free; seasonal boat rentals are separately priced by the operator.",
+        "hours": "The lagoon is visible during park hours; boat rentals follow the seasonal operator schedule and can close for weather, water conditions, or low demand.",
+        "needToKnow": "Do not assume rentals are operating because the park is open. Check the current operator schedule before traveling specifically for a pedal boat, kayak, or other rental, and supervise children closely beside the water.",
+        "latitude": 43.0470171,
+        "longitude": -87.8924918,
+        "displayName": "Veterans Park Lagoon",
+        "coordinateSource": "https://www.openstreetmap.org/way/25354099",
+        "boundarySource": "https://www.openstreetmap.org/relation/6028206",
+        "positionQuality": "reviewed-public-map-placement",
+        "reviewStatus": "approved-feature-and-boundary-match",
+        "reviewedAt": "2026-08-11"
+      }
+    },
+    "launch-wi-madison-olbrich-park": {},
+    "launch-wi-madison-vilas-park": {
+      "vilas-park-beach": {
+        "name": "Vilas Park Beach",
+        "osm": "way/158911023",
+        "imageIndex": 2,
+        "sourceLabel": "City of Madison Parks Division",
+        "source": "https://www.cityofmadison.com/parks/documents/VilasParkMPReportExecSummaryupdate5102021.pdf",
+        "summary": "Vilas Park Beach is the park's designated Lake Wingra swimming area at 1501 Vilas Park Drive, with seasonal restrooms and an accessible beach mat.",
+        "cost": "No separate beach admission is listed; parking limits and reservable facilities have separate rules.",
+        "hours": "The beach is unstaffed and has no lifeguard. Water quality is monitored during the maintained beach season, generally Memorial Day through Labor Day; restroom hours and services are seasonal.",
+        "needToKnow": "Check the city's beach status before swimming. The beach has no lifeguard, water conditions can change quickly, and nearby parking has a three-hour limit. The accessible mat is seasonal.",
+        "latitude": 43.0580299,
+        "longitude": -89.4111501,
+        "displayName": "Vilas Park Beach",
+        "coordinateSource": "https://www.openstreetmap.org/way/158911023",
+        "boundarySource": "https://www.openstreetmap.org/relation/14645861",
+        "positionQuality": "reviewed-public-map-placement",
+        "reviewStatus": "approved-feature-and-boundary-match",
+        "reviewedAt": "2026-08-11"
+      },
+      "vilas-park-mound-group": {
+        "name": "Vilas Park Mound Group",
+        "osm": "way/1186039053",
+        "imageIndex": 3,
+        "sourceLabel": "City of Madison Parks Division",
+        "source": "https://www.cityofmadison.com/parks/find-a-park/vilas",
+        "summary": "Vilas Park Mound Group is a protected Indigenous burial-mound area within the park rather than a recreation surface or playground.",
+        "cost": "No separate admission is listed for respectful outdoor viewing from established paths.",
+        "hours": "The mound area can be viewed during open park hours unless a posted closure, restoration project, event, or weather condition restricts access.",
+        "needToKnow": "Remain on established paths and do not walk, sit, play, climb, bike, or place objects on the mounds. Treat the area as a protected burial site and follow all posted City of Madison rules.",
+        "latitude": 43.0594717,
+        "longitude": -89.4079677,
+        "displayName": "Vilas Park Mound Group",
+        "coordinateSource": "https://www.openstreetmap.org/way/1186039053",
+        "boundarySource": "https://www.openstreetmap.org/relation/14645861",
+        "positionQuality": "reviewed-public-map-placement",
+        "reviewStatus": "approved-feature-and-boundary-match",
+        "reviewedAt": "2026-08-11"
+      }
+    },
+    "launch-mi-grand-rapids-millennium-park": {
+      "millennium-park-beach": {
+        "name": "Millennium Park Beach",
+        "osm": "way/231125297",
+        "imageIndex": 0,
+        "sourceLabel": "Kent County Parks",
+        "source": "https://www.kentcountymi.gov/1765/Millennium-Park",
+        "summary": "Millennium Park Beach is the staffed-season recreation area beside the six-acre beach and splashpad complex, separate from the park's free trails and open space.",
+        "cost": "Daily beach and splashpad admission is $4 for ages 16-62, $3 for ages 63 and older, $2 for ages 3-15, and free for ages 2 and under. Kent County says 2026 season-pass sales have ended; recheck future-season rates.",
+        "hours": "The beach is open 10:00 a.m.-8:00 p.m. and splashpad 10:00 a.m.-7:00 p.m. through August 23, then the beach closes at 7:00 p.m. and splashpad at 6:00 p.m. through Labor Day. The operator had not posted final 2026 closing dates when checked.",
+        "needToKnow": "Beach and splashpad admission is charged even though general park and trail access is free. Pets are prohibited in the beach area except trained service dogs. Use Lots A or B and verify same-day weather, water, and closing status before leaving.",
+        "latitude": 42.936752,
+        "longitude": -85.7503979,
+        "displayName": "Millennium Park Beach",
+        "coordinateSource": "https://www.openstreetmap.org/way/231125297",
+        "boundarySource": "https://www.openstreetmap.org/relation/17576900",
+        "positionQuality": "reviewed-public-map-placement",
+        "reviewStatus": "approved-feature-and-boundary-match",
+        "reviewedAt": "2026-08-11"
+      }
+    }
+  }
+}

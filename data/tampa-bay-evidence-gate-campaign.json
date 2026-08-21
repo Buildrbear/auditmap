@@ -1,0 +1,85 @@
+{
+  "campaign": "Tampa Bay evidence-gate rebuild",
+  "checkedAt": "2026-08-11",
+  "releaseStandard": "Retain a parent only with four representative reusable photographs and current official visitor guidance. Retain a destination only with an exact reviewed position, destination-specific reusable photograph, nine destination answers, and current authoritative sourcing.",
+  "places": [
+    {
+      "id": "launch-fl-tampa-curtis-hixon-waterfront-park",
+      "name": "Curtis Hixon Waterfront Park",
+      "city": "Tampa",
+      "state": "FL",
+      "officialSource": "https://www.tampa.gov/parks-and-recreation/featured-parks/curtis-hixon",
+      "imageQueries": ["Curtis Hixon Waterfront Park Tampa", "Curtis Hixon park Tampa Riverwalk", "Curtis Hixon playground splash pad", "Curtis Hixon dog park Tampa"],
+      "legacyCandidates": ["Great Lawn", "Curtis Hixon Splash Pads", "Curtis Hixon Playground", "Curtis Hixon Dog Parks", "Tampa Riverwalk", "Curtis Hixon Boat Dock and Water Taxi Stop", "Kiley Garden", "Tampa Museum of Art Riverwalk Entrance"]
+    },
+    {
+      "id": "launch-fl-tampa-lettuce-lake-park",
+      "name": "Lettuce Lake Park",
+      "city": "Tampa",
+      "state": "FL",
+      "officialSource": "https://hcfl.gov/locations/lettuce-lake-conservation-park",
+      "imageQueries": ["Lettuce Lake Park Tampa", "Lettuce Lake boardwalk", "Lettuce Lake observation tower", "Lettuce Lake nature center"],
+      "legacyCandidates": ["Lettuce Lake Boardwalk", "Lettuce Lake Observation Tower", "Joel E. Jackson Nature Center", "Lettuce Lake Canoe and Kayak Launch", "Lettuce Lake Playgrounds", "Paved Exercise Loop", "Native Plant Garden", "Hillsborough River Overlook"]
+    },
+    {
+      "id": "launch-fl-tampa-julian-b-lane-riverfront-park",
+      "name": "Julian B. Lane Riverfront Park",
+      "city": "Tampa",
+      "state": "FL",
+      "officialSource": "https://www.tampa.gov/parks-and-recreation/featured-parks/riverfrontpark",
+      "deferRelease": true,
+      "photoGateStatus": "deferred-one-representative-reusable-image",
+      "reviewNote": "Only one representative reusable park photograph cleared review. The parent remains photo-gated and all approximate legacy destination cards are retired.",
+      "imageQueries": ["Julian B Lane Riverfront Park Tampa", "Julian B Lane splash pad", "Julian B Lane playground", "Julian B Lane boathouse Tampa"],
+      "legacyCandidates": ["Julian B. Lane Play Cove", "Julian B. Lane Splash Pad", "Julian B. Lane Dog Park", "Bob Buckhorn River Center", "Julian B. Lane Boathouse", "Community Front Porch", "Festival Lawn", "Julian B. Lane Sports Courts and Fields"]
+    },
+    {
+      "id": "launch-fl-tampa-ballast-point-park",
+      "name": "Ballast Point Park",
+      "city": "Tampa",
+      "state": "FL",
+      "officialSource": "https://www.tampa.gov/parks-and-recreation/featured-parks/ballast-point",
+      "imageQueries": ["Ballast Point Park Tampa", "Ballast Point playground Tampa", "Ballast Point splash pad", "Ballast Point pier Tampa"],
+      "legacyCandidates": ["Ballast Point Splash Pad", "Ballast Point Playground", "Ballast Point Boat Ramp", "Ballast Point Boat Dock", "Ballast Point Gazebo", "Ballast Point Picnic Shelters", "Leons Lobstah Shack", "Ballast Point Pier Viewpoint"]
+    },
+    {
+      "id": "launch-fl-st-petersburg-vinoy-park",
+      "name": "Vinoy Park",
+      "city": "St. Petersburg",
+      "state": "FL",
+      "officialSource": "https://www.stpeteparksrec.org/parks___facilities/vinoy_park.php",
+      "imageQueries": ["Vinoy Park St Petersburg Florida", "Vinoy Park waterfront", "Vinoy Park lawn", "Vinoy Park trail"],
+      "legacyCandidates": ["Vinoy Park Waterfront Trail", "Vinoy Park Event Lawn", "Vinoy Basin Overlook", "North Shore Waterfront Connection", "Gizella Kopsick Palm Arboretum Connection", "Vinoy Park Beach Volleyball Courts", "Vinoy Park Seawall", "Vinoy Park Northeast Entrance"]
+    },
+    {
+      "id": "launch-fl-st-petersburg-st-pete-pier",
+      "name": "St. Pete Pier",
+      "city": "St. Petersburg",
+      "state": "FL",
+      "officialSource": "https://stpetepier.org/explore/",
+      "imageQueries": ["St Pete Pier Florida", "St Pete Pier playground", "St Pete Pier splash pad", "St Pete Pier fishing deck"],
+      "legacyCandidates": ["Glazer Family Playground", "Majeed Foundation Splash Pad", "Spa Beach", "Tampa Bay Watch Discovery Center", "St. Pete Pier Fishing Deck", "Pier Point", "Bending Arc", "St. Pete Pier Family Park"]
+    },
+    {
+      "id": "launch-fl-tierra-verde-fort-de-soto-park",
+      "name": "Fort De Soto Park",
+      "city": "Tierra Verde",
+      "state": "FL",
+      "officialSource": "https://pinellas.gov/parks/fort-de-soto-park/",
+      "imageQueries": ["Fort De Soto Park Florida", "Fort De Soto North Beach", "Fort De Soto historic fort", "Fort De Soto pier"],
+      "legacyCandidates": ["Fort De Soto North Beach", "Fort De Soto East Beach", "Historic Fort De Soto", "Fort De Soto Dog Beach and Paw Playground", "Fort De Soto Gulf Pier", "Fort De Soto Bay Pier", "Fort De Soto Multipurpose Trail", "Fort De Soto Boat Ramp"]
+    },
+    {
+      "id": "launch-fl-st-petersburg-boyd-hill-nature-preserve",
+      "name": "Boyd Hill Nature Preserve",
+      "city": "St. Petersburg",
+      "state": "FL",
+      "officialSource": "https://www.stpeteparksrec.org/parks___facilities/boyd_hill.php",
+      "deferRelease": true,
+      "photoGateStatus": "deferred-two-representative-reusable-images",
+      "reviewNote": "Only two representative reusable preserve photographs cleared review. The parent remains photo-gated and all approximate legacy destination cards are retired.",
+      "imageQueries": ["Boyd Hill Nature Preserve", "Boyd Hill trail St Petersburg", "Boyd Hill raptor aviary", "Boyd Hill Pioneer Settlement"],
+      "legacyCandidates": ["Lake Maggiore Environmental Education Center", "Boyd Hill Raptor Aviary", "Lake Maggiore Overlook", "Boyd Hill Scrub Trail", "Boyd Hill Pine Flatwoods Trail", "Boyd Hill Willow Marsh Trail", "Pinellas Pioneer Settlement", "Terry Tomalin Campground"]
+    }
+  ]
+}

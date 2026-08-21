@@ -1,0 +1,909 @@
+{
+  "campaign": "Northern Plains city connector",
+  "checkedAt": "2026-08-08",
+  "places": {
+    "launch-nd-fargo-lindenwood-park": {
+      "name": "Lindenwood Park",
+      "boundarySource": "https://www.openstreetmap.org/way/62332118",
+      "candidates": [
+        {
+          "name": "USS Robalo SS-273",
+          "latitude": 46.8532656,
+          "longitude": -96.7873055,
+          "osmType": "node",
+          "osmId": 4425250088,
+          "sourceUrl": "https://www.openstreetmap.org/node/4425250088",
+          "tags": {
+            "historic": "memorial",
+            "memorial": "war_memorial",
+            "name": "USS Robalo SS-273"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "American Legion Memorial Fountain",
+          "latitude": 46.8538885,
+          "longitude": -96.787514,
+          "osmType": "node",
+          "osmId": 4425250089,
+          "sourceUrl": "https://www.openstreetmap.org/node/4425250089",
+          "tags": {
+            "amenity": "fountain",
+            "name": "American Legion Memorial Fountain"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "164th Infantry",
+          "latitude": 46.8540467,
+          "longitude": -96.787502,
+          "osmType": "node",
+          "osmId": 4425250090,
+          "sourceUrl": "https://www.openstreetmap.org/node/4425250090",
+          "tags": {
+            "historic": "memorial",
+            "memorial": "war_memorial",
+            "name": "164th Infantry"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Red River Trail",
+          "latitude": 46.8509243,
+          "longitude": -96.7796577,
+          "osmType": "way",
+          "osmId": 9625624,
+          "sourceUrl": "https://www.openstreetmap.org/way/9625624",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Red River Trail",
+            "oneway": "no",
+            "piste:difficulty": "novice",
+            "piste:grooming": "skating",
+            "piste:type": "nordic",
+            "segregated": "no",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Cass, ND",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Lindenwood City Park Campground",
+          "latitude": 46.8502219,
+          "longitude": -96.7778202,
+          "osmType": "way",
+          "osmId": 133438775,
+          "sourceUrl": "https://www.openstreetmap.org/way/133438775",
+          "tags": {
+            "camp_site": "serviced",
+            "capacity": "58",
+            "caravans": "yes",
+            "charge": "$30",
+            "drinking_water": "yes",
+            "fee": "yes",
+            "name": "Lindenwood City Park Campground",
+            "operator": "Fargo Parks",
+            "phone": "+1-701-232-3987",
+            "power_supply": "yes",
+            "reservation": "yes",
+            "sanitary_dump_station": "yes",
+            "seasonal": "spring;summer;autumn",
+            "shower": "yes",
+            "source": "Bing",
+            "tents": "yes",
+            "toilets:disposal": "flush",
+            "tourism": "camp_site"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Roger Maris Drive",
+          "latitude": 46.8496275,
+          "longitude": -96.7795086,
+          "osmType": "way",
+          "osmId": 636728679,
+          "sourceUrl": "https://www.openstreetmap.org/way/636728679",
+          "tags": {
+            "bicycle": "yes",
+            "cycleway:right": "lane",
+            "hgv": "no",
+            "highway": "residential",
+            "name": "Roger Maris Drive",
+            "oneway": "yes"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Roger Maris Drive",
+          "latitude": 46.8498373,
+          "longitude": -96.7772313,
+          "osmType": "way",
+          "osmId": 636728681,
+          "sourceUrl": "https://www.openstreetmap.org/way/636728681",
+          "tags": {
+            "bicycle": "yes",
+            "cycleway:right": "lane",
+            "hgv": "no",
+            "highway": "residential",
+            "name": "Roger Maris Drive",
+            "oneway": "yes",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Cass, ND",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Red River Primitive Trail",
+          "latitude": 46.8499277,
+          "longitude": -96.7751945,
+          "osmType": "way",
+          "osmId": 852736703,
+          "sourceUrl": "https://www.openstreetmap.org/way/852736703",
+          "tags": {
+            "highway": "path",
+            "name": "Red River Primitive Trail",
+            "surface": "dirt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Red River Primitive Trail",
+          "latitude": 46.8508785,
+          "longitude": -96.7795234,
+          "osmType": "way",
+          "osmId": 852736704,
+          "sourceUrl": "https://www.openstreetmap.org/way/852736704",
+          "tags": {
+            "highway": "path",
+            "name": "Red River Primitive Trail",
+            "piste:difficulty": "novice",
+            "piste:grooming": "classic",
+            "piste:type": "nordic",
+            "surface": "dirt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Blue Goose Trail",
+          "latitude": 46.8506623,
+          "longitude": -96.7740719,
+          "osmType": "way",
+          "osmId": 905571948,
+          "sourceUrl": "https://www.openstreetmap.org/way/905571948",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Blue Goose Trail",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Roger Maris Drive",
+          "latitude": 46.850415,
+          "longitude": -96.7777019,
+          "osmType": "way",
+          "osmId": 1081262891,
+          "sourceUrl": "https://www.openstreetmap.org/way/1081262891",
+          "tags": {
+            "bicycle": "yes",
+            "cycleway:right": "lane",
+            "hgv": "no",
+            "highway": "residential",
+            "name": "Roger Maris Drive",
+            "oneway": "yes"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Roger Maris Drive",
+          "latitude": 46.8495888,
+          "longitude": -96.7807059,
+          "osmType": "way",
+          "osmId": 1081262893,
+          "sourceUrl": "https://www.openstreetmap.org/way/1081262893",
+          "tags": {
+            "hgv": "no",
+            "highway": "residential",
+            "name": "Roger Maris Drive",
+            "oneway": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Roger Maris Drive",
+          "latitude": 46.8488786,
+          "longitude": -96.7807588,
+          "osmType": "way",
+          "osmId": 1081262894,
+          "sourceUrl": "https://www.openstreetmap.org/way/1081262894",
+          "tags": {
+            "hgv": "no",
+            "highway": "residential",
+            "name": "Roger Maris Drive",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Cass, ND"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Red River Primitive Trail",
+          "latitude": 46.8541871,
+          "longitude": -96.7859973,
+          "osmType": "way",
+          "osmId": 1464452803,
+          "sourceUrl": "https://www.openstreetmap.org/way/1464452803",
+          "tags": {
+            "highway": "path",
+            "name": "Red River Primitive Trail",
+            "piste:difficulty": "easy",
+            "piste:grooming": "classic+skating",
+            "piste:type": "nordic",
+            "surface": "grass"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Red River Trail",
+          "latitude": 46.8530654,
+          "longitude": -96.7859785,
+          "osmType": "way",
+          "osmId": 1464452805,
+          "sourceUrl": "https://www.openstreetmap.org/way/1464452805",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Red River Trail",
+            "oneway": "no",
+            "piste:difficulty": "novice",
+            "piste:grooming": "classic+skating",
+            "piste:type": "nordic",
+            "segregated": "no",
+            "surface": "asphalt",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Cass, ND"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    },
+    "launch-nd-fargo-island-park": {
+      "name": "Island Park",
+      "boundarySource": "https://www.openstreetmap.org/way/52245665",
+      "candidates": [
+        {
+          "name": "Angel of Hope",
+          "latitude": 46.8726024,
+          "longitude": -96.7877952,
+          "osmType": "node",
+          "osmId": 12121014351,
+          "sourceUrl": "https://www.openstreetmap.org/node/12121014351",
+          "tags": {
+            "artwork_type": "statue",
+            "name": "Angel of Hope",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "6th Avenue South",
+          "latitude": 46.8689175,
+          "longitude": -96.7863215,
+          "osmType": "way",
+          "osmId": 9634523,
+          "sourceUrl": "https://www.openstreetmap.org/way/9634523",
+          "tags": {
+            "highway": "residential",
+            "name": "6th Avenue South",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Cass, ND",
+            "tiger:name_base": "6th",
+            "tiger:name_direction_suffix": "S",
+            "tiger:name_type": "Ave",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Island Park",
+          "latitude": 46.8710205,
+          "longitude": -96.7877742,
+          "osmType": "way",
+          "osmId": 52245665,
+          "sourceUrl": "https://www.openstreetmap.org/way/52245665",
+          "tags": {
+            "ele": "273",
+            "gnis:feature_id": "1029636",
+            "leisure": "park",
+            "name": "Island Park",
+            "operator": "Fargo Park District",
+            "operator:type": "public",
+            "operator:wikidata": "Q110064081"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Island Park Pool",
+          "latitude": 46.8730912,
+          "longitude": -96.7890871,
+          "osmType": "way",
+          "osmId": 98357503,
+          "sourceUrl": "https://www.openstreetmap.org/way/98357503",
+          "tags": {
+            "leisure": "swimming_pool",
+            "length": "50",
+            "location": "outdoor",
+            "name": "Island Park Pool",
+            "operator": "Fargo Parks Department",
+            "source": "Bing",
+            "swimming_pool": "swimming"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    },
+    "launch-sd-sioux-falls-falls-park": {
+      "name": "Falls Park",
+      "boundarySource": "https://www.openstreetmap.org/relation/15750676",
+      "candidates": [
+        {
+          "name": "Middle Sioux Falls",
+          "latitude": 43.5571961,
+          "longitude": -96.7222488,
+          "osmType": "node",
+          "osmId": 707421993,
+          "sourceUrl": "https://www.openstreetmap.org/node/707421993",
+          "tags": {
+            "name": "Middle Sioux Falls",
+            "waterway": "waterfall"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Upper Sioux Falls",
+          "latitude": 43.5565491,
+          "longitude": -96.7228718,
+          "osmType": "node",
+          "osmId": 2453782941,
+          "sourceUrl": "https://www.openstreetmap.org/node/2453782941",
+          "tags": {
+            "name": "Upper Sioux Falls",
+            "waterway": "waterfall"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Falls Park Visitor Information Center",
+          "latitude": 43.5582665,
+          "longitude": -96.7225612,
+          "osmType": "node",
+          "osmId": 4318964713,
+          "sourceUrl": "https://www.openstreetmap.org/node/4318964713",
+          "tags": {
+            "addr:city": "Sioux Falls",
+            "addr:housenumber": "900",
+            "addr:postcode": "57104",
+            "addr:state": "SD",
+            "addr:street": "North Phillips Avenue",
+            "information": "office",
+            "name": "Falls Park Visitor Information Center",
+            "opening_hours": "Mo-Su 09:00-21:00",
+            "operator": "City of Sioux Falls",
+            "phone": "+1-605-367-7430",
+            "toilets": "yes",
+            "tourism": "information",
+            "website": "https://visitsiouxfalls.com/why-sioux-falls/about-sioux-falls/visitor-information-center/",
+            "wheelchair": "yes"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Monarch of the Plains",
+          "latitude": 43.5577301,
+          "longitude": -96.7220767,
+          "osmType": "node",
+          "osmId": 4318976318,
+          "sourceUrl": "https://www.openstreetmap.org/node/4318976318",
+          "tags": {
+            "artist_name": "Darold Bailey",
+            "artwork_type": "granite_sculpture",
+            "name": "Monarch of the Plains",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "The Dubuque House Historical Marker",
+          "latitude": 43.5591053,
+          "longitude": -96.7233251,
+          "osmType": "node",
+          "osmId": 4318976371,
+          "sourceUrl": "https://www.openstreetmap.org/node/4318976371",
+          "tags": {
+            "historic": "memorial",
+            "name": "The Dubuque House Historical Marker"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Children's Art Wall",
+          "latitude": 43.5589122,
+          "longitude": -96.7226666,
+          "osmType": "node",
+          "osmId": 4318983342,
+          "sourceUrl": "https://www.openstreetmap.org/node/4318983342",
+          "tags": {
+            "artwork_type": "mural",
+            "name": "Children's Art Wall",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Windmill",
+          "latitude": 43.5585966,
+          "longitude": -96.7227821,
+          "osmType": "node",
+          "osmId": 4318983343,
+          "sourceUrl": "https://www.openstreetmap.org/node/4318983343",
+          "tags": {
+            "artist_name": "Stephen Fink",
+            "artwork_type": "sculpture",
+            "name": "Windmill",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Two Eagles",
+          "latitude": 43.5588823,
+          "longitude": -96.7217502,
+          "osmType": "node",
+          "osmId": 4318983344,
+          "sourceUrl": "https://www.openstreetmap.org/node/4318983344",
+          "tags": {
+            "artist_name": "Harry Klessen",
+            "artwork_type": "sculpture",
+            "name": "Two Eagles",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "I Tell You What",
+          "latitude": 43.5589593,
+          "longitude": -96.7225979,
+          "osmType": "node",
+          "osmId": 4318983345,
+          "sourceUrl": "https://www.openstreetmap.org/node/4318983345",
+          "tags": {
+            "artist_name": "Kelsey Beck;Erin Walker",
+            "artwork_type": "bench",
+            "name": "I Tell You What",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "1 > 7",
+          "latitude": 43.5591984,
+          "longitude": -96.7221526,
+          "osmType": "node",
+          "osmId": 4318983346,
+          "sourceUrl": "https://www.openstreetmap.org/node/4318983346",
+          "tags": {
+            "artist_name": "Darwin Wolf;Paul Coy",
+            "artwork_type": "sculpture",
+            "name": "1 > 7",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Farmer",
+          "latitude": 43.5590371,
+          "longitude": -96.722677,
+          "osmType": "node",
+          "osmId": 4318983347,
+          "sourceUrl": "https://www.openstreetmap.org/node/4318983347",
+          "tags": {
+            "artist_name": "Larry Starck",
+            "artwork_type": "sculpture",
+            "level": "0",
+            "material": "metal",
+            "name": "Farmer",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "American Farmer",
+          "latitude": 43.5582182,
+          "longitude": -96.7224022,
+          "osmType": "node",
+          "osmId": 4318983349,
+          "sourceUrl": "https://www.openstreetmap.org/node/4318983349",
+          "tags": {
+            "artist_name": "Sondra Jonson",
+            "artwork_type": "statue",
+            "name": "American Farmer",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "For Which it Stands",
+          "latitude": 43.5582177,
+          "longitude": -96.723054,
+          "osmType": "node",
+          "osmId": 4318983351,
+          "sourceUrl": "https://www.openstreetmap.org/node/4318983351",
+          "tags": {
+            "artist_name": "James Haire",
+            "artwork_type": "statue",
+            "name": "For Which it Stands",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Jacobsen Plaza",
+          "latitude": 43.5567006,
+          "longitude": -96.726495,
+          "osmType": "node",
+          "osmId": 13410957801,
+          "sourceUrl": "https://www.openstreetmap.org/node/13410957801",
+          "tags": {
+            "leisure": "park",
+            "name": "Jacobsen Plaza"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "North 2nd Avenue",
+          "latitude": 43.5599817,
+          "longitude": -96.723072,
+          "osmType": "way",
+          "osmId": 9907421,
+          "sourceUrl": "https://www.openstreetmap.org/way/9907421",
+          "tags": {
+            "highway": "unclassified",
+            "name": "North 2nd Avenue",
+            "oneway": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "East Falls Park Drive",
+          "latitude": 43.5594708,
+          "longitude": -96.7211774,
+          "osmType": "way",
+          "osmId": 83468762,
+          "sourceUrl": "https://www.openstreetmap.org/way/83468762",
+          "tags": {
+            "bridge": "yes",
+            "highway": "tertiary",
+            "lanes": "2",
+            "layer": "1",
+            "name": "East Falls Park Drive",
+            "oneway": "no",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "East Falls Park Drive",
+          "latitude": 43.5594734,
+          "longitude": -96.7230216,
+          "osmType": "way",
+          "osmId": 119403292,
+          "sourceUrl": "https://www.openstreetmap.org/way/119403292",
+          "tags": {
+            "highway": "tertiary",
+            "lanes": "2",
+            "maxspeed": "25 mph",
+            "name": "East Falls Park Drive",
+            "oneway": "no",
+            "surface": "paved",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Minnehaha, SD",
+            "tiger:name_base": "Falls Park",
+            "tiger:name_direction_prefix": "E",
+            "tiger:name_type": "Dr",
+            "tiger:zip_left": "57104",
+            "tiger:zip_right": "57103"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "North Riverside Avenue",
+          "latitude": 43.5639386,
+          "longitude": -96.7252292,
+          "osmType": "way",
+          "osmId": 119403293,
+          "sourceUrl": "https://www.openstreetmap.org/way/119403293",
+          "tags": {
+            "highway": "residential",
+            "name": "North Riverside Avenue"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Stockyards Ag Experience Barn Art Museum",
+          "latitude": 43.5588875,
+          "longitude": -96.7226788,
+          "osmType": "way",
+          "osmId": 119403322,
+          "sourceUrl": "https://www.openstreetmap.org/way/119403322",
+          "tags": {
+            "addr:city": "Sioux Falls",
+            "addr:housenumber": "301",
+            "addr:postcode": "57104",
+            "addr:state": "SD",
+            "addr:street": "East Falls Park Drive",
+            "building": "yes",
+            "building:levels": "2",
+            "name": "Stockyards Ag Experience Barn Art Museum",
+            "tourism": "museum",
+            "website": "https://www.stockyardsagexperience.org/"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "North Phillips Avenue",
+          "latitude": 43.5615681,
+          "longitude": -96.7258181,
+          "osmType": "way",
+          "osmId": 237475266,
+          "sourceUrl": "https://www.openstreetmap.org/way/237475266",
+          "tags": {
+            "highway": "residential",
+            "name": "North Phillips Avenue",
+            "name:etymology:wikidata": "Q17183154"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "The Big Sioux River Recreation Trail and Greenway",
+          "latitude": 43.5562179,
+          "longitude": -96.7216729,
+          "osmType": "way",
+          "osmId": 237485152,
+          "sourceUrl": "https://www.openstreetmap.org/way/237485152",
+          "tags": {
+            "access": "yes",
+            "bicycle": "yes",
+            "foot": "yes",
+            "highway": "cycleway",
+            "motor_vehicle": "no",
+            "name": "The Big Sioux River Recreation Trail and Greenway",
+            "segregated": "no",
+            "source": "Bing",
+            "surface": "concrete",
+            "website": "https://visitsiouxfalls.com/things-to-do/sports-recreation/directory/the-big-sioux-river-recreation-trail-and-greenway/?search=big+sioux"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Falls Park Open Air Shelter",
+          "latitude": 43.5606994,
+          "longitude": -96.7231766,
+          "osmType": "way",
+          "osmId": 237488706,
+          "sourceUrl": "https://www.openstreetmap.org/way/237488706",
+          "tags": {
+            "amenity": "shelter",
+            "bin": "yes",
+            "building": "roof",
+            "layer": "1",
+            "name": "Falls Park Open Air Shelter",
+            "shelter_type": "picnic_shelter",
+            "source": "bing"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Falls Park Viewing Tower",
+          "latitude": 43.5582604,
+          "longitude": -96.7224153,
+          "osmType": "way",
+          "osmId": 404831404,
+          "sourceUrl": "https://www.openstreetmap.org/way/404831404",
+          "tags": {
+            "addr:city": "Sioux Falls",
+            "addr:housenumber": "900",
+            "addr:postcode": "57104",
+            "addr:state": "SD",
+            "addr:street": "North Phillips Avenue",
+            "building": "yes",
+            "building:levels": "5",
+            "man_made": "tower",
+            "name": "Falls Park Viewing Tower",
+            "tower:type": "observation",
+            "wheelchair": "yes"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Falls Overlook Cafe",
+          "latitude": 43.5571331,
+          "longitude": -96.7216061,
+          "osmType": "way",
+          "osmId": 405054021,
+          "sourceUrl": "https://www.openstreetmap.org/way/405054021",
+          "tags": {
+            "addr:city": "Sioux Falls",
+            "addr:housenumber": "825",
+            "addr:postcode": "57103",
+            "addr:state": "SD",
+            "addr:street": "North Weber Avenue",
+            "amenity": "cafe",
+            "building": "yes",
+            "cuisine": "sandwich",
+            "historic": "building",
+            "internet_access": "wlan",
+            "internet_access:fee": "no",
+            "layer": "1",
+            "name": "Falls Overlook Cafe",
+            "note": "Old hours for cafe: Mo-Fr 11:00-14:00; actual hours may be seasonal.",
+            "old_name": "Light and Power Company Building",
+            "opening_hours": "Mo-Th 11:00-15:00; Fr-Sa 11:00-21:30; Su 11:00-20:00",
+            "phone": "+1-605-367-4885",
+            "website": "http://fallsoverlookcafe.net/",
+            "wheelchair": "yes"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Queen Bee Turbine",
+          "latitude": 43.5563884,
+          "longitude": -96.7224761,
+          "osmType": "way",
+          "osmId": 405054032,
+          "sourceUrl": "https://www.openstreetmap.org/way/405054032",
+          "tags": {
+            "building": "yes",
+            "historic": "building",
+            "name": "Queen Bee Turbine"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Queen Bee Waterway",
+          "latitude": 43.5555389,
+          "longitude": -96.7228087,
+          "osmType": "way",
+          "osmId": 432971827,
+          "sourceUrl": "https://www.openstreetmap.org/way/432971827",
+          "tags": {
+            "building": "yes",
+            "historic": "building",
+            "name": "Queen Bee Waterway"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Falls Park",
+          "latitude": 43.5601406,
+          "longitude": -96.7230607,
+          "osmType": "relation",
+          "osmId": 15750676,
+          "sourceUrl": "https://www.openstreetmap.org/relation/15750676",
+          "tags": {
+            "ele": "412",
+            "leisure": "park",
+            "name": "Falls Park",
+            "type": "multipolygon",
+            "website": "https://visitsiouxfalls.com/things-to-do/falls-park/",
+            "wikidata": "Q5432486",
+            "wikipedia": "en:Falls Park"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    },
+    "launch-sd-sioux-falls-terrace-park": {
+      "name": "Terrace Park",
+      "boundarySource": "https://www.openstreetmap.org/way/302358149",
+      "candidates": [
+        {
+          "name": "North Grange Avenue",
+          "latitude": 43.5557589,
+          "longitude": -96.7412768,
+          "osmType": "way",
+          "osmId": 9903556,
+          "sourceUrl": "https://www.openstreetmap.org/way/9903556",
+          "tags": {
+            "highway": "residential",
+            "name": "North Grange Avenue",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Minnehaha, SD",
+            "tiger:name_base": "Grange",
+            "tiger:name_direction_prefix": "N",
+            "tiger:name_type": "Ave",
+            "tiger:reviewed": "no",
+            "tiger:zip_left": "57104",
+            "tiger:zip_right": "57104"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Terrace Park",
+          "latitude": 43.555548,
+          "longitude": -96.7434182,
+          "osmType": "way",
+          "osmId": 302358149,
+          "sourceUrl": "https://www.openstreetmap.org/way/302358149",
+          "tags": {
+            "addr:city": "Sioux Falls",
+            "addr:housenumber": "1100",
+            "addr:postcode": "57104",
+            "addr:state": "SD",
+            "addr:street": "West 4th Street",
+            "leisure": "park",
+            "name": "Terrace Park",
+            "opening_hours": "Mo-Su 05:00-22:00"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Terrace Park Family Pool & Aquatic Center",
+          "latitude": 43.5577625,
+          "longitude": -96.7408321,
+          "osmType": "way",
+          "osmId": 432989191,
+          "sourceUrl": "https://www.openstreetmap.org/way/432989191",
+          "tags": {
+            "addr:city": "Sioux Falls",
+            "addr:housenumber": "1100",
+            "addr:postcode": "57104",
+            "addr:state": "SD",
+            "addr:street": "West 4th Street",
+            "leisure": "water_park",
+            "name": "Terrace Park Family Pool & Aquatic Center",
+            "phone": "+1-605-367-8222",
+            "sport": "swimming"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Terrace Park Bath House",
+          "latitude": 43.5581118,
+          "longitude": -96.7405509,
+          "osmType": "way",
+          "osmId": 432989223,
+          "sourceUrl": "https://www.openstreetmap.org/way/432989223",
+          "tags": {
+            "amenity": "public_bath",
+            "building": "yes",
+            "name": "Terrace Park Bath House"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Covell Lake",
+          "latitude": 43.5550933,
+          "longitude": -96.74418,
+          "osmType": "relation",
+          "osmId": 4020941,
+          "sourceUrl": "https://www.openstreetmap.org/relation/4020941",
+          "tags": {
+            "name": "Covell Lake",
+            "natural": "water",
+            "source": "Bing",
+            "type": "multipolygon",
+            "water": "lake"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,469 @@
+{
+  "$schema": "./schemas/national-work-packet-claims.schema.json",
+  "schemaVersion": 1,
+  "updatedAt": "2026-08-20",
+  "claims": [
+    {
+      "packetId": "release-reconciliation-ak-anchorage-01",
+      "assignee": "Buildrbear",
+      "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+      "issueUrl": "https://github.com/Buildrbear/auditmap/issues/57",
+      "claimedAt": "2026-08-11",
+      "expiresAt": "2026-09-03",
+      "lastUpdatedAt": "2026-08-20",
+      "status": "submitted",
+      "submissionUrl": "https://github.com/Buildrbear/auditmap/pull/29",
+      "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/29",
+      "acceptedRecordIds": [
+        "/us/ak/anchorage/parks/delaney-park-strip/alaska-railroad-no-556",
+        "/us/ak/anchorage/parks/delaney-park-strip/centennial-rose-garden",
+        "/us/ak/anchorage/parks/kincaid-park/kincaid-beach"
+      ],
+      "reviewQueue": [
+        {
+          "issue": "Tides, snow, ice, wildlife, daylight and trail conditions can change practical access to Kincaid Beach.",
+          "recommendation": "Recheck operator alerts, weather, tides and trail conditions before publication or a condition-sensitive visit."
+        },
+        {
+          "issue": "Centennial Rose Garden appearance and maintenance are seasonal.",
+          "recommendation": "Avoid promising bloom and recheck current municipal closures or renovation notices before publication."
+        },
+        {
+          "issue": "The 2011 Alaska Railroad No. 556 photograph shows temporary fencing and does not prove current hands-on access.",
+          "recommendation": "Follow current barriers and do not market the artifact as climbable without a current operator statement."
+        }
+      ],
+      "notes": "Three evidence-cleared Anchorage destination guides with exact coordinates, complete sourced answers, licensed photographs, generated pages and preview verification are submitted in PR #29. Production presence remains the closing authority."
+    },
+    {
+      "packetId": "release-reconciliation-de-wilmington-01",
+      "assignee": "Buildrbear",
+      "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+      "issueUrl": "https://github.com/Buildrbear/auditmap/issues/59",
+      "claimedAt": "2026-08-11",
+      "expiresAt": "2026-09-03",
+      "lastUpdatedAt": "2026-08-20",
+      "status": "submitted",
+      "submissionUrl": "https://github.com/Buildrbear/auditmap/pull/30",
+      "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/30",
+      "acceptedRecordIds": [
+        "/us/de/wilmington/parks/brandywine-park/josephine-fountain",
+        "/us/de/wilmington/parks/rockford-park/rockford-tower"
+      ],
+      "reviewQueue": [
+        {
+          "issue": "No current operator page promises that Josephine Fountain will be running or that flowers will be in bloom.",
+          "recommendation": "Avoid promising operation or bloom and recheck maintenance, weather and event notices before publication."
+        },
+        {
+          "issue": "Rockford Tower observation-deck hours are fast-changing and no reviewed operator source describes the deck as step-free.",
+          "recommendation": "Recheck the same-day schedule and weather, and do not describe the observation deck as step-free without operator confirmation."
+        }
+      ],
+      "notes": "Two evidence-cleared Wilmington destination guides with exact coordinates, complete sourced answers, licensed photographs, generated pages and preview verification are submitted in PR #30. Production presence remains the closing authority."
+    },
+    {
+      "packetId": "release-reconciliation-ga-atlanta-01",
+      "assignee": "Buildrbear",
+      "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+      "issueUrl": "https://github.com/Buildrbear/auditmap/issues/61",
+      "claimedAt": "2026-08-06",
+      "expiresAt": "2026-09-03",
+      "lastUpdatedAt": "2026-08-20",
+      "status": "submitted",
+      "submissionUrl": "https://github.com/Buildrbear/auditmap/pull/1",
+      "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/1",
+      "reviewQueue": [
+        {
+          "issue": "The three packet paths are legacy-name duplicates of enriched canonical Atlanta parent routes.",
+          "recommendation": "Deploy the permanent redirects, retain the canonical short routes, and remove the obsolete static files after the submitted claim is accepted."
+        },
+        {
+          "issue": "Shirley Clarke Franklin Park surrounds protected drinking-water infrastructure.",
+          "recommendation": "Keep swimming, boating, shoreline access and barrier climbing explicitly prohibited and recheck current operator notices."
+        },
+        {
+          "issue": "The three parent guides contain internal destinations that require their own exact evidence and freshness checks.",
+          "recommendation": "Do not use this parent-page reconciliation to approve or broaden any child destination record."
+        }
+      ],
+      "notes": "All three packet records are classified duplicate/renamed. Their enriched canonical parents already exist at /eastside-trail, /chastain-park and /westside-park; PR #62 adds permanent redirects from the legacy paths. Production redirect verification and accepted-claim cleanup remain closing gates."
+    },
+    {
+      "packetId": "release-reconciliation-md-annapolis-01",
+      "assignee": "Buildrbear",
+      "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+      "issueUrl": "https://github.com/Buildrbear/auditmap/issues/36",
+      "claimedAt": "2026-08-11",
+      "expiresAt": "2026-09-03",
+      "lastUpdatedAt": "2026-08-20",
+      "status": "submitted",
+      "submissionUrl": "https://github.com/Buildrbear/auditmap/pull/31",
+      "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/31",
+      "acceptedRecordIds": [
+        "/us/md/annapolis/parks/sandy-point-state-park"
+      ],
+      "notes": "Parent-only Sandy Point State Park guide is generated and preview-verified on the stacked campaign line; production presence remains the closing authority."
+    },
+    {
+      "packetId": "release-reconciliation-md-edgemere-01",
+      "assignee": "Buildrbear",
+      "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+      "issueUrl": "https://github.com/Buildrbear/auditmap/issues/36",
+      "claimedAt": "2026-08-11",
+      "expiresAt": "2026-09-03",
+      "lastUpdatedAt": "2026-08-20",
+      "status": "submitted",
+      "submissionUrl": "https://github.com/Buildrbear/auditmap/pull/31",
+      "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/31",
+      "acceptedRecordIds": [
+        "/us/md/edgemere/parks/north-point-state-park"
+      ],
+      "reviewQueue": [
+        {
+          "issue": "Official North Point State Park opening times and visitor-center schedules conflict.",
+          "recommendation": "Keep both source-backed schedules unresolved until the operator reconciles them."
+        }
+      ],
+      "notes": "Parent-only North Point State Park guide is generated and preview-verified on the stacked campaign line; production presence remains the closing authority."
+    },
+    {
+      "packetId": "release-reconciliation-in-indianapolis-01",
+      "assignee": "Buildrbear",
+      "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+      "issueUrl": "https://github.com/Buildrbear/auditmap/issues/53",
+      "claimedAt": "2026-08-20",
+      "expiresAt": "2026-08-27",
+      "lastUpdatedAt": "2026-08-20",
+      "status": "submitted",
+      "submissionUrl": "https://github.com/Buildrbear/auditmap/pull/54",
+      "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/54",
+      "acceptedRecordIds": [
+        "/us/in/indianapolis/parks/white-river-state-park/canal-walk",
+        "/us/in/indianapolis/parks/white-river-state-park/celebration-plaza-amphitheater"
+      ],
+      "reviewQueue": [
+        {
+          "issue": "Seven other White River State Park venues and greenspaces do not yet clear exact-arrival, complete destination-profile, and matching reusable-photo gates together.",
+          "recommendation": "Keep them as parent guidance until a separately assigned depth packet clears every destination gate."
+        },
+        {
+          "issue": "The operator visit page still displays an August 15 closure notice that explicitly says affected spaces reopened August 16.",
+          "recommendation": "Treat the notice as expired and recheck current alerts and events on the day of a visit.",
+          "sourceUrl": "https://whiteriverstatepark.org/visit/"
+        }
+      ],
+      "notes": "Two evidence-cleared destination guides with exact coordinates, complete sourced answers, licensed photographs, generated pages, and preview verification are submitted in PR #54. Production presence remains the closing authority."
+    },
+    {
+      "packetId": "release-reconciliation-pa-philadelphia-01",
+      "assignee": "Buildrbear",
+      "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+      "issueUrl": "https://github.com/Buildrbear/auditmap/issues/63",
+      "claimedAt": "2026-08-10",
+      "expiresAt": "2026-09-03",
+      "lastUpdatedAt": "2026-08-20",
+      "status": "submitted",
+      "submissionUrl": "https://github.com/Buildrbear/auditmap/pull/27",
+      "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/27",
+      "acceptedRecordIds": [
+        "/us/pa/philadelphia/parks/schuylkill-banks/walnut-street-trail-hub-and-dock",
+        "/us/pa/philadelphia/parks/spruce-street-harbor-park/christopher-columbus-memorial",
+        "/us/pa/philadelphia/parks/spruce-street-harbor-park/hammock-grove-and-lazy-hammock"
+      ],
+      "reviewQueue": [
+        {"issue":"Philadelphia waterfront hours, construction, events, weather closures and seasonal operations are fast-changing.","recommendation":"Recheck the exact operator page and current access notices before publication or a schedule-sensitive visit."},
+        {"issue":"Hammocks are first-come and require a safe transfer; ordinary park admission does not guarantee seating or an accessible hammock experience.","recommendation":"Preserve the no-guarantee language and point visitors to conventional seating alternatives."},
+        {"issue":"The memorial and dock are destination landmarks, not play equipment or supervised water access.","recommendation":"Keep no-climbing, waterfront-safety and current-construction guidance explicit."}
+      ],
+      "notes": "Three evidence-cleared Philadelphia destination guides with complete sourced answers, reviewed positions, licensed photographs, generated pages and preview verification are submitted in PR #27. Production presence remains the closing authority."
+    },
+    {
+      "packetId": "research-completion-nc-greensboro-01",
+      "assignee": "Buildrbear",
+      "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+      "issueUrl": "https://github.com/Buildrbear/auditmap/issues/37",
+      "claimedAt": "2026-08-20",
+      "expiresAt": "2026-08-27",
+      "lastUpdatedAt": "2026-08-20",
+      "status": "submitted",
+      "submissionUrl": "https://github.com/Buildrbear/auditmap/pull/38",
+      "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/38",
+      "acceptedRecordIds": [
+        "/us/nc/greensboro/parks/jimmie-i-barber-park",
+        "/us/nc/greensboro/parks/oka-t-hester-park"
+      ],
+      "reviewQueue": [
+        {
+          "issue": "Jimmie I. Barber Park does not yet have four varied representative reusable parent photographs.",
+          "recommendation": "Clear the parent-photo gate before assigning launch-guide work."
+        },
+        {
+          "issue": "Oka T. Hester Park does not yet have four varied representative reusable parent photographs.",
+          "recommendation": "Clear the parent-photo gate before assigning launch-guide work."
+        },
+        {
+          "issue": "Both Greensboro inventory records lack a complete recurring visitor-answer set.",
+          "recommendation": "Complete the answer sets only under a separately assigned launch-guide packet before publication."
+        }
+      ],
+      "notes": "Inventory records and official coordinate evidence are submitted in PR #38. Hester's canonical park-office and athletic-field entrance roles are resolved; both parents remain launch-guide-photo-gated."
+    },
+    {
+      "packetId": "research-completion-nc-asheville-01",
+      "assignee": "Buildrbear",
+      "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+      "issueUrl": "https://github.com/Buildrbear/auditmap/issues/39",
+      "claimedAt": "2026-08-20",
+      "expiresAt": "2026-08-27",
+      "lastUpdatedAt": "2026-08-20",
+      "status": "submitted",
+      "submissionUrl": "https://github.com/Buildrbear/auditmap/pull/40",
+      "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/40",
+      "acceptedRecordIds": [
+        "/us/nc/asheville/parks/azalea-park"
+      ],
+      "reviewQueue": [
+        {
+          "issue": "The City has not explicitly identified which Azalea Park areas are currently open.",
+          "recommendation": "Obtain a current City area-status statement; do not infer reopening from standard hours."
+        },
+        {
+          "issue": "Azalea Park lacks four varied representative reusable parent photographs or documented City reuse permission.",
+          "recommendation": "Clear the parent-photo rights gate before launch-guide work."
+        },
+        {
+          "issue": "Access-dependent recurring visitor answers remain incomplete.",
+          "recommendation": "Complete them only under a separate launch-guide assignment after the access and photo gates clear."
+        }
+      ],
+      "notes": "Inventory record and official coordinate evidence are submitted in PR #40. Azalea Dog Park remains a distinct related facility; the parent remains access-and-photo-gated with no generated page."
+    },
+    {
+      "packetId": "research-completion-nc-concord-01",
+      "assignee": "Buildrbear",
+      "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+      "issueUrl": "https://github.com/Buildrbear/auditmap/issues/41",
+      "claimedAt": "2026-08-20",
+      "expiresAt": "2026-08-27",
+      "lastUpdatedAt": "2026-08-20",
+      "status": "submitted",
+      "submissionUrl": "https://github.com/Buildrbear/auditmap/pull/42",
+      "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/42",
+      "acceptedRecordIds": [
+        "/us/nc/concord/parks/marvin-caldwell-park"
+      ],
+      "reviewQueue": [
+        {
+          "issue": "Marvin Caldwell Park lacks a current operator as-built amenity list.",
+          "recommendation": "Obtain current as-built evidence; do not merge legacy directory features with planned or contracted renovation scope."
+        },
+        {
+          "issue": "Marvin Caldwell Park lacks four varied representative reusable parent photographs or documented City reuse permission.",
+          "recommendation": "Clear the parent-photo rights gate before launch-guide work."
+        },
+        {
+          "issue": "The recurring visitor-answer set, splash-pad season and named-facility schedules remain incomplete or stale.",
+          "recommendation": "Resolve them only under a separate launch-guide assignment."
+        }
+      ],
+      "notes": "Inventory record, current reopening evidence, and official visitor-coordinate provenance are submitted in PR #42. The parent remains photo-and-as-built-gated with no generated page."
+    },
+    {
+      "packetId": "research-completion-nc-fayetteville-01",
+      "assignee": "Buildrbear",
+      "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+      "issueUrl": "https://github.com/Buildrbear/auditmap/issues/43",
+      "claimedAt": "2026-08-20",
+      "expiresAt": "2026-08-27",
+      "lastUpdatedAt": "2026-08-20",
+      "status": "submitted",
+      "submissionUrl": "https://github.com/Buildrbear/auditmap/pull/44",
+      "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/44",
+      "acceptedRecordIds": [
+        "/us/nc/fayetteville/parks/arnette-park"
+      ],
+      "reviewQueue": [
+        {
+          "issue": "Arnette Park lacks current operator general hours; the available 2013 seasonal schedule is not current evidence.",
+          "recommendation": "Obtain current operator hours before publication."
+        },
+        {
+          "issue": "Arnette Park lacks four varied representative reusable parent photographs or documented City reuse permission.",
+          "recommendation": "Clear the parent-photo rights gate before launch-guide work."
+        },
+        {
+          "issue": "The recurring visitor-answer set and current GIS amenity availability remain incomplete.",
+          "recommendation": "Resolve them only under a separate launch-guide assignment."
+        }
+      ],
+      "notes": "Inventory record, resolved visitor address, current-use evidence, and official park-coordinate provenance are submitted in PR #44. The parent remains hours-and-photo-gated with no generated page."
+    },
+    {
+      "packetId": "research-completion-nc-raleigh-01",
+      "assignee": "Buildrbear",
+      "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+      "issueUrl": "https://github.com/Buildrbear/auditmap/issues/45",
+      "claimedAt": "2026-08-20",
+      "expiresAt": "2026-08-27",
+      "lastUpdatedAt": "2026-08-20",
+      "status": "submitted",
+      "submissionUrl": "https://github.com/Buildrbear/auditmap/pull/46",
+      "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/46",
+      "acceptedRecordIds": [
+        "/us/nc/raleigh/parks/spring-forest-road-park"
+      ],
+      "reviewQueue": [
+        {
+          "issue": "Spring Forest Road Park lacks four varied representative reusable parent photographs or documented City reuse permission.",
+          "recommendation": "Clear the parent-photo rights gate before launch-guide work."
+        },
+        {
+          "issue": "The recurring visitor-answer set remains incomplete.",
+          "recommendation": "Complete it only under a separate launch-guide assignment after the photo gate clears."
+        }
+      ],
+      "notes": "Inventory record, resolved distinct-parent identity, current access evidence, and official vehicle-entrance coordinate provenance are submitted in PR #46. The parent remains photo-and-launch-guide-gated with no generated page."
+    },
+    {
+      "packetId": "research-completion-nc-boone-01",
+      "assignee": "Buildrbear",
+      "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+      "issueUrl": "https://github.com/Buildrbear/auditmap/issues/47",
+      "claimedAt": "2026-08-20",
+      "expiresAt": "2026-08-27",
+      "lastUpdatedAt": "2026-08-20",
+      "status": "submitted",
+      "submissionUrl": "https://github.com/Buildrbear/auditmap/pull/48",
+      "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/48",
+      "acceptedRecordIds": [
+        "/us/nc/boone/parks/clawson-burnley-park",
+        "/us/nc/boone/parks/daniel-boone-park",
+        "/us/nc/boone/parks/junaluska-park"
+      ],
+      "reviewQueue": [
+        {
+          "issue": "Clawson-Burnley Park lacks current general hours and four varied representative reusable parent photographs.",
+          "recommendation": "Clear both gates before launch-guide work."
+        },
+        {
+          "issue": "Daniel Boone Park campus schedules and representative parent photography remain unverified.",
+          "recommendation": "Verify campus schedules separately and do not inherit Boone Jaycee Park hours."
+        },
+        {
+          "issue": "Junaluska Park retains an embedded 175 Summit residential pin conflict, unconfirmed current hours and unverified ADA remediation, and lacks representative parent photography.",
+          "recommendation": "Ask the Town to reconcile the pin and confirm the remaining operating and accessibility evidence before launch-guide work."
+        }
+      ],
+      "notes": "Three inventory records, reviewed coordinates, parent-child and address decisions, current-use evidence, and image-rights review are submitted in PR #48. All parents remain hours-, photo-, and launch-guide-gated with no generated pages."
+    },
+    {
+      "packetId": "research-completion-az-mesa-01",
+      "assignee": "Buildrbear",
+      "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+      "issueUrl": "https://github.com/Buildrbear/auditmap/issues/49",
+      "claimedAt": "2026-08-20",
+      "expiresAt": "2026-08-27",
+      "lastUpdatedAt": "2026-08-20",
+      "status": "submitted",
+      "submissionUrl": "https://github.com/Buildrbear/auditmap/pull/50",
+      "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/50",
+      "acceptedRecordIds": [
+        "/us/az/mesa/parks/carriage-lane-park",
+        "/us/az/mesa/parks/christopher-j-brady-park",
+        "/us/az/mesa/parks/countryside-park",
+        "/us/az/mesa/parks/desert-arroyo-park",
+        "/us/az/mesa/parks/desert-trails-park",
+        "/us/az/mesa/parks/dobson-ranch-park",
+        "/us/az/mesa/parks/eagles-park",
+        "/us/az/mesa/parks/falcon-hill-park",
+        "/us/az/mesa/parks/fiesta-sports-park",
+        "/us/az/mesa/parks/fitch-park",
+        "/us/az/mesa/parks/gene-autry-park",
+        "/us/az/mesa/parks/greenfield-park",
+        "/us/az/mesa/parks/heritage-park",
+        "/us/az/mesa/parks/holmes-park",
+        "/us/az/mesa/parks/kleinman-park",
+        "/us/az/mesa/parks/mountain-view-park",
+        "/us/az/mesa/parks/palo-verde-park",
+        "/us/az/mesa/parks/park-of-the-canals",
+        "/us/az/mesa/parks/pioneer-park",
+        "/us/az/mesa/parks/quail-run-park",
+        "/us/az/mesa/parks/red-mountain-park",
+        "/us/az/mesa/parks/reed-park",
+        "/us/az/mesa/parks/riverview-park",
+        "/us/az/mesa/parks/sherwood-park",
+        "/us/az/mesa/parks/skyline-park"
+      ],
+      "reviewQueue": [
+        {
+          "issue": "All 25 Mesa parents lack complete current recurring visitor profiles and representative reusable parent photography.",
+          "recommendation": "Complete both gates under separately assigned launch-guide work."
+        },
+        {
+          "issue": "Fitch, Eagles, Kleinman and Sherwood retain conflicts between reviewed OSM geometry and City facility-page pins.",
+          "recommendation": "Recheck the City pins and preserve both evidence classes until reconciled; do not publish navigation from an unresolved pin."
+        },
+        {
+          "issue": "City park geometry redistribution and City image reuse are not cleared by the noncommercial site license.",
+          "recommendation": "Do not redistribute the geometry or reuse the images without a separate permission decision."
+        }
+      ],
+      "notes": "Twenty-five qualified inventory parents, stable City facility IDs, current official pages, reviewed coordinates, rename and exclusion decisions, release ledger, source restrictions, and full verification are submitted in PR #50. No Mesa pages or City media were generated."
+    },
+    {
+      "packetId": "research-completion-tx-el-paso-01",
+      "assignee": "Buildrbear",
+      "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+      "issueUrl": "https://github.com/Buildrbear/auditmap/issues/51",
+      "claimedAt": "2026-08-20",
+      "expiresAt": "2026-08-27",
+      "lastUpdatedAt": "2026-08-20",
+      "status": "submitted",
+      "submissionUrl": "https://github.com/Buildrbear/auditmap/pull/52",
+      "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/52",
+      "acceptedRecordIds": [
+        "/us/tx/el-paso/parks/argal-park",
+        "/us/tx/el-paso/parks/blackie-chesher-park",
+        "/us/tx/el-paso/parks/chuck-heinrich-park",
+        "/us/tx/el-paso/parks/eastside-regional-park",
+        "/us/tx/el-paso/parks/eastwood-park",
+        "/us/tx/el-paso/parks/edgemere-linear-park",
+        "/us/tx/el-paso/parks/james-jim-crouch-park",
+        "/us/tx/el-paso/parks/joey-barraza-and-vino-memorial-park",
+        "/us/tx/el-paso/parks/lincoln-park",
+        "/us/tx/el-paso/parks/lionel-forti-park",
+        "/us/tx/el-paso/parks/marty-robbins-park",
+        "/us/tx/el-paso/parks/mary-frances-keisling-park",
+        "/us/tx/el-paso/parks/memorial-park",
+        "/us/tx/el-paso/parks/modesto-gomez-park",
+        "/us/tx/el-paso/parks/nations-tobin-park",
+        "/us/tx/el-paso/parks/pavo-real-park",
+        "/us/tx/el-paso/parks/pueblo-viejo-linear-park",
+        "/us/tx/el-paso/parks/ralph-t-cloud-park",
+        "/us/tx/el-paso/parks/ranchos-del-sol-park",
+        "/us/tx/el-paso/parks/richard-a-castro-eastside-sports-complex",
+        "/us/tx/el-paso/parks/salvador-rivas-jr-park",
+        "/us/tx/el-paso/parks/sue-young-park",
+        "/us/tx/el-paso/parks/tom-lea-lower-park",
+        "/us/tx/el-paso/parks/veterans-park",
+        "/us/tx/el-paso/parks/vista-del-valle-park"
+      ],
+      "reviewQueue": [
+        {
+          "issue": "All El Paso park coordinates are approximate park-polygon centroids rather than verified public arrival points.",
+          "recommendation": "Replace or verify every centroid with a practical public arrival point before publishing navigation."
+        },
+        {
+          "issue": "Eastside Regional Park's Hueco Club address, Blackie Chesher Park's dual address, and both linear parks' practical arrival segments remain unresolved.",
+          "recommendation": "Resolve these arrival questions under separately assigned launch-guide work."
+        },
+        {
+          "issue": "All 25 El Paso parents lack complete current recurring visitor profiles and representative reusable photography; City imagery and polygon geometry lack redistribution permission.",
+          "recommendation": "Complete the visitor and photo gates, and do not reuse City imagery or redistribute City polygon geometry without permission."
+        }
+      ],
+      "notes": "Twenty-five qualified City of El Paso inventory parents, stable GlobalIDs, current ownership/category evidence, approximate coordinate provenance, component exclusions, release ledger, source restrictions, registry collision fix, and full verification are submitted in PR #52. No El Paso pages or City media were generated."
+    }
+  ]
+}

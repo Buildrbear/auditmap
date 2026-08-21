@@ -1,0 +1,531 @@
+{
+  "checkedAt": "2026-08-10",
+  "places": {
+    "launch-pa-pittsburgh-schenley-park": {
+      "name": "Schenley Park",
+      "images": [
+        {
+          "url": "/assets/parks/pittsburgh-super/schenley-park/01-schenley-park-2-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3ASchenley_Park_(2).jpg",
+          "author": "Kevin Albright",
+          "license": "CC BY-SA 3.0",
+          "alt": "Schenley Park in Pittsburgh",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/pittsburgh-super/schenley-park/02-oakland-viewed-from-flagstaff-hill-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3AOakland_Viewed_From_Flagstaff_Hill.jpg",
+          "author": "Ajblanck",
+          "license": "CC BY-SA 3.0",
+          "alt": "Schenley Park in Pittsburgh",
+          "width": 1600,
+          "height": 841
+        },
+        {
+          "url": "/assets/parks/pittsburgh-super/schenley-park/03-pittsburgh-skyline-from-schenley-park-2015-06-03-01-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3APittsburgh_Skyline_from_Schenley_Park%2C_2015-06-03%2C_01.jpg",
+          "author": "Cbaile19",
+          "license": "CC0",
+          "alt": "Schenley Park in Pittsburgh",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/pittsburgh-super/schenley-park/04-pittsburgh-skyline-from-schenley-park-2015-06-03-03-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3APittsburgh_Skyline_from_Schenley_Park%2C_2015-06-03%2C_03.jpg",
+          "author": "Cbaile19",
+          "license": "CC0",
+          "alt": "Schenley Park in Pittsburgh",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/pittsburgh-super/schenley-park/05-phipps-conservatory-4-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3APhipps_Conservatory_4.jpg",
+          "author": "Dllu",
+          "license": "CC BY-SA 4.0",
+          "alt": "Schenley Park in Pittsburgh",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/pittsburgh-super/schenley-park/06-schenleyplaza-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3ASchenleyPlaza.jpg",
+          "author": "Phone jack",
+          "license": "CC BY-SA 3.0",
+          "alt": "Schenley Park in Pittsburgh",
+          "width": 1600,
+          "height": 944
+        },
+        {
+          "url": "/assets/parks/pittsburgh-super/schenley-park/07-panther-hollow-lake-at-sunset-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3APanther_Hollow_Lake_at_sunset.jpg",
+          "author": "Dllu",
+          "license": "CC BY-SA 4.0",
+          "alt": "Schenley Park in Pittsburgh",
+          "width": 1600,
+          "height": 1000
+        }
+      ]
+    },
+    "launch-pa-pittsburgh-frick-park": {
+      "name": "Frick Park",
+      "images": [
+        {
+          "url": "/assets/parks/pittsburgh-super/frick-park/01-frick-park-pittsburgh-pennsylvania-dsc05077-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3AFrick_Park_(Pittsburgh%2C_Pennsylvania)_-_DSC05077.JPG",
+          "author": "Daderot",
+          "license": "CC0",
+          "alt": "Frick Park in Pittsburgh",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/pittsburgh-super/frick-park/02-pittsburgh-frick-park-trail-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3APittsburgh_frick_park_trail.jpg",
+          "author": "User PerryPlanet",
+          "license": "Public domain",
+          "alt": "Frick Park in Pittsburgh",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/pittsburgh-super/frick-park/03-frick-park-gatehouse-point-breeze-2023-08-24-01b-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3AFrick_Park_gatehouse%2C_Point_Breeze%2C_2023-08-24%2C_01b.jpg",
+          "author": "Cbaile19",
+          "license": "CC0",
+          "alt": "Frick Park in Pittsburgh",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/pittsburgh-super/frick-park/04-frick-park-lion-2014-06-21-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3AFrick_Park_Lion%2C_2014-06-21.jpg",
+          "author": "Cbaile19",
+          "license": "CC0",
+          "alt": "Frick Park in Pittsburgh",
+          "width": 1248,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/pittsburgh-super/frick-park/05-fec-fall-rainbow-hillside-jeremy-marshall-914246-edited-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3AFEC-Fall-rainbow-hillside-Jeremy-Marshall-914246-edited.jpg",
+          "author": "PittsburghParks",
+          "license": "CC BY-SA 4.0",
+          "alt": "Frick Park in Pittsburgh",
+          "width": 700,
+          "height": 468
+        },
+        {
+          "url": "/assets/parks/pittsburgh-super/frick-park/06-frick-park-nine-mile-run-2020-12-01-png.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3AFrick_Park_Nine_Mile_Run_2020_12_01.png",
+          "author": "Jims Maher",
+          "license": "CC BY-SA 4.0",
+          "alt": "Frick Park in Pittsburgh",
+          "width": 1600,
+          "height": 1000
+        }
+      ]
+    },
+    "launch-pa-pittsburgh-point-state-park": {
+      "name": "Point State Park",
+      "images": [
+        {
+          "url": "/assets/parks/pittsburgh-super/point-state-park/01-point-state-park-fountain-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3APoint_State_Park_fountain.jpg",
+          "author": "Brent Moore",
+          "license": "CC BY 2.0",
+          "alt": "Point State Park in Pittsburgh",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/pittsburgh-super/point-state-park/02-point-state-park-in-fall-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3APoint_State_Park_in_Fall.jpg",
+          "author": "John",
+          "license": "CC BY-SA 2.0",
+          "alt": "Point State Park in Pittsburgh",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/pittsburgh-super/point-state-park/03-skyline-from-point-park-2022-06-04-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3ASkyline_from_Point_Park%2C_2022-06-04.jpg",
+          "author": "Cbaile19",
+          "license": "CC0",
+          "alt": "Point State Park in Pittsburgh",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/pittsburgh-super/point-state-park/04-2019-12-28-point-state-park-in-pittsburgh-pa-us-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3A2019-12-28_-_Point_State_Park_in_Pittsburgh_PA_US.jpg",
+          "author": "Matt Joseph",
+          "license": "CC BY-SA 4.0",
+          "alt": "Point State Park in Pittsburgh",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/pittsburgh-super/point-state-park/05-fort-pitt-museum-pittsburgh-48171650217-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3AFort_Pitt_Museum%2C_Pittsburgh_(48171650217).jpg",
+          "author": "Tony Webster from Minneapolis, Minnesota, United States",
+          "license": "CC BY 2.0",
+          "alt": "Point State Park in Pittsburgh",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/pittsburgh-super/point-state-park/06-fort-pitt-blockhouse-11-october-2014-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3AFort_Pitt_Blockhouse%2C_11_October_2014.jpg",
+          "author": "self",
+          "license": "Public domain",
+          "alt": "Point State Park in Pittsburgh",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/pittsburgh-super/point-state-park/07-duquesne-outline-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3ADuquesne_outline.JPG",
+          "author": "Kevin Myers at English Wikipedia",
+          "license": "CC BY-SA 3.0",
+          "alt": "Point State Park in Pittsburgh",
+          "width": 1600,
+          "height": 1000
+        }
+      ]
+    },
+    "launch-pa-pittsburgh-highland-park": {
+      "name": "Highland Park",
+      "images": [
+        {
+          "url": "/assets/parks/pittsburgh-super/highland-park/01-highlandparkpittsburghpark-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3AHighlandParkPittsburghPark.jpg",
+          "author": "Lee Paxton",
+          "license": "CC BY-SA 4.0",
+          "alt": "Highland Park in Pittsburgh",
+          "width": 600,
+          "height": 450
+        },
+        {
+          "url": "/assets/parks/pittsburgh-super/highland-park/02-highland-park-reservoir-2001-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3AHighland_Park_Reservoir%2C_2001.jpg",
+          "author": "Cbaile19",
+          "license": "CC0",
+          "alt": "Highland Park in Pittsburgh",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/pittsburgh-super/highland-park/03-highland-park-pittsburgh-united-states-unsplash-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3AHighland_Park%2C_Pittsburgh%2C_United_States_(Unsplash).jpg",
+          "author": "Taylor Davidson tdavidson",
+          "license": "CC0",
+          "alt": "Highland Park in Pittsburgh",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/pittsburgh-super/highland-park/04-highland-park-pittsburgh-pennsylvania-united-states-aerial-shot-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3AHighland_Park%2C_Pittsburgh%2C_Pennsylvania%2C_United_States_Aerial_Shot.jpg",
+          "author": "Designism",
+          "license": "CC0",
+          "alt": "Highland Park in Pittsburgh",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/pittsburgh-super/highland-park/05-highland-park-fountain-2015-07-21-01-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3AHighland_Park_Fountain%2C_2015-07-21%2C_01.jpg",
+          "author": "Cbaile19",
+          "license": "CC0",
+          "alt": "Highland Park in Pittsburgh",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/pittsburgh-super/highland-park/06-highland-park-pittsburgh-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3AHighland_Park_Pittsburgh.jpg",
+          "author": "Designism",
+          "license": "CC0",
+          "alt": "Highland Park in Pittsburgh",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/pittsburgh-super/highland-park/07-pittsburgh-zoo-and-ppg-aquarium-sign-february-20-2016-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3APittsburgh_Zoo_and_PPG_Aquarium_Sign%2C_February_20%2C_2016.jpg",
+          "author": "HeatherMarieKosur",
+          "license": "CC BY-SA 4.0",
+          "alt": "Highland Park in Pittsburgh",
+          "width": 1600,
+          "height": 1000
+        }
+      ]
+    },
+    "launch-pa-pittsburgh-riverview-park": {
+      "name": "Riverview Park",
+      "images": [
+        {
+          "url": "/assets/parks/pittsburgh-super/riverview-park/01-riverview-park-visitor-center-2015-01-05-01-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3ARiverview_Park_Visitor_Center%2C_2015-01-05%2C_01.jpg",
+          "author": "Cbaile19",
+          "license": "CC0",
+          "alt": "Riverview Park in Pittsburgh",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/pittsburgh-super/riverview-park/02-riverview-park-trials-3412566089-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3ARiverview_Park_Trials_(3412566089).jpg",
+          "author": "daveynin from United States",
+          "license": "CC BY 2.0",
+          "alt": "Riverview Park in Pittsburgh",
+          "width": 1280,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/pittsburgh-super/riverview-park/03-chapel-shelter-riverview-park-2015-05-14-03-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3AChapel_Shelter%2C_Riverview_Park%2C_2015-05-14%2C_03.jpg",
+          "author": "Cbaile19",
+          "license": "CC0",
+          "alt": "Riverview Park in Pittsburgh",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/pittsburgh-super/riverview-park/04-visitor-center-riverview-park-2015-05-14-01-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3AVisitor_Center%2C_Riverview_Park%2C_2015-05-14%2C_01.jpg",
+          "author": "Cbaile19",
+          "license": "CC0",
+          "alt": "Riverview Park in Pittsburgh",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/pittsburgh-super/riverview-park/05-allegheny-observatory-2015-05-14-01-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3AAllegheny_Observatory%2C_2015-05-14%2C_01.jpg",
+          "author": "Cbaile19",
+          "license": "CC0",
+          "alt": "Riverview Park in Pittsburgh",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/pittsburgh-super/riverview-park/06-allegheny-observatory-2014-10-08-01-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3AAllegheny_Observatory%2C_2014-10-08%2C_01.jpg",
+          "author": "Cbaile19",
+          "license": "CC0",
+          "alt": "Riverview Park in Pittsburgh",
+          "width": 1600,
+          "height": 1000
+        }
+      ]
+    },
+    "launch-pa-pittsburgh-emerald-view-park": {
+      "name": "Emerald View Park",
+      "images": [
+        {
+          "url": "/assets/parks/pittsburgh-super/emerald-view-park/01-pittskyline082904-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3APittSkyline082904.jpg",
+          "author": "The original uploader was Bobak at English Wikipedia .",
+          "license": "CC BY-SA 2.5",
+          "alt": "Emerald View Park in Pittsburgh",
+          "width": 1245,
+          "height": 594
+        },
+        {
+          "url": "/assets/parks/pittsburgh-super/emerald-view-park/02-monogahela-view-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3AMonogahela_view.JPG",
+          "author": "Suckindiesel at English Wikipedia",
+          "license": "CC BY-SA 3.0",
+          "alt": "Emerald View Park in Pittsburgh",
+          "width": 1600,
+          "height": 536
+        },
+        {
+          "url": "/assets/parks/pittsburgh-super/emerald-view-park/03-grandview-park-2015-05-26-01-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3AGrandview_Park%2C_2015-05-26%2C_01.jpg",
+          "author": "Cbaile19",
+          "license": "CC0",
+          "alt": "Emerald View Park in Pittsburgh",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/pittsburgh-super/emerald-view-park/04-fountain-grandview-park-mount-washington-pittsburgh-june-2001-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3AFountain%2C_Grandview_Park%2C_Mount_Washington%2C_Pittsburgh%2C_June_2001.jpg",
+          "author": "Cbaile19",
+          "license": "CC0",
+          "alt": "Emerald View Park in Pittsburgh",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/pittsburgh-super/emerald-view-park/05-skyline-from-points-of-view-park-2020-12-04-01-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3ASkyline_from_Points_of_View_Park%2C_2020-12-04%2C_01.jpg",
+          "author": "Cbaile19",
+          "license": "CC0",
+          "alt": "Emerald View Park in Pittsburgh",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/pittsburgh-super/emerald-view-park/06-allegheny-river-from-points-of-view-park-2020-12-04-02-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3AAllegheny_River_from_Points_of_View_Park%2C_2020-12-04%2C_02.jpg",
+          "author": "Cbaile19",
+          "license": "CC0",
+          "alt": "Emerald View Park in Pittsburgh",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/pittsburgh-super/emerald-view-park/07-pittsburgh-skyline-with-coin-operated-binoculars-2020-12-04-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3APittsburgh_skyline_with_coin-operated_binoculars%2C_2020-12-04.jpg",
+          "author": "Cbaile19",
+          "license": "CC0",
+          "alt": "Emerald View Park in Pittsburgh",
+          "width": 1600,
+          "height": 1000
+        }
+      ]
+    },
+    "launch-pa-pittsburgh-mellon-park": {
+      "name": "Mellon Park",
+      "images": [
+        {
+          "url": "/assets/parks/pittsburgh-super/mellon-park/01-mellon-park-walled-garden-2022-04-25-01-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3AMellon_Park_Walled_Garden%2C_2022-04-25%2C_01.jpg",
+          "author": "Cbaile19",
+          "license": "CC0",
+          "alt": "Spring view across Mellon Park Walled Garden toward the historic fountain and brick walls",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/pittsburgh-super/mellon-park/02-walled-garden-mellon-park-pittsburgh-2015-05-03-01-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3AWalled_Garden%2C_Mellon_Park%2C_Pittsburgh%2C_2015-05-03%2C_01.jpg",
+          "author": "Cbaile19",
+          "license": "CC0",
+          "alt": "Formal flower beds, walks, lawn and fountain inside Mellon Park Walled Garden",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/pittsburgh-super/mellon-park/03-gatehouse-mellon-park-2022-04-25-01-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3AGatehouse%2C_Mellon_Park%2C_2022-04-25%2C_01.jpg",
+          "author": "Cbaile19",
+          "license": "CC0",
+          "alt": "Historic gatehouse, iron gate and flowering trees in Mellon Park",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/pittsburgh-super/mellon-park/04-apple-blossoms-in-mellon-park-2022-04-25-01-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3AApple_blossoms_in_Mellon_Park%2C_2022-04-25%2C_01.jpg",
+          "author": "Cbaile19",
+          "license": "CC0",
+          "alt": "White spring blossoms beside a lawn and path in Mellon Park",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/pittsburgh-super/mellon-park/05-boston-ivy-in-autumn-mellon-park-pittsburgh-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3ABoston_Ivy_in_autumn%2C_Mellon_Park%2C_Pittsburgh.jpg",
+          "author": "Cbaile19",
+          "license": "CC0",
+          "alt": "Autumn Boston ivy covering a historic brick garden wall in Mellon Park",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/pittsburgh-super/mellon-park/06-mellon-park-pittsburgh-pa-dsc05016-001-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3AMellon_Park_-_Pittsburgh%2C_PA_-_DSC05016-001.JPG",
+          "author": "Daderot",
+          "license": "CC0",
+          "alt": "Broad winter lawn and curving paved walk in Mellon Park",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/pittsburgh-super/mellon-park/07-mellon-park-pittsburgh-pa-dsc05026-001-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3AMellon_Park_-_Pittsburgh%2C_PA_-_DSC05026-001.JPG",
+          "author": "Daderot",
+          "license": "CC0",
+          "alt": "Sloping winter lawn, mature trees and paved walk in Mellon Park",
+          "width": 1600,
+          "height": 1000
+        }
+      ]
+    },
+    "launch-pa-pittsburgh-north-shore-riverfront-park": {
+      "name": "North Shore Riverfront Park",
+      "images": [
+        {
+          "url": "/assets/parks/pittsburgh-super/north-shore-riverfront-park/01-water-stairs-6183801908-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3AWater_Stairs_(6183801908).jpg",
+          "author": "Britt Reints from Pittsburgh, PA",
+          "license": "CC BY 2.0",
+          "alt": "Sandstone cascades and handrails at the North Shore Water Steps",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/pittsburgh-super/north-shore-riverfront-park/02-tribute-to-children-2021-07-03-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3ATribute_to_Children%2C_2021-07-03.jpg",
+          "author": "Cbaile19",
+          "license": "CC0",
+          "alt": "Fred Rogers statue and reused bridge pier at the Tribute to Children memorial",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/pittsburgh-super/north-shore-riverfront-park/03-north-shore-riverfront-park-pittsburgh-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3ANorth_Shore_Riverfront_Park_Pittsburgh.JPG",
+          "author": "Photojunkie",
+          "license": "Public domain",
+          "alt": "Landscaped riverfront path beside the Korean War Veterans Memorial",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/pittsburgh-super/north-shore-riverfront-park/04-north-shore-park-walkway-6369661929-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3ANorth_Shore_Park_walkway_(6369661929).jpg",
+          "author": "daveynin from United States",
+          "license": "CC BY 2.0",
+          "alt": "Illuminated North Shore riverwalk beside the Allegheny River at night",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/pittsburgh-super/north-shore-riverfront-park/05-pittsburgh-northshorepark-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3APittsburgh_northshorepark.jpg",
+          "author": "PerryPlanet",
+          "license": "Public domain",
+          "alt": "Aerial view of the Great Lawn, Riverwalk, Market Street Pier and Langley Observatory Clock",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/pittsburgh-super/north-shore-riverfront-park/06-pittsburgh-point-park-punter-1-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3APittsburgh_Point_Park_Punter_1.JPG",
+          "author": "Smallbones",
+          "license": "CC0",
+          "alt": "Kayaker passing the North Shore Riverfront Park and Langley Observatory Clock",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "url": "/assets/parks/pittsburgh-super/north-shore-riverfront-park/07-pittsburgh-skyline-from-north-shore-riverfront-park-jpg.webp",
+          "source": "https://commons.wikimedia.org/wiki/File%3APittsburgh_skyline_from_North_Shore_Riverfront_Park.jpg",
+          "author": "PCN02WPS",
+          "license": "CC BY-SA 4.0",
+          "alt": "Snow-covered North Shore riverfront with Pittsburgh illuminated across the water",
+          "width": 1600,
+          "height": 1000
+        }
+      ]
+    }
+  }
+}

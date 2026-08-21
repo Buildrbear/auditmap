@@ -1,0 +1,2403 @@
+{
+  "campaign": "Southern inland connector",
+  "checkedAt": "2026-08-08",
+  "places": {
+    "launch-al-birmingham-railroad-park": {
+      "name": "Railroad Park",
+      "boundarySource": "https://www.openstreetmap.org/way/129478010",
+      "candidates": [
+        {
+          "name": "Boxcar Cafe",
+          "latitude": 33.5101761,
+          "longitude": -86.8086018,
+          "osmType": "node",
+          "osmId": 6228590440,
+          "sourceUrl": "https://www.openstreetmap.org/node/6228590440",
+          "tags": {
+            "amenity": "restaurant",
+            "name": "Boxcar Cafe"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Railroad Park",
+          "latitude": 33.5096859,
+          "longitude": -86.809912,
+          "osmType": "way",
+          "osmId": 129478010,
+          "sourceUrl": "https://www.openstreetmap.org/way/129478010",
+          "tags": {
+            "leisure": "park",
+            "name": "Railroad Park",
+            "source": "Bing",
+            "wikidata": "Q7284068"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    },
+    "launch-al-birmingham-red-mountain-park": {
+      "name": "Red Mountain Park",
+      "boundarySource": "https://www.openstreetmap.org/way/405947402",
+      "candidates": [
+        {
+          "name": "WRKK-FM (Birmingham)",
+          "latitude": 33.4411891,
+          "longitude": -86.8837841,
+          "osmType": "node",
+          "osmId": 358991146,
+          "sourceUrl": "https://www.openstreetmap.org/node/358991146",
+          "tags": {
+            "communication:radio": "yes",
+            "ele": "280",
+            "gnis:feature_id": "161183",
+            "man_made": "mast",
+            "name": "WRKK-FM (Birmingham)",
+            "tower:construction": "guyed_lattice",
+            "tower:type": "communication"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "WDJC-FM (Birmingham)",
+          "latitude": 33.4435095,
+          "longitude": -86.8805643,
+          "osmType": "node",
+          "osmId": 358991148,
+          "sourceUrl": "https://www.openstreetmap.org/node/358991148",
+          "tags": {
+            "communication:radio": "yes",
+            "ele": "288",
+            "gnis:feature_id": "161184",
+            "man_made": "mast",
+            "name": "WDJC-FM (Birmingham)",
+            "tower:construction": "guyed_lattice",
+            "tower:type": "communication"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "WMJJ-FM",
+          "latitude": 33.4441513,
+          "longitude": -86.8794266,
+          "osmType": "node",
+          "osmId": 358991150,
+          "sourceUrl": "https://www.openstreetmap.org/node/358991150",
+          "tags": {
+            "communication:radio": "yes",
+            "ele": "288",
+            "frequency": "96.5 MHz",
+            "gnis:feature_id": "161186",
+            "height": "313",
+            "man_made": "mast",
+            "name": "WMJJ-FM",
+            "old_name": "WQEZ-FM (Birmingham)",
+            "tower:construction": "guyed_lattice",
+            "tower:type": "communication"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Grace's Gap Overlook",
+          "latitude": 33.4642823,
+          "longitude": -86.8457238,
+          "osmType": "node",
+          "osmId": 3415798482,
+          "sourceUrl": "https://www.openstreetmap.org/node/3415798482",
+          "tags": {
+            "direction": "NNE",
+            "name": "Grace's Gap Overlook",
+            "tourism": "viewpoint"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Ishkooda Overlook",
+          "latitude": 33.448732,
+          "longitude": -86.8730381,
+          "osmType": "node",
+          "osmId": 3447822716,
+          "sourceUrl": "https://www.openstreetmap.org/node/3447822716",
+          "tags": {
+            "name": "Ishkooda Overlook",
+            "tourism": "viewpoint"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Haskell Hideaway Treehouse",
+          "latitude": 33.4453776,
+          "longitude": -86.8781021,
+          "osmType": "node",
+          "osmId": 3583669290,
+          "sourceUrl": "https://www.openstreetmap.org/node/3583669290",
+          "tags": {
+            "name": "Haskell Hideaway Treehouse",
+            "natural": "tree",
+            "note": "Suspended rope bridge  across ravine to a viewing platform on a tree."
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riley's Roost Treehouse",
+          "latitude": 33.4561636,
+          "longitude": -86.8570442,
+          "osmType": "node",
+          "osmId": 3583673746,
+          "sourceUrl": "https://www.openstreetmap.org/node/3583673746",
+          "tags": {
+            "name": "Riley's Roost Treehouse",
+            "natural": "tree",
+            "note": "Accessible tree platform overlooking the #14 Mine area."
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Rushing Rendezvous Treehouse",
+          "latitude": 33.4641166,
+          "longitude": -86.8467188,
+          "osmType": "node",
+          "osmId": 3583677718,
+          "sourceUrl": "https://www.openstreetmap.org/node/3583677718",
+          "tags": {
+            "name": "Rushing Rendezvous Treehouse",
+            "natural": "tree",
+            "note": "Suspended rope bridge out to a viewing platform on a tree."
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Ishkooda Mine #14",
+          "latitude": 33.4567643,
+          "longitude": -86.8564601,
+          "osmType": "node",
+          "osmId": 4080792345,
+          "sourceUrl": "https://www.openstreetmap.org/node/4080792345",
+          "tags": {
+            "historic": "Mine_Portal",
+            "name": "Ishkooda Mine #14"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Main Kiosk",
+          "latitude": 33.4477107,
+          "longitude": -86.8628164,
+          "osmType": "node",
+          "osmId": 4080793481,
+          "sourceUrl": "https://www.openstreetmap.org/node/4080793481",
+          "tags": {
+            "information": "board",
+            "name": "Main Kiosk",
+            "tourism": "information"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Ishkooda Mine #13",
+          "latitude": 33.453685,
+          "longitude": -86.860419,
+          "osmType": "node",
+          "osmId": 4080795410,
+          "sourceUrl": "https://www.openstreetmap.org/node/4080795410",
+          "tags": {
+            "historic": "Mine_Portal",
+            "name": "Ishkooda Mine #13"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "the Chairs #2",
+          "latitude": 33.4384545,
+          "longitude": -86.8854453,
+          "osmType": "node",
+          "osmId": 6069016788,
+          "sourceUrl": "https://www.openstreetmap.org/node/6069016788",
+          "tags": {
+            "amenity": "bench",
+            "backrest": "yes",
+            "material": "wood",
+            "name": "the Chairs #2",
+            "seats": "2"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Ebsco Overlook (West)",
+          "latitude": 33.4392154,
+          "longitude": -86.8859822,
+          "osmType": "node",
+          "osmId": 6866807576,
+          "sourceUrl": "https://www.openstreetmap.org/node/6866807576",
+          "tags": {
+            "description": "Wooden deck with railing",
+            "name": "Ebsco Overlook (West)",
+            "tourism": "viewpoint"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Ebsco Overlook (East)",
+          "latitude": 33.4393308,
+          "longitude": -86.8850004,
+          "osmType": "node",
+          "osmId": 6866807577,
+          "sourceUrl": "https://www.openstreetmap.org/node/6866807577",
+          "tags": {
+            "description": "Wooden deck with railing",
+            "name": "Ebsco Overlook (East)",
+            "tourism": "viewpoint"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Spring Gap",
+          "latitude": 33.4454063,
+          "longitude": -86.8752834,
+          "osmType": "node",
+          "osmId": 8645960001,
+          "sourceUrl": "https://www.openstreetmap.org/node/8645960001",
+          "tags": {
+            "name": "Spring Gap",
+            "natural": "saddle"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "MESH Collective Art",
+          "latitude": 33.4475613,
+          "longitude": -86.8626322,
+          "osmType": "node",
+          "osmId": 10239078415,
+          "sourceUrl": "https://www.openstreetmap.org/node/10239078415",
+          "tags": {
+            "artist_name": "Heather Spencer Holmes, Forrest Milksap, Amy Soverow",
+            "artwork_type": "sculpture",
+            "material": "steel",
+            "name": "MESH Collective Art",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Venice Road",
+          "latitude": 33.4380371,
+          "longitude": -86.8876032,
+          "osmType": "way",
+          "osmId": 7734563,
+          "sourceUrl": "https://www.openstreetmap.org/way/7734563",
+          "tags": {
+            "highway": "tertiary",
+            "name": "Venice Road",
+            "name_1": "Wilson Road Southwest",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Jefferson, AL",
+            "tiger:name_base": "Venice",
+            "tiger:name_base_1": "Wilson",
+            "tiger:name_direction_suffix_1": "SW",
+            "tiger:name_type": "Rd",
+            "tiger:name_type_1": "Rd",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Eureka Mines Trail",
+          "latitude": 33.4499947,
+          "longitude": -86.8608757,
+          "osmType": "way",
+          "osmId": 334440820,
+          "sourceUrl": "https://www.openstreetmap.org/way/334440820",
+          "tags": {
+            "highway": "footway",
+            "horse": "no",
+            "name": "Eureka Mines Trail",
+            "surface": "dirt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Ike Maston Trail",
+          "latitude": 33.4490781,
+          "longitude": -86.8684318,
+          "osmType": "way",
+          "osmId": 334440930,
+          "sourceUrl": "https://www.openstreetmap.org/way/334440930",
+          "tags": {
+            "bicycle": "yes",
+            "foot": "yes",
+            "highway": "footway",
+            "horse": "no",
+            "name": "Ike Maston Trail",
+            "ref": "5",
+            "surface": "dirt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Shook Trail",
+          "latitude": 33.4591603,
+          "longitude": -86.8534424,
+          "osmType": "way",
+          "osmId": 334441792,
+          "sourceUrl": "https://www.openstreetmap.org/way/334441792",
+          "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "horse": "no",
+            "mtb": "yes",
+            "name": "Shook Trail",
+            "surface": "dirt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Spring Gap Trail",
+          "latitude": 33.4484634,
+          "longitude": -86.8726298,
+          "osmType": "way",
+          "osmId": 334442950,
+          "sourceUrl": "https://www.openstreetmap.org/way/334442950",
+          "tags": {
+            "highway": "footway",
+            "horse": "no",
+            "name": "Spring Gap Trail",
+            "ref": "12",
+            "surface": "dirt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "#13 Mine Trail",
+          "latitude": 33.4524343,
+          "longitude": -86.8600584,
+          "osmType": "way",
+          "osmId": 334443006,
+          "sourceUrl": "https://www.openstreetmap.org/way/334443006",
+          "tags": {
+            "highway": "footway",
+            "name": "#13 Mine Trail",
+            "ref": "13"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "BMRR South Trail",
+          "latitude": 33.4473339,
+          "longitude": -86.8688314,
+          "osmType": "way",
+          "osmId": 334487273,
+          "sourceUrl": "https://www.openstreetmap.org/way/334487273",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "horse": "no",
+            "name": "BMRR South Trail",
+            "oneway": "no",
+            "ref": "3",
+            "segregated": "no",
+            "surface": "compacted"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Remy's Dog Park (Large)",
+          "latitude": 33.4475541,
+          "longitude": -86.8597436,
+          "osmType": "way",
+          "osmId": 337717030,
+          "sourceUrl": "https://www.openstreetmap.org/way/337717030",
+          "tags": {
+            "leisure": "dog_park",
+            "name": "Remy's Dog Park (Large)"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Remy's Dog Park (Small)",
+          "latitude": 33.4472137,
+          "longitude": -86.860214,
+          "osmType": "way",
+          "osmId": 337717031,
+          "sourceUrl": "https://www.openstreetmap.org/way/337717031",
+          "tags": {
+            "leisure": "dog_park",
+            "name": "Remy's Dog Park (Small)"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Remy's Dog Park (Special Needs)",
+          "latitude": 33.4473606,
+          "longitude": -86.8610796,
+          "osmType": "way",
+          "osmId": 337717032,
+          "sourceUrl": "https://www.openstreetmap.org/way/337717032",
+          "tags": {
+            "leisure": "dog_park",
+            "name": "Remy's Dog Park (Special Needs)"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Songo Trail",
+          "latitude": 33.4438845,
+          "longitude": -86.877683,
+          "osmType": "way",
+          "osmId": 352603742,
+          "sourceUrl": "https://www.openstreetmap.org/way/352603742",
+          "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "horse": "no",
+            "lit": "no",
+            "name": "Songo Trail",
+            "ref": "7",
+            "surface": "dirt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Remy's Dog Park",
+          "latitude": 33.4469159,
+          "longitude": -86.8613794,
+          "osmType": "way",
+          "osmId": 405943446,
+          "sourceUrl": "https://www.openstreetmap.org/way/405943446",
+          "tags": {
+            "highway": "footway",
+            "name": "Remy's Dog Park"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "#14 Mine Trail",
+          "latitude": 33.4552579,
+          "longitude": -86.8560131,
+          "osmType": "way",
+          "osmId": 405943649,
+          "sourceUrl": "https://www.openstreetmap.org/way/405943649",
+          "tags": {
+            "highway": "footway",
+            "horse": "no",
+            "name": "#14 Mine Trail",
+            "surface": "dirt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "#10 Mine Trail",
+          "latitude": 33.4384191,
+          "longitude": -86.8853352,
+          "osmType": "way",
+          "osmId": 405944236,
+          "sourceUrl": "https://www.openstreetmap.org/way/405944236",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "horse": "no",
+            "name": "#10 Mine Trail",
+            "surface": "gravel"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Red Mountain Park",
+          "latitude": 33.4505736,
+          "longitude": -86.8662779,
+          "osmType": "way",
+          "osmId": 405947402,
+          "sourceUrl": "https://www.openstreetmap.org/way/405947402",
+          "tags": {
+            "addr:city": "Birmingham",
+            "addr:county": "Jefferson",
+            "addr:housenumber": "2011",
+            "addr:street": "Frankfurt Drive",
+            "leisure": "park",
+            "name": "Red Mountain Park",
+            "website": "https://redmountainpark.org/"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "BMRR North Trail",
+          "latitude": 33.4509156,
+          "longitude": -86.8699056,
+          "osmType": "way",
+          "osmId": 405947566,
+          "sourceUrl": "https://www.openstreetmap.org/way/405947566",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "horse": "no",
+            "lit": "no",
+            "motor_vehicle": "no",
+            "name": "BMRR North Trail",
+            "oneway": "no",
+            "ref": "17",
+            "surface": "gravel,_dirt",
+            "width": "2"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Wenonah Connector",
+          "latitude": 33.4414988,
+          "longitude": -86.8852852,
+          "osmType": "way",
+          "osmId": 405947568,
+          "sourceUrl": "https://www.openstreetmap.org/way/405947568",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "horse": "no",
+            "name": "Wenonah Connector",
+            "ref": "9",
+            "surface": "compacted"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Skyhy Ridge Walk",
+          "latitude": 33.4518789,
+          "longitude": -86.865913,
+          "osmType": "way",
+          "osmId": 405947662,
+          "sourceUrl": "https://www.openstreetmap.org/way/405947662",
+          "tags": {
+            "bicycle": "designated",
+            "highway": "footway",
+            "horse": "no",
+            "mtb:scale": "3",
+            "name": "Skyhy Ridge Walk",
+            "surface": "dirt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Rushing Rendezvous Treehouse Rope Bridge",
+          "latitude": 33.4640408,
+          "longitude": -86.8467534,
+          "osmType": "way",
+          "osmId": 473616786,
+          "sourceUrl": "https://www.openstreetmap.org/way/473616786",
+          "tags": {
+            "bridge": "yes",
+            "highway": "footway",
+            "name": "Rushing Rendezvous Treehouse Rope Bridge",
+            "surface": "wood",
+            "width": "1"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Ishkooda Connector",
+          "latitude": 33.4526371,
+          "longitude": -86.8625075,
+          "osmType": "way",
+          "osmId": 479961188,
+          "sourceUrl": "https://www.openstreetmap.org/way/479961188",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "horse": "no",
+            "name": "Ishkooda Connector"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "L&N Trail",
+          "latitude": 33.447704,
+          "longitude": -86.8634721,
+          "osmType": "way",
+          "osmId": 480098069,
+          "sourceUrl": "https://www.openstreetmap.org/way/480098069",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "L&N Trail",
+            "ref": "2",
+            "segregated": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Eureka Mines Trail",
+          "latitude": 33.4464426,
+          "longitude": -86.862493,
+          "osmType": "way",
+          "osmId": 613792620,
+          "sourceUrl": "https://www.openstreetmap.org/way/613792620",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "horse": "no",
+            "name": "Eureka Mines Trail",
+            "ref": "1",
+            "segregated": "no",
+            "surface": "dirt",
+            "width": "4"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Service Road",
+          "latitude": 33.4484783,
+          "longitude": -86.8685617,
+          "osmType": "way",
+          "osmId": 616020106,
+          "sourceUrl": "https://www.openstreetmap.org/way/616020106",
+          "tags": {
+            "access": "no",
+            "bicycle": "no",
+            "foot": "no",
+            "highway": "service",
+            "horse": "no",
+            "motor_vehicle": "private",
+            "name": "Service Road",
+            "service": "emergency_access",
+            "surface": "dirt",
+            "surface_1": "rock"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Skyhy Ridge Walk",
+          "latitude": 33.4446836,
+          "longitude": -86.8781819,
+          "osmType": "way",
+          "osmId": 616023219,
+          "sourceUrl": "https://www.openstreetmap.org/way/616023219",
+          "tags": {
+            "bicycle": "designated",
+            "highway": "footway",
+            "horse": "no",
+            "mtb:scale": "3",
+            "name": "Skyhy Ridge Walk",
+            "ref": "16",
+            "surface": "dirt",
+            "width": "1"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Redding Trail",
+          "latitude": 33.4437378,
+          "longitude": -86.8775392,
+          "osmType": "way",
+          "osmId": 616023220,
+          "sourceUrl": "https://www.openstreetmap.org/way/616023220",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "horse": "no",
+            "name": "Redding Trail",
+            "oneway": "no",
+            "ref": "8",
+            "segregated": "no",
+            "surface": "compacted"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Smythe Trail",
+          "latitude": 33.4470253,
+          "longitude": -86.8705379,
+          "osmType": "way",
+          "osmId": 616023221,
+          "sourceUrl": "https://www.openstreetmap.org/way/616023221",
+          "tags": {
+            "highway": "footway",
+            "horse": "no",
+            "name": "Smythe Trail",
+            "ref": "6",
+            "surface": "dirt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Connector",
+          "latitude": 33.4556236,
+          "longitude": -86.8590583,
+          "osmType": "way",
+          "osmId": 616026463,
+          "sourceUrl": "https://www.openstreetmap.org/way/616026463",
+          "tags": {
+            "highway": "footway",
+            "horse": "no",
+            "motor_vehicle": "no",
+            "name": "Connector",
+            "surface": "dirt",
+            "width": "2"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "BMRR South Trail",
+          "latitude": 33.4586671,
+          "longitude": -86.8526315,
+          "osmType": "way",
+          "osmId": 1003179973,
+          "sourceUrl": "https://www.openstreetmap.org/way/1003179973",
+          "tags": {
+            "bicycle": "yes",
+            "foot": "yes",
+            "highway": "footway",
+            "horse": "no",
+            "name": "BMRR South Trail",
+            "oneway": "no",
+            "segregated": "no",
+            "surface": "dirt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "#14 Mine Trail",
+          "latitude": 33.4565032,
+          "longitude": -86.8563894,
+          "osmType": "way",
+          "osmId": 1037292705,
+          "sourceUrl": "https://www.openstreetmap.org/way/1037292705",
+          "tags": {
+            "highway": "footway",
+            "horse": "no",
+            "name": "#14 Mine Trail",
+            "surface": "dirt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Spring Gap Trail",
+          "latitude": 33.4463256,
+          "longitude": -86.8774179,
+          "osmType": "way",
+          "osmId": 1042560711,
+          "sourceUrl": "https://www.openstreetmap.org/way/1042560711",
+          "tags": {
+            "highway": "footway",
+            "horse": "no",
+            "name": "Spring Gap Trail",
+            "ref": "12",
+            "surface": "dirt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Service Road",
+          "latitude": 33.447548,
+          "longitude": -86.867019,
+          "osmType": "way",
+          "osmId": 1189424826,
+          "sourceUrl": "https://www.openstreetmap.org/way/1189424826",
+          "tags": {
+            "highway": "service",
+            "name": "Service Road",
+            "service": "emergency_access",
+            "surface": "dirt",
+            "surface_1": "rock"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Butler Snow Sensory Trail",
+          "latitude": 33.4484161,
+          "longitude": -86.8640995,
+          "osmType": "way",
+          "osmId": 1189424827,
+          "sourceUrl": "https://www.openstreetmap.org/way/1189424827",
+          "tags": {
+            "foot": "designated",
+            "highway": "path",
+            "name": "Butler Snow Sensory Trail",
+            "surface": "compacted"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Spaulding Ishkooda Road",
+          "latitude": 33.466365,
+          "longitude": -86.8492655,
+          "osmType": "way",
+          "osmId": 1451567242,
+          "sourceUrl": "https://www.openstreetmap.org/way/1451567242",
+          "tags": {
+            "hazmat": "designated",
+            "highway": "tertiary",
+            "lanes": "3",
+            "lanes:backward": "2",
+            "lanes:forward": "1",
+            "name": "Spaulding Ishkooda Road",
+            "tiger:county": "Jefferson, AL",
+            "tiger:zip_left": "35211",
+            "tiger:zip_right": "35211",
+            "turn:lanes:backward": "left|none"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    },
+    "launch-al-birmingham-ruffner-mountain": {
+      "name": "Ruffner Mountain",
+      "boundarySource": "https://www.openstreetmap.org/way/625136599",
+      "candidates": [
+        {
+          "name": "W253-FM (Birmingham)",
+          "latitude": 33.5609816,
+          "longitude": -86.7029785,
+          "osmType": "node",
+          "osmId": 358991174,
+          "sourceUrl": "https://www.openstreetmap.org/node/358991174",
+          "tags": {
+            "ele": "371",
+            "gnis:feature_id": "161199",
+            "man_made": "mast",
+            "name": "W253-FM (Birmingham)",
+            "tower:construction": "lattice",
+            "tower:type": "communication"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Roebuck Drive",
+          "latitude": 33.571616,
+          "longitude": -86.693509,
+          "osmType": "way",
+          "osmId": 7739766,
+          "sourceUrl": "https://www.openstreetmap.org/way/7739766",
+          "tags": {
+            "highway": "path",
+            "name": "Roebuck Drive",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Jefferson, AL",
+            "tiger:name_base": "Roebuck",
+            "tiger:name_type": "Dr",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Georgia Road",
+          "latitude": 33.5397086,
+          "longitude": -86.7181293,
+          "osmType": "way",
+          "osmId": 7752020,
+          "sourceUrl": "https://www.openstreetmap.org/way/7752020",
+          "tags": {
+            "highway": "tertiary",
+            "name": "Georgia Road",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Jefferson, AL",
+            "tiger:name_base": "Georgia",
+            "tiger:name_type": "Rd"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Oporto Madrid Boulevard South",
+          "latitude": 33.5407515,
+          "longitude": -86.7203463,
+          "osmType": "way",
+          "osmId": 7760152,
+          "sourceUrl": "https://www.openstreetmap.org/way/7760152",
+          "tags": {
+            "highway": "secondary",
+            "name": "Oporto Madrid Boulevard South",
+            "oneway": "yes",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Jefferson, AL",
+            "tiger:name_base": "Oporto Madrid",
+            "tiger:name_direction_suffix": "S",
+            "tiger:name_type": "Blvd",
+            "tiger:reviewed": "no",
+            "tiger:zip_left": "35210",
+            "tiger:zip_left_1": "35206",
+            "tiger:zip_right": "35210",
+            "tiger:zip_right_1": "35206"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Roebuck Springs Road",
+          "latitude": 33.570927,
+          "longitude": -86.6937565,
+          "osmType": "way",
+          "osmId": 7775666,
+          "sourceUrl": "https://www.openstreetmap.org/way/7775666",
+          "tags": {
+            "highway": "residential",
+            "name": "Roebuck Springs Road",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Jefferson, AL",
+            "tiger:name_base": "Roebuck Springs",
+            "tiger:name_type": "Rd",
+            "tiger:reviewed": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Ruffner Road",
+          "latitude": 33.5629684,
+          "longitude": -86.6866051,
+          "osmType": "way",
+          "osmId": 203055652,
+          "sourceUrl": "https://www.openstreetmap.org/way/203055652",
+          "tags": {
+            "hgv": "designated",
+            "highway": "tertiary",
+            "name": "Ruffner Road",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Jefferson, AL",
+            "tiger:name_base": "Ruffner",
+            "tiger:name_type": "Rd",
+            "tiger:reviewed": "no",
+            "tiger:zip_left": "35210",
+            "tiger:zip_right": "35210"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Ruffner Mountain",
+          "latitude": 33.5620148,
+          "longitude": -86.6940134,
+          "osmType": "way",
+          "osmId": 625136599,
+          "sourceUrl": "https://www.openstreetmap.org/way/625136599",
+          "tags": {
+            "access": "yes",
+            "addr:city": "Birmingham",
+            "addr:housenumber": "1214",
+            "addr:postcode": "35206",
+            "addr:state": "AL",
+            "addr:street": "81st Street S",
+            "description": "Ruffner Mountain is a 1,040 acre urban nature preserve located in Birmingham, Alabama. It is one of the largest privately held 501 (c) (3) urban nature preserves in the United States.",
+            "ele": "316",
+            "leisure": "nature_reserve",
+            "name": "Ruffner Mountain",
+            "opening_hours": "Tu-Sa 09:00-17:00; Su 13:00-17:00",
+            "website": "https://ruffnermountain.org/",
+            "wikidata": "Q7377934",
+            "wikipedia": "en:Ruffner Mountain Nature Preserve"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Oporto Madrid Boulevard South",
+          "latitude": 33.5407612,
+          "longitude": -86.720298,
+          "osmType": "way",
+          "osmId": 745639694,
+          "sourceUrl": "https://www.openstreetmap.org/way/745639694",
+          "tags": {
+            "highway": "secondary",
+            "name": "Oporto Madrid Boulevard South",
+            "oneway": "yes",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Jefferson, AL",
+            "tiger:name_base": "Oporto Madrid",
+            "tiger:name_direction_suffix": "S",
+            "tiger:name_type": "Blvd",
+            "tiger:reviewed": "no",
+            "tiger:zip_left": "35210",
+            "tiger:zip_left_1": "35206",
+            "tiger:zip_right": "35210",
+            "tiger:zip_right_1": "35206"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Eastern Trailhead",
+          "latitude": 33.5603043,
+          "longitude": -86.6906639,
+          "osmType": "way",
+          "osmId": 1485763469,
+          "sourceUrl": "https://www.openstreetmap.org/way/1485763469",
+          "tags": {
+            "foot": "yes",
+            "highway": "path",
+            "motor_vehicle": "no",
+            "name": "Eastern Trailhead",
+            "surface": "unpaved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    },
+    "launch-ms-jackson-lefleur-s-bluff-state-park": {
+      "name": "LeFleur's Bluff State Park",
+      "boundarySource": "https://www.openstreetmap.org/relation/12893310",
+      "candidates": [
+        {
+          "name": "Lefleur's Bluff State Park",
+          "latitude": 32.3283308,
+          "longitude": -90.1445662,
+          "osmType": "node",
+          "osmId": 7888578704,
+          "sourceUrl": "https://www.openstreetmap.org/node/7888578704",
+          "tags": {
+            "addr:city": "Jackson",
+            "addr:state": "MS",
+            "capacity": "36",
+            "charge": "22 USD",
+            "fee": "yes",
+            "name": "Lefleur's Bluff State Park",
+            "power_supply": "yes",
+            "reservation": "yes",
+            "shower": "yes",
+            "tourism": "camp_site"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Lakeland Terrace",
+          "latitude": 32.3302287,
+          "longitude": -90.145528,
+          "osmType": "way",
+          "osmId": 104181837,
+          "sourceUrl": "https://www.openstreetmap.org/way/104181837",
+          "tags": {
+            "check_date": "2024-10-18",
+            "covered": "no",
+            "flood_prone": "no",
+            "highway": "service",
+            "lane_markings": "no",
+            "lit": "yes",
+            "maxspeed": "15 mph",
+            "name": "Lakeland Terrace",
+            "oneway": "no",
+            "smoothness": "bad",
+            "surface": "compacted",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Hinds, MS",
+            "tiger:name_base": "Lakeland",
+            "tiger:name_type": "Ter",
+            "tiger:reviewed": "no",
+            "tiger:zip_left": "39216",
+            "tiger:zip_right": "39216",
+            "trolley_wire": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Museum Boulevard",
+          "latitude": 32.3332725,
+          "longitude": -90.1583151,
+          "osmType": "way",
+          "osmId": 272977618,
+          "sourceUrl": "https://www.openstreetmap.org/way/272977618",
+          "tags": {
+            "highway": "tertiary",
+            "lanes": "4",
+            "name": "Museum Boulevard",
+            "old_name": "Highland Drive",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Mayes Lake",
+          "latitude": 32.3289033,
+          "longitude": -90.1446497,
+          "osmType": "way",
+          "osmId": 638368342,
+          "sourceUrl": "https://www.openstreetmap.org/way/638368342",
+          "tags": {
+            "check_date": "2024-10-21",
+            "ele": "79",
+            "fishing": "yes",
+            "gnis:feature_id": "673261",
+            "intermittent": "no",
+            "name": "Mayes Lake",
+            "natural": "water",
+            "salt": "no",
+            "tidal": "no",
+            "water": "lake"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Lakeland Terrace",
+          "latitude": 32.3261481,
+          "longitude": -90.1442644,
+          "osmType": "way",
+          "osmId": 1318520731,
+          "sourceUrl": "https://www.openstreetmap.org/way/1318520731",
+          "tags": {
+            "check_date": "2024-10-18",
+            "covered": "no",
+            "flood_prone": "no",
+            "highway": "service",
+            "lane_markings": "no",
+            "lit": "yes",
+            "maxspeed": "15 mph",
+            "name": "Lakeland Terrace",
+            "oneway": "no",
+            "smoothness": "bad",
+            "surface": "compacted",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Hinds, MS",
+            "tiger:name_base": "Lakeland",
+            "tiger:name_type": "Ter",
+            "tiger:reviewed": "no",
+            "tiger:zip_left": "39216",
+            "tiger:zip_right": "39216",
+            "trolley_wire": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Lakeland Terrace",
+          "latitude": 32.3310552,
+          "longitude": -90.1460115,
+          "osmType": "way",
+          "osmId": 1318520738,
+          "sourceUrl": "https://www.openstreetmap.org/way/1318520738",
+          "tags": {
+            "check_date": "2024-09-26",
+            "highway": "track",
+            "name": "Lakeland Terrace",
+            "surface": "gravel",
+            "tracktype": "grade2"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Eubanks Creek",
+          "latitude": 32.3281096,
+          "longitude": -90.1558141,
+          "osmType": "way",
+          "osmId": 1318520740,
+          "sourceUrl": "https://www.openstreetmap.org/way/1318520740",
+          "tags": {
+            "check_date": "2024-10-21",
+            "covered": "no",
+            "fishing": "yes",
+            "gnis:feature_id": "669816",
+            "name": "Eubanks Creek",
+            "salt": "no",
+            "source": "https://edits.nationalmap.gov/apps/gaz-domestic/public/search/names/669816",
+            "tidal": "no",
+            "waterway": "stream"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Nature Trail",
+          "latitude": 32.3270337,
+          "longitude": -90.1494833,
+          "osmType": "way",
+          "osmId": 1327050085,
+          "sourceUrl": "https://www.openstreetmap.org/way/1327050085",
+          "tags": {
+            "bicycle": "yes",
+            "check_date": "2025-08-04",
+            "dog": "leashed",
+            "foot": "yes",
+            "highway": "path",
+            "lit": "no",
+            "name": "Nature Trail",
+            "surface": "ground"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Lakeland Terrace",
+          "latitude": 32.3268099,
+          "longitude": -90.1431619,
+          "osmType": "way",
+          "osmId": 1327050086,
+          "sourceUrl": "https://www.openstreetmap.org/way/1327050086",
+          "tags": {
+            "check_date": "2024-10-18",
+            "covered": "no",
+            "flood_prone": "no",
+            "highway": "service",
+            "lane_markings": "no",
+            "lit": "yes",
+            "maxspeed": "15 mph",
+            "name": "Lakeland Terrace",
+            "oneway": "no",
+            "smoothness": "bad",
+            "surface": "compacted",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Hinds, MS",
+            "tiger:name_base": "Lakeland",
+            "tiger:name_type": "Ter",
+            "tiger:reviewed": "no",
+            "tiger:zip_left": "39216",
+            "tiger:zip_right": "39216",
+            "trolley_wire": "no"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Nature Trail",
+          "latitude": 32.3243255,
+          "longitude": -90.1539607,
+          "osmType": "way",
+          "osmId": 1419999726,
+          "sourceUrl": "https://www.openstreetmap.org/way/1419999726",
+          "tags": {
+            "bicycle": "yes",
+            "foot": "yes",
+            "highway": "path",
+            "name": "Nature Trail",
+            "surface": "ground"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Nature Trail",
+          "latitude": 32.3250855,
+          "longitude": -90.1546922,
+          "osmType": "way",
+          "osmId": 1419999727,
+          "sourceUrl": "https://www.openstreetmap.org/way/1419999727",
+          "tags": {
+            "bicycle": "yes",
+            "foot": "yes",
+            "highway": "path",
+            "name": "Nature Trail",
+            "surface": "ground"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Nature Trail",
+          "latitude": 32.325533,
+          "longitude": -90.1559279,
+          "osmType": "way",
+          "osmId": 1419999728,
+          "sourceUrl": "https://www.openstreetmap.org/way/1419999728",
+          "tags": {
+            "bicycle": "yes",
+            "foot": "yes",
+            "highway": "path",
+            "name": "Nature Trail",
+            "surface": "ground"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Nature Trail",
+          "latitude": 32.3267502,
+          "longitude": -90.1560502,
+          "osmType": "way",
+          "osmId": 1419999729,
+          "sourceUrl": "https://www.openstreetmap.org/way/1419999729",
+          "tags": {
+            "bicycle": "yes",
+            "foot": "yes",
+            "highway": "path",
+            "name": "Nature Trail",
+            "surface": "ground"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Nature Trail",
+          "latitude": 32.3253139,
+          "longitude": -90.1565753,
+          "osmType": "way",
+          "osmId": 1419999730,
+          "sourceUrl": "https://www.openstreetmap.org/way/1419999730",
+          "tags": {
+            "bicycle": "yes",
+            "foot": "yes",
+            "highway": "path",
+            "name": "Nature Trail",
+            "surface": "ground"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Nature Trail",
+          "latitude": 32.3249036,
+          "longitude": -90.155869,
+          "osmType": "way",
+          "osmId": 1419999731,
+          "sourceUrl": "https://www.openstreetmap.org/way/1419999731",
+          "tags": {
+            "bicycle": "yes",
+            "foot": "yes",
+            "highway": "path",
+            "name": "Nature Trail",
+            "surface": "ground"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Nature Trail",
+          "latitude": 32.3247086,
+          "longitude": -90.1560994,
+          "osmType": "way",
+          "osmId": 1419999732,
+          "sourceUrl": "https://www.openstreetmap.org/way/1419999732",
+          "tags": {
+            "bicycle": "yes",
+            "foot": "yes",
+            "highway": "path",
+            "name": "Nature Trail",
+            "surface": "ground"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Nature Trail",
+          "latitude": 32.3246934,
+          "longitude": -90.156175,
+          "osmType": "way",
+          "osmId": 1419999734,
+          "sourceUrl": "https://www.openstreetmap.org/way/1419999734",
+          "tags": {
+            "bicycle": "yes",
+            "foot": "yes",
+            "highway": "path",
+            "name": "Nature Trail",
+            "surface": "ground"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Nature Trail",
+          "latitude": 32.3249643,
+          "longitude": -90.156469,
+          "osmType": "way",
+          "osmId": 1419999735,
+          "sourceUrl": "https://www.openstreetmap.org/way/1419999735",
+          "tags": {
+            "bicycle": "yes",
+            "foot": "yes",
+            "highway": "path",
+            "name": "Nature Trail",
+            "surface": "ground"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Nature Trail",
+          "latitude": 32.3264117,
+          "longitude": -90.1487441,
+          "osmType": "way",
+          "osmId": 1419999736,
+          "sourceUrl": "https://www.openstreetmap.org/way/1419999736",
+          "tags": {
+            "bicycle": "yes",
+            "foot": "yes",
+            "highway": "path",
+            "name": "Nature Trail",
+            "surface": "ground"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Nature Trail",
+          "latitude": 32.3264409,
+          "longitude": -90.1455616,
+          "osmType": "way",
+          "osmId": 1419999737,
+          "sourceUrl": "https://www.openstreetmap.org/way/1419999737",
+          "tags": {
+            "bicycle": "yes",
+            "foot": "yes",
+            "highway": "path",
+            "name": "Nature Trail",
+            "surface": "ground"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Lakeland Terrace",
+          "latitude": 32.3281528,
+          "longitude": -90.1443736,
+          "osmType": "way",
+          "osmId": 1420000635,
+          "sourceUrl": "https://www.openstreetmap.org/way/1420000635",
+          "tags": {
+            "check_date": "2024-10-18",
+            "covered": "no",
+            "flood_prone": "no",
+            "highway": "service",
+            "lane_markings": "no",
+            "lit": "yes",
+            "maxspeed": "15 mph",
+            "name": "Lakeland Terrace",
+            "oneway": "no",
+            "smoothness": "bad",
+            "surface": "compacted"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Lefleur's Bluff State Park",
+          "latitude": 32.3275086,
+          "longitude": -90.1484482,
+          "osmType": "relation",
+          "osmId": 12893310,
+          "sourceUrl": "https://www.openstreetmap.org/relation/12893310",
+          "tags": {
+            "access": "yes",
+            "addr:city": "Jackson",
+            "addr:housenumber": "3315",
+            "addr:postcode": "39216",
+            "addr:state": "MS",
+            "addr:street": "Lakeland Terrace",
+            "check_date": "2024-10-21",
+            "dog": "leashed",
+            "email": "lefleursbluffstatepark@wfp.ms.gov",
+            "fee": "yes",
+            "fee:conditional": "yes @ age < 5",
+            "leisure": "park",
+            "name": "Lefleur's Bluff State Park",
+            "opening_hours": "Mo-Su 08:00-17:00",
+            "phone": "+1-601-987-3923",
+            "type": "multipolygon",
+            "website": "https://www.mdwfp.com/parks-destinations/park/lefleurs-bluff-state-park",
+            "wikidata": "Q3364071"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    },
+    "launch-ms-jackson-parham-bridges-park": {
+      "name": "Parham Bridges Park",
+      "boundarySource": "https://www.openstreetmap.org/way/484806616",
+      "candidates": [
+        {
+          "name": "Hanging Moss Creek near Jackson",
+          "latitude": 32.365,
+          "longitude": -90.1447222,
+          "osmType": "node",
+          "osmId": 12072625062,
+          "sourceUrl": "https://www.openstreetmap.org/node/12072625062",
+          "tags": {
+            "ele": "79.178",
+            "ele:accuracy": "0.003",
+            "ele:datum": "NAVD88",
+            "man_made": "monitoring_station",
+            "monitoring:flow_rate": "yes",
+            "monitoring:water_level": "yes",
+            "name": "Hanging Moss Creek near Jackson",
+            "official_name": "HANGING MOSS CREEK NR JACKSON, MS",
+            "operator": "United States Geological Survey",
+            "operator:short": "USGS",
+            "operator:type": "government",
+            "operator:wikidata": "Q193755",
+            "ref": "02485700",
+            "shef:location_id": "JHMM6",
+            "start_date": "1952-11-13",
+            "website": "https://waterdata.usgs.gov/monitoring-location/02485700",
+            "website:1": "https://water.noaa.gov/gauges/jhmm6"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Parham Bridges' Park",
+          "latitude": 32.3654066,
+          "longitude": -90.1435007,
+          "osmType": "way",
+          "osmId": 484806616,
+          "sourceUrl": "https://www.openstreetmap.org/way/484806616",
+          "tags": {
+            "leisure": "park",
+            "name": "Parham Bridges' Park"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    },
+    "launch-ar-little-rock-riverfront-park": {
+      "name": "Riverfront Park",
+      "boundarySource": "https://www.openstreetmap.org/way/129998622",
+      "candidates": [
+        {
+          "name": "Water Fountain",
+          "latitude": 34.748859,
+          "longitude": -92.2677695,
+          "osmType": "node",
+          "osmId": 4794192078,
+          "sourceUrl": "https://www.openstreetmap.org/node/4794192078",
+          "tags": {
+            "amenity": "drinking_water",
+            "name": "Water Fountain"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Water Fountain",
+          "latitude": 34.7492595,
+          "longitude": -92.2680428,
+          "osmType": "node",
+          "osmId": 4794192079,
+          "sourceUrl": "https://www.openstreetmap.org/node/4794192079",
+          "tags": {
+            "amenity": "drinking_water",
+            "name": "Water Fountain"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Water Fountain",
+          "latitude": 34.7493109,
+          "longitude": -92.2688348,
+          "osmType": "node",
+          "osmId": 4794192080,
+          "sourceUrl": "https://www.openstreetmap.org/node/4794192080",
+          "tags": {
+            "amenity": "drinking_water",
+            "name": "Water Fountain"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Forever A Rose",
+          "latitude": 34.7497692,
+          "longitude": -92.2698316,
+          "osmType": "node",
+          "osmId": 4797439845,
+          "sourceUrl": "https://www.openstreetmap.org/node/4797439845",
+          "tags": {
+            "artwork_type": "sculpture",
+            "name": "Forever A Rose",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Bust of Pulaski",
+          "latitude": 34.7487721,
+          "longitude": -92.2676437,
+          "osmType": "node",
+          "osmId": 4797439863,
+          "sourceUrl": "https://www.openstreetmap.org/node/4797439863",
+          "tags": {
+            "name": "Bust of Pulaski",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "The Center",
+          "latitude": 34.7493292,
+          "longitude": -92.2671942,
+          "osmType": "node",
+          "osmId": 4797439865,
+          "sourceUrl": "https://www.openstreetmap.org/node/4797439865",
+          "tags": {
+            "artwork_type": "sculpture",
+            "name": "The Center",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Whimsical Notes",
+          "latitude": 34.7487856,
+          "longitude": -92.2668676,
+          "osmType": "node",
+          "osmId": 4797439877,
+          "sourceUrl": "https://www.openstreetmap.org/node/4797439877",
+          "tags": {
+            "name": "Whimsical Notes",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Twisted Circle",
+          "latitude": 34.7486741,
+          "longitude": -92.2666431,
+          "osmType": "node",
+          "osmId": 4797439880,
+          "sourceUrl": "https://www.openstreetmap.org/node/4797439880",
+          "tags": {
+            "artwork_type": "sculpture",
+            "name": "Twisted Circle",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Henry Thoreua Quote",
+          "latitude": 34.7480849,
+          "longitude": -92.2654107,
+          "osmType": "node",
+          "osmId": 4797450041,
+          "sourceUrl": "https://www.openstreetmap.org/node/4797450041",
+          "tags": {
+            "historic": "monument",
+            "name": "Henry Thoreua Quote"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Crane Unfolding",
+          "latitude": 34.7495016,
+          "longitude": -92.2682569,
+          "osmType": "node",
+          "osmId": 4797450084,
+          "sourceUrl": "https://www.openstreetmap.org/node/4797450084",
+          "tags": {
+            "artwork_type": "sculpture",
+            "name": "Crane Unfolding",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "The Ties That Bind",
+          "latitude": 34.7492003,
+          "longitude": -92.2685494,
+          "osmType": "node",
+          "osmId": 4797450085,
+          "sourceUrl": "https://www.openstreetmap.org/node/4797450085",
+          "tags": {
+            "artwork_type": "sculpture",
+            "name": "The Ties That Bind",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Patty Cake",
+          "latitude": 34.7493344,
+          "longitude": -92.268699,
+          "osmType": "node",
+          "osmId": 4797450086,
+          "sourceUrl": "https://www.openstreetmap.org/node/4797450086",
+          "tags": {
+            "artwork_type": "sculpture",
+            "name": "Patty Cake",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Hulahoop",
+          "latitude": 34.7492557,
+          "longitude": -92.2686714,
+          "osmType": "node",
+          "osmId": 4797450087,
+          "sourceUrl": "https://www.openstreetmap.org/node/4797450087",
+          "tags": {
+            "artwork_type": "sculpture",
+            "name": "Hulahoop",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Breaking The Cycle",
+          "latitude": 34.7494108,
+          "longitude": -92.2691273,
+          "osmType": "node",
+          "osmId": 4797450089,
+          "sourceUrl": "https://www.openstreetmap.org/node/4797450089",
+          "tags": {
+            "artwork_type": "sculpture",
+            "name": "Breaking The Cycle",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Camdeboo",
+          "latitude": 34.7497152,
+          "longitude": -92.2715766,
+          "osmType": "node",
+          "osmId": 4797450093,
+          "sourceUrl": "https://www.openstreetmap.org/node/4797450093",
+          "tags": {
+            "artwork_type": "sculpture",
+            "name": "Camdeboo",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Children's Splash Pad",
+          "latitude": 34.7498356,
+          "longitude": -92.2711997,
+          "osmType": "node",
+          "osmId": 5306520765,
+          "sourceUrl": "https://www.openstreetmap.org/node/5306520765",
+          "tags": {
+            "amenity": "fountain",
+            "name": "Children's Splash Pad"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Children's Splash Pad",
+          "latitude": 34.7491451,
+          "longitude": -92.2679492,
+          "osmType": "node",
+          "osmId": 5306520788,
+          "sourceUrl": "https://www.openstreetmap.org/node/5306520788",
+          "tags": {
+            "amenity": "fountain",
+            "name": "Children's Splash Pad"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Plane Folding",
+          "latitude": 34.7493916,
+          "longitude": -92.2678584,
+          "osmType": "node",
+          "osmId": 5306605315,
+          "sourceUrl": "https://www.openstreetmap.org/node/5306605315",
+          "tags": {
+            "artwork_type": "sculpture",
+            "name": "Plane Folding",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Retro Trees",
+          "latitude": 34.7494649,
+          "longitude": -92.2683166,
+          "osmType": "node",
+          "osmId": 5306605316,
+          "sourceUrl": "https://www.openstreetmap.org/node/5306605316",
+          "tags": {
+            "artwork_type": "sculpture",
+            "name": "Retro Trees",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Elwood",
+          "latitude": 34.7492915,
+          "longitude": -92.2689858,
+          "osmType": "node",
+          "osmId": 5306605317,
+          "sourceUrl": "https://www.openstreetmap.org/node/5306605317",
+          "tags": {
+            "artwork_type": "sculpture",
+            "name": "Elwood",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Wherever He Wants",
+          "latitude": 34.7494918,
+          "longitude": -92.2697747,
+          "osmType": "node",
+          "osmId": 5306605318,
+          "sourceUrl": "https://www.openstreetmap.org/node/5306605318",
+          "tags": {
+            "artwork_type": "sculpture",
+            "name": "Wherever He Wants",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Infinity",
+          "latitude": 34.7495167,
+          "longitude": -92.2699927,
+          "osmType": "node",
+          "osmId": 5306605319,
+          "sourceUrl": "https://www.openstreetmap.org/node/5306605319",
+          "tags": {
+            "artwork_type": "sculpture",
+            "name": "Infinity",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "3 Sparrows",
+          "latitude": 34.7495678,
+          "longitude": -92.2700535,
+          "osmType": "node",
+          "osmId": 5306605320,
+          "sourceUrl": "https://www.openstreetmap.org/node/5306605320",
+          "tags": {
+            "artwork_type": "sculpture",
+            "name": "3 Sparrows",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Bateleur Eagle",
+          "latitude": 34.7495993,
+          "longitude": -92.270067,
+          "osmType": "node",
+          "osmId": 5306605421,
+          "sourceUrl": "https://www.openstreetmap.org/node/5306605421",
+          "tags": {
+            "artwork_type": "sculpture",
+            "name": "Bateleur Eagle",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Through the Looking Glass",
+          "latitude": 34.7497271,
+          "longitude": -92.2711708,
+          "osmType": "node",
+          "osmId": 5306605423,
+          "sourceUrl": "https://www.openstreetmap.org/node/5306605423",
+          "tags": {
+            "artwork_type": "sculpture",
+            "name": "Through the Looking Glass",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Nautilus",
+          "latitude": 34.749887,
+          "longitude": -92.2713554,
+          "osmType": "node",
+          "osmId": 5306605424,
+          "sourceUrl": "https://www.openstreetmap.org/node/5306605424",
+          "tags": {
+            "artwork_type": "sculpture",
+            "name": "Nautilus",
+            "tourism": "artwork"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "The Little Rock",
+          "latitude": 34.7490729,
+          "longitude": -92.2666109,
+          "osmType": "node",
+          "osmId": 12636328930,
+          "sourceUrl": "https://www.openstreetmap.org/node/12636328930",
+          "tags": {
+            "description": "A portion of the adjacent \"The Little Rock\" stone outcrop with a plaque recording the landmark's history. The memorial itself was previously located on the grounds of the Little Rock City Hall.",
+            "historic": "memorial",
+            "memorial": "stone",
+            "name": "The Little Rock",
+            "start_date": "1932",
+            "subject:wikidata": "Q22058739",
+            "subject:wikipedia": "en:The Little Rock",
+            "tourism": "attraction",
+            "website": "https://encyclopediaofarkansas.net/media/the-little-rock-14283/",
+            "wikimedia_commons": "File:The_Little_Rock.jpg"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "The Little Rock",
+          "latitude": 34.7491974,
+          "longitude": -92.2667619,
+          "osmType": "node",
+          "osmId": 12636328931,
+          "sourceUrl": "https://www.openstreetmap.org/node/12636328931",
+          "tags": {
+            "description": "Originally a navigational landmark, today \"The Little Rock\" stone outcrop supports a pier of the Junction Bridge crossing the Arkansas River.",
+            "gnis:feature_id": "68370",
+            "heritage": "2",
+            "heritage:operator": "nrhp",
+            "historic": "heritage",
+            "landmark": "yes",
+            "name": "The Little Rock",
+            "natural": "rock",
+            "ref:nrhp": "70000124",
+            "tourism": "attraction",
+            "website": "https://encyclopediaofarkansas.net/entries/little-rock-geological-formation-5251/",
+            "wikidata": "Q22058739",
+            "wikipedia": "en:The Little Rock"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Julius Breckling Riverfront Park",
+          "latitude": 34.7492598,
+          "longitude": -92.2689776,
+          "osmType": "way",
+          "osmId": 129998622,
+          "sourceUrl": "https://www.openstreetmap.org/way/129998622",
+          "tags": {
+            "comment": "boundary may not be exact",
+            "leisure": "park",
+            "name": "Julius Breckling Riverfront Park",
+            "source": "Bing"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Arkansas River Trail",
+          "latitude": 34.7500512,
+          "longitude": -92.2737484,
+          "osmType": "way",
+          "osmId": 131361492,
+          "sourceUrl": "https://www.openstreetmap.org/way/131361492",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "horse": "no",
+            "name": "Arkansas River Trail",
+            "segregated": "no",
+            "surface": "paved"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverfest Amphitheatre",
+          "latitude": 34.7486454,
+          "longitude": -92.2654407,
+          "osmType": "way",
+          "osmId": 496918390,
+          "sourceUrl": "https://www.openstreetmap.org/way/496918390",
+          "tags": {
+            "amenity": "theatre",
+            "name": "Riverfest Amphitheatre"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Arkansas River Trail",
+          "latitude": 34.7493825,
+          "longitude": -92.2712565,
+          "osmType": "way",
+          "osmId": 686938887,
+          "sourceUrl": "https://www.openstreetmap.org/way/686938887",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "layer": "-1",
+            "name": "Arkansas River Trail",
+            "segregated": "no",
+            "surface": "paved",
+            "tunnel": "yes"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Riverfront West",
+          "latitude": 34.7493702,
+          "longitude": -92.2702217,
+          "osmType": "way",
+          "osmId": 957714459,
+          "sourceUrl": "https://www.openstreetmap.org/way/957714459",
+          "tags": {
+            "addr:city": "Little Rock",
+            "addr:state": "AR",
+            "leisure": "park",
+            "name": "Riverfront West",
+            "operator": "Little Rock Parks & Recreation"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "RIverfront East",
+          "latitude": 34.7484741,
+          "longitude": -92.2648976,
+          "osmType": "way",
+          "osmId": 957714460,
+          "sourceUrl": "https://www.openstreetmap.org/way/957714460",
+          "tags": {
+            "addr:city": "Little Rock",
+            "addr:state": "AR",
+            "leisure": "park",
+            "name": "RIverfront East",
+            "operator": "Little Rock Parks & Recreation"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Arkansas River Trail",
+          "latitude": 34.7482555,
+          "longitude": -92.2642563,
+          "osmType": "way",
+          "osmId": 1073206770,
+          "sourceUrl": "https://www.openstreetmap.org/way/1073206770",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Arkansas River Trail",
+            "note": "Currently closed under I 30 until the I 30 Bridge over the Arkansas River is replaced"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Arkansas River Trail",
+          "latitude": 34.7480963,
+          "longitude": -92.2636352,
+          "osmType": "way",
+          "osmId": 1131123082,
+          "sourceUrl": "https://www.openstreetmap.org/way/1131123082",
+          "tags": {
+            "access": "no",
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Arkansas River Trail",
+            "note": "Currently closed under I 30 until the I 30 Bridge over the Arkansas River is replaced"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Arkansas River Trail",
+          "latitude": 34.748124,
+          "longitude": -92.2649157,
+          "osmType": "way",
+          "osmId": 1273090004,
+          "sourceUrl": "https://www.openstreetmap.org/way/1273090004",
+          "tags": {
+            "highway": "service",
+            "name": "Arkansas River Trail"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Arkansas River Trail",
+          "latitude": 34.7480963,
+          "longitude": -92.2657777,
+          "osmType": "way",
+          "osmId": 1273334431,
+          "sourceUrl": "https://www.openstreetmap.org/way/1273334431",
+          "tags": {
+            "bicycle": "yes",
+            "foot": "yes",
+            "highway": "service",
+            "name": "Arkansas River Trail"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    },
+    "launch-ar-little-rock-two-rivers-park": {
+      "name": "Two Rivers Park",
+      "boundarySource": "https://www.openstreetmap.org/way/178172073",
+      "candidates": [
+        {
+          "name": "Two Rivers Drive",
+          "latitude": 34.8145855,
+          "longitude": -92.4044718,
+          "osmType": "way",
+          "osmId": 12916195,
+          "sourceUrl": "https://www.openstreetmap.org/way/12916195",
+          "tags": {
+            "highway": "track",
+            "name": "Two Rivers Drive",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Pulaski, AR",
+            "tiger:name_base": "Two Rivers",
+            "tiger:name_type": "Dr",
+            "tiger:reviewed": "no",
+            "tiger:zip_left": "72223",
+            "tiger:zip_right": "72223"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Two Rivers Park Drive",
+          "latitude": 34.8085457,
+          "longitude": -92.4001739,
+          "osmType": "way",
+          "osmId": 78169269,
+          "sourceUrl": "https://www.openstreetmap.org/way/78169269",
+          "tags": {
+            "bicycle": "yes",
+            "highway": "tertiary",
+            "lanes": "2",
+            "maxspeed": "30 mph",
+            "name": "Two Rivers Park Drive",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Two Rivers Park Drive",
+          "latitude": 34.8137586,
+          "longitude": -92.4054397,
+          "osmType": "way",
+          "osmId": 78169271,
+          "sourceUrl": "https://www.openstreetmap.org/way/78169271",
+          "tags": {
+            "bicycle": "yes",
+            "foot": "yes",
+            "highway": "tertiary",
+            "lanes": "2",
+            "maxspeed": "30 mph",
+            "name": "Two Rivers Park Drive",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Two Rivers Park Trail",
+          "latitude": 34.8077941,
+          "longitude": -92.3909431,
+          "osmType": "way",
+          "osmId": 78169528,
+          "sourceUrl": "https://www.openstreetmap.org/way/78169528",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "horse": "designated",
+            "name": "Two Rivers Park Trail",
+            "segregated": "no",
+            "surface": "paved",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Pulaski, AR",
+            "tiger:name_base": "Isbell",
+            "tiger:name_type": "Ln",
+            "tiger:reviewed": "no",
+            "tiger:zip_left": "72223",
+            "tiger:zip_right": "72223"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Two Rivers Park Bridge",
+          "latitude": 34.8011522,
+          "longitude": -92.382588,
+          "osmType": "way",
+          "osmId": 122683681,
+          "sourceUrl": "https://www.openstreetmap.org/way/122683681",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "horse": "designated",
+            "name": "Two Rivers Park Bridge",
+            "segregated": "no",
+            "surface": "concrete"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Two Rivers Park",
+          "latitude": 34.8080201,
+          "longitude": -92.395439,
+          "osmType": "way",
+          "osmId": 178172073,
+          "sourceUrl": "https://www.openstreetmap.org/way/178172073",
+          "tags": {
+            "leisure": "park",
+            "name": "Two Rivers Park"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Little Maumelle River",
+          "latitude": 34.8058782,
+          "longitude": -92.4032392,
+          "osmType": "way",
+          "osmId": 178190398,
+          "sourceUrl": "https://www.openstreetmap.org/way/178190398",
+          "tags": {
+            "name": "Little Maumelle River",
+            "natural": "water",
+            "water": "river"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "County Farm Road",
+          "latitude": 34.81605,
+          "longitude": -92.4070675,
+          "osmType": "way",
+          "osmId": 365593800,
+          "sourceUrl": "https://www.openstreetmap.org/way/365593800",
+          "tags": {
+            "highway": "unclassified",
+            "name": "County Farm Road",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Pulaski, AR",
+            "tiger:name_base": "County Farm",
+            "tiger:name_type": "Rd"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Two Rivers Park Trail",
+          "latitude": 34.8020011,
+          "longitude": -92.3836528,
+          "osmType": "way",
+          "osmId": 453112053,
+          "sourceUrl": "https://www.openstreetmap.org/way/453112053",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "horse": "designated",
+            "name": "Two Rivers Park Trail",
+            "segregated": "no",
+            "surface": "paved",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Pulaski, AR",
+            "tiger:name_base": "Isbell",
+            "tiger:name_type": "Ln",
+            "tiger:reviewed": "no",
+            "tiger:zip_left": "72223",
+            "tiger:zip_right": "72223"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Two Rivers Park Trail",
+          "latitude": 34.8024931,
+          "longitude": -92.3841221,
+          "osmType": "way",
+          "osmId": 453112054,
+          "sourceUrl": "https://www.openstreetmap.org/way/453112054",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "horse": "designated",
+            "name": "Two Rivers Park Trail",
+            "segregated": "no",
+            "surface": "paved",
+            "tiger:cfcc": "A41",
+            "tiger:county": "Pulaski, AR",
+            "tiger:name_base": "Isbell",
+            "tiger:name_type": "Ln",
+            "tiger:reviewed": "no",
+            "tiger:zip_left": "72223",
+            "tiger:zip_right": "72223"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Two Rivers Park Drive",
+          "latitude": 34.8104972,
+          "longitude": -92.4009873,
+          "osmType": "way",
+          "osmId": 454983978,
+          "sourceUrl": "https://www.openstreetmap.org/way/454983978",
+          "tags": {
+            "bicycle": "yes",
+            "foot": "yes",
+            "highway": "tertiary",
+            "name": "Two Rivers Park Drive",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Three Eagles Trail",
+          "latitude": 34.8110548,
+          "longitude": -92.3991337,
+          "osmType": "way",
+          "osmId": 457773298,
+          "sourceUrl": "https://www.openstreetmap.org/way/457773298",
+          "tags": {
+            "bicycle": "yes",
+            "foot": "yes",
+            "highway": "path",
+            "name": "Three Eagles Trail",
+            "surface": "grass"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    },
+    "launch-sc-columbia-riverfront-park": {
+      "name": "Riverfront Park",
+      "boundarySource": "https://www.openstreetmap.org/way/545165213",
+      "candidates": [
+        {
+          "name": "Irish Canal Worker Memorial",
+          "latitude": 34.0029401,
+          "longitude": -81.0534,
+          "osmType": "node",
+          "osmId": 12212811106,
+          "sourceUrl": "https://www.openstreetmap.org/node/12212811106",
+          "tags": {
+            "historic": "memorial",
+            "name": "Irish Canal Worker Memorial"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    },
+    "launch-sc-columbia-finlay-park": {
+      "name": "Finlay Park",
+      "boundarySource": "https://www.openstreetmap.org/way/319621571",
+      "candidates": [
+        {
+          "name": "Vista Greenway",
+          "latitude": 34.00561,
+          "longitude": -81.0427624,
+          "osmType": "way",
+          "osmId": 293800481,
+          "sourceUrl": "https://www.openstreetmap.org/way/293800481",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Vista Greenway",
+            "oneway": "no",
+            "segregated": "no",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Finlay Park",
+          "latitude": 34.0066533,
+          "longitude": -81.0408042,
+          "osmType": "way",
+          "osmId": 319621571,
+          "sourceUrl": "https://www.openstreetmap.org/way/319621571",
+          "tags": {
+            "closed": "yes",
+            "leisure": "park",
+            "name": "Finlay Park",
+            "wikidata": "Q5450546",
+            "wikipedia": "en:Finlay Park"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Vista Greenway",
+          "latitude": 34.0051756,
+          "longitude": -81.0417475,
+          "osmType": "way",
+          "osmId": 511780428,
+          "sourceUrl": "https://www.openstreetmap.org/way/511780428",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Vista Greenway",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        },
+        {
+          "name": "Vista Greenway",
+          "latitude": 34.0052394,
+          "longitude": -81.042653,
+          "osmType": "way",
+          "osmId": 571378346,
+          "sourceUrl": "https://www.openstreetmap.org/way/571378346",
+          "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "cycleway",
+            "name": "Vista Greenway",
+            "surface": "asphalt"
+          },
+          "reviewStatus": "inside-reviewed-park-boundary"
+        }
+      ]
+    }
+  }
+}

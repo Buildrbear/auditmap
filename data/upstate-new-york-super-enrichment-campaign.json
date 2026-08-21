@@ -1,0 +1,80 @@
+{
+  "campaign": "Upstate New York corridor",
+  "checkedAt": "2026-08-08",
+  "releaseStandard": "Four licensed destination-specific photos, preserved official visitor answers, full street addresses, and only named subsites with reviewed coordinates plus destination-specific photography.",
+  "places": [
+    {
+      "id": "launch-ny-buffalo-delaware-park",
+      "name": "Delaware Park",
+      "city": "Buffalo",
+      "state": "NY",
+      "citySlug": "buffalo-ny",
+      "operator": "City of Buffalo with Buffalo Olmsted Parks Conservancy",
+      "source": "https://www.bfloparks.org/parks/delaware-park/",
+      "featureResearchRadiusMeters": 2600,
+      "imageQueries": ["Delaware Park Buffalo", "Hoyt Lake Buffalo Delaware Park", "Japanese Garden Delaware Park Buffalo", "Rose Garden Delaware Park Buffalo"],
+      "subsites": ["Hoyt Lake", "Marcy Casino", "Japanese Garden", "Rose Garden", "Ivy Bridge", "Parkside Lodge", "Mighty Oak", "Delaware Park Playground"]
+    },
+    {
+      "id": "launch-ny-buffalo-outer-harbor-and-lakeside-complex",
+      "name": "Outer Harbor and Lakeside Complex",
+      "city": "Buffalo",
+      "state": "NY",
+      "citySlug": "buffalo-ny",
+      "operator": "Erie Canal Harbor Development Corporation and Buffalo Waterfront",
+      "source": "https://buffalowaterfront.com/outer-harbor",
+      "featureResearchRadiusMeters": 6000,
+      "imageQueries": ["Buffalo Outer Harbor", "Lakeside Complex Buffalo", "Wilkeson Pointe Buffalo", "Terminal B Buffalo Outer Harbor"],
+      "subsites": ["Lakeside Bike Park", "Wilkeson Pointe", "Bell Slip", "Terminal B", "Outer Harbor Event Space", "Shoreline Trail", "Lakeside RC Crawler Course"]
+    },
+    {
+      "id": "launch-ny-rochester-highland-park",
+      "name": "Highland Park",
+      "city": "Rochester",
+      "state": "NY",
+      "citySlug": "rochester-ny",
+      "operator": "Monroe County Parks",
+      "source": "https://www.monroecounty.gov/parks-highland",
+      "featureResearchRadiusMeters": 2200,
+      "imageQueries": ["Highland Park Rochester New York", "Lamberton Conservatory Rochester", "Lilac Arches Highland Park Rochester", "Warner Castle Sunken Garden Rochester"],
+      "subsites": ["Lamberton Conservatory", "Lilac Arches", "Warner Castle and Sunken Garden", "Highland Bowl", "Lily Pond", "Frederick Douglass Statue", "Highland Reservoir", "Highland Adventure Zone Playground"]
+    },
+    {
+      "id": "launch-ny-rochester-genesee-valley-park",
+      "name": "Genesee Valley Park",
+      "city": "Rochester",
+      "state": "NY",
+      "citySlug": "rochester-ny",
+      "operator": "Monroe County Parks and City of Rochester",
+      "source": "https://www.monroecounty.gov/parks-geneseevalley",
+      "minimumImages": 3,
+      "featureResearchRadiusMeters": 5200,
+      "imageQueries": ["Genesee Valley Park Rochester", "Genesee River Erie Canal junction Rochester", "Genesee Valley Park footbridge", "Genesee Waterways Center Rochester"],
+      "subsites": ["Genesee Valley Sports Complex", "Genesee Waterways Center", "Genesee Valley Park Pool", "Genesee Greenway", "Red Creek Trail", "Roundhouse Shelter Playground", "Genesee River and Erie Canal Junction"]
+    },
+    {
+      "id": "launch-ny-albany-washington-park",
+      "name": "Washington Park",
+      "city": "Albany",
+      "state": "NY",
+      "citySlug": "albany-ny",
+      "operator": "City of Albany with Washington Park Conservancy",
+      "source": "https://www.washingtonparkconservancy.org/general-park-information/",
+      "featureResearchRadiusMeters": 1800,
+      "imageQueries": ["Washington Park Albany New York", "Washington Park Lake House Albany", "King Memorial Fountain Albany", "Washington Park playground Albany"],
+      "subsites": ["Washington Park Lake", "Washington Park Lake House", "King Memorial Fountain", "Washington Park Playground", "Park Playhouse", "Dr. James H. Armsby Memorial", "Tulip Beds"]
+    },
+    {
+      "id": "launch-ny-albany-corning-preserve",
+      "name": "Corning Preserve",
+      "city": "Albany",
+      "state": "NY",
+      "citySlug": "albany-ny",
+      "operator": "City of Albany",
+      "source": "https://www.albanyny.gov/DocumentCenter/View/10369",
+      "featureResearchRadiusMeters": 3000,
+      "imageQueries": ["Corning Preserve Albany New York", "Jennings Landing Albany", "Albany Skyway", "Corning Preserve boat launch"],
+      "subsites": ["Jennings Landing", "Albany Skyway", "Corning Preserve Boat Launch", "Mohawk-Hudson Bike-Hike Trail", "Hudson River Way Pedestrian Bridge"]
+    }
+  ]
+}

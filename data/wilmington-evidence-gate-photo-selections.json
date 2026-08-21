@@ -1,0 +1,23 @@
+{
+  "campaign": "Wilmington evidence-gate enrichment",
+  "reviewedAt": "2026-08-11",
+  "reviewMethod": "Exact-place title, Wikimedia Commons category membership, source-page rights metadata, and visual review. Historic zoo-entrance postcards, an animal portrait with ambiguous permission wording, nearby Brandywine Creek State Park images, and repetitive tower studies were rejected as current representative substitutes.",
+  "places": {
+    "launch-de-wilmington-brandywine-park": {
+      "candidates": [
+        {"file":"Wilmington.jpeg","alt":"Brandywine Creek and the Wilmington skyline viewed from North Washington Street Bridge","creator":"Luiz F. Castro","license":"Public domain","licenseUrl":"https://creativecommons.org/publicdomain/mark/1.0/"},
+        {"file":"Brandywine Park 3Bridges.JPG","alt":"Swinging footbridge and historic rail and road bridges crossing Brandywine Creek","creator":"Smallbones","license":"Public domain","licenseUrl":"https://creativecommons.org/publicdomain/mark/1.0/"},
+        {"file":"Brandywine Park Blossoms.JPG","alt":"Josephine Fountain framed by spring blossoms in Brandywine Park","creator":"Ethelred unraed","license":"CC BY-SA 4.0","licenseUrl":"https://creativecommons.org/licenses/by-sa/4.0"},
+        {"file":"Brandywine Park River.JPG","alt":"Brandywine Creek, stone river wall, and wooded bank in Brandywine Park","creator":"Ethelred unraed","license":"CC BY-SA 4.0","licenseUrl":"https://creativecommons.org/licenses/by-sa/4.0"}
+      ]
+    },
+    "launch-de-wilmington-rockford-park": {
+      "candidates": [
+        {"file":"Sam DuPont.JPG","alt":"Samuel Francis Du Pont statue with Rockford Tower behind it","creator":"Smallbones","license":"Public domain","licenseUrl":"https://creativecommons.org/publicdomain/mark/1.0/"},
+        {"file":"Rockford Water Tower viewed from the field.jpg","alt":"Rockford Tower viewed across the park's broad open field","creator":"JoPod","license":"CC BY-SA 4.0","licenseUrl":"https://creativecommons.org/licenses/by-sa/4.0"},
+        {"file":"Rockford Lawn from Above.JPG","alt":"Rockford Park's lawn and wooded landscape viewed from Rockford Tower","creator":"Ethelred unraed","license":"CC BY-SA 4.0","licenseUrl":"https://creativecommons.org/licenses/by-sa/4.0"},
+        {"file":"Bancroft Memorial.JPG","alt":"Stone terraces and the William P. Bancroft memorial in Rockford Park","creator":"Ethelred unraed","license":"CC BY-SA 4.0","licenseUrl":"https://creativecommons.org/licenses/by-sa/4.0"}
+      ]
+    }
+  }
+}

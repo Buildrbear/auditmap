@@ -1,0 +1,121 @@
+{
+  "campaign": "Intermountain city connector",
+  "checkedAt": "2026-08-08",
+  "releaseStandard": "Three to four licensed destination-specific photos, preserved official visitor answers, full street addresses, and only named subsites with reviewed coordinates plus destination-specific photography.",
+  "places": [
+    {
+      "id": "launch-id-boise-julia-davis-park",
+      "name": "Julia Davis Park",
+      "city": "Boise",
+      "state": "ID",
+      "citySlug": "boise-id",
+      "operator": "City of Boise Parks and Recreation",
+      "source": "https://www.cityofboise.org/departments/parks-and-recreation/parks/julia-davis-park/",
+      "featureResearchRadiusMeters": 1800,
+      "imageQueries": ["Julia Davis Park Boise", "Julia Davis Park rose garden", "Julia Davis Park playground", "Julia Davis Park Boise River"],
+      "subsites": ["Julia Davis Rose Garden", "Richard and Annette Bloch Cancer Survivors Plaza", "Julia Davis Playground", "Friendship Island", "Boise River Greenbelt", "Zoo Boise", "Boise Art Museum"]
+    },
+    {
+      "id": "launch-id-boise-ann-morrison-park",
+      "name": "Ann Morrison Park",
+      "city": "Boise",
+      "state": "ID",
+      "citySlug": "boise-id",
+      "operator": "City of Boise Parks and Recreation",
+      "source": "https://www.cityofboise.org/departments/parks-and-recreation/parks/ann-morrison-park/",
+      "featureResearchRadiusMeters": 2200,
+      "imageQueries": ["Ann Morrison Park Boise", "Ann Morrison Park playground", "Ann Morrison Dog Island", "Ann Morrison Park fountain"],
+      "subsites": ["Together Treasure Valley Dog Island", "Ann Morrison Playground", "Ann Morrison Disc Golf Course", "Boise River Float Takeout", "Ann Morrison Fountain", "Boise River Greenbelt"]
+    },
+    {
+      "id": "launch-id-boise-kathryn-albertson-park",
+      "name": "Kathryn Albertson Park",
+      "city": "Boise",
+      "state": "ID",
+      "citySlug": "boise-id",
+      "operator": "City of Boise Parks and Recreation",
+      "source": "https://www.cityofboise.org/departments/parks-and-recreation/parks/kathryn-albertson-park/",
+      "deferRelease": true,
+      "deferReason": "The reusable search pool contains only two broad destination views; plant close-ups and seasonal decorations are not acceptable substitutes for a three-view park gallery.",
+      "featureResearchRadiusMeters": 1400,
+      "imageQueries": ["Kathryn Albertson Park Boise", "Kathryn Albertson Park pond", "Kathryn Albertson Park wildlife", "Kathryn Albertson Park gazebo"],
+      "subsites": ["Rookery", "Eyrie", "Kestrel", "Kathryn Albertson Ponds", "Wildlife Viewing Overlook", "Main Loop"]
+    },
+    {
+      "id": "launch-wa-spokane-riverfront-park",
+      "name": "Riverfront Park",
+      "city": "Spokane",
+      "state": "WA",
+      "citySlug": "spokane-wa",
+      "operator": "City of Spokane Parks and Recreation",
+      "source": "https://my.spokanecity.org/riverfrontspokane/visitor-info/",
+      "featureResearchRadiusMeters": 1800,
+      "imageQueries": ["Riverfront Park Spokane", "Riverfront Park Spokane playground", "Spokane Falls Riverfront Park", "Spokane Pavilion Clock Tower"],
+      "subsites": ["Red Wagon", "Riverfront Park Clock Tower", "Lower Falls", "Ice Age Floods Playground", "Providence Playscape", "Pavilion", "Looff Carrousel", "Numerica SkyRide", "Numerica Skate Ribbon", "Rotary Fountain"]
+    },
+    {
+      "id": "launch-wa-spokane-manito-park",
+      "name": "Manito Park",
+      "city": "Spokane",
+      "state": "WA",
+      "citySlug": "spokane-wa",
+      "operator": "Spokane Parks and Recreation",
+      "source": "https://my.spokanecity.org/parks/major/manito/",
+      "featureResearchRadiusMeters": 1700,
+      "imageQueries": ["Manito Park Spokane", "Duncan Garden Manito Park", "Manito Park Japanese Garden", "Gaiser Conservatory Manito Park"],
+      "subsites": ["Duncan Garden", "Nishinomiya Tsutakawa Japanese Garden", "Gaiser Conservatory", "Rose Hill", "Lilac Garden", "Mirror Pond", "Manito Park Playground", "Manito Park Splash Pad"]
+    },
+    {
+      "id": "launch-nv-reno-rancho-san-rafael-regional-park",
+      "name": "Rancho San Rafael Regional Park",
+      "city": "Reno",
+      "state": "NV",
+      "citySlug": "reno-nv",
+      "operator": "Washoe County Regional Parks and Open Space",
+      "source": "https://www.washoecounty.gov/parks/parks_and_trails/park_directory/north_region/rancho_san_rafael_regional_park.php",
+      "deferRelease": true,
+      "deferReason": "The reusable search pool is dominated by balloon-race event photography and bird close-ups rather than representative park, trail, playground, arboretum, or ranch views.",
+      "featureResearchRadiusMeters": 3000,
+      "imageQueries": ["Rancho San Rafael Regional Park Reno", "Wilbur D May Arboretum", "Rancho San Rafael playground", "Rancho San Rafael trails"],
+      "subsites": ["Wilbur D. May Arboretum", "Wilbur D. May Museum", "Herman's Pond", "Great Basin Adventure", "Rancho San Rafael Playground", "Basque Sheepherder Monument", "Historic Ranch House"]
+    },
+    {
+      "id": "launch-nv-reno-idlewild-park",
+      "name": "Idlewild Park",
+      "city": "Reno",
+      "state": "NV",
+      "citySlug": "reno-nv",
+      "operator": "City of Reno Parks and Recreation",
+      "source": "https://www.reno.gov/government/departments/parks-recreation-community-services/parks-facilities-directory/",
+      "deferRelease": true,
+      "deferReason": "The reusable search pool does not yet provide three representative destination views; event crowds, wildlife close-ups, and an unrelated train result were rejected.",
+      "featureResearchRadiusMeters": 1800,
+      "imageQueries": ["Idlewild Park Reno", "Idlewild Park rose garden", "Idlewild Park train", "Idlewild Park Truckee River"],
+      "subsites": ["Fred Gallaway Rose Garden", "Idlewild Pool", "Idlewild Train and Playland", "Idlewild Skate Park", "Idlewild Ponds", "California Building", "Truckee River Path"]
+    },
+    {
+      "id": "launch-co-colorado-springs-garden-of-the-gods",
+      "name": "Garden of the Gods",
+      "city": "Colorado Springs",
+      "state": "CO",
+      "citySlug": "colorado-springs-co",
+      "operator": "City of Colorado Springs Parks, Recreation and Cultural Services",
+      "source": "https://gardenofgods.com/park-info/",
+      "featureResearchRadiusMeters": 4200,
+      "imageQueries": ["Garden of the Gods Colorado Springs", "Balanced Rock Garden of the Gods", "Perkins Central Garden Trail", "Siamese Twins Garden of the Gods"],
+      "subsites": ["Perkins Central Garden Trail", "Balanced Rock", "Siamese Twins", "High Point Overlook", "Gateway Rocks", "Scotsman and Buckskin Charlie", "Garden of the Gods Visitor and Nature Center"]
+    },
+    {
+      "id": "launch-co-colorado-springs-memorial-park",
+      "name": "Memorial Park",
+      "city": "Colorado Springs",
+      "state": "CO",
+      "citySlug": "colorado-springs-co",
+      "operator": "City of Colorado Springs Parks, Recreation and Cultural Services",
+      "source": "https://coloradosprings.gov/memorialpark",
+      "featureResearchRadiusMeters": 2600,
+      "imageQueries": ["Memorial Park Colorado Springs", "Prospect Lake Colorado Springs", "Memorial Park playground Colorado Springs", "Memorial Park skatepark Colorado Springs"],
+      "subsites": ["Prospect Lake Beach", "Prospect Lake Trail", "Memorial Park Playground", "Memorial Skate Park", "Memorial Park Recreation Center", "Sertich Ice Center", "Olympic Velodrome", "Mark Reyner Stables"]
+    }
+  ]
+}

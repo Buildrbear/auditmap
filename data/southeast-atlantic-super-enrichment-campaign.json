@@ -1,0 +1,95 @@
+{
+  "campaign": "Southeast Atlantic high-impact public destinations",
+  "checkedAt": "2026-08-08",
+  "releaseStandard": "Four licensed photos, current visitor answers, static canonical pages, and only named or clearly mapped subsites with reviewed coordinate provenance.",
+  "places": [
+    {
+      "id": "launch-sc-charleston-waterfront-park",
+      "name": "Waterfront Park",
+      "city": "Charleston",
+      "state": "SC",
+      "citySlug": "charleston-sc",
+      "operator": "City of Charleston Parks Department",
+      "source": "https://www.charleston-sc.gov/266/Park-Directory",
+      "imageQueries": ["Waterfront Park Charleston SC", "Pineapple Fountain Charleston", "Vendue Wharf Charleston"],
+      "subsites": ["Pineapple Fountain", "Vendue Fountain", "Charleston Harbor Interpretive Marker", "Robert Smalls Marker", "Charleston Waterfront Park Dedication Plaque", "North Echo Rock", "Central Echo Rock", "South Echo Rock"]
+    },
+    {
+      "id": "launch-sc-charleston-hampton-park",
+      "name": "Hampton Park",
+      "city": "Charleston",
+      "state": "SC",
+      "citySlug": "charleston-sc",
+      "operator": "City of Charleston Parks Department",
+      "source": "https://www.charleston-sc.gov/facilities/facility/details/Hampton-Park-81",
+      "imageQueries": ["Hampton Park Charleston SC", "Hampton Park lagoon Charleston", "Hampton Park gardens Charleston"],
+      "subsites": ["Rose Pavilion", "Denmark Vesey Monument", "First Memorial Day Memorial", "Hampton Park Fountain", "Parcourse FitCircuit", "Mary Murray Drive", "Hampton Park Picnic Shelter"]
+    },
+    {
+      "id": "launch-sc-charleston-white-point-garden",
+      "name": "White Point Garden",
+      "city": "Charleston",
+      "state": "SC",
+      "citySlug": "charleston-sc",
+      "operator": "City of Charleston Parks Department",
+      "source": "https://www.charleston-sc.gov/DocumentCenter/View/31696/APPENDIX--Charleston-PR-MP-10-08-2021-REDUCED",
+      "imageQueries": ["White Point Garden Charleston", "Battery Park Charleston SC", "White Point Garden cannon Charleston"],
+      "subsites": ["Martha Fort Williams Memorial Bandstand", "William Gilmore Simms Monument", "Civil War Torpedo Boatmen Memorial", "William Moultrie Statue", "Defenders of Fort Moultrie Monument", "Confederate Defenders Monument", "USS Amberjack Memorial", "White Point Garden Cannon Collection"]
+    },
+    {
+      "id": "launch-ga-savannah-forsyth-park",
+      "name": "Forsyth Park",
+      "city": "Savannah",
+      "state": "GA",
+      "citySlug": "savannah-ga",
+      "operator": "City of Savannah Parks and Recreation",
+      "source": "https://www.savannahga.gov/parks",
+      "imageQueries": ["Forsyth Park Savannah", "Forsyth Park fountain Savannah", "Forsyth Park playground Savannah"],
+      "subsites": ["Forsyth Park Fountain", "Fragrant Garden", "Forsyth Park Amphitheater", "Forsyth Park North Playground", "Forsyth Park South Playground", "Civil War Memorial", "Forsyth Park Tennis Courts", "Forsyth Park Basketball Courts"]
+    },
+    {
+      "id": "launch-ga-savannah-skidaway-island-state-park",
+      "name": "Skidaway Island State Park",
+      "city": "Savannah",
+      "state": "GA",
+      "citySlug": "savannah-ga",
+      "operator": "Georgia State Parks and Historic Sites",
+      "source": "https://gastateparks.org/SkidawayIsland",
+      "imageQueries": ["Skidaway Island State Park", "Skidaway Island Big Ferry Trail", "Skidaway Island Sandpiper Trail"],
+      "subsites": ["Sandpiper Trail Loop", "Big Ferry Trail Loop", "Avian Loop Trail", "Observation Tower", "Skidaway Island Campground", "Skidaway Island Playground", "Skidaway Meadow", "Skidaway Narrows Viewpoint"]
+    },
+    {
+      "id": "launch-ga-savannah-bonaventure-cemetery",
+      "name": "Bonaventure Cemetery",
+      "city": "Savannah",
+      "state": "GA",
+      "citySlug": "savannah-ga",
+      "operator": "City of Savannah Department of Cemeteries",
+      "source": "https://www.savannahga.gov/864/Bonaventure-Cemetery?nid=864",
+      "imageQueries": ["Bonaventure Cemetery Savannah", "Bonaventure Cemetery live oak avenue", "Bonaventure Cemetery Savannah monuments"],
+      "subsites": []
+    },
+    {
+      "id": "launch-fl-jacksonville-kathryn-abbey-hanna-park",
+      "name": "Kathryn Abbey Hanna Park",
+      "city": "Jacksonville",
+      "state": "FL",
+      "citySlug": "jacksonville-fl",
+      "operator": "City of Jacksonville Parks, Recreation and Community Services",
+      "source": "https://www.jacksonville.gov/departments/parks-and-recreation/jaxparks/oceanfront-parks/kathryn-abbey-hanna-park",
+      "imageQueries": ["Hanna Park Jacksonville", "Hanna Park beach Jacksonville", "Hanna Park lake Jacksonville"],
+      "subsites": ["Kids Splash Park", "Hanna Park Lot 1 Beach Access", "Hanna Park Freshwater Lake", "Hanna Park Campground", "South Loop Trail", "Z-Trail", "Reservable Shelter 1", "Hanna Park P8 Recreation Area"]
+    },
+    {
+      "id": "launch-fl-jacksonville-jessie-ball-dupont-park",
+      "name": "Jessie Ball duPont Park",
+      "city": "Jacksonville",
+      "state": "FL",
+      "citySlug": "jacksonville-fl",
+      "operator": "City of Jacksonville Parks, Recreation and Community Services",
+      "source": "https://www.jacksonville.gov/departments/parks-and-recreation/jaxparks/all-parks/jessie-ball-dupont-park",
+      "imageQueries": ["Treaty Oak Jacksonville", "Jessie Ball duPont Park Jacksonville", "Treaty Oak Park Jacksonville Florida"],
+      "subsites": ["Treaty Oak", "Urban Trees Interpretive Marker", "Jessie Ball duPont Park Information Board"]
+    }
+  ]
+}

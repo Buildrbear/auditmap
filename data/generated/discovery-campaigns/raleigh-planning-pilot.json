@@ -1,0 +1,137 @@
+{
+  "campaign": {
+    "id": "raleigh-planning-pilot",
+    "market": "Raleigh, NC",
+    "city": "Raleigh",
+    "state": "NC",
+    "channel": "x",
+    "campaign": "raleigh_planning_pilot",
+    "status": "review",
+    "checkedAt": "2026-08-07",
+    "headline": "Pick a few places. Explore one together.",
+    "summary": "Small Raleigh collections made for deciding, sharing, and getting outside.",
+    "hashtag": "#ExploreRaleigh"
+  },
+  "lists": [
+    {
+      "id": "raleigh-family-possibilities",
+      "title": "Three Raleigh family-day possibilities",
+      "hook": "Not every family outing needs a perfect plan. Start with three real possibilities and pick one together.",
+      "prompt": "Who would you send this list to?",
+      "placeIds": [
+        "dix-park",
+        "pullen-park",
+        "john-chavis-memorial-park"
+      ],
+      "imagePlaceId": "john-chavis-memorial-park",
+      "imageIndex": 0,
+      "places": [
+        {
+          "id": "dix-park",
+          "name": "Dix Park",
+          "source": "https://raleighnc.gov/parks-and-recreation/places/dix-park"
+        },
+        {
+          "id": "pullen-park",
+          "name": "Pullen Park",
+          "source": "https://raleighnc.gov/parks-and-recreation/places/pullen-park"
+        },
+        {
+          "id": "john-chavis-memorial-park",
+          "name": "John Chavis Memorial Park",
+          "source": "https://raleighnc.gov/parks-and-recreation/places/john-chavis-memorial-park"
+        }
+      ],
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/John%20Chavis%20Memorial%20Park2.jpg?width=1400",
+        "source": "https://commons.wikimedia.org/wiki/File:John_Chavis_Memorial_Park2.jpg",
+        "author": "2BKNIGHT",
+        "license": "CC BY-SA 4.0",
+        "alt": "John Chavis Memorial Park in Raleigh"
+      },
+      "url": "https://www.auditmap.org/index.html?list=dix-park%2Cpullen-park%2Cjohn-chavis-memorial-park&utm_source=x&utm_medium=organic_social&utm_campaign=raleigh_planning_pilot&utm_content=raleigh-family-possibilities",
+      "caption": "Not every family outing needs a perfect plan. Start with three real possibilities and pick one together.\n\nDix Park · Pullen Park · John Chavis Memorial Park\n\nWho would you send this list to?\n\nhttps://www.auditmap.org/index.html?list=dix-park%2Cpullen-park%2Cjohn-chavis-memorial-park&utm_source=x&utm_medium=organic_social&utm_campaign=raleigh_planning_pilot&utm_content=raleigh-family-possibilities\n\n#ExploreRaleigh",
+      "estimatedXLength": 232
+    },
+    {
+      "id": "raleigh-art-open-space",
+      "title": "Art and open space around Raleigh",
+      "hook": "A museum park, a destination park, and a downtown square give you three very different ways to get outside.",
+      "prompt": "Which one fits your day?",
+      "placeIds": [
+        "ncma-museum-park",
+        "dix-park",
+        "moore-square"
+      ],
+      "imagePlaceId": "dix-park",
+      "imageIndex": 0,
+      "places": [
+        {
+          "id": "ncma-museum-park",
+          "name": "NCMA Museum Park",
+          "source": "https://ncartmuseum.org/plan-your-visit/museum-park/"
+        },
+        {
+          "id": "dix-park",
+          "name": "Dix Park",
+          "source": "https://raleighnc.gov/parks-and-recreation/places/dix-park"
+        },
+        {
+          "id": "moore-square",
+          "name": "Moore Square",
+          "source": "https://raleighnc.gov/parks-and-recreation/places/moore-square"
+        }
+      ],
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Raleigh%20Dix%20Park.jpg?width=1400",
+        "source": "https://commons.wikimedia.org/wiki/File:Raleigh_Dix_Park.jpg",
+        "author": "Maria Kozmina",
+        "license": "CC BY-SA 4.0",
+        "alt": "Open lawn and skyline view at Dix Park"
+      },
+      "url": "https://www.auditmap.org/index.html?list=ncma-museum-park%2Cdix-park%2Cmoore-square&utm_source=x&utm_medium=organic_social&utm_campaign=raleigh_planning_pilot&utm_content=raleigh-art-open-space",
+      "caption": "A museum park, a destination park, and a downtown square give you three very different ways to get outside.\n\nNCMA Museum Park · Dix Park · Moore Square\n\nWhich one fits your day?\n\nhttps://www.auditmap.org/index.html?list=ncma-museum-park%2Cdix-park%2Cmoore-square&utm_source=x&utm_medium=organic_social&utm_campaign=raleigh_planning_pilot&utm_content=raleigh-art-open-space\n\n#ExploreRaleigh",
+      "estimatedXLength": 219
+    },
+    {
+      "id": "raleigh-smaller-discoveries",
+      "title": "Three smaller Raleigh places worth noticing",
+      "hook": "The memorable place is not always the biggest one. Keep a few smaller public spaces ready for a different kind of day.",
+      "prompt": "What small Raleigh place should join the next list?",
+      "placeIds": [
+        "basic-osm-way-33106145",
+        "raleigh-rose-garden",
+        "roberts-park"
+      ],
+      "imagePlaceId": "basic-osm-way-33106145",
+      "imageIndex": 0,
+      "places": [
+        {
+          "id": "basic-osm-way-33106145",
+          "name": "John Winters Park",
+          "source": "https://raleighnc.gov/projects/south-park-heritage-trail"
+        },
+        {
+          "id": "raleigh-rose-garden",
+          "name": "Raleigh Rose Garden",
+          "source": "https://raleighlittletheatre.org/visit-us/rose-garden/"
+        },
+        {
+          "id": "roberts-park",
+          "name": "Roberts Park",
+          "source": "https://raleighnc.gov/parks-and-recreation/places/roberts-park"
+        }
+      ],
+      "image": {
+        "url": "/assets/parks/nc/raleigh/john-winters-park/hero.jpg",
+        "source": "https://localwiki.org/raleigh/John_Winters_Park/_files/P1020670.jpg/_info/",
+        "author": "ScottReston",
+        "license": "CC BY 4.0",
+        "alt": "Lawn, paved paths, benches and trees at John Winters Park in Raleigh"
+      },
+      "url": "https://www.auditmap.org/index.html?list=basic-osm-way-33106145%2Craleigh-rose-garden%2Croberts-park&utm_source=x&utm_medium=organic_social&utm_campaign=raleigh_planning_pilot&utm_content=raleigh-smaller-discoveries",
+      "caption": "The memorable place is not always the biggest one. Keep a few smaller public spaces ready for a different kind of day.\n\nJohn Winters Park · Raleigh Rose Garden · Roberts Park\n\nWhat small Raleigh place should join the next list?\n\nhttps://www.auditmap.org/index.html?list=basic-osm-way-33106145%2Craleigh-rose-garden%2Croberts-park&utm_source=x&utm_medium=organic_social&utm_campaign=raleigh_planning_pilot&utm_content=raleigh-smaller-discoveries\n\n#ExploreRaleigh",
+      "estimatedXLength": 269
+    }
+  ]
+}

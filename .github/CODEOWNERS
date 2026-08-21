@@ -1,0 +1,7 @@
+# AuditMap maintainers must approve changes to production code and security-sensitive paths.
+* @Buildrbear
+
+/.github/ @Buildrbear
+/api/ @Buildrbear
+/supabase/ @Buildrbear
+/vercel.json @Buildrbear

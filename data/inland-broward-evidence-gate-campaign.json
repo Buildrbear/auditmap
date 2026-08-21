@@ -1,0 +1,71 @@
+{
+  "campaign": "Inland Broward evidence-gate rebuild",
+  "checkedAt": "2026-08-11",
+  "releaseStandard": "Require current official visitor guidance and four representative reusable parent photographs; publish a subsite only with an exact reviewed position, a destination-specific reusable photograph, and a complete current visitor profile.",
+  "places": [
+    {
+      "id": "launch-fl-hollywood-t-y-park",
+      "name": "T.Y. Park",
+      "alternateNames": ["Topeekeegee Yugnee Park"],
+      "city": "Hollywood",
+      "state": "FL",
+      "citySlug": "hollywood-fl",
+      "operator": "Broward County Parks and Recreation",
+      "source": "https://www.broward.org/atyourservice/Pages/parks.htm",
+      "deferRelease": true,
+      "photoGateStatus": "deferred-event-portrait-only-reusable-coverage",
+      "deferReason": "Openverse returned ten reusable photographs, but visual review found a single 2007 event series dominated by people at decorated picnic tables. None provides representative coverage of the park lake, Castaway Island, playground, trails, campground, fitness loop, or visitor circulation.",
+      "featureResearchRadiusMeters": 1800,
+      "minimumImages": 4,
+      "imageQueries": [
+        "T.Y. Park Hollywood Florida",
+        "Topeekeegee Yugnee Park",
+        "Castaway Island T.Y. Park",
+        "T.Y. Park Hollywood lake trail playground"
+      ],
+      "subsites": ["Castaway Island", "T.Y. Park Campground", "T.Y. Park Lake", "T.Y. Park Playground", "T.Y. Park Fitness Zone"]
+    },
+    {
+      "id": "launch-fl-davie-tree-tops-park",
+      "name": "Tree Tops Park",
+      "city": "Davie",
+      "state": "FL",
+      "citySlug": "davie-fl",
+      "operator": "Broward County Parks and Recreation",
+      "source": "https://www.broward.org/Parks/Support/Documents/TT120525.pdf",
+      "deferRelease": true,
+      "photoGateStatus": "deferred-no-representative-reusable-coverage",
+      "deferReason": "Current visitor photography clearly depicts the boardwalk, viewing tower, canopy, and trails, but the reviewed current Flickr set is all-rights-reserved. Openverse returned unrelated parks, Grand Canyon structures, and other false matches rather than reusable Tree Tops Park coverage.",
+      "featureResearchRadiusMeters": 1800,
+      "minimumImages": 4,
+      "imageQueries": [
+        "Tree Tops Park Davie Florida",
+        "Tree Tops Park boardwalk",
+        "Tree Tops Park observation tower",
+        "Tree Tops Park playground equestrian trail"
+      ],
+      "subsites": ["Tree Tops Park Viewing Tower", "Tree Tops Park Wetland Boardwalk", "Pine Island Ridge Natural Area", "Oak Ridge Hall", "Tree Tops Park Playground"]
+    },
+    {
+      "id": "launch-fl-davie-vista-view-park",
+      "name": "Vista View Park",
+      "city": "Davie",
+      "state": "FL",
+      "citySlug": "davie-fl",
+      "operator": "Broward County Parks and Recreation",
+      "source": "https://www.broward.org/atyourservice/Pages/parks.htm",
+      "deferRelease": true,
+      "photoGateStatus": "deferred-wildlife-or-all-rights-reserved-coverage",
+      "deferReason": "Current exact-location Flickr coverage is either all-rights-reserved or wildlife-focused. Openverse returned unrelated places rather than reusable representative views of Vista View's hill, paths, playground, splash pad, shelters, or visitor circulation.",
+      "featureResearchRadiusMeters": 1800,
+      "minimumImages": 4,
+      "imageQueries": [
+        "Vista View Park Davie Florida",
+        "Vista View Park hill trails",
+        "Vista View Park playground splash pad",
+        "Vista View Park overlook Broward"
+      ],
+      "subsites": ["Vista View Park Splash Pad", "Vista View Park Playground", "Vista View Hilltop", "Vista View Park Fitness Zone", "Vista View Park Airfield"]
+    }
+  ]
+}

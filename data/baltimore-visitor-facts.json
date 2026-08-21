@@ -1,0 +1,473 @@
+{
+  "checkedAt": "2026-08-06",
+  "places": {
+    "launch-md-baltimore-druid-hill-park": {
+      "verifiedAt": "2026-08-10",
+      "address": "900 Druid Park Lake Drive, Baltimore, MD 21217",
+      "latitude": 39.3234566,
+      "longitude": -76.6445185,
+      "summary": "Baltimore's landmark 745-acre city park, combining Druid Lake, Rawlings Conservatory, the Maryland Zoo, pool, playgrounds, disc golf, pavilions, wooded routes and the Jones Falls Trail.",
+      "hours": "Outdoor park areas are generally available from dawn to dusk. Rawlings Conservatory, the Maryland Zoo, pool, recreation facilities and permitted events keep separate schedules; check the exact destination before visiting.",
+      "parking": "Parking is distributed around this very large park. Navigate to Rawlings Conservatory, the zoo, pool, Chinese Pavilion or another named destination rather than relying on the general park pin; construction and events can change internal roads.",
+      "arrival": "The park spans multiple entrances and cannot be treated as one compact stop. Madison Avenue is useful for the conservatory and lake side, while zoo, pool and western recreation areas require their own approach.",
+      "restrooms": "Dependable restrooms are tied to staffed attractions, the pool and active recreation facilities. Remote lawns, trails and pavilions may not have an unlocked restroom nearby.",
+      "cost": "General park, lake-loop and trail access are free. Zoo admission, pool entry, golf, programs, rentals and reservable pavilions cost separately.",
+      "accessibility": "The lake loop and major facility approaches include paved routes, but wooded trails, historic slopes and older pavilion areas vary. Use the closest destination parking for a shorter step-free approach.",
+      "dogs": "Leashed dogs are welcome in ordinary outdoor park areas. Dogs are not permitted inside the zoo, conservatory, pool or other posted facilities except qualified service animals.",
+      "family": "The zoo, conservatory, playgrounds and seasonal pool are strong family destinations, but they are spread apart. Choose a primary stop and confirm that facility's tickets, hours and weather status.",
+      "transit": "MTA bus routes serve different edges of Druid Hill Park, and the Jones Falls Trail reaches the park by bike and foot. The nearest stop may still be a long walk from the attraction you selected.",
+  "need": "Do not treat Druid Lake as a swimming facility. Large events and construction can redirect traffic, while the zoo, conservatory and pool do not match general park access. Rawlings Conservatory currently lists a full park vehicle closure for AFRAM June 19-21, 2026 and a conservatory closure for the Caribbean Fest parade July 11, 2026.",
+  "extraAnswers": [
+    {
+      "intentKey": "lake-loop",
+      "question": "Is the Druid Lake walking loop open?",
+      "answer": "Yes. Baltimore City DPW reopened a modified continuous loop in May 2025 after the underground tank project. The route differs from the old loop, and current fencing, restoration work, storms, maintenance, or events can still redirect access, so follow posted signs rather than an old map.",
+      "sourceLabel": "Baltimore City Department of Public Works",
+      "source": "https://content.govdelivery.com/accounts/MDBALT/bulletins/3e15440",
+      "freshnessClass": "fast"
+    },
+    {
+      "intentKey": "conservatory-hours",
+      "question": "What days is Rawlings Conservatory open?",
+      "answer": "Rawlings Conservatory lists Wednesday-Friday 11 a.m.-3 p.m. and Saturday-Sunday 10 a.m.-4 p.m.; it is closed Monday, Tuesday, Thanksgiving, and Christmas. It also posts event-specific park and building closures, so check the official visit page before driving in.",
+      "sourceLabel": "H.P. Rawlings Conservatory & Botanic Gardens",
+      "source": "https://rawlingsconservatory.org/visit-us/",
+      "freshnessClass": "fast"
+    },
+    {
+      "intentKey": "zoo-hours-tickets",
+      "question": "Does the Maryland Zoo use Druid Hill Park hours?",
+      "answer": "No. The Maryland Zoo is a separately ticketed outdoor attraction with its own daily schedule, front gate, parking, rules, food, and restrooms. Check zoo hours, alerts, tickets, and weather for the selected date rather than relying on the park's daylight access.",
+      "sourceLabel": "The Maryland Zoo in Baltimore",
+      "source": "https://www.marylandzoo.org/visit/",
+      "freshnessClass": "fast"
+    },
+    {
+      "intentKey": "pool",
+      "question": "Where is the Druid Hill Park pool and is it open?",
+      "answer": "The city maps Druid Hill Park Pool at 800 Wyman Park Drive. It is a seasonal staffed facility with a schedule that can change for weather, staffing, maintenance, and summer programming; verify the current Aquatics schedule before leaving rather than inheriting park hours.",
+      "sourceLabel": "Baltimore City Recreation and Parks GIS",
+      "source": "https://geodata.baltimorecity.gov/egis/rest/services/CityView/BCRPServices/MapServer/2",
+      "freshnessClass": "fast"
+    },
+    {
+      "intentKey": "bike-arrival",
+      "question": "How do I reach Druid Hill Park by bike or on foot?",
+      "answer": "The one-mile Big Jump provides a protected shared route along Druid Park Lake Drive and Auchentoroly Terrace, while the Jones Falls Trail serves the park corridor. Concrete-barrier maintenance is in progress, and the proposed greenway toward Lake Montebello is still a design project rather than a completed through-route.",
+      "sourceLabel": "Baltimore City Department of Transportation",
+      "source": "https://streetsofbaltimore.com/bigjump",
+      "freshnessClass": "fast"
+    }
+  ]
+    },
+    "launch-md-baltimore-patterson-park": {
+      "verifiedAt": "2026-08-10",
+      "address": "2601 East Baltimore Street, Baltimore, MD 21224",
+      "latitude": 39.2889335,
+      "longitude": -76.5788048,
+      "summary": "A 137-acre East Baltimore destination park with nearly three miles of paths, the Observatory, Boat Lake, two playgrounds, dog park, pool, ice rink, courts and athletic fields.",
+  "hours": "Park grounds are open daily from dawn to dusk. The Observatory's interior is currently closed for maintenance indefinitely, despite older typical Sunday schedules. The pool, rink and recreation center keep separate seasonal or staffed hours.",
+      "parking": "There is no general visitor parking inside the park. Use legal street parking around the perimeter and read residential restrictions carefully; event days and pool season increase demand.",
+      "arrival": "Choose the Observatory and Boat Lake, playground, dog park, pool, rink or athletic fields before arriving. Baltimore Street, Linwood Avenue and Eastern Avenue serve different sides of the park.",
+      "restrooms": "Restrooms are most dependable at staffed or seasonal facilities such as the recreation center, pool and rink. Do not assume an outdoor restroom will be open early, late or off-season.",
+      "cost": "General park paths, playgrounds, dog park and outdoor landmarks are free. Pool, rink, classes, rentals and permitted activities may charge.",
+      "accessibility": "Many primary paths are paved and the park is relatively compact, but slopes, curb transitions and historic structures vary. Select the closest perimeter entrance for the feature you want.",
+      "dogs": "Dogs must be leashed outside the fenced dog park, with leashes no longer than six feet under posted rules. Dogs are excluded from pools, playgrounds and other posted facilities.",
+  "family": "Two playgrounds, Boat Lake, the Observatory exterior and seasonal pool make a strong family circuit. The Linwood/Pratt playground has swings and age zones; the fenced Castle playground near Eastern Avenue between Milton and Montford has separate toddler and older-child areas. Check the pool schedule and do not promise Observatory interior entry while it is closed.",
+      "transit": "MTA bus service runs along multiple park edges, including Baltimore Street and Eastern Avenue. Select the stop nearest your destination rather than the center of the park.",
+  "need": "The Observatory interior is closed for maintenance indefinitely, and the pool, rink and recreation center can close independently. Unauthorized motor vehicles are not permitted on park paths; use legal perimeter parking and verify the exact staffed destination before crossing the park.",
+  "extraAnswers": [
+    {
+      "intentKey": "observatory-closure",
+      "question": "Can I go inside the Patterson Park Observatory or Pagoda?",
+      "answer": "Not currently. Friends of Patterson Park says the Observatory is closed for maintenance indefinitely. Older typical Sunday schedules should not be treated as current availability; the exterior, gardens, and hilltop setting remain the appropriate visit until an official reopening is posted.",
+      "sourceLabel": "Friends of Patterson Park",
+      "source": "https://pattersonpark.com/park-landmarks",
+      "freshnessClass": "fast"
+    },
+    {
+      "intentKey": "playgrounds",
+      "question": "Where are the playgrounds in Patterson Park?",
+      "answer": "There are two. One is inside the park near Linwood Avenue and East Pratt Street with infant and big-kid swings and two age-oriented play areas. The fenced Castle playground is near Eastern Avenue between Milton and Montford avenues, with separate toddler and older-child spaces plus accessible slides and climbing elements built into the wall.",
+      "sourceLabel": "Friends of Patterson Park",
+      "source": "https://pattersonpark.com/park-landmarks",
+      "freshnessClass": "slow"
+    },
+    {
+      "intentKey": "dog-park",
+      "question": "Where is the Patterson Park dog park?",
+      "answer": "The dog park is south of the tennis courts on Linwood Avenue and has two fenced areas. Outside those enclosures, dogs must remain on a leash no longer than six feet, and owners must remove waste.",
+      "sourceLabel": "Friends of Patterson Park",
+      "source": "https://pattersonpark.com/park-landmarks",
+      "freshnessClass": "slow"
+    },
+    {
+      "intentKey": "pool",
+      "question": "Where is Patterson Park Pool and when does it open?",
+      "answer": "The pool is at 148 South Linwood Avenue and usually operates as a seasonal public pool beginning around mid-June. Hours, admission, staffing, and weather closures change by season, so use the current Baltimore City Aquatics schedule rather than older prices shown on community pages.",
+      "sourceLabel": "Friends of Patterson Park and Baltimore City Recreation and Parks GIS",
+      "source": "https://geodata.baltimorecity.gov/egis/rest/services/CityView/BCRPServices/MapServer/2",
+      "freshnessClass": "fast"
+    },
+    {
+      "intentKey": "ice-rink",
+      "question": "When is the Patterson Park ice rink open?",
+      "answer": "The Dominic Mimi DiPietro Family Skating Center at 200 South Linwood Avenue is a seasonal facility generally associated with October through late March programming. Public sessions, hockey, rentals, concessions, and fees vary; call the rink or check the current city schedule before arriving.",
+      "sourceLabel": "Friends of Patterson Park",
+      "source": "https://pattersonpark.com/park-landmarks",
+      "freshnessClass": "fast"
+    },
+    {
+      "intentKey": "boat-lake",
+      "question": "Can I boat or swim in Patterson Park Boat Lake?",
+      "answer": "Do not infer current boating from the historic name. Friends of Patterson Park describes the restored lake as open water and wetland habitat used for fishing, wildlife viewing, and educational programming, not as a public swimming or boat-rental facility.",
+      "sourceLabel": "Friends of Patterson Park",
+      "source": "https://pattersonpark.com/park-landmarks",
+      "freshnessClass": "slow"
+    },
+    {
+      "intentKey": "recreation-center",
+      "question": "What is inside Virginia S. Baker Recreation Center?",
+      "answer": "The center at 2601 East Baltimore Street includes a gym, multipurpose room, game room, meeting room, kitchen, and computer lab with year-round programming. Building and activity hours do not match park hours; call 410-396-9156 or check the current program schedule first.",
+      "sourceLabel": "Friends of Patterson Park",
+      "source": "https://pattersonpark.com/park-landmarks",
+      "freshnessClass": "fast"
+    }
+  ]
+    },
+    "launch-md-baltimore-federal-hill-park": {
+      "address": "300 Warren Avenue, Baltimore, MD 21230",
+      "latitude": 39.2796148,
+      "longitude": -76.6084642,
+      "summary": "A compact historic hilltop park above the Inner Harbor with skyline overlooks, lawns, monuments, a history-themed playground and a lower basketball court.",
+      "hours": "Outdoor park areas are generally available from dawn to dusk, subject to events, maintenance and posted restrictions.",
+      "parking": "The park has no dependable dedicated visitor lot. Use legal neighborhood street parking or a paid Inner Harbor garage, and expect tighter availability during weekends, festivals and stadium events.",
+      "arrival": "For the least-steep approach, arrive from the Federal Hill neighborhood near Warren Avenue. The staircase from the harbor side is direct but steep.",
+      "restrooms": "There is no dependable public restroom in the park. Use an open nearby business, museum or Inner Harbor visitor facility before climbing the hill.",
+      "cost": "Park access, overlooks, playground and monuments are free. Nearby garages, attractions, permits and events cost separately.",
+      "accessibility": "The upper plateau is largely level once reached, but the harbor-side staircase and surrounding grades are steep. Approach from Warren Avenue for the most practical step-free route.",
+      "dogs": "Leashed dogs are welcome in ordinary outdoor areas. There is no off-leash dog enclosure, and dogs should stay out of play equipment and posted event areas.",
+      "family": "The harbor view and ship-and-tower playground make a memorable short family stop. Closely supervise children around slopes, walls and busy bordering streets.",
+      "transit": "Charm City Circulator and MTA service reach the Inner Harbor and Federal Hill neighborhood, followed by an uphill walk. The promenade and nearby bike routes also connect to the area.",
+      "weather": "Check Baltimore heat, thunderstorms, snow, ice and harbor wind before climbing. The summit and harbor-facing slopes are exposed, while wet or icy stairs and steep grass can make the direct waterfront approach unsafe.",
+      "need": "This is a viewpoint rather than a full-service park: bring water, plan a restroom stop and expect wind on the exposed summit. Fireworks and major events can radically change access.",
+      "extraAnswers": [
+        {
+          "intentKey": "viewpoint",
+          "question": "Where is the best Inner Harbor view in Federal Hill Park?",
+          "answer": "Walk the paved upper rim and northwest slope facing the Inner Harbor. The geotagged overlook page marks the photographed viewpoint; several nearby benches and path segments provide slightly different skyline angles.",
+          "sourceLabel": "Wikimedia Commons geotag and Federal Hill Park guide",
+          "source": "https://commons.wikimedia.org/wiki/File:Baltimore%27s_Inner_Harbor%2C_viewed_from_a_slope_of_Federal_Hill_Park.jpg",
+          "freshnessClass": "slow"
+        },
+        {
+          "intentKey": "playground",
+          "question": "What is in the Federal Hill Park playground?",
+          "answer": "The fenced hilltop playground uses Baltimore history as its theme: the Federalist Ship, Signal Hill Tower, Fort Federal Hill and a B&O Railroad-inspired toddler train. Treat them as one compact playground rather than four separate destinations.",
+          "sourceLabel": "South Harbor Renaissance",
+          "source": "https://www.federalhillpark.com/train/",
+          "freshnessClass": "slow"
+        },
+        {
+          "intentKey": "parking-details",
+          "question": "Does Federal Hill Park have its own parking lot?",
+          "answer": "No dedicated visitor lot is documented. Street spaces around Warren, Battery and Covington are regulated and weekend demand is often high; read the block's current signs or use a paid Inner Harbor garage rather than assuming unrestricted parking.",
+          "sourceLabel": "Baltimore City Parks guide and Baltimore City parking study",
+          "source": "https://baltimorecityparks.com/federal-hill-park/",
+          "freshnessClass": "fast"
+        }
+      ]
+    },
+    "launch-md-baltimore-fort-mchenry-national-monument-and-historic-shrine": {
+      "address": "2400 East Fort Avenue, Baltimore, MD 21230",
+      "latitude": 39.2632,
+      "longitude": -76.5805,
+      "summary": "The waterfront national monument where the defense of Baltimore inspired the national anthem, with a visitor center, Star Fort, historic batteries, seawall path, lawns and ranger programs.",
+      "hours": "Summer grounds open at 7:00 a.m. and close at 5:00 p.m. weekdays and 6:00 p.m. weekends; visitor center and Star Fort open at 9:00 a.m. Winter grounds are 9:00 a.m.-5:00 p.m. Seasonal transitions and holiday closures apply, so confirm the NPS hours page.",
+      "parking": "Free parking is available onsite, including accessible spaces, but capacity is limited during peak seasons and major programs. Parking is for park visitors and cannot be used for unrelated all-day waterfront parking.",
+      "arrival": "Enter from East Fort Avenue and begin at the Paul S. Sarbanes Visitor and Education Center for orientation, current program times and Star Fort admission.",
+      "restrooms": "Accessible restrooms and water fountains are available at the visitor center during building hours. Facilities outside the staffed area are limited.",
+      "cost": "Most grounds, trails, visitor center and orientation film are free. Entry to the historic zone and Star Fort is $15 per adult age 16 and older, valid for seven days; the site is cashless and accepts federal passes.",
+      "accessibility": "Parking lots, visitor facilities, exhibits, restrooms and many paved routes are accessible. Wheelchairs are available to borrow, and exhibits include captioned and tactile resources.",
+      "dogs": "Leashed pets are allowed on outdoor grounds but not inside buildings or the historic Star Fort. Service animals are permitted in buildings under applicable rules.",
+      "family": "The orientation film, ranger talks, flag programs and Junior Ranger activity make this a strong family history visit. Program schedules vary, so check the calendar before arrival.",
+      "transit": "MTA bus service reaches the Locust Point area, but the final walk can be substantial. Bicycles are allowed on paved park areas but not inside the historic zone.",
+      "weather": "Check NPS alerts plus Baltimore heat, lightning, harbor wind, heavy rain, snow and ice. Ranger programs, artillery demonstrations and flag activities can change for weather or staffing even when the grounds remain open.",
+      "need": "The Star Fort has shorter hours than the grounds. In summer, last park entry is 4:45 p.m. weekdays and 5:45 p.m. weekends; winter and fall last entry is 4:45 p.m. The park closes Thanksgiving, December 25 and January 1. Check NPS alerts before traveling.",
+      "extraAnswers": [
+        {
+          "intentKey": "visitor-center",
+          "question": "What should I do first at Fort McHenry?",
+          "answer": "Start at the Paul S. Sarbanes Visitor and Education Center beside the main lot. The free building has the orientation film, museum exhibits, ranger desk, Junior Ranger booklets, bookstore, restrooms, bottle filling and the desk where Star Fort passes are sold.",
+          "sourceLabel": "National Park Service",
+          "source": "https://www.nps.gov/fomc/planyourvisit/visitorcenters.htm",
+          "freshnessClass": "fast"
+        },
+        {
+          "intentKey": "seawall-trail",
+          "question": "How long is the Fort McHenry Seawall Trail?",
+          "answer": "NPS describes it as a paved, wheelchair-accessible one-mile loop, with roughly three-quarters of a mile along the Patapsco River. It is free and includes benches, interpretive signs, harbor views and the Orpheus monument.",
+          "sourceLabel": "National Park Service",
+          "source": "https://www.nps.gov/places/sea-wall-trail.htm",
+          "freshnessClass": "slow"
+        },
+        {
+          "intentKey": "flag-program",
+          "question": "Can visitors help raise or lower the flag at Fort McHenry?",
+          "answer": "NPS advertises visitor participation in morning or evening flag-change programs, but programs depend on staffing and weather. Ask at the visitor-center desk on arrival instead of planning around an assumed daily time.",
+          "sourceLabel": "National Park Service",
+          "source": "https://www.nps.gov/fomc/planyourvisit/things2do.htm",
+          "freshnessClass": "fast"
+        },
+        {
+          "intentKey": "food",
+          "question": "Can I buy food or picnic at Fort McHenry?",
+          "answer": "There is no restaurant. The visitor center sells bottled water, exterior vending machines offer snacks and drinks, and picnic tables are available on the west side; picnicking is not allowed inside the Visitor Center or Star Fort.",
+          "sourceLabel": "National Park Service",
+          "source": "https://www.nps.gov/fomc/planyourvisit/visitorcenters.htm",
+          "freshnessClass": "fast"
+        }
+      ]
+    },
+    "launch-md-baltimore-cylburn-arboretum": {
+      "address": "4915 Greenspring Avenue, Baltimore, MD 21209",
+      "latitude": 39.3516,
+      "longitude": -76.6565,
+      "summary": "A free 200-acre public arboretum with specimen trees, formal gardens, historic mansion, nature center, greenhouses, meadows and woodland walking trails.",
+      "hours": "Outdoor grounds are open Tuesday-Sunday, currently 8:00 a.m.-8:00 p.m., and closed Mondays. Building schedules change independently; the Nature Education Center and Mansion have limited posted hours, and the Vollmer Center is temporarily closed for maintenance.",
+      "parking": "Free onsite parking is available near the main entrance and Vollmer Center. Accessible spaces are in the upper lot; special events can change parking or use overflow areas.",
+      "arrival": "Use the main Greenspring Avenue gate and start near the Vollmer Center circle for maps and the most direct access to formal gardens. Gates close promptly, so leave enough time to return to your vehicle.",
+      "restrooms": "Restrooms are available in the Greenhouse Classroom during arboretum hours; staffed buildings provide additional facilities only when open.",
+      "cost": "General arboretum and garden entry is free. Classes, special events, rentals and permitted photography may charge.",
+      "accessibility": "Paved routes connect parking, major buildings and formal gardens, with accessible parking near Vollmer Center. Woodland trails have natural surfaces and are not recommended for strollers.",
+      "dogs": "Leashed dogs are welcome on outdoor grounds; clean-up bags are provided. Pets are not ordinarily allowed inside buildings, and service-animal rules apply.",
+      "family": "Gardens, the children's garden and Nature Education Center are family-friendly. Balls, lawn games, kites and climbing trees are prohibited to protect the collection.",
+      "transit": "MTA service runs near Greenspring Avenue, but the final approach and distances across the grounds should be checked before relying on transit.",
+      "weather": "Check Baltimore heat, thunderstorms, heavy rain, snow and ice before visiting. Woodland trails, grass and garden paths can become slick or muddy, while buildings may close independently even when outdoor grounds remain available.",
+      "need": "There is no food service onsite. Picnics are limited to groups of ten or fewer, tables and tents are prohibited, and posed photography or proposals require advance permission.",
+      "extraAnswers": [
+        {
+          "intentKey": "buildings",
+          "question": "Which Cylburn Arboretum buildings can I enter in August 2026?",
+          "answer": "The current August schedule lists the Nature Education Center Tuesday-Saturday 10:00 a.m.-4:00 p.m. and closed Sundays in August; Cylburn Mansion Wednesday, Friday, Saturday and Sunday 10:00 a.m.-2:00 p.m.; and the Vollmer Visitor Center temporarily closed for maintenance. Recheck the building page because these hours are seasonal and independent from the grounds.",
+          "sourceLabel": "Cylburn Arboretum Friends",
+          "source": "https://cylburn.org/visit/",
+          "freshnessClass": "fast"
+        },
+        {
+          "intentKey": "things-to-do",
+          "question": "What can I do at Cylburn Arboretum?",
+          "answer": "Cylburn is intentionally a quiet public garden rather than a sports park: its official guide emphasizes the tree collection, gardens, trails and wildlife across 200 acres and says there are no ball fields, courts, swimming pools or recreation centers.",
+          "sourceLabel": "Cylburn Arboretum Friends",
+          "source": "https://cylburn.org/explore-cylburn/",
+          "freshnessClass": "slow"
+        },
+        {
+          "intentKey": "mansion",
+          "question": "Can I go inside Cylburn Mansion?",
+          "answer": "Do not assume the Mansion is open whenever the grounds are open. The current August facilities page lists limited 10:00 a.m.-2:00 p.m. hours on Wednesday, Friday, Saturday and Sunday, with tours and activities on the second Saturday and Sunday; schedules can change independently.",
+          "sourceLabel": "Cylburn Arboretum Friends",
+          "source": "https://cylburn.org/visit/",
+          "freshnessClass": "fast"
+        }
+      ]
+    },
+    "launch-md-baltimore-gwynns-falls-leakin-park": {
+      "address": "4921 Windsor Mill Road, Baltimore, MD 21207",
+      "latitude": 39.3058,
+      "longitude": -76.7008,
+      "summary": "Baltimore's largest woodland park, covering more than 1,000 acres with forest trails, the Gwynns Falls Trail, Carrie Murray Nature Center, historic estates, meadows and stream valleys.",
+      "hours": "Outdoor park areas are generally used from dawn to dusk. Carrie Murray Nature Center, Orianda Mansion, programs and special events have separate limited schedules; confirm before making them the purpose of a trip.",
+      "parking": "Parking is distributed among Windsor Mill Road, Carrie Murray Nature Center, Winans Meadow and smaller trailheads. Navigate to a named destination and do not leave valuables visible in a vehicle.",
+      "arrival": "The park is divided by roads, streams and steep wooded terrain. Choose Carrie Murray Nature Center, Winans Meadow, Crimea Estate or a specific Gwynns Falls Trail access point before departure.",
+      "restrooms": "Dependable restrooms are concentrated at Carrie Murray Nature Center and programmed facilities when open. Remote trails, meadows and historic sites may have no facilities.",
+      "cost": "General park and trail access are free. Programs, camps, reservations and permitted events may charge.",
+      "accessibility": "Carrie Murray Nature Center has a small paved approach with an accessible space, while most woodland trails include roots, mud, grades and uneven surfaces. The paved Gwynns Falls Trail is the most predictable route.",
+      "dogs": "Leashed dogs are allowed on ordinary park trails. Keep dogs controlled near wildlife, cyclists and equestrians, and follow restrictions at the nature center and historic buildings.",
+      "family": "Carrie Murray Nature Center and Winans Meadow are the easiest family anchors. Longer woodland routes require a downloaded map, sturdy footwear, water and close supervision.",
+      "transit": "MTA buses reach several surrounding neighborhoods, while the Gwynns Falls Trail connects by bicycle and foot. Service does not eliminate long distances inside the park.",
+      "weather": "Check Baltimore thunderstorms, flash-flood risk, stream levels, heat, fallen-tree notices, snow and ice. Low trail sections and stream crossings can become unsafe even when a different entrance remains open.",
+      "need": "Cell coverage, signs and facilities vary in the wooded interior. Download a map, tell someone your route, avoid stream crossings during high water and leave enough daylight for the return.",
+      "extraAnswers": [
+        {
+          "intentKey": "entrances",
+          "question": "Which entrance should I use for Gwynns Falls Leakin Park?",
+          "answer": "The official Friends map identifies four practical arrival areas: I-70 Park and Ride for Trail Head 1, Eagle Drive for the Crimea Estate area, Winans Meadow for Trail Head 2 and Windsor Mill Road for Trail Head 3. Pick the destination first; these entrances are not interchangeable.",
+          "sourceLabel": "Friends of Gwynns Falls/Leakin Park",
+          "source": "https://friendsofgwynnsfallsleakinpark.org/Maps",
+          "freshnessClass": "slow"
+        },
+        {
+          "intentKey": "trail-map",
+          "question": "Where can I get a Gwynns Falls Leakin Park trail map?",
+          "answer": "Download the Friends group's 2024 high-resolution trail-map brochure before leaving home. The park is about 1,000 wooded acres, and a generic map pin does not show which entrance, trailhead or estate area serves the route you want.",
+          "sourceLabel": "Friends of Gwynns Falls/Leakin Park",
+          "source": "https://friendsofgwynnsfallsleakinpark.org/Maps",
+          "freshnessClass": "slow"
+        },
+        {
+          "intentKey": "nature-center",
+          "question": "What is at Carrie Murray Nature Center?",
+          "answer": "Baltimore City describes Carrie Murray Nature Center as a year-round nature-program hub with live-animal encounters, park exploration, school programs, Forest Preschool, summer camps, public programs, events and volunteer opportunities. Program availability is scheduled, so call or check the activity catalog before expecting drop-in access.",
+          "sourceLabel": "Baltimore City Recreation and Parks",
+          "source": "https://www.baltimorecity.gov/bcrp/carrie-murray-nature-center",
+          "freshnessClass": "fast"
+        }
+      ]
+    },
+    "launch-md-baltimore-baltimore-waterfront-promenade": {
+      "address": "401 Light Street, Baltimore, MD 21202",
+      "latitude": 39.2847,
+      "longitude": -76.6107,
+      "summary": "Baltimore's public harbor-edge walking network linking the Inner Harbor, West Shore Park, Rash Field, Harbor East, Fells Point, Canton, playgrounds, piers and waterfront events.",
+      "hours": "The outdoor promenade is generally available daily, but individual parks, bridges, attractions, fountains and construction zones keep separate schedules or may close temporarily.",
+      "parking": "Use a paid garage near the portion you plan to visit; one parking location is not convenient for the entire waterfront. Read event rates and avoid assuming street spaces will be available.",
+      "arrival": "For a first visit, begin at the Baltimore Visitor Center at 401 Light Street. For playgrounds use Rash Field or Pierce's Park, and for Fells Point or Canton choose a closer eastern starting point.",
+      "restrooms": "Public restroom access is tied to the Visitor Center, staffed attractions and open businesses; there is no continuous chain of dependable outdoor facilities along the full route.",
+      "cost": "Walking the promenade and entering its public parks is free. Garages, Water Taxi, museums, attractions, food and ticketed events cost separately.",
+      "accessibility": "Most central promenade segments are paved and broadly level, but bridge transitions, construction detours, brick surfaces and crowded events can affect step-free travel.",
+      "dogs": "Leashed dogs are welcome on ordinary outdoor promenade segments and many parks. Attractions, fountains, play areas and events set separate restrictions.",
+      "family": "Rash Field's adventure play and skate park, West Shore Park's seasonal fountain and Pierce's Park are the strongest free child-focused stops. Water edges require continuous supervision.",
+      "transit": "Charm City Circulator, MTA bus and rail, bikeshare and the Water Taxi serve different waterfront sections. A one-way promenade walk can be paired with transit for the return.",
+      "need": "The harbor is an active urban waterway, not a general swimming area. Rash Field Phase I remains open while Phase II construction creates detours; the new lawn, gardens, beach and paths are expected to open by the end of summer 2026. Check current Waterfront Partnership notices.",
+      "weather": "Check Baltimore heat, lightning, wind and air quality before a waterfront walk. The route is exposed, pavement radiates heat, bridges and piers can be windy, and storms can interrupt fountains, events, Water Taxi service and construction access independently.",
+      "extraAnswers": [
+        {
+          "intentKey": "splash-pad",
+          "question": "Is the Walter Sondheim Fountain splash pad open in 2026?",
+          "answer": "Waterfront Partnership reports the fountain open for the 2026 season and says it operates approximately daily from 11:00 a.m. to 10:00 p.m. between West Shore Park and the Visitor Center. Baltimore Recreation and Parks controls operation, so report outages to 311 and do not treat the schedule as guaranteed.",
+          "sourceLabel": "Waterfront Partnership of Baltimore",
+          "source": "https://www.waterfrontpartnership.org/waterfront-parks",
+          "freshnessClass": "fast"
+        },
+        {
+          "intentKey": "rash-field",
+          "question": "What is open at Rash Field during Phase II construction?",
+          "answer": "Phase I remains open with Jake's Skatepark, Adventure Play, the BGE Pavilion, Nature Play and the Overlook. Phase II construction affects the Shade Lawn and creates changing detours; Waterfront Partnership anticipates the new lawn, public beach, volleyball and nature-trail area in late summer 2026.",
+          "sourceLabel": "Waterfront Partnership of Baltimore",
+          "source": "https://www.waterfrontpartnership.org/rash-field-park",
+          "freshnessClass": "fast"
+        },
+        {
+          "intentKey": "family",
+          "question": "What are the best free waterfront stops for children?",
+          "answer": "Use Rash Field for climbing and skating, West Shore Park for the seasonal fountain, and Pierce's Park for interactive sculptures, a musical fence and willow tunnel. The three stops serve different ages and are separated by waterfront walking; supervise continuously at every unfenced water edge.",
+          "sourceLabel": "Waterfront Partnership of Baltimore",
+          "source": "https://www.waterfrontpartnership.org/waterfront-parks",
+          "freshnessClass": "fast"
+        },
+        {
+          "intentKey": "water-safety",
+          "question": "Can I swim from the Baltimore Waterfront Promenade?",
+          "answer": "No ordinary promenade segment is a casual swimming beach. Waterfront Partnership does not recommend harbor swimming outside planned events because of boat traffic, changing weather and intermittent pollution; Broadway Pier specifically permits fishing, boating and kayaking activity but not swimming.",
+          "sourceLabel": "Waterfront Partnership Healthy Harbor",
+          "source": "https://www.waterfrontpartnership.org/water-quality-monitoring",
+          "freshnessClass": "fast"
+        }
+      ]
+    },
+    "launch-md-baltimore-lake-roland-park": {
+      "address": "1000 Lakeside Drive, Baltimore, MD 21210",
+      "latitude": 39.3872,
+      "longitude": -76.6464,
+      "summary": "A 503-acre lake and nature park with forest, wetlands, serpentine barrens, a nature center, boardwalk, playground, pavilions, trails, paddling access and membership dog park.",
+      "hours": "Park grounds are open daily until sunset, when gates are locked. The Lake Roland Nature Council currently lists the Nature Center daily from 9:00 a.m.-5:00 p.m., closed on county-observed holidays; programs and individual facilities vary.",
+      "parking": "Free parking is available at the Lakeside Drive lot and the Falls Road Light Rail lot. The light-rail lot connects to the park by a roughly 0.3-mile boardwalk and can be useful when the main lot is busy.",
+      "arrival": "Use Lakeside Drive for the Nature Center, playground and central trails, or Falls Road Light Rail for the boardwalk approach. Photograph the trail map before entering the wooded network.",
+      "restrooms": "The Nature Center provides the most dependable restrooms during building hours. Trail areas and Paw Point do not guarantee nearby year-round facilities.",
+      "cost": "General park, boardwalk and trail access are free. Programs may charge, and Paw Point is a code-controlled membership off-leash area with a separate annual fee.",
+      "accessibility": "A wheelchair-accessible boardwalk links the Falls Road Light Rail lot to the central park area. Natural trails include roots, rocks, mud and grades; use the paved central routes for the most predictable surface.",
+      "dogs": "Dogs must be leashed in the general park. Paw Point is a fenced membership-only off-leash swim-and-play area; water access can close independently based on testing or conditions.",
+      "family": "The boardwalk, Nature Center, playground and short central trails form the easiest family visit. Longer colored trails vary in surface and can become muddy after rain.",
+      "transit": "MTA Light RailLink stops at Falls Road, where a boardwalk leads directly into the park. This is one of the region's most practical transit-to-trail connections.",
+      "need": "Check current water quality, Paw Point water access, lightning and park alerts before water-edge activities. Gates close at sunset, and natural trails can remain wet or icy after paved routes clear.",
+      "weather": "Check the park's current lightning, water-quality, water-level and air-quality panels before leaving. Wooded trails stay muddy or icy longer than paved routes, and Paw Point swimming and drinking water can close independently.",
+      "extraAnswers": [
+        {
+          "intentKey": "trail-map",
+          "question": "How long are the trails at Lake Roland?",
+          "answer": "The official map lists Red at about 2.0 miles, Yellow at 1.1, Blue at 0.8 excluding its field loop, Orange and Green at 0.5 each, Purple at 0.4, White at 0.3, the paved loop at 0.5 and the Light Rail boardwalk at 0.3 miles. These are approximate GIS lengths and do not account for elevation.",
+          "sourceLabel": "Lake Roland Nature Council trail map",
+          "source": "https://www.lakeroland.org/wp-content/uploads/2022/01/LakeRolandTrailMapJan.2022.pdf",
+          "freshnessClass": "slow"
+        },
+        {
+          "intentKey": "bicycles",
+          "question": "Which Lake Roland trails allow bicycles?",
+          "answer": "Bicycles are restricted to the Red Trail, Blue Trail, Light Rail boardwalk and paved areas. Connector and hiking-only trails should be walked; obey temporary maintenance signs even when the map normally permits bicycles.",
+          "sourceLabel": "Lake Roland Nature Council",
+          "source": "https://www.lakeroland.org/trail-maps/",
+          "freshnessClass": "fast"
+        },
+        {
+          "intentKey": "closing-time",
+          "question": "What happens when Lake Roland closes at sunset?",
+          "answer": "All visitors must leave park property by sunset, Paw Point users must leave that enclosure 15 minutes earlier, and the gates are locked at sunset. A vehicle locked inside cannot be retrieved until the park reopens the next morning, so build the return walk into your turnaround time.",
+          "sourceLabel": "Lake Roland Nature Council park rules",
+          "source": "https://www.lakeroland.org/park-rules-regulations/",
+          "freshnessClass": "fast"
+        },
+        {
+          "intentKey": "paw-point",
+          "question": "Is Paw Point open and can dogs swim?",
+          "answer": "Paw Point is a code-controlled, membership-only, one-acre fenced off-leash swim-and-play area. The park publishes separate live indicators for dog-park water access and drinking water; check both on the day of the visit because either can close while the general park remains open.",
+          "sourceLabel": "Lake Roland Nature Council",
+          "source": "https://www.lakeroland.org/paw-point/",
+          "freshnessClass": "fast"
+        }
+      ]
+    },
+    "launch-md-baltimore-carroll-park": {
+      "verifiedAt": "2026-08-10",
+      "address": "1500 Washington Boulevard, Baltimore, MD 21230",
+      "latitude": 39.276535,
+      "longitude": -76.645867,
+      "summary": "A 155-acre citywide park combining active recreation, a nine-hole public golf course, the rebuilt Carroll Park Recreation Center, playground and field areas, and the historic Mount Clare landscape.",
+      "hours": "Ordinary outdoor park areas are open from sunrise to sunset under Baltimore City park rules. Carroll Park Recreation Center, the golf course, Mount Clare Museum House, programs and permitted events keep separate schedules.",
+      "parking": "Carroll Park stretches along Washington Boulevard and has different arrival points for the recreation center, athletic areas, golf course and Mount Clare. Navigate to the exact destination rather than relying on the general park pin, and obey current lot and street signs.",
+      "arrival": "Use Washington Boulevard for the park's main destinations. The golf-course entrance is at 2100 Washington Boulevard between stone pillars, while Mount Clare and the recreation side use different approaches within the long park footprint.",
+      "restrooms": "The most dependable restrooms are inside the recreation center or golf facilities while those buildings are staffed. Mount Clare does not currently publish regular opening hours, and open fields do not guarantee an unlocked restroom nearby.",
+      "cost": "Ordinary park, playground, path and field access is free. Golf and FootGolf require paid tee times; recreation programs, permits and future Mount Clare admission or tours may charge separately.",
+      "accessibility": "Developed roads and paved paths serve the recreation center, sports areas and historic grounds, but distances, slopes and older surfaces vary. Navigate to the exact destination and contact its operator for a specific step-free route or program accommodation.",
+      "dogs": "Leashed dogs are allowed in ordinary outdoor park areas under Baltimore's six-foot leash rule. Pets should stay out of staffed buildings, golf play and posted athletic areas unless the operator permits them; service animals follow applicable facility rules.",
+      "family": "The playground, fields and rebuilt recreation center support family visits, while Mount Clare adds an outdoor history stop. Confirm the exact program, building schedule or tee time before crossing this large park for a single facility.",
+      "transit": "MTA bus service runs along Washington Boulevard and nearby streets. Confirm the stop closest to the recreation center, Mount Clare or golf entrance because the park is much longer than a single transit stop.",
+      "need": "Do not assume every facility follows daylight park hours. Athletic fields can close for weather, golf requires a current tee time, Mount Clare currently lists regular opening times as coming soon, and permitted projects or events can redirect internal access.",
+      "weather": "Check Baltimore weather and BCRP notices before using fields, courts or the playground. Heat and limited shade matter across open recreation areas, while rain can close athletic surfaces and interrupt golf independently from general park access.",
+      "extraAnswers": [
+        {
+          "intentKey": "recreation-center",
+          "question": "What is inside Carroll Park Recreation Center?",
+          "answer": "Baltimore reopened the renovated center in August 2024 with a large divisible multipurpose room that can function as a gymnasium, a lounge, classrooms, offices and restrooms. A current public drop-in schedule is not posted on the project announcement, so verify the program and staffed hours before going specifically for indoor access.",
+          "sourceLabel": "City of Baltimore",
+          "source": "https://www.baltimorecity.gov/news/press-releases/2024-08-13-mayor-scott-city-leaders-south-baltimore-gateway-partnership",
+          "freshnessClass": "fast"
+        },
+        {
+          "intentKey": "golf-course",
+          "question": "Can I play golf at Carroll Park?",
+          "answer": "Yes. Carroll Park Golf Course is a separately operated nine-hole public course at 2100 Washington Boulevard, and FootGolf is also offered. Book a tee time and check same-day course conditions, green fees and operating hours through Baltimore Classic Five rather than arriving under general park hours.",
+          "sourceLabel": "Baltimore Classic Five",
+          "source": "https://classic5golf.com/carroll-park/",
+          "freshnessClass": "fast"
+        },
+        {
+          "intentKey": "mount-clare-hours",
+          "question": "Is Mount Clare Museum House open for tours?",
+          "answer": "Do not plan on regular drop-in interior access yet. Mount Clare's official visitor page currently says opening times are coming soon, while group tours are available by special request. The exterior historic grounds can be viewed during open park access unless posted work or an event restricts them.",
+          "sourceLabel": "Mount Clare Museum",
+          "source": "https://www.mountclare.org/historic-site/museum-house",
+          "freshnessClass": "fast"
+        },
+        {
+          "intentKey": "park-size-amenities",
+          "question": "How large is Carroll Park and what is there?",
+          "answer": "Baltimore City's current GIS classifies Carroll Park as a 155.13-acre citywide park. Official park planning and recreation maps document active fields, playground and court areas, the golf course, skateboarding, Mount Clare and passive park space; individual facilities should still be checked for current condition and programming.",
+          "sourceLabel": "Baltimore City Recreation and Parks GIS",
+          "source": "https://geodata.baltimorecity.gov/egis/rest/services/CityView/BCRPServices/FeatureServer/4",
+          "freshnessClass": "slow"
+        }
+      ]
+    }
+  }
+}

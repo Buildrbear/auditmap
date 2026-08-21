@@ -1,0 +1,87 @@
+{
+  "campaign": "Miami waterfront evidence-gate rebuild",
+  "checkedAt": "2026-08-11",
+  "releaseStandard": "Require current reachable official visitor guidance and four varied representative reusable parent photographs. Retain a destination only with a destination-specific reusable photograph, an exact reviewed position, and a current destination-specific visitor profile.",
+  "places": [
+    {
+      "id": "launch-fl-miami-maurice-a-ferre-park",
+      "name": "Maurice A. Ferré Park",
+      "city": "Miami",
+      "state": "FL",
+      "operator": "City of Miami",
+      "source": "https://www.miami.gov/Parks-Public-Places/Parks-Directory",
+      "minImages": 4,
+      "imageQueries": ["Maurice A Ferre Park Miami", "Museum Park Miami waterfront", "Maurice Ferre Park public art", "Museum Park Miami museums"]
+    },
+    {
+      "id": "launch-fl-miami-bayfront-park",
+      "name": "Bayfront Park",
+      "city": "Miami",
+      "state": "FL",
+      "operator": "City of Miami",
+      "source": "https://www.miami.gov/Parks-Public-Places/Parks-Directory/Bayfront-Park",
+      "minImages": 4,
+      "imageQueries": ["Bayfront Park Miami", "Bayfront Park Miami waterfront", "Bayfront Park Miami Noguchi", "Bayfront Park Miami amphitheater"]
+    },
+    {
+      "id": "launch-fl-miami-matheson-hammock-park",
+      "name": "Matheson Hammock Park",
+      "city": "Miami",
+      "state": "FL",
+      "operator": "Miami-Dade County Parks",
+      "source": "https://www.miamidade.gov/global/recreation/park/matheson-hammock-park.page",
+      "minImages": 4,
+      "imageQueries": ["Matheson Hammock Park Miami", "Matheson Hammock atoll pool", "Matheson Hammock marina", "Matheson Hammock trail"]
+    },
+    {
+      "id": "launch-fl-miami-beach-south-pointe-park",
+      "name": "South Pointe Park",
+      "city": "Miami Beach",
+      "state": "FL",
+      "operator": "City of Miami Beach",
+      "source": "https://www.miamibeachfl.gov/city-hall/parks-and-recreation/parks-facilities-directory/south-pointe-park/",
+      "minImages": 4,
+      "imageQueries": ["South Pointe Park Miami Beach", "South Pointe Park pier", "South Pointe promenade", "South Pointe Park playground splash pad"]
+    },
+    {
+      "id": "launch-fl-miami-beach-lummus-park",
+      "name": "Lummus Park",
+      "city": "Miami Beach",
+      "state": "FL",
+      "operator": "City of Miami Beach",
+      "source": "https://www.miamibeachfl.gov/city-hall/parks-and-recreation/parks-facilities-directory/lummus-park/",
+      "minImages": 4,
+      "imageQueries": ["Lummus Park Miami Beach", "Lummus Park Ocean Drive", "Muscle Beach South Beach", "Lummus Park beachfront path"]
+    },
+    {
+      "id": "launch-fl-key-biscayne-crandon-park",
+      "name": "Crandon Park",
+      "city": "Key Biscayne",
+      "state": "FL",
+      "operator": "Miami-Dade County Parks",
+      "source": "https://www.miamidade.gov/global/recreation/park/crandon-park.page",
+      "minImages": 4,
+      "imageQueries": ["Crandon Park Key Biscayne", "Crandon Park beach", "Crandon Park nature center", "Crandon Park tennis center"]
+    },
+    {
+      "id": "launch-fl-key-biscayne-bill-baggs-cape-florida-state-park",
+      "name": "Bill Baggs Cape Florida State Park",
+      "city": "Key Biscayne",
+      "state": "FL",
+      "operator": "Florida State Parks",
+      "source": "https://www.floridastateparks.org/parks-and-trails/bill-baggs-cape-florida-state-park",
+      "minImages": 4,
+      "imageQueries": ["Bill Baggs Cape Florida State Park", "Cape Florida Lighthouse", "Cape Florida beach", "No Name Harbor Bill Baggs"]
+    },
+    {
+      "id": "launch-fl-miami-historic-virginia-key-beach-park",
+      "name": "Historic Virginia Key Beach Park",
+      "city": "Miami",
+      "state": "FL",
+      "operator": "Historic Virginia Key Beach Park Trust",
+      "source": "https://virginiakeybeachpark.net/park-information/",
+      "minImages": 4,
+      "imageQueries": ["Historic Virginia Key Beach Park", "Virginia Key Beach Park dance floor", "Virginia Key Beach Park train", "Virginia Key Beach Park Miami"]
+    }
+  ]
+}

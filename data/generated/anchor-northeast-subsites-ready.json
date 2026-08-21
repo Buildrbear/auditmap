@@ -1,0 +1,2649 @@
+{
+  "generatedAt": "2026-07-30T19:24:32.389Z",
+  "publicationRule": "Only coordinate-verified, source-backed subsites with complete real-photo attribution.",
+  "parks": [
+    {
+      "id": "launch-me-portland-eastern-promenade",
+      "name": "Eastern Promenade",
+      "city": "Portland",
+      "state": "ME",
+      "sourceBoundary": "https://www.openstreetmap.org/way/29986879",
+      "features": [],
+      "researchQueue": [
+        {
+          "id": "launch-me-portland-eastern-promenade-mast-of-the-uss-portland",
+          "slug": "mast-of-the-uss-portland",
+          "name": "Mast of the USS Portland",
+          "feature_type": "landmark",
+          "description": "Mast of the USS Portland is a mapped landmark (https://en.wikipedia.org/wiki/USS Portland (CA-33)) within the park. Visitor details still require official-source review.",
+          "latitude": 43.665781,
+          "longitude": -70.2400432,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/29986879"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/5196897404",
+          "verified_at": "2026-07-30",
+          "score": 102,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 5196897404,
+            "wikidata": "Q2448527",
+            "wikipedia": "en:USS Portland (CA-33)",
+            "boundaryContained": true,
+            "rejectedImageTitles": [
+              "File:USS Puritan (BM-1) being fitted out at Brooklyn Navy Yard. (49744186331).jpg",
+              "File:High oblique port side view of the bridge and mast of the dock landing ship USS PORTLAND (LSD-37) showing antenna modifications during the ship's recent overhaul - DPLA - 09a3c20562573da88b708eb928637a47.jpeg",
+              "File:USS Oregon in Portland (50257108512).jpg"
+            ]
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-me-portland-eastern-promenade-casco-bay-community-garden",
+          "slug": "casco-bay-community-garden",
+          "name": "Casco Bay Community Garden",
+          "feature_type": "garden",
+          "description": "Casco Bay Community Garden is a mapped garden (Casco Bay Community Garden was built in 2015 through a series of volunteer workdays. Gardeners tend their plots overlooking Casco Bay, and named this garden in honor of the beautiful view. The garden was constructed using a permaculture technique called “) within the park. Visitor details still require official-source review.",
+          "latitude": 43.6709252,
+          "longitude": -70.2475955,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/29986879"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/893973154",
+          "verified_at": "2026-07-30",
+          "score": 92,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 893973154,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-me-portland-eastern-promenade-north-street-community-garden",
+          "slug": "north-street-community-garden",
+          "name": "North Street Community Garden",
+          "feature_type": "garden",
+          "description": "North Street Community Garden is a mapped garden (North Street was built in 1998 and has 52 plots. Located across the street from the East End Elementary School, this community garden is adjacent to the school garden and overlooks Back Bay Cove. On clear days, gardeners have spectacular views of Mount Wa) within the park. Visitor details still require official-source review.",
+          "latitude": 43.6705214,
+          "longitude": -70.253742,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/29986879"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/relation/11558195",
+          "verified_at": "2026-07-30",
+          "score": 92,
+          "discovery": {
+            "osmType": "relation",
+            "osmId": 11558195,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-me-portland-eastern-promenade-first-civic-monument",
+          "slug": "first-civic-monument",
+          "name": "First Civic Monument",
+          "feature_type": "landmark",
+          "description": "First Civic Monument is a mapped landmark (monument) within the park. Visitor details still require official-source review.",
+          "latitude": 43.6689726,
+          "longitude": -70.2441314,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/29986879"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/358231891",
+          "verified_at": "2026-07-30",
+          "score": 88,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 358231891,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-me-portland-eastern-promenade-carter-field",
+          "slug": "carter-field",
+          "name": "Carter Field",
+          "feature_type": "sports",
+          "description": "Carter Field is a mapped sports (baseball) within the park. Visitor details still require official-source review.",
+          "latitude": 43.6700461,
+          "longitude": -70.2457468,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/29986879"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/134475089",
+          "verified_at": "2026-07-30",
+          "score": 82,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 134475089,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "rejectedImageTitles": [
+              "File:Vince Carter.jpg",
+              "File:Portland Place looking west from Union Boulevard.jpg"
+            ]
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-me-portland-eastern-promenade-kiley-softball-field",
+          "slug": "kiley-softball-field",
+          "name": "Kiley Softball Field",
+          "feature_type": "sports",
+          "description": "Kiley Softball Field is a mapped sports (softball) within the park. Visitor details still require official-source review.",
+          "latitude": 43.6711335,
+          "longitude": -70.248892,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/29986879"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/30105000",
+          "verified_at": "2026-07-30",
+          "score": 82,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 30105000,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        }
+      ]
+    },
+    {
+      "id": "launch-nh-manchester-livingston-park",
+      "name": "Livingston Park",
+      "city": "Manchester",
+      "state": "NH",
+      "sourceBoundary": "https://www.openstreetmap.org/way/47798075",
+      "features": [
+        {
+          "id": "launch-nh-manchester-livingston-park-dorrs-pond",
+          "slug": "dorrs-pond",
+          "name": "Dorrs Pond",
+          "feature_type": "water",
+          "description": "Dorrs Pond is a mapped water within the park. Visitor details still require official-source review.",
+          "latitude": 43.0153102,
+          "longitude": -71.4541543,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/47798075",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Dorr%27s_Pond%2C_Manchester%2C_N.H_%2861985%29.jpg/1920px-Dorr%27s_Pond%2C_Manchester%2C_N.H_%2861985%29.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Dorr%27s_Pond,_Manchester,_N.H_(61985).jpg",
+            "imageAuthor": "Tichnor Brothers, Publisher",
+            "imageLicense": "Public domain",
+            "imageAlt": "Title: Dorr's Pond, Manchester, N.H. Subjects: Lakes & ponds Places: New Hampshire &gt; Hillsborough (county) &gt; Manchester Notes: Title from item. Extent: 1 print (postcard) : linen texture, color ; 3 1/2 x 5 1/2 in. Accession #: 06_10_002712"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/49514306",
+          "verified_at": "2026-07-30",
+          "score": 80,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 49514306,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "imageFileTitle": "File:Dorr's Pond, Manchester, N.H (61985).jpg"
+          }
+        }
+      ],
+      "researchQueue": [
+        {
+          "id": "launch-nh-manchester-livingston-park-david-m-wihby-playground",
+          "slug": "david-m-wihby-playground",
+          "name": "David M. Wihby Playground",
+          "feature_type": "playground",
+          "description": "David M. Wihby Playground is a mapped playground (playground) within the park. Visitor details still require official-source review.",
+          "latitude": 43.0123874,
+          "longitude": -71.4551741,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/47798075"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/224344083",
+          "verified_at": "2026-07-30",
+          "score": 100,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 224344083,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-nh-manchester-livingston-park-livingston-pool",
+          "slug": "livingston-pool",
+          "name": "Livingston Pool",
+          "feature_type": "sports",
+          "description": "Livingston Pool is a mapped sports (swimming pool) within the park. Visitor details still require official-source review.",
+          "latitude": 43.0114891,
+          "longitude": -71.4558816,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/47798075"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/338406457",
+          "verified_at": "2026-07-30",
+          "score": 82,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 338406457,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-nh-manchester-livingston-park-dorrs-pond-house",
+          "slug": "dorrs-pond-house",
+          "name": "Dorrs Pond House",
+          "feature_type": "restroom",
+          "description": "Dorrs Pond House is a mapped restroom (toilets) within the park. Visitor details still require official-source review.",
+          "latitude": 43.0131514,
+          "longitude": -71.4546645,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/47798075"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/338405095",
+          "verified_at": "2026-07-30",
+          "score": 76,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 338405095,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        }
+      ]
+    },
+    {
+      "id": "launch-vt-burlington-waterfront-park",
+      "name": "Waterfront Park",
+      "city": "Burlington",
+      "state": "VT",
+      "sourceBoundary": "https://www.openstreetmap.org/relation/11496519",
+      "features": [],
+      "researchQueue": []
+    },
+    {
+      "id": "launch-ma-boston-boston-common-and-public-garden",
+      "name": "Boston Common and Public Garden",
+      "city": "Boston",
+      "state": "MA",
+      "sourceBoundary": "https://www.openstreetmap.org/relation/17995454",
+      "features": [],
+      "researchQueue": []
+    },
+    {
+      "id": "launch-ri-providence-roger-williams-park",
+      "name": "Roger Williams Park",
+      "city": "Providence",
+      "state": "RI",
+      "sourceBoundary": "https://www.openstreetmap.org/way/141547611",
+      "features": [
+        {
+          "id": "launch-ri-providence-roger-williams-park-roger-williams-park-zoo",
+          "slug": "roger-williams-park-zoo",
+          "name": "Roger Williams Park Zoo",
+          "feature_type": "museum",
+          "description": "Roger Williams Park Zoo is a mapped museum (zoo) within the park. Visitor details still require official-source review.",
+          "latitude": 41.7885612,
+          "longitude": -71.4171877,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/141547611",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3d/New_England_cottontail_kits_Roger_Williams_Park_Zoo_12_May_2023.png",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:New_England_cottontail_kits_Roger_Williams_Park_Zoo_12_May_2023.png",
+            "imageAuthor": "Jessie Brown/Roger Williams Park Zoo; source states \"Media Usage Rights/License: Public Domain\"",
+            "imageLicense": "Public domain",
+            "imageAlt": "New England cottontail (Sylvilagus transitionalis) kits at the Roger Williams Park Zoo in Providence, Rhode Island."
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/295190363",
+          "verified_at": "2026-07-30",
+          "score": 108,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 295190363,
+            "wikidata": "Q7359136",
+            "wikipedia": "en:Roger Williams Park Zoo",
+            "boundaryContained": true,
+            "imageFileTitle": "File:New England cottontail kits Roger Williams Park Zoo 12 May 2023.png"
+          }
+        },
+        {
+          "id": "launch-ri-providence-roger-williams-park-museum-of-natural-history-and-planetarium",
+          "slug": "museum-of-natural-history-and-planetarium",
+          "name": "Museum of Natural History and Planetarium",
+          "feature_type": "museum",
+          "description": "Museum of Natural History and Planetarium is a mapped museum (museum) within the park. Visitor details still require official-source review.",
+          "latitude": 41.7868375,
+          "longitude": -71.4131947,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/141547611",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Museum_of_Natural_History_and_Planetarium_in_Roger_Williams_Park.jpg/1920px-Museum_of_Natural_History_and_Planetarium_in_Roger_Williams_Park.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Museum_of_Natural_History_and_Planetarium_in_Roger_Williams_Park.jpg",
+            "imageAuthor": "Kenneth C. Zirkel",
+            "imageLicense": "CC BY-SA 4.0",
+            "imageAlt": "Museum of Natural History and Planetarium in Roger Williams Park, Providence Rhode Island"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/231819203",
+          "verified_at": "2026-07-30",
+          "score": 102,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 231819203,
+            "wikidata": "Q7359135",
+            "wikipedia": null,
+            "boundaryContained": true,
+            "imageFileTitle": "File:Museum of Natural History and Planetarium in Roger Williams Park.jpg"
+          }
+        },
+        {
+          "id": "launch-ri-providence-roger-williams-park-betsey-williams-cottage",
+          "slug": "betsey-williams-cottage",
+          "name": "Betsey Williams Cottage",
+          "feature_type": "museum",
+          "description": "Betsey Williams Cottage is a mapped museum (building) within the park. Visitor details still require official-source review.",
+          "latitude": 41.7855992,
+          "longitude": -71.4163694,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/141547611",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Betsy_Williams_Cottage%2C_Roger_Williams_Park%2C_Providence%2C_R.I_%2861955%29.jpg/1920px-Betsy_Williams_Cottage%2C_Roger_Williams_Park%2C_Providence%2C_R.I_%2861955%29.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Betsy_Williams_Cottage,_Roger_Williams_Park,_Providence,_R.I_(61955).jpg",
+            "imageAuthor": "Pub. by Berger Bros., Providence, R.I.",
+            "imageLicense": "Public domain",
+            "imageAlt": "Title: Betsy Williams Cottage, Roger Williams Park, Providence, R.I. Subjects: Houses; Parks Places: Rhode Island &gt; Providence (county) &gt; Providence Notes: Title from item. Extent: 1 print (postcard) : linen texture, color ; 3 1/2 x 5 1/2 in. Accession #: 06_10_002023"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/231916457",
+          "verified_at": "2026-07-30",
+          "score": 94,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 231916457,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "imageFileTitle": "File:Betsy Williams Cottage, Roger Williams Park, Providence, R.I (61955).jpg"
+          }
+        },
+        {
+          "id": "launch-ri-providence-roger-williams-park-temple-to-music",
+          "slug": "temple-to-music",
+          "name": "Temple to Music",
+          "feature_type": "museum",
+          "description": "Temple to Music is a mapped museum (museum) within the park. Visitor details still require official-source review.",
+          "latitude": 41.7806681,
+          "longitude": -71.4135079,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/141547611",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Temple_to_Music%2C_Roger_Williams_Park%2C_Providence%2C_Rhode_Island.jpg/1920px-Temple_to_Music%2C_Roger_Williams_Park%2C_Providence%2C_Rhode_Island.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Temple_to_Music,_Roger_Williams_Park,_Providence,_Rhode_Island.jpg",
+            "imageAuthor": "Kenneth C. Zirkel",
+            "imageLicense": "CC BY-SA 4.0",
+            "imageAlt": "Temple to Music, Roger Williams Park, Providence, Rhode Island"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/1027465749",
+          "verified_at": "2026-07-30",
+          "score": 94,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 1027465749,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "rejectedImageTitles": [
+              "File:Rally 4 Recovery event at Roger Williams Park.jpg"
+            ],
+            "imageFileTitle": "File:Temple to Music, Roger Williams Park, Providence, Rhode Island.jpg"
+          }
+        },
+        {
+          "id": "launch-ri-providence-roger-williams-park-japanese-garden",
+          "slug": "japanese-garden",
+          "name": "Japanese Garden",
+          "feature_type": "garden",
+          "description": "Japanese Garden is a mapped garden (attraction) within the park. Visitor details still require official-source review.",
+          "latitude": 41.7837854,
+          "longitude": -71.4152316,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/141547611",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Japanese_Garden_-_Roger_Williams_Park.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_Garden_-_Roger_Williams_Park.jpg",
+            "imageAuthor": "Zanjo11",
+            "imageLicense": "CC BY-SA 4.0",
+            "imageAlt": "Japanese Garden at Roger Williams Park in Providence, RI"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/1030209881",
+          "verified_at": "2026-07-30",
+          "score": 92,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 1030209881,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "imageFileTitle": "File:Japanese Garden - Roger Williams Park.jpg"
+          }
+        },
+        {
+          "id": "launch-ri-providence-roger-williams-park-roger-williams-botanical-center",
+          "slug": "roger-williams-botanical-center",
+          "name": "Roger Williams Botanical Center",
+          "feature_type": "garden",
+          "description": "Roger Williams Botanical Center is a mapped garden (attraction) within the park. Visitor details still require official-source review.",
+          "latitude": 41.7824764,
+          "longitude": -71.4070545,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/141547611",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/OldManPalmAlc1.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:OldManPalmAlc1.jpg",
+            "imageAuthor": "Alcinoe",
+            "imageLicense": "Public domain",
+            "imageAlt": "Coccothrinax crinita \"Old Man Palm\" Roger Williams Park Botanical Center - Providence RI."
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/231819596",
+          "verified_at": "2026-07-30",
+          "score": 92,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 231819596,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "imageFileTitle": "File:OldManPalmAlc1.jpg"
+          }
+        },
+        {
+          "id": "launch-ri-providence-roger-williams-park-abraham-lincoln",
+          "slug": "abraham-lincoln",
+          "name": "Abraham Lincoln",
+          "feature_type": "art",
+          "description": "Abraham Lincoln is a mapped art (statue) within the park. Visitor details still require official-source review.",
+          "latitude": 41.7887228,
+          "longitude": -71.4134176,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/141547611",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Abraham_Lincoln_statue%2C_Roger_Williams_Park%2C_Providence%2C_Rhode_Island.jpg/1920px-Abraham_Lincoln_statue%2C_Roger_Williams_Park%2C_Providence%2C_Rhode_Island.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Abraham_Lincoln_statue,_Roger_Williams_Park,_Providence,_Rhode_Island.jpg",
+            "imageAuthor": "Kenneth C. Zirkel",
+            "imageLicense": "CC BY-SA 4.0",
+            "imageAlt": "Abraham Lincoln statue by Gilbert A. Franklin (1954) in Roger Williams Park, Providence, Rhode Island"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/9496767448",
+          "verified_at": "2026-07-30",
+          "score": 90,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 9496767448,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "imageFileTitle": "File:Abraham Lincoln statue, Roger Williams Park, Providence, Rhode Island.jpg"
+          }
+        },
+        {
+          "id": "launch-ri-providence-roger-williams-park-ferdinand-ii",
+          "slug": "ferdinand-ii",
+          "name": "Ferdinand II",
+          "feature_type": "art",
+          "description": "Ferdinand II is a mapped art (statue) within the park. Visitor details still require official-source review.",
+          "latitude": 41.7823543,
+          "longitude": -71.416562,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/141547611",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Bust_of_Ferdinand_II_in_Roger_Williams_Park.jpg/1920px-Bust_of_Ferdinand_II_in_Roger_Williams_Park.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Bust_of_Ferdinand_II_in_Roger_Williams_Park.jpg",
+            "imageAuthor": "Kenneth C. Zirkel",
+            "imageLicense": "CC BY-SA 4.0",
+            "imageAlt": "Bust of Ferdinand II in Roger Williams Park, Providence, Rhode Island. This marble bust, originally in the garden of the Villa Reale in Naples, portrays the Bourbon king of Two Sicilies, Ferdinand II. Photographer note: the bust looks to me nothing like Ferdinand II, but several sources say that that's who this is supposed to be. [ 1 ] [ 2 ]"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/9496772554",
+          "verified_at": "2026-07-30",
+          "score": 90,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 9496772554,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "imageFileTitle": "File:Bust of Ferdinand II in Roger Williams Park.jpg"
+          }
+        }
+      ],
+      "researchQueue": [
+        {
+          "id": "launch-ri-providence-roger-williams-park-hasbro-boundless-playground",
+          "slug": "hasbro-boundless-playground",
+          "name": "Hasbro Boundless Playground",
+          "feature_type": "playground",
+          "description": "Hasbro Boundless Playground is a mapped playground (playground) within the park. Visitor details still require official-source review.",
+          "latitude": 41.7828802,
+          "longitude": -71.4153678,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/141547611"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/2401069713",
+          "verified_at": "2026-07-30",
+          "score": 100,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 2401069713,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-ri-providence-roger-williams-park-victorian-rose-garden",
+          "slug": "victorian-rose-garden",
+          "name": "Victorian Rose Garden",
+          "feature_type": "garden",
+          "description": "Victorian Rose Garden is a mapped garden (attraction) within the park. Visitor details still require official-source review.",
+          "latitude": 41.7858288,
+          "longitude": -71.4178986,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/141547611"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/231821819",
+          "verified_at": "2026-07-30",
+          "score": 92,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 231821819,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-ri-providence-roger-williams-park-brown-r-church",
+          "slug": "brown-r-church",
+          "name": "Brown R. Church",
+          "feature_type": "art",
+          "description": "Brown R. Church is a mapped art (statue) within the park. Visitor details still require official-source review.",
+          "latitude": 41.7850067,
+          "longitude": -71.4157761,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/141547611"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/9496772590",
+          "verified_at": "2026-07-30",
+          "score": 90,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 9496772590,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "rejectedImageTitles": [
+              "File:Snow at Brown 6.jpeg",
+              "File:View down Brown Street.jpeg",
+              "File:H 18A College Hill - Providence County Superior Courthouse (1924-33) 250 Benefit Street 10 27 a.m. on the Church Clock with South Main Street in the Foreground (3823716714).jpg"
+            ]
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        }
+      ]
+    },
+    {
+      "id": "launch-ct-hartford-bushnell-park",
+      "name": "Bushnell Park",
+      "city": "Hartford",
+      "state": "CT",
+      "sourceBoundary": "https://www.openstreetmap.org/relation/10547018",
+      "features": [
+        {
+          "id": "launch-ct-hartford-bushnell-park-corning-fountain",
+          "slug": "corning-fountain",
+          "name": "Corning Fountain",
+          "feature_type": "water",
+          "description": "Corning Fountain is a mapped water (fountain) within the park. Visitor details still require official-source review.",
+          "latitude": 41.7666126,
+          "longitude": -72.6810354,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/10547018",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Corning_Fountain%2C_Bushnell_Park%2C_Hartford_CT.jpg/1920px-Corning_Fountain%2C_Bushnell_Park%2C_Hartford_CT.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Corning_Fountain,_Bushnell_Park,_Hartford_CT.jpg",
+            "imageAuthor": "Kenneth C. Zirkel",
+            "imageLicense": "CC BY-SA 4.0",
+            "imageAlt": "Connecticut Capitol Building and Corning Fountain, Bushnell Park, Hartford Connecticut."
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/677420524",
+          "verified_at": "2026-07-30",
+          "score": 94,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 677420524,
+            "wikidata": "Q5171777",
+            "wikipedia": "en:Corning Fountain",
+            "boundaryContained": true,
+            "rejectedImageTitles": [
+              "File:NIE 1905 Hartford - Capitol.jpg"
+            ],
+            "imageFileTitle": "File:Corning Fountain, Bushnell Park, Hartford CT.jpg"
+          }
+        }
+      ],
+      "researchQueue": [
+        {
+          "id": "launch-ct-hartford-bushnell-park-dr-horace-wells",
+          "slug": "dr-horace-wells",
+          "name": "Dr. Horace Wells",
+          "feature_type": "landmark",
+          "description": "Dr. Horace Wells is a mapped landmark (memorial) within the park. Visitor details still require official-source review.",
+          "latitude": 41.7646399,
+          "longitude": -72.6775485,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/10547018"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/9755152147",
+          "verified_at": "2026-07-30",
+          "score": 102,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 9755152147,
+            "wikidata": "Q109255078",
+            "wikipedia": "en:Statue of Horace Wells",
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-ct-hartford-bushnell-park-general-israel-putnam",
+          "slug": "general-israel-putnam",
+          "name": "General Israel Putnam",
+          "feature_type": "landmark",
+          "description": "General Israel Putnam is a mapped landmark (memorial) within the park. Visitor details still require official-source review.",
+          "latitude": 41.7652057,
+          "longitude": -72.6805756,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/10547018"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/9755152146",
+          "verified_at": "2026-07-30",
+          "score": 102,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 9755152146,
+            "wikidata": "Q109103617",
+            "wikipedia": "en:Statue of Israel Putnam",
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-ct-hartford-bushnell-park-thomas-d-harris-iv-pavillion",
+          "slug": "thomas-d-harris-iv-pavillion",
+          "name": "Thomas D. Harris IV Pavillion",
+          "feature_type": "event-space",
+          "description": "Thomas D. Harris IV Pavillion is a mapped event space (Music Stage) within the park. Visitor details still require official-source review.",
+          "latitude": 41.766436,
+          "longitude": -72.6819523,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/10547018"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/677420523",
+          "verified_at": "2026-07-30",
+          "score": 86,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 677420523,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-ct-hartford-bushnell-park-lily-pond",
+          "slug": "lily-pond",
+          "name": "Lily Pond",
+          "feature_type": "water",
+          "description": "Lily Pond is a mapped water within the park. Visitor details still require official-source review.",
+          "latitude": 41.7648939,
+          "longitude": -72.6777824,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/10547018"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/28224060",
+          "verified_at": "2026-07-30",
+          "score": 80,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 28224060,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        }
+      ]
+    },
+    {
+      "id": "launch-ct-new-haven-east-rock-park",
+      "name": "East Rock Park",
+      "city": "New Haven",
+      "state": "CT",
+      "sourceBoundary": "https://www.openstreetmap.org/way/43437525",
+      "features": [
+        {
+          "id": "launch-ct-new-haven-east-rock-park-soldiers-and-sailors-monument",
+          "slug": "soldiers-and-sailors-monument",
+          "name": "Soldiers' and Sailors' Monument",
+          "feature_type": "landmark",
+          "description": "Soldiers' and Sailors' Monument is a mapped landmark (monument) within the park. Visitor details still require official-source review.",
+          "latitude": 41.3272589,
+          "longitude": -72.9046582,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/43437525",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/New_Haven_Soldiers_and_Sailors_Monument.jpg/1920px-New_Haven_Soldiers_and_Sailors_Monument.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:New_Haven_Soldiers_and_Sailors_Monument.jpg",
+            "imageAuthor": "PFDR Mike",
+            "imageLicense": "CC BY-SA 4.0",
+            "imageAlt": "This is a picture of the Soldiers and Sailors Monument in New Haven, CT. The monument is located atop the summit of East Rock Park, which overlooks the city of New Haven, surrounding towns, and Long Island Sound. The monument, itself, measures 110 feet tall; however, the \"observation deck\" is closed to the public."
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/845472570",
+          "verified_at": "2026-07-30",
+          "score": 102,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 845472570,
+            "wikidata": "Q14715115",
+            "wikipedia": "en:Soldiers' and Sailors' Monument (New Haven)",
+            "boundaryContained": true,
+            "imageFileTitle": "File:New Haven Soldiers and Sailors Monument.jpg"
+          }
+        }
+      ],
+      "researchQueue": [
+        {
+          "id": "launch-ct-new-haven-east-rock-park-cedar-hill-playground",
+          "slug": "cedar-hill-playground",
+          "name": "Cedar Hill Playground",
+          "feature_type": "playground",
+          "description": "Cedar Hill Playground is a mapped playground (playground) within the park. Visitor details still require official-source review.",
+          "latitude": 41.322339,
+          "longitude": -72.9010641,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/43437525",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/624152693",
+          "verified_at": "2026-07-30",
+          "score": 100,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 624152693,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-ct-new-haven-east-rock-park-henry-gould-lewis",
+          "slug": "henry-gould-lewis",
+          "name": "Henry Gould Lewis",
+          "feature_type": "art",
+          "description": "Henry Gould Lewis is a mapped art (Bust of New Haven mayor Henry Gould Lewis, stolen in the mid-20th century, only the plinth remains) within the park. Visitor details still require official-source review.",
+          "latitude": 41.3304922,
+          "longitude": -72.9073076,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/43437525",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/9805225409",
+          "verified_at": "2026-07-30",
+          "score": 90,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 9805225409,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        }
+      ]
+    },
+    {
+      "id": "launch-ny-buffalo-delaware-park",
+      "name": "Delaware Park",
+      "city": "Buffalo",
+      "state": "NY",
+      "sourceBoundary": "https://www.openstreetmap.org/relation/19379279",
+      "features": [
+        {
+          "id": "launch-ny-buffalo-delaware-park-buffalo-akg-art-museum",
+          "slug": "buffalo-akg-art-museum",
+          "name": "Buffalo AKG Art Museum",
+          "feature_type": "museum",
+          "description": "Buffalo AKG Art Museum is a mapped museum (gallery) within the park. Visitor details still require official-source review.",
+          "latitude": 42.9322953,
+          "longitude": -78.8754839,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/19379279",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Delaware_Park_panorama.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Delaware_Park_panorama.jpg",
+            "imageAuthor": "Andre Carrotflower",
+            "imageLicense": "CC BY-SA 3.0",
+            "imageAlt": "Panoramic view of Delaware Park with Hoyt Lake in the foreground. Background, left to right: Albright-Knox Art Gallery, Delaware Park Bridge, Buffalo & Erie County Historical Society Museum."
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/119504296",
+          "verified_at": "2026-07-30",
+          "score": 108,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 119504296,
+            "wikidata": "Q1970945",
+            "wikipedia": "en:Buffalo AKG Art Museum",
+            "boundaryContained": true,
+            "imageFileTitle": "File:Delaware Park panorama.jpg"
+          }
+        },
+        {
+          "id": "launch-ny-buffalo-delaware-park-buffalo-and-erie-county-historical-society",
+          "slug": "buffalo-and-erie-county-historical-society",
+          "name": "Buffalo and Erie County Historical Society",
+          "feature_type": "museum",
+          "description": "Buffalo and Erie County Historical Society is a mapped museum (museum) within the park. Visitor details still require official-source review.",
+          "latitude": 42.9353985,
+          "longitude": -78.8762781,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/19379279",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Buffalo%26Erie_County_Historical_Society.jpg/1920px-Buffalo%26Erie_County_Historical_Society.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Buffalo%26Erie_County_Historical_Society.jpg",
+            "imageAuthor": "Fortunate4now",
+            "imageLicense": "CC0",
+            "imageAlt": "Buffalo and Erie County Historical Society, 25 Nottingham Court Buffalo, NY 14216"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/119506015",
+          "verified_at": "2026-07-30",
+          "score": 108,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 119506015,
+            "wikidata": "Q4985761",
+            "wikipedia": "en:Buffalo History Museum",
+            "boundaryContained": true,
+            "imageFileTitle": "File:Buffalo&Erie County Historical Society.jpg"
+          }
+        },
+        {
+          "id": "launch-ny-buffalo-delaware-park-buffalo-zoo",
+          "slug": "buffalo-zoo",
+          "name": "Buffalo Zoo",
+          "feature_type": "museum",
+          "description": "Buffalo Zoo is a mapped museum (zoo) within the park. Visitor details still require official-source review.",
+          "latitude": 42.9386914,
+          "longitude": -78.8532783,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/19379279",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Elephant_House%2C_Buffalo_Zoo%2C_August_2015.jpg/1920px-Elephant_House%2C_Buffalo_Zoo%2C_August_2015.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Elephant_House,_Buffalo_Zoo,_August_2015.jpg",
+            "imageAuthor": "Andre Carrotflower",
+            "imageLicense": "CC BY-SA 4.0",
+            "imageAlt": "Designed by the storied local firm of Esenwein & Johnson is the Buffalo Zoo's Elephant House. A Colonial Revival-style structure of Roman brick with Indiana limestone trim, the building is topped by an unusual but charming octagonal cupola decorated with latticed windows, features a proud bust of an elephant head sculpted by Ira Lake, and betrays an Arts & Crafts influence with the widely overhanging, bracket-supported eaves of its side-gabled roof. A state-of-the-art facility at the time of its construction in 1912, it was considered outdated (and was a flashpoint of criticism by animal rights advocates, who claimed that housing elephants in such a cramped space was cruel) by the time the Zoo relocated its two remaining elephants in 2018."
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/24219597",
+          "verified_at": "2026-07-30",
+          "score": 102,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 24219597,
+            "wikidata": "Q1768319",
+            "wikipedia": null,
+            "boundaryContained": true,
+            "rejectedImageTitles": [
+              "File:Meadow Drive - 20200322 - 32.jpg"
+            ],
+            "imageFileTitle": "File:Elephant House, Buffalo Zoo, August 2015.jpg"
+          }
+        },
+        {
+          "id": "launch-ny-buffalo-delaware-park-delaware-park-japanese-gardens",
+          "slug": "delaware-park-japanese-gardens",
+          "name": "Delaware Park Japanese Gardens",
+          "feature_type": "garden",
+          "description": "Delaware Park Japanese Gardens is a mapped garden (attraction) within the park. Visitor details still require official-source review.",
+          "latitude": 42.9352103,
+          "longitude": -78.8751269,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/19379279",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Japanese_Garden_entrance%2C_Delaware_Park%2C_Buffalo%2C_New_York_-_20200426.jpg/1920px-Japanese_Garden_entrance%2C_Delaware_Park%2C_Buffalo%2C_New_York_-_20200426.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_Garden_entrance,_Delaware_Park,_Buffalo,_New_York_-_20200426.jpg",
+            "imageAuthor": "Andre Carrotflower",
+            "imageLicense": "CC BY-SA 4.0",
+            "imageAlt": "The entrance to the Japanese Garden at Delaware Park, Buffalo, New York, April 2020."
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/256127867",
+          "verified_at": "2026-07-30",
+          "score": 92,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 256127867,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "imageFileTitle": "File:Japanese Garden entrance, Delaware Park, Buffalo, New York - 20200426.jpg"
+          }
+        },
+        {
+          "id": "launch-ny-buffalo-delaware-park-delaware-park-rose-garden",
+          "slug": "delaware-park-rose-garden",
+          "name": "Delaware Park Rose Garden",
+          "feature_type": "garden",
+          "description": "Delaware Park Rose Garden is a mapped garden (attraction) within the park. Visitor details still require official-source review.",
+          "latitude": 42.931652,
+          "longitude": -78.8731054,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/19379279",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Delaware_Park_Rose_Garden%2C_Buffalo%2C_New_York_-_20210613_-_04.jpg/1920px-Delaware_Park_Rose_Garden%2C_Buffalo%2C_New_York_-_20210613_-_04.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Delaware_Park_Rose_Garden,_Buffalo,_New_York_-_20210613_-_04.jpg",
+            "imageAuthor": "Andre Carrotflower",
+            "imageLicense": "CC BY-SA 4.0",
+            "imageAlt": "View looking across several beds of flowers in bloom toward the pergola at the rear of the Rose Garden at Delaware Park, Buffalo, New York, as seen in June 2021."
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/174372327",
+          "verified_at": "2026-07-30",
+          "score": 92,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 174372327,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "imageFileTitle": "File:Delaware Park Rose Garden, Buffalo, New York - 20210613 - 04.jpg"
+          }
+        }
+      ],
+      "researchQueue": [
+        {
+          "id": "launch-ny-buffalo-delaware-park-shakespeare-in-delaware-park",
+          "slug": "shakespeare-in-delaware-park",
+          "name": "Shakespeare in Delaware Park",
+          "feature_type": "event-space",
+          "description": "Shakespeare in Delaware Park is a mapped event space (theatre) within the park. Visitor details still require official-source review.",
+          "latitude": 42.931922,
+          "longitude": -78.8718643,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/19379279",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/1282244104",
+          "verified_at": "2026-07-30",
+          "score": 100,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 1282244104,
+            "wikidata": "Q7462841",
+            "wikipedia": "en:Shakespeare in Delaware Park",
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-ny-buffalo-delaware-park-common-sky",
+          "slug": "common-sky",
+          "name": "Common Sky",
+          "feature_type": "art",
+          "description": "Common Sky is a mapped art (artwork) within the park. Visitor details still require official-source review.",
+          "latitude": 42.9319416,
+          "longitude": -78.8756429,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/19379279"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/1412384619",
+          "verified_at": "2026-07-30",
+          "score": 90,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 1412384619,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "rejectedImageTitles": [
+              "File:Wet & Wild Main Street, Buffalo, New York - 20220926.jpg"
+            ]
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-ny-buffalo-delaware-park-eight-caryatid-figures",
+          "slug": "eight-caryatid-figures",
+          "name": "Eight Caryatid Figures",
+          "feature_type": "art",
+          "description": "Eight Caryatid Figures is a mapped art (statue) within the park. Visitor details still require official-source review.",
+          "latitude": 42.9321773,
+          "longitude": -78.8753453,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/19379279",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/12877681149",
+          "verified_at": "2026-07-30",
+          "score": 90,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 12877681149,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-ny-buffalo-delaware-park-indian-hunter",
+          "slug": "indian-hunter",
+          "name": "Indian Hunter",
+          "feature_type": "art",
+          "description": "Indian Hunter is a mapped art (statue) within the park. Visitor details still require official-source review.",
+          "latitude": 42.9323944,
+          "longitude": -78.8551761,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/19379279"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/9868383388",
+          "verified_at": "2026-07-30",
+          "score": 90,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 9868383388,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "rejectedImageTitles": [
+              "File:Meadow Drive - 20200322 - 21.jpg",
+              "File:Indians Hunting Buffalo in the Winter.jpg"
+            ]
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-ny-buffalo-delaware-park-mcmillan-monument",
+          "slug": "mcmillan-monument",
+          "name": "McMillan Monument",
+          "feature_type": "landmark",
+          "description": "McMillan Monument is a mapped landmark (monument) within the park. Visitor details still require official-source review.",
+          "latitude": 42.9335622,
+          "longitude": -78.8678557,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/19379279",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/13208880662",
+          "verified_at": "2026-07-30",
+          "score": 88,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 13208880662,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-ny-buffalo-delaware-park-shakespeare-hill",
+          "slug": "shakespeare-hill",
+          "name": "Shakespeare Hill",
+          "feature_type": "landmark",
+          "description": "Shakespeare Hill is a mapped landmark (viewpoint) within the park. Visitor details still require official-source review.",
+          "latitude": 42.9316927,
+          "longitude": -78.8720537,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/19379279",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/1850646557",
+          "verified_at": "2026-07-30",
+          "score": 88,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 1850646557,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-ny-buffalo-delaware-park-spire-head-house",
+          "slug": "spire-head-house",
+          "name": "Spire Head House",
+          "feature_type": "landmark",
+          "description": "Spire Head House is a mapped landmark (yes) within the park. Visitor details still require official-source review.",
+          "latitude": 42.9322457,
+          "longitude": -78.8713722,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/19379279",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/13208852590",
+          "verified_at": "2026-07-30",
+          "score": 88,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 13208852590,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        }
+      ]
+    },
+    {
+      "id": "launch-ny-rochester-highland-park",
+      "name": "Highland Park",
+      "city": "Rochester",
+      "state": "NY",
+      "sourceBoundary": "https://www.openstreetmap.org/way/71471331",
+      "features": [
+        {
+          "id": "launch-ny-rochester-highland-park-frederick-douglass-statue",
+          "slug": "frederick-douglass-statue",
+          "name": "Frederick Douglass Statue",
+          "feature_type": "landmark",
+          "description": "Frederick Douglass Statue is a mapped landmark (memorial) within the park. Visitor details still require official-source review.",
+          "latitude": 43.1329986,
+          "longitude": -77.6083959,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/71471331",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/FrederickDouglassSummerMorning2018Top.jpg/1920px-FrederickDouglassSummerMorning2018Top.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:FrederickDouglassSummerMorning2018Top.jpg",
+            "imageAuthor": "DanielPenfield",
+            "imageLicense": "CC BY-SA 4.0",
+            "imageAlt": "Statue of en:Frederick Douglass in en:Highland Park (Rochester, New York)"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/4955980723",
+          "verified_at": "2026-07-30",
+          "score": 96,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 4955980723,
+            "wikidata": "Q97013006",
+            "wikipedia": null,
+            "boundaryContained": true,
+            "imageFileTitle": "File:FrederickDouglassSummerMorning2018Top.jpg"
+          }
+        },
+        {
+          "id": "launch-ny-rochester-highland-park-lilac-arches",
+          "slug": "lilac-arches",
+          "name": "Lilac Arches",
+          "feature_type": "art",
+          "description": "Lilac Arches is a mapped art (sculpture) within the park. Visitor details still require official-source review.",
+          "latitude": 43.1292533,
+          "longitude": -77.6090794,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/71471331",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Highland_Park%2C_Rochester%2C_New_York_-_20220525_-_13_-_Panorama_at_Lilac_Gate_area.jpg/1920px-Highland_Park%2C_Rochester%2C_New_York_-_20220525_-_13_-_Panorama_at_Lilac_Gate_area.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Highland_Park,_Rochester,_New_York_-_20220525_-_13_-_Panorama_at_Lilac_Gate_area.jpg",
+            "imageAuthor": "Andre Carrotflower",
+            "imageLicense": "CC BY-SA 4.0",
+            "imageAlt": "Though the 2022 Rochester Lilac Festival ended a few days before this photo was taken, the Lilac Gate - one of the festival's centerpieces; an artful array of concentric wooden arched painted pastel mauve - remains in place all year. This panoramic photo taken in May 2022 includes the gate as well as the attractive stone and concrete landscaping that surrounds it."
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/7996137168",
+          "verified_at": "2026-07-30",
+          "score": 90,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 7996137168,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "imageFileTitle": "File:Highland Park, Rochester, New York - 20220525 - 13 - Panorama at Lilac Gate area.jpg"
+          }
+        },
+        {
+          "id": "launch-ny-rochester-highland-park-highland-park-overlook",
+          "slug": "highland-park-overlook",
+          "name": "Highland Park Overlook",
+          "feature_type": "landmark",
+          "description": "Highland Park Overlook is a mapped landmark (viewpoint) within the park. Visitor details still require official-source review.",
+          "latitude": 43.131836,
+          "longitude": -77.603528,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/71471331",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Highland_Park%2C_Rochester%2C_New_York_-_20220525_-_12_-_Vietnam_Veterans_Memorial_of_Greater_Rochester_in_panorama.jpg/1920px-Highland_Park%2C_Rochester%2C_New_York_-_20220525_-_12_-_Vietnam_Veterans_Memorial_of_Greater_Rochester_in_panorama.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Highland_Park,_Rochester,_New_York_-_20220525_-_12_-_Vietnam_Veterans_Memorial_of_Greater_Rochester_in_panorama.jpg",
+            "imageAuthor": "Andre Carrotflower",
+            "imageLicense": "CC BY-SA 4.0",
+            "imageAlt": "A panoramic view from the overlook of the Vietnam Veterans Memorial at Highland Park in Rochester, New York, as seen on a May 2022 afternoon. Dedicated in 1996, the memorial is comprised principally of a concrete plaza where seven flagpoles - the American flag, those of the five branches of the U.S. armed forces, and the official POW/MIA flag - cluster around a sculpture of the globe carved in relief into the ground, highlighting the physical distance and lack of obvious connection between the U.S. and Vietnam, from which leads a \"Walk of Honor\" where 280 bollards bear the names, military insignia, and dates of birth and death of local Vietnam War casualties. Peppered around the sprawling grounds of the memorial are a number of other sculptures and gardens each paying respect to a different aspect of the phenomenon of military service and death in war."
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/10693818123",
+          "verified_at": "2026-07-30",
+          "score": 88,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 10693818123,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "imageFileTitle": "File:Highland Park, Rochester, New York - 20220525 - 12 - Vietnam Veterans Memorial of Greater Rochester in panorama.jpg"
+          }
+        },
+        {
+          "id": "launch-ny-rochester-highland-park-highland-reservoir",
+          "slug": "highland-reservoir",
+          "name": "Highland Reservoir",
+          "feature_type": "water",
+          "description": "Highland Reservoir is a mapped water within the park. Visitor details still require official-source review.",
+          "latitude": 43.1311714,
+          "longitude": -77.6050348,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/71471331",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Highland_Park_Reservoir_and_Gate_House%2C_Rochester%2C_NY.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Highland_Park_Reservoir_and_Gate_House,_Rochester,_NY.jpg",
+            "imageAuthor": "Unknown author Unknown author",
+            "imageLicense": "Public domain",
+            "imageAlt": "Highland Park reservoir and gatehouse, Rochester, New York; from a c. 1910 postcard."
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/33298174",
+          "verified_at": "2026-07-30",
+          "score": 80,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 33298174,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "imageFileTitle": "File:Highland Park Reservoir and Gate House, Rochester, NY.jpg"
+          }
+        }
+      ],
+      "researchQueue": [
+        {
+          "id": "launch-ny-rochester-highland-park-lilac-adventure-zone",
+          "slug": "lilac-adventure-zone",
+          "name": "Lilac Adventure Zone",
+          "feature_type": "playground",
+          "description": "Lilac Adventure Zone is a mapped playground (playground) within the park. Visitor details still require official-source review.",
+          "latitude": 43.128896,
+          "longitude": -77.6074522,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/71471331",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/858263574",
+          "verified_at": "2026-07-30",
+          "score": 100,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 858263574,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-ny-rochester-highland-park-pansy-bed",
+          "slug": "pansy-bed",
+          "name": "Pansy Bed",
+          "feature_type": "garden",
+          "description": "Pansy Bed is a mapped garden (garden) within the park. Visitor details still require official-source review.",
+          "latitude": 43.1301367,
+          "longitude": -77.602262,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/71471331",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/857677822",
+          "verified_at": "2026-07-30",
+          "score": 92,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 857677822,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-ny-rochester-highland-park-poet-s-garden",
+          "slug": "poet-s-garden",
+          "name": "Poet's Garden",
+          "feature_type": "garden",
+          "description": "Poet's Garden is a mapped garden (Historic garden established in 1916 to honor William Shakespeare on the 300th anniversary of his death) within the park. Visitor details still require official-source review.",
+          "latitude": 43.1313746,
+          "longitude": -77.608048,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/71471331"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/10693801343",
+          "verified_at": "2026-07-30",
+          "score": 92,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 10693801343,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "rejectedImageTitles": [
+              "File:Vick's garden and floral guide (15943051903).jpg"
+            ]
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-ny-rochester-highland-park-sunken-garden",
+          "slug": "sunken-garden",
+          "name": "Sunken Garden",
+          "feature_type": "garden",
+          "description": "Sunken Garden is a mapped garden (garden) within the park. Visitor details still require official-source review.",
+          "latitude": 43.1324723,
+          "longitude": -77.6110409,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/71471331",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/858265909",
+          "verified_at": "2026-07-30",
+          "score": 92,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 858265909,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-ny-rochester-highland-park-aids-memorial",
+          "slug": "aids-memorial",
+          "name": "AIDS Memorial",
+          "feature_type": "landmark",
+          "description": "AIDS Memorial is a mapped landmark (memorial) within the park. Visitor details still require official-source review.",
+          "latitude": 43.1280096,
+          "longitude": -77.6087505,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/71471331",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/7996137167",
+          "verified_at": "2026-07-30",
+          "score": 88,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 7996137167,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-ny-rochester-highland-park-children-s-pavilion-overlook",
+          "slug": "children-s-pavilion-overlook",
+          "name": "Children's Pavilion Overlook",
+          "feature_type": "landmark",
+          "description": "Children's Pavilion Overlook is a mapped landmark (archaeological site) within the park. Visitor details still require official-source review.",
+          "latitude": 43.1318032,
+          "longitude": -77.602767,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/71471331",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/10693818122",
+          "verified_at": "2026-07-30",
+          "score": 88,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 10693818122,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-ny-rochester-highland-park-lily-pond",
+          "slug": "lily-pond",
+          "name": "Lily Pond",
+          "feature_type": "water",
+          "description": "Lily Pond is a mapped water (multi) within the park. Visitor details still require official-source review.",
+          "latitude": 43.1347143,
+          "longitude": -77.6085453,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/71471331",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/71478930",
+          "verified_at": "2026-07-30",
+          "score": 80,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 71478930,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        }
+      ]
+    },
+    {
+      "id": "launch-ny-albany-washington-park",
+      "name": "Washington Park",
+      "city": "Albany",
+      "state": "NY",
+      "sourceBoundary": "https://www.openstreetmap.org/way/37900371",
+      "features": [
+        {
+          "id": "launch-ny-albany-washington-park-washington-park-lake",
+          "slug": "washington-park-lake",
+          "name": "Washington Park Lake",
+          "feature_type": "water",
+          "description": "Washington Park Lake is a mapped water within the park. Visitor details still require official-source review.",
+          "latitude": 42.6573315,
+          "longitude": -73.77337,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/37900371",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Washingtonparklake.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Washingtonparklake.jpg",
+            "imageAuthor": "Andy Arthur",
+            "imageLicense": "CC BY 2.0",
+            "imageAlt": "Washington Park Lake in Albany, New York"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/89699541",
+          "verified_at": "2026-07-30",
+          "score": 94,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 89699541,
+            "wikidata": "Q7335379",
+            "wikipedia": "en:Washington Park Lake",
+            "boundaryContained": true,
+            "imageFileTitle": "File:Washingtonparklake.jpg"
+          }
+        },
+        {
+          "id": "launch-ny-albany-washington-park-dr-james-h-armsby-memorial",
+          "slug": "dr-james-h-armsby-memorial",
+          "name": "Dr. James H. Armsby Memorial",
+          "feature_type": "landmark",
+          "description": "Dr. James H. Armsby Memorial is a mapped landmark (memorial) within the park. Visitor details still require official-source review.",
+          "latitude": 42.6568491,
+          "longitude": -73.7683977,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/37900371",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Dr._James_H._Armsby_Memorial_01.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Dr._James_H._Armsby_Memorial_01.jpg",
+            "imageAuthor": "Drbones1950",
+            "imageLicense": "CC BY-SA 4.0",
+            "imageAlt": "Washington Park, Albany. Inscription reads: \"James H. Armsby, M.D, 1810-1875. Co-founder with Alden March, M.D., Albany Medical College, 1839. Professor of Anatomy, 1839-1869, Professor of Surgery, 1869-1875. Co-founder of Albany Hospital, 1849. Erected by friends in 1879. Erasmus Dow Palmer, sculptor.\""
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/5541419734",
+          "verified_at": "2026-07-30",
+          "score": 88,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 5541419734,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "imageFileTitle": "File:Dr. James H. Armsby Memorial 01.jpg"
+          }
+        },
+        {
+          "id": "launch-ny-albany-washington-park-king-memorial-fountain",
+          "slug": "king-memorial-fountain",
+          "name": "King Memorial Fountain",
+          "feature_type": "landmark",
+          "description": "King Memorial Fountain is a mapped landmark (memorial) within the park. Visitor details still require official-source review.",
+          "latitude": 42.6550063,
+          "longitude": -73.7700875,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/37900371",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/20220506_-_07_-_Albany%2C_New_York_-_King_Memorial_Fountain_aka_%22Moses_Smiting_the_Rock%22%2C_Washington_Park.jpg/1920px-20220506_-_07_-_Albany%2C_New_York_-_King_Memorial_Fountain_aka_%22Moses_Smiting_the_Rock%22%2C_Washington_Park.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:20220506_-_07_-_Albany,_New_York_-_King_Memorial_Fountain_aka_%22Moses_Smiting_the_Rock%22,_Washington_Park.jpg",
+            "imageAuthor": "Andre Carrotflower",
+            "imageLicense": "CC BY-SA 4.0",
+            "imageAlt": "Visitors to Washington Park in Albany, New York on a May 2022 afternoon mill around the 1893 statue Moses Smiting the Rock while awaiting the beginning of the 5:30 PM Tulip Tour, the last one of the season before the official start of the 2022 Tulip Festival. A work of New York sculptor John Massey Rhind, the statue is a commission of J. Howard King who bequeathed $20,000 for its construction as a memorial to his father, banking magnate Rufus Howard King (1794-1967; not to be confused with the similarly named former U.S. Vice-President), hence its alternate name, the King Memorial Fountain. Atop a boulder taken from Storm King Mountain on the Hudson River is placed a 3,800-pound, larger-than-life bronze likeness of Moses with staff held triumphantly aloft, having smitten the Rock of Horeb to provide drinking water for the Israelites as told in Exodus 17:6. Surrounding Moses as the base of the rock are a quartet of smaller figures, including a maiden with water jug in hand (left) and a thin beaded man with arms outstretched (right) , representative of youth and old age respectively. As seen on a May 2022 evening."
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/1039462878",
+          "verified_at": "2026-07-30",
+          "score": 88,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 1039462878,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "imageFileTitle": "File:20220506 - 07 - Albany, New York - King Memorial Fountain aka \"Moses Smiting the Rock\", Washington Park.jpg"
+          }
+        },
+        {
+          "id": "launch-ny-albany-washington-park-park-playhouse",
+          "slug": "park-playhouse",
+          "name": "Park Playhouse",
+          "feature_type": "event-space",
+          "description": "Park Playhouse is a mapped event space (theatre) within the park. Visitor details still require official-source review.",
+          "latitude": 42.6562616,
+          "longitude": -73.771831,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/37900371",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Washington_Park_Playhouse.jpg/1920px-Washington_Park_Playhouse.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Washington_Park_Playhouse.jpg",
+            "imageAuthor": "This image or media was taken or created by Matt H. Wade . To see his entire portfolio, click here . @ thatmattwade This image is protected by copyright ! If you would like to use it, please read this first.",
+            "imageLicense": "CC BY-SA 3.0",
+            "imageAlt": "The boathouse at Washington Park in Albany , New York , United States"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/1039462856",
+          "verified_at": "2026-07-30",
+          "score": 86,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 1039462856,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "imageFileTitle": "File:Washington Park Playhouse.jpg"
+          }
+        }
+      ],
+      "researchQueue": [
+        {
+          "id": "launch-ny-albany-washington-park-albany-plan-of-union-avenue",
+          "slug": "albany-plan-of-union-avenue",
+          "name": "Albany Plan of Union Avenue",
+          "feature_type": "landmark",
+          "description": "Albany Plan of Union Avenue is a mapped landmark (memorial) within the park. Visitor details still require official-source review.",
+          "latitude": 42.6588519,
+          "longitude": -73.7706099,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/37900371",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/13314906933",
+          "verified_at": "2026-07-30",
+          "score": 88,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 13314906933,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-ny-albany-washington-park-henry-johnson-memorial",
+          "slug": "henry-johnson-memorial",
+          "name": "Henry Johnson Memorial",
+          "feature_type": "landmark",
+          "description": "Henry Johnson Memorial is a mapped landmark (memorial) within the park. Visitor details still require official-source review.",
+          "latitude": 42.6538306,
+          "longitude": -73.7689744,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/37900371"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/1039462577",
+          "verified_at": "2026-07-30",
+          "score": 88,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 1039462577,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "rejectedImageTitles": [
+              "File:20220506 - 02 - Albany, New York - Townsend Park and Spanish-American War Memorial.jpg"
+            ]
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        }
+      ]
+    },
+    {
+      "id": "launch-nj-newark-branch-brook-park",
+      "name": "Branch Brook Park",
+      "city": "Newark",
+      "state": "NJ",
+      "sourceBoundary": "https://www.openstreetmap.org/way/411817733",
+      "features": [
+        {
+          "id": "launch-nj-newark-branch-brook-park-althea-gibson-statue",
+          "slug": "althea-gibson-statue",
+          "name": "Althea Gibson Statue",
+          "feature_type": "landmark",
+          "description": "Althea Gibson Statue is a mapped landmark (monument) within the park. Visitor details still require official-source review.",
+          "latitude": 40.7782927,
+          "longitude": -74.1738741,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/411817733",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Althea_Gibson_statue.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Althea_Gibson_statue.jpg",
+            "imageAuthor": "sculpture: Thomas Jay Warren image: DoctorJoeE",
+            "imageLicense": "CC BY-SA 3.0",
+            "imageAlt": "Statue of Althea Gibson, north of Franklin Street in Branch Brook Park, Newark, NJ, USA"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/11731171254",
+          "verified_at": "2026-07-30",
+          "score": 88,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 11731171254,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "imageFileTitle": "File:Althea Gibson statue.jpg"
+          }
+        },
+        {
+          "id": "launch-nj-newark-branch-brook-park-branch-brook-park-roller-skating-center",
+          "slug": "branch-brook-park-roller-skating-center",
+          "name": "Branch Brook Park Roller Skating Center",
+          "feature_type": "sports",
+          "description": "Branch Brook Park Roller Skating Center is a mapped sports (roller skating) within the park. Visitor details still require official-source review.",
+          "latitude": 40.7521403,
+          "longitude": -74.1811485,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/411817733",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Branch_Brook_Skating_Rink_HDR_2022_jeh.jpg/1920px-Branch_Brook_Skating_Rink_HDR_2022_jeh.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Branch_Brook_Skating_Rink_HDR_2022_jeh.jpg",
+            "imageAuthor": "Jim.henderson",
+            "imageLicense": "CC BY-SA 4.0",
+            "imageAlt": "Branch Brook Skating Rink (park in the United States of America)"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/339445461",
+          "verified_at": "2026-07-30",
+          "score": 82,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 339445461,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "imageFileTitle": "File:Branch Brook Skating Rink HDR 2022 jeh.jpg"
+          }
+        }
+      ],
+      "researchQueue": [
+        {
+          "id": "launch-nj-newark-branch-brook-park-blue-playground",
+          "slug": "blue-playground",
+          "name": "Blue Playground",
+          "feature_type": "playground",
+          "description": "Blue Playground is a mapped playground (playground) within the park. Visitor details still require official-source review.",
+          "latitude": 40.7508229,
+          "longitude": -74.1810185,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/411817733",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/946492799",
+          "verified_at": "2026-07-30",
+          "score": 100,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 946492799,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-nj-newark-branch-brook-park-eleanor-guarino-playground",
+          "slug": "eleanor-guarino-playground",
+          "name": "Eleanor Guarino Playground",
+          "feature_type": "playground",
+          "description": "Eleanor Guarino Playground is a mapped playground (playground) within the park. Visitor details still require official-source review.",
+          "latitude": 40.7885641,
+          "longitude": -74.1646201,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/411817733",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/946521936",
+          "verified_at": "2026-07-30",
+          "score": 100,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 946521936,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-nj-newark-branch-brook-park-green-playground",
+          "slug": "green-playground",
+          "name": "Green Playground",
+          "feature_type": "playground",
+          "description": "Green Playground is a mapped playground (playground) within the park. Visitor details still require official-source review.",
+          "latitude": 40.7841512,
+          "longitude": -74.1722342,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/411817733",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/1258413326",
+          "verified_at": "2026-07-30",
+          "score": 100,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 1258413326,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-nj-newark-branch-brook-park-branch-brook-park-dog-park",
+          "slug": "branch-brook-park-dog-park",
+          "name": "Branch Brook Park Dog Park",
+          "feature_type": "dog-area",
+          "description": "Branch Brook Park Dog Park is a mapped dog area (dog park) within the park. Visitor details still require official-source review.",
+          "latitude": 40.7745646,
+          "longitude": -74.1775048,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/411817733",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/1366631097",
+          "verified_at": "2026-07-30",
+          "score": 98,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 1366631097,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-nj-newark-branch-brook-park-cherry-blossom-welcome-center",
+          "slug": "cherry-blossom-welcome-center",
+          "name": "Cherry Blossom Welcome Center",
+          "feature_type": "visitor-center",
+          "description": "Cherry Blossom Welcome Center is a mapped visitor center (information) within the park. Visitor details still require official-source review.",
+          "latitude": 40.7846364,
+          "longitude": -74.1725898,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/411817733",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/339445462",
+          "verified_at": "2026-07-30",
+          "score": 96,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 339445462,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-nj-newark-branch-brook-park-branch-brook-park-community-garden",
+          "slug": "branch-brook-park-community-garden",
+          "name": "Branch Brook Park Community Garden",
+          "feature_type": "garden",
+          "description": "Branch Brook Park Community Garden is a mapped garden (Small community garden open to all) within the park. Visitor details still require official-source review.",
+          "latitude": 40.7843357,
+          "longitude": -74.1719815,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/411817733",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/1485160800",
+          "verified_at": "2026-07-30",
+          "score": 92,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 1485160800,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-nj-newark-branch-brook-park-prudential-concert-grove",
+          "slug": "prudential-concert-grove",
+          "name": "Prudential Concert Grove",
+          "feature_type": "event-space",
+          "description": "Prudential Concert Grove is a mapped event space (theatre) within the park. Visitor details still require official-source review.",
+          "latitude": 40.756501,
+          "longitude": -74.1831199,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/411817733",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/1777415638",
+          "verified_at": "2026-07-30",
+          "score": 86,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 1777415638,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-nj-newark-branch-brook-park-senior-citizen-s-center",
+          "slug": "senior-citizen-s-center",
+          "name": "Senior Citizen's Center",
+          "feature_type": "event-space",
+          "description": "Senior Citizen's Center is a mapped event space (community centre) within the park. Visitor details still require official-source review.",
+          "latitude": 40.7632261,
+          "longitude": -74.1793397,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/411817733",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/339445463",
+          "verified_at": "2026-07-30",
+          "score": 86,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 339445463,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-nj-newark-branch-brook-park-steven-adubato-sports-complex",
+          "slug": "steven-adubato-sports-complex",
+          "name": "Steven Adubato Sports Complex",
+          "feature_type": "sports",
+          "description": "Steven Adubato Sports Complex is a mapped sports (multi) within the park. Visitor details still require official-source review.",
+          "latitude": 40.7617979,
+          "longitude": -74.1800902,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/411817733",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/1697814947",
+          "verified_at": "2026-07-30",
+          "score": 82,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 1697814947,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-nj-newark-branch-brook-park-clark-s-pond",
+          "slug": "clark-s-pond",
+          "name": "Clark's Pond",
+          "feature_type": "water",
+          "description": "Clark's Pond is a mapped water within the park. Visitor details still require official-source review.",
+          "latitude": 40.7654585,
+          "longitude": -74.1779206,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/411817733",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/166526695",
+          "verified_at": "2026-07-30",
+          "score": 80,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 166526695,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        }
+      ]
+    },
+    {
+      "id": "launch-nj-jersey-city-liberty-state-park",
+      "name": "Liberty State Park",
+      "city": "Jersey City",
+      "state": "NJ",
+      "sourceBoundary": "https://www.openstreetmap.org/relation/8262630",
+      "features": [],
+      "researchQueue": []
+    },
+    {
+      "id": "launch-pa-philadelphia-fairmount-park",
+      "name": "Fairmount Park",
+      "city": "Philadelphia",
+      "state": "PA",
+      "sourceBoundary": "https://www.openstreetmap.org/relation/16277006",
+      "features": [],
+      "researchQueue": []
+    },
+    {
+      "id": "launch-pa-pittsburgh-schenley-park",
+      "name": "Schenley Park",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "sourceBoundary": "https://www.openstreetmap.org/way/26321001",
+      "features": [
+        {
+          "id": "launch-pa-pittsburgh-schenley-park-statue-of-christopher-columbus",
+          "slug": "statue-of-christopher-columbus",
+          "name": "Statue of Christopher Columbus",
+          "feature_type": "art",
+          "description": "Statue of Christopher Columbus is a mapped art (sculpture) within the park. Visitor details still require official-source review.",
+          "latitude": 40.4402565,
+          "longitude": -79.9484185,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/26321001",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Christopher_Columbus_Pittsburgh.jpg/1920px-Christopher_Columbus_Pittsburgh.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Christopher_Columbus_Pittsburgh.jpg",
+            "imageAuthor": "Staticshakedown",
+            "imageLicense": "CC BY-SA 4.0",
+            "imageAlt": "Christopher Columbus statue, Pittsburgh"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/4728013049",
+          "verified_at": "2026-07-30",
+          "score": 104,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 4728013049,
+            "wikidata": "Q107334788",
+            "wikipedia": "en:Statue of Christopher Columbus (Pittsburgh)",
+            "boundaryContained": true,
+            "imageFileTitle": "File:Christopher Columbus Pittsburgh.jpg"
+          }
+        },
+        {
+          "id": "launch-pa-pittsburgh-schenley-park-neill-log-house",
+          "slug": "neill-log-house",
+          "name": "Neill Log House",
+          "feature_type": "landmark",
+          "description": "Neill Log House is a mapped landmark (building) within the park. Visitor details still require official-source review.",
+          "latitude": 40.4358537,
+          "longitude": -79.9356054,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/26321001",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/NeillLogHouse.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:NeillLogHouse.jpg",
+            "imageAuthor": "Lee Paxton ( Leepaxton at en.wikipedia )",
+            "imageLicense": "CC BY-SA 4.0",
+            "imageAlt": "Neill Log House located at East Circuit Road near Serpentine Drive in Schenley Park in the Squirrel Hill South neighborhood of Pittsburgh, Pennsylvania , on April 10, 2010. The log house was built circa 1787 (or before) and once belonged to the family of Robert Neill, and later to Col. James O'Hara and his granddaughter Mary Schenley (for whom the park is named). The house was in use during a time when Indian raids in the area occasionally occurred. These days it sits preserved in Schenley Park with a fence around it (though it is open to the public periodically), and it is on the List of City of Pittsburgh historic designations as well as the List of Pittsburgh History and Landmarks Foundation Historic Landmarks . The log house is also featured on the cover of A Guidebook To Historic Western Pennsylvania by Helene Smith and George Swetnam (the original 1976 version and the Revised 1991 version)."
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/534164178",
+          "verified_at": "2026-07-30",
+          "score": 102,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 534164178,
+            "wikidata": "Q6989577",
+            "wikipedia": "en:Neill Log House",
+            "boundaryContained": true,
+            "imageFileTitle": "File:NeillLogHouse.jpg"
+          }
+        },
+        {
+          "id": "launch-pa-pittsburgh-schenley-park-phipps-conservatory",
+          "slug": "phipps-conservatory",
+          "name": "Phipps Conservatory",
+          "feature_type": "garden",
+          "description": "Phipps Conservatory is a mapped garden (garden) within the park. Visitor details still require official-source review.",
+          "latitude": 40.4390786,
+          "longitude": -79.947525,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/26321001",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Phipps_Conservatory_Sunken_Garden_fall_2015.jpg/1920px-Phipps_Conservatory_Sunken_Garden_fall_2015.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Phipps_Conservatory_Sunken_Garden_fall_2015.jpg",
+            "imageAuthor": "Dllu",
+            "imageLicense": "CC BY-SA 4.0",
+            "imageAlt": "The Sunken Garden at the Phipps Conservatory. The Phipps Conservatory and Botanical Gardens is a complex of buildings and grounds set in Schenley Park , Pittsburgh , Pennsylvania . Founded in 1893, the gardens serve to educate and entertain the people of Pittsburgh with formal gardens."
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/207207951",
+          "verified_at": "2026-07-30",
+          "score": 100,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 207207951,
+            "wikidata": "Q7186407",
+            "wikipedia": null,
+            "boundaryContained": true,
+            "imageFileTitle": "File:Phipps Conservatory Sunken Garden fall 2015.jpg"
+          }
+        },
+        {
+          "id": "launch-pa-pittsburgh-schenley-park-panther-hollow-lake",
+          "slug": "panther-hollow-lake",
+          "name": "Panther Hollow Lake",
+          "feature_type": "water",
+          "description": "Panther Hollow Lake is a mapped water (Built between 1907 and 1909, the lake is part of the watershed in the park, and drains to the Monongahela River. Until the 1970s boats could be rented. The boathouse was demolished in 1979. A full restoration of the lake is planned.) within the park. Visitor details still require official-source review.",
+          "latitude": 40.4368606,
+          "longitude": -79.9482412,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/26321001",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Panther_Hollow_%28137060463%29.jpg/1920px-Panther_Hollow_%28137060463%29.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Panther_Hollow_(137060463).jpg",
+            "imageAuthor": "Michael Righi from Pittsburgh, USA",
+            "imageLicense": "CC BY 2.0",
+            "imageAlt": "Panther Hollow lake, in Schenley Park, in Pittsburgh."
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/25534423",
+          "verified_at": "2026-07-30",
+          "score": 94,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 25534423,
+            "wikidata": "Q18156732",
+            "wikipedia": "en:Panther Hollow Lake",
+            "boundaryContained": true,
+            "imageFileTitle": "File:Panther Hollow (137060463).jpg"
+          }
+        },
+        {
+          "id": "launch-pa-pittsburgh-schenley-park-panther-hollow-field",
+          "slug": "panther-hollow-field",
+          "name": "Panther Hollow field",
+          "feature_type": "sports",
+          "description": "Panther Hollow field is a mapped sports (soccer) within the park. Visitor details still require official-source review.",
+          "latitude": 40.4310176,
+          "longitude": -79.9502502,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/26321001",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Panther_Hollow_-_Flickr_-_michaelrighi.jpg/1920px-Panther_Hollow_-_Flickr_-_michaelrighi.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Panther_Hollow_-_Flickr_-_michaelrighi.jpg",
+            "imageAuthor": "Michael Righi from Pittsburgh, USA",
+            "imageLicense": "CC BY 2.0",
+            "imageAlt": "You're seeing the combination of two photos overlayed. The stones come from underneath Panther Hollow bridge in Pittsburgh, PA USA. The face belongs to April."
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/25655781",
+          "verified_at": "2026-07-30",
+          "score": 82,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 25655781,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "imageFileTitle": "File:Panther Hollow - Flickr - michaelrighi.jpg"
+          }
+        },
+        {
+          "id": "launch-pa-pittsburgh-schenley-park-schenley-pool",
+          "slug": "schenley-pool",
+          "name": "Schenley Pool",
+          "feature_type": "sports",
+          "description": "Schenley Pool is a mapped sports (swimming pool) within the park. Visitor details still require official-source review.",
+          "latitude": 40.4346886,
+          "longitude": -79.94701,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/26321001",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Oakland-_Schenley_Pool_%281439365739%29.jpg/1920px-Oakland-_Schenley_Pool_%281439365739%29.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Oakland-_Schenley_Pool_(1439365739).jpg",
+            "imageAuthor": "KitAy from Pittsburgh, USA",
+            "imageLicense": "CC BY 2.0",
+            "imageAlt": "...and the Boulevard of the Allies"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/305687962",
+          "verified_at": "2026-07-30",
+          "score": 82,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 305687962,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "imageFileTitle": "File:Oakland- Schenley Pool (1439365739).jpg"
+          }
+        },
+        {
+          "id": "launch-pa-pittsburgh-schenley-park-schenley-park-caf-and-visitor-center",
+          "slug": "schenley-park-caf-and-visitor-center",
+          "name": "Schenley Park Café and Visitor Center",
+          "feature_type": "restroom",
+          "description": "Schenley Park Café and Visitor Center is a mapped restroom (information) within the park. Visitor details still require official-source review.",
+          "latitude": 40.4383414,
+          "longitude": -79.9464921,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/26321001",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Schenley_Park_Cafe_and_Trail.jpg/1920px-Schenley_Park_Cafe_and_Trail.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Schenley_Park_Cafe_and_Trail.jpg",
+            "imageAuthor": "HoboJones",
+            "imageLicense": "CC BY-SA 3.0",
+            "imageAlt": "A cafe and a trail through Schenley Park in Pittsburgh ."
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/305687963",
+          "verified_at": "2026-07-30",
+          "score": 76,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 305687963,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "imageFileTitle": "File:Schenley Park Cafe and Trail.jpg"
+          }
+        }
+      ],
+      "researchQueue": [
+        {
+          "id": "launch-pa-pittsburgh-schenley-park-anderson-playground",
+          "slug": "anderson-playground",
+          "name": "Anderson Playground",
+          "feature_type": "playground",
+          "description": "Anderson Playground is a mapped playground (playground) within the park. Visitor details still require official-source review.",
+          "latitude": 40.4356291,
+          "longitude": -79.9473409,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/26321001",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/197530288",
+          "verified_at": "2026-07-30",
+          "score": 100,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 197530288,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-pa-pittsburgh-schenley-park-bartlett-playground",
+          "slug": "bartlett-playground",
+          "name": "Bartlett Playground",
+          "feature_type": "playground",
+          "description": "Bartlett Playground is a mapped playground (playground) within the park. Visitor details still require official-source review.",
+          "latitude": 40.4333898,
+          "longitude": -79.9356398,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/26321001",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/366514673",
+          "verified_at": "2026-07-30",
+          "score": 100,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 366514673,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-pa-pittsburgh-schenley-park-westinghouse-pond",
+          "slug": "westinghouse-pond",
+          "name": "Westinghouse Pond",
+          "feature_type": "water",
+          "description": "Westinghouse Pond is a mapped water within the park. Visitor details still require official-source review.",
+          "latitude": 40.4394574,
+          "longitude": -79.9429426,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/way/26321001",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/27574440",
+          "verified_at": "2026-07-30",
+          "score": 80,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 27574440,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        }
+      ]
+    },
+    {
+      "id": "launch-de-wilmington-brandywine-park",
+      "name": "Brandywine Park",
+      "city": "Wilmington",
+      "state": "DE",
+      "sourceBoundary": "https://www.openstreetmap.org/relation/10550916",
+      "features": [
+        {
+          "id": "launch-de-wilmington-brandywine-park-brandywine-zoo",
+          "slug": "brandywine-zoo",
+          "name": "Brandywine Zoo",
+          "feature_type": "museum",
+          "description": "Brandywine Zoo is a mapped museum (Brandywine Zoo is a small 4.7-acre (1.9 ha) zoo that opened in 1905 in Brandywine Park in Wilmington, Delaware, United States. It is located on the banks of the Brandywine River.) within the park. Visitor details still require official-source review.",
+          "latitude": 39.7554667,
+          "longitude": -75.5485829,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/10550916",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/Black-mantled_Tamarin.jpg",
+            "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Black-mantled_Tamarin.jpg",
+            "imageAuthor": "The original uploader was Fosnez at English Wikipedia .",
+            "imageLicense": "Public domain",
+            "imageAlt": "Sourced from: http://www.mammalogy.org/mil_images/MSLPrimates.htm Originally from: Brandywine Zoo, Wilmington, Delaware, 1995. R D Lord Used with permission: You may use the requested image (#1555) from the Mammal Image Library website http://www.mammalogy.org/imagelibrary/index.html free of charge. Please remember to credit the photographer (R. D. Lord) and the Mammal Images Library of the American Society of Mammalogists."
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/425618547",
+          "verified_at": "2026-07-30",
+          "score": 108,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 425618547,
+            "wikidata": "Q4957298",
+            "wikipedia": "en:Brandywine Zoo",
+            "boundaryContained": true,
+            "imageFileTitle": "File:Black-mantled Tamarin.jpg"
+          }
+        }
+      ],
+      "researchQueue": [
+        {
+          "id": "launch-de-wilmington-brandywine-park-old-first-presbyterian-church",
+          "slug": "old-first-presbyterian-church",
+          "name": "Old First Presbyterian Church",
+          "feature_type": "museum",
+          "description": "Old First Presbyterian Church is a mapped museum (heritage) within the park. Visitor details still require official-source review.",
+          "latitude": 39.7507799,
+          "longitude": -75.547499,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/10550916"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/368140733",
+          "verified_at": "2026-07-30",
+          "score": 102,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 368140733,
+            "wikidata": "Q7083988",
+            "wikipedia": null,
+            "boundaryContained": true,
+            "rejectedImageTitles": [
+              "File:Brandywinecreek.jpg"
+            ]
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-de-wilmington-brandywine-park-shortlidge-academy-playground",
+          "slug": "shortlidge-academy-playground",
+          "name": "Shortlidge Academy Playground",
+          "feature_type": "playground",
+          "description": "Shortlidge Academy Playground is a mapped playground (playground) within the park. Visitor details still require official-source review.",
+          "latitude": 39.7518905,
+          "longitude": -75.5456616,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/10550916",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/4631515053",
+          "verified_at": "2026-07-30",
+          "score": 100,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 4631515053,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-de-wilmington-brandywine-park-abessinio-stadium",
+          "slug": "abessinio-stadium",
+          "name": "Abessinio Stadium",
+          "feature_type": "sports",
+          "description": "Abessinio Stadium is a mapped sports (american football;soccer;lacrosse;athletics) within the park. Visitor details still require official-source review.",
+          "latitude": 39.7610136,
+          "longitude": -75.5530087,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/10550916",
+            "imageUrl": null,
+            "imageSourceUrl": null,
+            "imageAuthor": null,
+            "imageLicense": null,
+            "imageAlt": null
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/way/832612576",
+          "verified_at": "2026-07-30",
+          "score": 96,
+          "discovery": {
+            "osmType": "way",
+            "osmId": 832612576,
+            "wikidata": "Q39049799",
+            "wikipedia": "en:Abessinio Stadium",
+            "boundaryContained": true
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        },
+        {
+          "id": "launch-de-wilmington-brandywine-park-historic-water-fountain",
+          "slug": "historic-water-fountain",
+          "name": "Historic Water Fountain",
+          "feature_type": "landmark",
+          "description": "Historic Water Fountain is a mapped landmark (yes) within the park. Visitor details still require official-source review.",
+          "latitude": 39.7529909,
+          "longitude": -75.5474776,
+          "details": {
+            "positionQuality": "Mapped inside verified park boundary",
+            "officialMapUrl": "https://www.openstreetmap.org/relation/10550916"
+          },
+          "source_label": "OpenStreetMap contributors",
+          "source_url": "https://www.openstreetmap.org/node/4631515055",
+          "verified_at": "2026-07-30",
+          "score": 88,
+          "discovery": {
+            "osmType": "node",
+            "osmId": 4631515055,
+            "wikidata": null,
+            "wikipedia": null,
+            "boundaryContained": true,
+            "rejectedImageTitles": [
+              "File:Federal Building and Courthouse (Wilmington, NC) 2.JPG"
+            ]
+          },
+          "publicationBlocker": "missing-reviewed-photo"
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "parks": 15,
+    "readyFeatures": 34,
+    "researchQueue": 51
+  }
+}

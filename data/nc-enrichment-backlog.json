@@ -1,0 +1,6587 @@
+{
+  "summary": {
+    "generatedAt": "2026-08-05T07:11:15.184Z",
+    "scope": "Visible published and launch-catalog North Carolina park destinations through Wave 2; research, deferred, excluded, library, and municipal-building records excluded",
+    "total": 444,
+    "complete": 168,
+    "missingHero": 0,
+    "fewerThanThreeImages": 242,
+    "missingHours": 8,
+    "fewerThanTenAnswers": 275
+  },
+  "places": [
+    {
+      "id": "basic-osm-way-33078158",
+      "name": "Westwood Park",
+      "city": "Chapel Hill",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": false,
+      "sourcedAnswerCount": 6,
+      "score": 51,
+      "needs": [
+        "2-more-images",
+        "hours",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-564181782",
+      "name": "Fred Alexander Park",
+      "city": "Charlotte",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": false,
+      "sourcedAnswerCount": 6,
+      "score": 51,
+      "needs": [
+        "2-more-images",
+        "hours",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-534693765",
+      "name": "Kerr Street Park",
+      "city": "Jacksonville",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": false,
+      "sourcedAnswerCount": 6,
+      "score": 51,
+      "needs": [
+        "2-more-images",
+        "hours",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-313112640",
+      "name": "Pitner Dog Park",
+      "city": "Salisbury",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": false,
+      "sourcedAnswerCount": 6,
+      "score": 51,
+      "needs": [
+        "2-more-images",
+        "hours",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-431357667",
+      "name": "Tanglewoof Dog Park",
+      "city": "Winston-Salem",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": false,
+      "sourcedAnswerCount": 6,
+      "score": 51,
+      "needs": [
+        "2-more-images",
+        "hours",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "carteret-morehead-city-bryan-street-pond",
+      "name": "Bryan Street Pond",
+      "city": "Morehead City",
+      "origin": "established",
+      "publishStatus": "enriched",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 3,
+      "score": 62,
+      "needs": [
+        "2-more-images",
+        "7-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "carteret-morehead-city-katherine-davis-park",
+      "name": "Katherine Davis Park",
+      "city": "Morehead City",
+      "origin": "established",
+      "publishStatus": "enriched",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 3,
+      "score": 62,
+      "needs": [
+        "2-more-images",
+        "7-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "carteret-morehead-city-snookie-wade-park",
+      "name": "Snookie Wade Park",
+      "city": "Morehead City",
+      "origin": "established",
+      "publishStatus": "enriched",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 3,
+      "score": 62,
+      "needs": [
+        "2-more-images",
+        "7-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "carteret-atlantic-beach-les-and-sally-moore-beach-access",
+      "name": "Les and Sally Moore Public Beach Access",
+      "city": "Atlantic Beach",
+      "origin": "established",
+      "publishStatus": "enriched",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 4,
+      "score": 65,
+      "needs": [
+        "2-more-images",
+        "6-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "carteret-morehead-city-conchs-point",
+      "name": "Conchs Point",
+      "city": "Morehead City",
+      "origin": "established",
+      "publishStatus": "enriched",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 4,
+      "score": 65,
+      "needs": [
+        "2-more-images",
+        "6-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "carteret-morehead-city-dr-martin-luther-king-jr-park",
+      "name": "Dr. Martin Luther King Jr. Park",
+      "city": "Morehead City",
+      "origin": "established",
+      "publishStatus": "enriched",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 4,
+      "score": 65,
+      "needs": [
+        "2-more-images",
+        "6-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "carteret-morehead-city-mitchell-village-park",
+      "name": "Mitchell Village Park",
+      "city": "Morehead City",
+      "origin": "established",
+      "publishStatus": "enriched",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 4,
+      "score": 65,
+      "needs": [
+        "2-more-images",
+        "6-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "carteret-morehead-city-ottis-landing",
+      "name": "Ottis Landing and Day Docks",
+      "city": "Morehead City",
+      "origin": "established",
+      "publishStatus": "enriched",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 4,
+      "score": 65,
+      "needs": [
+        "2-more-images",
+        "6-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "carteret-morehead-city-piney-park",
+      "name": "Piney Park",
+      "city": "Morehead City",
+      "origin": "established",
+      "publishStatus": "enriched",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 4,
+      "score": 65,
+      "needs": [
+        "2-more-images",
+        "6-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "carteret-morehead-city-w-s-king-recreation-center",
+      "name": "W.S. King Recreation Center and Park",
+      "city": "Morehead City",
+      "origin": "established",
+      "publishStatus": "enriched",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 4,
+      "score": 65,
+      "needs": [
+        "2-more-images",
+        "6-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-609079081",
+      "name": "Karen Cragnolin Park",
+      "city": "Asheville",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": false,
+      "sourcedAnswerCount": 6,
+      "score": 68,
+      "needs": [
+        "hours",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "carteret-atlantic-beach-hoop-pole-creek-nature-trail",
+      "name": "Hoop Pole Creek Nature Trail",
+      "city": "Atlantic Beach",
+      "origin": "established",
+      "publishStatus": "enriched",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 5,
+      "score": 68,
+      "needs": [
+        "2-more-images",
+        "5-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "carteret-atlantic-beach-circle-regional-beach-access",
+      "name": "The Circle Regional Beach Access",
+      "city": "Atlantic Beach",
+      "origin": "established",
+      "publishStatus": "enriched",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 5,
+      "score": 68,
+      "needs": [
+        "2-more-images",
+        "5-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "carteret-atlantic-beach-tom-doe-memorial-beach-access",
+      "name": "Tom Doe Memorial Beach Access",
+      "city": "Atlantic Beach",
+      "origin": "established",
+      "publishStatus": "enriched",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 5,
+      "score": 68,
+      "needs": [
+        "2-more-images",
+        "5-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-439006682",
+      "name": "Founders Park",
+      "city": "Leland",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": false,
+      "sourcedAnswerCount": 6,
+      "score": 68,
+      "needs": [
+        "hours",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "carteret-morehead-city-calico-creek-boardwalk",
+      "name": "Calico Creek Boardwalk",
+      "city": "Morehead City",
+      "origin": "established",
+      "publishStatus": "enriched",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 5,
+      "score": 68,
+      "needs": [
+        "2-more-images",
+        "5-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "carteret-morehead-city-jaycee-park",
+      "name": "Jaycee Park",
+      "city": "Morehead City",
+      "origin": "established",
+      "publishStatus": "enriched",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 5,
+      "score": 68,
+      "needs": [
+        "2-more-images",
+        "5-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "carteret-morehead-city-newport-river-boat-ramps",
+      "name": "Newport River Boat Ramps and Pier",
+      "city": "Morehead City",
+      "origin": "established",
+      "publishStatus": "enriched",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 5,
+      "score": 68,
+      "needs": [
+        "2-more-images",
+        "5-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "carteret-morehead-city-sugarloaf-island",
+      "name": "Sugarloaf Island",
+      "city": "Morehead City",
+      "origin": "established",
+      "publishStatus": "enriched",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 5,
+      "score": 68,
+      "needs": [
+        "2-more-images",
+        "5-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-583385183",
+      "name": "Richlands Steed Park",
+      "city": "Richlands",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": false,
+      "sourcedAnswerCount": 6,
+      "score": 68,
+      "needs": [
+        "hours",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-relation-4836874",
+      "name": "Salem Pond Park",
+      "city": "Apex",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-465041202",
+      "name": "Bicentennial Park",
+      "city": "Asheboro",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-545279684",
+      "name": "Frazier Park",
+      "city": "Asheboro",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-571078743",
+      "name": "Hammer Park",
+      "city": "Asheboro",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-33112032",
+      "name": "Memorial Park",
+      "city": "Asheboro",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-33109456",
+      "name": "North Park",
+      "city": "Asheboro",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-546179857",
+      "name": "Westwood Park",
+      "city": "Asheboro",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-265685650",
+      "name": "Azalea Dog Park",
+      "city": "Asheville",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-1462725045",
+      "name": "Buncombe County Sports Park Dog Park",
+      "city": "Asheville",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-1304096210",
+      "name": "Masters Park",
+      "city": "Asheville",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-609092905",
+      "name": "Murray Hill Park",
+      "city": "Asheville",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-node-357767444",
+      "name": "Recreation Park",
+      "city": "Asheville",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-node-153913728",
+      "name": "Brooklawn Park",
+      "city": "Biltmore Forest",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-node-154401578",
+      "name": "Rosebank Park",
+      "city": "Biltmore Forest",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-relation-7127510",
+      "name": "Veterans Park",
+      "city": "Black Mountain",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-475536407",
+      "name": "Alton Lennon Park",
+      "city": "Boiling Spring Lakes",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-475536385",
+      "name": "Charles Schneiders Park",
+      "city": "Boiling Spring Lakes",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-475536384",
+      "name": "North Lake Park",
+      "city": "Boiling Spring Lakes",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-475536395",
+      "name": "Spring Lake Park",
+      "city": "Boiling Spring Lakes",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-297302549",
+      "name": "Burlington Arboretum at Willowbrook Park",
+      "city": "Burlington",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-33052550",
+      "name": "Cedarock Park",
+      "city": "Burlington",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-276077690",
+      "name": "Great Bend Park at Glencoe",
+      "city": "Burlington",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-479572667",
+      "name": "Joe C. Davidson Park",
+      "city": "Burlington",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-256664108",
+      "name": "Springwood Park",
+      "city": "Burlington",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-38583312",
+      "name": "Carolina Beach Lake Park",
+      "city": "Carolina Beach",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-38583423",
+      "name": "Carolina Beach State Park",
+      "city": "Carolina Beach",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-526019897",
+      "name": "Merritt's Pasture",
+      "city": "Chapel Hill",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-552497950",
+      "name": "Northeast District Park",
+      "city": "Chapel Hill",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-511586256",
+      "name": "Anita Stroud Park",
+      "city": "Charlotte",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-1096422932",
+      "name": "Barton Creek Greenway",
+      "city": "Charlotte",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-511591920",
+      "name": "Briarwood Park",
+      "city": "Charlotte",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-512160218",
+      "name": "Cedarwood Park",
+      "city": "Charlotte",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-511595154",
+      "name": "Eastway Park",
+      "city": "Charlotte",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-511590729",
+      "name": "Howie Acres Park",
+      "city": "Charlotte",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-556388747",
+      "name": "James Boyce Park",
+      "city": "Charlotte",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-564399101",
+      "name": "Kirk Farm Fields",
+      "city": "Charlotte",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-relation-15904681",
+      "name": "Mallard Creek Community Park",
+      "city": "Charlotte",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-relation-15659648",
+      "name": "Mallard Creek Greenway",
+      "city": "Charlotte",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-38619443",
+      "name": "Mason Wallace Park",
+      "city": "Charlotte",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-858762369",
+      "name": "McAlpine Creek Dog Park",
+      "city": "Charlotte",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-relation-8050253",
+      "name": "Newell Park",
+      "city": "Charlotte",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-1181005441",
+      "name": "Ninth Street Dog Park",
+      "city": "Charlotte",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-579952758",
+      "name": "Reedy Creek Park and Nature Preserve",
+      "city": "Charlotte",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-859079267",
+      "name": "The Green at Prosperity Village",
+      "city": "Charlotte",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-563728341",
+      "name": "Tom Hunter Neighborhood Park",
+      "city": "Charlotte",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-511593431",
+      "name": "Unity Park",
+      "city": "Charlotte",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-564184090",
+      "name": "West Charlotte Park",
+      "city": "Charlotte",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-563408651",
+      "name": "Winterfield Neighborhood Park",
+      "city": "Charlotte",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-584756765",
+      "name": "Community Memorial Park",
+      "city": "China Grove",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-1375036967",
+      "name": "Westhaven Park",
+      "city": "China Grove",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-546716631",
+      "name": "East Clayton Dog Park",
+      "city": "Clayton",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-234713102",
+      "name": "Legend Park",
+      "city": "Clayton",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-546715819",
+      "name": "Municipal Park",
+      "city": "Clayton",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-571039764",
+      "name": "Frank Liske Park",
+      "city": "Concord",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-relation-14471343",
+      "name": "W.W. Flowe Park",
+      "city": "Concord",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-relation-8039494",
+      "name": "Conover City Park",
+      "city": "Conover",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-33111671",
+      "name": "Downtown Park",
+      "city": "Conover",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-423412986",
+      "name": "Hines Park",
+      "city": "Conover",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-442833505",
+      "name": "Hunsucker Park",
+      "city": "Conover",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-423218028",
+      "name": "Majestic Park",
+      "city": "Conover",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-442834730",
+      "name": "Rowe Park",
+      "city": "Conover",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-33111638",
+      "name": "Washington Park",
+      "city": "Conover",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-559792215",
+      "name": "Faulkner Square Park",
+      "city": "Davidson",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-762404807",
+      "name": "Forest Park Playground",
+      "city": "Davidson",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-762401624",
+      "name": "South Lawn Park",
+      "city": "Davidson",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-33052064",
+      "name": "Bay-Hargrove Park",
+      "city": "Durham",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "belmont-park-durham",
+      "name": "Belmont Park",
+      "city": "Durham",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "crest-street-park",
+      "name": "Crest Street Park",
+      "city": "Durham",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-28918020",
+      "name": "Duke Park",
+      "city": "Durham",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-67861976",
+      "name": "Durham Central Park",
+      "city": "Durham",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-1287109439",
+      "name": "George Watts Montessori Playground",
+      "city": "Durham",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "indian-trail-park-durham",
+      "name": "Indian Trail Park",
+      "city": "Durham",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "morreene-road-park",
+      "name": "Morreene Road Park",
+      "city": "Durham",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-relation-1517757",
+      "name": "Old Farm Road Park",
+      "city": "Durham",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-33052066",
+      "name": "Old North Durham Park",
+      "city": "Durham",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "oval-drive-park",
+      "name": "Oval Drive Park",
+      "city": "Durham",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-33052359",
+      "name": "Rocky Creek Park",
+      "city": "Durham",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "walltown-park",
+      "name": "Walltown Park",
+      "city": "Durham",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "westover-park-durham",
+      "name": "Westover Park",
+      "city": "Durham",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-260967814",
+      "name": "Beth Schmidt Park",
+      "city": "Elon",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-32920586",
+      "name": "Lawrence Slade Park at Morgan Place",
+      "city": "Elon",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-753737137",
+      "name": "Fairview Park",
+      "city": "Fairview",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-461259627",
+      "name": "Lamon Street Park",
+      "city": "Fayetteville",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-689405943",
+      "name": "Mable C. Smith Park",
+      "city": "Fayetteville",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-620222612",
+      "name": "Massey Hill Park",
+      "city": "Fayetteville",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-27694308",
+      "name": "Riverside Dog Park",
+      "city": "Fayetteville",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-439224183",
+      "name": "Fuquay-Varina Dog Park",
+      "city": "Fuquay-Varina",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-33112030",
+      "name": "Jaycee Park",
+      "city": "Garner",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-447723397",
+      "name": "North Garner Dog Park",
+      "city": "Garner",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-33112139",
+      "name": "South Garner Park",
+      "city": "Garner",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-33279610",
+      "name": "Quail Park",
+      "city": "Goldsboro",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-571375779",
+      "name": "British Woods Park",
+      "city": "Greensboro",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-relation-7836251",
+      "name": "Guilford Courthouse National Military Park",
+      "city": "Greensboro",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-571153853",
+      "name": "Murchie Street Park",
+      "city": "Greensboro",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-570805031",
+      "name": "Oaks West Park",
+      "city": "Greensboro",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-569482827",
+      "name": "Random Woods Park",
+      "city": "Greensboro",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-571159025",
+      "name": "Sheridan Park",
+      "city": "Greensboro",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-571162995",
+      "name": "Three Meadows",
+      "city": "Greensboro",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-321760058",
+      "name": "Elm Street Park",
+      "city": "Greenville",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-269095318",
+      "name": "Evans Park",
+      "city": "Greenville",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-486675745",
+      "name": "Green Springs Park",
+      "city": "Greenville",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-312018865",
+      "name": "Jaycee Park",
+      "city": "Greenville",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-678485239",
+      "name": "Paramore Park",
+      "city": "Greenville",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-node-357799822",
+      "name": "South Greenville Park",
+      "city": "Greenville",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-1091967805",
+      "name": "Thomas Foreman Park",
+      "city": "Greenville",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-910706074",
+      "name": "Brockett Street Park",
+      "city": "High Point",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-33061143",
+      "name": "Five Points Park",
+      "city": "High Point",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-32933471",
+      "name": "Gibson Park",
+      "city": "High Point",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-481893919",
+      "name": "Cates Creek Park",
+      "city": "Hillsborough",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-relation-2679178",
+      "name": "Gold Park",
+      "city": "Hillsborough",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-1347699064",
+      "name": "Hillsborough Heights Tot Lot Park",
+      "city": "Hillsborough",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-relation-18351652",
+      "name": "Historic Occoneechee Speedway Trail",
+      "city": "Hillsborough",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-737061601",
+      "name": "Murray Street Park",
+      "city": "Hillsborough",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-1340583497",
+      "name": "River Park",
+      "city": "Hillsborough",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-241303940",
+      "name": "Turnip Patch Park",
+      "city": "Hillsborough",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-relation-17963059",
+      "name": "Holbrook Park",
+      "city": "Huntersville",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-512415818",
+      "name": "Huntersville Athletic Park",
+      "city": "Huntersville",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-relation-11371823",
+      "name": "McDowell Creek Greenway",
+      "city": "Huntersville",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-1116348463",
+      "name": "Rosedale Dog Park",
+      "city": "Huntersville",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-1072473373",
+      "name": "Rosedale Nature Park",
+      "city": "Huntersville",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-749853096",
+      "name": "Veterans Park",
+      "city": "Huntersville",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-626695352",
+      "name": "Georgetown Park",
+      "city": "Jacksonville",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-relation-8715329",
+      "name": "Riverwalk Park",
+      "city": "Jacksonville",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-33173423",
+      "name": "Bakers Creek Greenway",
+      "city": "Kannapolis",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-33173089",
+      "name": "Bakers Creek Park",
+      "city": "Kannapolis",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-580015300",
+      "name": "Safrit Park",
+      "city": "Kannapolis",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-469285972",
+      "name": "Veterans Park",
+      "city": "Kannapolis",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-579071964",
+      "name": "Village Park",
+      "city": "Kannapolis",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-238632136",
+      "name": "Knightdale Station Park",
+      "city": "Knightdale",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-39006411",
+      "name": "Westgate Nature Park",
+      "city": "Leland",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-1082353590",
+      "name": "Ezell Park",
+      "city": "Mint Hill",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-48923889",
+      "name": "Belk Tonawanda Park",
+      "city": "Monroe",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-38619614",
+      "name": "Creft Park",
+      "city": "Monroe",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-596660350",
+      "name": "Don Griffin Park",
+      "city": "Monroe",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "carteret-morehead-city-rotary-park",
+      "name": "Rotary Park",
+      "city": "Morehead City",
+      "origin": "established",
+      "publishStatus": "enriched",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-38619632",
+      "name": "D.E. Henderson Park",
+      "city": "New Bern",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-468956084",
+      "name": "Glenburnie Park",
+      "city": "New Bern",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-38619534",
+      "name": "Kafer Park",
+      "city": "New Bern",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-1121003103",
+      "name": "Martin Marietta Park",
+      "city": "New Bern",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-38619366",
+      "name": "Pierce Park",
+      "city": "New Bern",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-38619533",
+      "name": "Seth West Parrott Park",
+      "city": "New Bern",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-424216819",
+      "name": "Union Point Park",
+      "city": "New Bern",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-446098436",
+      "name": "East Park",
+      "city": "Newton",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-718977938",
+      "name": "Herbert M. Yount Memorial Park",
+      "city": "Newton",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-427844295",
+      "name": "Northside/Broyhill Park",
+      "city": "Newton",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-777519515",
+      "name": "Canine Commons Dog Park",
+      "city": "Pineville",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-33106417",
+      "name": "Apollo Heights Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-33107646",
+      "name": "Caraleigh Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-33106240",
+      "name": "Davie Street Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-33108263",
+      "name": "Eliza Pool Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-33100229",
+      "name": "Glen Eden Pilot Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-580676884",
+      "name": "Marshall Memorial Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-754405682",
+      "name": "Mary Belle Pate Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-183100886",
+      "name": "North Hills Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-33105886",
+      "name": "Oakwood Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-33106342",
+      "name": "Quarry Street Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-33104485",
+      "name": "Ridge Road Pool",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-33108906",
+      "name": "Southgate Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-33099947",
+      "name": "Varnell Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-33106426",
+      "name": "Worthdale Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-33068865",
+      "name": "Branch Street Park",
+      "city": "Rocky Mount",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-1093175146",
+      "name": "Buck Leonard Park",
+      "city": "Rocky Mount",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-212162580",
+      "name": "Dr. Martin Luther King Jr. Park",
+      "city": "Rocky Mount",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-216263360",
+      "name": "Eastern Avenue Park",
+      "city": "Rocky Mount",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-216262762",
+      "name": "Holly Street Park",
+      "city": "Rocky Mount",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-216264269",
+      "name": "Kite Park",
+      "city": "Rocky Mount",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-216264103",
+      "name": "Marigold Park",
+      "city": "Rocky Mount",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-216263141",
+      "name": "Meadowbrook Park",
+      "city": "Rocky Mount",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-33068866",
+      "name": "South Rocky Mount Community Center and Park",
+      "city": "Rocky Mount",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-node-357796867",
+      "name": "Ellis Park",
+      "city": "Salisbury",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-469810117",
+      "name": "Salisbury Community Park",
+      "city": "Salisbury",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-33112461",
+      "name": "Sloan Park",
+      "city": "Salisbury",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-33177710",
+      "name": "Kiwanis Children's Parkplace",
+      "city": "Sanford",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-33177795",
+      "name": "O.T. Sloan Park",
+      "city": "Sanford",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-33177487",
+      "name": "San-Lee Park",
+      "city": "Sanford",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-589477870",
+      "name": "Caldwell Park",
+      "city": "Statesville",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-33104372",
+      "name": "Martin Luther King Jr Park",
+      "city": "Statesville",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-582011781",
+      "name": "Pecan Park",
+      "city": "Statesville",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-555773415",
+      "name": "Statesville Park & Soccer Complex",
+      "city": "Statesville",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-825237743",
+      "name": "Marvin Efird Park",
+      "city": "Waxhaw",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-570540378",
+      "name": "Guilford Mackintosh Park & Marina",
+      "city": "Whitsett",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-38583578",
+      "name": "Arrowhead Park",
+      "city": "Wilmington",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-468967035",
+      "name": "James E. L. Wade Park",
+      "city": "Wilmington",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-1465219053",
+      "name": "Long Leaf Dog Park",
+      "city": "Wilmington",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-469274192",
+      "name": "Trails End Park",
+      "city": "Wilmington",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-583548697",
+      "name": "US Colored Troops (USCT) Park at Cameron Art Museum",
+      "city": "Wilmington",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-33109446",
+      "name": "Belle Meade Park",
+      "city": "Wilson",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-542263284",
+      "name": "Five Points Park",
+      "city": "Wilson",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-633088414",
+      "name": "Greater Wilson Rotary Park",
+      "city": "Wilson",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-33109545",
+      "name": "Matthis Park",
+      "city": "Wilson",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-633088804",
+      "name": "Merrimont Park",
+      "city": "Wilson",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-33111377",
+      "name": "Recreation Park Pool",
+      "city": "Wilson",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-33109515",
+      "name": "Toisnot Park",
+      "city": "Wilson",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-1236678945",
+      "name": "Warren Street Park",
+      "city": "Wilson",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-280337582",
+      "name": "Civitan Park",
+      "city": "Winston-Salem",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-280413528",
+      "name": "Forest Park",
+      "city": "Winston-Salem",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-280478822",
+      "name": "Happy Hill Park",
+      "city": "Winston-Salem",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-32920584",
+      "name": "Reynolds Park",
+      "city": "Winston-Salem",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-734605506",
+      "name": "Sedge Garden Park",
+      "city": "Winston-Salem",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-32925400",
+      "name": "Sprague Park",
+      "city": "Winston-Salem",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-32932956",
+      "name": "Union Cross Park",
+      "city": "Winston-Salem",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-1276361885",
+      "name": "Weston Park",
+      "city": "Winston-Salem",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 1,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 71,
+      "needs": [
+        "2-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-345215812",
+      "name": "Apex Nature Park Dog Park",
+      "city": "Apex",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 2,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 80,
+      "needs": [
+        "1-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-958975539",
+      "name": "Ann Patton Joyce Park",
+      "city": "Asheville",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 2,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 80,
+      "needs": [
+        "1-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-947500018",
+      "name": "Ray L. Kisiah Park",
+      "city": "Asheville",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 2,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 80,
+      "needs": [
+        "1-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-38583372",
+      "name": "McDonald Park",
+      "city": "Carolina Beach",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 2,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 80,
+      "needs": [
+        "1-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-564392659",
+      "name": "Allen Hills Park",
+      "city": "Charlotte",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 2,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 80,
+      "needs": [
+        "1-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-511588175",
+      "name": "Druid Hills Park",
+      "city": "Charlotte",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 2,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 80,
+      "needs": [
+        "1-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-511589155",
+      "name": "Tryon Hills Park",
+      "city": "Charlotte",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 2,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 80,
+      "needs": [
+        "1-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-964359981",
+      "name": "Hector H. Henry II Greenway - Moss Creek Segment",
+      "city": "Concord",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 2,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 80,
+      "needs": [
+        "1-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-482731534",
+      "name": "Haymount Park at Woodrow",
+      "city": "Fayetteville",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 2,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 80,
+      "needs": [
+        "1-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-1481461246",
+      "name": "Brentwood Park",
+      "city": "High Point",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 2,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 80,
+      "needs": [
+        "1-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-910703837",
+      "name": "Burnett Park",
+      "city": "High Point",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 2,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 80,
+      "needs": [
+        "1-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-33060898",
+      "name": "Eastwood Park",
+      "city": "High Point",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 2,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 80,
+      "needs": [
+        "1-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-814026680",
+      "name": "University Park",
+      "city": "High Point",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 2,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 80,
+      "needs": [
+        "1-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-relation-20444029",
+      "name": "Washington Street Park",
+      "city": "High Point",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 2,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 80,
+      "needs": [
+        "1-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "carteret-morehead-city-shevans-park",
+      "name": "Shevans Park",
+      "city": "Morehead City",
+      "origin": "established",
+      "publishStatus": "enriched",
+      "imageCount": 2,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 80,
+      "needs": [
+        "1-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-33177516",
+      "name": "Kiwanis Family Park",
+      "city": "Sanford",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 2,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 80,
+      "needs": [
+        "1-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-relation-17036787",
+      "name": "Wake Forest Reservoir",
+      "city": "Wake Forest",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 2,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 80,
+      "needs": [
+        "1-more-images",
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-609079084",
+      "name": "Amboy Road River Park",
+      "city": "Asheville",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 88,
+      "needs": [
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-609092904",
+      "name": "Jean Webb Park",
+      "city": "Asheville",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 88,
+      "needs": [
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-609092897",
+      "name": "West Asheville Park",
+      "city": "Asheville",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 88,
+      "needs": [
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-134924486",
+      "name": "Mike Chappell Park",
+      "city": "Carolina Beach",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 88,
+      "needs": [
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-33109495",
+      "name": "MacDonald Woods Park",
+      "city": "Cary",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 88,
+      "needs": [
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-132091440",
+      "name": "Middle Creek School/Park",
+      "city": "Cary",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 5,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 88,
+      "needs": [
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-633082141",
+      "name": "Clayton Community Park",
+      "city": "Clayton",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 88,
+      "needs": [
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-33051887",
+      "name": "Trinity Park",
+      "city": "Durham",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 88,
+      "needs": [
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-1311662678",
+      "name": "Berkeley Park",
+      "city": "Goldsboro",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 88,
+      "needs": [
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-417264007",
+      "name": "Fairview Park",
+      "city": "Goldsboro",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 4,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 88,
+      "needs": [
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-145477454",
+      "name": "Herman Park",
+      "city": "Goldsboro",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 88,
+      "needs": [
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-1311670057",
+      "name": "Mina Weil Park",
+      "city": "Goldsboro",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 88,
+      "needs": [
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-1311665854",
+      "name": "North End Park",
+      "city": "Goldsboro",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 88,
+      "needs": [
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-1311672308",
+      "name": "South End Park",
+      "city": "Goldsboro",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 88,
+      "needs": [
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-relation-18298511",
+      "name": "Stoney Creek Park",
+      "city": "Goldsboro",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 88,
+      "needs": [
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-relation-9324277",
+      "name": "Haw River State Park",
+      "city": "Greensboro",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 88,
+      "needs": [
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-473158259",
+      "name": "Pharr Mill Park",
+      "city": "Harrisburg",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 88,
+      "needs": [
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-32933397",
+      "name": "Deep River Recreation Center and Park",
+      "city": "High Point",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 88,
+      "needs": [
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-911615778",
+      "name": "High Point Museum Historical Park",
+      "city": "High Point",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 4,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 88,
+      "needs": [
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-33049958",
+      "name": "Oak Hollow Festival Park",
+      "city": "High Point",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 88,
+      "needs": [
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-910704789",
+      "name": "Washington Terrace Park",
+      "city": "High Point",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 88,
+      "needs": [
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-relation-2918307",
+      "name": "Eno River State Park",
+      "city": "Hillsborough",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 88,
+      "needs": [
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-32920592",
+      "name": "Fairview Park",
+      "city": "Hillsborough",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 5,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 88,
+      "needs": [
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-31984551",
+      "name": "Jones Park",
+      "city": "Holly Springs",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 88,
+      "needs": [
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-444593313",
+      "name": "North Main Athletic Complex",
+      "city": "Holly Springs",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 88,
+      "needs": [
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-1378959935",
+      "name": "Sugg Farm Dog Park",
+      "city": "Holly Springs",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 88,
+      "needs": [
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-763496322",
+      "name": "Purser-Hulsey Park",
+      "city": "Matthews",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 88,
+      "needs": [
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-469113966",
+      "name": "Mint Hill Veterans Memorial Park",
+      "city": "Mint Hill",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 88,
+      "needs": [
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-33106145",
+      "name": "John Winters Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 88,
+      "needs": [
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "basic-osm-way-33060929",
+      "name": "Ailey Young Park",
+      "city": "Wake Forest",
+      "origin": "established",
+      "publishStatus": "enriched-basic",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 6,
+      "score": 88,
+      "needs": [
+        "4-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "carteret-atlantic-beach-atlantic-beach-town-park",
+      "name": "Atlantic Beach Town Park",
+      "city": "Atlantic Beach",
+      "origin": "established",
+      "publishStatus": "enriched",
+      "imageCount": 5,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 7,
+      "score": 91,
+      "needs": [
+        "3-more-sourced-answers"
+      ]
+    },
+    {
+      "id": "launch-nc-cherokee-great-smoky-mountains-national-park",
+      "name": "Great Smoky Mountains National Park",
+      "city": "Cherokee",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 2,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 92,
+      "needs": [
+        "1-more-images"
+      ]
+    },
+    {
+      "id": "launch-nc-apex-apex-community-park",
+      "name": "Apex Community Park",
+      "city": "Apex",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-apex-apex-nature-park-and-seymour-athletic-fields",
+      "name": "Apex Nature Park and Seymour Athletic Fields",
+      "city": "Apex",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 8,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-apex-kelly-road-park",
+      "name": "Kelly Road Park",
+      "city": "Apex",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-apex-pleasant-park",
+      "name": "Pleasant Park",
+      "city": "Apex",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-asheville-blue-ridge-parkway",
+      "name": "Blue Ridge Parkway",
+      "city": "Asheville",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 15,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-asheville-carrier-park",
+      "name": "Carrier Park",
+      "city": "Asheville",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-asheville-french-broad-river-park",
+      "name": "French Broad River Park",
+      "city": "Asheville",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-asheville-pack-square-park",
+      "name": "Pack Square Park",
+      "city": "Asheville",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-asheville-richmond-hill-park",
+      "name": "Richmond Hill Park",
+      "city": "Asheville",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-asheville-western-north-carolina-nature-center",
+      "name": "Western North Carolina Nature Center",
+      "city": "Asheville",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "carteret-atlantic-beach-fort-macon-beach-access",
+      "name": "Fort Macon Bathhouse Beach Access",
+      "city": "Atlantic Beach",
+      "origin": "established",
+      "publishStatus": "enriched",
+      "imageCount": 5,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 10,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-burlington-arboretum-at-willowbrook-park",
+      "name": "Arboretum at Willowbrook Park",
+      "city": "Burlington",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-burlington-burlington-city-park",
+      "name": "Burlington City Park",
+      "city": "Burlington",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-burlington-lake-cammack-park-and-marina",
+      "name": "Lake Cammack Park and Marina",
+      "city": "Burlington",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-burlington-lake-mackintosh-park-and-marina",
+      "name": "Lake Mackintosh Park and Marina",
+      "city": "Burlington",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-cary-black-creek-greenway",
+      "name": "Black Creek Greenway",
+      "city": "Cary",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "downtown-cary-park",
+      "name": "Downtown Cary Park",
+      "city": "Cary",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 16,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-cary-fred-g-bond-metro-park",
+      "name": "Fred G. Bond Metro Park",
+      "city": "Cary",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-cary-hemlock-bluffs-nature-preserve",
+      "name": "Hemlock Bluffs Nature Preserve",
+      "city": "Cary",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-cary-jack-smith-park",
+      "name": "Jack Smith Park",
+      "city": "Cary",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-cary-marla-dorrel-park",
+      "name": "Marla Dorrel Park",
+      "city": "Cary",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-chapel-hill-bolin-creek-trail",
+      "name": "Bolin Creek Trail",
+      "city": "Chapel Hill",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-chapel-hill-cedar-falls-park",
+      "name": "Cedar Falls Park",
+      "city": "Chapel Hill",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-chapel-hill-homestead-park",
+      "name": "Homestead Park",
+      "city": "Chapel Hill",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-chapel-hill-southern-community-park",
+      "name": "Southern Community Park",
+      "city": "Chapel Hill",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-charlotte-freedom-park",
+      "name": "Freedom Park",
+      "city": "Charlotte",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-charlotte-little-sugar-creek-greenway",
+      "name": "Little Sugar Creek Greenway",
+      "city": "Charlotte",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 10,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-charlotte-mcalpine-creek-community-park",
+      "name": "McAlpine Creek Community Park",
+      "city": "Charlotte",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 10,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-charlotte-park-road-park",
+      "name": "Park Road Park",
+      "city": "Charlotte",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 10,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-charlotte-reedy-creek-park-and-nature-center",
+      "name": "Reedy Creek Park and Nature Center",
+      "city": "Charlotte",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-charlotte-romare-bearden-park",
+      "name": "Romare Bearden Park",
+      "city": "Charlotte",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-clemmons-tanglewood-park",
+      "name": "Tanglewood Park",
+      "city": "Clemmons",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-concord-brown-mill-mountain-bike-trail-park",
+      "name": "Brown Mill Mountain Bike Trail Park",
+      "city": "Concord",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-concord-james-l-dorton-park",
+      "name": "James L. Dorton Park",
+      "city": "Concord",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-concord-lake-fisher",
+      "name": "Lake Fisher",
+      "city": "Concord",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-concord-les-myers-park",
+      "name": "Les Myers Park",
+      "city": "Concord",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-concord-mceachern-greenway",
+      "name": "McEachern Greenway",
+      "city": "Concord",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-concord-weddington-road-bark-park",
+      "name": "Weddington Road Bark Park",
+      "city": "Concord",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-danbury-hanging-rock-state-park",
+      "name": "Hanging Rock State Park",
+      "city": "Danbury",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 14,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-durham-american-tobacco-trail",
+      "name": "American Tobacco Trail",
+      "city": "Durham",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-durham-forest-hills-park",
+      "name": "Forest Hills Park",
+      "city": "Durham",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-durham-lake-michie-park-and-marina",
+      "name": "Lake Michie Park and Marina",
+      "city": "Durham",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-durham-leigh-farm-park",
+      "name": "Leigh Farm Park",
+      "city": "Durham",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-durham-rock-quarry-park",
+      "name": "Rock Quarry Park",
+      "city": "Durham",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-durham-west-point-on-the-eno",
+      "name": "West Point on the Eno",
+      "city": "Durham",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-fayetteville-cape-fear-river-trail",
+      "name": "Cape Fear River Trail",
+      "city": "Fayetteville",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-fayetteville-festival-park",
+      "name": "Festival Park",
+      "city": "Fayetteville",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-fayetteville-j-bayard-clark-park-and-nature-center",
+      "name": "J. Bayard Clark Park and Nature Center",
+      "city": "Fayetteville",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-fayetteville-lake-rim-park",
+      "name": "Lake Rim Park",
+      "city": "Fayetteville",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-fayetteville-mazarick-park",
+      "name": "Mazarick Park",
+      "city": "Fayetteville",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-gastonia-avon-and-catawba-creek-greenway",
+      "name": "Avon and Catawba Creek Greenway",
+      "city": "Gastonia",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-gastonia-lineberger-park",
+      "name": "Lineberger Park",
+      "city": "Gastonia",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-gastonia-martha-rivers-park",
+      "name": "Martha Rivers Park",
+      "city": "Gastonia",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-gastonia-rankin-lake-park",
+      "name": "Rankin Lake Park",
+      "city": "Gastonia",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-greensboro-atlantic-and-yadkin-greenway",
+      "name": "Atlantic and Yadkin Greenway",
+      "city": "Greensboro",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-greensboro-battleground-parks-district",
+      "name": "Battleground Parks District",
+      "city": "Greensboro",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-greensboro-bog-garden-at-benjamin-park",
+      "name": "Bog Garden at Benjamin Park",
+      "city": "Greensboro",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-greensboro-country-park",
+      "name": "Country Park",
+      "city": "Greensboro",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-greensboro-greensboro-arboretum",
+      "name": "Greensboro Arboretum",
+      "city": "Greensboro",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-greensboro-greensboro-downtown-greenway",
+      "name": "Greensboro Downtown Greenway",
+      "city": "Greensboro",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-greensboro-keeley-park",
+      "name": "Keeley Park",
+      "city": "Greensboro",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-greensboro-lebauer-park",
+      "name": "LeBauer Park",
+      "city": "Greensboro",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-greensboro-tanger-family-bicentennial-garden",
+      "name": "Tanger Family Bicentennial Garden",
+      "city": "Greensboro",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-greenville-greenville-town-common",
+      "name": "Greenville Town Common",
+      "city": "Greenville",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-greenville-river-park-north",
+      "name": "River Park North",
+      "city": "Greenville",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-greenville-south-tar-river-greenway",
+      "name": "South Tar River Greenway",
+      "city": "Greenville",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-greenville-wildwood-park",
+      "name": "Wildwood Park",
+      "city": "Greenville",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-high-point-bicentennial-greenway",
+      "name": "Bicentennial Greenway",
+      "city": "High Point",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-high-point-high-point-city-lake-park",
+      "name": "High Point City Lake Park",
+      "city": "High Point",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-high-point-high-point-greenway",
+      "name": "High Point Greenway",
+      "city": "High Point",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-high-point-oak-hollow-park",
+      "name": "Oak Hollow Park",
+      "city": "High Point",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-high-point-piedmont-environmental-center",
+      "name": "Piedmont Environmental Center",
+      "city": "High Point",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-huntersville-latta-nature-preserve",
+      "name": "Latta Nature Preserve",
+      "city": "Huntersville",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-huntersville-north-mecklenburg-park",
+      "name": "North Mecklenburg Park",
+      "city": "Huntersville",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-huntersville-torrence-creek-greenway",
+      "name": "Torrence Creek Greenway",
+      "city": "Huntersville",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-jacksonville-jacksonville-commons-recreation-complex",
+      "name": "Jacksonville Commons Recreation Complex",
+      "city": "Jacksonville",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-jacksonville-northeast-creek-park",
+      "name": "Northeast Creek Park",
+      "city": "Jacksonville",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-jacksonville-riverwalk-crossing-park",
+      "name": "Riverwalk Crossing Park",
+      "city": "Jacksonville",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-jacksonville-sturgeon-city-park",
+      "name": "Sturgeon City Park",
+      "city": "Jacksonville",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-jacksonville-wilson-bay-park",
+      "name": "Wilson Bay Park",
+      "city": "Jacksonville",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-mooresville-cornelius-road-park",
+      "name": "Cornelius Road Park",
+      "city": "Mooresville",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-mooresville-liberty-park",
+      "name": "Liberty Park",
+      "city": "Mooresville",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-mooresville-mazeppa-park",
+      "name": "Mazeppa Park",
+      "city": "Mooresville",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-nags-head-jockey-s-ridge-state-park",
+      "name": "Jockey's Ridge State Park",
+      "city": "Nags Head",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 14,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "anderson-point-park",
+      "name": "Anderson Point Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 10,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "annie-louise-wilkerson-nature-preserve",
+      "name": "Annie Louise Wilkerson, MD Nature Preserve Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "baileywick-park",
+      "name": "Baileywick Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "baileywick-park-dog-park",
+      "name": "Baileywick Park Dog Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 14,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "barwell-road-community-center",
+      "name": "Barwell Road Community Center",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 10,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "biltmore-hills-park",
+      "name": "Biltmore Hills Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 13,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "brier-creek-park",
+      "name": "Brier Creek Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "buffaloe-road-athletic-park",
+      "name": "Buffaloe Road Athletic Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 14,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "buffaloe-road-dog-park",
+      "name": "Buffaloe Road Dog Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 14,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "capital-area-greenway",
+      "name": "Capital Area Greenway System",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 13,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "carolina-pines-dog-park",
+      "name": "Carolina Pines Dog Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 15,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "carolina-pines-park",
+      "name": "Carolina Pines Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 13,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "crabtree-creek-trail",
+      "name": "Crabtree Creek Greenway Trail",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 13,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "dix-park",
+      "name": "Dix Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 26,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "durant-nature-preserve",
+      "name": "Durant Nature Preserve",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 13,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "forest-ridge-park",
+      "name": "Forest Ridge Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "fred-fletcher-park",
+      "name": "Fred Fletcher Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 10,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "green-road-park",
+      "name": "Green Road Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 10,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "horseshoe-farm-nature-preserve",
+      "name": "Horseshoe Farm Nature Preserve",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 14,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "house-creek-trail",
+      "name": "House Creek Greenway Trail",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 13,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "jaycee-dog-run",
+      "name": "Jaycee Dog Run",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 14,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "jaycee-park",
+      "name": "Jaycee Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 10,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "john-chavis-memorial-park",
+      "name": "John Chavis Memorial Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 10,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "john-p-top-greene-cultural-center",
+      "name": "John P. \"Top\" Greene African American Cultural Center",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 14,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "kiwanis-park",
+      "name": "Kiwanis Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "kiwanis-park-dog-run",
+      "name": "Kiwanis Park Dog Run",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 14,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "lake-johnson-loop-trails",
+      "name": "Lake Johnson Loop Trails",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 14,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "lake-johnson-park",
+      "name": "Lake Johnson Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 10,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "lake-lynn-loop-trail",
+      "name": "Lake Lynn Loop Trail",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 14,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "lake-lynn-park",
+      "name": "Lake Lynn Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 10,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "lake-wheeler-park",
+      "name": "Lake Wheeler Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 10,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "lassiter-mill-park",
+      "name": "Lassiter Mill Historical Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 10,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "laurel-hills-park",
+      "name": "Laurel Hills Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "leesville-community-park",
+      "name": "Leesville Community Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 11,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "lions-park",
+      "name": "Lions Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 14,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "marbles-kids-museum",
+      "name": "Marbles Kids Museum",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 15,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "marsh-creek-park",
+      "name": "Marsh Creek Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 14,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "method-community-park",
+      "name": "Method Community Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 15,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "millbrook-exchange-dog-park",
+      "name": "Millbrook Exchange Dog Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 15,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "millbrook-exchange-park",
+      "name": "Millbrook Exchange Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 16,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "moore-square",
+      "name": "Moore Square",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 15,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "mordecai-historic-park",
+      "name": "Mordecai Historic Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 14,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "ncma-museum-park",
+      "name": "NCMA Museum Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 11,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "neuse-river-trail",
+      "name": "Neuse River Greenway Trail",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 14,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "north-carolina-freedom-park",
+      "name": "North Carolina Freedom Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 10,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "north-carolina-museum-of-history",
+      "name": "North Carolina Museum of History",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 13,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "north-carolina-museum-of-natural-sciences",
+      "name": "North Carolina Museum of Natural Sciences",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 15,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "oakwood-dog-park",
+      "name": "Oakwood Dog Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 14,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "optimist-park",
+      "name": "Optimist Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 14,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "pender-street-park",
+      "name": "Pender Street Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 13,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "pope-house-museum",
+      "name": "Pope House Museum",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "pullen-park",
+      "name": "Pullen Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 20,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "raleigh-rose-garden",
+      "name": "Raleigh Rose Garden",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 13,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "raleighs-smallest-park",
+      "name": "Raleigh's Smallest Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 10,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "reedy-creek-trail",
+      "name": "Reedy Creek Trail",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 13,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "roanoke-park",
+      "name": "Roanoke Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 10,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "roberts-park",
+      "name": "Roberts Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 14,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "roberts-park-dog-run",
+      "name": "Roberts Park Dog Run",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 14,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "sanderford-road-park",
+      "name": "Sanderford Road Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 13,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "shelley-lake-loop-trail",
+      "name": "Shelley Lake Loop Trail",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 14,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "shelley-lake-park",
+      "name": "Shelley Lake Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 10,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "tarboro-road-park",
+      "name": "Tarboro Road Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 13,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "walnut-creek-athletic-complex",
+      "name": "Walnut Creek Athletic Complex",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 13,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "walnut-creek-trail",
+      "name": "Walnut Creek Greenway Trail",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 13,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "walnut-creek-wetland-park",
+      "name": "Walnut Creek Wetland Park",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 14,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-raleigh-william-b-umstead-state-park",
+      "name": "William B. Umstead State Park",
+      "city": "Raleigh",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 14,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "wral-azalea-gardens",
+      "name": "WRAL Azalea Gardens",
+      "city": "Raleigh",
+      "origin": "established",
+      "publishStatus": "established",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 10,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-wake-forest-e-carroll-joyner-park",
+      "name": "E. Carroll Joyner Park",
+      "city": "Wake Forest",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-wake-forest-holding-park",
+      "name": "Holding Park",
+      "city": "Wake Forest",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-wake-forest-j-b-flaherty-park",
+      "name": "J.B. Flaherty Park",
+      "city": "Wake Forest",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-wake-forest-smith-creek-greenway",
+      "name": "Smith Creek Greenway",
+      "city": "Wake Forest",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-wilmington-empie-park",
+      "name": "Empie Park",
+      "city": "Wilmington",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-wilmington-gary-shell-cross-city-trail",
+      "name": "Gary Shell Cross-City Trail",
+      "city": "Wilmington",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-wilmington-greenfield-park",
+      "name": "Greenfield Park",
+      "city": "Wilmington",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-wilmington-halyburton-park",
+      "name": "Halyburton Park",
+      "city": "Wilmington",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-wilmington-long-leaf-park",
+      "name": "Long Leaf Park",
+      "city": "Wilmington",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-wilmington-wilmington-riverwalk",
+      "name": "Wilmington Riverwalk",
+      "city": "Wilmington",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-winston-salem-hanes-park",
+      "name": "Hanes Park",
+      "city": "Winston-Salem",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-winston-salem-muddy-creek-greenway",
+      "name": "Muddy Creek Greenway",
+      "city": "Winston-Salem",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-winston-salem-salem-creek-greenway",
+      "name": "Salem Creek Greenway",
+      "city": "Winston-Salem",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-winston-salem-salem-lake-park",
+      "name": "Salem Lake Park",
+      "city": "Winston-Salem",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-winston-salem-the-quarry-at-grant-park",
+      "name": "The Quarry at Grant Park",
+      "city": "Winston-Salem",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-winston-salem-washington-park",
+      "name": "Washington Park",
+      "city": "Winston-Salem",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    },
+    {
+      "id": "launch-nc-winston-salem-winston-lake-park",
+      "name": "Winston Lake Park",
+      "city": "Winston-Salem",
+      "origin": "launch",
+      "publishStatus": "enriched",
+      "imageCount": 3,
+      "hasHero": true,
+      "hasHours": true,
+      "sourcedAnswerCount": 12,
+      "score": 100,
+      "needs": []
+    }
+  ]
+}

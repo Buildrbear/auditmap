@@ -1,0 +1,37 @@
+{
+  "campaign": "Greensboro public-park research completion",
+  "researchedAt": "2026-08-20",
+  "source": "Openverse API",
+  "licenseFilter": [
+    "by",
+    "by-sa",
+    "cc0",
+    "pdm"
+  ],
+  "places": {
+    "research-nc-greensboro-jimmie-i-barber-park": {
+      "name": "Jimmie I. Barber Park",
+      "queries": [
+        "Jimmie I. Barber Park Greensboro North Carolina",
+        "Barber Park Greensboro North Carolina",
+        "Barber Park Greensboro sprayground playground",
+        "Barber Park Greensboro amphitheater disc golf"
+      ],
+      "candidates": [],
+      "reusableCandidateCount": 0,
+      "reviewedCandidateCount": 0
+    },
+    "research-nc-greensboro-oka-t-hester-park": {
+      "name": "Oka T. Hester Park",
+      "queries": [
+        "Oka T. Hester Park Greensboro North Carolina",
+        "Hester Park Greensboro North Carolina",
+        "Hester Park Greensboro lake fishing pier",
+        "Hester Park Greensboro playground tennis trail"
+      ],
+      "candidates": [],
+      "reusableCandidateCount": 0,
+      "reviewedCandidateCount": 0
+    }
+  }
+}

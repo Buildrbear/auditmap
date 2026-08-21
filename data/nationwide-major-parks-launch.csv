@@ -1,0 +1,573 @@
+region,state,city,park,launch_tier,likely_subsites,review_status
+Northeast,ME,Portland,Eastern Promenade,anchor,yes,candidate
+Northeast,ME,Portland,Deering Oaks Park,supporting,yes,candidate
+Northeast,NH,Manchester,Livingston Park,anchor,yes,candidate
+Northeast,VT,Burlington,Waterfront Park,anchor,yes,candidate
+Northeast,VT,Burlington,Oakledge Park,supporting,yes,candidate
+Northeast,MA,Boston,Boston Common,anchor,yes,ready
+Northeast,MA,Boston,Public Garden,anchor,yes,ready
+Northeast,MA,Boston,Franklin Park,anchor,yes,ready
+Northeast,MA,Boston,Charles River Esplanade,anchor,yes,ready
+Northeast,MA,Boston,Arnold Arboretum,anchor,yes,ready
+Northeast,MA,Boston,Castle Island,anchor,yes,ready
+Northeast,MA,Boston,Rose Fitzgerald Kennedy Greenway,anchor,yes,ready
+Northeast,MA,Boston,Jamaica Pond,anchor,yes,ready
+Northeast,RI,Providence,Roger Williams Park,anchor,yes,candidate
+Northeast,RI,Providence,India Point Park,supporting,yes,candidate
+Northeast,CT,Hartford,Bushnell Park,anchor,yes,candidate
+Northeast,CT,Hartford,Elizabeth Park,supporting,yes,candidate
+Northeast,CT,New Haven,East Rock Park,anchor,yes,candidate
+Northeast,CT,New Haven,Lighthouse Point Park,supporting,yes,candidate
+Northeast,NY,New York City,Central Park,anchor,yes,candidate
+Northeast,NY,New York City,Prospect Park,supporting,yes,candidate
+Northeast,NY,New York City,Flushing Meadows Corona Park,supporting,yes,candidate
+Northeast,NY,New York City,The High Line,supporting,yes,candidate
+Northeast,NY,New York City,Brooklyn Bridge Park,anchor,yes,candidate
+Northeast,NY,New York City,Hudson River Park,anchor,yes,candidate
+Northeast,NY,New York City,The Battery,supporting,yes,candidate
+Northeast,NY,New York City,Bryant Park,supporting,yes,candidate
+Northeast,NY,New York City,Governors Island,anchor,yes,candidate
+Northeast,NY,New York City,Riverside Park,anchor,yes,candidate
+Northeast,NY,Buffalo,Delaware Park,anchor,yes,candidate
+Northeast,NY,Buffalo,Outer Harbor and Lakeside Complex,supporting,yes,candidate
+Northeast,NY,Rochester,Highland Park,anchor,yes,candidate
+Northeast,NY,Rochester,Genesee Valley Park,supporting,yes,candidate
+Northeast,NY,Albany,Washington Park,anchor,yes,candidate
+Northeast,NY,Albany,Corning Preserve,supporting,yes,candidate
+Northeast,NJ,Newark,Branch Brook Park,anchor,yes,candidate
+Northeast,NJ,Newark,Weequahic Park,supporting,yes,candidate
+Northeast,NJ,Jersey City,Liberty State Park,anchor,yes,candidate
+Northeast,NJ,Jersey City,Lincoln Park,supporting,yes,candidate
+Northeast,PA,Philadelphia,Fairmount Park,anchor,yes,candidate
+Northeast,PA,Philadelphia,Wissahickon Valley Park,anchor,yes,candidate
+Northeast,PA,Philadelphia,Dilworth Park,anchor,yes,candidate
+Northeast,PA,Philadelphia,FDR Park,anchor,yes,candidate
+Northeast,PA,Philadelphia,Rittenhouse Square,anchor,yes,candidate
+Northeast,PA,Philadelphia,Franklin Square,anchor,yes,candidate
+Northeast,PA,Philadelphia,Schuylkill Banks,anchor,yes,candidate
+Northeast,PA,Philadelphia,Spruce Street Harbor Park,anchor,yes,candidate
+Northeast,PA,Philadelphia,Independence National Historical Park,anchor,yes,candidate
+Northeast,PA,Pittsburgh,Schenley Park,anchor,yes,super-enriched
+Northeast,PA,Pittsburgh,Frick Park,anchor,yes,super-enriched
+Northeast,PA,Pittsburgh,Point State Park,anchor,yes,super-enriched
+Northeast,PA,Pittsburgh,Highland Park,anchor,yes,super-enriched
+Northeast,PA,Pittsburgh,Riverview Park,anchor,yes,super-enriched
+Northeast,PA,Pittsburgh,Emerald View Park,anchor,yes,super-enriched
+Northeast,PA,Pittsburgh,Mellon Park,anchor,yes,super-enriched
+Northeast,PA,Pittsburgh,North Shore Riverfront Park,anchor,yes,super-enriched
+Northeast,DE,Wilmington,Brandywine Park,anchor,yes,candidate
+Northeast,DE,Wilmington,Rockford Park,supporting,yes,candidate
+Mid-Atlantic,MD,Baltimore,Druid Hill Park,anchor,yes,super-enriched
+Mid-Atlantic,MD,Baltimore,Patterson Park,anchor,yes,super-enriched
+Mid-Atlantic,MD,Baltimore,Federal Hill Park,anchor,yes,super-enriched
+Mid-Atlantic,MD,Baltimore,Fort McHenry National Monument and Historic Shrine,anchor,yes,super-enriched
+Mid-Atlantic,MD,Baltimore,Cylburn Arboretum,anchor,yes,super-enriched
+Mid-Atlantic,MD,Baltimore,Gwynns Falls Leakin Park,anchor,yes,super-enriched
+Mid-Atlantic,MD,Baltimore,Baltimore Waterfront Promenade,anchor,yes,super-enriched
+Mid-Atlantic,MD,Baltimore,Lake Roland Park,anchor,yes,super-enriched
+Mid-Atlantic,MD,Baltimore,Carroll Park,anchor,yes,super-enriched
+Mid-Atlantic,DC,Washington,National Mall,anchor,yes,candidate
+Mid-Atlantic,DC,Washington,Rock Creek Park,supporting,yes,candidate
+Mid-Atlantic,DC,Washington,Anacostia Park,supporting,yes,candidate
+Mid-Atlantic,VA,Richmond,James River Park System,anchor,yes,super-enriched
+Mid-Atlantic,VA,Richmond,Byrd Park,anchor,yes,super-enriched
+Mid-Atlantic,VA,Richmond,Maymont,anchor,yes,super-enriched
+Mid-Atlantic,VA,Richmond,Forest Hill Park,anchor,yes,super-enriched
+Mid-Atlantic,VA,Richmond,Libby Hill Park,anchor,yes,super-enriched
+Mid-Atlantic,VA,Richmond,Brown's Island,anchor,yes,super-enriched
+Mid-Atlantic,VA,Richmond,Virginia Museum of Fine Arts,anchor,yes,super-enriched
+Mid-Atlantic,VA,Richmond,Richmond National Battlefield Park,anchor,yes,super-enriched
+Mid-Atlantic,VA,Norfolk,Town Point Park,anchor,yes,super-enriched
+Mid-Atlantic,VA,Norfolk,Lafayette Park,supporting,yes,candidate
+Mid-Atlantic,VA,Norfolk,Norfolk Botanical Garden,anchor,yes,super-enriched
+Mid-Atlantic,VA,Norfolk,Nauticus and Battleship Wisconsin,anchor,yes,super-enriched
+Mid-Atlantic,VA,Virginia Beach,Mount Trashmore Park,anchor,yes,super-enriched
+Mid-Atlantic,VA,Virginia Beach,First Landing State Park,anchor,yes,super-enriched
+Mid-Atlantic,VA,Virginia Beach,Virginia Beach Oceanfront and Boardwalk,anchor,yes,super-enriched
+Mid-Atlantic,VA,Virginia Beach,Virginia Aquarium and Marine Science Center,anchor,yes,super-enriched
+Mid-Atlantic,VA,Virginia Beach,Back Bay National Wildlife Refuge and False Cape State Park,anchor,yes,super-enriched
+Southeast,NC,Raleigh,Dix Park,anchor,yes,seeded
+Southeast,NC,Raleigh,Pullen Park,supporting,yes,seeded
+Southeast,NC,Cary,Downtown Cary Park,anchor,yes,seeded
+Southeast,NC,Charlotte,Freedom Park,anchor,yes,candidate
+Southeast,NC,Charlotte,Romare Bearden Park,supporting,no,candidate
+Southeast,NC,Charlotte,McDowell Nature Preserve,anchor,yes,candidate
+Southeast,NC,Charlotte,Reedy Creek Park and Nature Center,supporting,yes,candidate
+Southeast,NC,Cherokee,Great Smoky Mountains National Park,anchor,yes,candidate
+Southeast,NC,Asheville,Blue Ridge Parkway,anchor,yes,candidate
+Southeast,NC,Nags Head,Jockey's Ridge State Park,anchor,yes,candidate
+Southeast,NC,Danbury,Hanging Rock State Park,anchor,yes,candidate
+Southeast,NC,Raleigh,William B. Umstead State Park,supporting,yes,candidate
+Southeast,SC,Charleston,Waterfront Park,anchor,yes,candidate
+Southeast,SC,Charleston,Hampton Park,supporting,yes,candidate
+Southeast,SC,Charleston,White Point Garden,supporting,yes,candidate
+Southeast,SC,Columbia,Riverfront Park,anchor,yes,candidate
+Southeast,SC,Columbia,Finlay Park,supporting,yes,candidate
+Southeast,GA,Savannah,Forsyth Park,anchor,yes,candidate
+Southeast,GA,Savannah,Daffin Park,supporting,yes,candidate
+Southeast,GA,Savannah,Skidaway Island State Park,anchor,yes,candidate
+Southeast,GA,Savannah,Bonaventure Cemetery,supporting,yes,candidate
+Southeast,GA,Atlanta,Piedmont Park,anchor,yes,candidate
+Southeast,GA,Atlanta,Centennial Olympic Park,supporting,yes,candidate
+Southeast,GA,Atlanta,Historic Fourth Ward Park,supporting,yes,candidate
+Southeast,GA,Atlanta,Grant Park,anchor,yes,super-enriched
+Southeast,GA,Atlanta,Westside Park,anchor,yes,super-enriched
+Southeast,GA,Atlanta,Chastain Park,anchor,yes,super-enriched
+Southeast,GA,Atlanta,Freedom Park,anchor,yes,super-enriched
+Southeast,GA,Atlanta,Eastside Trail,anchor,yes,super-enriched
+Southeast,GA,Atlanta,Cascade Springs Nature Preserve,anchor,yes,super-enriched
+Southeast,GA,Atlanta,Perkerson Park,anchor,yes,super-enriched
+Southeast,FL,Jacksonville,Kathryn Abbey Hanna Park,anchor,yes,candidate
+Southeast,FL,Jacksonville,Metropolitan Park,supporting,yes,candidate
+Southeast,FL,Jacksonville,Jessie Ball duPont Park,supporting,yes,candidate
+Southeast,FL,Orlando,Lake Eola Park,anchor,yes,super-enriched
+Southeast,FL,Orlando,Bill Frederick Park at Turkey Lake,supporting,yes,super-enriched
+Southeast,FL,Orlando,Harry P. Leu Gardens,anchor,yes,super-enriched
+Southeast,FL,Winter Park,Mead Botanical Garden,anchor,yes,super-enriched
+Southeast,FL,Orlando,Blue Jacket Park,supporting,yes,super-enriched
+Southeast,FL,Christmas,Orlando Wetlands,anchor,yes,super-enriched
+Southeast,FL,Orlando,Lake Baldwin Park,anchor,yes,super-enriched
+Southeast,FL,Orlando,Barber Park,supporting,yes,super-enriched
+Southeast,FL,Tampa,Curtis Hixon Waterfront Park,anchor,yes,super-enriched
+Southeast,FL,Tampa,Lettuce Lake Park,anchor,yes,super-enriched
+Southeast,FL,Tampa,Julian B. Lane Riverfront Park,anchor,yes,super-enriched
+Southeast,FL,Tampa,Ballast Point Park,supporting,yes,super-enriched
+Southeast,FL,Tampa,Al Lopez Park,supporting,yes,candidate
+Southeast,FL,St. Petersburg,Vinoy Park,anchor,yes,super-enriched
+Southeast,FL,St. Petersburg,St. Pete Pier,anchor,yes,super-enriched
+Southeast,FL,Tierra Verde,Fort De Soto Park,anchor,yes,super-enriched
+Southeast,FL,St. Petersburg,Boyd Hill Nature Preserve,anchor,yes,super-enriched
+Southeast,FL,Miami,Maurice A. Ferre Park,anchor,yes,candidate
+Southeast,FL,Miami,Bayfront Park,anchor,yes,super-enriched
+Southeast,FL,Miami,Matheson Hammock Park,anchor,yes,super-enriched
+Southeast,FL,Fort Lauderdale,Hugh Taylor Birch State Park,anchor,yes,candidate
+Southeast,FL,Fort Lauderdale,Snyder Park,supporting,yes,candidate
+Southeast,FL,West Palm Beach,Okeeheelee Park,anchor,yes,candidate
+Southeast,FL,West Palm Beach,Dreher Park,supporting,yes,candidate
+Southeast,AL,Birmingham,Railroad Park,anchor,yes,candidate
+Southeast,AL,Birmingham,Red Mountain Park,supporting,yes,candidate
+Southeast,AL,Birmingham,Ruffner Mountain,supporting,yes,candidate
+Southeast,MS,Jackson,LeFleur's Bluff State Park,anchor,yes,candidate
+Southeast,MS,Jackson,Parham Bridges Park,supporting,yes,candidate
+Southeast,TN,Nashville,Centennial Park,anchor,yes,super-enriched
+Southeast,TN,Nashville,Shelby Bottoms and Shelby Park,supporting,yes,super-enriched
+Southeast,TN,Nashville,Warner Parks,supporting,yes,super-enriched
+Southeast,TN,Nashville,Bicentennial Capitol Mall State Park,anchor,yes,super-enriched
+Southeast,TN,Nashville,Wasioto Park,anchor,yes,super-enriched
+Southeast,TN,Nashville,Radnor Lake State Natural Area,anchor,yes,super-enriched
+Southeast,TN,Nashville,Fort Negley Park,supporting,yes,super-enriched
+Southeast,TN,Nashville,Two Rivers Park,anchor,yes,super-enriched
+Southeast,TN,Memphis,Shelby Farms Park,anchor,yes,candidate
+Southeast,TN,Memphis,Overton Park,supporting,yes,candidate
+Southeast,TN,Memphis,Tom Lee Park,supporting,yes,candidate
+Southeast,KY,Louisville,Cherokee Park,anchor,yes,candidate
+Southeast,KY,Louisville,Louisville Waterfront Park,supporting,yes,candidate
+Southeast,KY,Louisville,Iroquois Park,supporting,yes,candidate
+South Central,AR,Little Rock,Riverfront Park,anchor,yes,candidate
+South Central,AR,Little Rock,Two Rivers Park,supporting,yes,candidate
+South Central,LA,New Orleans,New Orleans City Park,anchor,yes,candidate
+South Central,LA,New Orleans,Audubon Park,supporting,yes,candidate
+South Central,LA,New Orleans,Crescent Park,supporting,yes,candidate
+South Central,LA,New Orleans,Louis Armstrong Park,anchor,yes,super-enriched
+South Central,LA,New Orleans,Lafitte Greenway,anchor,yes,super-enriched
+South Central,LA,New Orleans,Goldring Woldenberg Riverfront Park,anchor,yes,super-enriched
+South Central,LA,New Orleans,Jackson Square,anchor,yes,super-enriched
+South Central,LA,New Orleans,Bayou Sauvage Urban National Wildlife Refuge,anchor,yes,super-enriched
+South Central,TX,Houston,Memorial Park,anchor,yes,candidate
+South Central,TX,Houston,Hermann Park,supporting,yes,candidate
+South Central,TX,Houston,Buffalo Bayou Park,supporting,yes,candidate
+South Central,TX,Houston,Discovery Green,supporting,yes,super-enriched
+South Central,TX,Houston,Levy Park,supporting,yes,super-enriched
+South Central,TX,Houston,Emancipation Park,supporting,yes,super-enriched
+South Central,TX,Houston,Gerald D. Hines Waterwall Park,supporting,yes,super-enriched
+South Central,TX,Houston,Smither Park,supporting,yes,super-enriched
+South Central,TX,Dallas,White Rock Lake Park,anchor,yes,candidate
+South Central,TX,Dallas,Klyde Warren Park,supporting,yes,candidate
+South Central,TX,Dallas,Fair Park,supporting,yes,candidate
+South Central,TX,Dallas,Trinity River Audubon Center,supporting,yes,candidate
+South Central,TX,Dallas,Cedar Ridge Preserve,supporting,yes,candidate
+South Central,TX,Dallas,Bachman Lake Park,supporting,yes,candidate
+South Central,TX,Dallas,Katy Trail,anchor,yes,candidate
+South Central,TX,Dallas,Pioneer Plaza,supporting,yes,candidate
+South Central,TX,Fort Worth,Trinity Park,anchor,yes,candidate
+South Central,TX,Fort Worth,Gateway Park,supporting,yes,candidate
+South Central,TX,Fort Worth,Fort Worth Water Gardens,supporting,yes,candidate
+South Central,TX,Austin,Zilker Metropolitan Park,anchor,yes,candidate
+South Central,TX,Austin,Mueller Lake Park,supporting,yes,candidate
+South Central,TX,Austin,McKinney Falls State Park,supporting,yes,candidate
+South Central,TX,Austin,Pease District Park,supporting,yes,candidate
+South Central,TX,Austin,Waterloo Park,supporting,yes,candidate
+South Central,TX,Austin,Butler Metro Park,supporting,yes,candidate
+South Central,TX,Austin,Ann and Roy Butler Hike-and-Bike Trail,anchor,yes,candidate
+South Central,TX,Austin,Emma Long Metropolitan Park,supporting,yes,candidate
+South Central,TX,San Antonio,Brackenridge Park,anchor,yes,candidate
+South Central,TX,San Antonio,Hemisfair,supporting,yes,candidate
+South Central,TX,San Antonio,Phil Hardberger Park,supporting,yes,candidate
+South Central,TX,San Antonio,San Antonio River Walk,anchor,yes,candidate
+South Central,TX,San Antonio,San Antonio Missions National Historical Park,anchor,yes,candidate
+South Central,TX,San Antonio,San Pedro Springs Park,supporting,yes,candidate
+South Central,TX,San Antonio,Pearsall Park,supporting,yes,candidate
+South Central,TX,San Antonio,Woodlawn Lake Park,supporting,yes,candidate
+South Central,OK,Oklahoma City,Scissortail Park,anchor,yes,candidate
+South Central,OK,Oklahoma City,Myriad Botanical Gardens,supporting,yes,candidate
+South Central,OK,Oklahoma City,Lake Hefner Park,supporting,yes,candidate
+South Central,OK,Tulsa,Gathering Place,anchor,yes,candidate
+South Central,OK,Tulsa,Woodward Park,supporting,yes,candidate
+Midwest,MO,St. Louis,Forest Park,anchor,yes,super-enriched
+Midwest,MO,St. Louis,Tower Grove Park,anchor,yes,super-enriched
+Midwest,MO,St. Louis,Gateway Arch National Park,anchor,yes,super-enriched
+Midwest,MO,St. Louis,Citygarden Sculpture Park,anchor,yes,super-enriched
+Midwest,MO,St. Louis,Missouri Botanical Garden,anchor,yes,super-enriched
+Midwest,MO,Sunset Hills,Laumeier Sculpture Park,anchor,yes,super-enriched
+Midwest,MO,Valley Park,Lone Elk Park,anchor,yes,super-enriched
+Midwest,MO,Maryland Heights,Creve Coeur Lake Memorial Park,anchor,yes,super-enriched
+Midwest,MO,Kansas City,Swope Park,anchor,yes,super-enriched
+Midwest,MO,Kansas City,Jacob L. Loose Park,supporting,yes,super-enriched
+Midwest,MO,Kansas City,Penn Valley Park,supporting,yes,super-enriched
+Midwest,MO,Kansas City,Kessler Park,supporting,yes,super-enriched
+Midwest,MO,Kansas City,Berkley Riverfront Park,anchor,yes,super-enriched
+Midwest,KS,Shawnee,Shawnee Mission Park,anchor,yes,super-enriched
+Midwest,KS,Overland Park,Overland Park Arboretum and Botanical Gardens,anchor,yes,super-enriched
+Midwest,KS,Kansas City,Wyandotte County Lake Park,anchor,yes,super-enriched
+Midwest,KS,Wichita,Sedgwick County Park,anchor,yes,candidate
+Midwest,KS,Wichita,Riverside Park,supporting,yes,candidate
+Midwest,NE,Omaha,The RiverFront,anchor,yes,candidate
+Midwest,NE,Omaha,Zorinsky Lake Park,supporting,yes,candidate
+Midwest,IA,Des Moines,Gray's Lake Park,anchor,yes,candidate
+Midwest,IA,Des Moines,Water Works Park,supporting,yes,candidate
+Midwest,IA,Des Moines,Pappajohn Sculpture Park,supporting,no,candidate
+Midwest,MN,Minneapolis,Chain of Lakes Regional Park,anchor,yes,super-enriched
+Midwest,MN,Minneapolis,Minnehaha Regional Park,supporting,yes,super-enriched
+Midwest,MN,Minneapolis,Theodore Wirth Regional Park,supporting,yes,super-enriched
+Midwest,MN,Minneapolis,Mississippi Gorge Regional Park,supporting,yes,super-enriched
+Midwest,MN,Minneapolis,Minneapolis Sculpture Garden,supporting,yes,super-enriched
+Midwest,MN,St. Paul,Como Regional Park,anchor,yes,super-enriched
+Midwest,MN,St. Paul,Phalen Regional Park,supporting,yes,super-enriched
+Midwest,MN,St. Paul,Harriet Island Regional Park,supporting,yes,super-enriched
+Midwest,WI,Milwaukee,Lake Park,anchor,yes,candidate
+Midwest,WI,Milwaukee,Veterans Park,supporting,yes,candidate
+Midwest,WI,Madison,Olbrich Park,anchor,yes,candidate
+Midwest,WI,Madison,Vilas Park,supporting,yes,candidate
+Midwest,IL,Chicago,Lincoln Park,anchor,yes,candidate
+Midwest,IL,Chicago,Millennium Park,supporting,yes,candidate
+Midwest,IL,Chicago,Grant Park,supporting,yes,candidate
+Midwest,IN,Indianapolis,White River State Park,anchor,yes,super-enriched
+Midwest,IN,Indianapolis,Eagle Creek Park,anchor,yes,super-enriched
+Midwest,IN,Indianapolis,Garfield Park,anchor,yes,super-enriched
+Midwest,IN,Indianapolis,Holliday Park,anchor,yes,super-enriched
+Midwest,IN,Indianapolis,Fort Harrison State Park,anchor,yes,super-enriched
+Midwest,IN,Indianapolis,Riverside Regional Park,anchor,yes,super-enriched
+Midwest,IN,Indianapolis,Broad Ripple Park,anchor,yes,super-enriched
+Midwest,IN,Indianapolis,Monon Trail,anchor,yes,super-enriched
+Midwest,MI,Detroit,Belle Isle Park,anchor,yes,super-enriched
+Midwest,MI,Detroit,Campus Martius Park,anchor,yes,super-enriched
+Midwest,MI,Detroit,Detroit RiverWalk,anchor,yes,super-enriched
+Midwest,MI,Detroit,Ralph C. Wilson Jr. Centennial Park,anchor,yes,super-enriched
+Midwest,MI,Detroit,Dequindre Cut,anchor,yes,super-enriched
+Midwest,MI,Detroit,Rouge Park,anchor,yes,super-enriched
+Midwest,MI,Detroit,Palmer Park,anchor,yes,super-enriched
+Midwest,MI,Detroit,Hart Plaza,anchor,yes,super-enriched
+Midwest,MI,Grand Rapids,Millennium Park,anchor,yes,candidate
+Midwest,MI,Grand Rapids,Riverside Park,supporting,yes,candidate
+Midwest,OH,Cleveland,Edgewater Park,anchor,yes,super-enriched
+Midwest,OH,Cleveland,Rockefeller Park and Cultural Gardens,supporting,yes,super-enriched
+Midwest,OH,Cleveland,Cleveland Lakefront Nature Preserve,supporting,yes,super-enriched
+Midwest,OH,Cleveland,Public Square,anchor,yes,super-enriched
+Midwest,OH,Cleveland,Wendy Park,supporting,yes,super-enriched
+Midwest,OH,Cleveland,Rocky River Reservation,anchor,yes,super-enriched
+Midwest,OH,Cleveland,Brecksville Reservation,anchor,yes,super-enriched
+Midwest,OH,Cleveland,Cuyahoga Valley National Park,anchor,yes,super-enriched
+Midwest,OH,Columbus,Scioto Mile,anchor,yes,candidate
+Midwest,OH,Columbus,Franklin Park,supporting,yes,candidate
+Midwest,OH,Columbus,Goodale Park,supporting,yes,candidate
+Midwest,OH,Cincinnati,Eden Park,anchor,yes,super-enriched
+Midwest,OH,Cincinnati,Smale Riverfront Park,supporting,yes,super-enriched
+Midwest,OH,Cincinnati,Washington Park,supporting,yes,super-enriched
+Midwest,OH,Cincinnati,Ault Park,anchor,yes,super-enriched
+Midwest,OH,Cincinnati,Mount Airy Forest,anchor,yes,super-enriched
+Midwest,OH,Cincinnati,Sawyer Point and Yeatman's Cove,supporting,yes,super-enriched
+Midwest,OH,Cincinnati,Winton Woods,anchor,yes,super-enriched
+Midwest,OH,Cincinnati,Summit Park,anchor,yes,super-enriched
+Midwest,OH,Columbus,Scioto Mile,anchor,yes,super-enriched
+Midwest,OH,Columbus,Franklin Park,anchor,yes,super-enriched
+Midwest,OH,Columbus,Goodale Park,supporting,yes,super-enriched
+Midwest,OH,Columbus,Schiller Park,supporting,yes,super-enriched
+Midwest,OH,Columbus,Whetstone Park and Columbus Park of Roses,anchor,yes,super-enriched
+Midwest,OH,Columbus,Highbanks Metro Park,anchor,yes,super-enriched
+Midwest,OH,Columbus,Battelle Darby Creek Metro Park,anchor,yes,super-enriched
+Midwest,OH,Columbus,Quarry Trails Metro Park,anchor,yes,super-enriched
+Plains,ND,Fargo,Lindenwood Park,anchor,yes,candidate
+Plains,ND,Fargo,Island Park,supporting,yes,candidate
+Plains,SD,Sioux Falls,Falls Park,anchor,yes,candidate
+Plains,SD,Sioux Falls,Terrace Park,supporting,yes,candidate
+Mountain,MT,Billings,Riverfront Park,anchor,yes,candidate
+Mountain,MT,Billings,Swords Park,supporting,yes,candidate
+Mountain,WY,Cheyenne,Lions Park,anchor,yes,candidate
+Mountain,CO,Denver,City Park,anchor,yes,candidate
+Mountain,CO,Denver,Washington Park,supporting,yes,candidate
+Mountain,CO,Denver,Cheesman Park,supporting,yes,candidate
+Mountain,CO,Denver,Civic Center Park,anchor,yes,super-enriched
+Mountain,CO,Denver,Confluence Park,anchor,yes,super-enriched
+Mountain,CO,Denver,Sloans Lake Park,anchor,yes,super-enriched
+Mountain,CO,Denver,Ruby Hill Park,anchor,yes,super-enriched
+Mountain,CO,Denver,Commons Park,anchor,yes,super-enriched
+Mountain,CO,Colorado Springs,Garden of the Gods,anchor,yes,candidate
+Mountain,CO,Colorado Springs,Memorial Park,supporting,yes,candidate
+Mountain,NM,Albuquerque,Balloon Fiesta Park,anchor,yes,candidate
+Mountain,NM,Albuquerque,Elena Gallegos Open Space,supporting,yes,candidate
+Mountain,NM,Albuquerque,Tingley Beach and Bosque,supporting,yes,candidate
+Mountain,AZ,Phoenix,Papago Park,anchor,yes,super-enriched
+Mountain,AZ,Phoenix,South Mountain Park and Preserve,supporting,yes,super-enriched
+Mountain,AZ,Phoenix,Encanto Park,supporting,yes,super-enriched
+Mountain,AZ,Phoenix,Phoenix Mountains Preserve,anchor,yes,super-enriched
+Mountain,AZ,Phoenix,Camelback Mountain,anchor,yes,super-enriched
+Mountain,AZ,Phoenix,Rio Salado Habitat Restoration Area,anchor,yes,super-enriched
+Mountain,AZ,Phoenix,Steele Indian School Park,anchor,yes,super-enriched
+Mountain,AZ,Phoenix,Margaret T. Hance Park,anchor,yes,super-enriched
+Mountain,AZ,Tucson,Reid Park,anchor,yes,candidate
+Mountain,AZ,Tucson,Rillito River Park,supporting,yes,candidate
+Mountain,NV,Las Vegas,Sunset Park,anchor,yes,candidate
+Mountain,NV,Las Vegas,Floyd Lamb Park at Tule Springs,supporting,yes,candidate
+Mountain,NV,Las Vegas,Red Rock Canyon National Conservation Area,anchor,yes,candidate
+Mountain,NV,Las Vegas,Springs Preserve,anchor,yes,candidate
+Mountain,NV,Las Vegas,Clark County Wetlands Park,anchor,yes,candidate
+Mountain,NV,Las Vegas,Tule Springs Fossil Beds National Monument,anchor,yes,candidate
+Mountain,NV,Boulder City,Lake Mead National Recreation Area,anchor,yes,candidate
+Mountain,NV,Overton,Valley of Fire State Park,anchor,yes,candidate
+Mountain,NV,Reno,Rancho San Rafael Regional Park,anchor,yes,candidate
+Mountain,NV,Reno,Idlewild Park,supporting,yes,candidate
+Mountain,UT,Salt Lake City,Liberty Park,anchor,yes,super-enriched
+Mountain,UT,Salt Lake City,Sugar House Park,anchor,yes,super-enriched
+Mountain,UT,Salt Lake City,Memory Grove Park,anchor,yes,super-enriched
+Mountain,UT,Millcreek,Millcreek Canyon,anchor,yes,super-enriched
+Mountain,UT,Cottonwood Heights,Big Cottonwood Canyon,anchor,yes,super-enriched
+Mountain,UT,Alta,Little Cottonwood Canyon,anchor,yes,super-enriched
+Mountain,UT,Syracuse,Antelope Island State Park,anchor,yes,super-enriched
+Mountain,UT,Magna,Great Salt Lake State Park,anchor,yes,super-enriched
+Mountain,ID,Boise,Julia Davis Park,anchor,yes,candidate
+Mountain,ID,Boise,Ann Morrison Park,supporting,yes,candidate
+Mountain,ID,Boise,Kathryn Albertson Park,supporting,yes,candidate
+Pacific Northwest,WA,Seattle,Discovery Park,anchor,yes,candidate
+Pacific Northwest,WA,Seattle,Green Lake Park,supporting,yes,candidate
+Pacific Northwest,WA,Seattle,Gas Works Park,supporting,yes,candidate
+Pacific Northwest,WA,Seattle,Seward Park,anchor,yes,candidate
+Pacific Northwest,WA,Seattle,Washington Park Arboretum,anchor,yes,candidate
+Pacific Northwest,WA,Seattle,Volunteer Park,supporting,yes,candidate
+Pacific Northwest,WA,Seattle,Kerry Park,supporting,yes,candidate
+Pacific Northwest,WA,Seattle,Olympic Sculpture Park,anchor,yes,candidate
+Pacific Northwest,WA,Seattle,Waterfront Park,anchor,yes,candidate
+Pacific Northwest,WA,Seattle,Golden Gardens Park,anchor,yes,candidate
+Pacific Northwest,WA,Spokane,Riverfront Park,anchor,yes,candidate
+Pacific Northwest,WA,Spokane,Manito Park,supporting,yes,candidate
+Pacific Northwest,OR,Portland,Washington Park,anchor,yes,super-enriched
+Pacific Northwest,OR,Portland,Forest Park,supporting,yes,super-enriched
+Pacific Northwest,OR,Portland,Tom McCall Waterfront Park,supporting,yes,super-enriched
+Pacific Northwest,OR,Portland,Mt. Tabor Park,anchor,yes,super-enriched
+Pacific Northwest,OR,Portland,Laurelhurst Park,anchor,yes,super-enriched
+Pacific Northwest,OR,Portland,Cathedral Park,anchor,yes,super-enriched
+Pacific Northwest,OR,Portland,Peninsula Park,anchor,yes,super-enriched
+Pacific Northwest,OR,Portland,Powell Butte Nature Park,anchor,yes,super-enriched
+Pacific,CA,San Francisco,Golden Gate Park,anchor,yes,candidate
+Pacific,CA,San Francisco,The Presidio,supporting,yes,candidate
+Pacific,CA,San Francisco,Mission Dolores Park,supporting,yes,candidate
+Pacific,CA,San Francisco,Lands End,anchor,yes,candidate
+Pacific,CA,San Francisco,Crissy Field,anchor,yes,candidate
+Pacific,CA,San Francisco,Yerba Buena Gardens,supporting,yes,candidate
+Pacific,CA,San Francisco,Salesforce Park,supporting,yes,candidate
+Pacific,CA,San Francisco,Alamo Square,supporting,yes,candidate
+Pacific,CA,San Francisco,Ocean Beach,anchor,yes,candidate
+Pacific,CA,San Francisco,Sunset Dunes,anchor,yes,candidate
+Pacific,CA,Oakland,Lake Merritt,anchor,yes,candidate
+Pacific,CA,Oakland,Joaquin Miller Park,supporting,yes,candidate
+Pacific,CA,Oakland,Redwood Regional Park,supporting,yes,candidate
+Pacific,CA,San Jose,Alum Rock Park,anchor,yes,candidate
+Pacific,CA,San Jose,Kelley Park,supporting,yes,candidate
+Pacific,CA,San Jose,Guadalupe River Park,supporting,yes,candidate
+Pacific,CA,Sacramento,William Land Regional Park,anchor,yes,candidate
+Pacific,CA,Sacramento,Discovery Park,supporting,yes,candidate
+Pacific,CA,Sacramento,Capitol Park,supporting,yes,candidate
+Pacific,CA,Los Angeles,Griffith Park,anchor,yes,super-enriched
+Pacific,CA,Los Angeles,Elysian Park,supporting,yes,super-enriched
+Pacific,CA,Los Angeles,Exposition Park,anchor,yes,super-enriched
+Pacific,CA,Long Beach,El Dorado East Regional Park,anchor,yes,candidate
+Pacific,CA,Long Beach,Shoreline Aquatic Park,supporting,yes,candidate
+Pacific,CA,Anaheim,Yorba Regional Park,anchor,yes,candidate
+Pacific,CA,Anaheim,Pearson Park,supporting,yes,candidate
+Pacific,CA,Irvine,Great Park,anchor,yes,candidate
+Pacific,CA,Irvine,William R. Mason Regional Park,supporting,yes,candidate
+Pacific,CA,San Diego,Balboa Park,anchor,yes,candidate
+Pacific,CA,San Diego,Mission Bay Park,supporting,yes,candidate
+Pacific,CA,San Diego,Waterfront Park,supporting,yes,candidate
+Pacific,AK,Anchorage,Kincaid Park,anchor,yes,candidate
+Pacific,AK,Anchorage,Far North Bicentennial Park,supporting,yes,candidate
+Pacific,AK,Anchorage,Delaney Park Strip,supporting,yes,candidate
+Pacific,HI,Honolulu,Kapiolani Regional Park,anchor,yes,candidate
+Pacific,HI,Honolulu,Ala Moana Regional Park,supporting,yes,candidate
+Pacific,HI,Honolulu,Diamond Head State Monument,anchor,yes,candidate
+Pacific,HI,Honolulu,Hanauma Bay Nature Preserve,anchor,yes,candidate
+Pacific,HI,Honolulu,Koko Crater Railway Trail,anchor,yes,candidate
+Pacific,HI,Kaneohe,Hoomaluhia Botanical Garden,anchor,yes,candidate
+Pacific,HI,Honolulu,Pearl Harbor National Memorial,anchor,yes,candidate
+Pacific,HI,Kaneohe,Kualoa Regional Park,anchor,yes,candidate
+Southeast,NC,Charlotte,McAlpine Creek Community Park,anchor,yes,candidate
+Southeast,NC,Charlotte,Park Road Park,anchor,yes,candidate
+Southeast,NC,Charlotte,Little Sugar Creek Greenway,anchor,yes,candidate
+Southeast,NC,Greensboro,Country Park,anchor,yes,candidate
+Southeast,NC,Greensboro,Battleground Parks District,anchor,yes,candidate
+Southeast,NC,Greensboro,LeBauer Park,anchor,yes,candidate
+Southeast,NC,Greensboro,Greensboro Arboretum,anchor,yes,candidate
+Southeast,NC,Greensboro,Bog Garden at Benjamin Park,anchor,yes,candidate
+Southeast,NC,Greensboro,Tanger Family Bicentennial Garden,anchor,yes,candidate
+Southeast,NC,Greensboro,Keeley Park,anchor,yes,candidate
+Southeast,NC,Greensboro,Atlantic and Yadkin Greenway,anchor,yes,candidate
+Southeast,NC,Greensboro,Greensboro Downtown Greenway,anchor,yes,candidate
+Southeast,NC,Durham,West Point on the Eno,anchor,yes,candidate
+Southeast,NC,Durham,Durham Central Park,anchor,yes,candidate
+Southeast,NC,Durham,Forest Hills Park,anchor,yes,candidate
+Southeast,NC,Durham,Rock Quarry Park,anchor,yes,candidate
+Southeast,NC,Durham,Leigh Farm Park,anchor,yes,candidate
+Southeast,NC,Durham,Lake Michie Park and Marina,anchor,yes,candidate
+Southeast,NC,Durham,American Tobacco Trail,anchor,yes,candidate
+Southeast,NC,Winston-Salem,Salem Lake Park,anchor,yes,candidate
+Southeast,NC,Winston-Salem,The Quarry at Grant Park,anchor,yes,candidate
+Southeast,NC,Winston-Salem,Hanes Park,anchor,yes,candidate
+Southeast,NC,Winston-Salem,Washington Park,anchor,yes,candidate
+Southeast,NC,Clemmons,Tanglewood Park,anchor,yes,candidate
+Southeast,NC,Winston-Salem,Winston Lake Park,anchor,yes,candidate
+Southeast,NC,Winston-Salem,Muddy Creek Greenway,anchor,yes,candidate
+Southeast,NC,Fayetteville,J. Bayard Clark Park and Nature Center,anchor,yes,candidate
+Southeast,NC,Fayetteville,Cape Fear River Trail,anchor,yes,candidate
+Southeast,NC,Fayetteville,Lake Rim Park,anchor,yes,candidate
+Southeast,NC,Fayetteville,Festival Park,anchor,yes,candidate
+Southeast,NC,Fayetteville,Mazarick Park,anchor,yes,candidate
+Southeast,NC,Cary,Fred G. Bond Metro Park,anchor,yes,candidate
+Southeast,NC,Cary,Hemlock Bluffs Nature Preserve,anchor,yes,candidate
+Southeast,NC,Cary,Jack Smith Park,anchor,yes,candidate
+Southeast,NC,Cary,Marla Dorrel Park,anchor,yes,candidate
+Southeast,NC,Cary,Black Creek Greenway,anchor,yes,candidate
+Southeast,NC,Wilmington,Greenfield Park,anchor,yes,candidate
+Southeast,NC,Wilmington,Wilmington Riverwalk,anchor,yes,candidate
+Southeast,NC,Wilmington,Long Leaf Park,anchor,yes,candidate
+Southeast,NC,Wilmington,Halyburton Park,anchor,yes,candidate
+Southeast,NC,Wilmington,Empie Park,anchor,yes,candidate
+Southeast,NC,Wilmington,Gary Shell Cross-City Trail,anchor,yes,candidate
+Southeast,NC,Concord,James L. Dorton Park,anchor,yes,candidate
+Southeast,NC,Concord,Les Myers Park,anchor,yes,candidate
+Southeast,NC,Concord,Weddington Road Bark Park,anchor,yes,candidate
+Southeast,NC,Concord,McEachern Greenway,anchor,yes,candidate
+Southeast,NC,Concord,Brown Mill Mountain Bike Trail Park,anchor,yes,candidate
+Southeast,NC,Concord,Lake Fisher,anchor,yes,candidate
+Southeast,NC,Winston-Salem,Salem Creek Greenway,anchor,yes,candidate
+Southeast,NC,High Point,High Point City Lake Park,anchor,yes,candidate
+Southeast,NC,High Point,Piedmont Environmental Center,anchor,yes,candidate
+Southeast,NC,High Point,Oak Hollow Park,anchor,yes,candidate
+Southeast,NC,High Point,High Point Greenway,anchor,yes,candidate
+Southeast,NC,High Point,Bicentennial Greenway,anchor,yes,candidate
+Southeast,NC,Greenville,River Park North,anchor,yes,candidate
+Southeast,NC,Greenville,Wildwood Park,anchor,yes,candidate
+Southeast,NC,Greenville,Greenville Town Common,anchor,yes,candidate
+Southeast,NC,Greenville,South Tar River Greenway,anchor,yes,candidate
+Southeast,NC,Gastonia,Rankin Lake Park,anchor,yes,candidate
+Southeast,NC,Gastonia,Martha Rivers Park,anchor,yes,candidate
+Southeast,NC,Gastonia,Lineberger Park,anchor,yes,candidate
+Southeast,NC,Gastonia,Avon and Catawba Creek Greenway,anchor,yes,candidate
+Southeast,NC,Apex,Pleasant Park,anchor,yes,candidate
+Southeast,NC,Apex,Apex Community Park,anchor,yes,candidate
+Southeast,NC,Apex,Apex Nature Park and Seymour Athletic Fields,anchor,yes,candidate
+Southeast,NC,Apex,Kelly Road Park,anchor,yes,candidate
+Southeast,NC,Jacksonville,Jacksonville Commons Recreation Complex,anchor,yes,candidate
+Southeast,NC,Jacksonville,Riverwalk Crossing Park,anchor,yes,candidate
+Southeast,NC,Jacksonville,Wilson Bay Park,anchor,yes,candidate
+Southeast,NC,Jacksonville,Sturgeon City Park,anchor,yes,candidate
+Southeast,NC,Jacksonville,Northeast Creek Park,anchor,yes,candidate
+Southeast,NC,Huntersville,Latta Nature Preserve,anchor,yes,candidate
+Southeast,NC,Huntersville,North Mecklenburg Park,anchor,yes,candidate
+Southeast,NC,Huntersville,Holbrook Park,anchor,yes,candidate
+Southeast,NC,Huntersville,Torrence Creek Greenway,anchor,yes,candidate
+Southeast,NC,Chapel Hill,Southern Community Park,anchor,yes,candidate
+Southeast,NC,Chapel Hill,Cedar Falls Park,anchor,yes,candidate
+Southeast,NC,Chapel Hill,Homestead Park,anchor,yes,candidate
+Southeast,NC,Chapel Hill,Bolin Creek Trail,anchor,yes,candidate
+Southeast,NC,Burlington,Burlington City Park,anchor,yes,candidate
+Southeast,NC,Burlington,Arboretum at Willowbrook Park,anchor,yes,candidate
+Southeast,NC,Burlington,Lake Mackintosh Park and Marina,anchor,yes,candidate
+Southeast,NC,Burlington,Lake Cammack Park and Marina,anchor,yes,candidate
+Southeast,NC,Mooresville,Liberty Park,anchor,yes,candidate
+Southeast,NC,Mooresville,Mazeppa Park,anchor,yes,candidate
+Southeast,NC,Mooresville,Cornelius Road Park,anchor,yes,candidate
+Southeast,NC,Wake Forest,E. Carroll Joyner Park,anchor,yes,candidate
+Southeast,NC,Wake Forest,Holding Park,anchor,yes,candidate
+Southeast,NC,Wake Forest,J.B. Flaherty Park,anchor,yes,candidate
+Southeast,NC,Wake Forest,Smith Creek Greenway,anchor,yes,candidate
+Southeast,NC,Asheville,Carrier Park,anchor,yes,candidate
+Southeast,NC,Asheville,French Broad River Park,anchor,yes,candidate
+Southeast,NC,Asheville,Richmond Hill Park,anchor,yes,candidate
+Southeast,NC,Asheville,Pack Square Park,anchor,yes,candidate
+Southeast,NC,Asheville,Western North Carolina Nature Center,anchor,yes,candidate
+Pacific,CA,Carlsbad,Carlsbad State Beach,anchor,yes,priority-contributor-request
+Pacific,CA,Oceanside,Oceanside City Beach and Pier,anchor,yes,priority-contributor-request
+Pacific,CA,Carlsbad,Alga Norte Community Park,supporting,no,coast-public-access-expansion
+Pacific,CA,Carlsbad,Aviara Community Park,supporting,no,coast-public-access-expansion
+Pacific,CA,Carlsbad,Calavera Hills Community Park,supporting,no,coast-public-access-expansion
+Pacific,CA,Carlsbad,Poinsettia Community Park,supporting,no,coast-public-access-expansion
+Pacific,CA,Carlsbad,Pine Avenue Community Park,supporting,no,coast-public-access-expansion
+Pacific,CA,Carlsbad,Stagecoach Community Park,supporting,no,coast-public-access-expansion
+Pacific,CA,Carlsbad,Magee Park,supporting,no,coast-public-access-expansion
+Pacific,CA,Carlsbad,Leo Carrillo Ranch Historic Park,supporting,no,coast-public-access-expansion
+Pacific,CA,Carlsbad,Batiquitos Lagoon,supporting,no,coast-public-access-expansion
+Pacific,CA,Carlsbad,Lake Calavera Preserve,supporting,no,coast-public-access-expansion
+Pacific,CA,Carlsbad,Agua Hedionda Lagoon Discovery Center,supporting,no,coast-public-access-expansion
+Pacific,CA,Carlsbad,South Carlsbad State Beach,supporting,no,coast-public-access-expansion
+Pacific,CA,Oceanside,Buddy Todd Park,supporting,no,coast-public-access-expansion
+Pacific,CA,Oceanside,Heritage Park Village and Museum,supporting,no,coast-public-access-expansion
+Pacific,CA,Oceanside,Mance Buchanon Park,supporting,no,coast-public-access-expansion
+Pacific,CA,Oceanside,Libby Lake Park,supporting,no,coast-public-access-expansion
+Pacific,CA,Oceanside,Guajome Regional Park,supporting,no,coast-public-access-expansion
+Pacific,CA,Oceanside,San Luis Rey River Trail,supporting,no,coast-public-access-expansion
+Pacific,CA,Oceanside,El Corazon Park and Trails,supporting,no,coast-public-access-expansion
+Pacific,CA,Oceanside,Oak Riparian Park,supporting,no,coast-public-access-expansion
+Pacific,CA,Oceanside,Buena Vista Audubon Nature Center,supporting,no,coast-public-access-expansion
+Mid-Atlantic,DC,Washington,Kenilworth Park & Aquatic Gardens,anchor,yes,super-enriched
+Mid-Atlantic,DC,Washington,Theodore Roosevelt Island,supporting,yes,super-enriched
+Mid-Atlantic,DC,Washington,Meridian Hill Park (Malcolm X Park),supporting,yes,super-enriched
+Mid-Atlantic,DC,Washington,Georgetown Waterfront Park,supporting,yes,super-enriched
+Mid-Atlantic,DC,Washington,U.S. National Arboretum,anchor,yes,super-enriched
+Midwest,IL,Chicago,Maggie Daley Park,anchor,yes,super-enriched
+Midwest,IL,Chicago,Chicago Riverwalk,anchor,yes,super-enriched
+Midwest,IL,Chicago,Jackson Park,anchor,yes,super-enriched
+Midwest,IL,Chicago,Garfield Park Conservatory,anchor,yes,super-enriched
+Midwest,IL,Chicago,Chicago Lakefront Trail,anchor,yes,super-enriched
+Pacific,CA,Los Angeles,Gloria Molina Grand Park,anchor,yes,super-enriched
+Pacific,CA,Los Angeles,Echo Park Lake,anchor,yes,super-enriched
+Pacific,CA,Los Angeles,Venice Beach & Ocean Front Walk,anchor,yes,super-enriched
+Pacific,CA,Los Angeles,Runyon Canyon Park,anchor,yes,super-enriched
+Pacific,CA,Los Angeles,Los Angeles State Historic Park,anchor,yes,super-enriched
+Pacific,CA,Los Angeles,Kenneth Hahn State Recreation Area,anchor,yes,super-enriched
+Southeast,FL,Miami Beach,South Pointe Park,anchor,yes,super-enriched
+Southeast,FL,Miami Beach,Lummus Park,anchor,yes,super-enriched
+Southeast,FL,Key Biscayne,Crandon Park,anchor,yes,super-enriched
+Southeast,FL,Key Biscayne,Bill Baggs Cape Florida State Park,anchor,yes,super-enriched
+Southeast,FL,Miami,Historic Virginia Key Beach Park,anchor,yes,super-enriched
+Southeast,FL,Miami,Maurice A. Ferré Park,anchor,yes,super-enriched
+Southeast,FL,Fort Lauderdale,Fort Lauderdale Beach Park,anchor,yes,super-enriched
+Southeast,FL,Hollywood,Hollywood Beach and Broadwalk,anchor,yes,super-enriched
+Southeast,FL,Hollywood,Anne Kolb Nature Center,anchor,yes,super-enriched
+Southeast,FL,Hollywood,Hollywood North Beach Park,anchor,yes,super-enriched
+Southeast,FL,Dania Beach,Dr. Von D. Mizell-Eula Johnson State Park,anchor,yes,super-enriched
+Southeast,FL,Deerfield Beach,Quiet Waters Park,anchor,yes,super-enriched
+Southeast,FL,Cooper City,Brian Piccolo Sports Park & Velodrome,anchor,yes,super-enriched
+Mid-Atlantic,DC,Washington,East Potomac Park & Hains Point,anchor,yes,super-enriched
+Mid-Atlantic,VA,Arlington,Gravelly Point,supporting,yes,super-enriched
+Mid-Atlantic,VA,McLean,Great Falls Park,anchor,yes,super-enriched
+Mid-Atlantic,MD,Glen Echo,Glen Echo Park,anchor,yes,super-enriched
+Mid-Atlantic,MD,Potomac,Great Falls Tavern & Olmsted Island,anchor,yes,super-enriched
+Mid-Atlantic,VA,Alexandria,Huntley Meadows Park,anchor,yes,super-enriched
+Mid-Atlantic,MD,Bethesda,Cabin John Regional Park,anchor,yes,super-enriched
+Mid-Atlantic,MD,Rockville,Rock Creek Regional Park,anchor,yes,super-enriched
+Mid-Atlantic,VA,Fairfax Station,Burke Lake Park,anchor,yes,super-enriched
+Mid-Atlantic,MD,Wheaton,Wheaton Regional Park,anchor,yes,super-enriched
+Mid-Atlantic,MD,Upper Marlboro,Watkins Regional Park,anchor,yes,super-enriched
+Mid-Atlantic,MD,Gaithersburg,Seneca Creek State Park,anchor,yes,super-enriched
+Mid-Atlantic,MD,Ellicott City,Patapsco Valley State Park,anchor,yes,super-enriched
+Mid-Atlantic,MD,Annapolis,Sandy Point State Park,anchor,no,super-enriched
+Mid-Atlantic,MD,Edgemere,North Point State Park,supporting,no,super-enriched

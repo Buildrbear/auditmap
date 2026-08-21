@@ -1,0 +1,57 @@
+name: Validate contribution
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Check JavaScript syntax
+        run: |
+          find . -type f -name '*.js' -not -path './node_modules/*' -print0 |
+            xargs -0 -n1 node --check
+
+      - name: Check JSON syntax
+        run: |
+          node -e "const fs=require('fs'); for(const file of ['data/institutions.json','data/nc-areas.json','data/submission-template.json']) JSON.parse(fs.readFileSync(file,'utf8'));"
+
+      - name: Check for unresolved conflict markers
+        run: |
+          if grep -RInE '^(<<<<<<<|=======|>>>>>>>)' --exclude-dir=.git .; then
+            echo "Unresolved merge conflict markers found."
+            exit 1
+          fi
+
+      - name: Check release regressions
+        run: |
+          npm run test:daily-discovery:national
+          npm run verify:nc:image-rights
+          npm run verify:nc:generated
+
+  secrets:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out full history
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Scan for committed secrets
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

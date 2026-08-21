@@ -1,0 +1,26 @@
+{
+  "id": "raleigh-community-prompt-pilot",
+  "market": "Raleigh, NC",
+  "status": "review",
+  "channel": "x",
+  "campaign": "raleigh_community_questions",
+  "updatedAt": "2026-08-07",
+  "signature": "Find your way. Share what you find.",
+  "prompts": [
+    {
+      "id": "missing-detail",
+      "motivation": "practical-help",
+      "copy": "Which Raleigh park or public place are you curious about—but missing one practical detail?\n\nName the place and question: parking, entrances, restrooms, shade, accessibility, dogs, or children.\n\nWe’ll research useful questions and bring sourced answers back here."
+    },
+    {
+      "id": "overlooked-place",
+      "motivation": "local-discovery",
+      "copy": "What Raleigh public place deserves more attention?\n\nIt can be a small park, public trail, playground, garden, field, or free gathering place. Tell us what it is—and the one thing a first-time visitor should know.\n\nHelp the next explorer find it."
+    },
+    {
+      "id": "family-friction",
+      "motivation": "family-planning",
+      "copy": "Parents and caregivers: what information do you need before trying a new public place with children?\n\nName a Raleigh place and the unanswered question that could make or break the visit. We’ll turn the strongest questions into sourced, reusable answers for the next family."
+    }
+  ]
+}

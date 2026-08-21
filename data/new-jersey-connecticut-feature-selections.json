@@ -1,0 +1,140 @@
+{
+  "checkedAt": "2026-08-08",
+  "reviewMethod": "Exact named OpenStreetMap feature, official operator guidance, and a destination-specific licensed campaign photograph.",
+  "places": {
+    "launch-nj-newark-branch-brook-park": [
+      {
+        "name": "Branch Brook Park Roller Skating Center",
+        "osm": "way/339445461",
+        "imageIndex": 3,
+        "sourceLabel": "Branch Brook Park Roller Skating Center",
+        "source": "https://www.unitedskates.com/branch-brook-park/plan-a-visit/",
+        "summary": "Branch Brook Park Roller Skating Center is the separately operated indoor roller rink in the park's Southern Division.",
+        "cost": "The outdoor park is free, but rink admission, skate rental, lessons, parties, and special sessions have separate prices.",
+        "hours": "The rink follows its own date-specific public-session calendar rather than Branch Brook Park's dawn-to-10:00 p.m. outdoor hours.",
+        "needToKnow": "Navigate to the rink itself, not the northern cherry groves. Check the live session, age policy, waiver, admission, and skate-rental rules before leaving; an open park gate does not mean the indoor rink is open."
+      }
+    ],
+    "launch-nj-newark-weequahic-park": [],
+    "launch-nj-jersey-city-liberty-state-park": [
+      {
+        "name": "Empty Sky 9/11 Memorial",
+        "osm": "node/1655111595",
+        "imageIndex": 2,
+        "sourceLabel": "New Jersey State Park Service",
+        "source": "https://dep.nj.gov/parksandforests/state-park/liberty-state-park/",
+        "summary": "Empty Sky is New Jersey's official September 11 memorial at Liberty State Park's north waterfront, aligned toward the former World Trade Center site.",
+        "cost": "There is no separate admission for visiting the outdoor memorial; transportation, ferry tickets, and nearby private parking or services can cost extra.",
+        "hours": "Outdoor access follows the Liberty State Park gate schedule of 6:00 a.m.-10:00 p.m., subject to event, security, weather, and maintenance restrictions.",
+        "needToKnow": "Route to Empty Sky or the CRRNJ Terminal area rather than the park office at the south end. The park is long, parking and event access can change, and the memorial is a place of remembrance rather than a play or picnic space."
+      }
+    ],
+    "launch-nj-jersey-city-lincoln-park": [
+      {
+        "name": "Edgewood Lake",
+        "osm": "relation/8091042",
+        "imageIndex": 2,
+        "sourceLabel": "Hudson County Parks",
+        "source": "https://gis.hcnj.us/Images/parks/lincoln-park.pdf",
+        "summary": "Edgewood Lake is the water landscape between Lincoln Park's eastern recreation core and western Hackensack River side.",
+        "cost": "Viewing the lake and using ordinary public park paths are free; golf, permits, organized athletics, and reserved facilities can have separate charges.",
+        "hours": "Use the lake area during current Hudson County park hours and obey posted weather, construction, habitat-restoration, and field-access restrictions.",
+        "needToKnow": "Navigate to the exact lake pin because Lincoln Park spans both sides of Route 1/9. Treat the water as an unsupervised landscape feature, keep children back from the edge, and do not assume a restroom or parking space is beside every shoreline segment."
+      }
+    ],
+    "launch-ct-new-haven-east-rock-park": [
+      {
+        "name": "East Rock Summit",
+        "osm": "node/359262702",
+        "imageIndex": 0,
+        "sourceLabel": "City of New Haven Parks",
+        "source": "https://www.newhavenct.gov/Home/Components/FacilityDirectory/FacilityDirectory/10/664",
+        "summary": "East Rock Summit is the park's elevated New Haven overlook, reached by trails and, when open, Summit Drive.",
+        "cost": "There is no separate admission for the summit; organized activities and reserved facilities can require permits.",
+        "hours": "The park is closed from sunset to sunrise. Summit-road access can be more limited than lower park access and can change with season, weather, maintenance, or events.",
+        "needToKnow": "Do not assume Summit Drive is open to vehicles. Check current road conditions, carry water, expect steep grades and exposed weather, and use the exact summit pin rather than a lower East Rock entrance."
+      },
+      {
+        "name": "Soldiers' and Sailors' Monument",
+        "osm": "way/845472570",
+        "imageIndex": 1,
+        "sourceLabel": "City of New Haven Parks",
+        "source": "https://www.newhavenct.gov/Home/Components/FacilityDirectory/FacilityDirectory/10/664",
+        "summary": "The Soldiers' and Sailors' Monument is the prominent stone memorial at East Rock's summit overlook.",
+        "cost": "Viewing the outdoor monument is free; there is no general public admission desk at the monument.",
+        "hours": "Outdoor viewing follows East Rock Park's sunset-to-sunrise closure and any summit-road, severe-weather, maintenance, or event restrictions.",
+        "needToKnow": "The monument is at the summit, not beside the College Woods entrance. Plan for a steep walking approach if the summit road is closed, supervise children near overlooks, and do not rely on the seasonal portable restrooms being available year-round."
+      }
+    ],
+    "launch-ct-new-haven-lighthouse-point-park": [
+      {
+        "name": "Five Mile Point Light",
+        "osm": "way/476786219",
+        "imageIndex": 0,
+        "sourceLabel": "City of New Haven Parks",
+        "source": "https://www.newhavenct.gov/Home/Components/FacilityDirectory/FacilityDirectory/16/664",
+        "summary": "Five Mile Point Light is the historic 1847 sandstone lighthouse beside the beach and carousel at Lighthouse Point Park.",
+        "cost": "Viewing the lighthouse exterior is included with park access; seasonal nonresident vehicle-parking charges still apply.",
+        "hours": "Outdoor viewing follows the park gate schedule of 7:00 a.m. to sunset. The lighthouse is a landmark, not a regularly advertised walk-in tower.",
+        "needToKnow": "Plan to view the exterior unless the City advertises a special opening. Summer vehicle fees depend on residency, and beach weather, events, or maintenance can change access around the lighthouse."
+      },
+      {
+        "name": "Lighthouse Point Carousel",
+        "osm": "way/230169898",
+        "imageIndex": 2,
+        "sourceLabel": "City of New Haven Parks",
+        "source": "https://www.newhavenct.gov/Home/Components/FacilityDirectory/FacilityDirectory/16/664",
+        "summary": "Lighthouse Point Carousel is the park's historic indoor carousel beside the lighthouse and beach.",
+        "cost": "The City lists carousel rides at 50 cents; seasonal vehicle-parking fees and private rentals are separate.",
+        "hours": "The regular summer schedule is Saturdays, Sundays, and holidays from noon-4:00 p.m., Memorial Day through Labor Day, with rides approximately every 20 minutes.",
+        "needToKnow": "The carousel is not open whenever the park is open. Confirm the current operating notice before traveling specifically to ride, bring a separate payment method for parking, and expect weather or events to affect operation."
+      },
+      {
+        "name": "Lighthouse Point Beach",
+        "osm": "relation/10790665",
+        "imageIndex": 1,
+        "sourceLabel": "City of New Haven Parks",
+        "source": "https://www.newhavenct.gov/Home/Components/FacilityDirectory/FacilityDirectory/16/664",
+        "summary": "Lighthouse Point Beach is the sandy public shoreline on New Haven Harbor beside Five Mile Point Light.",
+        "cost": "Beach use is included with park access; during the summer season New Haven registered vehicles enter free, while nonresident and out-of-state vehicles pay the City's current daily or seasonal parking fee.",
+        "hours": "Gates are open 7:00 a.m. to sunset. Lifeguards are present only during posted summer times, and the bathhouse, concession, carousel, and splash pad keep separate seasonal schedules.",
+        "needToKnow": "Check the posted lifeguard status before swimming and supervise children continuously. Accessible restrooms, a bathhouse, and a first-come beach wheelchair are listed, but availability can change with season, staffing, weather, water conditions, or maintenance."
+      }
+    ],
+    "launch-ct-hartford-bushnell-park": [
+      {
+        "name": "Corning Fountain",
+        "osm": "way/677420524",
+        "imageIndex": 2,
+        "sourceLabel": "Bushnell Park Conservancy",
+        "source": "https://bushnellpark.org/attractions",
+        "summary": "Corning Fountain is Bushnell Park's major sculptural fountain near the western lawn and state capitol side.",
+        "cost": "There is no separate admission for viewing the outdoor fountain.",
+        "hours": "Outdoor access follows Bushnell Park's dawn-to-dusk schedule, while fountain operation is seasonal and can pause for maintenance or weather.",
+        "needToKnow": "This is an ornamental fountain, not a splash pad. Stay outside the basin, use the exact fountain pin, and do not interpret an inactive fountain as a park closure."
+      },
+      {
+        "name": "Soldiers and Sailors Memorial Arch",
+        "osm": "way/915714014",
+        "imageIndex": 3,
+        "sourceLabel": "Bushnell Park Conservancy",
+        "source": "https://bushnellpark.org/attractions",
+        "summary": "The Soldiers and Sailors Memorial Arch is Bushnell Park's prominent historic gateway over Trinity Street.",
+        "cost": "There is no separate admission for viewing the exterior of the outdoor memorial arch.",
+        "hours": "Ground-level viewing follows the park's dawn-to-dusk schedule; events, traffic controls, conservation work, and any special interior access follow separate notices.",
+        "needToKnow": "The arch spans an active street edge, so use marked crossings and supervise children. Do not assume the interior towers are open; ordinary visits are exterior, ground-level stops unless a specific tour is announced."
+      }
+    ],
+    "launch-ct-hartford-elizabeth-park": []
+  },
+  "researchQueue": {
+    "launch-nj-newark-branch-brook-park": "Secure exact reusable photographs before publishing the Cherry Blossom Welcome Center, Prudential Concert Grove, named bridges, lake, Children's Garden, community garden, tennis center, or additional memorials.",
+    "launch-nj-newark-weequahic-park": "Secure current exact photographs and reviewed pins before publishing the lake trail, golf course, playgrounds, Divident Hill Pavilion, Franklin Murphy Monument, rose garden, courts, fields, or community center as separate pages.",
+    "launch-nj-jersey-city-liberty-state-park": "Secure exact reusable photographs and mapped pins before publishing CRRNJ Terminal, Nature Center, Liberty Walk, Jersey Avenue bridge, playgrounds, picnic areas, ferry landing, boat launches, or marina facilities as separate pages.",
+    "launch-nj-jersey-city-lincoln-park": "Secure exact reusable photographs and reviewed pins before publishing the fountain, Lincoln the Mystic, golf course, track, Jaroschak Field, playgrounds, West Nature Trail, courts, or other athletic facilities.",
+    "launch-ct-new-haven-east-rock-park": "Secure exact reusable photographs before publishing College Woods, Trowbridge Environmental Center, Rice Field, Blake Field, Indian Head Vista, English Drive, seasonal restrooms, or additional trails as separate pages.",
+    "launch-ct-new-haven-lighthouse-point-park": "Secure exact reviewed coordinates before publishing the splash pad, bathhouse, playground, hawk-watch area, pavilions, concession, or boat launch; the licensed splash-pad photograph remains parent-gallery context until then.",
+    "launch-ct-hartford-bushnell-park": "Secure an exact reviewed carousel pin before publishing it as a subsite, and exact photographs before publishing the Pump House, playground, performance pavilion, Horace Wells Monument, pond, or additional memorials.",
+    "launch-ct-hartford-elizabeth-park": "Secure exact reusable photographs for the Rose Garden, Perennial Garden, annual garden, Pond House, playground, overlook, visitor center, and greenhouses before publishing them as separate pages. Current licensed photographs remain parent-gallery context."
+  }
+}

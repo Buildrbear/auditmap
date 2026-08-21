@@ -1,0 +1,272 @@
+{
+  "campaign": "South Florida Atlantic anchor connector",
+  "checkedAt": "2026-08-10",
+  "releaseStandard": "Four licensed destination-specific photos, preserved official visitor answers, full street addresses, and only named subsites with reviewed coordinates plus destination-specific photography.",
+  "places": [
+    {
+      "id": "launch-fl-fort-lauderdale-hugh-taylor-birch-state-park",
+      "name": "Hugh Taylor Birch State Park",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "citySlug": "fort-lauderdale-fl",
+      "operator": "Florida State Parks",
+      "source": "https://www.floridastateparks.org/parks-and-trails/hugh-taylor-birch-state-park",
+      "featureResearchRadiusMeters": 1600,
+      "imageQueries": [
+        "Hugh Taylor Birch State Park",
+        "Terramar Visitor Center",
+        "Hugh Taylor Birch coastal hammock trail",
+        "Lake Helen Hugh Taylor Birch"
+      ],
+      "subsites": [
+        "Terramar Visitor Center",
+        "Beach Gate",
+        "Coastal Hammock Trail",
+        "Lake Helen Paddling Area",
+        "The Grove concession",
+        "Rail Trail",
+        "North End Playground"
+      ]
+    },
+    {
+      "id": "launch-fl-fort-lauderdale-snyder-park",
+      "name": "Snyder Park",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "citySlug": "fort-lauderdale-fl",
+      "operator": "City of Fort Lauderdale Parks and Recreation",
+      "source": "https://www.parks.fortlauderdale.gov/Home/Components/FacilityDirectory/FacilityDirectory/62/1243",
+      "deferRelease": true,
+      "deferReason": "No destination-specific photograph with reusable rights cleared the current review. Search results were unrelated Snyder-Middleswarth Natural Area images or an unrelated meeting photograph.",
+      "featureResearchRadiusMeters": 1500,
+      "imageQueries": [
+        "Snyder Park Fort Lauderdale",
+        "Snyder Park Bark Park dog swim",
+        "Snyder Park nature trail",
+        "Snyder Park disc golf"
+      ],
+      "subsites": [
+        "Bark Park",
+        "Dog Swim Lake",
+        "Snyder Park Nature Trail",
+        "Snyder Park Disc Golf Course",
+        "Snyder Park Playground",
+        "Butterfly Garden",
+        "The FORT pickleball facility"
+      ]
+    },
+    {
+      "id": "launch-fl-west-palm-beach-okeeheelee-park",
+      "name": "Okeeheelee Park",
+      "city": "West Palm Beach",
+      "state": "FL",
+      "citySlug": "west-palm-beach-fl",
+      "operator": "Palm Beach County Parks and Recreation",
+      "source": "https://discover.pbcgov.org/parks/Locations/Okeeheelee.aspx",
+      "featureResearchRadiusMeters": 3000,
+      "imageQueries": [
+        "Okeeheelee Park",
+        "Okeeheelee Nature Center",
+        "Okeeheelee Park dog park",
+        "Okeeheelee Park mountain bike trail"
+      ],
+      "subsites": [
+        "Okeeheelee Playground",
+        "Okeeheelee Canoe and Kayak Area",
+        "Okeeheelee Nature Center",
+        "Okeeheelee Dog Park",
+        "Okeeheelee Park South Mountain Bike Trailhead",
+        "Shark Wake Park 561",
+        "Jim Brandon Equestrian Center",
+        "Okeeheelee BMX Track",
+        "Okeeheelee Fitness Trail",
+        "Okeeheelee Fishing Pier"
+      ]
+    },
+    {
+      "id": "launch-fl-west-palm-beach-dreher-park",
+      "name": "Dreher Park",
+      "city": "West Palm Beach",
+      "state": "FL",
+      "citySlug": "west-palm-beach-fl",
+      "operator": "City of West Palm Beach Parks and Recreation",
+      "source": "https://www.wpb.org/Departments/Parks-Recreation/Parks/Dreher-Park",
+      "featureResearchRadiusMeters": 1800,
+      "imageQueries": [
+        "Dreher Park West Palm Beach",
+        "Palm Beach Zoo Dreher Park",
+        "Cox Science Center Dreher Park",
+        "Dreher Park dog park"
+      ],
+      "subsites": [
+        "Palm Beach Zoo",
+        "Cox Science Center and Aquarium",
+        "Dreher Dog Park",
+        "Dreher Park Playground",
+        "Dreher Park Disc Golf Course",
+        "Dreher Park Fishing Dock",
+        "Dreher Park Public Art"
+      ]
+    },
+    {
+      "id": "launch-fl-fort-lauderdale-fort-lauderdale-beach-park",
+      "name": "Fort Lauderdale Beach Park",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "citySlug": "fort-lauderdale-fl",
+      "operator": "City of Fort Lauderdale Parks and Recreation",
+      "source": "https://www.parks.fortlauderdale.gov/beach/beaches/fort-lauderdale-beach-park",
+      "featureResearchRadiusMeters": 1400,
+      "imageQueries": [
+        "Fort Lauderdale Beach Park",
+        "Fort Lauderdale beach lifeguard tower",
+        "Fort Lauderdale beach ocean",
+        "Fort Lauderdale Beach Florida"
+      ],
+      "subsites": [
+        "Fort Lauderdale Beach Park Playground",
+        "Fort Lauderdale Beach Park Volleyball Courts",
+        "South Beach Picnic Area"
+      ]
+    },
+    {
+      "id": "launch-fl-hollywood-hollywood-beach-and-broadwalk",
+      "name": "Hollywood Beach and Broadwalk",
+      "city": "Hollywood",
+      "state": "FL",
+      "citySlug": "hollywood-fl",
+      "operator": "City of Hollywood Parks, Recreation and Cultural Arts",
+      "source": "https://hollywoodfl.org/facilities/facility/details/Hollywood-Beach-Broadwalk-109",
+      "featureResearchRadiusMeters": 4000,
+      "imageQueries": [
+        "Hollywood Beach Broadwalk",
+        "Hollywood Dog Beach",
+        "Charnow Park Hollywood Florida",
+        "Hollywood Beach Theatre"
+      ],
+      "subsites": [
+        "Charnow Park",
+        "Hollywood Beach Theatre",
+        "Hollywood Dog Beach",
+        "Johnson Street Accessible Beach Entrance",
+        "Garfield Street Parking Garage"
+      ]
+    },
+    {
+      "id": "launch-fl-hollywood-anne-kolb-nature-center",
+      "name": "Anne Kolb Nature Center",
+      "city": "Hollywood",
+      "state": "FL",
+      "citySlug": "hollywood-fl",
+      "operator": "Broward County Parks and Recreation",
+      "source": "https://www.visitlauderdale.com/listing/anne-kolb-nature-center/3989/",
+      "featureResearchRadiusMeters": 1800,
+      "minimumImages": 3,
+      "imageQueries": [
+        "Anne Kolb Nature Center",
+        "Anne Kolb observation tower",
+        "Anne Kolb mangrove boardwalk"
+      ],
+      "subsites": [
+        "Anne Kolb Observation Tower",
+        "Exhibit Hall and Eco-Room",
+        "Lake Trail",
+        "Fishing Pier Trail",
+        "Mud Flat Trail",
+        "South Trail"
+      ]
+    },
+    {
+      "id": "launch-fl-dania-beach-dr-von-d-mizell-eula-johnson-state-park",
+      "name": "Dr. Von D. Mizell-Eula Johnson State Park",
+      "city": "Dania Beach",
+      "state": "FL",
+      "citySlug": "dania-beach-fl",
+      "operator": "Florida Park Service",
+      "source": "https://www.floridastateparks.org/mizell",
+      "featureResearchRadiusMeters": 2600,
+      "imageQueries": [
+        "Mizell Eula Johnson State Park",
+        "John U Lloyd State Park boardwalk",
+        "John U Lloyd State Park beach",
+        "John U Lloyd State Park lagoon"
+      ],
+      "subsites": [
+        "Whiskey Creek Hideout and Paddling Area",
+        "Barrier Nature Trail",
+        "Jetty Pavilion",
+        "Boat Ramp"
+      ]
+    },
+    {
+      "id": "launch-fl-hollywood-hollywood-north-beach-park",
+      "name": "Hollywood North Beach Park",
+      "city": "Hollywood",
+      "state": "FL",
+      "citySlug": "hollywood-fl",
+      "operator": "Broward County Parks and Recreation",
+      "source": "https://www.visitlauderdale.com/listing/hollywood-north-beach-park/4760/",
+      "featureResearchRadiusMeters": 1700,
+      "minimumImages": 4,
+      "imageQueries": [
+        "Hollywood North Beach Park",
+        "Hollywood Florida North Beach boardwalk",
+        "Hollywood North Beach ocean"
+      ],
+      "subsites": [
+        "Atlantic Beach Access",
+        "Intracoastal Fishing Piers",
+        "Observation Tower",
+        "Marine Environmental Education Center at the Carpenter House"
+      ]
+    },
+    {
+      "id": "launch-fl-deerfield-beach-quiet-waters-park",
+      "name": "Quiet Waters Park",
+      "city": "Deerfield Beach",
+      "state": "FL",
+      "citySlug": "deerfield-beach-fl",
+      "operator": "Broward County Parks and Recreation",
+      "source": "https://www.broward.org/Parks/ThingsToDo/Pages/SplashAdventure.aspx",
+      "featureResearchRadiusMeters": 2600,
+      "minimumImages": 4,
+      "imageQueries": [
+        "Quiet Waters Park",
+        "Quiet Waters Splash Adventure",
+        "Quiet Waters Ski Rixen"
+      ],
+      "subsites": [
+        "Splash Adventure",
+        "Ski Rixen USA Cable Park",
+        "Woofing Waters Dog Park",
+        "Quiet Waters Campground",
+        "Mountain Bike Trails",
+        "Lakeview Marina"
+      ]
+    },
+    {
+      "id": "launch-fl-cooper-city-brian-piccolo-sports-park-velodrome",
+      "name": "Brian Piccolo Sports Park & Velodrome",
+      "city": "Cooper City",
+      "state": "FL",
+      "citySlug": "cooper-city-fl",
+      "operator": "Broward County Parks and Recreation",
+      "source": "https://www.broward.org/Parks/Support/Documents/BrianPiccoloInfo.pdf",
+      "featureResearchRadiusMeters": 1800,
+      "minimumImages": 4,
+      "imageQueries": [
+        "Brian Piccolo Sports Park",
+        "Brian Piccolo Park Velodrome",
+        "Brian Piccolo inline skating"
+      ],
+      "subsites": [
+        "Brian Piccolo Park Velodrome",
+        "Road Course",
+        "Cricket Fields",
+        "Disc Golf Course",
+        "Playground",
+        "Baseball and Softball Complex"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "checkedAt": "2026-08-10",
+  "places": {
+    "launch-oh-cleveland-edgewater-park": {
+      "edgewater-beach": {
+        "latitude": 41.48875,
+        "longitude": -81.738258,
+        "coordinateSource": "https://commons.wikimedia.org/wiki/File:Edgewater_Park_beach.png",
+        "positionQuality": "reviewed-current-beach-geotag-and-official-destination-map-match"
+      },
+      "cleveland-script-sign": {
+        "latitude": 41.4875455,
+        "longitude": -81.7492496,
+        "coordinateSource": "https://www.openstreetmap.org/node/13018358573",
+        "positionQuality": "reviewed-named-attraction-node-and-destination-photo-match"
+      }
+    },
+    "launch-oh-cleveland-wendy-park": {
+      "wendy-park-bridge": {
+        "latitude": 41.4976843,
+        "longitude": -81.7106801,
+        "coordinateSource": "https://www.openstreetmap.org/way/965074574",
+        "positionQuality": "reviewed-named-bridge-way-and-geotagged-photo-match"
+      },
+      "wendy-park-volleyball-courts": {
+        "latitude": 41.4994889,
+        "longitude": -81.7123306,
+        "coordinateSource": "https://commons.wikimedia.org/wiki/File:Wendy_Park_at_Whiskey_Island_-_51268866800.jpg",
+        "positionQuality": "reviewed-destination-specific-photo-geotag-and-official-amenity-match"
+      },
+      "old-cleveland-coast-guard-station": {
+        "latitude": 41.503056,
+        "longitude": -81.712778,
+        "coordinateSource": "https://commons.wikimedia.org/wiki/File:Old_Cleveland_Coast_Guard_Station,_Whiskey_Island,_Cleveland,_OH_(28569038297).jpg",
+        "positionQuality": "reviewed-named-building-photo-geotag-and-current-operator-access-match"
+      }
+    },
+    "launch-oh-cleveland-rockefeller-park-and-cultural-gardens": {
+      "italian-cultural-garden": {
+        "latitude": 41.528395,
+        "longitude": -81.6271654,
+        "coordinateSource": "https://www.openstreetmap.org/way/416229345",
+        "positionQuality": "reviewed-named-garden-way-and-official-address-match"
+      },
+      "hungarian-cultural-garden": {
+        "latitude": 41.5254784,
+        "longitude": -81.6250585,
+        "coordinateSource": "https://commons.wikimedia.org/wiki/File:Hungarian_Cultural_Garden.jpg",
+        "positionQuality": "reviewed-named-garden-position-and-destination-photo-geotag-match"
+      }
+    },
+    "launch-oh-cleveland-public-square": {
+      "soldiers-and-sailors-monument": {
+        "latitude": 41.4995,
+        "longitude": -81.693,
+        "coordinateSource": "https://www.openstreetmap.org/way/430783849",
+        "positionQuality": "reviewed-named-monument-way-and-official-southeast-quadrant-match"
+      },
+      "public-square-splash-pad": {
+        "latitude": 41.49969,
+        "longitude": -81.693681,
+        "coordinateSource": "https://commons.wikimedia.org/wiki/File:Cleveland_Public_Square_Fountain_(27952683361).jpg",
+        "positionQuality": "reviewed-destination-photo-geotag-and-official-park-map-match"
+      }
+    },
+    "launch-oh-cleveland-rocky-river-reservation": {
+      "rocky-river-nature-center": {
+        "latitude": 41.40908,
+        "longitude": -81.88391,
+        "coordinateSource": "https://www.openstreetmap.org/way/292654340",
+        "positionQuality": "reviewed-named-public-building-way-and-official-address-match"
+      },
+      "berea-falls-scenic-overlook": {
+        "latitude": 41.37798,
+        "longitude": -81.86575,
+        "coordinateSource": "https://www.openstreetmap.org/node/105710439",
+        "positionQuality": "reviewed-named-viewpoint-node-and-destination-photo-match"
+      }
+    },
+    "launch-oh-cleveland-brecksville-reservation": {
+      "brecksville-nature-center": {
+        "latitude": 41.31767,
+        "longitude": -81.61583,
+        "coordinateSource": "https://www.openstreetmap.org/way/493365969",
+        "positionQuality": "reviewed-named-building-way-and-official-address-match"
+      },
+      "chippewa-creek-gorge-scenic-overlook": {
+        "latitude": 41.3195,
+        "longitude": -81.62207,
+        "coordinateSource": "https://www.clevelandmetroparks.com/parks/visit/parks/brecksville-reservation/chippewa-creek-gorge-scenic-overlook",
+        "positionQuality": "reviewed-official-route-82-overlook-and-open-map-position-match"
+      }
+    },
+    "launch-oh-cleveland-cuyahoga-valley-national-park": {
+      "brandywine-falls": {
+        "latitude": 41.276347,
+        "longitude": -81.53929,
+        "coordinateSource": "https://www.nps.gov/cuva/planyourvisit/parking.htm",
+        "positionQuality": "reviewed-official-nps-trailhead-coordinate-for-falls-arrival"
+      },
+      "ledges-trail": {
+        "latitude": 41.223414,
+        "longitude": -81.51027,
+        "coordinateSource": "https://www.nps.gov/cuva/planyourvisit/parking.htm",
+        "positionQuality": "reviewed-official-nps-ledges-trailhead-coordinate"
+      },
+      "beaver-marsh": {
+        "latitude": 41.1845833,
+        "longitude": -81.58335,
+        "coordinateSource": "https://www.nps.gov/cuva/planyourvisit/half-day-visit.htm",
+        "positionQuality": "reviewed-official-nps-ira-trailhead-coordinate-for-marsh-arrival"
+      },
+      "everett-covered-bridge": {
+        "latitude": 41.2044167,
+        "longitude": -81.5810833,
+        "coordinateSource": "https://www.nps.gov/cuva/planyourvisit/half-day-visit.htm",
+        "positionQuality": "reviewed-official-nps-everett-trailhead-coordinate"
+      }
+    }
+  }
+}

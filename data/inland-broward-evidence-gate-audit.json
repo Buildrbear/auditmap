@@ -1,0 +1,74 @@
+{
+  "campaign": "Inland Broward evidence-gate rebuild",
+  "checkedAt": "2026-08-11",
+  "assignment": "Direct AuditMap owner request continuing the nationwide enrichment campaign; no separate OpenTask assignment or GitHub issue URL was supplied.",
+  "reviewMethod": "Recent official-source indexing review, live source-availability checks, Openverse reusable-license search, exact source-page rights review, and visual destination-match review. Search-engine results, proprietary listings, wildlife close-ups, unrelated parks, and event portraits were not accepted as representative parent coverage.",
+  "sourceAvailabilityCheck": "On 2026-08-11, the Broward County pages and PDFs listed below returned HTTP 404 both to direct GET requests and when opened through a separate web fetcher, although official search indexes had crawled and exposed their contents within the prior two weeks. They are retained as provenance for this research audit but are not treated as currently reachable publication sources. The Flickr rights pages returned HTTP 200.",
+  "outcome": {
+    "acceptedParents": 0,
+    "deferredParents": 3,
+    "acceptedSubsites": 0,
+    "generatedPages": 0,
+    "productionChanges": 0
+  },
+  "places": {
+    "launch-fl-hollywood-t-y-park": {
+      "name": "T.Y. Park",
+      "alternateNames": ["Topeekeegee Yugnee Park"],
+      "officialEvidenceStatus": "recent-official-guidance-indexed-live-urls-unreachable",
+      "photoGateStatus": "deferred-event-portrait-only-reusable-coverage",
+      "reusableCandidatesReviewed": 10,
+      "representativeCandidatesAccepted": 0,
+      "photoFinding": "All ten reusable results are near-duplicate photographs from one March 2007 event. Visual review shows people, balloons, decorated picnic tables, and a shelter edge rather than representative visitor views of the park or its major amenities.",
+      "minimumEvidenceNeeded": "Four varied reusable views collectively showing the lake or fitness loop, Castaway Island or another major facility, a playground or campground context, and ordinary park circulation or picnic landscape.",
+      "officialSources": [
+        {"label": "Broward County park directory", "url": "https://www.broward.org/atyourservice/Pages/parks.htm"},
+        {"label": "Broward County Castaway Island 2026 guide", "url": "https://www.broward.org/Parks/ThingsToDo/Pages/CastawayIsland.aspx"},
+        {"label": "Broward County playground guide", "url": "https://www.broward.org/Parks/ThingsToDo/pages/playgrounds.aspx"},
+        {"label": "Broward County bicycling guide", "url": "https://www.broward.org/Parks/ThingsToDo/Pages/Bicycling.aspx"},
+        {"label": "Broward County general park information", "url": "https://www.broward.org/Parks/Pages/GeneralInformation.aspx"}
+      ],
+      "freshnessRisks": ["official Broward County source URLs returned HTTP 404 on 2026-08-11", "Castaway Island seasonal dates, hours, admission, and weather closures", "campground availability and rates", "park gate fees", "facility maintenance and event access"],
+      "subsiteDecision": "No subsite is eligible while the parent remains unpublished and no candidate has both an exact reviewed position and a matching reusable destination photograph."
+    },
+    "launch-fl-davie-tree-tops-park": {
+      "name": "Tree Tops Park",
+      "officialEvidenceStatus": "recent-official-guidance-indexed-live-urls-unreachable",
+      "photoGateStatus": "deferred-no-representative-reusable-coverage",
+      "reusableCandidatesReviewed": 34,
+      "representativeCandidatesAccepted": 0,
+      "photoFinding": "Openverse results are false matches from unrelated parks and destinations. A current exact-location 85-photo Flickr set clearly depicts Tree Tops Park but is all-rights-reserved, so it cannot support publication.",
+      "minimumEvidenceNeeded": "Four varied reusable views collectively showing the canopy or trails, wetland boardwalk, viewing tower or developed facility, and playground, shelter, or visitor circulation.",
+      "officialSources": [
+        {"label": "Broward County December 2025 Tree Tops briefing", "url": "https://www.broward.org/Parks/Support/Documents/TT120525.pdf"},
+        {"label": "Broward County December 2025 advisory-board minutes", "url": "https://www.broward.org/Parks/Support/Documents/PABMinutes12-05-2025Draft.pdf"},
+        {"label": "Broward County park directory", "url": "https://www.broward.org/atyourservice/Pages/parks.htm"},
+        {"label": "Broward County playground guide", "url": "https://www.broward.org/Parks/ThingsToDo/pages/playgrounds.aspx"},
+        {"label": "Broward County nature guide", "url": "https://www.broward.org/PARKS/THINGSTODO/Pages/Nature.aspx"}
+      ],
+      "rightsEvidence": [{"label": "Current Tree Tops Park Flickr set marked all rights reserved", "url": "https://www.flickr.com/photos/floridahikes/sets/72177720332359230"}],
+      "freshnessRisks": ["official Broward County source URLs returned HTTP 404 on 2026-08-11", "playground replacement work", "boardwalk or viewing-tower access", "trail conditions", "hall and shelter reservations", "event closures"],
+      "subsiteDecision": "Viewing Tower, Wetland Boardwalk, Pine Island Ridge, Oak Ridge Hall, and playground concepts remain deferred pending exact reusable photo-and-pin pairs and destination-specific profiles."
+    },
+    "launch-fl-davie-vista-view-park": {
+      "name": "Vista View Park",
+      "officialEvidenceStatus": "recent-official-guidance-indexed-live-urls-unreachable",
+      "photoGateStatus": "deferred-wildlife-or-all-rights-reserved-coverage",
+      "reusableCandidatesReviewed": 17,
+      "representativeCandidatesAccepted": 0,
+      "photoFinding": "Openverse results are unrelated places. Exact-location Flickr search results emphasize wildlife close-ups, while a twelve-photo park album explicitly reserves all rights; neither class provides reusable representative visitor coverage.",
+      "minimumEvidenceNeeded": "Four varied reusable views collectively showing the hill and paths, playground or splash pad, shelters or fitness facilities, and ordinary park circulation or a broad overlook.",
+      "officialSources": [
+        {"label": "Broward County park directory", "url": "https://www.broward.org/atyourservice/Pages/parks.htm"},
+        {"label": "Broward County splash-pad guide", "url": "https://www.broward.org/Parks/ThingsToDo/Pages/SplashPads.aspx"},
+        {"label": "Broward County playground guide", "url": "https://www.broward.org/Parks/ThingsToDo/pages/playgrounds.aspx"},
+        {"label": "Broward County bicycling guide", "url": "https://www.broward.org/Parks/ThingsToDo/Pages/Bicycling.aspx"},
+        {"label": "Broward County May 2026 planning update", "url": "https://www.broward.org/Parks/Support/Documents/PARKSPLANNINGANDDESIGN-ProjectHighlightsforAdvisoryBoard-May2026.pdf"}
+      ],
+      "rightsEvidence": [{"label": "Exact-location Vista View Park Flickr album marked all rights reserved", "url": "https://www.flickr.com/photos/miamiboy/albums/72157712422017126"}],
+      "freshnessRisks": ["official Broward County source URLs returned HTTP 404 on 2026-08-11", "south-hill parking work", "north-hill development", "splash-pad operations", "playground and fitness equipment maintenance", "event or airfield restrictions"],
+      "subsiteDecision": "Splash Pad, Playground, Hilltop, Fitness Zone, and Airfield concepts remain deferred pending exact reusable photo-and-pin pairs and destination-specific profiles."
+    }
+  },
+  "nextAction": "Open a Miami waterfront evidence-gate rebuild covering Maurice A. Ferre Park, Bayfront Park, South Pointe Park, Lummus Park, Matheson Hammock Park, Crandon Park, Bill Baggs Cape Florida State Park, and Historic Virginia Key Beach Park. Replace legacy destination cards with evidence-cleared pages only."
+}

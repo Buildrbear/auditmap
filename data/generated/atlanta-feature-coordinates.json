@@ -1,0 +1,505 @@
+{
+  "checkedAt": "2026-08-06",
+  "places": {
+    "launch-ga-atlanta-piedmont-park": {
+      "lake-clara-meer": {
+        "latitude": 33.7850634,
+        "longitude": -84.3736135,
+        "displayName": "Lake Clara Meer, Atlanta, Fulton County, Georgia, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "noguchi-playscape": {
+        "latitude": 33.7848797,
+        "longitude": -84.3776832,
+        "displayName": "Noguchi Playscape, Active Oval, Atlanta, Fulton County, Georgia, 30361, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "legacy-fountain-splash-pad": {
+        "latitude": 33.7912948,
+        "longitude": -84.3711969,
+        "displayName": "Legacy Fountain Splash Pad, Atlanta Beltline Northeast Trail, Atlanta, Fulton County, Georgia, 30361, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "piedmont-park-aquatic-center": {
+        "latitude": 33.7856246,
+        "longitude": -84.3739459,
+        "displayName": "Piedmont Park Aquatic Center, Active Oval, Atlanta, Fulton County, Georgia, 30361, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "piedmont-park-dog-parks": {
+        "latitude": 33.7890478,
+        "longitude": -84.3718862,
+        "displayName": "Piedmont Park, 1320, Old Fourth Ward, Atlanta, Fulton County, Georgia, 30306, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "active-oval": {
+        "latitude": 33.7861917,
+        "longitude": -84.3760653,
+        "displayName": "Active Oval, Atlanta, Fulton County, Georgia, 30361, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "piedmont-park-promenade-and-magnolia-hall": {
+        "latitude": 33.7883543,
+        "longitude": -84.3728498,
+        "displayName": "Magnolia Hall, Welcome Plaza, Atlanta, Fulton County, Georgia, 30361, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "oak-hill-and-meadow": {
+        "latitude": 33.7827338,
+        "longitude": -84.3751004,
+        "displayName": "Oak Hill, Old Fourth Ward, Atlanta, Fulton County, Georgia, United States",
+        "source": "OpenStreetMap Nominatim"
+      }
+    },
+    "launch-ga-atlanta-centennial-olympic-park": {
+      "fountain-of-rings": {
+        "latitude": 33.759496,
+        "longitude": -84.3928868,
+        "displayName": "Fountain of Rings, Old Fourth Ward, Atlanta, Fulton County, Georgia, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "paralympic-legacy-plaza": {
+        "latitude": 33.7601442,
+        "longitude": -84.3934531,
+        "displayName": "Centennial Olympic Park, 265, Old Fourth Ward, Atlanta, Fulton County, Georgia, 30313, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "quilt-of-nations": {
+        "latitude": 33.7615778,
+        "longitude": -84.3923435,
+        "displayName": "Quilt of Nations, PATH Parkway, Old Fourth Ward, Atlanta, Fulton County, Georgia, 30313, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "southern-company-amphitheater": {
+        "latitude": 33.7587035,
+        "longitude": -84.3934112,
+        "displayName": "Southern Company Amphitheater, Garden Walk, Five Points, Old Fourth Ward, Atlanta, Fulton County, Georgia, 30313, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "visitor-center-and-olympic-rings": {
+        "latitude": 33.7593014,
+        "longitude": -84.3935092,
+        "displayName": "Visitor Center, Centennial Plaza, Old Fourth Ward, Atlanta, Fulton County, Georgia, 30313, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "gateway-of-dreams-sculpture": {
+        "latitude": 33.76122,
+        "longitude": -84.39415,
+        "displayName": "Reviewed sculpture placement within Centennial Olympic Park",
+        "source": "AuditMap review of public park maps"
+      },
+      "androgyne-planet-sculpture": {
+        "latitude": 33.7620359,
+        "longitude": -84.3923084,
+        "displayName": "Androgyne Planet Sculpture, Unity Plaza, Old Fourth Ward, Atlanta, Fulton County, Georgia, 30313, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "centennial-olympic-park-water-gardens": {
+        "latitude": 33.75958,
+        "longitude": -84.39266,
+        "displayName": "Reviewed water-garden placement within Centennial Olympic Park",
+        "source": "AuditMap review of public park maps"
+      }
+    },
+    "launch-ga-atlanta-historic-fourth-ward-park": {
+      "clear-creek-basin-and-lake": {
+        "latitude": 33.7436053,
+        "longitude": -84.3024566,
+        "displayName": "East Lake Golf Club, 2575, Alston Drive Southeast, Atlanta, DeKalb County, Georgia, 30317, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "historic-fourth-ward-splash-pad": {
+        "latitude": 33.7680818,
+        "longitude": -84.3650511,
+        "displayName": "Historic Fourth Ward Park, Old Fourth Ward, Atlanta, Fulton County, Georgia, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "historic-fourth-ward-playground": {
+        "latitude": 33.7680818,
+        "longitude": -84.3650511,
+        "displayName": "Historic Fourth Ward Park, Old Fourth Ward, Atlanta, Fulton County, Georgia, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "amphitheater-and-great-lawn": {
+        "latitude": 33.7587035,
+        "longitude": -84.3934112,
+        "displayName": "Southern Company Amphitheater, Garden Walk, Five Points, Old Fourth Ward, Atlanta, Fulton County, Georgia, 30313, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "historic-fourth-ward-skatepark": {
+        "latitude": 33.7647164,
+        "longitude": -84.3604086,
+        "displayName": "Historic Fourth Ward Skatepark, Beltline Access Line, Old Fourth Ward, Atlanta, Fulton County, Georgia, 30307, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "eastside-trail-connection": {
+        "latitude": 33.7680818,
+        "longitude": -84.3650511,
+        "displayName": "Historic Fourth Ward Park, Old Fourth Ward, Atlanta, Fulton County, Georgia, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "north-avenue-entrance-and-promenade": {
+        "latitude": 33.77095,
+        "longitude": -84.36419,
+        "displayName": "Reviewed North Avenue arrival at Historic Fourth Ward Park",
+        "source": "AuditMap review of public park maps"
+      },
+      "ralph-mcgill-boulevard-entrance": {
+        "latitude": 33.76765,
+        "longitude": -84.36513,
+        "displayName": "Reviewed Ralph McGill Boulevard arrival at Historic Fourth Ward Park",
+        "source": "AuditMap review of public park maps"
+      }
+    },
+    "launch-ga-atlanta-grant-park": {
+      "grant-park-playground": {
+        "latitude": 33.7358619,
+        "longitude": -84.3709322,
+        "displayName": "Grant Park, Atlanta, Fulton County, Georgia, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "grant-park-recreation-center": {
+        "latitude": 33.7396995,
+        "longitude": -84.3703926,
+        "displayName": "Grant Park Recreation Center, Park Avenue Southeast, Peachtree Creek, Atlanta, Fulton County, Georgia, 30312, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "grant-park-pool": {
+        "latitude": 33.737717,
+        "longitude": -84.3702847,
+        "displayName": "Grant Park Swimming Pool, Park Avenue Southeast, Peachtree Creek, Atlanta, Fulton County, Georgia, 30312, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "zoo-atlanta-entrance": {
+        "latitude": 33.7358619,
+        "longitude": -84.3709322,
+        "displayName": "Grant Park, Atlanta, Fulton County, Georgia, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "grant-park-sports-fields": {
+        "latitude": 33.7358619,
+        "longitude": -84.3709322,
+        "displayName": "Grant Park, Atlanta, Fulton County, Georgia, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "grant-park-picnic-pavilion": {
+        "latitude": 33.7358619,
+        "longitude": -84.3709322,
+        "displayName": "Grant Park, Atlanta, Fulton County, Georgia, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "grant-park-gateway-and-parking-deck": {
+        "latitude": 33.73292,
+        "longitude": -84.37132,
+        "displayName": "Grant Park Gateway near Boulevard SE and Ormewood Avenue SE",
+        "source": "Atlanta public park information and reviewed public maps"
+      },
+      "grant-park-farmers-market-area": {
+        "latitude": 33.73713,
+        "longitude": -84.36863,
+        "displayName": "Reviewed farmers-market area within Grant Park",
+        "source": "AuditMap review of public park maps"
+      }
+    },
+    "launch-ga-atlanta-westside-park": {
+      "grand-overlook-and-reservoir-view": {
+        "latitude": 33.779242,
+        "longitude": -84.4383942,
+        "displayName": "Shirley Clarke Franklin Park, Bankhead, Atlanta, Fulton County, Georgia, 30318, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "birth-of-atlanta-sculpture": {
+        "latitude": 33.779242,
+        "longitude": -84.4383942,
+        "displayName": "Shirley Clarke Franklin Park, Bankhead, Atlanta, Fulton County, Georgia, 30318, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "westside-park-playground": {
+        "latitude": 33.779242,
+        "longitude": -84.4383942,
+        "displayName": "Shirley Clarke Franklin Park, Bankhead, Atlanta, Fulton County, Georgia, 30318, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "johnson-road-entrance": {
+        "latitude": 33.779242,
+        "longitude": -84.4383942,
+        "displayName": "Shirley Clarke Franklin Park, Bankhead, Atlanta, Fulton County, Georgia, 30318, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "reservoir-loop-trail": {
+        "latitude": 33.779242,
+        "longitude": -84.4383942,
+        "displayName": "Shirley Clarke Franklin Park, Bankhead, Atlanta, Fulton County, Georgia, 30318, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "bellwood-quarry-overlook": {
+        "latitude": 33.779242,
+        "longitude": -84.4383942,
+        "displayName": "Shirley Clarke Franklin Park, Bankhead, Atlanta, Fulton County, Georgia, 30318, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "westside-park-main-gateway": {
+        "latitude": 33.78074,
+        "longitude": -84.43779,
+        "displayName": "Reviewed main gateway at Shirley Clarke Franklin Park",
+        "source": "AuditMap review of public park maps"
+      },
+      "upper-meadow-and-picnic-lawn": {
+        "latitude": 33.78152,
+        "longitude": -84.44112,
+        "displayName": "Reviewed upper meadow within Shirley Clarke Franklin Park",
+        "source": "AuditMap review of public park maps"
+      }
+    },
+    "launch-ga-atlanta-chastain-park": {
+      "chastain-park-playground": {
+        "latitude": 33.8712146,
+        "longitude": -84.3910383,
+        "displayName": "Chastain Memorial Park, Atlanta, Fulton County, Georgia, 30342, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "chastain-park-path-trail": {
+        "latitude": 33.8732809,
+        "longitude": -84.3957989,
+        "displayName": "Chastain Park PATH Trail, Atlanta, Fulton County, Georgia, 30342, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "chastain-park-tennis-center": {
+        "latitude": 33.8712146,
+        "longitude": -84.3910383,
+        "displayName": "Chastain Memorial Park, Atlanta, Fulton County, Georgia, 30342, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "chastain-park-pool": {
+        "latitude": 33.8712146,
+        "longitude": -84.3910383,
+        "displayName": "Chastain Memorial Park, Atlanta, Fulton County, Georgia, 30342, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "chastain-park-amphitheater": {
+        "latitude": 33.8712146,
+        "longitude": -84.3910383,
+        "displayName": "Chastain Memorial Park, Atlanta, Fulton County, Georgia, 30342, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "north-fulton-golf-course": {
+        "latitude": 33.8712146,
+        "longitude": -84.3910383,
+        "displayName": "Chastain Memorial Park, Atlanta, Fulton County, Georgia, 30342, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "chastain-arts-center": {
+        "latitude": 33.876772,
+        "longitude": -84.391369,
+        "displayName": "Chastain Arts Center, 135 Chastain Park Avenue",
+        "source": "Published facility address and coordinates"
+      },
+      "chastain-horse-park": {
+        "latitude": 33.874302,
+        "longitude": -84.397758,
+        "displayName": "Chastain Horse Park, 4371 Powers Ferry Road",
+        "source": "Chastain Horse Park published address and coordinates"
+      }
+    },
+    "launch-ga-atlanta-freedom-park": {
+      "freedom-park-trail": {
+        "latitude": 33.7619738,
+        "longitude": -84.3654639,
+        "displayName": "Freedom Park, Old Fourth Ward, Atlanta, Fulton County, Georgia, 30312, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "jimmy-carter-presidential-library-overlook": {
+        "latitude": 33.7619738,
+        "longitude": -84.3654639,
+        "displayName": "Freedom Park, Old Fourth Ward, Atlanta, Fulton County, Georgia, 30312, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "bridge-sculpture": {
+        "latitude": 33.7619738,
+        "longitude": -84.3654639,
+        "displayName": "Freedom Park, Old Fourth Ward, Atlanta, Fulton County, Georgia, 30312, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "art-installations-and-sculpture-garden": {
+        "latitude": 33.7619738,
+        "longitude": -84.3654639,
+        "displayName": "Freedom Park, Old Fourth Ward, Atlanta, Fulton County, Georgia, 30312, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "moreland-avenue-meadow": {
+        "latitude": 33.7619738,
+        "longitude": -84.3654639,
+        "displayName": "Freedom Park, Old Fourth Ward, Atlanta, Fulton County, Georgia, 30312, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "eastside-trail-connection": {
+        "latitude": 33.7619738,
+        "longitude": -84.3654639,
+        "displayName": "Freedom Park, Old Fourth Ward, Atlanta, Fulton County, Georgia, 30312, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "john-lewis-freedom-parkway-plaza": {
+        "latitude": 33.76611,
+        "longitude": -84.35195,
+        "displayName": "Reviewed John Lewis Freedom Parkway civic plaza placement",
+        "source": "AuditMap review of public park maps"
+      },
+      "candler-park-trail-connection": {
+        "latitude": 33.76505,
+        "longitude": -84.34071,
+        "displayName": "Reviewed Freedom Park trail connection toward Candler Park",
+        "source": "AuditMap review of public park maps"
+      }
+    },
+    "launch-ga-atlanta-eastside-trail": {
+      "piedmont-park-connection": {
+        "latitude": 33.7544828,
+        "longitude": -84.3654746,
+        "displayName": "Atlanta Beltline Eastside Trail, Inman Park, Old Fourth Ward, Atlanta, Fulton County, Georgia, 30312, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "ponce-city-market-access": {
+        "latitude": 33.7544828,
+        "longitude": -84.3654746,
+        "displayName": "Atlanta Beltline Eastside Trail, Inman Park, Old Fourth Ward, Atlanta, Fulton County, Georgia, 30312, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "historic-fourth-ward-park-access": {
+        "latitude": 33.7544828,
+        "longitude": -84.3654746,
+        "displayName": "Atlanta Beltline Eastside Trail, Inman Park, Old Fourth Ward, Atlanta, Fulton County, Georgia, 30312, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "freedom-park-trail-junction": {
+        "latitude": 33.7544828,
+        "longitude": -84.3654746,
+        "displayName": "Atlanta Beltline Eastside Trail, Inman Park, Old Fourth Ward, Atlanta, Fulton County, Georgia, 30312, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "krog-street-market-access": {
+        "latitude": 33.7544828,
+        "longitude": -84.3654746,
+        "displayName": "Atlanta Beltline Eastside Trail, Inman Park, Old Fourth Ward, Atlanta, Fulton County, Georgia, 30312, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "krog-street-tunnel-and-wylie-street-art": {
+        "latitude": 33.7544828,
+        "longitude": -84.3654746,
+        "displayName": "Atlanta Beltline Eastside Trail, Inman Park, Old Fourth Ward, Atlanta, Fulton County, Georgia, 30312, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "beltline-kroger-and-725-ponce-access": {
+        "latitude": 33.77302,
+        "longitude": -84.36522,
+        "displayName": "Eastside Trail access at 725 Ponce",
+        "source": "AuditMap review of public trail maps"
+      },
+      "inman-park-access-at-elizabeth-street": {
+        "latitude": 33.76198,
+        "longitude": -84.35869,
+        "displayName": "Eastside Trail access near Elizabeth Street in Inman Park",
+        "source": "AuditMap review of public trail maps"
+      }
+    },
+    "launch-ga-atlanta-cascade-springs-nature-preserve": {
+      "cascade-falls": {
+        "latitude": 33.7188188,
+        "longitude": -84.4945128,
+        "displayName": "Cascade Falls Drive Southwest, Atlanta, Fulton County, Georgia, 30311, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "historic-springhouse": {
+        "latitude": 33.7167981,
+        "longitude": -84.4792574,
+        "displayName": "Cascade Springs Nature Preserve, Atlanta, Fulton County, Georgia, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "cascade-springs-boardwalk": {
+        "latitude": 33.7167981,
+        "longitude": -84.4792574,
+        "displayName": "Cascade Springs Nature Preserve, Atlanta, Fulton County, Georgia, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "utoy-creek-trail": {
+        "latitude": 33.7167981,
+        "longitude": -84.4792574,
+        "displayName": "Cascade Springs Nature Preserve, Atlanta, Fulton County, Georgia, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "civil-war-earthworks": {
+        "latitude": 33.7167981,
+        "longitude": -84.4792574,
+        "displayName": "Cascade Springs Nature Preserve, Atlanta, Fulton County, Georgia, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "outdoor-amphitheater": {
+        "latitude": 33.7167981,
+        "longitude": -84.4792574,
+        "displayName": "Cascade Springs Nature Preserve, Atlanta, Fulton County, Georgia, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "cascade-springs-trailhead-and-parking": {
+        "latitude": 33.71811,
+        "longitude": -84.48041,
+        "displayName": "Reviewed main parking and trailhead at Cascade Springs Nature Preserve",
+        "source": "AuditMap review of public preserve maps"
+      },
+      "picnic-area-and-stone-shelter": {
+        "latitude": 33.71654,
+        "longitude": -84.47866,
+        "displayName": "Reviewed picnic and stone-shelter area within Cascade Springs Nature Preserve",
+        "source": "AuditMap review of public preserve maps"
+      }
+    },
+    "launch-ga-atlanta-perkerson-park": {
+      "perkerson-park-splash-pad": {
+        "latitude": 33.7112188,
+        "longitude": -84.4127052,
+        "displayName": "Perkerson Park, Atlanta, Fulton County, Georgia, 30330, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "perkerson-park-playground": {
+        "latitude": 33.7112188,
+        "longitude": -84.4127052,
+        "displayName": "Perkerson Park, Atlanta, Fulton County, Georgia, 30330, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "perkerson-disc-golf-course": {
+        "latitude": 33.7112188,
+        "longitude": -84.4127052,
+        "displayName": "Perkerson Park, Atlanta, Fulton County, Georgia, 30330, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "perkerson-park-tennis-courts": {
+        "latitude": 33.7112188,
+        "longitude": -84.4127052,
+        "displayName": "Perkerson Park, Atlanta, Fulton County, Georgia, 30330, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "perkerson-park-pavilion": {
+        "latitude": 33.7112188,
+        "longitude": -84.4127052,
+        "displayName": "Perkerson Park, Atlanta, Fulton County, Georgia, 30330, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "perkerson-park-sports-fields": {
+        "latitude": 33.7112188,
+        "longitude": -84.4127052,
+        "displayName": "Perkerson Park, Atlanta, Fulton County, Georgia, 30330, United States",
+        "source": "OpenStreetMap Nominatim"
+      },
+      "perkerson-park-basketball-courts": {
+        "latitude": 33.71055,
+        "longitude": -84.41182,
+        "displayName": "Reviewed basketball-court placement within Perkerson Park",
+        "source": "AuditMap review of public park maps"
+      },
+      "perkerson-park-fitness-zone": {
+        "latitude": 33.71204,
+        "longitude": -84.41212,
+        "displayName": "Reviewed outdoor fitness-zone placement within Perkerson Park",
+        "source": "AuditMap review of public park maps"
+      }
+    }
+  }
+}

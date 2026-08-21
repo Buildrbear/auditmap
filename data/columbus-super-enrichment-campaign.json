@@ -1,0 +1,131 @@
+{
+  "campaign": "Columbus high-impact public destinations",
+  "checkedAt": "2026-08-11",
+  "releaseStandard": "Three to four reusable sourced photos, only exact photo-backed destinations, current source-specific visitor answers, static canonical pages, and live verification.",
+  "places": [
+    {
+      "id": "launch-oh-columbus-scioto-mile",
+      "name": "Scioto Mile",
+      "city": "Columbus",
+      "citySlug": "columbus-oh",
+      "operator": "Columbus Recreation and Parks",
+      "source": "https://columbusrecparks.com/parks/scioto-mile-promenade/",
+      "checkedAt": "2026-08-11",
+      "currentBatch": false,
+      "releaseBatch": "downtown-core-1",
+      "minImages": 4,
+      "subsites": [
+        "Promenade"
+      ]
+    },
+    {
+      "id": "launch-oh-columbus-franklin-park",
+      "name": "Franklin Park",
+      "city": "Columbus",
+      "citySlug": "columbus-oh",
+      "operator": "Columbus Recreation and Parks",
+      "source": "https://columbusrecparks.com/parks/franklin-park/",
+      "checkedAt": "2026-08-11",
+      "currentBatch": false,
+      "releaseBatch": "downtown-core-1",
+      "minImages": 4,
+      "subsites": [
+        "Franklin Park Conservatory",
+        "Cascades"
+      ]
+    },
+    {
+      "id": "launch-oh-columbus-goodale-park",
+      "name": "Goodale Park",
+      "city": "Columbus",
+      "citySlug": "columbus-oh",
+      "operator": "Columbus Recreation and Parks",
+      "source": "https://columbusrecparks.com/parks/goodale-park/",
+      "checkedAt": "2026-08-11",
+      "currentBatch": false,
+      "releaseBatch": "downtown-core-1",
+      "minImages": 4,
+      "subsites": [
+        "Goodale Park Pond",
+        "Goodale Park Shelterhouse"
+      ]
+    },
+    {
+      "id": "launch-oh-columbus-schiller-park",
+      "name": "Schiller Park",
+      "city": "Columbus",
+      "citySlug": "columbus-oh",
+      "operator": "Columbus Recreation and Parks",
+      "source": "https://columbusrecparks.com/parks/schiller-park/",
+      "checkedAt": "2026-08-11",
+      "currentBatch": false,
+      "releaseBatch": "neighborhood-gardens-2",
+      "minImages": 4,
+      "subsites": [
+        "Schiller Park Pond",
+        "Schiller Statue"
+      ]
+    },
+    {
+      "id": "launch-oh-columbus-whetstone-park-and-columbus-park-of-roses",
+      "name": "Whetstone Park and Columbus Park of Roses",
+      "city": "Columbus",
+      "citySlug": "columbus-oh",
+      "operator": "Columbus Recreation and Parks",
+      "source": "https://columbusrecparks.com/parks/whetstone-park-and-columbus-park-of-roses/",
+      "checkedAt": "2026-08-11",
+      "currentBatch": false,
+      "releaseBatch": "neighborhood-gardens-2",
+      "minImages": 4,
+      "subsites": [
+        "Columbus Park of Roses"
+      ]
+    },
+    {
+      "id": "launch-oh-columbus-highbanks-metro-park",
+      "name": "Highbanks Metro Park",
+      "city": "Columbus",
+      "citySlug": "columbus-oh",
+      "operator": "Columbus and Franklin County Metro Parks",
+      "source": "https://www.metroparks.net/parks-and-trails/highbanks/",
+      "checkedAt": "2026-08-11",
+      "currentBatch": false,
+      "releaseBatch": "metro-parks-3",
+      "minImages": 4,
+      "subsites": [
+        "Highbanks Observation Deck"
+      ]
+    },
+    {
+      "id": "launch-oh-columbus-battelle-darby-creek-metro-park",
+      "name": "Battelle Darby Creek Metro Park",
+      "city": "Columbus",
+      "citySlug": "columbus-oh",
+      "operator": "Columbus and Franklin County Metro Parks",
+      "source": "https://www.metroparks.net/parks-and-trails/battelle-darby-creek/",
+      "checkedAt": "2026-08-11",
+      "currentBatch": false,
+      "releaseBatch": "metro-parks-3",
+      "minImages": 4,
+      "subsites": [
+        "Battelle Darby Creek Nature Center",
+        "Bison Pastures"
+      ]
+    },
+    {
+      "id": "launch-oh-columbus-quarry-trails-metro-park",
+      "name": "Quarry Trails Metro Park",
+      "city": "Columbus",
+      "citySlug": "columbus-oh",
+      "operator": "Columbus and Franklin County Metro Parks",
+      "source": "https://www.metroparks.net/parks-and-trails/quarry-trails/",
+      "checkedAt": "2026-08-11",
+      "currentBatch": true,
+      "releaseBatch": "metro-parks-4",
+      "minImages": 4,
+      "subsites": [
+        "Millikin Falls"
+      ]
+    }
+  ]
+}

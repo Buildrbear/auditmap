@@ -1,0 +1,101 @@
+{
+  "checkedAt": "2026-08-08",
+  "deploymentId": "dpl_5F4QU3FoNcyNLqZ4KCrJfc6cKqwU",
+  "previewUrl": "https://auditmap-d35oxwyp9-derrys-projects-f5a18cb6.vercel.app",
+  "target": "preview",
+  "productionPublished": false,
+  "gitLinkedDeployment": {
+    "id": "dpl_5F4QU3FoNcyNLqZ4KCrJfc6cKqwU",
+    "url": "https://auditmap-d35oxwyp9-derrys-projects-f5a18cb6.vercel.app",
+    "scope": "derrys-projects-f5a18cb6/auditmap",
+    "status": "ready",
+    "commit": "b9d24906",
+    "verifiedRoutes": [
+      "/us/az/tucson/parks/reid-park",
+      "/us/az/tucson/parks/rillito-river-park/rillito-river-park-path",
+      "/us/ok/tulsa/parks/gathering-place",
+      "/us/ok/tulsa/parks/woodward-park/teaching-garden",
+      "/sitemap.xml"
+    ]
+  },
+  "completedCampaigns": 50,
+  "campaignVerifierFailures": 0,
+  "excludedIncompleteCampaigns": [],
+  "routeChecks": [
+    {
+      "path": "/us/az/tucson/parks/reid-park",
+      "status": 200,
+      "rawHtmlChecks": [
+        "Reid Park",
+        "Cele Peterson Rose Garden",
+        "Hi Corbett Field",
+        "900 S Randolph Way",
+        "City of Tucson Parks and Recreation",
+        "canonical"
+      ]
+    },
+    {
+      "path": "/us/az/tucson/parks/rillito-river-park/rillito-river-park-path",
+      "status": 200,
+      "rawHtmlChecks": [
+        "Rillito River Park Path",
+        "sunrise to sunset",
+        "Pima County",
+        "32.3043366,-111.0169822",
+        "canonical"
+      ]
+    },
+    {
+      "path": "/us/ok/tulsa/parks/gathering-place",
+      "status": 200,
+      "rawHtmlChecks": [
+        "Gathering Place",
+        "Chapman Adventure Playground",
+        "Vista at the Boathouse",
+        "2650 S John Williams Way",
+        "canonical"
+      ]
+    },
+    {
+      "path": "/us/ok/tulsa/parks/woodward-park/teaching-garden",
+      "status": 200,
+      "rawHtmlChecks": [
+        "Teaching Garden",
+        "pay-as-you-wish",
+        "Linnaeus",
+        "36.1297478,-95.9720698",
+        "Tulsa Garden Center",
+        "canonical"
+      ]
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "rawHtmlChecks": [
+        "/us/az/tucson/parks/reid-park/cele-peterson-rose-garden",
+        "/us/az/tucson/parks/rillito-river-park/rillito-river-park-path",
+        "/us/ok/tulsa/parks/gathering-place/chapman-adventure-playground",
+        "/us/ok/tulsa/parks/woodward-park/teaching-garden"
+      ]
+    }
+  ],
+  "imageOptimizerCheck": {
+    "path": "/_vercel/image?url=%2Fassets%2Fparks%2Ftucson-tulsa-super%2Fgene-c-reid-park%2F01-reid-park-rose-garden.webp&w=828&q=78",
+    "status": 200,
+    "format": "JPEG",
+    "width": 828,
+    "height": 526,
+    "bytes": 77352
+  },
+  "layoutChecks": {
+    "mobileWidth": 390,
+    "reidParkParentScrollWidth": 390,
+    "rillitoPathScrollWidth": 390,
+    "rillitoPathExactNavigation": true,
+    "desktopWidth": 1440,
+    "gatheringPlaceScrollWidth": 1440,
+    "woodwardTeachingGardenScrollWidth": 1440,
+    "woodwardTeachingGardenExactNavigation": true
+  },
+  "result": "tucson-tulsa-preview-ready-maintainer-review-required"
+}

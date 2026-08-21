@@ -1,0 +1,35 @@
+{
+  "campaign": "Boise river-park evidence-gate enrichment",
+  "checkedAt": "2026-08-11",
+  "releaseStandard": "Release a parent only with four varied reusable photographs and current official visitor guidance. Release a destination only with an exact reviewed position, destination-specific reusable photograph, nine destination answers, and current authoritative sourcing.",
+  "places": [
+    {
+      "id": "launch-id-boise-ann-morrison-park",
+      "name": "Ann Morrison Park",
+      "city": "Boise",
+      "citySlug": "boise-id",
+      "state": "ID",
+      "address": "1000 S Americana Boulevard, Boise, ID 83706",
+      "latitude": 43.6096503,
+      "longitude": -116.2202279,
+      "coordinateSource": "https://www.openstreetmap.org/way/24267212",
+      "officialSource": "https://www.cityofboise.org/departments/parks-and-recreation/parks/ann-morrison-park/",
+      "operator": "City of Boise Parks and Recreation",
+      "imageQueries": ["Ann Morrison Park Boise", "Ann Morrison Park playground", "Ann Morrison Park fountain", "Together Treasure Valley Dog Island"]
+    },
+    {
+      "id": "launch-id-boise-kathryn-albertson-park",
+      "name": "Kathryn Albertson Park",
+      "city": "Boise",
+      "citySlug": "boise-id",
+      "state": "ID",
+      "address": "1001 S Americana Boulevard, Boise, ID 83706",
+      "latitude": 43.6146858,
+      "longitude": -116.2269228,
+      "coordinateSource": "https://www.openstreetmap.org/way/445009257",
+      "officialSource": "https://www.cityofboise.org/departments/parks-and-recreation/parks/kathryn-albertson-park/",
+      "operator": "City of Boise Parks and Recreation",
+      "imageQueries": ["Kathryn Albertson Park Boise", "Kathryn Albertson Park pond", "Kathryn Albertson Park path", "Kathryn Albertson Park gazebo"]
+    }
+  ]
+}

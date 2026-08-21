@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "campaignId": "philadelphia-destinations-2026-08-20",
+  "asOf": "2026-08-20",
+  "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+  "issueUrl": "https://github.com/Buildrbear/auditmap/issues/63",
+  "submissionUrl": "https://github.com/Buildrbear/auditmap/pull/27",
+  "reconciliationUrl": "https://github.com/Buildrbear/auditmap/pull/64",
+  "packetId": "release-reconciliation-pa-philadelphia-01",
+  "contributionTier": "super-enrichment",
+  "summary": {"publishableDestinations":3,"duplicatesOrRenames":0,"blockedDestinations":0,"deployed":0},
+  "destinations": [
+    {"recordId":"/us/pa/philadelphia/parks/schuylkill-banks/walnut-street-trail-hub-and-dock","stableId":"0595e02d-f194-4976-8474-de361c68d10c","name":"Walnut Street Trail Hub and Dock","classification":"publishable-submitted","latitude":39.9524,"longitude":-75.1797,"operatorSource":"https://www.schuylkillbanks.org/explore/activity-guides/boating","checkedAt":"2026-08-10","imageSource":"https://commons.wikimedia.org/wiki/File%3ASchuylkill_River_Trail_(Philadelphia).JPG","imageAuthor":"Jeffrey M. Vinocur","imageLicense":"CC BY 2.5"},
+    {"recordId":"/us/pa/philadelphia/parks/spruce-street-harbor-park/christopher-columbus-memorial","stableId":"212a4f00-02f1-427f-b91b-de43ee5958e6","name":"Christopher Columbus Memorial","classification":"publishable-submitted","latitude":39.9446483,"longitude":-75.1414619,"operatorSource":"https://www.delawareriverwaterfront.com/places/spruce-street-harbor-park","checkedAt":"2026-08-10","imageSource":"https://commons.wikimedia.org/wiki/File%3AChristopher_Columbus_Memorial%2C_Philadelphia_01.jpg","imageAuthor":"Jllm06","imageLicense":"CC BY-SA 4.0"},
+    {"recordId":"/us/pa/philadelphia/parks/spruce-street-harbor-park/hammock-grove-and-lazy-hammock","stableId":"32b979cc-764a-4ec5-aee5-cabf18b25d75","name":"Hammock Grove and Lazy Hammock","classification":"publishable-submitted","latitude":39.9447,"longitude":-75.1417,"operatorSource":"https://www.delawareriverwaterfront.com/where-to-go/spruce-street-harbor-park/hammocks-and-rentals","checkedAt":"2026-08-10","imageSource":"https://commons.wikimedia.org/wiki/File%3ASpruce_Street_Harbor_Park.jpg","imageAuthor":"LittleT889","imageLicense":"CC BY-SA 4.0"}
+  ],
+  "reviewQueue": ["Recheck exact waterfront hours, construction, events, weather closures and seasonal operations before publication.","Hammocks are first-come, require a safe transfer and are not guaranteed; retain conventional seating alternatives.","Keep no-climbing, waterfront-safety and current-construction guidance explicit at the memorial and dock.","Production presence is the closing authority; local generation keeps all three records submitted rather than live."],
+  "verification": {"philadelphiaVerifier":"passed-on-pr-27","rawHtml":"passed-three-destination-routes","phone390Layout":"passed-49-routes-on-pr-27","imageRights":"passed-51-campaign-assets-on-pr-27","vercelPreview":"passed-49-routes-and-51-optimized-images-on-pr-27","productionPresence":"not-present"},
+  "risk": {"privacy":"none","security":"none","moderation":"none","accessibility":"Hammock transfer and conventional seating alternatives remain explicit.","cost":"No paid API or dependency was added.","freshness":"Seasonal hours, construction, weather and events require operator rechecks."}
+}

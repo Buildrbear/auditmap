@@ -1,0 +1,537 @@
+{
+  "generatedAt": "2026-08-04T15:38:04.360Z",
+  "source": "https://parkandrec.mecknc.gov/Places-to-Visit/Parks",
+  "imageOverrides": {
+    "Allen Hills Park": "/assets/parks/nc/charlotte/allen-hills-park/hero.jpg",
+    "Anita Stroud Park": "/assets/parks/nc/charlotte/anita-stroud-park/hero.jpg",
+    "Briarwood Park": "/assets/parks/nc/charlotte/briarwood-park/hero.jpg",
+    "Cedarwood Park": "/assets/parks/nc/charlotte/cedarwood-park/hero.jpg",
+    "Druid Hills Park": "/assets/parks/nc/charlotte/druid-hills-park/hero.jpg",
+    "Eastway Park": "/assets/parks/nc/charlotte/eastway-park/hero.jpg",
+    "Howie Acres Park": "/assets/parks/nc/charlotte/howie-acres-park/hero.jpg",
+    "James Boyce Park": "/assets/parks/nc/charlotte/james-boyce-park/hero.jpg",
+    "Kirk Farm Fields": "/assets/parks/nc/charlotte/kirk-farm-fields/hero.jpg",
+    "Mallard Creek Community Park": "/assets/parks/nc/charlotte/mallard-creek-community-park/hero.jpg",
+    "Mason Wallace Park": "/assets/parks/nc/charlotte/mason-wallace-park/hero.jpg",
+    "McAlpine Creek Dog Park": "/assets/parks/nc/charlotte/mcalpine-creek-dog-park/hero.jpg",
+    "Newell Park": "/assets/parks/nc/charlotte/newell-park/hero.jpg",
+    "Tom Hunter Neighborhood Park": "/assets/parks/nc/charlotte/tom-hunter-neighborhood-park/hero.jpg",
+    "Tryon Hills Park": "/assets/parks/nc/charlotte/tryon-hills-park/hero.jpg",
+    "Unity Park": "/assets/parks/nc/charlotte/unity-park/hero.jpg",
+    "West Charlotte Park": "/assets/parks/nc/charlotte/west-charlotte-park/hero.jpg"
+  },
+  "imageMetadataOverrides": {
+    "Allen Hills Park": {
+      "source": "https://meckags.mecklenburgcountync.gov/server/rest/services/ParkandRec/ParkLocations/FeatureServer/0/240/attachments/233",
+      "author": "Mecklenburg County Park and Recreation",
+      "license": "Official Mecklenburg County Park Explorer image",
+      "alt": "Allen Hills Park in Charlotte"
+    },
+    "Anita Stroud Park": {
+      "source": "https://meckags.mecklenburgcountync.gov/server/rest/services/ParkandRec/ParkLocations/FeatureServer/0/85/attachments/175",
+      "author": "Mecklenburg County Park and Recreation",
+      "license": "Official Mecklenburg County Park Explorer image",
+      "alt": "Anita Stroud Park in Charlotte"
+    },
+    "Briarwood Park": {
+      "source": "https://meckags.mecklenburgcountync.gov/server/rest/services/ParkandRec/ParkLocations/FeatureServer/0/171/attachments/223",
+      "author": "Mecklenburg County Park and Recreation",
+      "license": "Official Mecklenburg County Park Explorer image",
+      "alt": "Briarwood Park in Charlotte"
+    },
+    "Cedarwood Park": {
+      "source": "https://meckags.mecklenburgcountync.gov/server/rest/services/ParkandRec/ParkLocations/FeatureServer/0/281/attachments/146",
+      "author": "Mecklenburg County Park and Recreation",
+      "license": "Official Mecklenburg County Park Explorer image",
+      "alt": "Cedarwood Park in Charlotte"
+    },
+    "Druid Hills Park": {
+      "source": "https://meckags.mecklenburgcountync.gov/server/rest/services/ParkandRec/ParkLocations/FeatureServer/0/190/attachments/384",
+      "author": "Mecklenburg County Park and Recreation",
+      "license": "Official Mecklenburg County Park Explorer image",
+      "alt": "Druid Hills Park in Charlotte"
+    },
+    "Eastway Park": {
+      "source": "https://meckags.mecklenburgcountync.gov/server/rest/services/ParkandRec/ParkLocations/FeatureServer/0/332/attachments/14",
+      "author": "Mecklenburg County Park and Recreation",
+      "license": "Official Mecklenburg County Park Explorer image",
+      "alt": "Eastway Park in Charlotte"
+    },
+    "Howie Acres Park": {
+      "source": "https://meckags.mecklenburgcountync.gov/server/rest/services/ParkandRec/ParkLocations/FeatureServer/0/202/attachments/179",
+      "author": "Mecklenburg County Park and Recreation",
+      "license": "Official Mecklenburg County Park Explorer image",
+      "alt": "Howie Acres Park in Charlotte"
+    },
+    "James Boyce Park": {
+      "source": "https://meckags.mecklenburgcountync.gov/server/rest/services/ParkandRec/ParkLocations/FeatureServer/0/262/attachments/186",
+      "author": "Mecklenburg County Park and Recreation",
+      "license": "Official Mecklenburg County Park Explorer image",
+      "alt": "James Boyce Park in Charlotte"
+    },
+    "Kirk Farm Fields": {
+      "source": "https://meckags.mecklenburgcountync.gov/server/rest/services/ParkandRec/ParkLocations/FeatureServer/0/358/attachments/288",
+      "author": "Mecklenburg County Park and Recreation",
+      "license": "Official Mecklenburg County Park Explorer image",
+      "alt": "Kirk Farm Fields in Charlotte"
+    },
+    "Mallard Creek Community Park": {
+      "source": "https://meckags.mecklenburgcountync.gov/server/rest/services/ParkandRec/ParkLocations/FeatureServer/0/9/attachments/79",
+      "author": "Mecklenburg County Park and Recreation",
+      "license": "Official Mecklenburg County Park Explorer image",
+      "alt": "Mallard Creek Community Park in Charlotte"
+    },
+    "Mason Wallace Park": {
+      "source": "https://meckags.mecklenburgcountync.gov/server/rest/services/ParkandRec/ParkLocations/FeatureServer/0/330/attachments/187",
+      "author": "Mecklenburg County Park and Recreation",
+      "license": "Official Mecklenburg County Park Explorer image",
+      "alt": "Mason Wallace Park in Charlotte"
+    },
+    "McAlpine Creek Dog Park": {
+      "source": "https://meckags.mecklenburgcountync.gov/server/rest/services/ParkandRec/ParkLocations/FeatureServer/0/108/attachments/185",
+      "author": "Mecklenburg County Park and Recreation",
+      "license": "Official Mecklenburg County Park Explorer image",
+      "alt": "McAlpine Creek Dog Park in Charlotte"
+    },
+    "Newell Park": {
+      "source": "https://meckags.mecklenburgcountync.gov/server/rest/services/ParkandRec/ParkLocations/FeatureServer/0/55/attachments/168",
+      "author": "Mecklenburg County Park and Recreation",
+      "license": "Official Mecklenburg County Park Explorer image",
+      "alt": "Newell Park in Charlotte"
+    },
+    "Tom Hunter Neighborhood Park": {
+      "source": "https://meckags.mecklenburgcountync.gov/server/rest/services/ParkandRec/ParkLocations/FeatureServer/0/182/attachments/172",
+      "author": "Mecklenburg County Park and Recreation",
+      "license": "Official Mecklenburg County Park Explorer image",
+      "alt": "Tom Hunter Neighborhood Park in Charlotte"
+    },
+    "Tryon Hills Park": {
+      "source": "https://meckags.mecklenburgcountync.gov/server/rest/services/ParkandRec/ParkLocations/FeatureServer/0/23/attachments/390",
+      "author": "Mecklenburg County Park and Recreation",
+      "license": "Official Mecklenburg County Park Explorer image",
+      "alt": "Tryon Hills Park in Charlotte"
+    },
+    "Unity Park": {
+      "source": "https://meckags.mecklenburgcountync.gov/server/rest/services/ParkandRec/ParkLocations/FeatureServer/0/387/attachments/170",
+      "author": "Mecklenburg County Park and Recreation",
+      "license": "Official Mecklenburg County Park Explorer image",
+      "alt": "Unity Park in Charlotte"
+    },
+    "West Charlotte Park": {
+      "source": "https://meckags.mecklenburgcountync.gov/server/rest/services/ParkandRec/ParkLocations/FeatureServer/0/369/attachments/160",
+      "author": "Mecklenburg County Park and Recreation",
+      "license": "Official Mecklenburg County Park Explorer image",
+      "alt": "West Charlotte Park in Charlotte"
+    }
+  },
+  "galleryOverrides": {
+    "Allen Hills Park": [
+      {
+        "url": "/assets/parks/nc/charlotte/allen-hills-park/gallery-1.jpg",
+        "source": "https://meckags.mecklenburgcountync.gov/server/rest/services/ParkandRec/ParkLocations/FeatureServer/0/240/attachments/234",
+        "author": "Mecklenburg County Park and Recreation",
+        "license": "Official Mecklenburg County Park Explorer image",
+        "alt": "Allen Hills Park visitor view 2"
+      }
+    ],
+    "Anita Stroud Park": [],
+    "Briarwood Park": [],
+    "Cedarwood Park": [],
+    "Druid Hills Park": [
+      {
+        "url": "/assets/parks/nc/charlotte/druid-hills-park/gallery-1.jpg",
+        "source": "https://meckags.mecklenburgcountync.gov/server/rest/services/ParkandRec/ParkLocations/FeatureServer/0/190/attachments/385",
+        "author": "Mecklenburg County Park and Recreation",
+        "license": "Official Mecklenburg County Park Explorer image",
+        "alt": "Druid Hills Park visitor view 2"
+      }
+    ],
+    "Eastway Park": [],
+    "Howie Acres Park": [],
+    "James Boyce Park": [],
+    "Kirk Farm Fields": [],
+    "Mallard Creek Community Park": [],
+    "Mason Wallace Park": [],
+    "McAlpine Creek Dog Park": [],
+    "Newell Park": [],
+    "Tom Hunter Neighborhood Park": [],
+    "Tryon Hills Park": [
+      {
+        "url": "/assets/parks/nc/charlotte/tryon-hills-park/gallery-1.jpg",
+        "source": "https://meckags.mecklenburgcountync.gov/server/rest/services/ParkandRec/ParkLocations/FeatureServer/0/23/attachments/391",
+        "author": "Mecklenburg County Park and Recreation",
+        "license": "Official Mecklenburg County Park Explorer image",
+        "alt": "Tryon Hills Park visitor view 2"
+      }
+    ],
+    "Unity Park": [],
+    "West Charlotte Park": []
+  },
+  "sourceOverrides": {
+    "Allen Hills Park": "https://parkandrec.mecknc.gov/Places-to-Visit/Parks",
+    "Anita Stroud Park": "https://parkandrec.mecknc.gov/Places-to-Visit/Parks",
+    "Briarwood Park": "https://parkandrec.mecknc.gov/Places-to-Visit/Parks",
+    "Cedarwood Park": "https://parkandrec.mecknc.gov/Places-to-Visit/Parks",
+    "Double Oaks Park": "https://parkandrec.mecknc.gov/Places-to-Visit/Parks",
+    "Druid Hills Park": "https://parkandrec.mecknc.gov/Places-to-Visit/Parks",
+    "Eastway Park": "https://parkandrec.mecknc.gov/Places-to-Visit/Parks",
+    "Howie Acres Park": "https://parkandrec.mecknc.gov/Places-to-Visit/Parks",
+    "James Boyce Park": "https://parkandrec.mecknc.gov/Places-to-Visit/Parks",
+    "Kirk Farm Fields": "https://parkandrec.mecknc.gov/Places-to-Visit/Parks",
+    "Mallard Creek Community Park": "https://parkandrec.mecknc.gov/Places-to-Visit/Parks",
+    "Mason Wallace Park": "https://parkandrec.mecknc.gov/Places-to-Visit/Parks",
+    "McAlpine Creek Dog Park": "https://parkandrec.mecknc.gov/Places-to-Visit/Parks",
+    "Newell Park": "https://parkandrec.mecknc.gov/Places-to-Visit/Parks",
+    "Tom Hunter Neighborhood Park": "https://parkandrec.mecknc.gov/Places-to-Visit/Parks",
+    "Tryon Hills Park": "https://parkandrec.mecknc.gov/Places-to-Visit/Parks",
+    "Unity Park": "https://parkandrec.mecknc.gov/Places-to-Visit/Parks",
+    "University Meadows Park": "https://parkandrec.mecknc.gov/Places-to-Visit/Parks",
+    "West Charlotte Park": "https://parkandrec.mecknc.gov/Places-to-Visit/Parks"
+  },
+  "detailOverrides": {
+    "Allen Hills Park": {
+      "address": "4701 Cheviot Rd, Charlotte, Nc 28269",
+      "summary": "Allen Hills Park is a neighborhood Mecklenburg County park in Charlotte with Restrooms, Picnic tables, Playground, Playground swings, Basketball, Walking trails, Multipurpose field, Ball field, Parking.",
+      "hours": "Daily during daylight hours.",
+      "amenities": [
+        "Restrooms",
+        "Picnic tables",
+        "Playground",
+        "Playground swings",
+        "Basketball",
+        "Walking trails",
+        "Multipurpose field",
+        "Ball field",
+        "Parking"
+      ],
+      "cost": "Free public access; reservations and organized programs may have fees.",
+      "accessibility": "The official inventory does not identify the overall park as ADA compliant; contact Mecklenburg County for the best route to a specific amenity.",
+      "dogPolicy": "Dogs should remain leashed and under control. Remove waste and do not assume off-leash use is permitted.",
+      "parking": "Use the designated parking at 4701 Cheviot Rd, Charlotte, Nc 28269; the official inventory lists approximately 5 spaces. Follow event and reserved-facility signs."
+    },
+    "Anita Stroud Park": {
+      "address": "2215 Double Oaks Rd, Charlotte, Nc 28206",
+      "summary": "Anita Stroud Park is a neighborhood Mecklenburg County park in Charlotte with Playground, Basketball, Outdoor shelter, Walking trails.",
+      "hours": "Daily during daylight hours.",
+      "amenities": [
+        "Playground",
+        "Basketball",
+        "Outdoor shelter",
+        "Walking trails"
+      ],
+      "cost": "Free public access; reservations and organized programs may have fees.",
+      "accessibility": "Mecklenburg County's Park Explorer identifies this park as ADA compliant.",
+      "dogPolicy": "Dogs should remain leashed and under control. Remove waste and do not assume off-leash use is permitted.",
+      "parking": "The official inventory does not list a dedicated parking lot. Use a legal nearby approach without blocking homes, driveways, gates, or service access."
+    },
+    "Briarwood Park": {
+      "address": "5349 Waterwood St, Charlotte, Nc 28215",
+      "summary": "Briarwood Park is a community Mecklenburg County park in Charlotte with Restrooms, Playground, Playground swings, Walking trails, Ball field, Parking.",
+      "hours": "Daily during daylight hours.",
+      "amenities": [
+        "Restrooms",
+        "Playground",
+        "Playground swings",
+        "Walking trails",
+        "Ball field",
+        "Parking"
+      ],
+      "cost": "Free public access; reservations and organized programs may have fees.",
+      "accessibility": "The official inventory does not identify the overall park as ADA compliant; contact Mecklenburg County for the best route to a specific amenity.",
+      "dogPolicy": "Dogs should remain leashed and under control. Remove waste and do not assume off-leash use is permitted.",
+      "parking": "Use the designated parking at 5349 Waterwood St, Charlotte, Nc 28215; the official inventory lists approximately 112 spaces. Follow event and reserved-facility signs."
+    },
+    "Cedarwood Park": {
+      "address": "6624 Reddman Rd, Charlotte, Nc 28212",
+      "summary": "Cedarwood Park is a neighborhood Mecklenburg County park in Charlotte with Playground, Playground swings, Walking trails, Open lawn.",
+      "hours": "Daily during daylight hours.",
+      "amenities": [
+        "Playground",
+        "Playground swings",
+        "Walking trails",
+        "Open lawn"
+      ],
+      "cost": "Free public access; reservations and organized programs may have fees.",
+      "accessibility": "The official inventory does not identify the overall park as ADA compliant; contact Mecklenburg County for the best route to a specific amenity.",
+      "dogPolicy": "Dogs should remain leashed and under control. Remove waste and do not assume off-leash use is permitted.",
+      "parking": "The official inventory does not list a dedicated parking lot. Use a legal nearby approach without blocking homes, driveways, gates, or service access."
+    },
+    "Double Oaks Park": {
+      "address": "2603 Double Oaks Rd, Charlotte, Nc 28206",
+      "summary": "Double Oaks Park is a neighborhood Mecklenburg County park in Charlotte with Playground, Playground swings, Open lawn, Parking.",
+      "hours": "Daily during daylight hours.",
+      "amenities": [
+        "Playground",
+        "Playground swings",
+        "Open lawn",
+        "Parking"
+      ],
+      "cost": "Free public access; reservations and organized programs may have fees.",
+      "accessibility": "The official inventory does not identify the overall park as ADA compliant; contact Mecklenburg County for the best route to a specific amenity.",
+      "dogPolicy": "Dogs should remain leashed and under control. Remove waste and do not assume off-leash use is permitted.",
+      "parking": "Use the designated parking at 2603 Double Oaks Rd, Charlotte, Nc 28206; the official inventory lists approximately 15 spaces. Follow event and reserved-facility signs."
+    },
+    "Druid Hills Park": {
+      "address": "2801 Poinsett St, Charlotte, Nc 28206",
+      "summary": "Druid Hills Park is a neighborhood Mecklenburg County park in Charlotte with Playground, Playground swings, Basketball, Walking trails, Community garden, Fitness equipment.",
+      "hours": "Daily during daylight hours.",
+      "amenities": [
+        "Playground",
+        "Playground swings",
+        "Basketball",
+        "Walking trails",
+        "Community garden",
+        "Fitness equipment"
+      ],
+      "cost": "Free public access; reservations and organized programs may have fees.",
+      "accessibility": "Mecklenburg County's Park Explorer identifies this park as ADA compliant.",
+      "dogPolicy": "Dogs should remain leashed and under control. Remove waste and do not assume off-leash use is permitted.",
+      "parking": "The official inventory does not list a dedicated parking lot. Use a legal nearby approach without blocking homes, driveways, gates, or service access."
+    },
+    "Eastway Park": {
+      "address": "423 Eastway Dr, Charlotte, Nc 28215",
+      "summary": "Eastway Park is a community Mecklenburg County park in Charlotte with Restrooms, Picnic tables, Playground, Basketball, Volleyball, Multipurpose field, Parking.",
+      "hours": "Daily during daylight hours.",
+      "amenities": [
+        "Restrooms",
+        "Picnic tables",
+        "Playground",
+        "Basketball",
+        "Volleyball",
+        "Multipurpose field",
+        "Parking"
+      ],
+      "cost": "Free public access; reservations and organized programs may have fees.",
+      "accessibility": "The official inventory does not identify the overall park as ADA compliant; contact Mecklenburg County for the best route to a specific amenity.",
+      "dogPolicy": "Dogs should remain leashed and under control. Remove waste and do not assume off-leash use is permitted.",
+      "parking": "Use the designated parking at 423 Eastway Dr, Charlotte, Nc 28215; the official inventory lists approximately 380 spaces. Follow event and reserved-facility signs."
+    },
+    "Howie Acres Park": {
+      "address": "1001 Trembeth Dr, Charlotte, Nc 28205",
+      "summary": "Howie Acres Park is a neighborhood Mecklenburg County park in Charlotte with Playground, Playground swings, Basketball, Outdoor shelter, Parking.",
+      "hours": "Daily during daylight hours.",
+      "amenities": [
+        "Playground",
+        "Playground swings",
+        "Basketball",
+        "Outdoor shelter",
+        "Parking"
+      ],
+      "cost": "Free public access; reservations and organized programs may have fees.",
+      "accessibility": "The official inventory does not identify the overall park as ADA compliant; contact Mecklenburg County for the best route to a specific amenity.",
+      "dogPolicy": "Dogs should remain leashed and under control. Remove waste and do not assume off-leash use is permitted.",
+      "parking": "Use the designated parking at 1001 Trembeth Dr, Charlotte, Nc 28205; the official inventory lists approximately 6 spaces. Follow event and reserved-facility signs."
+    },
+    "James Boyce Park": {
+      "address": "300 Boyce Rd, Charlotte, Nc 28211",
+      "summary": "James Boyce Park is a community Mecklenburg County park in Charlotte with Restrooms, Picnic tables, Playground, Playground swings, Mountain biking, Outdoor shelter, Walking trails, Fitness equipment, Multipurpose field, Ball field, Greenway access, Parking.",
+      "hours": "Daily during daylight hours.",
+      "amenities": [
+        "Restrooms",
+        "Picnic tables",
+        "Playground",
+        "Playground swings",
+        "Mountain biking",
+        "Outdoor shelter",
+        "Walking trails",
+        "Fitness equipment",
+        "Multipurpose field",
+        "Ball field",
+        "Greenway access",
+        "Parking"
+      ],
+      "cost": "Free public access; reservations and organized programs may have fees.",
+      "accessibility": "The official inventory does not identify the overall park as ADA compliant; contact Mecklenburg County for the best route to a specific amenity.",
+      "dogPolicy": "Dogs should remain leashed and under control. Remove waste and do not assume off-leash use is permitted.",
+      "parking": "Use the designated parking at 300 Boyce Rd, Charlotte, Nc 28211; the official inventory lists approximately 45 spaces. Follow event and reserved-facility signs."
+    },
+    "Kirk Farm Fields": {
+      "address": "201 E Mallard Creek Church Rd, Charlotte, Nc 28262",
+      "summary": "Kirk Farm Fields is a community Mecklenburg County park in Charlotte with Multipurpose field, Greenway access, Parking.",
+      "hours": "Daily during daylight hours.",
+      "amenities": [
+        "Multipurpose field",
+        "Greenway access",
+        "Parking"
+      ],
+      "cost": "Free public access; reservations and organized programs may have fees.",
+      "accessibility": "The official inventory does not identify the overall park as ADA compliant; contact Mecklenburg County for the best route to a specific amenity.",
+      "dogPolicy": "Dogs should remain leashed and under control. Remove waste and do not assume off-leash use is permitted.",
+      "parking": "Use the designated parking at 201 E Mallard Creek Church Rd, Charlotte, Nc 28262; the official inventory lists approximately 70 spaces. Follow event and reserved-facility signs."
+    },
+    "Mallard Creek Community Park": {
+      "address": "3001 Johnston Oehler Rd, Charlotte, Nc 28269",
+      "summary": "Mallard Creek Community Park is a regional Mecklenburg County park in Charlotte with Restrooms, Picnic tables, Playground, Playground swings, Tennis, Volleyball, Outdoor shelter, Multipurpose field, Ball field, Batting cage, Parking.",
+      "hours": "Daily during daylight hours.",
+      "amenities": [
+        "Restrooms",
+        "Picnic tables",
+        "Playground",
+        "Playground swings",
+        "Tennis",
+        "Volleyball",
+        "Outdoor shelter",
+        "Multipurpose field",
+        "Ball field",
+        "Batting cage",
+        "Parking"
+      ],
+      "cost": "Free public access; reservations and organized programs may have fees.",
+      "accessibility": "The official inventory does not identify the overall park as ADA compliant; contact Mecklenburg County for the best route to a specific amenity.",
+      "dogPolicy": "Dogs should remain leashed and under control. Remove waste and do not assume off-leash use is permitted.",
+      "parking": "Use the designated parking at 3001 Johnston Oehler Rd, Charlotte, Nc 28269; the official inventory lists approximately 739 spaces. Follow event and reserved-facility signs."
+    },
+    "Mason Wallace Park": {
+      "address": "7301 Monroe Rd, Charlotte, Nc 28212",
+      "summary": "Mason Wallace Park is a community Mecklenburg County park in Charlotte with Playground, Playground swings, Basketball, Tennis, Outdoor shelter, Walking trails, Fitness equipment, Multipurpose field, Ball field, Batting cage, Parking.",
+      "hours": "Daily during daylight hours.",
+      "amenities": [
+        "Playground",
+        "Playground swings",
+        "Basketball",
+        "Tennis",
+        "Outdoor shelter",
+        "Walking trails",
+        "Fitness equipment",
+        "Multipurpose field",
+        "Ball field",
+        "Batting cage",
+        "Parking"
+      ],
+      "cost": "Free public access; reservations and organized programs may have fees.",
+      "accessibility": "The official inventory does not identify the overall park as ADA compliant; contact Mecklenburg County for the best route to a specific amenity.",
+      "dogPolicy": "Dogs should remain leashed and under control. Remove waste and do not assume off-leash use is permitted.",
+      "parking": "Use the designated parking at 7301 Monroe Rd, Charlotte, Nc 28212; the official inventory lists approximately 173 spaces. Follow event and reserved-facility signs."
+    },
+    "McAlpine Creek Dog Park": {
+      "address": "8711 Monroe Rd, Charlotte, Nc 28212",
+      "summary": "McAlpine Creek Dog Park is a regional Mecklenburg County park in Charlotte with Fishing, Outdoor shelter, Walking trails, Dog park, Multipurpose field, Greenway access, Parking.",
+      "hours": "Daily during daylight hours.",
+      "amenities": [
+        "Fishing",
+        "Outdoor shelter",
+        "Walking trails",
+        "Dog park",
+        "Multipurpose field",
+        "Greenway access",
+        "Parking"
+      ],
+      "cost": "Free public access; reservations and organized programs may have fees.",
+      "accessibility": "The official inventory does not identify the overall park as ADA compliant; contact Mecklenburg County for the best route to a specific amenity.",
+      "dogPolicy": "A designated dog park is available. Follow posted separation, leash, vaccination, waste, and maintenance rules.",
+      "parking": "Use the designated parking at 8711 Monroe Rd, Charlotte, Nc 28212; the official inventory lists approximately 285 spaces. Follow event and reserved-facility signs."
+    },
+    "Newell Park": {
+      "address": "9130 Newell Baptist Church Rd, Charlotte, Nc 28213",
+      "summary": "Newell Park is a community Mecklenburg County park in Charlotte with Picnic tables, Outdoor shelter, Walking trails, Ball field, Parking.",
+      "hours": "Daily during daylight hours.",
+      "amenities": [
+        "Picnic tables",
+        "Outdoor shelter",
+        "Walking trails",
+        "Ball field",
+        "Parking"
+      ],
+      "cost": "Free public access; reservations and organized programs may have fees.",
+      "accessibility": "The official inventory does not identify the overall park as ADA compliant; contact Mecklenburg County for the best route to a specific amenity.",
+      "dogPolicy": "Dogs should remain leashed and under control. Remove waste and do not assume off-leash use is permitted.",
+      "parking": "Use the designated parking at 9130 Newell Baptist Church Rd, Charlotte, Nc 28213; the official inventory lists approximately 21 spaces. Follow event and reserved-facility signs."
+    },
+    "Tom Hunter Neighborhood Park": {
+      "address": "919 Tom Hunter Rd, Charlotte, Nc 28213",
+      "summary": "Tom Hunter Neighborhood Park is a neighborhood Mecklenburg County park in Charlotte with Picnic tables, Playground, Playground swings, Basketball, Open lawn.",
+      "hours": "Daily during daylight hours.",
+      "amenities": [
+        "Picnic tables",
+        "Playground",
+        "Playground swings",
+        "Basketball",
+        "Open lawn"
+      ],
+      "cost": "Free public access; reservations and organized programs may have fees.",
+      "accessibility": "The official inventory does not identify the overall park as ADA compliant; contact Mecklenburg County for the best route to a specific amenity.",
+      "dogPolicy": "Dogs should remain leashed and under control. Remove waste and do not assume off-leash use is permitted.",
+      "parking": "The official inventory does not list a dedicated parking lot. Use a legal nearby approach without blocking homes, driveways, gates, or service access."
+    },
+    "Tryon Hills Park": {
+      "address": "220 W 30th St, Charlotte, Nc 28206",
+      "summary": "Tryon Hills Park is a neighborhood Mecklenburg County park in Charlotte with Playground, Playground swings, Basketball, Outdoor shelter, Walking trails.",
+      "hours": "Daily during daylight hours.",
+      "amenities": [
+        "Playground",
+        "Playground swings",
+        "Basketball",
+        "Outdoor shelter",
+        "Walking trails"
+      ],
+      "cost": "Free public access; reservations and organized programs may have fees.",
+      "accessibility": "The official inventory does not identify the overall park as ADA compliant; contact Mecklenburg County for the best route to a specific amenity.",
+      "dogPolicy": "Dogs should remain leashed and under control. Remove waste and do not assume off-leash use is permitted.",
+      "parking": "The official inventory does not list a dedicated parking lot. Use a legal nearby approach without blocking homes, driveways, gates, or service access."
+    },
+    "Unity Park": {
+      "address": "6401 Kelsey Dr, Charlotte, Nc 28215",
+      "summary": "Unity Park is a neighborhood Mecklenburg County park in Charlotte with Playground, Playground swings, Tennis, Outdoor shelter, Multipurpose field.",
+      "hours": "Daily during daylight hours.",
+      "amenities": [
+        "Playground",
+        "Playground swings",
+        "Tennis",
+        "Outdoor shelter",
+        "Multipurpose field"
+      ],
+      "cost": "Free public access; reservations and organized programs may have fees.",
+      "accessibility": "The official inventory does not identify the overall park as ADA compliant; contact Mecklenburg County for the best route to a specific amenity.",
+      "dogPolicy": "Dogs should remain leashed and under control. Remove waste and do not assume off-leash use is permitted.",
+      "parking": "The official inventory does not list a dedicated parking lot. Use a legal nearby approach without blocking homes, driveways, gates, or service access."
+    },
+    "University Meadows Park": {
+      "address": "1705 Pavilion Bv, Charlotte, Nc 28262",
+      "summary": "University Meadows Park is a neighborhood Mecklenburg County park in Charlotte with Multipurpose field.",
+      "hours": "Daily during daylight hours.",
+      "amenities": [
+        "Multipurpose field"
+      ],
+      "cost": "Free public access; reservations and organized programs may have fees.",
+      "accessibility": "The official inventory does not identify the overall park as ADA compliant; contact Mecklenburg County for the best route to a specific amenity.",
+      "dogPolicy": "Dogs should remain leashed and under control. Remove waste and do not assume off-leash use is permitted.",
+      "parking": "The official inventory does not list a dedicated parking lot. Use a legal nearby approach without blocking homes, driveways, gates, or service access."
+    },
+    "West Charlotte Park": {
+      "address": "2401 Kendall Dr, Charlotte, Nc 28216",
+      "summary": "West Charlotte Park is a neighborhood Mecklenburg County park in Charlotte with Picnic tables, Playground, Playground swings, Basketball, Sprayground, Outdoor shelter, Parking.",
+      "hours": "Daily during daylight hours.",
+      "amenities": [
+        "Picnic tables",
+        "Playground",
+        "Playground swings",
+        "Basketball",
+        "Sprayground",
+        "Outdoor shelter",
+        "Parking"
+      ],
+      "cost": "Free public access; reservations and organized programs may have fees.",
+      "accessibility": "Mecklenburg County's Park Explorer identifies this park as ADA compliant.",
+      "dogPolicy": "Dogs should remain leashed and under control. Remove waste and do not assume off-leash use is permitted.",
+      "parking": "Use the designated parking at 2401 Kendall Dr, Charlotte, Nc 28216; the official inventory lists approximately 75 spaces. Follow event and reserved-facility signs."
+    }
+  },
+  "unmatched": [
+    "9th Street Dog Park",
+    "Back Creek Greenway",
+    "Barton Creek Greenway",
+    "Chalyce Park",
+    "Chateau Community Park",
+    "Hamilton Green Park",
+    "Mallard Creek Greenway",
+    "Mint Hill Veterans Memorial Park",
+    "Northwoods Community Park",
+    "Pet Station Dog Park",
+    "Prosperity Park",
+    "Reddman Park",
+    "Reedy Creek Park and Nature Preserve",
+    "The Green at Prosperity Village",
+    "Winterfield Neighborhood Park"
+  ],
+  "nonOperational": []
+}

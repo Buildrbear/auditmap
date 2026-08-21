@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "campaignId": "anchorage-evidence-gate-2026-08-20",
+  "asOf": "2026-08-20",
+  "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+  "issueUrl": "https://github.com/Buildrbear/auditmap/issues/57",
+  "submissionUrl": "https://github.com/Buildrbear/auditmap/pull/29",
+  "reconciliationUrl": "https://github.com/Buildrbear/auditmap/pull/58",
+  "packetId": "release-reconciliation-ak-anchorage-01",
+  "contributionTier": "super-enrichment",
+  "summary": {
+    "publishableDestinations": 3,
+    "duplicatesOrRenames": 0,
+    "blockedDestinations": 0,
+    "deployed": 0
+  },
+  "destinations": [
+    {
+      "recordId": "/us/ak/anchorage/parks/delaney-park-strip/alaska-railroad-no-556",
+      "stableId": "512b34c8-2b55-4aae-ae79-941e91056018",
+      "name": "Alaska Railroad No. 556",
+      "classification": "publishable-submitted",
+      "latitude": 61.213377,
+      "longitude": -149.891006,
+      "coordinateSource": "https://www.openstreetmap.org/node/2117423017",
+      "positionQuality": "exact-geotag-or-named-open-map-object",
+      "operatorSource": "https://www.muni.org/departments/parks/documents/delaneyparkmemorialpolicy.pdf",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Alaska_Railroad_locomotive_No._556_on_display_at_Delaney_Park_Strip,_Anchorage,_Alaska_-_May_2011.jpg",
+      "imageAuthor": "Jason Riedy",
+      "imageLicense": "CC BY 2.0"
+    },
+    {
+      "recordId": "/us/ak/anchorage/parks/delaney-park-strip/centennial-rose-garden",
+      "stableId": "024fb6f8-849c-44d3-9b23-545a1a295acc",
+      "name": "Centennial Rose Garden",
+      "classification": "publishable-submitted",
+      "latitude": 61.2131713,
+      "longitude": -149.9084078,
+      "coordinateSource": "https://www.openstreetmap.org/way/627649066",
+      "positionQuality": "exact-geotag-or-named-open-map-object",
+      "operatorSource": "https://www.muni.org/Departments/parks/Documents/DelaneyParkMP.pdf",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Delaney_Park_ENBLA08.jpg",
+      "imageAuthor": "Enrico Blasutto",
+      "imageLicense": "CC BY-SA 4.0"
+    },
+    {
+      "recordId": "/us/ak/anchorage/parks/kincaid-park/kincaid-beach",
+      "stableId": "0016eb21-4dae-43af-ab05-5b89f1a07466",
+      "name": "Kincaid Beach",
+      "classification": "publishable-submitted",
+      "latitude": 61.155515,
+      "longitude": -150.073843,
+      "coordinateSource": "https://commons.wikimedia.org/wiki/File:Kincaid_Beach,_Alaska_-_panoramio.jpg",
+      "positionQuality": "exact-geotag-or-named-open-map-object",
+      "operatorSource": "https://www.muni.org/Departments/parks/Documents/PRC%2015-09%20SR-RES.pdf",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Kincaid_Beach,_Alaska_-_panoramio.jpg",
+      "imageAuthor": "Paxson Woelber",
+      "imageLicense": "CC BY 3.0"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Municipality of Anchorage Kincaid Beach trail project",
+      "url": "https://www.muni.org/Departments/parks/Documents/PRC%2015-09%20SR-RES.pdf",
+      "checkedAt": "2026-08-11",
+      "freshness": "ordinary-operator-guidance"
+    },
+    {
+      "label": "Municipality of Anchorage Delaney Park master plan",
+      "url": "https://www.muni.org/Departments/parks/Documents/DelaneyParkMP.pdf",
+      "checkedAt": "2026-08-11",
+      "freshness": "stable-map-and-planning-context"
+    },
+    {
+      "label": "Municipality of Anchorage Delaney Park memorial map",
+      "url": "https://www.muni.org/departments/parks/documents/delaneyparkmemorialpolicy.pdf",
+      "checkedAt": "2026-08-11",
+      "freshness": "stable-map-context"
+    },
+    {
+      "label": "Municipality of Anchorage trail rules and wildlife guidance",
+      "url": "https://www.muni.org/Departments/parks/pages/trails.aspx",
+      "checkedAt": "2026-08-11",
+      "freshness": "fast-changing"
+    },
+    {
+      "label": "Municipality of Anchorage off-leash areas",
+      "url": "https://www.muni.org/Departments/parks/pages/dogparks.aspx",
+      "checkedAt": "2026-08-11",
+      "freshness": "ordinary-operator-guidance"
+    }
+  ],
+  "reviewQueue": [
+    "Kincaid Beach access remains condition-sensitive because tides, mudflats, snow, ice, wildlife, daylight and trail conditions can change practical access.",
+    "Centennial Rose Garden is seasonal; do not promise bloom and recheck current closures or renovation notices.",
+    "The 2011 Alaska Railroad No. 556 photograph does not establish current climbing access; current barriers and preservation notices control.",
+    "Far North Bicentennial Park remains outside this three-record packet and photo-gated until two additional varied, permission-cleared park views pass review.",
+    "Production presence is the closing authority; local generation and a Ready preview keep all three records submitted rather than live."
+  ],
+  "verification": {
+    "anchorageVerifier": "passed-on-pr-29",
+    "campaignSuite": "passed-52-campaigns-on-pr-29",
+    "rawHtml": "passed-three-destination-routes-on-pr-29",
+    "desktopLayout": "passed-parent-routes-on-pr-29",
+    "phone390Layout": "passed-six-retained-routes-no-horizontal-overflow-on-pr-29",
+    "imageRights": "passed-ten-reviewed-assets-on-pr-29",
+    "vercelPreview": "passed-six-routes-and-ten-optimized-images-on-pr-29",
+    "productionPresence": "not-present"
+  },
+  "risk": {
+    "privacy": "none",
+    "security": "none",
+    "moderation": "none",
+    "accessibility": "Natural and seasonal conditions are retained without promising step-free access.",
+    "cost": "No paid API or dependency was added.",
+    "freshness": "Condition-sensitive access, seasonal horticulture and current artifact barriers require rechecks."
+  }
+}

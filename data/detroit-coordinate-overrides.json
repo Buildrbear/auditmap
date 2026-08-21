@@ -1,0 +1,75 @@
+{
+  "checkedAt": "2026-08-10",
+  "places": {
+    "launch-mi-detroit-belle-isle-park": {
+      "belle-isle-aquarium": {
+        "latitude": 42.3363027,
+        "longitude": -82.9851786,
+        "coordinateSource": "https://www.openstreetmap.org/way/107227742",
+        "positionQuality": "reviewed-named-aquarium-building-way-and-official-address-match"
+      },
+      "anna-scripps-whitcomb-conservatory": {
+        "latitude": 42.3362487,
+        "longitude": -82.9855413,
+        "coordinateSource": "https://www.openstreetmap.org/way/107310050",
+        "positionQuality": "reviewed-named-conservatory-building-way-and-official-address-match"
+      },
+      "dossin-great-lakes-museum": {
+        "latitude": 42.3346158,
+        "longitude": -82.9854512,
+        "coordinateSource": "https://www.openstreetmap.org/way/107205459",
+        "positionQuality": "reviewed-named-museum-building-way-and-official-address-match"
+      }
+    },
+    "launch-mi-detroit-ralph-c-wilson-jr-centennial-park": {
+      "huron-clinton-metroparks-water-garden": {
+        "latitude": 42.3225,
+        "longitude": -83.062142,
+        "coordinateSource": "https://commons.wikimedia.org/wiki/File:Detroit_December_2025_15_(Ralph_C._Wilson,_Jr._Centennial_Park).jpg",
+        "positionQuality": "reviewed-water-garden-photo-geotag-and-2026-official-visitor-map-match"
+      },
+      "william-davidson-sport-house": {
+        "latitude": 42.321722,
+        "longitude": -83.0641,
+        "coordinateSource": "https://commons.wikimedia.org/wiki/File:Detroit_December_2025_12_(Ralph_C._Wilson,_Jr._Centennial_Park--William_Davidson_Sport_House).jpg",
+        "positionQuality": "reviewed-named-sport-house-photo-geotag-and-2026-official-visitor-map-match"
+      }
+    },
+    "launch-mi-detroit-campus-martius-park": {
+      "the-rink-at-campus-martius": {
+        "latitude": 42.3318412,
+        "longitude": -83.0465537,
+        "coordinateSource": "https://www.openstreetmap.org/node/5917115785",
+        "positionQuality": "reviewed-named-seasonal-rink-node-and-official-operator-page-match"
+      }
+    },
+    "launch-mi-detroit-palmer-park": {
+      "lake-frances": {
+        "latitude": 42.4216336,
+        "longitude": -83.1118855,
+        "coordinateSource": "https://www.openstreetmap.org/relation/420964",
+        "positionQuality": "reviewed-named-lake-relation-and-city-habitat-project-map-match"
+      },
+      "palmer-park-log-cabin": {
+        "latitude": 42.422063,
+        "longitude": -83.1124702,
+        "coordinateSource": "https://www.openstreetmap.org/way/71186860",
+        "positionQuality": "reviewed-named-log-cabin-building-way-and-2026-event-location-match"
+      }
+    },
+    "launch-mi-detroit-hart-plaza": {
+      "dodge-fountain": {
+        "latitude": 42.3271142,
+        "longitude": -83.0440815,
+        "coordinateSource": "https://www.openstreetmap.org/node/1215294644",
+        "positionQuality": "reviewed-named-fountain-node-and-city-asset-study-match"
+      },
+      "transcending": {
+        "latitude": 42.3280275,
+        "longitude": -83.044884,
+        "coordinateSource": "https://www.openstreetmap.org/node/4634212769",
+        "positionQuality": "reviewed-named-artwork-node-and-city-asset-study-match"
+      }
+    }
+  }
+}
