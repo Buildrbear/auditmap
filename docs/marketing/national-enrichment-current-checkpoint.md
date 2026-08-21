@@ -4,20 +4,22 @@ Last updated: 2026-08-20
 
 ## Current State
 
-- Status: Mesa breadth slot one is source-complete in draft PR #50. The exact 25-parent El Paso municipality packet now occupies breadth slot two and remains inventory-only, arrival-, image-, and launch-guide-gated. No third breadth batch may open until review closes one slot.
-- Working branch: `codex/el-paso-parks-discovery`, stacked on `codex/mesa-parks-discovery` and the submitted Boone-through-Greensboro inventory line plus the national registry follow-on to `codex/boise-evidence-gate`
-- Assignment: OpenTask project `https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6`, GitHub issue #51, packet `research-completion-tx-el-paso-01`
-- Outcome: 25 current City of El Paso park parents have canonical identities, exact City-reported aliases where needed, stable municipal GlobalIDs, City ownership/category evidence, addresses, acreage selection basis, approximate coordinate provenance, source labels, checked dates, freshness classifications, and `needs-launch-guide` release-ledger states.
-- Identity and coordinate decisions: Memorial Senior Center and Memorial Ballpark are excluded as duplicate Memorial Park components. A false Texas same-name match between El Paso and Houston Memorial Parks is fixed by requiring the city to match before the registry's unique-name fallback applies. City polygon centroids remain approximate inventory points, never visitor entrances.
-- Publication decision: no El Paso parent or destination page is generated and no City image or park polygon geometry is imported.
-- Submission: draft PR #52; not merged or promoted to production.
+- Status: Mesa draft PR #50 and El Paso draft PR #52 fill the two breadth slots. White River State Park draft PR #54 fills the single depth lane with exactly two evidence-cleared destinations. No third breadth batch or second depth cluster may open until independent review closes the corresponding slot.
+- Working branch: `codex/white-river-depth`, stacked on `codex/el-paso-parks-discovery`, `codex/mesa-parks-discovery` and the submitted Boone-through-Greensboro inventory line plus the national registry follow-on to `codex/boise-evidence-gate`
+- Assignment: OpenTask project `https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6`, GitHub issue #53, White River State Park depth packet
+- Outcome: White River State Park now has two locally generated destination guides: Celebration Plaza Amphitheater and Canal Walk. Each has a stable ID, named-feature coordinates, a position-quality label, nine sourced visitor answers, an exact Commons photograph and a complete generated page. The parent retains four reusable images and eleven recurring visitor answers.
+- Identity and coordinate decisions: Celebration Plaza Amphitheater uses the named OpenStreetMap venue point. Canal Walk uses the named paved route segment inside White River State Park and is explicitly described as an arrival point rather than the center of its three-mile loop. Celebration Plaza lawn remains a separate deferred candidate.
+- Publication decision: only the exact amphitheater and Central Canal photographs are assigned to destinations. Seven other named venues and greenspaces remain deferred until exact arrival, complete destination facts and matching reusable photography clear together.
+- Submission: draft PR #54; not merged or promoted to production. Mesa PR #50 and El Paso PR #52 remain open and unchanged.
 - Canonical machine-readable checkpoint: `data/us-priority-enrichment-queue.json` under `activeCluster.resumeCheckpoint`.
 
 The Cleveland-through-Boise batches and the submitted Greensboro-through-Boone and Mesa inventory packets remain complete at their previous checkpoints. The El Paso inventory packet does not change their evidence decisions or reopen retired destinations.
 
 ## Resume Point
 
-Do not repeat completed batches unless review finds a specific defect or new evidence changes a deferred decision. On this stacked line, Chesapeake Bay, Greensboro through Boone, and Mesa are reserved as submitted work. El Paso is the second and final open municipality-breadth slot; do not select a third breadth packet until independent review closes Mesa or El Paso.
+Do not repeat completed batches unless review finds a specific defect or new evidence changes a deferred decision. On this stacked line, Chesapeake Bay, Greensboro through Boone, and Mesa are reserved as submitted work. El Paso is the second and final open municipality-breadth slot; do not select a third breadth packet until independent review closes Mesa or El Paso. White River State Park occupies the one depth slot; do not open another depth cluster until PR #54 is independently reviewed.
+
+Keep White River State Park's two published destination classes exact. Celebration Plaza Amphitheater is not a substitute for the separate Celebration Plaza lawn. Canal Walk's navigation pin is the named paved segment inside the parent park, not the geometric center of the full three-mile loop. Treat the operator's displayed August 15 closure notice as expired because it explicitly says reopening August 16, and recheck current alerts and events on the day of a visit. Do not inherit the park's 5:00 a.m.-11:00 p.m. grounds schedule to museums, the zoo, rentals, concerts or ticketed events.
 
 The Fayetteville claim is submitted in PR #44. If review requests changes, change it to `changes-requested`; if accepted, retain Arnette Park at inventory tier until current operator hours, four varied representative reusable photographs, and the complete recurring visitor-answer set justify a separate launch-guide assignment. The Raleigh claim is submitted in PR #46; keep it at inventory tier until representative reusable photographs and the separately assigned complete launch-guide profile clear review. The Boone claim is submitted in PR #48; keep all three parents at inventory tier until their named hours, image, and launch-guide gates clear.
 
