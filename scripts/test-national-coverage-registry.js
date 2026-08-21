@@ -212,6 +212,32 @@ assert.equal(
   identityRegistry.find((record) => record.path.endsWith("/shared-park-south")).researchSources.length,
   0,
 );
+assert.throws(() => buildRegistry({
+  livePages: parseSitemap(sitemap(["/us/nc/durham/parks/collision-park"])),
+  localPages: [],
+  productionCatalog: { places: [
+    { id: "collision-park", name: "Collision Park", city: "Durham", state: "NC" },
+    { id: "collision-park-south", name: "Collision Park", city: "Durham", state: "NC" },
+  ] },
+  localCatalog: { places: [] },
+  intakes: [{
+    campaignId: "canonical-collision-intake",
+    records: [{ slug: "durham-collision-park", name: "Collision Park", city: "Durham", state: "NC" }],
+  }],
+}), /would duplicate existing canonical path \/us\/nc\/durham\/parks\/collision-park/);
+assert.throws(() => buildRegistry({
+  livePages: [],
+  localPages: [],
+  productionCatalog: { places: [] },
+  localCatalog: { places: [] },
+  intakes: [{
+    campaignId: "research-path-collision-intake",
+    records: [
+      { slug: "durham-shared-slug", name: "North Park", city: "Durham", state: "NC" },
+      { slug: "durham-shared-slug", name: "South Park", city: "Durham", state: "NC" },
+    ],
+  }],
+}), /Duplicate national registry path: \/us\/nc\/durham\/parks\/shared-slug/);
 
 const mappedRegistry = buildRegistry({
   livePages,
