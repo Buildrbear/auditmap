@@ -113,8 +113,18 @@
       "type": "research-completion",
       "state": "NC",
       "citySlug": "boone",
-      "status": "open",
-      "claim": null,
+      "status": "claimed",
+      "claim": {
+        "packetId": "research-completion-nc-boone-01",
+        "assignee": "Buildrbear",
+        "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+        "issueUrl": "https://github.com/Buildrbear/auditmap/issues/47",
+        "claimedAt": "2026-08-20",
+        "expiresAt": "2026-08-27",
+        "lastUpdatedAt": "2026-08-20",
+        "status": "claimed",
+        "notes": "Inventory-only research for Clawson-Burnley Park, Daniel Boone Park, and Junaluska Park: authoritative identity, address, coordinate, relationship, current-status, and image-rights evidence; no page publication."
+      },
       "count": 3,
       "recordIds": [
         "/us/nc/boone/parks/clawson-burnley-park",
