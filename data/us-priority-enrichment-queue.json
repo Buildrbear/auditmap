@@ -502,6 +502,7 @@
         "Qualified 25 current City of El Paso park parents from the official City Parks FeatureServer with stable GlobalIDs, current ownership/category evidence, addresses, acreage selection, approximate coordinate provenance, freshness classifications, and explicit inventory-only release states.",
         "Excluded Memorial Senior Center and Memorial Ballpark as component records that duplicate Memorial Park; excluded proposed parks, medians, parking, joint-use records, and non-City ownership classes from the exact packet.",
         "Corrected the national registry's same-state unique-name fallback so El Paso Memorial Park cannot attach to Houston Memorial Park; added and passed a regression test requiring the normalized city to match.",
+        "Made registry identity indexes collision-aware and limited cross-city reconciliation to a unique same-state official source URL with a matching reviewed name; this preserves the two source-corroborated Raleigh boundary cases while keeping conflicting exact names, shared source pages, and unrelated URL reuse separate.",
         "Registered the El Paso Parks FeatureServer with publisher-terms review, centroid-as-entrance, polygon-redistribution, and City-image restrictions; imported no City media or polygon geometry."
       ],
       "campaignCapacity": {
