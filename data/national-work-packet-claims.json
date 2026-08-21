@@ -39,6 +39,34 @@
       "notes": "Parent-only North Point State Park guide is generated and preview-verified on the stacked campaign line; production presence remains the closing authority."
     },
     {
+      "packetId": "release-reconciliation-in-indianapolis-01",
+      "assignee": "Buildrbear",
+      "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+      "issueUrl": "https://github.com/Buildrbear/auditmap/issues/53",
+      "claimedAt": "2026-08-20",
+      "expiresAt": "2026-08-27",
+      "lastUpdatedAt": "2026-08-20",
+      "status": "submitted",
+      "submissionUrl": "https://github.com/Buildrbear/auditmap/pull/54",
+      "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/54",
+      "acceptedRecordIds": [
+        "/us/in/indianapolis/parks/white-river-state-park/canal-walk",
+        "/us/in/indianapolis/parks/white-river-state-park/celebration-plaza-amphitheater"
+      ],
+      "reviewQueue": [
+        {
+          "issue": "Seven other White River State Park venues and greenspaces do not yet clear exact-arrival, complete destination-profile, and matching reusable-photo gates together.",
+          "recommendation": "Keep them as parent guidance until a separately assigned depth packet clears every destination gate."
+        },
+        {
+          "issue": "The operator visit page still displays an August 15 closure notice that explicitly says affected spaces reopened August 16.",
+          "recommendation": "Treat the notice as expired and recheck current alerts and events on the day of a visit.",
+          "sourceUrl": "https://whiteriverstatepark.org/visit/"
+        }
+      ],
+      "notes": "Two evidence-cleared destination guides with exact coordinates, complete sourced answers, licensed photographs, generated pages, and preview verification are submitted in PR #54. Production presence remains the closing authority."
+    },
+    {
       "packetId": "research-completion-nc-greensboro-01",
       "assignee": "Buildrbear",
       "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",

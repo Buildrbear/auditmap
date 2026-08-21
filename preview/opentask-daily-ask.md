@@ -25,7 +25,6 @@ The production-sync queue is reserved for maintainers and repository integrators
 | `release-reconciliation-ak-anchorage-01` | release-reconciliation | AK / anchorage | 3 |
 | `release-reconciliation-de-wilmington-01` | release-reconciliation | DE / wilmington | 2 |
 | `release-reconciliation-ga-atlanta-01` | release-reconciliation | GA / atlanta | 3 |
-| `release-reconciliation-in-indianapolis-01` | release-reconciliation | IN / indianapolis | 2 |
 | `release-reconciliation-pa-philadelphia-01` | release-reconciliation | PA / philadelphia | 3 |
 
 ## Daily merge rule
