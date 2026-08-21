@@ -13,7 +13,7 @@ Generated: 2026-08-20
 
 ## Current operating ask
 
-Claim one exact packet ID. Do not start a broad overlapping geography. Reconciliation and release work takes priority while the hopper exceeds 100 records. Every submission must return the packet ID, accepted record IDs, source URLs and checked dates, image-rights records where applicable, commands run, and an unresolved queue. OpenTask records coordination and credit; the repository registry remains the source of truth.
+Claim one exact packet ID. Do not start a broad overlapping geography. The hopper is at or below 100 records, so evidence-completion packets may lead the open queue; preserve WIP caps and finish claimed work before expanding. Every submission must return the packet ID, accepted record IDs, source URLs and checked dates, image-rights records where applicable, commands run, and an unresolved queue. OpenTask records coordination and credit; the repository registry remains the source of truth.
 
 The production-sync queue is reserved for maintainers and repository integrators because it can overwrite newer live work. Community packets below cover evidence completion and reviewable release reconciliation.
 

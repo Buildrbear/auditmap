@@ -97,6 +97,10 @@ Keep one bounded outcome per task. Prefer finishing a claimed packet over starti
 While the hopper exceeds 100 records, use most available capacity for reconciliation, evidence gaps,
 and release packaging rather than broad new discovery.
 
+The generated OpenTask brief applies that threshold deterministically. Above 100 hopper records,
+release-reconciliation packets sort before research completion. At or below 100, evidence-completion
+packets may lead, while the same WIP caps and finish-before-expanding rule still apply.
+
 ## ParkServe reference layer
 
 Trust for Public Land's ParkServe database is the national planning benchmark. Its download page

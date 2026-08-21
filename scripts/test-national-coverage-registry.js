@@ -4,6 +4,7 @@ const {
   buildRegistry,
   dateInTimeZone,
   localPagesFromLaunchMap,
+  openTaskBrief,
   parseSitemap,
   summarize,
   validateActiveClaimReferences,
@@ -128,6 +129,20 @@ assert.deepEqual(new Set(packets.map((packet) => packet.type)), new Set([
   "release-reconciliation",
   "research-completion",
 ]));
+const researchPacketId = packets.find((packet) => packet.type === "research-completion").id;
+const releasePacketId = packets.find((packet) => packet.type === "release-reconciliation").id;
+const lowHopperBrief = openTaskBrief({
+  asOf: "2026-08-20",
+  summary: { ...summary, hopper: 100 },
+}, packets);
+assert.match(lowHopperBrief, /at or below 100 records/);
+assert.ok(lowHopperBrief.indexOf(researchPacketId) < lowHopperBrief.indexOf(releasePacketId));
+const highHopperBrief = openTaskBrief({
+  asOf: "2026-08-20",
+  summary: { ...summary, hopper: 101 },
+}, packets);
+assert.match(highHopperBrief, /exceeds 100 records/);
+assert.ok(highHopperBrief.indexOf(releasePacketId) < highHopperBrief.indexOf(researchPacketId));
 
 const baseClaim = {
   packetId: "release-reconciliation-nc-raleigh-01",
