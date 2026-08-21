@@ -23,7 +23,7 @@ The production-sync queue is reserved for maintainers and repository integrators
 
 | Packet | Work type | Geography | Records |
 | --- | --- | --- | ---: |
-| `release-reconciliation-pa-philadelphia-01` | release-reconciliation | PA / philadelphia | 3 |
+| None | — | — | 0 |
 
 ## Capacity-blocked backlog
 
