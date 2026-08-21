@@ -47,6 +47,7 @@ Continue requiring representative reusable photography, current official visitor
 - Refresh from the latest stacked campaign head and claim one exact generated packet before research begins.
 - Keep at most two open municipality-breadth batches and one depth cluster. Mesa and El Paso fill the two breadth slots at this checkpoint.
 - Keep one packet and one reviewable outcome per pull request; do not use a target park count to override evidence quality or packet boundaries.
+- Keep every `acceptedRecordIds` entry inside its exact claimed packet. The deterministic refresh rejects malformed paths, duplicates and cross-packet record references for active claims.
 - Apply the assigned contribution tier. Inventory packets do not become launch guides merely because current visitor facts are available.
 - For page-producing packets, generate and test locally throughout the batch, then create one pull request preview for the release candidate.
 - Keep one authoritative campaign record per place and regenerate derived HTML rather than hand-editing generated pages.

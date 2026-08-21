@@ -151,9 +151,35 @@ assert.throws(() => validateClaimsDocument({
   claims: [baseClaim, { ...baseClaim }],
 }), /Duplicate claim packetId/);
 assert.throws(() => validateClaimsDocument(claimsDocument, { asOf: "2026-08-25" }), /expired/);
+assert.throws(() => validateClaimsDocument({
+  ...claimsDocument,
+  claims: [{ ...baseClaim, acceptedRecordIds: "not-an-array" }],
+}), /acceptedRecordIds.*array/);
+assert.throws(() => validateClaimsDocument({
+  ...claimsDocument,
+  claims: [{ ...baseClaim, acceptedRecordIds: ["not-a-record-path"] }],
+}), /acceptedRecordId.*\/us\//);
+assert.throws(() => validateClaimsDocument({
+  ...claimsDocument,
+  claims: [{
+    ...baseClaim,
+    acceptedRecordIds: [
+      "/us/nc/raleigh/parks/live-park/local-playground",
+      "/us/nc/raleigh/parks/live-park/local-playground",
+    ],
+  }],
+}), /Duplicate acceptedRecordId/);
 assert.throws(() => validateActiveClaimReferences(packets, [{
   ...baseClaim,
   packetId: "release-reconciliation-nc-missing-city-01",
 }]), /unknown packet/);
+assert.doesNotThrow(() => validateActiveClaimReferences(packets, [{
+  ...baseClaim,
+  acceptedRecordIds: ["/us/nc/raleigh/parks/live-park/local-playground"],
+}]));
+assert.throws(() => validateActiveClaimReferences(packets, [{
+  ...baseClaim,
+  acceptedRecordIds: ["/us/nc/raleigh/parks/live-park/not-in-the-packet"],
+}]), /outside its packet/);
 
 console.log("National coverage registry tests passed.");

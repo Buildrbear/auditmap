@@ -140,6 +140,23 @@ function validateClaimsDocument(document, { asOf = null } = {}) {
     for (const field of ["submissionUrl", "pullRequestUrl"]) {
       if (claim[field]) validateHttpsUrl(claim[field], field, claim.packetId);
     }
+    if (claim.acceptedRecordIds !== undefined) {
+      if (!Array.isArray(claim.acceptedRecordIds)) {
+        throw new Error(`Invalid acceptedRecordIds for claim ${claim.packetId}: expected an array`);
+      }
+      const acceptedRecordIds = new Set();
+      for (const recordId of claim.acceptedRecordIds) {
+        if (typeof recordId !== "string" || !recordId.startsWith("/us/")) {
+          throw new Error(
+            `Invalid acceptedRecordId for claim ${claim.packetId}: expected a /us/ record path`,
+          );
+        }
+        if (acceptedRecordIds.has(recordId)) {
+          throw new Error(`Duplicate acceptedRecordId for claim ${claim.packetId}: ${recordId}`);
+        }
+        acceptedRecordIds.add(recordId);
+      }
+    }
     if (asOf && ACTIVE_CLAIM_STATUSES.has(claim.status) && claim.expiresAt < asOf) {
       throw new Error(
         `Active claim ${claim.packetId} expired ${claim.expiresAt}; extend it or set status to released`,
@@ -150,10 +167,18 @@ function validateClaimsDocument(document, { asOf = null } = {}) {
 }
 
 function validateActiveClaimReferences(packets, claims) {
-  const packetIds = new Set(packets.map((packet) => packet.id));
+  const packetsById = new Map(packets.map((packet) => [packet.id, packet]));
   for (const claim of claims) {
-    if (ACTIVE_CLAIM_STATUSES.has(claim.status) && !packetIds.has(claim.packetId)) {
-      throw new Error(`Active claim references unknown packet: ${claim.packetId}`);
+    if (!ACTIVE_CLAIM_STATUSES.has(claim.status)) continue;
+    const packet = packetsById.get(claim.packetId);
+    if (!packet) throw new Error(`Active claim references unknown packet: ${claim.packetId}`);
+    const packetRecordIds = new Set(packet.recordIds);
+    for (const recordId of claim.acceptedRecordIds || []) {
+      if (!packetRecordIds.has(recordId)) {
+        throw new Error(
+          `Active claim ${claim.packetId} references record outside its packet: ${recordId}`,
+        );
+      }
     }
   }
 }
