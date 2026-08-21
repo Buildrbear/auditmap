@@ -8,13 +8,13 @@
   "reconciliationUrl": "https://github.com/Buildrbear/auditmap/pull/62",
   "packetId": "release-reconciliation-ga-atlanta-01",
   "contributionTier": "super-enrichment",
-  "summary": {"publishableParents": 0, "duplicatesOrRenames": 0, "blockedParents": 3, "deployed": 0},
+  "summary": {"publishableParents": 0, "duplicatesOrRenames": 3, "blockedParents": 0, "deployed": 0},
   "records": [
     {
       "recordId": "/us/ga/atlanta/parks/atlanta-beltline-eastside-trail",
       "stableId": "launch-ga-atlanta-eastside-trail",
       "name": "Atlanta BeltLine Eastside Trail",
-      "classification": "blocked-generated-placeholder",
+      "classification": "duplicate-renamed-to-eastside-trail",
       "latitude": 33.7544828,
       "longitude": -84.3654746,
       "operatorSource": "https://beltline.org/parks-trails/eastside-trail/",
@@ -27,7 +27,7 @@
       "recordId": "/us/ga/atlanta/parks/chastain-memorial-park",
       "stableId": "launch-ga-atlanta-chastain-park",
       "name": "Chastain Memorial Park",
-      "classification": "blocked-generated-placeholder",
+      "classification": "duplicate-renamed-to-chastain-park",
       "latitude": 33.8712146,
       "longitude": -84.3910383,
       "operatorSource": "https://www.atlantaga.gov/government/departments/department-parks-recreation/office-of-parks/list-of-parks-alphabetical",
@@ -40,7 +40,7 @@
       "recordId": "/us/ga/atlanta/parks/shirley-clarke-franklin-park-westside-park",
       "stableId": "launch-ga-atlanta-westside-park",
       "name": "Shirley Clarke Franklin Park (Westside Park)",
-      "classification": "blocked-generated-placeholder",
+      "classification": "duplicate-renamed-to-westside-park",
       "latitude": 33.779242,
       "longitude": -84.4383942,
       "operatorSource": "https://www.atlantaga.gov/government/departments/department-parks-recreation/office-of-parks/list-of-parks-alphabetical",
@@ -51,7 +51,7 @@
     }
   ],
   "reviewQueue": [
-    "All three exact local HTML routes are stale research placeholders with logo imagery, no source-backed answers and legacy record IDs; scoped generation must reconcile them to the enriched launch-map records before publication.",
+    "All three packet routes are legacy-name duplicates. Permanent redirects point to the existing enriched canonical parents at /eastside-trail, /chastain-park and /westside-park.",
     "Recheck exact facility, event and transit schedules because they can differ from parent park hours.",
     "Keep Westside Park reservoir restrictions explicit: protected drinking-water infrastructure is not a swimming, boating or shoreline-access destination.",
     "Child destinations remain outside this parent-only reconciliation and retain their own evidence requirements.",
@@ -60,10 +60,10 @@
   "verification": {
     "atlantaVerifier": "passed-on-stacked-head",
     "campaignSuite": "passed-55-campaigns-on-stacked-head",
-    "rawHtml": "blocked-three-stale-research-placeholders",
+    "rawHtml": "canonical-pages-enriched-three-legacy-files-retained-for-active-claim-audit",
     "imageRights": "licensed-commons-galleries-persisted",
     "productionPresence": "not-present",
-    "releaseDecision": "blocked-until-scoped-generation-and-preview-verification"
+    "releaseDecision": "duplicate-renamed-pending-production-redirect-verification-and-accepted-claim-cleanup"
   },
   "risk": {
     "privacy": "none",
