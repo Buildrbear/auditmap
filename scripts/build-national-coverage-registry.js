@@ -32,6 +32,7 @@ const CLAIM_STATUSES = new Set([
 const ACTIVE_CLAIM_STATUSES = new Set(["claimed", "submitted", "changes-requested"]);
 const CLAIM_PACKET_PATTERN = /^(release-reconciliation|research-completion|local-production-sync)-[a-z]{2}-[a-z0-9-]+-[0-9]{2}$/;
 const ISO_DATE_PATTERN = /^\d{4}-\d{2}-\d{2}$/;
+const CAMPAIGN_TIME_ZONE = "America/New_York";
 
 function parseArgs(argv) {
   const options = { ...defaultPaths, write: true, includeExternal: true };
@@ -62,6 +63,26 @@ function normalize(value) {
 
 function slugify(value) {
   return normalize(value).replace(/\s+/g, "-");
+}
+
+function isIsoDate(value) {
+  if (!ISO_DATE_PATTERN.test(String(value || ""))) return false;
+  const parsed = new Date(`${value}T00:00:00.000Z`);
+  return !Number.isNaN(parsed.valueOf()) && parsed.toISOString().slice(0, 10) === value;
+}
+
+function dateInTimeZone(value = new Date(), timeZone = CAMPAIGN_TIME_ZONE) {
+  const parts = Object.fromEntries(
+    new Intl.DateTimeFormat("en-US", {
+      timeZone,
+      calendar: "gregory",
+      numberingSystem: "latn",
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit",
+    }).formatToParts(value).map((part) => [part.type, part.value]),
+  );
+  return `${parts.year}-${parts.month}-${parts.day}`;
 }
 
 function relativePath(value) {
@@ -573,7 +594,8 @@ async function build(options) {
     readJson(options.claims),
     readJson(options.spatialSources),
   ]);
-  const asOf = options.asOf || new Date().toISOString().slice(0, 10);
+  const asOf = options.asOf || dateInTimeZone();
+  if (!isIsoDate(asOf)) throw new Error("asOf must be an ISO date (YYYY-MM-DD)");
   const claims = validateClaimsDocument(claimsDocument, { asOf });
   const externalIntakes = options.includeExternal
     ? await loadExternalIntakes(options.externalSources)
@@ -653,7 +675,9 @@ module.exports = {
   buildPackets,
   buildRegistry,
   buildSpatialIndex,
+  dateInTimeZone,
   destinationFromUrl,
+  isIsoDate,
   matchResearchRecord,
   normalize,
   openTaskBrief,
