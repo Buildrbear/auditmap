@@ -131,8 +131,17 @@
       "claimedAt": "2026-08-20",
       "expiresAt": "2026-08-27",
       "lastUpdatedAt": "2026-08-20",
-      "status": "claimed",
-      "notes": "Inventory-only Spring Forest Road Park identity, authoritative source, coordinate, current-status, and image-rights research; no page publication."
+      "status": "submitted",
+      "submissionUrl": "https://github.com/Buildrbear/auditmap/pull/46",
+      "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/46",
+      "acceptedRecordIds": [
+        "/us/nc/raleigh/parks/spring-forest-road-park"
+      ],
+      "reviewQueue": [
+        "Obtain four varied representative reusable parent photographs or documented City reuse permission.",
+        "Complete the recurring visitor-answer set only under a separate launch-guide assignment after the photo gate clears."
+      ],
+      "notes": "Inventory record, resolved distinct-parent identity, current access evidence, and official vehicle-entrance coordinate provenance are submitted in PR #46. The parent remains photo-and-launch-guide-gated with no generated page."
     }
   ]
 }

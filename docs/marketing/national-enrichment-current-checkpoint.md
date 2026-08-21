@@ -17,9 +17,9 @@ The Cleveland-through-Boise batches and the submitted Greensboro, Asheville, Con
 
 ## Resume Point
 
-Do not repeat completed batches unless review finds a specific defect or new evidence changes a deferred decision. On this stacked line, Chesapeake Bay, Greensboro, Asheville, Concord, Fayetteville, and Raleigh are reserved work; Boone remains the genuinely open research-completion packet after Raleigh is submitted.
+Do not repeat completed batches unless review finds a specific defect or new evidence changes a deferred decision. On this stacked line, Chesapeake Bay, Greensboro, Asheville, Concord, Fayetteville, and Raleigh are reserved as submitted work; Boone remains the genuinely open research-completion packet.
 
-The Fayetteville claim is submitted in PR #44. If review requests changes, change it to `changes-requested`; if accepted, retain Arnette Park at inventory tier until current operator hours, four varied representative reusable photographs, and the complete recurring visitor-answer set justify a separate launch-guide assignment. Submit the Raleigh claim through its exact draft PR, then claim the Boone packet from the generated queue.
+The Fayetteville claim is submitted in PR #44. If review requests changes, change it to `changes-requested`; if accepted, retain Arnette Park at inventory tier until current operator hours, four varied representative reusable photographs, and the complete recurring visitor-answer set justify a separate launch-guide assignment. The Raleigh claim is submitted in PR #46; keep it at inventory tier until representative reusable photographs and the separately assigned complete launch-guide profile clear review. Then claim the Boone packet from the generated queue.
 
 Keep the Azalea Park access conflict open. Recheck the City structured location record, normal visitor page, current recovery project, and an explicit operator area-status source before publishing hours or arrival guidance. Keep Azalea Dog Park as a related facility rather than duplicating or substituting it for the parent.
 
