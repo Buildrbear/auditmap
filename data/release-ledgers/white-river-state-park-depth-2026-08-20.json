@@ -107,6 +107,7 @@
     "Old Washington Street Bridge, Celebration Plaza lawn, Military Park, State Museum Lawn, NCAA Hall of Champions, Eiteljorg Museum and Indianapolis Zoo remain deferred until exact arrival, complete destination facts and matching reusable photography clear together.",
     "The operator visit page still displays an August 15 closure notice that explicitly says reopening August 16; it is recorded as expired and requires same-day alert rechecking rather than publication as a current closure.",
     "The national registry classifies Canal Walk and Celebration Plaza Amphitheater in submitted packet release-reconciliation-in-indianapolis-01 until PR #54 is reviewed, merged and deployed; local generation does not count as production publication.",
+    "The legacy verify:sd-coast:priority command still requires San Diego to be the active queue cluster and fails against the pre-existing El Paso checkpoint; update that historical assertion only under separate maintenance review rather than weakening it in this capacity change.",
     "A plain local file server cannot validate Vercel image optimization or live API fallbacks; final optimized-image and live-service checks remain assigned to the pull-request preview."
   ],
   "verification": {
@@ -120,6 +121,6 @@
     "nationalRegistry": "passed-filesystem-backed-local-page-discovery-two-indianapolis-records",
     "claimLedger": "passed-schema-v1-runtime-validation-submitted-packet-binding-active-record-membership-and-structured-review-queue",
     "campaignDate": "passed-america-new-york-as-of-boundary",
-    "queuePolicy": "passed-dynamic-hopper-threshold-ordering"
+    "queuePolicy": "passed-dynamic-hopper-threshold-ordering-and-machine-readable-lane-capacity-gate"
   }
 }

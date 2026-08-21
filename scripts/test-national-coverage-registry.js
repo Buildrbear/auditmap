@@ -8,6 +8,7 @@ const {
   parseSitemap,
   summarize,
   validateActiveClaimReferences,
+  validateCampaignCapacity,
   validateClaimsDocument,
 } = require("./build-national-coverage-registry");
 
@@ -143,6 +144,65 @@ const highHopperBrief = openTaskBrief({
 }, packets);
 assert.match(highHopperBrief, /exceeds 100 records/);
 assert.ok(highHopperBrief.indexOf(releasePacketId) < highHopperBrief.indexOf(researchPacketId));
+const campaignQueue = {
+  activeCluster: {
+    resumeCheckpoint: {
+      campaignCapacity: {
+        asOf: "2026-08-20",
+        limits: { municipalityBreadth: 1, depth: 1 },
+        activeLanes: {
+          municipalityBreadth: [{
+            packetId: "research-completion-nc-raleigh-01",
+            issueUrl: "https://github.com/example/auditmap/issues/1",
+            pullRequestUrl: "https://github.com/example/auditmap/pull/1",
+            status: "submitted",
+          }],
+          depth: [],
+        },
+        available: { municipalityBreadth: 0, depth: 1 },
+      },
+    },
+  },
+};
+const capacity = validateCampaignCapacity(campaignQueue);
+const capacityGatedBrief = openTaskBrief({ asOf: "2026-08-20", summary }, packets, capacity);
+const openSection = capacityGatedBrief.split("## Capacity-blocked backlog")[0];
+const blockedSection = capacityGatedBrief.split("## Capacity-blocked backlog")[1];
+assert.match(capacityGatedBrief, /0\/1 municipality-breadth/);
+assert.match(capacityGatedBrief, /breadth capacity is full/);
+assert.doesNotMatch(capacityGatedBrief, /evidence-completion packets may lead/);
+assert.doesNotMatch(openSection, new RegExp(researchPacketId));
+assert.match(blockedSection, new RegExp(researchPacketId));
+assert.match(openSection, new RegExp(releasePacketId));
+assert.throws(() => validateCampaignCapacity({
+  ...campaignQueue,
+  activeCluster: {
+    resumeCheckpoint: {
+      campaignCapacity: {
+        ...capacity,
+        available: { municipalityBreadth: 1, depth: 1 },
+      },
+    },
+  },
+}), /available count/);
+assert.throws(() => validateCampaignCapacity({
+  activeCluster: {
+    resumeCheckpoint: {
+      campaignCapacity: { ...capacity, unexpected: true },
+    },
+  },
+}), /Unknown field unexpected/);
+assert.throws(() => validateCampaignCapacity(campaignQueue, [{
+  packetId: "research-completion-nc-raleigh-01",
+  assignee: "agent-example",
+  assignmentUrl: "https://opentask.ai/assignments/example",
+  issueUrl: "https://github.com/example/auditmap/issues/different",
+  pullRequestUrl: "https://github.com/example/auditmap/pull/1",
+  claimedAt: "2026-08-17",
+  expiresAt: "2026-08-24",
+  lastUpdatedAt: "2026-08-17",
+  status: "submitted",
+}]), /issueUrl differs/);
 
 const baseClaim = {
   packetId: "release-reconciliation-nc-raleigh-01",

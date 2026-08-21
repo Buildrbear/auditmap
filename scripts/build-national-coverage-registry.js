@@ -16,6 +16,7 @@ const defaultPaths = {
   intakeDirectory: "data/research-intake",
   externalSources: "data/research-intake/opentask-external-sources.json",
   claims: "data/national-work-packet-claims.json",
+  campaignQueue: "data/us-priority-enrichment-queue.json",
   spatialSources: "data/spatial-source-registry.json",
   output: "data/generated/national-coverage-registry.json",
   packetsOutput: "data/generated/national-work-packets.json",
@@ -50,6 +51,9 @@ const CLAIM_FIELDS = new Set([
   "notes",
 ]);
 const REVIEW_QUEUE_FIELDS = new Set(["issue", "recommendation", "sourceUrl"]);
+const CAPACITY_ENTRY_FIELDS = new Set(["packetId", "issueUrl", "pullRequestUrl", "status"]);
+const CAPACITY_FIELDS = new Set(["asOf", "limits", "activeLanes", "available"]);
+const CAPACITY_LANE_FIELDS = new Set(["municipalityBreadth", "depth"]);
 const CAMPAIGN_TIME_ZONE = "America/New_York";
 
 function parseArgs(argv) {
@@ -254,6 +258,58 @@ function validateActiveClaimReferences(packets, claims) {
       }
     }
   }
+}
+
+function validateCampaignCapacity(document, claims = null) {
+  const capacity = document?.activeCluster?.resumeCheckpoint?.campaignCapacity;
+  if (!capacity) throw new Error("Campaign queue is missing activeCluster.resumeCheckpoint.campaignCapacity");
+  validateKnownFields(capacity, CAPACITY_FIELDS, "campaign capacity");
+  validateKnownFields(capacity.limits, CAPACITY_LANE_FIELDS, "campaign capacity limits");
+  validateKnownFields(capacity.activeLanes, CAPACITY_LANE_FIELDS, "campaign capacity activeLanes");
+  validateKnownFields(capacity.available, CAPACITY_LANE_FIELDS, "campaign capacity available");
+  if (!isIsoDate(capacity.asOf)) throw new Error("Campaign capacity asOf must be an ISO date");
+  const laneNames = ["municipalityBreadth", "depth"];
+  const seenPackets = new Set();
+  const activeClaims = claims
+    ? new Map(claims.filter((claim) => ACTIVE_CLAIM_STATUSES.has(claim.status))
+      .map((claim) => [claim.packetId, claim]))
+    : null;
+  for (const laneName of laneNames) {
+    const limit = capacity.limits?.[laneName];
+    const entries = capacity.activeLanes?.[laneName];
+    const available = capacity.available?.[laneName];
+    if (!Number.isInteger(limit) || limit < 0) {
+      throw new Error(`Invalid campaign capacity limit for ${laneName}`);
+    }
+    if (!Array.isArray(entries)) throw new Error(`Campaign capacity lane ${laneName} must be an array`);
+    if (!Number.isInteger(available) || available !== limit - entries.length || available < 0) {
+      throw new Error(`Campaign capacity available count does not match ${laneName} lane usage`);
+    }
+    for (const entry of entries) {
+      const packetId = entry?.packetId || "(missing packetId)";
+      validateKnownFields(entry, CAPACITY_ENTRY_FIELDS, `campaign capacity entry ${packetId}`);
+      if (!CLAIM_PACKET_PATTERN.test(packetId)) {
+        throw new Error(`Invalid campaign capacity packetId: ${packetId}`);
+      }
+      if (seenPackets.has(packetId)) throw new Error(`Duplicate campaign capacity packetId: ${packetId}`);
+      seenPackets.add(packetId);
+      if (!ACTIVE_CLAIM_STATUSES.has(entry.status)) {
+        throw new Error(`Invalid campaign capacity status for ${packetId}: ${entry.status}`);
+      }
+      validateHttpsUrl(entry.issueUrl, "issueUrl", packetId);
+      validateHttpsUrl(entry.pullRequestUrl, "pullRequestUrl", packetId);
+      if (activeClaims) {
+        const claim = activeClaims.get(packetId);
+        if (!claim) throw new Error(`Campaign capacity entry lacks an active claim: ${packetId}`);
+        for (const field of ["issueUrl", "pullRequestUrl", "status"]) {
+          if (entry[field] !== claim[field]) {
+            throw new Error(`Campaign capacity ${field} differs from claim ledger for ${packetId}`);
+          }
+        }
+      }
+    }
+  }
+  return capacity;
 }
 
 async function readText(source) {
@@ -630,24 +686,39 @@ function buildPackets(records, packetSize = 25, claims = []) {
   return packets;
 }
 
-function openTaskBrief(document, packets) {
+function openTaskBrief(document, packets, capacity = null) {
   const summary = document.summary;
   const reconciliationFirst = summary.hopper > 100;
   const priority = reconciliationFirst
     ? { "release-reconciliation": 0, "research-completion": 1 }
     : { "research-completion": 0, "release-reconciliation": 1 };
+  const communityPackets = packets
+    .filter((packet) => packet.status === "open" && packet.type !== "local-production-sync");
+  const breadthFull = capacity?.available?.municipalityBreadth === 0;
   const queueGuidance = reconciliationFirst
     ? "The hopper exceeds 100 records, so reconciliation and release work leads the open queue."
-    : "The hopper is at or below 100 records, so evidence-completion packets may lead the open queue; preserve WIP caps and finish claimed work before expanding.";
-  const openPackets = packets
-    .filter((packet) => packet.status === "open" && packet.type !== "local-production-sync")
+    : breadthFull
+      ? "The hopper is at or below 100 records, but breadth capacity is full, so release-reconciliation maintenance leads the available queue."
+      : "The hopper is at or below 100 records, so evidence-completion packets may lead the open queue; preserve WIP caps and finish claimed work before expanding.";
+  const capacityBlockedPackets = breadthFull
+    ? communityPackets.filter((packet) => packet.type === "research-completion")
+    : [];
+  const blockedPacketIds = new Set(capacityBlockedPackets.map((packet) => packet.id));
+  const openPackets = communityPackets
+    .filter((packet) => !blockedPacketIds.has(packet.id))
     .sort((left, right) =>
       (priority[left.type] ?? 9) - (priority[right.type] ?? 9) || left.id.localeCompare(right.id),
     );
   const packetRows = openPackets.slice(0, 20).map((packet) =>
     `| \`${packet.id}\` | ${packet.type} | ${packet.state} / ${packet.citySlug.replace(/-/g, " ")} | ${packet.count} |`,
   ).join("\n");
-  return `# AuditMap Daily OpenTask Ask\n\nGenerated: ${document.asOf}\n\n## Current scoreboard\n\n- **${summary.liveDestinationPages.toLocaleString()}** destination pages are live.\n- **${summary.hopper.toLocaleString()}** known destinations are in the hopper.\n- **${summary.generatedLocallyNotLive.toLocaleString()}** are generated locally but absent from production.\n- **${summary.researchOnly.toLocaleString()}** are research-only candidates awaiting launch-guide work.\n- **${summary.blockedReview.toLocaleString()}** are blocked by named review questions.\n- **${summary.productionMissingFromLocal.toLocaleString()}** live records need internal local/production synchronization.\n\n## Current operating ask\n\nClaim one exact packet ID. Do not start a broad overlapping geography. ${queueGuidance} Every submission must return the packet ID, accepted record IDs, source URLs and checked dates, image-rights records where applicable, commands run, and an unresolved queue. OpenTask records coordination and credit; the repository registry remains the source of truth.\n\nThe production-sync queue is reserved for maintainers and repository integrators because it can overwrite newer live work. Community packets below cover evidence completion and reviewable release reconciliation.\n\n## Open packets\n\n| Packet | Work type | Geography | Records |\n| --- | --- | --- | ---: |\n${packetRows || "| None | — | — | 0 |"}\n\n## Daily merge rule\n\n1. Refresh the registry before assigning work.\n2. Reserve the packet ID in OpenTask and its linked GitHub issue.\n3. Accept only source-format changes or the research handoff template.\n4. Merge through reviewed pull requests and a Vercel preview.\n5. Refresh again after production deployment; only production presence marks a record live.\n`;
+  const blockedRows = capacityBlockedPackets.slice(0, 20).map((packet) =>
+    `| \`${packet.id}\` | ${packet.type} | ${packet.state} / ${packet.citySlug.replace(/-/g, " ")} | ${packet.count} |`,
+  ).join("\n");
+  const capacityGuidance = capacity
+    ? `Campaign capacity is ${capacity.available.municipalityBreadth}/${capacity.limits.municipalityBreadth} municipality-breadth and ${capacity.available.depth}/${capacity.limits.depth} depth lanes available. ${breadthFull ? "Do not claim a research-completion packet until independent review releases a breadth lane. " : "A municipality-breadth lane is available for an exact packet claim. "}${capacity.available.depth === 0 ? "Do not start another depth cluster." : "A depth lane is available for a separately assigned cluster."}`
+    : "Campaign capacity is not attached to this brief; confirm the current checkpoint before claiming work.";
+  return `# AuditMap Daily OpenTask Ask\n\nGenerated: ${document.asOf}\n\n## Current scoreboard\n\n- **${summary.liveDestinationPages.toLocaleString()}** destination pages are live.\n- **${summary.hopper.toLocaleString()}** known destinations are in the hopper.\n- **${summary.generatedLocallyNotLive.toLocaleString()}** are generated locally but absent from production.\n- **${summary.researchOnly.toLocaleString()}** are research-only candidates awaiting launch-guide work.\n- **${summary.blockedReview.toLocaleString()}** are blocked by named review questions.\n- **${summary.productionMissingFromLocal.toLocaleString()}** live records need internal local/production synchronization.\n\n## Current operating ask\n\n${capacityGuidance}\n\nClaim one exact available packet ID. Do not start a broad overlapping geography. ${queueGuidance} Every submission must return the packet ID, accepted record IDs, source URLs and checked dates, image-rights records where applicable, commands run, and an unresolved queue. OpenTask records coordination and credit; the repository registry remains the source of truth.\n\nThe production-sync queue is reserved for maintainers and repository integrators because it can overwrite newer live work. Release-reconciliation maintenance does not open a new breadth or depth lane.\n\n## Open packets\n\n| Packet | Work type | Geography | Records |\n| --- | --- | --- | ---: |\n${packetRows || "| None | — | — | 0 |"}\n\n## Capacity-blocked backlog\n\nThese packets remain visible for planning but are not claimable until the matching lane opens.\n\n| Packet | Work type | Geography | Records |\n| --- | --- | --- | ---: |\n${blockedRows || "| None | — | — | 0 |"}\n\n## Daily merge rule\n\n1. Refresh the registry before assigning work.\n2. Reserve the packet ID in OpenTask and its linked GitHub issue.\n3. Accept only source-format changes or the research handoff template.\n4. Merge through reviewed pull requests and a Vercel preview.\n5. Refresh again after production deployment; only production presence marks a record live.\n`;
 }
 
 async function loadLocalIntakes(directory) {
@@ -687,7 +758,7 @@ async function loadExternalIntakes(configPath) {
 
 async function build(options) {
   const baseline = localGitBaseline();
-  const [productionSitemap, localSitemap, productionCatalog, localCatalog, productionLaunchMap, localLaunchMap, localIntakes, claimsDocument, spatialDocument] = await Promise.all([
+  const [productionSitemap, localSitemap, productionCatalog, localCatalog, productionLaunchMap, localLaunchMap, localIntakes, claimsDocument, campaignQueueDocument, spatialDocument] = await Promise.all([
     readText(options.productionSitemap),
     readText(options.localSitemap),
     readJson(options.productionCatalog),
@@ -696,11 +767,13 @@ async function build(options) {
     readJson(options.localLaunchMap),
     loadLocalIntakes(options.intakeDirectory),
     readJson(options.claims),
+    readJson(options.campaignQueue),
     readJson(options.spatialSources),
   ]);
   const asOf = options.asOf || dateInTimeZone();
   if (!isIsoDate(asOf)) throw new Error("asOf must be an ISO date (YYYY-MM-DD)");
   const claims = validateClaimsDocument(claimsDocument, { asOf });
+  const campaignCapacity = validateCampaignCapacity(campaignQueueDocument, claims);
   const externalIntakes = options.includeExternal
     ? await loadExternalIntakes(options.externalSources)
     : [];
@@ -752,7 +825,7 @@ async function build(options) {
   return {
     document,
     packetDocument: { schemaVersion: 1, asOf, summary: document.summary, packets },
-    brief: openTaskBrief(document, packets),
+    brief: openTaskBrief(document, packets, campaignCapacity),
   };
 }
 
@@ -793,5 +866,6 @@ module.exports = {
   parseSitemap,
   summarize,
   validateActiveClaimReferences,
+  validateCampaignCapacity,
   validateClaimsDocument,
 };

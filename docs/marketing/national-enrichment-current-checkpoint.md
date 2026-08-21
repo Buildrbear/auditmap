@@ -13,6 +13,7 @@ Last updated: 2026-08-20
 - Submission: draft PR #54; not merged or promoted to production. Mesa PR #50 and El Paso PR #52 remain open and unchanged.
 - Registry synchronization: the national registry now recognizes filesystem-backed generated pages that are absent from the broad sitemap, without treating ungenerated launch-map candidates as pages. It records 3,458 known destinations, 3,382 live pages and 76 hopper records. White River's two local destinations are isolated in submitted packet `release-reconciliation-in-indianapolis-01`; the claim is bound to the existing OpenTask assignment, issue #53 and PR #54, and remains non-live until deployment.
 - Canonical machine-readable checkpoint: `data/us-priority-enrichment-queue.json` under `activeCluster.resumeCheckpoint`.
+- Machine-readable capacity: the same checkpoint records two active municipality-breadth lanes (Mesa PR #50 and El Paso PR #52), one active depth lane (White River PR #54), and zero availability in both classes. The generated OpenTask brief moves Wake Forest to capacity-blocked backlog until breadth review frees a slot.
 
 The Cleveland-through-Boise batches and the submitted Greensboro-through-Boone and Mesa inventory packets remain complete at their previous checkpoints. The El Paso inventory packet does not change their evidence decisions or reopen retired destinations.
 
@@ -47,6 +48,7 @@ Continue requiring representative reusable photography, current official visitor
 - Refresh from the latest stacked campaign head and claim one exact generated packet before research begins.
 - Interpret registry `asOf`, freshness and claim-expiration dates in `America/New_York`; UTC midnight must not advance the campaign date during the Eastern evening.
 - Keep at most two open municipality-breadth batches and one depth cluster. Mesa and El Paso fill the two breadth slots at this checkpoint.
+- Keep machine-readable lane counts synchronized with independent review outcomes before refreshing or assigning packets; a zero-availability breadth lane removes research-completion packets from the claimable table.
 - Order the generated OpenTask queue by the hopper threshold: release reconciliation first above 100 records, evidence completion first at or below 100, without bypassing WIP caps.
 - Keep one packet and one reviewable outcome per pull request; do not use a target park count to override evidence quality or packet boundaries.
 - Keep every `acceptedRecordIds` entry inside its exact claimed packet. The deterministic refresh rejects malformed paths, duplicates and cross-packet record references for active claims.

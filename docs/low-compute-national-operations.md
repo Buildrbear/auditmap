@@ -101,6 +101,14 @@ The generated OpenTask brief applies that threshold deterministically. Above 100
 release-reconciliation packets sort before research completion. At or below 100, evidence-completion
 packets may lead, while the same WIP caps and finish-before-expanding rule still apply.
 
+Machine-readable lane capacity lives in `data/us-priority-enrichment-queue.json` under
+`activeCluster.resumeCheckpoint.campaignCapacity`. The refresh validates the two breadth/one depth
+limits against the listed active lanes. When breadth capacity is zero, research-completion packets
+move to a visible capacity-blocked backlog rather than the claimable table. Release-reconciliation
+maintenance remains available because it does not open a new breadth or depth lane. Every active
+capacity entry must match the packet ID, issue URL, pull-request URL, and status in the claim ledger;
+refresh fails rather than publishing contradictory coordination state.
+
 ## ParkServe reference layer
 
 Trust for Public Land's ParkServe database is the national planning benchmark. Its download page

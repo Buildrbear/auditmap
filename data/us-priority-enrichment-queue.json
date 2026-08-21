@@ -504,7 +504,42 @@
         "Corrected the national registry's same-state unique-name fallback so El Paso Memorial Park cannot attach to Houston Memorial Park; added and passed a regression test requiring the normalized city to match.",
         "Registered the El Paso Parks FeatureServer with publisher-terms review, centroid-as-entrance, polygon-redistribution, and City-image restrictions; imported no City media or polygon geometry."
       ],
-      "nextAction": "Review Mesa draft PR #50 and the El Paso draft submission independently. No third municipality-breadth batch may open until one breadth slot closes. Keep both sets of 25 parents at inventory tier until separately assigned visitor profiles, practical arrival coordinates, representative reusable photography, and final operator rechecks clear; do not reopen completed Cleveland-through-Boone work.",
+      "campaignCapacity": {
+        "asOf": "2026-08-20",
+        "limits": {
+          "municipalityBreadth": 2,
+          "depth": 1
+        },
+        "activeLanes": {
+          "municipalityBreadth": [
+            {
+              "packetId": "research-completion-az-mesa-01",
+              "issueUrl": "https://github.com/Buildrbear/auditmap/issues/49",
+              "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/50",
+              "status": "submitted"
+            },
+            {
+              "packetId": "research-completion-tx-el-paso-01",
+              "issueUrl": "https://github.com/Buildrbear/auditmap/issues/51",
+              "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/52",
+              "status": "submitted"
+            }
+          ],
+          "depth": [
+            {
+              "packetId": "release-reconciliation-in-indianapolis-01",
+              "issueUrl": "https://github.com/Buildrbear/auditmap/issues/53",
+              "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/54",
+              "status": "submitted"
+            }
+          ]
+        },
+        "available": {
+          "municipalityBreadth": 0,
+          "depth": 0
+        }
+      },
+      "nextAction": "Review Mesa draft PR #50, El Paso draft PR #52, and White River State Park draft PR #54 independently. No third municipality-breadth batch or second depth cluster may open until the matching lane closes. Keep both sets of 25 inventory parents launch-guide-gated, and keep White River's deferred destinations at parent guidance until separately assigned evidence clears; do not reopen completed Cleveland-through-Boone work.",
       "notReleased": true,
       "productionPublished": false
     }

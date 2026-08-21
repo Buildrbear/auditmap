@@ -13,19 +13,28 @@ Generated: 2026-08-20
 
 ## Current operating ask
 
-Claim one exact packet ID. Do not start a broad overlapping geography. The hopper is at or below 100 records, so evidence-completion packets may lead the open queue; preserve WIP caps and finish claimed work before expanding. Every submission must return the packet ID, accepted record IDs, source URLs and checked dates, image-rights records where applicable, commands run, and an unresolved queue. OpenTask records coordination and credit; the repository registry remains the source of truth.
+Campaign capacity is 0/2 municipality-breadth and 0/1 depth lanes available. Do not claim a research-completion packet until independent review releases a breadth lane. Do not start another depth cluster.
 
-The production-sync queue is reserved for maintainers and repository integrators because it can overwrite newer live work. Community packets below cover evidence completion and reviewable release reconciliation.
+Claim one exact available packet ID. Do not start a broad overlapping geography. The hopper is at or below 100 records, but breadth capacity is full, so release-reconciliation maintenance leads the available queue. Every submission must return the packet ID, accepted record IDs, source URLs and checked dates, image-rights records where applicable, commands run, and an unresolved queue. OpenTask records coordination and credit; the repository registry remains the source of truth.
+
+The production-sync queue is reserved for maintainers and repository integrators because it can overwrite newer live work. Release-reconciliation maintenance does not open a new breadth or depth lane.
 
 ## Open packets
 
 | Packet | Work type | Geography | Records |
 | --- | --- | --- | ---: |
-| `research-completion-nc-wake-forest-01` | research-completion | NC / wake forest | 2 |
 | `release-reconciliation-ak-anchorage-01` | release-reconciliation | AK / anchorage | 3 |
 | `release-reconciliation-de-wilmington-01` | release-reconciliation | DE / wilmington | 2 |
 | `release-reconciliation-ga-atlanta-01` | release-reconciliation | GA / atlanta | 3 |
 | `release-reconciliation-pa-philadelphia-01` | release-reconciliation | PA / philadelphia | 3 |
+
+## Capacity-blocked backlog
+
+These packets remain visible for planning but are not claimable until the matching lane opens.
+
+| Packet | Work type | Geography | Records |
+| --- | --- | --- | ---: |
+| `research-completion-nc-wake-forest-01` | research-completion | NC / wake forest | 2 |
 
 ## Daily merge rule
 
