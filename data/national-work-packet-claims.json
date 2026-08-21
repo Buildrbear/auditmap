@@ -34,7 +34,10 @@
         "/us/md/edgemere/parks/north-point-state-park"
       ],
       "reviewQueue": [
-        "Keep the recorded official opening-time and visitor-center schedule conflicts unresolved until the operator reconciles them."
+        {
+          "issue": "Official North Point State Park opening times and visitor-center schedules conflict.",
+          "recommendation": "Keep both source-backed schedules unresolved until the operator reconciles them."
+        }
       ],
       "notes": "Parent-only North Point State Park guide is generated and preview-verified on the stacked campaign line; production presence remains the closing authority."
     },
@@ -82,9 +85,18 @@
         "/us/nc/greensboro/parks/oka-t-hester-park"
       ],
       "reviewQueue": [
-        "Jimmie I. Barber Park needs four varied representative reusable parent photographs before launch-guide work.",
-        "Oka T. Hester Park needs four varied representative reusable parent photographs before launch-guide work.",
-        "Both inventory records need a separately assigned, complete recurring visitor-answer set before publication."
+        {
+          "issue": "Jimmie I. Barber Park does not yet have four varied representative reusable parent photographs.",
+          "recommendation": "Clear the parent-photo gate before assigning launch-guide work."
+        },
+        {
+          "issue": "Oka T. Hester Park does not yet have four varied representative reusable parent photographs.",
+          "recommendation": "Clear the parent-photo gate before assigning launch-guide work."
+        },
+        {
+          "issue": "Both Greensboro inventory records lack a complete recurring visitor-answer set.",
+          "recommendation": "Complete the answer sets only under a separately assigned launch-guide packet before publication."
+        }
       ],
       "notes": "Inventory records and official coordinate evidence are submitted in PR #38. Hester's canonical park-office and athletic-field entrance roles are resolved; both parents remain launch-guide-photo-gated."
     },
@@ -103,9 +115,18 @@
         "/us/nc/asheville/parks/azalea-park"
       ],
       "reviewQueue": [
-        "Obtain an explicit current City statement identifying which Azalea Park areas are open; do not infer reopening from standard hours.",
-        "Obtain four varied representative reusable parent photographs or documented City reuse permission.",
-        "Complete access-dependent recurring visitor answers only under a separate launch-guide assignment after the access and photo gates clear."
+        {
+          "issue": "The City has not explicitly identified which Azalea Park areas are currently open.",
+          "recommendation": "Obtain a current City area-status statement; do not infer reopening from standard hours."
+        },
+        {
+          "issue": "Azalea Park lacks four varied representative reusable parent photographs or documented City reuse permission.",
+          "recommendation": "Clear the parent-photo rights gate before launch-guide work."
+        },
+        {
+          "issue": "Access-dependent recurring visitor answers remain incomplete.",
+          "recommendation": "Complete them only under a separate launch-guide assignment after the access and photo gates clear."
+        }
       ],
       "notes": "Inventory record and official coordinate evidence are submitted in PR #40. Azalea Dog Park remains a distinct related facility; the parent remains access-and-photo-gated with no generated page."
     },
@@ -124,9 +145,18 @@
         "/us/nc/concord/parks/marvin-caldwell-park"
       ],
       "reviewQueue": [
-        "Obtain a current operator as-built amenity list; do not merge legacy directory features with planned or contracted renovation scope.",
-        "Obtain four varied representative reusable parent photographs or documented City reuse permission.",
-        "Complete the recurring visitor-answer set and recheck the splash-pad season and named-facility schedules only under a separate launch-guide assignment."
+        {
+          "issue": "Marvin Caldwell Park lacks a current operator as-built amenity list.",
+          "recommendation": "Obtain current as-built evidence; do not merge legacy directory features with planned or contracted renovation scope."
+        },
+        {
+          "issue": "Marvin Caldwell Park lacks four varied representative reusable parent photographs or documented City reuse permission.",
+          "recommendation": "Clear the parent-photo rights gate before launch-guide work."
+        },
+        {
+          "issue": "The recurring visitor-answer set, splash-pad season and named-facility schedules remain incomplete or stale.",
+          "recommendation": "Resolve them only under a separate launch-guide assignment."
+        }
       ],
       "notes": "Inventory record, current reopening evidence, and official visitor-coordinate provenance are submitted in PR #42. The parent remains photo-and-as-built-gated with no generated page."
     },
@@ -145,9 +175,18 @@
         "/us/nc/fayetteville/parks/arnette-park"
       ],
       "reviewQueue": [
-        "Obtain current operator general hours; do not publish the 2013 seasonal schedule as current.",
-        "Obtain four varied representative reusable parent photographs or documented City reuse permission.",
-        "Complete the recurring visitor-answer set and verify current GIS amenity availability only under a separate launch-guide assignment."
+        {
+          "issue": "Arnette Park lacks current operator general hours; the available 2013 seasonal schedule is not current evidence.",
+          "recommendation": "Obtain current operator hours before publication."
+        },
+        {
+          "issue": "Arnette Park lacks four varied representative reusable parent photographs or documented City reuse permission.",
+          "recommendation": "Clear the parent-photo rights gate before launch-guide work."
+        },
+        {
+          "issue": "The recurring visitor-answer set and current GIS amenity availability remain incomplete.",
+          "recommendation": "Resolve them only under a separate launch-guide assignment."
+        }
       ],
       "notes": "Inventory record, resolved visitor address, current-use evidence, and official park-coordinate provenance are submitted in PR #44. The parent remains hours-and-photo-gated with no generated page."
     },
@@ -166,8 +205,14 @@
         "/us/nc/raleigh/parks/spring-forest-road-park"
       ],
       "reviewQueue": [
-        "Obtain four varied representative reusable parent photographs or documented City reuse permission.",
-        "Complete the recurring visitor-answer set only under a separate launch-guide assignment after the photo gate clears."
+        {
+          "issue": "Spring Forest Road Park lacks four varied representative reusable parent photographs or documented City reuse permission.",
+          "recommendation": "Clear the parent-photo rights gate before launch-guide work."
+        },
+        {
+          "issue": "The recurring visitor-answer set remains incomplete.",
+          "recommendation": "Complete it only under a separate launch-guide assignment after the photo gate clears."
+        }
       ],
       "notes": "Inventory record, resolved distinct-parent identity, current access evidence, and official vehicle-entrance coordinate provenance are submitted in PR #46. The parent remains photo-and-launch-guide-gated with no generated page."
     },
@@ -188,9 +233,18 @@
         "/us/nc/boone/parks/junaluska-park"
       ],
       "reviewQueue": [
-        "Obtain current general hours and four varied representative reusable parent photographs for Clawson-Burnley Park.",
-        "Verify Daniel Boone Park campus schedules separately and obtain representative parent photography; do not inherit Boone Jaycee Park hours.",
-        "Ask the Town to reconcile Junaluska Park's embedded 175 Summit residential pin, confirm current hours and ADA remediation, and obtain representative parent photography."
+        {
+          "issue": "Clawson-Burnley Park lacks current general hours and four varied representative reusable parent photographs.",
+          "recommendation": "Clear both gates before launch-guide work."
+        },
+        {
+          "issue": "Daniel Boone Park campus schedules and representative parent photography remain unverified.",
+          "recommendation": "Verify campus schedules separately and do not inherit Boone Jaycee Park hours."
+        },
+        {
+          "issue": "Junaluska Park retains an embedded 175 Summit residential pin conflict, unconfirmed current hours and unverified ADA remediation, and lacks representative parent photography.",
+          "recommendation": "Ask the Town to reconcile the pin and confirm the remaining operating and accessibility evidence before launch-guide work."
+        }
       ],
       "notes": "Three inventory records, reviewed coordinates, parent-child and address decisions, current-use evidence, and image-rights review are submitted in PR #48. All parents remain hours-, photo-, and launch-guide-gated with no generated pages."
     },
@@ -233,9 +287,18 @@
         "/us/az/mesa/parks/skyline-park"
       ],
       "reviewQueue": [
-        "Complete current recurring visitor profiles and obtain representative reusable parent photography under separately assigned launch-guide work for all 25 parents.",
-        "Recheck the Fitch, Eagles, Kleinman, and Sherwood City facility-page pins before publishing navigation; retain the reviewed OSM geometry and City-pin conflicts until reconciled.",
-        "Do not redistribute City park geometry or reuse City images under the noncommercial site license without a separate permission decision."
+        {
+          "issue": "All 25 Mesa parents lack complete current recurring visitor profiles and representative reusable parent photography.",
+          "recommendation": "Complete both gates under separately assigned launch-guide work."
+        },
+        {
+          "issue": "Fitch, Eagles, Kleinman and Sherwood retain conflicts between reviewed OSM geometry and City facility-page pins.",
+          "recommendation": "Recheck the City pins and preserve both evidence classes until reconciled; do not publish navigation from an unresolved pin."
+        },
+        {
+          "issue": "City park geometry redistribution and City image reuse are not cleared by the noncommercial site license.",
+          "recommendation": "Do not redistribute the geometry or reuse the images without a separate permission decision."
+        }
       ],
       "notes": "Twenty-five qualified inventory parents, stable City facility IDs, current official pages, reviewed coordinates, rename and exclusion decisions, release ledger, source restrictions, and full verification are submitted in PR #50. No Mesa pages or City media were generated."
     },
@@ -278,9 +341,18 @@
         "/us/tx/el-paso/parks/vista-del-valle-park"
       ],
       "reviewQueue": [
-        "Replace or verify all approximate park-polygon centroids with practical public arrival points before navigation is published.",
-        "Resolve Eastside Regional Park's Hueco Club address, Blackie Chesher Park's dual address, and both linear parks' practical arrival segments under separately assigned launch-guide work.",
-        "Complete current recurring visitor profiles and obtain representative reusable photography for all 25 parents; do not reuse City imagery or redistribute City polygon geometry without permission."
+        {
+          "issue": "All El Paso park coordinates are approximate park-polygon centroids rather than verified public arrival points.",
+          "recommendation": "Replace or verify every centroid with a practical public arrival point before publishing navigation."
+        },
+        {
+          "issue": "Eastside Regional Park's Hueco Club address, Blackie Chesher Park's dual address, and both linear parks' practical arrival segments remain unresolved.",
+          "recommendation": "Resolve these arrival questions under separately assigned launch-guide work."
+        },
+        {
+          "issue": "All 25 El Paso parents lack complete current recurring visitor profiles and representative reusable photography; City imagery and polygon geometry lack redistribution permission.",
+          "recommendation": "Complete the visitor and photo gates, and do not reuse City imagery or redistribute City polygon geometry without permission."
+        }
       ],
       "notes": "Twenty-five qualified City of El Paso inventory parents, stable GlobalIDs, current ownership/category evidence, approximate coordinate provenance, component exclusions, release ledger, source restrictions, registry collision fix, and full verification are submitted in PR #52. No El Paso pages or City media were generated."
     }

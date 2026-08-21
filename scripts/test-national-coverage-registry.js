@@ -130,11 +130,24 @@ const baseClaim = {
   lastUpdatedAt: "2026-08-17",
 };
 const claimsDocument = {
+  $schema: "./schemas/national-work-packet-claims.schema.json",
   schemaVersion: 1,
   updatedAt: "2026-08-17",
   claims: [baseClaim],
 };
 assert.equal(validateClaimsDocument(claimsDocument, { asOf: "2026-08-18" }).length, 1);
+assert.throws(() => validateClaimsDocument({
+  ...claimsDocument,
+  $schema: "./wrong-schema.json",
+}), /\$schema/);
+assert.throws(() => validateClaimsDocument({
+  ...claimsDocument,
+  unexpected: true,
+}), /Unknown field unexpected/);
+assert.throws(() => validateClaimsDocument({
+  ...claimsDocument,
+  updatedAt: "2026-02-31",
+}), /updatedAt/);
 
 const claimedPacket = buildPackets(registry, 25, [baseClaim])
   .find((packet) => packet.id === "release-reconciliation-nc-raleigh-01");
@@ -150,6 +163,10 @@ assert.throws(() => validateClaimsDocument({
   ...claimsDocument,
   claims: [baseClaim, { ...baseClaim }],
 }), /Duplicate claim packetId/);
+assert.throws(() => validateClaimsDocument({
+  ...claimsDocument,
+  claims: [{ ...baseClaim, unexpected: true }],
+}), /Unknown field unexpected/);
 assert.throws(() => validateClaimsDocument(claimsDocument, { asOf: "2026-08-25" }), /expired/);
 assert.throws(() => validateClaimsDocument({
   ...claimsDocument,
@@ -169,6 +186,36 @@ assert.throws(() => validateClaimsDocument({
     ],
   }],
 }), /Duplicate acceptedRecordId/);
+assert.throws(() => validateClaimsDocument({
+  ...claimsDocument,
+  claims: [{ ...baseClaim, reviewQueue: "not-an-array" }],
+}), /reviewQueue.*array/);
+assert.throws(() => validateClaimsDocument({
+  ...claimsDocument,
+  claims: [{ ...baseClaim, reviewQueue: [{ issue: "Missing evidence" }] }],
+}), /recommendation/);
+assert.throws(() => validateClaimsDocument({
+  ...claimsDocument,
+  claims: [{
+    ...baseClaim,
+    reviewQueue: [{ issue: "Missing evidence", recommendation: "Recheck", unexpected: true }],
+  }],
+}), /Unknown field unexpected/);
+assert.throws(() => validateClaimsDocument({
+  ...claimsDocument,
+  claims: [{
+    ...baseClaim,
+    reviewQueue: [{
+      issue: "Missing evidence",
+      recommendation: "Recheck",
+      sourceUrl: "http://example.com/not-https",
+    }],
+  }],
+}), /reviewQueue\[0\].sourceUrl/);
+assert.throws(() => validateClaimsDocument({
+  ...claimsDocument,
+  claims: [{ ...baseClaim, notes: 42 }],
+}), /notes.*string/);
 assert.throws(() => validateActiveClaimReferences(packets, [{
   ...baseClaim,
   packetId: "release-reconciliation-nc-missing-city-01",

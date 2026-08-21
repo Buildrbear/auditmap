@@ -32,6 +32,24 @@ const CLAIM_STATUSES = new Set([
 const ACTIVE_CLAIM_STATUSES = new Set(["claimed", "submitted", "changes-requested"]);
 const CLAIM_PACKET_PATTERN = /^(release-reconciliation|research-completion|local-production-sync)-[a-z]{2}-[a-z0-9-]+-[0-9]{2}$/;
 const ISO_DATE_PATTERN = /^\d{4}-\d{2}-\d{2}$/;
+const CLAIMS_SCHEMA_PATH = "./schemas/national-work-packet-claims.schema.json";
+const CLAIM_DOCUMENT_FIELDS = new Set(["$schema", "schemaVersion", "updatedAt", "claims"]);
+const CLAIM_FIELDS = new Set([
+  "packetId",
+  "assignee",
+  "assignmentUrl",
+  "issueUrl",
+  "claimedAt",
+  "expiresAt",
+  "lastUpdatedAt",
+  "status",
+  "submissionUrl",
+  "pullRequestUrl",
+  "acceptedRecordIds",
+  "reviewQueue",
+  "notes",
+]);
+const REVIEW_QUEUE_FIELDS = new Set(["issue", "recommendation", "sourceUrl"]);
 
 function parseArgs(argv) {
   const options = { ...defaultPaths, write: true, includeExternal: true };
@@ -93,11 +111,30 @@ function validateHttpsUrl(value, field, packetId) {
   }
 }
 
+function validateKnownFields(value, allowedFields, label) {
+  if (!value || typeof value !== "object" || Array.isArray(value)) {
+    throw new Error(`${label} must be an object`);
+  }
+  for (const field of Object.keys(value)) {
+    if (!allowedFields.has(field)) throw new Error(`Unknown field ${field} in ${label}`);
+  }
+}
+
+function isIsoDate(value) {
+  if (!ISO_DATE_PATTERN.test(String(value || ""))) return false;
+  const parsed = new Date(`${value}T00:00:00.000Z`);
+  return !Number.isNaN(parsed.valueOf()) && parsed.toISOString().slice(0, 10) === value;
+}
+
 function validateClaimsDocument(document, { asOf = null } = {}) {
+  validateKnownFields(document, CLAIM_DOCUMENT_FIELDS, "claim ledger");
   if (!document || document.schemaVersion !== 1 || !Array.isArray(document.claims)) {
     throw new Error("Claim ledger must use schemaVersion 1 and contain a claims array");
   }
-  if (!ISO_DATE_PATTERN.test(String(document.updatedAt || ""))) {
+  if (document.$schema !== CLAIMS_SCHEMA_PATH) {
+    throw new Error(`Claim ledger $schema must be ${CLAIMS_SCHEMA_PATH}`);
+  }
+  if (!isIsoDate(document.updatedAt)) {
     throw new Error("Claim ledger updatedAt must be an ISO date (YYYY-MM-DD)");
   }
 
@@ -114,6 +151,7 @@ function validateClaimsDocument(document, { asOf = null } = {}) {
   ];
   for (const claim of document.claims) {
     const packetId = claim?.packetId || "(missing packetId)";
+    validateKnownFields(claim, CLAIM_FIELDS, `claim ${packetId}`);
     for (const field of required) {
       if (typeof claim?.[field] !== "string" || !claim[field].trim()) {
         throw new Error(`Claim ${packetId} is missing required field ${field}`);
@@ -128,7 +166,7 @@ function validateClaimsDocument(document, { asOf = null } = {}) {
       throw new Error(`Invalid claim status for ${claim.packetId}: ${claim.status}`);
     }
     for (const field of ["claimedAt", "expiresAt", "lastUpdatedAt"]) {
-      if (!ISO_DATE_PATTERN.test(claim[field])) {
+      if (!isIsoDate(claim[field])) {
         throw new Error(`Invalid ${field} for claim ${claim.packetId}: expected YYYY-MM-DD`);
       }
     }
@@ -138,7 +176,7 @@ function validateClaimsDocument(document, { asOf = null } = {}) {
     validateHttpsUrl(claim.assignmentUrl, "assignmentUrl", claim.packetId);
     validateHttpsUrl(claim.issueUrl, "issueUrl", claim.packetId);
     for (const field of ["submissionUrl", "pullRequestUrl"]) {
-      if (claim[field]) validateHttpsUrl(claim[field], field, claim.packetId);
+      if (Object.hasOwn(claim, field)) validateHttpsUrl(claim[field], field, claim.packetId);
     }
     if (claim.acceptedRecordIds !== undefined) {
       if (!Array.isArray(claim.acceptedRecordIds)) {
@@ -156,6 +194,26 @@ function validateClaimsDocument(document, { asOf = null } = {}) {
         }
         acceptedRecordIds.add(recordId);
       }
+    }
+    if (claim.reviewQueue !== undefined) {
+      if (!Array.isArray(claim.reviewQueue)) {
+        throw new Error(`Invalid reviewQueue for claim ${claim.packetId}: expected an array`);
+      }
+      for (const [index, item] of claim.reviewQueue.entries()) {
+        const label = `reviewQueue item ${index} for claim ${claim.packetId}`;
+        validateKnownFields(item, REVIEW_QUEUE_FIELDS, label);
+        for (const field of ["issue", "recommendation"]) {
+          if (typeof item[field] !== "string" || !item[field].trim()) {
+            throw new Error(`Invalid ${field} in ${label}: expected a non-empty string`);
+          }
+        }
+        if (Object.hasOwn(item, "sourceUrl")) {
+          validateHttpsUrl(item.sourceUrl, `reviewQueue[${index}].sourceUrl`, claim.packetId);
+        }
+      }
+    }
+    if (claim.notes !== undefined && typeof claim.notes !== "string") {
+      throw new Error(`Invalid notes for claim ${claim.packetId}: expected a string`);
     }
     if (asOf && ACTIVE_CLAIM_STATUSES.has(claim.status) && claim.expiresAt < asOf) {
       throw new Error(

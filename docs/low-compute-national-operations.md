@@ -50,13 +50,16 @@ Every internal or OpenTask assignment must claim one packet from
 Refresh the registry after updating claims. Claimed packets disappear from the generated OpenTask
 ask, so another agent is not invited to repeat the same work. A claim should expire if no evidence or
 status update arrives within the assignment's stated window. The refresh rejects duplicate packet
-IDs, unknown active packet IDs, malformed URLs or dates, malformed or duplicate accepted record IDs,
-accepted record IDs outside an active claim's exact packet, and active claims past their expiration
-date. It never silently transfers a claim. A `released` claim remains in the audit trail but makes
-the packet open again; an `accepted` claim keeps the packet closed.
+IDs, unknown fields, unknown active packet IDs, malformed URLs or dates, malformed or duplicate
+accepted record IDs, accepted record IDs outside an active claim's exact packet, malformed review
+queues, and active claims past their expiration date. It never silently transfers a claim. A
+`released` claim remains in the audit trail but makes the packet open again; an `accepted` claim
+keeps the packet closed.
 
 Optional version-1 fields are `submissionUrl`, `pullRequestUrl`, `acceptedRecordIds`, `reviewQueue`,
-and `notes`. Adding a new required field or changing status meaning requires a new schema version.
+and `notes`. Review-queue entries use the schema's structured `issue` and `recommendation` fields,
+plus an optional HTTPS `sourceUrl`; plain strings are not valid queue entries. Adding a new required
+field or changing status meaning requires a new schema version.
 
 ## Daily cycle
 
