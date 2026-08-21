@@ -2,6 +2,9 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "redirects": [
+    { "source": "/us/ga/atlanta/parks/atlanta-beltline-eastside-trail", "destination": "/us/ga/atlanta/parks/eastside-trail", "permanent": true },
+    { "source": "/us/ga/atlanta/parks/chastain-memorial-park", "destination": "/us/ga/atlanta/parks/chastain-park", "permanent": true },
+    { "source": "/us/ga/atlanta/parks/shirley-clarke-franklin-park-westside-park", "destination": "/us/ga/atlanta/parks/westside-park", "permanent": true },
     { "source": "/us/de/wilmington/parks/brandywine-park/brandywine-zoo", "destination": "/us/de/wilmington/parks/brandywine-park", "permanent": true },
     { "source": "/us/fl/tampa/parks/curtis-hixon-waterfront-park/great-lawn", "destination": "/us/fl/tampa/parks/curtis-hixon-waterfront-park", "permanent": true },
     { "source": "/us/fl/tampa/parks/curtis-hixon-waterfront-park/curtis-hixon-splash-pads", "destination": "/us/fl/tampa/parks/curtis-hixon-waterfront-park", "permanent": true },
