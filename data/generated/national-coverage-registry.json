@@ -11,7 +11,7 @@
     "catalog": "data/generated/official-catalog.json",
     "catalogGeneratedAt": "2026-08-11T09:40:25.704Z",
     "gitBranch": "codex/philadelphia-release-reconciliation",
-    "gitCommit": "6644eec7900bee8aa75b9d1e3bbaf2c4f69a0952"
+    "gitCommit": "9ec4a5bba3db9c95958ecd5582cd0a2bf0297fb0"
   },
   "spatialEvidence": {
     "registry": "data/spatial-source-registry.json",
@@ -21,17 +21,17 @@
     "reviewRequiredSources": 12
   },
   "summary": {
-    "knownDestinations": 3458,
+    "knownDestinations": 3456,
     "liveDestinationPages": 3382,
     "liveParentPages": 905,
     "liveSubsitePages": 2477,
-    "hopper": 76,
+    "hopper": 74,
     "generatedLocallyNotLive": 15,
-    "researchOnly": 51,
+    "researchOnly": 49,
     "blockedReview": 10,
     "productionMissingFromLocal": 0,
     "recordsWithResearchHandoffs": 100,
-    "mappableDestinations": 2970,
+    "mappableDestinations": 2968,
     "openReviewItems": 11
   },
   "records": [
@@ -43409,8 +43409,29 @@
       "productionPresent": true,
       "localPresent": true,
       "reconciliationFlags": [],
-      "researchSources": [],
-      "openReviewItems": []
+      "researchSources": [
+        {
+          "sourceId": "opentask-nc-50-detailed-parks-2026-08-13",
+          "sourceRecordSlug": "wake-forest-forest-ridge-park",
+          "name": "Forest Ridge Park",
+          "city": "Wake Forest",
+          "state": "NC",
+          "managingAgency": "Raleigh Parks, Recreation and Cultural Resources",
+          "checkedAt": "2026-08-13",
+          "officialSources": [
+            "https://raleighnc.gov/parks-and-recreation/places/forest-ridge-park",
+            "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=2100%20Old%20NC%2098%20Hwy%2C%20Wake%20Forest%2C%20NC%2027587&f=pjson&outFields=Match_addr,Addr_type&maxLocations=3"
+          ],
+          "handoffUrl": "https://keystone-accessibility-baseline.indierepo.chatgpt.site/auditmap-50-detailed-parks/AUDITMAP_50_DETAILED_PARK_RECORDS.md",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        }
+      ],
+      "openReviewItems": [],
+      "researchMatchBasis": [
+        "official-source-url"
+      ]
     },
     {
       "id": "/us/nc/raleigh/parks/fred-fletcher-park",
@@ -43494,8 +43515,29 @@
       "productionPresent": true,
       "localPresent": true,
       "reconciliationFlags": [],
-      "researchSources": [],
-      "openReviewItems": []
+      "researchSources": [
+        {
+          "sourceId": "opentask-nc-50-detailed-parks-2026-08-13",
+          "sourceRecordSlug": "wake-forest-horseshoe-farm-nature-preserve",
+          "name": "Horseshoe Farm Nature Preserve",
+          "city": "Wake Forest",
+          "state": "NC",
+          "managingAgency": "Raleigh Parks, Recreation and Cultural Resources",
+          "checkedAt": "2026-08-13",
+          "officialSources": [
+            "https://raleighnc.gov/parks-and-recreation/places/horseshoe-farm-nature-preserve",
+            "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=2900%20Horseshoe%20Farm%20Rd%2C%20Wake%20Forest%2C%20NC%2027587&f=pjson&outFields=Match_addr,Addr_type&maxLocations=3"
+          ],
+          "handoffUrl": "https://keystone-accessibility-baseline.indierepo.chatgpt.site/auditmap-50-detailed-parks/AUDITMAP_50_DETAILED_PARK_RECORDS.md",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        }
+      ],
+      "openReviewItems": [],
+      "researchMatchBasis": [
+        "official-source-url"
+      ]
     },
     {
       "id": "/us/nc/raleigh/parks/house-creek-greenway-trail",
@@ -45560,48 +45602,6 @@
       "coordinateSource": "https://www.wakeforestnc.gov/parks-recreation-cultural-resources/parks-facilities/e-carroll-joyner-park"
     },
     {
-      "id": "/us/nc/wake-forest/parks/forest-ridge-park",
-      "path": "/us/nc/wake-forest/parks/forest-ridge-park",
-      "url": "https://www.auditmap.org/us/nc/wake-forest/parks/forest-ridge-park",
-      "kind": "parent",
-      "state": "NC",
-      "citySlug": "wake-forest",
-      "parentSlug": "forest-ridge-park",
-      "subsiteSlug": null,
-      "name": "Forest Ridge Park",
-      "city": "Wake Forest",
-      "latitude": 35.965950538388,
-      "longitude": -78.579516400853,
-      "positionQuality": null,
-      "coordinateSource": null,
-      "releaseStatus": "research-only",
-      "productionPresent": false,
-      "localPresent": false,
-      "reconciliationFlags": [
-        "research-not-integrated"
-      ],
-      "researchSources": [
-        {
-          "sourceId": "opentask-nc-50-detailed-parks-2026-08-13",
-          "sourceRecordSlug": "wake-forest-forest-ridge-park",
-          "name": "Forest Ridge Park",
-          "city": "Wake Forest",
-          "state": "NC",
-          "managingAgency": "Raleigh Parks, Recreation and Cultural Resources",
-          "checkedAt": "2026-08-13",
-          "officialSources": [
-            "https://raleighnc.gov/parks-and-recreation/places/forest-ridge-park",
-            "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=2100%20Old%20NC%2098%20Hwy%2C%20Wake%20Forest%2C%20NC%2027587&f=pjson&outFields=Match_addr,Addr_type&maxLocations=3"
-          ],
-          "handoffUrl": "https://keystone-accessibility-baseline.indierepo.chatgpt.site/auditmap-50-detailed-parks/AUDITMAP_50_DETAILED_PARK_RECORDS.md",
-          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
-          "reviewItems": [],
-          "override": null
-        }
-      ],
-      "openReviewItems": []
-    },
-    {
       "id": "/us/nc/wake-forest/parks/holding-park",
       "path": "/us/nc/wake-forest/parks/holding-park",
       "url": "https://www.auditmap.org/us/nc/wake-forest/parks/holding-park",
@@ -45622,48 +45622,6 @@
       "longitude": -78.5142975,
       "positionQuality": "parent-map-coordinate",
       "coordinateSource": "https://www.wakeforestnc.gov/parks-recreation-cultural-resources/parks-facilities/holding-park"
-    },
-    {
-      "id": "/us/nc/wake-forest/parks/horseshoe-farm-nature-preserve",
-      "path": "/us/nc/wake-forest/parks/horseshoe-farm-nature-preserve",
-      "url": "https://www.auditmap.org/us/nc/wake-forest/parks/horseshoe-farm-nature-preserve",
-      "kind": "parent",
-      "state": "NC",
-      "citySlug": "wake-forest",
-      "parentSlug": "horseshoe-farm-nature-preserve",
-      "subsiteSlug": null,
-      "name": "Horseshoe Farm Nature Preserve",
-      "city": "Wake Forest",
-      "latitude": 35.885726253449,
-      "longitude": -78.534521925512,
-      "positionQuality": null,
-      "coordinateSource": null,
-      "releaseStatus": "research-only",
-      "productionPresent": false,
-      "localPresent": false,
-      "reconciliationFlags": [
-        "research-not-integrated"
-      ],
-      "researchSources": [
-        {
-          "sourceId": "opentask-nc-50-detailed-parks-2026-08-13",
-          "sourceRecordSlug": "wake-forest-horseshoe-farm-nature-preserve",
-          "name": "Horseshoe Farm Nature Preserve",
-          "city": "Wake Forest",
-          "state": "NC",
-          "managingAgency": "Raleigh Parks, Recreation and Cultural Resources",
-          "checkedAt": "2026-08-13",
-          "officialSources": [
-            "https://raleighnc.gov/parks-and-recreation/places/horseshoe-farm-nature-preserve",
-            "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=2900%20Horseshoe%20Farm%20Rd%2C%20Wake%20Forest%2C%20NC%2027587&f=pjson&outFields=Match_addr,Addr_type&maxLocations=3"
-          ],
-          "handoffUrl": "https://keystone-accessibility-baseline.indierepo.chatgpt.site/auditmap-50-detailed-parks/AUDITMAP_50_DETAILED_PARK_RECORDS.md",
-          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
-          "reviewItems": [],
-          "override": null
-        }
-      ],
-      "openReviewItems": []
     },
     {
       "id": "/us/nc/wake-forest/parks/j-b-flaherty-park",
