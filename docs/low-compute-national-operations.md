@@ -34,6 +34,7 @@ This writes:
 
 - `data/generated/national-coverage-registry.json` — the complete known destination list
 - `data/generated/national-work-packets.json` — exact claimable packets
+- `data/generated/national-image-rights-work-packets.json` — internal image-rights packets grouped by shared image and stable city bucket
 - `preview/opentask-daily-ask.md` — current sponsor-facing OpenTask update
 
 The refresh uses no language-model calls. It matches unambiguous exact identities, reviewed aliases,
@@ -65,6 +66,25 @@ accepted record IDs, accepted record IDs outside an active claim's exact packet,
 queues, and active claims past their expiration date. It never silently transfers a claim. A
 `released` claim remains in the audit trail but makes the packet open again; an `accepted` claim
 keeps the packet closed.
+
+### Internal image-rights packets
+
+The refresh scans each generated place page's embedded source record with the shared image-rights
+contract. It groups every unresolved hero image by its exact URL, source, creator and current license
+statement before creating `image-rights-reconciliation` packets. One cluster can therefore clear a
+parent and several subsites together instead of asking different agents to repeat the same rights
+decision.
+
+Image packets use two stable hash buckets per city. Removing a completed cluster does not renumber
+the other city's packets, which keeps active claims reproducible. Each packet lists the affected page
+paths and the exact existing image metadata. An accepted packet must either document explicit reuse
+rights for the exact image or replace it with real, destination-matched reusable media; official
+hosting and attribution alone are not permission.
+
+These packets are internal and intentionally omitted from the generated OpenTask table. Before an
+internal image session opens any source pages, reserve the exact packet ID in the same claim ledger.
+The claim schema accepts the `image-rights-reconciliation` prefix, and active accepted-record IDs
+must remain inside that packet.
 
 Optional version-1 fields are `submissionUrl`, `pullRequestUrl`, `acceptedRecordIds`, `reviewQueue`,
 and `notes`. Review-queue entries use the schema's structured `issue` and `recommendation` fields,

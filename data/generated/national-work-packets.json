@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-08-21",
+  "asOf": "2026-08-22",
   "summary": {
     "knownDestinations": 3362,
     "liveDestinationPages": 3303,
@@ -13,7 +13,16 @@
     "productionMissingFromLocal": 0,
     "recordsWithResearchHandoffs": 100,
     "mappableDestinations": 2935,
-    "openReviewItems": 11
+    "openReviewItems": 11,
+    "imageRightsPlacePagesScanned": 3378,
+    "imageRightsDocumentedPages": 2684,
+    "imageRightsReviewPages": 694,
+    "imageRightsReviewParents": 114,
+    "imageRightsReviewSubsites": 580,
+    "imageRightsUniqueClusters": 457,
+    "imageRightsSharedClusters": 175,
+    "imageRightsPagesInSharedClusters": 412,
+    "imageRightsPackets": 95
   },
   "packets": [
     {
@@ -449,6 +458,2677 @@
         "/us/tx/el-paso/parks/vista-del-valle-park"
       ],
       "acceptance": "Resolve the listed evidence or identity gaps and deliver a source-format, reviewable handoff; do not publish guesses."
+    },
+    {
+      "id": "image-rights-reconciliation-az-phoenix-01",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "AZ",
+      "citySlug": "phoenix",
+      "status": "open",
+      "claim": null,
+      "count": 13,
+      "clusterCount": 5,
+      "recordIds": [
+        "/us/az/phoenix/parks/margaret-t-hance-park",
+        "/us/az/phoenix/parks/margaret-t-hance-park/hance-park-festival-lawns",
+        "/us/az/phoenix/parks/margaret-t-hance-park/hance-park-playground-and-splash-pad",
+        "/us/az/phoenix/parks/rio-salado-habitat-restoration-area",
+        "/us/az/phoenix/parks/rio-salado-habitat-restoration-area/16th-street-trailhead",
+        "/us/az/phoenix/parks/rio-salado-habitat-restoration-area/7th-avenue-north-bank-trailhead",
+        "/us/az/phoenix/parks/rio-salado-habitat-restoration-area/northeast-central-avenue-trailhead",
+        "/us/az/phoenix/parks/rio-salado-habitat-restoration-area/rio-salado-birding-habitat",
+        "/us/az/phoenix/parks/rio-salado-habitat-restoration-area/south-overbank-trail",
+        "/us/az/phoenix/parks/rio-salado-habitat-restoration-area/south-terrace-trail",
+        "/us/az/phoenix/parks/steele-indian-school-park",
+        "/us/az/phoenix/parks/steele-indian-school-park/circle-of-life",
+        "/us/az/phoenix/parks/steele-indian-school-park/steele-indian-school-playground"
+      ],
+      "clusterIds": [
+        "image-rights-3e980e4adec6",
+        "image-rights-6422e082a09f",
+        "image-rights-7afa04eba7ac",
+        "image-rights-e816f89606cb",
+        "image-rights-fa016d5c355a"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-az-phoenix-02",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "AZ",
+      "citySlug": "phoenix",
+      "status": "open",
+      "claim": null,
+      "count": 5,
+      "clusterCount": 2,
+      "recordIds": [
+        "/us/az/phoenix/parks/encanto-park",
+        "/us/az/phoenix/parks/encanto-park/encanto-pool",
+        "/us/az/phoenix/parks/encanto-park/encanto-sports-complex",
+        "/us/az/phoenix/parks/rio-salado-habitat-restoration-area/nina-mason-pulliam-rio-salado-audubon-center",
+        "/us/az/phoenix/parks/rio-salado-habitat-restoration-area/southeast-7th-street-trailhead"
+      ],
+      "clusterIds": [
+        "image-rights-65bcd6ecabf5",
+        "image-rights-95b27e7262a1"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-ca-carlsbad-01",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "CA",
+      "citySlug": "carlsbad",
+      "status": "open",
+      "claim": null,
+      "count": 11,
+      "clusterCount": 11,
+      "recordIds": [
+        "/us/ca/carlsbad/parks/alga-norte-community-park/alga-norte-aquatic-center",
+        "/us/ca/carlsbad/parks/alga-norte-community-park/alga-norte-skate-park",
+        "/us/ca/carlsbad/parks/batiquitos-lagoon/batiquitos-lagoon-nature-center",
+        "/us/ca/carlsbad/parks/carlsbad-state-beach/carlsbad-seawall-trail",
+        "/us/ca/carlsbad/parks/carlsbad-state-beach/frazee-beach",
+        "/us/ca/carlsbad/parks/carlsbad-state-beach/pine-avenue-access",
+        "/us/ca/carlsbad/parks/carlsbad-state-beach/tamarack-surf-beach",
+        "/us/ca/carlsbad/parks/carlsbad-state-beach/warm-water-jetty",
+        "/us/ca/carlsbad/parks/leo-carrillo-ranch-historic-park/leo-carrillo-visitor-center",
+        "/us/ca/carlsbad/parks/south-carlsbad-state-beach/south-ponto-beach",
+        "/us/ca/carlsbad/parks/south-carlsbad-state-beach/south-ponto-compass-stairs"
+      ],
+      "clusterIds": [
+        "image-rights-02d80e7c2481",
+        "image-rights-186864f1f4be",
+        "image-rights-2e1c570ba7c0",
+        "image-rights-2e79f31a5ca9",
+        "image-rights-7aa351d25b40",
+        "image-rights-7cb3f296be48",
+        "image-rights-8c677ffddd61",
+        "image-rights-98d05197172c",
+        "image-rights-be3c462552fc",
+        "image-rights-ecda8fda085a",
+        "image-rights-fa8ca48b1513"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-ca-carlsbad-02",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "CA",
+      "citySlug": "carlsbad",
+      "status": "open",
+      "claim": null,
+      "count": 4,
+      "clusterCount": 4,
+      "recordIds": [
+        "/us/ca/carlsbad/parks/alga-norte-community-park/alga-norte-dog-park",
+        "/us/ca/carlsbad/parks/carlsbad-state-beach/maple-sycamore-cherry-accesses",
+        "/us/ca/carlsbad/parks/leo-carrillo-ranch-historic-park/leo-carrillo-adobes-and-gardens",
+        "/us/ca/carlsbad/parks/south-carlsbad-state-beach/north-ponto-pelican-point"
+      ],
+      "clusterIds": [
+        "image-rights-0baf87cee017",
+        "image-rights-3333169ddf96",
+        "image-rights-c93e01a90d37",
+        "image-rights-e76636c4307e"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-ca-los-angeles-01",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "CA",
+      "citySlug": "los-angeles",
+      "status": "open",
+      "claim": null,
+      "count": 14,
+      "clusterCount": 7,
+      "recordIds": [
+        "/us/ca/los-angeles/parks/echo-park-lake/lady-of-the-lake-statue",
+        "/us/ca/los-angeles/parks/gloria-molina-grand-park/broadway-steps-ada-route",
+        "/us/ca/los-angeles/parks/gloria-molina-grand-park/community-terrace-flag-garden",
+        "/us/ca/los-angeles/parks/gloria-molina-grand-park/olive-court-cafe",
+        "/us/ca/los-angeles/parks/griffith-park/los-angeles-zoo",
+        "/us/ca/los-angeles/parks/kenneth-hahn-state-recreation-area/blue-lagoon-picnic-area",
+        "/us/ca/los-angeles/parks/kenneth-hahn-state-recreation-area/japanese-garden-loop",
+        "/us/ca/los-angeles/parks/los-angeles-state-historic-park/citrus-grove-promenade",
+        "/us/ca/los-angeles/parks/los-angeles-state-historic-park/interpretive-play-history-walk",
+        "/us/ca/los-angeles/parks/los-angeles-state-historic-park/seasonal-wetlands",
+        "/us/ca/los-angeles/parks/runyon-canyon-park/indian-rock",
+        "/us/ca/los-angeles/parks/venice-beach-ocean-front-walk/venice-basketball-courts",
+        "/us/ca/los-angeles/parks/venice-beach-ocean-front-walk/venice-handball-pickleball-courts",
+        "/us/ca/los-angeles/parks/venice-beach-ocean-front-walk/venice-recreation-center-stage"
+      ],
+      "clusterIds": [
+        "image-rights-04bde31b4cd7",
+        "image-rights-2c71fb570cf8",
+        "image-rights-3cd38d4538e5",
+        "image-rights-4a7947c02f1c",
+        "image-rights-56bdf1f50159",
+        "image-rights-c8078dd9c5b6",
+        "image-rights-dc08d87edc57"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-ca-los-angeles-02",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "CA",
+      "citySlug": "los-angeles",
+      "status": "open",
+      "claim": null,
+      "count": 15,
+      "clusterCount": 9,
+      "recordIds": [
+        "/us/ca/los-angeles/parks/exposition-park/california-african-american-museum",
+        "/us/ca/los-angeles/parks/exposition-park/los-angeles-memorial-coliseum",
+        "/us/ca/los-angeles/parks/gloria-molina-grand-park/civic-center-grand-park-metro",
+        "/us/ca/los-angeles/parks/gloria-molina-grand-park/event-lawn-dog-run",
+        "/us/ca/los-angeles/parks/gloria-molina-grand-park/grand-park-playground",
+        "/us/ca/los-angeles/parks/gloria-molina-grand-park/performance-lawn",
+        "/us/ca/los-angeles/parks/kenneth-hahn-state-recreation-area",
+        "/us/ca/los-angeles/parks/kenneth-hahn-state-recreation-area/japanese-garden-waterfall",
+        "/us/ca/los-angeles/parks/kenneth-hahn-state-recreation-area/playgrounds-picnic-areas",
+        "/us/ca/los-angeles/parks/los-angeles-state-historic-park",
+        "/us/ca/los-angeles/parks/los-angeles-state-historic-park/great-lawn-skyline-loop",
+        "/us/ca/los-angeles/parks/los-angeles-state-historic-park/major-event-lawn",
+        "/us/ca/los-angeles/parks/los-angeles-state-historic-park/roundhouse-observation-deck",
+        "/us/ca/los-angeles/parks/los-angeles-state-historic-park/spring-street-parking-lot",
+        "/us/ca/los-angeles/parks/los-angeles-state-historic-park/welcome-center-cargo-snack-shack"
+      ],
+      "clusterIds": [
+        "image-rights-1167264beffb",
+        "image-rights-23202deeae46",
+        "image-rights-2d8bbe21e530",
+        "image-rights-4346ea89524a",
+        "image-rights-6358f508b9c2",
+        "image-rights-77d08c9bc0f1",
+        "image-rights-ab7a59a6608b",
+        "image-rights-bb738aa3aca0",
+        "image-rights-d73b26951d9e"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-ca-oceanside-01",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "CA",
+      "citySlug": "oceanside",
+      "status": "open",
+      "claim": null,
+      "count": 5,
+      "clusterCount": 5,
+      "recordIds": [
+        "/us/ca/oceanside/parks/guajome-regional-park/guajome-day-use-and-playgrounds",
+        "/us/ca/oceanside/parks/oceanside-city-beach-and-pier/buccaneer-beach-and-park",
+        "/us/ca/oceanside/parks/oceanside-city-beach-and-pier/harbor-beach",
+        "/us/ca/oceanside/parks/oceanside-city-beach-and-pier/oceanside-pier",
+        "/us/ca/oceanside/parks/oceanside-city-beach-and-pier/wisconsin-street-beach"
+      ],
+      "clusterIds": [
+        "image-rights-34851eb839cf",
+        "image-rights-6a86a1b1855e",
+        "image-rights-8851048a9e83",
+        "image-rights-aa1b69a0e37c",
+        "image-rights-fe47a1cab0ef"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-ca-oceanside-02",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "CA",
+      "citySlug": "oceanside",
+      "status": "open",
+      "claim": null,
+      "count": 6,
+      "clusterCount": 6,
+      "recordIds": [
+        "/us/ca/oceanside/parks/el-corazon-park-and-trails/garrison-creek-nature-trail",
+        "/us/ca/oceanside/parks/el-corazon-park-and-trails/william-wagner-aquatic-center",
+        "/us/ca/oceanside/parks/guajome-regional-park/guajome-ponds-and-wildlife",
+        "/us/ca/oceanside/parks/oceanside-city-beach-and-pier/junior-seau-beach-amphitheater",
+        "/us/ca/oceanside/parks/oceanside-city-beach-and-pier/pier-view-beaches",
+        "/us/ca/oceanside/parks/oceanside-city-beach-and-pier/tyson-street-beach-and-park"
+      ],
+      "clusterIds": [
+        "image-rights-1102a84bfdf9",
+        "image-rights-3fb330a2c07c",
+        "image-rights-4bf3cd73b25b",
+        "image-rights-4ddd8f8b4ea8",
+        "image-rights-5dfdf2ff4dc9",
+        "image-rights-d573d84fb395"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-ca-san-diego-01",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "CA",
+      "citySlug": "san-diego",
+      "status": "open",
+      "claim": null,
+      "count": 3,
+      "clusterCount": 3,
+      "recordIds": [
+        "/us/ca/san-diego/parks/mission-bay-park/mission-beach",
+        "/us/ca/san-diego/parks/mission-bay-park/model-yacht-pond",
+        "/us/ca/san-diego/parks/mission-bay-park/south-mission-courts-and-jetty"
+      ],
+      "clusterIds": [
+        "image-rights-0e822a82d9a2",
+        "image-rights-b02887e0a59f",
+        "image-rights-fe16fa8daf1e"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-ca-san-diego-02",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "CA",
+      "citySlug": "san-diego",
+      "status": "open",
+      "claim": null,
+      "count": 5,
+      "clusterCount": 5,
+      "recordIds": [
+        "/us/ca/san-diego/parks/mission-bay-park/fiesta-island",
+        "/us/ca/san-diego/parks/mission-bay-park/mission-beach-lifeguard-station",
+        "/us/ca/san-diego/parks/mission-bay-park/ocean-front-walk",
+        "/us/ca/san-diego/parks/mission-bay-park/south-mission-beach",
+        "/us/ca/san-diego/parks/mission-bay-park/south-shores-park"
+      ],
+      "clusterIds": [
+        "image-rights-31a89b330f57",
+        "image-rights-655f0a0305a2",
+        "image-rights-6bfbf40d5461",
+        "image-rights-939dbf5362ee",
+        "image-rights-ed844d0e260c"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-co-denver-01",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "CO",
+      "citySlug": "denver",
+      "status": "open",
+      "claim": null,
+      "count": 4,
+      "clusterCount": 2,
+      "recordIds": [
+        "/us/co/denver/parks/commons-park/common-ground-sculpture",
+        "/us/co/denver/parks/commons-park/commons-park-wetlands",
+        "/us/co/denver/parks/commons-park/millennium-bridge-connection",
+        "/us/co/denver/parks/commons-park/south-platte-river-trail"
+      ],
+      "clusterIds": [
+        "image-rights-28ff7015d005",
+        "image-rights-a64351c98581"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-co-denver-02",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "CO",
+      "citySlug": "denver",
+      "status": "open",
+      "claim": null,
+      "count": 6,
+      "clusterCount": 3,
+      "recordIds": [
+        "/us/co/denver/parks/ruby-hill-park/levitt-pavilion-denver",
+        "/us/co/denver/parks/ruby-hill-park/ruby-hill-community-garden",
+        "/us/co/denver/parks/ruby-hill-park/ruby-hill-playground",
+        "/us/co/denver/parks/ruby-hill-park/sanderson-gulch-trail-connection",
+        "/us/co/denver/parks/sloans-lake-park/south-shore-picnic-areas",
+        "/us/co/denver/parks/sloans-lake-park/west-shoreline-wetlands"
+      ],
+      "clusterIds": [
+        "image-rights-29fc9ac9c477",
+        "image-rights-790601208462",
+        "image-rights-ab7e5f9a31dc"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-dc-washington-01",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "DC",
+      "citySlug": "washington",
+      "status": "open",
+      "claim": null,
+      "count": 15,
+      "clusterCount": 11,
+      "recordIds": [
+        "/us/dc/washington/parks/anacostia-park/anacostia-park-boat-ramp",
+        "/us/dc/washington/parks/anacostia-park/anacostia-pool-and-recreation-center",
+        "/us/dc/washington/parks/anacostia-park/anacostia-river-trail",
+        "/us/dc/washington/parks/anacostia-park/langston-golf-course",
+        "/us/dc/washington/parks/anacostia-park/pirate-ship-playground",
+        "/us/dc/washington/parks/anacostia-park/river-terrace-recreation-area",
+        "/us/dc/washington/parks/georgetown-waterfront-park/georgetown-potomac-overlook",
+        "/us/dc/washington/parks/georgetown-waterfront-park/georgetown-waterfront-pergola-garden",
+        "/us/dc/washington/parks/georgetown-waterfront-park/river-steps-and-pergola",
+        "/us/dc/washington/parks/kenilworth-park-aquatic-gardens/kenilworth-marsh-trail",
+        "/us/dc/washington/parks/kenilworth-park-aquatic-gardens/kenilworth-pond-loop",
+        "/us/dc/washington/parks/kenilworth-park-aquatic-gardens/lotus-and-water-lily-ponds",
+        "/us/dc/washington/parks/meridian-hill-park-malcolm-x-park/joan-of-arc-statue",
+        "/us/dc/washington/parks/meridian-hill-park-malcolm-x-park/noyes-armillary-sphere",
+        "/us/dc/washington/parks/theodore-roosevelt-island/potomac-river-overlook"
+      ],
+      "clusterIds": [
+        "image-rights-24c7990a8698",
+        "image-rights-301a1075e2aa",
+        "image-rights-368f75be388c",
+        "image-rights-3a15604d59e5",
+        "image-rights-4e74979eb2a1",
+        "image-rights-747e5c5050ef",
+        "image-rights-84d9d28561d0",
+        "image-rights-96e338026fc0",
+        "image-rights-b616583bee2a",
+        "image-rights-c471f4ad24b4",
+        "image-rights-ca744655e2e8"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-dc-washington-02",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "DC",
+      "citySlug": "washington",
+      "status": "open",
+      "claim": null,
+      "count": 29,
+      "clusterCount": 19,
+      "recordIds": [
+        "/us/dc/washington/parks/anacostia-park/anacostia-park-section-f",
+        "/us/dc/washington/parks/anacostia-park/anacostia-skating-pavilion",
+        "/us/dc/washington/parks/georgetown-waterfront-park/capital-crescent-trail-connection",
+        "/us/dc/washington/parks/georgetown-waterfront-park/georgetown-waterfront-fountain",
+        "/us/dc/washington/parks/georgetown-waterfront-park/georgetown-waterfront-labyrinth",
+        "/us/dc/washington/parks/georgetown-waterfront-park/key-bridge-waterfront-access",
+        "/us/dc/washington/parks/georgetown-waterfront-park/rock-creek-trail-connection",
+        "/us/dc/washington/parks/kenilworth-park-aquatic-gardens/kenilworth-marsh-overlook",
+        "/us/dc/washington/parks/kenilworth-park-aquatic-gardens/tidal-marsh-boardwalk",
+        "/us/dc/washington/parks/meridian-hill-park-malcolm-x-park/cascading-fountain",
+        "/us/dc/washington/parks/meridian-hill-park-malcolm-x-park/meridian-hill-lower-plaza",
+        "/us/dc/washington/parks/national-mall/lincoln-memorial",
+        "/us/dc/washington/parks/national-mall/martin-luther-king-jr-memorial",
+        "/us/dc/washington/parks/national-mall/vietnam-veterans-memorial",
+        "/us/dc/washington/parks/national-mall/washington-monument",
+        "/us/dc/washington/parks/national-mall/world-war-ii-memorial",
+        "/us/dc/washington/parks/rock-creek-park/boulder-bridge",
+        "/us/dc/washington/parks/rock-creek-park/dumbarton-oaks-park",
+        "/us/dc/washington/parks/rock-creek-park/old-stone-house",
+        "/us/dc/washington/parks/rock-creek-park/peirce-mill",
+        "/us/dc/washington/parks/rock-creek-park/rock-creek-horse-center",
+        "/us/dc/washington/parks/rock-creek-park/rock-creek-nature-center-and-planetarium",
+        "/us/dc/washington/parks/theodore-roosevelt-island/swamp-trail-and-boardwalk",
+        "/us/dc/washington/parks/theodore-roosevelt-island/theodore-roosevelt-island-comfort-station",
+        "/us/dc/washington/parks/theodore-roosevelt-island/theodore-roosevelt-island-footbridge",
+        "/us/dc/washington/parks/theodore-roosevelt-island/theodore-roosevelt-island-tidal-marsh",
+        "/us/dc/washington/parks/theodore-roosevelt-island/theodore-roosevelt-memorial-plaza",
+        "/us/dc/washington/parks/theodore-roosevelt-island/upland-trail",
+        "/us/dc/washington/parks/theodore-roosevelt-island/woods-trail"
+      ],
+      "clusterIds": [
+        "image-rights-213dcda06649",
+        "image-rights-3f574232a5ad",
+        "image-rights-436846e83e0d",
+        "image-rights-4d8c61db67b4",
+        "image-rights-65658ec39d90",
+        "image-rights-6952764bddce",
+        "image-rights-71b6f713a881",
+        "image-rights-755401ec6280",
+        "image-rights-790c69bb61f6",
+        "image-rights-836efa73fbc8",
+        "image-rights-8dd2944e2ac8",
+        "image-rights-9712b72d6a86",
+        "image-rights-bd5d2254fc78",
+        "image-rights-bfedf2ac31c5",
+        "image-rights-cfef702e7409",
+        "image-rights-dbb9a84d296f",
+        "image-rights-ebb03e60b43b",
+        "image-rights-eff52189279a",
+        "image-rights-ff9b429af750"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-fl-christmas-01",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "FL",
+      "citySlug": "christmas",
+      "status": "open",
+      "claim": null,
+      "count": 7,
+      "clusterCount": 3,
+      "recordIds": [
+        "/us/fl/christmas/parks/orlando-wetlands",
+        "/us/fl/christmas/parks/orlando-wetlands/birding-and-alligator-berm-trails",
+        "/us/fl/christmas/parks/orlando-wetlands/cypress-boardwalk",
+        "/us/fl/christmas/parks/orlando-wetlands/entrance-picnic-pavilions",
+        "/us/fl/christmas/parks/orlando-wetlands/lake-searcy-berm-loop",
+        "/us/fl/christmas/parks/orlando-wetlands/orlando-wetlands-visitors-center",
+        "/us/fl/christmas/parks/orlando-wetlands/wetland-photography-overlooks"
+      ],
+      "clusterIds": [
+        "image-rights-3205b53c8191",
+        "image-rights-e8d8431682e0",
+        "image-rights-ea9b5bcd8de3"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-fl-christmas-02",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "FL",
+      "citySlug": "christmas",
+      "status": "open",
+      "claim": null,
+      "count": 2,
+      "clusterCount": 1,
+      "recordIds": [
+        "/us/fl/christmas/parks/orlando-wetlands/free-tram-tour",
+        "/us/fl/christmas/parks/orlando-wetlands/remote-18-mile-berm-trail-network"
+      ],
+      "clusterIds": [
+        "image-rights-11622509a0bf"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-fl-fort-lauderdale-02",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "FL",
+      "citySlug": "fort-lauderdale",
+      "status": "open",
+      "claim": null,
+      "count": 1,
+      "clusterCount": 1,
+      "recordIds": [
+        "/us/fl/fort-lauderdale/parks/snyder-park"
+      ],
+      "clusterIds": [
+        "image-rights-0f91149533ba"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-fl-orlando-01",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "FL",
+      "citySlug": "orlando",
+      "status": "open",
+      "claim": null,
+      "count": 7,
+      "clusterCount": 3,
+      "recordIds": [
+        "/us/fl/orlando/parks/blue-jacket-park",
+        "/us/fl/orlando/parks/blue-jacket-park/baseball-and-softball-fields",
+        "/us/fl/orlando/parks/blue-jacket-park/blue-jacket-pavilion",
+        "/us/fl/orlando/parks/blue-jacket-park/blue-jacket-playground",
+        "/us/fl/orlando/parks/blue-jacket-park/fitness-and-walking-path",
+        "/us/fl/orlando/parks/blue-jacket-park/fountain-plaza",
+        "/us/fl/orlando/parks/blue-jacket-park/lake-baldwin-trail-connection"
+      ],
+      "clusterIds": [
+        "image-rights-2c4020096b15",
+        "image-rights-724fa2ec967b",
+        "image-rights-a4a215250e02"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-fl-orlando-02",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "FL",
+      "citySlug": "orlando",
+      "status": "open",
+      "claim": null,
+      "count": 19,
+      "clusterCount": 8,
+      "recordIds": [
+        "/us/fl/orlando/parks/barber-park",
+        "/us/fl/orlando/parks/barber-park/barber-park-dog-park",
+        "/us/fl/orlando/parks/barber-park/barber-park-playground",
+        "/us/fl/orlando/parks/barber-park/barber-park-splash-pad",
+        "/us/fl/orlando/parks/barber-park/barber-skate-park",
+        "/us/fl/orlando/parks/barber-park/basketball-and-tennis-courts",
+        "/us/fl/orlando/parks/barber-park/paved-fitness-trail",
+        "/us/fl/orlando/parks/barber-park/picnic-pavilions",
+        "/us/fl/orlando/parks/barber-park/sports-fields-courts-and-skate-area",
+        "/us/fl/orlando/parks/bill-frederick-park-at-turkey-lake",
+        "/us/fl/orlando/parks/bill-frederick-park-at-turkey-lake/bill-frederick-playgrounds-and-pool",
+        "/us/fl/orlando/parks/bill-frederick-park-at-turkey-lake/lakeside-picnic-pavilions",
+        "/us/fl/orlando/parks/bill-frederick-park-at-turkey-lake/turkey-lake-fishing-pier-and-boat-rentals",
+        "/us/fl/orlando/parks/bill-frederick-park-at-turkey-lake/turkey-lake-nature-trail",
+        "/us/fl/orlando/parks/blue-jacket-park/central-open-lawn",
+        "/us/fl/orlando/parks/blue-jacket-park/navy-history-wall",
+        "/us/fl/orlando/parks/lake-eola-park",
+        "/us/fl/orlando/parks/lake-eola-park/lake-eola-swan-boats",
+        "/us/fl/orlando/parks/lake-eola-park/linton-e-allen-memorial-fountain"
+      ],
+      "clusterIds": [
+        "image-rights-09d89a17ea47",
+        "image-rights-3b33e37c22e7",
+        "image-rights-739f7c77ff73",
+        "image-rights-afc98bc03ed7",
+        "image-rights-c317e1a83c56",
+        "image-rights-cbbfa6fc06b9",
+        "image-rights-f723682fef54",
+        "image-rights-fd9be72924ef"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-fl-winter-park-01",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "FL",
+      "citySlug": "winter-park",
+      "status": "open",
+      "claim": null,
+      "count": 3,
+      "clusterCount": 1,
+      "recordIds": [
+        "/us/fl/winter-park/parks/lake-baldwin-park",
+        "/us/fl/winter-park/parks/lake-baldwin-park/lake-baldwin-dog-beach",
+        "/us/fl/winter-park/parks/lake-baldwin-park/lake-baldwin-playground"
+      ],
+      "clusterIds": [
+        "image-rights-a09aa9a03bcf"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-fl-winter-park-02",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "FL",
+      "citySlug": "winter-park",
+      "status": "open",
+      "claim": null,
+      "count": 9,
+      "clusterCount": 4,
+      "recordIds": [
+        "/us/fl/winter-park/parks/lake-baldwin-park/fenced-off-leash-dog-area",
+        "/us/fl/winter-park/parks/lake-baldwin-park/lake-baldwin-dock",
+        "/us/fl/winter-park/parks/lake-baldwin-park/lake-baldwin-loop-trail",
+        "/us/fl/winter-park/parks/lake-baldwin-park/picnic-pavilions",
+        "/us/fl/winter-park/parks/mead-botanical-garden",
+        "/us/fl/winter-park/parks/mead-botanical-garden/boardwalk-and-wetlands",
+        "/us/fl/winter-park/parks/mead-botanical-garden/community-garden-and-discovery-area",
+        "/us/fl/winter-park/parks/mead-botanical-garden/mead-garden-greenhouse",
+        "/us/fl/winter-park/parks/mead-botanical-garden/the-grove-and-amphitheater"
+      ],
+      "clusterIds": [
+        "image-rights-036402429a15",
+        "image-rights-052491bebf11",
+        "image-rights-4db9177aa370",
+        "image-rights-d33a1adc7f04"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-il-chicago-01",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "IL",
+      "citySlug": "chicago",
+      "status": "open",
+      "claim": null,
+      "count": 25,
+      "clusterCount": 16,
+      "recordIds": [
+        "/us/il/chicago/parks/chicago-lakefront-trail/belmont-harbor-trail-access",
+        "/us/il/chicago/parks/chicago-lakefront-trail/montrose-beach-trail-access",
+        "/us/il/chicago/parks/chicago-riverwalk/kayak-and-boat-access",
+        "/us/il/chicago/parks/chicago-riverwalk/the-jetty",
+        "/us/il/chicago/parks/chicago-riverwalk/the-marina-and-cove",
+        "/us/il/chicago/parks/chicago-riverwalk/the-water-plaza",
+        "/us/il/chicago/parks/garfield-park-conservatory/aroid-house",
+        "/us/il/chicago/parks/garfield-park-conservatory/garfield-conservatory-outdoor-gardens",
+        "/us/il/chicago/parks/garfield-park-conservatory/palm-house",
+        "/us/il/chicago/parks/grant-park/agora-sculptures",
+        "/us/il/chicago/parks/grant-park/butler-field",
+        "/us/il/chicago/parks/grant-park/museum-campus-approach",
+        "/us/il/chicago/parks/jackson-park/63rd-street-beach",
+        "/us/il/chicago/parks/jackson-park/garden-of-the-phoenix",
+        "/us/il/chicago/parks/jackson-park/hayes-richardson-circle",
+        "/us/il/chicago/parks/jackson-park/wooded-island-and-bobolink-meadow",
+        "/us/il/chicago/parks/lincoln-park/lincoln-park-conservatory",
+        "/us/il/chicago/parks/maggie-daley-park/bp-bridge-maggie-daley-entrance",
+        "/us/il/chicago/parks/maggie-daley-park/maggie-daley-mini-golf",
+        "/us/il/chicago/parks/maggie-daley-park/maggie-daley-tennis-courts",
+        "/us/il/chicago/parks/maggie-daley-park/play-garden",
+        "/us/il/chicago/parks/millennium-park/cloud-gate-the-bean",
+        "/us/il/chicago/parks/millennium-park/crown-fountain",
+        "/us/il/chicago/parks/millennium-park/mccormick-tribune-plaza-and-ice-rink",
+        "/us/il/chicago/parks/millennium-park/wrigley-square-and-millennium-monument"
+      ],
+      "clusterIds": [
+        "image-rights-1ab38133d21c",
+        "image-rights-202568acfbcf",
+        "image-rights-3a37cc420d2a",
+        "image-rights-526f5a79db66",
+        "image-rights-542cdd25e2b0",
+        "image-rights-5af2ac243d88",
+        "image-rights-5c2c9d2ae2e0",
+        "image-rights-60a2818d9d38",
+        "image-rights-6ad2cf1521cb",
+        "image-rights-8aaccf24b55f",
+        "image-rights-96e60aa21b53",
+        "image-rights-ae480f0a69c5",
+        "image-rights-d2c36ff635ce",
+        "image-rights-e21870fcc35e",
+        "image-rights-ecb1957cf460",
+        "image-rights-ee3de77aaea6"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-il-chicago-02",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "IL",
+      "citySlug": "chicago",
+      "status": "open",
+      "claim": null,
+      "count": 27,
+      "clusterCount": 18,
+      "recordIds": [
+        "/us/il/chicago/parks/chicago-lakefront-trail/31st-street-beach-trail-access",
+        "/us/il/chicago/parks/chicago-lakefront-trail/museum-campus-to-63rd-street",
+        "/us/il/chicago/parks/chicago-lakefront-trail/navy-pier-flyover",
+        "/us/il/chicago/parks/chicago-lakefront-trail/north-avenue-to-oak-street",
+        "/us/il/chicago/parks/chicago-lakefront-trail/oak-street-beach-trail-access",
+        "/us/il/chicago/parks/chicago-lakefront-trail/promontory-point-trail-access",
+        "/us/il/chicago/parks/chicago-riverwalk/the-boardwalk",
+        "/us/il/chicago/parks/chicago-riverwalk/the-river-theater",
+        "/us/il/chicago/parks/garfield-park-conservatory/desert-house",
+        "/us/il/chicago/parks/garfield-park-conservatory/emg-childrens-garden",
+        "/us/il/chicago/parks/garfield-park-conservatory/fern-room",
+        "/us/il/chicago/parks/garfield-park-conservatory/show-house",
+        "/us/il/chicago/parks/garfield-park-conservatory/sugar-from-the-sun",
+        "/us/il/chicago/parks/grant-park/buckingham-fountain",
+        "/us/il/chicago/parks/grant-park/grant-skate-plaza",
+        "/us/il/chicago/parks/jackson-park/jackson-park-fieldhouse",
+        "/us/il/chicago/parks/jackson-park/jackson-park-golf-course",
+        "/us/il/chicago/parks/lincoln-park/lincoln-park-zoo",
+        "/us/il/chicago/parks/lincoln-park/nature-boardwalk-at-lincoln-park-zoo",
+        "/us/il/chicago/parks/lincoln-park/north-avenue-beach",
+        "/us/il/chicago/parks/lincoln-park/south-pond-and-cafe-brauer",
+        "/us/il/chicago/parks/maggie-daley-park/climbing-wall",
+        "/us/il/chicago/parks/maggie-daley-park/maggie-daley-fieldhouse",
+        "/us/il/chicago/parks/maggie-daley-park/maggie-daley-picnic-groves",
+        "/us/il/chicago/parks/maggie-daley-park/skating-ribbon",
+        "/us/il/chicago/parks/millennium-park/great-lawn-at-pritzker-pavilion",
+        "/us/il/chicago/parks/millennium-park/lurie-garden-and-pritzker-pavilion"
+      ],
+      "clusterIds": [
+        "image-rights-059edf2641e4",
+        "image-rights-0d86aef8970a",
+        "image-rights-2de2318ab8c7",
+        "image-rights-3fc1e7bcb62e",
+        "image-rights-4bf209e2af50",
+        "image-rights-69b3c0005524",
+        "image-rights-6fa406fff176",
+        "image-rights-772f20b01374",
+        "image-rights-91f27f78f765",
+        "image-rights-a54035d7449e",
+        "image-rights-ad3b61c67474",
+        "image-rights-b3b1cc354b35",
+        "image-rights-c5b2959f7798",
+        "image-rights-c93a0fcf1624",
+        "image-rights-c9a3e0fe03a7",
+        "image-rights-cf5655d940dd",
+        "image-rights-e10611779ee5",
+        "image-rights-f93f88153dee"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-in-indianapolis-01",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "IN",
+      "citySlug": "indianapolis",
+      "status": "open",
+      "claim": null,
+      "count": 6,
+      "clusterCount": 4,
+      "recordIds": [
+        "/us/in/indianapolis/parks/broad-ripple-park/white-river-access",
+        "/us/in/indianapolis/parks/riverside-regional-park",
+        "/us/in/indianapolis/parks/riverside-regional-park/central-white-river-trail",
+        "/us/in/indianapolis/parks/riverside-regional-park/riverside-adventure-park",
+        "/us/in/indianapolis/parks/riverside-regional-park/riverside-promenade",
+        "/us/in/indianapolis/parks/riverside-regional-park/taggart-memorial-playground"
+      ],
+      "clusterIds": [
+        "image-rights-2ea9346d80cc",
+        "image-rights-327d23e682d0",
+        "image-rights-d0dd39343453",
+        "image-rights-e293ecaeb9dd"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-in-indianapolis-02",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "IN",
+      "citySlug": "indianapolis",
+      "status": "open",
+      "claim": null,
+      "count": 12,
+      "clusterCount": 4,
+      "recordIds": [
+        "/us/in/indianapolis/parks/broad-ripple-park",
+        "/us/in/indianapolis/parks/broad-ripple-park/10-acre-woods",
+        "/us/in/indianapolis/parks/broad-ripple-park/broad-ripple-bark-park",
+        "/us/in/indianapolis/parks/broad-ripple-park/broad-ripple-indoor-play-structure",
+        "/us/in/indianapolis/parks/broad-ripple-park/broad-ripple-park-family-center",
+        "/us/in/indianapolis/parks/broad-ripple-park/broad-ripple-park-playground",
+        "/us/in/indianapolis/parks/broad-ripple-park/broad-ripple-park-pool",
+        "/us/in/indianapolis/parks/broad-ripple-park/broad-ripple-tennis-and-pickleball-courts",
+        "/us/in/indianapolis/parks/riverside-regional-park/riverside-family-center",
+        "/us/in/indianapolis/parks/riverside-regional-park/riverside-sports-fields",
+        "/us/in/indianapolis/parks/riverside-regional-park/south-grove-golf-course",
+        "/us/in/indianapolis/parks/riverside-regional-park/taggart-memorial-amphitheater"
+      ],
+      "clusterIds": [
+        "image-rights-07830b53067a",
+        "image-rights-a7068d34d27d",
+        "image-rights-c1a154b6b561",
+        "image-rights-f3c7f17684d5"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-ks-kansas-city-01",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "KS",
+      "citySlug": "kansas-city",
+      "status": "open",
+      "claim": null,
+      "count": 4,
+      "clusterCount": 2,
+      "recordIds": [
+        "/us/ks/kansas-city/parks/wyandotte-county-lake-park/kids-fishing-pond",
+        "/us/ks/kansas-city/parks/wyandotte-county-lake-park/korean-vietnam-war-memorial",
+        "/us/ks/kansas-city/parks/wyandotte-county-lake-park/mr-and-mrs-f-l-schlagle-library",
+        "/us/ks/kansas-city/parks/wyandotte-county-lake-park/wyandotte-county-lake-dog-park"
+      ],
+      "clusterIds": [
+        "image-rights-7204a85da8fe",
+        "image-rights-9c804382d250"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-ks-kansas-city-02",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "KS",
+      "citySlug": "kansas-city",
+      "status": "open",
+      "claim": null,
+      "count": 2,
+      "clusterCount": 1,
+      "recordIds": [
+        "/us/ks/kansas-city/parks/wyandotte-county-lake-park/beach-shelter",
+        "/us/ks/kansas-city/parks/wyandotte-county-lake-park/wyandotte-county-lake-bridle-trail"
+      ],
+      "clusterIds": [
+        "image-rights-1525b7647812"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-ks-shawnee-01",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "KS",
+      "citySlug": "shawnee",
+      "status": "open",
+      "claim": null,
+      "count": 6,
+      "clusterCount": 2,
+      "recordIds": [
+        "/us/ks/shawnee/parks/shawnee-mission-park/john-barkley-plaza",
+        "/us/ks/shawnee/parks/shawnee-mission-park/shawnee-mission-park-beach",
+        "/us/ks/shawnee/parks/shawnee-mission-park/shawnee-mission-park-lake",
+        "/us/ks/shawnee/parks/shawnee-mission-park/shawnee-mission-park-marina",
+        "/us/ks/shawnee/parks/shawnee-mission-park/shawnee-mission-park-off-leash-dog-area",
+        "/us/ks/shawnee/parks/shawnee-mission-park/shawnee-mission-park-pump-track"
+      ],
+      "clusterIds": [
+        "image-rights-3e1895380d91",
+        "image-rights-8617f850e9a4"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-ks-shawnee-02",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "KS",
+      "citySlug": "shawnee",
+      "status": "open",
+      "claim": null,
+      "count": 1,
+      "clusterCount": 1,
+      "recordIds": [
+        "/us/ks/shawnee/parks/shawnee-mission-park/shawnee-mission-park-disc-golf-course"
+      ],
+      "clusterIds": [
+        "image-rights-3bd1332a3e78"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-ks-wichita-01",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "KS",
+      "citySlug": "wichita",
+      "status": "open",
+      "claim": null,
+      "count": 1,
+      "clusterCount": 1,
+      "recordIds": [
+        "/us/ks/wichita/parks/sedgwick-county-park"
+      ],
+      "clusterIds": [
+        "image-rights-60ba916196b8"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-la-new-orleans-01",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "LA",
+      "citySlug": "new-orleans",
+      "status": "open",
+      "claim": null,
+      "count": 5,
+      "clusterCount": 2,
+      "recordIds": [
+        "/us/la/new-orleans/parks/goldring-woldenberg-riverfront-park",
+        "/us/la/new-orleans/parks/goldring-woldenberg-riverfront-park/bienville-street-river-overlook",
+        "/us/la/new-orleans/parks/goldring-woldenberg-riverfront-park/canal-street-ferry-landing",
+        "/us/la/new-orleans/parks/goldring-woldenberg-riverfront-park/governor-nicholls-riverfront-playground",
+        "/us/la/new-orleans/parks/goldring-woldenberg-riverfront-park/nola-front-porch"
+      ],
+      "clusterIds": [
+        "image-rights-440f49c35d10",
+        "image-rights-a0f0cd022071"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-ma-boston-02",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "MA",
+      "citySlug": "boston",
+      "status": "open",
+      "claim": null,
+      "count": 2,
+      "clusterCount": 1,
+      "recordIds": [
+        "/us/ma/boston/parks/franklin-park/scarboro-pond-and-wilderness-trails",
+        "/us/ma/boston/parks/franklin-park/schoolmaster-hill"
+      ],
+      "clusterIds": [
+        "image-rights-6984bdb4980f"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-md-baltimore-02",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "MD",
+      "citySlug": "baltimore",
+      "status": "open",
+      "claim": null,
+      "count": 2,
+      "clusterCount": 2,
+      "recordIds": [
+        "/us/md/baltimore/parks/lake-roland-park",
+        "/us/md/baltimore/parks/lake-roland-park/lake-roland-dam"
+      ],
+      "clusterIds": [
+        "image-rights-0d4400f233dd",
+        "image-rights-73ff4d1d1cb4"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-md-glen-echo-01",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "MD",
+      "citySlug": "glen-echo",
+      "status": "open",
+      "claim": null,
+      "count": 1,
+      "clusterCount": 1,
+      "recordIds": [
+        "/us/md/glen-echo/parks/glen-echo-park/picnic-grove-and-playground"
+      ],
+      "clusterIds": [
+        "image-rights-bc2cced951f3"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-md-glen-echo-02",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "MD",
+      "citySlug": "glen-echo",
+      "status": "open",
+      "claim": null,
+      "count": 3,
+      "clusterCount": 2,
+      "recordIds": [
+        "/us/md/glen-echo/parks/glen-echo-park",
+        "/us/md/glen-echo/parks/glen-echo-park/bumper-car-pavilion",
+        "/us/md/glen-echo/parks/glen-echo-park/dentzel-carousel"
+      ],
+      "clusterIds": [
+        "image-rights-4b6ca72b8c75",
+        "image-rights-d931b7d7a977"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-md-potomac-01",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "MD",
+      "citySlug": "potomac",
+      "status": "open",
+      "claim": null,
+      "count": 1,
+      "clusterCount": 1,
+      "recordIds": [
+        "/us/md/potomac/parks/great-falls-tavern-olmsted-island/olmsted-island-great-falls-overlook"
+      ],
+      "clusterIds": [
+        "image-rights-308cb941561b"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-md-potomac-02",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "MD",
+      "citySlug": "potomac",
+      "status": "open",
+      "claim": null,
+      "count": 3,
+      "clusterCount": 2,
+      "recordIds": [
+        "/us/md/potomac/parks/great-falls-tavern-olmsted-island",
+        "/us/md/potomac/parks/great-falls-tavern-olmsted-island/great-falls-launch-boat-program",
+        "/us/md/potomac/parks/great-falls-tavern-olmsted-island/great-falls-tavern-visitor-center"
+      ],
+      "clusterIds": [
+        "image-rights-19957fab2402",
+        "image-rights-77283c877dbb"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-mn-minneapolis-01",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "MN",
+      "citySlug": "minneapolis",
+      "status": "open",
+      "claim": null,
+      "count": 2,
+      "clusterCount": 1,
+      "recordIds": [
+        "/us/mn/minneapolis/parks/minneapolis-sculpture-garden",
+        "/us/mn/minneapolis/parks/minneapolis-sculpture-garden/spoonbridge-and-cherry"
+      ],
+      "clusterIds": [
+        "image-rights-cebac82e6fe1"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-mn-st-paul-01",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "MN",
+      "citySlug": "st-paul",
+      "status": "open",
+      "claim": null,
+      "count": 4,
+      "clusterCount": 2,
+      "recordIds": [
+        "/us/mn/st-paul/parks/phalen-regional-park",
+        "/us/mn/st-paul/parks/phalen-regional-park/phalen-beach-splash-pad",
+        "/us/mn/st-paul/parks/phalen-regional-park/phalen-china-garden",
+        "/us/mn/st-paul/parks/phalen-regional-park/phalen-regional-park-beach"
+      ],
+      "clusterIds": [
+        "image-rights-d27ad7a55085",
+        "image-rights-e46b6b08e2a5"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-mo-kansas-city-01",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "MO",
+      "citySlug": "kansas-city",
+      "status": "open",
+      "claim": null,
+      "count": 19,
+      "clusterCount": 8,
+      "recordIds": [
+        "/us/mo/kansas-city/parks/berkley-riverfront-park",
+        "/us/mo/kansas-city/parks/berkley-riverfront-park/berkley-riverfront-esplanade",
+        "/us/mo/kansas-city/parks/berkley-riverfront-park/berkley-riverfront-volleyball-courts",
+        "/us/mo/kansas-city/parks/berkley-riverfront-park/cpkc-stadium-riverfront-plaza",
+        "/us/mo/kansas-city/parks/berkley-riverfront-park/kc-streetcar-riverfront-stop",
+        "/us/mo/kansas-city/parks/berkley-riverfront-park/riverfront-heritage-trail",
+        "/us/mo/kansas-city/parks/berkley-riverfront-park/town-of-kansas-bridge",
+        "/us/mo/kansas-city/parks/berkley-riverfront-park/two-birds-one-stone",
+        "/us/mo/kansas-city/parks/jacob-l-loose-park",
+        "/us/mo/kansas-city/parks/jacob-l-loose-park/jacob-l-loose-park-trail",
+        "/us/mo/kansas-city/parks/jacob-l-loose-park/loose-park-japanese-garden",
+        "/us/mo/kansas-city/parks/jacob-l-loose-park/loose-park-playground",
+        "/us/mo/kansas-city/parks/penn-valley-park",
+        "/us/mo/kansas-city/parks/penn-valley-park/liberty-memorial-tower",
+        "/us/mo/kansas-city/parks/penn-valley-park/national-wwi-museum-and-memorial-grounds",
+        "/us/mo/kansas-city/parks/penn-valley-park/penn-valley-off-leash-dog-park",
+        "/us/mo/kansas-city/parks/penn-valley-park/penn-valley-skate-park",
+        "/us/mo/kansas-city/parks/swope-park/starlight-theatre",
+        "/us/mo/kansas-city/parks/swope-park/swope-park-off-leash-dog-park"
+      ],
+      "clusterIds": [
+        "image-rights-2cea3c03e770",
+        "image-rights-38d84933af25",
+        "image-rights-7486fead2b37",
+        "image-rights-8a8e9a408f8b",
+        "image-rights-a4c346cbac8a",
+        "image-rights-b202f3fa1817",
+        "image-rights-b8f8ec3d28b5",
+        "image-rights-e02b963f6437"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-mo-kansas-city-02",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "MO",
+      "citySlug": "kansas-city",
+      "status": "open",
+      "claim": null,
+      "count": 12,
+      "clusterCount": 6,
+      "recordIds": [
+        "/us/mo/kansas-city/parks/berkley-riverfront-park/missouri-river-overlook",
+        "/us/mo/kansas-city/parks/jacob-l-loose-park/laura-conyers-smith-municipal-rose-garden",
+        "/us/mo/kansas-city/parks/jacob-l-loose-park/loose-park-garden-center",
+        "/us/mo/kansas-city/parks/penn-valley-park/firefighters-fountain-and-memorial",
+        "/us/mo/kansas-city/parks/penn-valley-park/the-scout",
+        "/us/mo/kansas-city/parks/swope-park",
+        "/us/mo/kansas-city/parks/swope-park/fox-hollow-trail",
+        "/us/mo/kansas-city/parks/swope-park/kansas-city-zoo-and-aquarium",
+        "/us/mo/kansas-city/parks/swope-park/lake-of-the-woods",
+        "/us/mo/kansas-city/parks/swope-park/lakeside-nature-center",
+        "/us/mo/kansas-city/parks/swope-park/swope-park-trails",
+        "/us/mo/kansas-city/parks/swope-park/swope-soccer-village"
+      ],
+      "clusterIds": [
+        "image-rights-3561eb4c108a",
+        "image-rights-43f9c92df5ff",
+        "image-rights-5f58a51e6180",
+        "image-rights-7146b544b7f7",
+        "image-rights-bde27fdfd900",
+        "image-rights-cb3db8b0e4b3"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-ms-jackson-02",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "MS",
+      "citySlug": "jackson",
+      "status": "open",
+      "claim": null,
+      "count": 1,
+      "clusterCount": 1,
+      "recordIds": [
+        "/us/ms/jackson/parks/parham-bridges-park"
+      ],
+      "clusterIds": [
+        "image-rights-7f6807a9aca9"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-mt-billings-01",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "MT",
+      "citySlug": "billings",
+      "status": "open",
+      "claim": null,
+      "count": 1,
+      "clusterCount": 1,
+      "recordIds": [
+        "/us/mt/billings/parks/riverfront-park"
+      ],
+      "clusterIds": [
+        "image-rights-6eaf05952726"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-nc-apex-01",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "NC",
+      "citySlug": "apex",
+      "status": "open",
+      "claim": null,
+      "count": 1,
+      "clusterCount": 1,
+      "recordIds": [
+        "/us/nc/apex/parks/kelly-road-park"
+      ],
+      "clusterIds": [
+        "image-rights-1664ea1f7adb"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-nc-apex-02",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "NC",
+      "citySlug": "apex",
+      "status": "open",
+      "claim": null,
+      "count": 2,
+      "clusterCount": 2,
+      "recordIds": [
+        "/us/nc/apex/parks/apex-community-park",
+        "/us/nc/apex/parks/pleasant-park"
+      ],
+      "clusterIds": [
+        "image-rights-d957e86a0238",
+        "image-rights-ed8fb42e6fa0"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-nc-asheville-01",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "NC",
+      "citySlug": "asheville",
+      "status": "open",
+      "claim": null,
+      "count": 3,
+      "clusterCount": 3,
+      "recordIds": [
+        "/us/nc/asheville/parks/carrier-park",
+        "/us/nc/asheville/parks/french-broad-river-park",
+        "/us/nc/asheville/parks/richmond-hill-park"
+      ],
+      "clusterIds": [
+        "image-rights-a0eb48b44762",
+        "image-rights-a8c1c23dbc3f",
+        "image-rights-c47a32509627"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-nc-asheville-02",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "NC",
+      "citySlug": "asheville",
+      "status": "open",
+      "claim": null,
+      "count": 1,
+      "clusterCount": 1,
+      "recordIds": [
+        "/us/nc/asheville/parks/blue-ridge-parkway"
+      ],
+      "clusterIds": [
+        "image-rights-6b9982dbb520"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-nc-burlington-01",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "NC",
+      "citySlug": "burlington",
+      "status": "open",
+      "claim": null,
+      "count": 2,
+      "clusterCount": 2,
+      "recordIds": [
+        "/us/nc/burlington/parks/burlington-city-park",
+        "/us/nc/burlington/parks/lake-cammack-park-and-marina"
+      ],
+      "clusterIds": [
+        "image-rights-0e017d235ef8",
+        "image-rights-62e8b1683abf"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-nc-burlington-02",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "NC",
+      "citySlug": "burlington",
+      "status": "open",
+      "claim": null,
+      "count": 2,
+      "clusterCount": 2,
+      "recordIds": [
+        "/us/nc/burlington/parks/arboretum-at-willowbrook-park",
+        "/us/nc/burlington/parks/lake-mackintosh-park-and-marina"
+      ],
+      "clusterIds": [
+        "image-rights-6f371b9f8a99",
+        "image-rights-df3fc1173b57"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-nc-cary-01",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "NC",
+      "citySlug": "cary",
+      "status": "open",
+      "claim": null,
+      "count": 9,
+      "clusterCount": 8,
+      "recordIds": [
+        "/us/nc/cary/parks/black-creek-greenway",
+        "/us/nc/cary/parks/downtown-cary-park",
+        "/us/nc/cary/parks/downtown-cary-park/academy-plaza",
+        "/us/nc/cary/parks/downtown-cary-park/bark-bar",
+        "/us/nc/cary/parks/downtown-cary-park/barkyard",
+        "/us/nc/cary/parks/downtown-cary-park/the-nest",
+        "/us/nc/cary/parks/fred-g-bond-metro-park",
+        "/us/nc/cary/parks/jack-smith-park",
+        "/us/nc/cary/parks/marla-dorrel-park"
+      ],
+      "clusterIds": [
+        "image-rights-16d83cddee31",
+        "image-rights-5248365e9b59",
+        "image-rights-58c2210a17f1",
+        "image-rights-5ccc08308ce8",
+        "image-rights-64d2a3166a91",
+        "image-rights-c62941c52c44",
+        "image-rights-e87ade58c08c",
+        "image-rights-f683beebd56d"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-nc-cary-02",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "NC",
+      "citySlug": "cary",
+      "status": "open",
+      "claim": null,
+      "count": 8,
+      "clusterCount": 8,
+      "recordIds": [
+        "/us/nc/cary/parks/downtown-cary-park/frantz-square",
+        "/us/nc/cary/parks/downtown-cary-park/gathering-house-garden",
+        "/us/nc/cary/parks/downtown-cary-park/great-lawn-pavilion",
+        "/us/nc/cary/parks/downtown-cary-park/market-317",
+        "/us/nc/cary/parks/downtown-cary-park/park-street-courts",
+        "/us/nc/cary/parks/downtown-cary-park/skywalk-light-passage",
+        "/us/nc/cary/parks/downtown-cary-park/tiered-water-feature-willow-isle",
+        "/us/nc/cary/parks/hemlock-bluffs-nature-preserve"
+      ],
+      "clusterIds": [
+        "image-rights-0baab8f829ed",
+        "image-rights-1b5d3c507c87",
+        "image-rights-5d56b98d779e",
+        "image-rights-8dfb8c0c20be",
+        "image-rights-a100435b1439",
+        "image-rights-a3b7580bdf7e",
+        "image-rights-ef0e26830920",
+        "image-rights-f18ee13c7cd3"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-nc-chapel-hill-01",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "NC",
+      "citySlug": "chapel-hill",
+      "status": "open",
+      "claim": null,
+      "count": 2,
+      "clusterCount": 2,
+      "recordIds": [
+        "/us/nc/chapel-hill/parks/cedar-falls-park",
+        "/us/nc/chapel-hill/parks/southern-community-park"
+      ],
+      "clusterIds": [
+        "image-rights-0e4f5bafaaa1",
+        "image-rights-e05f99afc9a3"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-nc-chapel-hill-02",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "NC",
+      "citySlug": "chapel-hill",
+      "status": "open",
+      "claim": null,
+      "count": 2,
+      "clusterCount": 2,
+      "recordIds": [
+        "/us/nc/chapel-hill/parks/bolin-creek-trail",
+        "/us/nc/chapel-hill/parks/homestead-park"
+      ],
+      "clusterIds": [
+        "image-rights-4d855c0076c7",
+        "image-rights-b5e6209e283a"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-nc-charlotte-01",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "NC",
+      "citySlug": "charlotte",
+      "status": "open",
+      "claim": null,
+      "count": 18,
+      "clusterCount": 7,
+      "recordIds": [
+        "/us/nc/charlotte/parks/freedom-park/freedom-park-baseball-fields",
+        "/us/nc/charlotte/parks/freedom-park/nfl-play-60-kidzone",
+        "/us/nc/charlotte/parks/mcalpine-creek-community-park",
+        "/us/nc/charlotte/parks/mcalpine-creek-community-park/mcalpine-creek-community-garden",
+        "/us/nc/charlotte/parks/mcalpine-creek-community-park/mcalpine-creek-fishing-lake",
+        "/us/nc/charlotte/parks/mcalpine-creek-community-park/mcalpine-creek-fishing-pier",
+        "/us/nc/charlotte/parks/mcalpine-creek-community-park/mcalpine-creek-greenway",
+        "/us/nc/charlotte/parks/mcalpine-creek-community-park/mcalpine-creek-wetlands",
+        "/us/nc/charlotte/parks/mcalpine-creek-community-park/monroe-road-trailhead",
+        "/us/nc/charlotte/parks/mcalpine-creek-community-park/ray-s-fetching-meadow-dog-park",
+        "/us/nc/charlotte/parks/mcdowell-nature-preserve/four-seasons-trail",
+        "/us/nc/charlotte/parks/mcdowell-nature-preserve/mcdowell-discovery-hall",
+        "/us/nc/charlotte/parks/reedy-creek-park-and-nature-center",
+        "/us/nc/charlotte/parks/reedy-creek-park-and-nature-center/panthers-play-60-course",
+        "/us/nc/charlotte/parks/reedy-creek-park-and-nature-center/reedy-creek-disc-golf-course",
+        "/us/nc/charlotte/parks/reedy-creek-park-and-nature-center/reedy-creek-nature-center",
+        "/us/nc/charlotte/parks/romare-bearden-park/romare-bearden-dining-courtyard",
+        "/us/nc/charlotte/parks/romare-bearden-park/romare-bearden-waterfall"
+      ],
+      "clusterIds": [
+        "image-rights-14db598bbd05",
+        "image-rights-268c6099bfc7",
+        "image-rights-2c6ee3e799a0",
+        "image-rights-5e422cdbc7b8",
+        "image-rights-623e2549d0e0",
+        "image-rights-726d817ed78c",
+        "image-rights-94e4665003d8"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-nc-charlotte-02",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "NC",
+      "citySlug": "charlotte",
+      "status": "open",
+      "claim": null,
+      "count": 7,
+      "clusterCount": 4,
+      "recordIds": [
+        "/us/nc/charlotte/parks/park-road-park/little-sugar-creek-greenway-access",
+        "/us/nc/charlotte/parks/park-road-park/park-road-park-basketball-courts",
+        "/us/nc/charlotte/parks/park-road-park/park-road-park-pond",
+        "/us/nc/charlotte/parks/park-road-park/park-road-park-volleyball-courts",
+        "/us/nc/charlotte/parks/reedy-creek-park-and-nature-center/dragonfly-pond-trail",
+        "/us/nc/charlotte/parks/reedy-creek-park-and-nature-center/laine-clontz-pavilion",
+        "/us/nc/charlotte/parks/reedy-creek-park-and-nature-center/reedy-creek-dog-park"
+      ],
+      "clusterIds": [
+        "image-rights-0b8e18e64201",
+        "image-rights-5915d8612bbf",
+        "image-rights-5d3d6bd4b458",
+        "image-rights-d5dc735cb31c"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-nc-clemmons-01",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "NC",
+      "citySlug": "clemmons",
+      "status": "open",
+      "claim": null,
+      "count": 1,
+      "clusterCount": 1,
+      "recordIds": [
+        "/us/nc/clemmons/parks/tanglewood-park"
+      ],
+      "clusterIds": [
+        "image-rights-80ef6467544f"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-nc-concord-01",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "NC",
+      "citySlug": "concord",
+      "status": "open",
+      "claim": null,
+      "count": 4,
+      "clusterCount": 4,
+      "recordIds": [
+        "/us/nc/concord/parks/brown-mill-mountain-bike-trail-park",
+        "/us/nc/concord/parks/james-l-dorton-park",
+        "/us/nc/concord/parks/lake-fisher",
+        "/us/nc/concord/parks/weddington-road-bark-park"
+      ],
+      "clusterIds": [
+        "image-rights-066a521cef18",
+        "image-rights-a2a5847ab2af",
+        "image-rights-a60a6ead7e91",
+        "image-rights-aebd85a36521"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-nc-concord-02",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "NC",
+      "citySlug": "concord",
+      "status": "open",
+      "claim": null,
+      "count": 2,
+      "clusterCount": 2,
+      "recordIds": [
+        "/us/nc/concord/parks/les-myers-park",
+        "/us/nc/concord/parks/mceachern-greenway"
+      ],
+      "clusterIds": [
+        "image-rights-49f9ba970b98",
+        "image-rights-97e11aec187e"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-nc-durham-01",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "NC",
+      "citySlug": "durham",
+      "status": "open",
+      "claim": null,
+      "count": 4,
+      "clusterCount": 4,
+      "recordIds": [
+        "/us/nc/durham/parks/american-tobacco-trail",
+        "/us/nc/durham/parks/forest-hills-park",
+        "/us/nc/durham/parks/leigh-farm-park",
+        "/us/nc/durham/parks/west-point-on-the-eno"
+      ],
+      "clusterIds": [
+        "image-rights-4c033de97b35",
+        "image-rights-926a70675693",
+        "image-rights-ca820f9275a1",
+        "image-rights-ccf097e9cea3"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-nc-durham-02",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "NC",
+      "citySlug": "durham",
+      "status": "open",
+      "claim": null,
+      "count": 2,
+      "clusterCount": 2,
+      "recordIds": [
+        "/us/nc/durham/parks/lake-michie-park-and-marina",
+        "/us/nc/durham/parks/rock-quarry-park"
+      ],
+      "clusterIds": [
+        "image-rights-7dd070cc43f4",
+        "image-rights-b9ae6aff339e"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-nc-fayetteville-01",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "NC",
+      "citySlug": "fayetteville",
+      "status": "open",
+      "claim": null,
+      "count": 1,
+      "clusterCount": 1,
+      "recordIds": [
+        "/us/nc/fayetteville/parks/lake-rim-park"
+      ],
+      "clusterIds": [
+        "image-rights-ace064b16ba6"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-nc-fayetteville-02",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "NC",
+      "citySlug": "fayetteville",
+      "status": "open",
+      "claim": null,
+      "count": 4,
+      "clusterCount": 4,
+      "recordIds": [
+        "/us/nc/fayetteville/parks/cape-fear-river-trail",
+        "/us/nc/fayetteville/parks/festival-park",
+        "/us/nc/fayetteville/parks/j-bayard-clark-park-and-nature-center",
+        "/us/nc/fayetteville/parks/mazarick-park"
+      ],
+      "clusterIds": [
+        "image-rights-2fd1a51ccdb1",
+        "image-rights-330809709a8b",
+        "image-rights-8112c14d5fc1",
+        "image-rights-99c6d9b0d1bd"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-nc-gastonia-01",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "NC",
+      "citySlug": "gastonia",
+      "status": "open",
+      "claim": null,
+      "count": 3,
+      "clusterCount": 3,
+      "recordIds": [
+        "/us/nc/gastonia/parks/avon-and-catawba-creek-greenway",
+        "/us/nc/gastonia/parks/lineberger-park",
+        "/us/nc/gastonia/parks/martha-rivers-park"
+      ],
+      "clusterIds": [
+        "image-rights-36c63571d533",
+        "image-rights-704473946ca9",
+        "image-rights-dac5617aa0aa"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-nc-gastonia-02",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "NC",
+      "citySlug": "gastonia",
+      "status": "open",
+      "claim": null,
+      "count": 1,
+      "clusterCount": 1,
+      "recordIds": [
+        "/us/nc/gastonia/parks/rankin-lake-park"
+      ],
+      "clusterIds": [
+        "image-rights-65f20e5df26b"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-nc-greenville-01",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "NC",
+      "citySlug": "greenville",
+      "status": "open",
+      "claim": null,
+      "count": 2,
+      "clusterCount": 2,
+      "recordIds": [
+        "/us/nc/greenville/parks/greenville-town-common",
+        "/us/nc/greenville/parks/wildwood-park"
+      ],
+      "clusterIds": [
+        "image-rights-e2525fc758c8",
+        "image-rights-fa25dee7b800"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-nc-greenville-02",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "NC",
+      "citySlug": "greenville",
+      "status": "open",
+      "claim": null,
+      "count": 1,
+      "clusterCount": 1,
+      "recordIds": [
+        "/us/nc/greenville/parks/south-tar-river-greenway"
+      ],
+      "clusterIds": [
+        "image-rights-df2ec0286ae2"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-nc-high-point-01",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "NC",
+      "citySlug": "high-point",
+      "status": "open",
+      "claim": null,
+      "count": 5,
+      "clusterCount": 5,
+      "recordIds": [
+        "/us/nc/high-point/parks/bicentennial-greenway",
+        "/us/nc/high-point/parks/high-point-city-lake-park",
+        "/us/nc/high-point/parks/high-point-greenway",
+        "/us/nc/high-point/parks/oak-hollow-park",
+        "/us/nc/high-point/parks/piedmont-environmental-center"
+      ],
+      "clusterIds": [
+        "image-rights-06e27a624def",
+        "image-rights-0822486310f2",
+        "image-rights-2c36efe85e31",
+        "image-rights-3032bf728487",
+        "image-rights-ae36090b53bd"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-nc-huntersville-01",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "NC",
+      "citySlug": "huntersville",
+      "status": "open",
+      "claim": null,
+      "count": 5,
+      "clusterCount": 3,
+      "recordIds": [
+        "/us/nc/huntersville/parks/latta-nature-preserve/carolina-raptor-center",
+        "/us/nc/huntersville/parks/latta-nature-preserve/gar-creek-canoe-launch",
+        "/us/nc/huntersville/parks/latta-nature-preserve/latta-nature-preserve-trailhead",
+        "/us/nc/huntersville/parks/latta-nature-preserve/mountain-island-lake-shoreline",
+        "/us/nc/huntersville/parks/torrence-creek-greenway"
+      ],
+      "clusterIds": [
+        "image-rights-0ef8eec0ee6b",
+        "image-rights-5a6e97c86ee2",
+        "image-rights-bc40fbe2e92b"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-nc-huntersville-02",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "NC",
+      "citySlug": "huntersville",
+      "status": "open",
+      "claim": null,
+      "count": 6,
+      "clusterCount": 3,
+      "recordIds": [
+        "/us/nc/huntersville/parks/latta-nature-preserve",
+        "/us/nc/huntersville/parks/latta-nature-preserve/buzzard-rock-trail",
+        "/us/nc/huntersville/parks/latta-nature-preserve/latta-equestrian-trailhead",
+        "/us/nc/huntersville/parks/latta-nature-preserve/quest-aquarium",
+        "/us/nc/huntersville/parks/latta-nature-preserve/quest-nature-center",
+        "/us/nc/huntersville/parks/north-mecklenburg-park"
+      ],
+      "clusterIds": [
+        "image-rights-4b4e9c7fd900",
+        "image-rights-b1ec1527327d",
+        "image-rights-f35b3b7a2d47"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-nc-jacksonville-01",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "NC",
+      "citySlug": "jacksonville",
+      "status": "open",
+      "claim": null,
+      "count": 2,
+      "clusterCount": 2,
+      "recordIds": [
+        "/us/nc/jacksonville/parks/riverwalk-crossing-park",
+        "/us/nc/jacksonville/parks/sturgeon-city-park"
+      ],
+      "clusterIds": [
+        "image-rights-76770857fd35",
+        "image-rights-76aa4b407171"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-nc-jacksonville-02",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "NC",
+      "citySlug": "jacksonville",
+      "status": "open",
+      "claim": null,
+      "count": 3,
+      "clusterCount": 3,
+      "recordIds": [
+        "/us/nc/jacksonville/parks/jacksonville-commons-recreation-complex",
+        "/us/nc/jacksonville/parks/northeast-creek-park",
+        "/us/nc/jacksonville/parks/wilson-bay-park"
+      ],
+      "clusterIds": [
+        "image-rights-35e044ab8389",
+        "image-rights-8f48a4821f07",
+        "image-rights-ffd55966f372"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-nc-mooresville-01",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "NC",
+      "citySlug": "mooresville",
+      "status": "open",
+      "claim": null,
+      "count": 2,
+      "clusterCount": 2,
+      "recordIds": [
+        "/us/nc/mooresville/parks/cornelius-road-park",
+        "/us/nc/mooresville/parks/mazeppa-park"
+      ],
+      "clusterIds": [
+        "image-rights-32eba9fb0f1e",
+        "image-rights-66d4134d59cf"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-nc-mooresville-02",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "NC",
+      "citySlug": "mooresville",
+      "status": "open",
+      "claim": null,
+      "count": 1,
+      "clusterCount": 1,
+      "recordIds": [
+        "/us/nc/mooresville/parks/liberty-park"
+      ],
+      "clusterIds": [
+        "image-rights-b110bbc35ce9"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-nc-raleigh-01",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "NC",
+      "citySlug": "raleigh",
+      "status": "open",
+      "claim": null,
+      "count": 36,
+      "clusterCount": 36,
+      "recordIds": [
+        "/us/nc/raleigh/parks/dix-park/another-day-in-the-life",
+        "/us/nc/raleigh/parks/dix-park/big-field",
+        "/us/nc/raleigh/parks/dix-park/dog-park",
+        "/us/nc/raleigh/parks/dix-park/fountain-plaza",
+        "/us/nc/raleigh/parks/dix-park/harvey-hill",
+        "/us/nc/raleigh/parks/dix-park/historic-cemetery",
+        "/us/nc/raleigh/parks/dix-park/meadow-of-the-deer",
+        "/us/nc/raleigh/parks/dix-park/memory-is-a-hearth-a-wildening",
+        "/us/nc/raleigh/parks/dix-park/memory-is-a-hearth-the-lamp",
+        "/us/nc/raleigh/parks/dix-park/memory-is-a-hearth-vestora",
+        "/us/nc/raleigh/parks/dix-park/nature-fantasy",
+        "/us/nc/raleigh/parks/dix-park/picnic-grove",
+        "/us/nc/raleigh/parks/dix-park/public-art-apiary",
+        "/us/nc/raleigh/parks/dix-park/rocky-branch-greenway-trailhead",
+        "/us/nc/raleigh/parks/dix-park/sand-bowl",
+        "/us/nc/raleigh/parks/dix-park/sophia-fortuna",
+        "/us/nc/raleigh/parks/dix-park/stitching-stories-reimagined",
+        "/us/nc/raleigh/parks/dix-park/sunflower-field",
+        "/us/nc/raleigh/parks/dix-park/sunflower-power-poles",
+        "/us/nc/raleigh/parks/dix-park/swing-terrace",
+        "/us/nc/raleigh/parks/dix-park/the-grove",
+        "/us/nc/raleigh/parks/dix-park/troll-grove",
+        "/us/nc/raleigh/parks/dix-park/trolls-big-field",
+        "/us/nc/raleigh/parks/dix-park/watermill-mountain",
+        "/us/nc/raleigh/parks/ncma-museum-park/bryan-theater-picture-this",
+        "/us/nc/raleigh/parks/ncma-museum-park/gyre",
+        "/us/nc/raleigh/parks/ncma-museum-park/museum-pond",
+        "/us/nc/raleigh/parks/ncma-museum-park/welcome-center",
+        "/us/nc/raleigh/parks/pullen-park/aquatic-center",
+        "/us/nc/raleigh/parks/pullen-park/arts-center",
+        "/us/nc/raleigh/parks/pullen-park/carousel-pavilion-shelter-6",
+        "/us/nc/raleigh/parks/pullen-park/community-center",
+        "/us/nc/raleigh/parks/pullen-park/historic-carousel",
+        "/us/nc/raleigh/parks/pullen-park/kiddie-boats",
+        "/us/nc/raleigh/parks/pullen-park/pullen-place-cafe",
+        "/us/nc/raleigh/parks/pullen-park/upper-shelter-area"
+      ],
+      "clusterIds": [
+        "image-rights-109f3ff6bd26",
+        "image-rights-16c5547d7495",
+        "image-rights-1aa5d4f1f1d5",
+        "image-rights-2472eb94300d",
+        "image-rights-2a0925b60bc0",
+        "image-rights-2a586ffcdefb",
+        "image-rights-2e35b2bed10f",
+        "image-rights-306984d77cf9",
+        "image-rights-3a9c6bc5b866",
+        "image-rights-42e2ae884de5",
+        "image-rights-4c84f06e04b6",
+        "image-rights-545491fb2269",
+        "image-rights-5a8d395aaa87",
+        "image-rights-60a97cd2eaf6",
+        "image-rights-6e066b809bad",
+        "image-rights-72979424ee6f",
+        "image-rights-84b5d7681996",
+        "image-rights-8614563c75e2",
+        "image-rights-8649104a036f",
+        "image-rights-8e07d3fe4f03",
+        "image-rights-902272b31f23",
+        "image-rights-a4e04e6e71bb",
+        "image-rights-aab1ee4da160",
+        "image-rights-b6f5a5abc287",
+        "image-rights-bad2e6548392",
+        "image-rights-c21e0374e094",
+        "image-rights-c4bc6bb0413e",
+        "image-rights-d42c7c2a1c2e",
+        "image-rights-d8a1d779f834",
+        "image-rights-da11b2ca3ca8",
+        "image-rights-daf66d8ce4a6",
+        "image-rights-e094799f72e4",
+        "image-rights-e61a0c661596",
+        "image-rights-e64f26be3da5",
+        "image-rights-e848f2f7ce2c",
+        "image-rights-fe06f12ba65a"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-nc-raleigh-02",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "NC",
+      "citySlug": "raleigh",
+      "status": "open",
+      "claim": null,
+      "count": 33,
+      "clusterCount": 33,
+      "recordIds": [
+        "/us/nc/raleigh/parks/dix-park/adams-field",
+        "/us/nc/raleigh/parks/dix-park/attun",
+        "/us/nc/raleigh/parks/dix-park/flowers-cottage",
+        "/us/nc/raleigh/parks/dix-park/flowers-field",
+        "/us/nc/raleigh/parks/dix-park/flowers-field-art-tables-east",
+        "/us/nc/raleigh/parks/dix-park/flowers-field-art-tables-west",
+        "/us/nc/raleigh/parks/dix-park/get-well-soon",
+        "/us/nc/raleigh/parks/dix-park/gipson-play-plaza",
+        "/us/nc/raleigh/parks/dix-park/hammock-grove",
+        "/us/nc/raleigh/parks/dix-park/house-of-many-porches",
+        "/us/nc/raleigh/parks/dix-park/it-starts-here",
+        "/us/nc/raleigh/parks/dix-park/koi-pond",
+        "/us/nc/raleigh/parks/dix-park/magnolia-room",
+        "/us/nc/raleigh/parks/dix-park/oak-room",
+        "/us/nc/raleigh/parks/dix-park/outdoor-classroom",
+        "/us/nc/raleigh/parks/dix-park/pine-loop-trail",
+        "/us/nc/raleigh/parks/dix-park/pollinator-hotel",
+        "/us/nc/raleigh/parks/dix-park/praise-song",
+        "/us/nc/raleigh/parks/dix-park/sensory-maze",
+        "/us/nc/raleigh/parks/dix-park/slide-valley",
+        "/us/nc/raleigh/parks/dix-park/stone-houses-visitor-center",
+        "/us/nc/raleigh/parks/dix-park/the-chapel",
+        "/us/nc/raleigh/parks/dix-park/trolls-pine-loop",
+        "/us/nc/raleigh/parks/dix-park/woodland-garden",
+        "/us/nc/raleigh/parks/ncma-museum-park/cloud-chamber",
+        "/us/nc/raleigh/parks/ncma-museum-park/eco-trail",
+        "/us/nc/raleigh/parks/ncma-museum-park/wind-sculpture-ii",
+        "/us/nc/raleigh/parks/pullen-park/event-lawn-stage",
+        "/us/nc/raleigh/parks/pullen-park/lake-howell-pedal-boats",
+        "/us/nc/raleigh/parks/pullen-park/miniature-train",
+        "/us/nc/raleigh/parks/pullen-park/petanque-bocce",
+        "/us/nc/raleigh/parks/pullen-park/playgrounds",
+        "/us/nc/raleigh/parks/pullen-park/welcome-center"
+      ],
+      "clusterIds": [
+        "image-rights-11fb1ccfef36",
+        "image-rights-1b0544eb0c5a",
+        "image-rights-23bd3f7bb336",
+        "image-rights-2f69f52d22ab",
+        "image-rights-331a3f515a0a",
+        "image-rights-3354ec1b1117",
+        "image-rights-51194f859422",
+        "image-rights-5728b7b7eb9e",
+        "image-rights-5d811b6abfd1",
+        "image-rights-73858caaf7d1",
+        "image-rights-7504342f2af2",
+        "image-rights-758e36e62d79",
+        "image-rights-79fecb66c045",
+        "image-rights-812e71f629ab",
+        "image-rights-8723c22ad9fb",
+        "image-rights-9d9e67becc94",
+        "image-rights-ab04e86115c6",
+        "image-rights-adb1cbbc860a",
+        "image-rights-adbcb942cb9a",
+        "image-rights-af5b37c76baf",
+        "image-rights-bf67277c6780",
+        "image-rights-c5f526e44484",
+        "image-rights-d395cd02cd03",
+        "image-rights-df8c89ba73fd",
+        "image-rights-e79a513f1746",
+        "image-rights-f14055b6e353",
+        "image-rights-f1c84093f59e",
+        "image-rights-f5ebc67a557a",
+        "image-rights-f76387d53f8d",
+        "image-rights-f7a6a94cde85",
+        "image-rights-f9d7a0a079b4",
+        "image-rights-fd3686f8e7e0",
+        "image-rights-fd7b901ff638"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-nc-wake-forest-01",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "NC",
+      "citySlug": "wake-forest",
+      "status": "open",
+      "claim": null,
+      "count": 3,
+      "clusterCount": 3,
+      "recordIds": [
+        "/us/nc/wake-forest/parks/e-carroll-joyner-park",
+        "/us/nc/wake-forest/parks/j-b-flaherty-park",
+        "/us/nc/wake-forest/parks/smith-creek-greenway"
+      ],
+      "clusterIds": [
+        "image-rights-745273f8c39d",
+        "image-rights-d28f1aaaa10c",
+        "image-rights-d67132acd0ee"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-nc-wake-forest-02",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "NC",
+      "citySlug": "wake-forest",
+      "status": "open",
+      "claim": null,
+      "count": 1,
+      "clusterCount": 1,
+      "recordIds": [
+        "/us/nc/wake-forest/parks/holding-park"
+      ],
+      "clusterIds": [
+        "image-rights-6303f693e69b"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-nc-wilmington-01",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "NC",
+      "citySlug": "wilmington",
+      "status": "open",
+      "claim": null,
+      "count": 1,
+      "clusterCount": 1,
+      "recordIds": [
+        "/us/nc/wilmington/parks/empie-park"
+      ],
+      "clusterIds": [
+        "image-rights-189c1cb9e14f"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-nc-wilmington-02",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "NC",
+      "citySlug": "wilmington",
+      "status": "open",
+      "claim": null,
+      "count": 2,
+      "clusterCount": 2,
+      "recordIds": [
+        "/us/nc/wilmington/parks/gary-shell-cross-city-trail",
+        "/us/nc/wilmington/parks/greenfield-park"
+      ],
+      "clusterIds": [
+        "image-rights-c9d9fedee7ff",
+        "image-rights-d5e20551ea6d"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-nh-manchester-02",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "NH",
+      "citySlug": "manchester",
+      "status": "open",
+      "claim": null,
+      "count": 1,
+      "clusterCount": 1,
+      "recordIds": [
+        "/us/nh/manchester/parks/livingston-park"
+      ],
+      "clusterIds": [
+        "image-rights-cd31fa50b144"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-ny-new-york-city-01",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "NY",
+      "citySlug": "new-york-city",
+      "status": "open",
+      "claim": null,
+      "count": 12,
+      "clusterCount": 12,
+      "recordIds": [
+        "/us/ny/new-york-city/parks/central-park/belvedere-shakespeare-turtle-pond",
+        "/us/ny/new-york-city/parks/central-park/central-park-zoo",
+        "/us/ny/new-york-city/parks/central-park/conservatory-water-alice",
+        "/us/ny/new-york-city/parks/central-park/delacorte-theater",
+        "/us/ny/new-york-city/parks/central-park/great-lawn-pinetum",
+        "/us/ny/new-york-city/parks/central-park/harlem-meer-dana-center",
+        "/us/ny/new-york-city/parks/central-park/heckscher-playground",
+        "/us/ny/new-york-city/parks/central-park/mall-literary-walk",
+        "/us/ny/new-york-city/parks/central-park/ramble",
+        "/us/ny/new-york-city/parks/central-park/rumsey-playfield-summerstage",
+        "/us/ny/new-york-city/parks/central-park/strawberry-fields",
+        "/us/ny/new-york-city/parks/central-park/wollman-rink"
+      ],
+      "clusterIds": [
+        "image-rights-2210115f2a35",
+        "image-rights-28835efd3f71",
+        "image-rights-2e635a77d179",
+        "image-rights-5c150e255ddf",
+        "image-rights-608bfae4b8af",
+        "image-rights-62e1dfb86b1f",
+        "image-rights-68291dfddcb3",
+        "image-rights-8889da9fc482",
+        "image-rights-a67dae808823",
+        "image-rights-da162470c9d4",
+        "image-rights-e2997148a8e9",
+        "image-rights-ecc06f3c525c"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-ny-new-york-city-02",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "NY",
+      "citySlug": "new-york-city",
+      "status": "open",
+      "claim": null,
+      "count": 16,
+      "clusterCount": 15,
+      "recordIds": [
+        "/us/ny/new-york-city/parks/central-park",
+        "/us/ny/new-york-city/parks/central-park/bethesda-terrace-fountain",
+        "/us/ny/new-york-city/parks/central-park/conservatory-garden",
+        "/us/ny/new-york-city/parks/central-park/dairy-carousel",
+        "/us/ny/new-york-city/parks/central-park/davis-center",
+        "/us/ny/new-york-city/parks/central-park/east-meadow-cedar-hill",
+        "/us/ny/new-york-city/parks/central-park/great-hill",
+        "/us/ny/new-york-city/parks/central-park/hallett-nature-sanctuary",
+        "/us/ny/new-york-city/parks/central-park/lake-bow-bridge-loeb-boathouse",
+        "/us/ny/new-york-city/parks/central-park/north-meadow-recreation-center",
+        "/us/ny/new-york-city/parks/central-park/north-woods-blockhouse",
+        "/us/ny/new-york-city/parks/central-park/obelisk-metropolitan-museum",
+        "/us/ny/new-york-city/parks/central-park/pond-gapstow-bridge",
+        "/us/ny/new-york-city/parks/central-park/pool-loch-ravine",
+        "/us/ny/new-york-city/parks/central-park/reservoir-running-track",
+        "/us/ny/new-york-city/parks/central-park/sheep-meadow-tavern-on-the-green"
+      ],
+      "clusterIds": [
+        "image-rights-13020c7a49e6",
+        "image-rights-21b4ac359225",
+        "image-rights-27f75ef26f71",
+        "image-rights-3571cf45515f",
+        "image-rights-4fe81fadf334",
+        "image-rights-5dd7d65d5dcb",
+        "image-rights-650d74ce62ac",
+        "image-rights-65b31811552a",
+        "image-rights-9501d6d4b9d3",
+        "image-rights-ad25e949914a",
+        "image-rights-b7ca6dd3cc51",
+        "image-rights-cd3b7bf3f2b1",
+        "image-rights-cf091a9ca6ed",
+        "image-rights-df790ca7c404",
+        "image-rights-f72974746962"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-oh-cincinnati-01",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "OH",
+      "citySlug": "cincinnati",
+      "status": "open",
+      "claim": null,
+      "count": 34,
+      "clusterCount": 18,
+      "recordIds": [
+        "/us/oh/cincinnati/parks/ault-park/ault-park-hiking-trails",
+        "/us/oh/cincinnati/parks/ault-park/ault-park-playground",
+        "/us/oh/cincinnati/parks/eden-park/spring-house-gazebo",
+        "/us/oh/cincinnati/parks/eden-park/twin-lakes-overlook",
+        "/us/oh/cincinnati/parks/mount-airy-forest/mount-airy-arboretum",
+        "/us/oh/cincinnati/parks/mount-airy-forest/mount-airy-bike-skills-course",
+        "/us/oh/cincinnati/parks/mount-airy-forest/the-nati-disc-golf-course",
+        "/us/oh/cincinnati/parks/sawyer-point-and-yeatman-s-cove/cincinnatus-statue",
+        "/us/oh/cincinnati/parks/sawyer-point-and-yeatman-s-cove/otto-armleder-memorial-sprayground",
+        "/us/oh/cincinnati/parks/sawyer-point-and-yeatman-s-cove/p-and-g-stage",
+        "/us/oh/cincinnati/parks/sawyer-point-and-yeatman-s-cove/riverfront-skating-rink",
+        "/us/oh/cincinnati/parks/sawyer-point-and-yeatman-s-cove/sawyer-point-courts",
+        "/us/oh/cincinnati/parks/sawyer-point-and-yeatman-s-cove/schott-amphitheater",
+        "/us/oh/cincinnati/parks/smale-riverfront-park/barr-labyrinth",
+        "/us/oh/cincinnati/parks/smale-riverfront-park/carol-ann-s-carousel",
+        "/us/oh/cincinnati/parks/smale-riverfront-park/heekin-family-adventure-playground",
+        "/us/oh/cincinnati/parks/smale-riverfront-park/main-street-fountain",
+        "/us/oh/cincinnati/parks/smale-riverfront-park/pichler-fountains",
+        "/us/oh/cincinnati/parks/smale-riverfront-park/roebling-bridge-overlook",
+        "/us/oh/cincinnati/parks/smale-riverfront-park/rosenberg-swings",
+        "/us/oh/cincinnati/parks/summit-park/summit-park-dog-park",
+        "/us/oh/cincinnati/parks/summit-park/summit-park-great-lawn",
+        "/us/oh/cincinnati/parks/summit-park/summit-park-ice-rink",
+        "/us/oh/cincinnati/parks/summit-park/summit-park-nature-playscape",
+        "/us/oh/cincinnati/parks/summit-park/summit-park-naturescape",
+        "/us/oh/cincinnati/parks/summit-park/summit-park-observation-tower",
+        "/us/oh/cincinnati/parks/summit-park/summit-park-restaurants",
+        "/us/oh/cincinnati/parks/washington-park/washington-park-interactive-water-park",
+        "/us/oh/cincinnati/parks/winton-woods/great-oaks-trail",
+        "/us/oh/cincinnati/parks/winton-woods/harbor-loop-trail",
+        "/us/oh/cincinnati/parks/winton-woods/the-mill-course",
+        "/us/oh/cincinnati/parks/winton-woods/winton-lake",
+        "/us/oh/cincinnati/parks/winton-woods/winton-woods-campground",
+        "/us/oh/cincinnati/parks/winton-woods/winton-woods-harbor"
+      ],
+      "clusterIds": [
+        "image-rights-1443b1fdd590",
+        "image-rights-26760e3e47a0",
+        "image-rights-2824c3c61190",
+        "image-rights-28ef1a26d2a6",
+        "image-rights-343f643d9f04",
+        "image-rights-5012b59ca64f",
+        "image-rights-56ed5a4004ac",
+        "image-rights-7e1d76109225",
+        "image-rights-848cffcdf41a",
+        "image-rights-94a16eb21c3e",
+        "image-rights-9834ad6f5bb6",
+        "image-rights-a8c11ff97417",
+        "image-rights-aab966e4a457",
+        "image-rights-cc1fedafdfb6",
+        "image-rights-da62df884f21",
+        "image-rights-e4a8923290c4",
+        "image-rights-f205a59289e6",
+        "image-rights-f4f556f9a1b3"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-oh-cincinnati-02",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "OH",
+      "citySlug": "cincinnati",
+      "status": "open",
+      "claim": null,
+      "count": 22,
+      "clusterCount": 10,
+      "recordIds": [
+        "/us/oh/cincinnati/parks/ault-park/ault-park-butterfly-garden",
+        "/us/oh/cincinnati/parks/ault-park/ault-park-cherry-blossom-grove",
+        "/us/oh/cincinnati/parks/ault-park/ault-park-overlook",
+        "/us/oh/cincinnati/parks/ault-park/ault-park-pavilion",
+        "/us/oh/cincinnati/parks/ault-park/ault-park-rose-garden",
+        "/us/oh/cincinnati/parks/ault-park/observatory-circle",
+        "/us/oh/cincinnati/parks/eden-park/cincinnati-art-museum",
+        "/us/oh/cincinnati/parks/eden-park/hinkle-magnolia-garden",
+        "/us/oh/cincinnati/parks/eden-park/krohn-conservatory",
+        "/us/oh/cincinnati/parks/eden-park/mirror-lake",
+        "/us/oh/cincinnati/parks/eden-park/seasongood-pavilion",
+        "/us/oh/cincinnati/parks/eden-park/tom-jones-commons",
+        "/us/oh/cincinnati/parks/mount-airy-forest/doris-day-dog-park",
+        "/us/oh/cincinnati/parks/mount-airy-forest/mcfarlan-woods",
+        "/us/oh/cincinnati/parks/mount-airy-forest/oak-ridge-lodge",
+        "/us/oh/cincinnati/parks/mount-airy-forest/stone-steps-picnic-area",
+        "/us/oh/cincinnati/parks/sawyer-point-and-yeatman-s-cove/purple-people-bridge",
+        "/us/oh/cincinnati/parks/sawyer-point-and-yeatman-s-cove/serpentine-wall",
+        "/us/oh/cincinnati/parks/summit-park/summit-park-main-playground",
+        "/us/oh/cincinnati/parks/washington-park/washington-park-children-s-playground",
+        "/us/oh/cincinnati/parks/winton-woods/parky-s-ark-wet-playground",
+        "/us/oh/cincinnati/parks/winton-woods/parky-s-farm"
+      ],
+      "clusterIds": [
+        "image-rights-2fbc7755b79e",
+        "image-rights-335b86c184d1",
+        "image-rights-39c38937d193",
+        "image-rights-5bda0472f888",
+        "image-rights-7d6f12751972",
+        "image-rights-b9e966fdc3b3",
+        "image-rights-bbfee421a764",
+        "image-rights-bf6a6a609a29",
+        "image-rights-c370e43f478c",
+        "image-rights-cbb5ee42d8d2"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-oh-columbus-02",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "OH",
+      "citySlug": "columbus",
+      "status": "open",
+      "claim": null,
+      "count": 1,
+      "clusterCount": 1,
+      "recordIds": [
+        "/us/oh/columbus/parks/goodale-park/goodale-park-shelterhouse"
+      ],
+      "clusterIds": [
+        "image-rights-67a088f51211"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-tn-nashville-01",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "TN",
+      "citySlug": "nashville",
+      "status": "open",
+      "claim": null,
+      "count": 10,
+      "clusterCount": 5,
+      "recordIds": [
+        "/us/tn/nashville/parks/shelby-bottoms-and-shelby-park/shelby-bottoms-nature-center",
+        "/us/tn/nashville/parks/shelby-bottoms-and-shelby-park/shelby-park-playground",
+        "/us/tn/nashville/parks/two-rivers-park/two-rivers-skatepark",
+        "/us/tn/nashville/parks/wasioto-park",
+        "/us/tn/nashville/parks/wasioto-park/explorer-trail",
+        "/us/tn/nashville/parks/wasioto-park/shelby-street-bridge-elevator",
+        "/us/tn/nashville/parks/wasioto-park/the-gorge",
+        "/us/tn/nashville/parks/wasioto-park/the-lawn-at-wasioto-park",
+        "/us/tn/nashville/parks/wasioto-park/the-scoops",
+        "/us/tn/nashville/parks/wasioto-park/wasioto-park-spray-ground"
+      ],
+      "clusterIds": [
+        "image-rights-2e84c4a1a8ed",
+        "image-rights-46f2d8c040b6",
+        "image-rights-5634d4916d1c",
+        "image-rights-6240843adcb8",
+        "image-rights-c0e784f47248"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-tn-nashville-02",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "TN",
+      "citySlug": "nashville",
+      "status": "open",
+      "claim": null,
+      "count": 7,
+      "clusterCount": 3,
+      "recordIds": [
+        "/us/tn/nashville/parks/fort-negley-park/chestnut-street-entrance",
+        "/us/tn/nashville/parks/fort-negley-park/fort-negley-visitors-center",
+        "/us/tn/nashville/parks/two-rivers-park/two-rivers-dog-park",
+        "/us/tn/nashville/parks/two-rivers-park/two-rivers-golf-course",
+        "/us/tn/nashville/parks/two-rivers-park/wave-country",
+        "/us/tn/nashville/parks/wasioto-park/the-hollow",
+        "/us/tn/nashville/parks/wasioto-park/wasioto-park-amphitheater"
+      ],
+      "clusterIds": [
+        "image-rights-0dba4827a777",
+        "image-rights-45ec61734226",
+        "image-rights-d556515c4cb8"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-tx-austin-01",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "TX",
+      "citySlug": "austin",
+      "status": "open",
+      "claim": null,
+      "count": 2,
+      "clusterCount": 1,
+      "recordIds": [
+        "/us/tx/austin/parks/pease-district-park/pease-park-nature-play-area",
+        "/us/tx/austin/parks/pease-district-park/pease-park-treehouse"
+      ],
+      "clusterIds": [
+        "image-rights-44043c93895e"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-tx-austin-02",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "TX",
+      "citySlug": "austin",
+      "status": "open",
+      "claim": null,
+      "count": 4,
+      "clusterCount": 1,
+      "recordIds": [
+        "/us/tx/austin/parks/pease-district-park",
+        "/us/tx/austin/parks/pease-district-park/kingsbury-commons",
+        "/us/tx/austin/parks/pease-district-park/pease-park-great-lawn",
+        "/us/tx/austin/parks/pease-district-park/pease-splash-pad"
+      ],
+      "clusterIds": [
+        "image-rights-6be1921198c3"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-tx-dallas-02",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "TX",
+      "citySlug": "dallas",
+      "status": "open",
+      "claim": null,
+      "count": 7,
+      "clusterCount": 3,
+      "recordIds": [
+        "/us/tx/dallas/parks/cedar-ridge-preserve",
+        "/us/tx/dallas/parks/cedar-ridge-preserve/cattail-pond-trail",
+        "/us/tx/dallas/parks/cedar-ridge-preserve/cedar-ridge-preserve-main-trailhead",
+        "/us/tx/dallas/parks/cedar-ridge-preserve/cedar-ridge-preserve-scenic-overlook",
+        "/us/tx/dallas/parks/cedar-ridge-preserve/little-bluestem-trail",
+        "/us/tx/dallas/parks/trinity-river-audubon-center/trinity-river-audubon-pond-overlooks",
+        "/us/tx/dallas/parks/trinity-river-audubon-center/wetland-trail"
+      ],
+      "clusterIds": [
+        "image-rights-0166ab6291c8",
+        "image-rights-45dc4a8fc597",
+        "image-rights-739befc041b0"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-tx-houston-01",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "TX",
+      "citySlug": "houston",
+      "status": "open",
+      "claim": null,
+      "count": 19,
+      "clusterCount": 9,
+      "recordIds": [
+        "/us/tx/houston/parks/emancipation-park/emancipation-park-baseball-field",
+        "/us/tx/houston/parks/emancipation-park/emancipation-park-cultural-center",
+        "/us/tx/houston/parks/emancipation-park/emancipation-park-playground",
+        "/us/tx/houston/parks/emancipation-park/emancipation-park-spraygrounds",
+        "/us/tx/houston/parks/emancipation-park/emancipation-park-tennis-courts",
+        "/us/tx/houston/parks/emancipation-park/recreation-center-and-gymnasium",
+        "/us/tx/houston/parks/levy-park/children-s-water-feature",
+        "/us/tx/houston/parks/levy-park/levy-park-event-lawn",
+        "/us/tx/houston/parks/levy-park/levy-park-reading-room",
+        "/us/tx/houston/parks/levy-park/treehouse-overlook",
+        "/us/tx/houston/parks/smither-park",
+        "/us/tx/houston/parks/smither-park/burguieres-hinton-and-mathre-swings",
+        "/us/tx/houston/parks/smither-park/johnson-marble-tower",
+        "/us/tx/houston/parks/smither-park/lindley-fish-amphitheater",
+        "/us/tx/houston/parks/smither-park/oshman-meditation-wall",
+        "/us/tx/houston/parks/smither-park/shell-plaza-and-walkways",
+        "/us/tx/houston/parks/smither-park/smither-park-mosaic-entry-tunnel",
+        "/us/tx/houston/parks/smither-park/the-memory-wall",
+        "/us/tx/houston/parks/smither-park/vinson-and-elkins-pavilion"
+      ],
+      "clusterIds": [
+        "image-rights-08e40bc7b4f1",
+        "image-rights-4a97a027c199",
+        "image-rights-54e0b81ed172",
+        "image-rights-5a9c9e1770bd",
+        "image-rights-a04c5dd6f000",
+        "image-rights-a0d4c644086d",
+        "image-rights-a6dc49620d18",
+        "image-rights-d8c5eb911d73",
+        "image-rights-e88f1d5ac000"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-tx-houston-02",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "TX",
+      "citySlug": "houston",
+      "status": "open",
+      "claim": null,
+      "count": 8,
+      "clusterCount": 3,
+      "recordIds": [
+        "/us/tx/houston/parks/emancipation-park",
+        "/us/tx/houston/parks/emancipation-park/blessing-theater",
+        "/us/tx/houston/parks/emancipation-park/emancipation-park-aquatics-center",
+        "/us/tx/houston/parks/levy-park",
+        "/us/tx/houston/parks/levy-park/activity-lawn-and-game-carts",
+        "/us/tx/houston/parks/levy-park/levy-park-children-s-park",
+        "/us/tx/houston/parks/levy-park/levy-park-dog-park",
+        "/us/tx/houston/parks/levy-park/pavilion-and-east-plaza"
+      ],
+      "clusterIds": [
+        "image-rights-8d32c26c6102",
+        "image-rights-9b799f53c7c1",
+        "image-rights-c7e37ecd2226"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-tx-san-antonio-01",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "TX",
+      "citySlug": "san-antonio",
+      "status": "open",
+      "claim": null,
+      "count": 12,
+      "clusterCount": 6,
+      "recordIds": [
+        "/us/tx/san-antonio/parks/pearsall-park/pearsall-park-disc-golf-course",
+        "/us/tx/san-antonio/parks/pearsall-park/pearsall-park-playground",
+        "/us/tx/san-antonio/parks/phil-hardberger-park/hardberger-park-skywalk",
+        "/us/tx/san-antonio/parks/phil-hardberger-park/hardberger-park-west-playground",
+        "/us/tx/san-antonio/parks/phil-hardberger-park/robert-l-b-tobin-land-bridge",
+        "/us/tx/san-antonio/parks/phil-hardberger-park/urban-ecology-center",
+        "/us/tx/san-antonio/parks/san-pedro-springs-park/mcfarlin-tennis-center",
+        "/us/tx/san-antonio/parks/san-pedro-springs-park/san-pedro-springs-gazebo",
+        "/us/tx/san-antonio/parks/woodlawn-lake-park/woodlawn-lake-gym",
+        "/us/tx/san-antonio/parks/woodlawn-lake-park/woodlawn-lake-island-house",
+        "/us/tx/san-antonio/parks/woodlawn-lake-park/woodlawn-lake-playground",
+        "/us/tx/san-antonio/parks/woodlawn-lake-park/woodlawn-lake-pool"
+      ],
+      "clusterIds": [
+        "image-rights-222401c1e8b6",
+        "image-rights-263efe72f0ae",
+        "image-rights-2a326423d151",
+        "image-rights-7c67f025c9da",
+        "image-rights-84c1c490e247",
+        "image-rights-be028581d16b"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-tx-san-antonio-02",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "TX",
+      "citySlug": "san-antonio",
+      "status": "open",
+      "claim": null,
+      "count": 33,
+      "clusterCount": 14,
+      "recordIds": [
+        "/us/tx/san-antonio/parks/hemisfair",
+        "/us/tx/san-antonio/parks/hemisfair/civic-park-great-lawn",
+        "/us/tx/san-antonio/parks/hemisfair/civic-park-springs",
+        "/us/tx/san-antonio/parks/hemisfair/hemisfair-public-art-walk",
+        "/us/tx/san-antonio/parks/hemisfair/hemisfair-restaurants-and-historic-houses",
+        "/us/tx/san-antonio/parks/hemisfair/hemisfair-sand-play-area",
+        "/us/tx/san-antonio/parks/hemisfair/hemisfair-splash-pad",
+        "/us/tx/san-antonio/parks/hemisfair/tower-park-basketball-court",
+        "/us/tx/san-antonio/parks/hemisfair/yanaguana-garden",
+        "/us/tx/san-antonio/parks/pearsall-park",
+        "/us/tx/san-antonio/parks/pearsall-park/pearsall-park-5k-trail",
+        "/us/tx/san-antonio/parks/pearsall-park/pearsall-park-dog-park",
+        "/us/tx/san-antonio/parks/pearsall-park/pearsall-park-skate-park",
+        "/us/tx/san-antonio/parks/pearsall-park/pearsall-park-splash-pads",
+        "/us/tx/san-antonio/parks/pearsall-park/pearsall-park-sprint-timer",
+        "/us/tx/san-antonio/parks/pearsall-park/wickiup-overlook",
+        "/us/tx/san-antonio/parks/phil-hardberger-park",
+        "/us/tx/san-antonio/parks/phil-hardberger-park/hardberger-park-east-dog-park",
+        "/us/tx/san-antonio/parks/phil-hardberger-park/hardberger-park-east-playground",
+        "/us/tx/san-antonio/parks/phil-hardberger-park/hardberger-park-west-dog-park",
+        "/us/tx/san-antonio/parks/phil-hardberger-park/salado-creek-greenway-connection",
+        "/us/tx/san-antonio/parks/san-pedro-springs-park",
+        "/us/tx/san-antonio/parks/san-pedro-springs-park/san-pedro-library",
+        "/us/tx/san-antonio/parks/san-pedro-springs-park/san-pedro-playhouse",
+        "/us/tx/san-antonio/parks/san-pedro-springs-park/san-pedro-springs",
+        "/us/tx/san-antonio/parks/san-pedro-springs-park/san-pedro-springs-playground",
+        "/us/tx/san-antonio/parks/san-pedro-springs-park/san-pedro-springs-pool",
+        "/us/tx/san-antonio/parks/san-pedro-springs-park/san-pedro-springs-skate-plaza",
+        "/us/tx/san-antonio/parks/woodlawn-lake-park",
+        "/us/tx/san-antonio/parks/woodlawn-lake-park/woodlawn-lake-dog-park",
+        "/us/tx/san-antonio/parks/woodlawn-lake-park/woodlawn-lake-fishing-areas",
+        "/us/tx/san-antonio/parks/woodlawn-lake-park/woodlawn-lake-lighthouse",
+        "/us/tx/san-antonio/parks/woodlawn-lake-park/woodlawn-lake-walking-trail"
+      ],
+      "clusterIds": [
+        "image-rights-073182f7365b",
+        "image-rights-1d39981d9cbd",
+        "image-rights-31a2ebefbf91",
+        "image-rights-41e3def81290",
+        "image-rights-49e9a2ba79d6",
+        "image-rights-49eeaedab0d3",
+        "image-rights-8312d0904372",
+        "image-rights-85e74d7163e4",
+        "image-rights-9fde4f210625",
+        "image-rights-b7ebb81f2083",
+        "image-rights-c3a00ce2677d",
+        "image-rights-e5a4a9281f6b",
+        "image-rights-e79b5cc3aa15",
+        "image-rights-f517d96f9b92"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
+    },
+    {
+      "id": "image-rights-reconciliation-va-arlington-01",
+      "type": "image-rights-reconciliation",
+      "audience": "internal",
+      "state": "VA",
+      "citySlug": "arlington",
+      "status": "open",
+      "claim": null,
+      "count": 1,
+      "clusterCount": 1,
+      "recordIds": [
+        "/us/va/arlington/parks/gravelly-point"
+      ],
+      "clusterIds": [
+        "image-rights-741575ab461e"
+      ],
+      "acceptance": "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review."
     }
   ]
 }

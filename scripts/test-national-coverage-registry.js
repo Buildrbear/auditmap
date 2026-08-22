@@ -286,6 +286,25 @@ const highHopperBrief = openTaskBrief({
 }, packets);
 assert.match(highHopperBrief, /exceeds 100 records/);
 assert.ok(highHopperBrief.indexOf(releasePacketId) < highHopperBrief.indexOf(researchPacketId));
+const internalImagePacket = {
+  id: "image-rights-reconciliation-nc-raleigh-01",
+  type: "image-rights-reconciliation",
+  audience: "internal",
+  state: "NC",
+  citySlug: "raleigh",
+  status: "open",
+  count: 2,
+  recordIds: [
+    "/us/nc/raleigh/parks/live-park",
+    "/us/nc/raleigh/parks/live-park/live-trail",
+  ],
+};
+const internalImageBrief = openTaskBrief({
+  asOf: "2026-08-20",
+  summary: { ...summary, imageRightsReviewPages: 2, imageRightsUniqueClusters: 1 },
+}, [...packets, internalImagePacket]);
+assert.match(internalImageBrief, /2.*generated place pages.*internal image-rights queue.*1.*distinct image decisions/s);
+assert.doesNotMatch(internalImageBrief, /`image-rights-reconciliation-nc-raleigh-01`/);
 const noOpenPacketBrief = openTaskBrief({
   asOf: "2026-08-20",
   summary,
@@ -369,6 +388,10 @@ const claimsDocument = {
   claims: [baseClaim],
 };
 assert.equal(validateClaimsDocument(claimsDocument, { asOf: "2026-08-18" }).length, 1);
+assert.equal(validateClaimsDocument({
+  ...claimsDocument,
+  claims: [{ ...baseClaim, packetId: "image-rights-reconciliation-nc-raleigh-01" }],
+}, { asOf: "2026-08-18" }).length, 1);
 assert.throws(() => validateClaimsDocument({
   ...claimsDocument,
   $schema: "./wrong-schema.json",
