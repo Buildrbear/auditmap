@@ -2176,11 +2176,15 @@
         }
       ],
       "image": {
+        "slug": "park-aerial",
         "url": "/assets/parks/washington-dc-super/washington/anacostia-park/park-aerial.webp",
         "source": "https://www.nps.gov/anac/index.htm",
         "author": "NPS / Miguel Marquez",
-        "license": "Public domain",
-        "alt": "Aerial view of Anacostia Park, Anacostia Drive, the river trail, and the Anacostia River"
+        "license": "Official federal photograph; source attribution retained",
+        "alt": "Anacostia Park in Washington, DC",
+        "latitude": 38.8752,
+        "longitude": -76.968,
+        "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
       },
       "additionalImages": [
         {
@@ -2217,8 +2221,7 @@
           "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
         }
       ],
-      "verifiedAt": "2026-08-10",
-      "images": []
+      "verifiedAt": "2026-08-10"
     },
     "launch-ga-atlanta-centennial-olympic-park": {
       "name": "Centennial Olympic Park",
@@ -13368,41 +13371,41 @@
         }
       ],
       "image": {
-        "url": "/assets/parks/cincinnati-super/smale-riverfront-park/01-smale-riverfront-park-panoramio-jpg.webp",
-        "source": "https://commons.wikimedia.org/wiki/File%3ASmale_Riverfront_Park_-_panoramio.jpg",
-        "author": "Jeffery Roberts",
-        "license": "CC BY-SA 3.0",
-        "alt": "Smale Riverfront Park - panoramio.jpg at Smale Riverfront Park",
-        "width": 1600,
-        "height": 1000
+        "url": "/assets/parks/cincinnati-super/smale-riverfront-park/01-smale-riverfront-park-adventure-playground.webp",
+        "source": "https://www.cincinnati-oh.gov/cincyparks/visit-a-park/find-a-parkfacility/smale-riverfront-park/",
+        "author": "Cincinnati Parks",
+        "license": "Official source image",
+        "alt": "Smale Riverfront Park in the Cincinnati area",
+        "width": 1440,
+        "height": 584
       },
       "additionalImages": [
         {
-          "url": "/assets/parks/cincinnati-super/smale-riverfront-park/02-roebling-bridge-from-smale-riverfront-park-cincinnati-oh-51386404727-jpg.webp",
-          "source": "https://commons.wikimedia.org/wiki/File%3ARoebling_Bridge_from_Smale_Riverfront_Park%2C_Cincinnati%2C_OH_-_51386404727.jpg",
-          "author": "w_lemay",
-          "license": "CC BY-SA 2.0",
-          "alt": "Roebling Bridge from Smale Riverfront Park, Cincinnati, OH - 51386404727.jpg at Smale Riverfront Park",
-          "width": 1600,
-          "height": 1000
+          "url": "/assets/parks/cincinnati-super/smale-riverfront-park/02-smale-riverfront-park-water-play.webp",
+          "source": "https://www.cincinnati-oh.gov/cincyparks/visit-a-park/find-a-parkfacility/smale-riverfront-park/",
+          "author": "Cincinnati Parks",
+          "license": "Official source image",
+          "alt": "Smale Riverfront Park in the Cincinnati area",
+          "width": 1440,
+          "height": 584
         },
         {
-          "url": "/assets/parks/cincinnati-super/smale-riverfront-park/03-statue-of-marian-spencer-in-the-women-s-garden-at-smale-riverfront-park-in-downtown-cincinnati-ohio-jpg.webp",
-          "source": "https://commons.wikimedia.org/wiki/File%3AStatue_of_Marian_Spencer_in_the_Women's_Garden_at_Smale_Riverfront_Park_in_downtown_Cincinnati%2C_Ohio.jpg",
-          "author": "Solivers12",
-          "license": "CC BY-SA 4.0",
-          "alt": "Statue of Marian Spencer in the Women's Garden at Smale Riverfront Park in downtown Cincinnati, Ohio.jpg at Smale Riverfront Park",
-          "width": 1600,
-          "height": 1000
+          "url": "/assets/parks/cincinnati-super/smale-riverfront-park/03-smale-riverfront-park-riverfront.webp",
+          "source": "https://www.cincinnati-oh.gov/cincyparks/visit-a-park/find-a-parkfacility/smale-riverfront-park/",
+          "author": "Cincinnati Parks",
+          "license": "Official source image",
+          "alt": "Smale Riverfront Park in the Cincinnati area",
+          "width": 1440,
+          "height": 584
         },
         {
-          "url": "/assets/parks/cincinnati-super/smale-riverfront-park/04-interactive-fountain-7302255690-jpg.webp",
-          "source": "https://commons.wikimedia.org/wiki/File%3AInteractive_fountain_(7302255690).jpg",
-          "author": "LouisvilleUSACE",
-          "license": "CC BY 2.0",
-          "alt": "Interactive fountain (7302255690).jpg at Smale Riverfront Park",
-          "width": 1600,
-          "height": 1000
+          "url": "/assets/parks/cincinnati-super/smale-riverfront-park/04-smale-riverfront-park-labyrinth-and-gardens.webp",
+          "source": "https://www.cincinnati-oh.gov/cincyparks/visit-a-park/find-a-parkfacility/smale-riverfront-park/",
+          "author": "Cincinnati Parks",
+          "license": "Official source image",
+          "alt": "Smale Riverfront Park in the Cincinnati area",
+          "width": 1440,
+          "height": 584
         }
       ],
       "replaceImages": true,
@@ -16417,12 +16420,15 @@
         }
       ],
       "image": {
-        "url": "/assets/parks/il/chicago/millennium-park/aerial-overview.jpg",
-        "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
-        "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
-        "license": "Public domain",
-        "alt": "2025 USDA aerial overview of Millennium Park's mapped grounds and downtown Chicago context",
-        "kind": "aerial-overview-fallback"
+        "slug": "cloud-gate",
+        "url": "/assets/parks/chicago-super/chicago/millennium-park/cloud-gate.webp",
+        "source": "https://www.chicago.gov/city/en/depts/dca/supp_info/millennium_park.html",
+        "author": "City of Chicago",
+        "license": "Official City of Chicago photograph; source attribution retained",
+        "alt": "Millennium Park in Chicago, Illinois",
+        "latitude": 41.8826,
+        "longitude": -87.6226,
+        "positionQuality": "Associated with the named destination by its official source; exact camera position is not published"
       },
       "additionalImages": [
         {
@@ -16459,8 +16465,7 @@
           "positionQuality": "Associated with the named destination by its official source; exact camera position is not published"
         }
       ],
-      "verifiedAt": "2026-08-05",
-      "images": []
+      "verifiedAt": "2026-08-05"
     },
     "launch-il-chicago-grant-park": {
       "operator": "Chicago Park District",
@@ -16628,12 +16633,15 @@
         }
       ],
       "image": {
-        "url": "/assets/parks/il/chicago/grant-park/aerial-overview.jpg",
-        "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
-        "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
-        "license": "Public domain",
-        "alt": "2025 USDA aerial overview of Grant Park's mapped grounds, lakefront, and downtown context",
-        "kind": "aerial-overview-fallback"
+        "slug": "grant-park-aerial",
+        "url": "/assets/parks/chicago-super/chicago/grant-park/grant-park-aerial.webp",
+        "source": "https://www.chicagoparkdistrict.com/parks-facilities/grant-ulysses-park",
+        "author": "Chicago Park District",
+        "license": "Official Chicago Park District photograph; source attribution retained",
+        "alt": "Grant Park in Chicago, Illinois",
+        "latitude": 41.8722,
+        "longitude": -87.6188,
+        "positionQuality": "Associated with the named destination by its official source; exact camera position is not published"
       },
       "additionalImages": [
         {
@@ -16670,8 +16678,7 @@
           "positionQuality": "Associated with the named destination by its official source; exact camera position is not published"
         }
       ],
-      "verifiedAt": "2026-08-05",
-      "images": []
+      "verifiedAt": "2026-08-05"
     },
     "launch-in-indianapolis-white-river-state-park": {
       "name": "White River State Park",
@@ -18185,12 +18192,15 @@
         }
       ],
       "image": {
-        "url": "/assets/parks/il/chicago/lincoln-park/aerial-overview.jpg",
-        "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
-        "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
-        "license": "Public domain",
-        "alt": "2025 USDA aerial overview of Lincoln Park's mapped lakefront grounds and surrounding Chicago neighborhoods",
-        "kind": "aerial-overview-fallback"
+        "slug": "lincoln-park-conservatory",
+        "url": "/assets/parks/chicago-super/chicago/lincoln-park/lincoln-park-conservatory.webp",
+        "source": "https://www.chicagoparkdistrict.com/parks-facilities/lincoln-park-conservatory",
+        "author": "Chicago Park District",
+        "license": "Official Chicago Park District photograph; source attribution retained",
+        "alt": "Lincoln Park in Chicago, Illinois",
+        "latitude": 41.9214,
+        "longitude": -87.6338,
+        "positionQuality": "Associated with the named destination by its official source; exact camera position is not published"
       },
       "additionalImages": [
         {
@@ -18249,8 +18259,7 @@
           "positionQuality": "Associated with the named destination by its official source; exact camera position is not published"
         }
       ],
-      "verifiedAt": "2026-08-05",
-      "images": []
+      "verifiedAt": "2026-08-05"
     },
     "launch-mn-minneapolis-chain-of-lakes-regional-park": {
       "name": "Chain of Lakes Regional Park",
@@ -34849,11 +34858,15 @@
         }
       ],
       "image": {
+        "slug": "boulder-bridge",
         "url": "/assets/parks/washington-dc-super/washington/rock-creek-park/boulder-bridge.webp",
         "source": "https://www.nps.gov/rocr/index.htm",
         "author": "National Park Service",
-        "license": "Public domain",
-        "alt": "Boulder Bridge among autumn trees in Rock Creek Park"
+        "license": "Official federal photograph; source attribution retained",
+        "alt": "Rock Creek Park in Washington, DC",
+        "latitude": 38.9531,
+        "longitude": -77.0501,
+        "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
       },
       "additionalImages": [
         {
@@ -34890,8 +34903,7 @@
           "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
         }
       ],
-      "verifiedAt": "2026-08-10",
-      "images": []
+      "verifiedAt": "2026-08-10"
     },
     "launch-va-virginia-beach-first-landing-state-park": {
       "name": "First Landing State Park",
@@ -39104,11 +39116,15 @@
         }
       ],
       "image": {
+        "slug": "mall-landscape",
         "url": "/assets/parks/washington-dc-super/washington/national-mall/mall-landscape.webp",
-        "source": "https://www.loc.gov/item/2011630850/",
-        "author": "Carol M. Highsmith / Library of Congress",
-        "license": "Public domain",
-        "alt": "Lincoln Memorial, Washington Monument, and United States Capitol illuminated at night on the National Mall"
+        "source": "https://www.nps.gov/nama/planyourvisit/index.htm",
+        "author": "National Park Service",
+        "license": "Official federal photograph; source attribution retained",
+        "alt": "National Mall in Washington, DC",
+        "latitude": 38.8895,
+        "longitude": -77.023,
+        "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
       },
       "additionalImages": [
         {
@@ -39178,8 +39194,7 @@
           "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
         }
       ],
-      "verifiedAt": "2026-08-10",
-      "images": []
+      "verifiedAt": "2026-08-10"
     },
     "launch-ny-new-york-city-central-park": {
       "operator": "New York City Parks and Central Park Conservancy",
@@ -41865,11 +41880,15 @@
         }
       ],
       "image": {
+        "slug": "roosevelt-statue",
         "url": "/assets/parks/washington-dc-super/washington/theodore-roosevelt-island/roosevelt-statue.webp",
         "source": "https://www.nps.gov/this/index.htm",
         "author": "National Park Service",
-        "license": "Public domain",
-        "alt": "Theodore Roosevelt statue in the memorial plaza on Theodore Roosevelt Island"
+        "license": "Official federal photograph; source attribution retained",
+        "alt": "Theodore Roosevelt Island in Washington, DC",
+        "latitude": 38.8977,
+        "longitude": -77.0645,
+        "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
       },
       "additionalImages": [
         {
@@ -41906,8 +41925,7 @@
           "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
         }
       ],
-      "verifiedAt": "2026-08-10",
-      "images": []
+      "verifiedAt": "2026-08-10"
     },
     "launch-dc-washington-georgetown-waterfront-park": {
       "operator": "National Park Service",
@@ -42022,11 +42040,15 @@
         }
       ],
       "image": {
+        "slug": "waterfront",
         "url": "/assets/parks/washington-dc-super/washington/georgetown-waterfront-park/waterfront.webp",
         "source": "https://www.nps.gov/places/georgetown-waterfront-park.htm",
         "author": "NPS / Claire Hassler",
-        "license": "Public domain",
-        "alt": "Georgetown Waterfront Park lawn, trail, Potomac River, and distant bridge"
+        "license": "Official federal photograph; source attribution retained",
+        "alt": "Georgetown Waterfront Park in Washington, DC",
+        "latitude": 38.9024,
+        "longitude": -77.0615,
+        "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
       },
       "additionalImages": [
         {
@@ -42063,8 +42085,7 @@
           "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
         }
       ],
-      "verifiedAt": "2026-08-10",
-      "images": []
+      "verifiedAt": "2026-08-10"
     },
     "launch-dc-washington-kenilworth-park-aquatic-gardens": {
       "operator": "National Park Service",
@@ -42179,11 +42200,15 @@
         }
       ],
       "image": {
+        "slug": "lotus-pond",
         "url": "/assets/parks/washington-dc-super/washington/kenilworth-park-and-aquatic-gardens/lotus-pond.webp",
         "source": "https://www.nps.gov/keaq/index.htm",
         "author": "NPS / Miguel A. Marquez",
-        "license": "Public domain",
-        "alt": "Pink lotus flower blooming in a pond at Kenilworth Park and Aquatic Gardens"
+        "license": "Official federal photograph; source attribution retained",
+        "alt": "Kenilworth Park & Aquatic Gardens in Washington, DC",
+        "latitude": 38.9128,
+        "longitude": -76.9434,
+        "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
       },
       "additionalImages": [
         {
@@ -42220,8 +42245,7 @@
           "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
         }
       ],
-      "verifiedAt": "2026-08-10",
-      "images": []
+      "verifiedAt": "2026-08-10"
     },
     "launch-dc-washington-meridian-hill-park-malcolm-x-park": {
       "operator": "National Park Service",
@@ -42336,11 +42360,15 @@
         }
       ],
       "image": {
+        "slug": "cascading-fountain",
         "url": "/assets/parks/washington-dc-super/washington/meridian-hill-park-malcolm-x-park/cascading-fountain.webp",
         "source": "https://home.nps.gov/places/000/cascading-fountain.htm",
         "author": "U.S. Department of the Interior / Kelsey Graczyk",
-        "license": "Public domain",
-        "alt": "People walking and sitting beside the cascading fountain at Meridian Hill Park"
+        "license": "Official federal photograph; source attribution retained",
+        "alt": "Meridian Hill Park (Malcolm X Park) in Washington, DC",
+        "latitude": 38.921,
+        "longitude": -77.0362,
+        "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
       },
       "additionalImages": [
         {
@@ -42377,8 +42405,7 @@
           "positionQuality": "Associated with the named destination by its cited source; exact camera coordinates are not published"
         }
       ],
-      "verifiedAt": "2026-08-10",
-      "images": []
+      "verifiedAt": "2026-08-10"
     },
     "launch-dc-washington-u-s-national-arboretum": {
       "operator": "U.S. Department of Agriculture",
@@ -42706,12 +42733,15 @@
         }
       ],
       "image": {
-        "url": "/assets/parks/il/chicago/maggie-daley-park/aerial-overview.jpg",
-        "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
-        "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
-        "license": "Public domain",
-        "alt": "2025 USDA aerial overview of Maggie Daley Park's mapped play areas, paths, and downtown context",
-        "kind": "aerial-overview-fallback"
+        "slug": "play-garden",
+        "url": "/assets/parks/chicago-super/chicago/maggie-daley-park/play-garden.webp",
+        "source": "https://www.maggiedaleypark.com/things-to-do-see/play-garden/",
+        "author": "Maggie Daley Park",
+        "license": "Official Maggie Daley Park photograph; source attribution retained",
+        "alt": "Maggie Daley Park in Chicago, Illinois",
+        "latitude": 41.8824,
+        "longitude": -87.6193,
+        "positionQuality": "Associated with the named destination by its official source; exact camera position is not published"
       },
       "additionalImages": [
         {
@@ -42748,8 +42778,7 @@
           "positionQuality": "Associated with the named destination by its official source; exact camera position is not published"
         }
       ],
-      "verifiedAt": "2026-08-05",
-      "images": []
+      "verifiedAt": "2026-08-05"
     },
     "launch-il-chicago-chicago-riverwalk": {
       "operator": "City of Chicago",
@@ -42917,12 +42946,15 @@
         }
       ],
       "image": {
-        "url": "/assets/parks/il/chicago/chicago-riverwalk/aerial-overview.jpg",
-        "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
-        "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
-        "license": "Public domain",
-        "alt": "2025 USDA aerial overview of the mapped Chicago Riverwalk corridor and surrounding downtown blocks",
-        "kind": "aerial-overview-fallback"
+        "slug": "riverwalk-steps",
+        "url": "/assets/parks/chicago-super/chicago/chicago-riverwalk/riverwalk-steps.webp",
+        "source": "https://www.chicago.gov/city/en/sites/chicagoriverwalk/home.html",
+        "author": "City of Chicago / Kate Joyce Studios",
+        "license": "Official City of Chicago / Kate Joyce Studios photograph; source attribution retained",
+        "alt": "Chicago Riverwalk in Chicago, Illinois",
+        "latitude": 41.8875,
+        "longitude": -87.6258,
+        "positionQuality": "Associated with the named destination by its official source; exact camera position is not published"
       },
       "additionalImages": [
         {
@@ -42959,8 +42991,7 @@
           "positionQuality": "Associated with the named destination by its official source; exact camera position is not published"
         }
       ],
-      "verifiedAt": "2026-08-05",
-      "images": []
+      "verifiedAt": "2026-08-05"
     },
     "launch-il-chicago-jackson-park": {
       "operator": "Chicago Park District",
@@ -43128,12 +43159,15 @@
         }
       ],
       "image": {
-        "url": "/assets/parks/il/chicago/jackson-park/aerial-overview.jpg",
-        "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
-        "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
-        "license": "Public domain",
-        "alt": "2025 USDA aerial overview of Jackson Park's lagoons, lakefront grounds, and surrounding visitor context",
-        "kind": "aerial-overview-fallback"
+        "slug": "garden-of-phoenix",
+        "url": "/assets/parks/chicago-super/chicago/jackson-park/garden-of-phoenix.webp",
+        "source": "https://www.chicagoparkdistrict.com/parks-facilities/jackson-andrew-park",
+        "author": "Chicago Park District",
+        "license": "Official Chicago Park District photograph; source attribution retained",
+        "alt": "Jackson Park in Chicago, Illinois",
+        "latitude": 41.7829,
+        "longitude": -87.58,
+        "positionQuality": "Associated with the named destination by its official source; exact camera position is not published"
       },
       "additionalImages": [
         {
@@ -43170,8 +43204,7 @@
           "positionQuality": "Associated with the named destination by its official source; exact camera position is not published"
         }
       ],
-      "verifiedAt": "2026-08-05",
-      "images": []
+      "verifiedAt": "2026-08-05"
     },
     "launch-il-chicago-garfield-park-conservatory": {
       "operator": "Garfield Park Conservatory",
@@ -43329,12 +43362,15 @@
         }
       ],
       "image": {
-        "url": "/assets/parks/il/chicago/garfield-park-conservatory/aerial-overview.jpg",
-        "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
-        "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
-        "license": "Public domain",
-        "alt": "2025 USDA aerial overview of Garfield Park Conservatory and the surrounding Garfield Park grounds",
-        "kind": "aerial-overview-fallback"
+        "slug": "conservatory-exterior",
+        "url": "/assets/parks/chicago-super/chicago/garfield-park-conservatory/conservatory-exterior.webp",
+        "source": "https://www.chicagoparkdistrict.com/parks-facilities/garfield-park-conservatory",
+        "author": "Chicago Park District",
+        "license": "Official Chicago Park District photograph; source attribution retained",
+        "alt": "Garfield Park Conservatory in Chicago, Illinois",
+        "latitude": 41.8863,
+        "longitude": -87.7172,
+        "positionQuality": "Associated with the named destination by its official source; exact camera position is not published"
       },
       "additionalImages": [
         {
@@ -43371,8 +43407,7 @@
           "positionQuality": "Associated with the named destination by its official source; exact camera position is not published"
         }
       ],
-      "verifiedAt": "2026-08-05",
-      "images": []
+      "verifiedAt": "2026-08-05"
     },
     "launch-il-chicago-chicago-lakefront-trail": {
       "operator": "Chicago Park District",
@@ -43540,12 +43575,15 @@
         }
       ],
       "image": {
-        "url": "/assets/parks/il/chicago/chicago-lakefront-trail/aerial-overview.jpg",
-        "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
-        "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
-        "license": "Public domain",
-        "alt": "2025 USDA aerial overview of a representative central Chicago Lakefront Trail segment and shoreline context",
-        "kind": "aerial-overview-fallback"
+        "slug": "separated-trails",
+        "url": "/assets/parks/chicago-super/chicago/chicago-lakefront-trail/separated-trails.webp",
+        "source": "https://www.chicagoparkdistrict.com/lakefront-trail",
+        "author": "Chicago Park District",
+        "license": "Official Chicago Park District photograph; source attribution retained",
+        "alt": "Chicago Lakefront Trail in Chicago, Illinois",
+        "latitude": 41.9,
+        "longitude": -87.621,
+        "positionQuality": "Associated with the named destination by its official source; exact camera position is not published"
       },
       "additionalImages": [
         {
@@ -43582,8 +43620,7 @@
           "positionQuality": "Associated with the named destination by its official source; exact camera position is not published"
         }
       ],
-      "verifiedAt": "2026-08-05",
-      "images": []
+      "verifiedAt": "2026-08-05"
     },
     "launch-ca-los-angeles-gloria-molina-grand-park": {
       "operator": "Gloria Molina Grand Park / The Music Center",
@@ -45199,14 +45236,14 @@
         }
       ],
       "image": {
-        "url": "/assets/parks/miami-waterfront-evidence/crandon-park/01-tennis-center-at-crandon-park.webp",
-        "source": "https://commons.wikimedia.org/w/index.php?curid=47945623",
-        "author": "Jimmy Baikovicius",
-        "license": "BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
-        "alt": "Aerial view of the Crandon Park tennis complex and surrounding preserve",
-        "width": 1600,
-        "height": 1000
+        "slug": "crandon-beach",
+        "url": "/assets/parks/miami-super/crandon-park/crandon-beach.webp",
+        "source": "https://commons.wikimedia.org/wiki/File:Crandon_Park_beach%2C_FL.jpg",
+        "author": "Paulkondratuk3194",
+        "license": "CC BY-SA 3.0",
+        "alt": "Crandon Park in Key Biscayne, Florida",
+        "latitude": 25.7084,
+        "longitude": -80.1561
       },
       "additionalImages": [
         {

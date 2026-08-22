@@ -8,7 +8,9 @@ const root = path.resolve(__dirname, "..");
 const selectionsPath = process.env.AUDITMAP_FIRST_PHOTO_SELECTIONS_PATH
   ? path.resolve(process.env.AUDITMAP_FIRST_PHOTO_SELECTIONS_PATH)
   : path.join(root, "data", "nc-first-photo-selections.json");
-const selections = JSON.parse(fs.readFileSync(selectionsPath, "utf8")).selections;
+const selections = JSON.parse(fs.readFileSync(selectionsPath, "utf8")).selections.filter(
+  (selection) => selection.presentationStatus !== "context-only",
+);
 const institutions = JSON.parse(fs.readFileSync(path.join(root, "data", "institutions.json"), "utf8"));
 const basic = JSON.parse(fs.readFileSync(path.join(root, "data", "nc-basic-official-park-enrichment.json"), "utf8")).places;
 const targetPath = process.env.AUDITMAP_FIRST_PHOTO_TARGET_PATH
