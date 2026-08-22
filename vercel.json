@@ -2,6 +2,10 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "redirects": [
+    { "source": "/us/fl/hollywood/parks/hollywood-beach-broadwalk", "destination": "/us/fl/hollywood/parks/hollywood-beach-and-broadwalk", "permanent": true },
+    { "source": "/us/fl/hollywood/parks/hollywood-beach-broadwalk/charnow-park", "destination": "/us/fl/hollywood/parks/hollywood-beach-and-broadwalk/charnow-park", "permanent": true },
+    { "source": "/us/fl/hollywood/parks/hollywood-beach-broadwalk/hollywood-beach-theatre", "destination": "/us/fl/hollywood/parks/hollywood-beach-and-broadwalk/hollywood-beach-theatre", "permanent": true },
+    { "source": "/us/fl/hollywood/parks/hollywood-beach-broadwalk/hollywood-dog-beach", "destination": "/us/fl/hollywood/parks/hollywood-beach-and-broadwalk/hollywood-dog-beach", "permanent": true },
     { "source": "/us/ga/atlanta/parks/atlanta-beltline-eastside-trail", "destination": "/us/ga/atlanta/parks/eastside-trail", "permanent": true },
     { "source": "/us/ga/atlanta/parks/chastain-memorial-park", "destination": "/us/ga/atlanta/parks/chastain-park", "permanent": true },
     { "source": "/us/ga/atlanta/parks/shirley-clarke-franklin-park-westside-park", "destination": "/us/ga/atlanta/parks/westside-park", "permanent": true },

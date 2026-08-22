@@ -6,6 +6,7 @@ const campaign = require("../data/cincinnati-super-enrichment-campaign.json");
 const places = require("../data/generated/launch-map-places.json");
 const featureFacts = require("../data/cincinnati-feature-visitor-facts.json").places;
 const redirects = require("../vercel.json").redirects;
+const { hasDocumentedReuseRights } = require("./lib/image-rights");
 const failures = [];
 const slug = (value) => String(value).toLowerCase().replace(/&/g, " and ").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 const need = (condition, message) => { if (!condition) failures.push(message); };
@@ -31,7 +32,7 @@ for (const scope of campaign.places.filter((entry) => entry.currentBatch)) {
   need(place.searchAnswers?.length >= 11, `${scope.name}: parent answers missing`);
   need(place.researchQueue?.length >= 2, `${scope.name}: unresolved research queue missing`);
   for (const image of [place.image, ...(place.images || [])]) {
-    need(/^https:\/\/commons\.wikimedia\.org\/wiki\/File:/.test(decodeURIComponent(image?.source || "")), `${scope.name}: gallery image is not sourced to a Commons file page`);
+    need(hasDocumentedReuseRights(image), `${scope.name}: gallery image lacks documented reuse rights`);
     need(!/official source image/i.test(image?.license || ""), `${scope.name}: unlicensed official-site image survived`);
     need(fs.existsSync(path.join(root, String(image?.url || "").replace(/^\//, ""))), `${scope.name}: gallery file missing`);
   }

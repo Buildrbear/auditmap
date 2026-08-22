@@ -93,6 +93,10 @@ for (const [key, names] of identities) {
 
 const redirects = JSON.parse(fs.readFileSync(path.join(root, "vercel.json"), "utf8")).redirects || [];
 const expectedRedirects = new Map([
+  ["/us/fl/hollywood/parks/hollywood-beach-broadwalk", "/us/fl/hollywood/parks/hollywood-beach-and-broadwalk"],
+  ["/us/fl/hollywood/parks/hollywood-beach-broadwalk/charnow-park", "/us/fl/hollywood/parks/hollywood-beach-and-broadwalk/charnow-park"],
+  ["/us/fl/hollywood/parks/hollywood-beach-broadwalk/hollywood-beach-theatre", "/us/fl/hollywood/parks/hollywood-beach-and-broadwalk/hollywood-beach-theatre"],
+  ["/us/fl/hollywood/parks/hollywood-beach-broadwalk/hollywood-dog-beach", "/us/fl/hollywood/parks/hollywood-beach-and-broadwalk/hollywood-dog-beach"],
   ["/us/fl/miami/parks/maurice-a-ferr-park", "/us/fl/miami/parks/maurice-a-ferre-park"],
   ["/us/ga/atlanta/parks/atlanta-beltline-eastside-trail", "/us/ga/atlanta/parks/eastside-trail"],
   ["/us/ga/atlanta/parks/chastain-memorial-park", "/us/ga/atlanta/parks/chastain-park"],
