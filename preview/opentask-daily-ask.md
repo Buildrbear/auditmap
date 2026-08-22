@@ -1,6 +1,6 @@
 # AuditMap Daily OpenTask Ask
 
-Generated: 2026-08-21
+Generated: 2026-08-22
 
 ## Current scoreboard
 
@@ -10,6 +10,7 @@ Generated: 2026-08-21
 - **49** are research-only candidates awaiting launch-guide work.
 - **10** are blocked by named review questions.
 - **0** live records need internal local/production synchronization.
+- **694** generated place pages are in the internal image-rights queue, representing **457** distinct image decisions.
 
 ## Current operating ask
 
@@ -17,7 +18,7 @@ Campaign capacity is 2/2 municipality-breadth and 1/1 depth lanes available. A m
 
 No unclaimed packets are currently generated. Run national discovery and qualify the next exact packet before assigning work. Every submission must return the packet ID, accepted record IDs, source URLs and checked dates, image-rights records where applicable, commands run, and an unresolved queue. OpenTask records coordination and credit; the repository registry remains the source of truth.
 
-The production-sync queue is reserved for maintainers and repository integrators because it can overwrite newer live work. Release-reconciliation maintenance does not open a new breadth or depth lane.
+The image-rights packets are reserved for AuditMap's internal sessions and intentionally excluded from the OpenTask table. The production-sync queue is reserved for maintainers and repository integrators because it can overwrite newer live work. Release-reconciliation maintenance does not open a new breadth or depth lane.
 
 ## Open packets
 

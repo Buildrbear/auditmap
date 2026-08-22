@@ -412,7 +412,7 @@
     "test:search-opportunity": "node scripts/test-search-opportunity.js",
     "test:image-rights": "node scripts/test-image-rights.js",
     "refresh:national-coverage": "node scripts/build-national-coverage-registry.js",
-    "test:national-coverage": "node scripts/test-national-coverage-registry.js",
+    "test:national-coverage": "node scripts/test-national-coverage-registry.js && node scripts/test-national-image-rights-queue.js",
     "verify:greensboro:research": "node scripts/verify-greensboro-research-completion.js",
     "verify:asheville-azalea:research": "node scripts/verify-asheville-azalea-research-completion.js",
     "verify:concord-marvin-caldwell:research": "node scripts/verify-concord-marvin-caldwell-research-completion.js",

@@ -4,6 +4,11 @@ const crypto = require("node:crypto");
 const childProcess = require("node:child_process");
 const fs = require("node:fs");
 const path = require("node:path");
+const {
+  IMAGE_PACKET_TYPE,
+  buildImageRightsQueue,
+  imagePacketFingerprint,
+} = require("./lib/national-image-rights-queue");
 
 const root = path.resolve(__dirname, "..");
 const defaultPaths = {
@@ -20,6 +25,7 @@ const defaultPaths = {
   spatialSources: "data/spatial-source-registry.json",
   output: "data/generated/national-coverage-registry.json",
   packetsOutput: "data/generated/national-work-packets.json",
+  imageRightsOutput: "data/generated/national-image-rights-work-packets.json",
   briefOutput: "preview/opentask-daily-ask.md",
 };
 
@@ -31,9 +37,9 @@ const CLAIM_STATUSES = new Set([
   "released",
 ]);
 const ACTIVE_CLAIM_STATUSES = new Set(["claimed", "submitted", "changes-requested"]);
-const CLAIM_PACKET_PATTERN = /^(release-reconciliation|research-completion|local-production-sync)-[a-z]{2}-[a-z0-9-]+-[0-9]{2}$/;
+const CLAIM_PACKET_PATTERN = /^((release-reconciliation|research-completion|local-production-sync)-[a-z]{2}-[a-z0-9-]+-[0-9]{2}|image-rights-reconciliation-[a-z]{2}-[a-z0-9-]+-[a-f0-9]{8})$/;
 const ISO_DATE_PATTERN = /^\d{4}-\d{2}-\d{2}$/;
-const CLAIMS_SCHEMA_PATH = "./schemas/national-work-packet-claims.schema.json";
+const CLAIMS_SCHEMA_PATH = "./schemas/national-work-packet-claims-v2.schema.json";
 const CLAIM_DOCUMENT_FIELDS = new Set(["$schema", "schemaVersion", "updatedAt", "claims"]);
 const CLAIM_FIELDS = new Set([
   "packetId",
@@ -47,6 +53,9 @@ const CLAIM_FIELDS = new Set([
   "submissionUrl",
   "pullRequestUrl",
   "acceptedRecordIds",
+  "packetFingerprint",
+  "claimedClusterIds",
+  "claimedRecordIds",
   "reviewQueue",
   "notes",
 ]);
@@ -147,8 +156,8 @@ function dateInTimeZone(value = new Date(), timeZone = CAMPAIGN_TIME_ZONE) {
 
 function validateClaimsDocument(document, { asOf = null } = {}) {
   validateKnownFields(document, CLAIM_DOCUMENT_FIELDS, "claim ledger");
-  if (!document || document.schemaVersion !== 1 || !Array.isArray(document.claims)) {
-    throw new Error("Claim ledger must use schemaVersion 1 and contain a claims array");
+  if (!document || document.schemaVersion !== 2 || !Array.isArray(document.claims)) {
+    throw new Error("Claim ledger must use schemaVersion 2 and contain a claims array");
   }
   if (document.$schema !== CLAIMS_SCHEMA_PATH) {
     throw new Error(`Claim ledger $schema must be ${CLAIMS_SCHEMA_PATH}`);
@@ -212,6 +221,55 @@ function validateClaimsDocument(document, { asOf = null } = {}) {
           throw new Error(`Duplicate acceptedRecordId for claim ${claim.packetId}: ${recordId}`);
         }
         acceptedRecordIds.add(recordId);
+      }
+    }
+    if (claim.packetId.startsWith(`${IMAGE_PACKET_TYPE}-`)) {
+      for (const field of ["packetFingerprint", "claimedClusterIds", "claimedRecordIds"]) {
+        if (claim[field] === undefined) {
+          throw new Error(`Image-rights claim ${claim.packetId} is missing required field ${field}`);
+        }
+      }
+      if (!/^[a-f0-9]{64}$/.test(claim.packetFingerprint)) {
+        throw new Error(`Invalid packetFingerprint for image-rights claim ${claim.packetId}`);
+      }
+      if (!Array.isArray(claim.claimedClusterIds) || !claim.claimedClusterIds.length) {
+        throw new Error(`Invalid claimedClusterIds for image-rights claim ${claim.packetId}`);
+      }
+      if (!Array.isArray(claim.claimedRecordIds) || !claim.claimedRecordIds.length) {
+        throw new Error(`Invalid claimedRecordIds for image-rights claim ${claim.packetId}`);
+      }
+      const clusterIds = new Set();
+      for (const clusterId of claim.claimedClusterIds) {
+        if (!/^image-rights-[a-f0-9]{12}$/.test(clusterId)) {
+          throw new Error(`Invalid claimedClusterId for image-rights claim ${claim.packetId}`);
+        }
+        if (clusterIds.has(clusterId)) {
+          throw new Error(`Duplicate claimedClusterId for image-rights claim ${claim.packetId}`);
+        }
+        clusterIds.add(clusterId);
+      }
+      const recordIds = new Set();
+      for (const recordId of claim.claimedRecordIds) {
+        if (typeof recordId !== "string" || !recordId.startsWith("/us/")) {
+          throw new Error(`Invalid claimedRecordId for image-rights claim ${claim.packetId}`);
+        }
+        if (recordIds.has(recordId)) {
+          throw new Error(`Duplicate claimedRecordId for image-rights claim ${claim.packetId}`);
+        }
+        recordIds.add(recordId);
+      }
+      const fingerprint = imagePacketFingerprint(claim.claimedClusterIds, claim.claimedRecordIds);
+      if (fingerprint !== claim.packetFingerprint) {
+        throw new Error(`Image-rights claim fingerprint differs from its snapshot: ${claim.packetId}`);
+      }
+      if (!claim.packetId.endsWith(`-${fingerprint.slice(0, 8)}`)) {
+        throw new Error(`Image-rights claim packet ID differs from its fingerprint: ${claim.packetId}`);
+      }
+    } else {
+      for (const field of ["packetFingerprint", "claimedClusterIds", "claimedRecordIds"]) {
+        if (claim[field] !== undefined) {
+          throw new Error(`Non-image claim ${claim.packetId} may not include ${field}`);
+        }
       }
     }
     if (claim.reviewQueue !== undefined) {
@@ -739,7 +797,9 @@ function openTaskBrief(document, packets, capacity = null) {
     ? { "release-reconciliation": 0, "research-completion": 1 }
     : { "research-completion": 0, "release-reconciliation": 1 };
   const communityPackets = packets
-    .filter((packet) => packet.status === "open" && packet.type !== "local-production-sync");
+    .filter((packet) => packet.status === "open"
+      && packet.type !== "local-production-sync"
+      && packet.type !== IMAGE_PACKET_TYPE);
   const breadthFull = capacity?.available?.municipalityBreadth === 0;
   const queueGuidance = reconciliationFirst
     ? "The hopper exceeds 100 records, so reconciliation and release work leads the open queue."
@@ -767,7 +827,7 @@ function openTaskBrief(document, packets, capacity = null) {
   const assignmentGuidance = openPackets.length
     ? `Claim one exact available packet ID. Do not start a broad overlapping geography. ${queueGuidance}`
     : "No unclaimed packets are currently generated. Run national discovery and qualify the next exact packet before assigning work.";
-  return `# AuditMap Daily OpenTask Ask\n\nGenerated: ${document.asOf}\n\n## Current scoreboard\n\n- **${summary.liveDestinationPages.toLocaleString()}** destination pages are live.\n- **${summary.hopper.toLocaleString()}** known destinations are in the hopper.\n- **${summary.generatedLocallyNotLive.toLocaleString()}** are generated locally but absent from production.\n- **${summary.researchOnly.toLocaleString()}** are research-only candidates awaiting launch-guide work.\n- **${summary.blockedReview.toLocaleString()}** are blocked by named review questions.\n- **${summary.productionMissingFromLocal.toLocaleString()}** live records need internal local/production synchronization.\n\n## Current operating ask\n\n${capacityGuidance}\n\n${assignmentGuidance} Every submission must return the packet ID, accepted record IDs, source URLs and checked dates, image-rights records where applicable, commands run, and an unresolved queue. OpenTask records coordination and credit; the repository registry remains the source of truth.\n\nThe production-sync queue is reserved for maintainers and repository integrators because it can overwrite newer live work. Release-reconciliation maintenance does not open a new breadth or depth lane.\n\n## Open packets\n\n| Packet | Work type | Geography | Records |\n| --- | --- | --- | ---: |\n${packetRows || "| None | — | — | 0 |"}\n\n## Capacity-blocked backlog\n\nThese packets remain visible for planning but are not claimable until the matching lane opens.\n\n| Packet | Work type | Geography | Records |\n| --- | --- | --- | ---: |\n${blockedRows || "| None | — | — | 0 |"}\n\n## Daily merge rule\n\n1. Refresh the registry before assigning work.\n2. Reserve the packet ID in OpenTask and its linked GitHub issue.\n3. Accept only source-format changes or the research handoff template.\n4. Merge through reviewed pull requests and a Vercel preview.\n5. Refresh again after production deployment; only production presence marks a record live.\n`;
+  return `# AuditMap Daily OpenTask Ask\n\nGenerated: ${document.asOf}\n\n## Current scoreboard\n\n- **${summary.liveDestinationPages.toLocaleString()}** destination pages are live.\n- **${summary.hopper.toLocaleString()}** known destinations are in the hopper.\n- **${summary.generatedLocallyNotLive.toLocaleString()}** are generated locally but absent from production.\n- **${summary.researchOnly.toLocaleString()}** are research-only candidates awaiting launch-guide work.\n- **${summary.blockedReview.toLocaleString()}** are blocked by named review questions.\n- **${summary.productionMissingFromLocal.toLocaleString()}** live records need internal local/production synchronization.\n- **${(summary.imageRightsReviewPages || 0).toLocaleString()}** generated place pages are in the internal image-rights queue, representing **${(summary.imageRightsUniqueClusters || 0).toLocaleString()}** distinct image decisions.\n\n## Current operating ask\n\n${capacityGuidance}\n\n${assignmentGuidance} Every submission must return the packet ID, accepted record IDs, source URLs and checked dates, image-rights records where applicable, commands run, and an unresolved queue. OpenTask records coordination and credit; the repository registry remains the source of truth.\n\nThe image-rights packets are reserved for AuditMap's internal sessions and intentionally excluded from the OpenTask table. The production-sync queue is reserved for maintainers and repository integrators because it can overwrite newer live work. Release-reconciliation maintenance does not open a new breadth or depth lane.\n\n## Open packets\n\n| Packet | Work type | Geography | Records |\n| --- | --- | --- | ---: |\n${packetRows || "| None | — | — | 0 |"}\n\n## Capacity-blocked backlog\n\nThese packets remain visible for planning but are not claimable until the matching lane opens.\n\n| Packet | Work type | Geography | Records |\n| --- | --- | --- | ---: |\n${blockedRows || "| None | — | — | 0 |"}\n\n## Daily merge rule\n\n1. Refresh the registry before assigning work.\n2. Reserve the packet ID in OpenTask and its linked GitHub issue.\n3. Accept only source-format changes or the research handoff template.\n4. Merge through reviewed pull requests and a Vercel preview.\n5. Refresh again after production deployment; only production presence marks a record live.\n`;
 }
 
 async function loadLocalIntakes(directory) {
@@ -840,6 +900,15 @@ async function build(options) {
     localLaunchMap,
     intakes: [...localIntakes, ...externalIntakes],
   });
+  const imageRightsDocument = buildImageRightsQueue({
+    rootDirectory: root,
+    asOf,
+    claims,
+  });
+  const summary = {
+    ...summarize(registry),
+    ...imageRightsDocument.summary,
+  };
   const document = {
     schemaVersion: 1,
     asOf,
@@ -866,14 +935,23 @@ async function build(options) {
         String(source.licenseStatus || "").includes("review-required"),
       ).length,
     },
-    summary: summarize(registry),
+    imageRightsEvidence: {
+      source: "local generated place pages",
+      gitBranch: baseline.branch,
+      gitCommit: baseline.commit,
+    },
+    summary,
     records: registry,
   };
-  const packets = buildPackets(registry, 25, claims);
+  const packets = [
+    ...buildPackets(registry, 25, claims),
+    ...imageRightsDocument.packets.map(({ clusters, ...packet }) => packet),
+  ];
   validateActiveClaimReferences(packets, claims);
   return {
     document,
-    packetDocument: { schemaVersion: 1, asOf, summary: document.summary, packets },
+    packetDocument: { schemaVersion: 1, asOf, summary, packets },
+    imageRightsDocument,
     brief: openTaskBrief(document, packets, campaignCapacity),
   };
 }
@@ -885,6 +963,7 @@ async function main() {
     for (const [file, content] of [
       [options.output, `${JSON.stringify(result.document, null, 2)}\n`],
       [options.packetsOutput, `${JSON.stringify(result.packetDocument, null, 2)}\n`],
+      [options.imageRightsOutput, `${JSON.stringify(result.imageRightsDocument, null, 2)}\n`],
       [options.briefOutput, result.brief],
     ]) {
       const outputPath = relativePath(file);
