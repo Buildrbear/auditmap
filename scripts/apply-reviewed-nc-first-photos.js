@@ -92,7 +92,9 @@ async function main() {
   let downloadedAssets = 0;
   let reusedAssets = 0;
 
-  for (const selection of selections.selections) {
+  for (const selection of selections.selections.filter(
+    (candidate) => candidate.presentationStatus !== "context-only",
+  )) {
     const candidatePlace = candidatePlaces.get(selection.placeId)
       || [...candidatePlaces.values()].find((place) => place.name === selection.name && place.city === selection.city);
     const candidate = candidatePlace?.candidates?.find((image) => image.source === selection.candidateSource);
