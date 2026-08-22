@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-08-22",
+  "reviewMethod": "Reviewed a labeled seven-image contact sheet of coordinate-centered 2025 USDA NAIP crops for Cincinnati. A tighter Sawyer Point and Yeatman's Cove crop was shifted east and reviewed separately so the riverfront recreation area remains legible. Each selection depicts the named destination; source, acquisition, and public-domain metadata remain in the candidate file.",
+  "selections": [
+    {
+      "placeId": "launch-oh-cincinnati-smale-riverfront-park",
+      "name": "Smale Riverfront Park",
+      "city": "Cincinnati",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/oh/cincinnati/smale-riverfront-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of Smale Riverfront Park, the Ohio River, and adjacent downtown landmarks",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "launch-oh-cincinnati-eden-park",
+      "name": "Eden Park",
+      "city": "Cincinnati",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/oh/cincinnati/eden-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of Eden Park's wooded grounds, paths, Mirror Lake, and surrounding context",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "launch-oh-cincinnati-ault-park",
+      "name": "Ault Park",
+      "city": "Cincinnati",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/oh/cincinnati/ault-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of Ault Park's pavilion, gardens, lawns, woods, and surrounding neighborhood",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "launch-oh-cincinnati-mount-airy-forest",
+      "name": "Mount Airy Forest",
+      "city": "Cincinnati",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/oh/cincinnati/mount-airy-forest/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of Mount Airy Forest's wooded parkland, roads, trails, and recreation areas",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "launch-oh-cincinnati-winton-woods",
+      "name": "Winton Woods",
+      "city": "Cincinnati",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/oh/cincinnati/winton-woods/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of Winton Woods, Winton Lake, trails, harbor, and surrounding park grounds",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "launch-oh-cincinnati-summit-park",
+      "name": "Summit Park",
+      "city": "Cincinnati",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/oh/cincinnati/summit-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of Summit Park's paths, lawns, ponds, recreation areas, and surrounding Blue Ash context",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "launch-oh-cincinnati-sawyer-point-and-yeatman-s-cove",
+      "name": "Sawyer Point and Yeatman's Cove",
+      "city": "Cincinnati",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/oh/cincinnati/sawyer-point-and-yeatman-s-cove/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of Sawyer Point and Yeatman's Cove recreation areas beside the Ohio River",
+      "imageKind": "aerial-overview-fallback"
+    }
+  ]
+}

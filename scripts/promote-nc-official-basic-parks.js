@@ -29,6 +29,14 @@ const mecklenburgOverridesPath = path.join(root, "data", "mecklenburg-park-explo
 const mecklenburgOverrides = fs.existsSync(mecklenburgOverridesPath)
   ? JSON.parse(fs.readFileSync(mecklenburgOverridesPath, "utf8"))
   : { imageOverrides: {}, imageMetadataOverrides: {}, galleryOverrides: {}, sourceOverrides: {}, detailOverrides: {} };
+const reviewedFirstPhotosPath = path.join(root, "data", "nc-first-photo-selections.json");
+const reviewedFirstPhotos = fs.existsSync(reviewedFirstPhotosPath)
+  ? JSON.parse(fs.readFileSync(reviewedFirstPhotosPath, "utf8")).selections || []
+  : [];
+const reviewedFirstPhotosById = new Map(reviewedFirstPhotos.flatMap((selection) => {
+  const normalized = String(selection.placeId || "").replace(/^basic-/, "");
+  return [[selection.placeId, selection], [normalized, selection]];
+}));
 
 const trustedHosts = [
   /\.gov$/i, /\.gov\//i, /\.nc\.us$/i, /ncparks\.gov$/i, /mecknc\.gov$/i,
@@ -3814,14 +3822,16 @@ async function research(place) {
   }
   if (!isTrusted(finalUrl)) throw new Error(`untrusted redirect: ${new URL(finalUrl).hostname}`);
   const description = meta(html, "description") || meta(html, "og:description");
-  const imageCandidate = overrideFor(officialImageOverrides, place, lookupName) || (invalidImageNames.has(lookupName)
+  const reviewedFirstPhoto = reviewedFirstPhotosById.get(place.id)
+    || reviewedFirstPhotosById.get(String(place.id || "").replace(/^basic-/, ""));
+  const imageCandidate = reviewedFirstPhoto?.url || overrideFor(officialImageOverrides, place, lookupName) || (invalidImageNames.has(lookupName)
     ? ""
     : absoluteUrl(meta(html, "og:image") || meta(html, "twitter:image"), finalUrl));
   const imageUrl = (/^https:\/\//i.test(imageCandidate) || imageCandidate.startsWith("/assets/")) && !/\b(logo|seal|icon)\b/i.test(imageCandidate)
     ? imageCandidate
     : "";
   const label = sourceLabel(place, finalUrl);
-  const imageMetadata = overrideFor(officialImageMetadataOverrides, place, lookupName) || {};
+  const imageMetadata = reviewedFirstPhoto || overrideFor(officialImageMetadataOverrides, place, lookupName) || {};
   const hoursValue = details.hours || place.hours;
   const hoursKnown = hoursValue && !/not yet documented/i.test(hoursValue);
   const amenities = details.amenities || (place.amenities?.length ? place.amenities : []);

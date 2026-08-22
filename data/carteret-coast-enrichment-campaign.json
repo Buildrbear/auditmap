@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T02:10:55.800Z",
+  "generatedAt": "2026-08-22T03:27:01.963Z",
   "checkedAt": "2026-08-05",
   "scope": [
     "Morehead City",
@@ -21,7 +21,7 @@
       "name": "Shevans Park",
       "city": "Morehead City",
       "source": "https://www.moreheadcitync.org/Facilities/Facility/Details/Shevans-Park-3",
-      "imageCount": 2,
+      "imageCount": 1,
       "completenessScore": 100,
       "unresolvedIntentKeys": []
     },
@@ -147,11 +147,9 @@
       "name": "Walter Lewis Landing",
       "city": "Morehead City",
       "source": "https://www.moreheadcitync.org/Facilities/Facility/Details/South-12th-Street-Water-Access-26",
-      "imageCount": 0,
-      "completenessScore": 90,
-      "unresolvedIntentKeys": [
-        "image"
-      ]
+      "imageCount": 1,
+      "completenessScore": 100,
+      "unresolvedIntentKeys": []
     },
     {
       "id": "carteret-atlantic-beach-hoop-pole-creek-nature-trail",
@@ -167,7 +165,7 @@
       "name": "Atlantic Beach Town Park",
       "city": "Atlantic Beach",
       "source": "https://atlanticbeach-nc.com/departments/parks-recreation/",
-      "imageCount": 5,
+      "imageCount": 1,
       "completenessScore": 100,
       "unresolvedIntentKeys": []
     },
@@ -203,7 +201,7 @@
       "name": "Fort Macon Bathhouse Beach Access",
       "city": "Atlantic Beach",
       "source": "https://www.ncparks.gov/state-parks/fort-macon-state-park",
-      "imageCount": 5,
+      "imageCount": 1,
       "completenessScore": 100,
       "unresolvedIntentKeys": []
     }

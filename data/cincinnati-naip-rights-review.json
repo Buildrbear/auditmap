@@ -1,0 +1,73 @@
+{
+  "checkedAt": "2026-08-22",
+  "service": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+  "licenseSource": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+  "campaign": "Cincinnati image-rights repair for parent pages whose existing hero photographs do not document reuse permission.",
+  "places": [
+    {
+      "placeId": "launch-oh-cincinnati-smale-riverfront-park",
+      "name": "Smale Riverfront Park",
+      "city": "Cincinnati",
+      "state": "OH",
+      "latitude": 39.0952324,
+      "longitude": -84.5102436,
+      "halfWidthMeters": 400
+    },
+    {
+      "placeId": "launch-oh-cincinnati-eden-park",
+      "name": "Eden Park",
+      "city": "Cincinnati",
+      "state": "OH",
+      "latitude": 39.1151812,
+      "longitude": -84.4931531,
+      "halfWidthMeters": 600
+    },
+    {
+      "placeId": "launch-oh-cincinnati-ault-park",
+      "name": "Ault Park",
+      "city": "Cincinnati",
+      "state": "OH",
+      "latitude": 39.1344741,
+      "longitude": -84.4110302,
+      "halfWidthMeters": 600
+    },
+    {
+      "placeId": "launch-oh-cincinnati-mount-airy-forest",
+      "name": "Mount Airy Forest",
+      "city": "Cincinnati",
+      "state": "OH",
+      "latitude": 39.1612183,
+      "longitude": -84.587756,
+      "halfWidthMeters": 1000
+    },
+    {
+      "placeId": "launch-oh-cincinnati-winton-woods",
+      "name": "Winton Woods",
+      "city": "Cincinnati",
+      "state": "OH",
+      "latitude": 39.262772,
+      "longitude": -84.5023501,
+      "halfWidthMeters": 1000
+    },
+    {
+      "placeId": "launch-oh-cincinnati-summit-park",
+      "name": "Summit Park",
+      "city": "Cincinnati",
+      "state": "OH",
+      "latitude": 39.248226,
+      "longitude": -84.3914918,
+      "halfWidthMeters": 600
+    },
+    {
+      "placeId": "launch-oh-cincinnati-sawyer-point-and-yeatman-s-cove",
+      "name": "Sawyer Point and Yeatman's Cove",
+      "city": "Cincinnati",
+      "state": "OH",
+      "latitude": 39.1016354,
+      "longitude": -84.497945,
+      "cropLongitude": -84.495,
+      "halfWidthMeters": 300,
+      "reviewNote": "Tighter crop shifted east keeps Sawyer Point, Yeatman's Cove, the riverfront paths, and adjacent Ohio River context legible without letting the highway interchange dominate the card."
+    }
+  ]
+}

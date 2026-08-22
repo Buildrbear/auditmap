@@ -1,0 +1,81 @@
+{
+  "checkedAt": "2026-08-22",
+  "service": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+  "licenseSource": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+  "campaign": "Chicago image-rights repair for parent pages whose existing hero photographs do not document reuse permission.",
+  "places": [
+    {
+      "placeId": "launch-il-chicago-millennium-park",
+      "name": "Millennium Park",
+      "city": "Chicago",
+      "state": "IL",
+      "latitude": 41.8826,
+      "longitude": -87.6226,
+      "halfWidthMeters": 350
+    },
+    {
+      "placeId": "launch-il-chicago-grant-park",
+      "name": "Grant Park",
+      "city": "Chicago",
+      "state": "IL",
+      "latitude": 41.8722,
+      "longitude": -87.6188,
+      "halfWidthMeters": 800
+    },
+    {
+      "placeId": "launch-il-chicago-lincoln-park",
+      "name": "Lincoln Park",
+      "city": "Chicago",
+      "state": "IL",
+      "latitude": 41.9214,
+      "longitude": -87.6338,
+      "halfWidthMeters": 900
+    },
+    {
+      "placeId": "launch-il-chicago-maggie-daley-park",
+      "name": "Maggie Daley Park",
+      "city": "Chicago",
+      "state": "IL",
+      "latitude": 41.8824,
+      "longitude": -87.6193,
+      "halfWidthMeters": 300
+    },
+    {
+      "placeId": "launch-il-chicago-chicago-riverwalk",
+      "name": "Chicago Riverwalk",
+      "city": "Chicago",
+      "state": "IL",
+      "latitude": 41.8875,
+      "longitude": -87.6258,
+      "halfWidthMeters": 800
+    },
+    {
+      "placeId": "launch-il-chicago-jackson-park",
+      "name": "Jackson Park",
+      "city": "Chicago",
+      "state": "IL",
+      "latitude": 41.7829,
+      "longitude": -87.58,
+      "halfWidthMeters": 800
+    },
+    {
+      "placeId": "launch-il-chicago-garfield-park-conservatory",
+      "name": "Garfield Park Conservatory",
+      "city": "Chicago",
+      "state": "IL",
+      "latitude": 41.8863,
+      "longitude": -87.7172,
+      "halfWidthMeters": 350
+    },
+    {
+      "placeId": "launch-il-chicago-chicago-lakefront-trail",
+      "name": "Chicago Lakefront Trail",
+      "city": "Chicago",
+      "state": "IL",
+      "latitude": 41.9,
+      "longitude": -87.621,
+      "halfWidthMeters": 800,
+      "reviewNote": "Representative central lakefront segment centered on the inherited mapped trail point; this linear destination extends far beyond the crop."
+    }
+  ]
+}

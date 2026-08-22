@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "campaignId": "nc-first-photo-coverage",
+  "source": "data/institutions.json",
+  "candidateResearchGeneratedAt": "2026-08-21T15:07:30.724Z",
+  "purpose": "Internal queue for giving every published NC basic place one reviewed, destination-specific image.",
+  "acceptance": {
+    "destinationSpecific": true,
+    "realPhotoRequired": true,
+    "requiredFields": [
+      "url",
+      "source",
+      "author",
+      "license",
+      "alt"
+    ],
+    "acceptedRights": [
+      "Public domain",
+      "CC0",
+      "CC BY",
+      "CC BY-SA",
+      "documented permission"
+    ],
+    "reviewRequired": true,
+    "prohibitedSources": [
+      "Google Maps",
+      "Yelp",
+      "proprietary listings",
+      "unlicensed social media",
+      "unlicensed official-site media"
+    ]
+  },
+  "summary": {
+    "needsReviewedImage": 0,
+    "noImageReference": 0,
+    "unverifiedReuseRights": 0,
+    "withCandidateLeads": 0,
+    "candidateReviewNeeded": 0,
+    "fieldPhotoNeeded": 0,
+    "rightsClearanceNeeded": 0,
+    "dataCorrectionNeeded": 0,
+    "researchErrors": 0,
+    "unresearched": 0,
+    "cities": 0,
+    "packets": 0,
+    "packetSize": 12
+  },
+  "cities": [],
+  "packets": [],
+  "places": []
+}

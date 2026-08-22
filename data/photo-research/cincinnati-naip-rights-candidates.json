@@ -1,0 +1,228 @@
+{
+  "generatedAt": "2026-08-22T04:40:47.404Z",
+  "checkedAt": "2026-08-22",
+  "service": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+  "licenseSource": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+  "places": [
+    {
+      "id": "launch-oh-cincinnati-smale-riverfront-park",
+      "name": "Smale Riverfront Park",
+      "city": "Cincinnati",
+      "state": "OH",
+      "latitude": 39.0952324,
+      "longitude": -84.5102436,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Smale Riverfront Park 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Smale Riverfront Park in Cincinnati, OH.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-84.51487348000387%2C39.09253746647503%2C-84.50561371999612%2C39.09792733352497&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3908460_ne_16_060_20250601",
+          "imageryYear": 2025,
+          "imagerySourceState": "OH",
+          "acquisitionDate": "2025-06-01",
+          "cropBbox": "-84.51487348000387,39.09253746647503,-84.50561371999612,39.09792733352497",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "launch-oh-cincinnati-eden-park",
+      "name": "Eden Park",
+      "city": "Cincinnati",
+      "state": "OH",
+      "latitude": 39.1151812,
+      "longitude": -84.4931531,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Eden Park 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Eden Park in Cincinnati, OH.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-84.50009988569893%2C39.11113879971254%2C-84.48620631430107%2C39.11922360028746&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3908461_nw_16_060_20250601",
+          "imageryYear": 2025,
+          "imagerySourceState": "OH",
+          "acquisitionDate": "2025-06-01",
+          "cropBbox": "-84.50009988569893,39.11113879971254,-84.48620631430107,39.11922360028746",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "launch-oh-cincinnati-ault-park",
+      "name": "Ault Park",
+      "city": "Cincinnati",
+      "state": "OH",
+      "latitude": 39.1344741,
+      "longitude": -84.4110302,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Ault Park 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Ault Park in Cincinnati, OH.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-84.41797888862193%2C39.13043169971254%2C-84.40408151137807%2C39.13851650028746&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3908453_se_16_060_20250601",
+          "imageryYear": 2025,
+          "imagerySourceState": "OH",
+          "acquisitionDate": "2025-06-01",
+          "cropBbox": "-84.41797888862193,39.13043169971254,-84.40408151137807,39.13851650028746",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "launch-oh-cincinnati-mount-airy-forest",
+      "name": "Mount Airy Forest",
+      "city": "Cincinnati",
+      "state": "OH",
+      "latitude": 39.1612183,
+      "longitude": -84.587756,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Mount Airy Forest 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Mount Airy Forest in Cincinnati, OH.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-84.59934154920067%2C39.15448096618757%2C-84.57617045079932%2C39.16795563381243&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3908452_sw_16_060_20250601",
+          "imageryYear": 2025,
+          "imagerySourceState": "OH",
+          "acquisitionDate": "2025-06-01",
+          "cropBbox": "-84.59934154920067,39.15448096618757,-84.57617045079932,39.16795563381243",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "launch-oh-cincinnati-winton-woods",
+      "name": "Winton Woods",
+      "city": "Cincinnati",
+      "state": "OH",
+      "latitude": 39.262772,
+      "longitude": -84.5023501,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Winton Woods 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Winton Woods in Cincinnati, OH.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-84.51395241623506%2C39.25603466618757%2C-84.49074778376495%2C39.26950933381243&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3908444_se_16_060_20250601",
+          "imageryYear": 2025,
+          "imagerySourceState": "OH",
+          "acquisitionDate": "2025-06-01",
+          "cropBbox": "-84.51395241623506,39.25603466618757,-84.49074778376495,39.26950933381243",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "launch-oh-cincinnati-summit-park",
+      "name": "Summit Park",
+      "city": "Cincinnati",
+      "state": "OH",
+      "latitude": 39.248226,
+      "longitude": -84.3914918,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Summit Park 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Summit Park in Cincinnati, OH.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-84.39845174564127%2C39.24418359971254%2C-84.38453185435873%2C39.25226840028746&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3908453_ne_16_060_20250601",
+          "imageryYear": 2025,
+          "imagerySourceState": "OH",
+          "acquisitionDate": "2025-06-01",
+          "cropBbox": "-84.39845174564127,39.24418359971254,-84.38453185435873,39.25226840028746",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "launch-oh-cincinnati-sawyer-point-and-yeatman-s-cove",
+      "name": "Sawyer Point and Yeatman's Cove",
+      "city": "Cincinnati",
+      "state": "OH",
+      "latitude": 39.1016354,
+      "longitude": -84.497945,
+      "status": "reviewed-aerial-fallback",
+      "reviewNote": "Tighter crop shifted east keeps Sawyer Point, Yeatman's Cove, the riverfront paths, and adjacent Ohio River context legible without letting the highway interchange dominate the card.",
+      "candidates": [
+        {
+          "title": "Sawyer Point and Yeatman's Cove 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Sawyer Point and Yeatman's Cove in Cincinnati, OH.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-84.49847272536233%2C39.09961419985627%2C-84.49152727463768%2C39.10365660014373&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3908461_nw_16_060_20250601",
+          "imageryYear": 2025,
+          "imagerySourceState": "OH",
+          "acquisitionDate": "2025-06-01",
+          "cropBbox": "-84.49847272536233,39.09961419985627,-84.49152727463768,39.10365660014373",
+          "cropCenterLatitude": 39.1016354,
+          "cropCenterLongitude": -84.495,
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    }
+  ]
+}

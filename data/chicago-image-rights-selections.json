@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-08-22",
+  "reviewMethod": "Reviewed a labeled eight-image contact sheet of coordinate-centered 2025 USDA NAIP crops for Chicago. Each selection depicts the named park or a representative mapped segment of the linear destination; source, acquisition, and public-domain metadata remain in the candidate file.",
+  "selections": [
+    {
+      "placeId": "launch-il-chicago-millennium-park",
+      "name": "Millennium Park",
+      "city": "Chicago",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/il/chicago/millennium-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of Millennium Park's mapped grounds and downtown Chicago context",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "launch-il-chicago-grant-park",
+      "name": "Grant Park",
+      "city": "Chicago",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/il/chicago/grant-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of Grant Park's mapped grounds, lakefront, and downtown context",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "launch-il-chicago-lincoln-park",
+      "name": "Lincoln Park",
+      "city": "Chicago",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/il/chicago/lincoln-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of Lincoln Park's mapped lakefront grounds and surrounding Chicago neighborhoods",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "launch-il-chicago-maggie-daley-park",
+      "name": "Maggie Daley Park",
+      "city": "Chicago",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/il/chicago/maggie-daley-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of Maggie Daley Park's mapped play areas, paths, and downtown context",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "launch-il-chicago-chicago-riverwalk",
+      "name": "Chicago Riverwalk",
+      "city": "Chicago",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/il/chicago/chicago-riverwalk/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the mapped Chicago Riverwalk corridor and surrounding downtown blocks",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "launch-il-chicago-jackson-park",
+      "name": "Jackson Park",
+      "city": "Chicago",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/il/chicago/jackson-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of Jackson Park's lagoons, lakefront grounds, and surrounding visitor context",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "launch-il-chicago-garfield-park-conservatory",
+      "name": "Garfield Park Conservatory",
+      "city": "Chicago",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/il/chicago/garfield-park-conservatory/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of Garfield Park Conservatory and the surrounding Garfield Park grounds",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "launch-il-chicago-chicago-lakefront-trail",
+      "name": "Chicago Lakefront Trail",
+      "city": "Chicago",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/il/chicago/chicago-lakefront-trail/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of a representative central Chicago Lakefront Trail segment and shoreline context",
+      "imageKind": "aerial-overview-fallback"
+    }
+  ]
+}

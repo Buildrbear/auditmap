@@ -1,0 +1,1898 @@
+{
+  "generatedAt": "2026-08-22T04:02:21.336Z",
+  "checkedAt": "2026-08-22",
+  "service": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+  "licenseSource": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+  "places": [
+    {
+      "id": "anderson-point-park",
+      "name": "Anderson Point Park",
+      "city": "Raleigh",
+      "latitude": 35.7725054,
+      "longitude": -78.5428389,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Anderson Point Park 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Anderson Point Park in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.54560687110384%2C35.770821066546894%2C-78.54007092889617%2C35.774189733453106&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507812_se_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.54560687110384,35.770821066546894,-78.54007092889617,35.774189733453106",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "annie-louise-wilkerson-nature-preserve",
+      "name": "Annie Louise Wilkerson, MD Nature Preserve Park",
+      "city": "Raleigh",
+      "latitude": 35.920377,
+      "longitude": -78.5987825,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Annie Louise Wilkerson, MD Nature Preserve Park 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Annie Louise Wilkerson, MD Nature Preserve Park in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.60321951909562%2C35.91768206647503%2C-78.59434548090438%2C35.92307193352497&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507804_sw_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.60321951909562,35.91768206647503,-78.59434548090438,35.92307193352497",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "baileywick-park",
+      "name": "Baileywick Park",
+      "city": "Raleigh",
+      "latitude": 35.907577,
+      "longitude": -78.668479,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Baileywick Park 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Baileywick Park in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.67125168827958%2C35.9058926665469%2C-78.66570631172043%2C35.90926133345311&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507803_se_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.67125168827958,35.9058926665469,-78.66570631172043,35.90926133345311",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "baileywick-park-dog-park",
+      "name": "Baileywick Park Dog Park",
+      "city": "Raleigh",
+      "latitude": 35.9108,
+      "longitude": -78.6585,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Baileywick Park Dog Park 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Baileywick Park Dog Park in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.6601636807337%2C35.90978939992814%2C-78.6568363192663%2C35.91181060007187&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507803_se_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.6601636807337,35.90978939992814,-78.6568363192663,35.91181060007187",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "barwell-road-community-center",
+      "name": "Barwell Road Community Center",
+      "city": "Raleigh",
+      "latitude": 35.7526,
+      "longitude": -78.5479,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Barwell Road Community Center 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Barwell Road Community Center in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.54956036715586%2C35.751589399928136%2C-78.54623963284413%2C35.753610600071866&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507812_se_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.54956036715586,35.751589399928136,-78.54623963284413,35.753610600071866",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "biltmore-hills-park",
+      "name": "Biltmore Hills Park",
+      "city": "Raleigh",
+      "latitude": 35.7461995,
+      "longitude": -78.628158,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Biltmore Hills Park 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Biltmore Hills Park in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.63092505606367%2C35.7445151665469%2C-78.62539094393632%2C35.74788383345311&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507819_ne_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.63092505606367,35.7445151665469,-78.62539094393632,35.74788383345311",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "brier-creek-park",
+      "name": "Brier Creek Park",
+      "city": "Raleigh",
+      "latitude": 35.9006262,
+      "longitude": -78.8042668,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Brier Creek Park 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Brier Creek Park in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.80703924476455%2C35.89894186654689%2C-78.80149435523543%2C35.902310533453104&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507802_se_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.80703924476455,35.89894186654689,-78.80149435523543,35.902310533453104",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "buffaloe-road-athletic-park",
+      "name": "Buffaloe Road Athletic Park",
+      "city": "Raleigh",
+      "latitude": 35.8395341,
+      "longitude": -78.5424499,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Buffaloe Road Athletic Park 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Buffaloe Road Athletic Park in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.54688239287947%2C35.83683916647503%2C-78.53801740712052%2C35.84222903352497&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507812_ne_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.54688239287947,35.83683916647503,-78.53801740712052,35.84222903352497",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "buffaloe-road-dog-park",
+      "name": "Buffaloe Road Dog Park",
+      "city": "Raleigh",
+      "latitude": 35.8395,
+      "longitude": -78.5424,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Buffaloe Road Dog Park 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Buffaloe Road Dog Park in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.54406218411529%2C35.838489399928136%2C-78.54073781588471%2C35.840510600071866&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507812_ne_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.54406218411529,35.838489399928136,-78.54073781588471,35.840510600071866",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "capital-area-greenway",
+      "name": "Capital Area Greenway System",
+      "city": "Raleigh",
+      "latitude": 35.7796,
+      "longitude": -78.6382,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Capital Area Greenway System 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Capital Area Greenway System in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.64262914894432%2C35.77690506647503%2C-78.63377085105567%2C35.78229493352497&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507811_se_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.64262914894432,35.77690506647503,-78.63377085105567,35.78229493352497",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "carolina-pines-dog-park",
+      "name": "Carolina Pines Dog Park",
+      "city": "Raleigh",
+      "latitude": 35.7493,
+      "longitude": -78.6688,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Carolina Pines Dog Park 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Carolina Pines Dog Park in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.67046029831093%2C35.74828939992813%2C-78.66713970168908%2C35.75031060007186&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507819_ne_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.67046029831093,35.74828939992813,-78.66713970168908,35.75031060007186",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "carolina-pines-park",
+      "name": "Carolina Pines Park",
+      "city": "Raleigh",
+      "latitude": 35.7492992,
+      "longitude": -78.6687994,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Carolina Pines Park 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Carolina Pines Park in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.67156656382373%2C35.7476148665469%2C-78.66603223617626%2C35.75098353345311&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507819_ne_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.67156656382373,35.7476148665469,-78.66603223617626,35.75098353345311",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "crabtree-creek-trail",
+      "name": "Crabtree Creek Greenway Trail",
+      "city": "Raleigh",
+      "latitude": 35.8365,
+      "longitude": -78.7064,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Crabtree Creek Greenway Trail 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Crabtree Creek Greenway Trail in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.71083232335842%2C35.83380506647503%2C-78.70196767664159%2C35.83919493352497&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507811_nw_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.71083232335842,35.83380506647503,-78.70196767664159,35.83919493352497",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "durant-nature-preserve",
+      "name": "Durant Nature Preserve",
+      "city": "Raleigh",
+      "latitude": 35.8948523,
+      "longitude": -78.5790375,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Durant Nature Preserve 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Durant Nature Preserve in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.58347308807156%2C35.892157366475026%2C-78.57460191192844%2C35.89754723352497&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507804_sw_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.58347308807156,35.892157366475026,-78.57460191192844,35.89754723352497",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "forest-ridge-park",
+      "name": "Forest Ridge Park",
+      "city": "Raleigh",
+      "latitude": 35.9660238,
+      "longitude": -78.5789407,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Forest Ridge Park 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Forest Ridge Park in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.5817154392201%2C35.964339466546896%2C-78.5761659607799%2C35.96770813345311&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507804_nw_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.5817154392201,35.964339466546896,-78.5761659607799,35.96770813345311",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "fred-fletcher-park",
+      "name": "Fred Fletcher Park",
+      "city": "Raleigh",
+      "latitude": 35.7930551,
+      "longitude": -78.6506456,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Fred Fletcher Park 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Fred Fletcher Park in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.6534142867442%2C35.79137076654689%2C-78.64787691325581%2C35.7947394334531&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507811_se_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.6534142867442,35.79137076654689,-78.64787691325581,35.7947394334531",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "green-road-park",
+      "name": "Green Road Park",
+      "city": "Raleigh",
+      "latitude": 35.8398,
+      "longitude": -78.5791,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Green Road Park 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Green Road Park in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.58187031733564%2C35.83811566654689%2C-78.57632968266435%2C35.8414843334531&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507812_nw_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.58187031733564,35.83811566654689,-78.57632968266435,35.8414843334531",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "horseshoe-farm-nature-preserve",
+      "name": "Horseshoe Farm Nature Preserve",
+      "city": "Raleigh",
+      "latitude": 35.8847,
+      "longitude": -78.536,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Horseshoe Farm Nature Preserve 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Horseshoe Farm Nature Preserve in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.5404350193913%2C35.88200506647503%2C-78.5315649806087%2C35.88739493352497&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507804_se_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.5404350193913,35.88200506647503,-78.5315649806087,35.88739493352497",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "house-creek-trail",
+      "name": "House Creek Greenway Trail",
+      "city": "Raleigh",
+      "latitude": 35.8358,
+      "longitude": -78.6756,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "House Creek Greenway Trail 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on House Creek Greenway Trail in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.67726210659437%2C35.834789399928134%2C-78.67393789340564%2C35.836810600071864&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507811_ne_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.67726210659437,35.834789399928134,-78.67393789340564,35.836810600071864",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "jaycee-dog-run",
+      "name": "Jaycee Dog Run",
+      "city": "Raleigh",
+      "latitude": 35.7993,
+      "longitude": -78.6632,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Jaycee Dog Run 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Jaycee Dog Run in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.6648613426195%2C35.79828939992814%2C-78.6615386573805%2C35.80031060007187&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507811_se_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.6648613426195,35.79828939992814,-78.6615386573805,35.80031060007187",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "jaycee-park",
+      "name": "Jaycee Park",
+      "city": "Raleigh",
+      "latitude": 35.799321,
+      "longitude": -78.6632089,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Jaycee Park 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Jaycee Park in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.66597780509777%2C35.79763666654689%2C-78.66043999490223%2C35.801005333453105&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507811_se_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.66597780509777,35.79763666654689,-78.66043999490223,35.801005333453105",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "john-p-top-greene-cultural-center",
+      "name": "John P. \"Top\" Greene African American Cultural Center",
+      "city": "Raleigh",
+      "latitude": 35.76939,
+      "longitude": -78.6334,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "John P. \"Top\" Greene African American Cultural Center 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on John P. \"Top\" Greene African American Cultural Center in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.6350607176043%2C35.768379399928136%2C-78.63173928239569%2C35.770400600071866&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507811_se_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.6350607176043,35.768379399928136,-78.63173928239569,35.770400600071866",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "kiwanis-park",
+      "name": "Kiwanis Park",
+      "city": "Raleigh",
+      "latitude": 35.815113,
+      "longitude": -78.6313901,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Kiwanis Park 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Kiwanis Park in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.63415955571584%2C35.81342866654689%2C-78.62862064428417%2C35.8167973334531&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507811_ne_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.63415955571584,35.81342866654689,-78.62862064428417,35.8167973334531",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "kiwanis-park-dog-run",
+      "name": "Kiwanis Park Dog Run",
+      "city": "Raleigh",
+      "latitude": 35.815113,
+      "longitude": -78.6313901,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Kiwanis Park Dog Run 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Kiwanis Park Dog Run in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.63305177342951%2C35.81410239992813%2C-78.6297284265705%2C35.81612360007186&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507811_ne_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.63305177342951,35.81410239992813,-78.6297284265705,35.81612360007186",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "lake-johnson-loop-trails",
+      "name": "Lake Johnson Loop Trails",
+      "city": "Raleigh",
+      "latitude": 35.7628,
+      "longitude": -78.7143,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Lake Johnson Loop Trails 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Lake Johnson Loop Trails in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.71872821338725%2C35.76010506647503%2C-78.70987178661274%2C35.76549493352497&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507811_sw_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.71872821338725,35.76010506647503,-78.70987178661274,35.76549493352497",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "lake-johnson-park",
+      "name": "Lake Johnson Park",
+      "city": "Raleigh",
+      "latitude": 35.7628173,
+      "longitude": -78.7143096,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Lake Johnson Park 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Lake Johnson Park in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.71873781435026%2C35.76012236647503%2C-78.70988138564975%2C35.76551223352497&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507811_sw_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.71873781435026,35.76012236647503,-78.70988138564975,35.76551223352497",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "lake-lynn-loop-trail",
+      "name": "Lake Lynn Loop Trail",
+      "city": "Raleigh",
+      "latitude": 35.8779,
+      "longitude": -78.6964,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Lake Lynn Loop Trail 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Lake Lynn Loop Trail in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.70083463864923%2C35.875205066475026%2C-78.69196536135077%2C35.88059493352497&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507803_sw_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.70083463864923,35.875205066475026,-78.69196536135077,35.88059493352497",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "lake-lynn-park",
+      "name": "Lake Lynn Park",
+      "city": "Raleigh",
+      "latitude": 35.8875799,
+      "longitude": -78.6989812,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Lake Lynn Park 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Lake Lynn Park in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.7034163806797%2C35.88488496647503%2C-78.69454601932031%2C35.89027483352497&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507803_sw_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.7034163806797,35.88488496647503,-78.69454601932031,35.89027483352497",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "lake-wheeler-park",
+      "name": "Lake Wheeler Park",
+      "city": "Raleigh",
+      "latitude": 35.6948523,
+      "longitude": -78.6993596,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Lake Wheeler Park 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Lake Wheeler Park in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.70378403742755%2C35.69215736647503%2C-78.69493516257243%2C35.69754723352497&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507819_nw_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.70378403742755,35.69215736647503,-78.69493516257243,35.69754723352497",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "lassiter-mill-park",
+      "name": "Lassiter Mill Historical Park",
+      "city": "Raleigh",
+      "latitude": 35.825756,
+      "longitude": -78.649248,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Lassiter Mill Historical Park 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Lassiter Mill Historical Park in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.6509098962279%2C35.82474539992813%2C-78.6475861037721%2C35.82676660007186&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507811_ne_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.6509098962279,35.82474539992813,-78.6475861037721,35.82676660007186",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "laurel-hills-park",
+      "name": "Laurel Hills Park",
+      "city": "Raleigh",
+      "latitude": 35.8303334,
+      "longitude": -78.6974394,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Laurel Hills Park 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Laurel Hills Park in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.70020938681046%2C35.828649066546895%2C-78.69466941318953%2C35.83201773345311&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507811_nw_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.70020938681046,35.828649066546895,-78.69466941318953,35.83201773345311",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "leesville-community-park",
+      "name": "Leesville Community Park",
+      "city": "Raleigh",
+      "latitude": 35.8840668,
+      "longitude": -78.7157341,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Leesville Community Park 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Leesville Community Park in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.71850596495756%2C35.88238246654689%2C-78.71296223504245%2C35.885751133453105&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507803_sw_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.71850596495756,35.88238246654689,-78.71296223504245,35.885751133453105",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "lions-park",
+      "name": "Lions Park",
+      "city": "Raleigh",
+      "latitude": 35.7972836,
+      "longitude": -78.6140216,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Lions Park 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Lions Park in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.6167904340912%2C35.795599266546894%2C-78.6112527659088%2C35.798967933453106&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507812_sw_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.6167904340912,35.795599266546894,-78.6112527659088,35.798967933453106",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "marbles-kids-museum",
+      "name": "Marbles Kids Museum",
+      "city": "Raleigh",
+      "latitude": 35.77884,
+      "longitude": -78.63574,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Marbles Kids Museum 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Marbles Kids Museum in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.63740091497678%2C35.77782939992814%2C-78.63407908502322%2C35.77985060007187&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507811_se_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.63740091497678,35.77782939992814,-78.63407908502322,35.77985060007187",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "marsh-creek-park",
+      "name": "Marsh Creek Park",
+      "city": "Raleigh",
+      "latitude": 35.82431,
+      "longitude": -78.5643,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Marsh Creek Park 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Marsh Creek Park in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.5670697765846%2C35.82262566654689%2C-78.5615302234154%2C35.8259943334531&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507812_nw_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.5670697765846,35.82262566654689,-78.5615302234154,35.8259943334531",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "method-community-park",
+      "name": "Method Community Park",
+      "city": "Raleigh",
+      "latitude": 35.7921039,
+      "longitude": -78.6940493,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Method Community Park 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Method Community Park in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.69681795360276%2C35.790419566546895%2C-78.69128064639725%2C35.79378823345311&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507811_sw_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.69681795360276,35.790419566546895,-78.69128064639725,35.79378823345311",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "millbrook-exchange-dog-park",
+      "name": "Millbrook Exchange Dog Park",
+      "city": "Raleigh",
+      "latitude": 35.8695364,
+      "longitude": -78.6047603,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Millbrook Exchange Dog Park 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Millbrook Exchange Dog Park in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.60642311395031%2C35.868525799928136%2C-78.60309748604968%2C35.870547000071866&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507812_nw_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.60642311395031,35.868525799928136,-78.60309748604968,35.870547000071866",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "millbrook-exchange-park",
+      "name": "Millbrook Exchange Park",
+      "city": "Raleigh",
+      "latitude": 35.8695364,
+      "longitude": -78.6047603,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Millbrook Exchange Park 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Millbrook Exchange Park in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.60753165658386%2C35.867852066546895%2C-78.60198894341613%2C35.87122073345311&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507812_nw_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.60753165658386,35.867852066546895,-78.60198894341613,35.87122073345311",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "mordecai-historic-park",
+      "name": "Mordecai Historic Park",
+      "city": "Raleigh",
+      "latitude": 35.79337,
+      "longitude": -78.63245,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Mordecai Historic Park 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Mordecai Historic Park in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.63411121862973%2C35.79235939992814%2C-78.63078878137028%2C35.79438060007187&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507811_se_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.63411121862973,35.79235939992814,-78.63078878137028,35.79438060007187",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "ncma-museum-park",
+      "name": "NCMA Museum Park",
+      "city": "Raleigh",
+      "latitude": 35.810155,
+      "longitude": -78.703491,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "NCMA Museum Park 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on NCMA Museum Park in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.70515256967971%2C35.80914439992814%2C-78.70182943032029%2C35.81116560007187&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507811_sw_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.70515256967971,35.80914439992814,-78.70182943032029,35.81116560007187",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "neuse-river-trail",
+      "name": "Neuse River Greenway Trail",
+      "city": "Raleigh",
+      "latitude": 35.7721,
+      "longitude": -78.5438,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Neuse River Greenway Trail 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Neuse River Greenway Trail in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.54822873118903%2C35.76940506647503%2C-78.53937126881098%2C35.77479493352497&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507812_se_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.54822873118903,35.76940506647503,-78.53937126881098,35.77479493352497",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "north-carolina-freedom-park",
+      "name": "North Carolina Freedom Park",
+      "city": "Raleigh",
+      "latitude": 35.7828307,
+      "longitude": -78.6378717,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "North Carolina Freedom Park 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on North Carolina Freedom Park in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.64064003059018%2C35.78114636654689%2C-78.63510336940983%2C35.784515033453104&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507811_se_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.64064003059018,35.78114636654689,-78.63510336940983,35.784515033453104",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "north-carolina-museum-of-history",
+      "name": "North Carolina Museum of History",
+      "city": "Raleigh",
+      "latitude": 35.781865,
+      "longitude": -78.638475,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "North Carolina Museum of History 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on North Carolina Museum of History in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.64013597817632%2C35.78085439992814%2C-78.63681402182368%2C35.78287560007187&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507811_se_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.64013597817632,35.78085439992814,-78.63681402182368,35.78287560007187",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "north-carolina-museum-of-natural-sciences",
+      "name": "North Carolina Museum of Natural Sciences",
+      "city": "Raleigh",
+      "latitude": 35.782198,
+      "longitude": -78.639275,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "North Carolina Museum of Natural Sciences 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on North Carolina Museum of Natural Sciences in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.64093598513406%2C35.781187399928136%2C-78.63761401486593%2C35.783208600071866&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507811_se_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.64093598513406,35.781187399928136,-78.63761401486593,35.783208600071866",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "oakwood-dog-park",
+      "name": "Oakwood Dog Park",
+      "city": "Raleigh",
+      "latitude": 35.7909847,
+      "longitude": -78.6241697,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Oakwood Dog Park 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Oakwood Dog Park in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.62583086876595%2C35.78997409992814%2C-78.62250853123405%2C35.79199530007187&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507812_sw_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.62583086876595,35.78997409992814,-78.62250853123405,35.79199530007187",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "optimist-park",
+      "name": "Optimist Park",
+      "city": "Raleigh",
+      "latitude": 35.8624839,
+      "longitude": -78.643695,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Optimist Park 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Optimist Park in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.64646610997016%2C35.860799566546895%2C-78.64092389002982%2C35.86416823345311&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507811_ne_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.64646610997016,35.860799566546895,-78.64092389002982,35.86416823345311",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "pender-street-park",
+      "name": "Pender Street Park",
+      "city": "Raleigh",
+      "latitude": 35.782359,
+      "longitude": -78.615604,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Pender Street Park 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Pender Street Park in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.61837231416344%2C35.78067466654689%2C-78.61283568583657%2C35.784043333453106&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507812_sw_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.61837231416344,35.78067466654689,-78.61283568583657,35.784043333453106",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "pope-house-museum",
+      "name": "Pope House Museum",
+      "city": "Raleigh",
+      "latitude": 35.7737,
+      "longitude": -78.63823,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Pope House Museum 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Pope House Museum in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.63989080761144%2C35.77268939992813%2C-78.63656919238855%2C35.77471060007186&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507811_se_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.63989080761144,35.77268939992813,-78.63656919238855,35.77471060007186",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "pullen-park",
+      "name": "Pullen Park",
+      "city": "Raleigh",
+      "latitude": 35.7822,
+      "longitude": -78.6635,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Pullen Park 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Pullen Park in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.66626830862641%2C35.7805156665469%2C-78.66073169137358%2C35.78388433345311&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507811_se_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.66626830862641,35.7805156665469,-78.66073169137358,35.78388433345311",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "raleigh-rose-garden",
+      "name": "Raleigh Rose Garden",
+      "city": "Raleigh",
+      "latitude": 35.79134,
+      "longitude": -78.66893,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Raleigh Rose Garden 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Raleigh Rose Garden in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.67059117619299%2C35.79032939992813%2C-78.66726882380702%2C35.79235060007186&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507811_se_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.67059117619299,35.79032939992813,-78.66726882380702,35.79235060007186",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "raleighs-smallest-park",
+      "name": "Raleigh's Smallest Park",
+      "city": "Raleigh",
+      "latitude": 35.7804102,
+      "longitude": -78.6457224,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Raleigh's Smallest Park 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Raleigh's Smallest Park in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.64738334778086%2C35.779399599928134%2C-78.64406145221913%2C35.781420800071864&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507811_se_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.64738334778086,35.779399599928134,-78.64406145221913,35.781420800071864",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "reedy-creek-trail",
+      "name": "Reedy Creek Trail",
+      "city": "Raleigh",
+      "latitude": 35.8102,
+      "longitude": -78.7035,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Reedy Creek Trail 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Reedy Creek Trail in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.70793085499001%2C35.80750506647503%2C-78.69906914501%2C35.81289493352497&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507811_sw_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.70793085499001,35.80750506647503,-78.69906914501,35.81289493352497",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "roanoke-park",
+      "name": "Roanoke Park",
+      "city": "Raleigh",
+      "latitude": 35.801682,
+      "longitude": -78.6399451,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Roanoke Park 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Roanoke Park in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.64271408739123%2C35.79999766654689%2C-78.63717611260878%2C35.803366333453106&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507811_se_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.64271408739123,35.79999766654689,-78.63717611260878,35.803366333453106",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "roberts-park",
+      "name": "Roberts Park",
+      "city": "Raleigh",
+      "latitude": 35.7755346,
+      "longitude": -78.6182394,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Roberts Park 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Roberts Park in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.62100747654966%2C35.773850266546894%2C-78.61547132345032%2C35.777218933453106&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507812_sw_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.62100747654966,35.773850266546894,-78.61547132345032,35.777218933453106",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "roberts-park-dog-run",
+      "name": "Roberts Park Dog Run",
+      "city": "Raleigh",
+      "latitude": 35.7755346,
+      "longitude": -78.6182394,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Roberts Park Dog Run 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Roberts Park Dog Run in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.6199002459298%2C35.774523999928135%2C-78.61657855407019%2C35.776545200071865&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507812_sw_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.6199002459298,35.774523999928135,-78.61657855407019,35.776545200071865",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "sanderford-road-park",
+      "name": "Sanderford Road Park",
+      "city": "Raleigh",
+      "latitude": 35.7428452,
+      "longitude": -78.6116366,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Sanderford Road Park 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Sanderford Road Park in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.6144035394711%2C35.74116086654689%2C-78.6088696605289%2C35.744529533453104&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507820_nw_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.6144035394711,35.74116086654689,-78.6088696605289,35.744529533453104",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "shelley-lake-loop-trail",
+      "name": "Shelley Lake Loop Trail",
+      "city": "Raleigh",
+      "latitude": 35.8589,
+      "longitude": -78.6659,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Shelley Lake Loop Trail 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Shelley Lake Loop Trail in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.6703335754885%2C35.85620506647503%2C-78.66146642451149%2C35.86159493352497&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507811_ne_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.6703335754885,35.85620506647503,-78.66146642451149,35.86159493352497",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "shelley-lake-park",
+      "name": "Shelley Lake Park",
+      "city": "Raleigh",
+      "latitude": 35.8588838,
+      "longitude": -78.6659129,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Shelley Lake Park 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Shelley Lake Park in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.67034647458244%2C35.85618886647503%2C-78.66147932541755%2C35.86157873352497&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507811_ne_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.67034647458244,35.85618886647503,-78.66147932541755,35.86157873352497",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "tarboro-road-park",
+      "name": "Tarboro Road Park",
+      "city": "Raleigh",
+      "latitude": 35.7813854,
+      "longitude": -78.6227589,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Tarboro Road Park 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Tarboro Road Park in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.62552718025947%2C35.77970106654689%2C-78.61999061974052%2C35.783069733453104&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507812_sw_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.62552718025947,35.77970106654689,-78.61999061974052,35.783069733453104",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "walnut-creek-athletic-complex",
+      "name": "Walnut Creek Athletic Complex",
+      "city": "Raleigh",
+      "latitude": 35.763992,
+      "longitude": -78.582227,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Walnut Creek Athletic Complex 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Walnut Creek Athletic Complex in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.58665527974169%2C35.76129706647503%2C-78.57779872025831%2C35.76668693352497&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507812_sw_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.58665527974169,35.76129706647503,-78.57779872025831,35.76668693352497",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "walnut-creek-trail",
+      "name": "Walnut Creek Greenway Trail",
+      "city": "Raleigh",
+      "latitude": 35.7608,
+      "longitude": -78.6251,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Walnut Creek Greenway Trail 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Walnut Creek Greenway Trail in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.6295281020631%2C35.75810506647503%2C-78.6206718979369%2C35.763494933524974&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507812_sw_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.6295281020631,35.75810506647503,-78.6206718979369,35.763494933524974",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "walnut-creek-wetland-park",
+      "name": "Walnut Creek Wetland Park",
+      "city": "Raleigh",
+      "latitude": 35.7608038,
+      "longitude": -78.6251021,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Walnut Creek Wetland Park 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Walnut Creek Wetland Park in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.62786966392163%2C35.75911946654689%2C-78.62233453607838%2C35.762488133453104&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507812_sw_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.62786966392163,35.75911946654689,-78.62233453607838,35.762488133453104",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "wral-azalea-gardens",
+      "name": "WRAL Azalea Gardens",
+      "city": "Raleigh",
+      "latitude": 35.7800637,
+      "longitude": -78.673605,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "WRAL Azalea Gardens 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on WRAL Azalea Gardens in Raleigh, North Carolina.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-78.67526594054168%2C35.779053099928134%2C-78.67194405945831%2C35.781074300071865&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_3507811_se_17_030_20250725",
+          "imageryYear": 2025,
+          "imagerySourceState": "NC",
+          "acquisitionDate": "2025-07-25",
+          "cropBbox": "-78.67526594054168,35.779053099928134,-78.67194405945831,35.781074300071865",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    }
+  ]
+}
