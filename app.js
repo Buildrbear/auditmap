@@ -154,6 +154,10 @@ function optimizedImageUrl(url, width, quality = 78) {
   return `/_vercel/image?url=${encodeURIComponent(url)}&w=${width}&q=${quality}`;
 }
 
+function usesLocalStaticPreview() {
+  return ["localhost", "127.0.0.1", "::1"].includes(window.location.hostname);
+}
+
 function responsiveImageAttributes(url, {
   widths = [320, 480, 640, 828, 1080, 1400],
   sizes = "100vw",
@@ -161,6 +165,9 @@ function responsiveImageAttributes(url, {
 } = {}) {
   if (!url || /^data:|^blob:/i.test(url)) {
     return `src="${escapeHtml(url || "")}"${priority ? ' loading="eager" fetchpriority="high"' : ' loading="lazy"'} decoding="async"`;
+  }
+  if (usesLocalStaticPreview()) {
+    return `src="${escapeHtml(url)}"${priority ? ' loading="eager" fetchpriority="high"' : ' loading="lazy"'} decoding="async"`;
   }
   const srcset = widths
     .map((width) => `${optimizedImageUrl(url, width)} ${width}w`)

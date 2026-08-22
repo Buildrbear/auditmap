@@ -1,0 +1,257 @@
+{
+  "generatedAt": "2026-08-22T04:29:28.865Z",
+  "checkedAt": "2026-08-22",
+  "service": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+  "licenseSource": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+  "places": [
+    {
+      "id": "launch-il-chicago-millennium-park",
+      "name": "Millennium Park",
+      "city": "Chicago",
+      "state": "IL",
+      "latitude": 41.8826,
+      "longitude": -87.6226,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Millennium Park 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Millennium Park in Chicago, IL.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-87.62682300687902%2C41.88024193316564%2C-87.61837699312099%2C41.88495806683435&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_4108704_sw_16_060_20250803",
+          "imageryYear": 2025,
+          "imagerySourceState": "IL",
+          "acquisitionDate": "2025-08-03",
+          "cropBbox": "-87.62682300687902,41.88024193316564,-87.61837699312099,41.88495806683435",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "launch-il-chicago-grant-park",
+      "name": "Grant Park",
+      "city": "Chicago",
+      "state": "IL",
+      "latitude": 41.8722,
+      "longitude": -87.6188,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Grant Park 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Grant Park in Chicago, IL.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-87.62845101647353%2C41.86681013295005%2C-87.60914898352645%2C41.87758986704995&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_4108712_nw_16_060_20250803",
+          "imageryYear": 2025,
+          "imagerySourceState": "IL",
+          "acquisitionDate": "2025-08-03",
+          "cropBbox": "-87.62845101647353,41.86681013295005,-87.60914898352645,41.87758986704995",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "launch-il-chicago-lincoln-park",
+      "name": "Lincoln Park",
+      "city": "Chicago",
+      "state": "IL",
+      "latitude": 41.9214,
+      "longitude": -87.6338,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Lincoln Park 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Lincoln Park in Chicago, IL.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-87.64466576110416%2C41.91533639956881%2C-87.62293423889582%2C41.92746360043119&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_4108703_se_16_060_20250803",
+          "imageryYear": 2025,
+          "imagerySourceState": "IL",
+          "acquisitionDate": "2025-08-03",
+          "cropBbox": "-87.64466576110416,41.91533639956881,-87.62293423889582,41.92746360043119",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "launch-il-chicago-maggie-daley-park",
+      "name": "Maggie Daley Park",
+      "city": "Chicago",
+      "state": "IL",
+      "latitude": 41.8824,
+      "longitude": -87.6193,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Maggie Daley Park 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Maggie Daley Park in Chicago, IL.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-87.62291970885207%2C41.88037879985627%2C-87.61568029114792%2C41.88442120014373&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_4108704_sw_16_060_20250803",
+          "imageryYear": 2025,
+          "imagerySourceState": "IL",
+          "acquisitionDate": "2025-08-03",
+          "cropBbox": "-87.62291970885207,41.88037879985627,-87.61568029114792,41.88442120014373",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "launch-il-chicago-chicago-riverwalk",
+      "name": "Chicago Riverwalk",
+      "city": "Chicago",
+      "state": "IL",
+      "latitude": 41.8875,
+      "longitude": -87.6258,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Chicago Riverwalk 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Chicago Riverwalk in Chicago, IL.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-87.63545332747067%2C41.882110132950054%2C-87.61614667252933%2C41.89288986704995&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_4108703_se_16_060_20250803",
+          "imageryYear": 2025,
+          "imagerySourceState": "IL",
+          "acquisitionDate": "2025-08-03",
+          "cropBbox": "-87.63545332747067,41.882110132950054,-87.61614667252933,41.89288986704995",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "launch-il-chicago-jackson-park",
+      "name": "Jackson Park",
+      "city": "Chicago",
+      "state": "IL",
+      "latitude": 41.7829,
+      "longitude": -87.58,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Jackson Park 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Jackson Park in Chicago, IL.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-87.58963756384735%2C41.77751013295005%2C-87.57036243615265%2C41.78828986704995&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_4108712_sw_16_060_20250803",
+          "imageryYear": 2025,
+          "imagerySourceState": "IL",
+          "acquisitionDate": "2025-08-03",
+          "cropBbox": "-87.58963756384735,41.77751013295005,-87.57036243615265,41.78828986704995",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "launch-il-chicago-garfield-park-conservatory",
+      "name": "Garfield Park Conservatory",
+      "city": "Chicago",
+      "state": "IL",
+      "latitude": 41.8863,
+      "longitude": -87.7172,
+      "status": "reviewed-aerial-fallback",
+      "candidates": [
+        {
+          "title": "Garfield Park Conservatory 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Garfield Park Conservatory in Chicago, IL.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-87.72142325144112%2C41.883941933165644%2C-87.71297674855889%2C41.88865806683435&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_4108703_sw_16_060_20250803",
+          "imageryYear": 2025,
+          "imagerySourceState": "IL",
+          "acquisitionDate": "2025-08-03",
+          "cropBbox": "-87.72142325144112,41.883941933165644,-87.71297674855889,41.88865806683435",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "id": "launch-il-chicago-chicago-lakefront-trail",
+      "name": "Chicago Lakefront Trail",
+      "city": "Chicago",
+      "state": "IL",
+      "latitude": 41.9,
+      "longitude": -87.621,
+      "status": "reviewed-aerial-fallback",
+      "reviewNote": "Representative central lakefront segment centered on the inherited mapped trail point; this linear destination extends far beyond the crop.",
+      "candidates": [
+        {
+          "title": "Chicago Lakefront Trail 2025 NAIP aerial overview",
+          "description": "Natural-color USDA NAIP aerial image centered on Chicago Lakefront Trail in Chicago, IL.",
+          "url": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer/exportImage?bbox=-87.63065521687298%2C41.89461013295005%2C-87.61134478312701%2C41.90538986704995&bboxSR=4326&imageSR=4326&size=1600%2C1200&format=jpg&interpolation=RSP_BilinearInterpolation&f=image",
+          "source": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+          "author": "USDA Farm Service Agency, National Agriculture Imagery Program",
+          "authorUrl": "https://www.fsa.usda.gov/",
+          "license": "Public domain",
+          "licenseVersion": "",
+          "licenseUrl": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+          "provider": "USDA NAIP",
+          "width": 1600,
+          "height": 1200,
+          "imageryName": "m_4108704_sw_16_060_20250803",
+          "imageryYear": 2025,
+          "imagerySourceState": "IL",
+          "acquisitionDate": "2025-08-03",
+          "cropBbox": "-87.63065521687298,41.89461013295005,-87.61134478312701,41.90538986704995",
+          "reviewedAt": "2026-08-22"
+        }
+      ]
+    }
+  ]
+}

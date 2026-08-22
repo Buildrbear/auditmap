@@ -158,6 +158,7 @@ function makeFeature(parent, selected, point, images) {
       continue;
     }
     const launchRecord = launch.find((item) => item.id === scope.id);
+    const informationCheckedAt = scope.checkedAt || checkedAt;
     const parentSource = national.parks[scope.id] || campaignParents.parks[scope.id] || launchRecord;
     const existingReady = all.parks.find((item) => item.id === scope.id);
     if (!launchRecord) throw new Error(`${scope.name}: launch source record missing`);
@@ -197,7 +198,7 @@ function makeFeature(parent, selected, point, images) {
       likelySubsites: features.length > 0,
       publishStatus: features.length ? "super-enriched" : "sourced-parent-guide",
       researchQueue: queue,
-      verifiedAt: checkedAt,
+      verifiedAt: informationCheckedAt,
     };
     upsert(all, record);
     upsert(pilot, record);
@@ -213,7 +214,7 @@ function makeFeature(parent, selected, point, images) {
         additionalImages: images.slice(1),
         replaceImages: true,
         sources,
-        verifiedAt: checkedAt,
+        verifiedAt: informationCheckedAt,
       };
     }
     const location = locations.find((item) => item.id === scope.id);

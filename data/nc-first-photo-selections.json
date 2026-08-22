@@ -1,0 +1,2437 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-08-21",
+  "reviewMethod": "Wikimedia Commons and Openverse metadata, coordinate proximity, destination-specific description, and manual visual inspection",
+  "selections": [
+    {
+      "placeId": "basic-osm-way-609092904",
+      "name": "Jean Webb Park",
+      "city": "Asheville",
+      "candidateSource": "https://commons.wikimedia.org/wiki/File:River_Arts_District_Nov_2022.jpg",
+      "url": "/assets/parks/nc/asheville/jean-webb-park/hero.jpg",
+      "alt": "River Arts District gateway sculpture and greenway beside Jean Webb Park in Asheville"
+    },
+    {
+      "placeId": "basic-osm-way-33052550",
+      "name": "Cedarock Park",
+      "city": "Burlington",
+      "candidateSource": "https://commons.wikimedia.org/wiki/File:2008-08-22_Stale_water_at_Old_Mill_Dam.jpg",
+      "url": "/assets/parks/nc/burlington/cedarock-park/hero.jpg",
+      "alt": "Rocky creek and wooded slope at the Old Mill Dam area of Cedarock Park"
+    },
+    {
+      "placeId": "basic-osm-way-38583423",
+      "name": "Carolina Beach State Park",
+      "city": "Carolina Beach",
+      "candidateSource": "https://commons.wikimedia.org/wiki/File:Venus_flytrap_on_the_Flytrap_Trail.jpg",
+      "url": "/assets/parks/nc/carolina-beach/carolina-beach-state-park/hero.jpg",
+      "alt": "Venus flytrap growing beside the Flytrap Trail at Carolina Beach State Park"
+    },
+    {
+      "placeId": "basic-osm-way-67861976",
+      "name": "Durham Central Park",
+      "city": "Durham",
+      "candidateSource": "https://commons.wikimedia.org/wiki/File:2008-07-26_Durham_Farmers_Market_setting_up_in_the_morning.jpg",
+      "url": "/assets/parks/nc/durham/durham-central-park/hero.jpg",
+      "alt": "Durham Farmers Market pavilion and lawn at Durham Central Park"
+    },
+    {
+      "placeId": "indian-trail-park-durham",
+      "name": "Indian Trail Park",
+      "city": "Durham",
+      "candidateSource": "https://commons.wikimedia.org/wiki/File:2008-08-02_Indian_Trail_Park_beginners_playground.jpg",
+      "url": "/assets/parks/nc/durham/indian-trail-park/hero.jpg",
+      "alt": "Shaded red playground equipment at Indian Trail Park in Durham"
+    },
+    {
+      "placeId": "basic-osm-way-321760058",
+      "name": "Elm Street Park",
+      "city": "Greenville",
+      "candidateSource": "https://commons.wikimedia.org/wiki/File:LLSBWS_Day_8_(51400009351).jpg",
+      "url": "/assets/parks/nc/greenville/elm-street-park/hero.jpg",
+      "alt": "Aerial view of Elm Street Park softball fields during the Little League Softball World Series"
+    },
+    {
+      "placeId": "basic-osm-relation-2918307",
+      "name": "Eno River State Park",
+      "city": "Hillsborough",
+      "candidateSource": "https://commons.wikimedia.org/wiki/File:Footbridge_over_the_Eno_River_-_panoramio.jpg",
+      "url": "/assets/parks/nc/hillsborough/eno-river-state-park/hero.jpg",
+      "alt": "Footbridge crossing the Eno River amid autumn foliage at Eno River State Park"
+    },
+    {
+      "placeId": "basic-osm-way-1287109439",
+      "name": "George Watts Montessori Playground",
+      "city": "Durham",
+      "candidateSource": "https://commons.wikimedia.org/wiki/File:2008-06-28_White_GSD_puppy_on_playground.jpg",
+      "url": "/assets/parks/nc/durham/george-watts-montessori-playground/hero.jpg",
+      "alt": "White dog standing on a red, yellow, and green play structure at George Watts Montessori Playground in Durham"
+    },
+    {
+      "placeId": "basic-osm-way-559792215",
+      "name": "Faulkner Square Park",
+      "city": "Davidson",
+      "candidateSource": "https://commons.wikimedia.org/wiki/File:Residental_Boulevard_St_Albans_L7_Davidson_(6124080629).jpg",
+      "url": "/assets/parks/nc/davidson/faulkner-square-park/hero.jpg",
+      "alt": "Landscaped residential boulevard and public green at Faulkner Square Park in Davidson"
+    },
+    {
+      "placeId": "basic-osm-relation-15659648",
+      "name": "Mallard Creek Greenway",
+      "city": "Charlotte",
+      "candidateSource": "https://commons.wikimedia.org/wiki/File:Mallard_Creek_Greenway%E2%80%94David_Taylor_Drive_intersection.jpg",
+      "url": "/assets/parks/nc/charlotte/mallard-creek-greenway/hero.jpg",
+      "alt": "Paved Mallard Creek Greenway approaching the David Taylor Drive crossing in Charlotte"
+    },
+    {
+      "placeId": "basic-osm-way-511589155",
+      "name": "Tryon Hills Park",
+      "city": "Charlotte",
+      "candidateSource": "https://commons.wikimedia.org/wiki/File:Tryon_Hills_Park_on_West_30th_St_Mid-April_2025.jpg",
+      "url": "/assets/parks/nc/charlotte/tryon-hills-park/hero.jpg",
+      "alt": "Playgrounds, basketball court, and paths at Tryon Hills Park in Charlotte"
+    },
+    {
+      "placeId": "oval-drive-park",
+      "name": "Oval Drive Park",
+      "city": "Durham",
+      "candidateSource": "https://commons.wikimedia.org/wiki/File:Oval_Drive_Park,_Watts-Hillandale,_Durham,_NC_(49129882541).jpg",
+      "url": "/assets/parks/nc/durham/oval-drive-park/hero.jpg",
+      "alt": "Curving paths, lawn, mature pines, and playground at Oval Drive Park in Durham"
+    },
+    {
+      "placeId": "basic-osm-way-512415818",
+      "name": "Huntersville Athletic Park",
+      "city": "Huntersville",
+      "candidateSource": "https://commons.wikimedia.org/wiki/File:James_Hoyt_Wilhelm_Commemorative_Statue.jpg",
+      "url": "/assets/parks/nc/huntersville/huntersville-athletic-park/hero.jpg",
+      "alt": "James Hoyt Wilhelm baseball statue with an athletic field behind it at Huntersville Athletic Park"
+    },
+    {
+      "placeId": "basic-osm-way-424216819",
+      "name": "Union Point Park",
+      "city": "New Bern",
+      "candidateSource": "https://commons.wikimedia.org/wiki/File:Riverwalk_Bridge_at_the_Union_Point_Park,_New_Bern,_NC.jpg",
+      "url": "/assets/parks/nc/new-bern/union-point-park/hero.jpg",
+      "alt": "Raised Riverwalk drawbridge and sailboat viewed from the waterfront railing at Union Point Park"
+    },
+    {
+      "placeId": "basic-osm-way-468967035",
+      "name": "James E. L. Wade Park",
+      "city": "Wilmington",
+      "candidateSource": "https://commons.wikimedia.org/wiki/File:Sunset_Reflection_at_E.L_Wade_Park.jpg",
+      "url": "/assets/parks/nc/wilmington/james-e-l-wade-park/hero.jpg",
+      "alt": "Sunset reflected in the pond and wetlands at James E. L. Wade Park in Wilmington"
+    },
+    {
+      "placeId": "basic-osm-way-33177487",
+      "name": "San-Lee Park",
+      "city": "Sanford",
+      "candidateSource": "https://commons.wikimedia.org/wiki/File:Downed_tree_at_San_Lee_Park.jpg",
+      "url": "/assets/parks/nc/sanford/san-lee-park/hero.jpg",
+      "alt": "Fallen tree in the lake at San-Lee Park in Sanford"
+    },
+    {
+      "placeId": "basic-osm-way-269095318",
+      "name": "Evans Park",
+      "city": "Greenville",
+      "candidateSource": "https://www.flickr.com/photos/156869144@N02/52020619040",
+      "url": "/assets/parks/nc/greenville/evans-park/hero.jpg",
+      "alt": "Aerial view of tennis courts, ballfields, and trees at Evans Park in Greenville"
+    },
+    {
+      "placeId": "basic-osm-way-312018865",
+      "name": "Jaycee Park",
+      "city": "Greenville",
+      "candidateSource": "https://www.flickr.com/photos/156869144@N02/51299329553",
+      "url": "/assets/parks/nc/greenville/jaycee-park/hero.jpg",
+      "alt": "Hands shaping clay on a pottery wheel during an arts class at Jaycee Park in Greenville"
+    },
+    {
+      "placeId": "basic-osm-way-1091967805",
+      "name": "Thomas Foreman Park",
+      "city": "Greenville",
+      "candidateSource": "https://www.flickr.com/photos/156869144@N02/52020087596",
+      "url": "/assets/parks/nc/greenville/thomas-foreman-park/hero.jpg",
+      "alt": "Aerial view of the ballfield, pool construction, and recreation grounds at Thomas Foreman Park in Greenville"
+    },
+    {
+      "placeId": "basic-osm-way-132091440",
+      "name": "Middle Creek School/Park",
+      "city": "Cary",
+      "candidateSource": "https://www.flickr.com/photos/150964093@N06/38159342814",
+      "url": "/assets/parks/nc/cary/middle-creek-school-park/hero.jpg",
+      "alt": "Lizard's-tail plants growing in the wetland at Middle Creek School/Park in Cary"
+    },
+    {
+      "placeId": "basic-osm-relation-8039494",
+      "name": "Conover City Park",
+      "city": "Conover",
+      "candidateSource": "https://www.flickr.com/photos/150964093@N06/30352977188",
+      "url": "/assets/parks/nc/conover/conover-city-park/hero.jpg",
+      "alt": "Carolina Thread Trail marker overlooking the constructed wetland at Conover City Park"
+    },
+    {
+      "placeId": "basic-osm-way-234713102",
+      "name": "Legend Park",
+      "city": "Clayton",
+      "candidateSource": "https://www.flickr.com/photos/150964093@N06/35881642405",
+      "url": "/assets/parks/nc/clayton/legend-park/hero.jpg",
+      "alt": "Wetland plants and shallow water at Legend Park in Clayton"
+    },
+    {
+      "placeId": "basic-osm-relation-9324277",
+      "name": "Haw River State Park",
+      "city": "Greensboro",
+      "candidateSource": "https://www.flickr.com/photos/150964093@N06/37486683152",
+      "url": "/assets/parks/nc/greensboro/haw-river-state-park/hero.jpg",
+      "alt": "Wooden wetland boardwalk surrounded by dense vegetation at Haw River State Park"
+    },
+    {
+      "placeId": "basic-osm-way-469285972",
+      "name": "Veterans Park",
+      "city": "Kannapolis",
+      "candidateSource": "https://www.flickr.com/photos/47626405@N06/29121700592",
+      "url": "/assets/parks/nc/kannapolis/veterans-park/hero.jpg",
+      "alt": "Purple Heart and military service emblems on the eternal-flame memorial at Veterans Park in Kannapolis"
+    },
+    {
+      "placeId": "basic-osm-way-571039764",
+      "name": "Frank Liske Park",
+      "city": "Concord",
+      "candidateSource": "https://www.flickr.com/photos/machinegrfx/30351984923/",
+      "url": "/assets/parks/nc/concord/frank-liske-park/hero.jpg",
+      "alt": "Split-rail fence and wooded path in autumn at Frank Liske Park in Concord"
+    },
+    {
+      "placeId": "basic-osm-way-473158259",
+      "name": "Pharr Mill Park",
+      "city": "Harrisburg",
+      "candidateSource": "https://www.flickr.com/photos/machinegrfx/33019873950/",
+      "url": "/assets/parks/nc/harrisburg/pharr-mill-park/hero.jpg",
+      "alt": "Wooded fishing pond with picnic tables after light snow at Pharr Mill Park in Harrisburg"
+    },
+    {
+      "placeId": "basic-osm-relation-8715329",
+      "name": "Riverwalk Park",
+      "city": "Jacksonville",
+      "candidateSource": "https://commons.wikimedia.org/wiki/File:USMC-060513-M-0502E-006.jpg",
+      "url": "/assets/parks/nc/jacksonville/riverwalk-park/hero.jpg",
+      "alt": "United States Marine Corps band performing in the pavilion at Riverwalk Park in Jacksonville"
+    },
+    {
+      "placeId": "basic-osm-way-33106417",
+      "name": "Apollo Heights Park",
+      "city": "Raleigh",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/raleigh/apollo-heights-park/hero.jpg",
+      "alt": "2025 USDA aerial overview centered on Apollo Heights Park in Raleigh",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-33177795",
+      "name": "O.T. Sloan Park",
+      "city": "Sanford",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/sanford/o-t-sloan-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the pools, fields, courts, and parking at O.T. Sloan Park in Sanford",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-134924486",
+      "name": "Mike Chappell Park",
+      "city": "Carolina Beach",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/carolina-beach/mike-chappell-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the skatepark, fields, and courts at Mike Chappell Park in Carolina Beach",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-33109456",
+      "name": "North Park",
+      "city": "Asheboro",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/asheboro/north-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the pool, playground, ballfield, and lawns at North Park in Asheboro",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-564392659",
+      "name": "Allen Hills Park",
+      "city": "Charlotte",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/charlotte/allen-hills-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the field, playground, and wooded parcel at Allen Hills Park in Charlotte",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-964359981",
+      "name": "Hector H. Henry II Greenway - Moss Creek Segment",
+      "city": "Concord",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/concord/hector-h-henry-ii-greenway-moss-creek-segment/hero.jpg",
+      "alt": "2025 USDA aerial overview of the Moss Creek greenway wrapping around a pond and wetland in Concord",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-33111671",
+      "name": "Downtown Park",
+      "city": "Conover",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/conover/downtown-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the playground, gazebo, paths, and lawn at Downtown Park in Conover",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-417264007",
+      "name": "Fairview Park",
+      "city": "Goldsboro",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/goldsboro/fairview-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the recreation fields, walking path, and parking at Fairview Park in Goldsboro",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-678485239",
+      "name": "Paramore Park",
+      "city": "Greenville",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/greenville/paramore-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the lawn, playground, and parking at Paramore Park in Greenville",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-1481461246",
+      "name": "Brentwood Park",
+      "city": "High Point",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/high-point/brentwood-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the open recreation lawn at Brentwood Park in High Point",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-580015300",
+      "name": "Safrit Park",
+      "city": "Kannapolis",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/kannapolis/safrit-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the ballfields, playground, walking loop, and parking at Safrit Park in Kannapolis",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-238632136",
+      "name": "Knightdale Station Park",
+      "city": "Knightdale",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/knightdale/knightdale-station-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the splash pad, amphitheater, fields, ponds, and paths at Knightdale Station Park",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-763496322",
+      "name": "Purser-Hulsey Park",
+      "city": "Matthews",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/matthews/purser-hulsey-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the meadow, wooded habitat, and trail corridors at Purser-Hulsey Park near Matthews",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-469113966",
+      "name": "Mint Hill Veterans Memorial Park",
+      "city": "Mint Hill",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/mint-hill/mint-hill-veterans-memorial-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the courts, athletic fields, playground areas, and wooded paths at Mint Hill Veterans Memorial Park",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-468956084",
+      "name": "Glenburnie Park",
+      "city": "New Bern",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/new-bern/glenburnie-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the wooded waterfront, playground, paths, and parking at Glenburnie Park in New Bern",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-1121003103",
+      "name": "Martin Marietta Park",
+      "city": "New Bern",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/new-bern/martin-marietta-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the quarry lake, shoreline paths, and wooded peninsula at Martin Marietta Park in New Bern",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-427844295",
+      "name": "Northside/Broyhill Park",
+      "city": "Newton",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/newton/northside-broyhill-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the fields, courts, playground, lawns, and parking at Northside/Broyhill Park in Newton",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-216263141",
+      "name": "Meadowbrook Park",
+      "city": "Rocky Mount",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/rocky-mount/meadowbrook-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the walking loop, basketball court, recreation building, and lawn at Meadowbrook Park in Rocky Mount",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-469810117",
+      "name": "Salisbury Community Park",
+      "city": "Salisbury",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/salisbury/salisbury-community-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the ballfield complex, lake, woods, and paths at Salisbury Community Park",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-825237743",
+      "name": "Marvin Efird Park",
+      "city": "Waxhaw",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/waxhaw/marvin-efird-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the wooded trails, lawns, parking, and pond edge at Marvin Efird Park near Waxhaw",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-relation-15904681",
+      "name": "Mallard Creek Community Park",
+      "city": "Charlotte",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/charlotte/mallard-creek-community-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the ballfields, playground area, parking, pond, and lawns at Mallard Creek Community Park in Charlotte",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-38619443",
+      "name": "Mason Wallace Park",
+      "city": "Charlotte",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/charlotte/mason-wallace-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the baseball field, tennis courts, lawns, and woods at Mason Wallace Park in Charlotte",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-859079267",
+      "name": "The Green at Prosperity Village",
+      "city": "Charlotte",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/charlotte/the-green-at-prosperity-village/hero.jpg",
+      "alt": "2025 USDA aerial overview of the linear walkway, gathering lawn, and paths at The Green at Prosperity Village in Charlotte",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-563728341",
+      "name": "Tom Hunter Neighborhood Park",
+      "city": "Charlotte",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/charlotte/tom-hunter-neighborhood-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the playground, open lawn, path, and woods at Tom Hunter Neighborhood Park in Charlotte",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-511593431",
+      "name": "Unity Park",
+      "city": "Charlotte",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/charlotte/unity-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the courts, open lawn, paths, and woods at Unity Park in Charlotte",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-423412986",
+      "name": "Hines Park",
+      "city": "Conover",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/conover/hines-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the triangular landscaped green and internal loop at Hines Park in Conover",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-33111638",
+      "name": "Washington Park",
+      "city": "Conover",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/conover/washington-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the baseball field, basketball court, playground, and lawns at Washington Park in Conover",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-33279610",
+      "name": "Quail Park",
+      "city": "Goldsboro",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/goldsboro/quail-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the circular neighborhood lawn and wooded edge at Quail Park in Goldsboro",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-570805031",
+      "name": "Oaks West Park",
+      "city": "Greensboro",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/greensboro/oaks-west-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the playground areas, open clearings, paths, and woods at Oaks West Park in Greensboro",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-33049958",
+      "name": "Oak Hollow Festival Park",
+      "city": "High Point",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/high-point/oak-hollow-festival-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the lakeshore, event lawn, pavilion, paths, and parking at Oak Hollow Festival Park in High Point",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-633088414",
+      "name": "Greater Wilson Rotary Park",
+      "city": "Wilson",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/wilson/greater-wilson-rotary-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the multipurpose fields, courts, playground areas, walking track, and shelter at Greater Wilson Rotary Park",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-734605506",
+      "name": "Sedge Garden Park",
+      "city": "Winston-Salem",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/winston-salem/sedge-garden-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the ballfield, tennis courts, playground, recreation buildings, and paths at Sedge Garden Park in Winston-Salem",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-32932956",
+      "name": "Union Cross Park",
+      "city": "Winston-Salem",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/winston-salem/union-cross-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the ballfields, courts, playground, paths, lawns, and parking at Union Cross Park in Winston-Salem",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "crest-street-park",
+      "name": "Crest Street Park",
+      "city": "Durham",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/durham/crest-street-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the ballfield, recreation building, parking, and lawn at Crest Street Park in Durham",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "morreene-road-park",
+      "name": "Morreene Road Park",
+      "city": "Durham",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/durham/morreene-road-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the tennis courts, playground, open lawn, recreation building, and parking at Morreene Road Park in Durham",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "walltown-park",
+      "name": "Walltown Park",
+      "city": "Durham",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/durham/walltown-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the recreation lawn, basketball court, recreation building, and paths at Walltown Park in Durham",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-534693765",
+      "name": "Kerr Street Park",
+      "city": "Jacksonville",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/jacksonville/kerr-street-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the waterfront, docks, tennis courts, playground, ballfield, and paths at Kerr Street Park in Jacksonville",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-313112640",
+      "name": "Pitner Dog Park",
+      "city": "Salisbury",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/salisbury/pitner-dog-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the fenced dog areas, paths, entrance, lawn, and parking at Pitner Dog Park in Salisbury",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-431357667",
+      "name": "Tanglewoof Dog Park",
+      "city": "Winston-Salem",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/winston-salem/tanglewoof-dog-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the fenced dog run, entrance, parking, fields, and wooded edge at Tanglewoof Dog Park in Winston-Salem",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-609079084",
+      "name": "Amboy Road River Park",
+      "city": "Asheville",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/asheville/amboy-road-river-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the French Broad River frontage, paved paths, lawn, river access, and parking at Amboy Road River Park in Asheville",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-265685650",
+      "name": "Azalea Dog Park",
+      "city": "Asheville",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/asheville/azalea-dog-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the fenced lawn, adjacent ponds, paths, and access road at Azalea Dog Park in Asheville",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-609079081",
+      "name": "Karen Cragnolin Park",
+      "city": "Asheville",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/asheville/karen-cragnolin-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the riverfront paths, native meadow areas, lawns, parking, and French Broad River edge at Karen Cragnolin Park in Asheville",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-609092905",
+      "name": "Murray Hill Park",
+      "city": "Asheville",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/asheville/murray-hill-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the central lawn, paved paths, pavilion area, and trees at Murray Hill Park in Asheville",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-947500018",
+      "name": "Ray L. Kisiah Park",
+      "city": "Asheville",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/asheville/ray-l-kisiah-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the four-field ballfield complex, spectator areas, parking, and wooded boundary at Ray L. Kisiah Park in Asheville",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-node-357767444",
+      "name": "Recreation Park",
+      "city": "Asheville",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/asheville/recreation-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the Recreation Park river complex, facilities, parking, storm-altered riverbanks, and damaged recreation area in Asheville",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-609092897",
+      "name": "West Asheville Park",
+      "city": "Asheville",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/asheville/west-asheville-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of Gassaway Field, paths, shelter area, parking, lawns, and woods at West Asheville Park",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-33107646",
+      "name": "Caraleigh Park",
+      "city": "Raleigh",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/raleigh/caraleigh-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the playground, fenced play area, basketball court, and lawn at Caraleigh Park in Raleigh",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-33106240",
+      "name": "Davie Street Park",
+      "city": "Raleigh",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/raleigh/davie-street-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the playground, picnic shelter, basketball court, and lawn at Davie Street Park beside Hunter Elementary School in Raleigh",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-33108263",
+      "name": "Eliza Pool Park",
+      "city": "Raleigh",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/raleigh/eliza-pool-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the multipurpose field, playground, shelter, paths, and street access at Eliza Pool Park in Raleigh",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-33100229",
+      "name": "Glen Eden Pilot Park",
+      "city": "Raleigh",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/raleigh/glen-eden-pilot-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the tennis courts, multipurpose field, wooded recreation area, paths, and parking at Glen Eden Pilot Park in Raleigh",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-580676884",
+      "name": "Marshall Memorial Park",
+      "city": "Raleigh",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/raleigh/marshall-memorial-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the wooded House Creek Greenway corridor, open memorial lawn, walkway, and creek crossing at Marshall Memorial Park in Raleigh",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-754405682",
+      "name": "Mary Belle Pate Park",
+      "city": "Raleigh",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/raleigh/mary-belle-pate-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the playground, basketball court, picnic shelter, loop path, lawn, and parking at Mary Belle Pate Park in Raleigh",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-183100886",
+      "name": "North Hills Park",
+      "city": "Raleigh",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/raleigh/north-hills-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the athletic field, pickleball courts, playground area, parking, and woods at North Hills Park in Raleigh",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-33105886",
+      "name": "Oakwood Park",
+      "city": "Raleigh",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/raleigh/oakwood-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the two ballfields, dog-park area, parking, paths, lawn, and woods at Oakwood Park in Raleigh",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-33104485",
+      "name": "Ridge Road Pool",
+      "city": "Raleigh",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/raleigh/ridge-road-pool/hero.jpg",
+      "alt": "2025 USDA aerial overview of the lap and recreation pools, sprayground area, facility building, and parking at Ridge Road Pool in Raleigh",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-33108906",
+      "name": "Southgate Park",
+      "city": "Raleigh",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/raleigh/southgate-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the athletic field, courts, playground area, community center, paths, and lawns at Southgate Park in Raleigh",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-33106426",
+      "name": "Worthdale Park",
+      "city": "Raleigh",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/raleigh/worthdale-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the tennis courts, ballfields, playground, community center, paths, parking, and Walnut Creek corridor at Worthdale Park in Raleigh",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-511586256",
+      "name": "Anita Stroud Park",
+      "city": "Charlotte",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/charlotte/anita-stroud-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the playground, basketball court, shelter, looping paths, lawns, and woods at Anita Stroud Park in Charlotte",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-1096422932",
+      "name": "Barton Creek Greenway",
+      "city": "Charlotte",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/charlotte/barton-creek-greenway/hero.jpg",
+      "alt": "2025 USDA aerial overview of the paved Barton Creek Greenway corridor between apartment communities and wooded creek buffers in Charlotte",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-511591920",
+      "name": "Briarwood Park",
+      "city": "Charlotte",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/charlotte/briarwood-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the two ballfields, playground, paths, parking, and woods at Briarwood Park in Charlotte",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-511588175",
+      "name": "Druid Hills Park",
+      "city": "Charlotte",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/charlotte/druid-hills-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the playground, basketball court, community garden, paths, fitness area, and lawns at Druid Hills Park in Charlotte",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-511595154",
+      "name": "Eastway Park",
+      "city": "Charlotte",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/charlotte/eastway-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the recreation center, multipurpose field, courts, playground, paths, parking, and woods at Eastway Park in Charlotte",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-564181782",
+      "name": "Fred Alexander Park",
+      "city": "Charlotte",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/charlotte/fred-alexander-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the pump track, courts, playground, shelter, community garden, loop paths, and parking at Fred Alexander Park in Charlotte",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-511590729",
+      "name": "Howie Acres Park",
+      "city": "Charlotte",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/charlotte/howie-acres-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the basketball court, open lawn, wooded playground and shelter area, paths, and neighborhood access at Howie Acres Park in Charlotte",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-556388747",
+      "name": "James Boyce Park",
+      "city": "Charlotte",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/charlotte/james-boyce-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the ballfield, multipurpose field, parking, paths, and wooded trail area at James Boyce Park in Charlotte",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-564399101",
+      "name": "Kirk Farm Fields",
+      "city": "Charlotte",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/charlotte/kirk-farm-fields/hero.jpg",
+      "alt": "2025 USDA aerial overview of the large multipurpose field, parking, greenway access, and woods at Kirk Farm Fields in Charlotte",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-858762369",
+      "name": "McAlpine Creek Dog Park",
+      "city": "Charlotte",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/charlotte/mcalpine-creek-dog-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the large fenced off-leash field, entrance, parking, adjacent multipurpose fields, and woods at McAlpine Creek Dog Park in Charlotte",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-579952758",
+      "name": "Reedy Creek Park and Nature Preserve",
+      "city": "Charlotte",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/charlotte/reedy-creek-park-and-nature-preserve/hero.jpg",
+      "alt": "2025 USDA aerial overview of the ballfields, parking areas, internal roads, nature-center area, and protected woodland at Reedy Creek Park and Nature Preserve in Charlotte",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-564184090",
+      "name": "West Charlotte Park",
+      "city": "Charlotte",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/charlotte/west-charlotte-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the playground, sprayground, basketball court, shelter, paths, lawn, and parking at West Charlotte Park",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-563408651",
+      "name": "Winterfield Neighborhood Park",
+      "city": "Charlotte",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/charlotte/winterfield-neighborhood-park/hero.jpg",
+      "alt": "2025 USDA aerial overview of the long open play field, paved neighborhood path, playground area, and school connection at Winterfield Neighborhood Park in Charlotte",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-910706074",
+      "name": "Brockett Street Park",
+      "city": "High Point",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/high-point/brockett-street-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the basketball court, compact playground, lawn, and shade trees at Brockett Street Park in High Point",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-910703837",
+      "name": "Burnett Park",
+      "city": "High Point",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/high-point/burnett-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the ballfield, soccer field, playground, parking, pond edge, and greenway connection at Burnett Park in High Point",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-32933397",
+      "name": "Deep River Recreation Center and Park",
+      "city": "High Point",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/high-point/deep-river-recreation-center-and-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the recreation center, ballfields, tennis and basketball courts, parking, paths, and lawns at Deep River Recreation Center and Park in High Point",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-33060898",
+      "name": "Eastwood Park",
+      "city": "High Point",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/high-point/eastwood-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the basketball court, playground area, open lawn, shelter area, and wooded setting at Eastwood Park in High Point",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-33061143",
+      "name": "Five Points Park",
+      "city": "High Point",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/high-point/five-points-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the basketball court, compact playground, open lawn, and shade trees at Five Points Park in High Point",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-911615778",
+      "name": "High Point Museum Historical Park",
+      "city": "High Point",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/high-point/high-point-museum-historical-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the museum building, historic structures, garden, paths, lawn, and parking at High Point Museum Historical Park",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-relation-20444029",
+      "name": "Washington Street Park",
+      "city": "High Point",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/high-point/washington-street-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the playground areas, walking loop, covered platform, lawn, and street frontage at Washington Street Park in High Point",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-910704789",
+      "name": "Washington Terrace Park",
+      "city": "High Point",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/high-point/washington-terrace-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the community center, pool, courts, playgrounds, ballfield, open fields, paths, parking, and shelters at Washington Terrace Park in High Point",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-33052064",
+      "name": "Bay-Hargrove Park",
+      "city": "Durham",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/durham/bay-hargrove-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the playground, open lawn, shade trees, paths, and street frontages at Bay-Hargrove Park in Durham",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-28918020",
+      "name": "Duke Park",
+      "city": "Durham",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/durham/duke-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the playground, picnic shelter, open lawns, paths, wooded recreation area, and street access at Duke Park in Durham",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-relation-1517757",
+      "name": "Old Farm Road Park",
+      "city": "Durham",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/durham/old-farm-road-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the athletic field, parking, access road, Eno River frontage, and wooded buffer at Old Farm Road Park in Durham",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-33052066",
+      "name": "Old North Durham Park",
+      "city": "Durham",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/durham/old-north-durham-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the multipurpose field, playground, paths, open edges, and neighborhood access at Old North Durham Park",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-1093175146",
+      "name": "Buck Leonard Park",
+      "city": "Rocky Mount",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/rocky-mount/buck-leonard-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the baseball field, basketball court, playground, picnic shelter, open lawn, and paths at Buck Leonard Park in Rocky Mount",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-212162580",
+      "name": "Dr. Martin Luther King Jr. Park",
+      "city": "Rocky Mount",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/rocky-mount/dr-martin-luther-king-jr-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the memorial plaza, buildings, shelters, looping paths, large open fields, parking, and wooded edge at Dr. Martin Luther King Jr. Park in Rocky Mount",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-216263360",
+      "name": "Eastern Avenue Park",
+      "city": "Rocky Mount",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/rocky-mount/eastern-avenue-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the baseball field, basketball and pickleball courts, playground area, shelter, loop path, parking, and open fields at Eastern Avenue Park in Rocky Mount",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-216262762",
+      "name": "Holly Street Park",
+      "city": "Rocky Mount",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/rocky-mount/holly-street-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the basketball courts, playground and tot-lot areas, shelter, looping paths, open lawn, parking, and wooded edge at Holly Street Park in Rocky Mount",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-216264269",
+      "name": "Kite Park",
+      "city": "Rocky Mount",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/rocky-mount/kite-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the open lawn, mature trees, street edges, and landmark water tower at Kite Park in Rocky Mount",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-216264103",
+      "name": "Marigold Park",
+      "city": "Rocky Mount",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/rocky-mount/marigold-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the open lawn, shelter structure, shade trees, paths, and neighborhood streets at Marigold Park in Rocky Mount",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-33068866",
+      "name": "South Rocky Mount Community Center and Park",
+      "city": "Rocky Mount",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/rocky-mount/south-rocky-mount-community-center-and-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the community center, courts, playground and splash-pad areas, ballfields, parking, paths, and lawns at South Rocky Mount Community Center and Park",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-33109446",
+      "name": "Belle Meade Park",
+      "city": "Wilson",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/wilson/belle-meade-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the playgrounds, picnic shelter, open lawn, access drive, and wooded boundary at Belle Meade Park in Wilson",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-542263284",
+      "name": "Five Points Park",
+      "city": "Wilson",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/wilson/five-points-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the playground, shelter, open lawn, walking loop, trees, and neighborhood access at Five Points Park in Wilson",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-33109545",
+      "name": "Matthis Park",
+      "city": "Wilson",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/wilson/matthis-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the tennis-court area, playground, open lawn, paths, parking, and street access at Matthis Park in Wilson",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-633088804",
+      "name": "Merrimont Park",
+      "city": "Wilson",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/wilson/merrimont-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the fishing pond, shelter, open shoreline, wooded recreation area, and neighborhood access at Merrimont Park in Wilson",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-33111377",
+      "name": "Recreation Park Pool",
+      "city": "Wilson",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/wilson/recreation-park-pool/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the lap and recreation pools, pool buildings, parking, adjacent recreation center, ballfield, and wooded approach at Recreation Park Pool in Wilson",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-33109515",
+      "name": "Toisnot Park",
+      "city": "Wilson",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/wilson/toisnot-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the lake and bridge, four ballfields, skate park, playground and shelter area, paths, parking, lawns, and woods at Toisnot Park in Wilson",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-1236678945",
+      "name": "Warren Street Park",
+      "city": "Wilson",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/wilson/warren-street-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the playground, basketball court, shelter, open lawn, walking paths, shade trees, and neighborhood access at Warren Street Park in Wilson",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-481893919",
+      "name": "Cates Creek Park",
+      "city": "Hillsborough",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/hillsborough/cates-creek-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the multi-use field, skate spot, parking, wooded acreage, paths, and road access at Cates Creek Park in Hillsborough",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-32920592",
+      "name": "Fairview Park",
+      "city": "Hillsborough",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/hillsborough/fairview-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the ballfield, basketball and tennis courts, parking, wooded acreage, and neighborhood access at Fairview Park in Hillsborough",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-relation-2679178",
+      "name": "Gold Park",
+      "city": "Hillsborough",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/hillsborough/gold-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the playground and dog-park areas, field, shelter, parking, loop paths, Riverwalk connection, Eno River frontage, and woods at Gold Park in Hillsborough",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-1347699064",
+      "name": "Hillsborough Heights Tot Lot Park",
+      "city": "Hillsborough",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/hillsborough/hillsborough-heights-tot-lot-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the fenced play area, picnic space, trees, and residential setting at Hillsborough Heights Tot Lot Park",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-1340583497",
+      "name": "River Park",
+      "city": "Hillsborough",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/hillsborough/river-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the downtown gathering lawn, pavilion area, Riverwalk paths, Eno River frontage, bridge, and civic surroundings at River Park in Hillsborough",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-241303940",
+      "name": "Turnip Patch Park",
+      "city": "Hillsborough",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/hillsborough/turnip-patch-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the play area, curving paths, garden spaces, mature trees, and historic-district access at Turnip Patch Park in Hillsborough",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-1311662678",
+      "name": "Berkeley Park",
+      "city": "Goldsboro",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/goldsboro/berkeley-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the ballfields, court area, picnic shelters, parking, open lawns, and wooded buffer at Berkeley Park in Goldsboro",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-145477454",
+      "name": "Herman Park",
+      "city": "Goldsboro",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/goldsboro/herman-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the central fountain, tennis courts, playground, Park House and gazebo area, open lawns, paths, parking, and trees at Herman Park in Goldsboro",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-1311670057",
+      "name": "Mina Weil Park",
+      "city": "Goldsboro",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/goldsboro/mina-weil-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the seasonal pool, tennis courts, playgrounds, ballfields, recreation building, parking, lawns, and trees at Mina Weil Park in Goldsboro",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-1311665854",
+      "name": "North End Park",
+      "city": "Goldsboro",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/goldsboro/north-end-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the athletic fields, court areas, picnic shelter, paths, open lawns, and road access at North End Park in Goldsboro",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-1311672308",
+      "name": "South End Park",
+      "city": "Goldsboro",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/goldsboro/south-end-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the basketball court, playground area, open green space, shade trees, and neighborhood access at South End Park in Goldsboro",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-280337582",
+      "name": "Civitan Park",
+      "city": "Winston-Salem",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/winston-salem/civitan-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the track, open play fields, Salem Creek wetland corridor, paved greenway, parking, and university-side access at Civitan Park in Winston-Salem",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-280413528",
+      "name": "Forest Park",
+      "city": "Winston-Salem",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/winston-salem/forest-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the looping walking and fitness course, open field, shelter, playground area, parking, and shade trees at Forest Park in Winston-Salem",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-280478822",
+      "name": "Happy Hill Park",
+      "city": "Winston-Salem",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/winston-salem/happy-hill-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the track, splash-pad and community-center area, ballfield, tennis courts, greenway connections, open fields, parking, and woods at Happy Hill Park in Winston-Salem",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-32920584",
+      "name": "Reynolds Park",
+      "city": "Winston-Salem",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/winston-salem/reynolds-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the golf course, community-center and pool complex, tennis court, parking, paths, and wooded acreage at Reynolds Park in Winston-Salem",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-32925400",
+      "name": "Sprague Park",
+      "city": "Winston-Salem",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/winston-salem/sprague-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the recreation center, splash-pad and play area, parking, open fields, neighborhood access, and wooded acreage at Sprague Park in Winston-Salem",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-465041202",
+      "name": "Bicentennial Park",
+      "city": "Asheboro",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/asheboro/bicentennial-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the downtown event lawn, performance stage, pavilion, curving walkways, parking, and surrounding streets at Bicentennial Park in Asheboro",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-545279684",
+      "name": "Frazier Park",
+      "city": "Asheboro",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/asheboro/frazier-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the playground, sand-volleyball court, two shelter structures, open lawn, paths, and neighborhood access at Frazier Park in Asheboro",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-33112032",
+      "name": "Memorial Park",
+      "city": "Asheboro",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/asheboro/memorial-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the seasonal pool, nine tennis courts, ballfield, shelter areas, internal roads, parking, and wooded edge at Memorial Park in Asheboro",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-relation-17963059",
+      "name": "Holbrook Park",
+      "city": "Huntersville",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/huntersville/holbrook-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the tennis and pickleball courts, parking, wooded recreation area, lawns, and access drives at Holbrook Park in Huntersville",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-1072473373",
+      "name": "Rosedale Nature Park",
+      "city": "Huntersville",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/huntersville/rosedale-nature-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the nature playground, oval lawn, winding paths, parking, and wooded setting at Rosedale Nature Park in Huntersville",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-749853096",
+      "name": "Veterans Park",
+      "city": "Huntersville",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/huntersville/veterans-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the event lawn, Ice House performance stage, covered shelter, parking, railroad edge, and surrounding streets at Veterans Park in Huntersville",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-482731534",
+      "name": "Haymount Park at Woodrow",
+      "city": "Fayetteville",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/fayetteville/haymount-park-at-woodrow/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the playground, neighborhood lawn, shade trees, paths, and street access at Haymount Park at Woodrow in Fayetteville",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-461259627",
+      "name": "Lamon Street Park",
+      "city": "Fayetteville",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/fayetteville/lamon-street-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of three ballfields, central concession building, walkways, parking, lawns, and surrounding streets at Lamon Street Park in Fayetteville",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-689405943",
+      "name": "Mable C. Smith Park",
+      "city": "Fayetteville",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/fayetteville/mable-c-smith-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the splash pad, playground, basketball courts, picnic shelter, community center, open field, parking, and wooded edge at Mable C. Smith Park in Fayetteville",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-620222612",
+      "name": "Massey Hill Park",
+      "city": "Fayetteville",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/fayetteville/massey-hill-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the pickleball courts, ballfield, playground, recreation center, parking, open grounds, and wooded edge at Massey Hill Park in Fayetteville",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-589477870",
+      "name": "Caldwell Park",
+      "city": "Statesville",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/statesville/caldwell-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the tennis and pickleball courts, playground and shelter area, lawns, parking, mature trees, and street access at Caldwell Park in Statesville",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-33104372",
+      "name": "Martin Luther King Jr Park",
+      "city": "Statesville",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/statesville/martin-luther-king-jr-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the pond, wooded walking-trail area, picnic and recreation clearings, parking, and neighborhood access at Martin Luther King Jr Park in Statesville",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-38619632",
+      "name": "D.E. Henderson Park",
+      "city": "New Bern",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/new-bern/d-e-henderson-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the ballfields, basketball courts, playground and shelter area, fitness trail, open field, parking, and wooded edge at D.E. Henderson Park in New Bern",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-38619534",
+      "name": "Kafer Park",
+      "city": "New Bern",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/new-bern/kafer-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the historic ballfield, spectator structures, open grounds, and surrounding streets at Kafer Park in New Bern",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-38619366",
+      "name": "Pierce Park",
+      "city": "New Bern",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/new-bern/pierce-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the two ballfields, playground, shelter area, parking, wooded creek corridor, and surrounding streets at Pierce Park in New Bern",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-38619533",
+      "name": "Seth West Parrott Park",
+      "city": "New Bern",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/new-bern/seth-west-parrott-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the recreation center, four ballfields, tennis and basketball courts, playground area, shelters, parking, and wooded perimeter at Seth West Parrott Park in New Bern",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-297302549",
+      "name": "Burlington Arboretum at Willowbrook Park",
+      "city": "Burlington",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/burlington/burlington-arboretum-at-willowbrook-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the linear arboretum, paved paths, gardens, great lawn, creek corridor, parking, and neighborhood street crossings at Burlington Arboretum at Willowbrook Park",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-276077690",
+      "name": "Great Bend Park at Glencoe",
+      "city": "Burlington",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/burlington/great-bend-park-at-glencoe/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the Haw River, Great Bend dam, wooded shoreline trails, river-access area, parking, and Glencoe surroundings at Great Bend Park in Burlington",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-479572667",
+      "name": "Joe C. Davidson Park",
+      "city": "Burlington",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/burlington/joe-c-davidson-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the soccer and baseball fields, playground, tennis courts, walking loop, shelters, parking, and wooded edge at Joe C. Davidson Park in Burlington",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-256664108",
+      "name": "Springwood Park",
+      "city": "Burlington",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/burlington/springwood-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the soccer complex, four-field baseball and softball complex, playground and concession areas, walking paths, parking, and wooded corridor at Springwood Park in Burlington",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-1465219053",
+      "name": "Long Leaf Dog Park",
+      "city": "Wilmington",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/wilmington/long-leaf-dog-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the separate fenced dog enclosures, shaded sandy grounds, paths, parking, and surrounding Long Leaf Park facilities in Wilmington",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-469274192",
+      "name": "Trails End Park",
+      "city": "Wilmington",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/wilmington/trails-end-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the public boat ramp, kayak-launch and fishing-pier area, waterfront parking, picnic grounds, and Masonboro Sound shoreline at Trails End Park in Wilmington",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-583548697",
+      "name": "US Colored Troops (USCT) Park at Cameron Art Museum",
+      "city": "Wilmington",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/wilmington/us-colored-troops-usct-park-at-cameron-art-museum/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the wooded USCT historic park, sculpture and reflection clearings, interpretive paths, museum parking, and surrounding roads in Wilmington",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-48923889",
+      "name": "Belk Tonawanda Park",
+      "city": "Monroe",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/monroe/belk-tonawanda-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the splash pad, playground, amphitheater, picnic shelter, lawns, paths, creek and greenway corridor, parking, and rail boundary at Belk Tonawanda Park in Monroe",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-38619614",
+      "name": "Creft Park",
+      "city": "Monroe",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/monroe/creft-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the softball field, basketball courts, playground and shelter area, open lawns, paths, and neighborhood access at Creft Park in Monroe",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-596660350",
+      "name": "Don Griffin Park",
+      "city": "Monroe",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/monroe/don-griffin-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the softball field, walking loop, playground and shelter area, open lawn, Bearskin Creek Greenway connection, and surrounding streets at Don Griffin Park in Monroe",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-31984551",
+      "name": "Jones Park",
+      "city": "Holly Springs",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/holly-springs/jones-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the playgrounds, baseball field, fishing pond, disc-golf grounds, picnic shelter, paths, parking, and wooded edge at Jones Park in Holly Springs",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-444593313",
+      "name": "North Main Athletic Complex",
+      "city": "Holly Springs",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/holly-springs/north-main-athletic-complex/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the multi-sport stadium, synthetic-turf fields, tennis and pickleball courts, basketball courts, playground area, parking, and walking routes at North Main Athletic Complex in Holly Springs",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-33173089",
+      "name": "Bakers Creek Park",
+      "city": "Kannapolis",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/kannapolis/bakers-creek-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the softball field, tennis and pickleball courts, playground and shelter area, parking, greenway paths, open fields, and wooded grounds at Bakers Creek Park in Kannapolis",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-579071964",
+      "name": "Village Park",
+      "city": "Kannapolis",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/kannapolis/village-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the amphitheater, playgrounds, carousel, train route, splash-pad area, open lawn, shelters, paths, and parking at Village Park in Kannapolis",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-571375779",
+      "name": "British Woods Park",
+      "city": "Greensboro",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/greensboro/british-woods-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the playground, open play space, wooded natural area, neighborhood entrances, and surrounding streets at British Woods Park in Greensboro",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-571159025",
+      "name": "Sheridan Park",
+      "city": "Greensboro",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/greensboro/sheridan-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the softball field, pond, wooded natural area, playground and shelter clearings, and neighborhood access at Sheridan Park in Greensboro",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-526019897",
+      "name": "Merritt's Pasture",
+      "city": "Chapel Hill",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/chapel-hill/merritt-s-pasture/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the broad meadow, perimeter and crossing trails, pond, Morgan Creek corridor, wooded boundary, and highway edge at Merritt's Pasture in Chapel Hill",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-552497950",
+      "name": "Northeast District Park",
+      "city": "Chapel Hill",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/chapel-hill/northeast-district-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the softball and multipurpose fields, tennis courts, playground and shelter area, pond, parking, access road, and surrounding forest at Northeast District Park in Chapel Hill",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-475536385",
+      "name": "Charles Schneiders Park",
+      "city": "Boiling Spring Lakes",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/boiling-spring-lakes/charles-schneiders-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the playground, picnic shelter, half basketball court, open lawn, neighborhood access road, wooded edge, and nearby pond at Charles Schneiders Park in Boiling Spring Lakes",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-475536384",
+      "name": "North Lake Park",
+      "city": "Boiling Spring Lakes",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/boiling-spring-lakes/north-lake-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of North Lake Park's waterfront shelter and seating area, shoreline access, road approach, surrounding lake basins, and adjacent construction in Boiling Spring Lakes",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-475536395",
+      "name": "Spring Lake Park",
+      "city": "Boiling Spring Lakes",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/boiling-spring-lakes/spring-lake-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of Spring Lake's swimming shoreline, small-craft launch, docks, picnic shelters, roadside parking, and neighboring waterfront in Boiling Spring Lakes",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-1462725045",
+      "name": "Buncombe County Sports Park Dog Park",
+      "city": "Asheville",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/asheville/buncombe-county-sports-park-dog-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the separate small- and large-dog enclosures, shade structures, access paths, designated parking, and surrounding Sports Park fields in Asheville",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-33060929",
+      "name": "Ailey Young Park",
+      "city": "Wake Forest",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/wake-forest/ailey-young-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the baseball field, basketball courts, playground, picnic lawn, Dunn Creek Greenway corridor, parking, and wooded grounds at Ailey Young Park in Wake Forest",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-relation-17036787",
+      "name": "Wake Forest Reservoir",
+      "city": "Wake Forest",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/wake-forest/wake-forest-reservoir/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of Wake Forest Reservoir's open water, wooded shoreline and trail corridor, dam area, and surrounding neighborhoods",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-33177710",
+      "name": "Kiwanis Children's Parkplace",
+      "city": "Sanford",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/sanford/kiwanis-children-s-parkplace/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the modern playground, pickleball and tennis courts, picnic shelter, paths, parking, shade trees, and surrounding streets at Kiwanis Children's Parkplace in Sanford",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-33177516",
+      "name": "Kiwanis Family Park",
+      "city": "Sanford",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/sanford/kiwanis-family-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the inclusive playground and splash-pad area, walking loop, picnic shelters, open lawns, wooded trails, parking, and pond at Kiwanis Family Park in Sanford",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-446098436",
+      "name": "East Park",
+      "city": "Newton",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/newton/east-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the athletic field, basketball court, playground and shelter area, recreation building, parking, open lawns, and wooded edge at East Park in Newton",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-node-357796867",
+      "name": "Ellis Park",
+      "city": "Salisbury",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/salisbury/ellis-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the athletic fields, tennis courts, visitor buildings, parking, open grounds, and wooded walking area at Ellis Park in Salisbury",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-33112461",
+      "name": "Sloan Park",
+      "city": "Salisbury",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/salisbury/sloan-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the visitor buildings, open lawns, internal roads, landscaped grounds, wooded trail acreage, small pond, parking, and surrounding farmland at Sloan Park in Salisbury",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-633082141",
+      "name": "Clayton Community Park",
+      "city": "Clayton",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/clayton/clayton-community-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the three-ballfield complex, paved loop, playground and shelter area, parking, open grounds, and wooded trail edge at Clayton Community Park",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-546715819",
+      "name": "Municipal Park",
+      "city": "Clayton",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/clayton/municipal-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the renovated playground and splash-pad complex, circular event lawn, park buildings, athletic fields, walking paths, and parking at Municipal Park in Clayton",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-423218028",
+      "name": "Majestic Park",
+      "city": "Conover",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/conover/majestic-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the walking loop, central play area, picnic structure, open lawn, shade trees, neighborhood entrance, and adjacent parking at Majestic Park in Conover",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-33112030",
+      "name": "Jaycee Park",
+      "city": "Garner",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/garner/jaycee-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the shaded neighborhood clearing, wooded play and picnic area, school-side approach, and surrounding residential edge at Jaycee Park in Garner",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-447723397",
+      "name": "North Garner Dog Park",
+      "city": "Garner",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/garner/north-garner-dog-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the mulched dog enclosure under shade trees, access path, adjacent playground and picnic shelter, and surrounding recreational grounds at North Garner Dog Park",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-33112139",
+      "name": "South Garner Park",
+      "city": "Garner",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/garner/south-garner-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the three softball fields, multipurpose field, tennis courts, playground area, walking routes, parking, and wooded grounds at South Garner Park",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-1181005441",
+      "name": "Ninth Street Dog Park",
+      "city": "Charlotte",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/charlotte/ninth-street-dog-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the two fenced off-leash sections, shade trees, entry area, viewing edge, and dense Fourth Ward setting at Ninth Street Dog Park in Charlotte",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-345215812",
+      "name": "Apex Nature Park Dog Park",
+      "city": "Apex",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/apex/apex-nature-park-dog-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the separate lighted enclosures, internal dividers, shade trees and structures, entry paths, adjacent athletic fields, and parking at Apex Nature Park Dog Park",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-relation-4836874",
+      "name": "Salem Pond Park",
+      "city": "Apex",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/apex/salem-pond-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the two ponds, lighted turf field, train-themed playground area, paved walking route, restrooms, parking, and wooded edges at Salem Pond Park in Apex",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-38583312",
+      "name": "Carolina Beach Lake Park",
+      "city": "Carolina Beach",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/carolina-beach/carolina-beach-lake-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the freshwater lake, complete paved loop, playground, gazebos, picnic and event grounds, parking, and close proximity to the oceanfront at Carolina Beach Lake Park",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-38583372",
+      "name": "McDonald Park",
+      "city": "Carolina Beach",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/carolina-beach/mcdonald-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the playground, gazebo, paved gathering slab, walkways, shaded lawn, and surrounding residential blocks at McDonald Park in Carolina Beach",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-584756765",
+      "name": "Community Memorial Park",
+      "city": "China Grove",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/china-grove/community-memorial-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the community-building lawn, paved walking loop, picnic and play zone, mature shade trees, neighborhood entrances, and adjacent memorial building at Community Memorial Park in China Grove",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-1375036967",
+      "name": "Westhaven Park",
+      "city": "China Grove",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/china-grove/westhaven-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the modern playground on a broad wood-chip surface, shaded lawn, wooded edge, neighborhood street access, and surrounding homes at Westhaven Park in China Grove",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-762401624",
+      "name": "South Lawn Park",
+      "city": "Davidson",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/davidson/south-lawn-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the enclosed activity lawn, field markings, neighborhood access points, shade trees, and surrounding St. Alban's residences at South Lawn Park in Davidson",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-32920586",
+      "name": "Lawrence Slade Park at Morgan Place",
+      "city": "Elon",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/elon/lawrence-slade-park-at-morgan-place/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the full-size basketball court, playground, walking loop, picnic shelters, amphitheater area, community building, parking, and mature shade at Lawrence Slade Park in Elon",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-486675745",
+      "name": "Green Springs Park",
+      "city": "Greenville",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/greenville/green-springs-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the wooded Green Mill Run corridor, paved greenway approach, Fifth Street trailhead parking, open meadow, and surrounding urban edge at Green Springs Park in Greenville",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-node-357799822",
+      "name": "South Greenville Park",
+      "city": "Greenville",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/greenville/south-greenville-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the multipurpose field, baseball practice field, playground, gymnasium and community building, picnic area, walkways, parking, and neighboring school campus at South Greenville Park",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-439006682",
+      "name": "Founders Park",
+      "city": "Leland",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/leland/founders-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the inclusive playground and splash pad, paved paths, veterans memorial circle, shelter and event lawn, adjacent town hall, and ongoing amphitheater work at Founders Park in Leland",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-relation-11371823",
+      "name": "McDowell Creek Greenway",
+      "city": "Huntersville",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/huntersville/mcdowell-creek-greenway/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of a McDowell Creek Greenway segment along the field edge and wooded creek corridor, with adjoining neighborhood paths and open-space connections in Huntersville",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-958975539",
+      "name": "Ann Patton Joyce Park",
+      "city": "Asheville",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/asheville/ann-patton-joyce-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the wooded stream corridor, southern grassy clearing, Hawthorne Road edge, and surrounding neighborhood boundaries at Ann Patton Joyce Park in Asheville",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-753737137",
+      "name": "Fairview Park",
+      "city": "Fairview",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/fairview/fairview-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the pond, open event lawn, playground, picnic shelter, circular parking area, walking routes, and wooded perimeter at Fairview Park",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-relation-14471343",
+      "name": "W.W. Flowe Park",
+      "city": "Concord",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/concord/w-w-flowe-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the four-diamond baseball and softball complex, upper multipurpose field, parking, pedestrian paths, small recreation areas, and wooded perimeter at W.W. Flowe Park in Concord",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-777519515",
+      "name": "Canine Commons Dog Park",
+      "city": "Pineville",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/pineville/canine-commons-dog-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the two-acre wooded off-leash enclosure beside Lake Park, lakeside trail, shared parking, shaded access, and surrounding tree buffer at Canine Commons Dog Park in Pineville",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-1378959935",
+      "name": "Sugg Farm Dog Park",
+      "city": "Holly Springs",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/holly-springs/sugg-farm-dog-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the wooded off-leash area within Sugg Farm, farm road, adjacent event field and barn, nearby parking and restroom area, and surrounding conservation woodland at Sugg Farm Dog Park in Holly Springs",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-33109495",
+      "name": "MacDonald Woods Park",
+      "city": "Cary",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/cary/macdonald-woods-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the wooded neighborhood parcel, open lawn, winding internal paths, road approaches, southeast greenway bridge, and surrounding residential blocks at MacDonald Woods Park in Cary",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-512160218",
+      "name": "Cedarwood Park",
+      "city": "Charlotte",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/charlotte/cedarwood-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the wooded neighborhood parcel, open lawn along the eastern edge, neighborhood-street approaches, and surrounding homes at Cedarwood Park in Charlotte",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-546716631",
+      "name": "East Clayton Dog Park",
+      "city": "Clayton",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/clayton/east-clayton-dog-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the wooded off-leash area west of Glen Laurel Road, roadside path and entrance, neighboring athletic fields, and surrounding residential edge at East Clayton Dog Park",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-442833505",
+      "name": "Hunsucker Park",
+      "city": "Conover",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/conover/hunsucker-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the compact open lawn, shaded play area along the northern tree line, neighborhood-street approaches, and surrounding residences at Hunsucker Park in Conover",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-33052359",
+      "name": "Rocky Creek Park",
+      "city": "Durham",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/durham/rocky-creek-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the wooded neighborhood parcel, playground clearing, open western lawn, North Elizabeth Street edge, and surrounding homes at Rocky Creek Park in Durham",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "westover-park-durham",
+      "name": "Westover Park",
+      "city": "Durham",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/durham/westover-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the central open lawn, paved internal trail, wooded recreation area, street entrances, and surrounding neighborhood edge at Westover Park in Durham",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-571153853",
+      "name": "Murchie Street Park",
+      "city": "Greensboro",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/greensboro/murchie-street-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the open meadow, small playground near Murchie Street, wooded stream corridor, and surrounding homes at Murchie Street Park in Greensboro",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-569482827",
+      "name": "Random Woods Park",
+      "city": "Greensboro",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/greensboro/random-woods-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the heavily wooded parcel, recreation-court clearing, open southern lawn, apartment access, and residential edge at Random Woods Park in Greensboro",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-814026680",
+      "name": "University Park",
+      "city": "High Point",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/high-point/university-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the trailhead parking, Deep River Road crossing, wooded greenway entrance, utility corridor, and surrounding residential edge at University Park in High Point",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-626695352",
+      "name": "Georgetown Park",
+      "city": "Jacksonville",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/jacksonville/georgetown-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the multipurpose field, basketball court, playground and shelter area, parking, walking routes, wooded border, and adjoining community buildings at Georgetown Park in Jacksonville",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-33068865",
+      "name": "Branch Street Park",
+      "city": "Rocky Mount",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/rocky-mount/branch-street-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the open northern play field, wooded recreation area, neighborhood-street approaches, and surrounding homes at Branch Street Park in Rocky Mount",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-38583578",
+      "name": "Arrowhead Park",
+      "city": "Wilmington",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/wilmington/arrowhead-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the pickleball and basketball courts, playground, shelter, parking, multipurpose field, and wooded disc-golf area at Arrowhead Park in Wilmington",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-260967814",
+      "name": "Beth Schmidt Park",
+      "city": "Elon",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/elon/beth-schmidt-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the wooded park parcel, curving entrance road, community-center and parking area, open lawn, highway frontage, and surrounding homes at Beth Schmidt Park in Elon",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-1116348463",
+      "name": "Rosedale Dog Park",
+      "city": "Huntersville",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/huntersville/rosedale-dog-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the open off-leash lawn, paved approach, pond edge, parking, adjacent nature-park woodland, and townhouse boundary at Rosedale Dog Park in Huntersville",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-33173423",
+      "name": "Bakers Creek Greenway",
+      "city": "Kannapolis",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/kannapolis/bakers-creek-greenway/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the wooded corridor, trailhead parking, Bakers Creek Park connection, neighborhood approaches, and surrounding residential edge along the Bakers Creek Greenway in Kannapolis",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-718977938",
+      "name": "Herbert M. Yount Memorial Park",
+      "city": "Newton",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/newton/herbert-m-yount-memorial-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the curved brick plaza, central gathering space, small lawn and trees, adjacent downtown intersections, buildings, and public parking at Herbert M. Yount Memorial Park in Newton",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-583385183",
+      "name": "Richlands Steed Park",
+      "city": "Richlands",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/richlands/richlands-steed-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the soccer and ball fields, tennis courts, playground, picnic grove, internal road, parking, and neighboring residential edge at Richlands Steed Park",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-33051887",
+      "name": "Trinity Park",
+      "city": "Durham",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/durham/trinity-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the small wooded parcel, central playground and picnic clearing, internal footpath, Watts Street edge, and surrounding homes at Trinity Park in Durham",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-39006411",
+      "name": "Westgate Nature Park",
+      "city": "Leland",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/leland/westgate-nature-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the linear green space, two playground areas, event lawn, paved internal path, northern parking, townhouse edge, and adjoining development at Westgate Nature Park in Leland",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-570540378",
+      "name": "Guilford Mackintosh Park & Marina",
+      "city": "Whitsett",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/whitsett/guilford-mackintosh-park-marina/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the Lake Mackintosh shoreline, forested trail area, access road, parking, marina and launch buildings, and small picnic lawns at Guilford Mackintosh Park & Marina in Whitsett",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-node-154401578",
+      "name": "Rosebank Park",
+      "city": "Biltmore Forest",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/biltmore-forest/rosebank-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the shaded neighborhood parcel, open play lawn, small play-area clearing, Vanderbilt Road and Park Road approaches, and surrounding homes at Rosebank Park in Biltmore Forest",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-33078158",
+      "name": "Westwood Park",
+      "city": "Chapel Hill",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/chapel-hill/westwood-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the wooded one-acre neighborhood parcel, central shaded play area, street approach, and surrounding homes at Westwood Park in Chapel Hill",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-571162995",
+      "name": "Three Meadows",
+      "city": "Greensboro",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/greensboro/three-meadows/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the wooded neighborhood parcel, shaded central clearing, stream and pond corridor, street approaches, and surrounding homes at Three Meadows in Greensboro",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-relation-7127510",
+      "name": "Veterans Park",
+      "city": "Black Mountain",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/black-mountain/veterans-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the ball-field complex, playground and pavilion area, walking routes, Swannanoa River corridor, Interstate 40 underpass connection, and community garden edge at Veterans Park in Black Mountain",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-582011781",
+      "name": "Pecan Park",
+      "city": "Statesville",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/statesville/pecan-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the shaded downtown grove behind North Center Street buildings, pedestrian approaches, adjacent public parking, and surrounding commercial blocks at Pecan Park in Statesville",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-555773415",
+      "name": "Statesville Park & Soccer Complex",
+      "city": "Statesville",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/statesville/statesville-park-soccer-complex/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the seven soccer fields, playground areas, shelters, parking, paved paths, and wooded greenway edge at Statesville Park & Soccer Complex",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "carteret-atlantic-beach-atlantic-beach-town-park",
+      "name": "Atlantic Beach Town Park",
+      "city": "Atlantic Beach",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/atlantic-beach/town-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the splash pad, mini-golf course, skate area, playground, central building, paths, and parking at Atlantic Beach Town Park",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "carteret-atlantic-beach-fort-macon-beach-access",
+      "name": "Fort Macon Bathhouse Beach Access",
+      "city": "Atlantic Beach",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/atlantic-beach/fort-macon-beach-access/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the ocean beach, dune crossings, bathhouse area, paths, and large parking lot at Fort Macon Bathhouse Beach Access",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "carteret-atlantic-beach-hoop-pole-creek-nature-trail",
+      "name": "Hoop Pole Creek Nature Trail",
+      "city": "Atlantic Beach",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/atlantic-beach/hoop-pole-creek-nature-trail/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the maritime forest preserve, marsh and creek edge, trailhead approach, and surrounding development at Hoop Pole Creek Nature Trail",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "carteret-atlantic-beach-les-and-sally-moore-beach-access",
+      "name": "Les and Sally Moore Public Beach Access",
+      "city": "Atlantic Beach",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/atlantic-beach/les-and-sally-moore-beach-access/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the New Bern Street parking area, dune boardwalk, beach approach, shoreline, and nearby street grid at Les and Sally Moore Public Beach Access",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "carteret-atlantic-beach-circle-regional-beach-access",
+      "name": "The Circle Regional Beach Access",
+      "city": "Atlantic Beach",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/atlantic-beach/circle-regional-beach-access/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the large public parking area, bathhouse, dune crossing, broad beach, and shoreline at The Circle Regional Beach Access",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "carteret-atlantic-beach-tom-doe-memorial-beach-access",
+      "name": "Tom Doe Memorial Beach Access",
+      "city": "Atlantic Beach",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/atlantic-beach/tom-doe-memorial-beach-access/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the parking, boardwalk and dune crossing, beach approach, shoreline, and surrounding blocks at Tom Doe Memorial Beach Access",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "carteret-morehead-city-bryan-street-pond",
+      "name": "Bryan Street Pond",
+      "city": "Morehead City",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/morehead-city/bryan-street-pond/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of Bryan Street Pond, its wooded shoreline, adjoining sidewalk and streets, and surrounding neighborhood",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "carteret-morehead-city-calico-creek-boardwalk",
+      "name": "Calico Creek Boardwalk",
+      "city": "Morehead City",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/morehead-city/calico-creek-boardwalk/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the Calico Creek marsh and waterway, boardwalk corridor behind Bayview Cemetery, street approaches, and surrounding neighborhood",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "carteret-morehead-city-conchs-point",
+      "name": "Conchs Point",
+      "city": "Morehead City",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/morehead-city/conchs-point/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the waterfront green, gazebo and access structures, pier, marsh edge, and Bay Street approach at Conchs Point",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "carteret-morehead-city-dr-martin-luther-king-jr-park",
+      "name": "Dr. Martin Luther King Jr. Park",
+      "city": "Morehead City",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/morehead-city/mlk-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the playground, gazebo and lawn, historic train-depot area, parking, and Arendell Street edge at Dr. Martin Luther King Jr. Park",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "carteret-morehead-city-jaycee-park",
+      "name": "Jaycee Park",
+      "city": "Morehead City",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/morehead-city/jaycee-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the downtown waterfront edge, pier and floating-dock system, event area, Shepard Street approach, and harbor at Jaycee Park",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "carteret-morehead-city-katherine-davis-park",
+      "name": "Katherine Davis Park",
+      "city": "Morehead City",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/morehead-city/katherine-davis-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the landscaped open lawn and flag-station area, paths, parking, Arendell Street, and waterfront approach at Katherine Davis Park",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "carteret-morehead-city-mitchell-village-park",
+      "name": "Mitchell Village Park",
+      "city": "Morehead City",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/morehead-city/mitchell-village-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the neighborhood lawn, playground and gazebo area, access path, wooded edge, and waterfront at Mitchell Village Park",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "carteret-morehead-city-newport-river-boat-ramps",
+      "name": "Newport River Boat Ramps and Pier",
+      "city": "Morehead City",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/morehead-city/newport-river-boat-ramps/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the six boat ramps, trailer parking, floating docks, long fishing pier, shoreline, and Radio Island Road approach at Newport River Boat Ramps and Pier",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "carteret-morehead-city-ottis-landing",
+      "name": "Ottis Landing and Day Docks",
+      "city": "Morehead City",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/morehead-city/ottis-landing/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the day docks and waterfront deck, harbor, Shepard Street approach, and surrounding downtown blocks at Ottis Landing",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "carteret-morehead-city-piney-park",
+      "name": "Piney Park",
+      "city": "Morehead City",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/morehead-city/piney-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the shaded triangular neighborhood parcel, small recreation clearing, street approaches, and surrounding commercial and residential context at Piney Park",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "carteret-morehead-city-rotary-park",
+      "name": "Rotary Park",
+      "city": "Morehead City",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/morehead-city/rotary-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the soccer fields, Big Rock Stadium, basketball courts, playground and splash area, paths, parking, and dog-park edge at Rotary Park",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "carteret-morehead-city-shevans-park",
+      "name": "Shevans Park",
+      "city": "Morehead City",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/morehead-city/shevans-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the tennis courts, playground and splash-pad area, shelters, parking, lawns, and neighborhood edges at Shevans Park",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "carteret-morehead-city-snookie-wade-park",
+      "name": "Snookie Wade Park",
+      "city": "Morehead City",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/morehead-city/snookie-wade-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the waterfront green, gazebo and historic structures, pier, Bay Street approach, and marsh context at Snookie Wade Park",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "carteret-morehead-city-sugarloaf-island",
+      "name": "Sugarloaf Island",
+      "city": "Morehead City",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/morehead-city/sugarloaf-island/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of Sugarloaf Island's full shoreline, natural interior, trails and dock approach, surrounding channels, and relationship to downtown Morehead City",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "carteret-morehead-city-w-s-king-recreation-center",
+      "name": "W.S. King Recreation Center and Park",
+      "city": "Morehead City",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/morehead-city/w-s-king-recreation-center/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the recreation-center building, outdoor basketball court, multipurpose field, playground area, parking, and neighborhood approaches at W.S. King Recreation Center and Park",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "carteret-morehead-city-walter-lewis-landing",
+      "name": "Walter Lewis Landing",
+      "city": "Morehead City",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/morehead-city/walter-lewis-landing/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of the South 12th Street end, shoreline access and dock context, neighborhood approach, and surrounding waterfront at Walter Lewis Landing",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-571078743",
+      "name": "Hammer Park",
+      "city": "Asheboro",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/asheboro/hammer-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview centered on Hammer Park's wooded parcel, internal clearing, Glenwood Road approach, and surrounding Asheboro neighborhood",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-546179857",
+      "name": "Westwood Park",
+      "city": "Asheboro",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/asheboro/westwood-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of Westwood Park's neighborhood lawn, wooded edges, Oakhurst Drive approach, and adjacent recreation context",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-1304096210",
+      "name": "Masters Park",
+      "city": "Asheville",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/asheville/masters-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of Masters Park's wooded natural area, trail corridor, Maple Drive access, and surrounding Haw Creek neighborhood",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-node-153913728",
+      "name": "Brooklawn Park",
+      "city": "Biltmore Forest",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/biltmore-forest/brooklawn-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview centered on Brooklawn Park's tree-covered park and pond setting in Biltmore Forest",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-475536407",
+      "name": "Alton Lennon Park",
+      "city": "Boiling Spring Lakes",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/boiling-spring-lakes/alton-lennon-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of Alton Lennon Park's open lawn, wooded edge, cleared area, and Alton Lennon Road approach",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-relation-8050253",
+      "name": "Newell Park",
+      "city": "Charlotte",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/charlotte/newell-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of Newell Park's baseball fields, recreation buildings, parking, woods, and surrounding Charlotte neighborhood",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-442834730",
+      "name": "Rowe Park",
+      "city": "Conover",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/conover/rowe-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview centered on Rowe Park's wooded parcel, park clearing, 9th Street approach, and adjacent community facilities",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-762404807",
+      "name": "Forest Park Playground",
+      "city": "Davidson",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/davidson/forest-park-playground/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of Forest Park Playground's tree-covered play area, North Faulkner Way access, and surrounding St. Alban's neighborhood",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "belmont-park-durham",
+      "name": "Belmont Park",
+      "city": "Durham",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/durham/belmont-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview centered on Belmont Park's pump-track parcel, Sovereign Street access, and surrounding Durham neighborhood",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-27694308",
+      "name": "Riverside Dog Park",
+      "city": "Fayetteville",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/fayetteville/riverside-dog-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of Riverside Dog Park's open and wooded enclosure areas, access road, and Eastern Boulevard edge",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-439224183",
+      "name": "Fuquay-Varina Dog Park",
+      "city": "Fuquay-Varina",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/fuquay-varina/fuquay-varina-dog-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of Fuquay-Varina Dog Park's wooded enclosure setting, Woodland Drive approach, and surrounding neighborhood",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-relation-18298511",
+      "name": "Stoney Creek Park",
+      "city": "Goldsboro",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/goldsboro/stoney-creek-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of Stoney Creek Park's wooded creek corridor, trail and clearing network, entrances, and surrounding Goldsboro neighborhoods",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-737061601",
+      "name": "Murray Street Park",
+      "city": "Hillsborough",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/hillsborough/murray-street-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of Murray Street Park's compact recreation parcel, tree cover, and Murray Street neighborhood approach",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-1082353590",
+      "name": "Ezell Park",
+      "city": "Mint Hill",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/mint-hill/ezell-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of Ezell Park's trail network, open recreation areas, developing facilities, ponds, and woods in Mint Hill",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-33106342",
+      "name": "Quarry Street Park",
+      "city": "Raleigh",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/raleigh/quarry-street-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of Quarry Street Park's lawn and trees, adjacent homes, and Quarry Street access in Raleigh",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-33099947",
+      "name": "Varnell Park",
+      "city": "Raleigh",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/raleigh/varnell-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of Varnell Park's wooded parcel, internal clearing, Varnell Avenue access, and nearby highway edge",
+      "imageKind": "aerial-overview-fallback"
+    },
+    {
+      "placeId": "basic-osm-way-1276361885",
+      "name": "Weston Park",
+      "city": "Winston-Salem",
+      "candidateSource": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+      "url": "/assets/parks/nc/winston-salem/weston-park/aerial-overview.jpg",
+      "alt": "2025 USDA aerial overview of Weston Park's wooded recreation parcel, large open field, court area, and Southdale Avenue neighborhood context",
+      "imageKind": "aerial-overview-fallback"
+    }
+  ]
+}

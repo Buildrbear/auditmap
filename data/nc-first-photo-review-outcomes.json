@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-08-21",
+  "purpose": "Human review history for NC first-photo records, including rejected nearby-media leads and destinations later resolved with refined USDA aerial crops.",
+  "sourcesChecked": [
+    "data/photo-research/nc-geotagged-commons-candidates.json",
+    "USDA NAIP aerial crops",
+    "Official operator pages"
+  ],
+  "places": [
+    {
+      "placeId": "basic-osm-way-571078743",
+      "status": "resolved-aerial-fallback",
+      "reviewNote": "A refined crop centered on Hammer Park's full mapped parcel passed visual review as an honest aerial overview; unrelated Commons results remain rejected."
+    },
+    {
+      "placeId": "basic-osm-way-546179857",
+      "status": "resolved-aerial-fallback",
+      "reviewNote": "A refined crop centered on Westwood Park's full mapped parcel passed visual review as an honest aerial overview; unrelated Commons results remain rejected."
+    },
+    {
+      "placeId": "basic-osm-way-1304096210",
+      "status": "resolved-aerial-fallback",
+      "reviewNote": "A wider crop covering Masters Park's full mapped natural-area parcel and trail corridor passed visual review; unrelated Commons results remain rejected."
+    },
+    {
+      "placeId": "basic-osm-node-153913728",
+      "status": "resolved-aerial-fallback",
+      "reviewNote": "A refined destination-centered crop passed visual review as an aerial overview of Brooklawn Park's tree-covered park and pond setting; unrelated Commons results remain rejected."
+    },
+    {
+      "placeId": "basic-osm-way-475536407",
+      "status": "resolved-aerial-fallback",
+      "reviewNote": "A tighter crop centered on Alton Lennon Park's mapped parcel passed visual review and honestly shows the open lawn, wooded edge, and cleared area."
+    },
+    {
+      "placeId": "basic-osm-relation-8050253",
+      "status": "resolved-aerial-fallback",
+      "reviewNote": "The earlier crop was centered on one corner of the relation; a corrected full-parcel crop clearly shows Newell Park's ballfields, buildings, parking, and woods."
+    },
+    {
+      "placeId": "basic-osm-way-442834730",
+      "status": "resolved-aerial-fallback",
+      "reviewNote": "A tighter crop centered on Rowe Park's mapped parcel passed visual review as an honest overview of the wooded park and its street approach."
+    },
+    {
+      "placeId": "basic-osm-way-762404807",
+      "status": "resolved-aerial-fallback",
+      "reviewNote": "A refined full-parcel crop passed visual review as an aerial overview of the tree-covered playground parcel; nearby neighborhood-only Commons results remain rejected."
+    },
+    {
+      "placeId": "belmont-park-durham",
+      "status": "resolved-aerial-fallback",
+      "reviewNote": "A reviewed public-domain aerial now replaces the destination-specific but unlicensed Durham image; unrelated Commons results remain rejected."
+    },
+    {
+      "placeId": "basic-osm-way-27694308",
+      "status": "resolved-aerial-fallback",
+      "reviewNote": "A wider full-parcel crop passed visual review as an aerial overview of Riverside Dog Park's open and wooded enclosure areas; unrelated Commons results remain rejected."
+    },
+    {
+      "placeId": "basic-osm-way-439224183",
+      "status": "resolved-aerial-fallback",
+      "reviewNote": "A wider full-parcel crop passed visual review as an aerial overview of the wooded dog-park setting; unrelated Commons results remain rejected."
+    },
+    {
+      "placeId": "basic-osm-relation-18298511",
+      "status": "resolved-aerial-fallback",
+      "reviewNote": "The earlier crop covered too little of the relation; a corrected full-parcel crop shows Stoney Creek Park's wooded creek corridor and trail network."
+    },
+    {
+      "placeId": "basic-osm-way-737061601",
+      "status": "resolved-aerial-fallback",
+      "reviewNote": "A tighter crop centered on Murray Street Park's compact mapped parcel passed visual review; nearby-subject Commons results remain rejected."
+    },
+    {
+      "placeId": "basic-osm-way-1082353590",
+      "status": "resolved-aerial-fallback",
+      "reviewNote": "The earlier crop was offset from the relation center; a corrected full-parcel crop clearly shows Ezell Park's trail network, developing facilities, ponds, and woods."
+    },
+    {
+      "placeId": "basic-osm-way-33106342",
+      "status": "resolved-aerial-fallback",
+      "reviewNote": "A tighter crop covering Quarry Street Park's complete pocket-park parcel passed visual review; unrelated downtown Commons results remain rejected."
+    },
+    {
+      "placeId": "basic-osm-way-33099947",
+      "status": "resolved-aerial-fallback",
+      "reviewNote": "A tighter crop covering Varnell Park's complete mapped parcel passed visual review as an honest wooded-park overview; nearby Commons results remain rejected."
+    },
+    {
+      "placeId": "basic-osm-way-1276361885",
+      "status": "resolved-aerial-fallback",
+      "reviewNote": "The earlier crop was offset from the way center; a corrected full-parcel crop shows Weston Park's woods, open field, court area, and neighborhood approaches."
+    }
+  ]
+}

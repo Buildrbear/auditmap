@@ -1,0 +1,191 @@
+{
+  "checkedAt": "2026-08-22",
+  "service": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+  "licenseSource": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+  "campaign": "Carlsbad and Oceanside image-rights repair for parent pages whose existing photographs do not document reuse permission.",
+  "places": [
+    {
+      "placeId": "launch-ca-carlsbad-alga-norte-community-park",
+      "name": "Alga Norte Community Park",
+      "city": "Carlsbad",
+      "state": "CA",
+      "latitude": 33.1161201,
+      "longitude": -117.2633913,
+      "halfWidthMeters": 400
+    },
+    {
+      "placeId": "launch-ca-carlsbad-aviara-community-park",
+      "name": "Aviara Community Park",
+      "city": "Carlsbad",
+      "state": "CA",
+      "latitude": 33.1107959,
+      "longitude": -117.2813302,
+      "cropLatitude": 33.1125,
+      "cropLongitude": -117.2835,
+      "halfWidthMeters": 250,
+      "reviewNote": "Crop shifted northwest from the road center to show Aviara Community Park's community center, parking, and athletic field."
+    },
+    {
+      "placeId": "launch-ca-carlsbad-calavera-hills-community-park",
+      "name": "Calavera Hills Community Park",
+      "city": "Carlsbad",
+      "state": "CA",
+      "latitude": 33.1676512,
+      "longitude": -117.298572,
+      "halfWidthMeters": 400
+    },
+    {
+      "placeId": "launch-ca-carlsbad-carlsbad-state-beach",
+      "name": "Carlsbad State Beach",
+      "city": "Carlsbad",
+      "state": "CA",
+      "latitude": 33.1474,
+      "longitude": -117.3457,
+      "halfWidthMeters": 600
+    },
+    {
+      "placeId": "launch-ca-carlsbad-leo-carrillo-ranch-historic-park",
+      "name": "Leo Carrillo Ranch Historic Park",
+      "city": "Carlsbad",
+      "state": "CA",
+      "latitude": 33.118772,
+      "longitude": -117.235333,
+      "halfWidthMeters": 300
+    },
+    {
+      "placeId": "launch-ca-carlsbad-magee-park",
+      "name": "Magee Park",
+      "city": "Carlsbad",
+      "state": "CA",
+      "latitude": 33.161168,
+      "longitude": -117.354196,
+      "halfWidthMeters": 200
+    },
+    {
+      "placeId": "launch-ca-carlsbad-pine-avenue-community-park",
+      "name": "Pine Avenue Community Park",
+      "city": "Carlsbad",
+      "state": "CA",
+      "latitude": 33.1595516,
+      "longitude": -117.3427583,
+      "halfWidthMeters": 400
+    },
+    {
+      "placeId": "launch-ca-carlsbad-poinsettia-community-park",
+      "name": "Poinsettia Community Park",
+      "city": "Carlsbad",
+      "state": "CA",
+      "latitude": 33.1150496,
+      "longitude": -117.3060027,
+      "halfWidthMeters": 400
+    },
+    {
+      "placeId": "launch-ca-carlsbad-stagecoach-community-park",
+      "name": "Stagecoach Community Park",
+      "city": "Carlsbad",
+      "state": "CA",
+      "latitude": 33.0748469,
+      "longitude": -117.2327621,
+      "halfWidthMeters": 400
+    },
+    {
+      "placeId": "launch-ca-oceanside-buddy-todd-park",
+      "name": "Buddy Todd Park",
+      "city": "Oceanside",
+      "state": "CA",
+      "latitude": 33.2074646,
+      "longitude": -117.3476895,
+      "halfWidthMeters": 300
+    },
+    {
+      "placeId": "launch-ca-oceanside-buena-vista-audubon-nature-center",
+      "name": "Buena Vista Audubon Nature Center",
+      "city": "Oceanside",
+      "state": "CA",
+      "latitude": 33.1748,
+      "longitude": -117.3598,
+      "cropLatitude": 33.1697393,
+      "cropLongitude": -117.3574489,
+      "halfWidthMeters": 200,
+      "reviewNote": "Crop centered on the official 2202 South Coast Highway address resolved through OpenStreetMap rather than the inaccurate inherited point."
+    },
+    {
+      "placeId": "launch-ca-oceanside-el-corazon-park-and-trails",
+      "name": "El Corazon Park and Trails",
+      "city": "Oceanside",
+      "state": "CA",
+      "latitude": 33.2017155,
+      "longitude": -117.3270587,
+      "halfWidthMeters": 600
+    },
+    {
+      "placeId": "launch-ca-oceanside-guajome-regional-park",
+      "name": "Guajome Regional Park",
+      "city": "Oceanside",
+      "state": "CA",
+      "latitude": 33.244366,
+      "longitude": -117.267673,
+      "halfWidthMeters": 600
+    },
+    {
+      "placeId": "launch-ca-oceanside-heritage-park-village-and-museum",
+      "name": "Heritage Park Village and Museum",
+      "city": "Oceanside",
+      "state": "CA",
+      "latitude": 33.2323,
+      "longitude": -117.3128,
+      "cropLatitude": 33.2348167,
+      "cropLongitude": -117.3218,
+      "halfWidthMeters": 200,
+      "reviewNote": "Crop centered on the historic village coordinates documented for the 220 Peyri Drive site rather than the inaccurate inherited point."
+    },
+    {
+      "placeId": "launch-ca-oceanside-libby-lake-park",
+      "name": "Libby Lake Park",
+      "city": "Oceanside",
+      "state": "CA",
+      "latitude": 33.2491213,
+      "longitude": -117.3088828,
+      "cropLatitude": 33.2509068,
+      "cropLongitude": -117.3079793,
+      "halfWidthMeters": 250,
+      "reviewNote": "Crop centered on the reviewed OpenStreetMap Libby Lake Park polygon to keep the lake, playground, paths, and park grounds visible."
+    },
+    {
+      "placeId": "launch-ca-oceanside-mance-buchanon-park",
+      "name": "Mance Buchanon Park",
+      "city": "Oceanside",
+      "state": "CA",
+      "latitude": 33.2421192,
+      "longitude": -117.3012814,
+      "halfWidthMeters": 300
+    },
+    {
+      "placeId": "launch-ca-oceanside-oak-riparian-park",
+      "name": "Oak Riparian Park",
+      "city": "Oceanside",
+      "state": "CA",
+      "latitude": 33.1745031,
+      "longitude": -117.2658212,
+      "halfWidthMeters": 300
+    },
+    {
+      "placeId": "launch-ca-oceanside-oceanside-city-beach-and-pier",
+      "name": "Oceanside City Beach and Pier",
+      "city": "Oceanside",
+      "state": "CA",
+      "latitude": 33.1937,
+      "longitude": -117.3846,
+      "halfWidthMeters": 600
+    },
+    {
+      "placeId": "launch-ca-oceanside-san-luis-rey-river-trail",
+      "name": "San Luis Rey River Trail",
+      "city": "Oceanside",
+      "state": "CA",
+      "latitude": 33.2205,
+      "longitude": -117.353,
+      "halfWidthMeters": 600
+    }
+  ]
+}

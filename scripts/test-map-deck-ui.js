@@ -98,6 +98,7 @@ for (const contract of [
   "mobileSelectionLayer",
   "mobile-selection-marker is-selected",
   "placeTypeFilterRules",
+  "usesLocalStaticPreview",
   "updateFilterResultsPreview",
   "filterScopePlaces",
   "createUserLocationIcon",
@@ -106,6 +107,12 @@ for (const contract of [
   'placesSidebar.addEventListener("touchstart"',
   'placesSidebar.addEventListener("touchend"',
 ]) assert.ok(app.includes(contract), `Map deck behavior is missing: ${contract}`);
+
+assert.match(
+  app,
+  /if \(usesLocalStaticPreview\(\)\) \{\s*return `src="\$\{escapeHtml\(url\)\}"/,
+  "A plain local server must load source images directly instead of calling Vercel's optimizer.",
+);
 
 for (const contract of [
   "--map-deck-forest",

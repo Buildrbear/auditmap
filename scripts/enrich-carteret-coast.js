@@ -10,6 +10,28 @@ const atlanticAccess = "https://atlanticbeach-nc.com/play/beach-access/";
 const atlanticParking = "https://atlanticbeach-nc.com/departments/police-department/parking/";
 const atlanticLifeguards = "https://atlanticbeach-nc.com/departments/fire-department/lifeguards/";
 const fortMacon = "https://www.ncparks.gov/state-parks/fort-macon-state-park";
+const reviewedSelections = JSON.parse(fs.readFileSync(path.join(root, "data", "nc-first-photo-selections.json"), "utf8"));
+const reviewedCandidateDocument = JSON.parse(fs.readFileSync(path.join(root, "data", "photo-research", "nc-naip-aerial-candidates.json"), "utf8"));
+const reviewedCandidatesById = new Map((reviewedCandidateDocument.places || []).map((place) => [place.id, place]));
+
+function reviewedImage(placeId) {
+  const selection = reviewedSelections.selections.find((candidate) => candidate.placeId === placeId);
+  if (!selection) return null;
+  const candidate = reviewedCandidatesById.get(placeId)?.candidates?.find((image) => (
+    image.source === selection.candidateSource
+  ));
+  if (!candidate) throw new Error(`Reviewed image candidate missing for ${placeId}`);
+  return {
+    url: selection.url,
+    source: candidate.source,
+    author: candidate.author,
+    license: candidate.licenseVersion && !String(candidate.license).includes(candidate.licenseVersion)
+      ? `${candidate.license} ${candidate.licenseVersion}`
+      : candidate.license,
+    alt: selection.alt,
+    ...(selection.imageKind ? { kind: selection.imageKind } : {}),
+  };
+}
 
 function answer(intentKey, question, text, sourceLabel, source, freshness = "stable") {
   const expiresAt = freshness === "seasonal" ? "2026-09-05" : freshness === "arrival" ? "2026-08-19" : "2027-02-05";
@@ -27,15 +49,17 @@ function localImage(city, slug, file, source, alt, author) {
 }
 
 function moreheadPlace(spec) {
+  const id = `carteret-morehead-city-${spec.slug}`;
   const source = `https://www.moreheadcitync.org/Facilities/Facility/Details/${spec.sourceSlug}-${spec.facilityId}`;
-  const image = spec.image === false ? null : spec.imageObject || localImage(
+  const reviewed = reviewedImage(id);
+  const image = reviewed || (spec.image === false ? null : spec.imageObject || localImage(
     "morehead-city",
     spec.slug,
     "hero.jpg",
     source,
     spec.imageAlt || `${spec.name} in Morehead City`,
     "Town of Morehead City",
-  );
+  ));
   const rulesAnswer = answer(
     "hours",
     `When is ${spec.name} open?`,
@@ -49,7 +73,7 @@ function moreheadPlace(spec) {
     ...(spec.answers || []),
   ];
   return {
-    id: `carteret-morehead-city-${spec.slug}`,
+    id,
     name: spec.name,
     type: spec.type || "Park",
     city: "Morehead City",
@@ -61,6 +85,8 @@ function moreheadPlace(spec) {
     address: spec.address,
     latitude: spec.latitude,
     longitude: spec.longitude,
+    coordinateSource: spec.coordinateSource || source,
+    positionQuality: spec.positionQuality || "reviewed-official-address-placement",
     neighborhood: spec.neighborhood || "Morehead City",
     status: spec.status || "Public park",
     hours: spec.hours || "Open daily from dawn to dusk; scheduled lighted activities may run later.",
@@ -75,7 +101,7 @@ function moreheadPlace(spec) {
     searchDescription: `Sourced visit details for ${spec.name}, including ${spec.amenities.slice(0, 3).join(", ").toLowerCase()}, parking, and common questions.`,
     searchAnswers: records,
     image: image || undefined,
-    images: spec.images || [],
+    images: reviewed ? [] : spec.images || [],
     tags: spec.tags || [],
     inventoryStatus: "already-curated",
     enrichmentTier: "full",
@@ -87,8 +113,10 @@ function moreheadPlace(spec) {
 }
 
 function atlanticPlace(spec) {
+  const id = `carteret-atlantic-beach-${spec.slug}`;
+  const reviewed = reviewedImage(id);
   return {
-    id: `carteret-atlantic-beach-${spec.slug}`,
+    id,
     name: spec.name,
     type: spec.type || "Park",
     city: "Atlantic Beach",
@@ -100,6 +128,8 @@ function atlanticPlace(spec) {
     address: spec.address,
     latitude: spec.latitude,
     longitude: spec.longitude,
+    coordinateSource: spec.coordinateSource || spec.source,
+    positionQuality: spec.positionQuality || "reviewed-official-address-placement",
     neighborhood: spec.neighborhood || "Atlantic Beach",
     status: spec.status || "Public destination",
     hours: spec.hours,
@@ -113,8 +143,8 @@ function atlanticPlace(spec) {
     summary: spec.summary,
     searchDescription: `Sourced visit details for ${spec.name}, including ${spec.amenities.slice(0, 3).join(", ").toLowerCase()}, parking, and common questions.`,
     searchAnswers: spec.answers,
-    image: spec.images[0],
-    images: spec.images.slice(1),
+    image: reviewed || spec.images[0],
+    images: reviewed ? [] : spec.images.slice(1),
     tags: spec.tags || [],
     inventoryStatus: "already-curated",
     enrichmentTier: "full",
@@ -237,7 +267,8 @@ const morehead = [
     ],
   }),
   moreheadPlace({
-    facilityId: 14, sourceSlug: "Sugarloaf-Island", slug: "sugarloaf-island", name: "Sugarloaf Island", address: "Morehead City Waterfront (boat or kayak access only)", latitude: 34.7216600660712, longitude: -76.7157899233878,
+    facilityId: 14, sourceSlug: "Sugarloaf-Island", slug: "sugarloaf-island", name: "Sugarloaf Island", address: "Morehead City Waterfront (boat or kayak access only)", latitude: 34.717462, longitude: -76.7096734,
+    coordinateSource: "https://www.openstreetmap.org/way/38114299", positionQuality: "reviewed-island-centroid-cross-checked-against-2025-usda-naip",
     type: "Natural area", status: "Boat-access natural park", amenities: ["Floating dock", "Natural trails", "Shoreline", "Paddling access", "Wildlife viewing"], imageAlt: "Sugarloaf Island across the water from downtown Morehead City",
     summary: "Sugarloaf Island is the undeveloped island directly across from downtown Morehead City. It is reached only by boat or kayak, with a floating dock and natural terrain rather than conventional park facilities.",
     answers: [
@@ -270,7 +301,8 @@ const morehead = [
     ],
   }),
   moreheadPlace({
-    facilityId: 19, sourceSlug: "Newport-River-Boat-Ramps-Pier-Radio-Island", slug: "newport-river-boat-ramps", name: "Newport River Boat Ramps and Pier", address: "Radio Island Road", latitude: 34.7208378572191, longitude: -76.7060940417738,
+    facilityId: 19, sourceSlug: "Newport-River-Boat-Ramps-Pier-Radio-Island", slug: "newport-river-boat-ramps", name: "Newport River Boat Ramps and Pier", address: "Radio Island Road", latitude: 34.72265, longitude: -76.6868,
+    coordinateSource: "https://www.moreheadcitync.org/Facilities/Facility/Details/Newport-River-Boat-Ramps-Pier-Radio-Island-19", positionQuality: "reviewed-six-ramp-facility-placement-cross-checked-against-2025-usda-naip",
     type: "Boat ramp and fishing pier", status: "Public boating and fishing access", amenities: ["Six boat-launch lanes", "575-foot fishing pier", "56 trailer spaces", "Floating docks", "Restrooms", "Parking", "Water access"], imageAlt: "Boat ramp and rainbow over the Newport River access on Radio Island",
     summary: "This Radio Island facility is Morehead City's main public launch complex, with six ramp lanes, trailer parking, a long fishing pier and restrooms. It is designed for boaters and anglers rather than beach swimming.",
     answers: [

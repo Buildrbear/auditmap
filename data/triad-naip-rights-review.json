@@ -1,0 +1,146 @@
+{
+  "checkedAt": "2026-08-22",
+  "service": "https://apps.geo.fpac.usda.gov/geo-imagery/rest/services/naip/conus_naip/ImageServer",
+  "licenseSource": "https://www.fpacbc.usda.gov/geospatial-services/customer-services",
+  "campaign": "Greensboro and Winston-Salem image-rights repair for parent pages whose existing hero photographs do not document reuse permission.",
+  "places": [
+    {
+      "placeId": "launch-nc-greensboro-country-park",
+      "name": "Country Park",
+      "city": "Greensboro",
+      "state": "NC",
+      "latitude": 36.1258225,
+      "longitude": -79.8375161,
+      "halfWidthMeters": 600
+    },
+    {
+      "placeId": "launch-nc-greensboro-lebauer-park",
+      "name": "LeBauer Park",
+      "city": "Greensboro",
+      "state": "NC",
+      "latitude": 36.0745697,
+      "longitude": -79.788083,
+      "halfWidthMeters": 250
+    },
+    {
+      "placeId": "launch-nc-greensboro-greensboro-arboretum",
+      "name": "Greensboro Arboretum",
+      "city": "Greensboro",
+      "state": "NC",
+      "latitude": 36.0718784,
+      "longitude": -79.8388716,
+      "halfWidthMeters": 300
+    },
+    {
+      "placeId": "launch-nc-greensboro-bog-garden-at-benjamin-park",
+      "name": "Bog Garden at Benjamin Park",
+      "city": "Greensboro",
+      "state": "NC",
+      "latitude": 36.0900388,
+      "longitude": -79.8390594,
+      "halfWidthMeters": 300
+    },
+    {
+      "placeId": "launch-nc-greensboro-keeley-park",
+      "name": "Keeley Park",
+      "city": "Greensboro",
+      "state": "NC",
+      "latitude": 36.1118187,
+      "longitude": -79.7077904,
+      "halfWidthMeters": 500
+    },
+    {
+      "placeId": "launch-nc-greensboro-atlantic-and-yadkin-greenway",
+      "name": "Atlantic and Yadkin Greenway",
+      "city": "Greensboro",
+      "state": "NC",
+      "latitude": 36.161939,
+      "longitude": -79.8605133,
+      "cropLatitude": 36.113093,
+      "cropLongitude": -79.8323161,
+      "halfWidthMeters": 300,
+      "reviewNote": "Representative Garden Homes segment recentered on OpenStreetMap way 458411422 so the paved Atlantic and Yadkin Greenway corridor is visible; this linear destination extends beyond the crop."
+    },
+    {
+      "placeId": "launch-nc-greensboro-greensboro-downtown-greenway",
+      "name": "Greensboro Downtown Greenway",
+      "city": "Greensboro",
+      "state": "NC",
+      "latitude": 36.0676865,
+      "longitude": -79.7969066,
+      "cropLatitude": 36.0707839,
+      "cropLongitude": -79.7994298,
+      "halfWidthMeters": 300,
+      "reviewNote": "Representative Westerwood segment recentered on the mapped Downtown Greenway corridor beside Greensboro Residence Hall; the complete greenway extends beyond the crop."
+    },
+    {
+      "placeId": "launch-nc-winston-salem-salem-lake-park",
+      "name": "Salem Lake Park",
+      "city": "Winston-Salem",
+      "state": "NC",
+      "latitude": 36.0954449,
+      "longitude": -80.1925638,
+      "halfWidthMeters": 1000
+    },
+    {
+      "placeId": "launch-nc-winston-salem-the-quarry-at-grant-park",
+      "name": "The Quarry at Grant Park",
+      "city": "Winston-Salem",
+      "state": "NC",
+      "latitude": 36.0825214,
+      "longitude": -80.2016737,
+      "halfWidthMeters": 600
+    },
+    {
+      "placeId": "launch-nc-winston-salem-hanes-park",
+      "name": "Hanes Park",
+      "city": "Winston-Salem",
+      "state": "NC",
+      "latitude": 36.0990742,
+      "longitude": -80.2632868,
+      "halfWidthMeters": 400
+    },
+    {
+      "placeId": "launch-nc-winston-salem-washington-park",
+      "name": "Washington Park",
+      "city": "Winston-Salem",
+      "state": "NC",
+      "latitude": 36.0765696,
+      "longitude": -80.249786,
+      "halfWidthMeters": 500
+    },
+    {
+      "placeId": "launch-nc-winston-salem-winston-lake-park",
+      "name": "Winston Lake Park",
+      "city": "Winston-Salem",
+      "state": "NC",
+      "latitude": 36.115081,
+      "longitude": -80.2018375,
+      "halfWidthMeters": 700
+    },
+    {
+      "placeId": "launch-nc-winston-salem-muddy-creek-greenway",
+      "name": "Muddy Creek Greenway",
+      "city": "Winston-Salem",
+      "state": "NC",
+      "latitude": 36.103532,
+      "longitude": -80.3580191,
+      "cropLatitude": 36.0914546,
+      "cropLongitude": -80.3646274,
+      "halfWidthMeters": 300,
+      "reviewNote": "Representative southern segment recentered on OpenStreetMap way 429995416 so the Muddy Creek Greenway approach is visible; the full linear route extends beyond the crop."
+    },
+    {
+      "placeId": "launch-nc-winston-salem-salem-creek-greenway",
+      "name": "Salem Creek Greenway",
+      "city": "Winston-Salem",
+      "state": "NC",
+      "latitude": 36.0859467,
+      "longitude": -80.234766,
+      "cropLatitude": 36.0819927,
+      "cropLongitude": -80.2388712,
+      "halfWidthMeters": 300,
+      "reviewNote": "Representative Salem segment recentered on OpenStreetMap way 298236898 so the paved Salem Creek Greenway corridor is visible; the full linear route extends beyond the crop."
+    }
+  ]
+}
