@@ -54,7 +54,7 @@ Every internal or OpenTask assignment must claim one packet from
 
 - packet ID
 - assignee
-- OpenTask assignment and GitHub issue URLs
+- assignment and GitHub issue URLs; internal image work may use its GitHub issue as the assignment URL
 - claimed date, expiration date, and last-updated date
 - status: `claimed`, `submitted`, `accepted`, `changes-requested`, or `released`
 
