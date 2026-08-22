@@ -4,6 +4,7 @@ const path = require("node:path");
 const { hasDocumentedReuseRights } = require("./image-rights");
 
 const IMAGE_PACKET_TYPE = "image-rights-reconciliation";
+const ACTIVE_IMAGE_CLAIM_STATUSES = new Set(["claimed", "submitted", "changes-requested"]);
 
 function slugify(value) {
   return String(value || "")
@@ -171,38 +172,119 @@ function packetBucket(cluster) {
   return (Number.parseInt(hashPrefix, 16) % 2) + 1;
 }
 
+function imagePacketFingerprint(clusterIds, recordIds) {
+  return crypto.createHash("sha256").update(JSON.stringify([
+    [...clusterIds].sort(),
+    [...recordIds].sort(),
+  ])).digest("hex");
+}
+
+function packetRecordIds(items) {
+  return [...new Set(items.flatMap((cluster) =>
+    cluster.records.map((record) => record.path),
+  ))].sort();
+}
+
+function packetId(state, citySlug, fingerprint) {
+  return `${IMAGE_PACKET_TYPE}-${state.toLowerCase()}-${citySlug}-${fingerprint.slice(0, 8)}`;
+}
+
+function imageClaimSnapshot(claim) {
+  const clusterIds = [...(claim.claimedClusterIds || [])].sort();
+  const recordIds = [...(claim.claimedRecordIds || [])].sort();
+  const fingerprint = imagePacketFingerprint(clusterIds, recordIds);
+  if (fingerprint !== claim.packetFingerprint) {
+    throw new Error(`Image-rights claim fingerprint differs from its snapshot: ${claim.packetId}`);
+  }
+  if (!claim.packetId.endsWith(`-${fingerprint.slice(0, 8)}`)) {
+    throw new Error(`Image-rights claim packet ID differs from its fingerprint: ${claim.packetId}`);
+  }
+  return { clusterIds, recordIds, fingerprint };
+}
+
+function packetFromClusters(items, { claim = null, snapshot = null } = {}) {
+  const first = items[0];
+  const state = first?.state || claim.packetId.match(
+    /^image-rights-reconciliation-([a-z]{2})-/,
+  )?.[1]?.toUpperCase() || "US";
+  const citySlug = first?.citySlug || claim.packetId
+    .replace(/^image-rights-reconciliation-[a-z]{2}-/, "")
+    .replace(/-[a-f0-9]{8}$/, "");
+  const currentClusterIds = items.map((cluster) => cluster.id).sort();
+  const currentRecordIds = packetRecordIds(items);
+  const clusterIds = snapshot?.clusterIds || currentClusterIds;
+  const recordIds = snapshot?.recordIds || currentRecordIds;
+  const fingerprint = snapshot?.fingerprint || imagePacketFingerprint(clusterIds, recordIds);
+  const id = claim?.packetId || packetId(state, citySlug, fingerprint);
+  return {
+    id,
+    type: IMAGE_PACKET_TYPE,
+    audience: "internal",
+    state,
+    citySlug,
+    bucket: first ? packetBucket(first) : null,
+    packetFingerprint: fingerprint,
+    status: claim?.status === "released" ? "open" : claim?.status || "open",
+    claim,
+    count: recordIds.length,
+    remainingCount: currentRecordIds.length,
+    clusterCount: clusterIds.length,
+    remainingClusterCount: currentClusterIds.length,
+    recordIds,
+    remainingRecordIds: currentRecordIds,
+    resolvedRecordIds: recordIds.filter((recordId) => !currentRecordIds.includes(recordId)),
+    clusterIds,
+    remainingClusterIds: currentClusterIds,
+    clusters: items,
+    acceptance: "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review.",
+  };
+}
+
 function buildImageRightsPackets(clusters, claims = []) {
   const claimsByPacket = new Map(claims.map((claim) => [claim.packetId, claim]));
+  const clustersById = new Map(clusters.map((cluster) => [cluster.id, cluster]));
+  const reservedClusterIds = new Set();
+  const packets = [];
+
+  for (const claim of claims.filter((item) => item.packetId.startsWith(`${IMAGE_PACKET_TYPE}-`))) {
+    const snapshot = imageClaimSnapshot(claim);
+    const remaining = snapshot.clusterIds.map((id) => clustersById.get(id)).filter(Boolean);
+    if (claim.status === "accepted") {
+      if (remaining.length) {
+        throw new Error(`Accepted image-rights claim still has unresolved clusters: ${claim.packetId}`);
+      }
+      continue;
+    }
+    if (!ACTIVE_IMAGE_CLAIM_STATUSES.has(claim.status)) continue;
+    for (const cluster of remaining) {
+      if (reservedClusterIds.has(cluster.id)) {
+        throw new Error(`Image-rights cluster is reserved by multiple active claims: ${cluster.id}`);
+      }
+      reservedClusterIds.add(cluster.id);
+    }
+    packets.push(packetFromClusters(remaining, { claim, snapshot }));
+  }
+
   const groups = new Map();
   for (const cluster of clusters) {
+    if (reservedClusterIds.has(cluster.id)) continue;
     const bucket = packetBucket(cluster);
     const key = [cluster.state.toLowerCase(), cluster.citySlug, bucket].join("|");
     if (!groups.has(key)) groups.set(key, []);
     groups.get(key).push(cluster);
   }
-  return [...groups.entries()].sort(([left], [right]) => left.localeCompare(right)).map(([key, items]) => {
-    const [state, citySlug, bucket] = key.split("|");
-    const id = `${IMAGE_PACKET_TYPE}-${state}-${citySlug}-${String(bucket).padStart(2, "0")}`;
+  for (const [, items] of [...groups.entries()].sort(([left], [right]) => left.localeCompare(right))) {
+    const recordIds = packetRecordIds(items);
+    const clusterIds = items.map((cluster) => cluster.id).sort();
+    const fingerprint = imagePacketFingerprint(clusterIds, recordIds);
+    const id = packetId(items[0].state, items[0].citySlug, fingerprint);
     const claim = claimsByPacket.get(id) || null;
-    const recordIds = [...new Set(items.flatMap((cluster) =>
-      cluster.records.map((record) => record.path),
-    ))].sort();
-    return {
-      id,
-      type: IMAGE_PACKET_TYPE,
-      audience: "internal",
-      state: state.toUpperCase(),
-      citySlug,
-      status: claim?.status === "released" ? "open" : claim?.status || "open",
-      claim,
-      count: recordIds.length,
-      clusterCount: items.length,
-      recordIds,
-      clusterIds: items.map((cluster) => cluster.id).sort(),
-      clusters: items,
-      acceptance: "Resolve every image cluster with explicit reusable-rights evidence or replacement media, update every affected source record together, and preserve unresolved items in review.",
-    };
-  });
+    if (claim?.status === "accepted") {
+      throw new Error(`Accepted image-rights packet membership reappeared: ${id}`);
+    }
+    packets.push(packetFromClusters(items, { claim }));
+  }
+  return packets.sort((left, right) => left.id.localeCompare(right.id));
 }
 
 function summarizeImageRights(placePages, clusters, packets) {
@@ -244,6 +326,7 @@ module.exports = {
   buildRightsClusters,
   collectPlacePages,
   imageStorage,
+  imagePacketFingerprint,
   parsePlacePage,
   rightsGap,
   summarizeImageRights,

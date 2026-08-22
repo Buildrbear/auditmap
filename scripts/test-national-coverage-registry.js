@@ -382,16 +382,33 @@ const baseClaim = {
   lastUpdatedAt: "2026-08-17",
 };
 const claimsDocument = {
-  $schema: "./schemas/national-work-packet-claims.schema.json",
-  schemaVersion: 1,
+  $schema: "./schemas/national-work-packet-claims-v2.schema.json",
+  schemaVersion: 2,
   updatedAt: "2026-08-17",
   claims: [baseClaim],
 };
 assert.equal(validateClaimsDocument(claimsDocument, { asOf: "2026-08-18" }).length, 1);
+const imageClusterIds = ["image-rights-0123456789ab"];
+const imageRecordIds = ["/us/nc/raleigh/parks/live-park"];
+const imageFingerprint = require("./lib/national-image-rights-queue")
+  .imagePacketFingerprint(imageClusterIds, imageRecordIds);
 assert.equal(validateClaimsDocument({
   ...claimsDocument,
-  claims: [{ ...baseClaim, packetId: "image-rights-reconciliation-nc-raleigh-01" }],
+  claims: [{
+    ...baseClaim,
+    packetId: `image-rights-reconciliation-nc-raleigh-${imageFingerprint.slice(0, 8)}`,
+    packetFingerprint: imageFingerprint,
+    claimedClusterIds: imageClusterIds,
+    claimedRecordIds: imageRecordIds,
+  }],
 }, { asOf: "2026-08-18" }).length, 1);
+assert.throws(() => validateClaimsDocument({
+  ...claimsDocument,
+  claims: [{
+    ...baseClaim,
+    packetId: `image-rights-reconciliation-nc-raleigh-${imageFingerprint.slice(0, 8)}`,
+  }],
+}), /missing required field packetFingerprint/);
 assert.throws(() => validateClaimsDocument({
   ...claimsDocument,
   $schema: "./wrong-schema.json",

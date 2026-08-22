@@ -7,6 +7,7 @@ const path = require("node:path");
 const {
   IMAGE_PACKET_TYPE,
   buildImageRightsQueue,
+  imagePacketFingerprint,
 } = require("./lib/national-image-rights-queue");
 
 const root = path.resolve(__dirname, "..");
@@ -36,9 +37,9 @@ const CLAIM_STATUSES = new Set([
   "released",
 ]);
 const ACTIVE_CLAIM_STATUSES = new Set(["claimed", "submitted", "changes-requested"]);
-const CLAIM_PACKET_PATTERN = /^(release-reconciliation|research-completion|local-production-sync|image-rights-reconciliation)-[a-z]{2}-[a-z0-9-]+-[0-9]{2}$/;
+const CLAIM_PACKET_PATTERN = /^((release-reconciliation|research-completion|local-production-sync)-[a-z]{2}-[a-z0-9-]+-[0-9]{2}|image-rights-reconciliation-[a-z]{2}-[a-z0-9-]+-[a-f0-9]{8})$/;
 const ISO_DATE_PATTERN = /^\d{4}-\d{2}-\d{2}$/;
-const CLAIMS_SCHEMA_PATH = "./schemas/national-work-packet-claims.schema.json";
+const CLAIMS_SCHEMA_PATH = "./schemas/national-work-packet-claims-v2.schema.json";
 const CLAIM_DOCUMENT_FIELDS = new Set(["$schema", "schemaVersion", "updatedAt", "claims"]);
 const CLAIM_FIELDS = new Set([
   "packetId",
@@ -52,6 +53,9 @@ const CLAIM_FIELDS = new Set([
   "submissionUrl",
   "pullRequestUrl",
   "acceptedRecordIds",
+  "packetFingerprint",
+  "claimedClusterIds",
+  "claimedRecordIds",
   "reviewQueue",
   "notes",
 ]);
@@ -152,8 +156,8 @@ function dateInTimeZone(value = new Date(), timeZone = CAMPAIGN_TIME_ZONE) {
 
 function validateClaimsDocument(document, { asOf = null } = {}) {
   validateKnownFields(document, CLAIM_DOCUMENT_FIELDS, "claim ledger");
-  if (!document || document.schemaVersion !== 1 || !Array.isArray(document.claims)) {
-    throw new Error("Claim ledger must use schemaVersion 1 and contain a claims array");
+  if (!document || document.schemaVersion !== 2 || !Array.isArray(document.claims)) {
+    throw new Error("Claim ledger must use schemaVersion 2 and contain a claims array");
   }
   if (document.$schema !== CLAIMS_SCHEMA_PATH) {
     throw new Error(`Claim ledger $schema must be ${CLAIMS_SCHEMA_PATH}`);
@@ -217,6 +221,55 @@ function validateClaimsDocument(document, { asOf = null } = {}) {
           throw new Error(`Duplicate acceptedRecordId for claim ${claim.packetId}: ${recordId}`);
         }
         acceptedRecordIds.add(recordId);
+      }
+    }
+    if (claim.packetId.startsWith(`${IMAGE_PACKET_TYPE}-`)) {
+      for (const field of ["packetFingerprint", "claimedClusterIds", "claimedRecordIds"]) {
+        if (claim[field] === undefined) {
+          throw new Error(`Image-rights claim ${claim.packetId} is missing required field ${field}`);
+        }
+      }
+      if (!/^[a-f0-9]{64}$/.test(claim.packetFingerprint)) {
+        throw new Error(`Invalid packetFingerprint for image-rights claim ${claim.packetId}`);
+      }
+      if (!Array.isArray(claim.claimedClusterIds) || !claim.claimedClusterIds.length) {
+        throw new Error(`Invalid claimedClusterIds for image-rights claim ${claim.packetId}`);
+      }
+      if (!Array.isArray(claim.claimedRecordIds) || !claim.claimedRecordIds.length) {
+        throw new Error(`Invalid claimedRecordIds for image-rights claim ${claim.packetId}`);
+      }
+      const clusterIds = new Set();
+      for (const clusterId of claim.claimedClusterIds) {
+        if (!/^image-rights-[a-f0-9]{12}$/.test(clusterId)) {
+          throw new Error(`Invalid claimedClusterId for image-rights claim ${claim.packetId}`);
+        }
+        if (clusterIds.has(clusterId)) {
+          throw new Error(`Duplicate claimedClusterId for image-rights claim ${claim.packetId}`);
+        }
+        clusterIds.add(clusterId);
+      }
+      const recordIds = new Set();
+      for (const recordId of claim.claimedRecordIds) {
+        if (typeof recordId !== "string" || !recordId.startsWith("/us/")) {
+          throw new Error(`Invalid claimedRecordId for image-rights claim ${claim.packetId}`);
+        }
+        if (recordIds.has(recordId)) {
+          throw new Error(`Duplicate claimedRecordId for image-rights claim ${claim.packetId}`);
+        }
+        recordIds.add(recordId);
+      }
+      const fingerprint = imagePacketFingerprint(claim.claimedClusterIds, claim.claimedRecordIds);
+      if (fingerprint !== claim.packetFingerprint) {
+        throw new Error(`Image-rights claim fingerprint differs from its snapshot: ${claim.packetId}`);
+      }
+      if (!claim.packetId.endsWith(`-${fingerprint.slice(0, 8)}`)) {
+        throw new Error(`Image-rights claim packet ID differs from its fingerprint: ${claim.packetId}`);
+      }
+    } else {
+      for (const field of ["packetFingerprint", "claimedClusterIds", "claimedRecordIds"]) {
+        if (claim[field] !== undefined) {
+          throw new Error(`Non-image claim ${claim.packetId} may not include ${field}`);
+        }
       }
     }
     if (claim.reviewQueue !== undefined) {

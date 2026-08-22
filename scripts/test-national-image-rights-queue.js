@@ -3,6 +3,7 @@ const {
   IMAGE_PACKET_TYPE,
   buildImageRightsPackets,
   buildRightsClusters,
+  imagePacketFingerprint,
   summarizeImageRights,
 } = require("./lib/national-image-rights-queue");
 
@@ -77,16 +78,56 @@ assert.equal(packets.length, 2);
 assert.ok(packets.every((packet) => packet.type === IMAGE_PACKET_TYPE));
 assert.ok(packets.every((packet) => packet.audience === "internal"));
 assert.equal(new Set(packets.flatMap((packet) => packet.recordIds)).size, 3);
-assert.ok(packets.every((packet) => /-0[12]$/.test(packet.id)));
+assert.ok(packets.every((packet) => /-[a-f0-9]{8}$/.test(packet.id)));
 
-const claimedId = packets[0].id;
-const claimed = buildImageRightsPackets(clusters, [{
-  packetId: claimedId,
+const claimedPacket = packets[0];
+const claim = {
+  packetId: claimedPacket.id,
   status: "claimed",
   assignee: "internal-agent",
-}]).find((packet) => packet.id === claimedId);
+  packetFingerprint: claimedPacket.packetFingerprint,
+  claimedClusterIds: claimedPacket.clusterIds,
+  claimedRecordIds: claimedPacket.recordIds,
+};
+assert.equal(
+  imagePacketFingerprint(claim.claimedClusterIds, claim.claimedRecordIds),
+  claim.packetFingerprint,
+);
+const claimed = buildImageRightsPackets(clusters, [claim])
+  .find((packet) => packet.id === claimedPacket.id);
 assert.equal(claimed.status, "claimed");
 assert.equal(claimed.claim.assignee, "internal-agent");
+assert.equal(claimed.remainingCount, claimed.count);
+
+const resolvedClusters = clusters.filter((cluster) =>
+  !claim.claimedClusterIds.includes(cluster.id),
+);
+const retainedAfterResolution = buildImageRightsPackets(resolvedClusters, [claim])
+  .find((packet) => packet.id === claimedPacket.id);
+assert.ok(retainedAfterResolution, "an active packet must survive after its final gap is fixed");
+assert.equal(retainedAfterResolution.remainingCount, 0);
+assert.deepEqual(retainedAfterResolution.resolvedRecordIds, claim.claimedRecordIds);
+
+assert.doesNotThrow(() => buildImageRightsPackets(resolvedClusters, [{
+  ...claim,
+  status: "accepted",
+}]));
+assert.throws(() => buildImageRightsPackets(clusters, [{
+  ...claim,
+  status: "accepted",
+}]), /accepted image-rights claim still has unresolved clusters/i);
+
+const changedPages = pages.map((page) => page.image?.url === unclear.url
+  ? { ...page, image: { ...page.image, url: "/assets/parks/replacement-candidate.webp" } }
+  : page);
+const changedClusters = buildRightsClusters(changedPages);
+const changedPacket = buildImageRightsPackets(changedClusters, [{
+  ...claim,
+  status: "accepted",
+}]).find((packet) => packet.state === claimedPacket.state);
+assert.ok(changedPacket, "changed image membership must create an open packet");
+assert.equal(changedPacket.status, "open");
+assert.notEqual(changedPacket.id, claimedPacket.id);
 
 assert.deepEqual(summarizeImageRights(pages, clusters, packets), {
   imageRightsPlacePagesScanned: 4,

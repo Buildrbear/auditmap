@@ -49,8 +49,8 @@ publishing duplicate registry keys.
 
 Every internal or OpenTask assignment must claim one packet from
 `data/generated/national-work-packets.json`. Record the reservation in
-`data/national-work-packet-claims.json`. The stable version-1 contract is defined by
-`data/schemas/national-work-packet-claims.schema.json` and requires:
+`data/national-work-packet-claims.json`. The current version-2 contract is defined by
+`data/schemas/national-work-packet-claims-v2.schema.json` and requires:
 
 - packet ID
 - assignee
@@ -75,21 +75,26 @@ statement before creating `image-rights-reconciliation` packets. One cluster can
 parent and several subsites together instead of asking different agents to repeat the same rights
 decision.
 
-Image packets use two stable hash buckets per city. Removing a completed cluster does not renumber
-the other city's packets, which keeps active claims reproducible. Each packet lists the affected page
-paths and the exact existing image metadata. An accepted packet must either document explicit reuse
-rights for the exact image or replace it with real, destination-matched reusable media; official
-hosting and attribution alone are not permission.
+Image packets use two stable hash buckets per city, then fingerprint the exact cluster and page
+membership into the packet ID. An active claim retains that immutable snapshot even after its final
+gap is fixed, so refresh and release checks continue to pass until review closes the claim. New or
+changed gaps receive a different fingerprinted packet instead of inheriting an old accepted status.
+Each packet lists the affected page paths and the exact existing image metadata. An accepted packet
+must either document explicit reuse rights for the exact image or replace it with real,
+destination-matched reusable media; official hosting and attribution alone are not permission.
 
 These packets are internal and intentionally omitted from the generated OpenTask table. Before an
 internal image session opens any source pages, reserve the exact packet ID in the same claim ledger.
 The claim schema accepts the `image-rights-reconciliation` prefix, and active accepted-record IDs
 must remain inside that packet.
 
-Optional version-1 fields are `submissionUrl`, `pullRequestUrl`, `acceptedRecordIds`, `reviewQueue`,
+Optional shared fields are `submissionUrl`, `pullRequestUrl`, `acceptedRecordIds`, `reviewQueue`,
 and `notes`. Review-queue entries use the schema's structured `issue` and `recommendation` fields,
-plus an optional HTTPS `sourceUrl`; plain strings are not valid queue entries. Adding a new required
-field or changing status meaning requires a new schema version.
+plus an optional HTTPS `sourceUrl`; plain strings are not valid queue entries. Image-rights claims
+also require `packetFingerprint`, `claimedClusterIds`, and `claimedRecordIds` so their exact starting
+membership remains immutable through review. Adding another required field or changing status
+meaning requires a new schema version. The version-1 schema remains checked in for historical
+reference; new claims use version 2.
 
 ## Daily cycle
 

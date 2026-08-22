@@ -1,7 +1,7 @@
 {
-  "$schema": "./schemas/national-work-packet-claims.schema.json",
-  "schemaVersion": 1,
-  "updatedAt": "2026-08-21",
+  "$schema": "./schemas/national-work-packet-claims-v2.schema.json",
+  "schemaVersion": 2,
+  "updatedAt": "2026-08-22",
   "claims": [
     {
       "packetId": "release-reconciliation-ak-anchorage-01",
