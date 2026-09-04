@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-08-21",
+  "asOf": "2026-09-04",
   "summary": {
-    "knownDestinations": 3362,
+    "knownDestinations": 3370,
     "liveDestinationPages": 3303,
     "liveParentPages": 907,
     "liveSubsitePages": 2396,
-    "hopper": 59,
+    "hopper": 67,
     "generatedLocallyNotLive": 0,
-    "researchOnly": 49,
-    "blockedReview": 10,
+    "researchOnly": 51,
+    "blockedReview": 16,
     "productionMissingFromLocal": 0,
-    "recordsWithResearchHandoffs": 100,
-    "mappableDestinations": 2935,
-    "openReviewItems": 11
+    "recordsWithResearchHandoffs": 108,
+    "mappableDestinations": 2943,
+    "openReviewItems": 17
   },
   "packets": [
     {
@@ -357,6 +357,38 @@
       "count": 1,
       "recordIds": [
         "/us/nc/raleigh/parks/spring-forest-road-park"
+      ],
+      "acceptance": "Resolve the listed evidence or identity gaps and deliver a source-format, reviewable handoff; do not publish guesses."
+    },
+    {
+      "id": "research-completion-pa-brogue-01",
+      "type": "research-completion",
+      "state": "PA",
+      "citySlug": "brogue",
+      "status": "open",
+      "claim": null,
+      "count": 1,
+      "recordIds": [
+        "/us/pa/brogue/parks/rocky-ridge-park"
+      ],
+      "acceptance": "Resolve the listed evidence or identity gaps and deliver a source-format, reviewable handoff; do not publish guesses."
+    },
+    {
+      "id": "research-completion-pa-york-01",
+      "type": "research-completion",
+      "state": "PA",
+      "citySlug": "york",
+      "status": "open",
+      "claim": null,
+      "count": 7,
+      "recordIds": [
+        "/us/pa/york/parks/farquhar-park-and-kiwanis-lake",
+        "/us/pa/york/parks/heritage-rail-trail-county-park",
+        "/us/pa/york/parks/john-c-rudy-park",
+        "/us/pa/york/parks/memorial-park-complex",
+        "/us/pa/york/parks/penn-park",
+        "/us/pa/york/parks/richard-m-nixon-park",
+        "/us/pa/york/parks/william-h-kain-park"
       ],
       "acceptance": "Resolve the listed evidence or identity gaps and deliver a source-format, reviewable handoff; do not publish guesses."
     },

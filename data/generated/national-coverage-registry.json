@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-08-21",
+  "asOf": "2026-09-04",
   "productionEvidence": {
     "sitemap": "https://www.auditmap.org/sitemap.xml",
     "catalog": "https://www.auditmap.org/data/generated/official-catalog.json",
-    "catalogGeneratedAt": "2026-08-11T09:40:25.704Z"
+    "catalogGeneratedAt": "2026-08-22T05:01:58.062Z"
   },
   "localEvidence": {
     "sitemap": "sitemap.xml",
     "catalog": "data/generated/official-catalog.json",
-    "catalogGeneratedAt": "2026-08-11T09:40:25.704Z",
-    "gitBranch": "codex/national-registry-production-snapshot",
-    "gitCommit": "b4832a7e311fa2de3643d4ed9ca5a9783f17c632"
+    "catalogGeneratedAt": "2026-08-22T05:01:58.062Z",
+    "gitBranch": "codex/york-pa-anchor-parks",
+    "gitCommit": "bf9a3385cc5d8d53e41045b6e4382d2aa1d20fe2"
   },
   "spatialEvidence": {
     "registry": "data/spatial-source-registry.json",
@@ -21,18 +21,18 @@
     "reviewRequiredSources": 12
   },
   "summary": {
-    "knownDestinations": 3362,
+    "knownDestinations": 3370,
     "liveDestinationPages": 3303,
     "liveParentPages": 907,
     "liveSubsitePages": 2396,
-    "hopper": 59,
+    "hopper": 67,
     "generatedLocallyNotLive": 0,
-    "researchOnly": 49,
-    "blockedReview": 10,
+    "researchOnly": 51,
+    "blockedReview": 16,
     "productionMissingFromLocal": 0,
-    "recordsWithResearchHandoffs": 100,
-    "mappableDestinations": 2935,
-    "openReviewItems": 11
+    "recordsWithResearchHandoffs": 108,
+    "mappableDestinations": 2943,
+    "openReviewItems": 17
   },
   "records": [
     {
@@ -54348,6 +54348,49 @@
       "coordinateSource": "OpenStreetMap Nominatim"
     },
     {
+      "id": "/us/pa/brogue/parks/rocky-ridge-park",
+      "path": "/us/pa/brogue/parks/rocky-ridge-park",
+      "url": "https://www.auditmap.org/us/pa/brogue/parks/rocky-ridge-park",
+      "kind": "parent",
+      "state": "PA",
+      "citySlug": "brogue",
+      "parentSlug": "rocky-ridge-park",
+      "subsiteSlug": null,
+      "name": "Rocky Ridge Park",
+      "city": "Brogue",
+      "latitude": 39.8829385152039,
+      "longitude": -76.4658914468393,
+      "positionQuality": "reviewed-official-facility-map-pin",
+      "coordinateSource": "York County facility-page map record 7",
+      "releaseStatus": "research-only",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "york-pa-anchor-parks-2026-09-04",
+          "sourceRecordSlug": "rocky-ridge-park",
+          "name": "Rocky Ridge Park",
+          "city": "Brogue",
+          "state": "PA",
+          "managingAgency": "York County Parks and Recreation",
+          "checkedAt": "2026-09-04",
+          "officialSources": [
+            "https://yorkcountypa.gov/Facilities/Facility/Details/Rocky-Ridge-Park-7",
+            "https://yorkcountypa.gov/Facilities/Facility/Details/Rocky-Ridge-Park-7",
+            "https://yorkcountypa.gov/1069/Hunting-in-York-County-Parks"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/74",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        }
+      ],
+      "openReviewItems": []
+    },
+    {
       "id": "/us/pa/philadelphia/parks/dilworth-park",
       "path": "/us/pa/philadelphia/parks/dilworth-park",
       "url": "https://www.auditmap.org/us/pa/philadelphia/parks/dilworth-park",
@@ -56062,6 +56105,462 @@
       "longitude": -79.9525627,
       "positionQuality": "reviewed-named-destination-way-and-official-entrance-map-match",
       "coordinateSource": "https://www.openstreetmap.org/way/25735220"
+    },
+    {
+      "id": "/us/pa/york/parks/farquhar-park-and-kiwanis-lake",
+      "path": "/us/pa/york/parks/farquhar-park-and-kiwanis-lake",
+      "url": "https://www.auditmap.org/us/pa/york/parks/farquhar-park-and-kiwanis-lake",
+      "kind": "parent",
+      "state": "PA",
+      "citySlug": "york",
+      "parentSlug": "farquhar-park-and-kiwanis-lake",
+      "subsiteSlug": null,
+      "name": "Farquhar Park and Kiwanis Lake",
+      "city": "York",
+      "latitude": 39.9687512,
+      "longitude": -76.7417683,
+      "positionQuality": "reviewed-official-directory-linked-map-pin",
+      "coordinateSource": "City of York outdoor-facilities Kiwanis Lake Get Directions destination",
+      "releaseStatus": "blocked-review",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "york-pa-anchor-parks-2026-09-04",
+          "sourceRecordSlug": "farquhar-park-and-kiwanis-lake",
+          "name": "Farquhar Park and Kiwanis Lake",
+          "city": "York",
+          "state": "PA",
+          "managingAgency": "City of York Parks and Recreation",
+          "checkedAt": "2026-09-04",
+          "officialSources": [
+            "https://www.yorkcity.org/visitor/sports-recreation/",
+            "https://www.yorkcity.org/visitor/sports-recreation/",
+            "https://www.yorkcity.org/visitor/recreation-parks-overview/",
+            "https://www.yorkcity.org/files/Park-Amenities2.pdf"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/74",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [
+            {
+              "park_slug": "farquhar-park-and-kiwanis-lake",
+              "field_or_feature": "parent identity",
+              "conflict_or_missing_evidence": "The City markets Kiwanis Lake and Farquhar Park together but lists separate map destinations in the outdoor-facilities directory.",
+              "sources_checked": [
+                "City sports directory",
+                "City outdoor park directory",
+                "City amenities matrix"
+              ],
+              "recommended_next_action": "Review parcel and wayfinding evidence to decide whether to publish one combined parent or two adjacent parents."
+            }
+          ],
+          "override": null
+        }
+      ],
+      "openReviewItems": [
+        {
+          "park_slug": "farquhar-park-and-kiwanis-lake",
+          "field_or_feature": "parent identity",
+          "conflict_or_missing_evidence": "The City markets Kiwanis Lake and Farquhar Park together but lists separate map destinations in the outdoor-facilities directory.",
+          "sources_checked": [
+            "City sports directory",
+            "City outdoor park directory",
+            "City amenities matrix"
+          ],
+          "recommended_next_action": "Review parcel and wayfinding evidence to decide whether to publish one combined parent or two adjacent parents."
+        }
+      ]
+    },
+    {
+      "id": "/us/pa/york/parks/heritage-rail-trail-county-park",
+      "path": "/us/pa/york/parks/heritage-rail-trail-county-park",
+      "url": "https://www.auditmap.org/us/pa/york/parks/heritage-rail-trail-county-park",
+      "kind": "parent",
+      "state": "PA",
+      "citySlug": "york",
+      "parentSlug": "heritage-rail-trail-county-park",
+      "subsiteSlug": null,
+      "name": "York County Heritage Rail Trail Park",
+      "city": "York",
+      "latitude": 39.9610075,
+      "longitude": -76.7317244,
+      "positionQuality": "review-required-address-level-arrival",
+      "coordinateSource": "City of York official 200 W Market Street arrival address, cross-checked to OpenStreetMap way 641752070",
+      "releaseStatus": "blocked-review",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "york-pa-anchor-parks-2026-09-04",
+          "sourceRecordSlug": "heritage-rail-trail-county-park",
+          "name": "York County Heritage Rail Trail Park",
+          "city": "York",
+          "state": "PA",
+          "managingAgency": "York County Parks and Recreation",
+          "checkedAt": "2026-09-04",
+          "officialSources": [
+            "https://yorkcountypa.gov/1004/York-County-Heritage-Rail-Trail-Park",
+            "https://yorkcountypa.gov/1004/York-County-Heritage-Rail-Trail-Park",
+            "https://yorkcountypa.gov/DocumentCenter/View/3523/Heritage-Rail-Trail-Park-Brochure-PDF?bidId=",
+            "https://www.yorkcity.org/visitor/sports-recreation/",
+            "https://www.openstreetmap.org/way/641752070"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/74",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [
+            {
+              "park_slug": "heritage-rail-trail-county-park",
+              "field_or_feature": "downtown York arrival coordinate",
+              "conflict_or_missing_evidence": "The City lists 200 W Market Street, but its Get Directions link resolves to a trail point several miles south. The retained coordinate is the listed-address cross-check, not a reviewed trail-connection pin.",
+              "sources_checked": [
+                "City of York sports directory",
+                "City outdoor park directory",
+                "York County trail page",
+                "OpenStreetMap address point"
+              ],
+              "recommended_next_action": "Confirm the exact downtown trail entrance against York County GIS or field evidence before publishing navigation."
+            }
+          ],
+          "override": null
+        }
+      ],
+      "openReviewItems": [
+        {
+          "park_slug": "heritage-rail-trail-county-park",
+          "field_or_feature": "downtown York arrival coordinate",
+          "conflict_or_missing_evidence": "The City lists 200 W Market Street, but its Get Directions link resolves to a trail point several miles south. The retained coordinate is the listed-address cross-check, not a reviewed trail-connection pin.",
+          "sources_checked": [
+            "City of York sports directory",
+            "City outdoor park directory",
+            "York County trail page",
+            "OpenStreetMap address point"
+          ],
+          "recommended_next_action": "Confirm the exact downtown trail entrance against York County GIS or field evidence before publishing navigation."
+        }
+      ]
+    },
+    {
+      "id": "/us/pa/york/parks/john-c-rudy-park",
+      "path": "/us/pa/york/parks/john-c-rudy-park",
+      "url": "https://www.auditmap.org/us/pa/york/parks/john-c-rudy-park",
+      "kind": "parent",
+      "state": "PA",
+      "citySlug": "york",
+      "parentSlug": "john-c-rudy-park",
+      "subsiteSlug": null,
+      "name": "John C. Rudy Park",
+      "city": "York",
+      "latitude": 40.020466848575,
+      "longitude": -76.7053900504439,
+      "positionQuality": "reviewed-official-facility-map-pin",
+      "coordinateSource": "York County facility-page map record 3",
+      "releaseStatus": "research-only",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "york-pa-anchor-parks-2026-09-04",
+          "sourceRecordSlug": "john-c-rudy-park",
+          "name": "John C. Rudy Park",
+          "city": "York",
+          "state": "PA",
+          "managingAgency": "York County Parks and Recreation",
+          "checkedAt": "2026-09-04",
+          "officialSources": [
+            "https://yorkcountypa.gov/Facilities/Facility/Details/John-C-Rudy-Park-3",
+            "https://yorkcountypa.gov/Facilities/Facility/Details/John-C-Rudy-Park-3",
+            "https://yorkcountypa.gov/680/John-C-Rudy-Park"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/74",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [],
+          "override": null
+        }
+      ],
+      "openReviewItems": []
+    },
+    {
+      "id": "/us/pa/york/parks/memorial-park-complex",
+      "path": "/us/pa/york/parks/memorial-park-complex",
+      "url": "https://www.auditmap.org/us/pa/york/parks/memorial-park-complex",
+      "kind": "parent",
+      "state": "PA",
+      "citySlug": "york",
+      "parentSlug": "memorial-park-complex",
+      "subsiteSlug": null,
+      "name": "Memorial Park Complex",
+      "city": "York",
+      "latitude": 39.9534704,
+      "longitude": -76.7109545,
+      "positionQuality": "reviewed-official-directory-linked-map-pin",
+      "coordinateSource": "City of York outdoor-facilities Hoffman Softball Complex Get Directions destination",
+      "releaseStatus": "blocked-review",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "york-pa-anchor-parks-2026-09-04",
+          "sourceRecordSlug": "memorial-park-complex",
+          "name": "Memorial Park Complex",
+          "city": "York",
+          "state": "PA",
+          "managingAgency": "City of York Parks and Recreation",
+          "checkedAt": "2026-09-04",
+          "officialSources": [
+            "https://www.yorkcity.org/visitor/sports-recreation/",
+            "https://www.yorkcity.org/visitor/sports-recreation/",
+            "https://www.yorkcity.org/visitor/recreation-parks-overview/",
+            "https://www.yorkcity.org/files/Memorial-Park.pdf",
+            "https://www.yorkcity.org/memorial-park-batting-cages/"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/74",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [
+            {
+              "park_slug": "memorial-park-complex",
+              "field_or_feature": "canonical name and arrival",
+              "conflict_or_missing_evidence": "Current City pages and the official map use Memorial Park Complex, Memorial Park, Veterans Memorial Park Complex, and Hoffman Softball Complex; listed street addresses also vary by facility.",
+              "sources_checked": [
+                "City sports directory",
+                "City outdoor park directory",
+                "official complex map",
+                "batting-cages page"
+              ],
+              "recommended_next_action": "Use the whole-complex boundary and current entrance signs to choose the canonical parent name and primary arrival."
+            }
+          ],
+          "override": null
+        }
+      ],
+      "openReviewItems": [
+        {
+          "park_slug": "memorial-park-complex",
+          "field_or_feature": "canonical name and arrival",
+          "conflict_or_missing_evidence": "Current City pages and the official map use Memorial Park Complex, Memorial Park, Veterans Memorial Park Complex, and Hoffman Softball Complex; listed street addresses also vary by facility.",
+          "sources_checked": [
+            "City sports directory",
+            "City outdoor park directory",
+            "official complex map",
+            "batting-cages page"
+          ],
+          "recommended_next_action": "Use the whole-complex boundary and current entrance signs to choose the canonical parent name and primary arrival."
+        }
+      ]
+    },
+    {
+      "id": "/us/pa/york/parks/penn-park",
+      "path": "/us/pa/york/parks/penn-park",
+      "url": "https://www.auditmap.org/us/pa/york/parks/penn-park",
+      "kind": "parent",
+      "state": "PA",
+      "citySlug": "york",
+      "parentSlug": "penn-park",
+      "subsiteSlug": null,
+      "name": "Penn Park",
+      "city": "York",
+      "latitude": 39.9564946,
+      "longitude": -76.7271856,
+      "positionQuality": "reviewed-official-directory-linked-map-pin",
+      "coordinateSource": "City of York outdoor-facilities Penn Park Get Directions destination",
+      "releaseStatus": "blocked-review",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "york-pa-anchor-parks-2026-09-04",
+          "sourceRecordSlug": "penn-park",
+          "name": "Penn Park",
+          "city": "York",
+          "state": "PA",
+          "managingAgency": "City of York Parks and Recreation",
+          "checkedAt": "2026-09-04",
+          "officialSources": [
+            "https://www.yorkcity.org/visitor/recreation-parks-overview/",
+            "https://www.yorkcity.org/visitor/recreation-parks-overview/",
+            "https://www.yorkcity.org/penn-park-splash-pad-to-close-for-the-season-on-september-8-2026/",
+            "https://www.yorkcity.org/visitor/programs-activities/"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/74",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [
+            {
+              "park_slug": "penn-park",
+              "field_or_feature": "splash-pad season",
+              "conflict_or_missing_evidence": "The splash pad closes September 8, 2026 and is scheduled to reopen Memorial Day weekend 2027; ordinary park access is separate.",
+              "sources_checked": [
+                "City outdoor park directory",
+                "September 2, 2026 City closure notice"
+              ],
+              "recommended_next_action": "Model the splash pad as a seasonal subsite with its own hours and recheck date; do not apply its closure to the parent park."
+            }
+          ],
+          "override": null
+        }
+      ],
+      "openReviewItems": [
+        {
+          "park_slug": "penn-park",
+          "field_or_feature": "splash-pad season",
+          "conflict_or_missing_evidence": "The splash pad closes September 8, 2026 and is scheduled to reopen Memorial Day weekend 2027; ordinary park access is separate.",
+          "sources_checked": [
+            "City outdoor park directory",
+            "September 2, 2026 City closure notice"
+          ],
+          "recommended_next_action": "Model the splash pad as a seasonal subsite with its own hours and recheck date; do not apply its closure to the parent park."
+        }
+      ]
+    },
+    {
+      "id": "/us/pa/york/parks/richard-m-nixon-park",
+      "path": "/us/pa/york/parks/richard-m-nixon-park",
+      "url": "https://www.auditmap.org/us/pa/york/parks/richard-m-nixon-park",
+      "kind": "parent",
+      "state": "PA",
+      "citySlug": "york",
+      "parentSlug": "richard-m-nixon-park",
+      "subsiteSlug": null,
+      "name": "Richard Nixon Park",
+      "city": "York",
+      "latitude": 39.884219726053,
+      "longitude": -76.7307759851128,
+      "positionQuality": "reviewed-official-facility-map-pin",
+      "coordinateSource": "York County facility-page map record 8",
+      "releaseStatus": "blocked-review",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "york-pa-anchor-parks-2026-09-04",
+          "sourceRecordSlug": "richard-m-nixon-park",
+          "name": "Richard Nixon Park",
+          "city": "York",
+          "state": "PA",
+          "managingAgency": "York County Parks and Recreation",
+          "checkedAt": "2026-09-04",
+          "officialSources": [
+            "https://www.yorkcountypa.gov/facilities/facility/details/Richard-Nixon-Park-8",
+            "https://www.yorkcountypa.gov/facilities/facility/details/Richard-Nixon-Park-8",
+            "https://yorkcountypa.gov/568/Parks-Recreation?Itemid=466",
+            "https://yorkcountypa.gov/DocumentCenter/View/2474"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/74",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [
+            {
+              "park_slug": "richard-m-nixon-park",
+              "field_or_feature": "nature-center status and hours",
+              "conflict_or_missing_evidence": "An older alert still says the nature center is closed, while the current Parks and Recreation page states it has reopened after renovations and lists current hours.",
+              "sources_checked": [
+                "York County alert center",
+                "current Parks and Recreation page",
+                "Richard Nixon Park facility page"
+              ],
+              "recommended_next_action": "Treat the current reopening page as controlling, but recheck the operator and remove or resolve the stale alert before launch."
+            }
+          ],
+          "override": null
+        }
+      ],
+      "openReviewItems": [
+        {
+          "park_slug": "richard-m-nixon-park",
+          "field_or_feature": "nature-center status and hours",
+          "conflict_or_missing_evidence": "An older alert still says the nature center is closed, while the current Parks and Recreation page states it has reopened after renovations and lists current hours.",
+          "sources_checked": [
+            "York County alert center",
+            "current Parks and Recreation page",
+            "Richard Nixon Park facility page"
+          ],
+          "recommended_next_action": "Treat the current reopening page as controlling, but recheck the operator and remove or resolve the stale alert before launch."
+        }
+      ]
+    },
+    {
+      "id": "/us/pa/york/parks/william-h-kain-park",
+      "path": "/us/pa/york/parks/william-h-kain-park",
+      "url": "https://www.auditmap.org/us/pa/york/parks/william-h-kain-park",
+      "kind": "parent",
+      "state": "PA",
+      "citySlug": "york",
+      "parentSlug": "william-h-kain-park",
+      "subsiteSlug": null,
+      "name": "William H. Kain Park",
+      "city": "York",
+      "latitude": 39.898543499998,
+      "longitude": -76.3993995999961,
+      "positionQuality": "review-required-official-facility-map-pin",
+      "coordinateSource": "York County facility-page map record 12",
+      "releaseStatus": "blocked-review",
+      "productionPresent": false,
+      "localPresent": false,
+      "reconciliationFlags": [
+        "research-not-integrated"
+      ],
+      "researchSources": [
+        {
+          "sourceId": "york-pa-anchor-parks-2026-09-04",
+          "sourceRecordSlug": "william-h-kain-park",
+          "name": "William H. Kain Park",
+          "city": "York",
+          "state": "PA",
+          "managingAgency": "York County Parks and Recreation",
+          "checkedAt": "2026-09-04",
+          "officialSources": [
+            "https://yorkcountypa.gov/704/William-Kain-Park",
+            "https://yorkcountypa.gov/704/William-Kain-Park",
+            "https://www.yorkcountypa.gov/Facilities/Facility/Details/William-Kain-Park-12",
+            "https://yorkcountypa.gov/DocumentCenter/View/2514/Park-Brochure-and-Trail-Map-PDF",
+            "https://yorkcountypa.gov/1069/Hunting-in-York-County-Parks"
+          ],
+          "handoffUrl": "https://github.com/Buildrbear/auditmap/issues/74",
+          "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+          "reviewItems": [
+            {
+              "park_slug": "william-h-kain-park",
+              "field_or_feature": "canonical postal address",
+              "conflict_or_missing_evidence": "The County overview gives 274 Hess Farm Road, York, PA 17403 while the facility directory renders the same street address as Brogue, PA 17309.",
+              "sources_checked": [
+                "York County Kain overview",
+                "York County facility record 12",
+                "York County park brochure"
+              ],
+              "recommended_next_action": "Ask the operator which postal locality should appear on a public guide; retain the official facility pin independently."
+            }
+          ],
+          "override": null
+        }
+      ],
+      "openReviewItems": [
+        {
+          "park_slug": "william-h-kain-park",
+          "field_or_feature": "canonical postal address",
+          "conflict_or_missing_evidence": "The County overview gives 274 Hess Farm Road, York, PA 17403 while the facility directory renders the same street address as Brogue, PA 17309.",
+          "sources_checked": [
+            "York County Kain overview",
+            "York County facility record 12",
+            "York County park brochure"
+          ],
+          "recommended_next_action": "Ask the operator which postal locality should appear on a public guide; retain the official facility pin independently."
+        }
+      ]
     },
     {
       "id": "/us/ri/providence/parks/india-point-park",
