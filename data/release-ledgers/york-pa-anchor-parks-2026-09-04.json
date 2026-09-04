@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "campaignId": "york-pa-anchor-parks-2026-09-04",
+  "asOf": "2026-09-04",
+  "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+  "issueUrl": "https://github.com/Buildrbear/auditmap/issues/74",
+  "contributionTier": "inventory",
+  "summary": {
+    "intakeRecords": 8,
+    "researched": 8,
+    "needsLaunchGuide": 8,
+    "blockedReview": 6,
+    "generatedLocally": 0,
+    "deployed": 0
+  },
+  "productionCatalogUrl": "https://www.auditmap.org/data/generated/official-catalog.json",
+  "records": [
+    {"recordId": "/us/pa/york/parks/heritage-rail-trail-county-park", "name": "York County Heritage Rail Trail Park", "state": "blocked-coordinate-review", "productionPresent": false, "localGeneratedPresent": false, "acceptedInventory": true, "coordinateStatus": "review-required-address-level-arrival", "nextAction": "Confirm the exact downtown York trail entrance, finish visitor answers, and clear representative ground photography."},
+    {"recordId": "/us/pa/york/parks/john-c-rudy-park", "name": "John C. Rudy Park", "state": "needs-launch-guide", "productionPresent": false, "localGeneratedPresent": false, "acceptedInventory": true, "coordinateStatus": "reviewed-official-facility-pin", "nextAction": "Complete current visitor answers and obtain representative reuse-cleared ground photography."},
+    {"recordId": "/us/pa/brogue/parks/rocky-ridge-park", "name": "Rocky Ridge Park", "state": "needs-launch-guide", "productionPresent": false, "localGeneratedPresent": false, "acceptedInventory": true, "coordinateStatus": "reviewed-official-facility-pin", "nextAction": "Complete current visitor answers and obtain representative reuse-cleared ground photography."},
+    {"recordId": "/us/pa/york/parks/richard-m-nixon-park", "name": "Richard Nixon Park", "state": "blocked-operations-review", "productionPresent": false, "localGeneratedPresent": false, "acceptedInventory": true, "coordinateStatus": "reviewed-official-facility-pin", "nextAction": "Recheck the current nature-center reopening and hours, then complete visitor answers and photography."},
+    {"recordId": "/us/pa/york/parks/william-h-kain-park", "name": "William H. Kain Park", "state": "blocked-address-review", "productionPresent": false, "localGeneratedPresent": false, "acceptedInventory": true, "coordinateStatus": "review-required-official-facility-pin", "nextAction": "Resolve the York/Brogue postal conflict, then complete visitor answers and photography."},
+    {"recordId": "/us/pa/york/parks/farquhar-park-and-kiwanis-lake", "name": "Farquhar Park and Kiwanis Lake", "state": "blocked-identity-review", "productionPresent": false, "localGeneratedPresent": false, "acceptedInventory": true, "coordinateStatus": "reviewed-official-directory-linked-map-pin", "nextAction": "Choose a combined or separate parent structure, then complete visitor answers and photography."},
+    {"recordId": "/us/pa/york/parks/memorial-park-complex", "name": "Memorial Park Complex", "state": "blocked-identity-review", "productionPresent": false, "localGeneratedPresent": false, "acceptedInventory": true, "coordinateStatus": "reviewed-official-directory-linked-map-pin", "nextAction": "Resolve the canonical complex name and primary arrival, then complete visitor answers and photography."},
+    {"recordId": "/us/pa/york/parks/penn-park", "name": "Penn Park", "state": "blocked-seasonal-subsite-review", "productionPresent": false, "localGeneratedPresent": false, "acceptedInventory": true, "coordinateStatus": "reviewed-official-directory-linked-map-pin", "nextAction": "Model the splash pad separately with seasonal hours, then complete the parent visitor answers and photography."}
+  ]
+}

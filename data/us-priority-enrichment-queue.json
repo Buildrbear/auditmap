@@ -509,21 +509,34 @@
         "Verified the production sitemap, Cleveland parent and destination routes, optimized hero images, permanent Atlanta canonical redirects, 390-pixel layouts, and browser console before accepting all 15 submitted claims and reopening two municipality-breadth lanes plus one depth lane."
       ],
     "campaignCapacity": {
-      "asOf": "2026-08-21",
+      "asOf": "2026-09-04",
         "limits": {
           "municipalityBreadth": 2,
           "depth": 1
         },
       "activeLanes": {
-        "municipalityBreadth": [],
+        "municipalityBreadth": [
+          {
+            "packetId": "research-completion-pa-brogue-01",
+            "issueUrl": "https://github.com/Buildrbear/auditmap/issues/74",
+            "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/75",
+            "status": "submitted"
+          },
+          {
+            "packetId": "research-completion-pa-york-01",
+            "issueUrl": "https://github.com/Buildrbear/auditmap/issues/74",
+            "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/75",
+            "status": "submitted"
+          }
+        ],
         "depth": []
       },
       "available": {
-        "municipalityBreadth": 2,
+        "municipalityBreadth": 0,
         "depth": 1
       }
     },
-    "nextAction": "Claim the next generated national work packet under the refreshed registry. Up to two municipality-breadth lanes and one depth lane are available. Keep accepted inventory parents launch-guide-gated and do not reopen completed work without a specific defect or new evidence.",
+    "nextAction": "Review York inventory PR #75 and resolve its arrival, identity, seasonal, visitor-answer, and ground-photo gates before publication. Both municipality-breadth lanes are reserved by the linked York County packets; one depth lane remains available for separately assigned work.",
     "notReleased": false,
     "productionPublished": true
     }

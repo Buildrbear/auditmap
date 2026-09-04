@@ -421,6 +421,7 @@
     "verify:boone:research": "node scripts/verify-boone-research-completion.js",
     "verify:mesa:research": "node scripts/verify-mesa-parks-discovery.js",
     "verify:el-paso:research": "node scripts/verify-el-paso-parks-discovery.js",
+    "verify:york-pa:research": "node scripts/verify-york-pa-anchor-parks-research.js",
     "generate": "node scripts/generate-search-pages.js",
     "generate:scope": "node scripts/generate-search-pages.js",
     "test:generate:scope": "node scripts/test-scoped-search-generation.js",

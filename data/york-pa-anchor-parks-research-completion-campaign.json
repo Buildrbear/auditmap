@@ -1,0 +1,22 @@
+{
+  "campaign": "York, Pennsylvania anchor parks research completion",
+  "packetIds": [
+    "research-completion-pa-york-01",
+    "research-completion-pa-brogue-01"
+  ],
+  "checkedAt": "2026-09-04",
+  "contributionTier": "inventory",
+  "issueUrl": "https://github.com/Buildrbear/auditmap/issues/74",
+  "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+  "releaseStandard": "Accept eight source-backed parent inventory records for York city and York County. Keep all eight unpublished until current visitor answers, representative reuse-cleared ground photography, and the named identity or coordinate reviews clear a separate launch-guide assignment.",
+  "places": [
+    {"recordSlug": "heritage-rail-trail-county-park", "name": "York County Heritage Rail Trail Park", "deferRelease": true, "photoGateStatus": "deferred-no-representative-reusable-ground-photo", "coordinateGateStatus": "review-required-downtown-arrival"},
+    {"recordSlug": "john-c-rudy-park", "name": "John C. Rudy Park", "deferRelease": true, "photoGateStatus": "deferred-no-representative-reusable-ground-photo"},
+    {"recordSlug": "rocky-ridge-park", "name": "Rocky Ridge Park", "deferRelease": true, "photoGateStatus": "deferred-no-representative-reusable-ground-photo"},
+    {"recordSlug": "richard-m-nixon-park", "name": "Richard Nixon Park", "deferRelease": true, "photoGateStatus": "deferred-no-representative-reusable-ground-photo", "operationsGateStatus": "recheck-reopening-and-hours"},
+    {"recordSlug": "william-h-kain-park", "name": "William H. Kain Park", "deferRelease": true, "photoGateStatus": "deferred-no-representative-reusable-ground-photo", "addressGateStatus": "review-required-locality-conflict"},
+    {"recordSlug": "farquhar-park-and-kiwanis-lake", "name": "Farquhar Park and Kiwanis Lake", "deferRelease": true, "photoGateStatus": "deferred-no-representative-reusable-ground-photo", "identityGateStatus": "review-required-combined-or-separate-parent"},
+    {"recordSlug": "memorial-park-complex", "name": "Memorial Park Complex", "deferRelease": true, "photoGateStatus": "deferred-no-representative-reusable-ground-photo", "identityGateStatus": "review-required-canonical-name-and-arrival"},
+    {"recordSlug": "penn-park", "name": "Penn Park", "deferRelease": true, "photoGateStatus": "deferred-no-representative-reusable-ground-photo", "seasonalGateStatus": "model-splash-pad-separately"}
+  ]
+}
