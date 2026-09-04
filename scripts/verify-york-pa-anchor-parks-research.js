@@ -12,6 +12,8 @@ const campaign = readJson("data/york-pa-anchor-parks-research-completion-campaig
 const ledger = readJson("data/release-ledgers/york-pa-anchor-parks-2026-09-04.json");
 const registry = readJson("data/generated/national-coverage-registry.json");
 const packets = readJson("data/generated/national-work-packets.json");
+const claims = readJson("data/national-work-packet-claims.json");
+const queue = readJson("data/us-priority-enrichment-queue.json");
 const sitemap = fs.readFileSync(path.join(root, "sitemap.xml"), "utf8");
 
 assert.equal(intake.campaignId, "york-pa-anchor-parks-2026-09-04");
@@ -68,7 +70,18 @@ for (const [packetId, count] of [
   const packet = packets.packets.find((entry) => entry.id === packetId);
   assert.ok(packet, `Missing generated packet ${packetId}`);
   assert.equal(packet.count, count);
+  assert.equal(packet.status, "submitted");
+  const claim = claims.claims.find((entry) => entry.packetId === packetId);
+  assert.ok(claim, `Missing claim for ${packetId}`);
+  assert.equal(claim.status, "submitted");
+  assert.equal(claim.issueUrl, "https://github.com/Buildrbear/auditmap/issues/74");
+  assert.equal(claim.pullRequestUrl, "https://github.com/Buildrbear/auditmap/pull/75");
 }
+
+const capacity = queue.activeCluster.resumeCheckpoint.campaignCapacity;
+assert.equal(capacity.asOf, "2026-09-04");
+assert.equal(capacity.activeLanes.municipalityBreadth.length, 2);
+assert.equal(capacity.available.municipalityBreadth, 0);
 
 const nixon = intake.records.find((record) => record.slug === "richard-m-nixon-park");
 assert.match(nixon.freshness, /reopening supersedes the older closure alert/);

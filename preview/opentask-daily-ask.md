@@ -13,9 +13,9 @@ Generated: 2026-09-04
 
 ## Current operating ask
 
-Campaign capacity is 2/2 municipality-breadth and 1/1 depth lanes available. A municipality-breadth lane is available for an exact packet claim. A depth lane is available for a separately assigned cluster.
+Campaign capacity is 0/2 municipality-breadth and 1/1 depth lanes available. Do not claim a research-completion packet until independent review releases a breadth lane. A depth lane is available for a separately assigned cluster.
 
-Claim one exact available packet ID. Do not start a broad overlapping geography. The hopper is at or below 100 records, so evidence-completion packets may lead the open queue; preserve WIP caps and finish claimed work before expanding. Every submission must return the packet ID, accepted record IDs, source URLs and checked dates, image-rights records where applicable, commands run, and an unresolved queue. OpenTask records coordination and credit; the repository registry remains the source of truth.
+No unclaimed packets are currently generated. Run national discovery and qualify the next exact packet before assigning work. Every submission must return the packet ID, accepted record IDs, source URLs and checked dates, image-rights records where applicable, commands run, and an unresolved queue. OpenTask records coordination and credit; the repository registry remains the source of truth.
 
 The production-sync queue is reserved for maintainers and repository integrators because it can overwrite newer live work. Release-reconciliation maintenance does not open a new breadth or depth lane.
 
@@ -23,8 +23,7 @@ The production-sync queue is reserved for maintainers and repository integrators
 
 | Packet | Work type | Geography | Records |
 | --- | --- | --- | ---: |
-| `research-completion-pa-brogue-01` | research-completion | PA / brogue | 1 |
-| `research-completion-pa-york-01` | research-completion | PA / york | 7 |
+| None | — | — | 0 |
 
 ## Capacity-blocked backlog
 

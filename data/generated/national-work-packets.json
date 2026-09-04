@@ -365,8 +365,29 @@
       "type": "research-completion",
       "state": "PA",
       "citySlug": "brogue",
-      "status": "open",
-      "claim": null,
+      "status": "submitted",
+      "claim": {
+        "packetId": "research-completion-pa-brogue-01",
+        "assignee": "Buildrbear",
+        "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+        "issueUrl": "https://github.com/Buildrbear/auditmap/issues/74",
+        "claimedAt": "2026-09-04",
+        "expiresAt": "2026-09-18",
+        "lastUpdatedAt": "2026-09-04",
+        "status": "submitted",
+        "submissionUrl": "https://github.com/Buildrbear/auditmap/pull/75",
+        "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/75",
+        "acceptedRecordIds": [
+          "/us/pa/brogue/parks/rocky-ridge-park"
+        ],
+        "reviewQueue": [
+          {
+            "issue": "Rocky Ridge Park still lacks a complete recurring visitor-answer set and representative reuse-cleared ground photography.",
+            "recommendation": "Keep the parent unpublished until a separate launch-guide pass clears both gates and rechecks trail and hunting conditions."
+          }
+        ],
+        "notes": "One qualified York County inventory parent with an official facility pin and source-backed candidate destinations is submitted in PR #75. No page or operator media was generated."
+      },
       "count": 1,
       "recordIds": [
         "/us/pa/brogue/parks/rocky-ridge-park"
@@ -378,8 +399,43 @@
       "type": "research-completion",
       "state": "PA",
       "citySlug": "york",
-      "status": "open",
-      "claim": null,
+      "status": "submitted",
+      "claim": {
+        "packetId": "research-completion-pa-york-01",
+        "assignee": "Buildrbear",
+        "assignmentUrl": "https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6",
+        "issueUrl": "https://github.com/Buildrbear/auditmap/issues/74",
+        "claimedAt": "2026-09-04",
+        "expiresAt": "2026-09-18",
+        "lastUpdatedAt": "2026-09-04",
+        "status": "submitted",
+        "submissionUrl": "https://github.com/Buildrbear/auditmap/pull/75",
+        "pullRequestUrl": "https://github.com/Buildrbear/auditmap/pull/75",
+        "acceptedRecordIds": [
+          "/us/pa/york/parks/farquhar-park-and-kiwanis-lake",
+          "/us/pa/york/parks/heritage-rail-trail-county-park",
+          "/us/pa/york/parks/john-c-rudy-park",
+          "/us/pa/york/parks/memorial-park-complex",
+          "/us/pa/york/parks/penn-park",
+          "/us/pa/york/parks/richard-m-nixon-park",
+          "/us/pa/york/parks/william-h-kain-park"
+        ],
+        "reviewQueue": [
+          {
+            "issue": "Heritage Rail Trail's listed downtown address and official destination link disagree, and William H. Kain Park has conflicting official postal localities.",
+            "recommendation": "Resolve both arrival questions with operator GIS or field evidence before publishing navigation."
+          },
+          {
+            "issue": "Farquhar Park and Kiwanis Lake may need separate parent identities, while Memorial Park Complex has multiple official names and arrivals.",
+            "recommendation": "Review current boundaries, signs, and wayfinding before fixing canonical identities."
+          },
+          {
+            "issue": "All seven York-address parents lack complete recurring visitor answers and representative reuse-cleared ground photography.",
+            "recommendation": "Complete both gates under separately reviewed launch-guide work; do not use aerial imagery as a hero-photo fallback."
+          }
+        ],
+        "notes": "Seven qualified York inventory parents, reviewed source lists, coordinate provenance, candidate destinations, and explicit release gates are submitted in PR #75. No York pages or operator media were generated."
+      },
       "count": 7,
       "recordIds": [
         "/us/pa/york/parks/farquhar-park-and-kiwanis-lake",
