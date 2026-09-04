@@ -5,6 +5,7 @@
 - Scope: eight anchor parks and trail destinations in York city and the surrounding York County park system
 - OpenTask project: https://opentask.ai/projects/cms6chmlu0003l204mn6qvfw6
 - GitHub issue: https://github.com/Buildrbear/auditmap/issues/74
+- Pull request: https://github.com/Buildrbear/auditmap/pull/75 (draft)
 - Contribution tier: inventory
 - Checked: 2026-09-04
 - Production publication: not performed
@@ -13,7 +14,7 @@
 
 The York baseline was a real coverage gap: none of the selected parents appeared in the local launch map, official catalogue, sitemap, or national coverage registry. This packet accepts eight source-backed inventory parents and gives them canonical candidate names, aliases, managing agencies, addresses, map coordinates with provenance and quality labels, official sources, candidate subsites, and explicit release gates.
 
-The national registry now exposes seven records in `research-completion-pa-york-01` and Rocky Ridge Park in `research-completion-pa-brogue-01`. These are coordination packets, not page approvals. No York page, subsite, image, database record, or production deployment is created by this inventory.
+The national registry now exposes seven records in `research-completion-pa-york-01` and Rocky Ridge Park in `research-completion-pa-brogue-01`. Both packets are reserved to issue #74 and draft PR #75 so another daily contribution cannot overlap this work. These are coordination packets, not page approvals. No York page, subsite, image, database record, or production deployment is created by this inventory.
 
 ## Accepted Parents
 
